@@ -21,7 +21,7 @@ síncronos quinzenais de discussão de caso.
 | 4 | Lesão, dor e retorno ao esporte | M15–M17 | 60h |
 | 5 | Nutrição, suplementação e o filtro | M18–M19 | 40h |
 | 6 | Prática integradora e TCC | M20–M22 | 40h |
-| | **Total** | **22 módulos** | **420h** |
+| | **Total** | **22 módulos · 209 aulas** | **420h** |
 
 ---
 
@@ -87,7 +87,7 @@ A porta de entrada da marca, virada currículo.
 | # | Módulo | Carga |
 |---|---|---|
 | M20 | Time multiprofissional, escopo e comunicação clínica | 10h |
-| M21 | Casos integradores: raciocínio clínico com a lente | 10h |
+| M21 | Raciocínio clínico integrado | 10h |
 | M22 | TCC — plano de cuidado de um atleta real | 20h |
 
 ---
@@ -112,18 +112,34 @@ evita o TCC-revisão que ninguém lê e todo mundo plagia.
 
 ---
 
-## Estrutura de cada módulo de 20h
+## Regras de aula (travadas)
 
-Padrão fixo, para viabilizar produção em escala:
+| Regra | Valor |
+|---|---|
+| Duração padrão | 20 a 30 minutos |
+| Aula complexa (exceção) | até 1h20 |
+| Máximo por módulo | 12 aulas |
+| Caso clínico | apenas quando ensina o que exposição não ensina |
+
+A duração curta é decisão de EAD, não de economia: aula longa é abandonada no
+meio e não é retomada. O limite de 12 aulas por módulo protege o aluno de
+módulo que não termina — e protege a produção de módulo que não fecha.
+
+**Aula complexa é exceção rara.** Quatro no programa inteiro (M9.6, M13.10,
+M21.2, M21.3), todas de diagnóstico diferencial ou decisão de risco: conteúdos
+que perdem sentido se fatiados.
+
+## Estrutura de cada módulo de 20h
 
 | Componente | Duração |
 |---|---|
-| 6 a 8 videoaulas de 25–40 min | ~4h |
+| 8 a 12 videoaulas de 20–30 min | ~4h30 |
 | Material de leitura (PDF, 15–25 páginas) | ~4h |
 | Artigos comentados (2 a 3 por módulo) | ~3h |
-| Estudo de caso guiado | ~3h |
+| Atividade aplicada guiada | ~2h30 |
 | Encontro síncrono / gravação de discussão | ~2h |
 | Estudo autônomo e avaliação | ~4h |
 
-**Total de videoaulas do programa: ~150 aulas.** É o número que dimensiona
-todo o cronograma de produção.
+**Total do programa: 209 videoaulas, ~99h de vídeo.** É o número que dimensiona
+todo o cronograma de produção. A distribuição aula a aula está em
+[`03-ementas.md`](03-ementas.md).
