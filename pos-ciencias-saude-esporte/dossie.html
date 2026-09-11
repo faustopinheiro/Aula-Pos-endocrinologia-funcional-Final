@@ -1,0 +1,374 @@
+<title>Ciências da Saúde Aplicadas ao Esporte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --bg:#f1ebdf; --surface:#f8f5ed; --surface-2:#e9e1d1; --rule:#d9cdb6;
+  --ink:#1d2b3a; --ink-soft:#4c5c6d; --ink-faint:#7e8895;
+  --gold:#b8923f; --blue:#2d4a7a; --clay:#c23a32;
+  --e0:#1f6f6b; --e1:#2d4a7a; --e2:#3a4170; --e3:#7c3048; --e4:#c23a32; --e5:#5f6b39; --e6:#b8923f;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Sans 3","Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  --wrap:960px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#151d26; --surface:#1d2b3a; --surface-2:#243346; --rule:#35485e;
+    --ink:#ece5d7; --ink-soft:#b4bdc8; --ink-faint:#8a94a2;
+    --gold:#d4ae5c; --blue:#82a6dc; --clay:#e2695f;
+    --e0:#4fb3ac; --e1:#82a6dc; --e2:#9099d8; --e3:#d1748f; --e4:#e2695f; --e5:#a5b26c; --e6:#d4ae5c;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151d26; --surface:#1d2b3a; --surface-2:#243346; --rule:#35485e;
+  --ink:#ece5d7; --ink-soft:#b4bdc8; --ink-faint:#8a94a2;
+  --gold:#d4ae5c; --blue:#82a6dc; --clay:#e2695f;
+  --e0:#4fb3ac; --e1:#82a6dc; --e2:#9099d8; --e3:#d1748f; --e4:#e2695f; --e5:#a5b26c; --e6:#d4ae5c;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased}
+.wrap{max-width:var(--wrap);margin:0 auto;padding-inline:22px;padding-block:0}
+p{margin:0 0 1em}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;font-weight:600;line-height:1.14}
+a{color:var(--blue)}
+strong{font-weight:700}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint)}
+
+/* ── header ── */
+header{border-bottom:1px solid var(--rule);padding-block:64px 44px}
+header .eyebrow{color:var(--gold)}
+h1{font-size:clamp(2.5rem,7vw,4.1rem);letter-spacing:-.02em;margin:.34em 0 .18em}
+.enfase{font-family:var(--display);font-style:italic;font-size:clamp(1.05rem,2.6vw,1.35rem);color:var(--ink-soft);margin-bottom:1.6em}
+.thesis{font-family:var(--display);font-size:clamp(1.4rem,4vw,2rem);line-height:1.28;color:var(--ink);
+  border-left:4px solid var(--clay);padding-left:22px;margin:0 0 .5em}
+.thesis-note{font-size:.92rem;color:var(--ink-faint);padding-left:26px;margin:0}
+.coord{margin-top:2.4em;font-family:var(--mono);font-size:.8rem;color:var(--ink-faint)}
+
+section{padding-block:52px;border-bottom:1px solid var(--rule)}
+section:last-of-type{border-bottom:0}
+h2{font-size:clamp(1.6rem,4vw,2.15rem);letter-spacing:-.015em;margin-bottom:.5em}
+h2 .kw{color:var(--gold)}
+.lede{font-size:1.09rem;color:var(--ink-soft);max-width:62ch}
+.body-max{max-width:66ch}
+
+/* ── contraste elite x real ── */
+.compare{display:grid;grid-template-columns:1fr;gap:0;margin-top:30px;border:1px solid var(--rule);border-radius:3px;overflow:hidden;background:var(--surface)}
+.compare-row{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--rule)}
+.compare-row:last-child{border-bottom:0}
+.compare-head{background:var(--surface-2)}
+.compare-cell{padding:13px 18px;font-size:.95rem}
+.compare-cell:first-child{border-right:1px solid var(--rule);color:var(--ink-soft)}
+.compare-head .compare-cell{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-faint);padding-block:10px}
+.compare-head .compare-cell:last-child{color:var(--clay)}
+
+/* ── modelo: a conta ── */
+.conta{margin-top:34px}
+.conta-bar{display:flex;height:56px;border-radius:3px;overflow:hidden;border:1px solid var(--rule)}
+.conta-seg{flex:1;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.06em;text-transform:uppercase;color:#f8f5ed;text-align:center;padding:4px;line-height:1.25}
+.conta-legend{font-size:.86rem;color:var(--ink-faint);margin-top:11px;font-style:italic}
+.conta-label{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.7rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:8px}
+
+/* ── ficha ── */
+.ficha{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;background:var(--rule);
+  border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin-top:8px}
+.ficha div{background:var(--surface);padding:16px 18px}
+.ficha dt{font-family:var(--mono);font-size:.68rem;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-faint)}
+.ficha dd{margin:5px 0 0;font-family:var(--display);font-size:1.5rem;font-weight:600;font-variant-numeric:tabular-nums}
+.ficha dd small{font-family:var(--body);font-size:.82rem;font-weight:400;color:var(--ink-soft);display:block;line-height:1.4;margin-top:2px}
+
+/* ── eixos ── */
+.eixo{margin-top:44px;--c:var(--gold)}
+.eixo-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;padding-bottom:10px;border-bottom:2px solid var(--c)}
+.eixo-n{font-family:var(--mono);font-size:.74rem;letter-spacing:.13em;text-transform:uppercase;color:var(--c);white-space:nowrap}
+.eixo-nome{font-family:var(--display);font-size:1.35rem;font-weight:600;flex:1;min-width:200px}
+.eixo-h{font-family:var(--mono);font-size:.84rem;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.eixo-nota{font-size:.95rem;color:var(--ink-soft);margin:12px 0 0;max-width:64ch;font-style:italic}
+
+.mods{margin-top:18px;display:flex;flex-direction:column;gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.mod{background:var(--surface);padding:15px 18px;display:grid;grid-template-columns:56px 1fr auto;gap:6px 16px;align-items:baseline}
+.mod-id{font-family:var(--mono);font-size:.82rem;color:var(--c);font-weight:500}
+.mod-nome{font-weight:600;font-size:1.02rem}
+.mod-h{font-family:var(--mono);font-size:.8rem;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.lig{grid-column:2/-1;display:flex;align-items:center;gap:9px;flex-wrap:wrap;font-size:.87rem;color:var(--ink-soft)}
+.lig .a,.lig .b{white-space:normal}
+.link{flex:0 0 46px;height:10px;position:relative}
+.link::before{content:"";position:absolute;top:4px;left:5px;right:5px;height:2px;
+  background:linear-gradient(90deg,var(--c),var(--gold))}
+.link .n{position:absolute;top:1px;width:8px;height:8px;border-radius:50%;border:2px solid var(--bg)}
+.link .n1{left:0;background:var(--c)}
+.link .n2{right:0;background:var(--gold)}
+
+/* ── tabelas simples ── */
+.tbl{width:100%;border-collapse:collapse;margin-top:22px;font-size:.96rem}
+.tbl th,.tbl td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--rule)}
+.tbl th{font-family:var(--mono);font-size:.7rem;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-faint);font-weight:400}
+.tbl td:last-child,.tbl th:last-child{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.tbl-scroll{overflow-x:auto}
+
+/* ── ondas ── */
+.ondas{display:flex;flex-direction:column;gap:16px;margin-top:26px;counter-reset:onda}
+.onda{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start;padding-bottom:16px;border-bottom:1px solid var(--rule)}
+.onda:last-child{border-bottom:0;padding-bottom:0}
+.onda-n{font-family:var(--display);font-size:2.3rem;font-weight:700;color:var(--gold);line-height:1;
+  font-variant-numeric:tabular-nums;min-width:1.2em}
+.onda h3{font-size:1.12rem;margin-bottom:.25em}
+.onda-mods{font-family:var(--mono);font-size:.76rem;letter-spacing:.06em;color:var(--ink-faint);margin-bottom:.5em}
+.onda p{font-size:.96rem;color:var(--ink-soft);margin:0}
+
+/* ── argumentos ── */
+.args{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:14px}
+.args li{padding-left:22px;position:relative;color:var(--ink-soft);max-width:66ch}
+.args li::before{content:"";position:absolute;left:0;top:.62em;width:9px;height:9px;border-radius:50%;background:var(--gold)}
+.args li b{color:var(--ink)}
+
+.passos{list-style:none;counter-reset:p;padding:0;margin:24px 0 0;display:grid;gap:12px}
+.passos li{counter-increment:p;display:grid;grid-template-columns:30px 1fr;gap:12px;align-items:baseline;color:var(--ink-soft);max-width:66ch}
+.passos li::before{content:counter(p,decimal-leading-zero);font-family:var(--mono);font-size:.78rem;color:var(--gold)}
+.passos li b{color:var(--ink)}
+
+footer{padding-block:40px 64px;font-family:var(--mono);font-size:.76rem;color:var(--ink-faint);line-height:1.7}
+.sig{display:flex;align-items:center;gap:11px;margin-bottom:14px}
+.sig-dot{width:26px;height:26px;border-radius:50%;background:conic-gradient(var(--gold),var(--clay),var(--blue),var(--gold))}
+.sig-name{font-family:var(--display);font-size:1rem;color:var(--ink);font-weight:600}
+
+@media (max-width:640px){
+  body{font-size:16px}
+  .compare-row{grid-template-columns:1fr}
+  .compare-cell:first-child{border-right:0;border-bottom:1px solid var(--rule)}
+  .compare-head{display:none}
+  .mod{grid-template-columns:50px 1fr;gap:5px 12px}
+  .mod-h{grid-column:2;justify-self:start}
+  .lig{grid-column:1/-1}
+  .conta-seg{font-size:.6rem}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Pós-graduação lato sensu · 420 horas · EAD</div>
+  <h1>Ciências da Saúde Aplicadas ao Esporte</h1>
+  <div class="enfase">Ênfase: o atleta real — amador, de base e master</div>
+  <p class="thesis">“O protocolo é de elite.<br>O paciente não é.”</p>
+  <p class="thesis-note">A tese do programa, em uma linha.</p>
+  <div class="coord">Coordenação: Fausto Farias · @faustofarias_med<br>Documento de arquitetura curricular — v1, para validação</div>
+</header>
+
+<section>
+  <div class="eyebrow">O inimigo</div>
+  <h2>A ciência do esporte foi escrita para quem <span class="kw">não é</span> o seu paciente</h2>
+  <div class="body-max">
+    <p>O corredor de 42 anos que treina seis horas por semana, dorme cinco, tem trabalho, filho e estresse crônico não é um atleta de elite em escala reduzida. É outro organismo — com outra reserva de recuperação, outra janela de adaptação e outro risco.</p>
+    <p>Mas recebe o mesmo protocolo. Periodização de elite, monitoramento de elite, retorno ao esporte de elite, desenhados para um corpo que tem fisioterapeuta diário, nutricionista, nove horas de sono e nenhuma outra obrigação no dia.</p>
+    <p><strong>O erro clínico mais comum no esporte amador não é de treino. É de contexto.</strong></p>
+  </div>
+
+  <div class="compare">
+    <div class="compare-row compare-head">
+      <div class="compare-cell">Sujeito dos estudos</div>
+      <div class="compare-cell">Quem chega no consultório</div>
+    </div>
+    <div class="compare-row"><div class="compare-cell">8 a 9 horas de sono, horário fixo</div><div class="compare-cell">5 a 6 horas, turno ou plantão</div></div>
+    <div class="compare-row"><div class="compare-cell">Treino é a profissão</div><div class="compare-cell">Treino é a sétima prioridade do dia</div></div>
+    <div class="compare-row"><div class="compare-cell">Equipe multiprofissional diária</div><div class="compare-cell">Uma consulta a cada seis meses</div></div>
+    <div class="compare-row"><div class="compare-cell">Disponibilidade energética monitorada</div><div class="compare-cell">Almoço pulado, jantar às 22h</div></div>
+    <div class="compare-row"><div class="compare-cell">18 a 30 anos, homem, saudável</div><div class="compare-cell">14 a 70 anos, metade mulheres, com comorbidade</div></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">O casco intelectual</div>
+  <h2>A lente: <span class="kw">reserva adaptativa</span></h2>
+  <div class="body-max">
+    <p>Um nome amplo vira commodity se a grade for genérica. O que impede isso é um conceito integrador que atravessa todos os módulos e que o aluno leva embora como forma de raciocinar — não como lista de conteúdos.</p>
+    <p>O organismo tem um <strong>orçamento finito de adaptação</strong>. O treino é apenas um dos débitos lançados nessa conta. Sono, jornada, turno, estresse psicossocial, disponibilidade energética, estado hormonal, idade, fase do ciclo menstrual, estirão puberal, doença crônica e medicação sacam do mesmo orçamento.</p>
+  </div>
+
+  <div class="conta">
+    <div class="conta-label"><span>Orçamento de adaptação do indivíduo</span><span>Débitos</span></div>
+    <div class="conta-bar" role="img" aria-label="A mesma conta de adaptação é debitada por treino, sono, trabalho e estresse, disponibilidade energética, estado hormonal e doença crônica.">
+      <div class="conta-seg" style="background:var(--e2)">Treino</div>
+      <div class="conta-seg" style="background:var(--e0)">Sono</div>
+      <div class="conta-seg" style="background:var(--e1)">Trabalho<br>e estresse</div>
+      <div class="conta-seg" style="background:var(--e5)">Disponibilidade<br>energética</div>
+      <div class="conta-seg" style="background:var(--e3)">Estado<br>hormonal</div>
+      <div class="conta-seg" style="background:var(--e4)">Doença<br>crônica</div>
+    </div>
+    <p class="conta-legend">Modelo conceitual. As proporções variam por indivíduo e por fase da vida — e é isso que o curso ensina a medir.</p>
+  </div>
+
+  <div class="body-max" style="margin-top:30px">
+    <p>A consequência prática, repetida em cada eixo: <strong>a mesma sessão de treino é segura em um corpo e lesiva em outro — e a diferença não está na sessão.</strong></p>
+    <p style="color:var(--ink-soft);font-size:.96rem">Ancoragem: carga alostática, modelo <i>fitness-fatigue</i>, síndrome geral de adaptação revisitada, disponibilidade energética relativa no esporte (RED-S), <i>overreaching</i> não funcional, carga interna versus carga externa.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Ficha técnica</div>
+  <h2>O programa</h2>
+  <dl class="ficha">
+    <div><dt>Carga horária</dt><dd>420h<small>400h disciplinas + 20h TCC</small></dd></div>
+    <div><dt>Eixos</dt><dd>6<small>do fundamento à prática</small></dd></div>
+    <div><dt>Módulos</dt><dd>22<small>20h cada, exceto eixo 6</small></dd></div>
+    <div><dt>Videoaulas</dt><dd>~150<small>25 a 40 minutos</small></dd></div>
+    <div><dt>Duração</dt><dd>12–18<small>meses</small></dd></div>
+    <div><dt>Público</dt><dd>7<small>medicina, fisioterapia, nutrição, educação física, psicologia, enfermagem, biomedicina</small></dd></div>
+  </dl>
+  <p style="margin-top:18px;font-size:.94rem;color:var(--ink-faint);max-width:66ch">As 420h ficam deliberadamente acima do piso de 360h da Resolução CNE/CES nº 1/2018, para suportar corte institucional sem cair abaixo do mínimo legal.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Matriz curricular</div>
+  <h2>Seis eixos, vinte e dois módulos</h2>
+  <p class="lede">Cada módulo declara <strong>a ligação</strong> — os dois sistemas que ele conecta e que a maioria dos cursos ensina separados. Módulo que não liga dois sistemas não entra na grade.</p>
+  <div id="matriz"></div>
+</section>
+
+<section>
+  <div class="eyebrow">Avaliação</div>
+  <h2>O TCC não é revisão de literatura</h2>
+  <div class="body-max">
+    <p>É um <strong>plano de cuidado de um atleta real</strong>: anamnese de carga total documentada, exames interpretados, hipótese pela lente da reserva adaptativa, plano de intervenção multiprofissional com divisão de escopo e critérios objetivos de reavaliação. De 15 a 25 páginas, com defesa gravada de 15 minutos.</p>
+    <p>Isso resolve dois problemas de uma vez: gera um produto que o aluno usa no consultório na segunda-feira seguinte — o que sustenta retenção e indicação — e evita o TCC-revisão que ninguém lê e todo mundo plagia.</p>
+  </div>
+  <div class="tbl-scroll">
+  <table class="tbl">
+    <thead><tr><th>Instrumento</th><th>Onde</th><th>Peso</th></tr></thead>
+    <tbody>
+      <tr><td>Avaliação objetiva por módulo — 10 questões de caso</td><td>todos os módulos</td><td>40%</td></tr>
+      <tr><td>Discussão de caso ao vivo</td><td>encontro quinzenal</td><td>20%</td></tr>
+      <tr><td>Estudo de caso escrito</td><td>1 por eixo, eixos 1 a 4</td><td>20%</td></tr>
+      <tr><td>TCC — plano de cuidado</td><td>M22</td><td>20%</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Produção</div>
+  <h2>Quatro ondas — <span class="kw">primeiro o que vende</span></h2>
+  <p class="lede">São cerca de 150 aulas e meio milhão de palavras de roteiro: aproximadamente dez vezes o Módulo 7 da pós de Endocrinologia Funcional. Não se faz em sequência linear.</p>
+  <div class="ondas">
+    <div class="onda"><div class="onda-n">1</div><div>
+      <h3>O núcleo vendável</h3>
+      <div class="onda-mods">M1 · M4 · M9 · M12 — cerca de 28 aulas</div>
+      <p>M1 é a tese: sem ele existe grade, não curso. M4 é a ferramenta que o aluno usa na segunda-feira seguinte. M9 é a queixa mais frequente do amador. M12 é o maior diferencial competitivo. Com os quatro prontos, existe aula gravada para mostrar a uma faculdade — não um PDF de promessa.</p>
+    </div></div>
+    <div class="onda"><div class="onda-n">2</div><div>
+      <h3>Os eixos de diferencial</h3>
+      <div class="onda-mods">M11 · M13 · M14 · M15 · M16 · M17</div>
+      <p>Ciclos de vida e lesão, completos. É o que nenhum concorrente tem e o que sustenta o preço.</p>
+    </div></div>
+    <div class="onda"><div class="onda-n">3</div><div>
+      <h3>A base técnica</h3>
+      <div class="onda-mods">M2 · M3 · M5 · M6 · M7 · M8 · M10</div>
+      <p>Fisiologia, laboratório, avaliação, sono. Conteúdo mais estável e o de maior reaproveitamento a partir das outras duas pós.</p>
+    </div></div>
+    <div class="onda"><div class="onda-n">4</div><div>
+      <h3>Fechamento</h3>
+      <div class="onda-mods">M18 · M19 · M20 · M21 · M22</div>
+      <p>Nutrição, o filtro, integração e TCC. O módulo de casos vem por último de propósito: ele precisa referenciar todos os anteriores.</p>
+    </div></div>
+  </div>
+  <p style="margin-top:28px;max-width:66ch"><strong>Regra do reaproveitamento entre as três pós:</strong> o conteúdo técnico migra, mas a moldura muda. Toda aula importada é reancorada no atleta real — se a aula fala de jogador profissional, ela não serve aqui sem reescrita do enquadramento. É essa reescrita que justifica a existência do terceiro programa.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Estratégia comercial</div>
+  <h2>O argumento para a faculdade</h2>
+  <ul class="args">
+    <li><b>Piscina de matrícula maior.</b> Multiprofissional e sobre a população que todo profissional atende — não sobre alto rendimento, que emprega pouca gente.</li>
+    <li><b>Sem concorrente direto no catálogo nacional.</b> Toda pós de esporte se posiciona em rendimento. Esta se posiciona em saúde do praticante.</li>
+    <li><b>Coordenador com audiência própria.</b> A captação não depende apenas da mídia paga da instituição.</li>
+    <li><b>Material pronto e gravado.</b> Risco operacional baixo: a instituição entra com credenciamento, plataforma e certificação.</li>
+    <li><b>Compliance curricular.</b> 420h sobre piso de 360h, escopo profissional explicitado módulo a módulo, referências verificadas e recentes.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="eyebrow">Próximos passos</div>
+  <h2>Onde continuar</h2>
+  <ol class="passos">
+    <li><b>Validar esta matriz.</b> Ajustar eixos, cargas e o que sobra ou falta.</li>
+    <li><b>Decidir o nome do método.</b> “Reserva adaptativa” é nome de trabalho — falta cravar se é o termo que vai para o mercado.</li>
+    <li><b>Produzir o M1 completo</b>, de 6 a 8 aulas, como amostra de demonstração.</li>
+    <li><b>Montar o dossiê comercial</b> — uma peça só, para diretor de faculdade.</li>
+    <li><b>Plantar o conceito na audiência</b> com uma série no pilar A LENTE, antes de o curso existir. Quando a pós for lançada, o mercado já reconhece o termo.</li>
+  </ol>
+</section>
+
+<footer>
+  <div class="sig"><div class="sig-dot"></div><div><div class="sig-name">Fausto Farias</div><div>@faustofarias_med</div></div></div>
+  Documento interno de arquitetura curricular. Versão 1, para validação.<br>
+  Nenhuma aula produzida — este documento define o que será produzido.
+</footer>
+</div>
+
+<script>
+const EIXOS=[
+ {n:"Eixo 0",nome:"A Lente — fundamentos integradores",h:"60h",c:"var(--e0)",
+  nota:"Vem primeiro e é citado em todos os outros. É o eixo que impede o curso de virar commodity.",
+  mods:[
+   ["M1","Reserva adaptativa: o modelo integrador","20h","Treino","Estresse psicossocial e jornada"],
+   ["M2","Eixos de regulação no contexto do treino","20h","Endocrinologia","Carga e recuperação tecidual"],
+   ["M3","Evidência, ética e os limites da extrapolação","20h","Metodologia científica","Decisão clínica no indivíduo"]]},
+ {n:"Eixo 1",nome:"Avaliação do atleta real",h:"60h",c:"var(--e1)",
+  nota:"",
+  mods:[
+   ["M4","Anamnese de carga total","20h","Vida civil","Resposta ao treino"],
+   ["M5","Laboratório em quem treina","20h","Exame laboratorial","Fase de treino na coleta"],
+   ["M6","Avaliação funcional e monitoramento acessível","20h","Dado de wearable","Decisão clínica real"]]},
+ {n:"Eixo 2",nome:"Treino, carga e recuperação",h:"80h",c:"var(--e2)",
+  nota:"",
+  mods:[
+   ["M7","Fisiologia do exercício aplicada","20h","Metabolismo celular","Prescrição de zona e volume"],
+   ["M8","Prescrição e periodização para quem tem vida","20h","Periodização clássica","Restrição real de agenda"],
+   ["M9","Carga, overreaching e overtraining","20h","Monitoramento de carga","Diagnóstico diferencial da fadiga"],
+   ["M10","Sono e recuperação como intervenção clínica","20h","Sono","Risco de lesão e resposta hormonal"]]},
+ {n:"Eixo 3",nome:"Ciclos de vida e populações",h:"80h",c:"var(--e3)",
+  nota:"O eixo mais defensável comercialmente: é onde nenhuma pós concorrente entra com profundidade.",
+  mods:[
+   ["M11","Atleta de base: criança e adolescente em maturação","20h","Biologia do crescimento","Carga e seleção esportiva"],
+   ["M12","A mulher atleta","20h","Ciclo hormonal","Tecido conjuntivo e risco de lesão"],
+   ["M13","Atleta master: 40+","20h","Endocrinologia do envelhecimento","Tolerância à carga"],
+   ["M14","O crônico que treina","20h","Farmacologia da doença crônica","Resposta ao exercício"]]},
+ {n:"Eixo 4",nome:"Lesão, dor e retorno ao esporte",h:"60h",c:"var(--e4)",
+  nota:"A porta de entrada da marca, virada currículo.",
+  mods:[
+   ["M15","Epidemiologia e prevenção de lesão no amador","20h","Epidemiologia","Comportamento e rotina"],
+   ["M16","As lesões que realmente chegam ao consultório","20h","Mecânica local","Estado sistêmico"],
+   ["M17","Retorno ao esporte sem time por trás","20h","Critério biomecânico","Prontidão psicológica"]]},
+ {n:"Eixo 5",nome:"Nutrição, suplementação e o filtro",h:"40h",c:"var(--e5)",
+  nota:"",
+  mods:[
+   ["M18","Nutrição esportiva aplicada à vida real","20h","Disponibilidade energética","Função endócrina e óssea"],
+   ["M19","O filtro: suplementos, nutracêuticos e a indústria","20h","Marketing da indústria","Fisiologia real do praticante"]]},
+ {n:"Eixo 6",nome:"Prática integradora e TCC",h:"40h",c:"var(--e6)",
+  nota:"",
+  mods:[
+   ["M20","Time multiprofissional, escopo e comunicação clínica","10h","Prática clínica","Trabalho em equipe"],
+   ["M21","Casos integradores: raciocínio clínico com a lente","10h","Todos os eixos","Simultaneamente"],
+   ["M22","TCC — plano de cuidado de um atleta real","20h","Teoria do programa","Um paciente com nome"]]}
+];
+const esc=s=>s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+document.getElementById("matriz").innerHTML=EIXOS.map(e=>`
+<div class="eixo" style="--c:${e.c}">
+  <div class="eixo-head">
+    <span class="eixo-n">${esc(e.n)}</span>
+    <span class="eixo-nome">${esc(e.nome)}</span>
+    <span class="eixo-h">${esc(e.h)}</span>
+  </div>
+  ${e.nota?`<p class="eixo-nota">${esc(e.nota)}</p>`:""}
+  <div class="mods">${e.mods.map(m=>`
+    <div class="mod">
+      <span class="mod-id">${esc(m[0])}</span>
+      <span class="mod-nome">${esc(m[1])}</span>
+      <span class="mod-h">${esc(m[2])}</span>
+      <span class="lig"><span class="a">${esc(m[3])}</span><span class="link"><span class="n n1"></span><span class="n n2"></span></span><span class="b">${esc(m[4])}</span></span>
+    </div>`).join("")}</div>
+</div>`).join("");
+</script>
