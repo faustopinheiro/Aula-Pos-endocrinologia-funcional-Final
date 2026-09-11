@@ -21,7 +21,7 @@ síncronos quinzenais de discussão de caso.
 | 4 | Lesão, dor e retorno ao esporte | M15–M17 | 60h |
 | 5 | Nutrição, suplementação e o filtro | M18–M19 | 40h |
 | 6 | Prática integradora e TCC | M20–M22 | 40h |
-| | **Total** | **22 módulos · 209 aulas** | **420h** |
+| | **Total** | **22 módulos · 173 aulas** | **420h** |
 
 ---
 
@@ -118,14 +118,14 @@ evita o TCC-revisão que ninguém lê e todo mundo plagia.
 |---|---|
 | Duração padrão | 20 a 30 minutos |
 | Aula complexa (exceção) | até 1h20 |
-| Máximo por módulo | 12 aulas |
+| Aulas por módulo | 7 a 9 (teto absoluto: 12) |
 | Caso clínico | apenas quando ensina o que exposição não ensina |
 
 A duração curta é decisão de EAD, não de economia: aula longa é abandonada no
 meio e não é retomada. O limite de 12 aulas por módulo protege o aluno de
 módulo que não termina — e protege a produção de módulo que não fecha.
 
-**Aula complexa é exceção rara.** Quatro no programa inteiro (M9.6, M13.10,
+**Aula complexa é exceção rara.** Quatro no programa inteiro (M9.6, M13.8,
 M21.2, M21.3), todas de diagnóstico diferencial ou decisão de risco: conteúdos
 que perdem sentido se fatiados.
 
@@ -133,13 +133,13 @@ que perdem sentido se fatiados.
 
 | Componente | Duração |
 |---|---|
-| 8 a 12 videoaulas de 20–30 min | ~4h30 |
+| 7 a 9 videoaulas de 20–30 min | ~4h |
 | Material de leitura (PDF, 15–25 páginas) | ~4h |
 | Artigos comentados (2 a 3 por módulo) | ~3h |
 | Atividade aplicada guiada | ~2h30 |
 | Encontro síncrono / gravação de discussão | ~2h |
 | Estudo autônomo e avaliação | ~4h |
 
-**Total do programa: 209 videoaulas, ~99h de vídeo.** É o número que dimensiona
+**Total do programa: 173 videoaulas, ~85h de vídeo.** É o número que dimensiona
 todo o cronograma de produção. A distribuição aula a aula está em
 [`03-ementas.md`](03-ementas.md).

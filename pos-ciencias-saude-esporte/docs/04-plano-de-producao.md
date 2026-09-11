@@ -4,11 +4,11 @@
 
 | Item | Quantidade |
 |---|---|
-| Módulos | 22 (máximo de 12 aulas cada) |
-| Videoaulas | 209 (20–30 min; 4 exceções de até 1h20) |
-| Horas de vídeo | ~99h |
+| Módulos | 22 (7 a 9 aulas cada) |
+| Videoaulas | 173 (20–30 min; 4 exceções de 50 min) |
+| Horas de vídeo | ~85h |
 | Roteiro de teleprompter | ~2.900–3.500 palavras por aula |
-| Palavras totais estimadas | ~650.000 |
+| Palavras totais estimadas | ~695.000 |
 | Apostilas em PDF | 22 (15–25 páginas) |
 | Atividades aplicadas | 1 por eixo |
 | Bancos de questões | 22 × 10 = 220 questões |
@@ -18,11 +18,15 @@ Funcional fechou 18 aulas e 51.715 palavras — 2.873 palavras por aula, ou
 cerca de 21 minutos falados. **Este programa é cerca de doze vezes aquilo.**
 Não se faz em sequência linear sem um plano de fases.
 
-**Correção de estimativa.** A primeira versão deste plano falava em ~150 aulas
-e 500 mil palavras. Ao aplicar a regra de 20 a 30 minutos por aula, o mesmo
-conteúdo passou a ser fatiado em mais aulas: 209 em vez de 150. O tempo total
-de vídeo mudou pouco — o que mudou foi o número de peças a produzir, gravar e
-editar. Planeje por peça, não por hora.
+**Histórico de estimativa.** A primeira versão falava em ~150 aulas. A regra
+de 20 a 30 minutos elevou para 209. A calibragem equilibrada — 7 a 9 aulas por
+módulo, com o conteúdo excedente migrando para apostila e atividade aplicada —
+trouxe para **173 aulas e ~85h de vídeo**, sem cortar uma linha de ementa.
+
+O roteiro subiu de 650 mil para 695 mil palavras porque a estimativa anterior
+aplicava o ritmo de fala de forma inconsistente. O cálculo correto é
+minutos × 137 palavras por minuto, ritmo extraído do seu Módulo 7. Planeje por
+peça gravada, não por hora de vídeo.
 
 ---
 
@@ -32,7 +36,7 @@ A regra que governa a ordem: **produzir primeiro o que vende, depois o que
 completa.**
 
 ### Onda 1 — O núcleo vendável (M1, M4, M9, M12)
-Quatro módulos, 42 aulas (10 + 10 + 10 + 12). Escolhidos porque:
+Quatro módulos, 35 aulas (9 + 8 + 9 + 9). Escolhidos porque:
 - **M1** é a tese. Sem ele, não existe curso — existe grade.
 - **M4** é a ferramenta que o aluno usa na segunda-feira seguinte.
 - **M9** é a dor mais frequente do praticante amador (fadiga e platô).

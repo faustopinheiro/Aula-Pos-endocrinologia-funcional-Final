@@ -9,7 +9,7 @@ programático aula a aula com duração**.
 |---|---|
 | Duração padrão da aula | 20 a 30 minutos |
 | Aula complexa (exceção, marcada com ⧗) | até 1h20 |
-| Máximo de aulas por módulo | 12 |
+| Aulas por módulo | 7 a 9 (teto absoluto: 12) |
 | Caso clínico | apenas quando ensina o que exposição não ensina |
 | Modalidade | EAD assíncrono |
 
@@ -27,44 +27,49 @@ material com o seu nome.
 # EIXO 0 — A LENTE
 
 ## M1 — Reserva adaptativa: o modelo integrador
-**20h · 10 aulas · Eixo 0**
+**20h · 9 aulas · Eixo 0**
 
 **Ementa.** O orçamento finito de adaptação do organismo. Síndrome geral de
 adaptação revisitada e suas críticas contemporâneas. Modelo fitness-fatigue.
 Carga alostática e o custo cumulativo do estresse não-atlético. Carga interna
-versus carga externa. Por que o protocolo validado em elite falha no amador.
-Construção da conta de carga total do indivíduo.
+versus carga externa. A mitocôndria como substrato físico da reserva: a
+capacidade oxidativa como moeda com que o organismo paga a adaptação. Por que
+o protocolo validado em elite falha no amador. Construção da conta de carga
+total do indivíduo.
 
 **Objetivos.** Ao final, o aluno deve ser capaz de: explicar o modelo de
 reserva adaptativa e sua base fisiológica; distinguir carga interna de carga
 externa e justificar por que a segunda não prediz a primeira; identificar os
-débitos não-atléticos que consomem a reserva; e construir a conta de carga
-total de um indivíduo a partir de dados de anamnese.
+débitos não-atléticos que consomem a reserva; relacionar capacidade
+mitocondrial a capacidade de adaptação, com a ressalva de que disfunção
+mitocondrial em praticante sem doença é mecanismo plausível e não causa
+provada; e construir a conta de carga total de um indivíduo a partir de dados
+de anamnese.
 
 | # | Aula | Duração |
 |---|---|---|
-| 1 | O erro de contexto: por que o protocolo de elite falha no amador | 25 min |
-| 2 | Síndrome geral de adaptação: o que Selye disse e o que foi distorcido | 25 min |
-| 3 | O modelo fitness-fatigue e seus limites | 25 min |
-| 4 | Carga alostática: o custo do estresse que não é treino | 30 min |
-| 5 | Carga interna e carga externa: a distinção que muda a conduta | 25 min |
+| 1 | O erro de contexto: por que o protocolo de elite falha no amador | 30 min |
+| 2 | Síndrome geral de adaptação: o que Selye disse e o que foi distorcido | 30 min |
+| 3 | Fitness-fatigue e carga alostática: dois modelos, uma conta | 30 min |
+| 4 | Carga interna e carga externa: a distinção que muda a conduta | 25 min |
+| 5 | A mitocôndria como substrato da reserva adaptativa | 30 min |
 | 6 | O orçamento de adaptação: construindo a conta | 30 min |
 | 7 | Os seis débitos: treino, sono, trabalho, energia, hormônio, doença | 30 min |
-| 8 | Reserva adaptativa ao longo da vida: criança, adulto, master | 25 min |
-| 9 | Como a reserva se esgota: do platô ao overtraining | 25 min |
-| 10 | A lente aplicada: três praticantes, a mesma queixa, contas diferentes | 30 min |
+| 8 | Reserva adaptativa ao longo da vida e como ela se esgota | 30 min |
+| 9 | A lente aplicada: três praticantes, a mesma queixa, contas diferentes | 30 min |
 
 **A LIGAÇÃO:** treino ↔ estresse psicossocial e jornada de trabalho.
 
 ---
 
 ## M2 — Eixos de regulação no contexto do treino
-**20h · 10 aulas · Eixo 0**
+**20h · 8 aulas · Eixo 0**
 
 **Ementa.** Eixo hipotálamo-hipófise-adrenal e a resposta ao exercício agudo e
 crônico. Eixo gonadal masculino e feminino e a supressão por déficit
-energético. Eixo tireoidiano e a síndrome do eutireoidiano doente no atleta em
-restrição. GH e IGF-1 na recuperação tecidual. Sinalização periférica de
+energético. Eixo tireoidiano, ação do T3 sobre a biogênese mitocondrial e a síndrome do
+eutireoidiano doente no atleta em restrição. GH e IGF-1 na recuperação
+tecidual. Sinalização periférica de
 leptina, grelina e insulina. Eixo intestino-cérebro e treino.
 
 **Objetivos.** Descrever a resposta de cada eixo ao exercício agudo e crônico;
@@ -75,22 +80,20 @@ tecidual; e diferenciar adaptação fisiológica de disfunção.
 | # | Aula | Duração |
 |---|---|---|
 | 1 | Panorama: os eixos de regulação e o exercício | 25 min |
-| 2 | Eixo HPA e cortisol: a resposta aguda ao esforço | 25 min |
-| 3 | Cortisol crônico: treino e trabalho sacando do mesmo hormônio | 30 min |
-| 4 | Eixo gonadal masculino: testosterona e carga de treino | 25 min |
-| 5 | Eixo gonadal feminino: estradiol, progesterona e treino | 30 min |
-| 6 | Supressão por déficit energético: como o corpo desliga o eixo | 30 min |
-| 7 | Eixo tireoidiano e o eutireoidiano doente no atleta em restrição | 30 min |
-| 8 | GH e IGF-1: recuperação tecidual e a dependência do sono | 25 min |
-| 9 | Sinalização periférica: leptina, grelina e insulina | 25 min |
-| 10 | Eixo intestino-cérebro e treino | 25 min |
+| 2 | Eixo HPA: resposta aguda ao esforço e cortisol crônico | 30 min |
+| 3 | Eixo gonadal masculino: testosterona e carga de treino | 25 min |
+| 4 | Eixo gonadal feminino: estradiol, progesterona e treino | 30 min |
+| 5 | Supressão por déficit energético: como o corpo desliga o eixo | 30 min |
+| 6 | Eixo tireoidiano: T3, biogênese mitocondrial e o eutireoidiano doente | 30 min |
+| 7 | GH e IGF-1: recuperação tecidual e a dependência do sono | 25 min |
+| 8 | Sinalização periférica e eixo intestino-cérebro | 30 min |
 
 **A LIGAÇÃO:** endocrinologia ↔ carga de treino e recuperação tecidual.
 
 ---
 
 ## M3 — Evidência, ética e os limites da extrapolação
-**20h · 8 aulas · Eixo 0**
+**20h · 7 aulas · Eixo 0**
 
 **Ementa.** Definição de saúde da OMS aplicada ao esporte recreativo.
 Hierarquia de evidência e leitura crítica. Sub-representação de mulheres,
@@ -112,8 +115,7 @@ os limites do próprio escopo profissional.
 | 4 | Validade externa: o erro de extrapolar | 25 min |
 | 5 | Linguagem condicional: associação não é causa | 25 min |
 | 6 | Escopo profissional e limites éticos no time | 30 min |
-| 7 | Conflito de interesse e a indústria na literatura esportiva | 25 min |
-| 8 | Comunicando incerteza para o praticante | 25 min |
+| 7 | Conflito de interesse, indústria e comunicação de incerteza | 30 min |
 
 **A LIGAÇÃO:** metodologia científica ↔ decisão clínica no indivíduo.
 
@@ -122,7 +124,7 @@ os limites do próprio escopo profissional.
 # EIXO 1 — AVALIAÇÃO DO ATLETA REAL
 
 ## M4 — Anamnese de carga total
-**20h · 10 aulas · Eixo 1**
+**20h · 8 aulas · Eixo 1**
 
 **Ementa.** Construção da entrevista que captura o que a anamnese esportiva
 tradicional não pergunta: sono, turno e deslocamento, carga mental, cuidado de
@@ -139,21 +141,19 @@ estabelecer critérios de reavaliação.
 |---|---|---|
 | 1 | O que a anamnese esportiva tradicional não pergunta | 25 min |
 | 2 | Sono: as cinco perguntas que mudam a conduta | 25 min |
-| 3 | Trabalho, turno e deslocamento | 25 min |
-| 4 | Carga mental e vida doméstica | 25 min |
-| 5 | História alimentar e restrição prévia | 30 min |
-| 6 | História de lesão e de infecção recorrente | 25 min |
-| 7 | Substâncias, suplementos e automedicação | 25 min |
-| 8 | Instrumentos validados aplicáveis no consultório | 30 min |
-| 9 | Montando a conta: da entrevista ao orçamento | 30 min |
-| 10 | Documentação e critérios de reavaliação | 25 min |
+| 3 | Trabalho, turno, deslocamento e carga mental | 30 min |
+| 4 | História alimentar e restrição prévia | 30 min |
+| 5 | História de lesão e de infecção recorrente | 25 min |
+| 6 | Substâncias, suplementos e automedicação | 25 min |
+| 7 | Instrumentos validados aplicáveis no consultório | 30 min |
+| 8 | Da entrevista ao orçamento: montando e reavaliando a conta | 30 min |
 
 **A LIGAÇÃO:** vida civil ↔ resposta ao treino.
 
 ---
 
 ## M5 — Laboratório em quem treina
-**20h · 12 aulas · Eixo 1**
+**20h · 9 aulas · Eixo 1**
 
 **Ementa.** O que o exercício altera em exame de rotina e como não confundir
 adaptação com doença. Enzimas musculares, hemograma do atleta e pseudoanemia
@@ -171,23 +171,20 @@ incidental.
 |---|---|---|
 | 1 | O que o exercício altera em exame de rotina | 30 min |
 | 2 | Faixa de referência populacional x faixa esperada em quem treina | 30 min |
-| 3 | CK e enzimas musculares: o erro de olhar isolada | 25 min |
-| 4 | Hemograma do atleta e pseudoanemia dilucional | 30 min |
-| 5 | Ferro, ferritina e o atleta de endurance | 30 min |
-| 6 | Vitamina D: o que medir e o que fazer com o resultado | 25 min |
-| 7 | Perfil tireoidiano em restrição energética | 30 min |
-| 8 | Testosterona: total, livre e SHBG | 30 min |
-| 9 | Perfil lipídico no praticante | 25 min |
-| 10 | Marcadores inflamatórios: utilidade real | 25 min |
-| 11 | Quando NÃO pedir exame | 30 min |
-| 12 | O achado incidental e seu custo clínico | 25 min |
+| 3 | CK, enzimas musculares e o hemograma do atleta | 30 min |
+| 4 | Ferro, ferritina e o atleta de endurance | 30 min |
+| 5 | Vitamina D: o que medir e o que fazer com o resultado | 25 min |
+| 6 | Perfil tireoidiano em restrição energética | 30 min |
+| 7 | Testosterona: total, livre e SHBG | 30 min |
+| 8 | Perfil lipídico e marcadores inflamatórios | 30 min |
+| 9 | Quando NÃO pedir exame e o custo do achado incidental | 30 min |
 
 **A LIGAÇÃO:** laboratório ↔ fase de treino no momento da coleta.
 
 ---
 
 ## M6 — Avaliação funcional e monitoramento acessível
-**20h · 10 aulas · Eixo 1**
+**20h · 8 aulas · Eixo 1**
 
 **Ementa.** O que se mede sem laboratório de fisiologia. Percepção subjetiva de
 esforço e carga sessão-PSE. Variabilidade da frequência cardíaca: evidência e
@@ -209,10 +206,8 @@ corporal sem produzir dano.
 | 4 | Wearables de consumo: acurácia métrica por métrica | 30 min |
 | 5 | Testes de campo para limiar e potência | 30 min |
 | 6 | GPS e acelerometria quando disponíveis | 25 min |
-| 7 | Avaliação de força com recurso mínimo | 25 min |
-| 8 | Mobilidade e controle motor | 25 min |
-| 9 | Composição corporal: métodos, erro e risco | 30 min |
-| 10 | Montando um painel de monitoramento viável | 25 min |
+| 7 | Força, mobilidade e controle motor com recurso mínimo | 30 min |
+| 8 | Composição corporal e a montagem do painel de monitoramento | 30 min |
 
 **A LIGAÇÃO:** dado de tecnologia vestível ↔ decisão clínica real.
 
@@ -221,7 +216,7 @@ corporal sem produzir dano.
 # EIXO 2 — TREINO, CARGA E RECUPERAÇÃO
 
 ## M7 — Fisiologia do exercício aplicada
-**20h · 10 aulas · Eixo 2**
+**20h · 8 aulas · Eixo 2**
 
 **Ementa.** Bioenergética e contribuição relativa dos sistemas por duração e
 intensidade. Limiares ventilatório e de lactato. Consumo máximo de oxigênio e
@@ -235,23 +230,21 @@ intensidade pela adaptação pretendida; e antecipar o efeito interferência.
 
 | # | Aula | Duração |
 |---|---|---|
-| 1 | Bioenergética: os três sistemas na prática | 30 min |
-| 2 | Contribuição relativa por duração e intensidade | 25 min |
-| 3 | Limiares ventilatório e de lactato | 30 min |
-| 4 | VO₂máx e economia de movimento | 30 min |
-| 5 | Adaptações centrais | 25 min |
-| 6 | Adaptações periféricas e biogênese mitocondrial | 30 min |
-| 7 | Adaptação neuromuscular à força | 30 min |
-| 8 | Treino concorrente e o efeito interferência | 30 min |
-| 9 | Calor e desidratação | 25 min |
-| 10 | Altitude e poluição urbana | 25 min |
+| 1 | Bioenergética: os três sistemas e sua contribuição por demanda | 30 min |
+| 2 | Limiares ventilatório e de lactato | 30 min |
+| 3 | VO₂máx e economia de movimento | 30 min |
+| 4 | Adaptações centrais | 25 min |
+| 5 | Adaptações periféricas: biogênese e função mitocondrial | 30 min |
+| 6 | Adaptação neuromuscular à força | 30 min |
+| 7 | Treino concorrente e o efeito interferência | 30 min |
+| 8 | Ambiente: calor, altitude e poluição urbana | 30 min |
 
 **A LIGAÇÃO:** metabolismo celular ↔ prescrição prática de zona e volume.
 
 ---
 
 ## M8 — Prescrição e periodização para quem tem vida
-**20h · 10 aulas · Eixo 2**
+**20h · 8 aulas · Eixo 2**
 
 **Ementa.** Periodização em contexto de 3 a 5 sessões semanais. Modelos
 polarizado, piramidal e limiar quando o volume total é baixo. Força para
@@ -269,27 +262,27 @@ com quem não pode reduzir a carga de trabalho.
 |---|---|---|
 | 1 | Periodização com 3 a 5 sessões: o que muda de fato | 30 min |
 | 2 | Polarizado, piramidal e limiar em volume baixo | 30 min |
-| 3 | Força para o praticante de endurance | 30 min |
-| 4 | Endurance para o praticante de força | 25 min |
-| 5 | Progressão de carga com segurança | 30 min |
-| 6 | A semana que deu errado: viagem, plantão, doença | 30 min |
-| 7 | Prescrição para academia sem objetivo competitivo | 25 min |
-| 8 | Deload: quando e quanto | 25 min |
-| 9 | Taper e preparação de prova para quem trabalha | 30 min |
-| 10 | Reavaliação e ajuste do plano | 25 min |
+| 3 | Força para endurance e endurance para força | 30 min |
+| 4 | Progressão de carga com segurança | 30 min |
+| 5 | A semana que deu errado: viagem, plantão, doença | 30 min |
+| 6 | Prescrição para academia sem objetivo competitivo | 25 min |
+| 7 | Deload e taper para quem trabalha | 30 min |
+| 8 | Reavaliação e ajuste do plano | 25 min |
 
 **A LIGAÇÃO:** periodização clássica ↔ restrição real de agenda.
 
 ---
 
 ## M9 — Carga, overreaching e overtraining
-**20h · 10 aulas · Eixo 2**
+**20h · 9 aulas · Eixo 2**
 
 **Ementa.** Overreaching funcional, não funcional e síndrome do overtraining:
 definição, espectro e critérios. Monitoramento de carga aguda e crônica,
 incluindo a crítica metodológica ao ACWR. Sinais precoces de má adaptação.
-Diagnóstico diferencial completo da fadiga no praticante. Conduta e tempo real
-de recuperação.
+Diagnóstico diferencial completo da fadiga no praticante, incluindo a
+hipótese de disfunção mitocondrial no pós-infeccioso e no pós-COVID, tratada
+com a linguagem condicional que a evidência exige. Conduta e tempo real de
+recuperação.
 
 **Objetivos.** Posicionar um praticante no espectro overreaching–overtraining
 com critérios defensáveis; conduzir o diagnóstico diferencial da fadiga sem
@@ -305,16 +298,15 @@ desempenho; e estabelecer tempo de recuperação realista.
 | 5 | Sinais precoces de má adaptação | 25 min |
 | 6 | ⧗ Fadiga no praticante: o diagnóstico diferencial completo | 50 min |
 | 7 | Anemia, tireoide e apneia como causas ocultas | 30 min |
-| 8 | Depressão e baixa disponibilidade energética | 30 min |
-| 9 | Pós-infecção e pós-COVID | 25 min |
-| 10 | Conduta e tempo real de recuperação | 30 min |
+| 8 | Disfunção mitocondrial, pós-infecção e pós-COVID: o que a evidência sustenta | 30 min |
+| 9 | Depressão, baixa disponibilidade energética e conduta de recuperação | 30 min |
 
 **A LIGAÇÃO:** monitoramento de carga ↔ diagnóstico diferencial clínico.
 
 ---
 
 ## M10 — Sono e recuperação como intervenção clínica
-**20h · 10 aulas · Eixo 2**
+**20h · 8 aulas · Eixo 2**
 
 **Ementa.** Arquitetura do sono e função de cada estágio na recuperação
 muscular, neural e imune. Privação de sono e risco de lesão, sensibilidade à
@@ -330,16 +322,14 @@ adaptação pretendida.
 
 | # | Aula | Duração |
 |---|---|---|
-| 1 | Arquitetura do sono e função de cada estágio | 30 min |
-| 2 | Sono e recuperação muscular, neural e imune | 30 min |
-| 3 | Privação de sono e risco de lesão | 30 min |
-| 4 | Sono, sensibilidade à insulina e apetite | 25 min |
-| 5 | Cronotipo e horário de treino | 25 min |
-| 6 | O trabalhador em turno que treina | 30 min |
-| 7 | Rastreio de apneia obstrutiva no praticante | 25 min |
-| 8 | Higiene do sono com base em evidência | 25 min |
-| 9 | Crioterapia, imersão e compressão: o que sustenta | 30 min |
-| 10 | Quando a recuperação atrapalha a adaptação | 25 min |
+| 1 | Arquitetura do sono e sua função na recuperação muscular, neural e imune | 30 min |
+| 2 | Privação de sono e risco de lesão | 30 min |
+| 3 | Sono, sensibilidade à insulina e apetite | 25 min |
+| 4 | Cronotipo e horário de treino | 25 min |
+| 5 | O trabalhador em turno que treina | 30 min |
+| 6 | Rastreio de apneia obstrutiva no praticante | 25 min |
+| 7 | Higiene do sono com base em evidência | 25 min |
+| 8 | Recuperação: o que sustenta, o que é placebo e o que atrapalha | 30 min |
 
 **A LIGAÇÃO:** sono ↔ risco de lesão e resposta hormonal.
 
@@ -348,7 +338,7 @@ adaptação pretendida.
 # EIXO 3 — CICLOS DE VIDA E POPULAÇÕES
 
 ## M11 — Atleta de base: criança e adolescente em maturação
-**20h · 11 aulas · Eixo 3**
+**20h · 9 aulas · Eixo 3**
 
 **Ementa.** Maturação biológica versus idade cronológica; pico de velocidade de
 crescimento e sua estimativa prática. Efeito da idade relativa na seleção
@@ -365,24 +355,22 @@ conduzir a conversa com família e treinador.
 
 | # | Aula | Duração |
 |---|---|---|
-| 1 | Maturação biológica x idade cronológica | 30 min |
-| 2 | Pico de velocidade de crescimento: estimando na prática | 30 min |
-| 3 | Efeito da idade relativa na seleção esportiva | 25 min |
-| 4 | Especialização precoce: lesão e abandono | 30 min |
-| 5 | Treino de força na criança e no adolescente | 30 min |
-| 6 | Lesões de placa de crescimento | 30 min |
-| 7 | Apofisites e fraturas por estresse no jovem | 30 min |
-| 8 | Disponibilidade energética e RED-S no jovem | 30 min |
-| 9 | Transtorno alimentar em esporte estético e de categoria de peso | 30 min |
-| 10 | Família e treinador: o dano da pressão adulta | 25 min |
-| 11 | Conduta integrada no atleta de base | 25 min |
+| 1 | Maturação biológica x idade cronológica e o pico de velocidade de crescimento | 30 min |
+| 2 | Efeito da idade relativa na seleção esportiva | 25 min |
+| 3 | Especialização precoce: lesão e abandono | 30 min |
+| 4 | Treino de força na criança e no adolescente | 30 min |
+| 5 | Lesões de placa de crescimento | 30 min |
+| 6 | Apofisites e fraturas por estresse no jovem | 30 min |
+| 7 | Disponibilidade energética e RED-S no jovem | 30 min |
+| 8 | Transtorno alimentar em esporte estético e de categoria de peso | 30 min |
+| 9 | Família, treinador e conduta integrada no atleta de base | 30 min |
 
 **A LIGAÇÃO:** biologia do crescimento ↔ carga de treino e seleção esportiva.
 
 ---
 
 ## M12 — A mulher atleta
-**20h · 12 aulas · Eixo 3**
+**20h · 9 aulas · Eixo 3**
 
 **Ementa.** Ciclo menstrual e suas fases: efeitos sobre metabolismo,
 termorregulação, tecido conjuntivo e recuperação, separando evidência de mito.
@@ -399,28 +387,26 @@ menopausal na praticante.
 
 | # | Aula | Duração |
 |---|---|---|
-| 1 | A sub-representação da mulher na literatura esportiva | 25 min |
-| 2 | O ciclo menstrual: fisiologia aplicada ao treino | 30 min |
-| 3 | Fases do ciclo e desempenho: evidência x mito | 30 min |
-| 4 | Contracepção hormonal e treino | 30 min |
-| 5 | Disponibilidade energética relativa: fazendo a conta | 30 min |
-| 6 | Amenorreia hipotalâmica funcional | 30 min |
-| 7 | Tríade e saúde óssea | 30 min |
-| 8 | Lesão de LCA: fatores reais e o que de fato funciona | 30 min |
-| 9 | Gestação e treino | 30 min |
-| 10 | Pós-parto e assoalho pélvico | 30 min |
-| 11 | Transição menopausal e a atleta master | 30 min |
-| 12 | Conduta integrada na mulher praticante | 25 min |
+| 1 | O ciclo menstrual: fisiologia aplicada ao treino | 30 min |
+| 2 | Fases do ciclo e desempenho: evidência x mito | 30 min |
+| 3 | Contracepção hormonal e treino | 30 min |
+| 4 | Disponibilidade energética relativa: fazendo a conta | 30 min |
+| 5 | Amenorreia hipotalâmica funcional e saúde óssea | 30 min |
+| 6 | Lesão de LCA: fatores reais e o que de fato funciona | 30 min |
+| 7 | Gestação, pós-parto e assoalho pélvico | 30 min |
+| 8 | Transição menopausal e a atleta master | 30 min |
+| 9 | Sub-representação na literatura e conduta integrada na mulher praticante | 30 min |
 
 **A LIGAÇÃO:** ciclo hormonal ↔ tecido conjuntivo e risco de lesão.
 
 ---
 
 ## M13 — Atleta master: 40+
-**20h · 11 aulas · Eixo 3**
+**20h · 9 aulas · Eixo 3**
 
-**Ementa.** Sarcopenia e resistência anabólica. Envelhecimento do tendão e da
-matriz extracelular. Tempo de recuperação alongado. Declínio de testosterona no
+**Ementa.** Sarcopenia e resistência anabólica. Declínio da função
+mitocondrial com a idade e sua relação com capacidade de recuperação.
+Envelhecimento do tendão e da matriz extracelular. Tempo de recuperação alongado. Declínio de testosterona no
 homem e transição menopausal na mulher, com os limites da reposição. Saúde
 óssea e treino de impacto. Avaliação pré-participação e risco cardiovascular no
 esforço. Medicação crônica e exercício.
@@ -433,23 +419,21 @@ honestidade sobre evidência e limites.
 | # | Aula | Duração |
 |---|---|---|
 | 1 | O que muda de fato depois dos 40 | 25 min |
-| 2 | Sarcopenia e resistência anabólica | 30 min |
-| 3 | Proteína e estímulo: por que ambos precisam ser maiores | 30 min |
+| 2 | Sarcopenia, resistência anabólica e a proteína do master | 30 min |
+| 3 | Declínio mitocondrial e capacidade de recuperação no envelhecimento | 30 min |
 | 4 | Envelhecimento do tendão e da matriz extracelular | 30 min |
 | 5 | Recuperação alongada: o erro de manter o volume dos 25 anos | 30 min |
-| 6 | Declínio de testosterona: fisiologia e limites da reposição | 30 min |
-| 7 | Transição menopausal e treino | 30 min |
-| 8 | Saúde óssea e treino de impacto | 30 min |
-| 9 | Avaliação pré-participação: quando investigar | 30 min |
-| 10 | ⧗ Risco cardiovascular no esforço: estratificação e decisão | 50 min |
-| 11 | Medicação crônica e exercício no master | 25 min |
+| 6 | Declínio de testosterona e transição menopausal: os limites da reposição | 30 min |
+| 7 | Saúde óssea e treino de impacto | 30 min |
+| 8 | ⧗ Avaliação pré-participação e risco cardiovascular no esforço | 50 min |
+| 9 | Medicação crônica e exercício no master | 25 min |
 
 **A LIGAÇÃO:** endocrinologia do envelhecimento ↔ tolerância à carga.
 
 ---
 
 ## M14 — O crônico que treina
-**20h · 12 aulas · Eixo 3**
+**20h · 9 aulas · Eixo 3**
 
 **Ementa.** Exercício como prescrição terapêutica. Diabetes tipo 1 e tipo 2:
 ajuste de insulina e antidiabéticos, hipoglicemia no exercício, monitoramento
@@ -467,16 +451,13 @@ encaminhamento.
 |---|---|---|
 | 1 | Exercício como prescrição terapêutica | 25 min |
 | 2 | Diabetes tipo 1: insulina e exercício | 30 min |
-| 3 | Diabetes tipo 2 e antidiabéticos | 30 min |
-| 4 | Hipoglicemia no exercício e monitoramento contínuo de glicose | 30 min |
-| 5 | Hipertensão e cardiopatia estável | 30 min |
-| 6 | Obesidade e o praticante em uso de GLP-1 | 30 min |
-| 7 | Perda de massa magra e prescrição de força no GLP-1 | 30 min |
-| 8 | Asma e broncoespasmo induzido por exercício | 25 min |
-| 9 | Doença renal crônica | 25 min |
-| 10 | Câncer e sobrevivente de câncer | 30 min |
-| 11 | Depressão, ansiedade e transtorno alimentar no praticante | 30 min |
-| 12 | Sinais de alarme e critérios de interrupção | 25 min |
+| 3 | Diabetes tipo 2, antidiabéticos e hipoglicemia no esforço | 30 min |
+| 4 | Hipertensão e cardiopatia estável | 30 min |
+| 5 | GLP-1: perda de massa magra e prescrição de força | 30 min |
+| 6 | Asma, broncoespasmo e doença renal crônica | 30 min |
+| 7 | Câncer e sobrevivente de câncer | 30 min |
+| 8 | Depressão, ansiedade e transtorno alimentar no praticante | 30 min |
+| 9 | Sinais de alarme e critérios de interrupção | 25 min |
 
 **A LIGAÇÃO:** farmacologia da doença crônica ↔ resposta ao exercício.
 
@@ -485,7 +466,7 @@ encaminhamento.
 # EIXO 4 — LESÃO, DOR E RETORNO
 
 ## M15 — Epidemiologia e prevenção de lesão no amador
-**20h · 8 aulas · Eixo 4**
+**20h · 7 aulas · Eixo 4**
 
 **Ementa.** Definição e mensuração de lesão em população recreativa. Incidência
 por modalidade no praticante amador. Por que o amador se lesiona diferente do
@@ -505,16 +486,15 @@ prevenção com adesão realista.
 | 3 | Por que o amador se lesiona diferente do profissional | 30 min |
 | 4 | Erro de progressão: o fator número um | 30 min |
 | 5 | Fatores modificáveis e não modificáveis | 25 min |
-| 6 | Programas de prevenção: evidência e tamanho de efeito | 30 min |
-| 7 | O problema da adesão fora do clube | 25 min |
-| 8 | O que vale a pena prescrever de fato | 30 min |
+| 6 | Programas de prevenção: evidência, tamanho de efeito e adesão | 30 min |
+| 7 | O que vale a pena prescrever de fato | 30 min |
 
 **A LIGAÇÃO:** epidemiologia ↔ comportamento e rotina do praticante.
 
 ---
 
 ## M16 — As lesões que realmente chegam ao consultório
-**20h · 12 aulas · Eixo 4**
+**20h · 9 aulas · Eixo 4**
 
 **Ementa.** As condições de maior prevalência no praticante recreativo:
 tendinopatias de Aquiles, patelar, glútea e de manguito; síndrome de estresse
@@ -531,24 +511,21 @@ tratamento; e reconhecer dor persistente que não responde ao modelo tecidual.
 | # | Aula | Duração |
 |---|---|---|
 | 1 | Tendinopatia: o modelo de continuum e o manejo por carga | 30 min |
-| 2 | Tendinopatia de Aquiles | 30 min |
-| 3 | Tendinopatia patelar e glútea | 30 min |
-| 4 | Manguito rotador e ombro do nadador | 30 min |
-| 5 | Síndrome de estresse tibial | 30 min |
-| 6 | Fratura por estresse: reconhecer e conduzir | 30 min |
-| 7 | Dor femoropatelar | 30 min |
-| 8 | Lombalgia no praticante de força | 30 min |
-| 9 | Entorse de tornozelo e instabilidade residual | 30 min |
-| 10 | Lesão de isquiotibiais e panturrilha | 30 min |
-| 11 | Fasciopatia plantar | 25 min |
-| 12 | Dor persistente e sensibilização central | 30 min |
+| 2 | Tendinopatias de Aquiles, patelar e glútea | 30 min |
+| 3 | Manguito rotador e ombro do nadador | 30 min |
+| 4 | Estresse tibial e fratura por estresse | 30 min |
+| 5 | Dor femoropatelar | 30 min |
+| 6 | Lombalgia no praticante de força | 30 min |
+| 7 | Entorse de tornozelo e instabilidade residual | 30 min |
+| 8 | Isquiotibiais, panturrilha e fasciopatia plantar | 30 min |
+| 9 | Dor persistente e sensibilização central | 30 min |
 
 **A LIGAÇÃO:** mecânica local ↔ estado sistêmico (sono, hormônio, energia).
 
 ---
 
 ## M17 — Retorno ao esporte sem time por trás
-**20h · 9 aulas · Eixo 4**
+**20h · 8 aulas · Eixo 4**
 
 **Ementa.** Critérios de retorno ao esporte sem fisioterapia diária nem teste
 isocinético. Progressão de carga por tolerância e por critério, não por
@@ -571,8 +548,7 @@ comunicação honesta de risco residual.
 | 5 | Retorno ao trabalho e ao esporte no mesmo plano | 25 min |
 | 6 | Medo de reinjúria e prontidão psicológica | 30 min |
 | 7 | Decisão compartilhada e comunicação de risco | 25 min |
-| 8 | Prevenção de recidiva | 25 min |
-| 9 | Quando o retorno não é a resposta | 25 min |
+| 8 | Prevenção de recidiva e quando o retorno não é a resposta | 30 min |
 
 **A LIGAÇÃO:** critério biomecânico ↔ prontidão psicológica e contexto de vida.
 
@@ -581,7 +557,7 @@ comunicação honesta de risco residual.
 # EIXO 5 — NUTRIÇÃO, SUPLEMENTAÇÃO E O FILTRO
 
 ## M18 — Nutrição esportiva aplicada à vida real
-**20h · 10 aulas · Eixo 5**
+**20h · 8 aulas · Eixo 5**
 
 **Ementa.** Disponibilidade energética: cálculo, interpretação e identificação
 do déficit. Carboidrato por demanda real de treino. Proteína: necessidade,
@@ -597,28 +573,28 @@ comprometer a reserva adaptativa.
 
 | # | Aula | Duração |
 |---|---|---|
-| 1 | Disponibilidade energética: cálculo e interpretação | 30 min |
-| 2 | Identificando o déficit no praticante | 30 min |
-| 3 | Carboidrato por demanda real de treino | 30 min |
-| 4 | Proteína: necessidade, distribuição e o ajuste do master | 30 min |
-| 5 | Gordura e função endócrina | 25 min |
-| 6 | Periodização nutricional e seus limites no amador | 30 min |
-| 7 | Hidratação e eletrólitos sem exagero | 25 min |
-| 8 | Desconforto gastrointestinal no corredor | 25 min |
-| 9 | Comer para quem treina às 5h ou às 22h | 30 min |
-| 10 | Vegetarianismo, jejum e padrões restritivos | 30 min |
+| 1 | Disponibilidade energética: cálculo, interpretação e identificação do déficit | 30 min |
+| 2 | Carboidrato por demanda real de treino | 30 min |
+| 3 | Proteína: necessidade, distribuição e o ajuste do master | 30 min |
+| 4 | Gordura e função endócrina | 25 min |
+| 5 | Periodização nutricional e seus limites no amador | 30 min |
+| 6 | Hidratação, eletrólitos e desconforto gastrointestinal | 30 min |
+| 7 | Comer para quem treina às 5h ou às 22h | 30 min |
+| 8 | Vegetarianismo, jejum e padrões restritivos | 30 min |
 
 **A LIGAÇÃO:** disponibilidade energética ↔ função endócrina e óssea.
 
 ---
 
 ## M19 — O filtro: suplementos, nutracêuticos e a indústria
-**20h · 10 aulas · Eixo 5**
+**20h · 9 aulas · Eixo 5**
 
 **Ementa.** Suplementos com evidência consistente — creatina, cafeína,
 beta-alanina, nitrato, bicarbonato — com dose, resposta esperada e população em
 que funciona. Suplementos com evidência fraca ou nula e o custo mensal que
-representam. Vitamina D, magnésio, ômega-3 e B12. Colágeno e tendão.
+representam. Vitamina D, magnésio, ômega-3 e B12. Colágeno e tendão. O mercado de
+suplementos ditos mitocondriais — CoQ10, NAD+, NMN, PQQ — e a distância entre
+mecanismo plausível e benefício demonstrado em praticante saudável.
 Contaminação de suplemento e doping inadvertido no amador que compete. Hormônio
 e substância sem indicação no praticante recreativo. O método de corrigir o
 paciente sem humilhá-lo.
@@ -632,14 +608,13 @@ com o paciente.
 |---|---|---|
 | 1 | Como ler uma alegação de suplemento | 30 min |
 | 2 | Creatina | 30 min |
-| 3 | Cafeína | 25 min |
-| 4 | Beta-alanina, nitrato e bicarbonato | 30 min |
-| 5 | Vitamina D, magnésio, ômega-3 e B12 | 30 min |
-| 6 | Colágeno e tendão | 25 min |
+| 3 | Cafeína, beta-alanina, nitrato e bicarbonato | 30 min |
+| 4 | Vitamina D, magnésio, ômega-3 e B12 | 30 min |
+| 5 | Colágeno e tendão | 25 min |
+| 6 | O mercado "mitocondrial": CoQ10, NAD+, NMN e PQQ | 30 min |
 | 7 | O que não tem evidência e quanto custa por mês | 30 min |
-| 8 | Contaminação e doping inadvertido no amador que compete | 30 min |
-| 9 | Hormônio sem indicação no praticante recreativo | 30 min |
-| 10 | Corrigir sem humilhar: o método do filtro | 25 min |
+| 8 | Contaminação, doping inadvertido e hormônio sem indicação | 30 min |
+| 9 | Corrigir sem humilhar: o método do filtro | 25 min |
 
 **A LIGAÇÃO:** marketing da indústria ↔ fisiologia real do praticante.
 
@@ -731,20 +706,25 @@ reavaliação.
 
 | Eixo | Módulos | Aulas |
 |---|---|---|
-| 0 — A Lente | M1–M3 | 28 |
-| 1 — Avaliação | M4–M6 | 32 |
-| 2 — Treino, carga e recuperação | M7–M10 | 40 |
-| 3 — Ciclos de vida | M11–M14 | 46 |
-| 4 — Lesão e retorno | M15–M17 | 29 |
-| 5 — Nutrição e o filtro | M18–M19 | 20 |
+| 0 — A Lente | M1–M3 | 24 |
+| 1 — Avaliação | M4–M6 | 25 |
+| 2 — Treino, carga e recuperação | M7–M10 | 33 |
+| 3 — Ciclos de vida | M11–M14 | 36 |
+| 4 — Lesão e retorno | M15–M17 | 24 |
+| 5 — Nutrição e o filtro | M18–M19 | 17 |
 | 6 — Prática e TCC | M20–M22 | 14 |
-| | **22 módulos** | **209 aulas** |
+| | **22 módulos** | **173 aulas** |
 
-**Aulas complexas (⧗):** 4 no programa inteiro — M9.6, M13.10, M21.2, M21.3.
+Média de 8,4 aulas nos dezenove módulos de 20h. Nenhum módulo passa de 9.
+
+**Aulas complexas (⧗):** 4 no programa inteiro — M9.6, M13.8, M21.2, M21.3.
 Todas são diagnóstico diferencial ou decisão de risco, os únicos conteúdos que
 perdem sentido se fatiados.
 
-**Volume de vídeo:** aproximadamente 99 horas.
-**Volume de roteiro:** aproximadamente 650 mil palavras, calibrado pelo seu
-próprio benchmark — o Módulo 7 da Endocrinologia Funcional fechou 18 aulas com
-51.715 palavras, ou 2.873 palavras por aula.
+**Volume de vídeo:** 5.075 minutos, ou aproximadamente 85 horas.
+**Volume de roteiro:** aproximadamente 695 mil palavras.
+
+O cálculo do roteiro usa o seu próprio ritmo de fala, extraído do Módulo 7 da
+Endocrinologia Funcional: 18 aulas e 51.715 palavras em aulas de cerca de 21
+minutos dão 137 palavras por minuto. A estimativa anterior deste documento
+aplicava esse ritmo de forma inconsistente e subestimava o roteiro.
