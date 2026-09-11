@@ -2,12 +2,27 @@
 
 ## Nome do programa
 
-**Pós-Graduação Lato Sensu em Ciências da Saúde Aplicadas ao Esporte**
+**Pós-Graduação Lato Sensu em Saúde Clínica Aplicada ao Esporte**
 *Ênfase: o atleta real — amador, de base e master*
 
-O nome institucional é amplo de propósito: é ele que passa em colegiado, em
-catálogo de faculdade e em edital. A ênfase é o que diferencia, o que aparece
-na peça de venda e o que define cada ementa.
+O título carrega uma promessa que nenhum concorrente faz. O mercado inteiro
+nomeia a ciência — Ciência do Esporte, Ciências do Exercício, Medicina do
+Esporte, Medicina do Exercício e do Esporte. Nenhum deles promete que o
+egresso vai saber **atender**. "Saúde Clínica" promete, e a matriz entrega:
+avaliação, laboratório, lesão, retorno ao esporte, casos integradores e um
+TCC que é plano de cuidado de um paciente real.
+
+**Por que "clínica" e não "clínica do atleta".** Como substantivo, *clínica*
+lê como lugar — e lugar tem dono, o médico. Como adjetivo, é vocabulário de
+todos os conselhos: nutrição clínica, fisioterapia clínica, psicologia
+clínica, prática clínica, raciocínio clínico. A forma adjetiva mantém a
+promessa de atendimento sem estreitar o programa para uma única profissão —
+decisivo para uma pós cujo volume de matrícula está em fisioterapia,
+nutrição e educação física.
+
+A ênfase é o que nomeia o paciente. Ela aparece na peça de venda e define
+cada ementa, mas não vai para o certificado: *amador* descreve quem é
+atendido, nunca quem se forma.
 
 ---
 

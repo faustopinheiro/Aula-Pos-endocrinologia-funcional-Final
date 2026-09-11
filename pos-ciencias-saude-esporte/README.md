@@ -1,4 +1,4 @@
-# Pós-Graduação em Ciências da Saúde Aplicadas ao Esporte
+# Pós-Graduação em Saúde Clínica Aplicada ao Esporte
 
 **Ênfase: o atleta real — amador, de base e master**
 Coordenação: Fausto Farias (@faustofarias_med)
