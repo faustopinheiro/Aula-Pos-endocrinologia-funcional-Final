@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 30 minutos · 6 slides
+Duração: 29 minutos · 6 slides
 
 ---
 
@@ -126,37 +126,21 @@ A Eliane, trinta e três anos, enfermeira, plantonista. Treina musculação quat
 
 Olha as três queixas juntas. Não ganha força, não perde gordura, e imunidade frouxa. Três sistemas diferentes. E é justamente isso que me faz suspeitar de conta, e não de um problema isolado — porque problema isolado não derruba três sistemas ao mesmo tempo.
 
-E antes de montar, repara numa coisa sobre como ela se apresentou. Ela não veio dizer "estou exausta". Ela veio dizer que não evolui. A palavra dela foi evoluir, não cansar. Muita gente com a conta estourada não se queixa de cansaço — se queixa de estagnação. Se você só procurar conta em quem reclama de fadiga, você vai deixar metade dos casos passar.
+E repara em como ela se apresentou: não veio dizer que estava exausta, veio dizer que não evolui. A palavra foi evoluir, não cansar. Muita gente com a conta estourada não se queixa de cansaço — se queixa de estagnação. Se você só procurar conta em quem reclama de fadiga, deixa metade dos casos passar.
 
-Vamo montar a conta dela.
-
-Do lado dos débitos, primeiro o treino: seis sessões por semana. Pela conversa, quatro delas com percepção de esforço sete ou mais. Isso é um débito grande, e é o único que ela enxergava.
-
-Segundo, o trabalho. Plantão noturno, dois por semana, doze horas. E aqui não é só o gasto do plantão — é a desorganização do sono nos dois dias seguintes a cada plantão. Ou seja, quatro dias por semana dela estão comprometidos por dois plantões.
-
-Terceiro, o sono. Nos dias sem plantão ela dorme seis horas e meia. Nos dias de plantão e no seguinte, o sono é fracionado e de má qualidade. Ela classificava o próprio sono como "razoável", e essa palavra esconde muita coisa.
-
-Quarto, a alimentação. No plantão ela comia o que tinha no hospital, e muitas vezes fazia só duas refeições em doze horas. Ela não estava de dieta. Ela simplesmente não comia direito por falta de estrutura.
+Vamo montar a conta dela. Débitos: treino, seis sessões por semana, quatro delas com percepção de esforço sete ou mais — e esse era o único que ela enxergava. Trabalho: plantão noturno, dois por semana, doze horas, e aqui não é só o gasto do plantão, é a desorganização do sono nos dois dias seguintes a cada um — quatro dias da semana dela comprometidos por dois plantões. Sono: seis e meia nos dias normais, fracionado nos de plantão, e ela chamava isso de "razoável", palavra que esconde muita coisa. Alimentação: no plantão ela comia o que tinha no hospital, às vezes duas refeições em doze horas — não estava de dieta, simplesmente não comia direito por falta de estrutura.
 
 Do lado das entradas: nenhuma reposição planejada, nenhuma semana leve em oito meses, nenhuma sessão de baixa intensidade.
 
-E aí você olha essa folha e a conclusão é quase visual. Ela tem quatro débitos grandes e nenhuma entrada organizada. Não precisa de exame nenhum para ver que não fecha.
+Quatro débitos grandes e nenhuma entrada organizada. Não precisa de exame nenhum para ver que não fecha.
 
 E repara no ponto que eu quero te mostrar: **o treino dela não era o problema principal.** Seis sessões por semana é muita coisa, mas tem gente que faz seis sessões e vai muito bem. O que quebrava a conta dela era a combinação de seis sessões com plantão noturno, sono fragmentado e alimentação desestruturada no dia de maior demanda.
 
 Se eu tivesse olhado só o treino, eu teria cortado treino. E ela teria perdido a única coisa da rotina dela que estava organizada.
 
-E eu quero mostrar o raciocínio da escolha, porque é ele que se repete em todo paciente. Eu tinha quatro débitos na mesa: treino, plantão, sono e alimentação.
+E o raciocínio da escolha é o que se repete em todo paciente. Quatro débitos na mesa. O plantão eu não podia mexer — é o emprego dela. O sono, só um pouco, porque a maior parte da bagunça vinha do plantão. O treino eu podia mexer, mas era o único pedaço organizado da vida dela e o que ela gostava de fazer: custo emocional alto, ganho incerto. E a alimentação no plantão eu podia mexer bastante, com custo baixíssimo, só planejamento e comida levada de casa.
 
-O plantão eu não podia mexer — é o emprego dela, e ninguém larga emprego por orientação de consultório.
-
-O sono eu podia mexer só um pouco, porque a maior parte da bagunça vinha do plantão, que era intocável.
-
-O treino eu podia mexer, mas era o único pedaço organizado da vida dela, e era o que ela gostava de fazer. Mexer ali teria custo emocional alto e ganho incerto.
-
-E a alimentação no plantão eu podia mexer bastante, com custo baixíssimo — era só uma questão de planejamento e de levar comida de casa.
-
-Então a ordem não foi pela importância teórica do débito. Foi por onde tinha folga. E é assim que eu quero que você escolha.
+Então a ordem não foi pela importância teórica do débito. Foi por onde tinha folga.
 
 O que a gente fez: manteve as seis sessões, mas transformou duas em leves e colocou as duas mais duras nos dias mais distantes do plantão. E a intervenção de maior impacto não foi minha — foi da nutricionista, montando o que ela ia levar para o plantão, comida pronta, decidida antes, sem depender do que tinha na cantina.
 
@@ -176,15 +160,11 @@ Então vamo ao método, que é o que eu quero que você leve daqui. Quatro passo
 
 **Primeiro, some os débitos.** Não estime, liste. Treino — quantas sessões, com que percepção de esforço. Trabalho — jornada, turno, deslocamento, responsabilidade. Sono — horário real de deitar e levantar, e qualidade. Alimentação — número de refeições e o que acontece em torno do treino. Vida — filho pequeno, cuidado de familiar, mudança recente, luto, processo judicial. E saúde — doença crônica, medicação, infecção recente.
 
-E em cada um deles, uma pergunta que abre. No treino: quantas sessões e qual a nota de cada uma. No trabalho: que horas começa, que horas termina, e quanto tempo de deslocamento. No sono: que horas deita e que horas levanta, nos dias de semana e no fim de semana separadamente. Na alimentação: o que você come antes e depois de treinar. Na vida: o que mudou nos últimos doze meses. E na saúde: quantas infecções no último ano e o que você usa de medicação, incluindo o que não é receita.
+E em cada um, uma pergunta que abre. No treino: quantas sessões e qual a nota de cada uma. No trabalho: que horas começa, que horas termina, quanto tempo de deslocamento. No sono: que horas deita e levanta, dias de semana e fim de semana separadamente. Na alimentação: o que come antes e depois de treinar. Na vida: o que mudou nos últimos doze meses. Na saúde: quantas infecções no último ano e o que usa de medicação, incluindo o que não é receita.
 
-Seis perguntas. Uma por débito. Cabem numa consulta.
+Seis perguntas, uma por débito, cabem numa consulta. E repara que só uma delas é treino — que é a única que a maioria de nós mede.
 
-Repara que só um desses seis é treino. E é o único que a maioria de nós mede.
-
-E uma dica sobre como perguntar o débito da vida, que é o mais difícil de abordar: não pergunte se está estressado, porque todo mundo diz que sim e ninguém sabe medir isso. Pergunte se aconteceu alguma coisa diferente nos últimos doze meses. Mudança de casa, mudança de emprego, separação, doença na família, nascimento de filho, processo.
-
-A pergunta é factual, não é sobre sentimento, e por isso ela é respondida. E ela costuma trazer, em uma frase, o débito que explica o ano inteiro daquele paciente.
+E uma dica sobre o débito da vida, que é o mais difícil de abordar: não pergunte se está estressado, porque todo mundo diz que sim e ninguém sabe medir isso. Pergunte o que mudou nos últimos doze meses. A pergunta é factual, não é sobre sentimento, e por isso ela é respondida — e costuma trazer, em uma frase, o débito que explica o ano inteiro daquele paciente.
 
 **Segundo, procure as entradas.** E aqui você quase sempre vai encontrar o vazio. Pergunte: quando foi a última semana leve? Quando foi a última noite de oito horas? Existe algum dia da semana que é de baixa demanda? A resposta mais comum é um silêncio, e esse silêncio já é diagnóstico.
 
@@ -192,17 +172,13 @@ A pergunta é factual, não é sobre sentimento, e por isso ela é respondida. E
 
 **Quarto, teste.** E o teste tem que mexer no débito mais barato de mexer, não no mais óbvio. Quase nunca é treino. Costuma ser sono, alimentação em torno do treino, ou a distribuição da carga dentro da semana. Dê quatro a seis semanas e reavalie com os mesmos marcadores que você usou no começo.
 
-E escolha os marcadores de reavaliação antes de começar, nunca depois. Isso parece detalhe e não é. Se você não definiu o que vai olhar, você vai acabar olhando o que melhorou — e vai concluir que funcionou mesmo quando não funcionou. Eu costumo fixar três: uma queixa principal, um marcador de carga interna e um marcador objetivo simples, que pode ser um tempo, uma carga no exercício ou uma medida de composição.
+E escolha os marcadores de reavaliação antes de começar, nunca depois. Se você não definiu o que vai olhar, vai acabar olhando o que melhorou — e concluindo que funcionou mesmo quando não funcionou. Eu fixo três: uma queixa principal, um marcador de carga interna e um marcador objetivo simples. E anoto antes, no prontuário, com data.
 
-E anote antes. No prontuário, com data.
+Se a hipótese estiver certa, você vai ver várias queixas melhorarem juntas, sem ter tratado cada uma. Essa melhora simultânea é a assinatura da conta, e é a melhor confirmação que você vai ter, porque nenhum tratamento isolado produz isso.
 
-E se a hipótese estiver certa, você vai ver várias queixas melhorarem juntas, sem você ter tratado cada uma. Essa melhora simultânea é a assinatura da conta — e é a melhor confirmação que você vai ter, porque nenhum tratamento isolado produz isso.
+E quando o paciente tem muitos débitos e você não sabe por onde começar, mexa em um só de cada vez. É mais lento e é infinitamente mais informativo: se você mexe em quatro coisas juntas e melhora, não sabe qual resolveu — e no dia em que ele recair, não sabe o que reconstruir. Às vezes não dá tempo, e você precisa mexer em tudo porque o paciente está mal. Mas quando dá, um de cada vez ensina mais.
 
-E tem uma variação disso que eu uso quando o paciente tem muitos débitos e eu não sei por onde começar: mexer em um só de cada vez. É mais lento, e é infinitamente mais informativo. Se você mexe em quatro coisas juntas e melhora, você não sabe qual delas resolveu — e no dia em que ele recair, você não sabe o que reconstruir.
-
-Tem gente que vai te dizer que isso é lento demais para a vida real. Às vezes é, e às vezes você precisa mesmo mexer em tudo de uma vez porque o paciente está mal. Mas quando dá tempo, um de cada vez ensina mais, para você e para ele.
-
-E se não melhorar nada em seis semanas, ótimo também. Você eliminou a hipótese mais comum com um teste que não custou nada, e agora investiga com muito mais razão do que teria no começo.
+E se não melhorar nada em seis semanas, ótimo também: você eliminou a hipótese mais comum com um teste que não custou nada.
 
 ---
 
@@ -222,7 +198,7 @@ O trabalho não é apontar os débitos. É encontrar, junto com ele, qual débit
 
 E o quarto limite, que é sobre nós: a conta é fácil de usar para explicar tudo. Qualquer queixa cabe nela. E modelo que explica tudo não explica nada — vira crença. Então mantenha a disciplina de perguntar, em cada paciente, o que **não** é explicado pela conta. Se não sobrar nada de fora, desconfie de si mesmo antes de desconfiar do paciente.
 
-E uma coisa que eu quero dizer para quem atende gente com vida difícil: a conta serve justamente para essas pessoas. Para atleta com dia desenhado em volta do treino, o modelo importa menos, porque o dia dele já foi organizado. É para o plantonista, para a mãe de dois filhos, para o motorista de aplicativo que treina quando dá — é para esses que a conta vale mais, porque neles o treino nunca foi o problema principal.
+E a conta serve justamente para quem tem vida difícil. Para atleta com o dia desenhado em volta do treino, ela importa menos, porque o dia dele já foi organizado. É para o plantonista, para a mãe de dois filhos, para o motorista de aplicativo que treina quando dá — é neles que o treino nunca foi o problema principal.
 
 Na próxima aula a gente vai passar por cada um dos seis débitos, um por um, com o que perguntar em cada um, o que procurar, e o que dá para fazer quando aquele débito não tem folga nenhuma. Porque você vai encontrar muito paciente em que a resposta honesta é: esse débito aqui não dá para mexer neste momento da vida dele. E aí a conduta é outra — é ajustar a expectativa e proteger o que dá para proteger.
 

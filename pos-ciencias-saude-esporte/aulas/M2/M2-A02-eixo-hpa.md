@@ -2,7 +2,7 @@
 
 **Módulo 2 — Eixos de regulação no contexto do treino**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 30 minutos · 6 slides
+Duração: 24 minutos · 6 slides
 
 ---
 
@@ -26,13 +26,9 @@ Só que aquilo não descreve o que acontece no seu paciente que treina e dorme m
 
 E olha a ironia: ele é essencial e ele é o principal executor daquela conta que a gente montou no módulo passado. Quando eu disse que o corpo mobiliza energia quando precisa, o cortisol é quem faz isso acontecer.
 
-E tem um custo real nessa calúnia toda, que eu quero nomear. Quando a gente convence o público de que cortisol é vilão, a gente produz duas coisas ruins. A primeira é gente com medo de treinar forte, porque "sobe cortisol" — e treino forte é uma das melhores coisas que existem para a saúde. E a segunda é um mercado inteiro vendendo produto para baixar um hormônio que, na imensa maioria dos casos, está fazendo o trabalho dele corretamente.
+E essa calúnia tem custo. Ela produz gente com medo de treinar forte porque "sobe cortisol" — e treino forte é uma das melhores coisas que existem para a saúde. E produz um mercado inteiro vendendo produto para baixar um hormônio que, na imensa maioria dos casos, está fazendo o trabalho dele corretamente.
 
-Então desmontar isso não é preciosismo acadêmico. É proteger o paciente de duas direções ao mesmo tempo.
-
-Então o que eu quero hoje é te devolver o cortisol como ferramenta clínica, e não como bode expiatório. Isso significa três coisas: entender o que ele faz de verdade, entender qual é a resposta correta ao exercício, e entender o que acontece quando o estímulo não para.
-
-E no fim, aquela curva de quatro pontos que o paciente traz na pasta — a gente vai olhar para ela com honestidade.
+Então desmontar isso não é preciosismo acadêmico. É proteger o paciente de duas direções ao mesmo tempo — e é devolver o cortisol como ferramenta clínica em vez de bode expiatório.
 
 ---
 
@@ -58,11 +54,9 @@ E repara também que ele é um hormônio de **agora**. Ele resolve o curto prazo
 
 Então a leitura correta do cortisol não é "alto é ruim, baixo é bom". A leitura correta é: **alto quando deve estar alto, e baixo quando deve estar baixo.**
 
-E vale saber que existe um fenômeno bem descrito logo depois do despertar: o cortisol sobe mais alguns minutos após você acordar, e depois começa a cair. Isso é normal e é esperado — é o organismo preparando o corpo para o dia.
+E ele tem ritmo. Alto de manhã, porque de manhã você precisa levantar e funcionar. Cai ao longo do dia. Fica baixo no começo da noite, porque à noite você precisa dormir e reparar, e não mobilizar. E existe um fenômeno bem descrito logo depois do despertar: ele sobe mais ainda nos primeiros minutos e só então começa a cair.
 
-Mas presta atenção no que isso significa para quem acorda e treina forte em seguida: você está colocando o estímulo do treino exatamente em cima do momento em que o eixo já está no ponto mais alto do dia. Para a maioria das pessoas isso é perfeitamente tolerável. Para quem já está com a conta apertada, essa soma pesa.
-
-Ele tem ritmo. Ele é alto de manhã, porque de manhã você precisa levantar e funcionar. Ele cai ao longo do dia. Ele fica baixo no começo da noite, porque à noite você precisa dormir e reparar, e não mobilizar.
+Presta atenção no que isso significa para quem acorda e treina forte em seguida. Você está colocando o estímulo do treino exatamente em cima do momento em que o eixo já está no ponto mais alto do dia. Para a maioria das pessoas isso é tolerável. Para quem já está com a conta apertada, essa soma pesa.
 
 Quando esse ritmo está preservado e ele sobe diante de um estímulo e volta depois, está tudo certo, mesmo que o pico tenha sido alto.
 
@@ -92,19 +86,13 @@ E o terceiro, que é o mais importante clinicamente: o que interessa não é o p
 
 E aí olha como isso encaixa em tudo que a gente construiu. Um paciente que treina acima do limiar cinco vezes por semana, dorme seis horas, tem trabalho pesado e come mal, não tem um problema de pico de cortisol. Tem um problema de nunca voltar ao basal.
 
-E tem um paralelo com o módulo passado que fecha bonito. Lembra do modelo de duas curvas, do Banister? A fadiga é grande e curta, a aptidão é pequena e longa. O cortisol é, em boa parte, a expressão bioquímica dessa curva de fadiga: ele sobe muito com o estímulo e volta relativamente rápido — se você deixar.
-
-Quando o paciente não deixa, você tem a mesma coisa que a gente descreveu lá em termos de desempenho, agora visível em termos hormonais. Os dois modelos estão descrevendo o mesmo fenômeno em linguagens diferentes.
+E tem um paralelo com o módulo passado que fecha bonito. Lembra do modelo de duas curvas, do Banister? A fadiga é grande e curta, a aptidão é pequena e longa. O cortisol é, em boa parte, a expressão bioquímica daquela curva de fadiga: sobe muito com o estímulo e volta relativamente rápido, se você deixar. Quando o paciente não deixa, é o mesmo fenômeno de antes, agora visível em linguagem hormonal.
 
 E a intervenção, que eu já te dei na aula passada e agora ganha o mecanismo: colocar parte do volume abaixo do limiar. Você mantém o hábito, mantém a frequência, mantém o benefício, e dá ao eixo a chance de voltar.
 
-E vale falar do jejum, porque ele entra nessa conta e quase ninguém liga os dois. Jejum é, por si só, um estímulo ao eixo — faz sentido, porque a função do cortisol é disponibilizar energia, e se não está entrando energia, ele mobiliza a que existe. Então treinar em jejum não é neutro do ponto de vista do eixo, ele soma.
+E vale falar do jejum, porque ele entra nessa conta e quase ninguém liga os dois. Jejum é, por si só, um estímulo ao eixo — faz sentido, porque se não está entrando energia, o cortisol mobiliza a que existe. Então treinar em jejum não é neutro: ele soma.
 
-Isso não quer dizer que treinar em jejum seja errado. Em muita gente é perfeitamente tolerável, e em algumas situações é estratégia deliberada. O que eu quero é que você conte isso como um débito na conta, e não como ausência de refeição.
-
-E tem um detalhe de horário que vale ouro no consultório. Cortisol é naturalmente alto de manhã. Treino de alta intensidade é um estímulo que sobe cortisol. Somar as duas coisas num paciente que já acorda ativado — aquele que desperta às duas da manhã pensando em trabalho, como o Rogério — costuma render menos do que colocar a sessão dura no fim da tarde.
-
-Isso não é regra universal, é ajuste individual. Mas é uma variável de graça que quase ninguém mexe.
+Isso não quer dizer que seja errado. Em muita gente é tolerável, e às vezes é estratégia deliberada. O que eu quero é que você conte isso como um débito na conta, e não como ausência de refeição — porque num paciente que já acorda ativado, empilhar pico circadiano, jejum e sessão dura na mesma janela costuma render menos do que deslocar a sessão para o fim da tarde. Não é regra universal, é ajuste individual. Mas é uma variável de graça que quase ninguém mexe.
 
 ---
 
@@ -136,13 +124,9 @@ Agora soma. Ele empilhava, na mesma janela da manhã, três coisas que ativam o 
 
 Isso não é cortisol alto por doença. Isso é cortisol alto por construção.
 
-E teve uma negociação difícil nesse caso que vale contar, porque ela é comum. Ele não queria abrir mão do treino de manhã, e a razão era boa: era o único horário em que ninguém dependia dele. À tarde, ele era acionado. Treinar de manhã era a única hora do dia que era dele.
+E teve uma negociação difícil, que é comum. Ele não queria abrir mão do treino de manhã, e a razão era boa: era o único horário em que ninguém dependia dele. Isso não é detalhe logístico, é adesão — se eu tivesse simplesmente mandado treinar à tarde, ele teria concordado na consulta e voltado para as seis da manhã na semana seguinte.
 
-Isso não é detalhe logístico, é adesão. Se eu tivesse simplesmente mandado ele treinar à tarde, ele teria concordado na consulta e voltado para as seis da manhã na semana seguinte.
-
-Então a gente mudou só duas das cinco. Três continuaram de manhã. E isso foi suficiente, porque o objetivo nunca foi zerar o estímulo — era abrir espaço para o eixo voltar.
-
-E olha o que a gente fez, que foi bem pouco. Duas das cinco sessões mudaram para o fim da tarde. Duas das cinco viraram de intensidade moderada, do tipo em que ele conseguia conversar. E ele passou a comer alguma coisa antes de treinar — o que pareceu detalhe e não era.
+Então a gente mexeu em pouca coisa. Duas das cinco sessões foram para o fim da tarde e três continuaram de manhã. Duas das cinco viraram de intensidade moderada, do tipo em que ele conseguia conversar. E ele passou a comer alguma coisa antes de treinar, o que pareceu detalhe e não era. O objetivo nunca foi zerar o estímulo — era abrir espaço para o eixo voltar.
 
 Eu não pedi a curva de cortisol. Vou explicar no próximo slide por quê.
 
@@ -162,15 +146,9 @@ Agora a curva de cortisol salivar, porque você vai receber ela na sua mesa.
 
 Primeiro, o que ela é: quatro coletas de saliva ao longo do dia para desenhar o ritmo do cortisol. A ideia é boa e a saliva realmente reflete a fração livre do hormônio. Não é charlatanismo de conceito.
 
-E eu quero ser preciso sobre onde está o problema, porque tem uma diferença entre usar uma medida em pesquisa e usar numa pessoa. Em estudo com grupo grande, medidas de cortisol salivar podem mostrar diferenças entre populações — entre quem trabalha em turno e quem não trabalha, por exemplo. Isso funciona porque o erro individual se dilui na média.
+E o problema não está no conceito, está na aplicação individual. Em estudo com grupo grande, cortisol salivar mostra diferença entre populações — quem trabalha em turno e quem não trabalha, por exemplo — porque o erro individual se dilui na média. Decidir conduta para **um** paciente é outra coisa: aí o erro individual é tudo o que você tem.
 
-Decidir conduta para **um** paciente é outra coisa. Aí o erro individual é tudo o que você tem. E é exatamente aí que essas medidas ficam frágeis.
-
-É a mesma diferença entre saber que uma população tem risco aumentado e saber o que vai acontecer com o sujeito na sua frente.
-
-O problema está na aplicação clínica individual, e ele é sério.
-
-A confiabilidade teste-reteste dessas medidas ao longo de dias diferentes é baixa para várias das características que se extraem da curva. Em algumas análises, os coeficientes de concordância variam de praticamente zero até valores moderados. Quer dizer: o mesmo indivíduo, medido em dois dias, pode gerar curvas diferentes.
+E ele é grande. A confiabilidade teste-reteste dessas medidas ao longo de dias diferentes é baixa para várias das características que se extraem da curva. Em algumas análises, os coeficientes de concordância variam de praticamente zero até valores moderados. Quer dizer: o mesmo indivíduo, medido em dois dias, pode gerar curvas diferentes.
 
 E tem mais. Revisões que olharam o uso dessas medidas apontaram inconsistência de método entre estudos, o que limita a comparação, e questionaram o quanto as características da curva realmente informam sobre a biologia regulatória do eixo.
 
@@ -182,7 +160,7 @@ Não é "esse exame é uma bobagem". Isso desqualifica ele, e ele pagou por aqui
 
 E tem uma frase que eu uso e que funciona bem, porque ela não briga com ninguém: "esse exame te mostrou uma foto de um dia. O que a gente precisa entender é o seu padrão, e o padrão está na sua rotina, não na saliva daquela terça-feira."
 
-Repara que essa frase não diz que o exame é ruim nem que quem pediu errou. Ela reposiciona: passa do instrumento para a pergunta. E o paciente costuma aceitar, porque ele não está apegado ao exame — ele está apegado a ter uma explicação.
+Ela não diz que o exame é ruim nem que quem pediu errou. Ela passa do instrumento para a pergunta. E o paciente costuma aceitar, porque ele não está apegado ao exame — ele está apegado a ter uma explicação.
 
 E aí você mostra a conta dele. Porque, na esmagadora maioria dos casos que chegam com essa curva na mão, a conta explica o quadro inteiro — e ela é gratuita, reprodutível e acionável.
 
@@ -206,9 +184,7 @@ Quantas sessões acima do limiar por semana — quer dizer, quantas sessões em 
 
 Com essas três você tem a carga do eixo, e você tem onde mexer.
 
-E um lembrete sobre reavaliação, porque essa é a parte que mais se perde. Defina antes o que você vai olhar em seis a oito semanas: qualidade de sono relatada, número de despertares, percepção de esforço na mesma sessão, e disposição matinal numa nota de zero a dez. São quatro marcadores, todos gratuitos, todos anotáveis.
-
-Se você não definir isso antes, a reavaliação vira uma conversa sobre sensação, e sensação é influenciada pela última semana. Anote antes, com data.
+E defina antes o que você vai olhar em seis a oito semanas: qualidade de sono relatada, número de despertares, percepção de esforço na mesma sessão, e disposição matinal numa nota de zero a dez. Quatro marcadores gratuitos. Se você não definir antes, a reavaliação vira conversa sobre sensação — e sensação é influenciada pela última semana. Anote antes, com data.
 
 E onde mexer, em ordem de custo: distribuir as sessões duras ao longo da semana em vez de concentrar; mover pelo menos uma sessão dura para fora da janela da manhã em quem já acorda ativado; colocar parte do volume abaixo do limiar; e comer alguma coisa antes do treino em jejum, quando o jejum não é escolha estratégica e sim falta de tempo.
 

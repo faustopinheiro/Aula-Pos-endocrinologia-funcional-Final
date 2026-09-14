@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 25 minutos · 5 slides
+Duração: 26 minutos · 5 slides
 
 ---
 
@@ -54,13 +54,11 @@ Carga interna é a resposta psicofisiológica daquele organismo àquele trabalho
 
 E agora vem a parte que muda a conduta, e eu quero que você guarde. **A adaptação é determinada pela carga interna, não pela externa.** A externa é o input. Ela é necessária, você tem que prescrever alguma coisa. Mas o que o organismo processa, e portanto o que gera adaptação ou gera dano, é a interna.
 
-E tem uma consequência disso que eu quero que você pense com calma, porque ela reorganiza a consulta. Se a adaptação depende da interna, e a interna depende de sono, energia, estresse e estado do paciente, então uma parte grande da sua intervenção sobre o treino não acontece no treino. Acontece no que você negocia em volta dele.
+E isso reorganiza a consulta. Se a adaptação depende da interna, e a interna depende de sono, energia, estresse e estado do paciente, então uma parte grande da sua intervenção sobre o treino não acontece no treino — acontece no que você negocia em volta dele. Tem paciente em que a melhor mudança de treino do semestre foi mudar o horário: nada na planilha mudou, mudou a hora, e com a hora mudou o sono, e com o sono mudou a interna.
 
-Tem paciente em que a melhor mudança de treino do semestre foi mudar o horário. Nada na planilha mudou. Mudou a hora, e com a hora mudou o sono, e com o sono mudou a interna.
+A externa é o que você controla. A interna é o que importa. É desconfortável, porque a gente adora controlar.
 
-Quer dizer: a externa é o que você controla, e a interna é o que importa. E essa é uma situação desconfortável, porque a gente adora controlar. Só que é assim.
-
-E tem um erro de leitura que eu vejo muito, então deixa eu desmontar. Tem gente que entendeu que externa é "quantidade" e interna é "qualidade". Não é isso. As duas medem coisas diferentes, não graus diferentes da mesma coisa. Externa mede o trabalho. Interna mede a resposta ao trabalho. Uma não é a versão refinada da outra.
+E tem um erro de leitura comum: achar que externa é "quantidade" e interna é "qualidade". Não é. As duas medem coisas diferentes, não graus diferentes da mesma coisa — externa mede o trabalho, interna mede a resposta ao trabalho.
 
 E tem outro erro, esse mais perigoso: usar carga interna como se fosse sinônimo de esforço percebido e pronto. Percepção de esforço é uma das medidas de carga interna, e é uma boa. Mas frequência cardíaca é outra, e elas não medem a mesma coisa. Um treino de força pesado com intervalo longo pode ter frequência cardíaca modesta e percepção de esforço altíssima. Se você olhasse só a frequência, você concluiria que foi leve. Foi leve para o coração. Não foi leve para o sistema nervoso nem para o tecido.
 
@@ -72,11 +70,9 @@ Carga externa: idêntica. Mesmos quilômetros, mesmo ritmo, mesma duração. Um 
 
 Carga interna: completamente diferente. Frequência cardíaca mais alta, percepção de esforço mais alta, desidratação, temperatura central mais alta, custo de recuperação maior.
 
-E é por isso que a distinção não é preciosismo acadêmico. O ambiente não aparece na externa. A altitude não aparece. O piso não aparece — correr na areia e correr no asfalto pode dar a mesma distância e não dá o mesmo treino. A roupa não aparece. A hora do dia não aparece.
+E é por isso que a distinção não é preciosismo. O ambiente não aparece na externa. A altitude não aparece. O piso não aparece — correr na areia e no asfalto pode dar a mesma distância e não dá o mesmo treino. A hora do dia não aparece. Tudo isso entra pela porta da interna.
 
-Tudo isso entra pela porta da interna, e só é capturado se você medir a interna.
-
-E olha como isso conversa com a aula passada. O modelo das duas curvas diz que cada sessão deposita aptidão e fadiga. Agora a gente tem a explicação de por que a mesma sessão deposita quantidades diferentes em pessoas diferentes: porque a carga interna foi diferente, mesmo com a externa idêntica.
+E olha como isso conversa com a aula passada: o modelo das duas curvas diz que cada sessão deposita aptidão e fadiga, e agora a gente tem a explicação de por que a mesma sessão deposita quantidades diferentes em pessoas diferentes.
 
 ---
 
@@ -170,19 +166,15 @@ Quando a externa fica igual e a interna sobe, aí acende a luz. Alguma coisa for
 
 E quando a externa sobe e a interna não se mexe, desconfie da medida antes de comemorar. Ou o paciente está subnotificando para te agradar, o que é comum, ou a escala não está sendo entendida. Vale recalibrar junto com ele.
 
-E tem uma quinta situação que aparece bastante e que confunde: externa cai e interna não cai. O paciente reduziu o treino e continua achando tudo difícil. Isso quase nunca é treino. Isso é a vida entrando na conta com força suficiente para sustentar a percepção sozinha — ou é doença. Se durar mais de duas semanas depois de uma redução real de carga, investigue.
+E tem uma quinta que confunde: externa cai e interna não cai. O paciente reduziu o treino e continua achando tudo difícil. Isso quase nunca é treino — é a vida entrando na conta com força suficiente para sustentar a percepção sozinha, ou é doença. Se durar mais de duas semanas depois de uma redução real de carga, investigue.
 
-Agora, os limites disso, porque nenhuma ferramenta serve para tudo.
+Agora, os limites. Percepção de esforço depende de quem responde: paciente ansioso superestima, paciente competitivo subestima, principalmente quando acha que a nota vai reprovar ele. Então combine antes que não existe nota certa — se o paciente achar que está sendo avaliado, o dado morre.
 
-Percepção de esforço depende de quem responde. Paciente muito ansioso superestima. Paciente competitivo subestima, principalmente quando acha que a nota vai "reprovar" ele. Então a primeira coisa é combinar que não existe nota certa, e que nota alta não é sinal de fracasso nem nota baixa é sinal de preguiça. Se o paciente achar que está sendo avaliado, o dado morre.
+E isso não substitui investigação clínica. Carga interna subindo sem explicação por três, quatro semanas não é diagnóstico de nada. É motivo para investigar, e aí você volta na lista da aula passada: sono, alimentação, ferro, tireoide, humor. A planilha aponta, ela não conclui.
 
-E isso não substitui investigação clínica. Se a carga interna está subindo sem explicação por três, quatro semanas, isso não é diagnóstico de nada — é motivo para investigar. E aí você volta na lista da aula passada: sono, alimentação, ferro, tireoide, humor. A planilha aponta, ela não conclui.
+E dois erros de implementação que estragam tudo. O primeiro é mudar a escala no meio do caminho: se começou em zero a dez, fica em zero a dez, porque o valor daquele número não está nele mesmo, está na comparação com os anteriores do mesmo paciente. O segundo é comparar o número de um paciente com o de outro. Nota sete da Denise não é nota sete do Otávio.
 
-E tem um erro de implementação que estraga tudo e é fácil de evitar: mudar a escala no meio do caminho. Se você começou com zero a dez, fica em zero a dez. Se o paciente baixou um aplicativo que usa outra escala, escolha uma e abandone a outra. O valor daquele número não está nele mesmo — está na comparação com os números anteriores do mesmo paciente. Trocar a régua no meio apaga o histórico.
-
-E pela mesma razão: não compare o número de um paciente com o de outro. Nota sete da Denise não é nota sete do Otávio. Essa escala é interna, individual, e só faz sentido contra ela mesma.
-
-E colega fisioterapeuta, colega da educação física — esse instrumento aqui é integralmente de vocês. Coletar carga interna, interpretar tendência e ajustar o estímulo dentro do seu escopo não depende de exame nenhum. Na prática, quem acompanha o paciente semanalmente costuma enxergar essa virada antes de qualquer médico, porque o médico vê aquele paciente de seis em seis meses e vocês veem toda semana.
+E colega fisioterapeuta, colega da educação física — esse instrumento é integralmente de vocês. Coletar carga interna, interpretar tendência e ajustar o estímulo dentro do seu escopo não depende de exame nenhum. E quem acompanha o paciente semanalmente enxerga essa virada antes de qualquer médico.
 
 Na próxima aula a gente desce um nível e vai olhar o substrato físico de tudo isso que eu venho chamando de conta. Porque quando eu falo que o organismo tem um orçamento de adaptação, isso precisa estar em algum lugar do corpo — não é metáfora. E está na mitocôndria. A gente vai falar de capacidade oxidativa como moeda dessa conta, e também vai falar do que virou mercado em cima dessa palavra.
 

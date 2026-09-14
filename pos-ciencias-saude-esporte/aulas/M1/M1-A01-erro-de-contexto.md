@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 30 minutos · 6 slides
+Duração: 28 minutos · 6 slides
 
 ---
 
@@ -10,7 +10,7 @@ Duração: 30 minutos · 6 slides
 *Visual: duas silhuetas idênticas de corredor, uma rotulada ELITE, outra PACIENTE, com o motivo da ligação em ouro entre elas.*
 *Teleprompter: (entra direto, sem saudação; ritmo de conversa)*
 
-Então, vamo começar esse módulo pelo erro que eu mais vejo. E olha, não é erro de quem não estudou, não. É erro de gente boa, gente que leu, que vai em congresso, que sabe o que é limiar, o que é periodização, o que é disponibilidade energética. É erro de gente que está tentando fazer certo.
+Então, vamo começar esse módulo pelo erro que eu mais vejo. E olha, não é erro de quem não estudou, não. É erro de gente boa, que leu, que vai em congresso, que sabe o que é limiar e o que é disponibilidade energética. É erro de gente tentando fazer certo.
 
 E o erro é esse: pegar o que funciona no atleta de elite e aplicar no paciente do consultório em escala menor. Tira um pouco de volume, corta uma sessão, reduz a carga, e pronto — está adaptado.
 
@@ -20,13 +20,13 @@ E veja bem por que a transposição é tão sedutora. Ela parece cuidadosa, né.
 
 O corredor de quarenta e dois anos que treina seis horas por semana não é um atleta de elite em escala reduzida. Ele é outro organismo. Presta atenção nisso porque é o curso inteiro. Outro organismo. Não é o mesmo corpo com menos treino — é outro corpo, com outra reserva de recuperação, outra janela de adaptação, outro risco, outra conta de energia.
 
-E aí você me pergunta: tá, mas o que muda tanto assim? Muda o contexto. E aqui está a coisa que eu quero que você leve para casa hoje: o contexto não fica em volta da fisiologia. O contexto entra dentro dela. Ele muda a resposta hormonal, muda o tempo de reparo, muda o risco de lesão da mesma sessão de treino, no mesmo dia.
+E aí você me pergunta: tá, mas o que muda tanto assim? Muda o contexto. E o contexto não fica em volta da fisiologia — ele entra dentro dela. Ele muda a resposta hormonal, muda o tempo de reparo, muda o risco de lesão da mesma sessão de treino, no mesmo dia.
 
 E a gente foi treinado a não ver isso, e não é culpa de ninguém. A gente aprendeu fisiologia do repouso. Fisiologia do equilíbrio. O corpo buscando homeostase. E aí chega um paciente que está fazendo exercício, que é justamente um estado de desequilíbrio, e a gente aplica o raciocínio do equilíbrio nele.
 
 Eu até brinco que o exercício não organiza nada. O exercício desorganiza. Quanto mais problema eu crio para o corpo, mais solução ele tem que trazer. E a solução é que é a adaptação. Guarda isso, porque a gente vai voltar nisso o curso todo.
 
-E olha, eu entendo perfeitamente por que a gente cai nessa. Porque a alternativa é desconfortável. Se o protocolo não basta, então eu preciso saber quem é a pessoa. E saber quem é a pessoa dá trabalho, toma tempo de consulta, e não cabe numa planilha bonita que eu mando por WhatsApp. É muito mais confortável ter um modelo que serve para todo mundo. Só que confortável para nós, não para o paciente.
+E a gente cai nessa porque a alternativa é desconfortável: se o protocolo não basta, eu preciso saber quem é a pessoa — e isso dá trabalho, toma tempo de consulta e não cabe numa planilha bonita mandada por WhatsApp. Um modelo que serve para todo mundo é confortável. Confortável para nós, não para o paciente.
 
 Então a pergunta que abre tudo é essa: por que o protocolo certo falha no paciente certo? E eu vou te adiantar — a resposta não está no protocolo.
 
@@ -38,23 +38,19 @@ Então a pergunta que abre tudo é essa: por que o protocolo certo falha no paci
 
 Vamo entender de onde vem esse descompasso, porque quando você entende, você para de ficar bravo com a literatura e passa a usar ela direito.
 
-Pensa comigo. Você é pesquisador. Você precisa de vinte pessoas que façam exatamente o mesmo treino, na mesma hora, comendo parecido, dormindo parecido, disponíveis para coleta de sangue às seis da manhã durante doze semanas. Onde você acha essas vinte pessoas? Num centro de treinamento. Num time. Numa equipe universitária.
+Pensa comigo. Você é pesquisador e precisa de vinte pessoas que façam exatamente o mesmo treino, na mesma hora, comendo parecido, dormindo parecido, disponíveis para coleta de sangue às seis da manhã durante doze semanas. Onde você acha essas vinte pessoas? Num centro de treinamento. Não acha num escritório, nem numa escala de plantão, nem numa mãe de dois filhos que treina quando dá.
 
-Não acha num escritório. Não acha numa escala de plantão. Não acha numa mãe de dois filhos que treina quando dá.
+Então a elite não foi escolhida porque é mais importante. Foi escolhida porque é coletável. Isso não é má-fé, é conveniência de amostra, e os próprios autores declaram nas limitações. O problema nasce quando aquilo chega em você, na aula, no post, no congresso, já sem a etiqueta de onde veio.
 
-Então a elite não foi escolhida porque é mais importante. Ela foi escolhida porque ela é coletável. E isso não é má-fé de ninguém, é conveniência de amostra, e os próprios autores declaram isso nas limitações. O problema não nasce ali. O problema nasce quando aquilo chega em você, na aula, no post, no congresso, já sem a etiqueta de onde veio.
+E tem um segundo filtro: dentro da própria elite, quem é estudado é homem, jovem, saudável, sem comorbidade e sem medicação — porque comorbidade e medicação são variáveis de confusão. E um terceiro, que é o que mais dói: a maior parte da fisiologia do exercício que a gente aprendeu foi medida entre os dezoito e os trinta anos. E quem está no consultório querendo voltar a correr tem quarenta, cinquenta, sessenta. A faixa que mais procura orientação é a que menos foi estudada.
 
-E tem um segundo filtro que quase ninguém comenta. Dentro da própria elite, quem é estudado? Homem, jovem, saudável, sem comorbidade, sem medicação. Porque comorbidade e medicação são variáveis de confusão, e o pesquisador precisa limpar isso do desenho.
-
-E um terceiro, que é o que mais dói. A idade. A maior parte da fisiologia do exercício que a gente aprendeu foi medida entre os dezoito e os trinta anos. E quem está no consultório querendo voltar a correr, querendo não perder massa, querendo não se lesionar de novo? Tem quarenta, cinquenta, sessenta. Quer dizer, a faixa que mais procura orientação é justamente a que menos foi estudada.
-
-Junta os três filtros e olha o retrato que sobra. Homem, jovem, saudável, sem remédio, disponível. É um retrato nítido. Só que não é o retrato de ninguém que você atende.
+Junta os três e o retrato que sobra é nítido. Só que não é o retrato de ninguém que você atende.
 
 Deixa eu te dar um número que eu acho que resume isso. Em dois mil e vinte e um saiu um trabalho que analisou mais de cinco mil publicações de ciência do esporte, entre dois mil e quatorze e dois mil e vinte, somando mais de doze milhões de participantes. Dessas pessoas todas, trinta e quatro por cento eram mulheres. Trinta e quatro.
 
 Então, colega, quando você lê uma recomendação de treino e ela não diz o sexo da amostra, a chance de ela estar descrevendo o corpo masculino é de dois terços.
 
-E o que fazer com isso na prática? Uma coisa que leva trinta segundos. Antes de ler o resultado do artigo, vai na metodologia e procura três informações: quantos eram, que sexo, que idade. Se não disser, você já sabe o que assumir. E se disser que eram vinte e dois universitários de vinte e um anos, o resultado continua válido — para vinte e dois universitários de vinte e um anos. Isso não é ceticismo, é leitura, e cabe no intervalo entre dois pacientes.
+E o que fazer com isso leva trinta segundos: antes de ler o resultado do artigo, vai na metodologia e procura quantos eram, que sexo, que idade. Se disser que eram vinte e dois universitários de vinte e um anos, o resultado continua válido — para vinte e dois universitários de vinte e um anos. Isso não é ceticismo, é leitura.
 
 Agora o número que mais muda a cabeça das pessoas. Uma revisão com metanálise juntou os estudos que mediram lesão por mil horas de corrida. Corredor iniciante: dezessete vírgula oito lesões por mil horas. Corredor recreativo, já com alguma estrada: sete vírgula sete. E atleta de pista, de fundo, treinando sério: dois vírgula cinco.
 
@@ -66,17 +62,15 @@ Se lesão fosse função de carga, esse número estaria invertido. Quem treina m
 
 Então lesão não é função de carga. Lesão é função de carga sobre capacidade de tolerar aquela carga. E é exatamente aí que o contexto entra.
 
-E pensa comigo em três pessoas diferentes recebendo o mesmo treino, porque é assim que eu quero que você leia qualquer número daqui pra frente.
+E pensa em três pessoas recebendo o mesmo treino.
 
-O sedentário que vai começar. Para ele, qualquer coisa é estímulo. Uma caminhada é estímulo, duas séries é estímulo. E como qualquer coisa é estímulo, qualquer coisa também pode ser excesso, porque o tecido dele não tem histórico de exposição. E tendão, osso e cartilagem não leem planilha, eles leem exposição prévia. Eles não sabem qual é o objetivo da prova, eles sabem quantas vezes já foram carregados.
+O sedentário que vai começar. Para ele, qualquer coisa é estímulo — e por isso qualquer coisa também pode ser excesso, porque o tecido dele não tem histórico de exposição. Tendão, osso e cartilagem não leem planilha. Eles leem quantas vezes já foram carregados.
 
-O praticante regular, que é o grosso do seu consultório. Esse já tem tecido adaptado, já tolera mais, e justamente por isso precisa de mais para progredir. Só que ele é também o que tem menos margem de recuperação, porque o dia dele está cheio de outras coisas. É o mais difícil dos três, e é o que menos aparece na literatura.
+O praticante regular, que é o grosso do seu consultório. Esse já tem tecido adaptado e tolera mais, e justamente por isso precisa de mais para progredir. Só que é o que tem menos margem de recuperação, porque o dia dele está cheio de outras coisas. É o mais difícil dos três, e o que menos aparece na literatura.
 
-E o atleta. Esse tolera carga que derrubaria os outros dois. E tolera porque construiu isso ao longo de anos, e porque o dia inteiro dele foi desenhado em volta da recuperação. Ele não é mais forte só no músculo, ele é mais forte no calendário.
+E o atleta. Esse tolera carga que derrubaria os outros dois, porque construiu isso ao longo de anos e porque o dia inteiro dele foi desenhado em volta da recuperação. Ele não é mais forte só no músculo. É mais forte no calendário.
 
-O mesmo treino, então, é subdose no terceiro e overdose no primeiro. E o número que você leu no artigo veio, quase sempre, do terceiro.
-
-E cuidado para não ler isso como "iniciante é frágil". Não é isso. O que esse dado diz é que a mesma hora de corrida é um evento fisiológico diferente em cada um desses três corpos. Histórico de exposição, qualidade de tecido, sono, tempo de recuperação disponível — tudo isso está dentro daquela hora. E nada disso aparece no relógio.
+O mesmo treino é subdose no terceiro e overdose no primeiro. E o número que você leu no artigo veio, quase sempre, do terceiro. Não porque iniciante seja frágil — mas porque a mesma hora de corrida é um evento fisiológico diferente em cada um desses corpos, e nada disso aparece no relógio.
 
 ---
 
@@ -92,9 +86,9 @@ Ele senta e fala assim — e eu anotei porque a frase é boa demais:
 
 > *"Eu tô seguindo a planilha certinho, doutor. É a mesma metodologia que o pessoal da elite usa. Só que faz três meses que eu não melhoro nada e tô sentindo a canela."*
 
-Repara no que ele disse. "A mesma metodologia que o pessoal da elite usa." E ele falou isso com orgulho. Para ele, seguir protocolo de elite era selo de qualidade.
+Repara: "a mesma metodologia que o pessoal da elite usa" — e ele falou isso com orgulho. Para ele, seguir protocolo de elite era selo de qualidade.
 
-Peguei os exames que ele trouxe. Hemograma normal. Tireoide normal. Vitamina D no limite inferior, mas dentro. Testosterona normal para a idade. Tudo normal.
+Peguei os exames. Hemograma normal. Tireoide normal. Vitamina D no limite inferior, mas dentro. Testosterona normal para a idade. Tudo normal.
 
 E aí eu fiz uma pergunta que não estava na planilha dele nem em exame nenhum. Perguntei quantas horas ele dormia.
 
@@ -106,19 +100,15 @@ Olha o que a gente tinha ali. Uma planilha correta. Um corpo com dois anos de d�
 
 Exame de sangue é fotografia, não é filme. A fotografia do Sérgio estava normal. O filme dele estava em queda havia dois anos.
 
-E o que a gente fez não foi genial, foi só contexto. Não mexeu na intensidade das sessões de qualidade, mexeu no número delas: de três por semana para duas. E trocou o horário de uma do amanhecer para o fim do dia, o que devolveu quase uma hora de sono em dois dias da semana.
+E o que a gente fez não foi genial, foi só contexto. Não mexeu na intensidade das sessões de qualidade, mexeu no número: de três por semana para duas. E trocou o horário de uma do amanhecer para o fim do dia, o que devolveu quase uma hora de sono em dois dias.
 
-Mas eu não quero te vender que foi só isso, porque não foi. A gente também mediu. Pedi para ele anotar, todo dia, duas coisas que não custam nada: a hora que deitou e uma nota de zero a dez de como acordou. E a percepção de esforço no fim de cada sessão. Só isso.
+E mediu. Todo dia, duas coisas que não custam nada: a hora que deitou e uma nota de zero a dez de como acordou. Mais a percepção de esforço no fim de cada sessão.
 
 Na terceira semana já dava para ver o padrão no papel dele. As sessões que ele classificava como mais duras não eram as mais longas nem as mais rápidas. Eram as que vinham depois das noites de menos de cinco horas. O mesmo treino, percebido como muito mais difícil, dependendo do que tinha acontecido na véspera.
 
 Ele olhou aquilo e falou: *"Então o treino não tá pesado. Eu é que tô chegando pesado."*
 
 Essa frase é dele, não é minha. E é uma definição de carga interna melhor do que muita que eu já li.
-
-E teve uma coisa que eu achei interessante nesse acompanhamento. Na quinta semana ele me mandou mensagem dizendo que tinha dormido sete horas numa quarta e que o treino de intervalado daquela quinta tinha sido, palavras dele, "estranhamente fácil". O mesmo treino que três semanas antes ele tinha classificado como nove de dez.
-
-Nada tinha mudado no treino. Mudou o corpo que chegou nele.
 
 Dez semanas depois, ele tinha melhorado o ritmo, sem nenhuma sessão nova, e a canela tinha sumido. E ele falou, meio sem acreditar: *"Mas eu tô treinando menos."*
 
@@ -144,9 +134,7 @@ Ele chegou para treinar com o tanque pela metade. E você põe a mesma quilometr
 
 E tem uma segunda cascata, mais silenciosa que a do sono, que eu preciso te mostrar. Pensa num paciente que está comendo menos para emagrecer e treinando mais para emagrecer, as duas coisas ao mesmo tempo. O que acontece? A disponibilidade de energia cai. Se cai, o organismo prioriza — e ele não prioriza o que você quer, ele prioriza sobrevivência. Se prioriza sobrevivência, ele corta custo no que não é essencial naquele momento: reparo de tecido, resposta imune, eixo reprodutivo, massa óssea. E se ele cortou reparo de tecido e o treino continua, você não está construindo. Você está descontando do principal.
 
-E repara que nas duas cascatas o erro não está em nenhum passo isolado. Dormir pouco uma noite não faz mal a ninguém. Comer um pouco menos por uma semana não faz mal a ninguém. Treinar forte num dia não faz mal a ninguém. O que faz mal é a soma, sustentada no tempo, num corpo que não teve como pagar.
-
-E é por isso que é tão difícil de enxergar. Ninguém errou num ponto específico que você possa apontar. O erro é distribuído.
+E repara que nas duas cascatas o erro não está em nenhum passo isolado. Dormir pouco uma noite não faz mal a ninguém, comer um pouco menos por uma semana não faz mal, treinar forte num dia não faz mal. O que faz mal é a soma, sustentada no tempo, num corpo que não teve como pagar. Por isso é tão difícil de enxergar: ninguém errou num ponto que você possa apontar. O erro é distribuído.
 
 E o mais perverso é que nas primeiras semanas os dois pacientes — o que está adaptando e o que está descontando — parecem iguais na balança. Os dois perdem peso. A diferença aparece no terceiro, no quarto mês. E aí o estrago já tem nome: lesão de estresse, infecção de repetição, amenorreia, platô que não sai com nada.
 
@@ -168,21 +156,13 @@ E isso não é invenção minha, não. Em mil novecentos e noventa e oito o Bruc
 
 E tem uma coisa aqui que é fina e que muda conduta. A adaptação é específica, mas o custo é geral. Quer dizer: se você quer que o tendão do seu paciente tolere carga, o tendão precisa receber carga — não existe resistência genérica que transborda de um sistema para outro. Mas o preço de tudo, de todos os sistemas, sai da mesma conta. O benefício é específico. O preço é compartilhado.
 
-E o substrato físico disso — a gente vai dedicar uma aula inteira a isso daqui a pouco, na quinta aula — é a capacidade oxidativa da mitocôndria. A moeda com que essa conta é paga. Deixo o gancho plantado, mas já vai pensando nisso, porque quando a gente chegar lá vai encaixar.
+E o substrato físico disso, que vai render uma aula inteira daqui a pouco, é a capacidade oxidativa da mitocôndria. A moeda com que essa conta é paga.
 
-Agora junta tudo o que eu te dei separado, que é onde as coisas se combinam. Aquele trinta e quatro por cento não é um dado sobre mulheres — é um dado sobre o tamanho do buraco entre a amostra e o paciente. O dezessete vírgula oito não é um dado sobre corrida — é a prova de que capacidade de tolerar pesa mais do que carga aplicada. E a carga alostática não é conceito de psiquiatria — é o preço contábil disso tudo, cobrado num caixa só.
+E junta os três dados que eu te dei separados. Aquele trinta e quatro por cento não é um dado sobre mulheres — é o tamanho do buraco entre a amostra e o paciente. O dezessete vírgula oito não é um dado sobre corrida — é a prova de que capacidade de tolerar pesa mais do que carga aplicada. E a carga alostática não é conceito de psiquiatria — é o preço contábil disso tudo, num caixa só. Três literaturas diferentes, nenhuma escrita pensando no seu paciente, chegando no mesmo lugar.
 
-Três literaturas diferentes, dizendo a mesma coisa por caminhos diferentes. E nenhuma delas foi escrita pensando no seu paciente — o que mostra que a conclusão é robusta, porque ela apareceu sem ninguém estar procurando por ela.
+E eu preciso dizer com honestidade que a literatura não fechou uma parte importante disso: quanto vale cada débito. Quanto pesa uma noite de cinco horas comparada com uma semana de déficit energético, ou com três meses de estresse no trabalho? Não existe fórmula, e quem te vender esse número está vendendo. O que existe é a lógica da conta, que é sólida, e a leitura clínica de cada paciente, que é sua. Não é cálculo. É leitura — e leitura melhora com anamnese boa e reavaliação, não com equação.
 
-E é por isso que eu não chamo isso de teoria. Teoria é uma coisa que você acredita ou não acredita. Isso aqui é uma conta. Conta a gente faz.
-
-E tem uma coisa que eu preciso dizer com honestidade aqui, porque a literatura não fechou. Quanto vale cada débito nessa conta? Quanto pesa uma noite de cinco horas comparada com uma semana de déficit energético, ou com três meses de estresse no trabalho? Não existe fórmula. Ninguém tem esse número, e quem te vender esse número está vendendo. O que existe é a lógica da conta, que é sólida, e a leitura clínica de cada paciente, que é sua.
-
-Então não é um cálculo. É uma leitura. E leitura melhora com repetição, com anamnese boa e com reavaliação — não com equação.
-
-E aí a consequência prática, que é onde isso aterrissa: a mesma sessão de treino é segura em um corpo e lesiva em outro. E a diferença não está na sessão.
-
-Quantas vezes você já viu dois pacientes no mesmo programa, um responde e o outro não? E a gente atribui a genética, a disciplina, a sorte. Às vezes é. Mas na maioria das vezes que eu vi no consultório — e isso aqui é leitura minha, não é diretriz — a diferença estava na conta, e a conta estava numa anamnese que ninguém fez.
+E aí a consequência prática: a mesma sessão de treino é segura em um corpo e lesiva em outro, e a diferença não está na sessão. Quantas vezes você já viu dois pacientes no mesmo programa, um responde e o outro não? A gente atribui a genética, a disciplina, a sorte. Às vezes é. Mas na maioria das vezes que eu vi no consultório, a diferença estava na conta — e a conta estava numa anamnese que ninguém fez.
 
 ---
 
@@ -190,31 +170,29 @@ Quantas vezes você já viu dois pacientes no mesmo programa, um responde e o ou
 *Visual: cinco perguntas numeradas em tipografia grande, fundo areia, com o selo "custo: zero".*
 *Teleprompter: (aterrissagem: tom prático, ritmo mais rápido; desacelera só no fechamento)*
 
-E eu não vou te deixar sair daqui só com conceito, porque eu sempre digo: você só pode avaliar o que pode ser medido. Se eu te dou uma lente e não te dou instrumento, eu te dei metade.
+E eu sempre digo: você só pode avaliar o que pode ser medido. Então segunda-feira, no seu atendimento, sem comprar nada e sem pedir exame nenhum, você acrescenta cinco perguntas na anamnese.
 
-Então segunda-feira, no seu atendimento, sem comprar nada e sem pedir exame nenhum, você acrescenta cinco perguntas na anamnese.
+Primeira: que horas você deita e que horas você levanta. Não pergunta se dorme bem, que todo mundo responde que sim — pergunta o horário, e a janela real é quase sempre uma hora menor do que a pessoa diz.
 
-Primeira: que horas você deita e que horas você levanta. Não pergunta se dorme bem, que todo mundo responde que sim. Pergunta o horário, e você vai descobrir que a janela real é quase sempre uma hora menor do que a pessoa diz. Se der menos de seis, você já tem um débito que vai aparecer em qualquer sessão dura.
+Segunda: turno, escala, plantão, e quanto tempo gasta se deslocando. Quem passa duas horas no trânsito não tem o mesmo dia de quem trabalha em casa, mesmo com a planilha idêntica.
 
-Segunda: você trabalha em turno, tem escala, tem plantão, e quanto tempo gasta se deslocando. Isso te diz se o dia dele tem ou não tem espaço para recuperação. Quem passa duas horas no trânsito não tem o mesmo dia de quem trabalha em casa, mesmo com a planilha idêntica.
+Terceira: quantas refeições em dia de treino, e o que come antes e depois. É o desenho grosso — você está procurando presença ou ausência de combustível no entorno do treino.
 
-Terceira: quantas refeições você faz em dia de treino, e o que come antes e depois. Não precisa de recordatório aqui, é o desenho grosso. Você está procurando presença ou ausência de combustível no entorno do treino.
+Quarta: já teve algum período da vida em que fez dieta restritiva, perdeu muito peso ou parou de menstruar. É o antecedente de baixa disponibilidade energética, é o que mais muda o risco ósseo, e é o que ninguém pergunta porque parece não ter a ver com corrida.
 
-Quarta: já teve algum período da vida em que fez dieta restritiva, perdeu muito peso, ou parou de menstruar. Esse é o antecedente de baixa disponibilidade energética, e é o que mais muda o risco ósseo. E é o que ninguém pergunta porque parece que não tem a ver com corrida.
+E a quinta, que é a que mais entrega: nos últimos doze meses, quantas vezes ficou gripado ou pegou alguma infecção. É o termômetro mais barato de que a conta estourou. Quem está adaptando bem não fica gripado toda vez que aumenta o volume.
 
-E a quinta, que é a que mais entrega: nos últimos doze meses, quantas vezes você ficou resfriado, gripado, pegou alguma infecção. Esse é o termômetro mais barato que existe de que a conta estourou. Quem está adaptando bem não fica gripado toda vez que aumenta o volume.
-
-E se você quiser levar isso um degrau adiante sem gastar nada, peça para o paciente anotar duas coisas por trinta dias, como o Sérgio anotou: a hora que deitou e uma nota de zero a dez de como acordou. Mais a percepção de esforço no fim de cada treino. Em três ou quatro semanas o padrão aparece sozinho no papel, e o melhor é que aparece para ele também — o que resolve metade do problema de adesão, porque ninguém discute com o próprio caderno.
+E um degrau adiante, também de graça: o registro do Sérgio. Hora de deitar, nota de zero a dez ao acordar, percepção de esforço no fim do treino. Em três ou quatro semanas o padrão aparece sozinho no papel — e aparece para ele também, o que resolve metade do problema de adesão. Ninguém discute com o próprio caderno.
 
 Cinco perguntas. Três minutos. E elas mudam conduta com mais frequência do que qualquer painel caro que você possa pedir.
 
-Agora, colega fisioterapeuta, colega da educação física, colega nutricionista — uma parte do que vem depois dessas perguntas é investigação laboratorial, e isso tem escopo. O que muda com vocês não é pedir exame. É reconhecer o padrão e encaminhar com informação. Um encaminhamento que diz "paciente com queda de rendimento, cinco horas de sono há dois anos e três infecções no último semestre, favor avaliar" vale dez vezes mais do que um que diz "favor avaliar fadiga". E essa diferença é de vocês.
+Agora, colega fisioterapeuta, da educação física, nutricionista — parte do que vem depois dessas perguntas é investigação laboratorial, e isso tem escopo. O que muda com vocês não é pedir exame. É reconhecer o padrão e encaminhar com informação. Um encaminhamento que diz "queda de rendimento, cinco horas de sono há dois anos, três infecções no semestre, favor avaliar" vale dez vezes mais do que "favor avaliar fadiga".
 
-E eu preciso te dizer também quando isso não serve, porque toda ferramenta tem limite. Se o seu paciente chega com dor aguda, trauma recente ou sinal de alarme, você não vai fazer conta de reserva. Você vai investigar a dor e tratar a dor. Isso aqui é lente para quem se queixa de estagnação, de fadiga que não passa, de lesão que volta, de resultado que sumiu. Não é lente para emergência.
+E quando isso não serve: se o paciente chega com dor aguda, trauma recente ou sinal de alarme, você não faz conta de reserva. Você investiga a dor. Isso aqui é lente para estagnação, fadiga que não passa, lesão que volta, resultado que sumiu. Não é lente para emergência.
 
-E tem um custo, que eu não vou esconder de você. Essa anamnese mais longa toma tempo de consulta e te obriga a conversar sobre coisas que o paciente não veio conversar — sono, trabalho, casamento, culpa com o filho. Tem paciente que não gosta. Tem paciente que acha que você está fugindo do assunto. Você vai ter que explicar por que está perguntando. Isso é trabalho, e é trabalho que não dá para terceirizar.
+E tem um custo que eu não vou esconder. Essa anamnese toma tempo e te obriga a conversar sobre o que o paciente não veio conversar — sono, trabalho, casamento, culpa com o filho. Tem paciente que acha que você está fugindo do assunto, e você vai ter que explicar por que está perguntando.
 
-Na próxima aula a gente vai no lugar de onde essa ideia supostamente veio. Porque você vai ouvir a vida inteira que periodização se apoia na síndrome geral de adaptação, do Hans Selye. E eu quero te mostrar o que o Selye realmente fez, em quem ele fez, e o que foi costurado no nome dele depois sem ele ter dito. Não é curiosidade histórica, não — muda o que você faz com o paciente que estagnou, e muda o que você responde quando ele chegar dizendo que está com a adrenal esgotada.
+Na próxima aula a gente vai no lugar de onde essa ideia supostamente veio. Você vai ouvir a vida inteira que periodização se apoia na síndrome geral de adaptação, do Hans Selye. Eu quero te mostrar o que o Selye realmente fez, em quem fez, e o que foi costurado no nome dele depois sem ele ter dito. Não é curiosidade histórica: muda o que você faz com o paciente que estagnou, e muda o que você responde quando ele chegar dizendo que está com a adrenal esgotada.
 
 Um grande abraço e até a próxima aula.
 

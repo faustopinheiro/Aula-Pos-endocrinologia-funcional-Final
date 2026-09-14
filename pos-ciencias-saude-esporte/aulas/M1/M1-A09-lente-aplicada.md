@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 30 minutos · 6 slides
+Duração: 28 minutos · 6 slides
 
 ---
 
@@ -48,11 +48,9 @@ Ele senta e fala:
 
 Repara em duas coisas na fala dele. Primeiro, ele já trouxe a hipótese: idade e hormônio. Segundo, ele disse "mesmo dormindo" — o que significa que ele acha que dorme bem.
 
-E olha, essa tentação não é ignorância. Ela é construída. Ele chegou com a hipótese pronta, articulada, e ele está pagando a consulta esperando aquela investigação. Se você não faz, você tem que explicar por que não faz — e isso dá trabalho e gera atrito.
+E a tentação aqui é enorme, e ela é construída, não é ignorância. Homem de cinquenta e dois, cansado, sem evoluir, pedindo para investigar hormônio — dá para pedir um painel completo e achar alguma coisa, porque em homem de cinquenta e dois você quase sempre acha. E ele está pagando a consulta esperando aquela investigação: se você não faz, tem que explicar por que não faz, e isso dá trabalho.
 
 Fazer o que o paciente pediu é sempre o caminho mais curto para terminar a consulta bem. E é frequentemente o caminho mais longo para resolver o problema dele.
-
-A tentação aqui é enorme. Homem, cinquenta e dois, cansado, sem evoluir, pedindo para investigar hormônio. Dá para pedir um painel completo e achar alguma coisa, porque em homem de cinquenta e dois você quase sempre acha alguma coisa.
 
 Em vez disso, eu montei a conta.
 
@@ -68,19 +66,13 @@ Vida: sem mudança relevante no último ano.
 
 Doença: nenhuma. Nenhum medicamento. Duas gripes no último ano, o que é normal.
 
-E repara no dado do sono dele, porque ele passou despercebido na fala inicial. Ele disse "mesmo dormindo". Só quando eu perguntei especificamente é que apareceu o despertar das duas da manhã, que acontecia todo dia havia meses. Ele não considerava isso um problema de sono — considerava um traço de personalidade, coisa de quem trabalha muito.
+E repara no dado do sono, que passou despercebido na fala inicial. Ele disse "mesmo dormindo" — e só quando eu perguntei especificamente é que apareceu o despertar das duas da manhã, todo dia, havia meses. Ele não considerava aquilo um problema de sono, considerava um traço de personalidade, coisa de quem trabalha muito. É exatamente por isso que a pergunta é sobre horário e sobre despertares, e não sobre qualidade percebida.
 
-Esse é exatamente o motivo de a pergunta ser sobre horário e sobre despertares, e não sobre qualidade percebida. Se eu tivesse perguntado "você dorme bem?", ele teria dito que sim, e a consulta teria ido para outro lugar.
+E aí você olha essa folha e não precisa de exame nenhum. Cinco débitos de treino, seis horas de sono fragmentado, quatorze horas fora de casa, nenhuma entrada. A hipótese que ele trouxe não é absurda — ela só está no lugar errado da fila.
 
-E aí você olha essa folha e não precisa de exame nenhum para ver o que está acontecendo. Cinco débitos de treino, seis horas de sono fragmentado, quatorze horas fora de casa, e nenhuma entrada.
+E eu quero ser justo com o colega que teria pedido o painel, porque eu já pedi em situações parecidas. O que eu defendo não é nunca dosar: é dosar depois de saber o contexto, porque o mesmo número significa coisas diferentes dependendo do que está em volta. Um valor no limite inferior num homem com sono e alimentação organizados é uma coisa; o mesmo valor num homem com seis horas de sono fragmentado e sem café da manhã é outra. O exame não distingue as duas. Só você distingue.
 
-E a hipótese que ele trouxe — idade e hormônio — não está errada no sentido de ser absurda. Mas ela está no lugar errado da fila.
-
-E eu quero ser justo com o colega que teria pedido o painel, porque eu já pedi em situações parecidas e você vai pedir também. Não é erro grosseiro. O que eu estou defendendo não é nunca dosar — é dosar depois de saber o contexto, porque o mesmo número significa coisas diferentes dependendo do que está acontecendo em volta.
-
-Um valor no limite inferior num homem com sono e alimentação organizados é uma coisa. O mesmo valor num homem com seis horas de sono fragmentado e sem café da manhã é outra. E o exame não distingue as duas. Só você distingue.
-
-Porque se eu dosar testosterona nesse homem, eu tenho uma chance grande de achar um valor baixo ou no limite inferior. E aí eu teria duas opções: repor, e ele melhoraria, e a conta continuaria estourada embaixo. Ou fazer o que eu fiz.
+Porque se eu dosasse testosterona nesse homem, a chance de achar um valor baixo ou no limite inferior era grande. E aí eu teria duas opções: repor, ele melhoraria, e a conta continuaria estourada embaixo. Ou fazer o que eu fiz.
 
 O que a gente fez: duas das quatro sessões de musculação viraram leves, com carga reduzida e intervalo maior. O tênis ficou. E a intervenção principal não foi no treino — foi combinar com ele um horário fixo de deitar, às vinte e três, com o telefone fora do quarto, e um café da manhã com proteína.
 

@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 30 minutos · 6 slides
+Duração: 29 minutos · 6 slides
 
 ---
 
@@ -14,29 +14,17 @@ Então, na aula passada eu te dei o método de montar a conta e listei seis déb
 
 Porque essa é a situação real. Você vai montar a conta de um paciente e vai descobrir que quatro dos seis débitos são intocáveis neste momento da vida dele. E aí a pergunta deixa de ser "o que eu corto" e passa a ser "onde eu consigo entrar".
 
-E antes de entrar, uma orientação sobre a ordem de perguntar, porque ela importa. Comece pelo treino. Não porque ele é o mais importante — a gente já viu que geralmente não é — mas porque é o assunto pelo qual o paciente veio, e é onde ele está confortável. Se você abrir a consulta perguntando sobre casamento e sono, ele estranha. Se você começar pelo treino e for abrindo o leque, ele te acompanha.
+E uma orientação sobre a ordem de perguntar, porque ela importa: comece pelo treino. Não porque ele é o mais importante — a gente já viu que geralmente não é — mas porque é o assunto pelo qual o paciente veio, e é onde ele está confortável. Se você abrir a consulta perguntando sobre casamento e sono, ele estranha. Se começar pelo treino e for abrindo o leque, ele te acompanha. Essa sequência decide se você vai ter acesso aos outros cinco débitos ou não.
 
-É uma questão de sequência de conversa, e ela decide se você vai ter acesso aos outros cinco débitos ou não.
-
-Vamo começar pelo treino, que é o único que quase todo mundo mede e o que menos costuma ser o problema principal.
-
-E uma correção de expectativa antes de eu listar: quando eu falo em débito, não é sinônimo de coisa ruim. Treino é débito e é o que a gente quer que a pessoa faça. Trabalho é débito e é o que sustenta a vida dela. Filho pequeno é débito e é a coisa mais importante que ela tem. Débito aqui significa consumo de reserva, e não erro.
-
-Isso importa na hora de devolver a conta para o paciente, porque se ele entender débito como culpa, você perde a conversa.
+E uma correção de expectativa: débito não é sinônimo de coisa ruim. Treino é débito e é o que a gente quer que a pessoa faça. Filho pequeno é débito e é a coisa mais importante que ela tem. Débito aqui significa consumo de reserva, não erro — e isso importa na hora de devolver a conta, porque se ele entender débito como culpa, você perde a conversa.
 
 O que perguntar: quantas sessões por semana, quanto tempo cada uma, e a nota de zero a dez de cada uma. Não pergunte "que treino você faz", porque a resposta vem em nome de método — funcional, crossfit, musculação, corrida — e nome de método não te diz carga nenhuma.
 
-E tem um segundo tipo de treino que quase ninguém contabiliza e que entra na conta inteirinho: o trabalho físico. O pedreiro, o entregador, o enfermeiro que empurra maca, o garçom que fica dez horas em pé. Isso é carga. Não é treino, não gera a mesma adaptação, mas cobra do mesmo caixa.
+E tem um segundo tipo de treino que quase ninguém contabiliza: o trabalho físico. O pedreiro, o entregador, o enfermeiro que empurra maca, o garçom que fica dez horas em pé. Não é treino, não gera a mesma adaptação, mas cobra do mesmo caixa. O sujeito que carrega peso o dia inteiro e vai para a academia à noite tem três sessões na planilha e muito mais na conta. Pergunte sempre o que o trabalho dele exige do corpo.
 
-E aí você tem o sujeito que carrega peso o dia inteiro e vai para a academia à noite fazer treino de força. Na planilha dele tem três sessões por semana. Na conta dele tem muito mais.
+O que procurar: a distribuição, porque não é o total que quebra a maioria das pessoas, é a concentração — quatro sessões duras em cinco dias e depois dois parados é muito pior do que as mesmas quatro espalhadas. A ausência de sessão leve: se todas as notas estão acima de sete, você achou o Wagner da aula cinco. E a última semana de recuo: se não existe há meses, você tem hipótese de saldo antes de qualquer outra coisa.
 
-Pergunte sempre, então, o que o trabalho dele exige do corpo. E lembre que isso não substitui treino — porque adaptação é específica, como a gente viu — mas conta como débito.
-
-O que procurar: primeiro, a distribuição. Não é o total que quebra a maioria das pessoas, é a concentração. Quatro sessões duras em cinco dias e depois dois dias parados é muito pior do que as mesmas quatro espalhadas. Segundo, procure ausência de sessão leve — se todas as notas estão acima de sete, você achou o Wagner da aula cinco. E terceiro, procure a última semana de recuo. Se não existe há meses, você tem hipótese de saldo antes de qualquer outra coisa.
-
-E tem um achado específico que vale procurar com atenção: o paciente que treina sete dias por semana. Não é raro, e quase sempre ele te apresenta isso com orgulho. O que costuma estar por trás não é dedicação — é ansiedade. A pessoa não consegue ficar um dia sem, e o dia de folga gera desconforto real.
-
-Isso muda a conduta, porque você não vai resolver com argumento fisiológico. Se você falar que descanso faz parte do treino, ele concorda e continua treinando sete dias. O caminho costuma ser substituir, e não retirar: em vez de folga, uma sessão muito leve, com hora marcada, que preserve o ritual sem cobrar da conta. E, se a coisa for mais funda, isso é conversa para psicologia, e é bom você reconhecer e encaminhar em vez de insistir sozinho.
+E um achado específico que vale procurar: o paciente que treina sete dias por semana, e que quase sempre apresenta isso com orgulho. O que costuma estar por trás não é dedicação, é ansiedade — o dia de folga gera desconforto real. E isso muda a conduta, porque argumento fisiológico não resolve: se você disser que descanso faz parte do treino, ele concorda e continua treinando sete dias. O caminho é substituir, não retirar — em vez de folga, uma sessão muito leve com hora marcada, que preserva o ritual sem cobrar da conta. E se for mais funda, é conversa para psicologia.
 
 E quando o treino não tem folga? Isso acontece com quem compete, com quem tem prova marcada e paga, e com quem usa o treino como âncora de saúde mental. Nesses, tirar treino tem custo que não aparece na planilha.
 
@@ -52,33 +40,19 @@ Agora o sono, que na minha leitura é o débito com melhor relação entre esfor
 
 O que perguntar: que horas deita e que horas levanta, nos dias de semana e no fim de semana, separadamente. E quantas vezes acorda no meio. Nunca pergunte se dorme bem — a resposta é sim em quase todo mundo, inclusive em quem dorme cinco horas.
 
-E vale nomear uma coisa sobre horário de treino e sono, porque aparece muito. O paciente que acorda às quatro e meia para treinar antes do trabalho está, na prática, trocando sono por treino. Se ele deita às dez, isso pode fechar. Se ele deita à meia-noite porque é o único horário que vê a família, ele está pagando duas contas com o mesmo dinheiro.
+E vale nomear uma coisa sobre horário de treino, porque aparece muito. Quem acorda às quatro e meia para treinar antes do trabalho está trocando sono por treino. Se deita às dez, pode fechar. Se deita à meia-noite porque é o único horário que vê a família, está pagando duas contas com o mesmo dinheiro — e aí mover o treino para o fim do dia rende mais do que qualquer ajuste dentro da sessão.
 
-Nesse caso, mover o treino para o fim do dia — quando é possível — costuma render mais do que qualquer ajuste dentro da sessão. E é uma mudança que não aparece em nenhuma periodização.
+O que procurar: a janela real, que costuma ser uma hora menor do que a declarada, porque a pessoa conta o tempo na cama e não o tempo dormindo. A diferença entre semana e fim de semana — quem dorme seis de segunda a sexta e dez no sábado está te dizendo que tem privação acumulada, e aquele sábado é reposição, não preferência. E ronco, pausas respiratórias relatadas pelo parceiro, sonolência diurna e hipertensão de difícil controle, que juntos levantam suspeita de apneia obstrutiva.
 
-O que procurar: primeiro, a janela real, que costuma ser uma hora menor do que a declarada, porque a pessoa conta o tempo na cama e não o tempo dormindo. Segundo, a diferença entre semana e fim de semana. Quem dorme seis horas de segunda a sexta e dez no sábado está te dizendo que tem privação acumulada — aquele sábado é reposição, não preferência. E terceiro, ronco, pausas respiratórias relatadas pelo parceiro, sonolência diurna e hipertensão de difícil controle, que juntos levantam suspeita de apneia obstrutiva e mudam completamente a condução.
-
-E deixa eu te dar duas perguntas complementares que rendem muito. A primeira: você acorda com despertador ou acorda antes? Quem acorda espontaneamente antes do despertador na maioria dos dias está com a necessidade de sono razoavelmente atendida. Quem depende de despertador todo dia, e ainda dá soneca, está em débito.
-
-A segunda: no fim de semana, se você não marcar nada, que horas você acorda? A diferença entre esse horário e o da semana é uma estimativa grosseira e muito útil de quanto sono ele está devendo por noite.
-
-Nenhuma das duas precisa de equipamento e as duas são respondidas com precisão, porque são factuais.
+E duas perguntas complementares que rendem muito. Você acorda com despertador ou acorda antes? Quem acorda espontaneamente na maioria dos dias tem a necessidade de sono razoavelmente atendida; quem depende de despertador todo dia e ainda dá soneca está em débito. E: no fim de semana, se você não marcar nada, que horas acorda? A diferença entre esse horário e o da semana é uma estimativa grosseira e muito útil do que ele está devendo por noite.
 
 E por que eu digo que esse é o mais rentável? Porque existe dado ligando sono curto a lesão. Um estudo em atletas adolescentes, com pouco mais de cem sujeitos, encontrou que dormir menos de oito horas por noite se associou a um risco de lesão cerca de setenta por cento maior.
 
-E eu preciso ser honesto sobre o peso desse dado, porque eu não quero que você saia usando ele fora do lugar. É um estudo em adolescentes, é levantamento por questionário, a amostra é pequena, e é associação — não é demonstração de causa. Você não pode dizer ao seu paciente de quarenta anos que dormir menos de oito horas aumenta o risco dele em setenta por cento. Não foi isso que foi medido.
+E eu preciso ser honesto sobre o peso desse dado: é estudo em adolescentes, levantamento por questionário, amostra pequena, e é associação, não causa. Você não pode dizer ao seu paciente de quarenta anos que dormir menos de oito horas aumenta o risco dele em setenta por cento. O que dá para dizer com segurança é que a relação entre sono insuficiente e pior recuperação é consistente, e que na conta o sono é entrada, não luxo.
 
-O que você pode dizer, com segurança, é que existe relação consistente entre sono insuficiente e pior recuperação, e que na leitura da conta o sono é uma entrada e não um luxo.
+E um alerta sobre os relógios, já que quase todo paciente tem um: eles estimam razoavelmente o tempo total e são bem menos confiáveis para estágios. Aquela tela dizendo quanto de sono profundo a pessoa teve não tem a acurácia que a apresentação sugere. Use o tempo total e a regularidade de horário, não o gráfico de estágios. E cuidado com o paciente ansioso com o próprio relógio, dormindo pior porque está preocupado com a nota que vai receber de manhã — nesse, tirar o relógio é a intervenção.
 
-E um alerta sobre os relógios que medem sono, já que quase todo paciente tem um. Eles estimam razoavelmente o tempo total e são bem menos confiáveis para estágios de sono. Aquela tela dizendo quanto de sono profundo a pessoa teve não tem a acurácia que a apresentação sugere. Então use o tempo total, use a regularidade de horário, e não construa conduta em cima do gráfico de estágios.
-
-E cuidado com uma coisa que eu tenho visto: paciente ansioso com o próprio relógio, dormindo pior porque está preocupado com a nota de sono que vai receber de manhã. Nesses, tirar o relógio é a intervenção.
-
-E quando o sono não tem folga? Plantonista, mãe de bebê, motorista, trabalhador de turno. Aqui você não vai consertar o sono, e prometer isso é desonesto.
-
-O que dá para fazer: proteger o que sobra. Ancorar o horário de acordar, que é mais fácil de fixar do que o de dormir. Tratar o que é tratável — apneia, dor noturna, refluxo, cafeína tarde demais, tela até a hora de deitar. E, principalmente, **ajustar a expectativa de carga à realidade de sono**. Se o paciente dorme cinco horas por escala e isso não vai mudar este ano, o plano de treino tem que caber nesse corpo, e não no corpo de quem dorme oito.
-
-E dizer isso para ele, com todas as letras, é cuidado — não é desistir.
+E quando o sono não tem folga — plantonista, mãe de bebê, motorista, trabalhador de turno — você não vai consertar o sono, e prometer isso é desonesto. O que dá para fazer é proteger o que sobra: ancorar o horário de acordar, que é mais fácil de fixar do que o de dormir; tratar o que é tratável, como apneia, dor noturna, refluxo, cafeína tarde demais; e, principalmente, **ajustar a expectativa de carga à realidade de sono**. Se o paciente dorme cinco horas por escala e isso não vai mudar este ano, o plano de treino tem que caber nesse corpo, e não no de quem dorme oito. Dizer isso com todas as letras é cuidado, não é desistir.
 
 ---
 
@@ -188,19 +162,13 @@ Isso funciona porque o paciente vem quase sempre achando que o problema é falta
 
 A primeira coisa é aceitar que a conta dele é menor. Não é pior, é menor. E conta menor não significa que ele não deve treinar — significa que a dose que cabe nele é outra, e que a velocidade de progresso vai ser outra.
 
-E o jeito de achar essa folga é perguntar ao paciente, não deduzir sozinho. Eu costumo fazer assim: listo os débitos para ele em voz alta, na frente dele, e pergunto qual daqueles ele acha que dá para mexer um pouquinho. Ele conhece a vida dele melhor do que eu, e a resposta dele vem com adesão embutida, porque foi escolha dele.
+A segunda é encontrar o débito com folga, mesmo pequeno — e o jeito é perguntar, não deduzir. Eu listo os débitos em voz alta, na frente dele, e pergunto qual daqueles ele acha que dá para mexer um pouquinho. Ele conhece a vida dele melhor do que eu, e a resposta vem com adesão embutida porque foi escolha dele. Quando eu imponho, cumpre-se três semanas. Quando ele escolhe, dura. Na maior parte das vezes que eu vi, a folga estava num destes três: distribuição das sessões dentro da semana, comida em torno do treino, ou meia hora de sono.
 
-Quando eu escolho e imponho, cumpre-se três semanas. Quando ele escolhe, dura.
-
-A segunda é encontrar o débito com folga, mesmo que seja pequeno. Na maior parte das vezes que eu vi, foi um destes três: a distribuição das sessões dentro da semana, a comida em torno do treino, ou meia hora de sono. Nenhum desses exige que a vida da pessoa mude.
-
-E olha, essa aceitação não é derrota. É o que permite que ele continue. O paciente que insiste numa dose que não cabe vai quebrar, e quando quebrar vai parar de vez. O que fica num plano menor por dois anos chega mais longe do que o que fez um plano grande por dois meses.
+E essa aceitação não é derrota, é o que permite que ele continue. Quem insiste numa dose que não cabe quebra, e quando quebra para de vez. Quem fica num plano menor por dois anos chega mais longe do que quem fez um plano grande por dois meses.
 
 A terceira é ajustar a expectativa junto com ele, e por escrito. Não é você baixar a régua sozinho e não contar. É sentar e dizer: com essa vida, nesse momento, o realista é isto aqui. E quando essa fase passar, a gente sobe.
 
-E tem uma coisa que eu quero dizer sobre o tempo dessa conversa. Nada disso cabe numa consulta. Os seis débitos, bem perguntados, tomam mais tempo do que você tem. Então distribua: numa primeira consulta você levanta treino, sono e energia, que são os mais rentáveis. Trabalho, vida, hormônio e doença você aprofunda no retorno, quando já existe vínculo — e é com vínculo que as respostas ficam honestas.
-
-Paciente de primeira consulta não conta que está bebendo demais, que o casamento acabou ou que comprou testosterona na internet. Paciente de terceira consulta conta.
+E uma palavra sobre o tempo disso. Nada disso cabe numa consulta só. Distribua: na primeira você levanta treino, sono e energia, que são os mais rentáveis. Trabalho, vida, hormônio e doença você aprofunda no retorno, quando já existe vínculo — porque paciente de primeira consulta não conta que está bebendo demais, que o casamento acabou ou que comprou testosterona na internet. Paciente de terceira consulta conta.
 
 E a quarta, que é a que eu mais vejo faltar: **proteger o que já funciona**. Se o cara tem uma rotina de treino que ele consegue cumprir há dois anos, isso é patrimônio. Não mexa por elegância técnica. Um plano subótimo que ele faz vale infinitamente mais do que um plano ótimo que ele abandona em três semanas.
 

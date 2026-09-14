@@ -34,8 +34,10 @@ slide de números.
 aspas. Caso formal com linha do tempo só quando o percurso do raciocínio é o
 próprio objeto de aprendizagem.
 
-**Repete e reformula.** O mesmo conceito volta com outras palavras na mesma
-aula. É fala.
+**Repete e reformula — com cota.** O conceito *central* da aula volta uma vez
+com outras palavras. Um por aula, não um por parágrafo. Reformulação em
+série ("Quer dizer:" + "Ou seja:" + "Deixa eu traduzir isso") é prolixidade,
+não oralidade.
 
 **Fecha simples.** Retoma o fio, diz o que vem na próxima e por quê, agradece.
 Sem síntese numerada.
@@ -50,8 +52,39 @@ Menos slides e mais densos. 30 min costuma pedir 5 ou 6.
 
 ## Dimensionamento
 
-137 palavras por minuto. 30 min = 3.900 a 4.300 palavras. Medir por script,
-nunca estimar.
+**118 palavras por minuto.** Taxa medida na gravação real — não confundir com
+a taxa de leitura corrida. Medir por script, nunca estimar.
+
+| Aula | Palavras | Slides |
+|---|---|---|
+| Padrão (22 min) | 2.500 – 2.700 | 5 |
+| Densa (25 min) | 2.850 – 3.000 | 5 a 6 |
+| Teto (28 min) | 3.200 – 3.300 | 6 |
+
+A duração do ementário é **teto institucional**, não meta. A aula boa fica
+abaixo dele. Aula acima de 3.300 palavras não sai — divide ou corta.
+
+## Corte obrigatório antes de entregar
+
+Nenhuma aula é entregue sem uma passada só de corte. O que cai, sempre:
+
+- **A reformulação tripla.** Disse, "quer dizer", "ou seja". Fica uma.
+- **"Deixa eu repetir, porque é importante."** Se é importante, a frase
+  aguenta sozinha.
+- **"Deixa eu traduzir isso para a prática"** seguido do mesmo conteúdo.
+- **A lista espelhada.** Cinco sintomas e depois sete causas para os mesmos
+  cinco. Três de cada lado bastam.
+- **O parágrafo-ponte que só recapitula** o slide anterior.
+- **A pergunta lateral antecipada** ("duas perguntas que sempre aparecem").
+  Vira aula dentro da aula. Máximo uma por aula, e só se mudar conduta.
+- **A dupla ressalva.** A concessão é dita uma vez.
+- **O fechamento que reconta os slides.** O último slide fecha o fio, não
+  resume o que já foi dito — isso é função do roteiro Gamma e da apostila.
+- **A frase-parágrafo de ênfase** ("Seis." / "São os mesmos sintomas.") —
+  duas por aula, no máximo. Acima disso perde o efeito e vira maneirismo.
+
+Regra de bolso: se um parágrafo pode sair e o parágrafo seguinte continua
+fazendo sentido, ele sai.
 
 ## Ciência
 

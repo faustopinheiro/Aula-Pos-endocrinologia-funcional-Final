@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 30 minutos · 6 slides
+Duração: 29 minutos · 6 slides
 
 ---
 
@@ -40,9 +40,7 @@ E eu vou evitar de propósito a palavra que todo mundo usa para o fim desse cami
 
 Vamo começar pela criança e pelo adolescente, que é onde eu mais vejo erro de leitura.
 
-E a primeira pergunta que eu quero que você faça diante de um adolescente não é sobre treino. É sobre onde ele está na maturação. Porque dois meninos de quatorze anos podem estar em pontos completamente diferentes do estirão, e a idade no documento não te diz isso. Um já passou pelo pico, o outro nem começou. Tratar os dois com a mesma carga porque têm a mesma idade é o erro estrutural do esporte de base no mundo inteiro.
-
-A gente vai ver as formas práticas de estimar isso no módulo onze. Por enquanto, guarda: idade cronológica é o pior critério disponível, e é o único que quase todo mundo usa.
+E a primeira pergunta diante de um adolescente não é sobre treino. É sobre onde ele está na maturação. Dois meninos de quatorze anos podem estar em pontos completamente diferentes do estirão, e a idade no documento não te diz isso — um já passou pelo pico, o outro nem começou. Tratar os dois com a mesma carga porque têm a mesma idade é o erro estrutural do esporte de base no mundo inteiro. As formas práticas de estimar isso vêm no módulo onze; por enquanto guarda que idade cronológica é o pior critério disponível, e é o único que quase todo mundo usa.
 
 O caixa do adolescente é grande em capacidade de recuperação. Ele se recupera rápido, adapta rápido, tolera muito. Qualquer um que já treinou adolescente sabe disso e fica com inveja.
 
@@ -54,25 +52,17 @@ E durante o estirão, no pico de velocidade de crescimento, esse débito fica ma
 
 Então você tem, ao mesmo tempo, um corpo que aguenta muito e um corpo com uma conta obrigatória rodando no fundo.
 
-E tem um agravante estrutural nessa faixa que ninguém controla sozinho: a fragmentação do cuidado. O menino joga no time da escola, treina no clube, faz um esporte no fim de semana com o pai e ainda tem educação física. Cada adulto desses enxerga a fatia dele e acha que está pedindo pouco.
+E tem um agravante estrutural nessa faixa: a fragmentação do cuidado. O menino joga no time da escola, treina no clube, faz um esporte no fim de semana com o pai e ainda tem educação física. Cada adulto enxerga a fatia dele e acha que está pedindo pouco. Ninguém soma, e a soma é o que quebra. Por isso a pergunta mais valiosa da consulta costuma ser: me conta tudo que você faz de atividade física numa semana, incluindo escola e incluindo o que faz por diversão. O número quase sempre assusta os pais, porque eles também nunca somaram.
 
-Ninguém soma. E a soma é o que quebra.
-
-Quando você atender um adolescente, a pergunta mais valiosa da consulta costuma ser esta: me conta tudo que você faz de atividade física numa semana, incluindo escola e incluindo o que você faz por diversão. Escreva tudo. Você quase sempre vai chegar num número que assusta os pais, porque eles também nunca somaram.
-
-O erro clássico é interpretar a tolerância como ausência de custo. O menino aguenta treinar todo dia, então ele treina todo dia, em dois times, mais a escola. E o que aparece não é fadiga do jeito adulto — aparece dor de crescimento que não passa, apofisite, fratura por estresse, ou simplesmente o menino que "perdeu a vontade" de jogar.
+O erro clássico é interpretar tolerância como ausência de custo. E o que aparece não é fadiga do jeito adulto — aparece dor de crescimento que não passa, apofisite, fratura por estresse, ou simplesmente o menino que "perdeu a vontade" de jogar.
 
 E eu quero nomear uma coisa aqui: abandono do esporte na adolescência é desfecho clínico. A gente trata como se fosse escolha, mudança de interesse, coisa da idade. Muitas vezes é um corpo que não estava dando conta e uma cabeça que não tinha como explicar isso.
 
-E tem uma coisa específica sobre alimentação no adolescente que vale muito. Ele precisa de energia para crescer **e** para treinar, e muitas vezes está numa fase de aversão alimentar, de pular refeição, de café da manhã inexistente. Adolescente que treina duas vezes por dia e toma café na escola às dez da manhã está com a conta estourada por construção.
-
-E na menina, some a isso a pressão estética, que aparece cedo em esporte de categoria de peso e em esporte estético. A primeira menstruação atrasada, ou a menstruação que veio e sumiu, é um dos achados mais importantes que você pode pegar nessa idade — e ele não vem espontaneamente na consulta. Você pergunta, ou você não descobre.
+E sobre alimentação: ele precisa de energia para crescer **e** para treinar, e muitas vezes está numa fase de pular refeição, de café da manhã inexistente. Adolescente que treina duas vezes por dia e come pela primeira vez às dez da manhã está com a conta estourada por construção. Na menina, some a pressão estética, que aparece cedo em esporte de categoria de peso e em esporte estético — e a menarca atrasada, ou a menstruação que veio e sumiu, é um dos achados mais importantes dessa idade. Ele não vem espontaneamente: você pergunta, ou você não descobre.
 
 O que perguntar: se está em fase de crescimento rápido, quantos esportes e quantos times ao mesmo tempo, quantos dias por semana **sem** atividade organizada, e como está o sono — lembrando que a necessidade de sono nessa idade é maior, e que a escola começa cedo.
 
-E uma palavra sobre treino de força no adolescente, porque ainda existe medo disso. A ideia de que treino de força atrapalha o crescimento não se sustentou. O que causa dano nessa faixa é carga mal supervisionada, técnica ruim e progressão apressada — que, aliás, causa dano em qualquer idade.
-
-Então treino de força bem conduzido nessa faixa é protetor, e negar isso por medo antigo é tirar da criança uma das melhores ferramentas que ela tem.
+E uma palavra sobre treino de força, porque ainda existe medo: a ideia de que ele atrapalha o crescimento não se sustentou. O que causa dano nessa faixa é carga mal supervisionada, técnica ruim e progressão apressada — que causa dano em qualquer idade. Treino de força bem conduzido nessa faixa é protetor, e negar isso por medo antigo é tirar da criança uma das melhores ferramentas que ela tem.
 
 E o que fazer: garantir dia sem treino, garantir que exista uma janela de crescimento respeitada, e desconfiar de queixa de dor persistente em vez de normalizar. Dor de crescimento é diagnóstico de exclusão, não é explicação pronta.
 
@@ -92,11 +82,9 @@ Agora, a pergunta que interessa: essas alterações produzem efeito relevante so
 
 E aqui a resposta honesta é: as revisões mais recentes encontram efeito, em média, pequeno, com qualidade de evidência baixa e grande variação entre mulheres. Ou seja — está longe do que se prega por aí.
 
-E deixa eu explicar por que a evidência é fraca nesse assunto, porque entender o motivo te protege de acreditar na próxima onda. Estudar ciclo direito é caro e difícil. Você precisa confirmar em que fase a mulher realmente está, e isso exige dosagem hormonal, não calendário — porque calendário erra muito. Você precisa de amostra grande, porque a variação entre mulheres é enorme. E você precisa excluir quem usa contraceptivo hormonal, que é boa parte das mulheres em idade reprodutiva.
+E a evidência é fraca por um motivo específico, que vale entender porque te protege da próxima onda: estudar ciclo direito é caro. Confirmar em que fase a mulher está exige dosagem hormonal, não calendário, porque calendário erra muito. A variação entre mulheres é enorme, então a amostra precisa ser grande. E é preciso separar quem usa contraceptivo hormonal, que é boa parte das mulheres em idade reprodutiva. Daí a maioria dos estudos ser pequena, com método frouxo de confirmação de fase, e chegar a resultados que não se repetem.
 
-Junta isso e você entende por que a maioria dos estudos é pequena, tem método frouxo de confirmação de fase e chega a resultados que não se repetem.
-
-Então quando alguém te apresentar um protocolo de treino periodizado por fase do ciclo, com muita confiança, a pergunta honesta é: como é que eles confirmaram a fase?
+Então quando alguém te apresentar um protocolo periodizado por fase do ciclo com muita confiança, a pergunta honesta é: como é que eles confirmaram a fase?
 
 Então o que eu faço na prática, e isso é raciocínio meu, não é diretriz: eu não periodizo treino pelo ciclo como regra. Eu pergunto sobre o ciclo em toda paciente, sempre, e uso ele para **duas outras coisas** que valem muito mais.
 
@@ -110,9 +98,7 @@ Isso não é argumento contra contraceptivo, de forma alguma. É um aviso para v
 
 Na gestação e no pós-parto, o débito obrigatório é evidente e o principal erro que eu vejo é o contrário do que se imagina: não é excesso de treino, é a expectativa de retorno. A mulher volta a treinar seis semanas depois de um parto, sem dormir, amamentando — que é um custo energético real — e se cobra o desempenho de antes. A conta dela naquele momento é a menor da vida adulta dela, e a exigência que ela coloca em si mesma é a maior.
 
-E aqui vale uma observação sobre o pós-parto que eu vejo pouca gente fazer: amamentar tem custo energético relevante e contínuo. Não é detalhe. Você tem uma mulher com sono fragmentado, com demanda energética aumentada pela lactação, muitas vezes querendo perder o peso da gestação — ou seja, comendo menos — e voltando a treinar.
-
-São quatro coisas empilhadas contra a mesma conta. E se você não nomear isso para ela, ela vai achar que o corpo dela é que está falhando.
+E amamentar tem custo energético relevante e contínuo — não é detalhe. Sono fragmentado, demanda aumentada pela lactação, vontade de perder o peso da gestação (ou seja, comendo menos) e volta ao treino: são quatro coisas empilhadas contra a mesma conta. Se você não nomear isso para ela, ela vai achar que o corpo dela é que está falhando.
 
 E na transição menopausal, o caixa muda de tamanho de forma mais abrupta do que no homem. Muda sono, muda composição, muda recuperação, muda tecido conjuntivo. E é a fase em que mais mulher desiste de treinar por achar que "não funciona mais" — quando o que aconteceu foi que a conta mudou e a dose não mudou junto.
 
@@ -170,17 +156,11 @@ O terceiro estado é onde mora a maior parte dos pacientes que chegam até você
 
 E repara na ordem, porque é a ordem de prioridade que a gente viu na aula seis. Primeiro saem as funções adiáveis. O desempenho cai junto, e é dele que o paciente reclama.
 
-E eu quero que você repare numa coisa sobre esse terceiro estado, que é a razão de ele ser tão mal reconhecido: o paciente ainda está treinando bem. Ele não está de cama, não está doente, não falta ao treino. Ele consegue fazer as sessões. Só que ele não está progredindo, e está pior em várias outras coisas ao mesmo tempo.
+E a razão de esse terceiro estado ser tão mal reconhecido é que o paciente ainda está treinando bem. Não está de cama, não está doente, não falta ao treino — ele consegue fazer as sessões. Só não está progredindo, e está pior em várias outras coisas ao mesmo tempo. E como ele treina, ninguém considera que possa ser carga, porque a nossa imagem de excesso de treino é a de alguém arrasado. Não é assim que se apresenta. Se apresenta como alguém funcional que parou de melhorar.
 
-E como ele consegue treinar, ninguém — nem ele, nem o treinador, nem às vezes você — considera que possa ser carga. Porque a nossa imagem de excesso de treino é a de alguém arrasado, e não é assim que se apresenta.
+A queixa típica é "não tô evoluindo e não sei por quê". E a conduta ainda é barata: recuo real de dez a quatorze dias, reposição do débito com folga, reavaliação.
 
-Se apresenta como alguém funcional que parou de melhorar.
-
-A queixa típica é: "não tô evoluindo e não sei por quê."  E a conduta aqui ainda é barata: recuo real de dez a quatorze dias, reposição do débito com folga, reavaliação.
-
-E tem uma coisa importante sobre a velocidade desse percurso: ele não é simétrico. Descer é rápido e subir é lento. Três semanas de tudo dando errado — viagem, doença, trabalho pesado, sono ruim — colocam o paciente do primeiro estado no terceiro. E tirar ele do terceiro leva bem mais do que três semanas.
-
-Isso importa na hora de conversar, porque o paciente espera simetria. Ele acha que se piorou em um mês, melhora em um mês. Avisar antes evita que ele abandone a correção no meio, achando que não está funcionando.
+E esse percurso não é simétrico. Descer é rápido e subir é lento — três semanas de tudo dando errado levam o paciente do primeiro estado ao terceiro, e tirar ele de lá leva bem mais do que três semanas. Avise antes, porque o paciente espera simetria, e é isso que faz ele abandonar a correção no meio.
 
 O quarto estado é a queda sustentada. O paciente já recuou e não voltou. Semanas de descanso e o desempenho não retornou. Agora tem alteração em vários sistemas ao mesmo tempo e, muitas vezes, alteração laboratorial.
 
@@ -188,9 +168,7 @@ E aqui eu quero ser preciso com você. Esse quarto estado tem nome na literatura
 
 Raro mesmo. Muito mais raro do que o número de vezes que essa palavra é usada.
 
-E existe um quinto estado que não está nesse desenho e que eu preciso mencionar, porque ele é o mais silencioso: o paciente que nunca chegou ao primeiro. Aquele que começou a treinar já em débito — já dormindo mal, já comendo pouco, já com a vida pesada — e que portanto nunca teve uma linha de base saudável para voltar.
-
-Nele você não está corrigindo uma queda. Você está construindo do zero. E o tempo é outro, e a expectativa tem que ser outra desde a primeira consulta.
+E existe um quinto estado que não está nesse desenho e que é o mais silencioso: o paciente que nunca chegou ao primeiro. Começou a treinar já em débito — já dormindo mal, já comendo pouco, já com a vida pesada — e portanto nunca teve linha de base saudável para voltar. Nele você não está corrigindo uma queda, está construindo do zero. O tempo é outro, e a expectativa tem que ser outra desde a primeira consulta.
 
 Então a leitura prática é: se o seu paciente não voltou depois de duas semanas de recuo de verdade, você não achou o diagnóstico. Você achou o momento de investigar.
 

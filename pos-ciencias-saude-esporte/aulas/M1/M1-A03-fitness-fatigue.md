@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 30 minutos · 6 slides
+Duração: 28 minutos · 6 slides
 
 ---
 
@@ -20,7 +20,7 @@ Pensa comigo, porque é bonito. Você faz uma sessão de treino. Essa sessão de
 
 E as duas existem juntas, desde o segundo em que você terminou o treino. Não é que primeiro vem a fadiga e depois vem a aptidão. Vêm as duas, na mesma hora.
 
-E veja que isso não é filosofia, é uma consequência direta de como o corpo funciona. O estímulo que danifica a fibra é o mesmo que sinaliza para ela se reconstruir mais resistente. Não são dois eventos, é um. Você não consegue pedir o ganho sem pedir o custo, do mesmo jeito que não consegue comprar sem pagar.
+E isso não é filosofia, é consequência direta de como o corpo funciona. O estímulo que danifica a fibra é o mesmo que sinaliza para ela se reconstruir mais resistente. Não são dois eventos, é um. Você não pede o ganho sem pedir o custo.
 
 E o desempenho que você observa no paciente, em qualquer dia, não é nenhuma das duas. É a diferença entre elas.
 
@@ -28,9 +28,9 @@ Guarda isso, porque muda a leitura de tudo: você nunca vê aptidão. Você nunc
 
 E é por isso que aquele paciente que aumentou o volume e piorou o tempo não está necessariamente errado. Ele pode estar exatamente certo — depositando aptidão e carregando fadiga, e o saldo, naquela semana, está negativo. E se você olhar só o cronômetro, você vai mexer no plano numa hora em que não deveria mexer.
 
-E olha por que isso era radical nos anos setenta. Até então a cabeça era: treino gera adaptação, ponto. Mais treino, mais adaptação. Se não melhorou, treinou pouco. O Banister disse outra coisa: o mesmo estímulo produz duas consequências opostas, e o resultado que você enxerga é uma subtração. Isso tira a linearidade do meio, e linearidade é o que a gente mais quer e menos tem em fisiologia.
+E isso era radical nos anos setenta, porque até então a cabeça era: treino gera adaptação, ponto — se não melhorou, treinou pouco. O Banister disse que o mesmo estímulo produz duas consequências opostas e que o resultado é uma subtração. Isso tira a linearidade do meio, e linearidade é o que a gente mais quer e menos tem em fisiologia.
 
-E tem uma implicação que eu acho que é a mais difícil de engolir para quem trabalha com atleta: você não consegue saber, olhando o desempenho de hoje, se o treino de ontem foi bom. O desempenho de hoje é contaminado pelo custo do treino de ontem. É como tentar avaliar se um investimento foi bom no dia em que você pagou a taxa de corretagem.
+E a implicação mais difícil de engolir para quem trabalha com atleta: você não consegue saber, olhando o desempenho de hoje, se o treino de ontem foi bom. O desempenho de hoje é contaminado pelo custo do treino de ontem. É como avaliar um investimento no dia em que você pagou a corretagem.
 
 E é por isso também que existe o taper. Por que é que o atleta reduz carga antes da prova e melhora? Se desempenho fosse só treino acumulado, reduzir treino deveria piorar. Não piora, melhora. E melhora porque as duas curvas não somem no mesmo ritmo.
 
@@ -50,31 +50,19 @@ Aí você reduz a carga por dez, quatorze dias. O que acontece? A fadiga, que so
 
 E olha quanta coisa do dia a dia isso explica de uma vez só.
 
-Explica por que o paciente que ficou uma semana doente e parado às vezes volta correndo melhor do que antes de ficar doente, e fica achando que a doença fez bem. Não fez. Ele só descarregou fadiga.
+Explica por que o paciente que ficou uma semana doente e parado às vezes volta correndo melhor, e fica achando que a doença fez bem. Não fez. Ele só descarregou fadiga.
 
-Explica por que deload funciona, e por que quem nunca faz deload vive num saldo permanentemente rebaixado sem saber, achando que aquele é o teto dele.
+Explica por que deload funciona, e por que quem nunca faz deload vive num saldo permanentemente rebaixado, achando que aquele é o teto dele.
 
-Explica por que o iniciante melhora tão rápido nos primeiros dois meses: a aptidão dele sobe de qualquer jeito, porque partiu do zero, e a fadiga ainda é pequena porque o volume é pequeno.
+Explica por que duas semanas de férias raramente estragam alguém: a aptidão, que é a curva longa, mal se move em duas semanas. O que ele perde é sensação, ritmo motor, confiança — e isso volta em três ou quatro sessões. Quem acha que perdeu meses de treino em duas semanas está confundindo saldo com aptidão.
 
-Explica também uma coisa que gera briga entre profissional e paciente: por que duas semanas de férias raramente estragam alguém. A aptidão, que é a curva longa, mal se move em duas semanas. O que o sujeito perde nas férias é sensação, é ritmo motor, é confiança — e isso volta em três ou quatro sessões. Quem acha que perdeu meses de treino em duas semanas está confundindo saldo com aptidão.
+E explica por que o experiente empaca. Nele a aptidão sobe cada vez menos por unidade de treino e a fadiga sobe igual, então ele precisa de mais treino para ganhar menos. É por isso que treino avançado é sobre gerenciar fadiga, não sobre acumular estímulo.
 
-E explica por que o experiente empaca. Nele, a aptidão sobe cada vez menos por unidade de treino, e a fadiga sobe igual. Então ele precisa de mais treino para ganhar menos, e o saldo fica cada vez mais difícil de manter positivo. É por isso que treino avançado é sobre gerenciar fadiga, não sobre acumular estímulo.
+E pensa nisso em três pessoas. No iniciante as duas curvas são pequenas, mas a de aptidão é desproporcionalmente grande em relação ao estímulo — qualquer coisa gera ganho, e ele fica com a impressão de que o corpo dele responde a tudo, impressão que vai levar para os anos seguintes, onde ela não vale mais. No praticante regular as duas se aproximam: o ganho por sessão diminuiu e o custo aumentou, porque agora ele treina mais forte. É onde mora a maior parte das frustrações que chegam no consultório. E no atleta a fadiga é enorme e a aptidão é fininha — ele gasta muito para ganhar pouquinho, e por isso o calendário dele inteiro é desenhado em torno de descarregar fadiga.
 
-E pensa nisso em três pessoas diferentes, que é como eu quero que você leia qualquer modelo daqui pra frente.
+Daí uma coisa que resolve muita ansiedade na conversa com o paciente: piorar temporariamente não é sinal de que o plano está errado. Às vezes é sinal de que está funcionando. O erro é medir desempenho no dia errado.
 
-No iniciante, as duas curvas são pequenas, mas a de aptidão é desproporcionalmente grande em relação ao estímulo. Qualquer coisa gera ganho. Por isso ele melhora fazendo pouco, e por isso também ele tem a impressão de que o corpo dele responde a tudo — e vai levar essa impressão para os anos seguintes, onde ela não vale mais.
-
-No praticante regular, as duas se aproximam. O ganho por sessão diminuiu e o custo por sessão aumentou, porque agora ele treina mais forte. É onde mora a maior parte das frustrações que chegam no consultório, e é onde a gestão de recuperação passa a valer mais do que a escolha do método.
-
-E no atleta, a de fadiga é enorme e a de aptidão é fininha. Ele gasta muito para ganhar pouquinho. Por isso o calendário dele inteiro é desenhado em torno de descarregar fadiga em momentos certos. Não é frescura, é a única forma de aparecer o ganho.
-
-E aqui vem uma coisa que eu quero que você use na conversa com o paciente, porque resolve muita ansiedade: piorar temporariamente não é sinal de que o plano está errado. Às vezes é sinal de que o plano está funcionando. O erro é medir desempenho no dia errado e tirar conclusão de plano a partir disso.
-
-E tem um jeito de explicar isso para o paciente que funciona muito bem, que eu uso quase toda semana. Eu falo assim: imagina que todo treino te dá uma moeda e te cobra uma dívida. A moeda fica no bolso por semanas. A dívida vence em dias. Se você fizer treino todo dia sem deixar a dívida vencer, você vai ficar com o bolso cheio de moeda e sem conseguir gastar nenhuma, porque tem cobrador na porta o tempo todo.
-
-E aí, quando você finalmente descansa, não é que você ficou rico naquela semana. É que o cobrador saiu, e apareceu o que já estava no bolso.
-
-Eu costumo dizer para o paciente assim: a gente não vai olhar o cronômetro hoje, a gente vai olhar o cronômetro depois que eu deixar você descansar. Antes disso, o número não me diz nada sobre o seu treino — ele me diz sobre o seu cansaço.
+E tem um jeito de explicar isso que eu uso quase toda semana. Imagina que todo treino te dá uma moeda e te cobra uma dívida. A moeda fica no bolso por semanas, a dívida vence em dias. Se você treinar todo dia sem deixar a dívida vencer, você fica com o bolso cheio de moeda e sem conseguir gastar nenhuma, porque tem cobrador na porta o tempo todo. E quando você finalmente descansa, não é que ficou rico naquela semana — é que o cobrador saiu, e apareceu o que já estava no bolso.
 
 ---
 
@@ -92,19 +80,15 @@ Os trabalhos que avaliaram as limitações do modelo mostraram que ele é mal co
 
 E deixa eu explicar o que é "mal condicionado" sem matemática, porque a palavra assusta e a ideia é simples. Quer dizer que combinações muito diferentes de parâmetros produzem resultados quase iguais. Ou seja: eu posso dizer que o seu paciente deposita muita aptidão e some rápido, ou que deposita pouca e some devagar, e as duas versões vão encaixar nos mesmos dados. Se duas explicações opostas cabem, o modelo não está te contando qual é a verdadeira. Ele está só desenhando uma linha que passa pelos pontos.
 
-Deixa eu traduzir isso para o consultório, porque é importante.
-
 O modelo é uma ótima metáfora e uma péssima calculadora.
 
 A ideia de duas curvas é verdadeira e útil. Ela explica taper, explica deload, explica o iniciante, explica o platô. Agora, pegar um paciente, botar número em cada sessão dele e prever a data em que ele vai estar no pico — isso não funciona, e quem te vender um aplicativo que faz isso está vendendo.
 
-E olha que interessante: é o mesmo erro da aula passada, em outra roupagem. Lá, alguém pegou um modelo de dano e transformou em mapa de treino. Aqui, alguém pega um modelo conceitual e transforma em previsão numérica. Nos dois casos o problema é o mesmo — usar o modelo para além do que ele consegue entregar.
+E é o mesmo erro da aula passada em outra roupagem: lá alguém pegou um modelo de dano e transformou em mapa de treino, aqui alguém pega um modelo conceitual e transforma em previsão numérica. Usar o modelo além do que ele entrega.
 
-E olha, eu não estou dizendo que ninguém deva usar software de carga, não é isso. Use. O que eu estou dizendo é: use como registro, não como oráculo. O valor daqueles aplicativos está em você ter o histórico organizado, e não no número que eles cospem na tela dizendo que a sua forma está em setenta e três.
+Isso não quer dizer não usar software de carga. Use — como registro, não como oráculo. O valor está em ter o histórico organizado, não no número que ele cospe na tela dizendo que a sua forma está em setenta e três. E vale para o paciente que chega com relógio: o número é um dado, não um veredito, e o seu trabalho é colocá-lo ao lado do sono dele e do que você viu na consulta.
 
-E se você entender isso, você também para de brigar com o paciente que tem relógio. Ele vai chegar com número. O número é um dado, não é um veredito. Seu trabalho é colocar aquele número ao lado do sono dele, da semana dele, e do que você viu na consulta.
-
-E eu quero que você fique confortável com isso, porque a nossa área tem um pouco de vergonha de admitir que trabalha com modelos imperfeitos. Não precisa ter. Toda a medicina trabalha assim. Modelo bom não é modelo que acerta o número. Modelo bom é o que te faz fazer a pergunta certa.
+E fique confortável com isso. Toda a medicina trabalha com modelo imperfeito. Modelo bom não é o que acerta o número — é o que te faz fazer a pergunta certa.
 
 E a pergunta certa aqui é: esse paciente está com o saldo baixo porque a aptidão dele parou de subir, ou porque a fadiga dele parou de descer? Porque a conduta é completamente diferente nos dois casos, e você não precisa de equação nenhuma para responder. Precisa de três dias fáceis e uma reavaliação.
 
@@ -122,11 +106,9 @@ O Otávio, trinta e nove anos, corre há uns seis anos, fez três maratonas. Che
 
 E ele tinha razão nos fatos. Tinha aumentado o volume de uns cinquenta quilômetros por semana para uns setenta e cinco, fazia cinco meses. E os tempos dos treinos de ritmo estavam piores do que quando ele corria menos.
 
-E repara numa coisa que estava escondida na fala dele. Ele disse "alguma coisa tá errada comigo". Comigo. Ou seja, ele já tinha localizado o problema no corpo dele, não no plano. E isso é quase universal: quando o resultado não vem, o paciente suspeita do próprio corpo antes de suspeitar da dose. Se você aceitar a suspeita dele sem checar a dose, você entra na investigação junto com ele e os dois se perdem.
+E repara no que estava escondido na fala dele: "alguma coisa tá errada **comigo**". Ele já tinha localizado o problema no corpo, não no plano. E isso é quase universal — quando o resultado não vem, o paciente suspeita do próprio corpo antes de suspeitar da dose. Se você aceitar a suspeita dele sem checar a dose, vocês dois se perdem juntos.
 
-E aqui está a tentação, que eu quero que você reconheça: o reflexo, nessa hora, é procurar doença. Pedir exame, investigar tireoide, investigar anemia, procurar o que "está errado com ele".
-
-E às vezes tem mesmo, atenção — na aula passada a gente viu a Priscila, e lá tinha. Mas antes de sair investigando, tem uma pergunta barata que economiza muito exame: ele descansou?
+O reflexo, nessa hora, é procurar doença: pedir exame, investigar tireoide, investigar anemia. E às vezes tem mesmo — na aula passada a gente viu a Priscila. Mas antes de sair investigando, tem uma pergunta barata que economiza muito exame: ele descansou?
 
 O Otávio não tinha tirado uma semana leve em cinco meses. Nenhuma. Ele vinha subindo volume de forma contínua, e cada vez que o tempo piorava ele interpretava como falta de treino e treinava mais. Repara no ciclo: o saldo caindo fazia ele aumentar a carga, o que aumentava a fadiga, o que derrubava mais o saldo.
 
@@ -138,11 +120,9 @@ E ele ficou bravo, viu. Genuinamente bravo. Falou: *"Quer dizer que eu perdi cin
 
 Não perdeu, não. E essa é a parte bonita. Aqueles cinco meses construíram a aptidão que apareceu no décimo primeiro dia. Ele não estava desperdiçando treino — ele estava escondendo o próprio ganho embaixo de uma montanha de fadiga que nunca teve chance de baixar.
 
-E teve um detalhe nesse caso que eu acho que vale para todo mundo. Nos primeiros três dias da redução, ele piorou. Sentiu-se pesado, lento, e me mandou mensagem dizendo que estava destreinando. E isso é esperado — quando você tira carga de alguém que estava cronicamente carregado, o corpo relaxa antes de organizar, e por alguns dias a sensação piora.
+E teve um detalhe que vale para todo mundo: nos primeiros três dias da redução, ele piorou. Sentiu-se pesado, lento, e me mandou mensagem dizendo que estava destreinando. Isso é esperado — quando você tira carga de alguém cronicamente carregado, o corpo relaxa antes de organizar. Se eu não tivesse avisado antes, ele teria abandonado o teste no terceiro dia e voltado a treinar mais, achando que a tentativa provou que precisava de mais treino. Aviso prévio, aqui, é parte do método.
 
-Se eu não tivesse avisado antes, ele teria abandonado o teste no terceiro dia. E aí não teríamos aprendido nada, e ele teria voltado a treinar mais achando que a tentativa provou que ele precisava de mais treino. Aviso prévio, nesse caso, não é gentileza — é parte do método.
-
-E aí você me pergunta: mas e se não tivesse melhorado? Aí sim, colega. Aí a gente investiga, e investiga fundo. Dez dias fáceis é, na minha prática, o teste diagnóstico mais barato que existe em fadiga de praticante. Se melhorou, era fadiga acumulada. Se não melhorou, tem outra coisa e você acabou de eliminar a causa mais comum sem gastar um real.
+E se não tivesse melhorado? Aí a gente investiga fundo. Dez dias fáceis é, na minha prática, o teste diagnóstico mais barato que existe em fadiga de praticante: se melhorou, era fadiga acumulada; se não, tem outra coisa e você eliminou a causa mais comum sem gastar um real.
 
 ---
 
@@ -170,11 +150,9 @@ E tem uma assimetria entre os dois modelos que vale nomear. No Banister, os dois
 
 Quer dizer: a vida deposita quase só do lado do custo. É por isso que paciente com vida pesada precisa de mais margem, não de menos treino necessariamente — de mais margem. E às vezes a intervenção mais eficaz que você vai fazer não está no treino dele, está no que cerca o treino.
 
-E por isso que eu venho batendo na tecla da conta desde a primeira aula. Porque quando você junta os dois modelos, a conta deixa de ser uma metáfora didática e vira uma descrição razoavelmente fiel de como o organismo funciona.
+E aí aparece a pergunta boa: se a vida deposita custo, não dá para simplesmente treinar menos e ficar bem? Dá, para a saúde. Não dá, para a adaptação — porque adaptação exige estímulo suficiente para desorganizar o sistema, e se você tira estímulo até o ponto em que não há custo, também não há ganho.
 
-E tem uma pergunta que o aluno faz sempre nesse ponto, que é boa: se a vida deposita custo, será que não dá para simplesmente treinar menos e ficar bem? Dá, para a saúde. Não dá, para a adaptação. Porque adaptação exige estímulo suficiente para desorganizar o sistema. Se você tira estímulo até o ponto em que não há custo, também não há ganho.
-
-Quer dizer, a gente não está procurando o menor custo. Está procurando a maior razão entre ganho e custo, dentro do que aquele corpo consegue pagar naquele momento da vida dele. E "naquele momento da vida dele" muda a cada semestre, às vezes a cada mês.
+A gente não está procurando o menor custo. Está procurando a maior razão entre ganho e custo, dentro do que aquele corpo consegue pagar naquele momento da vida dele. E "naquele momento da vida dele" muda a cada semestre, às vezes a cada mês.
 
 E uma coisa importante para você não se perder: fadiga, nesse sentido, não é uma coisa ruim que precisa ser eliminada. Fadiga é o recibo do estímulo. Quem não gera fadiga não gerou estímulo. O que a gente gerencia não é a existência da fadiga — é o tempo que ela tem para baixar antes do próximo depósito.
 
@@ -188,27 +166,23 @@ Então como é que você usa isso na segunda-feira, sem equação e sem aplicati
 
 Primeiro: pare de tirar conclusão de plano a partir de um dia de desempenho. Um dia ruim é ruído. Você precisa de uma janela, e a janela que eu uso é de sete a dez dias. Dentro dela, o que importa não é o melhor nem o pior dia — é a tendência.
 
-E dentro dessa janela, olhe também a variabilidade. Um paciente cujos dias oscilam muito entre ótimo e péssimo está me dizendo outra coisa de um paciente que está constantemente mediano. O primeiro costuma ter problema de distribuição — está concentrando carga e recuperação em blocos mal encaixados. O segundo costuma ter problema de nível — o saldo dele está rebaixado de forma crônica, e nenhum dia é bom porque nenhum dia começa descansado.
+E dentro dessa janela, olhe a variabilidade. O paciente cujos dias oscilam entre ótimo e péssimo está te dizendo outra coisa do que o paciente constantemente mediano. O primeiro costuma ter problema de distribuição, concentrando carga e recuperação em blocos mal encaixados. O segundo tem problema de nível: o saldo está rebaixado de forma crônica, e nenhum dia é bom porque nenhum dia começa descansado. E isso você enxerga de graça, só olhando a coluna de como ele acorda.
 
-E essa distinção você enxerga de graça, só olhando a coluna de como ele acorda.
+Segundo: separe as duas perguntas quando o paciente estagnar. A aptidão parou de subir, ou a fadiga parou de descer? E esse teste tem uma vantagem que exame nenhum tem — ele é terapêutico enquanto diagnostica. Se a hipótese estiver certa, o paciente já sai melhor do próprio teste.
 
-Segundo: separe as duas perguntas quando o paciente estagnar. A aptidão parou de subir, ou a fadiga parou de descer? E olha que esse teste tem uma vantagem que exame nenhum tem: ele é terapêutico enquanto diagnostica. Se a hipótese estiver certa, o paciente já sai melhor do próprio teste. Não existe isso em quase nenhum outro lugar da medicina — normalmente o exame só informa, e o tratamento vem depois.
+O teste é o que eu fiz com o Otávio. Dez dias com carga reduzida à metade, mantendo um pouco de intensidade, sem teste no meio. Se melhorou, era saldo, e o plano precisa de mais recuperação, não de mais treino. Se não melhorou, você economizou dez dias de investigação errada.
 
-E o teste é o que eu fiz com o Otávio. Dez dias com carga reduzida à metade, mantendo um pouco de intensidade, sem teste no meio. Reavalia no fim. Se melhorou, era saldo, e o plano precisa de mais recuperação, não de mais treino. Se não melhorou, você economizou dez dias de investigação errada e agora investiga com razão.
-
-E antes de reduzir carga, tem uma pergunta que economiza tempo: há quanto tempo ele não tem uma semana leve? Se a resposta for "não sei" ou "faz bastante", você já tem hipótese de saldo antes de qualquer outra coisa. Se ele fez uma semana leve há quinze dias e mesmo assim está mal, aí a hipótese de saldo enfraquece bastante e você sobe a prioridade da investigação clínica.
-
-É uma pergunta só, e ela reordena a sua lista de hipóteses.
+E antes de reduzir, uma pergunta que economiza tempo: há quanto tempo ele não tem uma semana leve? Se a resposta for "não sei" ou "faz bastante", você já tem hipótese de saldo antes de qualquer outra coisa. Se ele fez uma semana leve há quinze dias e mesmo assim está mal, a hipótese de saldo enfraquece e a investigação clínica sobe na lista.
 
 Terceiro: registre duas coisas. A carga da semana, do jeito mais simples que der — pode ser minutos de treino vezes a percepção de esforço — e como o paciente acorda, numa nota de zero a dez. Em três ou quatro semanas você vê a relação entre as duas colunas, e essa relação é mais informativa do que qualquer parâmetro que você tentaria calcular.
 
-E uma última ferramenta, para quem atende quem compete. Antes de qualquer prova importante, pergunte quando foi a última vez que ele reduziu a carga de verdade. Se a prova é daqui a três semanas e ele não descarrega há meses, a decisão mais rentável que você vai tomar naquela consulta não é sobre nutrição, nem sobre suplemento, nem sobre treino — é convencê-lo a recuar. E é a mais difícil de vender, porque recuar perto da prova é contraintuitivo para ele. A imagem das duas curvas é o que costuma resolver essa conversa.
+E uma última, para quem atende quem compete. Antes de qualquer prova importante, pergunte quando foi a última vez que ele reduziu carga de verdade. Se a prova é daqui a três semanas e ele não descarrega há meses, a decisão mais rentável daquela consulta não é sobre nutrição nem sobre suplemento — é convencê-lo a recuar. E é a mais difícil de vender, porque recuar perto da prova é contraintuitivo. A imagem das duas curvas costuma resolver essa conversa.
 
 E quando isso não serve? Quando o paciente tem sinal de alarme. Perda de peso não intencional, febre, linfonodo, sangramento, dor noturna, fadiga que veio de uma vez num dia específico. Aí você não está diante de um problema de saldo, você está diante de um problema clínico, e dez dias fáceis não é conduta — é atraso.
 
-E o custo dessa abordagem, dito com todas as letras: você vai ter que segurar a ansiedade do paciente por dez dias. Ele vai achar que está perdendo forma. Ele vai te mandar mensagem no quinto dia dizendo que está engordando. E se você não explicar antes por que está fazendo isso, ele vai treinar escondido e estragar o teste. Então explique antes, e explique com a imagem das duas curvas — funciona muito bem no consultório, as pessoas entendem na hora.
+E o custo dessa abordagem: você vai ter que segurar a ansiedade do paciente por dez dias. Ele vai achar que está perdendo forma, vai te mandar mensagem no quinto dia dizendo que está engordando, e se você não explicar antes por que está fazendo isso, ele vai treinar escondido e estragar o teste. Explique antes, com a imagem das duas curvas.
 
-E eu quero que você saia dessa aula com uma frase na cabeça, porque ela vai reaparecer o curso inteiro: o que você mede no paciente é sempre um saldo. Nunca é o ganho puro, nunca é o custo puro. E quem lê saldo como se fosse ganho toma decisão errada com dado certo.
+E a frase que vai reaparecer o curso inteiro: o que você mede no paciente é sempre um saldo. Nunca o ganho puro, nunca o custo puro. E quem lê saldo como se fosse ganho toma decisão errada com dado certo.
 
 Na próxima aula a gente vai destrinchar a distinção que eu venho usando sem definir direito: carga interna e carga externa. Porque tem muita gente medindo carga com GPS, com relógio, com watts, e chamando aquilo de carga de treino. E aquilo não é a carga que o corpo recebeu. É só o que você mandou ele fazer.
 
