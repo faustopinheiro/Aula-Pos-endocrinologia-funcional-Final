@@ -28,6 +28,7 @@ Funcional Esportiva e da Pós de Medicina do Futebol.
 | [`docs/02-matriz-curricular.md`](docs/02-matriz-curricular.md) | Eixos, módulos, cargas, avaliação, estrutura padrão de módulo |
 | [`docs/03-ementas.md`](docs/03-ementas.md) | Ementas institucionais: ementa, objetivos e conteúdo programático aula a aula das 173 aulas |
 | [`docs/04-plano-de-producao.md`](docs/04-plano-de-producao.md) | Ondas de produção, reaproveitamento entre as três pós, estratégia comercial |
+| [`docs/05-padrao-de-fala.md`](docs/05-padrao-de-fala.md) | Cadência, formatos de aula, recursos didáticos e checklist de auditoria de roteiro |
 
 ## Estado
 
