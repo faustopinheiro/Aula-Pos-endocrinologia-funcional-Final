@@ -66,5 +66,5 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 ## Estado
 
 Matriz e ementário fechados. **Módulos 1 e 2 completos** — 17 de 173 roteiros,
-52.939 palavras.
+50.512 palavras.
 Próximo: Módulo 3 — evidência, ética e os limites da extrapolação (7 aulas).
