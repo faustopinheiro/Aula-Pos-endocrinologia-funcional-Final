@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 28 minutos · 6 slides
+Duração: 26 minutos · 6 slides
 
 ---
 
@@ -16,21 +16,15 @@ Porque alguma coisa acontece, né. Você treina hoje, amanhã está pior, depois
 
 E a explicação que mais chegou perto veio de um lugar que quase ninguém cita no consultório, porque nasceu na matemática e não na clínica. Meados dos anos setenta, o Eric Banister e o grupo dele propuseram uma coisa que parece óbvia hoje e era radical na época: e se o treino não produzisse um efeito só? E se ele produzisse dois, ao mesmo tempo, em direções opostas?
 
-Pensa comigo, porque é bonito. Você faz uma sessão de treino. Essa sessão deposita duas coisas no seu corpo. Uma é aptidão — o ganho, a adaptação, o que vai te deixar melhor. A outra é fadiga — o custo, o desgaste, o que vai te deixar pior naquele momento.
+Pensa comigo, porque é bonito. Uma sessão de treino deposita duas coisas no seu corpo. Uma é aptidão — o ganho, o que vai te deixar melhor. A outra é fadiga — o custo, o que vai te deixar pior naquele momento. E as duas existem juntas desde o segundo em que você terminou o treino. Não é que primeiro vem a fadiga e depois a aptidão: vêm as duas, na mesma hora.
 
-E as duas existem juntas, desde o segundo em que você terminou o treino. Não é que primeiro vem a fadiga e depois vem a aptidão. Vêm as duas, na mesma hora.
+E isso não é filosofia. O estímulo que danifica a fibra é o mesmo que sinaliza para ela se reconstruir mais resistente — não são dois eventos, é um. Você não pede o ganho sem pedir o custo.
 
-E isso não é filosofia, é consequência direta de como o corpo funciona. O estímulo que danifica a fibra é o mesmo que sinaliza para ela se reconstruir mais resistente. Não são dois eventos, é um. Você não pede o ganho sem pedir o custo.
+E o desempenho que você observa, em qualquer dia, não é nenhuma das duas. É a diferença entre elas. Guarda isso, porque muda a leitura de tudo: você nunca vê aptidão, nunca vê fadiga. Você vê o saldo.
 
-E o desempenho que você observa no paciente, em qualquer dia, não é nenhuma das duas. É a diferença entre elas.
+E é por isso que o paciente que aumentou o volume e piorou o tempo não está necessariamente errado — ele pode estar depositando aptidão e carregando fadiga, com o saldo negativo naquela semana. Se você olhar só o cronômetro, mexe no plano numa hora em que não deveria.
 
-Guarda isso, porque muda a leitura de tudo: você nunca vê aptidão. Você nunca vê fadiga. Você vê o saldo.
-
-E é por isso que aquele paciente que aumentou o volume e piorou o tempo não está necessariamente errado. Ele pode estar exatamente certo — depositando aptidão e carregando fadiga, e o saldo, naquela semana, está negativo. E se você olhar só o cronômetro, você vai mexer no plano numa hora em que não deveria mexer.
-
-E isso era radical nos anos setenta, porque até então a cabeça era: treino gera adaptação, ponto — se não melhorou, treinou pouco. O Banister disse que o mesmo estímulo produz duas consequências opostas e que o resultado é uma subtração. Isso tira a linearidade do meio, e linearidade é o que a gente mais quer e menos tem em fisiologia.
-
-E a implicação mais difícil de engolir para quem trabalha com atleta: você não consegue saber, olhando o desempenho de hoje, se o treino de ontem foi bom. O desempenho de hoje é contaminado pelo custo do treino de ontem. É como avaliar um investimento no dia em que você pagou a corretagem.
+E isso era radical nos anos setenta, porque até então a cabeça era: treino gera adaptação, ponto — se não melhorou, treinou pouco. O Banister disse que o mesmo estímulo produz duas consequências opostas e que o resultado é uma subtração. Daí a implicação mais difícil de engolir: você não consegue saber, olhando o desempenho de hoje, se o treino de ontem foi bom. O desempenho de hoje é contaminado pelo custo do treino de ontem. É como avaliar um investimento no dia em que você pagou a corretagem.
 
 E é por isso também que existe o taper. Por que é que o atleta reduz carga antes da prova e melhora? Se desempenho fosse só treino acumulado, reduzir treino deveria piorar. Não piora, melhora. E melhora porque as duas curvas não somem no mesmo ritmo.
 
@@ -140,15 +134,11 @@ E você já sabe, das duas primeiras aulas, que todas essas coisas entram no cor
 
 Então o modelo de Banister descreve muito bem o que acontece dentro do retângulo do treino. Só que o seu paciente não mora dentro desse retângulo. Ele mora na vida.
 
-E é exatamente aí que a carga alostática entra e completa o quadro. Lembra que na primeira aula eu falei do trabalho do McEwen, de mil novecentos e noventa e oito? Ele descreveu que os mediadores do estresse são protetores no curto prazo e custosos no longo prazo, e chamou esse custo acumulado de carga alostática.
+E é aí que a carga alostática completa o quadro. O McEwen descreveu, em noventa e oito, que os mediadores do estresse são protetores no curto prazo e custosos no longo, e chamou esse custo acumulado de carga alostática. O Banister te diz que o treino deposita fadiga e aptidão; o McEwen te diz que **tudo** deposita custo, e no mesmo lugar.
 
-Olha como as duas coisas se encaixam. O Banister te diz que o treino deposita fadiga e aptidão. O McEwen te diz que **tudo** deposita custo, e que esse custo se acumula no mesmo lugar.
+Junta os dois e você tem o modelo do curso inteiro: uma conta única, com depósitos e saques de origens diferentes, onde o que você observa — desempenho, disposição, recuperação, humor, imunidade — é sempre um saldo.
 
-Junta os dois e você tem o modelo que a gente vai usar o curso inteiro. Uma conta única, onde entram depósitos e saques de origens diferentes, e onde o que você observa — desempenho, disposição, recuperação, humor, imunidade — é sempre um saldo, nunca um componente isolado.
-
-E tem uma assimetria entre os dois modelos que vale nomear. No Banister, os dois lados — aptidão e fadiga — vêm do treino. Na carga alostática, o custo vem de todo lado, mas o ganho não. Dormir mal não te deixa mais apto para nada. Plantão não constrói tendão. Estresse no trabalho não melhora VO2.
-
-Quer dizer: a vida deposita quase só do lado do custo. É por isso que paciente com vida pesada precisa de mais margem, não de menos treino necessariamente — de mais margem. E às vezes a intervenção mais eficaz que você vai fazer não está no treino dele, está no que cerca o treino.
+E tem uma assimetria entre os dois que vale nomear. No Banister, os dois lados vêm do treino. Na carga alostática, o custo vem de todo lado, mas o ganho não: dormir mal não te deixa mais apto para nada, plantão não constrói tendão, estresse no trabalho não melhora VO2. A vida deposita quase só do lado do custo. É por isso que paciente com vida pesada precisa de mais margem — e às vezes a intervenção mais eficaz não está no treino dele, está no que cerca o treino.
 
 E aí aparece a pergunta boa: se a vida deposita custo, não dá para simplesmente treinar menos e ficar bem? Dá, para a saúde. Não dá, para a adaptação — porque adaptação exige estímulo suficiente para desorganizar o sistema, e se você tira estímulo até o ponto em que não há custo, também não há ganho.
 
@@ -164,23 +154,19 @@ E uma coisa importante para você não se perder: fadiga, nesse sentido, não é
 
 Então como é que você usa isso na segunda-feira, sem equação e sem aplicativo?
 
-Primeiro: pare de tirar conclusão de plano a partir de um dia de desempenho. Um dia ruim é ruído. Você precisa de uma janela, e a janela que eu uso é de sete a dez dias. Dentro dela, o que importa não é o melhor nem o pior dia — é a tendência.
+Primeiro: pare de tirar conclusão de plano a partir de um dia de desempenho. Um dia ruim é ruído — você precisa de uma janela, e a que eu uso é de sete a dez dias. Dentro dela, o que importa não é o melhor nem o pior dia, é a tendência. E olhe a variabilidade: o paciente cujos dias oscilam entre ótimo e péssimo costuma ter problema de distribuição, concentrando carga e recuperação em blocos mal encaixados; o constantemente mediano tem problema de nível, com o saldo cronicamente rebaixado, e nenhum dia é bom porque nenhum começa descansado. Isso você enxerga de graça, só olhando a coluna de como ele acorda.
 
-E dentro dessa janela, olhe a variabilidade. O paciente cujos dias oscilam entre ótimo e péssimo está te dizendo outra coisa do que o paciente constantemente mediano. O primeiro costuma ter problema de distribuição, concentrando carga e recuperação em blocos mal encaixados. O segundo tem problema de nível: o saldo está rebaixado de forma crônica, e nenhum dia é bom porque nenhum dia começa descansado. E isso você enxerga de graça, só olhando a coluna de como ele acorda.
+Segundo: separe as duas perguntas quando o paciente estagnar. A aptidão parou de subir, ou a fadiga parou de descer? E esse teste tem uma vantagem que exame nenhum tem — ele é terapêutico enquanto diagnostica. O teste é o que eu fiz com o Otávio: dez dias com carga reduzida à metade, mantendo um pouco de intensidade, sem teste no meio. Se melhorou, era saldo. Se não, você economizou dez dias de investigação errada.
 
-Segundo: separe as duas perguntas quando o paciente estagnar. A aptidão parou de subir, ou a fadiga parou de descer? E esse teste tem uma vantagem que exame nenhum tem — ele é terapêutico enquanto diagnostica. Se a hipótese estiver certa, o paciente já sai melhor do próprio teste.
+E antes de reduzir, uma pergunta que economiza tempo: há quanto tempo ele não tem uma semana leve? Se for "não sei" ou "faz bastante", você já tem hipótese de saldo. Se ele fez uma semana leve há quinze dias e mesmo assim está mal, a investigação clínica sobe na lista.
 
-O teste é o que eu fiz com o Otávio. Dez dias com carga reduzida à metade, mantendo um pouco de intensidade, sem teste no meio. Se melhorou, era saldo, e o plano precisa de mais recuperação, não de mais treino. Se não melhorou, você economizou dez dias de investigação errada.
+Terceiro: registre duas coisas. A carga da semana, do jeito mais simples que der — minutos de treino vezes percepção de esforço — e como o paciente acorda, numa nota de zero a dez. Em três ou quatro semanas você vê a relação entre as colunas, e ela é mais informativa do que qualquer parâmetro que você tentaria calcular.
 
-E antes de reduzir, uma pergunta que economiza tempo: há quanto tempo ele não tem uma semana leve? Se a resposta for "não sei" ou "faz bastante", você já tem hipótese de saldo antes de qualquer outra coisa. Se ele fez uma semana leve há quinze dias e mesmo assim está mal, a hipótese de saldo enfraquece e a investigação clínica sobe na lista.
+E uma última, para quem atende quem compete. Antes de prova importante, pergunte quando foi a última vez que ele reduziu carga de verdade. Se a prova é daqui a três semanas e ele não descarrega há meses, a decisão mais rentável daquela consulta é convencê-lo a recuar — e é a mais difícil de vender, porque recuar perto da prova é contraintuitivo. A imagem das duas curvas costuma resolver essa conversa.
 
-Terceiro: registre duas coisas. A carga da semana, do jeito mais simples que der — pode ser minutos de treino vezes a percepção de esforço — e como o paciente acorda, numa nota de zero a dez. Em três ou quatro semanas você vê a relação entre as duas colunas, e essa relação é mais informativa do que qualquer parâmetro que você tentaria calcular.
+E quando isso não serve? Quando tem sinal de alarme: perda de peso não intencional, febre, linfonodo, sangramento, dor noturna, fadiga que veio de uma vez num dia específico. Aí não é problema de saldo, e dez dias fáceis não é conduta — é atraso.
 
-E uma última, para quem atende quem compete. Antes de qualquer prova importante, pergunte quando foi a última vez que ele reduziu carga de verdade. Se a prova é daqui a três semanas e ele não descarrega há meses, a decisão mais rentável daquela consulta não é sobre nutrição nem sobre suplemento — é convencê-lo a recuar. E é a mais difícil de vender, porque recuar perto da prova é contraintuitivo. A imagem das duas curvas costuma resolver essa conversa.
-
-E quando isso não serve? Quando o paciente tem sinal de alarme. Perda de peso não intencional, febre, linfonodo, sangramento, dor noturna, fadiga que veio de uma vez num dia específico. Aí você não está diante de um problema de saldo, você está diante de um problema clínico, e dez dias fáceis não é conduta — é atraso.
-
-E o custo dessa abordagem: você vai ter que segurar a ansiedade do paciente por dez dias. Ele vai achar que está perdendo forma, vai te mandar mensagem no quinto dia dizendo que está engordando, e se você não explicar antes por que está fazendo isso, ele vai treinar escondido e estragar o teste. Explique antes, com a imagem das duas curvas.
+E o custo: você vai ter que segurar a ansiedade do paciente por dez dias. Ele vai achar que está perdendo forma, vai te mandar mensagem no quinto dia dizendo que está engordando, e se você não explicar antes, vai treinar escondido e estragar o teste.
 
 E a frase que vai reaparecer o curso inteiro: o que você mede no paciente é sempre um saldo. Nunca o ganho puro, nunca o custo puro. E quem lê saldo como se fosse ganho toma decisão errada com dado certo.
 

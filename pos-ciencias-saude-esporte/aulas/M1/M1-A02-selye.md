@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 28 minutos · 6 slides
+Duração: 26 minutos · 6 slides
 
 ---
 
@@ -38,7 +38,7 @@ Então quando você entende de onde veio essa história, você sabe o que respon
 
 Vamo entender o que aconteceu de verdade.
 
-Em mil novecentos e trinta e seis, Hans Selye publica na Nature uma carta curta, de uma página, chamada "Um síndrome produzido por diversos agentes nocivos". Volume cento e trinta e oito, página trinta e dois. Uma página.
+Em mil novecentos e trinta e seis, Hans Selye publica na Nature uma carta curta, de uma página, chamada "Um síndrome produzido por diversos agentes nocivos".
 
 E o que ele fez? Pegou ratos e submeteu esses ratos a agentes nocivos diferentes. Quais? Exposição ao frio. Lesão cirúrgica. Choque espinhal. Intoxicação por drogas diversas. E — presta atenção nisso, porque é importante e é honesto dizer — exercício muscular excessivo também está na lista original dele.
 
@@ -52,9 +52,7 @@ E repara que ele fez uma coisa metodologicamente elegante para a época: ele var
 
 E um parêntese de justiça com o homem: o Selye não era ingênuo. Ele passou as décadas seguintes desenvolvendo o conceito de estresse, e foi ele mesmo quem separou depois o estresse que faz bem do que adoece. Ele não estava tentando explicar hipertrofia — estava construindo uma teoria geral de resposta a agressão, que entrou na medicina inteira. O que fizeram depois com o nome dele é responsabilidade de quem citou.
 
-E olha o que a tríade está dizendo. Adrenal aumentada é eixo do estresse trabalhando no talo, cronicamente. Timo e linfoide encolhidos é sistema imune sendo desmontado para pagar essa conta. Hemorragia no intestino é perfusão desviada de um órgão nobre, por tempo suficiente para causar dano estrutural.
-
-É um organismo canibalizando as próprias funções para sobreviver — a mesma lógica do orçamento da aula passada. Só que ali, no experimento, ele cortou até o ponto de não voltar.
+E olha o que a tríade está dizendo. Adrenal aumentada é eixo do estresse trabalhando no talo, cronicamente. Timo e linfoide encolhidos é sistema imune sendo desmontado para pagar essa conta. Hemorragia no intestino é perfusão desviada de um órgão nobre por tempo suficiente para causar dano. É um organismo canibalizando as próprias funções para sobreviver — a mesma lógica do orçamento da aula passada, só que ali ele cortou até o ponto de não voltar.
 
 E ele observou mais uma coisa, que é o que vai importar daqui a pouco. Se ele continuasse aplicando o agente em doses pequenas, o animal se tornava resistente e os órgãos voltavam ao normal. Mas se insistisse, o animal perdia a resistência e sucumbia, com os mesmos sinais do começo.
 
@@ -78,21 +76,19 @@ E tem um detalhe nessa fase que quase ninguém conta, e é o mais útil para nó
 
 Adaptação é específica ao estímulo. Se você quer que o tendão tolere carga, o tendão precisa receber carga — não existe resistência genérica que transborda de um sistema para outro. O que transborda é o custo. O benefício é específico, o preço é compartilhado.
 
-E isso resolve uma pergunta que aparece toda semana. "Eu faço musculação, isso já não conta como preparo para a corrida?" Conta pouco. Conta para o cardiovascular num certo grau, conta para força, mas não conta para a tolerância do tendão de Aquiles a impacto repetido, porque aquele tecido não recebeu aquele estímulo. E o contrário vale igual: o sujeito que corre há dez anos acha que o joelho dele aguenta tudo. Aguenta corrida. Não necessariamente aguenta agachamento pesado, mudança de direção ou salto. Adaptação não é cartão de crédito com limite geral. É crédito por tecido e por gesto.
+E isso resolve uma pergunta que aparece toda semana. "Eu faço musculação, isso já não conta como preparo para a corrida?" Conta pouco — conta para o cardiovascular, conta para força, mas não conta para a tolerância do tendão de Aquiles a impacto repetido. E o contrário vale igual: quem corre há dez anos acha que o joelho aguenta tudo. Aguenta corrida. Não necessariamente aguenta agachamento pesado, mudança de direção ou salto. Adaptação não é cartão de crédito com limite geral. É crédito por tecido e por gesto.
 
 E aí vem a terceira fase. Exaustão. E é aqui que tudo se perde na tradução.
 
-Exaustão, no Selye, não é cansaço. Não é estar desmotivado. Não é acordar quebrado. Não é aquela semana ruim em que você não rendeu.
+Exaustão, no Selye, não é cansaço. Não é estar desmotivado, não é acordar quebrado, não é a semana ruim em que você não rendeu. No experimento original, é o momento em que a resistência adquirida se perde e o animal morre. É desfecho fatal.
 
-Exaustão, no experimento original, é o momento em que a resistência adquirida se perde e o animal morre. Exaustão, ali, é desfecho fatal.
+E a passagem para a exaustão não acontecia porque o animal treinou demais. Acontecia porque o agente continuou sendo aplicado numa dose que o organismo não conseguia mais neutralizar. É dose acima da capacidade, mantida no tempo — não é progressão bem feita batendo num teto.
 
-E repara em outra coisa: no experimento, a passagem para a exaustão não acontecia porque o animal treinou demais. Acontecia porque o agente continuou sendo aplicado numa dose que o organismo não conseguia mais neutralizar. É dose acima da capacidade, mantida no tempo. Não é progressão bem feita batendo num teto.
+Então pensa no salto. Alguém pegou uma fase que significava morte e usou para nomear o estado de um corredor amador que parou de melhorar o tempo dos cinco quilômetros. E virou vocabulário corrente, a ponto de a gente nem estranhar mais.
 
-Então pensa no salto que foi dado. Alguém pegou uma fase que significava morte e usou ela para nomear o estado de um corredor amador que parou de melhorar o tempo dos cinco quilômetros. É um salto enorme. E virou vocabulário corrente da nossa área, a ponto de a gente nem estranhar mais.
+E tem mais uma coisa que muita gente ensina e o dado não sustenta: aquela curva de supercompensação que aparece em toda aula de periodização não está no trabalho do Selye. Vem da fisiologia esportiva do meio do século vinte e foi costurada ao nome dele depois, por conveniência didática. São dois modelos respondendo perguntas diferentes — um é sobre sobreviver a dano, o outro sobre quanto tempo leva para repor um substrato.
 
-E tem mais uma coisa que muita gente ensina e o dado não sustenta. Aquela curva de supercompensação que aparece em toda aula de periodização — a que desce depois do treino, sobe acima da linha de base e volta — ela não está no trabalho do Selye. Vem da fisiologia esportiva do meio do século vinte e foi costurada ao nome dele depois, por conveniência didática. São dois modelos de tradições diferentes respondendo perguntas diferentes: um é sobre sobreviver a dano, o outro é sobre quanto tempo leva para repor um substrato.
-
-E isso tem consequência prática. Se a curva de três fases fosse mesmo um mapa de treino, existiria um lugar previsível onde o atleta entra em exaustão, e bastaria recuar antes dele. Não existe. O que existe é um paciente cuja capacidade de tolerar muda de semana para semana, por coisas que não estão na planilha. É por isso que monitoramento vence modelo.
+E se a curva de três fases fosse mesmo um mapa de treino, existiria um lugar previsível onde o atleta entra em exaustão, e bastaria recuar antes dele. Não existe. O que existe é um paciente cuja capacidade de tolerar muda de semana para semana. É por isso que monitoramento vence modelo.
 
 ---
 
@@ -112,13 +108,13 @@ E eu deixei ela falar uns bons três minutos antes de perguntar qualquer coisa, 
 
 Ela trouxe o cortisol salivar de quatro pontos com a curva desenhada e três adaptógenos. E trouxe a queixa: cansaço que não passa com o fim de semana, sono ruim, dois resfriados em três meses. E tinha parado de menstruar havia cinco meses.
 
-Olha o tamanho do que estava acontecendo ali. Uma mulher de trinta e seis anos, em amenorreia havia cinco meses, com fadiga e infecção de repetição. E o rótulo que ela recebeu foi o de uma entidade que não existe.
+Olha o tamanho do que estava acontecendo ali. Uma mulher de trinta e seis anos, em amenorreia havia cinco meses, com fadiga e infecção de repetição — e o rótulo que ela recebeu foi o de uma entidade que não existe.
 
-E eu não falei isso para ela daquele jeito, porque não adianta demolir a explicação de alguém sem oferecer outra. Falei: "a sua queixa é real e merece investigação de verdade. Deixa eu te mostrar o que a gente ainda não olhou."
+E eu não falei isso daquele jeito, porque não adianta demolir a explicação de alguém sem oferecer outra. Falei: "a sua queixa é real e merece investigação de verdade. Deixa eu te mostrar o que a gente ainda não olhou."
 
-E eu quero ser justo com os colegas que a atenderam antes, porque não foi descuido. O cortisol salivar dela tinha um ponto alterado, e isso dá uma sensação de confirmação difícil de resistir: você pede um exame, ele vem alterado, a queixa bate com o rótulo, está fechado. O problema é fechar o caso com o único exame que foi pedido, sem perguntar se era o exame certo para aquela queixa. E isso acontece com qualquer um de nós no dia em que tem dez pacientes na agenda.
+E eu quero ser justo com os colegas que a atenderam antes, porque não foi descuido. O cortisol salivar dela tinha um ponto alterado, e isso dá uma sensação de confirmação difícil de resistir. O problema é fechar o caso com o único exame que foi pedido, sem perguntar se era o exame certo para aquela queixa — e isso acontece com qualquer um de nós no dia em que tem dez pacientes na agenda.
 
-E o que não tinha sido olhado era quase tudo. Quanto ela comia em relação ao que gastava. Ferro e ferritina. Tireoide. Hemograma. Densidade óssea, numa mulher em amenorreia havia cinco meses. Rastreio de humor. Ela tinha passado por três profissionais antes de mim, e em nenhum deles alguém tinha aberto o assunto da alimentação em relação ao treino.
+E o que não tinha sido olhado era quase tudo. Quanto ela comia em relação ao que gastava. Ferro e ferritina. Tireoide. Hemograma. Densidade óssea. Rastreio de humor. Ela tinha passado por três profissionais antes de mim, e em nenhum deles alguém tinha aberto o assunto da alimentação em relação ao treino.
 
 E ela tinha feito, sem perceber, as duas coisas da aula passada ao mesmo tempo: aumentou o volume de treino no começo do ano e cortou a alimentação para afinar para o verão. Aumentou o débito e diminuiu o depósito, na mesma conta.
 
@@ -142,21 +138,17 @@ Em dois mil e dezessete saiu no Journal of Science and Medicine in Sport um arti
 
 E em dois mil e dezoito o John Kiely publicou na Sports Medicine um artigo com um título honesto: "Teoria da periodização: enfrentando uma verdade inconveniente". A verdade inconveniente é que a base de evidência dos modelos tradicionais de periodização é bem mais fina do que a confiança com que eles são ensinados.
 
-E essa distorção foi fácil de acontecer porque ela é útil. Curva de três fases é fácil de desenhar no quadro, fácil de vender num curso, fácil de decorar para a prova. E produz uma sensação de controle: se eu sei em que fase o atleta está, eu sei o que fazer com ele. Modelo simples e errado é sempre mais confortável do que modelo complexo e honesto.
+E essa distorção foi fácil porque ela é útil. Curva de três fases é fácil de desenhar no quadro, de vender num curso, de decorar para a prova — e produz uma sensação de controle: se eu sei em que fase o atleta está, eu sei o que fazer com ele. Modelo simples e errado é sempre mais confortável do que modelo complexo e honesto.
 
-Agora, e aqui é importante: isso não quer dizer que planejar treino não funcione. Planejar funciona, progressão funciona, variar estímulo funciona. O que está sob crítica não é a prática, é a justificativa teórica que a gente foi ensinado a dar para ela.
-
-E o que muda na sua semana, concretamente: você confia mais no que você mede naquele paciente do que no molde que aplicou nele. Se o plano diz semana de choque e o paciente chega com sono ruim, infecção e percepção de esforço nas alturas, o plano perdeu para o paciente. O plano é hipótese. O paciente é dado. Isso não é licença para improvisar — sem plano não existe progressão nem como saber se algo funcionou. O que muda é a hierarquia.
+E aqui é importante: isso não quer dizer que planejar treino não funcione. Planejar funciona, progressão funciona, variar estímulo funciona. O que está sob crítica é a justificativa teórica, não a prática. O que muda na sua semana é que você confia mais no que mede naquele paciente do que no molde que aplicou nele — se o plano diz semana de choque e o paciente chega com sono ruim, infecção e percepção de esforço nas alturas, o plano perdeu para o paciente. O plano é hipótese, o paciente é dado.
 
 E aí vem a parte que mais importa, porque a cadeia não parou na periodização. Fase de exaustão virou "adrenal esgotada", que virou "fadiga adrenal", que virou diagnóstico, que virou exame, que virou suplemento, que virou faturamento.
 
 Só que em dois mil e dezesseis dois endocrinologistas brasileiros, o Cadegiani e o Kater, publicaram uma revisão sistemática no BMC Endocrine Disorders com o título mais direto que eu já vi num artigo: "Fadiga adrenal não existe". E a conclusão é essa mesma — não há sustentação de que seja uma condição médica real.
 
-E repara em como essas cadeias se formam, porque isso te protege no futuro com qualquer tema. Cada elo, isoladamente, é defensável. Selye descreveu uma resposta real. A periodização precisava de base teórica e pegou emprestada uma que existia. O mercado precisava de um nome para uma queixa comum e pegou a palavra que estava na ponta da curva. Ninguém mentiu em nenhum passo — e mesmo assim o resultado final é falso.
+E repara em como essas cadeias se formam, porque isso te protege com qualquer tema. Cada elo, isoladamente, é defensável. Selye descreveu uma resposta real. A periodização precisava de base teórica e pegou emprestada uma que existia. O mercado precisava de um nome para uma queixa comum e pegou a palavra que estava na ponta da curva. Ninguém mentiu em nenhum passo — e mesmo assim o resultado final é falso. É assim que a desinformação cara nasce na nossa área: não por mentira, por empilhamento.
 
-É assim que a desinformação cara nasce na nossa área: não por mentira, por empilhamento. Um experimento em ratos de mil novecentos e trinta e seis, sobre dano e morte, virou uma curva de treinamento que não era dele, e a terceira fase dessa curva virou um diagnóstico que não existe, tratado com um suplemento que o paciente paga.
-
-E o custo disso não é o dinheiro do suplemento. É o tempo em que ninguém investigou a causa verdadeira. Quatro, cinco meses de uma mulher em amenorreia. Esse é o custo.
+E o custo disso não é o dinheiro do suplemento. É o tempo em que ninguém investigou a causa verdadeira. Cinco meses de uma mulher em amenorreia. Esse é o custo.
 
 ---
 
@@ -166,27 +158,21 @@ E o custo disso não é o dinheiro do suplemento. É o tempo em que ninguém inv
 
 Então o que sobra do Selye? Sobra bastante, e sobra firme.
 
-Fica de pé que existe uma via final comum de resposta ao estresse, e que ela não distingue a origem. Estresse metabólico, físico, psicológico e infeccioso mobilizam mediadores que se sobrepõem. É a base do orçamento de adaptação da aula passada, e é por isso que a conta é um caixa só.
+Fica de pé que existe uma via final comum de resposta ao estresse e que ela não distingue a origem: estresse metabólico, físico, psicológico e infeccioso mobilizam mediadores que se sobrepõem. É a base do orçamento de adaptação da aula passada, e é por isso que a conta é um caixa só.
 
-O que não fica de pé é usar as três fases como mapa de progressão de treino, e usar a palavra exaustão como se ela descrevesse um estado clínico recuperável num amador.
+O que não fica de pé é usar as três fases como mapa de progressão de treino, e usar a palavra exaustão como se ela descrevesse um estado recuperável num amador.
 
-Agora, o que você faz segunda-feira quando chegar o paciente com fadiga que não passa.
-
-Você não carimba "fase de exaustão". Você investiga, e a lista é curta e barata. Hemograma completo, porque anemia é comum e é esquecida em quem treina. Ferro, ferritina e saturação de transferrina, especialmente em mulher e em corredor de longa distância. Função tireoidiana. Glicemia. E, se houver sinal clínico que justifique, investigação de insuficiência adrenal de verdade — que tem critério, tem teste, tem endocrinologista, e é uma doença rara, grave e completamente diferente daquilo que o mercado vende.
+Agora, o que você faz segunda-feira quando chegar o paciente com fadiga que não passa. Você não carimba "fase de exaustão". Você investiga, e a lista é curta e barata: hemograma, porque anemia é comum e é esquecida em quem treina; ferro, ferritina e saturação de transferrina, especialmente em mulher e em corredor de longa distância; tireoide; glicemia. E, se houver sinal clínico que justifique, investigação de insuficiência adrenal de verdade — que tem critério, tem teste, e é uma doença rara e grave, completamente diferente do que o mercado vende.
 
 E a ordem importa quando o paciente tem uma consulta só. Primeiro o comum e barato: ferro, hemograma, sono e alimentação. Depois o comum e menos óbvio: tireoide, glicemia, humor — porque depressão se apresenta como fadiga, e fadiga em quem treina muito é lida como overtraining com uma facilidade que me preocupa. E só depois o raro e caro. Investigação boa não é a que pede tudo, é a que pede na ordem certa de probabilidade.
 
-E antes de qualquer exame, três perguntas que custam zero. Quanto você dorme. Quanto você come em relação ao que treina. E, na paciente mulher: como está o seu ciclo. Se a menstruação parou, a investigação começa aí, não no cortisol.
+E antes de qualquer exame, três perguntas que custam zero. Quanto você dorme. Quanto você come em relação ao que treina. E, na paciente mulher: como está o seu ciclo — se a menstruação parou, a investigação começa aí, não no cortisol.
 
-E, colega fisioterapeuta, colega da educação física: pedir e interpretar exame é ato médico. O que muda com vocês é reconhecer o padrão e encaminhar com informação. Um encaminhamento que diz "amenorreia há cinco meses, queda de rendimento, provável baixa disponibilidade energética, favor avaliar" vale dez vezes mais do que "favor avaliar fadiga".
+E, colega fisioterapeuta, colega da educação física: pedir e interpretar exame é ato médico. O que muda com vocês é reconhecer o padrão e encaminhar com informação. "Amenorreia há cinco meses, queda de rendimento, provável baixa disponibilidade energética, favor avaliar" vale dez vezes mais do que "favor avaliar fadiga".
 
-E sobre a conversa com quem chega com o rótulo pronto: não comece negando. Se você abre dizendo que fadiga adrenal não existe, você acabou de dizer para a pessoa que ela é ingênua, e ela vai defender a posição em vez de te ouvir. Valide a queixa, ofereça o que ainda não foi olhado, e só então, se ela perguntar, explique a origem do termo. E olhe o exame que ele trouxe de verdade, na frente dele: quem se sente examinado escuta, quem se sente descartado discute.
+E sobre a conversa com quem chega com o rótulo pronto: não comece negando. Se você abre dizendo que fadiga adrenal não existe, acabou de dizer para a pessoa que ela é ingênua, e ela vai defender a posição em vez de te ouvir. Valide a queixa, ofereça o que ainda não foi olhado, e só então explique a origem do termo. E olhe o exame que ele trouxe de verdade, na frente dele: quem se sente examinado escuta, quem se sente descartado discute.
 
-E tem uma armadilha do outro lado que eu preciso nomear, porque depois de uma aula dessas tem gente que sai subinvestigando. Overreaching não funcional existe. Síndrome de overtraining existe, é rara, e é diagnóstico de exclusão com critérios. Insuficiência adrenal existe e mata. Nada disso deixa de existir porque "fadiga adrenal" não existe. O que a gente está jogando fora é um rótulo comercial, não uma família de diagnósticos.
-
-E quando não vale abrir investigação? Quando a fadiga tem menos de duas semanas e um gatilho óbvio — uma virose, uma semana de trabalho absurda, uma noite mal dormida antes de uma prova. Aí você observa e reavalia. Fadiga aguda com explicação não é caso para painel de exames.
-
-E o custo, dito em voz alta: você vai desmontar uma explicação em que o paciente acredita e pela qual às vezes já pagou. Isso gera desconforto, e às vezes gera perda de paciente. É o preço de não confirmar um diagnóstico que não existe. Eu acho que vale, mas o preço existe.
+E uma armadilha do outro lado, porque depois de uma aula dessas tem gente que sai subinvestigando. Overreaching não funcional existe. Síndrome de overtraining existe, é rara, e é diagnóstico de exclusão com critérios. Insuficiência adrenal existe e mata. O que a gente está jogando fora é um rótulo comercial, não uma família de diagnósticos. E quando a fadiga tem menos de duas semanas e um gatilho óbvio — virose, semana de trabalho absurda, noite mal dormida antes de prova — você observa e reavalia, não pede painel.
 
 Na próxima aula a gente vai nos dois modelos que de fato tentam explicar o que acontece entre uma sessão e a próxima: o modelo de aptidão e fadiga, e a carga alostática, que é como o custo disso tudo se acumula. E você vai ver que os dois juntos explicam o seu paciente muito melhor do que uma curva de três fases jamais explicou.
 

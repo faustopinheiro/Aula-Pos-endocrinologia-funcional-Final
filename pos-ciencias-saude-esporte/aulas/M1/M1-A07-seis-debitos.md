@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 29 minutos · 6 slides
+Duração: 27 minutos · 6 slides
 
 ---
 
@@ -10,13 +10,13 @@ Duração: 29 minutos · 6 slides
 *Visual: os seis débitos dispostos em volta de um caixa central, com a coluna do treino destacada como a única que costuma ser medida.*
 *Teleprompter: (entra direto)*
 
-Então, na aula passada eu te dei o método de montar a conta e listei seis débitos. Hoje a gente passa um por um, e em cada um eu quero te dar três coisas: o que perguntar, o que procurar, e — o mais importante — o que fazer quando aquele débito não tem folga nenhuma.
+Então, na aula passada eu te dei o método de montar a conta e listei seis débitos. Hoje a gente passa um por um: o que perguntar, o que procurar, e — o mais importante — o que fazer quando aquele débito não tem folga nenhuma.
 
-Porque essa é a situação real. Você vai montar a conta de um paciente e vai descobrir que quatro dos seis débitos são intocáveis neste momento da vida dele. E aí a pergunta deixa de ser "o que eu corto" e passa a ser "onde eu consigo entrar".
+Porque essa é a situação real: você vai montar a conta de um paciente e descobrir que quatro dos seis débitos são intocáveis neste momento da vida dele. E aí a pergunta deixa de ser "o que eu corto" e passa a ser "onde eu consigo entrar".
 
-E uma orientação sobre a ordem de perguntar, porque ela importa: comece pelo treino. Não porque ele é o mais importante — a gente já viu que geralmente não é — mas porque é o assunto pelo qual o paciente veio, e é onde ele está confortável. Se você abrir a consulta perguntando sobre casamento e sono, ele estranha. Se começar pelo treino e for abrindo o leque, ele te acompanha. Essa sequência decide se você vai ter acesso aos outros cinco débitos ou não.
+E uma orientação sobre a ordem: comece pelo treino. Não porque é o mais importante — geralmente não é — mas porque é o assunto pelo qual o paciente veio, e onde ele está confortável. Se você abrir perguntando sobre casamento e sono, ele estranha. Essa sequência decide se você vai ter acesso aos outros cinco débitos ou não.
 
-E uma correção de expectativa: débito não é sinônimo de coisa ruim. Treino é débito e é o que a gente quer que a pessoa faça. Filho pequeno é débito e é a coisa mais importante que ela tem. Débito aqui significa consumo de reserva, não erro — e isso importa na hora de devolver a conta, porque se ele entender débito como culpa, você perde a conversa.
+E uma correção de expectativa: débito não é sinônimo de coisa ruim. Treino é débito e é o que a gente quer que a pessoa faça; filho pequeno é débito e é a coisa mais importante que ela tem. Débito aqui é consumo de reserva, não erro — e isso importa na hora de devolver a conta, porque se ele entender débito como culpa, você perde a conversa.
 
 O que perguntar: quantas sessões por semana, quanto tempo cada uma, e a nota de zero a dez de cada uma. Não pergunte "que treino você faz", porque a resposta vem em nome de método — funcional, crossfit, musculação, corrida — e nome de método não te diz carga nenhuma.
 
@@ -24,11 +24,9 @@ E tem um segundo tipo de treino que quase ninguém contabiliza: o trabalho físi
 
 O que procurar: a distribuição, porque não é o total que quebra a maioria das pessoas, é a concentração — quatro sessões duras em cinco dias e depois dois parados é muito pior do que as mesmas quatro espalhadas. A ausência de sessão leve: se todas as notas estão acima de sete, você achou o Wagner da aula cinco. E a última semana de recuo: se não existe há meses, você tem hipótese de saldo antes de qualquer outra coisa.
 
-E um achado específico que vale procurar: o paciente que treina sete dias por semana, e que quase sempre apresenta isso com orgulho. O que costuma estar por trás não é dedicação, é ansiedade — o dia de folga gera desconforto real. E isso muda a conduta, porque argumento fisiológico não resolve: se você disser que descanso faz parte do treino, ele concorda e continua treinando sete dias. O caminho é substituir, não retirar — em vez de folga, uma sessão muito leve com hora marcada, que preserva o ritual sem cobrar da conta. E se for mais funda, é conversa para psicologia.
+E um achado que vale procurar: o paciente que treina sete dias por semana, e que quase sempre apresenta isso com orgulho. O que costuma estar por trás não é dedicação, é ansiedade — o dia de folga gera desconforto real. Argumento fisiológico não resolve: se você disser que descanso faz parte do treino, ele concorda e continua treinando sete dias. O caminho é substituir, não retirar — em vez de folga, uma sessão muito leve com hora marcada, que preserva o ritual sem cobrar da conta. E se for mais funda, é conversa para psicologia.
 
-E quando o treino não tem folga? Isso acontece com quem compete, com quem tem prova marcada e paga, e com quem usa o treino como âncora de saúde mental. Nesses, tirar treino tem custo que não aparece na planilha.
-
-Aí a conduta não é cortar volume, é **redistribuir**. Mesma quantidade de sessões, notas diferentes. Duas duras viram leves. As duas mais duras vão para os dias mais protegidos da semana. Você reduz o custo sem reduzir a quantidade — e sem tirar da pessoa a coisa que organiza o dia dela.
+E quando o treino não tem folga — quem compete, quem tem prova marcada e paga, quem usa o treino como âncora de saúde mental — a conduta não é cortar volume, é **redistribuir**. Mesma quantidade de sessões, notas diferentes: duas duras viram leves, e as duas mais duras vão para os dias mais protegidos da semana. Você reduz o custo sem reduzir a quantidade, e sem tirar da pessoa a coisa que organiza o dia dela.
 
 ---
 
@@ -62,29 +60,21 @@ E quando o sono não tem folga — plantonista, mãe de bebê, motorista, trabal
 
 Agora os dois débitos que quase nunca têm folga: trabalho e vida.
 
-No trabalho, o que perguntar é factual: que horas começa, que horas termina, quanto tempo de deslocamento, se tem turno ou escala, e se leva trabalho para casa. E uma pergunta que rende muito: em que momento do dia ele consegue não pensar em trabalho. Tem gente que responde "nunca", e essa resposta é um débito inteiro.
+No trabalho, o que perguntar é factual: que horas começa, que horas termina, quanto de deslocamento, se tem turno ou escala, se leva trabalho para casa. E uma que rende muito: em que momento do dia ele consegue não pensar em trabalho — tem gente que responde "nunca", e essa resposta é um débito inteiro. O que procurar: turno noturno, que desorganiza mais do que o número de horas sugere; deslocamento longo, que é vigília sem descanso e sem produção; e responsabilidade sobre outras pessoas, que não aparece em hora nenhuma da folha de ponto.
 
-O que procurar: turno noturno, que desorganiza mais do que o número de horas sugere; deslocamento longo, que é tempo de vigília sem descanso e sem produção; e responsabilidade sobre outras pessoas, que é um tipo de carga que não aparece em hora nenhuma da folha de ponto.
+Na vida, a pergunta é a factual da aula passada: o que mudou nos últimos doze meses. Casa, emprego, separação, nascimento, doença na família, luto, processo. Não pergunte sobre estresse — pergunte sobre eventos.
 
-Na vida, a pergunta que funciona é a factual que eu te dei na aula passada: o que mudou nos últimos doze meses. Mudança de casa, de emprego, separação, nascimento, doença na família, luto, processo. Não pergunte sobre estresse — pergunte sobre eventos.
+E tem uma categoria dentro do trabalho que quase ninguém pergunta e que pesa muito: trabalho emocional. Quem atende público, quem cuida de gente, quem lida com conflito — enfermeiro, professor, atendente, gestor de equipe. Termina o dia com um esgotamento que não aparece em hora nem em deslocamento, e que compete com a capacidade de tolerar estímulo à noite. E raramente relata, porque não considera que "conversar" seja desgaste.
 
-E tem uma categoria dentro do trabalho que quase ninguém pergunta e que pesa muito: trabalho emocional. Quem atende público, quem cuida de gente, quem negocia o dia inteiro, quem lida com conflito — enfermeiro, professor, atendente, gestor de equipe. Essa pessoa termina o dia com um tipo de esgotamento que não aparece em hora nem em deslocamento, e que compete diretamente com a capacidade de tolerar mais estímulo à noite.
-
-E ela raramente relata isso, porque não considera que "conversar" seja desgaste.
-
-E o que procurar aqui é o acúmulo. Um evento grande é administrável. Três eventos no mesmo ano, mesmo que nenhum seja catastrófico, consomem uma quantidade de reserva que costuma explicar o ano inteiro de um paciente.
+E o que procurar é o acúmulo. Um evento grande é administrável; três no mesmo ano, mesmo que nenhum seja catastrófico, consomem uma quantidade de reserva que costuma explicar o ano inteiro do paciente.
 
 E esses dois praticamente nunca têm folga. Ninguém larga o emprego, ninguém devolve o filho, ninguém desfaz o divórcio.
 
-E antes das três, uma coisa sobre a nossa postura aqui. É muito tentador virar conselheiro de vida nesse ponto da consulta. O paciente abre, conta que está mal no casamento, que odeia o trabalho, e a gente quer ajudar. Cuidado.
-
-O nosso papel é contabilizar o débito e ajustar o que está no nosso escopo. Não é resolver a vida dele. E quando o débito de vida é grande demais — luto recente, depressão, relação abusiva, uso de substância — o encaminhamento para psicologia ou psiquiatria não é acessório, é a conduta principal, e o treino passa a ser suporte.
-
-Reconhecer isso rápido é uma das coisas que separa quem cuida de quem só prescreve.
+E uma palavra sobre a nossa postura aqui, porque é tentador virar conselheiro de vida nesse ponto da consulta. O nosso papel é contabilizar o débito e ajustar o que está no nosso escopo, não resolver a vida dele. E quando o débito de vida é grande demais — luto recente, depressão, relação abusiva, uso de substância — o encaminhamento para psicologia ou psiquiatria não é acessório, é a conduta principal, e o treino passa a ser suporte.
 
 Então o que fazer? Três coisas.
 
-Primeiro, **nomear**. Só de dizer para o paciente "olha, você está no primeiro ano com um bebê e trocou de emprego — o seu corpo está pagando duas contas grandes que não estavam aqui no ano passado", você já muda a conversa. Muita gente está se cobrando por não render e não tinha relacionado uma coisa com a outra.
+Primeiro, **nomear**. Só de dizer "olha, você está no primeiro ano com um bebê e trocou de emprego — o seu corpo está pagando duas contas grandes que não existiam no ano passado", você já muda a conversa. Muita gente está se cobrando por não render e não tinha relacionado uma coisa com a outra.
 
 Segundo, **reduzir a meta em vez de reduzir o método**. Manter o treino, manter a frequência, e tirar a expectativa de progressão agressiva daquele período. Manutenção é um objetivo legítimo e a gente trata como fracasso.
 
@@ -100,19 +90,13 @@ O quarto débito é energia, e é o mais tratável dos seis. É onde você tem m
 
 O que perguntar: quantas refeições por dia, o que come antes e depois de treinar, e se já teve algum período de restrição forte. E na paciente mulher, como está o ciclo — que é o marcador clínico mais sensível que existe de disponibilidade energética baixa, e é de graça.
 
-O que procurar: primeiro, ausência de comida em torno do treino. Não é sobre timing perfeito, é sobre presença. Muita gente treina em jejum involuntário, não por estratégia, e depois passa três horas sem comer porque a rotina não permite. Segundo, número baixo de refeições em dias de maior demanda — que foi o caso da Eliane, no plantão. Terceiro, histórico de dieta restritiva, principalmente em quem teve perda de peso rápida em algum momento. E quarto, o paciente que está comendo menos e treinando mais ao mesmo tempo, que é a combinação que mais estoura conta no consultório.
+O que procurar: ausência de comida em torno do treino — não é sobre timing perfeito, é sobre presença, e muita gente treina em jejum involuntário e depois passa três horas sem comer porque a rotina não permite. Número baixo de refeições nos dias de maior demanda, que foi o caso da Eliane no plantão. Histórico de dieta restritiva, principalmente com perda de peso rápida. E o paciente que está comendo menos e treinando mais ao mesmo tempo, que é a combinação que mais estoura conta.
 
-E um detalhe prático que muda o rendimento desse débito: pergunte especificamente sobre o fim de semana. Muita gente tem alimentação organizada de segunda a sexta e completamente desestruturada no sábado e domingo — que são, justamente, os dias em que ela coloca os treinos longos. Quer dizer: a maior demanda cai no dia de menor organização.
-
-Só inverter isso, ou só organizar aquele dia, resolve uma quantidade grande de casos sem nenhuma outra mudança.
+E um detalhe que muda o rendimento desse débito: pergunte especificamente sobre o fim de semana. Muita gente tem alimentação organizada de segunda a sexta e desestruturada no sábado e domingo — justamente os dias dos treinos longos. A maior demanda cai no dia de menor organização, e só organizar aquele dia resolve uma quantidade grande de casos.
 
 E olha uma coisa importante sobre escopo: montar o plano alimentar não é meu trabalho nem seu, se você não é nutricionista. O que a gente faz aqui é **identificar o débito e encaminhar com informação**. A diferença entre "encaminho para avaliação nutricional" e "encaminho paciente treinando seis vezes por semana com duas refeições nos dias de plantão e amenorreia há cinco meses" é a diferença entre um encaminhamento que vira consulta e um que vira resultado.
 
-E tem um cenário específico que eu quero que você saiba reconhecer, porque ele se disfarça de disciplina: o paciente que está comendo pouco de propósito e acha que está indo bem. Ele perdeu peso, ele está recebendo elogio, ele se sente no controle. E a conta dele está estourando em silêncio.
-
-Os sinais que aparecem antes do desempenho cair costumam ser: frio constante, principalmente nas mãos e nos pés; pensamento em comida ocupando o dia; irritabilidade; e, na mulher, o ciclo mudando antes de sumir — ficando mais curto, mais leve, mais irregular.
-
-Se você pegar esse quadro cedo, você evita meses de prejuízo. Se você elogiar a disciplina dele, você acelera o problema.
+E tem um cenário que se disfarça de disciplina: o paciente que come pouco de propósito e acha que está indo bem. Perdeu peso, está recebendo elogio, se sente no controle — e a conta está estourando em silêncio. Os sinais que aparecem antes de o desempenho cair são frio constante nas mãos e nos pés, pensamento em comida ocupando o dia, irritabilidade, e na mulher o ciclo mudando antes de sumir: mais curto, mais leve, mais irregular. Se você pega isso cedo, evita meses de prejuízo. Se elogia a disciplina, acelera o problema.
 
 E quando esse débito não tem folga? Existe — paciente em vulnerabilidade financeira, paciente com transtorno alimentar em tratamento, paciente com restrição por doença. Aqui a conduta é reduzir a demanda em vez de aumentar a oferta. Se não dá para aumentar o depósito, diminui o saque. E, no caso do transtorno alimentar, o cuidado é de outra equipe e o treino entra como coadjuvante, não como protagonista.
 
@@ -128,23 +112,15 @@ No hormônio, o que perguntar: ciclo menstrual, libido, disposição matinal, qu
 
 O que procurar é a direção da seta. Porque quando você encontra testosterona baixa num homem de quarenta anos que treina muito, dorme mal e está em déficit energético, a pergunta não é "quanto eu reponho". A pergunta é: isso é uma disfunção do eixo ou é o eixo funcionando corretamente num contexto de escassez?
 
-E o mesmo raciocínio vale para o TSH que sobe um pouco, para o cortisol que aparece baixo, para a ferritina no limite. O laboratório não sabe o contexto. Ele devolve um número, e o número é interpretado como disfunção quando muitas vezes é adaptação a uma escassez que a gente mesmo criou.
+E o mesmo raciocínio vale para o TSH que sobe um pouco, para o cortisol baixo, para a ferritina no limite. O laboratório não sabe o contexto: devolve um número, e o número é lido como disfunção quando muitas vezes é adaptação a uma escassez que a gente mesmo criou. Guarda a pergunta: esse achado é doença ou é resposta?
 
-É o que a gente vai destrinchar com calma no eixo de avaliação, no módulo cinco. Por enquanto guarda a pergunta: esse achado é uma doença ou é uma resposta?
+Porque repor hormônio num paciente com a conta estourada é tratar o sinal e deixar a causa correndo. Ele vai melhorar, porque hormônio funciona — e a conta vai continuar estourada embaixo, e vai aparecer em outro lugar. Isso não é argumento contra reposição: existe indicação, existe deficiência real, existe paciente que precisa. É argumento contra usar reposição como atalho para não olhar a conta.
 
-E essa distinção é o coração dessa aula. Porque repor hormônio num paciente cuja conta está estourada é tratar o sinal e deixar a causa correndo. Ele vai melhorar, porque hormônio funciona. E a conta vai continuar estourada embaixo, e vai aparecer em outro lugar.
+E tem uma pergunta que eu faço sempre no homem acima dos trinta e cinco: você já tomou alguma coisa para aumentar testosterona, ou já pensou em tomar? Feita sem julgamento, é respondida com honestidade na maioria das vezes — e muda a interpretação de todo exame que vier depois, porque uso prévio, mesmo interrompido, altera a leitura do eixo. Se você não perguntar, ele não conta.
 
-Isso não é argumento contra reposição hormonal, atenção. Existe indicação, existe deficiência real, e existe paciente que precisa. É argumento contra usar reposição como atalho para não olhar a conta — e, colega médico, essa decisão é sua e é pesada, então ela merece a conta montada antes, não depois.
+Na doença e na medicação, o que perguntar: quantas infecções no último ano, que medicação usa — incluindo a que ele não considera medicação, como anti-inflamatório de balcão e suplemento — e se teve doença relevante nos últimos dois anos. O que procurar: infecção de repetição, que é o termômetro barato que eu venho repetindo desde a primeira aula; medicação que interfere em recuperação; e doença crônica descompensada, que muda a conta inteira.
 
-E tem uma pergunta que eu faço sempre no homem acima dos trinta e cinco e que economiza muito tempo: você já tomou alguma coisa para aumentar testosterona, ou já pensou em tomar? Feita sem julgamento, essa pergunta é respondida com honestidade na maioria das vezes. E a resposta muda a interpretação de todo o exame que vier depois, porque uso prévio, mesmo interrompido, altera a leitura do eixo.
-
-Se você não perguntar, ele não conta. Não por má-fé — por vergonha, ou por achar que não é relevante.
-
-Na doença e na medicação, o que perguntar: quantas infecções no último ano, que medicação usa — incluindo a que ele não considera medicação, como anti-inflamatório de balcão e suplemento — e se teve alguma doença relevante nos últimos dois anos.
-
-O que procurar: infecção de repetição, que é o termômetro barato que eu venho repetindo desde a primeira aula. Medicação que interfere em resposta ao exercício ou em recuperação. E doença crônica descompensada, que muda a conta inteira.
-
-E aqui tem uma coisa sobre anti-inflamatório que vale dizer: muito paciente usa anti-inflamatório de rotina para conseguir treinar. E aí você tem um sujeito abafando o sinal que o corpo manda justamente para avisar que a conta não fechou. O sinal some, o débito continua. É um dos jeitos mais rápidos de transformar um problema de saldo num problema estrutural.
+E sobre anti-inflamatório: muito paciente usa de rotina para conseguir treinar. Aí você tem um sujeito abafando o sinal que o corpo manda justamente para avisar que a conta não fechou. O sinal some, o débito continua — é um dos jeitos mais rápidos de transformar um problema de saldo num problema estrutural.
 
 ---
 
@@ -152,25 +128,21 @@ E aqui tem uma coisa sobre anti-inflamatório que vale dizer: muito paciente usa
 *Visual: os seis débitos com quatro deles marcados como "sem folga" e dois circulados em ouro.*
 *Teleprompter: (aterrissagem; desacelera no fechamento)*
 
-Então vamo fechar com a situação que eu prometi no começo, que é a mais comum de todas: o paciente em que quase nada tem folga.
+Então vamo fechar com a situação que eu prometi no começo, que é a mais comum de todas: o paciente em que quase nada tem folga. Trabalha em turno e não vai mudar. Tem um filho pequeno e não vai mudar. Tem uma condição crônica e não vai mudar. E quer treinar.
 
-Ele trabalha em turno e não vai mudar. Ele tem um filho pequeno e não vai mudar. Ele tem uma condição crônica e não vai mudar. E ele quer treinar.
+E tem uma frase que eu uso muito aqui, porque desarma a culpa sem baixar a exigência: o corpo não sabe que você tem obrigações, ele só sabe o que chega nele. Não é sobre você se esforçar mais — é sobre colocar o treino dentro do que chega. Funciona porque o paciente vem achando que o problema é falta de disciplina dele, e na maior parte das vezes é excesso de demanda somada.
 
-E eu quero te dar uma frase que eu uso muito nessa conversa, porque ela desarma a culpa sem baixar a exigência: o corpo não sabe que você tem obrigações. Ele só sabe o que chega nele. Então não é sobre você se esforçar mais — é sobre a gente colocar o treino dentro do que chega.
-
-Isso funciona porque o paciente vem quase sempre achando que o problema é falta de disciplina dele. E na maior parte das vezes não é. É excesso de demanda somada.
-
-A primeira coisa é aceitar que a conta dele é menor. Não é pior, é menor. E conta menor não significa que ele não deve treinar — significa que a dose que cabe nele é outra, e que a velocidade de progresso vai ser outra.
+A primeira coisa é aceitar que a conta dele é menor. Não é pior, é menor — e isso não significa que ele não deve treinar, significa que a dose e a velocidade de progresso são outras.
 
 A segunda é encontrar o débito com folga, mesmo pequeno — e o jeito é perguntar, não deduzir. Eu listo os débitos em voz alta, na frente dele, e pergunto qual daqueles ele acha que dá para mexer um pouquinho. Ele conhece a vida dele melhor do que eu, e a resposta vem com adesão embutida porque foi escolha dele. Quando eu imponho, cumpre-se três semanas. Quando ele escolhe, dura. Na maior parte das vezes que eu vi, a folga estava num destes três: distribuição das sessões dentro da semana, comida em torno do treino, ou meia hora de sono.
 
 E essa aceitação não é derrota, é o que permite que ele continue. Quem insiste numa dose que não cabe quebra, e quando quebra para de vez. Quem fica num plano menor por dois anos chega mais longe do que quem fez um plano grande por dois meses.
 
-A terceira é ajustar a expectativa junto com ele, e por escrito. Não é você baixar a régua sozinho e não contar. É sentar e dizer: com essa vida, nesse momento, o realista é isto aqui. E quando essa fase passar, a gente sobe.
+A terceira é ajustar a expectativa junto com ele, e por escrito. Não é baixar a régua sozinho e não contar — é sentar e dizer: com essa vida, nesse momento, o realista é isto aqui, e quando a fase passar a gente sobe.
 
-E uma palavra sobre o tempo disso. Nada disso cabe numa consulta só. Distribua: na primeira você levanta treino, sono e energia, que são os mais rentáveis. Trabalho, vida, hormônio e doença você aprofunda no retorno, quando já existe vínculo — porque paciente de primeira consulta não conta que está bebendo demais, que o casamento acabou ou que comprou testosterona na internet. Paciente de terceira consulta conta.
+E nada disso cabe numa consulta só. Distribua: na primeira você levanta treino, sono e energia, que são os mais rentáveis; trabalho, vida, hormônio e doença você aprofunda no retorno, quando já existe vínculo. Paciente de primeira consulta não conta que está bebendo demais, que o casamento acabou ou que comprou testosterona na internet. Paciente de terceira consulta conta.
 
-E a quarta, que é a que eu mais vejo faltar: **proteger o que já funciona**. Se o cara tem uma rotina de treino que ele consegue cumprir há dois anos, isso é patrimônio. Não mexa por elegância técnica. Um plano subótimo que ele faz vale infinitamente mais do que um plano ótimo que ele abandona em três semanas.
+E a quarta, que é a que eu mais vejo faltar: **proteger o que já funciona**. Se o cara tem uma rotina que ele cumpre há dois anos, isso é patrimônio — não mexa por elegância técnica. Um plano subótimo que ele faz vale mais do que um plano ótimo que ele abandona em três semanas.
 
 Na próxima aula a gente vai olhar a conta ao longo da vida. Porque o tamanho desse caixa não é o mesmo aos catorze, aos trinta e cinco e aos sessenta. E o adolescente em estirão, a mulher em cada fase do ciclo e o master acima dos quarenta têm débitos obrigatórios que não estão na lista de hoje — e que não se negociam.
 

@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 29 minutos · 6 slides
+Duração: 26 minutos · 6 slides
 
 ---
 
@@ -16,15 +16,11 @@ E eu quero começar admitindo uma coisa, para você não esperar o que não vai 
 
 Se existisse, eu te dava a fórmula e a gente encerrava o módulo em dez minutos.
 
-E deixa eu te explicar por que não existe fórmula, porque a razão é interessante e não é preguiça da ciência. Para somar as coisas numa equação, elas precisam estar na mesma unidade. Energia você mede em quilocaloria. Sono você mede em hora e em arquitetura. Estresse psicossocial você mede em questionário validado, que é uma escala arbitrária. Carga de treino você mede em unidade arbitrária também.
+E não existe fórmula por uma razão que não é preguiça da ciência: para somar coisas numa equação, elas precisam estar na mesma unidade. Energia se mede em quilocaloria, sono em hora, estresse psicossocial em questionário, carga de treino em unidade arbitrária. Réguas diferentes, com erros diferentes — somar num número único daria a aparência de precisão e a realidade de chute. Então a honestidade aqui não é limitação do método. É o método.
 
-São réguas diferentes, medindo coisas diferentes, com erros diferentes. Somar isso num número único daria a aparência de precisão e a realidade de chute.
+O que existe é melhor do que fórmula e é mais difícil de ensinar: um método de leitura. Uma ordem para perguntar, uma forma de organizar as respostas, e um jeito de transformar aquilo numa hipótese que dá para testar em semanas.
 
-Então a honestidade aqui não é uma limitação do método. É o método.
-
-O que existe é melhor do que fórmula, e é mais difícil de ensinar: é um método de leitura. Uma ordem para fazer as perguntas, uma forma de organizar as respostas, e um jeito de transformar aquilo numa hipótese que dá para testar em semanas.
-
-E antes de te dar o método, eu quero te mostrar que essa conta não é invenção minha, porque tem uma parte dela que está descrita com muito rigor na literatura, com consenso internacional e tudo. Essa parte chama disponibilidade energética. E o que acontece quando ela falta tem nome, tem critério e tem documento.
+E antes do método, eu quero te mostrar que essa conta não é invenção minha. Tem uma parte dela descrita com rigor na literatura, com consenso internacional: a disponibilidade energética. E o que acontece quando ela falta tem nome, tem critério e tem documento.
 
 É o REDs, a deficiência energética relativa no esporte. O Comitê Olímpico Internacional publicou um consenso sobre isso em dois mil e vinte e três, no British Journal of Sports Medicine, atualizando o que já vinha de dois mil e quatorze.
 
@@ -32,9 +28,7 @@ E por que eu começo por aí? Porque o REDs é, na prática, a demonstração ma
 
 Repara no que isso significa. Não é que falta energia e aí o desempenho cai. É que falta energia e aí caem o desempenho, o osso, o eixo reprodutivo, a imunidade, o humor e a capacidade de reparar tecido. Junto.
 
-E tem uma coisa no REDs que mudou muito da versão de dois mil e quatorze para a de dois mil e vinte e três, e que interessa diretamente ao nosso território. Aquilo começou muito centrado na atleta mulher de elite, com a tríade — disponibilidade energética, menstruação e osso. E foi ficando claro que não era só isso, não era só mulher, e não era só elite.
-
-O consenso mais recente reconhece homens, reconhece uma lista maior de sistemas afetados, e reconhece que isso aparece em quem não compete. Ou seja: o quadro que a gente vai ver no consultório, no praticante amador de trinta e oito anos, é o mesmo fenômeno, e demorou para a literatura olhar para ele.
+E tem uma coisa que mudou muito de dois mil e quatorze para dois mil e vinte e três e que interessa ao nosso território. Aquilo começou centrado na atleta mulher de elite, com a tríade — disponibilidade energética, menstruação e osso. O consenso mais recente reconhece homens, uma lista maior de sistemas afetados, e que isso aparece em quem não compete. O quadro que a gente vê no praticante amador de trinta e oito anos é o mesmo fenômeno, e demorou para a literatura olhar para ele.
 
 E se todos caem juntos quando falta uma única coisa, é porque todos estavam sendo pagos do mesmo lugar.
 
@@ -54,9 +48,7 @@ Disponibilidade energética é outra coisa. É a energia que **sobra para o rest
 
 O que sobra é o que o corpo tem para fazer tudo aquilo que não é treinar: pensar, reparar, produzir hormônio, manter o osso, manter a imunidade, digerir, existir.
 
-E tem um detalhe que confunde muita gente: a disponibilidade é dividida pela massa magra, e não pelo peso total. Faz sentido, porque é a massa magra que gasta energia e que precisa ser mantida. Mas na prática isso significa que duas pessoas com o mesmo peso e a mesma alimentação podem ter disponibilidades diferentes, porque a composição delas é diferente.
-
-E significa outra coisa, que é quase cruel: quando o paciente perde massa magra por ter ficado muito tempo em déficit, a conta dele fica pior, não melhor. Ele passa a precisar de menos energia para existir, e aí a mesma restrição que antes produzia perda de gordura passa a produzir menos resultado. É o ciclo que a gente vê no consultório como "meu metabolismo travou".
+E repara que a divisão é pela massa magra, não pelo peso total — é a massa magra que gasta energia e precisa ser mantida. Isso tem uma consequência quase cruel: quando o paciente perde massa magra por ter ficado muito tempo em déficit, a conta dele fica pior, não melhor. Ele passa a precisar de menos energia para existir, e a mesma restrição que antes produzia perda de gordura passa a produzir menos. É o ciclo que a gente vê no consultório como "meu metabolismo travou".
 
 E aqui está a diferença que muda a conduta. Dá para ter balanço calórico equilibrado e disponibilidade energética baixa ao mesmo tempo. A pessoa não está emagrecendo, o peso está estável, tudo parece bem na balança — e mesmo assim o organismo dela está com pouco caixa para funcionar, porque o treino está comendo uma fatia grande demais do que entra.
 
@@ -66,15 +58,9 @@ E olha como isso conversa com tudo que a gente viu. A disponibilidade energétic
 
 Então a fórmula do REDs não é a conta inteira. Ela é a parte da conta que a gente conseguiu colocar em número, e é o pedaço mais bem estudado. O resto a gente lê clinicamente.
 
-E eu quero ser honesto sobre o uso dessa fórmula no consultório comum. Calcular disponibilidade energética com precisão exige estimar ingestão e estimar gasto de exercício, e as duas estimativas têm erro grande. Subnotificação alimentar é a regra, não a exceção. Então o número que você calcula não é para ser levado como medida exata.
+E eu quero ser honesto sobre o uso dessa fórmula no consultório comum. Calcular disponibilidade com precisão exige estimar ingestão e gasto de exercício, e as duas estimativas têm erro grande — subnotificação alimentar é a regra, não a exceção. O número que você calcula não é medida exata. Mas ele serve para identificar quem está muito longe do razoável, para acompanhar o mesmo paciente ao longo do tempo, e principalmente para mostrar ao paciente uma conta que ele nunca tinha visto. Quando a pessoa vê no papel que ela come, treina, e sobra pouco para o corpo funcionar, cai uma ficha que nenhuma orientação genérica derruba.
 
-Mas ele serve para três coisas, e essas três valem muito: para identificar quem está muito longe do razoável, para acompanhar o mesmo paciente ao longo do tempo, e — principalmente — para mostrar ao paciente uma conta que ele nunca tinha visto.
-
-E tem um cuidado importante nessa conversa, principalmente com quem tem histórico de transtorno alimentar ou de relação difícil com comida. Mostrar número de caloria para essa pessoa pode fazer mal. Nesses casos, eu não uso número nenhum — eu uso a conversa sobre o que ela come em torno do treino, e a lógica do caixa sem aritmética. Funciona igual, e não coloca a pessoa num lugar de contagem que ela levou anos para largar.
-
-E colega nutricionista, esse julgamento é seu, e é um dos lugares em que o seu escopo pesa mais do que o meu.
-
-E eu vou te dizer, essa terceira é a que mais muda comportamento. Quando a pessoa vê no papel que ela come, treina, e sobra pouco para o corpo funcionar, cai uma ficha que nenhuma orientação genérica derruba.
+E um cuidado importante, principalmente com quem tem histórico de transtorno alimentar: mostrar número de caloria para essa pessoa pode fazer mal. Nesses casos eu não uso número nenhum — uso a conversa sobre o que ela come em torno do treino, e a lógica do caixa sem aritmética. Funciona igual, e não coloca a pessoa num lugar de contagem que ela levou anos para largar. E colega nutricionista, esse julgamento é seu.
 
 ---
 
@@ -88,27 +74,13 @@ Quando falta caixa, o organismo não distribui a escassez igualmente. Ele escolh
 
 Então o que é cortado primeiro não é o coração, não é o cérebro, não é a respiração. É o que dá para adiar.
 
-Reprodução dá para adiar. Por isso amenorreia aparece cedo, e por isso queda de libido e de testosterona aparecem cedo. Do ponto de vista do organismo, não é hora de reproduzir quando está faltando.
+Reprodução dá para adiar — por isso amenorreia, queda de libido e de testosterona aparecem cedo. Do ponto de vista do organismo, não é hora de reproduzir quando está faltando. Construção de osso dá para adiar: osso é caro e o custo de não investir só aparece anos depois, e o corpo aceita esse risco futuro para resolver o problema de hoje. Reparo de tecido dá para adiar parcialmente — daí a lesão de estresse e a lesão recorrente. Sistema imune dá para diminuir, não desligar, e é por isso que infecção de repetição é um dos sinais mais precoces e mais baratos de detectar. E desempenho, que é o que o paciente veio buscar, é a coisa mais fácil de cortar de todas. Não morre ninguém por render menos.
 
-Construção de osso dá para adiar. Osso é caro e o resultado de não investir só aparece anos depois. O corpo aceita esse risco futuro para resolver o problema de hoje.
-
-Reparo de tecido dá para adiar parcialmente — e é por isso que a lesão de estresse aparece, e é por isso que a lesão recorrente aparece.
-
-Sistema imune dá para diminuir. Não desligar, diminuir. E é por isso que a infecção de repetição é um dos sinais mais precoces e mais baratos de detectar.
-
-E desempenho, que é o que o paciente veio buscar, é a coisa mais fácil de cortar de todas. Não morre ninguém por render menos.
-
-E tem uma coisa nessa ordem de prioridade que muda a forma de conversar com o paciente. Quando ele te conta que parou de menstruar, ou que a libido sumiu, ou que está pegando toda gripe que passa, ele quase sempre te conta isso como assunto secundário. Ele veio falar de peso, ou de tempo de prova, ou de hipertrofia. Aquilo ele menciona de passagem, no fim da consulta, às vezes já de pé.
-
-E aquilo, na leitura da conta, é o achado mais importante da consulta inteira. É o sinal precoce. É o corpo avisando antes de o desempenho cair.
-
-Então crie o hábito de perguntar ativamente por essas coisas, porque o paciente não vai trazer espontaneamente. Ele não sabe que isso tem a ver.
+E essa ordem muda a forma de conversar. Quando ele te conta que parou de menstruar, que a libido sumiu ou que está pegando toda gripe que passa, ele conta como assunto secundário — veio falar de peso, de tempo de prova, de hipertrofia, e menciona aquilo de passagem, às vezes já de pé. E aquilo, na leitura da conta, é o achado mais importante da consulta inteira. É o corpo avisando antes de o desempenho cair. Pergunte ativamente, porque o paciente não vai trazer: ele não sabe que tem a ver.
 
 Olha a ironia clínica: a queixa que traz o paciente até você — "não estou melhorando" — é o último item da lista de prioridade do organismo dele. Ele veio reclamar exatamente do que o corpo dele escolheu sacrificar primeiro.
 
-E é por isso que tratar a queixa isoladamente quase nunca funciona. Se você tentar melhorar o desempenho sem repor o caixa, você está pedindo para o corpo priorizar justamente o que ele decidiu abrir mão.
-
-E o inverso também é verdadeiro, e é a parte otimista: quando você repõe o caixa, várias coisas voltam juntas, sem você ter tratado cada uma. O ciclo volta, a disposição volta, as infecções espaçam, e o desempenho volta — não porque você tratou cada sistema, mas porque você devolveu o orçamento.
+E por isso tratar a queixa isoladamente quase nunca funciona: você está pedindo para o corpo priorizar justamente o que ele decidiu abrir mão. O inverso é a parte otimista — quando você repõe o caixa, várias coisas voltam juntas, sem você ter tratado cada uma. O ciclo volta, a disposição volta, as infecções espaçam, e o desempenho volta. Não porque você tratou cada sistema, mas porque devolveu o orçamento.
 
 Isso é o que a Priscila viveu, lá na segunda aula. Ninguém tratou a amenorreia dela. Trataram a conta.
 
@@ -118,13 +90,13 @@ Isso é o que a Priscila viveu, lá na segunda aula. Ninguém tratou a amenorrei
 *Visual: a folha de conta do caso, agora preenchida, com os débitos listados de um lado e as entradas do outro.*
 *Teleprompter: (tom de história; depois vira demonstração)*
 
-Deixa eu montar uma conta na sua frente, com um caso, para você ver como é na prática.
+Deixa eu montar uma conta na sua frente, com um caso.
 
 A Eliane, trinta e três anos, enfermeira, plantonista. Treina musculação quatro vezes por semana e faz corrida duas. Queixa dela, e eu anotei:
 
 > *"Eu não consigo mais evoluir em nada. Não ganho força, não perco gordura, e eu tô sempre com aquela sensação de gripe chegando."*
 
-Olha as três queixas juntas. Não ganha força, não perde gordura, e imunidade frouxa. Três sistemas diferentes. E é justamente isso que me faz suspeitar de conta, e não de um problema isolado — porque problema isolado não derruba três sistemas ao mesmo tempo.
+Olha as três queixas juntas: não ganha força, não perde gordura, imunidade frouxa. Três sistemas diferentes — e é isso que me faz suspeitar de conta e não de problema isolado, porque problema isolado não derruba três sistemas ao mesmo tempo.
 
 E repara em como ela se apresentou: não veio dizer que estava exausta, veio dizer que não evolui. A palavra foi evoluir, não cansar. Muita gente com a conta estourada não se queixa de cansaço — se queixa de estagnação. Se você só procurar conta em quem reclama de fadiga, deixa metade dos casos passar.
 
@@ -144,7 +116,7 @@ Então a ordem não foi pela importância teórica do débito. Foi por onde tinh
 
 O que a gente fez: manteve as seis sessões, mas transformou duas em leves e colocou as duas mais duras nos dias mais distantes do plantão. E a intervenção de maior impacto não foi minha — foi da nutricionista, montando o que ela ia levar para o plantão, comida pronta, decidida antes, sem depender do que tinha na cantina.
 
-Cinco meses. Ganhou força, o percentual caiu dois pontos, e ela teve um resfriado no período todo, contra quatro no ano anterior.
+Cinco meses. Ganhou força, o percentual caiu dois pontos, e teve um resfriado no período todo, contra quatro no ano anterior.
 
 E ela falou, na consulta de reavaliação: *"O engraçado é que eu tô treinando a mesma coisa."*
 
@@ -158,7 +130,7 @@ Pois é. Mudou a conta, não o treino.
 
 Então vamo ao método, que é o que eu quero que você leve daqui. Quatro passos.
 
-**Primeiro, some os débitos.** Não estime, liste. Treino — quantas sessões, com que percepção de esforço. Trabalho — jornada, turno, deslocamento, responsabilidade. Sono — horário real de deitar e levantar, e qualidade. Alimentação — número de refeições e o que acontece em torno do treino. Vida — filho pequeno, cuidado de familiar, mudança recente, luto, processo judicial. E saúde — doença crônica, medicação, infecção recente.
+**Primeiro, some os débitos.** Não estime, liste. Treino: quantas sessões, com que percepção de esforço. Trabalho: jornada, turno, deslocamento, responsabilidade. Sono: horário real de deitar e levantar. Alimentação: número de refeições e o que acontece em torno do treino. Vida: filho pequeno, cuidado de familiar, mudança recente, luto. E saúde: doença crônica, medicação, infecção recente.
 
 E em cada um, uma pergunta que abre. No treino: quantas sessões e qual a nota de cada uma. No trabalho: que horas começa, que horas termina, quanto tempo de deslocamento. No sono: que horas deita e levanta, dias de semana e fim de semana separadamente. Na alimentação: o que come antes e depois de treinar. Na vida: o que mudou nos últimos doze meses. Na saúde: quantas infecções no último ano e o que usa de medicação, incluindo o que não é receita.
 
@@ -170,7 +142,7 @@ E uma dica sobre o débito da vida, que é o mais difícil de abordar: não perg
 
 **Terceiro, monte a hipótese.** Ela tem uma forma padrão: "os débitos deste paciente excedem a capacidade dele de repor, e os sistemas que estão aparecendo — aqui você nomeia as queixas — são compatíveis com essa ordem de priorização". Isso é uma hipótese clínica de verdade, e ela é falsificável.
 
-**Quarto, teste.** E o teste tem que mexer no débito mais barato de mexer, não no mais óbvio. Quase nunca é treino. Costuma ser sono, alimentação em torno do treino, ou a distribuição da carga dentro da semana. Dê quatro a seis semanas e reavalie com os mesmos marcadores que você usou no começo.
+**Quarto, teste.** E o teste mexe no débito mais barato, não no mais óbvio — quase nunca é treino. Costuma ser sono, alimentação em torno do treino, ou distribuição da carga na semana. Quatro a seis semanas, e reavalie com os mesmos marcadores do começo.
 
 E escolha os marcadores de reavaliação antes de começar, nunca depois. Se você não definiu o que vai olhar, vai acabar olhando o que melhorou — e concluindo que funcionou mesmo quando não funcionou. Eu fixo três: uma queixa principal, um marcador de carga interna e um marcador objetivo simples. E anoto antes, no prontuário, com data.
 

@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 28 minutos · 6 slides
+Duração: 26 minutos · 6 slides
 
 ---
 
@@ -96,23 +96,13 @@ A frase dela:
 
 > *"Eu tô cansada e não tô evoluindo. E eu tô fazendo tudo certo, sabe? Eu treino, eu como limpo, eu durmo."*
 
-E tem uma coisa sobre esse tipo de paciente que eu quero que você reconheça, porque ele é frequente e é difícil. Ela não estava sendo negligente. Ela estava sendo extremamente disciplinada — só que disciplinada na direção errada. Todo o esforço dela estava indo para restringir mais, treinar mais, controlar mais.
+E esse tipo de paciente é frequente e é difícil. Ela não estava sendo negligente — estava sendo extremamente disciplinada, só que na direção errada. Todo o esforço dela ia para restringir mais, treinar mais, controlar mais. E quando você diz para uma pessoa assim que ela precisa comer mais, você está pedindo que ela faça exatamente o que passou anos aprendendo que era errado. Não é orientação, é reversão de crença — e precisa ser conduzida com apoio, não com uma frase no fim da consulta.
 
-E quando você diz para uma pessoa assim que ela precisa comer mais, você está pedindo que ela faça exatamente aquilo que ela passou anos aprendendo que era errado. Não é uma orientação, é uma reversão de crença. E ela precisa ser conduzida com cuidado e com apoio, não com uma frase no fim da consulta.
+E presta atenção em "eu como limpo". Essa expressão, no meu consultório, acende uma luz: quase sempre significa restrição, e quase nunca significa suficiência.
 
-Presta atenção em "eu como limpo". Essa expressão, no meu consultório, acende uma luz. Porque quase sempre ela significa restrição, e quase nunca significa suficiência.
+Montei a conta. Treino: cinco sessões, duas longas no fim de semana, notas entre seis e oito. Trabalho: horário comercial, sem turno, deslocamento curto — débito moderado. Sono: sete horas e meia, regular, sem despertares. Boa. Vida: sem eventos relevantes.
 
-Montei a conta.
-
-Treino: cinco sessões, sendo duas longas no fim de semana. Notas entre seis e oito.
-
-Trabalho: horário comercial, sem turno, deslocamento curto. Débito moderado, sem grandes problemas.
-
-Sono: sete horas e meia, regular, sem despertares. Boa.
-
-Alimentação: e aqui apareceu. Ela fazia jejum até as onze da manhã, treinava às seis e meia em jejum, e a primeira refeição era às onze. Cortou carboidrato "porque incha". Não comia nada antes nem depois do treino longo de domingo, que durava quase duas horas.
-
-Vida: sem eventos relevantes.
+Alimentação: e aqui apareceu. Jejum até as onze, treino às seis e meia em jejum, carboidrato cortado "porque incha", e nada antes nem depois do treino longo de domingo, que durava quase duas horas.
 
 E aí eu perguntei sobre o ciclo. Ela falou que estava "mais espaçado ultimamente, mas isso é normal quando a gente treina, né?".
 
@@ -120,9 +110,7 @@ Não é normal. E ela tinha ouvido isso de alguém.
 
 Ciclo espaçando, treino em jejum, corte de carboidrato, duas horas de corrida sem comer nada, e a frase "eu como limpo". Isso é baixa disponibilidade energética até que se prove o contrário, e eu não precisei de exame para levantar essa hipótese.
 
-E a pergunta sobre o ciclo, nesse caso, foi o achado mais barato e mais importante da consulta inteira. Ela mencionou de passagem, como se fosse irrelevante, e normalizou sozinha. E alguém, em algum momento, tinha confirmado essa normalização para ela.
-
-Isso é comum e é grave. Perder menstruação não é um efeito colateral aceitável de treinar. É um sinal, e é dos mais precoces que a gente tem. Toda vez que você deixar passar essa informação — ou pior, confirmar que é normal — você está deixando uma conta estourada rodar por mais meses.
+E a pergunta sobre o ciclo foi o achado mais barato e mais importante da consulta inteira. Ela mencionou de passagem, normalizou sozinha, e alguém em algum momento tinha confirmado essa normalização para ela. Perder menstruação não é efeito colateral aceitável de treinar — é um sinal, e dos mais precoces que a gente tem. Toda vez que você deixa isso passar, ou pior, confirma que é normal, você deixa uma conta estourada rodar por mais meses.
 
 Mas nesse caso eu precisei de exame para outra coisa, e aqui está a segunda camada que eu quero te mostrar: **conta estourada e achado clínico não são alternativas. Eles convivem, e um causa o outro.**
 
@@ -132,9 +120,7 @@ Ou seja: a conta estourada dela tinha produzido um achado que também precisava 
 
 A conduta foi nutricionista desde a primeira semana — porque montar a reposição energética dela não é meu escopo — mais a reposição de ferro, mais a única mudança de treino que eu fiz, que foi comer antes do treino longo de domingo.
 
-E vale dizer o que não foi feito, porque às vezes o que a gente não faz é a decisão mais importante. Eu não tirei nenhuma sessão de treino dela. Não reduzi volume, não mudei a estrutura da semana. Porque o débito decisivo dela não estava no treino, e mexer no treino teria tirado dela a única coisa que estava dando certo e que sustentava a adesão.
-
-Isso contraria o reflexo de muita gente, que diante de fadiga corta treino automaticamente. Corte treino quando o débito decisivo for treino. Na Simone, não era.
+E vale dizer o que **não** foi feito, porque às vezes é a decisão mais importante: eu não tirei nenhuma sessão de treino dela. O débito decisivo não estava no treino, e mexer ali teria tirado dela a única coisa que estava dando certo e que sustentava a adesão. Corte treino quando o débito decisivo for treino. Na Simone, não era.
 
 Cinco meses. O ciclo regularizou, a ferritina subiu, e ela fez a meia em uma hora e cinquenta e três.
 
@@ -154,9 +140,7 @@ Quem falou primeiro foi o pai:
 
 E o Ivan, quando eu perguntei diretamente a ele, falou uma coisa que o pai não tinha dito: *"Eu tô com preguiça de treinar."*
 
-E essa diferença entre o que o pai falou e o que ele falou é, por si só, um achado. O pai descreveu rendimento e dor. Ele descreveu vontade. E quando adolescente perde a vontade, isso costuma vir antes de tudo o que a gente consegue medir.
-
-Uma nota prática: sempre converse um pouco com o adolescente sozinho, mesmo que por poucos minutos. Não é para excluir a família — é porque parte da informação simplesmente não aparece com o pai na sala.
+E essa diferença é, por si só, um achado. O pai descreveu rendimento e dor. Ele descreveu vontade — e quando adolescente perde a vontade, isso vem antes de tudo o que a gente consegue medir. Daí uma nota prática: converse sempre um pouco com o adolescente sozinho, nem que seja por poucos minutos, porque parte da informação não aparece com o pai na sala.
 
 Preguiça, aos dezessete anos, num menino que quer ser jogador profissional, não é preguiça.
 
@@ -180,11 +164,9 @@ Mas repara no ponto principal desse caso: **a intervenção não era no Ivan.**
 
 Era no sistema em volta dele. Era conversar com o pai, era escrever para o clube, era pedir que a educação física da escola soubesse o que ele faz fora. Cada adulto ali estava pedindo uma coisa razoável, e ninguém tinha somado.
 
-E eu quero registrar como foi a conversa com o clube, porque isso é parte do trabalho e ninguém ensina. Eu não mandei uma ordem. Eu mandei um resumo: onze centímetros de crescimento no último ano, nove exposições semanais somando clube, escola e lazer, seis horas e meia de sono, e uma dor de joelho de três meses em investigação. E pedi uma conversa.
+E a conversa com o clube é parte do trabalho e ninguém ensina. Eu não mandei uma ordem, mandei um resumo: onze centímetros de crescimento no último ano, nove exposições semanais somando clube, escola e lazer, seis horas e meia de sono, e uma dor de joelho de três meses em investigação. E pedi uma conversa. Encaminhamento que informa abre porta; encaminhamento que manda fecha — e num menino de base, fechar a porta significa que ele vai continuar fazendo tudo, só que sem você sabendo.
 
-Encaminhamento que informa abre porta. Encaminhamento que manda fecha. E num menino de base, com o clube do lado de fora, fechar a porta significa que ele vai continuar fazendo tudo, só que sem você sabendo.
-
-A gente tirou a bola de domingo — o que foi a conversa mais difícil, porque era a única coisa que ele fazia por prazer, e eu precisei negociar isso com cuidado. Ficou uma vez por mês em vez de toda semana. Combinamos um dia por semana sem nada. E o café da manhã virou obrigação de casa, não escolha dele.
+A gente tirou a bola de domingo, que foi a conversa mais difícil porque era a única coisa que ele fazia por prazer: ficou uma vez por mês. Combinamos um dia por semana sem nada. E o café da manhã virou obrigação de casa, não escolha dele.
 
 Dois meses depois a dor tinha diminuído muito, e o pai falou, sem eu perguntar: *"Ele voltou a falar de futebol em casa."*
 
@@ -208,23 +190,13 @@ No Ivan, o débito decisivo era crescimento somado a fragmentação do cuidado, 
 
 Nenhum dos três recebeu o que ele veio pedir. O Rogério veio pedir hormônio. A Simone veio pedir plano de treino. O pai do Ivan veio pedir liberação para jogar.
 
-E repara numa coisa sobre o tempo. Nenhum desses três desfechos apareceu em duas semanas. O mais rápido foi o Ivan, com dois meses. O Rogério levou dez semanas. A Simone, cinco meses.
-
-Isso precisa estar combinado com o paciente desde a primeira consulta, porque a expectativa dele é de dias. Se ele espera melhora em duas semanas e ela vem em dez, ele abandona na sexta. E aí o problema não foi a conduta, foi a combinação que não foi feita.
+E repara no tempo. Nenhum desses três desfechos apareceu em duas semanas: o Ivan levou dois meses, o Rogério dez semanas, a Simone cinco meses. Isso precisa estar combinado desde a primeira consulta, porque a expectativa do paciente é de dias — se ele espera melhora em duas semanas e ela vem em dez, ele abandona na sexta. E aí o problema não foi a conduta, foi a combinação que não foi feita.
 
 E o que fez a diferença nos três não foi conhecimento raro. Foi a ordem das perguntas.
 
-Agora eu preciso te mostrar o outro lado, porque eu não quero te entregar uma lente que explica tudo — e eu avisei na aula seis que modelo que explica tudo não explica nada.
+Agora o outro lado, porque eu avisei na aula seis que modelo que explica tudo não explica nada. Teve um paciente, no mesmo período, com a mesma frase, em que eu montei a conta e ela fechava: treino razoável, sono de sete e meia, trabalho tranquilo, alimentação adequada, nenhuma mudança de vida. A conta não explicava a queixa.
 
-Teve um paciente, no mesmo período, com a mesma frase, em que eu montei a conta e ela fechava. Treino razoável, sono de sete horas e meia, trabalho tranquilo, alimentação adequada, nenhuma mudança de vida. A conta dele não explicava a queixa.
-
-E eu quero que você preste atenção no que aconteceu ali, porque é sutil. Não foi que a conta falhou. Foi que ela funcionou de outro jeito: ela me deu um resultado negativo confiável. Eu sabia, com razoável segurança, que treino, sono, energia e vida não explicavam aquele quadro — e é isso que autoriza a investigação a ir mais fundo e mais rápido.
-
-Sem a conta, eu teria ficado meses naquele terreno intermediário desconfortável, ajustando carga e esperando, que é onde muito paciente fica preso.
-
-E é aí que a lente faz o trabalho mais importante que ela faz: ela me disse que eu precisava procurar em outro lugar. Eu investiguei, e ele tinha uma doença que não vem ao caso aqui, que foi diagnosticada e tratada, e que não tinha nada a ver com treino.
-
-Se eu não tivesse montado a conta, eu teria passado semanas ajustando carga.
+E não foi que ela falhou. Foi que ela funcionou de outro jeito: me deu um resultado negativo confiável. Eu sabia, com razoável segurança, que treino, sono, energia e vida não explicavam aquele quadro — e é isso que autoriza a investigação a ir mais fundo e mais rápido. Eu investiguei, e ele tinha uma doença que não vem ao caso aqui, diagnosticada e tratada, que não tinha nada a ver com treino. Sem a conta, eu teria passado meses ajustando carga e esperando, que é onde muito paciente fica preso.
 
 Então guarda isso, que é o resumo honesto do módulo: **a conta serve tanto para explicar quanto para descartar.** E o dia em que ela não explicar o seu paciente é o dia em que ela está te prestando o melhor serviço.
 

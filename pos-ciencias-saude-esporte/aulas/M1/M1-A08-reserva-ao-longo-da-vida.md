@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 29 minutos · 6 slides
+Duração: 27 minutos · 6 slides
 
 ---
 
@@ -42,21 +42,17 @@ Vamo começar pela criança e pelo adolescente, que é onde eu mais vejo erro de
 
 E a primeira pergunta diante de um adolescente não é sobre treino. É sobre onde ele está na maturação. Dois meninos de quatorze anos podem estar em pontos completamente diferentes do estirão, e a idade no documento não te diz isso — um já passou pelo pico, o outro nem começou. Tratar os dois com a mesma carga porque têm a mesma idade é o erro estrutural do esporte de base no mundo inteiro. As formas práticas de estimar isso vêm no módulo onze; por enquanto guarda que idade cronológica é o pior critério disponível, e é o único que quase todo mundo usa.
 
-O caixa do adolescente é grande em capacidade de recuperação. Ele se recupera rápido, adapta rápido, tolera muito. Qualquer um que já treinou adolescente sabe disso e fica com inveja.
+O caixa do adolescente é grande em capacidade de recuperação: ele se recupera rápido, adapta rápido, tolera muito. Só que existe um débito nessa fase que não está em planilha nenhuma: **crescer**.
 
-Só que existe um débito nessa fase que não está em planilha nenhuma: **crescer**.
+Construir osso, alongar tecido, aumentar massa é um custo metabólico enorme e contínuo, que roda vinte e quatro horas por dia independentemente do que ele faz na academia — e é prioritário. O organismo não vai deixar de crescer para melhorar o desempenho no fim de semana. E durante o estirão esse débito fica maior ainda, com as alavancas mudando de tamanho antes de a força acompanhar, a coordenação temporariamente pior e as regiões de crescimento mais vulneráveis.
 
-Construir osso, alongar tecido, aumentar massa — isso é um custo metabólico enorme e contínuo, que roda vinte e quatro horas por dia, independentemente do que ele faz na academia. E ele é prioritário. O organismo não vai deixar de crescer para melhorar o desempenho no fim de semana.
-
-E durante o estirão, no pico de velocidade de crescimento, esse débito fica maior ainda, e várias outras coisas mudam junto: as alavancas mudam de tamanho antes de a força acompanhar, a coordenação fica temporariamente pior, e as regiões de crescimento ficam mais vulneráveis.
-
-Então você tem, ao mesmo tempo, um corpo que aguenta muito e um corpo com uma conta obrigatória rodando no fundo.
+Então você tem, ao mesmo tempo, um corpo que aguenta muito e uma conta obrigatória rodando no fundo.
 
 E tem um agravante estrutural nessa faixa: a fragmentação do cuidado. O menino joga no time da escola, treina no clube, faz um esporte no fim de semana com o pai e ainda tem educação física. Cada adulto enxerga a fatia dele e acha que está pedindo pouco. Ninguém soma, e a soma é o que quebra. Por isso a pergunta mais valiosa da consulta costuma ser: me conta tudo que você faz de atividade física numa semana, incluindo escola e incluindo o que faz por diversão. O número quase sempre assusta os pais, porque eles também nunca somaram.
 
 O erro clássico é interpretar tolerância como ausência de custo. E o que aparece não é fadiga do jeito adulto — aparece dor de crescimento que não passa, apofisite, fratura por estresse, ou simplesmente o menino que "perdeu a vontade" de jogar.
 
-E eu quero nomear uma coisa aqui: abandono do esporte na adolescência é desfecho clínico. A gente trata como se fosse escolha, mudança de interesse, coisa da idade. Muitas vezes é um corpo que não estava dando conta e uma cabeça que não tinha como explicar isso.
+E eu quero nomear uma coisa: abandono do esporte na adolescência é desfecho clínico. A gente trata como escolha, mudança de interesse, coisa da idade — e muitas vezes é um corpo que não estava dando conta e uma cabeça que não tinha como explicar isso.
 
 E sobre alimentação: ele precisa de energia para crescer **e** para treinar, e muitas vezes está numa fase de pular refeição, de café da manhã inexistente. Adolescente que treina duas vezes por dia e come pela primeira vez às dez da manhã está com a conta estourada por construção. Na menina, some a pressão estética, que aparece cedo em esporte de categoria de peso e em esporte estético — e a menarca atrasada, ou a menstruação que veio e sumiu, é um dos achados mais importantes dessa idade. Ele não vem espontaneamente: você pergunta, ou você não descobre.
 
@@ -64,7 +60,7 @@ O que perguntar: se está em fase de crescimento rápido, quantos esportes e qua
 
 E uma palavra sobre treino de força, porque ainda existe medo: a ideia de que ele atrapalha o crescimento não se sustentou. O que causa dano nessa faixa é carga mal supervisionada, técnica ruim e progressão apressada — que causa dano em qualquer idade. Treino de força bem conduzido nessa faixa é protetor, e negar isso por medo antigo é tirar da criança uma das melhores ferramentas que ela tem.
 
-E o que fazer: garantir dia sem treino, garantir que exista uma janela de crescimento respeitada, e desconfiar de queixa de dor persistente em vez de normalizar. Dor de crescimento é diagnóstico de exclusão, não é explicação pronta.
+E o que fazer: garantir dia sem treino, respeitar a janela de crescimento, e desconfiar de dor persistente em vez de normalizar. Dor de crescimento é diagnóstico de exclusão, não explicação pronta.
 
 ---
 
@@ -76,31 +72,23 @@ Agora a mulher, e aqui eu preciso de você com atenção, porque é o territóri
 
 Vamo por partes.
 
-O ciclo menstrual altera fisiologia? Altera, e isso não está em discussão — hormônio sexual tem efeito em temperatura, em substrato, em tecido conjuntivo, em retenção de líquido.
-
-Agora, a pergunta que interessa: essas alterações produzem efeito relevante sobre desempenho, a ponto de justificar periodizar treino por fase do ciclo?
-
-E aqui a resposta honesta é: as revisões mais recentes encontram efeito, em média, pequeno, com qualidade de evidência baixa e grande variação entre mulheres. Ou seja — está longe do que se prega por aí.
+O ciclo menstrual altera fisiologia? Altera, e isso não está em discussão: hormônio sexual tem efeito em temperatura, substrato, tecido conjuntivo, retenção de líquido. A pergunta que interessa é outra — essas alterações produzem efeito relevante sobre desempenho, a ponto de justificar periodizar treino por fase? E a resposta honesta é que as revisões mais recentes encontram efeito, em média, pequeno, com qualidade de evidência baixa e grande variação entre mulheres. Está longe do que se prega por aí.
 
 E a evidência é fraca por um motivo específico, que vale entender porque te protege da próxima onda: estudar ciclo direito é caro. Confirmar em que fase a mulher está exige dosagem hormonal, não calendário, porque calendário erra muito. A variação entre mulheres é enorme, então a amostra precisa ser grande. E é preciso separar quem usa contraceptivo hormonal, que é boa parte das mulheres em idade reprodutiva. Daí a maioria dos estudos ser pequena, com método frouxo de confirmação de fase, e chegar a resultados que não se repetem.
 
 Então quando alguém te apresentar um protocolo periodizado por fase do ciclo com muita confiança, a pergunta honesta é: como é que eles confirmaram a fase?
 
-Então o que eu faço na prática, e isso é raciocínio meu, não é diretriz: eu não periodizo treino pelo ciclo como regra. Eu pergunto sobre o ciclo em toda paciente, sempre, e uso ele para **duas outras coisas** que valem muito mais.
-
-A primeira é como marcador de disponibilidade energética, que a gente já viu. Ciclo que encurta, fica irregular ou some é sinal precoce de conta estourada, e é gratuito.
-
-A segunda é a experiência individual dela. Se essa paciente específica relata, de forma consistente, que em determinada fase ela rende pior ou se sente pior, isso é dado dela e merece ajuste. O que não vale é aplicar um calendário genérico em todas.
+Então o que eu faço na prática, e isso é raciocínio meu, não é diretriz: eu não periodizo treino pelo ciclo como regra. Eu pergunto sobre o ciclo em toda paciente e uso ele para duas outras coisas, que valem muito mais. A primeira é como marcador de disponibilidade energética — ciclo que encurta, fica irregular ou some é sinal precoce de conta estourada, e é gratuito. A segunda é a experiência individual: se aquela paciente relata de forma consistente que em determinada fase rende pior, isso é dado dela e merece ajuste. O que não vale é aplicar um calendário genérico em todas.
 
 E tem uma coisa sobre contraceptivo hormonal que vale mencionar, porque a pergunta aparece sempre: ele muda desempenho? A evidência disponível aponta, na média, para efeito pequeno. O que ele muda com certeza é a sua leitura clínica — porque a mulher em contraceptivo contínuo não tem ciclo espontâneo, e aí você perdeu o marcador gratuito de disponibilidade energética que eu tanto defendi.
 
 Isso não é argumento contra contraceptivo, de forma alguma. É um aviso para você: nessa paciente, você precisa de outros marcadores, porque o mais sensível não está disponível.
 
-Na gestação e no pós-parto, o débito obrigatório é evidente e o principal erro que eu vejo é o contrário do que se imagina: não é excesso de treino, é a expectativa de retorno. A mulher volta a treinar seis semanas depois de um parto, sem dormir, amamentando — que é um custo energético real — e se cobra o desempenho de antes. A conta dela naquele momento é a menor da vida adulta dela, e a exigência que ela coloca em si mesma é a maior.
+Na gestação e no pós-parto, o débito obrigatório é evidente, e o erro principal é o contrário do que se imagina: não é excesso de treino, é expectativa de retorno. A mulher volta a treinar seis semanas depois do parto, sem dormir, amamentando, e se cobra o desempenho de antes. A conta dela naquele momento é a menor da vida adulta, e a exigência que ela coloca em si mesma é a maior.
 
 E amamentar tem custo energético relevante e contínuo — não é detalhe. Sono fragmentado, demanda aumentada pela lactação, vontade de perder o peso da gestação (ou seja, comendo menos) e volta ao treino: são quatro coisas empilhadas contra a mesma conta. Se você não nomear isso para ela, ela vai achar que o corpo dela é que está falhando.
 
-E na transição menopausal, o caixa muda de tamanho de forma mais abrupta do que no homem. Muda sono, muda composição, muda recuperação, muda tecido conjuntivo. E é a fase em que mais mulher desiste de treinar por achar que "não funciona mais" — quando o que aconteceu foi que a conta mudou e a dose não mudou junto.
+E na transição menopausal o caixa muda de tamanho de forma mais abrupta do que no homem: muda sono, composição, recuperação, tecido conjuntivo. É a fase em que mais mulher desiste de treinar por achar que "não funciona mais" — quando o que aconteceu foi que a conta mudou e a dose não mudou junto.
 
 ---
 
@@ -112,29 +100,21 @@ Agora o master, que é provavelmente o grosso do seu consultório.
 
 O que muda depois dos quarenta, na linguagem da conta: o caixa encolhe um pouco, e principalmente **demora mais para repor**. A capacidade de adaptar continua existindo — e isso é importante, porque tem muito profissional tratando gente de cinquenta como se fosse gente que não adapta mais. Adapta. Só que o intervalo necessário entre estímulo e estímulo aumenta.
 
-E tem três coisas que ficam mais caras. Reparar tecido conjuntivo fica mais caro e mais lento. Construir músculo exige estímulo maior e mais proteína para o mesmo resultado. E recuperar de uma sessão dura leva mais tempo.
+Três coisas ficam mais caras: reparar tecido conjuntivo, construir músculo — que passa a exigir estímulo maior e mais proteína para o mesmo resultado — e recuperar de uma sessão dura.
 
-E tem uma coisa que eu acho a mais subestimada de todas nessa faixa: o histórico. O sujeito de cinquenta e cinco que treinou a vida inteira tem um caixa muito diferente do sujeito de cinquenta e cinco que está começando agora. Mesma idade, contas diferentes, por causa do que foi construído antes.
-
-Então idade, sozinha, é um péssimo critério. O que importa é idade mais histórico de exposição. E é por isso que você não pode ter um protocolo de master — você tem que ter uma pergunta: o que esse corpo já fez, e há quanto tempo ele parou?
+E a coisa mais subestimada nessa faixa é o histórico. O sujeito de cinquenta e cinco que treinou a vida inteira tem um caixa muito diferente do de cinquenta e cinco que está começando agora. Mesma idade, contas diferentes. Então idade sozinha é péssimo critério: o que importa é idade mais histórico de exposição. Por isso não existe protocolo de master — existe uma pergunta: o que esse corpo já fez, e há quanto tempo ele parou?
 
 Agora repara no erro mais comum, que não é treinar demais: é **manter a frequência dos vinte e cinco anos**. A pessoa fazia cinco sessões duras por semana aos vinte e cinco e continua tentando fazer cinco aos cinquenta. O volume até cabe. O que não cabe é a densidade — o pouco espaço entre elas.
 
 Então a intervenção quase sempre não é reduzir treino. É **espalhar**. Mesmas sessões, mais dias entre as duras.
 
-E a proteína merece uma linha aqui, mesmo sendo assunto do eixo de nutrição. O master precisa de mais proteína por refeição para disparar a mesma síntese que um jovem dispara com menos. É o fenômeno da resistência anabólica. Na prática isso significa que aquele café da manhã com pão e café, que já era pobre em proteína, é ainda mais insuficiente aos sessenta do que era aos vinte e cinco.
+E a proteína merece uma linha, mesmo sendo assunto do eixo de nutrição: o master precisa de mais proteína por refeição para disparar a mesma síntese que um jovem dispara com menos — é a resistência anabólica. Aquele café da manhã com pão e café, que já era pobre em proteína, é ainda mais insuficiente aos sessenta do que era aos vinte e cinco. Montar isso é da nutricionista; reconhecer e encaminhar é de todos nós.
 
-E de novo: montar isso é da nutricionista. Reconhecer e encaminhar é de todos nós.
+E tem o erro oposto, igualmente comum: o profissional que, diante do paciente de sessenta, prescreve caminhada e elástico. Isso é tratar idade como doença. Massa e força são justamente o que mais protege nessa faixa, e estímulo fraco não constrói nenhuma das duas. A régua é: **intensidade preservada, densidade reduzida**.
 
-E tem o outro erro, que é o oposto e igualmente comum: o profissional que, diante do paciente de sessenta, prescreve caminhada e elástico. Isso é tratar idade como doença. Massa e força são justamente o que mais protege nessa faixa, e estímulo fraco não constrói nenhuma das duas.
+E uma queixa característica dessa faixa que vale aprender a ouvir direito: "eu não consigo mais fazer dois dias seguidos". Não é sinal de que a pessoa está acabada — é informação de densidade. Ela está te dizendo, com precisão, o intervalo que o corpo dela precisa, e a conduta é montar a semana respeitando isso, não convencê-la do contrário.
 
-Então a régua é essa: **intensidade preservada, densidade reduzida**. Estímulo que vale a pena, com tempo para pagar.
-
-E tem uma queixa muito característica dessa faixa que eu quero que você aprenda a ouvir direito: "eu não consigo mais fazer dois dias seguidos". Essa frase não é sinal de que a pessoa está acabada. É informação de densidade. Ela está te dizendo, com precisão, qual é o intervalo que o corpo dela precisa.
-
-E a conduta não é convencer ela a fazer dois dias seguidos. É montar a semana respeitando o intervalo que ela já descobriu sozinha.
-
-E o que perguntar nessa faixa que muda conduta: quanto tempo leva para se sentir recuperado depois de uma sessão dura, quantas vezes por semana ele acorda sem dor, e — se ainda não foi feito — o rastreio de risco cardiovascular antes de esforço vigoroso, que é assunto do módulo treze mas que eu não vou deixar passar sem mencionar aqui.
+E o que perguntar nessa faixa: quanto tempo leva para se sentir recuperado depois de uma sessão dura, quantas vezes por semana acorda sem dor, e — se ainda não foi feito — o rastreio de risco cardiovascular antes de esforço vigoroso, que é assunto do módulo treze.
 
 ---
 
@@ -144,17 +124,13 @@ E o que perguntar nessa faixa que muda conduta: quanto tempo leva para se sentir
 
 Agora a segunda metade da aula: como essa reserva se esgota.
 
-E eu quero descrever isso como percurso, porque no consultório você não pega o paciente no fim. Você pega no meio, e quanto mais cedo você reconhecer onde ele está, mais barata é a correção.
+E eu descrevo como percurso porque no consultório você não pega o paciente no fim. Pega no meio — e quanto mais cedo reconhecer onde ele está, mais barata é a correção.
 
-O primeiro estado é o saldo saudável. Ele treina, fica cansado, dorme, repõe, e na semana seguinte está melhor. A fadiga aparece e some dentro da semana. É o que a gente quer.
+O primeiro estado é o saldo saudável: treina, fica cansado, dorme, repõe, e na semana seguinte está melhor. A fadiga aparece e some dentro da semana.
 
-O segundo estado é o acúmulo funcional. Ele treina mais, fica mais cansado, e a fadiga não some inteira antes da próxima sessão. Aqui o desempenho pode até cair um pouco. E isso pode ser normal e até desejável, se for seguido de recuperação — é o que produz a subida depois do recuo, como a gente viu com o Otávio na aula três.
+O segundo é o acúmulo funcional: treina mais, fica mais cansado, e a fadiga não some inteira antes da próxima sessão. O desempenho pode até cair um pouco, e isso é normal e até desejável se vier recuperação depois — é o que produz a subida depois do recuo, como no Otávio da aula três. A queixa típica é "tô treinando bem, mas tô mais cansado que o normal", e a conduta é garantir a recuperação.
 
-A queixa típica aqui é: "tô treinando bem, mas tô mais cansado que o normal." E a conduta é simples: garantir a recuperação que vem depois.
-
-O terceiro estado é onde mora a maior parte dos pacientes que chegam até você. O acúmulo deixou de ser funcional. O recuo não veio, a fadiga foi somando, e agora o desempenho está caindo de forma sustentada. Junto com isso aparecem as primeiras coisas fora do treino: sono piorando, humor pior, libido caindo, ciclo mudando, infecção de repetição.
-
-E repara na ordem, porque é a ordem de prioridade que a gente viu na aula seis. Primeiro saem as funções adiáveis. O desempenho cai junto, e é dele que o paciente reclama.
+O terceiro é onde mora a maior parte dos pacientes que chegam até você. O acúmulo deixou de ser funcional: o recuo não veio, a fadiga foi somando, e o desempenho cai de forma sustentada. Junto aparecem as primeiras coisas fora do treino — sono piorando, humor pior, libido caindo, ciclo mudando, infecção de repetição. E repara na ordem, que é a de prioridade da aula seis: primeiro saem as funções adiáveis, e o desempenho cai junto. É dele que o paciente reclama.
 
 E a razão de esse terceiro estado ser tão mal reconhecido é que o paciente ainda está treinando bem. Não está de cama, não está doente, não falta ao treino — ele consegue fazer as sessões. Só não está progredindo, e está pior em várias outras coisas ao mesmo tempo. E como ele treina, ninguém considera que possa ser carga, porque a nossa imagem de excesso de treino é a de alguém arrasado. Não é assim que se apresenta. Se apresenta como alguém funcional que parou de melhorar.
 
@@ -162,11 +138,7 @@ A queixa típica é "não tô evoluindo e não sei por quê". E a conduta ainda 
 
 E esse percurso não é simétrico. Descer é rápido e subir é lento — três semanas de tudo dando errado levam o paciente do primeiro estado ao terceiro, e tirar ele de lá leva bem mais do que três semanas. Avise antes, porque o paciente espera simetria, e é isso que faz ele abandonar a correção no meio.
 
-O quarto estado é a queda sustentada. O paciente já recuou e não voltou. Semanas de descanso e o desempenho não retornou. Agora tem alteração em vários sistemas ao mesmo tempo e, muitas vezes, alteração laboratorial.
-
-E aqui eu quero ser preciso com você. Esse quarto estado tem nome na literatura — síndrome do overtraining — e é diagnóstico de exclusão, é raro, e exige que você tenha afastado anemia, tireoide, infecção, doença sistêmica, transtorno do humor e baixa disponibilidade energética antes de carimbar.
-
-Raro mesmo. Muito mais raro do que o número de vezes que essa palavra é usada.
+O quarto estado é a queda sustentada: o paciente já recuou e não voltou. Semanas de descanso e o desempenho não retorna, com alteração em vários sistemas ao mesmo tempo e, muitas vezes, alteração laboratorial. Esse quarto estado tem nome na literatura — síndrome do overtraining — e é diagnóstico de exclusão, raro, que exige ter afastado anemia, tireoide, infecção, doença sistêmica, transtorno do humor e baixa disponibilidade energética antes de carimbar. Muito mais raro do que o número de vezes que essa palavra é usada.
 
 E existe um quinto estado que não está nesse desenho e que é o mais silencioso: o paciente que nunca chegou ao primeiro. Começou a treinar já em débito — já dormindo mal, já comendo pouco, já com a vida pesada — e portanto nunca teve linha de base saudável para voltar. Nele você não está corrigindo uma queda, está construindo do zero. O tempo é outro, e a expectativa tem que ser outra desde a primeira consulta.
 

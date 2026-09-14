@@ -2,7 +2,7 @@
 
 **Módulo 1 — Reserva adaptativa: o modelo integrador**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 28 minutos · 6 slides
+Duração: 26 minutos · 6 slides
 
 ---
 
@@ -40,37 +40,23 @@ Vamo entender de onde vem esse descompasso, porque quando você entende, você p
 
 Pensa comigo. Você é pesquisador e precisa de vinte pessoas que façam exatamente o mesmo treino, na mesma hora, comendo parecido, dormindo parecido, disponíveis para coleta de sangue às seis da manhã durante doze semanas. Onde você acha essas vinte pessoas? Num centro de treinamento. Não acha num escritório, nem numa escala de plantão, nem numa mãe de dois filhos que treina quando dá.
 
-Então a elite não foi escolhida porque é mais importante. Foi escolhida porque é coletável. Isso não é má-fé, é conveniência de amostra, e os próprios autores declaram nas limitações. O problema nasce quando aquilo chega em você, na aula, no post, no congresso, já sem a etiqueta de onde veio.
+Então a elite não foi escolhida porque é mais importante. Foi escolhida porque é coletável — e os próprios autores declaram isso nas limitações. O problema nasce quando aquilo chega em você, na aula, no post, no congresso, já sem a etiqueta de onde veio.
 
-E tem um segundo filtro: dentro da própria elite, quem é estudado é homem, jovem, saudável, sem comorbidade e sem medicação — porque comorbidade e medicação são variáveis de confusão. E um terceiro, que é o que mais dói: a maior parte da fisiologia do exercício que a gente aprendeu foi medida entre os dezoito e os trinta anos. E quem está no consultório querendo voltar a correr tem quarenta, cinquenta, sessenta. A faixa que mais procura orientação é a que menos foi estudada.
+E tem um segundo filtro: dentro da própria elite, quem é estudado é homem, jovem, saudável, sem comorbidade e sem medicação. E um terceiro, que é o que mais dói: a maior parte da fisiologia do exercício que a gente aprendeu foi medida entre os dezoito e os trinta anos — e quem está no consultório querendo voltar a correr tem quarenta, cinquenta, sessenta. A faixa que mais procura orientação é a que menos foi estudada.
 
-Junta os três e o retrato que sobra é nítido. Só que não é o retrato de ninguém que você atende.
+Um número resume isso. Em dois mil e vinte e um saiu um trabalho que analisou mais de cinco mil publicações de ciência do esporte, somando mais de doze milhões de participantes. Dessas pessoas todas, trinta e quatro por cento eram mulheres. Trinta e quatro. Quando você lê uma recomendação de treino e ela não diz o sexo da amostra, a chance de ela estar descrevendo o corpo masculino é de dois terços.
 
-Deixa eu te dar um número que eu acho que resume isso. Em dois mil e vinte e um saiu um trabalho que analisou mais de cinco mil publicações de ciência do esporte, entre dois mil e quatorze e dois mil e vinte, somando mais de doze milhões de participantes. Dessas pessoas todas, trinta e quatro por cento eram mulheres. Trinta e quatro.
+E o que fazer com isso leva trinta segundos: antes do resultado, vai na metodologia e procura quantos eram, que sexo, que idade.
 
-Então, colega, quando você lê uma recomendação de treino e ela não diz o sexo da amostra, a chance de ela estar descrevendo o corpo masculino é de dois terços.
+Agora o número que mais muda a cabeça das pessoas. Uma metanálise juntou os estudos que mediram lesão por mil horas de corrida. Corredor iniciante: dezessete vírgula oito. Recreativo, com alguma estrada: sete vírgula sete. E atleta de pista treinando sério: dois vírgula cinco.
 
-E o que fazer com isso leva trinta segundos: antes de ler o resultado do artigo, vai na metodologia e procura quantos eram, que sexo, que idade. Se disser que eram vinte e dois universitários de vinte e um anos, o resultado continua válido — para vinte e dois universitários de vinte e um anos. Isso não é ceticismo, é leitura.
+Para um segundo e pensa nisso comigo. O sujeito que corre menos, que treina menos, que compete menos, se lesiona sete vezes mais por hora de corrida do que o atleta de pista. Se lesão fosse função de carga, esse número estaria invertido.
 
-Agora o número que mais muda a cabeça das pessoas. Uma revisão com metanálise juntou os estudos que mediram lesão por mil horas de corrida. Corredor iniciante: dezessete vírgula oito lesões por mil horas. Corredor recreativo, já com alguma estrada: sete vírgula sete. E atleta de pista, de fundo, treinando sério: dois vírgula cinco.
+Então lesão não é função de carga. É função de carga sobre capacidade de tolerar aquela carga. E é exatamente aí que o contexto entra.
 
-Para um segundo e pensa nisso comigo.
+Pensa em três pessoas recebendo o mesmo treino. O sedentário: qualquer coisa é estímulo, e por isso qualquer coisa também pode ser excesso, porque o tecido dele não tem histórico de exposição — e tendão, osso e cartilagem não leem planilha, leem quantas vezes já foram carregados. O praticante regular, que é o grosso do seu consultório: tolera mais, precisa de mais para progredir, e é o que tem menos margem de recuperação, porque o dia dele está cheio de outras coisas. É o mais difícil dos três e o que menos aparece na literatura. E o atleta, que tolera carga que derrubaria os outros dois porque o dia inteiro dele foi desenhado em volta da recuperação — ele não é mais forte só no músculo, é mais forte no calendário.
 
-O sujeito que corre menos, que treina menos, que compete menos, se lesiona sete vezes mais por hora de corrida do que o atleta de pista. Sete vezes.
-
-Se lesão fosse função de carga, esse número estaria invertido. Quem treina mais deveria se machucar mais. Está o contrário.
-
-Então lesão não é função de carga. Lesão é função de carga sobre capacidade de tolerar aquela carga. E é exatamente aí que o contexto entra.
-
-E pensa em três pessoas recebendo o mesmo treino.
-
-O sedentário que vai começar. Para ele, qualquer coisa é estímulo — e por isso qualquer coisa também pode ser excesso, porque o tecido dele não tem histórico de exposição. Tendão, osso e cartilagem não leem planilha. Eles leem quantas vezes já foram carregados.
-
-O praticante regular, que é o grosso do seu consultório. Esse já tem tecido adaptado e tolera mais, e justamente por isso precisa de mais para progredir. Só que é o que tem menos margem de recuperação, porque o dia dele está cheio de outras coisas. É o mais difícil dos três, e o que menos aparece na literatura.
-
-E o atleta. Esse tolera carga que derrubaria os outros dois, porque construiu isso ao longo de anos e porque o dia inteiro dele foi desenhado em volta da recuperação. Ele não é mais forte só no músculo. É mais forte no calendário.
-
-O mesmo treino é subdose no terceiro e overdose no primeiro. E o número que você leu no artigo veio, quase sempre, do terceiro. Não porque iniciante seja frágil — mas porque a mesma hora de corrida é um evento fisiológico diferente em cada um desses corpos, e nada disso aparece no relógio.
+O mesmo treino é subdose no terceiro e overdose no primeiro. E o número que você leu no artigo veio, quase sempre, do terceiro.
 
 ---
 
@@ -152,17 +138,17 @@ O organismo tem um orçamento finito de adaptação. Uma conta. E o treino é s�
 
 Todos do mesmo caixa.
 
-E isso não é invenção minha, não. Em mil novecentos e noventa e oito o Bruce McEwen publicou no New England uma coisa que eu acho que a gente da área do esporte demorou demais para incorporar: os mediadores do estresse, glicocorticoide e catecolamina, são protetores no curto prazo e custosos no longo prazo. Ele chamou esse custo acumulado de carga alostática. E o que isso quer dizer para nós é simples e é duro. O corpo paga por se adaptar. Adaptação tem preço, e o preço é cobrado do mesmo lugar, venha o estresse de onde vier.
+E isso não é invenção minha. Em mil novecentos e noventa e oito o Bruce McEwen publicou no New England que os mediadores do estresse, glicocorticoide e catecolamina, são protetores no curto prazo e custosos no longo — e chamou esse custo acumulado de carga alostática. O que isso quer dizer para nós é simples e é duro: o corpo paga por se adaptar, e o preço é cobrado do mesmo lugar, venha o estresse de onde vier.
 
 E tem uma coisa aqui que é fina e que muda conduta. A adaptação é específica, mas o custo é geral. Quer dizer: se você quer que o tendão do seu paciente tolere carga, o tendão precisa receber carga — não existe resistência genérica que transborda de um sistema para outro. Mas o preço de tudo, de todos os sistemas, sai da mesma conta. O benefício é específico. O preço é compartilhado.
 
 E o substrato físico disso, que vai render uma aula inteira daqui a pouco, é a capacidade oxidativa da mitocôndria. A moeda com que essa conta é paga.
 
-E junta os três dados que eu te dei separados. Aquele trinta e quatro por cento não é um dado sobre mulheres — é o tamanho do buraco entre a amostra e o paciente. O dezessete vírgula oito não é um dado sobre corrida — é a prova de que capacidade de tolerar pesa mais do que carga aplicada. E a carga alostática não é conceito de psiquiatria — é o preço contábil disso tudo, num caixa só. Três literaturas diferentes, nenhuma escrita pensando no seu paciente, chegando no mesmo lugar.
+E junta os três dados. Aquele trinta e quatro por cento é o tamanho do buraco entre a amostra e o paciente. O dezessete vírgula oito é a prova de que capacidade de tolerar pesa mais do que carga aplicada. E a carga alostática é o preço contábil disso tudo, num caixa só. Três literaturas diferentes, nenhuma escrita pensando no seu paciente, chegando no mesmo lugar.
 
-E eu preciso dizer com honestidade que a literatura não fechou uma parte importante disso: quanto vale cada débito. Quanto pesa uma noite de cinco horas comparada com uma semana de déficit energético, ou com três meses de estresse no trabalho? Não existe fórmula, e quem te vender esse número está vendendo. O que existe é a lógica da conta, que é sólida, e a leitura clínica de cada paciente, que é sua. Não é cálculo. É leitura — e leitura melhora com anamnese boa e reavaliação, não com equação.
+E eu preciso dizer com honestidade o que a literatura não fechou: quanto vale cada débito. Quanto pesa uma noite de cinco horas comparada com uma semana de déficit energético? Não existe fórmula, e quem te vender esse número está vendendo. O que existe é a lógica da conta, que é sólida, e a leitura clínica, que é sua. Não é cálculo, é leitura.
 
-E aí a consequência prática: a mesma sessão de treino é segura em um corpo e lesiva em outro, e a diferença não está na sessão. Quantas vezes você já viu dois pacientes no mesmo programa, um responde e o outro não? A gente atribui a genética, a disciplina, a sorte. Às vezes é. Mas na maioria das vezes que eu vi no consultório, a diferença estava na conta — e a conta estava numa anamnese que ninguém fez.
+E a consequência prática: a mesma sessão é segura em um corpo e lesiva em outro, e a diferença não está na sessão. Quantas vezes você já viu dois pacientes no mesmo programa, um responde e o outro não? A gente atribui a genética, a disciplina, a sorte. Às vezes é. Mas na maioria das vezes que eu vi no consultório, a diferença estava na conta — e a conta estava numa anamnese que ninguém fez.
 
 ---
 
@@ -184,13 +170,13 @@ E a quinta, que é a que mais entrega: nos últimos doze meses, quantas vezes fi
 
 E um degrau adiante, também de graça: o registro do Sérgio. Hora de deitar, nota de zero a dez ao acordar, percepção de esforço no fim do treino. Em três ou quatro semanas o padrão aparece sozinho no papel — e aparece para ele também, o que resolve metade do problema de adesão. Ninguém discute com o próprio caderno.
 
-Cinco perguntas. Três minutos. E elas mudam conduta com mais frequência do que qualquer painel caro que você possa pedir.
+Cinco perguntas, três minutos. E elas mudam conduta com mais frequência do que qualquer painel caro que você possa pedir.
 
-Agora, colega fisioterapeuta, da educação física, nutricionista — parte do que vem depois dessas perguntas é investigação laboratorial, e isso tem escopo. O que muda com vocês não é pedir exame. É reconhecer o padrão e encaminhar com informação. Um encaminhamento que diz "queda de rendimento, cinco horas de sono há dois anos, três infecções no semestre, favor avaliar" vale dez vezes mais do que "favor avaliar fadiga".
+Agora, colega fisioterapeuta, da educação física, nutricionista: parte do que vem depois dessas perguntas é investigação laboratorial, e isso tem escopo. O que muda com vocês não é pedir exame — é reconhecer o padrão e encaminhar com informação. Um encaminhamento que diz "queda de rendimento, cinco horas de sono há dois anos, três infecções no semestre, favor avaliar" vale dez vezes mais do que "favor avaliar fadiga".
 
-E quando isso não serve: se o paciente chega com dor aguda, trauma recente ou sinal de alarme, você não faz conta de reserva. Você investiga a dor. Isso aqui é lente para estagnação, fadiga que não passa, lesão que volta, resultado que sumiu. Não é lente para emergência.
+E quando isso não serve: se o paciente chega com dor aguda, trauma recente ou sinal de alarme, você não faz conta de reserva, investiga a dor. Isso aqui é lente para estagnação, fadiga que não passa, lesão que volta. Não é lente para emergência.
 
-E tem um custo que eu não vou esconder. Essa anamnese toma tempo e te obriga a conversar sobre o que o paciente não veio conversar — sono, trabalho, casamento, culpa com o filho. Tem paciente que acha que você está fugindo do assunto, e você vai ter que explicar por que está perguntando.
+E tem um custo que eu não vou esconder: essa anamnese toma tempo e te obriga a conversar sobre o que o paciente não veio conversar — sono, trabalho, casamento, culpa com o filho. Você vai ter que explicar por que está perguntando.
 
 Na próxima aula a gente vai no lugar de onde essa ideia supostamente veio. Você vai ouvir a vida inteira que periodização se apoia na síndrome geral de adaptação, do Hans Selye. Eu quero te mostrar o que o Selye realmente fez, em quem fez, e o que foi costurado no nome dele depois sem ele ter dito. Não é curiosidade histórica: muda o que você faz com o paciente que estagnou, e muda o que você responde quando ele chegar dizendo que está com a adrenal esgotada.
 
