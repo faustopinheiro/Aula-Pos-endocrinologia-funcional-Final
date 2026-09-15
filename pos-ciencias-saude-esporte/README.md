@@ -63,8 +63,20 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A07 — GH e IGF-1](aulas/M2/M2-A07-gh-igf1.md) | 2.858 | 24 min |
 | [A08 — Sinalização periférica e eixo intestino-cérebro](aulas/M2/M2-A08-sinalizacao-periferica.md) | 2.735 | 23 min |
 
+### Módulo 3 — Evidência, ética e os limites da extrapolação
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Saúde segundo a OMS, aplicada ao esporte recreativo](aulas/M3/M3-A01-saude-oms.md) | 2.769 | 23 min |
+| [A02 — Hierarquia de evidência e leitura crítica](aulas/M3/M3-A02-hierarquia-evidencia.md) | 2.709 | 23 min |
+| [A03 — Quem é o sujeito dos estudos](aulas/M3/M3-A03-sub-representacao.md) | 2.785 | 24 min |
+| [A04 — Validade externa: o erro de extrapolar](aulas/M3/M3-A04-validade-externa.md) | 2.544 | 22 min |
+| [A05 — Linguagem condicional: associação não é causa](aulas/M3/M3-A05-associacao-nao-e-causa.md) | 2.716 | 23 min |
+| [A06 — Escopo profissional e limites éticos no time](aulas/M3/M3-A06-escopo-profissional.md) | 2.667 | 23 min |
+| [A07 — Conflito de interesse e comunicação de incerteza](aulas/M3/M3-A07-conflito-de-interesse.md) | 2.693 | 23 min |
+
 ## Estado
 
-Matriz e ementário fechados. **Módulos 1 e 2 completos** — 17 de 173 roteiros,
-50.512 palavras.
-Próximo: Módulo 3 — evidência, ética e os limites da extrapolação (7 aulas).
+Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3, que são
+24 dos 173 roteiros e 69.395 palavras.
+Próximo: Eixo 1 — avaliação do atleta real.
