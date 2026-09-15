@@ -75,8 +75,23 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A06 — Escopo profissional e limites éticos no time](aulas/M3/M3-A06-escopo-profissional.md) | 2.667 | 23 min |
 | [A07 — Conflito de interesse e comunicação de incerteza](aulas/M3/M3-A07-conflito-de-interesse.md) | 2.693 | 23 min |
 
+### Módulo 4 — Anamnese de carga total
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — O que a anamnese esportiva tradicional não pergunta](aulas/M4/M4-A01-o-que-nao-se-pergunta.md) | 2.747 | 23 min |
+| [A02 — Sono: as cinco perguntas que mudam a conduta](aulas/M4/M4-A02-sono-cinco-perguntas.md) | 2.770 | 23 min |
+| [A03 — Trabalho. turno. deslocamento e carga mental](aulas/M4/M4-A03-trabalho-turno-carga-mental.md) | 2.723 | 23 min |
+| [A04 — História alimentar e restrição prévia](aulas/M4/M4-A04-historia-alimentar.md) | 2.718 | 23 min |
+| [A05 — História de lesão e de infecção recorrente](aulas/M4/M4-A05-lesao-e-infeccao.md) | 2.782 | 24 min |
+| [A06 — Substâncias. suplementos e automedicação](aulas/M4/M4-A06-substancias-suplementos.md) | 2.753 | 23 min |
+| [A07 — Instrumentos validados aplicáveis no consultório](aulas/M4/M4-A07-instrumentos-validados.md) | 2.674 | 23 min |
+| [A08 — Da entrevista ao orçamento: montando e reavaliando a conta](aulas/M4/M4-A08-da-entrevista-ao-orcamento.md) | 2.593 | 22 min |
+
 ## Estado
 
-Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3, que são
-24 dos 173 roteiros e 69.395 palavras.
-Próximo: Eixo 1 — avaliação do atleta real.
+Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1. 2 e 3.
+**Módulo 4 completo**. primeiro do Eixo 1.
+
+32 dos 173 roteiros prontos. 91.155 palavras.
+Próximo: M5 — Laboratório em quem treina.
