@@ -94,7 +94,7 @@ terceiro programa.
    paga da instituição.
 4. **Material 100% pronto e gravado.** Risco operacional baixo para a
    instituição; ela entra com credenciamento, plataforma e certificação.
-5. **Compliance curricular.** 460h sobre piso de 360h, escopo profissional
+5. **Compliance curricular.** 360h, exatamente o piso da Resolução CNE/CES nº 1/2018, escopo profissional
    explicitado por módulo, referências verificadas.
 
 ### O papel do conteúdo (fase atual: autoridade, sem link de venda)

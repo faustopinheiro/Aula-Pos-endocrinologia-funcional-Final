@@ -13,7 +13,7 @@ Funcional Esportiva e da Pós de Medicina do Futebol.
 | | |
 |---|---|
 | Modalidade | Lato sensu, EAD assíncrono + encontros síncronos quinzenais |
-| Carga horária | 460h (440h disciplinas + 20h TCC) |
+| Carga horária | 360h (335h disciplinas + 25h TCC) |
 | Duração | 12 a 18 meses |
 | Público | Multiprofissional — medicina, fisioterapia, nutrição, educação física, psicologia, enfermagem, biomedicina |
 | Eixos | 6 |
@@ -113,5 +113,6 @@ Próximo: M6 — Avaliação funcional e monitoramento acessível.
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
 esportiva** — e a faixa de duração da aula caiu para **18 a 22 minutos** de M6
-em diante. O programa passou a 24 módulos, 190 aulas e 460h, com **menos** volume
-de vídeo que a versão anterior: a aula encurtou mais do que a grade cresceu.
+em diante. O programa passou a 24 módulos e 190 aulas, com **menos** volume de vídeo que a
+versão anterior — a aula encurtou mais do que a grade cresceu. A carga horária
+nominal foi fixada em **360h**, com módulos de 15h.

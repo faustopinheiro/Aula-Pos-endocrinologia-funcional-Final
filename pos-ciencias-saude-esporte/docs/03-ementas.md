@@ -27,7 +27,7 @@ material com o seu nome.
 # EIXO 0 — A LENTE
 
 ## M1 — Reserva adaptativa: o modelo integrador
-**20h · 9 aulas · Eixo 0**
+**15h · 9 aulas · Eixo 0**
 
 **Ementa.** O orçamento finito de adaptação do organismo. Síndrome geral de
 adaptação revisitada e suas críticas contemporâneas. Modelo fitness-fatigue.
@@ -63,7 +63,7 @@ de anamnese.
 ---
 
 ## M2 — Eixos de regulação no contexto do treino
-**20h · 8 aulas · Eixo 0**
+**15h · 8 aulas · Eixo 0**
 
 **Ementa.** Eixo hipotálamo-hipófise-adrenal e a resposta ao exercício agudo e
 crônico. Eixo gonadal masculino e feminino e a supressão por déficit
@@ -93,7 +93,7 @@ tecidual; e diferenciar adaptação fisiológica de disfunção.
 ---
 
 ## M3 — Evidência, ética e os limites da extrapolação
-**20h · 7 aulas · Eixo 0**
+**15h · 7 aulas · Eixo 0**
 
 **Ementa.** Definição de saúde da OMS aplicada ao esporte recreativo.
 Hierarquia de evidência e leitura crítica. Sub-representação de mulheres,
@@ -124,7 +124,7 @@ os limites do próprio escopo profissional.
 # EIXO 1 — AVALIAÇÃO DO ATLETA REAL
 
 ## M4 — Anamnese de carga total
-**20h · 8 aulas · Eixo 1**
+**15h · 8 aulas · Eixo 1**
 
 **Ementa.** Construção da entrevista que captura o que a anamnese esportiva
 tradicional não pergunta: sono, turno e deslocamento, carga mental, cuidado de
@@ -153,7 +153,7 @@ estabelecer critérios de reavaliação.
 ---
 
 ## M5 — Laboratório em quem treina
-**20h · 9 aulas · Eixo 1**
+**15h · 9 aulas · Eixo 1**
 
 **Ementa.** O que o exercício altera em exame de rotina e como não confundir
 adaptação com doença. Enzimas musculares, hemograma do atleta e pseudoanemia
@@ -184,7 +184,7 @@ incidental.
 ---
 
 ## M6 — Avaliação funcional e monitoramento acessível
-**20h · 8 aulas · Eixo 1**
+**15h · 8 aulas · Eixo 1**
 
 **Ementa.** O que se mede sem laboratório de fisiologia. Percepção subjetiva de
 esforço e carga sessão-PSE. Variabilidade da frequência cardíaca: evidência e
@@ -213,10 +213,10 @@ corporal sem produzir dano.
 
 ---
 
-# EIXO 2 — TREINO, CARGA E RECUPERAÇÃO
+# EIXO 2 — TREINO, CARGA, RECUPERAÇÃO E SAÚDE MENTAL
 
 ## M7 — Fisiologia do exercício aplicada
-**20h · 8 aulas · Eixo 2**
+**15h · 8 aulas · Eixo 2**
 
 **Ementa.** Bioenergética e contribuição relativa dos sistemas por duração e
 intensidade. Limiares ventilatório e de lactato. Consumo máximo de oxigênio e
@@ -244,7 +244,7 @@ intensidade pela adaptação pretendida; e antecipar o efeito interferência.
 ---
 
 ## M8 — Prescrição e periodização para quem tem vida
-**20h · 8 aulas · Eixo 2**
+**15h · 8 aulas · Eixo 2**
 
 **Ementa.** Periodização em contexto de 3 a 5 sessões semanais. Modelos
 polarizado, piramidal e limiar quando o volume total é baixo. Força para
@@ -274,7 +274,7 @@ com quem não pode reduzir a carga de trabalho.
 ---
 
 ## M9 — Carga, overreaching e overtraining
-**20h · 9 aulas · Eixo 2**
+**15h · 9 aulas · Eixo 2**
 
 **Ementa.** Overreaching funcional, não funcional e síndrome do overtraining:
 definição, espectro e critérios. Monitoramento de carga aguda e crônica,
@@ -306,7 +306,7 @@ desempenho; e estabelecer tempo de recuperação realista.
 ---
 
 ## M10 — Sono e recuperação como intervenção clínica
-**20h · 8 aulas · Eixo 2**
+**15h · 8 aulas · Eixo 2**
 
 **Ementa.** Arquitetura do sono e função de cada estágio na recuperação
 muscular, neural e imune. Privação de sono e risco de lesão, sensibilidade à
@@ -336,7 +336,7 @@ adaptação pretendida.
 ---
 
 ## M11 — Saúde mental e psicologia aplicada ao esporte
-**20h · 8 aulas · Eixo 2**
+**15h · 8 aulas · Eixo 2**
 
 **Ementa.** Saúde mental no praticante de esporte: prevalência real, o mito do
 atleta blindado e as barreiras à procura de ajuda. Rastreio aplicável no
@@ -370,7 +370,7 @@ o que não é do seu escopo.
 # EIXO 3 — CICLOS DE VIDA E POPULAÇÕES
 
 ## M12 — Atleta de base: criança e adolescente em maturação
-**20h · 9 aulas · Eixo 3**
+**15h · 9 aulas · Eixo 3**
 
 **Ementa.** Maturação biológica versus idade cronológica; pico de velocidade de
 crescimento e sua estimativa prática. Efeito da idade relativa na seleção
@@ -402,7 +402,7 @@ conduzir a conversa com família e treinador.
 ---
 
 ## M13 — A mulher atleta
-**20h · 9 aulas · Eixo 3**
+**15h · 9 aulas · Eixo 3**
 
 **Ementa.** Ciclo menstrual e suas fases: efeitos sobre metabolismo,
 termorregulação, tecido conjuntivo e recuperação, separando evidência de mito.
@@ -434,7 +434,7 @@ menopausal na praticante.
 ---
 
 ## M14 — Atleta master: 40+
-**20h · 9 aulas · Eixo 3**
+**15h · 9 aulas · Eixo 3**
 
 **Ementa.** Sarcopenia e resistência anabólica. Declínio da função
 mitocondrial com a idade e sua relação com capacidade de recuperação.
@@ -465,7 +465,7 @@ honestidade sobre evidência e limites.
 ---
 
 ## M15 — O crônico que treina
-**20h · 9 aulas · Eixo 3**
+**15h · 9 aulas · Eixo 3**
 
 **Ementa.** Exercício como prescrição terapêutica. Diabetes tipo 1 e tipo 2:
 ajuste de insulina e antidiabéticos, hipoglicemia no exercício, monitoramento
@@ -498,7 +498,7 @@ encaminhamento.
 # EIXO 4 — LESÃO, DOR E RETORNO
 
 ## M16 — Epidemiologia e prevenção de lesão no amador
-**20h · 7 aulas · Eixo 4**
+**15h · 7 aulas · Eixo 4**
 
 **Ementa.** Definição e mensuração de lesão em população recreativa. Incidência
 por modalidade no praticante amador. Por que o amador se lesiona diferente do
@@ -526,7 +526,7 @@ prevenção com adesão realista.
 ---
 
 ## M17 — As lesões que realmente chegam ao consultório
-**20h · 9 aulas · Eixo 4**
+**15h · 9 aulas · Eixo 4**
 
 **Ementa.** As condições de maior prevalência no praticante recreativo:
 tendinopatias de Aquiles, patelar, glútea e de manguito; síndrome de estresse
@@ -557,7 +557,7 @@ tratamento; e reconhecer dor persistente que não responde ao modelo tecidual.
 ---
 
 ## M18 — Retorno ao esporte sem time por trás
-**20h · 8 aulas · Eixo 4**
+**15h · 8 aulas · Eixo 4**
 
 **Ementa.** Critérios de retorno ao esporte sem fisioterapia diária nem teste
 isocinético. Progressão de carga por tolerância e por critério, não por
@@ -589,7 +589,7 @@ comunicação honesta de risco residual.
 # EIXO 5 — NUTRIÇÃO, SUPLEMENTAÇÃO E O FILTRO
 
 ## M19 — Nutrição esportiva aplicada à vida real
-**20h · 8 aulas · Eixo 5**
+**15h · 8 aulas · Eixo 5**
 
 **Ementa.** Disponibilidade energética: cálculo, interpretação e identificação
 do déficit. Carboidrato por demanda real de treino. Proteína: necessidade,
@@ -619,7 +619,7 @@ comprometer a reserva adaptativa.
 ---
 
 ## M20 — Suplementação esportiva: o que tem evidência
-**20h · 9 aulas · Eixo 5**
+**15h · 9 aulas · Eixo 5**
 
 **Ementa.** Leitura crítica de evidência em suplementação e os vieses típicos do
 campo. Os ergogênicos com base consistente — cafeína, creatina, beta-alanina,
@@ -653,7 +653,7 @@ escopo de cada profissão.
 ---
 
 ## M21 — O filtro: suplementos, nutracêuticos e a indústria
-**20h · 9 aulas · Eixo 5**
+**15h · 9 aulas · Eixo 5**
 
 **Ementa.** Suplementos com evidência consistente — creatina, cafeína,
 beta-alanina, nitrato, bicarbonato — com dose, resposta esperada e população em
@@ -743,7 +743,7 @@ queixa local tem origem sistêmica.
 ---
 
 ## M24 — TCC: plano de cuidado de um atleta real
-**20h · 4 aulas de orientação + orientação individual · Eixo 6**
+**25h · 4 aulas de orientação + orientação individual · Eixo 6**
 
 **Ementa.** Orientação para elaboração do plano de cuidado: seleção do caso,
 anamnese de carga total documentada, interpretação de exames, hipótese

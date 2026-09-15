@@ -1,8 +1,9 @@
 # Matriz Curricular
 
-**Carga horária total: 460h** — 440h de disciplinas + 20h de orientação de TCC.
-Acima do mínimo de 360h da Resolução CNE/CES nº 1/2018, com folga deliberada
-para suportar corte institucional sem cair abaixo do piso legal.
+**Carga horária total: 360h** — 335h de disciplinas + 25h de orientação de TCC.
+É exatamente o mínimo da Resolução CNE/CES nº 1/2018 para pós-graduação lato
+sensu, e é o formato mais comum do mercado. Não há folga sobre o piso: qualquer
+corte na aprovação precisa ser compensado, não simplesmente aceito.
 
 **Modalidade:** EAD assíncrono (videoaulas + material) com encontros
 síncronos quinzenais de discussão de caso.
@@ -14,83 +15,83 @@ síncronos quinzenais de discussão de caso.
 
 | Eixo | Nome | Módulos | Carga |
 |---|---|---|---|
-| 0 | A Lente — fundamentos integradores | M1–M3 | 60h |
-| 1 | Avaliação do atleta real | M4–M6 | 60h |
-| 2 | Treino, carga, recuperação e saúde mental | M7–M11 | 100h |
-| 3 | Ciclos de vida e populações | M12–M15 | 80h |
-| 4 | Lesão, dor e retorno ao esporte | M16–M18 | 60h |
-| 5 | Nutrição, suplementação e o filtro | M19–M21 | 60h |
-| 6 | Prática integradora e TCC | M22–M24 | 40h |
-| | **Total** | **24 módulos · 190 aulas** | **460h** |
+| 0 | A Lente — fundamentos integradores | M1–M3 | 45h |
+| 1 | Avaliação do atleta real | M4–M6 | 45h |
+| 2 | Treino, carga, recuperação e saúde mental | M7–M11 | 75h |
+| 3 | Ciclos de vida e populações | M12–M15 | 60h |
+| 4 | Lesão, dor e retorno ao esporte | M16–M18 | 45h |
+| 5 | Nutrição, suplementação e o filtro | M19–M21 | 45h |
+| 6 | Prática integradora e TCC | M22–M24 | 45h |
+| | **Total** | **24 módulos · 190 aulas** | **360h** |
 
 ---
 
-## EIXO 0 — A LENTE (60h)
+## EIXO 0 — A LENTE (45h)
 
 O eixo que impede o curso de virar commodity. Vem primeiro e é citado em
 todos os outros.
 
 | # | Módulo | Carga |
 |---|---|---|
-| M1 | Reserva adaptativa: o modelo integrador | 20h |
-| M2 | Eixos de regulação no contexto do treino (HPA, HPG, HPT) | 20h |
-| M3 | Evidência, ética e os limites da extrapolação | 20h |
+| M1 | Reserva adaptativa: o modelo integrador | 15h |
+| M2 | Eixos de regulação no contexto do treino (HPA, HPG, HPT) | 15h |
+| M3 | Evidência, ética e os limites da extrapolação | 15h |
 
-## EIXO 1 — AVALIAÇÃO DO ATLETA REAL (60h)
-
-| # | Módulo | Carga |
-|---|---|---|
-| M4 | Anamnese de carga total | 20h |
-| M5 | Laboratório em quem treina | 20h |
-| M6 | Avaliação funcional e monitoramento acessível | 20h |
-
-## EIXO 2 — TREINO, CARGA, RECUPERAÇÃO E SAÚDE MENTAL (100h)
+## EIXO 1 — AVALIAÇÃO DO ATLETA REAL (45h)
 
 | # | Módulo | Carga |
 |---|---|---|
-| M7 | Fisiologia do exercício aplicada | 20h |
-| M8 | Prescrição e periodização para quem tem vida | 20h |
-| M9 | Carga, overreaching e overtraining | 20h |
-| M10 | Sono e recuperação como intervenção clínica | 20h |
-| M11 | Saúde mental e psicologia aplicada ao esporte | 20h |
+| M4 | Anamnese de carga total | 15h |
+| M5 | Laboratório em quem treina | 15h |
+| M6 | Avaliação funcional e monitoramento acessível | 15h |
 
-## EIXO 3 — CICLOS DE VIDA E POPULAÇÕES (80h)
+## EIXO 2 — TREINO, CARGA, RECUPERAÇÃO E SAÚDE MENTAL (75h)
+
+| # | Módulo | Carga |
+|---|---|---|
+| M7 | Fisiologia do exercício aplicada | 15h |
+| M8 | Prescrição e periodização para quem tem vida | 15h |
+| M9 | Carga, overreaching e overtraining | 15h |
+| M10 | Sono e recuperação como intervenção clínica | 15h |
+| M11 | Saúde mental e psicologia aplicada ao esporte | 15h |
+
+## EIXO 3 — CICLOS DE VIDA E POPULAÇÕES (60h)
 
 O eixo mais defensável comercialmente: é onde nenhuma pós concorrente entra
 com profundidade.
 
 | # | Módulo | Carga |
 |---|---|---|
-| M12 | Atleta de base: criança e adolescente em maturação | 20h |
-| M13 | A mulher atleta | 20h |
-| M14 | Atleta master: 40+ | 20h |
-| M15 | O crônico que treina | 20h |
+| M12 | Atleta de base: criança e adolescente em maturação | 15h |
+| M13 | A mulher atleta | 15h |
+| M14 | Atleta master: 40+ | 15h |
+| M15 | O crônico que treina | 15h |
 
-## EIXO 4 — LESÃO, DOR E RETORNO (60h)
+## EIXO 4 — LESÃO, DOR E RETORNO (45h)
 
 A porta de entrada da marca, virada currículo.
 
 | # | Módulo | Carga |
 |---|---|---|
-| M16 | Epidemiologia e prevenção de lesão no amador | 20h |
-| M17 | As lesões que realmente chegam ao consultório | 20h |
-| M18 | Retorno ao esporte sem time por trás | 20h |
+| M16 | Epidemiologia e prevenção de lesão no amador | 15h |
+| M17 | As lesões que realmente chegam ao consultório | 15h |
+| M18 | Retorno ao esporte sem time por trás | 15h |
 
-## EIXO 5 — NUTRIÇÃO, SUPLEMENTAÇÃO E O FILTRO (60h)
+## EIXO 5 — NUTRIÇÃO, SUPLEMENTAÇÃO E O FILTRO (45h)
 
 | # | Módulo | Carga |
 |---|---|---|
-| M19 | Nutrição esportiva aplicada à vida real | 20h |
-| M20 | Suplementação esportiva: o que tem evidência | 20h |
-| M21 | O filtro: suplementos, nutracêuticos e a indústria | 20h |
+| M19 | Nutrição esportiva aplicada à vida real | 15h |
+| M20 | Suplementação esportiva: o que tem evidência | 15h |
+| M21 | O filtro: suplementos, nutracêuticos e a indústria | 15h |
 
-## EIXO 6 — PRÁTICA INTEGRADORA E TCC (40h)
+## EIXO 6 — PRÁTICA INTEGRADORA E TCC (45h)
 
 | # | Módulo | Carga |
 |---|---|---|
 | M22 | Time multiprofissional, escopo e comunicação clínica | 10h |
 | M23 | Raciocínio clínico integrado | 10h |
-| M24 | TCC — plano de cuidado de um atleta real | 20h |
+| M24 | TCC — plano de cuidado de um atleta real | 25h |
 
 ---
 
@@ -136,16 +137,19 @@ minutos vale de M6 em diante; M1 a M5 ficaram entre 20 e 24 e permanecem assim.
 M23.2, M23.3), todas de diagnóstico diferencial ou decisão de risco: conteúdos
 que perdem sentido se fatiados.
 
-## Estrutura de cada módulo de 20h
+## Estrutura de cada módulo de 15h
 
 | Componente | Duração |
 |---|---|
-| 7 a 9 videoaulas de 18–22 min | ~3h |
-| Material de leitura (PDF, 15–25 páginas) | ~4h |
-| Artigos comentados (2 a 3 por módulo) | ~3h |
-| Atividade aplicada guiada | ~2h30 |
-| Encontro síncrono / gravação de discussão | ~2h |
-| Estudo autônomo e avaliação | ~4h |
+| 7 a 9 videoaulas de 18–22 min | ~2h40 |
+| Material de leitura (PDF, 15–25 páginas) | ~3h |
+| Artigos comentados (2 a 3 por módulo) | ~2h30 |
+| Atividade aplicada guiada | ~2h |
+| Encontro síncrono / gravação de discussão | ~1h30 |
+| Estudo autônomo e avaliação | ~3h20 |
+
+Vinte e um módulos de conteúdo a 15h dão 315h. Somados aos dois módulos
+práticos de 10h e às 25h de orientação e TCC, fecham exatamente 360h.
 
 **Total do programa: 190 videoaulas, ~65h de vídeo.** É o número que dimensiona
 todo o cronograma de produção. São dezessete aulas a mais que a versão anterior
