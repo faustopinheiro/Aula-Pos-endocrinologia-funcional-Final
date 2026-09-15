@@ -5,7 +5,7 @@
 | Item | Quantidade |
 |---|---|
 | Módulos | 22 (7 a 9 aulas cada) |
-| Videoaulas | 173 (20–30 min; 4 exceções de 50 min) |
+| Videoaulas | 190 (18–22 min; 4 exceções de 50 min) |
 | Horas de vídeo | ~85h |
 | Roteiro de teleprompter | ~2.900–3.500 palavras por aula |
 | Palavras totais estimadas | ~695.000 |
@@ -21,7 +21,8 @@ Não se faz em sequência linear sem um plano de fases.
 **Histórico de estimativa.** A primeira versão falava em ~150 aulas. A regra
 de 20 a 30 minutos elevou para 209. A calibragem equilibrada — 7 a 9 aulas por
 módulo, com o conteúdo excedente migrando para apostila e atividade aplicada —
-trouxe para **173 aulas e ~85h de vídeo**, sem cortar uma linha de ementa.
+trouxe para **190 aulas e ~65h de vídeo**, sem cortar uma linha de ementa —
+dois módulos a mais e vinte horas de vídeo a menos, porque a aula encurtou.
 
 O roteiro subiu de 650 mil para 695 mil palavras porque a estimativa anterior
 aplicava o ritmo de fala de forma inconsistente. O cálculo correto é
@@ -93,7 +94,7 @@ terceiro programa.
    paga da instituição.
 4. **Material 100% pronto e gravado.** Risco operacional baixo para a
    instituição; ela entra com credenciamento, plataforma e certificação.
-5. **Compliance curricular.** 420h sobre piso de 360h, escopo profissional
+5. **Compliance curricular.** 460h sobre piso de 360h, escopo profissional
    explicitado por módulo, referências verificadas.
 
 ### O papel do conteúdo (fase atual: autoridade, sem link de venda)

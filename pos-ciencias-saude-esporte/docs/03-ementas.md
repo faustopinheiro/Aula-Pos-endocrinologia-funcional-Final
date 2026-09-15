@@ -1,4 +1,4 @@
-# Ementas Institucionais — 22 Módulos
+# Ementas Institucionais — 24 Módulos
 
 Formato de colegiado: **ementa**, **objetivos de aprendizagem** e **conteúdo
 programático aula a aula com duração**.
@@ -7,7 +7,7 @@ programático aula a aula com duração**.
 
 | Regra | Valor |
 |---|---|
-| Duração padrão da aula | 20 a 30 minutos |
+| Duração padrão da aula | 18 a 22 minutos (M1–M5: 20 a 24) |
 | Aula complexa (exceção, marcada com ⧗) | até 1h20 |
 | Aulas por módulo | 7 a 9 (teto absoluto: 12) |
 | Caso clínico | apenas quando ensina o que exposição não ensina |
@@ -335,9 +335,41 @@ adaptação pretendida.
 
 ---
 
+## M11 — Saúde mental e psicologia aplicada ao esporte
+**20h · 8 aulas · Eixo 2**
+
+**Ementa.** Saúde mental no praticante de esporte: prevalência real, o mito do
+atleta blindado e as barreiras à procura de ajuda. Rastreio aplicável no
+consultório e seus limites. Ansiedade e depressão em quem treina, incluindo as
+apresentações que não parecem. Burnout esportivo, abandono e diagnóstico
+diferencial com overtraining. Transtornos alimentares e dismorfia muscular.
+Dependência de exercício. Motivação, aderência e entrevista motivacional.
+Reconhecimento de crise, encaminhamento e escopo profissional.
+
+**Objetivos.** Rastrear sofrimento mental em quem treina com instrumento
+adequado; distinguir burnout esportivo de síndrome de overtraining; reconhecer
+transtorno alimentar, dismorfia muscular e dependência de exercício; conduzir a
+conversa que sustenta aderência; e encaminhar com segurança, sabendo o que é e
+o que não é do seu escopo.
+
+| # | Aula | Duração |
+|---|---|---|
+| 1 | Saúde mental em quem treina: prevalência real e o mito do atleta blindado | 25 min |
+| 2 | Rastreio no consultório: instrumentos, pontos de corte e limites | 25 min |
+| 3 | Ansiedade e depressão no atleta que não parece deprimido | 25 min |
+| 4 | Burnout esportivo e abandono: o diferencial com overtraining | 25 min |
+| 5 | Transtornos alimentares e dismorfia muscular | 25 min |
+| 6 | Dependência de exercício: a linha entre disciplina e compulsão | 20 min |
+| 7 | Motivação e aderência: a conversa que faz a pessoa voltar | 25 min |
+| 8 | Crise, encaminhamento e escopo: o que fazer quando não é seu | 25 min |
+
+**A LIGAÇÃO:** carga mental ↔ reserva adaptativa e permanência no esporte.
+
+---
+
 # EIXO 3 — CICLOS DE VIDA E POPULAÇÕES
 
-## M11 — Atleta de base: criança e adolescente em maturação
+## M12 — Atleta de base: criança e adolescente em maturação
 **20h · 9 aulas · Eixo 3**
 
 **Ementa.** Maturação biológica versus idade cronológica; pico de velocidade de
@@ -369,7 +401,7 @@ conduzir a conversa com família e treinador.
 
 ---
 
-## M12 — A mulher atleta
+## M13 — A mulher atleta
 **20h · 9 aulas · Eixo 3**
 
 **Ementa.** Ciclo menstrual e suas fases: efeitos sobre metabolismo,
@@ -401,7 +433,7 @@ menopausal na praticante.
 
 ---
 
-## M13 — Atleta master: 40+
+## M14 — Atleta master: 40+
 **20h · 9 aulas · Eixo 3**
 
 **Ementa.** Sarcopenia e resistência anabólica. Declínio da função
@@ -432,7 +464,7 @@ honestidade sobre evidência e limites.
 
 ---
 
-## M14 — O crônico que treina
+## M15 — O crônico que treina
 **20h · 9 aulas · Eixo 3**
 
 **Ementa.** Exercício como prescrição terapêutica. Diabetes tipo 1 e tipo 2:
@@ -465,7 +497,7 @@ encaminhamento.
 
 # EIXO 4 — LESÃO, DOR E RETORNO
 
-## M15 — Epidemiologia e prevenção de lesão no amador
+## M16 — Epidemiologia e prevenção de lesão no amador
 **20h · 7 aulas · Eixo 4**
 
 **Ementa.** Definição e mensuração de lesão em população recreativa. Incidência
@@ -493,7 +525,7 @@ prevenção com adesão realista.
 
 ---
 
-## M16 — As lesões que realmente chegam ao consultório
+## M17 — As lesões que realmente chegam ao consultório
 **20h · 9 aulas · Eixo 4**
 
 **Ementa.** As condições de maior prevalência no praticante recreativo:
@@ -524,7 +556,7 @@ tratamento; e reconhecer dor persistente que não responde ao modelo tecidual.
 
 ---
 
-## M17 — Retorno ao esporte sem time por trás
+## M18 — Retorno ao esporte sem time por trás
 **20h · 8 aulas · Eixo 4**
 
 **Ementa.** Critérios de retorno ao esporte sem fisioterapia diária nem teste
@@ -556,7 +588,7 @@ comunicação honesta de risco residual.
 
 # EIXO 5 — NUTRIÇÃO, SUPLEMENTAÇÃO E O FILTRO
 
-## M18 — Nutrição esportiva aplicada à vida real
+## M19 — Nutrição esportiva aplicada à vida real
 **20h · 8 aulas · Eixo 5**
 
 **Ementa.** Disponibilidade energética: cálculo, interpretação e identificação
@@ -586,7 +618,41 @@ comprometer a reserva adaptativa.
 
 ---
 
-## M19 — O filtro: suplementos, nutracêuticos e a indústria
+## M20 — Suplementação esportiva: o que tem evidência
+**20h · 9 aulas · Eixo 5**
+
+**Ementa.** Leitura crítica de evidência em suplementação e os vieses típicos do
+campo. Os ergogênicos com base consistente — cafeína, creatina, beta-alanina,
+bicarbonato e nitrato — com dose, momento de uso, respondedores e efeitos
+adversos. Proteína e aminoácidos: quantidade, distribuição e populações
+específicas. Estratégias de carboidrato por duração de esforço e treinabilidade
+intestinal. Suplementação no atleta master e na mulher atleta. O que não
+funciona e por que segue vendendo. Contaminação, rotulagem e segurança no
+mercado brasileiro.
+
+**Objetivos.** Avaliar a evidência de um suplemento antes de recomendá-lo;
+aplicar dose e momento corretos dos ergogênicos com base consistente; ajustar
+proteína e carboidrato à demanda real do praticante; identificar produtos sem
+fundamento; e reconhecer risco de contaminação e de interação, respeitando o
+escopo de cada profissão.
+
+| # | Aula | Duração |
+|---|---|---|
+| 1 | Como ler evidência de suplemento sem cair no marketing | 25 min |
+| 2 | Cafeína: dose, momento, genética e o que ela realmente faz | 25 min |
+| 3 | Creatina: a mais estudada e a mais mal explicada | 25 min |
+| 4 | Proteína e aminoácidos: quanto, quando e para quem | 25 min |
+| 5 | Carboidrato em treino e em prova: estratégias por duração | 25 min |
+| 6 | Beta-alanina, bicarbonato e nitrato | 25 min |
+| 7 | Suplementação no atleta master e na mulher atleta | 25 min |
+| 8 | O que não funciona — e por que continua vendendo | 25 min |
+| 9 | Contaminação, rotulagem e segurança no mercado brasileiro | 25 min |
+
+**A LIGAÇÃO:** suplemento ↔ a lacuna que a comida não fechou.
+
+---
+
+## M21 — O filtro: suplementos, nutracêuticos e a indústria
 **20h · 9 aulas · Eixo 5**
 
 **Ementa.** Suplementos com evidência consistente — creatina, cafeína,
@@ -622,7 +688,7 @@ com o paciente.
 
 # EIXO 6 — PRÁTICA INTEGRADORA E TCC
 
-## M20 — Time multiprofissional, escopo e comunicação clínica
+## M22 — Time multiprofissional, escopo e comunicação clínica
 **10h · 5 aulas · Eixo 6**
 
 **Ementa.** Escopo de atuação de cada profissão e os limites legais e éticos de
@@ -647,7 +713,7 @@ decisão compartilhada; e documentar de forma defensável.
 
 ---
 
-## M21 — Raciocínio clínico integrado
+## M23 — Raciocínio clínico integrado
 **10h · 5 aulas · Eixo 6**
 
 **Ementa.** Aplicação da lente de reserva adaptativa às apresentações mais
@@ -676,7 +742,7 @@ queixa local tem origem sistêmica.
 
 ---
 
-## M22 — TCC: plano de cuidado de um atleta real
+## M24 — TCC: plano de cuidado de um atleta real
 **20h · 4 aulas de orientação + orientação individual · Eixo 6**
 
 **Ementa.** Orientação para elaboração do plano de cuidado: seleção do caso,
@@ -708,23 +774,36 @@ reavaliação.
 |---|---|---|
 | 0 — A Lente | M1–M3 | 24 |
 | 1 — Avaliação | M4–M6 | 25 |
-| 2 — Treino, carga e recuperação | M7–M10 | 33 |
-| 3 — Ciclos de vida | M11–M14 | 36 |
-| 4 — Lesão e retorno | M15–M17 | 24 |
-| 5 — Nutrição e o filtro | M18–M19 | 17 |
-| 6 — Prática e TCC | M20–M22 | 14 |
-| | **22 módulos** | **173 aulas** |
+| 2 — Treino, carga, recuperação e saúde mental | M7–M11 | 41 |
+| 3 — Ciclos de vida | M12–M15 | 36 |
+| 4 — Lesão e retorno | M16–M18 | 24 |
+| 5 — Nutrição, suplementação e o filtro | M19–M21 | 26 |
+| 6 — Prática e TCC | M22–M24 | 14 |
+| | **24 módulos** | **190 aulas** |
 
-Média de 8,4 aulas nos dezenove módulos de 20h. Nenhum módulo passa de 9.
+Média de 8,3 aulas nos vinte e um módulos de 20h. Nenhum módulo passa de 9.
 
-**Aulas complexas (⧗):** 4 no programa inteiro — M9.6, M13.8, M21.2, M21.3.
+**Dois módulos acrescentados na revisão de escopo:** M11, saúde mental e
+psicologia aplicada ao esporte, e M20, suplementação esportiva. O primeiro
+cobria um vazio real — nenhum outro módulo tratava sofrimento mental, burnout,
+transtorno alimentar ou aderência de forma própria. O segundo separa o que o
+M21 não faz: o M21 é a crítica do mercado; o M20 é o que fazer com o que tem
+evidência.
+
+**Aulas complexas (⧗):** 4 no programa inteiro — M9.6, M14.8, M23.2, M23.3.
 Todas são diagnóstico diferencial ou decisão de risco, os únicos conteúdos que
 perdem sentido se fatiados.
 
-**Volume de vídeo:** 5.075 minutos, ou aproximadamente 85 horas.
-**Volume de roteiro:** aproximadamente 695 mil palavras.
+**Volume de vídeo:** aproximadamente 3.900 minutos, ou cerca de 65 horas, a
+uma média de 20,5 minutos por aula.
+**Volume de roteiro:** aproximadamente 460 mil palavras.
 
-O cálculo do roteiro usa o seu próprio ritmo de fala, extraído do Módulo 7 da
-Endocrinologia Funcional: 18 aulas e 51.715 palavras em aulas de cerca de 21
-minutos dão 137 palavras por minuto. A estimativa anterior deste documento
-aplicava esse ritmo de forma inconsistente e subestimava o roteiro.
+O cálculo usa **118 palavras por minuto**, taxa medida na gravação real — e não
+a taxa de leitura corrida, que superestima. As durações da tabela de cada módulo
+são **teto institucional**, não meta: a aula entregue fica na faixa de 18 a 22
+minutos.
+
+Repara no efeito da revisão: dois módulos a mais e, ainda assim, menos volume de
+vídeo e de roteiro do que a versão anterior de 22 módulos. A conta fecha porque a
+aula encurtou — o que cabe a mais no programa foi pago com corte de prolixidade,
+não com aumento de produção.

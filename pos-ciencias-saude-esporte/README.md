@@ -13,12 +13,12 @@ Funcional Esportiva e da Pós de Medicina do Futebol.
 | | |
 |---|---|
 | Modalidade | Lato sensu, EAD assíncrono + encontros síncronos quinzenais |
-| Carga horária | 420h (400h disciplinas + 20h TCC) |
+| Carga horária | 460h (440h disciplinas + 20h TCC) |
 | Duração | 12 a 18 meses |
 | Público | Multiprofissional — medicina, fisioterapia, nutrição, educação física, psicologia, enfermagem, biomedicina |
 | Eixos | 6 |
 | Módulos | 22 (7 a 9 aulas cada) |
-| Videoaulas | 173 (22–28 min cada) |
+| Videoaulas | 190 (18–22 min cada; M1–M5 entre 20 e 24) |
 
 ## Documentos
 
@@ -26,7 +26,7 @@ Funcional Esportiva e da Pós de Medicina do Futebol.
 |---|---|
 | [`docs/01-tese-e-posicionamento.md`](docs/01-tese-e-posicionamento.md) | Inimigo, tese, conceito de reserva adaptativa, perfil do egresso, régua ética |
 | [`docs/02-matriz-curricular.md`](docs/02-matriz-curricular.md) | Eixos, módulos, cargas, avaliação, estrutura padrão de módulo |
-| [`docs/03-ementas.md`](docs/03-ementas.md) | Ementas institucionais: ementa, objetivos e conteúdo programático aula a aula das 173 aulas |
+| [`docs/03-ementas.md`](docs/03-ementas.md) | Ementas institucionais: ementa, objetivos e conteúdo programático aula a aula das 190 aulas |
 | [`docs/04-plano-de-producao.md`](docs/04-plano-de-producao.md) | Ondas de produção, reaproveitamento entre as três pós, estratégia comercial |
 | [`docs/05-padrao-de-fala.md`](docs/05-padrao-de-fala.md) | Cadência, formatos de aula, recursos didáticos e checklist de auditoria de roteiro |
 | [`docs/06-como-escrever-as-aulas.md`](docs/06-como-escrever-as-aulas.md) | Regra de escrita dos roteiros: dimensionamento a 118 ppm e lista de corte obrigatório |
@@ -81,17 +81,37 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 |---|---|---|
 | [A01 — O que a anamnese esportiva tradicional não pergunta](aulas/M4/M4-A01-o-que-nao-se-pergunta.md) | 2.747 | 23 min |
 | [A02 — Sono: as cinco perguntas que mudam a conduta](aulas/M4/M4-A02-sono-cinco-perguntas.md) | 2.770 | 23 min |
-| [A03 — Trabalho. turno. deslocamento e carga mental](aulas/M4/M4-A03-trabalho-turno-carga-mental.md) | 2.723 | 23 min |
+| [A03 — Trabalho, turno, deslocamento e carga mental](aulas/M4/M4-A03-trabalho-turno-carga-mental.md) | 2.723 | 23 min |
 | [A04 — História alimentar e restrição prévia](aulas/M4/M4-A04-historia-alimentar.md) | 2.718 | 23 min |
 | [A05 — História de lesão e de infecção recorrente](aulas/M4/M4-A05-lesao-e-infeccao.md) | 2.782 | 24 min |
-| [A06 — Substâncias. suplementos e automedicação](aulas/M4/M4-A06-substancias-suplementos.md) | 2.753 | 23 min |
+| [A06 — Substâncias, suplementos e automedicação](aulas/M4/M4-A06-substancias-suplementos.md) | 2.753 | 23 min |
 | [A07 — Instrumentos validados aplicáveis no consultório](aulas/M4/M4-A07-instrumentos-validados.md) | 2.674 | 23 min |
 | [A08 — Da entrevista ao orçamento: montando e reavaliando a conta](aulas/M4/M4-A08-da-entrevista-ao-orcamento.md) | 2.593 | 22 min |
 
+### Módulo 5 — Laboratório em quem treina
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — O que o exercício altera em exame de rotina](aulas/M5/M5-A01-exercicio-e-exame-de-rotina.md) | 2.552 | 22 min |
+| [A02 — Faixa de referência populacional x faixa esperada em quem treina](aulas/M5/M5-A02-faixa-de-referencia.md) | 2.570 | 22 min |
+| [A03 — CK, enzimas musculares e o hemograma do atleta](aulas/M5/M5-A03-ck-e-hemograma.md) | 2.532 | 21 min |
+| [A04 — Ferro, ferritina e o atleta de endurance](aulas/M5/M5-A04-ferro-e-ferritina.md) | 2.510 | 21 min |
+| [A05 — Vitamina D: o que medir e o que fazer com o resultado](aulas/M5/M5-A05-vitamina-d.md) | 2.482 | 21 min |
+| [A06 — Perfil tireoidiano em restrição energética](aulas/M5/M5-A06-tireoide-em-restricao.md) | 2.432 | 21 min |
+| [A07 — Testosterona: total, livre e SHBG](aulas/M5/M5-A07-testosterona-livre-shbg.md) | 2.351 | 20 min |
+| [A08 — Perfil lipídico e marcadores inflamatórios](aulas/M5/M5-A08-lipidios-e-inflamacao.md) | 2.220 | 19 min |
+| [A09 — Quando NÃO pedir exame e o custo do achado incidental](aulas/M5/M5-A09-quando-nao-pedir-exame.md) | 2.090 | 18 min |
+
 ## Estado
 
-Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1. 2 e 3.
-**Módulo 4 completo**. primeiro do Eixo 1.
+Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
+**Módulos 4 e 5 completos** — o Eixo 1 fecha com o M6.
 
-32 dos 173 roteiros prontos. 91.155 palavras.
-Próximo: M5 — Laboratório em quem treina.
+41 dos 190 roteiros prontos, 112.894 palavras.
+Próximo: M6 — Avaliação funcional e monitoramento acessível.
+
+**Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
+**M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
+esportiva** — e a faixa de duração da aula caiu para **18 a 22 minutos** de M6
+em diante. O programa passou a 24 módulos, 190 aulas e 460h, com **menos** volume
+de vídeo que a versão anterior: a aula encurtou mais do que a grade cresceu.

@@ -55,14 +55,29 @@ Menos slides e mais densos. 30 min costuma pedir 5 ou 6.
 **118 palavras por minuto.** Taxa medida na gravação real — não confundir com
 a taxa de leitura corrida. Medir por script, nunca estimar.
 
+**Faixa vigente de M6 em diante: 18 a 22 minutos.**
+
 | Aula | Palavras | Slides |
 |---|---|---|
-| Padrão (22 min) | 2.500 – 2.700 | 5 |
-| Densa (25 min) | 2.850 – 3.000 | 5 a 6 |
-| Teto (28 min) | 3.200 – 3.300 | 6 |
+| Curta (18 min) | 2.100 – 2.250 | 5 |
+| Padrão (20 min) | 2.300 – 2.450 | 5 a 6 |
+| Teto (22 min) | 2.550 – 2.650 | 6 |
 
 A duração do ementário é **teto institucional**, não meta. A aula boa fica
-abaixo dele. Aula acima de 3.300 palavras não sai — divide ou corta.
+abaixo dele. Aula acima de 2.650 palavras não sai — divide ou corta.
+
+**Histórico da faixa.** A primeira versão dimensionava a 137 palavras por
+minuto e produzia aulas de 30 a 35 minutos na gravação real. Corrigida a taxa
+para 118, a faixa passou a 22–28 minutos, e os módulos M1 a M5 foram escritos
+assim: ficaram entre 20 e 24 minutos e permanecem como estão. A partir do M6 a
+faixa é 18 a 22, decisão tomada junto com a entrada dos módulos de saúde mental
+e de suplementação esportiva — o programa cresceu dois módulos e o volume de
+vídeo caiu, porque a aula encurtou mais do que a grade cresceu.
+
+**O que encurtar não significa.** Não é tirar conteúdo nem tirar caso clínico.
+É tirar a segunda formulação da mesma ideia, a ponte que recapitula, a ressalva
+duplicada e o fechamento que reconta os slides. O teste é o da regra de bolso
+abaixo: se o parágrafo sai e o seguinte continua fazendo sentido, ele sai.
 
 ## Corte obrigatório antes de entregar
 
