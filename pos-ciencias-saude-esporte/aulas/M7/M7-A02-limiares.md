@@ -2,7 +2,7 @@
 
 **Módulo 7 — Fisiologia do exercício aplicada**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 17 minutos · 6 slides
+Duração: 18 minutos · 6 slides
 
 ---
 
@@ -185,6 +185,10 @@ E uma sessão por semana passou a ser de verdade intensa, acima do segundo limia
 Volume igual. Frequência igual.
 
 Cinco meses depois, o contrarrelógio de trinta minutos tinha ido de cinco e dez para quatro e cinquenta e dois por quilômetro. E o comentário dela, que eu guardei, foi: "eu não sabia que dava para melhorar correndo mais devagar."
+
+E uma nota de escopo antes de fechar: identificar limiar por teste de campo e prescrever intensidade a partir dele é território do educador físico, e é ele quem conduz isso. O que este curso acrescenta, para as outras profissões, é a capacidade de **ler** a planilha de alguém e reconhecer quando a distribuição de intensidade está explicando o platô, a fadiga ou a lesão de repetição.
+
+Você não precisa prescrever para enxergar. E enxergar, aqui, costuma ser o que falta.
 
 Na próxima aula a gente vai para as duas variáveis que explicam por que duas pessoas com o mesmo consumo máximo de oxigênio têm desempenhos completamente diferentes: VO₂ máximo e economia de movimento. E por que a segunda, que quase ninguém mede, costuma ser a que mais muda no atleta real.
 
