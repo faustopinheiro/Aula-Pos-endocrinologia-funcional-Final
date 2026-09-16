@@ -115,14 +115,27 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A07 — Força, mobilidade e controle motor com recurso mínimo](aulas/M6/M6-A07-forca-mobilidade-controle.md) | 2.109 | 18 min |
 | [A08 — Composição corporal e a montagem do painel de monitoramento](aulas/M6/M6-A08-composicao-corporal-e-painel.md) | 2.112 | 18 min |
 
+### Módulo 7 — Fisiologia do exercício aplicada
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Bioenergética sem mitologia: como o corpo paga a conta](aulas/M7/M7-A01-bioenergetica.md) | 2.113 | 18 min |
+| [A02 — Limiares: o que eles são e o que não são](aulas/M7/M7-A02-limiares.md) | 2.144 | 18 min |
+| [A03 — VO₂máx e economia de movimento](aulas/M7/M7-A03-vo2max-e-economia.md) | 2.118 | 18 min |
+| [A04 — Adaptações centrais: coração, sangue e pressão](aulas/M7/M7-A04-adaptacoes-centrais.md) | 2.116 | 18 min |
+| [A05 — Mitocôndria: conteúdo, função e o que o treino muda](aulas/M7/M7-A05-mitocondria.md) | 2.106 | 18 min |
+| [A06 — Adaptação neuromuscular à força](aulas/M7/M7-A06-adaptacao-neuromuscular.md) | 2.119 | 18 min |
+| [A07 — Treino concorrente e o efeito interferência](aulas/M7/M7-A07-treino-concorrente.md) | 2.104 | 18 min |
+| [A08 — Calor, altitude e poluição: o ambiente entra na prescrição](aulas/M7/M7-A08-calor-altitude-poluicao.md) | 2.125 | 18 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
-**Eixo 1 completo** — Módulos 4, 5 e 6. Metade dos 24 módulos ainda por escrever,
-mas os dois primeiros eixos, que são os que sustentam todo o resto, estão de pé.
+**Eixo 1 completo** — Módulos 4, 5 e 6. O Eixo 2 abriu com o **Módulo 7 completo**.
+Os dois primeiros eixos, que são os que sustentam todo o resto, estão de pé.
 
-49 dos 190 roteiros prontos, 130.174 palavras.
-Próximo: M7 — Fisiologia do exercício aplicada, que abre o Eixo 2.
+57 dos 190 roteiros prontos, 147.119 palavras.
+Próximo: M8 — Prescrição e periodização para quem tem vida.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação

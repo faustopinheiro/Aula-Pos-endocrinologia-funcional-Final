@@ -2,7 +2,7 @@
 
 **Módulo 7 — Fisiologia do exercício aplicada**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 17 minutos · 6 slides
+Duração: 18 minutos · 6 slides
 
 ---
 
@@ -189,6 +189,8 @@ E a carga no leg press tinha praticamente dobrado — que foi o número que ele 
 Repara no que aconteceu com o alvo. Ele passou sete meses melhorando de verdade sem que a balança contasse essa história direito — e se o critério dele continuasse sendo o peso, ele teria desistido no segundo mês, como nas três vezes anteriores.
 
 A adaptação periférica não aparece no espelho. Aparece no exame, na disposição e na carga levantada.
+
+E um ponto de escopo que vale registrar: nada disso substitui tratamento quando ele estiver indicado. O exercício é intervenção de primeira linha em pré-diabetes e um pilar do tratamento em diabetes estabelecido — e a decisão sobre medicação continua sendo médica, tomada com o quadro inteiro na mesa.
 
 Na próxima aula a gente muda de sistema e vai para a adaptação neuromuscular à força: o que acontece nas primeiras semanas antes de qualquer músculo crescer, como a hipertrofia realmente acontece, e por que o atleta master tem uma janela que ninguém conta a ele.
 

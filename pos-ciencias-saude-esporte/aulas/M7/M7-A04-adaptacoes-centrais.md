@@ -126,6 +126,8 @@ Quem promete adaptação central em quatro semanas está prometendo, na verdade,
 
 E uma nota sobre o que **gera** essas adaptações, que antecipa a próxima aula: a adaptação central responde bem a volume em intensidade moderada, sustentado ao longo de meses. Não é a sessão heroica que constrói coração maior. É a soma de sessões que a pessoa conseguiu repetir.
 
+Uma ressalva sobre hidratação, porque ela aparece muito: a expansão de volume plasmático é adaptação estrutural, e não se compra bebendo mais água hoje. Beber bem ajuda a **não perder** volume durante a sessão; a expansão em si vem de semanas de treino.
+
 ---
 
 📊 **[SLIDE 5 DE 6]**
