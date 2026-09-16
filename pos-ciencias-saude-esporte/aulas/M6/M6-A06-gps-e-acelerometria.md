@@ -2,7 +2,7 @@
 
 **Módulo 6 — Avaliação funcional e monitoramento acessível**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 17 minutos · 6 slides
+Duração: 18 minutos · 6 slides
 
 ---
 
@@ -179,6 +179,10 @@ A segunda: o volume de **jogo** — e não o de treino — era onde a carga se c
 O GPS media muito bem os treinos de terça e quinta. O problema estava no sábado, onde não havia colete nenhum.
 
 E essa é a lição que fecha a aula: **a tecnologia mede muito bem o que está dentro do campo de visão dela.** Quem decide onde apontar é você — e no atleta real, boa parte da carga acontece fora do campo.
+
+A conduta, no fim, não teve nada de tecnológico. Passou a existir uma pergunta na segunda-feira — "jogou no fim de semana? quantos minutos?" — e os três jogadores de turno ganharam uma versão reduzida do treino de terça.
+
+Seis coletes de GPS já estavam ali antes disso, e nenhum deles tinha resolvido, porque nenhum deles perguntava.
 
 Na próxima aula a gente sai da corrida e vai para o que também precisa ser avaliado e quase nunca é: força, mobilidade e controle motor com recurso mínimo. O que dá para medir com uma fita métrica, uma cadeira e um cronômetro.
 

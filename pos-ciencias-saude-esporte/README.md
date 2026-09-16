@@ -102,13 +102,27 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A08 — Perfil lipídico e marcadores inflamatórios](aulas/M5/M5-A08-lipidios-e-inflamacao.md) | 2.220 | 19 min |
 | [A09 — Quando NÃO pedir exame e o custo do achado incidental](aulas/M5/M5-A09-quando-nao-pedir-exame.md) | 2.090 | 18 min |
 
+### Módulo 6 — Avaliação funcional e monitoramento acessível
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — O que dá para medir sem laboratório de fisiologia](aulas/M6/M6-A01-medir-sem-laboratorio.md) | 2.180 | 18 min |
+| [A02 — PSE e carga sessão-PSE](aulas/M6/M6-A02-pse-e-carga-sessao.md) | 2.275 | 19 min |
+| [A03 — Variabilidade da frequência cardíaca: o que sustenta e o que é ruído](aulas/M6/M6-A03-variabilidade-da-frequencia-cardiaca.md) | 2.237 | 19 min |
+| [A04 — Wearables de consumo: acurácia métrica por métrica](aulas/M6/M6-A04-wearables-acuracia.md) | 2.166 | 18 min |
+| [A05 — Testes de campo para limiar e potência](aulas/M6/M6-A05-testes-de-campo.md) | 2.088 | 18 min |
+| [A06 — GPS e acelerometria quando disponíveis](aulas/M6/M6-A06-gps-e-acelerometria.md) | 2.113 | 18 min |
+| [A07 — Força, mobilidade e controle motor com recurso mínimo](aulas/M6/M6-A07-forca-mobilidade-controle.md) | 2.109 | 18 min |
+| [A08 — Composição corporal e a montagem do painel de monitoramento](aulas/M6/M6-A08-composicao-corporal-e-painel.md) | 2.112 | 18 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
-**Módulos 4 e 5 completos** — o Eixo 1 fecha com o M6.
+**Eixo 1 completo** — Módulos 4, 5 e 6. Metade dos 24 módulos ainda por escrever,
+mas os dois primeiros eixos, que são os que sustentam todo o resto, estão de pé.
 
-41 dos 190 roteiros prontos, 112.894 palavras.
-Próximo: M6 — Avaliação funcional e monitoramento acessível.
+49 dos 190 roteiros prontos, 130.174 palavras.
+Próximo: M7 — Fisiologia do exercício aplicada, que abre o Eixo 2.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
