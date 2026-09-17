@@ -168,6 +168,19 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A07 — Higiene do sono com base em evidência](aulas/M10/M10-A07-higiene-do-sono-com-base-em-evidencia.md) | 2.237 | 19 min |
 | [A08 — Recuperação: o que sustenta, o que é placebo e o que atrapalha](aulas/M10/M10-A08-recuperacao-o-que-sustenta.md) | 2.199 | 19 min |
 
+### Módulo 11 — Saúde mental e psicologia aplicada ao esporte
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Prevalência real e o mito do atleta blindado](aulas/M11/M11-A01-o-mito-do-atleta-blindado.md) | 2.123 | 18 min |
+| [A02 — Rastreio no consultório: instrumentos, pontos de corte e limites](aulas/M11/M11-A02-rastreio-instrumentos-e-limites.md) | 2.173 | 18 min |
+| [A03 — Ansiedade e depressão no atleta que não parece deprimido](aulas/M11/M11-A03-ansiedade-e-depressao-que-nao-parecem.md) | 2.213 | 19 min |
+| [A04 — Burnout esportivo e abandono: o diferencial com overtraining](aulas/M11/M11-A04-burnout-esportivo-e-o-diferencial.md) | 2.143 | 18 min |
+| [A05 — Transtornos alimentares e dismorfia muscular](aulas/M11/M11-A05-transtornos-alimentares-e-dismorfia.md) | 2.134 | 18 min |
+| [A06 — Dependência de exercício: a linha entre disciplina e compulsão](aulas/M11/M11-A06-dependencia-de-exercicio.md) | 2.125 | 18 min |
+| [A07 — Motivação e aderência: a conversa que faz a pessoa voltar](aulas/M11/M11-A07-motivacao-e-aderencia.md) | 2.236 | 19 min |
+| [A08 — Crise, encaminhamento e escopo: o que fazer quando não é seu](aulas/M11/M11-A08-crise-encaminhamento-e-escopo.md) | 2.184 | 19 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
