@@ -184,12 +184,13 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
-**Eixo 1 completo** — Módulos 4, 5 e 6. O Eixo 2 está em curso, com os
-**Módulos 7. 8. 9 e 10 completos**. Os dois primeiros eixos. que são os
-que sustentam todo o resto. estão de pé.
+**Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
+8, 9, 10 e 11. Metade do programa está escrita, e os três primeiros
+eixos, que são os que sustentam todo o resto, estão de pé.
 
-82 dos 190 roteiros prontos. 201.239 palavras.
-Próximo: M11 — Saúde mental e psicologia aplicada ao esporte.
+90 dos 190 roteiros prontos, 218.570 palavras.
+Próximo: M12 — Atleta de base: criança e adolescente em maturação, que
+abre o Eixo 3.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
