@@ -128,14 +128,28 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A07 — Treino concorrente e o efeito interferência](aulas/M7/M7-A07-treino-concorrente.md) | 2.104 | 18 min |
 | [A08 — Calor, altitude e poluição: o ambiente entra na prescrição](aulas/M7/M7-A08-calor-altitude-poluicao.md) | 2.125 | 18 min |
 
+### Módulo 8 — Prescrição e periodização para quem tem vida
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Periodização com 3 a 5 sessões: o que muda de fato](aulas/M8/M8-A01-periodizacao-3-a-5-sessoes.md) | 2.135 | 18 min |
+| [A02 — Polarizado, piramidal e limiar em volume baixo](aulas/M8/M8-A02-polarizado-piramidal-limiar.md) | 2.120 | 18 min |
+| [A03 — Força para endurance e endurance para força](aulas/M8/M8-A03-forca-para-endurance-e-endurance-para-forca.md) | 2.123 | 18 min |
+| [A04 — Progressão de carga com segurança](aulas/M8/M8-A04-progressao-de-carga-com-seguranca.md) | 2.138 | 18 min |
+| [A05 — A semana que deu errado: viagem, plantão, doença](aulas/M8/M8-A05-a-semana-que-deu-errado.md) | 2.148 | 18 min |
+| [A06 — Prescrição para academia sem objetivo competitivo](aulas/M8/M8-A06-prescricao-para-academia-sem-objetivo-competitivo.md) | 2.107 | 18 min |
+| [A07 — Deload e taper para quem trabalha](aulas/M8/M8-A07-deload-e-taper-para-quem-trabalha.md) | 2.132 | 18 min |
+| [A08 — Reavaliação e ajuste do plano](aulas/M8/M8-A08-reavaliacao-e-ajuste-do-plano.md) | 2.107 | 18 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
-**Eixo 1 completo** — Módulos 4, 5 e 6. O Eixo 2 abriu com o **Módulo 7 completo**.
-Os dois primeiros eixos, que são os que sustentam todo o resto, estão de pé.
+**Eixo 1 completo** — Módulos 4, 5 e 6. O Eixo 2 está em curso, com os
+**Módulos 7 e 8 completos**. Os dois primeiros eixos, que são os que
+sustentam todo o resto, estão de pé.
 
-57 dos 190 roteiros prontos, 147.119 palavras.
-Próximo: M8 — Prescrição e periodização para quem tem vida.
+65 dos 190 roteiros prontos, 164.129 palavras.
+Próximo: M9 — Carga, overreaching e overtraining.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
