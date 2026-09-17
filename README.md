@@ -195,14 +195,28 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A08 — Transtorno alimentar em esporte estético e de categoria de peso](aulas/M12/M12-A08-transtorno-alimentar-em-esporte-estetico-e-de-peso.md) | 2.248 | 19 min |
 | [A09 — Família, treinador e conduta integrada no atleta de base](aulas/M12/M12-A09-familia-treinador-e-conduta-integrada.md) | 2.315 | 20 min |
 
+### Módulo 13 — A mulher atleta
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — O ciclo menstrual: fisiologia aplicada ao treino](aulas/M13/M13-A01-o-ciclo-menstrual-fisiologia-aplicada.md) | 2.232 | 19 min |
+| [A02 — Fases do ciclo e desempenho: evidência x mito](aulas/M13/M13-A02-fases-do-ciclo-e-desempenho.md) | 2.230 | 19 min |
+| [A03 — Contracepção hormonal e treino](aulas/M13/M13-A03-contracepcao-hormonal-e-treino.md) | 2.224 | 19 min |
+| [A04 — Disponibilidade energética relativa: fazendo a conta](aulas/M13/M13-A04-disponibilidade-energetica-fazendo-a-conta.md) | 2.174 | 18 min |
+| [A05 — Amenorreia hipotalâmica funcional e saúde óssea](aulas/M13/M13-A05-amenorreia-hipotalamica-funcional-e-osso.md) | 2.136 | 18 min |
+| [A06 — Lesão de LCA: fatores reais e o que de fato funciona](aulas/M13/M13-A06-lca-fatores-reais-e-o-que-funciona.md) | 2.168 | 18 min |
+| [A07 — Gestação, pós-parto e assoalho pélvico](aulas/M13/M13-A07-gestacao-pos-parto-e-assoalho-pelvico.md) | 2.190 | 19 min |
+| [A08 — Transição menopausal e a atleta master](aulas/M13/M13-A08-transicao-menopausal-e-a-atleta-master.md) | 2.264 | 19 min |
+| [A09 — Sub-representação na literatura e conduta integrada](aulas/M13/M13-A09-sub-representacao-e-conduta-integrada.md) | 2.189 | 19 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
-8, 9, 10 e 11. O Eixo 3 abriu com o **Módulo 12 completo**.
+8, 9, 10 e 11. No Eixo 3, **Módulos 12 e 13 completos**.
 
-99 dos 190 roteiros prontos, 239.177 palavras.
-Próximo: M13 — A mulher atleta.
+108 dos 190 roteiros prontos, 258.984 palavras.
+Próximo: M14 — Atleta master: 40+.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
