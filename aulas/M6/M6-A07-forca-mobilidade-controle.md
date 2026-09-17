@@ -197,7 +197,7 @@ Na próxima aula a gente fecha o módulo e o Eixo 1 com o assunto mais delicado 
 ## Referências
 
 1. Leong DP, Teo KK, Rangarajan S, et al. Prognostic value of grip strength: findings from the Prospective Urban Rural Epidemiology (PURE) study. *Lancet.* 2015;386(9990):266-273. PMID: 25982160
-2. Bahr R. Why screening tests to predict injury do not work—and probably never will: a critical review. *Br J Sports Med.* 2016;50(13):776-780. PMID: 25995308
+2. Bahr R. Why screening tests to predict injury do not work—and probably never will…: a critical review. *Br J Sports Med.* 2016;50(13):776-780. doi:10.1136/bjsports-2016-096256
 3. Hopkins WG. Measures of reliability in sports medicine and science. *Sports Med.* 2000;30(1):1-15. PMID: 10907753
 4. Hägglund M, Waldén M, Ekstrand J. Previous injury as a risk factor for injury in elite football: a prospective study over two consecutive seasons. *Br J Sports Med.* 2006;40(9):767-772. PMID: 16855067
 5. Clarsen B, Bahr R, Myklebust G, et al. Improved reporting of overuse injuries and health problems in sport: an update of the Oslo Sport Trauma Research Center questionnaires. *Br J Sports Med.* 2020;54(7):390-396. PMID: 32060142
