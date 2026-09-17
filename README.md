@@ -181,16 +181,28 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A07 — Motivação e aderência: a conversa que faz a pessoa voltar](aulas/M11/M11-A07-motivacao-e-aderencia.md) | 2.236 | 19 min |
 | [A08 — Crise, encaminhamento e escopo: o que fazer quando não é seu](aulas/M11/M11-A08-crise-encaminhamento-e-escopo.md) | 2.184 | 19 min |
 
+### Módulo 12 — Atleta de base: criança e adolescente em maturação
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Maturação biológica x idade cronológica e o pico de crescimento](aulas/M12/M12-A01-maturacao-x-idade-cronologica.md) | 2.288 | 19 min |
+| [A02 — Efeito da idade relativa na seleção esportiva](aulas/M12/M12-A02-efeito-da-idade-relativa.md) | 2.250 | 19 min |
+| [A03 — Especialização precoce: lesão e abandono](aulas/M12/M12-A03-especializacao-precoce.md) | 2.244 | 19 min |
+| [A04 — Treino de força na criança e no adolescente](aulas/M12/M12-A04-treino-de-forca-na-base.md) | 2.289 | 19 min |
+| [A05 — Lesões de placa de crescimento](aulas/M12/M12-A05-lesoes-de-placa-de-crescimento.md) | 2.289 | 19 min |
+| [A06 — Apofisites e fraturas por estresse no jovem](aulas/M12/M12-A06-apofisites-e-fraturas-por-estresse.md) | 2.341 | 20 min |
+| [A07 — Disponibilidade energética e RED-S no jovem](aulas/M12/M12-A07-disponibilidade-energetica-no-jovem.md) | 2.343 | 20 min |
+| [A08 — Transtorno alimentar em esporte estético e de categoria de peso](aulas/M12/M12-A08-transtorno-alimentar-em-esporte-estetico-e-de-peso.md) | 2.248 | 19 min |
+| [A09 — Família, treinador e conduta integrada no atleta de base](aulas/M12/M12-A09-familia-treinador-e-conduta-integrada.md) | 2.315 | 20 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
-8, 9, 10 e 11. Metade do programa está escrita, e os três primeiros
-eixos, que são os que sustentam todo o resto, estão de pé.
+8, 9, 10 e 11. O Eixo 3 abriu com o **Módulo 12 completo**.
 
-90 dos 190 roteiros prontos, 218.570 palavras.
-Próximo: M12 — Atleta de base: criança e adolescente em maturação, que
-abre o Eixo 3.
+99 dos 190 roteiros prontos, 239.177 palavras.
+Próximo: M13 — A mulher atleta.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
