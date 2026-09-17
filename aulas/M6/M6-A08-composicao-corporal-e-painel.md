@@ -201,7 +201,7 @@ No próximo módulo a gente vira a chave. Sai da avaliação e entra no treino: 
 3. Hopkins WG. Measures of reliability in sports medicine and science. *Sports Med.* 2000;30(1):1-15. PMID: 10907753
 4. Hooper SL, Mackinnon LT. Monitoring overtraining in athletes: recommendations. *Sports Med.* 1995;20(5):321-327. PMID: 8571005
 5. Foster C, Florhaug JA, Franklin J, et al. A new approach to monitoring exercise training. *J Strength Cond Res.* 2001;15(1):109-115. PMID: 11708692
-6. Morgan JF, Reid F, Lacey JH. The SCOFF questionnaire: assessment of a new screening tool for eating disorders. *BMJ.* 1999;319(7223):1467-1468.
+6. Morgan JF, Reid F, Lacey JH. The SCOFF questionnaire: assessment of a new screening tool for eating disorders. *BMJ.* 1999;319(7223):1467-1468. PMID: 10582927
 
 ---
 

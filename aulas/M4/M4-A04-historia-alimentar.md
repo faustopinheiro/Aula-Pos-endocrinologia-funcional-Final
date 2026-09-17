@@ -231,7 +231,7 @@ Um grande abraço e até a próxima aula.
 ## Referências
 
 1. Melin A, Tornberg ÅB, Skouby S, et al. The LEAF questionnaire: a screening tool for the identification of female athletes at risk for the female athlete triad. *Br J Sports Med.* 2014;48(7):540-545.
-2. Morgan JF, Reid F, Lacey JH. The SCOFF questionnaire: assessment of a new screening tool for eating disorders. *BMJ.* 1999;319(7223):1467-1468.
+2. Morgan JF, Reid F, Lacey JH. The SCOFF questionnaire: assessment of a new screening tool for eating disorders. *BMJ.* 1999;319(7223):1467-1468. PMID: 10582927
 3. Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 IOC consensus statement on Relative Energy Deficiency in Sport (REDs). *Br J Sports Med.* 2023;57(17):1073-1097. PMID: 37752011
 4. Sumithran P, Prendergast LA, Delbridge E, et al. Long-term persistence of hormonal adaptations to weight loss. *N Engl J Med.* 2011;365(17):1597-1604. PMID: 22029981
 5. Areta JL, Taylor HL, Koehler K. Low energy availability: history, definition and evidence of its endocrine, metabolic and physiological effects in prospective studies in females and males. *Eur J Appl Physiol.* 2021;121(1):1-21. PMID: 33095376
