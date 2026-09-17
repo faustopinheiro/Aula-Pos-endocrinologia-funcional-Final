@@ -155,15 +155,28 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A08 — Disfunção mitocondrial, pós-infecção e pós-COVID](aulas/M9/M9-A08-mitocondria-pos-infeccao-pos-covid.md) | 2.182 | 18 min |
 | [A09 — Depressão, baixa disponibilidade energética e conduta de recuperação](aulas/M9/M9-A09-depressao-baixa-disponibilidade-e-recuperacao.md) | 2.162 | 18 min |
 
+### Módulo 10 — Sono e recuperação como intervenção clínica
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Arquitetura do sono e sua função na recuperação](aulas/M10/M10-A01-arquitetura-do-sono.md) | 2.147 | 18 min |
+| [A02 — Privação de sono e risco de lesão](aulas/M10/M10-A02-privacao-de-sono-e-risco-de-lesao.md) | 2.156 | 18 min |
+| [A03 — Sono, sensibilidade à insulina e apetite](aulas/M10/M10-A03-sono-insulina-e-apetite.md) | 2.183 | 19 min |
+| [A04 — Cronotipo e horário de treino](aulas/M10/M10-A04-cronotipo-e-horario-de-treino.md) | 2.260 | 19 min |
+| [A05 — O trabalhador em turno que treina](aulas/M10/M10-A05-o-trabalhador-em-turno-que-treina.md) | 2.239 | 19 min |
+| [A06 — Rastreio de apneia obstrutiva no praticante](aulas/M10/M10-A06-rastreio-de-apneia-no-praticante.md) | 2.118 | 18 min |
+| [A07 — Higiene do sono com base em evidência](aulas/M10/M10-A07-higiene-do-sono-com-base-em-evidencia.md) | 2.237 | 19 min |
+| [A08 — Recuperação: o que sustenta, o que é placebo e o que atrapalha](aulas/M10/M10-A08-recuperacao-o-que-sustenta.md) | 2.199 | 19 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. O Eixo 2 está em curso, com os
-**Módulos 7, 8 e 9 completos**. Os dois primeiros eixos, que são os que
-sustentam todo o resto, estão de pé.
+**Módulos 7. 8. 9 e 10 completos**. Os dois primeiros eixos. que são os
+que sustentam todo o resto. estão de pé.
 
-74 dos 190 roteiros prontos, 183.700 palavras.
-Próximo: M10 — Sono e recuperação como intervenção clínica.
+82 dos 190 roteiros prontos. 201.239 palavras.
+Próximo: M11 — Saúde mental e psicologia aplicada ao esporte.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
