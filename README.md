@@ -141,15 +141,29 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A07 — Deload e taper para quem trabalha](aulas/M8/M8-A07-deload-e-taper-para-quem-trabalha.md) | 2.132 | 18 min |
 | [A08 — Reavaliação e ajuste do plano](aulas/M8/M8-A08-reavaliacao-e-ajuste-do-plano.md) | 2.107 | 18 min |
 
+### Módulo 9 — Carga, overreaching e overtraining
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — O espectro: funcional, não funcional e síndrome](aulas/M9/M9-A01-o-espectro.md) | 2.113 | 18 min |
+| [A02 — Critérios diagnósticos e o que não serve como critério](aulas/M9/M9-A02-criterios-diagnosticos.md) | 2.153 | 18 min |
+| [A03 — Monitoramento de carga aguda e crônica](aulas/M9/M9-A03-monitoramento-de-carga.md) | 2.157 | 18 min |
+| [A04 — ACWR: a crítica metodológica](aulas/M9/M9-A04-acwr-a-critica-metodologica.md) | 2.112 | 18 min |
+| [A05 — Sinais precoces de má adaptação](aulas/M9/M9-A05-sinais-precoces.md) | 2.131 | 18 min |
+| [A06 — Fadiga no praticante: o diagnóstico diferencial completo](aulas/M9/M9-A06-fadiga-o-diferencial-completo.md) | 2.455 | 21 min |
+| [A07 — Anemia, tireoide e apneia como causas ocultas](aulas/M9/M9-A07-anemia-tireoide-apneia.md) | 2.106 | 18 min |
+| [A08 — Disfunção mitocondrial, pós-infecção e pós-COVID](aulas/M9/M9-A08-mitocondria-pos-infeccao-pos-covid.md) | 2.182 | 18 min |
+| [A09 — Depressão, baixa disponibilidade energética e conduta de recuperação](aulas/M9/M9-A09-depressao-baixa-disponibilidade-e-recuperacao.md) | 2.162 | 18 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. O Eixo 2 está em curso, com os
-**Módulos 7 e 8 completos**. Os dois primeiros eixos, que são os que
+**Módulos 7, 8 e 9 completos**. Os dois primeiros eixos, que são os que
 sustentam todo o resto, estão de pé.
 
-65 dos 190 roteiros prontos, 164.129 palavras.
-Próximo: M9 — Carga, overreaching e overtraining.
+74 dos 190 roteiros prontos, 183.700 palavras.
+Próximo: M10 — Sono e recuperação como intervenção clínica.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
