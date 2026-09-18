@@ -209,14 +209,28 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A08 — Transição menopausal e a atleta master](aulas/M13/M13-A08-transicao-menopausal-e-a-atleta-master.md) | 2.264 | 19 min |
 | [A09 — Sub-representação na literatura e conduta integrada](aulas/M13/M13-A09-sub-representacao-e-conduta-integrada.md) | 2.189 | 19 min |
 
+### Módulo 14 — Atleta master: 40+
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — O que muda de fato depois dos 40](aulas/M14/M14-A01-o-que-muda-de-fato-depois-dos-40.md) | 2.213 | 19 min |
+| [A02 — Sarcopenia, resistência anabólica e a proteína do master](aulas/M14/M14-A02-sarcopenia-resistencia-anabolica-e-proteina.md) | 2.142 | 18 min |
+| [A03 — Declínio mitocondrial e capacidade de recuperação](aulas/M14/M14-A03-declinio-mitocondrial-e-recuperacao.md) | 2.230 | 19 min |
+| [A04 — Envelhecimento do tendão e da matriz extracelular](aulas/M14/M14-A04-envelhecimento-do-tendao-e-da-matriz.md) | 2.184 | 19 min |
+| [A05 — Recuperação alongada: o erro de manter o volume dos 25 anos](aulas/M14/M14-A05-recuperacao-alongada-e-o-volume-dos-25-anos.md) | 2.124 | 18 min |
+| [A06 — Declínio de testosterona e transição menopausal: os limites da reposição](aulas/M14/M14-A06-hormonios-no-master-e-os-limites-da-reposicao.md) | 2.180 | 18 min |
+| [A07 — Saúde óssea e treino de impacto](aulas/M14/M14-A07-saude-ossea-e-treino-de-impacto.md) | 2.170 | 18 min |
+| [A08 — Avaliação pré-participação e risco cardiovascular no esforço](aulas/M14/M14-A08-avaliacao-pre-participacao-e-risco-cardiovascular.md) | 2.511 | 21 min |
+| [A09 — Medicação crônica e exercício no master](aulas/M14/M14-A09-medicacao-cronica-e-exercicio-no-master.md) | 2.664 | 23 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
-8, 9, 10 e 11. No Eixo 3, **Módulos 12 e 13 completos**.
+8, 9, 10 e 11. No Eixo 3, **Módulos 12, 13 e 14 completos**.
 
-108 dos 190 roteiros prontos, 258.984 palavras.
-Próximo: M14 — Atleta master: 40+.
+117 dos 190 roteiros prontos, 279.402 palavras.
+Próximo: M15 — O crônico que treina.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
