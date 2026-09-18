@@ -263,15 +263,28 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A08 — Isquiotibiais, panturrilha e fasciopatia plantar](aulas/M17/M17-A08-isquiotibiais-panturrilha-e-fasciopatia-plantar.md) | 2.320 | 20 min |
 | [A09 — Dor persistente e sensibilização central](aulas/M17/M17-A09-dor-persistente-e-sensibilizacao-central.md) | 2.449 | 21 min |
 
+### Módulo 18 — Retorno ao esporte sem time por trás
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Critérios de retorno sem estrutura de clube](aulas/M18/M18-A01-criterios-de-retorno-sem-estrutura-de-clube.md) | 2.323 | 20 min |
+| [A02 — Progressão por critério, não por calendário](aulas/M18/M18-A02-progressao-por-criterio-nao-por-calendario.md) | 2.305 | 20 min |
+| [A03 — Dor aceitável: o modelo e seus limites](aulas/M18/M18-A03-dor-aceitavel-o-modelo-e-seus-limites.md) | 2.243 | 19 min |
+| [A04 — Testes funcionais aplicáveis em consultório](aulas/M18/M18-A04-testes-funcionais-aplicaveis-em-consultorio.md) | 2.256 | 19 min |
+| [A05 — Retorno ao trabalho e ao esporte no mesmo plano](aulas/M18/M18-A05-retorno-ao-trabalho-e-ao-esporte-no-mesmo-plano.md) | 2.301 | 20 min |
+| [A06 — Medo de reinjúria e prontidão psicológica](aulas/M18/M18-A06-medo-de-reinjuria-e-prontidao-psicologica.md) | 2.181 | 18 min |
+| [A07 — Decisão compartilhada e comunicação de risco](aulas/M18/M18-A07-decisao-compartilhada-e-comunicacao-de-risco.md) | 2.257 | 19 min |
+| [A08 — Prevenção de recidiva e quando o retorno não é a resposta](aulas/M18/M18-A08-prevencao-de-recidiva-e-quando-o-retorno-nao-e-a-resposta.md) | 2.234 | 19 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
 8, 9, 10 e 11. **Eixo 3 completo** — Módulos 12, 13, 14 e 15.
-No Eixo 4, os **Módulos 16 e 17** estão completos.
+**Eixo 4 completo** — Módulos 16, 17 e 18.
 
-142 dos 190 roteiros prontos, 335.870 palavras.
-Próximo: M18 — Retorno ao esporte sem time por trás.
+150 dos 190 roteiros prontos, 353.970 palavras.
+Próximo: M19 — Nutrição esportiva aplicada à vida real (abre o Eixo 5).
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
