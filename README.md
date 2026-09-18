@@ -249,15 +249,29 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A06 — Programas de prevenção: evidência, tamanho de efeito e adesão](aulas/M16/M16-A06-programas-de-prevencao-evidencia-e-adesao.md) | 2.190 | 19 min |
 | [A07 — O que vale a pena prescrever de fato](aulas/M16/M16-A07-o-que-vale-a-pena-prescrever-de-fato.md) | 2.130 | 18 min |
 
+### Módulo 17 — As lesões que realmente chegam ao consultório
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Tendinopatia: o modelo de continuum e o manejo por carga](aulas/M17/M17-A01-tendinopatia-continuum-e-manejo-por-carga.md) | 2.166 | 18 min |
+| [A02 — Tendinopatias de Aquiles, patelar e glútea](aulas/M17/M17-A02-tendinopatias-aquiles-patelar-e-glutea.md) | 2.219 | 19 min |
+| [A03 — Manguito rotador e ombro do nadador](aulas/M17/M17-A03-manguito-rotador-e-ombro-do-nadador.md) | 2.233 | 19 min |
+| [A04 — Estresse tibial e fratura por estresse](aulas/M17/M17-A04-estresse-tibial-e-fratura-por-estresse.md) | 2.296 | 19 min |
+| [A05 — Dor femoropatelar](aulas/M17/M17-A05-dor-femoropatelar.md) | 2.227 | 19 min |
+| [A06 — Lombalgia no praticante de força](aulas/M17/M17-A06-lombalgia-no-praticante-de-forca.md) | 2.292 | 19 min |
+| [A07 — Entorse de tornozelo e instabilidade residual](aulas/M17/M17-A07-entorse-de-tornozelo-e-instabilidade-residual.md) | 2.224 | 19 min |
+| [A08 — Isquiotibiais, panturrilha e fasciopatia plantar](aulas/M17/M17-A08-isquiotibiais-panturrilha-e-fasciopatia-plantar.md) | 2.320 | 20 min |
+| [A09 — Dor persistente e sensibilização central](aulas/M17/M17-A09-dor-persistente-e-sensibilizacao-central.md) | 2.449 | 21 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
 8, 9, 10 e 11. **Eixo 3 completo** — Módulos 12, 13, 14 e 15.
-O Eixo 4 abriu com o **Módulo 16 completo**.
+No Eixo 4, os **Módulos 16 e 17** estão completos.
 
-133 dos 190 roteiros prontos, 315.444 palavras.
-Próximo: M17 — As lesões que realmente chegam ao consultório.
+142 dos 190 roteiros prontos, 335.870 palavras.
+Próximo: M18 — Retorno ao esporte sem time por trás.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
