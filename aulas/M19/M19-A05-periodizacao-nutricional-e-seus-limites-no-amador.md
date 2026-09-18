@@ -18,6 +18,8 @@ O **Vitor tem 38 anos**, é triatleta amador, treina **oito horas por semana**, 
 
 A **Elza tem 50 anos**, corre recreativamente, e está fazendo **tudo ao mesmo tempo**: ciclo de carboidrato, jejum antes do treino longo, dia de recarga, janela de alimentação restrita. **Ela passa mais tempo planejando a alimentação do que treinando.** E quando eu perguntei quanta proteína ela comia no café da manhã, **ela não soube responder.**
 
+E eu quero deixar claro desde o começo de que lado esta aula está, **porque ela pode soar como uma aula contra periodização, e não é.** **É uma aula contra aplicar a ferramenta certa no paciente errado, na ordem errada.** A periodização nutricional **não falhou com o Vitor porque é ruim. Ela falhou porque era a quarta coisa a ser feita, e ele fez dela a primeira.**
+
 O **Vitor e a Elza são os dois casos de excesso. O terceiro é o contraponto, e ele importa.**
 
 A **Dulce tem 42 anos**, corre **uma maratona por ano**, tem dezesseis semanas de preparo pela frente, **e faz o básico bem feito há três anos.** **Nela, periodizar faz sentido** — e a aula precisa dizer **o quê**, porque não é o que o Vitor está fazendo.
