@@ -68,6 +68,8 @@ E há uma razão para a proteína ser o macronutriente sobre o qual mais se erra
 
 **As doses pequenas e frequentes foram insuficientes para atingir o limiar de estímulo em cada refeição. As doses grandes e espaçadas deixaram longos períodos sem estímulo.**
 
+**Uma ressalva de honestidade, porque esse estudo é muito extrapolado: ele mediu síntese proteica ao longo de doze horas, e não ganho de massa ao longo de meses.** Síntese aguda **não é sinônimo** de hipertrofia a longo prazo — a gente já viu essa distinção em outros temas do curso. **O que a evidência de desfecho sustenta é mais modesto: distribuir ajuda, e concentrar tudo numa refeição só provavelmente subaproveita.** **É o suficiente para orientar conduta, e não é o suficiente para transformar a distribuição num ritual.**
+
 **A lição prática: existe um limiar por refeição, e existe um intervalo útil entre refeições.**
 
 **Traduzindo para o consultório: em torno de vinte a quarenta gramas de proteína de boa qualidade por refeição, três a quatro vezes por dia, espaçadas de três a quatro horas.** **No idoso, a dose por refeição precisa ser maior** — é a resistência anabólica do módulo 14.
