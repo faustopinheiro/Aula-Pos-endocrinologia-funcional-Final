@@ -237,14 +237,27 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A08 — Depressão, ansiedade e transtorno alimentar no praticante](aulas/M15/M15-A08-depressao-ansiedade-e-transtorno-alimentar.md) | 2.456 | 21 min |
 | [A09 — Sinais de alarme e critérios de interrupção](aulas/M15/M15-A09-sinais-de-alarme-e-criterios-de-interrupcao.md) | 2.290 | 19 min |
 
+### Módulo 16 — Epidemiologia e prevenção de lesão no amador
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Como se define e se mede lesão no praticante recreativo](aulas/M16/M16-A01-como-se-define-e-se-mede-lesao.md) | 2.138 | 18 min |
+| [A02 — Incidência por modalidade no amador](aulas/M16/M16-A02-incidencia-por-modalidade-no-amador.md) | 2.240 | 19 min |
+| [A03 — Por que o amador se lesiona diferente do profissional](aulas/M16/M16-A03-por-que-o-amador-se-lesiona-diferente.md) | 2.263 | 19 min |
+| [A04 — Erro de progressão: o fator número um](aulas/M16/M16-A04-erro-de-progressao-o-fator-numero-um.md) | 2.294 | 19 min |
+| [A05 — Fatores modificáveis e não modificáveis](aulas/M16/M16-A05-fatores-modificaveis-e-nao-modificaveis.md) | 2.334 | 20 min |
+| [A06 — Programas de prevenção: evidência, tamanho de efeito e adesão](aulas/M16/M16-A06-programas-de-prevencao-evidencia-e-adesao.md) | 2.190 | 19 min |
+| [A07 — O que vale a pena prescrever de fato](aulas/M16/M16-A07-o-que-vale-a-pena-prescrever-de-fato.md) | 2.130 | 18 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
 8, 9, 10 e 11. **Eixo 3 completo** — Módulos 12, 13, 14 e 15.
+O Eixo 4 abriu com o **Módulo 16 completo**.
 
-126 dos 190 roteiros prontos, 299.855 palavras.
-Próximo: M16 — Epidemiologia e prevenção de lesão no amador (abre o Eixo 4).
+133 dos 190 roteiros prontos, 315.444 palavras.
+Próximo: M17 — As lesões que realmente chegam ao consultório.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
