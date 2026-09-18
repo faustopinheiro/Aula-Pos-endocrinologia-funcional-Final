@@ -223,14 +223,28 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A08 — Avaliação pré-participação e risco cardiovascular no esforço](aulas/M14/M14-A08-avaliacao-pre-participacao-e-risco-cardiovascular.md) | 2.511 | 21 min |
 | [A09 — Medicação crônica e exercício no master](aulas/M14/M14-A09-medicacao-cronica-e-exercicio-no-master.md) | 2.664 | 23 min |
 
+### Módulo 15 — O crônico que treina
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Exercício como prescrição terapêutica](aulas/M15/M15-A01-exercicio-como-prescricao-terapeutica.md) | 2.228 | 19 min |
+| [A02 — Diabetes tipo 1: insulina e exercício](aulas/M15/M15-A02-diabetes-tipo-1-insulina-e-exercicio.md) | 2.168 | 18 min |
+| [A03 — Diabetes tipo 2, antidiabéticos e hipoglicemia no esforço](aulas/M15/M15-A03-diabetes-tipo-2-antidiabeticos-e-hipoglicemia.md) | 2.225 | 19 min |
+| [A04 — Hipertensão e cardiopatia estável](aulas/M15/M15-A04-hipertensao-e-cardiopatia-estavel.md) | 2.249 | 19 min |
+| [A05 — GLP-1: perda de massa magra e prescrição de força](aulas/M15/M15-A05-glp1-massa-magra-e-prescricao-de-forca.md) | 2.345 | 20 min |
+| [A06 — Asma, broncoespasmo e doença renal crônica](aulas/M15/M15-A06-asma-broncoespasmo-e-doenca-renal-cronica.md) | 2.250 | 19 min |
+| [A07 — Câncer e sobrevivente de câncer](aulas/M15/M15-A07-cancer-e-sobrevivente-de-cancer.md) | 2.242 | 19 min |
+| [A08 — Depressão, ansiedade e transtorno alimentar no praticante](aulas/M15/M15-A08-depressao-ansiedade-e-transtorno-alimentar.md) | 2.456 | 21 min |
+| [A09 — Sinais de alarme e critérios de interrupção](aulas/M15/M15-A09-sinais-de-alarme-e-criterios-de-interrupcao.md) | 2.290 | 19 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
-8, 9, 10 e 11. No Eixo 3, **Módulos 12, 13 e 14 completos**.
+8, 9, 10 e 11. **Eixo 3 completo** — Módulos 12, 13, 14 e 15.
 
-117 dos 190 roteiros prontos, 279.402 palavras.
-Próximo: M15 — O crônico que treina.
+126 dos 190 roteiros prontos, 299.855 palavras.
+Próximo: M16 — Epidemiologia e prevenção de lesão no amador (abre o Eixo 4).
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
