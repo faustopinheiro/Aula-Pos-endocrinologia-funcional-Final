@@ -276,15 +276,29 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 | [A07 — Decisão compartilhada e comunicação de risco](aulas/M18/M18-A07-decisao-compartilhada-e-comunicacao-de-risco.md) | 2.257 | 19 min |
 | [A08 — Prevenção de recidiva e quando o retorno não é a resposta](aulas/M18/M18-A08-prevencao-de-recidiva-e-quando-o-retorno-nao-e-a-resposta.md) | 2.234 | 19 min |
 
+### Módulo 19 — Nutrição esportiva aplicada à vida real
+
+| Aula | Palavras | Duração |
+|---|---|---|
+| [A01 — Disponibilidade energética: cálculo, interpretação e identificação do déficit](aulas/M19/M19-A01-disponibilidade-energetica-calculo-e-deficit.md) | 2.270 | 19 min |
+| [A02 — Carboidrato por demanda real de treino](aulas/M19/M19-A02-carboidrato-por-demanda-real-de-treino.md) | 2.247 | 19 min |
+| [A03 — Proteína: necessidade, distribuição e o ajuste do master](aulas/M19/M19-A03-proteina-necessidade-distribuicao-e-o-ajuste-do-master.md) | 2.172 | 18 min |
+| [A04 — Gordura e função endócrina](aulas/M19/M19-A04-gordura-e-funcao-endocrina.md) | 2.233 | 19 min |
+| [A05 — Periodização nutricional e seus limites no amador](aulas/M19/M19-A05-periodizacao-nutricional-e-seus-limites-no-amador.md) | 2.134 | 18 min |
+| [A06 — Hidratação, eletrólitos e desconforto gastrointestinal](aulas/M19/M19-A06-hidratacao-eletrolitos-e-desconforto-gastrointestinal.md) | 2.201 | 19 min |
+| [A07 — Comer para quem treina às 5h ou às 22h](aulas/M19/M19-A07-comer-para-quem-treina-as-5h-ou-as-22h.md) | 2.180 | 18 min |
+| [A08 — Vegetarianismo, jejum e padrões restritivos](aulas/M19/M19-A08-vegetarianismo-jejum-e-padroes-restritivos.md) | 2.226 | 19 min |
+
 ## Estado
 
 Matriz e ementário fechados. **Eixo 0 completo** — Módulos 1, 2 e 3.
 **Eixo 1 completo** — Módulos 4, 5 e 6. **Eixo 2 completo** — Módulos 7,
 8, 9, 10 e 11. **Eixo 3 completo** — Módulos 12, 13, 14 e 15.
 **Eixo 4 completo** — Módulos 16, 17 e 18.
+O Eixo 5 abriu com o **Módulo 19 completo**.
 
-150 dos 190 roteiros prontos, 353.970 palavras.
-Próximo: M19 — Nutrição esportiva aplicada à vida real (abre o Eixo 5).
+158 dos 190 roteiros prontos, 371.633 palavras.
+Próximo: M20 — Suplementação esportiva: o que tem evidência.
 
 **Revisão de escopo (setembro).** Entraram dois módulos que faltavam —
 **M11, saúde mental e psicologia aplicada ao esporte**, e **M20, suplementação
