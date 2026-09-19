@@ -118,6 +118,30 @@ ornamento — e ornamento repetido cento e cinquenta vezes vira ruído.
 
 ---
 
+## Rodízio de modalidade
+
+Mesma lógica das arquiteturas, aplicada ao exemplo clínico: **a repetição de
+modalidade cansa e estreita o curso.**
+
+**Duas aulas seguidas não abrem com a mesma modalidade.** E toda unidade de 30h
+cobre no mínimo **quatro famílias**: endurance com impacto (corrida, trilha,
+triatlo) · força e academia (musculação, levantamento, funcional, box) ·
+combate (luta, boxe, judô, jiu-jitsu, MMA) · coletivo de quadra e campo
+(futebol, futsal, vôlei, basquete, handebol) · aquático (natação, travessia,
+polo) · raquete (tênis, beach tennis, padel).
+
+**O futebol é o que mais escorrega para dentro do texto sem ser convidado**,
+porque é de onde vem a maior parte da literatura. A regra: quando o dado é do
+futebol, **a aula diz que é do futebol** — e diz o que isso limita. Quando o
+dado não é, o exemplo não precisa ser.
+
+**E quando o conteúdo depende do contexto** — emergência, estrutura, retorno,
+logística —, organize por **cenário** (quadra, tatame, rua, água, academia,
+consultório), nunca por modalidade. Organizar por modalidade produz sempre a
+mesma coisa: uma aula de futebol e uma aula chamada "os outros esportes".
+
+---
+
 ## Slides
 
 Marcador `[SLIDE X DE N]` e descrição do visual continuam. A fala **não muda

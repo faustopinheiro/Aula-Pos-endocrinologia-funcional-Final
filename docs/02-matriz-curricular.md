@@ -24,11 +24,11 @@ síncronos quinzenais de discussão de caso.
 | 6 | **U6** — Ciclos de vida II: master e o crônico que treina | 30h | 15 |
 | 7 | **U7** — Lesão: prevenção e o que chega ao consultório | 30h | 14 |
 | 8 | **U8** — Reabilitação, recursos terapêuticos e retorno | 30h | 15 |
-| 9 | **U9** — Emergências no esporte | 30h | 13 |
+| 9 | **U9** — Emergências no esporte | 30h | 15 |
 | 10 | **U10** — Nutrição, suplementação e antidoping | 30h | 16 |
 | 11 | **U11** — Time, clube e raciocínio integrado | 30h | 14 |
 | 12 | **U12** — TCC: plano de cuidado de um atleta real | 30h | 4 + orientação |
-| | **Total** | **360h** | **166** |
+| | **Total** | **360h** | **168** |
 
 ---
 
@@ -104,9 +104,9 @@ administrativa.
 |---|---|---|
 | Unidades | 24 módulos de 15h | 12 unidades de 30h |
 | Duração | 12 a 18 meses | 12 meses fixos |
-| Aulas | 190 | 166 |
+| Aulas | 190 | 168 |
 | Reabilitação | inexistente | 8 aulas |
-| Emergências | inexistente | 13 aulas (unidade inteira) |
+| Emergências | inexistente | 15 aulas (unidade inteira) |
 | Antidoping | inexistente | 2 aulas + integrado |
 | Estrutura de clube | inexistente | 6 aulas |
 | Módulo de ética isolado | M3, 15h | dissolvido e aplicado |

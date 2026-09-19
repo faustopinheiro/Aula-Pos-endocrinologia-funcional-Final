@@ -150,6 +150,42 @@ Se a resposta for não, a aula sobe de altitude ou sai.
 
 ---
 
+## A régua que impede a pós de virar uma pós de futebol
+
+**Nenhuma modalidade é o padrão.**
+
+O futebol é a modalidade com mais literatura, mais dinheiro e mais pós-graduação
+no Brasil — e é exatamente por isso que ele se instala sozinho como exemplo
+default de qualquer aula de esporte. Quando isso acontece, o programa passa a
+ensinar **o esporte que tem mais artigo**, e não o esporte que o egresso vai
+atender.
+
+O que o egresso vai atender, em volume: **corrida de rua, musculação, academia
+e treino funcional, esportes de combate, natação, ciclismo, beach tennis e
+padel, vôlei, futsal e futebol amador, dança, escalada, triatlo** — e o futebol
+profissional, quando ele aparece, aparece como um caso entre muitos.
+
+Três regras operacionais:
+
+1. **A régua por unidade.** Toda unidade de 30h traz exemplos de, no mínimo,
+   **quatro famílias de modalidade**: endurance com impacto · força e academia ·
+   esporte de combate · coletivo de quadra ou campo · aquático · raquete. Se uma
+   unidade fecha com exemplos de uma família só, ela é reescrita.
+2. **O cenário vem antes do esporte.** Quando o conteúdo depende do contexto —
+   emergência, estrutura, retorno —, ele é organizado por **onde a coisa
+   acontece** (quadra, tatame, rua, água, academia, consultório), e não por
+   modalidade. É o que impede o "futebol e o resto".
+3. **Nenhuma aula abre com futebol duas vezes seguidas** — vale para qualquer
+   modalidade, e o futebol é só o que mais escorrega para lá.
+
+**Onde o futebol entra por direito:** onde a evidência dele é a melhor
+disponível, e a aula diz isso em voz alta — epidemiologia de lesão por hora de
+exposição, isquiotibiais, calendário congestionado, concussão em esporte de
+contato. Nesses pontos, o dado é do futebol **e a aula explicita que é** —
+inclusive para mostrar o que ele não cobre.
+
+---
+
 ## Perfil do egresso
 
 Ao final, o especialista é capaz de:

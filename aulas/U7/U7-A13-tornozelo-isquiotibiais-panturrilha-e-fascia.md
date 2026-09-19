@@ -2,7 +2,7 @@
 
 **Unidade 7 — Lesão: prevenção e o que chega ao consultório**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 26 minutos · 7 slides · Arquitetura: PROCEDIMENTO
+Duração: 28 minutos · 7 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
@@ -43,6 +43,8 @@ O **consenso do International Ankle Consortium, de 2016, coordenado por Gribble 
 **E aqui está a consequência: até quarenta por cento das pessoas que sofrem um primeiro entorse lateral desenvolvem instabilidade crônica de tornozelo.**
 
 **Quarenta por cento.** Vejam o contraste com o resto deste mês: a gente discute prevenção com intervenções cujo efeito atravessa o número um, e aqui existe uma lesão em que **quase metade dos acometidos fica com sequela funcional** — e a conduta padrão, no mundo real, é gelo e esperar.
+
+**E uma palavra sobre o tatame, porque ele é o cenário em que esse funil é mais fundo de todos.** No agarre — judô, jiu-jitsu, wrestling — o tornozelo é torcido **por outra pessoa**, com o pé preso no tatame, frequentemente em rotação com o corpo já em queda. Isso muda três coisas: **o mecanismo raramente é só inversão**, então a sindesmose e o médio-pé entram no diferencial com mais frequência; **o praticante não controla a dose**, porque quem aplica a carga é o parceiro de treino; e **a cultura da modalidade trata torção como parte do dia**, o que faz o "foi só um entorse" render ainda mais do que em quadra. O praticante de jiu-jitsu que torce o tornozelo numa raspagem na terça e volta a rolar na quinta **é o caso mais comum de instabilidade crônica que eu vejo** — e nenhum desses episódios aparece em estatística nenhuma.
 
 **Uma nota sobre a classificação em graus um, dois e três**, porque ela aparece em todo prontuário: **a gravidade do entorse inicial é um preditor fraco do desfecho funcional.** Quem determina se o paciente vira instável **não é o grau do entorse — é o tratamento e o número de repetições.** Entorse leve mal tratado e repetido produz mais incapacidade do que entorse grave bem reabilitado. **Não use o grau para decidir quanto tratar.**
 
@@ -231,6 +233,9 @@ Visual: quatro estruturas, cada uma com um contador de recidivas.
 · **Mas o dado importante é o FUNIL** (Gribble / International Ankle Consortium 2016): **grande parte dos entorses nunca chega a atendimento** e, dos que chegam, **uma fração menor recebe reabilitação estruturada**
 · **Até 40% dos que sofrem um primeiro entorse lateral desenvolvem instabilidade crônica**
 · Contraste com o resto do mês: discutimos prevenção com efeitos que atravessam o número 1, **e aqui quase metade fica com sequela funcional — com conduta padrão de gelo e esperar**
+· **O TATAME é onde o funil é mais fundo:** no agarre (judô, jiu-jitsu, wrestling) **o tornozelo é torcido por OUTRA pessoa**, com o pé preso, em rotação e com o corpo já em queda
+· → **o mecanismo raramente é só inversão** (sindesmose e médio-pé entram no diferencial) · **o praticante não controla a dose** (quem aplica a carga é o parceiro) · **a cultura trata torção como parte do dia**
+· **Quem torce numa raspagem na terça e volta a rolar na quinta é o caso mais comum de instabilidade crônica — e nenhum desses episódios entra em estatística nenhuma**
 · **O grau (1, 2, 3) é preditor FRACO do desfecho funcional.** Quem decide é **o tratamento e o número de repetições**. **Não use o grau para decidir quanto tratar**
 · **A artrose de tornozelo é majoritariamente PÓS-TRAUMÁTICA** — ao contrário do joelho e do quadril. **O tornozelo vira artrósico porque se machucou, não porque envelheceu**
 · **"Quando eu volto a jogar?" não é a pergunta errada. É incompleta: quando você volta, e com qual tornozelo daqui a vinte anos**

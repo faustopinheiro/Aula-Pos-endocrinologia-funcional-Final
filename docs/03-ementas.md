@@ -385,38 +385,48 @@ risco residual de forma compartilhada.
 | 14 | Medo de reinjúria, prontidão psicológica e decisão compartilhada | PROCEDIMENTO | 25 | M18-A06 + M18-A07 · FUNDIR |
 | 15 | Prevenção de recidiva e quando o retorno não é a resposta | CASO | 28 | M18-A08 · EDITAR |
 
-**Estudo de caso avaliativo.** Entorse grau II de tornozelo em jogador amador
-com campeonato em 3 semanas: montar a progressão por critério, definir o que
-é negociável e escrever a comunicação de risco.
+**Estudo de caso avaliativo.** Um atleta com data marcada e tecido ainda
+incompleto — o aluno escolhe o cenário entre quatro (entorse de tornozelo com
+campeonato de futsal em 3 semanas · tendinopatia patelar com torneio de vôlei
+· lesão de isquiotibiais com prova de rua paga · dor lombar com competição de
+levantamento): montar a progressão por critério, definir o que é negociável e
+escrever a comunicação de risco.
 
 **A LIGAÇÃO:** o tecido que cicatriza ↔ a decisão de quem vai voltar a jogar.
 
 ---
 
 # MÊS 9 · U9 — Emergências no esporte
-**30h · 13 aulas** · *origem: unidade inteiramente nova*
+**30h · 15 aulas** · *origem: unidade inteiramente nova*
 
 > **Régua de altitude.** Cada aula explicita o que cada profissão faz e o que
 > não faz naquele cenário. O objetivo comum aos sete é **reconhecer, iniciar
 > a conduta que lhe cabe e transferir o cuidado** — não substituir o
 > atendimento médico avançado.
 
+> **Régua de modalidade.** As quatro aulas de cenário não são "futebol e o
+> resto". Elas são organizadas por **onde a emergência acontece**, porque é
+> isso que muda a conduta: o que decide não é o esporte, é **a distância até
+> o recurso, quem está por perto e o que dá para carregar até lá.** Quadra e
+> campo, tatame e ringue, ambiente aberto e aquático, e academia — que é onde
+> mais gente treina no país e onde quase nunca há plano nenhum.
+
 **Ementa.** A emergência no esporte: epidemiologia, cadeia de sobrevivência e
 por que o tempo é o desfecho. Plano de ação de emergência: quem faz o quê,
 onde fica o material, quem chama, quem recebe. Parada cardiorrespiratória no
 esporte: reconhecimento, RCP e desfibrilação precoce; morte súbita e suas
-causas por faixa etária. Trauma cranioencefálico e concussão: reconhecimento à
-beira do campo, critérios de remoção e retorno gradual. Trauma cervical e
+causas por faixa etária. Trauma cranioencefálico e concussão: reconhecimento
+à beira do campo, critérios de remoção e retorno gradual. Trauma cervical e
 remoção segura. Emergências ambientais: hipertermia de esforço, hiponatremia
 associada ao exercício, hipotermia, afogamento. Emergências metabólicas:
 hipoglicemia, crise asmática, anafilaxia. Trauma musculoesquelético agudo,
 sangramento e ferimento facial. Colapso do atleta ao final da prova. E a
-especificidade por modalidade: o que muda no futebol, na luta, na corrida de
-rua, na natação e nos esportes de endurance.
+especificidade por cenário: quadra e campo, esporte de combate, ambiente
+aberto e aquático, e academia.
 
 **Objetivos.** Reconhecer a emergência esportiva em segundos; executar a
 conduta inicial dentro do escopo da sua profissão; operar um plano de ação de
-emergência; e adaptar o plano à modalidade e ao local.
+emergência; e adaptar o plano ao cenário, ao local e ao recurso disponível.
 
 | # | Aula | Arquitetura | Min | Origem |
 |---|---|---|---|---|
@@ -431,12 +441,38 @@ emergência; e adaptar o plano à modalidade e ao local.
 | 9 | Hipoglicemia, crise asmática e anafilaxia no treino e na prova | PROCEDIMENTO | 20 | NOVA |
 | 10 | Trauma agudo, sangramento e ferimento facial | PROCEDIMENTO | 15 | NOVA |
 | 11 | O atleta que colapsa na linha de chegada | DECISÃO | 12 | NOVA |
-| 12 | Emergência por modalidade I: futebol e esportes coletivos de campo | CASO | 25 | NOVA |
-| 13 | Emergência por modalidade II: luta, corrida de rua, natação e endurance | CASO | 30 | NOVA |
+| 12 | Cenário I — quadra e campo: coletivos, do profissional à várzea | CASO | 22 | NOVA |
+| 13 | Cenário II — tatame e ringue: luta, boxe e artes marciais | PROCEDIMENTO | 25 | NOVA |
+| 14 | Cenário III — ambiente aberto e aquático: corrida de rua, trilha, ciclismo, natação e triatlo | DECISÃO | 28 | NOVA |
+| 15 | Cenário IV — academia, box e estúdio: onde mais gente treina e onde quase não há plano | CASO | 20 | NOVA |
+
+**O que cada cenário tem de próprio.**
+
+**Quadra e campo** — há gente em volta e há árbitro: o problema é **decidir
+rápido com a partida parada e pressão para liberar.** Concussão, parada
+presenciada, trauma facial, laceração, e a diferença entre o jogo com
+ambulância na porta e o de sábado sem nada.
+
+**Tatame e ringue** — a lesão é **produzida pelo regulamento**: nocaute e
+concussão repetida, estrangulamento e perda de consciência, corte e
+sangramento, desidratação e corte de peso na pesagem, trauma cervical em
+projeção. Inclui a decisão de interromper a luta e o que fazer depois dela.
+
+**Ambiente aberto e aquático** — o atleta está **longe do recurso**: tempo de
+resgate em trilha e em estrada, trauma de alta energia no ciclismo, hipotermia
+e afogamento em travessia e em triatlo, hipertermia e hiponatremia em prova de
+rua, e como se monta cobertura numa prova em que os participantes estão
+espalhados por trinta quilômetros.
+
+**Academia, box e estúdio** — o cenário mais negligenciado e o de maior
+volume de praticantes: parada em esteira ou sob a barra, desmaio, crise
+hipertensiva, lesão aguda com carga em cima do corpo, e a pergunta que quase
+nenhuma academia sabe responder — **quem é o responsável e onde está o DEA.**
 
 **Estudo de caso avaliativo.** Escrever o plano de ação de emergência de um
-evento ou local real do próprio aluno — academia, clube, prova de rua, dojô —
-com material, fluxo, responsáveis e rota de transporte.
+local ou evento real do próprio aluno — academia, clube, box, prova de rua,
+dojô, piscina, quadra de escola — com material, fluxo, responsáveis e rota de
+transporte.
 
 **A LIGAÇÃO:** o segundo em que se reconhece ↔ a estrutura montada meses antes.
 
@@ -487,24 +523,35 @@ expor o atleta nem a si mesmo.
 população passa a ser dito dentro de cada aula de substância, como manda a
 regra de contexto.*
 
-**Estudo de caso avaliativo.** Atleta amador federado chega com quatro potes e
-uma receita de outro profissional: auditar rótulo, evidência, custo mensal e
-risco antidoping, e escrever a devolutiva.
+**Estudo de caso avaliativo.** Um praticante sujeito a controle antidoping —
+federado em qualquer modalidade, de jiu-jitsu a corrida de rua — chega com
+quatro potes e uma receita de outro profissional: auditar rótulo, evidência,
+custo mensal e risco antidoping, e escrever a devolutiva.
 
 **A LIGAÇÃO:** o que o pote promete ↔ o que a conta de energia já explicava.
 
 ---
 
-# MÊS 11 · U11 — Time, clube e raciocínio integrado
+# MÊS 11 · U11 — Time, estrutura e raciocínio integrado
 **30h · 14 aulas** · *origem: M22 + M23 + aulas novas*
+
+> **Régua de modalidade.** "Estrutura" aqui não quer dizer clube de futebol.
+> Quer dizer **qualquer lugar em que mais de um profissional cuida do mesmo
+> atleta**: clube, federação, seleção de base, academia com equipe técnica,
+> box, assessoria de corrida, equipe de natação, centro de treinamento,
+> estúdio de pilates, clínica multiprofissional. O modelo de departamento de
+> saúde de clube entra como **um** dos formatos, e sempre ao lado do que se
+> faz com dois profissionais e um grupo de WhatsApp — que é o arranjo real da
+> maioria dos alunos.
 
 **Ementa.** Escopo de atuação de cada profissão e os limites éticos no time.
 Linguagem comum entre as sete profissões. Encaminhamento útil. Reunião de caso
 e decisão compartilhada. Registro e comunicação com treinador e família.
-Trabalhar dentro de uma estrutura: como se organiza um departamento de saúde,
-quem responde a quem, fluxo do atleta lesionado, rotina de avaliação
-periódica, pré-temporada, logística de jogo e viagem, e a relação com a
-comissão técnica. O que muda quando existe estrutura — e o que continua igual.
+Trabalhar dentro de uma estrutura esportiva: como se organiza uma equipe de
+saúde, quem responde a quem, fluxo do atleta lesionado, rotina de avaliação
+periódica, preparação de temporada, logística de competição e viagem, e a
+relação com quem treina. O que muda quando existe estrutura — e o que
+continua igual.
 Raciocínio clínico integrado: da conta de reserva à hipótese, fadiga
 inexplicada, lesão recorrente, platô, e o que fazer quando os eixos discordam.
 
@@ -519,12 +566,12 @@ raciocínio integrado até a priorização da intervenção.
 | 3 | Como escrever um encaminhamento útil | PROCEDIMENTO | 12 | M22-A03 · EDITAR |
 | 4 | Reunião de caso e decisão compartilhada | PROCEDIMENTO | 18 | M22-A04 · EDITAR |
 | 5 | Registro, documentação e comunicação com treinador e família | DECISÃO | 15 | M22-A05 · EDITAR |
-| 6 | Como se organiza um departamento de saúde: cargos, fluxo e quem decide | PROCEDIMENTO | 25 | NOVA |
-| 7 | O fluxo do atleta lesionado dentro do clube | PROCEDIMENTO | 20 | NOVA |
-| 8 | Pré-temporada e avaliação periódica: o que se mede e para quê | NÚMERO | 20 | NOVA |
-| 9 | Logística de jogo, viagem e calendário congestionado | DECISÃO | 18 | NOVA |
-| 10 | Comissão técnica, pressão por resultado e a decisão que você assina | DECISÃO | 20 | NOVA |
-| 11 | Com estrutura e sem estrutura: o que muda e o que continua igual | ERRO | 12 | NOVA |
+| 6 | Como se organiza uma equipe de saúde: cargos, fluxo e quem decide | PROCEDIMENTO | 25 | NOVA |
+| 7 | O fluxo do atleta lesionado dentro de uma estrutura | PROCEDIMENTO | 20 | NOVA |
+| 8 | Preparação de temporada e avaliação periódica: o que se mede e para quê | NÚMERO | 20 | NOVA |
+| 9 | Competição, viagem e calendário congestionado | DECISÃO | 18 | NOVA |
+| 10 | Quem treina, pressão por resultado e a decisão que você assina | DECISÃO | 20 | NOVA |
+| 11 | Os quatro formatos de estrutura, e o que muda em cada um | ERRO | 15 | NOVA |
 | 12 | A conta de reserva adaptativa: do dado à hipótese | PROCEDIMENTO | 20 | M23-A01 · EDITAR |
 | 13 | Fadiga inexplicada, lesão recorrente e platô: o diferencial integrado | CASO | 30 | M23-A02 + M23-A03 + M23-A04 · FUNDIR |
 | 14 | Quando os eixos discordam: priorizando a intervenção | DECISÃO | 25 | M23-A05 · EDITAR |
@@ -532,9 +579,21 @@ raciocínio integrado até a priorização da intervenção.
 *As aulas 12 a 14 não repetem os diferenciais já dados em U2 e U4: aqui o
 objeto é a **priorização** quando há mais de uma hipótese viva ao mesmo tempo.*
 
-**Estudo de caso avaliativo.** Desenhar o departamento de saúde de um clube
-pequeno com orçamento definido: quem se contrata, em que ordem, que fluxo se
-escreve e o que se terceiriza.
+**Os quatro formatos de estrutura** que a unidade percorre lado a lado, para
+que nenhuma aula tenha um único esporte por padrão:
+
+| Formato | Exemplo | O que decide |
+|---|---|---|
+| **Departamento completo** | clube profissional, seleção, centro de treinamento | hierarquia, calendário, pressão por resultado |
+| **Equipe pequena** | academia com equipe técnica, box, equipe de natação, assessoria de corrida | papéis acumulados, decisão sem segunda opinião |
+| **Rede informal** | dois ou três profissionais autônomos que atendem o mesmo atleta | comunicação e registro, que é tudo o que existe |
+| **Profissional sozinho** | consultório, atendimento domiciliar, personal | quando encaminhar, e para quem |
+
+**Estudo de caso avaliativo.** Desenhar a equipe de saúde de **uma** estrutura
+à escolha do aluno — clube pequeno, academia de bairro, box de CrossFit,
+assessoria de corrida, equipe de base de vôlei, projeto social — com orçamento
+definido: quem se contrata, em que ordem, que fluxo se escreve e o que se
+terceiriza.
 
 **A LIGAÇÃO:** a decisão clínica ↔ a estrutura e as pessoas que vão executá-la.
 
@@ -565,7 +624,7 @@ documentado, de um praticante real acompanhado pelo aluno.
 |---|---|---|
 | Unidades | 24 módulos de 15h (+1 de 25h) | 12 unidades de 30h |
 | Duração | indefinida | 12 meses, uma unidade por mês |
-| Aulas | 190 previstas / 158 escritas | 166 |
+| Aulas | 190 previstas / 158 escritas | 168 |
 | Formato de aula | um só, 18–22 min, 6 slides | 5 arquiteturas, 3 faixas de duração |
 | Caso clínico | espinha narrativa de toda aula | cota de 2 por unidade + 1 caso avaliativo |
 | Carga horária | 355h | 360h |
@@ -578,5 +637,10 @@ com a hierarquia do clube na frente. Os módulos de suplementação (M20 e M21)
 eram um só escrito duas vezes e foram fundidos.
 
 **O que entrou.** Reabilitação e recursos terapêuticos (8 aulas novas),
-Emergências no esporte (13 aulas novas, unidade inteira), Antidoping (2 aulas
-novas), Trabalhar dentro de uma estrutura de clube (6 aulas novas).
+Emergências no esporte (15 aulas novas, unidade inteira), Antidoping (2 aulas
+novas), Trabalhar dentro de uma estrutura esportiva (6 aulas novas).
+
+**A régua de modalidade.** Nenhuma modalidade é o padrão do curso. Toda
+unidade cobre no mínimo quatro famílias de modalidade, e o conteúdo que
+depende do contexto — emergência, estrutura, retorno — é organizado por
+**cenário**, não por esporte. Ver `01-tese-e-posicionamento.md`.

@@ -2,7 +2,7 @@
 
 **Unidade 7 — Lesão: prevenção e o que chega ao consultório**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 16 minutos · 6 slides · Arquitetura: ERRO
+Duração: 20 minutos · 6 slides · Arquitetura: ERRO
 
 ---
 
@@ -108,6 +108,28 @@ E acrescentem dois fatores do contexto real: campo de qualidade variável, e **a
 
 E o fator de risco populacional específico deles: **quem entra é predominantemente adulto, frequentemente acima dos 40, frequentemente vindo do sedentarismo — e entra direto no formato competitivo.** Ninguém faz três meses de fundamento de beach tennis antes de jogar torneio de duplas. É o mesmo problema do futebol de sábado, com outra raquete.
 
+**Esportes de combate.** E aqui eu preciso abrir espaço, porque é a família que quase sempre some das aulas de epidemiologia — e não some do consultório. No Brasil, muito menos.
+
+A particularidade que muda tudo: **a lesão de combate é produzida pelo regulamento — e o regulamento varia muito entre modalidades.** Então "esporte de luta" é uma categoria tão inútil quanto "corrida" foi no slide 2.
+
+**Bromley e colaboradores, numa revisão sistemática de pesquisa prospectiva nos esportes de combate olímpicos**, mostram isso com clareza, pela distribuição por sítio:
+
+**No boxe**, cabeça e face concentram cerca de **46%** das lesões, seguidas de punho, em torno de **12%**, e lombar, perto de **8%**.
+
+**No judô**, a distribuição é completamente outra: **lombar em torno de 11%, ombro perto de 10%, joelho perto de 10%** — e nada parecido com a concentração craniofacial do boxe.
+
+**No wrestling**, **joelho em torno de 25%, ombro perto de 18%, e cabeça e face perto de 17%.**
+
+**No taekwondo**, **dedos em torno de 23%** e coxa perto de **9%.**
+
+Leiam a lógica por trás dos números, que é o que vocês vão usar: **modalidade de percussão concentra trauma em cabeça, face e mão. Modalidade de agarre e projeção concentra carga em articulações grandes — joelho, ombro, cotovelo — e na lombar.** O jiu-jitsu, que não está nessa revisão porque não é olímpico, se comporta como agarre: joelho, ombro, cotovelo e tornozelo.
+
+E duas coisas específicas que vocês precisam ter no radar, porque não existem em nenhuma outra família.
+
+**A primeira é o corte de peso** — e ele não é só um problema de desempenho. Um estudo de campo publicado em 2025, acompanhando vinte e quatro eventos de combate ao longo de catorze meses, encontrou **associação entre a magnitude da perda rápida de peso nas 24 horas antes da pesagem e o relato de lesão sete dias depois da competição** em homens. Desidratação, déficit energético agudo e alteração de contração muscular entram todos na mesma conta — que é a conta de reserva adaptativa do mês 1, comprimida em três dias.
+
+**A segunda é a exposição cumulativa a trauma de cabeça no treino**, que é maior do que na competição, **porque se treina muito mais do que se luta.** Esse é um dado de exposição, não de evento — e é exatamente o tipo de coisa que o registro de lesão por competição nunca captura.
+
 **Natação e ciclismo.** Baixa taxa de lesão musculoesquelética por sobrecarga de impacto, como se espera de modalidades sem sustentação de peso. E dois cuidados específicos: no nado, **o ombro** — por volume de braçada e por técnica; no ciclismo, **dor lombar e de joelho por ajuste de bicicleta**, e sobretudo **o trauma por queda.**
 
 E aqui está o risco que nenhum estudo de epidemiologia esportiva costuma capturar direito e que no Brasil é o principal: **no ciclismo de rua, a variável de maior peso não é fisiológica. É o trânsito.**
@@ -115,10 +137,10 @@ E aqui está o risco que nenhum estudo de epidemiologia esportiva costuma captur
 ---
 
 📊 **[SLIDE 5 DE 6]**
-*Visual: quatro perfis de mecanismo em quadrantes, com o que cada um exige de prevenção escrito ao lado.*
+*Visual: cinco perfis de mecanismo, com o que cada um exige de prevenção escrito ao lado.*
 *Teleprompter: (a tabela mental de uso)*
 
-Como usar tudo isso na prática. Eu proponho uma tabela mental de quatro perfis, organizada por **mecanismo**, e não por modalidade.
+Como usar tudo isso na prática. Eu proponho uma tabela mental de cinco perfis, organizada por **mecanismo**, e não por modalidade.
 
 **Perfil um: impacto repetido com volume alto.** Corrida, e também caminhada em grande volume, trilha e triatlo.
 
@@ -132,7 +154,11 @@ Mecanismo dominante: **trauma agudo em desaceleração e corte.** O que previne:
 
 Mecanismo dominante: **técnica e salto de carga.** O que previne: **supervisão qualificada** — pelo dado do slide anterior — e progressão de carga registrada.
 
-**Perfil quatro: sem impacto, com gesto repetido ou risco externo.** Natação e ciclismo.
+**Perfil quatro: contato direto, projeção e impacto dirigido.** Judô, jiu-jitsu, wrestling, boxe, muay thai, MMA.
+
+Mecanismo dominante: **carga articular imposta por outra pessoa** — que é a única família em que o praticante não controla a dose. O que previne: **progressão de exposição ao rolamento e ao sparring** (e não só ao treino técnico), **força e controle de ombro e joelho**, **regra explícita sobre trauma de cabeça no treino**, e **gestão do corte de peso**, que é um fator de risco de lesão e não só de desempenho.
+
+**Perfil cinco: sem impacto, com gesto repetido ou risco externo.** Natação e ciclismo.
 
 Mecanismo dominante: **ombro por volume de gesto**, no primeiro; **trauma e ajuste de equipamento**, no segundo. O que previne: técnica, progressão de volume de braçada, bike fit — e, no ciclismo, escolha de rota e visibilidade, que valem mais que qualquer exercício.
 
@@ -184,6 +210,8 @@ Na próxima aula, por que tudo isso muda tanto entre quem tem estrutura em volta
 4. Weisenthal BM, Beck CA, Maloney MD, DeHaven KE, Giordano BD. Injury rate and patterns among CrossFit athletes. *Orthop J Sports Med.* 2014;2(4):2325967114531177. PMID: 26535325
 5. López-Valenciano A, Ruiz-Pérez I, Garcia-Gómez A, et al. Epidemiology of injuries in professional football: a systematic review and meta-analysis. *Br J Sports Med.* 2020;54(12):711-718. PMID: 31171515
 6. Yamato TP, Saragiotto BT, Lopes AD. A consensus definition of running-related injury in recreational runners: a modified Delphi approach. *J Orthop Sports Phys Ther.* 2015;45(5):375-380. PMID: 25808527
+7. Bromley SJ, Drew MK, Talpey S, McIntosh AS, Finch CF. A systematic review of prospective epidemiological research into injury and illness in Olympic combat sport. *Br J Sports Med.* 2018;52(1):8-16. doi:10.1136/bjsports-2016-097313. PMID: 28954799
+8. Doherty CS, Fortington LV, Barley OR. Is there a relationship between rapid weight changes and self-reported injury in combat sports athletes? A 14-month study of 24 combat sports events. *J Sci Med Sport.* 2025. PMID: 39890545
 
 ---
 
@@ -236,6 +264,12 @@ Visual: barra de taxa por 1000 h com a musculação entre as mais baixas.
 · Mais: campo de qualidade variável · e **ausência completa de progressão** — de uma semana sentado para 90 min de arrancada, frenagem e mudança de direção
 · **Raquete** (beach tennis, padel): **ombro e cotovelo** por gesto acima da cabeça · **panturrilha e Aquiles** por arranque e parada
 · **E o fator populacional específico: a população que entra é adulta, frequentemente 40+, frequentemente vinda do sedentarismo — e entra direto no formato competitivo.** Ninguém faz três meses de fundamento antes de jogar torneio de duplas
+· **ESPORTES DE COMBATE — a família que some das aulas de epidemiologia e não some do consultório**
+· **A lesão de combate é produzida pelo REGULAMENTO** → "esporte de luta" é categoria tão inútil quanto "corrida" foi no slide 2
+· **Bromley et al., revisão sistemática dos combates olímpicos, por sítio:** **boxe** cabeça/face **~46%**, punho **~12%**, lombar **~8%** · **judô** lombar **~11%**, ombro **~10%**, joelho **~10%** · **wrestling** joelho **~25%**, ombro **~18%**, cabeça/face **~17%** · **taekwondo** dedos **~23%**, coxa **~9%**
+· **A lógica: percussão concentra em cabeça, face e mão. Agarre e projeção concentram em articulações grandes (joelho, ombro, cotovelo) e lombar.** O jiu-jitsu se comporta como agarre
+· **Corte de peso:** estudo de 2025 com **24 eventos em 14 meses** encontrou **associação entre magnitude da perda rápida de peso nas 24 h antes da pesagem e relato de lesão 7 dias depois da competição** (homens) — **a conta de reserva do mês 1, comprimida em três dias**
+· **Trauma de cabeça no TREINO é exposição maior que na competição, porque se treina muito mais do que se luta** — dado de exposição, não de evento, que o registro por competição nunca captura
 · **Natação e ciclismo:** baixa lesão de impacto · **ombro** no nado (volume e técnica) · **lombar e joelho por ajuste de bicicleta** · e sobretudo **trauma por queda**
 · **E o risco que nenhum estudo captura direito e que no Brasil é o principal: no ciclismo de rua, a variável de maior peso não é fisiológica. É o trânsito**
 Visual: barras de treino e jogo, com "fora de clube, só tem jogo".
@@ -244,7 +278,8 @@ Visual: barras de treino e jogo, com "fora de clube, só tem jogo".
 · **1. Impacto repetido com volume alto** — corrida, caminhada em grande volume, trilha, triatlo → mecanismo: **sobrecarga acumulada** → previne: **progressão**, carga de tecido, força de MMII
 · **2. Contato, mudança de direção e jogo** — futebol, futsal, basquete, handebol → mecanismo: **trauma agudo em desaceleração e corte** → previne: o programa neuromuscular da **aula de LCA, no mês 5** (força, pliometria com aterrissagem, agilidade, equilíbrio, feedback técnico) **e, fora de clube, alguma coisa que se pareça com treino antes de jogo**
 · **3. Carga externa alta com exigência técnica** — musculação, levantamento, funcional → mecanismo: **técnica e salto de carga** → previne: **supervisão qualificada** e progressão de carga registrada
-· **4. Sem impacto, com gesto repetido ou risco externo** — natação e ciclismo → mecanismo: **ombro por volume de gesto** · **trauma e ajuste de equipamento** → previne: técnica, progressão de braçada, bike fit, e **rota e visibilidade, que valem mais que qualquer exercício**
+· **4. Contato direto, projeção e impacto dirigido** — judô, jiu-jitsu, wrestling, boxe, muay thai, MMA → mecanismo: **carga articular imposta por outra pessoa** — **a única família em que o praticante não controla a dose** → previne: **progressão de exposição ao rolamento e ao sparring** (não só ao treino técnico) · força e controle de **ombro e joelho** · **regra explícita sobre trauma de cabeça no treino** · **gestão do corte de peso**, que é fator de risco de lesão e não só de desempenho
+· **5. Sem impacto, com gesto repetido ou risco externo** — natação e ciclismo → mecanismo: **ombro por volume de gesto** · **trauma e ajuste de equipamento** → previne: técnica, progressão de braçada, bike fit, e **rota e visibilidade, que valem mais que qualquer exercício**
 · **A regra de ouro: dentro de cada modalidade, o fator que mais varia o risco é a progressão — não a modalidade**
 · Um novato que dobra o volume em um mês **tem risco maior** que um praticante de musculação supervisionado, que tem risco maior que um corredor experiente com progressão estável
 · **A modalidade define o TIPO de lesão. O comportamento define a QUANTIDADE**
