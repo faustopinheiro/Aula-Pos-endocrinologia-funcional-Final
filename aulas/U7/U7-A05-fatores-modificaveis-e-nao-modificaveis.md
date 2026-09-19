@@ -2,7 +2,7 @@
 
 **Unidade 7 — Lesão: prevenção e o que chega ao consultório**
 Pós-Graduação em Saúde Clínica Aplicada ao Esporte
-Duração: 14 minutos · 4 slides · Arquitetura: DECISÃO
+Duração: 13 minutos · 4 slides · Arquitetura: DECISÃO
 
 ---
 
@@ -36,9 +36,7 @@ Porque a divisão clássica em duas colunas — modificáveis e não modificáve
 
 **Coluna um.** E o item de cabeceira dela: **lesão prévia é o fator mais consistente de toda a literatura de lesão esportiva.**
 
-A revisão de van der Worp, de 2015, sobre fatores de risco em corredores, identificou lesão prévia como fator de risco — e estudos prospectivos posteriores em corredores recreativos encontraram **risco aproximadamente dobrado.** É o mesmo padrão da aula de LCA, no mês 5: **ruptura prévia é o maior fator de risco para nova ruptura.**
-
-A mesma revisão observou diferenças de perfil entre homens e mulheres, **com a ressalva explícita dos autores** de que poucos estudos apresentavam resultados separados por sexo. Idade, antropometria, alinhamento, genética e história de esporte na infância completam a coluna.
+A revisão de van der Worp, de 2015, identificou lesão prévia como fator de risco em corredores — e estudos prospectivos posteriores em recreativos encontraram **risco aproximadamente dobrado.** É o mesmo padrão da aula de LCA, no mês 5: **ruptura prévia é o maior fator de risco para nova ruptura.** Sexo, idade, antropometria, alinhamento, genética e história de esporte na infância completam a coluna.
 
 E agora a pergunta que decide: **o que se faz com um fator não modificável?**
 
@@ -50,17 +48,15 @@ E tem um detalhe que transforma parte dessa coluna: **a lesão prévia é imutá
 
 **Coluna dois.** Quatro itens, e eu vou ser preciso sobre o que estou afirmando em cada um.
 
-**Tipo de pisada e prescrição de calçado por pronação.** Classificar o pé e prescrever tênis por essa classificação **não é sustentado pela evidência como estratégia de prevenção.** Isso não significa que o calçado seja irrelevante para conforto. Significa que **a prescrição por tipo de pisada não é intervenção preventiva demonstrada** — e é vendida como se fosse, em praticamente toda loja do país.
+**Tipo de pisada e prescrição de calçado por pronação.** Classificar o pé e prescrever tênis por essa classificação **não é sustentado pela evidência como prevenção.** Conforto é outra conversa. Mas **a prescrição por pisada não é intervenção preventiva demonstrada** — e é vendida como se fosse, em praticamente toda loja do país.
 
-**Palmilhas customizadas em assintomáticos.** Na revisão de van der Worp, o uso de órteses e palmilhas apareceu **como fator de risco**. Isso quase certamente **não** significa que a palmilha cause lesão — é confusão por indicação, quem usa é quem já tinha problema. Mas derruba a expectativa de que palmilhar preventivamente reduza lesão. **Palmilha tem lugar no tratamento de condições específicas, com indicação. Não tem lugar demonstrado como prevenção universal.**
+**Palmilhas customizadas em assintomáticos.** Em van der Worp, o uso de órteses e palmilhas apareceu **como fator de risco** — o que quase certamente é confusão por indicação, já que quem usa é quem já tinha problema. Mas derruba a expectativa preventiva. **Palmilha tem lugar no tratamento de condições específicas, com indicação — não como prevenção universal.**
 
 **Alongamento estático antes do exercício.** A meta-análise de Lauersen, 2014, mostrou que **o alongamento não apresentou efeito protetor**, enquanto o treino de força mostrou efeito grande.
 
-**Análise de marcha isolada como preditor.** Informativa em casos específicos, **e não funciona como triagem** — pelo mesmo motivo de Bahr, e pelo mesmo motivo do teste de salto que a aula de LCA desmontou.
+**Análise de marcha isolada como preditor.** Informativa em casos específicos, **e não funciona como triagem** — pelo mesmo motivo de Bahr.
 
-E a razão pela qual essa coluna é tão sedutora — e vocês precisam entender isso para conversar com o paciente:
-
-**a coluna do meio oferece uma causa externa, visível e comprável.** "O problema é a sua pisada" **não exige nada do paciente**: ele compra a solução e segue a vida. "O problema é a sua progressão e a sua falta de força" exige que ele mude o comportamento por meses.
+E a razão pela qual essa coluna é tão sedutora: **ela oferece uma causa externa, visível e comprável.** "O problema é a sua pisada" **não exige nada do paciente** — ele compra a solução e segue a vida. "O problema é a sua progressão e a sua falta de força" exige que ele mude o comportamento por meses.
 
 **A primeira vende. A segunda funciona.**
 
@@ -84,11 +80,9 @@ Menos de um terço. **Não existe nada na coluna do meio que chegue perto disso.
 
 Melhor que o volume de treino. E não custa nada.
 
-**Quinto: disponibilidade energética e ferro.** Fratura por estresse em corredora com disponibilidade energética baixa **não se previne com tênis.**
+**Quinto: disponibilidade energética e ferro.** Fratura por estresse com disponibilidade energética baixa **não se previne com tênis.**
 
-**Sexto: reabilitação completa da lesão anterior** — o que transforma o principal fator não modificável em parcialmente modificável.
-
-**Sétimo: carga de vida, estresse e contexto** — que, fora de clube, é a variável que mais oscila na semana da pessoa.
+**Sexto: reabilitação completa da lesão anterior** — o que transforma o principal não modificável em parcialmente modificável. **Sétimo: carga de vida, estresse e contexto.**
 
 E a comparação que eu quero que vocês usem, porque ela é honesta e é impactante:
 
@@ -108,19 +102,13 @@ Bittencourt, Meeuwisse, Mendonça e colaboradores publicaram, em 2016, uma propo
 
 A constatação de partida é incômoda: **modelos lineares de fator de risco não conseguem predizer lesão no indivíduo.** Porque lesão não é a soma de fatores independentes. **É o produto de uma teia de determinantes que interagem de forma não linear.**
 
-Em linguagem de consultório, três consequências.
-
-**O mesmo fator tem peso diferente em pessoas diferentes.** Um aumento de 30% de volume quebra a tíbia de uma pessoa e não faz nada em outra — porque a primeira tinha, ao mesmo tempo, sono ruim, ferritina baixa e superfície nova.
-
-**A mesma lesão, em duas pessoas, pode ter combinações completamente diferentes de determinantes.**
-
-**E, se a lesão emerge de uma configuração, a conduta não é corrigir um item da lista. É reduzir a tensão do conjunto.**
+Em linguagem de consultório: **o mesmo fator tem peso diferente em pessoas diferentes.** Um aumento de 30% de volume quebra a tíbia de uma e não faz nada em outra — porque a primeira tinha, ao mesmo tempo, sono ruim, ferritina baixa e superfície nova. **E, se a lesão emerge de uma configuração, a conduta não é corrigir um item da lista. É reduzir a tensão do conjunto.**
 
 Esse modelo explica, de uma vez só, **por que o rastreio não funciona, por que protocolos padronizados falham em casos individuais, e por que a anamnese vale mais que o exame.** Se a lesão emerge de uma configuração, **o que importa é mapear a configuração daquela pessoa — e isso não se faz com teste, se faz perguntando.**
 
-Com honestidade: é um modelo conceitual, não um resultado experimental. **Ele não entrega ferramenta pronta.** É uma forma melhor de pensar, e ainda não é um instrumento.
+Com honestidade: é modelo conceitual, não instrumento. **Não entrega ferramenta pronta.**
 
-E é dela que sai a **matriz de decisão** desta aula — quatro perguntas, toda vez que vocês forem alocar a energia de um paciente:
+E é dele que sai a **matriz de decisão** desta aula — quatro perguntas, toda vez que vocês forem alocar a energia de um paciente:
 
 **Uma: isso é modificável?** Se não é, **use para calibrar a dose, não para excluir a pessoa.**
 
@@ -132,7 +120,7 @@ E é dela que sai a **matriz de decisão** desta aula — quatro perguntas, toda
 
 No caso da pasta, as três perguntas da aula anterior resolveram em cinco minutos: ela tinha **aumentado de três para cinco corridas por semana**; a sessão em que começou foi **uma subida longa, que ela nunca fazia, acompanhando um grupo mais rápido**; e ela dava **duas aulas de spinning por semana que não estavam em lugar nenhum da conta.** A coluna três estava inteiramente vazia.
 
-As palmilhas, a propósito, ficaram. Ela já as tinha, eram confortáveis, e tirar algo a que a pessoa se adaptou não traz benefício nenhum — **eu só deixei claro que não era dali que viria a melhora.** Cinco meses depois ela corria sem dor, sem nenhuma compra nova.
+As palmilhas, a propósito, ficaram: já eram dela, eram confortáveis, e tirar algo a que a pessoa se adaptou não traz benefício — **eu só deixei claro que não era dali que viria a melhora.** Cinco meses depois, correndo sem dor, sem nenhuma compra nova.
 
 Na próxima aula, os programas de prevenção formais: **a evidência, o tamanho de efeito real, e o problema que derruba quase todos eles fora do clube — a adesão.**
 

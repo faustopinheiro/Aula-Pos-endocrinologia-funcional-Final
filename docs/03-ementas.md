@@ -310,20 +310,27 @@ a dor que não responde ao modelo tecidual.
 
 | # | Aula | Arquitetura | Min | Origem |
 |---|---|---|---|---|
-| 1 | Os dois números: o que "incidência de lesão" está medindo | NÚMERO | 18 | M16-A01 · EDITAR |
-| 2 | Incidência por modalidade: onde o dado é bom e onde não é | NÚMERO | 15 | M16-A02 · EDITAR |
-| 3 | Por que quem não tem estrutura se lesiona diferente | ERRO | 15 | M16-A03 · EDITAR |
-| 4 | Erro de progressão: o fator número um | NÚMERO | 12 | M16-A04 · EDITAR |
-| 5 | Fatores modificáveis e não modificáveis | DECISÃO | 15 | M16-A05 · EDITAR |
-| 6 | Programas de prevenção: tamanho de efeito e adesão | ERRO | 18 | M16-A06 · EDITAR |
-| 7 | O que vale a pena prescrever de fato | DECISÃO | 12 | M16-A07 · EDITAR |
-| 8 | Tendinopatia: o continuum e o manejo por carga | PROCEDIMENTO | 20 | M17-A01 · EDITAR |
-| 9 | Aquiles, patelar e glútea | PROCEDIMENTO | 25 | M17-A02 · EDITAR |
-| 10 | Manguito rotador e ombro do nadador | PROCEDIMENTO | 18 | M17-A03 · EDITAR |
-| 11 | Estresse tibial e fratura por estresse | DECISÃO | 18 | M17-A04 · EDITAR |
-| 12 | Dor femoropatelar e lombalgia no praticante de força | ERRO | 25 | M17-A05 + M17-A06 · FUNDIR |
-| 13 | Tornozelo, isquiotibiais, panturrilha e fáscia plantar | PROCEDIMENTO | 25 | M17-A07 + M17-A08 · FUNDIR |
-| 14 | Dor persistente e sensibilização central | CASO | 28 | M17-A09 · EDITAR |
+| 1 | Os dois números: o que "incidência de lesão" está medindo | NÚMERO | 18 | M16-A01 · ESCRITA |
+| 2 | Incidência por modalidade: onde o dado é bom e onde não é | ERRO | 16 | M16-A02 · ESCRITA |
+| 3 | Por que quem não tem estrutura se lesiona diferente | NÚMERO | 18 | M16-A03 · ESCRITA |
+| 4 | Erro de progressão: o fator número um | ERRO | 12 | M16-A04 · ESCRITA |
+| 5 | Fatores modificáveis e não modificáveis | DECISÃO | 13 | M16-A05 · ESCRITA |
+| 6 | Programas de prevenção: tamanho de efeito e adesão | NÚMERO | 19 | M16-A06 · ESCRITA |
+| 7 | O que vale a pena prescrever de fato | PROCEDIMENTO | 11 | M16-A07 · ESCRITA |
+| 8 | Tendinopatia: o continuum e o manejo por carga | ERRO | 18 | M17-A01 · ESCRITA |
+| 9 | Aquiles, patelar e glútea | PROCEDIMENTO | 18 | M17-A02 · ESCRITA |
+| 10 | Manguito rotador e ombro do nadador | NÚMERO | 19 | M17-A03 · ESCRITA |
+| 11 | Estresse tibial e fratura por estresse | DECISÃO | 19 | M17-A04 · ESCRITA |
+| 12 | Dor femoropatelar e lombalgia no praticante de força | ERRO | 26 | M17-A05 + M17-A06 · FUNDIDAS |
+| 13 | Tornozelo, isquiotibiais, panturrilha e fáscia plantar | PROCEDIMENTO | 26 | M17-A07 + M17-A08 · FUNDIDAS |
+| 14 | Dor persistente e sensibilização central | CASO | 26 | M17-A09 · ESCRITA |
+
+**Estado: unidade completa e editada no formato novo.** 14 aulas · 30.658
+palavras · 4h20 de vídeo. Rodízio de arquiteturas sem repetição consecutiva ·
+três aulas de 11 a 13 min e três de 26 min · **um único paciente nomeado na
+unidade inteira** (a aula 14, que é CASO). As 16 aulas de origem somavam
+36.015 palavras e 5h05: a edição cortou 15% do texto e devolveu variação de
+ritmo.
 
 **Estudo de caso avaliativo.** Corredor com dor anterior de joelho há 7 meses,
 ressonância com "condropatia grau II": decidir o que a imagem muda, o que não
