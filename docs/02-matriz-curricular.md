@@ -1,158 +1,116 @@
 # Matriz Curricular
 
-**Carga horária total: 360h** — 335h de disciplinas + 25h de orientação de TCC.
+**Carga horária total: 360h** — 330h de conteúdo + 30h de TCC com orientação.
 É exatamente o mínimo da Resolução CNE/CES nº 1/2018 para pós-graduação lato
-sensu, e é o formato mais comum do mercado. Não há folga sobre o piso: qualquer
-corte na aprovação precisa ser compensado, não simplesmente aceito.
+sensu, e é o formato mais comum do mercado. Não há folga sobre o piso:
+qualquer corte na aprovação precisa ser compensado, não simplesmente aceito.
 
 **Modalidade:** EAD assíncrono (videoaulas + material) com encontros
 síncronos quinzenais de discussão de caso.
-**Duração sugerida:** 12 a 18 meses.
+
+**Duração: 12 meses. Uma unidade de 30h por mês.**
 
 ---
 
-## Visão geral dos eixos
+## As 12 unidades
 
-| Eixo | Nome | Módulos | Carga |
+| Mês | Unidade | Carga | Aulas |
 |---|---|---|---|
-| 0 | A Lente — fundamentos integradores | M1–M3 | 45h |
-| 1 | Avaliação do atleta real | M4–M6 | 45h |
-| 2 | Treino, carga, recuperação e saúde mental | M7–M11 | 75h |
-| 3 | Ciclos de vida e populações | M12–M15 | 60h |
-| 4 | Lesão, dor e retorno ao esporte | M16–M18 | 45h |
-| 5 | Nutrição, suplementação e o filtro | M19–M21 | 45h |
-| 6 | Prática integradora e TCC | M22–M24 | 45h |
-| | **Total** | **24 módulos · 190 aulas** | **360h** |
+| 1 | **U1** — A lente: reserva adaptativa e eixos de regulação | 30h | 15 |
+| 2 | **U2** — Avaliação do atleta: anamnese, laboratório e função | 30h | 15 |
+| 3 | **U3** — Fisiologia aplicada e prescrição para quem tem vida | 30h | 14 |
+| 4 | **U4** — Carga, overtraining, sono e saúde mental | 30h | 16 |
+| 5 | **U5** — Ciclos de vida I: atleta de base e mulher atleta | 30h | 15 |
+| 6 | **U6** — Ciclos de vida II: master e o crônico que treina | 30h | 15 |
+| 7 | **U7** — Lesão: prevenção e o que chega ao consultório | 30h | 14 |
+| 8 | **U8** — Reabilitação, recursos terapêuticos e retorno | 30h | 15 |
+| 9 | **U9** — Emergências no esporte | 30h | 13 |
+| 10 | **U10** — Nutrição, suplementação e antidoping | 30h | 16 |
+| 11 | **U11** — Time, clube e raciocínio integrado | 30h | 14 |
+| 12 | **U12** — TCC: plano de cuidado de um atleta real | 30h | 4 + orientação |
+| | **Total** | **360h** | **166** |
 
 ---
 
-## EIXO 0 — A LENTE (45h)
+## Composição das 30h de cada unidade
 
-O eixo que impede o curso de virar commodity. Vem primeiro e é citado em
-todos os outros.
-
-| # | Módulo | Carga |
-|---|---|---|
-| M1 | Reserva adaptativa: o modelo integrador | 15h |
-| M2 | Eixos de regulação no contexto do treino (HPA, HPG, HPT) | 15h |
-| M3 | Evidência, ética e os limites da extrapolação | 15h |
-
-## EIXO 1 — AVALIAÇÃO DO ATLETA REAL (45h)
-
-| # | Módulo | Carga |
-|---|---|---|
-| M4 | Anamnese de carga total | 15h |
-| M5 | Laboratório em quem treina | 15h |
-| M6 | Avaliação funcional e monitoramento acessível | 15h |
-
-## EIXO 2 — TREINO, CARGA, RECUPERAÇÃO E SAÚDE MENTAL (75h)
-
-| # | Módulo | Carga |
-|---|---|---|
-| M7 | Fisiologia do exercício aplicada | 15h |
-| M8 | Prescrição e periodização para quem tem vida | 15h |
-| M9 | Carga, overreaching e overtraining | 15h |
-| M10 | Sono e recuperação como intervenção clínica | 15h |
-| M11 | Saúde mental e psicologia aplicada ao esporte | 15h |
-
-## EIXO 3 — CICLOS DE VIDA E POPULAÇÕES (60h)
-
-O eixo mais defensável comercialmente: é onde nenhuma pós concorrente entra
-com profundidade.
-
-| # | Módulo | Carga |
-|---|---|---|
-| M12 | Atleta de base: criança e adolescente em maturação | 15h |
-| M13 | A mulher atleta | 15h |
-| M14 | Atleta master: 40+ | 15h |
-| M15 | O crônico que treina | 15h |
-
-## EIXO 4 — LESÃO, DOR E RETORNO (45h)
-
-A porta de entrada da marca, virada currículo.
-
-| # | Módulo | Carga |
-|---|---|---|
-| M16 | Epidemiologia e prevenção de lesão no amador | 15h |
-| M17 | As lesões que realmente chegam ao consultório | 15h |
-| M18 | Retorno ao esporte sem time por trás | 15h |
-
-## EIXO 5 — NUTRIÇÃO, SUPLEMENTAÇÃO E O FILTRO (45h)
-
-| # | Módulo | Carga |
-|---|---|---|
-| M19 | Nutrição esportiva aplicada à vida real | 15h |
-| M20 | Suplementação esportiva: o que tem evidência | 15h |
-| M21 | O filtro: suplementos, nutracêuticos e a indústria | 15h |
-
-## EIXO 6 — PRÁTICA INTEGRADORA E TCC (45h)
-
-| # | Módulo | Carga |
-|---|---|---|
-| M22 | Time multiprofissional, escopo e comunicação clínica | 10h |
-| M23 | Raciocínio clínico integrado | 10h |
-| M24 | TCC — plano de cuidado de um atleta real | 25h |
-
----
-
-## Avaliação
-
-| Instrumento | Peso | Onde |
-|---|---|---|
-| Avaliação objetiva por módulo (10 questões de caso) | 40% | todos os módulos |
-| Discussão de caso nos encontros síncronos | 20% | quinzenal |
-| Estudo de caso escrito (1 por eixo, 4 no total) | 20% | eixos 1–4 |
-| TCC | 20% | M24 |
-
-**O TCC não é revisão de literatura.** É um **plano de cuidado de um atleta
-real** — anamnese de carga total, exames interpretados, hipótese pela lente
-da reserva adaptativa, plano de intervenção multiprofissional e critérios de
-reavaliação. Formato de 15 a 25 páginas, com defesa gravada de 15 minutos.
-
-Isso resolve dois problemas de uma vez: gera um produto que o aluno usa no
-consultório na segunda-feira seguinte (retenção e indicação boca a boca) e
-evita o TCC-revisão que ninguém lê e todo mundo plagia.
-
----
-
-## Regras de aula (travadas)
-
-| Regra | Valor |
+| Componente | Peso aproximado |
 |---|---|
-| Duração padrão | 18 a 22 minutos |
-| Aula complexa (exceção) | até 1h20 |
-| Aulas por módulo | 7 a 9 (teto absoluto: 12) |
-| Caso clínico | apenas quando ensina o que exposição não ensina |
+| Videoaulas (≈4h de vídeo) | 4h |
+| Material de leitura e referências comentadas | 10h |
+| **Estudo de caso avaliativo da unidade** | 8h |
+| Fórum de discussão e encontro síncrono | 4h |
+| Avaliação objetiva e revisão | 4h |
 
-A duração curta é decisão de EAD, não de economia: aula longa é abandonada no
-meio e não é retomada. O limite de 12 aulas por módulo protege o aluno de
-módulo que não termina — e protege a produção de módulo que não fecha.
+A avaliação do curso é **contínua, por análise de estudo de caso** — um por
+unidade. É para lá que migrou o caso clínico longo, que antes ocupava o
+roteiro de vídeo.
 
-A faixa foi revista para baixo depois da gravação dos primeiros módulos. A taxa
-real de fala é de **118 palavras por minuto**, e os roteiros dimensionados a 137
-produziam aulas de 30 a 35 minutos, com repetição. A faixa vigente de 18 a 22
-minutos vale de M6 em diante; M1 a M5 ficaram entre 20 e 24 e permanecem assim.
+---
 
-**Aula complexa é exceção rara.** Quatro no programa inteiro (M9.6, M14.8,
-M23.2, M23.3), todas de diagnóstico diferencial ou decisão de risco: conteúdos
-que perdem sentido se fatiados.
+## A progressão dos 12 meses
 
-## Estrutura de cada módulo de 15h
+**Meses 1–2 · Ver.** O aluno recebe a lente (reserva adaptativa, eixos) e o
+instrumento (anamnese, laboratório, monitoramento). Sai sabendo montar a conta
+de um indivíduo.
 
-| Componente | Duração |
-|---|---|
-| 7 a 9 videoaulas de 18–22 min | ~2h40 |
-| Material de leitura (PDF, 15–25 páginas) | ~3h |
-| Artigos comentados (2 a 3 por módulo) | ~2h30 |
-| Atividade aplicada guiada | ~2h |
-| Encontro síncrono / gravação de discussão | ~1h30 |
-| Estudo autônomo e avaliação | ~3h20 |
+**Meses 3–4 · Prescrever e monitorar.** Fisiologia vira prescrição; prescrição
+vira carga; carga vira o diferencial da fadiga, o sono e a saúde mental.
 
-Vinte e um módulos de conteúdo a 15h dão 315h. Somados aos dois módulos
-práticos de 10h e às 25h de orientação e TCC, fecham exatamente 360h.
+**Meses 5–6 · Adaptar por quem é.** A mesma conta refeita em cada ciclo de
+vida: base, mulher, master, crônico que treina.
 
-**Total do programa: 190 videoaulas, ~65h de vídeo.** É o número que dimensiona
-todo o cronograma de produção. São dezessete aulas a mais que a versão anterior
-e cerca de vinte horas de vídeo a menos — a aula encurtou mais do que o programa
-cresceu. A distribuição aula a aula está em
-[`03-ementas.md`](03-ementas.md).
+**Meses 7–9 · Quando algo dá errado.** Lesão, reabilitação e retorno — e, no
+mês 9, o cenário em que não há tempo para pensar: a emergência.
+
+**Meses 10–11 · O que cerca a decisão.** O que o paciente ingere e o que a
+indústria e o antidoping cobram disso; depois o time, o clube e a priorização
+quando há mais de uma hipótese viva.
+
+**Mês 12 · Provar.** Plano de cuidado documentado de um praticante real.
+
+---
+
+## Regras estruturais
+
+**Uma unidade por mês, sem exceção.** Unidade que não cabe em 30h perde aula,
+não ganha mês.
+
+**Nenhuma aula é repetida em duas unidades.** Quando um tema reaparece, ele
+reaparece com outro objeto — e a ementa diz qual. Exemplo: o diferencial da
+fadiga é *construído* em U4 e *priorizado* em U11.
+
+**A régua multiprofissional vale por aula, não por unidade.** Toda aula de
+conteúdo técnico de uma profissão precisa passar no teste de "isso serve para
+os sete?". Se não servir, sobe de altitude ou sai. Ver
+`01-tese-e-posicionamento.md`.
+
+**Cinco arquiteturas de aula, em rodízio.** Duas aulas seguidas nunca usam a
+mesma forma. Ver `06-como-escrever-as-aulas.md`.
+
+**Três faixas de duração.** Toda unidade tem no mínimo três aulas curtas
+(8–12 min) e uma longa (25–32 min).
+
+---
+
+## O que mudou em relação à matriz de 24 módulos
+
+A estrutura anterior tinha 24 módulos de 15h agrupados em 7 eixos, 190 aulas
+e duração indefinida. Os eixos continuam existindo como lógica de progressão —
+eles viraram os blocos de meses acima — mas deixaram de ser camada
+administrativa.
+
+| | Antes | Agora |
+|---|---|---|
+| Unidades | 24 módulos de 15h | 12 unidades de 30h |
+| Duração | 12 a 18 meses | 12 meses fixos |
+| Aulas | 190 | 166 |
+| Reabilitação | inexistente | 8 aulas |
+| Emergências | inexistente | 13 aulas (unidade inteira) |
+| Antidoping | inexistente | 2 aulas + integrado |
+| Estrutura de clube | inexistente | 6 aulas |
+| Módulo de ética isolado | M3, 15h | dissolvido e aplicado |
+| Suplementação | M20 + M21, 18 aulas | 6 aulas fundidas |
+
+O ementário antigo está preservado em `_arquivo-03-ementas-24-modulos.md` para
+rastrear a origem de cada aula já escrita.

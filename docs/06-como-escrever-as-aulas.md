@@ -42,6 +42,82 @@ não oralidade.
 **Fecha simples.** Retoma o fio, diz o que vem na próxima e por quê, agradece.
 Sem síntese numerada.
 
+## As cinco arquiteturas de aula
+
+O problema que isto resolve: até aqui, **toda** aula tinha a mesma forma —
+caso abre, seis slides, caso fecha, 2.300 palavras. Cento e cinquenta e oito
+vezes. O conteúdo variava; a experiência de assistir, não. É isso que cansa,
+e é isso que faz o aluno parar no mês 4.
+
+A partir daqui a aula escolhe **uma** das cinco arquiteturas abaixo, e o
+módulo alterna entre elas. **Duas aulas seguidas nunca usam a mesma.**
+
+### 1. O NÚMERO
+Abre com um dado que não fecha com a intuição e passa a aula desmontando-o.
+O motor é aritmético: de onde veio, em quem foi medido, o que muda quando o
+denominador muda, e o que sobra de verdadeiro.
+*Serve para:* epidemiologia, dose, evidência de intervenção, custo.
+*Fecha em:* o número que o aluno pode usar, e em quem.
+
+### 2. O ERRO
+Abre com uma conduta plausível, difundida e errada — de preferência uma que
+o próprio aluno faz. Dissecar por que ela parece certa é a aula.
+*Serve para:* mitos consolidados, exame desnecessário, protocolo mal
+transposto, prática herdada sem evidência.
+*Fecha em:* o que fazer no lugar, e como reconhecer o erro em campo.
+
+### 3. O PROCEDIMENTO
+Percorre um raciocínio estruturado do começo ao fim, em ordem: o que se
+pergunta, o que se examina, o que se pede, o que se conclui. Sem paciente
+nomeado — o sujeito é o método.
+*Serve para:* avaliação, triagem, interpretação de exame, roteiro de
+atendimento, fluxo de emergência.
+*Fecha em:* o roteiro pronto para ser usado na segunda-feira.
+*Regra de altitude:* descreve **o que a etapa decide**, nunca a técnica de
+execução.
+
+### 4. A DECISÃO
+Apresenta uma encruzilhada real com duas ou três saídas defensáveis, e
+percorre cada uma até o fim — inclusive as consequências de escolher errado.
+*Serve para:* retorno ao esporte, suspender ou manter treino, encaminhar ou
+conduzir, tratar ou esperar, escopo profissional.
+*Fecha em:* o critério que faz a decisão ser defensável, não na resposta.
+
+### 5. O CASO
+A arquitetura antiga, agora **rara e proposital**. Um paciente, uma linha do
+tempo, e o percurso do raciocínio como objeto de aprendizagem.
+*Serve para:* quando o erro só é visível ao longo do tempo, e para as aulas
+integradoras.
+*Cota:* **no máximo duas por módulo de 30h.** Se um módulo tem três, uma
+delas vira O ERRO ou A DECISÃO.
+
+---
+
+## O caso clínico: cota e lugar
+
+Diagnóstico honesto do que estava errado: o caso clínico virou a espinha
+narrativa de todas as aulas — abertura com paciente nomeado, fechamento com
+desfecho, às vezes três por aula. Centenas de pacientes fictícios. **É
+cansativo, e o aluno pula.**
+
+A correção, em três regras:
+
+**1. No máximo um paciente nomeado por aula.** Nunca três abrindo e três
+fechando. Se a aula precisa de mais de um exemplo, os outros entram como
+micro-diálogo de duas linhas, sem nome, idade ou desfecho.
+
+**2. O caso não é o roteiro de vídeo. É a atividade.** O lugar do caso longo,
+com linha do tempo, exames e decisão, é a **avaliação do módulo** — o aluno
+resolve, não assiste alguém resolver. A pós passa a ter avaliação contínua
+por análise de estudo de caso, um por unidade. É onde o caso ensina de
+verdade, porque exige resposta.
+
+**3. Paciente nomeado só quando o tempo é o conteúdo.** Se o ponto da aula é
+um número, um erro, um roteiro ou um critério, o paciente nomeado é
+ornamento — e ornamento repetido cento e cinquenta vezes vira ruído.
+
+---
+
 ## Slides
 
 Marcador `[SLIDE X DE N]` e descrição do visual continuam. A fala **não muda
@@ -55,29 +131,26 @@ Menos slides e mais densos. 30 min costuma pedir 5 ou 6.
 **118 palavras por minuto.** Taxa medida na gravação real — não confundir com
 a taxa de leitura corrida. Medir por script, nunca estimar.
 
-**Faixa vigente de M6 em diante: 18 a 22 minutos.**
+**A faixa fixa de 18 a 22 minutos está encerrada.** Ela produziu o efeito que
+o curso agora corrige: aula esticada para chegar ao piso e aula cortada no
+osso para caber no teto, com o mesmo tamanho em cento e cinquenta e oito
+temas de densidade completamente diferente.
 
-| Aula | Palavras | Slides |
-|---|---|---|
-| Curta (18 min) | 2.100 – 2.250 | 5 |
-| Padrão (20 min) | 2.300 – 2.450 | 5 a 6 |
-| Teto (22 min) | 2.550 – 2.650 | 6 |
+**A duração passa a ser função do assunto.** Três faixas, escolhidas pelo
+conteúdo e não pelo calendário:
 
-A duração do ementário é **teto institucional**, não meta. A aula boa fica
-abaixo dele. Aula acima de 2.650 palavras não sai — divide ou corta.
+| Formato | Minutos | Palavras | Slides | Quando |
+|---|---|---|---|---|
+| **Curta** | 8 – 12 | 950 – 1.400 | 3 a 4 | Um ponto só: um número, um erro, um critério. |
+| **Média** | 15 – 20 | 1.750 – 2.350 | 5 a 6 | O padrão. Um raciocínio completo. |
+| **Longa** | 25 – 32 | 2.950 – 3.750 | 7 a 9 | Integradora, emergência, caso longo, fluxo inteiro. |
 
-**Histórico da faixa.** A primeira versão dimensionava a 137 palavras por
-minuto e produzia aulas de 30 a 35 minutos na gravação real. Corrigida a taxa
-para 118, a faixa passou a 22–28 minutos, e os módulos M1 a M5 foram escritos
-assim: ficaram entre 20 e 24 minutos e permanecem como estão. A partir do M6 a
-faixa é 18 a 22, decisão tomada junto com a entrada dos módulos de saúde mental
-e de suplementação esportiva — o programa cresceu dois módulos e o volume de
-vídeo caiu, porque a aula encurtou mais do que a grade cresceu.
+**Um módulo de 30h não pode ser feito só de aula média.** A régua por unidade:
+pelo menos **três curtas** e **uma longa**. A curta é o que devolve ritmo ao
+módulo — e é a que o aluno assiste no ônibus.
 
-**O que encurtar não significa.** Não é tirar conteúdo nem tirar caso clínico.
-É tirar a segunda formulação da mesma ideia, a ponte que recapitula, a ressalva
-duplicada e o fechamento que reconta os slides. O teste é o da regra de bolso
-abaixo: se o parágrafo sai e o seguinte continua fazendo sentido, ele sai.
+**O teto do ementário é teto institucional, não meta.** Aula que quer passar
+de 3.750 palavras vira duas.
 
 ## Corte obrigatório antes de entregar
 
