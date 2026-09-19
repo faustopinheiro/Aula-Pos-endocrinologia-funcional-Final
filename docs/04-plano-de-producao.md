@@ -55,7 +55,7 @@ Fisiologia, laboratório, avaliação, sono. Conteúdo mais estável, mais fáci
 reaproveitar de material que você já produziu para as outras duas pós.
 
 ### Onda 4 — Fechamento (M18, M19, M20, M21, M22)
-Nutrição, filtro, integração e TCC. M21 (casos) é produzido **por último de
+Nutrição, filtro, integração e prática de consultório. M21 (casos) é produzido **por último de
 propósito** — precisa referenciar todos os módulos anteriores.
 
 ---

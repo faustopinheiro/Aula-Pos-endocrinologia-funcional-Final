@@ -17,11 +17,11 @@ Funcional Esportiva e da Pós de Medicina do Futebol.
 | | |
 |---|---|
 | Modalidade | Lato sensu, EAD assíncrono + encontros síncronos quinzenais |
-| Carga horária | 360h (330h de conteúdo + 30h de TCC) |
+| Carga horária | 360h — 12 unidades de 30h, todas de conteúdo |
 | Duração | **12 meses — uma unidade de 30h por mês** |
 | Público | Multiprofissional — medicina, fisioterapia, nutrição, educação física, psicologia, enfermagem, biomedicina |
-| Unidades | **12** (11 de conteúdo + TCC) |
-| Videoaulas | **168**, em três faixas: curta 8–13 min · média 15–20 · longa 25–32 |
+| Unidades | **12** · **sem TCC** — o mês 12 é prática de consultório, com avaliação por portfólio |
+| Videoaulas | **178**, em três faixas: curta 8–13 min · média 15–20 · longa 25–32 |
 | Formato de aula | 5 arquiteturas em rodízio — NÚMERO · ERRO · PROCEDIMENTO · DECISÃO · CASO |
 | Avaliação | Contínua, por análise de estudo de caso — um por unidade |
 | Modalidades | Nenhuma é o padrão. Mínimo de 4 famílias por unidade |
@@ -300,7 +300,16 @@ Faixa de trabalho: 22 a 28 minutos por aula.
 **Reestruturação de setembro — em andamento.**
 
 O programa saiu de **24 módulos de 15h, duração indefinida** para **12 unidades
-de 30h, uma por mês, em 12 meses**. De 190 aulas previstas para 168.
+de 30h, uma por mês, em 12 meses**. De 190 aulas previstas para 178.
+
+**O mês 12 deixou de ser TCC.** A Resolução CNE/CES nº 1/2018 tornou o
+trabalho de conclusão opcional na pós lato sensu, e a decisão foi contra: o mês
+de monografia é onde o aluno some, produz um documento que ninguém lê e cria um
+gargalo de orientação individual que atrasa a certificação da turma inteira. No
+lugar entrou **"O consultório de segunda-feira"** — 14 aulas sobre atender,
+registrar e sustentar a prática, com avaliação por **portfólio profissional**:
+oito peças que o egresso leva para o consultório, da ficha de anamnese ao plano
+de emergência do próprio local.
 
 **O que mudou de estrutura.** Entraram quatro blocos que não existiam:
 **reabilitação e recursos terapêuticos** (8 aulas), **emergências no esporte**

@@ -1,7 +1,8 @@
 # Ementas — 12 unidades, 12 meses
 
 **Pós-Graduação Lato Sensu em Saúde Clínica Aplicada ao Esporte**
-**360 horas · 12 meses · uma unidade por mês · 11 unidades de conteúdo + TCC**
+**360 horas · 12 meses · uma unidade por mês · 12 unidades de conteúdo**
+**Sem TCC — ver mês 12**
 
 > Este arquivo substitui a estrutura anterior de 24 módulos de 15h. O
 > ementário antigo está preservado em `_arquivo-03-ementas-24-modulos.md`
@@ -599,22 +600,93 @@ terceiriza.
 
 ---
 
-# MÊS 12 · U12 — TCC: plano de cuidado de um atleta real
-**30h · 4 aulas de orientação + orientação individual**
+# MÊS 12 · U12 — O consultório de segunda-feira
+**30h · 14 aulas** · *origem: unidade nova; absorve o que era útil em M24*
 
-**Ementa.** Escolha do caso e consentimento. Documentação da anamnese de carga
-total. Da hipótese ao plano de intervenção multiprofissional. Critérios de
-reavaliação, normas e defesa.
+> **Por que não há TCC.** A Resolução CNE/CES nº 1/2018 retirou o trabalho de
+> conclusão da lista de requisitos obrigatórios da pós lato sensu — a exigência
+> passou a depender do projeto pedagógico de cada instituição. Estamos livres
+> para escolher, e escolhemos contra.
+>
+> O mês de TCC é, em quase toda pós EAD do país, **o mês em que o aluno some**.
+> São 30 horas em que ele trabalha sozinho, produz um documento que ninguém
+> lê, e a instituição cria um gargalo de orientação individual que atrasa a
+> certificação de todo mundo. O aluno termina o curso sabendo mais e **fazendo
+> exatamente o mesmo que fazia antes.**
+>
+> Este mês faz o oposto. Ele existe para responder à única pergunta que
+> importa depois de onze meses de conteúdo: **e na segunda-feira, o que muda
+> no meu atendimento?**
 
-**Objetivos.** Produzir um plano de cuidado completo, defensável e
-documentado, de um praticante real acompanhado pelo aluno.
+**Ementa.** A consulta como procedimento: o que cabe na primeira consulta, a
+devolutiva, a consulta de retorno e o reconhecimento do que não é seu. O
+registro que protege: prontuário, o que nunca se escreve, consentimento,
+comunicação de risco por escrito e o escopo profissional documentado. A
+montagem do instrumental de trabalho: ficha de anamnese de carga total, painel
+de monitoramento, modelo de progressão escrita, critérios de retorno, plano de
+ação de emergência do próprio local, auditoria de suplemento, checklist
+antidoping e modelo de encaminhamento. E a sustentação da prática: por que a
+consulta avulsa não trata quem treina, o acompanhamento como formato de
+cuidado, a conta que mantém um atendimento de pé, e a captação de pacientes
+dentro da régua ética de cada conselho.
+
+**Objetivos.** Conduzir uma consulta completa e uma devolutiva que mude
+comportamento; registrar de forma que proteja o paciente, o aluno e a
+instituição; sair do curso com o instrumental de trabalho pronto e testado; e
+estruturar a prática de acompanhamento de quem treina.
 
 | # | Aula | Arquitetura | Min | Origem |
 |---|---|---|---|---|
-| 1 | Escolhendo o caso e obtendo consentimento | PROCEDIMENTO | 18 | M24-A01 · EDITAR |
-| 2 | Documentando a anamnese de carga total | PROCEDIMENTO | 20 | M24-A02 · EDITAR |
-| 3 | Da hipótese ao plano de intervenção multiprofissional | PROCEDIMENTO | 20 | M24-A03 · EDITAR |
-| 4 | Critérios de reavaliação, normas e defesa | PROCEDIMENTO | 20 | M24-A04 · EDITAR |
+| 1 | A primeira consulta: o que cabe de fato em cinquenta minutos | PROCEDIMENTO | 25 | NOVA |
+| 2 | A devolutiva: o momento em que o tratamento começa ou morre | ERRO | 20 | NOVA |
+| 3 | A consulta de retorno, que é onde o cuidado acontece | NÚMERO | 12 | NOVA |
+| 4 | O paciente que não é seu: encaminhar sem abandonar | DECISÃO | 18 | M24-A03 parcial · NOVA |
+| 5 | O prontuário que protege: o que registrar e o que nunca escrever | PROCEDIMENTO | 20 | NOVA |
+| 6 | Consentimento, termos e comunicação de risco por escrito | DECISÃO | 18 | M24-A01 parcial · NOVA |
+| 7 | Escopo em documento: como cada profissão registra o que fez | ERRO | 12 | NOVA |
+| 8 | Montando o kit I — anamnese de carga total e painel de monitoramento | PROCEDIMENTO | 20 | M24-A02 · EDITAR |
+| 9 | Montando o kit II — progressão escrita, critérios de retorno e plano de emergência | DECISÃO | 22 | NOVA |
+| 10 | Montando o kit III — auditoria de suplemento, antidoping e encaminhamento | PROCEDIMENTO | 18 | NOVA |
+| 11 | Por que a consulta avulsa não trata quem treina | NÚMERO | 20 | NOVA |
+| 12 | O acompanhamento como formato: desenho, duração e a conta que o sustenta | DECISÃO | 20 | NOVA |
+| 13 | Captar sem vender saúde: autoridade, conteúdo e a régua de cada conselho | ERRO | 13 | NOVA |
+| 14 | O caso que fecha os doze meses | CASO | 30 | M24-A04 · EDITAR |
+
+---
+
+## A avaliação final: portfólio profissional, não monografia
+
+O aluno não entrega um texto sobre um paciente. **Ele entrega o instrumental
+com que vai trabalhar**, montado ao longo do mês e aplicado a um praticante
+real que ele acompanha.
+
+**Oito peças**, cada uma construída numa aula e derivada de um mês do curso:
+
+| Peça | Vem de |
+|---|---|
+| 1. Ficha de anamnese de carga total, adaptada à sua prática | Mês 2 |
+| 2. Painel de monitoramento viável com o recurso que você tem | Meses 2 e 4 |
+| 3. Modelo de progressão escrita, com as quatro regras | Meses 3 e 7 |
+| 4. Roteiro de critérios de retorno, com e sem estrutura | Mês 8 |
+| 5. **Plano de ação de emergência do seu local real** | Mês 9 |
+| 6. Auditoria de suplemento e checklist antidoping | Mês 10 |
+| 7. Modelo de encaminhamento e de registro | Meses 11 e 12 |
+| 8. **Plano de cuidado de um praticante real**, com consentimento, hipótese, conta de reserva, intervenção multiprofissional e critérios de reavaliação | Todos |
+
+A peça 8 é o que o TCC tentava ser — **e ela cabe em quatro páginas**, porque
+o que se avalia é raciocínio e defensabilidade, não extensão.
+
+**Como é corrigido.** Rubrica pública, divulgada no primeiro dia do mês, com
+os mesmos critérios das avaliações contínuas dos onze meses anteriores. Sem
+orientação individual, sem banca, sem gargalo de certificação. Correção por
+pares na primeira rodada — o aluno avalia dois portfólios com a rubrica, que é
+por si só um exercício de raciocínio clínico — e correção docente na final.
+
+**Se a instituição mantenedora exigir TCC em regimento**, a peça 8 acrescida de
+uma revisão narrativa curta do problema clínico escolhido satisfaz a exigência
+sem transformar o mês numa monografia. **É um anexo, não o eixo.**
+
+**A LIGAÇÃO:** os onze meses de conteúdo ↔ a agenda de segunda-feira.
 
 ---
 
@@ -624,7 +696,7 @@ documentado, de um praticante real acompanhado pelo aluno.
 |---|---|---|
 | Unidades | 24 módulos de 15h (+1 de 25h) | 12 unidades de 30h |
 | Duração | indefinida | 12 meses, uma unidade por mês |
-| Aulas | 190 previstas / 158 escritas | 168 |
+| Aulas | 190 previstas / 158 escritas | 178 |
 | Formato de aula | um só, 18–22 min, 6 slides | 5 arquiteturas, 3 faixas de duração |
 | Caso clínico | espinha narrativa de toda aula | cota de 2 por unidade + 1 caso avaliativo |
 | Carga horária | 355h | 360h |
@@ -638,7 +710,15 @@ eram um só escrito duas vezes e foram fundidos.
 
 **O que entrou.** Reabilitação e recursos terapêuticos (8 aulas novas),
 Emergências no esporte (15 aulas novas, unidade inteira), Antidoping (2 aulas
-novas), Trabalhar dentro de uma estrutura esportiva (6 aulas novas).
+novas) e Trabalhar dentro de uma estrutura esportiva (6 aulas novas).
+
+**E o mês 12 deixou de ser TCC.** Virou **O consultório de segunda-feira** — 14
+aulas sobre atender, registrar e sustentar a prática, com avaliação final por
+**portfólio profissional** em vez de monografia. A Resolução CNE/CES nº 1/2018
+tornou o trabalho de conclusão opcional na pós lato sensu, e o mês de TCC é,
+em quase toda pós EAD, o mês em que o aluno some: 30 horas trabalhando sozinho,
+um documento que ninguém lê, e um gargalo de orientação individual que atrasa a
+certificação de toda a turma.
 
 **A régua de modalidade.** Nenhuma modalidade é o padrão do curso. Toda
 unidade cobre no mínimo quatro famílias de modalidade, e o conteúdo que

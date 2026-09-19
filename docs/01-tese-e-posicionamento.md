@@ -10,8 +10,8 @@ nomeia a ciência — Ciência do Esporte, Ciências do Exercício, Medicina do
 Esporte, Medicina do Exercício e do Esporte. Nenhum deles promete que o
 egresso vai saber **atender**. "Saúde Clínica" promete, e a matriz entrega:
 avaliação, laboratório, lesão, reabilitação, retorno ao esporte, emergência,
-trabalho dentro de uma estrutura, e um TCC que é plano de cuidado de um
-paciente real.
+trabalho dentro de uma estrutura, e um mês final inteiro dedicado ao ato de
+atender — consulta, devolutiva, registro e o instrumental de trabalho montado.
 
 **Por que "clínica" e não "clínica do atleta".** Como substantivo, *clínica*
 lê como lugar — e lugar tem dono, o médico. Como adjetivo, é vocabulário de
@@ -209,6 +209,9 @@ Ao final, o especialista é capaz de:
    maturação, mulher em cada fase, master acima de 40, crônico que treina.
 9. **Trabalhar em time multiprofissional e dentro de uma estrutura**, com
    linguagem comum, fluxo definido e limites de escopo claros.
+10. **Sustentar a própria prática** — conduzir consulta e devolutiva, registrar
+    de forma que proteja paciente e profissional, e estruturar acompanhamento
+    de longo prazo em vez de consulta avulsa.
 
 ---
 

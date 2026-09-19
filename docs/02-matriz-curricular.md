@@ -1,6 +1,6 @@
 # Matriz Curricular
 
-**Carga horária total: 360h** — 330h de conteúdo + 30h de TCC com orientação.
+**Carga horária total: 360h** — 12 unidades de 30h, todas de conteúdo.
 É exatamente o mínimo da Resolução CNE/CES nº 1/2018 para pós-graduação lato
 sensu, e é o formato mais comum do mercado. Não há folga sobre o piso:
 qualquer corte na aprovação precisa ser compensado, não simplesmente aceito.
@@ -27,8 +27,8 @@ síncronos quinzenais de discussão de caso.
 | 9 | **U9** — Emergências no esporte | 30h | 15 |
 | 10 | **U10** — Nutrição, suplementação e antidoping | 30h | 16 |
 | 11 | **U11** — Time, clube e raciocínio integrado | 30h | 14 |
-| 12 | **U12** — TCC: plano de cuidado de um atleta real | 30h | 4 + orientação |
-| | **Total** | **360h** | **168** |
+| 12 | **U12** — O consultório de segunda-feira | 30h | 14 |
+| | **Total** | **360h** | **178** |
 
 ---
 
@@ -67,7 +67,15 @@ mês 9, o cenário em que não há tempo para pensar: a emergência.
 indústria e o antidoping cobram disso; depois o time, o clube e a priorização
 quando há mais de uma hipótese viva.
 
-**Mês 12 · Provar.** Plano de cuidado documentado de um praticante real.
+**Mês 12 · Aplicar.** O único mês do curso dedicado ao ato de atender:
+consulta, devolutiva, registro, e o instrumental de trabalho montado e testado
+num praticante real.
+
+**Não há mês de TCC.** A Resolução CNE/CES nº 1/2018 tornou o trabalho de
+conclusão opcional na pós lato sensu, e a decisão aqui foi contra: o mês de
+monografia é onde o aluno some, e ele produz um documento que ninguém usa. No
+lugar, **portfólio profissional** — oito peças que o egresso leva para o
+consultório. Ver `03-ementas.md`, mês 12.
 
 ---
 
@@ -104,12 +112,13 @@ administrativa.
 |---|---|---|
 | Unidades | 24 módulos de 15h | 12 unidades de 30h |
 | Duração | 12 a 18 meses | 12 meses fixos |
-| Aulas | 190 | 168 |
+| Aulas | 190 | 178 |
 | Reabilitação | inexistente | 8 aulas |
 | Emergências | inexistente | 15 aulas (unidade inteira) |
 | Antidoping | inexistente | 2 aulas + integrado |
 | Estrutura de clube | inexistente | 6 aulas |
 | Módulo de ética isolado | M3, 15h | dissolvido e aplicado |
+| Mês final | TCC / monografia | **prática de consultório + portfólio** |
 | Suplementação | M20 + M21, 18 aulas | 6 aulas fundidas |
 
 O ementário antigo está preservado em `_arquivo-03-ementas-24-modulos.md` para
