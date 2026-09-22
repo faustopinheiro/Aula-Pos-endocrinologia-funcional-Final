@@ -113,21 +113,27 @@ sair sabendo mais e o egresso sair **fazendo diferente.**
 
 ---
 
-## Duas decisões de produção que precisam ser tomadas antes de escrever
+## Decisão tomada: o dimensionamento
 
-**A aula-mestra de 75 minutos.** A 118 palavras por minuto — taxa medida na
-gravação real, não a de leitura corrida — uma aula-mestra pede **cerca de 8.800
-palavras faladas**. São 27 delas, ou aproximadamente **237 mil palavras**. Para
-comparação: as 158 aulas já escritas somam 352 mil palavras no total.
+**A aula-mestra fixa de 75 minutos está derrubada.** Formato fixo longo é o
+mesmo erro da faixa fixa de 18–22 minutos, na direção oposta: enche o tema que
+não precisava e aperta o que precisava de mais.
 
-Três caminhos:
-- **Manter 75 min.** Formato de autoridade, e é o que justifica 400h. Custo de
-  produção alto e risco de evasão no bloco longo.
-- **Reduzir a mestra para 45–50 min** (~5.500 palavras). Mantém a função de
-  "tema que não pode ser fragmentado" com um terço a menos de produção.
-- **Dividir cada mestra em duas de 35 min**, com a numeração mostrando que são
-  par. Perde o efeito de peso na grade.
+No lugar: **a duração é consequência do tema.** Curta 10–15 · Padrão 20–25
+(a média do curso, 2.500 a 3.000 palavras) · Longa 30–40 · Mestra 50–70, rara e
+só quando cortar no meio deixa o aluno sem poder decidir nada.
 
-**A carga de 400h.** Ela excede o mínimo de 360h com folga, o que é bom para
+Com dois testes que valem juntos, nessa ordem: **nada pendente** primeiro — ao
+final o aluno responde o que é, como sei que está acontecendo, o que muda na
+conduta e onde termina o meu escopo — e **sem enrolação** depois. Detalhe em
+`06-como-escrever-as-aulas.md`; a triagem das 27 mestras da matriz está em
+`09-triagem-das-aulas-longas.md`.
+
+**Resultado:** 8 mestras em vez de 27, 19 longas, ~64h de vídeo em vez de 96h,
+sem perder um tema.
+
+## Decisão pendente
+
+ **A carga de 400h.** Ela excede o mínimo de 360h com folga, o que é bom para
 posicionamento e ruim para prazo: a 12 meses, são 33h por mês. Vale decidir se
 o curso é de 12 ou de 14 meses antes de fechar a matriz.

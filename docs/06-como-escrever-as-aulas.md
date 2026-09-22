@@ -186,26 +186,78 @@ Menos slides e mais densos. 30 min costuma pedir 5 ou 6.
 **118 palavras por minuto.** Taxa medida na gravação real — não confundir com
 a taxa de leitura corrida. Medir por script, nunca estimar.
 
-**A faixa fixa de 18 a 22 minutos está encerrada.** Ela produziu o efeito que
-o curso agora corrige: aula esticada para chegar ao piso e aula cortada no
-osso para caber no teto, com o mesmo tamanho em cento e cinquenta e oito
-temas de densidade completamente diferente.
+### A regra
 
-**A duração passa a ser função do assunto.** Três faixas, escolhidas pelo
-conteúdo e não pelo calendário:
+**A duração é consequência do tema, não meta do formato.**
 
-| Formato | Minutos | Palavras | Slides | Quando |
-|---|---|---|---|---|
-| **Curta** | 8 – 12 | 950 – 1.400 | 3 a 4 | Um ponto só: um número, um erro, um critério. |
-| **Média** | 15 – 20 | 1.750 – 2.350 | 5 a 6 | O padrão. Um raciocínio completo. |
-| **Longa** | 25 – 32 | 2.950 – 3.750 | 7 a 9 | Integradora, emergência, caso longo, fluxo inteiro. |
+Duas coisas estão proibidas, e são erros opostos:
 
-**Um módulo de 30h não pode ser feito só de aula média.** A régua por unidade:
-pelo menos **três curtas** e **uma longa**. A curta é o que devolve ritmo ao
-módulo — e é a que o aluno assiste no ônibus.
+- **Faixa fixa.** Obrigar todo tema a caber entre 18 e 22 minutos estica o
+  assunto pequeno e amputa o grande. Foi o que produziu 158 aulas idênticas.
+- **Formato fixo longo.** Decretar que o tema importante tem 75 minutos produz
+  enrolação em quem não precisava de 75 e alívio falso em quem precisava de 90.
 
-**O teto do ementário é teto institucional, não meta.** Aula que quer passar
-de 3.750 palavras vira duas.
+**O orçamento de palavras é definido depois do roteiro, nunca antes.**
+
+### Como se descobre o tamanho
+
+Antes de escrever, liste **as decisões que a aula precisa deixar o aluno capaz
+de tomar.** Cada decisão exige quatro coisas: o mecanismo · o número · o limite
+· e o que fazer. Conte as decisões. É isso que dá o tamanho.
+
+| Decisões na aula | Formato | Minutos | Palavras |
+|---|---|---|---|
+| 1 | **Curta** | 10 – 15 | 1.200 – 1.800 |
+| 2 a 3 | **Padrão** — o default | 20 – 25 | **2.400 – 3.000** |
+| 4 a 5 | **Longa** | 30 – 40 | 3.500 – 4.700 |
+| cadeia única indivisível | **Mestra** | 50 – 70 | 5.900 – 8.300 |
+
+**A média do curso fica em 2.500 a 3.000 palavras.** É o formato padrão, e é
+onde a maior parte das aulas deve cair.
+
+### Quando uma aula pode passar de 40 minutos
+
+A mestra é rara. Só entra quando **as três condições valem ao mesmo tempo**:
+
+1. **A cadeia causal é longa e cada elo depende do anterior.** Cortar no meio
+   entrega ao aluno um pedaço com o qual ele não consegue decidir nada.
+2. **Dividir produz duas aulas que não se sustentam sozinhas.** Se as duas
+   metades funcionam separadas, são duas aulas — e ficam melhores assim.
+3. **Existe controvérsia ou evidência conflitante que precisa ser apresentada
+   inteira**, sob pena de virar dogma.
+
+Se só uma ou duas condições valem, **são duas aulas.** E quando são duas, a
+numeração diz que são par, para o aluno saber que ainda não acabou.
+
+### Os dois testes, que são opostos e valem juntos
+
+**Teste da enrolação.** Se um parágrafo sai e o seguinte continua fazendo
+sentido, ele sai. Vale para todo tamanho, e vale mais quanto mais longa a aula.
+
+**Teste do nada pendente.** Ao final, o aluno consegue responder quatro
+perguntas sobre o tema:
+
+1. **O que é** — o mecanismo, não a definição de dicionário.
+2. **Como eu sei que está acontecendo** — o marcador, e quanto ele custa.
+3. **O que muda na minha conduta** — a decisão, com o critério que a sustenta.
+4. **Onde termina o meu escopo** — o limite, e para quem se encaminha.
+
+**Se qualquer uma das quatro ficou aberta, a aula não terminou** — e aí ela
+cresce, mesmo que já esteja longa. Uma aula de 34 minutos que responde as
+quatro é melhor que uma de 25 que deixa a terceira no ar.
+
+A ordem de prioridade entre os dois testes é fixa: **primeiro o nada pendente,
+depois a enrolação.** Escreve-se tudo o que o tema exige, e só então se corta o
+que não era o tema.
+
+### Ritmo dentro do módulo
+
+**Duas aulas longas nunca são consecutivas.** Vale para longa e para mestra.
+Todo módulo tem pelo menos **duas curtas** — são elas que devolvem fôlego e são
+as que o aluno assiste no ônibus.
+
+**O teto absoluto é 70 minutos.** Acima disso não existe tema indivisível,
+existe roteiro mal organizado.
 
 ## Corte obrigatório antes de entregar
 
