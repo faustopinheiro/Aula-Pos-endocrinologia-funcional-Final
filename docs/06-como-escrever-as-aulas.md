@@ -118,6 +118,37 @@ ornamento — e ornamento repetido cento e cinquenta vezes vira ruído.
 
 ---
 
+## A aula-porta
+
+Algumas aulas tratam de território que o curso **não vai cobrir até o fim** —
+hormônio, peptídeo, farmacologia fina, técnica de execução de outra profissão.
+Elas existem porque ignorar o assunto é pior do que tratá-lo raso: o paciente
+vai usar de qualquer jeito, e quem não reconhece não protege nem encaminha.
+
+Uma aula-porta é rasa **de propósito e por declaração** — nunca por omissão.
+
+**As quatro regras:**
+
+1. **Ela é completa para o seu propósito.** Reconhecer, perguntar, dimensionar
+   risco e saber para quem encaminhar. Isso é uma competência inteira, e a aula
+   a entrega inteira. Aula-porta não é aula pela metade.
+2. **Ela declara o que não cobre, e por quê.** No fecho, com nome: *"esta aula
+   não trata de dose, esquema nem monitorização, e a razão é que isso exige uma
+   formação própria."* O aluno sai sabendo exatamente o que recebeu.
+3. **Ela nunca vende.** Não cita outro curso, não promete continuação, não
+   insinua que o importante ficou de fora. **O desejo vem da competência que o
+   aluno acabou de ganhar, não de uma provocação.** Quem termina a aula
+   entendendo o problema quer resolver o problema — e isso basta.
+4. **Ela não empurra o aluno para fora do escopo dele.** Seis das sete
+   profissões não prescrevem. A aula-porta que faz um nutricionista achar que
+   aprendeu a repor testosterona é um problema jurídico, não um funil.
+
+**O teste:** se a aula, lida por alguém que nunca vai fazer o curso seguinte,
+**ainda melhora o atendimento dele na segunda-feira**, ela está certa. Se ela
+só faz sentido como aperitivo, está errada e precisa ser reescrita.
+
+---
+
 ## Rodízio de modalidade
 
 Mesma lógica das arquiteturas, aplicada ao exemplo clínico: **a repetição de

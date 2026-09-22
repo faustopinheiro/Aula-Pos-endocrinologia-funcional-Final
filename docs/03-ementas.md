@@ -479,46 +479,77 @@ transporte.
 
 ---
 
-# MÊS 10 · U10 — Nutrição, suplementação e antidoping
+# MÊS 10 · U10 — O que o atleta ingere: nutrição, suplemento, fármaco e antidoping
 **30h · 16 aulas** · *origem: M19 + M20 e M21 fundidos + aulas novas*
+
+> **Régua de altitude, e ela é mais estreita aqui do que em qualquer outra
+> unidade.** O bloco de fármaco e hormônio (aulas 12 a 14) ensina **reconhecer,
+> perguntar e saber o limite** — nunca prescrever. Nenhuma dessas aulas traz
+> dose, esquema, via, monitorização ou protocolo. O aluno sai sabendo **o que o
+> paciente está tomando, o que aquilo faz, o que aquilo custa, o que aquilo
+> arrisca e para quem encaminhar.** A conduta fina é outro curso, e a aula diz
+> isso em voz alta — ver "A aula-porta" em `06-como-escrever-as-aulas.md`.
 
 **Ementa.** Disponibilidade energética: cálculo e identificação do déficit.
 Carboidrato por demanda real, proteína e sua distribuição, gordura e função
 endócrina. Periodização nutricional e seus limites. Hidratação, eletrólitos e
-desconforto gastrointestinal. Comer em horários extremos de treino.
-Vegetarianismo, jejum e padrões restritivos. Como ler uma alegação de
-suplemento e separar associação de causa. Os suplementos com evidência:
-creatina, cafeína, beta-alanina, bicarbonato, nitrato. Proteína e aminoácidos
-em pó. Vitamina D, magnésio, ômega-3, B12 e colágeno. O mercado
-"mitocondrial". O que não funciona e quanto custa por mês. Contaminação,
-rotulagem e segurança no mercado brasileiro. Antidoping: o Código Mundial, a
-Lista Proibida, responsabilidade objetiva, autorização de uso terapêutico,
-doping inadvertido por suplemento e medicação comum, e o papel de cada
-profissão da equipe.
+desconforto gastrointestinal. Horários extremos de treino, jejum e padrões
+restritivos. Como ler uma alegação de suplemento até a fonte. Os suplementos
+com evidência: creatina, cafeína, beta-alanina, bicarbonato, nitrato.
+Micronutrientes, colágeno e o mercado "mitocondrial". Contaminação, rotulagem e
+segurança no mercado brasileiro. **O mapeamento do que o atleta já usa: fármaco,
+hormônio, manipulado, injetável e peptídeo — o que cada categoria é, o que a
+evidência sustenta, qual é o status regulatório no Brasil e onde está a linha
+entre indicação e uso.** Antidoping: o Código Mundial, a Lista Proibida,
+responsabilidade objetiva, autorização de uso terapêutico, doping inadvertido
+por suplemento e medicação comum, e o papel de cada profissão da equipe.
 
 **Objetivos.** Fazer a conta de energia e macronutriente sobre a rotina real;
 ler uma alegação de suplemento até a fonte; recomendar o pouco que funciona e
-recusar o resto sem humilhar o paciente; e conduzir antidoping de forma a não
-expor o atleta nem a si mesmo.
+recusar o resto sem humilhar o paciente; **mapear o que o atleta já usa e
+reconhecer quando aquilo saiu do campo da indicação**; e conduzir antidoping de
+forma a não expor o atleta nem a si mesmo.
 
 | # | Aula | Arquitetura | Min | Origem |
 |---|---|---|---|---|
-| 1 | Disponibilidade energética: cálculo, interpretação e o déficit escondido | PROCEDIMENTO | 20 | M19-A01 · EDITAR |
-| 2 | Carboidrato por demanda real de treino | NÚMERO | 20 | M19-A02 + M20-A05 · FUNDIR |
-| 3 | Proteína: necessidade, distribuição e o ajuste do master | NÚMERO | 20 | M19-A03 + M20-A04 · FUNDIR |
-| 4 | Gordura e função endócrina | NÚMERO | 12 | M19-A04 · EDITAR |
-| 5 | Periodização nutricional e seus limites fora do laboratório | ERRO | 18 | M19-A05 · EDITAR |
-| 6 | Hidratação, eletrólitos e desconforto gastrointestinal | PROCEDIMENTO | 20 | M19-A06 · EDITAR |
-| 7 | Comer para quem treina às 5h ou às 22h | DECISÃO | 15 | M19-A07 · EDITAR |
-| 8 | Vegetarianismo, jejum e padrões restritivos | DECISÃO | 20 | M19-A08 · EDITAR |
-| 9 | Como ler uma alegação de suplemento até a fonte | PROCEDIMENTO | 20 | M21-A01 + M20-A01 + M3-A02 + M3-A05 · FUNDIR |
-| 10 | Creatina: a mais estudada e a mais mal explicada | NÚMERO | 18 | M20-A03 + M21-A02 · FUNDIR |
-| 11 | Cafeína, beta-alanina, bicarbonato e nitrato | NÚMERO | 25 | M20-A02 + M20-A06 + M21-A03 · FUNDIR |
-| 12 | Vitamina D, magnésio, ômega-3, B12 e colágeno | ERRO | 20 | M21-A04 + M21-A05 · FUNDIR |
-| 13 | O mercado "mitocondrial", o que não funciona e quanto custa por mês | ERRO | 20 | M21-A06 + M21-A07 + M20-A08 · FUNDIR |
-| 14 | Contaminação, rotulagem e segurança no mercado brasileiro | NÚMERO | 18 | M20-A09 + M21-A08 · FUNDIR |
-| 15 | Antidoping: Código, Lista Proibida e responsabilidade objetiva | PROCEDIMENTO | 25 | NOVA |
-| 16 | Autorização de uso terapêutico, doping inadvertido e o papel da equipe | CASO | 30 | NOVA + M21-A09 · FUNDIR |
+| 1 | Disponibilidade energética: cálculo, interpretação e o déficit escondido | PROCEDIMENTO | 18 | M19-A01 · EDITAR |
+| 2 | Carboidrato por demanda real de treino | NÚMERO | 18 | M19-A02 + M20-A05 · FUNDIR |
+| 3 | Proteína: necessidade, distribuição e o ajuste do master | DECISÃO | 13 | M19-A03 + M20-A04 · FUNDIR |
+| 4 | Gordura, função endócrina e os limites da periodização nutricional | ERRO | 18 | M19-A04 + M19-A05 · FUNDIR |
+| 5 | Hidratação, eletrólitos e desconforto gastrointestinal | PROCEDIMENTO | 15 | M19-A06 · EDITAR |
+| 6 | Horário extremo, jejum e padrões restritivos | DECISÃO | 18 | M19-A07 + M19-A08 · FUNDIR |
+| 7 | Como ler uma alegação de suplemento até a fonte | PROCEDIMENTO | 18 | M21-A01 + M20-A01 + M3-A02 + M3-A05 · FUNDIR |
+| 8 | Creatina: a mais estudada e a mais mal explicada | NÚMERO | 15 | M20-A03 + M21-A02 · FUNDIR |
+| 9 | Cafeína, beta-alanina, bicarbonato e nitrato | PROCEDIMENTO | 20 | M20-A02 + M20-A06 + M21-A03 · FUNDIR |
+| 10 | Micronutriente, colágeno e o mercado "mitocondrial": o que sobra | ERRO | 20 | M21-A04 + A05 + A06 + A07 + M20-A08 · FUNDIR |
+| 11 | Contaminação, rotulagem e segurança no mercado brasileiro | NÚMERO | 12 | M20-A09 + M21-A08 · FUNDIR |
+| 12 | **O que o seu paciente já está tomando** | PROCEDIMENTO | 12 | NOVA · *aula-porta* |
+| 13 | **Hormônio no esporte: indicação, uso, e a linha entre os dois** | DECISÃO | 20 | NOVA · *aula-porta* |
+| 14 | **Peptídeos e o mercado que cresceu mais rápido que a evidência** | ERRO | 15 | NOVA · *aula-porta* |
+| 15 | Antidoping: Código, Lista Proibida e responsabilidade objetiva | PROCEDIMENTO | 18 | NOVA |
+| 16 | AUT, doping inadvertido e o papel da equipe | CASO | 28 | NOVA + M21-A09 · FUNDIR |
+
+### O bloco 12–14, e por que ele é raso de propósito
+
+Este é o território mais pedido pelos alunos e o mais perigoso de ensinar mal.
+Ele entra porque **ignorá-lo é pior**: o paciente vai usar de qualquer forma, e
+o profissional que não sabe reconhecer não consegue nem proteger nem
+encaminhar. E ele entra raso porque **profundidade aqui exige uma formação
+inteira**, e porque seis das sete profissões da turma não prescrevem.
+
+O que cada aula entrega, e o que ela declaradamente não entrega:
+
+| Aula | Entrega | Não entrega |
+|---|---|---|
+| **12. O que o seu paciente já está tomando** | Como perguntar sem julgar · o mapa das categorias (prescrito, manipulado, importado, injetável, "protocolo de coach") · por que a pergunta falha quando é feita como interrogatório | Nenhuma conduta terapêutica |
+| **13. Hormônio no esporte** | O que é indicação, o que é "otimização" · o que a evidência sustenta em testosterona, tireoide e GH · o que muda no atleta federado · os riscos que precisam ser ditos · quando encaminhar e para quem | **Dose, esquema, via, monitorização ou protocolo de reposição** |
+| **14. Peptídeos** | As categorias e o que cada uma promete · o que tem ensaio e o que tem só mecanismo · status regulatório no Brasil · manipulação e contaminação · status antidoping | **Qualquer protocolo de uso** |
+
+**A honestidade que essas três aulas exigem**, e que é o que as impede de virar
+propaganda: cada uma termina **nomeando o que ficou de fora e por quê** — não
+como isca, mas como limite de escopo. O aluno que quiser a conduta fina sabe
+exatamente o que precisa estudar depois, e sabe que não foi enganado sobre o
+que recebeu aqui.
 
 *M20-A07 (suplementação no master e na mulher atleta) dissolve: o ajuste por
 população passa a ser dito dentro de cada aula de substância, como manda a
@@ -526,8 +557,9 @@ regra de contexto.*
 
 **Estudo de caso avaliativo.** Um praticante sujeito a controle antidoping —
 federado em qualquer modalidade, de jiu-jitsu a corrida de rua — chega com
-quatro potes e uma receita de outro profissional: auditar rótulo, evidência,
-custo mensal e risco antidoping, e escrever a devolutiva.
+quatro potes, uma receita de outro profissional e um frasco manipulado sem
+rótulo: auditar rótulo, evidência, custo mensal e risco antidoping, decidir o
+que é do seu escopo e o que não é, e escrever a devolutiva.
 
 **A LIGAÇÃO:** o que o pote promete ↔ o que a conta de energia já explicava.
 
