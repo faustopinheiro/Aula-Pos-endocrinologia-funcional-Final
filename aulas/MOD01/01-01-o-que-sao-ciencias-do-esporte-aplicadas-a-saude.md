@@ -2,7 +2,7 @@
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 21 minutos · 4 slides · Arquitetura: ERRO
+Duração: 18 minutos · 4 slides · Arquitetura: ERRO
 
 ---
 
@@ -96,23 +96,7 @@ Agora, por que isso muda a sua segunda-feira. Quatro consequências, e uma armad
 
 **Quarta: muda o que você olha na reavaliação.** Se o desfecho é capacidade de adaptar, então o que você acompanha é quanto ela tolera, quanto tempo leva para voltar, quantas infecções teve, como acorda, se sustenta a rotina. Que é, aliás, exatamente a lista que este curso vai montando módulo a módulo.
 
-E agora a parte que é específica do esporte recreativo, e que eu acho que é o motivo desta aula existir dentro desta pós e não dentro de um curso de saúde pública.
-
-No paciente clínico comum, o objetivo dele e a saúde dele costumam apontar para o mesmo lado. Ele quer melhorar a pressão, quer emagrecer, quer voltar a subir escada. Você e ele estão no mesmo time, olhando na mesma direção.
-
-**No esporte recreativo isso deixa de ser verdade com frequência.**
-
-O paciente quer correr a maratona em cinco semanas, com uma lesão de estresse. Ele quer ficar mais seco do que o corpo dele sustenta. Ele quer competir na categoria abaixo, e para isso precisa perder seis quilos em três semanas. Ele quer treinar sete dias por semana porque o dia sem treino gera angústia.
-
-Nenhuma dessas coisas é irracional do ponto de vista dele. Todas são objetivos legítimos de uma pessoa adulta. E várias delas custam margem.
-
-E aí você tem um conflito que não é técnico, é de valores. E eu não vou te dar uma fórmula, porque não existe. O que eu vou te dar é a postura que eu acho defensável, e ela tem três partes.
-
-Primeira: **o objetivo é dele, não seu.** Você não decide se ele deve querer competir. Adulto informado escolhe o próprio risco, e isso vale para esporte como vale para qualquer outra coisa da vida.
-
-Segunda: **o custo precisa ser dito, com clareza e sem chantagem.** Não é "você vai se destruir". É "essa escolha custa isso, nesse prazo, com essa probabilidade, e eu posso reduzir o custo assim".
-
-E terceira, que é o limite: **existe um ponto em que você não acompanha.** Se o que ele quer implica dano previsível e grave — competir com fratura por estresse em progressão, manter restrição severa numa paciente em amenorreia com osso comprometido, usar substância de risco — você diz que não faz, diz por quê, e continua disponível. Não é abandono, é escopo. E dizer não é parte do cuidado.
+E a próxima aula é inteira sobre a consequência disso, porque ela é o problema central deste campo: **no praticante de exercício, o objetivo dele e a saúde dele nem sempre apontam para o mesmo lado.**
 
 E agora a armadilha, porque toda definição boa tem um jeito de ser mal usada.
 
@@ -191,7 +175,6 @@ Visual: a definição de 1948 riscada, a nova em destaque.
 · O objetivo é dele; o custo é você quem diz; e existe ponto em que você não acompanha
 · Armadilha: margem preservada não dispensa rastreio. Doença silenciosa existe
 Visual: as consequências, a tensão do objetivo, e a armadilha em vermelho-clay.
-
 
 **Slide 4** — A régua e as três perguntas
 · Saúde é margem — o exame informa, a margem define
