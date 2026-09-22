@@ -144,7 +144,7 @@ Na próxima aula a gente sai do total e entra no combustível que mais decide de
 
 1. Burke LM, Lundy B, Fahrenholtz IL, Melin AK. Pitfalls of conducting and interpreting estimates of energy availability in free-living athletes. *Int J Sport Nutr Exerc Metab.* 2018;28(4):350-363. PMID: 30029584
 2. Melin A, Tornberg ÅB, Skouby S, et al. The LEAF questionnaire: a screening tool for the identification of female athletes at risk for the female athlete triad. *Br J Sports Med.* 2014;48(7):540-545. PMID: 24563388
-3. Stellingwerff T, Mountjoy M, McCluskey WTP, et al. Review of the scientific rationale, development and validation of the International Olympic Committee Relative Energy Deficiency in Sport Clinical Assessment Tool: V.2 (IOC REDs CAT2). *Br J Sports Med.* 2023;57(17). PMID: 37752002
+3. Stellingwerff T, Mountjoy M, et al. Review of the scientific rationale, development and validation of the International Olympic Committee Relative Energy Deficiency in Sport Clinical Assessment Tool: V.2 (IOC REDs CAT2). *Br J Sports Med.* 2023;57(17). PMID: 37752002
 4. Impact of equation choice on resting metabolic rate ratio in high-level men and women athletes. *J Am Nutr Assoc.* 2024;43(5). PMID: 38194347
 5. RMR and RMR ratio are not related to energy availability in elite and pre-elite athletes. *Appl Physiol Nutr Metab.* 2025. PMID: 41183311
 6. Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *Br J Sports Med.* 2023;57(17):1073-1097. PMID: 37752011
