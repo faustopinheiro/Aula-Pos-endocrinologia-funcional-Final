@@ -184,6 +184,15 @@ exposição, isquiotibiais, calendário congestionado, concussão em esporte de
 contato. Nesses pontos, o dado é do futebol **e a aula explicita que é** —
 inclusive para mostrar o que ele não cobre.
 
+**E o exemplo concreto de clube é bem-vindo, não proibido.** A régua não é
+evitar o clube — é impedir que ele seja o único formato apresentado. Um
+departamento de clube mapeado cargo a cargo é a forma mais rápida de mostrar
+uma estrutura completa, e ancora a abstração. O que ele não pode ser é o
+**padrão implícito** a partir do qual todos os outros arranjos aparecem como
+versões incompletas. Sempre que o clube entrar, ele entra **como um dos
+formatos**, ao lado da academia, da assessoria, da equipe pequena e do
+profissional sozinho.
+
 ---
 
 ## Perfil do egresso

@@ -2,7 +2,7 @@
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 15 minutos · 5 slides · Arquitetura: ERRO
+Duração: 18 minutos · 5 slides · Arquitetura: ERRO
 
 ---
 
@@ -140,7 +140,29 @@ E para quem está sozinho — que é boa parte de vocês —, as três perguntas
 
 Fechando, formato por formato — o que existe e o que precisa ser compensado.
 
-**No departamento completo**, as oito funções costumam ter nome. O que falha é o **excesso de camadas** e a pressão de calendário: a decisão técnica disputa espaço com a decisão competitiva. O que precisa estar escrito ali é **quem assina o quê quando essas duas divergirem.**
+**No departamento completo**, as oito funções costumam ter nome — e vale ver isso concretamente, porque é a única configuração em que dá para mapear função e cargo um a um.
+
+Num departamento de clube razoavelmente estruturado — e isso vale igual para futebol, vôlei, basquete ou handebol —, o desenho típico é este:
+
+**Coordenador médico ou médico do clube** — triagem, estratificação, diagnóstico e conduta clínica. É quem faz a avaliação pré-participação da pré-temporada e quem decide sobre imagem, medicação e afastamento.
+
+**Fisioterapeutas**, quase sempre mais de um — reabilitação e retorno. Num elenco grande, costuma haver divisão entre quem atende o lesionado e quem faz o trabalho preventivo diário.
+
+**Readaptador físico** — a função que fica exatamente na emenda entre a fisioterapia e o campo, e que existe justamente porque essa emenda é onde mais se perde atleta.
+
+**Preparador físico** — prescrição e progressão do treino.
+
+**Fisiologista ou analista de desempenho** — avaliação e monitoramento. É quem opera o GPS, a percepção de esforço e os testes periódicos.
+
+**Nutricionista** — disponibilidade energética, composição corporal, rotina de refeição e viagem.
+
+**Psicólogo** — saúde mental, adesão, e a dimensão psicológica da lesão.
+
+**Enfermeiro e massoterapeuta** — cuidado diário, curativo, registro e rotina.
+
+E a oitava função, a coordenação, costuma recair sobre **o coordenador médico ou sobre um gestor de performance** — quando ela é atribuída a alguém. **Quando não é, ela simplesmente não acontece**, e o departamento com dez pessoas passa a ter o mesmo problema da rede informal de três: cada um com a própria informação.
+
+Repara no que esse mapa mostra: **num clube, o que falha quase nunca é a ausência de função.** É o excesso de camadas e a pressão de calendário. O que falha é o **excesso de camadas** e a pressão de calendário: a decisão técnica disputa espaço com a decisão competitiva. O que precisa estar escrito ali é **quem assina o quê quando essas duas divergirem.**
 
 **Na equipe pequena**, o acúmulo é a regra e funciona bem — a comunicação é fácil porque as pessoas se veem. O que falha é **triagem e registro**, porque ninguém tem tempo e todo mundo acha que alguém já fez. **A folha de três perguntas resolve quase tudo aqui.**
 
@@ -216,7 +238,9 @@ Visual: o percurso do atleta, com as setas que costumam faltar.
 Visual: três perguntas grandes, com a resposta em branco ao lado.
 
 **Slide 5** — O que falha em cada formato
-· **Departamento completo:** as oito funções têm nome. Falha o **excesso de camadas** e a **pressão de calendário** — decisão técnica disputa com decisão competitiva. **Escrever quem assina quando as duas divergirem**
+· **Departamento completo — o mapa concreto** (vale igual para futebol, vôlei, basquete, handebol): **coordenador médico** (triagem, estratificação, diagnóstico, conduta) · **fisioterapeutas** (reabilitação e retorno, com divisão entre lesionado e preventivo) · **readaptador físico** (a emenda entre a fisioterapia e o campo — **onde mais se perde atleta**) · **preparador físico** (prescrição e progressão) · **fisiologista ou analista de desempenho** (GPS, PSE, testes) · **nutricionista** · **psicólogo** · **enfermeiro e massoterapeuta** (cuidado diário e registro)
+· **A coordenação recai sobre o coordenador médico ou um gestor de performance — quando é atribuída a alguém. Quando não é, não acontece**, e o departamento de dez tem o mesmo problema da rede informal de três
+· **Num clube, o que falha quase nunca é ausência de função.** Falha o **excesso de camadas** e a **pressão de calendário** — decisão técnica disputa com decisão competitiva. **Escrever quem assina quando as duas divergirem**
 · **Equipe pequena:** acúmulo é a regra e funciona; a comunicação é fácil porque as pessoas se veem. **Falha triagem e registro** — ninguém tem tempo e todos acham que alguém já fez. **A folha de três perguntas resolve quase tudo**
 · **Rede informal:** competências boas, **conjunto inexistente. O formato de maior risco** — a soma de três bons profissionais sem circulação é pior que um profissional razoável com visão completa. **Compensa: lugar comum de registro + combinação prévia de quem convoca**
 · **Sozinho:** falha o **ponto cego** — você só vê os sinais que aparecem na sua consulta. **Compensa: perguntar o que os outros estão vendo.** *"O que o seu treinador falou do seu desempenho nas últimas semanas?"* — 10 segundos, e importa mais que a maior parte dos exames
