@@ -93,59 +93,62 @@ delas vira O ERRO ou A DECISÃO.
 
 ---
 
-## O caso clínico: cota e lugar
+## O caso clínico: a exceção, não o padrão
 
 Diagnóstico honesto do que estava errado: o caso clínico virou a espinha
-narrativa de todas as aulas — abertura com paciente nomeado, fechamento com
+narrativa de **todas** as aulas — abertura com paciente nomeado, fechamento com
 desfecho, às vezes três por aula. Centenas de pacientes fictícios. **É
 cansativo, e o aluno pula.**
 
-A correção, em três regras:
+A regra anterior — "no máximo um paciente nomeado por aula" — foi lida como
+licença para colocar um em cada aula. Ela está corrigida:
 
-**1. No máximo um paciente nomeado por aula.** Nunca três abrindo e três
-fechando. Se a aula precisa de mais de um exemplo, os outros entram como
-micro-diálogo de duas linhas, sem nome, idade ou desfecho.
+### **A maioria das aulas não tem paciente nenhum.**
 
-**2. O caso não é o roteiro de vídeo. É a atividade.** O lugar do caso longo,
-com linha do tempo, exames e decisão, é a **avaliação do módulo** — o aluno
-resolve, não assiste alguém resolver. A pós passa a ter avaliação contínua
-por análise de estudo de caso, um por unidade. É onde o caso ensina de
-verdade, porque exige resposta.
+**Caso clínico entra só quando é necessário** — não é cota a ser preenchida, é
+exceção a ser justificada. Num módulo de 10 a 12 aulas, o normal é **zero ou
+um**. **Dois é o teto**, não a meta, e um módulo que chega a dois precisa poder
+explicar por que as duas eram indispensáveis.
 
-**3. Paciente nomeado só quando o tempo é o conteúdo.** Se o ponto da aula é
-um número, um erro, um roteiro ou um critério, o paciente nomeado é
-ornamento — e ornamento repetido cento e cinquenta vezes vira ruído.
+| | |
+|---|---|
+| Aulas **sem paciente nenhum** | **o padrão** |
+| Micro-exemplo anônimo de duas linhas | quando ajuda |
+| **Paciente nomeado com desfecho** | **só se for necessário — teto de 2 no módulo** |
 
----
+### O teste de necessidade
 
-## A aula-porta
+Uma pergunta: **o caso é o conteúdo, ou é ilustração do conteúdo?**
 
-Algumas aulas tratam de território que o curso **não vai cobrir até o fim** —
-hormônio, peptídeo, farmacologia fina, técnica de execução de outra profissão.
-Elas existem porque ignorar o assunto é pior do que tratá-lo raso: o paciente
-vai usar de qualquer jeito, e quem não reconhece não protege nem encaminha.
+Só se justifica quando **o tempo é o conteúdo** — quando o erro só fica visível
+ao longo de semanas ou meses, e o percurso do raciocínio é o próprio objeto de
+aprendizagem. É a arquitetura CASO, e ela é rara e proposital.
 
-Uma aula-porta é rasa **de propósito e por declaração** — nunca por omissão.
+**Se a aula funciona sem o caso, ela vai sem o caso.** Esse é o teste, e ele
+reprova a maioria.
 
-**As quatro regras:**
+**Não se justifica** para ilustrar um conceito, para "humanizar" a aula, para
+abrir com gancho, nem para fechar com desfecho bonito. Se o ponto da aula é um
+número, um erro, um roteiro ou um critério, **o paciente nomeado é ornamento —
+e ornamento repetido vira ruído.**
 
-1. **Ela é completa para o seu propósito.** Reconhecer, perguntar, dimensionar
-   risco e saber para quem encaminhar. Isso é uma competência inteira, e a aula
-   a entrega inteira. Aula-porta não é aula pela metade.
-2. **Ela declara o que não cobre, e por quê.** No fecho, com nome: *"esta aula
-   não trata de dose, esquema nem monitorização, e a razão é que isso exige uma
-   formação própria."* O aluno sai sabendo exatamente o que recebeu.
-3. **Ela nunca vende.** Não cita outro curso, não promete continuação, não
-   insinua que o importante ficou de fora. **O desejo vem da competência que o
-   aluno acabou de ganhar, não de uma provocação.** Quem termina a aula
-   entendendo o problema quer resolver o problema — e isso basta.
-4. **Ela não empurra o aluno para fora do escopo dele.** Seis das sete
-   profissões não prescrevem. A aula-porta que faz um nutricionista achar que
-   aprendeu a repor testosterona é um problema jurídico, não um funil.
+### O que entra no lugar
 
-**O teste:** se a aula, lida por alguém que nunca vai fazer o curso seguinte,
-**ainda melhora o atendimento dele na segunda-feira**, ela está certa. Se ela
-só faz sentido como aperitivo, está errada e precisa ser reescrita.
+**O exemplo anônimo de duas linhas.** *"Um corredor de 47 anos com dor no
+Aquiles aponta na inserção, não na porção média — e isso muda o exercício."*
+Sem nome, sem história, sem desfecho. Faz o mesmo trabalho didático e custa
+um décimo do tempo.
+
+**O micro-diálogo.** Uma fala entre aspas, no meio do raciocínio, sem
+apresentar quem falou.
+
+**E, na maior parte das vezes, nada.** A aula que explica um mecanismo, monta
+um roteiro ou desmonta um erro **não precisa de paciente para funcionar.**
+
+### O lugar do caso longo
+
+É a **avaliação do módulo** — o aluno resolve, não assiste alguém resolver. É
+onde o caso ensina de verdade, porque exige resposta.
 
 ---
 
