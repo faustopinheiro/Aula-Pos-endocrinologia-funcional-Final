@@ -2,11 +2,11 @@
 
 **Módulo 5 — Suplementação, Ergogênicos e Antidoping**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 34 minutos · 10 slides · Arquitetura: NÚMERO
+Duração: 37 minutos · 11 slides · Arquitetura: NÚMERO
 
 ---
 
-📊 **[SLIDE 1 DE 10]**
+📊 **[SLIDE 1 DE 11]**
 *Visual: um pote simples de creatina no centro, e três setas saindo dele para três pessoas: um adolescente de uniforme de futebol, uma mulher de meia-idade com halteres, um corredor com número de peito. Embaixo, um único número grande: 3 a 5 g.*
 *Teleprompter: (entra pelo contraste entre a quantidade de evidência e a quantidade de confusão)*
 
@@ -30,7 +30,7 @@ E duas fronteiras. **Contaminação e certificação de lote são a aula 5.9.** 
 
 ---
 
-📊 **[SLIDE 2 DE 10]**
+📊 **[SLIDE 2 DE 11]**
 *Visual: um diagrama simples — de um lado, o fígado e o rim produzindo ~1 g/dia; do outro, um prato com carne e peixe dando ~1–2 g/dia; os dois convergindo para o músculo, com "95%" escrito dentro e "dois terços como fosfocreatina".*
 *Teleprompter: (de onde vem a creatina, e quanto cabe)*
 
@@ -50,7 +50,7 @@ E o corpo gasta o estoque todo dia. **Cerca de um a dois por cento da creatina m
 
 ---
 
-📊 **[SLIDE 3 DE 10]**
+📊 **[SLIDE 3 DE 11]**
 *Visual: dois caminhos que chegam ao mesmo patamar — um íngreme ("20 g/dia por 6 dias"), outro suave ("3 g/dia por 28 dias") — com o mesmo +20% no fim. Embaixo: "2 g/dia mantém".*
 *Teleprompter: (o protocolo clássico, e a pergunta que decide entre os dois)*
 
@@ -78,7 +78,7 @@ Então, **quando fazer carga?** A resposta é uma pergunta: **você precisa do e
 
 ---
 
-📊 **[SLIDE 4 DE 10]**
+📊 **[SLIDE 4 DE 11]**
 *Visual: uma série de agachamento desenhada em quatro colunas — placebo faz 8, 8, 7, 6 repetições; creatina faz 8, 8, 8, 7. Ao lado, uma seta grossa: "mais trabalho acumulado ao longo de 12 semanas".*
 *Teleprompter: (o que ela faz — e a frase que reenquadra tudo)*
 
@@ -112,7 +112,7 @@ Porque existe, sim, **um ganho de peso nas primeiras semanas — da ordem de um 
 
 ---
 
-📊 **[SLIDE 5 DE 10]**
+📊 **[SLIDE 5 DE 11]**
 *Visual: duas barras de estoque muscular — uma quase cheia ("come carne todo dia"), outra pela metade ("vegetariano") — e a seta de ganho, muito maior na segunda.*
 *Teleprompter: (quem responde mais, quem responde menos, e como descobrir)*
 
@@ -134,7 +134,7 @@ Na prática: **quatro a oito semanas, com cinco gramas por dia, e um desfecho de
 
 ---
 
-📊 **[SLIDE 6 DE 10]**
+📊 **[SLIDE 6 DE 11]**
 *Visual: cinco caixas de mito, cada uma com um carimbo de "o que a evidência mostra". A do rim maior que as outras, com um exame de creatinina ao lado.*
 *Teleprompter: (os mitos, com os estudos — e a armadilha do exame)*
 
@@ -170,7 +170,7 @@ E a aula 4.8 já desmontou a explicação de base: **cãibra associada ao exerc�
 
 ---
 
-📊 **[SLIDE 7 DE 10]**
+📊 **[SLIDE 7 DE 11]**
 *Visual: quatro perfis lado a lado — mulher adulta, pessoa idosa, adolescente, vegetariano — cada um com uma etiqueta de "o que muda".*
 *Teleprompter: (populações — onde a conta muda)*
 
@@ -194,7 +194,27 @@ Então, na prática: **adolescente é decisão médica, com o responsável, depo
 
 ---
 
-📊 **[SLIDE 8 DE 10]**
+📊 **[SLIDE 8 DE 11]**
+*Visual: uma perna imobilizada com gesso ao lado da mesma perna em reabilitação na cadeira extensora; entre as duas, uma seta com a palavra "depois". Ao lado, um termômetro com um X sobre a ideia de "creatina esquenta".*
+*Teleprompter: (as aplicações que não são de desempenho — e interessam à equipe inteira)*
+
+Três aplicações que não são de desempenho esportivo, e que interessam diretamente a quem atende paciente, não atleta.
+
+**A primeira: imobilização e reabilitação.** **Hespel e colaboradores, em 2001**, imobilizaram a perna de voluntários saudáveis por duas semanas e depois os colocaram em um programa de reabilitação de dez semanas, com creatina ou placebo.
+
+E o resultado tem duas metades, que precisam ser ditas juntas. **Durante a imobilização, a creatina não impediu a perda de massa e de força.** **Mas, na fase de reabilitação, o grupo com creatina recuperou mais rápido** — com diferenças também na expressão de fatores ligados ao crescimento muscular.
+
+**A leitura prática é precisa: creatina não protege o músculo parado. Ela ajuda o músculo que voltou a ser estimulado.** É a mesma frase do slide quatro, em outro contexto: **ela não substitui o estímulo, ela rende mais sobre o estímulo.** Para o fisioterapeuta desta turma, isso desloca a pergunta: **não é "tomar durante o gesso", é "estar tomando quando a carga voltar".** E a decisão, num paciente em reabilitação, **é conjunta — com quem prescreve dieta e com quem cuida das comorbidades.**
+
+**A segunda: déficit energético.** Faz sentido teórico que, em restrição calórica com treino de força, a creatina ajude a preservar massa magra — é o cenário da aula 4.9, e um dos poucos em que perder massa magra tem consequência clínica. **Mas a evidência específica nesse desenho é escassa e inconsistente**, e eu não a apresento como conduta estabelecida. **O que sustenta massa magra em déficit continua sendo o que a aula 4.9 mostrou: ritmo de perda mais lento, proteína suficiente e carga.** Creatina, aqui, é **acessório plausível**, não pilar.
+
+**A terceira: calor.** Circulou por anos a ideia de que creatina prejudicaria a termorregulação e a hidratação — **justamente por causa da água que ela puxa para dentro da célula.** A revisão sistemática com meta-análise de **Lopez e colaboradores, de 2009**, reuniu os estudos de termorregulação e de estado de hidratação e **não encontrou prejuízo** — nem na temperatura, nem nos marcadores de hidratação, nem no volume plasmático.
+
+**Então a recomendação de "suspender creatina no verão" não tem base.** E vale notar a coerência com o slide anterior: **é o mesmo mito da cãibra, com outra roupa.**
+
+---
+
+📊 **[SLIDE 9 DE 11]**
 *Visual: um cérebro estilizado ao lado do músculo, com uma linha tracejada entre os dois e um ponto de interrogação sobre a linha. Embaixo: "o que se sabe · o que se pesquisa · o que se vende".*
 *Teleprompter: (além do músculo — com sobriedade)*
 
@@ -212,7 +232,7 @@ Isso é o que se sabe. **E o que se pesquisa é uma lista mais longa** — neuro
 
 ---
 
-📊 **[SLIDE 9 DE 10]**
+📊 **[SLIDE 10 DE 11]**
 *Visual: um pote de monoidratada ao lado de três potes caros com nomes diferentes (HCl, tamponada, éster), com uma etiqueta de preço muito maior e um "=" riscado. Ao lado, a folha de protocolo: 3–5 g · todo dia · qualquer horário.*
 *Teleprompter: (o protocolo prático, e o que não muda nada)*
 
@@ -236,7 +256,7 @@ Sobre **qualidade e custo**, dois pontos que conectam com a aula 5.9. A creatina
 
 ---
 
-📊 **[SLIDE 10 DE 10]**
+📊 **[SLIDE 11 DE 11]**
 *Visual: as três pessoas do slide 1, agora com a resposta escrita ao lado de cada uma, e as ordens de prioridade numeradas.*
 *Teleprompter: (os três casos, e o fechamento)*
 
@@ -269,7 +289,9 @@ Na próxima aula, **5.3**, o outro ergogênico de evidência forte — e o mais 
 9. Chilibeck PD, Kaviani M, Candow DG, Zello GA. Effect of creatine supplementation during resistance training on lean tissue mass and muscular strength in older adults: a meta-analysis. *Open Access J Sports Med.* 2017;8:213-226.
 10. Smith-Ryan AE, Cabre HE, Eckerson JM, Candow DG. Creatine supplementation in women's health: a lifespan perspective. *Nutrients.* 2021;13(3):877. PMID: 33800439
 11. Jagim AR, Kerksick CM. Creatine supplementation in children and adolescents. *Nutrients.* 2021;13(2):664. PMID: 33670822
-12. Avgerinos KI, Spyrou N, Bougioukas KI, Kapogiannis D. Effects of creatine supplementation on cognitive function of healthy individuals: a systematic review of randomized controlled trials. *Exp Gerontol.* 2018;108:166-173.
+12. Hespel P, Op't Eijnde B, Van Leemputte M, et al. Oral creatine supplementation facilitates the rehabilitation of disuse atrophy and alters the expression of muscle myogenic factors in humans. *J Physiol.* 2001;536(Pt 2):625-633. PMID: 11600695
+13. Lopez RM, Casa DJ, McDermott BP, Ganio MS, Armstrong LE, Maresh CM. Does creatine supplementation hinder exercise heat tolerance or hydration status? A systematic review with meta-analyses. *J Athl Train.* 2009;44(2):215-223.
+14. Avgerinos KI, Spyrou N, Bougioukas KI, Kapogiannis D. Effects of creatine supplementation on cognitive function of healthy individuals: a systematic review of randomized controlled trials. *Exp Gerontol.* 2018;108:166-173.
 
 ---
 
@@ -333,7 +355,14 @@ Visual: as cinco caixas, a do rim maior.
 · **Vegetarianos**: maior chance de resposta; atenção à **cápsula de gelatina** — pó resolve
 Visual: os quatro perfis.
 
-**Slide 8** — Além do músculo
+**Slide 8** — Fora do desempenho: reabilitação, déficit e calor
+· **Hespel, 2001**: durante a imobilização, **não impediu a perda**; **na reabilitação, a recuperação foi mais rápida**
+· **Não protege músculo parado — rende sobre o músculo estimulado**. Para a fisioterapia: **estar tomando quando a carga voltar**
+· **Déficit energético**: plausível, **evidência escassa** — o que sustenta massa magra segue sendo **ritmo, proteína e carga** (4.9)
+· **Calor**: **Lopez, 2009** — sem prejuízo de termorregulação, hidratação ou volume plasmático. **"Suspender no verão" não tem base**
+Visual: gesso → reabilitação; o termômetro riscado.
+
+**Slide 9** — Além do músculo
 · O cérebro usa creatina; há **doenças raras de deficiência** em que repor é tratamento
 · **Avgerinos, 2018**: sinal **modesto** em **memória e controle cognitivo**, maior em **privação de sono**, idosos e estoque baixo; **pequeno ou ausente** no jovem descansado
 · Em investigação: concussão, humor, glicose, osso — **investigação, não indicação**
@@ -341,7 +370,7 @@ Visual: os quatro perfis.
 · A frase honesta ao paciente, nas duas direções
 Visual: cérebro e músculo com a linha tracejada.
 
-**Slide 9** — Protocolo
+**Slide 10** — Protocolo
 · **Monoidratada** — a dos estudos, a mais barata. HCl, tamponada, éster: **sem superioridade demonstrada**; micronizada = conveniência
 · **3–5 g/dia, todos os dias** · carga de 20 g por 5–6 dias **só com pressa**, em 4 tomadas
 · **Horário: o que a pessoa lembrar** — adesão vale mais
@@ -350,7 +379,7 @@ Visual: cérebro e músculo com a linha tracejada.
 · Atleta testado: **a creatina não é proibida; o produto pode conter outra coisa** (5.9)
 Visual: monoidratada x os potes caros.
 
-**Slide 10** — Os três, e os números
+**Slide 11** — Os três, e os números
 · **Corredor**: efeito pequeno na prova; trabalha no **treino de força e nos tiros** · +1–2 kg incomoda quem corre · **a pergunta real é se o treino de força existe**
 · **Mulher de 58**: **a indicação mais sólida das três** — treino já existe · 3–5 g/dia, sem carga · **registrar o uso antes do exame**
 · **Menino de 15**: não é "não pode", é **"ainda não é essa a pergunta"** — comer, dormir, maturação, treino orientado · decisão **médica com o responsável**
