@@ -86,12 +86,29 @@ vocabulário comum** — que é a função que ele sempre deveria ter tido.
 
 ## Módulo 5 — Suplementação, Ergogênicos e Antidoping · 11 aulas
 
-**Módulo inteiramente não escrito.** M20 e M21 nunca saíram do ementário.
-As 11 aulas são NOVAS, incluindo as duas mestras (5.2 creatina, 5.10 lista
-proibida e AUT).
+**ESCRITO.** As 11 aulas eram NOVAS — M20 e M21 nunca saíram do ementário.
 
-A aula **5.11 — Hormônios e peptídeos fora de indicação** é a *aula-porta*
-discutida: rasa por declaração, ensina reconhecer e encaminhar, não prescrever.
+| Slot | Aula | Min | Arquitetura |
+|---|---|---|---|
+| 5.1 | Como classificar um suplemento por evidência e por risco | 24 | PROCEDIMENTO |
+| 5.2 **[longa]** | Creatina: mecanismo, protocolo, mitos e populações | 37 | NÚMERO |
+| 5.3 | Cafeína: dose, momento, genética e efeito real | 21 | DECISÃO |
+| 5.4 | Beta-alanina e capacidade de tamponamento | 16 | NÚMERO |
+| 5.5 | Nitrato, beterraba e bicarbonato de sódio | 17 | PROCEDIMENTO |
+| 5.6 | Proteína em pó e aminoácidos | 17 | ERRO |
+| 5.7 | Ferro, vitamina D e ômega-3 no praticante | 21 | DECISÃO |
+| 5.8 | Suplementos sem evidência: desmontar uma promessa | 20 | ERRO |
+| 5.9 | Contaminação de suplementos e certificação de lote | 19 | PROCEDIMENTO |
+| 5.10 **[longa]** | Lista proibida, AUT e responsabilidade da equipe | 30 | DECISÃO |
+| 5.11 | Hormônios e peptídeos fora de indicação | 25 | CASO |
+
+Total: 4 h 07 min. Um caso clínico no módulo (5.11, anonimizado).
+A 5.11 é a *aula-porta*: declara no slide 1 o que não cobre (dose, protocolo,
+"como fazer com segurança"), não vende curso, e fecha o módulo com a camada de
+integração multiprofissional nos três níveis.
+
+As duas mestras previstas (5.2 e 5.10) saíram como **longas** — 37 e 30 min,
+pelo teste do nada-pendente, e não pelo alvo de 75 min do ementário.
 
 ## Módulo 6 — Medicina Esportiva Clínica · 12 aulas
 
