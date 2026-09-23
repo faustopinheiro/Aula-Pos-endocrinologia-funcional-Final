@@ -112,20 +112,40 @@ pelo teste do nada-pendente, e não pelo alvo de 75 min do ementário.
 
 ## Módulo 6 — Medicina Esportiva Clínica · 12 aulas
 
-| Slot | Aula | Origem | Estado |
+**ESCRITO.** Sete slots partiram de roteiros legados (6.1, 6.2, 6.7, 6.8, 6.9,
+6.10 e 6.12, vindos de M14-A08, M15-A06, M9-A08, M9-A07, M5-A01/A02/A04/A09 e
+M15-A03/A04), todos reescritos ao padrão do docs/06; os outros cinco são novos.
+
+| Slot | Aula | Min | Arquitetura |
 |---|---|---|---|
-| 6.1 | Avaliação pré-participação: estrutura e anamnese | M14-A08 + M4-A01 | FUNDIR |
-| 6.2 | Triagem cardiológica: o que rastrear e em quem | M14-A08 | PRONTA |
-| 6.3 **[M]** | Coração de atleta versus cardiopatia | — | **NOVA** |
-| 6.4 | Morte súbita no esporte | — | NOVA |
-| 6.5 | Emergência em campo e cadeia de sobrevivência | — | NOVA |
-| 6.6 **[M]** | Concussão: reconhecimento, retirada e retorno | — | **NOVA** |
-| 6.7 | Asma e broncoespasmo induzido por exercício | M15-A06 | PRONTA |
-| 6.8 | Infecção, imunologia e retorno após doença | M9-A08 | PRONTA |
-| 6.9 | Anemia e metabolismo do ferro | M5-A04 + M9-A07 | FUNDIR |
-| 6.10 | Rastreio laboratorial: o que pedir e o que não pedir | M5-A01 + A02 + A09 | FUNDIR |
-| 6.11 | Analgesia, anti-inflamatórios e corticoides | — | NOVA |
-| 6.12 | Exercício e doença crônica | M15-A03 + M15-A04 | FUNDIR |
+| 6.1 | Avaliação pré-participação: estrutura e anamnese dirigida | 22 | PROCEDIMENTO |
+| 6.2 | Triagem cardiológica: o que rastrear e em quem | 20 | DECISÃO |
+| 6.3 **[longa]** | Coração de atleta versus cardiopatia: a zona cinzenta | 35 | NÚMERO |
+| 6.4 | Morte súbita no esporte: o que os números realmente dizem | 20 | ERRO |
+| 6.5 | Emergência em campo e cadeia de sobrevivência | 23 | PROCEDIMENTO |
+| 6.6 **[longa]** | Concussão: reconhecimento, retirada e retorno | 29 | DECISÃO |
+| 6.7 | Asma e broncoespasmo induzido por exercício | 18 | NÚMERO |
+| 6.8 | Infecção, imunologia e retorno após doença | 21 | DECISÃO |
+| 6.9 | Anemia, deficiência de ferro e a armadilha da ferritina | 23 | PROCEDIMENTO |
+| 6.10 | Rastreio laboratorial: o que pedir e o que não pedir | 21 | ERRO |
+| 6.11 | Analgesia, anti-inflamatórios e corticoides | 22 | DECISÃO |
+| 6.12 | Exercício e doença crônica: o paciente que treina | 24 | CASO |
+
+Total: 4 h 38 min. Dois casos clínicos no módulo (6.1, homem de 56 anos com
+doença coronariana descoberta depois; 6.12, Sebastião, 66 anos, DRC + diabetes +
+hipertensão afastado do exercício por quatro anos) — ambos anonimizados.
+A 6.12 fecha o módulo com a camada de integração multiprofissional nos três
+níveis (Decisão · Contribuição · Reconhecimento).
+
+As duas mestras previstas (6.3 e 6.6) saíram como **longas** — 35 e 29 min, pelo
+teste do nada-pendente, como já havia acontecido em 4.1, 5.2 e 5.10.
+
+Âncoras brasileiras do módulo: SBC/SBMEE 2019 (ECG de repouso classe I mesmo no
+amador), substituição adicional e permanente por concussão (IFAB; a CBF foi a
+primeira confederação filiada à FIFA a adotá-la, Brasileirão 2024), Lei Lucas
+(13.722/2018), levantamento da RBME sobre protocolos dos clubes profissionais de
+São Paulo, e lista proibida da WADA 2026 (beta-2 agonistas, glicocorticoides e
+infusões acima de 100 mL/12 h).
 
 ## Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção · 12 aulas
 
