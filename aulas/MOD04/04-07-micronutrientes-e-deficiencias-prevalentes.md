@@ -2,7 +2,7 @@
 
 **Módulo 4 — Nutrição Esportiva**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 14 minutos · 5 slides · Arquitetura: PROCEDIMENTO
+Duração: 15 minutos · 5 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
@@ -88,6 +88,8 @@ Então o passo três não serve para diagnosticar. **Serve para decidir a urgên
 
 E uma coisa que o passo três **não** inclui: **exame de micronutriente em cabelo, teste "intracelular" vendido em pacote, ou painel amplo sem pergunta clínica.** Eles não mudam a conduta de quem está bem, e geram números fora da faixa que viram tratamento sem doença. **A pergunta clínica escolhe o exame. Não o contrário.** O raciocínio completo sobre o que pedir e o que não pedir é da aula **6.10**.
 
+E vale separar, de uma vez, **as deficiências prevalentes das deficiências de marketing.** Magnésio e zinco se perdem no suor, e isso é real. **Mas deficiência clínica deles, em quem come energia suficiente e variada, é incomum** — e a cãibra do fim do treino, que costuma ser vendida como "falta de magnésio", tem mais a ver com fadiga neuromuscular do que com nutriente. O mesmo vale para a "vitamina da energia" e para o soro de vitaminas na veia oferecido a quem não tem deficiência nenhuma: **não há evidência de que colocar mais do que falta produza mais do que o corpo precisa.** **Deficiência se corrige. Suficiência não se turbina.** A avaliação de suplementos, com critério de evidência, é o **Módulo 5**.
+
 ---
 
 📊 **[SLIDE 5 DE 5]**
@@ -157,6 +159,7 @@ Visual: o recordatório com as quatro perguntas.
 · **Cálcio e D**: fratura por estresse → **"falta energia?"** (aulas 7.10 e 11.7)
 · O passo 3 **decide a urgência**, não o diagnóstico
 · **Não**: exame em cabelo, teste "intracelular", painel sem pergunta — **a pergunta escolhe o exame** (aula 6.10)
+· Magnésio, zinco, "vitamina da energia", soro na veia: **deficiência se corrige; suficiência não se turbina** (Módulo 5)
 Visual: sinais inespecíficos x sinais que pedem atenção.
 
 **Slide 5** — Passo 4: para onde vai
