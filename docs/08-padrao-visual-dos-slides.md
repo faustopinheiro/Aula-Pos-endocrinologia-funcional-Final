@@ -40,7 +40,21 @@ Cor nunca diz sozinha: toda faixa, barra ou ponto colorido carrega o texto ao la
 - Corpo: cards em linha, tabela, gráfico + coluna de texto, ou lista.
 - **Rodapé fixo** em `bottom:64px`: à esquerda o título da aula, sem número de aula
   nem de módulo; à direita a numeração `N / total` dos slides.
-- Capa e slide de fecho em fundo tinta; miolo alternando papel claro e papel quente.
+- Capa e slide de fecho no fundo do módulo; miolo alternando papel claro e papel quente.
+
+### Cor da capa e do fecho por módulo
+
+Só a capa e o slide de fecho mudam de cor, para o aluno sentir que trocou de módulo.
+O miolo, a tipografia e as cores de dado continuam as mesmas em todo o curso.
+No spec, a chave `"tema"` escolhe o conjunto (sem ela, vale tinta).
+
+| Módulo | Tema | Fundo | Card no fecho | Eyebrow | Subtítulo e título de card |
+|---|---|---|---|---|---|
+| 1 e 2 | `tinta` | `#12202E` | `#1B2E3F` | `#7FC4BE` | `#E88C7D` |
+| 3 | `bordo` | `#3A1A22` | `#4A2530` | `#7FC4BE` | `#E6C08A` |
+| 4 | `petroleo` | `#0F3432` | `#184442` | `#E6C08A` | `#F2A58F` |
+
+Todas as combinações de texto sobre o fundo passam de 5:1 de contraste.
 
 ## Regras travadas
 

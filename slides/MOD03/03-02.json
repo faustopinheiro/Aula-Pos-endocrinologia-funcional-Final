@@ -1,0 +1,536 @@
+{
+ "arquivo": "aulas/MOD03/03-02-hpa-e-cortisol-no-exercicio.md",
+ "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício",
+ "tema": "bordo",
+ "titulo": "Eixo hipotálamo-hipófise-adrenal e exercício",
+ "subtitulo": "Cortisol, avaliação e equívocos frequentes",
+ "nota_capa": "Entra direto no vilão.",
+ "secoes": {
+  "erro": [
+   "O erro e de onde ele vem.",
+   "capa"
+  ],
+  "fisiologia": [
+   "Função, ritmo e a resposta ao exercício.",
+   "funcao"
+  ],
+  "exames": [
+   "A curva de quatro pontos e quando investigar.",
+   "curva4"
+  ],
+  "lugar": [
+   "Fadiga adrenal e o que fazer no lugar.",
+   "fadiga"
+  ]
+ },
+ "slides": [
+  {
+   "id": "vilao",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O hormônio mais caluniado",
+   "frase": "Se o cortisol é o problema, baixar o cortisol é a solução.",
+   "apoio": "Engorda, destrói músculo, causa barriga, derruba a imunidade, acaba com o sono. Essa conduta parece prudente e está errada. Sem cortisol, não se vive: insuficiência adrenal não tratada é fatal."
+  },
+  {
+   "id": "origem",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Síndrome de Cushing e corticoide em dose farmacológica, com concentração alta sustentada por meses, levam por extrapolação indevida ao praticante que treina e dorme mal\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"b1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"200\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1044\" y=\"110\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M640 90 C 820 90, 860 180, 1030 180\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"5\" stroke-dasharray=\"14 10\" marker-end=\"url(#b1)\"/><path d=\"M640 270 C 820 270, 860 180, 1030 180\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"5\" stroke-dasharray=\"14 10\"/><line x1=\"810\" y1=\"130\" x2=\"880\" y2=\"230\" stroke=\"#A8322A\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"880\" y1=\"130\" x2=\"810\" y2=\"230\" stroke=\"#A8322A\" stroke-width=\"8\" stroke-linecap=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 44,
+     "w": 560,
+     "t": "Síndrome de Cushing",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 96,
+     "w": 560,
+     "t": "concentração alta, sustentada, por meses",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 224,
+     "w": 560,
+     "t": "Corticoide em dose farmacológica",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 276,
+     "w": 560,
+     "t": "concentração alta, sustentada, por meses",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1074,
+     "y": 134,
+     "w": 560,
+     "t": "Quem treina e dorme mal",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1074,
+     "y": 186,
+     "w": 560,
+     "t": "variação fisiológica, que sobe e volta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 300,
+     "w": 400,
+     "t": "extrapolar de dano para vida normal",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "De onde vem a fama",
+   "titulo": "Dois contextos de dano, emprestados à vida normal",
+   "destaque": "Custo nas duas direções: medo de treinar forte, e um mercado para baixar o que está funcionando.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "funcao",
+   "tipo": "cards",
+   "eyebrow": "Para que ele existe",
+   "titulo": "Deixar energia disponível agora",
+   "cards": [
+    {
+     "t": "Glicose",
+     "x": "mais glicose disponível no sangue",
+     "cor": "ambar"
+    },
+    {
+     "t": "Substrato",
+     "x": "gordura e aminoácido mobilizados do tecido",
+     "cor": "ambar"
+    },
+    {
+     "t": "Inflamação",
+     "x": "contida, para não consumir recursos demais",
+     "cor": "petr"
+    },
+    {
+     "t": "Tônus vascular",
+     "x": "a pressão não cai quando você precisa correr",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Catabólico porque músculo é reserva, e em emergência reserva vira combustível. Acionado o dia inteiro: mais sinal catabólico e menos permissão para reparar.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "ritmo",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Curva de 24 horas do cortisol, do despertar à noite. Com o ritmo preservado, os picos de treino sobem e voltam e a noite tem vale. Com estímulos empilhados, o cortisol não volta ao basal e a noite fica sem vale\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"20.0\" y1=\"340\" x2=\"20.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"426.0\" y1=\"340\" x2=\"426.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"832.0\" y1=\"340\" x2=\"832.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1238.0\" y1=\"340\" x2=\"1238.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1644.0\" y1=\"340\" x2=\"1644.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"20\" y1=\"340\" x2=\"1644\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"20.0,164.4 31.3,146.3 42.6,126.1 53.8,110.4 65.1,105.7 76.4,112.9 87.7,126.3 98.9,138.9 110.2,146.9 121.5,150.7 132.8,151.7 144.1,151.1 155.3,148.7 166.6,143.9 177.9,136.6 189.2,127.4 200.4,118.8 211.7,113.8 223.0,115.4 234.3,124.5 245.6,140.0 256.8,158.9 268.1,177.9 279.4,194.6 290.7,208.1 301.9,218.5 313.2,226.7 324.5,233.4 335.8,239.3 347.1,244.6 358.3,249.6 369.6,254.2 380.9,258.4 392.2,262.4 403.4,266.0 414.7,269.3 426.0,272.4 437.3,275.1 448.6,277.5 459.8,279.7 471.1,281.7 482.4,283.4 493.7,284.9 504.9,286.2 516.2,287.4 527.5,288.4 538.8,289.3 550.1,290.1 561.3,290.8 572.6,291.4 583.9,292.0 595.2,292.4 606.4,292.9 617.7,293.2 629.0,293.6 640.3,293.8 651.6,293.9 662.8,293.7 674.1,292.7 685.4,290.3 696.7,285.4 707.9,277.2 719.2,265.2 730.5,250.6 741.8,236.0 753.1,225.1 764.3,221.2 775.6,225.5 786.9,236.8 798.2,251.8 809.4,266.9 820.7,279.2 832.0,287.9 843.3,293.2 854.6,296.0 865.8,297.5 877.1,298.2 888.4,298.5 899.7,298.8 910.9,299.0 922.2,299.2 933.5,299.4 944.8,299.6 956.1,299.8 967.3,300.0 978.6,300.2 989.9,300.4 1001.2,300.6 1012.4,300.8 1023.7,301.0 1035.0,301.2 1046.3,301.4 1057.6,301.6 1068.8,301.8 1080.1,302.0 1091.4,302.2 1102.7,302.4 1113.9,302.5 1125.2,302.7 1136.5,302.9 1147.8,303.1 1159.1,303.3 1170.3,303.5 1181.6,303.7 1192.9,303.9 1204.2,304.1 1215.4,304.3 1226.7,304.5 1238.0,304.7 1249.3,304.9 1260.6,305.1 1271.8,305.3 1283.1,305.5 1294.4,305.7 1305.7,305.9 1316.9,306.1 1328.2,306.3 1339.5,306.5 1350.8,306.7 1362.1,306.9 1373.3,307.1 1384.6,307.3 1395.9,307.5 1407.2,307.6 1418.4,307.8 1429.7,308.0 1441.0,308.2 1452.3,308.4 1463.6,308.6 1474.8,308.8 1486.1,309.0 1497.4,309.2 1508.7,309.4 1519.9,309.6 1531.2,309.8 1542.5,310.0 1553.8,310.2 1565.1,310.4 1576.3,310.6 1587.6,310.8 1598.9,311.0 1610.2,311.2 1621.4,311.4 1632.7,311.6 1644.0,311.8\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"20.0,164.4 31.3,146.3 42.6,126.1 53.8,110.4 65.1,105.7 76.4,112.9 87.7,126.3 98.9,138.9 110.2,146.9 121.5,150.7 132.8,151.7 144.1,151.1 155.3,148.7 166.6,143.9 177.9,136.6 189.2,127.4 200.4,118.8 211.7,113.8 223.0,115.4 234.3,124.5 245.6,140.0 256.8,158.9 268.1,177.9 279.4,194.6 290.7,208.1 301.9,218.5 313.2,226.7 324.5,233.4 335.8,239.3 347.1,244.6 358.3,249.5 369.6,254.1 380.9,258.2 392.2,261.7 403.4,264.3 414.7,265.2 426.0,263.8 437.3,259.1 448.6,250.9 459.8,240.2 471.1,229.1 482.4,221.1 493.7,219.0 504.9,224.0 516.2,234.9 527.5,248.9 538.8,262.7 550.1,274.2 561.3,282.3 572.6,285.8 583.9,287.1 595.2,287.1 606.4,286.3 617.7,285.3 629.0,284.1 640.3,282.8 651.6,281.4 662.8,279.6 674.1,277.0 685.4,273.0 696.7,266.6 707.9,256.8 719.2,243.3 730.5,227.1 741.8,210.9 753.1,198.4 764.3,192.9 775.6,195.7 786.9,205.5 798.2,218.9 809.4,232.3 820.7,243.1 832.0,250.2 843.3,253.9 854.6,255.0 865.8,254.4 877.1,252.2 888.4,248.4 899.7,242.0 910.9,233.7 922.2,221.8 933.5,207.1 944.8,192.5 956.1,181.6 967.3,177.6 978.6,182.0 989.9,193.3 1001.2,208.3 1012.4,223.3 1023.7,235.7 1035.0,244.3 1046.3,249.6 1057.6,252.5 1068.8,253.9 1080.1,254.6 1091.4,255.0 1102.7,255.3 1113.9,255.5 1125.2,255.7 1136.5,255.9 1147.8,256.1 1159.1,256.3 1170.3,256.5 1181.6,256.7 1192.9,256.9 1204.2,257.1 1215.4,257.3 1226.7,257.5 1238.0,257.6 1249.3,257.8 1260.6,258.0 1271.8,258.2 1283.1,258.4 1294.4,258.6 1305.7,258.8 1316.9,259.0 1328.2,259.2 1339.5,259.4 1350.8,259.6 1362.1,259.8 1373.3,260.0 1384.6,260.2 1395.9,260.4 1407.2,260.6 1418.4,260.8 1429.7,261.0 1441.0,261.2 1452.3,261.4 1463.6,261.6 1474.8,261.8 1486.1,262.0 1497.4,262.2 1508.7,262.4 1519.9,262.5 1531.2,262.7 1542.5,262.9 1553.8,263.1 1565.1,263.3 1576.3,263.5 1587.6,263.7 1598.9,263.9 1610.2,264.1 1621.4,264.3 1632.7,264.5 1644.0,264.7\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"14 12\"/></svg>",
+   "rotulos": [
+    {
+     "x": -60,
+     "y": 356,
+     "w": 160,
+     "t": "despertar",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 346,
+     "y": 356,
+     "w": 160,
+     "t": "+6 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 752,
+     "y": 356,
+     "w": 160,
+     "t": "+12 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1158,
+     "y": 356,
+     "w": 160,
+     "t": "+18 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 356,
+     "w": 160,
+     "t": "+24 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 0,
+     "w": 400,
+     "t": "resposta ao despertar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 200,
+     "w": 480,
+     "t": "ritmo preservado: a noite tem vale",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 60,
+     "w": 560,
+     "t": "estímulos empilhados: não volta",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A leitura certa",
+   "titulo": "Alto quando deve, baixo quando deve",
+   "destaque": "O problema não é a amplitude. É não voltar ao basal entre um estímulo e o seguinte.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "limiar",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Variação do cortisol em 30 minutos: repouso menos 6,6%, 40% do VO2máx mais 5,7%, 60% mais 39,9%, 80% mais 83,1%\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"0\" y1=\"300\" x2=\"1664\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"120\" y=\"300\" width=\"200\" height=\"20\" rx=\"4\" fill=\"#6B7A87\"/><rect x=\"520\" y=\"283\" width=\"200\" height=\"17\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"920\" y=\"180\" width=\"200\" height=\"120\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1320\" y=\"51\" width=\"200\" height=\"249\" rx=\"4\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 244,
+     "w": 320,
+     "t": "−6,6%",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 356,
+     "w": 360,
+     "t": "Repouso",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 233,
+     "w": 300,
+     "t": "+5,7%",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 356,
+     "w": 360,
+     "t": "40% do VO₂máx",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 130,
+     "w": 300,
+     "t": "+39,9%",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 840,
+     "y": 356,
+     "w": 360,
+     "t": "60%",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 1,
+     "w": 300,
+     "t": "+83,1%",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1240,
+     "y": 356,
+     "w": 360,
+     "t": "80%",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Hill e colaboradores, 2008",
+   "titulo": "Exercício acima de um certo ponto sobe cortisol",
+   "destaque": "Corrigido para a redução do volume plasmático e o ritmo do dia, o esforço leve baixou o cortisol.",
+   "destaque_cor": "petr",
+   "fonte": "Journal of Endocrinological Investigation 2008 · 12 homens moderadamente treinados, 30 min, dias separados · variação sem correção"
+  },
+  {
+   "id": "cuidados",
+   "tipo": "lista",
+   "eyebrow": "Como usar o dado sem exagerar",
+   "titulo": "O que importa é a volta, não o pico",
+   "itens": [
+    {
+     "t": "Subir no exercício é a resposta certa",
+     "x": "treino que não sobe cortisol não é objetivo de saúde",
+     "cor": "petr"
+    },
+    {
+     "t": "Sessenta por cento é princípio, não régua",
+     "x": "doze homens, num desenho controlado",
+     "cor": "ambar"
+    },
+    {
+     "t": "Volta ao basal antes do próximo estímulo?",
+     "x": "a intervenção: parte do volume abaixo do limiar. Não tira nada da pessoa",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Jejum soma. Pico da manhã, jejum e sessão dura na mesma janela, em quem já acorda acionado, é débito empilhado.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "curva4",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Régua de reprodutibilidade de um dia para o outro, de 0 a 0,75 conforme a parte da curva: a resposta ao despertar fica na ponta de baixo; a área sob a curva, na de cima\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"0\" y=\"120\" width=\"1664\" height=\"40\" rx=\"20\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"120\" width=\"1248\" height=\"40\" rx=\"20\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 60,
+     "w": 100,
+     "t": "0",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1148,
+     "y": 60,
+     "w": 200,
+     "t": "0,75",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 60,
+     "w": 100,
+     "t": "1",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 190,
+     "w": 620,
+     "t": "na ponta de baixo: a resposta ao despertar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 608,
+     "y": 190,
+     "w": 640,
+     "t": "na de cima: a área sob a curva, para estudos grandes",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1000,
+     "t": "Reprodutibilidade de um dia para o outro",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A curva de quatro pontos",
+   "titulo": "A foto de um dia, não o padrão",
+   "destaque": "Para suspeita de excesso, as diretrizes usam outros testes: cortisol livre na urina de 24 horas, cortisol salivar no fim da noite ou supressão com 1 mg de dexametasona.",
+   "destaque_cor": "tinta",
+   "fonte": "Norton e colaboradores, Comprehensive Psychoneuroendocrinology 2023 · Nieman e colaboradores, Endocrine Society 2008"
+  },
+  {
+   "id": "investigar",
+   "tipo": "duas",
+   "eyebrow": "Quando investigar de verdade",
+   "titulo": "Os dois extremos que existem",
+   "esq": {
+    "t": "Excesso",
+    "cor": "ambar",
+    "itens": [
+     "fraqueza proximal: levantar da cadeira sem os braços",
+     "estrias violáceas largas",
+     "hipertensão de difícil controle, glicose fora de proporção",
+     "pele frágil, fratura sem trauma"
+    ]
+   },
+   "dir": {
+    "t": "Insuficiência: urgência",
+    "cor": "verm",
+    "itens": [
+     "pressão baixa, fraqueza progressiva",
+     "escurecimento de pele e mucosas",
+     "vontade intensa de sal, náusea",
+     "perda de peso sem intenção, sódio baixo"
+    ]
+   },
+   "destaque": "Cansaço e gordura abdominal, sozinhos, não abrem investigação. E são os dois que trazem a pessoa pedindo o exame.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fadiga",
+   "tipo": "numeros",
+   "eyebrow": "Cadegiani e Kater, 2016",
+   "titulo": "“Fadiga adrenal” não existe; os sintomas, sim",
+   "numeros": [
+    {
+     "n": "3.470",
+     "x": "artigos triados na revisão sistemática",
+     "cor": "tinta"
+    },
+    {
+     "n": "58",
+     "x": "estudos analisados de perto, sem base para a entidade",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "O rótulo fecha a investigação cedo: sono curto, apneia, pouca energia disponível, ferro, tireoide, medicamento, depressão. Custa os meses em que o diagnóstico certo não foi procurado.",
+   "destaque_cor": "verm",
+   "fonte": "BMC Endocrine Disorders 2016"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "O que fazer no lugar",
+   "titulo": "Quantas vezes o eixo é acionado, e ele volta?",
+   "regras": [
+    "Sessões acima do limiar por semana, horário delas, despertares noturnos",
+    "Distribuir as duras, tirar uma da manhã, volume abaixo do limiar, comer antes",
+    "Em 6 a 8 semanas: sono, despertares, esforço na mesma sessão, disposição de 0 a 10"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Investiga excesso e insuficiência."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "Reorganizam a semana, com o nutricionista no jejum."
+    }
+   ],
+   "quem": "Não prescreva nada para baixar cortisol num eixo que responde certo a um contexto que ninguém mudou."
+  }
+ ]
+}

@@ -1,252 +1,235 @@
-# Módulo 3 · Aula 3.1 — A arquitetura dos eixos neuroendócrinos
+# Módulo 3 · Aula 3.1 — Organização dos eixos neuroendócrinos: princípios de leitura do perfil hormonal
 
 **Módulo 3 — Fisiologia Hormonal e Endocrinologia do Exercício**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 19 minutos · 5 slides · Arquitetura: PROCEDIMENTO
+Duração: 17 minutos · 10 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 5]**
-*Visual: o esquema genérico hipotálamo → hipófise → glândula periférica → tecido, com a alça de feedback negativo voltando do final para o começo.*
-*Teleprompter: (entra pela pergunta que organiza o módulo)*
+📊 **[SLIDE 1 DE 10]**
+*Visual: quatro laudos lado a lado, cada um com um valor fora ou na borda da faixa, e embaixo de todos a mesma pergunta: disfunção do eixo, ou eixo respondendo ao contexto?*
+*Teleprompter: (entra pelos quatro exames, sem apresentar ninguém)*
 
-Testosterona baixa num homem de quarenta e dois anos que treina cinco vezes por semana. TSH levemente alterado numa corredora que está em restrição há meses. Cortisol fora da faixa num plantonista. IGF-1 baixo num master que quer recuperar melhor.
+Testosterona baixa num homem de quarenta e dois anos que levanta peso cinco vezes por semana. TSH levemente alterado numa corredora que está em restrição há meses. Cortisol fora da faixa num plantonista. IGF-1 baixo num nadador master que quer recuperar melhor.
 
-Quatro exames. E em cada um deles existem **duas respostas possíveis**, que levam a condutas opostas.
+Quatro exames. E em cada um existem duas leituras possíveis, que levam a condutas opostas.
 
-Ou aquilo é **disfunção do eixo**. Ou é **o eixo funcionando corretamente diante do contexto que a pessoa criou**.
+Ou aquilo é disfunção do eixo. Ou é o eixo funcionando certo diante do contexto que a pessoa criou.
 
-O número no laboratório é exatamente o mesmo nos dois casos. Essa pergunta é o módulo inteiro, e esta aula é o procedimento que permite respondê-la.
+O número no laudo é o mesmo nos dois casos. E essa pergunta atravessa o módulo inteiro. O que esta aula entrega é o procedimento para respondê-la, em quatro passos, antes de entrar em cada hormônio.
 
-E para respondê-la é preciso conhecer a arquitetura, porque é ela que explica a maior parte dos erros de leitura que a gente comete.
-
-A arquitetura é sempre a mesma, e ela é elegante.
-
-Tem um **sensor central**, no hipotálamo, que lê o estado do organismo e o ambiente. Ele manda um sinal para a **hipófise**. A hipófise manda um segundo sinal para uma **glândula periférica**. E a glândula produz o hormônio que age no tecido.
-
-E aí vem a peça mais importante: **o hormônio final volta e avisa o começo da linha que já foi produzido.** É o feedback negativo, e é o que impede o sistema de disparar sem parar.
-
-Agora a pergunta que vale a pena fazer, e que quase nunca é feita: **por que três andares?** Por que a natureza não colocou a glândula respondendo direto ao estímulo, o que seria mais rápido e mais barato?
-
-Porque três andares permitem **integração**.
-
-O hipotálamo não recebe uma informação só. Ele recebe estado energético, estado de sono, estado emocional, temperatura corporal, infecção, luz, disponibilidade de comida. E ele toma **uma decisão** considerando tudo junto, antes de acionar a linha.
-
-Ou seja: a arquitetura de três andares existe justamente porque o organismo precisa **somar coisas de origens diferentes antes de decidir**. É a conta de reserva adaptativa que a gente montou no primeiro módulo, construída em tecido.
-
-Três andares e uma alça. É assim no eixo do cortisol, no gonadal, no tireoidiano, e com variações no de GH.
+Para montar o procedimento, a gente precisa primeiro da arquitetura. Porque é ela que explica a maior parte dos erros de leitura que se cometem com exame hormonal.
 
 ---
 
-📊 **[SLIDE 2 DE 5]**
-*Visual: três colunas com o mesmo hormônio final baixo e o sinal de cima diferente em cada uma — alto, baixo, baixo — com rótulos primário, central e funcional.*
-*Teleprompter: (tom de método, este é o passo que quase todo mundo pula)*
+📊 **[SLIDE 2 DE 10]**
+*Visual: o esquema genérico em três andares: hipotálamo, hipófise, glândula periférica, tecido. Entradas chegando ao hipotálamo pela esquerda (energia, sono, emoção, temperatura, infecção, luz) e a alça de feedback negativo voltando do hormônio final para o topo.*
+*Teleprompter: (a arquitetura, e a pergunta que quase ninguém faz sobre ela)*
 
-Agora o procedimento. E ele começa com uma pergunta que resolve mais casos do que qualquer painel caro.
+A arquitetura é quase sempre a mesma.
 
-**Você dosou o hormônio final e ele está baixo. Onde está o problema?**
+Tem um sensor central, no hipotálamo, que lê o estado do organismo e o ambiente. Ele manda um sinal para a hipófise. A hipófise manda um segundo sinal para uma glândula periférica. E a glândula produz o hormônio que age no tecido.
 
-Existem três possibilidades, e elas são completamente diferentes.
+E aí vem a peça mais importante: o hormônio final volta e avisa o começo da linha de que já foi produzido. É o feedback negativo. É o que impede o sistema de disparar sem parar.
 
-**Pode estar na glândula**, que não está produzindo apesar de ter recebido a ordem. É o que a clínica chama de **primário**.
+Agora a pergunta que vale a pena fazer: por que três andares? Por que a glândula não responde direto ao estímulo, o que seria mais rápido e mais barato?
 
-**Pode estar acima dela** — hipófise ou hipotálamo não mandaram o sinal. É o **central**.
+Porque três andares permitem integração.
 
-**E pode não haver problema nenhum**: pode ser o sistema funcionando certo, reduzindo a produção porque leu o contexto e concluiu que não é hora. Essa é a **supressão funcional**, e é a que a medicina de consultório trata pior.
+O hipotálamo não recebe uma informação só. Recebe estado energético, sono, estado emocional, temperatura, infecção, luz, disponibilidade de comida. E toma uma decisão considerando tudo junto, antes de acionar a linha.
 
-Três situações, três prognósticos, três condutas — **e o hormônio final está baixo nas três.**
+É a mesma conta de reserva que a gente montou lá no começo do curso, quando falou de saúde em quem treina. Só que agora construída em tecido. O treino entra nessa conta como mais uma entrada. Importante, mas uma entre várias.
 
-**Passo um do procedimento: nunca dose o hormônio final isolado. Dose o par.**
-
-Com o par na mão, a leitura fica quase automática.
-
-**Hormônio final baixo e sinal de cima alto** significa que o comando foi dado e não foi cumprido. A glândula não está dando conta. **É primário.**
-
-**Hormônio final baixo e sinal de cima baixo ou inapropriadamente normal** significa que o comando **não foi dado**. E aí a pergunta muda de lugar: não é mais "o que a glândula tem?", é **"por que o centro decidiu não pedir?"**
-
-Repara que esse simples passo — dosar o par — separa metade dos casos sem nenhuma investigação adicional. E ele é pulado o tempo todo.
-
-E qual é o par, em cada eixo? Porque não adianta o princípio sem saber o que pedir.
-
-**No gonadal masculino**, o par é **testosterona total com LH e FSH**. Testosterona baixa com LH alto aponta para o testículo; testosterona baixa com LH baixo ou normal aponta para cima — e, no praticante, quase sempre para o contexto.
-
-**No gonadal feminino**, o par é **LH e FSH com estradiol**, lido junto com a informação que vale mais que os três: **como está o ciclo.**
-
-**No tireoidiano**, o par é **TSH com T4 livre**. E aqui a leitura tem uma inversão que confunde: hipotireoidismo primário tem **TSH alto**. Se o TSH não está alto, a fadiga daquela pessoa não é hipotireoidismo primário — e é por isso que TSH isolado, apesar de ser um rastreio excelente, não fecha a história em quem está em restrição.
-
-**No eixo do cortisol**, o par é **cortisol com ACTH**, e o momento da coleta pesa mais aqui do que em qualquer outro lugar.
-
-**E o de GH é a exceção da regra.** O GH é tão pulsátil que uma dosagem isolada não significa quase nada — pode estar indetectável numa pessoa perfeitamente normal. Por isso o integrador é o **IGF-1**, que reflete a exposição média ao longo de dias em vez do pulso daquele minuto.
-
-Guarde essa exceção, porque ela vai voltar na aula do eixo somatotrófico como o principal argumento contra um tipo específico de exame que é vendido em pacote.
-
-E existe um corolário que vem da pulsatilidade e que vale para quase todos: **valor limítrofe pede repetição, não conduta.** Um resultado isolado na borda da faixa, num sistema pulsátil, é uma amostra de uma onda. Repetir custa pouco e evita a maior parte dos tratamentos desnecessários deste módulo.
-
-**Passo dois: separar o central do funcional.** E aqui o laboratório não resolve sozinho — quem resolve é a anamnese.
-
-Supressão funcional tem um contexto que a explica: restrição energética sustentada, perda de peso, sono curto crônico, volume de treino alto somado a alimentação insuficiente, doença aguda recente, estresse psicológico intenso e prolongado. Quando esse contexto está na mesa, a hipótese mais provável é que o centro esteja lendo escassez e respondendo corretamente a ela.
-
-Central verdadeiro — lesão, tumor, doença infiltrativa, uso prévio de substâncias que suprimem o eixo — tem outras companhias: sintomas visuais, cefaleia, alteração de outros eixos de forma desproporcional, história de trauma ou cirurgia, uso declarado ou não declarado de hormônio exógeno.
-
-E guarda a frase que é a tese deste módulo: **eixo suprimido por contexto não é eixo doente.**
+Três andares e uma alça. É assim no eixo do cortisol, no gonadal, no tireoidiano, e com variações no do hormônio do crescimento.
 
 ---
 
-📊 **[SLIDE 3 DE 5]**
-*Visual: uma linha do tempo mostrando o atraso entre andares — a decisão central mudando cedo e o hormônio periférico mudando depois, com a queixa clínica aparecendo no meio.*
-*Teleprompter: (tom de precisão, a limitação do exame)*
+📊 **[SLIDE 3 DE 10]**
+*Visual: três colunas com o mesmo hormônio final baixo. Em cima de cada uma, o sinal da hipófise: alto na primeira (primário), baixo na segunda (central), baixo ou normal na terceira (funcional).*
+*Teleprompter: (o passo que quase todo mundo pula)*
 
-Tem um agravante que a própria arquitetura cria, e ele engana muita gente experiente.
+Passo um. Ele começa com uma pergunta que resolve mais casos do que qualquer painel caro.
 
-**Existe atraso entre os andares.** O hipotálamo muda a decisão dele **antes** de o hormônio final mudar. Então existe uma janela em que o comando já foi alterado lá em cima e o valor periférico ainda está dentro da faixa.
+Você dosou o hormônio final e ele veio baixo. Onde está o problema?
 
-Isso tem duas consequências que mudam conduta.
+Existem três possibilidades.
 
-**A primeira: exame normal não é prova de que está tudo bem.** É prova de que, naquele andar, naquele dia, o valor estava na faixa.
+Pode estar na glândula, que não produz apesar de ter recebido a ordem. É o que a clínica chama de primário.
 
-**A segunda: o sinal clínico às vezes chega antes do laboratório.** A atleta que conta que o ciclo está espaçando está entregando uma informação que o exame ainda não dá. O praticante que diz que a recuperação encurtou também.
+Pode estar acima dela: hipófise ou hipotálamo não mandaram o sinal. É o central.
 
-"Clínica na frente do laboratório" não é conversa de professor antigo. **É consequência direta de como o sistema é construído.**
+E pode não haver doença nenhuma. O sistema pode estar funcionando certo, reduzindo a produção porque leu o contexto e concluiu que não é hora. É a supressão funcional, e é a que o consultório trata pior.
 
-E tem uma segunda limitação temporal, esta ainda menos considerada: **os eixos não correm na mesma velocidade.**
+Três situações, três prognósticos, três condutas. E o hormônio final está baixo nas três.
 
-**O eixo do cortisol é rápido.** Responde em minutos e volta em horas.
+Então a regra é esta: nunca dose o hormônio final isolado. Dose o par.
 
-**Os eixos gonadal e tireoidiano são lentos.** Levam semanas a meses para mudar de patamar — e levam o mesmo tempo para voltar.
+Com o par na mão, a leitura fica quase automática. Hormônio final baixo com sinal de cima alto: o comando foi dado e não foi cumprido. É primário. Hormônio final baixo com sinal de cima baixo, ou normal quando deveria estar alto: o comando não foi dado. E aí a pergunta muda de lugar. Não é mais "o que a glândula tem?". É "por que o centro decidiu não pedir?".
 
-A consequência é direta e quase ninguém faz essa conta: **o cortisol te conta sobre hoje. A testosterona e a tireoide te contam sobre os últimos meses.**
-
-Quando você dosa os três no mesmo tubo, está lendo **três janelas de tempo diferentes** e interpretando como se fossem uma fotografia única.
-
-Isso, por si só, já explica um erro comum: o paciente que reduziu carga e melhorou hábitos há duas semanas e repete o exame esperando ver a testosterona subir. Ela não vai ter subido. Não porque não esteja funcionando — porque o relógio daquele eixo é outro.
-
-E daí sai o **passo três do procedimento: registre a condição de coleta.** Hora do dia, quantas horas desde o último treino, quão duro foi esse treino, fase do ciclo, tempo de jejum, e o que mudou na vida da pessoa nos últimos três meses.
-
-Exame colhido no dia seguinte a uma sessão pesada **não é exame de base.** E a maior parte dos laudos não registra nada disso.
+Esse passo, sozinho, separa boa parte dos casos sem nenhuma investigação adicional. E é pulado o tempo todo.
 
 ---
 
-📊 **[SLIDE 4 DE 5]**
-*Visual: cinco eixos em linha, cada um com uma palavra embaixo dizendo o que ele decide, e uma seta comum entrando em todos vinda do hipotálamo.*
-*Teleprompter: (ritmo mais rápido, é uma passada de reconhecimento)*
+📊 **[SLIDE 4 DE 10]**
+*Visual: tabela com quatro linhas, um eixo por linha: o hormônio final, o sinal de cima que forma o par, e a leitura do primário.*
+*Teleprompter: (o princípio não serve sem saber o que pedir)*
 
-Uma passada nos cinco sistemas, com o que cada um decide. Cada um vai ter aula própria; aqui é o mapa.
+E qual é o par, em cada eixo?
 
-**O eixo do cortisol, o HPA, decide mobilização.** Quando o organismo precisa de energia disponível agora, é ele que libera. E ele tem uma característica que organiza a próxima aula: **ele não distingue a origem do estresse.** Treino forte, briga em casa, noite sem dormir, jejum prolongado, infecção — tudo chega nele com a mesma linguagem bioquímica.
+No gonadal masculino, testosterona total com LH e FSH. Testosterona baixa com LH alto aponta para o testículo. Testosterona baixa com LH baixo ou normal aponta para cima e, no praticante, quase sempre para o contexto.
 
-Isso não é analogia. É a razão fisiológica de a conta ser um caixa só: existe, de fato, um sistema comum recebendo entradas de origens diferentes.
+No gonadal feminino, LH e FSH com estradiol, lidos junto com a informação que vale mais que os três: como está o ciclo.
 
-**O eixo gonadal decide investimento de longo prazo.** Testosterona e estradiol constroem, mantêm, reparam e organizam reprodução. E é o primeiro a ser cortado quando falta — porque reproduzir é a coisa mais adiável que existe do ponto de vista de sobrevivência imediata.
+No tireoidiano, TSH com T4 livre. E aqui a leitura tem uma inversão que confunde. Hipotireoidismo primário tem TSH alto. Se o TSH não está alto, a fadiga daquela pessoa não é hipotireoidismo primário. É por isso que o TSH, que é um ótimo rastreio, não fecha a história em quem está em restrição.
 
-**O eixo tireoidiano decide velocidade de funcionamento.** É o ajuste fino do ritmo metabólico do organismo inteiro. Ele se ajusta para baixo quando falta energia, e esse ajuste é rotineiramente confundido com doença. Some a isso um detalhe que muda leitura de exame: **a conversão do hormônio principal para a forma mais ativa acontece em grande parte fora da tireoide, nos tecidos.** A glândula pode estar trabalhando normalmente e a atividade no tecido estar reduzida.
-
-**O eixo de GH e IGF-1 decide reparo e construção de tecido.** E ele tem uma dependência que quase ninguém respeita na prática: **é acoplado ao sono profundo.**
-
-**E o quinto não é bem um eixo, é uma categoria: a sinalização periférica.** Insulina, leptina, grelina e os sinais que vêm do tecido adiposo, do músculo e do intestino. Eles decidem **quanta informação sobre disponibilidade chega ao centro.**
-
-Repara na lógica do conjunto: **a periferia informa, o hipotálamo decide, e os outros quatro executam** — cada um na sua área.
-
-E daqui sai o **passo quatro, que é um discriminador de graça** e que eu uso toda semana:
-
-**Um eixo alterado sozinho — desconfie de doença primária.**
-
-**Vários eixos levemente deslocados na mesma direção — desconfie de contexto.**
-
-Porque esses cinco não são compartimentos separados. O mesmo contexto de escassez que suprime o gonadal também reduz a conversão tireoidiana e altera a resposta do cortisol. **Não são cinco decisões independentes. É uma decisão só, executada em cinco lugares.**
+No eixo do cortisol, cortisol com ACTH. E o horário da coleta pesa mais aqui do que em qualquer outro lugar, como a próxima aula vai mostrar.
 
 ---
 
-📊 **[SLIDE 5 DE 5]**
-*Visual: quatro armadilhas numeradas de um lado e, do outro, a divisão dos três níveis de responsabilidade da equipe.*
-*Teleprompter: (aterrissagem, fecha e emenda)*
+📊 **[SLIDE 5 DE 10]**
+*Visual: uma curva em pulsos ao longo de 24 horas, com dois pontos de coleta marcados, um num pico e outro num vale, dando valores muito diferentes. Ao lado, a linha lisa do IGF-1, integrando a média. Esquema, sem valores medidos.*
+*Teleprompter: (a exceção, e o corolário que evita tratamento desnecessário)*
 
-Fechando com as quatro armadilhas de leitura que valem para todos os eixos.
+O eixo do hormônio do crescimento é a exceção da regra do par.
 
-**Primeira: dosar o hormônio final isolado.** Sem o sinal de cima você não distingue glândula que não produz de centro que não pediu. E essas duas coisas têm condutas opostas.
+O GH é liberado em pulsos, com boa parte deles durante o sono profundo. Entre um pulso e outro, ele pode estar indetectável numa pessoa perfeitamente normal. Uma dosagem isolada de GH quase não significa nada.
 
-**Segunda: ignorar o momento da coleta.** Esses eixos são pulsáteis e têm ritmo circadiano. Cortisol de manhã é outra coisa que cortisol à tarde; testosterona às sete é outra coisa que testosterona às quinze. E em quem treina existe uma variável a mais, que é a distância do último treino.
+Por isso o integrador é o IGF-1, produzido sobretudo no fígado sob o comando do GH. Ele reflete a exposição média ao longo de dias, e não o pulso daquele minuto.
 
-**Terceira, e é a mais cara: tratar adaptação como doença.** O eixo suprimido num contexto de escassez está **funcionando**. Repor sem corrigir o contexto é abafar o alarme com a casa ainda pegando fogo.
+Guarda essa exceção. Ela volta na aula do eixo do GH como o principal argumento contra um tipo de exame que é vendido em pacote.
 
-**E a quarta, que não é de leitura, é de atitude: procurar o hormônio antes de procurar o hábito.**
+E existe um corolário que vale para quase todos os eixos, não só para o GH. Se o sistema é pulsátil, um resultado isolado é uma amostra de uma onda. Você não sabe se pegou o pico ou o vale.
 
-É muito mais rápido pedir um painel do que fazer uma anamnese de quarenta minutos. E o painel **dá a sensação** de investigação séria, enquanto a anamnese dá a sensação de conversa. É o contrário. **A anamnese é a investigação. O painel é a confirmação cara de uma hipótese que você deveria ter antes de pedir.**
+Então valor limítrofe pede repetição, não conduta. Repetir custa pouco, e evita boa parte dos tratamentos desnecessários que este módulo vai discutir.
 
-E eu preciso dizer com todas as letras o que eu **não** estou defendendo, porque esse discurso tem um lado perigoso.
+---
 
-**Hipotireoidismo existe e é comum. Hipogonadismo verdadeiro existe. Insuficiência adrenal existe e mata. Tumor de hipófise existe.** O que eu defendo é **ordem**, não negação: monte a conta primeiro, porque ela é barata e porque ela muda a interpretação do que vier depois — e investigue com rigor quando a conta não explicar.
+📊 **[SLIDE 6 DE 10]**
+*Visual: à esquerda, o que acompanha a supressão funcional (restrição, perda de peso, sono curto, volume alto com pouca comida, doença recente, estresse prolongado). À direita, o que acompanha o central verdadeiro (cefaleia, alteração visual, outros eixos alterados fora de proporção, trauma ou cirurgia, hormônio exógeno). No centro, o dado de Loucks e Thuma: abaixo de 30 kcal por kg de massa magra por dia, em cinco dias, os pulsos de LH ficaram 10 a 32% menos frequentes.*
+*Teleprompter: (quem separa central de funcional é a anamnese)*
 
-Escopo, e ele é nítido neste módulo inteiro. **Solicitar e interpretar exame hormonal e decidir sobre reposição é ato médico.** O que este módulo entrega a todas as outras profissões é outra coisa, e é valiosa: entender **por que** o corpo daquela pessoa está respondendo assim, reconhecer quando o padrão sugere conta estourada, e encaminhar com informação suficiente para que o colega médico não comece do zero.
+Passo dois: separar o central do funcional. E aqui o laboratório não resolve sozinho. Quem resolve é a anamnese.
 
-E isso funciona na prática. Quem acompanha o paciente toda semana — educador físico, fisioterapeuta, nutricionista — é quem primeiro percebe a virada: a percepção de esforço que subiu, o ciclo que espaçou, a recuperação que encurtou. Encaminha com essa informação, e o médico, com o contexto na mão, pede o exame certo e interpreta com a conta montada.
+A supressão funcional tem um contexto que a explica. Restrição energética sustentada, perda de peso, sono curto crônico, volume de treino alto com alimentação insuficiente, doença aguda recente, estresse psicológico intenso e prolongado. Quando esse contexto está na mesa, a hipótese mais provável é que o centro esteja lendo escassez e respondendo corretamente a ela.
 
-**Ninguém sozinho faz isso bem.** É por isso que esta pós é multiprofissional.
+E quanto de escassez basta? Existe um experimento que responde isso com número. Loucks e Thuma colocaram mulheres jovens, com ciclo regular, em disponibilidade de energia controlada por cinco dias. Abaixo de trinta quilocalorias por quilo de massa magra por dia, a frequência dos pulsos de LH caiu entre dez e trinta e dois por cento.
 
-Na próxima aula a gente entra no eixo do cortisol, que é o mais mal compreendido dos cinco — e o único que virou, ao mesmo tempo, sinônimo popular de estresse e linha de produtos.
+Repara em duas coisas. Primeiro, existe um limiar: acima dele, o eixo aguentou. Segundo, cinco dias bastaram para mudar o comando lá em cima. O hipotálamo lê a escassez rápido.
+
+Já o central verdadeiro tem outras companhias. Cefaleia, alteração visual, outros eixos alterados de forma desproporcional, história de trauma ou cirurgia na cabeça, uso declarado ou não declarado de hormônio.
+
+E daqui sai a frase que resume o módulo: eixo suprimido por contexto não é eixo doente.
+
+---
+
+📊 **[SLIDE 7 DE 10]**
+*Visual: uma linha do tempo de três meses. O comando central muda na primeira semana; o hormônio periférico muda semanas depois; a queixa clínica aparece no meio. Embaixo, duas réguas de velocidade: cortisol, minutos a horas; gonadal e tireoidiano, semanas a meses. Esquema, sem valores medidos.*
+*Teleprompter: (a limitação do exame que a própria arquitetura cria)*
+
+Esse dado de cinco dias leva a um problema que engana muita gente experiente.
+
+Existe atraso entre os andares. O hipotálamo muda a decisão antes de o hormônio final mudar. Então há uma janela em que o comando já foi alterado lá em cima e o valor periférico ainda está dentro da faixa.
+
+Isso tem duas consequências. A primeira: exame normal não prova que está tudo bem. Prova que, naquele andar, naquele dia, o valor estava na faixa. A segunda: o sinal clínico às vezes chega antes do laboratório. A atleta que conta que o ciclo está espaçando está entregando uma informação que o exame ainda não dá.
+
+"Clínica na frente do laboratório", aqui, não é conversa de professor antigo. É consequência de como o sistema é construído.
+
+E tem uma segunda limitação de tempo: os eixos não correm na mesma velocidade. O do cortisol é rápido, responde em minutos e volta em horas. O gonadal e o tireoidiano são lentos, levam semanas a meses para mudar de patamar, e o mesmo tempo para voltar.
+
+Então o cortisol te conta sobre hoje. A testosterona e a tireoide te contam sobre os últimos meses. Quando você dosa os três no mesmo tubo, está lendo três janelas de tempo diferentes como se fossem uma foto só.
+
+Isso explica um erro comum. A pessoa reduziu carga e melhorou hábitos há duas semanas, repete o exame e espera ver a testosterona subir. Não subiu. Não porque não esteja funcionando. Porque o relógio daquele eixo é outro.
+
+---
+
+📊 **[SLIDE 8 DE 10]**
+*Visual: uma ficha de coleta com seis campos em branco: horário, horas desde o último treino, intensidade desse treino, fase do ciclo, tempo de jejum, o que mudou nos últimos três meses.*
+*Teleprompter: (o passo mais barato do procedimento)*
+
+Daí sai o passo três: registrar a condição de coleta.
+
+Seis campos. Horário da coleta. Quantas horas desde o último treino. Quão duro foi esse treino. Fase do ciclo, quando for o caso. Tempo de jejum. E o que mudou na vida da pessoa nos últimos três meses: peso, sono, carga, trabalho, doença.
+
+Parece burocracia e não é. Exame colhido na manhã seguinte a uma sessão pesada não é exame de base. Testosterona colhida às quinze horas não é a mesma testosterona das sete. E a maior parte dos laudos não registra nada disso.
+
+Essa ficha é o que permite comparar um exame com o seguinte. Sem ela, você está comparando duas fotos tiradas com luz diferente e atribuindo a diferença à pessoa.
+
+E ela serve para toda a equipe. O preparador físico sabe quando foi a última sessão dura. O nutricionista sabe como anda a ingestão. Esses dados chegam ao médico antes do pedido, e não depois.
+
+---
+
+📊 **[SLIDE 9 DE 10]**
+*Visual: cinco sistemas em linha, cada um com uma palavra embaixo dizendo o que decide (mobilização, investimento, velocidade, reparo, informação), e uma seta comum entrando em todos a partir do hipotálamo. Embaixo, a regra: um eixo sozinho, desconfie de doença; vários levemente deslocados na mesma direção, desconfie de contexto.*
+*Teleprompter: (a passada pelos cinco, e o discriminador de graça)*
+
+Agora uma passada pelos cinco sistemas, com o que cada um decide. Cada um vai ter aula própria. Aqui é o mapa.
+
+O eixo do cortisol decide mobilização: deixar energia disponível agora. E ele não distingue a origem do estresse. Treino forte, noite sem dormir, jejum, briga em casa, infecção: tudo chega nele na mesma linguagem bioquímica.
+
+O gonadal decide investimento de longo prazo: construir, manter, reproduzir. E é o primeiro a ser cortado quando falta, porque reproduzir é a coisa mais adiável do ponto de vista da sobrevivência imediata.
+
+O tireoidiano decide velocidade de funcionamento. E ele tem um detalhe que muda a leitura do exame: cerca de oitenta por cento do T3 circulante, a forma mais ativa, é produzido fora da tireoide, nos tecidos, a partir do T4. A glândula pode estar trabalhando normalmente e a conversão estar reduzida.
+
+O do GH e IGF-1 decide reparo e construção de tecido, acoplado ao sono profundo.
+
+E o quinto é a sinalização periférica: insulina, leptina, grelina, os sinais do tecido adiposo, do músculo e do intestino. Eles decidem quanta informação sobre disponibilidade chega ao centro.
+
+A periferia informa, o hipotálamo decide, os outros executam.
+
+E daqui sai o passo quatro, que é um discriminador de graça. Um eixo alterado sozinho: desconfie de doença primária. Vários eixos levemente deslocados na mesma direção: desconfie de contexto. Porque o mesmo contexto de escassez que suprime o gonadal também reduz a conversão tireoidiana e mexe no cortisol. Não são cinco decisões independentes. É uma decisão executada em cinco lugares.
+
+---
+
+📊 **[SLIDE 10 DE 10]**
+*Visual: fundo do módulo. Os quatro passos do procedimento, e embaixo quem faz o quê.*
+*Teleprompter: (fecha pelo que não está sendo dito, e emenda)*
+
+Os quatro passos, então. Dose o par. Separe central de funcional pela anamnese. Registre a condição de coleta. E olhe se o deslocamento é de um eixo ou de vários.
+
+E eu preciso dizer com todas as letras o que não estou defendendo, porque esse discurso tem um lado perigoso. Hipotireoidismo existe e é comum. Hipogonadismo verdadeiro existe. Insuficiência adrenal existe e mata. Tumor de hipófise existe. O que eu defendo é ordem, não negação. Monte a conta primeiro, porque ela é barata e muda a interpretação do que vier depois. E investigue com rigor quando a conta não explicar.
+
+A armadilha mais cara de todas é procurar o hormônio antes de procurar o hábito. Pedir um painel é mais rápido do que fazer uma anamnese de quarenta minutos, e o painel dá a sensação de investigação séria. É o contrário. A anamnese é a investigação. O painel é a confirmação cara de uma hipótese que você deveria ter antes de pedir.
+
+Quem faz o quê. Solicitar e interpretar exame hormonal e decidir sobre reposição é ato médico. O que o resto da equipe entrega é o que o médico não tem: a virada percebida semana a semana. A percepção de esforço que subiu, o ciclo que espaçou, a recuperação que encurtou. Encaminhado com essa informação, o pedido de exame já chega com a conta montada.
+
+Na próxima aula, o eixo do cortisol. O mais mal compreendido dos cinco, e o único que virou, ao mesmo tempo, sinônimo de estresse e linha de produtos.
 
 ---
 
 ## Referências
 
 1. McEwen BS. Protective and damaging effects of stress mediators. *N Engl J Med.* 1998;338(3):171-179. doi:10.1056/NEJM199801153380307
-2. Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 IOC consensus statement on Relative Energy Deficiency in Sport (REDs). *Br J Sports Med.* 2023;57(17):1073-1097. PMID: 37752011
+2. Loucks AB, Thuma JR. Luteinizing hormone pulsatility is disrupted at a threshold of energy availability in regularly menstruating women. *J Clin Endocrinol Metab.* 2003;88(1):297-311. PMID: 12519869
 3. Areta JL, Taylor HL, Koehler K. Low energy availability: history, definition and evidence of its endocrine, metabolic and physiological effects in prospective studies in females and males. *Eur J Appl Physiol.* 2021;121(1):1-21. PMID: 33095376
+4. Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *Br J Sports Med.* 2023;57(17):1073-1097. PMID: 37752011
+5. Bianco AC, Kim BW. Deiodinases: implications of the local control of thyroid hormone action. *J Clin Invest.* 2006;116(10):2571-2579. doi:10.1172/JCI29812
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — Três andares e uma alça
-· O mesmo número de laboratório admite **duas leituras opostas**: disfunção, ou eixo funcionando diante do contexto
-· Hipotálamo → hipófise → glândula → tecido, com **feedback negativo** fechando a alça
-· Por que três andares? Porque três andares permitem **integração**
-· O hipotálamo soma energia, sono, emoção, temperatura, infecção e luz — e decide **uma vez**
-· É a conta de reserva adaptativa do Módulo 1, construída em tecido
-Visual: o esquema genérico com a alça de feedback.
+**O que mudou nesta versão.** Voz do curso e deck enxuto: dez slides no lugar de cinco blocos muito
+longos. Arquitetura PROCEDIMENTO mantida (a última aula do módulo anterior é DECISÃO; a próxima é
+ERRO). O procedimento agora tem quatro passos nomeados, na ordem em que o raciocínio acontece. Sem
+paciente: os quatro laudos da abertura são cena, não caso. Rodízio de modalidade: musculação,
+corrida, plantão, natação.
 
-**Slide 2** — Dose o par, não o hormônio
-· Hormônio final baixo tem **três explicações** com condutas opostas
-· **Primário**: final baixo, **sinal de cima alto** — o comando foi dado e não foi cumprido
-· **Central ou funcional**: final baixo, **sinal de cima baixo ou inapropriadamente normal** — o comando não foi dado
-· **Passo 1: nunca dose o hormônio final isolado**
-· **Qual é o par**: testosterona + **LH/FSH** · LH/FSH + estradiol (e **como está o ciclo**) · TSH + **T4 livre** · cortisol + **ACTH**
-· **GH é a exceção**: pulsátil demais para dosagem isolada — o integrador é o **IGF-1**
-· **Valor limítrofe pede repetição, não conduta** — um ponto isolado num sistema pulsátil é amostra de uma onda
-· **Passo 2**: separar central de funcional é trabalho da **anamnese**, não do laboratório
-· Funcional tem contexto: restrição, perda de peso, sono curto, volume alto com alimentação insuficiente
-· Central verdadeiro tem outras companhias: sintoma visual, cefaleia, trauma, hormônio exógeno
-· **Eixo suprimido por contexto não é eixo doente**
-Visual: três colunas com o mesmo final baixo e sinais de cima diferentes.
+**Entrou.** Loucks e Thuma 2003: 29 mulheres jovens, sedentárias, ciclo regular, cinco dias com
+disponibilidade de energia controlada (45 contra 10, 20 ou 30 kcal/kg de massa magra por dia). Abaixo
+de 30, a frequência de pulsos de LH caiu entre 10 e 32% e a amplitude subiu entre 21 e 36%. A fala usa
+só a frequência. Serve para dar número ao passo dois e para amarrar o atraso entre andares (o comando
+muda em dias). Limite dito implicitamente: o dado é de mulheres; a fala não generaliza o número para
+homens.
 
-**Slide 3** — O relógio de cada andar
-· **Existe atraso entre andares**: a decisão central muda antes do valor periférico
-· Logo: **exame normal não prova que está tudo bem**, e a clínica às vezes chega antes
-· "Clínica na frente do laboratório" é consequência de **como o sistema é construído**
-· **Cortisol é rápido** (minutos a horas). **Gonadal e tireoidiano são lentos** (semanas a meses)
-· **Cortisol conta sobre hoje; testosterona e tireoide contam sobre os últimos meses**
-· No mesmo tubo você lê **três janelas de tempo** e interpreta como fotografia única
-· **Passo 3: registre a condição de coleta** — hora, distância do último treino, ciclo, jejum, o que mudou em três meses
-Visual: linha do tempo com o atraso entre andares.
+**Conferido.** Cerca de 80% do T3 circulante vem da desiodação periférica do T4 (Bianco e Kim 2006,
+revisão das desiodases).
 
-**Slide 4** — Os cinco, e o que cada um decide
-· **HPA — mobilização.** Não distingue a origem do estresse: treino, briga, insônia, jejum, infecção
-· **Gonadal — investimento de longo prazo.** É o primeiro a ser cortado quando falta
-· **Tireoidiano — velocidade.** A conversão para a forma ativa acontece **fora da tireoide**
-· **GH/IGF-1 — reparo e construção.** Acoplado ao **sono profundo**
-· **Sinalização periférica — informa** quanta disponibilidade existe
-· A periferia informa · o hipotálamo decide · os outros quatro executam
-· **Passo 4, de graça**: um eixo sozinho → desconfie de **doença primária**. Vários levemente deslocados na mesma direção → desconfie de **contexto**
-· Não são cinco decisões — **é uma decisão executada em cinco lugares**
-Visual: os cinco eixos com a seta comum do hipotálamo.
+**Saíram.** "Elegante", as menções numeradas a módulo e aula, "no primeiro módulo" (virou "lá no
+começo do curso"), a quarta armadilha em lista (virou o parágrafo da anamnese no fecho) e o bloco
+"Roteiro Gamma", que os decks enxutos não usam.
 
-**Slide 5** — As quatro armadilhas
-· **1.** Dosar o hormônio final isolado
-· **2.** Ignorar o momento da coleta
-· **3.** **Tratar adaptação como doença** — a mais cara das quatro
-· **4.** Procurar o hormônio antes de procurar o hábito
-· **A anamnese é a investigação. O painel é a confirmação cara de uma hipótese**
-· E o que **não** está sendo dito: hipotireoidismo, hipogonadismo, insuficiência adrenal e tumor de hipófise **existem**
-· A defesa é de **ordem**, não de negação
-· Escopo: solicitar, interpretar e repor é **ato médico**
-· O resto da equipe entrega o que o médico não tem: **a virada percebida semana a semana**
-Visual: as quatro armadilhas e os três níveis de responsabilidade.
+**Citações faladas.** Loucks e Thuma, o experimento que põe número no limiar de escassez.
+
+**Ligações internas.** conta de reserva = aula de saúde em quem treina · cortisol e horário = próxima
+aula · GH e exame em pacote = aula do eixo do GH · baixa disponibilidade de energia = módulo de
+nutrição esportiva.

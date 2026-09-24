@@ -1,180 +1,164 @@
-# Módulo 3 · Aula 3.3 — Catecolaminas e a resposta aguda
+# Módulo 3 · Aula 3.3 — Catecolaminas no exercício: resposta simpatoadrenal aguda e adaptações ao treino
 
 **Módulo 3 — Fisiologia Hormonal e Endocrinologia do Exercício**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 13 minutos · 4 slides · Arquitetura: NÚMERO
+Duração: 10 minutos · 8 slides · Arquitetura: NÚMERO
 
 ---
 
-📊 **[SLIDE 1 DE 4]**
-*Visual: curva de noradrenalina plasmática contra intensidade, plana até certo ponto e depois disparando em exponencial, com as marcações de repouso e de 90% do VO₂máx.*
+📊 **[SLIDE 1 DE 8]**
+*Visual: duas barras de repouso contra esforço a 90% do VO₂máx. Noradrenalina de 219 para 2.738 pg/mL; adrenalina de 49 para 555 pg/mL. Em cima, grande: doze vezes.*
 *Teleprompter: (entra pelo número)*
 
 Doze vezes.
 
-É quanto a noradrenalina plasmática sobe, em relação ao repouso, num esforço a noventa por cento do consumo máximo de oxigênio. De cerca de duzentos e vinte para perto de dois mil e setecentos picogramas por mililitro.
+É quanto a noradrenalina plasmática subiu, em relação ao repouso, em homens treinados pedalando oito minutos a noventa por cento do consumo máximo de oxigênio. De cerca de duzentos e vinte para perto de dois mil e setecentos picogramas por mililitro. A adrenalina subiu na mesma ordem: de cerca de cinquenta para quinhentos e cinquenta.
 
-E a adrenalina sobe algo em torno de **onze vezes** — de cerca de cinquenta para quinhentos e cinquenta.
+O dado é de Sothmann e colaboradores, de 1987, em sete homens treinados que pedalaram a trinta, sessenta e noventa por cento. E o formato é tão importante quanto o tamanho: a subida que chegou a ser significativa apareceu no esforço de noventa por cento. Em intensidade baixa e moderada, o sistema mexe pouco. Acima de um certo ponto, dispara.
 
-Doze vezes. Nenhum outro sistema deste módulo se move nessa escala em minutos. O cortisol, que a gente viu na aula passada, sobe uma fração disso. O gonadal e o tireoidiano levam semanas para mudar de patamar.
+Doze vezes, em minutos. Nenhum outro sistema deste módulo se move nessa escala e nessa velocidade. O cortisol da aula passada sobe uma fração disso. O gonadal e o tireoidiano levam semanas para mudar de patamar.
 
-**As catecolaminas são o sistema mais rápido e mais amplo que o corpo tem** — e são elas que respondem primeiro, antes de qualquer hormônio.
-
-Agora, de onde vem cada uma, porque isso muda a leitura.
-
-**A adrenalina é um hormônio de verdade.** É produzida na medula da adrenal, cai na circulação e age em tecidos distantes. É a peça endócrina do sistema.
-
-**A noradrenalina é, em boa parte, um neurotransmissor que vazou.** Ela é liberada nas terminações simpáticas dentro dos próprios tecidos, e o que a gente mede no plasma é sobretudo o excedente que escapou daquelas sinapses.
-
-Isso tem uma consequência direta de interpretação: **noradrenalina plasmática é um marcador de quanto o sistema nervoso simpático está sendo acionado.** Ela não é um comando central que desce — ela é o eco de uma atividade local.
-
-E o formato da curva é o segundo número desta aula. **A subida não é linear. É exponencial.** Ela é modesta em intensidade baixa e moderada, e **dispara** acima de certo ponto — e esse ponto fica na vizinhança do segundo limiar, aquele mesmo que a gente localizou no módulo passado.
-
-Ou seja: a fisiologia do estresse simpático e a fisiologia do domínio severo **compartilham a mesma fronteira.** Não é coincidência, e daqui a pouco você vai ver por quê.
+As catecolaminas são o sistema que responde primeiro. E esta aula é sobre o que esse número explica, e sobre o que ele não explica.
 
 ---
 
-📊 **[SLIDE 2 DE 4]**
-*Visual: um corpo com setas saindo para cinco destinos — coração, vaso, brônquio, fígado e músculo — com o efeito de cada uma escrito.*
-*Teleprompter: (tom de mecanismo, e a amarração com a aula do lactato)*
+📊 **[SLIDE 2 DE 8]**
+*Visual: à esquerda, a medula da adrenal liberando adrenalina na circulação, que viaja até tecidos distantes. À direita, uma terminação simpática dentro do músculo liberando noradrenalina na sinapse, com uma parte escapando para o sangue.*
+*Teleprompter: (de onde vem cada uma, porque muda a leitura)*
+
+Primeiro, de onde vem cada uma.
+
+A adrenalina é hormônio de verdade. É produzida na medula da adrenal, cai na circulação e age em tecidos distantes. É a peça endócrina do sistema.
+
+A noradrenalina é, em boa parte, um neurotransmissor que vazou. Ela é liberada nas terminações simpáticas dentro dos próprios tecidos, e o que se mede no plasma é sobretudo o excedente que escapou das sinapses.
+
+Isso muda a interpretação. Noradrenalina plasmática é um marcador de quanto o sistema nervoso simpático está sendo acionado. Não é um comando que desce de um centro. É o eco de uma atividade local, espalhada pelo corpo.
+
+---
+
+📊 **[SLIDE 3 DE 8]**
+*Visual: um corpo com setas para seis destinos, cada um com o efeito escrito: coração, vaso, brônquio, fígado, tecido adiposo e músculo. No músculo, destaque: acelera a glicólise, com oxigênio disponível.*
+*Teleprompter: (o que elas fazem, e a amarração com o lactato)*
 
 O que elas fazem, e é muita coisa ao mesmo tempo.
 
-**No coração**, aumentam frequência e força de contração. Boa parte da subida da frequência cardíaca no esforço intenso é isso.
+No coração, aumentam frequência e força de contração. No vaso, fazem as duas coisas: fecham o território da víscera e da pele e abrem o leito do músculo que está trabalhando. É assim que a redistribuição de fluxo do exercício é executada. No brônquio, dilatam, e por isso o mesmo receptor é alvo da medicação de asma. No fígado, quebram glicogênio e soltam glicose. No tecido adiposo, liberam gordura.
 
-**No vaso**, fazem as duas coisas: **vasoconstrição** no território visceral e cutâneo e **vasodilatação** no leito muscular ativo. É assim que aquela redistribuição de fluxo que a gente descreveu na aula cinco do módulo passado é executada.
+E no músculo, uma peça que fecha um argumento da fisiologia do exercício: a adrenalina acelera a quebra do glicogênio e o fluxo pela glicólise, mesmo com oxigênio sobrando. Mais fluxo glicolítico quer dizer mais piruvato do que a mitocôndria processa naquele instante, e o excedente vira lactato.
 
-**No brônquio**, broncodilatação — e é por isso que o mesmo receptor é alvo da medicação de asma, o que volta no módulo de medicina esportiva clínica.
+Lembra de quando a gente desmontou o ácido lático e disse que o lactato sobe sem que falte oxigênio? Aqui está uma das razões. Parte do lactato do esforço intenso depende da adrenalina, não da falta de oxigênio.
 
-**No fígado**, quebra de glicogênio e aumento da produção de glicose.
-
-**No tecido adiposo**, lipólise.
-
-**E no músculo, a peça que fecha um argumento do módulo passado: elas aceleram a glicólise.**
-
-Para e olha isso com atenção, porque é bonito.
-
-A adrenalina estimula a quebra de glicogênio muscular e acelera o fluxo pela via glicolítica — **mesmo com oxigênio disponível em abundância.** Mais fluxo glicolítico significa mais piruvato do que a mitocôndria consegue processar naquele instante, e o excedente vira lactato.
-
-Lembra da aula três do módulo passado, em que a gente desmontou o ácido lático? Lá eu disse que o lactato sobe sem que falte oxigênio. **Aqui está uma das razões.** Parte do lactato que aparece no esforço intenso é **adrenalina-dependente**, não hipóxia-dependente.
-
-E isso explica, de quebra, por que as duas curvas — a do lactato e a das catecolaminas — dobram para cima praticamente no mesmo ponto. Elas não são duas coincidências. **Uma alimenta a outra.**
-
-Sobre o tempo de tudo isso: as catecolaminas sobem em **segundos** e são depuradas em **minutos**. Meia-vida plasmática curta. É um sistema desenhado para ligar e desligar rápido — o oposto do gonadal.
-
-E tem um efeito de treinamento que surpreende quase todo mundo, e que a revisão do Zouhal e colaboradores organiza bem.
-
-**O atleta treinado secreta menos catecolamina na mesma intensidade absoluta** — mesma velocidade, mesma carga, menos resposta simpática. Isso é a adaptação esperada, e é a mesma lógica da frequência cardíaca que cai.
-
-**Mas, no esforço máximo, ele consegue secretar mais adrenalina do que o destreinado.** A capacidade da medula adrenal de responder ao estímulo máximo aumenta com o treinamento — é o fenômeno que a literatura chamou de "medula adrenal esportiva".
-
-As duas coisas juntas descrevem bem o que é um sistema treinado: **mais econômico no submáximo e mais capaz no máximo.** É exatamente o que a gente viu no coração, no músculo e na mitocôndria, agora aparecendo no sistema simpático.
+Tudo isso liga em segundos e é depurado em minutos. É um sistema feito para ligar e desligar rápido, o oposto do eixo gonadal.
 
 ---
 
-📊 **[SLIDE 3 DE 4]**
-*Visual: duas curvas de frequência cardíaca na mesma carga — uma no treino e outra no dia de competição — com a segunda deslocada para cima desde antes do começo.*
-*Teleprompter: (tom prático, o número que atrapalha a prescrição)*
+📊 **[SLIDE 4 DE 8]**
+*Visual: duas colunas comparando destreinado e treinado. Na mesma carga absoluta, a barra do treinado é menor. No esforço máximo, a barra de adrenalina do treinado é maior. Esquema, sem valores medidos.*
+*Teleprompter: (o efeito do treino que surpreende quase todo mundo)*
 
-Agora a parte que muda conduta, e ela é sobre um número que você usa toda semana: **a frequência cardíaca.**
+E tem um efeito do treinamento que surpreende.
 
-Uma judoca entra no tatame para a primeira luta do dia. Ela ainda não lutou. E a frequência cardíaca dela já está bem acima do repouso.
+Na mesma intensidade absoluta, mesma velocidade, mesma carga, o treinado libera menos catecolamina que o destreinado. Isso é a adaptação esperada, a mesma lógica da frequência cardíaca que cai na mesma carga.
 
-Isso é **resposta antecipatória** — o sistema simpático se ativa antes do esforço, comandado pela expectativa. É real, é mensurável, e é adaptativo: o corpo está se preparando.
+Mas no esforço máximo, o treinado consegue liberar mais adrenalina. Kjær, numa revisão de 1998, organizou esse achado e deu a ele um nome: a medula adrenal esportiva. A capacidade da glândula de responder ao estímulo máximo aumenta com anos de treino.
 
-O problema é o que isso faz com as suas referências.
-
-**No dia da competição, a mesma carga externa produz frequência cardíaca mais alta.** Mesma velocidade, mesma potência, número maior na tela. E isso não é sinal de que a pessoa está pior — é ativação simpática adicional vinda de emoção, expectativa e contexto.
-
-Some a isso três coisas que empilham no mesmo sentido: **calor**, que desloca a frequência para cima; **desidratação**, pelo mesmo caminho; e **cafeína e estimulantes pré-treino**, que atuam justamente nesse eixo.
-
-E aí você tem a explicação completa de uma coisa que confunde muito atleta amador: **a zona de frequência cardíaca que funcionou no treino não funciona na prova.**
-
-Ele tenta manter o número que treinou, não consegue, e conclui que está mal preparado. Ou pior: **desacelera** para caber na zona, e entrega uma prova abaixo do que poderia.
-
-A conduta que sai daqui é direta e vale repetir, porque é a mesma de três aulas do módulo passado: **em contexto de alta ativação simpática, prescreva por percepção de esforço, e não por frequência cardíaca.** O relógio está medindo uma coisa real — só que não é a intensidade metabólica, é a soma dela com a emoção.
-
-E existe a situação espelhada, que é clínica e importa mais: **o paciente em uso de betabloqueador.**
-
-O betabloqueador bloqueia justamente esse sistema. A frequência cardíaca dele **não sobe** como a de outra pessoa na mesma intensidade, e o pico é achatado. Se você prescreve para ele por percentual de frequência máxima, ou se você o avalia por faixa de frequência, você vai subestimar sistematicamente o esforço que ele está fazendo.
-
-Nesse paciente, **percepção de esforço deixa de ser alternativa e passa a ser o instrumento principal.** E isso vale tanto para prescrever quanto para interpretar um teste — o que o módulo de medicina esportiva clínica retoma com a avaliação do paciente cardiopata.
-
-E a última: **estimulantes**. Cafeína em dose alta, termogênicos e pré-treinos com sinergia adrenérgica somam-se a um sistema que já está sendo acionado pelo exercício. Em pessoa saudável, em dose habitual, isso é geralmente tolerável. **Em quem tem arritmia, hipertensão mal controlada ou cardiopatia não investigada, é uma soma que merece cuidado** — e o módulo de suplementação e antidoping trata disso com nome, dose e status regulatório.
+As duas coisas juntas descrevem bem um sistema treinado: mais econômico no submáximo, mais capaz no máximo. É o que a gente viu no coração, no músculo e na mitocôndria, agora no sistema simpático.
 
 ---
 
-📊 **[SLIDE 4 DE 4]**
-*Visual: duas colunas — "o que a catecolamina explica" e "o que ela não explica" — com itens em cada uma.*
-*Teleprompter: (fecha pelo que o número serve e pelo que ele não serve, e emenda)*
+📊 **[SLIDE 5 DE 8]**
+*Visual: duas curvas de frequência cardíaca na mesma carga, uma no treino e outra no dia da competição, a segunda acima desde antes do começo. Ao lado, três empurrões no mesmo sentido: calor, desidratação, cafeína e pré-treino. Esquema, sem valores medidos.*
+*Teleprompter: (o número que você usa toda semana)*
 
-Fechando pelo que este sistema explica — e pelo que ele **não** explica, que é onde mora o erro.
+Agora a parte que muda conduta, e ela é sobre um número que você usa toda semana: a frequência cardíaca.
 
-**O que ele explica bem.**
+Uma judoca entra no tatame para a primeira luta do dia. Ainda não lutou. E a frequência cardíaca dela já está bem acima do repouso.
 
-A subida rápida da frequência cardíaca no começo do esforço, inclusive antes do primeiro passo. A redistribuição de fluxo. A disponibilização de glicose e ácido graxo. Parte da produção de lactato em intensidade alta. A sensação de alerta e a supressão temporária do apetite depois de uma sessão intensa. E a diferença entre a frequência cardíaca do treino e a da prova.
+É resposta antecipatória: o sistema simpático liga antes do esforço, comandado pela expectativa. É real, mensurável e adaptativo, o corpo se preparando.
 
-**O que ele não explica, e é aqui que a conversa de consultório escorrega.**
+O problema é o que isso faz com as suas referências. No dia da prova, a mesma carga externa dá uma frequência cardíaca mais alta. Mesma velocidade, mesma potência, número maior na tela. E isso não quer dizer que a pessoa está pior. É ativação simpática somada, vinda de emoção, expectativa e contexto. Calor, desidratação, cafeína e pré-treino empurram para o mesmo lado.
 
-Ele **não** explica fadiga crônica. Catecolaminas sobem em segundos e caem em minutos — elas não ficam. Quem atribui um cansaço de seis meses a "adrenalina alta o tempo todo" está usando um sistema de minutos para explicar um fenômeno de meses.
+Daí vem uma confusão comum no amador: a zona de frequência cardíaca que funcionou no treino não funciona na prova. Ele tenta manter o número, não consegue, e conclui que está mal preparado. Ou desacelera para caber na zona, e entrega menos do que podia.
 
-Ele **não** é dosado de rotina no praticante. A dosagem de catecolaminas e metanefrinas existe e tem indicação precisa — investigação de feocromocitoma, diante de um quadro característico de crises de hipertensão, cefaleia, palpitação e sudorese. **Não é exame de painel de atleta**, e pedir fora de contexto produz resultado difícil de interpretar e ansiedade cara.
+A conduta: em contexto de alta ativação simpática, prescreva por percepção de esforço. O relógio está medindo uma coisa real. Só que não é a intensidade metabólica. É a soma dela com a emoção.
 
-E ele **não** é o que se trata quando alguém está com o sistema cronicamente acionado. O que se trata é o contexto — que é a mesma conclusão da aula passada.
+---
 
-Escopo, em duas linhas. **Investigar e tratar qualquer coisa neste território é médico** — do betabloqueador à suspeita de feocromocitoma. O que o resto da equipe leva daqui é operacional e usa toda semana: **saber que o número do relógio, no dia da prova e no paciente betabloqueado, está medindo outra coisa** — e prescrever pelo instrumento que continua honesto.
+📊 **[SLIDE 6 DE 8]**
+*Visual: a curva de frequência cardíaca achatada de quem usa betabloqueador ao lado da curva comum, na mesma intensidade. Embaixo, um aviso: estimulantes somam num sistema que o exercício já aciona.*
+*Teleprompter: (a situação espelhada, que é clínica)*
 
-Na próxima aula a gente muda de escala de tempo de vez. Sai do sistema que responde em segundos e vai para o que leva meses para mudar de patamar — e que é, de longe, o mais dosado e o mais reposto de todos: o eixo gonadal masculino e a testosterona no praticante.
+E existe a situação espelhada, que é clínica e pesa mais: quem usa betabloqueador.
+
+O betabloqueador bloqueia justamente esse sistema. A frequência cardíaca não sobe como a de outra pessoa na mesma intensidade, e o pico fica achatado. Se você prescreve por percentual da frequência máxima prevista, ou avalia por faixa de frequência, vai subestimar o esforço que ele está fazendo.
+
+Nesse caso, a percepção de esforço deixa de ser alternativa e passa a ser o instrumento principal, para prescrever e para interpretar um teste. O módulo de medicina esportiva clínica retoma isso na avaliação de quem tem doença cardíaca.
+
+E os estimulantes. Cafeína em dose alta, termogênico e pré-treino com efeito adrenérgico se somam a um sistema que o exercício já está acionando. Em pessoa saudável, na dose habitual, isso costuma ser tolerado. Em quem tem arritmia, hipertensão mal controlada ou doença cardíaca não investigada, é uma soma que merece cuidado.
+
+---
+
+📊 **[SLIDE 7 DE 8]**
+*Visual: duas colunas. O que o sistema explica: a subida rápida da frequência cardíaca, a redistribuição de fluxo, a glicose e a gordura disponíveis, parte do lactato, a diferença entre treino e prova. O que ele não explica: cansaço de meses, painel de exame de atleta.*
+*Teleprompter: (o que o número não explica, que é onde a conversa escorrega)*
+
+Então, o que esse sistema não explica, porque é aí que a conversa de consultório escorrega.
+
+Ele não explica fadiga crônica. Catecolamina sobe em segundos e cai em minutos. Ela não fica. Quem atribui um cansaço de seis meses a "adrenalina alta o tempo todo" está usando um sistema de minutos para explicar um fenômeno de meses.
+
+Ele não é exame de rotina de quem treina. A dosagem de metanefrinas existe e tem indicação precisa: suspeita de feocromocitoma, diante de crises de pressão alta, dor de cabeça, palpitação e suor. Fora desse quadro, o resultado é difícil de interpretar e a ansiedade sai cara.
+
+E ele não é o que se trata em quem está com o sistema acionado o tempo todo. O que se trata é o contexto. A mesma conclusão da aula passada.
+
+---
+
+📊 **[SLIDE 8 DE 8]**
+*Visual: fundo do módulo. O número da aula, o que ele muda na prescrição e quem faz o quê.*
+*Teleprompter: (fecha pelo número e emenda)*
+
+Doze vezes em minutos, e de volta em minutos. É um sistema de agora.
+
+Na prática, sobra uma regra para toda a equipe: no dia da prova, no calor e em quem usa betabloqueador, o número do relógio está medindo outra coisa. Prescreva pelo instrumento que continua honesto, a percepção de esforço.
+
+Quem faz o quê. Investigar e tratar qualquer coisa nesse território é médico, do ajuste do betabloqueador à suspeita de feocromocitoma. Prescrever por percepção de esforço, ensinar o atleta a usá-la e não brigar com o relógio no dia da prova é do educador físico e do preparador.
+
+Na próxima aula, a gente troca de escala de tempo de vez. Sai do sistema que responde em segundos e vai para um que leva meses para mudar de patamar, e que é, de longe, o mais dosado e o mais reposto de todos: a testosterona no praticante.
 
 ---
 
 ## Referências
 
-1. Zouhal H, Jacob C, Delamarche P, Gratas-Delamarche A. Catecholamines and the effects of exercise, training and gender. *Sports Med.* 2008;38(5):401-423. PMID: 18416594
-2. Hargreaves M, Spriet LL. Skeletal muscle energy metabolism during exercise. *Nat Metab.* 2020;2(9):817-828. doi:10.1038/s42255-020-0251-4
-3. Brooks GA. The science and translation of lactate shuttle theory. *Cell Metab.* 2018;27(4):757-785. PMID: 29617642
-4. Buchheit M. Monitoring training status with HR measures: do all roads lead to Rome? *Front Physiol.* 2014;5:73. doi:10.3389/fphys.2014.00073
+1. Sothmann MS, Gustafson AB, Chandler M. Plasma free and sulfoconjugated catecholamine responses to varying exercise intensity. *J Appl Physiol.* 1987;63(2):654-658. PMID: 3654425
+2. Zouhal H, Jacob C, Delamarche P, Gratas-Delamarche A. Catecholamines and the effects of exercise, training and gender. *Sports Med.* 2008;38(5):401-423. PMID: 18416594
+3. Kjær M. Adrenal medulla and exercise training. *Eur J Appl Physiol.* 1998;77(3):195-199. PMID: 9535578
+4. Hargreaves M, Spriet LL. Skeletal muscle energy metabolism during exercise. *Nat Metab.* 2020;2(9):817-828. doi:10.1038/s42255-020-0251-4
+5. Brooks GA. The science and translation of lactate shuttle theory. *Cell Metab.* 2018;27(4):757-785. PMID: 29617642
+6. Buchheit M. Monitoring training status with HR measures: do all roads lead to Rome? *Front Physiol.* 2014;5:73. doi:10.3389/fphys.2014.00073
+7. Lenders JW, Duh QY, Eisenhofer G, et al. Pheochromocytoma and paraganglioma: an Endocrine Society clinical practice guideline. *J Clin Endocrinol Metab.* 2014;99(6):1915-1942.
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — Doze vezes
-· A 90% do VO₂máx: noradrenalina sobe ~**12×** (219 → 2.738 pg/mL); adrenalina ~**11×** (49 → 555)
-· Nenhum outro sistema deste módulo se move nessa escala **em minutos**
-· **Adrenalina é hormônio**: medula da adrenal → circulação → tecidos distantes
-· **Noradrenalina é neurotransmissor que vazou**: o plasma mede o excedente das sinapses simpáticas
-· Logo, noradrenalina plasmática é **marcador de acionamento simpático**, não comando central
-· A subida **não é linear — é exponencial**, e dispara perto do **segundo limiar**
-Visual: a curva plana e depois em exponencial.
+**O que mudou nesta versão.** Voz do curso e deck de oito slides. Arquitetura NÚMERO mantida (a
+aula anterior é ERRO). Aula curta de propósito: o módulo precisa de pelo menos duas. Sem paciente: a
+judoca é cena de duas linhas. Rodízio: combate, depois de musculação e corrida na abertura do módulo.
 
-**Slide 2** — O que elas fazem
-· **Coração**: frequência e força · **Vaso**: constringe víscera e pele, dilata músculo ativo
-· **Brônquio**: dilata · **Fígado**: glicogenólise · **Adiposo**: lipólise
-· **Músculo: aceleram a glicólise — com oxigênio disponível**
-· Parte do lactato do esforço intenso é **adrenalina-dependente**, não hipóxia-dependente
-· Por isso a curva do lactato e a das catecolaminas dobram **no mesmo ponto**
-· Sobem em **segundos**, depuradas em **minutos** — desenhadas para ligar e desligar
-· Treinado: **menos catecolamina no submáximo** e **mais adrenalina no máximo** ("medula adrenal esportiva")
-· **Mais econômico no submáximo, mais capaz no máximo**
-Visual: as setas do corpo para os cinco destinos.
+**Fonte do número.** A versão antiga trazia "doze vezes, de 219 para 2.738 pg/mL" sem dizer de onde
+vinha. É de Sothmann, Gustafson e Chandler 1987: sete homens treinados, oito minutos de bicicleta a
+cerca de 30, 60 e 90% do VO₂máx. Noradrenalina livre de 219 ± 85 para 2.738 ± 1.149 pg/mL e adrenalina
+de 49 ± 49 para 555 ± 516 pg/mL a 90%; o aumento significativo de ambas só apareceu a 90%. A fala agora
+atribui o dado e descreve o formato sem afirmar que a dobra coincide com o segundo limiar, que a
+versão antiga dizia sem fonte.
 
-**Slide 3** — O que isso faz com o relógio
-· **Resposta antecipatória**: o simpático ativa **antes** do esforço, comandado pela expectativa
-· No dia da prova, a **mesma carga externa** dá **FC mais alta** — e isso não é estar pior
-· Empilham no mesmo sentido: **calor · desidratação · cafeína e pré-treino**
-· Logo: **a zona de FC que funcionou no treino não funciona na prova**
-· O erro caro é **desacelerar para caber na zona**
-· **Em alta ativação simpática, prescreva por percepção de esforço**
-· Situação espelhada: **betabloqueador achata a FC** — aí a PSE deixa de ser alternativa e vira o instrumento
-· **Estimulantes somam** num sistema já acionado — cuidado em arritmia, HAS mal controlada, cardiopatia não investigada
-Visual: FC no treino x FC na competição, na mesma carga.
+**Conferido.** Kjær 1998: treinado de endurance libera menos adrenalina na mesma carga absoluta e tem
+maior capacidade de secreção no máximo ("sports adrenal medulla").
 
-**Slide 4** — O que explica e o que não explica
-· **Explica**: subida rápida da FC · redistribuição de fluxo · glicose e ácido graxo disponíveis · parte do lactato · alerta e apetite suprimido · a diferença treino-prova
-· **Não explica fadiga crônica** — sobe em segundos, cai em minutos. Não fica
-· **Não é exame de painel**: catecolaminas e metanefrinas têm indicação precisa (suspeita de feocromocitoma)
-· **Não é o que se trata** em quem está cronicamente acionado — trata-se o contexto
-· Escopo: investigar e tratar aqui é médico
-· O resto da equipe leva o operacional: **o relógio, na prova e no betabloqueado, mede outra coisa**
-Visual: as duas colunas, o que explica e o que não.
+**Saíram.** "Bonito", "olha isso com atenção", as menções numeradas a módulo e aula ("aula cinco do
+módulo passado", "aula três"), e o bloco "Roteiro Gamma".
+
+**Citações faladas.** Sothmann (o número da abertura) e Kjær (a medula adrenal esportiva).
+
+**Ligações internas.** ácido lático e lactato = aula do glicolítico · redistribuição de fluxo = aula
+cardiovascular · cortisol = aula anterior · betabloqueador e cardiopata = módulo de medicina esportiva
+clínica · estimulantes com nome e dose = módulo de suplementação · testosterona = próxima aula.

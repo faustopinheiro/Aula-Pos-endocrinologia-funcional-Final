@@ -14,6 +14,14 @@ TINTA, PAPEL, QUENTE, CARD = "#12202E", "#F7F6F2", "#EDEAE2", "#FDFCF9"
 VERM, PETR, AMBAR = "#A8322A", "#1F6F6B", "#C8922F"
 APOIO, APOIO2, RODAPE = "#4A5A68", "#3A4A57", "#6B7A87"
 SERIF = "'Libre Baskerville', Georgia, serif"
+
+# Cor da capa e do fecho por módulo (spec["tema"]). O miolo não muda.
+# fundo, card escuro, filete, eyebrow, subtítulo/título de card, texto de apoio
+TEMAS = {
+    "tinta":    {"fundo": TINTA,     "card": "#1B2E3F", "linha": "#2E4053", "eyebrow": "#7FC4BE", "sub": "#E88C7D", "apoio": "#BFD0DA"},
+    "bordo":    {"fundo": "#3A1A22", "card": "#4A2530", "linha": "#5E3844", "eyebrow": "#7FC4BE", "sub": "#E6C08A", "apoio": "#E3CDCF"},
+    "petroleo": {"fundo": "#0F3432", "card": "#184442", "linha": "#2A5A57", "eyebrow": "#E6C08A", "sub": "#F2A58F", "apoio": "#C9DDDA"},
+}
 SANS = "'IBM Plex Sans', Arial, sans-serif"
 
 SIMBOLO = ('<path d="M75.9,28.5 A34,34 0 1,0 75.9,67.5" stroke-width="7"/>'
@@ -31,8 +39,8 @@ def simbolo(escuro):
 def esc_nota(t):
     return html.escape(t, quote=False)
 
-def eyebrow(t, escuro=False):
-    cor = "#7FC4BE" if escuro else VERM
+def eyebrow(t, escuro=False, cor=None):
+    cor = cor or ("#7FC4BE" if escuro else VERM)
     return f'<p style="font-size:26px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:{cor}; width:1500px">{t}</p>'
 
 def titulo(t, escuro=False):
@@ -48,10 +56,11 @@ def secao(sid, bg, corpo, gap=36, just=None, cor=TINTA):
     return (f'<section id="{sid}" data-transition="fade" style="background:{bg}; color:{cor}; font-family:{SANS}; '
             f'padding:128px 128px 160px; display:flex; flex-direction:column; gap:{gap}px{j}">\n{corpo}\n')
 
-def card(c, borda=None, escuro=False):
-    fundo = "#1B2E3F" if escuro else CARD
+def card(c, borda=None, escuro=False, tema=None):
+    tema = tema or TEMAS["tinta"]
+    fundo = tema["card"] if escuro else CARD
     b = f"border-top:8px solid {borda}; " if borda else ("" if escuro else "border:1px solid #DDD8CC; ")
-    ct = "#E88C7D" if escuro else TINTA
+    ct = tema["sub"] if escuro else TINTA
     cx = "#DCE6EC" if escuro else APOIO2
     h = f'<h3 style="font-size:36px; font-weight:600; line-height:1.2; color:{ct}">{c["t"]}</h3>' if c.get("t") else ""
     x = f'<p style="font-size:28px; line-height:1.45; color:{cx}">{c["x"]}</p>' if c.get("x") else ""
@@ -166,20 +175,21 @@ def gerar(spec_path, saida):
         raise SystemExit(f"spec tem {len(slides)} slides de conteúdo e a aula tem {len(notas)}")
     total = len(slides) + 1
     rod = spec["titulo"]
+    tema = TEMAS[spec.get("tema", "tinta")]
     pasta = os.path.join(saida, "project", "slides")
     os.makedirs(pasta, exist_ok=True)
     ordem = ["capa"]
 
     # Capa
     corpo = (simbolo(True) +
-             f'<p style="font-size:28px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#7FC4BE; width:1400px">Pós-Graduação em Ciências do Esporte Aplicadas à Saúde</p>'
+             f'<p style="font-size:28px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:{tema["eyebrow"]}; width:1400px">Pós-Graduação em Ciências do Esporte Aplicadas à Saúde</p>'
              f'<div style="display:flex; flex-direction:column; gap:24px">'
              f'<h1 style="font-family:{SERIF}; font-size:92px; font-weight:700; line-height:1.1; color:{PAPEL}">{spec["titulo"]}</h1>'
-             + (f'<h2 style="font-family:{SERIF}; font-size:52px; font-weight:400; font-style:italic; line-height:1.2; color:#E88C7D">{spec["subtitulo"]}</h2>' if spec.get("subtitulo") else "")
+             + (f'<h2 style="font-family:{SERIF}; font-size:52px; font-weight:400; font-style:italic; line-height:1.2; color:{tema["sub"]}">{spec["subtitulo"]}</h2>' if spec.get("subtitulo") else "")
              + '</div>'
-             f'<div style="display:flex; gap:64px; border-top:2px solid #2E4053; padding:32px 0 0">'
-             f'<p style="font-size:30px; color:#BFD0DA">{spec["modulo"]}</p></div>')
-    capa = (f'<section id="capa" data-transition="fade" style="background:{TINTA}; color:{PAPEL}; font-family:{SANS}; padding:128px; '
+             f'<div style="display:flex; gap:64px; border-top:2px solid {tema["linha"]}; padding:32px 0 0">'
+             f'<p style="font-size:30px; color:{tema["apoio"]}">{spec["modulo"]}</p></div>')
+    capa = (f'<section id="capa" data-transition="fade" style="background:{tema["fundo"]}; color:{PAPEL}; font-family:{SANS}; padding:128px; '
             f'display:flex; flex-direction:column; justify-content:space-between; gap:48px">\n{corpo}\n'
             f'<aside>{esc_nota(spec.get("nota_capa", "Capa. Entra com calma e segue para o primeiro slide."))}</aside>\n</section>\n')
     open(os.path.join(pasta, "capa.html"), "w", encoding="utf-8").write(capa)
@@ -200,12 +210,12 @@ def gerar(spec_path, saida):
             html_s = secao(sid, bg, corpo, gap=32, cor=PAPEL) + nota
         elif s["tipo"] == "fecho":
             regras = "".join(f"<li>{r}</li>" for r in s["regras"])
-            cartoes = ('<div style="display:flex; gap:24px">' + "".join(card(c, None, escuro=True) for c in s["cards"]) + '</div>') if s.get("cards") else ""
-            corpo = (simbolo(True) + eyebrow(s.get("eyebrow", "O que fica"), True) + titulo(s["titulo"], True) +
+            cartoes = ('<div style="display:flex; gap:24px">' + "".join(card(c, None, escuro=True, tema=tema) for c in s["cards"]) + '</div>') if s.get("cards") else ""
+            corpo = (simbolo(True) + eyebrow(s.get("eyebrow", "O que fica"), True, tema["eyebrow"]) + titulo(s["titulo"], True) +
                      f'<ol style="font-size:30px; line-height:1.5; color:{PAPEL}">{regras}</ol>' + cartoes
-                     + (f'<p style="font-size:26px; line-height:1.45; color:#BFD0DA">{s["quem"]}</p>' if s.get("quem") else "")
+                     + (f'<p style="font-size:26px; line-height:1.45; color:{tema["apoio"]}">{s["quem"]}</p>' if s.get("quem") else "")
                      + f'<p style="position:absolute; right:128px; bottom:64px; width:200px; text-align:right; font-size:24px; color:#9FB0BD">{n} / {total}</p>')
-            html_s = secao(sid, TINTA, corpo, gap=30, cor=PAPEL) + nota
+            html_s = secao(sid, tema["fundo"], corpo, gap=30, cor=PAPEL) + nota
         else:
             bg = PAPEL if alterna % 2 == 0 else QUENTE
             alterna += 1

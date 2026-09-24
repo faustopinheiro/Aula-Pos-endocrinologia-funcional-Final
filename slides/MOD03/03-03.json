@@ -1,0 +1,486 @@
+{
+ "arquivo": "aulas/MOD03/03-03-catecolaminas-e-a-resposta-aguda.md",
+ "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício",
+ "tema": "bordo",
+ "titulo": "Catecolaminas no exercício",
+ "subtitulo": "Resposta simpatoadrenal aguda e adaptações ao treino",
+ "nota_capa": "Entra pelo número.",
+ "secoes": {
+  "numero": [
+   "O número e de onde vem cada catecolamina.",
+   "capa"
+  ],
+  "efeitos": [
+   "O que fazem e o que o treino muda.",
+   "efeitos"
+  ],
+  "relogio": [
+   "O relógio no dia da prova e no betabloqueado.",
+   "relogio"
+  ],
+  "limites": [
+   "O que o sistema não explica.",
+   "limites"
+  ]
+ },
+ "slides": [
+  {
+   "id": "doze",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Noradrenalina plasmática de 219 para 2.738 pg/mL e adrenalina de 49 para 555 pg/mL, do repouso para 8 minutos a 90% do VO2máx\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"360\" y=\"20\" width=\"79\" height=\"60\" rx=\"4\" fill=\"#6B7A87\"/><rect x=\"360\" y=\"96\" width=\"986\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"360\" y=\"220\" width=\"18\" height=\"60\" rx=\"4\" fill=\"#6B7A87\"/><rect x=\"360\" y=\"296\" width=\"200\" height=\"60\" rx=\"4\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 70,
+     "w": 250,
+     "t": "Noradrenalina",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 34,
+     "w": 90,
+     "t": "repouso",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 110,
+     "w": 90,
+     "t": "90%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 455,
+     "y": 30,
+     "w": 260,
+     "t": "219 pg/mL",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1362,
+     "y": 102,
+     "w": 280,
+     "t": "2.738 pg/mL",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 270,
+     "w": 250,
+     "t": "Adrenalina",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 234,
+     "w": 90,
+     "t": "repouso",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 310,
+     "w": 90,
+     "t": "90%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 394,
+     "y": 230,
+     "w": 260,
+     "t": "49 pg/mL",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 576,
+     "y": 302,
+     "w": 280,
+     "t": "555 pg/mL",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Oito minutos a 90% do VO₂máx",
+   "titulo": "Doze vezes, em minutos",
+   "destaque": "A subida significativa só apareceu a 90%. Em intensidade baixa e moderada, o sistema mexe pouco; acima de um certo ponto, dispara.",
+   "destaque_cor": "verm",
+   "fonte": "Sothmann, Gustafson e Chandler, Journal of Applied Physiology 1987 · sete homens treinados, 30, 60 e 90% do VO₂máx"
+  },
+  {
+   "id": "origem",
+   "tipo": "duas",
+   "eyebrow": "De onde vem cada uma",
+   "titulo": "Um hormônio e um neurotransmissor que vazou",
+   "esq": {
+    "t": "Adrenalina",
+    "cor": "petr",
+    "itens": [
+     "produzida na medula da adrenal",
+     "cai na circulação e age longe",
+     "é a peça endócrina do sistema"
+    ]
+   },
+   "dir": {
+    "t": "Noradrenalina",
+    "cor": "verm",
+    "itens": [
+     "liberada nas terminações simpáticas, dentro dos tecidos",
+     "no plasma, o excedente que escapou das sinapses",
+     "marca quanto o simpático está acionado"
+    ]
+   },
+   "destaque": "Noradrenalina plasmática não é um comando que desce. É o eco de uma atividade local, espalhada pelo corpo.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "efeitos",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Muita coisa ao mesmo tempo",
+   "titulo": "Liga em segundos, desliga em minutos",
+   "cards": [
+    {
+     "t": "Coração",
+     "x": "mais frequência e mais força",
+     "cor": "verm"
+    },
+    {
+     "t": "Vaso",
+     "x": "fecha víscera e pele, abre o músculo que trabalha",
+     "cor": "verm"
+    },
+    {
+     "t": "Brônquio",
+     "x": "dilata: o mesmo receptor da medicação de asma",
+     "cor": "tinta"
+    },
+    {
+     "t": "Fígado",
+     "x": "quebra glicogênio, solta glicose",
+     "cor": "ambar"
+    },
+    {
+     "t": "Tecido adiposo",
+     "x": "libera gordura",
+     "cor": "ambar"
+    },
+    {
+     "t": "Músculo",
+     "x": "acelera a glicólise, com oxigênio sobrando",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Parte do lactato do esforço intenso depende da adrenalina, não da falta de oxigênio.",
+   "destaque_cor": "petr",
+   "fonte": "Hargreaves e Spriet, Nature Metabolism 2020"
+  },
+  {
+   "id": "treinado",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Na mesma carga absoluta, o treinado libera menos catecolamina que o destreinado; no esforço máximo, libera mais adrenalina\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"0\" y1=\"320\" x2=\"780\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"120\" y=\"230\" width=\"200\" height=\"90\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"420\" y=\"150\" width=\"200\" height=\"170\" rx=\"4\" fill=\"#6B7A87\"/><line x1=\"860\" y1=\"320\" x2=\"1640\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"980\" y=\"70\" width=\"200\" height=\"250\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"1280\" y=\"140\" width=\"200\" height=\"180\" rx=\"4\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 330,
+     "w": 300,
+     "t": "treinado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 330,
+     "w": 300,
+     "t": "destreinado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 780,
+     "t": "Mesma carga absoluta",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 330,
+     "w": 300,
+     "t": "treinado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1230,
+     "y": 330,
+     "w": 300,
+     "t": "destreinado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 0,
+     "w": 780,
+     "t": "Esforço máximo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A medula adrenal esportiva",
+   "titulo": "Mais econômico no submáximo, mais capaz no máximo",
+   "fonte": "Esquema, sem valores medidos · Kjær, European Journal of Applied Physiology 1998 · Zouhal e colaboradores, Sports Medicine 2008"
+  },
+  {
+   "id": "relogio",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Frequência cardíaca na mesma carga: no dia da competição a curva começa mais alta antes do esforço e fica acima da curva do treino\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"20.0\" y1=\"340\" x2=\"20.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"180.0\" y1=\"340\" x2=\"180.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"980.0\" y1=\"340\" x2=\"980.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"20\" y1=\"340\" x2=\"980\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"20.0,290.8 52.0,290.8 84.0,290.8 116.0,290.8 148.0,290.8 180.0,290.8 212.0,109.9 244.0,101.8 276.0,96.1 308.0,92.0 340.0,89.0 372.0,86.9 404.0,85.4 436.0,84.3 468.0,83.5 500.0,82.9 532.0,82.5 564.0,82.3 596.0,82.1 628.0,81.9 660.0,81.8 692.0,81.7 724.0,81.7 756.0,81.6 788.0,81.6 820.0,81.6 852.0,81.6 884.0,81.6 916.0,81.6 948.0,81.6 980.0,81.5\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"20.0,229.2 52.0,229.2 84.0,229.2 116.0,229.2 148.0,229.2 180.0,229.2 212.0,76.0 244.0,69.2 276.0,64.3 308.0,60.8 340.0,58.3 372.0,56.5 404.0,55.2 436.0,54.3 468.0,53.7 500.0,53.2 532.0,52.9 564.0,52.6 596.0,52.4 628.0,52.3 660.0,52.2 692.0,52.2 724.0,52.1 756.0,52.1 788.0,52.1 820.0,52.0 852.0,52.0 884.0,52.0 916.0,52.0 948.0,52.0 980.0,52.0\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"1080\" y=\"40\" width=\"584\" height=\"84\" rx=\"42\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1080\" y=\"150\" width=\"584\" height=\"84\" rx=\"42\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1080\" y=\"260\" width=\"584\" height=\"84\" rx=\"42\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": -60,
+     "y": 356,
+     "w": 160,
+     "t": "antes",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 356,
+     "w": 160,
+     "t": "início",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 356,
+     "w": 160,
+     "t": "mesma carga",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 8,
+     "w": 300,
+     "t": "dia da prova",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 98,
+     "w": 300,
+     "t": "treino",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 160,
+     "w": 160,
+     "t": "já alta antes da luta",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 66,
+     "w": 584,
+     "t": "calor",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 176,
+     "w": 584,
+     "t": "desidratação",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 286,
+     "w": 584,
+     "t": "cafeína e pré-treino",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A judoca antes da primeira luta",
+   "titulo": "A zona do treino não serve na prova",
+   "destaque": "Em alta ativação simpática, prescreva por percepção de esforço. O relógio mede a intensidade somada à emoção.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema, sem valores medidos · Buchheit, Frontiers in Physiology 2014"
+  },
+  {
+   "id": "beta",
+   "tipo": "duas",
+   "eyebrow": "A situação espelhada",
+   "titulo": "Quando o relógio subestima o esforço",
+   "esq": {
+    "t": "Betabloqueador",
+    "cor": "petr",
+    "itens": [
+     "a frequência não sobe como a de outra pessoa",
+     "o pico fica achatado",
+     "percentual da máxima prevista subestima o esforço",
+     "percepção de esforço vira o instrumento principal"
+    ]
+   },
+   "dir": {
+    "t": "Estimulantes",
+    "cor": "verm",
+    "itens": [
+     "cafeína em dose alta, termogênico, pré-treino adrenérgico",
+     "somam num sistema que o exercício já aciona",
+     "saudável, dose habitual: costuma ser tolerado",
+     "arritmia, hipertensão mal controlada, doença cardíaca: cuidado"
+    ]
+   },
+   "destaque": "No betabloqueado, a percepção de esforço deixa de ser alternativa: é o instrumento, para prescrever e para interpretar um teste.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "limites",
+   "tipo": "duas",
+   "eyebrow": "Onde a conversa escorrega",
+   "titulo": "O que esse sistema explica, e o que não explica",
+   "esq": {
+    "t": "Explica",
+    "cor": "petr",
+    "itens": [
+     "a subida rápida da frequência cardíaca, até antes do esforço",
+     "a redistribuição de fluxo",
+     "glicose e gordura disponíveis, parte do lactato",
+     "a diferença entre treino e prova"
+    ]
+   },
+   "dir": {
+    "t": "Não explica",
+    "cor": "verm",
+    "itens": [
+     "cansaço de meses: sobe em segundos, cai em minutos",
+     "não é exame de painel de atleta",
+     "metanefrinas: só na suspeita de feocromocitoma",
+     "não é o que se trata: trata-se o contexto"
+    ]
+   },
+   "fonte": "Lenders e colaboradores, Endocrine Society 2014"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Um sistema de agora",
+   "titulo": "Doze vezes em minutos, e de volta em minutos",
+   "regras": [
+    "No dia da prova, no calor e no betabloqueado, o relógio mede outra coisa",
+    "Prescreva pela percepção de esforço"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Betabloqueador, suspeita de feocromocitoma, estimulante em quem tem doença cardíaca."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "Prescrevem por percepção de esforço e ensinam o atleta a usá-la."
+    }
+   ],
+   "quem": "Cansaço de seis meses não é adrenalina alta o tempo todo."
+  }
+ ]
+}
