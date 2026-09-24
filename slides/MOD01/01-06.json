@@ -1,0 +1,68 @@
+{
+ "arquivo": "aulas/MOD01/01-06-o-que-e-seu-do-colega-e-de-todos.md",
+ "modulo": "Fundamentos das Ciências do Esporte e Trabalho Multiprofissional",
+ "titulo": "O que é seu, o que é do colega e o que é de todos",
+ "subtitulo": "Decisão, contribuição e reconhecimento",
+ "nota_capa": "Entra pelas quatro cenas da semana.",
+ "secoes": {
+  "fronteira": ["Quatro cenas, os dois erros opostos e as três camadas.", "capa"],
+  "niveis": ["Os três níveis de responsabilidade, com um exemplo.", "tres-niveis"],
+  "omissao": ["As quatro omissões e um caso real de invasão sem cara de invasão.", "omissoes"]
+ },
+ "slides": [
+  {"id": "cenas", "tipo": "cards", "eyebrow": "Esta semana", "titulo": "Quatro cenas de fronteira", "por_linha": 2, "gap": 26,
+   "cards": [
+    {"t": "A nutricionista", "x": "A corredora coloca um painel hormonal na mesa: “o que você acha desses resultados?”", "cor": "ambar"},
+    {"t": "O educador físico", "x": "“Professor, eu tomo creatina? E aquele pré-treino da loja?”", "cor": "ambar"},
+    {"t": "O fisioterapeuta", "x": "O técnico liga no fim da reabilitação: “ele pode jogar no domingo?”", "cor": "ambar"},
+    {"t": "O médico", "x": "Corre há oito anos e monta a planilha de treino do paciente na consulta.", "cor": "ambar"}],
+   "destaque": "Em nenhuma delas “isso não é da minha área”, dito sozinho, é uma boa conduta.", "destaque_cor": "verm"},
+  {"id": "dois-erros", "tipo": "duas", "eyebrow": "Dois erros opostos", "titulo": "Invasão e omissão",
+   "esq": {"t": "Invasão", "cor": "ambar", "itens": ["Fazer o que não é seu", "Todo conselho fiscaliza", "Todo mundo tem medo, com razão"]},
+   "dir": {"t": "Omissão", "cor": "verm", "itens": ["Não fazer o que é seu, porque parece de outro", "Ninguém fiscaliza", "Prejudica mais gente"]},
+   "destaque": "O medo é real. Mal calibrado, ele paralisa também o que é seu: você para de perguntar, de anotar e de escrever."},
+  {"id": "tres-camadas", "tipo": "lista", "eyebrow": "Para decidir se é seu", "titulo": "Três camadas, não uma", "gap_itens": 26,
+   "itens": [
+    {"t": "O que a lei permite", "x": "A fonte é o conselho da sua profissão, na resolução em vigor. Resolução muda.", "cor": "petr"},
+    {"t": "O que você sabe fazer", "x": "Autorizado não é preparado. Este curso aumenta esta camada, não a primeira.", "cor": "petr"},
+    {"t": "O que este caso precisa agora", "x": "A resposta pode ser não em qualquer uma das três.", "cor": "petr"}],
+   "destaque": "A pergunta deixa de ser “isso é meu?” e vira “é meu, eu sei fazer, e é disso que essa pessoa precisa agora?”"},
+  {"id": "tres-niveis", "tipo": "cards", "eyebrow": "O modelo do curso", "titulo": "Três níveis de responsabilidade",
+   "cards": [
+    {"t": "Decisão", "x": "Você conhece a fundo e responde pela conduta, dentro do que a lei permite. É a sua assinatura.", "cor": "petr"},
+    {"t": "Contribuição", "x": "Você entende o raciocínio e influencia a decisão do colega com argumento técnico.", "cor": "ambar"},
+    {"t": "Reconhecimento", "x": "Você identifica o sinal que não é seu e encaminha bem feito, a tempo.", "cor": "verm"}],
+   "destaque": "“Não é comigo” não existe neste curso. Até reconhecer exige saber o que procurar."},
+  {"id": "exemplo", "tipo": "tabela", "eyebrow": "Um exemplo", "titulo": "Falta de energia no atleta, nos três níveis", "larguras": [32, 22, 46], "tam": 28,
+   "cab": ["Profissão", "Nível", "O quê"],
+   "linhas": [
+    ["Nutrição", "Decisão", "Cálculo, conduta alimentar, reconstrução da energia"],
+    ["Medicina", "Decisão", "Menstruação ausente, osso, outras causas, doença"],
+    ["Preparação física", "Contribuição", "Ajustar a carga; não tratar como periodização"],
+    ["Fisioterapia", "Contribuição", "Saber que a lesão repetida pode ser consequência"],
+    ["Psicologia", "Decisão ou contribuição", "Decisão se há transtorno alimentar"],
+    ["Todas", "Reconhecimento", "Sempre"]]},
+  {"id": "quem-enxerga", "tipo": "frase", "eyebrow": "Os níveis não são ranking",
+   "frase": "Quem decide não é quem enxerga primeiro. E quem enxerga primeiro decide se o outro vai enxergar.",
+   "apoio": "O profissional em reconhecimento, que vê primeiro, muitas vezes vale mais para aquele paciente do que quem decide e só vai vê-lo daqui a quatro meses."},
+  {"id": "omissoes", "tipo": "cards", "eyebrow": "A omissão por dentro", "titulo": "As quatro formas de omissão", "por_linha": 2, "gap": 26,
+   "cards": [
+    {"t": "Não perguntar", "x": "“Sono é do médico.” Perguntar é de todo mundo.", "cor": "verm"},
+    {"t": "Encaminhar sem informação", "x": "“Favor avaliar.” Transfere o paciente, não o conhecimento.", "cor": "verm"},
+    {"t": "Encaminhar e sumir", "x": "Duas condutas paralelas que nunca conversam.", "cor": "verm"},
+    {"t": "Achar que alguém está cuidando", "x": "Todos veem, cada um acha que o outro resolve, ninguém resolve.", "cor": "verm"}],
+   "destaque": "Quem está em reconhecimento não fica em silêncio. Fica por escrito."},
+  {"id": "caso", "tipo": "lista", "eyebrow": "Um caso desconfortável", "titulo": "O personal e o antidepressivo", "gap_itens": 26,
+   "itens": [
+    {"t": "37 anos, depressão tratada, musculação há 6 meses", "x": "Antidepressivo, psiquiatra e psicoterapia havia um ano e meio.", "cor": "petr"},
+    {"t": "“O exercício é o melhor antidepressivo. Vai diminuindo.”", "x": "Dito com convicção e boa intenção. Ele diminuiu por conta própria e parou em seis semanas.", "cor": "ambar"},
+    {"t": "Insônia, irritação e a volta dos pensamentos ruins", "x": "Quatro meses para se recuperar. E, nesse tempo, parou de treinar.", "cor": "verm"}]},
+  {"id": "bilhete", "tipo": "html", "eyebrow": "O que teria sido excelente", "titulo": "A informação estava certa. O caminho, errado.",
+   "corpo": "<div style=\"background:#FDFCF9; border:1px solid #DDD8CC; border-left:8px solid #1F6F6B; border-radius:12px; padding:36px 44px; display:flex; flex-direction:column; gap:12px\"><p style=\"font-size:26px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:#1F6F6B\">O bilhete que nunca foi escrito</p><p style=\"font-size:30px; line-height:1.5; color:#12202E\">Ao psiquiatra do paciente.<br>Ele treina comigo três vezes por semana há seis meses, quase sem faltas.<br>Relata mais disposição e sono melhor nas últimas semanas.<br>Me contou que usa antidepressivo e que pensa em reduzir por conta própria.<br>Achei importante você saber. O que devo observar daqui para frente?</p></div>",
+   "destaque": "O erro não foi de conhecimento, foi de lugar. A invasão quase nunca tem cara de invasão: ele só deu uma opinião."},
+  {"id": "fecho", "tipo": "fecho", "titulo": "Três verbos e um limite",
+   "regras": ["Ler não é prescrever.", "Reconhecer não é diagnosticar.", "Encaminhar não é opinar sobre a conduta do colega.", "Limite duro: ninguém mexe em tratamento conduzido por outro profissional."],
+   "quem": "Discordância no time: se há risco para o paciente, fale com o colega, com clareza e sem plateia. Se é diferença de escola ou de estilo, segure.",
+   "proxima": "O encaminhamento que o colega usa"}
+ ]
+}

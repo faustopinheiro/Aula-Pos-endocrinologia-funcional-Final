@@ -1,0 +1,61 @@
+{
+ "arquivo": "aulas/MOD01/01-05-quem-cuida-de-quem.md",
+ "modulo": "Fundamentos das Ciências do Esporte e Trabalho Multiprofissional",
+ "titulo": "Quem cuida de quem",
+ "subtitulo": "As funções de uma equipe de saúde no esporte, em qualquer formato",
+ "nota_capa": "Entra pelas três portas de entrada.",
+ "secoes": {
+  "funcoes": ["Por onde o atleta entra, os quatro formatos e as oito funções.", "capa"],
+  "circulacao": ["A função vaga, a informação que para e a estrutura mínima.", "funcao-vaga"],
+  "decisao": ["De quem é a decisão, e o que compensa em cada formato.", "de-quem"]
+ },
+ "slides": [
+  {"id": "portas", "tipo": "cards", "eyebrow": "Para começar", "titulo": "Três atletas, três portas de entrada",
+   "cards": [
+    {"t": "Fratura por estresse", "x": "Entra pelo treinador, que acha que o corredor ficou mais lento por falta de foco.", "cor": "verm"},
+    {"t": "Transtorno alimentar", "x": "Entra pela fisioterapeuta, com a terceira lesão do ano.", "cor": "ambar"},
+    {"t": "Desidratação", "x": "Não entra por ninguém. Entra pela balança, na véspera da pesagem.", "cor": "verm"}],
+   "destaque": "O atleta chega pela porta de quem ele vê com mais frequência. Quase nunca é a do médico."},
+  {"id": "formatos", "tipo": "cards", "eyebrow": "Primeiro erro: achar que equipe é um lugar", "titulo": "Quatro formatos, as mesmas funções", "por_linha": 2, "gap": 26,
+   "cards": [
+    {"t": "Departamento completo", "x": "Clube, seleção, centro de treinamento. Cargos definidos, calendário mandando.", "cor": "petr"},
+    {"t": "Equipe pequena", "x": "Academia, assessoria, box, clínica. 3 a 6 pessoas, cada uma fazendo várias coisas.", "cor": "petr"},
+    {"t": "Rede informal", "x": "Profissionais que atendem o mesmo atleta sem combinar nada. O arranjo mais comum do país.", "cor": "ambar"},
+    {"t": "Sozinho", "x": "Consultório ou personal, com uma agenda de contatos para encaminhar.", "cor": "petr"}]},
+  {"id": "oito-funcoes", "tipo": "cards", "eyebrow": "Função, não profissão", "titulo": "As oito funções que precisam acontecer", "por_linha": 4, "gap": 26,
+   "cards": [
+    {"t": "Triagem", "x": "Quem pode fazer o quê antes de começar.", "cor": "petr"},
+    {"t": "Prescrição do treino", "x": "Define a carga e responde quando muda.", "cor": "petr"},
+    {"t": "Monitoramento", "x": "Coleta, registra e olha o dado.", "cor": "petr"},
+    {"t": "Diagnóstico", "x": "Sintoma, doença, remédio e exame.", "cor": "petr"},
+    {"t": "Reabilitação", "x": "Do tecido lesionado à função.", "cor": "petr"},
+    {"t": "Nutrição e energia", "x": "A conta de energia e o resto.", "cor": "petr"},
+    {"t": "Saúde mental", "x": "Acolher, rastrear, cuidar da adesão.", "cor": "petr"},
+    {"t": "Coordenação", "x": "Faz o que um viu chegar aos outros.", "cor": "verm"}]},
+  {"id": "funcao-vaga", "tipo": "numeros", "eyebrow": "Segundo erro: achar que o problema é acumular", "titulo": "O perigo é a função vaga que ninguém sabe que está vaga",
+   "numeros": [
+    {"n": "8", "x": "funções numa folha, com um nome na frente de cada uma", "cor": "petr"},
+    {"n": "3", "x": "que quase sempre ficam sem nome: triagem, monitoramento que alguém olha, coordenação", "cor": "verm"}],
+   "destaque": "Fazer uma função não é ter competência exclusiva sobre ela. Aqui o ponto é garantir que a função exista."},
+  {"id": "informacao", "tipo": "lista", "eyebrow": "Terceiro erro: achar que a informação circula sozinha", "titulo": "Ela para em quem viu primeiro", "gap_itens": 24,
+   "itens": [
+    {"t": "A pessoa não sabe que aquilo é importante", "x": "O treinador vê o corredor mais lento e registra como falta de foco.", "cor": "ambar"},
+    {"t": "Sabe, e não sabe para quem mandar", "x": "Manda para a pessoa errada, ou de um jeito que ninguém precisa responder.", "cor": "ambar"},
+    {"t": "Não existe um lugar onde a informação more", "x": "Cada um com seu caderno, seu aplicativo e sua cabeça. O dado existe; o conjunto, não.", "cor": "verm"}],
+   "destaque": "Não é falta de competência. É falta de caminho para a informação."},
+  {"id": "tres-perguntas", "tipo": "lista", "eyebrow": "A estrutura mínima", "titulo": "Três perguntas, respondidas por escrito", "gap_itens": 24,
+   "itens": [
+    {"t": "Onde a informação mora?", "x": "Um lugar só. Histórico de lesão, carga da semana, o que mudou, o que cada um viu.", "cor": "petr"},
+    {"t": "Quem chama a conversa quando as informações não batem?", "x": "A discordância é o sistema funcionando. O problema é virar a decisão de quem insiste mais.", "cor": "petr"},
+    {"t": "Quem assina, por tipo de decisão?", "x": "Alta clínica, mudança de carga, volta ao jogo, ajuste de remédio.", "cor": "petr"}]},
+  {"id": "de-quem", "tipo": "duas", "eyebrow": "Quarto erro: a pergunta mal feita", "titulo": "Não é de quem é o paciente. É de quem é a decisão",
+   "esq": {"t": "“De quem é esse paciente?”", "cor": "verm", "itens": ["Produz disputa de território", "Trata o conflito como coisa de corporação"]},
+   "dir": {"t": "“De quem é esta decisão?”", "cor": "petr", "itens": ["Cada tipo de decisão tem um responsável", "Algumas são compartilhadas de propósito"]},
+   "destaque": "Na decisão de retorno ao esporte, as discordâncias dentro de cada profissão foram maiores que entre profissões. O conflito é de critério. Discutir o caso resolve mais que disputar o dono.",
+   "fonte": "Shrier, Safai e Charland, British Journal of Sports Medicine 2014"},
+  {"id": "fecho", "tipo": "fecho", "titulo": "O que falha e o que compensa, formato por formato",
+   "regras": ["Departamento completo: escrever quem assina quando técnica e competição discordam.", "Equipe pequena: triagem e registro. A folha das três perguntas resolve quase tudo.", "Rede informal: um lugar comum de registro e quem chama a conversa, combinados antes.", "Sozinho: perguntar o que os outros estão vendo. “O que seu treinador falou do seu desempenho?”"],
+   "quem": "Equipe não é quantidade de gente. É saber quais funções precisam existir, quem cumpre cada uma e onde a informação mora.",
+   "proxima": "O que é seu, o que é do colega e o que é de todos"}
+ ]
+}
