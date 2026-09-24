@@ -117,6 +117,24 @@ def miolo(s, bg):
         out.append(f'<table style="font-size:{s.get("tam", 28)}px; color:{APOIO2}; background:{CARD}; border-radius:12px">' + "".join(linhas) + '</table>')
     elif tipo == "html":
         out.append(s["corpo"])
+    elif tipo == "diagrama":
+        w, h = s.get("w", 1664), s["h"]
+        partes = [f'<div style="position:relative; width:{w}px; height:{h}px">']
+        svg = s["svg"]
+        if 'style="' not in svg[:200]:
+            svg = svg.replace("<svg ", '<svg style="position:absolute; left:0px; top:0px" ', 1)
+        partes.append(svg)
+        for r in s.get("rotulos", []):
+            estilo = (f'position:absolute; left:{r["x"]}px; top:{r["y"]}px; width:{r.get("w", 300)}px; '
+                      f'font-size:{r.get("tam", 26)}px; line-height:{r.get("lh", 1.25)}; font-weight:{r.get("peso", 400)}; '
+                      f'color:{r.get("cor", APOIO2)}; text-align:{r.get("alinha", "left")}')
+            if r.get("serif"):
+                estilo += f"; font-family:{SERIF}"
+            partes.append(f'<p style="{estilo}">{r["t"]}</p>')
+        partes.append('</div>')
+        if len(s.get("rotulos", [])) + 1 > 24:
+            raise SystemExit(f"slide {s['id']}: mais de 24 elementos fixados no diagrama")
+        out.append("".join(partes))
     else:
         raise SystemExit(f"tipo desconhecido: {tipo}")
     if s.get("destaque"):
@@ -182,8 +200,9 @@ def gerar(spec_path, saida):
             html_s = secao(sid, bg, corpo, gap=32, cor=PAPEL) + nota
         elif s["tipo"] == "fecho":
             regras = "".join(f"<li>{r}</li>" for r in s["regras"])
+            cartoes = ('<div style="display:flex; gap:24px">' + "".join(card(c, None, escuro=True) for c in s["cards"]) + '</div>') if s.get("cards") else ""
             corpo = (simbolo(True) + eyebrow(s.get("eyebrow", "O que fica"), True) + titulo(s["titulo"], True) +
-                     f'<ol style="font-size:30px; line-height:1.5; color:{PAPEL}">{regras}</ol>'
+                     f'<ol style="font-size:30px; line-height:1.5; color:{PAPEL}">{regras}</ol>' + cartoes
                      + (f'<p style="font-size:26px; line-height:1.45; color:#BFD0DA">{s["quem"]}</p>' if s.get("quem") else "")
                      + f'<p style="position:absolute; right:128px; bottom:64px; width:200px; text-align:right; font-size:24px; color:#9FB0BD">{n} / {total}</p>')
             html_s = secao(sid, TINTA, corpo, gap=30, cor=PAPEL) + nota

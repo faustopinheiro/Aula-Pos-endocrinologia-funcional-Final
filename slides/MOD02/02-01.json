@@ -1,0 +1,1194 @@
+{
+ "arquivo": "aulas/MOD02/02-01-setenta-e-cinco-segundos.md",
+ "modulo": "Fisiologia do Exercício Aplicada",
+ "titulo": "Setenta e cinco segundos",
+ "subtitulo": "Como o corpo paga a conta de energia do exercício",
+ "nota_capa": "Entra pelo número.",
+ "secoes": {
+  "mistura": [
+   "A curva dos 75 segundos e a mistura no esporte real.",
+   "capa"
+  ],
+  "sistemas": [
+   "ATP, os três reservatórios e o preço da velocidade.",
+   "atp"
+  ],
+  "pratica": [
+   "Combustível, tipos de esforço e o intervalo como variável.",
+   "tanques"
+  ]
+ },
+ "slides": [
+  {
+   "id": "curva",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Contribuição aeróbica subindo de 6% aos 10 segundos para 79% aos 4 minutos e anaeróbica caindo de 94% para 21%; as duas se cruzam em 50% por volta dos 75 segundos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"90\" y1=\"380.0\" x2=\"1644\" y2=\"380.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"200.0\" x2=\"1644\" y2=\"200.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"20.0\" x2=\"1644\" y2=\"20.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90.0\" y1=\"380\" x2=\"90.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"627.2\" y1=\"380\" x2=\"627.2\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"966.1\" y1=\"380\" x2=\"966.1\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1305.1\" y1=\"380\" x2=\"1305.1\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1644.0\" y1=\"380\" x2=\"1644.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1075.2\" y1=\"20\" x2=\"1075.2\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><line x1=\"90\" y1=\"380\" x2=\"1644\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"90.0,41.6 428.9,84.8 627.2,117.2 825.5,153.2 966.1,182.0 1075.2,200.0 1164.4,221.6 1305.1,246.8 1503.3,282.8 1644.0,304.4\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"175.2\" cy=\"7.6\" r=\"0\"/><polyline points=\"90.0,358.4 428.9,315.2 627.2,282.8 825.5,246.8 966.1,218.0 1075.2,200.0 1164.4,178.4 1305.1,153.2 1503.3,117.2 1644.0,95.6\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"1075.2\" cy=\"200.0\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"175.2\" cy=\"324.4\" r=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 363,
+     "w": 74,
+     "t": "0%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 183,
+     "w": 74,
+     "t": "50%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 74,
+     "t": "100%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 396,
+     "w": 160,
+     "t": "10 s",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 547,
+     "y": 396,
+     "w": 160,
+     "t": "30 s",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 886,
+     "y": 396,
+     "w": 160,
+     "t": "1 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1225,
+     "y": 396,
+     "w": 160,
+     "t": "2 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 396,
+     "w": 160,
+     "t": "4 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1087,
+     "y": 24,
+     "w": 330,
+     "t": "75 s: metade e metade",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 189,
+     "y": -10,
+     "w": 300,
+     "t": "Anaeróbico",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 189,
+     "y": 306,
+     "w": 300,
+     "t": "Aeróbico",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Esforço máximo e contínuo",
+   "titulo": "Aeróbico e anaeróbico se igualam aos 75 segundos",
+   "destaque": "Em 2 minutos de esforço máximo: um terço anaeróbico, dois terços aeróbico.",
+   "fonte": "Gastin, Sports Medicine 2001 · Gastin e Suppiah, 2026 (mais de 100 estudos, diferença de 0 a 3%)"
+  },
+  {
+   "id": "mistura",
+   "tipo": "diagrama",
+   "h": 484,
+   "svg": "<svg aria-label=\"Contribuição anaeróbica e aeróbica: tiro de 10 s, 94 e 6 por cento; série de 40 s, 67 e 33; 400 metros, 55 e 45; 2 minutos, 37 e 63; luta de 4 minutos, 21 e 79\" width=\"1664\" height=\"484\" viewBox=\"0 0 1664 484\"><rect x=\"444.0\" y=\"64\" width=\"1144.8\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1590.8\" y=\"64\" width=\"73.2\" height=\"60\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"444.0\" y=\"148\" width=\"815.4\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1261.4\" y=\"148\" width=\"402.6\" height=\"60\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"444.0\" y=\"232\" width=\"669.0\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1115.0\" y=\"232\" width=\"549.0\" height=\"60\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"444.0\" y=\"316\" width=\"449.4\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"895.4\" y=\"316\" width=\"768.6\" height=\"60\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"444.0\" y=\"400\" width=\"254.2\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"700.2\" y=\"400\" width=\"963.8\" height=\"60\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"444\" y=\"8\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"780\" y=\"8\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 76,
+     "w": 420,
+     "t": "Tiro de 10 s",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 76,
+     "w": 1147,
+     "t": "94%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 420,
+     "t": "Série até a falha, ~40 s",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 160,
+     "w": 817,
+     "t": "67%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1261,
+     "y": 160,
+     "w": 403,
+     "t": "33%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 244,
+     "w": 420,
+     "t": "400 m, ~1 min",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 244,
+     "w": 671,
+     "t": "55%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1115,
+     "y": 244,
+     "w": 549,
+     "t": "45%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 328,
+     "w": 420,
+     "t": "Round ou 800 m, ~2 min",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 328,
+     "w": 451,
+     "t": "37%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 895,
+     "y": 328,
+     "w": 769,
+     "t": "63%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 412,
+     "w": 420,
+     "t": "Luta de judô, 4 min",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 412,
+     "w": 256,
+     "t": "21%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 412,
+     "w": 964,
+     "t": "79%",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 4,
+     "w": 260,
+     "t": "Anaeróbico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 4,
+     "w": 260,
+     "t": "Aeróbico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "No esporte de verdade",
+   "titulo": "Não existe esforço puro: existe mistura",
+   "fonte": "Estimativas para esforço máximo com essa duração, a partir de Gastin 2001"
+  },
+  {
+   "id": "revezamento",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"À esquerda, riscada, a figura do revezamento com três caixas em fila; à direita, as três curvas de contribuição começando juntas no tempo zero\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"s3\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"150\" width=\"220\" height=\"110\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"260\" y=\"150\" width=\"220\" height=\"110\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"520\" y=\"150\" width=\"220\" height=\"110\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M224 205 L254 205\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#s3)\"/><path d=\"M484 205 L514 205\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#s3)\"/><line x1=\"-10\" y1=\"110\" x2=\"750\" y2=\"310\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\" opacity=\"0.8\"/><line x1=\"-10\" y1=\"310\" x2=\"750\" y2=\"110\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\" opacity=\"0.8\"/><line x1=\"900\" y1=\"380\" x2=\"1650\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"900\" y1=\"80\" x2=\"900\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M902 378 C905 120 950 100 1020 190 S1300 360 1640 372\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M902 378 C960 300 1030 160 1130 165 S1360 320 1640 352\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M902 378 C1100 370 1250 190 1640 110\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\"/><rect x=\"900\" y=\"424\" width=\"36\" height=\"8\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1150\" y=\"424\" width=\"36\" height=\"8\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1400\" y=\"424\" width=\"36\" height=\"8\" rx=\"4\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 760,
+     "t": "A figura errada: revezamento",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 172,
+     "w": 220,
+     "t": "Fosfagênico<br>0 a 10 s",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 172,
+     "w": 220,
+     "t": "Glicolítico<br>até 2 min",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 172,
+     "w": 220,
+     "t": "Oxidativo<br>depois",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 0,
+     "w": 764,
+     "t": "A figura certa: os três ligados desde o início",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 946,
+     "y": 410,
+     "w": 200,
+     "t": "Fosfagênico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1196,
+     "y": 410,
+     "w": 200,
+     "t": "Glicolítico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1446,
+     "y": 410,
+     "w": 200,
+     "t": "Oxidativo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A imagem que quase todo mundo aprendeu",
+   "titulo": "Não é revezamento",
+   "destaque": "Muda de qual sistema se tira mais, e não qual está aberto. E “anaeróbico” não é músculo sem oxigênio."
+  },
+  {
+   "id": "atp",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Ciclo do ATP: o ATP vira ADP mais fosfato liberando energia para a contração e é refeito pelos três sistemas; ao lado, estoque de 5 milimoles por quilo, gasto de 3,7 por segundo, menos de 2 segundos\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><defs><marker id=\"s4a\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"s4b\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"420\" cy=\"90\" r=\"78\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"420\" cy=\"390\" r=\"78\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M500 110 Q640 240 503 368\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"7\" marker-end=\"url(#s4a)\"/><path d=\"M340 370 Q200 240 337 112\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"7\" marker-end=\"url(#s4b)\"/><line x1=\"960\" y1=\"0\" x2=\"960\" y2=\"480\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 350,
+     "y": 68,
+     "w": 140,
+     "t": "ATP",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 342,
+     "y": 372,
+     "w": 156,
+     "t": "ADP + Pi",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 200,
+     "w": 300,
+     "t": "energia para a contração",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 190,
+     "w": 230,
+     "t": "refeito pelos três sistemas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 10,
+     "w": 190,
+     "t": "5",
+     "tam": 88,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1210,
+     "y": 36,
+     "w": 454,
+     "t": "milimoles de ATP por quilo de músculo: todo o estoque",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 170,
+     "w": 190,
+     "t": "3,7",
+     "tam": 88,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1210,
+     "y": 196,
+     "w": 454,
+     "t": "milimoles gastos a cada segundo de esforço máximo",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 330,
+     "w": 200,
+     "t": "< 2 s",
+     "tam": 80,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1210,
+     "y": 356,
+     "w": 454,
+     "t": "até acabar. Ninguém para aí: o ATP é refeito o tempo todo",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A moeda da contração",
+   "titulo": "ATP não é estoque. É moeda de troca.",
+   "destaque": "O que sustenta o esforço é a velocidade de refazer ATP, que sobe até mil vezes acima do repouso."
+  },
+  {
+   "id": "reservatorios",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Três reservatórios: o fosfagênico pequeno com torneira larga, o glicolítico médio com torneira média e o oxidativo enorme com torneira estreita\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"140\" y=\"190\" width=\"180\" height=\"150\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"146\" y=\"217.0\" width=\"168\" height=\"116.99999999999999\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"320\" y=\"213.0\" width=\"70\" height=\"34\" fill=\"#12202E\"/><rect x=\"356\" y=\"213.0\" width=\"34\" height=\"50\" fill=\"#12202E\"/><rect x=\"356\" y=\"263.0\" width=\"34\" height=\"77.0\" fill=\"#A8322A\" opacity=\"0.6\"/><rect x=\"600\" y=\"110\" width=\"250\" height=\"230\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"606\" y=\"151.4\" width=\"238\" height=\"182.6\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"850\" y=\"219.0\" width=\"70\" height=\"22\" fill=\"#12202E\"/><rect x=\"898\" y=\"219.0\" width=\"22\" height=\"38\" fill=\"#12202E\"/><rect x=\"898\" y=\"257.0\" width=\"22\" height=\"83.0\" fill=\"#B07A1C\" opacity=\"0.6\"/><rect x=\"1090\" y=\"10\" width=\"400\" height=\"330\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"1096\" y=\"69.40000000000003\" width=\"388\" height=\"264.59999999999997\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"1490\" y=\"225.0\" width=\"70\" height=\"10\" fill=\"#12202E\"/><rect x=\"1550\" y=\"225.0\" width=\"10\" height=\"26\" fill=\"#12202E\"/><rect x=\"1550\" y=\"251.0\" width=\"10\" height=\"89.0\" fill=\"#008A7E\" opacity=\"0.6\"/><line x1=\"0\" y1=\"342\" x2=\"1664\" y2=\"342\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 368,
+     "w": 460,
+     "t": "Fosfagênico",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 408,
+     "w": 460,
+     "t": "pequeno, torneira larga: segundos",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 495,
+     "y": 368,
+     "w": 460,
+     "t": "Glicolítico",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 495,
+     "y": 408,
+     "w": 460,
+     "t": "médio, torneira média: dezenas de segundos a minutos",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 368,
+     "w": 460,
+     "t": "Oxidativo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 408,
+     "w": 460,
+     "t": "enorme, torneira estreita: quase não acaba",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Os três sistemas",
+   "titulo": "Três reservatórios, três torneiras",
+   "destaque": "Potência é a largura da torneira. Capacidade é o tamanho do reservatório. Cada sistema troca uma pela outra."
+  },
+  {
+   "id": "glicose",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"A glicose tem dois caminhos: o rápido, fora da mitocôndria, rende 2 ATP; o lento, dentro da mitocôndria, rende cerca de 30\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"s6a\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"s6b\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><polygon points=\"210,220 170,289 90,289 50,220 90,151 170,151\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><polyline points=\"190,185 300,110 712,110\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"7\" stroke-linejoin=\"round\" marker-end=\"url(#s6a)\"/><rect x=\"720\" y=\"60\" width=\"300\" height=\"100\" rx=\"12\" fill=\"#F6EEDD\" stroke=\"#B07A1C\" stroke-width=\"4\"/><polyline points=\"190,255 300,340 602,340\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"7\" stroke-linejoin=\"round\" marker-end=\"url(#s6b)\"/><ellipse cx=\"800\" cy=\"340\" rx=\"190\" ry=\"72\" fill=\"#E3F1EE\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M640 340 q20 -40 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"3\" opacity=\"0.6\"/><line x1=\"992\" y1=\"340\" x2=\"1290\" y2=\"340\" stroke=\"#008A7E\" stroke-width=\"7\" marker-end=\"url(#s6b)\"/><rect x=\"1300\" y=\"290\" width=\"340\" height=\"100\" rx=\"12\" fill=\"#E3F1EE\" stroke=\"#008A7E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 50,
+     "y": 202,
+     "w": 160,
+     "t": "Glicose",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 54,
+     "w": 380,
+     "t": "rápido, fora da mitocôndria",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 82,
+     "w": 300,
+     "t": "2 ATP",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 86,
+     "w": 560,
+     "t": "rende pouco, rende já",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 418,
+     "w": 380,
+     "t": "mitocôndria",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 312,
+     "w": 340,
+     "t": "~30 ATP",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 400,
+     "w": 340,
+     "t": "rende muito, demora",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 356,
+     "w": 290,
+     "t": "lento, dentro da mitocôndria",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O número que resume a lógica",
+   "titulo": "A mesma glicose: 2 ATP ou 30 ATP",
+   "destaque": "Rendimento e velocidade são coisas diferentes. Quando o prazo aperta, o músculo paga juros para ter a energia agora."
+  },
+  {
+   "id": "recarga",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Ciclo: o tiro gasta a fosfocreatina, a pausa usa a mitocôndria para refazê-la, e a fosfocreatina volta para o próximo tiro\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"s7a\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"s7b\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"s7c\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"80\" y=\"20\" width=\"400\" height=\"130\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"1184\" y=\"20\" width=\"400\" height=\"130\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"5\"/><rect x=\"632\" y=\"296\" width=\"400\" height=\"130\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"484\" y1=\"85\" x2=\"1174\" y2=\"85\" stroke=\"#A8322A\" stroke-width=\"7\" marker-end=\"url(#s7a)\"/><path d=\"M1384 154 Q1330 360 1043 361\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"9\" marker-end=\"url(#s7b)\"/><path d=\"M628 361 Q330 360 283 160\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"6\" stroke-dasharray=\"14 10\" marker-end=\"url(#s7c)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 44,
+     "w": 400,
+     "t": "Tiro",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 94,
+     "w": 400,
+     "t": "fosfagênico",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 44,
+     "w": 400,
+     "t": "Pausa",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 94,
+     "w": 400,
+     "t": "oxidativo",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 632,
+     "y": 326,
+     "w": 400,
+     "t": "Fosfocreatina refeita",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 632,
+     "y": 370,
+     "w": 400,
+     "t": "pronta para o próximo",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 30,
+     "w": 540,
+     "t": "gasta a fosfocreatina",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1430,
+     "y": 196,
+     "w": 234,
+     "t": "a mitocôndria recarrega",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 250,
+     "w": 220,
+     "t": "próximo tiro",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O detalhe que quase ninguém ensina",
+   "titulo": "Quem recarrega o sistema mais rápido é o mais lento",
+   "destaque": "O jogador que apaga no fim não precisa de mais tiro: precisa de base aeróbica. O sintoma parece anaeróbico. O buraco é aeróbico."
+  },
+  {
+   "id": "tanques",
+   "tipo": "diagrama",
+   "h": 280,
+   "svg": "<svg aria-label=\"Estoque de glicogênio, 1.600 a 2.000 quilocalorias, desenhado em escala contra o estoque de gordura, mais de 60.000 quilocalorias\" width=\"1664\" height=\"280\" viewBox=\"0 0 1664 280\"><rect x=\"444\" y=\"30\" width=\"40\" height=\"80\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"444\" y=\"170\" width=\"1200\" height=\"80\" rx=\"4\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 38,
+     "w": 420,
+     "t": "Glicogênio<br>músculo e fígado",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 50,
+     "w": 700,
+     "t": "400 a 500 g · 1.600 a 2.000 kcal",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 178,
+     "w": 420,
+     "t": "Gordura<br>mesmo em adulto magro",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 190,
+     "w": 520,
+     "t": "mais de 60.000 kcal",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O tamanho dos tanques, em escala",
+   "titulo": "Acaba o tanque pequeno, o único que serve para a intensidade alta",
+   "destaque": "A mistura depende de quatro coisas: quanto dura o esforço, quão forte ele é, o estado de treino e o combustível disponível."
+  },
+  {
+   "id": "esforco",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"A mesma sessão em dois dias: na terça, esforço 6 de 10; na quinta, esforço 8 de 10\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"560\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"652\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"744\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"836\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"928\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1020\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1112\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#E6E2D8\"/><rect x=\"1204\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#E6E2D8\"/><rect x=\"1296\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#E6E2D8\"/><rect x=\"1388\" y=\"20\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#E6E2D8\"/><rect x=\"560\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"652\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"744\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"836\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"928\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1020\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1112\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"1204\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"1296\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#E6E2D8\"/><rect x=\"1388\" y=\"160\" width=\"84\" height=\"84\" rx=\"8\" fill=\"#E6E2D8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 26,
+     "w": 520,
+     "t": "Terça · 5 × 1 km a 4:30/km",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1500,
+     "y": 30,
+     "w": 164,
+     "t": "6/10",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 166,
+     "w": 520,
+     "t": "Quinta · o mesmo treino",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1500,
+     "y": 170,
+     "w": 164,
+     "t": "8/10",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Como perceber, sem exame",
+   "titulo": "A nota de esforço subiu com a carga igual",
+   "destaque": "Sem dor, sem infecção, sem noite ruim: a primeira hipótese é combustível não reposto. Pergunte: “o que você comeu antes e depois do treino de ontem?” Quanto e o que comer é da nutrição.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "cenarios",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três padrões de esforço: intermitente, com picos curtos sobre uma faixa contínua de recuperação; contínuo, uma faixa longa com duas subidas; e fracionado com carga, blocos de séries separados por pausas\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"0\" y1=\"230\" x2=\"520\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"572\" y1=\"230\" x2=\"1092\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1144\" y1=\"230\" x2=\"1664\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"0\" y=\"196\" width=\"520\" height=\"34\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"30\" y=\"66\" width=\"22\" height=\"130\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"110\" y=\"106\" width=\"22\" height=\"90\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"150\" y=\"56\" width=\"22\" height=\"140\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"260\" y=\"86\" width=\"22\" height=\"110\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"330\" y=\"56\" width=\"22\" height=\"140\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"440\" y=\"96\" width=\"22\" height=\"100\" rx=\"4\" fill=\"#A8322A\"/><path d=\"M572 230 L572 150 L722 150 Q772 70 822 150 L972 150 Q1032 80 1092 150 L1092 230 Z\" fill=\"#008A7E\" opacity=\"0.85\"/><path d=\"M722 150 Q772 70 822 150 Z\" fill=\"#B07A1C\"/><path d=\"M972 150 Q1032 80 1092 150 Z\" fill=\"#B07A1C\"/><rect x=\"1144\" y=\"80\" width=\"76\" height=\"150\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1144\" y=\"130\" width=\"76\" height=\"100\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1224\" y=\"196\" width=\"48\" height=\"34\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"1276\" y=\"80\" width=\"76\" height=\"150\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1276\" y=\"130\" width=\"76\" height=\"100\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1356\" y=\"196\" width=\"48\" height=\"34\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"1408\" y=\"80\" width=\"76\" height=\"150\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1408\" y=\"130\" width=\"76\" height=\"100\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1488\" y=\"196\" width=\"48\" height=\"34\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"1540\" y=\"80\" width=\"76\" height=\"150\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1540\" y=\"130\" width=\"76\" height=\"100\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"0\" y=\"336\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"330\" y=\"336\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"660\" y=\"336\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 520,
+     "t": "Intermitente",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 244,
+     "w": 520,
+     "t": "quadra, campo, tatame, ringue",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 572,
+     "y": 0,
+     "w": 520,
+     "t": "Contínuo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 572,
+     "y": 244,
+     "w": 520,
+     "t": "corrida, natação longa, pedal",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 0,
+     "w": 520,
+     "t": "Fracionado com carga",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 244,
+     "w": 520,
+     "t": "musculação, levantamento, ginástica",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 38,
+     "y": 333,
+     "w": 280,
+     "t": "explosivo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 368,
+     "y": 333,
+     "w": 280,
+     "t": "intenso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 698,
+     "y": 333,
+     "w": 600,
+     "t": "recuperação e base (oxidativo)",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por tipo de esforço, não por esporte",
+   "titulo": "Em todos, quem paga a recuperação é o oxidativo",
+   "destaque": "Base aeróbica faz a sessão de força render mais. É um dos argumentos mais fortes, e menos usados, para não abandonar o aeróbico."
+  },
+  {
+   "id": "intervalo",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três linhas do tempo em escala: esforço de 6 segundos com pausa de 60, relação 1 para 10; esforço de 30 com pausa de 30, 1 para 1; esforço de 3 minutos com pausa de 30 segundos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"300.0\" y=\"20\" width=\"16.0\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"318.0\" y=\"20\" width=\"178.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"498.0\" y=\"20\" width=\"16.0\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"516.0\" y=\"20\" width=\"178.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"696.0\" y=\"20\" width=\"16.0\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"714.0\" y=\"20\" width=\"178.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"894.0\" y=\"20\" width=\"16.0\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"912.0\" y=\"20\" width=\"178.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1092.0\" y=\"20\" width=\"16.0\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1110.0\" y=\"20\" width=\"178.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"300.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"390.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"480.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"570.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"660.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"750.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"840.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"930.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1020.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1110.0\" y=\"150\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"300.0\" y=\"280\" width=\"538.0\" height=\"60\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"840.0\" y=\"280\" width=\"88.0\" height=\"60\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"930.0\" y=\"280\" width=\"358.0\" height=\"60\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"300\" y=\"384\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 22,
+     "w": 260,
+     "t": "1 : 10",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1320,
+     "y": 18,
+     "w": 344,
+     "t": "potência: a fosfocreatina volta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 152,
+     "w": 260,
+     "t": "1 : 1",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1320,
+     "y": 148,
+     "w": 344,
+     "t": "empurra para o glicolítico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 282,
+     "w": 280,
+     "t": "longo : curto",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1320,
+     "y": 278,
+     "w": 344,
+     "t": "oxidativo disfarçado de intenso",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 382,
+     "w": 1000,
+     "t": "pausa · a cor do esforço é o sistema que paga a conta · 1 cm ≈ 10 s",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A consequência para a prescrição",
+   "titulo": "O intervalo é variável de treino, não pausa",
+   "destaque": "“Descansa o que precisar” entrega ao acaso a variável mais poderosa da sessão.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "Três perguntas antes de qualquer sessão",
+   "regras": [
+    "Quanto dura cada esforço?",
+    "Com que intensidade?",
+    "Com quanto intervalo?"
+   ],
+   "cards": [
+    {
+     "t": "Fosfagênico",
+     "x": "Adapta fosfocreatina e recrutamento. Pede qualidade máxima em cada repetição."
+    },
+    {
+     "t": "Glicolítico",
+     "x": "Adapta a tolerância à acidez. Pede o desconforto."
+    },
+    {
+     "t": "Oxidativo",
+     "x": "Adapta mitocôndria e capilares. Pede volume e frequência."
+    }
+   ],
+   "quem": "A sessão que serve para tudo não serve direito para nada."
+  }
+ ]
+}
