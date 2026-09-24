@@ -1,237 +1,345 @@
-# Módulo 2 · Aula 2.7 — Fisiologia neuromuscular: unidade motora e tipos de fibra
+# Módulo 2 · Aula 2.7 — Trinta e cinco dias: fisiologia neuromuscular, unidade motora e fibras
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 18 minutos · 5 slides · Arquitetura: NÚMERO
+Duração: 18 minutos · 16 slides · Arquitetura: NÚMERO
 
 ---
 
-📊 **[SLIDE 1 DE 5]**
-*Visual: duas curvas ao longo de doze semanas — força subindo desde a primeira semana, área de secção transversa do músculo começando a subir bem depois.*
+📊 **[SLIDE 1 DE 16]**
+*Visual: três barras depois de um treino de força pesado: força máxima +39% em 35 dias, ativação elétrica do músculo +35%, área do quadríceps só +3,5 a 5% aos 20 dias.*
 *Teleprompter: (entra pelo número que não fecha)*
 
-Trinta por cento.
+Trinta e cinco dias.
 
-É quanto uma pessoa destreinada costuma ganhar de carga no agachamento em **três semanas** de treino de força bem conduzido.
+Num estudo com jovens destreinados, trinta e cinco dias de treino de força pesado para o quadríceps, três vezes por semana. No fim, a força máxima tinha subido quase quarenta por cento.
 
-E o músculo dela não cresceu trinta por cento em três semanas. Não cresceu nem perto disso — se você medir a coxa com fita métrica, provavelmente não vai achar diferença nenhuma.
+E o músculo? Aos vinte dias, a área do quadríceps tinha crescido entre três e cinco por cento. Cresceu, e cresceu cedo. Mas nem de longe na proporção da força.
 
-Então de onde veio a força?
+Então de onde veio o resto da força?
 
-Veio do sistema nervoso. E entender isso muda a conversa com praticamente todo iniciante que você vai atender.
+A pista está na terceira barra. A ativação elétrica do músculo, medida por eletromiografia, subiu trinta e cinco por cento. O comando que chega ao músculo mudou.
 
-Folland e Williams revisaram esse tema em 2007, e a descrição continua sendo a boa: os ganhos de força vêm de uma combinação de fatores neurais e morfológicos, com os **neurais contribuindo mais nas fases iniciais** — embora os processos de hipertrofia comecem já no início, só demorando mais para aparecer no tamanho.
-
-O que muda no sistema nervoso, concretamente. São cinco coisas.
-
-**Mais unidades motoras recrutadas.** O músculo destreinado não consegue ativar tudo o que tem. Com treino, o sistema aprende a chamar mais fibras, inclusive as de maior limiar.
-
-**Frequência de disparo maior.** Não é só quantas unidades são chamadas — é com que rapidez os impulsos chegam a elas.
-
-**Menos coativação do antagonista.** No começo, o corpo contrai o músculo oposto ao movimento como freio de proteção. Com prática, solta o freio.
-
-**Melhor coordenação entre músculos.** Os sinergistas passam a entrar no tempo certo.
-
-**E aprendizado da tarefa.** Simplesmente saber fazer o movimento.
-
-Daí sai uma consequência prática que quase ninguém explica ao aluno: **o ganho neural é bastante específico do exercício treinado.**
-
-Quem melhorou trinta por cento no agachamento com barra não melhorou trinta por cento em tudo. Melhorou naquele padrão, naquela amplitude, naquela velocidade. Isso calibra expectativa — e orienta escolha: se o objetivo é conseguir levantar do chão com segurança aos setenta anos, o exercício precisa parecer com levantar do chão.
-
-E vale o aviso na direção contrária, porque ele evita abandono: quando alguém troca de exercício ou de aparelho e a carga cai, **isso não é perda de força.** É o componente neural sendo reaprendido num padrão novo. Explicar essa frase evita que a pessoa desista de uma variação que era boa para ela.
-
-Tem ainda um fenômeno que é a prova mais bonita de que o ganho inicial é nervoso: a **educação cruzada**. Quem treina força de um lado só ganha força também no lado **não treinado**, que não recebeu carga nenhuma.
-
-Não é mágica, é adaptação no comando motor atravessando para o lado contralateral. E tem uso clínico direto e barato: no paciente com um membro imobilizado por fratura ou pós-operatório, **treinar o lado saudável atenua a perda do lado parado.** É pouquíssimo usado e não custa nada.
+A força veio, em boa parte, do sistema nervoso. E entender isso muda a conversa com praticamente todo iniciante que você vai atender.
 
 ---
 
-📊 **[SLIDE 2 DE 5]**
-*Visual: um motoneurônio pequeno ligado a poucas fibras ao lado de um motoneurônio grande ligado a muitas, e abaixo uma rampa de recrutamento ordenada do menor para o maior.*
-*Teleprompter: (tom de mecanismo, a unidade de conta)*
+📊 **[SLIDE 2 DE 16]**
+*Visual: duas curvas ao longo de doze semanas: força subindo desde a primeira semana e tamanho do músculo subindo mais devagar, com a distância entre elas marcada como ganho neural.*
+*Teleprompter: (o desenho clássico)*
 
-Para entender tudo isso, é preciso a unidade de conta do sistema: **a unidade motora.**
+Esse é o desenho clássico. Folland e Williams revisaram o tema em dois mil e sete, e a descrição continua boa.
 
-Uma unidade motora é **um motoneurônio e todas as fibras musculares que ele inerva.** Quando aquele neurônio dispara, todas as fibras dele contraem — todas, sempre, juntas. Não existe contrair metade de uma unidade motora.
+Os ganhos de força vêm de uma soma de fatores neurais e de fatores do próprio músculo. Os neurais pesam mais nas primeiras semanas. E a hipertrofia começa junto, só demora mais para aparecer no tamanho.
 
-E o número de fibras por unidade varia enormemente conforme a função do músculo. Nos músculos que movem o olho, uma unidade motora comanda **poucas fibras** — algo na casa de dez —, porque ali a exigência é precisão milimétrica. Já no gastrocnêmio, uma única unidade motora pode comandar **mais de mil fibras**, porque ali a exigência é força bruta, não sutileza.
-
-Essa razão de inervação é a diferença entre um pincel fino e um rolo de pintura, e ela explica por que a gente tem controle refinado em alguns lugares e não em outros.
-
-Agora o princípio que organiza o recrutamento, e que é a ideia mais útil desta aula inteira.
-
-Henneman descreveu, em 1965, o que ficou conhecido como **princípio do tamanho**: as unidades motoras são recrutadas **em ordem**, das menores para as maiores. Motoneurônios pequenos são mais excitáveis, disparam primeiro, e comandam fibras lentas, de pouca força e muito resistentes à fadiga. Motoneurônios grandes exigem mais estímulo, entram por último, e comandam fibras rápidas, de muita força e pouca resistência.
-
-Sempre nessa ordem. Não dá para pular a fila.
-
-Para agora e pensa no que isso significa na prática, porque é decisivo.
-
-**Não existe treinar fibra rápida sem esforço alto.** As unidades de maior limiar só entram quando a demanda de força é grande, ou quando a demanda de **velocidade** é grande, ou quando a fadiga já tirou de cena as unidades menores e o sistema precisa chamar as próximas.
-
-São três portas para o mesmo lugar: **carga alta, velocidade alta, ou proximidade da falha.**
-
-E é por isso que a série confortável de quinze repetições, feita devagar e parando longe do limite, **simplesmente não chega** nas unidades que mais importam para potência e para prevenção de queda. Não é que ela seja inútil — é que ela não faz aquilo.
-
-Tem ainda uma divisão de trabalho que vale saber: nos músculos pequenos, o recrutamento de todas as unidades se completa cedo, e a força adicional vem quase toda do **aumento da frequência de disparo**. Nos músculos grandes, o recrutamento continua acrescentando unidades até intensidades bem altas.
-
-Guarde isso como chave de leitura: **quando alguém diz "tenho força mas não tenho explosão", quase sempre está descrevendo um problema de frequência de disparo e de velocidade de recrutamento — não de tamanho de músculo.**
+Olha a distância entre as duas curvas no começo. Isso é nervo.
 
 ---
 
-📊 **[SLIDE 3 DE 5]**
-*Visual: um contínuo horizontal com Tipo I numa ponta e Tipo IIx na outra, IIa no meio, e as formas híbridas desenhadas como sobreposições entre elas.*
-*Teleprompter: (tom de desfazer classificação de manual)*
+📊 **[SLIDE 3 DE 16]**
+*Visual: cinco itens numerados: mais unidades recrutadas, disparo mais rápido, menos freio do antagonista, coordenação entre músculos e aprendizado da tarefa.*
+*Teleprompter: (o que muda no sistema nervoso)*
+
+O que muda no sistema nervoso, concretamente. Cinco coisas.
+
+Mais unidades motoras recrutadas. O músculo destreinado não consegue ativar tudo o que tem. Com treino, o sistema aprende a chamar mais fibras, inclusive as mais difíceis de chamar.
+
+Disparo mais rápido. Não é só quantas unidades são chamadas. É com que frequência os impulsos chegam a elas.
+
+Menos freio do antagonista. No começo, o corpo contrai o músculo oposto ao movimento como proteção. Com prática, solta o freio.
+
+Coordenação entre músculos. Os que ajudam no movimento passam a entrar na hora certa.
+
+E aprendizado da tarefa. Simplesmente saber fazer o movimento.
+
+---
+
+📊 **[SLIDE 4 DE 16]**
+*Visual: dois cartões: "o ganho é específico" e "trocou de aparelho e a carga caiu".*
+*Teleprompter: (as consequências práticas)*
+
+Daí saem duas consequências práticas que quase ninguém explica ao aluno.
+
+Primeira. O ganho neural é bem específico do exercício treinado. Quem melhorou no agachamento com barra não melhorou na mesma proporção em tudo. Melhorou naquele padrão, naquela amplitude, naquela velocidade. Isso ajusta a expectativa e orienta a escolha. Se o objetivo é levantar do chão com segurança aos setenta anos, o exercício precisa parecer com levantar do chão.
+
+Segunda, na direção contrária, e ela evita abandono. Quando alguém troca de exercício ou de aparelho e a carga cai, isso não é perda de força. É o componente neural sendo reaprendido num padrão novo. Explicar essa frase evita que a pessoa desista de uma variação que era boa para ela.
+
+---
+
+📊 **[SLIDE 5 DE 16]**
+*Visual: duas pernas: uma treinada, com a barra de força subindo; a outra sem nenhuma carga, com uma barra menor subindo também, perto de 12%.*
+*Teleprompter: (a prova mais bonita de que o ganho inicial é nervoso)*
+
+E tem um fenômeno que é a prova mais bonita de que o ganho inicial é nervoso. A educação cruzada.
+
+Quem treina força de um lado só ganha força também do lado que não treinou, que não recebeu carga nenhuma. Uma meta-análise de dois mil e dezessete estimou esse ganho do outro lado em perto de doze por cento.
+
+Não é mágica. É adaptação no comando motor atravessando para o outro lado.
+
+E tem uso clínico direto e barato. No paciente com um membro imobilizado por fratura ou por cirurgia, treinar o lado saudável atenua a perda do lado parado. É pouquíssimo usado e não custa nada.
+
+---
+
+📊 **[SLIDE 6 DE 16]**
+*Visual: um motoneurônio pequeno ligado a poucas fibras, como nos músculos do olho, ao lado de um motoneurônio grande ligado a muitas fibras, como no gastrocnêmio.*
+*Teleprompter: (a unidade de conta do sistema)*
+
+Para entender tudo isso, é preciso a unidade de conta do sistema: a unidade motora.
+
+Uma unidade motora é um motoneurônio e todas as fibras musculares que ele comanda. Quando aquele neurônio dispara, todas as fibras dele contraem. Todas, sempre, juntas. Não existe contrair metade de uma unidade motora.
+
+E o número de fibras por unidade varia muito conforme a função. Nos músculos que movem o olho, uma unidade comanda poucas fibras, algo na casa de dez, porque ali a exigência é precisão. No gastrocnêmio, uma única unidade pode comandar mais de mil fibras, porque ali a exigência é força, não sutileza.
+
+É a diferença entre um pincel fino e um rolo de pintura. E explica por que a gente tem controle fino em alguns lugares e não em outros.
+
+---
+
+📊 **[SLIDE 7 DE 16]**
+*Visual: a rampa de recrutamento: conforme a força pedida sobe, entram primeiro as unidades pequenas, lentas e resistentes, e só no alto entram as grandes, rápidas e fortes.*
+*Teleprompter: (a ideia mais útil da aula)*
+
+Agora o princípio que organiza o recrutamento. É a ideia mais útil desta aula inteira.
+
+O Henneman descreveu, em mil novecentos e sessenta e cinco, o que ficou conhecido como princípio do tamanho. As unidades motoras são recrutadas em ordem, das menores para as maiores.
+
+Motoneurônios pequenos se excitam fácil, disparam primeiro e comandam fibras lentas, de pouca força e muito resistentes à fadiga. Motoneurônios grandes pedem mais estímulo, entram por último e comandam fibras rápidas, de muita força e pouca resistência.
+
+Sempre nessa ordem. Não dá para furar a fila.
+
+---
+
+📊 **[SLIDE 8 DE 16]**
+*Visual: três portas que levam às unidades de limiar alto: carga alta, velocidade alta e perto da falha; do lado, a série confortável de quinze parando longe da porta.*
+*Teleprompter: (o que isso significa na prática)*
+
+Para e pensa no que isso significa na prática, porque é decisivo.
+
+Não existe treinar fibra rápida sem esforço alto. As unidades de limiar alto só entram quando a demanda de força é grande. Ou quando a demanda de velocidade é grande. Ou quando a fadiga já tirou de cena as unidades menores e o sistema precisa chamar as próximas.
+
+São três portas para o mesmo lugar: carga alta, velocidade alta, ou perto da falha.
+
+É por isso que a série confortável de quinze repetições, feita devagar e parando longe do limite, não chega nas unidades que mais importam para potência e para prevenção de queda. Não é que ela seja inútil. É que ela não faz isso.
+
+---
+
+📊 **[SLIDE 9 DE 16]**
+*Visual: dois painéis: no músculo pequeno, o recrutamento termina cedo e a força continua subindo pela frequência de disparo; no músculo grande, o recrutamento continua até intensidades bem altas.*
+*Teleprompter: (a divisão de trabalho)*
+
+E tem uma divisão de trabalho que vale saber.
+
+Nos músculos pequenos, o recrutamento de todas as unidades termina cedo, e a força a mais vem quase toda do aumento da frequência de disparo. Nos músculos grandes, o recrutamento continua acrescentando unidades até intensidades bem altas.
+
+Guarda isso como chave de leitura. Quando alguém diz "tenho força mas não tenho explosão", quase sempre está descrevendo um problema de frequência de disparo e de velocidade de recrutamento. Não de tamanho de músculo.
+
+---
+
+📊 **[SLIDE 10 DE 16]**
+*Visual: um contínuo horizontal do tipo I ao IIx, com o IIa no meio e as formas híbridas desenhadas como faixas de transição entre eles.*
+*Teleprompter: (desfaz a classificação de manual)*
 
 Os tipos de fibra. E aqui eu preciso desfazer uma classificação de manual que é ensinada com mais nitidez do que a realidade tem.
 
-A classificação atual é feita pela isoforma de miosina que a fibra expressa, e ela dá três tipos puros em humanos.
+A classificação atual é feita pela miosina que a fibra expressa, e ela dá três tipos puros no ser humano.
 
-**Tipo I**, lenta. Muita mitocôndria, muito capilar, muita mioglobina, alta resistência à fadiga, produção de força mais lenta. É a fibra do esforço sustentado.
+Tipo um, lenta. Muita mitocôndria, muito capilar, alta resistência à fadiga, força que sobe mais devagar. É a fibra do esforço sustentado.
 
-**Tipo IIa**, rápida e oxidativa. Produz força mais rápido que a I, e ainda assim tem boa capacidade oxidativa. É a fibra intermediária, e é a mais adaptável das três.
+Tipo dois A, rápida e oxidativa. Produz força mais rápido que a um e ainda tem boa capacidade oxidativa. É a intermediária, e a mais adaptável das três.
 
-**Tipo IIx**, rápida e glicolítica. Máxima velocidade de produção de força, mínima resistência à fadiga.
+Tipo dois X, rápida e glicolítica. Máxima velocidade de força, mínima resistência à fadiga.
 
-Agora as quatro correções que a classificação de manual não conta.
+E a primeira correção: muitas fibras humanas não são puras. Existem as híbridas, entre um e dois A, entre dois A e dois X, e elas são comuns. O sistema é um contínuo, não três gavetas.
 
-**Primeira: a maior parte das fibras humanas não é pura.** Existem **híbridas** — I/IIa, IIa/IIx — e elas são abundantes. O sistema é um contínuo, não três gavetas.
-
-**Segunda: a distribuição é muito individual.** Na média, a musculatura de membros inferiores fica perto de meio a meio entre lentas e rápidas, mas a variação entre pessoas é grande, e ela ajuda a explicar por que dois alunos com o mesmo treino respondem diferente.
-
-**Terceira, e é a mais contraintuitiva: a fibra IIx encolhe com quase qualquer treino.**
-
-Quem treina resistência a perde. Quem treina força pesada também a perde. Quem treina potência e pliometria também. Em praticamente todos os casos, a IIx migra para IIa.
-
-Quer dizer: **a fibra mais rápida de todas é a fibra do músculo destreinado.** Ela não é um troféu de velocista — é, em boa medida, o estado padrão de um músculo que não recebe demanda.
-
-E tem o espelho disso, que é elegante: no **destreinamento**, as fibras caminham de volta na direção rápida — e, depois de um período de treino seguido de uma pausa, a proporção de IIx pode inclusive **ultrapassar** o valor inicial. É um fenômeno descrito, e é um dos motivos pelos quais o período de afastamento pré-competição precisa ser planejado, não improvisado.
-
-**Quarta: converter fibra lenta em rápida, ou o contrário, é outra história.** A plasticidade robusta e bem demonstrada acontece **dentro do espectro rápido** — entre IIa e IIx, passando pelas híbridas. A transição entre lenta e rápida é bem menos clara, os dados longitudinais não convergem, e a revisão mais recente sobre o tema é honesta em dizer isso.
-
-Então a frase de academia "eu vou converter minhas fibras" precisa ser aposentada. **O que o treino faz de forma confiável é mudar a qualidade e o tamanho das fibras que a pessoa tem, e mudar a habilidade do sistema nervoso de usá-las.** É bastante — e não é o que se promete.
+A segunda: a distribuição é muito individual. Na média, a musculatura das pernas fica perto de meio a meio entre lentas e rápidas, mas a variação entre pessoas é grande. E ela ajuda a explicar por que dois alunos com o mesmo treino respondem diferente.
 
 ---
 
-📊 **[SLIDE 4 DE 5]**
-*Visual: uma fibra sob tensão mecânica, com sinalização partindo da membrana e do citoesqueleto, células satélite se fundindo e doando núcleos.*
-*Teleprompter: (tom de mecanismo, o lado morfológico)*
+📊 **[SLIDE 11 DE 16]**
+*Visual: três barras da fração de miosina IIx no vasto lateral: 9% antes, 2% depois de três meses de treino pesado e 17% depois de três meses parado.*
+*Teleprompter: (a correção mais contraintuitiva)*
+
+A terceira correção é a mais contraintuitiva. A fibra dois X encolhe com quase qualquer treino.
+
+Quem treina resistência perde dois X. Quem treina força pesada também. Quem treina potência também. Em quase todos os casos, a dois X migra para dois A.
+
+Olha um estudo dinamarquês de dois mil. Homens sedentários, três meses de treino pesado. A fração de dois X no músculo caiu de uns nove por cento para dois. Aí eles pararam três meses. E a dois X não voltou para nove. Foi para dezessete. Passou do ponto de partida.
+
+Quer dizer: a fibra mais rápida de todas é, em boa medida, a fibra do músculo destreinado. Ela não é um troféu de velocista. É o estado padrão de um músculo que não recebe demanda.
+
+E esse efeito de passar do ponto é um dos motivos pelos quais o período de redução de carga antes da competição precisa ser planejado, e não improvisado.
+
+---
+
+📊 **[SLIDE 12 DE 16]**
+*Visual: fundo escuro com a frase "eu vou converter minhas fibras" riscada, e embaixo o que o treino faz de forma confiável.*
+*Teleprompter: (a quarta correção)*
+
+A quarta correção: converter fibra lenta em rápida, ou o contrário, é outra história.
+
+A mudança consistente e bem demonstrada acontece dentro do espectro rápido: entre dois A e dois X, passando pelas híbridas. A passagem entre lenta e rápida é bem menos clara, os dados de longo prazo não convergem, e a revisão mais recente sobre o tema é honesta em dizer isso.
+
+Então a frase de academia "eu vou converter minhas fibras" precisa ser aposentada. O que o treino faz de forma confiável é mudar o tamanho e a qualidade das fibras que a pessoa tem, e mudar a habilidade do sistema nervoso de usá-las. É bastante. E não é o que se promete.
+
+---
+
+📊 **[SLIDE 13 DE 16]**
+*Visual: a fibra sob tensão, com sensores na membrana disparando síntese de proteína; células satélite se fundindo e doando núcleos; ao lado, o saldo de proteína positivo por até 48 horas depois de uma sessão.*
+*Teleprompter: (o lado do músculo)*
 
 Passadas as primeiras semanas, a hipertrofia assume o protagonismo.
 
-O estímulo central é a **tensão mecânica**. A fibra percebe a carga — por sensores na membrana e no citoesqueleto — e essa percepção dispara sinalização que aumenta a síntese de proteína contrátil. A síntese fica elevada por algo em torno de **vinte e quatro a quarenta e oito horas** depois da sessão, e o músculo cresce porque, somando muitas sessões, a síntese supera a degradação de forma acumulada.
+O estímulo central é a tensão mecânica. A fibra percebe a carga, por sensores na membrana e no esqueleto interno da célula, e isso dispara a construção de proteína contrátil.
 
-As **células satélite** participam: são células-tronco musculares que proliferam e se fundem às fibras existentes, doando núcleos e ampliando a capacidade daquela fibra de sustentar mais proteína.
+Depois de uma sessão, o saldo entre proteína construída e proteína quebrada fica positivo por até um ou dois dias em quem não é treinado. O músculo cresce porque, somando muitas sessões, a construção passa a quebra de forma acumulada.
 
-E aí duas correções, porque as duas circulam erradas em toda academia.
-
-**Primeira: dano muscular não é requisito de hipertrofia.**
-
-A dor tardia, de um a dois dias depois — que a gente dissecou na aula três — é sinal de microlesão e de inflamação. **Ela não é medida de estímulo.** Dá para hipertrofiar com pouca dor, e dá para sentir muita dor sem hipertrofiar nada.
-
-Quem persegue dor como prova de treino eficaz está perseguindo o marcador errado, e costuma pagar com recuperação pior e sessão seguinte pior.
-
-**Segunda, e é a que liga esta aula ao curso inteiro: hipertrofia exige matéria-prima.**
-
-Síntese proteica precisa de aminoácido disponível e precisa de energia. Em déficit energético importante, o corpo não constrói tecido novo — ele está no modo oposto.
-
-Ou seja: o aluno que treina pesado e come pouco **não está construindo músculo apesar do treino.** Ele está gastando o estímulo sem poder responder a ele — e, com alguma frequência, perdendo massa magra enquanto acredita que está ganhando.
-
-É a mesma conta que atravessa este curso inteiro, aparecendo aqui na forma mais concreta possível: **estímulo sem recurso não gera adaptação. Gera custo.**
-
-E uma nota de rota: as variáveis de prescrição que decidem quanta hipertrofia e quanta força — volume, proximidade da falha, carga, frequência — são assunto do módulo de preparação física, com números. Aqui a gente fica no mecanismo, porque é ele que explica por que aquelas variáveis são aquelas.
+E as células satélite participam. São células-tronco do músculo que se multiplicam e se fundem às fibras, doando núcleos e aumentando a capacidade daquela fibra de sustentar mais proteína.
 
 ---
 
-📊 **[SLIDE 5 DE 5]**
-*Visual: quatro linhas do tempo empilhadas em velocidades diferentes — nervo, músculo, tendão, osso — com uma faixa sombreada marcando a janela em que a força já subiu e a estrutura ainda não.*
-*Teleprompter: (fecha na consequência clínica e emenda)*
+📊 **[SLIDE 14 DE 16]**
+*Visual: duas colunas: "dano não é requisito" e "sem matéria-prima não há construção".*
+*Teleprompter: (duas correções que circulam em toda academia)*
+
+E aqui duas correções, porque as duas circulam erradas em toda academia.
+
+Primeira. Dano muscular não é requisito de hipertrofia. A dor de um a dois dias depois, que a gente desmontou na aula do lactato, é sinal de microlesão e inflamação. Não é medida de estímulo. Dá para crescer com pouca dor, e dá para sentir muita dor sem crescer nada. Quem persegue dor como prova de treino bom está perseguindo o marcador errado, e costuma pagar com recuperação pior.
+
+Segunda, e é a que liga esta aula ao curso inteiro. Hipertrofia exige matéria-prima. Construir proteína precisa de aminoácido e de energia. Em déficit de energia importante, o corpo não constrói tecido novo. Está no modo oposto.
+
+O aluno que treina pesado e come pouco não está construindo músculo apesar do treino. Está gastando o estímulo sem poder responder a ele. E, com alguma frequência, perdendo massa magra enquanto acha que está ganhando.
+
+Estímulo sem recurso não gera adaptação. Gera custo.
+
+---
+
+📊 **[SLIDE 15 DE 16]**
+*Visual: quatro linhas do tempo empilhadas em velocidades diferentes, nervo, músculo, tendão e osso, com uma faixa marcando a janela em que a força já subiu e a estrutura ainda não.*
+*Teleprompter: (a aula de fisiologia vira aula de prevenção de lesão)*
 
 E agora o ponto que transforma esta aula de fisiologia numa aula de prevenção de lesão.
 
-**Força não é só músculo.** O movimento depende de uma cadeia: nervo, músculo, tendão, osso, cartilagem, fáscia. E cada um desses tecidos adapta numa velocidade diferente.
+Força não é só músculo. O movimento depende de uma cadeia: nervo, músculo, tendão, osso. E cada um adapta numa velocidade diferente.
 
-**O sistema nervoso adapta em dias a semanas.** É o mais rápido de todos.
+O sistema nervoso adapta em dias a semanas. O músculo, em semanas a meses. Tendão e osso, em meses.
 
-**O músculo adapta em semanas a meses.**
+Olha o que essa diferença produz. Nas primeiras semanas de treino, a pessoa passa a produzir mais força do que o tendão e o osso dela estão preparados para receber. O nervo aprendeu rápido, o músculo ficou mais forte, e a estrutura ficou para trás.
 
-**Tendão e osso adaptam em meses.** O colágeno tendíneo tem renovação lenta, e o osso responde à carga com um ciclo de remodelamento que leva meses para se completar.
+Essa janela é uma das melhores explicações para a lesão do iniciante empolgado. Aquele que progrediu rápido justamente porque estava respondendo bem.
 
-Olha o que essa assincronia produz, porque é a parte que importa.
+E ela explica por que progressão gradual não é conservadorismo. É respeito ao tecido mais lento da cadeia.
 
-Nas primeiras semanas de treino, a pessoa se torna capaz de **produzir mais força do que o tendão e o osso dela estão preparados para receber.** O nervo aprendeu rápido, o músculo ficou mais forte, e a estrutura passiva ficou para trás.
+O mesmo vale, e vale mais, para quem volta de afastamento. A força volta rápido. O tendão volta devagar. Quem volta guiado pela sensação de força chega ao ponto em que consegue fazer bem antes do ponto em que o tecido aguenta. É nessa janela que a recidiva acontece.
 
-Essa defasagem é uma das explicações mecanísticas mais elegantes que existem para **a lesão do iniciante entusiasmado** — aquele que progrediu rápido justamente porque estava respondendo bem.
+---
 
-E ela explica por que progressão gradual não é conservadorismo nem falta de ambição. **É respeito ao tecido mais lento da cadeia.**
+📊 **[SLIDE 16 DE 16]**
+*Visual: três frases que ficam e dois cartões: quem prescreve força e quem progride carga em tecido lesionado.*
+*Teleprompter: (fecha e emenda)*
 
-O mesmo vale, e vale mais ainda, para quem volta de afastamento. A capacidade neural volta rápido. O músculo volta razoavelmente rápido. O tendão volta devagar. Quem retorna guiado pela sensação de força chega ao ponto em que **consegue fazer** bem antes do ponto em que **o tecido aguenta** — e essa é a janela em que a recidiva acontece.
+Uma boa notícia no meio disso, com a mesma ênfase. O tendão responde à carga, e responde bem a carga progressiva e sustentada. A lentidão dele não é impossibilidade. É agenda. E alguém precisa ter planejado esses meses.
 
-Uma boa notícia no meio disso, que precisa ser dita com a mesma ênfase: o tendão **responde** a carga, e responde bem a carga progressiva e sustentada. A lentidão dele não é impossibilidade. **É agenda** — e alguém precisa ter planejado esses meses.
+O osso segue o mesmo princípio com uma preferência própria: gosta de impacto e de carga alta, mais do que de volume leve. É por isso que nadador e ciclista, com capacidade aeróbica excelente, não recebem do próprio esporte o estímulo ósseo que um corredor ou um levantador recebem. Isso volta nos módulos do adolescente, da atleta mulher e do idoso.
 
-O osso segue o mesmo princípio com uma preferência própria: ele é estimulado por carga de **impacto e de magnitude**, mais do que por volume de baixa intensidade. É por isso que nadador e ciclista, com capacidade aeróbica excelente, não recebem do próprio esporte o estímulo ósseo que um corredor ou um levantador recebem. Isso volta com força nos módulos de atleta adolescente, de atleta mulher e de atleta idoso.
+Prescrever o treino de força é do preparador físico e do profissional de educação física. Progredir carga em tecido lesionado é da fisioterapia. O que esta aula entrega para todo mundo é a leitura do descompasso. É ela que explica por que o retorno precoce dá errado mesmo quando o paciente está forte.
 
-Sobre escopo, uma linha: **prescrever o treino de força é do preparador físico e do profissional de educação física**; conduzir progressão de carga em tecido lesionado é da fisioterapia. O que esta aula entrega para todo mundo é a leitura da **assincronia** — porque é ela que explica por que o retorno precoce dá errado mesmo quando o paciente está forte.
-
-Na próxima aula a gente junta o sistema de transporte com o sistema que consome, e olha os dois pelo exame que mede a interface entre eles: limiares, VO₂máx e a leitura da ergoespirometria. E ali eu vou ter que abrir uma controvérsia de mais de cinquenta anos que eu venho adiando desde a primeira aula.
+Na próxima conversa a gente junta o sistema que transporta com o sistema que consome, e olha os dois pelo exame que mede a interface: limiares, VO₂máx e a leitura da ergoespirometria. E ali eu vou abrir uma controvérsia de mais de cinquenta anos que venho adiando desde o começo do módulo.
 
 ---
 
 ## Referências
 
-1. Folland JP, Williams AG. The adaptations to strength training: morphological and neurological contributions to increased strength. *Sports Med.* 2007;37(2):145-168. PMID: 17241104
-2. Henneman E, Somjen G, Carpenter DO. Functional significance of cell size in spinal motoneurons. *J Neurophysiol.* 1965;28:560-580. PMID: 14328454
-3. Plotkin DL, Roberts MD, Haun CT, Schoenfeld BJ. Muscle fiber type transitions with exercise training: shifting perspectives. *Sports (Basel).* 2021;9(9):127. PMID: 34564332
-4. Hargreaves M, Spriet LL. Skeletal muscle energy metabolism during exercise. *Nat Metab.* 2020;2(9):817-828. doi:10.1038/s42255-020-0251-4
+1. Seynnes OR, de Boer M, Narici MV. Early skeletal muscle hypertrophy and architectural changes in response to high-intensity resistance training. *J Appl Physiol.* 2007;102(1):368-373. PMID: 17053104
+2. Folland JP, Williams AG. The adaptations to strength training: morphological and neurological contributions to increased strength. *Sports Med.* 2007;37(2):145-168. PMID: 17241104
+3. Manca A, Dragone D, Dvir Z, Deriu F. Cross-education of muscular strength following unilateral resistance training: a meta-analysis. *Eur J Appl Physiol.* 2017;117(11):2335-2354. doi:10.1007/s00421-017-3720-z
+4. Henneman E, Somjen G, Carpenter DO. Functional significance of cell size in spinal motoneurons. *J Neurophysiol.* 1965;28:560-580. PMID: 14328454
+5. Andersen JL, Aagaard P. Myosin heavy chain IIX overshoot in human skeletal muscle. *Muscle Nerve.* 2000;23(7):1095-1104. PMID: 10883005
+6. Plotkin DL, Roberts MD, Haun CT, Schoenfeld BJ. Muscle fiber type transitions with exercise training: shifting perspectives. *Sports (Basel).* 2021;9(9):127. PMID: 34564332
+7. Phillips SM, Tipton KD, Aarsland A, Wolf SE, Wolfe RR. Mixed muscle protein synthesis and breakdown after resistance exercise in humans. *Am J Physiol.* 1997;273(1 Pt 1):E99-E107. PMID: 9252485
 
 ---
 
 ## Roteiro Gamma.app
 
-**Slide 1** — Trinta por cento em três semanas
-· A carga sobe ~30% em três semanas e a coxa não mudou de tamanho. A força veio do **sistema nervoso**
-· Folland e Williams, 2007: neurais dominam o início; a hipertrofia começa junto e demora a aparecer
-· Mais unidades recrutadas · maior frequência de disparo · menos coativação · coordenação · aprendizado
-· **O ganho neural é específico do exercício** — calibra expectativa e orienta escolha
-· Trocou de aparelho e a carga caiu? **Não é perda de força**, é reaprendizado do padrão
-· **Educação cruzada**: treinar um lado dá força ao outro — uso direto no membro imobilizado
-Visual: força subindo na semana 1, tamanho começando muito depois.
+**Slide 1** — Trinta e cinco dias
+· Força **+39%** · ativação elétrica **+35%** · área do quadríceps **+3,5 a 5%** aos 20 dias
+Visual: três barras.
 
-**Slide 2** — A unidade motora e o princípio do tamanho
-· Unidade motora = um motoneurônio + **todas** as fibras que ele inerva. Contrai tudo ou nada
-· Razão de inervação: ~10 fibras nos músculos do olho, **mais de 1.000** no gastrocnêmio
-· **Henneman, 1965**: recrutamento em ordem, das menores para as maiores. Não dá para pular a fila
-· **Não existe treinar fibra rápida sem esforço alto.** Três portas: **carga alta · velocidade alta · proximidade da falha**
-· A série confortável de 15, devagar e longe do limite, **não chega** nas unidades de maior limiar
-· Músculo pequeno completa o recrutamento cedo e cresce por **frequência de disparo**
-· "Tenho força mas não tenho explosão" quase sempre é frequência de disparo, não tamanho
-Visual: motoneurônio pequeno x grande e a rampa de recrutamento.
+**Slide 2** — O desenho clássico
+· Neurais pesam mais **no começo**; a hipertrofia começa junto e aparece depois
+Visual: força x tamanho em 12 semanas.
 
-**Slide 3** — As fibras são um contínuo, não três gavetas
-· **Tipo I** lenta e oxidativa · **IIa** rápida e oxidativa, a mais adaptável · **IIx** rápida e glicolítica
-· A maior parte das fibras humanas é **híbrida** — I/IIa, IIa/IIx
-· Distribuição muito individual — e isso ajuda a explicar resposta diferente ao mesmo treino
-· **A IIx encolhe com quase qualquer treino** — resistência, força ou potência. Ela migra para IIa
-· **A fibra mais rápida de todas é a do músculo destreinado**
-· No destreinamento o caminho se inverte, e a IIx pode **ultrapassar** o valor inicial
-· Converter lenta em rápida é outra história — os dados longitudinais **não convergem**
-· O treino muda o **tamanho e a qualidade** das fibras que a pessoa tem, e a habilidade de usá-las
-Visual: o contínuo com as formas híbridas sobrepostas.
+**Slide 3** — Cinco mudanças no nervo
+· Recrutamento · frequência de disparo · menos antagonista · coordenação · aprendizado
+Visual: lista.
 
-**Slide 4** — Como a hipertrofia acontece
-· Estímulo central: **tensão mecânica**. Síntese proteica elevada por **24 a 48 h**
-· **Células satélite** doam núcleos e ampliam a capacidade da fibra
-· **Dano muscular não é requisito.** Dor tardia não mede estímulo
-· **Hipertrofia exige matéria-prima**: aminoácido e energia disponíveis
-· Treinar pesado e comer pouco é **gastar o estímulo sem poder responder a ele**
-· Estímulo sem recurso não gera adaptação — gera custo
-Visual: fibra sob tensão, sinalização e células satélite se fundindo.
+**Slide 4** — Duas consequências
+· O ganho é **específico** · trocou de aparelho e a carga caiu: **não é perda de força**
+Visual: dois cartões.
 
-**Slide 5** — Cada tecido no seu relógio
-· Nervo: **dias a semanas** · músculo: **semanas a meses** · **tendão e osso: meses**
-· Nas primeiras semanas a pessoa produz mais força do que a estrutura passiva suporta
-· **É a explicação mecanística da lesão do iniciante entusiasmado**
-· No retorno pós-afastamento, **consegue fazer** chega antes de **o tecido aguentar**
-· O tendão responde a carga progressiva. A lentidão dele **não é impossibilidade — é agenda**
-· O osso prefere **impacto e magnitude** — o que nadador e ciclista não recebem do próprio esporte
-· Escopo: prescrever força é do preparador e do educador físico; progredir carga em tecido lesionado é da fisioterapia
-Visual: quatro linhas do tempo e a janela sombreada de descompasso.
+**Slide 5** — Educação cruzada
+· Treinar um lado dá **~12%** de força ao outro · uso no membro imobilizado
+Visual: duas pernas.
+
+**Slide 6** — A unidade motora
+· **~10 fibras** no olho · **> 1.000** no gastrocnêmio
+Visual: pincel fino e rolo de pintura.
+
+**Slide 7** — Princípio do tamanho
+· Henneman 1965: **das menores para as maiores**
+Visual: rampa de recrutamento.
+
+**Slide 8** — Três portas
+· **Carga alta · velocidade alta · perto da falha**
+Visual: três portas.
+
+**Slide 9** — Recrutamento e frequência
+· "Força sem explosão" é quase sempre **frequência de disparo**
+Visual: dois painéis.
+
+**Slide 10** — Um contínuo
+· **I · IIa · IIx** e as **híbridas**
+Visual: o contínuo.
+
+**Slide 11** — A IIx encolhe
+· **9% → 2%** com treino · **17%** depois de parar
+Visual: três barras.
+
+**Slide 12** — Converter fibras
+· O que muda de forma confiável: **tamanho, qualidade e o comando**
+Visual: a frase riscada.
+
+**Slide 13** — Hipertrofia
+· **Tensão mecânica** · saldo positivo por **até 48 h** · células satélite
+Visual: fibra sob tensão.
+
+**Slide 14** — Duas correções
+· **Dano não é requisito** · **sem matéria-prima, não há construção**
+Visual: duas colunas.
+
+**Slide 15** — Cada tecido no seu relógio
+· Nervo **dias** · músculo **semanas** · tendão e osso **meses**
+Visual: quatro linhas do tempo.
+
+**Slide 16** — O que fica
+· A lentidão do tendão **é agenda** · o osso gosta de **impacto e carga**
+Visual: três frases e dois cartões.
+
+---
+
+## Notas de produção (não falado, não vai para o slide)
+
+**O que mudou nesta versão.** Voz do curso, dezesseis slides no lugar de cinco. A abertura trocou o
+número sem fonte ("30% no agachamento em três semanas") pelos dados de Seynnes 2007: 35 dias de
+treino pesado de extensão de joelho, força máxima +38,9%, EMG +34,8%, área do quadríceps +3,5% e
++5,2% (regiões central e distal) aos 20 dias. A educação cruzada ganhou o número de Manca 2017
+(~11,9%). O "overshoot" da IIx ganhou os números de Andersen e Aagaard 2000 (9,3% → 2,0% → 17,2%).
+A síntese proteica elevada "24 a 48 h" virou "saldo positivo por até 48 h em destreinados" (Phillips
+1997). Saíram "elegante", "escopo" e as menções numeradas a aulas e módulos.
+
+**Esquemas.** As curvas dos slides 2, 7, 9, 13 e 15 são ilustrativas. As razões de inervação (~10 e
+> 1.000 fibras) são valores clássicos de livro-texto.
+
+**Citações faladas.** Folland e Williams, pela revisão de 2007, e Henneman, pelo princípio do tamanho.
+
+**Ligações internas.** dor tardia = aula do glicolítico · limiares = próxima aula · adolescente,
+atleta mulher e idoso = módulos próprios · prescrição de força = módulo de preparação física.
