@@ -1,0 +1,2008 @@
+{
+ "arquivo": "aulas/MOD02/02-08-limiares-vo2max-e-leitura-da-ergoespirometria.md",
+ "modulo": "Fisiologia do Exercício Aplicada",
+ "titulo": "O laudo na mesa",
+ "subtitulo": "Limiares, VO₂máx e leitura da ergoespirometria",
+ "nota_capa": "Entra pela cena do laudo.",
+ "secoes": {
+  "limiares": [
+   "Duas quebras, três domínios e o nome errado.",
+   "capa"
+  ],
+  "vo2": [
+   "O VO₂máx, a genética, o denominador e a economia.",
+   "cadeia"
+  ],
+  "roteiro": [
+   "Os sete passos de leitura do laudo.",
+   "sete"
+  ],
+  "campo": [
+   "Sem laboratório, e onde mexer.",
+   "campo"
+  ]
+ },
+ "slides": [
+  {
+   "id": "laudo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Um laudo de ergoespirometria com o VO2máx enorme no topo e, bem menores, as duas linhas de limiar e a tabela de zonas do programa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"440\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"40\" y=\"200\" width=\"680\" height=\"3\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"300\" width=\"680\" height=\"12\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"330\" width=\"620\" height=\"12\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"360\" width=\"560\" height=\"12\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"390\" width=\"500\" height=\"12\" rx=\"4\" fill=\"#D9D4C8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 24,
+     "w": 300,
+     "t": "VO₂máx",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 60,
+     "w": 400,
+     "t": "48,2",
+     "tam": 96,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 216,
+     "w": 500,
+     "t": "limiar 1 · limiar 2",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 256,
+     "w": 500,
+     "t": "zonas do programa",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 40,
+     "w": 800,
+     "t": "“E aí, tá bom?”",
+     "tam": 56,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 160,
+     "w": 800,
+     "t": "O número grande chama o olho.",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 220,
+     "w": 800,
+     "t": "As duas linhas pequenas decidem.",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 320,
+     "w": 800,
+     "t": "Laudo ilustrativo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A cena",
+   "titulo": "Um laudo de ergoespirometria na sua mesa"
+  },
+  {
+   "id": "quebras",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Lactato no sangue durante um teste progressivo: quase parado até o primeiro limiar, subindo devagar até o segundo e disparando depois; embaixo, as três faixas moderado, pesado e severo\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"40.0\" y1=\"360\" x2=\"40.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"360\" x2=\"1634.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"757.3\" y1=\"20\" x2=\"757.3\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><line x1=\"1187.7\" y1=\"20\" x2=\"1187.7\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><rect x=\"40.0\" y=\"350.3\" width=\"717.3\" height=\"9.7\" fill=\"#008A7E\"/><rect x=\"757.3\" y=\"350.3\" width=\"430.4\" height=\"9.7\" fill=\"#B07A1C\"/><rect x=\"1187.7\" y=\"350.3\" width=\"446.3\" height=\"9.7\" fill=\"#A8322A\"/><line x1=\"40\" y1=\"360\" x2=\"1634\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,311.4 71.9,311.4 103.8,311.4 135.6,311.4 167.5,311.4 199.4,311.4 231.3,311.4 263.2,311.4 295.0,311.4 326.9,311.4 358.8,311.4 390.7,311.4 422.6,311.4 454.4,311.4 486.3,311.4 518.2,311.4 550.1,311.4 582.0,311.4 613.8,311.4 645.7,311.4 677.6,311.4 709.5,311.4 741.4,311.4 773.2,310.0 805.1,307.1 837.0,304.1 868.9,301.2 900.8,298.3 932.6,295.4 964.5,292.5 996.4,289.6 1028.3,286.7 1060.2,283.7 1092.0,280.8 1123.9,277.9 1155.8,275.0 1187.7,272.1 1219.6,268.3 1251.4,262.7 1283.3,255.0 1315.2,245.1 1347.1,233.1 1379.0,218.7 1410.8,202.1 1442.7,183.1 1474.6,161.8 1506.5,138.1 1538.4,111.9 1570.2,83.3 1602.1,52.3 1634.0,18.7\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 376,
+     "w": 160,
+     "t": "leve",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 376,
+     "w": 160,
+     "t": "máximo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 769,
+     "y": 24,
+     "w": 220,
+     "t": "1º limiar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 24,
+     "w": 220,
+     "t": "2º limiar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 250,
+     "w": 400,
+     "t": "moderado",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 250,
+     "w": 300,
+     "t": "pesado",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 250,
+     "w": 300,
+     "t": "severo",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 40,
+     "w": 400,
+     "t": "lactato no sangue",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que o teste mede",
+   "titulo": "Duas quebras, três domínios",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "sustenta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Em carga constante: no domínio moderado o lactato fica parado perto do repouso; no pesado sobe e estabiliza; no severo sobe sem parar até a exaustão\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"0\" y1=\"280\" x2=\"520\" y2=\"280\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"0.0,252.5 13.0,251.2 26.0,250.2 39.0,249.3 52.0,248.5 65.0,247.8 78.0,247.3 91.0,246.8 104.0,246.4 117.0,246.1 130.0,245.8 143.0,245.6 156.0,245.4 169.0,245.2 182.0,245.1 195.0,244.9 208.0,244.8 221.0,244.7 234.0,244.7 247.0,244.6 260.0,244.5 273.0,244.5 286.0,244.5 299.0,244.4 312.0,244.4 325.0,244.4 338.0,244.4 351.0,244.3 364.0,244.3 377.0,244.3 390.0,244.3 403.0,244.3 416.0,244.3 429.0,244.3 442.0,244.3 455.0,244.3 468.0,244.3 481.0,244.3 494.0,244.3 507.0,244.3 520.0,244.3\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"572\" y1=\"280\" x2=\"1092\" y2=\"280\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"572.0,252.5 585.0,246.7 598.0,241.5 611.0,236.8 624.0,232.6 637.0,228.7 650.0,225.2 663.0,222.0 676.0,219.2 689.0,216.6 702.0,214.3 715.0,212.1 728.0,210.2 741.0,208.5 754.0,206.9 767.0,205.5 780.0,204.2 793.0,203.1 806.0,202.0 819.0,201.0 832.0,200.2 845.0,199.4 858.0,198.7 871.0,198.1 884.0,197.5 897.0,197.0 910.0,196.5 923.0,196.1 936.0,195.7 949.0,195.3 962.0,195.0 975.0,194.7 988.0,194.5 1001.0,194.2 1014.0,194.0 1027.0,193.8 1040.0,193.7 1053.0,193.5 1066.0,193.4 1079.0,193.2 1092.0,193.1\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\"/><line x1=\"1144\" y1=\"280\" x2=\"1664\" y2=\"280\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"1144.0,252.5 1157.0,247.7 1170.0,242.9 1183.0,238.1 1196.0,233.2 1209.0,228.4 1222.0,223.6 1235.0,218.8 1248.0,214.0 1261.0,209.2 1274.0,204.4 1287.0,199.6 1300.0,194.8 1313.0,189.9 1326.0,185.1 1339.0,180.3 1352.0,175.5 1365.0,170.7 1378.0,165.9 1391.0,161.1 1404.0,156.2 1417.0,151.4 1430.0,146.6 1443.0,141.8 1456.0,137.0 1469.0,132.2 1482.0,127.4 1495.0,122.6 1508.0,117.8 1521.0,112.9 1534.0,108.1 1547.0,103.3 1560.0,98.5 1573.0,93.7 1586.0,88.9 1599.0,84.1 1612.0,79.2 1625.0,74.4 1638.0,69.6 1651.0,64.8 1664.0,60.0\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 520,
+     "t": "Moderado",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 292,
+     "w": 520,
+     "t": "tempo em carga constante →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 80,
+     "w": 300,
+     "t": "horas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 572,
+     "y": 0,
+     "w": 520,
+     "t": "Pesado",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 572,
+     "y": 292,
+     "w": 520,
+     "t": "tempo em carga constante →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 80,
+     "w": 300,
+     "t": "estabiliza",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 0,
+     "w": 520,
+     "t": "Severo",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 292,
+     "w": 520,
+     "t": "tempo em carga constante →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 80,
+     "w": 300,
+     "t": "minutos",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Três comportamentos, não três dificuldades",
+   "titulo": "O limiar descreve sustentabilidade",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "limiares",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "Os dois pontos e o que cada um decide",
+   "titulo": "Primeiro e segundo limiar",
+   "cards": [
+    {
+     "t": "Primeiro limiar",
+     "x": "A intensidade mais alta ainda confortável por muito tempo. É o teto do treino de verdade leve, e quase ninguém sabe onde fica o seu.",
+     "cor": "petr"
+    },
+    {
+     "t": "Segundo limiar",
+     "x": "Acima dele o lactato para de estabilizar. A intensidade mais alta em estado estável: algo entre 30 e 60 minutos.",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Métodos diferentes marcam pontos próximos, não idênticos. Vale uma estimativa razoável, sempre pelo mesmo método, acompanhada no tempo."
+  },
+  {
+   "id": "nome",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A palavra anaeróbico riscada e três suposições derrubadas: o músculo sem oxigênio, o lactato por falta de oxigênio e uma linha única\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"40\" y1=\"120\" x2=\"660\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect x=\"760\" y=\"20\" width=\"904\" height=\"105\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"760\" y=\"145\" width=\"904\" height=\"105\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"760\" y=\"270\" width=\"904\" height=\"105\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 790,
+     "y": 32,
+     "w": 850,
+     "t": "O músculo fica sem oxigênio",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 76,
+     "w": 850,
+     "t": "Não fica. Continua recebendo e usando.",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 157,
+     "w": 850,
+     "t": "O lactato aparece por falta de oxigênio",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 201,
+     "w": 850,
+     "t": "Muda o equilíbrio entre produzir e remover.",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 282,
+     "w": 850,
+     "t": "Existe uma linha única",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 326,
+     "w": 850,
+     "t": "Existem várias definições, próximas e não idênticas.",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 30,
+     "w": 700,
+     "t": "anaeróbico",
+     "tam": 96,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 220,
+     "w": 700,
+     "t": "Este curso usa: primeiro e segundo limiar.",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Mais de cinquenta anos de controvérsia",
+   "titulo": "Nome errado produz conduta errada",
+   "fonte": "Poole, Rossiter, Brooks e Gladden, Journal of Physiology 2021"
+  },
+  {
+   "id": "cadeia",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"A cadeia de entrega de oxigênio: pulmão, coração, sangue, vaso e mitocôndria; o coração é o elo que limita em pessoa saudável\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"60\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M294 135 L330 135\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"336\" y=\"60\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"6\"/><path d=\"M630 135 L666 135\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"672\" y=\"60\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M966 135 L1002 135\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"1008\" y=\"60\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M1302 135 L1338 135\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"1344\" y=\"60\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 90,
+     "w": 290,
+     "t": "Pulmão",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 140,
+     "w": 290,
+     "t": "capta",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 336,
+     "y": 90,
+     "w": 290,
+     "t": "Coração",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 336,
+     "y": 140,
+     "w": 290,
+     "t": "bombeia",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 672,
+     "y": 90,
+     "w": 290,
+     "t": "Sangue",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 672,
+     "y": 140,
+     "w": 290,
+     "t": "carrega",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1008,
+     "y": 90,
+     "w": 290,
+     "t": "Vaso",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1008,
+     "y": 140,
+     "w": 290,
+     "t": "distribui",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 90,
+     "w": 290,
+     "t": "Mitocôndria",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 140,
+     "w": 290,
+     "t": "consome",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 336,
+     "y": 230,
+     "w": 290,
+     "t": "o elo que limita, em saudável ao nível do mar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O número grande do laudo",
+   "titulo": "O VO₂máx depende da cadeia inteira",
+   "destaque": "Taxa máxima de captar, transportar e usar oxigênio. Em quem é saudável, limita a entrega: débito cardíaco, com o volume de ejeção na frente."
+  },
+  {
+   "id": "heritage",
+   "tipo": "numeros",
+   "eyebrow": "HERITAGE: sedentários treinados do mesmo jeito",
+   "titulo": "Grandes e pequenos respondedores existem",
+   "numeros": [
+    {
+     "n": "481",
+     "x": "sedentários de 98 famílias",
+     "cor": "tinta"
+    },
+    {
+     "n": "20 sem",
+     "x": "do mesmo treino aeróbico",
+     "cor": "ambar"
+    },
+    {
+     "n": "47%",
+     "x": "da variação na resposta do VO₂máx atribuída à família",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Não é falta de esforço. Diga isso ao paciente. E lembre: o VO₂máx melhora mais em quem está longe do próprio teto, e é o que menos se move em quem treina há anos.",
+   "fonte": "Bouchard e colaboradores, Journal of Applied Physiology 1999"
+  },
+  {
+   "id": "denominador",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Os mesmos 3 litros por minuto de oxigênio dão 37,5 mililitros por quilo por minuto com 80 quilos e 41,7 com 72 quilos\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"440\" y1=\"0\" x2=\"440\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"442\" y=\"30\" width=\"975\" height=\"90\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"442\" y=\"160\" width=\"1084\" height=\"90\" rx=\"4\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 56,
+     "w": 410,
+     "t": "3,0 L/min ÷ 80 kg",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1097,
+     "y": 52,
+     "w": 300,
+     "t": "37,5 mL/kg/min",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 186,
+     "w": 410,
+     "t": "3,0 L/min ÷ 72 kg",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1206,
+     "y": 182,
+     "w": 300,
+     "t": "41,7 mL/kg/min",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 442,
+     "y": 300,
+     "w": 1100,
+     "t": "o coração e o músculo são os mesmos nas duas barras",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A armadilha da unidade",
+   "titulo": "Emagreceu, o número subiu, o motor é o mesmo",
+   "destaque": "Perder massa magra em restrição sobe o número e piora o resto. E saúde é outra conversa: no sedentário de cinquenta anos, aumentar o motor é o objetivo.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "fatores",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Desempenho é o produto de três fatores: VO2máx, o tamanho do motor; limiar, quanto dele dá para usar; economia, quanto custa cada quilômetro\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"0\" y=\"40\" width=\"400\" height=\"200\" rx=\"16\" fill=\"#3A6EA5\"/><rect x=\"470\" y=\"40\" width=\"400\" height=\"200\" rx=\"16\" fill=\"#B07A1C\"/><rect x=\"940\" y=\"40\" width=\"400\" height=\"200\" rx=\"16\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 80,
+     "w": 400,
+     "t": "VO₂máx",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 150,
+     "w": 360,
+     "t": "o tamanho do motor",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 100,
+     "w": 70,
+     "t": "×",
+     "tam": 56,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 80,
+     "w": 400,
+     "t": "Limiar",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 490,
+     "y": 150,
+     "w": 360,
+     "t": "quanto do motor dá para usar",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 100,
+     "w": 70,
+     "t": "×",
+     "tam": 56,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 80,
+     "w": 400,
+     "t": "Economia",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 150,
+     "w": 360,
+     "t": "quanto custa cada quilômetro",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 100,
+     "w": 60,
+     "t": "=",
+     "tam": 56,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1460,
+     "y": 96,
+     "w": 204,
+     "t": "desempenho",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 940,
+     "y": 260,
+     "w": 400,
+     "t": "a que o laudo não traz em destaque",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Mesmo VO₂máx, 40 e 46 minutos nos 10 km",
+   "titulo": "Três fatores, não um",
+   "fonte": "Joyner e Coyle, Journal of Physiology 2008"
+  },
+  {
+   "id": "economia",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Dois corredores na mesma velocidade: um consome menos oxigênio que o outro; o que determina a economia: técnica, tendão, distribuição de massa, anos de prática e treino de força\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"240\" y=\"40\" width=\"500\" height=\"80\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"240\" y=\"160\" width=\"440\" height=\"80\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"900\" y=\"10\" width=\"764\" height=\"62\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"900\" y=\"86\" width=\"764\" height=\"62\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"900\" y=\"162\" width=\"764\" height=\"62\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"900\" y=\"238\" width=\"764\" height=\"62\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"900\" y=\"314\" width=\"764\" height=\"62\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 62,
+     "w": 220,
+     "t": "Corredor A",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 182,
+     "w": 220,
+     "t": "Corredor B",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 280,
+     "w": 560,
+     "t": "oxigênio gasto na mesma velocidade · ilustrativo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 24,
+     "w": 700,
+     "t": "Técnica e cadência",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 100,
+     "w": 700,
+     "t": "Rigidez do tendão",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 176,
+     "w": 700,
+     "t": "Distribuição de massa",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 252,
+     "w": 700,
+     "t": "Anos de prática",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 328,
+     "w": 700,
+     "t": "Treino de força",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A variável que o laudo não traz",
+   "titulo": "Economia: quanto custa a mesma velocidade",
+   "destaque": "Força de 8 a 12 semanas melhorou a economia de corredores de alto nível de forma clara. Sem precisar mexer no VO₂máx.",
+   "destaque_cor": "verm",
+   "fonte": "Balsalobre-Fernández e colaboradores, Journal of Strength and Conditioning Research 2016"
+  },
+  {
+   "id": "caso",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Caso ilustrativo: um corredor parado em 47 minutos nos 10 km por três anos troca um tiro por duas sessões de força; o tempo cai para menos de 45 minutos e o VO2máx estimado fica igual\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"120\" y1=\"290.0\" x2=\"1634\" y2=\"290.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"120\" y1=\"230.0\" x2=\"1634\" y2=\"230.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"120\" y1=\"170.0\" x2=\"1634\" y2=\"170.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"120\" y1=\"110.0\" x2=\"1634\" y2=\"110.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"120\" y1=\"50.0\" x2=\"1634\" y2=\"50.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"120.0\" y1=\"320\" x2=\"120.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1358.7\" y1=\"320\" x2=\"1358.7\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"320\" x2=\"1634.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1358.7\" y=\"20.0\" width=\"275.3\" height=\"300.0\" fill=\"#008A7E\" fill-opacity=\"0.12\"/><line x1=\"120\" y1=\"320\" x2=\"1634\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"120.0,110.0 154.4,110.0 188.8,110.0 223.2,110.0 257.6,110.0 292.0,110.0 326.5,110.0 360.9,110.0 395.3,110.0 429.7,110.0 464.1,110.0 498.5,110.0 532.9,110.0 567.3,110.0 601.7,110.0 636.1,110.0 670.5,110.0 705.0,110.0 739.4,110.0 773.8,110.0 808.2,110.0 842.6,110.0 877.0,110.0 911.4,110.0 945.8,110.0 980.2,110.0 1014.6,110.0 1049.0,110.0 1083.5,110.0 1117.9,110.0 1152.3,110.0 1186.7,110.0 1221.1,110.0 1255.5,110.0 1289.9,110.0 1324.3,110.0 1358.7,110.0 1393.1,149.1 1427.5,177.1 1462.0,197.2 1496.4,211.6 1530.8,221.9 1565.2,229.3 1599.6,234.6 1634.0,238.4\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 273,
+     "w": 104,
+     "t": "44 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 213,
+     "w": 104,
+     "t": "45 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 153,
+     "w": 104,
+     "t": "46 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 93,
+     "w": 104,
+     "t": "47 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 33,
+     "w": 104,
+     "t": "48 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 336,
+     "w": 160,
+     "t": "3 anos atrás",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1279,
+     "y": 336,
+     "w": 160,
+     "t": "troca",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 336,
+     "w": 160,
+     "t": "8 meses depois",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 30,
+     "w": 700,
+     "t": "tempo nos 10 km: parado em 47 minutos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 250,
+     "w": 380,
+     "t": "menos de 45 min",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 30,
+     "w": 500,
+     "t": "1 tiro → 2 sessões de força",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um caso ilustrativo, para fixar",
+   "titulo": "O motor é o mesmo. Mudou o gasto.",
+   "destaque": "O VO₂máx estimado ficou praticamente igual. Economia é a variável que envelhece melhor. E não refaça a técnica de quem está bem: cadência é a alavanca segura.",
+   "fonte": "Caso ilustrativo, sem dados reais"
+  },
+  {
+   "id": "sete",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"O laudo com sete marcações na ordem de leitura; o VO2máx do topo é só o passo dois\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"440\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"40\" y=\"200\" width=\"680\" height=\"3\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"300\" width=\"680\" height=\"12\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"330\" width=\"620\" height=\"12\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"360\" width=\"560\" height=\"12\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"390\" width=\"500\" height=\"12\" rx=\"4\" fill=\"#D9D4C8\"/><circle cx=\"640\" cy=\"46\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"560\" cy=\"116\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"560\" cy=\"232\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"560\" cy=\"272\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"700\" cy=\"316\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"700\" cy=\"376\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"700\" cy=\"416\" r=\"22\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 24,
+     "w": 300,
+     "t": "VO₂máx",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 60,
+     "w": 400,
+     "t": "48,2",
+     "tam": 96,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 216,
+     "w": 500,
+     "t": "limiar 1 · limiar 2",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 256,
+     "w": 500,
+     "t": "zonas do programa",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 618,
+     "y": 31,
+     "w": 44,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 538,
+     "y": 101,
+     "w": 44,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 538,
+     "y": 217,
+     "w": 44,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 538,
+     "y": 257,
+     "w": 44,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 678,
+     "y": 301,
+     "w": 44,
+     "t": "5",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 678,
+     "y": 361,
+     "w": 44,
+     "t": "6",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 678,
+     "y": 401,
+     "w": 44,
+     "t": "7",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 10,
+     "w": 800,
+     "t": "1. O teste foi máximo?",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 70,
+     "w": 800,
+     "t": "2. O valor, nas duas formas",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 130,
+     "w": 800,
+     "t": "3. Onde estão os dois limiares",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 190,
+     "w": 800,
+     "t": "4. As zonas do programa",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 250,
+     "w": 800,
+     "t": "5. Resposta e recuperação da FC",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 310,
+     "w": 800,
+     "t": "6. Eficiência ventilatória",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 370,
+     "w": 800,
+     "t": "7. Por que o teste terminou",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O roteiro de leitura",
+   "titulo": "Sete passos, e o número grande é o segundo"
+  },
+  {
+   "id": "maximo",
+   "tipo": "cards",
+   "por_linha": 5,
+   "eyebrow": "Passo um",
+   "titulo": "O teste foi máximo?",
+   "cards": [
+    {
+     "t": "RER > 1,10",
+     "x": "razão de troca respiratória",
+     "cor": "verm"
+    },
+    {
+     "t": "FC ± 10",
+     "x": "da máxima prevista",
+     "cor": "petr"
+    },
+    {
+     "t": "Esforço no topo",
+     "x": "da escala percebida",
+     "cor": "petr"
+    },
+    {
+     "t": "Lactato > 8",
+     "x": "mmol/L",
+     "cor": "petr"
+    },
+    {
+     "t": "Platô",
+     "x": "do VO₂ com a carga subindo",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Não há consenso sobre quantos critérios bastam, e o platô raramente aparece. Se o laudo não traz a RER atingida, peça. Sem esforço máximo, é VO₂ de pico.",
+   "destaque_cor": "verm",
+   "fonte": "Howley, Bassett e Welch, Medicine & Science in Sports & Exercise 1995"
+  },
+  {
+   "id": "moeda",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Passo dois: o valor em litros por minuto e em mililitros por quilo; passo três: os dois limiares traduzidos em watts, ritmo e frequência cardíaca\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"380\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"620\" y=\"0\" width=\"1044\" height=\"380\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"640\" y1=\"120\" x2=\"1644\" y2=\"120\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"640\" y1=\"200\" x2=\"1644\" y2=\"200\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"640\" y1=\"280\" x2=\"1644\" y2=\"280\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 24,
+     "w": 500,
+     "t": "2 · O valor",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 90,
+     "w": 500,
+     "t": "3,6 L/min",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 156,
+     "w": 500,
+     "t": "absoluto: muda pouco com o peso",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 220,
+     "w": 500,
+     "t": "48,2 mL/kg/min",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 286,
+     "w": 500,
+     "t": "relativo: compara com referência",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 24,
+     "w": 980,
+     "t": "3 · Os limiares na moeda que prescreve",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 80,
+     "w": 220,
+     "t": "carga",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 80,
+     "w": 220,
+     "t": "ritmo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 80,
+     "w": 260,
+     "t": "FC",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 142,
+     "w": 240,
+     "t": "1º limiar",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 142,
+     "w": 220,
+     "t": "180 W",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 142,
+     "w": 220,
+     "t": "5:40 /km",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 142,
+     "w": 260,
+     "t": "142 bpm",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 222,
+     "w": 240,
+     "t": "2º limiar",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 222,
+     "w": 220,
+     "t": "250 W",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 222,
+     "w": 220,
+     "t": "4:45 /km",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 222,
+     "w": 260,
+     "t": "166 bpm",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 310,
+     "w": 980,
+     "t": "valores de exemplo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passos dois e três",
+   "titulo": "Ninguém treina em percentual de VO₂máx",
+   "destaque": "Se o laudo dá os limiares só em percentual, ele é bonito e inútil para a segunda-feira.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "zonas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, a tabela de zonas do programa por percentual da frequência máxima, riscada; à direita, as zonas refeitas a partir dos dois limiares do próprio teste\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"780\" height=\"380\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"884\" y=\"0\" width=\"780\" height=\"380\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"30\" y1=\"360\" x2=\"750\" y2=\"60\" stroke=\"#A8322A\" stroke-width=\"8\" stroke-linecap=\"round\" opacity=\"0.7\"/><rect x=\"914\" y=\"90\" width=\"14\" height=\"60\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"914\" y=\"180\" width=\"14\" height=\"60\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"914\" y=\"270\" width=\"14\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 80,
+     "w": 100,
+     "t": "Z1",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 80,
+     "w": 500,
+     "t": "50–60% FCmáx",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 136,
+     "w": 100,
+     "t": "Z2",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 136,
+     "w": 500,
+     "t": "60–70% FCmáx",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 192,
+     "w": 100,
+     "t": "Z3",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 192,
+     "w": 500,
+     "t": "70–80% FCmáx",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 248,
+     "w": 100,
+     "t": "Z4",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 248,
+     "w": 500,
+     "t": "80–90% FCmáx",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 304,
+     "w": 100,
+     "t": "Z5",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 304,
+     "w": 500,
+     "t": "90–100% FCmáx",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 90,
+     "w": 400,
+     "t": "Abaixo do 1º limiar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 124,
+     "w": 400,
+     "t": "até 142 bpm",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 180,
+     "w": 400,
+     "t": "Entre os limiares",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 214,
+     "w": 400,
+     "t": "142 a 166 bpm",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 270,
+     "w": 400,
+     "t": "Acima do 2º limiar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 304,
+     "w": 400,
+     "t": "acima de 166 bpm",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 20,
+     "w": 720,
+     "t": "Do programa: fórmula de população",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 914,
+     "y": 20,
+     "w": 720,
+     "t": "Refeitas pelos limiares do teste",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo quatro",
+   "titulo": "Não desperdice o exame",
+   "destaque": "Se as zonas do laudo não estiverem ancoradas nos limiares, refaça a partir dos limiares.",
+   "destaque_cor": "verm",
+   "fonte": "Valores de exemplo"
+  },
+  {
+   "id": "ultimos",
+   "tipo": "lista",
+   "eyebrow": "Os três últimos passos",
+   "titulo": "O que está no traçado, e não no resumo",
+   "itens": [
+    {
+     "m": "5",
+     "t": "Resposta e recuperação da frequência",
+     "x": "Como subiu, o pico, quanto caiu no primeiro minuto. Recuperação lenta merece atenção."
+    },
+    {
+     "m": "6",
+     "t": "Eficiência ventilatória",
+     "x": "Valores altos têm valor prognóstico, sobretudo em doença do coração. Não é para prescrever: é para encaminhar.",
+     "cor": "ambar"
+    },
+    {
+     "m": "7",
+     "t": "Por que o teste terminou",
+     "x": "Motivo, sintomas, eletrocardiograma, pressão. Inclusive a diastólica que sobe.",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Clínica é médica. Limiares e zonas são do educador físico e do fisiologista. A pior leitura é a que olha só o número do topo.",
+   "fonte": "Guazzi e colaboradores, Circulation 2016"
+  },
+  {
+   "id": "campo",
+   "tipo": "duas",
+   "eyebrow": "A maioria nunca vai fazer o exame",
+   "titulo": "Achar os limiares sem laboratório",
+   "esq": {
+    "t": "1º limiar: teste do falar",
+    "cor": "petr",
+    "itens": [
+     "Fala uma frase inteira, com conforto: abaixo",
+     "A fala quebra em pedaços: cruzando",
+     "O critério para levar para todo treino leve"
+    ]
+   },
+   "dir": {
+    "t": "2º limiar: contrarrelógio de 30 min",
+    "cor": "verm",
+    "itens": [
+     "Velocidade ou potência média: perto do 2º limiar",
+     "FC média dos últimos 20 minutos: a FC de limiar",
+     "Próximo do laboratório em corredores e triatletas"
+    ]
+   },
+   "fonte": "Reed e Pipe, Current Opinion in Cardiology 2014 · McGehee e colaboradores, Journal of Strength and Conditioning Research 2005"
+  },
+  {
+   "id": "percentual",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas pessoas com a mesma idade e a mesma frequência máxima: numa o segundo limiar cai em 80% da máxima, na outra em 90%; a mesma zona de 85% cai em domínios diferentes\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"260\" y=\"40\" width=\"780\" height=\"90\" fill=\"#B07A1C\" fill-opacity=\"0.85\"/><rect x=\"1040\" y=\"40\" width=\"520\" height=\"90\" fill=\"#A8322A\" fill-opacity=\"0.9\"/><rect x=\"260\" y=\"190\" width=\"1040\" height=\"90\" fill=\"#B07A1C\" fill-opacity=\"0.85\"/><rect x=\"1300\" y=\"190\" width=\"260\" height=\"90\" fill=\"#A8322A\" fill-opacity=\"0.9\"/><line x1=\"1170\" y1=\"20\" x2=\"1170\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"4\" stroke-dasharray=\"12 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 66,
+     "w": 230,
+     "t": "Pessoa A",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 68,
+     "w": 250,
+     "t": "2º limiar em 80%",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 216,
+     "w": 230,
+     "t": "Pessoa B",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 218,
+     "w": 250,
+     "t": "2º limiar em 90%",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 970,
+     "y": 310,
+     "w": 400,
+     "t": "a mesma “zona 85%” da planilha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 340,
+     "w": 300,
+     "t": "50% da FC máxima",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 340,
+     "w": 300,
+     "t": "100%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que eu não recomendo",
+   "titulo": "Mesmo número na planilha, domínios diferentes",
+   "destaque": "Duzentos e oito menos 0,7 vezes a idade é melhor que 220 menos a idade, e ainda é população. E em tiro curto, a FC chega atrasada: use velocidade, potência ou esforço percebido.",
+   "fonte": "Esquema · Tanaka, Monahan e Seals, Journal of the American College of Cardiology 2001"
+  },
+  {
+   "id": "alavancas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três zonas com o que cada uma dá, e para quem treina há anos três alavancas em ordem de retorno: economia maior, limiar médio, VO2máx menor\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"10\" width=\"760\" height=\"110\" rx=\"12\" fill=\"#008A7E\"/><rect x=\"0\" y=\"138\" width=\"760\" height=\"110\" rx=\"12\" fill=\"#B07A1C\"/><rect x=\"0\" y=\"266\" width=\"760\" height=\"110\" rx=\"12\" fill=\"#A8322A\"/><rect x=\"1080\" y=\"40\" width=\"580\" height=\"80\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1080\" y=\"160\" width=\"383\" height=\"80\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1080\" y=\"280\" width=\"209\" height=\"80\" rx=\"8\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 24,
+     "w": 700,
+     "t": "Abaixo do 1º",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 70,
+     "w": 700,
+     "t": "volume que permite frequência",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 152,
+     "w": 700,
+     "t": "Entre os dois",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 198,
+     "w": 700,
+     "t": "útil e caro: onde o atleta real mora",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 280,
+     "w": 700,
+     "t": "Acima do 2º",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 326,
+     "w": 700,
+     "t": "curto, potente, pede recuperação",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 62,
+     "w": 210,
+     "t": "1. Economia",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 182,
+     "w": 210,
+     "t": "2. Limiar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 302,
+     "w": 210,
+     "t": "3. VO₂máx",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 0,
+     "w": 800,
+     "t": "Quem treina há anos: ordem de retorno",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que se decide com tudo isso",
+   "titulo": "Três zonas, e onde mexer",
+   "destaque": "O amador acrescenta tiros e deixa força e distribuição intocadas. A alavanca certa é a mais eficaz que a conta de energia, sono e recuperação suporta.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "Dois lembretes",
+   "regras": [
+    "Os limiares se movem com o treino: reteste não é burocracia",
+    "O cronômetro é mais honesto que o algoritmo"
+   ],
+   "cards": [
+    {
+     "t": "Educador físico",
+     "x": "Acha o limiar em campo e prescreve a intensidade a partir dele."
+    },
+    {
+     "t": "As outras profissões",
+     "x": "Leem a planilha e reconhecem quando a intensidade explica o platô, a fadiga ou a lesão que se repete."
+    }
+   ],
+   "quem": "A pior leitura do laudo é a que olha só o número grande do topo."
+  }
+ ]
+}
