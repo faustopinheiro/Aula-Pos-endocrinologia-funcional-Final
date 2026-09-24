@@ -2,12 +2,12 @@
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 19 minutos · 16 slides · Arquitetura: ERRO
+Duração: 19 minutos · 10 slides · Arquitetura: ERRO
 
 ---
 
-📊 **[SLIDE 1 DE 16]**
-*Visual: três frases de beira de quadra em cartões, cada uma riscada, com o motivo do erro escrito embaixo.*
+📊 **[SLIDE 1 DE 10]**
+*Visual: três curvas subindo juntas conforme a intensidade aumenta: lactato no sangue, queimação e queda de força, com a frase "junto não é por causa".*
 *Teleprompter: (entra pela cena, tom de quem ouviu isso ontem)*
 
 Um remador acaba de fazer dois mil metros no ergômetro. Desaba no banco. E o técnico fala: "pedala leve dez minutos para tirar o ácido lático."
@@ -19,12 +19,6 @@ Na semana seguinte, ela paga uma massagem, porque alguém disse que ajuda a dren
 Três frases. As três são ditas todo dia, por gente formada, em academia e clube do país inteiro. E as três estão erradas. A primeira pelo motivo. A segunda pelo mecanismo. A terceira pelas duas coisas.
 
 E o que me interessa aqui não é corrigir vocabulário. É que esse erro muda conduta. É isso que a gente vai desmontar hoje.
-
----
-
-📊 **[SLIDE 2 DE 16]**
-*Visual: três curvas subindo juntas conforme a intensidade aumenta: lactato no sangue, queimação e queda de força, com a frase "junto não é por causa".*
-*Teleprompter: (explica por que o erro convence, com respeito pelo erro)*
 
 Antes de desmontar, vale entender por que ele convence. Porque ele é convincente, e tem cem anos de currículo.
 
@@ -38,7 +32,7 @@ Junto não é por causa.
 
 ---
 
-📊 **[SLIDE 3 DE 16]**
+📊 **[SLIDE 2 DE 10]**
 *Visual: uma fibra muscular com grânulos de glicogênio dentro e um capilar do lado de fora trazendo glicose; as duas entradas convergem para a glicólise, e a de dentro tem um passo a menos.*
 *Teleprompter: (tom de aula, descreve o sistema pelo que ele faz)*
 
@@ -47,12 +41,6 @@ Antes de falar do que a glicólise supostamente suja, vale ver o que ela faz. Qu
 De onde vem o combustível. Duas fontes, e elas não são iguais. O glicogênio muscular, que está dentro da própria fibra. E a glicose do sangue, que vem de fora. Em esforço intenso, a fibra prefere o glicogênio de casa, por pura logística: está ali, não depende de transporte e entra na via com um passo a menos.
 
 E isso tem uma consequência prática que aparece o tempo todo. Glicogênio muscular baixo não se corrige com um gel no meio do treino. O gel ajuda a manter a glicose do sangue e a poupar o fígado, e isso importa. Mas o estoque de dentro da fibra se repõe ao longo de horas, com comida, e não em minutos.
-
----
-
-📊 **[SLIDE 4 DE 16]**
-*Visual: as torneiras dos três sistemas, lado a lado, com a glicolítica mais larga que a oxidativa, e uma faixa marcando o momento em que a demanda passa do que a mitocôndria entrega.*
-*Teleprompter: (tom de virada, corrige o apelido do sistema)*
 
 Qual é a vantagem dela. Velocidade.
 
@@ -64,8 +52,8 @@ E quem abre essa torneira não é uma decisão consciente, nem uma zona de frequ
 
 ---
 
-📊 **[SLIDE 5 DE 16]**
-*Visual: com a intensidade subindo, a faixa de fibras lentas recrutadas fica embaixo e as fibras rápidas entram por cima a partir da intensidade moderada; a curva de lactato sobe junto com a entrada delas.*
+📊 **[SLIDE 3 DE 10]**
+*Visual: o esquema da via: glicose vira piruvato; do piruvato saem duas setas, uma para a mitocôndria e outra para o lactato, e esta segunda consome um próton. Ao lado, a quebra de ATP liberando ADP, fosfato e o próton.*
 *Teleprompter: (devagar, é a frase-chave da aula)*
 
 E aqui entra o tipo de fibra.
@@ -75,12 +63,6 @@ Fibra mais rápida tem mais maquinaria glicolítica e menos mitocôndria. Fibra 
 Quando elas entram, a produção de lactato sobe junto. Não porque faltou oxigênio. Mas porque entrou em cena um tipo de fibra que produz mais lactato mesmo com oxigênio disponível.
 
 Guarda essa frase. Ela dissolve o mal-entendido inteiro. E ela vai voltar na aula de limiares.
-
----
-
-📊 **[SLIDE 6 DE 16]**
-*Visual: o esquema da via: glicose vira piruvato; do piruvato saem duas setas, uma para a mitocôndria e outra para o lactato, e esta segunda consome um próton. Ao lado, a quebra de ATP liberando ADP, fosfato e o próton.*
-*Teleprompter: (bioquímica em três frases, uma de cada vez)*
 
 Agora a bioquímica. Ela cabe em três frases.
 
@@ -94,7 +76,7 @@ O Robergs e colaboradores escreveram isso com todas as letras em dois mil e quat
 
 ---
 
-📊 **[SLIDE 7 DE 16]**
+📊 **[SLIDE 4 DE 10]**
 *Visual: uma causa comum no alto, a demanda alta de ATP pela glicólise, com duas setas descendo: uma para "lactato sobe" e outra para "acidez sobe"; entre as duas, uma seta horizontal riscada.*
 *Teleprompter: (honestidade sobre o debate, e a conclusão que não está em disputa)*
 
@@ -108,7 +90,7 @@ Sobe junto porque as duas coisas têm a mesma causa: demanda alta de ATP pela vi
 
 ---
 
-📊 **[SLIDE 8 DE 16]**
+📊 **[SLIDE 5 DE 10]**
 *Visual: a lançadeira do lactato: uma fibra glicolítica no centro soltando lactato, e setas levando-o para uma fibra oxidativa vizinha, para o coração, para o cérebro e para o fígado, que devolve glicose.*
 *Teleprompter: (tom de virada, o resíduo vira combustível)*
 
@@ -119,12 +101,6 @@ O lactato não é resíduo. É combustível.
 O George Brooks passou quatro décadas construindo isso, no que ficou conhecido como lançadeira do lactato.
 
 O lactato é produzido o tempo todo. Inclusive em repouso, com oxigênio de sobra. Ele sai da fibra que o produziu e é captado e queimado por outros tecidos. Por fibras vizinhas mais oxidativas. Pelo coração. Pelo cérebro. E pelo fígado, que usa o lactato para fazer glicose de novo.
-
----
-
-📊 **[SLIDE 9 DE 16]**
-*Visual: três cartões: fonte de energia, matéria-prima para fazer glicose e molécula de sinalização.*
-*Teleprompter: (enumera, e para no terceiro)*
 
 Então são três funções, e as três são úteis.
 
@@ -138,8 +114,8 @@ Pensa nisso com calma. A substância que a gente aprendeu a chamar de lixo metab
 
 ---
 
-📊 **[SLIDE 10 DE 16]**
-*Visual: duas barras de queda de força com a mesma acidez: uma grande em músculo a 12 °C, outra pequena a 32 °C, e ao lado a queimação, que continua.*
+📊 **[SLIDE 6 DE 10]**
+*Visual: a fosfocreatina se quebrando em creatina e fosfato; uma barra de fosfato inorgânico subindo de 5 para 30 milimolar; do fosfato saem duas setas: uma para a ponte cruzada e outra para a liberação de cálcio.*
 *Teleprompter: (responde a pergunta que o aluno já está fazendo)*
 
 A essa altura o aluno já está com a pergunta certa na cabeça. Se não é o lactato, o que causa a queimação e a perda de força?
@@ -151,12 +127,6 @@ O íon hidrogênio tem o seu papel. Ele contribui para a queimação, agindo sob
 Lembra do músculo de rã em temperatura de laboratório? Quando refizeram os experimentos em músculo de mamífero, a acidez derrubava bem mais a força a doze graus do que a trinta e dois. Na temperatura do corpo, o efeito encolhe muito.
 
 Queimação, sim. Queda de força, bem menos.
-
----
-
-📊 **[SLIDE 11 DE 16]**
-*Visual: a fosfocreatina se quebrando em creatina e fosfato; uma barra de fosfato inorgânico subindo de 5 para 30 milimolar; do fosfato saem duas setas: uma para a ponte cruzada e outra para a liberação de cálcio.*
-*Teleprompter: (tom de revelação, liga com a aula passada)*
 
 O candidato que ocupou o lugar tem nome e tem número. O fosfato inorgânico.
 
@@ -170,8 +140,8 @@ Então a fadiga periférica intensa não é envenenamento por ácido. É o acúm
 
 ---
 
-📊 **[SLIDE 12 DE 16]**
-*Visual: linha do tempo de 72 horas: o lactato do sangue voltando ao normal nas primeiras horas, e a curva de dor começando no dia seguinte, com pico entre 48 e 72 horas.*
+📊 **[SLIDE 7 DE 10]**
+*Visual: duas curvas de dor ao longo de uma semana: a da primeira sessão, alta, e a da mesma sessão repetida uma semana depois, bem mais baixa; acima, as palavras excêntrico e não habituado.*
 *Teleprompter: (tom prático, basta olhar o relógio)*
 
 Falta a segunda frase da abertura. A da dor de dois dias. E ela é a mais fácil de derrubar, porque basta olhar o relógio.
@@ -183,12 +153,6 @@ A dor aparece no dia seguinte e tem pico entre quarenta e oito e setenta e duas 
 Uma substância que já foi embora não causa uma dor que ainda nem começou.
 
 E repara no tamanho do estrago. Toda uma indústria de recuperação foi vendida com o argumento de remover uma coisa que o corpo remove sozinho em pouco tempo, e que enquanto está lá está sendo usada como combustível. Algumas dessas intervenções têm outros efeitos, e a gente discute isso no módulo de reabilitação. Mas o motivo pelo qual elas são vendidas é falso.
-
----
-
-📊 **[SLIDE 13 DE 16]**
-*Visual: duas curvas de dor ao longo de uma semana: a da primeira sessão, alta, e a da mesma sessão repetida uma semana depois, bem mais baixa; acima, as palavras excêntrico e não habituado.*
-*Teleprompter: (explica o mecanismo e chega na conduta)*
 
 O que é, então, a dor de dois dias? É dano na estrutura fina do músculo, provocado principalmente por contração excêntrica ou por um gesto ao qual a pessoa não está habituada. Depois vem degradação de proteína e uma resposta inflamatória local. É essa inflamação, sensibilizando os receptores, que dói.
 
@@ -202,7 +166,7 @@ Então, para a pergunta mais comum do consultório e da sala de musculação, "o
 
 ---
 
-📊 **[SLIDE 14 DE 16]**
+📊 **[SLIDE 8 DE 10]**
 *Visual: fundo vermelho, quatro sinais em cartões: dor desproporcional que não melhora, inchaço importante, fraqueza marcante, urina escura.*
 *Teleprompter: (muda o tom, é o limite clínico)*
 
@@ -216,7 +180,7 @@ Esse quadro aparece com mais frequência em iniciante que fez uma primeira sess�
 
 ---
 
-📊 **[SLIDE 15 DE 16]**
+📊 **[SLIDE 9 DE 10]**
 *Visual: uma fibra muscular com três adaptações marcadas: tampões dentro da fibra, transportadores na membrana levando lactato e próton para fora, e a cabeça do atleta aguentando o desconforto.*
 *Teleprompter: (responde se dá para treinar esse sistema)*
 
@@ -232,7 +196,7 @@ Existem recursos nutricionais que atuam sobre o tamponamento, e eles têm aula p
 
 ---
 
-📊 **[SLIDE 16 DE 16]**
+📊 **[SLIDE 10 DE 10]**
 *Visual: duas colunas, "o que se diz" e "o que se diz no lugar", com as três frases da abertura de um lado e as três trocas do outro.*
 *Teleprompter: (fecha pelo que fazer no lugar, e emenda)*
 
@@ -266,87 +230,69 @@ Na próxima conversa a gente vai para o sistema que sustenta praticamente tudo o
 
 ## Roteiro Gamma.app
 
-**Slide 1** — Três frases de todo dia
+**Slide 1** — Três frases de todo dia · Por que convence
 · "Pedala leve para tirar o ácido lático" · "essa dor é o lactato acumulado" · "massagem drena"
 · Erradas **pelo motivo, pelo mecanismo, pelas duas coisas**
-Visual: três cartões riscados.
-
-**Slide 2** — Por que convence
 · Hill e Meyerhof, **Nobel de 1922**, boa parte em **músculo de rã**
 · Lactato, queimação e queda de força **sobem juntos**
 · **Junto não é por causa**
 Visual: três curvas subindo juntas.
 
-**Slide 3** — De onde vem o combustível
+**Slide 2** — De onde vem o combustível · O plano de velocidade
 · **Glicogênio de dentro da fibra** (um passo a menos) e **glicose do sangue**
 · O estoque da fibra se repõe **em horas, com comida**, não com gel no meio do treino
-Visual: fibra, glicogênio e capilar.
-
-**Slide 4** — O plano de velocidade
 · A glicólise entrega ATP **bem mais rápido** que a mitocôndria
 · **Não é o plano B do músculo sem oxigênio**
 · Quem abre a torneira é **contabilidade local** dentro da fibra
-Visual: torneiras e a faixa de demanda.
+Visual: fibra, glicogênio e capilar.
 
-**Slide 5** — A frase-chave
+**Slide 3** — A frase-chave · Bioquímica em três frases
 · Intensidade sobe → **fibra rápida entra** → **mais lactato mesmo com oxigênio**
-Visual: recrutamento e curva de lactato.
-
-**Slide 6** — Bioquímica em três frases
 · Produz **lactato e H⁺**, por reações diferentes
 · O H⁺ vem em boa parte da **quebra do ATP**
 · **Formar lactato consome próton**
 Visual: a via com as duas saídas do piruvato.
 
-**Slide 7** — Acompanhante, não agente
+**Slide 4** — Acompanhante, não agente
 · Detalhes em debate; **a conclusão prática, não**
 · **Uma causa, dois sinais**: termômetro e febre
 Visual: causa comum e seta riscada.
 
-**Slide 8** — A lançadeira
+**Slide 5** — A lançadeira · Três funções
 · Produzido **o tempo todo, inclusive em repouso**
 · Queimado por **fibra oxidativa, coração, cérebro**; o **fígado** faz glicose
-Visual: lactato indo para quatro destinos.
-
-**Slide 9** — Três funções
 · **Energia · matéria-prima de glicose · sinal**
 · O "lixo" ajuda a mandar **construir mitocôndria**
-Visual: três cartões.
+Visual: lactato indo para quatro destinos.
 
-**Slide 10** — Queimação, sim
+**Slide 6** — Queimação, sim · O fosfato inorgânico
 · H⁺ contribui para a **queimação**
 · Efeito na força **muito maior a 12 °C que a 32 °C**
-Visual: duas barras de queda de força.
-
-**Slide 11** — O fosfato inorgânico
 · Sobe de **~5 para ~30 mM**
 · Atrapalha a **ponte cruzada** e a **liberação de cálcio**
 · Vem da **fosfocreatina**: a potência paga na própria moeda
 Visual: PCr → Pi e as duas setas.
 
-**Slide 12** — O relógio
+**Slide 7** — O relógio · Excêntrico e não habituado
 · Lactato do sangue perto do normal em **1 a 2 h**, sozinho
 · Dor com pico em **48 a 72 h**
-Visual: linha do tempo de 72 horas.
-
-**Slide 13** — Excêntrico e não habituado
 · Dano estrutural + inflamação
 · **Efeito da sessão repetida**
 · A resposta é **dose**
 Visual: duas curvas de dor.
 
-**Slide 14** — Bandeira vermelha
+**Slide 8** — Bandeira vermelha
 · Dor desproporcional · inchaço · fraqueza marcante · **urina escura**
 · **Rabdomiólise até prova em contrário: avaliação no mesmo dia**
 Visual: quatro sinais em fundo vermelho.
 
-**Slide 15** — Treinar o glicolítico
+**Slide 9** — Treinar o glicolítico
 · Melhora **tolerância**, não produção
 · **Tamponamento · transportadores · tolerância ao desconforto**
 · Assinatura: **decremento alto** de propósito
 Visual: fibra com as três adaptações.
 
-**Slide 16** — O que se diz no lugar
+**Slide 10** — O que se diz no lugar
 · Desaquecimento: **diga o que é**
 · Dor de dois dias: **mexa na progressão**
 · Diga **lactato**; lactato medido é **marcador**
@@ -355,6 +301,8 @@ Visual: duas colunas.
 ---
 
 ## Notas de produção (não falado, não vai para o slide)
+
+**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 16, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 16 slides.
 
 **O que mudou nesta versão.** Voz do curso, dezesseis slides no lugar de seis, um visual por bloco.
 Saíram as menções numeradas a aulas e módulos e a palavra "elegância". Saiu o número "duas a três

@@ -292,6 +292,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Dois lembretes",
                     {"t": "As outras profissões", "x": "Leem a planilha e reconhecem quando a intensidade explica o platô, a fadiga ou a lesão que se repete."}],
           "quem": "A pior leitura do laudo é a que olha só o número grande do topo."})
 
+# deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
+MANTER = ['quebras', 'sustenta', 'cadeia', 'denominador', 'caso', 'sete', 'moeda', 'campo', 'percentual', 'fecho']
+S = [s for s in S if s["id"] in MANTER]
+
 spec = {"arquivo": "aulas/MOD02/02-08-limiares-vo2max-e-leitura-da-ergoespirometria.md", "modulo": "Fisiologia do Exercício Aplicada",
         "titulo": "O laudo na mesa", "subtitulo": "Limiares, VO₂máx e leitura da ergoespirometria",
         "nota_capa": "Entra pela cena do laudo.",

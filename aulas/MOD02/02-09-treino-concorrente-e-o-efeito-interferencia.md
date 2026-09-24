@@ -2,12 +2,12 @@
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 20 minutos · 19 slides · Arquitetura: DECISÃO
+Duração: 20 minutos · 11 slides · Arquitetura: DECISÃO
 
 ---
 
-📊 **[SLIDE 1 DE 19]**
-*Visual: a pergunta do paciente em tela cheia, e a versão espelhada embaixo.*
+📊 **[SLIDE 1 DE 11]**
+*Visual: três curvas de força de perna ao longo de dez semanas. Só força sobe o tempo todo; força e endurance sobe, achata perto da oitava semana e cai nas duas últimas; só endurance fica quase parada. Esquema, sem valores medidos.*
 *Teleprompter: (entra pela pergunta que chega pronta)*
 
 "Se eu fizer musculação, vai atrapalhar a minha corrida?"
@@ -17,12 +17,6 @@ E a versão espelhada, que chega com a mesma frequência: "se eu correr, vou per
 Essa é a decisão desta aula. E ela é mais comum do que qualquer outra que a gente discutiu até aqui, porque praticamente todo mundo que você atende faz, ou deveria fazer, as duas coisas.
 
 Antes de decidir, o achado que criou o problema.
-
----
-
-📊 **[SLIDE 2 DE 19]**
-*Visual: três curvas de força de perna ao longo de dez semanas. Só força sobe o tempo todo; força e endurance sobe, achata perto da oitava semana e cai nas duas últimas; só endurance fica quase parada. Esquema, sem valores medidos.*
-*Teleprompter: (o experimento de 1980, contado devagar)*
 
 Em 1980, Robert Hickson montou três grupos e treinou durante dez semanas. Um grupo fez só força, cinco dias por semana. Outro fez só endurance, seis dias por semana. E o terceiro fez as duas rotinas inteiras, somadas.
 
@@ -34,7 +28,7 @@ Isso ficou conhecido como efeito interferência. Só que repara no desenho: o gr
 
 ---
 
-📊 **[SLIDE 3 DE 19]**
+📊 **[SLIDE 2 DE 11]**
 *Visual: duas colunas. À esquerda, a camada molecular: tensão mecânica diz "construa", a AMPK diz "economize". À direita, a camada prática: glicogênio baixo, fadiga neuromuscular, sessão pior.*
 *Teleprompter: (as duas explicações, lado a lado)*
 
@@ -50,12 +44,6 @@ Quem correu doze quilômetros de manhã chega à academia à noite com menos gli
 
 Vale registrar que a leitura molecular simples, "a AMPK desliga a construção, logo aeróbico atrapalha músculo", envelheceu. A sinalização real depende de tempo, de dose e de estado nutricional. Não funciona como interruptor. O que sobreviveu bem dos mais de quarenta anos desde Hickson foi o achado prático. O mecanismo exato continua em discussão.
 
----
-
-📊 **[SLIDE 4 DE 19]**
-*Visual: frase em tela cheia.*
-*Teleprompter: (pausa, a frase que decide a conduta)*
-
 Por isso, guarda esta distinção, porque é ela que decide a conduta.
 
 A maior parte da interferência que a gente vê no atleta real é fadiga, não sinalização.
@@ -64,8 +52,8 @@ E fadiga tem solução de agenda. Sinalização, muito menos.
 
 ---
 
-📊 **[SLIDE 5 DE 19]**
-*Visual: barras de tamanho de efeito para ganho de potência: só força 0,91; concorrente 0,55; só endurance 0,11. Embaixo, o que mais pesou: modalidade, frequência e duração do endurance.*
+📊 **[SLIDE 3 DE 11]**
+*Visual: quatro desfechos lado a lado. Hipertrofia: preservada. Força máxima: preservada. Força explosiva: atenuada, sobretudo na mesma sessão. Capacidade aeróbica: preservada.*
 *Teleprompter: (a primeira grande síntese)*
 
 Agora o tamanho do efeito. E aqui aconteceu uma coisa que vale mostrar, porque é a evidência se corrigindo em público.
@@ -73,12 +61,6 @@ Agora o tamanho do efeito. E aqui aconteceu uma coisa que vale mostrar, porque �
 Em 2012, Wilson e colaboradores juntaram vinte e um estudos numa meta-análise. Olha a potência: quem treinou só força teve um tamanho de efeito de 0,91. Quem fez concorrente, 0,55. Quem fez só endurance, 0,11.
 
 E o que mais pesou foi o tipo de endurance escolhido: a modalidade, a frequência e a duração. Correr junto com a musculação reduziu hipertrofia e força. Pedalar, não. A explicação mais provável é o componente excêntrico da corrida, que machuca mais o músculo, e o fato de ela envolver mais massa muscular.
-
----
-
-📊 **[SLIDE 6 DE 19]**
-*Visual: quatro desfechos lado a lado. Hipertrofia: preservada. Força máxima: preservada. Força explosiva: atenuada, sobretudo na mesma sessão. Capacidade aeróbica: preservada.*
-*Teleprompter: (a leitura de dez anos depois)*
 
 Dez anos depois, em 2022, Schumann e colaboradores atualizaram a meta-análise com quarenta e três estudos. E o resultado foi mais tranquilizador e mais específico.
 
@@ -92,7 +74,7 @@ E a capacidade aeróbica, desde Hickson, praticamente não sofre. A interferênc
 
 ---
 
-📊 **[SLIDE 7 DE 19]**
+📊 **[SLIDE 4 DE 11]**
 *Visual: três pessoas lado a lado, destreinada, moderadamente treinada e treinada; só a treinada tem a força de perna marcada como atenuada, e só quando as sessões ficam a menos de 20 minutos uma da outra. Com mais de 2 horas, não.*
 *Teleprompter: (para quem ela aparece)*
 
@@ -104,12 +86,6 @@ E mesmo nos treinados, ela apareceu quando força e endurance eram feitos com me
 
 Então o retrato é este: a interferência é real, mas mora num lugar específico. Pessoa já treinada, perseguindo força ou explosão, com as duas coisas coladas.
 
----
-
-📊 **[SLIDE 8 DE 19]**
-*Visual: corrida e ciclismo lado a lado. Na corrida, a marca do impacto e do excêntrico; no ciclismo, o movimento concêntrico e sem impacto.*
-*Teleprompter: (a modalidade importa)*
-
 Um detalhe sobre a modalidade, porque ele vira conduta.
 
 Além do achado sobre corrida e bicicleta, uma meta-análise de 2022 olhou a hipertrofia no nível da fibra. O músculo inteiro não pareceu prejudicado. Mas dentro da fibra apareceu um pequeno efeito negativo. E, com evidência ainda preliminar, esse efeito foi maior quando o aeróbico era corrida do que quando era bicicleta, pelo menos nas fibras do tipo I.
@@ -118,8 +94,8 @@ A leitura prática: num bloco em que a prioridade é força, o aeróbico de meno
 
 ---
 
-📊 **[SLIDE 9 DE 19]**
-*Visual: frase em tela cheia.*
+📊 **[SLIDE 5 DE 11]**
+*Visual: três caminhos saindo de um mesmo ponto: mesma sessão, dias separados, blocos com ênfase rotativa, cada um com a vantagem e o custo.*
 *Teleprompter: (a leitura para o atleta real deste curso)*
 
 Agora a leitura para o atleta real deste curso.
@@ -130,12 +106,6 @@ O efeito interferência é problema para quem persegue desempenho máximo em for
 
 E dizer isso importa. Porque o medo da interferência afasta gente do treino de força. E treino de força é, de longe, o que mais falta no atleta real.
 
----
-
-📊 **[SLIDE 10 DE 19]**
-*Visual: três caminhos saindo de um mesmo ponto: mesma sessão, dias separados, blocos com ênfase rotativa, cada um com a vantagem e o custo.*
-*Teleprompter: (tom de encruzilhada)*
-
 A decisão, então, é de organização. E existem três saídas, todas defensáveis.
 
 A saída A: as duas no mesmo dia, até na mesma sessão. A saída B: dias diferentes. A saída C: blocos com ênfase rotativa.
@@ -144,7 +114,7 @@ Vou percorrer uma a uma, com o que cada uma custa.
 
 ---
 
-📊 **[SLIDE 11 DE 19]**
+📊 **[SLIDE 6 DE 11]**
 *Visual: duas sessões combinadas lado a lado. Força primeiro e aeróbico depois: mais ganho de força dinâmica de perna. Aeróbico primeiro: menos. Hipertrofia e VO₂máx: iguais nas duas ordens.*
 *Teleprompter: (saída A, primeira regra: a ordem)*
 
@@ -158,12 +128,6 @@ A regra que sai daí é simples: primeiro o que é prioridade. A primeira sessã
 
 Parece óbvio, e quase ninguém faz. Porque a ordem costuma ser decidida pelo horário da academia, não pela prioridade.
 
----
-
-📊 **[SLIDE 12 DE 19]**
-*Visual: três linhas do tempo de um mesmo dia: força e aeróbico colados, separados por 6 horas, separados por 24 horas. Só a colada ganhou menos força máxima.*
-*Teleprompter: (saída A, segunda regra: o intervalo)*
-
 A segunda regra é o intervalo.
 
 Um estudo de 2016 fez exatamente esse teste com jogadores amadores de rúgbi durante sete semanas. Força sempre antes, aeróbico depois. Um grupo sem intervalo nenhum, um com seis horas, um com vinte e quatro horas.
@@ -176,7 +140,7 @@ O custo de errar aqui é sutil: a pessoa faz tudo, se cansa bastante, e o lado q
 
 ---
 
-📊 **[SLIDE 13 DE 19]**
+📊 **[SLIDE 7 DE 11]**
 *Visual: duas semanas em calendário. Na de cima, perna pesada na sexta à noite e 20 km no sábado de manhã, com a colisão marcada. Na de baixo, a perna foi para terça e a colisão sumiu.*
 *Teleprompter: (saída B, dias diferentes)*
 
@@ -192,7 +156,7 @@ O custo dessa saída: exige quatro ou cinco dias por semana, e nem todo mundo te
 
 ---
 
-📊 **[SLIDE 14 DE 19]**
+📊 **[SLIDE 8 DE 11]**
 *Visual: uma linha do tempo de três blocos de 8 a 12 semanas. A força e a corrida alternam o papel de desenvolvimento e de manutenção; nenhuma das duas vai a zero. No último bloco antes da prova, o erro marcado: a força zerada.*
 *Teleprompter: (saída C, blocos)*
 
@@ -206,12 +170,6 @@ Cada capacidade recebe, em algum momento, o estímulo e a recuperação de que p
 
 O custo de errar nessa saída tem nome, e é o erro mais comum do corredor amador em preparação de prova: ele zera a força nas doze semanas finais. Justamente quando o volume de corrida está maior e a proteção do músculo mais importa. Chega à prova mais fraco.
 
----
-
-📊 **[SLIDE 15 DE 19]**
-*Visual: a dose de manutenção em números. Mais jovens: 1 sessão por semana, 1 série por exercício, até 32 semanas, com a carga relativa mantida. Mais velhos: até 2 sessões e 2 a 3 séries para manter o tamanho do músculo.*
-*Teleprompter: (manutenção custa pouco, com uma condição)*
-
 E quanto custa manter? Menos do que parece.
 
 Uma revisão de 2021 foi atrás exatamente dessa pergunta. Em pessoas mais jovens, força e tamanho do músculo foram mantidos por até trinta e duas semanas com uma sessão de força por semana e uma série por exercício. Com uma condição: a carga relativa mantida. Em pessoas mais velhas, manter o tamanho do músculo pode pedir até duas sessões por semana, com duas a três séries.
@@ -222,7 +180,7 @@ Manutenção não é abandono. E vale nos dois sentidos: quem entra num bloco de
 
 ---
 
-📊 **[SLIDE 16 DE 19]**
+📊 **[SLIDE 9 DE 11]**
 *Visual: duas colunas. À esquerda, onde a interferência importa: levantador, velocista, saltador, lutador em fase específica, fase de competição de força. À direita, onde ela é nota de rodapé: corredor de rua, quem treina por saúde, master, coletivo amador com organização.*
 *Teleprompter: (quem é quem)*
 
@@ -236,12 +194,6 @@ E repara que o raciocínio se inverte com a idade, e isso quase nunca é dito. N
 
 Tem ainda o jogador de esporte coletivo amador. Vôlei, futsal, basquete, handebol. Ele precisa de base aeróbica para recuperar entre os esforços, como a gente viu lá no começo do módulo, e de força e potência para os esforços em si. Não existe escolher. Nele, a organização é tudo: força na semana, longe do jogo, e volume aeróbico moderado.
 
----
-
-📊 **[SLIDE 17 DE 19]**
-*Visual: a recomendação da OMS para adultos em duas faixas: 150 a 300 minutos de atividade aeróbica moderada por semana, e fortalecimento muscular em 2 ou mais dias.*
-*Teleprompter: (o argumento que fecha a questão para a maioria)*
-
 E tem um argumento de saúde pública que fecha a questão para a maioria.
 
 As diretrizes da Organização Mundial da Saúde de 2020 pedem, para adultos, de cento e cinquenta a trezentos minutos de atividade aeróbica moderada por semana. E fortalecimento muscular em dois ou mais dias.
@@ -250,7 +202,7 @@ Quem segue essa recomendação está fazendo treino concorrente. E está fazendo
 
 ---
 
-📊 **[SLIDE 18 DE 19]**
+📊 **[SLIDE 10 DE 11]**
 *Visual: uma pergunta no centro, "o que é prioridade nesta fase?", com quatro decisões saindo dela: horário, manutenção, modalidade, comida. Embaixo, os três sinais de colisão.*
 *Teleprompter: (fecha no critério, não na resposta)*
 
@@ -272,7 +224,7 @@ E como você sabe, olhando uma semana, que o problema é interferência? Três s
 
 ---
 
-📊 **[SLIDE 19 DE 19]**
+📊 **[SLIDE 11 DE 11]**
 *Visual: fecho com as duas regras, quem faz o quê e a frase final.*
 *Teleprompter: (fecha e emenda na próxima aula)*
 
@@ -300,6 +252,8 @@ Na próxima aula a gente vai para o assunto que atravessou todas as anteriores s
 ---
 
 ## Notas de produção (não falado, não vai para o slide)
+
+**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 11 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides.
 
 **O que mudou nesta versão.** Voz do curso, dezenove slides no lugar de cinco. Arquitetura mantida
 em DECISÃO (a aula anterior é PROCEDIMENTO). Sem caso clínico: o exemplo de sexta e sábado é de

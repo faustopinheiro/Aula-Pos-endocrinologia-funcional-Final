@@ -342,11 +342,15 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Duas regras",
                     {"t": "As outras profissões", "x": "Olham o calendário e enxergam a colisão por trás de “meu rendimento caiu” ou “meu tendão dói”."}],
           "quem": "Três dias por semana? Sessão combinada, a prioridade primeiro. A que se cumpre vence quase sempre."})
 
+# deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
+MANTER = ['hickson', 'camadas', 'schumann', 'treinados', 'saidas', 'ordem', 'calendario', 'blocos', 'quem', 'criterio', 'fecho']
+S = [s for s in S if s["id"] in MANTER]
+
 spec = {"arquivo": "aulas/MOD02/02-09-treino-concorrente-e-o-efeito-interferencia.md", "modulo": "Fisiologia do Exercício Aplicada",
         "titulo": "O calendário, não a molécula", "subtitulo": "Treino concorrente e o efeito interferência",
         "nota_capa": "Entra pela pergunta que chega pronta.",
         "secoes": {"origem": ["De onde vem o medo: Hickson e as duas camadas.", "capa"],
-                   "evidencia": ["O que a evidência diz hoje, e para quem.", "wilson"],
+                   "evidencia": ["O que a evidência diz hoje, e para quem.", "schumann"],
                    "saidas": ["Três saídas de organização.", "saidas"],
                    "criterio": ["Para quem importa e o critério.", "quem"]},
         "slides": S}

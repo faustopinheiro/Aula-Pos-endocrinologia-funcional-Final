@@ -2,12 +2,12 @@
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 23 minutos · 19 slides · Arquitetura: NÚMERO
+Duração: 23 minutos · 10 slides · Arquitetura: NÚMERO
 
 ---
 
-📊 **[SLIDE 1 DE 19]**
-*Visual: três números grandes: 0,52 grama por minuto, 62% do VO₂máx e mais ou menos 0,15.*
+📊 **[SLIDE 1 DE 10]**
+*Visual: curva de oxidação de gordura contra intensidade, subindo até o pico perto de 62% e caindo depois, com uma faixa de variação individual em volta do pico e a queda marcada em gramas.*
 *Teleprompter: (entra pelo número, devagar)*
 
 Meio grama por minuto.
@@ -20,12 +20,6 @@ E o terceiro número, que é o que segura a onda: mais ou menos zero vírgula qu
 
 Guarda esses três números. A aula inteira é o que se faz com eles.
 
----
-
-📊 **[SLIDE 2 DE 19]**
-*Visual: curva de oxidação de gordura contra intensidade, subindo até o pico perto de 62% e caindo depois, com uma faixa de variação individual em volta do pico e a queda marcada em gramas.*
-*Teleprompter: (vai pela curva)*
-
 Agora olha a curva.
 
 Em intensidade baixa, a gordura sobe devagar. Chega no pico lá pelos sessenta por cento do VO₂máx. E depois cai.
@@ -36,7 +30,7 @@ E repara na faixa em volta do pico. Ela é larga. A curva existe, o pico existe,
 
 ---
 
-📊 **[SLIDE 3 DE 19]**
+📊 **[SLIDE 2 DE 10]**
 *Visual: o tanque de gordura, com mais de 60.000 quilocalorias, e ao lado a vazão da torneira: uns 30 gramas por hora, perto de 280 quilocalorias por hora.*
 *Teleprompter: (faz a conta em voz alta)*
 
@@ -52,7 +46,7 @@ O tanque é imenso e a torneira é estreita. Essa desproporção é a coisa mais
 
 ---
 
-📊 **[SLIDE 4 DE 19]**
+📊 **[SLIDE 3 DE 10]**
 *Visual: uma régua da razão de troca respiratória de 0,70 a 1,00, com a mistura de gordura e carboidrato mudando ao longo dela: 0,70 só gordura, 0,85 perto de meio a meio, 1,00 só carboidrato.*
 *Teleprompter: (explica como se enxerga uma coisa invisível)*
 
@@ -64,12 +58,6 @@ A relação entre o gás carbônico que a pessoa solta e o oxigênio que ela con
 
 É não invasivo e funciona. Mas tem duas limitações que precisam vir junto, senão o número engana.
 
----
-
-📊 **[SLIDE 5 DE 19]**
-*Visual: a razão de troca respiratória subindo com a intensidade e passando de 1,00; acima dessa linha, uma faixa marcada "CO₂ do tamponamento, não é combustível".*
-*Teleprompter: (liga com a aula passada)*
-
 Primeira limitação. Só vale em estado estável. Em intensidade que muda o tempo todo, a leitura não corresponde ao que o músculo está fazendo naquele instante.
 
 Segunda, e essa encaixa com a conversa passada. Acima de certa intensidade, a razão de troca deixa de medir combustível.
@@ -80,8 +68,8 @@ O mesmo fenômeno que desmontou o ácido lático é o que estraga a medida em in
 
 ---
 
-📊 **[SLIDE 6 DE 19]**
-*Visual: o caminho do ácido graxo em cinco etapas, do adipócito até a mitocôndria: mobilizar, viajar no sangue presa à albumina, atravessar a membrana da fibra, passar pela porta da carnitina e entrar na matriz. O glicogênio aparece dentro da fibra, a um passo da via.*
+📊 **[SLIDE 4 DE 10]**
+*Visual: duas barras de quilocalorias por litro de oxigênio: carboidrato perto de 5,0 e gordura perto de 4,7.*
 *Teleprompter: (tom de mecanismo)*
 
 Por que a torneira da gordura é estreita? Porque a gordura tem um caminho longo até virar ATP, e cada etapa tem a sua própria velocidade máxima.
@@ -91,12 +79,6 @@ Acompanha. O ácido graxo precisa ser tirado do adipócito. Precisa viajar no sa
 Cinco etapas, cinco gargalos possíveis.
 
 O carboidrato, quando já está guardado como glicogênio dentro da fibra, está a um passo do começo da via.
-
----
-
-📊 **[SLIDE 7 DE 19]**
-*Visual: duas barras de quilocalorias por litro de oxigênio: carboidrato perto de 5,0 e gordura perto de 4,7.*
-*Teleprompter: (o detalhe que fecha o argumento)*
 
 E tem um detalhe que raramente se ensina e que fecha o argumento. Queimar gordura rende menos energia por litro de oxigênio do que queimar carboidrato.
 
@@ -108,8 +90,8 @@ Então a troca de combustível conforme a intensidade sobe não é defeito do co
 
 ---
 
-📊 **[SLIDE 8 DE 19]**
-*Visual: a porta da mitocôndria com a carnitina; do lado de fora, o fluxo glicolítico alto ocupando a carnitina e deixando o ácido graxo sem passagem.*
+📊 **[SLIDE 5 DE 10]**
+*Visual: duas barras de gasto por minuto: 8 quilocalorias com 60% de gordura, dando 4,8 de gordura, e 14 quilocalorias com 35% de gordura, dando 4,9 de gordura.*
 *Teleprompter: (as duas vias competem)*
 
 E as duas vias não são vizinhas pacíficas. Elas competem.
@@ -119,12 +101,6 @@ Essa competição entre gordura e carboidrato foi descrita há mais de sessenta 
 É por isso que a gordura cai em gramas acima do pico. Não é só que o carboidrato ganha espaço. É que ele fecha a porta do concorrente.
 
 E é por isso que não existe intensidade alta tocada a gordura. Não é falta de treino. É arquitetura.
-
----
-
-📊 **[SLIDE 9 DE 19]**
-*Visual: duas barras de gasto por minuto: 8 quilocalorias com 60% de gordura, dando 4,8 de gordura, e 14 quilocalorias com 35% de gordura, dando 4,9 de gordura.*
-*Teleprompter: (desmonta a zona de queima com aritmética)*
 
 Agora o erro de conduta que nasce de tudo isso. Provavelmente a ideia mais vendida da indústria do exercício: a zona de queima de gordura.
 
@@ -142,7 +118,7 @@ Proporção não é quantidade. O que decide quanto se queima é taxa vezes temp
 
 ---
 
-📊 **[SLIDE 10 DE 19]**
+📊 **[SLIDE 6 DE 10]**
 *Visual: duas colunas: "durante a sessão" e "ao longo de semanas", com o que muda em cada escala de tempo.*
 *Teleprompter: (o erro maior é conceitual)*
 
@@ -160,12 +136,6 @@ Uma ressalva, para não jogar fora o que presta. Mexer na disponibilidade de car
 
 E o treino longo em intensidade baixa vale muito. Por capilar, por mitocôndria, por tolerância. Só não vale pelo motivo que costuma ser vendido.
 
----
-
-📊 **[SLIDE 11 DE 19]**
-*Visual: duas colunas: hipoglicemia, com a cabeça indo junto e melhora em minutos com carboidrato; e glicogênio muscular esgotado, com a cabeça lúcida, a perna sem responder e sem melhora em minutos.*
-*Teleprompter: (a cena do atleta que quebra)*
-
 Antes do próximo teto, uma cena que todo mundo que trabalha com endurance conhece: o atleta que quebra.
 
 Corredor no quilômetro trinta. Ciclista na quarta hora. A velocidade cai, as pernas não respondem, e ele descreve como se o corpo tivesse desligado.
@@ -182,7 +152,7 @@ E a pergunta que separa as duas no consultório é simples: a cabeça foi junto,
 
 ---
 
-📊 **[SLIDE 12 DE 19]**
+📊 **[SLIDE 7 DE 10]**
 *Visual: o intestino com dois transportadores, um para glicose e outro para frutose, e duas barras de oxidação do carboidrato ingerido: 1,06 grama por minuto com glicose sozinha e 1,75 com glicose e frutose.*
 *Teleprompter: (o outro teto está no intestino)*
 
@@ -195,12 +165,6 @@ Por quê? Porque o transportador do intestino que carrega a glicose satura. Voc�
 Aí veio a sacada que mudou a nutrição de endurance. Combinar carboidratos que usam portas diferentes. A glicose usa um transportador, a frutose usa outro. Somando os dois, você soma capacidade em vez de disputar a mesma porta.
 
 Num estudo com ciclistas treinados, a glicose sozinha chegou a um vírgula zero seis grama por minuto. Glicose com frutose, em quantidade maior, chegou a um vírgula setenta e cinco. Durante anos se achou que um grama por minuto era o limite absoluto.
-
----
-
-📊 **[SLIDE 13 DE 19]**
-*Visual: três números: 60 gramas por hora de uma fonte, 90 gramas por hora de fontes combinadas em prova de duas horas e meia ou mais, e "treina-se".*
-*Teleprompter: (o que esse número decide na segunda-feira)*
 
 A recomendação prática que saiu daí: até uns sessenta gramas por hora de uma fonte só. E para prova de duas horas e meia ou mais, perto de noventa gramas por hora, de fontes combinadas.
 
@@ -216,7 +180,7 @@ Quanto, de quê e quando é conduta do nutricionista. O que o resto da equipe pr
 
 ---
 
-📊 **[SLIDE 14 DE 19]**
+📊 **[SLIDE 8 DE 10]**
 *Visual: a cascata: contração repetida gera três sinais, energia baixa pela AMPK, cálcio e sinal redox; os três convergem no PGC-1α, que aciona o núcleo e o DNA da mitocôndria, e o resultado é mitocôndria nova.*
 *Teleprompter: (tom de mecanismo, como o sistema melhora)*
 
@@ -234,12 +198,6 @@ Os três convergem num mesmo alvo, o PGC-1α. Ele funciona como regulador mestre
 
 Uma coisa que o mercado que os seus pacientes frequentam vai contrariar o tempo todo: isso não é comandado por hormônio do crescimento nem por IGF-1. É um programa local, disparado pelo trabalho que o músculo fez. O estímulo que comprovadamente liga isso é de graça.
 
----
-
-📊 **[SLIDE 15 DE 19]**
-*Visual: duas semanas lado a lado em linha do tempo: seis sessões moderadas, cada uma com um pulso de sinal que decai, contra duas sessões muito longas com dois pulsos grandes e dias vazios entre eles.*
-*Teleprompter: (a consequência de prescrição)*
-
 E da natureza do sinal sai uma consequência direta de prescrição.
 
 Se o gatilho é contração repetida, e cada sessão gera um pulso de sinal que decai em horas a poucos dias, então frequência importa muito.
@@ -248,8 +206,8 @@ Olha as duas semanas. Seis sessões moderadas geram seis pulsos. Duas sessões h
 
 ---
 
-📊 **[SLIDE 16 DE 19]**
-*Visual: de um lado, conteúdo mitocondrial: muitas mitocôndrias pequenas; do outro, função mitocondrial: quanto cada uma respira. Acima, "volume ou intensidade? os dois funcionam".*
+📊 **[SLIDE 9 DE 10]**
+*Visual: quatro setas descendo sobre uma mitocôndria: energia disponível baixa, sono curto, inatividade e idade; uma quinta seta tracejada: antioxidante em dose alta.*
 *Teleprompter: (mostra a controvérsia inteira)*
 
 Agora a pergunta que todo mundo faz: volume ou intensidade?
@@ -266,12 +224,6 @@ E existe uma hipótese em disputa: intensidade muito alta, acumulada, pode piora
 
 E isso traz uma distinção que quase não aparece na graduação. Conteúdo mitocondrial não é função mitocondrial. Conteúdo é quanta mitocôndria existe. Função é quanto cada uma respira. As duas podem andar em direções diferentes.
 
----
-
-📊 **[SLIDE 17 DE 19]**
-*Visual: quatro setas descendo sobre uma mitocôndria: energia disponível baixa, sono curto, inatividade e idade; uma quinta seta tracejada: antioxidante em dose alta.*
-*Teleprompter: (tom clínico, o que derruba sem ser treino)*
-
 E a parte que mais muda a conduta de quem atende gente de verdade: a função oxidativa é sensível a coisas que não são treino.
 
 Energia disponível baixa. Restrição de energia por tempo longo compromete a maquinaria oxidativa. A pessoa não está só com menos combustível. Está com menos motor.
@@ -283,12 +235,6 @@ Inatividade. O que o treino construiu em semanas se desmonta em poucas semanas p
 Idade. E aqui um detalhe que muda a conversa. Boa parte da queda atribuída à idade é, na verdade, inatividade acumulada. O idoso ativo mantém capacidade oxidativa muito acima do sedentário da mesma idade. A idade explica menos do que se diz. O sofá explica mais.
 
 E uma advertência sobre uma moda: antioxidante em dose alta para acelerar a recuperação. Lembra que o sinal redox é parte do gatilho? Num ensaio de onze semanas, vitamina C e E em dose alta atenuaram o aumento de proteínas da mitocôndria com o treino de endurance. Isso não é motivo para desconfiar de uma dieta cheia de fruta e verdura, que é outra coisa. É motivo para desconfiar de suplemento antioxidante em dose alta e contínua em quem treina.
-
----
-
-📊 **[SLIDE 18 DE 19]**
-*Visual: uma bifurcação partindo de "treina e não melhora": de um lado, o estímulo está errado, resolvido na planilha; do outro, a matéria-prima não chega, resolvido na conta de energia, sono e recuperação.*
-*Teleprompter: (fecha o raciocínio clínico)*
 
 Com tudo isso na mesa, dá para ler o caso mais comum do consultório. Alguém treina com consistência e não melhora.
 
@@ -302,7 +248,7 @@ A maior parte dos profissionais só pensa na primeira. É por isso que tanta gen
 
 ---
 
-📊 **[SLIDE 19 DE 19]**
+📊 **[SLIDE 10 DE 10]**
 *Visual: três tetos desenhados como linhas horizontais, com uma seta tentando atravessar cada um: taxa de queima de gordura, absorção intestinal de carboidrato e capacidade oxidativa instalada.*
 *Teleprompter: (fecha o fio e emenda)*
 
@@ -338,96 +284,71 @@ Na próxima conversa eu saio de dentro da fibra e vou para o que leva o oxigêni
 
 ## Roteiro Gamma.app
 
-**Slide 1** — Três números
+**Slide 1** — Três números · A curva
 · **0,52 g/min** · **~62% do VO₂máx** · **± 0,15**
-Visual: três números grandes.
-
-**Slide 2** — A curva
 · Acima do pico, a gordura cai **em gramas**, não só em fração
 · A faixa em volta do pico é larga: **individual demais para virar regra**
 Visual: curva com faixa de variação.
 
-**Slide 3** — Tanque e torneira
+**Slide 2** — Tanque e torneira
 · ~30 g/h ≈ **280 kcal/h** · tanque **> 60.000 kcal** · **mais de 200 horas** no pico
 Visual: tanque e vazão.
 
-**Slide 4** — Como se mede
+**Slide 3** — Como se mede · Duas limitações
 · Razão de troca respiratória: **0,70 gordura · 0,85 meio a meio · 1,00 carboidrato**
-Visual: a régua.
-
-**Slide 5** — Duas limitações
 · Só vale em **estado estável**
 · Acima do limiar, o tamponamento solta **CO₂ que não é combustível**
-Visual: RER passando de 1,00.
+Visual: a régua.
 
-**Slide 6** — Cinco etapas
+**Slide 4** — Cinco etapas · Rendimento por litro de O₂
 · Mobilizar · viajar na albumina · atravessar a membrana · **porta da carnitina** · matriz
-Visual: o caminho do ácido graxo.
-
-**Slide 7** — Rendimento por litro de O₂
 · Carboidrato **~5,0 kcal/L** · gordura **~4,7 kcal/L**
 · A troca de combustível é **escolha econômica correta**
 Visual: duas barras.
 
-**Slide 8** — As vias competem
+**Slide 5** — As vias competem · A zona de queima na aritmética
 · Fluxo glicolítico alto **ocupa a carnitina** e fecha a porta da gordura
 · Não é falta de treino: **é arquitetura**
-Visual: a porta da mitocôndria.
-
-**Slide 9** — A zona de queima na aritmética
 · 8 kcal/min × 60% = **4,8** · 14 kcal/min × 35% = **4,9**
 · **Proporção não é quantidade**
 Visual: duas barras.
 
-**Slide 10** — Dias e semanas
+**Slide 6** — Dias e semanas · Quebrar
 · Composição corporal é **balanço de dias e semanas**
 · Jejum: mais gordura **durante**; composição **parecida** em quatro semanas
-Visual: duas colunas.
-
-**Slide 11** — Quebrar
 · Hipoglicemia: **cabeça vai junto**, melhora em minutos
 · Glicogênio muscular: **só a perna**, não melhora em minutos
 · **A cabeça foi junto, ou só a perna?**
 Visual: duas colunas.
 
-**Slide 12** — O teto do intestino
+**Slide 7** — O teto do intestino · O que o número decide
 · Uma fonte: **~1 g/min** · glicose + frutose: **1,75 g/min**
+· **60 g/h** uma fonte · **90 g/h** combinado em prova ≥ 2,5 h · **treina-se**
 Visual: dois transportadores e duas barras.
 
-**Slide 13** — O que o número decide
-· **60 g/h** uma fonte · **90 g/h** combinado em prova ≥ 2,5 h · **treina-se**
-Visual: três números.
-
-**Slide 14** — Como a capacidade cresce
+**Slide 8** — Como a capacidade cresce · Frequência
 · **AMPK · cálcio · redox → PGC-1α → mitocôndria nova**
 · **Não é GH nem IGF-1**
+· Cada sessão é **um pulso** de sinal
 Visual: a cascata.
 
-**Slide 15** — Frequência
-· Cada sessão é **um pulso** de sinal
-Visual: duas semanas em linha do tempo.
-
-**Slide 16** — Volume ou intensidade
+**Slide 9** — Volume ou intensidade · O que derruba sem ser treino · Treina e não melhora
 · **Os dois funcionam** · intervalado é eficiente em tempo
 · **Conteúdo não é função**
-Visual: conteúdo x função.
-
-**Slide 17** — O que derruba sem ser treino
 · Energia baixa · sono curto · inatividade · idade (muito é **sofá**)
 · **Antioxidante em dose alta** atenua a adaptação
+· **Estímulo errado** → planilha · **matéria-prima não chega** → conta
 Visual: quatro setas e uma tracejada.
 
-**Slide 18** — Treina e não melhora
-· **Estímulo errado** → planilha · **matéria-prima não chega** → conta
-Visual: bifurcação.
-
-**Slide 19** — Três tetos
+**Slide 10** — Três tetos
 · Gordura **~0,5 g/min** · carboidrato **~1 a 1,75 g/min** · capacidade instalada, **o único que se move**
 Visual: três linhas e três setas.
 
 ---
 
 ## Notas de produção (não falado, não vai para o slide)
+
+**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides.
 
 **O que mudou nesta versão.** Voz do curso, dezenove slides no lugar de sete. Saíram "É elegante",
 "escopo" e as menções numeradas a aulas. O pico de gordura agora vem de Achten e Jeukendrup 2003

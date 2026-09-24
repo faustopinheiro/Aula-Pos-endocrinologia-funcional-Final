@@ -275,12 +275,16 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Três coisas que ficam",
                     {"t": "Fisioterapia", "x": "Progride carga em tecido lesionado."}],
           "quem": "O osso gosta de impacto e de carga. Nadador e ciclista não recebem isso do próprio esporte."})
 
+# deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
+MANTER = ['numero', 'desenho', 'cruzada', 'tamanho', 'portas', 'iix', 'hipertrofia', 'relogios', 'fecho']
+S = [s for s in S if s["id"] in MANTER]
+
 spec = {"arquivo": "aulas/MOD02/02-07-fisiologia-neuromuscular-unidade-motora-e-fibras.md", "modulo": "Fisiologia do Exercício Aplicada",
         "titulo": "Trinta e cinco dias", "subtitulo": "Fisiologia neuromuscular, unidade motora e fibras",
         "nota_capa": "Entra pelo número.",
         "secoes": {"nervo": ["A força que vem do nervo.", "capa"],
-                   "unidade": ["A unidade motora e o princípio do tamanho.", "unidade"],
-                   "fibras": ["Tipos de fibra e o que o treino muda.", "continuo"],
+                   "unidade": ["A unidade motora e o princípio do tamanho.", "tamanho"],
+                   "fibras": ["Tipos de fibra e o que o treino muda.", "iix"],
                    "estrutura": ["Hipertrofia e o relógio de cada tecido.", "hipertrofia"]},
         "slides": S}
 json.dump(spec, open(os.path.join(os.path.dirname(__file__), "02-07.json"), "w"), ensure_ascii=False, indent=1)

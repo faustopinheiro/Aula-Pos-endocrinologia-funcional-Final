@@ -209,11 +209,15 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Quando a falta de ar não �
                     {"t": "Na altitude", "x": "A pressão do oxigênio cai e a equação muda de lugar. Tem aula própria."}],
           "quem": "Não é o pulmão. É a conta. Até que a história diga o contrário."})
 
+# deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
+MANTER = ['reserva', 'adapta', 'bronco', 'depois', 'diferencas', 'roubo', 'dordelado', 'perguntas', 'fecho']
+S = [s for s in S if s["id"] in MANTER]
+
 spec = {"arquivo": "aulas/MOD02/02-06-sistema-respiratorio-no-exercicio.md", "modulo": "Fisiologia do Exercício Aplicada",
         "titulo": "“Meu pulmão não aguenta”", "subtitulo": "O sistema respiratório no exercício",
         "nota_capa": "Entra pela frase da borda da piscina.",
         "secoes": {"erro": ["A frase e os fatos que a derrubam.", "capa"],
-                   "excecoes": ["Os três quadros que se confundem.", "tres"],
+                   "excecoes": ["Os três quadros que se confundem.", "bronco"],
                    "musculo": ["O músculo que ventila, a dor de lado e as três perguntas.", "roubo"]},
         "slides": S}
 json.dump(spec, open(os.path.join(os.path.dirname(__file__), "02-06.json"), "w"), ensure_ascii=False, indent=1)

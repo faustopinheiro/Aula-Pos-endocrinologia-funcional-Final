@@ -315,6 +315,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "O que interrompe e encaminh
                     {"t": "A frase mais perigosa", "x": "“É coração de atleta”, dita por quem não avaliou."}],
           "quem": "Fisiologia e doença se sobrepõem. Quem decide é a avaliação."})
 
+# deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
+MANTER = ['debito', 'territorios', 'equacao', 'deriva', 'cargaalta', 'hipotensao', 'ordem', 'pseudoanemia', 'ficha', 'fecho']
+S = [s for s in S if s["id"] in MANTER]
+
 spec = {"arquivo": "aulas/MOD02/02-05-respostas-cardiovasculares-agudas-e-cronicas.md", "modulo": "Fisiologia do Exercício Aplicada",
         "titulo": "O coração em ordem", "subtitulo": "Respostas cardiovasculares agudas e crônicas",
         "nota_capa": "Entra pela jogadora de handebol.",

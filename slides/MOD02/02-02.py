@@ -274,6 +274,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Três perguntas antes de es
                     {"t": "Médico e fisioterapeuta", "x": "Lesão que se repete no fim da sessão? Pedem a planilha de intervalos. Para entender, não para mudar."}],
           "quem": "Pausa é conteúdo."})
 
+# deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
+MANTER = ['cena', 'curva', 'saidas', 'relogio', 'criterio', 'decremento', 'agenda', 'vo2', 'fecho']
+S = [s for s in S if s["id"] in MANTER]
+
 spec = {"arquivo": "aulas/MOD02/02-02-sistema-fosfagenico-e-a-decisao-do-intervalo.md", "modulo": "Fisiologia do Exercício Aplicada",
         "titulo": "Pausa é conteúdo", "subtitulo": "O sistema fosfagênico e a decisão do intervalo",
         "nota_capa": "Entra pela cena do nadador e do levantador.",

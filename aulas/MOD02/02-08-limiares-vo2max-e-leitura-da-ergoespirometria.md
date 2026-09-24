@@ -2,12 +2,12 @@
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 24 minutos · 20 slides · Arquitetura: PROCEDIMENTO
+Duração: 24 minutos · 10 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 20]**
-*Visual: um laudo de ergoespirometria esquematizado, com o VO₂máx enorme no topo e, bem menores, duas linhas de limiar que quase ninguém olha.*
+📊 **[SLIDE 1 DE 10]**
+*Visual: o lactato no sangue durante um teste progressivo, com duas quebras de comportamento e três faixas coloridas embaixo: moderado, pesado e severo.*
 *Teleprompter: (entra pela cena e pela pergunta)*
 
 Alguém coloca na sua mesa um laudo de ergoespirometria e pergunta: "e aí, tá bom?"
@@ -16,19 +16,13 @@ No laudo tem um número grande em destaque, o VO₂máx. Tem uma tabela de zonas
 
 Esta aula é o roteiro de leitura desse laudo. E, para ler, primeiro é preciso entender o que está sendo medido.
 
----
-
-📊 **[SLIDE 2 DE 20]**
-*Visual: o lactato no sangue durante um teste progressivo, com duas quebras de comportamento e três faixas coloridas embaixo: moderado, pesado e severo.*
-*Teleprompter: (duas quebras, três domínios)*
-
 Imagina que a gente vai aumentando a intensidade aos poucos, medindo lactato no sangue e ventilação. O que aparece não é uma linha reta. São duas quebras de comportamento. Dois pontos em que o sistema muda de regime.
 
 E essas duas quebras dividem a intensidade em três domínios. Essa é a arquitetura que precisa ficar.
 
 ---
 
-📊 **[SLIDE 3 DE 20]**
+📊 **[SLIDE 2 DE 10]**
 *Visual: três pequenos gráficos de lactato ao longo do tempo em carga constante: no moderado, parado perto do repouso; no pesado, sobe e estabiliza; no severo, sobe sem parar até a exaustão.*
 *Teleprompter: (o comportamento dentro de cada domínio)*
 
@@ -42,12 +36,6 @@ Repara que não é "difícil, mais difícil, muito difícil". São três comport
 
 O limiar não descreve dificuldade. Descreve sustentabilidade.
 
----
-
-📊 **[SLIDE 4 DE 20]**
-*Visual: os dois limiares com o que cada um decide: o primeiro, teto do treino leve; o segundo, a intensidade mais alta em estado estável, de 30 a 60 minutos.*
-*Teleprompter: (os dois pontos, com o que cada um decide)*
-
 Agora os dois pontos, com o que cada um decide.
 
 O primeiro limiar. Ali o lactato começa a subir de forma perceptível acima do repouso, e a ventilação começa a crescer mais que o consumo de oxigênio. Na prática, é a intensidade mais alta que ainda é confortável de sustentar por muito tempo.
@@ -59,12 +47,6 @@ O segundo limiar. Acima dele, o lactato para de estabilizar. É a intensidade ma
 Sobre a quantidade de nomes, porque ela confunde: métodos diferentes marcam pontos próximos, mas não idênticos. Lactato e ventilação são janelas diferentes para o mesmo fenômeno. Para a prática, o que importa é uma estimativa razoável, feita sempre pelo mesmo método, acompanhada ao longo do tempo.
 
 E tem uma tradução que o paciente entende na hora. O limiar explica por que ele "morre" naquele ponto da subida. Não é fraqueza. É uma fronteira fisiológica atravessada, com um relógio correndo a partir dali. A pessoa para de se culpar e passa a administrar.
-
----
-
-📊 **[SLIDE 5 DE 20]**
-*Visual: a palavra "anaeróbico" riscada, com três suposições derrubadas ao lado: falta de oxigênio, lactato por falta de oxigênio e uma linha única.*
-*Teleprompter: (a briga adiada desde o começo do módulo)*
 
 Agora a briga que eu venho adiando desde o começo do módulo. Ela tem mais de cinquenta anos, e importa para o jeito como você ensina o assunto.
 
@@ -84,7 +66,7 @@ Eu discordo, e não por purismo. Nome errado produz conduta errada. Quem acredit
 
 ---
 
-📊 **[SLIDE 6 DE 20]**
+📊 **[SLIDE 3 DE 10]**
 *Visual: a cadeia de entrega de oxigênio em série, pulmão, coração, sangue, vaso e mitocôndria, com o coração destacado como o elo que limita.*
 *Teleprompter: (o número grande do laudo)*
 
@@ -93,12 +75,6 @@ Agora o número grande do laudo. O consumo máximo de oxigênio.
 É a taxa máxima em que o organismo capta, transporta e usa oxigênio. Depende da cadeia inteira: o pulmão capta, o coração bombeia, o sangue carrega, o vaso distribui, a mitocôndria consome.
 
 E qual elo limita? Como a gente viu na aula do coração, em pessoa saudável ao nível do mar o limite principal é a entrega. O débito cardíaco, com o volume de ejeção na frente.
-
----
-
-📊 **[SLIDE 7 DE 20]**
-*Visual: o número 47% em destaque: a parte da resposta do VO₂máx ao treino que vem de família, em 481 sedentários treinados por 20 semanas.*
-*Teleprompter: (o que precisa ser dito ao paciente)*
 
 Três consequências práticas.
 
@@ -112,7 +88,7 @@ Terceira. Em quem já treina, o VO₂máx costuma ser a variável que menos se m
 
 ---
 
-📊 **[SLIDE 8 DE 20]**
+📊 **[SLIDE 4 DE 10]**
 *Visual: a unidade mililitros por quilo por minuto com o "quilo" circulado; ao lado, o mesmo litro por minuto dividido por 80 e por 72 quilos dando números diferentes.*
 *Teleprompter: (a armadilha do denominador)*
 
@@ -124,12 +100,6 @@ E existe um jeito ruim de subir esse número: perder peso às custas de massa ma
 
 E vale separar duas conversas. Uma é sobre desempenho, e aí vale tudo isso. A outra é sobre saúde. Capacidade aeróbica baixa se associa de forma consistente a desfecho ruim, e melhorá-la em quem está muito abaixo do esperado é uma das intervenções mais poderosas da prevenção. No sedentário de cinquenta anos, aumentar o motor é o objetivo. No corredor com nove anos de estrada, quase nunca é.
 
----
-
-📊 **[SLIDE 9 DE 20]**
-*Visual: três alavancas multiplicadas: VO₂máx, o tamanho do motor; limiar, quanto do motor dá para usar; economia, quanto custa cada quilômetro.*
-*Teleprompter: (o paradoxo e o modelo de três fatores)*
-
 Dois corredores com o mesmo VO₂máx, mesma idade, mesmo peso. Um faz dez quilômetros em quarenta minutos, o outro em quarenta e seis. Como?
 
 Joyner e Coyle organizaram isso em dois mil e oito num artigo que virou referência. São três fatores, não um.
@@ -140,8 +110,8 @@ Desempenho é o produto dos três. E a terceira é justamente a que o laudo não
 
 ---
 
-📊 **[SLIDE 10 DE 20]**
-*Visual: dois corredores na mesma velocidade; um consome menos oxigênio que o outro; em volta, o que determina a economia: técnica, rigidez do tendão, distribuição de massa, anos de prática e treino de força.*
+📊 **[SLIDE 5 DE 10]**
+*Visual: um caso ilustrativo: 47 minutos parado por três anos; troca um tiro por duas sessões de força; 44 minutos depois de oito meses; o VO₂máx estimado igual.*
 *Teleprompter: (economia de movimento)*
 
 Economia de movimento é quanto oxigênio a pessoa consome para se manter numa velocidade abaixo do máximo. Quem gasta menos para a mesma velocidade é mais econômico. E a diferença entre pessoas é grande. É isso que resolve o paradoxo.
@@ -158,12 +128,6 @@ Anos de prática. A economia melhora com volume acumulado, devagar.
 
 E treino de força. Esse é o achado que mais muda conduta. Numa meta-análise com corredores de alto nível, programas de força de oito a doze semanas melhoraram a economia de corrida de forma clara. Sem precisar mexer no VO₂máx.
 
----
-
-📊 **[SLIDE 11 DE 20]**
-*Visual: um caso ilustrativo: 47 minutos parado por três anos; troca um tiro por duas sessões de força; 44 minutos depois de oito meses; o VO₂máx estimado igual.*
-*Teleprompter: (um caso ilustrativo, para fixar)*
-
 Pensa num caso ilustrativo, para fixar a ideia. Um corredor de quarenta e seis anos, nove anos de estrada, parado em quarenta e sete minutos nos dez quilômetros há três anos. Tira uma sessão de tiros e coloca duas de força pesada. Meses depois, está correndo abaixo de quarenta e cinco. E o VO₂máx estimado ficou praticamente igual.
 
 O motor era o mesmo. Mudou quanto ele gasta para ir na mesma velocidade.
@@ -174,17 +138,11 @@ Uma advertência, porque ela evita lesão: não refaça a técnica de corrida de
 
 ---
 
-📊 **[SLIDE 12 DE 20]**
+📊 **[SLIDE 6 DE 10]**
 *Visual: o laudo esquematizado com sete marcações numeradas na ordem de leitura, e o VO₂máx do topo marcado como número dois.*
 *Teleprompter: (o roteiro, e o número grande não é o primeiro)*
 
 Agora o roteiro de leitura. Sete passos, em ordem. E o número grande do topo não é o primeiro.
-
----
-
-📊 **[SLIDE 13 DE 20]**
-*Visual: os critérios de esforço máximo em cartões: razão de troca acima de 1,10, frequência a menos de 10 batimentos da prevista, esforço percebido no topo, lactato acima de 8 e platô do consumo de oxigênio.*
-*Teleprompter: (passo um)*
 
 Passo um: o teste foi máximo?
 
@@ -198,7 +156,7 @@ Na prática: se o laudo não diz a razão de troca respiratória atingida, peça
 
 ---
 
-📊 **[SLIDE 14 DE 20]**
+📊 **[SLIDE 7 DE 10]**
 *Visual: passos dois e três: o valor em litros por minuto e em mililitros por quilo; e os dois limiares traduzidos em watts, ritmo e frequência cardíaca.*
 *Teleprompter: (passos dois e três)*
 
@@ -210,12 +168,6 @@ E não basta saber em que percentual do VO₂máx eles caíram. Você precisa de
 
 Ninguém treina em percentual de VO₂máx. A pessoa treina numa velocidade, numa carga, ou olhando o relógio. Se o laudo dá os limiares só em percentual, ele é bonito e inútil para a segunda-feira.
 
----
-
-📊 **[SLIDE 15 DE 20]**
-*Visual: passo quatro: a tabela do programa, com zonas por percentual da frequência máxima, riscada; ao lado, as zonas refeitas a partir dos dois limiares do próprio teste.*
-*Teleprompter: (passo quatro, o que desperdiça o exame)*
-
 Passo quatro: as zonas que o programa gerou.
 
 Aqui eu peço atenção. Muitos programas geram a tabela de zonas por percentual da frequência cardíaca máxima, e não pelos limiares que o próprio teste acabou de medir.
@@ -226,8 +178,8 @@ Se as zonas do laudo não estiverem ancoradas nos limiares, refaça a partir dos
 
 ---
 
-📊 **[SLIDE 16 DE 20]**
-*Visual: passos cinco, seis e sete: a frequência cardíaca subindo e caindo no primeiro minuto de recuperação; a eficiência ventilatória; e o motivo de interrupção do teste.*
+📊 **[SLIDE 8 DE 10]**
+*Visual: dois métodos de campo: o teste do falar para o primeiro limiar e o contrarrelógio de 30 minutos para o segundo, com a frequência média dos últimos 20 minutos.*
 *Teleprompter: (os três últimos passos)*
 
 Passo cinco: a resposta da frequência cardíaca e a recuperação. Como ela subiu, qual foi o pico, quanto caiu no primeiro minuto depois. Recuperação lenta merece atenção, e costuma estar no traçado, não no resumo.
@@ -237,12 +189,6 @@ Passo seis: a eficiência ventilatória, se o laudo trouxer. É a relação entr
 Passo sete: por que o teste terminou, e o que aconteceu durante. Motivo da interrupção, sintomas, alterações no eletrocardiograma, comportamento da pressão. Inclusive aquela diastólica que sobe, da aula do coração.
 
 A interpretação clínica, com eletrocardiograma e sintomas, é médica. A leitura dos limiares e a construção das zonas é do educador físico e do fisiologista do exercício. O laudo atravessa profissões, e cada uma lê uma parte. A pior leitura possível é aquela em que todo mundo olha só o número grande do topo.
-
----
-
-📊 **[SLIDE 17 DE 20]**
-*Visual: dois métodos de campo: o teste do falar para o primeiro limiar e o contrarrelógio de 30 minutos para o segundo, com a frequência média dos últimos 20 minutos.*
-*Teleprompter: (sem laboratório)*
 
 Só que a imensa maioria das pessoas que você atende nunca fez uma ergoespirometria, e nem vai fazer. Como achar os limiares sem laboratório?
 
@@ -254,7 +200,7 @@ Para o segundo limiar: o contrarrelógio de trinta minutos. A velocidade ou pot�
 
 ---
 
-📊 **[SLIDE 18 DE 20]**
+📊 **[SLIDE 9 DE 10]**
 *Visual: duas pessoas da mesma idade e mesma frequência máxima, com o segundo limiar em percentuais diferentes; a mesma zona da planilha cai em domínios diferentes.*
 *Teleprompter: (o que eu não recomendo)*
 
@@ -267,12 +213,6 @@ O segundo problema é maior e é definitivo. O limiar não cai no mesmo percentu
 Prescrever por percentual da máxima coloca pessoas diferentes em domínios fisiológicos diferentes com o mesmo número na planilha. É um dos erros mais comuns e mais invisíveis da prescrição. Invisível porque a planilha fica bonita, e o erro só aparece meses depois, como platô ou como fadiga.
 
 E a frequência cardíaca demora a responder e é mexida por calor, desidratação, cafeína, sono ruim e altitude. Num tiro de três minutos, ela chega no patamar quando o tiro está acabando. Em esforço curto e intenso, velocidade, potência ou esforço percebido prescrevem melhor.
-
----
-
-📊 **[SLIDE 19 DE 20]**
-*Visual: as três zonas com a adaptação de cada uma, e ao lado três alavancas de tamanhos diferentes para quem treina há anos: economia grande, limiar média, VO₂máx pequena.*
-*Teleprompter: (as três zonas e onde mexer)*
 
 Fechando com o que se decide a partir de tudo isso.
 
@@ -290,7 +230,7 @@ As alavancas, em ordem de retorno para essa pessoa: economia, com força, técni
 
 ---
 
-📊 **[SLIDE 20 DE 20]**
+📊 **[SLIDE 10 DE 10]**
 *Visual: dois lembretes: os limiares se movem com o treino, e o cronômetro é mais honesto que o algoritmo.*
 *Teleprompter: (dois lembretes, e emenda)*
 
@@ -323,92 +263,64 @@ Na próxima conversa, o problema que aparece quando alguém tenta treinar as dua
 
 ## Roteiro Gamma.app
 
-**Slide 1** — O laudo na mesa
+**Slide 1** — O laudo na mesa · Duas quebras
 · O número grande no topo · a tabela do programa · **as duas linhas que decidem**
-Visual: laudo esquematizado.
-
-**Slide 2** — Duas quebras
 · **Três domínios**: moderado, pesado, severo
 Visual: lactato no teste progressivo.
 
-**Slide 3** — Sustentabilidade
+**Slide 2** — Sustentabilidade · Os dois limiares · "Anaeróbico"
 · Moderado: **horas** · pesado: **estabiliza** · severo: **não estabiliza**, minutos
-Visual: três gráficos em carga constante.
-
-**Slide 4** — Os dois limiares
 · Primeiro: **teto do treino leve** · segundo: **30 a 60 min** em estado estável
-Visual: dois limiares e o que decidem.
-
-**Slide 5** — "Anaeróbico"
 · Sem falta de oxigênio · lactato não é falta de oxigênio · **não há linha única**
 · **Nome errado produz conduta errada**
-Visual: a palavra riscada.
+Visual: três gráficos em carga constante.
 
-**Slide 6** — O VO₂máx
+**Slide 3** — O VO₂máx · Genética e resposta
 · Depende da cadeia; em saudável, **a entrega limita**
+· HERITAGE: até **47%** da resposta vem de família
 Visual: cadeia de entrega.
 
-**Slide 7** — Genética e resposta
-· HERITAGE: até **47%** da resposta vem de família
-Visual: o número.
-
-**Slide 8** — O denominador
+**Slide 4** — O denominador · Três fatores
 · 3 L/min: **37,5** com 80 kg · **41,7** com 72 kg
 · Saúde e desempenho são conversas diferentes
+· **Motor · quanto dá para usar · quanto custa**
 Visual: a unidade com o quilo circulado.
 
-**Slide 9** — Três fatores
-· **Motor · quanto dá para usar · quanto custa**
-Visual: três alavancas.
-
-**Slide 10** — Economia
+**Slide 5** — Economia · Caso ilustrativo
 · Técnica · tendão · massa · anos · **força**
-Visual: dois corredores.
-
-**Slide 11** — Caso ilustrativo
 · Troca um tiro por **duas sessões de força**; o tempo cai, o VO₂máx não
 Visual: o caso.
 
-**Slide 12** — Sete passos
+**Slide 6** — Sete passos · O teste foi máximo?
 · **O VO₂máx é o passo dois**
+· RER > 1,10 · FC ± 10 bpm · esforço no topo · lactato > 8 · platô · **peça a RER**
 Visual: laudo com sete marcações.
 
-**Slide 13** — O teste foi máximo?
-· RER > 1,10 · FC ± 10 bpm · esforço no topo · lactato > 8 · platô · **peça a RER**
-Visual: critérios.
-
-**Slide 14** — Valor e limiares
+**Slide 7** — Valor e limiares · As zonas do programa
 · L/min e mL/kg/min · limiares em **watts, ritmo e FC**
+· Por % da FC máxima? **Refaça pelos limiares**
 Visual: passos dois e três.
 
-**Slide 15** — As zonas do programa
-· Por % da FC máxima? **Refaça pelos limiares**
-Visual: tabela riscada e zonas refeitas.
-
-**Slide 16** — Os três últimos passos
+**Slide 8** — Os três últimos passos · Sem laboratório
 · Recuperação da FC · eficiência ventilatória · por que terminou
-Visual: passos cinco a sete.
-
-**Slide 17** — Sem laboratório
 · **Teste do falar** · **contrarrelógio de 30 min**
 Visual: dois métodos.
 
-**Slide 18** — Por que não % da FC máxima
+**Slide 9** — Por que não % da FC máxima · Três zonas, três alavancas
 · 208 − 0,7 × idade é melhor e ainda é população
 · **O limiar não cai no mesmo percentual**
+· Para quem treina há anos: **economia → limiar → VO₂máx**
 Visual: duas pessoas, domínios diferentes.
 
-**Slide 19** — Três zonas, três alavancas
-· Para quem treina há anos: **economia → limiar → VO₂máx**
-Visual: zonas e alavancas.
-
-**Slide 20** — Dois lembretes
+**Slide 10** — Dois lembretes
 · **Os limiares se movem** · **o cronômetro é mais honesto que o algoritmo**
 Visual: dois lembretes.
 
 ---
 
 ## Notas de produção (não falado, não vai para o slide)
+
+**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 20, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 20 slides.
 
 **O que mudou nesta versão.** Voz do curso, vinte slides no lugar de sete, com a aula enxugada de
 29 para ~25 minutos. O corredor de 46 anos passou a ser dito como caso ilustrativo, porque não é um

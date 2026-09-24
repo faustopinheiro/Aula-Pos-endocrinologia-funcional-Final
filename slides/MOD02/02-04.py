@@ -336,12 +336,16 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Três tetos, três pergunta
                     {"t": "Capacidade instalada", "x": "O único que se move: devagar, por volume e frequência."}],
           "quem": "O tanque é imenso. A torneira é estreita."})
 
+# deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
+MANTER = ['curva', 'tanque', 'regua', 'litro', 'zona', 'semanas', 'intestino', 'cascata', 'derruba', 'fecho']
+S = [s for s in S if s["id"] in MANTER]
+
 spec = {"arquivo": "aulas/MOD02/02-04-metabolismo-oxidativo-e-uso-de-substratos.md", "modulo": "Fisiologia do Exercício Aplicada",
         "titulo": "Meio grama por minuto", "subtitulo": "Metabolismo oxidativo e uso de substratos",
         "nota_capa": "Entra pelo número.",
         "secoes": {"numero": ["O pico de gordura, a curva e como se mede.", "capa"],
-                   "porque": ["Por que a torneira é estreita e o erro da zona de queima.", "caminho"],
-                   "carbo": ["O atleta que quebra e o teto do intestino.", "quebra"],
+                   "porque": ["Por que a torneira é estreita e o erro da zona de queima.", "litro"],
+                   "carbo": ["O atleta que quebra e o teto do intestino.", "semanas"],
                    "melhora": ["Como a mitocôndria cresce e o que a derruba.", "cascata"]},
         "slides": S}
 json.dump(spec, open(os.path.join(os.path.dirname(__file__), "02-04.json"), "w"), ensure_ascii=False, indent=1)

@@ -240,6 +240,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Três perguntas antes de qu
                     {"t": "Oxidativo", "x": "Adapta mitocôndria e capilares. Pede volume e frequência."}],
           "quem": "A sessão que serve para tudo não serve direito para nada."})
 
+# deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
+MANTER = ['curva', 'atp', 'reservatorios', 'recarga', 'tanques', 'esforco', 'intervalo', 'fecho']
+S = [s for s in S if s["id"] in MANTER]
+
 spec = {"arquivo": "aulas/MOD02/02-01-setenta-e-cinco-segundos.md", "modulo": "Fisiologia do Exercício Aplicada",
         "titulo": "Setenta e cinco segundos", "subtitulo": "Como o corpo paga a conta de energia do exercício",
         "nota_capa": "Entra pelo número.",

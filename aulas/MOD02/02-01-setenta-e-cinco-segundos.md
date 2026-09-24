@@ -2,11 +2,11 @@
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 17 minutos · 12 slides · Arquitetura: NÚMERO
+Duração: 17 minutos · 8 slides · Arquitetura: NÚMERO
 
 ---
 
-📊 **[SLIDE 1 DE 12]**
+📊 **[SLIDE 1 DE 8]**
 *Visual: o gráfico com duas linhas, a contribuição aeróbica subindo e a anaeróbica descendo ao longo da duração do esforço máximo, cruzando por volta dos 75 segundos.*
 *Teleprompter: (entra pelo número, como quem lembra de um dado que muda tudo)*
 
@@ -21,12 +21,6 @@ Esse número vem de uma revisão de um pesquisador australiano, o Paul Gastin, p
 Na nossa área, é raro a literatura nova confirmar a velha em vez de derrubar. Esse é um desses casos.
 
 E ele traz um segundo número que vale guardar: num esforço máximo de dois minutos, mais ou menos um terço da energia vem sem oxigênio e dois terços vêm do oxigênio.
-
----
-
-📊 **[SLIDE 2 DE 12]**
-*Visual: barras horizontais empilhadas para esforços de diferentes durações, cada uma dividida entre a parte aeróbica e a anaeróbica, com as porcentagens escritas.*
-*Teleprompter: (traz para o esporte real, um exemplo de cada vez)*
 
 Agora traz isso para o que você vê toda semana.
 
@@ -44,8 +38,8 @@ Então não existe exercício puramente aeróbico nem puramente anaeróbico. Exi
 
 ---
 
-📊 **[SLIDE 3 DE 12]**
-*Visual: dois quadros. À esquerda, riscado, o revezamento: três corredores passando o bastão em fila. À direita, as três curvas sobrepostas, todas ligadas desde o segundo zero.*
+📊 **[SLIDE 2 DE 8]**
+*Visual: o ciclo do ATP. ATP vira ADP liberando energia para a contração, e três setas de volta, uma de cada sistema, refazendo o ATP. Ao lado, os números: 5 de estoque, 3,7 gastos por segundo.*
 *Teleprompter: (desmonta a imagem errada que quase todo mundo aprendeu)*
 
 E por que a gente erra isso de forma tão consistente? Porque quase todo mundo aprendeu com a figura errada.
@@ -57,12 +51,6 @@ Não é assim. Os três sistemas estão ligados o tempo todo, desde o primeiro s
 E a diferença entre as duas figuras não é detalhe de livro, porque ela muda a prescrição. Quem pensa em revezamento acha que dá para treinar um sistema isolado dos outros. Não dá. E daqui a pouco você vai ver onde essa confusão custa mais caro: no intervalo entre as séries.
 
 Uma nota sobre o nome, porque ele atrapalha. Chamar um sistema de anaeróbico dá a impressão de que falta oxigênio no músculo. Não falta. O músculo em esforço intenso continua recebendo e usando oxigênio. O nome descreve o caminho químico, e não um músculo sufocado.
-
----
-
-📊 **[SLIDE 4 DE 12]**
-*Visual: o ciclo do ATP. ATP vira ADP liberando energia para a contração, e três setas de volta, uma de cada sistema, refazendo o ATP. Ao lado, os números: 5 de estoque, 3,7 gastos por segundo.*
-*Teleprompter: (a conta que explica por que os três sistemas existem)*
 
 Antes dos três sistemas, uma correção de imagem sobre o ATP, porque ela explica por que eles existem.
 
@@ -78,7 +66,7 @@ Mil vezes. É essa a conta que os três sistemas existem para pagar.
 
 ---
 
-📊 **[SLIDE 5 DE 12]**
+📊 **[SLIDE 3 DE 8]**
 *Visual: três reservatórios desenhados lado a lado. O primeiro pequeno, com uma torneira larga. O segundo médio, com torneira média. O terceiro enorme, com uma torneira estreita. Embaixo de cada um, o nome do sistema e o que ele sustenta.*
 *Teleprompter: (a imagem que o aluno leva para casa, com calma)*
 
@@ -92,12 +80,6 @@ E o terceiro é o oxidativo. Carboidrato e gordura queimados dentro da mitocônd
 
 Potência é a largura da torneira. Capacidade é o tamanho do reservatório. E cada sistema troca uma pela outra.
 
----
-
-📊 **[SLIDE 6 DE 12]**
-*Visual: uma molécula de glicose com dois caminhos saindo dela. O curto e rápido, fora da mitocôndria, rende 2 ATP. O longo e lento, dentro da mitocôndria, rende cerca de 30.*
-*Teleprompter: (o número que resume a lógica inteira)*
-
 E tem um número que resume toda essa lógica.
 
 Uma molécula de glicose quebrada pelo caminho rápido, sem oxigênio, rende dois ATP. A mesma molécula queimada por inteiro dentro da mitocôndria rende cerca de trinta.
@@ -110,7 +92,7 @@ Porque rendimento e velocidade são coisas diferentes. O caminho rápido é desp
 
 ---
 
-📊 **[SLIDE 7 DE 12]**
+📊 **[SLIDE 4 DE 8]**
 *Visual: um ciclo em três etapas: o tiro gasta a fosfocreatina, a pausa usa a mitocôndria, a fosfocreatina volta. A seta da pausa em petróleo, destacada.*
 *Teleprompter: (o detalhe que quase ninguém ensina)*
 
@@ -124,7 +106,7 @@ Isso quer dizer que a capacidade de repetir um esforço explosivo, repetir e nã
 
 ---
 
-📊 **[SLIDE 8 DE 12]**
+📊 **[SLIDE 5 DE 8]**
 *Visual: duas barras em escala: o estoque de glicogênio, entre 1.600 e 2.000 quilocalorias, e o estoque de gordura, mais de 60.000. A barra da gordura atravessa o slide inteiro.*
 *Teleprompter: (o tamanho dos tanques, que surpreende)*
 
@@ -136,7 +118,7 @@ A pessoa carrega combustível de sobra e mesmo assim acaba no quilômetro trinta
 
 ---
 
-📊 **[SLIDE 9 DE 12]**
+📊 **[SLIDE 6 DE 8]**
 *Visual: a mesma sessão de treino em dois dias, com a mesma carga e a nota de esforço subindo de 6 para 8. Ao lado, a pergunta em destaque.*
 *Teleprompter: (como perceber na prática, sem exame)*
 
@@ -154,8 +136,8 @@ E um limite importante: perceber que a queda de rendimento tem cara de falta de 
 
 ---
 
-📊 **[SLIDE 10 DE 12]**
-*Visual: três cenários lado a lado, intermitente, contínuo e fracionado com carga, e em cada um uma faixa destacando quem paga a recuperação.*
+📊 **[SLIDE 7 DE 8]**
+*Visual: três linhas do tempo desenhadas em escala, com blocos de esforço e de pausa: 1 para 10, 1 para 1, e esforço longo com pausa curta. Ao lado de cada uma, o sistema que ela treina de fato.*
 *Teleprompter: (organiza por tipo de esforço, e não por esporte)*
 
 Agora aplicando. E eu vou organizar por tipo de esforço, e não por esporte, porque é o tipo de esforço que decide a mistura. Um mesmo esporte tem vários.
@@ -167,12 +149,6 @@ Esforço contínuo: corrida de rua, natação longa, pedal. Predominantemente ox
 E esforço fracionado com carga: musculação, levantamento, ginástica. Cada série é fosfagênica e glicolítica. E de novo, o intervalo entre as séries é recuperação oxidativa. Quem tem base aeróbica melhor recupera melhor entre as séries e faz mais volume de qualidade na mesma sessão.
 
 Esse é um dos argumentos mais fortes, e menos usados, para quem faz musculação não abandonar o aeróbico. E ele nem é sobre coração. É sobre a própria sessão de força render mais.
-
----
-
-📊 **[SLIDE 11 DE 12]**
-*Visual: três linhas do tempo desenhadas em escala, com blocos de esforço e de pausa: 1 para 10, 1 para 1, e esforço longo com pausa curta. Ao lado de cada uma, o sistema que ela treina de fato.*
-*Teleprompter: (a consequência de prescrição que é o ponto da aula)*
 
 E daqui sai a consequência mais importante desta conversa: o intervalo é uma variável de treino, e não uma pausa.
 
@@ -190,7 +166,7 @@ Quem prescreve "descansa o que precisar" entrega ao acaso a variável mais poder
 
 ---
 
-📊 **[SLIDE 12 DE 12]**
+📊 **[SLIDE 8 DE 8]**
 *Visual: as três perguntas grandes, e embaixo três colunas com o que adapta em cada sistema.*
 *Teleprompter: (fecha o fio, sem pressa)*
 
@@ -224,65 +200,53 @@ Na próxima conversa, a gente olha de perto o sistema mais rápido, o fosfagêni
 
 ## Roteiro Gamma.app
 
-**Slide 1** — Setenta e cinco segundos
+**Slide 1** — Setenta e cinco segundos · A mistura no esporte real
 · Em esforço máximo contínuo, aeróbico e anaeróbico **se igualam por volta dos 75 s**
 · Revisão de 2001, refeita em 2026 com **mais de 100 estudos**: diferença de **0 a 3%**
 · **2 minutos: um terço anaeróbico, dois terços aeróbico**
-Visual: as duas linhas cruzando em 75 s.
-
-**Slide 2** — A mistura no esporte real
 · Tiro de 10 s: **~94% anaeróbico** · série de 40 s: **1/3 aeróbico** · 400 m: **meio a meio** · 2 min: **2/3 aeróbico** · luta de 4 min: **~80% aeróbico**
 · **Não existe exercício puramente aeróbico nem puramente anaeróbico**
-Visual: barras empilhadas por duração.
+Visual: as duas linhas cruzando em 75 s.
 
-**Slide 3** — Não é revezamento
+**Slide 2** — Não é revezamento · ATP é moeda, não estoque
 · Os três sistemas **ligados desde o primeiro segundo**
 · Muda **de qual se tira mais**, não qual está aberto
 · "Anaeróbico" **não é músculo sem oxigênio**
-Visual: revezamento riscado × três curvas sobrepostas.
-
-**Slide 4** — ATP é moeda, não estoque
 · Estoque **~5 mmol/kg** · gasto máximo **~3,7 mmol/kg por segundo** → **menos de 2 s**
 · O que sustenta o esforço é **a velocidade de refazer**, que sobe até **1.000×**
 Visual: ciclo do ATP.
 
-**Slide 5** — Três reservatórios, três torneiras
+**Slide 3** — Três reservatórios, três torneiras · 2 ATP ou 30 ATP
 · **Fosfagênico**: pequeno, torneira larga · **glicolítico**: médio · **oxidativo**: enorme, torneira estreita
 · **Potência = torneira · capacidade = reservatório**
-Visual: os três tanques.
-
-**Slide 6** — 2 ATP ou 30 ATP
 · Caminho rápido: **2 ATP** · mitocôndria: **~30 ATP**
 · **Rendimento e velocidade são coisas diferentes**: juros para ter o dinheiro hoje
-Visual: glicose com dois caminhos.
+Visual: os três tanques.
 
-**Slide 7** — Quem recarrega a fosfocreatina
+**Slide 4** — Quem recarrega a fosfocreatina
 · **A fosfocreatina é refeita pelo oxidativo**
 · Repetir o explosivo **depende da base aeróbica** · o sintoma é anaeróbico, **o buraco é aeróbico**
 Visual: ciclo tiro → pausa → recarga.
 
-**Slide 8** — O tamanho dos tanques
+**Slide 5** — O tamanho dos tanques
 · Glicogênio: **400–500 g, 1.600–2.000 kcal** · gordura: **mais de 60.000 kcal**
 · **Acaba o tanque pequeno**, o único que serve para intensidade alta
 Visual: duas barras em escala.
 
-**Slide 9** — Esforço subindo com a carga igual
+**Slide 6** — Esforço subindo com a carga igual
 · Mesmo treino, **nota de esforço mais alta** → primeira hipótese: **combustível não reposto**
 · "**O que você comeu antes e depois do treino de ontem?**"
 · Calor e sono curto pesam · **quanto e o que comer = nutrição**
 Visual: a mesma sessão em dois dias.
 
-**Slide 10** — Três tipos de esforço
+**Slide 7** — Três tipos de esforço · O intervalo é variável de treino
 · **Intermitente · contínuo · fracionado com carga**
 · **Quem paga a recuperação é o oxidativo** · base aeróbica faz a sessão de força render mais
-Visual: três cenários.
-
-**Slide 11** — O intervalo é variável de treino
 · **1:10** → potência · **1:1** → glicolítico · **esforço longo, pausa curta** → oxidativo disfarçado
 · "Descansa o que precisar" **entrega ao acaso a variável mais poderosa**
 Visual: três linhas do tempo em escala.
 
-**Slide 12** — Três perguntas
+**Slide 8** — Três perguntas
 · **Quanto dura? · com que intensidade? · com quanto intervalo?**
 · O que adapta: **fosfocreatina e recrutamento · acidez · mitocôndria e capilares**
 · **A sessão que serve para tudo não serve direito para nada**
@@ -291,6 +255,8 @@ Visual: as perguntas e as três colunas.
 ---
 
 ## Notas de produção (não falado, não vai para o slide)
+
+**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 8 slides no lugar de 12, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 12 slides.
 
 **O que mudou nesta versão.** Voz do curso, título novo, doze slides no lugar de cinco, com um visual
 por bloco. As porcentagens do slide 2 são as estimativas de Gastin (2001) para esforço máximo com

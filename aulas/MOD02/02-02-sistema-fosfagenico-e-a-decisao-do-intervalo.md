@@ -2,11 +2,11 @@
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 16 minutos · 13 slides · Arquitetura: DECISÃO
+Duração: 16 minutos · 9 slides · Arquitetura: DECISÃO
 
 ---
 
-📊 **[SLIDE 1 DE 13]**
+📊 **[SLIDE 1 DE 9]**
 *Visual: duas linhas do tempo, a do nadador com seis tiros de 50 metros e a do levantador com cinco séries de três, e um ponto de interrogação em cada pausa.*
 *Teleprompter: (entra pela cena, sem preâmbulo)*
 
@@ -22,7 +22,7 @@ Quase todo mundo responde isso no automático. Hoje a gente vai responder com a 
 
 ---
 
-📊 **[SLIDE 2 DE 13]**
+📊 **[SLIDE 2 DE 9]**
 *Visual: curva de recuperação da fosfocreatina ao longo de seis minutos depois de um tiro máximo de 30 segundos, partindo de 20% do repouso, com marcação de 65% em um minuto e meio e de 85% em seis minutos.*
 *Teleprompter: (vai pela curva, ponto a ponto)*
 
@@ -38,12 +38,6 @@ Olha a assimetria. O primeiro minuto e meio devolve quase metade do tanque. Os q
 
 E a potência do tiro seguinte acompanha essa curva de perto. Quem mediu isso achou uma correlação forte entre quanto de fosfocreatina voltou e quanto de potência voltou. O atleta rende no segundo tiro o que a pausa deixou ele recarregar.
 
----
-
-📊 **[SLIDE 3 DE 13]**
-*Visual: a mesma curva, agora com um trecho de oclusão: a linha fica reta, sem subir, enquanto o fluxo está bloqueado, e só começa a subir quando a oclusão é liberada.*
-*Teleprompter: (conta o experimento como quem conta um truque de mágica desfeito)*
-
 E tem um experimento de mil novecentos e setenta e seis, do grupo do Harris e do Hultman, que fecha o argumento de um jeito que nenhuma curva fecha sozinha.
 
 Eles cansaram o quadríceps de voluntários e, na recuperação, bloquearam a circulação da coxa com um manguito.
@@ -58,7 +52,7 @@ Então o sistema que a gente chama de anaeróbico depende inteiramente do aerób
 
 ---
 
-📊 **[SLIDE 4 DE 13]**
+📊 **[SLIDE 3 DE 9]**
 *Visual: uma bifurcação com três saídas partindo do mesmo ponto: 30 a 60 segundos, 2 a 3 minutos, 4 a 5 minutos.*
 *Teleprompter: (tom de encruzilhada)*
 
@@ -71,12 +65,6 @@ Tem três saídas, as três defensáveis, e cada uma leva a um lugar diferente.
 Pausa curta, de trinta segundos a um minuto. Pausa média, de dois a três minutos. Pausa longa, de quatro a cinco minutos.
 
 Vamos percorrer cada uma até o fim, porque o problema de quase toda prescrição não é escolher mal. É escolher sem saber aonde a escolha vai dar.
-
----
-
-📊 **[SLIDE 5 DE 13]**
-*Visual: seis barras, uma por tiro, mostrando de onde vem a energia de cada esforço com pausa curta: a parte fosfagênica encolhendo e a glicolítica crescendo do primeiro ao sexto tiro.*
-*Teleprompter: (percorre o raciocínio do treinador e depois desmonta)*
 
 A pausa curta tem um argumento que parece bom. No jogo ninguém dá cinco minutos de descanso. Então treina cansado, que é assim que vai ser no domingo.
 
@@ -92,7 +80,7 @@ E o erro custa caro porque é silencioso. O atleta passa meses fazendo o que ach
 
 ---
 
-📊 **[SLIDE 6 DE 13]**
+📊 **[SLIDE 4 DE 9]**
 *Visual: três linhas do tempo em escala, a mesma sessão de seis tiros com pausa de um minuto, de dois minutos e meio e de cinco minutos, mostrando o tamanho de cada sessão no relógio.*
 *Teleprompter: (compara as outras duas saídas e termina no relógio)*
 
@@ -108,7 +96,7 @@ Num treino coletivo, com trinta atletas e duas horas de campo, isso não cabe. E
 
 ---
 
-📊 **[SLIDE 7 DE 13]**
+📊 **[SLIDE 5 DE 9]**
 *Visual: três linhas, uma para cada objeto do treino: qualidade do esforço isolado com pausa longa fixa; capacidade de repetir com a pausa encurtando semana a semana; tolerância com pausa curta desde o início.*
 *Teleprompter: (tom de critério, devagar)*
 
@@ -124,7 +112,7 @@ E se o objeto é tolerância, a pausa curta é o instrumento certo. Só que aí 
 
 ---
 
-📊 **[SLIDE 8 DE 13]**
+📊 **[SLIDE 6 DE 9]**
 *Visual: seis barras com o tempo de cada tiro de uma sessão de exemplo, uma linha tracejada no melhor tempo e a área acima dela marcada, com a conta do decremento ao lado.*
 *Teleprompter: (mostra a conta como quem ensina uma planilha)*
 
@@ -137,12 +125,6 @@ Funciona assim. Soma o tempo de todos os tiros. Depois calcula quanto teria dado
 No exemplo da tela, o melhor tiro foi quatro segundos e dez. Seis tiros iguais a esse dariam vinte e quatro e sessenta. A soma real deu vinte e cinco e cinquenta e um. Decremento de três vírgula sete por cento.
 
 Um detalhe de método que evita erro de leitura. Tem gente que calcula a fadiga comparando só o primeiro tiro com o último. É mais simples e é pior. Um primeiro tiro excepcional ou um último ruim distorce tudo. Quando compararam as várias fórmulas, a que usa todos os tiros foi a mais estável.
-
----
-
-📊 **[SLIDE 9 DE 13]**
-*Visual: uma matriz de dois por dois, com a intenção da sessão numa direção (qualidade ou tolerância) e o decremento na outra (alto ou baixo), e o diagnóstico escrito em cada quadrante.*
-*Teleprompter: (lê cada quadrante)*
 
 Agora o decremento sozinho não diz nada. Ele só fala quando você lê contra a sua intenção.
 
@@ -160,7 +142,7 @@ O decremento não é nota do atleta. É a prova de que a sessão que aconteceu f
 
 ---
 
-📊 **[SLIDE 10 DE 13]**
+📊 **[SLIDE 7 DE 9]**
 *Visual: duas sessões com o mesmo tempo total de doze minutos: quatro tiros com pausa de quatro minutos, e sete tiros com pausa de dois minutos.*
 *Teleprompter: (tom de conselho prático, direto)*
 
@@ -176,7 +158,7 @@ Aqui, volume é a variável barata de cortar. Pausa é a cara.
 
 ---
 
-📊 **[SLIDE 11 DE 13]**
+📊 **[SLIDE 8 DE 9]**
 *Visual: nuvem de pontos com VO₂máx num eixo e tempo total de tiros no outro, com correlação moderada, e ao lado os números da meta-análise.*
 *Teleprompter: (reabre uma frase que ficou fácil demais)*
 
@@ -190,12 +172,6 @@ Traduzindo: o VO₂máx explica mais ou menos um quinto da diferença entre um a
 
 E tem um moderador que ajuda a organizar isso. A relação aparece com mais força quando cada tiro é curto, abaixo de quarenta metros. Faz sentido. Quanto mais curto o tiro, maior a parte da conta que é pausa. E pausa é aeróbica.
 
----
-
-📊 **[SLIDE 12 DE 13]**
-*Visual: duas curvas de consumo de oxigênio subindo até o mesmo teto, uma rápida e outra lenta, com a área entre elas marcada como a diferença na recarga.*
-*Teleprompter: (explica a resolução do paradoxo)*
-
 Então como é que o aeróbico paga a recarga e o VO₂máx prevê tão pouco?
 
 Porque VO₂máx é um teto. E a recarga da fosfocreatina depende de outra coisa: da velocidade com que a mitocôndria daquele músculo entra em regime, e de quanto sangue chega ali.
@@ -208,7 +184,7 @@ O que sobra de verdadeiro é suficiente: a pausa é onde o sistema aeróbico tra
 
 ---
 
-📊 **[SLIDE 13 DE 13]**
+📊 **[SLIDE 9 DE 9]**
 *Visual: três perguntas em sequência e, abaixo, dois cartões: quem prescreve o intervalo e quem usa a planilha de intervalos.*
 *Teleprompter: (fecha em três perguntas e na divisão do trabalho)*
 
@@ -245,67 +221,55 @@ Na próxima conversa a gente entra no sistema do meio, o glicolítico, e no mal-
 · A decisão que mais muda a sessão está **no espaço entre um esforço e outro**
 Visual: duas linhas do tempo com interrogação nas pausas.
 
-**Slide 2** — A curva da recarga
+**Slide 2** — A curva da recarga · Sem fluxo, sem recarga
 · Depois de 30 s máximos: fosfocreatina a **~20%** do repouso
 · **1,5 min: ~65%** · **6 min: ~85%**
 · A potência do tiro seguinte **acompanha a fosfocreatina que voltou**
-Visual: curva de seis minutos.
-
-**Slide 3** — Sem fluxo, sem recarga
 · Harris e Hultman, 1976: circulação bloqueada, **a fosfocreatina não volta**
 · Soltou o manguito, **a recarga começa na hora**
 · **O tiro é fosfagênico. A pausa é oxidativa.**
-Visual: a curva parada durante a oclusão.
+Visual: curva de seis minutos.
 
-**Slide 4** — Três saídas
+**Slide 3** — Três saídas · Pausa curta
 · **30 a 60 s · 2 a 3 min · 4 a 5 min**
-Visual: bifurcação.
-
-**Slide 5** — Pausa curta
 · Lá pelo 4º tiro, quem paga é **o glicolítico**
 · **Tolerância vestida de velocidade**
 · Custo: meses correndo cansado e **sem ficar mais rápido**
-Visual: seis barras com a mistura mudando.
+Visual: bifurcação.
 
-**Slide 6** — Média e longa
+**Slide 4** — Média e longa
 · **2 a 3 min**: não erra e não otimiza
 · **4 a 5 min**: qualidade preservada; seis tiros viram **quase meia hora**
 Visual: três sessões em escala.
 
-**Slide 7** — O critério
+**Slide 5** — O critério
 · Decide **o objeto do treino naquele dia**
 · Qualidade → **pausa é conteúdo** · repetir → **pausa encurta nas semanas** · tolerância → **chama pelo nome**
 Visual: três objetos, três pausas.
 
-**Slide 8** — O decremento
+**Slide 6** — O decremento · Ler contra a intenção
 · **(soma real ÷ melhor × número de tiros − 1) × 100**
 · Exemplo: 25,51 s contra 24,60 s → **3,7%**
 · Usar todos os tiros é **mais estável** que primeiro contra último
-Visual: barras dos seis tiros.
-
-**Slide 9** — Ler contra a intenção
 · Qualidade + decremento alto → **pausa curta ou volume demais**
 · Tolerância + decremento quase zero → **sessão confortável**
 · **Compare o atleta com ele mesmo**
-Visual: matriz 2 × 2.
+Visual: barras dos seis tiros.
 
-**Slide 10** — Agenda apertada
+**Slide 7** — Agenda apertada
 · **Corta tiros, não a pausa**
 · Volume é a variável barata · **pausa é a cara**
 Visual: duas sessões de doze minutos.
 
-**Slide 11** — O que o VO₂máx prevê
+**Slide 8** — O que o VO₂máx prevê · Teto não é velocidade
 · 45 estudos, **~1.500 pessoas**: correlação **~0,4**
 · O VO₂máx explica **cerca de um quinto** da diferença
 · Relação mais forte com tiros **abaixo de 40 m**
-Visual: nuvem de pontos.
-
-**Slide 12** — Teto não é velocidade
 · **VO₂máx é teto**; a recarga depende de **quão rápido a mitocôndria entra em regime**
 · Melhora por **mitocôndria e capilar** no músculo que usa
-Visual: duas curvas, mesmo teto.
+Visual: nuvem de pontos.
 
-**Slide 13** — Três perguntas
+**Slide 9** — Três perguntas
 · **Qual é o objeto? A pausa protege? O decremento confirma?**
 · Pausa: **preparador e treinador** · lesão que se repete no fim da sessão: **peça a planilha de intervalos**
 Visual: perguntas e dois cartões.
@@ -313,6 +277,8 @@ Visual: perguntas e dois cartões.
 ---
 
 ## Notas de produção (não falado, não vai para o slide)
+
+**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 9 slides no lugar de 13, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 13 slides.
 
 **O que mudou nesta versão.** Voz do curso, treze slides no lugar de quatro, um visual por bloco.
 Os números da curva (20% ao fim do tiro, 65% em 1,5 min, 85% em 6 min, correlação forte entre

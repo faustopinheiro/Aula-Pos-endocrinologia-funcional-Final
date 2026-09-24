@@ -11,11 +11,11 @@
   ],
   "unidade": [
    "A unidade motora e o princípio do tamanho.",
-   "unidade"
+   "tamanho"
   ],
   "fibras": [
    "Tipos de fibra e o que o treino muda.",
-   "continuo"
+   "iix"
   ],
   "estrutura": [
    "Hipertrofia e o relógio de cada tecido.",
@@ -195,54 +195,6 @@
    "fonte": "Esquema · Folland e Williams, Sports Medicine 2007"
   },
   {
-   "id": "cinco",
-   "tipo": "lista",
-   "eyebrow": "O que muda no sistema nervoso",
-   "titulo": "Cinco mudanças no comando",
-   "gap_itens": 18,
-   "itens": [
-    {
-     "t": "Mais unidades motoras recrutadas",
-     "x": "inclusive as mais difíceis de chamar"
-    },
-    {
-     "t": "Disparo mais rápido",
-     "x": "impulsos chegando com mais frequência"
-    },
-    {
-     "t": "Menos freio do antagonista",
-     "x": "o músculo oposto para de segurar o movimento"
-    },
-    {
-     "t": "Coordenação entre músculos",
-     "x": "os que ajudam entram na hora certa"
-    },
-    {
-     "t": "Aprendizado da tarefa",
-     "x": "simplesmente saber fazer o movimento"
-    }
-   ]
-  },
-  {
-   "id": "especifico",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "Duas consequências que quase ninguém explica",
-   "titulo": "O ganho do nervo tem endereço",
-   "cards": [
-    {
-     "t": "O ganho é específico",
-     "x": "Melhora naquele padrão, naquela amplitude, naquela velocidade. Para levantar do chão aos setenta, o exercício precisa parecer com levantar do chão.",
-     "cor": "petr"
-    },
-    {
-     "t": "Trocou de aparelho e a carga caiu",
-     "x": "Não é perda de força. É o comando sendo reaprendido num padrão novo. Explicar isso evita abandono.",
-     "cor": "ambar"
-    }
-   ]
-  },
-  {
    "id": "cruzada",
    "tipo": "diagrama",
    "h": 400,
@@ -310,61 +262,6 @@
    "destaque": "Membro imobilizado por fratura ou cirurgia: treinar o lado saudável atenua a perda do lado parado. Barato e pouco usado.",
    "destaque_cor": "ambar",
    "fonte": "Manca e colaboradores, European Journal of Applied Physiology 2017 · meta-análise · barra da perna treinada ilustrativa"
-  },
-  {
-   "id": "unidade",
-   "tipo": "diagrama",
-   "h": 400,
-   "svg": "<svg aria-label=\"Uma unidade motora pequena, com um motoneurônio e cerca de dez fibras, como nos músculos do olho; e uma grande, com um motoneurônio e mais de mil fibras, como no gastrocnêmio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><circle cx=\"300\" cy=\"100\" r=\"22\" fill=\"#008A7E\"/><rect x=\"183\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"205\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"227\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"249\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"271\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"293\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"315\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"337\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"359\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><rect x=\"381\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#008A7E\" fill-opacity=\"0.7\"/><path d=\"M300 122 L300 220\" stroke=\"#008A7E\" stroke-width=\"5\"/><path d=\"M300 220 L191 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L213 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L235 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L257 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L279 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L301 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L323 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L345 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L367 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M300 220 L389 242\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><circle cx=\"1150\" cy=\"100\" r=\"46\" fill=\"#A8322A\"/><rect x=\"703\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"725\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"747\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"769\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"791\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"813\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"835\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"857\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"879\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"901\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"923\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"945\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"967\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"989\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1011\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1033\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1055\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1077\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1099\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1121\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1143\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1165\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1187\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1209\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1231\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1253\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1275\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1297\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1319\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1341\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1363\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1385\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1407\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1429\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1451\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1473\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1495\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1517\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1539\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1561\" y=\"242\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"703\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"725\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"747\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"769\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"791\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"813\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"835\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"857\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"879\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"901\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"923\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"945\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"967\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"989\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1011\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1033\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1055\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1077\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1099\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1121\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1143\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1165\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1187\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1209\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1231\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1253\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1275\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1297\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1319\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1341\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1363\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1385\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1407\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1429\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1451\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1473\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1495\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1517\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1539\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1561\" y=\"264\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"703\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"725\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"747\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"769\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"791\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"813\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"835\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"857\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"879\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"901\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"923\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"945\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"967\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"989\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1011\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1033\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1055\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1077\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1099\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1121\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1143\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1165\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1187\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1209\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1231\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1253\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1275\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1297\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1319\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1341\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1363\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1385\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1407\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1429\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1451\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1473\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1495\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1517\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1539\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1561\" y=\"286\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"703\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"725\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"747\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"769\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"791\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"813\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"835\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"857\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"879\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"901\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"923\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"945\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"967\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"989\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1011\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1033\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1055\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1077\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1099\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><rect x=\"1121\" y=\"308\" width=\"16\" height=\"16\" rx=\"3\" fill=\"#A8322A\" fill-opacity=\"0.7\"/><path d=\"M1150 146 L1150 220\" stroke=\"#A8322A\" stroke-width=\"5\"/><path d=\"M1150 220 L711 242\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L953 242\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L1195 242\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L1437 242\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L799 264\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L1041 264\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L1283 264\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L1525 264\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L887 286\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L1129 286\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L1371 286\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L733 308\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><path d=\"M1150 220 L975 308\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/></svg>",
-   "rotulos": [
-    {
-     "x": 80,
-     "y": 0,
-     "w": 440,
-     "t": "Músculo do olho",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 80,
-     "y": 300,
-     "w": 440,
-     "t": "~10 fibras por unidade: precisão",
-     "tam": 26,
-     "cor": "#008A7E",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 700,
-     "y": 0,
-     "w": 900,
-     "t": "Gastrocnêmio",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 700,
-     "y": 350,
-     "w": 900,
-     "t": "> 1.000 fibras por unidade: força (desenho reduzido)",
-     "tam": 24,
-     "cor": "#A8322A",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    }
-   ],
-   "eyebrow": "A unidade de conta do sistema",
-   "titulo": "Um motoneurônio e todas as fibras que ele comanda",
-   "destaque": "Quando ele dispara, todas as fibras dele contraem. Não existe contrair metade de uma unidade motora."
   },
   {
    "id": "tamanho",
@@ -512,221 +409,6 @@
    "destaque_cor": "verm"
   },
   {
-   "id": "disparo",
-   "tipo": "diagrama",
-   "h": 360,
-   "svg": "<svg aria-label=\"No músculo pequeno o recrutamento termina cedo e a força sobe pelo disparo mais rápido; no grande o recrutamento continua até intensidades altas\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"0\" y1=\"320\" x2=\"760\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"0\" y=\"60\" width=\"304\" height=\"260\" fill=\"#3A6EA5\" fill-opacity=\"0.18\"/><rect x=\"304\" y=\"60\" width=\"456\" height=\"260\" fill=\"#A8322A\" fill-opacity=\"0.18\"/><line x1=\"0\" y1=\"320\" x2=\"760\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"5\"/><line x1=\"904\" y1=\"320\" x2=\"1664\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"904\" y=\"60\" width=\"608\" height=\"260\" fill=\"#3A6EA5\" fill-opacity=\"0.18\"/><rect x=\"1512\" y=\"60\" width=\"152\" height=\"260\" fill=\"#A8322A\" fill-opacity=\"0.18\"/><line x1=\"904\" y1=\"320\" x2=\"1664\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"5\"/></svg>",
-   "rotulos": [
-    {
-     "x": 0,
-     "y": 0,
-     "w": 760,
-     "t": "Músculo pequeno",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 10,
-     "y": 70,
-     "w": 284,
-     "t": "recruta",
-     "tam": 24,
-     "cor": "#3A6EA5",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 314,
-     "y": 276,
-     "w": 436,
-     "t": "acelera o disparo",
-     "tam": 24,
-     "cor": "#A8322A",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 0,
-     "y": 330,
-     "w": 760,
-     "t": "força pedida →",
-     "tam": 24,
-     "cor": "#6B7A87",
-     "peso": 400,
-     "alinha": "right",
-     "lh": 1.25
-    },
-    {
-     "x": 904,
-     "y": 0,
-     "w": 760,
-     "t": "Músculo grande",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 914,
-     "y": 70,
-     "w": 588,
-     "t": "recruta",
-     "tam": 24,
-     "cor": "#3A6EA5",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 1522,
-     "y": 276,
-     "w": 132,
-     "t": "acelera",
-     "tam": 24,
-     "cor": "#A8322A",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 904,
-     "y": 330,
-     "w": 760,
-     "t": "força pedida →",
-     "tam": 24,
-     "cor": "#6B7A87",
-     "peso": 400,
-     "alinha": "right",
-     "lh": 1.25
-    }
-   ],
-   "eyebrow": "A divisão de trabalho",
-   "titulo": "Recrutar ou disparar mais rápido",
-   "destaque": "“Tenho força mas não tenho explosão” quase sempre é frequência de disparo e velocidade de recrutamento. Não é tamanho de músculo.",
-   "fonte": "Esquema, sem valores medidos"
-  },
-  {
-   "id": "continuo",
-   "tipo": "diagrama",
-   "h": 340,
-   "svg": "<svg aria-label=\"Um contínuo de tipos de fibra: tipo I, híbrida I e IIa, IIa, híbrida IIa e IIx, IIx\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"4\" y=\"40\" width=\"325\" height=\"120\" rx=\"12\" fill=\"#008A7E\"/><defs><linearGradient id=\"g1\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\"><stop offset=\"0\" stop-color=\"#008A7E\"/><stop offset=\"1\" stop-color=\"#3A6EA5\"/></linearGradient></defs><rect x=\"337\" y=\"40\" width=\"325\" height=\"120\" rx=\"12\" fill=\"url(#g1)\"/><rect x=\"670\" y=\"40\" width=\"325\" height=\"120\" rx=\"12\" fill=\"#3A6EA5\"/><defs><linearGradient id=\"g3\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\"><stop offset=\"0\" stop-color=\"#3A6EA5\"/><stop offset=\"1\" stop-color=\"#A8322A\"/></linearGradient></defs><rect x=\"1002\" y=\"40\" width=\"325\" height=\"120\" rx=\"12\" fill=\"url(#g3)\"/><rect x=\"1335\" y=\"40\" width=\"325\" height=\"120\" rx=\"12\" fill=\"#A8322A\"/></svg>",
-   "rotulos": [
-    {
-     "x": 0,
-     "y": 78,
-     "w": 333,
-     "t": "I",
-     "tam": 40,
-     "cor": "#F7F6F2",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25,
-     "serif": true
-    },
-    {
-     "x": 333,
-     "y": 78,
-     "w": 333,
-     "t": "I/IIa",
-     "tam": 40,
-     "cor": "#F7F6F2",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25,
-     "serif": true
-    },
-    {
-     "x": 666,
-     "y": 78,
-     "w": 333,
-     "t": "IIa",
-     "tam": 40,
-     "cor": "#F7F6F2",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25,
-     "serif": true
-    },
-    {
-     "x": 998,
-     "y": 78,
-     "w": 333,
-     "t": "IIa/IIx",
-     "tam": 40,
-     "cor": "#F7F6F2",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25,
-     "serif": true
-    },
-    {
-     "x": 1331,
-     "y": 78,
-     "w": 333,
-     "t": "IIx",
-     "tam": 40,
-     "cor": "#F7F6F2",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25,
-     "serif": true
-    },
-    {
-     "x": 0,
-     "y": 190,
-     "w": 399,
-     "t": "lenta, muita mitocôndria, resiste à fadiga",
-     "tam": 24,
-     "cor": "#12202E",
-     "peso": 400,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 606,
-     "y": 190,
-     "w": 453,
-     "t": "rápida e oxidativa: a mais adaptável",
-     "tam": 24,
-     "cor": "#12202E",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 1265,
-     "y": 190,
-     "w": 399,
-     "t": "a mais rápida, cansa logo",
-     "tam": 24,
-     "cor": "#12202E",
-     "peso": 400,
-     "alinha": "right",
-     "lh": 1.25
-    },
-    {
-     "x": 0,
-     "y": 270,
-     "w": 1664,
-     "t": "As híbridas são comuns. E a proporção varia muito de uma pessoa para outra.",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25,
-     "serif": true
-    }
-   ],
-   "eyebrow": "Tipos de fibra, sem a nitidez do manual",
-   "titulo": "Um contínuo, não três gavetas"
-  },
-  {
    "id": "iix",
    "tipo": "diagrama",
    "h": 400,
@@ -829,14 +511,6 @@
    "fonte": "Andersen e Aagaard, Muscle & Nerve 2000 · homens sedentários, vasto lateral"
   },
   {
-   "id": "converter",
-   "tipo": "frase",
-   "fundo": "tinta",
-   "eyebrow": "A quarta correção",
-   "frase": "“Vou converter minhas fibras” precisa ser aposentada.",
-   "apoio": "A mudança bem demonstrada acontece dentro do espectro rápido. Entre lenta e rápida, os dados não convergem. O que o treino muda de forma confiável é o tamanho e a qualidade das fibras, e o comando que as usa."
-  },
-  {
    "id": "hipertrofia",
    "tipo": "diagrama",
    "h": 420,
@@ -901,32 +575,6 @@
    "eyebrow": "Depois das primeiras semanas",
    "titulo": "A hipertrofia assume o protagonismo",
    "fonte": "Esquema · Phillips e colaboradores, American Journal of Physiology 1997 · destreinados"
-  },
-  {
-   "id": "correcoes",
-   "tipo": "duas",
-   "eyebrow": "Duas correções de academia",
-   "titulo": "Dor não mede estímulo. Sem recurso, não há construção.",
-   "esq": {
-    "t": "Dano não é requisito",
-    "cor": "ambar",
-    "itens": [
-     "A dor de um a dois dias é microlesão e inflamação",
-     "Dá para crescer com pouca dor",
-     "Dá para doer muito e não crescer nada"
-    ]
-   },
-   "dir": {
-    "t": "Hipertrofia exige matéria-prima",
-    "cor": "verm",
-    "itens": [
-     "Construir proteína pede aminoácido e energia",
-     "Em déficit importante, o corpo não constrói",
-     "Treinar pesado e comer pouco gasta o estímulo"
-    ]
-   },
-   "destaque": "Estímulo sem recurso não gera adaptação. Gera custo.",
-   "destaque_cor": "verm"
   },
   {
    "id": "relogios",

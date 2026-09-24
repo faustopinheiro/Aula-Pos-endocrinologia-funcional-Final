@@ -11,7 +11,7 @@
   ],
   "evidencia": [
    "O que a evidência diz hoje, e para quem.",
-   "wilson"
+   "schumann"
   ],
   "saidas": [
    "Três saídas de organização.",
@@ -23,14 +23,6 @@
   ]
  },
  "slides": [
-  {
-   "id": "pergunta",
-   "tipo": "frase",
-   "fundo": "tinta",
-   "eyebrow": "A pergunta que chega pronta",
-   "frase": "“Se eu fizer musculação, vai atrapalhar a minha corrida?”",
-   "apoio": "E a versão espelhada: “se eu correr, vou perder músculo?” Quase todo mundo que você atende faz, ou deveria fazer, as duas coisas."
-  },
   {
    "id": "hickson",
    "tipo": "diagrama",
@@ -256,96 +248,6 @@
    "destaque": "A leitura “a AMPK desliga a construção” envelheceu: a sinalização depende de tempo, dose e comida. Não é interruptor.",
    "destaque_cor": "tinta",
    "fonte": "Coffey e Hawley, Journal of Physiology 2017 · tanques ilustrativos"
-  },
-  {
-   "id": "fadiga",
-   "tipo": "frase",
-   "fundo": "verm",
-   "eyebrow": "A distinção que decide a conduta",
-   "frase": "A maior parte da interferência no atleta real é fadiga, não sinalização.",
-   "apoio": "E fadiga tem solução de agenda. Sinalização, muito menos."
-  },
-  {
-   "id": "wilson",
-   "tipo": "diagrama",
-   "h": 330,
-   "svg": "<svg aria-label=\"Tamanho de efeito para ganho de potência: só força 0,91; treino concorrente 0,55; só endurance 0,11\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><line x1=\"420\" y1=\"0\" x2=\"420\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"422\" y=\"20\" width=\"1138\" height=\"80\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"422\" y=\"125\" width=\"688\" height=\"80\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"422\" y=\"230\" width=\"138\" height=\"80\" rx=\"4\" fill=\"#008A7E\"/></svg>",
-   "rotulos": [
-    {
-     "x": 0,
-     "y": 38,
-     "w": 390,
-     "t": "Só força",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "right",
-     "lh": 1.25
-    },
-    {
-     "x": 1580,
-     "y": 34,
-     "w": 200,
-     "t": "0,91",
-     "tam": 40,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25,
-     "serif": true
-    },
-    {
-     "x": 0,
-     "y": 143,
-     "w": 390,
-     "t": "Concorrente",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "right",
-     "lh": 1.25
-    },
-    {
-     "x": 1130,
-     "y": 139,
-     "w": 200,
-     "t": "0,55",
-     "tam": 40,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25,
-     "serif": true
-    },
-    {
-     "x": 0,
-     "y": 248,
-     "w": 390,
-     "t": "Só endurance",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "right",
-     "lh": 1.25
-    },
-    {
-     "x": 580,
-     "y": 244,
-     "w": 200,
-     "t": "0,11",
-     "tam": 40,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25,
-     "serif": true
-    }
-   ],
-   "eyebrow": "2012: 21 estudos, ganho de potência",
-   "titulo": "O concorrente ficou no meio do caminho",
-   "destaque": "O que mais pesou foi o endurance escolhido: modalidade, frequência e duração. Correr junto reduziu hipertrofia e força. Pedalar, não.",
-   "destaque_cor": "ambar",
-   "fonte": "Wilson e colaboradores, Journal of Strength and Conditioning Research 2012 · tamanho de efeito"
   },
   {
    "id": "schumann",
@@ -592,71 +494,6 @@
    "fonte": "Petré e colaboradores, Sports Medicine 2021 · força dinâmica máxima de membros inferiores"
   },
   {
-   "id": "modalidade",
-   "tipo": "diagrama",
-   "h": 380,
-   "svg": "<svg aria-label=\"Corrida: impactos repetidos e fase excêntrica, mais dano muscular. Bicicleta: movimento circular, concêntrico, sem impacto\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><polyline points=\"40,300 70,300 90,120 110,300 150,300 180,300 200,120 220,300 260,300 290,300 310,120 330,300 370,300 400,300 420,120 440,300 480,300 510,300 530,120 550,300 590,300 620,300 640,120 660,300\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linejoin=\"round\"/><line x1=\"20\" y1=\"300\" x2=\"720\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"840\" y1=\"0\" x2=\"840\" y2=\"380\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><circle cx=\"1110\" cy=\"200\" r=\"110\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\"/><circle cx=\"1110\" cy=\"200\" r=\"16\" fill=\"#008A7E\"/><line x1=\"1110\" y1=\"200\" x2=\"1188\" y2=\"122\" stroke=\"#008A7E\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"1110\" y1=\"200\" x2=\"1032\" y2=\"278\" stroke=\"#008A7E\" stroke-width=\"8\" stroke-linecap=\"round\"/></svg>",
-   "rotulos": [
-    {
-     "x": 0,
-     "y": 0,
-     "w": 720,
-     "t": "Corrida",
-     "tam": 32,
-     "cor": "#A8322A",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 0,
-     "y": 320,
-     "w": 740,
-     "t": "impacto e fase excêntrica: mais dano muscular",
-     "tam": 26,
-     "cor": "#12202E",
-     "peso": 400,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 900,
-     "y": 0,
-     "w": 720,
-     "t": "Bicicleta",
-     "tam": 32,
-     "cor": "#008A7E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 1260,
-     "y": 140,
-     "w": 400,
-     "t": "concêntrica, sem impacto: menor custo mecânico",
-     "tam": 26,
-     "cor": "#12202E",
-     "peso": 400,
-     "alinha": "left",
-     "lh": 1.25
-    }
-   ],
-   "eyebrow": "A modalidade importa",
-   "titulo": "Correr custa mais ao músculo que pedalar",
-   "destaque": "Prioridade em força: o aeróbico mais barato é a bicicleta. Se a corrida é o objetivo, não há troca a fazer, e a solução vem da semana.",
-   "destaque_cor": "petr",
-   "fonte": "Wilson 2012 · Lundberg e colaboradores, Sports Medicine 2022: efeito na fibra maior com corrida, evidência preliminar"
-  },
-  {
-   "id": "rodape",
-   "tipo": "frase",
-   "fundo": "petr",
-   "eyebrow": "O atleta real deste curso",
-   "frase": "Para quem quer ser saudável e funcional, a interferência é nota de rodapé.",
-   "apoio": "Quem corre 30 km por semana e faz duas sessões de força não está no cenário relevante. O medo da interferência afasta gente do treino de força, que é o que mais falta."
-  },
-  {
    "id": "saidas",
    "tipo": "diagrama",
    "h": 420,
@@ -865,140 +702,6 @@
    "destaque": "Se a prioridade é força, ela vem antes. Se é corrida, inverte. Quase sempre quem decide a ordem é o horário da academia.",
    "destaque_cor": "ambar",
    "fonte": "Eddens, van Someren e Howatson, Sports Medicine 2018 · 10 estudos, mesma sessão"
-  },
-  {
-   "id": "intervalo",
-   "tipo": "diagrama",
-   "h": 370,
-   "svg": "<svg aria-label=\"Força sempre antes; aeróbico logo depois, 6 horas depois ou 24 horas depois. O grupo sem intervalo ganhou menos força máxima no supino e no agachamento\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"300\" y1=\"55\" x2=\"1300\" y2=\"55\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"300\" y=\"20\" width=\"56\" height=\"70\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"356\" y=\"20\" width=\"56\" height=\"70\" rx=\"6\" fill=\"#3A6EA5\"/><line x1=\"300\" y1=\"155\" x2=\"1300\" y2=\"155\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"300\" y=\"120\" width=\"56\" height=\"70\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"578\" y=\"120\" width=\"56\" height=\"70\" rx=\"6\" fill=\"#3A6EA5\"/><line x1=\"300\" y1=\"255\" x2=\"1300\" y2=\"255\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"300\" y=\"220\" width=\"56\" height=\"70\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1244\" y=\"220\" width=\"56\" height=\"70\" rx=\"6\" fill=\"#3A6EA5\"/><line x1=\"300\" y1=\"310\" x2=\"300\" y2=\"322\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"522\" y1=\"310\" x2=\"522\" y2=\"322\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"744\" y1=\"310\" x2=\"744\" y2=\"322\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"967\" y1=\"310\" x2=\"967\" y2=\"322\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1189\" y1=\"310\" x2=\"1189\" y2=\"322\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"300\" y1=\"310\" x2=\"1300\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
-   "rotulos": [
-    {
-     "x": 0,
-     "y": 36,
-     "w": 270,
-     "t": "sem intervalo",
-     "tam": 28,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "right",
-     "lh": 1.25
-    },
-    {
-     "x": 0,
-     "y": 136,
-     "w": 270,
-     "t": "6 horas",
-     "tam": 28,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "right",
-     "lh": 1.25
-    },
-    {
-     "x": 0,
-     "y": 236,
-     "w": 270,
-     "t": "24 horas",
-     "tam": 28,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "right",
-     "lh": 1.25
-    },
-    {
-     "x": 1340,
-     "y": 22,
-     "w": 324,
-     "t": "menos força máxima",
-     "tam": 28,
-     "cor": "#A8322A",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 1340,
-     "y": 136,
-     "w": 324,
-     "t": "ganho preservado",
-     "tam": 28,
-     "cor": "#008A7E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 1340,
-     "y": 236,
-     "w": 324,
-     "t": "ganho preservado",
-     "tam": 28,
-     "cor": "#008A7E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 240,
-     "y": 328,
-     "w": 120,
-     "t": "0 h",
-     "tam": 24,
-     "cor": "#6B7A87",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 462,
-     "y": 328,
-     "w": 120,
-     "t": "6 h",
-     "tam": 24,
-     "cor": "#6B7A87",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 684,
-     "y": 328,
-     "w": 120,
-     "t": "12 h",
-     "tam": 24,
-     "cor": "#6B7A87",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 907,
-     "y": 328,
-     "w": 120,
-     "t": "18 h",
-     "tam": 24,
-     "cor": "#6B7A87",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 1129,
-     "y": 328,
-     "w": 120,
-     "t": "24 h",
-     "tam": 24,
-     "cor": "#6B7A87",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    }
-   ],
-   "eyebrow": "Saída A, segunda regra",
-   "titulo": "Se der para separar no mesmo dia, separa",
-   "destaque": "Seis horas é a referência prática. Colado, o lado que a pessoa mais queria melhorar recebe a sessão pior.",
-   "destaque_cor": "tinta",
-   "fonte": "Robineau e colaboradores, Journal of Strength and Conditioning Research 2016 · rúgbi amador, 7 semanas, força sempre antes · vermelho força, azul aeróbico"
   },
   {
    "id": "calendario",
@@ -1379,31 +1082,6 @@
    "fonte": "Esquema, sem valores medidos"
   },
   {
-   "id": "manutencao",
-   "tipo": "numeros",
-   "eyebrow": "Quanto custa manter",
-   "titulo": "Manutenção custa pouco, com uma condição",
-   "numeros": [
-    {
-     "n": "1×/sem",
-     "x": "e 1 série por exercício mantiveram força e tamanho por até 32 semanas em mais jovens",
-     "cor": "tinta"
-    },
-    {
-     "n": "2×/sem",
-     "x": "e 2 a 3 séries podem ser necessárias para manter o tamanho do músculo em mais velhos",
-     "cor": "ambar"
-    },
-    {
-     "n": "carga",
-     "x": "é a variável que não pode cair: corta frequência e volume, não o peso da barra",
-     "cor": "verm"
-    }
-   ],
-   "destaque": "Manutenção não é abandono. E vale nos dois sentidos: quem zera o aeróbico num bloco de força reconstrói do zero depois.",
-   "fonte": "Spiering e colaboradores, Journal of Strength and Conditioning Research 2021"
-  },
-  {
    "id": "quem",
    "tipo": "duas",
    "eyebrow": "Para quem essa conversa é séria",
@@ -1429,27 +1107,6 @@
    },
    "destaque": "O inimigo do master não é o aeróbico que ele gosta de fazer. É a sessão de força que nunca entra na agenda.",
    "destaque_cor": "ambar"
-  },
-  {
-   "id": "oms",
-   "tipo": "numeros",
-   "eyebrow": "O argumento de saúde pública",
-   "titulo": "Quem segue a OMS faz treino concorrente",
-   "numeros": [
-    {
-     "n": "150 a 300",
-     "x": "minutos por semana de atividade aeróbica moderada, para adultos",
-     "cor": "tinta"
-    },
-    {
-     "n": "2 ou mais",
-     "x": "dias por semana de fortalecimento muscular",
-     "cor": "verm"
-    }
-   ],
-   "destaque": "E está fazendo certo.",
-   "destaque_cor": "petr",
-   "fonte": "Bull e colaboradores, British Journal of Sports Medicine 2020 · diretrizes da OMS"
   },
   {
    "id": "criterio",

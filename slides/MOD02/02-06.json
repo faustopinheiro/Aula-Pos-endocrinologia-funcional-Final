@@ -11,7 +11,7 @@
   ],
   "excecoes": [
    "Os três quadros que se confundem.",
-   "tres"
+   "bronco"
   ],
   "musculo": [
    "O músculo que ventila, a dor de lado e as três perguntas.",
@@ -19,14 +19,6 @@
   ]
  },
  "slides": [
-  {
-   "id": "frase",
-   "tipo": "frase",
-   "fundo": "tinta",
-   "eyebrow": "Na borda da piscina, no meio do circuito, no fim da subida",
-   "frase": "“Meu pulmão não aguenta.”",
-   "apoio": "O erro custa nos dois sentidos: trata quem não precisa e deixa de investigar quem precisa. E convence, porque a falta de ar é a sensação mais alta do corpo no esforço."
-  },
   {
    "id": "reserva",
    "tipo": "diagrama",
@@ -182,120 +174,6 @@
    ],
    "eyebrow": "O segundo fato, menos conhecido",
    "titulo": "Tudo no transporte melhora com treino, menos o pulmão"
-  },
-  {
-   "id": "comando",
-   "tipo": "diagrama",
-   "h": 420,
-   "svg": "<svg aria-label=\"A coxa produz gás carbônico e prótons; eles sobem pelo sangue até o tronco encefálico, que manda o diafragma respirar mais\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"c2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"250\" width=\"420\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"620\" y=\"20\" width=\"420\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"1244\" y=\"250\" width=\"420\" height=\"140\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><path d=\"M300 246 C380 120 480 90 612 90\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"7\" marker-end=\"url(#c1)\"/><path d=\"M1044 90 C1180 90 1290 130 1384 242\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"7\" marker-end=\"url(#c2)\"/></svg>",
-   "rotulos": [
-    {
-     "x": 0,
-     "y": 272,
-     "w": 420,
-     "t": "Coxa",
-     "tam": 32,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 0,
-     "y": 318,
-     "w": 420,
-     "t": "gás carbônico e prótons",
-     "tam": 26,
-     "cor": "#3A4A57",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 620,
-     "y": 42,
-     "w": 420,
-     "t": "Tronco encefálico",
-     "tam": 32,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 620,
-     "y": 88,
-     "w": 420,
-     "t": "cobra ventilação",
-     "tam": 26,
-     "cor": "#3A4A57",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 1244,
-     "y": 272,
-     "w": 420,
-     "t": "Diafragma",
-     "tam": 32,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 1244,
-     "y": 318,
-     "w": 420,
-     "t": "respira mais",
-     "tam": 26,
-     "cor": "#3A4A57",
-     "peso": 400,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 470,
-     "y": 250,
-     "w": 260,
-     "t": "pelo sangue",
-     "tam": 24,
-     "cor": "#A8322A",
-     "peso": 600,
-     "alinha": "left",
-     "lh": 1.25
-    }
-   ],
-   "eyebrow": "Então o que é essa falta de ar",
-   "titulo": "A química da perna chegando ao cérebro",
-   "destaque": "Na imensa maioria das vezes: a demanda subiu, e o resto do sistema ainda não acompanha. Não é o pulmão. É a conta."
-  },
-  {
-   "id": "tres",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "As exceções: o motivo desta aula existir",
-   "titulo": "Três quadros que se confundem",
-   "cards": [
-    {
-     "t": "Broncoconstrição induzida pelo exercício",
-     "x": "O brônquio se fecha por causa do esforço.",
-     "cor": "verm"
-    },
-    {
-     "t": "Obstrução da laringe induzida pelo exercício",
-     "x": "A laringe se fecha no pico do esforço.",
-     "cor": "ambar"
-    },
-    {
-     "t": "Descondicionamento",
-     "x": "Ainda a explicação mais comum.",
-     "cor": "petr"
-    }
-   ],
-   "destaque": "Quem aprendeu que “o pulmão não limita” vira quem não investiga ninguém. É o mesmo erro com o sinal trocado.",
-   "destaque_cor": "verm"
   },
   {
    "id": "bronco",
@@ -466,73 +344,6 @@
    "fonte": "Esquema, sem valores medidos"
   },
   {
-   "id": "laringe",
-   "tipo": "diagrama",
-   "h": 380,
-   "svg": "<svg aria-label=\"A laringe se fecha parcialmente no pico do esforço; o ruído aparece ao puxar o ar e o atleta aponta para a garganta\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><ellipse cx=\"300\" cy=\"190\" rx=\"160\" ry=\"130\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"5\"/><path d=\"M230 90 Q300 190 230 290\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M370 90 Q300 190 370 290\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"12\" stroke-linecap=\"round\"/><ellipse cx=\"860\" cy=\"190\" rx=\"160\" ry=\"130\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"5\"/><path d=\"M838 90 Q860 190 838 290\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M882 90 Q860 190 882 290\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"1180\" y1=\"0\" x2=\"1180\" y2=\"380\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
-   "rotulos": [
-    {
-     "x": 140,
-     "y": 336,
-     "w": 320,
-     "t": "Repouso: aberta",
-     "tam": 28,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 700,
-     "y": 336,
-     "w": 320,
-     "t": "Pico: fechando",
-     "tam": 28,
-     "cor": "#A8322A",
-     "peso": 700,
-     "alinha": "center",
-     "lh": 1.25
-    },
-    {
-     "x": 1220,
-     "y": 30,
-     "w": 440,
-     "t": "5 a 8%",
-     "tam": 72,
-     "cor": "#B07A1C",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25,
-     "serif": true
-    },
-    {
-     "x": 1220,
-     "y": 130,
-     "w": 440,
-     "t": "dos adolescentes, em estudos com a população geral",
-     "tam": 26,
-     "cor": "#3A4A57",
-     "peso": 400,
-     "alinha": "left",
-     "lh": 1.25
-    },
-    {
-     "x": 1220,
-     "y": 240,
-     "w": 440,
-     "t": "Quase ninguém conhece.",
-     "tam": 30,
-     "cor": "#12202E",
-     "peso": 700,
-     "alinha": "left",
-     "lh": 1.25
-    }
-   ],
-   "eyebrow": "O segundo quadro",
-   "titulo": "O problema não está no brônquio. Está na laringe.",
-   "fonte": "Esquema · Johansson e colaboradores, Thorax 2015 (5,7%) · Christensen e colaboradores, 2011 (7,5%)"
-  },
-  {
    "id": "diferencas",
    "tipo": "diagrama",
    "h": 380,
@@ -663,31 +474,6 @@
    "eyebrow": "Todas de graça, na conversa",
    "titulo": "Como separar os dois",
    "destaque": "“A bombinha resolveu?” A resposta costuma estar ali, de graça, na história de quem já usou."
-  },
-  {
-   "id": "tamanho",
-   "tipo": "numeros",
-   "eyebrow": "Obstrução da laringe · série internacional",
-   "titulo": "Dois anos de bombinha, num quadro que ela não trata",
-   "numeros": [
-    {
-     "n": "1.007",
-     "x": "pacientes com obstrução da laringe",
-     "cor": "tinta"
-    },
-    {
-     "n": "2 anos",
-     "x": "de demora média até o diagnóstico",
-     "cor": "ambar"
-    },
-    {
-     "n": "20%",
-     "x": "estavam sendo tratados como asmáticos",
-     "cor": "verm"
-    }
-   ],
-   "destaque": "Diagnóstico e tratamento são médicos. A suspeita é de todos: o técnico que nota a tosse sempre depois do treino abre a porta.",
-   "fonte": "Walsted e colaboradores, ERJ Open Research 2021"
   },
   {
    "id": "roubo",

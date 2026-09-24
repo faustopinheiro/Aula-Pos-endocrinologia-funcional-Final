@@ -2,12 +2,12 @@
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 19 minutos · 19 slides · Arquitetura: PROCEDIMENTO
+Duração: 19 minutos · 10 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 19]**
-*Visual: a frequência cardíaca ao longo do tempo, começando a subir antes da linha que marca o primeiro passo.*
+📊 **[SLIDE 1 DE 10]**
+*Visual: três barras de débito cardíaco: 5 litros por minuto em repouso, cerca de 20 no máximo de um destreinado e mais de 35 no atleta de endurance de alto nível.*
 *Teleprompter: (entra pela cena, tom de método)*
 
 Uma jogadora de handebol entra em quadra e faz o primeiro sprint. Vamos percorrer, em ordem, o que o sistema cardiovascular dela faz. Cada etapa dessa sequência decide alguma coisa na nossa prática.
@@ -18,23 +18,11 @@ A frequência cardíaca começa a subir antes do primeiro passo. É o comando ce
 
 O que isso decide: a frequência dos primeiros trinta segundos não mede esforço. É antecipação. Quem lê a frequência do começo do aquecimento como intensidade está lendo expectativa, não demanda.
 
----
-
-📊 **[SLIDE 2 DE 19]**
-*Visual: três barras de débito cardíaco: 5 litros por minuto em repouso, cerca de 20 no máximo de um destreinado e mais de 35 no atleta de endurance de alto nível.*
-*Teleprompter: (números em sequência)*
-
 Etapa dois. O débito cardíaco multiplica.
 
 Em repouso, o coração bombeia uns cinco litros por minuto. Num esforço máximo, um adulto destreinado chega perto de vinte. E um atleta de endurance de alto nível pode passar de trinta e cinco.
 
 Sete vezes o repouso.
-
----
-
-📊 **[SLIDE 3 DE 19]**
-*Visual: dois gráficos lado a lado contra a intensidade: a frequência cardíaca subindo em linha quase reta até o máximo, e o volume de ejeção subindo no começo e estabilizando.*
-*Teleprompter: (a assimetria que importa)*
 
 E esse aumento vem de duas variáveis. A frequência cardíaca, que sobe quase em linha reta até o máximo. E o volume de ejeção, o quanto sai a cada batida, que sobe até um ponto e então estabiliza.
 
@@ -42,8 +30,8 @@ Guarda essa assimetria. Ela explica por que treinar o coração é, em boa parte
 
 ---
 
-📊 **[SLIDE 4 DE 19]**
-*Visual: duas barras de 100% do débito, repouso e esforço máximo, mostrando a fatia do músculo passando de 15 a 20% para mais de 80%.*
+📊 **[SLIDE 2 DE 10]**
+*Visual: o coração com três saídas disputando o mesmo débito: músculo, vísceras e pele.*
 *Teleprompter: (o sangue muda de endereço)*
 
 Etapa três. O sangue muda de endereço.
@@ -51,12 +39,6 @@ Etapa três. O sangue muda de endereço.
 Em repouso, o músculo recebe algo perto de quinze a vinte por cento do débito. No esforço máximo, passa de oitenta por cento.
 
 Isso não vem do nada. Vem de vasos que se abrem no músculo que está trabalhando, e de vasos que se fecham nas vísceras: rim, intestino, fígado. O sangue sai de onde não é urgente naquele momento.
-
----
-
-📊 **[SLIDE 5 DE 19]**
-*Visual: o coração com três saídas disputando o mesmo débito: músculo, vísceras e pele.*
-*Teleprompter: (duas consequências de toda semana)*
 
 E isso decide duas coisas que aparecem toda semana.
 
@@ -66,8 +48,8 @@ Segunda. A pele entra na disputa quando é preciso jogar calor para fora. Aí s�
 
 ---
 
-📊 **[SLIDE 6 DE 19]**
-*Visual: a pressão sistólica subindo com a intensidade, a diastólica estável ou caindo um pouco, e uma linha tracejada de diastólica subindo marcada como achado que pede atenção.*
+📊 **[SLIDE 3 DE 10]**
+*Visual: a equação escrita grande: consumo de oxigênio igual a débito cardíaco vezes diferença arteriovenosa de oxigênio, com "circular mais" embaixo do primeiro termo e "extrair mais" embaixo do segundo.*
 *Teleprompter: (o normal e o que não é)*
 
 Etapa quatro. A pressão arterial responde de forma assimétrica.
@@ -77,12 +59,6 @@ No exercício dinâmico, a sistólica sobe junto com a intensidade e pode chegar
 Sistólica subindo, diastólica estável. Esse é o normal.
 
 Diastólica que sobe de forma consistente durante um teste de esforço é achado que merece atenção médica. Não é detalhe.
-
----
-
-📊 **[SLIDE 7 DE 19]**
-*Visual: a equação escrita grande: consumo de oxigênio igual a débito cardíaco vezes diferença arteriovenosa de oxigênio, com "circular mais" embaixo do primeiro termo e "extrair mais" embaixo do segundo.*
-*Teleprompter: (a conta que organiza tudo)*
 
 Etapa cinco. A conta fecha numa equação só.
 
@@ -96,7 +72,7 @@ Isso não anula a aula passada. A capacidade oxidativa do músculo decide em boa
 
 ---
 
-📊 **[SLIDE 8 DE 19]**
+📊 **[SLIDE 4 DE 10]**
 *Visual: três horas de exercício em ritmo constante no calor: a frequência cardíaca subindo devagar e o volume de ejeção caindo, em dois painéis.*
 *Teleprompter: (o que muda dentro da própria sessão)*
 
@@ -108,7 +84,7 @@ Isso decide uma coisa muito concreta. Prescrição por zona de frequência card�
 
 ---
 
-📊 **[SLIDE 9 DE 19]**
+📊 **[SLIDE 5 DE 10]**
 *Visual: barras de pressão arterial: uma referência de repouso de 120 por 80, a média de 320 por 250 no leg press pesado e o maior valor medido, acima de 480 por 350.*
 *Teleprompter: (troca o cenário)*
 
@@ -120,12 +96,6 @@ Isso foi medido com cateter dentro da artéria, num trabalho clássico de mil no
 
 Esses picos duram segundos, e o corpo saudável tolera bem. Isso não é argumento contra treino de força, que é uma das intervenções mais valiosas que existem e que este curso defende do começo ao fim.
 
----
-
-📊 **[SLIDE 10 DE 19]**
-*Visual: quatro cartões de quem precisa de orientação respiratória explícita: pressão descontrolada, aneurisma conhecido, retinopatia proliferativa e cirurgia recente; embaixo, a pergunta de anamnese.*
-*Teleprompter: (o que esses números decidem)*
-
 O que esses números decidem é para quem a técnica de respiração deixa de ser detalhe e vira conduta.
 
 Quem tem pressão alta descontrolada, aneurisma conhecido, retinopatia proliferativa, ou passou por cirurgia recente de certos territórios recebe orientação explícita. Não prender a respiração. Soltar o ar na fase de esforço. E evitar levar a série até a falha com carga máxima.
@@ -134,7 +104,7 @@ E decide uma pergunta de anamnese que ninguém faz e que deveria ser rotina: "vo
 
 ---
 
-📊 **[SLIDE 11 DE 19]**
+📊 **[SLIDE 6 DE 10]**
 *Visual: a pressão arterial nas horas depois de uma sessão, caindo abaixo da linha de repouso e voltando devagar; ao lado, 6 por 4 depois de sessão aeróbica e 3 por 3 depois de sessão de força.*
 *Teleprompter: (o efeito agudo mais útil da aula)*
 
@@ -144,12 +114,6 @@ Depois de uma sessão, a pressão fica abaixo do valor de repouso habitual por h
 
 Repara no tamanho disso. Seis de sistólica é da ordem do que se espera de uma intervenção com remédio em dose leve. Com uma sessão.
 
----
-
-📊 **[SLIDE 12 DE 19]**
-*Visual: uma semana em faixa de horas: cinco sessões moderadas cobrindo boa parte dos dias com pressão mais baixa, contra duas sessões muito longas cobrindo só dois dias.*
-*Teleprompter: (a consequência de prescrição)*
-
 E o que isso decide é de aplicação imediata. Se o efeito dura horas e não dias, o controle da pressão depende da frequência das sessões, não da intensidade delas.
 
 Olha a semana. Cinco sessões moderadas cobrem muito mais horas com a pressão mais baixa do que duas sessões heroicas.
@@ -158,7 +122,7 @@ Olha a semana. Cinco sessões moderadas cobrem muito mais horas com a pressão m
 
 ---
 
-📊 **[SLIDE 13 DE 19]**
+📊 **[SLIDE 7 DE 10]**
 *Visual: uma linha do tempo de dois anos com quatro faixas começando em momentos diferentes: volume plasmático em dias, frequência de repouso em semanas, remodelamento do coração em meses a anos e massa de hemoglobina por último.*
 *Teleprompter: (ordena as adaptações no tempo)*
 
@@ -178,8 +142,8 @@ Primeiro o líquido. Depois o ritmo. Depois a estrutura. Por último, o transpor
 
 ---
 
-📊 **[SLIDE 14 DE 19]**
-*Visual: dois corações em corte: o de endurance, com a cavidade maior e a parede proporcional; o de força, com a parede mais espessa e a cavidade pouco alterada.*
+📊 **[SLIDE 8 DE 10]**
+*Visual: dois tubos de sangue: antes do treino e depois, com a parte de plasma bem maior e a parte de hemácias igual ou um pouco maior; o número da hemoglobina por litro cai.*
 *Teleprompter: (o coração remodela conforme a carga)*
 
 E o coração remodela conforme a sobrecarga que recebeu.
@@ -190,12 +154,6 @@ Treino de força impõe sobrecarga de pressão: picos altos e breves. A resposta
 
 Na vida real quase ninguém faz só um dos dois, e o que se vê é mistura.
 
----
-
-📊 **[SLIDE 15 DE 19]**
-*Visual: dois tubos de sangue: antes do treino e depois, com a parte de plasma bem maior e a parte de hemácias igual ou um pouco maior; o número da hemoglobina por litro cai.*
-*Teleprompter: (a adaptação que engana o laboratório)*
-
 Uma consequência da primeira adaptação chega ao laboratório, e engana muita gente todo dia.
 
 Se o plasma aumenta e a massa de hemácias não aumenta na mesma proporção, a concentração de hemoglobina cai. O laudo mostra um número abaixo da referência, e o que está por trás dele é uma adaptação boa. O atleta de endurance, na verdade, costuma ter mais hemoglobina total circulando do que o sedentário. Só que diluída em mais plasma.
@@ -204,8 +162,8 @@ Se o plasma aumenta e a massa de hemácias não aumenta na mesma proporção, a 
 
 ---
 
-📊 **[SLIDE 16 DE 19]**
-*Visual: três passos numerados para ler a hemoglobina baixa: olhar a companhia, registrar a condição de coleta e lembrar dos três cenários.*
+📊 **[SLIDE 9 DE 10]**
+*Visual: três instrumentos numa ficha simples, cada um com espaço para data: frequência de repouso, frequência em carga submáxima padronizada e recuperação da frequência no primeiro minuto.*
 *Teleprompter: (procedimento de leitura, sem errar nos dois sentidos)*
 
 Agora o procedimento de leitura, porque aqui se erra nos dois sentidos.
@@ -220,12 +178,6 @@ Tratar toda hemoglobina baixa com ferro e chamar toda hemoglobina baixa de pseud
 
 Interpretar o hemograma e indicar reposição é conduta médica. O que o resto da equipe precisa é reconhecer o padrão, para não criar alarme à toa, e reconhecer a exceção, para não deixar passar uma falta de ferro de verdade. O módulo de medicina esportiva clínica tem uma aula inteira sobre ferro no atleta.
 
----
-
-📊 **[SLIDE 17 DE 19]**
-*Visual: três instrumentos numa ficha simples, cada um com espaço para data: frequência de repouso, frequência em carga submáxima padronizada e recuperação da frequência no primeiro minuto.*
-*Teleprompter: (o que usar na segunda-feira)*
-
 Fechando com o que dá para usar na segunda-feira, sem equipamento caro.
 
 Frequência de repouso. O marcador mais acessível de adaptação central. Mesma condição, mesmo horário, de preferência durante o sono. E ela é mexida por calor, desidratação, álcool, doença começando e noite ruim. Então vale a tendência, nunca o ponto isolado.
@@ -236,12 +188,6 @@ Recuperação da frequência no primeiro minuto depois de um esforço submáximo
 
 E o que não dá para acompanhar de forma útil fora do laboratório: volume de ejeção, débito cardíaco e volume de plasma. Quem vende isso por relógio de pulso está vendendo estimativa com margem larga demais para decidir qualquer coisa.
 
----
-
-📊 **[SLIDE 18 DE 19]**
-*Visual: a capacidade aeróbica caindo com a idade em duas curvas paralelas, a do treinado bem acima da do sedentário; um ponto marca o treinado de 60 anos acima do sedentário de 40.*
-*Teleprompter: (expectativa com o atleta master)*
-
 Duas notas finais, e as duas são de limite.
 
 A primeira é de expectativa com o atleta master. A capacidade aeróbica máxima cai com a idade, e o treino não impede essa queda. Ele desloca a curva inteira para cima. O adulto treinado de sessenta anos frequentemente tem capacidade aeróbica maior que o sedentário de quarenta.
@@ -250,7 +196,7 @@ O objetivo não é recuperar o número de vinte anos atrás. É ficar o mais alt
 
 ---
 
-📊 **[SLIDE 19 DE 19]**
+📊 **[SLIDE 10 DE 10]**
 *Visual: cinco sinais que interrompem a atividade e geram encaminhamento, e a frase "é coração de atleta, dito por quem não avaliou".*
 *Teleprompter: (a nota de segurança, atravessa todas as profissões)*
 
@@ -282,94 +228,69 @@ Na próxima conversa eu fecho o sistema de transporte pelo lado que quase nunca 
 
 ## Roteiro Gamma.app
 
-**Slide 1** — O comando vem antes
+**Slide 1** — O comando vem antes · O débito multiplica · FC e volume de ejeção
 · A FC sobe **antes do primeiro passo**
 · Os primeiros 30 s **não medem esforço**: é antecipação
-Visual: FC subindo antes da linha do primeiro passo.
-
-**Slide 2** — O débito multiplica
 · **5 L/min** repouso · **~20** destreinado no máximo · **> 35** atleta de endurance
-Visual: três barras.
-
-**Slide 3** — FC e volume de ejeção
 · FC sobe quase em linha reta; **volume de ejeção estabiliza**
 · Treinar o coração é, em boa parte, **treinar volume de ejeção**
-Visual: dois gráficos lado a lado.
+Visual: três barras.
 
-**Slide 4** — O sangue muda de endereço
+**Slide 2** — O sangue muda de endereço · Três territórios, um débito
 · Músculo: **15 a 20%** em repouso → **> 80%** no máximo
-Visual: duas barras de 100%.
-
-**Slide 5** — Três territórios, um débito
 · Intestino com pouco sangue por horas: **desconforto na prova longa**
 · No calor, **a pele entra na disputa**
 Visual: coração com três saídas.
 
-**Slide 6** — A pressão assimétrica
+**Slide 3** — A pressão assimétrica · A equação
 · **Sistólica sobe, diastólica estável ou cai**
 · Diastólica subindo no teste: **atenção médica**
-Visual: duas curvas e uma tracejada.
-
-**Slide 7** — A equação
 · **VO₂ = débito cardíaco × diferença arteriovenosa**
 · Entrega decide o **teto**; periferia decide o **limiar**
 Visual: a equação.
 
-**Slide 8** — A deriva
+**Slide 4** — A deriva
 · Ritmo constante, **FC subindo e volume de ejeção caindo**
 · **Zona de FC perde validade** na sessão longa
 Visual: dois painéis de três horas.
 
-**Slide 9** — Carga alta
+**Slide 5** — Carga alta · Técnica vira conduta
 · MacDougall 1985: **320/250 mmHg** em média; um caso **> 480/350**
 · Picos de segundos: **não é argumento contra treino de força**
-Visual: barras de pressão.
-
-**Slide 10** — Técnica vira conduta
 · Pressão descontrolada · aneurisma · retinopatia proliferativa · pós-operatório
 · **"Você prende a respiração quando levanta peso?"**
-Visual: quatro cartões.
+Visual: barras de pressão.
 
-**Slide 11** — Hipotensão pós-exercício
+**Slide 6** — Hipotensão pós-exercício · Frequência ganha de heroísmo
 · **~6/4 mmHg** após aeróbico · **~3/3** após força · por **horas**
+· Efeito de horas: **a frequência das sessões controla a pressão**
 Visual: curva das horas seguintes.
 
-**Slide 12** — Frequência ganha de heroísmo
-· Efeito de horas: **a frequência das sessões controla a pressão**
-Visual: semana em faixa de horas.
-
-**Slide 13** — A ordem das adaptações
+**Slide 7** — A ordem das adaptações
 · **Líquido → ritmo → estrutura → transporte**
 · Quatro semanas prometem **a parte líquida**
 Visual: linha do tempo de dois anos.
 
-**Slide 14** — Volume ou pressão
+**Slide 8** — Volume ou pressão · Pseudoanemia
 · Endurance: **cavidade maior** · força: **parede mais espessa**
-Visual: dois corações em corte.
-
-**Slide 15** — Pseudoanemia
 · Plasma cresce mais que as hemácias: **concentração cai**
 Visual: dois tubos.
 
-**Slide 16** — Ler sem errar nos dois sentidos
+**Slide 9** — Ler sem errar nos dois sentidos · A ficha da segunda-feira · Master
 · **Companhia · condição de coleta · três cenários**
-Visual: três passos.
-
-**Slide 17** — A ficha da segunda-feira
 · **FC de repouso · FC em carga padronizada · recuperação no 1º minuto**
+· O treino **desloca a curva** para cima
 Visual: ficha com datas.
 
-**Slide 18** — Master
-· O treino **desloca a curva** para cima
-Visual: duas curvas de idade.
-
-**Slide 19** — O que interrompe e encaminha
+**Slide 10** — O que interrompe e encaminha
 · Síncope ao esforço · dor no peito · falta de ar desproporcional · palpitação com pré-síncope · morte súbita precoce na família
 Visual: cinco sinais.
 
 ---
 
 ## Notas de produção (não falado, não vai para o slide)
+
+**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides.
 
 **O que mudou nesta versão.** Voz do curso, dezenove slides no lugar de cinco. Saíram "escopo" e as
 menções numeradas a aulas. A hipotensão pós-exercício agora traz os números de Carpio-Rivera 2016

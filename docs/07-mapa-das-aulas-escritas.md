@@ -59,21 +59,22 @@ do apresentador de cada slide trazem o texto falado daquele trecho da aula.
 cada deck traz gráficos, esquemas e diagramas desenhados em SVG
 (`ferramentas/slides/desenho.py`). Curvas sem dado medido levam "Esquema, sem
 valores medidos"; toda referência foi conferida, e número que não se confirmou
-saiu da aula (registro em Notas de produção de cada uma). A partir da 2.10, a
-pedido do coordenador, os decks ficaram enxutos (9 a 10 slides, mais fala por
-slide) para a aula fluir melhor.
+saiu da aula (registro em Notas de produção de cada uma). A pedido do coordenador,
+todos os decks foram enxutos (8 a 11 slides, mais fala por slide) para a aula
+fluir melhor; nas aulas 2.1 a 2.9 os blocos vizinhos foram fundidos sem mexer
+no texto falado.
 
 | Slot | Aula | Min | Slides | Arquitetura | Deck |
 |---|---|---|---|---|---|
-| 2.1 | Setenta e cinco segundos | 17 | 12 | NÚMERO | [slides](https://claude.ai/artifact/F5RjLUR53oSM5vJcZmcGQ7) |
-| 2.2 | Pausa é conteúdo | 16 | 13 | DECISÃO | [slides](https://claude.ai/artifact/BGbUNGc7DHYu7fBMxC5jKU) |
-| 2.3 | O acompanhante inocente | 19 | 16 | ERRO | [slides](https://claude.ai/artifact/UgShkL2Ysw5UFKRsq3shY4) |
-| 2.4 | Meio grama por minuto | 23 | 19 | NÚMERO | [slides](https://claude.ai/artifact/487nyfgjxJFjj4G8QY3PKY) |
-| 2.5 | O coração em ordem | 19 | 19 | PROCEDIMENTO | [slides](https://claude.ai/artifact/KmdNKFwpeFZPF9U2m5BxBs) |
-| 2.6 | "Meu pulmão não aguenta" | 15 | 14 | ERRO | [slides](https://claude.ai/artifact/LYmMh6SoJP6jZaVXxrvRDP) |
-| 2.7 | Trinta e cinco dias | 18 | 16 | NÚMERO | [slides](https://claude.ai/artifact/EWXRjppx3U1sdHjx7H1hW7) |
-| 2.8 | O laudo na mesa | 24 | 20 | PROCEDIMENTO | [slides](https://claude.ai/artifact/8zQKvm2BNvWXC8WWFZW1oD) |
-| 2.9 | O calendário, não a molécula | 20 | 19 | DECISÃO | [slides](https://claude.ai/artifact/2xhNJXZXbkbVrRAbEN57F5) |
+| 2.1 | Setenta e cinco segundos | 17 | 8 | NÚMERO | [slides](https://claude.ai/artifact/F5RjLUR53oSM5vJcZmcGQ7) |
+| 2.2 | Pausa é conteúdo | 16 | 9 | DECISÃO | [slides](https://claude.ai/artifact/BGbUNGc7DHYu7fBMxC5jKU) |
+| 2.3 | O acompanhante inocente | 19 | 10 | ERRO | [slides](https://claude.ai/artifact/UgShkL2Ysw5UFKRsq3shY4) |
+| 2.4 | Meio grama por minuto | 23 | 10 | NÚMERO | [slides](https://claude.ai/artifact/487nyfgjxJFjj4G8QY3PKY) |
+| 2.5 | O coração em ordem | 19 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/KmdNKFwpeFZPF9U2m5BxBs) |
+| 2.6 | "Meu pulmão não aguenta" | 15 | 9 | ERRO | [slides](https://claude.ai/artifact/LYmMh6SoJP6jZaVXxrvRDP) |
+| 2.7 | Trinta e cinco dias | 18 | 9 | NÚMERO | [slides](https://claude.ai/artifact/EWXRjppx3U1sdHjx7H1hW7) |
+| 2.8 | O laudo na mesa | 24 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/8zQKvm2BNvWXC8WWFZW1oD) |
+| 2.9 | O calendário, não a molécula | 20 | 11 | DECISÃO | [slides](https://claude.ai/artifact/2xhNJXZXbkbVrRAbEN57F5) |
 | 2.10 | "Cansei" | 15 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/64RyFmeWkcAJGuj8ghsrc7) |
 | 2.11 | A moeda e a dívida | 15 | 9 | ERRO | [slides](https://claude.ai/artifact/LtSDiqA37qmrQNzRcz68QL) |
 | 2.12 | O ambiente é carga | 19 | 10 | DECISÃO | [slides](https://claude.ai/artifact/MLGr7WJCvXZWAi1NoYgiNX) |
@@ -81,10 +82,6 @@ slide) para a aula fluir melhor.
 Total: 3 h 40 min em 12 aulas. Um caso clínico no módulo (2.8, o corredor de
 46 anos, dito como caso ilustrativo). A 2.12 fecha o módulo com a camada de
 integração nos três níveis (decisão, contribuição, reconhecimento).
-
-**Pendência de ritmo.** As aulas 2.1 a 2.9 foram montadas antes do pedido de
-decks enxutos e têm de 12 a 20 slides. Se o ritmo incomodar na gravação, dá
-para fundir slides vizinhos sem mexer no texto falado.
 
 ## Módulo 3 — Fisiologia Hormonal e Endocrinologia do Exercício · 12 aulas
 
