@@ -1,0 +1,67 @@
+{
+ "arquivo": "aulas/MOD01/01-03-exercicio-e-dose.md",
+ "modulo": "Fundamentos das Ciências do Esporte e Trabalho Multiprofissional",
+ "titulo": "Exercício é dose",
+ "subtitulo": "Da conversa à prescrição",
+ "nota_capa": "Entra pela receita que ninguém escreveria.",
+ "secoes": {
+  "dose": ["Por que exercício é dose: a receita incompleta, a curva e as 26 doenças.", "capa"],
+  "prescricao": ["Como se escreve a dose: os sete campos, a intensidade e a triagem.", "sete-campos"],
+  "adesao": ["A prescrição que a pessoa consegue fazer e o teste final.", "adesao"]
+ },
+ "slides": [
+  {"id": "receita", "tipo": "cards", "eyebrow": "Para começar", "titulo": "A receita que ninguém escreveria",
+   "cards": [
+    {"t": "“Tome um remédio para pressão.”", "x": "Qual? Quantos miligramas? Quantas vezes? Até quando? Quando volta?", "cor": "verm"},
+    {"t": "“Faça exercício.”", "x": "Qual? Quanto? Quantas vezes? Até quando? Quando volta?", "cor": "verm"}],
+   "destaque": "Conselho não obriga ninguém a nada: nem o paciente a fazer, nem o profissional a acompanhar. E quando não dá certo, a culpa vira “falta de força de vontade”.", "destaque_cor": "verm"},
+  {"id": "curva", "tipo": "html", "eyebrow": "A forma da curva", "titulo": "O maior ganho está em sair do zero", "gap": 28,
+   "corpo": "<div style=\"background:#FDFCF9; border:1px solid #DDD8CC; border-radius:16px; padding:24px 32px; display:flex; flex-direction:column; gap:12px\"><svg aria-label=\"Curva de risco de morte que cai muito rápido nos primeiros minutos diários de atividade e depois achata; uma faixa vertical marca 30 a 40 minutos por dia\" width=\"1600\" height=\"300\" viewBox=\"0 0 1600 300\"><rect x=\"520\" y=\"10\" width=\"170\" height=\"272\" fill=\"#1F6F6B\" opacity=\"0.16\"/><path d=\"M20,24 C120,210 260,250 520,262 C820,272 1200,276 1580,278\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M20,24 C60,110 110,170 190,210\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"284\" x2=\"1580\" y2=\"284\" stroke=\"#97A4AE\" stroke-width=\"3\"/><line x1=\"18\" y1=\"10\" x2=\"18\" y2=\"284\" stroke=\"#97A4AE\" stroke-width=\"3\"/></svg><div style=\"display:flex; justify-content:space-between\"><p style=\"font-size:26px; color:#A8322A; font-weight:600\">↑ risco · sair do zero vale mais</p><p style=\"font-size:26px; color:#1F6F6B; font-weight:600\">30 a 40 min/dia</p><p style=\"font-size:26px; color:#3A4A57\">minutos de atividade por dia →</p></div></div>",
+   "destaque": "Exercício não é estilo de vida nem conselho. É intervenção com dose. Para quem está parado, a meta é sair do zero, não a diretriz.",
+   "fonte": "Ekelund et al., BMJ 2019 (curva) e BJSM 2020 (44 mil adultos)"},
+  {"id": "26-doencas", "tipo": "numeros", "eyebrow": "Com que direito se chama de tratamento", "titulo": "Exercício como terapia em 26 doenças crônicas",
+   "numeros": [
+    {"n": "26", "x": "doenças crônicas com evidência para prescrever exercício como terapia", "cor": "petr"},
+    {"n": "7", "x": "grupos: cabeça, cérebro, metabolismo, coração, pulmão, músculos e ossos, câncer", "cor": "petr"}],
+   "destaque": "Muda desfechos que importam: capacidade de fazer as coisas, sintomas, controle da doença, qualidade de vida e, em algumas, a chance de morrer.",
+   "fonte": "Pedersen e Saltin, Scandinavian Journal of Medicine & Science in Sports 2015"},
+  {"id": "slogan", "tipo": "cards", "eyebrow": "O cuidado com o slogan", "titulo": "“Exercício é remédio”, com três ressalvas",
+   "cards": [
+    {"t": "O efeito varia", "x": "Muito, entre doenças e entre desfechos. Reabilitação cardíaca não é fibrose cística.", "cor": "ambar"},
+    {"t": "Não substitui por decreto", "x": "Ninguém tira insulina, betabloqueador ou antidepressivo porque a pessoa começou a treinar.", "cor": "verm"},
+    {"t": "Prescrever é assumir", "x": "Dose, acompanhamento, efeito colateral e reavaliação. O conselho é popular porque não assume nada.", "cor": "petr"}]},
+  {"id": "sete-campos", "tipo": "tabela", "eyebrow": "A receita completa", "titulo": "Os sete campos de uma prescrição", "larguras": [30, 70], "tam": 28,
+   "cab": ["Campo", "O que ele responde"],
+   "linhas": [
+    ["Frequência", "Quantas vezes por semana"],
+    ["Intensidade", "Quão forte, e medida como"],
+    ["Tempo", "Quantos minutos por sessão"],
+    ["Tipo", "Qual atividade: o que a pessoa tolera e aceita fazer"],
+    ["Volume", "O total da semana, incluindo força 2×/semana com carga"],
+    ["Progressão", "Como aumenta e quando: um número com uma data"],
+    ["Quem acompanha", "E quando é a reavaliação"]]},
+  {"id": "intensidade", "tipo": "cards", "eyebrow": "O campo que mais gera erro", "titulo": "Intensidade ancorada no que funciona",
+   "cards": [
+    {"t": "Esforço de 0 a 10", "x": "A percepção da própria pessoa. Funciona com e sem remédio.", "cor": "petr"},
+    {"t": "Teste da fala", "x": "Moderado: conversa com alguma dificuldade. Vigoroso: não termina uma frase.", "cor": "petr"},
+    {"t": "Teste de esforço", "x": "Feito tomando os remédios que a pessoa usa. A melhor âncora que existe.", "cor": "petr"}],
+   "destaque": "Com betabloqueador, zona de frequência cardíaca não serve: o remédio segura o coração.", "destaque_cor": "verm"},
+  {"id": "triagem", "tipo": "duas", "eyebrow": "Antes de começar", "titulo": "Os dois erros opostos da triagem",
+   "esq": {"t": "Liberar tudo sem perguntar", "cor": "verm", "itens": ["Vinte anos parado, aula de alta intensidade na segunda semana", "Três perguntas evitam: já é ativa? tem doença ou sintoma? que intensidade pretende?"]},
+   "dir": {"t": "Cardiologista para caminhar", "cor": "ambar", "itens": ["Parece cuidadoso e vira barreira", "Três meses de espera e a pessoa não começa nunca"]},
+   "destaque": "Sem sintoma, sem doença conhecida, vai começar caminhando: começa hoje.",
+   "fonte": "Colégio Americano de Medicina do Esporte, revisão das recomendações de triagem, 2015"},
+  {"id": "adesao", "tipo": "lista", "eyebrow": "Onde a prescrição morre", "titulo": "Cinco coisas que fazem a pessoa fazer", "gap_itens": 16,
+   "itens": [
+    {"t": "Comece abaixo do que ela acha que consegue", "cor": "petr"},
+    {"t": "Pendure na rotina que já existe", "cor": "petr"},
+    {"t": "Acompanhe de perto nas primeiras semanas", "cor": "petr"},
+    {"t": "Meça função, não só peso", "cor": "petr"},
+    {"t": "Não use medo", "cor": "verm"}],
+   "destaque": "E combine uma versão menor para a semana ruim. Sem ela, a semana ruim não vira semana pequena: vira abandono."},
+  {"id": "fecho", "tipo": "fecho", "titulo": "Você prescreveu ou aconselhou?",
+   "regras": ["Tem número? Minuto, dia, série ou carga.", "Tem data de volta? Sem reavaliação, ninguém sabe se a dose estava certa.", "Tem uma versão menor combinada para a semana ruim?"],
+   "quem": "Falar a recomendação e explicar por que ela existe é de todos. Montar a prescrição individual, com carga e progressão, é de quem prescreve treino ou conduz a reabilitação.",
+   "proxima": "150 minutos e o que ninguém lê na diretriz"}
+ ]
+}

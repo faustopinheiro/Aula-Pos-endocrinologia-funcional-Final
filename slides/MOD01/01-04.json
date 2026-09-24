@@ -1,0 +1,182 @@
+{
+ "arquivo": "aulas/MOD01/01-04-150-minutos-e-o-que-ninguem-le-na-diretriz.md",
+ "modulo": "Fundamentos das Ciências do Esporte e Trabalho Multiprofissional",
+ "titulo": "150 minutos e o que ninguém lê na diretriz",
+ "subtitulo": "A recomendação mundial de atividade física, linha por linha",
+ "nota_capa": "Entra pelo número, para desmontar.",
+ "secoes": {
+  "documento": [
+   "O número mais citado e o que o documento diz de verdade.",
+   "capa"
+  ],
+  "uso": [
+   "O que mudou, o limite da diretriz e como ela vira conversa.",
+   "mudou"
+  ]
+ },
+ "slides": [
+  {
+   "id": "cento-e-cinquenta",
+   "tipo": "numeros",
+   "eyebrow": "O número mais repetido da saúde pública",
+   "titulo": "150 minutos por semana: por que é o menos útil",
+   "numeros": [
+    {
+     "n": "150–300",
+     "x": "É uma faixa, não um número. Dito sozinho, o mínimo vira meta.",
+     "cor": "ambar"
+    },
+    {
+     "n": "½",
+     "x": "É só a metade aeróbia. Força em 2 dias ou mais faz parte da mesma recomendação.",
+     "cor": "verm"
+    },
+    {
+     "n": "0 → 1",
+     "x": "Para quem está parado, 150 assusta. O maior ganho está em sair do zero.",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "“Fazer alguma atividade é melhor do que não fazer nenhuma.” Está escrito no documento."
+  },
+  {
+   "id": "seis-linhas",
+   "tipo": "tabela",
+   "eyebrow": "Organização Mundial da Saúde, 2020",
+   "titulo": "O documento inteiro, em seis linhas",
+   "larguras": [
+    30,
+    70
+   ],
+   "tam": 26,
+   "cab": [
+    "Para quem",
+    "O que recomenda"
+   ],
+   "linhas": [
+    [
+     "Adulto, 18 a 64 anos",
+     "150 a 300 min moderada ou 75 a 150 vigorosa + força 2×/semana. Passar da faixa traz benefício adicional."
+    ],
+    [
+     "Idoso, 65 ou mais",
+     "Tudo do adulto + equilíbrio e força 3×/semana. Mais exigente, não menos."
+    ],
+    [
+     "Criança e adolescente",
+     "Média de 60 min/dia de moderada a vigorosa + músculo e osso 3×/semana."
+    ],
+    [
+     "Gestante e pós-parto",
+     "Atividade regular durante e depois. Linha nova em 2020."
+    ],
+    [
+     "Doença crônica",
+     "A mesma recomendação do adulto, adaptada."
+    ],
+    [
+     "Pessoa com deficiência",
+     "A mesma recomendação, quando possível, adaptada."
+    ]
+   ],
+   "fonte": "Bull et al., British Journal of Sports Medicine 2020",
+   "gap": 24
+  },
+  {
+   "id": "sentado",
+   "tipo": "frase",
+   "eyebrow": "Atravessando as seis linhas",
+   "frase": "Menos tempo sentado, em todas as idades. E não existe número mágico de horas.",
+   "apoio": "Trocar tempo sentado por atividade de qualquer intensidade já traz benefício. O próprio documento diz que a evidência não permite fixar um limite de horas: quem te der esse número está inventando."
+  },
+  {
+   "id": "mudou",
+   "tipo": "cards",
+   "eyebrow": "Em relação à versão anterior",
+   "titulo": "Três mudanças ainda mal incorporadas",
+   "cards": [
+    {
+     "t": "Acabou o bloco de 10 minutos",
+     "x": "Qualquer duração conta. Escada, três caminhadas de 6 minutos, descer um ponto antes.",
+     "cor": "petr"
+    },
+    {
+     "t": "Sentado virou recomendação",
+     "x": "Cumprir 150 minutos e passar 10 horas sentado: as 10 horas continuam pesando.",
+     "cor": "ambar"
+    },
+    {
+     "t": "Novas populações por escrito",
+     "x": "Gestação, doença crônica, deficiência. A meta é a mesma; muda o caminho.",
+     "cor": "petr"
+    }
+   ]
+  },
+  {
+   "id": "piso",
+   "tipo": "duas",
+   "eyebrow": "Um cuidado de leitura",
+   "titulo": "Diretriz é piso, não é prescrição",
+   "esq": {
+    "t": "A diretriz",
+    "cor": "petr",
+    "itens": [
+     "Olha milhões de pessoas",
+     "Evidência em boa parte observacional",
+     "Dá o piso, o vocabulário e a legitimidade"
+    ]
+   },
+   "dir": {
+    "t": "A prescrição",
+    "cor": "ambar",
+    "itens": [
+     "Olha uma pessoa",
+     "Sabe do joelho, do turno e da agenda",
+     "Dá a dose, a progressão e a data de volta"
+    ]
+   }
+  },
+  {
+   "id": "conversas",
+   "tipo": "cards",
+   "eyebrow": "Na segunda-feira",
+   "titulo": "A diretriz em quatro conversas",
+   "por_linha": 2,
+   "gap": 26,
+   "cards": [
+    {
+     "t": "Com quem está em zero",
+     "x": "Não fale o número. Fale o degrau: “dez minutos, cinco dias, depois do almoço”.",
+     "cor": "petr"
+    },
+    {
+     "t": "Com quem treina muito",
+     "x": "Mostre a faixa inteira. O limite dessa pessoa vem da recuperação dela.",
+     "cor": "petr"
+    },
+    {
+     "t": "Com quem esquece a força",
+     "x": "Está no documento, com a mesma autoridade. Não é preferência sua.",
+     "cor": "petr"
+    },
+    {
+     "t": "Com quem ouviu “pegue leve”",
+     "x": "Doença crônica: a meta é a mesma. Está escrito.",
+     "cor": "petr"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "A diretriz tira o “não sei quanto” da conversa",
+   "regras": [
+    "É uma faixa, tem força e começa em sair do zero.",
+    "Idoso tem recomendação mais exigente; doença crônica tem a mesma meta.",
+    "Diretriz é piso: a prescrição individual dá o resto."
+   ],
+   "quem": "“A recomendação é de 150 a 300 minutos e inclui força” é de todos. “Faça três séries de dez com essa carga” é de quem prescreve treino ou conduz a reabilitação.",
+   "proxima": "Quem cuida de quem: as funções de uma equipe"
+  }
+ ]
+}
