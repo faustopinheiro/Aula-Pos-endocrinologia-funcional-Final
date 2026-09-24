@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1020" width="1280" height="1020" role="img" aria-label="Comparativo de tres propostas de simbolo para o curso, cada uma testada em tamanho grande, tamanho pequeno, fundo escuro e como marca d agua">
+  <defs>
+    <g id="anel" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M75.9,28.5 A34,34 0 1,0 75.9,67.5"/>
+      <path d="M58,48 L68,48 L73.5,35 L80,61 L85,48 L94,48"/>
+    </g>
+    <g id="pagina" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M10,34 L26,34 L32,21 L40,47 L46,34 L86,34"/>
+      <path d="M10,57 L70,57"/>
+      <path d="M10,76 L48,76"/>
+    </g>
+    <g id="escada" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12,80 L12,62"/>
+      <path d="M34,80 L34,48"/>
+      <path d="M56,80 L56,34"/>
+      <path d="M6,22 L22,22 L28,10 L36,32 L42,22 L90,22"/>
+      <path d="M78,80 L78,22"/>
+    </g>
+  </defs>
+
+  <rect width="1280" height="1020" fill="#F7F6F2"/>
+  <text x="64" y="70" font-family="Georgia, serif" font-size="34" fill="#12202E">Tres propostas de simbolo</text>
+  <text x="64" y="104" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4A5A68">Cada linha mostra o mesmo desenho em quatro usos: grande, pequeno no rodape, sobre fundo escuro e como marca d agua.</text>
+
+  <g>
+    <text x="64" y="170" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#A8322A">A. Anel de pulso</text>
+    <text x="64" y="196" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">Ciclo de formacao aberto pela linha da vida. Le como letra O e como monitor.</text>
+    <use href="#anel" stroke="#12202E" transform="translate(64,214) scale(1.25)"/>
+    <use href="#anel" stroke="#12202E" transform="translate(220,244) scale(0.38)"/>
+    <text x="220" y="330" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6B7A87">36 px</text>
+    <rect x="300" y="214" width="260" height="140" rx="12" fill="#12202E"/>
+    <use href="#anel" stroke="#F7F6F2" transform="translate(390,236) scale(0.95)"/>
+    <rect x="600" y="214" width="616" height="140" rx="12" fill="#FDFCF9" stroke="#DDD8CC"/>
+    <use href="#anel" stroke="#12202E" opacity="0.07" transform="translate(1000,206) scale(1.55)"/>
+    <text x="628" y="266" font-family="Georgia, serif" font-size="26" fill="#12202E">O numero descreve a definicao</text>
+    <text x="628" y="300" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">marca d agua a 7 por cento, canto inferior direito</text>
+  </g>
+
+  <g>
+    <text x="64" y="440" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#A8322A">B. Pagina com pulso</text>
+    <text x="64" y="466" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">Linhas de texto de uma pagina, a primeira delas batendo. Educacao primeiro, saude junto.</text>
+    <use href="#pagina" stroke="#12202E" transform="translate(64,484) scale(1.25)"/>
+    <use href="#pagina" stroke="#12202E" transform="translate(220,514) scale(0.38)"/>
+    <text x="220" y="600" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6B7A87">36 px</text>
+    <rect x="300" y="484" width="260" height="140" rx="12" fill="#12202E"/>
+    <use href="#pagina" stroke="#F7F6F2" transform="translate(390,506) scale(0.95)"/>
+    <rect x="600" y="484" width="616" height="140" rx="12" fill="#FDFCF9" stroke="#DDD8CC"/>
+    <use href="#pagina" stroke="#12202E" opacity="0.07" transform="translate(1000,476) scale(1.55)"/>
+    <text x="628" y="536" font-family="Georgia, serif" font-size="26" fill="#12202E">O numero descreve a definicao</text>
+    <text x="628" y="570" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">marca d agua a 7 por cento, canto inferior direito</text>
+  </g>
+
+  <g>
+    <text x="64" y="710" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#A8322A">C. Degraus com pulso</text>
+    <text x="64" y="736" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">Progressao de carga e de aprendizado sob a mesma linha. Mais especifico de esporte.</text>
+    <use href="#escada" stroke="#12202E" transform="translate(64,754) scale(1.25)"/>
+    <use href="#escada" stroke="#12202E" transform="translate(220,784) scale(0.38)"/>
+    <text x="220" y="870" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#6B7A87">36 px</text>
+    <rect x="300" y="754" width="260" height="140" rx="12" fill="#12202E"/>
+    <use href="#escada" stroke="#F7F6F2" transform="translate(390,776) scale(0.95)"/>
+    <rect x="600" y="754" width="616" height="140" rx="12" fill="#FDFCF9" stroke="#DDD8CC"/>
+    <use href="#escada" stroke="#12202E" opacity="0.07" transform="translate(1000,746) scale(1.55)"/>
+    <text x="628" y="806" font-family="Georgia, serif" font-size="26" fill="#12202E">O numero descreve a definicao</text>
+    <text x="628" y="840" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">marca d agua a 7 por cento, canto inferior direito</text>
+  </g>
+
+  <text x="64" y="960" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">Todos em traco unico, sem preenchimento, fundo transparente, e recoloriveis: tinta sobre claro, papel sobre escuro.</text>
+</svg>
