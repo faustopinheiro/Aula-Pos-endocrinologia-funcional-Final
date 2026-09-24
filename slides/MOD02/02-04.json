@@ -1,0 +1,1529 @@
+{
+ "arquivo": "aulas/MOD02/02-04-metabolismo-oxidativo-e-uso-de-substratos.md",
+ "modulo": "Fisiologia do Exercício Aplicada",
+ "titulo": "Meio grama por minuto",
+ "subtitulo": "Metabolismo oxidativo e uso de substratos",
+ "nota_capa": "Entra pelo número.",
+ "secoes": {
+  "numero": [
+   "O pico de gordura, a curva e como se mede.",
+   "capa"
+  ],
+  "porque": [
+   "Por que a torneira é estreita e o erro da zona de queima.",
+   "caminho"
+  ],
+  "carbo": [
+   "O atleta que quebra e o teto do intestino.",
+   "quebra"
+  ],
+  "melhora": [
+   "Como a mitocôndria cresce e o que a derruba.",
+   "cascata"
+  ]
+ },
+ "slides": [
+  {
+   "id": "numeros",
+   "tipo": "numeros",
+   "eyebrow": "Queima de gordura no pico, em treinados",
+   "titulo": "Meio grama por minuto",
+   "numeros": [
+    {
+     "n": "0,52",
+     "x": "grama de gordura por minuto, no pico, em homens treinados em endurance",
+     "cor": "petr"
+    },
+    {
+     "n": "62%",
+     "x": "do VO₂máx: a intensidade em que o pico acontece",
+     "cor": "ambar"
+    },
+    {
+     "n": "± 0,15",
+     "x": "de uma pessoa para outra, com o mesmo treino: quase o dobro",
+     "cor": "verm"
+    }
+   ],
+   "fonte": "Achten e Jeukendrup, International Journal of Sports Medicine 2003 · 55 homens treinados"
+  },
+  {
+   "id": "curva",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Queima de gordura em gramas por minuto contra a intensidade: sobe até cerca de 0,52 grama por minuto perto de 62% do VO2máx e cai depois; uma faixa larga em volta mostra a variação de uma pessoa para outra\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"90\" y1=\"380.0\" x2=\"1594\" y2=\"380.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"267.5\" x2=\"1594\" y2=\"267.5\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"155.0\" x2=\"1594\" y2=\"155.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"42.5\" x2=\"1594\" y2=\"42.5\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90.0\" y1=\"380\" x2=\"90.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"437.1\" y1=\"380\" x2=\"437.1\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"957.7\" y1=\"380\" x2=\"957.7\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1362.6\" y1=\"380\" x2=\"1362.6\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1594.0\" y1=\"380\" x2=\"1594.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polygon points=\"90.0,353.8 101.6,352.0 113.1,350.2 124.7,348.2 136.3,346.2 147.8,344.1 159.4,341.8 171.0,339.5 182.6,337.0 194.1,334.5 205.7,331.8 217.3,329.0 228.8,326.2 240.4,323.2 252.0,320.0 263.5,316.8 275.1,313.5 286.7,310.0 298.2,306.4 309.8,302.7 321.4,298.9 333.0,295.0 344.5,290.9 356.1,286.8 367.7,282.5 379.2,278.1 390.8,273.7 402.4,269.1 413.9,264.4 425.5,259.7 437.1,254.8 448.6,249.9 460.2,244.9 471.8,239.8 483.4,234.6 494.9,229.4 506.5,224.2 518.1,218.9 529.6,213.6 541.2,208.2 552.8,202.8 564.3,197.4 575.9,192.1 587.5,186.7 599.0,181.3 610.6,176.0 622.2,170.7 633.8,165.5 645.3,160.3 656.9,155.2 668.5,150.1 680.0,145.2 691.6,140.4 703.2,135.6 714.7,131.0 726.3,126.6 737.9,122.2 749.4,118.1 761.0,114.0 772.6,110.2 784.2,106.6 795.7,103.1 807.3,99.8 818.9,96.8 830.4,93.9 842.0,91.3 853.6,88.9 865.1,86.8 876.7,84.8 888.3,83.2 899.8,81.8 911.4,80.6 923.0,79.7 934.6,79.0 946.1,78.6 957.7,78.5 969.3,78.8 980.8,79.8 992.4,81.5 1004.0,83.8 1015.5,86.8 1027.1,90.3 1038.7,94.5 1050.2,99.2 1061.8,104.4 1073.4,110.2 1085.0,116.4 1096.5,123.1 1108.1,130.1 1119.7,137.5 1131.2,145.2 1142.8,153.1 1154.4,161.3 1165.9,169.7 1177.5,178.1 1189.1,186.7 1200.6,195.3 1212.2,203.9 1223.8,212.5 1235.4,221.0 1246.9,229.4 1258.5,237.7 1270.1,245.9 1281.6,253.8 1293.2,261.6 1304.8,269.1 1316.3,276.4 1327.9,283.4 1339.5,290.1 1351.0,296.5 1362.6,302.7 1374.2,308.6 1385.8,314.1 1397.3,319.4 1408.9,324.4 1420.5,329.0 1432.0,333.4 1443.6,337.5 1455.2,341.4 1466.7,344.9 1478.3,348.2 1489.9,351.3 1501.4,354.1 1513.0,356.7 1524.6,359.1 1536.2,361.3 1547.7,363.2 1559.3,365.1 1570.9,366.7 1582.4,368.2 1594.0,369.5 1594.0,374.2 1582.4,373.5 1570.9,372.7 1559.3,371.7 1547.7,370.7 1536.2,369.6 1524.6,368.4 1513.0,367.1 1501.4,365.7 1489.9,364.1 1478.3,362.5 1466.7,360.6 1455.2,358.7 1443.6,356.5 1432.0,354.3 1420.5,351.9 1408.9,349.3 1397.3,346.5 1385.8,343.6 1374.2,340.6 1362.6,337.3 1351.0,333.9 1339.5,330.4 1327.9,326.6 1316.3,322.8 1304.8,318.7 1293.2,314.6 1281.6,310.3 1270.1,305.9 1258.5,301.4 1246.9,296.9 1235.4,292.2 1223.8,287.5 1212.2,282.8 1200.6,278.0 1189.1,273.2 1177.5,268.5 1165.9,263.8 1154.4,259.2 1142.8,254.7 1131.2,250.3 1119.7,246.1 1108.1,242.0 1096.5,238.1 1085.0,234.4 1073.4,231.0 1061.8,227.8 1050.2,224.9 1038.7,222.3 1027.1,220.0 1015.5,218.1 1004.0,216.4 992.4,215.2 980.8,214.2 969.3,213.7 957.7,213.5 946.1,213.6 934.6,213.8 923.0,214.1 911.4,214.7 899.8,215.3 888.3,216.1 876.7,217.0 865.1,218.1 853.6,219.3 842.0,220.6 830.4,222.0 818.9,223.6 807.3,225.3 795.7,227.1 784.2,229.0 772.6,231.0 761.0,233.1 749.4,235.3 737.9,237.6 726.3,240.0 714.7,242.5 703.2,245.0 691.6,247.7 680.0,250.3 668.5,253.1 656.9,255.8 645.3,258.7 633.8,261.5 622.2,264.4 610.6,267.3 599.0,270.3 587.5,273.2 575.9,276.2 564.3,279.2 552.8,282.2 541.2,285.1 529.6,288.1 518.1,291.0 506.5,294.0 494.9,296.9 483.4,299.7 471.8,302.6 460.2,305.4 448.6,308.1 437.1,310.9 425.5,313.5 413.9,316.2 402.4,318.7 390.8,321.3 379.2,323.7 367.7,326.2 356.1,328.5 344.5,330.8 333.0,333.0 321.4,335.2 309.8,337.3 298.2,339.4 286.7,341.3 275.1,343.2 263.5,345.1 252.0,346.9 240.4,348.6 228.8,350.3 217.3,351.9 205.7,353.4 194.1,354.9 182.6,356.3 171.0,357.6 159.4,358.9 147.8,360.1 136.3,361.3 124.7,362.5 113.1,363.5 101.6,364.5 90.0,365.5\" fill=\"#008A7E\" fill-opacity=\"0.16\"/><line x1=\"90\" y1=\"380\" x2=\"1594\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"90.0,359.6 101.6,358.3 113.1,356.8 124.7,355.3 136.3,353.8 147.8,352.1 159.4,350.4 171.0,348.6 182.6,346.7 194.1,344.7 205.7,342.6 217.3,340.5 228.8,338.2 240.4,335.9 252.0,333.5 263.5,331.0 275.1,328.4 286.7,325.7 298.2,322.9 309.8,320.0 321.4,317.0 333.0,314.0 344.5,310.9 356.1,307.6 367.7,304.3 379.2,300.9 390.8,297.5 402.4,293.9 413.9,290.3 425.5,286.6 437.1,282.8 448.6,279.0 460.2,275.1 471.8,271.2 483.4,267.2 494.9,263.2 506.5,259.1 518.1,255.0 529.6,250.8 541.2,246.7 552.8,242.5 564.3,238.3 575.9,234.1 587.5,230.0 599.0,225.8 610.6,221.7 622.2,217.6 633.8,213.5 645.3,209.5 656.9,205.5 668.5,201.6 680.0,197.8 691.6,194.0 703.2,190.3 714.7,186.8 726.3,183.3 737.9,179.9 749.4,176.7 761.0,173.6 772.6,170.6 784.2,167.8 795.7,165.1 807.3,162.5 818.9,160.2 830.4,158.0 842.0,155.9 853.6,154.1 865.1,152.4 876.7,150.9 888.3,149.6 899.8,148.5 911.4,147.6 923.0,146.9 934.6,146.4 946.1,146.1 957.7,146.0 969.3,146.3 980.8,147.0 992.4,148.3 1004.0,150.1 1015.5,152.4 1027.1,155.2 1038.7,158.4 1050.2,162.1 1061.8,166.1 1073.4,170.6 1085.0,175.4 1096.5,180.6 1108.1,186.1 1119.7,191.8 1131.2,197.8 1142.8,203.9 1154.4,210.3 1165.9,216.7 1177.5,223.3 1189.1,230.0 1200.6,236.6 1212.2,243.3 1223.8,250.0 1235.4,256.6 1246.9,263.2 1258.5,269.6 1270.1,275.9 1281.6,282.1 1293.2,288.1 1304.8,293.9 1316.3,299.6 1327.9,305.0 1339.5,310.2 1351.0,315.2 1362.6,320.0 1374.2,324.6 1385.8,328.9 1397.3,333.0 1408.9,336.8 1420.5,340.5 1432.0,343.9 1443.6,347.0 1455.2,350.0 1466.7,352.8 1478.3,355.3 1489.9,357.7 1501.4,359.9 1513.0,361.9 1524.6,363.8 1536.2,365.5 1547.7,367.0 1559.3,368.4 1570.9,369.7 1582.4,370.8 1594.0,371.9\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"957.7\" cy=\"146.0\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 363,
+     "w": 74,
+     "t": "0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 250,
+     "w": 74,
+     "t": "0,25",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 138,
+     "w": 74,
+     "t": "0,5",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 26,
+     "w": 74,
+     "t": "0,75",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 396,
+     "w": 160,
+     "t": "25%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 357,
+     "y": 396,
+     "w": 160,
+     "t": "40%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 878,
+     "y": 396,
+     "w": 160,
+     "t": "62%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1283,
+     "y": 396,
+     "w": 160,
+     "t": "80%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1514,
+     "y": 396,
+     "w": 160,
+     "t": "90%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 60,
+     "w": 400,
+     "t": "0,52 g/min no pico",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1180,
+     "y": 110,
+     "w": 420,
+     "t": "acima do pico, cai em gramas, não só em fração",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 150,
+     "y": 40,
+     "w": 560,
+     "t": "faixa: ± 0,15 g/min, de uma pessoa para outra",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Gordura queimada, em gramas por minuto",
+   "titulo": "O pico existe, e é de cada um",
+   "fonte": "% do VO₂máx · curva ilustrativa com os valores médios de Achten e Jeukendrup 2003 · a faixa é ± 1 desvio-padrão"
+  },
+  {
+   "id": "tanque",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Mais de duzentos quadrados, cada um uma hora queimando gordura no pico: é o tempo para esvaziar um estoque de 60 mil quilocalorias a 280 quilocalorias por hora\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><path d=\"M36 0h30v30h-30zM72 0h30v30h-30zM108 0h30v30h-30zM144 0h30v30h-30zM180 0h30v30h-30zM216 0h30v30h-30zM252 0h30v30h-30zM288 0h30v30h-30zM324 0h30v30h-30zM360 0h30v30h-30zM396 0h30v30h-30zM432 0h30v30h-30zM468 0h30v30h-30zM504 0h30v30h-30zM540 0h30v30h-30zM576 0h30v30h-30zM612 0h30v30h-30zM648 0h30v30h-30zM684 0h30v30h-30zM720 0h30v30h-30zM756 0h30v30h-30zM792 0h30v30h-30zM828 0h30v30h-30zM864 0h30v30h-30zM900 0h30v30h-30zM936 0h30v30h-30zM0 36h30v30h-30zM36 36h30v30h-30zM72 36h30v30h-30zM108 36h30v30h-30zM144 36h30v30h-30zM180 36h30v30h-30zM216 36h30v30h-30zM252 36h30v30h-30zM288 36h30v30h-30zM324 36h30v30h-30zM360 36h30v30h-30zM396 36h30v30h-30zM432 36h30v30h-30zM468 36h30v30h-30zM504 36h30v30h-30zM540 36h30v30h-30zM576 36h30v30h-30zM612 36h30v30h-30zM648 36h30v30h-30zM684 36h30v30h-30zM720 36h30v30h-30zM756 36h30v30h-30zM792 36h30v30h-30zM828 36h30v30h-30zM864 36h30v30h-30zM900 36h30v30h-30zM936 36h30v30h-30zM0 72h30v30h-30zM36 72h30v30h-30zM72 72h30v30h-30zM108 72h30v30h-30zM144 72h30v30h-30zM180 72h30v30h-30zM216 72h30v30h-30zM252 72h30v30h-30zM288 72h30v30h-30zM324 72h30v30h-30zM360 72h30v30h-30zM396 72h30v30h-30zM432 72h30v30h-30zM468 72h30v30h-30zM504 72h30v30h-30zM540 72h30v30h-30zM576 72h30v30h-30zM612 72h30v30h-30zM648 72h30v30h-30zM684 72h30v30h-30zM720 72h30v30h-30zM756 72h30v30h-30zM792 72h30v30h-30zM828 72h30v30h-30zM864 72h30v30h-30zM900 72h30v30h-30zM936 72h30v30h-30zM0 108h30v30h-30zM36 108h30v30h-30zM72 108h30v30h-30zM108 108h30v30h-30zM144 108h30v30h-30zM180 108h30v30h-30zM216 108h30v30h-30zM252 108h30v30h-30zM288 108h30v30h-30zM324 108h30v30h-30zM360 108h30v30h-30zM396 108h30v30h-30zM432 108h30v30h-30zM468 108h30v30h-30zM504 108h30v30h-30zM540 108h30v30h-30zM576 108h30v30h-30zM612 108h30v30h-30zM648 108h30v30h-30zM684 108h30v30h-30zM720 108h30v30h-30zM756 108h30v30h-30zM792 108h30v30h-30zM828 108h30v30h-30zM864 108h30v30h-30zM900 108h30v30h-30zM936 108h30v30h-30zM0 144h30v30h-30zM36 144h30v30h-30zM72 144h30v30h-30zM108 144h30v30h-30zM144 144h30v30h-30zM180 144h30v30h-30zM216 144h30v30h-30zM252 144h30v30h-30zM288 144h30v30h-30zM324 144h30v30h-30zM360 144h30v30h-30zM396 144h30v30h-30zM432 144h30v30h-30zM468 144h30v30h-30zM504 144h30v30h-30zM540 144h30v30h-30zM576 144h30v30h-30zM612 144h30v30h-30zM648 144h30v30h-30zM684 144h30v30h-30zM720 144h30v30h-30zM756 144h30v30h-30zM792 144h30v30h-30zM828 144h30v30h-30zM864 144h30v30h-30zM900 144h30v30h-30zM936 144h30v30h-30zM0 180h30v30h-30zM36 180h30v30h-30zM72 180h30v30h-30zM108 180h30v30h-30zM144 180h30v30h-30zM180 180h30v30h-30zM216 180h30v30h-30zM252 180h30v30h-30zM288 180h30v30h-30zM324 180h30v30h-30zM360 180h30v30h-30zM396 180h30v30h-30zM432 180h30v30h-30zM468 180h30v30h-30zM504 180h30v30h-30zM540 180h30v30h-30zM576 180h30v30h-30zM612 180h30v30h-30zM648 180h30v30h-30zM684 180h30v30h-30zM720 180h30v30h-30zM756 180h30v30h-30zM792 180h30v30h-30zM828 180h30v30h-30zM864 180h30v30h-30zM900 180h30v30h-30zM936 180h30v30h-30zM0 216h30v30h-30zM36 216h30v30h-30zM72 216h30v30h-30zM108 216h30v30h-30zM144 216h30v30h-30zM180 216h30v30h-30zM216 216h30v30h-30zM252 216h30v30h-30zM288 216h30v30h-30zM324 216h30v30h-30zM360 216h30v30h-30zM396 216h30v30h-30zM432 216h30v30h-30zM468 216h30v30h-30zM504 216h30v30h-30zM540 216h30v30h-30zM576 216h30v30h-30zM612 216h30v30h-30zM648 216h30v30h-30zM684 216h30v30h-30zM720 216h30v30h-30zM756 216h30v30h-30zM792 216h30v30h-30zM828 216h30v30h-30zM864 216h30v30h-30zM900 216h30v30h-30zM936 216h30v30h-30zM0 252h30v30h-30zM36 252h30v30h-30zM72 252h30v30h-30zM108 252h30v30h-30zM144 252h30v30h-30zM180 252h30v30h-30zM216 252h30v30h-30zM252 252h30v30h-30zM288 252h30v30h-30zM324 252h30v30h-30zM360 252h30v30h-30zM396 252h30v30h-30zM432 252h30v30h-30zM468 252h30v30h-30zM504 252h30v30h-30zM540 252h30v30h-30zM576 252h30v30h-30zM612 252h30v30h-30zM648 252h30v30h-30zM684 252h30v30h-30zM720 252h30v30h-30zM756 252h30v30h-30zM792 252h30v30h-30zM828 252h30v30h-30zM864 252h30v30h-30z\" fill=\"#008A7E\" fill-opacity=\"0.75\"/><rect x=\"0\" y=\"0\" width=\"30\" height=\"30\" rx=\"4\" fill=\"#A8322A\"/><line x1=\"1000\" y1=\"0\" x2=\"1000\" y2=\"420\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 310,
+     "w": 960,
+     "t": "cada quadrado = 1 hora queimando gordura no pico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 350,
+     "w": 960,
+     "t": "o vermelho é a primeira hora",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 0,
+     "w": 600,
+     "t": "~30 g/h",
+     "tam": 64,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1050,
+     "y": 84,
+     "w": 600,
+     "t": "≈ 280 kcal por hora, no melhor cenário",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 170,
+     "w": 600,
+     "t": "> 60.000",
+     "tam": 64,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1050,
+     "y": 254,
+     "w": 600,
+     "t": "kcal no tanque de gordura, mesmo em adulto magro",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 330,
+     "w": 600,
+     "t": "Mais de 200 horas para esvaziar.",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A conta",
+   "titulo": "Tanque imenso, torneira estreita"
+  },
+  {
+   "id": "regua",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Razão de troca respiratória de 0,70 a 1,00: em 0,70 a energia vem toda da gordura, em 0,85 mais ou menos meio a meio, em 1,00 toda do carboidrato\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"90\" y=\"50.0\" width=\"150\" height=\"270.0\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"310\" y=\"95.0\" width=\"150\" height=\"225.0\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"310\" y=\"50\" width=\"150\" height=\"43.0\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"530\" y=\"140.0\" width=\"150\" height=\"180.0\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"530\" y=\"50\" width=\"150\" height=\"88.0\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"750\" y=\"185.0\" width=\"150\" height=\"135.0\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"750\" y=\"50\" width=\"150\" height=\"133.0\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"970\" y=\"230.0\" width=\"150\" height=\"90.0\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"970\" y=\"50\" width=\"150\" height=\"178.0\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1190\" y=\"275.0\" width=\"150\" height=\"45.0\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"1190\" y=\"50\" width=\"150\" height=\"223.0\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1410\" y=\"50\" width=\"150\" height=\"268.0\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"90\" y=\"4\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"310\" y=\"4\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 334,
+     "w": 190,
+     "t": "0,70",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 334,
+     "w": 190,
+     "t": "0,75",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 510,
+     "y": 334,
+     "w": 190,
+     "t": "0,80",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 730,
+     "y": 334,
+     "w": 190,
+     "t": "0,85",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 950,
+     "y": 334,
+     "w": 190,
+     "t": "0,90",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1170,
+     "y": 334,
+     "w": 190,
+     "t": "0,95",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1390,
+     "y": 334,
+     "w": 190,
+     "t": "1,00",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 0,
+     "w": 170,
+     "t": "gordura",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 0,
+     "w": 260,
+     "t": "carboidrato",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 376,
+     "w": 1400,
+     "t": "gás carbônico solto ÷ oxigênio consumido · proporções aproximadas",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Como se mede: pelo ar",
+   "titulo": "A razão de troca respiratória diz a mistura",
+   "fonte": "Proporções a partir da tabela de Péronnet e Massicotte, 1991"
+  },
+  {
+   "id": "mente",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A razão de troca respiratória sobe com a intensidade e passa de 1,00; acima dessa linha, o gás carbônico extra vem do tamponamento e não da queima de combustível\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"100\" y1=\"300.0\" x2=\"1634\" y2=\"300.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"100\" y1=\"220.0\" x2=\"1634\" y2=\"220.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"100\" y1=\"140.0\" x2=\"1634\" y2=\"140.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"100\" y1=\"60.0\" x2=\"1634\" y2=\"60.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"100.0\" y1=\"340\" x2=\"100.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"867.0\" y1=\"340\" x2=\"867.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"340\" x2=\"1634.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"100.0\" y=\"20.0\" width=\"1534.0\" height=\"120.0\" fill=\"#F3E1DE\"/><line x1=\"100\" y1=\"340\" x2=\"1634\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"100.0,300.0 130.7,299.5 161.4,298.4 192.0,296.9 222.7,295.0 253.4,292.9 284.1,290.5 314.8,287.8 345.4,284.9 376.1,281.8 406.8,278.4 437.5,274.9 468.2,271.1 498.8,267.2 529.5,263.1 560.2,258.8 590.9,254.3 621.6,249.6 652.2,244.8 682.9,239.8 713.6,234.6 744.3,229.3 775.0,223.9 805.6,218.3 836.3,212.5 867.0,206.6 897.7,200.6 928.4,194.4 959.0,188.0 989.7,181.6 1020.4,175.0 1051.1,168.2 1081.8,161.4 1112.4,154.4 1143.1,147.3 1173.8,140.0 1204.5,137.2 1235.2,133.0 1265.8,128.2 1296.5,122.8 1327.2,117.0 1357.9,110.8 1388.6,104.4 1419.2,97.6 1449.9,90.6 1480.6,83.3 1511.3,75.9 1542.0,68.2 1572.6,60.3 1603.3,52.2 1634.0,44.0\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 283,
+     "w": 84,
+     "t": "0,80",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 203,
+     "w": 84,
+     "t": "0,90",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 123,
+     "w": 84,
+     "t": "1,00",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 43,
+     "w": 84,
+     "t": "1,10",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 356,
+     "w": 160,
+     "t": "leve",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 787,
+     "y": 356,
+     "w": 160,
+     "t": "moderado",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 356,
+     "w": 160,
+     "t": "máximo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 130,
+     "y": 30,
+     "w": 900,
+     "t": "acima de 1,00: CO₂ do tamponamento, não é combustível",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 250,
+     "w": 700,
+     "t": "abaixo: vale, se a intensidade estiver estável",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Duas limitações",
+   "titulo": "Em intensidade alta, a régua deixa de medir combustível",
+   "destaque": "O mesmo CO₂ que estraga a medida de combustível é o que deixa enxergar o limiar na ergoespirometria.",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "caminho",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Cinco etapas do ácido graxo: sair do adipócito, viajar no sangue presa à albumina, atravessar a membrana da fibra, passar pela porta da carnitina e entrar na mitocôndria; o glicogênio já está dentro da fibra, a um passo da via\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"g1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"g2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><circle cx=\"36\" cy=\"40\" r=\"26\" fill=\"#008A7E\"/><path d=\"M294 115 L328 115\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#g1)\"/><rect x=\"334\" y=\"40\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><circle cx=\"370\" cy=\"40\" r=\"26\" fill=\"#008A7E\"/><path d=\"M628 115 L662 115\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#g1)\"/><rect x=\"668\" y=\"40\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><circle cx=\"704\" cy=\"40\" r=\"26\" fill=\"#008A7E\"/><path d=\"M962 115 L996 115\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#g1)\"/><rect x=\"1002\" y=\"40\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><circle cx=\"1038\" cy=\"40\" r=\"26\" fill=\"#008A7E\"/><path d=\"M1296 115 L1330 115\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#g1)\"/><rect x=\"1336\" y=\"40\" width=\"290\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><circle cx=\"1372\" cy=\"40\" r=\"26\" fill=\"#008A7E\"/><rect x=\"1336\" y=\"300\" width=\"290\" height=\"110\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><path d=\"M1481.0 296 L1481.0 200\" stroke=\"#B07A1C\" stroke-width=\"6\" marker-end=\"url(#g2)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 22,
+     "w": 52,
+     "t": "1",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 76,
+     "w": 270,
+     "t": "Sair do<br>adipócito",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 22,
+     "w": 52,
+     "t": "2",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 76,
+     "w": 270,
+     "t": "Viajar presa<br>à albumina",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 678,
+     "y": 22,
+     "w": 52,
+     "t": "3",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 678,
+     "y": 76,
+     "w": 270,
+     "t": "Atravessar<br>a membrana",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1012,
+     "y": 22,
+     "w": 52,
+     "t": "4",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1012,
+     "y": 76,
+     "w": 270,
+     "t": "Porta da<br>carnitina (CPT-1)",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1346,
+     "y": 22,
+     "w": 52,
+     "t": "5",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1346,
+     "y": 76,
+     "w": 270,
+     "t": "Entrar na<br>mitocôndria",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1336,
+     "y": 316,
+     "w": 290,
+     "t": "Glicogênio",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1336,
+     "y": 356,
+     "w": 290,
+     "t": "já dentro da fibra",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 250,
+     "w": 1200,
+     "t": "Cinco etapas, cinco gargalos possíveis. Cada uma tem a sua velocidade máxima.",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 876,
+     "y": 330,
+     "w": 440,
+     "t": "o carboidrato, a um passo →",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que a torneira é estreita",
+   "titulo": "O longo caminho da gordura até virar ATP"
+  },
+  {
+   "id": "litro",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Energia por litro de oxigênio: carboidrato cerca de 5,05 quilocalorias, gordura cerca de 4,69\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"420\" y1=\"0\" x2=\"420\" y2=\"240\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"422\" y=\"20\" width=\"1111\" height=\"80\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"422\" y=\"140\" width=\"1032\" height=\"80\" rx=\"4\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 40,
+     "w": 390,
+     "t": "Carboidrato",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 390,
+     "t": "Gordura",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1233,
+     "y": 38,
+     "w": 280,
+     "t": "~5,05 kcal/L",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1154,
+     "y": 158,
+     "w": 280,
+     "t": "~4,69 kcal/L",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 422,
+     "y": 250,
+     "w": 1100,
+     "t": "quilocalorias por litro de oxigênio consumido · eixo começa no zero",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O detalhe que fecha o argumento",
+   "titulo": "Quando o oxigênio falta, o carboidrato rende mais por litro",
+   "destaque": "Sete a oito por cento parece pouco. Em intensidade alta, é decisivo. A troca de combustível não é defeito: é escolha econômica correta.",
+   "fonte": "Péronnet e Massicotte, Canadian Journal of Sport Sciences 1991"
+  },
+  {
+   "id": "porta",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A porta da mitocôndria depende da carnitina; com o fluxo glicolítico alto, a carnitina livre fica ocupada e o ácido graxo fica sem passagem\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"p1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"p2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><ellipse cx=\"1380\" cy=\"210\" rx=\"280\" ry=\"180\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><rect x=\"1082\" y=\"150\" width=\"40\" height=\"120\" rx=\"8\" fill=\"#12202E\"/><circle cx=\"720\" cy=\"110\" r=\"26\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"800\" cy=\"170\" r=\"26\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"720\" cy=\"240\" r=\"26\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"820\" cy=\"300\" r=\"26\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><path d=\"M20 90 Q360 70 690 110\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"10\" marker-end=\"url(#p1)\"/><path d=\"M60 330 Q500 350 1060 230\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-dasharray=\"14 10\" marker-end=\"url(#p2)\"/><line x1=\"990\" y1=\"200\" x2=\"1050\" y2=\"270\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"1050\" y1=\"200\" x2=\"990\" y2=\"270\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 20,
+     "w": 500,
+     "t": "fluxo glicolítico alto",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 10,
+     "w": 400,
+     "t": "carnitina ocupada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 360,
+     "w": 560,
+     "t": "ácido graxo esperando na porta",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1122,
+     "y": 280,
+     "w": 140,
+     "t": "CPT-1",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 190,
+     "w": 300,
+     "t": "Mitocôndria",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "As duas vias competem",
+   "titulo": "O carboidrato fecha a porta do concorrente",
+   "destaque": "Não existe intensidade alta tocada a gordura. Não é falta de treino. É arquitetura.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema de uma das explicações mais aceitas · Hargreaves e Spriet, Nature Metabolism 2020"
+  },
+  {
+   "id": "zona",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Duas sessões: 8 quilocalorias por minuto com 60% de gordura dá 4,8 de gordura; 14 quilocalorias por minuto com 35% de gordura dá 4,9 de gordura\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"460\" y=\"20\" width=\"382\" height=\"100\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"844\" y=\"20\" width=\"256\" height=\"100\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"460\" y=\"170\" width=\"390\" height=\"100\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"852\" y=\"170\" width=\"728\" height=\"100\" rx=\"4\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 26,
+     "w": 430,
+     "t": "Mais leve<br>8 kcal/min · 60% gordura",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 176,
+     "w": 430,
+     "t": "Mais forte<br>14 kcal/min · 35% gordura",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 46,
+     "w": 384,
+     "t": "4,8",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 196,
+     "w": 392,
+     "t": "4,9",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 980,
+     "y": 280,
+     "w": 600,
+     "t": "os números: kcal de gordura por minuto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 280,
+     "w": 200,
+     "t": "gordura",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 280,
+     "w": 260,
+     "t": "carboidrato",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A zona de queima, na aritmética",
+   "titulo": "Proporção não é quantidade",
+   "destaque": "O que decide quanto se queima é taxa vezes tempo, e nunca a fração sozinha.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "semanas",
+   "tipo": "duas",
+   "eyebrow": "O erro maior é conceitual",
+   "titulo": "Composição corporal se decide em semanas",
+   "esq": {
+    "t": "Durante a sessão",
+    "cor": "ambar",
+    "itens": [
+     "A mistura de combustível muda com a intensidade",
+     "Em jejum, queima-se mais gordura naquela hora",
+     "Nada disso fica guardado como crédito"
+    ]
+   },
+   "dir": {
+    "t": "Ao longo de dias e semanas",
+    "cor": "petr",
+    "itens": [
+     "O que decide é o balanço de energia",
+     "Jejum ou alimentada, com a mesma dieta: composição parecida em quatro semanas",
+     "A variável que importa é a intensidade que a pessoa sustenta"
+    ]
+   },
+   "destaque": "Treino longo e leve vale muito, por capilar, mitocôndria e tolerância. Só não vale pelo motivo que costuma ser vendido.",
+   "fonte": "Schoenfeld e colaboradores, Journal of the International Society of Sports Nutrition 2014"
+  },
+  {
+   "id": "quebra",
+   "tipo": "duas",
+   "eyebrow": "O atleta que quebra",
+   "titulo": "A cabeça foi junto, ou só a perna?",
+   "esq": {
+    "t": "Hipoglicemia",
+    "cor": "verm",
+    "itens": [
+     "Central: o glicogênio do fígado acabou",
+     "Confusão, suor frio, tontura, irritação",
+     "Melhora em minutos com carboidrato rápido",
+     "Previne-se comendo durante a prova"
+    ]
+   },
+   "dir": {
+    "t": "Glicogênio muscular esgotado",
+    "cor": "ambar",
+    "itens": [
+     "Local: o estoque da fibra acabou",
+     "Cabeça lúcida, perna que não entrega",
+     "Não melhora em minutos: nenhum gel enche a fibra",
+     "Previne-se nos dias anteriores e no ritmo da primeira metade"
+    ]
+   }
+  },
+  {
+   "id": "intestino",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"O intestino tem uma porta para glicose e outra para frutose; nos ciclistas, a glicose sozinha chegou a 1,06 grama por minuto e glicose com frutose a 1,75\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"i1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"i2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"180\" width=\"660\" height=\"60\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"150\" y=\"176\" width=\"70\" height=\"68\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"440\" y=\"176\" width=\"70\" height=\"68\" rx=\"10\" fill=\"#3A6EA5\"/><circle cx=\"110\" cy=\"70\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"150\" cy=\"70\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"190\" cy=\"70\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"110\" cy=\"110\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"150\" cy=\"110\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"190\" cy=\"110\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"420\" cy=\"90\" r=\"14\" fill=\"#3A6EA5\"/><circle cx=\"460\" cy=\"90\" r=\"14\" fill=\"#3A6EA5\"/><circle cx=\"500\" cy=\"90\" r=\"14\" fill=\"#3A6EA5\"/><path d=\"M185 140 L185 330\" stroke=\"#B07A1C\" stroke-width=\"6\" marker-end=\"url(#i1)\"/><path d=\"M475 120 L475 330\" stroke=\"#3A6EA5\" stroke-width=\"6\" marker-end=\"url(#i2)\"/><line x1=\"880\" y1=\"380\" x2=\"1600\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"940\" y=\"189\" width=\"220\" height=\"191\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1260\" y=\"65\" width=\"220\" height=\"315\" rx=\"4\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 10,
+     "w": 400,
+     "t": "no intestino",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 350,
+     "w": 430,
+     "t": "a porta da glicose satura em ~1 g/min",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 350,
+     "w": 240,
+     "t": "a frutose usa outra porta",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 139,
+     "w": 220,
+     "t": "1,06",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1260,
+     "y": 15,
+     "w": 220,
+     "t": "1,75",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 392,
+     "w": 300,
+     "t": "glicose",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1220,
+     "y": 392,
+     "w": 300,
+     "t": "glicose + frutose",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O outro teto não está no músculo",
+   "titulo": "O teto do carboidrato está no intestino",
+   "fonte": "g/min queimados do que foi ingerido, no pico · Jentjens e Jeukendrup, British Journal of Nutrition 2005 · a mistura foi ingerida em quantidade maior"
+  },
+  {
+   "id": "decide",
+   "tipo": "numeros",
+   "eyebrow": "O que esse número decide",
+   "titulo": "O plano de prova, o estômago e o treino",
+   "numeros": [
+    {
+     "n": "60 g/h",
+     "x": "de uma fonte só: até aqui dá para queimar",
+     "cor": "ambar"
+    },
+    {
+     "n": "90 g/h",
+     "x": "de fontes combinadas, em prova de 2 h 30 ou mais",
+     "cor": "petr"
+    },
+    {
+     "n": "treina-se",
+     "x": "o intestino se adapta: ninguém testa 90 g/h no dia da prova",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "120 g/h de uma fonte só e dor de estômago não é problema de estômago. É aritmética de transportador. Quanto, de quê e quando é do nutricionista.",
+   "fonte": "Jeukendrup, Sports Medicine 2014"
+  },
+  {
+   "id": "cascata",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Contração repetida gera três sinais, energia baixa pela AMPK, cálcio e sinal redox; os três convergem no PGC-1 alfa, que aciona o núcleo e o DNA da mitocôndria, e o resultado é mitocôndria nova\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"160\" width=\"260\" height=\"120\" rx=\"14\" fill=\"#12202E\"/><rect x=\"360\" y=\"20\" width=\"320\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M264 220 L352 80\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><path d=\"M684 80 L772 220\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"360\" y=\"160\" width=\"320\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M264 220 L352 220\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><path d=\"M684 220 L772 220\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"360\" y=\"300\" width=\"320\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><path d=\"M264 220 L352 360\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><path d=\"M684 360 L772 220\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"780\" y=\"160\" width=\"260\" height=\"120\" rx=\"14\" fill=\"#B07A1C\"/><rect x=\"1130\" y=\"60\" width=\"240\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"1130\" y=\"270\" width=\"240\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M1044 205 L1122 115\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><path d=\"M1044 235 L1122 325\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><ellipse cx=\"1560\" cy=\"220\" rx=\"100\" ry=\"70\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><path d=\"M1374 115 L1462 190\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><path d=\"M1374 325 L1462 250\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#c1)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 184,
+     "w": 260,
+     "t": "Contração<br>repetida",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 36,
+     "w": 320,
+     "t": "Energia baixa",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 76,
+     "w": 320,
+     "t": "AMPK",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 176,
+     "w": 320,
+     "t": "Cálcio",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 216,
+     "w": 320,
+     "t": "a cada contração",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 316,
+     "w": 320,
+     "t": "Sinal redox",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 356,
+     "w": 320,
+     "t": "cadeia respiratória",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 198,
+     "w": 260,
+     "t": "PGC-1α",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1130,
+     "y": 94,
+     "w": 240,
+     "t": "Núcleo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 290,
+     "w": 240,
+     "t": "DNA da<br>mitocôndria",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1460,
+     "y": 186,
+     "w": 200,
+     "t": "Mitocôndria<br>nova",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Como o sistema melhora",
+   "titulo": "Quem constrói mitocôndria é a contração",
+   "destaque": "Não é hormônio do crescimento nem IGF-1. É um programa local, disparado pelo trabalho do músculo. E é de graça.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "pulsos",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas semanas: seis sessões moderadas geram seis pulsos de sinal que decaem; duas sessões muito longas geram dois pulsos grandes com dias vazios entre eles\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><polygon points=\"260.0,150 260.0,78.5 264.1,81.4 268.2,84.2 272.3,86.9 276.4,89.5 280.5,91.9 284.6,94.3 288.8,96.6 292.9,98.8 297.0,100.9 301.1,102.9 305.2,104.8 309.3,106.6 313.4,108.4 317.5,110.1 321.6,111.7 325.7,113.3 329.8,114.8 333.9,116.2 338.0,117.6 342.1,118.9 346.2,120.2 350.4,121.4 354.5,122.6 358.6,123.7 362.7,124.8 366.8,125.8 370.9,126.8 375.0,127.7 379.1,128.6 383.2,129.5 387.3,130.4 391.4,131.2 395.5,131.9 399.6,132.7 403.8,133.4 407.9,134.0 412.0,134.7 416.1,135.3 420.2,135.9 424.3,136.5 428.4,137.0 432.5,137.6 436.6,138.1 440.7,138.6 444.8,139.0 448.9,139.5 453.0,139.9 457.1,68.8 461.2,72.1 465.4,75.3 469.5,78.4 473.6,81.3 477.7,84.1 481.8,86.8 485.9,89.4 490.0,91.8 494.1,94.2 498.2,96.5 502.3,98.7 506.4,100.8 510.5,102.8 514.6,104.7 518.8,106.5 522.9,108.3 527.0,110.0 531.1,111.7 535.2,113.2 539.3,114.7 543.4,116.2 547.5,117.5 551.6,118.9 555.7,120.1 559.8,121.4 563.9,122.5 568.0,123.6 572.1,124.7 576.2,125.8 580.4,126.7 584.5,127.7 588.6,128.6 592.7,129.5 596.8,130.3 600.9,131.1 605.0,131.9 609.1,132.6 613.2,133.3 617.3,134.0 621.4,134.7 625.5,135.3 629.6,135.9 633.8,136.5 637.9,137.0 642.0,137.6 646.1,138.1 650.2,138.5 654.3,67.5 658.4,70.9 662.5,74.1 666.6,77.2 670.7,80.2 674.8,83.0 678.9,85.8 683.0,88.4 687.1,90.9 691.2,93.3 695.4,95.6 699.5,97.8 703.6,100.0 707.7,102.0 711.8,104.0 715.9,105.8 720.0,107.7 724.1,109.4 728.2,111.0 732.3,112.6 736.4,114.2 740.5,115.6 744.6,117.0 748.8,118.4 752.9,119.7 757.0,120.9 761.1,122.1 765.2,123.2 769.3,124.3 773.4,125.4 777.5,126.4 781.6,127.3 785.7,128.3 789.8,129.1 793.9,130.0 798.0,130.8 802.1,131.6 806.2,132.3 810.4,133.1 814.5,133.8 818.6,134.4 822.7,135.1 826.8,135.7 830.9,136.3 835.0,136.8 839.1,137.4 843.2,137.9 847.3,138.4 851.4,138.8 855.5,139.3 859.6,139.7 863.8,140.1 867.9,140.6 872.0,140.9 876.1,141.3 880.2,141.7 884.3,142.0 888.4,142.3 892.5,142.6 896.6,142.9 900.7,143.2 904.8,143.5 908.9,143.8 913.0,144.0 917.1,144.3 921.2,144.5 925.4,144.7 929.5,144.9 933.6,145.1 937.7,145.3 941.8,145.5 945.9,145.7 950.0,74.4 954.1,77.5 958.2,80.4 962.3,83.3 966.4,86.0 970.5,88.6 974.6,91.1 978.8,93.5 982.9,95.8 987.0,98.0 991.1,100.2 995.2,102.2 999.3,104.1 1003.4,106.0 1007.5,107.8 1011.6,109.5 1015.7,111.2 1019.8,112.8 1023.9,114.3 1028.0,115.7 1032.1,117.1 1036.2,118.5 1040.4,119.8 1044.5,121.0 1048.6,122.2 1052.7,123.3 1056.8,124.4 1060.9,125.5 1065.0,126.5 1069.1,127.4 1073.2,128.3 1077.3,129.2 1081.4,130.1 1085.5,130.9 1089.6,131.7 1093.8,132.4 1097.9,133.1 1102.0,133.8 1106.1,134.5 1110.2,135.1 1114.3,135.7 1118.4,136.3 1122.5,136.9 1126.6,137.4 1130.7,137.9 1134.8,138.4 1138.9,138.9 1143.0,139.3 1147.1,68.3 1151.2,71.6 1155.4,74.8 1159.5,77.9 1163.6,80.8 1167.7,83.6 1171.8,86.3 1175.9,88.9 1180.0,91.4 1184.1,93.8 1188.2,96.1 1192.3,98.3 1196.4,100.4 1200.5,102.4 1204.6,104.4 1208.8,106.3 1212.9,108.0 1217.0,109.7 1221.1,111.4 1225.2,113.0 1229.3,114.5 1233.4,115.9 1237.5,117.3 1241.6,118.7 1245.7,119.9 1249.8,121.2 1253.9,122.3 1258.0,123.5 1262.1,124.5 1266.2,125.6 1270.4,126.6 1274.5,127.5 1278.6,128.5 1282.7,129.3 1286.8,130.2 1290.9,131.0 1295.0,131.8 1299.1,132.5 1303.2,133.2 1307.3,133.9 1311.4,134.6 1315.5,135.2 1319.6,135.8 1323.8,136.4 1327.9,136.9 1332.0,137.5 1336.1,138.0 1340.2,138.5 1344.3,67.4 1348.4,70.8 1352.5,74.0 1356.6,77.1 1360.7,80.1 1364.8,83.0 1368.9,85.7 1373.0,88.3 1377.1,90.8 1381.2,93.3 1385.4,95.6 1389.5,97.8 1393.6,99.9 1397.7,102.0 1401.8,103.9 1405.9,105.8 1410.0,107.6 1414.1,109.3 1418.2,111.0 1422.3,112.6 1426.4,114.1 1430.5,115.6 1434.6,117.0 1438.8,118.3 1442.9,119.6 1447.0,120.9 1451.1,122.1 1455.2,123.2 1459.3,124.3 1463.4,125.3 1467.5,126.3 1471.6,127.3 1475.7,128.2 1479.8,129.1 1483.9,130.0 1488.0,130.8 1492.1,131.6 1496.2,132.3 1500.4,133.1 1504.5,133.7 1508.6,134.4 1512.7,135.0 1516.8,135.7 1520.9,136.2 1525.0,136.8 1529.1,137.3 1533.2,137.9 1537.3,138.4 1541.4,138.8 1545.5,139.3 1549.6,139.7 1553.8,140.1 1557.9,140.5 1562.0,140.9 1566.1,141.3 1570.2,141.7 1574.3,142.0 1578.4,142.3 1582.5,142.6 1586.6,142.9 1590.7,143.2 1594.8,143.5 1598.9,143.8 1603.0,144.0 1607.1,144.3 1611.2,144.5 1615.4,144.7 1619.5,144.9 1623.6,145.1 1627.7,145.3 1631.8,145.5 1635.9,145.7 1640.0,145.9 1640.0,150\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><line x1=\"260.0\" y1=\"150\" x2=\"1640.0\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polygon points=\"260.0,340 260.0,340.0 264.1,340.0 268.2,340.0 272.3,340.0 276.4,340.0 280.5,340.0 284.6,340.0 288.8,340.0 292.9,340.0 297.0,340.0 301.1,340.0 305.2,340.0 309.3,340.0 313.4,340.0 317.5,340.0 321.6,340.0 325.7,340.0 329.8,340.0 333.9,340.0 338.0,340.0 342.1,340.0 346.2,340.0 350.4,340.0 354.5,340.0 358.6,340.0 362.7,340.0 366.8,340.0 370.9,340.0 375.0,340.0 379.1,340.0 383.2,340.0 387.3,340.0 391.4,340.0 395.5,340.0 399.6,340.0 403.8,340.0 407.9,340.0 412.0,340.0 416.1,340.0 420.2,340.0 424.3,340.0 428.4,340.0 432.5,340.0 436.6,340.0 440.7,340.0 444.8,340.0 448.9,340.0 453.0,340.0 457.1,216.5 461.2,221.5 465.4,226.4 469.5,231.0 473.6,235.5 477.7,239.7 481.8,243.8 485.9,247.7 490.0,251.5 494.1,255.1 498.2,258.6 502.3,261.9 506.4,265.1 510.5,268.2 514.6,271.1 518.8,273.9 522.9,276.6 527.0,279.2 531.1,281.7 535.2,284.0 539.3,286.3 543.4,288.5 547.5,290.6 551.6,292.6 555.7,294.6 559.8,296.4 563.9,298.2 568.0,299.9 572.1,301.5 576.2,303.1 580.4,304.6 584.5,306.1 588.6,307.4 592.7,308.8 596.8,310.0 600.9,311.3 605.0,312.4 609.1,313.6 613.2,314.6 617.3,315.7 621.4,316.7 625.5,317.6 629.6,318.5 633.8,319.4 637.9,320.3 642.0,321.1 646.1,321.8 650.2,322.6 654.3,323.3 658.4,324.0 662.5,324.6 666.6,325.3 670.7,325.9 674.8,326.4 678.9,327.0 683.0,327.5 687.1,328.0 691.2,328.5 695.4,329.0 699.5,329.4 703.6,329.9 707.7,330.3 711.8,330.7 715.9,331.1 720.0,331.4 724.1,331.8 728.2,332.1 732.3,332.4 736.4,332.7 740.5,333.0 744.6,333.3 748.8,333.6 752.9,333.9 757.0,334.1 761.1,334.3 765.2,334.6 769.3,334.8 773.4,335.0 777.5,335.2 781.6,335.4 785.7,335.6 789.8,335.8 793.9,335.9 798.0,336.1 802.1,336.3 806.2,336.4 810.4,336.6 814.5,336.7 818.6,336.8 822.7,337.0 826.8,337.1 830.9,337.2 835.0,337.3 839.1,337.4 843.2,337.5 847.3,337.6 851.4,337.7 855.5,337.8 859.6,337.9 863.8,338.0 867.9,338.1 872.0,338.2 876.1,338.2 880.2,338.3 884.3,338.4 888.4,338.4 892.5,338.5 896.6,338.6 900.7,338.6 904.8,338.7 908.9,338.7 913.0,338.8 917.1,338.8 921.2,338.9 925.4,338.9 929.5,339.0 933.6,339.0 937.7,339.1 941.8,339.1 945.9,339.1 950.0,339.2 954.1,339.2 958.2,339.2 962.3,339.3 966.4,339.3 970.5,339.3 974.6,339.4 978.8,339.4 982.9,339.4 987.0,339.4 991.1,339.5 995.2,339.5 999.3,339.5 1003.4,339.5 1007.5,339.5 1011.6,339.6 1015.7,339.6 1019.8,339.6 1023.9,339.6 1028.0,339.6 1032.1,339.6 1036.2,339.7 1040.4,339.7 1044.5,339.7 1048.6,339.7 1052.7,339.7 1056.8,339.7 1060.9,339.7 1065.0,339.7 1069.1,339.8 1073.2,339.8 1077.3,339.8 1081.4,339.8 1085.5,339.8 1089.6,339.8 1093.8,339.8 1097.9,339.8 1102.0,339.8 1106.1,339.8 1110.2,339.8 1114.3,339.8 1118.4,339.8 1122.5,339.9 1126.6,339.9 1130.7,339.9 1134.8,339.9 1138.9,339.9 1143.0,339.9 1147.1,339.9 1151.2,339.9 1155.4,339.9 1159.5,339.9 1163.6,339.9 1167.7,339.9 1171.8,339.9 1175.9,339.9 1180.0,339.9 1184.1,339.9 1188.2,339.9 1192.3,339.9 1196.4,339.9 1200.5,339.9 1204.6,339.9 1208.8,339.9 1212.9,339.9 1217.0,339.9 1221.1,339.9 1225.2,339.9 1229.3,340.0 1233.4,340.0 1237.5,340.0 1241.6,340.0 1245.7,216.5 1249.8,221.5 1253.9,226.3 1258.0,231.0 1262.1,235.4 1266.2,239.7 1270.4,243.8 1274.5,247.7 1278.6,251.5 1282.7,255.1 1286.8,258.6 1290.9,261.9 1295.0,265.1 1299.1,268.1 1303.2,271.1 1307.3,273.9 1311.4,276.6 1315.5,279.2 1319.6,281.6 1323.8,284.0 1327.9,286.3 1332.0,288.5 1336.1,290.6 1340.2,292.6 1344.3,294.6 1348.4,296.4 1352.5,298.2 1356.6,299.9 1360.7,301.5 1364.8,303.1 1368.9,304.6 1373.0,306.0 1377.1,307.4 1381.2,308.8 1385.4,310.0 1389.5,311.3 1393.6,312.4 1397.7,313.6 1401.8,314.6 1405.9,315.7 1410.0,316.7 1414.1,317.6 1418.2,318.5 1422.3,319.4 1426.4,320.2 1430.5,321.1 1434.6,321.8 1438.8,322.6 1442.9,323.3 1447.0,324.0 1451.1,324.6 1455.2,325.2 1459.3,325.8 1463.4,326.4 1467.5,327.0 1471.6,327.5 1475.7,328.0 1479.8,328.5 1483.9,329.0 1488.0,329.4 1492.1,329.9 1496.2,330.3 1500.4,330.7 1504.5,331.1 1508.6,331.4 1512.7,331.8 1516.8,332.1 1520.9,332.4 1525.0,332.7 1529.1,333.0 1533.2,333.3 1537.3,333.6 1541.4,333.8 1545.5,334.1 1549.6,334.3 1553.8,334.6 1557.9,334.8 1562.0,335.0 1566.1,335.2 1570.2,335.4 1574.3,335.6 1578.4,335.8 1582.5,335.9 1586.6,336.1 1590.7,336.3 1594.8,336.4 1598.9,336.6 1603.0,336.7 1607.1,336.8 1611.2,337.0 1615.4,337.1 1619.5,337.2 1623.6,337.3 1627.7,337.4 1631.8,337.5 1635.9,337.6 1640.0,337.7 1640.0,340\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><line x1=\"260.0\" y1=\"340\" x2=\"1640.0\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 50,
+     "w": 230,
+     "t": "6 sessões<br>moderadas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 240,
+     "w": 230,
+     "t": "2 sessões<br>heroicas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 356,
+     "w": 1380,
+     "t": "uma semana · cada sessão é um pulso de sinal que decai em horas a poucos dias",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A consequência de prescrição",
+   "titulo": "Frequência importa muito",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "conteudo",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, conteúdo mitocondrial: muitas mitocôndrias; à direita, função mitocondrial: quanto cada uma respira\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"330\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"330\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><ellipse cx=\"89\" cy=\"110\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"171\" cy=\"118\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"250\" cy=\"116\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"347\" cy=\"103\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"105\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"531\" cy=\"117\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"617\" cy=\"114\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"717\" cy=\"105\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"88\" cy=\"189\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"160\" cy=\"188\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"263\" cy=\"190\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"345\" cy=\"194\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"184\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"524\" cy=\"196\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"614\" cy=\"186\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"700\" cy=\"182\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"76\" cy=\"268\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"165\" cy=\"267\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"259\" cy=\"272\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"346\" cy=\"268\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"435\" cy=\"268\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"532\" cy=\"271\" rx=\"34\" ry=\"20\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"2\"/><ellipse cx=\"1064\" cy=\"130\" rx=\"110\" ry=\"44\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M984 130 q15 -26 30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><ellipse cx=\"1464\" cy=\"130\" rx=\"110\" ry=\"44\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M1384 130 q15 -26 30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><ellipse cx=\"1064\" cy=\"240\" rx=\"110\" ry=\"44\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M984 240 q15 -26 30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><ellipse cx=\"1464\" cy=\"240\" rx=\"110\" ry=\"44\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M1384 240 q15 -26 30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#F7F6F2\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 20,
+     "w": 740,
+     "t": "Conteúdo: quantas existem",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 894,
+     "y": 20,
+     "w": 740,
+     "t": "Função: quanto cada uma respira",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 350,
+     "w": 1664,
+     "t": "As duas podem andar em direções diferentes.",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Volume ou intensidade? Os dois funcionam.",
+   "titulo": "Conteúdo não é função",
+   "fonte": "Bishop e colaboradores, Physiology 2019 · controvérsia atual"
+  },
+  {
+   "id": "derruba",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro setas descendo sobre uma mitocôndria: energia disponível baixa, sono curto, inatividade e idade; uma quinta seta tracejada: antioxidante em dose alta\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"d1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"d2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><ellipse cx=\"832\" cy=\"370\" rx=\"360\" ry=\"62\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><path d=\"M170 146 L560 296\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#d1)\"/><path d=\"M500 146 L650 296\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#d1)\"/><path d=\"M830 146 L740 296\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#d1)\"/><path d=\"M1160 146 L830 296\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#d1)\"/><path d=\"M1500 146 L1150 320\" stroke=\"#6B7A87\" stroke-width=\"6\" stroke-dasharray=\"14 10\" marker-end=\"url(#d2)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 632,
+     "y": 352,
+     "w": 400,
+     "t": "Função oxidativa",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 0,
+     "w": 300,
+     "t": "Energia disponível baixa",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 76,
+     "w": 300,
+     "t": "menos combustível e menos motor",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 0,
+     "w": 300,
+     "t": "Sono curto",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 76,
+     "w": 300,
+     "t": "a mesma sessão custa mais",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 0,
+     "w": 300,
+     "t": "Inatividade",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 76,
+     "w": 300,
+     "t": "desmonta em poucas semanas",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 0,
+     "w": 300,
+     "t": "Idade",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 76,
+     "w": 300,
+     "t": "muito do declínio é sofá",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 0,
+     "w": 324,
+     "t": "Antioxidante em dose alta",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 76,
+     "w": 324,
+     "t": "vitamina C e E atenuaram a adaptação",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que derruba sem ser treino",
+   "titulo": "A função oxidativa sente a vida inteira",
+   "fonte": "Paulsen e colaboradores, Journal of Physiology 2014 · dieta rica em frutas e verduras é outra coisa"
+  },
+  {
+   "id": "hipoteses",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Bifurcação: treina e não melhora; ou o estímulo está errado e se resolve na planilha, ou a matéria-prima não chega e se resolve na conta de energia, sono e recuperação\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"b1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"140\" width=\"420\" height=\"120\" rx=\"16\" fill=\"#12202E\"/><rect x=\"760\" y=\"10\" width=\"904\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"760\" y=\"240\" width=\"904\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M424 180 C600 180 600 85 752 85\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\" marker-end=\"url(#b1)\"/><path d=\"M424 220 C600 220 600 315 752 315\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\" marker-end=\"url(#b1)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 170,
+     "w": 420,
+     "t": "Treina e<br>não melhora",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 34,
+     "w": 840,
+     "t": "O estímulo está errado",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 88,
+     "w": 840,
+     "t": "problema de prescrição: resolve-se na planilha",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 264,
+     "w": 840,
+     "t": "A matéria-prima não chega",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 318,
+     "w": 840,
+     "t": "energia, sono, recuperação: nenhuma planilha resolve",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O caso mais comum do consultório",
+   "titulo": "Duas hipóteses, e quase todo mundo só pensa na primeira",
+   "destaque": "É por isso que tanta gente treina mais e melhora menos."
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "Três tetos, três perguntas",
+   "regras": [
+    "Que adaptação eu quero produzir nesta pessoa?",
+    "O que a conta de energia dela permite pagar?",
+    "Em qual teto ela está batendo agora?"
+   ],
+   "cards": [
+    {
+     "t": "Gordura",
+     "x": "~0,5 g/min. Quem escolhe “zona” para emagrecer bate aqui."
+    },
+    {
+     "t": "Carboidrato",
+     "x": "~1 g/min de uma fonte, ~1,75 combinado. Quem toma mais gel bate aqui."
+    },
+    {
+     "t": "Capacidade instalada",
+     "x": "O único que se move: devagar, por volume e frequência."
+    }
+   ],
+   "quem": "O tanque é imenso. A torneira é estreita."
+  }
+ ]
+}

@@ -1,320 +1,450 @@
-# Módulo 2 · Aula 2.4 — Metabolismo oxidativo e uso de substratos
+# Módulo 2 · Aula 2.4 — Meio grama por minuto: metabolismo oxidativo e uso de substratos
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 27 minutos · 7 slides · Arquitetura: NÚMERO
+Duração: 23 minutos · 19 slides · Arquitetura: NÚMERO
 
 ---
 
-📊 **[SLIDE 1 DE 7]**
-*Visual: curva de oxidação de gordura em gramas por minuto contra intensidade, subindo até um pico em torno de 60% do VO₂máx e caindo depois, com a barra de variação individual desenhada em volta do pico.*
-*Teleprompter: (entra pelo número)*
+📊 **[SLIDE 1 DE 19]**
+*Visual: três números grandes: 0,52 grama por minuto, 62% do VO₂máx e mais ou menos 0,15.*
+*Teleprompter: (entra pelo número, devagar)*
 
 Meio grama por minuto.
 
-É esse o pico de oxidação de gordura de um adulto treinado, medido em laboratório. As séries publicadas em ciclistas treinados dão valores em torno de **zero vírgula cinco grama por minuto** — algumas amostras com zero vírgula quarenta e sete, outras com zero vírgula sessenta.
+É isso que um adulto treinado consegue queimar de gordura no pico, medido em laboratório. Num estudo com cinquenta e cinco homens treinados em endurance, a média foi de zero vírgula cinquenta e dois grama por minuto.
 
-Meio grama por minuto dá **trinta gramas por hora**. Que em energia dá algo perto de **duzentas e setenta quilocalorias por hora** vindas de gordura, no melhor dos cenários, no pico.
+Segundo número: onde esse pico acontece. Em torno de sessenta e dois por cento do VO₂máx.
 
-Agora pega esse número e coloca ao lado do que a gente viu na primeira aula: o estoque de gordura de um adulto, mesmo magro, passa de sessenta mil quilocalorias.
+E o terceiro número, que é o que segura a onda: mais ou menos zero vírgula quinze. É o desvio-padrão daquele meio grama. Quer dizer que boa parte das pessoas, com o mesmo nível de treino, fica entre zero vírgula trinta e sete e zero vírgula sessenta e sete. Quase o dobro de uma pessoa para outra.
 
-Sessenta mil quilocalorias no tanque, e a torneira entrega duzentas e setenta por hora no máximo. **O tanque é imenso e a torneira é estreita**, e essa desproporção é a coisa mais importante desta aula inteira.
-
-E tem um segundo número, tão importante quanto: **a intensidade em que esse pico acontece.**
-
-Ele fica, em pessoas treinadas, entre **cinquenta e nove e sessenta e quatro por cento do VO₂máx**. Acima disso, a oxidação de gordura não só perde participação percentual — ela cai **em valor absoluto**. Menos gramas por minuto, não apenas uma fração menor.
-
-Essa é a diferença que quase nunca é dita direito, e ela é o coração do assunto: existe uma intensidade a partir da qual a pessoa queima **menos gordura em gramas**, mesmo gastando mais energia total.
-
-E antes de alguém montar uma prescrição em cima disso, o terceiro número, que é o que segura a onda: **a variação individual é enorme.** O desvio-padrão daquele meio grama é de quinze centésimos — quer dizer que uma boa parte das pessoas está entre zero vírgula trinta e cinco e zero vírgula sessenta e cinco. É uma variação de quase o dobro entre uma pessoa e outra, com o mesmo nível de treino.
-
-Então a curva existe, o pico existe, e o pico é individual a ponto de não valer como regra populacional.
-
-Segura esses três números — meio grama por minuto, sessenta por cento do VO₂máx, e variação individual gigante. A aula inteira é o que se faz com eles.
-
-E antes de seguir, a pergunta-eixo: **como é que alguém mede isso?** Porque "meio grama por minuto de gordura" não é coisa que se veja.
-
-Mede-se pelo ar. A relação entre o gás carbônico que a pessoa produz e o oxigênio que ela consome — a **razão de troca respiratória** — muda conforme o combustível. Oxidar gordura dá uma razão em torno de **zero vírgula setenta**. Oxidar carboidrato dá **um vírgula zero**. Tudo entre os dois é mistura, e a posição no intervalo diz a proporção.
-
-É elegante, é não invasivo, e tem duas limitações que precisam ser ditas junto, senão o número engana.
-
-**Primeira: só vale em estado estável.** Em intensidade que muda o tempo todo, a leitura não corresponde ao que o músculo está fazendo naquele instante.
-
-**Segunda, e essa é bonita porque encaixa com a aula passada: acima de certa intensidade, a razão de troca respiratória deixa de medir combustível.** Lembra que o acúmulo de prótons é tamponado? O tamponamento gera gás carbônico **extra**, que não veio da oxidação de nada. A pessoa passa a exalar CO₂ de origem não metabólica, a razão sobe acima de um, e qualquer cálculo de substrato feito ali é ficção.
-
-Ou seja: o mesmo fenômeno que a gente usou para desmontar o ácido lático é o que estraga a medida de substrato em intensidade alta. E é também, como você vai ver na aula oito, o que permite enxergar o limiar no teste ergoespirométrico. O mesmo CO₂ que atrapalha uma leitura é o que viabiliza a outra.
+Guarda esses três números. A aula inteira é o que se faz com eles.
 
 ---
 
-📊 **[SLIDE 2 DE 7]**
-*Visual: o percurso do ácido graxo desenhado em etapas — adipócito, corrente sanguínea ligado à albumina, membrana da fibra, lançadeira da carnitina, matriz mitocondrial — com um relógio em cada etapa.*
-*Teleprompter: (tom de mecanismo, explica o teto)*
+📊 **[SLIDE 2 DE 19]**
+*Visual: curva de oxidação de gordura contra intensidade, subindo até o pico perto de 62% e caindo depois, com uma faixa de variação individual em volta do pico e a queda marcada em gramas.*
+*Teleprompter: (vai pela curva)*
 
-Por que a torneira é estreita? Porque a gordura tem um caminho longo até virar ATP, e cada etapa tem a sua própria velocidade máxima.
+Agora olha a curva.
 
-Acompanha o percurso. O ácido graxo precisa ser **mobilizado** do adipócito. Precisa ser **transportado** no sangue, ligado à albumina, porque não é solúvel. Precisa **atravessar** a membrana da fibra muscular. E, dentro da fibra, precisa **entrar na mitocôndria** — e não entra sozinho: depende de um sistema de transporte que usa carnitina, com a enzima CPT-1 na porta.
+Em intensidade baixa, a gordura sobe devagar. Chega no pico lá pelos sessenta por cento do VO₂máx. E depois cai.
 
-Cinco etapas, cinco gargalos possíveis. O carboidrato, quando já está como glicogênio dentro da fibra, está a um passo do começo da via.
+E aqui está a diferença que quase nunca é dita direito. Acima do pico, a gordura não perde só participação na mistura. Ela cai em valor absoluto. Menos gramas por minuto. A pessoa gasta mais energia no total e queima menos gordura em gramas.
 
-E tem um detalhe que fecha o argumento e que raramente é ensinado: **oxidar gordura custa mais oxigênio por ATP produzido do que oxidar carboidrato.** A diferença é de cerca de dez por cento.
-
-Dez por cento parece pouco, e é decisivo exatamente onde importa. Em intensidade alta, o fator limitante é a oferta de oxigênio. Quando o oxigênio é o recurso escasso, o combustível inteligente é o que rende mais ATP por litro de oxigênio — e esse é o carboidrato.
-
-Ou seja: a mudança de combustível conforme a intensidade sobe **não é um defeito do corpo. É uma escolha econômica correta.** O organismo troca o combustível abundante e lento pelo combustível escasso e rápido, exatamente quando a pressa vale mais do que a economia.
-
-E as duas vias não são independentes — elas se inibem mutuamente. Quando o fluxo glicolítico está alto, acumula-se um metabólito que **bloqueia a entrada de ácido graxo na mitocôndria**, travando a porta da carnitina. Esse é o mecanismo pelo qual a oxidação de gordura cai em termos absolutos acima do Fatmax: não é só que o carboidrato ganha espaço. É que ele **fecha a porta** do concorrente.
-
-É uma competição de substratos descrita há mais de sessenta anos, e ela é a razão pela qual não existe intensidade alta com combustível predominantemente lipídico. Não é falta de treino. É arquitetura.
+E repara na faixa em volta do pico. Ela é larga. A curva existe, o pico existe, e o pico é individual demais para virar regra de população.
 
 ---
 
-📊 **[SLIDE 3 DE 7]**
-*Visual: duas contas lado a lado — 50% do VO₂máx e 75% do VO₂máx — com gasto total, fração de gordura e gramas de gordura calculados em cada uma.*
-*Teleprompter: (tom crítico, desmonta a zona de queima com aritmética)*
+📊 **[SLIDE 3 DE 19]**
+*Visual: o tanque de gordura, com mais de 60.000 quilocalorias, e ao lado a vazão da torneira: uns 30 gramas por hora, perto de 280 quilocalorias por hora.*
+*Teleprompter: (faz a conta em voz alta)*
 
-Agora o erro de conduta que nasce de tudo isso, e que é provavelmente a ideia mais vendida da indústria do exercício: a **zona de queima de gordura**.
+Faz a conta comigo.
 
-O raciocínio é: se em intensidade baixa eu queimo proporcionalmente mais gordura, então para emagrecer eu devo treinar em intensidade baixa.
+Meio grama por minuto dá uns trinta gramas por hora. Em energia, perto de duzentas e oitenta quilocalorias por hora vindas de gordura. No melhor cenário, no pico.
+
+Agora coloca isso ao lado do que a gente viu lá no começo do módulo. O estoque de gordura de um adulto, mesmo magro, passa de sessenta mil quilocalorias.
+
+Sessenta mil no tanque. Duzentas e oitenta por hora na torneira. Só para esvaziar o tanque no pico, seriam mais de duzentas horas.
+
+O tanque é imenso e a torneira é estreita. Essa desproporção é a coisa mais importante desta aula.
+
+---
+
+📊 **[SLIDE 4 DE 19]**
+*Visual: uma régua da razão de troca respiratória de 0,70 a 1,00, com a mistura de gordura e carboidrato mudando ao longo dela: 0,70 só gordura, 0,85 perto de meio a meio, 1,00 só carboidrato.*
+*Teleprompter: (explica como se enxerga uma coisa invisível)*
+
+E antes de seguir, a pergunta que o aluno atento faz: como é que alguém mede isso? Meio grama de gordura por minuto não é coisa que se veja.
+
+Mede-se pelo ar.
+
+A relação entre o gás carbônico que a pessoa solta e o oxigênio que ela consome muda conforme o combustível. É a razão de troca respiratória. Queimar gordura dá uma razão perto de zero vírgula setenta. Queimar carboidrato dá um. Tudo entre os dois é mistura, e a posição na régua diz a proporção. Perto de zero vírgula oitenta e cinco, é mais ou menos meio a meio.
+
+É não invasivo e funciona. Mas tem duas limitações que precisam vir junto, senão o número engana.
+
+---
+
+📊 **[SLIDE 5 DE 19]**
+*Visual: a razão de troca respiratória subindo com a intensidade e passando de 1,00; acima dessa linha, uma faixa marcada "CO₂ do tamponamento, não é combustível".*
+*Teleprompter: (liga com a aula passada)*
+
+Primeira limitação. Só vale em estado estável. Em intensidade que muda o tempo todo, a leitura não corresponde ao que o músculo está fazendo naquele instante.
+
+Segunda, e essa encaixa com a conversa passada. Acima de certa intensidade, a razão de troca deixa de medir combustível.
+
+Lembra que o próton acumulado é tamponado? O tamponamento solta gás carbônico extra, que não veio da queima de nada. A pessoa passa a exalar CO₂ que não é do metabolismo, a razão passa de um, e qualquer cálculo de gordura e carboidrato feito ali é ficção.
+
+O mesmo fenômeno que desmontou o ácido lático é o que estraga a medida em intensidade alta. E é também o que deixa enxergar o limiar no teste de ergoespirometria, que tem aula própria. O mesmo CO₂ que atrapalha uma leitura é o que permite a outra.
+
+---
+
+📊 **[SLIDE 6 DE 19]**
+*Visual: o caminho do ácido graxo em cinco etapas, do adipócito até a mitocôndria: mobilizar, viajar no sangue presa à albumina, atravessar a membrana da fibra, passar pela porta da carnitina e entrar na matriz. O glicogênio aparece dentro da fibra, a um passo da via.*
+*Teleprompter: (tom de mecanismo)*
+
+Por que a torneira da gordura é estreita? Porque a gordura tem um caminho longo até virar ATP, e cada etapa tem a sua própria velocidade máxima.
+
+Acompanha. O ácido graxo precisa ser tirado do adipócito. Precisa viajar no sangue preso à albumina, porque não se dissolve na água. Precisa atravessar a membrana da fibra muscular. E dentro da fibra precisa entrar na mitocôndria. E não entra sozinho: depende de um transporte com carnitina, com uma enzima chamada CPT-1 na porta.
+
+Cinco etapas, cinco gargalos possíveis.
+
+O carboidrato, quando já está guardado como glicogênio dentro da fibra, está a um passo do começo da via.
+
+---
+
+📊 **[SLIDE 7 DE 19]**
+*Visual: duas barras de quilocalorias por litro de oxigênio: carboidrato perto de 5,0 e gordura perto de 4,7.*
+*Teleprompter: (o detalhe que fecha o argumento)*
+
+E tem um detalhe que raramente se ensina e que fecha o argumento. Queimar gordura rende menos energia por litro de oxigênio do que queimar carboidrato.
+
+Cada litro de oxigênio rende perto de cinco quilocalorias com carboidrato, e perto de quatro vírgula sete com gordura. Uns sete a oito por cento de diferença.
+
+Parece pouco. E é decisivo exatamente onde importa. Em intensidade alta, o recurso escasso é o oxigênio. Quando o oxigênio é o que falta, o combustível certo é o que rende mais por litro. E esse é o carboidrato.
+
+Então a troca de combustível conforme a intensidade sobe não é defeito do corpo. É uma escolha econômica correta. O organismo troca o combustível abundante e lento pelo escasso e rápido exatamente quando a pressa vale mais que a economia.
+
+---
+
+📊 **[SLIDE 8 DE 19]**
+*Visual: a porta da mitocôndria com a carnitina; do lado de fora, o fluxo glicolítico alto ocupando a carnitina e deixando o ácido graxo sem passagem.*
+*Teleprompter: (as duas vias competem)*
+
+E as duas vias não são vizinhas pacíficas. Elas competem.
+
+Essa competição entre gordura e carboidrato foi descrita há mais de sessenta anos. E no músculo em exercício intenso, uma das explicações mais aceitas é esta: com o fluxo glicolítico alto, a carnitina livre da fibra fica ocupada, e a porta de entrada do ácido graxo na mitocôndria fica sem transportador.
+
+É por isso que a gordura cai em gramas acima do pico. Não é só que o carboidrato ganha espaço. É que ele fecha a porta do concorrente.
+
+E é por isso que não existe intensidade alta tocada a gordura. Não é falta de treino. É arquitetura.
+
+---
+
+📊 **[SLIDE 9 DE 19]**
+*Visual: duas barras de gasto por minuto: 8 quilocalorias com 60% de gordura, dando 4,8 de gordura, e 14 quilocalorias com 35% de gordura, dando 4,9 de gordura.*
+*Teleprompter: (desmonta a zona de queima com aritmética)*
+
+Agora o erro de conduta que nasce de tudo isso. Provavelmente a ideia mais vendida da indústria do exercício: a zona de queima de gordura.
+
+O raciocínio é: se em intensidade baixa eu queimo proporcionalmente mais gordura, então para emagrecer eu treino em intensidade baixa.
 
 Vamos fazer a conta, porque ela resolve sozinha.
 
-Imagina uma pessoa que, em intensidade moderada-baixa, gasta oito quilocalorias por minuto, com sessenta por cento disso vindo de gordura. São quatro vírgula oito quilocalorias de gordura por minuto.
+Uma pessoa, em intensidade mais baixa, gasta oito quilocalorias por minuto, sessenta por cento de gordura. Dá quatro vírgula oito de gordura por minuto.
 
-A mesma pessoa, numa intensidade mais alta, gasta catorze quilocalorias por minuto, com trinta e cinco por cento vindo de gordura. São quatro vírgula nove quilocalorias de gordura por minuto.
+A mesma pessoa, mais forte, gasta catorze por minuto, trinta e cinco por cento de gordura. Dá quatro vírgula nove.
 
-Praticamente igual. Com uma fração quase pela metade, e um gasto total quase o dobro.
+Praticamente igual. Com a fração quase pela metade e o gasto total quase o dobro.
 
-**Proporção não é quantidade.** Sessenta por cento de um gasto pequeno pode ser a mesma coisa, ou menos, do que trinta e cinco por cento de um gasto grande. O que determina a quantidade oxidada é taxa vezes tempo — nunca a fração isolada.
-
-Mas o erro maior nem é aritmético. É conceitual, e é este:
-
-**O que determina mudança de composição corporal é o balanço energético ao longo de dias e semanas, não a mistura de combustível durante a sessão.**
-
-O corpo não guarda como crédito separado a gordura que foi oxidada às sete da manhã. Ele fecha a conta no fim do dia e no fim da semana. Se a pessoa gasta mais do que ingere, ela perde gordura — independentemente da fração que foi oxidada durante o treino.
-
-Então a intensidade "que queima mais gordura" simplesmente **não é a variável relevante para emagrecimento.** A variável relevante é qual intensidade essa pessoa consegue sustentar com frequência, sem se machucar e sem abandonar. Que é uma pergunta de aderência, não de bioenergética.
-
-E existe uma variação dessa mesma confusão que está em alta e merece o mesmo tratamento: treinar em jejum "para queimar mais gordura".
-
-Durante a sessão, a oxidação de gordura de fato é maior — isso é verdade e é mensurável. O que a evidência **não** sustenta é que isso produza mais perda de gordura ao longo de semanas e meses. E em quem já está com a conta energética apertada, treinar sem combustível tem custo real: pior qualidade de sessão e pior recuperação.
-
-É o mesmo erro do parágrafo anterior com outro nome — confundir o que acontece durante uma hora com o que decide o resultado de seis meses.
-
-Uma ressalva importante, para não jogar a criança fora com a água do banho: **manipular disponibilidade de carboidrato é uma estratégia legítima de treino**, com usos específicos ligados à sinalização de adaptação. Isso tem nome, tem protocolo e tem aula própria no módulo de nutrição esportiva. O que não se sustenta é o uso dela como método de emagrecimento.
-
-E aí a bioenergética serve para uma coisa melhor do que escolher zona de queima: serve para **escolher intensidade pelo efeito de adaptação que você quer.** Volume alto em intensidade baixa tem efeitos específicos e valiosos — densidade capilar, mitocôndria, tolerância. Ele vale muito. Só não vale pelo motivo que costuma ser vendido.
+Proporção não é quantidade. O que decide quanto se queima é taxa vezes tempo, e nunca a fração sozinha.
 
 ---
 
-📊 **[SLIDE 4 DE 7]**
-*Visual: intestino esquematizado com dois transportadores diferentes — um saturando em 1 g/min e outro somando capacidade — e a curva de oxidação exógena subindo até 1,75 g/min.*
-*Teleprompter: (tom de número prático, o outro teto)*
+📊 **[SLIDE 10 DE 19]**
+*Visual: duas colunas: "durante a sessão" e "ao longo de semanas", com o que muda em cada escala de tempo.*
+*Teleprompter: (o erro maior é conceitual)*
 
-Antes do próximo teto, uma cena que todo mundo que trabalha com endurance conhece e poucos sabem ler direito: o atleta que "quebra".
+Mas o erro maior nem é aritmético. É conceitual.
 
-Corredor no quilômetro trinta, ciclista na quarta hora. A velocidade cai, as pernas não respondem, e a pessoa descreve como se o corpo tivesse desligado.
+O que muda composição corporal é o balanço de energia ao longo de dias e semanas. Não a mistura de combustível durante a sessão.
 
-Existem **duas coisas diferentes** acontecendo nessa cena, e elas pedem condutas diferentes.
+O corpo não guarda como crédito separado a gordura queimada às sete da manhã. Ele fecha a conta no fim do dia e no fim da semana.
 
-**Hipoglicemia.** É central. O glicogênio hepático se esgotou e a glicemia caiu. O quadro tem cara de sistema nervoso: confusão, dificuldade de raciocinar, suor frio, tontura, irritabilidade. E tem uma assinatura diagnóstica barata: **melhora em minutos com carboidrato de absorção rápida.**
+Então a intensidade "que queima mais gordura" não é a variável que importa para emagrecer. A variável que importa é qual intensidade essa pessoa sustenta com frequência, sem se machucar e sem abandonar. Isso é pergunta de aderência, não de bioenergética.
 
-**Depleção de glicogênio muscular.** É local. O estoque de dentro da fibra acabou. A cabeça está lúcida, a vontade está lá, e a perna não entrega. E aqui está o ponto: **não melhora em minutos.** Nenhum gel repõe glicogênio intramuscular durante a prova — o carboidrato ingerido sustenta a glicemia e permite continuar em intensidade mais baixa, mas o estoque de dentro da fibra se reconstrói em horas, com comida.
+E o treino em jejum para queimar mais gordura é o mesmo erro com outro nome. Durante a sessão, a queima de gordura de fato é maior. Mas quando compararam mulheres treinando em jejum e alimentadas, com a mesma dieta e o mesmo treino por quatro semanas, a mudança de composição corporal foi parecida nos dois grupos.
 
-Por que essa distinção importa na segunda-feira? Porque a conduta preventiva é diferente. Hipoglicemia se previne com ingestão **durante** a prova. Depleção de glicogênio se previne com o que foi comido **nos dias anteriores** e com o ritmo escolhido na primeira metade.
+Uma ressalva, para não jogar fora o que presta. Mexer na disponibilidade de carboidrato é uma estratégia legítima de treino, ligada à adaptação, com protocolo e aula própria no módulo de nutrição. O que não se sustenta é usar isso como método de emagrecimento.
 
-E ela também importa para quem atende no consultório, porque o relato do atleta quase sempre mistura as duas. A pergunta que separa é simples: **a cabeça foi junto, ou só a perna?**
-
-Feita essa distinção, vamos ao teto. Se a gordura tem um teto de taxa, o carboidrato tem o dele — e esse fica num lugar que surpreende. **Não é no músculo. É no intestino.**
-
-O número clássico: **cerca de sessenta a setenta gramas por hora**, ou aproximadamente um grama por minuto. Esse é o máximo que se consegue oxidar de um carboidrato ingerido durante o exercício quando ele vem de **uma única fonte**, tipicamente glicose ou maltodextrina.
-
-Por que esse teto existe? Porque o transportador intestinal que carrega glicose **satura**. Você pode engolir mais, mas não atravessa. O que não atravessa fica no lúmen, puxa água, e produz exatamente o desconforto gastrointestinal que derruba prova longa.
-
-E aí veio a sacada que mudou a nutrição esportiva de endurance: **combinar carboidratos que usam transportadores diferentes.** Glicose usa um transportador; frutose usa outro. Somando os dois, você soma capacidade de absorção em vez de disputar a mesma porta.
-
-Com essa combinação, taxas de oxidação de carboidrato exógeno de até **um vírgula setenta e cinco grama por minuto** já foram medidas — quando durante anos se acreditou que um grama por minuto fosse o limite absoluto.
-
-A recomendação prática que saiu disso, para eventos de duas horas e meia ou mais, é de **noventa gramas por hora de carboidratos de múltiplos transportadores.**
-
-O que esse número decide, na prática:
-
-**Decide o plano de gel e bebida** de quem vai correr uma prova longa, pedalar um cicloturismo de seis horas ou nadar uma travessia — porque diz quanto adianta ingerir e a partir de onde não adianta mais.
-
-**Decide o que fazer quando o atleta reclama de estômago.** Se ele está tomando cento e vinte gramas por hora de uma fonte só, o problema não é o estômago dele. É aritmética de transportador.
-
-**E decide que isso se treina.** A capacidade de absorção intestinal responde a exposição repetida. Ninguém testa noventa gramas por hora pela primeira vez no dia da prova — isso se constrói nos treinos longos, semanas antes.
-
-Escopo, e ele é claro: **a prescrição de quanto, de quê e quando é conduta do nutricionista.** O que o resto do departamento precisa saber é que **o teto existe** — porque é isso que transforma "ele passou mal na prova" de um mistério em uma pergunta respondível.
+E o treino longo em intensidade baixa vale muito. Por capilar, por mitocôndria, por tolerância. Só não vale pelo motivo que costuma ser vendido.
 
 ---
 
-📊 **[SLIDE 5 DE 7]**
-*Visual: a cascata desenhada — contração repetida → AMPK, cálcio e sinal redox → PGC-1α → núcleo e DNA mitocondrial → mitocôndria nova.*
-*Teleprompter: (tom de mecanismo, como a capacidade cresce)*
+📊 **[SLIDE 11 DE 19]**
+*Visual: duas colunas: hipoglicemia, com a cabeça indo junto e melhora em minutos com carboidrato; e glicogênio muscular esgotado, com a cabeça lúcida, a perna sem responder e sem melhora em minutos.*
+*Teleprompter: (a cena do atleta que quebra)*
+
+Antes do próximo teto, uma cena que todo mundo que trabalha com endurance conhece: o atleta que quebra.
+
+Corredor no quilômetro trinta. Ciclista na quarta hora. A velocidade cai, as pernas não respondem, e ele descreve como se o corpo tivesse desligado.
+
+Tem duas coisas diferentes acontecendo nessa cena, e elas pedem condutas diferentes.
+
+Hipoglicemia. É central. O glicogênio do fígado acabou e a glicose do sangue caiu. O quadro tem cara de sistema nervoso: confusão, dificuldade de pensar, suor frio, tontura, irritação. E tem uma assinatura barata: melhora em minutos com carboidrato rápido.
+
+Glicogênio muscular esgotado. É local. A cabeça está lúcida, a vontade está lá, e a perna não entrega. E não melhora em minutos. Nenhum gel repõe glicogênio dentro da fibra durante a prova.
+
+A prevenção também é diferente. Hipoglicemia se previne com o que se come durante a prova. Glicogênio muscular se previne com o que se comeu nos dias anteriores e com o ritmo da primeira metade.
+
+E a pergunta que separa as duas no consultório é simples: a cabeça foi junto, ou só a perna?
+
+---
+
+📊 **[SLIDE 12 DE 19]**
+*Visual: o intestino com dois transportadores, um para glicose e outro para frutose, e duas barras de oxidação do carboidrato ingerido: 1,06 grama por minuto com glicose sozinha e 1,75 com glicose e frutose.*
+*Teleprompter: (o outro teto está no intestino)*
+
+Se a gordura tem um teto de taxa, o carboidrato tem o dele. E ele fica num lugar que surpreende. Não é no músculo. É no intestino.
+
+De uma fonte só, tipo glicose ou maltodextrina, o corpo consegue queimar uns sessenta gramas por hora do que foi engolido. Mais ou menos um grama por minuto.
+
+Por quê? Porque o transportador do intestino que carrega a glicose satura. Você pode engolir mais, mas não passa. E o que não passa fica no intestino, puxa água e dá exatamente o desconforto que derruba prova longa.
+
+Aí veio a sacada que mudou a nutrição de endurance. Combinar carboidratos que usam portas diferentes. A glicose usa um transportador, a frutose usa outro. Somando os dois, você soma capacidade em vez de disputar a mesma porta.
+
+Num estudo com ciclistas treinados, a glicose sozinha chegou a um vírgula zero seis grama por minuto. Glicose com frutose, em quantidade maior, chegou a um vírgula setenta e cinco. Durante anos se achou que um grama por minuto era o limite absoluto.
+
+---
+
+📊 **[SLIDE 13 DE 19]**
+*Visual: três números: 60 gramas por hora de uma fonte, 90 gramas por hora de fontes combinadas em prova de duas horas e meia ou mais, e "treina-se".*
+*Teleprompter: (o que esse número decide na segunda-feira)*
+
+A recomendação prática que saiu daí: até uns sessenta gramas por hora de uma fonte só. E para prova de duas horas e meia ou mais, perto de noventa gramas por hora, de fontes combinadas.
+
+O que esse número decide.
+
+Decide o plano de gel e bebida de quem vai correr uma prova longa, pedalar seis horas ou nadar uma travessia. Diz quanto adianta ingerir e a partir de onde não adianta mais.
+
+Decide o que fazer quando o atleta reclama do estômago. Se ele está tomando cento e vinte gramas por hora de uma fonte só, o problema não é o estômago dele. É aritmética de transportador.
+
+E decide que isso se treina. O intestino se adapta à exposição repetida. Ninguém testa noventa gramas por hora pela primeira vez no dia da prova.
+
+Quanto, de quê e quando é conduta do nutricionista. O que o resto da equipe precisa saber é que o teto existe. É isso que transforma "ele passou mal na prova" de mistério em pergunta com resposta.
+
+---
+
+📊 **[SLIDE 14 DE 19]**
+*Visual: a cascata: contração repetida gera três sinais, energia baixa pela AMPK, cálcio e sinal redox; os três convergem no PGC-1α, que aciona o núcleo e o DNA da mitocôndria, e o resultado é mitocôndria nova.*
+*Teleprompter: (tom de mecanismo, como o sistema melhora)*
 
 Até aqui a aula tratou do sistema como ele é hoje. Agora: como ele fica melhor.
 
-A contração muscular repetida produz três sinais dentro da fibra.
+A contração repetida produz três sinais dentro da fibra.
 
-**Queda da carga energética.** O ATP é consumido, o AMP se acumula, e a razão entre eles muda. Isso ativa a **AMPK**, que funciona como sensor de energia baixa.
+Energia baixa. O ATP é gasto, o AMP se acumula, e isso liga a AMPK, que funciona como um sensor de energia.
 
-**Aumento de cálcio.** Cada contração libera cálcio, e o cálcio repetido ativa uma família de quinases.
+Cálcio. Cada contração solta cálcio, e o cálcio repetido liga outra família de sinais.
 
-**E sinalização redox**, ligada ao aumento da atividade da cadeia respiratória.
+E sinal redox, ligado ao trabalho maior da cadeia respiratória.
 
-Os três caminhos convergem para o mesmo alvo: o **PGC-1α**, um coativador que funciona como regulador mestre da biogênese mitocondrial. Ativado, ele coordena a expressão de genes no núcleo **e** no DNA mitocondrial — e o resultado, ao longo de semanas, é mais massa mitocondrial e melhor maquinário oxidativo.
+Os três convergem num mesmo alvo, o PGC-1α. Ele funciona como regulador mestre da construção de mitocôndria. Aciona genes no núcleo e no DNA da própria mitocôndria. E ao longo de semanas o resultado é mais mitocôndria e maquinaria oxidativa melhor.
 
-Eu quero marcar uma coisa aqui, porque ela vai ser sistematicamente contrariada pelo mercado que os seus pacientes frequentam:
+Uma coisa que o mercado que os seus pacientes frequentam vai contrariar o tempo todo: isso não é comandado por hormônio do crescimento nem por IGF-1. É um programa local, disparado pelo trabalho que o músculo fez. O estímulo que comprovadamente liga isso é de graça.
 
-**A biogênese mitocondrial não é comandada por hormônio do crescimento nem por IGF-1.** Ela é comandada por contração muscular repetida, por essa via. É um programa local, disparado pelo trabalho que o músculo fez. O estímulo que comprovadamente ativa isso é gratuito.
+---
 
-E da natureza do sinal sai uma consequência direta de prescrição: se o gatilho é contração repetida, e cada sessão gera um pulso de sinalização que decai em horas a poucos dias, então **frequência importa muito.** Muitas sessões moderadas produzem mais pulsos do que poucas sessões heroicas.
+📊 **[SLIDE 15 DE 19]**
+*Visual: duas semanas lado a lado em linha do tempo: seis sessões moderadas, cada uma com um pulso de sinal que decai, contra duas sessões muito longas com dois pulsos grandes e dias vazios entre eles.*
+*Teleprompter: (a consequência de prescrição)*
 
-Agora a pergunta que todo mundo faz: **volume ou intensidade?**
+E da natureza do sinal sai uma consequência direta de prescrição.
 
-Existe controvérsia real e ativa aqui, e eu prefiro mostrá-la inteira a escolher um lado e fingir consenso. Bishop e colaboradores revisaram isso em 2019 com um título honesto — controvérsias atuais —, e o próprio Bishop sustentou em debate publicado que **volume é mais determinante que intensidade** para aumentar conteúdo mitocondrial, com réplica de quem defende o contrário.
+Se o gatilho é contração repetida, e cada sessão gera um pulso de sinal que decai em horas a poucos dias, então frequência importa muito.
+
+Olha as duas semanas. Seis sessões moderadas geram seis pulsos. Duas sessões heroicas geram dois pulsos grandes e muito dia vazio entre eles.
+
+---
+
+📊 **[SLIDE 16 DE 19]**
+*Visual: de um lado, conteúdo mitocondrial: muitas mitocôndrias pequenas; do outro, função mitocondrial: quanto cada uma respira. Acima, "volume ou intensidade? os dois funcionam".*
+*Teleprompter: (mostra a controvérsia inteira)*
+
+Agora a pergunta que todo mundo faz: volume ou intensidade?
+
+Aqui existe controvérsia de verdade, e eu prefiro mostrar inteira a escolher um lado e fingir consenso. O grupo do David Bishop revisou isso em dois mil e dezenove com um título honesto, controvérsias atuais. E o próprio Bishop defendeu em debate publicado que o volume pesa mais do que a intensidade para aumentar mitocôndria, com resposta de quem pensa o contrário.
 
 O que dá para dizer com segurança são três coisas.
 
-**Os dois funcionam.** Contínuo de volume e intervalado de alta intensidade aumentam conteúdo mitocondrial.
+Os dois funcionam. Contínuo com volume e intervalado de alta intensidade aumentam mitocôndria.
 
-**A alta intensidade é eficiente em tempo**, o que é uma vantagem prática enorme para quem tem pouco tempo — e aqui eu não quero ser injusto com a ferramenta: para o adulto que só consegue três sessões curtas por semana, o intervalado é escolha racional e eficaz.
+A alta intensidade é eficiente em tempo. Para o adulto que só consegue três sessões curtas por semana, o intervalado é escolha racional.
 
-**E existe a hipótese de que intensidade muito alta, acumulada, prejudique a função mitocondrial** — a respiração por unidade — mesmo aumentando o conteúdo. Esse é um dos pontos em disputa, e é interessante porque sugere que mais nem sempre é melhor.
+E existe uma hipótese em disputa: intensidade muito alta, acumulada, pode piorar quanto cada mitocôndria respira, mesmo aumentando quantas existem.
 
-Isso me leva a uma distinção que quase não aparece na graduação e que muda a leitura de tudo: **conteúdo mitocondrial não é a mesma coisa que função mitocondrial.** Conteúdo é quanta mitocôndria existe. Função é quanto cada uma respira. As duas podem se mover em direções diferentes — dá para ter mais mitocôndria de qualidade pior.
+E isso traz uma distinção que quase não aparece na graduação. Conteúdo mitocondrial não é função mitocondrial. Conteúdo é quanta mitocôndria existe. Função é quanto cada uma respira. As duas podem andar em direções diferentes.
 
 ---
 
-📊 **[SLIDE 6 DE 7]**
-*Visual: quatro setas apontando para baixo em direção a uma mitocôndria — disponibilidade energética, sono, inatividade e idade — e uma quinta seta pontilhada marcada como antioxidante em dose alta.*
+📊 **[SLIDE 17 DE 19]**
+*Visual: quatro setas descendo sobre uma mitocôndria: energia disponível baixa, sono curto, inatividade e idade; uma quinta seta tracejada: antioxidante em dose alta.*
 *Teleprompter: (tom clínico, o que derruba sem ser treino)*
 
-E aqui está a parte da aula que mais muda a conduta de quem atende gente real: **a função oxidativa é sensível a coisas que não são treino.**
+E a parte que mais muda a conduta de quem atende gente de verdade: a função oxidativa é sensível a coisas que não são treino.
 
-**Disponibilidade energética.** Restrição energética prolongada compromete a maquinaria oxidativa. O que o módulo de fisiologia hormonal vai descrever como supressão de eixos, e o módulo da atleta mulher como deficiência energética relativa, tem no músculo uma contrapartida direta: menos capacidade de produzir energia. A pessoa não está apenas com menos combustível — está com menos motor.
+Energia disponível baixa. Restrição de energia por tempo longo compromete a maquinaria oxidativa. A pessoa não está só com menos combustível. Está com menos motor.
 
-**Sono.** Privação de sono piora sensibilidade à insulina e capacidade oxidativa muscular. É por isso que a mesma sessão, depois de três noites ruins, custa mais.
+Sono curto. Piora a sensibilidade à insulina e a capacidade oxidativa do músculo. É por isso que a mesma sessão, depois de três noites ruins, custa mais.
 
-**Inatividade.** O destreinamento derruba conteúdo mitocondrial **mais rápido do que o treino o constrói.** Isso é especialmente relevante em duas situações que a gente vê toda semana: depois de lesão com imobilização, e depois de internação hospitalar. O paciente não voltou ao ponto de partida — ele voltou para trás dele.
+Inatividade. O que o treino construiu em semanas se desmonta em poucas semanas parado. Isso pesa depois de lesão com imobilização e depois de internação. O paciente não volta ao ponto de partida. Volta para trás dele.
 
-**Idade**, com um detalhe que muda a conversa: boa parte do declínio mitocondrial atribuído ao envelhecimento é, na verdade, efeito de **inatividade acumulada**. O idoso ativo mantém capacidade oxidativa muito acima do sedentário da mesma idade. A idade explica menos do que se diz; o sofá explica mais.
+Idade. E aqui um detalhe que muda a conversa. Boa parte da queda atribuída à idade é, na verdade, inatividade acumulada. O idoso ativo mantém capacidade oxidativa muito acima do sedentário da mesma idade. A idade explica menos do que se diz. O sofá explica mais.
 
-E uma advertência sobre uma prática que virou moda: **antioxidante em dose alta**, tomado com a intenção de acelerar a recuperação. Lembra que a sinalização redox é **parte do gatilho** da biogênese? Pois é. Há evidência de que doses altas de certos antioxidantes possam atenuar parte da adaptação ao treino — o trabalho de Paulsen e colaboradores com vitamina C e E em treino de endurance é a referência mais citada.
-
-Isso não é motivo para desconfiar de uma dieta rica em frutas e vegetais, que é outra coisa inteiramente. É motivo para desconfiar de **suplementação antioxidante em dose alta e contínua em quem treina** — e o módulo de suplementação trata disso com dose e evidência.
-
-Com tudo isso na mesa, dá para montar a leitura que resolve o caso mais comum do consultório. Quando alguém treina com consistência e **não melhora**, existem duas hipóteses distintas:
-
-**O estímulo está errado** — e isso é problema de prescrição, que se resolve na planilha.
-
-**Ou a matéria-prima não está chegando** — e isso é problema de conta, que nenhuma reorganização de planilha resolve.
-
-A maior parte dos profissionais só considera a primeira. É por isso que tanta gente treina mais e melhora menos.
+E uma advertência sobre uma moda: antioxidante em dose alta para acelerar a recuperação. Lembra que o sinal redox é parte do gatilho? Num ensaio de onze semanas, vitamina C e E em dose alta atenuaram o aumento de proteínas da mitocôndria com o treino de endurance. Isso não é motivo para desconfiar de uma dieta cheia de fruta e verdura, que é outra coisa. É motivo para desconfiar de suplemento antioxidante em dose alta e contínua em quem treina.
 
 ---
 
-📊 **[SLIDE 7 DE 7]**
-*Visual: três tetos desenhados como linhas horizontais — taxa de oxidação de gordura, absorção intestinal de carboidrato e conteúdo mitocondrial — com uma seta tentando atravessar cada um.*
+📊 **[SLIDE 18 DE 19]**
+*Visual: uma bifurcação partindo de "treina e não melhora": de um lado, o estímulo está errado, resolvido na planilha; do outro, a matéria-prima não chega, resolvido na conta de energia, sono e recuperação.*
+*Teleprompter: (fecha o raciocínio clínico)*
+
+Com tudo isso na mesa, dá para ler o caso mais comum do consultório. Alguém treina com consistência e não melhora.
+
+Tem duas hipóteses.
+
+O estímulo está errado. Isso é problema de prescrição, e se resolve na planilha.
+
+Ou a matéria-prima não está chegando. Isso é problema de conta, de energia, de sono, de recuperação. E nenhuma reorganização de planilha resolve.
+
+A maior parte dos profissionais só pensa na primeira. É por isso que tanta gente treina mais e melhora menos.
+
+---
+
+📊 **[SLIDE 19 DE 19]**
+*Visual: três tetos desenhados como linhas horizontais, com uma seta tentando atravessar cada um: taxa de queima de gordura, absorção intestinal de carboidrato e capacidade oxidativa instalada.*
 *Teleprompter: (fecha o fio e emenda)*
 
-Se eu tivesse que resumir esta aula numa ideia, seria a de **teto**.
+Se eu tivesse que resumir esta aula numa ideia, seria a de teto.
 
-O metabolismo oxidativo é o sistema de capacidade praticamente infinita — e mesmo assim ele tem três tetos, e quase todo erro de prescrição em endurance é uma tentativa de furar um deles sem saber que ele existe.
+O sistema oxidativo tem capacidade praticamente infinita. E mesmo assim ele tem três tetos. Quase todo erro de prescrição em endurance é uma tentativa de furar um deles sem saber que ele existe.
 
-**Teto de taxa de oxidação de gordura**, em torno de meio grama por minuto. Quem tenta resolver emagrecimento escolhendo zona está batendo nesse.
+Teto de queima de gordura, em torno de meio grama por minuto. Quem tenta resolver emagrecimento escolhendo zona está batendo nesse.
 
-**Teto de absorção intestinal de carboidrato**, em torno de um grama por minuto de fonte única e perto de um vírgula sete com fontes combinadas. Quem toma mais gel está batendo nesse — e sentindo no estômago.
+Teto de absorção de carboidrato, em torno de um grama por minuto de uma fonte e perto de um vírgula setenta e cinco com fontes combinadas. Quem toma mais gel está batendo nesse, e sentindo no estômago.
 
-**E teto de capacidade oxidativa instalada**, que é o único dos três que se move com treino — e se move devagar, por volume e por frequência, e desmorona rápido com inatividade e com conta energética apertada.
+E teto de capacidade oxidativa instalada, o único dos três que se move com treino. Ele se move devagar, por volume e por frequência. E desmorona rápido com inatividade e com a conta de energia apertada.
 
-Então as perguntas que sobram para a segunda-feira são três. Que adaptação eu quero produzir nesta pessoa? O que a conta energética dela permite pagar? E em qual desses tetos ela está batendo agora?
+Então sobram três perguntas para a segunda-feira. Que adaptação eu quero produzir nesta pessoa? O que a conta de energia dela permite pagar? E em qual desses tetos ela está batendo agora?
 
-Na próxima aula eu saio do que acontece dentro da fibra e vou para o que leva o oxigênio até ela: as respostas cardiovasculares ao exercício, agudas e crônicas. E a pergunta que organiza a aula é a de quem atende gente real — o que dessas mudanças é adaptação esperada, e o que merece um segundo olhar.
+Na próxima conversa eu saio de dentro da fibra e vou para o que leva o oxigênio até ela: o coração e os vasos, no exercício agudo e ao longo do treino. E a pergunta que organiza a aula é a de quem atende gente real: o que dessas mudanças é adaptação esperada, e o que merece um segundo olhar.
 
 ---
 
 ## Referências
 
-1. Maunder E, Plews DJ, Kilding AE. Contextualising maximal fat oxidation during exercise: determinants and normative values. *Front Physiol.* 2018;9:599. PMID: 29875697
-2. Achten J, Jeukendrup AE. Optimizing fat oxidation through exercise and diet. *Nutrition.* 2004;20(7-8):716-727. PMID: 15212756
-3. Jeukendrup A. A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Med.* 2014;44(Suppl 1):S25-S33. PMID: 24791914
-4. Bishop DJ, Botella J, Genders AJ, et al. High-intensity exercise and mitochondrial biogenesis: current controversies and future research directions. *Physiology (Bethesda).* 2019;34(1):56-70. PMID: 30540234
-5. Hargreaves M, Spriet LL. Skeletal muscle energy metabolism during exercise. *Nat Metab.* 2020;2(9):817-828. doi:10.1038/s42255-020-0251-4
-6. Paulsen G, Cumming KT, Holden G, et al. Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: a double-blind, randomised, controlled trial. *J Physiol.* 2014;592(8):1887-1901. PMID: 24492839
+1. Achten J, Jeukendrup AE. Maximal fat oxidation during exercise in trained men. *Int J Sports Med.* 2003;24(8):603-608. PMID: 14598198
+2. Maunder E, Plews DJ, Kilding AE. Contextualising maximal fat oxidation during exercise: determinants and normative values. *Front Physiol.* 2018;9:599. PMID: 29875697
+3. Péronnet F, Massicotte D. Table of nonprotein respiratory quotient: an update. *Can J Sport Sci.* 1991;16(1):23-29. PMID: 1645211
+4. Hargreaves M, Spriet LL. Skeletal muscle energy metabolism during exercise. *Nat Metab.* 2020;2(9):817-828. doi:10.1038/s42255-020-0251-4
+5. Schoenfeld BJ, Aragon AA, Wilborn CD, Krieger JW, Sonmez GT. Body composition changes associated with fasted versus non-fasted aerobic exercise. *J Int Soc Sports Nutr.* 2014;11:54. PMID: 25429252
+6. Jentjens RL, Jeukendrup AE. High rates of exogenous carbohydrate oxidation from a mixture of glucose and fructose ingested during prolonged cycling exercise. *Br J Nutr.* 2005;93(4):485-492. doi:10.1079/BJN20041368
+7. Jeukendrup A. A step towards personalized sports nutrition: carbohydrate intake during exercise. *Sports Med.* 2014;44(Suppl 1):S25-S33. PMID: 24791914
+8. Bishop DJ, Botella J, Genders AJ, et al. High-intensity exercise and mitochondrial biogenesis: current controversies and future research directions. *Physiology (Bethesda).* 2019;34(1):56-70. PMID: 30540234
+9. Paulsen G, Cumming KT, Holden G, et al. Vitamin C and E supplementation hampers cellular adaptation to endurance training in humans: a double-blind, randomised, controlled trial. *J Physiol.* 2014;592(8):1887-1901. PMID: 24492839
 
 ---
 
 ## Roteiro Gamma.app
 
-**Slide 1** — Meio grama por minuto
-· Pico de oxidação de gordura em treinados: **~0,5 g/min** (0,47 a 0,60) = ~30 g/h ≈ **270 kcal/h**
-· Estoque de gordura, mesmo em magro: **> 60.000 kcal**. Tanque imenso, **torneira estreita**
-· O pico acontece entre **59 e 64% do VO₂máx**. Acima disso a oxidação cai **em gramas**, não só em fração
-· **Variação individual enorme**: desvio-padrão de 0,15 — quase o dobro de uma pessoa para outra
-· A curva existe, o pico existe, e o pico é individual demais para virar regra
-· **Como se mede**: razão de troca respiratória. **0,70 = gordura · 1,00 = carboidrato**
-· Só vale em **estado estável** — e acima do limiar o tamponamento gera CO₂ que não veio de oxidação
-· O mesmo CO₂ que estraga a medida de substrato é o que revela o limiar na ergoespirometria
-Visual: curva de g/min contra intensidade, com a faixa de variação no pico.
+**Slide 1** — Três números
+· **0,52 g/min** · **~62% do VO₂máx** · **± 0,15**
+Visual: três números grandes.
 
-**Slide 2** — Por que a torneira é estreita
-· Cinco etapas: mobilizar · transportar na albumina · atravessar a membrana · **lançadeira da carnitina** · matriz
-· O glicogênio de dentro da fibra está a um passo do começo da via
-· **Oxidar gordura custa ~10% mais oxigênio por ATP** — e em intensidade alta o oxigênio é o recurso escasso
-· A troca de combustível não é defeito: é **escolha econômica correta**
-· As vias se inibem: fluxo glicolítico alto **fecha a porta da carnitina**
-· Não existe intensidade alta com combustível lipídico. Não é falta de treino, é arquitetura
-Visual: o percurso do ácido graxo em cinco etapas, com um relógio em cada.
+**Slide 2** — A curva
+· Acima do pico, a gordura cai **em gramas**, não só em fração
+· A faixa em volta do pico é larga: **individual demais para virar regra**
+Visual: curva com faixa de variação.
 
-**Slide 3** — A zona de queima, na aritmética
-· 8 kcal/min com 60% de gordura = **4,8 kcal/min**. 14 kcal/min com 35% = **4,9 kcal/min**
-· **Proporção não é quantidade.** Quantidade é taxa vezes tempo
-· E o que muda composição corporal é o balanço de **dias e semanas**, não a mistura da sessão
-· A variável relevante é a intensidade que a pessoa **sustenta com frequência** sem se machucar e sem abandonar
-· Treino em jejum: mais gordura oxidada **durante**; sem sustentação para mais perda **ao longo do tempo**
-· Manipular disponibilidade de carboidrato é estratégia legítima de **adaptação** — não de emagrecimento
-· Volume baixo e intensidade baixa valem muito. Só não valem pelo motivo que se vende
-Visual: as duas contas lado a lado.
+**Slide 3** — Tanque e torneira
+· ~30 g/h ≈ **280 kcal/h** · tanque **> 60.000 kcal** · **mais de 200 horas** no pico
+Visual: tanque e vazão.
 
-**Slide 4** — Quebrar, e o outro teto
-· **Hipoglicemia** é central: confusão, suor frio, tontura — e **melhora em minutos** com carboidrato
-· **Depleção de glicogênio muscular** é local: cabeça lúcida, perna não entrega — e **não melhora em minutos**
-· Nenhum gel repõe glicogênio intramuscular durante a prova. Isso leva horas e comida
-· Prevenção diferente: hipoglicemia, ingestão **durante**; depleção, os **dias anteriores** e o ritmo da primeira metade
-· A pergunta que separa: **a cabeça foi junto, ou só a perna?**
-· **60 a 70 g/h** (~1 g/min) de fonte única — o transportador **satura**
-· O que não atravessa puxa água e vira desconforto gastrointestinal
-· **Múltiplos transportadores** (glicose + frutose) somam capacidade: até **1,75 g/min** medidos
-· Recomendação prática para eventos ≥ 2,5 h: **90 g/h**
-· "Passou mal na prova" com 120 g/h de fonte única não é estômago — é **aritmética de transportador**
-· **Isso se treina.** Ninguém testa 90 g/h pela primeira vez no dia da prova
-· Escopo: quanto, de quê e quando é do nutricionista. Saber que o teto existe é de todos
-Visual: os dois transportadores intestinais e a curva até 1,75 g/min.
+**Slide 4** — Como se mede
+· Razão de troca respiratória: **0,70 gordura · 0,85 meio a meio · 1,00 carboidrato**
+Visual: a régua.
 
-**Slide 5** — Como a capacidade cresce
-· Contração repetida → **AMPK · cálcio · sinal redox** → **PGC-1α** → núcleo e DNA mitocondrial
-· **Não é GH nem IGF-1.** É programa local disparado pelo trabalho do músculo, e é gratuito
-· O pulso de sinalização decai em horas a poucos dias: **frequência importa muito**
-· Volume x intensidade: controvérsia real (Bishop, 2019). **Os dois funcionam**
-· Alta intensidade é eficiente em tempo — e é escolha racional para quem só tem três sessões curtas
-· Hipótese em disputa: intensidade muito alta acumulada pode piorar a **função** por unidade
-· **Conteúdo não é função** — dá para ter mais mitocôndria de qualidade pior
-Visual: a cascata até a mitocôndria nova.
+**Slide 5** — Duas limitações
+· Só vale em **estado estável**
+· Acima do limiar, o tamponamento solta **CO₂ que não é combustível**
+Visual: RER passando de 1,00.
 
-**Slide 6** — O que derruba sem ser treino
-· **Disponibilidade energética** baixa: menos combustível **e** menos motor
-· **Sono** curto: pior sensibilidade à insulina e pior capacidade oxidativa
-· **Inatividade**: desmonta mais rápido do que o treino constrói — pós-lesão e pós-internação
-· **Idade**: boa parte do declínio é inatividade acumulada. O sofá explica mais que o calendário
-· **Antioxidante em dose alta** pode atenuar a adaptação (Paulsen, 2014) — dieta rica em vegetais é outra coisa
-· Treina e não melhora: **ou o estímulo está errado, ou a matéria-prima não chega**
-· A maioria só considera a primeira hipótese. Por isso tanta gente treina mais e melhora menos
-Visual: quatro setas para baixo sobre a mitocôndria, e uma quinta pontilhada.
+**Slide 6** — Cinco etapas
+· Mobilizar · viajar na albumina · atravessar a membrana · **porta da carnitina** · matriz
+Visual: o caminho do ácido graxo.
 
-**Slide 7** — Três tetos
-· **Taxa de oxidação de gordura**: ~0,5 g/min. Quem escolhe "zona" bate nele
-· **Absorção intestinal de carboidrato**: ~1 g/min de fonte única, ~1,7 combinado. Quem toma mais gel bate nele
-· **Capacidade oxidativa instalada**: o único que se move — devagar, por volume e frequência
-· Que adaptação eu quero? O que a conta permite pagar? Em qual teto essa pessoa está batendo?
-Visual: três linhas horizontais e uma seta tentando atravessar cada uma.
+**Slide 7** — Rendimento por litro de O₂
+· Carboidrato **~5,0 kcal/L** · gordura **~4,7 kcal/L**
+· A troca de combustível é **escolha econômica correta**
+Visual: duas barras.
+
+**Slide 8** — As vias competem
+· Fluxo glicolítico alto **ocupa a carnitina** e fecha a porta da gordura
+· Não é falta de treino: **é arquitetura**
+Visual: a porta da mitocôndria.
+
+**Slide 9** — A zona de queima na aritmética
+· 8 kcal/min × 60% = **4,8** · 14 kcal/min × 35% = **4,9**
+· **Proporção não é quantidade**
+Visual: duas barras.
+
+**Slide 10** — Dias e semanas
+· Composição corporal é **balanço de dias e semanas**
+· Jejum: mais gordura **durante**; composição **parecida** em quatro semanas
+Visual: duas colunas.
+
+**Slide 11** — Quebrar
+· Hipoglicemia: **cabeça vai junto**, melhora em minutos
+· Glicogênio muscular: **só a perna**, não melhora em minutos
+· **A cabeça foi junto, ou só a perna?**
+Visual: duas colunas.
+
+**Slide 12** — O teto do intestino
+· Uma fonte: **~1 g/min** · glicose + frutose: **1,75 g/min**
+Visual: dois transportadores e duas barras.
+
+**Slide 13** — O que o número decide
+· **60 g/h** uma fonte · **90 g/h** combinado em prova ≥ 2,5 h · **treina-se**
+Visual: três números.
+
+**Slide 14** — Como a capacidade cresce
+· **AMPK · cálcio · redox → PGC-1α → mitocôndria nova**
+· **Não é GH nem IGF-1**
+Visual: a cascata.
+
+**Slide 15** — Frequência
+· Cada sessão é **um pulso** de sinal
+Visual: duas semanas em linha do tempo.
+
+**Slide 16** — Volume ou intensidade
+· **Os dois funcionam** · intervalado é eficiente em tempo
+· **Conteúdo não é função**
+Visual: conteúdo x função.
+
+**Slide 17** — O que derruba sem ser treino
+· Energia baixa · sono curto · inatividade · idade (muito é **sofá**)
+· **Antioxidante em dose alta** atenua a adaptação
+Visual: quatro setas e uma tracejada.
+
+**Slide 18** — Treina e não melhora
+· **Estímulo errado** → planilha · **matéria-prima não chega** → conta
+Visual: bifurcação.
+
+**Slide 19** — Três tetos
+· Gordura **~0,5 g/min** · carboidrato **~1 a 1,75 g/min** · capacidade instalada, **o único que se move**
+Visual: três linhas e três setas.
+
+---
+
+## Notas de produção (não falado, não vai para o slide)
+
+**O que mudou nesta versão.** Voz do curso, dezenove slides no lugar de sete. Saíram "É elegante",
+"escopo" e as menções numeradas a aulas. O pico de gordura agora vem de Achten e Jeukendrup 2003
+(55 homens treinados: 0,52 ± 0,15 g/min a 62,5 ± 9,8% do VO₂máx). A diferença de custo de oxigênio
+passou de "cerca de 10% mais oxigênio por ATP" para o dado de tabela de Péronnet e Massicotte:
+~5,05 kcal/L de O₂ com carboidrato e ~4,69 com gordura. O mecanismo da competição foi reescrito com
+a explicação da carnitina livre (Hargreaves e Spriet 2020), com a ressalva de "uma das explicações
+mais aceitas". O jejum ganhou a referência de Schoenfeld 2014. Os números de 1,06 e 1,75 g/min são
+de Jentjens e Jeukendrup 2005 (glicose a 1,2 g/min contra glicose 1,2 + frutose 1,2 g/min; por isso "em quantidade maior"). "Desmonta mais rápido do que o treino constrói" virou "se desmonta
+em poucas semanas parado".
+
+**Contas.** 0,52 g/min × 60 = 31 g/h × 9 kcal/g ≈ 280 kcal/h. 60.000 ÷ 280 ≈ 214 h. Zona de queima:
+8 × 0,60 = 4,8 e 14 × 0,35 = 4,9.
+
+**Citações faladas.** David Bishop, pela controvérsia volume x intensidade.
+
+**Ligações internas.** "começo do módulo" (tanques) = aula dos três sistemas · tamponamento e ácido
+lático = aula anterior · limiar e ergoespirometria = aula de limiares · disponibilidade de carboidrato
+= módulo de nutrição · energia disponível = módulos de fisiologia hormonal e da atleta mulher ·
+antioxidante = módulo de suplementação · coração e vasos = próxima aula.
