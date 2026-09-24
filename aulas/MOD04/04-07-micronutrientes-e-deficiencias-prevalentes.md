@@ -82,7 +82,7 @@ Mas existem sinais que **aumentam a probabilidade** e merecem ser perguntados at
 
 **Para a B12:** formigamento em mãos e pés, alteração de memória ou de humor — **em vegano sem suplementação, ou em quem usa medicamentos que reduzem a absorção dela**, como alguns remédios para diabetes e para acidez do estômago. Essa segunda parte o médico confere.
 
-**Para cálcio e vitamina D:** **fratura por estresse, principalmente se repetida.** Aí a pergunta nunca é só "falta cálcio?" — é "falta energia?". A fratura do osso de quem restringe é tema das aulas **7.10 e 11.7**.
+**Para cálcio e vitamina D:** **fratura por estresse, principalmente se repetida.** Aí a pergunta nunca é só "falta cálcio?" — é "falta energia?". A fratura do osso de quem restringe é tema das aulas **7.11 e 11.7**.
 
 Então o passo três não serve para diagnosticar. **Serve para decidir a urgência do passo quatro.**
 
@@ -156,7 +156,7 @@ Visual: o recordatório com as quatro perguntas.
 · Sintomas **inespecíficos** — os mesmos de sono ruim, excesso de treino e baixa disponibilidade energética
 · **Ferro**: fluxo intenso · cansaço desproporcional · falta de ar fora da intensidade · **vontade de mastigar gelo**
 · **B12**: formigamento, memória, humor — vegano sem suplemento; **medicamentos que reduzem absorção** (médico confere)
-· **Cálcio e D**: fratura por estresse → **"falta energia?"** (aulas 7.10 e 11.7)
+· **Cálcio e D**: fratura por estresse → **"falta energia?"** (aulas 7.11 e 11.7)
 · O passo 3 **decide a urgência**, não o diagnóstico
 · **Não**: exame em cabelo, teste "intracelular", painel sem pergunta — **a pergunta escolhe o exame** (aula 6.10)
 · Magnésio, zinco, "vitamina da energia", soro na veia: **deficiência se corrige; suficiência não se turbina** (Módulo 5)

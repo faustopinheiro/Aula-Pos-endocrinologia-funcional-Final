@@ -1,4 +1,4 @@
-# Módulo 7 · Aula 7.8 — Lesões do joelho: da dor anterior ao ligamento
+# Módulo 7 · Aula 7.9 — Lesões do joelho: da dor anterior ao ligamento
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

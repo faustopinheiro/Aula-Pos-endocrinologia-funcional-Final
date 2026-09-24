@@ -156,7 +156,7 @@ E o lembrete que atravessou a conversa inteira: a dor some antes de a capacidade
 
 Quem faz o quê. Estimar prazo, comunicar prognóstico e decidir alta é do médico, com a fisioterapia. Medir o que falta, em força, amplitude e velocidade, e mostrar isso em número é da fisioterapia com a preparação física. Segurar o calendário e proteger a decisão clínica da pressão externa é de quem coordena. E falar uma versão só, com faixa, critério e data de reavaliação, é obrigação da comissão inteira, porque três versões diferentes da mesma lesão é o que destrói a confiança do atleta mais rápido do que qualquer erro técnico.
 
-Na próxima conversa a gente muda de tecido e vai para o tendão, que tem uma história bem diferente: dói por meses, quase nunca afasta, e foi mal explicado por quarenta anos.
+Na próxima conversa a gente continua no músculo, agora com o que todo mundo pergunta no primeiro dia: o que fazer. Gelo ou não, anti-inflamatório ou não, repouso ou movimento, e como se atravessa o caminho da maca até o jogo.
 
 ---
 

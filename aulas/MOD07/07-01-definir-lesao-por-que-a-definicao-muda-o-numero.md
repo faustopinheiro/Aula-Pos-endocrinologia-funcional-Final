@@ -288,7 +288,7 @@ Visual: o formulário no celular com a curva de seis meses.
 ## Notas de produção (não falado, não vai para o slide)
 
 **Ligações internas.** "Montar o registro no dia a dia" = 7.2 · "por que a lesão acontece" = 7.3 ·
-"programas de prevenção" = 7.12 · "pedir exame sem uma pergunta clara" = 6.10 ·
+"programas de prevenção" = 7.13 · "pedir exame sem uma pergunta clara" = 6.10 ·
 "gestão de carga" = Módulo 9 · leitura crítica geral = 1.9 e 1.10.
 
 **Citações faladas.** Só duas nesta aula: a definição de consenso brasileira (Yamato, Saragiotto

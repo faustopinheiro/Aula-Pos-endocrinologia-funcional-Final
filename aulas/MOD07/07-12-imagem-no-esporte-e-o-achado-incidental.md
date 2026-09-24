@@ -1,4 +1,4 @@
-# Módulo 7 · Aula 7.11 — Imagem no esporte e o achado incidental
+# Módulo 7 · Aula 7.12 — Imagem no esporte e o achado incidental
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
@@ -267,8 +267,8 @@ Visual: o laudo do slide 1 com "o que mudou na sua semana?" escrito à mão emba
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**Ligações internas.** "regras clínicas validadas no tornozelo" = 7.9 · "derrame agudo no joelho" = 7.8 ·
-"fratura de estresse de alto risco" = 7.10 · "critério de função no músculo" = 7.5 · "tendão e carga" = 7.6 e 7.7 ·
+**Ligações internas.** "regras clínicas validadas no tornozelo" = 7.10 · "derrame agudo no joelho" = 7.9 ·
+"fratura de estresse de alto risco" = 7.11 · "critério de função no músculo" = 7.5 e 7.6 · "tendão e carga" = 7.7 e 7.8 ·
 "pedir exame sem pergunta clara" = 6.10 · "o que mudou nas últimas quatro semanas" = 7.3 ·
 leitura crítica de prevalência e valor preditivo = 1.9 e 1.10.
 

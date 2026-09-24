@@ -1,4 +1,4 @@
-# Módulo 7 · Aula 7.9 — Tornozelo e ombro: as duas regiões que a equipe vê primeiro
+# Módulo 7 · Aula 7.10 — Tornozelo e ombro: as duas regiões que a equipe vê primeiro
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

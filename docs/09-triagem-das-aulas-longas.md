@@ -39,7 +39,7 @@ entregariam com enchimento.
 | 4.9 | Composição corporal | |
 | 5.2 | Creatina | A mais estudada — e por isso mesmo, a que mais tende a virar enrolação. |
 | 5.10 | Lista proibida e AUT | |
-| 7.12 | Programas de prevenção | |
+| 7.13 | Programas de prevenção | |
 | 8.3 | Mecanotransdução | |
 | 9.3 | Treino de força por objetivo | Candidata a virar duas (força/hipertrofia · potência). |
 | 9.9 | Índices de carga aguda e crônica | |

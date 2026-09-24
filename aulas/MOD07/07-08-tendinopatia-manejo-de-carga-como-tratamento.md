@@ -1,4 +1,4 @@
-# Módulo 7 · Aula 7.7 — Tendinopatia: manejo de carga como tratamento
+# Módulo 7 · Aula 7.8 — Tendinopatia: manejo de carga como tratamento
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

@@ -1,4 +1,4 @@
-# Módulo 7 · Aula 7.12 — Programas de prevenção: eficácia e falha de adesão
+# Módulo 7 · Aula 7.13 — Programas de prevenção: eficácia e falha de adesão
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
@@ -249,10 +249,10 @@ E a frase que eu queria que ficasse deste módulo inteiro: a gente já sabe o qu
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: a matriz dos três níveis, Decisão, Contribuição e Reconhecimento, aplicada ao módulo inteiro, com as doze aulas ao fundo.*
+*Visual: a matriz dos três níveis, Decisão, Contribuição e Reconhecimento, aplicada ao módulo inteiro, com as treze aulas ao fundo.*
 *Teleprompter: (fecha a aula e fecha o módulo)*
 
-E como esta conversa fecha o módulo, vamos juntar as doze na forma como a equipe realmente trabalha, nos três níveis.
+E como esta conversa fecha o módulo, vamos juntar as treze na forma como a equipe realmente trabalha, nos três níveis.
 
 **Decisão.**
 
@@ -272,13 +272,13 @@ E a comissão e a gestão decidem três coisas que parecem administrativas e que
 
 Aqui está a maior parte do trabalho real, e ela é toda informação que atravessa profissões.
 
-O profissional que atende o atleta antes do treino e registra a queixa de terça-feira que ninguém contou ao médico. O preparador que percebe queda de velocidade ou de potência antes de qualquer dor aparecer. O treinador que aceita gastar vinte minutos do treino técnico e passa a conduzir o programa ele mesmo. O analista ou o auxiliar que vê o atleta mancando no aquecimento e avisa. O nutricionista que identifica perda de peso rápida antes de a fratura de estresse acontecer. O fisioterapeuta que nota que o atleta voltou sem ter recuperado força e diz isso em voz alta, mesmo quando o calendário empurra. E quem estiver mais perto quando alguém apontar com o dedo um ponto da canela que dói mais a cada dia.
+O profissional que atende o atleta antes do treino e registra a queixa de terça-feira que ninguém contou ao médico. O preparador que percebe queda de velocidade ou de potência antes de qualquer dor aparecer. O treinador que aceita gastar vinte minutos do treino técnico e passa a conduzir o programa ele mesmo. O analista ou o auxiliar que vê o atleta mancando no aquecimento e avisa. Quem está no vestiário e segura o anti-inflamatório que alguém quer dar no primeiro dia de uma lesão muscular. O nutricionista que identifica perda de peso rápida antes de a fratura de estresse acontecer. O fisioterapeuta que nota que o atleta voltou sem ter recuperado força e diz isso em voz alta, mesmo quando o calendário empurra. E quem estiver mais perto quando alguém apontar com o dedo um ponto da canela que dói mais a cada dia.
 
 **Reconhecimento.**
 
 E existem sinais que qualquer pessoa da equipe precisa reconhecer e levar adiante, independente de formação.
 
-Dor apontada com a ponta do dedo sobre o osso, que progride ao longo dos dias. Estalo com inchaço nas primeiras horas depois de uma torção de joelho. Dor de virilha em quem corre ou chuta muito. Dor no tendão que é pior nos primeiros passos da manhã e não cede em semanas. Atleta liberado que volta sem ter recuperado força. Atleta com um laudo assustador na mão e nenhuma dor. Entorse de tornozelo tratada como banal pela quarta vez no mesmo ano. Perda de peso somada a sumiço da menstruação. E o atleta que repete que está tudo bem enquanto muda o jeito de correr.
+A fisgada na parte de trás da coxa no meio de um sprint, mesmo quando o atleta quer continuar jogando. Dor apontada com a ponta do dedo sobre o osso, que progride ao longo dos dias. Estalo com inchaço nas primeiras horas depois de uma torção de joelho. Dor de virilha em quem corre ou chuta muito. Dor no tendão que é pior nos primeiros passos da manhã e não cede em semanas. Atleta liberado que volta sem ter recuperado força. Atleta com um laudo assustador na mão e nenhuma dor. Entorse de tornozelo tratada como banal pela quarta vez no mesmo ano. Perda de peso somada a sumiço da menstruação. E o atleta que repete que está tudo bem enquanto muda o jeito de correr.
 
 Esse é o módulo. Ele começou com uma pergunta aparentemente burocrática, o que conta como lesão, e termina com quinze minutos de aquecimento que a maior parte do mundo não faz.
 
@@ -395,20 +395,20 @@ Visual: os quatro números em coluna, fundo escuro.
 
 **Slide 12** — Fecho do módulo, nos três níveis
 · **Decisão**: diagnóstico, imagem, afastamento e alta = **médico** · reabilitação e critérios de passagem = **fisioterapia** · carga de treino e condução do programa = **educador físico e preparador** · energia disponível = **nutricionista com o médico** · medo, prazo e sono = **psicologia** · **definição de lesão, registro protegido e horário garantido = comissão e gestão**
-· **Contribuição**: a queixa de terça que não chegou ao médico · **queda de velocidade antes da dor** · o treinador que cede 20 minutos e conduz · quem vê o atleta mancando no aquecimento · **perda de peso antes da fratura de estresse** · o fisioterapeuta que diz em voz alta que a força não voltou
-· **Reconhecimento**: **o dedo sobre o osso que piora a cada dia** · inchaço nas primeiras horas após torção de joelho · dor de virilha em quem corre e chuta · **tendão pior nos primeiros passos da manhã** · voltar sem força · laudo assustador sem dor · **a quarta entorse do ano** · perda de peso com sumiço da menstruação · quem diz que está tudo bem e muda o jeito de correr
+· **Contribuição**: a queixa de terça que não chegou ao médico · **queda de velocidade antes da dor** · o treinador que cede 20 minutos e conduz · quem vê o atleta mancando no aquecimento · **quem segura o anti-inflamatório do primeiro dia** · **perda de peso antes da fratura de estresse** · o fisioterapeuta que diz em voz alta que a força não voltou
+· **Reconhecimento**: **a fisgada na coxa no meio do sprint** · **o dedo sobre o osso que piora a cada dia** · inchaço nas primeiras horas após torção de joelho · dor de virilha em quem corre e chuta · **tendão pior nos primeiros passos da manhã** · voltar sem força · laudo assustador sem dor · **a quarta entorse do ano** · perda de peso com sumiço da menstruação · quem diz que está tudo bem e muda o jeito de correr
 · **O módulo começou perguntando o que conta como lesão e termina em quinze minutos de aquecimento que o mundo não faz**
 · A seguir: **fisioterapia esportiva e reabilitação** — o tecido sob carga, as fases, os critérios, e decidir o retorno **com** o atleta
-Visual: a matriz dos três níveis sobre as doze aulas ao fundo.
+Visual: a matriz dos três níveis sobre as treze aulas ao fundo.
 
 ---
 
 ## Notas de produção (não falado, não vai para o slide)
 
 **Ligações internas.** "definir o que conta como lesão" = 7.1 · "o registro e os três indicadores" = 7.2 ·
-"o copo que enche" = 7.3 · "excêntrico e posterior de coxa" = 7.4 e 7.5 · "tendão" = 7.6 e 7.7 ·
-"aterrissagem e LCA" = 7.8 · "equilíbrio e recidiva de entorse" = 7.9 · "energia disponível" = 7.10 ·
-"o laudo que rouba a cena" = 7.11 · "gestão de carga com detalhe" = Módulo 9 ·
+"o copo que enche" = 7.3 · "excêntrico e posterior de coxa" = 7.4, 7.5 e 7.6 · "tendão" = 7.7 e 7.8 ·
+"aterrissagem e LCA" = 7.9 · "equilíbrio e recidiva de entorse" = 7.10 · "energia disponível" = 7.11 ·
+"o laudo que rouba a cena" = 7.12 · "gestão de carga com detalhe" = Módulo 9 ·
 "eficácia versus efetividade" = 1.8 e 1.9 · "carga de lesão" = 7.2 · próximo módulo = Módulo 8.
 
 **Citações faladas.** Nenhuma por nome de autor. Os estudos entram pelo desenho e pelo número

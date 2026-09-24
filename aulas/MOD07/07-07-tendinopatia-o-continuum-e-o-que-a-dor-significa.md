@@ -1,4 +1,4 @@
-# Módulo 7 · Aula 7.6 — Tendinopatia: o continuum e o que a dor significa
+# Módulo 7 · Aula 7.7 — Tendinopatia: o continuum e o que a dor significa
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

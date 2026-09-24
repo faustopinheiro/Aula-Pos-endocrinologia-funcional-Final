@@ -1,4 +1,4 @@
-# Módulo 7 · Aula 7.10 — Lesão óssea de estresse e sua raiz energética
+# Módulo 7 · Aula 7.11 — Lesão óssea de estresse e sua raiz energética
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
