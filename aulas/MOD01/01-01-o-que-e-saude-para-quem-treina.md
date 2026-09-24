@@ -1,4 +1,4 @@
-# Módulo 1 · Aula 1.1 — O que é saúde para quem treina
+# Módulo 1 · Aula 1.1 — Saúde e desempenho em quem treina: o conceito de saúde que orienta o curso
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

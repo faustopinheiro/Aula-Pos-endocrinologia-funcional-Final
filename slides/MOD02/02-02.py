@@ -279,7 +279,7 @@ MANTER = ['cena', 'curva', 'saidas', 'relogio', 'criterio', 'decremento', 'agend
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-02-sistema-fosfagenico-e-a-decisao-do-intervalo.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "Pausa é conteúdo", "subtitulo": "O sistema fosfagênico e a decisão do intervalo",
+        "titulo": "Sistema fosfagênico", "subtitulo": "Ressíntese de fosfocreatina e prescrição do intervalo",
         "nota_capa": "Entra pela cena do nadador e do levantador.",
         "secoes": {"recarga": ["A curva da recarga e o experimento da oclusão.", "capa"],
                    "decisao": ["As três saídas e o critério do objeto do treino.", "saidas"],

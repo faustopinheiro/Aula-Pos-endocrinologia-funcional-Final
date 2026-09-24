@@ -347,7 +347,7 @@ MANTER = ['hickson', 'camadas', 'schumann', 'treinados', 'saidas', 'ordem', 'cal
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-09-treino-concorrente-e-o-efeito-interferencia.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "O calendário, não a molécula", "subtitulo": "Treino concorrente e o efeito interferência",
+        "titulo": "Treino concorrente", "subtitulo": "Efeito interferência e organização do treino",
         "nota_capa": "Entra pela pergunta que chega pronta.",
         "secoes": {"origem": ["De onde vem o medo: Hickson e as duas camadas.", "capa"],
                    "evidencia": ["O que a evidência diz hoje, e para quem.", "schumann"],

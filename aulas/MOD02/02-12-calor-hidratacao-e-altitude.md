@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.12 — O ambiente é carga: calor, hidratação e altitude
+# Módulo 2 · Aula 2.12 — Exercício em ambiente adverso: calor, hidratação e altitude
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

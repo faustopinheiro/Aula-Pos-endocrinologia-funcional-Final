@@ -297,7 +297,7 @@ MANTER = ['quebras', 'sustenta', 'cadeia', 'denominador', 'caso', 'sete', 'moeda
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-08-limiares-vo2max-e-leitura-da-ergoespirometria.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "O laudo na mesa", "subtitulo": "Limiares, VO₂máx e leitura da ergoespirometria",
+        "titulo": "Limiares e VO₂máx", "subtitulo": "Interpretação da ergoespirometria",
         "nota_capa": "Entra pela cena do laudo.",
         "secoes": {"limiares": ["Duas quebras, três domínios e o nome errado.", "capa"],
                    "vo2": ["O VO₂máx, a genética, o denominador e a economia.", "cadeia"],

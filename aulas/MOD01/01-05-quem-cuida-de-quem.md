@@ -1,4 +1,4 @@
-# Módulo 1 · Aula 1.5 — Quem cuida de quem: as funções de uma equipe
+# Módulo 1 · Aula 1.5 — A equipe de saúde no esporte: funções e composição em diferentes contextos
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

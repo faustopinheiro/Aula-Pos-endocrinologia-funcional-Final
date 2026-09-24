@@ -193,7 +193,7 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Render em breve, ou adaptar
           "quem": "“A dor muscular não é o problema que a gente está resolvendo. É efeito colateral do que a gente está construindo.”"})
 
 spec = {"arquivo": "aulas/MOD02/02-11-recuperacao-supercompensacao-e-treino-mal-distribuido.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "A moeda e a dívida", "subtitulo": "Recuperação, supercompensação e treino mal distribuído",
+        "titulo": "Recuperação e distribuição da carga", "subtitulo": "Modelos de adaptação ao treino e seus limites",
         "nota_capa": "Entra pelo desenho que todo mundo já viu.",
         "secoes": {"erro": ["A curva de supercompensação e por que ela falha.", "capa"],
                    "modelo": ["As duas curvas, o que explicam e onde quebram.", "duas"],

@@ -1,4 +1,4 @@
-# Módulo 1 · Aula 1.4 — 150 minutos e o que ninguém lê na diretriz
+# Módulo 1 · Aula 1.4 — Diretrizes de atividade física da OMS: leitura crítica das recomendações de 2020
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

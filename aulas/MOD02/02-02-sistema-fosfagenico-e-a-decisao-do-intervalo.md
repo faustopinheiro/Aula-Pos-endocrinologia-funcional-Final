@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.2 — Pausa é conteúdo: o sistema fosfagênico e a decisão do intervalo
+# Módulo 2 · Aula 2.2 — Sistema fosfagênico: ressíntese de fosfocreatina e prescrição do intervalo
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

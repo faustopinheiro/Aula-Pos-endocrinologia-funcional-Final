@@ -1,4 +1,4 @@
-# Módulo 1 · Aula 1.7 — O encaminhamento que o colega usa
+# Módulo 1 · Aula 1.7 — Encaminhamento entre profissionais: estrutura, linguagem e registro
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

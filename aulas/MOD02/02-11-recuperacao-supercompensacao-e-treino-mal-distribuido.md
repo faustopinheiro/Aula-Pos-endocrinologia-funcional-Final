@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.11 — A moeda e a dívida: recuperação, supercompensação e treino mal distribuído
+# Módulo 2 · Aula 2.11 — Recuperação e distribuição da carga: modelos de adaptação ao treino e seus limites
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

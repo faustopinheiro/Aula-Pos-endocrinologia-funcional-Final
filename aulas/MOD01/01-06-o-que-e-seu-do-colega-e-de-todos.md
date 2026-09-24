@@ -1,4 +1,4 @@
-# Módulo 1 · Aula 1.6 — O que é seu, o que é do colega e o que é de todos
+# Módulo 1 · Aula 1.6 — Responsabilidades na equipe multiprofissional: decisão, contribuição e reconhecimento
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

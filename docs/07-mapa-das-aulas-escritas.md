@@ -33,14 +33,14 @@ abertura menos pesada. Três mudanças de estrutura:
 
 | Slot | Aula | Min | Arquitetura | Deck |
 |---|---|---|---|---|
-| 1.1 | O que é saúde para quem treina | 13 | ERRO | [slides](https://claude.ai/artifact/2AVKVcxrxXqMYFZUkoEjnH) |
-| 1.2 | Quando o objetivo e o corpo discordam | 14 | DECISÃO | [slides](https://claude.ai/artifact/4ViKgtc4uvKZ1qQNeXGz8Q) |
-| 1.3 | Exercício é dose: da conversa à prescrição | 13 | NÚMERO | [slides](https://claude.ai/artifact/EytwbMrzjU7MPgqnUGnvJR) |
-| 1.4 | 150 minutos e o que ninguém lê na diretriz | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/AjFXZne76LCoB9BnJa38e9) |
-| 1.5 | Quem cuida de quem: as funções de uma equipe | 12 | ERRO | [slides](https://claude.ai/artifact/5nH9JLGCpjdNcVkeXeKtZs) |
-| 1.6 | O que é seu, o que é do colega e o que é de todos | 15 | DECISÃO | [slides](https://claude.ai/artifact/WQFyGTtDWAKgKrurUqva4q) |
-| 1.7 | O encaminhamento que o colega usa | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/ApRMHJR1s9ZesYQHk4e7Cr) |
-| 1.8 | Como não ser enganado por um estudo | 21 | ERRO | [slides](https://claude.ai/artifact/XyUpyLbciCTcyc5xVnrqwa) |
+| 1.1 | Saúde e desempenho em quem treina | 13 | ERRO | [slides](https://claude.ai/artifact/2AVKVcxrxXqMYFZUkoEjnH) |
+| 1.2 | Objetivo de desempenho e saúde | 14 | DECISÃO | [slides](https://claude.ai/artifact/4ViKgtc4uvKZ1qQNeXGz8Q) |
+| 1.3 | Exercício como dose | 13 | NÚMERO | [slides](https://claude.ai/artifact/EytwbMrzjU7MPgqnUGnvJR) |
+| 1.4 | Diretrizes de atividade física da OMS | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/AjFXZne76LCoB9BnJa38e9) |
+| 1.5 | A equipe de saúde no esporte | 12 | ERRO | [slides](https://claude.ai/artifact/5nH9JLGCpjdNcVkeXeKtZs) |
+| 1.6 | Responsabilidades na equipe multiprofissional | 15 | DECISÃO | [slides](https://claude.ai/artifact/WQFyGTtDWAKgKrurUqva4q) |
+| 1.7 | Encaminhamento entre profissionais | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/ApRMHJR1s9ZesYQHk4e7Cr) |
+| 1.8 | Leitura crítica da literatura científica | 21 | ERRO | [slides](https://claude.ai/artifact/XyUpyLbciCTcyc5xVnrqwa) |
 
 Total: 1 h 47 min (antes: 3 h 16 min em 10 aulas). Um caso clínico no módulo
 (1.6, o homem de 37 anos com depressão e o personal). A 1.8 fecha o módulo com
@@ -66,18 +66,18 @@ no texto falado.
 
 | Slot | Aula | Min | Slides | Arquitetura | Deck |
 |---|---|---|---|---|---|
-| 2.1 | Setenta e cinco segundos | 17 | 8 | NÚMERO | [slides](https://claude.ai/artifact/F5RjLUR53oSM5vJcZmcGQ7) |
-| 2.2 | Pausa é conteúdo | 16 | 9 | DECISÃO | [slides](https://claude.ai/artifact/BGbUNGc7DHYu7fBMxC5jKU) |
-| 2.3 | O acompanhante inocente | 19 | 10 | ERRO | [slides](https://claude.ai/artifact/UgShkL2Ysw5UFKRsq3shY4) |
-| 2.4 | Meio grama por minuto | 23 | 10 | NÚMERO | [slides](https://claude.ai/artifact/487nyfgjxJFjj4G8QY3PKY) |
-| 2.5 | O coração em ordem | 19 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/KmdNKFwpeFZPF9U2m5BxBs) |
-| 2.6 | "Meu pulmão não aguenta" | 15 | 9 | ERRO | [slides](https://claude.ai/artifact/LYmMh6SoJP6jZaVXxrvRDP) |
-| 2.7 | Trinta e cinco dias | 18 | 9 | NÚMERO | [slides](https://claude.ai/artifact/EWXRjppx3U1sdHjx7H1hW7) |
-| 2.8 | O laudo na mesa | 24 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/8zQKvm2BNvWXC8WWFZW1oD) |
-| 2.9 | O calendário, não a molécula | 20 | 11 | DECISÃO | [slides](https://claude.ai/artifact/2xhNJXZXbkbVrRAbEN57F5) |
-| 2.10 | "Cansei" | 15 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/64RyFmeWkcAJGuj8ghsrc7) |
-| 2.11 | A moeda e a dívida | 15 | 9 | ERRO | [slides](https://claude.ai/artifact/LtSDiqA37qmrQNzRcz68QL) |
-| 2.12 | O ambiente é carga | 19 | 10 | DECISÃO | [slides](https://claude.ai/artifact/MLGr7WJCvXZWAi1NoYgiNX) |
+| 2.1 | Bioenergética do exercício | 17 | 8 | NÚMERO | [slides](https://claude.ai/artifact/F5RjLUR53oSM5vJcZmcGQ7) |
+| 2.2 | Sistema fosfagênico | 16 | 9 | DECISÃO | [slides](https://claude.ai/artifact/BGbUNGc7DHYu7fBMxC5jKU) |
+| 2.3 | Glicólise e lactato | 19 | 10 | ERRO | [slides](https://claude.ai/artifact/UgShkL2Ysw5UFKRsq3shY4) |
+| 2.4 | Metabolismo oxidativo | 23 | 10 | NÚMERO | [slides](https://claude.ai/artifact/487nyfgjxJFjj4G8QY3PKY) |
+| 2.5 | Respostas cardiovasculares ao exercício | 19 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/KmdNKFwpeFZPF9U2m5BxBs) |
+| 2.6 | Sistema respiratório no exercício | 15 | 9 | ERRO | [slides](https://claude.ai/artifact/LYmMh6SoJP6jZaVXxrvRDP) |
+| 2.7 | Fisiologia neuromuscular | 18 | 9 | NÚMERO | [slides](https://claude.ai/artifact/EWXRjppx3U1sdHjx7H1hW7) |
+| 2.8 | Limiares e VO₂máx | 24 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/8zQKvm2BNvWXC8WWFZW1oD) |
+| 2.9 | Treino concorrente | 20 | 11 | DECISÃO | [slides](https://claude.ai/artifact/2xhNJXZXbkbVrRAbEN57F5) |
+| 2.10 | Fadiga no exercício | 15 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/64RyFmeWkcAJGuj8ghsrc7) |
+| 2.11 | Recuperação e distribuição da carga | 15 | 9 | ERRO | [slides](https://claude.ai/artifact/LtSDiqA37qmrQNzRcz68QL) |
+| 2.12 | Exercício em ambiente adverso | 19 | 10 | DECISÃO | [slides](https://claude.ai/artifact/MLGr7WJCvXZWAi1NoYgiNX) |
 
 Total: 3 h 40 min em 12 aulas. Um caso clínico no módulo (2.8, o corredor de
 46 anos, dito como caso ilustrativo). A 2.12 fecha o módulo com a camada de

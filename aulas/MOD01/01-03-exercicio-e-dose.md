@@ -1,4 +1,4 @@
-# Módulo 1 · Aula 1.3 — Exercício é dose: da conversa à prescrição
+# Módulo 1 · Aula 1.3 — Exercício como dose: fundamentos da prescrição
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

@@ -219,7 +219,7 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O que fica do módulo", "t
           "quem": "Doze aulas depois: olhar uma planilha, um laudo, um termômetro ou um relato de cansaço e enxergar qual sistema está pagando a conta."})
 
 spec = {"arquivo": "aulas/MOD02/02-12-calor-hidratacao-e-altitude.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "O ambiente é carga", "subtitulo": "Calor, hidratação e altitude",
+        "titulo": "Exercício em ambiente adverso", "subtitulo": "Calor, hidratação e altitude",
         "nota_capa": "Entra pela decisão das oito da noite.",
         "secoes": {"calor": ["O calor como carga e o instrumento certo.", "capa"],
                    "decidir": ["Manter, modificar ou adiar, e quanto beber.", "saidas"],

@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.7 — Trinta e cinco dias: fisiologia neuromuscular, unidade motora e fibras
+# Módulo 2 · Aula 2.7 — Fisiologia neuromuscular: unidade motora, tipos de fibra e adaptações ao treino de força
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

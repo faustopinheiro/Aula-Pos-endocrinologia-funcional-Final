@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.5 — O coração em ordem: respostas cardiovasculares agudas e crônicas
+# Módulo 2 · Aula 2.5 — Respostas cardiovasculares ao exercício: adaptações agudas e crônicas
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

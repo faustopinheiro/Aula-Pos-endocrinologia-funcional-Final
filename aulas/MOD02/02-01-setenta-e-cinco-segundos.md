@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.1 — Setenta e cinco segundos: como o corpo paga a conta de energia
+# Módulo 2 · Aula 2.1 — Bioenergética do exercício: integração dos sistemas de fornecimento de energia
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

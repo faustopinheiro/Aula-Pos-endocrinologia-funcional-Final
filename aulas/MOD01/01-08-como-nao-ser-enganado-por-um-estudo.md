@@ -1,4 +1,4 @@
-# Módulo 1 · Aula 1.8 — Como não ser enganado por um estudo
+# Módulo 1 · Aula 1.8 — Leitura crítica da literatura científica: erros frequentes na interpretação de estudos
 
 **Módulo 1 — Fundamentos das Ciências do Esporte e Trabalho Multiprofissional**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

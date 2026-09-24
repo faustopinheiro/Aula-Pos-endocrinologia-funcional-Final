@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.9 — O calendário, não a molécula: treino concorrente e o efeito interferência
+# Módulo 2 · Aula 2.9 — Treino concorrente: efeito interferência e organização do treino
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

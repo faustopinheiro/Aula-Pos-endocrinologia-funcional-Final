@@ -280,7 +280,7 @@ MANTER = ['numero', 'desenho', 'cruzada', 'tamanho', 'portas', 'iix', 'hipertrof
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-07-fisiologia-neuromuscular-unidade-motora-e-fibras.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "Trinta e cinco dias", "subtitulo": "Fisiologia neuromuscular, unidade motora e fibras",
+        "titulo": "Fisiologia neuromuscular", "subtitulo": "Unidade motora, tipos de fibra e adaptações ao treino de força",
         "nota_capa": "Entra pelo número.",
         "secoes": {"nervo": ["A força que vem do nervo.", "capa"],
                    "unidade": ["A unidade motora e o princípio do tamanho.", "tamanho"],

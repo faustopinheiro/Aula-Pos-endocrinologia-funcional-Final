@@ -320,7 +320,7 @@ MANTER = ['debito', 'territorios', 'equacao', 'deriva', 'cargaalta', 'hipotensao
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-05-respostas-cardiovasculares-agudas-e-cronicas.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "O coração em ordem", "subtitulo": "Respostas cardiovasculares agudas e crônicas",
+        "titulo": "Respostas cardiovasculares ao exercício", "subtitulo": "Adaptações agudas e crônicas",
         "nota_capa": "Entra pela jogadora de handebol.",
         "secoes": {"agudo": ["A resposta aguda em seis etapas.", "capa"],
                    "forca": ["Carga alta e a hipotensão depois do exercício.", "cargaalta"],

@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.4 — Meio grama por minuto: metabolismo oxidativo e uso de substratos
+# Módulo 2 · Aula 2.4 — Metabolismo oxidativo: oxidação de gorduras e carboidratos no exercício
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

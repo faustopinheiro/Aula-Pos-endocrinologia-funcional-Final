@@ -219,7 +219,7 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Minutos a dias, ou semanas 
           "quem": "Sono curto, apneia, pouca energia disponível, ferro, tireoide, medicamentos, infecção, depressão: todos produzem o mesmo relato."})
 
 spec = {"arquivo": "aulas/MOD02/02-10-fadiga-central-e-fadiga-periferica.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "“Cansei”", "subtitulo": "Fadiga central e fadiga periférica",
+        "titulo": "Fadiga no exercício", "subtitulo": "Mecanismos centrais e periféricos",
         "nota_capa": "Entra pela cena do terceiro set.",
         "secoes": {"definir": ["O que é fadiga e as duas distinções.", "capa"],
                    "medir": ["Como separar central de periférico, no laboratório e no campo.", "interpolacao"],

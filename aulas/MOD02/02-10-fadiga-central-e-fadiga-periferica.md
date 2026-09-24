@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.10 — "Cansei": fadiga central e fadiga periférica
+# Módulo 2 · Aula 2.10 — Fadiga no exercício: mecanismos centrais e periféricos
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

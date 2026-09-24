@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.6 — "Meu pulmão não aguenta": o sistema respiratório no exercício
+# Módulo 2 · Aula 2.6 — Sistema respiratório no exercício: limites ventilatórios e diagnóstico diferencial da dispneia
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

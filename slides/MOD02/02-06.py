@@ -214,7 +214,7 @@ MANTER = ['reserva', 'adapta', 'bronco', 'depois', 'diferencas', 'roubo', 'dorde
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-06-sistema-respiratorio-no-exercicio.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "“Meu pulmão não aguenta”", "subtitulo": "O sistema respiratório no exercício",
+        "titulo": "Sistema respiratório no exercício", "subtitulo": "Limites ventilatórios e diagnóstico diferencial da dispneia",
         "nota_capa": "Entra pela frase da borda da piscina.",
         "secoes": {"erro": ["A frase e os fatos que a derrubam.", "capa"],
                    "excecoes": ["Os três quadros que se confundem.", "bronco"],

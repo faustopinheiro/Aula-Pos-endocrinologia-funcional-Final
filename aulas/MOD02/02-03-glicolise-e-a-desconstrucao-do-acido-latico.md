@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.3 — O acompanhante inocente: glicólise e a desconstrução do ácido lático
+# Módulo 2 · Aula 2.3 — Glicólise e lactato: revisão do conceito de ácido lático
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

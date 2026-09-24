@@ -245,7 +245,7 @@ MANTER = ['curva', 'atp', 'reservatorios', 'recarga', 'tanques', 'esforco', 'int
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-01-setenta-e-cinco-segundos.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "Setenta e cinco segundos", "subtitulo": "Como o corpo paga a conta de energia do exercício",
+        "titulo": "Bioenergética do exercício", "subtitulo": "Integração dos sistemas de fornecimento de energia",
         "nota_capa": "Entra pelo número.",
         "secoes": {"mistura": ["A curva dos 75 segundos e a mistura no esporte real.", "capa"],
                    "sistemas": ["ATP, os três reservatórios e o preço da velocidade.", "atp"],

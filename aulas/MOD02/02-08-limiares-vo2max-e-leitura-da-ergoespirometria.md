@@ -1,4 +1,4 @@
-# Módulo 2 · Aula 2.8 — O laudo na mesa: limiares, VO₂máx e leitura da ergoespirometria
+# Módulo 2 · Aula 2.8 — Limiares e VO₂máx: interpretação da ergoespirometria
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde

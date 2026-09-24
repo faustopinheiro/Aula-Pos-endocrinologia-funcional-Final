@@ -316,7 +316,7 @@ MANTER = ['juntos', 'combustivel', 'bioquimica', 'causa', 'lancadeira', 'fosfato
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-03-glicolise-e-a-desconstrucao-do-acido-latico.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "O acompanhante inocente", "subtitulo": "Glicólise e a desconstrução do ácido lático",
+        "titulo": "Glicólise e lactato", "subtitulo": "Revisão do conceito de ácido lático",
         "nota_capa": "Entra pela cena do remador.",
         "secoes": {"erro": ["As três frases e por que o erro convence.", "capa"],
                    "sistema": ["O que a glicólise faz e de onde vem o próton.", "combustivel"],

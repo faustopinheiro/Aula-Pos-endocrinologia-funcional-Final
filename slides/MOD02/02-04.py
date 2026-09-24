@@ -341,7 +341,7 @@ MANTER = ['curva', 'tanque', 'regua', 'litro', 'zona', 'semanas', 'intestino', '
 S = [s for s in S if s["id"] in MANTER]
 
 spec = {"arquivo": "aulas/MOD02/02-04-metabolismo-oxidativo-e-uso-de-substratos.md", "modulo": "Fisiologia do Exercício Aplicada",
-        "titulo": "Meio grama por minuto", "subtitulo": "Metabolismo oxidativo e uso de substratos",
+        "titulo": "Metabolismo oxidativo", "subtitulo": "Oxidação de gorduras e carboidratos no exercício",
         "nota_capa": "Entra pelo número.",
         "secoes": {"numero": ["O pico de gordura, a curva e como se mede.", "capa"],
                    "porque": ["Por que a torneira é estreita e o erro da zona de queima.", "litro"],
