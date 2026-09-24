@@ -1,268 +1,208 @@
-# Módulo 3 · Aula 3.7 — Tireoide e exercício: interpretar sem medicalizar
+# Módulo 3 · Aula 3.7 — Função tireoidiana no praticante de exercício: interpretação laboratorial
 
 **Módulo 3 — Fisiologia Hormonal e Endocrinologia do Exercício**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 19 minutos · 6 slides · Arquitetura: PROCEDIMENTO
+Duração: 15 minutos · 10 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 6]**
-*Visual: um laudo com T3 baixo circulado em vermelho e, logo abaixo, TSH de 1,8 sem nenhuma marcação — e ao lado uma caixa de medicação já aberta.*
+📊 **[SLIDE 1 DE 10]**
+*Visual: um laudo com T3 baixo circulado em vermelho e, logo abaixo, TSH de 1,8 sem marcação nenhuma. Ao lado, uma caixa de remédio já aberta.*
 *Teleprompter: (entra direto, tom firme, sem ironia)*
 
-Este é o eixo que mais recebe prescrição desnecessária na nossa área. E eu não estou falando de charlatanismo — estou falando de **colega sério, olhando um exame de verdade, e concluindo errado.**
+Este é o eixo que mais recebe prescrição desnecessária na nossa área. E não estou falando de charlatanismo. Estou falando de colega sério, olhando um exame de verdade, e concluindo errado.
 
-O motivo é o que a gente vem construindo desde a aula um: **quando falta energia, o T3 cai. Cai de propósito.** E cai, muitas vezes, com o TSH dentro da faixa.
+O motivo é o que a gente vem construindo desde a primeira aula do módulo: quando falta energia, o T3 cai. Cai de propósito. E cai, muitas vezes, com o TSH dentro da faixa.
 
-Aí o paciente chega cansado, com dificuldade de emagrecer, com frio, com intestino lento, com queda de cabelo — e com o exame na mão mostrando T3 baixo. E o quadro clínico bate **perfeitamente** com hipotireoidismo, porque os sintomas são os mesmos.
+A pessoa chega cansada, com dificuldade de emagrecer, com frio, intestino lento, queda de cabelo, e com o exame mostrando T3 baixo. O quadro bate perfeitamente com hipotireoidismo, porque os sintomas são os mesmos. E alguém prescreve.
 
-E aí alguém prescreve.
+E a parte cruel: ela melhora, pelo menos no começo. Hormônio tireoidiano em quem tinha reduzido o próprio de propósito faz a velocidade metabólica subir. Mais disposição, o peso destrava um pouco. E isso confirma a hipótese na cabeça de todo mundo.
 
-E olha a parte cruel: **ele melhora.** Pelo menos no começo.
+Só que não se tratou uma doença. Forçou-se um sistema que estava economizando a gastar num momento em que não havia de onde gastar. A conta aparece depois, em massa magra e em osso.
 
-Você dá hormônio tireoidiano para alguém cujo organismo tinha reduzido o próprio **de propósito**, e a velocidade metabólica sobe. A pessoa sente mais disposição. O peso destrava um pouco.
+E o outro lado, porque esta aula tem dois erros possíveis e o segundo é mais grave. Hipotireoidismo de verdade existe e é comum: mulher acima dos quarenta, tireoidite de Hashimoto, pós-parto, depois de radioiodo ou cirurgia. Essa pessoa precisa de reposição, se beneficia muito, e deixar passar é pior do que tratar a mais.
 
-E isso **confirma a hipótese** na cabeça de todo mundo — do paciente e de quem prescreveu.
-
-Só que o que aconteceu não foi tratar uma doença. Foi **forçar um sistema que estava economizando a gastar num momento em que não havia de onde gastar.** E a conta disso aparece depois, em massa magra e em osso.
-
-Agora eu preciso ser muito claro sobre o outro lado, porque esta aula tem dois erros possíveis e **o segundo é mais grave.**
-
-**Hipotireoidismo de verdade existe, é comum, e a nossa população tem muito.** Mulher acima dos quarenta, tireoidite de Hashimoto, pós-parto, pós-radioiodo, pós-cirurgia. Essa pessoa precisa de reposição, se beneficia muito, e **deixar passar é um erro maior do que tratar a mais.**
-
-Então o objetivo desta aula não é te fazer desconfiar de tireoide. É te dar **o discriminador** — o jeito de olhar o mesmo painel e saber se você está diante de **uma glândula que falhou** ou de **um organismo que economizou.**
+Então o objetivo não é desconfiar de tireoide. É ter o discriminador: olhar o mesmo painel e saber se a glândula falhou ou se o organismo economizou.
 
 ---
 
-📊 **[SLIDE 2 DE 6]**
-*Visual: a tireoide entregando T4 de um lado, os tecidos com as desiodases decidindo o que fazer com ele do outro, e a hipófise desenhada com a própria desiodase, isolada em uma caixa.*
-*Teleprompter: (tom didático, esta é a peça que falta na cabeça da maioria)*
+📊 **[SLIDE 2 DE 10]**
+*Visual: a tireoide entregando T4 de um lado; os tecidos com as desiodases decidindo o que fazer com ele do outro, uma saída para T3 ativo e outra para T3 reverso inativo.*
+*Teleprompter: (passo um: onde a decisão acontece)*
 
-**Passo um do procedimento: entender onde a decisão acontece.** Porque neste eixo ela não acontece na glândula.
+Passo um: entender onde a decisão acontece. Neste eixo, ela não acontece na glândula.
 
-A arquitetura começa igual: hipotálamo libera TRH, hipófise responde com TSH, tireoide produz hormônio, e o hormônio volta e informa os andares de cima.
+A arquitetura começa igual: o hipotálamo libera TRH, a hipófise responde com TSH, a tireoide produz hormônio, e o hormônio volta e informa os andares de cima.
 
-Mas aqui tem uma diferença estrutural em relação a todos os outros eixos, e é dela que sai o resto da aula.
+Mas tem uma diferença de estrutura em relação aos outros eixos. A tireoide produz sobretudo T4, que é quase um pró-hormônio, com pouca atividade própria. Quem faz o trabalho no tecido é o T3. E cerca de oitenta por cento do T3 circulante não sai da tireoide: é feito nos tecidos, a partir do T4, por uma família de enzimas chamadas desiodases.
 
-**A tireoide produz, na maior parte, T4. E o T4 é praticamente um pró-hormônio** — tem pouca atividade própria. Quem faz o trabalho no tecido é o **T3**.
+A tireoide entrega matéria-prima. O tecido decide quanto ativa.
 
-E **a maior parte da conversão de T4 em T3 não acontece na tireoide.** Acontece fora dela, nos tecidos, por uma família de enzimas chamadas **desiodases**.
-
-Presta atenção no que isso significa, porque muda a leitura de exame para sempre: **a tireoide entrega matéria-prima. O tecido decide quanto ativa.**
-
-E as desiodases funcionam em **duas direções**. Umas retiram um iodo de um lugar e produzem T3, que é a forma ativa. Outra retira de outro lugar e produz **T3 reverso** — uma molécula inativa. É um caminho de **desativação**.
-
-Ou seja: existe um interruptor de ativação e um de desativação, **e os dois estão no tecido, não na glândula.**
-
-E agora a peça que explica a aula inteira, e eu quero que você guarde com cuidado.
-
-**A hipófise também converte.** Ela tem a própria desiodase e produz localmente o T3 que ela usa para decidir quanto TSH liberar.
-
-Quer dizer: **a hipófise não enxerga o T3 do seu músculo.** Ela enxerga o T4 que chega nela e o T3 que ela mesma fabrica.
-
-E é por isso que **o TSH pode ficar perfeitamente normal enquanto o tecido periférico está rodando devagar.** O sensor e o efetor estão em compartimentos diferentes.
-
-Isso não é defeito. É o que permite ao organismo reduzir a velocidade na periferia sem desorganizar o eixo inteiro. Mas na prática significa que **TSH normal não é prova de que a ação tecidual está normal** — e essa frase, sozinha, resolve metade das discussões que você vai ter sobre este assunto.
-
-E a função, porque ela explica por que esse ajuste existe: **o T3 é o controlador de velocidade do organismo.** Consumo de oxigênio, termogênese, ritmo cardíaco, motilidade intestinal, velocidade de processamento cognitivo.
-
-E tem uma ligação direta com o módulo passado que eu quero que você guarde: **o T3 participa da regulação da biogênese mitocondrial**, agindo sobre o mesmo coordenador que a gente viu lá — o PGC-1α — e sobre os fatores respiratórios nucleares.
-
-Lembra que o gatilho da biogênese é a demanda energética percebida pela célula? Pois é. **O T3 é a outra alavanca do mesmo mecanismo — a alavanca sistêmica.**
-
-Então junta as duas coisas. Quando o T3 cai, não é só a pessoa sentindo frio e ficando lenta. **É a sinalização de construção de capacidade oxidativa sendo reduzida.**
-
-Por isso esta aula não é sobre tireoide. **É sobre capacidade de adaptar.**
+E as desiodases funcionam em duas direções. Umas tiram um iodo de um lugar e produzem T3, a forma ativa. Outra tira de outro lugar e produz T3 reverso, uma molécula inativa. É uma via de desativação. Existe um interruptor de ligar e um de desligar, e os dois estão no tecido.
 
 ---
 
-📊 **[SLIDE 3 DE 6]**
-*Visual: a balança de energia pendendo para o lado vazio, com o T3 descendo e o T3 reverso subindo, e um limiar desenhado como uma linha que é cruzada.*
-*Teleprompter: (tom de mecanismo, e o dado que dá forma ao fenômeno)*
+📊 **[SLIDE 3 DE 10]**
+*Visual: a hipófise desenhada numa caixa própria, com a sua desiodase, fabricando o T3 que ela mesma usa para decidir o TSH. Fora da caixa, o músculo com T3 baixo. Entre os dois, uma parede.*
+*Teleprompter: (a peça que explica a aula inteira)*
 
-**Passo dois: reconhecer o padrão adaptativo.**
+E agora a peça que explica a aula inteira.
 
-Quando falta energia — e também em doença aguda, em trauma, em internação, em jejum prolongado — o organismo faz duas coisas ao mesmo tempo com as desiodases: **reduz a via que ativa e aumenta a via que desativa.**
+A hipófise também converte. Ela tem a sua própria desiodase e fabrica ali o T3 que usa para decidir quanto TSH liberar. Quer dizer: a hipófise não enxerga o T3 do seu músculo. Enxerga o T4 que chega nela e o T3 que ela mesma faz.
 
-O resultado é um padrão característico: **T3 baixo, T3 reverso alto, T4 livre normal ou no limite inferior, e TSH normal ou até um pouco reduzido.**
+Por isso o TSH pode ficar perfeitamente normal enquanto o tecido periférico roda devagar. O sensor e o efetor estão em compartimentos diferentes.
 
-Isso tem nome na medicina interna há décadas: **síndrome do eutireoidiano doente**, ou **síndrome do T3 baixo**. E o nome é bom, porque já diz o essencial — a tireoide está **eutireoidiana**, quer dizer, funcionando.
+Não é defeito. É o que permite reduzir a velocidade na periferia sem desorganizar o eixo inteiro. Mas na prática significa que TSH normal não prova que a ação no tecido está normal. Essa frase, sozinha, resolve metade das discussões que você vai ter sobre este assunto.
 
-E a lógica é bonita. Se falta combustível, o que um sistema bem projetado faz? **Reduz a velocidade de operação.** Gasta menos. É exatamente o que a sua conta faria.
-
-**Não é falha. É a resposta correta.**
-
-E existe evidência experimental de que isso obedece a **um limiar**, e não a uma variação difusa. Loucks e Heath mostraram, em 1994, que a queda do T3 em mulheres que se exercitavam ocorre **a partir de um limiar de disponibilidade energética** — não é "quanto menos come, menos T3", é uma resposta que **dispara quando a conta cruza uma linha.**
-
-Isso importa muito na prática, porque significa que **existe um ponto a partir do qual o organismo muda de regime** — e é por isso que o mesmo atleta pode passar meses reduzindo comida sem nada acontecer e depois, de repente, apresentar o quadro inteiro.
-
-E tem um detalhe sobre **o que** dispara esse ajuste que é muito relevante para o nosso paciente. Não é só a quantidade total de energia — **a disponibilidade de carboidrato parece pesar de forma específica** nessa conversão. É uma observação antiga na literatura e é consistente: restrição de carboidrato reduz o T3 mais do que a mesma restrição calórica feita de outro jeito.
-
-Eu digo isso com a linguagem que o dado permite, porque a magnitude e a relevância clínica variam entre estudos. **Mas na prática, quando você tem um paciente com T3 baixo e ele cortou carboidrato por conta própria, você já tem uma hipótese muito mais barata do que tireoide.**
+E por que esse ajuste importa tanto em quem treina. O T3 é o controlador de velocidade do organismo: consumo de oxigênio, calor, ritmo cardíaco, intestino, velocidade de raciocínio. E ele é também uma alavanca sistêmica da biogênese mitocondrial, que a gente viu no metabolismo oxidativo ser disparada pela demanda da própria célula. Quando o T3 cai, não é só frio e lentidão. É menos sinal para construir capacidade oxidativa.
 
 ---
 
-📊 **[SLIDE 4 DE 6]**
-*Visual: dois painéis lado a lado — "a glândula falhou", com a seta do TSH para cima, e "o organismo economizou", com TSH normal e T3 baixo.*
-*Teleprompter: (tom de critério, este é o slide que muda conduta)*
+📊 **[SLIDE 4 DE 10]**
+*Visual: a balança de energia pendendo para o lado vazio. O T3 descendo, o T3 reverso subindo, o T4 livre no limite de baixo e o TSH normal. Nome embaixo: síndrome do T3 baixo.*
+*Teleprompter: (passo dois: reconhecer o padrão de economia)*
 
-**Passo três: aplicar o discriminador.** E ele cabe numa frase.
+Passo dois: reconhecer o padrão de economia.
 
-**Olhe a direção do TSH.**
+Quando falta energia, e também em doença aguda, trauma, internação ou jejum prolongado, o organismo faz duas coisas ao mesmo tempo com as desiodases: reduz a via que ativa e aumenta a via que desativa.
 
-**No hipotireoidismo primário, o problema está na glândula.** Ela não entrega, o andar de cima percebe, e **grita mais alto.** Então o **TSH sobe**.
+O resultado é um padrão característico. T3 baixo, T3 reverso alto, T4 livre normal ou no limite de baixo, e TSH normal ou até um pouco reduzido.
 
-TSH alto com T4 livre baixo é hipotireoidismo franco. TSH alto com T4 livre normal é o que se chama de **subclínico**.
+A medicina interna conhece isso há décadas como síndrome do eutireoidiano doente, ou síndrome do T3 baixo. E o nome diz o essencial: a tireoide está eutireoidiana, funcionando.
 
-**Na adaptação ao déficit**, o comando está sendo dado normalmente, a glândula está respondendo normalmente, e o ajuste aconteceu **lá na ponta, no tecido.** Então o **TSH não sobe.** Fica normal, às vezes até mais baixo.
-
-Guarda a frase, porque ela é a aula inteira: **TSH alto acusa a glândula. T3 baixo com TSH normal acusa a conta.**
-
-E o que pedir, então, na ordem certa.
-
-**TSH e T4 livre.** Esses dois resolvem a pergunta "a glândula está falhando?". São baratos e são suficientes para a triagem.
-
-**Anticorpo antitireoperoxidase**, quando há suspeita de tireoidite autoimune — TSH elevado, história familiar, outra doença autoimune, bócio. Ele muda o prognóstico e a expectativa de progressão.
-
-**T3 não é exame de rastreio de hipotireoidismo.** Ele é normal em boa parte dos hipotireoidismos iniciais, porque o organismo prioriza manter o T3 — e ele é **baixo** justamente na situação que não é hipotireoidismo. Pedir T3 para rastrear hipotireoidismo é pedir o exame que mais confunde.
-
-E agora **o T3 reverso**, porque você vai receber esse exame e vai ter que se posicionar.
-
-**Dosar T3 reverso não te ajuda a decidir nada.** E o motivo é técnico e é honesto: ele sobe em **praticamente qualquer** situação de doença, jejum, estresse fisiológico ou restrição — então **ele não distingue causas**. E o valor dele **não tem ponto de corte estabelecido que mude conduta.** Ele confirma o que a anamnese já te disse, e cobra caro por isso.
-
-E eu entendo perfeitamente por que ele é popular. **Ele dá nome e número a uma queixa real de um paciente que estava sendo ignorado.** O problema não é o paciente nem a queixa — é que existe um caminho mais barato e mais informativo para a mesma resposta, e ele se chama **perguntar quanto essa pessoa come e quanto ela treina.**
-
-Uma nota sobre o **subclínico**, porque ele gera muita dúvida e muita prescrição. TSH levemente elevado com T4 livre normal **nem sempre é para tratar.** A decisão depende do valor, da persistência em nova dosagem, da presença de anticorpos, da idade, de sintomas e de contexto — gestação, por exemplo, muda tudo. **É decisão médica individualizada, e não automática pelo número.**
-
-E uma última nota, esta de tratamento, para quem vai receber o paciente já medicado: as diretrizes da Associação Americana de Tireoide, de 2014, concluíram que **não há evidência consistente de superioridade de combinações com T3 sobre a levotiroxina isolada**, e que a levotiroxina permanece o padrão de tratamento. **T3 manipulado não é o padrão de cuidado**, e prescrevê-lo para um quadro adaptativo é somar dois erros.
+Se falta combustível, o que um sistema bem projetado faz? Reduz a velocidade. Gasta menos. Não é falha. É a resposta certa.
 
 ---
 
-📊 **[SLIDE 5 DE 6]**
-*Visual: uma linha do tempo de seis meses — do começo do tratamento até o TSH suprimido, a palpitação e a perda de massa magra — com a queixa original inalterada no fim.*
-*Teleprompter: (tom sério, o custo do erro, sem nomear ninguém)*
+📊 **[SLIDE 5 DE 10]**
+*Visual: à esquerda, Loucks e Heath 1994, mulheres em quatro níveis de disponibilidade de energia por quatro dias, com o T3 caindo de forma abrupta abaixo de um nível, não aos poucos. À direita, Spaulding 1976: jejum total, T3 menos 53% e T3 reverso mais 58%; dieta de 800 kcal sem carboidrato, T3 menos 47%; mesma energia com pelo menos 50 g de carboidrato, sem mudança.*
+*Teleprompter: (dois experimentos que dão forma ao fenômeno)*
 
-Vale ver, em resumo, o que acontece quando o discriminador não é aplicado. Porque **o erro tem um custo que só aparece com o tempo.**
+Dois experimentos dão forma a isso.
 
-Uma corredora de trinta e um anos, seis anos de corrida, cerca de sessenta quilômetros por semana. Procura ajuda por cansaço, queda de desempenho, frio, intestino lento e queda de cabelo.
+Em 1994, Loucks e Heath colocaram mulheres que não treinavam para se exercitar por quatro dias em quatro níveis de disponibilidade de energia. A queda do T3 não foi gradual, do tipo "quanto menos come, menos T3". Apareceu de forma abrupta abaixo de um certo nível. É uma mudança de regime quando a conta cruza uma linha.
 
-Faz exames. **T3 baixo. TSH em um vírgula oito. T4 livre no limite inferior.**
+Isso explica uma cena comum: o atleta que passa meses reduzindo comida sem nada acontecer e, de repente, apresenta o quadro inteiro.
 
-Sai com prescrição de T3 manipulado e com o diagnóstico de "dificuldade de conversão".
+E o segundo, mais antigo, sobre o que dispara o ajuste. Em 1976, Spaulding e colaboradores compararam, em pessoas com obesidade, o jejum total e dietas de oitocentas quilocalorias com quantidades diferentes de carboidrato. No jejum total, o T3 caiu cinquenta e três por cento e o T3 reverso subiu cinquenta e oito. Na dieta de oitocentas calorias sem carboidrato, o T3 caiu quarenta e sete por cento. Com as mesmas oitocentas calorias e pelo menos cinquenta gramas de carboidrato, o T3 não mudou.
 
-**Seis meses depois**: TSH suprimido, palpitação, dormindo pior, dois quilos a menos — **quase todos de massa magra** — e **o cansaço original inalterado.**
-
-Repara em cada peça.
-
-**O TSH de um vírgula oito era a resposta.** Ele estava dizendo, desde o primeiro dia, que a hipófise não estava pedindo mais hormônio. E se a hipófise não pede mais, ou ela está satisfeita com o que chega, ou o comando de cima é que foi reduzido. **Nenhuma dessas duas situações é tireoide doente.**
-
-**Os sintomas dela eram reais** — e eram, palavra por palavra, os sintomas de hipotireoidismo. Isso não é coincidência: **são os mesmos sintomas porque compartilham o mesmo mecanismo final**, que é metabolismo reduzido. A clínica, sozinha, não separa as duas coisas.
-
-**E o que separa é o padrão laboratorial lido na ordem certa, mais a história alimentar** — que, nesse caso, ninguém tinha colhido.
-
-E o custo do erro é o que a linha do tempo mostra: **a conta que estava apertada foi forçada a gastar mais.** O organismo tirou de onde tinha — massa magra — e o problema de fundo continuou rodando. **A melhora inicial que convenceu todo mundo era o começo desse processo, não a solução dele.**
+São estudos pequenos, antigos, e em população que não é a nossa. Mas o recado é consistente: a disponibilidade de carboidrato pesa de forma específica nessa conversão. Na prática, quando alguém tem T3 baixo e cortou carboidrato por conta própria, você já tem uma hipótese muito mais barata do que tireoide.
 
 ---
 
-📊 **[SLIDE 6 DE 6]**
-*Visual: o procedimento em cinco linhas numeradas, com a história alimentar no primeiro degrau, antes de qualquer exame.*
-*Teleprompter: (fecha entregando o roteiro e emenda)*
+📊 **[SLIDE 6 DE 10]**
+*Visual: dois painéis. "A glândula falhou": seta do TSH para cima. "O organismo economizou": TSH normal, T3 baixo. Embaixo, a frase: TSH alto acusa a glândula; T3 baixo com TSH normal acusa a conta.*
+*Teleprompter: (passo três: o discriminador)*
 
-O procedimento inteiro, para levar pronto.
+Passo três: o discriminador. Ele cabe numa frase: olhe a direção do TSH.
 
-**Um — antes do exame, a história.** Quanto essa pessoa come, quanto ela treina, se está tentando emagrecer, há quanto tempo, se cortou carboidrato, quanto peso perdeu e em quanto tempo. **Isso não é preâmbulo. É o exame mais informativo dos dois.**
+No hipotireoidismo primário, o problema está na glândula. Ela não entrega, o andar de cima percebe e grita mais alto. O TSH sobe. TSH alto com T4 livre baixo é hipotireoidismo franco. TSH alto com T4 livre normal é o subclínico.
 
-**Dois — peça TSH e T4 livre.** E anticorpo antitireoperoxidase quando houver suspeita de autoimunidade.
+Na economia por déficit, o comando é dado normalmente, a glândula responde normalmente, e o ajuste acontece na ponta, no tecido. O TSH não sobe. Fica normal, às vezes mais baixo.
 
-**Três — aplique o discriminador. TSH alto acusa a glândula; T3 baixo com TSH normal acusa a conta.**
+TSH alto acusa a glândula. T3 baixo com TSH normal acusa a conta.
 
-**Quatro — se for o padrão adaptativo, a conduta é restaurar energia, não repor hormônio.** Isso significa nutricionista, ajuste de disponibilidade energética e revisão de carga — e reavaliação com o exame repetido depois, e não antes.
+---
 
-**Cinco — se for a glândula, é conduta médica, com levotiroxina, e com a decisão sobre o subclínico tomada caso a caso.**
+📊 **[SLIDE 7 DE 10]**
+*Visual: o que pedir e o que não pedir. Pedir: TSH e T4 livre; anti-TPO quando houver suspeita de autoimunidade. Não pedir para rastrear: T3 e T3 reverso.*
+*Teleprompter: (o que pedir, na ordem certa, e o T3 reverso)*
 
-E a advertência que atravessa os cinco, porque é o erro mais grave dos dois: **não deixe de investigar tireoide.** Este eixo tem doença comum e tratável. Mulher acima dos quarenta com fadiga e ganho de peso merece TSH, e merece que o resultado seja levado a sério quando estiver alto.
+E o que pedir, na ordem certa.
 
-**O que esta aula pede não é ceticismo. É ordem.**
+TSH e T4 livre. Os dois respondem à pergunta "a glândula está falhando?". São baratos e bastam para a triagem. O anticorpo antitireoperoxidase entra quando há suspeita de tireoidite autoimune: TSH alto, história familiar, outra doença autoimune, bócio. Ele muda o prognóstico.
 
-Escopo, e aqui ele é curto. **Pedir, interpretar e tratar é ato médico.**
+T3 não é exame de rastreio de hipotireoidismo. É normal em boa parte dos hipotireoidismos iniciais, porque o organismo prioriza manter o T3, e é baixo justamente na situação que não é hipotireoidismo. É o exame que mais confunde.
 
-E o que é de toda a equipe é, de novo, a informação que o médico não tem: **quem acompanha essa pessoa semanalmente sabe se ela está em déficit, sabe se ela cortou carboidrato, sabe se o volume de treino subiu, e sabe há quanto tempo.** Sem isso, o médico vê um T3 baixo e um TSH normal, e o caminho mais fácil é o errado.
+E o T3 reverso, que vai chegar na sua mesa. Dosá-lo não ajuda a decidir nada. Ele sobe em praticamente qualquer doença, jejum, estresse ou restrição, então não distingue causas, e não tem ponto de corte que mude conduta.
 
-Com isso escrito no encaminhamento, o caminho mais fácil passa a ser o certo.
+Eu entendo por que ele é popular. Ele dá nome e número a uma queixa real de alguém que estava sendo ignorado. O problema não é a pessoa nem a queixa. É que existe um caminho mais barato e mais informativo para a mesma resposta: perguntar quanto essa pessoa come e quanto ela treina.
 
-Na próxima aula a gente junta tudo o que este módulo construiu num só quadro — o espectro do excesso de treinamento, da adaptação ao overreaching e à síndrome — e você vai ver que os cinco eixos aparecem juntos ali, exatamente como a aula um prometeu.
+Duas notas para quem recebe o paciente. O subclínico, TSH um pouco alto com T4 livre normal, nem sempre é para tratar: depende do valor, da repetição, dos anticorpos, da idade, dos sintomas e do contexto, e gestação muda tudo. E, no tratamento, a diretriz da Associação Americana de Tireoide, de 2014, mantém a levotiroxina como padrão e não encontrou vantagem consistente das combinações com T3. T3 manipulado para um quadro de economia soma dois erros.
+
+---
+
+📊 **[SLIDE 8 DE 10]**
+*Visual: a linha do tempo de seis meses do caso ilustrativo. No começo: T3 baixo, TSH 1,8, T4 livre no limite de baixo, sessenta quilômetros por semana. No fim: TSH suprimido, palpitação, sono pior, dois quilos a menos quase todos de massa magra, e o cansaço original igual.*
+*Teleprompter: (o custo do erro, que só aparece com o tempo)*
+
+Vale ver o que acontece quando o discriminador não é aplicado, porque o custo só aparece com o tempo. É um caso ilustrativo, montado com o que aparece no consultório.
+
+Uma corredora de trinta e um anos, seis anos de corrida, cerca de sessenta quilômetros por semana. Procura ajuda por cansaço, queda de desempenho, frio, intestino lento e queda de cabelo. Nos exames: T3 baixo, TSH um vírgula oito, T4 livre no limite de baixo. Sai com T3 manipulado e o diagnóstico de "dificuldade de conversão".
+
+Seis meses depois: TSH suprimido, palpitação, dormindo pior, dois quilos a menos, quase todos de massa magra, e o cansaço original igual.
+
+Repara em cada peça. O TSH de um vírgula oito era a resposta desde o primeiro dia: a hipófise não estava pedindo mais hormônio. Os sintomas eram reais, e eram, palavra por palavra, os do hipotireoidismo, porque compartilham o mesmo mecanismo final, metabolismo reduzido. A clínica sozinha não separa as duas coisas. O que separa é o padrão lido na ordem certa, mais a história alimentar, que ninguém tinha colhido.
+
+E a conta que estava apertada foi forçada a gastar mais. O organismo tirou de onde tinha, massa magra, e o problema de fundo continuou rodando.
+
+---
+
+📊 **[SLIDE 9 DE 10]**
+*Visual: o procedimento em cinco linhas, com a história alimentar no primeiro degrau, antes de qualquer exame.*
+*Teleprompter: (o roteiro inteiro)*
+
+O procedimento inteiro.
+
+Um: antes do exame, a história. Quanto essa pessoa come, quanto treina, se está tentando emagrecer e há quanto tempo, se cortou carboidrato, quanto peso perdeu e em quanto tempo. Não é preâmbulo. É o mais informativo dos dois exames.
+
+Dois: TSH e T4 livre, e anti-TPO quando houver suspeita de autoimunidade.
+
+Três: o discriminador. TSH alto acusa a glândula; T3 baixo com TSH normal acusa a conta.
+
+Quatro: se for o padrão de economia, a conduta é restaurar energia, não repor hormônio. Nutricionista, ajuste da disponibilidade de energia, revisão da carga, e o exame repetido depois, não antes.
+
+Cinco: se for a glândula, é conduta médica, com levotiroxina, e o subclínico decidido caso a caso.
+
+---
+
+📊 **[SLIDE 10 DE 10]**
+*Visual: fundo do módulo. O que não está sendo dito, e quem faz o quê.*
+*Teleprompter: (fecha pela advertência, e emenda)*
+
+E a advertência que atravessa os cinco, porque é o erro mais grave dos dois: não deixe de investigar tireoide. Este eixo tem doença comum e tratável. Mulher acima dos quarenta com fadiga e ganho de peso merece TSH, e merece que o resultado seja levado a sério quando vier alto. O que esta aula pede não é ceticismo. É ordem.
+
+Pedir, interpretar e tratar é ato médico. O que é de toda a equipe é a informação que o médico não tem. Quem acompanha essa pessoa toda semana sabe se ela está em déficit, se cortou carboidrato, se o volume de treino subiu, e há quanto tempo. Sem isso, o médico vê T3 baixo e TSH normal, e o caminho mais fácil é o errado. Com isso escrito no encaminhamento, o caminho mais fácil passa a ser o certo.
+
+Na próxima aula, tudo o que o módulo construiu num só quadro: o espectro do excesso de treinamento, da adaptação ao overreaching e à síndrome. E os cinco eixos aparecem juntos ali, como a primeira aula prometeu.
 
 ---
 
 ## Referências
 
-1. Loucks AB, Heath EM. Induction of low-T3 syndrome in exercising women occurs at a threshold of energy availability. *Am J Physiol.* 1994;266(3 Pt 2):R817-R823. doi:10.1152/ajpregu.1994.266.3.R817
-2. Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the treatment of hypothyroidism: prepared by the American Thyroid Association task force on thyroid hormone replacement. *Thyroid.* 2014;24(12):1670-1751. PMID: 25266247
-3. Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 IOC consensus statement on Relative Energy Deficiency in Sport (REDs). *Br J Sports Med.* 2023;57(17):1073-1097. PMID: 37752011
-4. Areta JL, Taylor HL, Koehler K. Low energy availability: history, definition and evidence of its endocrine, metabolic and physiological effects in prospective studies in females and males. *Eur J Appl Physiol.* 2021;121(1):1-21. PMID: 33095376
+1. Bianco AC, Kim BW. Deiodinases: implications of the local control of thyroid hormone action. *J Clin Invest.* 2006;116(10):2571-2579. doi:10.1172/JCI29812
+2. Loucks AB, Heath EM. Induction of low-T3 syndrome in exercising women occurs at a threshold of energy availability. *Am J Physiol.* 1994;266(3 Pt 2):R817-R823. doi:10.1152/ajpregu.1994.266.3.R817
+3. Spaulding SW, Chopra IJ, Sherwin RS, Lyall SS. Effect of caloric restriction and dietary composition on serum T3 and reverse T3 in man. *J Clin Endocrinol Metab.* 1976;42(1):197-200. doi:10.1210/jcem-42-1-197
+4. Jonklaas J, Bianco AC, Bauer AJ, et al. Guidelines for the treatment of hypothyroidism: prepared by the American Thyroid Association task force on thyroid hormone replacement. *Thyroid.* 2014;24(12):1670-1751. PMID: 25266247
+5. Areta JL, Taylor HL, Koehler K. Low energy availability: history, definition and evidence of its endocrine, metabolic and physiological effects in prospective studies in females and males. *Eur J Appl Physiol.* 2021;121(1):1-21. PMID: 33095376
+6. Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *Br J Sports Med.* 2023;57(17):1073-1097. PMID: 37752011
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — O eixo que mais recebe prescrição desnecessária
-· Quando falta energia, **o T3 cai de propósito** — e frequentemente com **TSH normal**
-· Os sintomas batem **perfeitamente** com hipotireoidismo, porque são os mesmos
-· **E a parte cruel: o paciente melhora no começo** — o que confirma a hipótese errada
-· O que aconteceu não foi tratar doença: foi **forçar a gastar quem estava economizando**
-· **O outro erro é mais grave**: hipotireoidismo real é comum e deixar passar custa mais
-· O objetivo não é desconfiar de tireoide. É ter **o discriminador**
-Visual: laudo com T3 baixo e TSH de 1,8 sem marcação.
+**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de seis blocos longos.
+Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é DECISÃO). A hipófise que converte
+ganhou slide próprio, porque é a peça que explica o TSH normal.
 
-**Slide 2** — A decisão não acontece na glândula
-· A tireoide produz **T4**, que é praticamente **pró-hormônio**. Quem trabalha é o **T3**
-· **A conversão acontece fora da tireoide**, nos tecidos, pelas **desiodases**
-· Dois interruptores no tecido: um **ativa** (T3) e outro **desativa** (T3 reverso)
-· **A hipófise converte localmente** e decide o TSH pelo T3 **que ela mesma fabrica**
-· Logo: **TSH normal não prova que a ação tecidual está normal**
-· O T3 é o **controlador de velocidade** — e participa da **biogênese mitocondrial** via PGC-1α
-· T3 baixo não é só frio e lentidão: **é menos sinalização para construir capacidade oxidativa**
-Visual: a tireoide, as desiodases nos tecidos e a hipófise isolada com a sua própria.
+**Caso clínico.** A corredora de 31 anos é o segundo e último caso do módulo (o primeiro é o
+corretor da 3.4). Fica porque o custo do erro só aparece em seis meses. É dita como caso
+ilustrativo. As aulas 3.8 a 3.12 ficam sem caso.
 
-**Slide 3** — O padrão adaptativo
-· Em restrição, doença, trauma ou jejum: **menos ativação, mais desativação**
-· Padrão: **T3 baixo · T3 reverso alto · T4 livre normal ou limítrofe · TSH normal ou baixo**
-· Nome antigo: **síndrome do eutireoidiano doente** — a tireoide está funcionando
-· **Loucks e Heath, 1994**: a queda do T3 dispara **a partir de um limiar** de disponibilidade energética
-· Por isso o quadro aparece "de repente" depois de meses sem nada acontecer
-· **Restrição de carboidrato pesa de forma específica** nessa conversão
-· T3 baixo em quem cortou carboidrato: hipótese muito mais barata que tireoide
-Visual: a balança, o T3 descendo, o rT3 subindo e a linha do limiar.
+**Entrou.** Spaulding 1976, com os números conferidos (jejum: T3 −53%, T3 reverso +58%; 800 kcal
+sem carboidrato: T3 −47%; 800 kcal com pelo menos 50 g de carboidrato: sem mudança). A fala diz o
+limite: estudo pequeno, antigo, em pessoas com obesidade. Substitui a frase vaga "observação antiga
+na literatura". Bianco e Kim 2006 para os 80% de T3 feitos nos tecidos.
 
-**Slide 4** — O discriminador
-· **TSH alto acusa a glândula. T3 baixo com TSH normal acusa a conta**
-· Franco: TSH alto + T4 livre baixo. **Subclínico**: TSH alto + T4 livre normal
-· **Peça TSH e T4 livre.** Anti-TPO quando houver suspeita de autoimunidade
-· **T3 não é exame de rastreio** — é normal no hipotireoidismo inicial e baixo no que não é hipotireoidismo
-· **T3 reverso não decide nada**: sobe em qualquer doença, jejum ou restrição, e não tem ponto de corte
-· Ele é popular porque **dá nome e número a uma queixa real** — mas a anamnese responde melhor e mais barato
-· **Subclínico não é tratamento automático**: depende do valor, da persistência, de anticorpos, idade, sintomas e gestação
-· **ATA 2014**: sem evidência consistente de superioridade de combinações com T3. **T3 manipulado não é padrão de cuidado**
-Visual: os dois painéis, TSH para cima x TSH normal.
+**Conferido.** Loucks e Heath 1994: 27 mulheres sem treino, quatro dias, quatro níveis de
+disponibilidade de energia (10,8; 19,0; 25,0; 40,4 kcal/kg de massa magra por dia); a síndrome do T3
+baixo apareceu de forma abrupta abaixo de um limiar. A fala não dá o número do limiar.
 
-**Slide 5** — O custo do erro, em seis meses
-· Corredora de 31 anos, 60 km/semana: cansaço, queda de desempenho, frio, intestino lento, queda de cabelo
-· **T3 baixo · TSH 1,8 · T4 livre no limite inferior** → T3 manipulado por "dificuldade de conversão"
-· **Seis meses depois**: TSH suprimido, palpitação, sono pior, 2 kg a menos **quase todos de massa magra** — e a queixa igual
-· **O TSH de 1,8 era a resposta desde o primeiro dia**
-· Os sintomas eram reais, e são os mesmos porque **o mecanismo final é o mesmo**: metabolismo reduzido
-· **A clínica sozinha não separa.** O que separa é o laboratório na ordem certa **mais a história alimentar**
-· A melhora inicial que convenceu todo mundo era **o começo do processo, não a solução**
-Visual: linha do tempo de seis meses com a queixa inalterada no fim.
+**Saíram.** "Bonita" (a lógica da economia), "aula um", "módulo passado", "esta aula não é sobre
+tireoide" e o bloco "Roteiro Gamma".
 
-**Slide 6** — O roteiro em cinco passos
-· **1** A história antes do exame — **ela é o exame mais informativo dos dois**
-· **2** TSH e T4 livre. Anti-TPO quando houver suspeita
-· **3** Aplique o discriminador
-· **4** Padrão adaptativo → **restaurar energia, não repor hormônio**. Reavaliar depois, não antes
-· **5** Glândula → conduta médica, levotiroxina, subclínico caso a caso
-· **Não deixe de investigar tireoide.** Este eixo tem doença comum e tratável
-· **O que esta aula pede não é ceticismo. É ordem**
-· Da equipe: quem convive semanalmente **sabe do déficit, do corte de carboidrato e do aumento de volume**
-· Com isso no encaminhamento, **o caminho mais fácil passa a ser o certo**
-Visual: o procedimento em cinco degraus, a história no primeiro.
+**Citações faladas.** Loucks e Heath (o limiar), Spaulding (o carboidrato).
+
+**Ligações internas.** 80% do T3 nos tecidos = primeira aula do módulo · PGC-1 alfa = aula do
+metabolismo oxidativo · baixa disponibilidade de energia = módulo de nutrição esportiva · excesso de
+treinamento = próxima aula.

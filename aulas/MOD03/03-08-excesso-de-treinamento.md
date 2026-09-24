@@ -1,268 +1,192 @@
-# Módulo 3 · Aula 3.8 — Excesso de treinamento: adaptação, overreaching e síndrome
+# Módulo 3 · Aula 3.8 — Excesso de treinamento: overreaching funcional, não funcional e síndrome do overtraining
 
 **Módulo 3 — Fisiologia Hormonal e Endocrinologia do Exercício**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 23 minutos · 7 slides · Arquitetura: DECISÃO
+Duração: 18 minutos · 11 slides · Arquitetura: DECISÃO
 
 ---
 
-📊 **[SLIDE 1 DE 7]**
-*Visual: uma régua horizontal com três faixas, e embaixo de cada uma o tempo de recuperação — dias a duas semanas, semanas a meses, meses a mais de um ano.*
+📊 **[SLIDE 1 DE 11]**
+*Visual: uma régua horizontal com três faixas: overreaching funcional, não funcional e síndrome. Embaixo de cada uma, o tempo de recuperação: dias, semanas, meses a anos.*
 *Teleprompter: (entra pelo problema de vocabulário)*
 
 "Eu estou em overtraining."
 
-Você vai ouvir essa frase de gente que treina quatro vezes por semana, dorme cinco horas e trabalha doze. E na imensa maioria das vezes ela está errada — **não porque a pessoa esteja bem**, mas porque a palavra está sendo usada para descrever outra coisa.
+Você vai ouvir essa frase de gente que treina quatro vezes por semana, dorme cinco horas e trabalha doze. E quase sempre ela está errada. Não porque a pessoa esteja bem, mas porque a palavra descreve outra coisa.
 
-Esta aula começa consertando o vocabulário, porque aqui **o nome muda a conduta.**
+Esta aula começa consertando o vocabulário, porque aqui o nome muda a conduta.
 
-Existem **três estados distintos**, num espectro contínuo de gravidade. E a diferença entre eles **não é o sintoma. É o tempo que a pessoa leva para voltar ao normal.**
+Existem três estados num espectro de gravidade. E a diferença entre eles não é o sintoma. É o tempo que a pessoa leva para voltar.
 
-**Overreaching funcional.** Aumento deliberado de carga que produz queda temporária de desempenho, seguida de melhora **acima** do ponto de partida quando a recuperação acontece. A volta leva **dias a cerca de duas semanas.**
+Overreaching funcional: aumento deliberado de carga, queda temporária de desempenho, e melhora acima do ponto de partida quando a recuperação acontece. A volta leva dias, raramente semanas.
 
-**Overreaching não funcional.** A mesma queda de desempenho, **sem a melhora subsequente.** A recuperação leva **semanas a meses** — e o que se ganha, no fim, é o tempo perdido.
+Overreaching não funcional: a mesma queda, sem a melhora depois. A recuperação leva semanas, às vezes meses, e o que se ganha no fim é só o tempo perdido.
 
-**Síndrome do overtraining.** Queda de desempenho persistente, com comprometimento sistêmico, que leva **meses — às vezes mais de um ano — para reverter.** E, segundo o consenso da área, é **diagnóstico de exclusão.**
-
-Agora repara no que essas definições implicam, e é a coisa mais importante da aula:
-
-**Os três estados não se distinguem pelo quadro clínico no momento em que a pessoa está na sua frente.** Eles se distinguem pelo tempo de recuperação — **que é uma informação que só existe depois.**
-
-Ou seja: **o diagnóstico é retrospectivo.**
-
-Isso é profundamente incômodo para quem atende, e precisa ser dito com honestidade em vez de escondido atrás de uma lista de sintomas.
-
-O que você tem na consulta é uma pessoa cansada, com desempenho caindo. **O que você não tem é como saber, naquele dia, se ela vai se recuperar em dez dias ou em dez meses.**
-
-E é disso que a decisão desta aula trata. **A boa notícia é que a conduta inicial, felizmente, é bastante parecida nos três.**
+Síndrome do overtraining: queda de desempenho persistente, com comprometimento do organismo inteiro, que leva de vários meses a anos para reverter. E, pelo consenso europeu e americano de 2013, é diagnóstico de exclusão.
 
 ---
 
-📊 **[SLIDE 2 DE 7]**
-*Visual: uma curva de desempenho caindo e depois subindo acima da linha de base, ao lado de outra curva que cai e não sobe.*
-*Teleprompter: (tom de fisiologia, e a ressalva que este curso precisa fazer)*
+📊 **[SLIDE 2 DE 11]**
+*Visual: uma pessoa cansada no presente, e três linhas do futuro saindo dela, uma voltando em dez dias, outra em dez semanas, outra em dez meses. Um ponto de interrogação no presente.*
+*Teleprompter: (a coisa mais importante da aula)*
 
-**Overreaching funcional.** É o mecanismo que faz o treino funcionar, e vale entender bem antes de tratá-lo como problema.
+Agora repara no que essas definições implicam, porque é a coisa mais importante da aula.
 
-A lógica é a do modelo aptidão-fadiga do módulo passado. Uma sobrecarga deliberada produz fadiga que, temporariamente, supera o ganho de aptidão. O desempenho cai. Quando a carga é reduzida, **a fadiga dissipa mais rápido que a aptidão** — e o desempenho emerge acima de onde estava.
+Os três estados não se distinguem pelo quadro no dia em que a pessoa está na sua frente. Distinguem-se pelo tempo de recuperação, que é uma informação que só existe depois.
 
-É o princípio por trás do bloco de choque seguido de descarga, e é o princípio do taper.
+O diagnóstico é retrospectivo.
 
-**Três características definem o overreaching funcional.**
+Isso é incômodo para quem atende, e precisa ser dito com honestidade em vez de escondido atrás de uma lista de sintomas. O que você tem na consulta é uma pessoa cansada, com desempenho caindo. O que você não tem é como saber, naquele dia, se ela volta em dez dias ou em dez meses.
 
-**É planejado.** Alguém decidiu aumentar a carga, sabendo que o desempenho cairia.
-
-**É curto.** A fase de sobrecarga dura de alguns dias a poucas semanas.
-
-**E é seguido de recuperação deliberada.** Sem a descarga, não existe supercompensação — existe só acúmulo.
-
-Agora a parte que este curso precisa dizer e que a literatura de alto rendimento não enfatiza: **overreaching funcional é ferramenta de atleta com margem.**
-
-Ele pressupõe que a pessoa tem reserva para gastar e condições para recuperar — **sono protegido, alimentação adequada, e uma vida que permite reduzir a carga de verdade na semana seguinte.**
-
-O seu paciente que trabalha doze horas e dorme cinco **não tem essa margem.** Nele, a fase de sobrecarga não é seguida de recuperação — **ela é seguida de mais uma semana igual.**
-
-E aí o mesmo estímulo que produziria supercompensação no atleta com margem produz, no atleta real, **o degrau seguinte do espectro.**
-
-Por isso eu praticamente não prescrevo blocos de sobrecarga deliberada para o público deste curso. O ganho marginal é pequeno, o risco é real, e a reserva não comporta.
-
-Existe uma exceção razoável: **o amador com prova importante, condições de vida controláveis e acompanhamento próximo.** Aí sim, um bloco de carga aumentada seguido de descarga bem executada faz sentido.
-
-Fora disso, **a sobrecarga deliberada no atleta real costuma ser um empréstimo que ele não tem como pagar.**
+É disso que a decisão desta aula trata. E a boa notícia vem no fim: a primeira conduta é bem parecida nos três.
 
 ---
 
-📊 **[SLIDE 3 DE 7]**
-*Visual: a folha de critérios com quatro linhas preenchidas e um grande espaço em branco embaixo, onde estariam os exames.*
-*Teleprompter: (tom de rigor, o que realmente existe como critério)*
+📊 **[SLIDE 3 DE 11]**
+*Visual: duas curvas de desempenho. Na primeira, cai com a sobrecarga e sobe acima da linha de base depois da descarga. Na segunda, cai e não sobe, porque a semana seguinte é igual. Esquema, sem valores medidos.*
+*Teleprompter: (o overreaching funcional, e a ressalva que este curso precisa fazer)*
 
-Se não existe marcador, **o que sobra como critério?**
+Primeiro o overreaching funcional, que é o mecanismo que faz o treino funcionar.
 
-Sobra menos do que a gente gostaria — e é importante dizer isso de frente, porque **o vácuo deixado por essa escassez é exatamente onde se instala a venda de painéis.**
+A lógica é a do modelo de aptidão e fadiga, que a gente viu na aula de recuperação. Uma sobrecarga deliberada produz fadiga maior que o ganho de aptidão, e o desempenho cai. Quando a carga é reduzida, a fadiga some mais rápido que a aptidão, e o desempenho aparece acima de onde estava. É o princípio do bloco de choque seguido de descarga, e é o princípio do polimento antes da prova.
 
-O núcleo do critério, no consenso conjunto do Colégio Europeu de Ciências do Esporte e do Colégio Americano de Medicina do Esporte, de 2013, é este:
+Três coisas o definem. É planejado. É curto, de dias a poucas semanas. E é seguido de recuperação deliberada. Sem a descarga, não existe supercompensação. Existe só acúmulo.
 
-**Queda de desempenho inexplicada, que persiste apesar de repouso adequado, acompanhada de sintomas, e com outras causas afastadas.**
+E a parte que este curso precisa dizer: overreaching funcional é ferramenta de atleta com margem. Pressupõe sono protegido, alimentação adequada e uma vida que permite reduzir a carga de verdade na semana seguinte.
 
-Cada palavra ali carrega trabalho.
+Quem trabalha doze horas e dorme cinco não tem essa margem. Nele, a sobrecarga não é seguida de recuperação. É seguida de mais uma semana igual. E o mesmo estímulo que produziria supercompensação no atleta com margem produz, no atleta real, o degrau seguinte do espectro.
 
-**"Queda de desempenho"** significa que existe **uma medida**. Se ninguém mediu nada antes, não há como demonstrar queda — e a maior parte dos pacientes chega sem linha de base. Isso, por si, justifica o painel de monitoramento do módulo passado: ele não serve para prever, **serve para que exista um "antes" quando o "depois" chegar.**
-
-**"Inexplicada"** é a palavra mais pesada da definição. Ela **obriga o diferencial.** E é onde a maior parte dos casos se resolve por outra via.
-
-**"Que persiste apesar de repouso adequado"** é o critério de tempo. E "adequado" precisa ser definido: **carga substancialmente reduzida por semanas**, não um fim de semana sem treino.
-
-**"Acompanhada de sintomas"** — fadiga, distúrbio de sono, humor rebaixado, irritabilidade, perda de apetite, mais infecções.
-
-**E "com outras causas afastadas"**, que é o diagnóstico de exclusão.
-
-Repara no que **não** aparece nessa lista: **nenhum valor de exame. Nenhum hormônio. Nenhuma razão entre dois marcadores.**
-
-E isso não é omissão do consenso. **É o estado do conhecimento.**
-
-Urhausen e Kindermann já tinham colocado isso com franqueza em 2002, num artigo cujo título é uma pergunta — *que ferramentas diagnósticas nós temos?* A resposta deles foi que há **um contraste marcante entre a abundância de publicações sobre o tema e a escassez de instrumentos diagnósticos válidos.**
-
-Vinte e quatro anos depois, isso mudou pouco.
-
-E vale dizer **por que** isso não é preguiça da ciência. Para validar um marcador, seria preciso acompanhar prospectivamente um número grande de atletas, medir **antes** de o quadro instalar, e ter um padrão-ouro para comparar. **O padrão-ouro, como a gente viu, é retrospectivo.** Não há como validar bem um teste contra um desfecho que só se conhece meses depois.
-
-Então, quando alguém te oferecer um painel que "diagnostica overtraining", você agora sabe exatamente o que responder — e **por quê**.
+Por isso eu quase não prescrevo bloco de sobrecarga deliberada para o público deste curso. A exceção razoável é o amador com prova importante, vida controlável e acompanhamento próximo. Fora disso, a sobrecarga deliberada costuma ser um empréstimo que ele não tem como pagar.
 
 ---
 
-📊 **[SLIDE 4 DE 7]**
-*Visual: três instrumentos alinhados — um teste padronizado repetido, uma escala de percepção de esforço e um questionário de humor — e nenhum tubo de sangue.*
-*Teleprompter: (tom prático, o que funciona)*
+📊 **[SLIDE 4 DE 11]**
+*Visual: a definição do consenso em cinco pedaços, cada um com o trabalho que carrega: queda de desempenho, inexplicada, que persiste apesar de repouso adequado, acompanhada de sintomas, outras causas afastadas. Embaixo, um espaço em branco onde estariam os exames.*
+*Teleprompter: (o que realmente existe como critério)*
 
-O que **serve** como evidência de apoio. **Três instrumentos, e nenhum deles é de sangue.**
+Se não existe marcador, o que sobra como critério? Menos do que a gente gostaria, e é importante dizer isso de frente, porque é nesse vazio que se instala a venda de painéis.
 
-**Instrumento um: um teste de desempenho repetido em condições padronizadas.**
+O núcleo do critério, no consenso de 2013, é este: queda de desempenho inexplicada, que persiste apesar de repouso adequado, acompanhada de sintomas, com outras causas afastadas.
 
-Não precisa de laboratório. Pode ser a mesma distância no mesmo percurso, a mesma carga no mesmo exercício, o mesmo teste de campo. **O que importa é a padronização** — mesmo horário, mesmo estado alimentado, mesmo equipamento, mesma preparação. E lembrando do erro típico de medida: uma diferença pequena pode ser ruído.
+Cada palavra carrega trabalho. "Queda de desempenho" pressupõe uma medida. Se ninguém mediu nada antes, não há como mostrar queda, e a maior parte das pessoas chega sem linha de base. O monitoramento não serve para prever. Serve para que exista um "antes" quando o "depois" chegar.
 
-Existe uma variação mais sofisticada descrita no consenso, com **dois testes máximos no mesmo dia**, separados por algumas horas. A lógica é elegante: **o atleta em má adaptação mostra prejuízo desproporcional no segundo teste**, revelando uma incapacidade de recuperar que o teste único não captura.
+"Inexplicada" é a palavra mais pesada. Ela obriga o diferencial, e é onde a maior parte dos casos se resolve por outra via.
 
-Na prática do atleta real isso raramente é factível — mas **o princípio é aproveitável em versão simples**: como ele responde a dois estímulos próximos? A sessão de sábado, depois da de sexta, rende ou desmorona?
+"Que persiste apesar de repouso adequado" é o critério de tempo, e "adequado" quer dizer carga bem reduzida por semanas, não um fim de semana sem treino.
 
-**Instrumento dois: percepção de esforço para carga fixa.**
+"Acompanhada de sintomas": fadiga, sono ruim, humor baixo, irritabilidade, apetite menor, mais infecções.
 
-Esta é, na minha opinião, a ferramenta mais subestimada do assunto. **A mesma carga, o mesmo ritmo — e a percepção de esforço subiu de forma consistente por semanas.**
+E "outras causas afastadas", que é a exclusão.
 
-É barato, é sensível, e não exige nada além de perguntar e anotar.
-
-**Instrumento três: instrumentos validados de humor e de recuperação.**
-
-O perfil de estados de humor e as escalas de bem-estar capturam alterações que costumam **preceder** a queda de desempenho — sobretudo aumento de fadiga e queda de vigor.
-
-E existe um quarto item, que não é instrumento e que vale mais que os três: **o histórico de carga escrito.**
-
-Sem saber o que a pessoa fez nos últimos meses, você não tem como avaliar se a carga era plausível como causa. E — isto é importante — **às vezes a carga não mudou. Mudou a vida.**
-
-E agora o dado que justifica confiar nesses instrumentos, porque ele incomoda muita gente.
-
-**Saw, Main e Gastin publicaram em 2016, no British Journal of Sports Medicine, uma revisão sistemática com um título que é quase uma provocação**: as medidas subjetivas autorrelatadas **superam** as medidas objetivas comumente usadas no monitoramento da resposta ao treino. Cinquenta e seis estudos originais, com medidas subjetivas e objetivas colhidas em paralelo.
-
-O achado: **as medidas subjetivas responderam à carga de treino de forma mais sensível e mais consistente do que as objetivas habituais.**
-
-Bem-estar autorrelatado, qualidade de sono percebida, dor muscular, estresse e humor se alteravam com a carga **de maneira que frequência cardíaca de repouso, marcadores bioquímicos e outras medidas ditas objetivas não capturavam.**
-
-Para o consultório isso significa uma coisa só: **a pergunta bem feita é o melhor instrumento que você tem.** Mais sensível que o exame, mais precoce que o teste de desempenho, e custa nada.
-
-**O problema não é que falte instrumento. É que o instrumento que funciona não parece instrumento.**
+Repara no que não aparece: nenhum valor de exame, nenhum hormônio, nenhuma razão entre dois marcadores. Não é omissão. É o estado do conhecimento.
 
 ---
 
-📊 **[SLIDE 5 DE 7]**
-*Visual: uma escada de sete degraus, do sinal mais precoce embaixo à queda de desempenho no topo.*
-*Teleprompter: (tom de ordem, o que muda antes)*
+📊 **[SLIDE 5 DE 11]**
+*Visual: a pergunta de Urhausen e Kindermann, 2002, "que ferramentas diagnósticas nós temos?", e a resposta: muitas publicações, poucos instrumentos válidos. Ao lado, o porquê: o padrão-ouro é retrospectivo.*
+*Teleprompter: (por que não existe o exame)*
 
-E aqui a gente esbarra num impasse que precisa ser resolvido.
+Urhausen e Kindermann colocaram isso com franqueza em 2002, num artigo cujo título é uma pergunta: que ferramentas diagnósticas nós temos? A resposta foi um contraste entre a abundância de publicações sobre o tema e a escassez de instrumentos válidos. Mais de vinte anos depois, mudou pouco.
 
-O diagnóstico é retrospectivo. O critério central é queda de desempenho. **Logo: quando o desempenho cai, você já está atrasado.**
+E não é preguiça da ciência. Para validar um marcador, seria preciso acompanhar muitos atletas, medir antes de o quadro aparecer e comparar com um padrão-ouro. Só que o padrão-ouro, como a gente acabou de ver, é retrospectivo. Não há como validar bem um teste contra um desfecho que só se conhece meses depois.
 
-A queda de desempenho é um **evento tardio**. Ela acontece **depois** que a má adaptação se instalou — semanas, às vezes meses, depois de as primeiras coisas terem mudado.
+O consenso descreve um protocolo de pesquisa com dois testes máximos no mesmo dia, separados por quatro horas, olhando a resposta hormonal ao segundo esforço. É interessante como fisiologia, e não é ferramenta de consultório.
 
-Então: **o que muda antes?**
-
-A ordem aproximada, que não é rígida e que se repete o suficiente para ser útil.
-
-**Primeiro: a percepção de esforço para carga conhecida sobe.** A mesma corrida, o mesmo peso — e pesa mais.
-
-Este é o sinal mais precoce e o mais barato de todos. E ele aparece antes de o desempenho cair por um motivo específico: **no começo, a pessoa compensa com esforço.** Ela ainda entrega o mesmo resultado — **pagando mais caro por ele.**
-
-**Segundo: o sono muda.** Geralmente para pior, e frequentemente com um padrão específico: dificuldade de iniciar o sono, ou despertar na madrugada, **em quem dormia bem.**
-
-**Terceiro: humor e disposição caem.** Aumento de fadiga percebida, queda de vigor, irritabilidade. Na literatura de perfil de humor, esse é o achado mais reprodutível: **a subescala de vigor cai e a de fadiga sobe antes de qualquer outra coisa medível.**
-
-**Quarto: a motivação para treinar cai.** A pessoa continua indo. **Ela só não quer mais ir.**
-
-Esse sinal é subestimado e é muito informativo, porque **quem treina por prazer não perde o prazer sem motivo.**
-
-**Quinto: dores musculares e articulares difusas**, que persistem mais que o habitual, sem um evento que as explique.
-
-**Sexto: infecções respiratórias mais frequentes.**
-
-**Sétimo, e tardio: a queda de desempenho.**
-
-Duas observações sobre essa escada, e as duas mudam conduta.
-
-**Uma: os seis primeiros degraus são todos coletáveis com perguntas.** Nenhum exige equipamento. **E os seis chegam antes do sétimo.**
-
-**Duas: os seis primeiros são inespecíficos.** Eles aparecem igualmente na depressão, na apneia, na anemia, na baixa disponibilidade energética e numa fase ruim de vida.
-
-Então **reconhecer o sinal precoce não dispensa o diferencial.** Ele apenas **antecipa o momento de fazê-lo** — que é exatamente o que a gente quer.
+Então, quando alguém oferecer um painel que "diagnostica overtraining", você sabe o que responder, e por quê. A relação testosterona-cortisol, que a gente já discutiu na aula da testosterona, entra aqui também: reconhecer quando aparece, não usar para decidir.
 
 ---
 
-📊 **[SLIDE 6 DE 7]**
-*Visual: três caminhos saindo do mesmo paciente — manter a carga, reduzir e reavaliar, investigar antes de mexer — com o custo de cada erro escrito no fim.*
-*Teleprompter: (tom de encruzilhada, percorre as três saídas)*
+📊 **[SLIDE 6 DE 11]**
+*Visual: três instrumentos alinhados, sem tubo de sangue: um teste padronizado repetido, a percepção de esforço para carga fixa e um questionário de humor e recuperação. Embaixo, o quarto item: o histórico de carga escrito.*
+*Teleprompter: (o que funciona)*
 
-Com tudo isso na mesa, a decisão. Paciente cansado, desempenho caindo, sem diagnóstico possível hoje. **Três saídas.**
+O que serve como apoio: três instrumentos, e nenhum de sangue.
 
-**Saída A — manter ou aumentar a carga, tratando como overreaching funcional.**
+Um teste de desempenho repetido em condições padronizadas. Não precisa de laboratório. A mesma distância no mesmo percurso, a mesma carga no mesmo exercício. O que importa é padronizar horário, alimentação, equipamento e preparação, e lembrar que diferença pequena pode ser ruído de medida. O princípio dos dois esforços próximos também se aproveita em versão simples: a sessão de sábado, depois da de sexta, rende ou desmorona?
 
-O argumento existe: se for funcional, a supercompensação vem, e reduzir carga agora desperdiçaria o bloco.
+A percepção de esforço para carga fixa. Na minha opinião, a ferramenta mais subestimada do assunto. A mesma carga, o mesmo ritmo, e a percepção sobe de forma consistente por semanas. É barata, é sensível, e só exige perguntar e anotar.
 
-Onde isso vai dar quando a leitura está errada: **você empurra alguém que já não recupera para o degrau seguinte do espectro.** E o degrau seguinte custa semanas a meses; o seguinte a ele custa mais de um ano.
+E os questionários validados de humor e de recuperação, que capturam mudanças que costumam vir antes da queda de desempenho, sobretudo mais fadiga e menos vigor.
 
-**Esta saída só é defensável quando três coisas são verdadeiras ao mesmo tempo**: a sobrecarga foi planejada, é curta, e existe descarga real agendada — e a pessoa tem margem de vida para cumpri-la. **Se qualquer uma faltar, a saída A está fora.**
-
-**Saída B — reduzir a carga e reavaliar.**
-
-É o "teste de descarga", e ele é, na prática, o instrumento diagnóstico mais barato que existe neste assunto.
-
-Carga substancialmente reduzida — não zerada, e não um fim de semana —, mantendo frequência e alguma intensidade curta para não desacostumar o corpo, **por duas a três semanas**, com os marcadores anotados **antes**.
-
-Onde isso vai dar: se melhorou, você aprendeu que era fadiga acumulada, e aprendeu de graça. Se **não** melhorou, você eliminou a hipótese mais comum e ganhou uma informação forte para seguir investigando.
-
-E o aviso que faz esse teste funcionar, e que já apareceu no módulo passado: **avise que os primeiros dias vão ser ruins.** Quem tira carga de alguém cronicamente carregado vê a pessoa piorar antes de melhorar. Sem aviso, ela abandona no terceiro dia **concluindo que precisava treinar mais.**
-
-**Saída C — investigar como doença antes de mexer na carga.**
-
-Obrigatória quando existem sinais que não pertencem a este capítulo: **perda de peso não intencional, febre, sudorese noturna, linfonodomegalia, dispneia desproporcional, dor torácica, palpitação com pré-síncope, ideação suicida, ou fadiga que já dura muitos meses sem relação com nenhuma mudança de carga.**
-
-Onde isso vai dar quando é pulada: meses de "reduza o treino" numa pessoa com anemia, apneia, hipotireoidismo, depressão ou coisa pior.
-
-E agora **o critério**, que é o que eu quero que sobre desta aula: **a decisão não é escolher uma das três. É reconhecer que B e C são feitas em paralelo, e que A precisa ser justificada.**
-
-Você reduz a carga **e** investiga ao mesmo tempo. Você não precisa do diagnóstico para começar a tratar, porque **a primeira conduta é a mesma nos três estados** — e porque reduzir carga não atrapalha nenhuma investigação.
-
-E defina, **antes**, o que vai reavaliar em quatro a seis semanas: percepção de esforço na mesma sessão, qualidade de sono, vigor e motivação numa escala simples, e um teste de desempenho padronizado. **Anotado, com data.** Senão a reavaliação vira conversa sobre sensação — e sensação é dominada pela última semana.
+E um quarto item, que não é instrumento e vale mais que os três: o histórico de carga escrito. Sem saber o que a pessoa fez nos últimos meses, não dá para avaliar se a carga era plausível como causa. E às vezes a carga não mudou. Mudou a vida.
 
 ---
 
-📊 **[SLIDE 7 DE 7]**
-*Visual: os cinco eixos do módulo desenhados em volta de um mesmo paciente, todos levemente deslocados na mesma direção.*
-*Teleprompter: (fecha amarrando o módulo e emenda)*
+📊 **[SLIDE 7 DE 11]**
+*Visual: Saw, Main e Gastin 2016. Duas colunas lado a lado: as medidas subjetivas (bem-estar, sono percebido, dor muscular, estresse, humor) respondendo à carga; as objetivas habituais (frequência cardíaca de repouso, marcadores de sangue) respondendo menos.*
+*Teleprompter: (o dado que justifica confiar na pergunta)*
 
-Fechando, e amarrando este módulo inteiro.
+E o dado que justifica confiar nesses instrumentos, porque ele incomoda muita gente.
 
-Olha o que a gente descreveu ao longo das últimas sete aulas, aparecendo tudo **na mesma pessoa** quando a conta estoura.
+Em 2016, Saw, Main e Gastin publicaram uma revisão sistemática com um título que é quase uma provocação: as medidas subjetivas, relatadas pelo próprio atleta, superam as medidas objetivas usadas com frequência no monitoramento. Nos estudos que colheram as duas em paralelo, bem-estar, sono percebido, dor muscular, estresse e humor responderam à carga de forma mais sensível e mais consistente do que frequência cardíaca de repouso, marcadores de sangue e outras medidas ditas objetivas.
 
-**O eixo do cortisol** acionado repetidamente sem voltar ao basal. **O eixo gonadal** suprimido — testosterona baixa com LH baixo no homem, ciclo alterado na mulher. **O eixo tireoidiano** em economia — T3 baixo com TSH normal. **O eixo de GH** com IGF-1 baixo por resistência hepática e por sono fragmentado. **E a sinalização periférica** informando escassez ao centro.
+Para o consultório, isso quer dizer uma coisa: a pergunta bem feita é o melhor instrumento que você tem. Mais sensível que o exame, mais precoce que o teste de desempenho, e custa nada.
 
-**Cinco eixos, levemente deslocados na mesma direção.**
+O problema não é que falte instrumento. É que o instrumento que funciona não parece instrumento.
 
-Lembra do discriminador da aula um? **Um eixo alterado sozinho sugere doença primária. Vários levemente deslocados na mesma direção sugerem contexto.**
+---
 
-Pois é exatamente isto que você vê aqui. **Não são cinco disfunções. É uma decisão, executada em cinco lugares** — e a decisão é reduzir o investimento porque o caixa não comporta.
+📊 **[SLIDE 8 DE 11]**
+*Visual: uma escada de sete degraus, do sinal mais precoce embaixo à queda de desempenho no topo: esforço para carga conhecida, sono, humor e vigor, motivação, dores difusas, infecções, desempenho.*
+*Teleprompter: (o que muda antes da queda)*
 
-E é por isso que a frase correta quase nunca é "a carga estava alta demais". **A frase correta é "a carga estava alta demais para o que essa pessoa podia sustentar naquele período."**
+Aqui existe um impasse. O critério central é queda de desempenho. Então, quando o desempenho cai, você já está atrasado. Ele é um evento tardio, que acontece semanas, às vezes meses, depois de as primeiras coisas terem mudado.
 
-Isso não é preciosismo de linguagem. **Muda a conduta**: se você só reduz a carga e não toca no que rebaixou a reserva — sono, comida, trabalho, vida —, **o problema volta assim que a carga voltar.**
+O que muda antes? Uma ordem aproximada, que eu uso na prática. Não é uma sequência medida em estudo, e não é rígida, mas se repete o bastante para ser útil.
 
-Escopo, em três linhas.
+Primeiro, a percepção de esforço para carga conhecida sobe. A mesma corrida, o mesmo peso, e pesa mais. Aparece antes da queda porque, no começo, a pessoa compensa com esforço: entrega o mesmo resultado, pagando mais caro.
 
-**Investigar as causas médicas, pedir e interpretar exames é ato médico**, e a lista de bandeiras da saída C é o gatilho do encaminhamento.
+Depois, o sono muda, geralmente com dificuldade de começar ou despertar de madrugada em quem dormia bem. Humor e disposição caem: mais fadiga, menos vigor, irritação. A motivação cai: a pessoa continua indo, só não quer mais ir. E quem treina por prazer não perde o prazer sem motivo. Aparecem dores difusas que duram mais que o normal, e mais infecções respiratórias.
 
-**Ajustar carga, montar a descarga e conduzir o retorno progressivo é do preparador físico e do educador físico** — e é conduta de primeira linha, não de última.
+Por último, a queda de desempenho.
 
-**E reconhecer os seis primeiros degraus da escada é de todo mundo** — inclusive, e talvez sobretudo, de quem vê aquela pessoa toda semana e não pede exame nenhum.
+Duas observações, e as duas mudam conduta. Os seis primeiros degraus se colhem com perguntas, sem equipamento, e chegam antes do sétimo. E os seis são inespecíficos: aparecem igual na depressão, na apneia, na anemia, na baixa disponibilidade de energia e numa fase ruim da vida. Reconhecer o sinal precoce não dispensa o diferencial. Só antecipa o momento de fazê-lo.
 
-Porque é ali, entre o primeiro degrau e o sétimo, que existe a janela inteira em que isso ainda é barato de resolver.
+---
 
-Na próxima aula a gente olha para o lado oposto da moeda, que quase nunca é ensinado: **o destreino.** O que se perde, em que ordem, em quanto tempo — e por que a resposta muda completamente a conversa com quem vai ficar afastado.
+📊 **[SLIDE 9 DE 11]**
+*Visual: três caminhos saindo da mesma pessoa cansada: manter a carga, reduzir e reavaliar, investigar antes de mexer. No fim de cada um, o custo do erro.*
+*Teleprompter: (a encruzilhada, percorrida até o fim)*
+
+Com tudo isso na mesa, a decisão. Pessoa cansada, desempenho caindo, sem diagnóstico possível hoje. Três saídas.
+
+Saída A: manter ou aumentar a carga, tratando como overreaching funcional. O argumento existe: se for funcional, a supercompensação vem, e reduzir agora desperdiçaria o bloco. Quando a leitura está errada, você empurra quem já não recupera para o degrau seguinte, que custa semanas a meses, e o seguinte a ele custa mais. Essa saída só se defende quando três coisas valem ao mesmo tempo: a sobrecarga foi planejada, é curta, e existe descarga real agendada que a vida dessa pessoa permite cumprir. Faltou uma, está fora.
+
+Saída B: reduzir a carga e reavaliar. É o teste de descarga, o instrumento diagnóstico mais barato deste assunto. Carga bem reduzida, não zerada e não por um fim de semana, mantendo frequência e alguma intensidade curta, por duas a três semanas, com os marcadores anotados antes. Se melhorou, era fadiga acumulada, e você aprendeu de graça. Se não melhorou, você eliminou a hipótese mais comum e ganhou informação forte para seguir investigando.
+
+E o aviso que faz esse teste funcionar: os primeiros dias vão ser ruins. Quem tira carga de alguém cronicamente carregado vê a pessoa piorar antes de melhorar. Sem aviso, ela abandona no terceiro dia, concluindo que precisava treinar mais.
+
+---
+
+📊 **[SLIDE 10 DE 11]**
+*Visual: a saída C com as bandeiras vermelhas listadas. Embaixo, o critério: B e C em paralelo; A precisa ser justificada. E os quatro marcadores para reavaliar em quatro a seis semanas, com data.*
+*Teleprompter: (a terceira saída e o critério da decisão)*
+
+Saída C: investigar como doença antes de mexer na carga. É obrigatória quando aparecem sinais que não pertencem a este capítulo: perda de peso sem intenção, febre, suor noturno, gânglios aumentados, falta de ar desproporcional, dor no peito, palpitação com sensação de desmaio, ideação suicida, ou fadiga de muitos meses sem relação com mudança nenhuma de carga. Pulada, ela produz meses de "reduza o treino" em quem tem anemia, apneia, hipotireoidismo, depressão, ou coisa pior.
+
+E o critério, que é o que eu quero que sobre desta aula. A decisão não é escolher uma das três. É reconhecer que B e C se fazem em paralelo, e que A precisa ser justificada.
+
+Você reduz a carga e investiga ao mesmo tempo. Não precisa do diagnóstico para começar, porque a primeira conduta é a mesma nos três estados, e reduzir carga não atrapalha investigação nenhuma.
+
+E defina antes o que vai reavaliar em quatro a seis semanas: percepção de esforço na mesma sessão, qualidade do sono, vigor e motivação numa escala simples, e um teste padronizado. Com data. Senão a reavaliação vira conversa sobre sensação, e sensação é dominada pela última semana.
+
+---
+
+📊 **[SLIDE 11 DE 11]**
+*Visual: fundo do módulo. Os cinco eixos desenhados em volta da mesma pessoa, todos levemente deslocados na mesma direção. Embaixo, quem faz o quê.*
+*Teleprompter: (fecha amarrando o módulo, e emenda)*
+
+Fechando, e amarrando o módulo até aqui.
+
+Olha o que as últimas aulas descreveram, aparecendo na mesma pessoa quando a conta estoura. O eixo do cortisol acionado sem voltar ao basal. O gonadal suprimido: testosterona baixa com LH baixo no homem, ciclo alterado na mulher. O tireoidiano em economia: T3 baixo com TSH normal. O do GH com IGF-1 baixo, por resistência do fígado e sono picotado. E a sinalização periférica avisando escassez ao centro.
+
+Cinco eixos levemente deslocados na mesma direção. É o discriminador da primeira aula do módulo: um eixo sozinho sugere doença; vários na mesma direção sugerem contexto. Não são cinco disfunções. É uma decisão executada em cinco lugares: reduzir o investimento porque o caixa não comporta.
+
+Por isso a frase certa quase nunca é "a carga estava alta demais". É "a carga estava alta demais para o que essa pessoa podia sustentar naquele período". Isso muda a conduta: se você só reduz a carga e não mexe no que rebaixou a reserva, sono, comida, trabalho, vida, o problema volta assim que a carga voltar.
+
+Quem faz o quê. Investigar causas médicas e pedir exames é do médico, e as bandeiras da saída C são o gatilho do encaminhamento. Ajustar carga, montar a descarga e conduzir o retorno é do preparador físico e do educador físico, e é conduta de primeira linha, não de última. E reconhecer os seis primeiros degraus da escada é de todo mundo, sobretudo de quem vê aquela pessoa toda semana. É ali, entre o primeiro degrau e o sétimo, que está a janela em que isso ainda é barato de resolver.
+
+Na próxima aula, o lado oposto da moeda, que quase nunca se ensina: o destreino. O que se perde, em que ordem e em quanto tempo.
 
 ---
 
@@ -272,85 +196,35 @@ Na próxima aula a gente olha para o lado oposto da moeda, que quase nunca é en
 2. Urhausen A, Kindermann W. Diagnosis of overtraining: what tools do we have? *Sports Med.* 2002;32(2):95-102. PMID: 11817995
 3. Saw AE, Main LC, Gastin PB. Monitoring the athlete training response: subjective self-reported measures trump commonly used objective measures: a systematic review. *Br J Sports Med.* 2016;50(5):281-291. PMID: 26423706
 4. Urhausen A, Gabriel H, Kindermann W. Blood hormones as markers of training stress and overtraining. *Sports Med.* 1995;20(4):251-276. PMID: 8584849
-5. Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 IOC consensus statement on Relative Energy Deficiency in Sport (REDs). *Br J Sports Med.* 2023;57(17):1073-1097. PMID: 37752011
-6. Foster C. Monitoring training in athletes with reference to overtraining syndrome. *Med Sci Sports Exerc.* 1998;30(7):1164-1168. doi:10.1097/00005768-199807000-00023
+5. Foster C. Monitoring training in athletes with reference to overtraining syndrome. *Med Sci Sports Exerc.* 1998;30(7):1164-1168. doi:10.1097/00005768-199807000-00023
+6. Mountjoy M, Ackerman KE, Bailey DM, et al. 2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs). *Br J Sports Med.* 2023;57(17):1073-1097. PMID: 37752011
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — Três estados, e o que os separa
-· **Overreaching funcional**: queda temporária **seguida de melhora**. Volta em **dias a 2 semanas**
-· **Overreaching não funcional**: a mesma queda **sem a melhora**. **Semanas a meses**
-· **Síndrome do overtraining**: queda persistente e sistêmica. **Meses a mais de um ano**. **Diagnóstico de exclusão**
-· **Eles não se distinguem pelo quadro clínico de hoje — se distinguem pelo tempo de recuperação**
-· Logo: **o diagnóstico é retrospectivo**
-· A boa notícia: **a conduta inicial é parecida nos três**
-Visual: a régua com as três faixas e os tempos embaixo.
+**O que mudou nesta versão.** Voz do curso e deck de onze slides no lugar de sete blocos longos.
+Arquitetura DECISÃO mantida (a anterior é PROCEDIMENTO; a próxima é NÚMERO). Junta os cinco eixos do módulo numa
+mesma pessoa. Sem caso clínico.
 
-**Slide 2** — Overreaching funcional é ferramenta de quem tem margem
-· A lógica é a do modelo aptidão-fadiga: a fadiga dissipa mais rápido que a aptidão
-· **Planejado · curto · seguido de descarga deliberada.** Sem descarga não há supercompensação, há acúmulo
-· Ele **pressupõe reserva**: sono protegido, alimentação adequada, e vida que permita reduzir de verdade
-· Quem trabalha 12 h e dorme 5 **não tem essa margem** — a sobrecarga é seguida de mais uma semana igual
-· No atleta real, a sobrecarga deliberada costuma ser **um empréstimo que ele não tem como pagar**
-· Exceção razoável: amador com prova importante, vida controlável e acompanhamento próximo
-Visual: a curva que sobe depois de cair, ao lado da que não sobe.
+**Correções.**
+- A síndrome "leva meses, às vezes mais de um ano": o consenso fala em vários meses a anos. Ajustado.
+- O teste dos dois esforços máximos foi descrito antes como teste de desempenho ("prejuízo
+  desproporcional no segundo teste"). No consenso, é um protocolo de pesquisa, com quatro horas entre
+  os testes, que olha a resposta hormonal (ACTH, prolactina, GH) ao segundo esforço. A fala agora diz
+  isso e deixa claro que não é ferramenta de consultório.
+- Saw 2016: o número de estudos ("cinquenta e seis") não foi conferido e saiu da fala. A conclusão
+  dos autores está conferida.
+- A escada de sete degraus agora é dita como ordem aproximada da prática, não como sequência
+  medida em estudo.
 
-**Slide 3** — O critério, palavra por palavra
-· Consenso ECSS/ACSM 2013: **queda de desempenho inexplicada, que persiste apesar de repouso adequado, com sintomas e outras causas afastadas**
-· **"Queda"** exige **uma medida** — e a maioria chega sem linha de base
-· **"Inexplicada"** é a palavra mais pesada: **obriga o diferencial**
-· **"Repouso adequado"** = carga muito reduzida **por semanas**, não um fim de semana
-· **"Outras causas afastadas"** = diagnóstico de exclusão
-· **Não aparece nenhum exame na lista.** Não é omissão — é o estado do conhecimento
-· **Urhausen e Kindermann, 2002**: contraste marcante entre publicações e ferramentas válidas
-· Não dá para validar um teste contra um **desfecho retrospectivo**
-Visual: a folha de critérios com o espaço em branco onde estariam os exames.
+**Saíram.** "Elegante", "módulo passado", "aula um", "vinte e quatro anos depois" (virou "mais de
+vinte anos") e o bloco "Roteiro Gamma".
 
-**Slide 4** — O que serve, e nada é de sangue
-· **1. Teste de desempenho padronizado repetido.** Mesmo horário, mesmo estado, mesmo equipamento
-· Variação do consenso: **dois testes máximos no mesmo dia** — o mal adaptado desmorona no segundo
-· Versão simples: **a sessão de sábado depois da de sexta rende ou desmorona?**
-· **2. Percepção de esforço para carga fixa** — a ferramenta mais subestimada do assunto
-· **3. Instrumentos validados de humor e recuperação** — vigor e fadiga mudam cedo
-· **E o histórico de carga escrito**, que vale mais que os três
-· **Às vezes a carga não mudou — mudou a vida**
-· **Saw, Main e Gastin, 2016** (56 estudos): **as medidas subjetivas superam as objetivas habituais**
-· **O instrumento que funciona não parece instrumento**
-Visual: os três instrumentos e nenhum tubo de sangue.
+**Citações faladas.** Urhausen e Kindermann (a pergunta sem resposta), Saw, Main e Gastin (as
+medidas subjetivas).
 
-**Slide 5** — A escada dos sinais precoces
-· O impasse: **quando o desempenho cai, você já está atrasado**
-· **1. A PSE para carga conhecida sobe** — porque no começo a pessoa **compensa com esforço**
-· **2. O sono muda** — dificuldade de iniciar ou despertar de madrugada, **em quem dormia bem**
-· **3. Humor e vigor caem** — o achado mais reprodutível
-· **4. A motivação cai.** Ela continua indo — só não quer mais ir
-· **5. Dores difusas persistentes** · **6. Mais infecções respiratórias**
-· **7. E, tardia, a queda de desempenho**
-· **Os seis primeiros são coletáveis com perguntas — e chegam antes do sétimo**
-· **E os seis são inespecíficos**: reconhecer não dispensa o diferencial, **antecipa** o momento de fazê-lo
-Visual: a escada de sete degraus.
-
-**Slide 6** — Três saídas, e a ordem
-· **A — manter ou aumentar a carga.** Só é defensável se **planejada, curta e com descarga real agendada**
-· Erro na A: empurra para o degrau seguinte, que custa **semanas a meses** — e o próximo, mais de um ano
-· **B — reduzir e reavaliar**: o **teste de descarga**, o instrumento mais barato que existe aqui
-· Carga muito reduzida por **2 a 3 semanas**, com marcadores anotados **antes**
-· **Avise que os primeiros dias vão ser ruins** — senão a pessoa abandona concluindo o contrário
-· **C — investigar como doença antes de mexer na carga**: perda de peso não intencional, febre, sudorese noturna, linfonodo, dispneia, dor torácica, pré-síncope, **ideação suicida**, fadiga de muitos meses
-· **O critério: B e C são feitas em paralelo, e A precisa ser justificada**
-· Reduzir carga **não atrapalha investigação nenhuma**
-· **Defina antes os marcadores de 4 a 6 semanas, com data**
-Visual: os três caminhos com o custo de cada erro.
-
-**Slide 7** — Os cinco eixos na mesma pessoa
-· Cortisol acionado sem voltar · gonadal suprimido · T3 baixo com TSH normal · IGF-1 baixo · periferia informando escassez
-· **Cinco eixos levemente deslocados na mesma direção**
-· Pelo discriminador da aula 1: isso **não são cinco disfunções — é uma decisão executada em cinco lugares**
-· Por isso a frase correta não é "a carga estava alta demais"
-· É **"alta demais para o que essa pessoa podia sustentar naquele período"**
-· Se você só reduz a carga e não toca no que rebaixou a reserva, **o problema volta quando a carga voltar**
-· Escopo: causas médicas ao médico · carga e descarga ao preparador · **os seis degraus, a todos**
-· A janela barata está **entre o primeiro degrau e o sétimo**
-Visual: os cinco eixos em volta do mesmo paciente.
+**Ligações internas.** modelo aptidão-fadiga e descarga = aula de recuperação do módulo de
+fisiologia do exercício · relação testosterona-cortisol = aula da testosterona · os cinco eixos e o
+discriminador = primeira aula do módulo · diagnóstico diferencial de fadiga = módulo de medicina
+esportiva clínica · destreino = próxima aula.

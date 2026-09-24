@@ -1,0 +1,433 @@
+{
+ "arquivo": "aulas/MOD03/03-09-destreino-e-reversao-das-adaptacoes.md",
+ "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício",
+ "tema": "bordo",
+ "titulo": "Destreino",
+ "subtitulo": "Cronologia da perda e da recuperação das adaptações",
+ "nota_capa": "Entra pelo número: catorze dias.",
+ "secoes": {
+  "numero": [
+   "Os três estudos de redução de passos.",
+   "capa"
+  ],
+  "ordem": [
+   "A ordem da perda e a memória muscular.",
+   "ordem"
+  ],
+  "conduta": [
+   "As duas conversas e a manutenção.",
+   "conversas"
+  ]
+ },
+ "slides": [
+  {
+   "id": "breen",
+   "tipo": "numeros",
+   "eyebrow": "Breen e colaboradores, 2013",
+   "titulo": "Catorze dias andando menos",
+   "numeros": [
+    {
+     "n": "−76%",
+     "x": "passos por dia, para cerca de 1.400",
+     "cor": "tinta"
+    },
+    {
+     "n": "−43%",
+     "x": "sensibilidade à insulina depois da refeição",
+     "cor": "verm"
+    },
+    {
+     "n": "−26%",
+     "x": "síntese de proteína muscular depois da refeição",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Resistência anabólica instalada em duas semanas, e massa magra da perna menor. Em idosos saudáveis, sem cama e sem doença.",
+   "destaque_cor": "verm",
+   "fonte": "Journal of Clinical Endocrinology and Metabolism 2013"
+  },
+  {
+   "id": "mcglory",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Linha do tempo: uma semana habitual, catorze dias com menos de mil passos, catorze dias de volta; o controle da glicose e a síntese de proteína pioram e não voltam ao ponto de partida\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"20\" width=\"300\" height=\"60\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"320\" y=\"20\" width=\"640\" height=\"60\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"980\" y=\"20\" width=\"684\" height=\"60\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><polyline points=\"0,150 300,150 960,280 1664,250\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linejoin=\"round\"/><line x1=\"0\" y1=\"150\" x2=\"1664\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 34,
+     "w": 300,
+     "t": "7 dias habituais",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 34,
+     "w": 640,
+     "t": "14 dias com < 1.000 passos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 34,
+     "w": 684,
+     "t": "14 dias de volta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 104,
+     "w": 300,
+     "t": "ponto de partida",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 280,
+     "w": 480,
+     "t": "não voltou",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 300,
+     "w": 600,
+     "t": "controle da glicose e síntese de proteína",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "McGlory e colaboradores, 2018",
+   "titulo": "Duas semanas para perder; duas de volta não bastaram",
+   "destaque": "As adaptações se perdem mais rápido do que se constroem, e a volta não é o espelho da ida.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema da linha do tempo, sem valores medidos · 22 adultos com sobrepeso e pré-diabetes, 69 anos · Journals of Gerontology 2018"
+  },
+  {
+   "id": "walker",
+   "tipo": "duas",
+   "eyebrow": "A concessão que o tema pede",
+   "titulo": "O estrago depende de quanto cai, e de quem cai",
+   "esq": {
+    "t": "Walker e colaboradores, 2024",
+    "cor": "petr",
+    "itens": [
+     "66 idosos, quase 8 em 10 mulheres, sorteados",
+     "menos de 2.000 passos por 2 semanas",
+     "massa magra da perna e função: sem mudança"
+    ]
+   },
+   "dir": {
+    "t": "O que diferencia os estudos",
+    "cor": "ambar",
+    "itens": [
+     "mil passos não é o mesmo que dois mil",
+     "pré-diabetes não é o mesmo que metabolismo bom",
+     "o dado mais consistente: o metabólico, no mais vulnerável"
+    ]
+   },
+   "destaque": "E é esse grupo que a gente mais encontra depois de internação e cirurgia.",
+   "destaque_cor": "tinta",
+   "fonte": "European Journal of Applied Physiology 2024 · ensaio randomizado"
+  },
+  {
+   "id": "ordem",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Ordem da perda, da mais rápida à mais lenta: volume plasmático em dias; enzimas, mitocôndria e glicogênio em semanas; VO2máx nas primeiras semanas; coração em meses; força, a mais resistente\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"40\" width=\"310\" height=\"200\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"334\" y=\"40\" width=\"310\" height=\"200\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"668\" y=\"40\" width=\"310\" height=\"200\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1002\" y=\"40\" width=\"310\" height=\"200\" rx=\"12\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1336\" y=\"40\" width=\"310\" height=\"200\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"0\" y1=\"290\" x2=\"1640\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M1640 290 l-20 -12 v24 z\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 12,
+     "y": 70,
+     "w": 286,
+     "t": "volume plasmático",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 12,
+     "y": 170,
+     "w": 286,
+     "t": "dias",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 346,
+     "y": 70,
+     "w": 286,
+     "t": "enzimas e glicogênio",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 346,
+     "y": 170,
+     "w": 286,
+     "t": "semanas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 70,
+     "w": 286,
+     "t": "VO₂máx",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 170,
+     "w": 286,
+     "t": "primeiras semanas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1014,
+     "y": 70,
+     "w": 286,
+     "t": "coração",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1014,
+     "y": 170,
+     "w": 286,
+     "t": "meses",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1348,
+     "y": 70,
+     "w": 286,
+     "t": "força",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1348,
+     "y": 170,
+     "w": 286,
+     "t": "a mais resistente",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 306,
+     "w": 800,
+     "t": "perde primeiro · volta primeiro",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 864,
+     "y": 306,
+     "w": 780,
+     "t": "perde por último · volta por último",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Mujika e Padilla, 2000",
+   "titulo": "O que se perde primeiro volta mais rápido",
+   "destaque": "A primeira semana de volta pesa por causa da parte hidráulica, que é a mais barata de recuperar.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema de ordem, sem valores medidos · Sports Medicine 2000, partes I e II"
+  },
+  {
+   "id": "memoria",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas trajetórias de reconquista de massa e força: quem já treinou volta mais rápido do que quem nunca treinou\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"20.0\" y1=\"300\" x2=\"20.0\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1644.0\" y1=\"300\" x2=\"1644.0\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"20\" y1=\"300\" x2=\"1644\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"20.0,300.0 155.3,212.1 290.7,153.2 426.0,113.7 561.3,87.2 696.7,69.4 832.0,57.5 967.3,49.5 1102.7,44.2 1238.0,40.6 1373.3,38.2 1508.7,36.6 1644.0,35.5\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"20.0,300.0 155.3,259.1 290.7,224.4 426.0,195.1 561.3,170.2 696.7,149.2 832.0,131.4 967.3,116.4 1102.7,103.6 1238.0,92.8 1373.3,83.7 1508.7,76.0 1644.0,69.4\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"14 12\"/></svg>",
+   "rotulos": [
+    {
+     "x": -60,
+     "y": 316,
+     "w": 160,
+     "t": "retomada",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 316,
+     "w": 160,
+     "t": "semanas",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 20,
+     "w": 400,
+     "t": "já treinou antes",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 200,
+     "w": 400,
+     "t": "nunca treinou",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Memória muscular",
+   "titulo": "Quem já construiu reconstrói mais rápido",
+   "destaque": "O mecanismo, núcleos retidos na fibra, segue em debate em humanos. O fenômeno é consistente o bastante para ser dito ao paciente.",
+   "destaque_cor": "ambar",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "conversas",
+   "tipo": "duas",
+   "eyebrow": "Duas conversas opostas",
+   "titulo": "Duas semanas não estragam; três meses custam",
+   "esq": {
+    "t": "Acalmar quem para pouco",
+    "cor": "petr",
+    "itens": [
+     "custa volume plasmático e um pouco de enzima",
+     "a aptidão mal se move",
+     "o medo faz gente treinar doente e voltar cedo"
+    ]
+   },
+   "dir": {
+    "t": "Não banalizar quem para muito",
+    "cor": "verm",
+    "itens": [
+     "tempo parado mais tempo de voltar",
+     "pós-internação: volta para trás do ponto de partida",
+     "a redução silenciosa também é destreino"
+    ]
+   }
+  },
+  {
+   "id": "manter",
+   "tipo": "lista",
+   "eyebrow": "O oposto do repouso por precaução",
+   "titulo": "Manter alguma coisa vale muito mais que nada",
+   "itens": [
+    {
+     "t": "Dose de manutenção",
+     "x": "1 a 2 sessões de força por semana, carga perto da habitual",
+     "cor": "petr"
+    },
+    {
+     "t": "Na lesão, o que o quadro permitir",
+     "x": "pedalar, nadar, poupar só o que precisa",
+     "cor": "petr"
+    },
+    {
+     "t": "Treinar o lado saudável",
+     "x": "educação cruzada atenua a perda do lado imobilizado",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Quem mantém alguma coisa não está treinando pouco. Está encurtando muito o retorno.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "O que os números decidem",
+   "titulo": "Afastamento não é binário",
+   "regras": [
+    "Duas semanas não vão te estragar; três meses vão custar: vamos manter alguma coisa",
+    "A primeira semana de volta é ruim, e é a parte barata",
+    "No idoso e no pós-operatório, o relógio corre mais rápido"
+   ],
+   "cards": [
+    {
+     "t": "Preparador e educador físico",
+     "x": "Dose de manutenção e retorno progressivo."
+    },
+    {
+     "t": "Fisioterapia",
+     "x": "O mesmo em tecido lesionado."
+    },
+    {
+     "t": "Médico",
+     "x": "A liberação clínica quando há condição médica."
+    }
+   ],
+   "quem": "Enxergar o afastamento antes que vire hábito é de toda a equipe."
+  }
+ ]
+}

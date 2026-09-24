@@ -87,7 +87,8 @@ integração nos três níveis (decisão, contribuição, reconhecimento).
 
 **EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão do Módulo 2: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em bordô, a cor do módulo (docs/08).
-Caso clínico no módulo até aqui: um (3.4, o corretor de 41 anos, dito como caso ilustrativo).
+Casos clínicos no módulo: dois, o teto (3.4, o corretor de 41 anos; 3.7, a corredora de 31 anos; ambos
+ditos como caso ilustrativo). As aulas 3.8 a 3.12 ficam sem caso.
 
 | Slot | Aula | Min | Slides | Arquitetura | Deck |
 |---|---|---|---|---|---|
@@ -97,14 +98,14 @@ Caso clínico no módulo até aqui: um (3.4, o corretor de 41 anos, dito como ca
 | 3.4 | Testosterona no praticante de exercício | 25 | 12 | DECISÃO | [slides](https://claude.ai/artifact/WGRqeCBPoFWFkjS8gq4fC8) |
 | 3.5 | Hipogonadismo masculino | 15 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/KCn3UtBLXJFu32QcuRKu3A) |
 | 3.6 | Eixo somatotrófico e exercício | 17 | 11 | ERRO | [slides](https://claude.ai/artifact/4snAKfAufyPTEZkiKjFc84) |
+| 3.7 | Função tireoidiana no praticante de exercício | 15 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/Fdj8F2YGauNt6FZuXP5tgm) |
+| 3.8 | Excesso de treinamento | 18 | 11 | DECISÃO | [slides](https://claude.ai/artifact/LeKxDaos5k7BhJpBGs9ZvN) |
+| 3.9 | Destreino | 11 | 8 | NÚMERO | [slides](https://claude.ai/artifact/8HwHtcLjdAnxGNN42YLijV) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 3.7 | Tireoide e exercício: interpretar sem medicalizar | M2-A06 + M5-A06 | FUNDIR |
-| 3.8 **[M]** | Excesso de treinamento: adaptação, overreaching e síndrome | M9-A01 + A02 + A05 | FUNDIR |
-| 3.9 | Destreino e reversão das adaptações | — | NOVA |
 | 3.10 **[M]** | Músculo como órgão endócrino: miocinas e exercinas | — | **NOVA** |
 | 3.11 | Exercício, sensibilidade à insulina e composição corporal | M10-A03 parcial | PARCIAL |
 | 3.12 | Vitamina D, cálcio e saúde óssea | M5-A05 + M14-A07 | FUNDIR |

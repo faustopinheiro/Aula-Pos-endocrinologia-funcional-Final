@@ -1,0 +1,550 @@
+{
+ "arquivo": "aulas/MOD03/03-08-excesso-de-treinamento.md",
+ "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício",
+ "tema": "bordo",
+ "titulo": "Excesso de treinamento",
+ "subtitulo": "Overreaching funcional, não funcional e síndrome do overtraining",
+ "nota_capa": "Entra pela frase “eu estou em overtraining”.",
+ "secoes": {
+  "espectro": [
+   "O vocabulário e o diagnóstico retrospectivo.",
+   "capa"
+  ],
+  "criterio": [
+   "O que existe como critério, e o que não existe.",
+   "criterio"
+  ],
+  "instrumentos": [
+   "Os instrumentos que funcionam e a escada.",
+   "instrumentos"
+  ],
+  "decisao": [
+   "As três saídas e o fecho do módulo.",
+   "saidas"
+  ]
+ },
+ "slides": [
+  {
+   "id": "espectro",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Espectro em três faixas: overreaching funcional, com volta em dias; não funcional, em semanas a meses; síndrome do overtraining, em vários meses a anos\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><rect x=\"0\" y=\"60\" width=\"544\" height=\"120\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"560\" y=\"60\" width=\"544\" height=\"120\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"1120\" y=\"60\" width=\"544\" height=\"120\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"0\" y1=\"42\" x2=\"1664\" y2=\"42\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 80,
+     "w": 544,
+     "t": "Overreaching funcional",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 200,
+     "w": 544,
+     "t": "volta em",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 236,
+     "w": 544,
+     "t": "dias, raramente semanas",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 80,
+     "w": 544,
+     "t": "Overreaching não funcional",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 200,
+     "w": 544,
+     "t": "volta em",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 236,
+     "w": 544,
+     "t": "semanas, às vezes meses",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1120,
+     "y": 80,
+     "w": 544,
+     "t": "Síndrome do overtraining",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 200,
+     "w": 544,
+     "t": "volta em",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 236,
+     "w": 544,
+     "t": "vários meses a anos",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1664,
+     "t": "mais grave →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "“Eu estou em overtraining”",
+   "titulo": "A diferença não é o sintoma; é o tempo de volta",
+   "destaque": "A síndrome é diagnóstico de exclusão.",
+   "destaque_cor": "verm",
+   "fonte": "Meeusen e colaboradores, consenso ECSS e ACSM, Medicine and Science in Sports and Exercise 2013"
+  },
+  {
+   "id": "retro",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A coisa mais importante da aula",
+   "frase": "O diagnóstico é retrospectivo.",
+   "apoio": "Na consulta há uma pessoa cansada, com desempenho caindo. Não há como saber, naquele dia, se ela volta em dez dias ou em dez meses. A boa notícia: a primeira conduta é parecida nos três."
+  },
+  {
+   "id": "funcional",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Duas curvas de desempenho: no atleta com margem, a queda da sobrecarga é seguida de descarga e o desempenho sobe acima da base; no atleta sem margem, a semana seguinte é igual e o desempenho não volta\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"20.0\" y1=\"320\" x2=\"20.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"290.7\" y1=\"320\" x2=\"290.7\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"832.0\" y1=\"320\" x2=\"832.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1644.0\" y1=\"320\" x2=\"1644.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"20\" y1=\"320\" x2=\"1644\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"20.0,126.7 58.7,126.7 97.3,126.7 136.0,126.7 174.7,126.7 213.3,126.7 252.0,126.7 290.7,126.7 329.3,143.8 368.0,157.1 406.7,167.5 445.3,175.6 484.0,181.8 522.7,186.7 561.3,190.6 600.0,193.5 638.7,195.8 677.3,197.7 716.0,199.1 754.7,200.1 793.3,201.0 832.0,204.0 870.7,176.2 909.3,154.6 948.0,137.7 986.7,124.6 1025.3,114.3 1064.0,106.4 1102.7,100.2 1141.3,95.3 1180.0,91.6 1218.7,88.6 1257.3,86.4 1296.0,84.6 1334.7,83.2 1373.3,82.1 1412.0,81.3 1450.7,80.6 1489.3,80.1 1528.0,79.7 1566.7,79.4 1605.3,79.2 1644.0,79.0\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"20.0,126.7 58.7,126.7 97.3,126.7 136.0,126.7 174.7,126.7 213.3,126.7 252.0,126.7 290.7,126.7 329.3,143.8 368.0,157.1 406.7,167.5 445.3,175.6 484.0,181.8 522.7,186.7 561.3,190.6 600.0,193.5 638.7,195.8 677.3,197.7 716.0,199.1 754.7,200.1 793.3,201.0 832.0,204.0 870.7,211.4 909.3,217.7 948.0,223.0 986.7,227.5 1025.3,231.3 1064.0,234.6 1102.7,237.3 1141.3,239.6 1180.0,241.5 1218.7,243.2 1257.3,244.6 1296.0,245.8 1334.7,246.8 1373.3,247.6 1412.0,248.4 1450.7,249.0 1489.3,249.5 1528.0,249.9 1566.7,250.3 1605.3,250.6 1644.0,250.9\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"14 12\"/></svg>",
+   "rotulos": [
+    {
+     "x": -60,
+     "y": 336,
+     "w": 160,
+     "t": "base",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 211,
+     "y": 336,
+     "w": 160,
+     "t": "sobrecarga",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 752,
+     "y": 336,
+     "w": 160,
+     "t": "descarga?",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 336,
+     "w": 160,
+     "t": "6 semanas",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 16,
+     "w": 480,
+     "t": "com margem: supercompensa",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 272,
+     "w": 480,
+     "t": "sem margem: não volta",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Overreaching funcional",
+   "titulo": "Ferramenta de atleta com margem",
+   "destaque": "Planejado, curto e seguido de descarga real. Em quem trabalha doze horas e dorme cinco, é um empréstimo que não tem como pagar.",
+   "destaque_cor": "ambar",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "criterio",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "O que existe como critério",
+   "titulo": "Cada palavra carrega trabalho",
+   "cards": [
+    {
+     "t": "Queda de desempenho",
+     "x": "pressupõe um “antes” medido",
+     "cor": "tinta"
+    },
+    {
+     "t": "Inexplicada",
+     "x": "obriga o diferencial",
+     "cor": "verm"
+    },
+    {
+     "t": "Apesar de repouso adequado",
+     "x": "carga bem reduzida por semanas",
+     "cor": "tinta"
+    },
+    {
+     "t": "Com sintomas",
+     "x": "fadiga, sono, humor, apetite, infecções",
+     "cor": "tinta"
+    },
+    {
+     "t": "Outras causas afastadas",
+     "x": "diagnóstico de exclusão",
+     "cor": "verm"
+    },
+    {
+     "t": "Nenhum exame",
+     "x": "nenhum hormônio, nenhuma razão entre marcadores",
+     "cor": "ambar"
+    }
+   ],
+   "fonte": "Meeusen e colaboradores, consenso ECSS e ACSM 2013"
+  },
+  {
+   "id": "exame",
+   "tipo": "duas",
+   "eyebrow": "Urhausen e Kindermann, 2002",
+   "titulo": "“Que ferramentas diagnósticas nós temos?”",
+   "esq": {
+    "t": "A resposta",
+    "cor": "verm",
+    "itens": [
+     "muitas publicações sobre o tema",
+     "poucos instrumentos válidos",
+     "mais de vinte anos depois, mudou pouco"
+    ]
+   },
+   "dir": {
+    "t": "O porquê",
+    "cor": "tinta",
+    "itens": [
+     "validar exige medir antes do quadro",
+     "o padrão-ouro é retrospectivo",
+     "dois testes com 4 horas: protocolo de pesquisa hormonal"
+    ]
+   },
+   "destaque": "Painel que “diagnostica overtraining” vende o que não existe. Relação testosterona-cortisol: reconhecer, não decidir.",
+   "destaque_cor": "ambar",
+   "fonte": "Sports Medicine 2002 · Meeusen e colaboradores 2013"
+  },
+  {
+   "id": "instrumentos",
+   "tipo": "cards",
+   "eyebrow": "O que funciona",
+   "titulo": "Três instrumentos, nenhum de sangue",
+   "cards": [
+    {
+     "t": "Teste padronizado repetido",
+     "x": "mesmo percurso ou carga, mesma condição; a sessão de sábado depois da de sexta",
+     "cor": "petr"
+    },
+    {
+     "t": "Esforço para carga fixa",
+     "x": "mesma carga, percepção subindo por semanas",
+     "cor": "petr"
+    },
+    {
+     "t": "Humor e recuperação",
+     "x": "questionários validados: mais fadiga, menos vigor",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "E o que vale mais que os três: o histórico de carga escrito. Às vezes a carga não mudou. Mudou a vida.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "subjetivo",
+   "tipo": "duas",
+   "eyebrow": "Saw, Main e Gastin, 2016",
+   "titulo": "A pergunta bem feita supera o exame",
+   "esq": {
+    "t": "Medidas subjetivas",
+    "cor": "petr",
+    "itens": [
+     "bem-estar, sono percebido",
+     "dor muscular, estresse, humor",
+     "responderam à carga de forma mais sensível e consistente"
+    ]
+   },
+   "dir": {
+    "t": "Objetivas habituais",
+    "cor": "tinta",
+    "itens": [
+     "frequência cardíaca de repouso",
+     "marcadores de sangue",
+     "responderam menos"
+    ]
+   },
+   "destaque": "O problema não é que falte instrumento. É que o instrumento que funciona não parece instrumento.",
+   "destaque_cor": "petr",
+   "fonte": "British Journal of Sports Medicine 2016 · revisão sistemática de estudos com as duas medidas em paralelo"
+  },
+  {
+   "id": "escada",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Escada de sete degraus: do sinal mais precoce, o esforço para carga conhecida, até o mais tardio, a queda de desempenho\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"346\" width=\"220\" height=\"54\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"230\" y=\"292\" width=\"220\" height=\"108\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"460\" y=\"238\" width=\"220\" height=\"162\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"690\" y=\"184\" width=\"220\" height=\"216\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"920\" y=\"130\" width=\"220\" height=\"270\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1150\" y=\"76\" width=\"220\" height=\"324\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1380\" y=\"22\" width=\"220\" height=\"378\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M0 430 H1370\" stroke=\"#008A7E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 8,
+     "y": 356,
+     "w": 204,
+     "t": "esforço sobe",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 238,
+     "y": 302,
+     "w": 204,
+     "t": "sono muda",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 468,
+     "y": 248,
+     "w": 204,
+     "t": "humor e vigor caem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 698,
+     "y": 194,
+     "w": 204,
+     "t": "motivação cai",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 928,
+     "y": 140,
+     "w": 204,
+     "t": "dores difusas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1158,
+     "y": 86,
+     "w": 204,
+     "t": "mais infecções",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1388,
+     "y": 32,
+     "w": 204,
+     "t": "desempenho cai",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 438,
+     "w": 1380,
+     "t": "seis degraus que se colhem com perguntas",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1380,
+     "y": 438,
+     "w": 220,
+     "t": "tardio",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que muda antes",
+   "titulo": "Quando o desempenho cai, você já está atrasado",
+   "fonte": "Ordem aproximada da prática, não sequência medida em estudo · os seis primeiros são inespecíficos: não dispensam o diferencial"
+  },
+  {
+   "id": "saidas",
+   "tipo": "duas",
+   "eyebrow": "A encruzilhada",
+   "titulo": "Manter a carga, ou reduzir e reavaliar",
+   "esq": {
+    "t": "A: manter, como se fosse funcional",
+    "cor": "verm",
+    "itens": [
+     "só com sobrecarga planejada e curta",
+     "e descarga real que a vida permite cumprir",
+     "faltou uma: está fora"
+    ]
+   },
+   "dir": {
+    "t": "B: o teste de descarga",
+    "cor": "petr",
+    "itens": [
+     "carga bem reduzida, não zerada",
+     "frequência e alguma intensidade curta mantidas",
+     "2 a 3 semanas, marcadores anotados antes"
+    ]
+   },
+   "destaque": "Avise que os primeiros dias vão ser ruins. Sem aviso, a pessoa abandona no terceiro dia achando que precisava treinar mais.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "criterioC",
+   "tipo": "duas",
+   "eyebrow": "Saída C e o critério",
+   "titulo": "B e C em paralelo; A precisa ser justificada",
+   "esq": {
+    "t": "C: investigar antes de mexer",
+    "cor": "verm",
+    "itens": [
+     "perda de peso sem intenção, febre, suor noturno",
+     "gânglios, falta de ar desproporcional, dor no peito",
+     "palpitação com sensação de desmaio, ideação suicida",
+     "fadiga de meses sem mudança de carga"
+    ]
+   },
+   "dir": {
+    "t": "Reavaliar em 4 a 6 semanas",
+    "cor": "petr",
+    "itens": [
+     "esforço na mesma sessão",
+     "qualidade do sono",
+     "vigor e motivação numa escala simples",
+     "teste padronizado, com data"
+    ]
+   },
+   "destaque": "A primeira conduta é a mesma nos três estados, e reduzir carga não atrapalha investigação nenhuma.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Cinco eixos na mesma direção",
+   "titulo": "Uma decisão executada em cinco lugares",
+   "regras": [
+    "Cortisol sem voltar ao basal · gonadal suprimido · T3 baixo com TSH normal",
+    "IGF-1 baixo · sinais periféricos avisando escassez",
+    "A carga estava alta demais para o que essa pessoa podia sustentar naquele período"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Investiga causas; as bandeiras da saída C são o gatilho."
+    },
+    {
+     "t": "Preparador e educador físico",
+     "x": "Ajustam a carga e montam a descarga: primeira linha."
+    },
+    {
+     "t": "Todo mundo",
+     "x": "Reconhece os seis primeiros degraus da escada."
+    }
+   ],
+   "quem": "Entre o primeiro degrau e o sétimo está a janela em que isso ainda é barato de resolver."
+  }
+ ]
+}
