@@ -1,0 +1,608 @@
+{
+ "arquivo": "aulas/MOD03/03-11-insulina-e-composicao-corporal.md",
+ "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício",
+ "tema": "bordo",
+ "titulo": "Exercício e sensibilidade à insulina",
+ "subtitulo": "Mecanismos, prescrição e composição corporal",
+ "nota_capa": "Entra pelo número: quarenta e oito horas.",
+ "secoes": {
+  "numero": [
+   "O efeito de uma sessão e a distribuição da semana.",
+   "capa"
+  ],
+  "mecanismo": [
+   "As duas portas do GLUT4 e a melhora sem emagrecer.",
+   "portas"
+  ],
+  "composicao": [
+   "Composição corporal e o que sabota.",
+   "composicao"
+  ]
+ },
+ "slides": [
+  {
+   "id": "mikines",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Linha do tempo: uma sessão no dia zero; sensibilidade à insulina aumentada logo depois e ainda 48 horas depois; efeito ausente no quinto dia\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><rect x=\"0\" y=\"80\" width=\"555\" height=\"90\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"0\" y1=\"220\" x2=\"1664\" y2=\"220\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"0\" y1=\"210\" x2=\"0\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"277\" y1=\"210\" x2=\"277\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"555\" y1=\"210\" x2=\"555\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"832\" y1=\"210\" x2=\"832\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1109\" y1=\"210\" x2=\"1109\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1387\" y1=\"210\" x2=\"1387\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1664\" y1=\"210\" x2=\"1664\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"14\" cy=\"220\" r=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"555\" cy=\"220\" r=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1387\" cy=\"220\" r=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 244,
+     "w": 120,
+     "t": "sessão",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 217,
+     "y": 244,
+     "w": 120,
+     "t": "dia 1",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 495,
+     "y": 244,
+     "w": 120,
+     "t": "dia 2",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 772,
+     "y": 244,
+     "w": 120,
+     "t": "dia 3",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1049,
+     "y": 244,
+     "w": 120,
+     "t": "dia 4",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1327,
+     "y": 244,
+     "w": 120,
+     "t": "dia 5",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1604,
+     "y": 244,
+     "w": 120,
+     "t": "dia 6",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 104,
+     "w": 507,
+     "t": "sensibilidade à insulina aumentada",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1187,
+     "y": 120,
+     "w": 400,
+     "t": "dia 5: efeito ausente",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Mikines e colaboradores, 1988",
+   "titulo": "Uma sessão, dois dias de insulina funcionando melhor",
+   "destaque": "Medido com clamp em repouso, logo depois e 48 horas depois de uma hora de bicicleta. Com cinco dias, já tinha ido embora.",
+   "destaque_cor": "petr",
+   "fonte": "American Journal of Physiology 1988 · 7 homens destreinados, 60 min a 150 W"
+  },
+  {
+   "id": "cobertura",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas semanas: com sessões só no sábado e no domingo, quarta, quinta e sexta ficam descobertas; com cinco sessões espalhadas, a semana toda fica coberta\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"423\" y=\"50\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"601\" y=\"50\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"778\" y=\"50\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"956\" y=\"50\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1134\" y=\"50\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1312\" y=\"50\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1397\" cy=\"100\" r=\"18\" fill=\"#008A7E\"/><rect x=\"1489\" y=\"50\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1575\" cy=\"100\" r=\"18\" fill=\"#008A7E\"/><rect x=\"423\" y=\"200\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"509\" cy=\"250\" r=\"18\" fill=\"#008A7E\"/><rect x=\"601\" y=\"200\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"687\" cy=\"250\" r=\"18\" fill=\"#008A7E\"/><rect x=\"778\" y=\"200\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"956\" y=\"200\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1042\" cy=\"250\" r=\"18\" fill=\"#008A7E\"/><rect x=\"1134\" y=\"200\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1220\" cy=\"250\" r=\"18\" fill=\"#008A7E\"/><rect x=\"1312\" y=\"200\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1397\" cy=\"250\" r=\"18\" fill=\"#008A7E\"/><rect x=\"1489\" y=\"200\" width=\"172\" height=\"100\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 420,
+     "y": 0,
+     "w": 178,
+     "t": "seg",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 598,
+     "y": 0,
+     "w": 178,
+     "t": "ter",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 775,
+     "y": 0,
+     "w": 178,
+     "t": "qua",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 953,
+     "y": 0,
+     "w": 178,
+     "t": "qui",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1131,
+     "y": 0,
+     "w": 178,
+     "t": "sex",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1309,
+     "y": 0,
+     "w": 178,
+     "t": "sáb",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1486,
+     "y": 0,
+     "w": 178,
+     "t": "dom",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 775,
+     "y": 84,
+     "w": 178,
+     "t": "descoberto",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 953,
+     "y": 84,
+     "w": 178,
+     "t": "descoberto",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1131,
+     "y": 84,
+     "w": 178,
+     "t": "descoberto",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 80,
+     "w": 400,
+     "t": "duas sessões longas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 400,
+     "t": "cinco sessões moderadas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A aritmética da cobertura",
+   "titulo": "Para a glicose, a frequência pesa mais que o heroísmo",
+   "destaque": "Associação Americana de Diabetes, 2016: 150 minutos por semana, em pelo menos três dias, e no máximo dois dias seguidos sem exercício.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos · cada sessão cobre o próprio dia e os dois seguintes · Diabetes Care 2016"
+  },
+  {
+   "id": "portas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma fibra muscular com GLUT4 guardado em vesículas; a insulina e a contração levam o GLUT4 à membrana por vias independentes; no paciente resistente, a via da insulina falha e a da contração continua aberta\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"g1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"g2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"560\" y=\"20\" width=\"1104\" height=\"360\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"1180\" cy=\"150\" r=\"26\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"1260\" cy=\"230\" r=\"26\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"1360\" cy=\"160\" r=\"26\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"1430\" cy=\"260\" r=\"26\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"1300\" cy=\"310\" r=\"26\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"0\" y=\"40\" width=\"400\" height=\"120\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"0\" y=\"240\" width=\"400\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"410\" y1=\"100\" x2=\"600\" y2=\"100\" stroke=\"#6B7A87\" stroke-width=\"5\" marker-end=\"url(#g1)\"/><line x1=\"410\" y1=\"300\" x2=\"600\" y2=\"300\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#g2)\"/><g stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"><line x1=\"480\" y1=\"70\" x2=\"530\" y2=\"130\"/><line x1=\"530\" y1=\"70\" x2=\"480\" y2=\"130\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 62,
+     "w": 400,
+     "t": "insulina",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 108,
+     "w": 400,
+     "t": "falha na resistência",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 262,
+     "w": 400,
+     "t": "contração",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 308,
+     "w": 400,
+     "t": "via independente, preservada",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 50,
+     "w": 440,
+     "t": "fibra muscular",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 50,
+     "w": 520,
+     "t": "GLUT4 guardado em vesículas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Richter e Hargreaves, 2013",
+   "titulo": "Duas portas para a mesma glicose",
+   "destaque": "Kennedy, 1999: depois de uma sessão de bicicleta, o GLUT4 na membrana subiu cerca de 70%, com e sem diabetes tipo 2.",
+   "destaque_cor": "petr",
+   "fonte": "Physiological Reviews 2013 · Diabetes 1999, 5 pessoas com diabetes tipo 2 e 5 controles"
+  },
+  {
+   "id": "relogios",
+   "tipo": "numeros",
+   "eyebrow": "Dois efeitos, dois relógios",
+   "titulo": "Abrir as portas, e ter mais portas",
+   "numeros": [
+    {
+     "n": "48 h",
+     "x": "efeito agudo: abre as portas que já existem",
+     "cor": "petr"
+    },
+    {
+     "n": "semanas",
+     "x": "efeito crônico: mais GLUT4, o estímulo mais potente conhecido",
+     "cor": "tinta"
+    },
+    {
+     "n": "≈ 80%",
+     "x": "da glicose captada sob clamp vai para o músculo",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "O tecido que mais capta glicose é o mesmo que a pessoa consegue contrair. Não por analogia. Por anatomia.",
+   "destaque_cor": "tinta",
+   "fonte": "Clamp com insulina alta; depois da refeição, o fígado divide mais a conta · DeFronzo 1981 · DeFronzo e Tripathy 2009"
+  },
+  {
+   "id": "balanca",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "Por que melhora sem emagrecer",
+   "titulo": "Quatro mudanças que a balança não vê",
+   "cards": [
+    {
+     "t": "Mais GLUT4",
+     "x": "mais portas para a glicose",
+     "cor": "petr"
+    },
+    {
+     "t": "Mais capilares por fibra",
+     "x": "mais área de troca entre sangue e músculo",
+     "cor": "petr"
+    },
+    {
+     "t": "Mais mitocôndria",
+     "x": "muda o destino do combustível que entra",
+     "cor": "petr"
+    },
+    {
+     "t": "Mais espaço para glicogênio",
+     "x": "tanque maior e, depois da sessão, mais vazio",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "E os sinais que o músculo manda para fígado, pâncreas e tecido adiposo. Também fora da balança.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "medir",
+   "tipo": "tabela",
+   "eyebrow": "O que medir no lugar do peso",
+   "titulo": "Barato, e conta a história certa",
+   "cab": [
+    "Medida",
+    "Por que usar"
+   ],
+   "larguras": [
+    40,
+    60
+   ],
+   "linhas": [
+    [
+     "Circunferência abdominal",
+     "muda antes do peso e conversa melhor com risco"
+    ],
+    [
+     "Carga registrada",
+     "a mais motivadora, e quase ninguém anota"
+    ],
+    [
+     "Sentar e levantar em 30 s",
+     "teste funcional repetível"
+    ],
+    [
+     "Glicada e pressão",
+     "desfechos de verdade, quando há indicação"
+    ],
+    [
+     "Bioimpedância de balança doméstica",
+     "não serve sozinha: a água fabrica resultados"
+    ]
+   ],
+   "destaque": "Quem escolhe o peso como único critério abandona. Sal, ciclo, intestino, glicogênio e água mexem nele.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "composicao",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Duas pessoas perdem o mesmo peso em seis meses; uma perde quase só gordura, a outra perde gordura e bastante massa magra\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><rect x=\"420\" y=\"40\" width=\"1060\" height=\"90\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1482\" y=\"40\" width=\"118\" height=\"90\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"420\" y=\"180\" width=\"647\" height=\"90\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1069\" y=\"180\" width=\"531\" height=\"90\" rx=\"4\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 52,
+     "w": 400,
+     "t": "pessoa A",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 92,
+     "w": 400,
+     "t": "mesmos quilos perdidos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 66,
+     "w": 300,
+     "t": "gordura",
+     "tam": 28,
+     "cor": "#FFFFFF",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 192,
+     "w": 400,
+     "t": "pessoa B",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 232,
+     "w": 400,
+     "t": "mesmos quilos perdidos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 206,
+     "w": 300,
+     "t": "gordura",
+     "tam": 28,
+     "cor": "#FFFFFF",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1089,
+     "y": 206,
+     "w": 491,
+     "t": "massa magra",
+     "tam": 28,
+     "cor": "#FFFFFF",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 136,
+     "w": 260,
+     "t": "massa magra",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Composição corporal",
+   "titulo": "Perder peso e perder gordura não são a mesma coisa",
+   "destaque": "Decidem o lado: o tamanho do déficit, o estímulo de força e a proteína. Os números podem melhorar enquanto a pessoa piora.",
+   "destaque_cor": "ambar",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "sabotadores",
+   "tipo": "cards",
+   "eyebrow": "O que derruba tudo por fora do treino",
+   "titulo": "Sono, déficit e semana parada",
+   "cards": [
+    {
+     "t": "Sono curto",
+     "x": "Broussard, 2012: quatro noites de 4,5 h na cama pioraram a resposta à insulina no corpo e na célula de gordura",
+     "cor": "verm"
+    },
+    {
+     "t": "Déficit sustentado",
+     "x": "derruba T3 e IGF-1, suprime o eixo gonadal e impede construir músculo",
+     "cor": "ambar"
+    },
+    {
+     "t": "Inatividade",
+     "x": "catorze dias andando menos já pioram a glicose, e a volta é lenta",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "O sono deixa de ser item de bem-estar neste módulo. É variável metabólica.",
+   "destaque_cor": "tinta",
+   "fonte": "Annals of Internal Medicine 2012 · 7 adultos jovens, cruzado e sorteado"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "O que os números decidem",
+   "titulo": "Construir músculo que use glicose",
+   "regras": [
+    "Distribuir: no máximo dois dias seguidos sem exercício",
+    "Escolher o desfecho: cintura, carga, teste funcional e, quando indicado, glicada",
+    "Proteger a massa magra: déficit moderado, força sempre, proteína adequada"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Diagnóstico, tratamento e medicação."
+    },
+    {
+     "t": "Educador e preparador físico",
+     "x": "A prescrição e a distribuição do estímulo."
+    },
+    {
+     "t": "Nutricionista",
+     "x": "A ingestão que sustenta massa magra."
+    }
+   ],
+   "quem": "Perceber o sono curto, a restrição e a semana parada é de todos."
+  }
+ ]
+}

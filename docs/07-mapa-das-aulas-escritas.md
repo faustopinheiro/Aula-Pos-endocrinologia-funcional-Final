@@ -85,7 +85,7 @@ integração nos três níveis (decisão, contribuição, reconhecimento).
 
 ## Módulo 3 — Fisiologia Hormonal e Endocrinologia do Exercício · 12 aulas
 
-**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão do Módulo 2: decks enxutos, gráficos
+**ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão do Módulo 2: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em bordô, a cor do módulo (docs/08).
 Casos clínicos no módulo: dois, o teto (3.4, o corretor de 41 anos; 3.7, a corredora de 31 anos; ambos
 ditos como caso ilustrativo). As aulas 3.8 a 3.12 ficam sem caso.
@@ -101,14 +101,13 @@ ditos como caso ilustrativo). As aulas 3.8 a 3.12 ficam sem caso.
 | 3.7 | Função tireoidiana no praticante de exercício | 15 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/Fdj8F2YGauNt6FZuXP5tgm) |
 | 3.8 | Excesso de treinamento | 18 | 11 | DECISÃO | [slides](https://claude.ai/artifact/LeKxDaos5k7BhJpBGs9ZvN) |
 | 3.9 | Destreino | 11 | 8 | NÚMERO | [slides](https://claude.ai/artifact/8HwHtcLjdAnxGNN42YLijV) |
+| 3.10 | O músculo como órgão endócrino | 18 | 10 | ERRO | [slides](https://claude.ai/artifact/EnefAzMp9bQjCPiqpEU4v8) |
+| 3.11 | Exercício e sensibilidade à insulina | 15 | 9 | NÚMERO | [slides](https://claude.ai/artifact/V6pg5KWi8jaabJnWoYxKgW) |
+| 3.12 | Saúde óssea no praticante de exercício | 14 | 11 | DECISÃO | [slides](https://claude.ai/artifact/TCq25sZe21dQUuFcxxXFic) |
 
-Ainda na versão anterior, sem deck:
-
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 3.10 **[M]** | Músculo como órgão endócrino: miocinas e exercinas | — | **NOVA** |
-| 3.11 | Exercício, sensibilidade à insulina e composição corporal | M10-A03 parcial | PARCIAL |
-| 3.12 | Vitamina D, cálcio e saúde óssea | M5-A05 + M14-A07 | FUNDIR |
+Total: 3 h 32 min em 12 aulas, 120 slides. A 3.12 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
+disponibilidade energética, que abre o Módulo 4.
 
 ## Módulo 4 — Nutrição Esportiva · 12 aulas
 

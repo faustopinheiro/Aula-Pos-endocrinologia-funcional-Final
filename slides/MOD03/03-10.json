@@ -1,0 +1,577 @@
+{
+ "arquivo": "aulas/MOD03/03-10-musculo-como-orgao-endocrino.md",
+ "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício",
+ "tema": "bordo",
+ "titulo": "O músculo como órgão endócrino",
+ "subtitulo": "Miocinas, exercinas e os limites da evidência",
+ "nota_capa": "Entra pelo erro de enquadramento.",
+ "secoes": {
+  "erro": [
+   "O músculo que fala e a IL-6 lida errado.",
+   "enquadramento"
+  ],
+  "catalogo": [
+   "O catálogo e a irisina.",
+   "catalogo"
+  ],
+  "conduta": [
+   "O que muda e o que não autoriza.",
+   "conduta"
+  ]
+ },
+ "slides": [
+  {
+   "id": "enquadramento",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, testosterona, cortisol, T3 e insulina chegam ao músculo; à direita, o mesmo músculo manda sinais para fígado, tecido adiposo, osso, cérebro, pâncreas e sistema imune\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"e1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"e2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"250\" y1=\"60\" x2=\"430\" y2=\"210\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#e1)\"/><line x1=\"250\" y1=\"155\" x2=\"430\" y2=\"210\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#e1)\"/><line x1=\"250\" y1=\"250\" x2=\"430\" y2=\"210\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#e1)\"/><line x1=\"250\" y1=\"345\" x2=\"430\" y2=\"210\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#e1)\"/><rect x=\"450\" y=\"150\" width=\"260\" height=\"120\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"832\" y1=\"10\" x2=\"832\" y2=\"410\" stroke=\"#D9D4C8\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"150\" width=\"260\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"1230\" y1=\"210\" x2=\"1370\" y2=\"38\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#e2)\"/><line x1=\"1230\" y1=\"210\" x2=\"1370\" y2=\"108\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#e2)\"/><line x1=\"1230\" y1=\"210\" x2=\"1370\" y2=\"178\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#e2)\"/><line x1=\"1230\" y1=\"210\" x2=\"1370\" y2=\"248\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#e2)\"/><line x1=\"1230\" y1=\"210\" x2=\"1370\" y2=\"318\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#e2)\"/><line x1=\"1230\" y1=\"210\" x2=\"1370\" y2=\"388\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#e2)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 40,
+     "w": 240,
+     "t": "testosterona",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 135,
+     "w": 240,
+     "t": "cortisol",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 240,
+     "t": "T3",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 325,
+     "w": 240,
+     "t": "insulina",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 190,
+     "w": 260,
+     "t": "músculo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 190,
+     "w": 260,
+     "t": "músculo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1390,
+     "y": 20,
+     "w": 274,
+     "t": "fígado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1390,
+     "y": 90,
+     "w": 274,
+     "t": "tecido adiposo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1390,
+     "y": 160,
+     "w": 274,
+     "t": "osso",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1390,
+     "y": 230,
+     "w": 274,
+     "t": "cérebro",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1390,
+     "y": 300,
+     "w": 274,
+     "t": "pâncreas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1390,
+     "y": 370,
+     "w": 274,
+     "t": "sistema imune",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O erro de enquadramento",
+   "titulo": "O músculo recebe ordens. E também fala",
+   "destaque": "A figura clássica não está errada. Está pela metade: falta a seta que sai.",
+   "destaque_cor": "petr",
+   "fonte": "Pedersen e Febbraio, Physiological Reviews 2008"
+  },
+  {
+   "id": "escala",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Aumento sobre o repouso: noradrenalina perto de 12 vezes no esforço intenso; interleucina-6 até 100 vezes no exercício prolongado\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"360\" y=\"40\" width=\"154\" height=\"80\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"360\" y=\"170\" width=\"1280\" height=\"80\" rx=\"4\" fill=\"#008A7E\"/><line x1=\"360\" y1=\"20\" x2=\"360\" y2=\"290\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 48,
+     "w": 340,
+     "t": "noradrenalina",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 86,
+     "w": 340,
+     "t": "esforço intenso",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 534,
+     "y": 60,
+     "w": 200,
+     "t": "≈ 12×",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 178,
+     "w": 340,
+     "t": "interleucina-6",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 216,
+     "w": 340,
+     "t": "exercício prolongado",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 190,
+     "w": 280,
+     "t": "até 100×",
+     "tam": 32,
+     "cor": "#FFFFFF",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O número que chamou a atenção",
+   "titulo": "Uma citocina subindo cem vezes",
+   "destaque": "A leitura óbvia: exercício lesa o músculo, e a inflamação sobe. É razoável. E está errada.",
+   "destaque_cor": "verm",
+   "fonte": "Aumento sobre o repouso · noradrenalina: aula das catecolaminas · IL-6: Pedersen e Febbraio 2008"
+  },
+  {
+   "id": "trabalho",
+   "tipo": "duas",
+   "eyebrow": "O que desmontou a leitura",
+   "titulo": "Sinal de trabalho, não de lesão",
+   "esq": {
+    "t": "Se fosse lesão",
+    "cor": "ambar",
+    "itens": [
+     "o TNF sobe antes e puxa a IL-6",
+     "a IL-6 acompanha o dano",
+     "o excêntrico, que lesa mais, daria mais IL-6"
+    ]
+   },
+   "dir": {
+    "t": "O que se mediu",
+    "cor": "petr",
+    "itens": [
+     "sem TNF na frente",
+     "sai do próprio músculo em contração",
+     "acompanha duração, intensidade e massa envolvida",
+     "sobe mais com o glicogênio baixo"
+    ]
+   },
+   "destaque": "Steensberg, 2001: na mesma pessoa, a perna com pouco glicogênio liberou mais IL-6. Um sinal de escassez local.",
+   "destaque_cor": "tinta",
+   "fonte": "Steensberg e colaboradores, Journal of Physiology 2001 · 7 homens, 5 horas de extensão de joelho"
+  },
+  {
+   "id": "paradoxo",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A IL-6 que sai do músculo segue dois caminhos: para fígado e tecido adiposo, liberando glicose e gordura; para o sistema imune, subindo IL-1ra e IL-10 e bloqueando a subida do TNF\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"p1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"p2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"130\" width=\"380\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"390\" y1=\"170\" x2=\"700\" y2=\"80\" stroke=\"#B07A1C\" stroke-width=\"5\" marker-end=\"url(#p1)\"/><line x1=\"390\" y1=\"230\" x2=\"700\" y2=\"320\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#p2)\"/><rect x=\"720\" y=\"10\" width=\"944\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"720\" y=\"240\" width=\"944\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 160,
+     "w": 380,
+     "t": "IL-6",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 212,
+     "w": 380,
+     "t": "do músculo em contração",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 30,
+     "w": 880,
+     "t": "Metabólico: fígado e tecido adiposo",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 80,
+     "w": 880,
+     "t": "mais glicose liberada pelo fígado, mais gordura mobilizada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 260,
+     "w": 880,
+     "t": "Imune: o contexto muda o efeito",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 310,
+     "w": 880,
+     "t": "IL-1ra e IL-10 sobem · a subida do TNF some",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Starkie e colaboradores, 2003",
+   "titulo": "Pró-inflamatória no livro, anti-inflamatória no músculo",
+   "destaque": "Endotoxina sozinha dobrou ou triplicou o TNF. Com três horas de pedalada, ou com IL-6 infundida, a subida não veio.",
+   "destaque_cor": "petr",
+   "fonte": "FASEB Journal 2003 · 8 homens saudáveis"
+  },
+  {
+   "id": "catalogo",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Centenas de candidatas",
+   "titulo": "Separar o estabelecido da promessa",
+   "cards": [
+    {
+     "t": "Mais firme em humanos",
+     "x": "IL-6 · o treino de força reduz a miostatina: parte do efeito é soltar um freio",
+     "cor": "petr"
+    },
+    {
+     "t": "Em construção",
+     "x": "IL-15, decorina, apelina, SPARC, catepsina B, BDNF",
+     "cor": "ambar"
+    },
+    {
+     "t": "Controversa",
+     "x": "irisina: um estudo de caso de como ler literatura",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "BDNF: no remo de quatro horas, o cérebro respondia por 70 a 80% do que circulava. “O músculo manda BDNF ao cérebro” é mais simples que o dado.",
+   "destaque_cor": "tinta",
+   "fonte": "Rasmussen e colaboradores, Experimental Physiology 2009"
+  },
+  {
+   "id": "irisina",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Linha do tempo da irisina: 2012, descrita em camundongos; 2015, anticorpos dos kits reagem com outras proteínas; 2015, espectrometria de massas encontra irisina em concentração baixa, maior em treinados\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"40\" y1=\"60\" x2=\"1624\" y2=\"60\" stroke=\"#6B7A87\" stroke-width=\"4\"/><circle cx=\"60\" cy=\"60\" r=\"16\" fill=\"#B07A1C\"/><rect x=\"40\" y=\"110\" width=\"500\" height=\"270\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"605\" cy=\"60\" r=\"16\" fill=\"#A8322A\"/><rect x=\"585\" y=\"110\" width=\"500\" height=\"270\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1150\" cy=\"60\" r=\"16\" fill=\"#008A7E\"/><rect x=\"1130\" y=\"110\" width=\"500\" height=\"270\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 64,
+     "y": 130,
+     "w": 452,
+     "t": "2012 · Boström",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 190,
+     "w": 452,
+     "t": "FNDC5 vira irisina e “escurece” a gordura branca, em camundongos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 609,
+     "y": 130,
+     "w": 452,
+     "t": "2015 · Albrecht",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 609,
+     "y": 190,
+     "w": 452,
+     "t": "anticorpos dos kits comerciais reagem com outras proteínas do soro",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1154,
+     "y": 130,
+     "w": 452,
+     "t": "2015 · Jedrychowski",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1154,
+     "y": 190,
+     "w": 452,
+     "t": "espectrometria de massas, sem anticorpo: a molécula existe",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1154,
+     "y": 300,
+     "w": 452,
+     "t": "≈ 3,6 ng/mL sedentários · ≈ 4,3 ng/mL treinados",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um estudo de caso de ceticismo",
+   "titulo": "Irisina: exercício em forma de molécula?",
+   "destaque": "Existe, circula e muda com o treino. Em disputa: o tamanho da resposta em humanos. Com mercado do outro lado, confira o método de medida.",
+   "destaque_cor": "verm",
+   "fonte": "Nature 2012 · Scientific Reports 2015 · Cell Metabolism 2015"
+  },
+  {
+   "id": "mapa",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Para quem o músculo fala",
+   "titulo": "A contração é, ela mesma, um evento endócrino",
+   "cards": [
+    {
+     "t": "Fígado",
+     "x": "glicose e gordura hepática, mesmo sem perda de peso",
+     "cor": "tinta"
+    },
+    {
+     "t": "Tecido adiposo",
+     "x": "quebra de gordura, comportamento do adipócito",
+     "cor": "tinta"
+    },
+    {
+     "t": "Osso",
+     "x": "sinal além da carga; sarcopenia e osteoporose juntas",
+     "cor": "tinta"
+    },
+    {
+     "t": "Cérebro",
+     "x": "catepsina B: memória em camundongos; em humanos, correlação",
+     "cor": "ambar"
+    },
+    {
+     "t": "Sistema imune",
+     "x": "tônus inflamatório mais baixo",
+     "cor": "tinta"
+    },
+    {
+     "t": "Pâncreas",
+     "x": "sinais que modulam a célula beta",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Exercina: sinal liberado com o exercício por músculo, coração, fígado ou tecido adiposo. Proteínas, vesículas, microRNAs e metabólitos como o lactato.",
+   "destaque_cor": "petr",
+   "fonte": "Moon e colaboradores, Cell Metabolism 2016 · Chow e colaboradores, Nature Reviews Endocrinology 2022"
+  },
+  {
+   "id": "conduta",
+   "tipo": "lista",
+   "eyebrow": "O que muda na segunda-feira",
+   "titulo": "A balança não mede o que o músculo manda",
+   "itens": [
+    {
+     "t": "O benefício não é só gasto calórico",
+     "x": "boa parte acontece em tecido que não se contraiu",
+     "cor": "petr"
+    },
+    {
+     "t": "Quem treina e não emagrece está mudando outra coisa",
+     "x": "a resposta deixa de ser consolo e vira mecanismo",
+     "cor": "petr"
+    },
+    {
+     "t": "Perder músculo é perder um órgão que sinaliza",
+     "x": "o peso novo da sarcopenia e do destreino",
+     "cor": "ambar"
+    },
+    {
+     "t": "Parar não é neutro",
+     "x": "é tirar um recado que o corpo estava recebendo",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 22
+  },
+  {
+   "id": "frasco",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O que o conceito não autoriza",
+   "frase": "O que eleva miocina é músculo se contraindo.",
+   "apoio": "São dezenas de sinais juntos, em pulsos. Boa parte da ação é local, como a do IGF-1. E o estímulo é a contração: não existe versão dela em frasco."
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "A régua honesta",
+   "titulo": "A molécula é gratuita",
+   "regras": [
+    "Sólido: o músculo libera sinais ao se contrair, e há efeito a distância",
+    "Em construção: benefício clínico específico atribuído a molécula específica",
+    "Promessa comercial: qualquer efeito sem a contração"
+   ],
+   "cards": [
+    {
+     "t": "Educador físico",
+     "x": "Quanta massa entra e por quanto tempo."
+    },
+    {
+     "t": "Nutricionista",
+     "x": "O combustível em que a contração acontece."
+    },
+    {
+     "t": "Fisioterapia e psicologia",
+     "x": "Contração possível na lesão, e a adesão."
+    }
+   ],
+   "quem": "O médico reconhece o que não melhora sem contração, e para de procurar frasco."
+  }
+ ]
+}
