@@ -1,234 +1,389 @@
-# Módulo 2 · Aula 2.5 — Respostas cardiovasculares agudas e crônicas
+# Módulo 2 · Aula 2.5 — O coração em ordem: respostas cardiovasculares agudas e crônicas
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 20 minutos · 5 slides · Arquitetura: PROCEDIMENTO
+Duração: 19 minutos · 19 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 5]**
-*Visual: silhueta humana com o débito cardíaco em repouso e no esforço máximo escritos lado a lado, e a redistribuição de fluxo desenhada em barras — músculo, vísceras, pele, cérebro.*
-*Teleprompter: (entra percorrendo a sequência, tom de método)*
+📊 **[SLIDE 1 DE 19]**
+*Visual: a frequência cardíaca ao longo do tempo, começando a subir antes da linha que marca o primeiro passo.*
+*Teleprompter: (entra pela cena, tom de método)*
 
-Uma jogadora de handebol entra em quadra e faz o primeiro sprint. Vamos percorrer, em ordem, o que o sistema cardiovascular dela faz nos primeiros segundos — porque cada etapa dessa sequência decide alguma coisa na nossa prática.
+Uma jogadora de handebol entra em quadra e faz o primeiro sprint. Vamos percorrer, em ordem, o que o sistema cardiovascular dela faz. Cada etapa dessa sequência decide alguma coisa na nossa prática.
 
-**Etapa um: o comando vem antes do músculo pedir.**
+Etapa um. O comando vem antes de o músculo pedir.
 
-A frequência cardíaca começa a subir **antes** do primeiro passo, por ativação do comando central — o mesmo sinal que o córtex manda para o músculo tem uma via paralela que reduz o tônus vagal. Depois, com o esforço em curso, entram os receptores dentro do músculo, que informam sobre o trabalho mecânico e sobre o ambiente metabólico local.
+A frequência cardíaca começa a subir antes do primeiro passo. É o comando central: o mesmo sinal que o cérebro manda para o músculo tem um caminho paralelo que tira o freio do nervo vago. Depois, com o esforço em curso, entram os receptores dentro do músculo, que informam o trabalho mecânico e o ambiente químico local.
 
-Isso decide uma coisa prática: **a frequência cardíaca dos primeiros trinta segundos não é medida de esforço.** É antecipação. Quem lê a FC do começo do aquecimento como se fosse intensidade está lendo expectativa, não demanda.
-
-**Etapa dois: o débito cardíaco multiplica.**
-
-Em repouso, o coração bombeia em torno de **cinco litros por minuto**. Num esforço máximo, um adulto destreinado chega a algo como **vinte litros por minuto**, e um atleta de endurance de alto nível pode passar de **trinta e cinco**.
-
-Sete vezes. E isso vem de duas variáveis: frequência cardíaca, que sobe muito, e volume de ejeção, que sobe até um ponto e então estabiliza. Guarde essa assimetria — ela explica por que treinar coração é, em boa parte, treinar volume de ejeção.
-
-**Etapa três: o sangue muda de endereço.**
-
-Em repouso, o músculo esquelético recebe algo perto de **quinze a vinte por cento** do débito. No esforço máximo, passa de **oitenta por cento**.
-
-Isso não vem do nada. Vem de vasodilatação no leito muscular ativo **e** de vasoconstrição no território visceral — rim, intestino, fígado. O sangue é retirado de onde não é urgente naquele momento.
-
-E isso decide duas coisas que aparecem toda semana. Primeira: **o desconforto gastrointestinal em prova longa não é só o que a pessoa comeu.** É um intestino trabalhando com uma fração da perfusão habitual, por horas. Segunda: a pele entra na disputa quando é preciso dissipar calor, e aí três territórios competem pelo mesmo débito — músculo, vísceras e pele. É a raiz fisiológica de tudo que a gente vai discutir na aula sobre calor.
-
-**Etapa quatro: a pressão arterial responde de forma assimétrica.**
-
-No exercício dinâmico, a **sistólica sobe** proporcionalmente à intensidade, podendo chegar a valores na casa de duzentos milímetros de mercúrio em esforço máximo, enquanto a **diastólica se mantém ou cai levemente** — porque a resistência periférica total despenca com a vasodilatação muscular.
-
-E esse padrão — sistólica subindo, diastólica estável — é o normal. **Diastólica que sobe de forma consistente durante teste de esforço é achado que merece atenção médica**, não um detalhe.
-
-**Etapa cinco: a conta fecha numa equação só.**
-
-Tudo o que eu descrevi cabe numa identidade que organiza o assunto inteiro: **o consumo de oxigênio é o produto do débito cardíaco pela diferença entre o oxigênio que entra pela artéria e o que volta pela veia.** Quanto sangue circula, vezes quanto de oxigênio é extraído dele.
-
-É útil porque diz, de forma limpa, que só existem duas maneiras de melhorar: **circular mais** ou **extrair mais**. Entrega e uso, que foi exatamente a divisão das duas últimas aulas.
-
-E responde a uma pergunta que todo aluno faz: **o que limita o VO₂máx?**
-
-Em pessoas saudáveis, ao nível do mar, o fator limitante principal é a **entrega** — ou seja, o débito cardíaco, com o volume de ejeção à frente. Não é a mitocôndria que está esperando trabalho; é o oxigênio que não chega na velocidade necessária.
-
-Isso não anula a aula anterior, e a distinção importa: a capacidade oxidativa periférica determina em boa medida **a intensidade que a pessoa sustenta por muito tempo** — o limiar —, enquanto a entrega central determina **o teto**. São duas perguntas diferentes, e o atleta real melhora mais na primeira do que na segunda.
-
-A aula oito volta nesse ponto com o exame que mede as duas coisas.
-
-**Etapa seis: com o tempo, a resposta muda dentro da própria sessão.**
-
-Num esforço prolongado em intensidade constante, especialmente no calor, a frequência cardíaca **sobe ao longo dos minutos** mesmo sem nenhuma mudança de ritmo. O volume plasmático cai com a sudorese, o volume de ejeção diminui, e a frequência sobe para manter o débito. Parte do fluxo ainda é desviada para a pele.
-
-Isso decide uma coisa muito concreta: **prescrição por zona de frequência cardíaca perde validade ao longo de uma sessão longa.** O atleta que "estourou a zona" no segundo tempo de uma prova de três horas pode não ter acelerado nada — ele desidratou. Quem corrige o ritmo para baixo a cada subida de FC nessas condições acaba desacelerando sem motivo.
+O que isso decide: a frequência dos primeiros trinta segundos não mede esforço. É antecipação. Quem lê a frequência do começo do aquecimento como intensidade está lendo expectativa, não demanda.
 
 ---
 
-📊 **[SLIDE 2 DE 5]**
-*Visual: duas curvas de pressão arterial lado a lado durante o esforço — a do exercício dinâmico e a do leg press pesado, com a segunda disparando para fora do gráfico.*
-*Teleprompter: (tom de contraste, muda o cenário)*
+📊 **[SLIDE 2 DE 19]**
+*Visual: três barras de débito cardíaco: 5 litros por minuto em repouso, cerca de 20 no máximo de um destreinado e mais de 35 no atleta de endurance de alto nível.*
+*Teleprompter: (números em sequência)*
 
-Agora troca o cenário. A mesma pessoa sai da quadra e vai para a sala de musculação fazer leg press pesado. A resposta cardiovascular é **outra**, e a diferença tem consequência clínica.
+Etapa dois. O débito cardíaco multiplica.
 
-No exercício resistido intenso, a contração muscular mantida **comprime mecanicamente os vasos** dentro do músculo. A resistência ao fluxo sobe em vez de cair. Some a isso a manobra de Valsalva, que quase todo mundo faz espontaneamente em carga alta, e a pressão intratorácica dispara.
+Em repouso, o coração bombeia uns cinco litros por minuto. Num esforço máximo, um adulto destreinado chega perto de vinte. E um atleta de endurance de alto nível pode passar de trinta e cinco.
 
-O resultado foi medido com cateter arterial, e os números impressionam até hoje. No trabalho clássico de MacDougall e colaboradores, de 1985, fisiculturistas experientes fazendo leg press bilateral atingiram média de **trezentos e vinte por duzentos e cinquenta milímetros de mercúrio** — e um dos participantes ultrapassou **quatrocentos e oitenta por trezentos e cinquenta**.
-
-Esses picos são breves, durando segundos, e o organismo saudável os tolera bem. **Não é argumento contra o treino de força**, que é uma das intervenções mais valiosas que existem e que este curso defende do começo ao fim.
-
-O que esses números decidem é **para quem a técnica respiratória deixa de ser detalhe e vira conduta.** Quem tem hipertensão descontrolada, aneurisma conhecido, retinopatia proliferativa, ou passou por cirurgia recente de determinados territórios, recebe orientação explícita: **não prender a respiração, expirar na fase de esforço, e evitar a repetição levada à falha com carga máxima.**
-
-E decide também uma pergunta de anamnese que ninguém faz e que deveria ser rotina: **"você prende a respiração quando levanta peso?"** A resposta muda a orientação, e ela custa cinco segundos.
-
-E tem o outro lado da moeda, que é o efeito agudo mais útil clinicamente de toda esta aula: **a hipotensão pós-exercício.**
-
-Depois de uma sessão, a pressão arterial fica **abaixo** do valor de repouso habitual por horas. A magnitude reportada em hipertensos vai de dois a doze milímetros de mercúrio, e a duração vai de quatro a dezesseis horas. Uma metanálise com dezenas de estudos encontrou redução média em torno de **seis por quatro milímetros** depois de uma sessão aeróbica.
-
-Repara no tamanho disso. Seis milímetros de sistólica é magnitude comparável à de intervenções farmacológicas leves — obtida com **uma** sessão.
-
-E o que isso decide é de aplicação imediata: se o efeito dura horas e não dias, então **o controle pressórico depende da frequência das sessões, não da intensidade delas.** Cinco sessões moderadas na semana cobrem mais horas do dia com pressão reduzida do que duas sessões heroicas.
-
-É o mesmo princípio que a gente viu na aula passada com o pulso de sinalização mitocondrial, aparecendo agora como conduta cardiovascular. Frequência ganha de heroísmo em quase tudo que interessa à saúde.
+Sete vezes o repouso.
 
 ---
 
-📊 **[SLIDE 3 DE 5]**
-*Visual: uma linha do tempo de dois anos com quatro faixas sobrepostas — volume plasmático, frequência cardíaca de repouso, remodelamento estrutural e massa de hemoglobina — cada uma começando num momento diferente.*
-*Teleprompter: (tom de ordem temporal)*
+📊 **[SLIDE 3 DE 19]**
+*Visual: dois gráficos lado a lado contra a intensidade: a frequência cardíaca subindo em linha quase reta até o máximo, e o volume de ejeção subindo no começo e estabilizando.*
+*Teleprompter: (a assimetria que importa)*
 
-Sai do agudo e entra no crônico. E aqui o procedimento é **ordenar as adaptações no tempo**, porque é a ordem que calibra a expectativa de quem treina.
+E esse aumento vem de duas variáveis. A frequência cardíaca, que sobe quase em linha reta até o máximo. E o volume de ejeção, o quanto sai a cada batida, que sobe até um ponto e então estabiliza.
 
-**Primeiro, em dias a poucas semanas: o volume plasmático expande.**
-
-Mais volume circulante significa melhor enchimento ventricular, melhor volume de ejeção, e melhor capacidade de dissipar calor. Boa parte do ganho de capacidade aeróbica nas primeiras semanas de treino vem daí — **antes** de qualquer remodelamento estrutural.
-
-E essa adaptação é tão rápida de aparecer quanto de desaparecer. Poucos dias sem treino já revertem parte dela, e é isso que explica uma queixa clássica: o atleta que parou duas semanas e voltou se sentindo pesado e sem ar, com a musculatura intacta. **Parte do que ele perdeu foi líquido, não condicionamento** — e volta rápido.
-
-**Segundo, em semanas a meses: a frequência cardíaca de repouso cai.**
-
-Não porque o coração enfraqueceu, mas porque cada batimento rende mais — somado a aumento de tônus vagal.
-
-**Terceiro, em meses a anos: o coração remodela**, e remodela conforme a sobrecarga que recebeu.
-
-Treino de endurance impõe **sobrecarga de volume** — muito sangue passando, repetidamente, por períodos longos — e a resposta é aumento da cavidade ventricular com espessura de parede proporcional. Treino de força impõe **sobrecarga de pressão** — picos altos e breves —, e a resposta tende mais ao espessamento de parede com cavidade pouco alterada. Na vida real quase ninguém faz só um dos dois, e o que se vê é mistura.
-
-**Quarto, e mais lento de todos: a massa total de hemoglobina aumenta**, melhorando a capacidade de carregar oxigênio. É uma das adaptações que mais separam quem treina endurance há anos de quem começou na temporada passada.
-
-Primeiro o líquido. Depois o ritmo. Depois a estrutura. E por último a capacidade de transporte.
-
-Quem promete "adaptação cardiovascular em quatro semanas" está prometendo, com honestidade ou sem ela, **a parte líquida** — que é real, é boa, e é a primeira a ir embora.
+Guarda essa assimetria. Ela explica por que treinar o coração é, em boa parte, treinar volume de ejeção. A frequência máxima quase não muda com treino. O quanto sai em cada batida muda.
 
 ---
 
-📊 **[SLIDE 4 DE 5]**
-*Visual: um tubo de sangue com plasma expandido e a mesma massa de hemácias, ao lado de um hemograma com a hemoglobina destacada abaixo do valor de referência.*
-*Teleprompter: (tom de leitura de exame)*
+📊 **[SLIDE 4 DE 19]**
+*Visual: duas barras de 100% do débito, repouso e esforço máximo, mostrando a fatia do músculo passando de 15 a 20% para mais de 80%.*
+*Teleprompter: (o sangue muda de endereço)*
 
-Uma consequência da primeira adaptação chega ao laboratório, e ela engana muita gente todo dia.
+Etapa três. O sangue muda de endereço.
 
-Se o plasma aumenta e a massa total de hemácias não aumenta na mesma proporção, a **concentração** de hemoglobina cai. O laudo mostra um número abaixo do intervalo de referência, e o que está por trás dele é uma adaptação **boa**.
+Em repouso, o músculo recebe algo perto de quinze a vinte por cento do débito. No esforço máximo, passa de oitenta por cento.
 
-É a pseudoanemia do atleta — diluicional, não carencial.
-
-Agora o procedimento de leitura, porque aqui é onde se erra nos dois sentidos.
-
-**Passo um: olhar a companhia, não o número isolado.** Hemoglobina baixa com índices normais, ferritina adequada e proteína C reativa normal, em alguém com treino aeróbico volumoso, tem cara de diluição.
-
-**Passo dois: verificar a condição de coleta.** Hora do dia, tempo desde a última sessão, estado de hidratação, fase do ciclo. O mesmo atleta coletado em período de férias e em período de carga alta dá resultados diferentes — e a maior parte dos laudos não registra nada disso. **Anotar a condição de coleta deveria ser rotina, e não é.**
-
-**Passo três: lembrar que existem três cenários, não dois.** Diluição por expansão plasmática. Deficiência de ferro verdadeira. **E as duas ao mesmo tempo**, que é comum — especialmente em corredora que menstrua, e em quem tem alto volume de impacto.
-
-O erro de tratar toda hemoglobina baixa com ferro e o erro de chamar toda hemoglobina baixa de pseudoanemia são o **mesmo erro com sinais trocados**: os dois decidem sem olhar a companhia.
-
-E o escopo aqui é nítido: **interpretar o hemograma e indicar reposição é conduta médica.** O que o resto do departamento precisa é reconhecer o padrão para não gerar alarme desnecessário, e reconhecer a exceção para não deixar passar uma ferropenia real. O módulo de medicina esportiva clínica tem uma aula inteira sobre ferro e anemia no atleta.
+Isso não vem do nada. Vem de vasos que se abrem no músculo que está trabalhando, e de vasos que se fecham nas vísceras: rim, intestino, fígado. O sangue sai de onde não é urgente naquele momento.
 
 ---
 
-📊 **[SLIDE 5 DE 5]**
-*Visual: três instrumentos de acompanhamento desenhados como uma ficha simples — FC de repouso, FC em carga submáxima padronizada, recuperação no primeiro minuto — com espaço para data ao lado de cada um.*
-*Teleprompter: (fecha entregando o roteiro e emenda)*
+📊 **[SLIDE 5 DE 19]**
+*Visual: o coração com três saídas disputando o mesmo débito: músculo, vísceras e pele.*
+*Teleprompter: (duas consequências de toda semana)*
+
+E isso decide duas coisas que aparecem toda semana.
+
+Primeira. O desconforto de estômago e intestino em prova longa não é só o que a pessoa comeu. É um intestino trabalhando por horas com uma fração do sangue que costuma receber.
+
+Segunda. A pele entra na disputa quando é preciso jogar calor para fora. Aí são três territórios brigando pelo mesmo débito: músculo, vísceras e pele. Essa é a raiz fisiológica de quase tudo que a gente vai discutir na aula sobre calor.
+
+---
+
+📊 **[SLIDE 6 DE 19]**
+*Visual: a pressão sistólica subindo com a intensidade, a diastólica estável ou caindo um pouco, e uma linha tracejada de diastólica subindo marcada como achado que pede atenção.*
+*Teleprompter: (o normal e o que não é)*
+
+Etapa quatro. A pressão arterial responde de forma assimétrica.
+
+No exercício dinâmico, a sistólica sobe junto com a intensidade e pode chegar perto de duzentos no esforço máximo. A diastólica fica parada ou cai um pouco, porque os vasos abertos no músculo derrubam a resistência total.
+
+Sistólica subindo, diastólica estável. Esse é o normal.
+
+Diastólica que sobe de forma consistente durante um teste de esforço é achado que merece atenção médica. Não é detalhe.
+
+---
+
+📊 **[SLIDE 7 DE 19]**
+*Visual: a equação escrita grande: consumo de oxigênio igual a débito cardíaco vezes diferença arteriovenosa de oxigênio, com "circular mais" embaixo do primeiro termo e "extrair mais" embaixo do segundo.*
+*Teleprompter: (a conta que organiza tudo)*
+
+Etapa cinco. A conta fecha numa equação só.
+
+O consumo de oxigênio é o débito cardíaco vezes a diferença entre o oxigênio que chega pela artéria e o que volta pela veia. Quanto sangue circula, vezes quanto oxigênio se tira dele.
+
+Isso diz, de um jeito limpo, que só existem duas maneiras de melhorar: circular mais, ou extrair mais. Entrega e uso.
+
+E responde uma pergunta que todo aluno faz: o que limita o VO₂máx? Em pessoa saudável, ao nível do mar, o limite principal é a entrega. O débito cardíaco, com o volume de ejeção na frente. Não é a mitocôndria esperando trabalho. É o oxigênio que não chega na velocidade necessária.
+
+Isso não anula a aula passada. A capacidade oxidativa do músculo decide em boa parte a intensidade que a pessoa sustenta por muito tempo, o limiar. A entrega decide o teto. São duas perguntas diferentes, e o atleta real melhora mais na primeira do que na segunda. A aula de limiares volta nesse ponto com o exame que mede as duas.
+
+---
+
+📊 **[SLIDE 8 DE 19]**
+*Visual: três horas de exercício em ritmo constante no calor: a frequência cardíaca subindo devagar e o volume de ejeção caindo, em dois painéis.*
+*Teleprompter: (o que muda dentro da própria sessão)*
+
+Etapa seis. Com o tempo, a resposta muda dentro da própria sessão.
+
+Num esforço longo em ritmo constante, principalmente no calor, a frequência cardíaca sobe ao longo dos minutos sem nenhuma mudança de ritmo. O volume de ejeção cai, e a frequência sobe para segurar o débito. Com o suor, o plasma diminui, e parte do sangue vai para a pele.
+
+Isso decide uma coisa muito concreta. Prescrição por zona de frequência cardíaca perde validade ao longo de uma sessão longa. O atleta que estourou a zona na terceira hora de prova pode não ter acelerado nada. Ele desidratou e esquentou. Quem corrige o ritmo para baixo a cada subida da frequência nessas condições acaba desacelerando sem motivo.
+
+---
+
+📊 **[SLIDE 9 DE 19]**
+*Visual: barras de pressão arterial: uma referência de repouso de 120 por 80, a média de 320 por 250 no leg press pesado e o maior valor medido, acima de 480 por 350.*
+*Teleprompter: (troca o cenário)*
+
+Agora troca o cenário. A mesma pessoa sai da quadra e vai fazer leg press pesado. A resposta é outra, e a diferença tem consequência clínica.
+
+No exercício de força intenso, a contração mantida aperta os vasos dentro do músculo. A resistência ao fluxo sobe em vez de cair. Some a isso a manobra de Valsalva, a respiração presa que quase todo mundo faz em carga alta, e a pressão dentro do tórax dispara.
+
+Isso foi medido com cateter dentro da artéria, num trabalho clássico de mil novecentos e oitenta e cinco, do MacDougall e colaboradores. Fisiculturistas experientes, no leg press com as duas pernas, chegaram em média a trezentos e vinte por duzentos e cinquenta. E um deles passou de quatrocentos e oitenta por trezentos e cinquenta.
+
+Esses picos duram segundos, e o corpo saudável tolera bem. Isso não é argumento contra treino de força, que é uma das intervenções mais valiosas que existem e que este curso defende do começo ao fim.
+
+---
+
+📊 **[SLIDE 10 DE 19]**
+*Visual: quatro cartões de quem precisa de orientação respiratória explícita: pressão descontrolada, aneurisma conhecido, retinopatia proliferativa e cirurgia recente; embaixo, a pergunta de anamnese.*
+*Teleprompter: (o que esses números decidem)*
+
+O que esses números decidem é para quem a técnica de respiração deixa de ser detalhe e vira conduta.
+
+Quem tem pressão alta descontrolada, aneurisma conhecido, retinopatia proliferativa, ou passou por cirurgia recente de certos territórios recebe orientação explícita. Não prender a respiração. Soltar o ar na fase de esforço. E evitar levar a série até a falha com carga máxima.
+
+E decide uma pergunta de anamnese que ninguém faz e que deveria ser rotina: "você prende a respiração quando levanta peso?" A resposta muda a orientação, e a pergunta custa cinco segundos.
+
+---
+
+📊 **[SLIDE 11 DE 19]**
+*Visual: a pressão arterial nas horas depois de uma sessão, caindo abaixo da linha de repouso e voltando devagar; ao lado, 6 por 4 depois de sessão aeróbica e 3 por 3 depois de sessão de força.*
+*Teleprompter: (o efeito agudo mais útil da aula)*
+
+E tem o outro lado da moeda, que é o efeito agudo mais útil clinicamente de toda esta aula. A hipotensão depois do exercício.
+
+Depois de uma sessão, a pressão fica abaixo do valor de repouso habitual por horas. Uma meta-análise com sessenta e cinco estudos encontrou queda média perto de seis por quatro depois de uma sessão aeróbica, e de três por três depois de uma sessão de força. Em quem já tem pressão alta, a queda foi maior.
+
+Repara no tamanho disso. Seis de sistólica é da ordem do que se espera de uma intervenção com remédio em dose leve. Com uma sessão.
+
+---
+
+📊 **[SLIDE 12 DE 19]**
+*Visual: uma semana em faixa de horas: cinco sessões moderadas cobrindo boa parte dos dias com pressão mais baixa, contra duas sessões muito longas cobrindo só dois dias.*
+*Teleprompter: (a consequência de prescrição)*
+
+E o que isso decide é de aplicação imediata. Se o efeito dura horas e não dias, o controle da pressão depende da frequência das sessões, não da intensidade delas.
+
+Olha a semana. Cinco sessões moderadas cobrem muito mais horas com a pressão mais baixa do que duas sessões heroicas.
+
+É o mesmo princípio que a gente viu na aula passada com o pulso de sinal da mitocôndria, agora aparecendo como conduta cardiovascular. Frequência ganha de heroísmo em quase tudo que interessa à saúde.
+
+---
+
+📊 **[SLIDE 13 DE 19]**
+*Visual: uma linha do tempo de dois anos com quatro faixas começando em momentos diferentes: volume plasmático em dias, frequência de repouso em semanas, remodelamento do coração em meses a anos e massa de hemoglobina por último.*
+*Teleprompter: (ordena as adaptações no tempo)*
+
+Sai do agudo e entra no crônico. E aqui o procedimento é ordenar as adaptações no tempo, porque é a ordem que ajusta a expectativa de quem treina.
+
+Primeiro, em dias a poucas semanas, o volume de plasma aumenta. Mais volume circulando significa coração mais cheio, mais volume de ejeção e mais capacidade de jogar calor fora. Boa parte do ganho das primeiras semanas vem daí, antes de qualquer mudança de estrutura.
+
+E ele vai embora tão rápido quanto chega. Poucos dias parado já revertem parte dele. É isso que explica o atleta que parou duas semanas e voltou se sentindo pesado e sem ar, com o músculo intacto. Parte do que ele perdeu foi líquido, não condicionamento. E volta rápido.
+
+Segundo, em semanas a meses, a frequência cardíaca de repouso cai. Não porque o coração enfraqueceu, mas porque cada batida rende mais, e o freio do vago aumenta.
+
+Terceiro, em meses a anos, o coração remodela.
+
+E por último, o mais lento de todos: a massa total de hemoglobina aumenta.
+
+Primeiro o líquido. Depois o ritmo. Depois a estrutura. Por último, o transporte. Quem promete adaptação cardiovascular em quatro semanas está prometendo, com honestidade ou sem, a parte líquida. Que é real, é boa, e é a primeira a ir embora.
+
+---
+
+📊 **[SLIDE 14 DE 19]**
+*Visual: dois corações em corte: o de endurance, com a cavidade maior e a parede proporcional; o de força, com a parede mais espessa e a cavidade pouco alterada.*
+*Teleprompter: (o coração remodela conforme a carga)*
+
+E o coração remodela conforme a sobrecarga que recebeu.
+
+Treino de endurance impõe sobrecarga de volume: muito sangue passando, repetidamente, por muito tempo. A resposta é uma cavidade maior, com parede proporcional.
+
+Treino de força impõe sobrecarga de pressão: picos altos e breves. A resposta tende mais para parede mais espessa, com cavidade pouco alterada.
+
+Na vida real quase ninguém faz só um dos dois, e o que se vê é mistura.
+
+---
+
+📊 **[SLIDE 15 DE 19]**
+*Visual: dois tubos de sangue: antes do treino e depois, com a parte de plasma bem maior e a parte de hemácias igual ou um pouco maior; o número da hemoglobina por litro cai.*
+*Teleprompter: (a adaptação que engana o laboratório)*
+
+Uma consequência da primeira adaptação chega ao laboratório, e engana muita gente todo dia.
+
+Se o plasma aumenta e a massa de hemácias não aumenta na mesma proporção, a concentração de hemoglobina cai. O laudo mostra um número abaixo da referência, e o que está por trás dele é uma adaptação boa. O atleta de endurance, na verdade, costuma ter mais hemoglobina total circulando do que o sedentário. Só que diluída em mais plasma.
+
+É a pseudoanemia do atleta. Diluição, não carência.
+
+---
+
+📊 **[SLIDE 16 DE 19]**
+*Visual: três passos numerados para ler a hemoglobina baixa: olhar a companhia, registrar a condição de coleta e lembrar dos três cenários.*
+*Teleprompter: (procedimento de leitura, sem errar nos dois sentidos)*
+
+Agora o procedimento de leitura, porque aqui se erra nos dois sentidos.
+
+Passo um: olhar a companhia, não o número sozinho. Hemoglobina baixa com índices normais, ferritina adequada e proteína C reativa normal, em alguém com muito treino aeróbico, tem cara de diluição.
+
+Passo dois: registrar a condição de coleta. Hora do dia, tempo desde a última sessão, hidratação, fase do ciclo. O mesmo atleta coletado nas férias e na fase de carga alta dá números diferentes. E quase nenhum laudo registra isso.
+
+Passo três: lembrar que existem três cenários, não dois. Diluição. Falta de ferro verdadeira. E as duas ao mesmo tempo, que é comum, principalmente em corredora que menstrua e em quem tem muito volume de impacto.
+
+Tratar toda hemoglobina baixa com ferro e chamar toda hemoglobina baixa de pseudoanemia são o mesmo erro com o sinal trocado. Os dois decidem sem olhar a companhia.
+
+Interpretar o hemograma e indicar reposição é conduta médica. O que o resto da equipe precisa é reconhecer o padrão, para não criar alarme à toa, e reconhecer a exceção, para não deixar passar uma falta de ferro de verdade. O módulo de medicina esportiva clínica tem uma aula inteira sobre ferro no atleta.
+
+---
+
+📊 **[SLIDE 17 DE 19]**
+*Visual: três instrumentos numa ficha simples, cada um com espaço para data: frequência de repouso, frequência em carga submáxima padronizada e recuperação da frequência no primeiro minuto.*
+*Teleprompter: (o que usar na segunda-feira)*
 
 Fechando com o que dá para usar na segunda-feira, sem equipamento caro.
 
-**Frequência cardíaca de repouso.** O marcador mais acessível de adaptação central. Mesma condição, mesmo horário, de preferência medida durante o sono. E ela é deslocada por calor, desidratação, álcool, doença incubando e noite ruim — então **tendência, nunca ponto isolado**.
+Frequência de repouso. O marcador mais acessível de adaptação central. Mesma condição, mesmo horário, de preferência durante o sono. E ela é mexida por calor, desidratação, álcool, doença começando e noite ruim. Então vale a tendência, nunca o ponto isolado.
 
-**Frequência cardíaca em carga submáxima padronizada.** Mesma velocidade ou mesma carga, mesma duração, frequência anotada no fim. Quando o mesmo esforço passa a custar menos batimentos, adaptação central aconteceu. Na minha opinião é a melhor medida gratuita de adaptação aeróbica que existe — e é subutilizada porque exige disciplina de padronização, não porque seja difícil.
+Frequência em carga submáxima padronizada. Mesma velocidade ou mesma carga, mesma duração, frequência anotada no fim. Quando o mesmo esforço passa a custar menos batidas, adaptação central aconteceu. Na minha opinião é a melhor medida gratuita de adaptação aeróbica que existe. E é pouco usada porque exige disciplina de padronização, não porque seja difícil.
 
-**Recuperação da frequência cardíaca** no primeiro minuto após esforço submáximo padronizado. Reflete reativação parassimpática e acompanha condicionamento.
+Recuperação da frequência no primeiro minuto depois de um esforço submáximo padronizado. Reflete o retorno do freio do vago e acompanha o condicionamento.
 
-E o que **não** dá para acompanhar de forma útil fora do laboratório: volume de ejeção, débito cardíaco e volume plasmático. Quem vende monitoramento dessas variáveis por relógio de pulso está vendendo estimativa com margem larga demais para decidir qualquer coisa.
+E o que não dá para acompanhar de forma útil fora do laboratório: volume de ejeção, débito cardíaco e volume de plasma. Quem vende isso por relógio de pulso está vendendo estimativa com margem larga demais para decidir qualquer coisa.
+
+---
+
+📊 **[SLIDE 18 DE 19]**
+*Visual: a capacidade aeróbica caindo com a idade em duas curvas paralelas, a do treinado bem acima da do sedentário; um ponto marca o treinado de 60 anos acima do sedentário de 40.*
+*Teleprompter: (expectativa com o atleta master)*
 
 Duas notas finais, e as duas são de limite.
 
-**A primeira é de expectativa com o atleta master.** A capacidade aeróbica máxima cai com a idade, e o treino não impede essa queda — ele **desloca a curva inteira para cima**. O adulto treinado de sessenta anos frequentemente tem capacidade aeróbica maior que a do sedentário de quarenta. O objetivo não é recuperar o número de vinte anos atrás; é ficar o mais alto possível na curva que a idade permite. E isso vale muito, porque capacidade aeróbica se traduz em independência funcional décadas depois.
+A primeira é de expectativa com o atleta master. A capacidade aeróbica máxima cai com a idade, e o treino não impede essa queda. Ele desloca a curva inteira para cima. O adulto treinado de sessenta anos frequentemente tem capacidade aeróbica maior que o sedentário de quarenta.
 
-**A segunda é de segurança, e ela atravessa todas as profissões.** O remodelamento fisiológico produz achados que, em outra pessoa, seriam considerados anormais — bradicardia marcada, alterações de repolarização, cavidade aumentada, parede no limite superior. Isso cria uma faixa em que fisiologia e doença se sobrepõem, e as diretrizes europeias de cardiologia do esporte de 2020 existem justamente para organizar esse terreno.
+O objetivo não é recuperar o número de vinte anos atrás. É ficar o mais alto possível na curva que a idade permite. E isso vale muito, porque capacidade aeróbica vira independência décadas depois.
 
-Essa discussão tem aula própria no módulo de medicina esportiva clínica, e ela é longa porque merece ser. Mas uma parte dela não pode esperar até lá, e não depende de saber ler eletrocardiograma:
+---
 
-**Síncope ou quase desmaio durante o esforço. Dor torácica ao esforço. Dispneia desproporcional ao treino. Palpitação com pré-síncope. História familiar de morte súbita precoce.**
+📊 **[SLIDE 19 DE 19]**
+*Visual: cinco sinais que interrompem a atividade e geram encaminhamento, e a frase "é coração de atleta, dito por quem não avaliou".*
+*Teleprompter: (a nota de segurança, atravessa todas as profissões)*
 
-Qualquer um desses interrompe a atividade e gera encaminhamento — com prazo dito e com orientação para o intervalo. Encaminhamento sem prazo e sem orientação é meio encaminhamento. E "é coração de atleta" dito por quem não avaliou é a frase mais perigosa desta aula.
+A segunda nota é de segurança, e ela atravessa todas as profissões.
 
-Na próxima aula eu fecho o sistema de transporte pelo lado que quase nunca é discutido, e que costuma ser mal compreendido justamente por quem treina: o sistema respiratório. A pergunta que organiza a aula é se o pulmão limita o desempenho — e a resposta tem exceções que mudam conduta.
+O coração remodelado pelo treino produz achados que, em outra pessoa, seriam considerados anormais. Frequência muito baixa, alterações de repolarização, cavidade aumentada, parede no limite de cima. Isso cria uma faixa em que fisiologia e doença se sobrepõem. As diretrizes europeias de cardiologia do esporte de dois mil e vinte existem justamente para organizar esse terreno, e isso tem aula própria no módulo de medicina esportiva clínica.
+
+Mas uma parte não pode esperar até lá, e não depende de saber ler eletrocardiograma.
+
+Desmaio ou quase desmaio durante o esforço. Dor no peito ao esforço. Falta de ar desproporcional ao treino. Palpitação com sensação de desmaio. História na família de morte súbita precoce.
+
+Qualquer um desses interrompe a atividade e gera encaminhamento, com prazo dito e orientação para o intervalo. Encaminhamento sem prazo e sem orientação é meio encaminhamento. E "é coração de atleta", dito por quem não avaliou, é a frase mais perigosa desta aula.
+
+Na próxima conversa eu fecho o sistema de transporte pelo lado que quase nunca se discute direito: o pulmão. A pergunta que organiza a aula é se ele limita o desempenho. E a resposta tem exceções que mudam conduta.
 
 ---
 
 ## Referências
 
-1. MacDougall JD, Tuxen D, Sale DG, Moroz JR, Sutton JR. Arterial blood pressure response to heavy resistance exercise. *J Appl Physiol.* 1985;58(3):785-790. PMID: 3980383
-2. Pelliccia A, Sharma S, Gati S, et al. 2020 ESC guidelines on sports cardiology and exercise in patients with cardiovascular disease. *Eur Heart J.* 2021;42(1):17-96. PMID: 32860412
-3. Joyner MJ, Coyle EF. Endurance exercise performance: the physiology of champions. *J Physiol.* 2008;586(1):35-44. PMID: 17901124
-4. Buchheit M. Monitoring training status with HR measures: do all roads lead to Rome? *Front Physiol.* 2014;5:73. doi:10.3389/fphys.2014.00073
-5. Kratz A, Lewandrowski KB, Siegel AJ, et al. Effect of marathon running on hematologic and biochemical laboratory parameters, including cardiac markers. *Am J Clin Pathol.* 2002;118(6):856-863. PMID: 12472278
+1. Joyner MJ, Coyle EF. Endurance exercise performance: the physiology of champions. *J Physiol.* 2008;586(1):35-44. PMID: 17901124
+2. Coyle EF, González-Alonso J. Cardiovascular drift during prolonged exercise: new perspectives. *Exerc Sport Sci Rev.* 2001;29(2):88-92. PMID: 11337829
+3. MacDougall JD, Tuxen D, Sale DG, Moroz JR, Sutton JR. Arterial blood pressure response to heavy resistance exercise. *J Appl Physiol.* 1985;58(3):785-790. PMID: 3980383
+4. Carpio-Rivera E, Moncada-Jiménez J, Salazar-Rojas W, Solera-Herrera A. Acute effects of exercise on blood pressure: a meta-analytic investigation. *Arq Bras Cardiol.* 2016;106(5):422-433. doi:10.5935/abc.20160064
+5. Mairbäurl H. Red blood cells in sports: effects of exercise and training on oxygen supply by red blood cells. *Front Physiol.* 2013;4:332. PMID: 24273518
+6. Buchheit M. Monitoring training status with HR measures: do all roads lead to Rome? *Front Physiol.* 2014;5:73. doi:10.3389/fphys.2014.00073
+7. Pelliccia A, Sharma S, Gati S, et al. 2020 ESC guidelines on sports cardiology and exercise in patients with cardiovascular disease. *Eur Heart J.* 2021;42(1):17-96. PMID: 32860412
 
 ---
 
 ## Roteiro Gamma.app
 
-**Slide 1** — A resposta aguda, em ordem
-· A FC sobe **antes do primeiro passo** — comando central. Os primeiros 30 s não medem esforço
-· Débito cardíaco: **~5 L/min** em repouso → **~20** no destreinado máximo → **>35** no atleta de endurance
-· Sobe por FC e por volume de ejeção — e o volume de ejeção estabiliza antes
-· Fluxo para o músculo: de **15 a 20%** em repouso para **mais de 80%** no máximo
-· Vísceras perdem perfusão: é parte do desconforto gastrointestinal na prova longa
-· PA: **sistólica sobe, diastólica estável ou cai**. Diastólica subindo no teste **merece atenção médica**
-· A conta fecha em uma identidade: **VO₂ = débito cardíaco × diferença arteriovenosa**. Circular mais, ou extrair mais
-· Em saudáveis ao nível do mar, o limitante do VO₂máx é a **entrega**; a periferia decide o **limiar**
-· Em esforço longo, sobretudo no calor, a FC **sobe sozinha** com ritmo constante — desidratação e desvio para a pele
-· Logo: **zona de FC perde validade ao longo da sessão longa**. Estourar a zona nem sempre é acelerar
-Visual: débito em repouso x máximo e a redistribuição em barras.
+**Slide 1** — O comando vem antes
+· A FC sobe **antes do primeiro passo**
+· Os primeiros 30 s **não medem esforço**: é antecipação
+Visual: FC subindo antes da linha do primeiro passo.
 
-**Slide 2** — O outro cenário: carga alta
-· Contração mantida **comprime os vasos**; a resistência sobe em vez de cair
-· MacDougall, 1985, com cateter arterial: leg press bilateral, média **320/250 mmHg**; um caso **>480/350**
-· Picos de segundos, bem tolerados pelo saudável — **não é argumento contra treino de força**
-· Decide a conduta em HAS descontrolada, aneurisma, retinopatia proliferativa, pós-operatório
-· Pergunta de anamnese que ninguém faz: **"você prende a respiração quando levanta peso?"**
-· **Hipotensão pós-exercício**: −2 a −12 mmHg por **4 a 16 horas**; média de ~**6/4 mmHg** após uma sessão
-· Se o efeito dura horas, o controle pressórico depende de **frequência**, não de intensidade
-Visual: as duas curvas de PA, dinâmica e resistida.
+**Slide 2** — O débito multiplica
+· **5 L/min** repouso · **~20** destreinado no máximo · **> 35** atleta de endurance
+Visual: três barras.
 
-**Slide 3** — A ordem das adaptações
-· **Dias a semanas**: volume plasmático — e é ele que explica o ganho das primeiras semanas
-· Some rápido também: duas semanas parado e o atleta se sente pesado com a musculatura intacta
-· **Semanas a meses**: FC de repouso cai — cada batimento rende mais, e o tônus vagal aumenta
-· **Meses a anos**: remodelamento. Endurance = sobrecarga de **volume**; força = sobrecarga de **pressão**
-· **Mais lento de todos**: massa total de hemoglobina
-· Líquido → ritmo → estrutura → transporte. Quem promete em 4 semanas está prometendo o líquido
-Visual: linha do tempo de dois anos com quatro faixas.
+**Slide 3** — FC e volume de ejeção
+· FC sobe quase em linha reta; **volume de ejeção estabiliza**
+· Treinar o coração é, em boa parte, **treinar volume de ejeção**
+Visual: dois gráficos lado a lado.
 
-**Slide 4** — Ler o hemograma sem errar nos dois sentidos
-· Plasma expande, massa de hemácias não acompanha: a **concentração** cai. Pseudoanemia
-· **Passo 1**: olhar a companhia — índices, ferritina com PCR
-· **Passo 2**: registrar a **condição de coleta**. O mesmo atleta em férias dá outro número
-· **Passo 3**: são **três** cenários — diluição · ferropenia · **as duas juntas**, que é comum
-· Tratar tudo com ferro e chamar tudo de pseudoanemia são o **mesmo erro com sinais trocados**
-· Escopo: interpretar e repor é médico. Reconhecer o padrão é de todos
-Visual: tubo com plasma expandido e hemograma com Hb destacada.
+**Slide 4** — O sangue muda de endereço
+· Músculo: **15 a 20%** em repouso → **> 80%** no máximo
+Visual: duas barras de 100%.
 
-**Slide 5** — O que usar na segunda-feira
-· **FC de repouso**: mesma condição, mesmo horário. **Tendência, nunca ponto**
-· **FC em carga submáxima padronizada**: a melhor medida gratuita de adaptação aeróbica
-· **Recuperação da FC** no primeiro minuto
-· Fora do laboratório **não** se acompanha volume de ejeção, débito nem volume plasmático
-· Master: o treino não impede a queda — **desloca a curva**. Treinado de 60 acima do sedentário de 40
-· **Sinais que interrompem e encaminham**: síncope ao esforço · dor torácica · dispneia desproporcional · palpitação com pré-síncope · morte súbita precoce na família
-· "É coração de atleta", dito por quem não avaliou, é a frase mais perigosa da aula
-Visual: a ficha com os três instrumentos e espaço para data.
+**Slide 5** — Três territórios, um débito
+· Intestino com pouco sangue por horas: **desconforto na prova longa**
+· No calor, **a pele entra na disputa**
+Visual: coração com três saídas.
+
+**Slide 6** — A pressão assimétrica
+· **Sistólica sobe, diastólica estável ou cai**
+· Diastólica subindo no teste: **atenção médica**
+Visual: duas curvas e uma tracejada.
+
+**Slide 7** — A equação
+· **VO₂ = débito cardíaco × diferença arteriovenosa**
+· Entrega decide o **teto**; periferia decide o **limiar**
+Visual: a equação.
+
+**Slide 8** — A deriva
+· Ritmo constante, **FC subindo e volume de ejeção caindo**
+· **Zona de FC perde validade** na sessão longa
+Visual: dois painéis de três horas.
+
+**Slide 9** — Carga alta
+· MacDougall 1985: **320/250 mmHg** em média; um caso **> 480/350**
+· Picos de segundos: **não é argumento contra treino de força**
+Visual: barras de pressão.
+
+**Slide 10** — Técnica vira conduta
+· Pressão descontrolada · aneurisma · retinopatia proliferativa · pós-operatório
+· **"Você prende a respiração quando levanta peso?"**
+Visual: quatro cartões.
+
+**Slide 11** — Hipotensão pós-exercício
+· **~6/4 mmHg** após aeróbico · **~3/3** após força · por **horas**
+Visual: curva das horas seguintes.
+
+**Slide 12** — Frequência ganha de heroísmo
+· Efeito de horas: **a frequência das sessões controla a pressão**
+Visual: semana em faixa de horas.
+
+**Slide 13** — A ordem das adaptações
+· **Líquido → ritmo → estrutura → transporte**
+· Quatro semanas prometem **a parte líquida**
+Visual: linha do tempo de dois anos.
+
+**Slide 14** — Volume ou pressão
+· Endurance: **cavidade maior** · força: **parede mais espessa**
+Visual: dois corações em corte.
+
+**Slide 15** — Pseudoanemia
+· Plasma cresce mais que as hemácias: **concentração cai**
+Visual: dois tubos.
+
+**Slide 16** — Ler sem errar nos dois sentidos
+· **Companhia · condição de coleta · três cenários**
+Visual: três passos.
+
+**Slide 17** — A ficha da segunda-feira
+· **FC de repouso · FC em carga padronizada · recuperação no 1º minuto**
+Visual: ficha com datas.
+
+**Slide 18** — Master
+· O treino **desloca a curva** para cima
+Visual: duas curvas de idade.
+
+**Slide 19** — O que interrompe e encaminha
+· Síncope ao esforço · dor no peito · falta de ar desproporcional · palpitação com pré-síncope · morte súbita precoce na família
+Visual: cinco sinais.
+
+---
+
+## Notas de produção (não falado, não vai para o slide)
+
+**O que mudou nesta versão.** Voz do curso, dezenove slides no lugar de cinco. Saíram "escopo" e as
+menções numeradas a aulas. A hipotensão pós-exercício agora traz os números de Carpio-Rivera 2016
+(65 estudos: ~6/4 mmHg após aeróbico, ~3/3 após força, queda maior em hipertensos). Saiu a faixa
+"2 a 12 mmHg por 4 a 16 horas", que não consegui ligar a uma fonte conferida; a aula diz "por
+horas". A deriva cardiovascular ganhou Coyle e González-Alonso 2001, e a pseudoanemia, Mairbäurl
+2013 (atleta de endurance com mais hemoglobina total, diluída em mais plasma). Kratz 2002 saiu das
+referências por não sustentar diretamente nenhum trecho da aula.
+
+**Esquemas.** As curvas dos slides 1, 3, 6, 8, 11, 12, 13 e 18 e os corações do slide 14 são
+ilustrativos, sem valores medidos. A referência de repouso de 120/80 no slide 9 é só comparação.
+
+**Citações faladas.** MacDougall e colaboradores, pela medida intra-arterial de 1985.
+
+**Ligações internas.** calor = aula de calor, hidratação e altitude · pulso de sinal = aula anterior ·
+limiar e ergoespirometria = aula de limiares · ferro e cardiologia do esporte = módulo de medicina
+esportiva clínica · pulmão = próxima aula.
