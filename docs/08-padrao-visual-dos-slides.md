@@ -52,13 +52,29 @@ Cor nunca diz sozinha: toda faixa, barra ou ponto colorido carrega o texto ao la
 5. Citação de estudo no corpo do slide: autor e ano, sem PMID (o PMID fica no arquivo da aula).
 6. Slide de fecho sempre traz as regras da aula, o escopo por profissão e o gancho da próxima.
 
-## Pendente — logo
+## Símbolo da marca
 
-**Reservado, ainda não produzido.** Quando a identidade do curso existir:
+**Definido.** O símbolo é o anel aberto atravessado pelo traçado que nasce no centro
+e sai pela abertura lateral. Arquivos em `marca/`:
 
-- Capa: logo no canto inferior direito, altura ~72px, sobre o fundo tinta.
-- Slides de miolo: marca reduzida (símbolo apenas) à direita do rodapé, altura ~32px,
-  em `#6B7A87` sobre claro e `#4A6076` sobre tinta — presença discreta, sem competir.
-- Slide de fecho: logo completo ao lado do gancho da próxima aula.
+| Arquivo | Uso |
+|---|---|
+| `marca/simbolo.svg` | tinta `#12202E`, para fundo claro |
+| `marca/simbolo-claro.svg` | papel `#F7F6F2`, para fundo tinta |
+| `marca/simbolo.png` | PNG transparente, 512 px, para ferramentas que não aceitam vetor |
+| `marca/estudos/` | as propostas descartadas, guardadas como histórico |
 
-Até lá o rodapé carrega só texto, e o espaço do logo fica livre por construção.
+**Não existe marca d'água.** O símbolo entra uma vez por slide, pequeno e discreto,
+nunca atrás do conteúdo.
+
+**Onde ele fica:**
+
+- **Slides de miolo**: canto superior direito, altura 40 px, borda direita alinhada à
+  margem de 128 px e topo na mesma linha da eyebrow. Cor `#97A4AE` sobre fundo claro.
+- **Capa e slide de fecho** (fundo tinta): mesmo canto, altura 72 px, versão clara em
+  `#F7F6F2` a 70% de opacidade, para não competir com o título.
+- **Nunca**: no meio do slide, atrás de texto, sobre gráfico, repetido, ou esticado.
+  A proporção é fixa, e a área livre ao redor é de meia altura do símbolo.
+
+Quando existir nome de marca, o conjunto de nome e símbolo se monta a partir deste
+mesmo desenho, com o símbolo à esquerda do nome, sem redesenhar nada.
