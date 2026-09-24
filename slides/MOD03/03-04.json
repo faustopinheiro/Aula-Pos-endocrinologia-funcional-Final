@@ -1,0 +1,768 @@
+{
+ "arquivo": "aulas/MOD03/03-04-testosterona-no-praticante.md",
+ "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício",
+ "tema": "bordo",
+ "titulo": "Testosterona no praticante de exercício",
+ "subtitulo": "Avaliação laboratorial e decisão terapêutica",
+ "nota_capa": "Entra direto no pedido do homem de 41 anos.",
+ "secoes": {
+  "pedido": [
+   "O pedido, as duas verdades e o eixo.",
+   "capa"
+  ],
+  "medida": [
+   "Medir direito, frações e estradiol.",
+   "medir"
+  ],
+  "mito": [
+   "O pico agudo não constrói músculo.",
+   "pico"
+  ],
+  "decisao": [
+   "As três saídas e as seis perguntas.",
+   "saidaA"
+  ]
+ },
+ "slides": [
+  {
+   "id": "pedido",
+   "tipo": "duas",
+   "eyebrow": "280 ng/dL e um pedido pronto",
+   "titulo": "Um quadro que aponta para vinte coisas",
+   "esq": {
+    "t": "Os sintomas atribuídos à testosterona",
+    "cor": "verm",
+    "itens": [
+     "cansaço",
+     "libido baixa",
+     "dificuldade de ganhar massa",
+     "humor ruim"
+    ]
+   },
+   "dir": {
+    "t": "O que também produz esse quadro",
+    "cor": "tinta",
+    "itens": [
+     "sono curto, apneia",
+     "déficit de energia",
+     "excesso de treino",
+     "depressão"
+    ]
+   },
+   "destaque": "“Minha testosterona está em 280, já pesquisei, está abaixo do normal, eu quero começar reposição.”",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "verdades",
+   "tipo": "duas",
+   "eyebrow": "Duas coisas verdadeiras ao mesmo tempo",
+   "titulo": "Doença real, e o eixo mais fácil de desligar",
+   "esq": {
+    "t": "Hipogonadismo existe",
+    "cor": "verm",
+    "itens": [
+     "Klinefelter, quimio ou radioterapia pélvica, trauma ou torção",
+     "tumor de hipófise, prolactina alta, hemocromatose",
+     "opioide crônico, corticoide em dose alta",
+     "anabolizante com eixo que não recuperou"
+    ]
+   },
+   "dir": {
+    "t": "Suprimido por contexto",
+    "cor": "petr",
+    "itens": [
+     "reprodução é a função mais adiável",
+     "quando falta caixa, é o primeiro corte",
+     "sono, energia, treino, vida",
+     "dos cinco eixos, o mais fácil de desligar"
+    ]
+   },
+   "destaque": "A pergunta não é “quanto está”. É: o eixo está doente, ou está fazendo o que deveria diante da conta desse homem?",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "eixo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"O gerador de pulsos no hipotálamo, com neurônios de kisspeptina sensíveis a leptina, insulina e substrato, comanda a hipófise, que libera LH e FSH, que comandam o testículo; a testosterona volta ao topo\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"t1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"t2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"t3\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"300\" y=\"20\" width=\"460\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"300\" y=\"170\" width=\"460\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"300\" y=\"320\" width=\"460\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"530\" y1=\"120\" x2=\"530\" y2=\"162\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#t1)\"/><line x1=\"530\" y1=\"270\" x2=\"530\" y2=\"312\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#t1)\"/><line x1=\"40\" y1=\"30\" x2=\"290\" y2=\"68\" stroke=\"#B07A1C\" stroke-width=\"3\" marker-end=\"url(#t3)\"/><line x1=\"40\" y1=\"64\" x2=\"290\" y2=\"68\" stroke=\"#B07A1C\" stroke-width=\"3\" marker-end=\"url(#t3)\"/><line x1=\"40\" y1=\"98\" x2=\"290\" y2=\"68\" stroke=\"#B07A1C\" stroke-width=\"3\" marker-end=\"url(#t3)\"/><path d=\"M760 368 C 900 368, 900 68, 772 68\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"14 10\" marker-end=\"url(#t2)\"/><line x1=\"990\" y1=\"0\" x2=\"990\" y2=\"440\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"1040\" y=\"60\" width=\"624\" height=\"150\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1040\" y=\"250\" width=\"624\" height=\"150\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 300,
+     "y": 50,
+     "w": 460,
+     "t": "gerador de pulsos",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 200,
+     "w": 460,
+     "t": "hipófise: LH e FSH",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 350,
+     "w": 460,
+     "t": "testículo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 130,
+     "w": 280,
+     "t": "kisspeptina: leptina, insulina, substrato",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 890,
+     "y": 200,
+     "w": 100,
+     "t": "testosterona avisa o topo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 80,
+     "w": 580,
+     "t": "Testosterona baixa, LH alto",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 130,
+     "w": 580,
+     "t": "o comando foi dado e o testículo não cumpriu: primário",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 270,
+     "w": 580,
+     "t": "Testosterona baixa, LH baixo ou normal",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 320,
+     "w": 580,
+     "t": "o centro não pediu: no praticante, o mais comum",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um sensor de energia acoplado à ignição",
+   "titulo": "O cortisol é o hormônio do agora; a testosterona, do depois"
+  },
+  {
+   "id": "medir",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Testosterona ao longo do dia: mais alta às 7 ou 8 horas e mais baixa no fim da tarde; uma coleta às 16h30 cai no vale\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"20.0\" y1=\"320\" x2=\"20.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"260.0\" y1=\"320\" x2=\"260.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"500.0\" y1=\"320\" x2=\"500.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"740.0\" y1=\"320\" x2=\"740.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"980.0\" y1=\"320\" x2=\"980.0\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><circle cx=\"590\" cy=\"128\" r=\"14\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"80\" cy=\"63\" r=\"14\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"20\" y1=\"320\" x2=\"980\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"20.0,62.2 50.0,62.4 80.0,63.0 110.0,64.1 140.0,65.5 170.0,67.4 200.0,69.6 230.0,72.2 260.0,75.2 290.0,78.5 320.0,82.2 350.0,86.2 380.0,90.5 410.0,95.2 440.0,100.0 470.0,105.2 500.0,110.6 530.0,116.1 560.0,121.9 590.0,127.8 620.0,133.9 650.0,140.0 680.0,146.3 710.0,152.6 740.0,158.9 770.0,165.2 800.0,171.5 830.0,177.7 860.0,183.9 890.0,190.0 920.0,195.9 950.0,201.6 980.0,207.2\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"1080\" y=\"10\" width=\"584\" height=\"64\" rx=\"32\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1080\" y=\"90\" width=\"584\" height=\"64\" rx=\"32\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1080\" y=\"170\" width=\"584\" height=\"64\" rx=\"32\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1080\" y=\"250\" width=\"584\" height=\"64\" rx=\"32\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": -60,
+     "y": 336,
+     "w": 160,
+     "t": "7 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 180,
+     "y": 336,
+     "w": 160,
+     "t": "11 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 336,
+     "w": 160,
+     "t": "15 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 336,
+     "w": 160,
+     "t": "19 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 336,
+     "w": 160,
+     "t": "23 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 0,
+     "w": 400,
+     "t": "coleta às 8 h, em jejum",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 200,
+     "w": 380,
+     "t": "coleta às 16h30: o vale",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 27,
+     "w": 584,
+     "t": "manhã cedo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 107,
+     "w": 584,
+     "t": "em jejum",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 187,
+     "w": 584,
+     "t": "sem doença aguda",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 267,
+     "w": 584,
+     "t": "longe de treino extenuante",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A causa mais comum é logística",
+   "titulo": "Medir direito, e repetir",
+   "destaque": "Um valor baixo isolado não faz diagnóstico: segunda dosagem matinal, em jejum, em outro dia. Repetir custa uma coleta. Errar custa um eixo.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos · Bhasin e colaboradores, Endocrine Society 2018"
+  },
+  {
+   "id": "fracoes",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Testosterona total dividida em ligada à SHBG, ligada à albumina e livre, de 1 a 2%. Dois perfis: obesidade com SHBG baixa e total baixa; atleta magro em restrição com SHBG alta que esconde a supressão\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"40\" width=\"963\" height=\"80\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"965\" y=\"40\" width=\"664\" height=\"80\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1631\" y=\"40\" width=\"31\" height=\"80\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"0\" y=\"170\" width=\"810\" height=\"220\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"854\" y=\"170\" width=\"810\" height=\"220\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 62,
+     "w": 965,
+     "t": "ligada à SHBG: guardada",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 965,
+     "y": 62,
+     "w": 666,
+     "t": "ligada à albumina: solta fácil",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 0,
+     "w": 364,
+     "t": "livre: 1 a 2%",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 190,
+     "w": 760,
+     "t": "Obesidade e resistência à insulina",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 240,
+     "w": 750,
+     "t": "SHBG baixa, total baixa: a livre está bem menos comprometida do que o número assusta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 190,
+     "w": 760,
+     "t": "Atleta magro em restrição",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 240,
+     "w": 750,
+     "t": "SHBG alta: a total fica confortável e pode esconder uma supressão real",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A total engana nos dois sentidos",
+   "titulo": "Quem decide é a SHBG",
+   "destaque": "Peça SHBG junto e use a livre calculada. Imunoensaio direto de testosterona livre não sustenta decisão.",
+   "destaque_cor": "petr",
+   "fonte": "Proporções aproximadas · Bhasin e colaboradores, Endocrine Society 2018"
+  },
+  {
+   "id": "estradiol",
+   "tipo": "cards",
+   "eyebrow": "Finkelstein e colaboradores, 2013",
+   "titulo": "O estradiol no homem não é impureza",
+   "cards": [
+    {
+     "t": "Acompanhou a testosterona",
+     "x": "massa magra, área muscular da coxa, força no leg press",
+     "cor": "petr"
+    },
+    {
+     "t": "Acompanhou o estradiol",
+     "x": "acúmulo de gordura, sobretudo",
+     "cor": "ambar"
+    },
+    {
+     "t": "Dependeu dos dois",
+     "x": "libido e ereção",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Bloquear aromatase para “otimizar” custa gordura, osso e função sexual: o que o paciente foi buscar.",
+   "destaque_cor": "verm",
+   "fonte": "New England Journal of Medicine 2013 · homens de 20 a 50 anos, produção própria suprimida, testosterona em doses graduadas, com e sem inibidor de aromatase"
+  },
+  {
+   "id": "pico",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Régua de 0 a 48 horas: o pico hormonal depois da sessão volta ao basal em cerca de uma hora; a síntese de proteína muscular segue elevada por 24 a 48 horas\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"320\" y1=\"20\" x2=\"320\" y2=\"250\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"650\" y1=\"20\" x2=\"650\" y2=\"250\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"980\" y1=\"20\" x2=\"980\" y2=\"250\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"1310\" y1=\"20\" x2=\"1310\" y2=\"250\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"1640\" y1=\"20\" x2=\"1640\" y2=\"250\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"320\" y=\"50\" width=\"28\" height=\"60\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"320\" y=\"160\" width=\"1320\" height=\"60\" rx=\"30\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 64,
+     "w": 300,
+     "t": "pico hormonal agudo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 174,
+     "w": 300,
+     "t": "síntese de proteína",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 368,
+     "y": 64,
+     "w": 400,
+     "t": "cerca de uma hora",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 174,
+     "w": 400,
+     "t": "24 a 48 horas",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 262,
+     "w": 120,
+     "t": "0 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 262,
+     "w": 120,
+     "t": "12 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 920,
+     "y": 262,
+     "w": 120,
+     "t": "24 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1250,
+     "y": 262,
+     "w": 120,
+     "t": "36 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1580,
+     "y": 262,
+     "w": 120,
+     "t": "48 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 316,
+     "w": 1664,
+     "t": "56 homens, 12 semanas: o tamanho do pico não previu quem ganhou mais massa ou força",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O mito mais difundido do assunto",
+   "titulo": "Um sinal de minutos não explica um processo de dois dias",
+   "destaque": "Ambiente hormonal crônico importa muito. O pico agudo da sessão é outra coisa.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema de tempo · West e Phillips, European Journal of Applied Physiology 2012 · West e colaboradores, Journal of Applied Physiology 2010"
+  },
+  {
+   "id": "saidaA",
+   "tipo": "lista",
+   "eyebrow": "Saída A",
+   "titulo": "Repor agora, quando a leitura está errada",
+   "itens": [
+    {
+     "t": "O LH cai e o testículo para",
+     "x": "parado por meses a anos, nem sempre volta ao que era",
+     "cor": "verm"
+    },
+    {
+     "t": "A produção de espermatozoide fica comprometida",
+     "x": "e ninguém perguntou se ele ainda quer ter filho",
+     "cor": "verm"
+    },
+    {
+     "t": "O contexto continua rodando embaixo",
+     "x": "o número normaliza e a causa fica",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "O argumento é honesto: ele tem sintoma e a reposição funciona. O custo aparece quando o número era contexto.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "saidaB",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, uma semana dormindo cinco horas reduziu a testosterona diurna em 10 a 15% em homens de 24 anos. À direita, caso ilustrativo: 280 ng/dL, quatro meses corrigindo sono, déficit e treino, 510 ng/dL sem reposição\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"600\" y1=\"0\" x2=\"600\" y2=\"380\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"720\" y=\"174\" width=\"180\" height=\"126\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1440\" y=\"70\" width=\"180\" height=\"230\" rx=\"4\" fill=\"#008A7E\"/><line x1=\"660\" y1=\"300\" x2=\"1664\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><defs><marker id=\"b9\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"930\" y1=\"200\" x2=\"1410\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#b9)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 20,
+     "w": 560,
+     "t": "10 a 15%",
+     "tam": 96,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 150,
+     "w": 560,
+     "t": "menos testosterona diurna depois de uma semana dormindo cinco horas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 260,
+     "w": 560,
+     "t": "dez homens, 24 anos: o equivalente a envelhecer 10 a 15 anos",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 124,
+     "w": 240,
+     "t": "280",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1410,
+     "y": 20,
+     "w": 240,
+     "t": "510",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 930,
+     "y": 110,
+     "w": 480,
+     "t": "quatro meses: déficit moderado, 4 treinos, acordar 6h30",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 316,
+     "w": 240,
+     "t": "LH baixo-normal",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1410,
+     "y": 316,
+     "w": 240,
+     "t": "sem reposição",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Saída B: corrigir a conta e reavaliar",
+   "titulo": "Aquele número não era um achado; era um resultado",
+   "fonte": "Leproult e Van Cauter, JAMA 2011 · à direita, caso ilustrativo, em ng/dL"
+  },
+  {
+   "id": "saidaC",
+   "tipo": "duas",
+   "eyebrow": "Saída C",
+   "titulo": "Investigar a causa verdadeira",
+   "esq": {
+    "t": "Obrigatória quando",
+    "cor": "verm",
+    "itens": [
+     "LH alto com testosterona baixa",
+     "alteração visual, dor de cabeça, galactorreia",
+     "trauma, quimio ou radioterapia, caxumba",
+     "testículos pequenos, ginecomastia, anabolizante"
+    ]
+   },
+   "dir": {
+    "t": "Quando é pulada",
+    "cor": "tinta",
+    "itens": [
+     "anos de “estilo de vida” em quem tinha Klinefelter",
+     "prolactinoma, tumor de hipófise",
+     "erro mais raro, e mais grave"
+    ]
+   },
+   "destaque": "Nem todo mundo responde à correção da conta. O que se defende não é nunca repor: é nunca repor sem ter montado a conta antes.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "criterio",
+   "tipo": "duas",
+   "eyebrow": "O que torna a decisão defensável",
+   "titulo": "Seis perguntas",
+   "esq": {
+    "t": "Antes de dosar",
+    "cor": "petr",
+    "itens": [
+     "Como está a conta: sono, energia, treino, vida?",
+     "Déficit ou perda de peso rápida?",
+     "Usa ou já usou algo hormonal, pelo nome, sem julgamento?"
+    ]
+   },
+   "dir": {
+    "t": "Antes de repor: decisão médica",
+    "cor": "verm",
+    "itens": [
+     "A conta foi corrigida e mantida por tempo suficiente?",
+     "Sintoma consistente, e não só número?",
+     "Ele sabe da supressão e do impacto na fertilidade?"
+    ]
+   },
+   "destaque": "Relação testosterona-cortisol: reconheça quando aparecer, não use para decidir. Para carga, carga interna, sono, peso e relato.",
+   "destaque_cor": "ambar",
+   "fonte": "Urhausen, Gabriel e Kindermann, Sports Medicine 1995"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Quem faz o quê",
+   "titulo": "O que aconteceu nos últimos seis meses, antes da dose",
+   "regras": [
+    "Pedir, interpretar e repor é ato médico",
+    "Reconhecer o padrão é de todo mundo, e se faz sem exame"
+   ],
+   "cards": [
+    {
+     "t": "Quem atende toda semana",
+     "x": "Vê primeiro: peso que caiu, volume sem comida, sono curto, rendimento, irritação, libido."
+    },
+    {
+     "t": "O encaminhamento",
+     "x": "“Perdeu 11 kg em 5 meses, 6 sessões, dorme 5h30, rendimento e libido em queda há 3 meses.”"
+    }
+   ],
+   "quem": "Reposição, eixo pós-anabolizante e moduladores seletivos exigem formação clínica que um módulo não entrega."
+  }
+ ]
+}

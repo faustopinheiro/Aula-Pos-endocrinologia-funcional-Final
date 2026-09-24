@@ -87,20 +87,21 @@ integração nos três níveis (decisão, contribuição, reconhecimento).
 
 **EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão do Módulo 2: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em bordô, a cor do módulo (docs/08).
+Caso clínico no módulo até aqui: um (3.4, o corretor de 41 anos, dito como caso ilustrativo).
 
 | Slot | Aula | Min | Slides | Arquitetura | Deck |
 |---|---|---|---|---|---|
 | 3.1 | Organização dos eixos neuroendócrinos | 17 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/MrVw5tCmtwSeZuiWHjf5zr) |
 | 3.2 | Eixo hipotálamo-hipófise-adrenal e exercício | 17 | 10 | ERRO | [slides](https://claude.ai/artifact/Mvtrm1DthCq7wHYATcxMCL) |
 | 3.3 | Catecolaminas no exercício | 10 | 8 | NÚMERO | [slides](https://claude.ai/artifact/J5ZAYjYqNYhc2PVpKm7hJK) |
+| 3.4 | Testosterona no praticante de exercício | 25 | 12 | DECISÃO | [slides](https://claude.ai/artifact/WGRqeCBPoFWFkjS8gq4fC8) |
+| 3.5 | Hipogonadismo masculino | 15 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/KCn3UtBLXJFu32QcuRKu3A) |
+| 3.6 | Eixo somatotrófico e exercício | 17 | 11 | ERRO | [slides](https://claude.ai/artifact/4snAKfAufyPTEZkiKjFc84) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 3.4 **[M]** | Testosterona no praticante | M2-A03 + M5-A07 | FUNDIR |
-| 3.5 | Hipogonadismo: diferencial e armadilhas | M14-A06 parcial | PARCIAL |
-| 3.6 | Eixo GH/IGF-1 | M2-A07 | PRONTA |
 | 3.7 | Tireoide e exercício: interpretar sem medicalizar | M2-A06 + M5-A06 | FUNDIR |
 | 3.8 **[M]** | Excesso de treinamento: adaptação, overreaching e síndrome | M9-A01 + A02 + A05 | FUNDIR |
 | 3.9 | Destreino e reversão das adaptações | — | NOVA |
