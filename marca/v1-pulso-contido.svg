@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Circulo fechado com uma linha de pulso contida dentro dele">
+  <g fill="none" stroke="#12202E" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="48" cy="48" r="34" stroke-width="7"/>
+    <path d="M27,48 L36,48 L41,37 L47,61 L52,45 L57,48 L69,48" stroke-width="6"/>
+  </g>
+</svg>

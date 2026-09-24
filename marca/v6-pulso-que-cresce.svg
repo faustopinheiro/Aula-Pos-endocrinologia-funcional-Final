@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Anel aberto no topo com uma linha de pulso que sobe e sai pela abertura">
+  <g fill="none" stroke="#12202E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31,18.6 A34,34 0 1,0 65,18.6"/>
+    <path d="M24,58 L34,58 L41,10 L48,74 L55,50 L62,58 L72,58" stroke-width="6"/>
+  </g>
+</svg>
