@@ -248,7 +248,6 @@ Visual: o bilhete que nunca foi escrito.
 · **Ler não é prescrever · reconhecer não é diagnosticar · encaminhar não é opinar sobre a conduta do outro**
 · **Limite duro**: não se mexe em tratamento de outro profissional
 · Discordância: **risco → fala com o colega; estilo → segura**
-· A seguir: **o encaminhamento que o colega usa**
 Visual: três verbos e o limite em vermelho.
 
 ---

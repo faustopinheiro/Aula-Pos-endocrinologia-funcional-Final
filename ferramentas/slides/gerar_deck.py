@@ -185,8 +185,7 @@ def gerar(spec_path, saida):
             corpo = (simbolo(True) + eyebrow(s.get("eyebrow", "O que fica"), True) + titulo(s["titulo"], True) +
                      f'<ol style="font-size:30px; line-height:1.5; color:{PAPEL}">{regras}</ol>'
                      + (f'<p style="font-size:26px; line-height:1.45; color:#BFD0DA">{s["quem"]}</p>' if s.get("quem") else "")
-                     + f'<p style="position:absolute; left:128px; bottom:64px; width:1300px; font-size:24px; color:#9FB0BD">A seguir: {s["proxima"]}</p>'
-                     f'<p style="position:absolute; right:128px; bottom:64px; width:200px; text-align:right; font-size:24px; color:#9FB0BD">{n} / {total}</p>')
+                     + f'<p style="position:absolute; right:128px; bottom:64px; width:200px; text-align:right; font-size:24px; color:#9FB0BD">{n} / {total}</p>')
             html_s = secao(sid, TINTA, corpo, gap=30, cor=PAPEL) + nota
         else:
             bg = PAPEL if alterna % 2 == 0 else QUENTE

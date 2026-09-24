@@ -218,7 +218,6 @@ Visual: três degraus, o último em vermelho.
 **Slide 9** — O que fica
 · Acordo é a regra; conflito é a exceção que pede método
 · Cinco lugares · três degraus
-· A seguir: **exercício é dose**
 Visual: a pergunta central e os três degraus.
 
 ---

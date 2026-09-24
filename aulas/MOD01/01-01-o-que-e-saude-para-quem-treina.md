@@ -212,7 +212,6 @@ Visual: uma balança entre as duas frases.
 · Quanto tempo você leva para se recuperar de uma semana difícil?
 · **O que você deixou de fazer por causa de como tem se sentido?**
 · Avaliar margem é de **todas as profissões**, sem pedir exame
-· A seguir: **quando o que a pessoa quer e o que o corpo paga não apontam para o mesmo lado**
 Visual: as três perguntas grandes.
 
 ---

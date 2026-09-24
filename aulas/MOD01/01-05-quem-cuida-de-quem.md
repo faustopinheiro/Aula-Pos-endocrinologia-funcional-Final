@@ -206,7 +206,6 @@ Visual: a pergunta riscada e a certa embaixo.
 · Pequena: **triagem e registro**
 · Rede informal: **lugar comum e quem chama a conversa**
 · Sozinho: **perguntar o que os outros estão vendo**
-· A seguir: **o que é só seu, do colega e de todos**
 Visual: tabela de formatos.
 
 ---

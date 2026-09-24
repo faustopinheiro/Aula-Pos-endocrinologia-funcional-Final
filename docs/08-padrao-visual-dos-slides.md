@@ -47,13 +47,13 @@ Cor nunca diz sozinha: toda faixa, barra ou ponto colorido carrega o texto ao la
 1. **A capa não leva minutagem.** Duração é dado de produção, não de aula.
 2. Vocabulário interno (arquitetura da aula, alvo de palavras) não aparece para o aluno.
    **Número de aula e de módulo também não**: a capa mostra o nome do módulo sem
-   número, o rodapé mostra o título da aula, e o fecho diz "A seguir: <título da
-   próxima>".
+   número e o rodapé mostra o título da aula. O último slide não anuncia a próxima
+   aula: o gancho fica só na fala.
 3. Gráfico de dado real é **desenhado em vetor**, nunca imagem gerada: régua de faixas,
    curva de distribuição, barras de regressão, traçado de ECG, grade de pontos.
 4. Um assunto por slide; texto que não cabe vira outro slide — nada encolhe.
 5. Citação de estudo no corpo do slide: autor e ano, sem PMID (o PMID fica no arquivo da aula).
-6. Slide de fecho sempre traz as regras da aula, quem faz o quê por profissão e o gancho da próxima.
+6. Slide de fecho traz as regras da aula e quem faz o quê por profissão, sem "A seguir".
 7. Um slide do deck para cada bloco de fala da aula (marcador 📊), mais a capa. As notas
    do apresentador de cada slide são o texto falado daquele bloco.
 

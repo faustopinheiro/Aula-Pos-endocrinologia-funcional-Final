@@ -291,7 +291,6 @@ Visual: as cinco perguntas e a balança.
 · **Contribuição**: o sinal que cada um vê primeiro · **as cinco linhas** · a carga com complemento · a pergunta de volta
 · **Reconhecimento**: objetivo que gasta margem · **"150 minutos" para quem está em zero** · a vida que encolheu · **conselho de tirar remédio vindo de quem não prescreveu** · "liberado" sem complemento · estudo só de marcador · produto sem estudo independente
 · **Antes de acreditar: em quem, comparado com o quê, e quem pagou**
-· A seguir: **o corpo, começando pela energia**
 Visual: a matriz dos três níveis sobre as oito aulas.
 
 ---

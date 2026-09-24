@@ -171,7 +171,6 @@ Visual: quatro itens com cadeado.
 **Slide 7** — Esta semana
 · **Cinco linhas · complemento · pergunte de volta**
 · **Três nomes na agenda**
-· A seguir: **como não ser enganado por um estudo**
 Visual: a agenda com três nomes.
 
 ---

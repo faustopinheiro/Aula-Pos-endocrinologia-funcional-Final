@@ -164,7 +164,6 @@ Visual: quatro balões.
 
 **Slide 7** — A fronteira
 · Falar a diretriz: **todos** · prescrever o exercício individual: **quem prescreve treino ou reabilita**
-· A seguir: **quem faz o quê numa equipe**
 Visual: as duas frases lado a lado.
 
 ---
