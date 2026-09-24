@@ -1,0 +1,1341 @@
+{
+ "arquivo": "aulas/MOD02/02-03-glicolise-e-a-desconstrucao-do-acido-latico.md",
+ "modulo": "Fisiologia do Exercício Aplicada",
+ "titulo": "O acompanhante inocente",
+ "subtitulo": "Glicólise e a desconstrução do ácido lático",
+ "nota_capa": "Entra pela cena do remador.",
+ "secoes": {
+  "erro": [
+   "As três frases e por que o erro convence.",
+   "capa"
+  ],
+  "sistema": [
+   "O que a glicólise faz e de onde vem o próton.",
+   "combustivel"
+  ],
+  "virada": [
+   "Lactato como combustível e o que de fato derruba a força.",
+   "lancadeira"
+  ],
+  "pratica": [
+   "A dor de dois dias, a bandeira vermelha e o que treinar.",
+   "relogio"
+  ]
+ },
+ "slides": [
+  {
+   "id": "frases",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três frases de beira de quadra riscadas: tirar o ácido lático, lactato acumulado causando dor, massagem que drena\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"260\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"30\" y1=\"226\" x2=\"498\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-linecap=\"round\" opacity=\"0.6\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"260\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"598\" y1=\"226\" x2=\"1066\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-linecap=\"round\" opacity=\"0.6\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"260\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1166\" y1=\"226\" x2=\"1634\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-linecap=\"round\" opacity=\"0.6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 60,
+     "w": 448,
+     "t": "“Pedala leve para tirar o ácido lático.”",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 290,
+     "w": 528,
+     "t": "errada pelo motivo",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 608,
+     "y": 60,
+     "w": 448,
+     "t": "“Essa dor de dois dias é o lactato acumulado.”",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 568,
+     "y": 290,
+     "w": 528,
+     "t": "errada pelo mecanismo",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 60,
+     "w": 448,
+     "t": "“A massagem drena o ácido lático.”",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 1136,
+     "y": 290,
+     "w": 528,
+     "t": "errada pelas duas coisas",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Ditas todo dia, por gente formada",
+   "titulo": "Três frases, três erros",
+   "destaque": "O problema não é o vocabulário. É que esse erro muda a conduta."
+  },
+  {
+   "id": "juntos",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Com a intensidade subindo, o lactato no sangue, a queimação e a queda de força sobem juntos, quase sobrepostos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"40.0\" y1=\"360\" x2=\"40.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"837.0\" y1=\"360\" x2=\"837.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"360\" x2=\"1634.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"40\" y1=\"360\" x2=\"1634\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,332.8 103.8,332.8 167.5,332.7 231.3,332.5 295.0,332.0 358.8,331.1 422.6,329.8 486.3,327.9 550.1,325.3 613.8,321.9 677.6,317.6 741.4,312.2 805.1,305.5 868.9,297.6 932.6,288.1 996.4,277.1 1060.2,264.3 1123.9,249.7 1187.7,233.0 1251.4,214.1 1315.2,193.0 1379.0,169.3 1442.7,143.1 1506.5,114.1 1570.2,82.2 1634.0,47.2\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"40.0,346.4 103.8,346.4 167.5,346.4 231.3,346.3 295.0,346.0 358.8,345.5 422.6,344.6 486.3,343.3 550.1,341.5 613.8,338.8 677.6,335.3 741.4,330.8 805.1,325.1 868.9,318.0 932.6,309.3 996.4,298.8 1060.2,286.4 1123.9,271.8 1187.7,254.7 1251.4,235.0 1315.2,212.4 1379.0,186.7 1442.7,157.6 1506.5,124.8 1570.2,88.1 1634.0,47.2\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"40.0,353.2 103.8,353.2 167.5,353.2 231.3,353.1 295.0,353.0 358.8,352.7 422.6,352.2 486.3,351.4 550.1,350.1 613.8,348.3 677.6,345.7 741.4,342.2 805.1,337.7 868.9,331.8 932.6,324.4 996.4,315.3 1060.2,304.1 1123.9,290.7 1187.7,274.6 1251.4,255.6 1315.2,233.4 1379.0,207.6 1442.7,177.8 1506.5,143.7 1570.2,104.9 1634.0,60.8\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"60\" y=\"150\" width=\"36\" height=\"6\" rx=\"3\" fill=\"#B07A1C\"/><rect x=\"60\" y=\"198\" width=\"36\" height=\"6\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"60\" y=\"246\" width=\"36\" height=\"6\" rx=\"3\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 376,
+     "w": 160,
+     "t": "leve",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 757,
+     "y": 376,
+     "w": 160,
+     "t": "moderado",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 376,
+     "w": 160,
+     "t": "máximo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 20,
+     "w": 620,
+     "t": "Hill e Meyerhof, Nobel de 1922:<br>boa parte em músculo de rã",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 136,
+     "w": 400,
+     "t": "lactato no sangue",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 184,
+     "w": 400,
+     "t": "queimação",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 232,
+     "w": 400,
+     "t": "queda de força",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que o erro convence",
+   "titulo": "Tudo sobe junto. Junto não é por causa.",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "combustivel",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Fibra muscular com glicogênio dentro e um capilar do lado de fora trazendo glicose; as duas entradas levam à glicólise, e a de dentro tem um passo a menos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"c2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"420\" y=\"20\" width=\"1224\" height=\"270\" rx=\"135\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"420\" y=\"360\" width=\"1224\" height=\"64\" rx=\"32\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1250\" y=\"110\" width=\"330\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"622\" cy=\"163\" r=\"11\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"717\" cy=\"176\" r=\"9\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"563\" cy=\"212\" r=\"11\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"621\" cy=\"239\" r=\"12\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"777\" cy=\"151\" r=\"13\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"599\" cy=\"178\" r=\"14\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"696\" cy=\"196\" r=\"13\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"577\" cy=\"199\" r=\"13\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"638\" cy=\"75\" r=\"14\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"683\" cy=\"192\" r=\"14\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"746\" cy=\"227\" r=\"11\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"768\" cy=\"146\" r=\"15\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"789\" cy=\"87\" r=\"10\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"616\" cy=\"234\" r=\"12\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"723\" cy=\"121\" r=\"12\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"660\" cy=\"130\" r=\"13\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"712\" cy=\"224\" r=\"13\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"802\" cy=\"216\" r=\"15\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"735\" cy=\"98\" r=\"14\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"811\" cy=\"224\" r=\"12\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"746\" cy=\"106\" r=\"14\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"709\" cy=\"118\" r=\"9\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"782\" cy=\"238\" r=\"10\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"768\" cy=\"140\" r=\"10\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"636\" cy=\"201\" r=\"14\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"571\" cy=\"174\" r=\"9\" fill=\"#B07A1C\" opacity=\"0.8\"/><circle cx=\"520\" cy=\"392\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"610\" cy=\"392\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"700\" cy=\"392\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"790\" cy=\"392\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"880\" cy=\"392\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"970\" cy=\"392\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"1060\" cy=\"392\" r=\"9\" fill=\"#A8322A\"/><path d=\"M840 150 L1240 150\" stroke=\"#B07A1C\" stroke-width=\"7\" marker-end=\"url(#c1)\"/><path d=\"M1180 360 L1180 300 Q1180 230 1240 185\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-dasharray=\"12 10\" marker-end=\"url(#c2)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 70,
+     "w": 400,
+     "t": "Glicogênio muscular",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 112,
+     "w": 400,
+     "t": "de casa: um passo a menos",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 350,
+     "w": 400,
+     "t": "Glicose do sangue",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 392,
+     "w": 400,
+     "t": "vem de fora",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1250,
+     "y": 136,
+     "w": 330,
+     "t": "Glicólise",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 100,
+     "w": 340,
+     "t": "preferido no esforço intenso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 312,
+     "w": 200,
+     "t": "capilar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A glicólise pelo que ela faz",
+   "titulo": "Duas fontes de combustível, e elas não são iguais",
+   "destaque": "O glicogênio de dentro da fibra se repõe em horas, com comida. O gel no meio do treino ajuda a glicose do sangue, não enche a fibra.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "velocidade",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A demanda de ATP sobe com a intensidade; a parte que a mitocôndria entrega tem um teto naquele instante, e o que passa do teto é coberto pela glicólise\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"40.0\" y1=\"360\" x2=\"40.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"360\" x2=\"1634.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polygon points=\"40.0,360.0 40.0,292.0 71.9,286.6 103.8,281.1 135.6,275.7 167.5,270.2 199.4,264.8 231.3,259.4 263.2,253.9 295.0,248.5 326.9,243.0 358.8,237.6 390.7,232.2 422.6,226.7 454.4,221.3 486.3,215.8 518.2,210.4 550.1,205.0 582.0,199.5 613.8,194.1 645.7,188.6 677.6,183.2 709.5,177.8 741.4,172.3 773.2,166.9 805.1,162.8 837.0,162.8 868.9,162.8 900.8,162.8 932.6,162.8 964.5,162.8 996.4,162.8 1028.3,162.8 1060.2,162.8 1092.0,162.8 1123.9,162.8 1155.8,162.8 1187.7,162.8 1219.6,162.8 1251.4,162.8 1283.3,162.8 1315.2,162.8 1347.1,162.8 1379.0,162.8 1410.8,162.8 1442.7,162.8 1474.6,162.8 1506.5,162.8 1538.4,162.8 1570.2,162.8 1602.1,162.8 1634.0,162.8 1634.0,360.0\" fill=\"#008A7E\" fill-opacity=\"0.85\"/><polygon points=\"797.1,162.8 805.1,161.4 837.0,156.0 868.9,150.6 900.8,145.1 932.6,139.7 964.5,134.2 996.4,128.8 1028.3,123.4 1060.2,117.9 1092.0,112.5 1123.9,107.0 1155.8,101.6 1187.7,96.2 1219.6,90.7 1251.4,85.3 1283.3,79.8 1315.2,74.4 1347.1,69.0 1379.0,63.5 1410.8,58.1 1442.7,52.6 1474.6,47.2 1506.5,41.8 1538.4,36.3 1570.2,30.9 1602.1,25.4 1634.0,20.0 1634.0,162.8 1602.1,162.8 1570.2,162.8 1538.4,162.8 1506.5,162.8 1474.6,162.8 1442.7,162.8 1410.8,162.8 1379.0,162.8 1347.1,162.8 1315.2,162.8 1283.3,162.8 1251.4,162.8 1219.6,162.8 1187.7,162.8 1155.8,162.8 1123.9,162.8 1092.0,162.8 1060.2,162.8 1028.3,162.8 996.4,162.8 964.5,162.8 932.6,162.8 900.8,162.8 868.9,162.8 837.0,162.8 805.1,162.8 797.1,162.8\" fill=\"#B07A1C\" fill-opacity=\"0.9\"/><line x1=\"40\" y1=\"360\" x2=\"1634\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,292.0 71.9,286.6 103.8,281.1 135.6,275.7 167.5,270.2 199.4,264.8 231.3,259.4 263.2,253.9 295.0,248.5 326.9,243.0 358.8,237.6 390.7,232.2 422.6,226.7 454.4,221.3 486.3,215.8 518.2,210.4 550.1,205.0 582.0,199.5 613.8,194.1 645.7,188.6 677.6,183.2 709.5,177.8 741.4,172.3 773.2,166.9 805.1,161.4 837.0,156.0 868.9,150.6 900.8,145.1 932.6,139.7 964.5,134.2 996.4,128.8 1028.3,123.4 1060.2,117.9 1092.0,112.5 1123.9,107.0 1155.8,101.6 1187.7,96.2 1219.6,90.7 1251.4,85.3 1283.3,79.8 1315.2,74.4 1347.1,69.0 1379.0,63.5 1410.8,58.1 1442.7,52.6 1474.6,47.2 1506.5,41.8 1538.4,36.3 1570.2,30.9 1602.1,25.4 1634.0,20.0\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"40.0,162.8 1634.0,162.8\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"14 12\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 376,
+     "w": 160,
+     "t": "leve",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 376,
+     "w": 160,
+     "t": "máximo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 330,
+     "w": 500,
+     "t": "o que a mitocôndria entrega",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 96,
+     "w": 380,
+     "t": "a glicólise cobre<br>a diferença",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 40,
+     "w": 300,
+     "t": "demanda de ATP",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 176,
+     "w": 460,
+     "t": "teto oxidativo naquele instante",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A vantagem dela é a velocidade",
+   "titulo": "Não é o plano B. É o plano de velocidade.",
+   "destaque": "Quem abre a torneira é contabilidade local: a via acelera quando os produtos da quebra de ATP se acumulam dentro da fibra.",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "fibras",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Fibras recrutadas conforme a intensidade: as lentas primeiro, até a intensidade moderada; a partir daí entram as rápidas, e o lactato sobe junto com elas\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"40.0\" y1=\"360\" x2=\"40.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"837.0\" y1=\"360\" x2=\"837.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"360\" x2=\"1634.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"837.0\" y1=\"20\" x2=\"837.0\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><polygon points=\"40.0,360.0 40.0,360.0 71.9,351.7 103.8,343.4 135.6,335.1 167.5,326.8 199.4,318.4 231.3,310.1 263.2,301.8 295.0,293.5 326.9,285.2 358.8,276.9 390.7,268.6 422.6,260.3 454.4,252.0 486.3,243.6 518.2,235.3 550.1,227.0 582.0,218.7 613.8,210.4 645.7,202.1 677.6,193.8 709.5,185.5 741.4,177.2 773.2,173.0 805.1,173.0 837.0,173.0 868.9,173.0 900.8,173.0 932.6,173.0 964.5,173.0 996.4,173.0 1028.3,173.0 1060.2,173.0 1092.0,173.0 1123.9,173.0 1155.8,173.0 1187.7,173.0 1219.6,173.0 1251.4,173.0 1283.3,173.0 1315.2,173.0 1347.1,173.0 1379.0,173.0 1410.8,173.0 1442.7,173.0 1474.6,173.0 1506.5,173.0 1538.4,173.0 1570.2,173.0 1602.1,173.0 1634.0,173.0 1634.0,360.0\" fill=\"#008A7E\" fill-opacity=\"0.85\"/><polygon points=\"40.0,173.0 71.9,173.0 103.8,173.0 135.6,173.0 167.5,173.0 199.4,173.0 231.3,173.0 263.2,173.0 295.0,173.0 326.9,173.0 358.8,173.0 390.7,173.0 422.6,173.0 454.4,173.0 486.3,173.0 518.2,173.0 550.1,173.0 582.0,173.0 613.8,173.0 645.7,173.0 677.6,173.0 709.5,173.0 741.4,173.0 773.2,173.0 805.1,173.0 837.0,173.0 868.9,170.9 900.8,167.9 932.6,164.4 964.5,160.4 996.4,156.2 1028.3,151.7 1060.2,147.0 1092.0,142.1 1123.9,137.0 1155.8,131.7 1187.7,126.2 1219.6,120.6 1251.4,114.9 1283.3,109.0 1315.2,103.0 1347.1,96.9 1379.0,90.6 1410.8,84.3 1442.7,77.8 1474.6,71.2 1506.5,64.6 1538.4,57.8 1570.2,51.0 1602.1,44.0 1634.0,37.0 1634.0,173.0 1602.1,173.0 1570.2,173.0 1538.4,173.0 1506.5,173.0 1474.6,173.0 1442.7,173.0 1410.8,173.0 1379.0,173.0 1347.1,173.0 1315.2,173.0 1283.3,173.0 1251.4,173.0 1219.6,173.0 1187.7,173.0 1155.8,173.0 1123.9,173.0 1092.0,173.0 1060.2,173.0 1028.3,173.0 996.4,173.0 964.5,173.0 932.6,173.0 900.8,173.0 868.9,173.0 837.0,173.0 805.1,173.0 773.2,173.0 741.4,173.0 709.5,173.0 677.6,173.0 645.7,173.0 613.8,173.0 582.0,173.0 550.1,173.0 518.2,173.0 486.3,173.0 454.4,173.0 422.6,173.0 390.7,173.0 358.8,173.0 326.9,173.0 295.0,173.0 263.2,173.0 231.3,173.0 199.4,173.0 167.5,173.0 135.6,173.0 103.8,173.0 71.9,173.0 40.0,173.0\" fill=\"#B07A1C\" fill-opacity=\"0.9\"/><line x1=\"40\" y1=\"360\" x2=\"1634\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 376,
+     "w": 160,
+     "t": "leve",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 757,
+     "y": 376,
+     "w": 160,
+     "t": "moderado",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 376,
+     "w": 160,
+     "t": "máximo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 300,
+     "w": 520,
+     "t": "fibras lentas: muita mitocôndria",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 30,
+     "w": 620,
+     "t": "fibras rápidas: mais maquinaria glicolítica",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 230,
+     "w": 460,
+     "t": "a partir daqui, o lactato sobe",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Fibras recrutadas conforme a intensidade",
+   "titulo": "Mais lactato mesmo com oxigênio disponível",
+   "destaque": "O lactato sobe porque entrou em cena uma fibra que produz mais lactato, e não porque faltou oxigênio.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "bioquimica",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Glicose vira piruvato; o piruvato vai para a mitocôndria ou vira lactato, e essa conversão consome um próton; ao lado, a quebra de ATP liberando ADP, fosfato e um próton\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"b1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"b2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"b3\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"b4\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"190\" width=\"220\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"340\" y=\"190\" width=\"240\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M224 235 L330 235\" stroke=\"#12202E\" stroke-width=\"6\" marker-end=\"url(#b1)\"/><ellipse cx=\"820\" cy=\"80\" rx=\"150\" ry=\"62\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M584 215 Q640 90 660 84\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#b2)\"/><rect x=\"700\" y=\"340\" width=\"240\" height=\"90\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><path d=\"M584 255 Q640 380 690 384\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" marker-end=\"url(#b3)\"/><line x1=\"1060\" y1=\"0\" x2=\"1060\" y2=\"460\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"1110\" y=\"60\" width=\"160\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M1274 105 L1356 105\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#b4)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 216,
+     "w": 220,
+     "t": "Glicose",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 216,
+     "w": 240,
+     "t": "Piruvato",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 62,
+     "w": 300,
+     "t": "Mitocôndria",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 366,
+     "w": 240,
+     "t": "Lactato",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 400,
+     "w": 200,
+     "t": "consome 1 H⁺",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 86,
+     "w": 160,
+     "t": "ATP",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1370,
+     "y": 84,
+     "w": 294,
+     "t": "ADP + Pi + H⁺",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 190,
+     "w": 554,
+     "t": "1. Produz lactato e H⁺, por reações diferentes. Ácido lático quase não existe no pH do corpo.",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 290,
+     "w": 554,
+     "t": "2. O H⁺ vem em boa parte da quebra do ATP.",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 360,
+     "w": 554,
+     "t": "3. Formar lactato consome H⁺: atrasa a acidose.",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A bioquímica em três frases",
+   "titulo": "De onde vem o próton que acidifica",
+   "fonte": "Robergs, Ghiasvand e Parker, American Journal of Physiology 2004"
+  },
+  {
+   "id": "causa",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma causa comum, a demanda alta de ATP pela glicólise, com duas setas para lactato sobe e acidez sobe; a seta direta de lactato para acidez está riscada\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"u1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"u2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"432\" y=\"0\" width=\"800\" height=\"110\" rx=\"16\" fill=\"#12202E\"/><rect x=\"232\" y=\"290\" width=\"440\" height=\"110\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"992\" y=\"290\" width=\"440\" height=\"110\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M640 114 L470 280\" stroke=\"#12202E\" stroke-width=\"7\" marker-end=\"url(#u1)\"/><path d=\"M1024 114 L1194 280\" stroke=\"#12202E\" stroke-width=\"7\" marker-end=\"url(#u1)\"/><path d=\"M680 345 L980 345\" stroke=\"#6B7A87\" stroke-width=\"6\" stroke-dasharray=\"14 10\" marker-end=\"url(#u2)\"/><line x1=\"780\" y1=\"300\" x2=\"880\" y2=\"390\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"880\" y1=\"300\" x2=\"780\" y2=\"390\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 432,
+     "y": 18,
+     "w": 800,
+     "t": "Demanda alta de ATP<br>pela via glicolítica",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 232,
+     "y": 318,
+     "w": 440,
+     "t": "Lactato sobe",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 992,
+     "y": 318,
+     "w": 440,
+     "t": "Acidez sobe",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 420,
+     "t": "o termômetro",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1244,
+     "y": 160,
+     "w": 420,
+     "t": "a febre",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 250,
+     "w": 280,
+     "t": "a seta de cem anos",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O detalhe está em debate. A conclusão, não.",
+   "titulo": "Uma causa, dois sinais",
+   "destaque": "O lactato não é o agente da acidose. É o acompanhante. Ninguém trata febre quebrando o termômetro."
+  },
+  {
+   "id": "lancadeira",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Lançadeira do lactato: uma fibra glicolítica no centro solta lactato para uma fibra oxidativa vizinha, para o coração, para o cérebro e para o fígado, que devolve glicose\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"l1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"l2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><ellipse cx=\"832\" cy=\"230\" rx=\"200\" ry=\"92\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"5\"/><rect x=\"80\" y=\"30\" width=\"300\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"80\" y=\"330\" width=\"300\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"1284\" y=\"30\" width=\"300\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"1284\" y=\"330\" width=\"300\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M660 190 Q520 90 392 82\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" marker-end=\"url(#l1)\"/><path d=\"M660 270 Q520 370 392 378\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" marker-end=\"url(#l1)\"/><path d=\"M1004 190 Q1144 90 1272 82\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" marker-end=\"url(#l1)\"/><path d=\"M1004 270 Q1144 370 1272 378\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" marker-end=\"url(#l1)\"/><path d=\"M1300 440 Q832 470 800 334\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\" stroke-dasharray=\"12 10\" marker-end=\"url(#l2)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 632,
+     "y": 196,
+     "w": 400,
+     "t": "Fibra glicolítica",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 632,
+     "y": 238,
+     "w": 400,
+     "t": "produz lactato",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 372,
+     "w": 300,
+     "t": "glicose de volta",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 44,
+     "w": 300,
+     "t": "Fibra oxidativa",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 86,
+     "w": 300,
+     "t": "vizinha: queima",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 344,
+     "w": 300,
+     "t": "Coração",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 386,
+     "w": 300,
+     "t": "queima",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 44,
+     "w": 300,
+     "t": "Cérebro",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 86,
+     "w": 300,
+     "t": "queima",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 344,
+     "w": 300,
+     "t": "Fígado",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 386,
+     "w": 300,
+     "t": "faz glicose de novo",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A lançadeira do lactato",
+   "titulo": "Não é resíduo. É combustível.",
+   "fonte": "Brooks, Cell Metabolism 2018 · produzido o tempo todo, inclusive em repouso e com oxigênio de sobra"
+  },
+  {
+   "id": "funcoes",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Três funções, as três úteis",
+   "titulo": "O “lixo metabólico” trabalha",
+   "cards": [
+    {
+     "t": "Energia",
+     "x": "Queimado por fibras oxidativas, coração e cérebro.",
+     "cor": "petr"
+    },
+    {
+     "t": "Matéria-prima",
+     "x": "O fígado usa o lactato para fazer glicose de novo.",
+     "cor": "ambar"
+    },
+    {
+     "t": "Sinal",
+     "x": "Participa da regulação de processos que incluem a adaptação da mitocôndria.",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "A substância que a gente aprendeu a chamar de lixo é, em parte, o sinal que avisa o músculo para construir mais mitocôndria."
+  },
+  {
+   "id": "temperatura",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Com a mesma acidez, a queda de força é grande em músculo a 12 graus e pequena a 32 graus; a queimação continua\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"420\" y=\"40\" width=\"820\" height=\"90\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"420\" y=\"190\" width=\"170\" height=\"90\" rx=\"6\" fill=\"#3A6EA5\"/><line x1=\"418\" y1=\"10\" x2=\"418\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1300\" y1=\"0\" x2=\"1300\" y2=\"380\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 44,
+     "w": 390,
+     "t": "A 12 °C<br>temperatura de laboratório",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 194,
+     "w": 390,
+     "t": "A 32 °C<br>perto da do corpo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 216,
+     "w": 500,
+     "t": "o efeito encolhe muito",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 326,
+     "w": 860,
+     "t": "queda de força com a mesma acidez · barras ilustrativas",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 60,
+     "w": 324,
+     "t": "E a queimação?",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 110,
+     "w": 324,
+     "t": "O H⁺ contribui, agindo sobre receptores sensoriais. Essa parte continua.",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Se não é o lactato, o que derruba a força?",
+   "titulo": "Acidez: queimação, sim. Força, bem menos.",
+   "fonte": "Westerblad, Allen e Lännergren, News in Physiological Sciences 2002"
+  },
+  {
+   "id": "fosfato",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"A fosfocreatina se quebra em creatina e fosfato; o fosfato dentro da fibra sobe de 5 para 30 milimolar; ele atrapalha a ponte cruzada e reduz a liberação de cálcio\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"f1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"f2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"300\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M150 134 L150 206\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#f1)\"/><rect x=\"0\" y=\"216\" width=\"300\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"420\" y1=\"420\" x2=\"900\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"470\" y=\"370\" width=\"150\" height=\"50\" rx=\"4\" fill=\"#6B7A87\"/><rect x=\"700\" y=\"120\" width=\"150\" height=\"300\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1080\" y=\"60\" width=\"584\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1080\" y=\"260\" width=\"584\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M860 200 Q960 120 1070 120\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\" marker-end=\"url(#f2)\"/><path d=\"M860 260 Q960 320 1070 320\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\" marker-end=\"url(#f2)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 64,
+     "w": 300,
+     "t": "Fosfocreatina",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 240,
+     "w": 300,
+     "t": "Creatina + Pi",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 330,
+     "w": 300,
+     "t": "a moeda do sistema mais potente",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 318,
+     "w": 150,
+     "t": "~5 mM",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 700,
+     "y": 68,
+     "w": 150,
+     "t": "~30 mM",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 430,
+     "y": 426,
+     "w": 230,
+     "t": "repouso",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 426,
+     "w": 230,
+     "t": "esforço intenso",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 84,
+     "w": 530,
+     "t": "Atrapalha a ponte cruzada",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 126,
+     "w": 530,
+     "t": "a maquinaria que gera força",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 284,
+     "w": 530,
+     "t": "Reduz a liberação de cálcio",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 326,
+     "w": 530,
+     "t": "o sinal que manda contrair",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O candidato que ocupou o lugar",
+   "titulo": "Fosfato inorgânico: seis vezes mais",
+   "destaque": "A potência tem um preço, e o preço é pago na moeda do próprio sistema.",
+   "destaque_cor": "verm",
+   "fonte": "Allen, Lamb e Westerblad, Physiological Reviews 2008"
+  },
+  {
+   "id": "relogio",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Linha do tempo de 72 horas: o lactato do sangue volta perto do normal nas primeiras horas; a dor começa no dia seguinte e tem pico entre 48 e 72 horas\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"40.0\" y1=\"360\" x2=\"40.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"568.0\" y1=\"360\" x2=\"568.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1096.0\" y1=\"360\" x2=\"1096.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1624.0\" y1=\"360\" x2=\"1624.0\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1096.0\" y=\"20.0\" width=\"528.0\" height=\"340.0\" fill=\"#F3E1DE\"/><line x1=\"40\" y1=\"360\" x2=\"1624\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,20.0 45.5,164.9 51.0,248.1 56.5,295.8 62.0,323.2 67.5,338.9 73.0,347.9 78.5,353.0 84.0,356.0 89.5,357.7 95.0,358.7 100.5,359.2 106.0,359.6 111.5,359.8 117.0,359.9 122.5,359.9 128.0,360.0 133.5,360.0 139.0,360.0 144.5,360.0 150.0,360.0 155.5,360.0 161.0,360.0 166.5,360.0 172.0,360.0 177.5,360.0 183.0,360.0 188.5,360.0 194.0,360.0 199.5,360.0 205.0,360.0 210.5,360.0 216.0,360.0 221.5,360.0 227.0,360.0 232.5,360.0 238.0,360.0 243.5,360.0 249.0,360.0 254.5,360.0 260.0,360.0 282.0,360.0 304.0,360.0 326.0,360.0 348.0,360.0 370.0,360.0 392.0,360.0 414.0,360.0 436.0,360.0 458.0,360.0 480.0,360.0 502.0,360.0 524.0,360.0 546.0,360.0 568.0,360.0 590.0,360.0 612.0,360.0 634.0,360.0 656.0,360.0 678.0,360.0 700.0,360.0 722.0,360.0 744.0,360.0 766.0,360.0 788.0,360.0 810.0,360.0 832.0,360.0 854.0,360.0 876.0,360.0 898.0,360.0 920.0,360.0 942.0,360.0 964.0,360.0 986.0,360.0 1008.0,360.0 1030.0,360.0 1052.0,360.0 1074.0,360.0 1096.0,360.0 1118.0,360.0 1140.0,360.0 1162.0,360.0 1184.0,360.0 1206.0,360.0 1228.0,360.0 1250.0,360.0 1272.0,360.0 1294.0,360.0 1316.0,360.0 1338.0,360.0 1360.0,360.0 1382.0,360.0 1404.0,360.0 1426.0,360.0 1448.0,360.0 1470.0,360.0 1492.0,360.0 1514.0,360.0 1536.0,360.0 1558.0,360.0 1580.0,360.0 1602.0,360.0 1624.0,360.0\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"40.0,360.0 62.0,360.0 84.0,360.0 106.0,360.0 128.0,360.0 150.0,360.0 172.0,360.0 194.0,360.0 216.0,360.0 238.0,359.9 260.0,359.6 282.0,358.8 304.0,357.2 326.0,354.9 348.0,351.7 370.0,347.7 392.0,342.7 414.0,336.9 436.0,330.3 458.0,322.8 480.0,314.6 502.0,305.8 524.0,296.4 546.0,286.5 568.0,276.3 590.0,265.6 612.0,254.8 634.0,243.7 656.0,232.6 678.0,221.5 700.0,210.4 722.0,199.4 744.0,188.6 766.0,178.0 788.0,167.7 810.0,157.7 832.0,148.0 854.0,138.7 876.0,129.9 898.0,121.5 920.0,113.5 942.0,106.1 964.0,99.1 986.0,92.7 1008.0,86.7 1030.0,81.3 1052.0,76.4 1074.0,71.9 1096.0,68.0 1118.0,64.6 1140.0,61.7 1162.0,59.3 1184.0,57.4 1206.0,55.9 1228.0,54.8 1250.0,54.2 1272.0,54.0 1294.0,54.2 1316.0,54.8 1338.0,55.7 1360.0,57.0 1382.0,58.6 1404.0,60.6 1426.0,62.8 1448.0,65.3 1470.0,68.0 1492.0,71.0 1514.0,74.3 1536.0,77.7 1558.0,81.3 1580.0,85.1 1602.0,89.1 1624.0,93.2\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 376,
+     "w": 160,
+     "t": "fim do treino",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 488,
+     "y": 376,
+     "w": 160,
+     "t": "24 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1016,
+     "y": 376,
+     "w": 160,
+     "t": "48 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1544,
+     "y": 376,
+     "w": 160,
+     "t": "72 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 30,
+     "w": 560,
+     "t": "lactato do sangue: perto do normal em 1 a 2 horas, sozinho",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 150,
+     "w": 300,
+     "t": "dor tardia",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1090,
+     "y": 290,
+     "w": 520,
+     "t": "pico da dor: 48 a 72 h",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A dor de dois dias",
+   "titulo": "O que já foi embora não causa o que ainda nem começou",
+   "fonte": "Esquema a partir de Menzies e colaboradores 2010 e Hotfiel e colaboradores 2018"
+  },
+  {
+   "id": "repetida",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Dor ao longo de uma semana: alta depois da primeira sessão; bem mais baixa quando a mesma sessão é repetida uma semana depois\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"40.0\" y1=\"340\" x2=\"40.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"267.7\" y1=\"340\" x2=\"267.7\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"495.4\" y1=\"340\" x2=\"495.4\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"723.1\" y1=\"340\" x2=\"723.1\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1178.6\" y1=\"340\" x2=\"1178.6\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"340\" x2=\"1634.0\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"40\" y1=\"340\" x2=\"1634\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,340.0 68.5,340.0 96.9,340.0 125.4,339.0 153.9,330.3 182.3,312.3 210.8,287.0 239.2,257.0 267.7,224.9 296.2,192.8 324.6,162.3 353.1,134.7 381.6,110.7 410.0,90.8 438.5,75.1 467.0,63.7 495.4,56.3 523.9,52.6 552.4,52.2 580.8,54.9 609.3,60.0 637.8,67.3 666.2,76.3 694.7,86.6 723.1,98.0 751.6,110.1 780.1,122.7 808.5,135.5 837.0,148.3 865.5,161.1 893.9,173.5 922.4,185.6 950.9,197.3 979.3,208.5 1007.8,219.1 1036.2,229.1 1064.7,238.5 1093.2,247.4 1121.6,255.6 1150.1,263.3 1178.6,270.4 1207.0,276.9 1235.5,283.0 1264.0,288.5 1292.4,293.6 1320.9,298.2 1349.4,302.4 1377.8,306.3 1406.3,309.8 1434.8,312.9 1463.2,315.8 1491.7,318.3 1520.1,320.7 1548.6,322.8 1577.1,324.6 1605.5,326.3 1634.0,327.8\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"40.0,340.0 68.5,340.0 96.9,340.0 125.4,339.7 153.9,337.3 182.3,332.2 210.8,325.2 239.2,316.8 267.7,307.8 296.2,298.8 324.6,290.2 353.1,282.5 381.6,275.8 410.0,270.2 438.5,265.8 467.0,262.6 495.4,260.6 523.9,259.5 552.4,259.4 580.8,260.2 609.3,261.6 637.8,263.6 666.2,266.2 694.7,269.1 723.1,272.2 751.6,275.6 780.1,279.2 808.5,282.7 837.0,286.3 865.5,289.9 893.9,293.4 922.4,296.8 950.9,300.0 979.3,303.2 1007.8,306.1 1036.2,308.9 1064.7,311.6 1093.2,314.1 1121.6,316.4 1150.1,318.5 1178.6,320.5 1207.0,322.3 1235.5,324.0 1264.0,325.6 1292.4,327.0 1320.9,328.3 1349.4,329.5 1377.8,330.6 1406.3,331.5 1434.8,332.4 1463.2,333.2 1491.7,333.9 1520.1,334.6 1548.6,335.2 1577.1,335.7 1605.5,336.2 1634.0,336.6\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"1100\" y=\"30\" width=\"36\" height=\"6\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"1100\" y=\"78\" width=\"36\" height=\"6\" rx=\"3\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 356,
+     "w": 160,
+     "t": "sessão",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 188,
+     "y": 356,
+     "w": 160,
+     "t": "1 dia",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 415,
+     "y": 356,
+     "w": 160,
+     "t": "2 dias",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 643,
+     "y": 356,
+     "w": 160,
+     "t": "3 dias",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1099,
+     "y": 356,
+     "w": 160,
+     "t": "5 dias",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 356,
+     "w": 160,
+     "t": "7 dias",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 16,
+     "w": 480,
+     "t": "primeira vez",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 64,
+     "w": 480,
+     "t": "a mesma sessão, uma semana depois",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 150,
+     "w": 540,
+     "t": "excêntrico + não habituado",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Efeito da sessão repetida",
+   "titulo": "Não é intensidade metabólica. É novidade mecânica.",
+   "destaque": "“O que eu faço para não sentir isso?” A resposta é dose: gesto novo e excêntrico entram aos poucos, com a primeira vez menor que a vontade.",
+   "destaque_cor": "ambar",
+   "fonte": "Esquema · Hyldahl, Chen e Nosaka, Exercise and Sport Sciences Reviews 2017"
+  },
+  {
+   "id": "rabdo",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Bandeira vermelha",
+   "titulo": "Isso não é dor muscular tardia",
+   "cards": [
+    {
+     "t": "Dor desproporcional",
+     "x": "Que não melhora em três ou quatro dias.",
+     "cor": "verm"
+    },
+    {
+     "t": "Inchaço",
+     "x": "Importante, no músculo trabalhado.",
+     "cor": "verm"
+    },
+    {
+     "t": "Fraqueza",
+     "x": "Marcante, fora do esperado.",
+     "cor": "verm"
+    },
+    {
+     "t": "Urina escura",
+     "x": "Cor de chá ou de refrigerante de cola.",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Rabdomiólise até que se prove o contrário: avaliação médica no mesmo dia. A dor tardia comum é o pano de fundo que faz ela passar despercebida.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "tolerancia",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Fibra muscular com três adaptações ao treino glicolítico: mais tampões dentro, mais transportadores na membrana levando lactato e próton para fora, e mais tolerância ao desconforto\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"t1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"1000\" height=\"300\" rx=\"150\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"96\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><circle cx=\"290\" cy=\"96\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><circle cx=\"400\" cy=\"96\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><circle cx=\"180\" cy=\"162\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><circle cx=\"290\" cy=\"162\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><circle cx=\"400\" cy=\"162\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><circle cx=\"180\" cy=\"228\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><circle cx=\"290\" cy=\"228\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><circle cx=\"400\" cy=\"228\" r=\"24\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"620\" y=\"28\" width=\"40\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><path d=\"M640 150 L640 60 L640 0\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\" marker-end=\"url(#t1)\"/><rect x=\"710\" y=\"28\" width=\"40\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><path d=\"M730 150 L730 60 L730 0\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\" marker-end=\"url(#t1)\"/><rect x=\"800\" y=\"28\" width=\"40\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><path d=\"M820 150 L820 60 L820 0\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\" marker-end=\"url(#t1)\"/><rect x=\"890\" y=\"28\" width=\"40\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><path d=\"M910 150 L910 60 L910 0\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\" marker-end=\"url(#t1)\"/><rect x=\"1100\" y=\"40\" width=\"564\" height=\"300\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 272,
+     "w": 400,
+     "t": "mais tampões dentro da fibra",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 200,
+     "w": 420,
+     "t": "mais transportadores:<br>lactato e H⁺ para fora",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 70,
+     "w": 510,
+     "t": "Tolerância ao desconforto",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 120,
+     "w": 510,
+     "t": "Um lado treinável e um lado de cabeça.",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 210,
+     "w": 510,
+     "t": "Assinatura em campo: queda de potência no esforço repetido, queimação forte, recuperação lenta.",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 370,
+     "w": 1100,
+     "t": "O que melhora é o quanto se aguenta, não o quanto se produz.",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Dá para treinar o glicolítico?",
+   "titulo": "Treina tolerância, não produção",
+   "destaque": "Decremento alto de propósito é treino glicolítico. Sem querer, é treino de velocidade estragado."
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "O que se diz no lugar",
+   "regras": [
+    "Desaquecimento: diga o que ele é. Transição, ritual, sensação boa.",
+    "Dor de dois dias: mexa na progressão, não no lactato.",
+    "Diga lactato. O lactato medido é marcador, não veneno."
+   ],
+   "cards": [
+    {
+     "t": "Todo mundo da equipe",
+     "x": "Desmonta a frase errada, porque todo mundo diz."
+    },
+    {
+     "t": "Dono técnico",
+     "x": "A coleta de sangue e a leitura da curva de lactato."
+    }
+   ],
+   "quem": "Junto não é por causa."
+  }
+ ]
+}

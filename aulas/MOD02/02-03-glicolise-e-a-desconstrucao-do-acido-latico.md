@@ -1,168 +1,252 @@
-# Módulo 2 · Aula 2.3 — Glicólise e a desconstrução do ácido lático
+# Módulo 2 · Aula 2.3 — O acompanhante inocente: glicólise e a desconstrução do ácido lático
 
 **Módulo 2 — Fisiologia do Exercício Aplicada**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 21 minutos · 6 slides · Arquitetura: ERRO
+Duração: 19 minutos · 16 slides · Arquitetura: ERRO
 
 ---
 
-📊 **[SLIDE 1 DE 6]**
-*Visual: três frases soltas em tipografia grande, como se fossem legendas de vídeos de treino, e um carimbo de "errado" atravessando as três.*
-*Teleprompter: (entra pela cena, tom de quem já ouviu isso ontem)*
+📊 **[SLIDE 1 DE 16]**
+*Visual: três frases de beira de quadra em cartões, cada uma riscada, com o motivo do erro escrito embaixo.*
+*Teleprompter: (entra pela cena, tom de quem ouviu isso ontem)*
 
-Um remador acaba de fazer dois mil metros no ergômetro. Desaba no banco. E o técnico diz: "pedala leve dez minutos para eliminar o ácido lático."
+Um remador acaba de fazer dois mil metros no ergômetro. Desaba no banco. E o técnico fala: "pedala leve dez minutos para tirar o ácido lático."
 
 Dois dias depois, a mesma pessoa está com a coxa dolorida e comenta: "é o ácido lático que ficou acumulado."
 
-E na semana seguinte ela paga uma massagem, porque alguém disse que ajuda a drenar o ácido lático.
+Na semana seguinte, ela paga uma massagem, porque alguém disse que ajuda a drenar o ácido lático.
 
-Três frases. As três são ditas todo dia, por profissionais formados, em academias e clubes do país inteiro. **E as três estão erradas** — a primeira pelo motivo, a segunda pelo mecanismo, e a terceira pelas duas coisas.
+Três frases. As três são ditas todo dia, por gente formada, em academia e clube do país inteiro. E as três estão erradas. A primeira pelo motivo. A segunda pelo mecanismo. A terceira pelas duas coisas.
 
-O que me interessa aqui não é corrigir o vocabulário. É que o erro muda conduta, e é isso que a gente vai desmontar.
-
-Mas antes vale entender por que ele parece tão certo, porque ele é convincente e tem cem anos de currículo.
-
-Na década de 1920, Archibald Hill e Otto Meyerhof ganharam o Nobel por trabalhos que ligavam a produção de ácido lático ao trabalho muscular e à fadiga. Era a melhor ciência disponível, feita com as melhores ferramentas da época — boa parte dela em músculo isolado de rã, o que importa mais do que parece.
-
-Daí para a frente, a história se sustentou sozinha por um motivo simples: **a coincidência temporal é perfeita.** O lactato sobe no sangue exatamente quando a queimação aparece, exatamente quando a força cai, exatamente quando o atleta desiste. Tudo acontece junto.
-
-E quando duas coisas acontecem sempre juntas, o cérebro humano conclui que uma causa a outra. Essa é, aliás, a mesma armadilha que a gente desmontou no Módulo 1, quando falou de associação e causalidade. Aqui ela tem um século de idade e um Nobel de fiador.
-
-O problema é que junto não é por causa.
+E o que me interessa aqui não é corrigir vocabulário. É que esse erro muda conduta. É isso que a gente vai desmontar hoje.
 
 ---
 
-📊 **[SLIDE 2 DE 6]**
-*Visual: a via glicolítica esquematizada com duas setas saindo do piruvato — uma para o lactato e outra para a mitocôndria — e, ao lado, a hidrólise de ATP com o H⁺ destacado.*
-*Teleprompter: (tom de desmontagem, sem pressa)*
+📊 **[SLIDE 2 DE 16]**
+*Visual: três curvas subindo juntas conforme a intensidade aumenta: lactato no sangue, queimação e queda de força, com a frase "junto não é por causa".*
+*Teleprompter: (explica por que o erro convence, com respeito pelo erro)*
 
-Antes de desmontar, vale descrever direito o sistema, porque a maior parte de nós nunca aprendeu a glicólise pelo que ela faz — só pelo que ela supostamente suja.
+Antes de desmontar, vale entender por que ele convence. Porque ele é convincente, e tem cem anos de currículo.
 
-**De onde vem o combustível.** Duas fontes, e elas não são equivalentes. O **glicogênio muscular**, que está dentro da própria fibra, e a **glicose do sangue**, que vem de fora. A fibra prefere o glicogênio de casa em esforço intenso, por um motivo de logística: está ali, não depende de transporte, e entra na via com um passo a menos.
+Em mil novecentos e vinte e dois, Archibald Hill e Otto Meyerhof ganharam o Nobel por trabalhos que ligavam o ácido lático ao trabalho muscular. Era a melhor ciência disponível, feita com as ferramentas da época. E boa parte dela em músculo isolado de rã, em temperatura de laboratório. Guarda esse detalhe, porque ele vai importar daqui a pouco.
 
-Isso tem uma consequência prática que aparece o tempo todo. Glicogênio muscular baixo não se corrige com um gel tomado no meio do treino — o gel ajuda a manter a glicemia e a poupar o fígado, e isso importa, mas o estoque de dentro da fibra se repõe ao longo de horas, com alimentação, e não em minutos.
+Daí em diante, a história se sustentou sozinha por um motivo simples: a coincidência no tempo é perfeita. O lactato sobe no sangue exatamente quando a queimação aparece, exatamente quando a força cai, exatamente quando o atleta desiste. Tudo acontece junto.
 
-**Qual é a velocidade.** A glicólise entrega ATP **muito mais rápido** que a via oxidativa — na ordem de duas a três vezes mais por segundo — e é exatamente por isso que ela existe. Quando a demanda ultrapassa o que a mitocôndria consegue entregar naquele instante, é essa via que cobre a diferença. Ela não é o plano B do músculo sem oxigênio. Ela é o plano de velocidade.
+E quando duas coisas acontecem sempre juntas, a cabeça da gente conclui que uma causa a outra. É a mesma armadilha de associação e causalidade que a gente já desmontou lá no começo do curso. Só que aqui ela tem um século de idade e um Nobel de fiador.
 
-**O que regula.** A via acelera quando os produtos da quebra de ATP se acumulam — é o próprio sinal de que o ATP está sendo gasto mais rápido do que refeito que abre a torneira. Não é uma decisão consciente nem uma zona de frequência cardíaca. É contabilidade local, dentro da fibra.
-
-**E o que o tipo de fibra tem a ver.** Fibras mais rápidas têm mais maquinaria glicolítica e menos mitocôndria; fibras mais lentas, o contrário. Conforme a intensidade sobe e o sistema nervoso recruta as fibras rápidas — e a gente volta nisso na aula sete —, a produção de lactato sobe junto, não porque faltou oxigênio, **mas porque entrou em cena um tipo de fibra que produz mais lactato mesmo com oxigênio disponível.**
-
-Guarde essa frase. Ela é a chave que dissolve o mal-entendido inteiro, e ela vai voltar na aula de limiares.
-
-Agora sim, a bioquímica, e ela cabe em três frases.
-
-**Primeira: o que a glicólise produz não é ácido lático.** É lactato, mais íons hidrogênio, que são coisas separadas e que são produzidas por reações diferentes. No pH do corpo humano, o ácido lático praticamente não existe como tal — ele está dissociado. A molécula que a gente mede no sangue é lactato.
-
-**Segunda: os íons hidrogênio que acidificam o músculo não vêm da produção de lactato.** Eles vêm, em boa parte, da **hidrólise do próprio ATP** — quando a taxa de quebra de ATP excede a taxa com que ele é refeito pela via oxidativa, sobram prótons. A acidose é um problema de descompasso entre quebra e ressíntese, e não um subproduto do lactato.
-
-**Terceira, e essa costuma derrubar a plateia: a produção de lactato, na verdade, consome íons hidrogênio.** A conversão de piruvato em lactato gasta um próton. Ou seja, formar lactato **atrasa** a acidose em vez de causá-la.
-
-Robergs, Ghiasvand e Parker publicaram isso de forma explícita em 2004, num artigo que virou divisor de águas: não existe suporte bioquímico para a ideia de que a produção de lactato cause acidose.
-
-Aqui eu preciso ser honesto sobre o estado da discussão, porque ela não está totalmente encerrada. Os detalhes contábeis desse balanço de prótons — quanto vem de onde, exatamente — ainda são objeto de debate entre bioquímicos, e existem críticas técnicas relevantes ao modelo do Robergs.
-
-**Mas a conclusão que interessa à prática não está em disputa**: o lactato não é o agente da acidose. Ele é o acompanhante. Sobe junto porque as duas coisas têm a mesma causa — demanda alta de ATP por via glicolítica.
-
-É a diferença entre o termômetro e a febre. Ninguém trata febre quebrando o termômetro, e ninguém melhora a recuperação combatendo o lactato.
+Junto não é por causa.
 
 ---
 
-📊 **[SLIDE 3 DE 6]**
-*Visual: um diagrama de lançadeira — lactato saindo da fibra glicolítica e sendo captado por fibra oxidativa, coração, cérebro e fígado.*
+📊 **[SLIDE 3 DE 16]**
+*Visual: uma fibra muscular com grânulos de glicogênio dentro e um capilar do lado de fora trazendo glicose; as duas entradas convergem para a glicólise, e a de dentro tem um passo a menos.*
+*Teleprompter: (tom de aula, descreve o sistema pelo que ele faz)*
+
+Antes de falar do que a glicólise supostamente suja, vale ver o que ela faz. Quase ninguém aprendeu por esse lado.
+
+De onde vem o combustível. Duas fontes, e elas não são iguais. O glicogênio muscular, que está dentro da própria fibra. E a glicose do sangue, que vem de fora. Em esforço intenso, a fibra prefere o glicogênio de casa, por pura logística: está ali, não depende de transporte e entra na via com um passo a menos.
+
+E isso tem uma consequência prática que aparece o tempo todo. Glicogênio muscular baixo não se corrige com um gel no meio do treino. O gel ajuda a manter a glicose do sangue e a poupar o fígado, e isso importa. Mas o estoque de dentro da fibra se repõe ao longo de horas, com comida, e não em minutos.
+
+---
+
+📊 **[SLIDE 4 DE 16]**
+*Visual: as torneiras dos três sistemas, lado a lado, com a glicolítica mais larga que a oxidativa, e uma faixa marcando o momento em que a demanda passa do que a mitocôndria entrega.*
+*Teleprompter: (tom de virada, corrige o apelido do sistema)*
+
+Qual é a vantagem dela. Velocidade.
+
+A glicólise entrega ATP bem mais rápido do que a mitocôndria consegue. É a torneira larga que a gente viu duas conversas atrás. Quando a demanda passa do que a via oxidativa entrega naquele instante, é a glicólise que cobre a diferença.
+
+Então ela não é o plano B do músculo sem oxigênio. Ela é o plano de velocidade.
+
+E quem abre essa torneira não é uma decisão consciente, nem uma zona de frequência cardíaca. É contabilidade local, dentro da fibra. A via acelera quando os produtos da quebra de ATP se acumulam. É o próprio sinal de que o ATP está sendo gasto mais rápido do que é refeito que abre a torneira.
+
+---
+
+📊 **[SLIDE 5 DE 16]**
+*Visual: com a intensidade subindo, a faixa de fibras lentas recrutadas fica embaixo e as fibras rápidas entram por cima a partir da intensidade moderada; a curva de lactato sobe junto com a entrada delas.*
+*Teleprompter: (devagar, é a frase-chave da aula)*
+
+E aqui entra o tipo de fibra.
+
+Fibra mais rápida tem mais maquinaria glicolítica e menos mitocôndria. Fibra mais lenta, o contrário. Conforme a intensidade sobe, o sistema nervoso vai chamando as fibras rápidas. E a gente volta nisso na aula de fisiologia neuromuscular.
+
+Quando elas entram, a produção de lactato sobe junto. Não porque faltou oxigênio. Mas porque entrou em cena um tipo de fibra que produz mais lactato mesmo com oxigênio disponível.
+
+Guarda essa frase. Ela dissolve o mal-entendido inteiro. E ela vai voltar na aula de limiares.
+
+---
+
+📊 **[SLIDE 6 DE 16]**
+*Visual: o esquema da via: glicose vira piruvato; do piruvato saem duas setas, uma para a mitocôndria e outra para o lactato, e esta segunda consome um próton. Ao lado, a quebra de ATP liberando ADP, fosfato e o próton.*
+*Teleprompter: (bioquímica em três frases, uma de cada vez)*
+
+Agora a bioquímica. Ela cabe em três frases.
+
+Primeira. O que a glicólise produz não é ácido lático. É lactato, mais íons hidrogênio, por reações diferentes. No pH do corpo, o ácido lático praticamente não existe como tal. Ele está dissociado. A molécula que a gente mede no sangue é lactato.
+
+Segunda. Os íons hidrogênio que acidificam o músculo não vêm da produção de lactato. Eles vêm em boa parte da quebra do próprio ATP. Quando o ATP é quebrado mais rápido do que é refeito pela mitocôndria, sobram prótons. A acidose é um descompasso entre quebra e ressíntese.
+
+Terceira. E essa costuma derrubar a plateia. A produção de lactato consome íon hidrogênio. Transformar piruvato em lactato gasta um próton. Ou seja, formar lactato atrasa a acidose em vez de causar.
+
+O Robergs e colaboradores escreveram isso com todas as letras em dois mil e quatro: não existe suporte bioquímico para a ideia de que a produção de lactato cause acidose.
+
+---
+
+📊 **[SLIDE 7 DE 16]**
+*Visual: uma causa comum no alto, a demanda alta de ATP pela glicólise, com duas setas descendo: uma para "lactato sobe" e outra para "acidez sobe"; entre as duas, uma seta horizontal riscada.*
+*Teleprompter: (honestidade sobre o debate, e a conclusão que não está em disputa)*
+
+Aqui eu preciso ser honesto sobre o estado da discussão, porque ela não está encerrada. Os detalhes contábeis desse balanço de prótons, quanto vem de onde, ainda são debatidos entre bioquímicos. E existem críticas técnicas sérias ao modelo do Robergs.
+
+Mas a conclusão que importa para a prática não está em disputa. O lactato não é o agente da acidose. Ele é o acompanhante.
+
+Sobe junto porque as duas coisas têm a mesma causa: demanda alta de ATP pela via glicolítica. Uma causa, dois sinais. E a seta entre os dois sinais, que a gente desenhou por cem anos, não existe.
+
+É a diferença entre o termômetro e a febre. Ninguém trata febre quebrando o termômetro. E ninguém melhora a recuperação combatendo o lactato.
+
+---
+
+📊 **[SLIDE 8 DE 16]**
+*Visual: a lançadeira do lactato: uma fibra glicolítica no centro soltando lactato, e setas levando-o para uma fibra oxidativa vizinha, para o coração, para o cérebro e para o fígado, que devolve glicose.*
 *Teleprompter: (tom de virada, o resíduo vira combustível)*
 
-E agora a parte que inverte completamente o sinal da conversa.
+E agora a parte que inverte o sinal da conversa.
 
-**O lactato não é resíduo. É combustível.**
+O lactato não é resíduo. É combustível.
 
-George Brooks passou quatro décadas construindo isso, no que ficou conhecido como teoria da lançadeira do lactato, e a revisão dele de 2018 na Cell Metabolism é a síntese do argumento.
+O George Brooks passou quatro décadas construindo isso, no que ficou conhecido como lançadeira do lactato.
 
-O lactato é produzido continuamente, **inclusive em repouso**, mesmo com oxigênio de sobra. Ele sai da fibra que o produziu e é captado e oxidado por outros tecidos: por fibras musculares vizinhas mais oxidativas, pelo coração, pelo cérebro, e pelo fígado, que o usa para refazer glicose.
-
-Três funções, todas úteis. Fonte de energia. Precursor para produzir glicose. E — a que mais cresceu na literatura recente — **molécula de sinalização**, envolvida na regulação de processos que incluem adaptação mitocondrial.
-
-Leia isso de novo com calma: a substância que a gente aprendeu a chamar de lixo metabólico é, em parte, o sinal que diz ao músculo para construir mais mitocôndria.
-
-E um dado de cinética que fecha o assunto da massagem: **o lactato sai da circulação em pouco mais de uma hora** depois do esforço. Em uma hora ele já era, e ele foi embora sozinho, sem massagem, sem bota de compressão, sem crioterapia.
-
-Repara no tamanho do estrago conceitual. Toda uma indústria de recuperação foi vendida com o argumento de remover uma substância que o corpo remove sozinho em sessenta minutos, e que enquanto está lá está sendo usada como combustível.
-
-Isso não quer dizer que essas intervenções não sirvam para nada — algumas têm outros efeitos, e a gente discute isso no módulo de fisioterapia e reabilitação. Quer dizer que **o motivo pelo qual elas são vendidas é falso.**
+O lactato é produzido o tempo todo. Inclusive em repouso, com oxigênio de sobra. Ele sai da fibra que o produziu e é captado e queimado por outros tecidos. Por fibras vizinhas mais oxidativas. Pelo coração. Pelo cérebro. E pelo fígado, que usa o lactato para fazer glicose de novo.
 
 ---
 
-📊 **[SLIDE 4 DE 6]**
-*Visual: barra do fosfato inorgânico intracelular subindo de 5 para 30 milimolar, ao lado da curva de queda de força.*
-*Teleprompter: (tom de resposta, responde a pergunta que o aluno já está fazendo)*
+📊 **[SLIDE 9 DE 16]**
+*Visual: três cartões: fonte de energia, matéria-prima para fazer glicose e molécula de sinalização.*
+*Teleprompter: (enumera, e para no terceiro)*
 
-A essa altura o aluno está com a pergunta certa na cabeça: se não é o lactato, **o que é que causa a queimação e a perda de força?**
+Então são três funções, e as três são úteis.
 
-E aqui a resposta é mais interessante do que o mito.
+Fonte de energia.
 
-O íon hidrogênio tem, sim, o seu papel — ele contribui para a sensação de queimação, agindo sobre receptores sensoriais. Mas o efeito dele sobre a capacidade de gerar força, que é o que derruba o desempenho, é provavelmente **menor do que se ensinou** durante décadas. Aqueles estudos clássicos em músculo de rã, feitos em temperatura ambiente, superestimaram o efeito da acidose. Em temperatura corporal de mamífero, o efeito encolhe bastante.
+Matéria-prima para o fígado fazer glicose.
 
-O candidato que ocupou o lugar tem nome e tem número: **o fosfato inorgânico.**
+E a que mais cresceu na literatura recente: molécula de sinalização. O lactato participa da regulação de processos que incluem a adaptação da mitocôndria.
 
-Durante esforço intenso, a concentração de fosfato inorgânico dentro da fibra sobe de cerca de **cinco para perto de trinta milimolares**. Seis vezes. E esse fosfato prejudica a contração por dois caminhos: interfere diretamente na maquinaria contrátil, e reduz a liberação de cálcio pelo retículo sarcoplasmático — ou seja, diminui a força de cada ponte cruzada e diminui o sinal que manda o músculo contrair.
+Pensa nisso com calma. A substância que a gente aprendeu a chamar de lixo metabólico é, em parte, o sinal que avisa o músculo para construir mais mitocôndria.
 
-Agora olha a elegância disso, e a ligação com a aula passada. **De onde vem esse fosfato?** Da quebra da fosfocreatina.
+---
+
+📊 **[SLIDE 10 DE 16]**
+*Visual: duas barras de queda de força com a mesma acidez: uma grande em músculo a 12 °C, outra pequena a 32 °C, e ao lado a queimação, que continua.*
+*Teleprompter: (responde a pergunta que o aluno já está fazendo)*
+
+A essa altura o aluno já está com a pergunta certa na cabeça. Se não é o lactato, o que causa a queimação e a perda de força?
+
+E a resposta é mais interessante que o mito.
+
+O íon hidrogênio tem o seu papel. Ele contribui para a queimação, agindo sobre receptores sensoriais. Mas o efeito dele sobre a força, que é o que derruba o desempenho, é provavelmente menor do que se ensinou por décadas.
+
+Lembra do músculo de rã em temperatura de laboratório? Quando refizeram os experimentos em músculo de mamífero, a acidez derrubava bem mais a força a doze graus do que a trinta e dois. Na temperatura do corpo, o efeito encolhe muito.
+
+Queimação, sim. Queda de força, bem menos.
+
+---
+
+📊 **[SLIDE 11 DE 16]**
+*Visual: a fosfocreatina se quebrando em creatina e fosfato; uma barra de fosfato inorgânico subindo de 5 para 30 milimolar; do fosfato saem duas setas: uma para a ponte cruzada e outra para a liberação de cálcio.*
+*Teleprompter: (tom de revelação, liga com a aula passada)*
+
+O candidato que ocupou o lugar tem nome e tem número. O fosfato inorgânico.
+
+Em esforço intenso, o fosfato inorgânico dentro da fibra sobe de uns cinco para perto de trinta milimolares. Seis vezes. E ele atrapalha a contração por dois caminhos. Interfere direto na ponte cruzada, que é a maquinaria que gera força. E reduz a liberação de cálcio, que é o sinal que manda o músculo contrair.
+
+Agora olha de onde vem esse fosfato. Da quebra da fosfocreatina. Aquela da conversa passada.
 
 Quer dizer: o sistema de maior potência, ao ser usado, produz justamente a molécula que mais contribui para a queda de força. A potência tem um preço, e o preço é pago na moeda do próprio sistema.
 
-E essa é a leitura correta da fadiga periférica intensa: não é envenenamento por ácido. É **o acúmulo dos próprios produtos do trabalho**, com o fosfato à frente, somado ao esgotamento do substrato e, como a gente vai ver na aula sobre fadiga, a um componente central que decide antes do músculo.
+Então a fadiga periférica intensa não é envenenamento por ácido. É o acúmulo dos próprios produtos do trabalho, com o fosfato na frente. Somado ao esgotamento de combustível e a um componente central, que decide antes do músculo, e que tem aula própria.
 
 ---
 
-📊 **[SLIDE 5 DE 6]**
-*Visual: linha do tempo de 72 horas — lactato caindo a zero na primeira hora, e a curva de dor subindo a partir das 12 horas com pico entre 24 e 72.*
-*Teleprompter: (tom prático, a dor de dois dias)*
+📊 **[SLIDE 12 DE 16]**
+*Visual: linha do tempo de 72 horas: o lactato do sangue voltando ao normal nas primeiras horas, e a curva de dor começando no dia seguinte, com pico entre 48 e 72 horas.*
+*Teleprompter: (tom prático, basta olhar o relógio)*
 
-Sobrou a segunda frase da abertura, a da dor de dois dias. E ela é a mais fácil de derrubar, porque basta olhar o relógio.
+Falta a segunda frase da abertura. A da dor de dois dias. E ela é a mais fácil de derrubar, porque basta olhar o relógio.
 
-O lactato sumiu em uma hora. A dor aparece entre doze e vinte e quatro horas depois e tem pico entre **vinte e quatro e setenta e duas horas**. Não existe como uma substância que já saiu causar uma dor que ainda nem começou.
+Depois de um esforço máximo, o lactato do sangue volta perto do normal em uma ou duas horas. Sozinho. Sem massagem, sem bota de compressão, sem banho de gelo.
 
-O que é, então? É dano ultraestrutural ao músculo, provocado principalmente por **contração excêntrica** ou por um gesto ao qual a pessoa não está habituada, seguido de degradação de proteína e resposta inflamatória local. A sensibilização dos receptores que vem dessa inflamação é o que dói.
+A dor aparece no dia seguinte e tem pico entre quarenta e oito e setenta e duas horas.
 
-Duas palavras fazem o trabalho todo ali: **excêntrico** e **não habituado**.
+Uma substância que já foi embora não causa uma dor que ainda nem começou.
 
-Por isso a dor de dois dias castiga quem desceu a serra correndo, quem jogou uma partida de beach tennis depois de seis meses parado, quem voltou à academia e fez três séries de agachamento como fazia em 2019. Não é intensidade no sentido metabólico. É **novidade mecânica**.
-
-E tem um fenômeno que confirma o mecanismo de forma bonita: o efeito da sessão repetida. Faça a mesma sessão de novo uma semana depois, e a dor é muito menor. O músculo se adaptou mecanicamente — e nenhuma adaptação de tamponamento explicaria isso.
-
-O que isso muda na conduta? Muda a resposta que você dá para a pergunta mais comum do consultório e da sala de musculação: *"o que eu faço para não sentir isso?"*
-
-A resposta não é alongar depois, não é gelo, não é drenagem. A resposta é **dose**. Introduzir gesto novo e componente excêntrico de forma progressiva — a primeira exposição menor do que o desejo da pessoa — e aceitar que a primeira vez vai doer um pouco e que a segunda vai doer muito menos.
-
-E um limite clínico que precisa ser dito, porque é onde a aula encosta na emergência: **dor desproporcional, que não melhora em três ou quatro dias, com inchaço importante, fraqueza marcante ou urina escura, não é dor muscular tardia.** É rabdomiólise até que se prove o contrário, e é encaminhamento para avaliação médica no mesmo dia. Esse quadro aparece com mais frequência em iniciante que fez uma primeira sessão heroica de treinamento em circuito de alta intensidade — e a dor tardia comum é justamente o pano de fundo que faz a rabdomiólise passar despercebida.
+E repara no tamanho do estrago. Toda uma indústria de recuperação foi vendida com o argumento de remover uma coisa que o corpo remove sozinho em pouco tempo, e que enquanto está lá está sendo usada como combustível. Algumas dessas intervenções têm outros efeitos, e a gente discute isso no módulo de reabilitação. Mas o motivo pelo qual elas são vendidas é falso.
 
 ---
 
-📊 **[SLIDE 6 DE 6]**
-*Visual: duas colunas — "o que se diz" e "o que se faz no lugar" — com as três frases da abertura de um lado e as três condutas do outro.*
+📊 **[SLIDE 13 DE 16]**
+*Visual: duas curvas de dor ao longo de uma semana: a da primeira sessão, alta, e a da mesma sessão repetida uma semana depois, bem mais baixa; acima, as palavras excêntrico e não habituado.*
+*Teleprompter: (explica o mecanismo e chega na conduta)*
+
+O que é, então, a dor de dois dias? É dano na estrutura fina do músculo, provocado principalmente por contração excêntrica ou por um gesto ao qual a pessoa não está habituada. Depois vem degradação de proteína e uma resposta inflamatória local. É essa inflamação, sensibilizando os receptores, que dói.
+
+Duas palavras fazem o trabalho todo: excêntrico e não habituado.
+
+Por isso a dor castiga quem desceu a serra correndo. Quem jogou beach tennis depois de seis meses parado. Quem voltou à academia e fez três séries de agachamento como fazia anos atrás. Não é intensidade metabólica. É novidade mecânica.
+
+E tem um fenômeno que confirma o mecanismo de um jeito bonito. Faz a mesma sessão de novo uma semana depois, e a dor é muito menor. É o efeito da sessão repetida. O músculo se adaptou mecanicamente. Nenhuma adaptação de acidez explicaria isso.
+
+Então, para a pergunta mais comum do consultório e da sala de musculação, "o que eu faço para não sentir isso?", a resposta não é alongar depois, nem gelo, nem drenagem. A resposta é dose. Gesto novo e excêntrico entram de forma progressiva, com a primeira exposição menor do que a vontade da pessoa. A primeira vez vai doer um pouco. A segunda vai doer bem menos.
+
+---
+
+📊 **[SLIDE 14 DE 16]**
+*Visual: fundo vermelho, quatro sinais em cartões: dor desproporcional que não melhora, inchaço importante, fraqueza marcante, urina escura.*
+*Teleprompter: (muda o tom, é o limite clínico)*
+
+E aqui tem um limite clínico que precisa ser dito, porque é onde essa conversa encosta na emergência.
+
+Dor desproporcional, que não melhora em três ou quatro dias. Inchaço importante. Fraqueza marcante. Urina escura.
+
+Isso não é dor muscular tardia. É rabdomiólise até que se prove o contrário, e é avaliação médica no mesmo dia.
+
+Esse quadro aparece com mais frequência em iniciante que fez uma primeira sessão heroica de treino em circuito de alta intensidade. E a dor tardia comum é justamente o pano de fundo que faz a rabdomiólise passar despercebida. Todo mundo acha que é só a dor de sempre.
+
+---
+
+📊 **[SLIDE 15 DE 16]**
+*Visual: uma fibra muscular com três adaptações marcadas: tampões dentro da fibra, transportadores na membrana levando lactato e próton para fora, e a cabeça do atleta aguentando o desconforto.*
+*Teleprompter: (responde se dá para treinar esse sistema)*
+
+Falta uma pergunta que o aluno atento já fez. Dá para treinar o sistema glicolítico?
+
+Dá. E o que melhora não é a produção. É a tolerância.
+
+Com treino intenso e pausa curta, adaptam três coisas. A capacidade de tamponamento dentro da fibra. A quantidade de transportadores que tiram o lactato e o próton de dentro dela. E a tolerância do atleta ao próprio desconforto, que tem um lado treinável e um lado de cabeça.
+
+Como saber, em campo, que você está mexendo aí? Não precisa de sangue. A assinatura é a queda de potência no esforço repetido, com queimação forte e recuperação lenta entre as séries. É exatamente o decremento alto da conversa passada. Quando a sessão produz isso de propósito, é treino glicolítico. Quando produz sem querer, é treino de velocidade estragado.
+
+Existem recursos nutricionais que atuam sobre o tamponamento, e eles têm aula própria no módulo de suplementação, com dose, evidência e limite. Aqui fica só o mecanismo: o que melhora é o quanto se aguenta, não o quanto se produz.
+
+---
+
+📊 **[SLIDE 16 DE 16]**
+*Visual: duas colunas, "o que se diz" e "o que se diz no lugar", com as três frases da abertura de um lado e as três trocas do outro.*
 *Teleprompter: (fecha pelo que fazer no lugar, e emenda)*
 
 Fechando pelo que fica de prático.
 
-**A frase do desaquecimento.** O desaquecimento leve tem usos — transição circulatória, efeito subjetivo, ritual de fim de sessão, e às vezes aceleração modesta da remoção de lactato do sangue. Nada disso é errado. Errado é o objetivo declarado. Se você diz ao atleta que está tirando o ácido lático, você está ensinando fisiologia errada e criando dependência de um ritual pelo motivo errado. **Diga o que é.**
+A frase do desaquecimento. O desaquecimento leve tem usos. Transição da circulação, sensação boa, ritual de fim de sessão. E ele até acelera um pouco a saída do lactato do sangue. Nada disso é errado. Errado é o objetivo declarado. Se você diz que está tirando o ácido lático, está ensinando fisiologia errada. Diga o que é.
 
-**A frase da dor de dois dias.** Troque a explicação e a conduta muda junto. Quem entende que a dor é dano mecânico por gesto novo passa a mexer na progressão, que é onde está a solução. Quem acha que é lactato acumulado vai continuar comprando massagem e continuar sentindo dor, porque não mudou a variável que causa.
+A frase da dor de dois dias. Troca a explicação e a conduta muda junto. Quem entende que a dor é dano mecânico por gesto novo mexe na progressão, que é onde está a solução. Quem acha que é lactato acumulado continua comprando massagem e continua sentindo dor.
 
-**E a palavra.** Enquanto a gente disser "ácido lático" na aula, o aluno vai reconstruir a história inteira por trás da palavra. Diga **lactato**. E, quando estiver falando de limiar, evite chamar de anaeróbico — é o assunto de uma controvérsia de mais de cinquenta anos que a gente vai abrir na aula de limiares.
+E a palavra. Enquanto a gente disser "ácido lático", o aluno reconstrói a história inteira por trás dela. Diga lactato. E lactato medido no sangue é marcador do que o metabolismo está fazendo naquela intensidade, não medida de veneno acumulado. A leitura da curva de lactato fica para a aula de limiares.
 
-Falta uma pergunta prática que o aluno atento já fez: **dá para treinar o sistema glicolítico?**
+Desmontar essa confusão é trabalho de todo mundo da equipe, porque a frase errada é dita por todo mundo. Já a coleta de sangue e a interpretação da curva têm dono técnico.
 
-Dá, e o que melhora não é a produção — é a **tolerância**. O que adapta com treino intenso e intervalo curto é a capacidade de tamponamento dentro da fibra, a densidade de transportadores que tiram o lactato e o próton de dentro dela, e a tolerância do atleta ao próprio desconforto, que tem componente treinável e componente de cabeça.
-
-Como é que você sabe, em campo, que está mexendo aí? Não precisa de sangue. **A assinatura é a queda de potência no esforço repetido, com queimação intensa e recuperação lenta entre as séries** — é exatamente o decremento alto da aula passada. Quando a sessão produz isso de propósito, é treino glicolítico; quando produz sem querer, é treino de velocidade estragado.
-
-Existem recursos nutricionais que atuam justamente sobre tamponamento, e eles têm aula própria no módulo de suplementação e ergogênicos — lá, com dose, evidência e limite. Aqui interessa só o mecanismo: **o que melhora é o quanto se aguenta, não o quanto se produz.**
-
-**E o lactato medido**, que é a última confusão. Medir lactato de sangue capilar é útil, e vai continuar sendo útil — mas como **marcador** do que o metabolismo está fazendo naquela intensidade, não como medida de quanto veneno se acumulou. Interpretação de curva de lactato e o que ela decide fica para a aula de limiares.
-
-Sobre escopo, duas linhas. **Desmontar essa confusão é trabalho de todo mundo do departamento**, porque a frase errada é dita por todo mundo. Já a punção capilar e a interpretação da curva têm dono técnico, e a aula oito trata disso.
-
-Na próxima aula eu vou para o sistema que sustenta praticamente tudo o que a gente faz: o metabolismo oxidativo. E a pergunta que vai organizar a aula é a mais prática que existe em nutrição esportiva — quanto de gordura e quanto de carboidrato o corpo queima em cada intensidade, e o que dá para fazer com isso.
+Na próxima conversa a gente vai para o sistema que sustenta praticamente tudo o que a gente faz: o oxidativo. E a pergunta que vai organizar a aula é das mais práticas que existem: quanto de gordura e quanto de carboidrato o corpo queima em cada intensidade, e o que dá para fazer com isso.
 
 ---
 
@@ -170,69 +254,123 @@ Na próxima aula eu vou para o sistema que sustenta praticamente tudo o que a ge
 
 1. Robergs RA, Ghiasvand F, Parker D. Biochemistry of exercise-induced metabolic acidosis. *Am J Physiol Regul Integr Comp Physiol.* 2004;287(3):R502-R516. PMID: 15308499
 2. Brooks GA. The science and translation of lactate shuttle theory. *Cell Metab.* 2018;27(4):757-785. PMID: 29617642
-3. Allen DG, Lamb GD, Westerblad H. Skeletal muscle fatigue: cellular mechanisms. *Physiol Rev.* 2008;88(1):287-332. doi:10.1152/physrev.00015.2007
-4. Hotfiel T, Freiwald J, Hoppe MW, et al. Advances in delayed-onset muscle soreness (DOMS): part I: pathogenesis and diagnostics. *Sportverletz Sportschaden.* 2018;32(4):243-250. PMID: 30537791
-5. Poole DC, Rossiter HB, Brooks GA, Gladden LB. The anaerobic threshold: 50+ years of controversy. *J Physiol.* 2021;599(3):737-767. PMID: 33112439
+3. Westerblad H, Allen DG, Lännergren J. Muscle fatigue: lactic acid or inorganic phosphate the major cause? *News Physiol Sci.* 2002;17:17-21. PMID: 11821531
+4. Allen DG, Lamb GD, Westerblad H. Skeletal muscle fatigue: cellular mechanisms. *Physiol Rev.* 2008;88(1):287-332. doi:10.1152/physrev.00015.2007
+5. Hargreaves M, Spriet LL. Skeletal muscle energy metabolism during exercise. *Nat Metab.* 2020;2(9):817-828. doi:10.1038/s42255-020-0251-4
+6. Menzies P, Menzies C, McIntyre L, Paterson P, Wilson J, Kemi OJ. Blood lactate clearance during active recovery after an intense running bout depends on the intensity of the active recovery. *J Sports Sci.* 2010;28(9):975-982. doi:10.1080/02640414.2010.481721
+7. Hotfiel T, Freiwald J, Hoppe MW, et al. Advances in delayed-onset muscle soreness (DOMS): part I: pathogenesis and diagnostics. *Sportverletz Sportschaden.* 2018;32(4):243-250. PMID: 30537791
+8. Hyldahl RD, Chen TC, Nosaka K. Mechanisms and mediators of the skeletal muscle repeated bout effect. *Exerc Sport Sci Rev.* 2017;45(1):24-33. PMID: 27782911
+9. Poole DC, Rossiter HB, Brooks GA, Gladden LB. The anaerobic threshold: 50+ years of controversy. *J Physiol.* 2021;599(3):737-767. PMID: 33112439
 
 ---
 
 ## Roteiro Gamma.app
 
-**Slide 1** — Três frases que se ouvem todo dia
-· "Pedala leve para eliminar o ácido lático" · "essa dor é o lactato acumulado" · "massagem drena"
-· As três erradas: a primeira pelo motivo, a segunda pelo mecanismo, a terceira pelas duas
-· Por que convence: Hill e Meyerhof, Nobel dos anos 1920, boa parte em **músculo de rã**
-· E a coincidência temporal é perfeita — lactato sobe quando a queimação aparece
+**Slide 1** — Três frases de todo dia
+· "Pedala leve para tirar o ácido lático" · "essa dor é o lactato acumulado" · "massagem drena"
+· Erradas **pelo motivo, pelo mecanismo, pelas duas coisas**
+Visual: três cartões riscados.
+
+**Slide 2** — Por que convence
+· Hill e Meyerhof, **Nobel de 1922**, boa parte em **músculo de rã**
+· Lactato, queimação e queda de força **sobem juntos**
 · **Junto não é por causa**
-Visual: as três frases com um carimbo atravessando.
+Visual: três curvas subindo juntas.
 
-**Slide 2** — A glicólise pelo que ela faz
-· Combustível: **glicogênio muscular** (de casa, um passo a menos) e **glicose do sangue**
-· Glicogênio de dentro da fibra se repõe em horas, com alimentação — não com gel no meio do treino
-· Entrega ATP **2 a 3 vezes mais rápido** que a via oxidativa: é o plano de velocidade, não o plano B
-· Regulação é contabilidade local: acelera com o acúmulo dos produtos da quebra de ATP
-· Intensidade sobe → recruta fibra rápida → **mais lactato mesmo com oxigênio disponível**
-· A glicólise produz **lactato e H⁺**, por reações diferentes. Ácido lático quase não existe no pH do corpo
-· Os H⁺ vêm em boa parte da **hidrólise do ATP** quando a ressíntese não acompanha
-· **Formar lactato consome próton** — atrasa a acidose em vez de causar
-· Robergs 2004: não há suporte bioquímico para lactato causar acidose
-· Os detalhes contábeis seguem em debate. **A conclusão prática, não**
-· Termômetro e febre: ninguém trata febre quebrando o termômetro
-Visual: via glicolítica com as duas saídas do piruvato.
+**Slide 3** — De onde vem o combustível
+· **Glicogênio de dentro da fibra** (um passo a menos) e **glicose do sangue**
+· O estoque da fibra se repõe **em horas, com comida**, não com gel no meio do treino
+Visual: fibra, glicogênio e capilar.
 
-**Slide 3** — Lactato é combustível e é sinal
-· Produzido **continuamente, inclusive em repouso**, com oxigênio de sobra
-· Lançadeira (Brooks): captado por fibras oxidativas, coração, cérebro e fígado
-· Três funções: **energia · precursor de glicose · molécula de sinalização**
-· O "lixo metabólico" participa do sinal que manda construir mitocôndria
-· **Sai da circulação em pouco mais de uma hora** — sozinho
-· As intervenções de recuperação podem servir. O motivo pelo qual são vendidas é falso
-Visual: diagrama da lançadeira.
+**Slide 4** — O plano de velocidade
+· A glicólise entrega ATP **bem mais rápido** que a mitocôndria
+· **Não é o plano B do músculo sem oxigênio**
+· Quem abre a torneira é **contabilidade local** dentro da fibra
+Visual: torneiras e a faixa de demanda.
 
-**Slide 4** — Então o que derruba a força
-· O H⁺ contribui para a **queimação**; o efeito sobre a força é menor do que se ensinou
-· Estudos clássicos em rã, em temperatura ambiente, superestimaram a acidose
-· **Fosfato inorgânico**: sobe de ~5 para ~30 mM no esforço intenso
-· Prejudica a maquinaria contrátil **e** reduz a liberação de cálcio
-· E ele vem da quebra da **fosfocreatina** — a potência paga o preço na própria moeda
-· Não é envenenamento por ácido: é acúmulo dos produtos do próprio trabalho
-Visual: barra de Pi de 5 a 30 mM ao lado da queda de força.
+**Slide 5** — A frase-chave
+· Intensidade sobe → **fibra rápida entra** → **mais lactato mesmo com oxigênio**
+Visual: recrutamento e curva de lactato.
 
-**Slide 5** — A dor de dois dias
-· Lactato sumiu em 1 h. A dor tem pico entre **24 e 72 h**. O relógio já resolve
-· Causa: dano ultraestrutural por **excêntrico** e por gesto **não habituado**, com inflamação
-· Descer a serra · beach tennis depois de seis meses · voltar à academia com a carga de 2019
-· **Efeito da sessão repetida**: a mesma sessão uma semana depois dói muito menos
-· A resposta para "o que faço para não doer" é **dose**, não alongamento nem gelo
-· **Bandeira vermelha**: dor desproporcional, inchaço, fraqueza marcante, urina escura → rabdomiólise, avaliação médica no mesmo dia
+**Slide 6** — Bioquímica em três frases
+· Produz **lactato e H⁺**, por reações diferentes
+· O H⁺ vem em boa parte da **quebra do ATP**
+· **Formar lactato consome próton**
+Visual: a via com as duas saídas do piruvato.
+
+**Slide 7** — Acompanhante, não agente
+· Detalhes em debate; **a conclusão prática, não**
+· **Uma causa, dois sinais**: termômetro e febre
+Visual: causa comum e seta riscada.
+
+**Slide 8** — A lançadeira
+· Produzido **o tempo todo, inclusive em repouso**
+· Queimado por **fibra oxidativa, coração, cérebro**; o **fígado** faz glicose
+Visual: lactato indo para quatro destinos.
+
+**Slide 9** — Três funções
+· **Energia · matéria-prima de glicose · sinal**
+· O "lixo" ajuda a mandar **construir mitocôndria**
+Visual: três cartões.
+
+**Slide 10** — Queimação, sim
+· H⁺ contribui para a **queimação**
+· Efeito na força **muito maior a 12 °C que a 32 °C**
+Visual: duas barras de queda de força.
+
+**Slide 11** — O fosfato inorgânico
+· Sobe de **~5 para ~30 mM**
+· Atrapalha a **ponte cruzada** e a **liberação de cálcio**
+· Vem da **fosfocreatina**: a potência paga na própria moeda
+Visual: PCr → Pi e as duas setas.
+
+**Slide 12** — O relógio
+· Lactato do sangue perto do normal em **1 a 2 h**, sozinho
+· Dor com pico em **48 a 72 h**
 Visual: linha do tempo de 72 horas.
 
-**Slide 6** — O que se faz no lugar
-· Desaquecimento tem usos. **Diga o que é** — não "tirar o ácido lático"
-· Troque a explicação da dor e a conduta muda junto: mexe na **progressão**
-· Diga **lactato**, não ácido lático. E evite chamar o limiar de anaeróbico
-· Treinar o glicolítico melhora **tolerância**, não produção: tamponamento e transportadores
-· Assinatura em campo: queda de potência no esforço repetido, queimação e recuperação lenta
-· Lactato medido é **marcador**, não medida de veneno — interpretação fica na aula 2.8
-· Escopo: desmontar a confusão é de todo mundo; a punção e a curva têm dono técnico
-Visual: duas colunas — o que se diz e o que se faz no lugar.
+**Slide 13** — Excêntrico e não habituado
+· Dano estrutural + inflamação
+· **Efeito da sessão repetida**
+· A resposta é **dose**
+Visual: duas curvas de dor.
+
+**Slide 14** — Bandeira vermelha
+· Dor desproporcional · inchaço · fraqueza marcante · **urina escura**
+· **Rabdomiólise até prova em contrário: avaliação no mesmo dia**
+Visual: quatro sinais em fundo vermelho.
+
+**Slide 15** — Treinar o glicolítico
+· Melhora **tolerância**, não produção
+· **Tamponamento · transportadores · tolerância ao desconforto**
+· Assinatura: **decremento alto** de propósito
+Visual: fibra com as três adaptações.
+
+**Slide 16** — O que se diz no lugar
+· Desaquecimento: **diga o que é**
+· Dor de dois dias: **mexa na progressão**
+· Diga **lactato**; lactato medido é **marcador**
+Visual: duas colunas.
+
+---
+
+## Notas de produção (não falado, não vai para o slide)
+
+**O que mudou nesta versão.** Voz do curso, dezesseis slides no lugar de seis, um visual por bloco.
+Saíram as menções numeradas a aulas e módulos e a palavra "elegância". Saiu o número "duas a três
+vezes mais rápida" para a glicólise contra a via oxidativa: não consegui confirmar a fonte e a aula
+diz só "bem mais rápido". A dor tardia passou de "pico entre 24 e 72 h" para "pico entre 48 e 72 h",
+como está em Hotfiel 2018. O tempo de volta do lactato passou de "pouco mais de uma hora" para "uma
+ou duas horas", e a aula agora admite que o desaquecimento acelera um pouco a remoção (Menzies 2010).
+
+**Números.** Temperatura: Westerblad 2002 mostra o efeito da acidificação muito maior a 12 °C que a
+32 °C; as barras do slide 10 são ilustrativas, sem escala medida. Fosfato de ~5 para ~30 mM: Allen,
+Lamb e Westerblad 2008. As curvas dos slides 2, 5, 12 e 13 são esquemas.
+
+**Citações faladas.** Hill e Meyerhof (Nobel), Robergs (a revisão de 2004) e George Brooks (a
+lançadeira).
+
+**Ligações internas.** "duas conversas atrás" (torneiras) = aula dos três sistemas · "conversa
+passada" (fosfocreatina, decremento) = aula do intervalo · fibras = aula neuromuscular · limiares e
+curva de lactato = aula de limiares · fadiga central = aula de fadiga · recuperação = módulo de
+reabilitação · tamponantes = módulo de suplementação.
