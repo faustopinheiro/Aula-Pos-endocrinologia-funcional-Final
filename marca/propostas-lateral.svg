@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" width="1280" height="900" role="img" aria-label="Tres calibragens do simbolo com a linha de pulso nascendo dentro do circulo e saindo pela lateral, cada uma em tamanho grande, pequeno, sobre fundo escuro e como marca d agua">
+  <defs>
+    <g id="orig" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M75.9,28.5 A34,34 0 1,0 75.9,67.5"/>
+      <path d="M58,48 L68,48 L73.5,35 L80,61 L85,48 L94,48"/>
+    </g>
+    <g id="c1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M75.9,28.5 A34,34 0 1,0 75.9,67.5" stroke-width="7"/>
+      <path d="M26,48 L64,48 L68.5,39 L73,58 L77.5,44 L82,48 L96,48" stroke-width="6"/>
+    </g>
+    <g id="c2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M75.9,28.5 A34,34 0 1,0 75.9,67.5" stroke-width="7"/>
+      <path d="M22,48 L66,48 L70,42 L74,55 L78,45 L82,48 L96,48" stroke-width="5.5"/>
+    </g>
+    <g id="c3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M75.9,28.5 A34,34 0 1,0 75.9,67.5" stroke-width="7"/>
+      <path d="M40,48 L62,48 L67,37 L72,60 L77,43 L82,48 L94,48" stroke-width="6.5"/>
+    </g>
+  </defs>
+
+  <rect width="1280" height="900" fill="#F7F6F2"/>
+  <text x="64" y="66" font-family="Georgia, serif" font-size="32" fill="#12202E">O traco nasce dentro e sai pela lateral</text>
+  <text x="64" y="97" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#4A5A68">Tres calibragens de onde a linha comeca e de quanto ela sobe.</text>
+
+  <rect x="64" y="122" width="1152" height="120" rx="12" fill="#EDEAE2"/>
+  <use href="#orig" stroke="#12202E" transform="translate(88,132) scale(1.0)"/>
+  <text x="212" y="172" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#12202E">Versao anterior: a linha so aparecia na abertura</text>
+  <text x="212" y="198" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4A5A68">Compare com as tres abaixo, em que ela vem de dentro do anel.</text>
+
+  <g transform="translate(64,290)">
+    <text x="0" y="0" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#A8322A">C1. Nasce dentro, pico medio</text>
+    <text x="0" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4A5A68">Comeca logo apos a borda interna. Traco 6.</text>
+    <use href="#c1" stroke="#12202E" transform="translate(0,44) scale(1.3)"/>
+    <use href="#c1" stroke="#12202E" transform="translate(160,86) scale(0.375)"/>
+    <text x="160" y="150" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6B7A87">36 px</text>
+    <rect x="220" y="44" width="150" height="125" rx="10" fill="#12202E"/>
+    <use href="#c1" stroke="#F7F6F2" transform="translate(258,58) scale(0.8)"/>
+  </g>
+
+  <g transform="translate(480,290)">
+    <text x="0" y="0" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#A8322A">C2. Traco mais discreto</text>
+    <text x="0" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4A5A68">Linha mais fina e pico menor. Traco 5,5.</text>
+    <use href="#c2" stroke="#12202E" transform="translate(0,44) scale(1.3)"/>
+    <use href="#c2" stroke="#12202E" transform="translate(160,86) scale(0.375)"/>
+    <text x="160" y="150" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6B7A87">36 px</text>
+    <rect x="220" y="44" width="150" height="125" rx="10" fill="#12202E"/>
+    <use href="#c2" stroke="#F7F6F2" transform="translate(258,58) scale(0.8)"/>
+  </g>
+
+  <g transform="translate(896,290)">
+    <text x="0" y="0" font-family="Helvetica, Arial, sans-serif" font-size="19" font-weight="bold" fill="#A8322A">C3. Comeca no centro</text>
+    <text x="0" y="24" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4A5A68">Linha mais curta, pico um pouco maior. Traco 6,5.</text>
+    <use href="#c3" stroke="#12202E" transform="translate(0,44) scale(1.3)"/>
+    <use href="#c3" stroke="#12202E" transform="translate(160,86) scale(0.375)"/>
+    <text x="160" y="150" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#6B7A87">36 px</text>
+    <rect x="220" y="44" width="150" height="125" rx="10" fill="#12202E"/>
+    <use href="#c3" stroke="#F7F6F2" transform="translate(258,58) scale(0.8)"/>
+  </g>
+
+  <rect x="64" y="520" width="1152" height="240" rx="12" fill="#FDFCF9" stroke="#DDD8CC"/>
+  <text x="96" y="576" font-family="Georgia, serif" font-size="30" fill="#12202E">Teste de marca d agua, a 7 por cento</text>
+  <text x="96" y="612" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">Como o simbolo se comporta no canto de um slide claro, atras do conteudo.</text>
+  <use href="#c1" stroke="#12202E" opacity="0.07" transform="translate(340,530) scale(2.1)"/>
+  <use href="#c2" stroke="#12202E" opacity="0.07" transform="translate(660,530) scale(2.1)"/>
+  <use href="#c3" stroke="#12202E" opacity="0.07" transform="translate(980,530) scale(2.1)"/>
+  <text x="392" y="748" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6B7A87">C1</text>
+  <text x="712" y="748" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6B7A87">C2</text>
+  <text x="1032" y="748" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#6B7A87">C3</text>
+
+  <text x="64" y="840" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4A5A68">Nas tres, a linha entra pela esquerda de dentro do anel, cruza a abertura e continua para fora, como um traco que nao termina.</text>
+</svg>

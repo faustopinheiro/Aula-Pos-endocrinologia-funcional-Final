@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Anel aberto a direita com uma linha de pulso que nasce dentro do circulo e sai pela abertura lateral">
+  <g fill="none" stroke="#12202E" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M75.9,28.5 A34,34 0 1,0 75.9,67.5" stroke-width="7"/>
+    <path d="M26,48 L64,48 L68.5,39 L73,58 L77.5,44 L82,48 L96,48" stroke-width="6"/>
+  </g>
+</svg>
