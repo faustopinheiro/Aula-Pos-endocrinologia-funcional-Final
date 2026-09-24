@@ -1,0 +1,252 @@
+{
+ "arquivo": "aulas/MOD01/01-02-quando-o-objetivo-e-o-corpo-discordam.md",
+ "modulo": "Fundamentos das Ciências do Esporte e Trabalho Multiprofissional",
+ "titulo": "Quando o objetivo e o corpo discordam",
+ "subtitulo": "Performance e saúde: acordo, conflito e a postura para cada caso",
+ "nota_capa": "Entra direto nas três mensagens da semana.",
+ "secoes": {
+  "acordo": [
+   "Três pedidos da semana e a boa notícia: o acordo é a regra.",
+   "capa"
+  ],
+  "conflito": [
+   "Os cinco lugares do conflito e como perceber cada um.",
+   "cinco-lugares"
+  ],
+  "postura": [
+   "Quem vê primeiro e a postura em três degraus.",
+   "quem-ve"
+  ]
+ },
+ "slides": [
+  {
+   "id": "mensagens",
+   "tipo": "cards",
+   "eyebrow": "Três mensagens da semana",
+   "titulo": "Nenhuma delas é irracional",
+   "cards": [
+    {
+     "t": "A maratona",
+     "x": "“É daqui a 5 semanas, a canela está doendo, mas eu não vou desistir. Me ajuda a chegar lá.”",
+     "cor": "verm"
+    },
+    {
+     "t": "A pesagem",
+     "x": "“Preciso bater o peso da categoria. Faltam 6 quilos e a pesagem é em 3 semanas.”",
+     "cor": "ambar"
+    },
+    {
+     "t": "O dia sem treino",
+     "x": "“Quando eu não treino eu fico péssima. Me passa um treino para os 7 dias.”",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Objetivos legítimos de adultos. E cada um custa alguma coisa ao corpo. O conflito aqui não é técnico: é de valores."
+  },
+  {
+   "id": "acordo",
+   "tipo": "html",
+   "eyebrow": "A boa notícia",
+   "titulo": "Treinar mais é ter mais saúde",
+   "corpo": "<div style=\"background:#FDFCF9; border:1px solid #DDD8CC; border-radius:16px; padding:24px 32px\"><svg aria-label=\"Curva de benefício do exercício: sobe muito rápido no começo, saindo do sedentarismo, e vai achatando conforme o volume aumenta\" width=\"1600\" height=\"300\" viewBox=\"0 0 1600 300\"><path d=\"M20,280 C120,90 260,50 520,38 C820,26 1200,22 1580,20 L1580,280 Z\" fill=\"#1F6F6B\" opacity=\"0.14\"/><path d=\"M20,280 C120,90 260,50 520,38 C820,26 1200,22 1580,20\" fill=\"none\" stroke=\"#1F6F6B\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M20,280 C80,160 130,110 200,80\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"20\" y1=\"282\" x2=\"1580\" y2=\"282\" stroke=\"#97A4AE\" stroke-width=\"3\"/></svg><div style=\"display:flex; justify-content:space-between\"><p style=\"font-size:26px; color:#A8322A; font-weight:600\">Sair do zero: o maior ganho por minuto</p><p style=\"font-size:26px; color:#3A4A57\">mais volume: o benefício continua, mais devagar</p></div><p style=\"font-size:26px; line-height:1.4; color:#3A4A57\">Guerreiro de fim de semana: redução de mortalidade parecida com quem distribui pela semana (O'Donovan, 2017).</p></div>",
+   "destaque": "A primeira decisão: o que essa pessoa quer constrói margem ou gasta margem?",
+   "gap": 28
+  },
+  {
+   "id": "erro-sermao",
+   "tipo": "duas",
+   "eyebrow": "O erro que ninguém nomeia",
+   "titulo": "Tratar acordo como se fosse conflito",
+   "esq": {
+    "t": "Quem chegou",
+    "cor": "petr",
+    "itens": [
+     "Corre 30 km por semana",
+     "Dorme bem",
+     "Está feliz com o treino",
+     "Está na parte da curva que ainda sobe"
+    ]
+   },
+   "dir": {
+    "t": "O que ouviu",
+    "cor": "verm",
+    "itens": [
+     "“Cuidado com o cortisol”",
+     "“Isso é excesso”",
+     "“Você está em overtraining”"
+    ]
+   },
+   "destaque": "Para a maioria, o trabalho é facilitar. O conflito é a exceção que pede método, não a regra que pede sermão."
+  },
+  {
+   "id": "cinco-lugares",
+   "tipo": "cards",
+   "eyebrow": "Onde o conflito aparece",
+   "titulo": "Sempre os mesmos cinco lugares",
+   "por_linha": 3,
+   "gap": 26,
+   "cards": [
+    {
+     "t": "Energia",
+     "x": "Comer menos e treinar igual ou mais.",
+     "cor": "verm"
+    },
+    {
+     "t": "Peso e estética",
+     "x": "Está no regulamento. Reduzir dano, não condenar.",
+     "cor": "ambar"
+    },
+    {
+     "t": "Competir machucado",
+     "x": "A volta decidida pelo calendário, não pelo tecido.",
+     "cor": "verm"
+    },
+    {
+     "t": "Volume e calendário",
+     "x": "O corpo paga por acúmulo, não por sessão.",
+     "cor": "ambar"
+    },
+    {
+     "t": "Identidade",
+     "x": "Treinar é quem a pessoa é. Tirar o treino mexe em tudo.",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Antes de retirar, redistribua. Retirar é a conduta mais cara que existe."
+  },
+  {
+   "id": "atraso",
+   "tipo": "duas",
+   "eyebrow": "O conflito mais traiçoeiro",
+   "titulo": "Energia: funciona antes de cobrar",
+   "esq": {
+    "t": "Nas primeiras semanas",
+    "cor": "petr",
+    "itens": [
+     "Fica mais leve",
+     "Às vezes rende mais",
+     "Recebe elogio"
+    ]
+   },
+   "dir": {
+    "t": "Meses depois",
+    "cor": "verm",
+    "itens": [
+     "Fratura por estresse",
+     "Menstruação que sumiu",
+     "Cansaço que não passa",
+     "Humor, sono e imunidade"
+    ]
+   },
+   "destaque": "Conflito com atraso é o pior de todos: o retorno imediato diz que a pessoa está no caminho certo.",
+   "destaque_cor": "verm",
+   "fonte": "Consenso do Comitê Olímpico Internacional sobre deficiência de energia no esporte, 2023"
+  },
+  {
+   "id": "sinais",
+   "tipo": "tabela",
+   "eyebrow": "Como perceber, sem pedir exame",
+   "titulo": "Uma pergunta para cada lugar",
+   "larguras": [
+    28,
+    72
+   ],
+   "cab": [
+    "Lugar",
+    "O que perguntar ou observar"
+   ],
+   "linhas": [
+    [
+     "Energia",
+     "Desempenho caiu + recuperação lenta + algo sumiu. “Está tentando perder peso?” “O que comeu ontem?”"
+    ],
+    [
+     "Peso da categoria",
+     "“Quando é a pesagem e quanto falta?” 5% em 4 semanas não é 5% em 4 dias."
+    ],
+    [
+     "Competir machucado",
+     "“O que acontece se você não jogar?”"
+    ],
+    [
+     "Volume",
+     "“Quanto tempo leva para voltar de uma semana pesada?”"
+    ],
+    [
+     "Identidade",
+     "“Como você se sente num dia sem treino?”"
+    ]
+   ]
+  },
+  {
+   "id": "quem-ve",
+   "tipo": "lista",
+   "eyebrow": "Quem vê primeiro",
+   "titulo": "Ninguém vê os cinco sozinho",
+   "gap_itens": 18,
+   "itens": [
+    {
+     "t": "Queda de desempenho",
+     "x": "quem prescreve o treino",
+     "cor": "petr"
+    },
+    {
+     "t": "Lesão que se repete",
+     "x": "quem reabilita",
+     "cor": "petr"
+    },
+    {
+     "t": "O que sumiu do prato",
+     "x": "quem pergunta sobre alimentação",
+     "cor": "petr"
+    },
+    {
+     "t": "Desânimo e angústia do dia sem treino",
+     "x": "quem escuta",
+     "cor": "petr"
+    },
+    {
+     "t": "Exame alterado, menstruação ausente, fratura",
+     "x": "o médico, e por último",
+     "cor": "verm"
+    }
+   ]
+  },
+  {
+   "id": "postura",
+   "tipo": "lista",
+   "eyebrow": "A segunda decisão",
+   "titulo": "A postura em três degraus",
+   "gap_itens": 26,
+   "itens": [
+    {
+     "t": "O objetivo é dela",
+     "x": "Adulto informado escolhe o próprio risco. Quem trata o objetivo como erro perde o paciente.",
+     "cor": "petr"
+    },
+    {
+     "t": "O custo é dito, sem chantagem",
+     "x": "O quê, em quanto tempo, com que chance e o que dá para fazer. Sem essas quatro partes, é só medo.",
+     "cor": "ambar"
+    },
+    {
+     "t": "Existe um ponto em que você não acompanha",
+     "x": "Dano previsível e grave: você diz que não faz, diz por quê e continua disponível. Dizer não também é cuidar.",
+     "cor": "verm"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "Constrói margem ou gasta margem?",
+   "regras": [
+    "O acordo entre objetivo e saúde é a regra. O conflito é a exceção que pede método.",
+    "Quando há conflito, ele está num de cinco lugares: energia, peso e estética, competir machucado, volume e calendário, identidade.",
+    "A postura: o objetivo é da pessoa, o custo é dito com prazo e chance, e existe um limite estreito."
+   ],
+   "quem": "Todas as profissões reconhecem os cinco lugares. Cada uma vê um primeiro, e é isso que faz a equipe valer mais do que a soma.",
+   "proxima": "Exercício é dose: da conversa à prescrição"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "arquivo": "aulas/MOD01/01-01-o-que-e-saude-para-quem-treina.md",
+ "modulo": "Fundamentos das Ciências do Esporte e Trabalho Multiprofissional",
+ "titulo": "O que é saúde para quem treina",
+ "subtitulo": "Dois pacientes, uma pergunta e a ideia que atravessa o curso",
+ "nota_capa": "Primeira conversa do curso. Uma saudação curta e direto para os dois pacientes.",
+ "secoes": {
+  "abertura": ["Dois pacientes e a definição de saúde de 1948.", "capa"],
+  "margem": ["Saúde como capacidade de se adaptar: ter margem.", "margem"],
+  "pratica": ["O que muda na semana de trabalho e os dois erros opostos.", "segunda"]
+ },
+ "slides": [
+  {"id": "pergunta", "tipo": "cards", "eyebrow": "Para começar", "titulo": "Qual dos dois é saudável?",
+   "cards": [
+    {"t": "34 anos", "x": "Todos os exames normais. Nenhum remédio. Dorme 5 horas, treina 6 vezes por semana, acorda cansado todo dia, pega toda gripe e não evolui há 8 meses.", "cor": "ambar"},
+    {"t": "58 anos", "x": "Hipertenso, tratando. Glicemia de jejum alterada. Corre 4 vezes por semana há 12 anos, dorme bem, vive a vida e fez uma meia maratona há 2 meses.", "cor": "petr"}],
+   "destaque": "Responda antes de continuar. Pela definição oficial, a resposta é desconfortável.", "destaque_cor": "verm"},
+  {"id": "definicao", "tipo": "frase", "eyebrow": "Organização Mundial da Saúde, 1948",
+   "frase": "“Um estado de <span style=\"color:#F4B6A9\">completo</span> bem-estar físico, mental e social, e não apenas a ausência de doença.”",
+   "apoio": "Um manifesto do pós-guerra, e um avanço enorme para a época. Nunca foi alterada. E ninguém fica nesse estado por muito tempo."},
+  {"id": "medicaliza", "tipo": "cards", "eyebrow": "A consequência", "titulo": "Uma definição que declara todo mundo doente",
+   "cards": [
+    {"t": "58 anos: doente", "x": "Pela régua de 1948, o corredor de meia maratona não é saudável, porque tem doença.", "cor": "verm"},
+    {"t": "34 anos: quase ideal?", "x": "Sem doença nenhuma e sem fôlego nenhum para a própria vida, ele fica mais perto da definição.", "cor": "ambar"}],
+   "destaque": "Tratar tudo vira regra: envelhecer, uma fase difícil, uma variação normal. E o mercado do esporte ganha com isso: suplemento sem falta, exame sem queixa, protocolo sem problema.", "destaque_cor": "verm"},
+  {"id": "margem", "tipo": "html", "eyebrow": "A ideia do curso", "titulo": "Saúde é ter margem",
+   "corpo": "<div style=\"display:flex; flex-direction:column; gap:14px\"><p style=\"font-size:28px; color:#3A4A57\">O que a pessoa consegue pagar</p><div style=\"width:1500px; height:56px; background:#1F6F6B; border-radius:8px\"></div><p style=\"font-size:28px; color:#3A4A57\">O que a vida está exigindo: treino, sono, trabalho, comida, família, doença</p><div style=\"display:flex; align-items:center\"><div style=\"width:1000px; height:56px; background:#A8322A; border-radius:8px 0 0 8px\"></div><div style=\"width:500px; height:56px; border:3px dashed #1F6F6B; border-radius:0 8px 8px 0; display:flex; align-items:center; justify-content:center\"><p style=\"font-size:28px; font-weight:600; color:#1F6F6B\">margem</p></div></div></div>",
+   "destaque": "Saúde é a capacidade de se adaptar e de se autogerenciar diante do que a vida exige. Com essa régua, os dois pacientes trocam de lugar.",
+   "fonte": "Huber et al., BMJ 2011"},
+  {"id": "criticas", "tipo": "cards", "eyebrow": "Onde a nova ideia é fraca", "titulo": "As duas críticas honestas",
+   "cards": [
+    {"t": "Difícil de medir", "x": "“Completo bem-estar” é impossível, mas é claro. “Capacidade de se adaptar” é realista, só que vaga, e coisa vaga é difícil de pesquisar.", "cor": "ambar"},
+    {"t": "“Autogerenciar” pode virar culpa", "x": "Turno, duas horas de ônibus, dinheiro curto, falta de lugar seguro para caminhar. Não é escolha de ninguém.", "cor": "verm"}],
+   "destaque": "A margem depende do que a pessoa faz e também das condições em que ela vive."},
+  {"id": "segunda", "tipo": "cards", "eyebrow": "Na semana de trabalho", "titulo": "O que muda na segunda-feira", "por_linha": 2, "gap": 28,
+   "cards": [
+    {"t": "O alvo", "x": "Aumentar a capacidade da pessoa, não só normalizar um exame.", "cor": "petr"},
+    {"t": "A manutenção", "x": "Manter a capacidade numa fase difícil da vida é resultado.", "cor": "petr"},
+    {"t": "A adesão", "x": "Plano que a pessoa não sustenta não produz adaptação nenhuma.", "cor": "petr"},
+    {"t": "A reavaliação", "x": "Quanto aguenta, quanto demora para voltar, como acorda, se mantém a rotina.", "cor": "petr"}]},
+  {"id": "dois-erros", "tipo": "duas", "eyebrow": "Dois jeitos de usar mal", "titulo": "Um erro para cada lado",
+   "esq": {"t": "Margem não substitui rastreio", "cor": "verm", "itens": ["Pressão alta não dói", "Colesterol alto não dói", "Diabetes tipo 2 passa anos em silêncio", "Câncer no começo não tira ninguém do treino"]},
+   "dir": {"t": "Tirar o treino custa caro", "cor": "petr", "itens": ["Estar sem condicionamento pesou mais que qualquer fator de risco cardíaco avaliado", "A proteção aparece também em quem já tem fator de risco", "No hipertenso, a corrida protege por causa da pressão"]},
+   "destaque": "O exame informa. A margem decide.",
+   "fonte": "Kokkinos et al., JACC 2022 · 750.302 veteranos"},
+  {"id": "tres-perguntas", "tipo": "fecho", "titulo": "Três perguntas que custam zero",
+   "regras": ["O que você consegue fazer hoje que não conseguia há um ano? Ou o contrário.", "Quanto tempo você leva para se recuperar de uma semana difícil?", "O que você deixou de fazer na sua vida por causa de como tem se sentido?"],
+   "quem": "Avaliar margem é de todas as profissões, sem pedir exame: conversando, medindo o que você já mede e acompanhando ao longo do tempo.",
+   "proxima": "Quando o objetivo e o corpo discordam"}
+ ]
+}
