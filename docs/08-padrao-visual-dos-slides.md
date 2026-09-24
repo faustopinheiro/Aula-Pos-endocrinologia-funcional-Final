@@ -99,3 +99,18 @@ feito à mão) e `fecho`. O gerador aplica a paleta, a tipografia, as margens, o
 rodapé, o símbolo no canto superior direito e as notas do apresentador tiradas do
 texto da aula. O número de slides do spec precisa bater com o número de blocos
 📊 da aula, ou o gerador recusa.
+
+## Texto de teleprompter com as marcações de slide
+
+Para cada aula com deck existe um arquivo em `teleprompter/MODxx/` com só a fala,
+sem instruções de produção, e com a troca de slide marcada entre colchetes:
+
+```
+[INÍCIO DO SLIDE 3 DE 10 · Treinar mais é ter mais saúde]
+... fala ...
+[FIM DO SLIDE 3 DE 10]
+```
+
+O número é o do rodapé do deck (a capa é o slide 1). O trecho entre as duas
+marcações é exatamente o que está nas anotações daquele slide. Gerado por
+`ferramentas/slides/gerar_teleprompter.py` a partir do mesmo spec do deck.
