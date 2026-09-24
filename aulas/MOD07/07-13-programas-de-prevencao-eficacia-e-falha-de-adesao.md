@@ -130,7 +130,7 @@ Não é que o exercício não funcione. É que o exercício não é feito. E se 
 
 Isso muda o objeto do nosso trabalho. A pergunta deixa de ser qual é o melhor programa e passa a ser como fazer um programa razoável acontecer de verdade, toda semana, durante a temporada inteira.
 
-E aqui vale nomear uma distinção que a gente carrega do começo do curso. Uma coisa é eficácia, que é o efeito do programa nas condições controladas do estudo. Outra é efetividade, que é o efeito dele no mundo real, com o treino apertado, o jogo na quarta, o atleta que chegou atrasado e o auxiliar que faltou. Um programa de eficácia excelente e adesão de vinte por cento entrega menos que um programa de eficácia média e adesão de oitenta.
+E aqui vale nomear uma distinção que muda o jeito de ler qualquer programa. Uma coisa é eficácia, que é o efeito do programa nas condições controladas do estudo. Outra é efetividade, que é o efeito dele no mundo real, com o treino apertado, o jogo na quarta, o atleta que chegou atrasado e o auxiliar que faltou. Um programa de eficácia excelente e adesão de vinte por cento entrega menos que um programa de eficácia média e adesão de oitenta.
 
 ---
 
@@ -409,7 +409,7 @@ Visual: a matriz dos três níveis sobre as treze aulas ao fundo.
 "o copo que enche" = 7.3 · "excêntrico e posterior de coxa" = 7.4, 7.5 e 7.6 · "tendão" = 7.7 e 7.8 ·
 "aterrissagem e LCA" = 7.9 · "equilíbrio e recidiva de entorse" = 7.10 · "energia disponível" = 7.11 ·
 "o laudo que rouba a cena" = 7.12 · "gestão de carga com detalhe" = Módulo 9 ·
-"eficácia versus efetividade" = 1.8 e 1.9 · "carga de lesão" = 7.2 · próximo módulo = Módulo 8.
+"eficácia versus efetividade" = explicada nesta aula (saiu da abertura na fusão das aulas de evidência) · "carga de lesão" = 7.2 · próximo módulo = Módulo 8.
 
 **Citações faladas.** Nenhuma por nome de autor. Os estudos entram pelo desenho e pelo número
 ("1.892 jogadoras norueguesas", "8.459 atletas", "26.610 pessoas", "50 clubes"), e a única citação

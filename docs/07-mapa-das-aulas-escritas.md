@@ -1,7 +1,7 @@
 # Mapa das 158 aulas escritas → matriz de 400h
 
 **Documento de trabalho.** A matriz de referência passa a ser a de
-**Ciências do Esporte Aplicadas à Saúde — 400h · 14 módulos · 159 aulas**
+**Ciências do Esporte Aplicadas à Saúde — 400h · 14 módulos · 157 aulas**
 (`00-matriz-400h.md`). Este arquivo diz, slot por slot, **qual roteiro já
 escrito serve**, o que precisa ser fundido e o que ainda não existe.
 
@@ -14,24 +14,44 @@ escrito serve**, o que precisa ser fundido e o que ainda não existe.
 
 ---
 
-## Módulo 1 — Fundamentos e Trabalho Multiprofissional · 10 aulas
+## Módulo 1 — Fundamentos e Trabalho Multiprofissional · 8 aulas
 
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 1.1 | O que são ciências do esporte aplicadas à saúde | M3-A01 parcial | PARCIAL |
-| 1.2 | Performance e saúde: dois objetivos que nem sempre andam juntos | — | NOVA |
-| 1.3 | Exercício como intervenção: dose, resposta e efeito | M15-A01 | PRONTA |
-| 1.4 | Recomendações globais de atividade física | — | NOVA |
-| 1.5 | O departamento de saúde e performance: quem é quem | — | NOVA |
-| 1.6 | Fronteiras profissionais: privativa, contribuição, reconhecimento | M3-A06 | PRONTA |
-| 1.7 | Comunicação entre áreas e registro compartilhado | — | NOVA |
-| 1.8 **[M]** | Prática baseada em evidências aplicada ao esporte | M3-A02 + A04 + A05 | FUNDIR |
-| 1.9 | Como ler um estudo da área sem se enganar | M3-A02 + A05 | FUNDIR |
-| 1.10 | Armadilhas da literatura esportiva | M3-A03 + A07 | FUNDIR |
+**ESCRITO NA VOZ DO CURSO, COM SLIDES.** O módulo foi reescrito inteiro depois
+do Módulo 7, com as regras de fala travadas ali (sem travessões na fala, sem
+número de aula na fala nem na tela, sem vocabulário de IA, citação por nome só
+em estudo marcante) e com o objetivo explícito do coordenador de deixar a
+abertura menos pesada. Três mudanças de estrutura:
 
-**Nota.** O M3 dissolvido volta inteiro aqui, e melhor colocado: deixa de ser
-metodologia abstrata na terceira semana e passa a ser **a abertura que define o
-vocabulário comum** — que é a função que ele sempre deveria ter tido.
+- **As antigas 1.8, 1.9 e 1.10** (prática baseada em evidências, como ler um
+  estudo e armadilhas da literatura, ~80 min somados) **viraram uma aula só**,
+  a nova 1.8, com cinco histórias e cinco perguntas. Saíram pirâmide, GRADE,
+  critérios de Hill e o ensaio CAST.
+- **Toda aula abre por uma cena** e ganhou título que o aluno reconhece.
+- **Repetições entre aulas foram cortadas**: os números da diretriz da OMS
+  ficam só na 1.4; a curva de dose de Ekelund só na 1.3; os "três nomes na
+  agenda" só na 1.7.
+
+| Slot | Aula | Min | Arquitetura | Deck |
+|---|---|---|---|---|
+| 1.1 | O que é saúde para quem treina | 13 | ERRO | [slides](https://claude.ai/artifact/2AVKVcxrxXqMYFZUkoEjnH) |
+| 1.2 | Quando o objetivo e o corpo discordam | 14 | DECISÃO | [slides](https://claude.ai/artifact/4ViKgtc4uvKZ1qQNeXGz8Q) |
+| 1.3 | Exercício é dose: da conversa à prescrição | 13 | NÚMERO | [slides](https://claude.ai/artifact/EytwbMrzjU7MPgqnUGnvJR) |
+| 1.4 | 150 minutos e o que ninguém lê na diretriz | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/AjFXZne76LCoB9BnJa38e9) |
+| 1.5 | Quem cuida de quem: as funções de uma equipe | 12 | ERRO | [slides](https://claude.ai/artifact/5nH9JLGCpjdNcVkeXeKtZs) |
+| 1.6 | O que é seu, o que é do colega e o que é de todos | 15 | DECISÃO | [slides](https://claude.ai/artifact/WQFyGTtDWAKgKrurUqva4q) |
+| 1.7 | O encaminhamento que o colega usa | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/ApRMHJR1s9ZesYQHk4e7Cr) |
+| 1.8 | Como não ser enganado por um estudo | 21 | ERRO | [slides](https://claude.ai/artifact/XyUpyLbciCTcyc5xVnrqwa) |
+
+Total: 1 h 47 min (antes: 3 h 16 min em 10 aulas). Um caso clínico no módulo
+(1.6, o homem de 37 anos com depressão e o personal). A 1.8 fecha o módulo com
+a camada de integração nos três níveis.
+
+**Calendário.** Com 14 módulos, o **mês 1 reúne os Módulos 1 e 2**. A abertura
+curta foi pensada para caber ao lado da fisiologia do exercício no mesmo mês.
+
+**Slides.** Cada aula tem um deck com a marca, gerado por
+`ferramentas/slides/gerar_deck.py` a partir de `slides/MOD01/*.json`. As notas
+do apresentador de cada slide trazem o texto falado daquele trecho da aula.
 
 ## Módulo 2 — Fisiologia do Exercício Aplicada · 12 aulas
 
@@ -187,7 +207,7 @@ estimava prazo, mas PRICE → POLICE → PEACE & LOVE, os graus I–II–III usa
 beira do campo, a decisão sobre anti-inflamatório, gelo e cúrcuma e a travessia
 até o retorno ficavam sem aula. A 7.6 foi escrita para isso, e as aulas
 seguintes foram renumeradas (tendinopatia 7.6→7.7 … prevenção 7.12→7.13).
-Com isso o módulo passa a 13 aulas e a matriz, a 159.
+Com isso o módulo passa a 13 aulas e a matriz, que era de 158, foi a 159; depois da fusão das três aulas de evidência do Módulo 1, ficou em 157.
 
 Sequência de arquiteturas sem repetição consecutiva (N·P·E·P·N·P·E·P·D·P·N·E·D),
 quatro curtas (7.5, 7.7, 7.10 e 7.11) e as duas longas nas pontas, não
@@ -323,13 +343,13 @@ pessoal sensível sob a LGPD.
 
 | Estado | Slots | % |
 |---|---|---|
-| **PRONTA** — roteiro existe, só edição de formato | 42 | 26% |
-| **FUNDIR** — dois ou mais roteiros escritos alimentam o slot | 40 | 25% |
-| **PARCIAL** — há material, falta conteúdo | 26 | 16% |
+| **PRONTA** — roteiro existe, só edição de formato | 42 | 27% |
+| **FUNDIR** — dois ou mais roteiros escritos alimentam o slot | 38 | 24% |
+| **PARCIAL** — há material, falta conteúdo | 26 | 17% |
 | **NOVA** — nada escrito | 51 | 32% |
-| | **159** | |
+| | **157** | |
 
-**Traduzindo: 82 dos 159 slots (52%) têm roteiro aproveitável.** As 352 mil
+**Traduzindo: 80 dos 157 slots (51%) têm roteiro aproveitável.** As 352 mil
 palavras escritas não se perdem — elas se redistribuem.
 
 ### Onde está o trabalho pesado

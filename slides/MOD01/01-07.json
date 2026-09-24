@@ -1,0 +1,54 @@
+{
+ "arquivo": "aulas/MOD01/01-07-o-encaminhamento-que-o-colega-usa.md",
+ "modulo": "Fundamentos das Ciências do Esporte e Trabalho Multiprofissional",
+ "titulo": "O encaminhamento que o colega usa",
+ "subtitulo": "Cinco linhas, seis palavras perigosas e um registro que funciona",
+ "nota_capa": "Entra lendo o bilhete de uma linha.",
+ "secoes": {
+  "encaminhamento": ["O bilhete de uma linha e as cinco linhas que funcionam.", "capa"],
+  "linguagem": ["As palavras que cada profissão entende diferente.", "palavras"],
+  "registro": ["O que entra e o que nunca entra no registro compartilhado.", "registro"]
+ },
+ "slides": [
+  {"id": "bilhete", "tipo": "frase", "fundo": "tinta", "eyebrow": "O encaminhamento mais comum do país",
+   "frase": "“Favor avaliar. Queixa de fadiga.”",
+   "apoio": "Transfere o paciente e não transfere o que você sabe. Quem recebe começa do zero, e muitas vezes não descobre, porque o mais importante estava na sua cabeça."},
+  {"id": "cinco-linhas", "tipo": "lista", "eyebrow": "O instrumento", "titulo": "Um encaminhamento tem cinco linhas", "gap_itens": 18,
+   "itens": [
+    {"t": "O que eu observei, com dado", "x": "Não “parece cansado”. O que dá para medir ou contar.", "cor": "petr"},
+    {"t": "Há quanto tempo", "x": "Muda a hipótese, a urgência e a conduta.", "cor": "petr"},
+    {"t": "O que eu já tentei e o que aconteceu", "x": "Evita que o colega repita o que falhou.", "cor": "petr"},
+    {"t": "Minha hipótese, escrita como hipótese", "x": "É o que separa contribuir de invadir.", "cor": "ambar"},
+    {"t": "O que eu quero saber de volta", "x": "Abre o caminho de volta.", "cor": "petr"}]},
+  {"id": "exemplo", "tipo": "html", "eyebrow": "Escrito por uma nutricionista", "titulo": "Sete linhas que entregam o que só ela tinha", "gap": 28,
+   "corpo": "<div style=\"background:#FDFCF9; border:1px solid #DDD8CC; border-left:8px solid #1F6F6B; border-radius:12px; padding:32px 40px\"><p style=\"font-size:28px; line-height:1.5; color:#12202E\">Paciente em acompanhamento nutricional há quatro meses. Refere cansaço progressivo há oito meses e queda de rendimento. <span style=\"color:#A8322A\">Relata que a menstruação não vem há cinco meses, o que ainda não foi investigado.</span> A ingestão estimada está bem abaixo do gasto, com cinco sessões de treino por semana. Comecei a reconstrução da energia há seis semanas, com melhora parcial da disposição. <span style=\"color:#1F6F6B\">Encaminho com hipótese de baixa disponibilidade de energia.</span> Gostaria de saber a conduta, para ajustar a minha.</p></div>",
+   "destaque": "Quem pergunta o que aconteceu com o paciente vira o profissional para quem os outros encaminham."},
+  {"id": "palavras", "tipo": "tabela", "eyebrow": "A mesma palavra, sentidos diferentes", "titulo": "Seis palavras perigosas", "larguras": [22, 78], "tam": 26,
+   "cab": ["Palavra", "A pergunta que ela esconde"],
+   "linhas": [
+    ["Carga", "Da sessão? Do tecido? De tudo que gasta adaptação, inclusive trabalho e sono?"],
+    ["Liberado", "Para quê? Parte do treino, coletivo, jogo? Com quanto de volume?"],
+    ["Repouso", "Absoluto ou relativo? Parar tudo ou parar o que dói?"],
+    ["Moderado", "Medido como? Esforço percebido, frequência cardíaca, teste da fala?"],
+    ["Dieta", "Padrão alimentar, ou restrição?"],
+    ["Alta", "Da reabilitação, ou para competir?"]],
+   "destaque": "Acrescente o complemento: “liberado para treino técnico sem sprint, por duas semanas”."},
+  {"id": "registro", "tipo": "cards", "eyebrow": "Onde a informação mora", "titulo": "Os quatro campos mínimos do registro", "por_linha": 2, "gap": 26,
+   "cards": [
+    {"t": "O que mudou", "x": "Só a diferença desde o último registro.", "cor": "petr"},
+    {"t": "A carga da semana", "x": "Com o complemento.", "cor": "petr"},
+    {"t": "O que cada um viu", "x": "Com data e com o nome de quem viu.", "cor": "petr"},
+    {"t": "O que está pendente, e com quem", "x": "Impede que todo mundo ache que alguém está resolvendo.", "cor": "ambar"}]},
+  {"id": "nunca-entra", "tipo": "cards", "eyebrow": "Ética e lei", "titulo": "O que nunca entra num registro compartilhado", "por_linha": 2, "gap": 26,
+   "cards": [
+    {"t": "Conteúdo da psicoterapia", "x": "A equipe recebe risco, prontidão e ajuste de carga. Nunca a sessão.", "cor": "verm"},
+    {"t": "Dado sensível sem necessidade", "x": "Dado de saúde é dado sensível na lei de proteção de dados.", "cor": "verm"},
+    {"t": "Julgamento", "x": "Não “pouco aderente”. “Fez 2 das 4 sessões nas últimas 3 semanas.”", "cor": "verm"},
+    {"t": "Crítica a colega", "x": "O registro guarda a decisão, não a briga.", "cor": "verm"}],
+   "destaque": "Antes de escrever: quem vai ler isso precisa disso para agir?"},
+  {"id": "fecho", "tipo": "fecho", "titulo": "Para fazer ainda esta semana",
+   "regras": ["Adote as cinco linhas em todo encaminhamento que sair de você.", "Acrescente o complemento a liberado, carga, repouso, alta e moderado.", "Pergunte de volta: “como ficou aquele paciente que eu te mandei?”"],
+   "quem": "Sem equipe montada? Três nomes na agenda: um médico, um nutricionista e um profissional de educação física ou fisioterapeuta. Três pessoas para quem você escreve e de quem recebe retorno.",
+   "proxima": "Como não ser enganado por um estudo"}
+ ]
+}

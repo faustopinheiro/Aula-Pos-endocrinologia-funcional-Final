@@ -1,0 +1,271 @@
+{
+ "arquivo": "aulas/MOD01/01-08-como-nao-ser-enganado-por-um-estudo.md",
+ "modulo": "Fundamentos das Ciências do Esporte e Trabalho Multiprofissional",
+ "titulo": "Como não ser enganado por um estudo",
+ "subtitulo": "Cinco histórias, cinco erros, cinco perguntas",
+ "nota_capa": "Entra pela cena do aluno com as vitaminas e faz a promessa: não é aula de metodologia.",
+ "secoes": {
+  "causa": [
+   "A cadeia lógica perfeita e a associação que parecia causa.",
+   "capa"
+  ],
+  "procedencia": [
+   "Em quem foi medido e quem pagou.",
+   "em-quem"
+  ],
+  "pratica": [
+   "A própria experiência, as cinco perguntas e o fecho da abertura.",
+   "experiencia"
+  ]
+ },
+ "slides": [
+  {
+   "id": "faz-sentido",
+   "tipo": "lista",
+   "eyebrow": "Para começar",
+   "titulo": "Faz todo sentido. E está errado.",
+   "gap_itens": 18,
+   "itens": [
+    {
+     "t": "O exercício produz radicais livres",
+     "cor": "petr",
+     "m": "1"
+    },
+    {
+     "t": "Radicais livres causam dano nas células",
+     "cor": "petr",
+     "m": "2"
+    },
+    {
+     "t": "Antioxidante neutraliza radical livre",
+     "cor": "petr",
+     "m": "3"
+    },
+    {
+     "t": "Logo, antioxidante depois do treino ajuda a recuperar e a render",
+     "cor": "verm",
+     "m": "?"
+    }
+   ],
+   "destaque": "Cinco histórias, cinco jeitos de gente boa e bem informada ser enganada. Sem pirâmide, sem fórmula."
+  },
+  {
+   "id": "antioxidante",
+   "tipo": "numeros",
+   "eyebrow": "Primeiro erro: confiar numa cadeia lógica perfeita",
+   "titulo": "O antioxidante que atrapalhou o treino",
+   "numeros": [
+    {
+     "n": "54",
+     "x": "jovens, 11 semanas de treino aeróbio, vitaminas C e E × placebo, com biópsia do músculo",
+     "cor": "petr"
+    },
+    {
+     "n": "placebo",
+     "x": "só no grupo placebo os marcadores de adaptação subiram dentro do músculo",
+     "cor": "verm"
+    },
+    {
+     "n": "=",
+     "x": "o VO₂máx não foi diferente entre os grupos: marcador não é desempenho",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Radical livre também é sinal. Neutralizar o sinal apaga o pedido de adaptação. Mecanismo explica como poderia acontecer; não diz se acontece.",
+   "fonte": "Paulsen et al., Journal of Physiology 2014"
+  },
+  {
+   "id": "betacaroteno",
+   "tipo": "duas",
+   "eyebrow": "Segundo erro: achar que andar junto é causar",
+   "titulo": "O betacaroteno",
+   "esq": {
+    "t": "O que se observava",
+    "cor": "petr",
+    "itens": [
+     "Mais vegetais, menos câncer de pulmão",
+     "Em vários países, com dose e resposta",
+     "Com explicação biológica bonita"
+    ]
+   },
+   "dir": {
+    "t": "O que o ensaio mostrou",
+    "cor": "verm",
+    "itens": [
+     "Quase 30 mil fumantes sorteados",
+     "Betacaroteno: 18% mais câncer de pulmão",
+     "Um segundo ensaio foi interrompido pelo mesmo sinal"
+    ]
+   },
+   "destaque": "A associação era real. A causa não era o betacaroteno. A mesma história se repetiu com a reposição hormonal para proteger o coração.",
+   "fonte": "ATBC, New England Journal of Medicine 1994 · Women's Health Initiative, JAMA 2002"
+  },
+  {
+   "id": "usuario-saudavel",
+   "tipo": "duas",
+   "eyebrow": "O nome que explica metade dos milagres",
+   "titulo": "O efeito do usuário saudável",
+   "esq": {
+    "t": "Quem usa por conta própria",
+    "cor": "petr",
+    "itens": [
+     "Dorme melhor e fuma menos",
+     "Vai mais ao médico",
+     "Treina com mais regularidade",
+     "Tem mais dinheiro sobrando"
+    ]
+   },
+   "dir": {
+    "t": "O que acontece no estudo",
+    "cor": "ambar",
+    "itens": [
+     "Só observar já dá vantagem ao produto",
+     "Sortear quem usa desliga o efeito",
+     "Alongar antes “prevenia” lesão; nos ensaios sorteados, sozinho, não preveniu"
+    ]
+   },
+   "destaque": "A primeira pergunta: essas pessoas eram iguais antes de começar?",
+   "fonte": "Lauersen et al., British Journal of Sports Medicine 2014"
+  },
+  {
+   "id": "em-quem",
+   "tipo": "numeros",
+   "eyebrow": "Terceiro erro: não perguntar em quem foi medido",
+   "titulo": "O participante padrão não é o seu paciente",
+   "numeros": [
+    {
+     "n": "~⅓",
+     "x": "de mulheres em mais de 5 mil estudos de ciência do esporte",
+     "cor": "ambar"
+    },
+    {
+     "n": "31%",
+     "x": "dos estudos só com homens",
+     "cor": "verm"
+    },
+    {
+     "n": "6%",
+     "x": "só com mulheres",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Fisiologia medida entre 18 e 30 anos. E os critérios de exclusão tiram do estudo exatamente quem você atende: quem tem doença, usa remédio ou se lesionou.",
+   "fonte": "Cowley et al., Women in Sport and Physical Activity Journal 2021"
+  },
+  {
+   "id": "placar",
+   "tipo": "frase",
+   "eyebrow": "Uma paciente de 52 anos, depois dos primeiros 5 km da vida",
+   "frase": "“Eu tô ganhando o jogo. Só me mostraram o placar de outro jogo.”",
+   "apoio": "O aplicativo a colocou na faixa vermelha, construída com outra população. Toda faixa de referência veio de algum grupo de pessoas. A comparação que importa é com ela mesma, três meses atrás."
+  },
+  {
+   "id": "quem-pagou",
+   "tipo": "duas",
+   "eyebrow": "Quarto erro: não perguntar quem pagou",
+   "titulo": "Ninguém mentiu. Mudou o enquadramento.",
+   "esq": {
+    "t": "1965, o açúcar",
+    "cor": "verm",
+    "itens": [
+     "Revisão patrocinada por fundação do açúcar",
+     "Gordura como vilã, açúcar minimizado",
+     "Financiamento não declarado"
+    ]
+   },
+   "dir": {
+    "t": "Hoje, a bebida açucarada",
+    "cor": "ambar",
+    "itens": [
+     "Revisões sem conflito: há associação",
+     "Revisões com conflito: evidência insuficiente",
+     "Mesma literatura, conclusões opostas"
+    ]
+   },
+   "destaque": "O conflito age antes do dado: na pergunta, no comparador, no desfecho, na publicação e na redação. Sinal prático: existe estudo grande e independente?",
+   "fonte": "Kearns et al., JAMA Internal Medicine 2016 · Bes-Rastrollo et al., PLoS Medicine 2013"
+  },
+  {
+   "id": "sobre-nos",
+   "tipo": "cards",
+   "eyebrow": "O mesmo olhar, virado para nós",
+   "titulo": "Conflito de interesse também é nosso",
+   "cards": [
+    {
+     "t": "Quem vende o que prescreve",
+     "x": "Prateleira, linha própria, laboratório de que é sócio, curso do protocolo. Não é antiético por si. Mas é conflito: diga antes.",
+     "cor": "ambar"
+    },
+    {
+     "t": "O que você já disse em público",
+     "x": "O conflito sem dinheiro, e o mais difícil. Mudar de ideia custa identidade.",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "As pessoas confiam mais em quem muda de ideia explicando o motivo. O que destrói autoridade é defender o indefensável porque já falou."
+  },
+  {
+   "id": "experiencia",
+   "tipo": "cards",
+   "eyebrow": "Quinto erro: a própria experiência como prova",
+   "titulo": "“Os meus pacientes melhoram quando eu faço isso”",
+   "cards": [
+    {
+     "t": "História natural",
+     "x": "A maior parte das dores musculares e articulares melhora sozinha.",
+     "cor": "ambar"
+    },
+    {
+     "t": "Regressão à média",
+     "x": "A pessoa procura ajuda no pior momento. Depois dele, costuma melhorar.",
+     "cor": "ambar"
+    },
+    {
+     "t": "Expectativa",
+     "x": "Quem investiu dinheiro e esperança relata melhora. E ela é real.",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Quem não melhorou parou de vir e não entra na sua conta. Experiência cria hipótese. Não prova."
+  },
+  {
+   "id": "cinco-perguntas",
+   "tipo": "duas",
+   "eyebrow": "Três minutos, antes de ler a conclusão",
+   "titulo": "Cinco perguntas e uma regra",
+   "esq": {
+    "t": "As cinco perguntas",
+    "cor": "petr",
+    "itens": [
+     "Quem foram?",
+     "Comparado com o quê?",
+     "É desfecho ou marcador?",
+     "Por quanto tempo?",
+     "Qual o tamanho do efeito?"
+    ]
+   },
+   "dir": {
+    "t": "A regra da assimetria",
+    "cor": "ambar",
+    "itens": [
+     "Barato, seguro e plausível: dá para agir com estudo de observação",
+     "Caro, invasivo, arriscado ou por anos: exija ensaio sorteado",
+     "O custo de errar decide"
+    ]
+   },
+   "destaque": "Na fala: “foi visto em”, e diga em quem. “Hoje não há base para esperar isso.” E marque quando for observação sua."
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "A abertura, nos três níveis",
+   "regras": [
+    "Decisão: prescrição individual é da educação física (e da fisioterapia na reabilitação); plano alimentar, da nutrição; diagnóstico, remédio e liberação, da medicina; psicoterapia, da psicologia.",
+    "Contribuição: o sinal que cada um vê primeiro, as cinco linhas do encaminhamento, a carga com complemento e a pergunta de volta.",
+    "Reconhecimento: objetivo que gasta margem, “150 minutos” para quem está em zero, conselho de tirar remédio vindo de quem não prescreveu, estudo só de marcador, produto sem estudo independente."
+   ],
+   "quem": "Antes de acreditar, pergunte: em quem, comparado com o quê, e quem pagou.",
+   "proxima": "o corpo, começando pela energia"
+  }
+ ]
+}

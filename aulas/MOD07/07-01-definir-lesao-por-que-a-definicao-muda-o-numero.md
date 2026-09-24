@@ -289,7 +289,7 @@ Visual: o formulário no celular com a curva de seis meses.
 
 **Ligações internas.** "Montar o registro no dia a dia" = 7.2 · "por que a lesão acontece" = 7.3 ·
 "programas de prevenção" = 7.13 · "pedir exame sem uma pergunta clara" = 6.10 ·
-"gestão de carga" = Módulo 9 · leitura crítica geral = 1.9 e 1.10.
+"gestão de carga" = Módulo 9 · leitura crítica geral = 1.8.
 
 **Citações faladas.** Só duas nesta aula: a definição de consenso brasileira (Yamato, Saragiotto
 e Lopes, 2015) e Bahr 2016 sobre testes de rastreio. As outras cinco referências sustentam a

@@ -270,7 +270,7 @@ Visual: o laudo do slide 1 com "o que mudou na sua semana?" escrito à mão emba
 **Ligações internas.** "regras clínicas validadas no tornozelo" = 7.10 · "derrame agudo no joelho" = 7.9 ·
 "fratura de estresse de alto risco" = 7.11 · "critério de função no músculo" = 7.5 e 7.6 · "tendão e carga" = 7.7 e 7.8 ·
 "pedir exame sem pergunta clara" = 6.10 · "o que mudou nas últimas quatro semanas" = 7.3 ·
-leitura crítica de prevalência e valor preditivo = 1.9 e 1.10.
+leitura crítica = 1.8.
 
 **Citações faladas.** Nenhuma por nome de autor nesta aula. Os estudos entram pelo desenho e pelo
 número ("230 joelhos", "96 ombros", "250 mil adultos"), que é como a frase soa natural no teleprompter.

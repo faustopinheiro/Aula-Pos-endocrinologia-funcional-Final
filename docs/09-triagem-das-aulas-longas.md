@@ -24,13 +24,15 @@ aluno um pedaço com o qual ele não consegue decidir nada.*
 
 ## As 19 que viram longas · 30–40 min
 
+*(A 1.8 saiu desta lista quando as três aulas de evidência do Módulo 1 foram fundidas numa aula comum. Ficam 18.)*
+
 Todas são temas importantes. Nenhuma é uma cadeia indivisível — são temas
 **densos**, que é coisa diferente, e 35 minutos bem escritos entregam o que 75
 entregariam com enchimento.
 
 | Slot | Aula | Observação |
 |---|---|---|
-| 1.8 | Prática baseada em evidências | Divide bem: princípios · aplicação. Fica em uma longa. |
+| 1.8 | Como não ser enganado por um estudo | Fundida com as antigas 1.9 e 1.10 por decisão do coordenador; saiu como aula comum de 21 min, não longa. |
 | 2.4 | Metabolismo oxidativo e substratos | |
 | 2.8 | Limiares, VO₂máx e ergoespirometria | |
 | 3.4 | Testosterona no praticante | |

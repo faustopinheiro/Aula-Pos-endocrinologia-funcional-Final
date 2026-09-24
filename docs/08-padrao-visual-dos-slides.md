@@ -35,22 +35,27 @@ Cor nunca diz sozinha: toda faixa, barra ou ponto colorido carrega o texto ao la
 ## Anatomia do slide (1920 × 1080)
 
 - Margens `128px`; slides com rodapé usam `padding:128px 128px 160px`.
-- **Eyebrow** (26px, versalete, acento 1): `Slide N · assunto`.
+- **Eyebrow** (26px, versalete, acento 1): só o assunto do slide, sem número.
 - **Título** (h2, 60px, Libre Baskerville 700).
 - Corpo: cards em linha, tabela, gráfico + coluna de texto, ou lista.
-- **Rodapé fixo** em `bottom:64px`: à esquerda `Módulo X · Aula X.Y — Título`;
-  à direita a numeração `N / total`.
+- **Rodapé fixo** em `bottom:64px`: à esquerda o título da aula, sem número de aula
+  nem de módulo; à direita a numeração `N / total` dos slides.
 - Capa e slide de fecho em fundo tinta; miolo alternando papel claro e papel quente.
 
 ## Regras travadas
 
 1. **A capa não leva minutagem.** Duração é dado de produção, não de aula.
 2. Vocabulário interno (arquitetura da aula, alvo de palavras) não aparece para o aluno.
+   **Número de aula e de módulo também não**: a capa mostra o nome do módulo sem
+   número, o rodapé mostra o título da aula, e o fecho diz "A seguir: <título da
+   próxima>".
 3. Gráfico de dado real é **desenhado em vetor**, nunca imagem gerada: régua de faixas,
    curva de distribuição, barras de regressão, traçado de ECG, grade de pontos.
 4. Um assunto por slide; texto que não cabe vira outro slide — nada encolhe.
 5. Citação de estudo no corpo do slide: autor e ano, sem PMID (o PMID fica no arquivo da aula).
-6. Slide de fecho sempre traz as regras da aula, o escopo por profissão e o gancho da próxima.
+6. Slide de fecho sempre traz as regras da aula, quem faz o quê por profissão e o gancho da próxima.
+7. Um slide do deck para cada bloco de fala da aula (marcador 📊), mais a capa. As notas
+   do apresentador de cada slide são o texto falado daquele bloco.
 
 ## Símbolo da marca
 
@@ -78,3 +83,19 @@ nunca atrás do conteúdo.
 
 Quando existir nome de marca, o conjunto de nome e símbolo se monta a partir deste
 mesmo desenho, com o símbolo à esquerda do nome, sem redesenhar nada.
+
+## Como gerar um deck
+
+Desde o Módulo 1 reescrito, os decks são gerados, e não montados à mão:
+
+```
+python3 ferramentas/slides/gerar_deck.py slides/MOD01/01-01.json <pasta_de_saida>
+```
+
+O spec JSON da aula traz título, subtítulo, nome do módulo e um objeto por slide,
+com um dos tipos de layout: `cards`, `numeros`, `lista`, `duas` (duas colunas),
+`tabela`, `frase` (slide-destaque em petróleo ou tinta), `html` (gráfico em vetor
+feito à mão) e `fecho`. O gerador aplica a paleta, a tipografia, as margens, o
+rodapé, o símbolo no canto superior direito e as notas do apresentador tiradas do
+texto da aula. O número de slides do spec precisa bater com o número de blocos
+📊 da aula, ou o gerador recusa.
