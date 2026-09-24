@@ -10,7 +10,7 @@ Duração: 19 minutos · 8 slides · Arquitetura: ERRO
 *Visual: um laudo impresso em cima da mesa, com uma frase destacada em amarelo e um par de tênis de corrida ao lado.*
 *Teleprompter: (entra pela cena, sem introdução formal)*
 
-Chega uma pessoa na sua frente com um papel na mão. Quarenta e dois anos, corre três vezes por semana, dor no joelho há três semanas que começou depois que ela aumentou o ritmo dos treinos. Ela já fez a ressonância antes de te procurar, porque alguém disse que era melhor já chegar com o exame.
+Chega uma pessoa na sua frente com um papel na mão. Quarenta e um anos, corre três vezes por semana, dor no joelho há três semanas que começou depois que ela aumentou o ritmo dos treinos. Ela já fez a ressonância antes de te procurar, porque alguém disse que era melhor já chegar com o exame.
 
 E o laudo diz: lesão horizontal do corno posterior do menisco medial. Condropatia patelar grau dois. Edema ósseo subcondral.
 
@@ -168,7 +168,7 @@ O que muda entre esses casos e o exemplo do começo da aula não é a máquina. 
 *Visual: o mesmo laudo do primeiro slide, agora com uma caneta ao lado e a frase "o que mudou na sua semana?" escrita à mão embaixo.*
 *Teleprompter: (fecha voltando à corredora do começo e amarra o módulo)*
 
-Volta para a corredora dos quarenta e dois anos.
+Volta para a corredora dos quarenta e um anos.
 
 O que você faz com ela? Você examina o joelho dela. Você pergunta o que mudou no treino nas últimas quatro semanas, e descobre que ela aumentou o ritmo e trocou de tênis no mesmo mês. Você testa a força do quadril e do joelho dela e encontra um déficit claro. Você olha o laudo, reconhece nele três achados que estariam na ressonância de quase qualquer pessoa da idade dela, e conta isso para ela, com esse número na mão.
 
@@ -199,7 +199,7 @@ Na nossa próxima conversa, a última deste bloco, a gente fecha o assunto pelo 
 ## Roteiro Gamma.app
 
 **Slide 1** — O papel chega antes da pessoa
-· Corredora de **42 anos**, dor no joelho há **três semanas** depois de aumentar o ritmo
+· Corredora de **41 anos**, dor no joelho há **três semanas** depois de aumentar o ritmo
 · Laudo: **lesão horizontal do menisco medial · condropatia patelar · edema ósseo**
 · A pergunta que vem: **"vou ter que operar?"**
 · No minuto em que o papel virou o centro, **a dor de três semanas saiu de cena**
