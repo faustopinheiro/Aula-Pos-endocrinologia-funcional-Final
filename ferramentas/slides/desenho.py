@@ -25,9 +25,10 @@ def seta_marker(id_, cor):
             f'stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/></marker>')
 
 def linhas(w, h, alt, series, xmin, xmax, ymin, ymax, xticks, yticks, xlog=False,
-           margem=(110, 30, 70, 30), yfmt=lambda v: f"{v:g}%", xlabel=None, destaques=()):
+           margem=(110, 30, 70, 30), yfmt=lambda v: f"{v:g}%", xlabel=None, destaques=(), extra=None):
     """Gráfico de linhas. series = [{nome, cor, pts:[(x,y)], rotulo_em: índice do ponto para o nome}].
-    margem = (esquerda, topo, baixo, direita)."""
+    margem = (esquerda, topo, baixo, direita). extra(fx, fy) devolve svg desenhado antes das linhas
+    (faixas, áreas); a série aceita "tracejado": True."""
     ml, mt, mb, mr = margem
     pw, ph = w - ml - mr, h - mt - mb
     fx = (lambda v: ml + (math.log10(v) - math.log10(xmin)) / (math.log10(xmax) - math.log10(xmin)) * pw) if xlog \
@@ -47,11 +48,13 @@ def linhas(w, h, alt, series, xmin, xmax, ymin, ymax, xticks, yticks, xlog=False
         partes.append(f'<line x1="{x:.1f}" y1="{mt}" x2="{x:.1f}" y2="{mt+ph}" stroke="{TINTA}" stroke-width="2" stroke-dasharray="8 8"/>')
         if d.get("t"):
             rots.append(rot(x + 12, mt + 4, d["t"], w=d.get("w", 260), tam=d.get("tam", 28), cor=TINTA, peso=600))
+    if extra:
+        partes.append(extra(fx, fy))
     partes.append(f'<line x1="{ml}" y1="{mt+ph}" x2="{w-mr}" y2="{mt+ph}" stroke="{MUDO}" stroke-width="2"/>')
     for s in series:
         pts = " ".join(f"{fx(x):.1f},{fy(y):.1f}" for x, y in s["pts"])
         partes.append(f'<polyline points="{pts}" fill="none" stroke="{s["cor"]}" stroke-width="{s.get("esp", 6)}" '
-                      f'stroke-linecap="round" stroke-linejoin="round"/>')
+                      f'stroke-linecap="round" stroke-linejoin="round"' + (' stroke-dasharray="14 12"' if s.get("tracejado") else "") + '/>')
         for x, y in s.get("marcas", []):
             partes.append(f'<circle cx="{fx(x):.1f}" cy="{fy(y):.1f}" r="11" fill="{s["cor"]}" stroke="#F7F6F2" stroke-width="3"/>')
         if s.get("nome"):

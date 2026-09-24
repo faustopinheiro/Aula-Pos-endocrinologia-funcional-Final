@@ -1,0 +1,1611 @@
+{
+ "arquivo": "aulas/MOD02/02-02-sistema-fosfagenico-e-a-decisao-do-intervalo.md",
+ "modulo": "Fisiologia do Exercício Aplicada",
+ "titulo": "Pausa é conteúdo",
+ "subtitulo": "O sistema fosfagênico e a decisão do intervalo",
+ "nota_capa": "Entra pela cena do nadador e do levantador.",
+ "secoes": {
+  "recarga": [
+   "A curva da recarga e o experimento da oclusão.",
+   "capa"
+  ],
+  "decisao": [
+   "As três saídas e o critério do objeto do treino.",
+   "saidas"
+  ],
+  "leitura": [
+   "Decremento, agenda apertada e o que o VO₂máx prevê.",
+   "decremento"
+  ]
+ },
+ "slides": [
+  {
+   "id": "cena",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas linhas do tempo: seis tiros de 50 metros de natação e cinco séries de três repetições de levantamento, com um ponto de interrogação em cada pausa\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"56\" width=\"110\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"120\" y=\"56\" width=\"140\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"270\" y=\"56\" width=\"110\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"390\" y=\"56\" width=\"140\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"540\" y=\"56\" width=\"110\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"660\" y=\"56\" width=\"140\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"810\" y=\"56\" width=\"110\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"930\" y=\"56\" width=\"140\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1080\" y=\"56\" width=\"110\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1200\" y=\"56\" width=\"140\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1350\" y=\"56\" width=\"110\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"0\" y=\"256\" width=\"70\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"80\" y=\"256\" width=\"230\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"320\" y=\"256\" width=\"70\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"400\" y=\"256\" width=\"230\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"640\" y=\"256\" width=\"70\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"720\" y=\"256\" width=\"230\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"256\" width=\"70\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1040\" y=\"256\" width=\"230\" height=\"84\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1280\" y=\"256\" width=\"70\" height=\"84\" rx=\"6\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 800,
+     "t": "Nadador · 6 × 50 m livre",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 200,
+     "w": 900,
+     "t": "Levantador · 5 × 3 repetições pesadas",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 70,
+     "w": 140,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 390,
+     "y": 70,
+     "w": 140,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 660,
+     "y": 70,
+     "w": 140,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 930,
+     "y": 70,
+     "w": 140,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 70,
+     "w": 140,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 270,
+     "w": 230,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 270,
+     "w": 230,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 720,
+     "y": 270,
+     "w": 230,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1040,
+     "y": 270,
+     "w": 230,
+     "t": "?",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Dois esportes, a mesma decisão",
+   "titulo": "A decisão mais importante está no espaço em branco",
+   "destaque": "O mesmo sistema paga os dois esforços: o fosfagênico. E o que a pausa devolve define o que a sessão treina."
+  },
+  {
+   "id": "curva",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Fosfocreatina depois de um tiro máximo de 30 segundos: parte de 20% do repouso, chega a 65% com um minuto e meio e a 85% com seis minutos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"90\" y1=\"380.0\" x2=\"1574\" y2=\"380.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"205.0\" x2=\"1574\" y2=\"205.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"30.0\" x2=\"1574\" y2=\"30.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90.0\" y1=\"380\" x2=\"90.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"461.0\" y1=\"380\" x2=\"461.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"832.0\" y1=\"380\" x2=\"832.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1203.0\" y1=\"380\" x2=\"1203.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1574.0\" y1=\"380\" x2=\"1574.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"90\" y1=\"380\" x2=\"1574\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"90.0,310.0 114.7,285.3 139.5,264.5 164.2,246.8 188.9,231.8 213.7,218.9 238.4,207.8 263.1,198.2 287.9,189.9 312.6,182.6 337.3,176.1 362.1,170.4 386.8,165.3 411.5,160.6 436.3,156.4 461.0,152.6 485.7,149.1 510.5,145.8 535.2,142.8 559.9,140.0 584.7,137.3 609.4,134.8 634.1,132.4 658.9,130.1 683.6,127.9 708.3,125.8 733.1,123.8 757.8,121.8 782.5,120.0 807.3,118.2 832.0,116.4 856.7,114.7 881.5,113.1 906.2,111.5 930.9,109.9 955.7,108.4 980.4,106.9 1005.1,105.5 1029.9,104.1 1054.6,102.8 1079.3,101.4 1104.1,100.1 1128.8,98.9 1153.5,97.7 1178.3,96.5 1203.0,95.3 1227.7,94.2 1252.5,93.1 1277.2,92.0 1301.9,90.9 1326.7,89.9 1351.4,88.9 1376.1,87.9 1400.9,87.0 1425.6,86.0 1450.3,85.1 1475.1,84.3 1499.8,83.4 1524.5,82.5 1549.3,81.7 1574.0,80.9\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"90.0\" cy=\"310.0\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"461.0\" cy=\"152.5\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1574.0\" cy=\"80.8\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 363,
+     "w": 74,
+     "t": "0%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 188,
+     "w": 74,
+     "t": "50%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 13,
+     "w": 74,
+     "t": "100%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 396,
+     "w": 160,
+     "t": "fim do tiro",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 381,
+     "y": 396,
+     "w": 160,
+     "t": "1,5 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 752,
+     "y": 396,
+     "w": 160,
+     "t": "3 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1123,
+     "y": 396,
+     "w": 160,
+     "t": "4,5 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1494,
+     "y": 396,
+     "w": 160,
+     "t": "6 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 330,
+     "w": 500,
+     "t": "20%: quase o tanque inteiro gasto",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 150,
+     "w": 400,
+     "t": "65% em 1,5 min",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 196,
+     "w": 520,
+     "t": "a fase rápida devolve quase metade",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 140,
+     "w": 400,
+     "t": "85% em 6 min",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1180,
+     "y": 186,
+     "w": 420,
+     "t": "a fase lenta, só mais 20 pontos",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Fosfocreatina, em % do repouso",
+   "titulo": "A recarga tem duas velocidades",
+   "destaque": "A potência do tiro seguinte acompanha de perto a fosfocreatina que voltou.",
+   "fonte": "Bogdanis e colaboradores, Journal of Physiology 1995 · curva ilustrativa entre os pontos medidos"
+  },
+  {
+   "id": "oclusao",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Com a circulação livre, a fosfocreatina sobe logo depois do esforço; com a circulação bloqueada, a linha fica parada em 20% e só começa a subir quando o manguito é solto\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"90\" y1=\"380.0\" x2=\"1634\" y2=\"380.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"205.0\" x2=\"1634\" y2=\"205.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"30.0\" x2=\"1634\" y2=\"30.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90.0\" y1=\"380\" x2=\"90.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"733.3\" y1=\"380\" x2=\"733.3\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"380\" x2=\"1634.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"90.0\" y=\"30.0\" width=\"643.3\" height=\"350.0\" fill=\"#F3E1DE\"/><line x1=\"733.3\" y1=\"30.0\" x2=\"733.3\" y2=\"380.0\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"8 8\"/><line x1=\"90\" y1=\"380\" x2=\"1634\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"90.0,310.0 115.7,285.3 141.5,264.5 167.2,246.8 192.9,231.8 218.7,218.9 244.4,207.8 270.1,198.2 295.9,189.9 321.6,182.6 347.3,176.1 373.1,170.4 398.8,165.3 424.5,160.6 450.3,156.4 476.0,152.6 501.7,149.1 527.5,145.8 553.2,142.8 578.9,140.0 604.7,137.3 630.4,134.8 656.1,132.4 681.9,130.1 707.6,127.9 733.3,125.8 759.1,123.8 784.8,121.8 810.5,120.0 836.3,118.2 862.0,116.4 887.7,114.7 913.5,113.1 939.2,111.5 964.9,109.9 990.7,108.4 1016.4,106.9 1042.1,105.5 1067.9,104.1 1093.6,102.8 1119.3,101.4 1145.1,100.1 1170.8,98.9 1196.5,97.7 1222.3,96.5 1248.0,95.3 1273.7,94.2 1299.5,93.1 1325.2,92.0 1350.9,90.9 1376.7,89.9 1402.4,88.9 1428.1,87.9 1453.9,87.0 1479.6,86.0 1505.3,85.1 1531.1,84.3 1556.8,83.4 1582.5,82.5 1608.3,81.7 1634.0,80.9\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"14 12\"/><polyline points=\"90.0,310.0 733.3,310.0 759.1,285.3 784.8,264.5 810.5,246.8 836.3,231.8 862.0,218.9 887.7,207.8 913.5,198.2 939.2,189.9 964.9,182.6 990.7,176.1 1016.4,170.4 1042.1,165.3 1067.9,160.6 1093.6,156.4 1119.3,152.6 1145.1,149.1 1170.8,145.8 1196.5,142.8 1222.3,140.0 1248.0,137.3 1273.7,134.8 1299.5,132.4 1325.2,130.1 1350.9,127.9 1376.7,125.8 1402.4,123.8 1428.1,121.8 1453.9,120.0 1479.6,118.2 1505.3,116.4 1531.1,114.7 1556.8,113.1 1582.5,111.5 1608.3,109.9 1634.0,108.4\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"733.3\" cy=\"310.0\" r=\"11\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 363,
+     "w": 74,
+     "t": "0%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 188,
+     "w": 74,
+     "t": "50%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 13,
+     "w": 74,
+     "t": "100%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 396,
+     "w": 160,
+     "t": "fim do esforço",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 653,
+     "y": 396,
+     "w": 160,
+     "t": "solta o manguito",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 396,
+     "w": 160,
+     "t": "6 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 50,
+     "w": 460,
+     "t": "Manguito inflado: sem fluxo",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 236,
+     "w": 460,
+     "t": "não volta nada",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 40,
+     "w": 360,
+     "t": "circulação livre",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 250,
+     "w": 520,
+     "t": "o sangue entra, a recarga começa",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O experimento que fecha o argumento",
+   "titulo": "Sem fluxo, a fosfocreatina não volta",
+   "destaque": "O tiro é fosfagênico. A pausa é oxidativa.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema do achado de Harris, Hultman e colaboradores, Pflügers Archiv 1976"
+  },
+  {
+   "id": "saidas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Bifurcação com três saídas: pausa de 30 a 60 segundos, de 2 a 3 minutos e de 4 a 5 minutos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"e1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"e2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"e3\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"150\" cy=\"220\" r=\"26\" fill=\"#12202E\"/><path d=\"M176 220 C420 220 420 70 690 70\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"7\" marker-end=\"url(#e1)\"/><rect x=\"710\" y=\"12\" width=\"954\" height=\"116\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><path d=\"M176 220 C420 220 420 220 690 220\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"7\" marker-end=\"url(#e2)\"/><rect x=\"710\" y=\"162\" width=\"954\" height=\"116\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M176 220 C420 220 420 370 690 370\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"7\" marker-end=\"url(#e3)\"/><rect x=\"710\" y=\"312\" width=\"954\" height=\"116\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 270,
+     "w": 300,
+     "t": "sessão de tiros curtos e máximos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 40,
+     "w": 300,
+     "t": "30 a 60 s",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 48,
+     "w": 580,
+     "t": "“no jogo ninguém dá cinco minutos”",
+     "tam": 28,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 190,
+     "w": 300,
+     "t": "2 a 3 min",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 198,
+     "w": 580,
+     "t": "o meio-termo honesto",
+     "tam": 28,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 340,
+     "w": 300,
+     "t": "4 a 5 min",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 348,
+     "w": 580,
+     "t": "cada tiro máximo de verdade",
+     "tam": 28,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A encruzilhada",
+   "titulo": "Quanto de pausa? Três saídas defensáveis",
+   "destaque": "O problema de quase toda prescrição não é escolher mal. É escolher sem saber aonde a escolha vai dar."
+  },
+  {
+   "id": "curta",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Esquema de seis tiros com pausa de um minuto: a parte paga pelo fosfagênico encolhe e a parte glicolítica cresce do primeiro ao sexto tiro\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"220\" y=\"70\" width=\"150\" height=\"31.6\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"220\" y=\"103.6\" width=\"150\" height=\"246.4\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"430\" y=\"70\" width=\"150\" height=\"93.2\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"430\" y=\"165.2\" width=\"150\" height=\"184.8\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"640\" y=\"70\" width=\"150\" height=\"132.4\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"640\" y=\"204.4\" width=\"150\" height=\"145.6\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"850\" y=\"70\" width=\"150\" height=\"160.4\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"850\" y=\"232.4\" width=\"150\" height=\"117.6\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1060\" y=\"70\" width=\"150\" height=\"177.2\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1060\" y=\"249.2\" width=\"150\" height=\"100.8\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1270\" y=\"70\" width=\"150\" height=\"188.4\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1270\" y=\"260.4\" width=\"150\" height=\"89.6\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"0\" y=\"84\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"0\" y=\"250\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#A8322A\"/><line x1=\"820\" y1=\"16\" x2=\"820\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 220,
+     "y": 364,
+     "w": 150,
+     "t": "tiro 1",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 430,
+     "y": 364,
+     "w": 150,
+     "t": "tiro 2",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 364,
+     "w": 150,
+     "t": "tiro 3",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 364,
+     "w": 150,
+     "t": "tiro 4",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 364,
+     "w": 150,
+     "t": "tiro 5",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 364,
+     "w": 150,
+     "t": "tiro 6",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 80,
+     "w": 170,
+     "t": "glicolítico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 246,
+     "w": 170,
+     "t": "fosfagênico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 16,
+     "w": 520,
+     "t": "a partir daqui, a conta é outra",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 400,
+     "t": "esquema, sem escala medida",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Saída curta · 30 a 60 s",
+   "titulo": "Isso não é treino de velocidade",
+   "destaque": "É treino de tolerância vestido de velocidade. O atleta fica ótimo em correr cansado. E não fica mais rápido.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "relogio",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Seis tiros com pausa de 1 minuto duram cerca de 6 minutos; com pausa de 2 minutos e meio, cerca de 13 minutos e meio; com pausa de 5 minutos, cerca de 26 minutos\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"250.0\" y=\"20\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"268.0\" y=\"44\" width=\"44.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"314.0\" y=\"20\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"332.0\" y=\"44\" width=\"44.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"378.0\" y=\"20\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"396.0\" y=\"44\" width=\"44.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"442.0\" y=\"20\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"460.0\" y=\"44\" width=\"44.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"506.0\" y=\"20\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"524.0\" y=\"44\" width=\"44.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"570.0\" y=\"20\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"250.0\" y=\"136\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"268.0\" y=\"160\" width=\"116.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"386.0\" y=\"136\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"404.0\" y=\"160\" width=\"116.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"522.0\" y=\"136\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"540.0\" y=\"160\" width=\"116.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"658.0\" y=\"136\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"676.0\" y=\"160\" width=\"116.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"794.0\" y=\"136\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"812.0\" y=\"160\" width=\"116.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"930.0\" y=\"136\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"250.0\" y=\"252\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"268.0\" y=\"276\" width=\"236.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"506.0\" y=\"252\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"524.0\" y=\"276\" width=\"236.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"762.0\" y=\"252\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"780.0\" y=\"276\" width=\"236.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1018.0\" y=\"252\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1036.0\" y=\"276\" width=\"236.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1274.0\" y=\"252\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1292.0\" y=\"276\" width=\"236.0\" height=\"24\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1530.0\" y=\"252\" width=\"16\" height=\"72\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"250\" y=\"372\" width=\"16\" height=\"28\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"530\" y=\"380\" width=\"40\" height=\"14\" rx=\"4\" fill=\"#C3CBD1\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 34,
+     "w": 220,
+     "t": "1 min",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 610,
+     "y": 36,
+     "w": 240,
+     "t": "≈ 6 min",
+     "tam": 34,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 150,
+     "w": 220,
+     "t": "2,5 min",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 970,
+     "y": 152,
+     "w": 240,
+     "t": "≈ 13,5 min",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 266,
+     "w": 220,
+     "t": "5 min",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1570,
+     "y": 268,
+     "w": 240,
+     "t": "≈ 26 min",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 278,
+     "y": 366,
+     "w": 200,
+     "t": "tiro",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 582,
+     "y": 366,
+     "w": 600,
+     "t": "pausa · tudo em escala de tempo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Saída média e saída longa",
+   "titulo": "Seis tiros, três tamanhos de sessão",
+   "destaque": "A pausa média não erra e não otimiza. A longa protege a qualidade, e é a mais defendida nos livros e a menos praticada no campo."
+  },
+  {
+   "id": "criterio",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três objetos de treino ao longo de quatro semanas: qualidade com pausa de 4 minutos fixa; capacidade de repetir com pausa caindo de 3 para 1 minuto e meio; tolerância com pausa de 45 segundos desde o início\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"420\" y=\"60\" width=\"208.0\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"650\" y=\"60\" width=\"208.0\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"880\" y=\"60\" width=\"208.0\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1110\" y=\"60\" width=\"208.0\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"420\" y=\"190\" width=\"156.0\" height=\"44\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"650\" y=\"190\" width=\"130.0\" height=\"44\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"880\" y=\"190\" width=\"104.0\" height=\"44\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"1110\" y=\"190\" width=\"78.0\" height=\"44\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"420\" y=\"320\" width=\"39.0\" height=\"44\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"650\" y=\"320\" width=\"39.0\" height=\"44\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"880\" y=\"320\" width=\"39.0\" height=\"44\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1110\" y=\"320\" width=\"39.0\" height=\"44\" rx=\"4\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 420,
+     "y": 0,
+     "w": 210,
+     "t": "semana 1",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 0,
+     "w": 210,
+     "t": "semana 2",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 0,
+     "w": 210,
+     "t": "semana 3",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 0,
+     "w": 210,
+     "t": "semana 4",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 64,
+     "w": 390,
+     "t": "Qualidade do esforço isolado",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 110,
+     "w": 210,
+     "t": "4 min",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 110,
+     "w": 210,
+     "t": "4 min",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 110,
+     "w": 210,
+     "t": "4 min",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 110,
+     "w": 210,
+     "t": "4 min",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 64,
+     "w": 314,
+     "t": "pausa é conteúdo",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 194,
+     "w": 390,
+     "t": "Capacidade de repetir",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 240,
+     "w": 210,
+     "t": "3 min",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 240,
+     "w": 210,
+     "t": "2,5 min",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 240,
+     "w": 210,
+     "t": "2 min",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 240,
+     "w": 210,
+     "t": "1,5 min",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 194,
+     "w": 314,
+     "t": "a pausa encurta",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 324,
+     "w": 390,
+     "t": "Tolerância",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 370,
+     "w": 210,
+     "t": "45 s",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 370,
+     "w": 210,
+     "t": "45 s",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 370,
+     "w": 210,
+     "t": "45 s",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 370,
+     "w": 210,
+     "t": "45 s",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 324,
+     "w": 314,
+     "t": "chama pelo nome",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O critério",
+   "titulo": "Quem decide a pausa é o objeto do treino",
+   "destaque": "Se o objeto é tolerância, a pausa curta é o instrumento certo. Só que aí se escreve “tolerância” na planilha, e não “velocidade”."
+  },
+  {
+   "id": "decremento",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Seis tiros de 4,10 a 4,41 segundos; as barras mostram quanto cada tiro ficou acima do melhor, de 0 a 0,31 segundo; a conta dá decremento de 3,7%\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"270\" y=\"88\" width=\"65.0\" height=\"40\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"270\" y=\"160\" width=\"156.0\" height=\"40\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"270\" y=\"232\" width=\"234.0\" height=\"40\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"270\" y=\"304\" width=\"325.0\" height=\"40\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"270\" y=\"376\" width=\"403.0\" height=\"40\" rx=\"4\" fill=\"#A8322A\"/><line x1=\"268\" y1=\"0\" x2=\"268\" y2=\"440\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"8 8\"/><rect x=\"840\" y=\"0\" width=\"824\" height=\"440\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 14,
+     "w": 120,
+     "t": "Tiro 1",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 14,
+     "w": 120,
+     "t": "4,10 s",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 86,
+     "w": 120,
+     "t": "Tiro 2",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 86,
+     "w": 120,
+     "t": "4,15 s",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 158,
+     "w": 120,
+     "t": "Tiro 3",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 158,
+     "w": 120,
+     "t": "4,22 s",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 120,
+     "t": "Tiro 4",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 230,
+     "w": 120,
+     "t": "4,28 s",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 302,
+     "w": 120,
+     "t": "Tiro 5",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 302,
+     "w": 120,
+     "t": "4,35 s",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 374,
+     "w": 120,
+     "t": "Tiro 6",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 374,
+     "w": 120,
+     "t": "4,41 s",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 284,
+     "y": 12,
+     "w": 200,
+     "t": "o melhor",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 30,
+     "w": 460,
+     "t": "Soma real dos seis",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 22,
+     "w": 300,
+     "t": "25,51 s",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 120,
+     "w": 460,
+     "t": "Se todos fossem o melhor<br>6 × 4,10",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 128,
+     "w": 300,
+     "t": "24,60 s",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 246,
+     "w": 740,
+     "t": "(25,51 ÷ 24,60 − 1) × 100",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 310,
+     "w": 400,
+     "t": "Decremento",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 290,
+     "w": 340,
+     "t": "3,7%",
+     "tam": 72,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Um marcador que cabe numa planilha",
+   "titulo": "Quanto a sessão caiu em relação ao melhor tiro",
+   "fonte": "Sessão de exemplo · a conta com todos os tiros é mais estável que primeiro contra último (Glaister e colaboradores, 2008)"
+  },
+  {
+   "id": "matriz",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Matriz: quis qualidade e decremento baixo, sessão prescrita; quis qualidade e decremento alto, pausa curta ou volume demais; quis tolerância e decremento alto, era isso; quis tolerância e decremento quase zero, sessão confortável\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"380\" y=\"60\" width=\"630\" height=\"180\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1034\" y=\"60\" width=\"630\" height=\"180\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"380\" y=\"264\" width=\"630\" height=\"180\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1034\" y=\"264\" width=\"630\" height=\"180\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 380,
+     "y": 4,
+     "w": 630,
+     "t": "Decremento baixo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1034,
+     "y": 4,
+     "w": 630,
+     "t": "Decremento alto",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 130,
+     "w": 350,
+     "t": "Queria qualidade",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 334,
+     "w": 350,
+     "t": "Queria tolerância",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 416,
+     "y": 108,
+     "w": 558,
+     "t": "✓  A sessão foi a que você prescreveu",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 108,
+     "w": 558,
+     "t": "✗  Pausa curta ou volume demais: virou outra coisa",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 416,
+     "y": 312,
+     "w": 558,
+     "t": "✗  Sessão confortável: não treinou o que você quis",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 312,
+     "w": 558,
+     "t": "✓  Era isso mesmo: foi aonde você queria levar",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O decremento só fala contra a intenção",
+   "titulo": "Compare o atleta com ele mesmo",
+   "destaque": "O decremento não é nota do atleta. É a prova de que a sessão que aconteceu foi a que você prescreveu."
+  },
+  {
+   "id": "agenda",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas sessões de 12 minutos: quatro tiros com pausa de 4 minutos, todos fosfagênicos; sete tiros com pausa de 2 minutos, os últimos já glicolíticos\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"300.0\" y=\"30\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"321.0\" y=\"64\" width=\"408.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"732.0\" y=\"30\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"753.0\" y=\"64\" width=\"408.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1164.0\" y=\"30\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1185.0\" y=\"64\" width=\"408.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1596.0\" y=\"30\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"300.0\" y=\"190\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"321.0\" y=\"224\" width=\"192.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"516.0\" y=\"190\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"537.0\" y=\"224\" width=\"192.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"732.0\" y=\"190\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"753.0\" y=\"224\" width=\"192.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"948.0\" y=\"190\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"969.0\" y=\"224\" width=\"192.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1164.0\" y=\"190\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1185.0\" y=\"224\" width=\"192.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1380.0\" y=\"190\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1401.0\" y=\"224\" width=\"192.0\" height=\"28\" rx=\"4\" fill=\"#C3CBD1\"/><rect x=\"1596.0\" y=\"190\" width=\"18\" height=\"96\" rx=\"4\" fill=\"#B07A1C\"/><line x1=\"300\" y1=\"350\" x2=\"1614\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 26,
+     "w": 270,
+     "t": "4 tiros<br>pausa de 4 min",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 186,
+     "w": 270,
+     "t": "7 tiros<br>pausa de 2 min",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 132,
+     "w": 400,
+     "t": "treina velocidade",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 978,
+     "y": 292,
+     "w": 500,
+     "t": "os últimos já são outra conta",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 360,
+     "w": 800,
+     "t": "mesmos 12 minutos no relógio",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quando a agenda aperta",
+   "titulo": "Corte tiros, não a pausa",
+   "destaque": "Volume é a variável barata de cortar. Pausa é a cara.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "vo2",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Nuvem de pontos ilustrativa com correlação de cerca de 0,44 entre VO2máx e desempenho em tiros repetidos; ao lado, 45 estudos, 1.488 pessoas, o VO2máx explica cerca de um quinto da diferença\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"60\" y1=\"380\" x2=\"880\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"60\" y1=\"50\" x2=\"60\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"91.5\" y1=\"259.2\" x2=\"848.5\" y2=\"158.1\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"558.8\" cy=\"215.3\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"511.7\" cy=\"276.9\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"668.3\" cy=\"189.8\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"411.5\" cy=\"215.8\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"104.4\" cy=\"215.6\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"590.3\" cy=\"196.3\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"510.7\" cy=\"244.2\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"330.6\" cy=\"268.7\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"463.8\" cy=\"155.7\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"443.8\" cy=\"304.9\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"425.5\" cy=\"197.4\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"824.4\" cy=\"142.0\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"287.5\" cy=\"255.2\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"404.8\" cy=\"212.9\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"506.5\" cy=\"56.8\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"326.1\" cy=\"192.8\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"667.8\" cy=\"208.6\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"492.7\" cy=\"192.2\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"507.0\" cy=\"184.3\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"510.4\" cy=\"177.7\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"386.9\" cy=\"173.1\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"357.7\" cy=\"198.1\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"357.0\" cy=\"240.0\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"582.7\" cy=\"204.9\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"364.9\" cy=\"275.7\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"457.1\" cy=\"218.5\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"789.7\" cy=\"164.3\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"592.8\" cy=\"185.4\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"707.7\" cy=\"218.1\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"201.4\" cy=\"305.7\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"664.0\" cy=\"118.3\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"532.9\" cy=\"163.4\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"606.9\" cy=\"209.2\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"254.0\" cy=\"280.3\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"205.7\" cy=\"222.2\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"667.2\" cy=\"201.0\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"284.9\" cy=\"166.1\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"465.7\" cy=\"199.2\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"555.5\" cy=\"229.2\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"688.7\" cy=\"142.6\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"714.9\" cy=\"156.6\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"521.4\" cy=\"240.6\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"565.1\" cy=\"267.0\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><circle cx=\"493.1\" cy=\"179.8\" r=\"10\" fill=\"#008A7E\" fill-opacity=\"0.8\" stroke=\"#F7F6F2\" stroke-width=\"2\"/><line x1=\"980\" y1=\"0\" x2=\"980\" y2=\"440\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 394,
+     "w": 820,
+     "t": "VO₂máx →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 0,
+     "w": 500,
+     "t": "desempenho em tiros repetidos ↑",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 0,
+     "w": 620,
+     "t": "r ≈ 0,44",
+     "tam": 72,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1030,
+     "y": 104,
+     "w": 620,
+     "t": "45 estudos · 1.488 pessoas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 170,
+     "w": 620,
+     "t": "O VO₂máx explica cerca de um quinto da diferença. Os outros quatro quintos estão em outro lugar.",
+     "tam": 28,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 310,
+     "w": 620,
+     "t": "A relação fica mais forte com tiros abaixo de 40 metros: quanto mais curto o tiro, mais a conta é pausa.",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma frase que ficou fácil demais",
+   "titulo": "Melhorar o VO₂máx não garante repetir tiros",
+   "fonte": "Ulupınar e colaboradores, Strength and Conditioning Journal 2023 · Sanders e colaboradores, 2017 · nuvem ilustrativa (r = 0,44)"
+  },
+  {
+   "id": "cinetica",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas curvas de consumo de oxigênio que chegam ao mesmo teto: uma sobe rápido e a outra devagar; no primeiro minuto de pausa, a diferença entre elas é a diferença na recarga\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"40.0\" y1=\"380\" x2=\"40.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"574.7\" y1=\"380\" x2=\"574.7\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1109.3\" y1=\"380\" x2=\"1109.3\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1644.0\" y1=\"380\" x2=\"1644.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"574.7\" y1=\"20\" x2=\"574.7\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><polygon points=\"40.0,380.0 66.7,329.8 93.5,287.2 120.2,251.2 146.9,220.8 173.7,195.0 200.4,173.1 227.1,154.6 253.9,139.0 280.6,125.8 307.3,114.5 334.1,105.1 360.8,97.0 387.5,90.2 414.3,84.5 441.0,79.6 467.7,75.5 494.5,72.0 521.2,69.0 547.9,66.5 574.7,64.4 574.7,139.0 547.9,144.9 521.2,151.3 494.5,158.1 467.7,165.4 441.0,173.1 414.3,181.4 387.5,190.3 360.8,199.8 334.1,209.9 307.3,220.8 280.6,232.3 253.9,244.7 227.1,258.0 200.4,272.1 173.7,287.2 146.9,303.4 120.2,320.7 93.5,339.1 66.7,358.9 40.0,380.0\" fill=\"#008A7E\" fill-opacity=\"0.18\"/><rect x=\"996\" y=\"256\" width=\"28\" height=\"28\" rx=\"4\" fill=\"#008A7E\" fill-opacity=\"0.18\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"992\" y=\"156\" width=\"36\" height=\"6\" rx=\"3\" fill=\"#008A7E\"/><rect x=\"992\" y=\"212\" width=\"36\" height=\"6\" rx=\"3\" fill=\"#3A6EA5\"/><line x1=\"40\" y1=\"380\" x2=\"1644\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,52.7 1644.0,52.7\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"14 12\"/><polyline points=\"40.0,380.0 66.7,329.8 93.5,287.2 120.2,251.2 146.9,220.8 173.7,195.0 200.4,173.1 227.1,154.6 253.9,139.0 280.6,125.8 307.3,114.5 334.1,105.1 360.8,97.0 387.5,90.2 414.3,84.5 441.0,79.6 467.7,75.5 494.5,72.0 521.2,69.0 547.9,66.5 574.7,64.4 601.4,62.6 628.1,61.1 654.9,59.8 681.6,58.7 708.3,57.8 735.1,57.0 761.8,56.4 788.5,55.8 815.3,55.3 842.0,54.9 868.7,54.6 895.5,54.3 922.2,54.1 948.9,53.9 975.7,53.7 1002.4,53.5 1029.1,53.4 1055.9,53.3 1082.6,53.2 1109.3,53.1 1136.1,53.1 1162.8,53.0 1189.5,53.0 1216.3,52.9 1243.0,52.9 1269.7,52.9 1296.5,52.9 1323.2,52.8 1349.9,52.8 1376.7,52.8 1403.4,52.8 1430.1,52.8 1456.9,52.8 1483.6,52.8 1510.3,52.8 1537.1,52.8 1563.8,52.8 1590.5,52.7 1617.3,52.7 1644.0,52.7\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"40.0,380.0 66.7,358.9 93.5,339.1 120.2,320.7 146.9,303.4 173.7,287.2 200.4,272.1 227.1,258.0 253.9,244.7 280.6,232.3 307.3,220.8 334.1,209.9 360.8,199.8 387.5,190.3 414.3,181.4 441.0,173.1 467.7,165.4 494.5,158.1 521.2,151.3 547.9,144.9 574.7,139.0 601.4,133.4 628.1,128.2 654.9,123.4 681.6,118.8 708.3,114.5 735.1,110.6 761.8,106.8 788.5,103.3 815.3,100.1 842.0,97.0 868.7,94.2 895.5,91.5 922.2,89.0 948.9,86.7 975.7,84.5 1002.4,82.4 1029.1,80.5 1055.9,78.7 1082.6,77.0 1109.3,75.5 1136.1,74.0 1162.8,72.6 1189.5,71.3 1216.3,70.1 1243.0,69.0 1269.7,68.0 1296.5,67.0 1323.2,66.1 1349.9,65.2 1376.7,64.4 1403.4,63.6 1430.1,62.9 1456.9,62.3 1483.6,61.7 1510.3,61.1 1537.1,60.6 1563.8,60.0 1590.5,59.6 1617.3,59.1 1644.0,58.7\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 396,
+     "w": 160,
+     "t": "0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 495,
+     "y": 396,
+     "w": 160,
+     "t": "1 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1029,
+     "y": 396,
+     "w": 160,
+     "t": "2 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 396,
+     "w": 160,
+     "t": "3 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 20,
+     "w": 500,
+     "t": "o mesmo teto (VO₂máx)",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 142,
+     "w": 400,
+     "t": "subida rápida",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 198,
+     "w": 400,
+     "t": "subida lenta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 254,
+     "w": 600,
+     "t": "a diferença na recarga, no primeiro minuto",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Consumo de oxigênio no músculo durante a pausa",
+   "titulo": "Teto alto não é subida rápida",
+   "destaque": "Numa pausa curta, decide a velocidade com que a mitocôndria entra em regime. Melhora com mitocôndria e capilar no músculo que se usa.",
+   "fonte": "Esquema ilustrativo, sem valores medidos"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "Três perguntas antes de escrever qualquer pausa",
+   "regras": [
+    "Qual é o objeto do treino hoje?",
+    "A pausa protege esse objeto?",
+    "O decremento confirma a sessão?"
+   ],
+   "cards": [
+    {
+     "t": "Preparador e treinador",
+     "x": "Prescrevem a pausa e leem o decremento de cada sessão."
+    },
+    {
+     "t": "Médico e fisioterapeuta",
+     "x": "Lesão que se repete no fim da sessão? Pedem a planilha de intervalos. Para entender, não para mudar."
+    }
+   ],
+   "quem": "Pausa é conteúdo."
+  }
+ ]
+}
