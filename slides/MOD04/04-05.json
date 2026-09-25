@@ -1,0 +1,418 @@
+{
+ "arquivo": "aulas/MOD04/04-05-proteina-dose-distribuicao-e-qualidade.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Proteína no praticante de exercício",
+ "subtitulo": "Dose diária, distribuição e qualidade",
+ "nota_capa": "Entra pelos três números que todo mundo mistura.",
+ "secoes": {
+  "quanto": [
+   "Quanto: 0,8, 1,6 e 2,2.",
+   "capa"
+  ],
+  "distribuicao": [
+   "Como distribuir, e de que fonte.",
+   "areta"
+  ],
+  "idoso": [
+   "O idoso e os três perfis.",
+   "idoso"
+  ]
+ },
+ "slides": [
+  {
+   "id": "tres",
+   "tipo": "numeros",
+   "eyebrow": "Três números que todo mundo mistura",
+   "titulo": "Gramas por quilo por dia",
+   "numeros": [
+    {
+     "n": "0,8",
+     "x": "piso populacional contra deficiência, não meta para quem treina",
+     "cor": "tinta"
+    },
+    {
+     "n": "1,6",
+     "x": "platô do ganho de massa livre de gordura com treino de força",
+     "cor": "petr"
+    },
+    {
+     "n": "2,2",
+     "x": "limite superior do intervalo desse platô",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "“A recomendação oficial é 0,8, o resto é exagero”: o número certo para a pergunta errada.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "plato",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Ganho de massa livre de gordura subindo com a proteína diária e achatando perto de 1,6 g/kg, com a faixa até 2,2 como incerteza\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><line x1=\"285.2\" y1=\"280\" x2=\"285.2\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"775.7\" y1=\"280\" x2=\"775.7\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1143.5\" y1=\"280\" x2=\"1143.5\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"280\" x2=\"1634.0\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"775.7\" y1=\"20\" x2=\"775.7\" y2=\"280\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><rect x=\"776\" y=\"20\" width=\"368\" height=\"260\" fill=\"#F4EAD6\"/><line x1=\"40\" y1=\"280\" x2=\"1634\" y2=\"280\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,280.0 101.3,230.7 162.6,191.1 223.9,159.5 285.2,134.2 346.5,113.9 407.8,97.7 469.2,84.6 530.5,74.2 591.8,65.9 653.1,59.2 714.4,53.9 775.7,49.6 837.0,46.2 898.3,43.4 959.6,41.2 1020.9,39.5 1082.2,38.0 1143.5,36.9 1204.8,36.0 1266.2,35.3 1327.5,34.7 1388.8,34.2 1450.1,33.9 1511.4,33.6 1572.7,33.3 1634.0,33.1\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 205,
+     "y": 296,
+     "w": 160,
+     "t": "0,8",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 696,
+     "y": 296,
+     "w": 160,
+     "t": "1,6",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 296,
+     "w": 160,
+     "t": "2,2",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 296,
+     "w": 160,
+     "t": "3,0 g/kg/dia",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 60,
+     "w": 300,
+     "t": "platô",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 220,
+     "w": 500,
+     "t": "ganho de massa livre de gordura",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Morton e colaboradores, 2018",
+   "titulo": "Onde mais proteína para de ajudar",
+   "destaque": "49 estudos, 1.863 pessoas treinando força: +0,30 kg de massa livre de gordura. Efeito maior em treinados, menor com a idade. Em déficit, a necessidade sobe.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema da curva, sem valores medidos, com os pontos do estudo · British Journal of Sports Medicine 2018 · Jäger 2017: 1,4 a 2,0 g/kg"
+  },
+  {
+   "id": "areta",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Mesmos 80 g de whey em 12 horas, divididos em 8 doses de 10 g, 4 de 20 g ou 2 de 40 g; o padrão de 4 doses de 20 g teve a maior síntese miofibrilar\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><line x1=\"280\" y1=\"50\" x2=\"1620\" y2=\"50\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><circle cx=\"364\" cy=\"50\" r=\"14\" fill=\"#6B7A87\"/><circle cx=\"531\" cy=\"50\" r=\"14\" fill=\"#6B7A87\"/><circle cx=\"699\" cy=\"50\" r=\"14\" fill=\"#6B7A87\"/><circle cx=\"866\" cy=\"50\" r=\"14\" fill=\"#6B7A87\"/><circle cx=\"1034\" cy=\"50\" r=\"14\" fill=\"#6B7A87\"/><circle cx=\"1201\" cy=\"50\" r=\"14\" fill=\"#6B7A87\"/><circle cx=\"1369\" cy=\"50\" r=\"14\" fill=\"#6B7A87\"/><circle cx=\"1536\" cy=\"50\" r=\"14\" fill=\"#6B7A87\"/><line x1=\"280\" y1=\"150\" x2=\"1620\" y2=\"150\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><circle cx=\"448\" cy=\"150\" r=\"22\" fill=\"#008A7E\"/><circle cx=\"782\" cy=\"150\" r=\"22\" fill=\"#008A7E\"/><circle cx=\"1118\" cy=\"150\" r=\"22\" fill=\"#008A7E\"/><circle cx=\"1452\" cy=\"150\" r=\"22\" fill=\"#008A7E\"/><line x1=\"280\" y1=\"250\" x2=\"1620\" y2=\"250\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><circle cx=\"615\" cy=\"250\" r=\"38\" fill=\"#6B7A87\"/><circle cx=\"1285\" cy=\"250\" r=\"38\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 30,
+     "w": 260,
+     "t": "8 × 10 g",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 130,
+     "w": 260,
+     "t": "4 × 20 g",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 260,
+     "t": "2 × 40 g",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 300,
+     "w": 1340,
+     "t": "doze horas depois de uma sessão de força",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Areta e colaboradores, 2013",
+   "titulo": "Mesmo total, três distribuições",
+   "destaque": "4 × 20 g teve a maior síntese miofibrilar. Limite: síntese aguda em 12 h, whey, 24 homens jovens. Sinal sobre padrão, não prova de hipertrofia.",
+   "destaque_cor": "ambar",
+   "fonte": "Journal of Physiology 2013"
+  },
+  {
+   "id": "teto",
+   "tipo": "duas",
+   "eyebrow": "Trommelen e colaboradores, 2023",
+   "titulo": "O mito do teto de 30 gramas",
+   "esq": {
+    "t": "O dado",
+    "cor": "petr",
+    "itens": [
+     "25 g contra 100 g depois de treino de corpo inteiro",
+     "100 g: resposta maior e mais longa",
+     "passou de 12 horas"
+    ]
+   },
+   "dir": {
+    "t": "A conduta",
+    "cor": "ambar",
+    "itens": [
+     "refeição grande não é desperdício",
+     "0,25 g/kg ou 20 a 40 g a cada 3 a 4 h",
+     "a janela pós-treino é larga, salvo quem treina em jejum"
+    ]
+   },
+   "destaque": "O problema não é o jantar com 60 g. É o café da manhã com 8.",
+   "destaque_cor": "verm",
+   "fonte": "Cell Reports Medicine 2023 · Jäger 2017"
+  },
+  {
+   "id": "qualidade",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "van Vliet, Burd e van Loon, 2015",
+   "titulo": "Qualidade: o que muda entre as fontes",
+   "cards": [
+    {
+     "t": "Digestibilidade",
+     "x": "quanto do ingerido é absorvido; menor na vegetal",
+     "cor": "tinta"
+    },
+    {
+     "t": "Aminoácidos essenciais",
+     "x": "lisina limita nos cereais, metionina nas leguminosas",
+     "cor": "tinta"
+    },
+    {
+     "t": "Leucina",
+     "x": "o gatilho da síntese: 700 a 3.000 mg por dose",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Vegetariano ganha músculo, com ajuste: um pouco mais por refeição, combinar fontes (arroz com feijão), soja, ovos e laticínios.",
+   "destaque_cor": "petr",
+   "fonte": "Journal of Nutrition 2015"
+  },
+  {
+   "id": "whey",
+   "tipo": "frase",
+   "fundo": "petr",
+   "eyebrow": "O suplemento de proteína",
+   "frase": "Whey é comida em pó.",
+   "apoio": "Proteína do leite, conveniente, fácil de dosar. Não é mágica nem obrigatória. A pergunta não é “precisa de whey?”. É “está fechando a conta com comida?”."
+  },
+  {
+   "id": "idoso",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Síntese miofibrilar por dose de proteína por refeição: o jovem chega ao platô perto de 0,24 g/kg; o idoso só perto de 0,40 g/kg\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><line x1=\"40.0\" y1=\"280\" x2=\"40.0\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"677.6\" y1=\"280\" x2=\"677.6\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1102.7\" y1=\"280\" x2=\"1102.7\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"280\" x2=\"1634.0\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"677.6\" y1=\"20\" x2=\"677.6\" y2=\"280\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><line x1=\"1102.7\" y1=\"20\" x2=\"1102.7\" y2=\"280\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><line x1=\"40\" y1=\"280\" x2=\"1634\" y2=\"280\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,280.0 66.6,254.4 93.1,238.5 119.7,224.9 146.3,212.6 172.8,201.2 199.4,190.4 226.0,180.2 252.5,170.5 279.1,161.0 305.7,151.9 332.2,143.1 358.8,134.5 385.4,126.1 411.9,117.9 438.5,109.9 465.1,102.0 491.6,94.3 518.2,86.7 544.8,79.3 571.3,72.0 597.9,64.7 624.5,57.6 651.0,50.6 677.6,43.6 704.2,43.6 730.7,43.6 757.3,43.6 783.9,43.6 810.4,43.6 837.0,43.6 863.6,43.6 890.1,43.6 916.7,43.6 943.3,43.6 969.8,43.6 996.4,43.6 1023.0,43.6 1049.5,43.6 1076.1,43.6 1102.7,43.6 1129.2,43.6 1155.8,43.6 1182.4,43.6 1208.9,43.6 1235.5,43.6 1262.1,43.6 1288.6,43.6 1315.2,43.6 1341.8,43.6 1368.3,43.6 1394.9,43.6 1421.5,43.6 1448.0,43.6 1474.6,43.6 1501.2,43.6 1527.7,43.6 1554.3,43.6 1580.9,43.6 1607.4,43.6 1634.0,43.6\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"40.0,280.0 66.6,273.2 93.1,267.2 119.7,261.6 146.3,256.2 172.8,250.9 199.4,245.7 226.0,240.6 252.5,235.6 279.1,230.6 305.7,225.7 332.2,220.8 358.8,216.0 385.4,211.2 411.9,206.5 438.5,201.8 465.1,197.1 491.6,192.5 518.2,187.8 544.8,183.2 571.3,178.7 597.9,174.1 624.5,169.6 651.0,165.1 677.6,160.6 704.2,156.1 730.7,151.7 757.3,147.2 783.9,142.8 810.4,138.4 837.0,134.0 863.6,129.7 890.1,125.3 916.7,121.0 943.3,116.6 969.8,112.3 996.4,108.0 1023.0,103.7 1049.5,99.4 1076.1,95.2 1102.7,90.9 1129.2,90.9 1155.8,90.9 1182.4,90.9 1208.9,90.9 1235.5,90.9 1262.1,90.9 1288.6,90.9 1315.2,90.9 1341.8,90.9 1368.3,90.9 1394.9,90.9 1421.5,90.9 1448.0,90.9 1474.6,90.9 1501.2,90.9 1527.7,90.9 1554.3,90.9 1580.9,90.9 1607.4,90.9 1634.0,90.9\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 296,
+     "w": 160,
+     "t": "0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 598,
+     "y": 296,
+     "w": 160,
+     "t": "0,24",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1023,
+     "y": 296,
+     "w": 160,
+     "t": "0,40",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 296,
+     "w": 160,
+     "t": "0,6 g/kg",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 50,
+     "w": 200,
+     "t": "jovem",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 110,
+     "w": 200,
+     "t": "idoso",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Moore e colaboradores, 2015",
+   "titulo": "A mesma refeição rende menos no idoso",
+   "destaque": "PROT-AGE: ≥ 1,0 a 1,2 g/kg/dia; ≥ 1,2 para quem se exercita; 1,2 a 1,5 com doença. Para 65 kg, 26 g por refeição.",
+   "destaque_cor": "ambar",
+   "fonte": "Esquema das curvas, com os pontos de platô do estudo · Journals of Gerontology 2015 · Bauer 2013"
+  },
+  {
+   "id": "carga",
+   "tipo": "duas",
+   "eyebrow": "Carga primeiro, proteína junto",
+   "titulo": "O problema do idoso é textura e logística",
+   "esq": {
+    "t": "Barreiras",
+    "cor": "ambar",
+    "itens": [
+     "apetite menor, saciedade precoce",
+     "mastigação e prótese",
+     "custo da carne, morar sozinho"
+    ]
+   },
+   "dir": {
+    "t": "O que resolve",
+    "cor": "petr",
+    "itens": [
+     "ovos, leite, iogurte, queijo",
+     "carne moída ou desfiada, peixe",
+     "leguminosas bem cozidas"
+    ]
+   },
+   "destaque": "Rim: com função normal, sem sinal de dano nestas faixas. Com doença renal, a decisão é médica, e quem descarta é o exame.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "perfis",
+   "tipo": "tabela",
+   "eyebrow": "As três perguntas aplicadas",
+   "titulo": "O mesmo número, três condutas",
+   "cab": [
+    "Perfil",
+    "A conta",
+    "O problema",
+    "Conduta"
+   ],
+   "larguras": [
+    24,
+    26,
+    22,
+    28
+   ],
+   "linhas": [
+    [
+     "Vegetariana, 58 kg",
+     "87 g/dia, 1,5 g/kg; 8 g no café",
+     "distribuição",
+     "4 × 20 a 25 g, total um pouco maior"
+    ],
+    [
+     "Idoso, 65 kg, começou a treinar",
+     "58 g/dia, 0,9 g/kg",
+     "total baixo",
+     "26 g × 3, com textura"
+    ],
+    [
+     "Jovem, 80 kg",
+     "280 g/dia, 3,5 g/kg",
+     "total alto",
+     "≈ 2 g/kg e espaço ao carboidrato"
+    ]
+   ],
+   "destaque": "No primeiro, o total estava certo e a distribuição errada. No segundo, o total baixo. No terceiro, alto demais para o objetivo.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Três perguntas, nessa ordem",
+   "titulo": "Quanto, como distribuir, de que fonte",
+   "regras": [
+    "Quanto: 1,6 cobre a maioria; até 2,2 como margem; mais em déficit",
+    "Como: 3 a 4 refeições com proteína decente; o café da manhã primeiro",
+    "De que fonte: ajuste na vegetal; no idoso, 0,4 g/kg por refeição, com carga"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "Plano, fontes e quantidades."
+    },
+    {
+     "t": "Médico",
+     "x": "Rim, exames e medicação."
+    },
+    {
+     "t": "Educador físico",
+     "x": "A carga que dá motivo ao músculo."
+    }
+   ],
+   "quem": "Total, distribuição e fonte: três perguntas que qualquer profissional sabe fazer."
+  }
+ ]
+}

@@ -1,0 +1,408 @@
+{
+ "arquivo": "aulas/MOD04/04-04-periodizacao-de-carboidrato.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Periodização de carboidrato",
+ "subtitulo": "Disponibilidade manipulada e critérios de indicação",
+ "nota_capa": "Entra pela decisão: periodizar, e em que nível.",
+ "secoes": {
+  "conceito": [
+   "O conceito e as duas famílias.",
+   "capa"
+  ],
+  "evidencia": [
+   "Os dois lados da evidência e os limites no amador.",
+   "marquet"
+  ],
+  "saidas": [
+   "Triagem, níveis e perfis.",
+   "triagem"
+  ]
+ },
+ "slides": [
+  {
+   "id": "decisao",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Periodizar ou não, e em que nível",
+   "frase": "A ferramenta certa, no paciente errado, na ordem errada.",
+   "apoio": "A periodização nutricional é legítima e nasceu no esporte de elite. A pergunta é quanto dela sobrevive quando o paciente trabalha nove horas por dia."
+  },
+  {
+   "id": "familias",
+   "tipo": "duas",
+   "eyebrow": "Jeukendrup, 2017 · Impey, 2018",
+   "titulo": "Um princípio de planejamento, duas famílias",
+   "esq": {
+    "t": "A refeição: alta disponibilidade",
+    "cor": "petr",
+    "itens": [
+     "combustível para o trabalho exigido",
+     "a dose acompanha a sessão que vem",
+     "consensual, baixo risco, quase todo o ganho"
+    ]
+   },
+   "dir": {
+    "t": "A sobremesa: baixa disponibilidade",
+    "cor": "ambar",
+    "itens": [
+     "treinar em jejum",
+     "dois treinos sem repor entre eles",
+     "a sessão da noite e dormir sem carboidrato"
+    ]
+   },
+   "destaque": "Periodizar é ajustar a nutrição ao objetivo de cada sessão e de cada fase. Nesse sentido amplo, quase todo mundo deveria periodizar alguma coisa.",
+   "destaque_cor": "tinta",
+   "fonte": "Sports Medicine 2017 e 2018"
+  },
+  {
+   "id": "marquet",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Melhora no tempo de 10 km após três semanas: controle cerca de 0,1%, sleep low 2,9%, com a mesma quantidade diária de carboidrato\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"360\" y=\"40\" width=\"30\" height=\"80\" rx=\"4\" fill=\"#6B7A87\"/><rect x=\"360\" y=\"170\" width=\"870\" height=\"80\" rx=\"4\" fill=\"#008A7E\"/><line x1=\"360\" y1=\"20\" x2=\"360\" y2=\"290\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 62,
+     "w": 340,
+     "t": "controle",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 410,
+     "y": 62,
+     "w": 400,
+     "t": "≈ 0,1%",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 192,
+     "w": 340,
+     "t": "dormir com pouco",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1250,
+     "y": 192,
+     "w": 400,
+     "t": "2,9% mais rápido",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O lado a favor · Marquet e colaboradores, 2016",
+   "titulo": "Mesmo total, outro horário",
+   "destaque": "21 triatletas, três semanas, 6 g/kg/dia nos dois grupos. Não houve restrição do total: foi redistribuição.",
+   "destaque_cor": "petr",
+   "fonte": "Melhora no tempo de 10 km · Medicine and Science in Sports and Exercise 2016"
+  },
+  {
+   "id": "gejl",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Meta-análise de nove estudos: diferença média padronizada de 0,17, com intervalo de confiança de −0,15 a 0,49, cruzando o zero\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><line x1=\"832\" y1=\"20\" x2=\"832\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"652\" y1=\"110\" x2=\"1420\" y2=\"110\" stroke=\"#B07A1C\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"1014\" y=\"88\" width=\"44\" height=\"44\" fill=\"#B07A1C\"/><line x1=\"112\" y1=\"200\" x2=\"1552\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 886,
+     "y": 36,
+     "w": 300,
+     "t": "0,17",
+     "tam": 36,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 502,
+     "y": 140,
+     "w": 300,
+     "t": "−0,15",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 140,
+     "w": 300,
+     "t": "0,49",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 112,
+     "y": 214,
+     "w": 500,
+     "t": "favorece o controle",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1052,
+     "y": 214,
+     "w": 500,
+     "t": "favorece a restrição",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 772,
+     "y": 214,
+     "w": 120,
+     "t": "0",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O outro lado · Gejl e Nybo, 2021",
+   "titulo": "Sinalização não é desfecho",
+   "destaque": "E os custos: sessão intensa pior, mais esforço percebido, imunidade, deriva para o déficit, adesão difícil.",
+   "destaque_cor": "verm",
+   "fonte": "Diferença média padronizada no desempenho, 9 estudos · Journal of the International Society of Sports Nutrition 2021"
+  },
+  {
+   "id": "limites",
+   "tipo": "lista",
+   "eyebrow": "Por que antes da hora",
+   "titulo": "Cinco limites estruturais no amador",
+   "itens": [
+    {
+     "t": "Margem de erro",
+     "x": "o elite erra e alguém corrige; o amador descobre três meses depois",
+     "cor": "tinta"
+    },
+    {
+     "t": "O denominador do ganho",
+     "x": "1 a 3% sobre base otimizada, contra buracos grandes no básico",
+     "cor": "verm"
+    },
+    {
+     "t": "Orçamento de atenção",
+     "x": "a complexidade não soma; desloca",
+     "cor": "tinta"
+    },
+    {
+     "t": "Deriva para o déficit",
+     "x": "treinar com pouco vira comer pouco",
+     "cor": "ambar"
+    },
+    {
+     "t": "O objetivo é outro",
+     "x": "pico numa data contra treinar bem o ano inteiro",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 14
+  },
+  {
+   "id": "triagem",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "A regra de triagem",
+   "titulo": "Quatro coisas estáveis por três meses",
+   "cards": [
+    {
+     "t": "Energia total adequada",
+     "x": "fora da zona cinza",
+     "cor": "petr"
+    },
+    {
+     "t": "Proteína distribuída",
+     "x": "e não concentrada no jantar",
+     "cor": "petr"
+    },
+    {
+     "t": "Carboidrato alinhado à sessão",
+     "x": "mais no dia intenso, menos no leve",
+     "cor": "petr"
+    },
+    {
+     "t": "Sono",
+     "x": "a variável que ninguém periodiza",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Quem não cumpre as quatro não precisa de periodização. Precisa das quatro.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "escada",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Escada de três níveis: um, para todos; dois, para quem compete; três, para quem tem base e suporte\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"280\" width=\"1664\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"150\" width=\"1364\" height=\"110\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"20\" width=\"1064\" height=\"110\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 292,
+     "w": 1616,
+     "t": "1 · para todos",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 338,
+     "w": 1616,
+     "t": "mais carboidrato nos dias de sessão longa ou intensa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 162,
+     "w": 1316,
+     "t": "2 · para quem compete",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 208,
+     "w": 1316,
+     "t": "treinar o intestino, ensaiar a prova, carregar antes de eventos longos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 32,
+     "w": 1016,
+     "t": "3 · base, objetivo e suporte",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 78,
+     "w": 1016,
+     "t": "baixa disponibilidade só em sessões leves",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "As saídas são níveis",
+   "titulo": "Base larga, topo estreito",
+   "destaque": "“Eu como igual todo dia?” Não. E dizer isso já é periodizar. No amador, ensaiar a comida da prova rende mais que treinar com pouco.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema de níveis · Stellingwerff, Morton e Burke, 2019"
+  },
+  {
+   "id": "nunca",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A lista do nunca",
+   "frase": "Restrição deliberada aqui é risco sem contrapartida.",
+   "apoio": "Adolescente em crescimento · história de transtorno alimentar ou relação difícil com a comida · disponibilidade energética já baixa · gestante · doença crônica descompensada."
+  },
+  {
+   "id": "perfis",
+   "tipo": "tabela",
+   "eyebrow": "O critério aplicado",
+   "titulo": "Três perfis típicos, três condutas",
+   "cab": [
+    "Perfil",
+    "O que falta",
+    "Conduta"
+   ],
+   "larguras": [
+    30,
+    34,
+    36
+   ],
+   "linhas": [
+    [
+     "Amador que dorme com pouco",
+     "as quatro condições",
+     "suspender e fazer o básico"
+    ],
+    [
+     "Quatro estratégias juntas",
+     "atenção para o básico",
+     "manter uma, largar três"
+    ],
+    [
+     "Base sólida, prova marcada",
+     "nada",
+     "nível dois, sem treinar com pouco"
+    ]
+   ],
+   "destaque": "Ele fazia a parte difícil e pulava a parte fácil. E os atletas dos estudos não trabalham nove horas por dia.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "A regra operacional do módulo",
+   "titulo": "Uma mudança por vez",
+   "regras": [
+    "Com prazo definido e registro",
+    "Com critério de reversão escrito antes de começar",
+    "Nível três só depois das quatro condições, e nunca nas sessões de qualidade"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "O desenho da estratégia periodizada."
+    },
+    {
+     "t": "Preparador físico",
+     "x": "Se a base de treino é estável."
+    },
+    {
+     "t": "Médico",
+     "x": "Se há contraindicação clínica."
+    }
+   ],
+   "quem": "Qualquer um pode perguntar se as quatro coisas estão de pé, antes da sobremesa."
+  }
+ ]
+}

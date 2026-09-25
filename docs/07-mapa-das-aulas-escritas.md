@@ -122,14 +122,14 @@ típicos, sem pessoa.
 | 4.1 | Disponibilidade energética | 22 | 11 | NÚMERO | [slides](https://claude.ai/artifact/HEzNWExXWaDNCBb8PQucjb) |
 | 4.2 | Estimativa da disponibilidade energética | 13 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/8TMgguW9UuCBVz1zsVuxFD) |
 | 4.3 | Carboidrato no exercício | 13 | 9 | ERRO | [slides](https://claude.ai/artifact/SBqG5oTMubaRd86YESYpNX) |
+| 4.4 | Periodização de carboidrato | 13 | 10 | DECISÃO | [slides](https://claude.ai/artifact/1x6kVBd2Y4ggVRQ5iyeSAK) |
+| 4.5 | Proteína no praticante de exercício | 16 | 10 | NÚMERO | [slides](https://claude.ai/artifact/26zRBhkn5gWvjEPfQquTUH) |
+| 4.6 | Lipídios na nutrição esportiva | 13 | 9 | ERRO | [slides](https://claude.ai/artifact/MkfTLcFqWcksD3s1rNkHTf) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 4.4 | Periodização de carboidrato e treino com disponibilidade manipulada | M19-A05 | PRONTA |
-| 4.5 | Proteína: dose total, distribuição e qualidade | M19-A03 | PRONTA |
-| 4.6 | Lipídios e o papel real da gordura | M19-A04 | PRONTA |
 | 4.7 | Micronutrientes e deficiências prevalentes | M5-A04 + M5-A05 | FUNDIR |
 | 4.8 | Hidratação e reposição hidroeletrolítica | M19-A06 | PRONTA |
 | 4.9 | Composição corporal: métodos, metas e o risco da meta errada | M6-A08 | PARCIAL |

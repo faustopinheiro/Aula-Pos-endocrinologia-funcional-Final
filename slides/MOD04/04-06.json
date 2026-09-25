@@ -1,0 +1,387 @@
+{
+ "arquivo": "aulas/MOD04/04-06-lipidios-e-o-papel-real-da-gordura.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Lipídios na nutrição esportiva",
+ "subtitulo": "Funções, ingestão mínima e interpretações equivocadas",
+ "nota_capa": "Entra pelo erro: cortar gordura é comer melhor.",
+ "secoes": {
+  "erro": [
+   "O erro e as três rotas.",
+   "capa"
+  ],
+  "piso": [
+   "O que só a gordura faz, e o piso.",
+   "funcoes"
+  ],
+  "hormonio": [
+   "O erro espelhado e a correção.",
+   "hormonio"
+  ]
+ },
+ "slides": [
+  {
+   "id": "erro",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O erro desta aula",
+   "frase": "Cortar gordura é comer melhor?",
+   "apoio": "A gordura foi reabilitada no discurso. No prato, continua sendo o primeiro macronutriente cortado por quem decide se cuidar. E ela tem um piso."
+  },
+  {
+   "id": "rotas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Três rotas até o piso",
+   "titulo": "Não é um perfil de paciente. É uma cultura",
+   "cards": [
+    {
+     "t": "Estética",
+     "x": "meses com ~15% da energia em gordura para “secar”; libido, humor, sono e testosterona caem",
+     "cor": "ambar"
+    },
+    {
+     "t": "Pureza alimentar",
+     "x": "“comida limpa”, sem óleo nem castanha; sem dieta, mas sem densidade; o ciclo fica irregular",
+     "cor": "ambar"
+    },
+    {
+     "t": "Orientação incompleta",
+     "x": "“reduza a gordura”: sai azeite, castanha e ovo; fica o biscoito recheado",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Uma das três rotas saiu de dentro de um consultório.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "funcoes",
+   "tipo": "lista",
+   "eyebrow": "O que só a gordura faz",
+   "titulo": "Cinco funções que não têm substituto",
+   "itens": [
+    {
+     "t": "Ácidos graxos essenciais",
+     "x": "linoleico e alfa-linolênico; não existe carboidrato essencial",
+     "cor": "petr"
+    },
+    {
+     "t": "Vitaminas A, D, E e K",
+     "x": "a salada sem azeite entrega menos",
+     "cor": "petr"
+    },
+    {
+     "t": "Membranas e combustível",
+     "x": "o substrato dominante no esforço leve e longo",
+     "cor": "petr"
+    },
+    {
+     "t": "Colesterol e esteroides",
+     "x": "a relação existe, mas não é uma torneira",
+     "cor": "ambar"
+    },
+    {
+     "t": "Saciedade e adesão",
+     "x": "dieta pobre em gordura é mais difícil de manter",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 14
+  },
+  {
+   "id": "piso",
+   "tipo": "diagrama",
+   "h": 280,
+   "svg": "<svg aria-label=\"Régua da energia vinda de gordura, de 0 a 50%: abaixo de 20%, zona a evitar; de 20 a 35%, faixa recomendada; acima de 35%, o carboidrato começa a ser espremido\" width=\"1664\" height=\"280\" viewBox=\"0 0 1664 280\"><rect x=\"0\" y=\"40\" width=\"666\" height=\"110\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"666\" y=\"40\" width=\"499\" height=\"110\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1165\" y=\"40\" width=\"499\" height=\"110\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 76,
+     "w": 626,
+     "t": "abaixo do piso",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 686,
+     "y": 76,
+     "w": 459,
+     "t": "20 a 35%",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1185,
+     "y": 76,
+     "w": 459,
+     "t": "espreme o carboidrato",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 166,
+     "w": 120,
+     "t": "0%",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 606,
+     "y": 166,
+     "w": 120,
+     "t": "20%",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1105,
+     "y": 166,
+     "w": 120,
+     "t": "35%",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1604,
+     "y": 166,
+     "w": 120,
+     "t": "50%",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 222,
+     "w": 1664,
+     "t": "gordura: 9 kcal por grama · carboidrato e proteína: 4",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Posicionamento conjunto de 2016",
+   "titulo": "O piso de vinte por cento",
+   "destaque": "Abaixo de 20%: essenciais comprometidos, vitaminas lipossolúveis em queda e a energia difícil de fechar. Rota direta para o déficit.",
+   "destaque_cor": "verm",
+   "fonte": "Percentual da energia total · ACSM, Academia de Nutrição e Dietética e Dietistas do Canadá, 2016"
+  },
+  {
+   "id": "hormonio",
+   "tipo": "duas",
+   "eyebrow": "O erro espelhado · Whittaker e Wu, 2021",
+   "titulo": "Gordura como nutriente dos hormônios?",
+   "esq": {
+    "t": "O que a meta-análise mostrou",
+    "cor": "petr",
+    "itens": [
+     "206 homens, estudos de intervenção",
+     "baixa gordura: testosterona total e livre mais baixas",
+     "efeito pequeno a moderado; LH e SHBG iguais"
+    ]
+   },
+   "dir": {
+    "t": "As ressalvas",
+    "cor": "ambar",
+    "itens": [
+     "estudos pequenos e antigos",
+     "fibra, tipo de gordura e calorias mudando junto",
+     "errata publicada depois"
+    ]
+   },
+   "destaque": "Não se sustenta: mais gordura elevando testosterona acima do normal, gordura saturada “anabólica”, dieta como reposição hormonal.",
+   "destaque_cor": "verm",
+   "fonte": "Journal of Steroid Biochemistry and Molecular Biology 2021"
+  },
+  {
+   "id": "ordem",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Ordem de investigação do homem ativo com testosterona baixa: disponibilidade energética, sono, carga e recuperação, gordura e o piso, causas clínicas\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"10\" width=\"1664\" height=\"64\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"110\" y=\"88\" width=\"1554\" height=\"64\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"220\" y=\"166\" width=\"1444\" height=\"64\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"330\" y=\"244\" width=\"1334\" height=\"64\" rx=\"8\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"440\" y=\"322\" width=\"1224\" height=\"64\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 24,
+     "w": 1000,
+     "t": "1 · disponibilidade energética",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 134,
+     "y": 102,
+     "w": 1000,
+     "t": "2 · sono",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 244,
+     "y": 180,
+     "w": 1000,
+     "t": "3 · carga e recuperação",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 354,
+     "y": 258,
+     "w": 1000,
+     "t": "4 · gordura e o piso de 20%",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 464,
+     "y": 336,
+     "w": 1000,
+     "t": "5 · causas clínicas",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 24,
+     "w": 540,
+     "t": "resolve a maioria",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 258,
+     "w": 540,
+     "t": "encontra pouco",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Hackney, 2020",
+   "titulo": "Energia total antes de macronutriente",
+   "destaque": "Na mulher, ainda mais claro: a função reprodutiva acompanha a disponibilidade energética, não a composição da dieta.",
+   "destaque_cor": "petr",
+   "fonte": "Frontiers in Endocrinology 2020 · Loucks e Thuma 2003"
+  },
+  {
+   "id": "densidade",
+   "tipo": "numeros",
+   "eyebrow": "A virada prática",
+   "titulo": "Gordura como ferramenta de densidade",
+   "numeros": [
+    {
+     "n": "≈ 120",
+     "x": "kcal numa colher de sopa de azeite",
+     "cor": "petr"
+    },
+    {
+     "n": "≈ 200",
+     "x": "kcal num punhado de castanhas",
+     "cor": "petr"
+    },
+    {
+     "n": "≈ 200",
+     "x": "kcal em duas colheres de pasta de amendoim",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Para quem não consegue comer volume, a comida não precisa ser maior. Precisa valer mais. Não é efeito endócrino: é densidade.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "frase",
+   "tipo": "duas",
+   "eyebrow": "A correção: número, momento, qualidade e a frase",
+   "titulo": "Orientação incompleta produz o oposto",
+   "esq": {
+    "t": "“Reduza a gordura”",
+    "cor": "verm",
+    "itens": [
+     "sai o que parece gorduroso: azeite, castanha, ovo",
+     "fica o que não parece: biscoito, pão doce",
+     "o colesterol quase não muda"
+    ]
+   },
+   "dir": {
+    "t": "A frase completa",
+    "cor": "petr",
+    "itens": [
+     "reduza a gordura dos industrializados",
+     "mantenha azeite, castanha, ovo e peixe",
+     "não fique abaixo do piso"
+    ]
+   },
+   "destaque": "Momento: menos gordura perto do treino, não fora do dia. Saturada: o alvo não é zero. Trans industrial: eliminar. Ômega-3: peixe duas vezes por semana antes do suplemento.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "As três rotas fechadas",
+   "titulo": "Ninguém tinha sido informado do piso",
+   "regras": [
+    "Estética: a gordura foi o meio, não o mecanismo; energia, sono e carga primeiro",
+    "Pureza: densidade sem aumentar o prato; rigidez e culpa pedem outra conversa",
+    "Orientação: “você fez exatamente o que foi pedido; a orientação estava incompleta”"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "Macronutrientes e plano alimentar."
+    },
+    {
+     "t": "Médico",
+     "x": "Testosterona, ciclo, perfil lipídico e medicação."
+    },
+    {
+     "t": "Educador físico e psicólogo",
+     "x": "Carga e volume; restrição com cara de regra moral."
+    }
+   ],
+   "quem": "A pergunta de todos: você cortou alguma gordura? Qual, e por quê?"
+  }
+ ]
+}

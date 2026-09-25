@@ -1,132 +1,148 @@
-# Módulo 4 · Aula 4.5 — Proteína: dose total, distribuição e qualidade
+# Módulo 4 · Aula 4.5 — Proteína no praticante de exercício: dose diária, distribuição e qualidade
 
 **Módulo 4 — Nutrição Esportiva**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 19 minutos · 5 slides · Arquitetura: NÚMERO
+Duração: 16 minutos · 10 slides · Arquitetura: NÚMERO
 
 ---
 
-📊 **[SLIDE 1 DE 5]**
-*Visual: três números grandes em linha — 0,8 · 1,6 · 2,2 g/kg/dia — cada um com uma etiqueta embaixo: "mínimo populacional", "platô", "teto do intervalo".*
-*Teleprompter: (entra pelos três números que todo mundo confunde)*
+📊 **[SLIDE 1 DE 10]**
+*Visual: três números grandes em linha, 0,8 · 1,6 · 2,2 g/kg/dia, cada um com uma etiqueta: piso populacional, platô, limite superior do intervalo.*
+*Teleprompter: (entra pelos três números que todo mundo mistura)*
 
-Três números aparecem em qualquer conversa sobre proteína, e quase sempre aparecem misturados. **0,8. 1,6. 2,2.** Gramas por quilo de peso por dia. Esta aula existe para que você saiba exatamente o que cada um deles significa — e o que ele não significa.
+Três números aparecem em qualquer conversa sobre proteína, e quase sempre misturados. Zero vírgula oito. Um vírgula seis. Dois vírgula dois. Gramas por quilo de peso por dia.
 
-**0,8 grama por quilo é a recomendação populacional.** É a quantidade que cobre a necessidade de quase toda a população saudável e sedentária, para não entrar em balanço nitrogenado negativo. **É um piso contra deficiência. Não é uma meta para quem treina.** Quando alguém diz "a recomendação oficial é 0,8, o resto é exagero", está usando o número certo para a pergunta errada.
+Zero vírgula oito é a recomendação populacional. É a quantidade que cobre quase toda a população saudável e sedentária para não entrar em balanço nitrogenado negativo. É um piso contra deficiência, e não uma meta para quem treina. Quem diz "a recomendação oficial é zero vírgula oito, o resto é exagero" está usando o número certo para a pergunta errada.
 
-**1,6 é o número que saiu da meta-análise de Morton e colaboradores, de 2018.** Quarenta e nove estudos, mil oitocentos e sessenta e três participantes, todos em programa de treinamento de força. A pergunta era: suplementar proteína aumenta o ganho de massa e de força produzido pelo treino? **Aumenta — e modestamente.** Algo em torno de trezentos gramas a mais de massa livre de gordura ao longo dos programas, e um ganho pequeno de força máxima. **O efeito foi maior em quem já treinava** — perto de 750 gramas — **e menor com a idade.** Guarde essa segunda parte; ela volta no slide 4.
-
-O dado mais útil do estudo, porém, é outro: **a partir de cerca de 1,6 grama por quilo por dia, o ganho de massa livre de gordura para de subir.** É o platô.
-
-**E 2,2 é o limite superior do intervalo de confiança desse platô.** Ou seja: para algumas pessoas, o ponto em que mais proteína deixa de ajudar pode estar mais perto de 2,2. Por isso a leitura prudente é: **1,6 cobre a maioria; até 2,2 é razoável para quem quer margem de segurança.** Acima disso, na pessoa saudável em balanço energético, o ganho adicional não aparece nos dados.
-
-A posição da Sociedade Internacional de Nutrição Esportiva, de Jäger e colaboradores, em 2017, chega a uma faixa parecida por outro caminho: **1,4 a 2,0 gramas por quilo por dia** para a maior parte das pessoas que se exercitam.
-
-E há uma exceção importante, que conecta com a aula 4.1: **em déficit energético, a necessidade sobe.** A mesma posição sugere que, em pessoas treinadas em restrição calórica, ingestões mais altas — da ordem de 2,3 a 3,1 gramas por quilo de massa livre de gordura — ajudam a preservar massa magra. **Déficit é quando a proteína mais trabalha.**
-
-Mas o total é só a primeira de três perguntas. **Quanto por dia. Como distribuir. De que fonte.** E a ordem de importância é exatamente essa.
+Um vírgula seis e dois vírgula dois vêm do mesmo estudo, e vale entender de onde.
 
 ---
 
-📊 **[SLIDE 2 DE 5]**
-*Visual: três linhas do tempo de doze horas com os mesmos 80 g divididos de formas diferentes — 8 × 10 g, 4 × 20 g, 2 × 40 g. A do meio em destaque.*
-*Teleprompter: (distribuição, com o estudo e o limite do estudo)*
+📊 **[SLIDE 2 DE 10]**
+*Visual: a curva de Morton 2018: ganho de massa livre de gordura subindo com a proteína total e achatando por volta de 1,6 g/kg/dia, com a faixa até 2,2 sombreada como incerteza. Esquema da curva, com os pontos de quebra do estudo.*
+*Teleprompter: (o platô e o limite)*
 
-A segunda pergunta é distribuição. E o estudo que todo mundo cita aqui é o de **Areta e colaboradores, de 2013.**
+Em 2018, Morton e colaboradores publicaram uma meta-análise com quarenta e nove estudos e mil oitocentos e sessenta e três participantes, todos em programa de treino de força. A pergunta: suplementar proteína aumenta o ganho de massa e de força produzido pelo treino?
 
-Vinte e quatro homens treinados, depois de uma sessão de força, receberam **a mesma quantidade total de proteína — 80 gramas de whey ao longo de doze horas** — divididos de três maneiras. **Oito doses de 10 gramas a cada hora e meia. Quatro doses de 20 gramas a cada três horas. Ou duas doses de 40 gramas a cada seis horas.**
+Aumenta, e modestamente. Cerca de trezentos gramas a mais de massa livre de gordura ao longo dos programas, e um ganho pequeno de força máxima. O efeito foi maior em quem já treinava e diminuiu com a idade. Guarde essa segunda parte: ela volta quando a gente falar do idoso.
 
-**O grupo das quatro doses de 20 gramas teve a maior síntese de proteína miofibrilar.** Doses pequenas e frequentes demais foram piores; doses grandes e espaçadas demais também.
+O dado mais útil é outro: a partir de cerca de um vírgula seis grama por quilo por dia, o ganho de massa livre de gordura para de subir. É o platô. E dois vírgula dois é o limite superior do intervalo de confiança desse platô: para algumas pessoas, o ponto em que mais proteína deixa de ajudar pode estar mais perto de dois vírgula dois.
 
-Agora, o limite do estudo — porque ele costuma ser esticado. **Foi síntese proteica aguda, medida em doze horas, com whey isolado, em homens jovens.** Não mediu hipertrofia em meses. **É um sinal forte sobre padrão, não uma prova de que o horário sozinho muda o músculo no longo prazo.**
+A leitura prudente: um vírgula seis cobre a maioria; até dois vírgula dois é razoável para quem quer margem. Acima disso, na pessoa saudável em balanço energético, o ganho adicional não aparece.
 
-E existe um mito derivado desse tipo de estudo que precisa ser corrigido: **"o corpo só aproveita 30 gramas por refeição, o resto é desperdício".**
+A posição da Sociedade Internacional de Nutrição Esportiva, de Jäger e colaboradores, de 2017, chega a uma faixa parecida: um vírgula quatro a dois gramas por quilo por dia para a maior parte de quem se exercita. E com uma exceção que conversa com a primeira aula do módulo: em déficit energético, a necessidade sobe, e em pessoas treinadas em restrição a posição sugere valores da ordem de dois vírgula três a três vírgula um gramas por quilo de massa livre de gordura. O déficit é quando a proteína mais trabalha.
 
-Em 2023, **Trommelen e colaboradores** compararam 25 gramas contra 100 gramas de proteína do leite depois de um treino de corpo inteiro. **Os 100 gramas produziram uma resposta anabólica maior e mais longa — que passou de doze horas.** O título do artigo diz que a resposta **não tem limite superior** em magnitude nem em duração.
-
-Então como conciliar? **Existe uma dose por refeição que maximiza o estímulo agudo, mas ela não é um teto de aproveitamento.** Proteína acima dela não vai "para o lixo"; ela é usada, só que com retorno menor por grama e distribuída ao longo de mais tempo.
-
-A consequência prática é tranquila: **não precisa ter medo de uma refeição grande.** O problema clínico real não é o jantar com 60 gramas. **É o café da manhã com 8.**
-
-Esse é o padrão brasileiro típico: **café com pão e café com leite pela manhã**, uma refeição razoável no almoço, e o grosso da proteína concentrado no jantar. O total pode até fechar. **A distribuição fica torta, com um intervalo longo sem nenhum estímulo.**
-
-Para quem precisa de número, a posição da Sociedade Internacional sugere **algo em torno de 0,25 grama por quilo por refeição, ou 20 a 40 gramas**, a cada três ou quatro horas. **Três a quatro refeições com proteína decente** resolvem a maior parte dos casos.
-
-E a famosa **"janela anabólica" de trinta minutos depois do treino?** Ela é bem mais larga do que o marketing diz. **Se a pessoa comeu proteína algumas horas antes do treino e vai comer algumas horas depois, a janela está coberta.** O cronômetro no vestiário é, na maioria das vezes, ansiedade, não fisiologia. Quem treina em jejum pela manhã é o caso em que repor logo depois faz mais sentido.
+Mas o total é só a primeira de três perguntas: quanto por dia, como distribuir, de que fonte. E a ordem de importância é essa.
 
 ---
 
-📊 **[SLIDE 3 DE 5]**
-*Visual: um prato de arroz e feijão ao lado de uma dose de whey e de um bife — cada um com o "conteúdo de leucina por porção" anotado, e a frase "comida em pó" sobre o pote.*
-*Teleprompter: (qualidade — o que muda entre fontes, e o que não muda)*
+📊 **[SLIDE 3 DE 10]**
+*Visual: três linhas do tempo de doze horas com os mesmos 80 g de whey divididos de formas diferentes: 8 × 10 g, 4 × 20 g, 2 × 40 g. A do meio em destaque, com a maior síntese miofibrilar.*
+*Teleprompter: (distribuição, e o limite do estudo)*
 
-A terceira pergunta é qualidade. E ela importa menos do que as duas primeiras, **mas importa mais em duas situações: dieta vegetal e pessoa idosa.**
+A segunda pergunta é a distribuição. O estudo que todo mundo cita é o de Areta e colaboradores, de 2013.
 
-Qualidade de proteína tem três componentes. **Digestibilidade**: quanto do que foi ingerido é realmente absorvido. **Perfil de aminoácidos essenciais**: se falta algum. **E leucina**, o aminoácido que funciona como gatilho da síntese proteica. A posição da Sociedade Internacional fala em algo como **700 a 3.000 miligramas de leucina por dose**, e a maior parte das refeições com 20 a 40 gramas de proteína animal atinge isso sem esforço.
+Vinte e quatro homens treinados, depois de uma sessão de força, receberam a mesma quantidade total de proteína, oitenta gramas de whey ao longo de doze horas, divididos de três maneiras: oito doses de dez gramas, quatro de vinte, ou duas de quarenta. O grupo das quatro doses de vinte teve a maior síntese de proteína miofibrilar. Doses pequenas e frequentes demais foram piores; grandes e espaçadas demais também.
 
-A revisão de **van Vliet, Burd e van Loon, de 2015**, resumiu o que muda com a proteína vegetal: **menor digestibilidade, maior extração no intestino e no fígado, menos leucina e, em muitas fontes, um aminoácido limitante** — lisina nos cereais, metionina nas leguminosas. Resultado: **por grama, a resposta anabólica tende a ser menor.**
-
-O que isso **não** quer dizer: que vegetariano não ganha músculo. **Quer dizer que a conta precisa de ajuste.** Três ferramentas resolvem.
-
-**Primeira: um pouco mais de proteína por refeição e no total.** Não é o dobro — é uma margem.
-
-**Segunda: combinar fontes.** E aqui o Brasil tem uma vantagem que costuma ser esquecida: **arroz com feijão é uma combinação complementar clássica.** O cereal fornece o que falta na leguminosa, e vice-versa.
-
-**Terceira: priorizar fontes vegetais de melhor perfil** — soja e derivados, por exemplo — e, para quem é ovolactovegetariano, ovos, leite, iogurte e queijo, que mudam a conta com facilidade.
-
-E o suplemento de proteína? **Whey é comida em pó.** É proteína do leite, de boa qualidade, conveniente, fácil de dosar e de levar. **Não é mágica e não é obrigatória.** Se a pessoa atinge o total e a distribuição com comida, o pó não acrescenta nada. Se não atinge — por rotina, apetite, custo de preparo —, ele é uma ferramenta legítima. **A pergunta nunca é "precisa de whey?". É "está fechando a conta com comida?".**
-
-A avaliação de suplementos, com o critério de evidência e de contaminação, é tema do **Módulo 5**. Aqui fica só a posição: **proteína em pó é alimento, não suplemento ergogênico.**
+E o limite do estudo, porque ele costuma ser esticado. Foi síntese aguda, em doze horas, com whey, em homens jovens. Não mediu hipertrofia em meses. É um sinal forte sobre padrão, e não prova de que o horário sozinho muda o músculo no longo prazo.
 
 ---
 
-📊 **[SLIDE 4 DE 5]**
-*Visual: duas curvas de dose-resposta por refeição — o jovem atingindo o platô em 0,24 g/kg, o idoso só em 0,40 g/kg — e, ao lado, a faixa do PROT-AGE.*
+📊 **[SLIDE 4 DE 10]**
+*Visual: Trommelen 2023: 25 g contra 100 g de proteína do leite depois de treino de corpo inteiro; a resposta com 100 g maior e mais longa, passando de 12 horas. Embaixo: o problema não é o jantar com 60 g; é o café da manhã com 8.*
+*Teleprompter: (o mito do teto de 30 gramas)*
+
+E um mito derivado desse tipo de estudo: o corpo só aproveita trinta gramas por refeição, o resto é desperdício.
+
+Em 2023, Trommelen e colaboradores compararam vinte e cinco contra cem gramas de proteína do leite depois de um treino de corpo inteiro. Os cem gramas produziram uma resposta anabólica maior e mais longa, que passou de doze horas. O título do artigo diz que a resposta não tem limite superior, nem em tamanho nem em duração.
+
+Como conciliar? Existe uma dose por refeição que maximiza o estímulo agudo, mas ela não é teto de aproveitamento. A proteína acima dela é usada, com retorno menor por grama e espalhada por mais tempo.
+
+A consequência é tranquila: não precisa ter medo de uma refeição grande. O problema clínico não é o jantar com sessenta gramas. É o café da manhã com oito. E esse é o padrão brasileiro típico: pão e café com leite de manhã, um almoço razoável, e o grosso da proteína no jantar. O total pode até fechar, com um intervalo longo sem estímulo.
+
+Para quem precisa de número, a posição da Sociedade Internacional fala em cerca de zero vírgula vinte e cinco grama por quilo por refeição, ou vinte a quarenta gramas, a cada três ou quatro horas. Três a quatro refeições com proteína decente resolvem a maior parte dos casos.
+
+E a janela anabólica de trinta minutos? É bem mais larga do que o marketing diz. Se a pessoa comeu proteína algumas horas antes do treino e vai comer algumas horas depois, a janela está coberta. A exceção é quem treina em jejum de manhã: aí repor logo depois faz mais sentido.
+
+---
+
+📊 **[SLIDE 5 DE 10]**
+*Visual: um prato de arroz e feijão ao lado de uma dose de whey e de um bife. Três componentes de qualidade: digestibilidade, aminoácidos essenciais, leucina. Na proteína vegetal: menos digestível, menos leucina, aminoácido limitante (lisina nos cereais, metionina nas leguminosas).*
+*Teleprompter: (qualidade: o que muda entre as fontes)*
+
+A terceira pergunta é a qualidade. Ela importa menos que as duas primeiras, e importa mais em duas situações: dieta vegetal e pessoa idosa.
+
+Qualidade tem três componentes. Digestibilidade: quanto do que foi ingerido é absorvido. Perfil de aminoácidos essenciais: se falta algum. E leucina, o aminoácido que funciona como gatilho da síntese. A posição da Sociedade Internacional fala em algo como setecentos a três mil miligramas de leucina por dose, e a maior parte das refeições com vinte a quarenta gramas de proteína animal chega lá sem esforço.
+
+A revisão de van Vliet, Burd e van Loon, de 2015, resumiu o que muda com a proteína vegetal: menor digestibilidade, mais extração no intestino e no fígado, menos leucina e, em muitas fontes, um aminoácido limitante, lisina nos cereais e metionina nas leguminosas. Por grama, a resposta anabólica tende a ser menor.
+
+Isso não quer dizer que vegetariano não ganha músculo. Quer dizer que a conta precisa de ajuste. Um pouco mais de proteína por refeição e no total, como margem. Combinar fontes, e aqui o Brasil tem uma vantagem esquecida: arroz com feijão é uma combinação complementar clássica. E priorizar fontes de melhor perfil, como soja e derivados, e, para quem é ovolactovegetariano, ovos, leite, iogurte e queijo.
+
+---
+
+📊 **[SLIDE 6 DE 10]**
+*Visual: um pote de whey com a frase "comida em pó". A pergunta certa escrita embaixo: está fechando a conta com comida?*
+*Teleprompter: (o suplemento de proteína)*
+
+E o suplemento de proteína? Whey é comida em pó. É proteína do leite, de boa qualidade, conveniente, fácil de dosar e de levar. Não é mágica e não é obrigatória.
+
+Se a pessoa atinge o total e a distribuição com comida, o pó não acrescenta nada. Se não atinge, por rotina, apetite ou custo de preparo, é uma ferramenta legítima.
+
+A pergunta nunca é "precisa de whey?". É "está fechando a conta com comida?". A avaliação de suplementos, com evidência e risco de contaminação, é tema do módulo de suplementação. Aqui fica a posição: proteína em pó é alimento, e não suplemento ergogênico.
+
+---
+
+📊 **[SLIDE 7 DE 10]**
+*Visual: duas curvas de dose por refeição: o jovem chega ao platô perto de 0,24 g/kg, o idoso perto de 0,40 g/kg. Ao lado, o PROT-AGE: ≥ 1,0 a 1,2 g/kg/dia; ≥ 1,2 para quem se exercita; 1,2 a 1,5 com doença aguda ou crônica.*
 *Teleprompter: (o paciente em que a conta mais muda: o idoso)*
 
-Existe um paciente em que a mesma refeição rende menos músculo: **o idoso.**
+Existe um paciente em que a mesma refeição rende menos músculo: o idoso.
 
-**Moore e colaboradores, em 2015**, juntaram estudos de dose-resposta e estimaram quanto de proteína por refeição era necessário para maximizar a síntese miofibrilar. **No jovem, cerca de 0,24 grama por quilo. No idoso, cerca de 0,40.** Quase o dobro por refeição.
+Moore e colaboradores, em 2015, juntaram estudos de dose e resposta e estimaram quanto de proteína por refeição maximiza a síntese miofibrilar. No jovem, cerca de zero vírgula vinte e quatro grama por quilo. No idoso, cerca de zero vírgula quarenta. Quase o dobro.
 
-É a chamada **resistência anabólica**: o músculo envelhecido responde menos ao mesmo estímulo. A consequência prática é direta — **a refeição de 20 gramas que resolve o jovem não resolve a idosa.** Para uma pessoa de 65 quilos, 0,40 grama por quilo são **26 gramas por refeição.**
+É a resistência anabólica: o músculo envelhecido responde menos ao mesmo estímulo. A refeição de vinte gramas que resolve o jovem não resolve o idoso. Para sessenta e cinco quilos, zero vírgula quarenta são vinte e seis gramas por refeição.
 
-No total do dia, o grupo PROT-AGE, de **Bauer e colaboradores, em 2013**, recomendou para pessoas acima de 65 anos **pelo menos 1,0 a 1,2 grama por quilo por dia**; **1,2 ou mais para quem se exercita**; e **1,2 a 1,5 para quem tem doença aguda ou crônica.** A exceção explícita é a **doença renal crônica avançada sem diálise**, em que a decisão é médica.
-
-Repare no contraste com a aula de abertura: **0,8 é a recomendação populacional, e o idoso ativo precisa de mais de uma vez e meia isso.**
-
-E aqui entra o ponto mais importante do slide: **proteína sem carga é estímulo fraco.** A meta-análise de Morton mostrou que o efeito da suplementação ficava **menor com a idade** — e todos aqueles participantes estavam treinando. **O músculo precisa de um motivo para usar a proteína.** No idoso, a ordem é: **carga primeiro, proteína junto.** Nunca proteína no lugar da carga.
-
-As barreiras também são diferentes. **Apetite menor, saciedade precoce, dificuldade de mastigação, prótese mal adaptada, custo da carne, morar sozinho e não cozinhar.** Muitas vezes o problema não é informação — é textura e logística. **Ovos, leite, iogurte, queijo, carne moída ou desfiada, peixe, leguminosas bem cozidas** resolvem mais do que qualquer tabela.
-
-Sarcopenia, com o diagnóstico e a conduta completos, é tema das aulas **12.7 e 12.8**. Aqui, fica o número: **0,4 grama por quilo por refeição, 1,2 ou mais por dia, com carga.**
-
-E uma pergunta que sempre aparece: **proteína alta faz mal para o rim?** Na pessoa com função renal normal, os dados disponíveis não mostram dano com as faixas desta aula. **Na pessoa com doença renal, a conversa é outra — e a decisão é do médico.** Não é o educador físico nem o nutricionista que descarta doença renal; é o exame.
+No total do dia, o grupo PROT-AGE, de Bauer e colaboradores, de 2013, recomendou para pessoas acima de sessenta e cinco anos pelo menos um a um vírgula dois grama por quilo; um vírgula dois ou mais para quem se exercita; e um vírgula dois a um vírgula cinco com doença aguda ou crônica. A exceção explícita é a doença renal crônica avançada sem diálise, em que a decisão é médica.
 
 ---
 
-📊 **[SLIDE 5 DE 5]**
-*Visual: três pratos do dia inteiro, lado a lado — a corredora vegetariana, a idosa, o jovem das quatro doses — cada um com o total e a distribuição anotados.*
-*Teleprompter: (três pessoas, as três perguntas aplicadas)*
+📊 **[SLIDE 8 DE 10]**
+*Visual: "carga primeiro, proteína junto". Ao lado, as barreiras do idoso: apetite, saciedade precoce, mastigação, prótese, custo da carne, morar sozinho. E as soluções de textura: ovos, leite, iogurte, queijo, carne moída ou desfiada, peixe, leguminosas bem cozidas.*
+*Teleprompter: (carga primeiro, e as barreiras reais)*
 
-Três pessoas, as três perguntas aplicadas.
+E o ponto mais importante: proteína sem carga é estímulo fraco. Na meta-análise de Morton, todos os participantes treinavam, e mesmo assim o efeito ficou menor com a idade. O músculo precisa de um motivo para usar a proteína. No idoso, a ordem é carga primeiro, proteína junto. Nunca proteína no lugar da carga.
 
-**A primeira: uma corredora vegetariana de 27 anos, 58 quilos, que também faz musculação.** Come cerca de 87 gramas de proteína por dia — **1,5 grama por quilo.** O total está aceitável. **Mas 55 desses gramas estão no jantar**, e o café da manhã tem 8.
+As barreiras também são outras: apetite menor, saciedade precoce, dificuldade de mastigar, prótese mal adaptada, custo da carne, morar sozinho e não cozinhar. Muitas vezes o problema não é informação. É textura e logística. Ovos, leite, iogurte, queijo, carne moída ou desfiada, peixe, leguminosas bem cozidas resolvem mais que qualquer tabela. A sarcopenia completa é tema do módulo do atleta adolescente e do idoso.
 
-O problema não é quantidade. **É distribuição e qualidade, somadas.** Ela tem uma refeição grande de proteína vegetal e duas quase vazias. A conduta é **redistribuir para quatro momentos de 20 a 25 gramas** — iogurte e ovos de manhã, soja ou leguminosa com cereal no almoço, um lanche com proteína — e **subir um pouco o total**, para compensar a fonte vegetal. **Não é trocar a dieta dela. É reorganizar o dia.**
+E a pergunta que sempre aparece: proteína alta faz mal para o rim? Na pessoa com função renal normal, os dados disponíveis não mostram dano nas faixas desta aula. Na pessoa com doença renal, a conversa é outra, e a decisão é médica. Quem descarta doença renal é o exame.
 
-**A segunda: uma mulher de 68 anos, 65 quilos, que começou a treinar força.** Come 58 gramas por dia — **0,9 grama por quilo.** Abaixo do mínimo do PROT-AGE, e muito abaixo do que alguém que treina precisa.
+---
 
-A meta de 1,2 grama por quilo dá cerca de **78 gramas.** Mas a meta por refeição é mais útil do que a do dia: **26 gramas, três vezes.** O buraco é o café da manhã, como quase sempre, e o jantar trocado por um lanche de pão e chá. **Ovos mexidos, leite, queijo, uma sopa com carne desfiada.** E a informação que muda a conduta: ela tem dificuldade de mastigar. **A solução passa pela textura, não pela lista de alimentos.**
+📊 **[SLIDE 9 DE 10]**
+*Visual: três perfis típicos com as contas. Vegetariana de 58 kg: 87 g/dia (1,5 g/kg), 55 g no jantar e 8 no café. Idoso de 65 kg que começou a treinar: 58 g/dia (0,9 g/kg), meta de cerca de 78 g e 26 g por refeição. Jovem de 80 kg: 280 g/dia (3,5 g/kg) com quatro doses de whey.*
+*Teleprompter: (três perfis, as três perguntas aplicadas)*
 
-**O terceiro: um homem de 24 anos, 80 quilos, que come 3,5 gramas por quilo por dia — 280 gramas —, com quatro doses de whey.** Treina força, quer hipertrofia, está em balanço energético.
+Três perfis típicos, as três perguntas aplicadas.
 
-Aqui a conversa é de **retorno sobre o investimento.** Acima de 1,6 a 2,2 gramas por quilo, os dados não mostram ganho adicional de massa. Com rim saudável, não há sinal de dano nessa faixa — **mas há custo.** Dinheiro gasto em pó. **Espaço no prato que deixou de ser carboidrato**, que ele precisa para treinar com qualidade, como vimos na aula 4.3. **Menos fibra**, desconforto intestinal. A conduta não é assustar. **É realocar**: trazer a proteína para 2 gramas por quilo, com comida, e devolver o espaço para o carboidrato e para os vegetais.
+Uma corredora vegetariana de cinquenta e oito quilos, que também faz musculação, come cerca de oitenta e sete gramas de proteína por dia: um vírgula cinco por quilo. O total está aceitável. Mas cinquenta e cinco gramas estão no jantar, e o café da manhã tem oito. O problema é distribuição e qualidade somadas. A conduta é redistribuir para quatro momentos de vinte a vinte e cinco gramas e subir um pouco o total, para compensar a fonte vegetal. Não é trocar a dieta. É reorganizar o dia.
 
-Três pessoas. **Na primeira, o total estava certo e a distribuição, errada. Na segunda, o total estava baixo. No terceiro, o total estava alto demais para o que ele queria.** O mesmo número — gramas por quilo — levou a três condutas diferentes.
+Uma pessoa idosa de sessenta e cinco quilos que começou a treinar força come cinquenta e oito gramas: zero vírgula nove por quilo, abaixo do mínimo do PROT-AGE. A meta de um vírgula dois dá cerca de setenta e oito gramas, mas a meta por refeição é mais útil: vinte e seis gramas, três vezes. O buraco é o café da manhã e o jantar trocado por pão e chá. E se há dificuldade de mastigar, a solução passa pela textura, e não pela lista de alimentos.
 
-E o escopo, como sempre. **A prescrição do plano alimentar, a escolha de fontes e o ajuste de quantidades são do nutricionista.** **Suspeita de doença renal, exames e medicação são do médico.** **O programa de carga — que é o que dá motivo ao músculo para usar a proteína — é do educador físico.** E qualquer profissional da equipe pode fazer a triagem que esta aula ensinou: **qual é o total, como está distribuído, de que fonte vem.** São três perguntas que qualquer um sabe fazer, e que mudam a conduta de todos.
+Um homem jovem de oitenta quilos come três vírgula cinco gramas por quilo, duzentos e oitenta gramas por dia, com quatro doses de whey. Acima de um vírgula seis a dois vírgula dois, os dados não mostram ganho adicional de massa. Com rim saudável não há sinal de dano, mas há custo: dinheiro no pó, espaço no prato que deixou de ser carboidrato, que ele precisa para treinar, e menos fibra. A conduta não é assustar. É realocar: proteína perto de dois gramas por quilo, com comida, e o espaço devolvido ao carboidrato e aos vegetais.
 
-Na próxima aula, **4.6**, o macronutriente que ficou com fama de vilão e que, em excesso de restrição, também cobra a conta: **os lipídios.**
+No primeiro, o total estava certo e a distribuição, errada. No segundo, o total estava baixo. No terceiro, alto demais para o que ele queria. O mesmo número levou a três condutas.
+
+---
+
+📊 **[SLIDE 10 DE 10]**
+*Visual: fundo do módulo. As três perguntas em ordem: quanto, como distribuir, de que fonte. Embaixo, quem faz o quê.*
+*Teleprompter: (fecha e emenda)*
+
+Quanto por dia, como distribuir, de que fonte. Nessa ordem.
+
+Quem faz o quê. O plano alimentar, a escolha de fontes e as quantidades são do nutricionista. Suspeita de doença renal, exames e medicação, do médico. O programa de carga, que é o que dá motivo ao músculo para usar a proteína, do educador físico. E qualquer profissional pode fazer a triagem desta aula: qual é o total, como está distribuído, de onde vem.
+
+Na próxima aula, o macronutriente que ganhou fama de vilão e que, cortado demais, também cobra a conta: os lipídios.
 
 ---
 
@@ -142,50 +158,29 @@ Na próxima aula, **4.6**, o macronutriente que ficou com fama de vilão e que, 
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — Os três números
-· **0,8 g/kg/dia**: recomendação populacional — **piso contra deficiência, não meta de quem treina**
-· **1,6 g/kg/dia**: platô da meta-análise de **Morton, 2018** (49 estudos, 1.863 participantes) — acima disso, o ganho de massa magra para de subir
-· **2,2 g/kg/dia**: teto do intervalo de confiança — margem para quem quer segurança
-· Suplementar proteína no treino de força: efeito **real e modesto** (~300 g de massa livre de gordura)
-· **ISSN, 2017**: 1,4–2,0 g/kg/dia. **Em déficit, a necessidade sobe** (2,3–3,1 g/kg de massa livre de gordura em treinados)
-· Três perguntas, nesta ordem: **quanto · como distribuir · de que fonte**
-Visual: 0,8 · 1,6 · 2,2 com as etiquetas.
+**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de cinco blocos longos.
+Arquitetura NÚMERO mantida (a anterior é DECISÃO; a próxima é ERRO). Sem caso clínico: as três
+pessoas com idade viraram três perfis típicos com a conta, sem idade (o idoso é dito como categoria).
 
-**Slide 2** — Distribuição
-· **Areta, 2013**: 80 g de whey em 12 h — **8 × 10 g · 4 × 20 g · 2 × 40 g**. **4 × 20 g venceu**
-· Limite: síntese **aguda**, 12 h, whey, homens jovens — **padrão, não hipertrofia em meses**
-· **Trommelen, 2023**: 100 g x 25 g — resposta **maior e mais longa (> 12 h)**. "30 g por refeição" **não é teto de aproveitamento**
-· O problema clínico não é o jantar com 60 g. **É o café da manhã com 8**
-· Prático: **~0,25 g/kg ou 20–40 g por refeição**, 3–4 vezes ao dia
-· "Janela de 30 minutos": **mais larga do que o marketing diz**
-Visual: as três linhas do tempo, a do meio em destaque.
+**Números conferidos.** Morton 2018: 49 estudos, 1.863 participantes, +0,30 kg de massa livre de
+gordura, platô em 1,62 g/kg/dia com limite superior de ~2,2. Areta 2013: 24 homens treinados (8 por
+grupo), 80 g de whey em 12 h, 8×10, 4×20, 2×40; maior síntese com 4×20. Trommelen 2023: 25 contra
+100 g de proteína do leite depois de treino de corpo inteiro; resposta maior e mais longa (mais de
+12 h) com 100 g. Moore 2015 (0,24 contra 0,40 g/kg por refeição) e PROT-AGE 2013 mantidos.
 
-**Slide 3** — Qualidade
-· Três componentes: **digestibilidade · aminoácidos essenciais · leucina** (700–3.000 mg por dose)
-· **van Vliet, 2015**: vegetal = menor digestibilidade, menos leucina, aminoácido limitante — **menor resposta por grama**
-· Ajuste: **um pouco mais por refeição · combinar fontes (arroz com feijão) · soja · ovos e laticínios** se ovolacto
-· **Whey é comida em pó** — ferramenta legítima, não obrigatória
-· A pergunta: **"está fechando a conta com comida?"**
-· Suplementos: **Módulo 5**
-Visual: arroz e feijão, whey, bife — leucina por porção.
+**Correções.**
+- Saiu "perto de 750 gramas em quem já treinava" (Morton), número não conferido; ficou o qualitativo
+  (efeito maior em treinados, menor com a idade).
+- As idades dos três perfis saíram; o idoso ficou como categoria.
 
-**Slide 4** — O idoso
-· **Moore, 2015**: platô por refeição — **0,24 g/kg no jovem, 0,40 g/kg no idoso**
-· **Resistência anabólica** — 65 kg → **26 g por refeição**
-· **PROT-AGE, 2013**: ≥ 1,0–1,2 g/kg/dia · **≥ 1,2 se ativo** · 1,2–1,5 com doença · exceção: **DRC avançada sem diálise** (decisão médica)
-· **Proteína sem carga é estímulo fraco — carga primeiro, proteína junto**
-· Barreiras: apetite · mastigação · prótese · custo · morar sozinho — **textura e logística**
-· Rim saudável: sem sinal de dano nestas faixas. **Doença renal: decisão do médico**
-· Sarcopenia completa: **aulas 12.7 e 12.8**
-Visual: as duas curvas de dose-resposta e a faixa do PROT-AGE.
+**Saíram.** "Aula 4.1", "aula 4.3", "aula 4.6", "aulas 12.7 e 12.8", "Módulo 5", "slide 4", "o
+escopo", o bloco "Roteiro Gamma".
 
-**Slide 5** — Três pessoas, três perguntas
-· **Corredora vegetariana, 27 anos, 1,5 g/kg** — 55 g no jantar, 8 g de manhã: **redistribuir em 4 × 20–25 g e subir um pouco o total**
-· **Mulher de 68 anos, 0,9 g/kg**, começando força: meta **~78 g/dia, 26 g × 3** — o buraco é o café da manhã; **a solução passa pela textura**
-· **Homem de 24 anos, 3,5 g/kg, quatro doses de whey**: sem ganho adicional acima de ~2,2 — custo, **carboidrato deslocado**, fibra. **Realocar para ~2 g/kg**
-· **Total certo e distribuição errada · total baixo · total alto demais** — três condutas
-· Escopo: plano alimentar = **nutricionista** · rim, exames, medicação = **médico** · carga = **educador físico** · a triagem das três perguntas = **toda a equipe**
-· Próxima aula: **4.6 — lipídios**
-Visual: os três pratos do dia com total e distribuição.
+**Citações faladas.** Morton, Jäger (Sociedade Internacional), Areta, Trommelen, van Vliet, Burd e
+van Loon, Moore, Bauer (PROT-AGE).
+
+**Ligações internas.** déficit = primeira aula do módulo · carboidrato para treinar = aula de
+carboidrato · suplementos = módulo de suplementação · sarcopenia = módulo do atleta adolescente e
+idoso · lipídios = próxima aula.
