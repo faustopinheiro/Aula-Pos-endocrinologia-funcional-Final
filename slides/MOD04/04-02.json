@@ -1,0 +1,423 @@
+{
+ "arquivo": "aulas/MOD04/04-02-como-calcular-disponibilidade-energetica.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Estimativa da disponibilidade energética",
+ "subtitulo": "Métodos, erros de medida e alternativas clínicas",
+ "nota_capa": "Entra pelo caso ilustrativo e pela conta.",
+ "secoes": {
+  "caso": [
+   "A conta e a zona cinza.",
+   "capa"
+  ],
+  "oficina": [
+   "As três variáveis e o erro propagado.",
+   "ingestao"
+  ],
+  "alternativas": [
+   "Quando não dá para calcular, e o que fazer.",
+   "semconta"
+  ]
+ },
+ "slides": [
+  {
+   "id": "conta",
+   "tipo": "numeros",
+   "eyebrow": "Caso ilustrativo",
+   "titulo": "“Eu como muito bem”",
+   "numeros": [
+    {
+     "n": "2.400",
+     "x": "kcal por dia no registro de sete dias",
+     "cor": "tinta"
+    },
+    {
+     "n": "− 700",
+     "x": "kcal do exercício: 90 minutos, seis dias por semana",
+     "cor": "ambar"
+    },
+    {
+     "n": "÷ 45",
+     "x": "kg de massa livre de gordura: 58 kg com 22% de gordura",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Resultado: cerca de 38. Triatleta amadora, 31 anos, encaminhada depois da terceira lesão em um ano.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "zona",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Régua de disponibilidade energética de 0 a 60: abaixo de 30, zona de efeitos endócrinos; de 30 a 45, zona cinza; acima de 45, equilíbrio; o ponto 38 cai na zona cinza\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><rect x=\"0\" y=\"60\" width=\"832\" height=\"90\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"832\" y=\"60\" width=\"416\" height=\"90\" fill=\"#E4E1D9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1248\" y=\"60\" width=\"416\" height=\"90\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1054\" cy=\"105\" r=\"22\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 88,
+     "w": 600,
+     "t": "abaixo de 30",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 10,
+     "w": 416,
+     "t": "zona cinza",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1268,
+     "y": 88,
+     "w": 360,
+     "t": "perto de 45",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 994,
+     "y": 168,
+     "w": 120,
+     "t": "38",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 772,
+     "y": 168,
+     "w": 120,
+     "t": "30",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1188,
+     "y": 168,
+     "w": 120,
+     "t": "45",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Entre 30 e 45",
+   "titulo": "A zona que não dispara alarme",
+   "destaque": "Sem amenorreia franca, sem magreza chamativa, sem transtorno evidente. Três lesões em um ano.",
+   "destaque_cor": "verm",
+   "fonte": "Faixas como ordem de grandeza, em kcal por kg de massa livre de gordura por dia"
+  },
+  {
+   "id": "ingestao",
+   "tipo": "lista",
+   "eyebrow": "Passo um",
+   "titulo": "A ingestão",
+   "itens": [
+    {
+     "t": "Registro de 3 a 7 dias",
+     "x": "com pelo menos um dia de fim de semana",
+     "cor": "petr"
+    },
+    {
+     "t": "Ou recordatórios de 24 h repetidos",
+     "x": "em dias diferentes, com foto das refeições",
+     "cor": "petr"
+    },
+    {
+     "t": "O erro tem direção: para baixo",
+     "x": "esquecimento, porção, o azeite, o que se come em pé",
+     "cor": "ambar"
+    },
+    {
+     "t": "E não é aleatório",
+     "x": "quem se preocupa com o corpo subnotifica mais",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 22
+  },
+  {
+   "id": "gasto",
+   "tipo": "duas",
+   "eyebrow": "Passo dois",
+   "titulo": "O gasto do exercício, descontado o repouso",
+   "esq": {
+    "t": "A conta certa",
+    "cor": "petr",
+    "itens": [
+     "(MET − 1) × peso × horas",
+     "o “menos um” é o repouso que já seria gasto",
+     "em 90 minutos por dia, perto de 100 kcal de diferença"
+    ]
+   },
+   "dir": {
+    "t": "Os instrumentos",
+    "cor": "ambar",
+    "itens": [
+     "relógios e aplicativos tendem a superestimar",
+     "exceção: medidor de potência no ciclismo",
+     "kJ de trabalho ≈ kcal gastas"
+    ]
+   },
+   "destaque": "Eficiência do pedal de 20 a 25% e 1 kcal ≈ 4 kJ: por isso os quilojoules do medidor aproximam as quilocalorias.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "massa",
+   "tipo": "frase",
+   "fundo": "petr",
+   "eyebrow": "Passo três · o denominador",
+   "frase": "Sempre o mesmo método.",
+   "apoio": "Bioimpedância, dobras e densitometria dão números diferentes para a mesma pessoa. Sem nenhum, estime um percentual razoável e assuma que o erro existe."
+  },
+  {
+   "id": "erro",
+   "tipo": "tabela",
+   "eyebrow": "Passo quatro · propagar o erro",
+   "titulo": "A mesma mulher, números diferentes",
+   "cab": [
+    "Cenário",
+    "Ingestão",
+    "Exercício",
+    "Massa magra",
+    "Resultado"
+   ],
+   "larguras": [
+    34,
+    16,
+    16,
+    18,
+    16
+   ],
+   "linhas": [
+    [
+     "Conta revisada",
+     "2.400",
+     "700",
+     "45 kg",
+     "≈ 38"
+    ],
+    [
+     "Registro −20%, relógio +30%",
+     "1.920",
+     "910",
+     "45 kg",
+     "≈ 22"
+    ],
+    [
+     "Método marca 28% de gordura",
+     "2.400",
+     "700",
+     "≈ 42 kg",
+     "≈ 41"
+    ],
+    [
+     "Método marca 18% de gordura",
+     "2.400",
+     "700",
+     "≈ 47,5 kg",
+     "≈ 36"
+    ]
+   ],
+   "destaque": "Número muito baixo pode ser artefato. Número na casa dos 40 não tranquiliza quem tem três lesões. A conta gera hipótese.",
+   "destaque_cor": "verm",
+   "fonte": "Suposições de erro para o cálculo; direção do erro conforme Burke e colaboradores, 2018"
+  },
+  {
+   "id": "semconta",
+   "tipo": "duas",
+   "eyebrow": "Passo cinco · quando a conta não sai",
+   "titulo": "Os caminhos mais baratos",
+   "esq": {
+    "t": "As cinco perguntas",
+    "cor": "petr",
+    "itens": [
+     "o treino subiu e o prato não mudou?",
+     "então a conta está negativa até prova em contrário",
+     "sem calculadora"
+    ]
+   },
+   "dir": {
+    "t": "LEAF-Q · Melin, 2014",
+    "cor": "ambar",
+    "itens": [
+     "25 itens: lesão, intestino, função reprodutiva",
+     "corte em 8; sensibilidade 78%, especificidade 90%",
+     "homens: LEAM-Q, em validação"
+    ]
+   },
+   "destaque": "Questionário rastreia. Itens se confundem com treino pesado, e falso positivo é esperado.",
+   "destaque_cor": "tinta",
+   "fonte": "British Journal of Sports Medicine 2014 · 84 atletas"
+  },
+  {
+   "id": "caros",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Na mesma amostra de 49 atletas, a proporção classificada como suprimida variou de 35% a 94% conforme a equação; abaixo, a ferramenta do COI em quatro cores\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"40\" width=\"1664\" height=\"56\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"582\" y=\"40\" width=\"982\" height=\"56\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"8\" y=\"220\" width=\"400\" height=\"110\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"424\" y=\"220\" width=\"400\" height=\"110\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"840\" y=\"220\" width=\"400\" height=\"110\" rx=\"12\" fill=\"#F6E2D3\" stroke=\"#C0632A\" stroke-width=\"4\"/><rect x=\"1256\" y=\"220\" width=\"400\" height=\"110\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 598,
+     "y": 50,
+     "w": 200,
+     "t": "35%",
+     "tam": 30,
+     "cor": "#FFFFFF",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1328,
+     "y": 50,
+     "w": 200,
+     "t": "94%",
+     "tam": 30,
+     "cor": "#FFFFFF",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 108,
+     "w": 1664,
+     "t": "“suprimidos” na mesma amostra, conforme a equação escolhida",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 8,
+     "y": 256,
+     "w": 400,
+     "t": "verde",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 424,
+     "y": 256,
+     "w": 400,
+     "t": "amarelo",
+     "tam": 32,
+     "cor": "#8A5F12",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 256,
+     "w": 400,
+     "t": "laranja",
+     "tam": 32,
+     "cor": "#C0632A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1256,
+     "y": 256,
+     "w": 400,
+     "t": "vermelho",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 172,
+     "w": 1664,
+     "t": "Ferramenta do COI, 2023: rastreio, estratificação e diagnóstico médico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Os caminhos mais caros",
+   "titulo": "Razão do metabolismo de repouso e ferramenta do COI",
+   "destaque": "Abaixo de 0,90 sugere supressão, mas depende da equação e, em 2025, não se associou à disponibilidade calculada.",
+   "destaque_cor": "ambar",
+   "fonte": "Applied Physiology, Nutrition, and Metabolism 2025, 49 atletas · British Journal of Sports Medicine 2023, REDs CAT2"
+  },
+  {
+   "id": "lanche",
+   "tipo": "numeros",
+   "eyebrow": "Passo seis · o que fazer com o número",
+   "titulo": "Acrescentar comida, não tirar treino",
+   "numeros": [
+    {
+     "n": "38 → 45",
+     "x": "sete pontos de disponibilidade",
+     "cor": "tinta"
+    },
+    {
+     "n": "× 45 kg",
+     "x": "de massa livre de gordura",
+     "cor": "tinta"
+    },
+    {
+     "n": "≈ 315",
+     "x": "kcal por dia: um lanche real, perto do treino",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "“O treino não é demais; a comida é pouca para o treino que você faz.” O mesmo desequilíbrio, dito pelo lado que preserva a identidade.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Duas regras de segurança",
+   "titulo": "A conta é instrumento, não sentença",
+   "regras": [
+    "Suspeita de transtorno alimentar: a conta é para você, não para ela",
+    "Monitorar o desfecho, não o número: ciclo, lesão, desempenho, sono",
+    "Número baixo sozinho pode ser artefato; número confortável não tranquiliza"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "A ingestão detalhada e o plano."
+    },
+    {
+     "t": "Educador e preparador físico",
+     "x": "O gasto real do que a pessoa faz."
+    },
+    {
+     "t": "Médico",
+     "x": "O diagnóstico quando há deficiência clínica."
+    }
+   ],
+   "quem": "Encaminhar com a ordem de grandeza já calculada encurta o trabalho de todos."
+  }
+ ]
+}

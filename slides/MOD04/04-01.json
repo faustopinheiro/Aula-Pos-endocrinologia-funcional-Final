@@ -1,0 +1,677 @@
+{
+ "arquivo": "aulas/MOD04/04-01-disponibilidade-energetica.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Disponibilidade energética",
+ "subtitulo": "Conceito, limiares e controvérsias",
+ "nota_capa": "Entra pelo número: trinta.",
+ "secoes": {
+  "numero": [
+   "A equação e a origem do trinta.",
+   "capa"
+  ],
+  "medida": [
+   "Medida, tempo e mecanismo.",
+   "medida"
+  ],
+  "pratica": [
+   "Portas, controvérsia e conduta.",
+   "portas"
+  ]
+ },
+ "slides": [
+  {
+   "id": "equacao",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O número que o curso inteiro citou",
+   "frase": "(ingestão − gasto do exercício) ÷ massa livre de gordura",
+   "apoio": "O que sobra para o corpo funcionar depois que o treino cobrou a parte dele. Disponibilidade energética baixa não é comer pouco. É comer pouco para o que se gasta."
+  },
+  {
+   "id": "conta",
+   "tipo": "numeros",
+   "eyebrow": "Uma conta que desmonta a intuição",
+   "titulo": "Três mil calorias, e abaixo de trinta",
+   "numeros": [
+    {
+     "n": "69 kg",
+     "x": "massa livre de gordura: 78 kg com 12% de gordura",
+     "cor": "tinta"
+    },
+    {
+     "n": "2.000",
+     "x": "kcal que sobram: 3.100 ingeridas menos 1.100 do exercício",
+     "cor": "ambar"
+    },
+    {
+     "n": "≈ 29",
+     "x": "kcal por kg de massa livre de gordura por dia",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Ninguém que come três mil calorias se vê como alguém que come pouco. É esse perfil que chega para discutir testosterona.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "loucks",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Desenho do experimento: disponibilidade de 45, 30, 20 e 10 kcal por kg de massa magra por cinco dias; a pulsatilidade do LH se altera abaixo de 30\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"120\" y1=\"140\" x2=\"1664\" y2=\"140\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"12 10\"/><rect x=\"220\" y=\"50\" width=\"260\" height=\"270\" rx=\"6\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"580\" y=\"140\" width=\"260\" height=\"180\" rx=\"6\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"940\" y=\"200\" width=\"260\" height=\"120\" rx=\"6\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1300\" y=\"260\" width=\"260\" height=\"60\" rx=\"6\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"120\" y1=\"320\" x2=\"1664\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 220,
+     "y": 60,
+     "w": 260,
+     "t": "45",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 220,
+     "y": 334,
+     "w": 260,
+     "t": "LH preservado",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 150,
+     "w": 260,
+     "t": "30",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 334,
+     "w": 260,
+     "t": "LH preservado",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 210,
+     "w": 260,
+     "t": "20",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 334,
+     "w": 260,
+     "t": "LH alterado",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 270,
+     "w": 260,
+     "t": "10",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 334,
+     "w": 260,
+     "t": "LH alterado",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 122,
+     "w": 100,
+     "t": "30",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Loucks e Thuma, 2003",
+   "titulo": "O número tem endereço",
+   "destaque": "29 mulheres jovens, sedentárias, ciclo regular, cinco dias. Desfecho: o pulso do LH. Não amenorreia, não fratura, não homens.",
+   "destaque_cor": "ambar",
+   "fonte": "Doses do desenho experimental, em kcal por kg de massa magra por dia · Journal of Clinical Endocrinology and Metabolism 2003"
+  },
+  {
+   "id": "revisao",
+   "tipo": "duas",
+   "eyebrow": "Vinte anos depois",
+   "titulo": "De linha a faixa de risco",
+   "esq": {
+    "t": "Mulheres · Salamunes, 2024",
+    "cor": "petr",
+    "itens": [
+     "abaixo de 30, a chance de alteração menstrual sobe",
+     "mas há alteração acima e abaixo de 30",
+     "uma linha libera; um risco não libera"
+    ]
+   },
+   "dir": {
+    "t": "Homens · Koehler, 2016",
+    "cor": "ambar",
+    "itens": [
+     "seis homens, 15 contra 40 kcal/kg, quatro dias",
+     "leptina −53 a −56%, insulina −34 a −38%",
+     "T3, testosterona e IGF-1 ainda parados"
+    ]
+   },
+   "destaque": "Consenso do COI, 2023: um contínuo, do adaptável ao problemático. Quanto, por quanto tempo, e com que consequência?",
+   "destaque_cor": "tinta",
+   "fonte": "Applied Physiology, Nutrition, and Metabolism 2024 · Journal of Sports Sciences 2016"
+  },
+  {
+   "id": "medida",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "Burke e colaboradores, 2018",
+   "titulo": "A equação é frágil",
+   "cards": [
+    {
+     "t": "Ingestão subestimada",
+     "x": "esquecimento, porção mal estimada, o que se come em pé",
+     "cor": "ambar"
+    },
+    {
+     "t": "Gasto do exercício mal medido",
+     "x": "e quase ninguém desconta o que se gastaria em repouso",
+     "cor": "ambar"
+    },
+    {
+     "t": "Massa magra muda com o método",
+     "x": "o denominador também tem erro",
+     "cor": "ambar"
+    },
+    {
+     "t": "Variação diária grande",
+     "x": "um dia não representa a semana",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "O número não é diagnóstico. É ordem de grandeza, e faz o paciente ver a própria conta.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "horas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Saldo energético ao longo de 24 horas em duas pessoas com o mesmo total: uma fica pouco tempo abaixo de menos 300; a outra passa horas seguidas abaixo\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"110\" y1=\"100.0\" x2=\"1644\" y2=\"100.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"110\" y1=\"160.0\" x2=\"1644\" y2=\"160.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"110.0\" y1=\"300\" x2=\"110.0\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"493.5\" y1=\"300\" x2=\"493.5\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"877.0\" y1=\"300\" x2=\"877.0\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1260.5\" y1=\"300\" x2=\"1260.5\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1644.0\" y1=\"300\" x2=\"1644.0\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"110\" y1=\"300\" x2=\"1644\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"110.0,133.2 173.9,127.0 237.8,119.8 301.8,112.0 365.7,104.2 429.6,97.0 493.5,90.8 557.4,86.0 621.3,83.0 685.2,82.0 749.2,83.0 813.1,86.0 877.0,90.8 940.9,97.0 1004.8,104.2 1068.8,112.0 1132.7,119.8 1196.6,127.0 1260.5,133.2 1324.4,138.0 1388.3,141.0 1452.2,142.0 1516.2,141.0 1580.1,138.0 1644.0,133.2\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"110.0,130.0 173.9,140.0 237.8,150.0 301.8,160.0 365.7,170.0 429.6,180.0 493.5,190.0 557.4,200.0 621.3,210.0 685.2,220.0 749.2,230.0 813.1,240.0 877.0,250.0 940.9,260.0 1004.8,270.0 1068.8,280.0 1132.7,256.0 1196.6,232.0 1260.5,208.0 1324.4,184.0 1388.3,160.0 1452.2,136.0 1516.2,112.0 1580.1,104.0 1644.0,96.0\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 83,
+     "w": 94,
+     "t": "0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 143,
+     "w": 94,
+     "t": "-300",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 316,
+     "w": 160,
+     "t": "0 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 414,
+     "y": 316,
+     "w": 160,
+     "t": "6 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 797,
+     "y": 316,
+     "w": 160,
+     "t": "12 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 316,
+     "w": 160,
+     "t": "18 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 316,
+     "w": 160,
+     "t": "24 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 36,
+     "w": 380,
+     "t": "come distribuído",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 130,
+     "y": 262,
+     "w": 640,
+     "t": "jejum cedo, almoço tarde, jantar às 22 h",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O segundo problema é de tempo",
+   "titulo": "Não importa só quanto. Importa quando",
+   "destaque": "Fahrenholtz, 2018: com a mesma conta de 24 h, as atletas com disfunção menstrual passavam 24% mais horas abaixo de −300 kcal.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos · eixo em kcal de saldo · Scandinavian Journal of Medicine and Science in Sports 2018; Torstveit 2018, 31 homens"
+  },
+  {
+   "id": "cadeia",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Déficit derruba leptina e insulina, o hipotálamo lê escassez, e os eixos respondem em relógios diferentes: dias, semanas, meses\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"260\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"262\" y1=\"75\" x2=\"296\" y2=\"75\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"300\" y=\"20\" width=\"260\" height=\"110\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"562\" y1=\"75\" x2=\"596\" y2=\"75\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"600\" y=\"20\" width=\"260\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"760\" y1=\"132\" x2=\"760\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"0\" y=\"200\" width=\"310\" height=\"180\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"334\" y=\"200\" width=\"310\" height=\"180\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"668\" y=\"200\" width=\"310\" height=\"180\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1002\" y=\"200\" width=\"310\" height=\"180\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1336\" y=\"200\" width=\"310\" height=\"180\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 44,
+     "w": 240,
+     "t": "déficit",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 310,
+     "y": 44,
+     "w": 240,
+     "t": "leptina e insulina caem",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 44,
+     "w": 240,
+     "t": "hipotálamo lê escassez",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 216,
+     "w": 278,
+     "t": "gonadal",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 262,
+     "w": 278,
+     "t": "cortado primeiro",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 330,
+     "w": 278,
+     "t": "semanas",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 216,
+     "w": 278,
+     "t": "tireoide",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 262,
+     "w": 278,
+     "t": "menos T3, TSH normal",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 330,
+     "w": 278,
+     "t": "semanas",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 684,
+     "y": 216,
+     "w": 278,
+     "t": "GH e IGF-1",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 684,
+     "y": 262,
+     "w": 278,
+     "t": "GH sobe, IGF-1 cai",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 684,
+     "y": 330,
+     "w": 278,
+     "t": "semanas",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1018,
+     "y": 216,
+     "w": 278,
+     "t": "cortisol",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1018,
+     "y": 262,
+     "w": 278,
+     "t": "sobe",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1018,
+     "y": 330,
+     "w": 278,
+     "t": "dias a semanas",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1352,
+     "y": 216,
+     "w": 278,
+     "t": "osso",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1352,
+     "y": 262,
+     "w": 278,
+     "t": "perde as três entradas",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1352,
+     "y": 330,
+     "w": 278,
+     "t": "meses",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 50,
+     "w": 700,
+     "t": "sinais periféricos: dias",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O mecanismo",
+   "titulo": "Uma cadeia, relógios diferentes",
+   "destaque": "A pessoa se sente bem por semanas enquanto os eixos cedem. Quando o sintoma chega, a conta está negativa há meses.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema de mecanismo, sem valores medidos"
+  },
+  {
+   "id": "alarme",
+   "tipo": "duas",
+   "eyebrow": "Areta, Taylor e Koehler, 2021",
+   "titulo": "Mesma fisiologia, alarmes diferentes",
+   "esq": {
+    "t": "Mulher",
+    "cor": "petr",
+    "itens": [
+     "um sinal vital que apita todo mês: o ciclo",
+     "da fase lútea curta à amenorreia",
+     "foi onde a literatura nasceu, porque era visível"
+    ]
+   },
+   "dir": {
+    "t": "Homem",
+    "cor": "ambar",
+    "itens": [
+     "nenhum alarme equivalente",
+     "desempenho, fadiga, libido, infecções",
+     "e uma testosterona que cai, com LH baixo"
+    ]
+   },
+   "destaque": "Homem jovem e ativo com testosterona baixa: calcule a disponibilidade antes de discutir reposição. E balança parada pode ser economia.",
+   "destaque_cor": "verm",
+   "fonte": "European Journal of Applied Physiology 2021 · consenso do COI 2023"
+  },
+  {
+   "id": "portas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Por onde a conta estoura",
+   "titulo": "Cinco portas, e só uma é procurada",
+   "cards": [
+    {
+     "t": "1 · Restrição por desempenho ou estética",
+     "x": "categoria de peso, esporte estético: a que a gente reconhece",
+     "cor": "verm"
+    },
+    {
+     "t": "2 · Emagrecer com orientação legítima",
+     "x": "dieta e treino somados; com remédio, comer vira tarefa",
+     "cor": "ambar"
+    },
+    {
+     "t": "3 · O gasto subiu e o prato não",
+     "x": "ninguém restringiu nada: a conta do segundo slide",
+     "cor": "ambar"
+    },
+    {
+     "t": "4 · Insuficiente sem intenção",
+     "x": "tempo, dinheiro, logística, crescimento",
+     "cor": "ambar"
+    },
+    {
+     "t": "5 · Desorganização",
+     "x": "o total até fecha; a comida nunca está na hora certa",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Identificar a porta é metade da conduta.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "controversia",
+   "tipo": "duas",
+   "eyebrow": "Jeukendrup, Areta e colaboradores, 2024",
+   "titulo": "A síndrome existe?",
+   "esq": {
+    "t": "A crítica",
+    "cor": "ambar",
+    "itens": [
+     "a causa é quase impossível de medir fora do laboratório",
+     "o diagnóstico vira lista de sintomas",
+     "sintomas genéricos, causas múltiplas: carga alostática"
+    ]
+   },
+   "dir": {
+    "t": "A zona de acordo",
+    "cor": "petr",
+    "itens": [
+     "os efeitos endócrinos e metabólicos são reais",
+     "existe na prática e é modificável",
+     "a disputa é o rótulo de síndrome e o diagnóstico por lista"
+    ]
+   },
+   "destaque": "Contribuinte principal e modificável, não explicação única. Encontrou? Corrija, e não pare a investigação.",
+   "destaque_cor": "tinta",
+   "fonte": "Sports Medicine 2024; resposta dos autores do consenso e réplica em 2025"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "O que se faz na segunda-feira",
+   "titulo": "Quanto, por quanto tempo, e com que consequência",
+   "regras": [
+    "Perguntar: o que mudou no treino e no prato em 12 meses; peso, sono, libido e ciclo",
+    "Restaurar energia no entorno do treino; reduzir volume por um tempo se preciso",
+    "REFUEL: 20 a 40% a mais por 12 meses, duas vezes mais chance de menstruar, +2,6 kg em média"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "O plano alimentar."
+    },
+    {
+     "t": "Médico",
+     "x": "Exames, diferencial e medicação."
+    },
+    {
+     "t": "Educador, preparador e psicólogo",
+     "x": "Volume do treino e componente comportamental."
+    }
+   ],
+   "quem": "As cinco perguntas são de todo mundo."
+  }
+ ]
+}

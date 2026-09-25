@@ -1,0 +1,536 @@
+{
+ "arquivo": "aulas/MOD04/04-03-carboidrato-quanto-quando-e-por-que.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Carboidrato no exercício",
+ "subtitulo": "Dose, momento e erros de prescrição",
+ "nota_capa": "Entra pelo erro de eixo: identidade no lugar de demanda.",
+ "secoes": {
+  "demais": [
+   "Demais para a demanda, e as faixas.",
+   "capa"
+  ],
+  "quando": [
+   "O quando, e o erro espelhado.",
+   "durante"
+  ],
+  "duracao": [
+   "Nada para a duração, e comida de verdade.",
+   "nada"
+  ]
+ },
+ "slides": [
+  {
+   "id": "identidade",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O erro é de eixo",
+   "frase": "A dose foi prescrita pela identidade, e não pela demanda.",
+   "apoio": "“Eu sou corredor.” O carboidrato é o único macronutriente com opinião moral, e a pergunta clínica (quanto, quando, para qual sessão) vira “a favor ou contra?”."
+  },
+  {
+   "id": "demais",
+   "tipo": "numeros",
+   "eyebrow": "Primeiro erro · demais para a demanda",
+   "titulo": "Oito gramas por quilo, quatro horas por semana",
+   "numeros": [
+    {
+     "n": "624 g",
+     "x": "de carboidrato por dia: 78 kg × 8 g/kg",
+     "cor": "ambar"
+    },
+    {
+     "n": "≈ 2.500",
+     "x": "kcal só de carboidrato, antes de proteína e gordura",
+     "cor": "ambar"
+    },
+    {
+     "n": "≈ 4 h",
+     "x": "de treino por semana: menos de 40 minutos por dia",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Não há mistério metabólico. É a dieta de quem treina em alto volume, com quatro horas por semana.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "faixas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Faixas de carboidrato por dia conforme horas e intensidade: leve 3 a 5 g/kg; moderado 5 a 7; resistência 6 a 10; extremo 8 a 12; a conta de 8 g/kg cai na faixa extrema, embora o treino seja da faixa leve a moderada\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"720\" y=\"20\" width=\"200\" height=\"56\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"920\" y=\"100\" width=\"200\" height=\"56\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1020\" y=\"180\" width=\"400\" height=\"56\" rx=\"8\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1220\" y=\"260\" width=\"400\" height=\"56\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1220\" y1=\"10\" x2=\"1220\" y2=\"340\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"420\" y1=\"340\" x2=\"1620\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 32,
+     "w": 400,
+     "t": "leve ou de habilidade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 734,
+     "y": 32,
+     "w": 180,
+     "t": "3 a 5",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 112,
+     "w": 400,
+     "t": "cerca de 1 h por dia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 112,
+     "w": 180,
+     "t": "5 a 7",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 192,
+     "w": 400,
+     "t": "1 a 3 h por dia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1034,
+     "y": 192,
+     "w": 380,
+     "t": "6 a 10",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 272,
+     "w": 400,
+     "t": "4 a 5 h por dia ou mais",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1234,
+     "y": 272,
+     "w": 380,
+     "t": "8 a 12",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 350,
+     "w": 80,
+     "t": "0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 350,
+     "w": 80,
+     "t": "3",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 350,
+     "w": 80,
+     "t": "6",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1580,
+     "y": 350,
+     "w": 80,
+     "t": "12",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1232,
+     "y": 26,
+     "w": 300,
+     "t": "a conta: 8 g/kg",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Thomas, Erdman e Burke, 2016",
+   "titulo": "O eixo é hora e intensidade, não modalidade",
+   "destaque": "Conte as horas reais de treino, as que aconteceram. É a pergunta mais barata da aula, e desfaz metade dos casos.",
+   "destaque_cor": "petr",
+   "fonte": "Gramas por kg por dia · posicionamento da Academia de Nutrição e Dietética, Dietistas do Canadá e ACSM"
+  },
+  {
+   "id": "durante",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Carboidrato durante o exercício por duração: até 30 minutos, nada; 30 a 75 minutos, bochecho ou pouco; 1 a 2 h, até 30 g/h; 2 a 3 h, até 60 g/h; acima de 2,5 h, até 90 g/h com carboidratos combinados\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><rect x=\"0\" y=\"40\" width=\"318\" height=\"80\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\" transform=\"translate(0,200)\"/><rect x=\"334\" y=\"40\" width=\"318\" height=\"130\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\" transform=\"translate(0,150)\"/><rect x=\"668\" y=\"40\" width=\"318\" height=\"180\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\" transform=\"translate(0,100)\"/><rect x=\"1002\" y=\"40\" width=\"318\" height=\"230\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" transform=\"translate(0,50)\"/><rect x=\"1336\" y=\"40\" width=\"318\" height=\"280\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\" transform=\"translate(0,0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 318,
+     "t": "até 30 min",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 260,
+     "w": 298,
+     "t": "nada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 334,
+     "y": 0,
+     "w": 318,
+     "t": "30 a 75 min",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 210,
+     "w": 298,
+     "t": "bochecho ou pouco",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 668,
+     "y": 0,
+     "w": 318,
+     "t": "1 a 2 h",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 678,
+     "y": 160,
+     "w": 298,
+     "t": "até 30 g/h",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1002,
+     "y": 0,
+     "w": 318,
+     "t": "2 a 3 h",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1012,
+     "y": 110,
+     "w": 298,
+     "t": "até 60 g/h",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1336,
+     "y": 0,
+     "w": 318,
+     "t": "> 2,5 h",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1346,
+     "y": 60,
+     "w": 298,
+     "t": "até 90 g/h, combinados",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Jeukendrup, 2014 · o durante",
+   "titulo": "Organizado por duração, não por esporte",
+   "destaque": "Antes: 1 a 4 g/kg de 1 a 4 h antes. Depois: 1 a 1,2 g/kg/h só se a próxima sessão vem em menos de 8 h. Se é amanhã, o jantar resolve.",
+   "destaque_cor": "tinta",
+   "fonte": "Sports Medicine 2014 · Medicine and Science in Sports and Exercise 2016"
+  },
+  {
+   "id": "marchadores",
+   "tipo": "lista",
+   "eyebrow": "Segundo erro · de menos para a intensidade",
+   "titulo": "Os marchadores de elite",
+   "itens": [
+    {
+     "t": "A oxidação de gordura subiu muito",
+     "x": "a adaptação é real e mensurável",
+     "cor": "petr"
+    },
+    {
+     "t": "A economia piorou",
+     "x": "mais oxigênio para a mesma velocidade",
+     "cor": "verm"
+    },
+    {
+     "t": "O ganho do bloco de treino não veio",
+     "x": "os outros grupos melhoraram; o cetogênico, não",
+     "cor": "verm"
+    },
+    {
+     "t": "E o resultado se repetiu",
+     "x": "em 2020, com mais atletas e incluindo mulheres",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Gordura custa mais oxigênio por ATP. No leve, quase não importa. Na intensidade alta, importa muito.",
+   "destaque_cor": "tinta",
+   "fonte": "Burke e colaboradores, Journal of Physiology 2017 · PLoS One 2020"
+  },
+  {
+   "id": "paraquem",
+   "tipo": "duas",
+   "eyebrow": "Baixo carboidrato",
+   "titulo": "Para quem, e como conversar",
+   "esq": {
+    "t": "Sem prejuízo relevante",
+    "cor": "petr",
+    "itens": [
+     "treino predominantemente leve",
+     "preferência forte, sem competir",
+     "razão clínica"
+    ]
+   },
+   "dir": {
+    "t": "Provavelmente não",
+    "cor": "verm",
+    "itens": [
+     "quem compete",
+     "alta intensidade frequente",
+     "esporte intermitente, glicolítico por natureza"
+    ]
+   },
+   "destaque": "Teste de seis semanas: carboidrato só em torno das sessões intensas, desempenho registrado, decisão com os números da pessoa. E cortar carboidrato costuma cortar o total.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "nada",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Glicogênio muscular caindo ao longo de quatro horas de pedal sem comer, chegando perto do fim entre a segunda e a terceira hora\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><line x1=\"40.0\" y1=\"280\" x2=\"40.0\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"441.0\" y1=\"280\" x2=\"441.0\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"842.0\" y1=\"280\" x2=\"842.0\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1243.0\" y1=\"280\" x2=\"1243.0\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1644.0\" y1=\"280\" x2=\"1644.0\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"842\" y=\"20\" width=\"401\" height=\"260\" fill=\"#F3E1DE\"/><line x1=\"40\" y1=\"280\" x2=\"1644\" y2=\"280\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,20.0 80.1,31.6 120.2,43.0 160.3,54.2 200.4,65.1 240.5,75.9 280.6,86.5 320.7,96.8 360.8,106.9 400.9,116.9 441.0,126.6 481.1,136.1 521.2,145.4 561.3,154.5 601.4,163.4 641.5,172.1 681.6,180.6 721.7,188.8 761.8,196.9 801.9,204.8 842.0,212.4 882.1,219.8 922.2,227.1 962.3,234.1 1002.4,240.9 1042.5,247.5 1082.6,253.9 1122.7,260.1 1162.8,264.4 1202.9,264.4 1243.0,264.4 1283.1,264.4 1323.2,264.4 1363.3,264.4 1403.4,264.4 1443.5,264.4 1483.6,264.4 1523.7,264.4 1563.8,264.4 1603.9,264.4 1644.0,264.4\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 296,
+     "w": 160,
+     "t": "0 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 361,
+     "y": 296,
+     "w": 160,
+     "t": "1 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 762,
+     "y": 296,
+     "w": 160,
+     "t": "2 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1163,
+     "y": 296,
+     "w": 160,
+     "t": "3 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 296,
+     "w": 160,
+     "t": "4 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 130,
+     "w": 400,
+     "t": "glicogênio muscular",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 40,
+     "w": 460,
+     "t": "o sintoma tem horário marcado",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Terceiro erro · nada para a duração",
+   "titulo": "Não é condicionamento. É aritmética",
+   "destaque": "Passou de 75 minutos: comece a comer na primeira hora, por relógio e não por fome. E treine o intestino nos treinos.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "comida",
+   "tipo": "duas",
+   "eyebrow": "Uma pós feita para o Brasil",
+   "titulo": "Nada disso exige gel",
+   "esq": {
+    "t": "Comida de verdade",
+    "cor": "petr",
+    "itens": [
+     "banana média: cerca de 25 g",
+     "pão francês com geleia: mais de 30 g",
+     "tapioca com mel, bolacha de água e sal",
+     "doce de banana, rapadura, tâmaras, água de coco"
+    ]
+   },
+   "dir": {
+    "t": "O gel",
+    "cor": "ambar",
+    "itens": [
+     "compacto, não amassa, rótulo com a quantidade",
+     "conveniência, não requisito fisiológico",
+     "custa muitas vezes uma banana"
+    ]
+   },
+   "destaque": "Para quem pedala quatro horas toda semana, o custo decide se a estratégia é seguida. Estratégia abandonada tem eficácia zero.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Três erros com o mesmo nutriente",
+   "titulo": "Quanto tempo, que intensidade, quando é a próxima sessão",
+   "regras": [
+    "Demais para a demanda: conte as horas reais de treino",
+    "De menos para a intensidade: teste de seis semanas em torno das sessões intensas",
+    "Nada para a duração: comer por relógio a partir da primeira hora"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "Gramas por quilo e plano alimentar."
+    },
+    {
+     "t": "Educador e preparador físico",
+     "x": "As horas e a intensidade reais."
+    },
+    {
+     "t": "Toda a equipe",
+     "x": "O sintoma de horário marcado."
+    }
+   ],
+   "quem": "A queda em alta intensidade de quem corta carboidrato tem explicação. Não é falta de vontade."
+  }
+ ]
+}

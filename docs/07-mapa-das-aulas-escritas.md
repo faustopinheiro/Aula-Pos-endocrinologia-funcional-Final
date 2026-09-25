@@ -111,17 +111,28 @@ disponibilidade energética, que abre o Módulo 4.
 
 ## Módulo 4 — Nutrição Esportiva · 12 aulas
 
+**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 e 3: decks enxutos, gráficos
+em SVG, referências conferidas. Capa e fecho em petróleo, a cor do módulo (docs/08).
+Casos clínicos no módulo: dois, o teto (4.2, a triatleta amadora de 31 anos; 4.12, o caso de
+alimentação desordenada; ambos ditos como caso ilustrativo). As demais aulas usam contas e quadros
+típicos, sem pessoa.
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 4.1 | Disponibilidade energética | 22 | 11 | NÚMERO | [slides](https://claude.ai/artifact/HEzNWExXWaDNCBb8PQucjb) |
+| 4.2 | Estimativa da disponibilidade energética | 13 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/8TMgguW9UuCBVz1zsVuxFD) |
+| 4.3 | Carboidrato no exercício | 13 | 9 | ERRO | [slides](https://claude.ai/artifact/SBqG5oTMubaRd86YESYpNX) |
+
+Ainda na versão anterior, sem deck:
+
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 4.1 **[M]** | Disponibilidade energética: o conceito que organiza tudo | M19-A01 + M13-A04 | FUNDIR |
-| 4.2 | Como calcular disponibilidade energética na prática | M13-A04 | PRONTA |
-| 4.3 | Carboidrato: quanto, quando e por quê | M19-A02 | PRONTA |
 | 4.4 | Periodização de carboidrato e treino com disponibilidade manipulada | M19-A05 | PRONTA |
 | 4.5 | Proteína: dose total, distribuição e qualidade | M19-A03 | PRONTA |
 | 4.6 | Lipídios e o papel real da gordura | M19-A04 | PRONTA |
 | 4.7 | Micronutrientes e deficiências prevalentes | M5-A04 + M5-A05 | FUNDIR |
 | 4.8 | Hidratação e reposição hidroeletrolítica | M19-A06 | PRONTA |
-| 4.9 **[M]** | Composição corporal: métodos, metas e o risco da meta errada | M6-A08 | PARCIAL |
+| 4.9 | Composição corporal: métodos, metas e o risco da meta errada | M6-A08 | PARCIAL |
 | 4.10 | Nutrição em dia de competição | — | NOVA |
 | 4.11 | Nutrição em viagem e recuperação pós-jogo | M19-A07 parcial | PARCIAL |
 | 4.12 | Alimentação desordenada: sinais, rastreio e encaminhamento | M11-A05 + M12-A08 | FUNDIR |
