@@ -163,7 +163,7 @@ medicina esportiva clínica, que abre o Módulo 6.
 
 ## Módulo 6 — Medicina Esportiva Clínica · 12 aulas
 
-**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 a 5: decks enxutos, gráficos
+**ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 a 5: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em tinta, a cor dos módulos 1 e 2 (docs/08).
 Dois casos no módulo (6.1 e 6.12, ditos como caso ilustrativo); as demais aulas usam perfis
 típicos, sem idade, e contas feitas em aula.
@@ -179,14 +179,20 @@ típicos, sem idade, e contas feitas em aula.
 | 6.7 | Broncoespasmo induzido pelo exercício | 15 | 12 | NÚMERO | [slides](https://claude.ai/artifact/DzjnUMt6eFDykUFYPvqaKq) |
 | 6.8 | Infecção e retorno ao treino | 14 | 11 | DECISÃO | [slides](https://claude.ai/artifact/DjbTfXDhrMVcAceaX4DGr3) |
 | 6.9 | Deficiência de ferro no atleta | 17 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/LsvPEkpGnZgM9HandCEtLs) |
+| 6.10 | Rastreio laboratorial no esporte | 16 | 12 | ERRO | [slides](https://claude.ai/artifact/NyAf5c9837UohuqrLkyDZe) |
+| 6.11 | Analgesia no esporte | 15 | 12 | DECISÃO | [slides](https://claude.ai/artifact/TuM4SBdrVDgHjTdG23inNQ) |
+| 6.12 | Exercício na doença crônica | 18 | 12 | CASO | [slides](https://claude.ai/artifact/U2aKTDu9vRviZ2Jjufwctu) |
 
-Ainda na versão anterior, sem deck:
+Total: 3 h 23 min em 12 aulas, 143 slides. A 6.12 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
+prevenção de lesões, que abre o Módulo 7.
 
-| Slot | Aula | Min | Arquitetura |
-|---|---|---|---|
-| 6.10 | Rastreio laboratorial: o que pedir e o que não pedir | 21 | ERRO |
-| 6.11 | Analgesia, anti-inflamatórios e corticoides | 22 | DECISÃO |
-| 6.12 | Exercício e doença crônica: o paciente que treina | 24 | CASO |
+Âncoras brasileiras do módulo: SBC/SBMEE 2019 (ECG de repouso classe I mesmo no
+amador), substituição adicional e permanente por concussão (IFAB; a CBF foi a
+primeira confederação filiada à FIFA a adotá-la, Brasileirão 2024), Lei Lucas
+(13.722/2018), levantamento da RBME sobre protocolos dos clubes profissionais de
+São Paulo, e lista proibida da WADA 2026 (beta-2 agonistas, glicocorticoides e
+infusões acima de 100 mL/12 h).
 
 ## Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção · 13 aulas
 

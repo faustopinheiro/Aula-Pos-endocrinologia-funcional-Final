@@ -1,0 +1,135 @@
+"""Spec do deck 6.10. Gera 06-10.json ao lado deste arquivo."""
+import json, math, os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "ferramentas", "slides"))
+from desenho import *
+
+S = []
+
+# 1. perfil
+S.append({"id": "perfil", "tipo": "frase", "fundo": "tinta", "eyebrow": "O check-up completo, só para garantir",
+          "frase": "Pedir exame não é de graça.",
+          "apoio": "Nódulo pequeno, repetição, punção, resultado indeterminado, meses de ansiedade, às vezes cirurgia de lesão benigna. Uma cascata de cuidado a partir de um achado incidental."})
+
+# 2. assimetria
+S.append({"id": "assimetria", "tipo": "duas", "eyebrow": "Por que o excesso é a regra", "titulo": "Exame é intervenção, como remédio",
+          "esq": {"t": "Quando se prescreve um remédio", "cor": "petr",
+                  "itens": ["perguntam a indicação", "perguntam o efeito adverso", "perguntam a interação"]},
+          "dir": {"t": "Quando se pedem quarenta exames", "cor": "verm",
+                  "itens": ["ninguém pergunta nada", "quem pede pouco parece descuidado", "nada empurra de volta"]},
+          "destaque": "Não é uma aula contra exames. É sobre indicação, benefício e dano, e o único freio é o critério de quem assina.",
+          "destaque_cor": "tinta"})
+
+# 3. probabilidade
+p = [svg_abre(1664, 300, "Barras da probabilidade de pelo menos um resultado fora da faixa em pessoa saudável: 5% com 1 exame, 23% com 5, 40% com 10, 64% com 20, 76% com 28")]
+dados = [(1, 5), (5, 23), (10, 40), (20, 64), (28, 76)]
+bw, gap = 240, 90
+x = 90
+rs = []
+for n, pc in dados:
+    h = pc * 2.6
+    cor = AZUL if pc < 50 else FOSF
+    p.append(f'<rect x="{x}" y="{250 - h:.0f}" width="{bw}" height="{h:.0f}" rx="6" fill="{cor}"/>')
+    rs.append(rot(x, 250 - h - 44, f"{pc}%", w=bw, tam=30, cor=TINTA, peso=700, alinha="center"))
+    rs.append(rot(x, 262, f"{n} exame" + ("s" if n > 1 else ""), w=bw, tam=24, cor=MUDO, alinha="center"))
+    x += bw + gap
+p.append(f'<line x1="60" y1="250" x2="1640" y2="250" stroke="{MUDO}" stroke-width="3"/>')
+p.append("</svg>")
+S.append({"id": "faixa", "tipo": "diagrama", "h": 300, "svg": "".join(p), "rotulos": rs,
+          "eyebrow": "Erro um: fora da faixa é doente", "titulo": "5% dos saudáveis ficam fora, por construção",
+          "destaque": "Pelo menos um resultado fora da faixa numa pessoa saudável, supondo exames independentes: o painel amplo quase garante um achado.",
+          "destaque_cor": "verm", "fonte": "Cálculo: 1 − 0,95 elevado ao número de exames"})
+
+# 4. CK
+S.append({"id": "ck", "tipo": "numeros", "eyebrow": "Erro dois: a faixa do laudo vale para o atleta", "titulo": "A creatinoquinase de quem treina",
+          "numeros": [{"n": "82 a 1.083", "x": "U/L em 483 atletas homens", "cor": "petr"},
+                      {"n": "47 a 513", "x": "U/L em 245 atletas mulheres", "cor": "ambar"},
+                      {"n": "6 fatores", "x": "modalidade, tempo desde o treino, estado de treino, massa, sexo, ancestralidade", "cor": "tinta"}],
+          "destaque": "CK alta sem quadro clínico se explica pelo contexto antes de abrir investigação de miopatia.",
+          "destaque_cor": "tinta", "fonte": "Intervalos de referência em atletas, Br J Sports Med 2007"})
+
+# 5. régua
+S.append({"id": "regua", "tipo": "cards", "por_linha": 3, "eyebrow": "A mesma lógica em outros exames", "titulo": "A melhor régua é o basal dele",
+          "cards": [{"t": "Hemoglobina", "x": "diluída no endurance: a pseudoanemia", "cor": "petr"},
+                    {"t": "Creatinina", "x": "sobe com massa muscular", "cor": "ambar"},
+                    {"t": "FC e eletrocardiograma", "x": "o coração de atleta", "cor": "tinta"}],
+          "destaque": "Não é “qual o valor normal?”. É “qual o valor normal desta pessoa, treinando isso, colhido quando?”",
+          "destaque_cor": "petr"})
+
+# 6. pergunta
+S.append({"id": "pergunta", "tipo": "duas", "eyebrow": "Erro três: pedir e ver o que aparece", "titulo": "Exame responde pergunta, não faz",
+          "esq": {"t": "Ferritina com pergunta", "cor": "petr",
+                  "itens": ["fadiga progressiva", "fluxo menstrual intenso", "desempenho caindo", "qualquer resultado informa"]},
+          "dir": {"t": "Ferritina sem pergunta", "cor": "verm",
+                  "itens": ["homem jovem sem sintoma", "item 17 de um painel", "valor baixo: tratamento sem indicação", "é loteria"]},
+          "destaque": "O que eu vou fazer de diferente com cada resultado possível? Se a resposta for nada, o exame não precisa ser pedido.",
+          "destaque_cor": "tinta"})
+
+# 7. cascata
+S.append({"id": "cascata", "tipo": "numeros", "eyebrow": "Erro quatro: achar alguma coisa é sempre ganho", "titulo": "A cascata é quase universal",
+          "numeros": [{"n": "376", "x": "internistas responderam a uma pesquisa nacional americana", "cor": "tinta"},
+                      {"n": "99,4%", "x": "já viveram uma cascata depois de achado incidental", "cor": "verm"},
+                      {"n": "4 custos", "x": "cascata, rótulo, afastamento, dano do procedimento", "cor": "ambar"}],
+          "destaque": "No esporte, achado sem clínica tira atleta de treino e de competição enquanto se investiga o que não incomodava.",
+          "destaque_cor": "verm", "fonte": "JAMA Netw Open 2019"})
+
+# 8. campeões
+S.append({"id": "campeoes", "tipo": "cards", "por_linha": 2, "eyebrow": "Onde a cascata costuma começar", "titulo": "Os campeões de achado incidental",
+          "cards": [{"t": "Nódulo de tireoide", "x": "ultrassom sem indicação; quase sempre benigno", "cor": "ambar"},
+                    {"t": "Coluna de quem não tem dor", "x": "degeneração e hérnia viram explicação para qualquer dor futura", "cor": "ambar"},
+                    {"t": "Abdome e rins", "x": "ultrassom de rotina", "cor": "ambar"},
+                    {"t": "O valor isolado do painel", "x": "três consultas e volta ao normal na repetição", "cor": "ambar"}],
+          "destaque": "Antes de pedir, imagine a conversa em que você explica um achado que não muda nada, e o que acontece com o atleta depois.",
+          "destaque_cor": "tinta"})
+
+# 9. painéis
+S.append({"id": "paineis", "tipo": "tabela", "eyebrow": "Erro cinco: o painel funcional detecta antes", "titulo": "O que é vendido como rastreio e não é",
+          "cab": ["Pedido", "Por que não"],
+          "larguras": [38, 62],
+          "linhas": [["IgG ou IgG4 alimentar", "não recomendado; indica exposição, gera exclusões sem motivo"],
+                     ["Estresse oxidativo, mineralograma", "caro, não muda conduta, soma falso-positivo"],
+                     ["Hormônio em saliva, assinatura mensal", "sem indicação, sem pergunta"],
+                     ["Testosterona sem sintoma", "colhida à tarde, sem repetir, abre prescrição"],
+                     ["Tireoide na restrição energética", "adaptação esperada, não doença"]],
+          "destaque_cor": "verm", "fonte": "Academia europeia de alergia, Allergy 2008, com apoio da americana, 2010"})
+
+# 10. contraponto
+S.append({"id": "contraponto", "tipo": "duas", "eyebrow": "Para não cair no extremo oposto", "titulo": "Rastreio com indicação existe",
+          "esq": {"t": "Com pergunta", "cor": "petr",
+                  "itens": ["pressão, lipídios, glicemia por idade e risco", "rastreios oncológicos por faixa etária", "exame dirigido por sintoma ou grupo de risco"]},
+          "dir": {"t": "Check-up completo", "cor": "verm",
+                  "itens": ["muitos itens", "nenhuma pergunta", "achado garantido"]},
+          "destaque": "A diferença não é o número de itens. É a existência de uma pergunta antes do pedido.",
+          "destaque_cor": "tinta"})
+
+# 11. o que fazer
+S.append({"id": "fazer", "tipo": "tabela", "eyebrow": "O que fazer", "titulo": "Pergunta, momento, basal, decisão prévia",
+          "cab": ["Cenário", "O pedido"],
+          "larguras": [34, 66],
+          "linhas": [["Fadiga e queda de desempenho", "hemograma, ferritina, saturação, PCR, tireoide, glicemia; antes, sono, carga, energia"],
+                     ["Irregularidade menstrual", "avaliação dirigida; a pergunta sobre energia vem antes"],
+                     ["Adulto começando a treinar", "pressão, lipídios, glicemia, risco cardiovascular"],
+                     ["Adolescente", "o mínimo: crescimento, alimentação, ferro"],
+                     ["Sintoma no esforço", "não é rastreio laboratorial: triagem cardiológica"]],
+          "destaque": "Escreva a pergunta numa frase, padronize a coleta, construa um basal enxuto, e decida o que fazer com cada resultado antes de vê-lo.",
+          "destaque_cor": "petr"})
+
+# 12. fecho
+S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "As cinco correções", "titulo": "A pergunta que vem antes do pedido",
+          "regras": ["Fora da faixa não é doente; a régua do atleta é ele mesmo",
+                     "Se nenhum resultado muda a conduta, o exame não precisa existir",
+                     "Achado incidental tem custo; painel funcional não detecta antes"],
+          "cards": [{"t": "Médico", "x": "Indica, interpreta, decide. Dizer não também é ato médico."},
+                    {"t": "A comissão", "x": "Explica que excesso tem custo; não manda fazer painel por queixa."},
+                    {"t": "A organização", "x": "Registra, guarda e compara com o basal."}],
+          "quem": "Pedir exame é uma intervenção: indicação, benefício e dano."})
+
+spec = {"arquivo": "aulas/MOD06/06-10-rastreio-laboratorial-o-que-pedir-e-o-que-nao-pedir.md",
+        "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
+        "titulo": "Rastreio laboratorial no esporte", "subtitulo": "Cinco erros de pedido e interpretação",
+        "nota_capa": "Entra pelo check-up completo e pela cascata.",
+        "secoes": {"perfil": ["O perfil, a assimetria e a faixa de referência.", "capa"],
+                   "ck": ["A régua do atleta e a pergunta.", "ck"],
+                   "cascata": ["Achado incidental, painéis e o que fazer.", "cascata"]},
+        "slides": S}
+json.dump(spec, open(os.path.join(os.path.dirname(__file__), "06-10.json"), "w"), ensure_ascii=False, indent=1)
+print("06-10.json:", len(S), "slides")

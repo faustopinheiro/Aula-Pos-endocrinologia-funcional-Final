@@ -1,0 +1,390 @@
+{
+ "arquivo": "aulas/MOD06/06-11-analgesia-anti-inflamatorios-e-corticoides.md",
+ "modulo": "Medicina Esportiva Clínica",
+ "tema": "tinta",
+ "titulo": "Analgesia no esporte",
+ "subtitulo": "Anti-inflamatórios, corticoides e o que a dor informa",
+ "nota_capa": "Entra pelo número da Copa de 2010.",
+ "secoes": {
+  "copa": [
+   "O número, as decisões e o princípio.",
+   "capa"
+  ],
+  "lateral": [
+   "O lateral, os custos e o corredor.",
+   "lateral"
+  ],
+  "corticoide": [
+   "Corticoide, antidoping e a escada.",
+   "corticoide"
+  ]
+ },
+ "slides": [
+  {
+   "id": "copa",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Copa do Mundo de 2010",
+   "frase": "Até um terço dos jogadores tomou anti-inflamatório antes de cada partida.",
+   "apoio": "Mais da metade usou durante o torneio, segundo as listas declaradas pelos médicos das seleções. O título do trabalho: “lição não aprendida”."
+  },
+  {
+   "id": "decisoes",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "As três decisões da aula",
+   "titulo": "Resolve, esconde, custa",
+   "cards": [
+    {
+     "t": "Véspera de jogo",
+     "x": "o lateral pede “o de sempre” para não sentir o tornozelo",
+     "cor": "verm"
+    },
+    {
+     "t": "Prova longa e força",
+     "x": "o corredor toma ibuprofeno antes das duas",
+     "cor": "ambar"
+    },
+    {
+     "t": "Três semanas para competir",
+     "x": "a atleta com tendinopatia quer infiltrar",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "O que essa medicação resolve, o que ela esconde, e o que ela custa.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "principio",
+   "tipo": "lista",
+   "eyebrow": "Dor é informação",
+   "titulo": "Três perguntas antes de qualquer analgésico",
+   "itens": [
+    {
+     "t": "O que dói, e por quê?",
+     "x": "dor sem diagnóstico é dor sem plano",
+     "cor": "petr"
+    },
+    {
+     "t": "Há quanto tempo?",
+     "x": "dor de sete semanas quase nunca se resolve com comprimido",
+     "cor": "ambar"
+    },
+    {
+     "t": "O que muda se a dor sumir?",
+     "x": "se ele vai treinar igual, a medicação não trata: permite",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 26
+  },
+  {
+   "id": "lateral",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "A véspera de jogo",
+   "titulo": "O anti-inflamatório de sempre: não",
+   "cards": [
+    {
+     "t": "Sem racional",
+     "x": "não previne lesão, não melhora desempenho, não protege articulação",
+     "cor": "verm"
+    },
+    {
+     "t": "Tira o sinal",
+     "x": "sem o incômodo, ele entra na dividida em que não entraria",
+     "cor": "verm"
+    },
+    {
+     "t": "O cenário do rim",
+     "x": "calor, desidratação e esforço máximo",
+     "cor": "ambar"
+    },
+    {
+     "t": "O vestiário",
+     "x": "quem entrega, o quê, em que dose, onde está escrito?",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "No lugar: examinar, ajustar carga, analgesia com diagnóstico e prazo, considerar a via tópica, registrar.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "nolugar",
+   "tipo": "duas",
+   "eyebrow": "O que fazer no lugar",
+   "titulo": "Paracetamol não é anti-inflamatório",
+   "esq": {
+    "t": "Analgesia com plano",
+    "cor": "petr",
+    "itens": [
+     "examinar o que dói",
+     "ajustar a carga e tratar a causa",
+     "fármaco, dose, prazo, reavaliação",
+     "registrar quem prescreveu e até quando"
+    ]
+   },
+   "dir": {
+    "t": "A via tópica",
+    "cor": "ambar",
+    "itens": [
+     "dor superficial e localizada",
+     "concentração no local",
+     "exposição sistêmica bem menor"
+    ]
+   },
+   "destaque": "Quem precisa só de analgesia nem sempre precisa de anti-inflamatório sistêmico.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "rim",
+   "tipo": "numeros",
+   "eyebrow": "Os custos do anti-inflamatório sistêmico",
+   "titulo": "Ultramaratona de 80 km, ibuprofeno contra placebo",
+   "numeros": [
+    {
+     "n": "44%",
+     "x": "dos corredores com lesão renal aguda, no conjunto",
+     "cor": "tinta"
+    },
+    {
+     "n": "52% × 34%",
+     "x": "ibuprofeno contra placebo, sem significância",
+     "cor": "verm"
+    },
+    {
+     "n": "5,5",
+     "x": "corredores tratados para causar um caso",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "E ainda: estômago e perda de sangue, que levam à deficiência de ferro; hiponatremia; pressão no adulto mais velho; dose somada por nomes comerciais diferentes.",
+   "destaque_cor": "tinta",
+   "fonte": "Ensaio randomizado, Emerg Med J 2017"
+  },
+  {
+   "id": "corredor",
+   "tipo": "duas",
+   "eyebrow": "O corredor amador",
+   "titulo": "Dois usos ruins, por razões diferentes",
+   "esq": {
+    "t": "Antes da prova longa",
+    "cor": "verm",
+    "itens": [
+     "esforço prolongado, calor, desidratação",
+     "fluxo renal reduzido",
+     "risco no sódio",
+     "não é prevenção: é risco somado"
+    ]
+   },
+   "dir": {
+    "t": "Antes do treino de força",
+    "cor": "ambar",
+    "itens": [
+     "1.200 mg por dia, 8 semanas",
+     "menos ganho de força e de massa",
+     "doses menores: efeito limitado",
+     "o alvo é o uso crônico e preventivo"
+    ]
+   },
+   "destaque": "A inflamação depois do treino faz parte do sinal que produz adaptação. Dor recorrente pede técnica, calçado, progressão e força.",
+   "destaque_cor": "tinta",
+   "fonte": "Ensaio randomizado em adultos jovens, Acta Physiol 2018"
+  },
+  {
+   "id": "corticoide",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Esquema de duas curvas de dor ao longo de meses: com corticoide a dor cai rápido e depois volta acima da curva da reabilitação, que cai devagar e continua caindo\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"60\" y1=\"270\" x2=\"1640\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M60,40 C160,230 300,240 420,220 C640,180 900,110 1640,100\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><path d=\"M60,40 C300,90 600,160 900,200 C1200,235 1400,245 1640,250\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1160,
+     "y": 50,
+     "w": 460,
+     "t": "corticoide",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 196,
+     "w": 460,
+     "t": "reabilitação",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 278,
+     "w": 300,
+     "t": "semanas",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 278,
+     "w": 300,
+     "t": "meses",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 0,
+     "w": 200,
+     "t": "dor",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A atleta com tendinopatia",
+   "titulo": "Alívio rápido, inversão depois",
+   "destaque": "Superior no curto prazo, as outras condutas passam à frente no médio e longo prazo, e sinal de prejuízo com injeções repetidas.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos · revisão sistemática, Lancet 2010"
+  },
+  {
+   "id": "eliminacao",
+   "tipo": "tabela",
+   "eyebrow": "Glicocorticoides e antidoping",
+   "titulo": "Os períodos de eliminação antes da competição",
+   "cab": [
+    "Via",
+    "A maioria",
+    "As exceções"
+   ],
+   "larguras": [
+    26,
+    22,
+    52
+   ],
+   "linhas": [
+    [
+     "Oral",
+     "3 dias",
+     "10 dias: triancinolona e triancinolona acetonida"
+    ],
+    [
+     "Intramuscular",
+     "5 dias",
+     "10: prednisolona, prednisona; 60: triancinolona acetonida"
+    ],
+    [
+     "Local (articular, peritendínea)",
+     "3 dias",
+     "10: prednisolona, prednisona, triancinolonas"
+    ]
+   ],
+   "destaque": "Proibidos em competição por via injetável, oral ou retal. Depósito pode ficar detectável além do prazo, e a lista muda: confira a vigente.",
+   "destaque_cor": "verm",
+   "fonte": "Lista de substâncias proibidas da WADA, 2026, S9"
+  },
+  {
+   "id": "escada",
+   "tipo": "lista",
+   "eyebrow": "A escada que substitui o comprimido reflexo",
+   "titulo": "A analgesia fica no meio, não na base",
+   "itens": [
+    {
+     "t": "Diagnóstico",
+     "x": "o que dói, por quê, há quanto tempo, o que agrava",
+     "cor": "petr"
+    },
+    {
+     "t": "Carga",
+     "x": "volume, intensidade, superfície, calçado, gesto: causa e tratamento",
+     "cor": "petr"
+    },
+    {
+     "t": "Reabilitação ativa",
+     "x": "exercício terapêutico",
+     "cor": "petr"
+    },
+    {
+     "t": "Analgesia com prazo",
+     "x": "fármaco, dose, dias, reavaliação",
+     "cor": "ambar"
+    },
+    {
+     "t": "Reavaliar",
+     "x": "o que a analgesia permitiu fazer?",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 16
+  },
+  {
+   "id": "controle",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Para qualquer clube ou academia",
+   "titulo": "Quatro perguntas de controle",
+   "cards": [
+    {
+     "t": "Quem prescreve?",
+     "x": "prescrição é médica, inclusive a do anti-inflamatório comum",
+     "cor": "petr"
+    },
+    {
+     "t": "Onde está registrado?",
+     "x": "medicação, data, dose, responsável",
+     "cor": "petr"
+    },
+    {
+     "t": "Ele sabe o que toma?",
+     "x": "o princípio ativo, não o comprimido branco",
+     "cor": "ambar"
+    },
+    {
+     "t": "Há quanto tempo?",
+     "x": "a pergunta que revela o uso crônico",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Analgésico sem data de término vira uso crônico por inércia.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "As três decisões, respondidas",
+   "titulo": "Examinar, ajustar, reabilitar, e só então medicar com prazo",
+   "regras": [
+    "Não existe anti-inflamatório profilático no esporte",
+    "Dose alta crônica custa rim, estômago, ferro e adaptação",
+    "Corticoide alivia rápido e pode custar depois; confira a eliminação"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Prescreve fármaco, dose, via e prazo; decide infiltração."
+    },
+    {
+     "t": "Fisio e preparação",
+     "x": "Exercício terapêutico; carga, técnica e material."
+    },
+    {
+     "t": "Todos",
+     "x": "Não distribuem nem emprestam; registram e perguntam."
+    }
+   ],
+   "quem": "“Só um anti-inflamatório” continua sendo prescrição."
+  }
+ ]
+}

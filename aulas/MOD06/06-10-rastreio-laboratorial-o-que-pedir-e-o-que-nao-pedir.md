@@ -1,234 +1,184 @@
-# Módulo 6 · Aula 6.10 — Rastreio laboratorial: o que pedir e o que não pedir
+# Módulo 6 · Aula 6.10 — Rastreio laboratorial no esporte: cinco erros de pedido e interpretação
 
 **Módulo 6 — Medicina Esportiva Clínica**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 21 minutos · 8 slides · Arquitetura: ERRO
+Duração: 16 minutos · 12 slides · Arquitetura: ERRO
 
 ---
 
-📊 **[SLIDE 1 DE 8]**
-*Visual: uma fileira de dominós caindo, começando num pedido de exames com muitos itens marcados e terminando numa cicatriz no pescoço.*
-*Teleprompter: (entra pelo caso, sem julgamento de quem pediu)*
+📊 **[SLIDE 1 DE 12]**
+*Visual: fundo escuro, uma fileira de dominós caindo, começando num pedido de exames cheio de itens marcados.*
+*Teleprompter: (entra pelo perfil, sem julgar quem pediu)*
 
-**Sandra tem 39 anos, corre três vezes por semana e não tinha queixa nenhuma.** Foi à consulta pedir "um check-up completo, só para garantir".
+Um perfil comum: a corredora amadora, sem queixa nenhuma, que vai à consulta pedir um check-up completo, só para garantir. Sai com um pedido generoso: painel amplo de sangue, ultrassom de abdome, ultrassom de tireoide.
 
-Saiu com um pedido generoso: **painel amplo de sangue, ultrassom de abdome, ultrassom de tireoide.**
+E a sequência típica a partir daí é conhecida. O ultrassom de tireoide mostra um nódulo pequeno. Vem a repetição em seis meses, a punção, às vezes um resultado indeterminado, outra punção, meses de ansiedade, às vezes o treino interrompido, e, numa parte dos casos, uma cirurgia que confirma lesão benigna. Uma pessoa sem doença pode terminar com cicatriz e remédio para a vida toda.
 
-**O ultrassom de tireoide mostrou um nódulo de nove milímetros.**
-
-O que veio depois: repetição em seis meses, punção aspirativa, **resultado indeterminado**, segunda punção, ansiedade suficiente para ela **parar de correr por dois meses**, e finalmente uma **cirurgia** — que mostrou **lesão benigna**.
-
-**Sandra ficou com uma cicatriz, com reposição de hormônio tireoidiano para o resto da vida, e com dezoito meses ruins. E ela nunca teve doença.**
-
-Isso tem nome e tem literatura: **cascata de cuidado a partir de achado incidental.**
-
-Esta aula é sobre **o erro de achar que pedir exame é de graça.**
-
-E ela não é uma aula contra exames. **Exame bem indicado salva vida** — as aulas 6.2 e 6.9 mostraram isso. **É uma aula sobre o fato de que pedir exame é uma intervenção, com indicação, com benefício e com dano — exatamente como um medicamento.**
-
-Repare na assimetria cultural, porque ela explica por que o excesso é a regra: **se alguém prescreve um remédio, perguntam sobre efeito adverso, interação e necessidade. Se alguém pede quarenta exames, ninguém pergunta nada — e quem pede poucos corre o risco de parecer descuidado.**
-
-**O sistema inteiro empurra para o excesso, e não existe nada empurrando de volta.** O único freio é o critério de quem assina.
-
-Vamos desmontar **cinco erros**: sobre a faixa de referência, sobre a régua do atleta, sobre pedir sem pergunta, sobre o achado incidental e sobre os painéis que não medem nada útil.
-
-Fronteiras: **exames cardiológicos são a 6.2** · **ferro é a 6.9** · **hormônios e o eixo em restrição energética são o Módulo 3** · **substâncias e infusões são a 5.10.**
+Isso tem nome e literatura: cascata de cuidado a partir de achado incidental. E esta aula é sobre o erro de achar que pedir exame é de graça.
 
 ---
 
-📊 **[SLIDE 2 DE 8]**
-*Visual: uma curva em sino com as duas caudas de 2,5% pintadas de vermelho, e ao lado uma barra crescente: 1 exame 5% · 10 exames 40% · 20 exames 64%.*
-*Teleprompter: (erro 1 — a estatística que ninguém conta ao paciente)*
+📊 **[SLIDE 2 DE 12]**
+*Visual: duas colunas: "remédio: perguntam indicação, efeito adverso, interação" e "quarenta exames: ninguém pergunta nada".*
+*Teleprompter: (a assimetria que explica o excesso)*
 
-**Erro 1: "está fora da faixa, então tem alguma coisa errada."**
+Não é uma aula contra exames. Exame bem indicado salva vida, e as aulas de triagem cardiológica e de ferro mostraram isso. É uma aula sobre o fato de que pedir exame é uma intervenção, com indicação, benefício e dano, como um medicamento.
 
-A faixa de referência **não é a faixa do saudável.** Ela é uma construção estatística: **o miolo de 95 por cento de uma população de referência.** Por definição, **5 por cento das pessoas saudáveis ficam fora dela** — 2,5 por cento acima, 2,5 por cento abaixo.
+Repare na assimetria cultural. Se alguém prescreve um remédio, perguntam sobre efeito adverso, interação e necessidade. Se alguém pede quarenta exames, ninguém pergunta nada, e quem pede poucos corre o risco de parecer descuidado.
 
-**Isso significa que "alterado" e "doente" são palavras diferentes.**
+O sistema inteiro empurra para o excesso, e nada empurra de volta. O único freio é o critério de quem assina.
 
-E agora a conta que muda a forma de pedir exame. Se cada exame tem cerca de 5 por cento de chance de vir fora da faixa **numa pessoa saudável**, a chance de **pelo menos um** resultado alterado cresce com o número de exames pedidos:
-
-**Um exame: 5 por cento. Cinco exames: cerca de 23. Dez exames: cerca de 40. Vinte exames: cerca de 64 por cento.**
-
-**Num painel de vinte e oito itens — que é um "check-up completo" bem comum —, a probabilidade de encontrar pelo menos um valor fora da faixa numa pessoa perfeitamente saudável passa de 75 por cento.**
-
-**Leia isso de novo: o painel amplo quase garante um achado anormal.** E cada achado anormal gera repetição, encaminhamento, imagem, ansiedade — e, às vezes, cirurgia.
-
-**É a mesma aritmética da 6.4 e da 6.2**, aplicada ao sangue: **teste bom, aplicado a quem tem baixa probabilidade de doença, produz principalmente falso-positivo.**
-
-E isso não é argumento para ignorar resultado alterado. **É argumento para pedir com pergunta** — porque um valor alterado em quem tinha motivo para ser investigado significa muito mais do que o mesmo valor num painel pedido "para garantir".
+Cinco erros: sobre a faixa de referência, sobre a régua do atleta, sobre pedir sem pergunta, sobre o achado incidental e sobre os painéis que não medem nada útil.
 
 ---
 
-📊 **[SLIDE 3 DE 8]**
-*Visual: duas réguas paralelas de CK — a da população geral, curta; a de atletas, muito mais longa — com marcações nas duas.*
-*Teleprompter: (erro 2 — o laudo compara seu atleta com gente que não é ele)*
+📊 **[SLIDE 3 DE 12]**
+*Visual: curva em sino com as duas caudas de 2,5% destacadas, e uma barra crescente: 1 exame 5%, 5 exames 23%, 10 exames 40%, 20 exames 64%.*
+*Teleprompter: (erro um: a estatística que ninguém conta ao paciente)*
 
-**Erro 2: "a faixa do laudo vale para o meu atleta."**
+Erro um: está fora da faixa, então tem alguma coisa errada.
 
-**Não vale.** O laudo compara a pessoa com uma população de referência **que ela não integra** — e, em alguns analitos, a diferença é enorme.
+A faixa de referência não é a faixa do saudável. É uma construção estatística: o miolo de noventa e cinco por cento de uma população de referência. Por definição, cinco por cento das pessoas saudáveis ficam fora dela, metade acima e metade abaixo. Alterado e doente são palavras diferentes.
 
-**O exemplo mais claro é a creatinoquinase, a CK.** **Mougios, em 2007, mediu CK em 483 atletas homens e 245 atletas mulheres**, com coletas ao longo do período de treino e competição — na vida real, não num dia artificialmente escolhido. Os intervalos que ele derivou foram **de cerca de 82 a 1.083 U/L em homens e de 47 a 513 em mulheres.**
+Agora a conta que muda a forma de pedir. Se cada exame tem cerca de cinco por cento de chance de vir fora da faixa numa pessoa saudável, e tratando os exames como independentes, a chance de pelo menos um resultado alterado cresce assim: um exame, cinco por cento; cinco exames, cerca de vinte e três; dez exames, cerca de quarenta; vinte exames, cerca de sessenta e quatro. Num painel de vinte e oito itens, passa de setenta e cinco por cento.
 
-Compare com a faixa que vem no laudo comum e a conclusão salta: **um monte de atleta saudável é "CK alta" segundo o papel.**
+O painel amplo quase garante um achado anormal. É a mesma aritmética das aulas de triagem cardiológica e de morte súbita: teste bom, aplicado a quem tem baixa probabilidade de doença, produz principalmente falso-positivo.
 
-**E a CK tem outras camadas.** Ela muda com **a modalidade** — esporte com muito impacto excêntrico produz valores muito maiores —, com **o tempo desde a sessão**, com **o estado de treinamento** (o mesmo estímulo repetido produz menos elevação), com **massa muscular**, com **sexo** e com **ancestralidade** — diferenças de CK entre grupos de ancestralidade distinta estão descritas há décadas, e o laudo brasileiro em geral não separa isso.
-
-**A regra prática: CK "alta" sem quadro clínico, em quem treina, primeiro se explica por modalidade, tempo desde o treino, massa muscular e ancestralidade — antes de abrir investigação de miopatia.** Nenhuma dessas informações está no laudo, e todas estão com quem atende.
-
-**E a mesma lógica vale para outros analitos:**
-
-**Hemoglobina** — a diluição do atleta de endurance, que a 6.9 chamou de pseudoanemia.
-
-**Creatinina** — sobe com massa muscular, e pode sugerir função renal pior do que a real em atleta muito musculoso.
-
-**Frequência cardíaca de repouso e alterações do eletrocardiograma** — que foram a 6.2 e a 6.3.
-
-**A pergunta certa nunca é "qual é o valor normal?". É: "qual é o valor normal desta pessoa, treinando isso, colhido quando?"** — e a melhor régua do mundo é **um exame basal dela, colhido em bom momento, quando estava bem.**
+E isso não é argumento para ignorar resultado alterado. É argumento para pedir com pergunta.
 
 ---
 
-📊 **[SLIDE 4 DE 8]**
-*Visual: duas pessoas com o mesmo pedido de ferritina na mão — uma com sintomas listados ao redor, outra sem nada.*
-*Teleprompter: (erro 3 — o exame não faz pergunta, ele responde)*
+📊 **[SLIDE 4 DE 12]**
+*Visual: duas réguas de CK lado a lado: a do laudo comum, curta; a de atletas, bem mais longa.*
+*Teleprompter: (erro dois: o laudo compara o atleta com gente que não é ele)*
 
-**Erro 3: "vamos pedir e ver o que aparece."**
+Erro dois: a faixa do laudo vale para o meu atleta.
 
-**Exame não faz pergunta. Exame responde pergunta.** E o quanto ele informa depende de quão provável era a doença **antes** de ele ser feito — a probabilidade pré-teste, que é construída na anamnese (**6.1**).
+Não vale. O laudo compara a pessoa com uma população de referência que ela não integra, e em alguns analitos a diferença é grande.
 
-**O mesmo exame, nas mesmas mãos, vale coisas diferentes:**
+O exemplo mais claro é a creatinoquinase, a CK. Um estudo de 2007 mediu a CK de 483 atletas homens e 245 atletas mulheres, colhida ao longo da temporada real de treino e competição. Os intervalos de referência derivados foram de 82 a 1.083 unidades por litro nos homens e de 47 a 513 nas mulheres. Compare com a faixa do laudo comum: muito atleta saudável é CK alta no papel.
 
-**Ferritina pedida numa corredora com fadiga progressiva, fluxo menstrual intenso e desempenho caindo** é um exame com probabilidade pré-teste alta: **qualquer resultado — alto ou baixo — informa de verdade.**
+E a CK muda com a modalidade, com muito esforço excêntrico produzindo valores maiores, com o tempo desde a sessão, com o estado de treinamento, com a massa muscular, com o sexo e com a ancestralidade.
 
-**A mesma ferritina, num homem de 35 anos assintomático, dentro de um painel de trinta itens**, é uma loteria: se vier 28, começa um tratamento que talvez ninguém precisasse; se vier 300, ninguém vai investigar, embora pudesse importar.
-
-**A pergunta que organiza todo pedido é: "o que eu vou fazer de diferente com cada resultado possível?"**
-
-**Se a resposta for "nada", o exame não precisa ser pedido.**
-
-Essa pergunta resolve a maior parte dos pedidos duvidosos, porque ela obriga a pensar **nas duas pontas**: no que se faz se vier alterado, **e** no que se faz se vier normal.
-
-E ela tem uma versão especialmente útil no esporte: **"um resultado normal aqui vai me tranquilizar de verdade, ou eu vou continuar preocupado do mesmo jeito?"** Se a preocupação permanece, o exame não era o instrumento certo — **provavelmente faltava história, exame físico ou tempo de observação.**
-
-**Um adendo que vale para a comissão técnica inteira:** quando um clube manda "fazer o painel de todos os atletas", **alguém precisa perguntar qual é a pergunta.** Painel institucional sem pergunta produz muitos achados irrelevantes, gasto alto — **e afasta atleta por motivo que não existia.**
+A regra: CK alta sem quadro clínico, em quem treina, primeiro se explica por modalidade, tempo desde o treino, massa muscular e ancestralidade, antes de abrir investigação de miopatia. Nenhuma dessas informações está no laudo, e todas estão com quem atende.
 
 ---
 
-📊 **[SLIDE 5 DE 8]**
-*Visual: os dominós do slide 1, agora numerados: achado → repetição → punção → indeterminado → cirurgia → reposição para a vida toda.*
-*Teleprompter: (erro 4 — o custo que não aparece na fatura)*
+📊 **[SLIDE 5 DE 12]**
+*Visual: três cartões: hemoglobina, creatinina, eletrocardiograma; embaixo, "a melhor régua é o basal dele".*
+*Teleprompter: (a mesma lógica em outros exames)*
 
-**Erro 4: "achar alguma coisa é sempre um ganho."**
+A mesma lógica vale para outros exames.
 
-**Achado incidental é um resultado que ninguém estava procurando e que, na maioria das vezes, não teria causado problema nenhum na vida daquela pessoa.**
+Hemoglobina: a diluição do atleta de endurance, a pseudoanemia da aula de ferro.
 
-E ele tem **quatro custos**, que quase nunca entram na conta:
+Creatinina: sobe com massa muscular, e pode sugerir função renal pior do que a real no atleta muito musculoso.
 
-**Custo 1 — a cascata.** Um achado puxa outro exame, que puxa um procedimento, que puxa uma decisão. **A história da Sandra é uma cascata inteira a partir de nove milímetros.**
+Frequência cardíaca de repouso e eletrocardiograma: o coração de atleta da aula sobre a zona cinzenta.
 
-**Custo 2 — o rótulo.** A pessoa que recebe o nome de uma condição passa a se comportar como doente: **ela treina com medo, reduz atividade, procura mais consultas.** Isso está descrito, e é especialmente grave em quem faz do corpo o seu trabalho.
-
-**Custo 3 — o afastamento.** No esporte, o achado sem clínica **tira atleta de treino e de competição**, às vezes por semanas, enquanto se investiga uma coisa que não estava incomodando.
-
-**Custo 4 — o dano direto do procedimento.** Punção, biópsia, contraste, cirurgia. **Toda intervenção tem risco — inclusive as que se fazem para investigar o que não era nada.**
-
-**Os campeões de achado incidental, na prática do esporte:**
-
-**Nódulo de tireoide** em ultrassom pedido sem indicação — extremamente comum, quase sempre benigno.
-
-**Alterações degenerativas e hérnias discais em imagem de coluna de atleta assintomático** — frequentes em quem nunca teve dor, e que viram "explicação" para qualquer queixa futura (**Módulos 7 e 8**).
-
-**Achados abdominais e renais** em ultrassom de rotina.
-
-**E o "resultado alterado" isolado de um painel amplo**, que gera três consultas e volta ao normal na repetição.
-
-**A regra: antes de pedir imagem ou painel sem pergunta, imagine a conversa em que você explica um achado que não muda nada — e o que vai acontecer com o atleta depois dela.**
+A pergunta certa nunca é qual o valor normal. É qual o valor normal desta pessoa, treinando isso, colhido quando. E a melhor régua é um exame basal dela, colhido num bom momento, quando estava bem.
 
 ---
 
-📊 **[SLIDE 6 DE 8]**
-*Visual: uma prateleira de "painéis" com etiquetas — IgG alimentar, estresse oxidativo, mineralograma capilar, painel hormonal em série — todas com um selo de "não recomendado".*
-*Teleprompter: (erro 5 — o que é vendido como rastreio e não é)*
+📊 **[SLIDE 6 DE 12]**
+*Visual: duas pessoas com o mesmo pedido de ferritina: uma rodeada de sintomas, outra sem nada.*
+*Teleprompter: (erro três: exame não faz pergunta, responde)*
 
-**Erro 5: "o painel completo/funcional detecta antes do problema aparecer."**
+Erro três: vamos pedir e ver o que aparece.
 
-Aqui está a parte comercial do problema, e ela precisa ser dita com nome:
+Exame não faz pergunta. Responde. E o quanto informa depende de quão provável era a doença antes dele, a probabilidade pré-teste, que se constrói na anamnese da primeira aula do módulo.
 
-**Painel de IgG ou IgG4 "para intolerância alimentar".** **As entidades de alergia — a europeia e a americana — são explícitas: testar IgG4 contra alimentos não é recomendado como ferramenta diagnóstica.** A presença desses anticorpos indica **exposição e tolerância** ao alimento, e não doença. **O que esse exame produz é uma lista de alimentos excluídos sem motivo** — o que, num atleta, significa energia e nutrientes retirados de uma dieta que já era apertada (**4.2**, **4.7**).
+O mesmo exame vale coisas diferentes. Ferritina numa corredora com fadiga progressiva, fluxo intenso e desempenho caindo tem probabilidade pré-teste alta: qualquer resultado informa. A mesma ferritina num homem jovem sem sintoma, dentro de um painel de trinta itens, é loteria: um valor baixo abre tratamento que talvez ninguém precisasse; um valor muito alto passa sem investigação.
 
-**Painéis de "estresse oxidativo", mineralograma capilar, dosagens seriadas de hormônio em saliva fora de indicação, e "check-ups metabólicos" de assinatura mensal.** Custam caro, não mudam conduta, **e cada item aumenta a chance de um achado que vai virar cascata** — pela conta do slide 2.
+A pergunta que organiza todo pedido: o que eu vou fazer de diferente com cada resultado possível? Se a resposta for nada, o exame não precisa ser pedido. E a versão útil no esporte: um resultado normal vai me tranquilizar de verdade, ou vou continuar preocupado? Se a preocupação fica, o exame não era o instrumento; provavelmente faltava história, exame físico ou tempo de observação.
 
-**Exame anual "de rotina" sem pergunta**, repetido todo ano por hábito.
-
-**E dois pedidos que aparecem muito na endocrinologia do esporte e merecem cuidado específico:**
-
-**Testosterona pedida em homem assintomático**, fora de contexto clínico, muitas vezes colhida à tarde, sem repetição e sem os exames que dão sentido à leitura — **e que abre a porta para prescrição que a 5.11 já discutiu.**
-
-**Painel de tireoide pedido para explicar fadiga em quem está em restrição energética** — onde alterações adaptativas são esperadas e **não** significam doença da tireoide (**Módulo 3**).
-
-**O contraponto honesto, para não cair no extremo oposto:** existem exames de rastreio com indicação sólida — **pressão arterial, perfil lipídico e glicemia conforme idade e risco** (a conta de risco da **6.2**), **rastreios oncológicos por faixa etária**, e **exames dirigidos por sintoma ou por grupo de risco**, como a ferritina da **6.9** ou a vitamina D em quem tem indicação.
-
-**A diferença entre esses e o "check-up completo" não é o número de itens. É a existência de uma pergunta antes do pedido.**
+E, quando um clube manda fazer o painel de todos os atletas, alguém precisa perguntar qual é a pergunta.
 
 ---
 
-📊 **[SLIDE 7 DE 8]**
-*Visual: um pedido de exame enxuto, com três linhas escritas à mão: a pergunta clínica, o momento da coleta, e "comparar com o basal de fevereiro".*
-*Teleprompter: (o que fazer — porque criticar é fácil e a aula precisa entregar conduta)*
+📊 **[SLIDE 7 DE 12]**
+*Visual: número grande "99,4%" e a legenda "dos médicos que responderam já viveram uma cascata depois de achado incidental".*
+*Teleprompter: (erro quatro: achar alguma coisa é sempre ganho)*
 
-**O que fazer, então.** Quatro regras para pedir bem.
+Erro quatro: achar alguma coisa é sempre um ganho.
 
-**Regra 1 — escreva a pergunta antes do pedido.** Uma frase: "investigar fadiga com queda de desempenho em corredora com fluxo menstrual intenso". **Quando a pergunta não sai numa frase, o pedido não deveria sair.**
+Achado incidental é um resultado que ninguém procurava e que, na maioria das vezes, não teria causado problema na vida daquela pessoa. E ele é frequente. Numa pesquisa nacional americana com internistas, publicada em 2019, 376 médicos responderam, e 99,4 por cento disseram já ter vivido uma cascata de cuidado depois de um achado incidental, com relatos de dano psicológico, físico e financeiro aos pacientes.
 
-**Regra 2 — defina o momento e padronize a coleta.** A 6.9 mostrou como isso decide o resultado: **longe de sessão intensa, longe de infecção, mesmo horário nas repetições.** Escrever isso no pedido custa dez segundos e salva o exame.
-
-**Regra 3 — construa o basal do atleta, com propósito.** Um conjunto **enxuto**, colhido em bom momento na pré-temporada, serve de régua para o ano inteiro — **e é isso que transforma "está fora da faixa" em "mudou em relação a ele mesmo"**, que é a leitura que importa. **Basal não é desculpa para painel gigante: é um conjunto pequeno, repetido no mesmo padrão.**
-
-**Regra 4 — decida o que fazer com cada resultado possível, antes de ver o resultado.**
-
-**E o roteiro por cenário, que é o que a prática pede:**
-
-**Fadiga com queda de desempenho:** hemograma, **ferritina, saturação de transferrina e PCR** (**6.9**), função tireoidiana, glicemia — e, antes de tudo, a revisão de **sono, carga e disponibilidade energética.**
-
-**Atleta mulher com irregularidade menstrual ou amenorreia:** avaliação médica dirigida, com a lógica do **Módulo 3** e do **Módulo 11** — e **a pergunta sobre energia vem antes do exame.**
-
-**Master iniciante:** **pressão, perfil lipídico, glicemia e cálculo de risco cardiovascular** (**6.2**) — e não ecocardiograma de rotina.
-
-**Adolescente:** o mínimo necessário, com atenção a **crescimento, alimentação e ferro** — e sem painel hormonal por curiosidade.
-
-**Suspeita cardiológica, sintoma no esforço ou história familiar:** **isso não é rastreio laboratorial, é a 6.2**, e vai por outro caminho.
+Os quatro custos que quase nunca entram na conta. A cascata: um achado puxa exame, que puxa procedimento, que puxa decisão. O rótulo: quem recebe o nome de uma condição passa a treinar com medo e a procurar mais consultas. O afastamento: no esporte, achado sem clínica tira atleta de treino e de competição enquanto se investiga o que não incomodava. E o dano do próprio procedimento: punção, biópsia, contraste, cirurgia.
 
 ---
 
-📊 **[SLIDE 8 DE 8]**
-*Visual: as cinco frases erradas riscadas, com a correção ao lado de cada uma, e o pedido enxuto do slide anterior embaixo.*
-*Teleprompter: (fecha com as correções, o escopo e a frase que resume o módulo)*
+📊 **[SLIDE 8 DE 12]**
+*Visual: quatro cartões com os campeões de achado incidental no esporte.*
+*Teleprompter: (onde a cascata costuma começar)*
 
-**As cinco correções:**
+Os campeões de achado incidental no esporte.
 
-**"Fora da faixa é doente."** → **A faixa é o miolo de 95 por cento de uma população: 5 por cento dos saudáveis ficam fora por construção — e vinte exames dão cerca de 64 por cento de chance de pelo menos um achado numa pessoa saudável.**
+Nódulo de tireoide em ultrassom pedido sem indicação: muito comum, quase sempre benigno.
 
-**"A faixa vale para o atleta."** → **Não vale para vários analitos.** CK entre 82 e 1.083 U/L em atletas homens, hemoglobina diluída no endurance, creatinina alta por massa muscular. **A régua é a própria pessoa.**
+Alterações degenerativas e hérnias de disco em imagem de coluna de quem não tem dor: frequentes em quem nunca teve queixa, e viram explicação para qualquer dor futura. Isso volta nos módulos de lesões e de reabilitação.
 
-**"Vamos pedir e ver o que aparece."** → **Exame responde pergunta, não faz pergunta.** Se nenhum resultado possível muda a conduta, o exame não precisa existir.
+Achados abdominais e renais em ultrassom de rotina.
 
-**"Achar alguma coisa é sempre ganho."** → **Cascata, rótulo, afastamento e o dano do próprio procedimento.** A Sandra tem cicatriz e reposição para a vida toda por um nódulo de nove milímetros.
+E o valor alterado isolado de um painel amplo, que gera três consultas e volta ao normal na repetição.
 
-**"Painel completo detecta antes."** → **IgG alimentar não é recomendado, mineralograma e painéis 'funcionais' não mudam conduta, e cada item extra aumenta a chance de falso-positivo.**
+A regra: antes de pedir imagem ou painel sem pergunta, imagine a conversa em que você explica um achado que não muda nada, e o que vai acontecer com o atleta depois dela.
 
-**Escopo:**
+---
 
-**Indicar, pedir, interpretar e decidir conduta: médico.** **E dizer "não" a um pedido sem indicação também é ato médico** — talvez o mais difícil deles.
+📊 **[SLIDE 9 DE 12]**
+*Visual: uma prateleira de painéis com etiquetas: IgG alimentar, estresse oxidativo, mineralograma capilar, hormônio em saliva, com selo "não recomendado".*
+*Teleprompter: (erro cinco: o que é vendido como rastreio e não é)*
 
-**Explicar ao atleta e à família que exame não é gentileza nem cuidado extra, e que excesso tem custo: toda a comissão** — porque a pressão por "fazer tudo" raramente chega pelo consultório; chega pelo grupo, pelo empresário, pelo pai.
+Erro cinco: o painel completo, ou funcional, detecta antes de o problema aparecer.
 
-**Não pedir exame por conta própria e não interpretar laudo fora do escopo: todos** — e isso inclui não mandar o atleta "fazer um painel" como resposta a uma queixa.
+Aqui está a parte comercial, e ela precisa ser dita com nome. Painel de IgG ou IgG4 para intolerância alimentar: a academia europeia de alergia, com apoio da americana, é explícita em que testar IgG4 contra alimentos não é recomendado como ferramenta diagnóstica. Esses anticorpos indicam exposição e tolerância ao alimento, não doença. O que o exame produz é uma lista de alimentos excluídos sem motivo, e num atleta isso significa energia e nutrientes tirados de uma dieta que já era apertada.
 
-**Registrar, guardar e comparar com o basal: a organização** (**1.7**), porque **exame perdido em pasta é exame que vai ser repetido sem necessidade.**
+Painéis de estresse oxidativo, mineralograma capilar, hormônio em saliva fora de indicação e check-ups metabólicos de assinatura mensal. Custam caro, não mudam conduta, e cada item aumenta a chance de um achado que vira cascata.
 
-**A frase que resume o módulo inteiro: pedir exame é uma intervenção. Ela tem indicação, tem benefício, tem dano — e a única coisa que a separa do excesso é a pergunta que veio antes dela.**
+E dois pedidos da endocrinologia do esporte que merecem cuidado. Testosterona em homem sem sintoma, fora de contexto, colhida à tarde e sem repetição, que abre a porta para a prescrição discutida no módulo de antidoping. E painel de tireoide para explicar fadiga em quem está em restrição energética, onde alterações adaptativas são esperadas e não são doença da tireoide.
 
-Na próxima aula, **6.11**, a outra intervenção que se banalizou no esporte e cujo dano também não aparece na fatura: **analgesia, anti-inflamatórios e corticoides — o que eles resolvem, o que eles escondem, e o que eles custam.**
+---
+
+📊 **[SLIDE 10 DE 12]**
+*Visual: duas colunas: "rastreio com indicação" (pressão, lipídios, glicemia por idade e risco, rastreios oncológicos por faixa etária, exame dirigido por sintoma) e "check-up completo".*
+*Teleprompter: (o contraponto, para não cair no extremo oposto)*
+
+O contraponto honesto, para não cair no extremo oposto. Existem rastreios com indicação sólida: pressão arterial, perfil lipídico e glicemia conforme idade e risco, que é a conta de risco da aula de triagem cardiológica; rastreios oncológicos por faixa etária; e exames dirigidos por sintoma ou por grupo de risco, como a ferritina da aula de ferro.
+
+A diferença entre esses e o check-up completo não é o número de itens. É a existência de uma pergunta antes do pedido.
+
+---
+
+📊 **[SLIDE 11 DE 12]**
+*Visual: um pedido enxuto, com três linhas escritas à mão: a pergunta clínica, o momento da coleta, "comparar com o basal da pré-temporada"; ao lado, uma tabela de cenários.*
+*Teleprompter: (o que fazer, porque criticar é fácil)*
+
+O que fazer. Quatro regras.
+
+Escreva a pergunta antes do pedido, em uma frase. Quando a pergunta não sai numa frase, o pedido não deveria sair.
+
+Defina o momento e padronize a coleta: longe de sessão intensa, longe de infecção, mesmo horário nas repetições.
+
+Construa o basal do atleta com propósito: um conjunto enxuto, colhido em bom momento na pré-temporada, que vira régua para o ano. É o que transforma "está fora da faixa" em "mudou em relação a ele mesmo". Basal não é desculpa para painel gigante.
+
+Decida o que fazer com cada resultado possível antes de ver o resultado.
+
+E o roteiro por cenário. Fadiga com queda de desempenho: hemograma, ferritina, saturação, PCR, tireoide, glicemia, e antes de tudo a revisão de sono, carga e energia. Atleta com irregularidade menstrual: avaliação médica dirigida, e a pergunta sobre energia vem antes do exame. Adulto mais velho começando a treinar: pressão, lipídios, glicemia e cálculo de risco cardiovascular, e não ecocardiograma de rotina. Adolescente: o mínimo necessário, com atenção a crescimento, alimentação e ferro. Sintoma no esforço ou história familiar: isso não é rastreio laboratorial, é triagem cardiológica, e vai por outro caminho.
+
+---
+
+📊 **[SLIDE 12 DE 12]**
+*Visual: fecho da aula em tinta: as regras e três cartões de papel.*
+*Teleprompter: (as cinco correções, e quem faz o quê)*
+
+As cinco correções. Fora da faixa não é doente: cinco por cento dos saudáveis ficam fora por construção, e vinte exames dão cerca de sessenta e quatro por cento de chance de pelo menos um achado. A faixa não vale para o atleta em vários analitos: a régua é a própria pessoa. Exame responde pergunta: se nenhum resultado muda a conduta, ele não precisa existir. Achar alguma coisa tem custo: cascata, rótulo, afastamento e dano do procedimento. E o painel funcional não detecta antes: IgG alimentar não é recomendado, e cada item extra aumenta o falso-positivo.
+
+Quem faz o quê. Indicar, pedir, interpretar e decidir conduta: médico. E dizer não a um pedido sem indicação também é ato médico, talvez o mais difícil. Explicar ao atleta e à família que excesso tem custo: toda a comissão, porque a pressão por fazer tudo raramente chega pelo consultório; chega pelo grupo, pelo empresário, pelo pai. Não mandar o atleta fazer um painel como resposta a uma queixa: todos. Registrar, guardar e comparar com o basal: a organização, porque exame perdido em pasta é exame repetido sem necessidade.
+
+Pedir exame é uma intervenção. Tem indicação, benefício e dano, e a única coisa que a separa do excesso é a pergunta que veio antes.
+
+Na próxima aula, outra intervenção que se banalizou no esporte, com dano que também não aparece na fatura: analgesia, anti-inflamatórios e corticoides.
 
 ---
 
@@ -236,78 +186,40 @@ Na próxima aula, **6.11**, a outra intervenção que se banalizou no esporte e 
 
 1. Mougios V. Reference intervals for serum creatine kinase in athletes. *Br J Sports Med.* 2007;41(10):674-678. PMID: 17526622
 2. Stapel SO, Asero R, Ballmer-Weber BK, et al. Testing for IgG4 against foods is not recommended as a diagnostic tool: EAACI Task Force Report. *Allergy.* 2008;63(7):793-796. PMID: 18489614
-3. American Academy of Allergy, Asthma & Immunology. AAAAI support of the EAACI Position Paper on IgG4. *J Allergy Clin Immunol.* 2010;125(6):1410. (Posicionamento: IgG e IgG4 específicos a alimentos não são recomendados para diagnóstico.)
-4. Carroll AE. The high costs of unnecessary care. *JAMA.* 2017;318(18):1748-1749. PMID: 29136432
-5. Ganguli I, Simpkin AL, Lupo C, et al. Cascades of care after incidental findings in a US national survey of physicians. *JAMA Netw Open.* 2019;2(10):e1913325. PMID: 31617925
-6. Clénin G, Cordes M, Huber A, et al. Iron deficiency in sports — definition, influence on performance and therapy. *Swiss Med Wkly.* 2015;145:w14196. PMID: 26512429
-7. Ghorayeb N, Stein R, Daher DJ, et al. Atualização da Diretriz em Cardiologia do Esporte e do Exercício da Sociedade Brasileira de Cardiologia e da Sociedade Brasileira de Medicina do Exercício e Esporte — 2019. *Arq Bras Cardiol.* 2019;112(3):326-368.
+3. Bock SA. AAAAI support of the EAACI Position Paper on IgG4. *J Allergy Clin Immunol.* 2010;125(6):1410. PMID: 20451986
+4. Ganguli I, Simpkin AL, Lupo C, et al. Cascades of care after incidental findings in a US national survey of physicians. *JAMA Netw Open.* 2019;2(10):e1913325. PMID: 31617925
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — Sandra e os nove milímetros
-· 39 anos, corre 3×/semana, **sem queixa** · pediu "check-up completo, só para garantir"
-· Nódulo de **9 mm** → repetição → punção → **indeterminado** → 2ª punção → **2 meses sem correr** → **cirurgia** → **lesão benigna**
-· Ficou com **cicatriz e reposição hormonal para a vida toda** — e **nunca teve doença**
-· **Pedir exame é uma intervenção**, com indicação, benefício e dano
-· Assimetria cultural: remédio é questionado; **quarenta exames, ninguém questiona** — e pedir pouco parece descuido
-· Fronteiras: cardiológico = **6.2** · ferro = **6.9** · hormônios = **Módulo 3** · substâncias e infusões = **5.10**
-Visual: a fileira de dominós.
+**O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de oito blocos longos.
+Arquitetura ERRO mantida (a anterior é PROCEDIMENTO; a próxima é DECISÃO). A paciente com nome e
+idade, com desfecho inventado (nódulo de nove milímetros, cirurgia, reposição para a vida toda),
+virou um perfil típico e uma "sequência típica" descrita como possibilidade, sem desfecho
+atribuído a ninguém.
 
-**Slide 2** — Erro 1: "fora da faixa é doente"
-· A faixa é **o miolo de 95% de uma população de referência** — **5% dos saudáveis ficam fora por construção**
-· Chance de **pelo menos um** alterado em pessoa saudável: **1 exame 5% · 5 exames ~23% · 10 exames ~40% · 20 exames ~64% · 28 itens >75%**
-· **O painel amplo quase garante um achado anormal** — e cada achado gera repetição, encaminhamento, imagem e ansiedade
-· Mesma aritmética da **6.2** e da **6.4**: **teste bom em baixa probabilidade produz falso-positivo**
-· Não é para ignorar alterado — **é para pedir com pergunta**
-Visual: a curva em sino e a barra crescente.
+**Números conferidos.** Probabilidade de pelo menos um resultado fora da faixa, supondo exames
+independentes: 1 − 0,95^n, que dá 5% para 1, 22,6% para 5, 40,1% para 10, 64,2% para 20 e 76,2%
+para 28. Mougios 2007: 483 homens e 245 mulheres atletas, intervalos de 82 a 1.083 U/L e de 47 a
+513 U/L. Ganguli 2019: 376 internistas responderam; 99,4% relataram cascata depois de achado
+incidental.
 
-**Slide 3** — Erro 2: a régua errada
-· **Mougios, 2007 (728 atletas)**: CK de **82 a 1.083 U/L** em homens e **47 a 513** em mulheres
-· CK muda com **modalidade · tempo desde a sessão · estado de treinamento · massa muscular · sexo · ancestralidade**
-· **CK alta sem clínica**: explicar por esses fatores **antes** de investigar miopatia — nada disso está no laudo
-· Mesma lógica: **hemoglobina diluída no endurance (6.9)** · **creatinina alta por massa muscular** · ECG e FC (**6.2**, **6.3**)
-· **A pergunta certa**: "normal para esta pessoa, treinando isso, colhido quando?" — **o melhor padrão é o basal dela**
-Visual: as duas réguas de CK.
+**Correções.**
+- A conta de probabilidade ganhou a ressalva de independência entre os exames, que ela supõe.
+- Entrou o número conferido da pesquisa de 2019 sobre cascatas.
+- A referência da AAAAI ganhou autor, e saíram Carroll 2017, o consenso suíço de ferro e a diretriz
+  brasileira de 2019, que a aula não cita diretamente nesta versão.
+- "Mougios" deixou de ser citado por nome.
 
-**Slide 4** — Erro 3: pedir sem pergunta
-· **Exame responde pergunta; não faz pergunta** — o que decide é a **probabilidade pré-teste** (**6.1**)
-· Ferritina na corredora com fadiga e fluxo intenso: **informa** · a mesma ferritina num painel de 30 itens em assintomático: **loteria**
-· **"O que eu faço de diferente com cada resultado possível?"** — se a resposta é "nada", **não peça**
-· Versão útil: **"um resultado normal vai me tranquilizar de verdade?"** Se não, faltava história, exame físico ou tempo
-· **Painel institucional sem pergunta**: muito achado irrelevante, custo alto e **atleta afastado por motivo que não existia**
-Visual: as duas pessoas com o mesmo pedido.
+**Saíram.** "6.1", "6.2", "6.3", "6.4", "6.9", "6.11", "5.10", "5.11", "4.2", "4.7", "1.7",
+"Módulo 3", "Módulos 7 e 8", "Módulo 11", "slide 2", "Escopo", o nome e a idade da paciente, o
+bloco "Roteiro Gamma". Duração de 21 para 16 minutos.
 
-**Slide 5** — Erro 4: o custo do achado incidental
-· **Cascata** (9 mm → cirurgia) · **rótulo** (passa a se comportar como doente) · **afastamento** · **dano do procedimento**
-· Campeões no esporte: **nódulo de tireoide** · **alterações degenerativas e hérnias em atleta assintomático** (**Módulos 7 e 8**) · achados abdominais e renais · **o alterado isolado que normaliza na repetição**
-· Antes de pedir: **imagine a conversa em que você explica um achado que não muda nada** — e o que acontece com o atleta depois dela
-Visual: os dominós numerados.
+**Citações faladas.** Academia europeia de alergia, com apoio da americana. Nenhum autor por nome.
 
-**Slide 6** — Erro 5: os painéis que não medem o que prometem
-· **IgG/IgG4 alimentar**: **EAACI e AAAAI — não recomendado como ferramenta diagnóstica**; marca **exposição e tolerância**, não doença · resultado prático: **alimentos excluídos sem motivo** (**4.2**, **4.7**)
-· **"Estresse oxidativo", mineralograma capilar, painéis hormonais seriados, check-up de assinatura**: não mudam conduta e **aumentam a chance de cascata**
-· **Testosterona em homem assintomático**, colhida à tarde, sem repetição — abre a porta da **5.11**
-· **Tireoide para explicar fadiga em restrição energética**: alteração adaptativa esperada, **não é doença da tireoide** (**Módulo 3**)
-· Contraponto honesto: **pressão, lipídios e glicemia por idade e risco · rastreios oncológicos por faixa etária · exames dirigidos por sintoma** são rastreio de verdade
-· **A diferença não é o número de itens — é a pergunta antes do pedido**
-Visual: a prateleira de painéis com selo de "não recomendado".
-
-**Slide 7** — Como pedir bem
-· **1. Escreva a pergunta antes do pedido** — não saiu em uma frase, o pedido não sai
-· **2. Defina o momento e padronize a coleta** (longe de sessão intensa e de infecção, mesmo horário) — **escrever isso custa 10 segundos**
-· **3. Construa o basal com propósito**: conjunto **enxuto**, em bom momento, repetido no mesmo padrão → transforma "fora da faixa" em **"mudou em relação a ele mesmo"**
-· **4. Decida o que fazer com cada resultado possível antes de ver o resultado**
-· Cenários: **fadiga** (hemograma, ferritina, saturação, PCR, tireoide, glicemia — depois de sono, carga e energia) · **amenorreia** (Módulos 3 e 11, energia antes do exame) · **master** (pressão, lipídios, glicemia, risco — **6.2**; sem eco de rotina) · **adolescente** (mínimo, com crescimento, alimentação e ferro) · **sintoma no esforço** → **6.2**
-Visual: o pedido enxuto com as três linhas.
-
-**Slide 8** — As cinco correções
-· **Faixa é estatística** · **a régua do atleta é ele mesmo** · **exame responde pergunta** · **achado incidental custa caro** · **painel "completo" não detecta antes**
-· Escopo: **indicar, pedir e interpretar = médico** — **e dizer "não" a um pedido sem indicação também é ato médico**
-· **Explicar que exame em excesso tem custo = comissão inteira** (a pressão chega pelo grupo, pelo empresário, pelo pai)
-· **Não pedir por conta própria nem interpretar fora do escopo = todos**
-· **Registrar, guardar e comparar com o basal = organização (1.7)** — exame perdido em pasta é exame repetido à toa
-· **Pedir exame é uma intervenção; o que a separa do excesso é a pergunta que veio antes**
-· Próxima aula: **6.11 — analgesia, anti-inflamatórios e corticoides**
-Visual: as cinco frases riscadas com as correções.
+**Ligações internas.** anamnese e probabilidade pré-teste = primeira aula do módulo · aritmética do
+falso-positivo = aulas de triagem cardiológica e de morte súbita · coração de atleta = aula da zona
+cinzenta · ferritina e pseudoanemia = aula de ferro · testosterona fora de indicação = módulo de
+suplementação e antidoping · tireoide em restrição energética = módulo de fisiologia hormonal ·
+coluna = módulos de lesões e de reabilitação · analgesia = próxima aula.
