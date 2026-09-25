@@ -1,0 +1,533 @@
+{
+ "arquivo": "aulas/MOD05/05-06-proteina-em-po-e-aminoacidos.md",
+ "modulo": "Suplementação, Ergogênicos e Antidoping",
+ "tema": "ameixa",
+ "titulo": "Proteína em pó e aminoácidos",
+ "subtitulo": "Tipos, indicação e o limite dos aminoácidos isolados",
+ "nota_capa": "Entra pelo erro de categoria.",
+ "secoes": {
+  "categoria": [
+   "O erro, o efeito e os obstáculos.",
+   "capa"
+  ],
+  "tipos": [
+   "Tipos, fraude e aminoácidos isolados.",
+   "tipos"
+  ],
+  "prateleira": [
+   "O resto da prateleira e as condutas.",
+   "prateleira"
+  ]
+ },
+ "slides": [
+  {
+   "id": "categoria",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O erro é de categoria",
+   "frase": "Proteína em pó não é ergogênico. É comida em pó.",
+   "apoio": "Dois enganos opostos na mesma sala de espera: quem espera do pó um efeito que ele não tem, e quem o recusa justo onde ele resolveria. Um custa dinheiro; o outro custa músculo."
+  },
+  {
+   "id": "perfis",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Três perfis típicos",
+   "titulo": "O pote na pessoa errada",
+   "cards": [
+    {
+     "t": "Comprou whey",
+     "x": "já come perto de 2 g/kg por dia; “todo mundo toma”",
+     "cor": "verm"
+    },
+    {
+     "t": "Recusa whey",
+     "x": "come perto de 0,8 g/kg, quase tudo no jantar; “é para ficar grande”",
+     "cor": "ambar"
+    },
+    {
+     "t": "Toma BCAA",
+     "x": "durante o treino longo de corrida, “para proteger o músculo”",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Em dois deles a conduta envolve algum pó. Só que não o que compraram.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "morton",
+   "tipo": "numeros",
+   "eyebrow": "Morton e colaboradores, 2018",
+   "titulo": "Real, pequeno, e com teto",
+   "numeros": [
+    {
+     "n": "+0,30 kg",
+     "x": "de massa livre de gordura, em média",
+     "cor": "petr"
+    },
+    {
+     "n": "+2,49 kg",
+     "x": "no teste de uma repetição máxima, em média",
+     "cor": "ambar"
+    },
+    {
+     "n": "≈ 1,6 g/kg",
+     "x": "de proteína total por dia: acima disso, sem ganho adicional de massa",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "O efeito não é do pó. É da proteína que faltava.",
+   "destaque_cor": "verm",
+   "fonte": "49 estudos, 1.863 pessoas em treino de força · British Journal of Sports Medicine 2018"
+  },
+  {
+   "id": "obstaculos",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Que obstáculo ele remove?",
+   "titulo": "Seis razões legítimas",
+   "cards": [
+    {
+     "t": "Apetite baixo",
+     "x": "líquido passa onde sólido não passa",
+     "cor": "petr"
+    },
+    {
+     "t": "Logística",
+     "x": "cria uma refeição que não existiria",
+     "cor": "petr"
+    },
+    {
+     "t": "Mastigação",
+     "x": "prótese mal adaptada: viabilidade, não conveniência",
+     "cor": "petr"
+    },
+    {
+     "t": "Custo por grama",
+     "x": "perde para ovo e leite; ganha de corte nobre",
+     "cor": "ambar"
+    },
+    {
+     "t": "Dieta vegetal",
+     "x": "fecha a conta com menos volume",
+     "cor": "ambar"
+    },
+    {
+     "t": "Volume de treino",
+     "x": "necessidade alta, pouco tempo entre sessões",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Entra quando há obstáculo, sai quando o obstáculo some. Sem obstáculo, só substitui: e comida traz colina, cálcio, ferro heme, B12, fibra.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "tipos",
+   "tipo": "tabela",
+   "eyebrow": "Diferença real e diferença de rótulo",
+   "titulo": "Os tipos",
+   "cab": [
+    "Tipo",
+    "O que é",
+    "Para quem"
+   ],
+   "larguras": [
+    20,
+    42,
+    38
+   ],
+   "linhas": [
+    [
+     "Concentrado",
+     "teor variável; no pote comum, perto de 80%",
+     "a maioria"
+    ],
+    [
+     "Isolado",
+     "acima de 90%; menos lactose e gordura",
+     "intolerância à lactose"
+    ],
+    [
+     "Hidrolisado",
+     "parcialmente quebrado; mais caro, mais amargo",
+     "sem vantagem clínica demonstrada"
+    ],
+    [
+     "Caseína",
+     "digestão lenta",
+     "refeição antes de dormir"
+    ],
+    [
+     "Vegetais",
+     "soja completa; ervilha e arroz se complementam",
+     "vegano, em mistura bem formulada"
+    ]
+   ],
+   "destaque": "Sabor muda a adesão, não a proteína. Pote simples, um ingrediente, dose declarada.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "spiking",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Esquema da análise: o método mede nitrogênio e multiplica por 6,25; glicina e taurina adicionadas entram na conta como se fossem proteína\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><defs><marker id=\"s1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"s2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"344\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"352\" y1=\"95\" x2=\"430\" y2=\"95\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#s1)\"/><rect x=\"440\" y=\"40\" width=\"344\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"792\" y1=\"95\" x2=\"870\" y2=\"95\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#s1)\"/><rect x=\"880\" y=\"40\" width=\"344\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"1232\" y1=\"95\" x2=\"1310\" y2=\"95\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#s1)\"/><rect x=\"1320\" y=\"40\" width=\"344\" height=\"110\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"440\" y=\"220\" width=\"344\" height=\"100\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"612\" y1=\"214\" x2=\"612\" y2=\"160\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#s2)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 76,
+     "w": 344,
+     "t": "pó no laboratório",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 76,
+     "w": 344,
+     "t": "mede nitrogênio",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 76,
+     "w": 344,
+     "t": "× 6,25",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 76,
+     "w": 344,
+     "t": "“proteína” no rótulo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 246,
+     "w": 344,
+     "t": "glicina, taurina",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 236,
+     "w": 834,
+     "t": "têm nitrogênio, entram na conta, não são proteína completa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Amino spiking",
+   "titulo": "O laudo mede nitrogênio, não proteína",
+   "destaque": "O teste que separa mede aminoácido por aminoácido. Defesa do consumidor: controle de qualidade verificável e lote testado.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "wolfe",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Nove blocos de aminoácidos essenciais; três são os BCAA fornecidos pelo suplemento; os outros seis só podem vir da quebra de proteína do próprio músculo\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><defs><marker id=\"w1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"32\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"212\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"392\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"572\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"654\" y1=\"218\" x2=\"654\" y2=\"122\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#w1)\"/><rect x=\"752\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"834\" y1=\"218\" x2=\"834\" y2=\"122\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#w1)\"/><rect x=\"932\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1014\" y1=\"218\" x2=\"1014\" y2=\"122\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#w1)\"/><rect x=\"1112\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1194\" y1=\"218\" x2=\"1194\" y2=\"122\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#w1)\"/><rect x=\"1292\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1374\" y1=\"218\" x2=\"1374\" y2=\"122\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#w1)\"/><rect x=\"1472\" y=\"20\" width=\"164\" height=\"90\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1554\" y1=\"218\" x2=\"1554\" y2=\"122\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#w1)\"/><rect x=\"572\" y=\"226\" width=\"1044\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"32\" y1=\"140\" x2=\"536\" y2=\"140\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 32,
+     "y": 50,
+     "w": 164,
+     "t": "leucina",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 212,
+     "y": 50,
+     "w": 164,
+     "t": "isoleucina",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 392,
+     "y": 50,
+     "w": 164,
+     "t": "valina",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 572,
+     "y": 50,
+     "w": 164,
+     "t": "histidina",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 752,
+     "y": 50,
+     "w": 164,
+     "t": "lisina",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 932,
+     "y": 50,
+     "w": 164,
+     "t": "metionina",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1112,
+     "y": 50,
+     "w": 164,
+     "t": "fenilalanina",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1292,
+     "y": 50,
+     "w": 164,
+     "t": "treonina",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1472,
+     "y": 50,
+     "w": 164,
+     "t": "triptofano",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 500,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 572,
+     "y": 250,
+     "w": 1044,
+     "t": "quebra de proteína do próprio músculo",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 32,
+     "y": 156,
+     "w": 504,
+     "t": "o que o pote de BCAA entrega",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Wolfe, 2017",
+   "titulo": "Três de nove",
+   "destaque": "Para fazer proteína nova, o músculo precisa dos nove essenciais. O teto dos BCAA sozinhos é aritmética, não falta de estudo.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "jackman",
+   "tipo": "numeros",
+   "eyebrow": "Jackman e colaboradores, 2017",
+   "titulo": "Não é zero. É metade.",
+   "numeros": [
+    {
+     "n": "5,6 g",
+     "x": "de BCAA depois do treino de força",
+     "cor": "tinta"
+    },
+    {
+     "n": "+22%",
+     "x": "síntese de proteína miofibrilar contra placebo de mesma energia",
+     "cor": "petr"
+    },
+    {
+     "n": "≈ ½",
+     "x": "da resposta a uma dose de whey com a mesma quantidade de BCAA",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "A porção de whey que já tem esses BCAA traz os outros seis essenciais. No treino longo, o que poupa o corpo é carboidrato.",
+   "destaque_cor": "ambar",
+   "fonte": "Comparação com whey feita pelos autores, com estudo anterior · Frontiers in Physiology 2017"
+  },
+  {
+   "id": "prateleira",
+   "tipo": "lista",
+   "eyebrow": "O resto da prateleira",
+   "titulo": "Um veredito por pote",
+   "itens": [
+    {
+     "t": "EAA",
+     "x": "mais defensável: apetite baixo, idoso, quem não tolera volume; ainda perde para comida",
+     "cor": "ambar"
+    },
+    {
+     "t": "Leucina isolada",
+     "x": "é o gatilho; gatilho sem matéria-prima não constrói",
+     "cor": "verm"
+    },
+    {
+     "t": "Glutamina",
+     "x": "sem sustentação em pessoa saudável e bem alimentada",
+     "cor": "verm"
+    },
+    {
+     "t": "HMB",
+     "x": "resultados variam muito entre grupos; sem caso para quem já come proteína",
+     "cor": "verm"
+    },
+    {
+     "t": "Pote com tudo dentro",
+     "x": "sem dose por item; se a creatina é indicada, compre creatina",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 16
+  },
+  {
+   "id": "colageno",
+   "tipo": "duas",
+   "eyebrow": "Shaw e colaboradores, 2017",
+   "titulo": "Colágeno: grupo B, e por quê",
+   "esq": {
+    "t": "O estudo",
+    "cor": "petr",
+    "itens": [
+     "8 homens, cruzado, duplo-cego",
+     "5 ou 15 g de gelatina com vitamina C",
+     "1 hora antes de 6 min de pular corda",
+     "com 15 g, o marcador de síntese quase dobrou"
+    ]
+   },
+   "dir": {
+    "t": "A leitura",
+    "cor": "ambar",
+    "itens": [
+     "marcador, não desfecho",
+     "depende de dose, vitamina C e carga no tendão",
+     "sem exercício, é só proteína",
+     "incompleta: não conta como proteína do dia"
+    ]
+   },
+   "destaque": "Tendinopatia e a carga que a trata ficam no módulo de fisioterapia esportiva e reabilitação.",
+   "destaque_cor": "tinta",
+   "fonte": "American Journal of Clinical Nutrition 2017"
+  },
+  {
+   "id": "condutas",
+   "tipo": "tabela",
+   "eyebrow": "Os três do começo",
+   "titulo": "O problema real e a conduta",
+   "cab": [
+    "Perfil",
+    "Problema real",
+    "Conduta"
+   ],
+   "larguras": [
+    22,
+    34,
+    44
+   ],
+   "linhas": [
+    [
+     "Comprou whey",
+     "nenhum: acima do teto",
+     "o pote não acrescenta; como conveniência, tudo bem"
+    ],
+    [
+     "Recusa whey",
+     "total baixo, distribuição torta",
+     "comida no café da manhã; se não couber, um shake"
+    ],
+    [
+     "Toma BCAA",
+     "falta carboidrato no treino longo",
+     "carboidrato durante; proteína nas refeições"
+    ]
+   ],
+   "destaque": "Quem mais se beneficiaria é quem acha que o produto não é para ela. Não é para ficar grande: é músculo e função.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Três regras",
+   "titulo": "Quanta proteína você come, e em quantas refeições?",
+   "regras": [
+    "Comida em pó: entra com obstáculo, sai quando ele some",
+    "Concentrado para a maioria; isolado para lactose",
+    "BCAA, leucina e glutamina não se sustentam; colágeno depende de carga"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "Necessidade, fonte e indicação do pó."
+    },
+    {
+     "t": "Médico",
+     "x": "Rim, fígado, medicação: quem descarta é o exame."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "Veem a pergunta primeiro."
+    }
+   ],
+   "quem": "A melhor resposta ao pedido de pote é uma pergunta."
+  }
+ ]
+}

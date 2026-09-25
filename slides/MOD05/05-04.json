@@ -1,0 +1,434 @@
+{
+ "arquivo": "aulas/MOD05/05-04-beta-alanina-e-capacidade-de-tamponamento.md",
+ "modulo": "Suplementação, Ergogênicos e Antidoping",
+ "tema": "ameixa",
+ "titulo": "Beta-alanina",
+ "subtitulo": "Carnosina muscular, janela de efeito e protocolo de uso",
+ "nota_capa": "Entra pela expectativa errada.",
+ "secoes": {
+  "formigamento": [
+   "O mecanismo e o acúmulo.",
+   "capa"
+  ],
+  "janela": [
+   "A janela e o tamanho.",
+   "janela"
+  ],
+  "protocolo": [
+   "Protocolo, onde vale e três perfis.",
+   "protocolo"
+  ]
+ },
+ "slides": [
+  {
+   "id": "formigamento",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Perfil típico",
+   "frase": "“Não senti nada, só um formigamento.”",
+   "apoio": "Parou no terceiro dia. Dois erros de número: esperava efeito no dia, e a beta-alanina funciona por acúmulo, em semanas; e leu o formigamento como falha, quando é parestesia esperada, resolvida pela dose."
+  },
+  {
+   "id": "carnosina",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Beta-alanina e histidina formam carnosina dentro do músculo; a histidina sobra e a beta-alanina é o passo limitante\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"420\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"180\" width=\"420\" height=\"110\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"440\" y1=\"95\" x2=\"720\" y2=\"160\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><line x1=\"440\" y1=\"235\" x2=\"720\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"740\" y=\"100\" width=\"420\" height=\"130\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 60,
+     "w": 420,
+     "t": "beta-alanina",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 104,
+     "w": 420,
+     "t": "escassa: passo limitante",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 200,
+     "w": 420,
+     "t": "histidina",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 244,
+     "w": 420,
+     "t": "sobra no músculo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 124,
+     "w": 420,
+     "t": "carnosina",
+     "tam": 38,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 176,
+     "w": 420,
+     "t": "tampão dentro da fibra",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 60,
+     "w": 464,
+     "t": "Carnosina ingerida é quebrada antes de chegar ao músculo: por isso se suplementa beta-alanina.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 190,
+     "w": 464,
+     "t": "Tamponamento é a explicação mais citada, não necessariamente a completa.",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O mecanismo",
+   "titulo": "Matéria-prima, não efeito direto",
+   "destaque": "O que sustenta o uso não é o mecanismo. É o desfecho replicado.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "acumulo",
+   "tipo": "numeros",
+   "eyebrow": "Hill e colaboradores, 2007",
+   "titulo": "Quatro semanas é o começo, não o fim",
+   "numeros": [
+    {
+     "n": "+59%",
+     "x": "carnosina muscular em 4 semanas",
+     "cor": "ambar"
+    },
+    {
+     "n": "+80%",
+     "x": "carnosina muscular em 10 semanas",
+     "cor": "petr"
+    },
+    {
+     "n": "+13%",
+     "x": "trabalho total no teste de bicicleta, em 4 semanas",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Quem toma quinze dias e para não chegou à metade do caminho. Quem toma três dias não testou nada.",
+   "destaque_cor": "verm",
+   "fonte": "13 homens, biópsia muscular · Amino Acids 2007"
+  },
+  {
+   "id": "janela",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Régua da duração do esforço, de zero a vinte minutos: a janela da beta-alanina vai de trinta segundos a dez minutos\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><rect x=\"20\" y=\"60\" width=\"256\" height=\"90\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"276\" y=\"60\" width=\"889\" height=\"90\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"1166\" y=\"60\" width=\"474\" height=\"90\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 296,
+     "y": 90,
+     "w": 849,
+     "t": "janela da beta-alanina",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 16,
+     "w": 300,
+     "t": "fosfocreatina",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 16,
+     "w": 300,
+     "t": "oxidativo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 206,
+     "y": 162,
+     "w": 140,
+     "t": "30 s",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 462,
+     "y": 162,
+     "w": 140,
+     "t": "2 min",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 162,
+     "w": 140,
+     "t": "5 min",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1096,
+     "y": 162,
+     "w": 140,
+     "t": "10 min",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1524,
+     "y": 162,
+     "w": 140,
+     "t": "20 min",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Saunders e colaboradores, 2017",
+   "titulo": "De trinta segundos a dez minutos",
+   "destaque": "40 estudos, 65 protocolos, 1.461 pessoas. Abaixo de 30 s domina a fosfocreatina (creatina); acima de 10 min, o esforço oxidativo. No meio, o território glicolítico intenso.",
+   "destaque_cor": "petr",
+   "fonte": "Escala da régua comprimida · British Journal of Sports Medicine 2017"
+  },
+  {
+   "id": "tamanho",
+   "tipo": "duas",
+   "eyebrow": "A magnitude, sem propaganda",
+   "titulo": "Real, e menor do que o rótulo sugere",
+   "esq": {
+    "t": "O tamanho",
+    "cor": "petr",
+    "itens": [
+     "pequeno, como todo o grupo A",
+     "num 800 m, decide a prova",
+     "num treino de academia, não se percebe"
+    ]
+   },
+   "dir": {
+    "t": "O desenho dos estudos",
+    "cor": "ambar",
+    "itens": [
+     "muitos ganhos em testes de capacidade",
+     "tempo sustentado, trabalho total",
+     "menos em provas cronometradas reais"
+    ]
+   },
+   "destaque": "Efeito medido com precisão em laboratório não é garantia do mesmo efeito na rua.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "protocolo",
+   "tipo": "numeros",
+   "eyebrow": "Trexler e colaboradores, 2015",
+   "titulo": "O protocolo",
+   "numeros": [
+    {
+     "n": "4 a 6 g",
+     "x": "por dia, todos os dias",
+     "cor": "petr"
+    },
+    {
+     "n": "≥ 4 sem",
+     "x": "para efeito; o estoque sobe por 10 semanas ou mais",
+     "cor": "ambar"
+    },
+    {
+     "n": "≈ 1,6 g",
+     "x": "por tomada, dividida ao longo do dia",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Quem vai competir começa pelo menos um mês antes, idealmente dois ou três.",
+   "destaque_cor": "petr",
+   "fonte": "Journal of the International Society of Sports Nutrition 2015"
+  },
+  {
+   "id": "notas",
+   "tipo": "lista",
+   "eyebrow": "Parestesia e três notas",
+   "titulo": "O formigamento se resolve com dose",
+   "itens": [
+    {
+     "t": "Parestesia",
+     "x": "rosto, pescoço, orelhas; curta; único efeito adverso relatado; dividir a dose ou liberação prolongada",
+     "cor": "ambar"
+    },
+    {
+     "t": "O total acumulado importa mais que o dia",
+     "x": "a carga ao longo das semanas enche o estoque",
+     "cor": "petr"
+    },
+    {
+     "t": "Quando para, cai devagar",
+     "x": "alguns dias esquecidos não apagam nada",
+     "cor": "petr"
+    },
+    {
+     "t": "Uso diário, qualquer horário",
+     "x": "não é pré-treino, embora seja vendida dentro de um",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 18
+  },
+  {
+   "id": "onde",
+   "tipo": "duas",
+   "eyebrow": "É só aplicar a janela",
+   "titulo": "Onde vale, e onde não vale",
+   "esq": {
+    "t": "Vale",
+    "cor": "petr",
+    "itens": [
+     "400 e 800 m; 200 m de natação",
+     "remo de 2.000 m; perseguição",
+     "lutas; intermitentes (evidência mais heterogênea)",
+     "vegetarianos: menos carnosina, mais espaço"
+    ]
+   },
+   "dir": {
+    "t": "Não vale",
+    "cor": "verm",
+    "itens": [
+     "salto, uma repetição máxima, tiro curto",
+     "meia maratona e maratona",
+     "quem quer sentir algo hoje",
+     "como substituto de condicionamento"
+    ]
+   },
+   "destaque": "A capacidade de tamponamento se treina. A beta-alanina se soma a esse treino; não o substitui.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "perfis",
+   "tipo": "tabela",
+   "eyebrow": "Três perfis típicos",
+   "titulo": "Quem está na janela",
+   "cab": [
+    "Perfil",
+    "Esforço",
+    "Na janela?",
+    "Conduta"
+   ],
+   "larguras": [
+    22,
+    22,
+    16,
+    40
+   ],
+   "linhas": [
+    [
+     "Nadadora, 200 m",
+     "2 a 3 min",
+     "no meio",
+     "4 a 6 g/dia, divididos, dois meses antes"
+    ],
+    [
+     "Futsal",
+     "tiros repetidos",
+     "em parte",
+     "defensável, com expectativa calibrada"
+    ],
+    [
+     "Maratonista",
+     "horas",
+     "fora",
+     "“funciona, mas não para o que você faz”"
+    ]
+   ],
+   "destaque": "O dinheiro do maratonista rende mais em carboidrato durante a prova.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Os quatro números",
+   "titulo": "Quanto tempo dura o esforço?",
+   "regras": [
+    "Janela de 30 segundos a 10 minutos",
+    "4 a 6 g por dia, divididos, por pelo menos 4 semanas",
+    "Efeito pequeno, real, mais visível no laboratório do que na rua"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "Indica e dosa."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "O treino na faixa em que ela age."
+    },
+    {
+     "t": "Médico",
+     "x": "Sintoma atípico; gestante, criança, adolescente."
+    }
+   ],
+   "quem": "A pergunta da duração do esforço é de todos."
+  }
+ ]
+}

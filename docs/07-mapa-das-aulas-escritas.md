@@ -148,14 +148,14 @@ típicos, sem idade, e contas feitas em aula.
 | 5.1 | Avaliação de suplementos no esporte | 18 | 11 | PROCEDIMENTO | [slides](https://claude.ai/artifact/VjtKYknfSt3JsvUxR5wb5d) |
 | 5.2 | Creatina | 21 | 12 | NÚMERO | [slides](https://claude.ai/artifact/FMeaA9yx5ky3hJ6XXm61jb) |
 | 5.3 | Cafeína no exercício | 16 | 11 | DECISÃO | [slides](https://claude.ai/artifact/3RVdoaD71SuJzaX8Pq61sv) |
+| 5.4 | Beta-alanina | 12 | 10 | NÚMERO | [slides](https://claude.ai/artifact/E5W6SrSsiEHKmG3XSnkWVS) |
+| 5.5 | Nitrato e bicarbonato de sódio | 13 | 11 | PROCEDIMENTO | [slides](https://claude.ai/artifact/3jXnXk7q8begqZtUXjnMYb) |
+| 5.6 | Proteína em pó e aminoácidos | 16 | 12 | ERRO | [slides](https://claude.ai/artifact/FMz7XeMxRzuFXnvsgwsYUj) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Min | Arquitetura |
 |---|---|---|---|
-| 5.4 | Beta-alanina e capacidade de tamponamento | 16 | NÚMERO |
-| 5.5 | Nitrato, beterraba e bicarbonato de sódio | 17 | PROCEDIMENTO |
-| 5.6 | Proteína em pó e aminoácidos | 17 | ERRO |
 | 5.7 | Ferro, vitamina D e ômega-3 no praticante | 21 | DECISÃO |
 | 5.8 | Suplementos sem evidência: desmontar uma promessa | 20 | ERRO |
 | 5.9 | Contaminação de suplementos e certificação de lote | 19 | PROCEDIMENTO |

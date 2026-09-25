@@ -1,162 +1,166 @@
-# Módulo 5 · Aula 5.5 — Nitrato, beterraba e bicarbonato de sódio
+# Módulo 5 · Aula 5.5 — Nitrato e bicarbonato de sódio: mecanismos, protocolos e tolerância
 
 **Módulo 5 — Suplementação, Ergogênicos e Antidoping**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 17 minutos · 6 slides · Arquitetura: PROCEDIMENTO
+Duração: 13 minutos · 11 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 6]**
-*Visual: dois copos lado a lado — um roxo escuro (beterraba) e um branco turvo (bicarbonato). Abaixo do roxo, um ícone de boca; abaixo do branco, um ícone de intestino. Entre eles, uma linha do tempo: "2–3 h antes" e "60–180 min antes".*
-*Teleprompter: (entra pelos dois compostos e pelos dois lugares onde eles dão errado)*
+📊 **[SLIDE 1 DE 11]**
+*Visual: fundo escuro, dois copos: um roxo escuro, de beterraba, e um branco turvo, de bicarbonato. A frase: "No nitrato, o problema está na boca. No bicarbonato, no intestino."*
+*Teleprompter: (entra pelos dois lugares onde o protocolo falha)*
 
-Dois recursos de grupo A, na mesma aula, porque eles se parecem em três coisas e diferem em tudo o mais.
+Dois recursos de grupo A na mesma aula, porque eles se parecem em três coisas e diferem em todo o resto.
 
-**Parecem-se** em que os dois são baratos, os dois têm evidência decente, e os dois **são quase sempre usados errado.**
+Parecem-se em que os dois são baratos, os dois têm evidência decente e os dois são quase sempre usados errado.
 
-**Diferem** em mecanismo, em janela de tempo, e — principalmente — **no lugar do corpo onde o protocolo costuma falhar.** **No nitrato, o problema está na boca. No bicarbonato, está no intestino.** Guardem essas duas frases; elas são o esqueleto da aula.
+Diferem em mecanismo, em janela de tempo e, principalmente, no lugar do corpo onde o protocolo costuma falhar. No nitrato, o problema está na boca. No bicarbonato, está no intestino. Essas duas frases são o esqueleto da aula.
 
-Três pessoas.
+Três perfis típicos. Um ciclista amador que faz contrarrelógio de vinte minutos. Uma judoca com lutas de quatro a cinco minutos, várias no mesmo dia. E uma corredora de cinco quilômetros que ouviu falar de bicarbonato, tomou uma colher de sopa diluída na água na manhã da prova e passou o percurso procurando banheiro.
 
-**Um ciclista amador de 41 anos**, que faz contrarrelógio de vinte minutos e quer melhorar o tempo.
-
-**Uma judoca de 27 anos**, com lutas de quatro a cinco minutos e várias no mesmo dia.
-
-**E uma corredora de 5 quilômetros de 35 anos**, que ouviu falar de bicarbonato, **tomou uma colher de sopa diluída na água na manhã da prova**, e passou o percurso inteiro procurando banheiro.
-
-Esta aula é um procedimento — **dois protocolos e um ensaio comum.** E a corredora já entregou a regra que atravessa os dois: **nada disso se estreia no dia da prova**, exatamente como a aula 4.10 estabeleceu.
+A corredora já entregou a regra que atravessa os dois protocolos: nada disso se estreia no dia da prova.
 
 ---
 
-📊 **[SLIDE 2 DE 6]**
-*Visual: a via desenhada em três etapas — nitrato da comida → bactérias na língua → nitrito → óxido nítrico. Sobre a etapa das bactérias, um frasco de enxaguante bucal com um X.*
-*Teleprompter: (o nitrato — e o passo que quase ninguém conhece)*
+📊 **[SLIDE 2 DE 11]**
+*Visual: a via do nitrato em quatro etapas: nitrato da comida; saliva e bactérias da língua; nitrito; óxido nítrico. Sobre a etapa das bactérias, um frasco de enxaguante bucal com um X.*
+*Teleprompter: (a via, e o passo que quase ninguém conhece)*
 
-**O nitrato.** E ele é o único recurso deste módulo em que **uma bactéria participa do mecanismo.**
+O nitrato é o único recurso do módulo em que uma bactéria participa do mecanismo.
 
-O nitrato está nos **vegetais de folha verde-escura e na beterraba** — rúcula, espinafre, alface, agrião, e a beterraba, que virou o símbolo comercial do assunto.
+Ele está nas folhas verde-escuras e na beterraba: rúcula, espinafre, alface, agrião. Ingerido, é absorvido, e uma parte volta para a saliva. Ali, bactérias do dorso da língua reduzem o nitrato a nitrito. O nitrito é engolido de novo e, no estômago e no sangue, vira óxido nítrico.
 
-Ingerido, ele é absorvido e **uma parte volta para a saliva.** Ali, **bactérias que vivem no dorso da língua reduzem o nitrato a nitrito.** O nitrito é engolido de novo e, no ambiente ácido do estômago e depois no sangue, **converte-se em óxido nítrico.**
+E o óxido nítrico faz o trabalho: vasodilatação, eficiência da contração e, o achado mais consistente, menor custo de oxigênio para a mesma intensidade submáxima. A mesma velocidade fica mais barata.
 
-**E o óxido nítrico é quem faz o trabalho**: vasodilatação, melhora da eficiência da contração muscular e, o achado mais consistente, **redução do custo de oxigênio para a mesma intensidade de exercício submáximo.** Em bom português: **a mesma velocidade fica mais barata.**
+Agora o passo que anula o protocolo inteiro. Se você elimina as bactérias da boca, a via para. Govoni e colaboradores, em 2008, deram nitrato a sete voluntários, com e sem enxaguante bucal de clorexidina. Com o enxaguante, a subida do nitrito no sangue foi muito menor.
 
-Agora **o passo que quase ninguém conhece — e que anula o protocolo inteiro.**
-
-**Se você elimina as bactérias da boca, a via para.** **Govoni e colaboradores, em 2008**, deram uma carga de nitrato com e sem enxaguante bucal antibacteriano: **com o enxaguante, a conversão em nitrito na saliva foi abolida e a subida do nitrito no sangue foi muito menor.** E trabalhos posteriores mostraram o mesmo em pressão arterial.
-
-**A consequência prática é quase cômica de tão simples: quem toma suco de beterraba e usa enxaguante bucal antisséptico jogou o dinheiro fora.** O mesmo vale para bala e chiclete antisséptico. **Isso precisa estar escrito no plano, porque ninguém pergunta e ninguém conta.**
-
-E a magnitude, com honestidade. A revisão de **Jones, de 2014**, organizou o campo e deixou claro o padrão que se confirmou depois: **o efeito é mais consistente em pessoas menos treinadas e em esforços submáximos prolongados**, e **tende a ser menor ou ausente em atletas de elite de resistência** — que já têm eficiência alta e pouco espaço para melhorar.
-
-**Repare na inversão em relação ao resto do módulo.** Quase todos os ergogênicos rendem mais no atleta de alto nível. **O nitrato é o oposto: ele tende a render mais exatamente no público deste curso** — o amador, o praticante recreacional, e também **o idoso**, em que há linha de pesquisa sobre função muscular e pressão arterial.
+A consequência prática é quase cômica de tão simples: quem toma suco de beterraba e usa enxaguante antisséptico jogou o dinheiro fora. Isso precisa estar escrito no plano, porque ninguém pergunta e ninguém conta.
 
 ---
 
-📊 **[SLIDE 3 DE 6]**
-*Visual: um shot de 70 mL com "~6,4 mmol" escrito, um relógio marcando 2 a 3 horas antes, e um calendário de 3 a 6 dias. Ao lado, um prato de rúcula e beterraba.*
-*Teleprompter: (o protocolo do nitrato, com os erros mais comuns)*
+📊 **[SLIDE 3 DE 11]**
+*Visual: duas colunas: "rende mais" (menos treinado, esforço submáximo prolongado, intermitente de alta intensidade, idoso) e "rende menos" (atleta de elite de resistência).*
+*Teleprompter: (quem responde: a inversão)*
 
-**O protocolo do nitrato**, em cinco linhas.
+A magnitude, com honestidade. A revisão de Jones, de 2014, organizou o campo, e o padrão se confirmou depois: o efeito é mais consistente em pessoas menos treinadas e em esforços submáximos prolongados, e tende a ser menor em atletas de elite de resistência, que já têm eficiência alta e pouco espaço para melhorar.
 
-**A dose: entre seis e oito milimols de nitrato** — o que corresponde, grosso modo, a **quatrocentos a quinhentos miligramas.** Na prática, é **um shot de suco concentrado de beterraba, daqueles de setenta mililitros**, que costuma trazer a dose declarada no rótulo.
-
-**O momento: duas a três horas antes** do esforço, porque o pico de nitrito no sangue é lento — **nada a ver com a cafeína.**
-
-**A duração: dose única funciona**, e **três a seis dias de uso antes da competição** parecem melhorar a resposta em parte dos estudos. **Para quem vai competir, começar alguns dias antes é razoável.**
-
-**A janela de esforço: os efeitos mais consistentes aparecem em esforços submáximos prolongados e em provas de alguns minutos a algumas dezenas de minutos** — e há sinal também em **esforços intermitentes de alta intensidade**, como os dos esportes coletivos.
-
-**E os cinco erros que eu vejo.**
-
-**Um: enxaguante bucal antisséptico.** Já explicado. **Suspender nos dias de uso.**
-
-**Dois: suco de beterraba caseiro como se fosse dose.** O teor de nitrato na beterraba **varia com o solo, a variedade e o preparo.** Para efeito de rotina alimentar, ótimo. **Para acertar seis a oito milimols num dia de prova, não serve** — é o mesmo problema do café coado da aula 5.3.
-
-**Três: tomar quinze minutos antes.** Não dá tempo. **Duas a três horas.**
-
-**Quatro: assustar-se com a urina ou as fezes avermelhadas.** É **beterraba**, é esperado e é inofensivo. **Avise antes** — ou o paciente vai ao pronto-socorro achando que tem sangue.
-
-**Cinco: esquecer o intestino.** Suco concentrado em volume alto, perto do esforço, **pode dar desconforto.** É um dos casos da aula 4.10: **ensaie em treino.**
-
-E a alternativa alimentar, que vale dizer: **uma porção generosa de folhas verde-escuras e beterraba entrega nitrato de verdade.** Não é tão preciso quanto o shot, **mas é comida — e comida primeiro continua valendo.**
-
-Duas notas de segurança. **Em quem usa medicação para disfunção erétil ou nitratos de uso cardiológico, a conversa é médica** — o mecanismo se sobrepõe. E, como o nitrato **baixa a pressão arterial**, isso é efeito desejável em muita gente **e é interação a ser considerada em quem já usa anti-hipertensivo.**
+Repare na inversão. Quase todo ergogênico rende mais no atleta de alto nível. O nitrato tende a render mais exatamente no público deste curso: o amador, o praticante recreacional. E há linha de pesquisa em pessoas mais velhas, sobre função muscular e pressão arterial.
 
 ---
 
-📊 **[SLIDE 4 DE 6]**
-*Visual: um corte da fibra muscular com o H⁺ saindo para o sangue, e no sangue o bicarbonato "puxando" — legenda: "beta-alanina age dentro; bicarbonato, fora". Ao lado, a dose 0,2 a 0,4 g/kg e o relógio de 60 a 180 minutos.*
-*Teleprompter: (o bicarbonato — mecanismo, janela e dose)*
+📊 **[SLIDE 4 DE 11]**
+*Visual: três números do protocolo do nitrato: "5 a 9 mmol" (cerca de 300 a 560 mg); "2 a 3 horas antes"; "mais de 3 dias ajuda". Ao lado, um shot de suco concentrado e um prato de folhas e beterraba.*
+*Teleprompter: (o protocolo do nitrato)*
 
-**O bicarbonato de sódio.** O tampão mais antigo, mais barato e mais desagradável dos três.
+O protocolo do nitrato, pelo consenso do Comitê Olímpico Internacional de 2018.
 
-O mecanismo é elegante e fácil de explicar ao paciente. **A beta-alanina, da aula passada, trabalha dentro da fibra muscular. O bicarbonato trabalha fora dela, no sangue.**
+A dose aguda: cinco a nove milimols de nitrato, algo como trezentos a quinhentos e sessenta miligramas. Na prática, um shot de suco concentrado de beterraba, que costuma trazer a dose no rótulo.
 
-Ele aumenta a reserva alcalina do sangue e, com isso, **aumenta o gradiente que puxa o íon hidrogênio de dentro da fibra para fora.** **Dois tampões, dois compartimentos** — e é por isso que existe interesse real em combinar os dois.
+O momento: duas a três horas antes, porque o pico de nitrito no sangue é lento. Nada a ver com a cafeína.
 
-**A janela de esforço é praticamente a mesma da beta-alanina: alta intensidade, entre cerca de trinta segundos e dez minutos.** E a magnitude também é parecida — **poucos pontos percentuais**, maiores em esforços únicos máximos e em esforços repetidos com pouca recuperação.
+A duração: a dose única funciona, e mais de três dias de uso antes da competição parecem ajudar. Para quem vai competir, começar alguns dias antes é razoável.
 
-O posicionamento da Sociedade Internacional de Nutrição Esportiva, de **Grgic e colaboradores, em 2021**, dá os números do protocolo.
-
-**A dose: entre 0,2 e 0,4 grama por quilo de peso.** Para setenta quilos, isso vai de **catorze a vinte e oito gramas.** É bastante pó — e é aí que mora o problema do próximo slide.
-
-**O momento: de sessenta a cento e oitenta minutos antes** do esforço. E o posicionamento é explícito sobre uma coisa que muda a prática: **o tempo até o pico varia muito entre pessoas**, então **o ideal é individualizar — encontrar, em treino, o intervalo que funciona para aquela pessoa.**
-
-**O efeito também é dose-dependente até certo ponto**, e doses maiores trazem mais efeito adverso. **A estratégia que o posicionamento sugere para reduzir o desconforto é usar a dose menor, mais cedo, com refeição rica em carboidrato — e, quando disponível, em cápsulas com revestimento entérico.**
-
-E há uma frente interessante: **o uso repetido ao longo de semanas, junto ao treino**, com indícios de que possa **melhorar adaptações de treinamento**, e não só o desempenho agudo. **É uma linha promissora, não uma conduta fechada.**
+E a alternativa alimentar vale dizer: uma porção generosa de folhas verde-escuras e beterraba entrega nitrato de verdade. Não é tão preciso quanto o shot, mas é comida, e comida primeiro continua valendo.
 
 ---
 
-📊 **[SLIDE 5 DE 6]**
-*Visual: uma escada de estratégias contra o desconforto — dose menor · mais cedo · dividida · com carboidrato · cápsula entérica · carga em vários dias. Ao lado, um ícone de banheiro riscado.*
-*Teleprompter: (o intestino — o que separa o protocolo que funciona do que arruína a prova)*
+📊 **[SLIDE 5 DE 11]**
+*Visual: cinco erros do nitrato, numerados: enxaguante antisséptico; suco caseiro como se fosse dose; tomar quinze minutos antes; susto com a urina vermelha; esquecer o intestino.*
+*Teleprompter: (os cinco erros)*
 
-**O intestino.** É aqui que o bicarbonato se decide — e é o que aconteceu com a corredora do slide 1.
+Os cinco erros que eu vejo.
 
-Os efeitos adversos são comuns e conhecidos: **náusea, vômito, dor abdominal, distensão, diarreia.** Numa prova, **isso não custa dois por cento de desempenho — custa a prova inteira.**
+Um: enxaguante bucal antisséptico, e também bala e chiclete antisséptico. Suspender nos dias de uso.
 
-**Seis estratégias, em ordem de facilidade.**
+Dois: suco de beterraba caseiro como se fosse dose. O teor de nitrato varia com o solo, a variedade e o preparo. Para rotina alimentar, ótimo. Para acertar a dose num dia de prova, não serve. É o café coado da aula de cafeína.
 
-**Uma: usar a dose menor da faixa.** Zero vírgula dois grama por quilo já tem efeito, e é muito mais tolerável que zero vírgula quatro.
+Três: tomar quinze minutos antes. Não dá tempo.
 
-**Duas: tomar mais cedo.** Cento e oitenta minutos, em vez de sessenta, dá tempo de o desconforto passar antes do esforço.
+Quatro: assustar-se com urina ou fezes avermelhadas. É beterraba, é esperado e é inofensivo. Avise antes, ou o paciente vai ao pronto-socorro achando que tem sangue.
 
-**Três: dividir a dose** ao longo de uma hora, em vez de tomar tudo de uma vez.
+Cinco: esquecer o intestino. Suco concentrado em volume, perto do esforço, pode incomodar. Ensaie em treino.
 
-**Quatro: tomar com uma refeição rica em carboidrato** — reduz o desconforto de forma consistente.
-
-**Cinco: cápsulas com revestimento entérico**, quando disponíveis, que liberam o conteúdo depois do estômago.
-
-**Seis: a carga ao longo de dias.** Em vez de uma dose única antes da prova, **doses menores divididas ao longo de três a quatro dias** antes — estratégia que tende a elevar o bicarbonato sanguíneo com menos sintoma.
-
-E a sétima, que não é estratégia e sim regra: **testar em treino, pelo menos duas vezes, na mesma hora do dia e com a mesma refeição.** **Quem não tolerou nas duas não usa.** E essa decisão é legítima — **existe gente que simplesmente não tolera bicarbonato**, e insistir é trocar um ganho de dois por cento por um risco de cem.
-
-**Os limites clínicos.** A dose traz **muito sódio** — e isso é um problema em **hipertensão**, em **doença renal**, em **insuficiência cardíaca** e em quem usa **medicação que mexe com eletrólitos ou com o equilíbrio ácido-básico**. **Em dose muito alta existe risco de alcalose metabólica**, com repercussão real.
-
-**Nada disso é assunto de balcão.** **Bicarbonato em pessoa com doença crônica é decisão médica** — e a frase "é só bicarbonato de cozinha" é, provavelmente, a frase mais perigosa desta aula.
-
-E o erro da corredora, para fechar: **uma colher de sopa diluída, sem dose por peso, sem ensaio, na manhã da prova.** **Três das seis estratégias violadas de uma vez.** Ela não descobriu que não tolera bicarbonato. **Ela descobriu que aquele protocolo não funciona para ninguém.**
+E duas notas de segurança. Em quem usa medicação para disfunção erétil ou nitrato cardiológico, a conversa é médica, porque o mecanismo se sobrepõe. E o nitrato baixa a pressão arterial, o que é desejável em muita gente e é interação a considerar em quem já usa anti-hipertensivo.
 
 ---
 
-📊 **[SLIDE 6 DE 6]**
-*Visual: os três casos com a decisão ao lado, e embaixo o quadro-resumo dos dois protocolos lado a lado.*
-*Teleprompter: (aplicar aos três, o quadro e o escopo)*
+📊 **[SLIDE 6 DE 11]**
+*Visual: corte de uma fibra muscular com o íon hidrogênio saindo para o sangue. Dentro da fibra, "beta-alanina: carnosina"; no sangue, "bicarbonato: reserva alcalina". A legenda: dois tampões, dois compartimentos.*
+*Teleprompter: (o bicarbonato: mecanismo e janela)*
 
-Os três do começo.
+O bicarbonato de sódio. O tampão mais antigo, mais barato e mais desagradável.
 
-**O ciclista do contrarrelógio de vinte minutos.** Esforço submáximo prolongado, num amador: **é o perfil clássico do nitrato**, e é onde ele tende a render mais. Conduta: **um shot padronizado, duas a três horas antes, com três a seis dias de uso antes da competição, sem enxaguante bucal antisséptico nesses dias, ensaiado em pelo menos dois treinos longos.** **Bicarbonato, para vinte minutos de esforço, está no limite superior da janela** e provavelmente não vale o desconforto.
+O mecanismo é fácil de explicar ao paciente. A beta-alanina, da aula anterior, trabalha dentro da fibra. O bicarbonato trabalha fora dela, no sangue. Ele aumenta a reserva alcalina e, com isso, o gradiente que puxa o íon hidrogênio para fora da fibra. Dois tampões, dois compartimentos, e por isso existe interesse em combinar os dois.
 
-**A judoca de lutas de quatro a cinco minutos, várias no mesmo dia.** **Janela perfeita para tampão.** A combinação defensável é **beta-alanina como base crônica** — a aula 5.4, começando meses antes — **e bicarbonato como recurso agudo em dia de competição**, se ele tiver sido testado. **E aqui o ensaio importa ainda mais**, porque ela compete várias vezes no mesmo dia: **o desconforto que aparece na terceira luta é pior do que o que aparece na primeira.** O tema do corte de peso, que quase sempre acompanha esse atleta, **volta como alerta da aula 4.9: bicarbonato somado a desidratação para bater peso é uma combinação ruim.**
+A janela de esforço é parecida com a da beta-alanina: alta intensidade, de cerca de trinta segundos a alguns minutos. O posicionamento da Sociedade Internacional de Nutrição Esportiva, de Grgic e colaboradores, em 2021, lista melhora em resistência muscular, em lutas como boxe, judô, caratê, taekwondo e luta olímpica, e em ciclismo, corrida e natação de alta intensidade.
 
-**A corredora de 5 quilômetros.** A prova dela dura entre vinte e trinta minutos — **acima da janela do bicarbonato.** A conduta é a conversa honesta: **"o que você usou não tem indicação para a sua prova, e o jeito como você usou não funcionaria nem na prova certa."** Se ela quiser um recurso, **o nitrato é mais defensável** — e a base dela, provavelmente, ainda é o que mais rende.
+---
 
-**O quadro-resumo.** **Nitrato: 6 a 8 milimols · 2 a 3 horas antes · dose única funciona, 3 a 6 dias ajuda · rende mais em quem é menos treinado · e nada de enxaguante bucal.** **Bicarbonato: 0,2 a 0,4 grama por quilo · 60 a 180 minutos antes, individualizado · janela de 30 segundos a 10 minutos · e o intestino decide.**
+📊 **[SLIDE 7 DE 11]**
+*Visual: três números do protocolo do bicarbonato: "0,2 a 0,5 g/kg"; "60 a 180 minutos antes, individualizado"; "0,2 a 0,3 g/kg, perto de 180 minutos, para tolerar melhor". Embaixo, a conta para setenta quilos.*
+*Teleprompter: (o protocolo do bicarbonato)*
 
-O escopo. **Indicar e dosar os dois é do nutricionista.** **Hipertensão, doença renal, insuficiência cardíaca, uso de nitratos cardiológicos ou de medicação para disfunção erétil, e qualquer quadro de desidratação ou corte de peso são decisão médica.** **O preparador e o educador físico são quem garante o ensaio em treino** — sem ele, não existe protocolo. **E a pergunta de triagem de todos: quanto tempo dura o esforço, e isso já foi testado fora da prova?**
+O protocolo, pelo mesmo posicionamento.
 
-Na próxima aula, **5.6**, a gente sai dos ergogênicos e vai para o produto mais vendido de todos — e um dos menos necessários na maioria dos casos: **proteína em pó e aminoácidos.**
+A dose: de zero vírgula dois a zero vírgula cinco grama por quilo. Para setenta quilos, com zero vírgula dois ou zero vírgula três, que são as doses que o posicionamento sugere para reduzir efeito adverso, isso dá catorze a vinte e um gramas. É bastante pó, e é aí que mora o problema do próximo slide.
+
+O momento: de sessenta a cento e oitenta minutos antes. E o tempo até o pico varia muito entre pessoas, então o ideal é individualizar: encontrar, em treino, o intervalo que funciona para aquela pessoa.
+
+E há uma frente interessante: o uso repetido ao longo de semanas junto ao treino, com indícios de efeito sobre as adaptações. É linha de pesquisa, não conduta fechada.
+
+---
+
+📊 **[SLIDE 8 DE 11]**
+*Visual: escada de estratégias contra o desconforto: dose menor; mais cedo, perto de 180 minutos; com refeição rica em carboidrato; cápsula com revestimento entérico; dividir. No topo, a regra: testar duas vezes em treino.*
+*Teleprompter: (o intestino decide)*
+
+O intestino. É aqui que o bicarbonato se decide, e foi o que aconteceu com a corredora.
+
+Náusea, vômito, dor abdominal, distensão, diarreia. Numa prova, isso não custa um pouco de desempenho. Custa a prova inteira.
+
+O posicionamento propõe quatro estratégias. Dose menor, zero vírgula dois ou zero vírgula três grama por quilo. Tomar mais cedo, perto de cento e oitenta minutos antes. Tomar com uma refeição rica em carboidrato. E, quando disponível, cápsula com revestimento entérico. Dividir a dose ao longo de uma hora também costuma ajudar.
+
+E uma regra que não é estratégia: testar em treino, pelo menos duas vezes, na mesma hora do dia e com a mesma refeição. Quem não tolerou nas duas não usa. Existe gente que simplesmente não tolera bicarbonato, e insistir é trocar um ganho pequeno por um risco de perder tudo.
+
+O erro da corredora, para fechar: uma colher de sopa, sem dose por peso, sem ensaio, na manhã da prova. Ela não descobriu que não tolera bicarbonato. Descobriu que aquele protocolo não funciona para ninguém.
+
+---
+
+📊 **[SLIDE 9 DE 11]**
+*Visual: cartões de limite clínico: sódio em excesso; hipertensão; doença renal; insuficiência cardíaca; medicação que mexe com eletrólitos; alcalose em dose alta.*
+*Teleprompter: (os limites clínicos)*
+
+Os limites clínicos. A dose traz muito sódio, e isso é problema em hipertensão, doença renal, insuficiência cardíaca e em quem usa medicação que mexe com eletrólitos ou com o equilíbrio ácido-básico. Em dose alta, existe risco de alcalose metabólica.
+
+Nada disso é assunto de balcão. Bicarbonato em pessoa com doença crônica é decisão médica. E "é só bicarbonato de cozinha" é, provavelmente, a frase mais perigosa desta aula.
+
+---
+
+📊 **[SLIDE 10 DE 11]**
+*Visual: tabela dos três perfis: duração do esforço, recurso que cabe e conduta.*
+*Teleprompter: (os três perfis)*
+
+Os três perfis.
+
+O ciclista do contrarrelógio de vinte minutos. Esforço submáximo prolongado, num amador: o perfil clássico do nitrato. Um shot padronizado, duas a três horas antes, alguns dias de uso antes da competição, sem enxaguante antisséptico nesses dias, ensaiado em pelo menos dois treinos longos. Bicarbonato, para vinte minutos, está fora da janela e provavelmente não vale o desconforto.
+
+A judoca com lutas de quatro a cinco minutos, várias no dia. Janela certa para tampão, e o judô aparece no próprio posicionamento. A combinação defensável é beta-alanina como base, começando meses antes, e bicarbonato como recurso de competição, se tiver sido testado. E o ensaio importa ainda mais, porque o desconforto que aparece na terceira luta é pior do que o da primeira. E o alerta da aula de composição corporal volta: bicarbonato somado a desidratação para bater peso é uma combinação ruim.
+
+A corredora de cinco quilômetros. A prova dura vinte a trinta minutos, fora da janela do bicarbonato. A conversa honesta: o que você usou não tem indicação para a sua prova, e o jeito como você usou não funcionaria nem na prova certa. Se ela quiser um recurso, o nitrato é mais defensável. E a base, provavelmente, ainda é o que mais rende.
+
+---
+
+📊 **[SLIDE 11 DE 11]**
+*Visual: o quadro-resumo dos dois protocolos lado a lado e três cartões de equipe.*
+*Teleprompter: (o quadro e quem faz o quê)*
+
+O quadro-resumo. Nitrato: cinco a nove milimols, duas a três horas antes, a dose única funciona e mais de três dias ajudam, rende mais em quem é menos treinado, e nada de enxaguante. Bicarbonato: zero vírgula dois a zero vírgula cinco grama por quilo, de preferência a menor, sessenta a cento e oitenta minutos antes e individualizado, esforço intenso de poucos minutos, e o intestino decide.
+
+Quem faz o quê. Indicar e dosar os dois é do nutricionista. Hipertensão, doença renal, insuficiência cardíaca, nitrato cardiológico, medicação para disfunção erétil, desidratação e corte de peso são decisão médica. O preparador e o educador físico garantem o ensaio em treino, e sem ele não existe protocolo.
+
+E a pergunta de triagem de todos: quanto tempo dura o esforço, e isso já foi testado fora da prova?
+
+Na próxima aula, o produto mais vendido de todos, e um dos menos necessários na maioria dos casos: proteína em pó e aminoácidos.
 
 ---
 
@@ -165,60 +169,39 @@ Na próxima aula, **5.6**, a gente sai dos ergogênicos e vai para o produto mai
 1. Grgic J, Pedisic Z, Saunders B, et al. International Society of Sports Nutrition position stand: sodium bicarbonate and exercise performance. *J Int Soc Sports Nutr.* 2021;18(1):61. PMID: 34503527
 2. Jones AM. Dietary nitrate supplementation and exercise performance. *Sports Med.* 2014;44(Suppl 1):S35-S45. PMID: 24791915
 3. Govoni M, Jansson EÅ, Weitzberg E, Lundberg JO. The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash. *Nitric Oxide.* 2008;19(4):333-337. PMID: 18793740
-4. Kapil V, Haydar SMA, Pearl V, Lundberg JO, Weitzberg E, Ahluwalia A. Physiological role for nitrate-reducing oral bacteria in blood pressure control. *Free Radic Biol Med.* 2013;55:93-100.
-5. Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. *Br J Sports Med.* 2018;52(7):439-455. PMID: 29540367
+4. Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. *Br J Sports Med.* 2018;52(7):439-455. PMID: 29540367
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — Dois tampões, dois problemas
-· Baratos, com evidência decente, **quase sempre usados errado**
-· **No nitrato, o problema está na boca. No bicarbonato, está no intestino**
-· **Ciclista, 41** (contrarrelógio de 20 min) · **judoca, 27** (lutas de 4–5 min, várias no dia) · **corredora de 5 km, 35** (uma colher de sopa na manhã da prova → banheiro)
-· A regra que atravessa: **nada se estreia no dia da prova** (4.10)
-Visual: os dois copos, a boca e o intestino.
+**O que mudou nesta versão.** Voz do curso e deck de onze slides no lugar de seis blocos longos.
+Arquitetura PROCEDIMENTO mantida (a anterior é NÚMERO; a próxima é ERRO). Sem caso clínico: o
+ciclista de 41, a judoca de 27 e a corredora de 35 viraram "três perfis típicos", sem idade.
 
-**Slide 2** — Nitrato: a via, e a bactéria
-· Folhas verde-escuras e beterraba → **saliva → bactérias da língua → nitrito → óxido nítrico**
-· Efeito mais consistente: **reduz o custo de oxigênio** na mesma intensidade — **a mesma velocidade fica mais barata**
-· **Govoni, 2008**: **enxaguante antibacteriano abole a conversão** e derruba a subida do nitrito no sangue
-· **Suco de beterraba + enxaguante = dinheiro fora** (e bala/chiclete antisséptico também)
-· **Jones, 2014**: rende mais em **menos treinados** e em esforço submáximo prolongado; **menor ou ausente no elite**
-· **Inversão do módulo: este rende mais no público deste curso**
-Visual: a via em três etapas com o X sobre o enxaguante.
+**Números conferidos.** Govoni 2008: sete voluntários, enxaguante de clorexidina, aumento de nitrito
+no plasma muito atenuado. Grgic 2021: bicarbonato de 0,2 a 0,5 g/kg melhora resistência muscular,
+lutas (boxe, judô, caratê, taekwondo, luta olímpica) e ciclismo, corrida e natação de alta
+intensidade; estratégias contra efeito adverso: doses menores (0,2 ou 0,3 g/kg), cerca de 180 min
+antes, com refeição rica em carboidrato, cápsula entérica. Consenso do COI 2018: nitrato agudo de
+5 a 9 mmol (310 a 560 mg) 2 a 3 h antes; uso por mais de 3 dias.
 
-**Slide 3** — Protocolo do nitrato
-· **6–8 mmol (~400–500 mg)** · **2 a 3 horas antes** · dose única funciona, **3–6 dias ajuda**
-· Janela: **submáximo prolongado, provas de minutos a dezenas de minutos**, e **intermitentes**
-· Erros: **enxaguante · suco caseiro como dose · tomar 15 min antes · assustar-se com a urina vermelha · esquecer o intestino**
-· **Comida primeiro**: folhas verde-escuras e beterraba entregam nitrato de verdade
-· Segurança: **nitratos cardiológicos, medicação para disfunção erétil, anti-hipertensivo → médico**
-Visual: o shot, o relógio e o prato.
+**Correções.**
+- A faixa do bicarbonato estava como 0,2 a 0,4 g/kg; o posicionamento de 2021 dá 0,2 a 0,5 g/kg,
+  com 0,2 a 0,3 g/kg sugeridos para reduzir efeito adverso. A conta para 70 kg foi refeita
+  (14 a 21 g).
+- A dose do nitrato estava como "6 a 8 mmol, 400 a 500 mg" e "shot de 70 mL"; ficou a faixa do
+  consenso do COI, sem volume de frasco.
+- "Três a seis dias" virou "mais de três dias", como no consenso.
+- A estratégia de carga do bicarbonato em vários dias saiu, por não estar no posicionamento
+  conferido.
+- A referência de Kapil 2013 saiu, porque a aula não cita o estudo.
 
-**Slide 4** — Bicarbonato: mecanismo e dose
-· **Beta-alanina age dentro da fibra; bicarbonato, fora** — aumenta o gradiente que tira o H⁺ da célula
-· Janela **~30 s a 10 min**, como a beta-alanina · efeito de **poucos pontos percentuais**
-· **Grgic, 2021 (ISSN)**: **0,2–0,4 g/kg** — 70 kg = **14 a 28 g** · **60 a 180 min antes**, **individualizado**
-· Menos desconforto: **dose menor, mais cedo, com refeição rica em carboidrato, cápsula entérica**
-· Uso repetido junto ao treino: **linha promissora, não conduta fechada**
-Visual: o H⁺ saindo da fibra e o bicarbonato no sangue.
+**Saíram.** "Aula 4.10", "aula 5.3", "aula passada", "aula 5.4", "aula 4.9", "aula 5.6", "o escopo",
+as idades, o bloco "Roteiro Gamma".
 
-**Slide 5** — O intestino decide
-· Náusea, vômito, dor, distensão, diarreia — **numa prova, não custa 2%, custa a prova**
-· Seis estratégias: **dose menor · mais cedo · dividida · com carboidrato · cápsula entérica · carga em 3–4 dias**
-· A sétima é regra: **testar em treino ao menos duas vezes** — **quem não tolerou, não usa**
-· Limites: **sódio alto** → hipertensão, doença renal, insuficiência cardíaca, medicação; **risco de alcalose em dose alta**
-· **"É só bicarbonato de cozinha" é a frase mais perigosa da aula**
-· A corredora violou **três das seis** de uma vez
-Visual: a escada de estratégias.
+**Citações faladas.** Govoni; Jones; Comitê Olímpico Internacional; Grgic.
 
-**Slide 6** — Os três, o quadro e o escopo
-· **Ciclista (20 min)**: **perfil clássico do nitrato** — shot padronizado, 2–3 h antes, 3–6 dias, sem enxaguante, ensaiado. Bicarbonato: **no limite da janela**, não compensa
-· **Judoca (4–5 min, várias lutas)**: **beta-alanina como base + bicarbonato agudo testado** · o desconforto da **terceira luta** é pior · **bicarbonato + desidratação de corte de peso = combinação ruim** (4.9)
-· **Corredora (20–30 min)**: **acima da janela do bicarbonato** — *"não tem indicação para a sua prova, e do jeito que você usou não funcionaria nem na prova certa"*
-· **Nitrato: 6–8 mmol · 2–3 h · rende mais em menos treinados · sem enxaguante**
-· **Bicarbonato: 0,2–0,4 g/kg · 60–180 min individualizado · 30 s a 10 min · o intestino decide**
-· Escopo: dose = **nutricionista** · hipertensão, rim, coração, nitratos e desidratação = **médico** · ensaio em treino = **preparador e educador físico**
-· Próxima aula: **5.6 — proteína em pó e aminoácidos**
-Visual: os três casos e o quadro-resumo.
+**Ligações internas.** café coado = aula de cafeína · carnosina = aula anterior · corte de peso =
+aula de composição corporal do módulo de nutrição · "nada de novo no dia" = aula do dia de
+competição · proteína em pó = próxima aula.
