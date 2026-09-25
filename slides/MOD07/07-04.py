@@ -1,0 +1,116 @@
+"""Spec do deck 7.4. Gera 07-04.json ao lado deste arquivo."""
+import json, math, os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "ferramentas", "slides"))
+from desenho import *
+
+S = []
+
+S.append({"id": "palavra", "tipo": "frase", "fundo": "tinta", "eyebrow": "Uma palavra que esconde tudo",
+          "frase": "“Teve uma lesão muscular.”",
+          "apoio": "Cabe ali desde uma sobrecarga que passa em poucos dias até uma ruptura do tendão que leva meses. Quatro passos: o que falha, a avaliação, a imagem e a classificação."})
+
+S.append({"id": "tamanho", "tipo": "numeros", "eyebrow": "O tamanho do problema", "titulo": "Posterior de coxa no futebol de elite europeu",
+          "numeros": [{"n": "19%", "x": "de todas as lesões em vinte e uma temporadas", "cor": "tinta"},
+                      {"n": "12%", "x": "a proporção na primeira temporada", "cor": "petr"},
+                      {"n": "24%", "x": "a proporção na temporada mais recente", "cor": "verm"}],
+          "destaque": "Quase uma em cada quatro lesões, num único grupo muscular, e crescendo.",
+          "destaque_cor": "verm", "fonte": "Estudo de lesões dos clubes de elite da UEFA, Br J Sports Med 2023"})
+
+S.append({"id": "mecanismos", "tipo": "duas", "eyebrow": "Passo um · o que falha", "titulo": "Dois cenários de alongamento sob tensão",
+          "esq": {"t": "Corrida em alta velocidade", "cor": "petr",
+                  "itens": ["fim do balanço da perna", "isquiotibiais freiam enquanto alongam", "cabeça longa do bíceps femoral", "a mais comum no jogador e no velocista"]},
+          "dir": {"t": "Alongamento extremo", "cor": "verm",
+                  "itens": ["chute alto, abertura, carrinho, dança", "dor mais alta, perto do quadril", "pouca perda de função no primeiro dia", "recuperação mais longa"]},
+          "destaque": "A segunda engana: o susto é pequeno e o prazo é grande.",
+          "destaque_cor": "verm", "fonte": "Dois estudos suecos, Am J Sports Med 2007"})
+
+p = [svg_abre(1664, 300, "Corte esquemático de um músculo com fibras em diagonal e um tendão que corre por dentro do ventre como uma espinha de peixe")]
+p.append(f'<path d="M140,150 C300,40 1360,40 1520,150 C1360,260 300,260 140,150 Z" fill="{GLIC}" fill-opacity="0.18" stroke="{GLIC}" stroke-width="4"/>')
+p.append(f'<line x1="20" y1="150" x2="1644" y2="150" stroke="{TINTA}" stroke-width="10" stroke-linecap="round"/>')
+for i in range(14):
+    x = 300 + i * 80
+    p.append(f'<line x1="{x}" y1="150" x2="{x + 60}" y2="80" stroke="{GLIC}" stroke-width="4"/>')
+    p.append(f'<line x1="{x}" y1="150" x2="{x + 60}" y2="220" stroke="{GLIC}" stroke-width="4"/>')
+p.append(f'<circle cx="1000" cy="150" r="30" fill="none" stroke="{FOSF}" stroke-width="6"/>')
+p.append("</svg>")
+rs = [rot(20, 110, "tendão", w=200, tam=24, cor=TINTA, peso=700),
+      rot(560, 262, "fibras que se inserem no tendão interno", w=560, tam=24, cor=GLIC, peso=700, alinha="center"),
+      rot(900, 0, "lesão que chega ao tendão interno", w=460, tam=24, cor=FOSF, peso=700)]
+S.append({"id": "anatomia", "tipo": "diagrama", "h": 300, "svg": "".join(p), "rotulos": rs,
+          "eyebrow": "Onde falha", "titulo": "O tendão também corre por dentro do músculo",
+          "destaque": "Quando a lesão pega o tendão interno, demora mais para liberar sprint e repete mais.",
+          "destaque_cor": "tinta", "fonte": "Esquema, sem escala"})
+
+S.append({"id": "historia", "tipo": "cards", "por_linha": 4, "eyebrow": "Passo dois · as primeiras horas", "titulo": "A história vale mais do que parece",
+          "cards": [{"t": "O que fazia", "x": "sprint, chute, abertura, desaceleração", "cor": "petr"},
+                    {"t": "O que sentiu", "x": "estalo, pontada, ou algo que apertou aos poucos", "cor": "ambar"},
+                    {"t": "Continuou?", "x": "conseguiu seguir no treino, conseguiu andar", "cor": "ambar"},
+                    {"t": "Já teve antes?", "x": "no mesmo lugar, e quando", "cor": "verm"}],
+          "destaque": "A última pergunta é a que mais se esquece, e é a que mais muda o plano.",
+          "destaque_cor": "tinta"})
+
+S.append({"id": "exame", "tipo": "duas", "eyebrow": "Passo dois · o exame", "titulo": "O que a maca mostra e o que muda a urgência",
+          "esq": {"t": "O exame", "cor": "petr",
+                  "itens": ["onde dói e em que extensão", "amplitude perdida, lado a lado", "dor ao contrair, com e sem resistência", "falha palpável"]},
+          "dir": {"t": "Sinais que mudam a urgência", "cor": "verm",
+                  "itens": ["não consegue andar", "hematoma extenso em poucas horas", "dor muito alta, perto do osso da bacia", "no adolescente: pensar em arrancamento"]},
+          "destaque": "Com história e exame, quem examina já separa o leve do sério e decide se precisa de imagem.",
+          "destaque_cor": "tinta"})
+
+S.append({"id": "imagem", "tipo": "duas", "eyebrow": "Passo três · imagem com pergunta", "titulo": "Quando a ressonância muda a decisão",
+          "esq": {"t": "Ajuda", "cor": "petr",
+                  "itens": ["dúvida de gravidade ou de arrancamento", "prazo apertado e tendão interno em jogo", "evolução que não bate com o esperado"]},
+          "dir": {"t": "Não ajuda", "cor": "verm",
+                  "itens": ["pedida por reflexo, no dia seguinte", "desconforto leve, já melhorando", "plano que não muda com o laudo"]},
+          "destaque": "Em 180 atletas, a ressonância não acrescentou valor à história e ao exame para prever o retorno.",
+          "destaque_cor": "tinta", "fonte": "Coorte norueguesa, Br J Sports Med 2015"})
+
+S.append({"id": "advertencias", "tipo": "cards", "por_linha": 3, "eyebrow": "Imagem de músculo", "titulo": "Três advertências que evitam erro caro",
+          "cards": [{"t": "Cedo demais", "x": "pode subestimar a lesão", "cor": "ambar"},
+                    {"t": "Tarde demais", "x": "pode mostrar cicatriz antiga e confundir", "cor": "ambar"},
+                    {"t": "Achado sem sintoma", "x": "o edema persiste em quem já voltou a treinar bem", "cor": "verm"}],
+          "destaque": "A imagem, sozinha, não decide quando a pessoa volta.",
+          "destaque_cor": "verm"})
+
+S.append({"id": "munique", "tipo": "tabela", "eyebrow": "Passo quatro · classificar", "titulo": "Consenso de Munique, 2013",
+          "cab": ["Mundo", "O que entra", "Cuidado"],
+          "larguras": [24, 46, 30],
+          "linhas": [["Funcional, sem ruptura", "sobrecarga por fadiga, dor muscular tardia", "costuma resolver rápido"],
+                     ["Funcional, neuromuscular", "inclui a dor que vem da coluna lombar", "tratada como ruptura por engano"],
+                     ["Estrutural, parcial", "ruptura de fibra, pequena a moderada", "prazo pelo exame"],
+                     ["Estrutural, completa", "ruptura total e arrancamento do tendão", "avaliação cirúrgica"]],
+          "destaque_cor": "tinta", "fonte": "Br J Sports Med 2013"})
+
+S.append({"id": "britanica", "tipo": "cards", "por_linha": 3, "eyebrow": "Classificação britânica, 2014", "titulo": "Grau de 0 a 4 pelo tamanho, letra pelo lugar",
+          "cards": [{"t": "Letra a", "x": "periferia, perto da fáscia", "cor": "petr"},
+                    {"t": "Letra b", "x": "no músculo ou na junção com o tendão", "cor": "ambar"},
+                    {"t": "Letra c", "x": "estende-se para dentro do tendão", "cor": "verm"}],
+          "destaque": "No atletismo de elite, a letra c demorou mais para voltar ao treino completo e repetiu mais.",
+          "destaque_cor": "verm", "fonte": "Br J Sports Med 2014 e 2016"})
+
+S.append({"id": "conduta", "tipo": "lista", "eyebrow": "O que a classificação muda", "titulo": "Ritmo por critério, não por calendário",
+          "itens": [{"t": "Proteger sem imobilizar", "x": "repouso relativo, dor controlada, movimento no que não dói", "cor": "petr"},
+                    {"t": "Carga cedo, progressão por critério", "x": "periférica avança rápido; tendão interno, devagar", "cor": "ambar"},
+                    {"t": "O gesto volta antes da alta", "x": "sprint na reabilitação, não no jogo", "cor": "verm"}],
+          "gap_itens": 26, "destaque": "Quando o calendário pula a última etapa, o jogo faz a exposição, em velocidade máxima e com adversário.",
+          "destaque_cor": "verm"})
+
+S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Quatro erros", "titulo": "A dor some antes de a capacidade voltar",
+          "regras": ["Não chame tudo de estiramento",
+                     "Lembre da dor que vem da coluna",
+                     "Não imobilize no começo, não apresse o fim"],
+          "cards": [{"t": "Médico", "x": "Diagnostica, classifica, pede e interpreta imagem."},
+                    {"t": "Fisioterapia e preparação", "x": "Progridem o tecido, a força e o gesto."},
+                    {"t": "Coordenação", "x": "Comunica prazo com o médico, nunca de improviso."}],
+          "quem": "Próxima aula: o prazo, e por que a previsão erra tanto."})
+
+spec = {"arquivo": "aulas/MOD07/07-04-lesao-muscular-fisiopatologia-e-classificacao.md",
+        "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
+        "titulo": "Lesão muscular no esporte", "subtitulo": "O que falha, como avaliar e como classificar",
+        "nota_capa": "Entra pela palavra que esconde tudo.",
+        "secoes": {"palavra": ["O tamanho do problema e o que falha.", "capa"],
+                   "historia": ["História, exame e imagem.", "historia"],
+                   "munique": ["As duas classificações e a conduta.", "munique"]},
+        "slides": S}
+json.dump(spec, open(os.path.join(os.path.dirname(__file__), "07-04.json"), "w"), ensure_ascii=False, indent=1)
+print("07-04.json:", len(S), "slides")

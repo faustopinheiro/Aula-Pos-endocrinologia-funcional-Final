@@ -196,59 +196,31 @@ infusões acima de 100 mL/12 h).
 
 ## Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção · 13 aulas
 
-**ESCRITO.** Seis slots partiram de roteiros legados (7.1, 7.3, 7.6, 7.10 e
-7.12, vindos de M16-A01, M16-A05/A03, M17-A01, M17-A04 e M16-A06/A07, além das
-versões já editadas em U7), todos reescritos ao padrão do docs/06; os demais são
-novos. Este é o primeiro módulo escrito inteiro na voz corrigida: sem travessões
-na prosa falada, sem citar número de aula ou de módulo na fala, sem vocabulário
-de IA, e com citação por nome de autor só nos estudos marcantes — as referências
-internas passaram para um bloco `## Notas de produção` ao pé de cada arquivo.
+**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 a 6: decks enxutos, gráficos
+em SVG, referências conferidas. Capa e fecho em tinta, a cor dos módulos 1, 2 e 6 (docs/08).
+Dois casos no módulo (7.8 e 7.12, ditos como caso ilustrativo); as demais aulas usam perfis
+típicos, sem idade, e contas feitas em aula.
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 7.1 | Epidemiologia da lesão esportiva | 15 | 12 | NÚMERO | [slides](https://claude.ai/artifact/Md1Wwbr9rd5nrPBptLNC5K) |
+| 7.2 | Vigilância de lesão no mundo real | 13 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/P5of1DuarAA8dbWdy4fVwo) |
+| 7.3 | Etiologia da lesão esportiva | 15 | 12 | ERRO | [slides](https://claude.ai/artifact/FEiKJAjnjNp8wz7hzrfctM) |
+| 7.4 | Lesão muscular no esporte | 12 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/X23ksUD3SjVHvm1cLjg8S5) |
+
+Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Min | Arquitetura |
 |---|---|---|---|
-| 7.1 **[longa]** | Definir lesão: por que a definição muda o número | 24 | NÚMERO |
-| 7.2 | Vigilância e registro padronizado | 17 | PROCEDIMENTO |
-| 7.3 | Modelo etiológico: por que a lesão acontece | 21 | ERRO |
-| 7.4 | Lesão muscular: o que falha e como classificar | 15 | PROCEDIMENTO |
 | 7.5 | Lesão muscular: prognóstico e o erro de estimativa | 13 | NÚMERO |
-| 7.6 **[incluída]** | Estiramento muscular: manejo do primeiro dia ao retorno | 23 | PROCEDIMENTO |
+| 7.6 | Estiramento muscular: manejo do primeiro dia ao retorno | 23 | PROCEDIMENTO |
 | 7.7 | Tendinopatia: o continuum e o que a dor significa | 14 | ERRO |
 | 7.8 | Tendinopatia: manejo de carga como tratamento | 17 | PROCEDIMENTO |
 | 7.9 | Lesões do joelho: da dor anterior ao ligamento | 16 | DECISÃO |
 | 7.10 | Tornozelo e ombro: as duas regiões que a equipe vê primeiro | 13 | PROCEDIMENTO |
 | 7.11 | Lesão óssea de estresse e sua raiz energética | 14 | NÚMERO |
 | 7.12 | Imagem no esporte e o achado incidental | 19 | ERRO |
-| 7.13 **[longa]** | Programas de prevenção: eficácia e falha de adesão | 28 | DECISÃO |
-
-Total: 3 h 54 min. Dois casos clínicos no módulo (7.8, homem de 42 anos com dor
-no Aquiles há cinco meses depois de entrar ladeira e tiro no treino; 7.12,
-corredora de 41 anos que chega com o laudo de ressonância antes da consulta) —
-ambos abertos no primeiro slide e resolvidos no último. A 7.13 fecha o módulo
-com a camada de integração multiprofissional nos três níveis (Decisão ·
-Contribuição · Reconhecimento).
-
-**Aula incluída depois do fechamento (7.6).** O módulo foi planejado com 12
-aulas. Na revisão do coordenador ficou claro que o manejo do estiramento
-muscular não estava em lugar nenhum do curso: a 7.4 classificava, a 7.5
-estimava prazo, mas PRICE → POLICE → PEACE & LOVE, os graus I–II–III usados na
-beira do campo, a decisão sobre anti-inflamatório, gelo e cúrcuma e a travessia
-até o retorno ficavam sem aula. A 7.6 foi escrita para isso, e as aulas
-seguintes foram renumeradas (tendinopatia 7.6→7.7 … prevenção 7.12→7.13).
-Com isso o módulo passa a 13 aulas e a matriz, que era de 158, foi a 159; depois da fusão das três aulas de evidência do Módulo 1, ficou em 157.
-
-Sequência de arquiteturas sem repetição consecutiva (N·P·E·P·N·P·E·P·D·P·N·E·D),
-quatro curtas (7.5, 7.7, 7.10 e 7.11) e as duas longas nas pontas, não
-consecutivas. As aulas do miolo saíram mais compactas que as dos Módulos 4 a 6
-porque a voz conversacional é mais econômica; 7.4, 7.5, 7.7 e 7.10 são as
-candidatas a um passe de profundidade se o total do módulo precisar subir.
-
-Âncoras brasileiras do módulo: consenso brasileiro de definição de lesão em
-corredores (Yamato, Saragiotto e Lopes, 2015), modelo de sistemas complexos
-vindo da UFMG (Bittencourt, 2016), coorte de um clube de elite brasileiro sobre
-risco e custo da lesão de posterior de coxa (Oliveira-Júnior, 2024), estudo
-brasileiro de crioterapia e regeneração muscular (Vieira Ramos, 2016), revisão brasileira do FIFA 11+ com 6.344
-jogadores (Sadigursky, 2017) e o enquadramento do registro de lesão como dado
-pessoal sensível sob a LGPD.
+| 7.13 | Programas de prevenção: eficácia e falha de adesão | 28 | DECISÃO |
 
 ## Módulo 8 — Fisioterapia Esportiva e Reabilitação · 12 aulas
 

@@ -1,0 +1,399 @@
+{
+ "arquivo": "aulas/MOD07/07-01-definir-lesao-por-que-a-definicao-muda-o-numero.md",
+ "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção",
+ "tema": "tinta",
+ "titulo": "Epidemiologia da lesão esportiva",
+ "subtitulo": "Como a definição e o denominador mudam o número",
+ "nota_capa": "Entra pelos dois números da mesma revisão.",
+ "secoes": {
+  "numeros": [
+   "Os números e as definições.",
+   "capa"
+  ],
+  "denominador": [
+   "Denominador e vocabulário.",
+   "denominador"
+  ],
+  "sobrecarga": [
+   "Sobrecarga, Oslo, leitura crítica e rastreio.",
+   "sobrecarga"
+  ]
+ },
+ "slides": [
+  {
+   "id": "numeros",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Mesma revisão, mesmo esporte",
+   "frase": "Lesão em corredores: de 19,4% a 79,3%.",
+   "apoio": "Os estudos mediram coisas diferentes e chamaram todas de lesão. O número não descreve só a realidade: descreve a definição."
+  },
+  {
+   "id": "usos",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Por que começar por aqui",
+   "titulo": "Você vai usar esses números a vida inteira",
+   "cards": [
+    {
+     "t": "Implantar prevenção",
+     "x": "vale a pena no meu clube ou assessoria?",
+     "cor": "petr"
+    },
+    {
+     "t": "Responder ao aluno",
+     "x": "“corrida destrói o joelho?”",
+     "cor": "ambar"
+    },
+    {
+     "t": "Comparar modalidades",
+     "x": "em que esporte colocar o filho?",
+     "cor": "ambar"
+    },
+    {
+     "t": "Saber se funcionou",
+     "x": "o que eu mudei reduziu lesão?",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "As ferramentas nasceram no esporte profissional. Em quem treina sozinho, erram sempre para o mesmo lado: não enxergam a sobrecarga.",
+   "destaque_cor": "tinta",
+   "fonte": "Revisão sistemática, Br J Sports Med 2007"
+  },
+  {
+   "id": "familias",
+   "tipo": "tabela",
+   "eyebrow": "As três famílias de definição",
+   "titulo": "Cada uma enxerga uma coisa",
+   "cab": [
+    "Definição",
+    "Captura",
+    "Deixa passar"
+   ],
+   "larguras": [
+    24,
+    36,
+    40
+   ],
+   "linhas": [
+    [
+     "Perda de tempo",
+     "o agudo; compara clubes",
+     "a sobrecarga de quem segue treinando"
+    ],
+    [
+     "Atenção médica",
+     "o que chega ao serviço",
+     "quem não tem acesso: mede a fila"
+    ],
+    [
+     "Autorrelato",
+     "o que as outras perdem",
+     "separa mal o desconforto passageiro"
+    ]
+   ],
+   "destaque": "A tendinopatia que dói há oito meses não afasta ninguém do treino. Só estraga a qualidade dele.",
+   "destaque_cor": "verm",
+   "fonte": "Consenso do futebol, Br J Sports Med 2006"
+  },
+  {
+   "id": "consenso",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "A definição brasileira para corredor recreativo",
+   "titulo": "Yamato, Saragiotto e Lopes, 2015",
+   "cards": [
+    {
+     "t": "Restrição, não só parada",
+     "x": "distância, velocidade, duração ou treino",
+     "cor": "petr"
+    },
+    {
+     "t": "7 dias ou 3 sessões",
+     "x": "separa o desconforto passageiro do problema",
+     "cor": "ambar"
+    },
+    {
+     "t": "Ou consulta",
+     "x": "a um profissional de saúde",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Dor musculoesquelética em membros inferiores, relacionada à corrida, que restringe ou interrompe o treino, ou leva a consultar.",
+   "destaque_cor": "petr",
+   "fonte": "Delphi modificado, limiar de consenso de 75%, J Orthop Sports Phys Ther 2015"
+  },
+  {
+   "id": "denominador",
+   "tipo": "tabela",
+   "eyebrow": "Setenta e nove por cento de quê?",
+   "titulo": "O denominador muda tudo",
+   "cab": [
+    "Denominador",
+    "Quando usar",
+    "Cuidado"
+   ],
+   "larguras": [
+    30,
+    36,
+    34
+   ],
+   "linhas": [
+    [
+     "Por mil horas",
+     "o melhor: corrige pela exposição",
+     "exige medir o volume"
+    ],
+    [
+     "Por mil sessões",
+     "onde a sessão é a unidade",
+     "sessões de durações diferentes"
+    ],
+    [
+     "Por cem atletas por ano",
+     "comunicação",
+     "ignora quanto cada um treinou"
+    ],
+    [
+     "Por mil exposições",
+     "esporte coletivo",
+     "separar treino de jogo"
+    ]
+   ],
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "novatos",
+   "tipo": "numeros",
+   "eyebrow": "A demonstração mais clara",
+   "titulo": "Mesmo esporte, mesma unidade, mais que o dobro",
+   "numeros": [
+    {
+     "n": "17,8",
+     "x": "lesões por mil horas em corredores novatos",
+     "cor": "verm"
+    },
+    {
+     "n": "7,7",
+     "x": "lesões por mil horas em recreativos experientes",
+     "cor": "petr"
+    },
+    {
+     "n": "× 2,3",
+     "x": "a diferença está em quem é a pessoa",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Percentual anual não compara grupos que treinam volumes diferentes. Para risco por hora, divida pela exposição.",
+   "destaque_cor": "tinta",
+   "fonte": "Metanálise, Sports Med 2015"
+  },
+  {
+   "id": "vocabulario",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "O vocabulário usado errado",
+   "titulo": "Três perguntas diferentes",
+   "cards": [
+    {
+     "t": "Prevalência",
+     "x": "quantos têm o problema agora",
+     "cor": "petr"
+    },
+    {
+     "t": "Incidência",
+     "x": "quantos passaram a ter, num período",
+     "cor": "ambar"
+    },
+    {
+     "t": "Taxa de incidência",
+     "x": "por hora, sessão ou jogo de exposição",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Trocar uma pela outra é o erro de leitura mais comum da área.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "sobrecarga",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Esquema: à esquerda, um registro binário de lesionado ou não; à direita, uma curva de sintoma que sobe e desce ao longo de meses\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"60\" y1=\"260\" x2=\"700\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M60,240 L300,240 L300,90 L420,90 L420,240 L700,240\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><line x1=\"900\" y1=\"260\" x2=\"1640\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M900,230 C980,200 1020,150 1080,160 C1140,170 1160,220 1220,200 C1290,175 1320,110 1390,120 C1450,130 1470,190 1530,170 C1580,155 1610,140 1640,150\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 10,
+     "w": 600,
+     "t": "o evento: entorse",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 10,
+     "w": 740,
+     "t": "a sobrecarga: tendão, canela, lombar",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 268,
+     "w": 600,
+     "t": "tem data",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 268,
+     "w": 740,
+     "t": "sobe e desce, sem data, sem parar de treinar",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O problema do nosso público",
+   "titulo": "A sobrecarga não se comporta como evento",
+   "destaque": "O modelo binário registra quase só o agudo. “Nenhuma lesão, mas muita dor?”, perguntou Roald Bahr em 2009.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos · Br J Sports Med 2009"
+  },
+  {
+   "id": "oslo",
+   "tipo": "lista",
+   "eyebrow": "A solução: medir todo mundo, toda semana",
+   "titulo": "As quatro perguntas de Oslo",
+   "itens": [
+    {
+     "t": "Participação",
+     "x": "teve dificuldade de participar do treino?",
+     "cor": "petr"
+    },
+    {
+     "t": "Volume",
+     "x": "reduziu volume ou duração?",
+     "cor": "petr"
+    },
+    {
+     "t": "Desempenho",
+     "x": "o desempenho foi afetado?",
+     "cor": "ambar"
+    },
+    {
+     "t": "Sintoma",
+     "x": "em que grau sentiu?",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 22
+  },
+  {
+   "id": "leitura",
+   "tipo": "tabela",
+   "eyebrow": "Antes de acreditar no número",
+   "titulo": "Sete perguntas para qualquer estudo",
+   "cab": [
+    "Pergunta",
+    "Por que importa"
+   ],
+   "larguras": [
+    40,
+    60
+   ],
+   "linhas": [
+    [
+     "Qual a definição?",
+     "resolve o 19 contra o 79"
+    ],
+    [
+     "Qual o denominador?",
+     "percentual anual esconde o volume"
+    ],
+    [
+     "Coleta semanal ou lembrança de um ano?",
+     "a memória de dor é seletiva"
+    ],
+    [
+     "Quem é a população?",
+     "novato e experiente não se comparam"
+    ],
+    [
+     "Exposição medida ou estimada?",
+     "as pessoas superestimam o treino"
+    ],
+    [
+     "Quem abandonou?",
+     "quem some muitas vezes se lesionou"
+    ],
+    [
+     "A conclusão cabe no desenho?",
+     "estar junto não é causar"
+    ]
+   ],
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "rastreio",
+   "tipo": "lista",
+   "eyebrow": "Fator de risco não é teste de rastreio",
+   "titulo": "Os três degraus que nenhum teste subiu",
+   "itens": [
+    {
+     "t": "Associação no tempo",
+     "x": "o achado prevê lesão futura em coorte",
+     "cor": "petr"
+    },
+    {
+     "t": "Separação real",
+     "x": "ponto de corte que funciona em mais de uma população",
+     "cor": "ambar"
+    },
+    {
+     "t": "Benefício de intervir só nos marcados",
+     "x": "melhor que intervir em todos: ninguém mostrou",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 26
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "A pergunta que o artigo não responde",
+   "titulo": "Quantos dos meus alunos estão com problema agora?",
+   "regras": [
+    "Definição escolhida, escrita e fixa",
+    "Denominador de exposição, não percentual anual",
+    "Quatro perguntas por semana, para todos"
+   ],
+   "cards": [
+    {
+     "t": "Médico e fisioterapeuta",
+     "x": "Diagnosticam a lesão, cada um no seu campo."
+    },
+    {
+     "t": "Preparação física",
+     "x": "Manda o formulário, acompanha o número, ajusta a carga."
+    },
+    {
+     "t": "Todos",
+     "x": "Leem o artigo antes de mudar a prática."
+    }
+   ],
+   "quem": "Próxima aula: montar o registro no mundo real."
+  }
+ ]
+}

@@ -1,204 +1,200 @@
-# Módulo 7 · Aula 7.4 — Lesão muscular: o que falha e como classificar
+# Módulo 7 · Aula 7.4 — Lesão muscular no esporte: o que falha, como avaliar e como classificar
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 15 minutos · 7 slides · Arquitetura: PROCEDIMENTO
+Duração: 12 minutos · 12 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 7]**
-*Visual: um corte esquemático de músculo mostrando fibras, aponeurose e o tendão que corre por dentro do ventre muscular.*
-*Teleprompter: (entra pelo tecido, porque é ele que decide o prazo)*
+📊 **[SLIDE 1 DE 12]**
+*Visual: fundo escuro, a frase "teve uma lesão muscular" e, embaixo, duas pontas: "dor de sobrecarga que passa em dias" e "ruptura do tendão interno que leva meses".*
+*Teleprompter: (entra pela palavra que esconde tudo)*
 
-Quando alguém diz que teve uma lesão muscular, essa frase pode significar seis coisas bem diferentes, com prognósticos que variam de três dias a quatro meses.
+Quando alguém diz que teve uma lesão muscular, essa frase cobre desde uma dor de sobrecarga que passa em poucos dias até uma ruptura que envolve o tendão e leva meses.
 
-E é por isso que esta conversa existe. Não para você diagnosticar, que é ato clínico e tem dono, mas para você entender o que aconteceu lá dentro, porque isso decide tudo que vem depois: quanto tempo, que tipo de carga, quando voltar ao sprint, e qual o risco de repetir.
+Esta aula não é para você diagnosticar, que é ato médico e tem dono. É para você entender o que aconteceu lá dentro, porque isso decide o que vem depois: quanto tempo, que carga, quando voltar ao sprint e qual o risco de repetir.
 
-A lesão muscular é a mais frequente do esporte que corre. No futebol profissional europeu, acompanhado por vinte e uma temporadas seguidas, a lesão de isquiotibiais sozinha responde por cerca de um quinto de tudo que acontece, e essa proporção vem subindo ano após ano. Ela saiu de algo perto de doze por cento no começo da série e chegou a vinte e quatro por cento na temporada mais recente. Quase um quarto de todas as lesões, num único grupo muscular.
-
-Nesta conversa eu vou te mostrar o que falha dentro do músculo, como se avalia isso nas primeiras horas, quando a imagem muda alguma coisa e quando não muda, e como as duas classificações que o mundo usa organizam essa informação.
-
-A parte de prognóstico, quer dizer, quanto tempo cada uma dessas coisas leva e por que a gente erra tanto essa conta, é a nossa próxima conversa. E a reabilitação em si, com os critérios de retorno, é assunto do próximo módulo.
+São quatro passos: entender o que falha, avaliar nas primeiras horas, decidir sobre imagem e classificar. O prazo, e por que a gente erra tanto essa conta, é a próxima aula. A reabilitação em si é do módulo de reabilitação.
 
 ---
 
-📊 **[SLIDE 2 DE 7]**
-*Visual: dois desenhos de sprint e de chute, com a seta de força marcada no momento em que o músculo alonga sob tensão.*
-*Teleprompter: (o que falha, e por que falha ali)*
+📊 **[SLIDE 2 DE 12]**
+*Visual: dois números grandes: "19%" das lesões do estudo europeu foram de posterior de coxa; "12% → 24%" a proporção do começo para o fim da série.*
+*Teleprompter: (o tamanho do problema)*
 
-Primeiro, o que falha.
+A lesão muscular é a mais frequente do esporte que corre, e o posterior de coxa é o campeão.
 
-O músculo não rompe quando encurta. Ele rompe quando alonga sob tensão alta. Isso tem nome, é contração excêntrica, e é a forma como o músculo trabalha nos dois momentos em que a maior parte das lesões acontece.
+O maior acompanhamento do futebol profissional europeu, o estudo de lesões dos clubes de elite da UEFA, seguiu vinte e uma temporadas. A lesão de isquiotibiais respondeu por dezenove por cento de todas as lesões registradas. E a proporção subiu ao longo do tempo: de doze por cento na primeira temporada para vinte e quatro por cento na mais recente.
 
-O primeiro momento é a fase final do balanço da perna na corrida em alta velocidade. O pé está indo para a frente, o joelho está estendendo, e os isquiotibiais estão freando esse movimento enquanto se alongam. É ali que a maior parte das lesões do corredor e do jogador acontece.
-
-O segundo momento é o alongamento extremo com força, como num chute alto, numa abertura de perna, num deslize. A dor costuma ser mais alta na coxa, mais perto do quadril, e o tempo de recuperação costuma ser mais longo, mesmo quando o susto foi menor.
-
-E onde exatamente falha? Em geral na zona de transição entre músculo e tendão, que é onde a força muda de tecido. Só que aqui tem um detalhe que mudou a área nos últimos dez anos, e que vale a pena entender bem.
-
-O tendão não fica só nas pontas do músculo. Ele entra por dentro do ventre muscular, como uma espinha de peixe, e essa estrutura interna também pode ser lesionada. Quando isso acontece, quer dizer, quando a lesão pega esse tendão que corre por dentro, o comportamento muda: costuma doer menos do que se espera no começo e demorar bem mais para liberar sprint, e a chance de repetir é maior.
-
-Guarde isso, porque é a informação que faz a diferença entre uma previsão de duas semanas e uma de dois meses.
+Quase uma em cada quatro lesões, num único grupo muscular, e crescendo. Enquanto o jogo fica mais rápido e mais intenso, esse número dificilmente cai sozinho.
 
 ---
 
-📊 **[SLIDE 3 DE 7]**
-*Visual: uma sequência de exame na maca: palpação, amplitude com a perna estendida, e teste de contração contra resistência.*
-*Teleprompter: (passo um, o que dá para saber nas primeiras 48 horas sem nenhum exame)*
+📊 **[SLIDE 3 DE 12]**
+*Visual: dois desenhos, sprint e chute alto, com a seta de força no momento em que o músculo alonga sob tensão.*
+*Teleprompter: (o que falha, e em que momento)*
 
-Passo um: a avaliação das primeiras horas, que é clínica e vale mais do que a maioria das pessoas imagina.
+Primeiro passo: entender o que falha.
 
-Três blocos de informação.
+O músculo raramente se rompe quando encurta. Rompe quando alonga sob tensão alta, a contração excêntrica. E há dois cenários típicos, descritos pelo grupo sueco de Carl Askling.
 
-A história. Quando aconteceu, exatamente o que a pessoa estava fazendo, e o que ela sentiu. Foi um estalo, uma pontada, uma fisgada, ou foi uma coisa que apertou progressivamente ao longo da corrida? Ela conseguiu continuar? Conseguiu andar? E, muito importante, já teve isso antes, no mesmo lugar, e quando.
+O primeiro é a corrida em alta velocidade, no fim do balanço da perna: o pé vai para a frente, o joelho estende, e os isquiotibiais freiam esse movimento enquanto se alongam. É a lesão mais comum do jogador e do velocista, e costuma pegar a cabeça longa do bíceps femoral.
 
-O exame. Onde dói à palpação e qual a extensão dessa dor ao longo do músculo. Quanto de amplitude a pessoa perdeu comparando os dois lados. Se dói quando contrai sem resistência, com resistência, e em que grau de alongamento. E se existe falha palpável, que é sinal de lesão grande.
-
-E os sinais que mudam a urgência. Perda funcional importante, incapacidade de andar, hematoma extenso que aparece em poucas horas, dor muito alta perto do osso, o que levanta a hipótese de arrancamento, principalmente no adolescente.
-
-Com esses três blocos, quem examina já consegue separar o que é leve do que é sério, e já consegue decidir se precisa de imagem. E existe um dado que assusta gente de fora da área, mas que é muito bem estabelecido: para estimar prazo de retorno, a história e o exame clínico carregam praticamente toda a informação útil, e a imagem acrescenta bem menos do que se imagina. A gente volta nisso com números na próxima conversa.
+O segundo é o alongamento extremo com força: chute alto, abertura de perna, carrinho, dança. A dor costuma ser mais alta, perto do quadril, a perda de função no primeiro dia parece menor, e o tempo de recuperação costuma ser mais longo. É a lesão que engana: o susto é pequeno e o prazo é grande.
 
 ---
 
-📊 **[SLIDE 4 DE 7]**
-*Visual: uma imagem de ressonância ao lado de um relógio, com uma seta apontando do relógio para a imagem.*
-*Teleprompter: (passo dois, quando pedir imagem e quando não pedir)*
+📊 **[SLIDE 4 DE 12]**
+*Visual: corte esquemático do músculo mostrando fibras, aponeurose e o tendão que corre por dentro do ventre, como espinha de peixe.*
+*Teleprompter: (onde falha, e o detalhe que mudou a área)*
 
-Passo dois: a imagem, que é do médico pedir, e que precisa ter uma pergunta antes.
+E onde falha. Em geral na zona de transição entre músculo e tendão, onde a força muda de tecido.
 
-Ela ajuda de verdade em três situações.
+Mas o tendão não fica só nas pontas do músculo. Em vários músculos, como o bíceps femoral, ele entra pelo ventre como uma espinha de peixe, e essa estrutura interna também pode ser lesionada.
 
-Quando existe dúvida sobre a gravidade, principalmente se há suspeita de ruptura maior ou de arrancamento ósseo. Quando o caso é de atleta com prazo apertado e a decisão de calendário depende de saber se o tendão interno está envolvido. E quando a evolução não bate com o esperado, quer dizer, quando alguém que deveria estar melhorando não está.
-
-Ela não ajuda quando é pedida por reflexo, no dia seguinte a um desconforto leve, em alguém que já está melhorando e que vai fazer a mesma coisa independentemente do resultado.
-
-Duas advertências práticas.
-
-A primeira: imagem feita muito cedo pode subestimar, e imagem feita muito tarde pode mostrar cicatriz de coisa antiga e confundir. O momento importa.
-
-A segunda, e essa vale para a vida inteira de quem trabalha com atleta: achado de imagem em músculo é comum em gente sem sintoma nenhum, e edema residual aparece em muita gente que já voltou a jogar bem. Ou seja, a imagem não decide sozinha quando a pessoa volta. Isso é assunto do slide de prognóstico e é um dos erros mais caros da área.
+Quando a lesão pega esse tendão interno, o comportamento muda: demora mais para liberar sprint e a chance de repetir é maior. Guarde essa anatomia, porque ela volta no passo quatro e faz a diferença entre uma previsão curta e uma longa.
 
 ---
 
-📊 **[SLIDE 5 DE 7]**
-*Visual: uma tabela com dois sistemas lado a lado, um separando funcional de estrutural, outro com os graus de zero a quatro e as letras a, b e c.*
-*Teleprompter: (passo três, as duas classificações que o mundo usa)*
+📊 **[SLIDE 5 DE 12]**
+*Visual: quatro perguntas de história em cartões: o que fazia, o que sentiu, conseguiu continuar, já teve antes.*
+*Teleprompter: (passo dois, a história, que vale mais do que parece)*
 
-Passo três: classificar. Existem dois sistemas que você vai encontrar em prontuário, em laudo e em conversa de comissão técnica, e vale conhecer os dois.
+Passo dois: a avaliação das primeiras horas, que é clínica e vale mais do que a maioria imagina. Começa pela história.
 
-O primeiro é o consenso de Munique, de dois mil e treze. Ele separa, antes de tudo, dois mundos.
+O que a pessoa estava fazendo, exatamente: sprint, chute, abertura, desaceleração. O que sentiu: um estalo, uma pontada, ou algo que apertou aos poucos ao longo do treino, que sugere outra coisa. Se conseguiu continuar e se conseguiu andar. E se já teve isso antes, no mesmo lugar, e quando.
 
-De um lado, as desordens funcionais, que são aquelas sem ruptura de fibra visível. Entram aí a sobrecarga por esforço, aquela dor que aparece depois de um treino diferente, e as alterações de origem neuromuscular, que incluem a dor referida de origem na coluna. Isso é mais comum do que parece e é frequentemente tratado como se fosse ruptura, com afastamento maior do que o necessário.
-
-Do outro lado, as lesões estruturais, com ruptura visível de fibra, que vão da lesão parcial até a ruptura completa e o arrancamento do tendão.
-
-O segundo sistema é o da federação britânica de atletismo, de dois mil e catorze, e é o mais usado hoje quando existe ressonância. Ele dá uma nota de zero a quatro, conforme o tamanho da lesão, e acrescenta uma letra que diz onde ela está.
-
-A letra a é a lesão na periferia, perto da fáscia. A letra b é na junção entre músculo e tendão. E a letra c é a que envolve o tendão que corre por dentro do músculo, aquele da espinha de peixe do segundo slide.
-
-E é por isso que eu insisti naquela anatomia. Duas lesões com o mesmo tamanho e com a mesma nota se comportam de forma diferente conforme a letra. A letra c é a que muda o plano, alonga o prazo e aumenta o cuidado com a volta ao sprint.
+A última pergunta é a que mais se esquece. Lesão prévia no mesmo músculo muda o risco e o plano, como a aula anterior mostrou.
 
 ---
 
-📊 **[SLIDE 6 DE 7]**
-*Visual: três faixas horizontais de conduta, do primeiro dia à volta ao esporte, com marcos escritos em cada uma.*
-*Teleprompter: (passo quatro, o que a classificação muda de verdade na conduta)*
+📊 **[SLIDE 6 DE 12]**
+*Visual: duas colunas: "o exame" e "sinais que mudam a urgência".*
+*Teleprompter: (o exame e os sinais de alarme)*
 
-Passo quatro: o que tudo isso muda na prática.
+Depois, o exame. Onde dói à palpação e qual a extensão dessa dor ao longo do músculo. Quanto de amplitude se perdeu, comparando os dois lados. Se dói ao contrair sem resistência, com resistência, e em que grau de alongamento. E se há uma falha palpável, sinal de lesão grande.
 
-Nos primeiros dias, o objetivo é proteger sem imobilizar. Repouso relativo, controle da dor, e movimento dentro do que não dói. Imobilização prolongada não ajuda e atrapalha, porque o músculo perde capacidade rápido e a cicatriz que se forma sem estímulo é de pior qualidade.
+E os sinais que mudam a urgência. Incapacidade de andar. Hematoma extenso que aparece em poucas horas. Dor muito alta, perto do osso da bacia, que levanta a hipótese de arrancamento do tendão, principalmente no adolescente, em quem o ponto fraco pode ser a placa de crescimento.
 
-Depois, a carga entra cedo e progride por critério, não por calendário. E esse é o ponto em que a classificação decide o ritmo. Lesão pequena, periférica, com exame clínico bom, progride rápido. Lesão que envolve o tendão interno progride devagar, com mais tempo antes da alta velocidade, mesmo que a dor tenha sumido faz tempo.
-
-E o gesto que machucou precisa voltar, de forma progressiva e controlada, antes da alta. Quem rompeu correndo precisa voltar a correr rápido no processo de reabilitação, e não no jogo. Quem rompeu abrindo a perna precisa reencontrar amplitude sob tensão, de forma gradual, antes de ir para a partida.
-
-Essa é a parte que mais se pula no Brasil, por razão de calendário, e é a que mais produz recidiva. A pessoa recebe alta porque parou de doer, volta ao jogo sem nunca ter sido exposta ao gesto que a machucou, e o jogo faz essa exposição por ela, em velocidade máxima, com adversário junto.
-
-O detalhamento dessa progressão é o próximo módulo. Aqui o que importa é o princípio: a classificação não é um rótulo para o prontuário, ela é o que define o ritmo.
+Com história e exame, quem examina já separa o leve do sério e decide se precisa de imagem.
 
 ---
 
-📊 **[SLIDE 7 DE 7]**
-*Visual: quatro erros escritos em cartões, com um X sobre cada um.*
-*Teleprompter: (fecha com os erros e com quem faz o quê)*
+📊 **[SLIDE 7 DE 12]**
+*Visual: duas colunas: "a imagem ajuda" e "a imagem não ajuda".*
+*Teleprompter: (passo três, imagem com uma pergunta antes)*
 
-Os quatro erros que mais aparecem com lesão muscular.
+Passo três: a imagem, que é do médico pedir, e que precisa de uma pergunta antes.
 
-Chamar tudo de estiramento. Dentro dessa palavra cabe desde uma dor de sobrecarga que resolve em dois dias até uma ruptura de tendão interno que vai levar dois meses. Quando a comissão técnica usa a mesma palavra para as duas, a expectativa de todo mundo fica errada.
+Ela ajuda quando há dúvida de gravidade, principalmente na suspeita de ruptura grande ou de arrancamento. Ajuda no atleta com prazo apertado, quando a decisão de calendário depende de saber se o tendão interno está envolvido. E ajuda quando a evolução não bate com o esperado.
 
-Tratar dor referida como ruptura. A dor na parte de trás da coxa que vem da coluna existe, é frequente, e não melhora com o tratamento da lesão muscular. Quando o quadro não fecha e o exame não bate com a história, vale lembrar dela.
+Ela não ajuda quando é pedida por reflexo, no dia seguinte a um desconforto leve, em alguém que já está melhorando e que vai seguir o mesmo plano qualquer que seja o laudo.
 
-Imobilizar demais no começo e ter pressa demais no fim. Costumam andar juntos, e o resultado é um músculo que passou o começo sem estímulo e o fim sem preparo.
+E o dado que surpreende quem é de fora: numa coorte norueguesa de cento e oitenta atletas com lesão aguda de posterior de coxa, a ressonância não acrescentou valor à história e ao exame clínico para prever o tempo de retorno. O prazo se estima, antes de tudo, na maca.
 
-E dar alta pela ausência de dor. A dor some antes de a capacidade voltar. Essa frase resolve metade dos problemas desta aula.
+---
 
-Quem faz o quê. Diagnosticar, classificar, pedir e interpretar imagem é do médico. Avaliar, tratar e conduzir a progressão do tecido é da fisioterapia. Reconstruir força, potência e exposição ao gesto, e decidir a dose disso no dia a dia, é do educador físico e do preparador, junto com a fisioterapia. Reconhecer o que aconteceu e avisar rápido é de quem está mais perto, que quase sempre é o treinador. E comunicar prazo para direção, imprensa e família é de quem coordena, com o médico, e nunca de improviso, pelo motivo que a nossa próxima conversa vai deixar claro.
+📊 **[SLIDE 8 DE 12]**
+*Visual: três cartões de advertência: "cedo demais", "tarde demais", "achado sem sintoma".*
+*Teleprompter: (as advertências que evitam erro caro)*
 
-Porque na próxima a gente fala de prazo. De quanto tempo cada uma dessas lesões realmente leva, por que a previsão erra tanto, e por que prometer uma data é a forma mais rápida de se meter em encrenca.
+Três advertências práticas sobre imagem de músculo.
+
+Feita cedo demais, pode subestimar a lesão. Feita tarde demais, pode mostrar cicatriz de uma coisa antiga e confundir. O momento importa.
+
+E a terceira vale para a vida inteira de quem trabalha com atleta: alteração de imagem em músculo é comum, e o edema costuma persistir em quem já está clinicamente recuperado e voltou a treinar bem. A imagem, sozinha, não decide quando a pessoa volta. Esse é um dos erros mais caros da área, e a próxima aula volta a ele.
+
+---
+
+📊 **[SLIDE 9 DE 12]**
+*Visual: tabela do consenso de Munique, com dois mundos: desordens funcionais e lesões estruturais.*
+*Teleprompter: (passo quatro, a primeira classificação)*
+
+Passo quatro: classificar. Há dois sistemas que você vai encontrar em prontuário, laudo e conversa de comissão técnica.
+
+O primeiro é o consenso de Munique, de 2013. Ele separa dois mundos antes de tudo.
+
+De um lado, as desordens funcionais, sem ruptura de fibra: a sobrecarga por fadiga, a dor muscular tardia depois de um treino diferente, e as alterações neuromusculares, incluindo a dor que vem da coluna lombar e aparece na parte de trás da coxa. Essa última é frequente e costuma ser tratada como ruptura, com afastamento maior que o necessário.
+
+Do outro lado, as lesões estruturais, com ruptura de fibra: da parcial pequena à ruptura completa e ao arrancamento do tendão.
+
+---
+
+📊 **[SLIDE 10 DE 12]**
+*Visual: grade da classificação britânica: graus de 0 a 4 nas linhas, letras a, b e c nas colunas, com a coluna c destacada.*
+*Teleprompter: (a segunda classificação, a que usa ressonância)*
+
+O segundo é a classificação da federação britânica de atletismo, de 2014, a mais usada hoje quando há ressonância. Ela dá um grau de zero a quatro, pelo tamanho, e uma letra que diz onde a lesão está.
+
+A letra a é a lesão na periferia, perto da fáscia. A letra b, no músculo ou na junção com o tendão. A letra c, a que se estende para dentro do tendão, aquele da espinha de peixe.
+
+E é por isso que a anatomia importava. Em atletas de elite do atletismo britânico, as lesões com letra c levaram mais tempo para voltar ao treino completo e repetiram mais. Duas lesões do mesmo tamanho se comportam diferente conforme a letra.
+
+---
+
+📊 **[SLIDE 11 DE 12]**
+*Visual: três faixas de conduta, do primeiro dia à volta ao esporte: proteger sem imobilizar, carga por critério, o gesto de volta.*
+*Teleprompter: (o que a classificação muda na prática)*
+
+O que tudo isso muda na conduta.
+
+Nos primeiros dias, proteger sem imobilizar: repouso relativo, controle da dor e movimento dentro do que não dói. Imobilização prolongada atrapalha, porque o músculo perde capacidade rápido.
+
+Depois, a carga entra cedo e progride por critério, não por calendário, e é aqui que a classificação dita o ritmo. Lesão pequena e periférica, com exame bom, avança rápido. Lesão do tendão interno avança devagar, com mais tempo antes da alta velocidade, mesmo que a dor tenha sumido há tempo.
+
+E o gesto que machucou precisa voltar antes da alta. Quem lesionou correndo volta a correr rápido na reabilitação, não no jogo. Quem lesionou abrindo a perna reencontra amplitude sob tensão, aos poucos. Quando o calendário pula essa etapa, o jogo faz a exposição no lugar da reabilitação, em velocidade máxima e com adversário.
+
+---
+
+📊 **[SLIDE 12 DE 12]**
+*Visual: fecho da aula em tinta: quatro erros e três cartões de papel.*
+*Teleprompter: (os erros e quem faz o quê)*
+
+Os quatro erros que mais aparecem. Chamar tudo de estiramento, o que põe na mesma palavra uma sobrecarga de dois dias e uma ruptura de tendão de dois meses. Tratar dor que vem da coluna como ruptura. Imobilizar demais no começo e ter pressa demais no fim. E dar alta pela ausência de dor: a dor some antes de a capacidade voltar.
+
+Quem faz o quê. Diagnosticar, classificar, pedir e interpretar imagem é do médico. Avaliar, tratar e conduzir a progressão do tecido é da fisioterapia. Reconstruir força, potência e exposição ao gesto, na dose do dia a dia, é da preparação física junto com a fisioterapia. Reconhecer o que aconteceu e avisar rápido é de quem está mais perto, quase sempre o treinador. E comunicar prazo para direção, imprensa e família é de quem coordena, com o médico, nunca de improviso.
+
+Na próxima aula, o prazo: quanto tempo essas lesões levam, por que a previsão erra tanto e por que prometer uma data é a forma mais rápida de se meter em encrenca.
 
 ---
 
 ## Referências
 
-1. Mueller-Wohlfahrt HW, Haensel L, Mithoefer K, et al. Terminology and classification of muscle injuries in sport: the Munich consensus statement. *Br J Sports Med.* 2013;47(6):342-350. PMID: 23080315
-2. Pollock N, James SLJ, Lee JC, Chakraverty R. British athletics muscle injury classification: a new grading system. *Br J Sports Med.* 2014;48(18):1347-1351. PMID: 25031367
-3. Ekstrand J, Bengtsson H, Waldén M, Davison M, Khan KM, Hägglund M. Hamstring injury rates have increased during recent seasons and now constitute 24% of all injuries in men's professional football: the UEFA Elite Club Injury Study from 2001/02 to 2021/22. *Br J Sports Med.* 2023;57(5):292-298. PMID: 36588400
+1. Ekstrand J, Bengtsson H, Waldén M, Davison M, Khan KM, Hägglund M. Hamstring injury rates have increased during recent seasons and now constitute 24% of all injuries in men's professional football: the UEFA Elite Club Injury Study from 2001/02 to 2021/22. *Br J Sports Med.* 2023;57(5):292-298. PMID: 36588400
+2. Askling CM, Tengvar M, Saartok T, Thorstensson A. Acute first-time hamstring strains during high-speed running: a longitudinal study including clinical and magnetic resonance imaging findings. *Am J Sports Med.* 2007;35(2):197-206.
+3. Askling CM, Tengvar M, Saartok T, Thorstensson A. Acute first-time hamstring strains during slow-speed stretching: clinical, magnetic resonance imaging, and recovery characteristics. *Am J Sports Med.* 2007;35(10):1716-1724.
 4. Wangensteen A, Almusa E, Boukarroum S, et al. MRI does not add value over and above patient history and clinical examination in predicting time to return to sport after acute hamstring injuries: a prospective cohort of 180 male athletes. *Br J Sports Med.* 2015;49(24):1579-1587. PMID: 26305004
-5. Bahr R, Clarsen B, Ekstrand J. Why we should focus on the burden of injuries and illnesses, not just their incidence. *Br J Sports Med.* 2018;52(16):1018-1021. doi:10.1136/bjsports-2017-098160
+5. Mueller-Wohlfahrt HW, Haensel L, Mithoefer K, et al. Terminology and classification of muscle injuries in sport: the Munich consensus statement. *Br J Sports Med.* 2013;47(6):342-350. PMID: 23080315
+6. Pollock N, James SLJ, Lee JC, Chakraverty R. British athletics muscle injury classification: a new grading system. *Br J Sports Med.* 2014;48(18):1347-1351. PMID: 25031367
+7. Pollock N, Patel A, Chakraverty J, et al. Time to return to full training is delayed and recurrence rate is higher in intratendinous ('c') acute hamstring injury in elite track and field athletes: clinical application of the British Athletics Muscle Injury Classification. *Br J Sports Med.* 2016;50(5):305-310. PMID: 26888072
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — Seis coisas com o mesmo nome
-· "Lesão muscular" pode significar **de três dias a quatro meses**
-· Futebol europeu, 21 temporadas seguidas: **isquiotibiais responde por cerca de um quinto de tudo**, subindo de **12% para 24%** da primeira à última temporada da série
-· Hoje: **o que falha · como avaliar nas primeiras horas · quando a imagem muda algo · como os dois sistemas classificam**
-· Prognóstico fica para a próxima; reabilitação, para o próximo módulo
-Visual: corte de músculo com fibras, aponeurose e tendão interno.
+**O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de sete blocos longos.
+Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é NÚMERO), em quatro passos. Sem
+caso clínico.
 
-**Slide 2** — O que falha, e onde
-· **O músculo não rompe encurtando. Rompe alongando sob tensão** (contração excêntrica)
-· **Alta velocidade**: fase final do balanço, isquiotibiais freando o joelho que estende
-· **Alongamento extremo com força**: chute alto, abertura, deslize — dor mais alta na coxa, **recuperação mais longa mesmo com susto menor**
-· Falha em geral na transição músculo e tendão · **mas o tendão entra por dentro do ventre, como espinha de peixe**
-· **Lesão que pega esse tendão interno dói menos do que se espera e demora muito mais para liberar sprint**
-Visual: sprint e chute com a seta de força.
+**Números conferidos.** Estudo da UEFA: 21 temporadas, isquiotibiais em 19% de todas as lesões,
+proporção de 12% na primeira temporada para 24% na mais recente. Coorte norueguesa: 180 atletas
+homens. Anos dos consensos de Munique (2013) e britânico (2014), e do estudo da letra c (2016).
 
-**Slide 3** — As primeiras 48 horas são clínicas
-· **História**: quando, fazendo o quê, o que sentiu (estalo, pontada, aperto progressivo), conseguiu andar, **já teve antes no mesmo lugar**
-· **Exame**: onde dói e por que extensão · amplitude perdida comparando lados · dor ao contrair com e sem resistência · **falha palpável**
-· **Sinais que mudam a urgência**: perda funcional importante, não anda, hematoma extenso precoce, dor alta perto do osso (**arrancamento, sobretudo no adolescente**)
-· **Para estimar prazo, história e exame carregam quase toda a informação útil** — a imagem acrescenta menos do que se imagina
-Visual: sequência de exame na maca.
+**Correções.**
+- "Essa frase pode significar seis coisas bem diferentes, com prognósticos de três dias a quatro
+  meses" saiu: o consenso de Munique tem mais subtipos que seis, e a faixa de prazo não tinha fonte.
+  Ficou a ideia de dias a meses.
+- Os dois mecanismos ganharam a fonte (os dois estudos suecos de 2007), que faltava.
+- A afirmação de que a letra c demora mais e repete mais ganhou o estudo de 2016, que faltava.
+- "Costuma doer menos do que se espera no começo", sobre o tendão interno, saiu; sem fonte conferida.
+- A letra b foi corrigida para "no músculo ou na junção com o tendão", como no sistema original.
+- A referência de carga de lesão, citada sem uso nesta aula, saiu.
 
-**Slide 4** — A imagem precisa de pergunta
-· Ajuda: **dúvida de gravidade** · **decisão de calendário que depende do tendão interno** · **evolução que não bate com o esperado**
-· Não ajuda: **pedida por reflexo**, no dia seguinte, em quem já melhora e vai fazer a mesma coisa de qualquer jeito
-· **Cedo demais subestima; tarde demais mostra cicatriz antiga e confunde**
-· **Achado em assintomático é comum, e edema residual aparece em quem já voltou a jogar bem** → a imagem não decide sozinha o retorno
-Visual: ressonância ao lado de um relógio.
+**Saíram.** "esta conversa", "nossa próxima conversa", "do segundo slide", "no Brasil, por razão de
+calendário", o bloco "Roteiro Gamma". Duração de 15 para 12 minutos.
 
-**Slide 5** — Os dois sistemas
-· **Munique, 2013**: separa **funcional** (sem ruptura de fibra: sobrecarga por esforço e origem neuromuscular, incluindo **dor referida da coluna**) de **estrutural** (com ruptura: parcial, total, arrancamento)
-· A parte funcional é **mais comum do que parece e costuma ser afastada além do necessário**
-· **Atletismo britânico, 2014**: nota de **0 a 4** pelo tamanho + letra pelo local
-· **a** = periférica, perto da fáscia · **b** = junção músculo e tendão · **c** = **envolve o tendão de dentro**
-· **Mesmo tamanho, letras diferentes, comportamentos diferentes. A letra c muda o plano**
-Visual: os dois sistemas lado a lado.
+**Citações faladas.** Askling (os dois mecanismos). O estudo da UEFA, a coorte norueguesa, os dois
+consensos e o estudo britânico da letra c entram sem nome de autor na fala.
 
-**Slide 6** — O que a classificação muda
-· Primeiros dias: **proteger sem imobilizar** — imobilização prolongada piora a cicatriz e apaga capacidade rápido
-· Depois: **carga entra cedo e progride por critério, não por calendário**
-· **Periférica com exame bom progride rápido; tendão interno progride devagar**, com mais tempo antes da alta velocidade, mesmo sem dor
-· **O gesto que machucou precisa voltar antes da alta**: quem rompeu correndo tem que correr rápido **na reabilitação, não no jogo**
-· O que mais produz recidiva no Brasil: **alta por ausência de dor, com o jogo fazendo a exposição que a reabilitação não fez**
-Visual: três faixas de conduta, do primeiro dia à volta.
-
-**Slide 7** — Os quatro erros
-· **Chamar tudo de estiramento** — a mesma palavra para dois dias e para dois meses
-· **Tratar dor referida como ruptura** — quando o exame não bate com a história, lembre da coluna
-· **Imobilizar demais no começo e ter pressa demais no fim** — costumam andar juntos
-· **Dar alta pela ausência de dor: a dor some antes de a capacidade voltar**
-· Quem faz o quê: **diagnóstico, classificação e imagem = médico** · **tratamento do tecido e progressão = fisioterapia** · **força, potência e exposição ao gesto = educador físico e preparador** · **reconhecer e avisar = quem está mais perto** · **comunicar prazo = coordenação com o médico**
-Visual: quatro cartões com X.
+**Ligações internas.** Retoma a lesão prévia da aula anterior. Prepara o prognóstico da próxima aula e
+o manejo da aula de estiramento, e aponta os critérios de retorno para o módulo de reabilitação.
