@@ -1,0 +1,477 @@
+{
+ "arquivo": "aulas/MOD04/04-10-nutricao-em-dia-de-competicao.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Nutrição em dia de competição",
+ "subtitulo": "Planejamento, tolerância gastrointestinal e logística",
+ "nota_capa": "Entra pela regra: nada de novo no dia.",
+ "secoes": {
+  "regra": [
+   "A regra e o procedimento.",
+   "capa"
+  ],
+  "corte": [
+   "Dias antes, véspera e manhã.",
+   "corte"
+  ],
+  "intestino": [
+   "Durante, entre esforços e o plano.",
+   "intestino"
+  ]
+ },
+ "slides": [
+  {
+   "id": "regra",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Perfil típico de primeira meia maratona",
+   "frase": "Nada de novo no dia.",
+   "apoio": "Massa com molho de creme na véspera, o gel do kit, um café mais forte para acordar. Nada era absurdo. Tudo era novo. E no quilômetro doze, a procura por um banheiro."
+  },
+  {
+   "id": "passos",
+   "tipo": "diagrama",
+   "h": 220,
+   "svg": "<svg aria-label=\"Procedimento em cinco passos: dias antes, véspera e manhã, durante, entre esforços, o plano escrito\" width=\"1664\" height=\"220\" viewBox=\"0 0 1664 220\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"290\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"294\" y1=\"110\" x2=\"334\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"340\" y=\"40\" width=\"290\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"634\" y1=\"110\" x2=\"674\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"680\" y=\"40\" width=\"290\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"974\" y1=\"110\" x2=\"1014\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"1020\" y=\"40\" width=\"290\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1314\" y1=\"110\" x2=\"1354\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#c1)\"/><rect x=\"1360\" y=\"40\" width=\"290\" height=\"140\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 62,
+     "w": 290,
+     "t": "1",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 112,
+     "w": 270,
+     "t": "dias antes",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 62,
+     "w": 290,
+     "t": "2",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 112,
+     "w": 270,
+     "t": "véspera e manhã",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 62,
+     "w": 290,
+     "t": "3",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 112,
+     "w": 270,
+     "t": "durante",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1020,
+     "y": 62,
+     "w": 290,
+     "t": "4",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 112,
+     "w": 270,
+     "t": "entre esforços",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 62,
+     "w": 290,
+     "t": "5",
+     "tam": 34,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1370,
+     "y": 112,
+     "w": 270,
+     "t": "o plano escrito",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O procedimento",
+   "titulo": "O roteiro do ensaio",
+   "destaque": "Quantidades de carboidrato: aula de carboidrato. Hidratação e sódio: aula de hidratação. Aqui, a sequência, e o que só aparece em dia de prova: nervosismo, horário, intestino e logística.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "corte",
+   "tipo": "duas",
+   "eyebrow": "Passo um · Burke e colaboradores, 2011",
+   "titulo": "A prova passa de noventa minutos contínuos?",
+   "esq": {
+    "t": "Não: 10 km, futebol, luta",
+    "cor": "tinta",
+    "itens": [
+     "sem sobrecarga de carboidrato",
+     "alimentação habitual de treino",
+     "o treino reduzido já enche o estoque"
+    ]
+   },
+   "dir": {
+    "t": "Sim: maratona, ciclismo longo, triatlo",
+    "cor": "petr",
+    "itens": [
+     "10 a 12 g/kg por dia",
+     "nas 36 a 48 horas antes",
+     "com o treino reduzido"
+    ]
+   },
+   "destaque": "A conta, para 70 kg: 700 a 840 g de carboidrato por dia. Planejado em dois dias, não improvisado num jantar.",
+   "destaque_cor": "ambar",
+   "fonte": "Journal of Sports Sciences 2011"
+  },
+  {
+   "id": "ajustes",
+   "tipo": "lista",
+   "eyebrow": "Como a sobrecarga cabe no prato",
+   "titulo": "Três ajustes",
+   "itens": [
+    {
+     "t": "Carboidrato de baixo volume",
+     "x": "arroz branco, massa, pão, tapioca, batata sem casca, suco; não é o momento das fibras",
+     "cor": "petr"
+    },
+    {
+     "t": "Trocar parte do prato",
+     "x": "menos gordura e fibra para abrir espaço; não é comer mais de tudo",
+     "cor": "ambar"
+    },
+    {
+     "t": "Avisar que a balança vai subir",
+     "x": "glicogênio vem com água; quem não sabe corta a comida na véspera",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 26
+  },
+  {
+   "id": "manha",
+   "tipo": "diagrama",
+   "h": 240,
+   "svg": "<svg aria-label=\"Relógio lido de trás para a frente: acordar às 4h, comer às 4h15, sair às 5h30, chegar às 6h, largada às 7h\" width=\"1664\" height=\"240\" viewBox=\"0 0 1664 240\"><defs><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"1620\" y1=\"120\" x2=\"40\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><circle cx=\"1540\" cy=\"120\" r=\"16\" fill=\"#A8322A\"/><circle cx=\"1200\" cy=\"120\" r=\"16\" fill=\"#12202E\"/><circle cx=\"860\" cy=\"120\" r=\"16\" fill=\"#12202E\"/><circle cx=\"520\" cy=\"120\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"180\" cy=\"120\" r=\"16\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1390,
+     "y": 40,
+     "w": 300,
+     "t": "7h",
+     "tam": 38,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1390,
+     "y": 160,
+     "w": 300,
+     "t": "largada",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 40,
+     "w": 300,
+     "t": "6h",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 160,
+     "w": 300,
+     "t": "chegar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 40,
+     "w": 300,
+     "t": "5h30",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 160,
+     "w": 300,
+     "t": "sair de casa",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 40,
+     "w": 300,
+     "t": "4h15",
+     "tam": 38,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 160,
+     "w": 300,
+     "t": "comer",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 40,
+     "w": 300,
+     "t": "4h",
+     "tam": 38,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 160,
+     "w": 300,
+     "t": "acordar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo dois · véspera e manhã",
+   "titulo": "A conta de trás para a frente",
+   "destaque": "Véspera: jantar conhecido, pouca fibra, gordura, gás e álcool. Manhã: se o nervosismo tira a fome, opção líquida, ensaiada. Cafeína: a dose do treino, nunca mais forte.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "intestino",
+   "tipo": "numeros",
+   "eyebrow": "Passo três · De Oliveira, Burini e Jeukendrup, 2014",
+   "titulo": "O intestino decide a prova do amador",
+   "numeros": [
+    {
+     "n": "30 a 50%",
+     "x": "dos atletas com queixa gastrointestinal no exercício",
+     "cor": "verm"
+    },
+    {
+     "n": "3",
+     "x": "tipos de causa: fisiológica, mecânica e nutricional",
+     "cor": "tinta"
+    },
+    {
+     "n": "1",
+     "x": "a mais acionável: o que foi comido, quando e em que concentração",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Costa e colaboradores, 2017: a perfusão intestinal cai no esforço. Piora com intensidade, duração, calor e desidratação.",
+   "destaque_cor": "ambar",
+   "fonte": "Sports Medicine 2014 · Alimentary Pharmacology and Therapeutics 2017"
+  },
+  {
+   "id": "resolve",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Em ordem de retorno",
+   "titulo": "O que resolve, e o que é proibido",
+   "cards": [
+    {
+     "t": "1 · Antes",
+     "x": "pouca gordura, fibra e volume",
+     "cor": "petr"
+    },
+    {
+     "t": "2 · Concentração",
+     "x": "gel com água",
+     "cor": "petr"
+    },
+    {
+     "t": "3 · Treinar o intestino",
+     "x": "semanas de longos com a estratégia da prova",
+     "cor": "petr"
+    },
+    {
+     "t": "4 · Mistura de açúcares",
+     "x": "quando a taxa for alta",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Anti-inflamatório preventivo: não. Van Wijck, 2012: ibuprofeno antes do esforço aumentou a lesão do intestino. Sangue nas fezes, dor intensa, sintoma noturno ou perda de peso: médico, não gel.",
+   "destaque_cor": "verm",
+   "fonte": "Medicine and Science in Sports and Exercise 2012"
+  },
+  {
+   "id": "entre",
+   "tipo": "tabela",
+   "eyebrow": "Passo quatro · entre um esforço e outro",
+   "titulo": "O intervalo decide o que cabe",
+   "cab": [
+    "Intervalo",
+    "O que comer"
+   ],
+   "larguras": [
+    30,
+    70
+   ],
+   "linhas": [
+    [
+     "Cerca de 4 horas",
+     "refeição leve logo depois: sanduíche, arroz com frango, fruta"
+    ],
+    [
+     "1 a 2 horas",
+     "fruta, pão com mel, bebida com carboidrato, iogurte"
+    ],
+    [
+     "Menos de 1 hora",
+     "líquido com carboidrato e lanches pequenos"
+    ],
+    [
+     "Intervalo do jogo",
+     "bebida com carboidrato, gel com água, fruta fácil"
+    ],
+    [
+     "Pesagem na véspera",
+     "líquido com sódio, carboidrato em refeições pequenas, nada novo"
+    ]
+   ],
+   "destaque": "A bolsa térmica é parte do equipamento. A lanchonete do ginásio tem salgado frito, refrigerante e fila.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "plano",
+   "tipo": "duas",
+   "eyebrow": "Passo cinco · o plano escrito",
+   "titulo": "Uma página, tudo testado em treino",
+   "esq": {
+    "t": "O mesmo perfil, com plano",
+    "cor": "petr",
+    "itens": [
+     "dois dias de sobrecarga, menos fibra; a balança sobe",
+     "véspera: arroz, frango, legumes cozidos",
+     "3 h antes: pão com mel e banana; o café de sempre",
+     "gel dos treinos, com água, a partir dos 40 min"
+    ]
+   },
+   "dir": {
+    "t": "O plano B",
+    "cor": "ambar",
+    "itens": [
+     "largada atrasada",
+     "posto sem a bebida esperada",
+     "calor acima do previsto",
+     "estômago que não aceita"
+    ]
+   },
+   "destaque": "O gel do kit fica no kit. O que não tem a marca “testado em treino” sai do plano.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Quem faz o quê",
+   "titulo": "Nada de novo no dia",
+   "regras": [
+    "Pergunta de corte: sobrecarga só acima de noventa minutos contínuos",
+    "Manhã de trás para a frente; o intestino treinado antes da prova",
+    "Entre esforços, a logística manda; tudo cabe numa página"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "O plano, com quantidades."
+    },
+    {
+     "t": "Preparador e treinador",
+     "x": "O ensaio nos treinos."
+    },
+    {
+     "t": "Médico",
+     "x": "Sintoma que a comida não explica; anti-inflamatório."
+    }
+   ],
+   "quem": "Sem ensaio, não há plano."
+  }
+ ]
+}

@@ -1,0 +1,471 @@
+{
+ "arquivo": "aulas/MOD04/04-12-alimentacao-desordenada-sinais-rastreio-e-encaminhamento.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Alimentação desordenada no esporte",
+ "subtitulo": "Sinais, rastreio e encaminhamento",
+ "nota_capa": "Entra por disciplina ou sintoma. Fecha o módulo.",
+ "secoes": {
+  "disciplina": [
+   "A ambiguidade, os números e o espectro.",
+   "capa"
+  ],
+  "reconhecer": [
+   "Reconhecer, perguntar, abordar e encaminhar.",
+   "reconhecer"
+  ],
+  "caso": [
+   "O caso ilustrativo e o módulo nos três níveis.",
+   "caso"
+  ]
+ },
+ "slides": [
+  {
+   "id": "disciplina",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ambiguidade que o esporte cria",
+   "frase": "Disciplina ou sintoma?",
+   "apoio": "Pesar toda a comida, controlar com rigidez, treinar doente, buscar o menor percentual possível, resistir à fome. Fora do esporte, alerta. Dentro, elogio. As ferramentas das onze aulas são as mesmas; muda a relação da pessoa com elas."
+  },
+  {
+   "id": "fatos",
+   "tipo": "numeros",
+   "eyebrow": "Sundgot-Borgen e Torstveit, 2004 · Arcelus, 2011",
+   "titulo": "Mais comum no esporte, e grave",
+   "numeros": [
+    {
+     "n": "13,5%",
+     "x": "dos atletas de elite com transtorno alimentar, contra 4,6% na população geral",
+     "cor": "verm"
+    },
+    {
+     "n": "20% e 8%",
+     "x": "nas atletas mulheres e nos atletas homens",
+     "cor": "ambar"
+    },
+    {
+     "n": "5,9 ×",
+     "x": "mortalidade na anorexia nervosa; uma em cada cinco mortes por suicídio",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "A concentração foi maior nos esportes em que o peso ou a magreza pesam no resultado.",
+   "destaque_cor": "petr",
+   "fonte": "Clinical Journal of Sport Medicine 2004 · Archives of General Psychiatry 2011"
+  },
+  {
+   "id": "espectro",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Espectro contínuo da alimentação organizada à alimentação desordenada e ao transtorno alimentar; embaixo, quatro passos: reconhecer, perguntar, abordar, encaminhar\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><defs><marker id=\"e1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><linearGradient id=\"g1\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#DDEFEC\"/><stop offset=\"0.5\" stop-color=\"#F4EAD6\"/><stop offset=\"1\" stop-color=\"#F3E1DE\"/></linearGradient></defs><rect x=\"0\" y=\"20\" width=\"1664\" height=\"90\" rx=\"10\" fill=\"url(#g1)\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"180\" width=\"360\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"366\" y1=\"235\" x2=\"410\" y2=\"235\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#e1)\"/><rect x=\"420\" y=\"180\" width=\"360\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"786\" y1=\"235\" x2=\"830\" y2=\"235\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#e1)\"/><rect x=\"840\" y=\"180\" width=\"360\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"1206\" y1=\"235\" x2=\"1250\" y2=\"235\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#e1)\"/><rect x=\"1260\" y=\"180\" width=\"360\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 48,
+     "w": 500,
+     "t": "alimentação organizada",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 582,
+     "y": 48,
+     "w": 500,
+     "t": "alimentação desordenada",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 48,
+     "w": 500,
+     "t": "transtorno alimentar",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 200,
+     "w": 360,
+     "t": "1",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 238,
+     "w": 360,
+     "t": "reconhecer",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 200,
+     "w": 360,
+     "t": "2",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 238,
+     "w": 360,
+     "t": "perguntar",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 200,
+     "w": 360,
+     "t": "3",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 238,
+     "w": 360,
+     "t": "abordar",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 200,
+     "w": 360,
+     "t": "4",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 238,
+     "w": 360,
+     "t": "encaminhar",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um espectro, sem fronteira nítida",
+   "titulo": "Sofrimento e prejuízo importam mais que o critério",
+   "destaque": "Tratar não é um dos passos: é trabalho de equipe especializada. Reconhecer é de todos, e o esporte vê a pessoa, o corpo e, às vezes, o prato.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "reconhecer",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Passo um · reconhecer",
+   "titulo": "Muito disso é observável",
+   "cards": [
+    {
+     "t": "O que se vê",
+     "x": "perda ou oscilação de peso, roupa larga no calor, frio constante, fratura por estresse repetida",
+     "cor": "petr"
+    },
+    {
+     "t": "O que se observa",
+     "x": "evitar comer com o grupo, banheiro após refeições, rituais, excluir grupos, treinar doente",
+     "cor": "ambar"
+    },
+    {
+     "t": "O que se ouve",
+     "x": "“fui bem”, “estraguei tudo”, comida limpa e suja, merecer, compensar",
+     "cor": "verm"
+    },
+    {
+     "t": "O que o exame mostra",
+     "x": "bradicardia com sintomas, hipotensão, eletrólitos, ciclo ausente, osso baixo",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "O vocabulário moral sobre comida é o sinal mais barato e mais subestimado.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "observacoes",
+   "tipo": "duas",
+   "eyebrow": "Dois erros comuns",
+   "titulo": "O homem musculoso e a energia que falta",
+   "esq": {
+    "t": "No homem, outra apresentação",
+    "cor": "ambar",
+    "itens": [
+     "o corpo parece pequeno: dismorfia muscular",
+     "espelho, dieta ritualizada, treino acima de tudo",
+     "anabolizante com frequência importante",
+     "chega por lesão, dor ou platô"
+    ]
+   },
+   "dir": {
+    "t": "Baixa disponibilidade não é transtorno",
+    "cor": "petr",
+    "itens": [
+     "pode ser não intencional: tempo, apetite, informação",
+     "ou intencional e ligada a um transtorno",
+     "mesma fisiologia, condutas opostas"
+    ]
+   },
+   "destaque": "O ambiente elogia a dismorfia muscular, e o corpo não denuncia. O passo dois é o que separa as duas colunas da direita.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "perguntar",
+   "tipo": "duas",
+   "eyebrow": "Passo dois · Morgan, Reid e Lacey, 1999 · Martinsen, 2014",
+   "titulo": "Por que você come pouco?",
+   "esq": {
+    "t": "Logística",
+    "cor": "petr",
+    "itens": [
+     "não dá tempo, sem fome de manhã, não sei o que comer",
+     "nutrição e organização do dia",
+     "aumentar a ingestão resolve"
+    ]
+   },
+   "dir": {
+    "t": "Outra coisa",
+    "cor": "verm",
+    "itens": [
+     "medo de engordar, culpa, regras, compensação",
+     "“coma mais” pode aumentar a angústia",
+     "cuidar da relação com a comida"
+    ]
+   },
+   "destaque": "SCOFF: cinco perguntas, dois “sim” pedem avaliação. BEDA-Q: feito para atletas. Rastreio não é diagnóstico, e falha no homem com dismorfia: quanto tempo por dia você pensa no seu corpo?",
+   "destaque_cor": "ambar",
+   "fonte": "BMJ 1999 · Medicine and Science in Sports and Exercise 2014"
+  },
+  {
+   "id": "abordar",
+   "tipo": "duas",
+   "eyebrow": "Passo três · abordar",
+   "titulo": "A lista do que não fazer pesa tanto quanto a outra",
+   "esq": {
+    "t": "Fazer",
+    "cor": "petr",
+    "itens": [
+     "em particular, com tempo",
+     "começar pelo funcional: frio, cargas que caíram",
+     "nomear a preocupação, não o diagnóstico",
+     "manter o vínculo, mesmo com recusa"
+    ]
+   },
+   "dir": {
+    "t": "Não fazer",
+    "cor": "verm",
+    "itens": [
+     "comentar o corpo, nem para elogiar",
+     "pesar em público; medir sem indicação",
+     "prescrever restrição; comida como prêmio",
+     "prometer sigilo absoluto a menor em risco"
+    ]
+   },
+   "destaque": "A pressão também está na regra da modalidade. Uma conversa com técnicos e pais alcança mais atletas do que um ano de consultório.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "encaminhar",
+   "tipo": "duas",
+   "eyebrow": "Passo quatro · encaminhar",
+   "titulo": "Duas portas",
+   "esq": {
+    "t": "Agora",
+    "cor": "verm",
+    "itens": [
+     "desmaio ou quase desmaio",
+     "bradicardia com sintomas, hipotensão ao levantar",
+     "vômitos frequentes, perda de peso rápida, confusão",
+     "qualquer sinal de risco de suicídio"
+    ]
+   },
+   "dir": {
+    "t": "Com calma",
+    "cor": "petr",
+    "itens": [
+     "psicólogo e médico com experiência em transtorno alimentar",
+     "nutricionista da mesma rede",
+     "ajudar a marcar: um nome num papel não acontece",
+     "menor de idade: a família entra"
+    ]
+   },
+   "destaque": "Na porta de agora, interromper a atividade e levar ao médico hoje, não na semana que vem.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "caso",
+   "tipo": "lista",
+   "eyebrow": "Caso ilustrativo",
+   "titulo": "A apresentação que mais escapa",
+   "itens": [
+    {
+     "t": "Primeira consulta",
+     "x": "24 anos, musculação há sete anos, dor no ombro há cinco meses, nenhum treino perdido",
+     "cor": "tinta"
+    },
+    {
+     "t": "Ao longo das semanas",
+     "x": "exercício adaptado, nunca reduzido; o casamento do primo perdido; as mesmas refeições; fotos diárias; ainda se achava pequeno",
+     "cor": "ambar"
+    },
+    {
+     "t": "A pergunta direta, sem julgamento",
+     "x": "terceiro ciclo de anabolizante do ano, orientado na academia",
+     "cor": "verm"
+    },
+    {
+     "t": "A conduta, lenta",
+     "x": "vínculo; conversa funcional sobre o casamento; psicólogo e médico; treino redesenhado mantendo a frequência",
+     "cor": "petr"
+    }
+   ],
+   "gap_itens": 18
+  },
+  {
+   "id": "niveis",
+   "tipo": "tabela",
+   "eyebrow": "O módulo nos três níveis",
+   "titulo": "Decisão e contribuição",
+   "cab": [
+    "Quem",
+    "Decide",
+    "Contribui com"
+   ],
+   "larguras": [
+    26,
+    36,
+    38
+   ],
+   "linhas": [
+    [
+     "Nutricionista",
+     "plano, quantidades, periodização, estratégia de prova",
+     "o que a pessoa excluiu, e por quê"
+    ],
+    [
+     "Médico",
+     "exame, reposição, medicação, afastamento",
+     "a ferritina baixa que volta como pergunta"
+    ],
+    [
+     "Educador e preparador físico",
+     "a carga que decide o que se perde",
+     "a taxa de suor; a carga que caiu com a dieta"
+    ],
+    [
+     "Fisioterapeuta",
+     "tecido e fratura em recuperação",
+     "a segunda fratura leva a pergunta sobre energia"
+    ],
+    [
+     "Psicólogo",
+     "alimentação desordenada, com o médico",
+     "a restrição de origem comportamental"
+    ]
+   ],
+   "destaque": "O treinador que organiza o kit da viagem garante que o plano chegue ao ônibus.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "todos",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "O terceiro nível é de todos",
+   "titulo": "Reconhecer exige ter aprendido o sinal",
+   "cards": [
+    {
+     "t": "O que se ouve",
+     "x": "vocabulário moral; exclusão sem razão clínica; parar de comer com o grupo",
+     "cor": "tinta"
+    },
+    {
+     "t": "O que o corpo mostra",
+     "x": "frio constante; ciclo que espaçou; fratura que se repete",
+     "cor": "tinta"
+    },
+    {
+     "t": "O que o treino mostra",
+     "x": "rendimento que cai com o treino mantido",
+     "cor": "tinta"
+    },
+    {
+     "t": "O que a prova mostra",
+     "x": "peso que sobe na prova longa; cãibra atribuída ao sal",
+     "cor": "ambar"
+    },
+    {
+     "t": "O que o espelho esconde",
+     "x": "o atleta muito musculoso que se acha pequeno",
+     "cor": "ambar"
+    },
+    {
+     "t": "A porta de agora",
+     "x": "desmaio, instabilidade, vômitos frequentes, risco de suicídio",
+     "cor": "verm"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "O que atravessou as doze aulas",
+   "titulo": "Uma pergunta antes de um número",
+   "regras": [
+    "Quase todo problema começa por falta: de energia, de variedade, de organização ou de informação certa",
+    "A mesma ferramenta, na pessoa errada, vira sintoma",
+    "Quem pergunta por que antes de calcular quanto erra menos"
+   ],
+   "cards": [
+    {
+     "t": "Decisão",
+     "x": "De quem tem a profissão para ela."
+    },
+    {
+     "t": "Contribuição",
+     "x": "A informação que passa de uma profissão para outra."
+    },
+    {
+     "t": "Reconhecimento",
+     "x": "De todos."
+    }
+   ],
+   "quem": "No próximo módulo, suplementos e ergogênicos: evidência, marketing, risco e antidoping."
+  }
+ ]
+}

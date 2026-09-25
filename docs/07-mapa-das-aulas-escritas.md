@@ -111,7 +111,7 @@ disponibilidade energética, que abre o Módulo 4.
 
 ## Módulo 4 — Nutrição Esportiva · 12 aulas
 
-**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 e 3: decks enxutos, gráficos
+**ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 e 3: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em petróleo, a cor do módulo (docs/08).
 Casos clínicos no módulo: dois, o teto (4.2, a triatleta amadora de 31 anos; 4.12, o caso de
 alimentação desordenada; ambos ditos como caso ilustrativo). As demais aulas usam contas e quadros
@@ -128,14 +128,13 @@ típicos, sem pessoa.
 | 4.7 | Micronutrientes no praticante de exercício | 13 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/XfbzmeXdJ53vQFBFVgobnn) |
 | 4.8 | Hidratação no exercício | 18 | 10 | NÚMERO | [slides](https://claude.ai/artifact/QSia1kVTZKNsvtVAGBZ1ac) |
 | 4.9 | Composição corporal no praticante de exercício | 23 | 10 | DECISÃO | [slides](https://claude.ai/artifact/LkcQEtJ61X8CdgckNHkk5S) |
+| 4.10 | Nutrição em dia de competição | 16 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/5FHHGTiH4kRFn9FTkEj7VG) |
+| 4.11 | Nutrição na rotina real | 18 | 10 | DECISÃO | [slides](https://claude.ai/artifact/UpVQTM4qJHJdDVtqkpBUsA) |
+| 4.12 | Alimentação desordenada no esporte | 20 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/XD4Ln392adhTAcMT8ZvMFJ) |
 
-Ainda na versão anterior, sem deck:
-
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 4.10 | Nutrição em dia de competição | — | NOVA |
-| 4.11 | Nutrição em viagem e recuperação pós-jogo | M19-A07 parcial | PARCIAL |
-| 4.12 | Alimentação desordenada: sinais, rastreio e encaminhamento | M11-A05 + M12-A08 | FUNDIR |
+Total: 3 h 18 min em 12 aulas, 121 slides. A 4.12 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
+suplementação, que abre o Módulo 5.
 
 ## Módulo 5 — Suplementação, Ergogênicos e Antidoping · 11 aulas
 

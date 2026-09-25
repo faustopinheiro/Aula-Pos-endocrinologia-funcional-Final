@@ -1,142 +1,162 @@
-# Módulo 4 · Aula 4.11 — Nutrição em viagem e recuperação pós-jogo
+# Módulo 4 · Aula 4.11 — Nutrição na rotina real: recuperação pós-esforço, horários irregulares e viagem
 
 **Módulo 4 — Nutrição Esportiva**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 19 minutos · 6 slides · Arquitetura: DECISÃO
+Duração: 18 minutos · 10 slides · Arquitetura: DECISÃO
 
 ---
 
-📊 **[SLIDE 1 DE 6]**
-*Visual: uma pirâmide de quatro andares — "total do dia" na base larga, "distribuição" acima, "perto do treino" acima, "minutos" no topo estreito. Ao lado, três cenas pequenas: um churrasco depois de um jogo, um relógio marcando 5h, um ônibus na estrada.*
-*Teleprompter: (entra pela pirâmide e pela pergunta da aula)*
+📊 **[SLIDE 1 DE 10]**
+*Visual: fundo escuro, uma pergunta: "Quando a agenda não deixa fazer tudo, o que priorizar?". Embaixo, três cenas pequenas: um churrasco depois do jogo, um relógio marcando cinco da manhã, um ônibus na estrada.*
+*Teleprompter: (entra pela restrição real)*
 
-Na literatura de nutrição esportiva, horário, viagem e recuperação aparecem como variáveis de otimização. **No consultório, eles são a restrição principal.**
+Na literatura de nutrição esportiva, horário, viagem e recuperação aparecem como variáveis de otimização. No consultório, são a restrição principal.
 
-O paciente não escolhe o melhor horário para treinar. **Treina no único que sobra.** Não escolhe a hora do jogo nem o ônibus da equipe. **E, depois do jogo, a recuperação disputa espaço com a família, o churrasco e a segunda-feira às seis da manhã.**
+O paciente não escolhe o melhor horário para treinar. Treina no único que sobra. Não escolhe a hora do jogo nem o ônibus da equipe. E, depois do jogo, a recuperação disputa espaço com a família, o churrasco e a segunda-feira às seis da manhã.
 
-Então a pergunta desta aula não é "qual é a estratégia ideal". É outra: **quando a agenda não deixa fazer tudo, o que priorizar?**
-
-A resposta é uma pirâmide de quatro andares, e ela organiza as três decisões que vêm a seguir.
-
-**Base: o total do dia.** Energia, proteína e carboidrato somados ao longo das vinte e quatro horas. **É aqui que está a maior parte do resultado.**
-
-**Segundo andar: a distribuição.** Três a quatro refeições com proteína decente, **sem buracos longos** — a aula 4.5.
-
-**Terceiro andar: o que está perto do treino.** A refeição antes e a refeição depois.
-
-**Topo: o ajuste de minutos.** A "janela" de meia hora, o shake no vestiário. **Ele existe, é o menor andar — e é o único de que todo mundo fala.**
-
-**Quem tem agenda difícil deve gastar energia na base e no segundo andar, e aceitar que o topo vai ficar imperfeito.** Imperfeito e feito é melhor do que perfeito e impossível.
-
-Três decisões. **Depois do jogo, o que é recuperação e o que é ritual? Na semana de horário quebrado, onde vai a comida? E na viagem, como não chegar sem combustível ao lugar de competir?**
+Então a pergunta desta aula não é qual é a estratégia ideal. É outra: quando a agenda não deixa fazer tudo, o que priorizar?
 
 ---
 
-📊 **[SLIDE 2 DE 6]**
-*Visual: decisão um — duas setas saindo do apito final. Uma curta: "próximo esforço em menos de 8 h → reposição rápida". Uma longa: "próximo esforço amanhã ou depois → jantar resolve". Abaixo, um copo de cerveja com um ponto de interrogação.*
-*Teleprompter: (decisão um — o pós-jogo)*
+📊 **[SLIDE 2 DE 10]**
+*Visual: uma pirâmide de quatro andares. Base larga: "total do dia". Acima: "distribuição". Acima: "perto do treino". Topo estreito: "minutos".*
+*Teleprompter: (a pirâmide que organiza as três decisões)*
 
-**Decisão um: o pós-jogo.** E a primeira pergunta é sempre a mesma: **quando é o próximo esforço?**
+A resposta é uma pirâmide de quatro andares.
 
-**Se é em menos de oito horas** — dois jogos no dia, torneio, prova em etapas —, **a reposição rápida importa**, com os números da aula 4.3 e a logística da 4.10: carboidrato logo, com alguma proteína, em forma que o estômago aceite.
+Na base, o total do dia: energia, proteína e carboidrato somados nas vinte e quatro horas. É aqui que está a maior parte do resultado.
 
-**Se é amanhã ou depois** — que é a realidade de quase todo mundo que joga no domingo —, **a recuperação acontece no total das próximas vinte e quatro horas.** O shake no vestiário não é errado; **só não é o que decide.** O que decide é o jantar e o café da manhã seguinte.
+No segundo andar, a distribuição: três a quatro refeições com proteína decente, sem buracos longos, como na aula de proteína.
 
-E a recuperação tem quatro componentes que cabem numa refeição comum. **Repor carboidrato. Repor líquido e sódio. Oferecer proteína. E dormir.** Arroz, feijão, uma carne, salada, um copo de água ou de leite — **a refeição brasileira de todo dia já é uma refeição de recuperação.** A aula 4.8 mostrou que **o leite retém líquido melhor que a água**; é uma bebida pós-jogo subestimada.
+No terceiro, o que está perto do treino: a refeição antes e a refeição depois.
 
-**Agora a cerveja.** Ela aparece em quase todo pós-jogo amador, e a conversa precisa ser honesta nas duas direções.
+No topo, o ajuste de minutos: a janela de meia hora, o shake no vestiário. Ele existe, é o menor andar, e é o único de que todo mundo fala.
 
-**Parr e colaboradores, em 2014**, mediram a síntese de proteína muscular depois de uma sessão de treino combinado, com e sem álcool. **Com álcool, mesmo junto com proteína, a síntese caiu cerca de um quarto; com álcool no lugar da proteína, mais de um terço.** Mas repare na dose: **cerca de 1,5 grama de álcool por quilo — por volta de doze doses, para os participantes do estudo.** É uma noite de bebedeira, não duas latas.
+Quem tem agenda difícil deve gastar energia na base e no segundo andar, e aceitar que o topo fique imperfeito. Imperfeito e feito é melhor do que perfeito e impossível.
 
-Então a leitura correta é: **o efeito ruim é dose-dependente, e o estudo mostrou o extremo.** O que a experiência clínica acrescenta é o resto: **álcool piora o sono**, que é o quarto componente da recuperação e é tema da aula **9.12**; **desloca a comida** — a pessoa bebe e não janta; **e afrouxa a decisão sobre o resto da noite.**
-
-**A conduta não é moralizar.** É ordenar: **comer primeiro, beber depois; água entre as doses; quantidade moderada; e não na véspera de um treino ou jogo importante.** Quem joga no domingo e bebe com a turma não precisa ouvir que está destruindo o músculo. **Precisa saber que o jantar vem antes do copo.**
+E a pirâmide organiza três decisões. Depois do jogo, o que é recuperação e o que é ritual? Na semana de horário quebrado, onde vai a comida? E na viagem, como não chegar sem combustível?
 
 ---
 
-📊 **[SLIDE 3 DE 6]**
-*Visual: decisão dois — três relógios (5h, 12h30, 22h), cada um com o dia montado de trás para a frente a partir do horário do treino. Uma faixa vermelha marcando qualquer intervalo acordado maior que 4–5 horas sem comer.*
-*Teleprompter: (decisão dois — a semana de horário quebrado)*
+📊 **[SLIDE 3 DE 10]**
+*Visual: decisão um. Duas setas saindo do apito final. Uma curta: "próximo esforço em menos de oito horas: reposição rápida". Uma longa: "próximo esforço amanhã ou depois: as próximas 24 horas resolvem". Embaixo, os quatro componentes: carboidrato, líquido e sódio, proteína, sono.*
+*Teleprompter: (decisão um: o pós-jogo)*
 
-**Decisão dois: a semana de horário quebrado.** E a ferramenta que resolve quase tudo é uma: **montar o dia de trás para a frente, a partir do horário do treino.**
+Decisão um: o pós-jogo. E a primeira pergunta é sempre a mesma: quando é o próximo esforço?
 
-Não comece pelo modelo "café, almoço, jantar" — **ele pressupõe uma agenda que o paciente não tem.** Comece pelo horário do treino, coloque a refeição de antes e a de depois, e distribua o resto em volta. É a mesma conta que a aula 4.10 fez com a largada às sete.
+Se é em menos de oito horas, como em dois jogos no dia, torneio ou prova em etapas, a reposição rápida importa. Os números estão na aula de carboidrato e a logística na aula do dia de competição: carboidrato logo, com alguma proteína, numa forma que o estômago aceite.
 
-**Treino às cinco da manhã.** Não existe tempo para uma refeição e digestão. **Treinar em jejum é aceitável?** A meta-análise de **Aird, Davies e Carson, de 2018**, comparou exercício em jejum e alimentado: **para sessões aeróbicas mais longas, comer antes melhorou o desempenho; para sessões curtas, a diferença não foi consistente.**
+Se é amanhã ou depois, que é a realidade de quase todo mundo que joga no domingo, a recuperação acontece no total das próximas vinte e quatro horas. O shake no vestiário não é errado. Só não é o que decide. O que decide é o jantar e o café da manhã seguinte.
 
-Então: **sessão curta, leve a moderada, em quem tolera — jejum é aceitável.** Sessão longa, intensa ou de força pesada — **uma mini-refeição de vinte a quarenta gramas de carboidrato, quinze a trinta minutos antes**: banana, pão com geleia, suco, tapioca fina. **E nunca em quem já está em baixa disponibilidade energética**, porque ali o jejum não é técnica — é mais um buraco.
-
-**Mas o problema de quem treina às cinco quase nunca é o antes. É o depois.** Quem treina força às cinco, vai direto para o trabalho e só come ao meio-dia e meia **ficou sete horas sem proteína depois do treino.** A refeição que decide o resultado dele **é o café da manhã que precisa caber na mochila e ser comido no trabalho.**
-
-**Treino às dez da noite.** Dois problemas competem: **o sono e o jantar.** A solução errada é a mais intuitiva — não jantar —, que põe a pessoa para treinar e dormir em déficit. **A solução é ajustar o jantar: volume modesto, proteína suficiente, carboidrato presente, pouca gordura e pouca fibra**, e trinta a sessenta minutos até deitar.
-
-E aqui existe uma oportunidade. **Snijders e colaboradores, em 2015**, mostraram que **proteína antes de dormir aumentou os ganhos de massa e de força** num programa de doze semanas de treino de força. **A ressalva honesta: o grupo que recebeu a proteína acabou comendo mais proteína no total**, porque o outro grupo recebeu placebo sem calorias. **Parte do efeito pode ser do total, não do horário.** Mas, para quem treina às dez, **o jantar pós-treino já é a refeição pré-sono.** Uma refeição resolve os dois andares.
-
-**E a cafeína.** A meia-vida dela gira em torno de **cinco horas**, com grande variação entre pessoas. **Um pré-treino com cafeína às nove e meia da noite ainda está agindo às duas da manhã.** Quem treina tarde e usa cafeína **troca uma sessão um pouco melhor por uma noite inteira pior.**
-
-**Treino na hora do almoço.** A janela é curta e o treino ocupa quase toda. **A estratégia é mover uma refeição que já existe**: um lanche no meio da manhã e **o almoço logo depois do treino**, mesmo que rápido. O erro comum é o contrário — treinar no almoço e comer às três da tarde.
-
-E a regra que atravessa os três horários, a **regra do buraco: em dia de treino, não passar mais de quatro a cinco horas acordado sem comer.** Ela corrige, sozinha, **o déficit por desorganização** — o que não vem de restrição nem de gasto alto, mas de um dia em que a comida não tem lugar.
+E a recuperação tem quatro componentes que cabem numa refeição comum. Repor carboidrato. Repor líquido e sódio. Oferecer proteína. E dormir. Arroz, feijão, uma carne, salada, um copo de água ou de leite: a refeição brasileira de todo dia já é uma refeição de recuperação. E o leite, que a aula de hidratação mostrou reter líquido melhor que a água, é uma bebida pós-jogo subestimada.
 
 ---
 
-📊 **[SLIDE 4 DE 6]**
-*Visual: decisão três — uma mochila aberta com o "kit que sobrevive sem geladeira": banana, pão, pasta de amendoim, bolacha de água e sal, castanhas, leite em caixinha, bebida com carboidrato. Ao lado, uma placa de estrada: "próximo posto: 180 km".*
-*Teleprompter: (decisão três — a viagem)*
+📊 **[SLIDE 4 DE 10]**
+*Visual: três números do estudo de Parr: "1,5 g/kg de álcool, cerca de 12 doses"; "síntese de proteína miofibrilar −24% com álcool e proteína"; "−37% com álcool e carboidrato". Embaixo, a conduta em quatro palavras: comer antes do copo.*
+*Teleprompter: (a cerveja, com a dose certa na mesa)*
 
-**Decisão três: a viagem.** Para o amador, viagem não é fuso horário. **É o ônibus da equipe, oito horas de estrada para o torneio, o hotel com café da manhã desconhecido, o restaurante que fecha antes do fim do jogo.**
+Agora a cerveja. Ela aparece em quase todo pós-jogo amador, e a conversa precisa ser honesta nas duas direções.
 
-E a decisão central da viagem é uma só: **depender do que vai encontrar, ou levar o que precisa.** Quase sempre, a resposta é levar.
+Parr e colaboradores, em 2014, colocaram oito homens ativos para fazer uma sessão de treino combinado, força e depois bicicleta, e mediram a síntese de proteína muscular nas horas seguintes. Com álcool junto da proteína, a síntese caiu vinte e quatro por cento em relação à proteína sozinha. Com álcool junto de carboidrato, sem proteína, caiu trinta e sete.
 
-**Antes de sair: o kit que sobrevive sem geladeira e sem micro-ondas.** Banana e frutas resistentes. Pão com requeijão ou pasta de amendoim. Bolacha de água e sal. Castanhas. **Leite em caixinha e bebida com carboidrato.** Sanduíche simples para as primeiras horas. **É barato, cabe numa mochila e evita que a refeição da viagem seja o que o posto de estrada tem.**
+Mas repare na dose: um grama e meio de álcool por quilo. Cerca de doze doses, para os participantes do estudo. É uma noite de bebedeira, não duas latas.
 
-**Durante o trajeto**: comer nos horários habituais, mesmo sentado; **água à mão, sem esperar a parada**; e evitar a refeição pesada e gordurosa da parada de estrada **quando há jogo ou prova nas horas seguintes.**
+A leitura correta: o efeito é de dose, e o estudo mostrou o extremo. O que a clínica acrescenta é o resto. O álcool piora o sono, que é o quarto componente da recuperação e é tema do módulo de preparação física. Desloca a comida: a pessoa bebe e não janta. E afrouxa a decisão sobre o resto da noite.
 
-**No destino**, três cuidados.
-
-**Um: o jantar da véspera é conhecido.** A aula 4.10 disse "nada de novo no dia"; **em viagem, vale "nada de novo na véspera".** Arroz, massa, carne ou frango grelhado — **o restaurante que tem isso é o restaurante certo**, mesmo que a comida típica da cidade seja mais interessante. A comida típica fica para depois da competição.
-
-**Dois: o café da manhã do hotel.** Ele tem muita coisa, e a tentação é experimentar. **Na manhã de jogo, a regra é a mesma do dia de prova**: o que foi testado, na quantidade testada, no horário planejado. Se o jogo é cedo, **a conta de trás para a frente decide se dá tempo de ir ao café do hotel** — ou se o café da manhã já vem na mochila.
-
-**Três: segurança alimentar.** Em lugares onde a água ou a higiene dos alimentos são duvidosas, **a diarreia do viajante é uma das formas mais comuns de perder uma competição antes de ela começar.** A regra clássica ainda funciona: **ferva, cozinhe, descasque — ou deixe.** Água engarrafada, cuidado com gelo de origem desconhecida, **salada crua e comida de rua na véspera são riscos desnecessários.**
-
-**E a volta.** O pós-jogo em viagem geralmente é no ônibus. **É o momento em que o kit mais importa**, porque a próxima refeição de verdade pode estar a horas. Leite em caixinha, sanduíche, fruta, bebida com carboidrato — **e a recuperação da decisão um acontece na estrada.**
+A conduta não é moralizar. É ordenar. Comer primeiro, beber depois. Água entre as doses. Quantidade moderada. E não na véspera de um treino ou jogo importante. Quem joga no domingo e bebe com a turma não precisa ouvir que está destruindo o músculo. Precisa saber que o jantar vem antes do copo.
 
 ---
 
-📊 **[SLIDE 5 DE 6]**
-*Visual: três cenas — um jogador de futebol amador no churrasco de domingo; uma professora saindo da academia às 23h; uma equipe de basquete sub-17 descendo de um ônibus. Cada uma com a decisão que mudou.*
-*Teleprompter: (as três decisões aplicadas)*
+📊 **[SLIDE 5 DE 10]**
+*Visual: decisão dois. Um relógio às cinco da manhã. Duas colunas: "sessão curta, leve a moderada, em quem tolera: jejum aceitável"; "sessão longa, intensa ou força pesada: 20 a 40 g de carboidrato, 15 a 30 minutos antes". Embaixo, em vermelho: "o problema de quem treina às cinco é o depois".*
+*Teleprompter: (decisão dois: montar o dia de trás para a frente; o treino da madrugada)*
 
-Três pessoas, uma decisão para cada.
+Decisão dois: a semana de horário quebrado. E a ferramenta que resolve quase tudo é uma só: montar o dia de trás para a frente, a partir do horário do treino.
 
-**Um jogador de futebol amador de 34 anos** joga todo domingo às dez da manhã. Depois do jogo, o churrasco com o time — **carne, farofa, cerveja, e nenhuma refeição de verdade até a noite**, quando ele já está sem fome. Segunda-feira acorda às cinco e meia para trabalhar, **cansado e dolorido até quarta.** Acha que precisa de um suplemento de recuperação.
+Não comece pelo modelo café, almoço e jantar. Ele pressupõe uma agenda que o paciente não tem. Comece pelo horário do treino, coloque a refeição de antes e a de depois, e distribua o resto em volta. É a mesma conta que a aula do dia de competição fez com a largada às sete.
 
-**Decisão um.** O próximo esforço é na quarta — **a janela não é o problema.** O problema é que o almoço do domingo virou churrasco sem carboidrato e com muito álcool, e o jantar não existiu. **A conduta cabe numa frase: prato de comida antes do primeiro copo** — arroz, a carne do churrasco, salada, farofa —, **água entre as cervejas**, e um jantar leve à noite. **Nenhum suplemento.** Três semanas depois, a segunda-feira mudou.
+Treino às cinco da manhã. Não há tempo para refeição e digestão. Treinar em jejum é aceitável? A meta-análise de Aird, Davies e Carson, de 2018, reuniu quarenta e seis estudos. Comer antes melhorou o desempenho no exercício aeróbico prolongado. No aeróbico mais curto, não fez diferença.
 
-**Uma professora de 36 anos** dá aula até as nove e meia da noite e treina às dez. Janta às onze e meia, **um prato grande e rápido**, e dorme meia-noite e meia. **Toma um pré-treino com cafeína às nove e meia.** Está dormindo mal e rendendo menos.
+Então: sessão curta, leve a moderada, em quem tolera, o jejum é aceitável. Sessão longa, intensa ou de força pesada, uma mini-refeição de vinte a quarenta gramas de carboidrato, quinze a trinta minutos antes. Banana, pão com geleia, suco, tapioca fina. E nunca jejum em quem já está em baixa disponibilidade energética, porque ali o jejum não é técnica. É mais um buraco.
 
-**Decisão dois.** O horário do treino não vai mudar. **O que muda é o que acontece em volta dele.** Cafeína suspensa nos treinos noturnos. **Jantar reformulado** — proteína e carboidrato, menos volume e menos gordura — e **assumido como a refeição pré-sono.** Um lanche no fim da tarde, **para que ela não chegue ao treino com seis horas sem comer.** O treino continuou às dez. **O sono voltou.**
-
-**Uma equipe de basquete sub-17** viaja oito horas de ônibus para um torneio, chegando às dez da noite para jogar às oito da manhã. **Na última viagem, pararam num posto de estrada às três da tarde, e muitos só comeram de novo no café da manhã do hotel.** O primeiro jogo foi o pior da temporada.
-
-**Decisão três.** Na viagem seguinte, **a comissão levou o kit**: sanduíches, frutas, leite em caixinha, bebida com carboidrato, distribuídos em horários fixos no ônibus. **O jantar foi combinado antes com um restaurante perto do hotel** — arroz, massa, frango. **E o café da manhã foi às seis e meia, com o que eles comem em casa.** São adolescentes em crescimento: **para eles, o buraco na viagem não é só desempenho — é energia que falta para crescer.**
+Mas o problema de quem treina às cinco quase nunca é o antes. É o depois. Quem treina força às cinco, vai direto para o trabalho e só almoça ao meio-dia e meia ficou sete horas sem proteína depois do treino. A refeição que decide o resultado dessa pessoa é o café da manhã que precisa caber na mochila.
 
 ---
 
-📊 **[SLIDE 6 DE 6]**
-*Visual: a pirâmide do slide 1 de novo, agora com as três decisões encaixadas nos andares de baixo.*
-*Teleprompter: (fechamento e escopo)*
+📊 **[SLIDE 6 DE 10]**
+*Visual: um relógio às dez da noite. À esquerda, "o jantar é a refeição pré-sono": volume modesto, proteína, carboidrato, pouca gordura e fibra. À direita, a conta da cafeína: tomada às 21h30, meia-vida de cerca de cinco horas, ainda perto da metade às 2h30.*
+*Teleprompter: (o treino da noite: jantar, sono e cafeína)*
 
-Repare onde as três decisões caíram na pirâmide. **O jogador de futebol precisava do total do dia e da distribuição** — não de um shake. **A professora precisava da distribuição e do que está perto do treino** — não de mudar de horário. **A equipe precisava de logística para que existisse um total do dia.** **Ninguém precisou do topo da pirâmide.**
+Treino às dez da noite. Dois problemas competem: o sono e o jantar.
 
-É por isso que esta aula não tem uma tabela de minutos. **Os minutos existem, e ficam para quem já resolveu o resto.**
+A solução errada é a mais intuitiva, que é não jantar. Ela põe a pessoa para treinar e dormir em déficit. A solução é ajustar o jantar: volume modesto, proteína suficiente, carboidrato presente, pouca gordura e pouca fibra, e trinta a sessenta minutos até deitar.
 
-E há uma característica comum às três que vale nomear: **nenhuma delas mudou a agenda.** O jogo continuou no domingo, o treino continuou às dez, o ônibus continuou levando oito horas. **O que mudou foi o que acontece em volta da agenda.** Esse é o trabalho real da nutrição esportiva fora do esporte de elite.
+E aqui existe uma oportunidade. Snijders e colaboradores, em 2015, deram a quarenta e quatro homens jovens, em doze semanas de treino de força, cerca de trinta gramas de caseína antes de dormir, contra uma bebida sem calorias. O grupo da proteína ganhou mais massa e mais força. A ressalva honesta: o grupo da proteína comeu mais proteína no total. Parte do efeito pode ser do total, não do horário. Mas, para quem treina às dez, o jantar depois do treino já é a refeição antes do sono. Uma refeição resolve dois andares.
 
-O escopo. **O plano alimentar da semana, do pós-jogo e da viagem é do nutricionista.** **O treinador e a comissão técnica são quem decide a logística da equipe** — horário de saída, paradas, kit, restaurante — e, sem eles, o melhor plano não chega ao ônibus. **Sono ruim persistente, uso de estimulantes e consumo de álcool que preocupa são conversa com o médico.** E, se o álcool deixou de ser o copo do pós-jogo e virou um padrão, **o psicólogo entra junto.**
+E a cafeína. A meia-vida dela gira em torno de cinco horas, com grande variação entre pessoas. Vamos fazer a conta. Um pré-treino com cafeína às nove e meia da noite: às duas e meia da manhã, ainda resta perto da metade circulando. Quem treina tarde e usa cafeína troca uma sessão um pouco melhor por uma noite inteira pior.
 
-Na próxima aula, **4.12**, que fecha o módulo, o tema que atravessa todas as outras onze: **quando a relação com a comida deixa de ser escolha e vira problema — alimentação desordenada, como reconhecer, rastrear e encaminhar.**
+---
+
+📊 **[SLIDE 7 DE 10]**
+*Visual: três relógios, 5h, 12h30 e 22h, cada um com o dia montado de trás para a frente a partir do treino. Uma faixa vermelha marcando qualquer intervalo acordado maior que quatro a cinco horas sem comer.*
+*Teleprompter: (o treino do almoço e a regra do buraco)*
+
+Treino na hora do almoço. A janela é curta e o treino ocupa quase toda. A estratégia é mover uma refeição que já existe: um lanche no meio da manhã, e o almoço logo depois do treino, mesmo que rápido. O erro comum é o contrário: treinar no almoço e comer às três da tarde.
+
+E a regra que atravessa os três horários, a regra do buraco: em dia de treino, não passar mais de quatro a cinco horas acordado sem comer.
+
+Ela corrige sozinha o déficit por desorganização. É o déficit que não vem de restrição nem de gasto alto, e sim de um dia em que a comida não tem lugar. E é, provavelmente, a forma mais comum de baixa disponibilidade energética em quem trabalha e treina.
+
+---
+
+📊 **[SLIDE 8 DE 10]**
+*Visual: decisão três. Uma mochila aberta com o kit que sobrevive sem geladeira: banana, pão, pasta de amendoim, bolacha de água e sal, castanhas, leite em caixinha, bebida com carboidrato. Ao lado, três cuidados no destino.*
+*Teleprompter: (decisão três: a viagem)*
+
+Decisão três: a viagem. Para o amador, viagem não é fuso horário. É o ônibus da equipe, oito horas de estrada para o torneio, o hotel com café da manhã desconhecido, o restaurante que fecha antes do fim do jogo.
+
+E a decisão central é uma só: depender do que vai encontrar, ou levar o que precisa. Quase sempre, a resposta é levar.
+
+Antes de sair, o kit que sobrevive sem geladeira e sem micro-ondas. Banana e frutas resistentes. Pão com requeijão ou pasta de amendoim. Bolacha de água e sal. Castanhas. Leite em caixinha e bebida com carboidrato. Sanduíche simples para as primeiras horas. É barato, cabe numa mochila e evita que a refeição da viagem seja o que o posto de estrada tem.
+
+No destino, três cuidados. Um: o jantar da véspera é conhecido. A aula do dia de competição disse nada de novo no dia. Em viagem, vale nada de novo na véspera. O restaurante que tem arroz, massa e frango grelhado é o restaurante certo, e a comida típica fica para depois.
+
+Dois: o café da manhã do hotel. Na manhã de jogo, a regra é a mesma do dia de prova: o que foi testado, na quantidade testada, no horário planejado. Se o jogo é cedo, a conta de trás para a frente decide se dá tempo de ir ao café do hotel, ou se ele já vem na mochila.
+
+Três: segurança alimentar. Onde a água ou a higiene dos alimentos são duvidosas, a diarreia do viajante é uma das formas mais comuns de perder uma competição antes de ela começar. A regra clássica ainda funciona: ferva, cozinhe, descasque, ou deixe.
+
+E a volta. O pós-jogo em viagem costuma ser no ônibus. É quando o kit mais importa, porque a próxima refeição de verdade pode estar a horas.
+
+---
+
+📊 **[SLIDE 9 DE 10]**
+*Visual: tabela com três perfis típicos nas linhas (o jogador de domingo, quem treina às dez da noite, a equipe jovem que viaja) e três colunas: o que acontece, a decisão, o andar da pirâmide.*
+*Teleprompter: (as três decisões aplicadas a três perfis)*
+
+Três perfis típicos, uma decisão para cada.
+
+O jogador amador de domingo. Joga às dez da manhã. Depois, o churrasco com o time: carne, farofa, cerveja, e nenhuma refeição de verdade até a noite, quando ele já está sem fome. Na segunda acorda cedo para trabalhar, cansado e dolorido até quarta. Acha que precisa de um suplemento de recuperação. O próximo esforço é na quarta, então a janela não é o problema. O problema é que o almoço virou churrasco sem carboidrato e com muito álcool, e o jantar não existiu. A conduta cabe numa frase: prato de comida antes do primeiro copo, água entre as cervejas, e um jantar leve à noite. Nenhum suplemento. É base e distribuição.
+
+Quem trabalha até tarde e treina às dez da noite. Janta às onze e meia, um prato grande e rápido, dorme à meia-noite e meia, e toma um pré-treino com cafeína às nove e meia. Dorme mal e rende menos. O horário do treino não vai mudar. Muda o que acontece em volta: cafeína suspensa nos treinos noturnos, jantar reformulado e assumido como refeição pré-sono, e um lanche no fim da tarde para não chegar ao treino com seis horas sem comer. É distribuição e o que está perto do treino.
+
+A equipe jovem que viaja oito horas de ônibus para um torneio, chega às dez da noite e joga às oito da manhã. Numa viagem sem plano, param num posto às três da tarde, e muitos só comem de novo no café do hotel. Com plano, a comissão leva o kit e distribui em horários fixos no ônibus, combina o jantar antes com um restaurante perto do hotel, e marca o café da manhã cedo, com o que eles comem em casa. São adolescentes em crescimento: para eles, o buraco na viagem não é só desempenho. É energia que falta para crescer. É logística para que exista um total do dia.
+
+---
+
+📊 **[SLIDE 10 DE 10]**
+*Visual: a pirâmide de novo, com os três perfis encaixados nos andares de baixo e o topo vazio. Embaixo, cartões de equipe.*
+*Teleprompter: (fechamento e quem faz o quê)*
+
+Repare onde os três perfis caíram na pirâmide. O jogador precisava do total do dia e da distribuição, não de um shake. Quem treina à noite precisava da distribuição e do que está perto do treino, não de mudar de horário. A equipe precisava de logística para que existisse um total do dia. Ninguém precisou do topo.
+
+É por isso que esta aula não tem uma tabela de minutos. Os minutos existem, e ficam para quem já resolveu o resto.
+
+E nenhum dos três mudou a agenda. O jogo continuou no domingo, o treino continuou às dez, o ônibus continuou levando oito horas. Mudou o que acontece em volta da agenda. Esse é o trabalho real da nutrição esportiva fora do esporte de elite.
+
+Quem faz o quê. O plano alimentar da semana, do pós-jogo e da viagem é do nutricionista. O treinador e a comissão técnica decidem a logística da equipe: horário de saída, paradas, kit, restaurante. Sem eles, o melhor plano não chega ao ônibus. Sono ruim persistente, uso de estimulantes e consumo de álcool que preocupa são conversa com o médico. E se o álcool deixou de ser o copo do pós-jogo e virou um padrão, o psicólogo entra junto.
+
+Na próxima aula, que fecha o módulo, o tema que atravessa todas as outras onze: quando a relação com a comida deixa de ser escolha e vira problema.
 
 ---
 
@@ -149,50 +169,33 @@ Na próxima aula, **4.12**, que fecha o módulo, o tema que atravessa todas as o
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — A pirâmide
-· Horário, viagem e recuperação: **na literatura, otimização; no consultório, restrição**
-· A pergunta: **quando a agenda não deixa fazer tudo, o que priorizar?**
-· **Base: total do dia · distribuição sem buracos (4.5) · perto do treino · topo: minutos**
-· Gastar energia **na base**; aceitar o topo imperfeito
-· Três decisões: **pós-jogo · semana de horário quebrado · viagem**
-Visual: a pirâmide e as três cenas.
+**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de seis blocos longos.
+Arquitetura DECISÃO mantida (a anterior e a próxima são PROCEDIMENTO). Sem caso clínico: o
+jogador de 34 anos, a professora de 36 e a equipe sub-17 viraram "três perfis típicos", sem idade
+exata (a equipe ficou como "jovem", porque o crescimento importa para a conduta).
 
-**Slide 2** — Decisão 1: o pós-jogo
-· **Próximo esforço < 8 h** → reposição rápida (4.3, 4.10) · **amanhã ou depois** → **o jantar resolve**
-· Recuperação: **carboidrato · líquido e sódio · proteína · sono** — a refeição brasileira de todo dia já faz isso · **leite** (4.8)
-· **Parr, 2014**: álcool reduziu a síntese proteica ~24% (com proteína) e ~37% (no lugar dela) — **dose de ~1,5 g/kg, uma bebedeira**
-· Álcool também: **sono (9.12) · desloca a comida · afrouxa decisões**
-· Conduta sem moralizar: **comer antes · água entre doses · moderado · não na véspera de jogo**
-Visual: as duas setas e o copo.
+**Números conferidos.** Parr 2014: oito homens ativos, álcool a 1,5 g/kg (cerca de 12 doses); síntese
+de proteína miofibrilar 24% menor com álcool e proteína e 37% menor com álcool e carboidrato, em
+relação à proteína sozinha. Aird 2018: 46 estudos; comer antes melhorou o aeróbico prolongado, não o
+curto. Snijders 2015: 44 homens jovens, 12 semanas de força, cerca de 30 g de caseína antes de
+dormir contra placebo sem calorias; mais ganho de massa e força; o total de proteína foi maior no
+grupo da caseína.
 
-**Slide 3** — Decisão 2: horário quebrado
-· **Montar o dia de trás para a frente**, a partir do treino
-· **5 h**: **Aird, 2018** — comer antes ajuda na sessão longa; curta, sem diferença consistente · mini-refeição de 20–40 g · **o problema é o buraco depois**
-· **22 h**: não jantar é o erro · jantar modesto, proteína, carboidrato, pouca gordura · **Snijders, 2015**: proteína pré-sono (ressalva: mais proteína total) — **o jantar já é o pré-sono**
-· **Cafeína**: meia-vida ~5 h — às 21h30 ainda age às 2h
-· **Almoço**: mover o almoço para logo depois do treino
-· **Regra do buraco: ≤ 4–5 h acordado sem comer**
-Visual: os três relógios.
+**Contas feitas na aula.** Cafeína às 21h30, meia-vida de ~5 h: perto da metade às 2h30.
 
-**Slide 4** — Decisão 3: a viagem
-· **Levar o que precisa, não depender do que vai encontrar**
-· **Kit sem geladeira**: banana · pão com pasta de amendoim · bolacha · castanhas · **leite em caixinha** · bebida com carboidrato
-· Trajeto: horários habituais · água à mão · **evitar a refeição gordurosa da estrada antes de jogo**
-· Destino: **"nada de novo na véspera"** · café do hotel = o testado · **ferva, cozinhe, descasque — ou deixe**
-· A volta: **a recuperação acontece no ônibus**
-Visual: a mochila e a placa de estrada.
+**Correções.**
+- Os desfechos inventados saíram: "três semanas depois, a segunda-feira mudou", "o sono voltou",
+  "o primeiro jogo foi o pior da temporada". Os perfis ficaram com a conduta, sem resultado narrado.
+- "Com álcool no lugar da proteína, mais de um terço" virou o número do estudo (37%, álcool com
+  carboidrato).
 
-**Slide 5** — Três pessoas, uma decisão cada
-· **Jogador amador, 34 anos**: churrasco sem refeição, cerveja, segunda cansado — **prato antes do copo, água entre as doses, jantar leve. Nenhum suplemento**
-· **Professora, 36 anos, treino às 22 h**: cafeína suspensa · jantar = pré-sono · lanche no fim da tarde — **o treino continuou às 22 h; o sono voltou**
-· **Basquete sub-17, 8 h de ônibus**: kit em horários fixos · jantar combinado · café às 6h30 — **adolescente: o buraco é energia para crescer**
-Visual: as três cenas.
+**Saíram.** "Aula 4.5", "aula 4.3", "4.10", "aula 4.8", "aula 9.12", "4.12", "o escopo", as idades,
+o bloco "Roteiro Gamma".
 
-**Slide 6** — Ninguém precisou do topo
-· Futebol → **total e distribuição** · professora → **distribuição e perto do treino** · equipe → **logística para existir um total**
-· **Nenhuma agenda mudou — mudou o que acontece em volta dela**
-· Escopo: plano = **nutricionista** · logística da equipe = **treinador e comissão** · sono, estimulantes, álcool = **médico** · álcool como padrão = **psicólogo junto**
-· Próxima aula: **4.12 — alimentação desordenada** (fecha o módulo)
-Visual: a pirâmide com as três decisões nos andares de baixo.
+**Citações faladas.** Parr; Aird, Davies e Carson; Snijders.
+
+**Ligações internas.** distribuição de proteína = aula de proteína · reposição rápida = aula de
+carboidrato · logística e "nada de novo" = aula do dia de competição · leite = aula de hidratação ·
+sono = módulo de preparação física · alimentação desordenada = próxima aula, que fecha o módulo.
