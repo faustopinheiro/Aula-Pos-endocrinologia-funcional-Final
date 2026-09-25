@@ -1,222 +1,196 @@
-# Módulo 4 · Aula 4.9 — Composição corporal: métodos, metas e o risco da meta errada
+# Módulo 4 · Aula 4.9 — Composição corporal no praticante de exercício: indicação, métodos e definição de metas
 
 **Módulo 4 — Nutrição Esportiva**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 29 minutos · 7 slides · Arquitetura: DECISÃO
+Duração: 23 minutos · 10 slides · Arquitetura: DECISÃO
 
 ---
 
-📊 **[SLIDE 1 DE 7]**
-*Visual: um relatório de composição corporal com "22,4% de gordura" em destaque, na mão de uma pessoa. Ao lado, três perguntas em sequência: "medir?", "com o quê?", "para chegar aonde?".*
+📊 **[SLIDE 1 DE 10]**
+*Visual: um relatório de composição corporal com "22,4% de gordura" em destaque. Ao lado, três perguntas em sequência: "medir?", "com o quê?", "para chegar aonde?". Acima delas, uma quarta, menor: "o que a pessoa quer saber?".*
 *Teleprompter: (entra pelo risco e pelas três decisões)*
 
-Esta é, provavelmente, **a única medida do módulo que pode machucar alguém.**
+Esta é, provavelmente, a única medida do módulo que pode machucar alguém.
 
-Um cálculo de disponibilidade energética mal feito gera uma conduta errada, que a gente corrige na consulta seguinte. **Um número de composição corporal mal entregue pode mudar a relação de uma pessoa com o próprio corpo e com a comida** — em minutos, de forma duradoura, e sem que você fique sabendo.
+Um cálculo de disponibilidade energética mal feito gera uma conduta errada, que se corrige na consulta seguinte. Um número de composição corporal mal entregue pode mudar a relação de uma pessoa com o próprio corpo e com a comida. Em minutos, de forma duradoura, e sem que você fique sabendo.
 
-A pessoa que recebe um percentual de gordura acima do que esperava **não espera o seu plano.** Ela começa a cortar comida naquela mesma tarde. E o que ela corta, com frequência, é justamente o que sustenta o treino: **carboidrato e gordura**, as duas aulas que acabamos de ver. **O número muda comportamento antes de mudar conduta.**
+Quem recebe um percentual de gordura acima do que esperava não espera o seu plano. Começa a cortar comida naquela mesma tarde. E o que corta, com frequência, é justamente o que sustenta o treino: carboidrato e gordura. O número muda comportamento antes de mudar conduta.
 
-Isso não quer dizer que composição corporal não sirva. **Serve — em contextos definidos.** E esta aula é sobre três decisões, nesta ordem.
+Isso não quer dizer que composição corporal não sirva. Serve, em contextos definidos. E esta aula é sobre três decisões, nesta ordem. Medir ou não medir. Se medir, com o quê, e como acompanhar. E se existe uma meta, qual, e qual o risco de ela estar errada.
 
-**Decisão um: medir ou não medir.** **Decisão dois: se medir, com o quê, e como acompanhar.** **Decisão três: se existe uma meta, qual — e qual é o risco de ela estar errada.**
+Antes das três, uma pergunta que resolve muitos atendimentos sozinha: o que a pessoa quer saber?
 
-E uma pergunta que vem antes das três, e que resolve muitos casos sozinha: **o que a pessoa realmente quer saber?**
-
-Quase sempre, quando alguém pede para "fazer a bioimpedância", o que está por trás é uma destas três perguntas. **"Estou perdendo músculo?"** **"O que eu estou fazendo está funcionando?"** **"Eu estou bem?"**
-
-A primeira tem resposta melhor em **teste de força e de função.** A segunda, em **desempenho e em medidas simples.** E a terceira **não é uma pergunta sobre gordura corporal** — é uma pergunta sobre como a pessoa se sente, e merece ser respondida como tal.
-
-Na aula 3.11, a gente já estabeleceu que **perder peso e perder gordura não são a mesma coisa**, e que a balança de bioimpedância doméstica não serve para acompanhar mudança individual. Esta aula parte dali e vai até o fim: **o método, o número e a meta.**
+Quase sempre, quem pede para fazer a bioimpedância está perguntando uma de três coisas. Estou perdendo músculo? O que eu faço está funcionando? Eu estou bem? A primeira tem resposta melhor em teste de força e de função. A segunda, em desempenho e em medidas simples. E a terceira não é uma pergunta sobre gordura corporal. Merece ser respondida como o que ela é.
 
 ---
 
-📊 **[SLIDE 2 DE 7]**
-*Visual: decisão um — duas colunas. À esquerda, "medir tem indicação": esporte de categoria de peso, restrição com risco de perder massa magra, recomposição em treino de força, doença. À direita, "não medir de rotina": transtorno alimentar, relação alterada com corpo e comida, adolescente, baixa disponibilidade energética.*
-*Teleprompter: (decisão um — medir ou não)*
+📊 **[SLIDE 2 DE 10]**
+*Visual: decisão um em duas colunas. À esquerda, "medir tem indicação": categoria de peso, restrição com risco de perder massa magra, recomposição em treino de força, doença. À direita, "não medir de rotina": transtorno alimentar, relação alterada com corpo e comida, adolescente, baixa disponibilidade energética. Embaixo: "se as duas colunas se cruzam, a da direita vence".*
+*Teleprompter: (decisão um: medir ou não)*
 
-**Decisão um: medir ou não medir.**
+Decisão um: medir ou não medir.
 
-A regra é curta: **só meça composição corporal se houver uma decisão dependendo daquele número.**
+A regra é curta. Só meça composição corporal se houver uma decisão dependendo daquele número. Imagine o resultado alto e o resultado baixo. Se a conduta for a mesma nos dois, não meça.
 
-Não é "para acompanhar". Não é "porque faz parte da avaliação". Não é "porque o aparelho está ali". **Imagine o resultado alto e o resultado baixo. Se a conduta for a mesma nos dois casos, não meça.**
+E ela é mais rígida aqui do que em qualquer outro lugar, porque o custo do número não é só financeiro.
 
-E ela é mais rígida aqui do que em qualquer outro lugar, porque **o custo do número não é só financeiro.**
+Quando existe indicação? Quatro contextos. Esporte de categoria de peso, ou em que a massa corporal pesa direto no desempenho: ali, a medida ajuda a decidir se existe margem para perder peso sem perder massa magra. Restrição energética com risco de perda de massa magra, por dieta, cirurgia ou medicação que reduz o apetite: ali, a pergunta "o que eu estou perdendo?" muda a conduta. Recomposição em quem treina força: a balança não enxerga, a medida enxerga. E doença: sarcopenia, obesidade em tratamento, doenças que consomem músculo.
 
-Quando existe indicação? **Quatro contextos.**
+Quando não medir de rotina? Também quatro. Quem tem história de transtorno alimentar, atual ou passada: a medida pode reativar comportamento, e o risco supera o benefício. Quem já mostrou relação alterada com o corpo ou com a comida, com o vocabulário moral que a última aula do módulo vai ensinar a reconhecer. Adolescente, salvo indicação específica, porque o número muda com o crescimento. E quem está em baixa disponibilidade energética: ali o alvo é aumentar a ingestão, e um número de gordura na mesa trabalha contra a conduta.
 
-**Um: esporte de categoria de peso**, ou em que a massa corporal pesa diretamente no desempenho — lutas, remo leve, alguns esportes de salto e de resistência. Ali, **a composição corporal ajuda a decidir se existe margem para perder peso sem perder massa magra**, e em que ritmo.
-
-**Dois: restrição energética com risco de perda de massa magra.** Uma pessoa em emagrecimento importante — por dieta, por cirurgia ou por medicação que reduz o apetite. **Ali, a pergunta "o que eu estou perdendo?" tem consequência.** Se a perda de massa magra estiver grande, a conduta muda: mais proteína, carga de força, ritmo mais lento.
-
-**Três: recomposição em quem treina força.** A pessoa que mantém o peso mas muda o corpo. **A balança não enxerga; a medida enxerga.** E, às vezes, é o dado que segura a adesão de quem acha que "não está funcionando".
-
-**Quatro: doença.** Sarcopenia, obesidade em tratamento, doenças que consomem massa muscular. **Aqui a medida é clínica**, e o raciocínio completo de sarcopenia está nas aulas **12.7 e 12.8.**
-
-E quando **não** medir de rotina? Também quatro.
-
-**Quem tem história de transtorno alimentar**, atual ou passada. A medida pode reativar comportamento, **e o risco supera qualquer benefício informativo.**
-
-**Quem já mostrou relação alterada com o corpo ou com a comida** — o vocabulário moral que a aula **4.12** vai ensinar a reconhecer: comida limpa e suja, merecer, compensar.
-
-**Adolescente**, salvo indicação específica e com muito cuidado. É uma fase de mudança corporal rápida, em que o número muda por crescimento e a comparação com o adulto não faz sentido.
-
-**E quem está em baixa disponibilidade energética.** Ali, o alvo da conduta é **aumentar a ingestão**. Um número de gordura corporal na mesa **trabalha contra a conduta.**
-
-Repare que os dois lados podem se cruzar. **Um lutador adolescente, em corte de peso, com história de restrição, está nas duas colunas.** E, quando isso acontece, **a coluna da direita vence.** A medida pode esperar; o risco, não.
+As duas colunas podem se cruzar. Um lutador jovem, em corte de peso, com história de restrição, está nas duas. Quando isso acontece, a coluna da direita vence. A medida pode esperar. O risco, não.
 
 ---
 
-📊 **[SLIDE 3 DE 7]**
-*Visual: decisão dois — quatro métodos alinhados, com a margem de erro de cada um desenhada em tamanhos diferentes: bioimpedância (a maior), dobras cutâneas, DXA, circunferências. Acima, a frase "não existe padrão-ouro universal".*
-*Teleprompter: (decisão dois — o método e o erro de cada um)*
+📊 **[SLIDE 3 DE 10]**
+*Visual: tabela de quatro métodos. Colunas: o método, o que domina o erro, para que serve. Bioimpedância: água corporal; só com padronização rigorosa. Dobras cutâneas: quem mede; acompanhar a mesma pessoa. DXA: protocolo e aparelho; massa magra por região. Cintura: quase nada; risco cardiometabólico.*
+*Teleprompter: (decisão dois: o método e o erro de cada um)*
 
-**Decisão dois: com o quê.**
+Decisão dois: com o quê.
 
-A referência que organiza o campo é o posicionamento de **Ackland e colaboradores, de 2012**, feito por um grupo de trabalho sob a comissão médica do Comitê Olímpico Internacional. A frase que resume o documento é incômoda e libertadora ao mesmo tempo: **não existe um método padrão-ouro universalmente aplicável.** Todo método tem erro, e o que muda é o tamanho e a origem dele.
+A referência que organiza o campo é o posicionamento de Ackland e colaboradores, de 2012, feito por um grupo de trabalho da comissão médica do Comitê Olímpico Internacional. A mensagem é incômoda e libertadora ao mesmo tempo: todo método tem erro. O mais próximo de uma referência é o modelo de vários compartimentos, que separa água, mineral, proteína e gordura. E isso é laboratório de pesquisa. A pergunta prática é outra: qual erro eu aceito, para responder a qual pergunta?
 
-O mais próximo de uma referência é o **modelo de quatro compartimentos**, que combina várias medidas para separar água, mineral, proteína e gordura. **É laboratório de pesquisa.** Ninguém faz na clínica. Então a pergunta prática é outra: **qual erro eu aceito, para responder a qual pergunta?**
+Bioimpedância. O método mais disponível e o mais frágil. Ela estima a composição pela resistência do corpo a uma corrente elétrica, e essa resistência depende da água. Medir depois do treino, depois de beber meio litro, depois de comer, depois da sauna, em outra fase do ciclo: cada condição desloca o número. O problema não é o aparelho ser barato. É que, muitas vezes, o erro do método é maior do que a mudança que você quer enxergar em três meses.
 
-**Bioimpedância.** O método mais disponível e o mais frágil. Ela estima a composição a partir da resistência do corpo a uma corrente elétrica, **e essa resistência depende diretamente da água corporal.**
+Dobras cutâneas. A limitação principal é quem mede. O erro entre avaliadores diferentes é grande. O do mesmo avaliador cai muito com treinamento formal, e o padrão da sociedade internacional de cineantropometria existe por isso. Com avaliador treinado, mesmo adipômetro e mesmos pontos, é um método barato e razoável para acompanhar a mesma pessoa.
 
-Então o estado de hidratação domina o resultado. **Medir depois do treino, depois de beber meio litro, depois de comer, depois da sauna, em outra fase do ciclo menstrual** — cada uma dessas condições desloca o número. **O problema não é o aparelho ser barato. É que, em muitas situações, o erro do método é maior do que a mudança que você quer enxergar em três meses.**
+Densitometria por dupla emissão de raios X, a DXA. É boa, mas não é infalível. A revisão metodológica de Nana e colaboradores, de 2015, mostrou quanto o resultado depende de protocolo: jejum, repouso, hidratação, posicionamento na mesa. E aparelhos e versões de software diferentes não formam uma série. A vantagem que só ela tem: separa massa magra, gordura e osso por região. Para quem está em restrição importante, é a medida que melhor responde "o que eu estou perdendo?".
 
-**Dobras cutâneas.** Aqui a limitação principal é **quem mede.** O erro entre avaliadores diferentes é grande; o erro do mesmo avaliador cai muito com treinamento formal — **o padrão ISAK existe exatamente por isso.** Feita por avaliador treinado, com o mesmo adipômetro, nos mesmos pontos, **é um método barato e razoável para acompanhar a mesma pessoa.**
+Circunferências. Simples, baratas, com erro pequeno quando padronizadas. A da cintura não é composição corporal no sentido técnico, mas se associa a risco cardiometabólico de forma consistente. Em muitos atendimentos de saúde, ela responde à pergunta que interessa sem nenhum dos problemas dos outros métodos.
 
-**Densitometria por dupla emissão de raios X, a DXA.** É o método mais usado como referência na prática — e é bom, **mas não é infalível.** A revisão metodológica de **Nana e colaboradores, de 2015**, mostrou o quanto o resultado depende de **protocolo**: posicionamento, jejum, hidratação, treino recente. **E aparelhos e versões de software diferentes não são comparáveis entre si.** Uma DXA numa clínica e outra em outra clínica não formam uma série.
+E o índice de massa corporal serve para população, não para o indivíduo que treina. O jogador musculoso cai em "sobrepeso" com gordura baixa. O idoso sedentário cai em "normal" com pouco músculo.
 
-A DXA tem uma vantagem que os outros não têm: **ela separa massa magra, massa gorda e osso por região.** Braço, perna, tronco. **Para quem está em restrição importante ou tem risco de sarcopenia, é a medida que responde melhor à pergunta "o que eu estou perdendo?".**
-
-**Circunferências e massa corporal.** Simples, baratas, com erro pequeno quando padronizadas. **Não dizem o que é gordura e o que é músculo**, e mesmo assim resolvem muita coisa.
-
-E a **circunferência da cintura** merece uma menção à parte. Ela não é composição corporal no sentido técnico, **mas se associa a risco cardiometabólico de forma consistente**, é barata e tem erro pequeno. **Em muitos atendimentos de saúde, ela responde à pergunta clínica que interessa sem nenhum dos problemas dos outros métodos.**
-
-E o índice de massa corporal? **Serve para população, não para indivíduo que treina.** Um jogador de rúgbi musculoso pode ter índice de "sobrepeso" com gordura baixa. **E um idoso sedentário pode ter índice "normal" com pouca massa muscular e gordura alta** — o que é, inclusive, uma das formas de a sarcopenia se esconder.
-
-Resumo da decisão dois: **para acompanhar a mesma pessoa, dobras com avaliador treinado ou DXA com protocolo; para risco de saúde, cintura; para quase todo o resto, perguntar primeiro o que se quer saber.** E bioimpedância, se for o que existe, **com padronização rigorosa e humildade sobre o erro.**
-
-E uma ligação com o começo do módulo. **Quando se calcula disponibilidade energética, a massa livre de gordura do denominador vem de um destes métodos — e carrega o erro dele.** Foi o que a aula 4.2 mostrou: **só a escolha do método movia o resultado em cerca de cinco pontos.** **Mais um motivo para ler aquela conta como faixa, não como ponto.**
+Uma ligação com a aula de estimativa da disponibilidade energética: a massa livre de gordura daquela conta vem de um destes métodos, e carrega o erro dele. Lá, só a troca de método movia o resultado em cerca de cinco pontos.
 
 ---
 
-📊 **[SLIDE 4 DE 7]**
-*Visual: uma seta de "somatório de dobras: 68 mm" para uma equação e dali para "18,2% de gordura", com um X sobre a segunda seta. Embaixo, a lista de padronização e um calendário com marcas a cada 12 semanas.*
-*Teleprompter: (medido versus calculado, e como acompanhar)*
+📊 **[SLIDE 4 DE 10]**
+*Visual: em cima, "somatório de dobras: 68 mm" → equação → "18,2%", com um X na segunda seta. Embaixo, a conta do percentual como razão: três colunas, o ponto de partida e dois cenários, com massa magra e gordura empilhadas e o percentual escrito em cima.*
+*Teleprompter: (o que acompanhar: medido versus calculado, e a armadilha da razão)*
 
-Ainda dentro da decisão dois: **o que acompanhar.** E aqui existe um erro que aparece até em serviço bom.
+Ainda na decisão dois: o que acompanhar. E aqui existe um erro que aparece até em serviço bom.
 
-A pessoa faz sete dobras. O avaliador soma: **sessenta e oito milímetros.** Aplica uma equação, converte em densidade corporal, converte de novo em percentual de gordura, e anota **dezoito vírgula dois.**
+A pessoa faz sete dobras. O avaliador soma: sessenta e oito milímetros. Aplica uma equação, converte em densidade, converte de novo em percentual, e anota dezoito vírgula dois.
 
-**Acompanhe os sessenta e oito milímetros. Não acompanhe o dezoito vírgula dois.**
+Acompanhe os sessenta e oito milímetros. Não o dezoito vírgula dois.
 
-Cada conversão soma o erro da equação ao erro da medida. E as equações foram construídas em populações específicas, com pressupostos que nem sempre valem para quem está na sua frente. **O somatório de dobras é medido. O percentual é calculado.** Para acompanhar a mesma pessoa, **o medido engana menos.**
+Cada conversão soma o erro da equação ao erro da medida, e as equações foram construídas em populações específicas. O somatório é medido. O percentual é calculado. Na DXA, o raciocínio é o mesmo: massa magra em quilos e gordura em quilos.
 
-Na DXA, o raciocínio é o mesmo: **acompanhe massa magra em quilos e massa gorda em quilos**, não o percentual.
+E existe uma armadilha aritmética. O percentual é uma razão. Vamos fazer a conta.
 
-E existe uma armadilha aritmética que engana até profissional: **o percentual é uma razão.** Se a pessoa ganha massa magra e não perde gordura, o percentual cai. **Se ela perde massa magra numa restrição, o percentual pode nem se mexer.** O número pode melhorar num cenário ótimo e num cenário ruim — **e quem acompanha só a razão não sabe em qual dos dois está.**
+Ponto de partida: setenta quilos, catorze de gordura, cinquenta e seis de massa magra. Vinte por cento.
 
-Há ainda um ganho clínico nessa escolha: **o número bruto é menos carregado emocionalmente.** "Seu somatório foi de sessenta e oito para sessenta e um" informa. **"Você está com dezoito por cento de gordura" é uma frase que a pessoa vai comparar com o que viu na internet naquela noite.**
+Cenário um: a pessoa treina força, ganha dois quilos de massa magra e não mexe na gordura. Setenta e dois quilos, catorze de gordura. Dezenove vírgula quatro por cento.
 
-E, se for medir, **meça direito.** A padronização é o que separa uma série de medidas de uma coleção de números soltos.
+Cenário dois: a pessoa faz uma restrição dura, perde um quilo de gordura e quatro de massa magra. Sessenta e cinco quilos, treze de gordura. Vinte por cento. Exatamente o mesmo número.
 
-**Mesmo horário, de preferência pela manhã. Mesmo jejum, ou o mesmo padrão alimentar. Hidratação habitual — nunca depois de treino ou sauna. Sem treino intenso nas vinte e quatro horas anteriores. Mesma fase do ciclo menstrual, em quem menstrua. Mesmo avaliador e mesmo aparelho.** E **anotar as condições junto do resultado** — um relatório sem hora, sem jejum e sem tempo desde o último treino não é comparável com o próximo.
+O melhor cenário mexeu o percentual em meio ponto. O pior não mexeu nada. Quem acompanha só a razão não sabe em qual dos dois está.
 
-**A frequência: na maior parte dos casos, não mais que a cada doze semanas.** Composição corporal não muda em duas semanas de uma forma que qualquer método disponível consiga separar do ruído. **Medir todo mês produz custo, ilusão de precisão e ansiedade** — e nenhuma dessas três coisas é conduta.
-
-E um critério que vale para ler qualquer mudança: **uma diferença só é real se for maior do que o erro do método naquela pessoa, naquele serviço.** Uma queda de um ponto percentual na bioimpedância, com um erro de três pontos, **não é resultado. É variação.** Dizer isso em voz alta é honesto e reduz a reatividade ao número.
+E há um ganho clínico nessa escolha: o número bruto pesa menos. "Seu somatório foi de sessenta e oito para sessenta e um" informa. "Você está com dezoito por cento de gordura" é uma frase que a pessoa vai comparar com a internet naquela noite.
 
 ---
 
-📊 **[SLIDE 5 DE 7]**
-*Visual: decisão três — uma curva em U de desempenho e saúde em função da gordura corporal, com uma faixa larga no meio e as duas pontas em vermelho. Uma seta aponta para a ponta da esquerda: "a meta errada mora aqui".*
-*Teleprompter: (decisão três — a meta, e onde ela erra)*
+📊 **[SLIDE 5 DE 10]**
+*Visual: lista de padronização em seis itens. Ao lado, um calendário com marcas a cada doze semanas. Embaixo, a régua: "diferença real = maior que o erro do método".*
+*Teleprompter: (se for medir, medir direito)*
 
-**Decisão três: a meta.** E é aqui que mora o risco que dá nome à aula.
+Se for medir, meça direito. A padronização é o que separa uma série de medidas de uma coleção de números soltos.
 
-A meta errada de composição corporal quase nunca é "gordura demais". **Quase sempre é "gordura de menos".** E ela chega por três portas.
+Mesmo horário, de preferência pela manhã. Mesmo jejum, ou o mesmo padrão alimentar. Hidratação habitual, nunca depois de treino ou sauna. Sem treino intenso no dia anterior. Mesma fase do ciclo menstrual, em quem menstrua. Mesmo avaliador e mesmo aparelho.
 
-**Primeira porta: a foto.** O percentual de um atleta de elite, de um fisiculturista em dia de competição, de alguém da internet. **Esses números existem por poucos dias, em pessoas selecionadas, e muitas vezes à custa de saúde.** Não são um estado de repouso para ninguém.
+E anote as condições junto do resultado. Um relatório sem hora, sem jejum e sem tempo desde o último treino não se compara com o próximo.
 
-**Segunda porta: a crença de que menos gordura é sempre mais desempenho.** Até um ponto, em alguns esportes, é. **Depois desse ponto, a curva vira.** A energia que falta aparece como treino pior, recuperação pior, lesão, ciclo menstrual que some, osso que fica frágil. **É a baixa disponibilidade energética da aula 4.1, e o quadro clínico completo da deficiência energética relativa no esporte está na aula 11.5.**
+A frequência: na maior parte dos casos, não mais do que a cada doze semanas. Composição corporal não muda em duas semanas de um jeito que qualquer método disponível separe do ruído. Medir todo mês produz custo, ilusão de precisão e ansiedade. Nenhuma das três é conduta.
 
-**Terceira porta: a meta definida pelo método.** A bioimpedância deu vinte e dois por cento, e a meta vira "chegar a quinze". **Mas o número de partida já tinha três pontos de erro para cada lado.** A meta foi construída sobre ruído.
-
-Então, qual é a meta certa?
-
-**Na maior parte das pessoas que treinam por saúde, a meta não deveria ser um número de composição corporal.** Deveria ser **comportamento e função**: treinar com regularidade, ficar mais forte, correr melhor, dormir melhor, manter a cintura numa faixa de menor risco. **A composição corporal vem como consequência**, e é acompanhada — se for — como informação, não como alvo.
-
-**Quando existe indicação para meta numérica** — esporte de categoria de peso, obesidade em tratamento —, ela precisa de quatro coisas. **Uma faixa, não um ponto. Um prazo realista. Um ritmo seguro. E critérios de saúde que interrompem o processo** se aparecerem.
-
-E sobre o ritmo, existe um estudo que vale conhecer. **Garthe e colaboradores, em 2011**, randomizaram atletas de elite que precisavam perder peso, todos fazendo treino de força, para dois ritmos: **cerca de 0,7 por cento do peso por semana, ou cerca de 1,4 por cento.** O grupo mais lento **ganhou massa magra e força durante o processo.** O mais rápido, **não ganhou massa magra.** **Mais devagar preservou mais do que importava.**
-
-Para uma pessoa de setenta quilos, 0,7 por cento por semana são **cerca de quinhentos gramas.** É menos do que a maior parte das pessoas quer ouvir — **e é mais do que a maior parte consegue sustentar sem perder o que não deveria.**
-
-E os critérios que interrompem? **Queda de desempenho que não se explica pelo treino. Ciclo menstrual que muda ou some. Lesão por estresse ósseo. Humor, sono e libido piorando. Pensamento sobre comida ocupando o dia.** Qualquer um deles é motivo para parar e reavaliar — **não para ajustar a meta e seguir.**
+E o critério para ler qualquer mudança: uma diferença só é real se for maior do que o erro do método, naquela pessoa, naquele serviço. Uma queda de um ponto na bioimpedância, num método que erra vários pontos, não é resultado. É variação. Dizer isso em voz alta é honesto, e reduz a reatividade ao número.
 
 ---
 
-📊 **[SLIDE 6 DE 7]**
-*Visual: duas pessoas sentadas de lado, o relatório fechado sobre a mesa. Quatro regras de linguagem escritas num cartão: sem adjetivo · sem elogio automático · o erro em voz alta · ancorar no que importa.*
+📊 **[SLIDE 6 DE 10]**
+*Visual: decisão três. Uma curva em U invertido de desempenho e saúde em função da gordura corporal, com uma faixa larga no meio e as duas pontas em vermelho. Uma seta aponta a ponta da esquerda: "a meta errada mora aqui". Esquema, sem valores medidos. Três portas embaixo: a foto, a crença, o método.*
+*Teleprompter: (decisão três: onde a meta erra)*
+
+Decisão três: a meta. E é aqui que mora o risco.
+
+A meta errada de composição corporal quase nunca é gordura demais. Quase sempre é gordura de menos. E ela chega por três portas.
+
+A primeira porta é a foto. O percentual de um atleta de elite, de um fisiculturista em dia de competição, de alguém da internet. Esses números existem por poucos dias, em pessoas selecionadas, e muitas vezes à custa de saúde. Não são um estado de repouso para ninguém.
+
+A segunda porta é a crença de que menos gordura é sempre mais desempenho. Até um ponto, em alguns esportes, é. Depois desse ponto, a curva vira. A energia que falta aparece como treino pior, recuperação pior, lesão, ciclo menstrual que some, osso que fica frágil. É a baixa disponibilidade energética da primeira aula do módulo. O quadro clínico completo da deficiência energética relativa no esporte fica para o módulo da atleta mulher.
+
+A terceira porta é a meta definida pelo método. A bioimpedância deu vinte e dois por cento, e a meta vira chegar a quinze. Mas o número de partida já tinha vários pontos de erro para cada lado. A meta foi construída sobre ruído.
+
+Então, qual é a meta certa? Na maior parte de quem treina por saúde, a meta não deveria ser um número de composição corporal. Deveria ser comportamento e função: treinar com regularidade, ficar mais forte, correr melhor, dormir melhor, manter a cintura numa faixa de menor risco. A composição vem como consequência.
+
+---
+
+📊 **[SLIDE 7 DE 10]**
+*Visual: dois grupos de atletas de elite, todos com quatro sessões de força por semana. À esquerda, "0,7% do peso por semana": massa magra +2,1%. À direita, "1,4% por semana": massa magra sem mudança. Embaixo, a conta para setenta quilos e os critérios que interrompem.*
+*Teleprompter: (quando a meta é numérica: o ritmo e os freios)*
+
+Quando existe indicação para meta numérica, como em categoria de peso ou em obesidade em tratamento, ela precisa de quatro coisas. Uma faixa, não um ponto. Um prazo realista. Um ritmo seguro. E critérios de saúde que interrompem o processo.
+
+Sobre o ritmo, um estudo que vale conhecer. Garthe e colaboradores, em 2011, randomizaram vinte e quatro atletas de elite que precisavam perder peso, todos com quatro sessões de força por semana, para dois ritmos: cerca de 0,7 por cento do peso por semana, ou cerca de 1,4. Os dois grupos perderam uma proporção parecida de peso. O mais lento ganhou em torno de dois por cento de massa magra no processo. O mais rápido não ganhou.
+
+Mais devagar preservou mais do que importava.
+
+A conta, para setenta quilos: 0,7 por cento por semana é cerca de quinhentos gramas. É menos do que a maior parte das pessoas quer ouvir. E é mais do que a maior parte consegue sustentar sem perder o que não deveria.
+
+E os critérios que interrompem. Queda de desempenho que o treino não explica. Ciclo menstrual que muda ou some. Lesão por estresse ósseo. Humor, sono e libido piorando. Pensamento sobre comida ocupando o dia. Qualquer um deles é motivo para parar e reavaliar. Não para ajustar a meta e seguir.
+
+---
+
+📊 **[SLIDE 8 DE 10]**
+*Visual: quatro regras de linguagem em cartões: sem adjetivo; sem elogio automático; o erro em voz alta; ancorar no que importa.*
 *Teleprompter: (como devolver o número sem causar dano)*
 
-Se a decisão foi medir, falta a parte que quase nenhum curso ensina: **como devolver o número.**
+Se a decisão foi medir, falta a parte que quase nenhum curso ensina: como devolver o número. Quatro regras de linguagem.
 
-**Quatro regras de linguagem.**
+Um: não use adjetivo. Não é alto, não é ruim, não é ótimo. É um número com contexto e com margem.
 
-**Um: não use adjetivo.** Não é "alto", não é "ruim", não é "ótimo". **É um número com contexto e com margem.**
+Dois: não elogie a redução automaticamente. Você não sabe, antes de perguntar, o que produziu aquela redução. Elogiar uma perda que veio de restrição é reforçar exatamente o comportamento que a gente quer interromper.
 
-**Dois: não elogie a redução automaticamente.** Você não sabe, antes de perguntar, o que produziu aquela redução. **Elogiar uma perda que veio de restrição é reforçar exatamente o comportamento que a gente quer interromper** — e é um dos erros mais caros deste curso.
+Três: diga o erro do método em voz alta. "Esse método tem uma margem, e uma diferença pequena pode ser só variação."
 
-**Três: diga o erro do método em voz alta.** "Esse método tem uma margem; uma diferença pequena pode ser só variação." **Isso é honesto e diminui a reatividade.**
+Quatro: ancore no que interessa, que quase nunca é o percentual. A força que subiu. O desempenho que melhorou. O sintoma que sumiu. O ciclo que voltou.
 
-**Quatro: ancore no que interessa** — que quase nunca é o percentual. Força que subiu. Desempenho que melhorou. Sintoma que sumiu. Ciclo que voltou.
+Uma frase-modelo: "Seu somatório de dobras está praticamente igual ao de três meses atrás, dentro da margem do método. O que mudou foi o teste de levantar da cadeira. Você está mais forte com o mesmo peso, e era isso que a gente procurava."
 
-Um exemplo de frase que funciona: **"O seu somatório de dobras está praticamente igual ao de três meses atrás, dentro da margem do método. O que mudou foi o teste de levantar da cadeira, que foi de doze para dezoito repetições. Você está mais forte com o mesmo peso — e era isso que a gente estava procurando."**
+E quando a pessoa pede o percentual e você decidiu que ele não ajuda, dá para dizer isso sem esconder nada: "Eu tenho o número e posso te mostrar. Mas não acho que ele responda à sua pergunta. O que responde é isto aqui." Recusar a métrica errada não é recusar informação. É escolher a informação que ajuda.
 
-Mesma consulta, mesmo resultado, informação completa. **E ninguém saiu dali com vontade de pular o jantar.**
-
-E, quando a pessoa pede o percentual e você decidiu que ele não ajuda, **dá para dizer isso com clareza e sem esconder nada**: "Eu tenho o número, e posso te mostrar. Mas eu não acho que ele responda à sua pergunta, por estes motivos. **O que responde é isto aqui.**" Recusar a métrica errada não é recusar informação. **É escolher a informação que ajuda.**
-
-Um cuidado final de equipe: **o número tem que ser o mesmo, e a frase tem que ser parecida, em todas as salas.** Se o educador físico elogia a perda de peso que o nutricionista está tentando frear, **a pessoa escolhe a frase que quer ouvir.** Combinar a linguagem antes é parte da conduta.
+Um cuidado de equipe: o número tem que ser o mesmo, e a frase parecida, em todas as salas. Se o educador físico elogia a perda de peso que o nutricionista está tentando frear, a pessoa escolhe a frase que quer ouvir.
 
 ---
 
-📊 **[SLIDE 7 DE 7]**
-*Visual: três pessoas lado a lado — uma lutadora, uma mulher de meia-idade com uma caneta de medicação, um rapaz com um papel de bioimpedância de academia — cada uma com as três decisões marcadas.*
-*Teleprompter: (as três decisões aplicadas a três pessoas)*
+📊 **[SLIDE 9 DE 10]**
+*Visual: tabela com três perfis típicos nas linhas (a lutadora em corte, a pessoa em medicação para obesidade, o rapaz com o papel da academia) e as três decisões nas colunas.*
+*Teleprompter: (as três decisões aplicadas a três perfis)*
 
-Três pessoas. As três decisões aplicadas.
+Três perfis típicos. As três decisões aplicadas.
 
-**A primeira: uma judoca de 19 anos que quer descer de categoria**, perdendo quatro quilos em seis semanas até uma competição. **Pesa sessenta e dois quilos.**
+A lutadora que quer descer de categoria: sessenta e dois quilos, quatro quilos a perder em seis semanas. Medir? Sim, é categoria de peso. Mas antes, a triagem da coluna da direita: história de restrição, ciclo, cortes agressivos anteriores. Se alguma luz acender, a medida espera. Com o quê? Dobras com avaliador treinado, ou DXA com protocolo, em milímetros e quilos. A meta: quatro quilos em seis semanas é cerca de 1,1 por cento por semana, acima do ritmo que preservou massa magra no estudo de Garthe. A conversa honesta é sobre prazo. Planejar a descida para a competição seguinte, com dez a doze semanas, ou aceitar um ritmo que custa desempenho. A decisão é da atleta, com técnico, nutricionista e médico, sabendo o custo.
 
-**Decisão um: medir?** Sim — é categoria de peso, e a pergunta "existe margem para perder sem perder massa magra?" muda a conduta. **Mas antes, a triagem da coluna da direita:** ela tem história de restrição? Ciclo regular? Já fez corte agressivo antes? **Se alguma dessas respostas acender a luz, a medida espera.**
+E o atalho que precisa ser nomeado nas lutas: perder o que falta por desidratação nos dias antes da pesagem. Sauna, roupa plástica, restrição de líquido, às vezes diurético. Isso não é composição corporal, é água. Tem risco real, com mortes registradas no esporte. Não é conduta, e ninguém da equipe ensina como fazer. Se ela já faz, é assunto médico e conversa franca com o técnico.
 
-**Decisão dois: com o quê?** Dobras cutâneas com avaliador treinado, ou DXA se houver acesso com protocolo. **Somatório em milímetros e massa magra em quilos, não percentual.**
+A pessoa em medicação para obesidade, perdendo cerca de um quilo por semana há meses, feliz com a balança, mas com a força para subir escadas piorando. Medir? Sim: é restrição com risco de perder massa magra. Com o quê? DXA, se houver, para ver massa magra por região, e junto um teste de função, como levantar da cadeira ou força de preensão. Sem DXA, o teste de função já responde o mais importante. A meta muda de perder peso para perder gordura preservando músculo: carga de força com o educador físico, proteína distribuída como na aula de proteína, e conversa com o médico sobre o ritmo.
 
-**Decisão três: a meta.** Quatro quilos em seis semanas são **cerca de 1,1 por cento por semana** — acima do ritmo que preservou massa magra no estudo de Garthe. **A conversa honesta é sobre prazo:** subir a categoria nesta competição e planejar a descida para a próxima, com dez a doze semanas, ou aceitar um ritmo que custa desempenho. **Essa decisão é da atleta, com o técnico, o nutricionista e o médico** — mas ela precisa tomar sabendo o custo.
+O rapaz que chega com um papel de bioimpedância da academia marcando trinta e dois por cento e quer começar um corte agressivo. Na conversa, conta que já passou meses comendo uma vez por dia, que se pesa todo dia e que sente culpa quando come fora do plano. Medir? Não. Ele está inteiro na coluna da direita. O papel que ele trouxe vem de um aparelho sem padronização conhecida. O número que está assustando ele pode não existir. A meta deixa de ser corporal: treinar com regularidade, comer em horários previsíveis e cuidar da relação com a comida. O psicólogo entra junto com o médico, e os sinais que ele mostrou são o assunto da última aula do módulo.
 
-E existe o atalho que precisa ser nomeado, porque é comum nas lutas: **perder os quilos que faltam por desidratação nos dias anteriores à pesagem** — sauna, roupa plástica, restrição de líquido, cuspir, às vezes diurético ou laxante. **Isso não é composição corporal, é água, e tem risco real**: queda de desempenho, doença do calor, lesão renal, e mortes já registradas no esporte. **Não é conduta, e nenhum profissional da equipe deveria ensinar como fazer.** Se ela já faz, **é assunto médico, e é uma conversa franca com o técnico.**
+Na lutadora, medir era útil e a meta precisava de prazo. Na pessoa em medicação, medir era necessário e a meta precisava mudar. No rapaz, medir era o risco.
 
-**A segunda: uma mulher de 52 anos, em uso de medicação para obesidade**, perdendo cerca de um quilo por semana há três meses. Está feliz com a balança. **Mas a força para subir escadas piorou.**
+---
 
-**Decisão um: medir?** Sim — **é o contexto de restrição com risco de perda de massa magra.** A pergunta "o que eu estou perdendo?" tem consequência direta.
+📊 **[SLIDE 10 DE 10]**
+*Visual: as três regras da aula e cinco cartões de equipe.*
+*Teleprompter: (quem faz o quê, e a regra para todos)*
 
-**Decisão dois: com o quê?** **DXA, se houver acesso**, para ver massa magra por região. **E, junto, um teste de função**: levantar da cadeira, força de preensão. **Se não houver DXA, o teste de função já responde à pergunta mais importante.**
+Quem faz o quê.
 
-**Decisão três: a meta** muda de "perder peso" para **"perder gordura preservando músculo."** Isso significa **carga de força com o educador físico**, **proteína distribuída como na aula 4.5**, e uma conversa com o médico sobre o ritmo. **A balança passa a ser o segundo número, não o primeiro.**
+Medir, quando indicado, pode ser do nutricionista, do educador físico ou do médico, desde que com método e protocolo. Definir meta de composição corporal e o plano alimentar para chegar lá é do nutricionista. O programa de carga, que decide se o que se perde é gordura ou músculo, é do educador físico. Medicação para obesidade, avaliação de sarcopenia e interrupção por critério clínico são do médico. E quando o número dispara restrição, o psicólogo entra junto com o médico.
 
-**O terceiro: um rapaz de 23 anos que chega com um papel de bioimpedância da academia: "trinta e dois por cento de gordura".** Quer começar um corte agressivo. Na conversa, conta que já ficou meses comendo uma refeição por dia, que se pesa todo dia e que se sente culpado quando come fora do plano.
+A regra que vale para todos: só meça quando houver decisão. Devolva sem adjetivo. E desconfie da meta que só olha para baixo.
 
-**Decisão um: medir?** **Não.** Ele está inteiro na coluna da direita: **relação alterada com comida e corpo, história de restrição.** Medir de novo não ajuda, e pode piorar.
-
-**Decisão dois** não se aplica. Mas vale uma frase sobre o papel que ele trouxe: **bioimpedância de academia, sem padronização conhecida, com um erro que pode passar de três pontos para cada lado.** **O número que está assustando ele pode não existir.**
-
-**Decisão três: a meta** deixa de ser corporal. Passa a ser **treinar com regularidade, comer em horários previsíveis e, principalmente, cuidar da relação com a comida.** E aqui a conduta é de equipe: **o psicólogo entra junto com o médico**, e o que fazer com os sinais que ele mostrou é exatamente a aula **4.12**.
-
-**Três pessoas, três respostas diferentes para a mesma pergunta.** **Na primeira, medir era útil e a meta precisava de prazo. Na segunda, medir era necessário e a meta precisava mudar. No terceiro, medir era o risco.**
-
-O escopo. **Medir, quando indicado, pode ser do nutricionista, do educador físico ou do médico — desde que com método e protocolo.** **Definir meta de composição corporal e plano alimentar para chegar lá é do nutricionista.** **O programa de carga, que decide se o que se perde é gordura ou músculo, é do educador físico.** **Medicação para obesidade, avaliação de sarcopenia e interrupção por critério clínico são do médico.** **E, quando o número dispara comportamento de restrição, o psicólogo entra junto com o médico.** A regra que vale para todos: **só meça quando houver decisão; devolva sem adjetivo; e desconfie da meta que só olha para baixo.**
-
-Na próxima aula, **4.10**, a nutrição sai da semana e vai para o dia que mais importa: **o dia de competição.**
+Na próxima aula, a nutrição sai da semana e vai para o dia que mais importa: o dia de competição.
 
 ---
 
@@ -229,64 +203,37 @@ Na próxima aula, **4.10**, a nutrição sai da semana e vai para o dia que mais
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — A medida que pode machucar
-· **O número muda comportamento antes de mudar conduta** — corta-se comida na mesma tarde
-· Três decisões: **medir? · com o quê? · para chegar aonde?**
-· Antes delas: **o que a pessoa quer saber?** — "estou perdendo músculo?" (força) · "está funcionando?" (desempenho) · "estou bem?" (não é sobre gordura)
-· Aula 3.11: **perder peso ≠ perder gordura**; balança doméstica não acompanha mudança
-Visual: o relatório com 22,4% e as três perguntas.
+**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de sete blocos longos; a
+duração caiu de 29 para cerca de 23 minutos. Arquitetura DECISÃO mantida (a anterior é NÚMERO; a
+próxima é PROCEDIMENTO). Sem caso clínico: a judoca de 19 anos, a mulher de 52 em medicação para
+obesidade e o rapaz de 23 com bioimpedância viraram "três perfis típicos", sem idade.
 
-**Slide 2** — Decisão 1: medir ou não
-· **Só meça se houver decisão dependendo do número** — resultado alto e baixo com a mesma conduta = não meça
-· **Indicação**: categoria de peso · restrição com risco de perder massa magra (dieta, cirurgia, medicação) · recomposição no treino de força · doença (sarcopenia: 12.7/12.8)
-· **Não medir de rotina**: transtorno alimentar · relação alterada com corpo e comida (4.12) · adolescente · baixa disponibilidade energética
-· **Quando as duas colunas se cruzam, a da direita vence**
-Visual: as duas colunas.
+**Números conferidos.** Garthe 2011: 24 atletas de elite (13 no ritmo lento, 11 no rápido), quatro
+sessões de força por semana; perda de peso de ~5,5% nos dois; massa magra +2,1% no ritmo de 0,7%/semana
+e sem mudança no de 1,4%. Ackland 2012: posicionamento do grupo de trabalho da comissão médica do COI.
+Nana 2015: protocolo de DXA padronizado (jejum noturno, repouso, pouca roupa, posicionamento).
 
-**Slide 3** — Decisão 2: o método
-· **Ackland, 2012 (COI)**: **não existe padrão-ouro universal**; referência de pesquisa = 4 compartimentos
-· **Bioimpedância**: depende de **água** — erro pode superar a mudança de 3 meses
-· **Dobras**: depende de **quem mede** — ISAK, mesmo avaliador
-· **DXA**: boa, **depende de protocolo** (Nana, 2015); aparelhos diferentes não formam série; separa **massa magra por região**
-· **Cintura**: risco cardiometabólico, barata, erro pequeno
-· **IMC**: população, não indivíduo — esconde o musculoso e o sarcopênico
-· A massa livre de gordura da **disponibilidade energética** carrega o erro do método (4.2) — **faixa, não ponto**
-Visual: os quatro métodos com o erro desenhado.
+**Contas feitas na aula.** Percentual como razão: 70 kg com 14 kg de gordura (20%); +2 kg de massa
+magra → 72 kg, 19,4%; −1 kg de gordura e −4 kg de massa magra → 65 kg, 20,0%. Lutadora: 4 kg em 6
+semanas a partir de 62 kg ≈ 1,1% por semana. 0,7% de 70 kg ≈ 490 g.
 
-**Slide 4** — Medido x calculado, e como acompanhar
-· **Acompanhe 68 mm, não 18,2%** — o medido engana menos
-· DXA: **massa magra e massa gorda em kg**, não percentual
-· **O percentual é uma razão** — melhora no cenário ótimo e no ruim
-· Padronização: **horário · jejum · hidratação · sem treino intenso em 24 h · fase do ciclo · mesmo avaliador e aparelho · condições anotadas**
-· **A cada ≥ 12 semanas**
-· **Mudança real = maior que o erro do método**
-Visual: a seta com o X e o calendário.
+**Correções.**
+- "Erro de três pontos para cada lado" na bioimpedância saiu, por não ter fonte conferida; ficou
+  "vários pontos" e o critério geral (diferença maior que o erro do método naquele serviço).
+- A frase atribuída a Ackland ("não existe método padrão-ouro universalmente aplicável") virou uma
+  paráfrase do documento, sem aspas.
+- A frase-modelo de devolução perdeu os números inventados do teste de cadeira (12 para 18).
 
-**Slide 5** — Decisão 3: a meta errada
-· A meta errada quase sempre é **gordura de menos** — três portas: **a foto · "menos é sempre melhor" · a meta definida pelo método**
-· Abaixo do ponto, **a curva vira**: treino, recuperação, lesão, ciclo, osso (4.1 · 11.5)
-· Na saúde: meta de **comportamento e função**, composição como consequência
-· Meta numérica: **faixa · prazo · ritmo · critérios de interrupção**
-· **Garthe, 2011**: **~0,7%/semana** ganhou massa magra e força; **~1,4%** não ganhou massa magra
-· 70 kg × 0,7% ≈ **500 g/semana**
-· Interrompe: desempenho cai · ciclo muda · estresse ósseo · humor, sono, libido · **comida ocupando o dia**
-Visual: a curva em U com a ponta esquerda marcada.
+**Saíram.** "Aula 3.11", "aula 4.2", "aula 4.1", "aula 4.5", "aula 4.12", "aula 4.10", "aula 11.5",
+"aulas 12.7 e 12.8", "o escopo", as idades, "cuspir" e "laxante" da lista do corte de peso, o bloco
+"Roteiro Gamma".
 
-**Slide 6** — Como devolver o número
-· **Sem adjetivo · sem elogio automático · o erro em voz alta · ancorar no que importa**
-· *"Somatório igual, dentro da margem. A cadeira foi de 12 para 18. Você está mais forte com o mesmo peso."*
-· Recusar a métrica errada **não é esconder informação**
-· **Mesma frase em todas as salas** — combinar a linguagem é conduta
-Visual: o relatório fechado e o cartão com as quatro regras.
+**Citações faladas.** Ackland; Nana; Garthe.
 
-**Slide 7** — Três pessoas, três decisões
-· **Judoca, 19 anos, −4 kg em 6 semanas**: medir sim (após triagem) · dobras ou DXA · **~1,1%/semana — a conversa é sobre prazo**
-· **Desidratação para a pesagem** (sauna, plástico, diurético): **não é composição corporal, é risco** — assunto médico
-· **Mulher, 52 anos, medicação para obesidade, −1 kg/semana, força caindo**: medir sim · DXA + teste de função · meta vira **perder gordura preservando músculo** — carga + proteína (4.5)
-· **Rapaz, 23 anos, "32%" de academia, restrição e culpa**: **não medir** · o número pode não existir · psicólogo com médico (4.12)
-· **Útil · necessário · risco**
-· Escopo: medir = quem tiver método e protocolo · meta e plano alimentar = **nutricionista** · carga = **educador físico** · medicação, sarcopenia, interrupção = **médico** · restrição disparada = **psicólogo com médico**
-· Próxima aula: **4.10 — dia de competição**
-Visual: as três pessoas com as decisões marcadas.
+**Ligações internas.** balança e bioimpedância doméstica = aula de insulina e composição corporal do
+módulo de endocrinologia · massa livre de gordura na conta = aula de estimativa da disponibilidade
+energética · baixa disponibilidade = primeira aula do módulo · deficiência energética relativa =
+módulo da atleta mulher · proteína = aula de proteína · vocabulário moral e encaminhamento = última
+aula do módulo · dia de competição = próxima aula.

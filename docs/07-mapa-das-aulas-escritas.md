@@ -125,14 +125,14 @@ típicos, sem pessoa.
 | 4.4 | Periodização de carboidrato | 13 | 10 | DECISÃO | [slides](https://claude.ai/artifact/1x6kVBd2Y4ggVRQ5iyeSAK) |
 | 4.5 | Proteína no praticante de exercício | 16 | 10 | NÚMERO | [slides](https://claude.ai/artifact/26zRBhkn5gWvjEPfQquTUH) |
 | 4.6 | Lipídios na nutrição esportiva | 13 | 9 | ERRO | [slides](https://claude.ai/artifact/MkfTLcFqWcksD3s1rNkHTf) |
+| 4.7 | Micronutrientes no praticante de exercício | 13 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/XfbzmeXdJ53vQFBFVgobnn) |
+| 4.8 | Hidratação no exercício | 18 | 10 | NÚMERO | [slides](https://claude.ai/artifact/QSia1kVTZKNsvtVAGBZ1ac) |
+| 4.9 | Composição corporal no praticante de exercício | 23 | 10 | DECISÃO | [slides](https://claude.ai/artifact/LkcQEtJ61X8CdgckNHkk5S) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 4.7 | Micronutrientes e deficiências prevalentes | M5-A04 + M5-A05 | FUNDIR |
-| 4.8 | Hidratação e reposição hidroeletrolítica | M19-A06 | PRONTA |
-| 4.9 | Composição corporal: métodos, metas e o risco da meta errada | M6-A08 | PARCIAL |
 | 4.10 | Nutrição em dia de competição | — | NOVA |
 | 4.11 | Nutrição em viagem e recuperação pós-jogo | M19-A07 parcial | PARCIAL |
 | 4.12 | Alimentação desordenada: sinais, rastreio e encaminhamento | M11-A05 + M12-A08 | FUNDIR |

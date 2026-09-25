@@ -1,0 +1,448 @@
+{
+ "arquivo": "aulas/MOD04/04-07-micronutrientes-e-deficiencias-prevalentes.md",
+ "modulo": "Nutrição Esportiva",
+ "tema": "petroleo",
+ "titulo": "Micronutrientes no praticante de exercício",
+ "subtitulo": "Grupos de risco e avaliação dirigida",
+ "nota_capa": "Entra pelos dois pedidos: o painel e a adolescente.",
+ "secoes": {
+  "quem": [
+   "Os dois pedidos e quem está em risco.",
+   "capa"
+  ],
+  "come": [
+   "O que come: ferro e cálcio no prato.",
+   "come"
+  ],
+  "sente": [
+   "O que sente e para onde vai.",
+   "sente"
+  ]
+ },
+ "slides": [
+  {
+   "id": "pedidos",
+   "tipo": "duas",
+   "eyebrow": "Dois pedidos típicos",
+   "titulo": "Um painel sem risco, um risco sem painel",
+   "esq": {
+    "t": "O adulto do painel",
+    "cor": "ambar",
+    "itens": [
+     "quer dosar trinta micronutrientes",
+     "multivitamínico por conta própria",
+     "come bem, não exclui nada"
+    ]
+   },
+   "dir": {
+    "t": "A adolescente cansada",
+    "cor": "verm",
+    "itens": [
+     "nada dois períodos por dia, em crescimento",
+     "não come carne vermelha",
+     "evita leite “porque incha”"
+    ]
+   },
+   "destaque": "Thomas, Erdman e Burke, 2016: o risco está em quem restringe energia, perde peso de forma agressiva ou exclui grupos de alimentos.",
+   "destaque_cor": "petr",
+   "fonte": "Medicine and Science in Sports and Exercise 2016"
+  },
+  {
+   "id": "passos",
+   "tipo": "diagrama",
+   "h": 220,
+   "svg": "<svg aria-label=\"Procedimento em quatro passos: quem é, o que come, o que sente, para onde vai\" width=\"1664\" height=\"220\" viewBox=\"0 0 1664 220\"><defs><marker id=\"q1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"360\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"366\" y1=\"110\" x2=\"410\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#q1)\"/><rect x=\"420\" y=\"40\" width=\"360\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"786\" y1=\"110\" x2=\"830\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#q1)\"/><rect x=\"840\" y=\"40\" width=\"360\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1206\" y1=\"110\" x2=\"1250\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#q1)\"/><rect x=\"1260\" y=\"40\" width=\"360\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 64,
+     "w": 360,
+     "t": "1",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 116,
+     "w": 360,
+     "t": "quem é",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 64,
+     "w": 360,
+     "t": "2",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 116,
+     "w": 360,
+     "t": "o que come",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 64,
+     "w": 360,
+     "t": "3",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 116,
+     "w": 360,
+     "t": "o que sente",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 64,
+     "w": 360,
+     "t": "4",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 116,
+     "w": 360,
+     "t": "para onde vai",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O procedimento",
+   "titulo": "Não começa pelo exame",
+   "destaque": "Fronteiras: vitamina D e osso tiveram aula própria; anemia e ferro, com diagnóstico e tratamento, ficam para o módulo de medicina esportiva clínica. Aqui: quem está em risco, e o que a comida resolve.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "quem",
+   "tipo": "tabela",
+   "eyebrow": "Passo um · quem é",
+   "titulo": "Onde as deficiências se concentram",
+   "cab": [
+    "Grupo",
+    "Ferro",
+    "Cálcio",
+    "Vit. D",
+    "B12",
+    "Iodo"
+   ],
+   "larguras": [
+    40,
+    12,
+    12,
+    12,
+    12,
+    12
+   ],
+   "linhas": [
+    [
+     "Mulher que menstrua",
+     "●",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Adolescente em crescimento",
+     "●",
+     "●",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Atleta de resistência",
+     "●",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Restrição de energia ou corte",
+     "●",
+     "●",
+     "●",
+     "",
+     ""
+    ],
+    [
+     "Exclusão de grupos (vegano)",
+     "●",
+     "●",
+     "●",
+     "●",
+     "●"
+    ],
+    [
+     "Doador de sangue frequente",
+     "●",
+     "",
+     "",
+     "",
+     ""
+    ]
+   ],
+   "destaque": "A adolescente cruza quase todas as linhas. O adulto do painel não cruza nenhuma.",
+   "destaque_cor": "petr",
+   "fonte": "Pontos de atenção principais por grupo, conforme a aula"
+  },
+  {
+   "id": "hepcidina",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Hepcidina subindo depois de uma sessão intensa, com pico por volta de três a seis horas, período em que a absorção de ferro diminui\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><line x1=\"40.0\" y1=\"260\" x2=\"40.0\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"438.5\" y1=\"260\" x2=\"438.5\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"837.0\" y1=\"260\" x2=\"837.0\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"260\" x2=\"1634.0\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"438\" y=\"20\" width=\"398\" height=\"240\" fill=\"#F3E1DE\"/><line x1=\"40\" y1=\"260\" x2=\"1634\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,207.6 73.2,204.3 106.4,200.0 139.6,194.6 172.8,187.9 206.0,179.8 239.2,170.3 272.5,159.3 305.7,147.1 338.9,133.8 372.1,119.8 405.3,105.4 438.5,91.2 471.7,77.8 504.9,65.8 538.1,55.8 571.3,48.2 604.5,43.4 637.8,41.8 671.0,43.4 704.2,48.2 737.4,55.8 770.6,65.8 803.8,77.8 837.0,91.2 870.2,105.4 903.4,119.8 936.6,133.8 969.8,147.1 1003.0,159.3 1036.2,170.3 1069.5,179.8 1102.7,187.9 1135.9,194.6 1169.1,200.0 1202.3,204.3 1235.5,207.6 1268.7,210.2 1301.9,212.0 1335.1,213.4 1368.3,214.4 1401.5,215.1 1434.8,215.5 1468.0,215.8 1501.2,216.0 1534.4,216.2 1567.6,216.2 1600.8,216.3 1634.0,216.3\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 276,
+     "w": 160,
+     "t": "fim da sessão",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 358,
+     "y": 276,
+     "w": 160,
+     "t": "3 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 757,
+     "y": 276,
+     "w": 160,
+     "t": "6 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1554,
+     "y": 276,
+     "w": 160,
+     "t": "12 h",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 40,
+     "w": 300,
+     "t": "hepcidina",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 110,
+     "w": 620,
+     "t": "absorção de ferro menor enquanto ela está alta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Sim e colaboradores, 2019",
+   "titulo": "Por que o exercício pesa no ferro",
+   "destaque": "Dois treinos duros por dia: muitas horas com a porta de absorção meio fechada. A refeição mais rica em ferro rende mais longe desse pico.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos · European Journal of Applied Physiology 2019"
+  },
+  {
+   "id": "vegano",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Rogerson, 2017",
+   "titulo": "O vegano muda a lista",
+   "cards": [
+    {
+     "t": "B12",
+     "x": "não há fonte vegetal confiável: suplementar é parte da dieta",
+     "cor": "verm"
+    },
+    {
+     "t": "Pontos de atenção",
+     "x": "ferro, zinco, cálcio, iodo, vitamina D e ômega-3 de cadeia longa",
+     "cor": "ambar"
+    },
+    {
+     "t": "A nota brasileira do iodo",
+     "x": "o sal comum é iodado; alguns sais “gourmet” não; leia o rótulo",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Uma dieta vegana bem planejada atende a maior parte dos atletas, com manejo de alimentos e suplementação adequada.",
+   "destaque_cor": "petr",
+   "fonte": "Journal of the International Society of Sports Nutrition 2017"
+  },
+  {
+   "id": "come",
+   "tipo": "lista",
+   "eyebrow": "Passo dois · o que come",
+   "titulo": "Quatro perguntas sobre o padrão",
+   "itens": [
+    {
+     "t": "Come energia suficiente?",
+     "x": "se não, esse é o problema principal",
+     "cor": "verm"
+    },
+    {
+     "t": "O que foi excluído, e por quê?",
+     "x": "ética é uma coisa; medo é outra conversa",
+     "cor": "ambar"
+    },
+    {
+     "t": "De onde vem o ferro?",
+     "x": "heme ou não heme, e o que vem junto",
+     "cor": "petr"
+    },
+    {
+     "t": "De onde vem o cálcio?",
+     "x": "e qual é a rota de quem cortou laticínio",
+     "cor": "petr"
+    }
+   ],
+   "gap_itens": 22
+  },
+  {
+   "id": "prato",
+   "tipo": "duas",
+   "eyebrow": "Onde a comida mais resolve",
+   "titulo": "Ferro e cálcio no prato",
+   "esq": {
+    "t": "Ferro",
+    "cor": "verm",
+    "itens": [
+     "heme (carnes): bem absorvido",
+     "não heme (feijão, folhas, fortificados): bem menos",
+     "vitamina C junto aumenta",
+     "café, chá e cálcio junto reduzem: afastar uma hora"
+    ]
+   },
+   "dir": {
+    "t": "Cálcio",
+    "cor": "petr",
+    "itens": [
+     "cerca de 1.000 mg/dia no adulto; mais no adolescente",
+     "copo de leite ou iogurte: perto de 300 mg",
+     "sem laticínio: bebida fortificada, tofu, sardinha, folhas"
+    ]
+   },
+   "destaque": "Multivitamínico comum: não corrige ferro, não repõe vitamina D baixa, tem pouco cálcio. Resposta genérica para uma pergunta específica.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "sente",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Passo três · o que sente",
+   "titulo": "O sintoma não aponta o nutriente",
+   "cards": [
+    {
+     "t": "Ferro",
+     "x": "fluxo intenso, falta de ar desproporcional, palidez, vontade de mastigar gelo",
+     "cor": "verm"
+    },
+    {
+     "t": "B12",
+     "x": "formigamento, memória e humor, em vegano sem suplemento ou com remédios que reduzem a absorção",
+     "cor": "ambar"
+    },
+    {
+     "t": "Cálcio e vitamina D",
+     "x": "fratura por estresse repetida; e antes: falta energia?",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Cansaço, queda de desempenho e infecções são os mesmos de sono ruim, treino excessivo e déficit. O passo três decide a urgência, não o diagnóstico.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "turbina",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O que o procedimento não inclui",
+   "frase": "Deficiência se corrige. Suficiência não se turbina.",
+   "apoio": "Exame de cabelo, teste “intracelular” em pacote, painel sem pergunta clínica, soro de vitaminas na veia sem deficiência. Magnésio e zinco se perdem no suor, mas deficiência clínica em quem come bem é incomum."
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Passo quatro · para onde vai",
+   "titulo": "Quem é, o que come, o que sente, para onde vai",
+   "regras": [
+    "Risco pelo padrão, sem sinal: ajustar a comida",
+    "Risco com sinal, ou sinal forte: avaliação médica; ferro por conta própria, nunca",
+    "A adolescente vai pelas duas saídas; o adulto do painel, por uma conversa"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "Alimentação e fontes."
+    },
+    {
+     "t": "Médico",
+     "x": "Exame, diagnóstico e reposição."
+    },
+    {
+     "t": "Educador e preparador físico",
+     "x": "A queda de rendimento, vista primeiro."
+    }
+   ],
+   "quem": "Exclusão com medo ou culpa: o psicólogo entra com o médico."
+  }
+ ]
+}
