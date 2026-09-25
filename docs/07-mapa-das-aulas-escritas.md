@@ -196,7 +196,7 @@ infusões acima de 100 mL/12 h).
 
 ## Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção · 13 aulas
 
-**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 a 6: decks enxutos, gráficos
+**ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 a 6: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em tinta, a cor dos módulos 1, 2 e 6 (docs/08).
 Dois casos no módulo (7.8 e 7.12, ditos como caso ilustrativo); as demais aulas usam perfis
 típicos, sem idade, e contas feitas em aula.
@@ -214,13 +214,18 @@ típicos, sem idade, e contas feitas em aula.
 | 7.9 | Lesões do joelho no esporte | 13 | 12 | DECISÃO | [slides](https://claude.ai/artifact/WveEpSDiEaG4h2Uc52Z3J2) |
 | 7.10 | Entorse de tornozelo e dor no ombro | 11 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/EUB3Stjnd4mr77nZRZR4ky) |
 | 7.11 | Lesão óssea por estresse | 11 | 12 | NÚMERO | [slides](https://claude.ai/artifact/CsvGUcTdr2uNfq5EsJqwTS) |
+| 7.12 | Imagem no esporte | 13 | 12 | ERRO | [slides](https://claude.ai/artifact/5oFBgQGu14vg1G8bKTzycf) |
+| 7.13 | Prevenção de lesões no esporte | 17 | 12 | DECISÃO | [slides](https://claude.ai/artifact/SfsGxkfxMSsGqDbVehmDzw) |
 
-Ainda na versão anterior, sem deck:
+Total: 2 h 51 min em 13 aulas, 156 slides. A 7.13 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
+fisioterapia esportiva e reabilitação, que abre o Módulo 8.
 
-| Slot | Aula | Min | Arquitetura |
-|---|---|---|---|
-| 7.12 | Imagem no esporte e o achado incidental | 19 | ERRO |
-| 7.13 | Programas de prevenção: eficácia e falha de adesão | 28 | DECISÃO |
+Âncoras brasileiras do módulo: consenso brasileiro de definição de lesão em
+corredores (Yamato, Saragiotto e Lopes, 2015), modelo de sistemas complexos
+vindo da UFMG (Bittencourt, 2016), revisão brasileira do FIFA 11+ (Sadigursky, 2017),
+coorte de isquiotibiais em clube brasileiro (Oliveira-Júnior, 2024), crioterapia
+em músculo de rato (Vieira Ramos, 2016) e o enquadramento do registro de lesão como dado pessoal sensível sob a LGPD.
 
 ## Módulo 8 — Fisioterapia Esportiva e Reabilitação · 12 aulas
 

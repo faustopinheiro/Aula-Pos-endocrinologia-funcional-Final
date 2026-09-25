@@ -1,0 +1,329 @@
+{
+ "arquivo": "aulas/MOD07/07-13-programas-de-prevencao-eficacia-e-falha-de-adesao.md",
+ "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção",
+ "tema": "tinta",
+ "titulo": "Prevenção de lesões no esporte",
+ "subtitulo": "Eficácia, adesão e as quatro decisões da equipe",
+ "nota_capa": "Entra pelos quinze minutos que ninguém faz.",
+ "secoes": {
+  "quinze": [
+   "O problema e a evidência.",
+   "capa"
+  ],
+  "ingredientes": [
+   "O que fazer e a armadilha.",
+   "ingredientes"
+  ],
+  "adocao": [
+   "Adesão, medida e contextos.",
+   "adocao"
+  ],
+  "fecho": [
+   "O fecho do módulo em três níveis.",
+   "fecho"
+  ]
+ },
+ "slides": [
+  {
+   "id": "quinze",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O tamanho do problema",
+   "frase": "Quinze minutos. E a maior parte das equipes não faz.",
+   "apoio": "Não é falta de evidência, é falta de execução. A parte difícil, descobrir o que funciona, está resolvida. A parte que parecia fácil, fazer, continua perdendo."
+  },
+  {
+   "id": "mapa",
+   "tipo": "lista",
+   "eyebrow": "Prevenção não é lista de exercícios",
+   "titulo": "Quatro decisões de equipe",
+   "itens": [
+    {
+     "t": "Vale a pena?",
+     "x": "o que a evidência mostra, e de que tamanho",
+     "cor": "petr"
+    },
+    {
+     "t": "Fazer o quê?",
+     "x": "nem tudo que virou rotina previne alguma coisa",
+     "cor": "ambar"
+    },
+    {
+     "t": "Quem conduz, e onde entra?",
+     "x": "é aqui que os programas morrem",
+     "cor": "verm"
+    },
+    {
+     "t": "Funciona aqui?",
+     "x": "de volta ao registro do começo do módulo",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 22
+  },
+  {
+   "id": "efeito",
+   "tipo": "numeros",
+   "eyebrow": "Decisão um · vale a pena?",
+   "titulo": "Três blocos de evidência no futebol",
+   "numeros": [
+    {
+     "n": "~1/3",
+     "x": "menos lesões no total; 1.892 jogadoras de 13 a 17 anos",
+     "cor": "petr"
+    },
+    {
+     "n": "−30%",
+     "x": "risco de lesão; 6 ensaios, 6.344 jogadores",
+     "cor": "petr"
+    },
+    {
+     "n": "metade",
+     "x": "das lesões de posterior de coxa com o nórdico; 8.459 atletas",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "No ensaio norueguês, só nas lesões de membro inferior, a diferença não foi significativa.",
+   "destaque_cor": "tinta",
+   "fonte": "BMJ 2008 · BMC Sports Sci Med Rehabil 2017 · Br J Sports Med 2019"
+  },
+  {
+   "id": "forca",
+   "tipo": "duas",
+   "eyebrow": "O bloco mais geral",
+   "titulo": "Força protege, e a dose importa",
+   "esq": {
+    "t": "Com efeito",
+    "cor": "petr",
+    "itens": [
+     "treino de força: o maior efeito",
+     "em lesão aguda e por sobrecarga",
+     "mais volume, mais proteção",
+     "proprioceptivo também"
+    ]
+   },
+   "dir": {
+    "t": "Sem efeito preventivo",
+    "cor": "verm",
+    "itens": [
+     "alongamento sozinho"
+    ]
+   },
+   "destaque": "Mais de 26 mil pessoas na metanálise de 2014; a dose-resposta veio em 2018.",
+   "destaque_cor": "tinta",
+   "fonte": "Br J Sports Med 2014 e 2018"
+  },
+  {
+   "id": "ingredientes",
+   "tipo": "cards",
+   "por_linha": 5,
+   "eyebrow": "Decisão dois · fazer o quê?",
+   "titulo": "Cinco ingredientes com evidência",
+   "cards": [
+    {
+     "t": "Força",
+     "x": "progressiva, a temporada inteira",
+     "cor": "petr"
+    },
+    {
+     "t": "Excêntrico",
+     "x": "o nórdico para posterior de coxa",
+     "cor": "petr"
+    },
+    {
+     "t": "Aterrissagem",
+     "x": "e mudança de direção; cruzado",
+     "cor": "ambar"
+    },
+    {
+     "t": "Equilíbrio",
+     "x": "numa perna, até o instável",
+     "cor": "ambar"
+    },
+    {
+     "t": "Velocidade",
+     "x": "e o gesto do esporte no fim",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Duas a três vezes por semana, 15 a 25 minutos, a temporada inteira. Seis semanas de pré-temporada abandonadas em abril quase equivalem a não fazer.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "treino",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A armadilha",
+   "frase": "Prevenção bem feita é treino bem feito.",
+   "apoio": "Apresentado como bloco extra da fisioterapia, o programa morre no primeiro mês apertado. Apresentado como parte do treino, com objetivo de desempenho, sobrevive."
+  },
+  {
+   "id": "adocao",
+   "tipo": "numeros",
+   "eyebrow": "Decisão três · quem conduz?",
+   "titulo": "Os clubes mais ricos do planeta e o exercício nórdico",
+   "numeros": [
+    {
+     "n": "50",
+     "x": "equipes: 32 da Liga dos Campeões, 18 da liga norueguesa",
+     "cor": "tinta"
+    },
+    {
+     "n": "10,7%",
+     "x": "das temporadas com o programa completo",
+     "cor": "verm"
+    },
+    {
+     "n": "83%",
+     "x": "das temporadas sem o programa",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Eficácia é o efeito no estudo; efetividade, no mundo real. Programa excelente com pouca adesão entrega menos que programa médio bem feito.",
+   "destaque_cor": "tinta",
+   "fonte": "Bahr e colegas, Br J Sports Med 2015"
+  },
+  {
+   "id": "alavancas",
+   "tipo": "duas",
+   "eyebrow": "Barreiras e alavancas",
+   "titulo": "Quase nunca é sobre o exercício",
+   "esq": {
+    "t": "Por que não é feito",
+    "cor": "verm",
+    "itens": [
+     "tempo: sai quando aperta",
+     "treinador não acredita",
+     "é “da fisioterapia”",
+     "ninguém responsável; some depois da pré-temporada",
+     "ninguém vê o resultado"
+    ]
+   },
+   "dir": {
+    "t": "O que aumenta a adesão",
+    "cor": "petr",
+    "itens": [
+     "comissão técnica conduz no aquecimento",
+     "horário escrito na planilha",
+     "responsável com nome e substituto",
+     "presença medida; progressão visível",
+     "resultado devolvido ao grupo"
+    ]
+   },
+   "destaque": "Se só der para dois: quem conduz e medir presença.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "medir",
+   "tipo": "duas",
+   "eyebrow": "Decisão quatro · funciona aqui?",
+   "titulo": "Dois números",
+   "esq": {
+    "t": "Adesão",
+    "cor": "ambar",
+    "itens": [
+     "sessões feitas ÷ previstas",
+     "por atleta e por período",
+     "costuma ser menor do que se imagina"
+    ]
+   },
+   "dir": {
+    "t": "Lesão",
+    "cor": "petr",
+    "itens": [
+     "proporção semanal",
+     "incidência por exposição",
+     "carga de lesão"
+    ]
+   },
+   "destaque": "Compare você com você: a sua temporada anterior é o melhor comparador.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "cuidados",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Ao ler o próprio número",
+   "titulo": "Três cuidados",
+   "cards": [
+    {
+     "t": "Grupo pequeno oscila",
+     "x": "olhe temporada, não mês",
+     "cor": "ambar"
+    },
+    {
+     "t": "Volta ao normal",
+     "x": "depois de um período ruim, parte da melhora vem sozinha",
+     "cor": "ambar"
+    },
+    {
+     "t": "Carga, não só contagem",
+     "x": "muitas leves é melhor que três cirurgias",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Prevenção não zera lesão. Prometer risco zero destrói o programa no primeiro atleta que se machuca.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "contextos",
+   "tipo": "tabela",
+   "eyebrow": "Fora do clube profissional",
+   "titulo": "Onde a maioria de nós trabalha",
+   "cab": [
+    "Contexto",
+    "Como a prevenção entra"
+   ],
+   "larguras": [
+    28,
+    72
+   ],
+   "linhas": [
+    [
+     "Escola e base",
+     "no aquecimento da aula, conduzida pelo professor"
+    ],
+    [
+     "Clube pequeno",
+     "desenho de quem tem formação; condução do preparador; presença medida"
+    ],
+    [
+     "Academia e corrida",
+     "prescrição de força e progressão de carga com bom senso"
+    ],
+    [
+     "Consultório",
+     "a conversa: o que aumentou, força, sono, alimentação"
+    ]
+   ],
+   "destaque": "Mínimo viável: 2 × por semana, 20 minutos, no aquecimento: posterior de coxa, aterrissagem, equilíbrio numa perna, fecho com velocidade.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fecho do módulo · três níveis",
+   "titulo": "A gente já sabe o que previne. O trabalho que sobrou é humano.",
+   "regras": [
+    "Decisão: cada profissão no seu campo; a gestão define lesão, registro e horário",
+    "Contribuição: a informação que atravessa profissões",
+    "Reconhecimento: os sinais que qualquer um leva adiante"
+   ],
+   "cards": [
+    {
+     "t": "Médico e fisioterapia",
+     "x": "Diagnóstico, imagem, reabilitação e retorno."
+    },
+    {
+     "t": "Preparação, nutrição e psicologia",
+     "x": "Carga, programa no campo, energia e medo de voltar."
+    },
+    {
+     "t": "Todos",
+     "x": "A fisgada, o dedo no osso, o joelho que incha, o “está tudo bem”."
+    }
+   ],
+   "quem": "Próximo módulo: fisioterapia esportiva e reabilitação."
+  }
+ ]
+}

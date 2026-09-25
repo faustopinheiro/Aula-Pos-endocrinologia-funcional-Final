@@ -1,0 +1,314 @@
+{
+ "arquivo": "aulas/MOD07/07-12-imagem-no-esporte-e-o-achado-incidental.md",
+ "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção",
+ "tema": "tinta",
+ "titulo": "Imagem no esporte",
+ "subtitulo": "Cinco erros diante do achado incidental",
+ "nota_capa": "Caso ilustrativo: corredora na casa dos quarenta com o laudo na mão.",
+ "secoes": {
+  "caso": [
+   "O caso e o primeiro erro.",
+   "capa"
+  ],
+  "territorios": [
+   "O corpo inteiro e a pergunta antes do exame.",
+   "territorios"
+  ],
+  "palavras": [
+   "O laudo, o controle e quando pedir.",
+   "palavras"
+  ]
+ },
+ "slides": [
+  {
+   "id": "caso",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Caso ilustrativo",
+   "frase": "Corredora na casa dos quarenta, dor no joelho há três semanas, ressonância na mão.",
+   "apoio": "Menisco medial com lesão horizontal, condropatia patelar grau dois, edema ósseo subcondral. “Vou ter que operar? Vou poder voltar a correr?”"
+  },
+  {
+   "id": "mesa",
+   "tipo": "duas",
+   "eyebrow": "O que aconteceu naquela mesa",
+   "titulo": "O papel virou o assunto",
+   "esq": {
+    "t": "A dor",
+    "cor": "petr",
+    "itens": [
+     "três semanas",
+     "começou quando o ritmo subiu",
+     "é o que ela veio resolver"
+    ]
+   },
+   "dir": {
+    "t": "O laudo",
+    "cor": "verm",
+    "itens": [
+     "três achados",
+     "ocupou o centro da conversa",
+     "agora o assunto é o menisco"
+    ]
+   },
+   "destaque": "O problema quase nunca é o exame. É o que a gente faz com ele.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "joelhos",
+   "tipo": "numeros",
+   "eyebrow": "Erro um · achar que a imagem diagnostica",
+   "titulo": "230 joelhos de adultos sem dor, sem lesão",
+   "numeros": [
+    {
+     "n": "97%",
+     "x": "com alguma alteração",
+     "cor": "tinta"
+    },
+    {
+     "n": "30%",
+     "x": "lesão de menisco, a maioria horizontal",
+     "cor": "verm"
+    },
+    {
+     "n": "57%",
+     "x": "alteração de cartilagem femoropatelar",
+     "cor": "ambar"
+    },
+    {
+     "n": "48%",
+     "x": "alteração de medula óssea femoropatelar",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Mediana de 44 anos. Ninguém sentia dor.",
+   "destaque_cor": "verm",
+   "fonte": "Skeletal Radiol 2020"
+  },
+  {
+   "id": "dez",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Na prática",
+   "frase": "O menisco já estava lá antes da dor, e vai continuar lá depois.",
+   "apoio": "Dez pessoas quaisquer a partir dos quarenta: quase todas com algo no laudo, três com menisco. Menisco pode doer, mas a presença do achado não prova que ele é a causa."
+  },
+  {
+   "id": "territorios",
+   "tipo": "tabela",
+   "eyebrow": "Erro dois · achar que o joelho é exceção",
+   "titulo": "O mesmo padrão no corpo inteiro, em gente sem dor",
+   "cab": [
+    "Região",
+    "O que a imagem mostra"
+   ],
+   "larguras": [
+    22,
+    78
+   ],
+   "linhas": [
+    [
+     "Ombro",
+     "rotura do manguito em 34%, completa em 15%; mais da metade acima dos 60"
+    ],
+    [
+     "Quadril",
+     "alguma alteração em 73%; lesão do lábio em 69%"
+    ],
+    [
+     "Coluna",
+     "degeneração de disco em 37% aos 20 anos, 96% aos 80"
+    ],
+    [
+     "Joelho",
+     "sinais de artrose em 4 a 14% abaixo dos 40; 19 a 43% acima"
+    ]
+   ],
+   "destaque": "Não é doença: é o tecido ao longo do tempo, como cabelo branco. Ninguém faz ressonância do cabelo.",
+   "destaque_cor": "tinta",
+   "fonte": "J Bone Joint Surg Am 1995 · Am J Sports Med 2012 · AJNR 2015 · Br J Sports Med 2019"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "lista",
+   "eyebrow": "Erro três · pedir sem pergunta",
+   "titulo": "Três perguntas antes de qualquer exame",
+   "itens": [
+    {
+     "t": "O que eu estou suspeitando?",
+     "x": "sem completar “quero saber se tem”, é ansiedade, não indicação",
+     "cor": "petr"
+    },
+    {
+     "t": "O resultado muda a conduta?",
+     "x": "se faço o mesmo com laudo normal e alterado, não é agora",
+     "cor": "ambar"
+    },
+    {
+     "t": "E o achado que eu não procurei?",
+     "x": "ele vai vir; decida antes o que fazer com ele",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 26,
+   "destaque": "Auditoria de um mês: anote cada exame pedido e se mudou a conduta.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "palavras",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Erro quatro · a palavra vira prognóstico",
+   "titulo": "Feitas para descrever tecido, lidas com medo",
+   "cards": [
+    {
+     "t": "Degeneração",
+     "x": "lida como fim",
+     "cor": "verm"
+    },
+    {
+     "t": "Rotura",
+     "x": "lida como algo partido",
+     "cor": "verm"
+    },
+    {
+     "t": "Lesão",
+     "x": "lida como dano novo",
+     "cor": "verm"
+    },
+    {
+     "t": "Desgaste",
+     "x": "lida como prazo de validade",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Tem gente que para de correr porque leu “desgaste”. Ninguém mandou parar.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "laudo",
+   "tipo": "numeros",
+   "eyebrow": "E se o laudo fosse escrito melhor?",
+   "titulo": "Prevalência dentro do laudo de coluna",
+   "numeros": [
+    {
+     "n": "250.401",
+     "x": "adultos no ensaio randomizado",
+     "cor": "tinta"
+    },
+    {
+     "n": "98",
+     "x": "clínicas de atenção primária",
+     "cor": "tinta"
+    },
+    {
+     "n": "pequeno",
+     "x": "efeito sobre o que veio depois",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "A frase no papel não substitui a conversa. Quem desarma o laudo é quem está na frente do paciente.",
+   "destaque_cor": "tinta",
+   "fonte": "JAMA Netw Open 2020"
+  },
+  {
+   "id": "dizer",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Como dizer",
+   "frase": "“Essas alterações são comuns na sua idade, e a maioria de quem tem não sente dor.”",
+   "apoio": "“O que explica a sua dor é o que mudou no treino nas últimas semanas, e é isso que a gente vai ajustar.” Não é consolo: é informação correta."
+  },
+  {
+   "id": "controle",
+   "tipo": "duas",
+   "eyebrow": "Erro cinco · repetir para ver se curou",
+   "titulo": "A imagem de controle engana nos dois sentidos",
+   "esq": {
+    "t": "Engana",
+    "cor": "verm",
+    "itens": [
+     "tendão: imagem alterada com a pessoa correndo bem",
+     "músculo: imagem melhora antes da capacidade",
+     "o retorno se decide por função"
+    ]
+   },
+   "dir": {
+    "t": "Exceções",
+    "cor": "petr",
+    "itens": [
+     "lesão óssea em sítio de alto risco",
+     "suspeita de complicação",
+     "quadro que não segue o esperado"
+    ]
+   },
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "pedir",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "O outro lado da balança",
+   "titulo": "Quando pedir é obrigação",
+   "cards": [
+    {
+     "t": "Trauma",
+     "x": "não apoia ou dor óssea localizada; regra de Ottawa",
+     "cor": "verm"
+    },
+    {
+     "t": "Joelho que incha em horas",
+     "x": "depois de torção",
+     "cor": "verm"
+    },
+    {
+     "t": "Osso de alto risco",
+     "x": "virilha, frente da tíbia, meio do pé",
+     "cor": "verm"
+    },
+    {
+     "t": "Bloqueio articular",
+     "x": "trava e não completa o movimento",
+     "cor": "ambar"
+    },
+    {
+     "t": "Sinais sistêmicos",
+     "x": "dor noturna, febre, perda de peso; déficit neurológico",
+     "cor": "ambar"
+    },
+    {
+     "t": "Tratamento bem feito falhou",
+     "x": "a imagem entra na revisão do diagnóstico",
+     "cor": "petr"
+    }
+   ],
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Caso ilustrativo · o plano",
+   "titulo": "O laudo continua correto; só deixa de mandar na conversa",
+   "regras": [
+    "Examinar e perguntar o que mudou no treino",
+    "Ler o laudo com ela, com os números de quem não sente dor",
+    "Tratar a dor com ajuste de carga e força"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Indica a imagem e interpreta no contexto clínico."
+    },
+    {
+     "t": "Todo profissional",
+     "x": "Traduz o laudo sem reforçar o medo."
+    },
+    {
+     "t": "Fisioterapia e preparação",
+     "x": "Tratam a função."
+    }
+   ],
+   "quem": "Próxima aula, a última do módulo: prevenção, eficácia e adesão."
+  }
+ ]
+}
