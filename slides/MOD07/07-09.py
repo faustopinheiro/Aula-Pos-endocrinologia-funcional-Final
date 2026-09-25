@@ -1,0 +1,99 @@
+"""Spec do deck 7.9. Gera 07-09.json ao lado deste arquivo."""
+import json, math, os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "ferramentas", "slides"))
+from desenho import *
+
+S = []
+
+S.append({"id": "sala", "tipo": "frase", "fundo": "tinta", "eyebrow": "Três perfis típicos na sala de espera",
+          "frase": "Dor na frente do joelho, joelho que inchou em horas, pós-operatório com pressa.",
+          "apoio": "Três decisões diferentes, com urgências diferentes. O que cada profissional precisa reconhecer, encaminhar e parar de fazer."})
+
+S.append({"id": "femoropatelar", "tipo": "duas", "eyebrow": "Decisão um · dor na frente do joelho", "titulo": "Reconhecer a dor femoropatelar sem exame",
+          "esq": {"t": "O padrão", "cor": "petr",
+                  "itens": ["dor difusa em volta da patela", "aponta com a mão inteira", "piora em flexão sob carga: escada, agachar, cinema", "mais depois da atividade que durante"]},
+          "dir": {"t": "O que ela não tem", "cor": "verm",
+                  "itens": ["inchaço", "travamento", "falseio", "se tem: é a decisão dois"]},
+          "destaque": "É a queixa de joelho mais comum em quem corre, agacha, e no adolescente que cresce rápido.",
+          "destaque_cor": "tinta"})
+
+S.append({"id": "mensagens", "tipo": "cards", "por_linha": 2, "eyebrow": "No primeiro contato", "titulo": "Duas mensagens que mudam o tratamento",
+          "cards": [{"t": "Não é desgaste", "x": "não é artrose, e o joelho não está acabando; o medo quase sempre vem de laudo mal explicado", "cor": "petr"},
+                    {"t": "Parar e esperar não resolve", "x": "uma parte importante continua com dor anos depois; é um dos quadros que mais cronificam", "cor": "verm"}],
+          "destaque_cor": "tinta", "fonte": "Consenso de dor femoropatelar, Br J Sports Med 2016"})
+
+S.append({"id": "fazer", "tipo": "lista", "eyebrow": "Consenso de tratamento, 2018", "titulo": "O que fazer",
+          "itens": [{"t": "Exercício de quadril e joelho", "x": "quadríceps e glúteos, carga que progride, por meses", "cor": "petr"},
+                    {"t": "Ajuste de treino", "x": "quase sempre houve mudança de carga antes da dor", "cor": "petr"},
+                    {"t": "Palmilha pré-fabricada", "x": "apoiada para alívio no curto prazo, como complemento", "cor": "ambar"},
+                    {"t": "Bandagem patelar", "x": "incerteza; mobilização isolada e eletroterapia não recomendadas", "cor": "verm"}],
+          "gap_itens": 22, "fonte": "Br J Sports Med 2018"})
+
+S.append({"id": "naofazer", "tipo": "cards", "por_linha": 4, "eyebrow": "E o que parar de fazer", "titulo": "Quatro erros de rotina",
+          "cards": [{"t": "Parar e esperar", "x": "a força cai e a dor volta pior", "cor": "verm"},
+                    {"t": "Imagem por reflexo", "x": "raramente muda a conduta; achados de quem não tem dor", "cor": "verm"},
+                    {"t": "Recurso passivo sozinho", "x": "ajuda a atravessar a dor; quem trata é o exercício", "cor": "ambar"},
+                    {"t": "Prometer duas semanas", "x": "o quadro leva meses", "cor": "ambar"}],
+          "destaque": "No adolescente, a mesma lógica, com o tendão abaixo da patela e a placa de crescimento em mente, e ainda mais paciência.",
+          "destaque_cor": "tinta"})
+
+S.append({"id": "inchou", "tipo": "lista", "eyebrow": "Decisão dois · inchou em poucas horas", "titulo": "Sangue na articulação até prova em contrário",
+          "itens": [{"t": "Mecanismo sem contato", "x": "mudança de direção, desaceleração, aterrissagem", "cor": "verm"},
+                    {"t": "Estalo", "x": "ou sensação de que o joelho saiu do lugar e voltou", "cor": "verm"},
+                    {"t": "Inchaço rápido", "x": "nas primeiras horas, não no dia seguinte", "cor": "verm"},
+                    {"t": "Insegurança", "x": "a sensação de que o joelho vai falhar", "cor": "ambar"}],
+          "gap_itens": 22, "destaque": "No esporte, a causa mais comum desse sangramento é a lesão do ligamento cruzado anterior.",
+          "destaque_cor": "verm"})
+
+S.append({"id": "gramado", "tipo": "duas", "eyebrow": "No momento", "titulo": "O que a comissão faz no gramado",
+          "esq": {"t": "Fazer", "cor": "petr",
+                  "itens": ["tirar do jogo, sem negociar", "deixar confortável", "controlar dor e inchaço", "encaminhar para avaliação médica"]},
+          "dir": {"t": "Não fazer", "cor": "verm",
+                  "itens": ["testar o joelho com adrenalina alta", "deixar voltar porque a dor passou", "prometer que “não foi nada”"]},
+          "destaque": "Nem todo joelho que incha assim é cruzado: menisco, cartilagem e luxação da patela também incham rápido.",
+          "destaque_cor": "tinta"})
+
+S.append({"id": "depois", "tipo": "duas", "eyebrow": "Depois da confirmação", "titulo": "Nem toda lesão do cruzado vai para cirurgia",
+          "esq": {"t": "Pesa na decisão", "cor": "ambar",
+                  "itens": ["esporte e nível", "idade e lesões associadas", "instabilidade no dia a dia", "o que a pessoa quer fazer"]},
+          "dir": {"t": "Vale para os dois caminhos", "cor": "petr",
+                  "itens": ["a reabilitação decide o resultado", "o tempo é longo", "dito no começo, não no meio"]},
+          "destaque": "A decisão é médica e compartilhada. Expectativa mal calibrada no começo vira pressa lá na frente.",
+          "destaque_cor": "tinta"})
+
+S.append({"id": "grindem", "tipo": "numeros", "eyebrow": "Decisão três · coorte de Delaware e Oslo, 106 atletas", "titulo": "Tempo e critério, os dois",
+          "numeros": [{"n": "−51%", "x": "de nova lesão por mês de espera, até o nono mês", "cor": "petr"},
+                      {"n": "38%", "x": "nova lesão entre quem não passou nos critérios", "cor": "verm"},
+                      {"n": "6%", "x": "nova lesão entre quem passou", "cor": "petr"}],
+          "destaque": "Depois do nono mês, adiar mais não reduziu o risco. Voltar cedo e voltar sem critério são erros que se somam.",
+          "destaque_cor": "tinta", "fonte": "Grindem e colegas, Br J Sports Med 2016"})
+
+S.append({"id": "regras", "tipo": "lista", "eyebrow": "O que isso significa para a equipe", "titulo": "Três regras do retorno",
+          "itens": [{"t": "Tempo é necessário, não suficiente", "x": "nove meses sem critério não libera", "cor": "ambar"},
+                    {"t": "Critério decide", "x": "simetria de força do quadríceps, testes funcionais, o gesto do esporte", "cor": "petr"},
+                    {"t": "O prazo se combina no primeiro mês", "x": "aí a decisão do oitavo é só cumprir um plano", "cor": "tinta"}],
+          "gap_itens": 26, "destaque": "Os testes específicos ficam para o módulo de reabilitação.", "destaque_cor": "tinta"})
+
+S.append({"id": "prevencao", "tipo": "frase", "fundo": "tinta", "eyebrow": "A parte que evitaria boa parte disso",
+          "frase": "Aquecimento estruturado reduz lesão do cruzado, quando é feito de verdade.",
+          "apoio": "Força, equilíbrio, aterrissagem e mudança de direção, em grupo e sem equipamento. Atenção especial à atleta mulher. Números e adesão fecham o módulo, na última aula."})
+
+S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Três decisões", "titulo": "Reconhecer, encaminhar, parar de fazer",
+          "regras": ["Dor anterior: exercício de quadril e joelho, por meses",
+                     "Inchou em horas: sai do jogo e vai para o médico",
+                     "Pós-operatório: tempo e critério, os dois"],
+          "cards": [{"t": "Médico e fisioterapia", "x": "Diagnóstico, cirurgia, testes e liberação."},
+                    {"t": "Preparação e treinador", "x": "Força, aterrissagem, prevenção; tirar na hora."},
+                    {"t": "Coordenação", "x": "Segura a pressão para a decisão ser clínica."}],
+          "quem": "Próxima aula: tornozelo e ombro."})
+
+spec = {"arquivo": "aulas/MOD07/07-09-lesoes-do-joelho-no-esporte.md",
+        "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
+        "titulo": "Lesões do joelho no esporte", "subtitulo": "Três decisões, da dor anterior ao ligamento",
+        "nota_capa": "Entra pelos três perfis da sala de espera.",
+        "secoes": {"sala": ["Dor femoropatelar.", "capa"],
+                   "inchou": ["O joelho que incha em horas.", "inchou"],
+                   "grindem": ["O retorno depois da reconstrução e a prevenção.", "grindem"]},
+        "slides": S}
+json.dump(spec, open(os.path.join(os.path.dirname(__file__), "07-09.json"), "w"), ensure_ascii=False, indent=1)
+print("07-09.json:", len(S), "slides")

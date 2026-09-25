@@ -211,14 +211,14 @@ típicos, sem idade, e contas feitas em aula.
 | 7.6 | Manejo do estiramento muscular | 15 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/Qp7Vxxdy5zKJjBMTSY21Ti) |
 | 7.7 | Tendinopatia | 12 | 12 | ERRO | [slides](https://claude.ai/artifact/NvgZ9wpJmvVbovA898kNWU) |
 | 7.8 | Tendinopatia do Aquiles | 14 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/YVkhWy3HotbPqkbxiDNGiA) |
+| 7.9 | Lesões do joelho no esporte | 13 | 12 | DECISÃO | [slides](https://claude.ai/artifact/WveEpSDiEaG4h2Uc52Z3J2) |
+| 7.10 | Entorse de tornozelo e dor no ombro | 11 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/EUB3Stjnd4mr77nZRZR4ky) |
+| 7.11 | Lesão óssea por estresse | 11 | 12 | NÚMERO | [slides](https://claude.ai/artifact/CsvGUcTdr2uNfq5EsJqwTS) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Min | Arquitetura |
 |---|---|---|---|
-| 7.9 | Lesões do joelho: da dor anterior ao ligamento | 16 | DECISÃO |
-| 7.10 | Tornozelo e ombro: as duas regiões que a equipe vê primeiro | 13 | PROCEDIMENTO |
-| 7.11 | Lesão óssea de estresse e sua raiz energética | 14 | NÚMERO |
 | 7.12 | Imagem no esporte e o achado incidental | 19 | ERRO |
 | 7.13 | Programas de prevenção: eficácia e falha de adesão | 28 | DECISÃO |
 
