@@ -1,0 +1,553 @@
+{
+ "arquivo": "aulas/MOD05/05-10-lista-proibida-aut-e-responsabilidade-da-equipe.md",
+ "modulo": "Suplementação, Ergogênicos e Antidoping",
+ "tema": "ameixa",
+ "titulo": "Lista proibida e autorização de uso terapêutico",
+ "subtitulo": "Sistema, decisão clínica e responsabilidade da equipe",
+ "nota_capa": "Entra pela decisão clínica.",
+ "secoes": {
+  "remedio": [
+   "O sistema, a lista e as violações.",
+   "capa"
+  ],
+  "fluxo": [
+   "A decisão de prescrever, o consultório e a AUT.",
+   "fluxo"
+  ],
+  "controle": [
+   "O controle, as profissões e o amador.",
+   "controle"
+  ],
+  "resolucao": [
+   "As três decisões.",
+   "resolucao"
+  ]
+ },
+ "slides": [
+  {
+   "id": "remedio",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Decisão clínica, não suplemento",
+   "frase": "A pergunta “isso é proibido?” quase nunca chega sobre um pote. Chega sobre um remédio.",
+   "apoio": "A lista muda todo ano. O sistema, o raciocínio e o fluxo são estáveis; os itens se conferem na fonte oficial, toda vez."
+  },
+  {
+   "id": "decisoes",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Três decisões típicas",
+   "titulo": "Nenhuma resposta é “não”",
+   "cards": [
+    {
+     "t": "A nadadora master",
+     "x": "asma, broncodilatador inalatório há anos; campeonato nacional",
+     "cor": "petr"
+    },
+    {
+     "t": "O corredor",
+     "x": "TDAH, metilfenidato do psiquiatra; prova com premiação e controle",
+     "cor": "ambar"
+    },
+    {
+     "t": "A jogadora de vôlei",
+     "x": "infiltração de corticoide indicada duas semanas antes do campeonato",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "E a quarta pessoa: o profissional que não prescreve nada e acha que isso não é com ele.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "lista",
+   "tipo": "tabela",
+   "eyebrow": "Agência Mundial Antidopagem · ABCD",
+   "titulo": "Três blocos, em vigor em 1º de janeiro",
+   "cab": [
+    "Bloco",
+    "Classes"
+   ],
+   "larguras": [
+    24,
+    76
+   ],
+   "linhas": [
+    [
+     "Em todos os momentos",
+     "não aprovadas; anabolizantes; hormônios peptídicos e fatores de crescimento; beta-2 agonistas; moduladores hormonais e metabólicos; diuréticos e mascarantes; métodos de sangue, químicos e genéticos"
+    ],
+    [
+     "Em competição",
+     "estimulantes, narcóticos, canabinoides, glicocorticoides; das 23h59 da véspera ao fim da coleta"
+    ],
+    [
+     "Esportes específicos",
+     "betabloqueadores, em modalidades de precisão"
+    ]
+   ],
+   "destaque": "Entra na lista quem cumpre dois de três critérios (desempenho, saúde, espírito esportivo) ou mascara. Consulte a do ano, em português, pelo princípio ativo.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "violacoes",
+   "tipo": "duas",
+   "eyebrow": "Onze violações",
+   "titulo": "Violação não é sinônimo de exame positivo",
+   "esq": {
+    "t": "Dizem respeito ao atleta",
+    "cor": "tinta",
+    "itens": [
+     "presença na amostra",
+     "uso ou tentativa",
+     "recusar ou evitar a coleta",
+     "falhas de localização"
+    ]
+   },
+   "dir": {
+    "t": "Qualquer pessoa pode cometer",
+    "cor": "verm",
+    "itens": [
+     "adulterar o controle",
+     "posse; tráfico",
+     "administração a um atleta",
+     "cumplicidade: ajudar, encobrir, incentivar",
+     "associação proibida",
+     "retaliar quem denuncia"
+    ]
+   },
+   "destaque": "“Eu não prescrevo, então não me envolve” está errado como fato, não como opinião.",
+   "destaque_cor": "verm",
+   "fonte": "Código Mundial Antidopagem, artigos 2.1 a 2.11"
+  },
+  {
+   "id": "fluxo",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Fluxograma de prescrição em quatro perguntas: compete sob controle, princípio ativo na lista, via dose e momento permitidos, alternativa permitida; a última saída é a AUT\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"f1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"f2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"346\" y=\"20\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"692\" y=\"20\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1038\" y=\"20\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1384\" y=\"20\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"284\" y1=\"82\" x2=\"340\" y2=\"82\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#f1)\"/><line x1=\"630\" y1=\"82\" x2=\"686\" y2=\"82\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#f1)\"/><line x1=\"976\" y1=\"82\" x2=\"1032\" y2=\"82\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#f1)\"/><line x1=\"1322\" y1=\"82\" x2=\"1378\" y2=\"82\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#f1)\"/><line x1=\"140\" y1=\"150\" x2=\"140\" y2=\"266\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#f1)\"/><rect x=\"0\" y=\"276\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"486\" y1=\"150\" x2=\"486\" y2=\"266\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#f1)\"/><rect x=\"346\" y=\"276\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"832\" y1=\"150\" x2=\"832\" y2=\"266\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#f1)\"/><rect x=\"692\" y=\"276\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1178\" y1=\"150\" x2=\"1178\" y2=\"266\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#f1)\"/><rect x=\"1038\" y=\"276\" width=\"280\" height=\"124\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 14,
+     "y": 44,
+     "w": 252,
+     "t": "compete sob controle?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 44,
+     "w": 252,
+     "t": "princípio ativo na lista vigente?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 706,
+     "y": 44,
+     "w": 252,
+     "t": "via, dose e momento permitidos?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1052,
+     "y": 44,
+     "w": 252,
+     "t": "alternativa permitida razoável?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1398,
+     "y": 44,
+     "w": 252,
+     "t": "AUT com antecedência",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 40,
+     "w": 66,
+     "t": "sim",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 626,
+     "y": 40,
+     "w": 66,
+     "t": "sim",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 972,
+     "y": 40,
+     "w": 66,
+     "t": "não",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1318,
+     "y": 40,
+     "w": 66,
+     "t": "não",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 152,
+     "y": 190,
+     "w": 80,
+     "t": "não",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 14,
+     "y": 308,
+     "w": 252,
+     "t": "a pergunta vira: é seguro?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 498,
+     "y": 190,
+     "w": 80,
+     "t": "não",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 308,
+     "w": 252,
+     "t": "prescreve e registra",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 190,
+     "w": 80,
+     "t": "sim",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 706,
+     "y": 308,
+     "w": 252,
+     "t": "segue, registra, declara",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1190,
+     "y": 190,
+     "w": 80,
+     "t": "sim",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1052,
+     "y": 308,
+     "w": 252,
+     "t": "troca pela permitida",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A decisão de prescrever",
+   "titulo": "Quatro perguntas em cascata",
+   "destaque": "“Não pode” não aparece em nenhuma saída do fluxo.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "consultorio",
+   "tipo": "tabela",
+   "eyebrow": "Onde a lista aparece de verdade",
+   "titulo": "Cinco situações do consultório",
+   "cab": [
+    "Situação",
+    "Classe e bloco",
+    "O que decide"
+   ],
+   "larguras": [
+    18,
+    30,
+    52
+   ],
+   "linhas": [
+    [
+     "Asma",
+     "beta-2 agonista · sempre",
+     "substância, via, dose; salbutamol inalado até 1.600 µg/24 h e 600 µg/8 h (lista 2026)"
+    ],
+    [
+     "Corticoide",
+     "glicocorticoide · em competição",
+     "injetável, oral e retal proibidos; tempo de eliminação publicado"
+    ],
+    [
+     "Resfriado",
+     "estimulante · em competição",
+     "descongestionante do xarope; conferir o princípio ativo"
+    ],
+    [
+     "TDAH",
+     "estimulante · em competição",
+     "não interromper: AUT"
+    ],
+    [
+     "Corte de peso",
+     "diurético · sempre",
+     "mascara; também o adulterante mais comum no Brasil"
+    ]
+   ],
+   "destaque": "Números da lista de 2026 são exemplo. Confira sempre a lista vigente.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "aut",
+   "tipo": "lista",
+   "eyebrow": "Autorização de uso terapêutico",
+   "titulo": "Não é brecha: é o que permite tratar",
+   "itens": [
+    {
+     "t": "Condição médica diagnosticada",
+     "x": "que exige a substância ou o método proibido",
+     "cor": "petr"
+    },
+    {
+     "t": "Sem ganho além do normal",
+     "x": "altamente improvável que melhore além do retorno ao estado de saúde",
+     "cor": "petr"
+    },
+    {
+     "t": "Sem alternativa permitida razoável",
+     "x": "",
+     "cor": "petr"
+    },
+    {
+     "t": "Não é consequência de doping prévio",
+     "x": "quem se dopou não usa o dano como justificativa",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Na ABCD: pedido pelo menos 30 dias antes (substância proibida em competição) e até 21 dias para decidir. A documentação aprova ou reprova.",
+   "destaque_cor": "verm",
+   "gap_itens": 16
+  },
+  {
+   "id": "controle",
+   "tipo": "duas",
+   "eyebrow": "O controle, na prática",
+   "titulo": "O que fazer e o que dizer no dia",
+   "esq": {
+    "t": "No dia",
+    "cor": "petr",
+    "itens": [
+     "notificação; observação até a coleta",
+     "acompanhante: obrigatório para menor",
+     "conferir dados e lacres; irregularidade no formulário",
+     "declarar remédios e suplementos"
+    ]
+   },
+   "dir": {
+    "t": "Depois do resultado adverso",
+    "cor": "verm",
+    "itens": [
+     "amostra B a pedido do atleta",
+     "recusar a coleta equivale a positivo",
+     "suspensão provisória, defesa, recurso",
+     "sem culpa significativa: a documentação pesa"
+    ]
+   },
+   "destaque": "O papel da equipe não é julgar. É organizar a defesa e sustentar a pessoa.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "profissoes",
+   "tipo": "tabela",
+   "eyebrow": "A parte que é de todos",
+   "titulo": "Responsabilidade de cada profissão",
+   "cab": [
+    "Profissão",
+    "O que faz no antidoping"
+   ],
+   "larguras": [
+    26,
+    74
+   ],
+   "linhas": [
+    [
+     "Médico",
+     "verifica antes de prescrever, escolhe a alternativa permitida, conduz a AUT, registra"
+    ],
+    [
+     "Nutricionista",
+     "as seis perguntas do suplemento; registro de marca e lote; o direito de dizer não"
+    ],
+    [
+     "Educador físico e preparador",
+     "encaminha em vez de opinar; reconhece o que circula no vestiário"
+    ],
+    [
+     "Fisioterapeuta",
+     "o que é aplicado entra na conta; administrar é violação"
+    ],
+    [
+     "Psicólogo",
+     "a pressão que leva ao uso; o atleta em colapso depois da violação"
+    ]
+   ],
+   "destaque": "Verificar, documentar, encaminhar. Verificar custa minutos; não verificar pode custar anos.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "amador",
+   "tipo": "duas",
+   "eyebrow": "E quem nunca vai ser testado?",
+   "titulo": "Muda a pergunta, não a lista",
+   "esq": {
+    "t": "A sobreposição",
+    "cor": "ambar",
+    "itens": [
+     "campeonatos master",
+     "ligas amadoras federadas",
+     "provas de rua com premiação",
+     "universitários e categorias de base"
+    ]
+   },
+   "dir": {
+    "t": "Fora dela",
+    "cor": "verm",
+    "itens": [
+     "a lista é, em boa parte, de coisas que fazem mal",
+     "mesmo risco à saúde, sem controle médico",
+     "“ciclo”, “protocolo”, “TRT”, “modulador”",
+     "reconhecer o vocabulário é clínica"
+    ]
+   },
+   "destaque": "Para o amador: “isso é seguro, e por que essa pessoa está usando?”. É a pergunta da próxima aula.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "resolucao",
+   "tipo": "tabela",
+   "eyebrow": "As três decisões do começo",
+   "titulo": "Onde cada uma se resolve no fluxo",
+   "cab": [
+    "Decisão",
+    "Pergunta do fluxo",
+    "Conduta"
+   ],
+   "larguras": [
+    20,
+    26,
+    54
+   ],
+   "linhas": [
+    [
+     "Nadadora, asma",
+     "via, dose e momento",
+     "inalatório dentro do limite: segue, registra, declara; fora dele: AUT"
+    ],
+    [
+     "Corredor, TDAH",
+     "alternativa permitida",
+     "AUT 30 dias antes; se não der tempo, muda a prova, não o remédio"
+    ],
+    [
+     "Jogadora, infiltração",
+     "via, dose e momento",
+     "injetável: tempo de eliminação, alternativa, ou AUT; e é o melhor tratamento?"
+    ]
+   ],
+   "destaque": "Depende da substância, da via, da dose e do prazo, e alguém precisa verificar e documentar.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "O que fica",
+   "titulo": "Verificar, documentar, encaminhar",
+   "regras": [
+    "Lista anual, três blocos, conferida pelo princípio ativo",
+    "Onze violações; sete alcançam quem não é atleta",
+    "AUT: quatro critérios, 30 dias antes, até 21 para decidir"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Prescreve verificando; conduz a AUT."
+    },
+    {
+     "t": "Nutricionista",
+     "x": "Suplemento checado e registrado."
+    },
+    {
+     "t": "Educador físico, preparador, fisioterapeuta, psicólogo",
+     "x": "Escutam primeiro; encaminham."
+    }
+   ],
+   "quem": "Responsabilidade estrita para o atleta; profissional para quem indica."
+  }
+ ]
+}

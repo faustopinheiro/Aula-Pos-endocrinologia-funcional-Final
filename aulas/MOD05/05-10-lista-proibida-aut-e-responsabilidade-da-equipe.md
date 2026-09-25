@@ -1,355 +1,270 @@
-# Módulo 5 · Aula 5.10 — Lista proibida, autorização de uso terapêutico e responsabilidade da equipe
+# Módulo 5 · Aula 5.10 — Lista proibida e autorização de uso terapêutico: sistema, decisão clínica e responsabilidade da equipe
 
 **Módulo 5 — Suplementação, Ergogênicos e Antidoping**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 30 minutos · 10 slides · Arquitetura: DECISÃO
+Duração: 22 minutos · 12 slides · Arquitetura: DECISÃO
 
 ---
 
-📊 **[SLIDE 1 DE 10]**
-*Visual: três prontuários abertos lado a lado — uma bombinha de asma, uma cartela de metilfenidato, uma seringa de corticoide. Sobre os três, uma única pergunta: "pode?".*
-*Teleprompter: (entra pelas três decisões que chegam de verdade)*
+📊 **[SLIDE 1 DE 12]**
+*Visual: fundo escuro, a frase "A pergunta 'isso é proibido?' quase nunca chega sobre um pote. Chega sobre um remédio." Embaixo, três objetos: bombinha, comprimido, seringa.*
+*Teleprompter: (entra pela decisão clínica)*
 
-As nove aulas anteriores levaram a esta. **E ela não é sobre suplemento — é sobre decisão clínica.**
+O módulo inteiro levou a esta aula. E ela não é sobre suplemento. É sobre decisão clínica.
 
-Porque a pergunta "isso é proibido?" quase nunca chega sobre um pote. **Ela chega sobre um remédio que você ia prescrever de qualquer jeito.**
+Porque a pergunta "isso é proibido?" quase nunca chega sobre um pote. Chega sobre um remédio que você ia prescrever de qualquer jeito.
 
-Três decisões reais.
-
-**Uma nadadora master de 42 anos, com asma**, usa broncodilatador inalatório há anos. Vai disputar um campeonato nacional da categoria. **Ela pergunta se pode continuar usando a bombinha.**
-
-**Um corredor de 34 anos, com transtorno de déficit de atenção**, usa metilfenidato prescrito por psiquiatra. Vai correr uma prova com premiação e controle antidoping. **Ele quer saber se precisa parar o tratamento.**
-
-**E uma jogadora de vôlei de 19 anos**, com dor que não cede, para quem foi indicada **infiltração de corticoide** duas semanas antes de um campeonato.
-
-**As três respostas são diferentes. Nenhuma delas é "não".** E todas as três dependem de a equipe saber alguma coisa **antes**, e não depois.
-
-E uma quarta pessoa, que é vocês: **o profissional que não prescreve nada e acha que isso não é problema dele.** **É** — e o slide 8 é sobre por quê.
-
-Uma advertência que atravessa a aula inteira, e que eu prefiro dizer agora: **nada do que eu falar aqui substitui a consulta à norma vigente.** **A lista muda todo ano.** O que esta aula ensina é **o sistema, o raciocínio e o fluxo** — que são estáveis. **Os itens específicos, você confere, toda vez, na fonte oficial.**
+Uma advertência que atravessa a aula inteira, e que prefiro dizer agora: nada do que eu disser aqui substitui a consulta à norma vigente. A lista muda todo ano. O que esta aula ensina é o sistema, o raciocínio e o fluxo, que são estáveis. Os itens, você confere na fonte oficial, toda vez.
 
 ---
 
-📊 **[SLIDE 2 DE 10]**
-*Visual: uma pirâmide institucional — Agência Mundial Antidopagem no topo, Código Mundial Antidopagem abaixo, os Padrões Internacionais ao lado, e na base a ABCD e as federações.*
-*Teleprompter: (quem é quem, e por que o sistema existe)*
+📊 **[SLIDE 2 DE 12]**
+*Visual: três cartões: a nadadora master com asma, o corredor com TDAH em uso de metilfenidato, a jogadora de vôlei com indicação de infiltração de corticoide.*
+*Teleprompter: (três decisões típicas)*
 
-**Primeiro, o mapa institucional** — porque sem ele as siglas não fazem sentido.
+Três decisões típicas.
 
-**No topo está a Agência Mundial Antidopagem**, que publica o **Código Mundial Antidopagem** — o documento que harmoniza as regras em todos os esportes e países signatários.
+Uma nadadora master com asma usa broncodilatador inalatório há anos e vai disputar um campeonato nacional da categoria. Pergunta se pode continuar usando a bombinha.
 
-**Ligados ao Código estão os Padrões Internacionais**, e dois interessam diretamente a esta aula: **o Padrão Internacional da Lista de Substâncias e Métodos Proibidos** — a "lista" — **e o Padrão Internacional para Autorizações de Uso Terapêutico.**
+Um corredor com transtorno de déficit de atenção usa metilfenidato prescrito pelo psiquiatra. Vai correr uma prova com premiação e controle antidoping. Quer saber se precisa parar o tratamento.
 
-**No Brasil, a organização nacional antidopagem é a Autoridade Brasileira de Controle de Dopagem, a ABCD**, vinculada ao Ministério do Esporte. **Ela publica a lista em português, conduz controles, e é quem avalia os pedidos de autorização de uso terapêutico** de atletas de nível nacional.
+E uma jogadora de vôlei, com dor que não cede, recebeu indicação de infiltração de corticoide duas semanas antes de um campeonato.
 
-**E, acima e ao lado, estão as federações internacionais e os organizadores de eventos**, que têm regras próprias de competência — **e é por isso que "quem decide" depende do nível do atleta**, como vamos ver no slide da autorização.
+As três respostas são diferentes, e nenhuma delas é "não". Todas dependem de a equipe saber alguma coisa antes, e não depois.
 
-**Por que o sistema existe?** Três razões declaradas, e vale conhecê-las porque elas explicam decisões que parecem arbitrárias. **Proteger a saúde do atleta. Garantir competição justa. E preservar o que o Código chama de espírito esportivo.**
-
-**E a regra que governa a inclusão de uma substância na lista:** ela entra quando preenche **pelo menos dois de três critérios** — **potencial de melhorar o desempenho, risco à saúde, e violação do espírito esportivo** — **ou quando mascara o uso de outra substância proibida.**
-
-**Esse "dois de três" explica coisas que confundem muita gente.** **Explica por que um diurético é proibido** mesmo sem melhorar desempenho: ele **mascara**. **E explica por que substâncias sem efeito ergogênico nenhum podem estar lá.**
-
-Uma última peça do mapa, que o slide 9 vai detalhar: **este sistema se aplica a quem está sob a jurisdição dele** — atletas federados, em competições oficiais. **Não a quem corre no parque.** Mas **o amador federado existe, e é mais comum do que se pensa** — a nadadora master do slide 1 é exatamente isso.
+E há uma quarta pessoa: o profissional que não prescreve nada e acha que isso não é problema dele. É. E a aula vai mostrar por quê.
 
 ---
 
-📊 **[SLIDE 3 DE 10]**
-*Visual: a lista dividida em três blocos verticais — "em todos os momentos", "em competição", "esportes específicos" — com as classes listadas em cada um e um carimbo de "atualizada em 1º de janeiro".*
-*Teleprompter: (a estrutura da lista — o que é estável e o que muda)*
+📊 **[SLIDE 3 DE 12]**
+*Visual: tabela com os três blocos da lista: em todos os momentos, em competição, em esportes específicos, com as classes de cada um. Um carimbo: "em vigor em 1º de janeiro".*
+*Teleprompter: (o sistema e a estrutura da lista)*
 
-**A lista.** E a coisa mais importante sobre ela é **a estrutura**, não o conteúdo — porque a estrutura é estável e o conteúdo muda anualmente.
+Primeiro, o mapa. A Agência Mundial Antidopagem publica o Código Mundial Antidopagem, que harmoniza as regras entre esportes e países. Ligados ao Código estão os Padrões Internacionais; dois interessam aqui: o da Lista de Substâncias e Métodos Proibidos e o de Autorizações de Uso Terapêutico. No Brasil, a organização nacional é a Autoridade Brasileira de Controle de Dopagem, a ABCD, ligada ao Ministério do Esporte. Ela publica a lista em português, conduz controles e avalia os pedidos de autorização de atletas de nível nacional.
 
-**Ela se divide em três blocos.**
+Uma substância entra na lista quando preenche pelo menos dois de três critérios: potencial de melhorar o desempenho, risco à saúde e violação do espírito esportivo. Ou quando mascara outra substância proibida. Isso explica por que um diurético é proibido sem melhorar desempenho nenhum: ele mascara.
 
-**Bloco um: substâncias e métodos proibidos em todos os momentos** — dentro e fora de competição. É o bloco mais pesado, e inclui: **substâncias não aprovadas** — aquelas sem aprovação regulatória para uso humano, uma classe que existe justamente para pegar o que ainda não tem nome; **agentes anabólicos**; **hormônios peptídicos, fatores de crescimento e substâncias relacionadas** — onde estão eritropoietina, hormônio de crescimento e vários peptídeos; **beta-2 agonistas**; **moduladores hormonais e metabólicos** — inibidores de aromatase, moduladores do receptor de estrogênio, e os chamados moduladores seletivos do receptor de androgênio; **e diuréticos e agentes mascarantes.**
+A lista tem três blocos. Proibidos em todos os momentos, dentro e fora de competição: substâncias não aprovadas para uso humano, agentes anabolizantes, hormônios peptídicos e fatores de crescimento, beta-2 agonistas, moduladores hormonais e metabólicos, diuréticos e mascarantes, e os métodos: manipulação de sangue, manipulação química e física, dopagem genética e celular.
 
-**E os métodos: manipulação de sangue e componentes, manipulação química e física, e dopagem genética e celular.**
+Proibidos só em competição: estimulantes, narcóticos, canabinoides e glicocorticoides. E "em competição" tem definição precisa: começa às 23h59 da véspera e vai até o fim da competição e da coleta. É essa definição que separa tratamento legítimo de violação.
 
-**Bloco dois: proibidos apenas em competição.** **Estimulantes, narcóticos, canabinoides e glicocorticoides.** **O conceito de "em competição" tem uma definição temporal precisa na norma** — em geral, a partir da noite anterior à competição —, **e essa definição importa muito na prática**, porque é o que separa um tratamento legítimo de uma violação.
+Proibidos em esportes específicos: betabloqueadores, em modalidades de precisão.
 
-**Bloco três: proibidos em esportes específicos.** **Betabloqueadores**, em modalidades de precisão — tiro, arco, algumas outras.
-
-**Agora as três regras de uso da lista, que valem mais do que decorar classes.**
-
-**Regra um: a lista muda todo ano, e entra em vigor em 1º de janeiro.** **A versão do ano passado não serve.** Todo janeiro, alguém da equipe precisa reler.
-
-**Regra dois: consulte em português, na fonte oficial.** **A ABCD publica a lista vigente**, e existem ferramentas de consulta por nome de medicamento. **O que não vale é consultar num grupo de mensagens.**
-
-**Regra três — e esta é a que mais evita desastre: a lista é de substâncias, não de marcas.** **Você precisa olhar o princípio ativo**, e um medicamento pode ter **vários.** **É no segundo princípio ativo do xarope que a história costuma terminar mal.**
+E três regras de uso, que valem mais que decorar classes. A lista muda todo ano e entra em vigor em 1º de janeiro; a do ano passado não serve. Consulta-se em português, na fonte oficial, nunca num grupo de mensagens. E a lista é de substâncias, não de marcas: olha-se o princípio ativo, e um medicamento pode ter vários. É no segundo princípio ativo do xarope que a história costuma terminar mal.
 
 ---
 
-📊 **[SLIDE 4 DE 10]**
-*Visual: onze caixas numeradas, com a primeira ("presença da substância") pequena e as outras dez do mesmo tamanho, mostrando que testar positivo é só uma delas.*
-*Teleprompter: (as violações — por que isto não é só sobre exame positivo)*
+📊 **[SLIDE 4 DE 12]**
+*Visual: duas colunas com as onze violações. À esquerda, as quatro que dizem respeito ao atleta. À direita, as sete que qualquer pessoa pode cometer.*
+*Teleprompter: (violação não é sinônimo de exame positivo)*
 
-**O erro conceitual mais comum sobre antidoping: achar que violação é sinônimo de exame positivo.**
+O erro conceitual mais comum: achar que violação é sinônimo de exame positivo.
 
-**O Código lista onze tipos de violação de regra antidopagem.** Eu não vou decorar todas com vocês, mas **vocês precisam saber que elas existem** — e, principalmente, **que várias delas não dependem de exame nenhum, e várias podem ser cometidas por quem não é atleta.**
+O Código lista onze violações de regra antidopagem. Não precisam ser decoradas, mas precisam ser conhecidas, porque várias não dependem de exame nenhum.
 
-**Presença** da substância na amostra. **Uso ou tentativa de uso.** **Recusar ou evitar a coleta** — que equivale a um positivo. **Falhas de localização**, para atletas do grupo de testes registrados, que precisam informar onde estarão. **Adulteração do processo de controle.** **Posse** de substância ou método proibido. **Tráfico.** **Administração a um atleta.** **Cumplicidade** — ajudar, encobrir, incentivar. **Associação proibida** — trabalhar com profissional que está cumprindo sanção. **E atos para desencorajar ou retaliar quem denuncia.**
+Quatro dizem respeito ao atleta: presença da substância na amostra; uso ou tentativa de uso; recusar ou evitar a coleta, que equivale a um positivo; e falhas de localização, para quem está no grupo de testes registrado.
 
-**Leia de novo as últimas cinco. Nenhuma delas exige que você seja atleta.**
+As outras sete podem ser cometidas pelo atleta ou por qualquer outra pessoa: adulterar o controle; posse; tráfico; administração a um atleta; cumplicidade, que inclui ajudar, encobrir e incentivar; associação proibida, que é trabalhar com profissional cumprindo sanção; e atos para desencorajar ou retaliar quem denuncia.
 
-**Posse, tráfico, administração, cumplicidade e associação proibida são violações que podem ser cometidas por pessoal de apoio** — médico, nutricionista, preparador, fisioterapeuta, técnico, dirigente.
+Leia de novo a coluna da direita. Médico, nutricionista, preparador, fisioterapeuta, técnico e dirigente estão todos ali.
 
-**E "cumplicidade" é mais larga do que parece.** Ela inclui **encobrir** e **incentivar.**
+Então a frase deste slide: "eu não prescrevo, então não me envolve" está errada como fato, não como opinião. Indicar, fornecer, aplicar, encobrir ou incentivar são condutas descritas no sistema.
 
-Então a frase que eu quero que vocês guardem deste slide: **"eu não prescrevo, então não me envolve" está errado como fato, não como opinião.** **Indicar, fornecer, aplicar, encobrir ou incentivar já são condutas descritas no sistema.**
-
-E uma que é específica e frequentemente ignorada: **associação proibida.** **Um profissional sancionado não pode trabalhar com atletas — e o atleta que se associa a ele comete violação.** Isso significa, na prática: **você precisa saber com quem o seu atleta está conversando**, e **precisa se importar com quem a sua clínica contrata.**
+E a associação proibida tem consequência prática: é preciso saber com quem o atleta está trabalhando, e com quem a clínica contrata.
 
 ---
 
-📊 **[SLIDE 5 DE 10]**
-*Visual: cinco fichas clínicas — asma, dor, resfriado, TDAH, corte de peso — cada uma com a classe da lista correspondente ao lado.*
-*Teleprompter: (a lista onde ela realmente aparece — no consultório)*
+📊 **[SLIDE 5 DE 12]**
+*Visual: fluxograma da decisão de prescrever. "Compete sob controle?" Não: "a pergunta vira 'é seguro?'". Sim: "o princípio ativo está na lista vigente?" Não: prescreve e registra. Sim: "via, dose e momento permitidos?" Sim: segue, registra, declara. Não: "alternativa permitida razoável?" Sim: troca. Não: AUT com antecedência.*
+*Teleprompter: (a decisão, em quatro perguntas)*
 
-**Agora a lista onde ela aparece de verdade: na prescrição do dia a dia.** Cinco situações que respondem pela maior parte dos sustos.
+Agora a decisão, como ela acontece no consultório. Quatro perguntas, em cascata.
 
-**Uma: asma e broncodilatadores.** **A classe dos beta-2 agonistas é proibida em todos os momentos — com exceções.** **Alguns inalatórios são permitidos até limites de dose definidos**, expressos em microgramas por vinte e quatro horas e com teto por intervalo menor. **E existem limites de concentração na urina acima dos quais o resultado é considerado adverso**, salvo demonstração farmacocinética.
+Um: essa pessoa compete sob controle antidoping? A pergunta custa cinco segundos na anamnese. Se a resposta é não, a pergunta muda de natureza: deixa de ser "é proibido?" e vira "é seguro?". Voltamos a isso.
 
-**A consequência prática para a nadadora do slide 1 é excelente:** o tratamento habitual da asma, **na via e na dose corretas**, em geral é compatível com a competição. **O que muda tudo é a via e a dose** — e é por isso que a pergunta dela **não é "pode a bombinha?", e sim "qual substância, em que dose, por qual via?"**. **Nebulização, comprimido ou injetável mudam a resposta.**
+Dois: o princípio ativo está na lista vigente? Se não está, prescreve-se e registra-se que foi verificado.
 
-**Duas: corticoides.** E aqui houve mudança relevante nos últimos anos, então **é obrigatório conferir a versão vigente.** **Glicocorticoides são proibidos em competição, e a norma atual alcança as vias injetáveis, oral e retal** — enquanto **uso tópico, inalatório e outras vias locais permanecem permitidos.** **E existem períodos de eliminação publicados**, que dizem com quanta antecedência da competição a última aplicação pode ter sido feita.
+Três: se está, a via, a dose e o momento são permitidos? Porque muitas classes têm exceções. Beta-2 agonista inalatório dentro do limite de dose. Glicocorticoide por via não proibida, ou fora do período de competição com o tempo de eliminação respeitado. Estimulante usado fora de competição. Se cabe, segue-se o tratamento, registra-se no prontuário, e o atleta declara no formulário se for controlado.
 
-**É a situação da jogadora de vôlei do slide 1** — e a decisão dela depende de **três variáveis: a via, a substância e a distância até a competição.**
+Quatro: se não cabe, existe alternativa permitida razoável? Se existe, troca-se. Se não existe, o caminho é a autorização de uso terapêutico, pedida com antecedência.
 
-**Três: resfriado, gripe e o balcão da farmácia.** **Estimulantes são proibidos em competição**, e alguns descongestionantes comuns caem nessa classe — **com limite de concentração urinária, em alguns casos.** **É o clássico "tomei um xarope".** **A regra prática: em período de competição, nada de automedicação, e todo medicamento é conferido pelo princípio ativo.**
-
-**Quatro: transtorno de déficit de atenção.** **Os estimulantes usados no tratamento estão na classe proibida em competição.** **E aqui a resposta certa não é interromper um tratamento psiquiátrico para correr uma prova** — é **autorização de uso terapêutico**, que é o próximo slide. **Suspender medicação de saúde mental por causa de esporte amador é uma troca ruim, e é uma decisão médica, não esportiva.**
-
-**Cinco: diuréticos e corte de peso.** **Diuréticos são proibidos em todos os momentos**, inclusive porque **mascaram** outras substâncias. E isso fecha o círculo com a aula 4.9: **o atleta de categoria de peso que usa diurético para bater a balança não está só correndo risco de saúde — está cometendo uma violação.** **E foi a classe mais encontrada como adulterante nos suplementos analisados no Brasil**, como a aula 5.9 mostrou. **Ele pode cometer a violação sem saber.**
-
-**E o princípio que unifica os cinco: verifique antes de prescrever, sempre, pelo princípio ativo — e registre que verificou.**
+Repare que "não pode" não aparece em nenhuma saída do fluxo.
 
 ---
 
-📊 **[SLIDE 6 DE 10]**
-*Visual: os quatro critérios da AUT numerados em uma coluna; ao lado, uma linha do tempo com "30 dias antes" marcado e o prazo de "até 21 dias" para a resposta.*
-*Teleprompter: (a autorização de uso terapêutico — os critérios e o fluxo brasileiro)*
+📊 **[SLIDE 6 DE 12]**
+*Visual: tabela com as cinco situações do consultório: asma, corticoide, resfriado, TDAH, corte de peso. Colunas: classe, bloco, o que decide.*
+*Teleprompter: (onde a lista aparece de verdade)*
 
-**A autorização de uso terapêutico — a AUT.** É o mecanismo que permite que **um atleta doente seja tratado.**
+Onde a lista aparece de verdade: na prescrição do dia a dia. Cinco situações respondem pela maior parte dos sustos.
 
-E vale dizer isso com todas as letras, porque existe um mal-entendido moral no meio esportivo: **AUT não é um privilégio nem uma brecha. É o dispositivo que impede que a regra antidoping impeça um tratamento.**
+Asma. Beta-2 agonistas são proibidos em todos os momentos, com exceções para alguns inalatórios até doses definidas. Na lista de 2026, por exemplo, salbutamol inalatório até 1.600 microgramas em 24 horas, sem passar de 600 em 8 horas; formoterol até 54 microgramas em 24 horas; salmeterol até 200. E existe limite de concentração na urina. O que muda tudo é a substância, a via e a dose. Nebulização, comprimido ou injetável mudam a resposta.
 
-**Os quatro critérios do Padrão Internacional — e é preciso preencher todos.**
+Corticoide. Glicocorticoides são proibidos em competição por qualquer via injetável, e também por via oral e retal. Tópico, inalatório e outras vias locais continuam permitidos. E há tempos mínimos de eliminação publicados, que variam com a substância e a via, entre a última aplicação e o início do período de competição.
 
-**Um: existe uma condição médica diagnosticada que exige o uso da substância ou do método proibido.**
+Resfriado e o balcão da farmácia. Alguns descongestionantes são estimulantes, proibidos em competição. É o clássico "tomei um xarope". Em período de competição, nada de automedicação, e todo remédio é conferido pelo princípio ativo.
 
-**Dois: o uso terapêutico não produzirá, na balança das probabilidades, melhora de desempenho além do estado normal de saúde do atleta.** **Repare na formulação: o alvo é devolver a pessoa ao normal dela, não levá-la acima.**
+Transtorno de déficit de atenção. Os estimulantes do tratamento estão na classe proibida em competição. A resposta não é interromper o tratamento psiquiátrico; é autorização de uso terapêutico.
 
-**Três: não existe alternativa terapêutica permitida razoável.**
-
-**Quatro: a necessidade não é consequência do uso prévio, sem autorização, de uma substância que era proibida no momento em que foi usada.** **Ou seja: quem se dopou não usa o dano causado por isso como justificativa para continuar.**
-
-**Como se faz no Brasil.** O atleta **preenche o formulário de solicitação da ABCD**, com **o diagnóstico claramente descrito, o nome da substância, a dose, a via e a duração do tratamento**, acompanhado de **histórico médico completo — laudos, exames, receitas e relatórios que sustentem o diagnóstico.**
-
-**A solicitação é avaliada por uma comissão de médicos especialistas**, e **o prazo para decisão é de até vinte e um dias corridos.**
-
-**E o prazo que mais gera problema: para substâncias proibidas apenas em competição, a solicitação deve ser feita com pelo menos trinta dias de antecedência da competição.**
-
-**Junte os dois números — trinta dias de antecedência, até vinte e um dias para decidir — e você entende por que a AUT pedida na véspera é um problema.**
-
-**Três notas que evitam os erros mais comuns.**
-
-**Primeira: quem precisa pedir, e para quem, depende do nível do atleta.** Atleta de nível internacional responde à federação internacional; atleta de nível nacional, à organização nacional; **e atletas de níveis inferiores muitas vezes só precisam solicitar se forem testados** — o que abre a possibilidade da **AUT retroativa**, prevista em situações específicas, como emergência médica ou tratamento agudo. **Não conte com ela como plano.**
-
-**Segunda: a documentação é a alma do processo.** **Um pedido mal documentado é negado** — e o que reprova a maior parte deles não é o mérito clínico, é a falta de laudo, de exame e de história. **Isso é trabalho do médico assistente, e é trabalho de verdade.**
-
-**Terceira: AUT tem validade e escopo.** **Ela vale para a substância, a dose, a via e o período aprovados.** **Mudou a dose ou a via, a conversa recomeça.**
+E diuréticos no corte de peso. Proibidos em todos os momentos, porque mascaram. Fecha o círculo com a aula de composição corporal do módulo de nutrição: quem usa diurético para bater a balança não corre só risco de saúde, comete violação. E, como a aula anterior mostrou, diurético foi o adulterante mais comum nos suplementos analisados no Brasil. A violação pode acontecer sem que a pessoa saiba.
 
 ---
 
-📊 **[SLIDE 7 DE 10]**
-*Visual: a sequência do controle — notificação, acompanhamento, coleta com amostras A e B, laboratório, resultado — com um ponto de decisão marcado em "suspensão provisória".*
-*Teleprompter: (o controle e o que acontece depois — para saber o que dizer no dia)*
+📊 **[SLIDE 7 DE 12]**
+*Visual: os quatro critérios da AUT numerados. Ao lado, uma linha do tempo: "30 dias antes" e "até 21 dias para decidir".*
+*Teleprompter: (a autorização de uso terapêutico)*
 
-**O controle antidoping, na prática.** Vocês precisam disto para uma coisa específica: **saber o que fazer e o que dizer no dia em que acontecer.**
+A autorização de uso terapêutico, a AUT. É o mecanismo que permite tratar um atleta doente.
 
-**O atleta é notificado** — pode ser em competição ou fora dela, inclusive sem aviso prévio. **A partir da notificação, ele fica sob observação do agente até a coleta.**
+E vale dizer com todas as letras, porque há um mal-entendido moral no meio esportivo: AUT não é privilégio nem brecha. É o dispositivo que impede que a regra antidoping impeça um tratamento.
 
-**Ele tem direito a um acompanhante** — e, se for menor de idade, **o acompanhamento é obrigatório.** **Esse acompanhante pode ser vocês.** E o papel dele é simples e importante: **observar o procedimento, conferir os dados do formulário, conferir os números dos lacres e garantir que qualquer irregularidade seja registrada no próprio formulário, na hora.**
+Quatro critérios, e todos precisam ser preenchidos.
 
-**E este é o momento de declarar tudo: todos os medicamentos e suplementos usados nos dias anteriores entram no formulário.** **Declarar não protege de um resultado positivo — mas a ausência de declaração pesa contra.**
+Existe uma condição médica diagnosticada que exige a substância ou o método proibido.
 
-**A amostra é dividida em A e B.** A **A** é analisada; se der **resultado analítico adverso**, **o atleta tem o direito de solicitar a análise da B**, que serve para confirmar ou refutar.
+O uso é altamente improvável de produzir melhora de desempenho além do retorno ao estado normal de saúde do atleta. O alvo é devolver a pessoa ao normal dela, não levá-la acima.
 
-**Recusar-se a coletar, ou evitar a coleta, equivale a um resultado positivo** — e é uma das violações do slide 4. **Isso precisa ser dito ao atleta antes, e não na hora em que ele estiver irritado com o agente.**
+Não existe alternativa terapêutica permitida razoável.
 
-**Depois do resultado adverso**, dependendo da substância, **pode haver suspensão provisória** — o atleta para de competir antes mesmo do julgamento. **Há direito de defesa, audiência e recurso.**
+E a necessidade não é consequência de uso prévio, sem autorização, de algo que era proibido. Quem se dopou não usa o dano como justificativa para continuar.
 
-**E as sanções variam com a intenção e com as circunstâncias.** Violações intencionais levam a **períodos longos de inelegibilidade**. **Há redução quando se demonstra ausência de culpa significativa** — e **é exatamente aqui que entra a documentação da aula 5.9**: **produto contaminado, embalagem guardada, lote registrado, compra documentada, análise do produto.** **O que parecia burocracia vira a diferença entre quatro anos e alguns meses.**
+No Brasil, o atleta preenche o formulário da ABCD com o diagnóstico, a substância, a dose, a via e a duração, e anexa o histórico: laudos, exames, receitas, relatórios. Uma comissão de médicos especialistas avalia, com prazo de até 21 dias corridos para decidir. E, para substâncias proibidas só em competição, o pedido deve ser feito pelo menos 30 dias antes da competição.
 
-**E uma nota de humanidade, porque isso importa:** um atleta notificado de um resultado adverso **entra numa crise de identidade, de reputação e, muitas vezes, financeira.** **Ele vai precisar de apoio jurídico especializado e, com frequência, de apoio psicológico** — e isso é a aula **10.5.** **O papel da equipe ali não é julgar. É organizar a defesa e sustentar a pessoa.**
+Junte os dois números e você entende por que a AUT pedida na véspera é um problema.
 
----
-
-📊 **[SLIDE 8 DE 10]**
-*Visual: a matriz das seis profissões, com o nível de responsabilidade de cada uma em antidoping, e uma faixa comum na base escrita "verificar, documentar, encaminhar".*
-*Teleprompter: (a responsabilidade de cada um — a parte que define o módulo)*
-
-**Agora a responsabilidade de cada profissão** — e este slide é o motivo de a aula ser obrigatória para todos.
-
-**O médico.** **Prescreve, e portanto é quem mais decide.** A obrigação prática: **verificar a substância na lista vigente antes de prescrever**, sempre que houver atleta sujeito a controle; **escolher a alternativa permitida quando existir**; **conduzir o processo de AUT com documentação adequada**; e **registrar tudo no prontuário.** **A frase "eu não sabia que ele competia" é evitável com uma pergunta na anamnese.**
-
-**O nutricionista.** **Decide sobre suplementos**, que são a principal fonte de violação não intencional. Obrigação: **o procedimento de seis passos da aula 5.9**, com **registro de marca, lote e produto.** **E o direito de dizer não a um produto que não dá para checar.**
-
-**O educador físico e o preparador físico.** **Não prescrevem substância — e é justamente por isso que são muito consultados informalmente.** "Professor, o que você acha desse aqui?" **A resposta profissional é encaminhar, não opinar.** E há uma obrigação específica: **reconhecer o que o ambiente oferece** — o colega que vende, o "protocolo" que circula no vestiário, o produto que apareceu na mochila.
-
-**O fisioterapeuta.** **Aplica recursos e acompanha o atleta de perto e com frequência** — e, por isso, **é quem mais escuta.** Atenção especial ao que é **administrado**: qualquer substância aplicada, infiltrada ou usada em procedimento **entra na conta.** **E "administrar" é uma das onze violações.**
-
-**O psicólogo.** Duas frentes. **A pressão que leva ao uso** — desempenho, corpo, dinheiro, pertencimento — e, no outro extremo, **o atleta que já cometeu uma violação e está em colapso.**
-
-**E, na base, o que é de todos: verificar, documentar, encaminhar.**
-
-**Três regras comuns, que valem para as seis profissões.**
-
-**Regra um: pergunte se o atleta compete sob controle antidoping.** **Numa anamnese, isso custa cinco segundos** — e muda a conduta inteira.
-
-**Regra dois: nunca indique o que você não pode checar.** Vale para suplemento, para fórmula manipulada e para "aquilo que o pessoal está usando".
-
-**Regra três: documente.** **O que foi indicado, o que foi verificado, e quando.** **Num sistema de responsabilidade estrita, o registro é a única forma de reconstruir a história.**
-
-**E a regra de ouro, que resume o módulo: na dúvida, não use — e pergunte a quem sabe, antes.** **Existe uma assimetria brutal aqui: o custo de verificar é de minutos; o custo de não verificar pode ser de anos.**
+Três notas. Quem pede, e para quem, depende do nível do atleta: internacional responde à federação internacional; nacional, à ABCD; e atletas de nível mais baixo muitas vezes só precisam pedir se forem testados, o que abre a AUT retroativa em situações específicas, como emergência. Não é plano. Segunda: a documentação é a alma do processo; o que reprova a maior parte dos pedidos é falta de laudo, de exame e de história, e isso é trabalho do médico assistente. Terceira: a AUT vale para a substância, a dose, a via e o período aprovados. Mudou algo, a conversa recomeça.
 
 ---
 
-📊 **[SLIDE 9 DE 10]**
-*Visual: dois círculos que se sobrepõem — "sob jurisdição antidoping" e "praticante comum" — com uma faixa de sobreposição maior do que se espera, marcada "amador federado, master, prova de rua com premiação".*
-*Teleprompter: (e quem nunca vai ser testado? — por que o módulo importa mesmo assim)*
+📊 **[SLIDE 8 DE 12]**
+*Visual: duas colunas: "No dia do controle" e "Depois do resultado adverso".*
+*Teleprompter: (o controle, para saber o que dizer no dia)*
 
-**A pergunta honesta: e o paciente que nunca vai ser testado?**
+O controle, na prática. Vocês precisam disto para uma coisa: saber o que fazer e o que dizer no dia.
 
-**A maior parte de quem vocês atendem não está sob jurisdição antidoping.** Quem corre no parque, quem treina na academia, quem joga a pelada de domingo — **não há controle, não há lista, não há sanção.**
+O atleta é notificado, em competição ou fora dela, inclusive sem aviso. A partir daí, fica sob observação até a coleta. Tem direito a um acompanhante, e se for menor de idade o acompanhamento é obrigatório. Esse acompanhante pode ser você. O papel é observar o procedimento, conferir os dados e os lacres, e garantir que qualquer irregularidade seja registrada no próprio formulário, na hora.
 
-**Três respostas para por que esta aula importa mesmo assim.**
+É o momento de declarar tudo: todos os remédios e suplementos dos dias anteriores. Declarar não protege de um resultado positivo, mas a ausência de declaração pesa contra.
 
-**Primeira: a sobreposição é maior do que parece.** **Campeonatos master, ligas amadoras federadas, provas de rua com premiação, campeonatos estaduais de categorias de base, competições universitárias** — muitos deles estão sob o sistema. **A nadadora do slide 1 é uma dona de casa de quarenta e dois anos que nada por prazer, e ela está sob a regra.** **A pergunta "você compete em alguma coisa oficial?" é o que revela isso.**
+A amostra é dividida em A e B. A A é analisada; se houver resultado adverso, o atleta pode pedir a análise da B. E recusar ou evitar a coleta equivale a um positivo. Isso se diz ao atleta antes, não na hora em que ele está irritado com o agente.
 
-**Segunda, e mais importante: a lista é, em boa medida, uma lista de coisas que fazem mal.** **Anabolizantes, hormônio de crescimento, eritropoietina, estimulantes potentes, diuréticos usados para bater peso.** **O amador que usa isso não corre risco de sanção — corre exatamente os mesmos riscos de saúde**, e sem nenhum controle médico, sem exame, e geralmente com produto de origem desconhecida. **Ele tem menos proteção, não mais.**
+Depois do resultado adverso, pode haver suspensão provisória, antes do julgamento, com direito a defesa, audiência e recurso. As sanções variam com a intenção e as circunstâncias. Violação intencional leva a períodos longos de inelegibilidade. Há redução quando se demonstra ausência de culpa significativa, e é aqui que entra a documentação da aula anterior: produto contaminado, embalagem guardada, lote registrado, compra documentada, análise do produto. O que parecia burocracia vira a diferença de anos.
 
-**Terceira: o vocabulário do doping vazou para a academia.** **"Ciclo", "protocolo", "TRT", "modulador"** — são palavras do meio competitivo que hoje circulam entre pessoas que nunca vão competir. **Reconhecer esse vocabulário é reconhecimento clínico**, e é exatamente o que a aula 4.12 pediu com a comida.
-
-**Então o que muda na prática, para quem atende o amador?** **Não muda a lista — muda a pergunta.** Em vez de **"isso é proibido?"**, a pergunta vira **"isso é seguro, e por que essa pessoa está usando?"**. **É a pergunta da próxima aula.**
+E uma nota de humanidade. O atleta notificado entra numa crise de identidade, de reputação e, muitas vezes, financeira. Vai precisar de apoio jurídico especializado e, com frequência, psicológico, assunto do módulo de psicologia do esporte e saúde mental. O papel da equipe ali não é julgar. É organizar a defesa e sustentar a pessoa.
 
 ---
 
-📊 **[SLIDE 10 DE 10]**
-*Visual: as três pessoas do slide 1, agora com a decisão e o caminho escritos ao lado de cada uma.*
-*Teleprompter: (as três decisões, e o fechamento)*
+📊 **[SLIDE 9 DE 12]**
+*Visual: tabela com as profissões e o papel de cada uma no antidoping. Embaixo, uma faixa comum: "verificar, documentar, encaminhar".*
+*Teleprompter: (a responsabilidade de cada profissão)*
+
+A responsabilidade de cada profissão. Este slide é o motivo de a aula ser obrigatória para todos.
+
+O médico prescreve, e portanto é quem mais decide. Verifica a substância na lista vigente antes de prescrever, escolhe a alternativa permitida quando existe, conduz a AUT com documentação e registra tudo. "Eu não sabia que ele competia" é evitável com uma pergunta na anamnese.
+
+O nutricionista decide sobre suplementos, a principal fonte de violação não intencional. O procedimento de seis perguntas da aula anterior, com registro de marca e lote. E o direito de dizer não ao que não dá para checar.
+
+O educador físico e o preparador não prescrevem substância, e justamente por isso são muito consultados de forma informal. A resposta profissional é encaminhar, não opinar. E reconhecer o que o ambiente oferece: o colega que vende, o "protocolo" que circula no vestiário, o produto que apareceu na mochila.
+
+O fisioterapeuta acompanha de perto e com frequência, e por isso é quem mais escuta. Atenção ao que é administrado: qualquer substância aplicada ou usada em procedimento entra na conta. E administrar é uma das onze violações.
+
+O psicólogo tem duas frentes: a pressão que leva ao uso, desempenho, corpo, dinheiro, pertencimento; e o atleta que já cometeu uma violação e está em colapso.
+
+E, na base, o que é de todos: verificar, documentar, encaminhar. Na dúvida, não use, e pergunte antes a quem sabe. O custo de verificar é de minutos. O de não verificar pode ser de anos.
+
+---
+
+📊 **[SLIDE 10 DE 12]**
+*Visual: dois círculos que se sobrepõem, "sob jurisdição antidoping" e "praticante comum". Na sobreposição: "master, liga amadora federada, prova de rua com premiação, universitário".*
+*Teleprompter: (e quem nunca vai ser testado?)*
+
+A pergunta honesta: e o paciente que nunca vai ser testado? A maior parte de quem vocês atendem não está sob jurisdição antidoping. Três razões para esta aula importar mesmo assim.
+
+A sobreposição é maior do que parece. Campeonatos master, ligas amadoras federadas, provas de rua com premiação, competições universitárias e de categorias de base: muitas estão sob o sistema. A nadadora do começo nada por prazer, e está sob a regra. "Você compete em alguma coisa oficial?" é a pergunta que revela isso.
+
+A lista é, em boa parte, uma lista de coisas que fazem mal. Anabolizantes, hormônio de crescimento, eritropoietina, estimulantes potentes, diuréticos para bater peso. O amador que usa isso não corre risco de sanção, mas corre os mesmos riscos de saúde, sem controle médico, sem exame e, em geral, com produto de origem desconhecida. Tem menos proteção, não mais.
+
+E o vocabulário do doping vazou para a academia. "Ciclo", "protocolo", "TRT", "modulador": palavras do meio competitivo que circulam entre pessoas que nunca vão competir. Reconhecer esse vocabulário é reconhecimento clínico, como a aula de alimentação desordenada pediu com a comida.
+
+Para quem atende o amador, não muda a lista; muda a pergunta. Em vez de "isso é proibido?", "isso é seguro, e por que essa pessoa está usando?". É a pergunta da próxima aula.
+
+---
+
+📊 **[SLIDE 11 DE 12]**
+*Visual: tabela com as três decisões do começo, a pergunta do fluxo em que cada uma se resolve e a conduta.*
+*Teleprompter: (as três decisões)*
 
 As três decisões do começo.
 
-**A nadadora master com asma.** **A resposta não é parar o tratamento.** A conduta: **identificar a substância exata, a via e a dose**; **conferir na lista vigente** se aquele inalatório está entre os permitidos e **dentro do limite de dose**; **se estiver, seguir, com o tratamento documentado no prontuário e declarado no formulário de controle**; **se não estiver — outra substância, outra via, dose acima do limite —, ou se houver dúvida, solicitar AUT com antecedência.** **E avisá-la de que existe limite de concentração na urina**, o que significa **usar a dose prescrita, e não "umas puxadas a mais" antes da prova.**
+A nadadora master com asma. Não é parar o tratamento. Identificar a substância, a via e a dose; conferir na lista vigente se aquele inalatório está entre os permitidos e dentro do limite. Se estiver, segue, com o tratamento no prontuário e declarado no formulário de controle. Se não estiver, ou se houver dúvida, AUT com antecedência. E um aviso: existe limite de concentração na urina, então é a dose prescrita, não "umas puxadas a mais" antes da prova.
 
-**O corredor com metilfenidato.** **A resposta não é suspender o tratamento psiquiátrico.** A conduta: **AUT**, com o diagnóstico bem documentado pelo psiquiatra — história, avaliação, tratamento —, **solicitada com pelo menos trinta dias de antecedência**, considerando o prazo de até vinte e um dias para a decisão. **E, se o calendário não permitir, a decisão honesta é sobre a prova, não sobre o remédio: a prova pode esperar; o tratamento, não.**
+O corredor com metilfenidato. Não é suspender o tratamento psiquiátrico. É AUT, com diagnóstico bem documentado pelo psiquiatra, pedida pelo menos 30 dias antes, contando com até 21 dias para a decisão. Se o calendário não permitir, a decisão honesta é sobre a prova, não sobre o remédio. A prova pode esperar; o tratamento, não.
 
-**A jogadora de vôlei com indicação de infiltração de corticoide.** **A decisão depende de três variáveis: a via, a substância e a distância até a competição.** A conduta: **verificar a norma vigente para a via indicada**, **checar o período de eliminação publicado**, **considerar alternativa permitida quando ela existir e for razoável** — e, se a infiltração for mesmo o melhor tratamento e o calendário não der margem, **solicitar AUT.** **E há uma pergunta clínica anterior, que a aula 8 do curso vai aprofundar: essa infiltração é o melhor tratamento, ou é a forma mais rápida de colocá-la em quadra?** **Antidoping e boa medicina, aqui, apontam para o mesmo lado.**
+A jogadora de vôlei com a infiltração. Depende da via, da substância e da distância até a competição. Infiltração é via injetável, proibida em competição; então é conferir o tempo de eliminação publicado para aquela substância, considerar alternativa permitida razoável e, se a infiltração for mesmo o melhor tratamento e o calendário não der margem, pedir AUT. E há uma pergunta clínica anterior, que o módulo de fisioterapia esportiva e reabilitação aprofunda: essa infiltração é o melhor tratamento, ou é a forma mais rápida de colocá-la em quadra? Antidoping e boa medicina, aqui, apontam para o mesmo lado.
 
-**Nos três casos, repare no padrão: a resposta certa quase nunca foi "não pode". Foi "depende da substância, da via, da dose e do prazo — e alguém precisa verificar e documentar."**
+Nos três, o padrão: a resposta certa não foi "não pode". Foi "depende da substância, da via, da dose e do prazo, e alguém precisa verificar e documentar".
 
-**O resumo do que fica.** **O sistema é estável; a lista muda todo ano, em 1º de janeiro.** **Três blocos: sempre, em competição, e esportes específicos.** **Onze violações, e cinco delas podem ser cometidas por quem não é atleta.** **Quatro critérios de AUT, trinta dias de antecedência, até vinte e um dias de decisão, e documentação é o que reprova ou aprova.** **Responsabilidade estrita para o atleta, responsabilidade profissional para quem indica.** **E, na base, três verbos: verificar, documentar, encaminhar.**
+---
 
-Na última aula do módulo, **5.11**, a gente vai ao lugar onde este sistema encosta na clínica de todo dia — **e onde a maior parte de vocês vai encontrar o problema de verdade, sem controle antidoping nenhum: hormônios e peptídeos fora de indicação.**
+📊 **[SLIDE 12 DE 12]**
+*Visual: fecho da aula com os números que ficam e três cartões de papel profissional.*
+*Teleprompter: (fechamento)*
+
+O que fica. O sistema é estável; a lista muda todo ano, em 1º de janeiro. Três blocos: sempre, em competição, esportes específicos. Onze violações, e sete delas podem ser cometidas por quem não é atleta. Quatro critérios de AUT, 30 dias de antecedência, até 21 dias de decisão, e a documentação é o que aprova ou reprova. Responsabilidade estrita para o atleta, responsabilidade profissional para quem indica.
+
+E, na base, três verbos: verificar, documentar, encaminhar.
+
+Na última aula do módulo, a gente vai ao lugar onde este sistema encosta na clínica de todo dia, e onde a maior parte de vocês vai encontrar o problema de verdade, sem controle antidoping nenhum: hormônios e peptídeos fora de indicação.
 
 ---
 
 ## Referências
 
-1. World Anti-Doping Agency. *World Anti-Doping Code.* Montreal: WADA. Disponível em: wada-ama.org
-2. World Anti-Doping Agency. *International Standard — Prohibited List.* Atualização anual, em vigor em 1º de janeiro. Disponível em: wada-ama.org/en/prohibited-list
+1. World Anti-Doping Agency. *World Anti-Doping Code 2021.* Montreal: WADA. Disponível em: wada-ama.org
+2. World Anti-Doping Agency. *International Standard: Prohibited List 2026.* Em vigor desde 1º de janeiro de 2026. Disponível em: wada-ama.org/en/prohibited-list
 3. World Anti-Doping Agency. *International Standard for Therapeutic Use Exemptions (ISTUE).* Disponível em: wada-ama.org
-4. Brasil. Autoridade Brasileira de Controle de Dopagem (ABCD), Ministério do Esporte. Autorização de Uso Terapêutico (AUT) e Lista de Substâncias e Métodos Proibidos. Disponível em: gov.br/abcd
+4. Brasil. Autoridade Brasileira de Controle de Dopagem (ABCD). Autorização de Uso Terapêutico (AUT) e Lista de Substâncias e Métodos Proibidos. Disponível em: gov.br/abcd
 5. Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. *Br J Sports Med.* 2018;52(7):439-455. PMID: 29540367
-6. Martínez-Sanz JM, Sospedra I, Ortiz CM, Baladía E, Gil-Izquierdo A, Ortiz-Moncada R. Intended or unintended doping? A review of the presence of doping substances in dietary supplements used in sports. *Nutrients.* 2017;9(10):1093. doi:10.3390/nu9101093
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — Três decisões que chegam de verdade
-· **A pergunta "isso é proibido?" quase nunca chega sobre um pote — chega sobre um remédio**
-· **Nadadora master, 42, asma** · **corredor, 34, metilfenidato** · **jogadora de vôlei, 19, infiltração de corticoide**
-· **As três respostas são diferentes, e nenhuma é "não"**
-· E a quarta pessoa: **o profissional que não prescreve e acha que não é problema dele** (slide 8)
-· **Nada aqui substitui a norma vigente — a lista muda todo ano**; a aula ensina **o sistema, o raciocínio e o fluxo**
-Visual: os três prontuários e a pergunta "pode?".
+**O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de dez blocos longos.
+Arquitetura DECISÃO mantida (a anterior é PROCEDIMENTO; a próxima é CASO). Para não repetir as
+outras decisões do módulo, esta tem um fluxograma de prescrição em quatro perguntas em cascata, e as
+três situações do começo são resolvidas dentro dele. Sem caso clínico: a nadadora de 42 anos, o
+corredor de 34 e a jogadora de 19 viraram "três decisões típicas", sem idade; saiu "dona de casa".
+Continua sendo a aula mais longa do módulo (22 minutos, eram 30), pelo volume normativo.
 
-**Slide 2** — O mapa institucional
-· **AMA → Código Mundial Antidopagem → Padrões Internacionais** (Lista e AUT)
-· **Brasil: ABCD**, vinculada ao Ministério do Esporte — publica a lista em português, conduz controles, avalia AUT nacional
-· Federações internacionais e organizadores: **quem decide depende do nível do atleta**
-· Por que existe: **saúde · competição justa · espírito esportivo**
-· Entra na lista quem preenche **2 de 3 critérios** — desempenho, risco à saúde, espírito esportivo — **ou mascara**
-· **É por isso que diurético é proibido mesmo sem melhorar desempenho**
-Visual: a pirâmide institucional.
+**Números conferidos.** ABCD: AUT pedida pelo menos 30 dias antes da competição para substâncias
+proibidas só em competição; Comissão de AUT com até 21 dias corridos para decidir. ISTUE, critério
+de desempenho: "altamente improvável" que produza melhora além do retorno ao estado normal de saúde.
+Lista 2022 em diante: glicocorticoides proibidos em competição por qualquer via injetável, além de
+oral e retal; período de competição a partir das 23h59 da véspera; tempos mínimos de eliminação
+publicados. Lista 2026, beta-2 inalatórios: salbutamol até 1.600 µg/24 h, sem exceder 600 µg/8 h;
+formoterol até 54 µg/24 h; salmeterol até 200 µg/24 h (até 100 µg em 8 h a partir de 2026).
+Código 2021: onze violações (artigos 2.1 a 2.11); as sete de 2.5 a 2.11 alcançam o atleta ou
+"outra pessoa".
 
-**Slide 3** — A estrutura da lista
-· **Sempre**: não aprovadas · anabólicos · **hormônios peptídicos e fatores de crescimento** · beta-2 agonistas · moduladores hormonais e metabólicos · **diuréticos e mascarantes** · métodos (sangue, químico-física, genética)
-· **Em competição**: estimulantes · narcóticos · canabinoides · **glicocorticoides**
-· **Esportes específicos**: betabloqueadores
-· **Regra 1: muda todo ano, vigora em 1º de janeiro** · **Regra 2: consultar a fonte oficial em português** · **Regra 3: a lista é de substâncias, não de marcas — olhe o princípio ativo, e há medicamento com vários**
-Visual: os três blocos com o carimbo de 1º de janeiro.
+**Correções.**
+- O segundo critério da AUT estava como "na balança das probabilidades"; o padrão atual diz
+  "altamente improvável". Corrigido.
+- "As últimas cinco violações podem ser cometidas por quem não é atleta" virou "sete de onze",
+  conforme os artigos 2.5 a 2.11.
+- Entraram os limites de dose dos beta-2 inalatórios da lista de 2026, como exemplo e com o aviso
+  de conferir a lista vigente.
+- A definição de "em competição" ganhou o horário da norma (23h59 da véspera).
 
-**Slide 4** — Onze violações, e só uma é o exame
-· Presença · uso ou tentativa · **recusa ou evasão da coleta** · falhas de localização · adulteração do processo · **posse** · **tráfico** · **administração** · **cumplicidade** · **associação proibida** · retaliação contra quem denuncia
-· **Cinco delas não exigem ser atleta** — são de **pessoal de apoio**
-· **"Eu não prescrevo, então não me envolve" está errado como fato**
-· **Associação proibida**: saber com quem o atleta conversa e quem a clínica contrata
-Visual: as onze caixas, a primeira pequena.
+**Saíram.** "Aula 4.9", "aula 5.9", "aula 10.5", "aula 8 do curso", "aula 4.12", "aula 5.11",
+"slide 1", "slide 4", "slide 8", "slide 9", "o escopo", as idades, "dona de casa", o bloco
+"Roteiro Gamma".
 
-**Slide 5** — A lista no consultório
-· **Asma**: beta-2 agonistas proibidos **com exceções** — **inalatórios até limites de dose**, e **limite de concentração urinária**. A pergunta é **"qual substância, em que dose, por qual via?"**
-· **Corticoides**: proibidos **em competição**, alcançando **injetável, oral e retal**; **tópico e inalatório permitidos**; há **períodos de eliminação publicados** — conferir a versão vigente
-· **Resfriado**: estimulantes em competição — **nada de automedicação, conferir princípio ativo**
-· **TDAH**: estimulante do tratamento → **AUT, não suspensão do tratamento**
-· **Diuréticos**: proibidos sempre, **mascaram** — corte de peso (4.9) e **adulterante mais comum no Brasil** (5.9): **violação sem saber**
-· **Verifique antes de prescrever, pelo princípio ativo — e registre que verificou**
-Visual: as cinco fichas clínicas.
+**Citações faladas.** Agência Mundial Antidopagem; ABCD.
 
-**Slide 6** — AUT: critérios e fluxo
-· **Não é privilégio nem brecha — é o que impede a regra de impedir o tratamento**
-· **1.** condição diagnosticada · **2.** sem melhora além do **estado normal de saúde** · **3.** sem alternativa permitida razoável · **4.** não é consequência de uso prévio sem autorização
-· **Brasil**: formulário da ABCD · diagnóstico, substância, **dose, via e duração** · histórico, laudos e exames · comissão de especialistas · **decisão em até 21 dias corridos**
-· **Pedir com pelo menos 30 dias de antecedência** (substâncias proibidas em competição)
-· **Nível do atleta define a quem pedir** · **AUT retroativa existe, mas não é plano**
-· **Documentação é o que reprova ou aprova** · **AUT vale para substância, dose, via e período**
-Visual: os quatro critérios e a linha do tempo.
-
-**Slide 7** — O controle, na prática
-· Notificação → **observação até a coleta** → **direito a acompanhante** (obrigatório se menor)
-· Papel do acompanhante: **conferir dados, lacres e registrar qualquer irregularidade no formulário, na hora**
-· **Declarar todos os medicamentos e suplementos** — não protege do positivo, **mas a ausência pesa**
-· **Amostras A e B** · **recusar ou evitar equivale a positivo**
-· Resultado adverso → possível **suspensão provisória** → defesa, audiência, recurso
-· Sanções variam com intenção; **redução por ausência de culpa significativa** → **é aqui que a documentação da 5.9 vale anos**
-· **Apoio jurídico e psicológico** (10.5) — **o papel da equipe não é julgar, é organizar e sustentar**
-Visual: a sequência do controle.
-
-**Slide 8** — Responsabilidade por profissão
-· **Médico**: verificar antes de prescrever · alternativa permitida · **conduzir a AUT** · registrar. **"Não sabia que competia" se evita com uma pergunta**
-· **Nutricionista**: suplementos — **os seis passos da 5.9**, com lote registrado, e **o direito de dizer não**
-· **Educador físico e preparador**: não prescrevem e **são os mais consultados informalmente** — **encaminhar, não opinar**; reconhecer o que circula no vestiário
-· **Fisioterapeuta**: é quem mais escuta · atenção ao que é **administrado** — e **administrar é uma das onze violações**
-· **Psicólogo**: a pressão que leva ao uso, e o colapso de quem já violou
-· De todos: **verificar · documentar · encaminhar** · pergunte **"você compete sob controle antidoping?"** · **nunca indique o que não pode checar**
-· **O custo de verificar é de minutos; o de não verificar pode ser de anos**
-Visual: a matriz das profissões.
-
-**Slide 9** — E quem nunca vai ser testado?
-· **A sobreposição é maior do que parece**: master, ligas amadoras federadas, provas com premiação, base, universitário — **a pergunta que revela: "você compete em alguma coisa oficial?"**
-· **A lista é, em boa medida, uma lista de coisas que fazem mal** — o amador que usa **corre os mesmos riscos, com menos controle e produto de origem desconhecida**
-· **O vocabulário vazou**: "ciclo", "protocolo", "TRT", "modulador" — **reconhecer isso é reconhecimento clínico** (como na 4.12)
-· Para o amador, a pergunta muda: de **"é proibido?"** para **"é seguro, e por que essa pessoa está usando?"**
-Visual: os dois círculos com a sobreposição.
-
-**Slide 10** — As três decisões
-· **Nadadora**: identificar substância, via e dose · conferir limites · **documentar e declarar** · AUT se fora dos limites ou em dúvida · **dose prescrita, não "umas puxadas a mais"**
-· **Corredor**: **AUT, não suspensão do tratamento** · documentação do psiquiatra · 30 dias de antecedência · **se o calendário não der, a prova espera — o tratamento, não**
-· **Jogadora**: **via, substância e prazo** · período de eliminação · alternativa permitida · AUT se necessário · **e a pergunta anterior: é o melhor tratamento ou o caminho mais rápido para a quadra?**
-· **O padrão: a resposta quase nunca é "não pode" — é "depende, e alguém precisa verificar e documentar"**
-· Resumo: **lista anual, três blocos · onze violações, cinco de apoio · quatro critérios, 30 e 21 dias · responsabilidade estrita e profissional · verificar, documentar, encaminhar**
-· Próxima aula: **5.11 — hormônios e peptídeos fora de indicação**
-Visual: as três pessoas com a decisão e o caminho.
+**Ligações internas.** diurético e corte de peso = aula de composição corporal do módulo de nutrição
+· adulterantes no Brasil, documentação e seis perguntas = aula anterior · apoio psicológico =
+módulo de psicologia do esporte e saúde mental · infiltração como tratamento = módulo de
+fisioterapia esportiva e reabilitação · vocabulário e reconhecimento = aula de alimentação
+desordenada · hormônios e peptídeos = próxima aula · corticoide e analgesia = módulo de medicina
+esportiva clínica.

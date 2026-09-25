@@ -1,232 +1,240 @@
-# Módulo 5 · Aula 5.9 — Contaminação de suplementos e certificação de lote
+# Módulo 5 · Aula 5.9 — Contaminação de suplementos: rotas, responsabilidade e certificação de lote
 
 **Módulo 5 — Suplementação, Ergogênicos e Antidoping**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 19 minutos · 7 slides · Arquitetura: PROCEDIMENTO
+Duração: 16 minutos · 12 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 7]**
-*Visual: um pote de suplemento aberto. Do lado de fora, o rótulo com três ingredientes; de dentro, saem pequenas moléculas extras que não estão escritas em lugar nenhum.*
+📊 **[SLIDE 1 DE 12]**
+*Visual: fundo escuro, a frase "Uma promessa falsa custa dinheiro. Uma substância não declarada pode custar uma carreira." Embaixo: "o que não está escrito no rótulo".*
 *Teleprompter: (entra pela inversão do problema)*
 
-As oito aulas anteriores trataram do que **está escrito no rótulo** — se é verdade, se a dose bate, se a evidência sustenta.
+A aula anterior tratou do que está escrito no rótulo: se é verdade, se a dose bate, se a evidência sustenta.
 
-**Esta aula trata do que não está escrito.**
+Esta trata do que não está escrito.
 
-E a inversão importa, porque ela muda quem corre risco. **Uma promessa falsa custa dinheiro. Uma substância não declarada pode custar uma carreira — e, às vezes, a saúde.**
-
-Três situações.
-
-**Uma atleta federada de atletismo, 23 anos**, testou positivo num controle antidoping. **Ela diz que só tomou um suplemento comprado numa loja, com nota fiscal.** E está convencida de que isso a protege.
-
-**Um jogador amador de 31 anos** toma uma **fórmula manipulada** — feita numa farmácia de manipulação, com "uma combinação personalizada" que alguém prescreveu para ele. Ele acha que manipulado é mais seguro **justamente por ser feito sob medida.**
-
-**E uma nutricionista da equipe** precisa escolher **qual marca indicar** para três atletas que competem sob regra antidoping. Ela quer saber se existe critério objetivo.
-
-**Os três estão no mesmo problema, em três posições diferentes: depois, durante e antes.** Esta aula é o procedimento do **antes** — porque ele é o único que funciona.
+E a inversão muda quem corre risco. Uma promessa falsa custa dinheiro. Uma substância não declarada pode custar uma carreira e, às vezes, a saúde.
 
 ---
 
-📊 **[SLIDE 2 DE 7]**
-*Visual: três estudos empilhados, com os percentuais em destaque: ~15% · 12 a 58% · e um mapa do Brasil com "diuréticos, estimulantes e anabolizantes".*
-*Teleprompter: (o tamanho do problema, com os números)*
+📊 **[SLIDE 2 DE 12]**
+*Visual: três cartões numa linha do tempo: "depois", "durante", "antes". A atleta com teste positivo, o jogador com fórmula manipulada, a nutricionista escolhendo a marca.*
+*Teleprompter: (três situações típicas, três posições no tempo)*
 
-**O tamanho do problema.** E ele é maior do que quase todo mundo imagina.
+Três situações típicas.
 
-O estudo que abriu o campo é de **Geyer e colaboradores, em 2004.** Eles compraram **634 suplementos não hormonais** — produtos comuns, que não prometiam nada hormonal — em **treze países**, de mais de duzentos fornecedores, e analisaram no laboratório.
+Uma atleta federada de atletismo testou positivo num controle antidoping. Diz que só tomou um suplemento comprado em loja, com nota fiscal, e está convencida de que isso a protege.
 
-**Cerca de quinze por cento continham esteroides androgênicos anabolizantes não declarados**, principalmente pró-hormônios.
+Um jogador amador toma uma fórmula manipulada, uma combinação personalizada que alguém prescreveu. Acha que manipulado é mais seguro justamente por ser feito sob medida.
 
-E há um detalhe que vira critério prático: **entre produtos de empresas que também vendiam pró-hormônios, a proporção de contaminados foi cerca de o dobro da observada em empresas que não vendiam.** **A companhia que o produto mantém importa** — e isso é uma das poucas coisas que dá para checar de fora.
+E uma nutricionista da equipe precisa escolher qual marca indicar para três atletas que competem sob regra antidoping. Quer saber se existe critério objetivo.
 
-A revisão de **Martínez-Sanz e colaboradores, de 2017**, juntou o que se publicou depois e encontrou **taxas de contaminação por substâncias proibidas entre doze e cinquenta e oito por cento**, dependendo do tipo de produto, do país e do método.
-
-**Essa faixa é larga porque os estudos são heterogêneos.** Mas repare: **mesmo o limite inferior é alto demais para se ignorar.**
-
-E o dado brasileiro, que é o que mais interessa aqui. **Torres e colaboradores** publicaram a análise de suplementos feita pelo **Laboratório Brasileiro de Controle de Dopagem**, ao longo de vários anos de amostras. Os achados desenham o nosso mapa de risco: **diuréticos foram os adulterantes mais frequentes no conjunto; estimulantes apareceram mais nos produtos industrializados; e agentes anabólicos, mais nos manipulados.**
-
-**Guarde essa última frase**, porque ela contradiz a intuição do jogador do slide 1 — e ela volta no slide 6.
+Os três estão no mesmo problema, em três posições: depois, durante e antes. Esta aula é o procedimento do antes, porque é o único que funciona.
 
 ---
 
-📊 **[SLIDE 3 DE 7]**
-*Visual: uma linha de produção com dois produtos passando na mesma esteira — um com o ícone de proibido — e, ao lado, um saco de matéria-prima importado com origem desconhecida.*
-*Teleprompter: (por que acontece — as quatro rotas)*
+📊 **[SLIDE 3 DE 12]**
+*Visual: números de Geyer: 634 suplementos, 13 países, 215 fornecedores; 14,8% com esteroide anabolizante não declarado; 21,1% contra 9,6% conforme a empresa vendia ou não pró-hormônio.*
+*Teleprompter: (o estudo que abriu o campo)*
 
-**Por que isso acontece?** Quatro rotas, e elas exigem condutas diferentes.
+O tamanho do problema começa com um estudo.
 
-**Rota um: contaminação cruzada na produção.** Uma fábrica que produz, na mesma linha, um produto com pró-hormônio e um pote de creatina. **Resíduo de um lote contamina o seguinte.** As quantidades podem ser **minúsculas — e suficientes para um exame positivo**, porque os métodos analíticos do controle antidoping detectam concentrações extremamente baixas.
+Geyer e colaboradores, em 2004, compraram 634 suplementos não hormonais, produtos comuns que não prometiam nada hormonal, em 13 países, de 215 fornecedores. E analisaram no laboratório.
 
-**Isso é decisivo para entender o problema: a quantidade que contamina não precisa ter efeito nenhum no corpo. Ela só precisa ser detectável.** O atleta pode testar positivo por algo que não fez absolutamente nada por ele.
+Noventa e quatro, 14,8 por cento, continham esteroides anabolizantes não declarados, principalmente pró-hormônios.
 
-**Rota dois: adulteração deliberada.** O fabricante **coloca uma substância farmacológica para que o produto funcione** — e não declara. É o que explica o termogênico que "funciona mesmo" e o "estimulador hormonal" que muda o exame de sangue. **É a peça nove do cartão da aula 5.8: quando promete efeito de medicamento, às vezes é porque tem medicamento.**
-
-**Rota três: matéria-prima.** O insumo é comprado a granel, frequentemente importado, **e o fabricante final não testa o que recebeu.** A cadeia é longa e a rastreabilidade, curta.
-
-**Rota quatro: o enquadramento regulatório.** E este é estrutural. **Suplemento é alimento, não medicamento** — como a aula 5.1 mostrou na norma brasileira. **Isso significa que não há, de rotina, teste de cada lote para substâncias proibidas no esporte.** A fiscalização existe e é importante, **mas ela não foi desenhada para responder à pergunta do antidoping.**
-
-**A conclusão que sai daqui é desconfortável e precisa ser dita com clareza: não existe suplemento com risco zero.** O que existe é **risco menor e risco maior** — e um procedimento para ficar do lado menor.
+E um detalhe que vira critério prático. Entre os produtos de empresas que também vendiam pró-hormônios, 21,1 por cento estavam contaminados. Entre os de empresas que não vendiam, 9,6 por cento. A companhia que o produto mantém importa, e isso é uma das poucas coisas que dá para checar de fora.
 
 ---
 
-📊 **[SLIDE 4 DE 7]**
-*Visual: uma balança da justiça com o atleta de um lado e o pote do outro; embaixo, a frase "a responsabilidade é de quem ingere".*
-*Teleprompter: (responsabilidade estrita — por que a nota fiscal não protege)*
+📊 **[SLIDE 4 DE 12]**
+*Visual: à esquerda, a faixa "12 a 58%" da revisão de Martínez-Sanz. À direita, os achados do laboratório brasileiro: diuréticos no conjunto, estimulantes nos industrializados, anabolizantes nos manipulados.*
+*Teleprompter: (o que veio depois, e o dado brasileiro)*
 
-**Agora o princípio que explica a angústia da atleta do slide 1.**
+A revisão de Martínez-Sanz e colaboradores, de 2017, juntou o que se publicou depois e encontrou taxas de contaminação por substâncias proibidas entre 12 e 58 por cento.
 
-No sistema antidoping, vale a **responsabilidade estrita** — o princípio de que **o atleta responde pelo que está no corpo dele**, independentemente de intenção. **Não é preciso provar que ele quis se dopar. Basta que a substância esteja lá.**
+A faixa é larga porque os estudos são heterogêneos: tipo de produto, país, método. Mas repare que mesmo o limite inferior é alto demais para ignorar.
 
-**Nota fiscal não protege. Rótulo não protege. Boa-fé não protege automaticamente.**
+E o dado brasileiro, que é o que mais interessa aqui. Torres e colaboradores publicaram as análises de suplementos feitas pelo Laboratório Brasileiro de Controle de Dopagem entre 2017 e 2022, e o número de amostras adulteradas preocupa.
 
-Existem mecanismos que consideram a ausência de culpa e podem reduzir a sanção — **e eles exigem que o atleta demonstre a origem**, o que na prática significa: **o pote guardado, o lote registrado, a compra documentada, e uma análise do produto.** **Quem jogou a embalagem fora não tem como demonstrar nada.** O detalhamento do processo, das sanções e da autorização de uso terapêutico é a aula **5.10.**
+Os achados desenham o nosso mapa de risco. Diuréticos foram os adulterantes mais comuns no conjunto. Estimulantes apareceram mais nos produtos industrializados. Agentes anabolizantes, mais nos manipulados.
 
-E aqui vem a parte que interessa diretamente a esta turma: **a responsabilidade estrita é do atleta — mas a responsabilidade profissional é de quem indicou.**
-
-Se você recomendou o produto, **você participa da história.** Eticamente, e às vezes juridicamente. **O código antidoping prevê consequências para pessoal de apoio** que contribui para uma violação.
-
-**Então a regra prática para esta turma é curta: se você não sabe checar o produto, não indique o produto.** **"Toma esse que é bom" não é uma orientação profissional** — e, num atleta testado, pode ser o fim da carreira dele e um problema disciplinar seu.
-
-E vale a extensão para quem **não** atende atleta federado, que é a maioria de vocês: **mesmo sem antidoping, uma substância farmacológica não declarada é um risco à saúde.** Estimulante em quem tem arritmia, diurético em quem toma anti-hipertensivo, anabolizante em quem não faz ideia de que está tomando. **A contaminação não é um problema só de quem compete.**
+Guarde essa última frase. Ela contradiz a intuição do jogador, e volta daqui a pouco.
 
 ---
 
-📊 **[SLIDE 5 DE 7]**
-*Visual: seis caixas numeradas em sequência, com um selo de certificação na quarta e um pote guardado com etiqueta de lote na quinta.*
-*Teleprompter: (o procedimento em seis passos)*
+📊 **[SLIDE 5 DE 12]**
+*Visual: quatro rotas numeradas: contaminação cruzada, adulteração deliberada, matéria-prima, enquadramento regulatório.*
+*Teleprompter: (por que acontece)*
 
-**O procedimento. Seis passos, na ordem.**
+Por que isso acontece? Quatro rotas.
 
-**Passo um: existe necessidade real?** É a aula 5.1 inteira, e ela é o passo mais eficaz de todos — **porque o produto que não é usado tem risco zero.** **Num atleta testado, cada suplemento é um risco assumido**, e a pergunta "isso vale o risco?" tem um peso diferente do habitual. **Reduzir o número de produtos é a principal medida de segurança que existe.**
+Contaminação cruzada na produção. Uma fábrica produz, na mesma linha, um produto com pró-hormônio e um pote de creatina. Resíduo de um lote contamina o seguinte. As quantidades podem ser mínimas e suficientes para um exame positivo, porque os métodos do controle antidoping detectam concentrações muito baixas. A quantidade que contamina não precisa ter efeito nenhum no corpo. Só precisa ser detectável.
 
-**Passo dois: a categoria é de risco alto ou baixo?** **Baixo risco**: produtos de um ingrediente só, de categorias sem apelo farmacológico — creatina monoidratada, proteína em pó, carboidrato, eletrólito. **Risco alto**: **pré-treino, termogênico, "estimulador hormonal", produto para emagrecer, produto de recuperação com fórmula complexa**, e qualquer coisa com muitos ingredientes ou apelo de efeito rápido. **É a lista do passo quatro da aula 5.1, agora lida como mapa de risco.**
+Adulteração deliberada. O fabricante põe uma substância farmacológica para o produto funcionar, e não declara. É o nono alerta do cartão de bolso da aula anterior: quando promete efeito de remédio, às vezes é porque tem remédio.
 
-**Passo três: quem é o fabricante?** **Empresa que também vende produtos com apelo hormonal ou pró-hormônios tem risco maior** — é o achado de Geyer. **Fabricante com planta própria, boas práticas de fabricação e rastreabilidade é melhor do que uma marca que terceiriza sem controle.** **Produto sem fabricante identificável, comprado em marketplace, importado por conta própria: risco alto, e sem ninguém para responder.**
+Matéria-prima. O insumo é comprado a granel, muitas vezes importado, e o fabricante final não testa o que recebeu. A cadeia é longa e a rastreabilidade, curta.
 
-**Passo quatro: existe certificação de lote por terceiro independente?** Esse é o único mecanismo que ataca o problema de frente. **Existem programas internacionais que analisam lotes de suplementos em busca de substâncias proibidas no esporte e publicam a lista do que foi aprovado** — os mais citados são os programas britânicos e norte-americanos de certificação para o esporte e a lista alemã de Colônia. **O que muda a conduta: a certificação é por lote, e não pela marca.** Então **o lote que o atleta comprou precisa ser o lote certificado** — o que se checa no site do programa, pelo número impresso na embalagem.
+E o enquadramento regulatório, que é estrutural. Suplemento é alimento, não medicamento, como ficou na primeira aula do módulo. Não há, de rotina, teste de cada lote para substâncias proibidas no esporte.
 
-**E a limitação, dita com honestidade: certificação reduz risco. Não zera.** Ela testa uma amostra do lote, para um painel de substâncias. **É a melhor ferramenta que existe, e não é uma garantia.**
-
-**Passo cinco: registrar e guardar.** **Anote marca, produto, lote e validade; fotografe o rótulo; guarde a embalagem enquanto o produto estiver em uso e por um tempo depois.** **Isso custa dois minutos e é a única coisa que pode salvar o atleta se algo der errado.** Num serviço organizado, isso vira planilha da equipe.
-
-**Passo seis: reavaliar.** Produto muda de fórmula. **Marca troca de fabricante.** **A certificação de um lote não vale para o próximo.** **Revise a cada compra, não a cada temporada.**
+A conclusão é desconfortável e precisa ser dita com clareza: não existe suplemento com risco zero. Existe risco menor e risco maior, e um procedimento para ficar do lado menor.
 
 ---
 
-📊 **[SLIDE 6 DE 7]**
-*Visual: três embalagens brasileiras lado a lado — um industrializado com registro, um manipulado com etiqueta impressa, e uma caixa importada por marketplace — com o nível de risco embaixo de cada uma.*
-*Teleprompter: (o cenário brasileiro — onde o risco está aqui)*
+📊 **[SLIDE 6 DE 12]**
+*Visual: duas colunas. "O atleta responde pelo que está no corpo." "Quem indicou responde pela indicação."*
+*Teleprompter: (responsabilidade estrita, e a de quem indica)*
 
-**O cenário brasileiro**, porque o procedimento precisa caber na realidade de quem atende aqui.
+O princípio que explica a angústia da atleta.
 
-**Primeiro: a certificação de lote é pouco disponível no Brasil.** A maior parte dos produtos vendidos aqui **não passa por esses programas**, e os que passam costumam ser importados e caros. **Isso não torna o passo quatro inútil — torna os passos um, dois, três e cinco mais importantes.** Num atleta testado, **isso pode significar reduzir a lista a pouquíssimos produtos, ou a nenhum.**
+No sistema antidoping vale a responsabilidade estrita: o atleta responde pelo que está no corpo dele, independentemente de intenção. Não é preciso provar que ele quis se dopar. Basta que a substância esteja lá.
 
-**Segundo, e mais importante: os manipulados.** É o caso do jogador do slide 1, e a intuição dele está invertida.
+Nota fiscal não protege. Rótulo não protege. Boa-fé não protege automaticamente.
 
-**"Manipulado" soa como cuidado individual — feito sob medida, na farmácia, com receita.** E é exatamente essa percepção que cria o risco: **a pessoa baixa a guarda.**
+Existem mecanismos que consideram a ausência de culpa e podem reduzir a sanção, e eles exigem que o atleta demonstre a origem: o pote guardado, o lote registrado, a compra documentada e uma análise do produto. Quem jogou a embalagem fora não tem como demonstrar nada. O processo, as sanções e a autorização de uso terapêutico ficam para a próxima aula.
 
-**Os dados brasileiros apontam na direção oposta da intuição: entre as amostras analisadas pelo laboratório de controle de dopagem, os agentes anabólicos apareceram com mais frequência justamente nos produtos manipulados** — enquanto os estimulantes predominaram nos industrializados.
+E a parte que interessa a esta turma: a responsabilidade estrita é do atleta, mas a responsabilidade profissional é de quem indicou. O código antidoping prevê consequências para o pessoal de apoio que contribui para uma violação.
 
-E faz sentido estrutural: **a fórmula é única, a produção é local e o lote é pequeno**, o que significa **menos camadas de controle e nenhuma possibilidade prática de certificação de lote.** **Some a isso que boa parte das fórmulas manipuladas do meio esportivo é prescrita com apelo de "otimização"** — e você tem a aula 5.11 se desenhando.
+A regra prática é curta: se você não sabe checar o produto, não indique o produto.
 
-**A conduta com manipulado, num atleta testado, é direta: não.** **E, fora do esporte competitivo, a pergunta continua valendo: o que exatamente está nessa fórmula, quem prescreveu, e com base em quê?**
-
-**Terceiro: a compra internacional por conta própria.** Produto que chega por marketplace, sem registro no país, sem fabricante identificável e sem cadeia rastreável. **Se der problema, não há a quem recorrer — e, num controle antidoping, não há como demonstrar origem.**
-
-E uma nota sobre o que a norma brasileira faz e não faz. **A Anvisa regula composição, rotulagem e alegações — e faz fiscalização.** **O que ela não faz, de rotina, é testar lote a lote para substâncias proibidas no esporte**, que é uma pergunta de outro sistema. **Produto regular perante a vigilância sanitária não é, automaticamente, produto seguro para quem é testado.** São duas perguntas diferentes, e confundi-las é o erro mais comum desta aula.
+E ela vale fora do esporte federado, que é onde a maioria de vocês atende. Sem antidoping, uma substância farmacológica não declarada continua sendo risco à saúde. Estimulante em quem tem arritmia. Diurético em quem toma anti-hipertensivo. Anabolizante em quem não faz ideia de que está tomando.
 
 ---
 
-📊 **[SLIDE 7 DE 7]**
-*Visual: as três pessoas do slide 1 com a conduta escrita ao lado, e o cartão de seis passos ao centro.*
-*Teleprompter: (as três condutas, e o fechamento)*
+📊 **[SLIDE 7 DE 12]**
+*Visual: seis passos numerados em sequência horizontal: precisa mesmo? · a categoria é de risco? · quem fabrica? · o lote é certificado? · registrou e guardou? · revisou nesta compra?*
+*Teleprompter: (o procedimento, em seis passos)*
+
+O procedimento. Seis passos, na ordem.
+
+Um: existe necessidade real? É o passo mais eficaz de todos, porque o produto que não é usado tem risco zero. Num atleta testado, cada suplemento é um risco assumido. Reduzir o número de produtos é a principal medida de segurança que existe.
+
+Dois: a categoria é de risco alto ou baixo?
+
+Três: quem é o fabricante?
+
+Quatro: existe certificação de lote por terceiro independente?
+
+Cinco: registrou e guardou?
+
+Seis: revisou nesta compra?
+
+Os passos do meio pedem um slide cada.
+
+---
+
+📊 **[SLIDE 8 DE 12]**
+*Visual: tabela de duas colunas, risco menor e risco maior, com categorias e fabricantes.*
+*Teleprompter: (passos dois e três: categoria e fabricante)*
+
+Categoria. Risco menor: produto de um ingrediente só, de categoria sem apelo farmacológico. Creatina monoidratada, proteína em pó, carboidrato, eletrólito. Risco maior: pré-treino, termogênico, "estimulador hormonal", produto para emagrecer, fórmula de recuperação complexa, e qualquer coisa com muitos ingredientes ou apelo de efeito rápido. É a lista da primeira aula do módulo, agora lida como mapa de risco.
+
+Fabricante. Empresa que também vende produto com apelo hormonal ou pró-hormônio tem risco maior: é o achado de Geyer. Fabricante com planta própria, boas práticas de fabricação e rastreabilidade é melhor que marca que terceiriza sem controle. E produto sem fabricante identificável, comprado em marketplace, importado por conta própria: risco alto, e ninguém para responder.
+
+---
+
+📊 **[SLIDE 9 DE 12]**
+*Visual: um selo de certificação sobre um número de lote. Duas colunas: "o que a certificação faz" e "o que ela não faz".*
+*Teleprompter: (passos quatro, cinco e seis: lote, registro, revisão)*
+
+Certificação de lote. É o único mecanismo que ataca o problema de frente. Existem programas internacionais que analisam lotes de suplementos em busca de substâncias proibidas no esporte e publicam o que foi aprovado; os mais citados são programas britânicos e norte-americanos de certificação para o esporte e a lista alemã de Colônia.
+
+O que muda a conduta: a certificação é do lote, não da marca. O lote que o atleta comprou precisa ser o lote certificado, e isso se confere no site do programa pelo número impresso na embalagem.
+
+E a limitação, dita com honestidade: certificação reduz risco, não zera. Ela testa uma amostra do lote, para um painel de substâncias. É a melhor ferramenta que existe, e não é garantia.
+
+Registrar e guardar. Marca, produto, lote e validade anotados; rótulo fotografado; embalagem guardada enquanto o produto estiver em uso e por um tempo depois. Custa dois minutos e é a única coisa que pode salvar o atleta se algo der errado. Num serviço organizado, vira planilha da equipe.
+
+E revisar. Produto muda de fórmula. Marca troca de fabricante. A certificação de um lote não vale para o próximo. Revise a cada compra, não a cada temporada.
+
+---
+
+📊 **[SLIDE 10 DE 12]**
+*Visual: tabela do cenário brasileiro: industrializado, manipulado, importado por conta própria. Colunas: o que o dado mostra, a conduta num atleta testado.*
+*Teleprompter: (o cenário brasileiro)*
+
+O procedimento precisa caber na realidade de quem atende aqui.
+
+Primeiro: a certificação de lote é pouco disponível no Brasil. A maior parte dos produtos vendidos aqui não passa por esses programas, e os que passam costumam ser importados e caros. Isso não torna o passo quatro inútil; torna os outros mais importantes. Num atleta testado, pode significar reduzir a lista a pouquíssimos produtos, ou a nenhum.
+
+Segundo, e mais importante: os manipulados. A intuição do jogador está invertida. "Manipulado" parece cuidado individual, feito sob medida, na farmácia, com receita. É essa percepção que baixa a guarda. E o dado do laboratório brasileiro aponta na direção oposta: os agentes anabolizantes apareceram mais justamente nos manipulados.
+
+Faz sentido estrutural. Fórmula única, produção local, lote pequeno: menos camadas de controle e nenhuma possibilidade prática de certificação. Some a isso que boa parte das fórmulas manipuladas do meio esportivo é prescrita com apelo de "otimização", e a última aula do módulo já se desenha.
+
+Num atleta testado, a conduta com manipulado é direta: não. Fora do esporte competitivo, a pergunta continua valendo: o que exatamente está nessa fórmula, quem prescreveu, e com base em quê?
+
+Terceiro: a compra internacional por conta própria. Sem registro no país, sem fabricante identificável, sem cadeia rastreável. Se der problema, não há a quem recorrer, e num controle antidoping não há como demonstrar origem.
+
+E uma nota sobre a norma. A Anvisa regula composição, rotulagem e alegações, e fiscaliza. O que ela não faz, de rotina, é testar lote a lote para substâncias proibidas no esporte. Produto regular perante a vigilância sanitária não é, automaticamente, produto seguro para quem é testado. São duas perguntas diferentes, e confundi-las é o erro mais comum desta aula.
+
+---
+
+📊 **[SLIDE 11 DE 12]**
+*Visual: tabela com as três situações do começo e a conduta de cada uma.*
+*Teleprompter: (as três condutas)*
 
 As três situações.
 
-**A atleta que testou positivo.** **Aqui o procedimento do "antes" não existe mais**, e a conduta é de danos. **O que se faz agora: reunir tudo — embalagem, lote, nota fiscal, histórico de compra —, listar todos os produtos usados nos últimos meses, e acionar apoio jurídico e a via formal**, que é a aula 5.10. **E a lição que ela representa para todos os outros atletas da equipe:** a nota fiscal não a protegeu, **e a embalagem que ela guardou — se guardou — vale mais do que a nota.**
+A atleta que testou positivo. O procedimento do antes não existe mais, e a conduta é de redução de danos: reunir embalagem, lote, nota fiscal e histórico de compra; listar todos os produtos usados nos últimos meses; acionar apoio jurídico e a via formal, que é a próxima aula. E a lição para os outros atletas da equipe: a nota fiscal não a protegeu. A embalagem guardada, se ela guardou, vale mais que a nota.
 
-**O jogador do manipulado.** **A intuição dele está invertida, e o dado brasileiro mostra isso.** A conduta: **entender o que há na fórmula, quem prescreveu e por quê** — e, se houver apelo hormonal, a conversa muda de aula e vira a **5.11**. **Se ele for testado em alguma competição, a resposta é não. E, mesmo não sendo, ele merece saber o que está tomando.**
+O jogador do manipulado. Entender o que há na fórmula, quem prescreveu e por quê. Se houver apelo hormonal, a conversa muda de aula e vai para a última do módulo. Se ele for testado em alguma competição, a resposta é não. E, mesmo não sendo, ele merece saber o que está tomando.
 
-**A nutricionista que precisa escolher a marca.** **A resposta é o procedimento inteiro, e a ordem importa.** Primeiro: **reduzir a lista ao mínimo necessário.** Depois: **preferir um ingrediente só, fabricante identificável, e lote certificado quando existir.** Então: **registrar lote e guardar embalagem, em planilha da equipe.** E, por fim, **a frase que ela deve dizer aos atletas, e que a protege e os protege: "nenhum produto é risco zero; o que a gente pode fazer é escolher o risco menor e documentar tudo."**
+A nutricionista que precisa escolher a marca. A resposta é o procedimento inteiro, na ordem: reduzir a lista ao mínimo necessário; preferir um ingrediente só, fabricante identificável e lote certificado quando existir; registrar o lote e guardar a embalagem, em planilha da equipe. E a frase que ela diz aos atletas, e que protege os dois lados: "nenhum produto é risco zero; o que a gente pode fazer é escolher o risco menor e documentar tudo."
 
-**O procedimento, em seis passos: precisa mesmo? · a categoria é de risco? · quem fabrica? · o lote é certificado? · registrou e guardou? · revisou nesta compra?**
+---
 
-O escopo. **Escolher e indicar produto é do nutricionista** — e, num atleta testado, **é uma decisão de equipe, com registro.** **Avaliar sintoma, interação e qualquer suspeita de substância farmacológica não declarada é do médico.** **O preparador, o técnico e o fisioterapeuta são quem mais escuta "estou tomando isso aqui"** — e a contribuição deles é **levar a informação e o pote para quem pode avaliar**, nunca endossar. **E a regra que vale para todos, sem exceção: quem não sabe checar o produto não indica o produto.**
+📊 **[SLIDE 12 DE 12]**
+*Visual: fecho da aula com os seis passos e três cartões de papel profissional.*
+*Teleprompter: (fechamento)*
 
-Na próxima aula, **5.10**, a segunda aula-mestra do módulo, e a que organiza o sistema inteiro: **a lista de substâncias e métodos proibidos, a autorização de uso terapêutico, e a responsabilidade de cada membro da equipe.**
+O procedimento, em seis perguntas: precisa mesmo? A categoria é de risco? Quem fabrica? O lote é certificado? Registrou e guardou? Revisou nesta compra?
+
+Quem faz o quê. Escolher e indicar produto é do nutricionista e, num atleta testado, é decisão de equipe, com registro. Avaliar sintoma, interação e qualquer suspeita de substância não declarada é do médico. O preparador, o técnico e o fisioterapeuta são quem mais escuta "estou tomando isso aqui", e a contribuição deles é levar a informação e o pote para quem pode avaliar, nunca endossar.
+
+E a regra que vale para todos, sem exceção: quem não sabe checar o produto não indica o produto.
+
+Na próxima aula, a que organiza o sistema inteiro: a lista de substâncias e métodos proibidos, a autorização de uso terapêutico e a responsabilidade de cada membro da equipe.
 
 ---
 
 ## Referências
 
-1. Geyer H, Parr MK, Mareck U, Reinhart U, Schrader Y, Schänzer W. Analysis of non-hormonal nutritional supplements for anabolic-androgenic steroids — results of an international study. *Int J Sports Med.* 2004;25(2):124-129. PMID: 14986195
+1. Geyer H, Parr MK, Mareck U, Reinhart U, Schrader Y, Schänzer W. Analysis of non-hormonal nutritional supplements for anabolic-androgenic steroids: results of an international study. *Int J Sports Med.* 2004;25(2):124-129. PMID: 14986195
 2. Martínez-Sanz JM, Sospedra I, Ortiz CM, Baladía E, Gil-Izquierdo A, Ortiz-Moncada R. Intended or unintended doping? A review of the presence of doping substances in dietary supplements used in sports. *Nutrients.* 2017;9(10):1093. doi:10.3390/nu9101093
-3. Torres DF, et al. The presence of doping agents in dietary supplements: a glimpse into the Brazilian situation. *Drug Test Anal.* 2024;16(1). doi:10.1002/dta.3517 (PMID: 37161689)
+3. Torres CL, de Oliveira FAG, Jooris LF, Padilha MC, Pereira HMG. The presence of doping agents in dietary supplements: a glimpse into the Brazilian situation. *Drug Test Anal.* 2024;16(1):38-48. doi:10.1002/dta.3517. PMID: 37161689
 4. Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. *Br J Sports Med.* 2018;52(7):439-455. PMID: 29540367
 5. Brasil. Agência Nacional de Vigilância Sanitária. Resolução da Diretoria Colegiada RDC nº 243, de 26 de julho de 2018. Dispõe sobre os requisitos sanitários dos suplementos alimentares.
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — O que não está escrito
-· As oito aulas anteriores: **o que está no rótulo**. Esta: **o que não está**
-· **Promessa falsa custa dinheiro; substância não declarada pode custar uma carreira**
-· **Atleta federada, 23**: positivo no controle — "comprei numa loja, com nota fiscal"
-· **Jogador, 31**: fórmula **manipulada** — acha que é mais segura por ser sob medida
-· **Nutricionista da equipe**: qual marca indicar, com critério objetivo
-· **Depois, durante e antes** — esta aula é o procedimento do **antes**
-Visual: o pote com moléculas extras saindo.
+**O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de sete blocos longos.
+Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é DECISÃO). Para não repetir as
+outras duas aulas de procedimento do módulo, o procedimento aqui é uma sequência fixa de seis
+perguntas, com três slides de apoio, e não um roteiro de conversa. Sem caso clínico: a atleta de
+23 anos, o jogador de 31 e a nutricionista viraram "três situações típicas", sem idade.
 
-**Slide 2** — O tamanho do problema
-· **Geyer, 2004**: 634 suplementos **não hormonais**, 13 países — **~15% com esteroides anabolizantes não declarados**
-· **Empresas que também vendiam pró-hormônios: cerca do dobro de contaminados**
-· **Martínez-Sanz, 2017**: revisões encontram **12% a 58%**, conforme produto, país e método
-· **Brasil (Torres, laboratório de controle de dopagem)**: **diuréticos** os mais frequentes no conjunto; **estimulantes nos industrializados**; **anabólicos nos manipulados**
-Visual: os três estudos e o mapa do Brasil.
+**Números conferidos.** Geyer 2004: 634 suplementos, 13 países, 215 fornecedores, outubro de 2000 a
+novembro de 2001; 94 (14,8%) com esteroide anabolizante não declarado; 21,1% nos produtos de
+empresas que vendiam pró-hormônios contra 9,6% nas que não vendiam. Martínez-Sanz 2017: 12% a 58%.
+Torres 2024: amostras do Laboratório Brasileiro de Controle de Dopagem de 2017 a 2022; diuréticos
+como adulterantes mais comuns; estimulantes mais nos industrializados; anabolizantes mais nos
+manipulados.
 
-**Slide 3** — Por que acontece
-· **Contaminação cruzada na linha de produção** — **a quantidade não precisa ter efeito, só precisa ser detectável**
-· **Adulteração deliberada** — "promete efeito de medicamento" às vezes **é** medicamento (5.8)
-· **Matéria-prima** a granel, importada, não testada — cadeia longa, rastreabilidade curta
-· **Enquadramento**: suplemento é **alimento**, e **não há teste de rotina lote a lote** para substâncias proibidas no esporte
-· **Não existe suplemento com risco zero — existe risco menor e risco maior**
-Visual: a esteira compartilhada e a matéria-prima.
+**Correções.**
+- "Cerca de o dobro" entre empresas com e sem pró-hormônio virou os percentuais do estudo
+  (21,1% contra 9,6%).
+- A referência de Torres estava com a inicial errada e sem autores; ficou completa (Torres CL e
+  colaboradores, 2024;16(1):38-48), com o período das amostras (2017 a 2022).
+- "Três situações" virou "três situações típicas".
 
-**Slide 4** — Responsabilidade estrita
-· **O atleta responde pelo que está no corpo dele**, com ou sem intenção
-· **Nota fiscal não protege. Rótulo não protege. Boa-fé não protege automaticamente**
-· Reduzir sanção exige **demonstrar a origem**: pote guardado, lote, compra documentada, análise (detalhe: **5.10**)
-· **A responsabilidade estrita é do atleta; a responsabilidade profissional é de quem indicou** — há consequências para **pessoal de apoio**
-· **Quem não sabe checar o produto não indica o produto**
-· Fora do esporte testado: **substância não declarada é risco à saúde** (arritmia, anti-hipertensivo, anabolizante sem saber)
-Visual: a balança com o atleta e o pote.
+**Saíram.** "Aula 5.8", "aula 5.1", "aula 5.10", "aula 5.11", "slide 1", "slide 6", "o escopo",
+o verbo de aparência sobre manipulados, as idades, o bloco "Roteiro Gamma".
 
-**Slide 5** — O procedimento em seis passos
-· **1. Precisa mesmo?** — **o produto que não é usado tem risco zero**; reduzir o número é a principal medida de segurança
-· **2. Categoria**: baixo risco = **um ingrediente** (creatina, proteína, carboidrato, eletrólito); alto = **pré-treino, termogênico, hormonal, emagrecedor, fórmula complexa**
-· **3. Fabricante**: quem vende apelo hormonal tem risco maior (Geyer) · **sem fabricante identificável = alto risco**
-· **4. Certificação de lote por terceiro** — programas internacionais; **é por LOTE, não por marca**; conferir o número na embalagem
-· **Certificação reduz risco, não zera**
-· **5. Registrar e guardar**: marca, produto, **lote**, validade, foto do rótulo, embalagem guardada
-· **6. Revisar a cada compra** — fórmula muda, fabricante muda, lote muda
-Visual: as seis caixas numeradas.
+**Citações faladas.** Geyer; Martínez-Sanz; Torres; Laboratório Brasileiro de Controle de Dopagem.
 
-**Slide 6** — O cenário brasileiro
-· **Certificação de lote é pouco disponível aqui** → os passos 1, 2, 3 e 5 pesam mais
-· **Manipulados**: "sob medida" **baixa a guarda** — e os dados brasileiros mostram **anabólicos com mais frequência justamente neles**
-· Fórmula única, produção local, lote pequeno: **menos camadas de controle, nenhuma certificação possível**
-· **Atleta testado + manipulado = não**
-· **Compra internacional por marketplace**: sem registro, sem fabricante, **sem a quem recorrer e sem como demonstrar origem**
-· **Regular perante a vigilância sanitária ≠ seguro para quem é testado** — são duas perguntas diferentes
-Visual: as três embalagens com o nível de risco.
-
-**Slide 7** — As três condutas
-· **Atleta positiva**: reunir **embalagem, lote, nota, histórico**, listar todos os produtos e acionar a via formal (5.10) — **a embalagem vale mais que a nota**
-· **Jogador do manipulado**: entender **o que há, quem prescreveu e por quê**; apelo hormonal → **5.11**; se testado, **não**
-· **Nutricionista**: reduzir a lista · um ingrediente, fabricante identificável, lote certificado quando existir · registrar e guardar em planilha · **"nenhum produto é risco zero; a gente escolhe o risco menor e documenta"**
-· **Precisa mesmo? · categoria? · quem fabrica? · lote certificado? · registrou? · revisou?**
-· Escopo: escolher e indicar = **nutricionista**, com registro e decisão de equipe · sintoma e suspeita de fármaco não declarado = **médico** · **preparador, técnico e fisioterapeuta levam a informação e o pote — nunca endossam**
-· Próxima aula: **5.10 — lista proibida, autorização de uso terapêutico e responsabilidade da equipe** (aula-mestra)
-Visual: as três pessoas e o cartão de seis passos.
+**Ligações internas.** o nono alerta do cartão de bolso = aula anterior · suplemento como alimento,
+categorias de risco = primeira aula do módulo · creatina e lote = aula de creatina · processo,
+sanções e AUT = próxima aula · manipulados com apelo hormonal = aula de hormônios e peptídeos.
