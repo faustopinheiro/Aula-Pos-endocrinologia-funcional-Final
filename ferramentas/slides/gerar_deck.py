@@ -21,6 +21,7 @@ TEMAS = {
     "tinta":    {"fundo": TINTA,     "card": "#1B2E3F", "linha": "#2E4053", "eyebrow": "#7FC4BE", "sub": "#E88C7D", "apoio": "#BFD0DA"},
     "bordo":    {"fundo": "#3A1A22", "card": "#4A2530", "linha": "#5E3844", "eyebrow": "#7FC4BE", "sub": "#E6C08A", "apoio": "#E3CDCF"},
     "petroleo": {"fundo": "#0F3432", "card": "#184442", "linha": "#2A5A57", "eyebrow": "#E6C08A", "sub": "#F2A58F", "apoio": "#C9DDDA"},
+    "ameixa":   {"fundo": "#2B1E38", "card": "#3A2B48", "linha": "#4E3E5E", "eyebrow": "#E6C08A", "sub": "#7FC4BE", "apoio": "#D9CFE3"},
 }
 SANS = "'IBM Plex Sans', Arial, sans-serif"
 

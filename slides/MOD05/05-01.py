@@ -1,0 +1,137 @@
+"""Spec do deck 5.1. Gera 05-01.json ao lado deste arquivo."""
+import json, math, os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "ferramentas", "slides"))
+from desenho import *
+
+S = []
+FOSF_T, OXID_T, GLIC_T, AZUL_T = "#F3E1DE", "#DDEFEC", "#F4EAD6", "#DEE7F1"
+CARTAO, BORDA, CLARO = "#FDFCF9", "#DDD8CC", "#F7F6F2"
+
+def caixa(x, y, w, h, cor, fundo=CARTAO, esp=4, rx=14):
+    return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="{fundo}" stroke="{cor}" stroke-width="{esp}"/>'
+
+# 1. três pedidos
+S.append({"id": "pedidos", "tipo": "cards", "por_linha": 3, "eyebrow": "Três pedidos típicos", "titulo": "A mesma pergunta, três vezes",
+          "cards": [{"t": "O pré-treino", "x": "catorze ingredientes, “blend proprietário”, sem dose por item", "cor": "verm"},
+                    {"t": "O colágeno", "x": "mulher que treina força duas vezes por semana, com dor no joelho", "cor": "ambar"},
+                    {"t": "A creatina", "x": "adolescente de futebol; o técnico disse que ele está fraco para a idade", "cor": "petr"}],
+          "destaque": "A resposta certa para as três não é “funciona” nem “não funciona”.",
+          "destaque_cor": "tinta"})
+
+# 2. dois eixos
+p = [svg_abre(1664, 400, "Dois eixos cruzados, evidência na horizontal e risco na vertical, formando quatro quadrantes"),
+     "<defs>" + seta_marker("x1", MUDO) + "</defs>"]
+x0, y0, W, H = 360, 20, 1240, 340
+quad = [(x0, y0, GLIC_T, GLIC, "evidência fraca, risco relevante"), (x0 + W / 2, y0, FOSF_T, FOSF, "evidência boa, risco relevante"),
+        (x0, y0 + H / 2, CLARO, MUDO, "evidência fraca, risco baixo"), (x0 + W / 2, y0 + H / 2, OXID_T, OXID, "evidência boa, risco baixo")]
+rs = []
+for x, y, f, c, t in quad:
+    p.append(f'<rect x="{x:.0f}" y="{y:.0f}" width="{W/2-8:.0f}" height="{H/2-8:.0f}" rx="10" fill="{f}" stroke="{c}" stroke-width="3"/>')
+    rs.append(rot(x + 20, y + H / 4 - 22, t, w=W / 2 - 48, tam=28, cor=TINTA, peso=700, alinha="center"))
+p.append(f'<line x1="{x0-20}" y1="{y0+H+20}" x2="{x0+W}" y2="{y0+H+20}" stroke="{MUDO}" stroke-width="4" marker-end="url(#x1)"/>')
+p.append(f'<line x1="{x0-20}" y1="{y0+H+20}" x2="{x0-20}" y2="{y0}" stroke="{MUDO}" stroke-width="4" marker-end="url(#x1)"/>')
+p.append("</svg>")
+rs += [rot(0, 60, "risco", w=320, tam=30, cor=TINTA, peso=700, alinha="right"),
+       rot(0, 100, "de saúde, antidoping, dinheiro, atenção", w=320, tam=24, cor=MUDO, alinha="right"),
+       rot(0, 300, "evidência →", w=320, tam=30, cor=TINTA, peso=700, alinha="right")]
+S.append({"id": "eixos", "tipo": "diagrama", "h": 400, "svg": "".join(p), "rotulos": rs,
+          "eyebrow": "Funcionar não basta", "titulo": "Dois eixos independentes",
+          "destaque": "Para quem, para qual desfecho, de que tamanho, e a que custo. Entender o raciocínio é de todos; prescrever, não.",
+          "destaque_cor": "petr"})
+
+# 3. passo um
+S.append({"id": "passo1", "tipo": "lista", "eyebrow": "Passo um · a pergunta antes do produto", "titulo": "Três perguntas antes do pote",
+          "itens": [{"t": "Qual é o objetivo, em desfecho?", "x": "sprint repetido, prova longa, massa, recuperação entre jogos: suplemento não tem efeito genérico", "cor": "petr"},
+                    {"t": "A base está feita?", "x": "energia, sono, treino, proteína distribuída: sem base, o retorno é indistinguível de zero", "cor": "ambar"},
+                    {"t": "Existe um motivo para não ser comida?", "x": "se não existe obstáculo, a resposta já é não", "cor": "verm"}],
+          "gap_itens": 26})
+
+# 4. Close 2022
+S.append({"id": "comida", "tipo": "cards", "por_linha": 3, "eyebrow": "Close e colaboradores, 2022", "titulo": "Comida primeiro, mas nem sempre só comida",
+          "cards": [{"t": "Difícil de obter", "x": "na dieta, em quantidade suficiente", "cor": "petr"},
+                    {"t": "Alimento que não come", "x": "o nutriente está onde a pessoa não vai", "cor": "petr"},
+                    {"t": "Teor variável", "x": "e a dose precisa ser previsível", "cor": "petr"},
+                    {"t": "Deficiência", "x": "pede dose concentrada para corrigir", "cor": "ambar"},
+                    {"t": "Perto do exercício", "x": "comer é inviável: gel e bebida são suplemento", "cor": "ambar"},
+                    {"t": "Higiene", "x": "preocupação real com o alimento disponível", "cor": "ambar"}],
+          "fonte": "International Journal of Sport Nutrition and Exercise Metabolism 2022"})
+
+# 5. ABCD
+S.append({"id": "abcd", "tipo": "tabela", "eyebrow": "Passo dois · Instituto Australiano do Esporte", "titulo": "O eixo da evidência, em quatro letras",
+          "cab": ["Grupo", "O que significa", "Exemplos"],
+          "larguras": [10, 34, 56],
+          "linhas": [["A", "evidência forte, no protocolo e na situação certos", "alimentos esportivos; ferro, vitamina D e cálcio na deficiência; creatina, cafeína, beta-alanina, bicarbonato, nitrato, glicerol"],
+                     ["B", "evidência emergente", "colágeno, curcumina, alguns polifenóis"],
+                     ["C", "sem benefício comprovado", "o grupo maior, e a maior parte do que se vende"],
+                     ["D", "proibido ou com alto risco de conter", "estimulantes, pró-hormônios, moduladores seletivos do receptor de androgênio"]],
+          "destaque": "O quadro classifica ingredientes, não marcas. Essa distinção já é meio caminho.",
+          "destaque_cor": "petr", "fonte": "AIS Sports Supplement Framework"})
+
+# 6. quatro perguntas
+S.append({"id": "perguntas", "tipo": "cards", "por_linha": 4, "eyebrow": "Dentro do grupo A · Maughan e colaboradores, 2018", "titulo": "A letra não basta",
+          "cards": [{"t": "Em quem?", "x": "a maioria dos estudos: homens jovens treinados", "cor": "petr"},
+                    {"t": "Qual desfecho?", "x": "desempenho, ou marcador de laboratório", "cor": "petr"},
+                    {"t": "De que tamanho?", "x": "pequeno: decide pódio, some no amador", "cor": "ambar"},
+                    {"t": "Comparado com o quê?", "x": "com placebo, e com dormir, comer e treinar", "cor": "verm"}],
+          "destaque": "Consenso do Comitê Olímpico: a nutrição dá uma contribuição pequena, mas potencialmente valiosa, ao desempenho; os suplementos, uma contribuição menor dentro dela.",
+          "destaque_cor": "tinta", "fonte": "British Journal of Sports Medicine 2018"})
+
+# 7. riscos
+S.append({"id": "riscos", "tipo": "cards", "por_linha": 4, "eyebrow": "Passo três · o eixo do risco", "titulo": "Quatro riscos, e basta um",
+          "cards": [{"t": "Contaminação", "x": "o rótulo e o pote podem não coincidir; a responsabilidade é do atleta", "cor": "verm"},
+                    {"t": "Risco clínico", "x": "interação, doença de base, gestação, idade; avaliação médica", "cor": "ambar"},
+                    {"t": "Custo", "x": "dinheiro que não foi para comida, academia ou consulta", "cor": "ambar"},
+                    {"t": "Deslocamento", "x": "o que o pote tira do lugar: sono, café da manhã, carga", "cor": "tinta"}],
+          "destaque": "O suplemento raramente faz mal. Ele frequentemente faz com que outra coisa não seja feita, e essa outra coisa costuma ser a que funcionava.",
+          "destaque_cor": "verm"})
+
+# 8. rótulo
+S.append({"id": "rotulo", "tipo": "duas", "eyebrow": "Passo quatro · RDC 243 e IN 28, de 2018", "titulo": "O rótulo e a alegação",
+          "esq": {"t": "O enquadramento brasileiro", "cor": "petr",
+                  "itens": ["suplementa, não substitui", "para indivíduos saudáveis, não tratamento", "é alimento: não prova eficácia antes da venda",
+                            "listas positivas de constituintes e de alegações"]},
+          "dir": {"t": "Cinco sinais de alerta", "cor": "verm",
+                  "itens": ["blend proprietário, sem dose por item", "lista muito longa", "dose abaixo da estudada",
+                            "alegação que não é o desfecho estudado", "estudo único, pequeno e do fabricante"]},
+          "destaque": "Promessa de cura, emagrecimento garantido ou “aumenta a testosterona” fora da lista: o rótulo está irregular.",
+          "destaque_cor": "ambar", "fonte": "Agência Nacional de Vigilância Sanitária"})
+
+# 9. decidir
+S.append({"id": "decidir", "tipo": "duas", "eyebrow": "Passo cinco · decidir", "titulo": "Três saídas, e o teste com data",
+          "esq": {"t": "As saídas", "cor": "petr",
+                  "itens": ["não: “isso não responde; o que responde é isto”", "sim, com protocolo: grupo A, dose, momento, risco avaliado", "talvez: então é teste, não adoção"]},
+          "dir": {"t": "A folha do teste", "cor": "ambar",
+                  "itens": ["o quê, uma coisa por vez", "para qual desfecho medido", "por quanto tempo", "critério de reversão escrito antes"]},
+          "destaque": "O placebo é real, custa todo mês e ensina a atribuir o resultado ao pote. Quem atribui o progresso ao pote para de treinar quando o pote acaba.",
+          "destaque_cor": "tinta"})
+
+# 10. os três pedidos
+S.append({"id": "respostas", "tipo": "tabela", "eyebrow": "Os três pedidos, com os cinco passos", "titulo": "O passo que decide cada um",
+          "cab": ["Pedido", "Passo que decide", "Resposta"],
+          "larguras": [22, 26, 52],
+          "linhas": [["Pré-treino", "quatro: o rótulo", "sem dose por item, não há o que avaliar; o problema é a jornada, não a química"],
+                     ["Colágeno", "um: o objetivo", "grupo B; para a dor no joelho, o que tem evidência é exercício"],
+                     ["Creatina", "um: a base", "“fraco para a idade” não é diagnóstico: comida, sono, maturação, treino orientado"]],
+          "destaque": "A creatina tem a maior evidência do campo, e, ainda assim, a resposta não sai do eixo da evidência.",
+          "destaque_cor": "petr"})
+
+# 11. fecho
+S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Cinco passos, antes de qualquer pote", "titulo": "A pergunta antes do produto",
+          "regras": ["A pergunta, a evidência com as quatro perguntas, o risco com os quatro tipos",
+                     "O rótulo e a alegação, contra a lista da Anvisa",
+                     "A decisão; quando é talvez, teste com data e critério"],
+          "cards": [{"t": "Nutricionista", "x": "Prescreve suplemento alimentar."},
+                    {"t": "Médico", "x": "Deficiência, interação e fármaco."},
+                    {"t": "Educador físico e preparador", "x": "O treino que o pote não substitui."}],
+          "quem": "Todos aplicam os cinco passos em voz alta: a compra acontece antes da pergunta."})
+
+spec = {"arquivo": "aulas/MOD05/05-01-como-classificar-um-suplemento-por-evidencia-e-por-risco.md",
+        "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
+        "titulo": "Avaliação de suplementos no esporte", "subtitulo": "Evidência, risco e tomada de decisão",
+        "nota_capa": "Entra pelos três pedidos e pelos dois eixos.",
+        "secoes": {"pedidos": ["Os pedidos e os dois eixos.", "capa"],
+                   "abcd": ["Evidência e risco.", "abcd"],
+                   "rotulo": ["Rótulo, decisão e os três pedidos.", "rotulo"]},
+        "slides": S}
+json.dump(spec, open(os.path.join(os.path.dirname(__file__), "05-01.json"), "w"), ensure_ascii=False, indent=1)
+print("05-01.json:", len(S), "slides")

@@ -1,0 +1,444 @@
+{
+ "arquivo": "aulas/MOD05/05-03-cafeina-dose-momento-genetica-e-efeito-real.md",
+ "modulo": "Suplementação, Ergogênicos e Antidoping",
+ "tema": "ameixa",
+ "titulo": "Cafeína no exercício",
+ "subtitulo": "Dose, momento de uso e variabilidade individual",
+ "nota_capa": "Entra pela decisão, não pela eficácia.",
+ "secoes": {
+  "pergunta": [
+   "Os perfis, a evidência e a dose.",
+   "capa"
+  ],
+  "sono": [
+   "O momento e o sono.",
+   "sono"
+  ],
+  "genetica": [
+   "Variação individual, limites e decisões.",
+   "genetica"
+  ]
+ },
+ "slides": [
+  {
+   "id": "pergunta",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Três perfis típicos",
+   "frase": "Funciona. Então a pergunta é outra.",
+   "apoio": "Quem treina às nove da noite e só sobrou a cafeína do pote. A jogadora de vôlei com jogo às nove e meia. O ciclista hipertenso com quatro cafés, pré-treino e gel, que nunca somou nada. Quanto, quando, para quem, e trocando o quê."
+  },
+  {
+   "id": "mecanismo",
+   "tipo": "duas",
+   "eyebrow": "Grgic e colaboradores, 2020 · Guest e colaboradores, 2021",
+   "titulo": "Ela não cria energia",
+   "esq": {
+    "t": "O que a evidência sustenta",
+    "cor": "petr",
+    "itens": [
+     "21 meta-análises reunidas",
+     "resistência aeróbica e muscular",
+     "força e potência",
+     "efeito pequeno: decide pódio, some no amador"
+    ]
+   },
+   "dir": {
+    "t": "O mecanismo certo",
+    "cor": "ambar",
+    "itens": [
+     "bloqueia o receptor de adenosina",
+     "a adenosina sinaliza cansaço",
+     "não queima gordura de forma relevante",
+     "adia a percepção de que a energia acaba"
+    ]
+   },
+   "destaque": "O que o amador sente não é velocidade: é que o treino pareceu mais fácil. E a conta do cansaço continua existindo.",
+   "destaque_cor": "tinta",
+   "fonte": "British Journal of Sports Medicine 2020 · Journal of the International Society of Sports Nutrition 2021"
+  },
+  {
+   "id": "dose",
+   "tipo": "diagrama",
+   "h": 280,
+   "svg": "<svg aria-label=\"Régua de dose de cafeína em mg por kg: de 1 a 3, começar aqui; de 3 a 6, a faixa dos estudos; 9 ou mais, mais efeito adverso sem mais efeito\" width=\"1664\" height=\"280\" viewBox=\"0 0 1664 280\"><rect x=\"83\" y=\"40\" width=\"416\" height=\"100\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"499\" y=\"40\" width=\"499\" height=\"100\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"998\" y=\"40\" width=\"499\" height=\"100\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"1498\" y=\"40\" width=\"166\" height=\"100\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 93,
+     "y": 76,
+     "w": 396,
+     "t": "começar aqui",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 509,
+     "y": 76,
+     "w": 479,
+     "t": "a faixa dos estudos",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 106,
+     "y": 150,
+     "w": 120,
+     "t": "1",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 439,
+     "y": 150,
+     "w": 120,
+     "t": "3",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 938,
+     "y": 150,
+     "w": 120,
+     "t": "6",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1438,
+     "y": 150,
+     "w": 120,
+     "t": "9",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 778,
+     "y": 196,
+     "w": 720,
+     "t": "9 mg/kg: muito efeito adverso, sem necessidade",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 196,
+     "w": 600,
+     "t": "mg/kg, cerca de 60 min antes",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A dose · posicionamento de 2021",
+   "titulo": "Mais não é melhor",
+   "destaque": "Para 70 kg, 3 a 6 mg/kg são 210 a 420 mg. A dose mínima eficaz pode ser tão baixa quanto 2 mg/kg. E a cafeína aumenta a ansiedade de quem já chega nervoso.",
+   "destaque_cor": "petr",
+   "fonte": "Journal of the International Society of Sports Nutrition 2021"
+  },
+  {
+   "id": "fonte",
+   "tipo": "tabela",
+   "eyebrow": "A fonte, e a soma",
+   "titulo": "A dose só existe se a fonte for previsível",
+   "cab": [
+    "Fonte",
+    "Dose previsível?",
+    "Observação"
+   ],
+   "larguras": [
+    28,
+    18,
+    54
+   ],
+   "linhas": [
+    [
+     "Cápsula de cafeína anidra",
+     "sim",
+     "é o que os estudos usam"
+    ],
+    [
+     "Gel e bebida esportiva",
+     "sim, no rótulo",
+     "práticos durante o esforço"
+    ],
+    [
+     "Goma de mascar",
+     "sim",
+     "absorção mais rápida"
+    ],
+    [
+     "Café coado",
+     "não",
+     "varia com pó, grão, moagem e tempo"
+    ],
+    [
+     "Energético",
+     "em parte",
+     "vem com açúcar e outros componentes"
+    ]
+   ],
+   "destaque": "Quatro cafés, um pré-treino e um gel não são três decisões. São uma dose só. Somar em voz alta é o primeiro trabalho da consulta.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "sono",
+   "tipo": "numeros",
+   "eyebrow": "Drake e colaboradores, 2013",
+   "titulo": "O custo está na meia-vida",
+   "numeros": [
+    {
+     "n": "400 mg",
+     "x": "de cafeína, em três horários",
+     "cor": "tinta"
+    },
+    {
+     "n": "6 h",
+     "x": "antes de deitar, o horário mais distante testado",
+     "cor": "ambar"
+    },
+    {
+     "n": "> 1 h",
+     "x": "a menos de sono total medido, mesmo assim",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Meia-vida em torno de 5 horas, com faixa larga: mais longa com anticoncepcional oral e na gestação, mais curta em fumantes.",
+   "destaque_cor": "petr",
+   "fonte": "Journal of Clinical Sleep Medicine 2013"
+  },
+  {
+   "id": "tras",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Linha do tempo da noite: cafeína às 20h30, jogo às 21h30, deitar à 0h30; a faixa de seis horas antes de deitar cobre tudo\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><defs><marker id=\"n1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"345\" y=\"60\" width=\"1059\" height=\"80\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"80\" y1=\"100\" x2=\"1562\" y2=\"100\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#n1)\"/><circle cx=\"698\" cy=\"100\" r=\"16\" fill=\"#B07A1C\"/><circle cx=\"874\" cy=\"100\" r=\"16\" fill=\"#3A6EA5\"/><circle cx=\"1404\" cy=\"100\" r=\"16\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 355,
+     "y": 66,
+     "w": 500,
+     "t": "6 horas antes de deitar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 548,
+     "y": 150,
+     "w": 300,
+     "t": "cafeína 20h30",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 196,
+     "w": 300,
+     "t": "jogo 21h30",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1254,
+     "y": 150,
+     "w": 300,
+     "t": "deitar 0h30",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A jogadora de vôlei",
+   "titulo": "Contar a partir da hora de dormir",
+   "destaque": "Três saídas: usar com dose baixa, ciente do custo; não usar e proteger o sono; usar só nos jogos que importam. Para o amador, a terceira quase sempre ganha.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "genetica",
+   "tipo": "numeros",
+   "eyebrow": "Guest e colaboradores, 2018 · 101 atletas, 10 km de bicicleta",
+   "titulo": "Genética: achado real, sem teste de balcão",
+   "numeros": [
+    {
+     "n": "−4,8%",
+     "x": "tempo no genótipo AA, com 2 mg/kg",
+     "cor": "petr"
+    },
+    {
+     "n": "−6,8%",
+     "x": "tempo no genótipo AA, com 4 mg/kg",
+     "cor": "petr"
+    },
+    {
+     "n": "+13,7%",
+     "x": "tempo no genótipo CC, com 4 mg/kg",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Outros estudos não replicaram de forma consistente. E a conduta seria a mesma: testar a dose em treino. O teste barato já existe, e se chama treino.",
+   "destaque_cor": "tinta",
+   "fonte": "Medicine and Science in Sports and Exercise 2018"
+  },
+  {
+   "id": "habito",
+   "tipo": "duas",
+   "eyebrow": "Gonçalves, Gualano e colaboradores, 2017",
+   "titulo": "Hábito não apaga o efeito",
+   "esq": {
+    "t": "40 ciclistas, três tercis de consumo",
+    "cor": "petr",
+    "itens": [
+     "≈ 60, 140 e 350 mg por dia",
+     "todos com 6 mg/kg antes do contrarrelógio",
+     "mesmo ganho nos três grupos",
+     "a semana de abstinência não se justifica"
+    ]
+   },
+   "dir": {
+    "t": "Quem passa mal",
+    "cor": "verm",
+    "itens": [
+     "ansiedade, tremor, palpitação",
+     "náusea, urgência intestinal",
+     "dor de cabeça, insônia",
+     "para essa pessoa: não usar"
+    ]
+   },
+   "destaque": "A cafeína do dia de prova é sempre a dose testada em treino.",
+   "destaque_cor": "ambar",
+   "fonte": "Journal of Applied Physiology 2017"
+  },
+  {
+   "id": "limites",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Onde a decisão deixa de ser de desempenho",
+   "titulo": "Os limites",
+   "cards": [
+    {
+     "t": "Pó a granel",
+     "x": "dose em miligramas, venda em gramas; mortes documentadas por erro de colher",
+     "cor": "verm"
+    },
+    {
+     "t": "Gestação",
+     "x": "teto em torno de 200 mg/dia; meia-vida maior; decisão médica",
+     "cor": "ambar"
+    },
+    {
+     "t": "Crianças e adolescentes",
+     "x": "sem indicação ergogênica; energético desaconselhado",
+     "cor": "ambar"
+    },
+    {
+     "t": "Coração",
+     "x": "hipertensão não controlada, arritmia, palpitação, doença conhecida",
+     "cor": "verm"
+    },
+    {
+     "t": "Soma de estimulantes",
+     "x": "pré-treino, café, energético, termogênico: a dose que ninguém pretendeu",
+     "cor": "verm"
+    },
+    {
+     "t": "Antidoping",
+     "x": "não é proibida; está em monitoramento; há regras de federação",
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "decisoes",
+   "tipo": "tabela",
+   "eyebrow": "As três decisões",
+   "titulo": "O que decide cada perfil",
+   "cab": [
+    "Perfil",
+    "O que decide",
+    "Decisão"
+   ],
+   "larguras": [
+    24,
+    30,
+    46
+   ],
+   "linhas": [
+    [
+     "Treina às 21h",
+     "o sono é a causa da falta de disposição",
+     "não usar como pré-treino; jantar, horário e sono"
+    ],
+    [
+     "Vôlei às 21h30",
+     "jogo decisivo ou de calendário",
+     "dose baixa só no decisivo, ciente da noite pior"
+    ],
+    [
+     "Ciclista hipertenso",
+     "a soma do dia",
+     "somar em voz alta; cortar o pré-treino; pressão com o médico"
+    ]
+   ],
+   "destaque": "A cafeína não é o problema principal do ciclista, mas é a parte que ele controla e que ninguém tinha contado.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "A decisão, em cinco linhas",
+   "titulo": "Quanta cafeína, somando tudo?",
+   "regras": [
+    "3 a 6 mg/kg, 60 min antes; doses menores funcionam e custam menos",
+    "Fonte previsível, não xícara; some o dia inteiro",
+    "Conte a partir da hora de dormir; teste em treino; não é para todo mundo"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "Dose e momento."
+    },
+    {
+     "t": "Médico",
+     "x": "Pressão, arritmia, gestação, ansiedade, interação."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "Veem o efeito e o efeito adverso no treino."
+    }
+   ],
+   "quem": "A pergunta que quase ninguém faz é de todos."
+  }
+ ]
+}

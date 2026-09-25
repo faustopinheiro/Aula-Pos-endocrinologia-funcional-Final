@@ -1,0 +1,603 @@
+{
+ "arquivo": "aulas/MOD05/05-02-creatina-mecanismo-protocolo-mitos-e-populacoes.md",
+ "modulo": "Suplementação, Ergogênicos e Antidoping",
+ "tema": "ameixa",
+ "titulo": "Creatina",
+ "subtitulo": "Fisiologia, protocolo de uso, segurança e populações específicas",
+ "nota_capa": "Entra pelo contraste entre evidência e confusão.",
+ "secoes": {
+  "confusao": [
+   "Os números de base e o protocolo.",
+   "capa"
+  ],
+  "efeito": [
+   "O efeito, o peso e quem responde.",
+   "efeito"
+  ],
+  "rim": [
+   "Mitos, populações e o protocolo prático.",
+   "rim"
+  ]
+ },
+ "slides": [
+  {
+   "id": "confusao",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O suplemento mais estudado",
+   "frase": "Muita evidência, muita confusão.",
+   "apoio": "Rim, cabelo, ciclar, cãibra, “quase anabolizante”, “criança não pode”. Quase toda confusão sobre creatina é de magnitude: há quem espere o efeito de um anabolizante, e há quem descarte um efeito real por ser pequeno."
+  },
+  {
+   "id": "tanque",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Régua do estoque de creatina no músculo: cerca de 120 mmol por quilo de músculo seco no habitual, teto de saturação de 150 a 160\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"0\" y=\"120\" width=\"666\" height=\"80\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"666\" y=\"120\" width=\"582\" height=\"80\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"1248\" y1=\"90\" x2=\"1248\" y2=\"230\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 144,
+     "w": 700,
+     "t": "estoque habitual ≈ 120",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 676,
+     "y": 144,
+     "w": 560,
+     "t": "espaço da suplementação",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1028,
+     "y": 40,
+     "w": 440,
+     "t": "teto ≈ 150 a 160",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 244,
+     "w": 1664,
+     "t": "mmol por quilo de músculo seco · síntese ≈ 1 g/dia · carne e peixe ≈ 1 a 2 g/dia · 95% no músculo",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Os números de base · Kreider, 2017",
+   "titulo": "Um tanque com tampa",
+   "destaque": "Quando enche, acabou: creatina a mais não sobe mais nada. E 1 a 2% do estoque vira creatinina todo dia; guarde isso para o exame de sangue.",
+   "destaque_cor": "petr",
+   "fonte": "Journal of the International Society of Sports Nutrition 2017"
+  },
+  {
+   "id": "hultman",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Dois caminhos até o mesmo patamar de creatina muscular: 20 g por dia por 6 dias sobe rápido; 3 g por dia por 28 dias sobe devagar; ambos chegam a cerca de 20% acima do basal\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><line x1=\"90\" y1=\"220.0\" x2=\"1634\" y2=\"220.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90\" y1=\"60.0\" x2=\"1634\" y2=\"60.0\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"90.0\" y1=\"260\" x2=\"90.0\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"398.8\" y1=\"260\" x2=\"398.8\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"810.5\" y1=\"260\" x2=\"810.5\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1531.1\" y1=\"260\" x2=\"1531.1\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"90\" y1=\"260\" x2=\"1634\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"90.0,220.0 115.7,187.5 141.5,161.6 167.2,140.9 192.9,124.5 218.7,111.4 244.4,100.9 270.1,92.6 295.9,86.0 321.6,80.7 347.3,76.5 373.1,73.1 398.8,70.5 424.5,68.3 450.3,66.6 476.0,65.3 501.7,64.2 527.5,63.4 553.2,62.7 578.9,62.1 604.7,61.7 630.4,61.4 656.1,61.1 681.9,60.9 707.6,60.7 733.3,60.5 759.1,60.4 784.8,60.3 810.5,60.3 836.3,60.2 862.0,60.2 887.7,60.1 913.5,60.1 939.2,60.1 964.9,60.1 990.7,60.1 1016.4,60.0 1042.1,60.0 1067.9,60.0 1093.6,60.0 1119.3,60.0 1145.1,60.0 1170.8,60.0 1196.5,60.0 1222.3,60.0 1248.0,60.0 1273.7,60.0 1299.5,60.0 1325.2,60.0 1350.9,60.0 1376.7,60.0 1402.4,60.0 1428.1,60.0 1453.9,60.0 1479.6,60.0 1505.3,60.0 1531.1,60.0 1556.8,60.0 1582.5,60.0 1608.3,60.0 1634.0,60.0\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><polyline points=\"90.0,220.0 115.7,212.9 141.5,206.1 167.2,199.6 192.9,193.4 218.7,187.5 244.4,181.8 270.1,176.4 295.9,171.2 321.6,166.3 347.3,161.6 373.1,157.0 398.8,152.7 424.5,148.6 450.3,144.7 476.0,140.9 501.7,137.3 527.5,133.9 553.2,130.6 578.9,127.5 604.7,124.5 630.4,121.6 656.1,118.9 681.9,116.2 707.6,113.7 733.3,111.4 759.1,109.1 784.8,106.9 810.5,104.8 836.3,102.8 862.0,100.9 887.7,99.1 913.5,97.4 939.2,95.7 964.9,94.1 990.7,92.6 1016.4,91.1 1042.1,89.8 1067.9,88.4 1093.6,87.2 1119.3,86.0 1145.1,84.8 1170.8,83.7 1196.5,82.7 1222.3,81.7 1248.0,80.7 1273.7,79.8 1299.5,78.9 1325.2,78.1 1350.9,77.3 1376.7,76.5 1402.4,75.8 1428.1,75.1 1453.9,74.4 1479.6,73.7 1505.3,73.1 1531.1,72.5 1556.8,72.0 1582.5,71.5 1608.3,71.0 1634.0,70.5\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 203,
+     "w": 74,
+     "t": "basal",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 43,
+     "w": 74,
+     "t": "+20%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 276,
+     "w": 160,
+     "t": "dia 0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 319,
+     "y": 276,
+     "w": 160,
+     "t": "6",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 731,
+     "y": 276,
+     "w": 160,
+     "t": "14",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1451,
+     "y": 276,
+     "w": 160,
+     "t": "28",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 20,
+     "w": 460,
+     "t": "20 g/dia por 6 dias",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 170,
+     "w": 460,
+     "t": "3 g/dia por 28 dias",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Hultman e colaboradores, 1996",
+   "titulo": "O mesmo destino, por dois caminhos",
+   "destaque": "Depois, 2 g/dia mantêm. Carga só se o efeito for preciso em menos de duas semanas. E é uso contínuo: só nos dias de treino deixa o tanque pela metade.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema, sem valores medidos no traçado · 31 homens, biópsia muscular · Journal of Applied Physiology 1996"
+  },
+  {
+   "id": "efeito",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Repetições em quatro séries: placebo 8, 8, 7, 6; creatina 8, 8, 8, 7. Esquema ilustrativo\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"260\" y=\"24\" width=\"288\" height=\"70\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"600\" y=\"24\" width=\"288\" height=\"70\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"940\" y=\"24\" width=\"252\" height=\"70\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1280\" y=\"24\" width=\"216\" height=\"70\" rx=\"8\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"260\" y=\"144\" width=\"288\" height=\"70\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"600\" y=\"144\" width=\"288\" height=\"70\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"940\" y=\"144\" width=\"288\" height=\"70\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1280\" y=\"144\" width=\"252\" height=\"70\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 40,
+     "w": 220,
+     "t": "placebo",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 558,
+     "y": 40,
+     "w": 60,
+     "t": "8",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 898,
+     "y": 40,
+     "w": 60,
+     "t": "8",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1202,
+     "y": 40,
+     "w": 60,
+     "t": "7",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1506,
+     "y": 40,
+     "w": 60,
+     "t": "6",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 220,
+     "t": "creatina",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 558,
+     "y": 160,
+     "w": 60,
+     "t": "8",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 898,
+     "y": 160,
+     "w": 60,
+     "t": "8",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1238,
+     "y": 160,
+     "w": 60,
+     "t": "8",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1542,
+     "y": 160,
+     "w": 60,
+     "t": "7",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 262,
+     "w": 300,
+     "t": "série 1",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 262,
+     "w": 300,
+     "t": "série 2",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 262,
+     "w": 300,
+     "t": "série 3",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 262,
+     "w": 300,
+     "t": "série 4",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Branch, 2003",
+   "titulo": "A creatina não constrói músculo",
+   "destaque": "Ela permite treinar um pouco mais, e é o treino que constrói. Efeito maior no esforço curto e repetido; sem treino, irrelevante.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema ilustrativo, sem valores medidos · International Journal of Sport Nutrition and Exercise Metabolism 2003"
+  },
+  {
+   "id": "peso",
+   "tipo": "numeros",
+   "eyebrow": "As primeiras semanas",
+   "titulo": "O que se vê em uma semana é peso",
+   "numeros": [
+    {
+     "n": "1 a 2 kg",
+     "x": "a mais na balança, em boa parte água dentro da célula",
+     "cor": "ambar"
+    },
+    {
+     "n": "antes",
+     "x": "é quando avisar; depois, a pessoa lê como gordura e para",
+     "cor": "petr"
+    },
+    {
+     "n": "categoria",
+     "x": "de peso: efeito colateral real, conversa com técnico e nutricionista",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "O peso, sozinho, nunca é o desfecho do teste: ele sobe em quase todo mundo, responda a pessoa ou não.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "responde",
+   "tipo": "duas",
+   "eyebrow": "Burke e colaboradores, 2003",
+   "titulo": "Quem chega com o tanque baixo responde mais",
+   "esq": {
+    "t": "Tanque cheio",
+    "cor": "tinta",
+    "itens": [
+     "come carne e peixe todo dia",
+     "pouco espaço até o teto",
+     "“não respondedor”: 20 a 30%, em estudos pequenos"
+    ]
+   },
+   "dir": {
+    "t": "Tanque baixo",
+    "cor": "petr",
+    "itens": [
+     "vegetariano: 117 contra 130 mmol/kg no início",
+     "maior aumento de estoque e de massa magra",
+     "maior ganho de trabalho total"
+    ]
+   },
+   "destaque": "A primeira pergunta é dietética: quanta carne e peixe essa pessoa come? E a resposta se mede no treino: 4 a 8 semanas, um desfecho escolhido antes.",
+   "destaque_cor": "ambar",
+   "fonte": "Medicine and Science in Sports and Exercise 2003 · Syrotuik e Bell 2004"
+  },
+  {
+   "id": "rim",
+   "tipo": "duas",
+   "eyebrow": "Mito um · Lugaresi, Gualano e colaboradores, 2013",
+   "titulo": "O rim, e a armadilha do exame",
+   "esq": {
+    "t": "O que o ensaio mostrou",
+    "cor": "petr",
+    "itens": [
+     "treinados em força, dieta rica em proteína",
+     "12 semanas, randomizado, com placebo",
+     "filtração medida sem alteração",
+     "proteinúria e albuminúria iguais"
+    ]
+   },
+   "dir": {
+    "t": "A armadilha",
+    "cor": "verm",
+    "itens": [
+     "creatina vira creatinina",
+     "creatinina sérica um pouco mais alta",
+     "filtração estimada mais baixa",
+     "substrato a mais, não filtração a menos"
+    ]
+   },
+   "destaque": "Quem usa avisa antes de coletar. Quem tem doença renal ou risco relevante é outra conversa, médica e individual.",
+   "destaque_cor": "tinta",
+   "fonte": "Journal of the International Society of Sports Nutrition 2013"
+  },
+  {
+   "id": "mitos",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Mitos dois a cinco",
+   "titulo": "Cada mito com o número que merece",
+   "cards": [
+    {
+     "t": "Cabelo",
+     "x": "20 jogadores, mediu hormônio, não cabelo, sem replicação (van der Merwe, 2009)",
+     "cor": "ambar"
+    },
+    {
+     "t": "Cãibra e calor",
+     "x": "sem mais cãibra em temporada no calor (Greenwood, 2003, observacional); sem prejuízo térmico (Lopez, 2009)",
+     "cor": "petr"
+    },
+    {
+     "t": "Esteroide",
+     "x": "não é hormônio, não age no receptor androgênico, não é proibida",
+     "cor": "petr"
+    },
+    {
+     "t": "Ciclar",
+     "x": "ao parar, o estoque volta ao basal; ciclar é tanque pela metade",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Quem tem calvície familiar pode não usar, sabendo que a escolha é de precaução, não de evidência.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "populacoes",
+   "tipo": "tabela",
+   "eyebrow": "Em quem foi estudado",
+   "titulo": "Onde a conta muda",
+   "cab": [
+    "População",
+    "O que a evidência mostra",
+    "Na conduta"
+   ],
+   "larguras": [
+    18,
+    46,
+    36
+   ],
+   "linhas": [
+    [
+     "Mulheres",
+     "efeito compatível com o dos homens; menos estudos (Smith-Ryan, 2021)",
+     "dose igual; interesse na menopausa"
+    ],
+    [
+     "Idosos",
+     "22 ensaios, 721 pessoas: +1,4 kg de massa magra com treino de força (Chilibeck, 2017)",
+     "só com carga; sem ela, não vale"
+    ],
+    [
+     "Adolescentes",
+     "sem sinal de dano nas doses usuais (Jagim e Kerksick, 2021)",
+     "decisão médica, depois da base"
+    ],
+    [
+     "Vegetarianos",
+     "tanque mais baixo, resposta maior",
+     "atenção à cápsula de gelatina"
+    ]
+   ],
+   "destaque": "O adolescente “fraco para a idade” tem quatro explicações antes do pote: comida, sono, maturação e treino orientado. E o pote ensina que força se compra.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "alem",
+   "tipo": "duas",
+   "eyebrow": "Hespel, 2001 · Avgerinos, 2018",
+   "titulo": "Além do desempenho, com sobriedade",
+   "esq": {
+    "t": "Reabilitação",
+    "cor": "petr",
+    "itens": [
+     "22 voluntários, 2 semanas de gesso",
+     "não protegeu o músculo parado",
+     "recuperou mais na reabilitação",
+     "estar tomando quando a carga voltar"
+    ]
+   },
+   "dir": {
+    "t": "Cognição",
+    "cor": "ambar",
+    "itens": [
+     "6 ensaios, 281 pessoas saudáveis",
+     "memória de curto prazo, mais em idosos",
+     "sinal real e modesto",
+     "mecanismo não é indicação"
+    ]
+   },
+   "destaque": "Entre “tem mecanismo e estudos em andamento” e “está indicado” mora boa parte do marketing de suplemento.",
+   "destaque_cor": "tinta",
+   "fonte": "Journal of Physiology 2001 · Experimental Gerontology 2018"
+  },
+  {
+   "id": "protocolo",
+   "tipo": "lista",
+   "eyebrow": "O protocolo prático",
+   "titulo": "Seis linhas",
+   "itens": [
+    {
+     "t": "Forma: monoidratada",
+     "x": "a dos estudos e a mais barata; as outras não mostraram superioridade",
+     "cor": "petr"
+    },
+    {
+     "t": "Dose: 3 a 5 g por dia",
+     "x": "carga de ~20 g por 5 a 6 dias só se houver pressa, em quatro tomadas",
+     "cor": "petr"
+    },
+    {
+     "t": "Horário: o que a pessoa lembrar",
+     "x": "adesão vale mais que horário",
+     "cor": "petr"
+    },
+    {
+     "t": "Com líquido, e numa refeição se incomodar",
+     "x": "desconforto quase sempre é dose alta de uma vez",
+     "cor": "ambar"
+    },
+    {
+     "t": "Dias sem treino: toma igual",
+     "x": "a linha mais esquecida",
+     "cor": "ambar"
+    },
+    {
+     "t": "Por quanto tempo: enquanto houver objetivo",
+     "x": "pote simples, um ingrediente, controle verificável",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 10
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Os três perfis",
+   "titulo": "Treinar um pouco mais, todo dia",
+   "regras": [
+    "Corredor: pequeno na prova; a pergunta é se o treino de força existe",
+    "Mulher na menopausa com musculação: a indicação mais sólida, contínua, sem carga",
+    "Adolescente: ainda não é essa a pergunta; comida, sono, maturação, treino"
+   ],
+   "cards": [
+    {
+     "t": "Nutricionista",
+     "x": "Indica e dosa."
+    },
+    {
+     "t": "Médico",
+     "x": "Rim, doença de base, adolescente."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "O treino que dá sentido ao pote."
+    }
+   ],
+   "quem": "Registrar o uso antes de um exame de sangue é de todos."
+  }
+ ]
+}

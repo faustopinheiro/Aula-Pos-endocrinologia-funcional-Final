@@ -53,6 +53,7 @@ No spec, a chave `"tema"` escolhe o conjunto (sem ela, vale tinta).
 | 1 e 2 | `tinta` | `#12202E` | `#1B2E3F` | `#7FC4BE` | `#E88C7D` |
 | 3 | `bordo` | `#3A1A22` | `#4A2530` | `#7FC4BE` | `#E6C08A` |
 | 4 | `petroleo` | `#0F3432` | `#184442` | `#E6C08A` | `#F2A58F` |
+| 5 | `ameixa` | `#2B1E38` | `#3A2B48` | `#E6C08A` | `#7FC4BE` |
 
 Todas as combinações de texto sobre o fundo passam de 5:1 de contraste.
 
