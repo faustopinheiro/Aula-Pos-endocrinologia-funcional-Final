@@ -1,0 +1,419 @@
+{
+ "arquivo": "aulas/MOD05/05-07-ferro-vitamina-d-e-omega-3-no-praticante.md",
+ "modulo": "Suplementação, Ergogênicos e Antidoping",
+ "tema": "ameixa",
+ "titulo": "Ferro, vitamina D e ômega-3",
+ "subtitulo": "Suplementos de uso clínico, diagnóstico antes do produto",
+ "nota_capa": "Entra pela forma da curva.",
+ "secoes": {
+  "regra": [
+   "A regra, a curva e as três perguntas.",
+   "capa"
+  ],
+  "ferro": [
+   "Ferro: quem testar, como repor, por que não às cegas.",
+   "ferro"
+  ],
+  "vitd": [
+   "Vitamina D, ômega-3 e o alerta dos antioxidantes.",
+   "vitd"
+  ],
+  "aplicado": [
+   "As três perguntas aplicadas.",
+   "aplicado"
+  ]
+ },
+ "slides": [
+  {
+   "id": "regra",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Suplementos de uso clínico",
+   "frase": "Corrigir deficiência melhora. Turbinar suficiência, não.",
+   "apoio": "Os ergogênicos acrescentam algo sobre uma base normal. Ferro, vitamina D e ômega-3 funcionam quando há falta. Sem saber se falta, não existe decisão possível."
+  },
+  {
+   "id": "curva",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Esquema de uma curva de benefício pela quantidade: sobe na falta, vira platô na suficiência e desce abaixo de zero no excesso\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"60\" y=\"20\" width=\"500\" height=\"320\" fill=\"#DDEFEC\" opacity=\"0.6\"/><rect x=\"1120\" y=\"20\" width=\"484\" height=\"320\" fill=\"#F3E1DE\" opacity=\"0.6\"/><line x1=\"60\" y1=\"240\" x2=\"1604\" y2=\"240\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><path d=\"M60,236 C300,228 400,80 620,80 L1100,80 C1300,80 1420,200 1600,330\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 30,
+     "w": 500,
+     "t": "falta: corrigir ajuda",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 30,
+     "w": 480,
+     "t": "suficiência: platô",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 30,
+     "w": 484,
+     "t": "excesso: dano",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 110,
+     "w": 480,
+     "t": "mais produto, nenhum benefício a mais",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 256,
+     "w": 200,
+     "t": "sem efeito",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 280,
+     "w": 260,
+     "t": "ferro e vitamina D",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A forma da curva",
+   "titulo": "Onde a pessoa está?",
+   "destaque": "A pergunta não é “isso é bom?”. É “onde essa pessoa está na curva?”. Para ferro e vitamina D, só um exame responde.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "perfis",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Três perfis típicos",
+   "titulo": "Uma precisa, um se arrisca, um não move nada",
+   "cards": [
+    {
+     "t": "A corredora",
+     "x": "cansada há três meses; ferritina 18, hemoglobina normal",
+     "cor": "petr"
+    },
+    {
+     "t": "O homem da megadose",
+     "x": "50 mil unidades de vitamina D por semana, há oito meses; nunca dosou cálcio",
+     "cor": "verm"
+    },
+    {
+     "t": "O jogador",
+     "x": "uma cápsula de ômega-3 por dia “para inflamação”",
+     "cor": "ambar"
+    }
+   ],
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "lista",
+   "eyebrow": "A decisão",
+   "titulo": "Três perguntas, para qualquer suplemento de uso clínico",
+   "itens": [
+    {
+     "t": "Existe falta, demonstrada?",
+     "x": "ferro e vitamina D: exame com indicação · ômega-3: ingestão habitual de peixe",
+     "cor": "petr"
+    },
+    {
+     "t": "Existe risco no excesso?",
+     "x": "ferro: sério · vitamina D: em dose alta sem controle · ômega-3: menor; anticoagulante",
+     "cor": "verm"
+    },
+    {
+     "t": "Existe dose, prazo e reavaliação?",
+     "x": "repor sem data de reavaliação cria uso permanente por inércia",
+     "cor": "ambar"
+    }
+   ],
+   "gap_itens": 24
+  },
+  {
+   "id": "ferro",
+   "tipo": "numeros",
+   "eyebrow": "Sim e colaboradores, 2019",
+   "titulo": "Ferro: quem testar e o que o número diz",
+   "numeros": [
+    {
+     "n": "< 35 µg/L",
+     "x": "ferritina do primeiro estágio de deficiência em atletas, com hemoglobina ainda normal",
+     "cor": "petr"
+    },
+    {
+     "n": "3 a 6 h",
+     "x": "pico da hepcidina depois do exercício: a absorção intestinal se fecha",
+     "cor": "ambar"
+    },
+    {
+     "n": "↑",
+     "x": "ferritina sobe na inflamação: pode estar falsamente confortável",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Grupo de risco somado a sintoma abre exame. Nenhum dos dois, sozinho, costuma abrir.",
+   "destaque_cor": "tinta",
+   "fonte": "European Journal of Applied Physiology 2019"
+  },
+  {
+   "id": "stoffel",
+   "tipo": "numeros",
+   "eyebrow": "Stoffel e colaboradores, 2017",
+   "titulo": "Ferro: dias alternados, dose única",
+   "numeros": [
+    {
+     "n": "16,3%",
+     "x": "absorção fracionada acumulada em dias consecutivos",
+     "cor": "tinta"
+    },
+    {
+     "n": "21,8%",
+     "x": "em dias alternados; ferro total de 131 para 175 mg",
+     "cor": "petr"
+    },
+    {
+     "n": "= ",
+     "x": "dividir a dose do dia: sem ganho de absorção, mais hepcidina",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Dose única, pela manhã, em dias alternados, longe da sessão intensa. Vitamina C junto; café, chá, leite e cálcio longe.",
+   "destaque_cor": "petr",
+   "fonte": "Mulheres com estoque baixo, dois ensaios · Lancet Haematology 2017"
+  },
+  {
+   "id": "pista",
+   "tipo": "duas",
+   "eyebrow": "Ferro só com diagnóstico",
+   "titulo": "Por que não repor às cegas",
+   "esq": {
+    "t": "Ferro em excesso",
+    "cor": "verm",
+    "itens": [
+     "acumula; sem via eficiente de excreção",
+     "hemocromatose hereditária não é raríssima",
+     "polivitamínico com ferro também conta"
+    ]
+   },
+   "dir": {
+    "t": "Repor apaga a pista",
+    "cor": "ambar",
+    "itens": [
+     "ferritina baixa é achado, não diagnóstico",
+     "fluxo menstrual, dieta, doença celíaca",
+     "perda digestiva: obrigatório investigar"
+    ]
+   },
+   "destaque": "Diagnóstico, prescrição e reavaliação são do médico. Reconhecer risco e sintoma e encaminhar cedo é de todos.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "vitd",
+   "tipo": "duas",
+   "eyebrow": "Vitamina D: só a decisão",
+   "titulo": "Corrigir não é otimizar",
+   "esq": {
+    "t": "Corrigir",
+    "cor": "petr",
+    "itens": [
+     "testar quem tem motivo: pouco sol, treino coberto, pele escura",
+     "idade, obesidade, má absorção, fratura por estresse",
+     "em deficiente, repor melhora desfecho ósseo",
+     "com refeição que tenha gordura"
+    ]
+   },
+   "dir": {
+    "t": "Otimizar",
+    "cor": "verm",
+    "itens": [
+     "em suficiente, sem ganho de desempenho demonstrado",
+     "alvo alto “para performance”: qual desfecho previu?",
+     "megadose sem controle: hipercalcemia",
+     "não dá sintoma cedo"
+    ]
+   },
+   "destaque": "Na megadose, a conduta é avaliação médica com cálcio e vitamina D, e a suspensão decidida com o resultado na mão.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "omega",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Barras comparando a dose de muitos ensaios em esporte, dois a três gramas de EPA mais DHA por dia, com os cerca de trezentos miligramas de uma cápsula comum\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"420\" y=\"40\" width=\"787\" height=\"80\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1207\" y=\"40\" width=\"393\" height=\"80\" rx=\"6\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"420\" y=\"180\" width=\"118\" height=\"80\" rx=\"6\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 58,
+     "w": 400,
+     "t": "muitos ensaios em esporte",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 198,
+     "w": 400,
+     "t": "1 cápsula de 1.000 mg de óleo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 62,
+     "w": 760,
+     "t": "2 a 3 g de EPA + DHA por dia",
+     "tam": 28,
+     "cor": "#FFFFFF",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 558,
+     "y": 202,
+     "w": 1100,
+     "t": "≈ 300 mg de EPA + DHA: seis ou sete cápsulas para chegar a 2 g",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Ômega-3: a decisão é pela ingestão",
+   "titulo": "Leia a linha de EPA e DHA, não o peso da cápsula",
+   "destaque": "Quase nunca come peixe? Há espaço. Efeito claro em marcador de inflamação e dano; inconsistente no desempenho. Incorporação leva semanas.",
+   "destaque_cor": "petr",
+   "fonte": "A cápsula é exemplo de rótulo comum, não número de estudo"
+  },
+  {
+   "id": "paulsen",
+   "tipo": "numeros",
+   "eyebrow": "Paulsen e colaboradores, 2014",
+   "titulo": "Apagar o sinal que adapta",
+   "numeros": [
+    {
+     "n": "54",
+     "x": "jovens, duplo-cego, 11 semanas de treino aeróbio, sobretudo corrida",
+     "cor": "tinta"
+    },
+    {
+     "n": "1.000 mg",
+     "x": "de vitamina C, com 235 mg de vitamina E, por dia: doses de prateleira",
+     "cor": "ambar"
+    },
+    {
+     "n": "↓",
+     "x": "aumento das proteínas mitocondriais embotado no grupo suplementado",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Achado de vitamina C e E, não do ômega-3. Mas a postura vale: onde a inflamação faz parte do sinal, “reduzir inflamação” não é automaticamente bom.",
+   "destaque_cor": "tinta",
+   "fonte": "Journal of Physiology 2014"
+  },
+  {
+   "id": "aplicado",
+   "tipo": "tabela",
+   "eyebrow": "As três perguntas, aplicadas",
+   "titulo": "Três posições na curva",
+   "cab": [
+    "Perfil",
+    "Falta?",
+    "Risco?",
+    "Conduta"
+   ],
+   "larguras": [
+    18,
+    16,
+    18,
+    48
+   ],
+   "linhas": [
+    [
+     "Corredora",
+     "provável",
+     "repor às cegas",
+     "médico investiga o porquê; dose única matinal, dias alternados; reavaliação"
+    ],
+    [
+     "Megadose de D",
+     "não é a questão",
+     "hipercalcemia",
+     "médico, cálcio e vitamina D; suspensão orientada"
+    ],
+    [
+     "Jogador",
+     "talvez",
+     "baixo",
+     "peixe duas vezes por semana; se usar, a dose dos estudos"
+    ]
+   ],
+   "destaque": "A dor depois do jogo tem candidatos melhores: volume de jogo acima do treinado, sono e recuperação.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Nos ergogênicos: vale a pena? Aqui: falta?",
+   "titulo": "Você toma alguma vitamina ou suplemento por conta própria?",
+   "regras": [
+    "Corrigir deficiência melhora; turbinar suficiência, não",
+    "Ferro e vitamina D: exame antes do produto, e reavaliação marcada",
+    "Ômega-3: ingestão habitual primeiro; dose lida no rótulo"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Exame, diagnóstico, prescrição, causa, suspensão."
+    },
+    {
+     "t": "Nutricionista",
+     "x": "Comida que previne e sustenta a correção."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "Veem o sinal primeiro; levam o dado adiante."
+    }
+   ],
+   "quem": "A pergunta de primeira consulta é de todas as profissões."
+  }
+ ]
+}

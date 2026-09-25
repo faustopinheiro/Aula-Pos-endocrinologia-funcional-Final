@@ -151,13 +151,13 @@ típicos, sem idade, e contas feitas em aula.
 | 5.4 | Beta-alanina | 12 | 10 | NÚMERO | [slides](https://claude.ai/artifact/E5W6SrSsiEHKmG3XSnkWVS) |
 | 5.5 | Nitrato e bicarbonato de sódio | 13 | 11 | PROCEDIMENTO | [slides](https://claude.ai/artifact/3jXnXk7q8begqZtUXjnMYb) |
 | 5.6 | Proteína em pó e aminoácidos | 16 | 12 | ERRO | [slides](https://claude.ai/artifact/FMz7XeMxRzuFXnvsgwsYUj) |
+| 5.7 | Ferro, vitamina D e ômega-3 | 18 | 12 | DECISÃO | [slides](https://claude.ai/artifact/AKrUBvR2KvMqRyD1hvqsNF) |
+| 5.8 | Suplementos sem evidência | 17 | 12 | ERRO | [slides](https://claude.ai/artifact/E2PGjQBELM7K394zmu1tgL) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Min | Arquitetura |
 |---|---|---|---|
-| 5.7 | Ferro, vitamina D e ômega-3 no praticante | 21 | DECISÃO |
-| 5.8 | Suplementos sem evidência: desmontar uma promessa | 20 | ERRO |
 | 5.9 | Contaminação de suplementos e certificação de lote | 19 | PROCEDIMENTO |
 | 5.10 | Lista proibida, AUT e responsabilidade da equipe | 30 | DECISÃO |
 | 5.11 | Hormônios e peptídeos fora de indicação | 25 | CASO |
