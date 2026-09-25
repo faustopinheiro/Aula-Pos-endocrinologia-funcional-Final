@@ -173,14 +173,14 @@ típicos, sem idade, e contas feitas em aula.
 | 6.1 | Avaliação pré-participação | 19 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/5XNMp9y1t4m4BYxVSr6Bk9) |
 | 6.2 | Triagem cardiológica | 15 | 12 | DECISÃO | [slides](https://claude.ai/artifact/RYp1EvgZsQ5ySwRKBtriEu) |
 | 6.3 | Coração de atleta versus cardiopatia | 22 | 12 | NÚMERO | [slides](https://claude.ai/artifact/QdE5U2a3EwDxcw37jnMkmC) |
+| 6.4 | Morte súbita no esporte | 14 | 11 | ERRO | [slides](https://claude.ai/artifact/AMz2PhjEfQ7EPZHZXysZgG) |
+| 6.5 | Emergência em campo | 18 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/G8X3hgaRPHzvh8djbxKvpZ) |
+| 6.6 | Concussão relacionada ao esporte | 20 | 13 | DECISÃO | [slides](https://claude.ai/artifact/CyvT4PVvUngEguH3SCQS5n) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Min | Arquitetura |
 |---|---|---|---|
-| 6.4 | Morte súbita no esporte: o que os números realmente dizem | 20 | ERRO |
-| 6.5 | Emergência em campo e cadeia de sobrevivência | 23 | PROCEDIMENTO |
-| 6.6 | Concussão: reconhecimento, retirada e retorno | 29 | DECISÃO |
 | 6.7 | Asma e broncoespasmo induzido por exercício | 18 | NÚMERO |
 | 6.8 | Infecção, imunologia e retorno após doença | 21 | DECISÃO |
 | 6.9 | Anemia, deficiência de ferro e a armadilha da ferritina | 23 | PROCEDIMENTO |

@@ -1,0 +1,132 @@
+"""Spec do deck 6.6. Gera 06-06.json ao lado deste arquivo."""
+import json, math, os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "ferramentas", "slides"))
+from desenho import *
+
+S = []
+
+# 1. frase
+S.append({"id": "frase", "tipo": "frase", "fundo": "tinta", "eyebrow": "Concussão relacionada ao esporte",
+          "frase": "A lesão em que a decisão errada custa mais do que a lesão.",
+          "apoio": "Não há exame que decida por você: a tomografia costuma vir normal. A decisão é clínica, rápida, sob pressão, e é tomada três vezes."})
+
+# 2. três decisões
+S.append({"id": "decisoes", "tipo": "cards", "por_linha": 3, "eyebrow": "As três decisões da aula", "titulo": "Trinta segundos, quarenta e oito horas, sétimo dia",
+          "cards": [{"t": "À beira do campo", "x": "o meia cambaleia e diz que está bem: dá para continuar?", "cor": "verm"},
+                    {"t": "Na casa da família", "x": "o adolescente no domingo: escola, celular, quarto escuro?", "cor": "ambar"},
+                    {"t": "No vestiário", "x": "“estou zerado, posso treinar com contato?”", "cor": "petr"}],
+          "destaque": "O diagnóstico é médico. Reconhecer e retirar de campo não é, e é aí que o sistema mais falha.",
+          "destaque_cor": "tinta"})
+
+# 3. equívocos
+S.append({"id": "equivocos", "tipo": "tabela", "eyebrow": "A definição do consenso de Amsterdã", "titulo": "Três equívocos que ela resolve",
+          "cab": ["O equívoco", "O que vale"],
+          "larguras": [40, 60],
+          "linhas": [["“Não bateu a cabeça.”", "a força chega pelo ombro, pelo tronco, pela queda"],
+                     ["“Não desmaiou.”", "perda de consciência em menos de 10% dos casos"],
+                     ["“A tomografia deu normal.”", "é o esperado; ela exclui sangramento, não concussão"]],
+          "destaque": "Os sintomas podem aparecer em minutos ou horas. Quem estava bem no intervalo e piora à noite continua suspeito.",
+          "destaque_cor": "petr", "fonte": "Consenso de Amsterdã, Br J Sports Med 2023"})
+
+# 4. sinais
+S.append({"id": "sinais", "tipo": "cards", "por_linha": 3, "eyebrow": "Decisão à beira do campo", "titulo": "Um único sinal basta",
+          "cards": [{"t": "Demora para levantar", "x": "sem causa aparente", "cor": "verm"},
+                    {"t": "Incoordenação", "x": "cambaleio, passos instáveis", "cor": "verm"},
+                    {"t": "Olhar vago", "x": "parado, desconectado", "cor": "verm"},
+                    {"t": "Postura tônica ou abalos", "x": "retirada imediata e avaliação urgente", "cor": "verm"},
+                    {"t": "Confusão", "x": "não sabe o placar, repete perguntas", "cor": "ambar"},
+                    {"t": "O que ele relata", "x": "dor de cabeça, náusea, tontura, lentidão", "cor": "ambar"}],
+          "destaque_cor": "tinta"})
+
+# 5. reconhecer x avaliar
+S.append({"id": "retira", "tipo": "duas", "eyebrow": "Reconheceu, retira", "titulo": "Não volta no mesmo dia, em nenhuma idade",
+          "esq": {"t": "Reconhecer: qualquer pessoa", "cor": "petr",
+                  "itens": ["cartão CRT6", "feito para quem não é da saúde", "não diagnostica", "decide quem sai para ser avaliado"]},
+          "dir": {"t": "Avaliar: médico", "cor": "tinta",
+                  "itens": ["SCAT6, 13 anos ou mais", "Child SCAT6, 8 a 12 anos", "maior sensibilidade até 72 horas", "depois de uma semana, versão de consultório"]},
+          "destaque": "Retirar não é diagnosticar. É tirar do risco quem pode estar lesionado.",
+          "destaque_cor": "petr", "fonte": "SCAT6 e CRT6, Br J Sports Med 2023"})
+
+# 6. alarme
+S.append({"id": "alarme", "tipo": "lista", "eyebrow": "Quando a suspeita vira emergência", "titulo": "Não mover, 192, hospital",
+          "itens": [{"t": "Consciência", "x": "perda prolongada ou nível piorando; comportamento muito alterado", "cor": "verm"},
+                    {"t": "Cabeça", "x": "vômitos repetidos, dor que piora, pupilas diferentes, convulsão", "cor": "verm"},
+                    {"t": "Neurológico e coluna", "x": "fraqueza, formigamento, fala arrastada, suspeita de lesão cervical", "cor": "verm"}],
+          "gap_itens": 26})
+
+# 7. cultura
+S.append({"id": "cultura", "tipo": "duas", "eyebrow": "Por que a regra é quebrada", "titulo": "E o que ajuda a cumpri-la",
+          "esq": {"t": "O atleta subnotifica", "cor": "ambar",
+                  "itens": ["vaga, contrato, final", "o órgão lesionado é o que se autoavalia", "“disse que está bem” não é dado clínico"]},
+          "dir": {"t": "O técnico decide sob pressão", "cor": "ambar",
+                  "itens": ["não é maldade, é a função", "a retirada não deveria depender dele", "a regra pode tirar o peso do banco"]},
+          "destaque": "Substituição adicional por concussão: aprovada pela IFAB em 2024, adotada pela CBF, a primeira confederação da FIFA a implantá-la. Não conta nas trocas normais.",
+          "destaque_cor": "petr", "fonte": "IFAB 2024 · CBF, relatório dos campeonatos brasileiros de 2024"})
+
+# 8. repouso
+S.append({"id": "repouso", "tipo": "duas", "eyebrow": "Decisão na casa da família", "titulo": "A recomendação mudou",
+          "esq": {"t": "A orientação antiga", "cor": "verm",
+                  "itens": ["repouso absoluto até zerar", "quarto escuro", "sem tela, sem escola, por dias"]},
+          "dir": {"t": "A orientação atual", "cor": "petr",
+                  "itens": ["repouso relativo de 24 a 48 horas", "tela limitada, sono priorizado", "depois, movimento leve abaixo do limiar", "piora breve de até 2 pontos é tolerada"]},
+          "destaque": "Álcool não. Analgésico só com orientação. Sinais de alarme entregues por escrito.",
+          "destaque_cor": "tinta", "fonte": "Consenso de Amsterdã 2023"})
+
+# 9. escola primeiro
+S.append({"id": "escola", "tipo": "lista", "eyebrow": "A ordem que quase todo mundo inverte", "titulo": "Escola e trabalho antes do contato",
+          "itens": [{"t": "Atividade cognitiva é carga", "x": "quem não passa uma manhã de aula sem dor não está pronto para o coletivo", "cor": "petr"},
+                    {"t": "A volta à escola também é graduada", "x": "meia jornada, pausas, prova adiada, combinado por escrito", "cor": "ambar"},
+                    {"t": "Movimento leve em paralelo", "x": "o que fica para o fim é o contato", "cor": "petr"},
+                    {"t": "No adulto, o trabalho", "x": "motorista, máquina, altura: critério de segurança próprio", "cor": "ambar"}],
+          "gap_itens": 22})
+
+# 10. escada
+S.append({"id": "escada", "tipo": "tabela", "eyebrow": "Decisão no vestiário", "titulo": "Seis degraus, pelo menos 24 horas cada",
+          "cab": ["Degrau", "O que se faz", "Condição"],
+          "larguras": [12, 50, 38],
+          "linhas": [["1", "atividade limitada por sintoma", "sintoma leve e breve tolerado"],
+                     ["2", "aeróbico leve (cerca de 55% da FC máx.), depois moderado", "sintoma leve e breve tolerado"],
+                     ["3", "exercício do esporte, individual, sem impacto na cabeça", "sintoma leve e breve tolerado"],
+                     ["4", "treino sem contato, intenso, com força", "sintomas no basal"],
+                     ["5", "treino com contato", "liberação médica"],
+                     ["6", "jogo", ""]],
+          "destaque": "Sintoma que volta faz retroceder. Assintomático em repouso não é liberado: o teste é tolerar carga.",
+          "destaque_cor": "verm", "fonte": "Estratégia de retorno ao esporte, consenso de Amsterdã 2023"})
+
+# 11. quando demora
+S.append({"id": "demora", "tipo": "numeros", "eyebrow": "Quando a recuperação demora", "titulo": "Não é frescura, e esperar parado é o erro",
+          "numeros": [{"n": "4 semanas", "x": "a maioria se recupera nesse prazo", "cor": "petr"},
+                      {"n": "20 a 30%", "x": "de jovens e adultos seguem com sintoma por mais tempo", "cor": "ambar"},
+                      {"n": "4 frentes", "x": "pescoço, sistema vestibular, visão, humor e sono", "cor": "tinta"}],
+          "destaque": "Encefalopatia traumática crônica: preocupação legítima, associação descrita, causa e risco individual não estabelecidos. Reduzir exposição já se justifica hoje.",
+          "destaque_cor": "tinta", "fonte": "Consenso de Amsterdã 2023"})
+
+# 12. prevenção
+S.append({"id": "prevencao", "tipo": "numeros", "eyebrow": "Prevenção com dado", "titulo": "Regra primeiro, equipamento depois",
+          "numeros": [{"n": "58%", "x": "menos concussão sem body checking no hóquei de crianças e adolescentes", "cor": "petr"},
+                      {"n": "26%", "x": "a menos, aproximadamente, com protetor bucal nos esportes de colisão", "cor": "ambar"},
+                      {"n": "até 60%", "x": "menos com aquecimento neuromuscular no rugby", "cor": "petr"}],
+          "destaque": "Sem evidência para vender como prevenção: faixa de cabeça, suplemento neuroprotetor, imagem de rotina. Custo zero: ensinar a comissão e limitar contato no treino.",
+          "destaque_cor": "verm", "fonte": "Revisão sistemática do consenso, Br J Sports Med 2023"})
+
+# 13. fecho
+S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "As três decisões, respondidas", "titulo": "Sai, repousa pouco, sobe degrau por degrau",
+          "regras": ["Um sinal basta, e não volta no mesmo dia",
+                     "Repouso relativo curto; movimento leve entra cedo; escola antes do contato",
+                     "Seis degraus, 24 horas cada, contato com assinatura médica"],
+          "cards": [{"t": "Qualquer pessoa da comissão", "x": "Reconhece e retira. Retirar não é diagnosticar."},
+                    {"t": "Médico", "x": "Diagnostica, avalia com SCAT6, indica imagem, libera o contato."},
+                    {"t": "Preparação, fisio, psicologia", "x": "Conduzem os degraus, tratam pescoço e equilíbrio, cuidam do medo de voltar."}],
+          "quem": "A conversa com escola, família e clube é parte do tratamento."})
+
+spec = {"arquivo": "aulas/MOD06/06-06-concussao-reconhecimento-retirada-e-retorno.md",
+        "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
+        "titulo": "Concussão relacionada ao esporte", "subtitulo": "Reconhecer, retirar e conduzir o retorno",
+        "nota_capa": "Entra pela frase: a decisão errada custa mais que a lesão.",
+        "secoes": {"frase": ["As três decisões e a definição.", "capa"],
+                   "sinais": ["À beira do campo: sinais, retirada e cultura.", "sinais"],
+                   "repouso": ["Em casa e no vestiário: repouso, escola, escada.", "repouso"],
+                   "demora": ["Quando demora, prevenção e fecho.", "demora"]},
+        "slides": S}
+json.dump(spec, open(os.path.join(os.path.dirname(__file__), "06-06.json"), "w"), ensure_ascii=False, indent=1)
+print("06-06.json:", len(S), "slides")

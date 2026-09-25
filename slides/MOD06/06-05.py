@@ -1,0 +1,130 @@
+"""Spec do deck 6.5. Gera 06-05.json ao lado deste arquivo."""
+import json, math, os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "ferramentas", "slides"))
+from desenho import *
+
+S = []
+
+# 1. a cena
+S.append({"id": "cena", "tipo": "frase", "fundo": "tinta", "eyebrow": "Sábado de manhã, campo alugado",
+          "frase": "Um menino cai no meio do primeiro tempo. Ninguém encostou nele.",
+          "apoio": "A partir desse segundo, o desfecho depende de coisas decididas antes do jogo: quem vai primeiro, onde está o desfibrilador, quem liga, quem abre o portão."})
+
+# 2. mapa dos seis passos
+S.append({"id": "mapa", "tipo": "cards", "por_linha": 3, "eyebrow": "O procedimento", "titulo": "Seis passos, metade antes da queda",
+          "cards": [{"t": "1. Plano escrito", "x": "antes da queda", "cor": "petr"},
+                    {"t": "2. Desfibrilador no lugar", "x": "antes da queda", "cor": "petr"},
+                    {"t": "3. Reconhecer e comprimir", "x": "na queda", "cor": "verm"},
+                    {"t": "4. Chocar e voltar", "x": "na queda", "cor": "verm"},
+                    {"t": "5. Transferir e registrar", "x": "depois", "cor": "ambar"},
+                    {"t": "6. Ensaiar", "x": "depois, e de novo", "cor": "ambar"}],
+          "destaque": "A parte que decide o desfecho é a parte administrativa, feita numa terça-feira qualquer. Nada aqui substitui o curso presencial de suporte básico de vida.",
+          "destaque_cor": "tinta"})
+
+# 3. a folha
+S.append({"id": "folha", "tipo": "tabela", "eyebrow": "Passo um: o plano escrito", "titulo": "Sete linhas, sete nomes próprios",
+          "cab": ["Função", "O que faz"],
+          "larguras": [34, 66],
+          "linhas": [["Quem lidera", "olha o relógio, distribui tarefas; não comprime"],
+                     ["Quem comprime", "e quem é o segundo: troca a cada dois minutos"],
+                     ["Quem busca o desfibrilador", "sai correndo sem esperar ordem"],
+                     ["Quem liga para o 192", "com endereço, referência e portão escritos na folha"],
+                     ["Quem abre o portão", "e conduz a ambulância até o atleta"],
+                     ["Quem afasta as pessoas", "e protege a imagem do atleta"],
+                     ["Quem cuida do grupo", "atletas e famílias que viram a queda"]],
+          "destaque": "O teste: entregue a folha a quem não estava na reunião. Se não souber o que fazer, existe uma folha, não um plano.",
+          "destaque_cor": "petr"})
+
+# 4. desfibrilador
+S.append({"id": "dea", "tipo": "numeros", "eyebrow": "Passo dois: o desfibrilador", "titulo": "O critério de posicionamento é tempo",
+          "numeros": [{"n": "3 a 5 min", "x": "meta entre a queda e o primeiro choque", "cor": "verm"},
+                      {"n": "qualquer", "x": "pessoa pode usar; o aparelho só choca ritmo chocável", "cor": "petr"},
+                      {"n": "validade", "x": "bateria e pás; verificação registrada", "cor": "ambar"}],
+          "destaque": "Distância se mede em segundos de corrida. DEA trancado na diretoria é DEA que não existe. A primeira vez que alguém abre a maleta não pode ser com um atleta no chão.",
+          "destaque_cor": "tinta", "fonte": "Força-tarefa americana, Prehosp Emerg Care 2007 · Lei Lucas, 13.722/2018"})
+
+# 5. compressão
+S.append({"id": "comprimir", "tipo": "numeros", "eyebrow": "Passo três: reconhecer e começar", "titulo": "Não responde e não respira normalmente: comprime",
+          "numeros": [{"n": "100 a 120", "x": "compressões por minuto", "cor": "verm"},
+                      {"n": "5 a 6 cm", "x": "de profundidade no adulto, com retorno completo", "cor": "ambar"},
+                      {"n": "2 min", "x": "troca de quem comprime", "cor": "petr"}],
+          "destaque": "Grite e dispare duas tarefas ao mesmo tempo: “traz o DEA” e “liga 192”. Quem não é treinado em ventilação faz compressão contínua.",
+          "destaque_cor": "tinta", "fonte": "Diretriz americana de ressuscitação, Circulation 2025"})
+
+# 6. três erros
+S.append({"id": "erros", "tipo": "lista", "eyebrow": "Três erros que custam tempo", "titulo": "O que aparece em quase todo vídeo",
+          "itens": [{"t": "Procurar pulso", "x": "leigos e profissionais erram; cada segundo nisso é sem compressão", "cor": "verm"},
+                    {"t": "Esperar o médico", "x": "pode estar no vestiário, ou não existir; quem está ao lado começa", "cor": "verm"},
+                    {"t": "Levar para fora do campo", "x": "a reanimação acontece onde o atleta está", "cor": "verm"}],
+          "gap_itens": 26})
+
+# 7. chocar
+S.append({"id": "chocar", "tipo": "tabela", "eyebrow": "Passo quatro: chocar e voltar a comprimir", "titulo": "O que atrasa as pás, e a solução",
+          "cab": ["Situação", "O que fazer"],
+          "larguras": [40, 60],
+          "linhas": [["Tórax molhado", "secar rápido"],
+                     ["Muito pelo na região das pás", "lâmina da maleta"],
+                     ["Adesivo de medicação", "retirar e limpar"],
+                     ["Dispositivo implantado", "pá alguns centímetros ao lado"],
+                     ["Criança sem pá pediátrica", "usar a de adulto"],
+                     ["“Choque não indicado”", "continuar comprimindo"]],
+          "destaque": "Depois do choque, volta a comprimir na hora, sem checar pulso. Quem comprime não para enquanto outro cola as pás.",
+          "destaque_cor": "tinta"})
+
+# 8. depois
+S.append({"id": "depois", "tipo": "cards", "por_linha": 3, "eyebrow": "Passo cinco: o que quase todo mundo esquece", "titulo": "Transferir, registrar, cuidar de quem ficou",
+          "cards": [{"t": "A transferência", "x": "uma frase: hora da queda, da compressão, choques, estado agora", "cor": "petr"},
+                    {"t": "Quem fala", "x": "uma pessoa designada; família por telefone, não pelo story", "cor": "ambar"},
+                    {"t": "O registro", "x": "no mesmo dia: horários, choques, quem fez o quê", "cor": "tinta"}],
+          "destaque": "O grupo que viu o colega cair faz parte do atendimento. Dias depois, revisão curta: o que travou e quanto demorou cada elo.",
+          "destaque_cor": "petr"})
+
+# 9. calor
+S.append({"id": "calor", "tipo": "numeros", "eyebrow": "A emergência não cardíaca que mais se trata errado", "titulo": "Golpe de calor: resfriar primeiro, transportar depois",
+          "numeros": [{"n": "> 40,5 °C", "x": "retal, com disfunção do sistema nervoso", "cor": "verm"},
+                      {"n": "< 38,9 °C", "x": "a meta do resfriamento", "cor": "petr"},
+                      {"n": "30 min", "x": "do colapso até a meta, em imersão fria", "cor": "ambar"}],
+          "destaque": "A medida retal é a única confiável em quem está se exercitando. Caixa d'água, banheira inflável, tanque: água, gelo, corpo dentro, antes da ambulância.",
+          "destaque_cor": "tinta", "fonte": "Posicionamento da NATA, J Athl Train 2015"})
+
+# 10. outras
+S.append({"id": "outras", "tipo": "tabela", "eyebrow": "As outras emergências", "titulo": "Uma linha para cada",
+          "cab": ["Emergência", "O que fazer"],
+          "larguras": [30, 70],
+          "linhas": [["Hipoglicemia", "consciente: açúcar pela boca; inconsciente: nada pela boca, 192"],
+                     ["Anafilaxia", "adrenalina intramuscular na coxa, já; dispositivo no local do treino"],
+                     ["Lesão cervical", "não mover, não tirar capacete; na parada, comprimir vem antes"],
+                     ["Engasgo", "tosse eficaz, deixa tossir; não passa ar, desobstrução"],
+                     ["Convulsão", "protege a cabeça, nada na boca; passou de 5 min, emergência"],
+                     ["Fratura, luxação", "imobiliza como está; não reduz em campo"]],
+          "destaque_cor": "tinta"})
+
+# 11. ensaio
+S.append({"id": "ensaio", "tipo": "duas", "eyebrow": "Passo seis: ensaiar", "titulo": "O que transforma papel em plano",
+          "esq": {"t": "O ensaio", "cor": "petr",
+                  "itens": ["quinze minutos, com cronômetro", "alguém deita no gramado", "a equipe executa cada linha da folha", "por trimestre, e com gente nova"]},
+          "dir": {"t": "Antes de cada jogo fora", "cor": "ambar",
+                  "itens": ["onde está o DEA daqui?", "qual o endereço e o portão?", "tem ambulância, e até que horas?", "qual o hospital de referência?"]},
+          "destaque": "O cronômetro costuma mostrar a mesma coisa: o DEA demora mais do que todo mundo achava.",
+          "destaque_cor": "tinta"})
+
+# 12. fecho
+S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "A divisão mais horizontal do módulo", "titulo": "Plano escrito, desfibrilador perto, ensaio marcado",
+          "regras": ["Caiu sem contato e não responde: comprime e busca o DEA",
+                     "Golpe de calor: resfria no local antes de transportar",
+                     "Plano que nunca foi ensaiado não é plano"],
+          "cards": [{"t": "Médico", "x": "Coordena a reanimação e o atendimento, quando houver."},
+                    {"t": "Quem estiver mais perto", "x": "Reconhece e comprime. Cada um executa a sua linha da folha."},
+                    {"t": "A gestão", "x": "DEA conferido, plano, capacitação e ensaio."}],
+          "quem": "O mínimo viável custa perto de zero: telefone, endereço, alguém que comprime, portão aberto."})
+
+spec = {"arquivo": "aulas/MOD06/06-05-emergencia-em-campo-e-cadeia-de-sobrevivencia.md",
+        "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
+        "titulo": "Emergência em campo", "subtitulo": "Plano escrito, reanimação e o que não é parada",
+        "nota_capa": "Entra pela cena do campo alugado.",
+        "secoes": {"cena": ["A cena, o mapa, o plano e o desfibrilador.", "capa"],
+                   "comprimir": ["Na queda: comprimir e chocar.", "comprimir"],
+                   "depois": ["Depois da queda, as outras emergências e o ensaio.", "depois"]},
+        "slides": S}
+json.dump(spec, open(os.path.join(os.path.dirname(__file__), "06-05.json"), "w"), ensure_ascii=False, indent=1)
+print("06-05.json:", len(S), "slides")
