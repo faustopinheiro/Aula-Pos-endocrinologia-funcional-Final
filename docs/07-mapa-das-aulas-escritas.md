@@ -176,14 +176,14 @@ típicos, sem idade, e contas feitas em aula.
 | 6.4 | Morte súbita no esporte | 14 | 11 | ERRO | [slides](https://claude.ai/artifact/AMz2PhjEfQ7EPZHZXysZgG) |
 | 6.5 | Emergência em campo | 18 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/G8X3hgaRPHzvh8djbxKvpZ) |
 | 6.6 | Concussão relacionada ao esporte | 20 | 13 | DECISÃO | [slides](https://claude.ai/artifact/CyvT4PVvUngEguH3SCQS5n) |
+| 6.7 | Broncoespasmo induzido pelo exercício | 15 | 12 | NÚMERO | [slides](https://claude.ai/artifact/DzjnUMt6eFDykUFYPvqaKq) |
+| 6.8 | Infecção e retorno ao treino | 14 | 11 | DECISÃO | [slides](https://claude.ai/artifact/DjbTfXDhrMVcAceaX4DGr3) |
+| 6.9 | Deficiência de ferro no atleta | 17 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/LsvPEkpGnZgM9HandCEtLs) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Min | Arquitetura |
 |---|---|---|---|
-| 6.7 | Asma e broncoespasmo induzido por exercício | 18 | NÚMERO |
-| 6.8 | Infecção, imunologia e retorno após doença | 21 | DECISÃO |
-| 6.9 | Anemia, deficiência de ferro e a armadilha da ferritina | 23 | PROCEDIMENTO |
 | 6.10 | Rastreio laboratorial: o que pedir e o que não pedir | 21 | ERRO |
 | 6.11 | Analgesia, anti-inflamatórios e corticoides | 22 | DECISÃO |
 | 6.12 | Exercício e doença crônica: o paciente que treina | 24 | CASO |

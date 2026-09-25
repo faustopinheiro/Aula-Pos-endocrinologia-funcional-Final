@@ -1,0 +1,420 @@
+{
+ "arquivo": "aulas/MOD06/06-09-anemia-deficiencia-de-ferro-e-a-armadilha-da-ferritina.md",
+ "modulo": "Medicina Esportiva Clínica",
+ "tema": "tinta",
+ "titulo": "Deficiência de ferro no atleta",
+ "subtitulo": "Do sintoma à reposição, em cinco passos",
+ "nota_capa": "Entra pelo perfil da corredora que piora há meses.",
+ "secoes": {
+  "perfil": [
+   "O perfil, o mapa e as perguntas.",
+   "capa"
+  ],
+  "pedido": [
+   "Pedir, colher e interpretar.",
+   "pedido"
+  ],
+  "causa": [
+   "Causa, reposição e fecho.",
+   "causa"
+  ]
+ },
+ "slides": [
+  {
+   "id": "perfil",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A corredora que piora há meses",
+   "frase": "Dois painéis normais, ferro por conta própria, e continua piorando.",
+   "apoio": "Três erros empilhados: o exame certo nunca foi pedido, o que foi pedido foi colhido e lido errado, e o tratamento veio sem diagnóstico."
+  },
+  {
+   "id": "mapa",
+   "tipo": "cards",
+   "por_linha": 5,
+   "eyebrow": "O procedimento",
+   "titulo": "Cinco passos",
+   "cards": [
+    {
+     "t": "1. Perguntar",
+     "x": "antes de qualquer exame",
+     "cor": "petr"
+    },
+    {
+     "t": "2. Pedir e colher",
+     "x": "o exame certo, na hora certa",
+     "cor": "petr"
+    },
+    {
+     "t": "3. Interpretar",
+     "x": "com a régua do atleta",
+     "cor": "ambar"
+    },
+    {
+     "t": "4. Investigar",
+     "x": "por que o ferro caiu",
+     "cor": "verm"
+    },
+    {
+     "t": "5. Repor",
+     "x": "e reavaliar",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Das causas clínicas mais comuns de “estou sem energia”, e das mais malfeitas nos dois sentidos.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fadiga",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Passo um",
+   "titulo": "Fadiga é sintoma, não diagnóstico",
+   "cards": [
+    {
+     "t": "Carga e recuperação",
+     "x": "a mais comum",
+     "cor": "petr"
+    },
+    {
+     "t": "Sono",
+     "x": "curto, ruim, apneia",
+     "cor": "petr"
+    },
+    {
+     "t": "Energia",
+     "x": "baixa disponibilidade",
+     "cor": "ambar"
+    },
+    {
+     "t": "Ferro",
+     "x": "com ou sem anemia",
+     "cor": "verm"
+    },
+    {
+     "t": "Tireoide",
+     "x": "",
+     "cor": "ambar"
+    },
+    {
+     "t": "Depressão, ansiedade",
+     "x": "a última hipótese, e não deveria",
+     "cor": "ambar"
+    },
+    {
+     "t": "Convalescença",
+     "x": "depois de infecção",
+     "cor": "petr"
+    },
+    {
+     "t": "Fora do esporte",
+     "x": "doenças da mesma idade",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Ferritina baixa em quem dorme cinco horas por noite vai ser tratada com ferro, e a pessoa vai continuar cansada.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "duas",
+   "eyebrow": "As perguntas que orientam a suspeita",
+   "titulo": "O que perguntar antes de pedir",
+   "esq": {
+    "t": "Perguntas",
+    "cor": "petr",
+    "itens": [
+     "como é o fluxo menstrual?",
+     "vegetariana? carne vermelha com que frequência?",
+     "quanto corre, em que superfície?",
+     "anti-inflamatório com frequência?",
+     "já teve ferro baixo? já tomou?"
+    ]
+   },
+   "dir": {
+    "t": "Sinais",
+    "cor": "ambar",
+    "itens": [
+     "falta de ar desproporcional",
+     "queda de desempenho aeróbico",
+     "palidez, cabelo, unhas",
+     "vontade de mastigar gelo"
+    ]
+   },
+   "destaque": "A pergunta sobre o fluxo menstrual é a que mais encontra deficiência de ferro no esporte feminino, e a que menos se faz.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "pedido",
+   "tipo": "duas",
+   "eyebrow": "Passo dois",
+   "titulo": "O exame certo, na hora certa",
+   "esq": {
+    "t": "O que pedir",
+    "cor": "petr",
+    "itens": [
+     "hemograma: hemoglobina, VCM, RDW",
+     "ferritina",
+     "saturação de transferrina",
+     "proteína C reativa"
+    ]
+   },
+   "dir": {
+    "t": "Quando colher",
+    "cor": "ambar",
+    "itens": [
+     "24 a 48 h depois de treino intenso",
+     "fora de infecção",
+     "de manhã, sempre no mesmo esquema"
+    ]
+   },
+   "destaque": "Ferritina é proteína de fase aguda: colhida depois de treino longo, vem falsamente confortável. Escreva no pedido.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "estagios",
+   "tipo": "tabela",
+   "eyebrow": "Passo três: interpretar",
+   "titulo": "Os três estágios",
+   "cab": [
+    "Estágio",
+    "Ferritina",
+    "Saturação",
+    "Hemoglobina"
+   ],
+   "larguras": [
+    40,
+    20,
+    20,
+    20
+   ],
+   "linhas": [
+    [
+     "Depleção de estoque",
+     "baixa",
+     "normal",
+     "normal"
+    ],
+    [
+     "Eritropoiese deficiente em ferro",
+     "baixa",
+     "baixa",
+     "normal"
+    ],
+    [
+     "Anemia ferropriva",
+     "baixa",
+     "baixa",
+     "baixa"
+    ]
+   ],
+   "destaque": "O hemograma sozinho só enxerga o terceiro estágio. Os painéis do perfil não estavam errados: estavam incompletos.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "regua",
+   "tipo": "diagrama",
+   "h": 220,
+   "svg": "<svg aria-label=\"Régua de ferritina: abaixo de 15 estoque vazio, de 15 a 30 estoque baixo, 30 como corte para atletas acima de 15 anos\" width=\"1664\" height=\"220\" viewBox=\"0 0 1664 220\"><rect x=\"60\" y=\"80\" width=\"395\" height=\"56\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"459\" y=\"80\" width=\"391\" height=\"56\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"854\" y=\"80\" width=\"786\" height=\"56\" rx=\"8\" fill=\"#008A7E\"/><line x1=\"850\" y1=\"56\" x2=\"850\" y2=\"160\" stroke=\"#12202E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 20,
+     "w": 395,
+     "t": "estoque vazio",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 455,
+     "y": 20,
+     "w": 395,
+     "t": "estoque baixo",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 20,
+     "w": 790,
+     "t": "acima do corte",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 395,
+     "y": 170,
+     "w": 120,
+     "t": "15",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 170,
+     "w": 120,
+     "t": "30 µg/L",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A régua de quem treina",
+   "titulo": "Ferritina, acima dos 15 anos",
+   "destaque": "Crianças de 6 a 12: corte de 15. Adolescentes de 12 a 15: 20. Não são cortes universais, mas a faixa do laboratório é baixa demais para essa pergunta.",
+   "destaque_cor": "tinta",
+   "fonte": "Consenso da Sociedade Suíça de Medicina do Esporte, Swiss Med Wkly 2015"
+  },
+  {
+   "id": "armadilhas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "As armadilhas da leitura",
+   "titulo": "Errar aqui é mais comum que errar no pedido",
+   "cards": [
+    {
+     "t": "Ferritina com PCR alta",
+     "x": "não mede estoque; repetir ou valorizar a saturação",
+     "cor": "ambar"
+    },
+    {
+     "t": "Pseudoanemia do atleta",
+     "x": "plasma expandido dilui a hemoglobina; ferritina normal; não se trata",
+     "cor": "petr"
+    },
+    {
+     "t": "Ferritina muito alta",
+     "x": "sem inflamação e sem ferro: investigar sobrecarga",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Anemia não é sinônimo de ferro: B12 e folato dão anemia com VCM alto.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "causa",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "Passo quatro",
+   "titulo": "Investigar antes de repor",
+   "cards": [
+    {
+     "t": "Perda menstrual",
+     "x": "a mais frequente no esporte feminino; tratar a perda evita a recaída",
+     "cor": "verm"
+    },
+    {
+     "t": "Trato gastrointestinal",
+     "x": "obrigatório no homem e na mulher depois da menopausa; anti-inflamatório entra aqui",
+     "cor": "verm"
+    },
+    {
+     "t": "O que entra",
+     "x": "ingestão, dieta, café, cálcio; e a doença celíaca",
+     "cor": "ambar"
+    },
+    {
+     "t": "O próprio treino",
+     "x": "impacto do pé, suor, e a hepcidina com pico 3 a 6 h depois",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Na carga muito alta, parte da deficiência não se resolve com mais ferro. Resolve-se com carga e recuperação.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "repor",
+   "tipo": "numeros",
+   "eyebrow": "Passo cinco: repor direito",
+   "titulo": "Horário, frequência, companhia, tempo",
+   "numeros": [
+    {
+     "n": "manhã",
+     "x": "fora da janela de 3 a 6 h depois do treino intenso",
+     "cor": "petr"
+    },
+    {
+     "n": "21,8%",
+     "x": "de absorção em dias alternados, contra 16,3% em dias seguidos",
+     "cor": "ambar"
+    },
+    {
+     "n": "8 a 12 sem",
+     "x": "para reavaliar; estoque leva meses",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Vitamina C ajuda; café, chá, cálcio e whey com leite atrapalham. E pergunte: “você está conseguindo tomar?”",
+   "destaque_cor": "verm",
+   "fonte": "Ensaio randomizado em mulheres com estoque baixo, Lancet Haematol 2017"
+  },
+  {
+   "id": "veia",
+   "tipo": "duas",
+   "eyebrow": "Ferro na veia e o que o ferro não faz",
+   "titulo": "100 mL em 12 horas",
+   "esq": {
+    "t": "Endovenoso",
+    "cor": "verm",
+    "itens": [
+     "intolerância ou falha do oral",
+     "correção rápida, perdas importantes",
+     "decisão médica, nunca por conveniência",
+     "acima de 100 mL em 12 h: proibido fora do hospital"
+    ]
+   },
+   "dir": {
+    "t": "O que o ferro não faz",
+    "cor": "petr",
+    "itens": [
+     "trata quem tem deficiência",
+     "melhora ferritina, ferro sérico e hemoglobina",
+     "não é argumento para quem está normal"
+    ]
+   },
+   "destaque": "Infusão “de vitaminas e ferro” para dar energia é má medicina e risco antidoping.",
+   "destaque_cor": "tinta",
+   "fonte": "WADA 2026, M2.2 · metanálise em atletas de endurance, BJSM 2015"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "O perfil, refeito pelo procedimento",
+   "titulo": "Perguntar, colher certo, ler certo, achar a causa, repor direito",
+   "regras": [
+    "Em fadiga com queda de desempenho, ferritina vai junto com o hemograma",
+    "Ferritina perto de treino intenso ou de infecção não vale",
+    "Causa antes do comprimido; no homem e na menopausa, intestino"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Pede, interpreta, investiga e prescreve."
+    },
+    {
+     "t": "Nutrição e preparação",
+     "x": "Fontes e horários; queda de desempenho e FC na planilha."
+    },
+    {
+     "t": "Todos",
+     "x": "Perguntam sobre ciclo menstrual sem constrangimento."
+    }
+   ],
+   "quem": "Ferro por conta própria apaga a pista e pode fazer mal."
+  }
+ ]
+}

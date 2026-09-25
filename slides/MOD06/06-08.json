@@ -1,0 +1,331 @@
+{
+ "arquivo": "aulas/MOD06/06-08-infeccao-imunologia-e-retorno-apos-doenca.md",
+ "modulo": "Medicina Esportiva Clínica",
+ "tema": "tinta",
+ "titulo": "Infecção e retorno ao treino",
+ "subtitulo": "Sintoma leve, febre e suspeita de miocardite",
+ "nota_capa": "Entra pelas três mensagens de celular.",
+ "secoes": {
+  "mensagens": [
+   "As mensagens e a leitura atual da imunidade.",
+   "capa"
+  ],
+  "pescoco": [
+   "A sexta: teste do pescoço e febre.",
+   "pescoco"
+  ],
+  "degraus": [
+   "A corredora: critérios, degraus e sinais.",
+   "degraus"
+  ],
+  "medica": [
+   "Decisão médica, rastreio, prevenção.",
+   "medica"
+  ]
+ },
+ "slides": [
+  {
+   "id": "mensagens",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Três mensagens no mesmo dia",
+   "frase": "“Garganta arranhando, treino hoje?” “A febre passou ontem, posso correr?” “Falaram em miocardite, mas estou ótimo.”",
+   "apoio": "Uma escada: a primeira se decide à beira do treino, a segunda pede um plano de dias, a terceira sai das mãos da comissão."
+  },
+  {
+   "id": "leituras",
+   "tipo": "duas",
+   "eyebrow": "Antes das decisões",
+   "titulo": "Janela aberta ou gestão de carga",
+   "esq": {
+    "t": "A leitura antiga",
+    "cor": "verm",
+    "itens": [
+     "esforço intenso suprime a imunidade",
+     "o atleta fica vulnerável por horas",
+     "a solução vira suplemento"
+    ]
+   },
+   "dir": {
+    "t": "A leitura atual",
+    "cor": "petr",
+    "itens": [
+     "a queda de linfócitos é redistribuição",
+     "treino regular melhora a imunidade",
+     "doença acompanha carga mal gerida, sono, energia, viagem",
+     "a solução é gestão"
+    ]
+   },
+   "destaque": "Quem adoece três, quatro vezes por temporada quase nunca tem problema imunológico. Tem problema de planejamento.",
+   "destaque_cor": "tinta",
+   "fonte": "Revisão de 2018, Front Immunol · Consenso do COI, Br J Sports Med 2016"
+  },
+  {
+   "id": "pescoco",
+   "tipo": "duas",
+   "eyebrow": "A mensagem da sexta",
+   "titulo": "O teste do pescoço",
+   "esq": {
+    "t": "Acima do pescoço, sem febre",
+    "cor": "petr",
+    "itens": [
+     "coriza, espirro, nariz entupido",
+     "dor de garganta leve",
+     "treino leve a moderado",
+     "reavaliação no dia seguinte"
+    ]
+   },
+   "dir": {
+    "t": "Abaixo do pescoço",
+    "cor": "verm",
+    "itens": [
+     "febre, calafrio, tosse produtiva",
+     "aperto no peito, falta de ar",
+     "dor muscular difusa, vômito, diarreia",
+     "não treina"
+    ]
+   },
+   "destaque": "Pragmática e útil, sem ensaio de alta qualidade por trás. Leve é leve de verdade, a decisão de sexta não vale para sábado, e um sintoma de baixo basta.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "excecoes",
+   "tipo": "lista",
+   "eyebrow": "Quando o teste do pescoço não vale",
+   "titulo": "Parar e avaliar, onde quer que esteja o sintoma",
+   "itens": [
+    {
+     "t": "Qualquer febre",
+     "x": "é a linha vermelha da aula",
+     "cor": "verm"
+    },
+    {
+     "t": "Sintoma cardiopulmonar",
+     "x": "dor no peito, palpitação, falta de ar desproporcional, tontura no esforço",
+     "cor": "verm"
+    },
+    {
+     "t": "Doença transmissível na equipe",
+     "x": "vestiário, ônibus e alojamento: afastar protege o grupo",
+     "cor": "ambar"
+    }
+   ],
+   "gap_itens": 26
+  },
+  {
+   "id": "febre",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "A linha vermelha",
+   "titulo": "Com febre, não se treina",
+   "cards": [
+    {
+     "t": "O coração",
+     "x": "miocardite está entre as causas de morte súbita em atletas jovens",
+     "cor": "verm"
+    },
+    {
+     "t": "O calor",
+     "x": "febre já desloca o termostato; o exercício soma calor",
+     "cor": "ambar"
+    },
+    {
+     "t": "Água e eletrólitos",
+     "x": "febre, suor, vômito: começa o treino em déficit",
+     "cor": "ambar"
+    },
+    {
+     "t": "O rendimento",
+     "x": "força e resistência caem; o treino prolonga a doença",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Um dia de treino perdido não muda uma temporada. Uma miocardite muda uma vida.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "degraus",
+   "tipo": "tabela",
+   "eyebrow": "A mensagem da corredora",
+   "titulo": "Não é sim nem não: é assim",
+   "cab": [
+    "Etapa",
+    "O que se faz"
+   ],
+   "larguras": [
+    30,
+    70
+   ],
+   "linhas": [
+    [
+     "Antes de começar",
+     "24 h sem febre e sem antitérmico; sem dor difusa; comendo, bebendo, dormindo"
+    ],
+    [
+     "Degrau 1",
+     "atividade leve e curta, sem estímulo intenso"
+    ],
+    [
+     "Degrau 2",
+     "volume habitual, intensidade reduzida"
+    ],
+    [
+     "Degrau 3",
+     "volta dos estímulos de intensidade"
+    ],
+    [
+     "Degrau 4",
+     "treino completo e competição"
+    ]
+   ],
+   "destaque": "Prática, não evidência forte: cerca de um dia de retomada para cada dia de doença sistêmica.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "sinais",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "A lista que precisa estar decorada",
+   "titulo": "Sinais que interrompem a volta",
+   "cards": [
+    {
+     "t": "Dor ou aperto no peito",
+     "x": "",
+     "cor": "verm"
+    },
+    {
+     "t": "Falta de ar desproporcional",
+     "x": "",
+     "cor": "verm"
+    },
+    {
+     "t": "Palpitação",
+     "x": "",
+     "cor": "verm"
+    },
+    {
+     "t": "Tontura ou desmaio",
+     "x": "",
+     "cor": "verm"
+    },
+    {
+     "t": "FC alta para a mesma carga",
+     "x": "dado clínico na mão da preparação física",
+     "cor": "ambar"
+    },
+    {
+     "t": "Fadiga que não cede",
+     "x": "mesmo com dias fáceis",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Depois de infecção, isso não é destreino. É motivo para parar e investigar o miocárdio.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "medica",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "A terceira mensagem",
+   "titulo": "Quando o assunto sai da comissão",
+   "cards": [
+    {
+     "t": "Miocardite",
+     "x": "abstenção; retorno considerado em 3 a 6 meses, com ECG, Holter, teste de esforço e ressonância",
+     "cor": "verm"
+    },
+    {
+     "t": "Mononucleose",
+     "x": "baço aumentado: fora do contato e do esforço vigoroso por semanas",
+     "cor": "ambar"
+    },
+    {
+     "t": "Sintoma cardiopulmonar",
+     "x": "dor, falta de ar, palpitação, síncope: não volta sem avaliação",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "“Estou ótimo” não é critério. Quem tem miocardite em resolução se sente bem em repouso; o risco aparece no esforço.",
+   "destaque_cor": "tinta",
+   "fonte": "Diretrizes europeias de cardiologia do esporte, Eur Heart J 2021"
+  },
+  {
+   "id": "rastreio",
+   "tipo": "numeros",
+   "eyebrow": "O dado que ensina a lógica",
+   "titulo": "Escalar por sintoma, não rastrear todo mundo",
+   "numeros": [
+    {
+     "n": "3.018",
+     "x": "atletas universitários rastreados depois da infecção",
+     "cor": "tinta"
+    },
+    {
+     "n": "< 1%",
+     "x": "com acometimento cardíaco provável ou definido",
+     "cor": "petr"
+    },
+    {
+     "n": "sintoma",
+     "x": "cardiopulmonar e gravidade: o critério para investigar",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Rastrear todos com imagem avançada gera mais falso-positivo e afastamento desnecessário que benefício. A minoria real se acha pelo sintoma.",
+   "destaque_cor": "tinta",
+   "fonte": "Registro americano ORCCA, Circulation 2021"
+  },
+  {
+   "id": "prevencao",
+   "tipo": "numeros",
+   "eyebrow": "Prevenção em equipe",
+   "titulo": "Gestão, não farmácia",
+   "numeros": [
+    {
+     "n": "6 frentes",
+     "x": "sono, energia, carga, vacina, higiene de vestiário, viagem",
+     "cor": "petr"
+    },
+    {
+     "n": "RR 0,97",
+     "x": "vitamina C na população geral: praticamente nada",
+     "cor": "tinta"
+    },
+    {
+     "n": "RR 0,48",
+     "x": "só em estresse físico extremo: maratona, esqui, frio subártico",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Achado de subgrupo não é passe livre para vender vitamina C. A base não cabe num frasco.",
+   "destaque_cor": "verm",
+   "fonte": "Revisão Cochrane de vitamina C e resfriado, 2013"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "As três mensagens, respondidas",
+   "titulo": "Leve com reavaliação, degraus depois da febre, cardiologia na miocardite",
+   "regras": [
+    "Com febre não se treina; a contagem começa depois dela",
+    "Sintoma cardiopulmonar depois de infecção é investigação, não destreino",
+    "Quem adoece toda temporada tem problema de carga, sono e energia"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Decide o retorno depois de doença sistêmica, investiga e libera."
+    },
+    {
+     "t": "Preparação física",
+     "x": "Aplica o teste do pescoço, reduz a sessão, monitora FC na volta."
+    },
+    {
+     "t": "A instituição",
+     "x": "Sono, energia, vacina, higiene do vestiário, calendário."
+    }
+   ],
+   "quem": "A comissão não vota na miocardite. Sustenta a decisão contra o calendário."
+  }
+ ]
+}

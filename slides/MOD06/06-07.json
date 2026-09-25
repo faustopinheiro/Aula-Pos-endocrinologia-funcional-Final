@@ -1,0 +1,401 @@
+{
+ "arquivo": "aulas/MOD06/06-07-asma-e-broncoespasmo-induzido-por-exercicio.md",
+ "modulo": "Medicina Esportiva Clínica",
+ "tema": "tinta",
+ "titulo": "Broncoespasmo induzido pelo exercício",
+ "subtitulo": "Os números do diagnóstico, do tratamento e do antidoping",
+ "nota_capa": "Entra pelos três perfis com bombinha na mão.",
+ "secoes": {
+  "perfis": [
+   "Os perfis, os números e o diagnóstico.",
+   "capa"
+  ],
+  "prevalencia": [
+   "Quem tem, e o que imita.",
+   "prevalencia"
+  ],
+  "camadas": [
+   "Tratamento e aquecimento.",
+   "camadas"
+  ],
+  "doses": [
+   "Antidoping e fecho.",
+   "doses"
+  ]
+ },
+ "slides": [
+  {
+   "id": "perfis",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Três pessoas com bombinha na mão",
+   "frase": "Em nenhuma delas a queixa decide. O número decide.",
+   "apoio": "O adolescente afastado da educação física desde a infância. A nadadora que tosse depois de todo treino. O corredor com a bombinha de um amigo antes da prova fria."
+  },
+  {
+   "id": "numeros",
+   "tipo": "numeros",
+   "eyebrow": "Os números que atravessam a aula",
+   "titulo": "Diagnóstico, uso e limite",
+   "numeros": [
+    {
+     "n": "10%",
+     "x": "queda do VEF1 que define o diagnóstico",
+     "cor": "tinta"
+    },
+    {
+     "n": "15 min",
+     "x": "entre o broncodilatador e o esforço",
+     "cor": "petr"
+    },
+    {
+     "n": "1.600 µg",
+     "x": "teto diário do salbutamol inalado",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "O rótulo errado afasta gente do esporte; a falta de rótulo deixa gente tossindo por anos. Os dois se resolvem com medida.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "mecanismo",
+   "tipo": "duas",
+   "eyebrow": "O que é",
+   "titulo": "Com asma ou sem asma de base",
+   "esq": {
+    "t": "A definição",
+    "cor": "petr",
+    "itens": [
+     "estreitamento transitório das vias aéreas",
+     "durante ou logo depois do esforço",
+     "acontece em quem tem asma",
+     "e em quem não tem"
+    ]
+   },
+   "dir": {
+    "t": "O mecanismo",
+    "cor": "ambar",
+    "itens": [
+     "ventilação alta e prolongada",
+     "epitélio perde água e calor",
+     "mastócitos liberam mediadores",
+     "o músculo liso contrai"
+    ]
+   },
+   "destaque": "Ar frio e seco piora, ar morno e úmido melhora. O risco cresce com o volume de ar que passa.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "criterio",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Esquema de uma curva de VEF1 depois do esforço: cai abaixo da linha de queda de 10% e depois volta ao basal\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><line x1=\"60\" y1=\"300\" x2=\"1640\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"60\" y1=\"70\" x2=\"1640\" y2=\"70\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"4 8\"/><line x1=\"60\" y1=\"150\" x2=\"1640\" y2=\"150\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"12 10\"/><path d=\"M60,70 C260,72 380,120 520,210 C640,265 760,262 900,215 C1100,140 1300,85 1640,72\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1240,
+     "y": 22,
+     "w": 380,
+     "t": "basal",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 104,
+     "w": 380,
+     "t": "queda de 10%",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 272,
+     "w": 420,
+     "t": "VEF1 depois do esforço",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 306,
+     "w": 300,
+     "t": "fim do esforço",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 306,
+     "w": 300,
+     "t": "minutos depois",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O número do diagnóstico",
+   "titulo": "Queda de pelo menos 10% do VEF1",
+   "destaque": "Espirometria de repouso normal não exclui nada. Se a suspeita é de esforço, o teste inclui o esforço, ou um substituto como hiperventilação eucápnica ou manitol.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos · critério da diretriz ATS 2013"
+  },
+  {
+   "id": "prevalencia",
+   "tipo": "numeros",
+   "eyebrow": "Quem tem mais",
+   "titulo": "Em atletas, de 30 a 70%",
+   "numeros": [
+    {
+     "n": "inverno",
+     "x": "ar frio e seco",
+     "cor": "petr"
+    },
+    {
+     "n": "endurance",
+     "x": "muito ar, por muito tempo",
+     "cor": "ambar"
+    },
+    {
+     "n": "piscina",
+     "x": "coberta, com subprodutos de cloro",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Tosse depois do treino não é normal do esporte. E prevalência alta não autoriza tratar sem medir: o grupo sintomático tem muita gente com outra coisa.",
+   "destaque_cor": "verm",
+   "fonte": "Varia com modalidade e critério diagnóstico"
+  },
+  {
+   "id": "diferenciais",
+   "tipo": "tabela",
+   "eyebrow": "Antes de tratar",
+   "titulo": "O que imita broncoespasmo",
+   "cab": [
+    "Diferencial",
+    "A pista"
+   ],
+   "larguras": [
+    38,
+    62
+   ],
+   "linhas": [
+    [
+     "Descondicionamento",
+     "falta de ar proporcional ao esforço; o tratamento é treinar"
+    ],
+    [
+     "Rinite com respiração oral",
+     "ar que chega sem aquecer nem umidificar"
+    ],
+    [
+     "Refluxo",
+     "tosse e aperto em posição e horário específicos"
+    ],
+    [
+     "Padrão disfuncional, ansiedade",
+     "falta de ar real, pulmão normal"
+    ],
+    [
+     "Deficiência de ferro",
+     "exame respiratório normal"
+    ],
+    [
+     "Causa cardíaca",
+     "exame respiratório normal"
+    ]
+   ],
+   "destaque": "O círculo cruel: o rótulo afasta, o afastamento descondiciona, o descondicionamento confirma o rótulo.",
+   "destaque_cor": "ambar"
+  },
+  {
+   "id": "laringe",
+   "tipo": "duas",
+   "eyebrow": "O diferencial que mais engana",
+   "titulo": "Obstrução laríngea induzida pelo exercício",
+   "esq": {
+    "t": "Broncoespasmo",
+    "cor": "petr",
+    "itens": [
+     "chiado na expiração",
+     "aperto no peito",
+     "piora depois do esforço",
+     "responde ao broncodilatador"
+    ]
+   },
+   "dir": {
+    "t": "Obstrução laríngea",
+    "cor": "verm",
+    "itens": [
+     "ruído na inspiração, o estridor",
+     "garganta fechando",
+     "no pico; some em 1 a 2 minutos parado",
+     "não responde ao broncodilatador"
+    ]
+   },
+   "destaque": "Tratamento de fonoaudiologia e padrão respiratório. Não melhora com a bombinha: pense nela antes de subir a dose.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "camadas",
+   "tipo": "lista",
+   "eyebrow": "O tratamento, pela diretriz de 2013",
+   "titulo": "Em camadas",
+   "itens": [
+    {
+     "t": "Beta-2 de curta ação, 15 minutos antes",
+     "x": "uso intermitente; diário gera tolerância e é sinal",
+     "cor": "petr"
+    },
+    {
+     "t": "Corticoide inalatório de manutenção",
+     "x": "broncoespasmo frequente na asma é asma mal controlada",
+     "cor": "verm"
+    },
+    {
+     "t": "Alternativas e comorbidades",
+     "x": "antileucotrieno, anti-histamínico na alergia, tratar a rinite",
+     "cor": "ambar"
+    },
+    {
+     "t": "Aquecimento",
+     "x": "de graça, e é prescrição de treino",
+     "cor": "petr"
+    }
+   ],
+   "gap_itens": 22
+  },
+  {
+   "id": "aquecimento",
+   "tipo": "numeros",
+   "eyebrow": "A camada de graça",
+   "titulo": "O período refratário",
+   "numeros": [
+    {
+     "n": "10 a 15 min",
+     "x": "de aquecimento moderado a vigoroso",
+     "cor": "petr"
+    },
+    {
+     "n": "~2 h",
+     "x": "de broncoespasmo atenuado depois dele",
+     "cor": "ambar"
+    },
+    {
+     "n": "intervalado",
+     "x": "ou combinado: a recomendação para todos",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Frio: bandana ou máscara. Poluição e pólen: mudar o horário. Piscina coberta: ventilação e qualidade da água fazem parte do problema.",
+   "destaque_cor": "tinta",
+   "fonte": "Diretriz da Sociedade Torácica Americana, 2013"
+  },
+  {
+   "id": "doses",
+   "tipo": "tabela",
+   "eyebrow": "Onde o atleta perde carreira por desatenção",
+   "titulo": "Os limites dos inalados permitidos",
+   "cab": [
+    "Substância",
+    "Em 24 horas",
+    "Por intervalo"
+   ],
+   "larguras": [
+    30,
+    30,
+    40
+   ],
+   "linhas": [
+    [
+     "Salbutamol",
+     "1.600 µg",
+     "até 600 µg em 8 h"
+    ],
+    [
+     "Formoterol",
+     "54 µg",
+     "até 36 µg em 12 h"
+    ],
+    [
+     "Salmeterol",
+     "200 µg",
+     "até 100 µg em 8 h (novo em 2026)"
+    ],
+    [
+     "Vilanterol",
+     "25 µg",
+     ""
+    ]
+   ],
+   "destaque": "Oral, injetável ou acima do limite: só com autorização de uso terapêutico. Confira a lista vigente a cada temporada.",
+   "destaque_cor": "verm",
+   "fonte": "Lista de substâncias proibidas da WADA, 2026, seção S3"
+  },
+  {
+   "id": "urina",
+   "tipo": "numeros",
+   "eyebrow": "A segunda camada do antidoping",
+   "titulo": "Dose certa não garante urina limpa",
+   "numeros": [
+    {
+     "n": "1.000",
+     "x": "ng/mL de salbutamol na urina: incompatível com uso terapêutico",
+     "cor": "verm"
+    },
+    {
+     "n": "40",
+     "x": "ng/mL de formoterol na urina",
+     "cor": "verm"
+    },
+    {
+     "n": "10%",
+     "x": "o teste documentado que a autorização exige",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Sem diagnóstico objetivo, não há autorização. Registre princípio ativo, dose e horário, e nunca use a bombinha de outra pessoa.",
+   "destaque_cor": "tinta",
+   "fonte": "WADA 2026"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Os três perfis, respondidos",
+   "titulo": "Medir antes de tratar, e continuar treinando",
+   "regras": [
+    "Queda de 10% do VEF1 com esforço: sem ela, é suspeita",
+    "Bombinha todo dia é sinal de asma mal controlada",
+    "Sem teste documentado, sem autorização de uso terapêutico"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Mede, prescreve, ajusta controle, conduz a autorização."
+    },
+    {
+     "t": "Preparação física",
+     "x": "Aquecimento com período refratário, carga, horário e ambiente."
+    },
+    {
+     "t": "Comissão inteira",
+     "x": "Pergunta sobre tosse e chiado, registra o que é inalado."
+    }
+   ],
+   "quem": "Cochrane: treinar melhora o condicionamento, é bem tolerado, sem relato de piora. O afastamento nunca foi neutro."
+  }
+ ]
+}
