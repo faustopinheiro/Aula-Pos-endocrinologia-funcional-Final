@@ -1,0 +1,113 @@
+"""Spec do deck 7.5. Gera 07-05.json ao lado deste arquivo."""
+import json, math, os, sys
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "ferramentas", "slides"))
+from desenho import *
+
+S = []
+
+S.append({"id": "celular", "tipo": "frase", "fundo": "tinta", "eyebrow": "Dez minutos depois da lesão",
+          "frase": "“Quanto tempo ele fica fora?”",
+          "apoio": "Diretor, empresário, imprensa e o próprio atleta querem um número. E o número que você der vai ser repetido, publicado e cobrado."})
+
+p = [svg_abre(1664, 260, "À esquerda, um ponto único riscado; à direita, uma faixa larga que representa o intervalo de prazo")]
+p.append(f'<line x1="80" y1="130" x2="700" y2="130" stroke="{MUDO}" stroke-width="3"/>')
+p.append(f'<circle cx="390" cy="130" r="22" fill="{FOSF}"/>')
+p.append(f'<line x1="350" y1="90" x2="430" y2="170" stroke="{TINTA}" stroke-width="8"/>')
+p.append(f'<line x1="960" y1="130" x2="1600" y2="130" stroke="{MUDO}" stroke-width="3"/>')
+p.append(f'<rect x="1080" y="100" width="400" height="60" rx="30" fill="{OXID}"/>')
+p.append("</svg>")
+rs = [rot(80, 190, "uma data exata no primeiro dia", w=620, tam=26, cor=FOSF, peso=700, alinha="center"),
+      rot(960, 190, "uma faixa, com critério para andar dentro dela", w=640, tam=26, cor=OXID, peso=700, alinha="center")]
+S.append({"id": "regra", "tipo": "diagrama", "h": 260, "svg": "".join(p), "rotulos": rs,
+          "eyebrow": "A regra antes dos números", "titulo": "Faixa, nunca ponto",
+          "destaque": "Faixa não é falta de conhecimento. É a descrição honesta do que os estudos mostram.",
+          "destaque_cor": "tinta"})
+
+S.append({"id": "medianas", "tipo": "numeros", "eyebrow": "Validação de Munique, futebol de elite", "titulo": "Medianas de afastamento na lesão da coxa",
+          "numeros": [{"n": "5 a 8 d", "x": "desordem funcional, sem ruptura", "cor": "petr"},
+                      {"n": "13 d", "x": "ruptura parcial pequena", "cor": "ambar"},
+                      {"n": "32 d", "x": "ruptura parcial moderada", "cor": "ambar"},
+                      {"n": "60 d", "x": "subtotal, completa ou arrancamento", "cor": "verm"}],
+          "destaque": "Quanto mais estrutura rompida, mais tempo. Tendão interno envolvido também alonga o retorno.",
+          "destaque_cor": "tinta", "fonte": "Br J Sports Med 2013 · letra c: Br J Sports Med 2016"})
+
+S.append({"id": "variacao", "tipo": "numeros", "eyebrow": "Por que se trabalha com faixa", "titulo": "Grau 3 na ressonância, posterior de coxa",
+          "numeros": [{"n": "73 dias", "x": "média de afastamento", "cor": "tinta"},
+                      {"n": "± 60", "x": "desvio padrão, quase do tamanho da média", "cor": "verm"}],
+          "destaque": "Mesma nota no laudo, pessoas e reabilitações diferentes: desfechos diferentes.",
+          "destaque_cor": "verm", "fonte": "Equipes profissionais europeias, Br J Sports Med 2012"})
+
+S.append({"id": "advertencias", "tipo": "cards", "por_linha": 3, "eyebrow": "Valem mais que os números", "titulo": "Três advertências",
+          "cards": [{"t": "Vêm do profissional", "x": "fisioterapia todo dia; no amador sem estrutura, some tempo", "cor": "ambar"},
+                    {"t": "Variação grande", "x": "dentro de cada faixa, desfechos muito diferentes", "cor": "ambar"},
+                    {"t": "A reabilitação decide", "x": "duas semanas boas valem mais que seis ruins", "cor": "verm"}],
+          "destaque_cor": "tinta"})
+
+S.append({"id": "laudo", "tipo": "duas", "eyebrow": "Quando o laudo vira calendário", "titulo": "O erro vai para os dois lados",
+          "esq": {"t": "O laudo assustou", "cor": "ambar",
+                  "itens": ["“grau 2 com edema extenso”", "fica parado além do necessário", "perde capacidade à toa"]},
+          "dir": {"t": "O laudo tranquilizou", "cor": "verm",
+                  "itens": ["“lesão pequena”", "volta com o exame ainda ruim", "recidiva"]},
+          "destaque": "Critério é o que a pessoa consegue fazer, com qualidade, sem dor e sem apreensão. O laudo entra na conversa, não a resolve.",
+          "destaque_cor": "tinta", "fonte": "Ressonância sem valor adicional para prever retorno, Br J Sports Med 2015"})
+
+p = [svg_abre(1664, 300, "Esquema: a curva de dor cai rápido; a curva de capacidade sobe devagar; a área entre elas é a zona de recidiva")]
+p.append(f'<line x1="80" y1="270" x2="1600" y2="270" stroke="{MUDO}" stroke-width="3"/>')
+p.append(f'<line x1="80" y1="30" x2="80" y2="270" stroke="{MUDO}" stroke-width="3"/>')
+p.append(f'<path d="M80,50 C250,230 400,255 1600,262" fill="none" stroke="{FOSF}" stroke-width="6"/>')
+p.append(f'<path d="M80,250 C600,240 1000,120 1600,50" fill="none" stroke="{AZUL}" stroke-width="6"/>')
+p.append(f'<path d="M420,250 C700,258 1000,262 1100,262 L1100,140 C900,190 650,232 420,250 Z" fill="{FOSF}" fill-opacity="0.15"/>')
+p.append("</svg>")
+rs = [rot(100, 20, "dor", w=200, tam=26, cor=FOSF, peso=700),
+      rot(1300, 20, "capacidade", w=300, tam=26, cor=AZUL, peso=700),
+      rot(1120, 196, "← onde mora a recidiva", w=420, tam=24, cor=FOSF, peso=700),
+      rot(80, 276, "semanas depois da lesão", w=600, tam=22, cor=MUDO)]
+S.append({"id": "curvas", "tipo": "diagrama", "h": 300, "svg": "".join(p), "rotulos": rs,
+          "eyebrow": "Por que a gente erra", "titulo": "A dor some antes de a capacidade voltar",
+          "destaque": "Déficits de força excêntrica persistem depois do retorno ao esporte. Não aparecem no olho, aparecem em teste.",
+          "destaque_cor": "tinta", "fonte": "Esquema, sem valores medidos · revisão sistemática, Br J Sports Med 2016"})
+
+S.append({"id": "movem", "tipo": "duas", "eyebrow": "O que move o prazo", "titulo": "Para cima e para baixo",
+          "esq": {"t": "Alonga", "cor": "verm",
+                  "itens": ["tendão interno envolvido", "lesão prévia no mesmo músculo", "lesão alta, por alongamento extremo", "calendário apertado, sem estrutura"]},
+          "dir": {"t": "Encurta", "cor": "petr",
+                  "itens": ["carga cedo, dentro do tolerado", "progressão por critério, registrada", "reexposição planejada ao gesto", "atleta que não precisa esconder dor"]},
+          "destaque": "Quem tem medo de perder a vaga esconde dor, e dor escondida vira recidiva.",
+          "destaque_cor": "verm"})
+
+S.append({"id": "andar", "tipo": "numeros", "eyebrow": "Uma pergunta barata", "titulo": "Quanto tempo levou para andar sem dor?",
+          "numeros": [{"n": "> 1 dia", "x": "para voltar a andar sem dor", "cor": "ambar"},
+                      {"n": "× 4", "x": "chance de ficar mais de três semanas fora", "cor": "verm"}],
+          "destaque": "A história, bem perguntada, carrega boa parte do prognóstico.",
+          "destaque_cor": "tinta", "fonte": "Futebol australiano de elite, Br J Sports Med 2010"})
+
+S.append({"id": "naodizer", "tipo": "frase", "fundo": "tinta", "eyebrow": "O que não dizer",
+          "frase": "Uma data seca, no primeiro dia.",
+          "apoio": "Vira manchete, expectativa e cobrança. E, a partir dela, todo mundo trabalha para cumprir a data, não os critérios."})
+
+S.append({"id": "dizer", "tipo": "lista", "eyebrow": "O que dizer", "titulo": "Três partes, sempre",
+          "itens": [{"t": "A faixa", "x": "lesões deste tipo costumam levar de tanto a tanto", "cor": "petr"},
+                    {"t": "Os critérios", "x": "resposta à carga, força em amplitude, tolerância à velocidade", "cor": "ambar"},
+                    {"t": "Quando volta a falar", "x": "reavalio na sexta e atualizo a previsão", "cor": "tinta"}],
+          "gap_itens": 26, "destaque": "“Não vou te liberar pelo calendário. Vou te liberar pelo que você conseguir fazer, e te mostrar o que falta.”",
+          "destaque_cor": "tinta"})
+
+S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Prognóstico", "titulo": "Faixa, critério e data de reavaliação",
+          "regras": ["Funcional em dias, estrutural em semanas, grande em meses",
+                     "Amador sem estrutura: some tempo",
+                     "O laudo não decide o dia da volta"],
+          "cards": [{"t": "Médico e fisioterapia", "x": "Estimam o prazo e decidem a alta."},
+                    {"t": "Fisioterapia e preparação", "x": "Medem o que falta e mostram em número."},
+                    {"t": "Coordenação e comissão", "x": "Protegem a decisão e falam uma versão só."}],
+          "quem": "Próxima aula: do primeiro dia ao retorno, o manejo da lesão muscular."})
+
+spec = {"arquivo": "aulas/MOD07/07-05-lesao-muscular-prognostico-e-erro-de-estimativa.md",
+        "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
+        "titulo": "Prognóstico da lesão muscular", "subtitulo": "Faixas de retorno e o erro de estimativa",
+        "nota_capa": "Entra pela pergunta que chega em dez minutos.",
+        "secoes": {"celular": ["A pergunta e os números.", "capa"],
+                   "laudo": ["Laudo, curvas e o que move o prazo.", "laudo"],
+                   "naodizer": ["O que dizer e o que não dizer.", "naodizer"]},
+        "slides": S}
+json.dump(spec, open(os.path.join(os.path.dirname(__file__), "07-05.json"), "w"), ensure_ascii=False, indent=1)
+print("07-05.json:", len(S), "slides")

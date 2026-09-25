@@ -1,0 +1,424 @@
+{
+ "arquivo": "aulas/MOD07/07-07-tendinopatia-o-continuum-e-o-que-a-dor-significa.md",
+ "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção",
+ "tema": "tinta",
+ "titulo": "Tendinopatia",
+ "subtitulo": "Cinco erros sobre o contínuo e o significado da dor",
+ "nota_capa": "Entra pela palavra errada.",
+ "secoes": {
+  "palavra": [
+   "O nome e o contínuo.",
+   "capa"
+  ],
+  "imagem": [
+   "Imagem, dor e repouso.",
+   "imagem"
+  ],
+  "compressao": [
+   "Compressão e infiltração.",
+   "compressao"
+  ]
+ },
+ "slides": [
+  {
+   "id": "palavra",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A palavra que carrega o erro",
+   "frase": "Tendinite.",
+   "apoio": "Se é inflamação, o tratamento parece óbvio: anti-inflamatório, gelo e repouso. Quem tem dor no Aquiles há oito meses já fez os três, e continua com dor."
+  },
+  {
+   "id": "nome",
+   "tipo": "duas",
+   "eyebrow": "Consenso de terminologia, 2019",
+   "titulo": "O nome muda o tratamento",
+   "esq": {
+    "t": "Tendinite",
+    "cor": "verm",
+    "itens": [
+     "sugere inflamação",
+     "empurra para anti-inflamatório",
+     "gelo e repouso"
+    ]
+   },
+   "dir": {
+    "t": "Tendinopatia",
+    "cor": "petr",
+    "itens": [
+     "dor persistente associada à carga",
+     "aponta para a forma de carregar",
+     "carga bem administrada"
+    ]
+   },
+   "destaque": "Não é preciosismo de vocabulário: o nome antigo empurra para o tratamento errado.",
+   "destaque_cor": "tinta",
+   "fonte": "Br J Sports Med 2020"
+  },
+  {
+   "id": "continuo",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Três estados do tendão em sequência: reativo, desarranjo e degenerativo, com ida e volta entre os dois primeiros\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><rect x=\"120\" y=\"70\" width=\"340\" height=\"90\" rx=\"45\" fill=\"#008A7E\" fill-opacity=\"0.2\" stroke=\"#008A7E\" stroke-width=\"5\"/><rect x=\"660\" y=\"70\" width=\"340\" height=\"90\" rx=\"45\" fill=\"#B07A1C\" fill-opacity=\"0.2\" stroke=\"#B07A1C\" stroke-width=\"5\"/><rect x=\"1200\" y=\"70\" width=\"340\" height=\"90\" rx=\"45\" fill=\"#A8322A\" fill-opacity=\"0.2\" stroke=\"#A8322A\" stroke-width=\"5\"/><path d=\"M470,100 L640,100\" stroke=\"#6B7A87\" stroke-width=\"5\" marker-end=\"none\"/><path d=\"M628,88 L648,100 L628,112 Z\" fill=\"#6B7A87\"/><path d=\"M650,132 L480,132\" stroke=\"#6B7A87\" stroke-width=\"5\"/><path d=\"M492,120 L472,132 L492,144 Z\" fill=\"#6B7A87\"/><path d=\"M1010,115 L1180,115\" stroke=\"#6B7A87\" stroke-width=\"5\"/><path d=\"M1168,103 L1188,115 L1168,127 Z\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 96,
+     "w": 340,
+     "t": "reativo",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 96,
+     "w": 340,
+     "t": "desarranjo",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 96,
+     "w": 340,
+     "t": "degenerativo",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 180,
+     "w": 340,
+     "t": "sobrecarga aguda; engrossa, dói, reversível",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 180,
+     "w": 340,
+     "t": "a reação não resolveu; estrutura se desorganiza",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 180,
+     "w": 340,
+     "t": "áreas que não voltam; às vezes vasos novos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Erro um · achar que é uma coisa só",
+   "titulo": "O contínuo de Cook e Purdam, 2009",
+   "destaque": "Os estados iniciais são reversíveis: uma dor de três semanas tem caminho mais curto que a de três anos.",
+   "destaque_cor": "tinta",
+   "fonte": "Br J Sports Med 2009"
+  },
+  {
+   "id": "rosca",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A revisão do modelo, 2016",
+   "frase": "Trate a rosca, não o buraco.",
+   "apoio": "Mesmo o tendão com área degenerada tem muito tecido funcional em volta, e ele pode ganhar capacidade. Essa frase muda a conversa com quem chegou assustado com o laudo."
+  },
+  {
+   "id": "imagem",
+   "tipo": "duas",
+   "eyebrow": "Erro dois · achar que a dor mede o estrago",
+   "titulo": "Estrutura e dor andam menos juntas do que parece",
+   "esq": {
+    "t": "Imagem alterada",
+    "cor": "ambar",
+    "itens": [
+     "comum em quem não sente dor",
+     "aumenta o risco de dor futura",
+     "não diz quanto dói hoje"
+    ]
+   },
+   "dir": {
+    "t": "Dor",
+    "cor": "verm",
+    "itens": [
+     "pode vir com imagem pouco alterada",
+     "acompanha a carga recente",
+     "e quanto essa carga mudou"
+    ]
+   },
+   "destaque_cor": "tinta",
+   "fonte": "Metanálise de ultrassom, Br J Sports Med 2016"
+  },
+  {
+   "id": "exames",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "O que isso muda sobre imagem",
+   "titulo": "Três consequências práticas",
+   "cards": [
+    {
+     "t": "Não é rotina",
+     "x": "dúvida diagnóstica, ruptura, caso que não evolui",
+     "cor": "petr"
+    },
+    {
+     "t": "Não serve de controle",
+     "x": "a estrutura muda devagar e frustra quem melhora",
+     "cor": "ambar"
+    },
+    {
+     "t": "Melhora se mede na função",
+     "x": "e na dor durante a carga, não em milímetros",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "O laudo que assusta faz a pessoa se mover com medo, e o medo é parte do problema.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "repouso",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Esquema: a cada ciclo de parar e voltar, a capacidade do tendão desce um degrau, enquanto a demanda do treino continua igual\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"60\" y1=\"80\" x2=\"1600\" y2=\"80\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"16 10\"/><path d=\"M60,100 L400,100 L400,150 L760,150 L760,200 L1120,200 L1120,250 L1600,250\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1200,
+     "y": 30,
+     "w": 400,
+     "t": "demanda do treino",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 112,
+     "w": 320,
+     "t": "para, melhora",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 162,
+     "w": 320,
+     "t": "volta, piora, para",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 212,
+     "w": 320,
+     "t": "volta, piora, para",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 262,
+     "w": 400,
+     "t": "capacidade do tendão",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Erro três · achar que repouso resolve",
+   "titulo": "Repouso alivia, e por isso engana",
+   "destaque": "O tendão não precisa de ausência de carga. Precisa da carga certa, na dose certa, pelo tempo certo.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "mudou",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "A pergunta que abre o caso",
+   "titulo": "O que mudou nas semanas antes da dor?",
+   "cards": [
+    {
+     "t": "Volume",
+     "x": "mais quilômetros ou mais sessões",
+     "cor": "ambar"
+    },
+    {
+     "t": "Tipo",
+     "x": "ladeira, escada, pliometria",
+     "cor": "ambar"
+    },
+    {
+     "t": "Retomada",
+     "x": "voltou das férias no ritmo de antes",
+     "cor": "verm"
+    },
+    {
+     "t": "Contexto",
+     "x": "superfície nova, duas sessões no dia",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "A dor apareceu depois de uma mudança. É a mudança que se ajusta, não a existência de carga.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "compressao",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Erro quatro · mandar alongar",
+   "titulo": "Onde o tendão é comprimido contra o osso",
+   "cards": [
+    {
+     "t": "Aquiles na inserção",
+     "x": "contra o calcanhar, com o tornozelo em flexão máxima",
+     "cor": "verm"
+    },
+    {
+     "t": "Isquiotibiais proximais",
+     "x": "contra o ísquio, com o quadril muito fletido",
+     "cor": "verm"
+    },
+    {
+     "t": "Glúteos",
+     "x": "na lateral do quadril, com a perna cruzada para dentro",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Tração somada a compressão irrita o tecido. O alongamento sustentado faz isso várias vezes por dia.",
+   "destaque_cor": "tinta",
+   "fonte": "Cook e Purdam, Br J Sports Med 2012"
+  },
+  {
+   "id": "conduta",
+   "tipo": "duas",
+   "eyebrow": "Reconhecer e aliviar",
+   "titulo": "Sem exame, na conversa e no movimento",
+   "esq": {
+    "t": "Como reconhecer",
+    "cor": "ambar",
+    "itens": [
+     "piora na flexão profunda",
+     "subir escada, banco baixo",
+     "cruzar as pernas",
+     "dormir de lado, perna de cima caída"
+    ]
+   },
+   "dir": {
+    "t": "O que fazer",
+    "cor": "petr",
+    "itens": [
+     "reduzir posições de compressão",
+     "ajustar como senta e dorme",
+     "força em amplitude que não comprime",
+     "extremos só depois"
+    ]
+   },
+   "destaque": "Mobilidade continua importando. Evita-se o alongamento sustentado, em compressão, num tendão irritado.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "infiltracao",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Esquema: com infiltração, a dor cai rápido e depois volta; com exercício, cai devagar e fica baixa\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"80\" y1=\"270\" x2=\"1600\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M80,50 C160,230 260,240 420,230 C700,200 900,110 1600,120\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><path d=\"M80,50 C400,120 700,200 1000,230 C1200,245 1400,250 1600,250\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1180,
+     "y": 60,
+     "w": 460,
+     "t": "infiltração: alívio rápido, e volta",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 204,
+     "w": 460,
+     "t": "exercício: devagar, e fica",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 276,
+     "w": 300,
+     "t": "meses",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Erro cinco · infiltração como primeira linha",
+   "titulo": "Alivia rápido, cobra depois",
+   "destaque": "Se usar, é para permitir fazer o trabalho, não para substituir o trabalho.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos · revisão sistemática, Lancet 2010"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Cinco erros",
+   "titulo": "Tendão responde à carga",
+   "regras": [
+    "Tendinopatia, contínuo, e a rosca em volta do buraco",
+    "A dor acompanha a carga recente, não o laudo",
+    "Pergunte o que mudou; tire a compressão"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Diagnostica e decide medicação ou infiltração."
+    },
+    {
+     "t": "Fisioterapia e preparação",
+     "x": "Dosam o exercício e ajustam o treino."
+    },
+    {
+     "t": "Todos",
+     "x": "Explicam que dor de tendão não é destruição."
+    }
+   ],
+   "quem": "Próxima aula: como se dosa carga num tendão que dói."
+  }
+ ]
+}

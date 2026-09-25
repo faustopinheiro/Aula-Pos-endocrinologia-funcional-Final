@@ -1,258 +1,219 @@
-# Módulo 7 · Aula 7.8 — Tendinopatia: manejo de carga como tratamento
+# Módulo 7 · Aula 7.8 — Tendinopatia do Aquiles: manejo de carga como tratamento, em seis passos
 
 **Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 17 minutos · 8 slides · Arquitetura: PROCEDIMENTO
+Duração: 14 minutos · 12 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
-📊 **[SLIDE 1 DE 8]**
-*Visual: um caderno de treino aberto, com a semana escrita à mão e um tendão de Aquiles desenhado na margem.*
-*Teleprompter: (entra pelo caso, porque ele é o roteiro da aula inteira)*
+📊 **[SLIDE 1 DE 12]**
+*Visual: fundo escuro, um caderno de treino aberto com a semana escrita à mão e um tendão de Aquiles desenhado na margem. Etiqueta: "caso ilustrativo".*
+*Teleprompter: (entra pelo caso, porque ele é o roteiro da aula)*
 
-Vou te apresentar um caso que é quase um arquétipo, porque ele chega assim no consultório e na academia toda semana.
+Um caso ilustrativo, montado a partir do que chega toda semana ao consultório e à academia.
 
-Homem, quarenta e dois anos, corre há seis anos, três vezes por semana, uns trinta quilômetros no total. Há cinco meses ele entrou num grupo de treino novo e começou a fazer uma sessão de ladeira nas terças e tiros nas quintas. O volume total quase não mudou. O tipo de estímulo mudou completamente.
+Um homem na casa dos quarenta, que corre há anos, três vezes por semana. Há alguns meses entrou num grupo de treino novo e passou a fazer ladeira num dia e tiros em outro. O volume total quase não mudou. O tipo de estímulo mudou completamente.
 
-Seis semanas depois começou uma dor no tendão de Aquiles, do lado direito, que doía nos primeiros minutos de corrida, melhorava no meio, e voltava forte no dia seguinte de manhã, na primeira pisada ao sair da cama.
-
-Ele fez o que todo mundo faz. Parou duas semanas, melhorou, voltou no mesmo ritmo, piorou em quatro dias. Tomou anti-inflamatório por dez dias, melhorou, voltou, piorou. Fez alongamento de panturrilha todo dia, o que deixou pior. Comprou palmilha. Trocou de tênis duas vezes.
-
-Chegou dizendo a frase que resume tudo: eu já tentei de tudo e nada funciona.
-
-E a verdade incômoda é que ele não tentou a única coisa que funciona, que é carga bem dosada, mantida por tempo suficiente.
-
-Hoje eu vou te dar esse processo em seis passos, com dose, com critério de progressão, com a régua de dor e com o prazo real. E eu preciso avisar de uma coisa desde já: a parte mais difícil deste tratamento não é técnica, é a adesão, porque ele leva meses e melhora devagar.
+Semanas depois começou uma dor no tendão de Aquiles: doía nos primeiros minutos de corrida, melhorava no meio, e voltava forte na manhã seguinte, na primeira pisada ao sair da cama.
 
 ---
 
-📊 **[SLIDE 2 DE 8]**
-*Visual: um formulário com três perguntas circuladas: o que mudou, o que comprime, o que dói no dia seguinte.*
-*Teleprompter: (passo um, e ele é de conversa, não de exercício)*
+📊 **[SLIDE 2 DE 12]**
+*Visual: uma lista de tentativas riscadas: parar duas semanas, anti-inflamatório, alongamento diário, palmilha, dois tênis novos.*
+*Teleprompter: (o ciclo de sempre)*
 
-Passo um: entender a carga que produziu isso, antes de prescrever qualquer coisa.
+Ele fez o que quase todo mundo faz. Parou duas semanas, melhorou, voltou no mesmo ritmo e piorou em poucos dias. Tomou anti-inflamatório, melhorou, voltou, piorou. Alongou a panturrilha todo dia, o que deixou pior. Comprou palmilha. Trocou de tênis duas vezes.
 
-Três perguntas resolvem a maior parte dos casos.
+E chegou com a frase que resume tudo: já tentei de tudo e nada funciona.
 
-A primeira: o que mudou nas semanas antes de a dor começar? E aqui vale insistir, porque o paciente quase sempre responde que não mudou nada. Aí você pergunta de forma específica. Mudou o volume? Entrou ladeira, escada, areia? Entrou tiro, salto, mudança de direção? Voltou de uma pausa? Trocou de superfície? Trocou de calçado? Começou a treinar em outro horário, mais cansado? Mudou alguma coisa no trabalho que fez você andar mais, ou menos?
+A verdade incômoda é que ele não tentou a única coisa com boa evidência: carga bem dosada, mantida por tempo suficiente.
 
-No caso do nosso corredor, a resposta era evidente: entrou ladeira e tiro, que são justamente os estímulos que mais exigem armazenamento e devolução de energia no tendão.
-
-A segunda pergunta: existe compressão no quadro? Quer dizer, a dor piora em posições de alongamento máximo, em subir escada, em agachar fundo? Isso muda o que você tira das primeiras semanas.
-
-E a terceira: como está a dor no dia seguinte de manhã? Essa é a melhor régua que existe para tendão, e vai voltar no slide da dor. A rigidez matinal e a dor na primeira pisada são o termômetro do que aconteceu no dia anterior.
-
-Com essas três respostas você já sabe o que ajustar, o que tirar por algumas semanas e por onde começar.
+Esta aula é esse processo, em seis passos, com dose, critério de progressão, régua de dor e prazo real. E o aviso vem logo: a parte mais difícil não é técnica, é a adesão, porque o tratamento leva meses e melhora devagar.
 
 ---
 
-📊 **[SLIDE 3 DE 8]**
-*Visual: uma balança com "capacidade" de um lado e "demanda" do outro, desequilibrada.*
-*Teleprompter: (passo dois, o ajuste que dá alívio sem tirar tudo)*
+📊 **[SLIDE 3 DE 12]**
+*Visual: três perguntas em cartões: o que mudou, o que comprime, como está a manhã seguinte.*
+*Teleprompter: (passo um, de conversa, não de exercício)*
 
-Passo dois: ajustar a demanda sem zerar a demanda.
+Passo um: entender a carga que produziu a dor, antes de prescrever qualquer coisa. Três perguntas resolvem a maior parte dos casos.
 
-Esse é o passo que separa quem entendeu a aula anterior de quem não entendeu. O objetivo não é repouso. É tirar os picos que o tendão não está tolerando e manter o resto.
+O que mudou nas semanas antes da dor? O paciente quase sempre diz que nada. Aí se pergunta de forma específica: volume, ladeira, escada, areia, tiro, salto, pausa, superfície, calçado, horário. No nosso caso ilustrativo a resposta era evidente: entraram ladeira e tiro, justamente os estímulos que mais pedem do tendão como mola.
 
-Na prática, o que sai nas primeiras semanas:
+Existe compressão? A dor piora em alongamento máximo, subindo escada, agachando fundo? A aula anterior mostrou por que isso muda o que sai nas primeiras semanas.
 
-Os estímulos de armazenamento e devolução de energia, que são os que mais carregam o tendão. Para o corredor, isso quer dizer tiro, ladeira, saltos e mudanças bruscas de ritmo.
-
-As posições de compressão, quando elas existem no quadro.
-
-E os picos de volume, quer dizer, aquela sessão longa que é o dobro das outras.
-
-O que fica:
-
-Corrida em ritmo confortável, em superfície plana, em volume que não provoque dor no dia seguinte acima do limite que a gente vai definir no próximo slide.
-
-E, principalmente, a força, que é o tratamento em si.
-
-Essa distinção é libertadora para o paciente, porque ele chegou achando que ia ouvir para parar de correr. Quando ele entende que vai continuar correndo, só que de outro jeito por algumas semanas, a adesão muda de patamar.
-
-Vale dizer com clareza: em alguns casos a dor está tão irritada que é preciso reduzir bastante, e em poucos casos é preciso parar a corrida por um período curto. Mas parar é exceção, e é temporário, e vem sempre com um plano de volta.
+E como está a manhã seguinte? A rigidez e a dor na primeira pisada são o termômetro do que aconteceu no dia anterior. Essa é a melhor régua que existe para tendão, e volta no passo três.
 
 ---
 
-📊 **[SLIDE 4 DE 8]**
-*Visual: uma régua de dor de zero a dez, com a faixa até cinco pintada de verde e uma seta apontando para a manhã seguinte.*
-*Teleprompter: (passo três, a régua que resolve a insegurança de todo mundo)*
+📊 **[SLIDE 4 DE 12]**
+*Visual: duas colunas: "sai por algumas semanas" e "fica".*
+*Teleprompter: (passo dois, ajustar sem zerar)*
 
-Passo três: a régua da dor. Sem ela, ninguém sabe se pode ou não pode, e o tratamento inteiro vira adivinhação.
+Passo dois: ajustar a demanda sem zerar a demanda. O objetivo não é repouso. É tirar os picos que o tendão não está tolerando e manter o resto.
 
-O modelo que organiza isso foi testado num ensaio clínico em pessoas com tendinopatia do Aquiles, e ele é simples de aplicar.
+Sai por algumas semanas: os estímulos de mola, que para o corredor são tiro, ladeira, salto e mudança brusca de ritmo; as posições de compressão, se existem no quadro; e os picos de volume, aquela sessão longa que é o dobro das outras.
 
-A pessoa pode sentir dor durante e depois da atividade, numa escala de zero a dez, até algo em torno de cinco, com três condições.
+Fica: corrida em ritmo confortável, em piso plano, num volume que respeite a régua de dor. E, principalmente, a força, que é o tratamento em si.
 
-Primeira condição: a dor precisa voltar ao nível de base até a manhã seguinte.
-
-Segunda: ela não pode ir aumentando de semana para semana.
-
-E terceira: a função não pode estar piorando, quer dizer, a pessoa precisa continuar conseguindo fazer o que fazia.
-
-Esse ensaio comparou quem continuou treinando com essa régua e quem ficou em repouso nas primeiras semanas, e o resultado foi essencialmente o mesmo. Quer dizer, continuar carregando com critério não piorou nada, e permitiu que a pessoa continuasse fazendo o que gosta durante o tratamento.
-
-Na prática, o que eu peço ao paciente é uma anotação de duas linhas por dia, no bloco de notas do celular: o que fez, e como foi a primeira pisada da manhã seguinte, de zero a dez.
-
-Esse diário é o que permite progredir com segurança e é o que evita a pergunta que trava tudo, que é aquela de sempre: doutor, essa dor é normal?
+Essa distinção libera o paciente, que chegou esperando ouvir "pare de correr". Quando entende que vai continuar correndo, de outro jeito por algumas semanas, a adesão muda. Em poucos casos, muito irritados, é preciso parar a corrida por pouco tempo. Mas isso é exceção, temporária, e sempre com plano de volta.
 
 ---
 
-📊 **[SLIDE 5 DE 8]**
-*Visual: quatro degraus subindo, com os nomes das fases e um tempo estimado em cada um.*
+📊 **[SLIDE 5 DE 12]**
+*Visual: uma régua de dor de zero a dez, com a faixa até cinco destacada e uma seta apontando para a manhã seguinte.*
+*Teleprompter: (passo três, a régua que resolve a insegurança)*
+
+Passo três: a régua da dor. Sem ela, ninguém sabe se pode ou não pode, e o tratamento vira adivinhação.
+
+O modelo foi testado por Karin Silbernagel e colegas, num ensaio com trinta e oito pessoas com tendinopatia do Aquiles. A pessoa pode sentir dor durante e depois da atividade até cerca de cinco, numa escala de zero a dez, com três condições: a dor volta ao nível de base até a manhã seguinte; não vai aumentando de semana para semana; e a função não piora.
+
+O ensaio comparou quem continuou correndo e saltando com essa régua contra quem ficou em repouso ativo nas primeiras seis semanas. O resultado foi o mesmo. Continuar carregando com critério não piorou nada, e a pessoa seguiu fazendo o que gosta.
+
+Na prática, peço duas linhas por dia no bloco de notas do celular: o que fez, e como foi a primeira pisada da manhã seguinte, de zero a dez. Esse diário é o que permite progredir com segurança e acaba com a pergunta que trava tudo: essa dor é normal?
+
+---
+
+📊 **[SLIDE 6 DE 12]**
+*Visual: uma tabela de progressão: semana 1 com 15 repetições máximas, semanas 2 e 3 com 12, semanas 4 e 5 com 10, semanas 6 a 8 com 8, semanas 9 a 12 com 6; ao lado, "3 s para subir, 3 s para descer".*
 *Teleprompter: (passo quatro, o coração do tratamento, com dose de verdade)*
 
-Passo quatro: a progressão de carga, em quatro fases. E eu vou dar dose, porque é isso que falta na maioria das orientações que o paciente recebe.
+Passo quatro: a progressão de carga, em quatro fases. E com dose, porque é isso que falta na maioria das orientações.
 
-Fase um, a isométrica. Contração sustentada, sem movimento, com carga alta o suficiente para ser desafiadora e num ângulo que não comprima. O formato mais usado é algo como cinco séries de quarenta e cinco segundos, com dois minutos de descanso, uma ou duas vezes ao dia. Ela serve para manter capacidade nas fases mais irritadas e, em parte dos pacientes, reduz a dor por algumas horas, o que abre janela para treinar. Nem todo mundo responde com analgesia, e tudo bem, ela continua servindo como carga.
+Fase um, isométrica. Contração sustentada, sem movimento, pesada o bastante para desafiar, num ângulo que não comprima. O formato mais conhecido vem de um estudo pequeno em jogadores de vôlei com tendinopatia patelar: cinco séries de quarenta e cinco segundos. Em parte dos pacientes, reduz a dor por algum tempo e abre janela para treinar. Nem todo mundo responde com analgesia, e tudo bem: continua valendo como carga.
 
-Fase dois, a carga pesada e lenta. Esse é o carro-chefe. Exercício de força com carga alta, executado devagar, algo em torno de três segundos para subir e três para descer, em três ou quatro séries, com repetições que variam de quinze no início até seis quando a carga fica pesada, três vezes por semana.
-
-Vale um dado que arruma a discussão entre escolas: um ensaio clínico comparou esse formato de carga pesada e lenta com o protocolo excêntrico clássico em tendinopatia do Aquiles e encontrou resultados clínicos igualmente bons, com uma satisfação um pouco maior no grupo da carga pesada e lenta em doze semanas, diferença que sumiu em um ano.
-
-Ou seja, a discussão sobre excêntrico contra concêntrico é menos importante do que fazer carga suficiente, de forma consistente, por tempo suficiente.
-
-Fase três, o armazenamento de energia. Aqui entram saltos, pulos, trocas de direção e tudo aquilo que o tendão faz como mola. Essa fase costuma ser pulada, e é justamente a que prepara para o esporte. Começa em volume baixo, dias alternados, e progride devagar.
-
-Fase quatro, a reintrodução do esporte. Ladeira, tiro, treino de campo, jogo. Aquilo que saiu no passo dois volta agora, um item por vez, com pelo menos alguns dias entre uma novidade e outra.
-
-E a regra que atravessa as quatro fases: progride quem passa no critério, não quem cumpriu a semana.
+Fase dois, carga pesada e lenta, o carro-chefe. No ensaio dinamarquês de 2015 no Aquiles, foram elevações de panturrilha em três exercícios, três vezes por semana, três segundos para subir e três para descer. A carga começou em quinze repetições máximas e chegou a seis na nona semana, com três a quatro séries.
 
 ---
 
-📊 **[SLIDE 6 DE 8]**
-*Visual: um calendário de doze semanas com marcações esparsas de melhora, e uma linha de tendência subindo devagar.*
+📊 **[SLIDE 7 DE 12]**
+*Visual: três números: "100%" e "80%" de satisfação em 12 semanas, e "92%" contra "78%" de adesão.*
+*Teleprompter: (o dado que arruma a discussão entre escolas)*
+
+Esse mesmo ensaio comparou a carga pesada e lenta com o protocolo excêntrico clássico, em cinquenta e oito pessoas.
+
+Os dois grupos melhoraram, e a melhora se manteve em um ano. Em doze semanas, a satisfação foi de cem por cento no grupo da carga pesada e lenta contra oitenta no excêntrico, diferença que sumiu em um ano. E a adesão foi maior: noventa e dois contra setenta e oito por cento.
+
+A discussão entre excêntrico e concêntrico importa menos do que fazer carga suficiente, de forma consistente, por tempo suficiente. E um programa que a pessoa consegue cumprir vale mais que um programa perfeito que ela abandona.
+
+---
+
+📊 **[SLIDE 8 DE 12]**
+*Visual: quatro degraus subindo: isometria, carga pesada e lenta, mola, esporte.*
+*Teleprompter: (as duas fases que costumam ser puladas)*
+
+Fase três, armazenamento de energia. Saltos, pulos, trocas de direção, tudo que o tendão faz como mola. É a fase mais pulada, e é justamente a que prepara para o esporte. Começa em volume baixo, em dias alternados, e sobe devagar.
+
+Fase quatro, reintrodução do esporte. Ladeira, tiro, treino de campo, jogo. O que saiu no passo dois volta agora, um item por vez, com alguns dias entre uma novidade e outra.
+
+E a regra que atravessa as quatro fases: progride quem passa no critério, não quem cumpriu a semana. O critério é a régua da manhã seguinte, a força medida e a tolerância ao novo estímulo.
+
+---
+
+📊 **[SLIDE 9 DE 12]**
+*Visual: esquema de doze semanas com uma linha de dor que oscila, semana boa, semana ruim, mas desce na tendência. Legenda: "Esquema, sem valores medidos".*
 *Teleprompter: (passo cinco, o prazo real e a conversa que evita o abandono)*
 
 Passo cinco: combinar o prazo, porque é aqui que o tratamento morre.
 
-O número honesto: os ensaios clínicos nessa área trabalham com doze semanas de tratamento, e melhora relevante costuma aparecer ao longo desse período, não em duas ou três semanas. Em quadro de longa duração, o processo frequentemente leva mais do que isso.
+O número honesto: os ensaios nessa área trabalham com doze semanas, e a melhora aparece ao longo desse período, não em duas ou três. Em quadro antigo, frequentemente leva mais.
 
-Se o paciente não ouvir esse número no primeiro dia, ele vai abandonar na quarta semana, porque ele vai achar que não está funcionando.
+Se o paciente não ouvir isso no primeiro dia, abandona na quarta semana achando que não funciona. O que digo: a dor não vai sumir em uma semana, e não precisa sumir para estarmos no caminho certo. Vamos acompanhar a manhã seguinte e o quanto você consegue fazer. Se as duas coisas melhoram devagar, está funcionando, mesmo que ainda doa.
 
-O que eu digo, e que funciona: a sua dor não vai sumir em uma semana, e ela não precisa sumir para a gente estar no caminho certo. O que a gente vai acompanhar é a dor da manhã seguinte e o quanto você consegue fazer. Se essas duas coisas estiverem melhorando devagar, está funcionando, mesmo que ainda doa.
-
-Três outras coisas que sustentam a adesão:
-
-Medir alguma coisa e mostrar. Pode ser quantas elevações de panturrilha ele consegue fazer, ou quanto peso ele levanta no exercício principal. Ver o número subir é o que mantém a pessoa no processo quando a dor ainda está lá.
-
-Marcar reavaliação em intervalos curtos no começo, tipo a cada duas ou três semanas.
-
-E avisar que vai haver oscilação. Semana boa, semana ruim, e isso não significa que voltou à estaca zero. A linha de tendência é o que importa.
+Três coisas sustentam a adesão. Medir algo e mostrar: quantas elevações de panturrilha, quanto peso no exercício principal. Reavaliar em intervalos curtos no começo, a cada duas ou três semanas. E avisar que vai oscilar: semana ruim não é voltar à estaca zero. O que importa é a tendência.
 
 ---
 
-📊 **[SLIDE 7 DE 8]**
-*Visual: cinco caixas com os erros mais comuns, cada uma com um X.*
-*Teleprompter: (passo seis, o que mais faz esse tratamento falhar)*
+📊 **[SLIDE 10 DE 12]**
+*Visual: cinco caixas com as falhas mais comuns, cada uma com um X.*
+*Teleprompter: (passo seis, por que o tratamento falha)*
 
-Passo seis: reconhecer por que esse tratamento falha, porque na maior parte das vezes não é o tratamento que falhou.
+Passo seis: reconhecer por que o tratamento falha, porque na maior parte das vezes não foi o tratamento que falhou.
 
-Falha um: dose insuficiente. O exercício é feito, mas leve. Carga pesada e lenta quer dizer pesada de verdade. Se o paciente conversa tranquilamente durante a série, não está pesado.
+Dose insuficiente: o exercício é feito, mas leve. Se o paciente conversa tranquilo durante a série, não está pesado.
 
-Falha dois: tempo insuficiente. Quatro semanas não é tratamento de tendão, é uma amostra grátis.
+Tempo insuficiente: quatro semanas não é tratamento de tendão, é amostra grátis.
 
-Falha três: não ajustar o que causou. Se a ladeira das terças continua igual, você está tratando com uma mão e machucando com a outra.
+Não ajustar o que causou: se a ladeira continua igual, trata com uma mão e machuca com a outra.
 
-Falha quatro: pular a fase de energia elástica. O paciente melhora da dor no dia a dia, recebe alta, volta a correr tiro no fim de semana e a dor volta. Ele não estava pronto para aquilo, porque nunca foi exposto a nada parecido durante o tratamento.
+Pular a fase de mola: melhora no dia a dia, recebe alta, volta ao tiro no fim de semana, e a dor volta.
 
-E falha cinco: comparar com imagem em vez de comparar com função. A estrutura muda devagar e o paciente fica frustrado com um exame que não acompanha a melhora dele.
+Comparar com imagem em vez de função.
 
-Uma nota final sobre os casos que não respondem. Se depois de um processo bem feito, com dose de verdade e tempo de verdade, o quadro não melhora, aí sim é hora de rever o diagnóstico. Nem toda dor no calcanhar é tendinopatia do Aquiles, nem toda dor lateral do quadril é tendinopatia glútea, e existem condições que imitam esse quadro e exigem outra conduta. Isso é reavaliação médica, e não mais do mesmo.
+E se, depois de um processo bem feito, com dose e tempo de verdade, o quadro não melhora, é hora de rever o diagnóstico. Nem toda dor no calcanhar é tendinopatia do Aquiles. Isso é reavaliação médica, não mais do mesmo.
 
 ---
 
-📊 **[SLIDE 8 DE 8]**
-*Visual: o corredor do primeiro slide correndo em subida, com o caderno de treino ao lado mostrando a progressão.*
-*Teleprompter: (fecha com o caso resolvido e com quem faz o quê)*
+📊 **[SLIDE 11 DE 12]**
+*Visual: tabela do plano do caso ilustrativo: fase, o que entra, o que precisa acontecer para avançar.*
+*Teleprompter: (o plano do caso, sem prometer desfecho)*
 
-Voltando ao nosso corredor de quarenta e dois anos.
+De volta ao caso ilustrativo. O plano, e não o desfecho, porque o desfecho depende de como ele responder.
 
-O que ele fez: tirou ladeira e tiro por seis semanas, manteve corrida leve em piso plano dentro da régua de dor, parou o alongamento sustentado da panturrilha, começou isometria nas duas primeiras semanas e passou para carga pesada e lenta três vezes por semana, com progressão de carga registrada.
+Nas primeiras semanas: saem ladeira e tiro; fica corrida leve em piso plano, dentro da régua; sai o alongamento sustentado da panturrilha; entra isometria, se a dor estiver muito irritada.
 
-Na semana quatro ele ainda tinha dor, e quase desistiu. O que segurou foi o número: ele tinha saído de oito elevações de panturrilha com dor para vinte e duas sem dor, e isso estava escrito.
+Em seguida, carga pesada e lenta três vezes por semana, com a carga registrada. Avança quando a manhã seguinte estiver estável e a força subindo.
 
-Na semana oito entrou salto em volume baixo. Na décima voltou a fazer tiro, um dia por semana. Na décima quarta voltou à ladeira.
+Depois, salto em volume baixo. Avança se a régua da manhã seguinte se mantiver.
 
-Seis meses depois ele estava correndo mais do que antes de tudo isso começar, e com um hábito novo, que é fazer força duas vezes por semana, para sempre. Essa última parte, aliás, é o que evita a recaída.
+Por fim, volta o tiro, um dia por semana, e só depois a ladeira, uma novidade de cada vez.
 
-Quem faz o quê nessa história. Diagnosticar, descartar o que imita tendinopatia e decidir sobre medicação é do médico. Prescrever e progredir o exercício terapêutico, ajustar a régua de dor e reavaliar é da fisioterapia. Ajustar o treino, quer dizer, o que sai e o que volta, em que semana, e manter a força como hábito depois da alta, é do educador físico e do preparador. E combinar o prazo com o paciente, em voz alta, no primeiro dia, é de quem atender primeiro, porque é isso que evita o abandono na quarta semana.
+E um combinado para depois da alta: força duas vezes por semana como hábito. É o que mais protege contra a recaída.
 
-Na próxima conversa a gente sobe para o joelho, que é a articulação que mais aparece em consultório de esporte, e que reúne dois problemas bem diferentes debaixo da mesma queixa.
+---
+
+📊 **[SLIDE 12 DE 12]**
+*Visual: fecho da aula em tinta: as regras e três cartões de papel.*
+*Teleprompter: (quem faz o quê, e a ponte)*
+
+Seis passos: entender a carga que causou, ajustar sem zerar, usar a régua da manhã seguinte, progredir a carga por fases até a mola e o esporte, combinar o prazo em voz alta, e reconhecer por que falha.
+
+Quem faz o quê. Diagnosticar, descartar o que imita tendinopatia e decidir sobre medicação é do médico. Prescrever e progredir o exercício terapêutico, ajustar a régua e reavaliar é da fisioterapia. Ajustar o treino, o que sai, o que volta e em que semana, e manter a força como hábito depois da alta é da preparação física. E combinar o prazo com o paciente, no primeiro dia, é de quem atender primeiro, porque é isso que evita o abandono na quarta semana.
+
+Na próxima aula, o joelho: a articulação que mais aparece no consultório de esporte, com dois problemas bem diferentes debaixo da mesma queixa.
 
 ---
 
 ## Referências
 
 1. Silbernagel KG, Thomeé R, Eriksson BI, Karlsson J. Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study. *Am J Sports Med.* 2007;35(6):897-906. PMID: 17307888
-2. Beyer R, Kongsgaard M, Hougs Kjær B, Øhlenschlæger T, Kjær M, Magnusson SP. Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial. *Am J Sports Med.* 2015;43(7):1704-1711. PMID: 26018970
-3. Cook JL, Purdam CR. Is tendon pathology a continuum? A pathology model to explain the clinical presentation of load-induced tendinopathy. *Br J Sports Med.* 2009;43(6):409-416. PMID: 18812414
-4. Scott A, Squier K, Alfredson H, et al. ICON 2019: International Scientific Tendinopathy Symposium Consensus: Clinical Terminology. *Br J Sports Med.* 2020;54(5):260-262. PMID: 31399426
-5. Coombes BK, Bisset L, Vicenzino B. Efficacy and safety of corticosteroid injections and other injections for management of tendinopathy: a systematic review of randomised controlled trials. *Lancet.* 2010;376(9754):1751-1767. PMID: 20970844
+2. Rio E, Kidgell D, Purdam C, et al. Isometric exercise induces analgesia and reduces inhibition in patellar tendinopathy. *Br J Sports Med.* 2015;49(19):1277-1283. PMID: 25979840
+3. Beyer R, Kongsgaard M, Hougs Kjær B, Øhlenschlæger T, Kjær M, Magnusson SP. Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial. *Am J Sports Med.* 2015;43(7):1704-1711. PMID: 26018970
+4. Cook JL, Purdam C. Is compressive load a factor in the development of tendinopathy? *Br J Sports Med.* 2012;46(3):163-168. PMID: 22113234
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — O caso que chega toda semana
-· Homem, 42, corre há 6 anos · **entrou ladeira e tiro**, volume quase igual, **tipo de estímulo completamente diferente**
-· Seis semanas depois: dor no Aquiles, pior nos primeiros minutos e **na primeira pisada da manhã seguinte**
-· Parou, melhorou, voltou igual, piorou · anti-inflamatório · **alongamento, que piorou** · palmilha · dois tênis
-· "Eu já tentei de tudo" — **menos a única coisa que funciona: carga bem dosada por tempo suficiente**
-· A parte difícil não é técnica, **é a adesão**
-Visual: caderno de treino com o tendão desenhado na margem.
+**O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de oito blocos longos.
+Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é DECISÃO). Primeiro dos dois casos do
+módulo, dito como caso ilustrativo, com idade em década e sem nome.
 
-**Slide 2** — Passo 1: entender a carga que produziu
-· **O que mudou nas semanas antes?** Volume, ladeira, escada, areia, tiro, salto, volta de pausa, superfície, calçado, horário, rotina de trabalho
-· **Existe compressão?** Piora em alongamento máximo, escada, agachar fundo
-· **Como está a dor na manhã seguinte?** A rigidez matinal é **o termômetro do dia anterior**
-· Com essas três respostas você já sabe o que tirar e por onde começar
-Visual: formulário com as três perguntas circuladas.
+**Números conferidos.** Régua de dor: 38 pacientes, dor até cerca de 5 em 10, volta ao basal na
+manhã seguinte, sem aumento semanal; sem diferença contra repouso ativo nas primeiras seis semanas.
+Isometria: 5 séries de 45 segundos a cerca de 70% da contração máxima, em 6 jogadores de vôlei com
+tendinopatia patelar. Carga pesada e lenta: 58 pacientes, 12 semanas, 3 vezes por semana, 3 s para
+cada fase, de 15RM na semana 1 a 6RM nas semanas 9 a 12, satisfação de 100% contra 80% em 12 semanas
+(sem diferença em 52), adesão de 92% contra 78%.
 
-**Slide 3** — Passo 2: ajustar sem zerar
-· **Sai**: estímulos de mola (tiro, ladeira, salto, troca de ritmo) · **posições de compressão** · **picos de volume**
-· **Fica**: corrida confortável em piso plano dentro da régua · e **a força, que é o tratamento**
-· O paciente chega achando que vai ouvir "pare de correr". **Ouvir que vai continuar, de outro jeito, muda a adesão de patamar**
-· Parar totalmente é **exceção, temporária e com plano de volta**
-Visual: balança de capacidade e demanda.
+**Correções.**
+- O caso tinha "42 anos", "seis anos de corrida", "trinta quilômetros" e "cinco meses": virou homem
+  na casa dos quarenta, sem números que o identifiquem como pessoa real.
+- O desfecho inventado saiu inteiro (semana quatro quase desistindo, "de oito para vinte e duas
+  elevações", tiro na décima semana, ladeira na décima quarta, "seis meses depois correndo mais do
+  que antes"). No lugar ficou o plano, com o critério para avançar em cada fase.
+- A isometria ganhou a fonte que faltava e a ressalva de que o estudo original é pequeno e na
+  tendinopatia patelar.
+- O protocolo de carga pesada e lenta ganhou a progressão de repetições máximas do ensaio e a
+  diferença de adesão.
+- As referências do contínuo, de terminologia e da infiltração, sem uso nesta aula, saíram; entrou a
+  de compressão, que o passo um usa.
 
-**Slide 4** — Passo 3: a régua da dor
-· Dor **até cerca de 5 em 10** durante e depois, com três condições:
-· **Volta ao basal na manhã seguinte** · **não aumenta de semana para semana** · **a função não piora**
-· O ensaio que testou isso: **continuar carregando com critério não piorou nada** em relação a repousar nas primeiras semanas
-· Ferramenta: **duas linhas por dia no celular** — o que fez e como foi a primeira pisada da manhã
-· É o que responde de uma vez a pergunta "essa dor é normal?"
-Visual: régua de 0 a 10 com a faixa até 5 em verde.
+**Saíram.** "vou te apresentar", "nosso corredor de quarenta e dois anos", "no próximo slide", "no
+slide da dor", "próxima conversa", o bloco "Roteiro Gamma". Duração de 17 para 14 minutos.
 
-**Slide 5** — Passo 4: as quatro fases, com dose
-· **Isométrica**: ~**5 × 45 s**, 2 min de intervalo, 1 a 2 vezes ao dia, em ângulo que não comprime · mantém capacidade e **em parte dos pacientes** reduz dor por horas
-· **Carga pesada e lenta**: **3 a 4 séries, 15 a 6 repetições conforme a carga sobe, 3 s para subir e 3 para descer, 3 ×/semana** — o carro-chefe
-· Ensaio comparando **carga pesada e lenta com excêntrico clássico no Aquiles: resultados igualmente bons**, satisfação um pouco maior na carga pesada em 12 semanas, diferença sumindo em um ano
-· **Armazenamento de energia**: saltos, trocas de direção — **a fase mais pulada e a que prepara para o esporte**
-· **Reintrodução**: ladeira, tiro, jogo, **um item por vez**
-· **Progride quem passa no critério, não quem cumpriu a semana**
-Visual: quatro degraus com tempo estimado.
+**Citações faladas.** Silbernagel (régua de dor). O estudo da isometria e o ensaio dinamarquês entram
+sem nome de autor na fala.
 
-**Slide 6** — Passo 5: combinar o prazo
-· Os ensaios trabalham com **12 semanas**, e melhora relevante aparece **ao longo** desse período · quadro antigo costuma levar mais
-· Sem esse número dito no primeiro dia, **o paciente abandona na quarta semana**
-· A frase: **"a dor não precisa sumir para a gente estar no caminho certo; a gente acompanha a dor da manhã seguinte e o quanto você consegue fazer"**
-· Sustentam a adesão: **medir e mostrar** (elevações, carga) · **reavaliar a cada 2 ou 3 semanas** · **avisar que vai oscilar**
-Visual: calendário de 12 semanas com linha de tendência.
-
-**Slide 7** — Passo 6: por que falha
-· **Dose insuficiente** — se dá para conversar durante a série, não está pesado
-· **Tempo insuficiente** — quatro semanas é amostra grátis
-· **Não ajustar o que causou** — trata com uma mão e machuca com a outra
-· **Pular a fase de energia elástica** — alta sem nunca ter saltado, e a dor volta no primeiro tiro
-· **Comparar com imagem em vez de função**
-· **Se não melhora com dose e tempo de verdade: revisar o diagnóstico**, não repetir mais do mesmo
-Visual: cinco caixas com X.
-
-**Slide 8** — O caso, seis meses depois
-· Tirou ladeira e tiro por 6 semanas · manteve corrida leve no plano · **parou o alongamento sustentado** · isometria, depois carga pesada e lenta 3 ×/semana
-· **Semana 4**: ainda com dor, quase desistiu · o que segurou foi **o número escrito**: de 8 elevações com dor para 22 sem dor
-· **Semana 8** saltos · **semana 10** tiro · **semana 14** ladeira
-· Seis meses depois, **correndo mais do que antes**, com força duas vezes por semana **como hábito permanente** — é isso que evita a recaída
-· Quem faz o quê: **diagnóstico e medicação = médico** · **exercício terapêutico e régua = fisioterapia** · **o que sai e o que volta no treino, e a força depois da alta = educador físico e preparador** · **combinar o prazo em voz alta no primeiro dia = quem atender primeiro**
-Visual: o corredor em subida com o caderno de progressão.
+**Ligações internas.** Aplica o contínuo, a compressão e a pergunta "o que mudou" da aula anterior.
+Prepara as lesões do joelho da próxima aula.

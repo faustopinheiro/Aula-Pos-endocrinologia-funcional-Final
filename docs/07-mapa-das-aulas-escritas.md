@@ -207,15 +207,15 @@ típicos, sem idade, e contas feitas em aula.
 | 7.2 | Vigilância de lesão no mundo real | 13 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/P5of1DuarAA8dbWdy4fVwo) |
 | 7.3 | Etiologia da lesão esportiva | 15 | 12 | ERRO | [slides](https://claude.ai/artifact/FEiKJAjnjNp8wz7hzrfctM) |
 | 7.4 | Lesão muscular no esporte | 12 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/X23ksUD3SjVHvm1cLjg8S5) |
+| 7.5 | Prognóstico da lesão muscular | 10 | 12 | NÚMERO | [slides](https://claude.ai/artifact/GyZn5825cPhfyH3cEZ3RUs) |
+| 7.6 | Manejo do estiramento muscular | 15 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/Qp7Vxxdy5zKJjBMTSY21Ti) |
+| 7.7 | Tendinopatia | 12 | 12 | ERRO | [slides](https://claude.ai/artifact/NvgZ9wpJmvVbovA898kNWU) |
+| 7.8 | Tendinopatia do Aquiles | 14 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/YVkhWy3HotbPqkbxiDNGiA) |
 
 Ainda na versão anterior, sem deck:
 
 | Slot | Aula | Min | Arquitetura |
 |---|---|---|---|
-| 7.5 | Lesão muscular: prognóstico e o erro de estimativa | 13 | NÚMERO |
-| 7.6 | Estiramento muscular: manejo do primeiro dia ao retorno | 23 | PROCEDIMENTO |
-| 7.7 | Tendinopatia: o continuum e o que a dor significa | 14 | ERRO |
-| 7.8 | Tendinopatia: manejo de carga como tratamento | 17 | PROCEDIMENTO |
 | 7.9 | Lesões do joelho: da dor anterior ao ligamento | 16 | DECISÃO |
 | 7.10 | Tornozelo e ombro: as duas regiões que a equipe vê primeiro | 13 | PROCEDIMENTO |
 | 7.11 | Lesão óssea de estresse e sua raiz energética | 14 | NÚMERO |

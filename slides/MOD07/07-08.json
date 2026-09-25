@@ -1,0 +1,422 @@
+{
+ "arquivo": "aulas/MOD07/07-08-tendinopatia-manejo-de-carga-como-tratamento.md",
+ "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção",
+ "tema": "tinta",
+ "titulo": "Tendinopatia do Aquiles",
+ "subtitulo": "Manejo de carga como tratamento, em seis passos",
+ "nota_capa": "Caso ilustrativo: homem na casa dos quarenta.",
+ "secoes": {
+  "caso": [
+   "O caso e as três perguntas.",
+   "capa"
+  ],
+  "ajuste": [
+   "Ajuste, régua de dor e dose.",
+   "ajuste"
+  ],
+  "fases": [
+   "Fases, prazo, falhas e o plano.",
+   "fases"
+  ]
+ },
+ "slides": [
+  {
+   "id": "caso",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Caso ilustrativo",
+   "frase": "Homem na casa dos quarenta, corredor há anos. Entraram ladeira e tiro.",
+   "apoio": "O volume quase não mudou; o estímulo mudou todo. Semanas depois, dor no Aquiles: pior no começo da corrida e na primeira pisada da manhã seguinte."
+  },
+  {
+   "id": "tentativas",
+   "tipo": "lista",
+   "eyebrow": "O ciclo de sempre",
+   "titulo": "“Já tentei de tudo e nada funciona”",
+   "itens": [
+    {
+     "t": "Parou duas semanas",
+     "x": "melhorou, voltou no mesmo ritmo, piorou",
+     "cor": "verm"
+    },
+    {
+     "t": "Anti-inflamatório",
+     "x": "melhorou, voltou, piorou",
+     "cor": "verm"
+    },
+    {
+     "t": "Alongamento diário",
+     "x": "piorou",
+     "cor": "verm"
+    },
+    {
+     "t": "Palmilha e dois tênis",
+     "x": "nada mudou",
+     "cor": "ambar"
+    }
+   ],
+   "gap_itens": 22,
+   "destaque": "Faltou a única coisa com boa evidência: carga bem dosada, por tempo suficiente.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Passo um · entender a carga",
+   "titulo": "Três perguntas antes de prescrever",
+   "cards": [
+    {
+     "t": "O que mudou?",
+     "x": "volume, ladeira, tiro, salto, pausa, piso, calçado, horário",
+     "cor": "ambar"
+    },
+    {
+     "t": "Há compressão?",
+     "x": "piora em alongamento máximo, escada, agachamento fundo",
+     "cor": "verm"
+    },
+    {
+     "t": "E a manhã seguinte?",
+     "x": "rigidez e primeira pisada: o termômetro do dia anterior",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "No caso ilustrativo, a resposta era evidente: entraram os estímulos que mais pedem do tendão como mola.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "ajuste",
+   "tipo": "duas",
+   "eyebrow": "Passo dois · ajustar sem zerar",
+   "titulo": "Tirar os picos, manter o resto",
+   "esq": {
+    "t": "Sai por algumas semanas",
+    "cor": "verm",
+    "itens": [
+     "tiro, ladeira, salto",
+     "mudança brusca de ritmo",
+     "posições de compressão",
+     "a sessão longa que é o dobro"
+    ]
+   },
+   "dir": {
+    "t": "Fica",
+    "cor": "petr",
+    "itens": [
+     "corrida confortável em piso plano",
+     "volume dentro da régua de dor",
+     "a força, que é o tratamento"
+    ]
+   },
+   "destaque": "Quem chegou esperando ouvir “pare de correr” e ouve “corra de outro jeito” adere muito mais.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "regua",
+   "tipo": "lista",
+   "eyebrow": "Passo três · a régua da dor",
+   "titulo": "Até cerca de 5 em 10, com três condições",
+   "itens": [
+    {
+     "t": "Volta ao basal na manhã seguinte",
+     "x": "a primeira pisada é o termômetro",
+     "cor": "petr"
+    },
+    {
+     "t": "Não sobe de semana para semana",
+     "x": "a tendência importa mais que o dia",
+     "cor": "ambar"
+    },
+    {
+     "t": "A função não piora",
+     "x": "continua conseguindo fazer o que fazia",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 26,
+   "destaque": "Em 38 pacientes, continuar correndo e saltando com a régua deu o mesmo resultado que o repouso ativo.",
+   "destaque_cor": "petr",
+   "fonte": "Silbernagel e colegas, Am J Sports Med 2007"
+  },
+  {
+   "id": "pesada",
+   "tipo": "tabela",
+   "eyebrow": "Passo quatro · fase dois, carga pesada e lenta",
+   "titulo": "A dose do ensaio dinamarquês, no Aquiles",
+   "cab": [
+    "Semanas",
+    "Repetições máximas",
+    "Séries"
+   ],
+   "larguras": [
+    30,
+    40,
+    30
+   ],
+   "linhas": [
+    [
+     "1",
+     "15",
+     "3"
+    ],
+    [
+     "2 e 3",
+     "12",
+     "3"
+    ],
+    [
+     "4 e 5",
+     "10",
+     "4"
+    ],
+    [
+     "6 a 8",
+     "8",
+     "4"
+    ],
+    [
+     "9 a 12",
+     "6",
+     "4"
+    ]
+   ],
+   "destaque": "Três vezes por semana, 3 s para subir e 3 s para descer. Antes, se a dor estiver irritada, isometria: 5 × 45 s.",
+   "destaque_cor": "tinta",
+   "fonte": "Am J Sports Med 2015 · isometria: Br J Sports Med 2015"
+  },
+  {
+   "id": "comparacao",
+   "tipo": "numeros",
+   "eyebrow": "Carga pesada e lenta contra excêntrico, 58 pessoas",
+   "titulo": "Os dois funcionam; um se cumpre melhor",
+   "numeros": [
+    {
+     "n": "100%",
+     "x": "satisfeitos em 12 semanas, carga pesada e lenta",
+     "cor": "petr"
+    },
+    {
+     "n": "80%",
+     "x": "satisfeitos em 12 semanas, excêntrico",
+     "cor": "ambar"
+    },
+    {
+     "n": "92%",
+     "x": "adesão com carga pesada e lenta, contra 78%",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "A diferença de satisfação sumiu em um ano. Carga suficiente, consistente, por tempo suficiente, importa mais que a escola.",
+   "destaque_cor": "tinta",
+   "fonte": "Am J Sports Med 2015"
+  },
+  {
+   "id": "fases",
+   "tipo": "diagrama",
+   "h": 280,
+   "svg": "<svg aria-label=\"Quatro degraus subindo: isometria, carga pesada e lenta, mola e esporte\" width=\"1664\" height=\"280\" viewBox=\"0 0 1664 280\"><rect x=\"60\" y=\"220\" width=\"380\" height=\"60\" rx=\"8\" fill=\"#3A6EA5\" fill-opacity=\"0.18\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"460\" y=\"170\" width=\"380\" height=\"110\" rx=\"8\" fill=\"#008A7E\" fill-opacity=\"0.18\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"860\" y=\"120\" width=\"380\" height=\"160\" rx=\"8\" fill=\"#B07A1C\" fill-opacity=\"0.18\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"1260\" y=\"70\" width=\"380\" height=\"210\" rx=\"8\" fill=\"#A8322A\" fill-opacity=\"0.18\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 180,
+     "w": 380,
+     "t": "1 · isometria",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 130,
+     "w": 380,
+     "t": "2 · pesada e lenta",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 80,
+     "w": 380,
+     "t": "3 · mola: salto",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 30,
+     "w": 380,
+     "t": "4 · esporte",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "As fases que costumam ser puladas",
+   "titulo": "Progride quem passa no critério",
+   "destaque": "A fase da mola é a mais pulada e é a que prepara para o esporte. Critério: manhã seguinte estável, força subindo, novo estímulo tolerado.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "prazo",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Esquema de doze semanas em que a dor oscila, com semanas boas e ruins, mas desce na tendência\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"80\" y1=\"270\" x2=\"1600\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"3\"/><polyline points=\"80,60 206,90 332,70 458,120 584,105 710,150 836,130 962,180 1088,165 1214,205 1340,190 1466,225 1592,215\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/><line x1=\"80\" y1=\"70\" x2=\"1592\" y2=\"222\" stroke=\"#3A6EA5\" stroke-width=\"4\" stroke-dasharray=\"16 10\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1180,
+     "y": 20,
+     "w": 420,
+     "t": "dor da manhã seguinte",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 236,
+     "w": 420,
+     "t": "a tendência",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 276,
+     "w": 300,
+     "t": "12 semanas",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo cinco · combinar o prazo",
+   "titulo": "Doze semanas, com oscilação",
+   "destaque": "Meça algo e mostre, reavalie a cada duas ou três semanas, avise que vai oscilar. Semana ruim não é estaca zero.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "falhas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Passo seis · por que falha",
+   "titulo": "Quase nunca é o tratamento",
+   "cards": [
+    {
+     "t": "Dose baixa",
+     "x": "se conversa tranquilo na série, não está pesado",
+     "cor": "verm"
+    },
+    {
+     "t": "Tempo curto",
+     "x": "quatro semanas é amostra grátis",
+     "cor": "verm"
+    },
+    {
+     "t": "Causa intacta",
+     "x": "a ladeira continua igual",
+     "cor": "ambar"
+    },
+    {
+     "t": "Sem fase de mola",
+     "x": "alta, tiro no fim de semana, dor de volta",
+     "cor": "ambar"
+    },
+    {
+     "t": "Imagem como régua",
+     "x": "compare função, não estrutura",
+     "cor": "petr"
+    },
+    {
+     "t": "Bem feito e não melhora",
+     "x": "rever o diagnóstico com o médico",
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "plano",
+   "tipo": "tabela",
+   "eyebrow": "De volta ao caso ilustrativo",
+   "titulo": "O plano, não o desfecho",
+   "cab": [
+    "Fase",
+    "O que entra",
+    "Para avançar"
+   ],
+   "larguras": [
+    22,
+    44,
+    34
+   ],
+   "linhas": [
+    [
+     "Primeiras semanas",
+     "corrida leve em plano; sem ladeira, tiro e alongamento sustentado; isometria se irritado",
+     "manhã seguinte estável"
+    ],
+    [
+     "Força",
+     "carga pesada e lenta, 3 × por semana, registrada",
+     "força subindo, régua mantida"
+    ],
+    [
+     "Mola",
+     "salto em volume baixo",
+     "régua mantida"
+    ],
+    [
+     "Esporte",
+     "tiro 1 × por semana, depois ladeira",
+     "uma novidade de cada vez"
+    ]
+   ],
+   "destaque": "Depois da alta, força duas vezes por semana como hábito: é o que mais protege contra a recaída.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Seis passos",
+   "titulo": "Carga bem dosada, por tempo suficiente",
+   "regras": [
+    "Entender a carga que causou; ajustar sem zerar",
+    "Régua da manhã seguinte; fases até a mola e o esporte",
+    "Prazo dito em voz alta no primeiro dia"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Diagnostica e descarta o que imita tendinopatia."
+    },
+    {
+     "t": "Fisioterapia",
+     "x": "Prescreve, progride e reavalia o exercício."
+    },
+    {
+     "t": "Preparação física",
+     "x": "Ajusta o treino e mantém a força como hábito."
+    }
+   ],
+   "quem": "Próxima aula: o joelho, dois problemas debaixo da mesma queixa."
+  }
+ ]
+}
