@@ -1,0 +1,404 @@
+{
+ "arquivo": "aulas/MOD08/08-03-mecanotransducao.md",
+ "modulo": "Fisioterapia Esportiva e Reabilitação",
+ "tema": "tinta",
+ "titulo": "Mecanotransdução",
+ "subtitulo": "Como a carga vira reparo, em números",
+ "nota_capa": "Entra pelo carbono-14 dos testes nucleares no tendão de Aquiles.",
+ "secoes": {
+  "bomba": [
+   "O tendão que não se renova e o mecanismo.",
+   "capa"
+  ],
+  "musculo": [
+   "Os relógios do músculo, do tendão e do osso.",
+   "musculo"
+  ],
+  "desuso": [
+   "O custo do repouso.",
+   "desuso"
+  ],
+  "relogios": [
+   "Os quatro relógios e a prática.",
+   "relogios"
+  ]
+ },
+ "slides": [
+  {
+   "id": "bomba",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "O carbono-14 dos testes nucleares como data de fabricação",
+   "frase": "O miolo do tendão de Aquiles adulto tem o colágeno da adolescência.",
+   "apoio": "28 tendões de pessoas nascidas entre 1945 e 1983: o carbono do miolo correspondia aos primeiros 17 anos de vida. No músculo das mesmas pessoas, renovação contínua."
+  },
+  {
+   "id": "desmontar",
+   "tipo": "duas",
+   "eyebrow": "Antes que o número vire mito",
+   "titulo": "O tendão muda devagar, e de outro jeito",
+   "esq": {
+    "t": "O que significa",
+    "cor": "tinta",
+    "itens": [
+     "o núcleo de colágeno não é trocado",
+     "explica a cicatrização ruim",
+     "explica tendinopatia de meses"
+    ]
+   },
+   "dir": {
+    "t": "O que não significa",
+    "cor": "petr",
+    "itens": [
+     "que o tendão não responde a treino",
+     "a resposta muda o material e a periferia",
+     "a dose e a paciência são outras"
+    ]
+   },
+   "destaque_cor": "tinta",
+   "fonte": "FASEB J 2013"
+  },
+  {
+   "id": "passos",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Três etapas da mecanotransdução: a carga deforma a célula, a célula avisa as vizinhas, as células produzem proteína\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><defs><marker id=\"mt\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><ellipse cx=\"270\" cy=\"120\" rx=\"150\" ry=\"50\" fill=\"#3A6EA5\" fill-opacity=\"0.18\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><ellipse cx=\"830\" cy=\"120\" rx=\"120\" ry=\"70\" fill=\"#B07A1C\" fill-opacity=\"0.18\" stroke=\"#B07A1C\" stroke-width=\"4\"/><ellipse cx=\"1390\" cy=\"120\" rx=\"120\" ry=\"70\" fill=\"#008A7E\" fill-opacity=\"0.18\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"10\" y1=\"120\" x2=\"100\" y2=\"120\" stroke=\"#3A6EA5\" stroke-width=\"5\" marker-end=\"url(#mt)\"/><line x1=\"530\" y1=\"120\" x2=\"420\" y2=\"120\" stroke=\"#3A6EA5\" stroke-width=\"5\" marker-end=\"url(#mt)\"/><circle cx=\"770\" cy=\"120\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"830\" cy=\"120\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"890\" cy=\"120\" r=\"14\" fill=\"#B07A1C\"/><rect x=\"1310\" y=\"100\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1360\" y=\"100\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1410\" y=\"100\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1460\" y=\"100\" width=\"36\" height=\"40\" rx=\"6\" fill=\"#008A7E\"/><line x1=\"560\" y1=\"120\" x2=\"660\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><line x1=\"1000\" y1=\"120\" x2=\"1220\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#mt)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 200,
+     "w": 440,
+     "t": "1 · acoplamento: a carga deforma a célula",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 200,
+     "w": 440,
+     "t": "2 · a célula avisa as vizinhas",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 200,
+     "w": 470,
+     "t": "3 · resposta: fabricar proteína na direção da carga",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Mecanoterapia",
+   "titulo": "Como a carga vira reparo, em três passos",
+   "destaque": "Sem carga, não há sinal. O exercício de reabilitação é o sinal que manda o tecido se refazer.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema · Br J Sports Med 2009"
+  },
+  {
+   "id": "musculo",
+   "tipo": "numeros",
+   "eyebrow": "O relógio do músculo",
+   "titulo": "Uma sessão de força, quase dois dias de sinal",
+   "numeros": [
+    {
+     "n": "+112%",
+     "x": "síntese de proteína 3 horas depois",
+     "cor": "petr"
+    },
+    {
+     "n": "+65%",
+     "x": "24 horas depois",
+     "cor": "petr"
+    },
+    {
+     "n": "+34%",
+     "x": "48 horas depois",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "A degradação também sobe. Em jejum, o balanço seguiu negativo, só menos que em repouso: o sinal vem da carga, a matéria-prima vem da comida.",
+   "destaque_cor": "ambar",
+   "fonte": "8 destreinados, 8 × 8 a 80% de 1RM · Am J Physiol 1997"
+  },
+  {
+   "id": "tendao",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Esquema: depois da carga, a degradação de colágeno do tendão sobe e cai antes; a síntese sobe depois, com pico perto de 24 horas, e segue elevada por cerca de três dias\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"80\" y1=\"260\" x2=\"1600\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M80.0,250 C151.42857142857144,120 222.85714285714286,70 330.0,90 C472.8571428571429,120 615.7142857142858,230 937.1428571428571,250 L1580.0,250\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><path d=\"M80.0,250 C258.57142857142856,200 401.4285714285714,60 508.57142857142856,55 C722.8571428571428,60 1151.4285714285716,140 1472.857142857143,245\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"508.57142857142856\" y1=\"255\" x2=\"508.57142857142856\" y2=\"265\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"937.1428571428571\" y1=\"255\" x2=\"937.1428571428571\" y2=\"265\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1365.7142857142856\" y1=\"255\" x2=\"1365.7142857142856\" y2=\"265\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 179,
+     "y": 30,
+     "w": 320,
+     "t": "degradação: pico mais cedo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 616,
+     "y": 12,
+     "w": 780,
+     "t": "síntese: pico perto de 24 h, elevada por cerca de 3 dias",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 449,
+     "y": 270,
+     "w": 120,
+     "t": "24 h",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 877,
+     "y": 270,
+     "w": 120,
+     "t": "48 h",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1306,
+     "y": 270,
+     "w": 120,
+     "t": "72 h",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O relógio do tendão",
+   "titulo": "Primeiro degrada, depois constrói",
+   "destaque": "Carga pesada de novo antes de o saldo virar, semana após semana, e o tendão vive na fase de perda.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos · Nat Rev Rheumatol 2010"
+  },
+  {
+   "id": "magnitude",
+   "tipo": "numeros",
+   "eyebrow": "O que faz o tendão se adaptar",
+   "titulo": "Magnitude e tempo",
+   "numeros": [
+    {
+     "n": "0,90",
+     "x": "efeito na rigidez com mais de 70% da contração máxima",
+     "cor": "petr"
+    },
+    {
+     "n": "0,04",
+     "x": "efeito com intensidade menor",
+     "cor": "verm"
+    },
+    {
+     "n": "> 12 sem",
+     "x": "intervenções mais longas funcionaram melhor",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "O tipo de contração pesou menos que a intensidade. Na fase de construção: carga alta, lenta e controlada, por meses.",
+   "destaque_cor": "tinta",
+   "fonte": "Metanálise em tendões saudáveis · Sports Med Open 2015"
+  },
+  {
+   "id": "osso",
+   "tipo": "diagrama",
+   "h": 280,
+   "svg": "<svg aria-label=\"A mesma carga diária de 360 ciclos aplicada num bloco só e dividida em quatro e em seis blocos com pausas\" width=\"1664\" height=\"280\" viewBox=\"0 0 1664 280\"><rect x=\"400.0\" y=\"30\" width=\"1100\" height=\"46\" rx=\"6\" fill=\"#6B7A87\" fill-opacity=\"0.45\"/><rect x=\"400.0\" y=\"115\" width=\"251\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"675.0\" y=\"115\" width=\"251\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"950.0\" y=\"115\" width=\"251\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"1225.0\" y=\"115\" width=\"251\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"400.0\" y=\"200\" width=\"159\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"583.3333333333334\" y=\"200\" width=\"159\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"766.6666666666667\" y=\"200\" width=\"159\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"950.0\" y=\"200\" width=\"159\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"1133.3333333333335\" y=\"200\" width=\"159\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"1316.6666666666667\" y=\"200\" width=\"159\" height=\"46\" rx=\"6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 38,
+     "w": 380,
+     "t": "1 bloco de 360",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 123,
+     "w": 380,
+     "t": "4 blocos de 90, com pausa",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 208,
+     "w": 380,
+     "t": "6 blocos de 60, com pausa",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O relógio do osso",
+   "titulo": "A mesma carga rende mais quando é dividida",
+   "destaque": "O osso satura com repetição e recupera a sensibilidade com pausa. Na prática: poucos saltos, em blocos curtos, distribuídos.",
+   "destaque_cor": "tinta",
+   "fonte": "Em ratos: blocos divididos com mais formação óssea · J Bone Miner Res 2000"
+  },
+  {
+   "id": "desuso",
+   "tipo": "numeros",
+   "eyebrow": "O custo de tirar o sinal",
+   "titulo": "Perna engessada em homens jovens e saudáveis",
+   "numeros": [
+    {
+     "n": "−3,5%",
+     "x": "área do quadríceps em 5 dias",
+     "cor": "verm"
+    },
+    {
+     "n": "−9%",
+     "x": "força em 5 dias",
+     "cor": "verm"
+    },
+    {
+     "n": "−23%",
+     "x": "força em 14 dias",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Proteger o tecido lesionado nos primeiros dias é necessário. Imobilizar o resto do corpo junto não é.",
+   "destaque_cor": "tinta",
+   "fonte": "Acta Physiol 2014"
+  },
+  {
+   "id": "repouso",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ideia da aula",
+   "frase": "Repouso não é neutro. O tecido lê a ausência de carga como uma ordem.",
+   "apoio": "Proteger é tirar a carga que machuca. Não é tirar toda a carga."
+  },
+  {
+   "id": "relogios",
+   "tipo": "tabela",
+   "eyebrow": "Quatro relógios, lado a lado",
+   "titulo": "O prazo é do tecido, não da dor",
+   "cab": [
+    "Tecido",
+    "Como responde"
+   ],
+   "larguras": [
+    24,
+    76
+   ],
+   "linhas": [
+    [
+     "Músculo",
+     "horas; síntese elevada por 1 a 2 dias; ganhos em semanas"
+    ],
+    [
+     "Tendão",
+     "colágeno em dias, saldo depois; miolo não se renova; rigidez em mais de 12 semanas"
+    ],
+    [
+     "Osso",
+     "carga dinâmica; satura com repetição; volta com pausa; meses"
+    ],
+    [
+     "Ligamento e enxerto",
+     "lentos como o tendão; a biologia marca o piso de tempo"
+    ]
+   ],
+   "destaque": "Duas lesões com a mesma dor podem ter prazos muito diferentes.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "pratica",
+   "tipo": "cards",
+   "por_linha": 5,
+   "eyebrow": "Na segunda-feira",
+   "titulo": "Cinco traduções para a prescrição",
+   "cards": [
+    {
+     "t": "Carga é sinal",
+     "x": "sem progressão, é espera",
+     "cor": "petr"
+    },
+    {
+     "t": "Magnitude",
+     "x": "principalmente no tendão",
+     "cor": "petr"
+    },
+    {
+     "t": "Espaçamento",
+     "x": "tendão alterna; osso pausa",
+     "cor": "ambar"
+    },
+    {
+     "t": "Tempo",
+     "x": "semanas no músculo, meses no tendão",
+     "cor": "ambar"
+    },
+    {
+     "t": "Dor não mede",
+     "x": "informa tolerância, não adaptação",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Avisar no começo que o tendão leva meses evita o abandono no segundo mês.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Mecanotransdução",
+   "titulo": "Sem carga, não há sinal; sem sinal, não há reparo",
+   "regras": [
+    "Cada tecido tem o seu relógio",
+    "Magnitude, espaçamento e tempo, por tecido",
+    "Repouso não é neutro"
+   ],
+   "cards": [
+    {
+     "t": "Quem prescreve repouso",
+     "x": "Diz por quanto tempo e para qual tecido."
+    },
+    {
+     "t": "Fisioterapia e preparação",
+     "x": "Dosam a carga pelo relógio do tecido."
+    },
+    {
+     "t": "Nutrição",
+     "x": "Garante a matéria-prima do reparo."
+    }
+   ],
+   "quem": "Próxima aula: progressão de carga em tecido em cicatrização."
+  }
+ ]
+}

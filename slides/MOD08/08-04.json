@@ -1,0 +1,479 @@
+{
+ "arquivo": "aulas/MOD08/08-04-progressao-de-carga-em-tecido-em-cicatrizacao.md",
+ "modulo": "Fisioterapia Esportiva e Reabilitação",
+ "tema": "tinta",
+ "titulo": "Progressão de carga",
+ "subtitulo": "Cinco erros de dose em tecido em cicatrização",
+ "nota_capa": "Entra pelo corredor que cumpre os dez por cento e piora.",
+ "secoes": {
+  "planilha": [
+   "A regra dos dez por cento e a âncora.",
+   "capa"
+  ],
+  "variavel": [
+   "Variáveis, degraus e a espiral.",
+   "variavel"
+  ],
+  "alta": [
+   "Alta administrativa e registro.",
+   "alta"
+  ],
+  "principios": [
+   "Princípios e o fecho.",
+   "principios"
+  ]
+ },
+ "slides": [
+  {
+   "id": "planilha",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A conduta que parece prudente",
+   "frase": "Dez por cento por semana, religiosamente, há sete semanas. E piorando.",
+   "apoio": "Um corredor voltando de tendinopatia de Aquiles. A regra não diz sobre o que se calculam os dez por cento, nem o que mais mudou naquela semana."
+  },
+  {
+   "id": "regra",
+   "tipo": "numeros",
+   "eyebrow": "O que a evidência diz da regra",
+   "titulo": "Saltos grandes preocupam; a regra sozinha não protegeu",
+   "numeros": [
+    {
+     "n": "21% × 20%",
+     "x": "lesionados com e sem a regra dos 10%; 486 iniciantes sorteados",
+     "cor": "ambar"
+    },
+    {
+     "n": "> 30%",
+     "x": "de aumento em duas semanas: mais lesão por distância que abaixo de 10%; 874 iniciantes",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Boa heurística de conversa, não lei. E dá para errar respeitando-a à risca.",
+   "destaque_cor": "tinta",
+   "fonte": "Am J Sports Med 2008 · J Orthop Sports Phys Ther 2014"
+  },
+  {
+   "id": "ancora",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Volume semanal: alto antes da lesão, quase zero em seis semanas paradas, e duas progressões depois: ancorada no volume de antes, que salta alto, e ancorada no volume atual, que sobe devagar\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"40\" y1=\"270\" x2=\"1620\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"60\" y=\"70\" width=\"56\" height=\"200\" rx=\"4\" fill=\"#6B7A87\" fill-opacity=\"0.55\"/><rect x=\"130\" y=\"65\" width=\"56\" height=\"205\" rx=\"4\" fill=\"#6B7A87\" fill-opacity=\"0.55\"/><rect x=\"200\" y=\"60\" width=\"56\" height=\"210\" rx=\"4\" fill=\"#6B7A87\" fill-opacity=\"0.55\"/><rect x=\"270\" y=\"266\" width=\"56\" height=\"4\" rx=\"2\" fill=\"#6B7A87\"/><rect x=\"340\" y=\"266\" width=\"56\" height=\"4\" rx=\"2\" fill=\"#6B7A87\"/><rect x=\"410\" y=\"266\" width=\"56\" height=\"4\" rx=\"2\" fill=\"#6B7A87\"/><rect x=\"480\" y=\"266\" width=\"56\" height=\"4\" rx=\"2\" fill=\"#6B7A87\"/><rect x=\"550\" y=\"266\" width=\"56\" height=\"4\" rx=\"2\" fill=\"#6B7A87\"/><rect x=\"620\" y=\"266\" width=\"56\" height=\"4\" rx=\"2\" fill=\"#6B7A87\"/><rect x=\"690\" y=\"154\" width=\"26\" height=\"116\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"718\" y=\"250\" width=\"26\" height=\"20\" rx=\"3\" fill=\"#008A7E\"/><rect x=\"760\" y=\"143\" width=\"26\" height=\"127\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"788\" y=\"240\" width=\"26\" height=\"30\" rx=\"3\" fill=\"#008A7E\"/><rect x=\"830\" y=\"130\" width=\"26\" height=\"140\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"858\" y=\"229\" width=\"26\" height=\"41\" rx=\"3\" fill=\"#008A7E\"/><rect x=\"900\" y=\"116\" width=\"26\" height=\"154\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"928\" y=\"215\" width=\"26\" height=\"55\" rx=\"3\" fill=\"#008A7E\"/><rect x=\"970\" y=\"101\" width=\"26\" height=\"169\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"998\" y=\"200\" width=\"26\" height=\"70\" rx=\"3\" fill=\"#008A7E\"/><rect x=\"1040\" y=\"84\" width=\"26\" height=\"186\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"1068\" y=\"181\" width=\"26\" height=\"89\" rx=\"3\" fill=\"#008A7E\"/><rect x=\"1110\" y=\"65\" width=\"26\" height=\"205\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"1138\" y=\"160\" width=\"26\" height=\"110\" rx=\"3\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 20,
+     "w": 260,
+     "t": "antes da lesão",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 270,
+     "y": 200,
+     "w": 420,
+     "t": "seis semanas quase paradas",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 6,
+     "w": 470,
+     "t": "âncora no volume de antes: salto disfarçado",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 150,
+     "w": 470,
+     "t": "âncora no que tolerou nas últimas duas semanas",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Erro um",
+   "titulo": "A âncora errada",
+   "destaque": "A base é o que a pessoa fez, sem piora, nas últimas duas semanas. Não o que fazia antes da lesão.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "variavel",
+   "tipo": "lista",
+   "eyebrow": "Erro dois · volume e ladeira na mesma semana",
+   "titulo": "Uma variável por vez, nesta ordem",
+   "itens": [
+    {
+     "t": "Frequência",
+     "x": "mais sessões na semana",
+     "cor": "petr"
+    },
+    {
+     "t": "Volume",
+     "x": "mais em cada sessão",
+     "cor": "petr"
+    },
+    {
+     "t": "Densidade",
+     "x": "menos pausa",
+     "cor": "ambar"
+    },
+    {
+     "t": "Intensidade",
+     "x": "ritmo, ladeira, carga: por último",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 6,
+   "destaque": "Regra prática, não achado de ensaio: do menos arriscado para o mais. Entre uma mudança e outra, a leitura de 24 a 48 horas.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "degrau",
+   "tipo": "cards",
+   "por_linha": 4,
+   "eyebrow": "Erro três · o protocolo sem “desde que”",
+   "titulo": "Os quatro elementos de um degrau",
+   "cards": [
+    {
+     "t": "Estímulo",
+     "x": "elevação de calcanhar numa perna só, 3 séries, 2 repetições antes da falha",
+     "cor": "petr"
+    },
+    {
+     "t": "Dose",
+     "x": "quantas vezes por semana, com que carga",
+     "cor": "petr"
+    },
+    {
+     "t": "Critério de saída",
+     "x": "o que precisa acontecer para subir",
+     "cor": "ambar"
+    },
+    {
+     "t": "Critério de regressão",
+     "x": "o que faz voltar um degrau",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "O quarto elemento é o mais importante e o menos escrito.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "espiral",
+   "tipo": "diagrama",
+   "h": 280,
+   "svg": "<svg aria-label=\"Espiral: piora, para tudo, perde condicionamento, volta com a carga antiga, piora de novo\" width=\"1664\" height=\"280\" viewBox=\"0 0 1664 280\"><defs><marker id=\"esp\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M200,140 Q380.0,190.0 560,60\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#esp)\"/><path d=\"M560,60 Q760.0,190.0 960,140\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#esp)\"/><path d=\"M960,140 Q1140.0,190.0 1320,60\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#esp)\"/><path d=\"M1320,60 Q1440.0,210.0 1560,180\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#esp)\"/><circle cx=\"200\" cy=\"140\" r=\"14\" fill=\"#A8322A\"/><circle cx=\"560\" cy=\"60\" r=\"14\" fill=\"#A8322A\"/><circle cx=\"960\" cy=\"140\" r=\"14\" fill=\"#A8322A\"/><circle cx=\"1320\" cy=\"60\" r=\"14\" fill=\"#A8322A\"/><circle cx=\"1560\" cy=\"180\" r=\"14\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 170,
+     "w": 240,
+     "t": "piora",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 6,
+     "w": 280,
+     "t": "para tudo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 170,
+     "w": 320,
+     "t": "perde condicionamento",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 6,
+     "w": 340,
+     "t": "volta com a carga antiga",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 212,
+     "w": 260,
+     "t": "piora de novo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Erro quatro",
+   "titulo": "Parar tudo quando piora",
+   "destaque": "A resposta a uma piora é ajustar a carga, não retirá-la: a carga ótima das siglas do primeiro atendimento vale aqui também.",
+   "destaque_cor": "tinta",
+   "fonte": "Br J Sports Med 2012"
+  },
+  {
+   "id": "degrauabaixo",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ideia da aula",
+   "frase": "Uma piora é um degrau para baixo, não uma queda da escada.",
+   "apoio": "A piora vai acontecer; no tendão, quase sempre. A diferença está em a pessoa saber, antes, o que fazer quando ela chegar."
+  },
+  {
+   "id": "alta",
+   "tipo": "diagrama",
+   "h": 240,
+   "svg": "<svg aria-label=\"Duas linhas do tempo de doze semanas: dez sessões seguidas nas três primeiras semanas, ou as mesmas dez espalhadas em doze semanas, mais densas no começo\" width=\"1664\" height=\"240\" viewBox=\"0 0 1664 240\"><line x1=\"330\" y1=\"70\" x2=\"1620\" y2=\"70\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"330\" y1=\"180\" x2=\"1620\" y2=\"180\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><circle cx=\"330\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"362\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"405\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"438\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"470\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"513\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"545\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"577\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"620\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"652\" cy=\"70\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"330\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"384\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"438\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"491\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"545\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"652\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"760\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"975\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"1190\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"1620\" cy=\"180\" r=\"13\" fill=\"#008A7E\"/><line x1=\"330\" y1=\"205\" x2=\"330\" y2=\"215\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"652\" y1=\"205\" x2=\"652\" y2=\"215\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"975\" y1=\"205\" x2=\"975\" y2=\"215\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1298\" y1=\"205\" x2=\"1298\" y2=\"215\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1620\" y1=\"205\" x2=\"1620\" y2=\"215\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 52,
+     "w": 320,
+     "t": "10 seguidas: alta em 3 semanas",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 162,
+     "w": 320,
+     "t": "as mesmas 10, espaçadas",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 216,
+     "w": 100,
+     "t": "sem 0",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 602,
+     "y": 216,
+     "w": 100,
+     "t": "sem 3",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 925,
+     "y": 216,
+     "w": 100,
+     "t": "sem 6",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1248,
+     "y": 216,
+     "w": 100,
+     "t": "sem 9",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1570,
+     "y": 216,
+     "w": 100,
+     "t": "sem 12",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Erro cinco · a alta administrativa",
+   "titulo": "O mesmo número de sessões, cobrindo doze semanas",
+   "destaque": "Primeiras sessões para ensinar e calibrar, programa escrito, revisão com data. Alta sem data de revisão é abandono agendado.",
+   "destaque_cor": "verm",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "registro",
+   "tipo": "tabela",
+   "eyebrow": "A ferramenta que corrige os cinco",
+   "titulo": "O registro de cinco colunas",
+   "cab": [
+    "Data",
+    "O que fez",
+    "Carga ou volume",
+    "Dor durante (0–10)",
+    "Dor em 24 h (0–10)"
+   ],
+   "larguras": [
+    14,
+    26,
+    20,
+    20,
+    20
+   ],
+   "linhas": [
+    [
+     "seg",
+     "trote e caminhada",
+     "20 min",
+     "2",
+     "2"
+    ],
+    [
+     "qua",
+     "trote e caminhada",
+     "25 min",
+     "2",
+     "3"
+    ],
+    [
+     "sex",
+     "trote com ladeira",
+     "25 min",
+     "3",
+     "6"
+    ]
+   ],
+   "destaque": "Sem registro, a consulta traz memória, puxada pelo último dia ruim. Com registro, a pessoa costuma achar o padrão antes de você.",
+   "destaque_cor": "tinta",
+   "fonte": "Linhas ilustrativas"
+  },
+  {
+   "id": "principios",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "O que sobrevive à crítica dos índices de carga",
+   "titulo": "Três princípios para a reabilitação",
+   "cards": [
+    {
+     "t": "A base protege",
+     "x": "carga crônica bem construída tolera mais",
+     "cor": "petr"
+    },
+    {
+     "t": "O pico importa",
+     "x": "a semana em que dobrou pesa mais que a média do mês",
+     "cor": "ambar"
+    },
+    {
+     "t": "Carga não é só treino",
+     "x": "sono, trabalho, estresse e doença entram na conta",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "O índice agudo e crônico não serve como número de decisão; o módulo de preparação física volta a ele.",
+   "destaque_cor": "tinta",
+   "fonte": "Br J Sports Med 2016 · consenso do COI 2016"
+  },
+  {
+   "id": "cinco",
+   "tipo": "tabela",
+   "eyebrow": "Juntando",
+   "titulo": "Cinco erros e o que fazer no lugar",
+   "cab": [
+    "Erro",
+    "No lugar"
+   ],
+   "larguras": [
+    34,
+    66
+   ],
+   "linhas": [
+    [
+     "Âncora errada",
+     "progredir sobre o que tolerou nas últimas duas semanas"
+    ],
+    [
+     "Duas variáveis juntas",
+     "uma por vez: frequência, volume, densidade, intensidade"
+    ],
+    [
+     "Degrau sem condição",
+     "estímulo, dose, critério de saída e de regressão"
+    ],
+    [
+     "Parar tudo quando piora",
+     "regressão escrita antes: um degrau para baixo"
+    ],
+    [
+     "Alta administrativa",
+     "sessões espaçadas, programa escrito, revisão marcada"
+    ]
+   ],
+   "destaque": "Por baixo dos cinco, o registro.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Progressão de carga",
+   "titulo": "Nada disso acelera o tecido. Só para de atrapalhá-lo.",
+   "regras": [
+    "Base real, uma variável por vez",
+    "Degraus com critério de saída e de regressão",
+    "Registro e revisão marcada"
+   ],
+   "cards": [
+    {
+     "t": "Fisioterapia",
+     "x": "Escreve os degraus e os critérios."
+    },
+    {
+     "t": "Preparação física",
+     "x": "Traz a base real e assume no campo."
+    },
+    {
+     "t": "Médico",
+     "x": "Traduz “repouso relativo” em carga."
+    }
+   ],
+   "quem": "Próxima aula: a reconstrução do cruzado anterior, num caso ilustrativo."
+  }
+ ]
+}

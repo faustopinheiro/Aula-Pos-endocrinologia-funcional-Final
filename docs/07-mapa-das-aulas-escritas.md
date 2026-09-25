@@ -229,19 +229,30 @@ em músculo de rato (Vieira Ramos, 2016) e o enquadramento do registro de lesão
 
 ## Módulo 8 — Fisioterapia Esportiva e Reabilitação · 12 aulas
 
+**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 a 7: decks enxutos, gráficos
+em SVG, referências conferidas. Capa e fecho em tinta, a cor dos módulos 1, 2, 6 e 7 (docs/08).
+Régua de altitude: nenhuma aula ensina a executar técnica; cada uma diz o que a intervenção muda,
+quando entra, quando sai e como se reconhece que não está funcionando. As duas aulas-mestras (8.3 e
+8.11) seguem a regra de que a duração é do tema, não do formato.
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 8.1 | Avaliação funcional em reabilitação | 14 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/F2gRJ8uymTioNLB7D29eRx) |
+| 8.2 | Fases da reabilitação | 13 | 12 | DECISÃO | [slides](https://claude.ai/artifact/MKd4uTHQG8rpUtpStavXrU) |
+| 8.3 | Mecanotransdução | 14 | 12 | NÚMERO | [slides](https://claude.ai/artifact/8msei3NvpsQdKvWne4JCgh) |
+| 8.4 | Progressão de carga | 13 | 12 | ERRO | [slides](https://claude.ai/artifact/9jazBGYEkGZEiJDRUbvKWz) |
+
+Ainda sem versão nova:
+
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 8.1 | Avaliação funcional e raciocínio clínico | M6-A07 parcial | PARCIAL |
-| 8.2 | As fases da reabilitação e seus critérios de passagem | — | NOVA |
-| 8.3 **[M]** | Mecanotransdução | — | **NOVA** |
-| 8.4 | Progressão de carga em tecido em cicatrização | M18-A02 | PRONTA |
 | 8.5 | Reabilitação do LCA | M13-A06 parcial | PARCIAL |
 | 8.6 | Reabilitação de isquiotibiais e região inguinal | M17-A08 parcial | PARCIAL |
 | 8.7 | Reabilitação do tornozelo e prevenção de recidiva | M17-A07 | PRONTA |
 | 8.8 | Membro superior e coluna | M17-A03 + M17-A06 | FUNDIR |
 | 8.9 | Recursos terapêuticos e recuperação: evidência, efeito e ritual | M10-A08 parcial | PARCIAL |
 | 8.10 | Testes de retorno ao esporte | M18-A04 | PRONTA |
-| 8.11 **[M]** | Decisão de retorno: modelo de decisão compartilhada | M18-A01 + M18-A07 | FUNDIR |
+| 8.11 | Decisão de retorno: modelo de decisão compartilhada | M18-A01 + M18-A07 | FUNDIR |
 | 8.12 | Risco residual e comunicação | M18-A07 + M18-A08 | FUNDIR |
 
 ## Módulo 9 — Preparação Física, Treinamento e Gestão de Carga · 12 aulas
