@@ -138,7 +138,7 @@ suplementação, que abre o Módulo 5.
 
 ## Módulo 5 — Suplementação, Ergogênicos e Antidoping · 11 aulas
 
-**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 a 4: decks enxutos, gráficos
+**ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 a 4: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em ameixa, a cor do módulo (docs/08).
 Um caso clínico no módulo (5.11, dito como caso ilustrativo); as demais aulas usam perfis
 típicos, sem idade, e contas feitas em aula.
@@ -155,12 +155,11 @@ típicos, sem idade, e contas feitas em aula.
 | 5.8 | Suplementos sem evidência | 17 | 12 | ERRO | [slides](https://claude.ai/artifact/E2PGjQBELM7K394zmu1tgL) |
 | 5.9 | Contaminação de suplementos | 16 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/X6sPsDxHa4PoipVrNYQfoh) |
 | 5.10 | Lista proibida e autorização de uso terapêutico | 22 | 12 | DECISÃO | [slides](https://claude.ai/artifact/29BMVTFdH9a5oCjvYnj3Dw) |
+| 5.11 | Hormônios e peptídeos fora de indicação | 21 | 12 | CASO | [slides](https://claude.ai/artifact/DmBQus52PMFGkAQ97Dqi7f) |
 
-Ainda na versão anterior, sem deck:
-
-| Slot | Aula | Min | Arquitetura |
-|---|---|---|---|
-| 5.11 | Hormônios e peptídeos fora de indicação | 25 | CASO |
+Total: 3 h 10 min em 11 aulas, 127 slides. A 5.11 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
+medicina esportiva clínica, que abre o Módulo 6.
 
 ## Módulo 6 — Medicina Esportiva Clínica · 12 aulas
 

@@ -2,292 +2,258 @@
 
 **Módulo 5 — Suplementação, Ergogênicos e Antidoping**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 25 minutos · 8 slides · Arquitetura: CASO
+Duração: 21 minutos · 12 slides · Arquitetura: CASO
 
 ---
 
-📊 **[SLIDE 1 DE 8]**
-*Visual: uma mesa de consultório com um papel dobrado — uma lista manuscrita de substâncias e doses — ao lado de um pedido de ressonância de ombro.*
-*Teleprompter: (entra pelo caso, e declara o que a aula é e o que ela não é)*
+📊 **[SLIDE 1 DE 12]**
+*Visual: fundo escuro. Um papel dobrado sobre a mesa do consultório, ao lado de uma ficha de avaliação pré-participação. Eyebrow: "Caso ilustrativo".*
+*Teleprompter: (entra pelo caso)*
 
-Um homem de 41 anos, executivo, **chegou por dor no ombro.** Era esse o motivo da consulta: dor há quatro meses, que piorava no supino e que já o tinha feito reduzir o treino.
+Um caso ilustrativo, montado a partir de situações que se repetem no consultório.
 
-No meio da anamnese, na pergunta de rotina sobre medicamentos, **ele hesitou — e tirou um papel dobrado do bolso.**
+Um homem de quarenta e poucos anos, executivo, veio fazer a avaliação pré-participação para a primeira prova de trilha da vida. Era esse o motivo da consulta.
 
-Era **uma lista manuscrita**, com nomes e doses. **Testosterona injetável. Hormônio de crescimento. Dois peptídeos, por nome comercial abreviado. Um inibidor de aromatase. E um comprimido para "proteger o fígado".**
+Na pergunta de rotina sobre remédios, ele hesitou e tirou um papel dobrado do bolso. Uma lista manuscrita, com nomes e doses. Testosterona injetável. Hormônio de crescimento. Dois peptídeos, por nome abreviado. Um inibidor de aromatase. E um comprimido para "proteger o fígado".
 
-Ele chamou aquilo de **"protocolo"**, e disse que seguia orientação de **"um especialista em performance"** — que não era médico. **Fazia aquilo havia catorze meses.** E a frase que ele usou para resumir foi: **"é só otimização, doutor. Não é anabolizante."**
-
-**Antes de seguir, eu preciso declarar exatamente o que esta aula é e o que ela não é** — e isso não é formalidade.
-
-**Esta aula não ensina a prescrever nada disso.** **Não traz protocolo, não traz dose, não traz "como fazer com segurança".** **Não discute qual esquema é melhor, nem quando "vale a pena".** **E ela não é uma porta para um curso de hormônios, porque eu não acho que esse curso deva existir na forma em que ele costuma ser vendido.**
-
-**O que esta aula faz são quatro coisas: ajuda você a reconhecer que está diante disso; a entender o risco real; a saber onde fica a fronteira legal e ética no Brasil; e a conduzir a conversa e o encaminhamento sem perder a pessoa.**
-
-**A prescrição de terapia hormonal é ato médico, com indicação clínica e diagnóstico**, e o tratamento de hipogonadismo e de deficiência de hormônio de crescimento já foi tratado no **Módulo 3**, nas aulas 3.4, 3.5 e 3.6. **Esta aula é sobre o que acontece fora disso** — que é onde a maior parte de vocês vai encontrar o problema.
+Chamava aquilo de protocolo. Seguia orientação de um "especialista em performance" que não era médico, havia mais de um ano. E, na cabeça dele, aquilo era otimização, não anabolizante.
 
 ---
 
-📊 **[SLIDE 2 DE 8]**
-*Visual: a lista do papel dobrado transcrita, com uma coluna ao lado classificando cada item: "medicamento com indicação clínica", "medicamento fora de indicação", "sem aprovação para uso humano".*
+📊 **[SLIDE 2 DE 12]**
+*Visual: duas colunas: "O que esta aula faz" e "O que esta aula não faz".*
+*Teleprompter: (o que a aula é, e o que não é)*
+
+Antes de seguir, preciso dizer exatamente o que esta aula é e o que não é. E isso não é formalidade.
+
+Esta aula não ensina a prescrever nada disso. Não traz protocolo, não traz dose, não traz "como fazer com segurança". Não discute qual esquema é melhor nem quando "vale a pena".
+
+O que ela faz são quatro coisas: ajudar a reconhecer que você está diante disso; entender o risco real; saber onde fica a fronteira ética e legal no Brasil; e conduzir a conversa e o encaminhamento sem perder a pessoa.
+
+A prescrição de terapia hormonal é ato médico, com diagnóstico e indicação, e o tratamento do hipogonadismo e da deficiência de hormônio de crescimento ficou no módulo de fisiologia hormonal. Esta aula é sobre o que acontece fora disso, que é onde a maior parte de vocês vai encontrar o problema.
+
+---
+
+📊 **[SLIDE 3 DE 12]**
+*Visual: tabela com a lista do papel dobrado. Colunas: item, o que é, onde está.*
 *Teleprompter: (o que é cada coisa daquela lista)*
 
-**O que havia naquele papel** — e a classificação importa, porque ela muda tudo.
+O que havia naquele papel, e a classificação muda tudo.
 
-**Testosterona injetável.** É **medicamento**, com indicações clínicas estabelecidas: hipogonadismo diagnosticado, com sintoma e com dosagem confirmada. **No papel dele, não havia diagnóstico — havia um objetivo estético e de desempenho.** É a distinção central da aula 3.4: **repor o que falta é tratamento; elevar o que está normal é outra coisa.**
+Testosterona injetável é medicamento, com indicação estabelecida: hipogonadismo diagnosticado, com sintoma e dosagem confirmada. No papel dele não havia diagnóstico; havia um objetivo estético e de desempenho. Repor o que falta é tratamento. Elevar o que está normal é outra coisa.
 
-**Hormônio de crescimento.** Também medicamento, com indicações específicas — **deficiência diagnosticada, algumas doenças genéticas e situações definidas.** **Fora disso, o uso é off-label com finalidade estética ou de desempenho**, e a aula 3.6 mostrou o que a literatura encontra nesse cenário: **mudanças de composição corporal sem ganho proporcional de força e de função**, com efeitos adversos previsíveis.
+Hormônio de crescimento também é medicamento, com indicações específicas. Fora delas, é uso com finalidade estética ou de desempenho, e o que a literatura mostra nesse cenário é mudança de composição corporal sem ganho proporcional de força e função, com efeitos adversos previsíveis.
 
-**Inibidor de aromatase.** Medicamento oncológico e de uso endócrino específico, usado nesses "protocolos" **para conter a conversão de testosterona em estradiol.** A aula 3.4 já mostrou, com o estudo que separou os efeitos dos dois hormônios, **o que se perde ao bloquear estradiol em homem: osso, composição corporal e função sexual** — **exatamente o que a pessoa foi buscar.**
+O inibidor de aromatase é um medicamento de uso oncológico e endócrino específico, usado nesses protocolos para conter a conversão de testosterona em estradiol. Finkelstein e colaboradores, em 2013, separaram os efeitos dos dois hormônios em homens e mostraram que, sem estradiol, a gordura corporal sobe e a função sexual piora. É exatamente o que a pessoa foi buscar.
 
-**Os dois peptídeos.** E aqui está a categoria que mais cresceu e que mais confunde. **Muitos dos peptídeos que circulam no meio da "performance" e da "longevidade" não têm aprovação regulatória para uso humano em lugar nenhum.** Vários são vendidos com a etiqueta **"apenas para uso em pesquisa"** — o que significa, literalmente, que **não foram aprovados para serem usados em pessoas**, e que **não há controle de qualidade, de dose, de esterilidade nem de conteúdo.**
+Os peptídeos são a categoria que mais cresceu e a que mais confunde. Muitos dos que circulam no meio da "performance" e da "longevidade" não têm aprovação para uso humano em lugar nenhum. Vários são vendidos com a etiqueta "apenas para pesquisa": não foram aprovados para uso em pessoas, e não há controle de dose, de esterilidade nem de conteúdo.
 
-**E o comprimido "para proteger o fígado"** — que é a peça mais reveladora da lista. **Ele não estava ali por acaso: ele estava ali porque alguém sabia que havia risco hepático.** **Quando o protocolo já vem com um item para conter o dano do resto, isso não é otimização. É um efeito adverso previsto e administrado.**
-
-**Uma nota sobre o vocabulário**, porque ele é a primeira pista clínica. **"Otimização", "modulação", "protocolo", "ciclo", "terapia de reposição" usada fora de indicação** — essas palavras **deslocam a conversa do campo do tratamento para o campo do aprimoramento**, e é exatamente essa a função delas. **Quem diz "eu faço reposição" está usando uma palavra médica para descrever algo que, muitas vezes, não é reposição de nada.**
+E o comprimido "para proteger o fígado" é a peça mais reveladora da lista. Ele está ali porque alguém sabia que havia risco hepático. Quando o protocolo já vem com um item para conter o dano do resto, isso não é otimização. É efeito adverso previsto e administrado.
 
 ---
 
-📊 **[SLIDE 3 DE 8]**
-*Visual: três setas convergindo para a mesma lista — "corpo", "idade", "mercado" — e, embaixo delas, uma quarta caixa: "o que estava realmente acontecendo".*
-*Teleprompter: (por que ele chegou lá — e o que havia por baixo)*
+📊 **[SLIDE 4 DE 12]**
+*Visual: três números grandes de Sagoe: 3,3% de uso de anabolizante ao longo da vida no mundo; 6,4% entre homens; 4,8% na América do Sul. Embaixo, as palavras "otimização", "modulação", "protocolo", "reposição".*
+*Teleprompter: (não é raro, e o vocabulário é a primeira pista)*
 
-**Por que um executivo de 41 anos, saudável, chega a isso?** Três motores, e eles quase nunca vêm sozinhos.
+Isso não é raro. A meta-análise de Sagoe e colaboradores, de 2014, juntou 187 estudos e estimou em 3,3 por cento a prevalência de uso de esteroide anabolizante ao longo da vida no mundo. Entre homens, 6,4 por cento. Na América do Sul, 4,8 por cento, acima da média global.
 
-**Motor um: o corpo.** Insatisfação com a aparência, comparação constante, e — em parte dos casos — **o quadro que a aula 4.12 descreveu: a dismorfia muscular.** **A associação entre insatisfação corporal e uso de substâncias é forte**, e é o motivo pelo qual o rastreio da 4.12 pertence a esta aula também.
-
-**Motor dois: a idade.** Aos quarenta, a pessoa percebe que recupera mais devagar, dorme pior, tem menos energia. **E o mercado oferece uma explicação simples e uma solução comprável: "seus hormônios caíram".** **É uma narrativa poderosa porque contém uma verdade parcial** — algumas coisas mudam com a idade — **e uma conclusão falsa: que a correção seja farmacológica.**
-
-**Motor três: o mercado.** Alguém ganha dinheiro com aquele papel. **Consulta, exames, produtos, acompanhamento.** E o discurso é sofisticado: fala em exames, em "níveis ótimos", em "medicina personalizada". **É a aula 5.8, com prescrição.**
-
-**E agora a quarta caixa — o que estava realmente acontecendo com ele.**
-
-Na anamnese completa, apareceu o seguinte: **dormia cinco horas, viajava três vezes por mês, bebia quatro a cinco doses nas noites de negócio, tinha ganhado nove quilos nos dois anos anteriores** e **não fazia treino de força orientado desde os trinta.** O cansaço, a libido baixa e a "queda de desempenho" que motivaram o protocolo **tinham, todos, candidatos muito melhores.**
-
-**E esse é o padrão, não a exceção.** **A aula 3.4 mostrou: no homem ativo com queixa hormonal, a ordem de investigação começa em sono, energia, carga e doença.** **O que esses protocolos fazem é pular a investigação inteira e ir direto à molécula** — e, por algumas semanas, **funciona o suficiente para convencer.**
-
-**O que torna tudo mais difícil: ele se sentia melhor.** Disposição, libido, treino. **Negar isso destrói a conversa.** **A honestidade é dizer que o efeito é real, que uma parte dele viria de dormir e treinar direito, e que o preço está sendo pago em outro lugar — e depois.**
+E o vocabulário é a primeira pista clínica. "Otimização", "modulação", "protocolo", "ciclo", "reposição" usada fora de indicação. Essas palavras deslocam a conversa do campo do tratamento para o do aprimoramento, e é exatamente essa a função delas. Quem diz "eu faço reposição" usa uma palavra médica para descrever algo que, muitas vezes, não repõe nada.
 
 ---
 
-📊 **[SLIDE 4 DE 8]**
-*Visual: um corpo humano com marcações em cinco territórios — coração, eixo hormonal, fígado, sangue, humor — e, ao lado, um frasco sem rótulo com um ponto de interrogação.*
-*Teleprompter: (os riscos — sem alarmismo, e sem suavizar)*
+📊 **[SLIDE 5 DE 12]**
+*Visual: quatro cartões: "o corpo", "a idade", "o mercado", e o quarto, destacado: "o que estava acontecendo".*
+*Teleprompter: (por que ele chegou lá, e o que havia por baixo)*
 
-**Os riscos.** E aqui eu peço duas coisas: **não suavizar, porque é grave — e não exagerar, porque exagero destrói credibilidade e o paciente já ouviu de alguém que "não tem risco nenhum".**
+Por que um executivo saudável chega a isso? Três motores, que quase nunca vêm sozinhos.
 
-**Cardiovascular.** É a preocupação principal do uso de androgênios em dose suprafisiológica: **alteração de perfil lipídico, efeitos sobre pressão arterial, e alterações estruturais do coração** descritas em usuários de longa data. **Não é um risco teórico.**
+O corpo. Insatisfação com a aparência, comparação constante e, em parte dos casos, a dismorfia muscular da aula de alimentação desordenada. A associação entre insatisfação corporal e uso de substâncias é forte, e é por isso que aquele rastreio também pertence a esta aula.
 
-**Supressão do eixo.** A aula 3.5 já deu o mecanismo: **androgênio exógeno suprime a produção própria.** **Testículos reduzem de tamanho, a produção de espermatozoide cai, e a recuperação depois da suspensão pode levar muitos meses — e nem sempre é completa.** **A infertilidade é um dos motivos mais frequentes de as pessoas finalmente procurarem ajuda** — e, com frequência, elas não sabiam desse risco.
+A idade. Aos quarenta, a pessoa recupera mais devagar, dorme pior, tem menos energia. E o mercado oferece uma explicação simples e uma solução comprável: "seus hormônios caíram". A narrativa convence porque tem uma verdade parcial, algumas coisas mudam com a idade, e uma conclusão falsa: que a correção seja farmacológica.
 
-**Sangue.** Aumento do hematócrito, com o risco trombótico que isso implica.
+O mercado. Alguém ganha dinheiro com aquele papel: consulta, exames, produtos, acompanhamento. E o discurso é sofisticado, fala em "níveis ótimos" e "medicina personalizada". É a promessa comercial da aula de suplementos sem evidência, agora com prescrição.
 
-**Fígado.** Sobretudo com formas orais alquiladas — e é a razão do comprimido "protetor" do slide 2.
+E o quarto cartão: o que estava acontecendo com ele. Na anamnese completa, apareceu: dormia cinco horas, viajava três vezes por mês, bebia bastante nas noites de negócio, tinha ganhado nove quilos em dois anos e não fazia treino de força orientado havia mais de uma década. O cansaço, a libido baixa e a queda de disposição que motivaram o protocolo tinham candidatos muito melhores.
 
-**Psiquiátrico e comportamental.** **Irritabilidade e agressividade durante o uso; e, na suspensão, sintomas depressivos que podem ser intensos** — o que cria um ciclo em que **parar é vivido como perda de identidade e de humor**, e a pessoa volta. **Há, de fato, um padrão de dependência descrito.**
+Esse é o padrão, não a exceção. No homem ativo com queixa hormonal, a investigação começa em sono, energia, carga e doença. O protocolo pula a investigação e vai direto à molécula. E, por algumas semanas, funciona o suficiente para convencer.
 
-**E o risco que ninguém contabiliza: o produto.** **Muito do que circula nesse mercado não passa por farmácia regular.** **Frasco sem rótulo, dose desconhecida, esterilidade desconhecida, conteúdo desconhecido.** A aula 5.9 mostrou o que se encontra dentro de suplementos; **aqui, o produto já é o problema, e não há sequer a pretensão de controle.**
-
-**Nos peptídeos, some a isso a ausência de dados.** **Não há estudos de segurança de longo prazo em humanos saudáveis para a maior parte deles**, e ausência de dado **não é evidência de segurança — é ausência de dado.** A pessoa está, literalmente, **sendo o estudo.**
-
-**E o risco esportivo, para quem compete:** praticamente tudo dessa lista está **proibido em todos os momentos**, nas classes que a aula 5.10 detalhou — **e vários peptídeos caem na classe das substâncias não aprovadas**, que existe exatamente para alcançar o que ainda nem tem nome comercial.
+O que torna tudo mais difícil: ele se sentia melhor. Negar isso destrói a conversa. A honestidade é dizer que o efeito é real, que uma parte dele viria de dormir e treinar direito, e que o preço está sendo pago em outro lugar, e depois.
 
 ---
 
-📊 **[SLIDE 5 DE 8]**
-*Visual: uma linha divisória vertical. À esquerda, "tratamento": diagnóstico, nexo causal, benefício comprovado, acompanhamento. À direita, "fora de indicação": objetivo estético, desempenho, antienvelhecimento.*
-*Teleprompter: (a fronteira — clínica, legal e ética, no Brasil)*
+📊 **[SLIDE 6 DE 12]**
+*Visual: lista dos territórios de risco: coração, eixo e fertilidade, sangue, fígado, humor e dependência, o produto, a falta de dados dos peptídeos.*
+*Teleprompter: (os riscos, sem alarmismo e sem suavizar)*
 
-**Agora a fronteira.** E no Brasil ela **não é uma opinião minha — está escrita.**
+Os riscos. Duas coisas: não suavizar, porque é grave; e não exagerar, porque exagero destrói credibilidade, e o paciente já ouviu de alguém que "não tem risco nenhum".
 
-**O Conselho Federal de Medicina, na Resolução 2.333, de 2023**, estabeleceu normas éticas para a prescrição de terapias hormonais com esteroides androgênicos e anabolizantes. **E o núcleo dela é direto: contraindica o uso com finalidade estética, de ganho de massa muscular e de melhora do desempenho esportivo.**
+Cardiovascular. É a preocupação principal do androgênio em dose acima da fisiológica: piora do perfil lipídico, efeito sobre a pressão e alterações estruturais do coração descritas em usuários de longa data.
 
-**E define o que é legítimo:** a prescrição **está indicada em casos de deficiência específica comprovada, com nexo causal entre a deficiência e o quadro clínico, e com benefício cientificamente comprovado pela reposição.**
+Eixo e fertilidade. Androgênio de fora suprime a produção própria. Os testículos diminuem, a produção de espermatozoide cai, e a recuperação depois de suspender pode levar muitos meses e nem sempre é completa. Infertilidade é um dos motivos mais frequentes de as pessoas finalmente procurarem ajuda, muitas vezes sem saber desse risco.
 
-**Leia de novo essas três condições, porque elas são o critério inteiro: deficiência comprovada · nexo causal com o quadro clínico · benefício comprovado.** **O papel do homem de 41 anos não preenchia nenhuma das três.**
+Sangue. Hematócrito elevado, com o risco trombótico que isso implica.
 
-E o CFM também se posicionou, em normas e em campanhas, **sobre o uso de terapias hormonais com o objetivo de retardar, modular ou prevenir o envelhecimento** — apontando a **ausência de evidência de benefício e a existência de risco.**
+Fígado. Sobretudo com as formas orais, e é a razão do comprimido "protetor".
 
-**As sociedades de especialidade seguem na mesma direção.** A endocrinologia, a geriatria, a ginecologia, a urologia e a medicina do esporte brasileiras **têm posicionamentos públicos contra a prescrição de hormônios com finalidade estética, de desempenho e de antienvelhecimento** — e a **Anvisa** atuou sobre **implantes hormonais manipulados sem registro**, os chamados "chips", **restringindo manipulação e comercialização**.
+Humor. Irritabilidade durante o uso; na suspensão, sintomas depressivos que podem ser intensos. Parar é vivido como perda de identidade e de humor, e a pessoa volta. Há um padrão de dependência descrito.
 
-**Três consequências práticas para esta turma.**
+O produto. Muito do que circula nesse mercado não passa por farmácia regular. Frasco sem rótulo, dose, esterilidade e conteúdo desconhecidos.
 
-**Primeira: isso não é zona cinzenta.** **É uma linha, e ela está publicada.** Quando alguém diz que "é polêmico", **está descrevendo o debate de redes sociais, não o estado da norma.**
+E, nos peptídeos, a ausência de dados. Não há estudo de segurança de longo prazo em humanos saudáveis para a maior parte deles. Ausência de dado não é evidência de segurança. A pessoa está, literalmente, sendo o estudo.
 
-**Segunda: prescrever isso é problema ético e disciplinar para o médico** — e, para os demais profissionais, **indicar, fornecer, aplicar ou encaminhar para quem faz é problema também**, dentro do que cada conselho define, **e é violação antidoping no atleta testado, como a aula 5.10 detalhou.**
-
-**Terceira, e é a que mais aparece no dia a dia: o profissional que não prescreve, mas endossa.** **"Eu não indico, mas quem faz direito não tem problema."** **Isso é endosso**, e ele tem peso — porque vem de alguém de jaleco. **Se você não faria, não sinalize que é aceitável.**
+Para quem compete, quase tudo dessa lista é proibido em todos os momentos, e vários peptídeos caem na classe das substâncias não aprovadas, que existe para alcançar o que ainda nem tem nome.
 
 ---
 
-📊 **[SLIDE 6 DE 8]**
-*Visual: uma conversa em quatro etapas desenhada como degraus: perguntar sem julgar · nomear o risco · oferecer a avaliação · manter a porta aberta.*
-*Teleprompter: (como conduzir a conversa — o procedimento)*
+📊 **[SLIDE 7 DE 12]**
+*Visual: três portões em sequência: "deficiência específica comprovada", "nexo causal com o quadro clínico", "benefício cientificamente comprovado". Passando pelos três: tratamento. Ao lado: "finalidade estética, massa muscular, desempenho: vedado".*
+*Teleprompter: (a fronteira, escrita)*
 
-**Como conduzir isso na prática.** Porque reconhecer não adianta se a conversa termina na primeira frase.
+Agora a fronteira. E no Brasil ela não é opinião: está escrita.
 
-**Passo um: perguntar — sem julgamento, e como rotina.** **"Você usa ou já usou alguma substância para desempenho, estética ou energia? Hormônio, peptídeo, algo injetável, algo manipulado?"** Feita **como pergunta de rotina, no meio das outras**, ela é respondida com muito mais frequência do que se imagina. **Feita com sobrancelha levantada, nunca é.**
+O Conselho Federal de Medicina, na Resolução 2.333, de 2023, vedou a prescrição de terapias hormonais com esteroides androgênicos e anabolizantes com finalidade estética, de ganho de massa muscular e de melhora do desempenho esportivo, para atletas amadores ou profissionais.
 
-**E ela precisa estar na anamnese de todo mundo**, porque a pessoa **não vai contar espontaneamente** — o homem do caso só contou porque foi perguntado, e mesmo assim hesitou.
+E definiu o que é legítimo: a reposição está indicada em caso de deficiência específica comprovada, com nexo causal entre a deficiência e o quadro clínico, e com benefício cientificamente comprovado.
 
-**Passo dois: nomear o risco, específico e sem exagero.** Não "isso faz mal". Mas **"androgênio nessa dose suprime a sua produção própria, e isso afeta fertilidade; o hematócrito precisa ser acompanhado; e esse comprimido que você toma está aí porque existe risco no fígado."** **Específico convence; genérico dispensa.**
+Três portões: deficiência comprovada, nexo causal, benefício comprovado. O papel dobrado não passava por nenhum.
 
-**E incluir o que ele não ouviu: fertilidade, humor na suspensão, e o fato de que os dois peptídeos não têm dados de segurança de longo prazo.**
+Em 2024, a Anvisa proibiu a manipulação, a comercialização e o uso de implantes hormonais à base de esteroides anabolizantes com essas mesmas finalidades, os chamados "chips da beleza". E as sociedades de especialidade, endocrinologia e medicina do esporte entre elas, têm posição pública na mesma direção.
 
-**Passo três: oferecer a avaliação que ele nunca teve.** **Esta é a chave, e é onde a maioria das conversas se salva.** Ele está usando testosterona **sem nunca ter feito a investigação da aula 3.4.** **Oferecer isso não é ceder — é entregar exatamente o que o protocolo prometeu e não fez: um diagnóstico.** "Vamos descobrir o que está de fato acontecendo com você."
+Três consequências. Isso não é zona cinzenta; é uma linha publicada. Quando alguém diz que "é polêmico", está descrevendo o debate de redes sociais, não a norma.
 
-**Passo quatro: manter a porta aberta.** **Ele pode não parar.** **Se a resposta for "então você não é meu paciente", ele volta para quem vendeu o papel** — e some do sistema de saúde até aparecer uma complicação.
+Prescrever isso é problema ético e disciplinar para o médico. Para os demais profissionais, indicar, fornecer, aplicar ou encaminhar para quem faz também é problema, dentro do que cada conselho define. E, no atleta testado, é violação antidoping.
 
-**E aqui a questão difícil, que é preciso enfrentar com honestidade: acompanhar quem não quer parar é conivência?**
-
-**Não, quando fica claro o que é.** **Acompanhar exames, monitorar riscos, tratar complicações e manter a conversa é cuidado.** **Prescrever, ajustar dose, sugerir substância ou legitimar o protocolo é outra coisa — e é o que não se faz.** **A fronteira é entre cuidar da pessoa e viabilizar a prática.**
-
-**E o que nunca se faz: ameaçar, humilhar, ou transformar a consulta num tribunal.** **A vergonha é o que mantém isso invisível** — e invisível é onde o dano acontece.
-
-**Duas situações mudam a conduta.** **Menor de idade: entra a família e a proteção**, e a assimetria do vocabulário da aula 4.12 pesa muito mais. **E sinal de instabilidade clínica ou psiquiátrica — dor torácica, pressão muito alta, alteração importante de humor, ideação suicida — é encaminhamento imediato**, com os critérios da aula 10.5.
+E a que mais aparece no dia a dia: o profissional que não prescreve, mas endossa. "Eu não indico, mas quem faz direito não tem problema." Isso é endosso, e pesa, porque vem de alguém de jaleco. Se você não faria, não sinalize que é aceitável.
 
 ---
 
-📊 **[SLIDE 7 DE 8]**
-*Visual: o mesmo papel dobrado do slide 1, agora ao lado de um pedido de exames e de um plano escrito de treino e sono.*
-*Teleprompter: (o desfecho do caso — sem virada de mesa)*
+📊 **[SLIDE 8 DE 12]**
+*Visual: quatro degraus numerados: perguntar sem julgar, nomear o risco específico, oferecer a avaliação que faltou, manter a porta aberta.*
+*Teleprompter: (como conduzir a conversa)*
 
-**O que aconteceu com ele.** E eu conto o desfecho real, que **não tem virada de mesa.**
+Reconhecer não adianta se a conversa termina na primeira frase. Quatro passos.
 
-**Na primeira consulta, ele não parou nada.** O que aconteceu foi: **o ombro foi avaliado e tratado, que era o motivo da consulta** — e isso importa, porque **tratar o que a pessoa veio buscar é o que compra a segunda consulta.**
+Um: perguntar sem julgamento, e como rotina. "Você usa ou já usou alguma substância para desempenho, estética ou energia? Hormônio, peptídeo, algo injetável, algo manipulado?" Feita como pergunta de rotina, no meio das outras, é respondida com muito mais frequência do que se imagina. Feita com a sobrancelha levantada, nunca é. E ela precisa estar na anamnese de todo mundo, porque ninguém conta espontaneamente. No caso, ele só contou porque foi perguntado, e ainda assim hesitou.
 
-E foram pedidos **os exames que ele nunca tinha feito direito**, com a explicação de por que cada um: **hematócrito, perfil lipídico, função hepática, e a avaliação do eixo** — na condição de coleta correta.
+Dois: nomear o risco, específico e sem exagero. Não "isso faz mal", mas "androgênio nessa dose suprime a sua produção, e isso afeta a fertilidade; o hematócrito precisa ser acompanhado; e esse comprimido está aí porque existe risco no fígado". Específico convence; genérico dispensa. E incluir o que ele não ouviu: fertilidade, humor na suspensão, e a falta de dados dos peptídeos.
 
-**Os resultados trouxeram a conversa que o discurso não trazia.** **Hematócrito elevado. Perfil lipídico piorado em relação a um exame de dois anos antes, que ele tinha no celular. E o eixo suprimido**, exatamente como a aula 3.5 descreve.
+Três: oferecer a avaliação que ele nunca teve. É onde a maioria das conversas se salva. Ele usava testosterona sem nunca ter feito a investigação de uma queixa androgênica. Oferecer isso não é ceder; é entregar o que o protocolo prometeu e não fez: um diagnóstico.
 
-**Foi aí que a palavra "fertilidade" entrou na conversa** — e foi a que mudou o caso. **Ele tinha um filho e queria outro.** **Ninguém tinha mencionado isso para ele. Em catorze meses.**
-
-A partir daí, o que foi construído em alguns meses: **suspensão conduzida com acompanhamento médico**, e não abrupta e sozinha. **Acompanhamento psicológico**, oferecido pelo humor na retirada e pela relação com a imagem corporal. **Um programa de força orientado, pela primeira vez desde os trinta.** **Sono trabalhado com o mesmo empenho que ele dedicava ao protocolo** — e essa frase foi dita exatamente assim. **E o álcool das noites de negócio, colocado na conta.**
-
-**Um ano depois:** eixo em recuperação, ainda em acompanhamento; **hematócrito normalizado; treinando com carga e com orientação; dormindo sete horas na maior parte da semana.** **E mais fraco do que estava no auge do protocolo** — o que ele disse em voz alta, com honestidade, **e que a gente precisa ser capaz de ouvir sem se apressar em consertar a frase.**
-
-**A frase dele que eu guardo é esta: "ninguém nunca tinha me perguntado como eu dormia. Perguntaram só o meu exame."**
-
-**É isso que este módulo inteiro tentou evitar: a pergunta que vai direto ao produto e pula a pessoa.**
+Quatro: manter a porta aberta. Ele pode não parar. Se a resposta for "então você não é meu paciente", ele volta para quem vendeu o papel e some do sistema de saúde até aparecer uma complicação.
 
 ---
 
-📊 **[SLIDE 8 DE 8]**
-*Visual: a matriz dos três níveis — Decisão, Contribuição, Reconhecimento — aplicada ao Módulo 5 inteiro, com as onze aulas ao fundo.*
-*Teleprompter: (fecha a aula e fecha o módulo, nos três níveis)*
+📊 **[SLIDE 9 DE 12]**
+*Visual: duas colunas: "Cuidar da pessoa" e "Viabilizar a prática". Embaixo, as duas situações que mudam a conduta.*
+*Teleprompter: (acompanhar é conivência?)*
 
-E, como esta aula fecha o módulo, eu quero juntar as onze na forma como a equipe trabalha — **nos três níveis.**
+A questão difícil, enfrentada com honestidade: acompanhar quem não quer parar é conivência?
 
-**Decisão.**
+Não, quando fica claro o que é. Acompanhar exames, monitorar riscos, tratar complicações e manter a conversa é cuidado. Prescrever, ajustar dose, sugerir substância ou legitimar o protocolo é outra coisa, e é o que não se faz. A fronteira é entre cuidar da pessoa e viabilizar a prática.
 
-**Prescrever suplemento alimentar, definir dose, protocolo e estratégia de competição é do nutricionista** — e, num atleta testado, **é uma decisão documentada, com marca e lote registrados.**
+E o que nunca se faz: ameaçar, humilhar, transformar a consulta num tribunal. A vergonha é o que mantém isso invisível, e invisível é onde o dano acontece.
 
-**Prescrever medicamento, diagnosticar deficiência, decidir reposição, conduzir a autorização de uso terapêutico, avaliar interação e decidir suspensão é do médico.** **E a prescrição de terapia hormonal com finalidade estética, de massa muscular ou de desempenho não é uma decisão médica disponível — é conduta vedada.**
+Duas situações mudam a conduta. Menor de idade: entra a família e a proteção. E sinal de instabilidade clínica ou psiquiátrica, dor no peito, pressão muito alta, alteração importante de humor, ideação suicida: encaminhamento imediato, com os critérios do módulo de psicologia do esporte e saúde mental.
 
-**Prescrever treino é do educador físico e do preparador** — e é o treino que dá sentido à creatina, à beta-alanina e ao tampão. **Sem ele, nada do que este módulo discutiu tem onde atuar.**
+---
 
-**A progressão de carga em tecido em recuperação é da fisioterapia** — e qualquer substância aplicada em procedimento entra na conta do antidoping. **E o rastreio e o cuidado da relação com o corpo, da pressão por desempenho e do sofrimento na suspensão são do psicólogo, com o médico.**
+📊 **[SLIDE 10 DE 12]**
+*Visual: linha do tempo do caso ilustrativo: a primeira consulta (avaliação pré-participação feita; exames pedidos), os resultados (hematócrito alto, lipídios piores, eixo suprimido), a palavra que mudou o caso (fertilidade), os meses seguintes (suspensão acompanhada, psicólogo, treino de força, sono, álcool).*
+*Teleprompter: (o seguimento do caso, sem virada de mesa)*
 
-**Contribuição.**
+O seguimento, neste caso ilustrativo, não tem virada de mesa.
 
-Aqui está a maior parte do trabalho real deste módulo, e ela atravessa profissões.
+Na primeira consulta, ele não parou nada. A avaliação pré-participação foi feita, que era o motivo da consulta, e isso importa: atender o que a pessoa veio buscar é o que garante a segunda consulta. E foram pedidos os exames que ele nunca tinha feito direito, com a explicação de cada um: hematócrito, perfil lipídico, função hepática e avaliação do eixo, na condição de coleta correta.
 
-**O preparador que escuta "o pessoal está usando isso" no vestiário entrega à equipe uma informação que nenhuma anamnese pegaria.** **O nutricionista que reconhece um ingrediente de risco no rótulo evita um resultado positivo que custaria uma carreira.** **O fisioterapeuta, que vê o atleta três vezes por semana e conversa enquanto trabalha, é quem mais escuta sobre substância** — e quem pode levar isso adiante, com consentimento. **O médico que pergunta "você compete sob controle antidoping?" muda a própria prescrição em cinco segundos.** **E o psicólogo que identifica a insatisfação corporal por trás do pedido muda a conduta de todo mundo — inclusive de quem estava a ponto de discutir dose.**
+Os resultados trouxeram a conversa que o discurso não trazia. Hematócrito elevado. Perfil lipídico pior do que num exame de dois anos antes, que ele tinha no celular. Eixo suprimido.
 
-**Reconhecimento.**
+Foi aí que a palavra "fertilidade" entrou, e foi a que mudou o caso. Ele queria ter outro filho, e ninguém tinha tocado no assunto em mais de um ano de protocolo.
 
-E este nível não pertence a ninguém, porque pertence a todos.
+Nos meses seguintes, o que se construiu foi: suspensão conduzida com acompanhamento médico, e não abrupta e sozinho. Psicólogo, pelo humor na retirada e pela relação com a imagem corporal. Um programa de força orientado. Sono trabalhado com o mesmo empenho que ele dedicava ao protocolo. E o álcool das noites de negócio posto na conta.
 
-**O rótulo com dose não declarada. O pote com catorze ingredientes. A promessa de efeito de medicamento. A fórmula manipulada "personalizada". O produto comprado fora do país, sem fabricante. O vocabulário — "ciclo", "protocolo", "otimização", "modulação". O frasco sem rótulo. O comprimido que está ali para proteger de outro. O atleta que perguntou "isso dá positivo?" e não voltou ao assunto.** **E os sinais que exigem médico hoje: palpitação, dor torácica, pressão descontrolada, alteração importante de humor, ideação suicida.**
+Ele ficou mais fraco do que no auge do protocolo, e disse isso com honestidade. É preciso ser capaz de ouvir essa frase sem se apressar em consertá-la.
 
-**Reconhecer não exige a profissão certa. Exige ter aprendido o sinal.**
+E o que ele contou no caminho resume o módulo: em mais de um ano, alguém tinha olhado os exames dele, mas ninguém tinha perguntado como ele dormia.
 
-E se eu tivesse que reduzir este módulo inteiro a uma frase, seria esta: **quase tudo o que se vende promete substituir o que funciona — e quase tudo o que funciona já estava disponível antes de alguém comprar alguma coisa.**
+---
 
-No próximo módulo, **Módulo 6**, a gente sai da prateleira e entra no consultório clínico: **medicina esportiva clínica — avaliação pré-participação, coração de atleta, emergências no esporte, e o que fazer quando o problema não é o que a pessoa veio contar.**
+📊 **[SLIDE 11 DE 12]**
+*Visual: tabela do módulo inteiro em dois níveis, decisão e contribuição, por profissão.*
+*Teleprompter: (fecha o módulo: decisão e contribuição)*
+
+Como esta aula fecha o módulo, vale juntar as onze na forma como a equipe trabalha, em três níveis.
+
+Decisão. Prescrever suplemento, definir dose, protocolo e estratégia de competição é do nutricionista, e, num atleta testado, é decisão documentada, com marca e lote. Prescrever medicamento, diagnosticar deficiência, decidir reposição, conduzir a autorização de uso terapêutico, avaliar interação e decidir suspensão é do médico. E a terapia hormonal com finalidade estética, de massa muscular ou de desempenho não é uma decisão médica disponível: é conduta vedada. Prescrever treino é do educador físico e do preparador, e é o treino que dá sentido à creatina, à beta-alanina e ao bicarbonato. Sem ele, nada deste módulo tem onde agir. A carga em tecido em recuperação é da fisioterapia, e qualquer substância aplicada em procedimento entra na conta do antidoping. E a relação com o corpo, a pressão por desempenho e o sofrimento na suspensão são do psicólogo, com o médico.
+
+Contribuição. Aqui está a maior parte do trabalho real do módulo. O preparador que escuta "o pessoal está usando isso" no vestiário entrega uma informação que nenhuma anamnese pegaria. O nutricionista que reconhece um ingrediente de risco no rótulo evita um resultado positivo que custaria uma carreira. O fisioterapeuta, que vê o atleta três vezes por semana, é quem mais escuta sobre substância, e pode levar isso adiante, com consentimento. O médico que pergunta "você compete sob controle antidoping?" muda a própria prescrição em cinco segundos. E o psicólogo que identifica a insatisfação corporal por trás do pedido muda a conduta de todo mundo.
+
+---
+
+📊 **[SLIDE 12 DE 12]**
+*Visual: fecho do módulo em ameixa. Os sinais de reconhecimento como regras, os três níveis em cartões, a frase final e a ponte para o módulo de medicina esportiva clínica.*
+*Teleprompter: (reconhecimento, a frase do módulo e a ponte)*
+
+Reconhecimento. Este nível não pertence a ninguém, porque pertence a todos.
+
+O rótulo com dose não declarada. O pote com catorze ingredientes. A promessa de efeito de remédio. A fórmula manipulada "personalizada". O produto comprado fora do país, sem fabricante. O vocabulário: ciclo, protocolo, otimização, modulação. O frasco sem rótulo. O comprimido que está ali para proteger de outro. O atleta que perguntou "isso dá positivo?" e não voltou ao assunto. E os sinais que pedem médico hoje: palpitação, dor no peito, pressão descontrolada, alteração importante de humor, ideação suicida.
+
+Reconhecer não exige a profissão certa. Exige ter aprendido o sinal.
+
+Se este módulo coubesse numa frase, seria esta: quase tudo o que se vende promete substituir o que funciona, e quase tudo o que funciona já estava disponível antes de alguém comprar alguma coisa.
+
+No próximo módulo, a gente sai da prateleira e entra no consultório: medicina esportiva clínica. Avaliação pré-participação, que é onde este caso começou, coração de atleta, emergência em campo, e o que fazer quando o problema não é o que a pessoa veio contar.
 
 ---
 
 ## Referências
 
-1. Conselho Federal de Medicina (Brasil). Resolução CFM nº 2.333, de 30 de março de 2023. Adota normas éticas para a prescrição de terapias hormonais com esteroides androgênicos e anabolizantes, contraindicando o uso com finalidade estética, de ganho de massa muscular e de melhora do desempenho esportivo.
-2. World Anti-Doping Agency. *International Standard — Prohibited List.* Atualização anual. Disponível em: wada-ama.org/en/prohibited-list
+1. Conselho Federal de Medicina (Brasil). Resolução CFM nº 2.333, de 30 de março de 2023. Adota normas éticas para a prescrição de terapias hormonais com esteroides androgênicos e anabolizantes. *Diário Oficial da União*, 11 abr. 2023.
+2. Agência Nacional de Vigilância Sanitária (Brasil). Resolução RE nº 4.353, de 21 de novembro de 2024. Proíbe a manipulação, a comercialização e o uso de implantes hormonais à base de esteroides anabolizantes ou hormônios androgênicos com finalidade estética, de ganho de massa muscular e de melhora do desempenho esportivo.
 3. Sagoe D, Molde H, Andreassen CS, Torsheim T, Pallesen S. The global epidemiology of anabolic-androgenic steroid use: a meta-analysis and meta-regression analysis. *Ann Epidemiol.* 2014;24(5):383-398. PMID: 24582699
 4. Finkelstein JS, Lee H, Burnett-Bowie SM, et al. Gonadal steroids and body composition, strength, and sexual function in men. *N Engl J Med.* 2013;369(11):1011-1022. PMID: 24024838
-5. Maughan RJ, Burke LM, Dvorak J, et al. IOC consensus statement: dietary supplements and the high-performance athlete. *Br J Sports Med.* 2018;52(7):439-455. PMID: 29540367
-6. Brasil. Agência Nacional de Vigilância Sanitária. Atos normativos sobre implantes hormonais manipulados sem registro sanitário. Disponível em: gov.br/anvisa
+5. World Anti-Doping Agency. *International Standard: Prohibited List.* Atualização anual. Disponível em: wada-ama.org/en/prohibited-list
 
 ---
 
-## Roteiro Gamma.app
+## Notas de produção (não falado, não vai para o slide)
 
-**Slide 1** — O papel dobrado
-· Homem, 41 anos, executivo — **veio por dor no ombro**
-· Na pergunta de rotina sobre medicamentos, tirou do bolso **uma lista manuscrita**: testosterona · hormônio de crescimento · dois peptídeos · inibidor de aromatase · "um para proteger o fígado"
-· **14 meses**, orientado por um "especialista em performance" que não é médico · *"é só otimização, não é anabolizante"*
-· **O que esta aula NÃO é**: não ensina a prescrever, **não traz dose nem protocolo**, não discute "como fazer com segurança", **e não é porta para curso nenhum**
-· **O que ela faz**: reconhecer · entender o risco · conhecer a fronteira legal e ética · conduzir a conversa
-· Hipogonadismo e eixo GH: **Módulo 3 (3.4, 3.5, 3.6)**
-Visual: a mesa com o papel e o pedido de ressonância.
+**O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de oito blocos longos.
+Arquitetura CASO mantida (a anterior é DECISÃO). É o único caso clínico do módulo, dito como caso
+ilustrativo e anonimizado ("quarenta e poucos anos", sem idade exata). A queixa de entrada mudou de
+dor no ombro para avaliação pré-participação: a dor no ombro já abre o caso ilustrativo da aula de
+alimentação desordenada, e a avaliação pré-participação faz a ponte para o módulo seguinte. O fecho
+do módulo nos três níveis ocupa os dois últimos slides, com a frase final no fecho.
 
-**Slide 2** — O que era cada coisa
-· **Testosterona**: medicamento com indicação — **repor o que falta é tratamento; elevar o normal é outra coisa** (3.4)
-· **GH**: indicações específicas; fora delas, **composição corporal muda sem ganho proporcional de força e função** (3.6)
-· **Inibidor de aromatase**: bloquear estradiol custa **osso, composição corporal e função sexual** (3.4)
-· **Peptídeos**: muitos **sem aprovação para uso humano**, vendidos como **"apenas para pesquisa"** — sem controle de dose, esterilidade ou conteúdo
-· **O comprimido "para o fígado" é a peça reveladora**: o protocolo já vem com um item para conter o dano do resto
-· **O vocabulário é a primeira pista**: otimização, modulação, protocolo, ciclo
-Visual: a lista classificada em três colunas.
+**Números conferidos.** Resolução CFM 2.333/2023: veda terapia hormonal com esteroides androgênicos e
+anabolizantes com finalidade estética, de ganho de massa muscular e de melhora do desempenho, para
+atletas amadores ou profissionais; reposição indicada com deficiência específica comprovada, nexo
+causal e benefício cientificamente comprovado; publicada no DOU em 11 de abril de 2023. Anvisa, RE
+4.353, de 21 de novembro de 2024: proibição de implantes hormonais à base de esteroides anabolizantes
+com essas finalidades. Sagoe 2014: 187 estudos; prevalência global ao longo da vida de 3,3%; 6,4%
+entre homens; 4,8% na América do Sul. Finkelstein 2013: deficiência de estradiol associada a aumento
+de gordura corporal e piora da função sexual em homens.
 
-**Slide 3** — Por que ele chegou lá
-· **Corpo** (insatisfação, dismorfia — 4.12) · **idade** ("seus hormônios caíram": verdade parcial, conclusão falsa) · **mercado** (alguém ganha com o papel — 5.8 com prescrição)
-· O que havia por baixo: **5 h de sono · 3 viagens por mês · 4–5 doses nas noites de negócio · +9 kg em 2 anos · sem treino de força desde os 30**
-· **O protocolo pulou a investigação inteira e foi direto à molécula** (3.4)
-· **E ele se sentia melhor** — negar isso destrói a conversa. **O efeito é real; parte dele viria de dormir e treinar; e o preço é pago depois**
-Visual: as três setas e a quarta caixa.
+**Correções.**
+- As falas entre aspas atribuídas ao paciente ("é só otimização, doutor", "ninguém nunca tinha me
+  perguntado como eu dormia") viraram discurso indireto: eram falas inventadas.
+- "Eu conto o desfecho real" e "um ano depois" saíram; o seguimento ficou como "nos meses
+  seguintes", dito como parte do caso ilustrativo, sem resultados de exame inventados.
+- No inibidor de aromatase, "osso, composição corporal e função sexual" virou "gordura corporal e
+  função sexual", que é o que Finkelstein 2013 mostrou; osso é de outro trabalho.
+- A frase sobre a Anvisa ganhou a norma de 2024 (RE 4.353), no lugar de "atuou sobre implantes".
+- Entrou o dado de prevalência de Sagoe, que estava só nas referências.
+- A referência do consenso do COI saiu, porque a aula não a cita.
 
-**Slide 4** — Os riscos
-· **Cardiovascular**: lipídios, pressão, alterações estruturais em usuários de longa data
-· **Eixo suprimido** (3.5): testículo, espermatogênese, **recuperação de muitos meses e nem sempre completa** — **infertilidade é o motivo mais comum de procurar ajuda**
-· **Sangue**: hematócrito e risco trombótico · **Fígado**: formas orais alquiladas
-· **Psiquiátrico**: irritabilidade no uso, **sintomas depressivos na suspensão** → ciclo de retorno e **padrão de dependência descrito**
-· **O produto**: frasco sem rótulo, dose, esterilidade e conteúdo desconhecidos — **pior que a 5.9, porque aqui nem se finge controle**
-· **Peptídeos: ausência de dado não é evidência de segurança — a pessoa É o estudo**
-· Esportivo: quase tudo **proibido em todos os momentos**; peptídeos caem em **substâncias não aprovadas** (5.10)
-Visual: os cinco territórios e o frasco sem rótulo.
+**Saíram.** "Módulo 3", "aulas 3.4, 3.5 e 3.6", "aula 3.4", "aula 3.5", "aula 3.6", "aula 4.12",
+"aula 5.8", "aula 5.9", "aula 5.10", "aula 10.5", "Módulo 6", "slide 1", "slide 2", "o escopo",
+a idade exata, a primeira pessoa do desfecho, o bloco "Roteiro Gamma".
 
-**Slide 5** — A fronteira está escrita
-· **CFM, Resolução 2.333/2023**: **contraindica** terapias hormonais com esteroides androgênicos e anabolizantes **para fim estético, ganho de massa muscular e desempenho esportivo**
-· **Legítimo**: **deficiência comprovada · nexo causal com o quadro clínico · benefício cientificamente comprovado** — o papel dele não preenchia nenhuma
-· CFM também se posiciona contra o uso **para retardar, modular ou prevenir o envelhecimento**
-· **Sociedades de especialidade** na mesma direção; **Anvisa** restringiu **implantes hormonais manipulados sem registro**
-· **Não é zona cinzenta — é uma linha publicada**
-· **O profissional que não prescreve, mas endossa, endossa** — *"quem faz direito não tem problema"* tem peso porque vem de jaleco
-Visual: a linha divisória tratamento x fora de indicação.
+**Citações faladas.** Finkelstein; Sagoe; Conselho Federal de Medicina; Anvisa.
 
-**Slide 6** — Como conduzir
-· **1. Perguntar sem julgar, como rotina**: *"usa ou já usou algo para desempenho, estética ou energia? Hormônio, peptídeo, injetável, manipulado?"* — **na anamnese de todo mundo**
-· **2. Nomear o risco, específico**: supressão e **fertilidade** · hematócrito · fígado · humor na suspensão · **peptídeos sem dados de longo prazo**
-· **3. Oferecer a avaliação que ele nunca teve** — *"vamos descobrir o que está de fato acontecendo"* (3.4)
-· **4. Manter a porta aberta** — se ele for expulso, volta para quem vendeu o papel
-· **Acompanhar não é conivência**: cuidar da pessoa **sim**; prescrever, ajustar dose ou legitimar o protocolo **não**
-· **Nunca**: ameaçar, humilhar, fazer tribunal — **a vergonha é o que mantém isso invisível**
-· **Menor de idade → família** · **instabilidade clínica ou psiquiátrica → encaminhamento imediato** (10.5)
-Visual: os quatro degraus da conversa.
-
-**Slide 7** — O desfecho, sem virada de mesa
-· **Na primeira consulta ele não parou nada** — o ombro foi tratado, **porque tratar o que a pessoa veio buscar compra a segunda consulta**
-· Exames que nunca tinha feito direito: **hematócrito elevado · lipídios piores que 2 anos antes · eixo suprimido**
-· **A palavra que mudou o caso foi "fertilidade"** — ele queria outro filho, e **ninguém tinha mencionado isso em 14 meses**
-· Construído em meses: **suspensão acompanhada · psicólogo · força orientada · sono trabalhado com o mesmo empenho do protocolo · álcool na conta**
-· Um ano: eixo em recuperação · hematócrito normal · treinando · dormindo 7 h — **e mais fraco do que no auge**, dito por ele
-· *"Ninguém nunca tinha me perguntado como eu dormia. Perguntaram só o meu exame."*
-Visual: o papel ao lado do pedido de exames e do plano.
-
-**Slide 8** — O fechamento do módulo, nos três níveis
-· **Decisão**: suplemento, dose e protocolo = **nutricionista**, com lote registrado · medicamento, deficiência, AUT, interação e suspensão = **médico** — e **hormônio para estética, massa ou desempenho é conduta vedada** · treino = **educador físico e preparador** · carga em tecido em recuperação e substância aplicada = **fisioterapia** · imagem corporal, pressão e sofrimento na suspensão = **psicólogo com médico**
-· **Contribuição**: o vestiário chega pelo preparador · o rótulo de risco pelo nutricionista · o que se escuta na maca pelo fisioterapeuta · **"você compete sob controle antidoping?"** muda a prescrição em 5 segundos · a insatisfação corporal identificada pelo psicólogo muda a conduta de todos
-· **Reconhecimento**: dose não declarada · 14 ingredientes · promessa de efeito de medicamento · manipulado "personalizado" · produto sem fabricante · **o vocabulário** · frasco sem rótulo · **o comprimido que protege de outro** · e os sinais de hoje: palpitação, dor torácica, pressão descontrolada, humor, ideação suicida
-· **Quase tudo o que se vende promete substituir o que funciona — e quase tudo o que funciona já estava disponível antes de alguém comprar alguma coisa**
-· Próximo: **Módulo 6 — Medicina Esportiva Clínica**
-Visual: a matriz dos três níveis com as onze aulas ao fundo.
+**Ligações internas.** hipogonadismo, GH e investigação da queixa androgênica = módulo de fisiologia
+hormonal · dismorfia muscular e rastreio = aula de alimentação desordenada · promessa comercial =
+aula de suplementos sem evidência · produto e lote = aula de contaminação · classes proibidas e
+substâncias não aprovadas = aula de lista proibida e AUT · critérios de encaminhamento em saúde
+mental = módulo de psicologia do esporte e saúde mental · avaliação pré-participação = módulo de
+medicina esportiva clínica.
