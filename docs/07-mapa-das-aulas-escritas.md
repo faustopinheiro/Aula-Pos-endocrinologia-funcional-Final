@@ -241,15 +241,15 @@ quando entra, quando sai e como se reconhece que não está funcionando. As duas
 | 8.2 | Fases da reabilitação | 13 | 12 | DECISÃO | [slides](https://claude.ai/artifact/MKd4uTHQG8rpUtpStavXrU) |
 | 8.3 | Mecanotransdução | 14 | 12 | NÚMERO | [slides](https://claude.ai/artifact/8msei3NvpsQdKvWne4JCgh) |
 | 8.4 | Progressão de carga | 13 | 12 | ERRO | [slides](https://claude.ai/artifact/9jazBGYEkGZEiJDRUbvKWz) |
+| 8.5 | Reabilitação do cruzado anterior | 15 | 12 | CASO | [slides](https://claude.ai/artifact/5KPDnyxoMmsH26zTc6myoz) |
+| 8.6 | Posterior da coxa e virilha | 13 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/ML5CD6E185jWJgg2QJGvoV) |
+| 8.7 | Tornozelo depois da entorse | 12 | 12 | NÚMERO | [slides](https://claude.ai/artifact/VtcvD5jZMHgS1qhUsauV7f) |
+| 8.8 | Ombro e coluna | 13 | 12 | DECISÃO | [slides](https://claude.ai/artifact/NAJh6tG8BbyjVsDaUEHZkY) |
 
 Ainda sem versão nova:
 
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 8.5 | Reabilitação do LCA | M13-A06 parcial | PARCIAL |
-| 8.6 | Reabilitação de isquiotibiais e região inguinal | M17-A08 parcial | PARCIAL |
-| 8.7 | Reabilitação do tornozelo e prevenção de recidiva | M17-A07 | PRONTA |
-| 8.8 | Membro superior e coluna | M17-A03 + M17-A06 | FUNDIR |
 | 8.9 | Recursos terapêuticos e recuperação: evidência, efeito e ritual | M10-A08 parcial | PARCIAL |
 | 8.10 | Testes de retorno ao esporte | M18-A04 | PRONTA |
 | 8.11 | Decisão de retorno: modelo de decisão compartilhada | M18-A01 + M18-A07 | FUNDIR |

@@ -1,0 +1,465 @@
+{
+ "arquivo": "aulas/MOD08/08-05-reabilitacao-do-lca.md",
+ "modulo": "Fisioterapia Esportiva e Reabilitação",
+ "tema": "tinta",
+ "titulo": "Reabilitação do cruzado anterior",
+ "subtitulo": "Nove meses de portas num caso ilustrativo",
+ "nota_capa": "Caso ilustrativo: jogadora de handebol na casa dos vinte anos.",
+ "secoes": {
+  "caso": [
+   "O caso, a expectativa e o mapa.",
+   "capa"
+  ],
+  "antes": [
+   "Antes da cirurgia e as primeiras semanas.",
+   "antes"
+  ],
+  "forca": [
+   "Força, corrida e campo.",
+   "forca"
+  ],
+  "relogios": [
+   "Os dois relógios, a última porta e quem faz o quê.",
+   "relogios"
+  ]
+ },
+ "slides": [
+  {
+   "id": "caso",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Caso ilustrativo · jogadora de handebol, na casa dos vinte",
+   "frase": "“Quando eu volto?” A resposta é um plano, não uma data.",
+   "apoio": "Aterrissagem depois do arremesso, joelho para dentro, estalo, inchaço em horas. Ruptura do cruzado anterior; reconstrução decidida com o cirurgião. O objeto da aula é o percurso, não o desfecho."
+  },
+  {
+   "id": "expectativa",
+   "tipo": "numeros",
+   "eyebrow": "A conversa do primeiro mês",
+   "titulo": "Voltar ao nível de antes não é automático",
+   "numeros": [
+    {
+     "n": "81%",
+     "x": "voltam a algum esporte",
+     "cor": "petr"
+    },
+    {
+     "n": "65%",
+     "x": "ao nível de antes da lesão",
+     "cor": "ambar"
+    },
+    {
+     "n": "55%",
+     "x": "ao esporte competitivo",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Com os números de Delaware e Oslo do módulo de lesões: nove meses é o horizonte, e o critério decide se nove meses bastam.",
+   "destaque_cor": "tinta",
+   "fonte": "Metanálise, Br J Sports Med 2014"
+  },
+  {
+   "id": "mapa",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Linha do tempo de zero a nove meses ou mais, com cinco fases e quatro portas entre elas\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><rect x=\"40\" y=\"90\" width=\"199\" height=\"70\" rx=\"8\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><rect x=\"245\" y=\"90\" width=\"263\" height=\"70\" rx=\"8\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><rect x=\"514\" y=\"90\" width=\"389\" height=\"70\" rx=\"8\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"909\" y=\"90\" width=\"468\" height=\"70\" rx=\"8\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><rect x=\"1383\" y=\"90\" width=\"231\" height=\"70\" rx=\"8\" fill=\"#12202E\" fill-opacity=\"0.8\"/><rect x=\"237\" y=\"70\" width=\"10\" height=\"110\" rx=\"3\" fill=\"#12202E\"/><rect x=\"506\" y=\"70\" width=\"10\" height=\"110\" rx=\"3\" fill=\"#12202E\"/><rect x=\"901\" y=\"70\" width=\"10\" height=\"110\" rx=\"3\" fill=\"#12202E\"/><rect x=\"1375\" y=\"70\" width=\"10\" height=\"110\" rx=\"3\" fill=\"#12202E\"/><line x1=\"40\" y1=\"190\" x2=\"40\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"198\" y1=\"190\" x2=\"198\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"356\" y1=\"190\" x2=\"356\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"514\" y1=\"190\" x2=\"514\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"672\" y1=\"190\" x2=\"672\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"830\" y1=\"190\" x2=\"830\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"988\" y1=\"190\" x2=\"988\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1146\" y1=\"190\" x2=\"1146\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1304\" y1=\"190\" x2=\"1304\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1462\" y1=\"190\" x2=\"1462\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1620\" y1=\"190\" x2=\"1620\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 48,
+     "y": 20,
+     "w": 191,
+     "t": "proteger",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 253,
+     "y": 20,
+     "w": 255,
+     "t": "movimento e quadríceps",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 522,
+     "y": 20,
+     "w": 381,
+     "t": "força",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 917,
+     "y": 20,
+     "w": 460,
+     "t": "potência, corrida, campo",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1391,
+     "y": 20,
+     "w": 223,
+     "t": "voltar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 206,
+     "w": 80,
+     "t": "0",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 474,
+     "y": 206,
+     "w": 80,
+     "t": "3",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 948,
+     "y": 206,
+     "w": 80,
+     "t": "6",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1422,
+     "y": 206,
+     "w": 80,
+     "t": "9",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1451,
+     "y": 206,
+     "w": 180,
+     "t": "meses",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O mapa do percurso",
+   "titulo": "Cinco fases com o tempo do cruzado",
+   "destaque": "O enxerto marca o piso; o critério abre cada porta. E o caminho não é reto: o plano já prevê as semanas ruins.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema; faixas aproximadas, as portas abrem por critério"
+  },
+  {
+   "id": "antes",
+   "tipo": "numeros",
+   "eyebrow": "Quando há tempo antes da cirurgia",
+   "titulo": "A reabilitação começa antes dela",
+   "numeros": [
+    {
+     "n": "72%",
+     "x": "voltaram ao esporte de antes, com reabilitação estendida antes da cirurgia",
+     "cor": "petr"
+    },
+    {
+     "n": "63%",
+     "x": "sem ela; dois anos depois",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Joelho calmo, extensão completa, quadríceps ativo. Comparação entre coortes, não ensaio sorteado; a direção é consistente.",
+   "destaque_cor": "tinta",
+   "fonte": "192 contra 1.995 pacientes · Am J Sports Med 2016"
+  },
+  {
+   "id": "semanas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Primeiras semanas depois da cirurgia",
+   "titulo": "Três prioridades, nesta ordem",
+   "cards": [
+    {
+     "t": "Extensão completa",
+     "x": "perdida agora, é difícil de recuperar e muda a marcha por meses",
+     "cor": "verm"
+    },
+    {
+     "t": "Derrame sob controle",
+     "x": "o joelho cheio desliga o quadríceps; medido toda sessão",
+     "cor": "ambar"
+    },
+    {
+     "t": "Quadríceps ligado",
+     "x": "contração voluntária e perna estendida sem o joelho dobrar",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "A porta: extensão completa, derrame mínimo e estável, marcha sem muletas e sem mancar. Não é “semana seis”.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "forca",
+   "tipo": "duas",
+   "eyebrow": "A fase mais longa: o quadríceps é o eixo",
+   "titulo": "Duas discussões antigas",
+   "esq": {
+    "t": "Cadeira extensora pode?",
+    "cor": "petr",
+    "itens": [
+     "cadeia aberta e fechada: sem diferença na frouxidão do joelho",
+     "entra, com amplitude e carga combinadas"
+    ]
+   },
+   "dir": {
+    "t": "Eletroestimulação ajuda?",
+    "cor": "petr",
+    "itens": [
+     "somada à fisioterapia, aumenta a força do quadríceps",
+     "soma ao treino, não o substitui"
+    ]
+   },
+   "destaque": "Força de verdade pede carga alta, por meses. Faixa elástica para sempre não reconstrói um quadríceps.",
+   "destaque_cor": "tinta",
+   "fonte": "J Orthop Sports Phys Ther 2018 · Knee Surg Sports Traumatol Arthrosc 2018"
+  },
+  {
+   "id": "corrida",
+   "tipo": "numeros",
+   "eyebrow": "A primeira porta que a atleta sente como vitória",
+   "titulo": "Voltar a correr: o tempo quase sempre sozinho",
+   "numeros": [
+    {
+     "n": "12 sem",
+     "x": "mediana de liberação da corrida em 201 estudos",
+     "cor": "ambar"
+    },
+    {
+     "n": "< 1 em 5",
+     "x": "usou algum critério além do tempo",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "A porta dela: sem derrame, amplitude completa, força do quadríceps combinada, saltitar e aterrissar sem dor e sem o joelho ir para dentro.",
+   "destaque_cor": "tinta",
+   "fonte": "Revisão de mapeamento, Br J Sports Med 2018"
+  },
+  {
+   "id": "campo",
+   "tipo": "diagrama",
+   "h": 240,
+   "svg": "<svg aria-label=\"Faixa do controlado ao caótico em cinco etapas: exercício previsto, gesto sem oponente, gesto com oponente e reação, treino coletivo, jogo\" width=\"1664\" height=\"240\" viewBox=\"0 0 1664 240\"><rect x=\"20\" y=\"80\" width=\"300\" height=\"70\" rx=\"10\" fill=\"#008A7E\" fill-opacity=\"0.35\"/><rect x=\"350\" y=\"80\" width=\"300\" height=\"70\" rx=\"10\" fill=\"#008A7E\" fill-opacity=\"0.48\"/><rect x=\"680\" y=\"80\" width=\"300\" height=\"70\" rx=\"10\" fill=\"#B07A1C\" fill-opacity=\"0.61\"/><rect x=\"1010\" y=\"80\" width=\"300\" height=\"70\" rx=\"10\" fill=\"#B07A1C\" fill-opacity=\"0.74\"/><rect x=\"1340\" y=\"80\" width=\"300\" height=\"70\" rx=\"10\" fill=\"#A8322A\" fill-opacity=\"0.87\"/><line x1=\"20\" y1=\"200\" x2=\"1620\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 96,
+     "w": 280,
+     "t": "exercício previsto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 96,
+     "w": 280,
+     "t": "gesto sem oponente",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 96,
+     "w": 280,
+     "t": "com oponente e reação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1020,
+     "y": 96,
+     "w": 280,
+     "t": "treino coletivo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 96,
+     "w": 280,
+     "t": "jogo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 208,
+     "w": 300,
+     "t": "controlado",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 208,
+     "w": 300,
+     "t": "caótico",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A fase que mais decide e a que mais se encurta",
+   "titulo": "Do controlado ao caótico",
+   "destaque": "Potência, qualidade de movimento, fadiga e o gesto do esporte. A lesão foi numa aterrissagem depois do arremesso: o retorno passa por esse gesto, cansada, muitas vezes.",
+   "destaque_cor": "tinta",
+   "fonte": "Sports Med 2019"
+  },
+  {
+   "id": "relogios",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ideia do caso",
+   "frase": "O relógio do enxerto e o relógio do quadríceps não andam juntos.",
+   "apoio": "Pronta no sexto mês com o quadríceps fraco; quadríceps excelente no sétimo com o enxerto no meio do caminho. A decisão é tempo e critério."
+  },
+  {
+   "id": "ultima",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Perto do nono mês",
+   "titulo": "A última porta tem três partes",
+   "cards": [
+    {
+     "t": "Testes de retorno",
+     "x": "força, saltos e a armadilha do índice de simetria",
+     "cor": "petr"
+    },
+    {
+     "t": "Prontidão psicológica",
+     "x": "o medo de nova lesão não aparece no dinamômetro",
+     "cor": "ambar"
+    },
+    {
+     "t": "Decisão compartilhada",
+     "x": "avaliar o risco é uma coisa; aceitá-lo é outra",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Cada parte ganha uma aula adiante. A porta está no plano desde o primeiro dia; ninguém é surpreendido no oitavo mês.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "quem",
+   "tipo": "tabela",
+   "eyebrow": "Nove meses, muitas mãos",
+   "titulo": "Quem faz o quê",
+   "cab": [
+    "Quem",
+    "O que faz no percurso"
+   ],
+   "larguras": [
+    28,
+    72
+   ],
+   "linhas": [
+    [
+     "Cirurgião",
+     "técnica, enxerto, restrições iniciais, portas em que o tecido é o limite"
+    ],
+    [
+     "Fisioterapia",
+     "conduz do começo ao fim; mede derrame, amplitude e força; escreve as portas"
+    ],
+    [
+     "Preparação física",
+     "corrida, fase de campo, gesto e condicionamento"
+    ],
+    [
+     "Psicologia e nutrição",
+     "o medo perto do retorno; a matéria-prima de meses de força"
+    ],
+    [
+     "Treinador, atleta, família",
+     "a porta de cada mês; a expectativa honesta desde o começo"
+    ]
+   ],
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Caso ilustrativo · o plano",
+   "titulo": "Cada passo tem uma porta, um responsável e um motivo",
+   "regras": [
+    "Expectativa honesta no primeiro mês",
+    "Extensão, derrame e quadríceps; depois meses de força",
+    "Corrida e campo por critério; a última porta no plano desde o início"
+   ],
+   "cards": [
+    {
+     "t": "Cirurgião e fisioterapia",
+     "x": "O tecido e as portas."
+    },
+    {
+     "t": "Preparação física",
+     "x": "A corrida, o campo e o gesto."
+    },
+    {
+     "t": "Psicologia, nutrição, família",
+     "x": "O medo, a matéria-prima, a paciência."
+    }
+   ],
+   "quem": "Próxima aula: posterior da coxa e virilha."
+  }
+ ]
+}
