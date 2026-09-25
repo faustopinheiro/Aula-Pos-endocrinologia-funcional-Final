@@ -1,0 +1,473 @@
+{
+ "arquivo": "aulas/MOD06/06-03-coracao-de-atleta-versus-cardiopatia.md",
+ "modulo": "Medicina Esportiva Clínica",
+ "tema": "tinta",
+ "titulo": "Coração de atleta versus cardiopatia",
+ "subtitulo": "Os números da zona cinzenta",
+ "nota_capa": "Entra pelos três laudos.",
+ "secoes": {
+  "laudos": [
+   "Os laudos e o que o treino faz.",
+   "capa"
+  ],
+  "parede": [
+   "Parede, cavidade e para quem.",
+   "parede"
+  ],
+  "discriminadores": [
+   "Discriminadores, destreino e onda T.",
+   "discriminadores"
+  ],
+  "aritmetica": [
+   "A aritmética e os três laudos.",
+   "aritmetica"
+  ]
+ },
+ "slides": [
+  {
+   "id": "laudos",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A zona cinzenta",
+   "frase": "Três laudos assustadores. Nenhum deles é, sozinho, um diagnóstico.",
+   "apoio": "Os três descrevem um coração que treinou muito, e descrevem também, com as mesmas palavras, doenças que matam jovens em campo. Esta aula não ensina a liberar nem a afastar: ensina a não entrar em pânico e a não banalizar."
+  },
+  {
+   "id": "perfis",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Três perfis típicos",
+   "titulo": "O que os laudos dizem",
+   "cards": [
+    {
+     "t": "O zagueiro",
+     "x": "“hipertrofia ventricular esquerda”, parede de 13 mm",
+     "cor": "ambar"
+    },
+    {
+     "t": "A triatleta",
+     "x": "cavidade de 59 mm, “avaliar cardiomiopatia dilatada”; sem sintoma",
+     "cor": "petr"
+    },
+    {
+     "t": "O adolescente do basquete",
+     "x": "negro; onda T invertida de V1 a V4, “considerar cardiopatia”",
+     "cor": "verm"
+    }
+   ],
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "remodelamento",
+   "tipo": "duas",
+   "eyebrow": "O que o treino faz",
+   "titulo": "Coração de atleta é um conjunto, não um número",
+   "esq": {
+    "t": "Coração de atleta",
+    "cor": "petr",
+    "itens": [
+     "cavidade maior",
+     "parede no limite ou um pouco acima",
+     "frequência baixa, 40 a 50 bpm",
+     "função normal ou melhor",
+     "capacidade funcional alta"
+    ]
+   },
+   "dir": {
+    "t": "O que separar",
+    "cor": "verm",
+    "itens": [
+     "cardiomiopatia hipertrófica",
+     "cardiomiopatia dilatada",
+     "cardiomiopatia arritmogênica"
+    ]
+   },
+   "destaque": "Em fase inicial, as três doenças produzem os números que o treino produz. O exame não separa; o raciocínio separa.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "parede",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Régua de espessura de parede de 8 a 20 milímetros com faixas: até 12 esperado, 13 a 16 zona cinzenta, acima de 16 investigar\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><rect x=\"20\" y=\"60\" width=\"608\" height=\"100\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"628\" y=\"60\" width=\"540\" height=\"100\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1168\" y=\"60\" width=\"472\" height=\"100\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 90,
+     "w": 608,
+     "t": "esperado",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 628,
+     "y": 90,
+     "w": 540,
+     "t": "zona cinzenta",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1168,
+     "y": 90,
+     "w": 472,
+     "t": "provavelmente não é treino",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 528,
+     "y": 16,
+     "w": 400,
+     "t": "13: olhe com atenção",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1068,
+     "y": 16,
+     "w": 400,
+     "t": "16: o teto do treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 176,
+     "w": 100,
+     "t": "8 mm",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 176,
+     "w": 100,
+     "t": "10 mm",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 510,
+     "y": 176,
+     "w": 100,
+     "t": "12 mm",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 176,
+     "w": 100,
+     "t": "14 mm",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 176,
+     "w": 100,
+     "t": "16 mm",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 176,
+     "w": 100,
+     "t": "18 mm",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1564,
+     "y": 176,
+     "w": 100,
+     "t": "20 mm",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Pelliccia e colaboradores, 1991",
+   "titulo": "Espessura da parede em 947 atletas de elite",
+   "destaque": "Parede de 13 mm ou mais foi incomum, quase só no remo e na canoagem, e com cavidade aumentada. Acima de 16 com cavidade não dilatada: hipertrófica até prova em contrário.",
+   "destaque_cor": "tinta",
+   "fonte": "New England Journal of Medicine 1991"
+  },
+  {
+   "id": "cavidade",
+   "tipo": "numeros",
+   "eyebrow": "Pelliccia e colaboradores, 1999",
+   "titulo": "A cavidade que assusta o laudo",
+   "numeros": [
+    {
+     "n": "1.309",
+     "x": "atletas de elite, 38 esportes",
+     "cor": "tinta"
+    },
+    {
+     "n": "≈ 15%",
+     "x": "com cavidade em faixa compatível com cardiomiopatia dilatada",
+     "cor": "ambar"
+    },
+    {
+     "n": "43 a 70 mm",
+     "x": "variação nos homens; 38 a 66 mm nas mulheres",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "A dobradiça: na ausência de disfunção sistólica, é provavelmente adaptação. E 52% de fração de ejeção num triatleta não é 52% num sedentário.",
+   "destaque_cor": "petr",
+   "fonte": "Superfície corporal e endurance como determinantes · Annals of Internal Medicine 1999"
+  },
+  {
+   "id": "quem",
+   "tipo": "tabela",
+   "eyebrow": "O erro mais evitável",
+   "titulo": "Normal para quem?",
+   "cab": [
+    "Variável",
+    "O dado",
+    "A consequência"
+   ],
+   "larguras": [
+    18,
+    44,
+    38
+   ],
+   "linhas": [
+    [
+     "Sexo",
+     "600 mulheres de elite: parede de 6 a 12 mm, nenhuma acima",
+     "acima de 12 na mulher: investigar"
+    ],
+    [
+     "Ancestralidade",
+     "negros 11,3 × brancos 10,0 mm; > 12 mm em 18% × 4%",
+     "régua de branco gera falso-positivo no negro"
+    ],
+    [
+     "Idade",
+     "720 adolescentes de elite: limites menores",
+     "o teto de 16 do adulto não vale"
+    ],
+    [
+     "Tamanho e esporte",
+     "indexar; remo e ciclismo nos extremos",
+     "zagueiro não é remador olímpico"
+    ]
+   ],
+   "destaque": "A régua não pode ser afrouxada no atleta negro, porque a hipertrófica pesa nas mortes súbitas. Precisa ser a régua certa.",
+   "destaque_cor": "verm",
+   "fonte": "Pelliccia 1996 · Basavarajaiah 2008 · Sharma 2002"
+  },
+  {
+   "id": "discriminadores",
+   "tipo": "duas",
+   "eyebrow": "Por que o cardiologista pede o que pede",
+   "titulo": "Os discriminadores",
+   "esq": {
+    "t": "Aponta para atleta",
+    "cor": "petr",
+    "itens": [
+     "parede e cavidade crescem juntas",
+     "hipertrofia simétrica",
+     "relaxamento normal ou melhor",
+     "VO2 > 50 ou > 120% do previsto",
+     "sem realce tardio"
+    ]
+   },
+   "dir": {
+    "t": "Aponta para doença",
+    "cor": "verm",
+    "itens": [
+     "parede espessa, cavidade pequena",
+     "hipertrofia assimétrica, septal",
+     "disfunção diastólica",
+     "capacidade baixa",
+     "fibrose na ressonância; história familiar"
+    ]
+   },
+   "destaque": "“Mas o eco dele está normal” não encerra a conversa quando há sintoma ou história familiar.",
+   "destaque_cor": "tinta",
+   "fonte": "Ergoespirometria: Sharma e colaboradores, JACC 2000"
+  },
+  {
+   "id": "destreino",
+   "tipo": "numeros",
+   "eyebrow": "Pelliccia e colaboradores, 2002",
+   "titulo": "O teste que não é exame: parar de treinar",
+   "numeros": [
+    {
+     "n": "−15%",
+     "x": "espessura da parede; voltou ao normal em todos",
+     "cor": "petr"
+    },
+    {
+     "n": "−7%",
+     "x": "cavidade",
+     "cor": "tinta"
+    },
+    {
+     "n": "22%",
+     "x": "mantiveram cavidade de 60 mm ou mais",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "40 atletas, 1 a 13 anos sem treinar. Na clínica, 8 a 12 semanas e regressão parcial: a última carta, porque custa uma temporada.",
+   "destaque_cor": "ambar",
+   "fonte": "Circulation 2002"
+  },
+  {
+   "id": "ondat",
+   "tipo": "duas",
+   "eyebrow": "Sheikh e colaboradores, 2018",
+   "titulo": "A localização da onda T muda tudo",
+   "esq": {
+    "t": "Variante descrita",
+    "cor": "petr",
+    "itens": [
+     "anterior, V1 a V4",
+     "em atleta negro",
+     "com elevação do ponto J",
+     "e ST abaulado, “em domo”"
+    ]
+   },
+   "dir": {
+    "t": "Investiga sempre",
+    "cor": "verm",
+    "itens": [
+     "inferior e lateral",
+     "em qualquer atleta",
+     "associação real com cardiomiopatia"
+    ]
+   },
+   "destaque": "100 atletas com T invertida e eco normal: cardiomiopatia em 21% (30% nos brancos, 12% nos negros). Investigação negativa não é alta; é seguimento.",
+   "destaque_cor": "verm",
+   "fonte": "Circulation 2018"
+  },
+  {
+   "id": "aritmetica",
+   "tipo": "numeros",
+   "eyebrow": "Basavarajaiah e colaboradores, 2008",
+   "titulo": "Por que o falso-positivo é a regra",
+   "numeros": [
+    {
+     "n": "3.500",
+     "x": "atletas de elite sem sintoma",
+     "cor": "tinta"
+    },
+    {
+     "n": "53",
+     "x": "com parede de 13 a 16 mm (1,5%)",
+     "cor": "ambar"
+    },
+    {
+     "n": "3",
+     "x": "compatíveis com cardiomiopatia hipertrófica (0,08%)",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Achado não é afastamento automático. Mas o falso-negativo mata: síncope no esforço, sintoma no esforço e história familiar passam por cima de qualquer número.",
+   "destaque_cor": "verm",
+   "fonte": "JACC 2008"
+  },
+  {
+   "id": "condutas",
+   "tipo": "tabela",
+   "eyebrow": "Os três laudos do começo",
+   "titulo": "O que a aula permite dizer",
+   "cab": [
+    "Perfil",
+    "Onde está",
+    "Conduta"
+   ],
+   "larguras": [
+    22,
+    30,
+    48
+   ],
+   "linhas": [
+    [
+     "Zagueiro, 13 mm",
+     "entrada da zona cinzenta",
+     "avaliação cardiológica completa; nem proibir nem “relaxa”"
+    ],
+    [
+     "Triatleta, 59 mm",
+     "comum em endurance",
+     "com função normal e sem sintoma: provável adaptação, com seguimento"
+    ],
+    [
+     "Adolescente, T anterior",
+     "variante descrita",
+     "eco e seguimento; investiga se sintoma, família ou T inferolateral"
+    ]
+   ],
+   "destaque": "O cansaço da triatleta continua precisando de explicação: carga, sono, ferro, alimentação.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Cinco regras da zona cinzenta",
+   "titulo": "Antes de “é normal?”, pergunte “normal para quem?”",
+   "regras": [
+    "Número isolado não diagnostica; quem é a pessoa muda o número",
+    "Função e sintoma pesam mais que milímetro",
+    "Achado não é afastamento nem alta: é investigação e seguimento"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Decide elegibilidade; na zona cinzenta, cardiologista com experiência em atleta."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "Carga durante a investigação, com o médico."
+    },
+    {
+     "t": "Todos",
+     "x": "Nem banalizar nem dramatizar; uma voz alinhada com clube e família."
+    }
+   ],
+   "quem": "Decidir inclui marcar o retorno."
+  }
+ ]
+}

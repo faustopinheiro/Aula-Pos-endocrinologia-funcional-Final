@@ -1,0 +1,451 @@
+{
+ "arquivo": "aulas/MOD06/06-01-avaliacao-pre-participacao-estrutura-e-anamnese.md",
+ "modulo": "Medicina Esportiva Clínica",
+ "tema": "tinta",
+ "titulo": "Avaliação pré-participação",
+ "subtitulo": "Estrutura, anamnese dirigida e decisão",
+ "nota_capa": "Entra pelo caso ilustrativo.",
+ "secoes": {
+  "caso": [
+   "O caso, o paradoxo e o modelo.",
+   "capa"
+  ],
+  "anamnese": [
+   "A anamnese e os sinais.",
+   "anamnese"
+  ],
+  "perfis": [
+   "O que fazer, e o registro.",
+   "perfis"
+  ]
+ },
+ "slides": [
+  {
+   "id": "caso",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Caso ilustrativo",
+   "frase": "Na matrícula, ele marcou “não” para problema de saúde. Porque não sabia que tinha.",
+   "apoio": "Vinte anos parado, aula de alta intensidade na segunda semana, aperto no peito na terceira série. Depois: pressão alta sem tratamento, colesterol nunca dosado, trinta anos de cigarro, pai morto de infarto aos 52. Ninguém tinha perguntado."
+  },
+  {
+   "id": "paradoxo",
+   "tipo": "duas",
+   "eyebrow": "Franklin e colaboradores, 2020",
+   "titulo": "As duas frases são verdade",
+   "esq": {
+    "t": "No esforço",
+    "cor": "verm",
+    "itens": [
+     "o risco de morte súbita e infarto sobe",
+     "de forma transitória",
+     "mais em quem é menos ativo"
+    ]
+   },
+   "dir": {
+    "t": "Na vida",
+    "cor": "petr",
+    "itens": [
+     "o risco absoluto é pequeno",
+     "a atividade habitual reduz eventos",
+     "o saldo favorece a proteção"
+    ]
+   },
+   "destaque": "A avaliação não serve para assustar nem para impedir. Serve para achar quem precisa de uma entrada diferente.",
+   "destaque_cor": "tinta",
+   "fonte": "Associação Americana do Coração · Circulation 2020"
+  },
+  {
+   "id": "modelo",
+   "tipo": "lista",
+   "eyebrow": "Riebe e colaboradores, 2015",
+   "titulo": "Etapa um: três perguntas, não a idade",
+   "itens": [
+    {
+     "t": "Já pratica exercício regular?",
+     "x": "planejado, ao menos moderado, 30 min, 3 vezes por semana, nos últimos 3 meses",
+     "cor": "petr"
+    },
+    {
+     "t": "Tem doença ou sintoma?",
+     "x": "cardiovascular, metabólica ou renal conhecida; ou sinais e sintomas sugestivos",
+     "cor": "verm"
+    },
+    {
+     "t": "Que intensidade pretende?",
+     "x": "leve, moderada ou vigorosa",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "O modelo anterior mandava gente demais ao médico. O rastreio cauteloso demais tira mais gente do exercício do que salva de evento.",
+   "destaque_cor": "tinta",
+   "gap_itens": 22,
+   "fonte": "Colégio Americano de Medicina do Esporte · Medicine & Science in Sports & Exercise 2015"
+  },
+  {
+   "id": "saidas",
+   "tipo": "tabela",
+   "eyebrow": "As saídas do modelo",
+   "titulo": "Quem precisa de liberação médica",
+   "cab": [
+    "",
+    "Sem doença, sem sintoma",
+    "Doença conhecida, sem sintoma",
+    "Sinal ou sintoma"
+   ],
+   "larguras": [
+    16,
+    28,
+    30,
+    26
+   ],
+   "linhas": [
+    [
+     "Não pratica",
+     "não precisa; leve a moderado, progride",
+     "recomendada antes de começar",
+     "recomendada antes de começar"
+    ],
+    [
+     "Já pratica",
+     "não precisa; segue e progride",
+     "moderado sem; vigoroso com liberação",
+     "para e avalia"
+    ]
+   ],
+   "destaque": "Perguntar sobre doença e sintoma é de todos. Investigar o que a pergunta achar é do médico. PAR-Q+: melhor que o formulário de uma linha.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "anamnese",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Duas perguntas, é seguro e por que não adapta, e a ordem da entrevista do neutro para o íntimo\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><defs><marker id=\"o1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"800\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"110\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"180\" width=\"300\" height=\"90\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"304\" y1=\"225\" x2=\"334\" y2=\"225\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#o1)\"/><rect x=\"338\" y=\"180\" width=\"300\" height=\"90\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"642\" y1=\"225\" x2=\"672\" y2=\"225\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#o1)\"/><rect x=\"676\" y=\"180\" width=\"300\" height=\"90\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"980\" y1=\"225\" x2=\"1010\" y2=\"225\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#o1)\"/><rect x=\"1014\" y=\"180\" width=\"300\" height=\"90\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1318\" y1=\"225\" x2=\"1348\" y2=\"225\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#o1)\"/><rect x=\"1352\" y=\"180\" width=\"300\" height=\"90\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 752,
+     "t": "A: é seguro?",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 66,
+     "w": 752,
+     "t": "rastreio de risco: esta aula e a próxima",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 20,
+     "w": 752,
+     "t": "B: por que não adapta?",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 66,
+     "w": 752,
+     "t": "sono, energia, carga, medicação, substância",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 206,
+     "w": 280,
+     "t": "treino",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 348,
+     "y": 206,
+     "w": 280,
+     "t": "sono",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 686,
+     "y": 206,
+     "w": 280,
+     "t": "energia e comida",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 206,
+     "w": 280,
+     "t": "trabalho e vida",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1362,
+     "y": 206,
+     "w": 280,
+     "t": "saúde e substâncias",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 140,
+     "w": 800,
+     "t": "a ordem: do neutro para o íntimo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Etapa dois: a anamnese dirigida",
+   "titulo": "Duas perguntas, uma entrevista com ordem",
+   "destaque": "Quem abre perguntando o que a pessoa toma não tem anamnese; tem um formulário preenchido.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fechamento",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Rendem mais do que parecem",
+   "titulo": "Três perguntas que quase ninguém faz",
+   "cards": [
+    {
+     "t": "“O que mudou nos últimos seis meses?”",
+     "x": "trabalho, sono, peso, medicação, vida",
+     "cor": "petr"
+    },
+    {
+     "t": "“Já parou alguma atividade por causa de um sintoma?”",
+     "x": "acha quem se adaptou ao próprio limite",
+     "cor": "ambar"
+    },
+    {
+     "t": "“Toma alguma coisa por conta própria?”",
+     "x": "estimulante, pré-treino, emagrecedor, anabolizante",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Na primeira consulta, o que decide segurança: sintoma, doença, história familiar, medicação e substância. O resto melhora com vínculo.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "sintomas",
+   "tipo": "lista",
+   "eyebrow": "Etapa três: para as seis profissões",
+   "titulo": "Os sinais que interrompem tudo",
+   "itens": [
+    {
+     "t": "Desconforto no peito no esforço",
+     "x": "aperto, peso, queimação; quem nega “dor” descreve outra coisa",
+     "cor": "verm"
+    },
+    {
+     "t": "Síncope durante o esforço",
+     "x": "bandeira vermelha máxima: não treina até ser avaliado",
+     "cor": "verm"
+    },
+    {
+     "t": "Falta de ar desproporcional",
+     "x": "ou em repouso, ou ao deitar",
+     "cor": "ambar"
+    },
+    {
+     "t": "Palpitação com tontura, falta de ar ou desmaio",
+     "x": "isolada é comum; com sintoma, não",
+     "cor": "ambar"
+    },
+    {
+     "t": "Queda de tolerância sem explicação",
+     "x": "acima dos 40, coronária se disfarça de “fora de forma”",
+     "cor": "ambar"
+    },
+    {
+     "t": "Inchaço, falta de ar ao deitar, acordar sem ar",
+     "x": "o conjunto da insuficiência cardíaca",
+     "cor": "ambar"
+    }
+   ],
+   "gap_itens": 10
+  },
+  {
+   "id": "historia",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "O que precisa estar na ficha",
+   "titulo": "História familiar, fatores de risco, substâncias",
+   "cards": [
+    {
+     "t": "História familiar",
+     "x": "morte súbita, cardiopatia hereditária; coronária precoce: antes dos 55 no homem, antes dos 65 na mulher, em parente de primeiro grau",
+     "cor": "verm"
+    },
+    {
+     "t": "Fatores de risco",
+     "x": "pressão alta, diabetes, colesterol, tabagismo, obesidade abdominal, doença renal",
+     "cor": "ambar"
+    },
+    {
+     "t": "Medicações e substâncias",
+     "x": "inclusive as de conta própria",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "“Não sei” é resposta clínica: não é “não”, é motivo para medir a pressão ali mesmo.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "perfis",
+   "tipo": "tabela",
+   "eyebrow": "Etapa quatro: perfis típicos",
+   "titulo": "O que fazer com o que se achou",
+   "cab": [
+    "Perfil",
+    "O que decide",
+    "Entrada"
+   ],
+   "larguras": [
+    26,
+    38,
+    36
+   ],
+   "linhas": [
+    [
+     "Jovem sem sintoma",
+     "sem história familiar",
+     "leve a moderado sem liberação; progressão"
+    ],
+    [
+     "Meia-idade voltando",
+     "fatores de risco, sintoma, intensidade",
+     "conta do risco pelo médico; entrada gradual"
+    ],
+    [
+     "Doença crônica compensada",
+     "quem prescreve e como monitora",
+     "exercício é tratamento, com critério"
+    ],
+    [
+     "Atleta federado",
+     "exigência da federação ou do evento",
+     "outro sistema, outra lógica"
+    ]
+   ],
+   "destaque": "Doença cardiovascular estabelecida não é, em geral, contraindicação ao exercício. É indicação de exercício prescrito com critério.",
+   "destaque_cor": "petr"
+  },
+  {
+   "id": "tres_saidas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Quase nunca é tudo ou nada",
+   "titulo": "Três saídas",
+   "cards": [
+    {
+     "t": "Libera com progressão",
+     "x": "a maioria",
+     "cor": "petr"
+    },
+    {
+     "t": "Libera com restrição enquanto investiga",
+     "x": "a mais subutilizada: caminhar enquanto espera o cardiologista",
+     "cor": "ambar"
+    },
+    {
+     "t": "Suspende até avaliar",
+     "x": "sintoma de alerta e instabilidade",
+     "cor": "verm"
+    }
+   ],
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "registro",
+   "tipo": "duas",
+   "eyebrow": "O registro",
+   "titulo": "O que não está escrito não aconteceu",
+   "esq": {
+    "t": "Em uma página",
+    "cor": "petr",
+    "itens": [
+     "as três perguntas do modelo",
+     "sintomas, com o que foi negado",
+     "história familiar, com idade e evento",
+     "fatores de risco, medicações, substâncias",
+     "conduta, data e orientação dada"
+    ]
+   },
+   "dir": {
+    "t": "Dois erros",
+    "cor": "verm",
+    "itens": [
+     "“sem alterações” sem dizer o que se perguntou",
+     "não registrar a recusa, nem a orientação"
+    ]
+   },
+   "destaque": "O formulário de matrícula de uma linha é documento de defesa, não instrumento clínico. Trocá-lo custa cinco minutos por aluno.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Três perguntas teriam bastado",
+   "titulo": "A avaliação serve para permitir com segurança",
+   "regras": [
+    "O critério não é a idade: o que faz, tem, sente e pretende fazer",
+    "Síncope durante o esforço interrompe tudo até ser avaliada",
+    "Escreva o que perguntou, o que foi negado e o que orientou"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Libera, investiga, diagnostica, trata."
+    },
+    {
+     "t": "Educador físico e preparador",
+     "x": "Progride a carga; reconhece o sintoma no treino."
+    },
+    {
+     "t": "Fisioterapeuta e nutricionista",
+     "x": "Fazem as mesmas perguntas, com frequência."
+    }
+   ],
+   "quem": "Perguntar é da sua profissão, qualquer que seja ela."
+  }
+ ]
+}
