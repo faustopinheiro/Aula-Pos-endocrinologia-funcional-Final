@@ -1,0 +1,394 @@
+{
+ "arquivo": "aulas/MOD08/08-12-risco-residual-e-comunicacao.md",
+ "modulo": "Fisioterapia Esportiva e Reabilitação",
+ "tema": "tinta",
+ "titulo": "Risco residual no retorno ao esporte",
+ "subtitulo": "Números que o atleta, o técnico e a família entendem",
+ "nota_capa": "Entra pela pergunta da mãe de uma jogadora de basquete.",
+ "secoes": {
+  "quadra": [
+   "A pergunta e os formatos do número.",
+   "capa"
+  ],
+  "icones": [
+   "Os números do cruzado e o que sobra.",
+   "icones"
+  ],
+  "curvas": [
+   "Onde o número sobe e como se conversa.",
+   "curvas"
+  ],
+  "resposta": [
+   "A resposta montada e o fecho do módulo.",
+   "resposta"
+  ]
+ },
+ "slides": [
+  {
+   "id": "quadra",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Na consulta de liberação",
+   "frase": "“Qual a chance de romper de novo?”",
+   "apoio": "Uma jogadora de basquete adolescente, depois da reconstrução do cruzado, e a pergunta da mãe. “Fica tranquila”, “o risco é bem maior” e “seis vezes mais” são as três respostas ruins."
+  },
+  {
+   "id": "dois",
+   "tipo": "numeros",
+   "eyebrow": "O mesmo estudo, dois números",
+   "titulo": "Um diz quanto a mais; o outro, quanto",
+   "numeros": [
+    {
+     "n": "quase 6×",
+     "x": "a taxa de nova lesão do cruzado, comparada com quem nunca rompeu",
+     "cor": "ambar"
+    },
+    {
+     "n": "~30 em 100",
+     "x": "atletas operados com nova lesão do cruzado em dois anos",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Risco relativo não diz de onde se parte. Risco absoluto é o que a mãe perguntou.",
+   "destaque_cor": "tinta",
+   "fonte": "Coorte de Cincinnati, 78 atletas jovens · Am J Sports Med 2014"
+  },
+  {
+   "id": "formatos",
+   "tipo": "tabela",
+   "eyebrow": "Três formas de dizer",
+   "titulo": "Sempre o grupo de referência e o tempo",
+   "cab": [
+    "Formato",
+    "Como soa",
+    "O que provoca"
+   ],
+   "larguras": [
+    22,
+    44,
+    34
+   ],
+   "linhas": [
+    [
+     "Risco relativo",
+     "“seis vezes mais”",
+     "infla a percepção; não diz de quanto se parte"
+    ],
+    [
+     "Porcentagem",
+     "“trinta por cento”",
+     "melhor, mas de quem e em quanto tempo?"
+    ],
+    [
+     "Frequência natural",
+     "“de cada cem jovens como você, cerca de trinta em dois anos”",
+     "responde às duas perguntas numa frase"
+    ]
+   ],
+   "destaque": "Cem pessoas como quem? Em quanto tempo?",
+   "destaque_cor": "tinta",
+   "fonte": "BMJ 2003"
+  },
+  {
+   "id": "icones",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quadro de cem ícones de pessoas, vinte e três destacados\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><circle cx=\"140\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"130\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"180\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"170\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"220\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"210\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"260\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"250\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"300\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"290\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"340\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"330\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"380\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"370\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"420\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"410\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"460\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"450\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"500\" cy=\"18\" r=\"7\" fill=\"#A8322A\"/><rect x=\"490\" y=\"27\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"140\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"130\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"180\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"170\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"220\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"210\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"260\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"250\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"300\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"290\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"340\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"330\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"380\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"370\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"420\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"410\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"460\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"450\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"500\" cy=\"56\" r=\"7\" fill=\"#A8322A\"/><rect x=\"490\" y=\"65\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"140\" cy=\"94\" r=\"7\" fill=\"#A8322A\"/><rect x=\"130\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"180\" cy=\"94\" r=\"7\" fill=\"#A8322A\"/><rect x=\"170\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"220\" cy=\"94\" r=\"7\" fill=\"#A8322A\"/><rect x=\"210\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#A8322A\"/><circle cx=\"260\" cy=\"94\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"94\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"94\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"330\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"380\" cy=\"94\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"420\" cy=\"94\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"94\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"450\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"500\" cy=\"94\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"103\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"140\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"130\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"180\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"170\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"220\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"210\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"330\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"380\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"420\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"450\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"500\" cy=\"132\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"141\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"140\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"130\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"180\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"170\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"220\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"210\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"330\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"380\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"420\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"450\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"500\" cy=\"170\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"179\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"140\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"130\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"180\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"170\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"220\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"210\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"330\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"380\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"420\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"450\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"500\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"217\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"140\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"130\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"180\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"170\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"220\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"210\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"330\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"380\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"420\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"450\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"500\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"255\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"140\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"130\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"180\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"170\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"220\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"210\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"330\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"380\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"420\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"450\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"500\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"293\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"140\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"130\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"180\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"170\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"220\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"210\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"330\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"380\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"420\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"450\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"500\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"331\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"140\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"130\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"180\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"170\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"220\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"210\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"330\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"380\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"420\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"450\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/><circle cx=\"500\" cy=\"360\" r=\"7\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"369\" width=\"20\" height=\"17\" rx=\"7\" fill=\"#D9D4C8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 640,
+     "y": 50,
+     "w": 200,
+     "t": "23",
+     "tam": 96,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 85,
+     "w": 600,
+     "t": "com nova lesão do cruzado",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 190,
+     "w": 200,
+     "t": "77",
+     "tam": 96,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 225,
+     "w": 600,
+     "t": "sem nova lesão",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 350,
+     "w": 900,
+     "t": "de cada 100 atletas com menos de 25 anos que voltaram ao esporte",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O número desenhado",
+   "titulo": "Quase um em cada quatro",
+   "destaque": "A família vê as duas partes ao mesmo tempo: o risco é real, e a maioria não teve nova lesão.",
+   "destaque_cor": "tinta",
+   "fonte": "Metanálise, Am J Sports Med 2016 · 15% no total, 23% nos mais jovens que voltaram"
+  },
+  {
+   "id": "lado",
+   "tipo": "numeros",
+   "eyebrow": "O risco que ninguém menciona",
+   "titulo": "A maior parte foi no outro joelho",
+   "numeros": [
+    {
+     "n": "~20 em 100",
+     "x": "romperam o cruzado do joelho do outro lado",
+     "cor": "verm"
+    },
+    {
+     "n": "~9 em 100",
+     "x": "romperam o enxerto",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "“O enxerto aguenta?” é a pergunta pela metade. A prevenção depois da alta é para os dois joelhos.",
+   "destaque_cor": "verm",
+   "fonte": "Coorte de Cincinnati · Am J Sports Med 2014"
+  },
+  {
+   "id": "posterior",
+   "tipo": "numeros",
+   "eyebrow": "E não é só o mesmo ligamento",
+   "titulo": "Lesão prévia do cruzado e posterior da coxa",
+   "numeros": [
+    {
+     "n": "2,25",
+     "x": "risco relativo de lesão do posterior da coxa em quem já teve lesão do cruzado",
+     "cor": "ambar"
+    },
+    {
+     "n": "3",
+     "x": "estudos reunidos nessa análise",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Relativo, sem conversão para cada cem. Entra como motivo para a equipe manter força e carga, não como número para a família.",
+   "destaque_cor": "tinta",
+   "fonte": "Revisão sistemática, Br J Sports Med 2017"
+  },
+  {
+   "id": "sobra",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ideia da aula",
+   "frase": "O risco que sobra não é falha do tratamento. É o que o melhor tratamento não tira, e precisa ser dito.",
+   "apoio": "Quem ouve o número antes pode decidir. Quem não ouve ouve a lesão depois como traição."
+  },
+  {
+   "id": "curvas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Duas curvas: a adesão ao programa cai no dia do retorno enquanto a exposição sobe\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"sx\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"80\" y1=\"330\" x2=\"1560\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#sx)\"/><line x1=\"820\" y1=\"40\" x2=\"820\" y2=\"330\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M 100 90 C 400 80, 700 85, 800 100 C 880 115, 900 260, 1000 280 C 1150 300, 1350 300, 1540 305\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\"/><path d=\"M 100 300 C 400 300, 650 290, 780 270 C 860 250, 880 110, 980 95 C 1150 80, 1350 80, 1540 80\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 110,
+     "y": 40,
+     "w": 320,
+     "t": "adesão ao programa",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 40,
+     "w": 320,
+     "t": "exposição ao risco",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 342,
+     "w": 200,
+     "t": "dia do retorno",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 340,
+     "w": 300,
+     "t": "reabilitação",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 340,
+     "w": 300,
+     "t": "temporada",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Onde o número costuma subir",
+   "titulo": "As duas curvas se cruzam no pior lugar",
+   "destaque": "Programa dentro do aquecimento, no mínimo que ela vai fazer, reteste marcado antes da alta, e “até o fim da temporada”.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "publicos",
+   "tipo": "tabela",
+   "eyebrow": "Três públicos",
+   "titulo": "O mesmo risco, três conversas",
+   "cab": [
+    "Quem",
+    "Precisa ouvir"
+   ],
+   "larguras": [
+    22,
+    78
+   ],
+   "linhas": [
+    [
+     "Atleta",
+     "o número, o que ela faz para baixá-lo e os sinais que a fazem parar"
+    ],
+    [
+     "Técnico",
+     "as condições práticas: tempo de jogo, restrições, prazo, quem avisa se mudar"
+    ],
+    [
+     "Família",
+     "o número, o que foi decidido e por quê, e fazer parte da decisão"
+    ]
+   ],
+   "destaque": "Nas três: pedir que a pessoa explique de volta com as palavras dela. Se a mãe repete “seis vezes”, a conversa não terminou.",
+   "destaque_cor": "tinta",
+   "fonte": "Teach-back, revisão sistemática, PLoS One 2020"
+  },
+  {
+   "id": "lei",
+   "tipo": "duas",
+   "eyebrow": "Quem pode saber o quê",
+   "titulo": "Dado de saúde é dado sensível",
+   "esq": {
+    "t": "O que a lei diz",
+    "cor": "tinta",
+    "itens": [
+     "dado de saúde é dado pessoal sensível",
+     "tratamento com regras próprias",
+     "criança: consentimento específico de pelo menos um dos pais"
+    ]
+   },
+   "dir": {
+    "t": "O que muda na prática",
+    "cor": "petr",
+    "itens": [
+     "técnico e clube recebem as condições, não o prontuário",
+     "o que for além disso sai com autorização",
+     "o registro, com o número dito, fica com a equipe de saúde"
+    ]
+   },
+   "destaque": "O sigilo profissional já pedia esse cuidado antes da lei.",
+   "destaque_cor": "tinta",
+   "fonte": "LGPD, Lei 13.709/2018 · art. 5º, II; art. 11; art. 14, § 1º"
+  },
+  {
+   "id": "resposta",
+   "tipo": "lista",
+   "eyebrow": "A resposta para a mãe",
+   "titulo": "Quatro frases e uma pergunta de volta",
+   "itens": [
+    {
+     "t": "O número",
+     "x": "de cada cem jovens que voltam a um esporte como o basquete, cerca de vinte a trinta têm nova lesão em dois anos, muitas vezes no outro joelho",
+     "cor": "verm"
+    },
+    {
+     "t": "A outra parte",
+     "x": "setenta a oitenta não têm",
+     "cor": "petr"
+    },
+    {
+     "t": "O que ela fez",
+     "x": "passou nos critérios: mais perto do menor número, não em zero",
+     "cor": "ambar"
+    },
+    {
+     "t": "O que baixa e o que faz parar",
+     "x": "programa nos dois joelhos; parar se inchar ou falsear",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 10,
+   "destaque": "“Pode me dizer, com as suas palavras, o que vai contar em casa?” A resposta vai para o registro.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fecho do módulo · três níveis",
+   "titulo": "A reabilitação termina num número dito em voz alta",
+   "regras": [
+    "Decisão: cada profissão no seu campo; a atleta pesa o risco; a gestão garante testes e separa quem avalia de quem tem interesse",
+    "Contribuição: o dia seguinte, o calendário honesto, a dor que ninguém viu",
+    "Reconhecimento: os sinais que qualquer um leva adiante"
+   ],
+   "cards": [
+    {
+     "t": "Médico e fisioterapia",
+     "x": "Liberação, riscos inaceitáveis, fases, carga e testes."
+    },
+    {
+     "t": "Preparação, nutrição e psicologia",
+     "x": "Carga no campo, energia para reparar, medo de voltar."
+    },
+    {
+     "t": "Todos",
+     "x": "O joelho que incha, a fase pelo calendário, o “fica tranquila”."
+    }
+   ],
+   "quem": "Próximo módulo: preparação física, treinamento e gestão de carga."
+  }
+ ]
+}

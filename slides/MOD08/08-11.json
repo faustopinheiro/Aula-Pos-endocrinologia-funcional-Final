@@ -1,0 +1,406 @@
+{
+ "arquivo": "aulas/MOD08/08-11-decisao-de-retorno-compartilhada.md",
+ "modulo": "Fisioterapia Esportiva e Reabilitação",
+ "tema": "tinta",
+ "titulo": "Decisão de retorno ao esporte",
+ "subtitulo": "Avaliar o risco, aceitar o risco e decidir junto",
+ "nota_capa": "Entra por uma judoca com o mesmo joelho diante de duas competições.",
+ "secoes": {
+  "tatame": [
+   "A cena e o modelo em três passos.",
+   "capa"
+  ],
+  "starrt": [
+   "Avaliar e tolerar; as três saídas.",
+   "starrt"
+  ],
+  "quem": [
+   "Quem decide e como se conversa.",
+   "quem"
+  ],
+  "conflitos": [
+   "Conflitos, fora do clube, registro e fecho.",
+   "conflitos"
+  ]
+ },
+ "slides": [
+  {
+   "id": "tatame",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "No tatame",
+   "frase": "O joelho é o mesmo. A decisão de voltar pode ser diferente.",
+   "apoio": "Uma judoca no fim da reabilitação do colateral medial. Numa situação, um torneio de pré-temporada sem nada em jogo; na outra, a seletiva da equipe nacional em doze dias."
+  },
+  {
+   "id": "variam",
+   "tipo": "duas",
+   "eyebrow": "O problema reconhecido",
+   "titulo": "Mesma condição, mesma circunstância, decisões diferentes",
+   "esq": {
+    "t": "O que existia",
+    "cor": "tinta",
+    "itens": [
+     "listas de fatores que entram na decisão",
+     "nenhum critério quantitativo",
+     "nenhuma ordem nem peso para os fatores"
+    ]
+   },
+   "dir": {
+    "t": "O que o modelo propôs",
+    "cor": "petr",
+    "itens": [
+     "três passos, na ordem em que o clínico pensa",
+     "depois, separar quanto risco existe de quanto risco se aceita"
+    ]
+   },
+   "destaque": "É essa separação que resolve a judoca.",
+   "destaque_cor": "tinta",
+   "fonte": "Clin J Sport Med 2010 · Br J Sports Med 2015"
+  },
+  {
+   "id": "passos",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Os três passos",
+   "titulo": "Dois descrevem o risco; o terceiro, o contexto",
+   "cards": [
+    {
+     "t": "1 · Estado de saúde",
+     "x": "tecido, função, dor, testes: tudo o que o módulo construiu",
+     "cor": "petr"
+    },
+    {
+     "t": "2 · Risco da participação",
+     "x": "esporte, posição, proteção; no judô, entradas de perna e quedas em valgo",
+     "cor": "petr"
+    },
+    {
+     "t": "3 · Modificadores",
+     "x": "momento da temporada, pressão interna e externa, analgesia, conflito de interesse, medo de responsabilização",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Joelheira, restrição de técnica e tempo de luta menor mudam o passo dois.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "starrt",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Barra de risco estimado igual nas duas situações; linha de tolerância mais baixa no torneio e mais alta na seletiva\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"180\" y1=\"340\" x2=\"660\" y2=\"340\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"350\" y=\"190\" width=\"140\" height=\"150\" rx=\"6\" fill=\"#B07A1C\" fill-opacity=\"0.85\"/><line x1=\"200\" y1=\"250\" x2=\"640\" y2=\"250\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"14 10\"/><line x1=\"940\" y1=\"340\" x2=\"1420\" y2=\"340\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"1110\" y=\"190\" width=\"140\" height=\"150\" rx=\"6\" fill=\"#B07A1C\" fill-opacity=\"0.85\"/><line x1=\"960\" y1=\"130\" x2=\"1400\" y2=\"130\" stroke=\"#008A7E\" stroke-width=\"5\" stroke-dasharray=\"14 10\"/></svg>",
+   "rotulos": [
+    {
+     "x": 180,
+     "y": 20,
+     "w": 480,
+     "t": "Torneio de pré-temporada",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 20,
+     "w": 480,
+     "t": "Seletiva em doze dias",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 190,
+     "y": 212,
+     "w": 150,
+     "t": "tolerância baixa",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 85,
+     "w": 220,
+     "t": "tolerância mais alta",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 255,
+     "w": 240,
+     "t": "risco estimado: o mesmo",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 350,
+     "w": 440,
+     "t": "risco acima da linha: não vale",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 350,
+     "w": 440,
+     "t": "risco abaixo da linha: aceitável, se informada",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Avaliar e tolerar",
+   "titulo": "A barra não muda; a linha muda",
+   "destaque": "A decisão mudou pelo contexto, não porque o joelho melhorou numa semana.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos · StARRT, Br J Sports Med 2015"
+  },
+  {
+   "id": "aceitar",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ideia da aula",
+   "frase": "Avaliar o risco é uma coisa. Aceitar o risco é outra. E quem aceita é quem corre.",
+   "apoio": "A equipe de saúde é a melhor fonte para avaliar o risco. Não é, sozinha, a dona da tolerância a ele."
+  },
+  {
+   "id": "saidas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "As três saídas",
+   "titulo": "Liberar com restrição é a mais útil e a mais esquecida",
+   "cards": [
+    {
+     "t": "Liberar",
+     "x": "risco abaixo da tolerância; volta sem restrição, com monitoramento",
+     "cor": "petr"
+    },
+    {
+     "t": "Liberar com restrição",
+     "x": "menos tempo de luta, sem certas técnicas, com proteção, ou só treino",
+     "cor": "ambar"
+    },
+    {
+     "t": "Ainda não",
+     "x": "risco acima da tolerância, por mais que a data aperte",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Há riscos inaceitáveis por si: tecido que pode falhar de forma grave, sinal neurológico, sequela permanente. A tolerância de ninguém muda essa resposta.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "quem",
+   "tipo": "tabela",
+   "eyebrow": "Quem responde por quê",
+   "titulo": "Decidido com a atleta, não sobre ela",
+   "cab": [
+    "Quem",
+    "Responde por"
+   ],
+   "larguras": [
+    30,
+    70
+   ],
+   "linhas": [
+    [
+     "Equipe de saúde",
+     "estimar o risco: tecido, função, prontidão"
+    ],
+    [
+     "Médico",
+     "liberação médica; dizer quando o risco é inaceitável por si"
+    ],
+    [
+     "Atleta",
+     "pesar o risco contra o que está em jogo e decidir dentro do aceitável"
+    ],
+    [
+     "Técnico e clube",
+     "trazer o contexto esportivo, sem decidir pela saúde"
+    ],
+    [
+     "Família",
+     "entra na decisão quando a atleta é menor de idade"
+    ]
+   ],
+   "destaque": "Decisão compartilhada, na direção do consenso de Berna.",
+   "destaque_cor": "tinta",
+   "fonte": "Br J Sports Med 2017 · Consenso de Berna, 2016"
+  },
+  {
+   "id": "conversa",
+   "tipo": "lista",
+   "eyebrow": "Decidir junto, na prática",
+   "titulo": "Três conversas, alguns minutos a mais",
+   "itens": [
+    {
+     "t": "Escolha",
+     "x": "“Há mais de um caminho razoável, e a sua opinião conta.”",
+     "cor": "petr"
+    },
+    {
+     "t": "Opções",
+     "x": "cada saída, com o que traz de bom e de risco, em números que a pessoa entenda",
+     "cor": "ambar"
+    },
+    {
+     "t": "Decisão",
+     "x": "“Para você, o que pesa mais: a seletiva deste ano ou chegar inteira ao próximo ciclo?”",
+     "cor": "tinta"
+    }
+   ],
+   "gap_itens": 16,
+   "destaque": "Os números da conversa das opções são o assunto da próxima aula.",
+   "destaque_cor": "tinta",
+   "fonte": "Modelo de decisão compartilhada, J Gen Intern Med 2012"
+  },
+  {
+   "id": "conflitos",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "O que distorce a decisão",
+   "titulo": "Nomear os conflitos antes que eles decidam",
+   "cards": [
+    {
+     "t": "Quem paga quem decide",
+     "x": "o dever com a saúde da atleta não fica abaixo do interesse do clube",
+     "cor": "verm"
+    },
+    {
+     "t": "A dor escondida",
+     "x": "quem quer voltar minimiza; testes e observação não dependem só do relato",
+     "cor": "ambar"
+    },
+    {
+     "t": "A analgesia que mascara",
+     "x": "muda a informação, não o risco",
+     "cor": "verm"
+    },
+    {
+     "t": "A pressão do calendário",
+     "x": "empurra a linha de tolerância sem ninguém dizer em voz alta",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Proteções: separar quem avalia de quem tem interesse, registrar o raciocínio, pedir segunda opinião.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "semclube",
+   "tipo": "tabela",
+   "eyebrow": "Fora do clube",
+   "titulo": "Os mesmos passos, outra equipe",
+   "cab": [
+    "Passo",
+    "No consultório"
+   ],
+   "larguras": [
+    30,
+    70
+   ],
+   "linhas": [
+    [
+     "Estado de saúde",
+     "avaliação e testes de consultório"
+    ],
+    [
+     "Risco da participação",
+     "corrida de rua, campeonato de fim de semana, treino de academia"
+    ],
+    [
+     "Modificadores",
+     "a prova já paga, a viagem marcada, o trabalho que não pode parar"
+    ]
+   ],
+   "destaque": "Equipe menor não diminui a decisão compartilhada. Aumenta a responsabilidade de explicar bem.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "registro",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "O registro",
+   "titulo": "Seis campos bastam",
+   "cards": [
+    {
+     "t": "Estado de saúde",
+     "x": "com os testes",
+     "cor": "petr"
+    },
+    {
+     "t": "Risco da participação",
+     "x": "no esporte e na posição",
+     "cor": "petr"
+    },
+    {
+     "t": "Modificadores",
+     "x": "os que foram considerados",
+     "cor": "ambar"
+    },
+    {
+     "t": "Saída escolhida",
+     "x": "liberar, com restrição, ainda não",
+     "cor": "tinta"
+    },
+    {
+     "t": "Condições",
+     "x": "restrições, prazo e sinais para parar",
+     "cor": "verm"
+    },
+    {
+     "t": "Data de revisão",
+     "x": "a próxima conversa já marcada",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Protege a atleta, mostra o raciocínio da equipe e organiza a próxima conversa.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Decisão de retorno",
+   "titulo": "Avaliar o risco não é o mesmo que aceitá-lo",
+   "regras": [
+    "Três passos: estado, risco da participação, modificadores",
+    "Três saídas: liberar, com restrição, ainda não",
+    "Quem corre o risco participa da decisão"
+   ],
+   "cards": [
+    {
+     "t": "Médico",
+     "x": "Liberação e riscos inaceitáveis por si."
+    },
+    {
+     "t": "Equipe de saúde",
+     "x": "Estima o risco e registra o raciocínio."
+    },
+    {
+     "t": "Atleta",
+     "x": "Pesa o que está em jogo, informada."
+    }
+   ],
+   "quem": "Próxima aula, a última do módulo: risco residual e comunicação."
+  }
+ ]
+}

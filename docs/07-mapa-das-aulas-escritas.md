@@ -229,7 +229,7 @@ em músculo de rato (Vieira Ramos, 2016) e o enquadramento do registro de lesão
 
 ## Módulo 8 — Fisioterapia Esportiva e Reabilitação · 12 aulas
 
-**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 a 7: decks enxutos, gráficos
+**ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 a 7: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em tinta, a cor dos módulos 1, 2, 6 e 7 (docs/08).
 Régua de altitude: nenhuma aula ensina a executar técnica; cada uma diz o que a intervenção muda,
 quando entra, quando sai e como se reconhece que não está funcionando. As duas aulas-mestras (8.3 e
@@ -245,15 +245,14 @@ quando entra, quando sai e como se reconhece que não está funcionando. As duas
 | 8.6 | Posterior da coxa e virilha | 13 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/ML5CD6E185jWJgg2QJGvoV) |
 | 8.7 | Tornozelo depois da entorse | 12 | 12 | NÚMERO | [slides](https://claude.ai/artifact/VtcvD5jZMHgS1qhUsauV7f) |
 | 8.8 | Ombro e coluna | 13 | 12 | DECISÃO | [slides](https://claude.ai/artifact/NAJh6tG8BbyjVsDaUEHZkY) |
+| 8.9 | Recursos terapêuticos passivos | 12 | 12 | ERRO | [slides](https://claude.ai/artifact/PH4baMdP1nAKXX22WVqCBV) |
+| 8.10 | Testes de retorno ao esporte | 12 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/Mwv9fJaCucDaSWEBVDQbkG) |
+| 8.11 | Decisão de retorno ao esporte | 13 | 12 | DECISÃO | [slides](https://claude.ai/artifact/BetL3N7xVsohkUB3hFYmUh) |
+| 8.12 | Risco residual e comunicação | 15 | 12 | NÚMERO | [slides](https://claude.ai/artifact/PUwsWBBSyvWFwpYn2K2wxq) |
 
-Ainda sem versão nova:
-
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 8.9 | Recursos terapêuticos e recuperação: evidência, efeito e ritual | M10-A08 parcial | PARCIAL |
-| 8.10 | Testes de retorno ao esporte | M18-A04 | PRONTA |
-| 8.11 | Decisão de retorno: modelo de decisão compartilhada | M18-A01 + M18-A07 | FUNDIR |
-| 8.12 | Risco residual e comunicação | M18-A07 + M18-A08 | FUNDIR |
+Total: 2 h 39 min em 12 aulas, 144 slides. A 8.12 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
+preparação física, treinamento e gestão de carga, que abre o Módulo 9.
 
 ## Módulo 9 — Preparação Física, Treinamento e Gestão de Carga · 12 aulas
 
