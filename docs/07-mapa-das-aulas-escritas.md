@@ -256,17 +256,28 @@ preparação física, treinamento e gestão de carga, que abre o Módulo 9.
 
 ## Módulo 9 — Preparação Física, Treinamento e Gestão de Carga · 12 aulas
 
+**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 a 8: decks enxutos, gráficos
+em SVG, referências conferidas. Capa e fecho em tinta, a cor dos módulos 1, 2, 6, 7 e 8 (docs/08).
+Régua de altitude: nenhuma aula ensina a executar exercício; cada uma diz o que o estímulo muda,
+como se dosa, como se mede e como se reconhece que não está funcionando. As duas aulas-mestras (9.3 e
+9.9) seguem a regra de que a duração é do tema, não do formato.
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 9.1 | Princípios do treinamento | 11 | 12 | ERRO | [slides](https://claude.ai/artifact/WTyThJ2k1nAEKcw9dPuhrg) |
+| 9.2 | Modelos de periodização | 10 | 12 | DECISÃO | [slides](https://claude.ai/artifact/DZ7dwBKYPaF5DbE4digaTf) |
+| 9.3 | Treino de força por objetivo | 12 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/QvrTKrik8kcGxFAW7AToQL) |
+| 9.4 | Velocidade, aceleração e mudança de direção | 10 | 12 | NÚMERO | [slides](https://claude.ai/artifact/HpGPWCbuvwYCcfphosLz62) |
+
+Ainda sem versão nova:
+
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 9.1 | Princípios do treinamento | M1-A02 | PARCIAL |
-| 9.2 | Modelos de periodização | M8-A01 + M8-A02 | FUNDIR |
-| 9.3 **[M]** | Treino de força por objetivo | M7-A06 + M8-A03 | FUNDIR |
-| 9.4 | Velocidade, aceleração e mudança de direção | — | NOVA |
 | 9.5 | Treinamento aeróbio contínuo e intervalado | M8-A02 | PRONTA |
 | 9.6 | Prescrição por zonas e por percepção de esforço | M6-A02 | PRONTA |
 | 9.7 | Carga externa: GPS e métricas de campo | M6-A06 | PRONTA |
 | 9.8 | Carga interna: PSE, FC e questionários | M1-A04 + M6-A02 + M6-A03 | FUNDIR |
-| 9.9 **[M]** | Índices de carga aguda e crônica: uso, limitação e crítica | M9-A03 + M9-A04 | FUNDIR |
+| 9.9 | Índices de carga aguda e crônica: uso, limitação e crítica | M9-A03 + M9-A04 | FUNDIR |
 | 9.10 | Testes físicos: escolher, aplicar e interpretar | M6-A05 + M6-A07 | FUNDIR |
 | 9.11 | Reintegração ao treinamento coletivo | M18-A05 | PRONTA |
 | 9.12 | Sono e recuperação como variáveis de treino | M10-A01 + M10-A07 | FUNDIR |
