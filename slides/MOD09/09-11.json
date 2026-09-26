@@ -1,0 +1,561 @@
+{
+ "arquivo": "aulas/MOD09/09-11-reintegracao-ao-treinamento-coletivo.md",
+ "modulo": "Preparação Física, Treinamento e Gestão de Carga",
+ "tema": "tinta",
+ "titulo": "Reintegração ao treinamento coletivo",
+ "subtitulo": "Da alta da reabilitação ao jogo",
+ "nota_capa": "Entra pelo bilhete da fisioterapia de uma jogadora de basquete amador.",
+ "secoes": {
+  "bilhete": [
+   "O caso e onde ela está.",
+   "capa"
+  ],
+  "distancia": [
+   "A distância entre reabilitação e grupo, e o plano.",
+   "distancia"
+  ],
+  "plantao": [
+   "A carga do trabalho e a semana dela.",
+   "plantao"
+  ],
+  "medir": [
+   "Medir, reconhecer e dividir o trabalho.",
+   "medir"
+  ]
+ },
+ "slides": [
+  {
+   "id": "bilhete",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Segundo caso do módulo",
+   "frase": "“Liberada para treinar com o grupo.”",
+   "apoio": "Jogadora de basquete amador, na casa dos trinta anos, técnica de enfermagem em plantões de 12 por 36. Três semanas afastada por entorse de tornozelo. Liberada para qual treino? Em qual semana? Fazendo o quê?"
+  },
+  {
+   "id": "degraus",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Três degraus do retorno: participar, esporte, desempenho, com a reintegração entre o primeiro e o segundo\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><defs><marker id=\"dg\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"140\" y=\"200\" width=\"400\" height=\"90\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"620\" y=\"120\" width=\"400\" height=\"170\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1100\" y=\"40\" width=\"400\" height=\"250\" rx=\"8\" fill=\"#12202E\"/><path d=\"M 420 190 Q 560 60 700 120\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#dg)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 140,
+     "y": 230,
+     "w": 400,
+     "t": "voltar a participar",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 150,
+     "w": 400,
+     "t": "voltar ao esporte",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 70,
+     "w": 400,
+     "t": "voltar ao desempenho",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 20,
+     "w": 300,
+     "t": "reintegração",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 294,
+     "w": 400,
+     "t": "ela está aqui",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Onde ela está",
+   "titulo": "A ponte entre participar e voltar ao esporte",
+   "destaque": "O bilhete diz que o tecido está pronto para treinar. Não diz que ela está pronta para o jogo de sábado.",
+   "destaque_cor": "tinta",
+   "fonte": "Consenso de Berna, Br J Sports Med 2016 (módulo de reabilitação)"
+  },
+  {
+   "id": "distancia",
+   "tipo": "duas",
+   "eyebrow": "Por que não basta entrar e fazer tudo",
+   "titulo": "Dois ambientes diferentes",
+   "esq": {
+    "t": "O que a reabilitação treinou",
+    "cor": "petr",
+    "itens": [
+     "exercício previsível",
+     "o ritmo dela, com intervalo",
+     "ninguém do outro lado"
+    ]
+   },
+   "dir": {
+    "t": "O que o treino coletivo exige",
+    "cor": "verm",
+    "itens": [
+     "reagir à bola e à adversária",
+     "aterrissar com contato",
+     "saltos seguidos, no ritmo do grupo"
+    ]
+   },
+   "destaque": "A força do tornozelo pode estar recuperada e ela ainda não ter visto nada disso.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "caos",
+   "tipo": "diagrama",
+   "h": 260,
+   "svg": "<svg aria-label=\"Barra do controle ao caos com quatro marcas: exercício planejado, reação simples, oposição com regras, jogo\" width=\"1664\" height=\"260\" viewBox=\"0 0 1664 260\"><defs><linearGradient id=\"cc\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\"><stop offset=\"0\" stop-color=\"#008A7E\"/><stop offset=\"0.55\" stop-color=\"#B07A1C\"/><stop offset=\"1\" stop-color=\"#A8322A\"/></linearGradient></defs><rect x=\"120\" y=\"100\" width=\"1420\" height=\"40\" rx=\"20\" fill=\"url(#cc)\"/><circle cx=\"180\" cy=\"120\" r=\"22\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"613\" cy=\"120\" r=\"22\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"1046\" cy=\"120\" r=\"22\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"1479\" cy=\"120\" r=\"22\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 40,
+     "w": 300,
+     "t": "controle",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 40,
+     "w": 300,
+     "t": "caos",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 160,
+     "w": 300,
+     "t": "exercício planejado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 463,
+     "y": 160,
+     "w": 300,
+     "t": "reação simples",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 896,
+     "y": 160,
+     "w": 300,
+     "t": "oposição com regras",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1329,
+     "y": 160,
+     "w": 300,
+     "t": "jogo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O contínuo do controle ao caos",
+   "titulo": "Acrescentar perceber e reagir, junto com a carga",
+   "destaque": "Modelo de prática construído no futebol profissional inglês, não um ensaio clínico. Organiza a pergunta: onde ela está, e qual é o próximo passo.",
+   "destaque_cor": "tinta",
+   "fonte": "Br J Sports Med 2019"
+  },
+  {
+   "id": "etapas",
+   "tipo": "tabela",
+   "eyebrow": "O plano dela",
+   "titulo": "Quatro etapas dentro dos treinos do grupo",
+   "cab": [
+    "Etapa",
+    "Faz com o grupo",
+    "Fica de fora"
+   ],
+   "larguras": [
+    14,
+    46,
+    40
+   ],
+   "linhas": [
+    [
+     "1",
+     "aquecimento e técnica sem oposição",
+     "coletivo com oposição"
+    ],
+    [
+     "2",
+     "oposição controlada: 2 contra 2, 3 contra 3",
+     "coletivo livre"
+    ],
+    [
+     "3",
+     "treino completo, com coletivo",
+     "jogo de sábado"
+    ],
+    [
+     "4",
+     "jogo com minutos combinados",
+     "nada"
+    ]
+   ],
+   "destaque": "Para avançar: tornozelo sem piora na manhã seguinte, sem inchaço, nota de esforço perto do planejado. Não atingiu, repete a etapa.",
+   "destaque_cor": "tinta",
+   "fonte": "Exemplo de prática corrente, sem validação"
+  },
+  {
+   "id": "plantao",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Semana com plantões de doze horas em cinza e treinos em cor, em dias alternados\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"150\" y=\"110\" width=\"120\" height=\"150\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"350\" y=\"160\" width=\"120\" height=\"100\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"550\" y=\"110\" width=\"120\" height=\"150\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"750\" y=\"160\" width=\"120\" height=\"100\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"950\" y=\"110\" width=\"120\" height=\"150\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1150\" y=\"160\" width=\"120\" height=\"100\" rx=\"6\" fill=\"#A8322A\"/><line x1=\"100\" y1=\"260\" x2=\"1560\" y2=\"260\" stroke=\"#D9D4C8\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 150,
+     "y": 270,
+     "w": 120,
+     "t": "seg",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 270,
+     "w": 120,
+     "t": "ter",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 550,
+     "y": 270,
+     "w": 120,
+     "t": "qua",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 270,
+     "w": 120,
+     "t": "qui",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 270,
+     "w": 120,
+     "t": "sex",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 270,
+     "w": 120,
+     "t": "sáb",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 270,
+     "w": 120,
+     "t": "dom",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 150,
+     "y": 170,
+     "w": 120,
+     "t": "plantão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 550,
+     "y": 170,
+     "w": 120,
+     "t": "plantão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 170,
+     "w": 120,
+     "t": "plantão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 200,
+     "w": 120,
+     "t": "treino",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 200,
+     "w": 120,
+     "t": "treino",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 200,
+     "w": 120,
+     "t": "jogo",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 0,
+     "w": 500,
+     "t": "cinza: trabalho · cor: basquete",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A carga que não aparece no treino",
+   "titulo": "A semana dela não é só basquete",
+   "destaque": "Carga inclui calendário, viagens e carga psicológica. No amador, o trabalho é muitas vezes a maior parte da semana.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos · consenso do COI, Br J Sports Med 2016"
+  },
+  {
+   "id": "encaixar",
+   "tipo": "duas",
+   "eyebrow": "Encaixar na semana dela",
+   "titulo": "Não só qual etapa: em qual dia",
+   "esq": {
+    "t": "Depois de uma folga",
+    "cor": "petr",
+    "itens": [
+     "a sessão que avança de etapa",
+     "o coletivo, quando chegar a hora"
+    ]
+   },
+   "dir": {
+    "t": "Depois do plantão noturno",
+    "cor": "ambar",
+    "itens": [
+     "fica na etapa anterior",
+     "ou só a parte técnica"
+    ]
+   },
+   "destaque": "Ela está no terceiro momento de risco do módulo de lesões: a volta depois de uma pausa. Reposicionar rende mais do que reduzir.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "etapa",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ideia da aula",
+   "frase": "Liberada não quer dizer pronta para tudo. Quer dizer pronta para a próxima etapa.",
+   "apoio": "O bilhete da fisioterapia é o começo de um plano, não o fim de um processo."
+  },
+  {
+   "id": "medir",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Como acompanhar",
+   "titulo": "Três medidas, sem laboratório",
+   "cards": [
+    {
+     "t": "Nota da sessão",
+     "x": "contra o planejado; cinco que volta oito é o grupo exigindo mais",
+     "cor": "petr"
+    },
+    {
+     "t": "Tornozelo na manhã seguinte",
+     "x": "dor de 0 a 10 e se há inchaço: a resposta do tecido",
+     "cor": "ambar"
+    },
+    {
+     "t": "Um salto por semana",
+     "x": "numa perna só, dos dois lados, do mesmo jeito: para ver a linha",
+     "cor": "tinta"
+    }
+   ],
+   "destaque": "Retoma a aula de carga interna e a de testes físicos.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "alerta",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "Como reconhecer que não está funcionando",
+   "titulo": "Quatro sinais",
+   "cards": [
+    {
+     "t": "Dor que piora",
+     "x": "de uma etapa para outra, ou que não volta ao nível de antes em 24 horas",
+     "cor": "verm"
+    },
+    {
+     "t": "Nota acima do planejado",
+     "x": "em sessões seguidas",
+     "cor": "ambar"
+    },
+    {
+     "t": "Nova entorse ou falseio",
+     "x": "o tornozelo cede",
+     "cor": "verm"
+    },
+    {
+     "t": "Evita o gesto",
+     "x": "não sobe para o rebote, freia nas mudanças de direção, mesmo sem dor",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Voltar uma etapa, não voltar ao zero. E conversar com a fisioterapia.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "papeis",
+   "tipo": "cards",
+   "por_linha": 2,
+   "eyebrow": "Uma folha só, compartilhada",
+   "titulo": "Quem faz o quê",
+   "cards": [
+    {
+     "t": "Fisioterapia",
+     "x": "critério do tecido e o que ainda está proibido",
+     "cor": "petr"
+    },
+    {
+     "t": "Preparação física",
+     "x": "a dose dentro do treino do grupo: qual etapa, em qual dia",
+     "cor": "petr"
+    },
+    {
+     "t": "Técnico",
+     "x": "sabe a etapa e os minutos combinados, não o prontuário",
+     "cor": "ambar"
+    },
+    {
+     "t": "Atleta",
+     "x": "conta a escala, a noite mal dormida e o tornozelo da manhã",
+     "cor": "tinta"
+    }
+   ]
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Reintegração ao treinamento coletivo",
+   "titulo": "O jogo de sábado tem data prevista, não data marcada",
+   "regras": [
+    "Quatro etapas dentro dos treinos do grupo",
+    "Avanço de etapa sempre depois de uma folga",
+    "Três medidas e uma regra para os sinais de alerta"
+   ],
+   "cards": [
+    {
+     "t": "Preparação física",
+     "x": "Dosa a volta dentro do grupo."
+    },
+    {
+     "t": "Fisioterapia",
+     "x": "Mantém o critério do tecido."
+    },
+    {
+     "t": "Atleta",
+     "x": "Traz a escala de plantões."
+    }
+   ],
+   "quem": "Próxima aula: sono e recuperação como variáveis de treino, e o fecho do módulo."
+  }
+ ]
+}

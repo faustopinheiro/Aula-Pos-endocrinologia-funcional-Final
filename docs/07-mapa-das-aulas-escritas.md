@@ -256,7 +256,7 @@ preparação física, treinamento e gestão de carga, que abre o Módulo 9.
 
 ## Módulo 9 — Preparação Física, Treinamento e Gestão de Carga · 12 aulas
 
-**EM REESCRITA NA VOZ DO CURSO.** Mesmo padrão dos módulos 2 a 8: decks enxutos, gráficos
+**ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 a 8: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em tinta, a cor dos módulos 1, 2, 6, 7 e 8 (docs/08).
 Régua de altitude: nenhuma aula ensina a executar exercício; cada uma diz o que o estímulo muda,
 como se dosa, como se mede e como se reconhece que não está funcionando. As duas aulas-mestras (9.3 e
@@ -272,15 +272,14 @@ como se dosa, como se mede e como se reconhece que não está funcionando. As du
 | 9.6 | Prescrição por zonas e percepção de esforço | 10 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/3MrSoxxbYX7C7KtpfXVco9) |
 | 9.7 | Carga externa: GPS e métricas de campo | 10 | 12 | ERRO | [slides](https://claude.ai/artifact/17Lc4smNh4SGmHfkkX6isN) |
 | 9.8 | Carga interna | 10 | 12 | DECISÃO | [slides](https://claude.ai/artifact/SrdvzCZqoNVEbfLABVJM2A) |
+| 9.9 | Índices de carga aguda e crônica | 11 | 12 | ERRO | [slides](https://claude.ai/artifact/JRXobScNmxFEPjxbYrYk6b) |
+| 9.10 | Testes físicos | 12 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/WiZwv7k2SW8s7TAbpn2AtQ) |
+| 9.11 | Reintegração ao treinamento coletivo | 10 | 12 | CASO | [slides](https://claude.ai/artifact/Ut1Y4vKyo654qh9eBkCcYo) |
+| 9.12 | Sono e recuperação | 14 | 12 | NÚMERO | [slides](https://claude.ai/artifact/PnaoyVtcEqtw1nZZm3ELzi) |
 
-Ainda sem versão nova:
-
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 9.9 | Índices de carga aguda e crônica: uso, limitação e crítica | M9-A03 + M9-A04 | FUNDIR |
-| 9.10 | Testes físicos: escolher, aplicar e interpretar | M6-A05 + M6-A07 | FUNDIR |
-| 9.11 | Reintegração ao treinamento coletivo | M18-A05 | PRONTA |
-| 9.12 | Sono e recuperação como variáveis de treino | M10-A01 + M10-A07 | FUNDIR |
+Total: 2 h 10 min em 12 aulas, 144 slides. A 9.12 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
+psicologia do esporte e saúde mental, que abre o Módulo 10.
 
 ## Módulo 10 — Psicologia do Esporte e Saúde Mental · 11 aulas
 

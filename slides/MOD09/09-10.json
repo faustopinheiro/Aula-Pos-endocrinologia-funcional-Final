@@ -1,0 +1,499 @@
+{
+ "arquivo": "aulas/MOD09/09-10-testes-fisicos-escolher-aplicar-e-interpretar.md",
+ "modulo": "Preparação Física, Treinamento e Gestão de Carga",
+ "tema": "tinta",
+ "titulo": "Testes físicos",
+ "subtitulo": "Escolher, aplicar e interpretar, em cinco passos",
+ "nota_capa": "Entra por uma pré-temporada de tênis com onze testes numa manhã.",
+ "secoes": {
+  "planilha": [
+   "A cena e a pergunta.",
+   "capa"
+  ],
+  "propriedades": [
+   "Escolher o teste.",
+   "propriedades"
+  ],
+  "padronizar": [
+   "Aplicar: padronização, ordem e familiarização.",
+   "padronizar"
+  ],
+  "ruido": [
+   "Interpretar e repetir.",
+   "ruido"
+  ]
+ },
+ "slides": [
+  {
+   "id": "planilha",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Pré-temporada no tênis",
+   "frase": "Onze testes, cento e trinta e dois números, nenhum treino mudou.",
+   "apoio": "Doze atletas, uma manhã de sábado. Três meses depois, ninguém tinha aberto a planilha de novo. Faltou um procedimento: perguntar, escolher, aplicar, interpretar e repetir."
+  },
+  {
+   "id": "pergunta",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Passo um",
+   "titulo": "A pergunta vem antes do teste",
+   "cards": [
+    {
+     "t": "Prescrever",
+     "x": "a referência de onde saem zonas e séries",
+     "cor": "petr"
+    },
+    {
+     "t": "Medir mudança",
+     "x": "refazer do mesmo jeito e ver se o programa funciona",
+     "cor": "petr"
+    },
+    {
+     "t": "Diagnosticar o método",
+     "x": "quatro meses de treino e o teste parado é informação",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Que decisão este número vai mudar? Teste que não muda nenhuma decisão sai da lista.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "propriedades",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Passo dois: escolher",
+   "titulo": "Três propriedades de um bom teste",
+   "cards": [
+    {
+     "t": "Validade",
+     "x": "mede o que interessa para aquele esporte?",
+     "cor": "tinta"
+    },
+    {
+     "t": "Confiabilidade",
+     "x": "feito duas vezes, sem mudança real, o resultado se repete?",
+     "cor": "petr"
+    },
+    {
+     "t": "Sensibilidade",
+     "x": "enxerga uma mudança do tamanho das que importam?",
+     "cor": "ambar"
+    }
+   ],
+   "destaque": "Contrarrelógios costumam variar menos de um dia para outro do que testes até a exaustão.",
+   "destaque_cor": "tinta",
+   "fonte": "Revisão, Sports Med 2008"
+  },
+  {
+   "id": "parecido",
+   "tipo": "tabela",
+   "eyebrow": "Escolher",
+   "titulo": "O teste mais parecido com o que a pessoa faz",
+   "cab": [
+    "Perfil",
+    "Teste"
+   ],
+   "larguras": [
+    40,
+    60
+   ],
+   "linhas": [
+    [
+     "Corredor de rua",
+     "contrarrelógio na distância que já corre"
+    ],
+    [
+     "Quadra: tênis, futsal, basquete",
+     "vaivém de 20 metros, em grupo"
+    ],
+    [
+     "Praticante de força",
+     "repetições até a falha técnica em carga conhecida"
+    ],
+    [
+     "Saúde, depois dos cinquenta",
+     "sentar e levantar em 30 segundos, preensão"
+    ]
+   ],
+   "destaque": "Limiares de campo estão na aula de limiares do módulo de fisiologia. Especificidade também é aderência.",
+   "destaque_cor": "tinta",
+   "fonte": "Vaivém: Eur J Appl Physiol 1982"
+  },
+  {
+   "id": "padronizar",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Passo três: aplicar",
+   "titulo": "Padronizar, e por escrito",
+   "cards": [
+    {
+     "t": "Mesmo horário e local",
+     "x": "mesma superfície, mesmo percurso",
+     "cor": "petr"
+    },
+    {
+     "t": "Mesmo aquecimento",
+     "x": "escrito, não improvisado",
+     "cor": "petr"
+    },
+    {
+     "t": "Mesmo calçado e cafeína",
+     "x": "ou nenhuma, das duas vezes",
+     "cor": "petr"
+    },
+    {
+     "t": "48 horas sem sessão pesada",
+     "x": "prática corrente",
+     "cor": "ambar"
+    },
+    {
+     "t": "Ambiente anotado",
+     "x": "calor, umidade e vento mudam o resultado",
+     "cor": "ambar"
+    },
+    {
+     "t": "Pista hoje, parque amanhã",
+     "x": "compara dois lugares, não o atleta",
+     "cor": "verm"
+    }
+   ]
+  },
+  {
+   "id": "ordem",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Sequência recomendada da bateria, do menos para o mais cansativo, com o teste aeróbio por último\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><defs><marker id=\"sq\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"20\" y=\"90\" width=\"176\" height=\"110\" rx=\"10\" fill=\"#008A7E\"/><line x1=\"199\" y1=\"145\" x2=\"221\" y2=\"145\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#sq)\"/><rect x=\"226\" y=\"90\" width=\"176\" height=\"110\" rx=\"10\" fill=\"#008A7E\"/><line x1=\"405\" y1=\"145\" x2=\"427\" y2=\"145\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#sq)\"/><rect x=\"432\" y=\"90\" width=\"176\" height=\"110\" rx=\"10\" fill=\"#008A7E\"/><line x1=\"611\" y1=\"145\" x2=\"633\" y2=\"145\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#sq)\"/><rect x=\"638\" y=\"90\" width=\"176\" height=\"110\" rx=\"10\" fill=\"#B07A1C\"/><line x1=\"817\" y1=\"145\" x2=\"839\" y2=\"145\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#sq)\"/><rect x=\"844\" y=\"90\" width=\"176\" height=\"110\" rx=\"10\" fill=\"#B07A1C\"/><line x1=\"1023\" y1=\"145\" x2=\"1045\" y2=\"145\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#sq)\"/><rect x=\"1050\" y=\"90\" width=\"176\" height=\"110\" rx=\"10\" fill=\"#B07A1C\"/><line x1=\"1229\" y1=\"145\" x2=\"1251\" y2=\"145\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#sq)\"/><rect x=\"1256\" y=\"90\" width=\"176\" height=\"110\" rx=\"10\" fill=\"#A8322A\"/><line x1=\"1435\" y1=\"145\" x2=\"1457\" y2=\"145\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#sq)\"/><rect x=\"1462\" y=\"90\" width=\"176\" height=\"110\" rx=\"10\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 26,
+     "y": 124,
+     "w": 164,
+     "t": "repouso",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 232,
+     "y": 124,
+     "w": 164,
+     "t": "sem fadiga",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 438,
+     "y": 124,
+     "w": 164,
+     "t": "agilidade",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 124,
+     "w": 164,
+     "t": "potência e força",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 124,
+     "w": 164,
+     "t": "sprint",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1056,
+     "y": 124,
+     "w": 164,
+     "t": "resistência local",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1262,
+     "y": 124,
+     "w": 164,
+     "t": "anaeróbio",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1468,
+     "y": 124,
+     "w": 164,
+     "t": "aeróbio",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 30,
+     "w": 400,
+     "t": "menos cansativo",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 30,
+     "w": 640,
+     "t": "mais cansativo, de preferência em outro dia",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A ordem da bateria",
+   "titulo": "Cada teste não pode estragar o seguinte",
+   "destaque": "No tênis, o vaivém foi o primeiro da manhã. Todos os saltos e sprints depois dele foram medidos em atletas cansados.",
+   "destaque_cor": "verm",
+   "fonte": "Sequência do manual da NSCA"
+  },
+  {
+   "id": "familiarizar",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Três testes do mesmo atleta: o primeiro mais baixo, o segundo e o terceiro no mesmo nível\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"300\" y=\"120\" width=\"200\" height=\"150\" rx=\"8\" fill=\"#D9D4C8\"/><rect x=\"700\" y=\"70\" width=\"200\" height=\"200\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1100\" y=\"66\" width=\"200\" height=\"204\" rx=\"8\" fill=\"#008A7E\"/><line x1=\"200\" y1=\"270\" x2=\"1500\" y2=\"270\" stroke=\"#D9D4C8\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 300,
+     "y": 280,
+     "w": 200,
+     "t": "1º teste",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 280,
+     "w": 200,
+     "t": "2º teste",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 280,
+     "w": 200,
+     "t": "3º teste",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 80,
+     "w": 200,
+     "t": "aprendizado",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 30,
+     "w": 200,
+     "t": "linha de base",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Familiarização",
+   "titulo": "O primeiro teste é aprendizado",
+   "destaque": "Quem compara o terceiro com o primeiro comemora um ganho que é, em parte, só aprendizado. Em equipe: o primeiro entra num treino comum.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "linha",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ideia da aula",
+   "frase": "Um teste simples, feito sempre do mesmo jeito, vale mais que um teste sofisticado feito uma vez.",
+   "apoio": "O valor de uma bateria não está na primeira aplicação. Está na terceira, quando existe uma linha."
+  },
+  {
+   "id": "ruido",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Régua com a faixa de ruído do teste em torno do resultado anterior, mais larga que a menor mudança que importa\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><line x1=\"120\" y1=\"170\" x2=\"1540\" y2=\"170\" stroke=\"#D9D4C8\" stroke-width=\"4\"/><rect x=\"440\" y=\"120\" width=\"520\" height=\"100\" rx=\"10\" fill=\"#D9D4C8\" opacity=\"0.8\"/><line x1=\"700\" y1=\"100\" x2=\"700\" y2=\"222\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"700\" y=\"150\" width=\"140\" height=\"40\" rx=\"6\" fill=\"#008A7E\"/><circle cx=\"1080\" cy=\"170\" r=\"16\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 440,
+     "y": 232,
+     "w": 520,
+     "t": "ruído do teste: erro típico",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 96,
+     "w": 400,
+     "t": "resultado anterior",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 80,
+     "w": 400,
+     "t": "menor mudança que importa",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 200,
+     "w": 260,
+     "t": "fora do ruído: notícia",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo quatro: interpretar",
+   "titulo": "Erro típico e menor mudança que importa",
+   "destaque": "Se o ruído é maior que a mudança que importa, o teste feito uma vez não vê a melhora. Repita a medida no dia (três saltos, a média) ou troque o teste.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos · Sports Med 2000 · Sportscience 2004 (0,2 do desvio-padrão)"
+  },
+  {
+   "id": "bruto",
+   "tipo": "duas",
+   "eyebrow": "Interpretar",
+   "titulo": "Acompanhe o dado bruto, não a estimativa",
+   "esq": {
+    "t": "Medido",
+    "cor": "petr",
+    "itens": [
+     "2.600 m em março",
+     "2.750 m em julho",
+     "melhorou: a informação está completa"
+    ]
+   },
+   "dir": {
+    "t": "Calculado",
+    "cor": "verm",
+    "itens": [
+     "consumo máximo estimado por equação",
+     "soma o erro do teste ao da equação",
+     "fórmulas de frequência máxima por idade"
+    ]
+   },
+   "destaque": "As zonas saem da velocidade ou da potência medida, não de um número calculado.",
+   "destaque_cor": "tinta",
+   "fonte": "Exemplo ilustrativo"
+  },
+  {
+   "id": "repetir",
+   "tipo": "duas",
+   "eyebrow": "Passo cinco: repetir",
+   "titulo": "Um calendário enxuto, e como saber que não funciona",
+   "esq": {
+    "t": "O calendário",
+    "cor": "petr",
+    "itens": [
+     "desempenho a cada 8 a 12 semanas",
+     "submáximo mensal: 5 minutos na mesma velocidade, FC no fim",
+     "teste máximo com triagem prévia"
+    ]
+   },
+   "dir": {
+    "t": "Sinais de que não funciona",
+    "cor": "verm",
+    "itens": [
+     "nenhum treino mudou por causa dela",
+     "números sobem e descem sem padrão",
+     "o atleta falta no dia do teste"
+    ]
+   },
+   "destaque": "Mesma velocidade custando menos batimentos é adaptação; custando mais, fadiga, calor ou doença chegando.",
+   "destaque_cor": "tinta",
+   "fonte": "Revisão, Front Physiol 2014 · frequência como prática corrente"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Testes físicos",
+   "titulo": "Para o tênis: três testes, dois dias, a ordem certa",
+   "regras": [
+    "A pergunta escrita ao lado de cada teste",
+    "Primeiro ciclo como familiarização",
+    "Erro típico antes de comemorar"
+   ],
+   "cards": [
+    {
+     "t": "Preparação física",
+     "x": "Escolhe, padroniza e mantém a linha."
+    },
+    {
+     "t": "Médico",
+     "x": "Faz a triagem antes do teste máximo."
+    },
+    {
+     "t": "Atleta",
+     "x": "Chega descansado e vê a própria série."
+    }
+   ],
+   "quem": "Próxima aula: reintegração ao treinamento coletivo."
+  }
+ ]
+}
