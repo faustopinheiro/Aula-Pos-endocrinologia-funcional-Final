@@ -1,0 +1,353 @@
+{
+ "arquivo": "aulas/MOD09/09-06-prescricao-por-zonas-e-percepcao-de-esforco.md",
+ "modulo": "Preparação Física, Treinamento e Gestão de Carga",
+ "tema": "tinta",
+ "titulo": "Prescrição por zonas e percepção de esforço",
+ "subtitulo": "Âncora, medida e conferência",
+ "nota_capa": "Entra por três aparelhos que discordam sobre o mesmo treino.",
+ "secoes": {
+  "telas": [
+   "A cena e o roteiro.",
+   "capa"
+  ],
+  "porcentagem": [
+   "A âncora e as zonas.",
+   "porcentagem"
+  ],
+  "borg": [
+   "A percepção de esforço.",
+   "borg"
+  ],
+  "medidas": [
+   "A medida do dia e o desempate.",
+   "medidas"
+  ]
+ },
+ "slides": [
+  {
+   "id": "telas",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "Uma hora de bicicleta, três respostas",
+   "frase": "O relógio diz zona quatro. O aplicativo diz zona dois. A planilha diz “ritmo de conversa”.",
+   "apoio": "Um triatleta amador pergunta qual está certo. As três zonas usam âncoras diferentes: uma fórmula de idade, um teste de um ano atrás, e a fala dele, de hoje."
+  },
+  {
+   "id": "roteiro",
+   "tipo": "lista",
+   "eyebrow": "O roteiro",
+   "titulo": "Quatro passos",
+   "itens": [
+    {
+     "t": "Âncora",
+     "x": "o ponto de referência a partir do qual as zonas são calculadas",
+     "cor": "tinta"
+    },
+    {
+     "t": "Medida do dia",
+     "x": "frequência cardíaca, ritmo, potência ou percepção de esforço",
+     "cor": "ambar"
+    },
+    {
+     "t": "Zonas",
+     "x": "poucas, e refeitas quando a âncora envelhece",
+     "cor": "petr"
+    },
+    {
+     "t": "Conferência",
+     "x": "com a fala e com o dia seguinte",
+     "cor": "verm"
+    }
+   ],
+   "gap_itens": 16
+  },
+  {
+   "id": "porcentagem",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Três pessoas com limiares em posições diferentes; a mesma porcentagem do máximo cai em faixas diferentes\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"300\" y=\"30\" width=\"912.0\" height=\"56\" fill=\"#008A7E\" fill-opacity=\"0.35\"/><rect x=\"1212.0\" y=\"30\" width=\"168.00000000000003\" height=\"56\" fill=\"#B07A1C\" fill-opacity=\"0.4\"/><rect x=\"1380.0\" y=\"30\" width=\"119.99999999999997\" height=\"56\" fill=\"#A8322A\" fill-opacity=\"0.4\"/><rect x=\"300\" y=\"120\" width=\"660.0\" height=\"56\" fill=\"#008A7E\" fill-opacity=\"0.35\"/><rect x=\"960.0\" y=\"120\" width=\"323.9999999999999\" height=\"56\" fill=\"#B07A1C\" fill-opacity=\"0.4\"/><rect x=\"1284.0\" y=\"120\" width=\"216.00000000000006\" height=\"56\" fill=\"#A8322A\" fill-opacity=\"0.4\"/><rect x=\"300\" y=\"210\" width=\"528.0\" height=\"56\" fill=\"#008A7E\" fill-opacity=\"0.35\"/><rect x=\"828.0\" y=\"210\" width=\"240.0\" height=\"56\" fill=\"#B07A1C\" fill-opacity=\"0.4\"/><rect x=\"1068.0\" y=\"210\" width=\"432.0\" height=\"56\" fill=\"#A8322A\" fill-opacity=\"0.4\"/><line x1=\"1140.0\" y1=\"14\" x2=\"1140.0\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"4\" stroke-dasharray=\"12 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 46,
+     "w": 240,
+     "t": "Pessoa A: fácil",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 136,
+     "w": 240,
+     "t": "Pessoa B: moderado",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 226,
+     "w": 240,
+     "t": "Pessoa C: forte",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 286,
+     "w": 300,
+     "t": "a mesma % do máximo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo um · a âncora",
+   "titulo": "A mesma porcentagem do máximo, pessoas em estados diferentes",
+   "destaque": "Respostas metabólicas heterogêneas na mesma % do consumo máximo. A recomendação: ancorar nas reservas ou, melhor, nos limiares.",
+   "destaque_cor": "tinta",
+   "fonte": "Esquema, sem valores medidos · J Sci Med Sport 2010 · revisão, Sports Med 2013"
+  },
+  {
+   "id": "ancoras",
+   "tipo": "duas",
+   "eyebrow": "E o máximo costuma ser estimado",
+   "titulo": "Dois erros somados, ou uma âncora medida",
+   "esq": {
+    "t": "Máximo estimado pela idade",
+    "cor": "verm",
+    "itens": [
+     "erro da fórmula no indivíduo",
+     "somado ao erro da porcentagem",
+     "o treino fácil do triatleta vira zona quatro"
+    ]
+   },
+   "dir": {
+    "t": "Limiar medido na pessoa",
+    "cor": "petr",
+    "itens": [
+     "laboratório, quando há",
+     "teste da fala para o primeiro limiar",
+     "esforço contínuo de 30 minutos para o segundo"
+    ]
+   },
+   "destaque_cor": "tinta",
+   "destaque": "Os métodos de campo estão na aula de limiares do módulo de fisiologia."
+  },
+  {
+   "id": "poucas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Passo três · as zonas",
+   "titulo": "Três faixas resolvem quase tudo",
+   "cards": [
+    {
+     "t": "Fácil",
+     "x": "abaixo do primeiro limiar",
+     "cor": "petr"
+    },
+    {
+     "t": "Moderado",
+     "x": "entre os dois limiares",
+     "cor": "ambar"
+    },
+    {
+     "t": "Forte",
+     "x": "acima do segundo limiar",
+     "cor": "verm"
+    }
+   ],
+   "destaque": "Cinco ou sete zonas criam uma precisão que nenhum aparelho entrega. E as zonas envelhecem: refazer a âncora faz parte da prescrição.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "ancorada",
+   "tipo": "frase",
+   "fundo": "tinta",
+   "eyebrow": "A ideia da aula",
+   "frase": "Uma zona só vale se estiver ancorada na pessoa, e não na idade dela.",
+   "apoio": "O resto é conferir se a âncora continua boa, com a ferramenta que mais ajuda nisso: a percepção de esforço."
+  },
+  {
+   "id": "borg",
+   "tipo": "numeros",
+   "eyebrow": "A percepção tem respaldo",
+   "titulo": "Os limiares cabem na escala de Borg",
+   "numeros": [
+    {
+     "n": "2.560",
+     "x": "pessoas; idades, modalidades e níveis diferentes, incluindo doença coronariana",
+     "cor": "tinta"
+    },
+    {
+     "n": "≈ 11 e 13,6",
+     "x": "notas médias no primeiro limiar e no limiar anaeróbio individual, escala de 6 a 20",
+     "cor": "petr"
+    }
+   ],
+   "destaque": "Relação independente de sexo, idade e modalidade. Recomendação: 11 a 13 para quem treina menos; 13 a 15 para esforço mais intenso, ainda aeróbio.",
+   "destaque_cor": "tinta",
+   "fonte": "Eur J Appl Physiol 2013"
+  },
+  {
+   "id": "escalas",
+   "tipo": "duas",
+   "eyebrow": "Duas escalas, sem misturar",
+   "titulo": "O que dá valor à nota são as âncoras",
+   "esq": {
+    "t": "De 6 a 20",
+    "cor": "tinta",
+    "itens": [
+     "a do estudo de 2013",
+     "prescrever intensidade durante o esforço"
+    ]
+   },
+   "dir": {
+    "t": "De 0 a 10",
+    "cor": "petr",
+    "itens": [
+     "registrar o custo da sessão inteira",
+     "assunto da aula de carga interna"
+    ]
+   },
+   "destaque": "Mesmas palavras todas as vezes. Na primeira aplicação: “o treino mais duro que você já fez” é o máximo.",
+   "destaque_cor": "tinta",
+   "fonte": "Borg, Med Sci Sports Exerc 1982"
+  },
+  {
+   "id": "medidas",
+   "tipo": "cards",
+   "por_linha": 3,
+   "eyebrow": "Passo dois · a medida do dia",
+   "titulo": "Cada medida tem um ponto cego",
+   "cards": [
+    {
+     "t": "Frequência cardíaca",
+     "x": "atrasa nos tiros curtos; sobe aos poucos no esforço longo, mais no calor",
+     "cor": "ambar"
+    },
+    {
+     "t": "Ritmo ou potência",
+     "x": "responde na hora; não diz quanto custou naquele dia",
+     "cor": "petr"
+    },
+    {
+     "t": "Percepção de esforço",
+     "x": "integra sono, calor e cansaço; avisa primeiro",
+     "cor": "verm"
+    }
+   ]
+  },
+  {
+   "id": "tabela",
+   "tipo": "tabela",
+   "eyebrow": "Juntando tudo",
+   "titulo": "Três jeitos de reconhecer cada faixa",
+   "cab": [
+    "Faixa",
+    "Fala",
+    "Escala de 6 a 20",
+    "Medida objetiva"
+   ],
+   "larguras": [
+    16,
+    24,
+    26,
+    34
+   ],
+   "linhas": [
+    [
+     "Fácil",
+     "frases inteiras",
+     "até perto de 11",
+     "abaixo do 1º limiar medido"
+    ],
+    [
+     "Moderado",
+     "frases curtas",
+     "em torno de 11 a 14",
+     "entre os limiares"
+    ],
+    [
+     "Forte",
+     "palavras soltas",
+     "acima de 14 a 15",
+     "acima do 2º limiar"
+    ]
+   ],
+   "destaque": "As notas são aproximações de média para começar. Na pessoa, ajustam-se em poucas semanas.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "desempate",
+   "tipo": "tabela",
+   "eyebrow": "Passo quatro · quando os aparelhos discordam",
+   "titulo": "Cada medida manda num tipo de treino",
+   "cab": [
+    "Treino",
+    "Manda",
+    "Por quê"
+   ],
+   "larguras": [
+    26,
+    30,
+    44
+   ],
+   "linhas": [
+    [
+     "Dia fácil",
+     "fala e percepção",
+     "se conversa em frases inteiras, está fácil"
+    ],
+    [
+     "Intervalado",
+     "ritmo ou potência",
+     "a frequência cardíaca atrasa"
+    ],
+    [
+     "Longo e estável",
+     "frequência cardíaca",
+     "ancorada no limiar, atenção à subida no fim"
+    ]
+   ],
+   "destaque": "A conferência final é o dia seguinte. “Fácil” que deixa cansaço pede âncora nova.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Zonas e percepção de esforço",
+   "titulo": "Âncora na pessoa, medida certa para cada treino",
+   "regras": [
+    "Porcentagem de máximo estimado é a âncora mais fraca",
+    "Poucas zonas, refeitas quando envelhecem",
+    "Percepção de esforço integra o dia e tem respaldo"
+   ],
+   "cards": [
+    {
+     "t": "Preparação física",
+     "x": "Ancora as zonas e ensina a escala."
+    },
+    {
+     "t": "Médico",
+     "x": "Interpreta o teste e libera a intensidade alta."
+    },
+    {
+     "t": "Atleta",
+     "x": "Dá a nota com as mesmas âncoras, sempre."
+    }
+   ],
+   "quem": "Próxima aula: carga externa, GPS e métricas de campo."
+  }
+ ]
+}

@@ -268,15 +268,15 @@ como se dosa, como se mede e como se reconhece que não está funcionando. As du
 | 9.2 | Modelos de periodização | 10 | 12 | DECISÃO | [slides](https://claude.ai/artifact/DZ7dwBKYPaF5DbE4digaTf) |
 | 9.3 | Treino de força por objetivo | 12 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/QvrTKrik8kcGxFAW7AToQL) |
 | 9.4 | Velocidade, aceleração e mudança de direção | 10 | 12 | NÚMERO | [slides](https://claude.ai/artifact/HpGPWCbuvwYCcfphosLz62) |
+| 9.5 | Treino aeróbio contínuo e intervalado | 10 | 12 | CASO | [slides](https://claude.ai/artifact/Ldm1gbYuqfBWZip2YEkBCE) |
+| 9.6 | Prescrição por zonas e percepção de esforço | 10 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/3MrSoxxbYX7C7KtpfXVco9) |
+| 9.7 | Carga externa: GPS e métricas de campo | 10 | 12 | ERRO | [slides](https://claude.ai/artifact/17Lc4smNh4SGmHfkkX6isN) |
+| 9.8 | Carga interna | 10 | 12 | DECISÃO | [slides](https://claude.ai/artifact/SrdvzCZqoNVEbfLABVJM2A) |
 
 Ainda sem versão nova:
 
 | Slot | Aula | Origem | Estado |
 |---|---|---|---|
-| 9.5 | Treinamento aeróbio contínuo e intervalado | M8-A02 | PRONTA |
-| 9.6 | Prescrição por zonas e por percepção de esforço | M6-A02 | PRONTA |
-| 9.7 | Carga externa: GPS e métricas de campo | M6-A06 | PRONTA |
-| 9.8 | Carga interna: PSE, FC e questionários | M1-A04 + M6-A02 + M6-A03 | FUNDIR |
 | 9.9 | Índices de carga aguda e crônica: uso, limitação e crítica | M9-A03 + M9-A04 | FUNDIR |
 | 9.10 | Testes físicos: escolher, aplicar e interpretar | M6-A05 + M6-A07 | FUNDIR |
 | 9.11 | Reintegração ao treinamento coletivo | M18-A05 | PRONTA |
