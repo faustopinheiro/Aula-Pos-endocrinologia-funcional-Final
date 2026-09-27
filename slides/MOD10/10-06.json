@@ -1,0 +1,920 @@
+{
+ "arquivo": "aulas/MOD10/10-06-psicologia-da-lesao-do-impacto-ao-medo-de-nova-lesao.md",
+ "modulo": "Psicologia do Esporte e Saúde Mental",
+ "tema": "anil",
+ "titulo": "Psicologia da lesão",
+ "subtitulo": "Do impacto ao medo de nova lesão",
+ "nota_capa": "Uma judoca, um randori, e a linha da lesão que a ressonância não mostra.",
+ "secoes": {
+  "estacoes": [
+   "O impacto e a leitura.",
+   "capa"
+  ],
+  "sentidos": [
+   "Humor, identidade e grupo.",
+   "sentidos"
+  ],
+  "ciclo": [
+   "Dor, catastrofização e medo.",
+   "ciclo"
+  ],
+  "frases": [
+   "O que se diz.",
+   "frases"
+  ]
+ },
+ "slides": [
+  {
+   "id": "estacoes",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Linha do tempo do caso em quatro estações, com uma linha do joelho e outra da cabeça que começam no mesmo ponto\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><path d=\"M140 150 H1560\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><path d=\"M140 150 C 300 150, 300 330, 460 330 H1560\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><circle cx=\"140\" cy=\"150\" r=\"22\" fill=\"#12202E\"/><g transform=\"translate(100.0 20.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 9l4.5 1l3 2.5M13 21v-8l3-5.5\"/><path d=\"m8 4.5l4 2l4 1l4 3.5l-2 3.5M15.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><circle cx=\"580\" cy=\"150\" r=\"14\" fill=\"#3A6EA5\"/><circle cx=\"580\" cy=\"330\" r=\"14\" fill=\"#A8322A\"/><g transform=\"translate(540.0 20.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m17 8v-3H2m0-6v9m10-3h10v-2a3 3 0 0 0-3-3h-7z\"/></g><circle cx=\"1020\" cy=\"150\" r=\"14\" fill=\"#3A6EA5\"/><circle cx=\"1020\" cy=\"330\" r=\"14\" fill=\"#A8322A\"/><g transform=\"translate(980.0 20.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0m0 17v-5l-1-1v-4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4l-1 1v5m6-17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m0 17v-4h-2l2-6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1l2 6h-2v4\"/></g><circle cx=\"1460\" cy=\"150\" r=\"14\" fill=\"#3A6EA5\"/><circle cx=\"1460\" cy=\"330\" r=\"14\" fill=\"#A8322A\"/><g transform=\"translate(1420.0 20.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 1580,
+     "y": 132,
+     "w": 84,
+     "t": "joelho",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1580,
+     "y": 312,
+     "w": 84,
+     "t": "cabeça",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": -20,
+     "y": 370,
+     "w": 320,
+     "t": "o dia da lesão",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": -30,
+     "y": 420,
+     "w": 340,
+     "t": "“acabou o meu ano”",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 420,
+     "y": 370,
+     "w": 320,
+     "t": "terceira semana",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 410,
+     "y": 420,
+     "w": 340,
+     "t": "“fora do tatame eu não sei quem eu sou”",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 860,
+     "y": 370,
+     "w": 320,
+     "t": "quarto mês",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 850,
+     "y": 420,
+     "w": 340,
+     "t": "“quando pegam a minha perna, o corpo não deixa”",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1300,
+     "y": 370,
+     "w": 320,
+     "t": "sétimo mês",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1290,
+     "y": 420,
+     "w": 340,
+     "t": "“ela pode lutar na próxima?”",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Uma judoca na casa dos vinte anos",
+   "titulo": "A lesão acontece no joelho e na cabeça no mesmo segundo",
+   "fonte": "Ruptura do ligamento cruzado anterior num randori, três meses antes de uma seletiva · caso ilustrativo, sem desfecho"
+  },
+  {
+   "id": "cascata",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Cascata do modelo integrado: o que a atleta traz, a lesão, a leitura como dobradiça, emoção e comportamento que se alimentam, a recuperação; por cima, moderadores pessoais e da situação\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"1664\" height=\"70\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"130\" width=\"330\" height=\"300\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><line x1=\"340\" y1=\"280\" x2=\"420\" y2=\"280\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><path d=\"M560 170 L680 280 L560 390 L440 280 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"6\"/><line x1=\"690\" y1=\"250\" x2=\"820\" y2=\"190\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"690\" y1=\"310\" x2=\"820\" y2=\"370\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"830\" y=\"130\" width=\"380\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"830\" y=\"310\" width=\"380\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M980 256 V304\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><path d=\"M1060 304 V256\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><line x1=\"1220\" y1=\"280\" x2=\"1310\" y2=\"280\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1320\" y=\"130\" width=\"344\" height=\"300\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 18,
+     "w": 1624,
+     "t": "Moderadores: fatores pessoais e da situação · momento da temporada · pressão de seleção · apoio em volta",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 150,
+     "w": 290,
+     "t": "Antes da lesão",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 210,
+     "w": 290,
+     "t": "personalidade · história de estresse · recursos para lidar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.4
+    },
+    {
+     "x": 460,
+     "y": 258,
+     "w": 200,
+     "t": "a leitura",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 430,
+     "y": 440,
+     "w": 260,
+     "t": "“acabou o meu ano” ou “disputo a próxima”",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 850,
+     "y": 172,
+     "w": 340,
+     "t": "emoção",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 352,
+     "w": 340,
+     "t": "comportamento",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 450,
+     "w": 380,
+     "t": "uma alimenta a outra, o tempo todo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 150,
+     "w": 310,
+     "t": "Recuperação",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1340,
+     "y": 210,
+     "w": 300,
+     "t": "física e psicológica",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.4
+    }
+   ],
+   "eyebrow": "O modelo integrado de resposta à lesão",
+   "titulo": "A leitura da lesão decide o que vem depois",
+   "fonte": "Modelo integrado, J Appl Sport Psychol 1998 · a resposta é dinâmica, não segue fases fixas"
+  },
+  {
+   "id": "sentidos",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Dois círculos, lesão e sintomas depressivos, com setas nos dois sentidos; ao lado, um mostrador de identidade atlética\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"190\" cy=\"220\" r=\"170\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"5\"/><circle cx=\"730\" cy=\"220\" r=\"170\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"5\"/><path d=\"M370 170 Q 460 110 550 170\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><path d=\"M550 270 Q 460 330 370 270\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><g transform=\"translate(140.0 120.0) scale(2.0833)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M24 40c8.837 0 16-7.163 16-16a15.95 15.95 0 0 0-4.656-11.283l-15.349 9.527C19.916 24.34 18.83 26 17.5 26c-.676 0-1.29-.43-1.74-1.127l-6.91 4.289C10.999 35.466 16.97 40 24 40M7.072 30.134c-1.9.031-2.645-7.85-.288-11.404C9.037 11.36 15.893 6 24 6q1.375.002 2.697.2c3.217-.815 10.39 3.351 10.196 5.24A17.94 17.94 0 0 1 42 24c0 9.941-8.059 18-18 18c-7.787 0-14.42-4.945-16.928-11.866m2.903-13.841c2.652-4.816 7.713-8.12 13.56-8.286zm24.319-5.278L7.592 27.59c-.149-.607-.26-1.427-.28-2.38c-.028-1.34.13-2.746.484-3.906c.368-1.204.854-1.847 1.258-2.103L27.077 8.186l.028-.019h.001c.014-.007.122-.056.397-.068c.322-.014.76.029 1.305.154c1.092.252 2.366.778 3.526 1.429c.815.457 1.486.926 1.96 1.333M33 22c0 2.21-1.12 4-2.5 4S28 24.21 28 22s1.12-4 2.5-4s2.5 1.79 2.5 4m-3.567 9.544C28.345 30.026 26.272 29 23.893 29c-2.469 0-4.608 1.104-5.66 2.717c-.453.696-.886 2.802.767 2.283c4.813-1.6 5.28-1.542 10 0c1.317.472 1.07-1.424.674-2.115c-.048-.083-.106-.16-.164-.238z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(680.0 120.0) scale(4.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01\"/><path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/></g></g><path d=\"M1330 330 L1100 330 A230 230 0 0 1 1167 167 Z\" fill=\"#E6E3DA\"/><path d=\"M1330 330 L1167 167 A230 230 0 0 1 1330 100 Z\" fill=\"#F4EAD6\"/><path d=\"M1330 330 L1330 100 A230 230 0 0 1 1493 167 Z\" fill=\"#E9C88A\"/><path d=\"M1330 330 L1493 167 A230 230 0 0 1 1560 330 Z\" fill=\"#A8322A\"/><line x1=\"1330\" y1=\"330\" x2=\"1505\" y2=\"234\" stroke=\"#12202E\" stroke-width=\"8\" stroke-linecap=\"round\"/><circle cx=\"1330\" cy=\"330\" r=\"16\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 300,
+     "w": 300,
+     "t": "lesão",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 290,
+     "w": 240,
+     "t": "sintomas depressivos",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 420,
+     "w": 920,
+     "t": "9 estudos de 3.677 · associação nos dois sentidos · mais sintomas em mulheres",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 350,
+     "w": 200,
+     "t": "vários papéis",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1480,
+     "y": 350,
+     "w": 184,
+     "t": "só atleta",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 410,
+     "w": 500,
+     "t": "identidade mais forte, sintomas mais graves depois da lesão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Terceira semana",
+   "titulo": "Lesão e sintoma depressivo andam nos dois sentidos",
+   "fonte": "Revisões sistemáticas de 2023: atletas; atletas jovens · a lesão é momento de rastreio de humor"
+  },
+  {
+   "id": "grupo",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"O grupo de treino em círculo no tatame e a atleta lesionada fora dele; três setas trazem ela de volta: apoio emocional, de informação e prático\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"760\" height=\"480\" rx=\"20\" fill=\"#F4EAD6\"/><g transform=\"translate(564.0 224.0) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(512.5 333.3) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(382.2 391.4) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(234.0 371.2) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(137.3 282.1) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(137.3 165.9) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(234.0 76.8) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(382.2 56.6) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(512.5 114.7) scale(1.5000)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(330.0 210.0) scale(4.1667)\"><g fill=\"none\" stroke=\"#C9A66B\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 9l4.5 1l3 2.5M13 21v-8l3-5.5\"/><path d=\"m8 4.5l4 2l4 1l4 3.5l-2 3.5M15.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><g transform=\"translate(1440.0 170.0) scale(2.7083)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1560.0 230.0) scale(1.8750)\"><g fill=\"#A8322A\"><path fill-rule=\"evenodd\" d=\"M30.031 10A2 2 0 0 0 32 8V4H16v4a2 2 0 0 0 1.958 2l.014.315c.02.404.056 1.027.117 1.914c.123 1.773.35 4.602.768 8.839c.15 1.519 1.04 2.877 1.747 3.953l.079.12c.384.587.716 1.1.959 1.599c.24.494.355.902.355 1.262c0 .258 0 1.008.002 1.692L22 30.999a1 1 0 0 0 1 1v7.003a.998.998 0 1 0 1.997 0v-.007H25v-6.98h.01a1 1 0 0 0 1-1v-3.041c0-.356.115-.757.357-1.244c.245-.491.58-.996.969-1.576l.064-.096c.715-1.066 1.627-2.427 1.748-3.976a5204 5204 0 0 1 .853-10.71zm-2.024.21l.018-.21H19.96l.01.216c.02.39.054 1 .114 1.875c.038.534.084 1.167.143 1.91h7.476zm-3.873 16.794a5.8 5.8 0 0 1 .443-1.166c.308-.618.713-1.222 1.08-1.772l.017-.024c.797-1.192 1.404-2.14 1.48-3.117l.39-4.925h-7.15c.117 1.36.266 2.973.453 4.872c.098.991.716 1.964 1.509 3.174c.37.566.777 1.187 1.084 1.82c.173.354.326.735.428 1.138z\" clip-rule=\"evenodd\"/><path d=\"M22.302 41.966c.134-.632 1.038-.973 1.684-.973c.658 0 1.568.34 1.707.983l.15.686c.093.432-.108.877-.52 1.037c-.388.151-.886.3-1.337.3c-.422 0-.914-.15-1.303-.3c-.414-.162-.62-.608-.527-1.043z\"/></g></g><line x1=\"1380\" y1=\"140\" x2=\"800\" y2=\"140\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"1380\" y1=\"290\" x2=\"800\" y2=\"290\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"1380\" y1=\"440\" x2=\"800\" y2=\"440\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 840,
+     "y": 60,
+     "w": 300,
+     "t": "emocional",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 840,
+     "y": 100,
+     "w": 520,
+     "t": "alguém pergunta e ouve",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 210,
+     "w": 300,
+     "t": "de informação",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 840,
+     "y": 250,
+     "w": 520,
+     "t": "prazos honestos, o que é esperado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 360,
+     "w": 300,
+     "t": "prático",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 840,
+     "y": 400,
+     "w": 520,
+     "t": "um lugar e um papel no dojô",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 330,
+     "w": 264,
+     "t": "“ninguém do dojô me liga”",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O apoio que some",
+   "titulo": "A lesão tira a atleta do grupo quando ela mais precisa dele",
+   "fonte": "Fortalecimento no canto do tatame, aquecimento das crianças, observar a pegada de um colega"
+  },
+  {
+   "id": "ciclo",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Ciclo do medo e da evitação: dor, catastrofização, medo, evitação e hipervigilância, desuso e incapacidade, de volta à dor; atalho sem medo para enfrentamento e recuperação\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M1144 100 Q 1307 120 1395 192\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M1446 271 Q 1459 355 1351 419\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M1215 468 Q 1060 500 905 468\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M769 419 Q 661 355 674 271\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M725 192 Q 813 120 976 100\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"935\" y=\"30\" width=\"250\" height=\"80\" rx=\"40\" fill=\"#12202E\" stroke=\"#A8322A\" stroke-width=\"0\"/><rect x=\"1353\" y=\"182\" width=\"250\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1194\" y=\"428\" width=\"250\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"676\" y=\"428\" width=\"250\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"517\" y=\"182\" width=\"250\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M930 70.0 H 330\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"20\" width=\"320\" height=\"110\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"160\" y1=\"136\" x2=\"160\" y2=\"250\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"256\" width=\"320\" height=\"110\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 945,
+     "y": 53,
+     "w": 230,
+     "t": "dor",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1363,
+     "y": 205,
+     "w": 230,
+     "t": "catastrofização",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1204,
+     "y": 438,
+     "w": 230,
+     "t": "medo da dor e do movimento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 686,
+     "y": 438,
+     "w": 230,
+     "t": "evitação e hipervigilância",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 527,
+     "y": 192,
+     "w": 230,
+     "t": "desuso, humor, incapacidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 10,
+     "y": 38,
+     "w": 300,
+     "t": "pouco medo",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 78,
+     "w": 300,
+     "t": "enfrentamento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 290,
+     "w": 300,
+     "t": "recuperação",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 420,
+     "w": 560,
+     "t": "O ciclo não começa na dor. Começa na leitura da dor.",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O modelo de medo e evitação",
+   "titulo": "A dor lida como ameaça fecha um círculo",
+   "fonte": "Modelo de medo e evitação, Pain 2000 · proposto para a cronificação em uma minoria com dor lombar aguda"
+  },
+  {
+   "id": "lentes",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Três lentes: ruminação, magnificação e desamparo, cada uma com a frase da judoca e a resposta da equipe\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"540\" rx=\"22\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><circle cx=\"268\" cy=\"100\" r=\"74\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><g transform=\"translate(218.0 50.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g><line x1=\"40\" y1=\"360\" x2=\"496\" y2=\"360\" stroke=\"#3A6EA5\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"540\" rx=\"22\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"832\" cy=\"100\" r=\"74\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(782.0 50.0) scale(4.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><line x1=\"604\" y1=\"360\" x2=\"1060\" y2=\"360\" stroke=\"#B07A1C\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"540\" rx=\"22\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"1396\" cy=\"100\" r=\"74\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(1346.0 50.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01M9 15h6\"/></g><line x1=\"1168\" y1=\"360\" x2=\"1624\" y2=\"360\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"8 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 190,
+     "w": 496,
+     "t": "Ruminação",
+     "tam": 36,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 256,
+     "w": 476,
+     "t": "“eu passo o dia pensando no joelho”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 30,
+     "y": 384,
+     "w": 476,
+     "t": "estrutura: plano diário e metas curtas de processo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 584,
+     "y": 190,
+     "w": 496,
+     "t": "Magnificação",
+     "tam": 36,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 594,
+     "y": 256,
+     "w": 476,
+     "t": "“essa pontada quer dizer que o enxerto soltou”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 594,
+     "y": 384,
+     "w": 476,
+     "t": "informação com dado: o esperado e o sinal de alarme de verdade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1148,
+     "y": 190,
+     "w": 496,
+     "t": "Desamparo",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1158,
+     "y": 256,
+     "w": 476,
+     "t": "“não depende de mim”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1158,
+     "y": 384,
+     "w": 476,
+     "t": "devolver controle: tarefas dela, progresso registrado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "As três formas de catastrofizar",
+   "titulo": "Cada forma pede uma resposta diferente",
+   "fonte": "Escala de catastrofização da dor, 1995: 13 itens de 0 a 4, três dimensões"
+  },
+  {
+   "id": "curvas",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Esquema: a capacidade física sobe ao longo dos meses; o medo que protege desce acompanhando; o medo que persiste fica alto; faixa no quarto mês\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><line x1=\"100\" y1=\"440\" x2=\"1300\" y2=\"440\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"100\" y1=\"440\" x2=\"100\" y2=\"40\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"655\" y=\"40\" width=\"90\" height=\"400\" fill=\"#F4EAD6\"/><polyline points=\"100,435 115,435 130,434 145,433 160,432 175,431 190,430 205,429 220,427 235,426 250,424 265,422 280,419 295,417 310,414 325,410 340,407 355,403 370,398 385,393 400,388 415,382 430,376 445,369 460,362 475,354 490,346 505,337 520,328 535,319 550,309 565,300 580,290 595,280 610,271 625,261 640,252 655,243 670,234 685,226 700,218 715,211 730,204 745,198 760,192 775,187 790,182 805,177 820,173 835,170 850,166 865,163 880,161 895,158 910,156 925,154 940,153 955,151 970,150 985,149 1000,148 1015,147 1030,146 1045,145 1060,145 1075,144 1090,144 1105,143 1120,143 1135,142 1150,142 1165,142 1180,142 1195,141 1210,141 1225,141 1240,141 1255,141 1270,141 1285,141 1300,141\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"7\"/><polyline points=\"100,90 115,103 130,115 145,127 160,138 175,149 190,159 205,169 220,178 235,187 250,196 265,204 280,212 295,219 310,227 325,233 340,240 355,246 370,252 385,258 400,263 415,268 430,273 445,278 460,283 475,287 490,291 505,295 520,299 535,302 550,306 565,309 580,312 595,315 610,318 625,321 640,324 655,326 670,328 685,331 700,333 715,335 730,337 745,339 760,341 775,342 790,344 805,346 820,347 835,349 850,350 865,351 880,353 895,354 910,355 925,356 940,357 955,358 970,359 985,360 1000,361 1015,362 1030,363 1045,363 1060,364 1075,365 1090,366 1105,366 1120,367 1135,367 1150,368 1165,368 1180,369 1195,369 1210,370 1225,370 1240,371 1255,371 1270,372 1285,372 1300,372\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><polyline points=\"100,80 115,81 130,82 145,84 160,85 175,86 190,87 205,88 220,89 235,89 250,90 265,91 280,91 295,92 310,92 325,92 340,92 355,92 370,92 385,91 400,91 415,90 430,90 445,89 460,88 475,87 490,86 505,85 520,84 535,83 550,82 565,80 580,79 595,78 610,77 625,76 640,75 655,74 670,73 685,72 700,71 715,70 730,70 745,69 760,69 775,68 790,68 805,68 820,68 835,68 850,68 865,69 880,69 895,70 910,71 925,72 940,72 955,73 970,74 985,76 1000,77 1015,78 1030,79 1045,80 1060,81 1075,83 1090,84 1105,85 1120,86 1135,87 1150,88 1165,89 1180,90 1195,90 1210,91 1225,91 1240,92 1255,92 1270,92 1285,92 1300,92\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-dasharray=\"16 10\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1320,
+     "y": 40,
+     "w": 344,
+     "t": "medo que persiste",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 90,
+     "w": 344,
+     "t": "descolado da capacidade: atrapalha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1320,
+     "y": 170,
+     "w": 344,
+     "t": "capacidade física",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 360,
+     "w": 344,
+     "t": "medo que protege",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 410,
+     "w": 344,
+     "t": "desce com a capacidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 450,
+     "w": 240,
+     "t": "4º mês: o parceiro pega a perna",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 480,
+     "w": 120,
+     "t": "lesão",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 480,
+     "w": 140,
+     "t": "8 meses",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quarto mês: o medo de nova lesão",
+   "titulo": "O medo protege no começo e atrapalha quando fica",
+   "fonte": "Esquema, sem valores medidos · depois da reconstrução do cruzado, cerca de 55% voltam ao esporte competitivo"
+  },
+  {
+   "id": "frases",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Duas colunas de balões de fala: à esquerda, o que piora; à direita, o que ajuda\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><path d=\"M0 60 h720 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-600 l-30 22 v-22 h-74 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z\" fill=\"#F3E1DE\"/><g transform=\"translate(20.0 86.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><path d=\"M0 180 h720 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-600 l-30 22 v-22 h-74 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z\" fill=\"#F3E1DE\"/><g transform=\"translate(20.0 206.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><path d=\"M0 300 h720 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-600 l-30 22 v-22 h-74 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z\" fill=\"#F3E1DE\"/><g transform=\"translate(20.0 326.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><path d=\"M0 420 h720 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-600 l-30 22 v-22 h-74 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z\" fill=\"#F3E1DE\"/><g transform=\"translate(20.0 446.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><path d=\"M860 60 h788 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-74 v22 l-30 -22 h-684 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z\" fill=\"#DDEFEC\"/><g transform=\"translate(880.0 86.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><path d=\"M860 180 h788 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-74 v22 l-30 -22 h-684 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z\" fill=\"#DDEFEC\"/><g transform=\"translate(880.0 206.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><path d=\"M860 300 h788 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-74 v22 l-30 -22 h-684 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z\" fill=\"#DDEFEC\"/><g transform=\"translate(880.0 326.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><path d=\"M860 420 h788 a16 16 0 0 1 16 16 v70 a16 16 0 0 1 -16 16 h-74 v22 l-30 -22 h-684 a16 16 0 0 1 -16 -16 v-70 a16 16 0 0 1 16 -16 Z\" fill=\"#DDEFEC\"/><g transform=\"translate(880.0 446.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 780,
+     "t": "Piora",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 0,
+     "w": 804,
+     "t": "Ajuda",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 90,
+     "w": 620,
+     "t": "“não é nada, logo você volta”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 210,
+     "w": 620,
+     "t": "“você tem que ser forte”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 330,
+     "w": 620,
+     "t": "“para de pensar nisso”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 450,
+     "w": 620,
+     "t": "“o exame está normal, pode ir”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 78,
+     "w": 690,
+     "t": "“vai levar cerca de tanto tempo; esta é a fase de agora”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 198,
+     "w": 690,
+     "t": "“o que você está sentindo é esperado”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 318,
+     "w": 690,
+     "t": "“isso depende de você esta semana”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 438,
+     "w": 690,
+     "t": "“o joelho passou; a confiança ainda não, e isso tem tratamento”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que se diz",
+   "titulo": "A conversa depois da lesão já é tratamento",
+   "fonte": "Nomear o medo o tira do campo do caráter e o coloca no campo do tratamento"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Psicologia da lesão",
+   "titulo": "“Ela pode lutar na próxima?”",
+   "regras": [
+    "A leitura da lesão decide a emoção e o comportamento",
+    "Manter no grupo, com um papel; rastrear humor na lesão",
+    "O medo que protege desce; o que fica se trata"
+   ],
+   "cards": [
+    {
+     "ic": "t:users",
+     "t": "Quem treina e reabilita",
+     "x": "Transforma cada sessão em progresso visível; ouve a frase e reconhece a catastrofização."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Médico",
+     "x": "Explica a lesão com prazos honestos e rastreia o humor nos momentos de risco."
+    },
+    {
+     "ic": "h:psychology",
+     "t": "Psicologia do esporte",
+     "x": "Entra quando o medo não cede, o humor cai ou a identidade está em jogo."
+    }
+   ]
+  }
+ ]
+}
