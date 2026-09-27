@@ -1,0 +1,1165 @@
+{
+ "arquivo": "aulas/MOD10/10-10-ambiente-seguro-assedio-abuso-e-protecao.md",
+ "modulo": "Psicologia do Esporte e Saúde Mental",
+ "tema": "anil",
+ "titulo": "Ambiente seguro",
+ "subtitulo": "Assédio, abuso e proteção no esporte",
+ "nota_capa": "Uma atleta que passou a pedir horário em que o treinador não estivesse.",
+ "secoes": {
+  "piramide": [
+   "O que é e quanto.",
+   "capa"
+  ],
+  "sinais": [
+   "Reconhecer e ouvir.",
+   "sinais"
+  ],
+  "fluxo": [
+   "Comunicar.",
+   "fluxo"
+  ],
+  "planta": [
+   "Prevenir.",
+   "planta"
+  ]
+ },
+ "slides": [
+  {
+   "id": "piramide",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Pirâmide de quatro camadas: na base larga a violência psicológica; acima a física, a sexual e a negligência; uma seta sai da base para cima: o núcleo das outras\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M420 20 H540 L690 130 H270 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M270 140 H690 L840 250 H120 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M120 260 H840 L990 370 H-30 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M-30 380 H990 L1140 490 H-180 Z\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M1000 480 C 1080 380, 1080 160, 1000 60\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 280,
+     "y": 58,
+     "w": 400,
+     "t": "negligência",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 280,
+     "y": 178,
+     "w": 400,
+     "t": "sexual",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 280,
+     "y": 298,
+     "w": 400,
+     "t": "física",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 280,
+     "y": 418,
+     "w": 400,
+     "t": "psicológica",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1110,
+     "y": 220,
+     "w": 554,
+     "t": "o núcleo das outras",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1110,
+     "y": 290,
+     "w": 554,
+     "t": "humilhação · desprezo · gritos · bode expiatório · rejeição · isolamento · ameaça",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.4
+    },
+    {
+     "x": 1110,
+     "y": 40,
+     "w": 554,
+     "t": "em todos os esportes e em todos os níveis",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma atleta adolescente no atletismo de base",
+   "titulo": "A violência psicológica é o núcleo das outras",
+   "fonte": "Consenso do Comitê Olímpico Internacional, 2016 · atualizado em 2024: a proteção é responsabilidade de todos"
+  },
+  {
+   "id": "prevalencia",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Barras de violência na infância dentro do esporte: psicológica 38%, física 11%, sexual 14%; em cada barra a parte grave: 9%, 8% e 6%; ao lado, os grupos que relataram mais\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"80\" y=\"78\" width=\"200\" height=\"342\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"80\" y=\"339\" width=\"200\" height=\"81\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"340\" y=\"321\" width=\"200\" height=\"99\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"340\" y=\"348\" width=\"200\" height=\"72\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"600\" y=\"294\" width=\"200\" height=\"126\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"600\" y=\"366\" width=\"200\" height=\"54\" rx=\"10\" fill=\"#A8322A\"/><line x1=\"40\" y1=\"420\" x2=\"860\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1000.0 60.0) scale(1.3333)\"><path fill=\"#3A6EA5\" d=\"M17 24c3.867 0 7-3.133 7-7s-3.133-7-7-7s-7 3.133-7 7s3.133 7 7 7m22-3.5c0 3.039-2.461 5.5-5.5 5.5a5.5 5.5 0 0 1-5.5-5.5c0-3.039 2.461-5.5 5.5-5.5s5.5 2.461 5.5 5.5M17 26c2.734 0 7.183.851 10.101 2.545C28.293 29.758 29 31.081 29 32.4V38H4v-5.6c0-4.256 8.661-6.4 13-6.4m27 12H31v-5.6c0-1.416-.511-2.72-1.324-3.883c1.541-.344 3.058-.517 4.217-.517C37.62 28 44 29.787 44 33.333z\"/></g><g transform=\"translate(1000.0 155.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><g transform=\"translate(1000.0 250.0) scale(1.3333)\"><g fill=\"#3A6EA5\"><path d=\"M30.5 9.5a3.5 3.5 0 1 1-7 0a3.5 3.5 0 0 1 7 0m-5.87 22.873l1.364-.098Q26 32.138 26 32a6 6 0 0 0-8.482-5.464c.043 1.15.162 2.076.34 2.57c1.364 3.791 6.772 3.267 6.772 3.267\"/><path fill-rule=\"evenodd\" d=\"M38.339 37.403c.9 2.074-2.202 3.624-3.433 1.764c-1.232-1.86-4.286-7.224-4.286-7.224l-.62.045V32c0 5.523-4.477 10-10 10s-10-4.477-10-10c0-4.291 2.703-7.952 6.5-9.37v-5.88l-2.6-1.95l1.2-1.6l3.4 2.55v2.198c.252-.785.557-1.465.92-1.978c2.06-2.909 2.463-3.123 4.736-2.909s6.109 7.796 6.109 7.796s4.83 1.145 6.677 1.788c1.847.644.686 3.171-.498 3.124c-1.183-.048-7.671-.692-8.547-1.192c-.876-.501-2.344-2.91-2.344-2.91l-.144 1.92a10.1 10.1 0 0 1 2.844 2.765c1.803.157 3.851.322 4.45.322c1.137 0 1.397.787 1.397.787s3.339 7.868 4.239 9.942M25.397 26.095q-.081-.076-.166-.148A7.97 7.97 0 0 0 20 24a8 8 0 0 0-2.478.391a8 8 0 1 0 7.876 1.704\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1000.0 345.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v3M8 4v6m8-6v6m-4 8.5L9 20l.5-3.5l-2-2l3-.5l1.5-3l1.5 3l3 .5l-2 2L15 20z\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 16,
+     "w": 200,
+     "t": "38%",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 432,
+     "w": 200,
+     "t": "psicológica",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 347,
+     "w": 200,
+     "t": "grave 9%",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 259,
+     "w": 200,
+     "t": "11%",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 340,
+     "y": 432,
+     "w": 200,
+     "t": "física",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 356,
+     "w": 200,
+     "t": "grave 8%",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 232,
+     "w": 200,
+     "t": "14%",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 600,
+     "y": 432,
+     "w": 200,
+     "t": "sexual",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 374,
+     "w": 200,
+     "t": "grave 6%",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1090,
+     "y": 76,
+     "w": 560,
+     "t": "minorias étnicas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1090,
+     "y": 171,
+     "w": 560,
+     "t": "pessoas LGB",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1090,
+     "y": 266,
+     "w": 560,
+     "t": "pessoas com deficiência",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1090,
+     "y": 361,
+     "w": 560,
+     "t": "nível internacional",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 0,
+     "w": 600,
+     "t": "Relataram mais:",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Quanto",
+   "titulo": "Não é raro, e é mais comum onde há mais poder e menos voz",
+   "fonte": "Holanda e Bélgica, 2016: mais de 4.000 adultos que praticaram esporte organizado antes dos 18 anos"
+  },
+  {
+   "id": "sinais",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Duas colunas de sinais: na atleta e no ambiente; entre elas, uma escada leve com a legenda parece cuidado\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"0\" y=\"70\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#DEE7F1\"/><rect x=\"964\" y=\"70\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#F3E1DE\"/><g transform=\"translate(16.0 82.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g><g transform=\"translate(980.0 82.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m12 17.75l-6.172 3.245l1.179-6.873l-5-4.867l6.9-1l3.086-6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z\"/></g><rect x=\"0\" y=\"166\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#DEE7F1\"/><rect x=\"964\" y=\"166\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#F3E1DE\"/><g transform=\"translate(16.0 178.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01M9 15h6\"/></g><g transform=\"translate(980.0 178.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 9a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm9-1v13\"/><path d=\"M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7m2.5-4a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5a2.5 2.5 0 0 1 0 5\"/></g></g><rect x=\"0\" y=\"262\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#DEE7F1\"/><rect x=\"964\" y=\"262\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#F3E1DE\"/><g transform=\"translate(16.0 274.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><g transform=\"translate(980.0 274.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2zm5-1h2m-1 13v.01\"/></g><rect x=\"0\" y=\"358\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#DEE7F1\"/><rect x=\"964\" y=\"358\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#F3E1DE\"/><g transform=\"translate(16.0 370.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><g transform=\"translate(980.0 370.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/><path d=\"M5 17H3v-6l2-5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0H9m-6-6h15m-6 0V6\"/></g></g><rect x=\"0\" y=\"454\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#DEE7F1\"/><rect x=\"964\" y=\"454\" width=\"700\" height=\"80\" rx=\"12\" fill=\"#F3E1DE\"/><g transform=\"translate(16.0 466.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(980.0 466.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><line x1=\"760\" y1=\"480\" x2=\"904\" y2=\"480\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"760\" y1=\"390\" x2=\"904\" y2=\"390\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"760\" y1=\"300\" x2=\"904\" y2=\"300\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"760\" y1=\"210\" x2=\"904\" y2=\"210\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"760\" y1=\"120\" x2=\"904\" y2=\"120\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"760\" y1=\"60\" x2=\"760\" y2=\"500\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"904\" y1=\"60\" x2=\"904\" y2=\"500\" stroke=\"#B07A1C\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 700,
+     "t": "Na atleta",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 964,
+     "y": 0,
+     "w": 700,
+     "t": "No ambiente",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 94,
+     "w": 600,
+     "t": "evita um treino, um horário ou uma pessoa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1054,
+     "y": 94,
+     "w": 600,
+     "t": "atenção especial a uma atleta só",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 190,
+     "w": 600,
+     "t": "muda de comportamento, se isola",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1054,
+     "y": 190,
+     "w": 600,
+     "t": "presentes",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 286,
+     "w": 600,
+     "t": "cai de rendimento sem motivo claro",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1054,
+     "y": 286,
+     "w": 600,
+     "t": "mensagens privadas e segredos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 382,
+     "w": 600,
+     "t": "queixas físicas sem explicação",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1054,
+     "y": 382,
+     "w": 600,
+     "t": "caronas; afastar do grupo e da família",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 478,
+     "w": 600,
+     "t": "medo de ficar sozinha com alguém",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1054,
+     "y": 478,
+     "w": 600,
+     "t": "testes pequenos de limite, que crescem",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 510,
+     "w": 264,
+     "t": "parece cuidado",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Primeira decisão: reconhecer",
+   "titulo": "O aliciamento parece cuidado até deixar de parecer",
+   "fonte": "Nenhum sinal prova nada · a pergunta útil: essa relação acontece de forma visível, dentro das regras?"
+  },
+  {
+   "id": "ouvir",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Dois balões: o que fazer quando alguém conta, e o que não fazer, riscado; embaixo, a frase que não promete segredo\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><path d=\"M0 20 h760 a20 20 0 0 1 20 20 v320 a20 20 0 0 1 -20 20 h-620 l-50 50 v-50 h-90 a20 20 0 0 1 -20 -20 v-320 a20 20 0 0 1 20 -20 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M884 20 h760 a20 20 0 0 1 20 20 v320 a20 20 0 0 1 -20 20 h-90 v50 l-50 -50 h-620 a20 20 0 0 1 -20 -20 v-320 a20 20 0 0 1 20 -20 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(40.0 110.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(400.0 110.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(40.0 186.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(400.0 186.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(40.0 262.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(400.0 262.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(924.0 110.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1284.0 110.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(924.0 186.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1284.0 186.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(924.0 262.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"440\" width=\"1664\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 40,
+     "w": 700,
+     "t": "Fazer",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 40,
+     "w": 700,
+     "t": "Não fazer",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 116,
+     "w": 300,
+     "t": "ouvir",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 116,
+     "w": 300,
+     "t": "acreditar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 192,
+     "w": 300,
+     "t": "agradecer",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 192,
+     "w": 300,
+     "t": "“não é culpa sua”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 268,
+     "w": 300,
+     "t": "explicar o que vai acontecer",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 268,
+     "w": 300,
+     "t": "registrar as palavras dela",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 974,
+     "y": 116,
+     "w": 300,
+     "t": "investigar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1334,
+     "y": 116,
+     "w": 300,
+     "t": "perguntar detalhes",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 974,
+     "y": 192,
+     "w": 300,
+     "t": "confrontar o suspeito",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1334,
+     "y": 192,
+     "w": 300,
+     "t": "prometer segredo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 974,
+     "y": 268,
+     "w": 300,
+     "t": "duvidar em voz alta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 456,
+     "w": 1604,
+     "t": "“O que você me contou é sério, e eu não posso guardar só comigo. Vou avisar quem pode te proteger, e vou te contar cada passo.”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Segunda decisão: quando alguém conta",
+   "titulo": "Quem ouve não investiga, e não promete segredo",
+   "fonte": "Registrar com as palavras dela, entre aspas, com data e hora, sem interpretação"
+  },
+  {
+   "id": "fluxo",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Fluxo: da suspeita saem três caminhos, Conselho Tutelar, Disque 100 e polícia; ao lado, a pessoa responsável pela proteção no clube; embaixo, os artigos do estatuto\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"150\" width=\"320\" height=\"150\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"5\"/><g transform=\"translate(30.0 180.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><line x1=\"330\" y1=\"225\" x2=\"540\" y2=\"70\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"560\" y=\"10\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(580.0 35.0) scale(1.4583)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M25 6h-2v4.17a3 3 0 0 0-1.97 2.409l-7.29 1.955a1 1 0 0 0-.557.39l-5.855 8.294H6.12a8.5 8.5 0 0 0 .337 2.379c.95 3.256 3.797 5.62 7.163 5.62c3.495 0 6.431-2.55 7.264-6a8.5 8.5 0 0 0 .236-1.996v-.003h-.935l-4.6-7.108l5.842-1.567A3 3 0 0 0 23 15.829V38h-3v2h-6v2h20v-2h-6v-2h-3V15.83a3 3 0 0 0 2-2.783l5.14-1.378L28.473 17H27c0 .69.082 1.36.236 2c.833 3.45 3.77 6 7.264 6c3.365 0 6.213-2.364 7.163-5.621q.054-.187.1-.379A8.5 8.5 0 0 0 42 17.003V17h-1.946L35.36 9.49a1 1 0 0 0-1.12-.456l-7.88 2.114a3 3 0 0 0-1.36-.977zm5.901 11h6.795l-3.236-5.177zm-13.098 6.218l-3.839-5.933l-4.188 5.933z\" clip-rule=\"evenodd\"/></g><line x1=\"330\" y1=\"225\" x2=\"540\" y2=\"220\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"560\" y=\"160\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><g transform=\"translate(580.0 185.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g><line x1=\"330\" y1=\"225\" x2=\"540\" y2=\"370\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"560\" y=\"310\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(580.0 335.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"1240\" y=\"100\" width=\"424\" height=\"220\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1270.0 130.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><rect x=\"0\" y=\"460\" width=\"1664\" height=\"76\" rx=\"12\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 190,
+     "w": 190,
+     "t": "suspeita",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 120,
+     "y": 240,
+     "w": 190,
+     "t": "já basta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 28,
+     "w": 490,
+     "t": "Conselho Tutelar",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 670,
+     "y": 76,
+     "w": 490,
+     "t": "obrigatório para criança e adolescente",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 178,
+     "w": 490,
+     "t": "Disque 100",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 670,
+     "y": 226,
+     "w": 490,
+     "t": "gratuito · 24 horas · pode ser anônimo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 328,
+     "w": 490,
+     "t": "Polícia, 190",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 670,
+     "y": 376,
+     "w": 490,
+     "t": "se houver perigo imediato",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 140,
+     "w": 300,
+     "t": "Proteção no clube",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1270,
+     "y": 220,
+     "w": 370,
+     "t": "acionada também, nunca no lugar dos canais oficiais",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 478,
+     "w": 1624,
+     "t": "ECA · art. 13: comunicação obrigatória · art. 70-B: dever de quem cuida por profissão · art. 245: multa por omissão",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Terceira decisão: comunicar",
+   "titulo": "Com criança e adolescente, a suspeita já obriga",
+   "fonte": "Com adultos, a decisão de denunciar é da pessoa; a equipe acolhe, informa os caminhos e apoia, salvo risco à vida"
+  },
+  {
+   "id": "linha",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Escala de práticas de treino, do aceitável ao abusivo: correção firme, grito ocasional, humilhação em público, pesagem na frente do grupo, exercício como punição, exclusão como castigo; a linha entre as duas partes marcada\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"0\" y=\"120\" width=\"258\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"278\" y=\"120\" width=\"258\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"556\" y=\"120\" width=\"258\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"834\" y=\"120\" width=\"258\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1112\" y=\"120\" width=\"258\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1390\" y=\"120\" width=\"258\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"546\" y1=\"60\" x2=\"546\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"6\" stroke-dasharray=\"16 10\"/><rect x=\"0\" y=\"380\" width=\"530\" height=\"12\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"560\" y=\"380\" width=\"1104\" height=\"12\" rx=\"6\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 14,
+     "y": 170,
+     "w": 230,
+     "t": "correção firme",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 292,
+     "y": 170,
+     "w": 230,
+     "t": "cobrança de desempenho",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 570,
+     "y": 170,
+     "w": 230,
+     "t": "humilhação em público",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 848,
+     "y": 170,
+     "w": 230,
+     "t": "pesagem na frente do grupo, comentário sobre o corpo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1126,
+     "y": 170,
+     "w": 230,
+     "t": "exercício como punição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1404,
+     "y": 170,
+     "w": 230,
+     "t": "exclusão e silêncio como castigo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 60,
+     "w": 530,
+     "t": "exigência",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 60,
+     "w": 1104,
+     "t": "desprezo pela pessoa",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 360,
+     "y": 420,
+     "w": 380,
+     "t": "a cultura costuma esconder esta linha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A violência que parece método",
+   "titulo": "Exigir não é humilhar",
+   "fonte": "Comentário sobre corpo e pesagem pública: a alimentação desordenada está no módulo de nutrição"
+  },
+  {
+   "id": "planta",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Planta de um clube com as regras desenhadas nos lugares: celular, sala de atendimento, vestiário, carro e viagem, entrada, mural do canal de denúncia\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"560\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"5\"/><rect x=\"12\" y=\"12\" width=\"536\" height=\"256\" rx=\"12\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><g transform=\"translate(36.0 40.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2zm5-1h2m-1 13v.01\"/></g><rect x=\"572\" y=\"12\" width=\"536\" height=\"256\" rx=\"12\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><g transform=\"translate(596.0 40.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><rect x=\"1132\" y=\"12\" width=\"520\" height=\"256\" rx=\"12\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><g transform=\"translate(1156.0 40.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"12\" y=\"292\" width=\"536\" height=\"256\" rx=\"12\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><g transform=\"translate(36.0 320.0) scale(2.9167)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 9l2 2l4-4\"/></g></g><rect x=\"572\" y=\"292\" width=\"536\" height=\"256\" rx=\"12\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><g transform=\"translate(596.0 320.0) scale(2.9167)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M18 8a3 3 0 0 1 0 6m-8-6v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-5\"/><path d=\"m12 8l4.524-3.77A.9.9 0 0 1 18 4.922v12.156a.9.9 0 0 1-1.476.692L12 14H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z\"/></g></g><rect x=\"1132\" y=\"292\" width=\"520\" height=\"256\" rx=\"12\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><g transform=\"translate(1156.0 320.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 126,
+     "y": 50,
+     "w": 400,
+     "t": "Comunicação",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 36,
+     "y": 140,
+     "w": 488,
+     "t": "grupos com os responsáveis; sem mensagem privada com menor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 686,
+     "y": 50,
+     "w": 400,
+     "t": "Atendimento",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 596,
+     "y": 140,
+     "w": 488,
+     "t": "porta aberta ou segundo adulto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1246,
+     "y": 50,
+     "w": 384,
+     "t": "Vestiário e viagem",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 140,
+     "w": 472,
+     "t": "regra de dois adultos; nenhuma carona a sós",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 126,
+     "y": 330,
+     "w": 400,
+     "t": "Entrada",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 36,
+     "y": 420,
+     "w": 488,
+     "t": "triagem de quem trabalha com crianças; formação da equipe",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 686,
+     "y": 330,
+     "w": 400,
+     "t": "Canal de denúncia",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 596,
+     "y": 420,
+     "w": 488,
+     "t": "que não passe pela pessoa denunciada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1246,
+     "y": 330,
+     "w": 384,
+     "t": "Responsável pela proteção",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 420,
+     "w": 472,
+     "t": "alguém com esse nome e esse papel",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    }
+   ],
+   "eyebrow": "Quarta decisão: prevenir",
+   "titulo": "Proteger é desenho de ambiente, não confiança pessoal",
+   "fonte": "As regras protegem as crianças e os adultos honestos · consenso de 2024: esporte centrado no atleta"
+  },
+  {
+   "id": "sala",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Sala de atendimento vista de cima: porta entreaberta, cadeira para o acompanhante, maca e um cartaz; três etiquetas: acompanhante, explicação e consentimento, limites nas redes\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"500\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"8\"/><rect x=\"280\" y=\"-6\" width=\"160\" height=\"16\" fill=\"#F7F6F2\"/><path d=\"M280 4 L360 90\" stroke=\"#12202E\" stroke-width=\"6\"/><rect x=\"80\" y=\"160\" width=\"360\" height=\"140\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"540\" y=\"320\" width=\"120\" height=\"120\" rx=\"20\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"560\" y=\"60\" width=\"160\" height=\"110\" rx=\"8\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(840.0 30.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><g transform=\"translate(840.0 195.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><g transform=\"translate(840.0 360.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2zm5-1h2m-1 13v.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 210,
+     "w": 360,
+     "t": "maca",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 448,
+     "w": 200,
+     "t": "acompanhante",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 40,
+     "w": 180,
+     "t": "porta entreaberta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 90,
+     "w": 160,
+     "t": "“posso explicar antes?”",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 940,
+     "y": 28,
+     "w": 720,
+     "t": "Acompanhante",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 940,
+     "y": 76,
+     "w": 720,
+     "t": "responsável presente, ou porta aberta e alguém da equipe perto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 940,
+     "y": 193,
+     "w": 720,
+     "t": "Explicar e perguntar",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 940,
+     "y": 241,
+     "w": 720,
+     "t": "“posso explicar antes de tocar?”",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 940,
+     "y": 358,
+     "w": 720,
+     "t": "Limites nas redes",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 940,
+     "y": 406,
+     "w": 720,
+     "t": "não seguir menores em perfis pessoais; só o canal oficial",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Uma decisão de cada um",
+   "titulo": "O próprio consultório também é ambiente",
+   "fonte": "Conforme as normas de cada profissão · nenhuma dessas práticas supõe má intenção de ninguém"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Ambiente seguro",
+   "titulo": "A proteção não pode depender da boa índole de ninguém",
+   "regras": [
+    "Reconhecer: o aliciamento parece cuidado",
+    "Ouvir sem investigar e sem prometer segredo",
+    "Comunicar: com criança e adolescente, a suspeita já obriga"
+   ],
+   "cards": [
+    {
+     "ic": "t:users",
+     "t": "Toda a equipe",
+     "x": "Reconhece, ouve, registra e comunica ao Conselho Tutelar."
+    },
+    {
+     "ic": "t:shield",
+     "t": "O clube",
+     "x": "Desenha o ambiente: regras, triagem, canal e responsável."
+    },
+    {
+     "ic": "h:psychology",
+     "t": "Psicologia e rede de proteção",
+     "x": "Acolhem a vítima e conduzem o que vem depois."
+    }
+   ]
+  }
+ ]
+}
