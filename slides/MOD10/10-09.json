@@ -1,0 +1,818 @@
+{
+ "arquivo": "aulas/MOD10/10-09-transicao-de-carreira-e-encerramento-precoce.md",
+ "modulo": "Psicologia do Esporte e Saúde Mental",
+ "tema": "anil",
+ "titulo": "Transição de carreira e encerramento precoce",
+ "subtitulo": "O que acaba quando o esporte acaba",
+ "nota_capa": "Uma ginasta, a terceira lesão, e a primeira segunda-feira sem ginásio.",
+ "secoes": {
+  "corte": [
+   "Como a carreira acaba.",
+   "capa"
+  ],
+  "agenda": [
+   "As semanas e o corpo.",
+   "agenda"
+  ],
+  "pizza": [
+   "Identidade e base.",
+   "pizza"
+  ],
+  "ponte": [
+   "A ponte.",
+   "ponte"
+  ]
+ },
+ "slides": [
+  {
+   "id": "corte",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Linha do tempo partida: antes, uma semana cheia com trinta horas de treino; depois, a mesma semana em branco; no corte, uma trave de equilíbrio vazia\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"0\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"0\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"0\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"116\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"116\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"116\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"232\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"232\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"232\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"348\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"348\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"348\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"464\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"464\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"464\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"580\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"580\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"580\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1076\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1076\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1076\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1192\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1192\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1192\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1308\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1308\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1308\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1424\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1424\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1424\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1540\" y=\"44\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1540\" y=\"154\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1540\" y=\"264\" width=\"106\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M760 20 L800 120 L740 220 L810 330 L760 400\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\"/><rect x=\"700\" y=\"420\" width=\"220\" height=\"18\" rx=\"6\" fill=\"#B08A5A\"/><rect x=\"720\" y=\"438\" width=\"12\" height=\"50\" fill=\"#8A6A44\"/><rect x=\"888\" y=\"438\" width=\"12\" height=\"50\" fill=\"#8A6A44\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 106,
+     "t": "seg",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 116,
+     "y": 0,
+     "w": 106,
+     "t": "ter",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 232,
+     "y": 0,
+     "w": 106,
+     "t": "qua",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 348,
+     "y": 0,
+     "w": 106,
+     "t": "qui",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 464,
+     "y": 0,
+     "w": 106,
+     "t": "sex",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 0,
+     "w": 106,
+     "t": "sáb",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 680,
+     "t": "quinze anos: cerca de 30 horas por semana",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 400,
+     "w": 690,
+     "t": "a segunda-feira seguinte",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma ginasta no começo da casa dos vinte anos",
+   "titulo": "O fim da carreira é uma transição, não um evento",
+   "fonte": "Terceira lesão em dois anos, desta vez na coluna · caso ilustrativo, sem desfecho"
+  },
+  {
+   "id": "estrada",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Estrada que se bifurca: saída planejada, saída forçada, e uma saída lateral sem placa, a do amador que o corpo aposentou\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><path d=\"M0 470 C 300 470, 420 420, 560 330\" fill=\"none\" stroke=\"#B9B2A2\" stroke-width=\"60\" stroke-linecap=\"round\"/><path d=\"M560 330 C 700 240, 900 120, 1250 90\" fill=\"none\" stroke=\"#B9B2A2\" stroke-width=\"50\" stroke-linecap=\"round\"/><path d=\"M560 330 C 720 330, 950 360, 1250 380\" fill=\"none\" stroke=\"#B9B2A2\" stroke-width=\"50\" stroke-linecap=\"round\"/><path d=\"M380 440 C 440 500, 520 520, 640 530\" fill=\"none\" stroke=\"#D8D3C4\" stroke-width=\"34\" stroke-linecap=\"round\" stroke-dasharray=\"4 0\"/><rect x=\"1260\" y=\"30\" width=\"404\" height=\"150\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"1260\" y=\"310\" width=\"404\" height=\"150\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(1280.0 60.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m13.446 2.6l7.955 7.954a2.045 2.045 0 0 1 0 2.892l-7.955 7.955a2.045 2.045 0 0 1-2.892 0l-7.955-7.955a2.045 2.045 0 0 1 0-2.892l7.955-7.955a2.045 2.045 0 0 1 2.892 0\"/><path d=\"M9 14v-2c0-.59.414-1 1-1h5\"/><path d=\"m13 9l2 2l-2 2\"/></g></g><g transform=\"translate(1280.0 340.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 1350,
+     "y": 50,
+     "w": 300,
+     "t": "saída planejada",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1350,
+     "y": 100,
+     "w": 300,
+     "t": "escolha · momento · plano",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 330,
+     "w": 300,
+     "t": "saída forçada",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1350,
+     "y": 380,
+     "w": 300,
+     "t": "lesão · corte · fim de contrato",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 470,
+     "w": 560,
+     "t": "o amador que o corpo aposentou, sem ninguém chamar de aposentadoria",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 20,
+     "w": 560,
+     "t": "O que pesou na adaptação:",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 70,
+     "w": 560,
+     "t": "planejamento antes da saída · controle sobre o momento · sensação de metas atingidas · força da identidade de atleta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.4
+    }
+   ],
+   "eyebrow": "Nem toda saída é igual",
+   "titulo": "Quem escolhe a hora de sair sai melhor",
+   "fonte": "Revisão sistemática de 2013: 126 estudos sobre a transição para fora do esporte"
+  },
+  {
+   "id": "barras",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Barras de ansiedade ou depressão: 34% em atletas de elite em atividade, 26% em ex-atletas; sofrimento psíquico em 16% dos ex-atletas\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"120\" y=\"94\" width=\"240\" height=\"306\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"440\" y=\"166\" width=\"240\" height=\"234\" rx=\"10\" fill=\"#A8322A\"/><line x1=\"60\" y1=\"400\" x2=\"760\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1080.0 60.0) scale(8.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 24,
+     "w": 240,
+     "t": "34%",
+     "tam": 56,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 120,
+     "y": 414,
+     "w": 240,
+     "t": "em atividade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 96,
+     "w": 240,
+     "t": "26%",
+     "tam": 56,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 414,
+     "w": 240,
+     "t": "ex-atletas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 290,
+     "w": 580,
+     "t": "parar não zera o risco",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 360,
+     "w": 580,
+     "t": "sofrimento psíquico em 16% dos ex-atletas · e o atleta que parou some do cuidado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 60,
+     "y": 0,
+     "w": 700,
+     "t": "ansiedade ou depressão",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O número da transição",
+   "titulo": "Parar não zera o risco",
+   "fonte": "Metanálise de 2019, atletas de elite em atividade e ex-atletas · Br J Sports Med"
+  },
+  {
+   "id": "agenda",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Agenda semanal com blocos fantasmas onde antes havia treino, e sobre cada bloco uma perda: rotina, grupo, uma voz que organizava, sentido, o nome\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><rect x=\"0\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"4\" stroke-dasharray=\"14 10\"/><g transform=\"translate(115.0 40.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"334\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"4\" stroke-dasharray=\"14 10\"/><g transform=\"translate(449.0 40.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1M15 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2 5h2a2 2 0 0 1 2 2v1M5 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h2\"/></g><rect x=\"668\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"4\" stroke-dasharray=\"14 10\"/><g transform=\"translate(783.0 40.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"1002\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"4\" stroke-dasharray=\"14 10\"/><g transform=\"translate(1117.0 40.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><rect x=\"1336\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"4\" stroke-dasharray=\"14 10\"/><g transform=\"translate(1451.0 40.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"0\" y=\"410\" width=\"1664\" height=\"100\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 150,
+     "w": 290,
+     "t": "rotina",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 210,
+     "w": 270,
+     "t": "o ginásio decidia a hora de acordar, comer, dormir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 344,
+     "y": 150,
+     "w": 290,
+     "t": "grupo",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 354,
+     "y": 210,
+     "w": 270,
+     "t": "as colegas eram as amigas, e continuam treinando",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 678,
+     "y": 150,
+     "w": 290,
+     "t": "uma voz de fora",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 688,
+     "y": 210,
+     "w": 270,
+     "t": "a técnica organizava cada dia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 1012,
+     "y": 150,
+     "w": 290,
+     "t": "sentido",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1022,
+     "y": 210,
+     "w": 270,
+     "t": "cada sessão servia a uma meta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 1346,
+     "y": 150,
+     "w": 290,
+     "t": "o nome",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1356,
+     "y": 210,
+     "w": 270,
+     "t": "“sou ginasta”",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 30,
+     "y": 438,
+     "w": 1604,
+     "t": "Ajuda: um horário fixo para alguma atividade, e alguém que pergunte, com data marcada",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "As primeiras semanas",
+   "titulo": "Com o treino, vão embora a rotina, o grupo e o nome",
+   "fonte": "“Eu acordo e não sei o que fazer com o dia”"
+  },
+  {
+   "id": "corpo",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Esquema: depois da saída, o gasto de energia cai de uma vez e o apetite desce devagar; entre os dois, uma área sombreada; ao lado, a ex-atleta sem saber treinar sem técnico\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><line x1=\"80\" y1=\"420\" x2=\"1080\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"80\" y1=\"420\" x2=\"80\" y2=\"40\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M300 80 L300 80 L310 86 L320 91 L330 97 L340 102 L350 107 L360 112 L370 117 L380 122 L390 126 L400 131 L410 135 L420 140 L430 144 L440 148 L450 152 L460 156 L470 159 L480 163 L490 167 L500 170 L510 173 L520 177 L530 180 L540 183 L550 186 L560 189 L570 192 L580 195 L590 197 L600 200 L610 203 L620 205 L630 208 L640 210 L650 212 L660 215 L670 217 L680 219 L690 221 L700 223 L710 225 L720 227 L730 229 L740 231 L750 233 L760 234 L770 236 L780 238 L790 239 L800 241 L810 243 L820 244 L830 245 L840 247 L850 248 L860 250 L870 251 L880 252 L890 253 L900 255 L910 256 L920 257 L930 258 L940 259 L950 260 L960 261 L970 262 L980 263 L990 264 L1000 265 L1010 266 L1020 267 L1030 268 L1040 269 L1050 269 L1060 270 L1070 271 L1080 272 L1080 300 L300 300 Z\" fill=\"#F4EAD6\"/><path d=\"M80 80 H 300 V 300 H 1080\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"7\"/><polyline points=\"80,80 90,80 100,80 110,80 120,80 130,80 140,80 150,80 160,80 170,80 180,80 190,80 200,80 210,80 220,80 230,80 240,80 250,80 260,80 270,80 280,80 290,80 300,80 310,86 320,91 330,97 340,102 350,107 360,112 370,117 380,122 390,126 400,131 410,135 420,140 430,144 440,148 450,152 460,156 470,159 480,163 490,167 500,170 510,173 520,177 530,180 540,183 550,186 560,189 570,192 580,195 590,197 600,200 610,203 620,205 630,208 640,210 650,212 660,215 670,217 680,219 690,221 700,223 710,225 720,227 730,229 740,231 750,233 760,234 770,236 780,238 790,239 800,241 810,243 820,244 830,245 840,247 850,248 860,250 870,251 880,252 890,253 900,255 910,256 920,257 930,258 940,259 950,260 960,261 970,262 980,263 990,264 1000,265 1010,266 1020,267 1030,268 1040,269 1050,269 1060,270 1070,271 1080,272\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"7\"/><line x1=\"300\" y1=\"30\" x2=\"300\" y2=\"420\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"8 8\"/><g transform=\"translate(1260.0 90.0) scale(3.7500)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1460.0 60.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 310,
+     "y": 30,
+     "w": 200,
+     "t": "a saída",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 312,
+     "w": 260,
+     "t": "gasto de energia",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 100,
+     "w": 440,
+     "t": "apetite e hábitos de comer",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 300,
+     "w": 460,
+     "t": "nunca treinou sem técnico: não sabe se exercitar por prazer",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 80,
+     "y": 440,
+     "w": 600,
+     "t": "meses depois da saída →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Os meses seguintes",
+   "titulo": "O corpo também se aposenta, e ninguém explica como",
+   "fonte": "Esquema, sem valores medidos · o destreino está no módulo de endocrinologia; a alimentação desordenada, no de nutrição"
+  },
+  {
+   "id": "pizza",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Dois gráficos de pizza da identidade: antes, uma fatia quase inteira de ginasta; depois, várias fatias parecidas e espaços ainda em branco\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M330 250 L330.0 40.0 A210 210 0 1 1 168.2 116.1 Z\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M330 250 L168.2 116.1 A210 210 0 0 1 217.5 72.7 Z\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M330 250 L217.5 72.7 A210 210 0 0 1 277.8 46.6 Z\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M330 250 L277.8 46.6 A210 210 0 0 1 330.0 40.0 Z\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M1250 250 L1250.0 40.0 A210 210 0 0 1 1456.3 210.6 Z\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M1250 250 L1456.3 210.6 A210 210 0 0 1 1373.4 419.9 Z\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M1250 250 L1373.4 419.9 A210 210 0 0 1 1172.7 445.3 Z\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M1250 250 L1172.7 445.3 A210 210 0 0 1 1050.3 314.9 Z\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M1250 250 L1050.3 314.9 A210 210 0 0 1 1250.0 40.0 Z\" fill=\"#E6E3DA\" stroke=\"#F7F6F2\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><line x1=\"600\" y1=\"250\" x2=\"980\" y2=\"250\" stroke=\"#12202E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 279,
+     "y": 334,
+     "w": 200,
+     "t": "ginasta",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 470,
+     "w": 660,
+     "t": "antes: estudante, amiga, filha em fatias finas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 200,
+     "w": 300,
+     "t": "anos",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 640,
+     "y": 270,
+     "w": 300,
+     "t": "carreira dupla, amizades de fora, interesses que não dependem do corpo",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1048,
+     "y": 160,
+     "w": 200,
+     "t": "ainda em branco",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 920,
+     "y": 470,
+     "w": 660,
+     "t": "depois: fatias parecidas, e espaço para preencher",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quem ela é agora",
+   "titulo": "A transição começa anos antes, na identidade",
+   "fonte": "Esquema, sem valores medidos · identidade de atleta forte se associa a mais dificuldade na saída e a menos planejamento"
+  },
+  {
+   "id": "base",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Funil de crianças entrando no esporte e saindo pelos lados, com os motivos; as saídas da diversão e da competência maiores\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><path d=\"M200 40 H1460 L1080 440 H580 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><g transform=\"translate(300.0 60.0) scale(1.6667)\"><g fill=\"#3A6EA5\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(440.0 60.0) scale(1.6667)\"><g fill=\"#3A6EA5\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(580.0 60.0) scale(1.6667)\"><g fill=\"#3A6EA5\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(720.0 60.0) scale(1.6667)\"><g fill=\"#3A6EA5\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(860.0 60.0) scale(1.6667)\"><g fill=\"#3A6EA5\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1000.0 60.0) scale(1.6667)\"><g fill=\"#3A6EA5\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1140.0 60.0) scale(1.6667)\"><g fill=\"#3A6EA5\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1280.0 60.0) scale(1.6667)\"><g fill=\"#3A6EA5\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><path d=\"M353 180 C 253 180, 213 220, 173 250\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"16\" stroke-linecap=\"round\"/><path d=\"M486 320 C 386 320, 346 360, 306 390\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M1307 180 C 1407 180, 1447 220, 1487 250\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M1174 320 C 1274 320, 1314 360, 1354 390\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"8\" stroke-linecap=\"round\"/><g transform=\"translate(790.0 350.0) scale(1.8750)\"><g fill=\"#A8322A\"><path fill-rule=\"evenodd\" d=\"M19.5 17a1.5 1.5 0 0 0-1.415 2H18v.034c-2.25.304-4 2.635-4 5.466c0 2.494 1.358 4.6 3.22 5.274a57 57 0 0 1-1.53 3.17c-.324.625.066 1.395.764 1.483c5.937.752 9.692.772 15.155.012c.68-.095 1.06-.838.754-1.453c-.42-.84-.988-2.016-1.522-3.234C32.671 29.054 34 26.967 34 24.5c0-2.831-1.75-5.162-4-5.466V19h-.085q.084-.236.085-.5a1.5 1.5 0 0 0-1.5-1.5zm.831 6.68c.478-.987.662-2.53.662-4.68h2c0 2.158-.166 4.115-.862 5.551c-.361.746-.877 1.379-1.6 1.817c-.72.435-1.571.632-2.531.632v-2c.686 0 1.158-.14 1.495-.344c.334-.201.61-.51.836-.976M27.007 19c0 2.15.184 3.693.662 4.68c.226.465.502.775.836.976c.337.204.809.344 1.495.344v2c-.96 0-1.81-.197-2.53-.632c-.724-.438-1.24-1.071-1.601-1.817c-.696-1.436-.862-3.393-.862-5.551zM19 37.014V40.5a1.5 1.5 0 0 0 2.948.391l.94-3.483A39 39 0 0 1 19 37.014m7.11.387l.942 3.49a1.5 1.5 0 0 0 2.948-.39V37a41 41 0 0 1-3.89.401\" clip-rule=\"evenodd\"/><path d=\"M28.5 10.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 260,
+     "w": 380,
+     "t": "deixou de ser divertido",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 380,
+     "t": "não me sinto bom nisso",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 260,
+     "w": 364,
+     "t": "pressão de adulto",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 400,
+     "w": 364,
+     "t": "outras prioridades",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 460,
+     "w": 500,
+     "t": "a ginasta ficou; muitas colegas saíram antes dos doze",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 560,
+     "y": 200,
+     "w": 540,
+     "t": "motivos pessoais e das relações pesam mais que custo e transporte",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O encerramento mais comum",
+   "titulo": "Na base, a criança vai embora quando deixa de ser divertido",
+   "fonte": "Revisão sistemática de 2015: 43 estudos incluídos de 557 · o módulo do atleta adolescente volta ao tema"
+  },
+  {
+   "id": "ponte",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Ponte entre a margem atleta e a margem depois; cada tábua é uma tarefa de um profissional; uma tábua começa antes da margem: carreira dupla\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><rect x=\"0\" y=\"300\" width=\"260\" height=\"220\" fill=\"#D8D3C4\"/><rect x=\"1404\" y=\"300\" width=\"260\" height=\"220\" fill=\"#D8D3C4\"/><path d=\"M260 300 Q 832 380 1404 300\" fill=\"none\" stroke=\"#9C8E74\" stroke-width=\"6\"/><rect x=\"280\" y=\"283\" width=\"170\" height=\"30\" rx=\"6\" fill=\"#3A6EA5\"/><g transform=\"translate(325.0 83.3) scale(3.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 9l2 2l4-4\"/></g></g><rect x=\"466\" y=\"300\" width=\"170\" height=\"30\" rx=\"6\" fill=\"#B07A1C\"/><g transform=\"translate(511.0 100.3) scale(3.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"652\" y=\"309\" width=\"170\" height=\"30\" rx=\"6\" fill=\"#008A7E\"/><g transform=\"translate(697.0 108.9) scale(3.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"838\" y=\"309\" width=\"170\" height=\"30\" rx=\"6\" fill=\"#B07A1C\"/><g transform=\"translate(883.0 109.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"1024\" y=\"301\" width=\"170\" height=\"30\" rx=\"6\" fill=\"#3A6EA5\"/><g transform=\"translate(1069.0 100.6) scale(1.6667)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M24 40c8.837 0 16-7.163 16-16a15.95 15.95 0 0 0-4.656-11.283l-15.349 9.527C19.916 24.34 18.83 26 17.5 26c-.676 0-1.29-.43-1.74-1.127l-6.91 4.289C10.999 35.466 16.97 40 24 40M7.072 30.134c-1.9.031-2.645-7.85-.288-11.404C9.037 11.36 15.893 6 24 6q1.375.002 2.697.2c3.217-.815 10.39 3.351 10.196 5.24A17.94 17.94 0 0 1 42 24c0 9.941-8.059 18-18 18c-7.787 0-14.42-4.945-16.928-11.866m2.903-13.841c2.652-4.816 7.713-8.12 13.56-8.286zm24.319-5.278L7.592 27.59c-.149-.607-.26-1.427-.28-2.38c-.028-1.34.13-2.746.484-3.906c.368-1.204.854-1.847 1.258-2.103L27.077 8.186l.028-.019h.001c.014-.007.122-.056.397-.068c.322-.014.76.029 1.305.154c1.092.252 2.366.778 3.526 1.429c.815.457 1.486.926 1.96 1.333M33 22c0 2.21-1.12 4-2.5 4S28 24.21 28 22s1.12-4 2.5-4s2.5 1.79 2.5 4m-3.567 9.544C28.345 30.026 26.272 29 23.893 29c-2.469 0-4.608 1.104-5.66 2.717c-.453.696-.886 2.802.767 2.283c4.813-1.6 5.28-1.542 10 0c1.317.472 1.07-1.424.674-2.115c-.048-.083-.106-.16-.164-.238z\" clip-rule=\"evenodd\"/></g><rect x=\"1210\" y=\"284\" width=\"170\" height=\"30\" rx=\"6\" fill=\"#A8322A\"/><g transform=\"translate(1255.0 83.8) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7h3a1 1 0 0 0 1-1V5a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-1a2 2 0 0 0-4 0v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a2 2 0 0 0 0-4H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1\"/></g><rect x=\"40\" y=\"250\" width=\"200\" height=\"30\" rx=\"6\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 275,
+     "y": 183,
+     "w": 180,
+     "t": "rastrear humor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 461,
+     "y": 200,
+     "w": 180,
+     "t": "dar estrutura",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 647,
+     "y": 209,
+     "w": 180,
+     "t": "reconstruir o exercício",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 833,
+     "y": 209,
+     "w": 180,
+     "t": "recalibrar a comida",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1019,
+     "y": 201,
+     "w": 180,
+     "t": "acompanhar as lesões",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1205,
+     "y": 184,
+     "w": 180,
+     "t": "alargar a identidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 330,
+     "w": 220,
+     "t": "atleta",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1424,
+     "y": 330,
+     "w": 220,
+     "t": "depois",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 190,
+     "w": 240,
+     "t": "carreira dupla, antes da margem",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 280,
+     "y": 440,
+     "w": 1100,
+     "t": "e alguém que combine de perguntar, com data marcada: o atleta que parou some",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O que cada um faz",
+   "titulo": "Cada profissional põe uma tábua na ponte"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Transição de carreira e encerramento precoce",
+   "titulo": "Um ano depois, no meio da ponte",
+   "regras": [
+    "A saída é uma transição, não um evento",
+    "Quem escolhe a hora e planeja sai melhor; parar não zera o risco",
+    "Na base, a criança vai embora quando deixa de ser divertido"
+   ],
+   "cards": [
+    {
+     "ic": "t:users",
+     "t": "Quem treina e prepara",
+     "x": "Reconstrói o exercício sem meta de competição e mantém contato."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Médico",
+     "x": "Trata a transição como momento de risco e segue as lesões."
+    },
+    {
+     "ic": "h:psychology",
+     "t": "Psicologia do esporte",
+     "x": "Ajuda a preencher as fatias em branco da identidade."
+    }
+   ]
+  }
+ ]
+}
