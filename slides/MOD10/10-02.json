@@ -1,0 +1,931 @@
+{
+ "arquivo": "aulas/MOD10/10-02-atencao-ativacao-e-desempenho-sob-pressao.md",
+ "modulo": "Psicologia do Esporte e Saúde Mental",
+ "tema": "anil",
+ "titulo": "Atenção, ativação e desempenho sob pressão",
+ "subtitulo": "Quatro passos para o momento que decide",
+ "nota_capa": "Entra pelo quinto cobrador de uma disputa de pênaltis.",
+ "secoes": {
+  "peso": [
+   "A pressão e a ativação.",
+   "capa"
+  ],
+  "leitura": [
+   "A leitura e a atenção.",
+   "leitura"
+  ],
+  "tempo": [
+   "O tempo e a rotina.",
+   "tempo"
+  ]
+ },
+ "slides": [
+  {
+   "id": "peso",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Vista de cima do gol e da marca do pênalti; ao lado, barras esquemáticas de acerto que diminuem da cobrança que não decide para a cobrança em que o erro dá a derrota\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"40\" y=\"30\" width=\"560\" height=\"420\" rx=\"10\" fill=\"#E4EFE6\"/><rect x=\"160\" y=\"30\" width=\"320\" height=\"110\" fill=\"none\" stroke=\"#F7F6F2\" stroke-width=\"6\"/><rect x=\"230\" y=\"30\" width=\"180\" height=\"40\" fill=\"none\" stroke=\"#F7F6F2\" stroke-width=\"6\"/><rect x=\"250\" y=\"14\" width=\"140\" height=\"16\" fill=\"#12202E\"/><circle cx=\"320\" cy=\"230\" r=\"10\" fill=\"#F7F6F2\"/><circle cx=\"320\" cy=\"230\" r=\"22\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"5\"/><g transform=\"translate(298.0 208.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"m12 7l4.76 3.45L15 16H9l-1.76-5.55zm0 0V3m3 13l2.5 3m-.74-8.55L20.5 9M9.06 16.05L6.5 19m.74-8.55L3.5 9\"/></g></g><rect x=\"780\" y=\"100\" width=\"200\" height=\"300\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1070\" y=\"130\" width=\"200\" height=\"270\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1360\" y=\"210\" width=\"200\" height=\"190\" rx=\"8\" fill=\"#A8322A\"/><line x1=\"740\" y1=\"400\" x2=\"1640\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 740,
+     "y": 412,
+     "w": 280,
+     "t": "não decide",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 412,
+     "w": 280,
+     "t": "gol dá a vitória",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 412,
+     "w": 280,
+     "t": "erro dá a derrota",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 40,
+     "w": 400,
+     "t": "acerto nas disputas",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 300,
+     "w": 560,
+     "t": "o mesmo pé da semana inteira",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Disputa de pênaltis",
+   "titulo": "O pé é o mesmo. O peso da cobrança não",
+   "fonte": "Esquema, sem valores medidos · J Sports Sci 2007 · J Sport Exerc Psychol 2008 (36 disputas, 359 cobranças)"
+  },
+  {
+   "id": "zona",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"À esquerda, a curva em U invertido, igual para todos; à direita, três atletas com zonas ótimas em alturas diferentes de ativação e os pontos das melhores e piores atuações de um deles\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><line x1=\"40\" y1=\"400\" x2=\"600\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"40\" y1=\"60\" x2=\"40\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,398.2 51.2,397.3 62.4,396.0 73.6,394.1 84.8,391.6 96.0,388.3 107.2,383.8 118.4,378.0 129.6,370.6 140.8,361.4 152.0,350.2 163.2,336.7 174.4,320.8 185.6,302.7 196.8,282.3 208.0,260.0 219.2,236.2 230.4,211.4 241.6,186.6 252.8,162.3 264.0,139.7 275.2,119.6 286.4,102.9 297.6,90.4 308.8,82.6 320.0,80.0 331.2,82.6 342.4,90.4 353.6,102.9 364.8,119.6 376.0,139.7 387.2,162.3 398.4,186.6 409.6,211.4 420.8,236.2 432.0,260.0 443.2,282.3 454.4,302.7 465.6,320.8 476.8,336.7 488.0,350.2 499.2,361.4 510.4,370.6 521.6,378.0 532.8,383.8 544.0,388.3 555.2,391.6 566.4,394.1 577.6,396.0 588.8,397.3 600.0,398.2\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\"/><line x1=\"900\" y1=\"80\" x2=\"1640\" y2=\"80\" stroke=\"#D9D4C8\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"1359\" y=\"58\" width=\"170\" height=\"44\" rx=\"22\" fill=\"#008A7E\" fill-opacity=\"0.35\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"900\" y1=\"200\" x2=\"1640\" y2=\"200\" stroke=\"#D9D4C8\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"1011\" y=\"178\" width=\"185\" height=\"44\" rx=\"22\" fill=\"#B07A1C\" fill-opacity=\"0.35\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"900\" y1=\"320\" x2=\"1640\" y2=\"320\" stroke=\"#D9D4C8\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"1196\" y=\"298\" width=\"163\" height=\"44\" rx=\"22\" fill=\"#3A6EA5\" fill-opacity=\"0.35\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"1388\" cy=\"80\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"1425\" cy=\"80\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"1448\" cy=\"80\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"1485\" cy=\"80\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"1499\" cy=\"80\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"1122\" cy=\"80\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"1603\" cy=\"80\" r=\"9\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 412,
+     "w": 300,
+     "t": "ativação →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 52,
+     "y": 50,
+     "w": 260,
+     "t": "desempenho",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 450,
+     "w": 560,
+     "t": "Uma curva para todos",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 720,
+     "y": 60,
+     "w": 160,
+     "t": "Atleta A",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 180,
+     "w": 160,
+     "t": "Atleta B",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 300,
+     "w": 160,
+     "t": "Atleta C",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 380,
+     "w": 40,
+     "t": "0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1600,
+     "y": 380,
+     "w": 40,
+     "t": "10",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 380,
+     "w": 560,
+     "t": "ativação antes do jogo, de 0 a 10",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 450,
+     "w": 920,
+     "t": "Uma zona para cada um",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 20,
+     "w": 740,
+     "t": "pontos do atleta A: verde, boas atuações · vermelho, ruins",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo um: ler a ativação",
+   "titulo": "Não existe um nível de ativação ideal para todos",
+   "fonte": "Esquema · zonas individuais de funcionamento ótimo (Yuri Hanin) · metanálise, J Sports Sci 1999"
+  },
+  {
+   "id": "leitura",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"O mesmo coração acelerado abre duas leituras: desafio, quando os recursos dão conta da exigência, e ameaça, quando a exigência passa dos recursos; a frase estou animado empurra de uma para a outra\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"170\" cy=\"260\" r=\"140\" fill=\"#F3E1DE\"/><g transform=\"translate(80.0 170.0) scale(7.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><path d=\"M320 230 C 420 150, 460 110, 560 110\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><path d=\"M320 290 C 420 370, 460 410, 560 410\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m1)\"/><rect x=\"580\" y=\"40\" width=\"460\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"580\" y=\"340\" width=\"460\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"1100\" y=\"40\" width=\"564\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1100\" y=\"340\" width=\"564\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><path d=\"M800 330 C 760 280, 760 240, 800 192\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\" marker-end=\"url(#m2)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 430,
+     "w": 260,
+     "t": "o mesmo coração acelerado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 60,
+     "w": 420,
+     "t": "Desafio",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 600,
+     "y": 112,
+     "w": 420,
+     "t": "os recursos dão conta da exigência",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 360,
+     "w": 420,
+     "t": "Ameaça",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 600,
+     "y": 412,
+     "w": 420,
+     "t": "a exigência passa dos recursos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 58,
+     "w": 520,
+     "t": "mais preciso · emoções favoráveis · olhar mais eficiente · movimento mais econômico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1124,
+     "y": 380,
+     "w": 520,
+     "t": "menos preciso · emoções desfavoráveis · olhar e movimento menos eficientes",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 820,
+     "y": 236,
+     "w": 300,
+     "t": "“estou animado”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Passo dois: reavaliar o sentido",
+   "titulo": "Não tente se acalmar. Mude o nome da ativação",
+   "fonte": "Desafio e ameaça, 127 participantes, Psychophysiology 2012 · reavaliar como empolgação, J Exp Psychol Gen 2014"
+  },
+  {
+   "id": "gesto",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Em cima, o gesto automatizado como uma seta contínua do canto escolhido à bola no gol; embaixo, o mesmo gesto quebrado em etapas conscientes, com a seta se partindo\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"50\" width=\"260\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1404\" y=\"50\" width=\"260\" height=\"100\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M270 100 C 700 20, 960 180, 1394 100\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"9\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"300\" width=\"260\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1404\" y=\"300\" width=\"260\" height=\"100\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"300\" y=\"310\" width=\"190\" height=\"80\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"492\" y1=\"350\" x2=\"512\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"4 5\"/><rect x=\"514\" y=\"310\" width=\"190\" height=\"80\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"706\" y1=\"350\" x2=\"726\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"4 5\"/><rect x=\"728\" y=\"310\" width=\"190\" height=\"80\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"920\" y1=\"350\" x2=\"940\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"4 5\"/><rect x=\"942\" y=\"310\" width=\"190\" height=\"80\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1134\" y1=\"350\" x2=\"1154\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"4 5\"/><rect x=\"1156\" y=\"310\" width=\"190\" height=\"80\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 76,
+     "w": 260,
+     "t": "canto escolhido",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1404,
+     "y": 76,
+     "w": 260,
+     "t": "gol",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 326,
+     "w": 260,
+     "t": "canto escolhido",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1404,
+     "y": 326,
+     "w": 260,
+     "t": "erro",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 0,
+     "w": 900,
+     "t": "automatizado: roda sem precisar de atenção",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 420,
+     "w": 1100,
+     "t": "sob pressão: a atenção volta para cada etapa, e o gesto desmonta",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 334,
+     "w": 190,
+     "t": "pé de apoio",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 514,
+     "y": 334,
+     "w": 190,
+     "t": "joelho",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 728,
+     "y": 334,
+     "w": 190,
+     "t": "quadril",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 942,
+     "y": 334,
+     "w": 190,
+     "t": "ponto da bola",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1156,
+     "y": 334,
+     "w": 190,
+     "t": "força",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo três: a atenção no lugar certo",
+   "titulo": "Pensar no gesto desmonta o gesto automático",
+   "destaque": "Antes do pênalti não é hora de corrigir técnica. A técnica se corrige no treino.",
+   "destaque_cor": "tinta",
+   "fonte": "Quatro experimentos com tacadas de golfe, J Exp Psychol Gen 2001"
+  },
+  {
+   "id": "olhar",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Linha do tempo dos segundos finais antes do gesto: a última fixação do olhar no alvo é mais longa no grupo que treinou o olhar e continua estável sob pressão\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><line x1=\"300\" y1=\"380\" x2=\"1620\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"300\" y1=\"380\" x2=\"300\" y2=\"392\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"630\" y1=\"380\" x2=\"630\" y2=\"392\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"960\" y1=\"380\" x2=\"960\" y2=\"392\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1290\" y1=\"380\" x2=\"1290\" y2=\"392\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1620\" y1=\"380\" x2=\"1620\" y2=\"392\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1290\" y1=\"30\" x2=\"1290\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"8 8\"/><rect x=\"1026\" y=\"80\" width=\"330\" height=\"44\" rx=\"22\" fill=\"#3A6EA5\" fill-opacity=\"0.55\"/><rect x=\"1142\" y=\"152\" width=\"165\" height=\"44\" rx=\"22\" fill=\"#3A6EA5\" fill-opacity=\"0.3\"/><rect x=\"762\" y=\"224\" width=\"644\" height=\"44\" rx=\"22\" fill=\"#008A7E\" fill-opacity=\"0.9\"/><rect x=\"795\" y=\"296\" width=\"594\" height=\"44\" rx=\"22\" fill=\"#008A7E\" fill-opacity=\"0.9\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1302,
+     "y": 34,
+     "w": 320,
+     "t": "o movimento começa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 86,
+     "w": 290,
+     "t": "Instrução técnica · sem pressão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 158,
+     "w": 290,
+     "t": "Instrução técnica · sob pressão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 290,
+     "t": "Treino do olhar · sem pressão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 302,
+     "w": 290,
+     "t": "Treino do olhar · sob pressão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 250,
+     "y": 396,
+     "w": 100,
+     "t": "−3 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 396,
+     "w": 100,
+     "t": "−2 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 396,
+     "w": 100,
+     "t": "−1 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 396,
+     "w": 100,
+     "t": "0",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1570,
+     "y": 396,
+     "w": 100,
+     "t": "+1 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo três na prática",
+   "titulo": "A atenção precisa de um lugar: o ponto do alvo",
+   "destaque": "Escolher o canto antes de pegar a bola e olhar para esse ponto nos segundos antes da corrida.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema, sem valores medidos · 40 participantes, treino do olhar quieto, Psychophysiology 2012"
+  },
+  {
+   "id": "tempo",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Os dez segundos entre o apito e o chute: um cobrador toma o seu tempo e segue a rotina; o outro desvia o olhar e bate logo depois do apito\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><line x1=\"60\" y1=\"420\" x2=\"1620\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"60\" y1=\"420\" x2=\"60\" y2=\"432\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"372\" y1=\"420\" x2=\"372\" y2=\"432\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"684\" y1=\"420\" x2=\"684\" y2=\"432\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"996\" y1=\"420\" x2=\"996\" y2=\"432\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1308\" y1=\"420\" x2=\"1308\" y2=\"432\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1620\" y1=\"420\" x2=\"1620\" y2=\"432\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"420\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"91\" y=\"90\" width=\"250\" height=\"70\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"356\" y=\"90\" width=\"296\" height=\"70\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"668\" y=\"90\" width=\"296\" height=\"70\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"980\" y=\"90\" width=\"234\" height=\"70\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1246\" cy=\"125\" r=\"18\" fill=\"#008A7E\"/><rect x=\"76\" y=\"290\" width=\"125\" height=\"70\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"200\" y=\"290\" width=\"94\" height=\"70\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"325\" cy=\"325\" r=\"18\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 436,
+     "w": 100,
+     "t": "0 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 322,
+     "y": 436,
+     "w": 100,
+     "t": "2 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 634,
+     "y": 436,
+     "w": 100,
+     "t": "4 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 946,
+     "y": 436,
+     "w": 100,
+     "t": "6 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1258,
+     "y": 436,
+     "w": 100,
+     "t": "8 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1570,
+     "y": 436,
+     "w": 100,
+     "t": "10 s",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 0,
+     "w": 120,
+     "t": "apito",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 91,
+     "y": 110,
+     "w": 250,
+     "t": "respira",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 356,
+     "y": 110,
+     "w": 296,
+     "t": "olha o goleiro",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 668,
+     "y": 110,
+     "w": 296,
+     "t": "olha o canto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 110,
+     "w": 234,
+     "t": "corre",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1276,
+     "y": 108,
+     "w": 160,
+     "t": "chute",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 44,
+     "w": 800,
+     "t": "toma o seu tempo e segue a rotina",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 310,
+     "w": 125,
+     "t": "chão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 310,
+     "w": 94,
+     "t": "costas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 355,
+     "y": 308,
+     "w": 160,
+     "t": "chute",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 244,
+     "w": 900,
+     "t": "desvia o olhar e bate logo: alivia por dois segundos",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo quatro: não fugir do momento",
+   "titulo": "Os segundos depois do apito são a rotina",
+   "fonte": "Esquema de tempos ilustrativos · evitação e pior desempenho, J Sport Exerc Psychol 2008 · tempo do apito ao chute, J Sports Sci 2009"
+  },
+  {
+   "id": "rotina",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"À esquerda, a rotina pré-desempenho em quatro etapas num ciclo; à direita, uma escada de pressão no treino, do treino sem plateia ao treino filmado com consequência\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M393.7 132.4 A170 170 0 0 1 487.6 226.3\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"330.0\" cy=\"120.0\" r=\"54\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(300.0 90.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><path d=\"M487.6 353.7 A170 170 0 0 1 393.7 447.6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"500.0\" cy=\"290.0\" r=\"54\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(470.0 260.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><path d=\"M266.3 447.6 A170 170 0 0 1 172.4 353.7\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"330.0\" cy=\"460.0\" r=\"54\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><g transform=\"translate(300.0 430.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><path d=\"M172.4 226.3 A170 170 0 0 1 266.3 132.4\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"160.0\" cy=\"290.0\" r=\"54\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><g transform=\"translate(130.0 260.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"m12 7l4.76 3.45L15 16H9l-1.76-5.55zm0 0V3m3 13l2.5 3m-.74-8.55L20.5 9M9.06 16.05L6.5 19m.74-8.55L3.5 9\"/></g></g><rect x=\"840\" y=\"370\" width=\"195\" height=\"110\" rx=\"8\" fill=\"#008A7E\" fill-opacity=\"0.85\"/><rect x=\"1045\" y=\"270\" width=\"195\" height=\"210\" rx=\"8\" fill=\"#B07A1C\" fill-opacity=\"0.85\"/><rect x=\"1250\" y=\"170\" width=\"195\" height=\"310\" rx=\"8\" fill=\"#C0612F\" fill-opacity=\"0.85\"/><rect x=\"1455\" y=\"70\" width=\"195\" height=\"410\" rx=\"8\" fill=\"#A8322A\" fill-opacity=\"0.85\"/><line x1=\"830\" y1=\"480\" x2=\"1664\" y2=\"480\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 180,
+     "y": 10,
+     "w": 300,
+     "t": "ler a ativação",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 566,
+     "y": 272,
+     "w": 220,
+     "t": "dizer a frase",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 180,
+     "y": 522,
+     "w": 300,
+     "t": "fixar o canto",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": -126,
+     "y": 272,
+     "w": 220,
+     "t": "executar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 220,
+     "y": 260,
+     "w": 220,
+     "t": "sempre igual, com o mesmo tempo",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 846,
+     "y": 382,
+     "w": 183,
+     "t": "sem plateia",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1051,
+     "y": 282,
+     "w": 183,
+     "t": "com o grupo olhando",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1256,
+     "y": 182,
+     "w": 183,
+     "t": "filmado, com placar",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1461,
+     "y": 82,
+     "w": 183,
+     "t": "com consequência combinada",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 492,
+     "w": 820,
+     "t": "a pressão sobe no treino, antes de subir no jogo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Juntar os quatro passos",
+   "titulo": "A rotina só aguenta o jogo se foi treinada sob pressão",
+   "fonte": "Treino de autoconsciência protegeu o gesto; treino tranquilo, não (J Exp Psychol Gen 2001) · rotina e escada: prática corrente"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Atenção, ativação e desempenho sob pressão",
+   "titulo": "Quatro passos para o momento que decide",
+   "regras": [
+    "Ler a ativação na pessoa, não no livro",
+    "Reavaliar o sentido e pôr a atenção no alvo",
+    "Tomar o próprio tempo, com a rotina treinada sob pressão"
+   ],
+   "cards": [
+    {
+     "ic": "t:users",
+     "t": "Técnico e preparador",
+     "x": "Montam a escada de pressão no treino."
+    },
+    {
+     "ic": "t:ball-football",
+     "t": "Atleta",
+     "x": "Anota a própria zona e ensaia a rotina."
+    },
+    {
+     "ic": "h:psychology",
+     "t": "Psicologia do esporte",
+     "x": "Quando a ativação foge da zona com frequência."
+    }
+   ]
+  }
+ ]
+}
