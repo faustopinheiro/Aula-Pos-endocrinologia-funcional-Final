@@ -6,317 +6,1147 @@
  "subtitulo": "Cinco erros de quem tenta motivar",
  "nota_capa": "Entra pela mensagem do treinador no grupo do ciclismo.",
  "secoes": {
-  "grupo": [
-   "A cena e o primeiro erro.",
+  "regua": [
+   "Motivação tem tipo.",
    "capa"
   ],
-  "controle": [
+  "cascata": [
    "Controle e autoeficácia.",
-   "controle"
+   "cascata"
   ],
-  "processo": [
+  "curva": [
    "Regulação emocional.",
-   "processo"
+   "curva"
   ],
-  "ciclo": [
-   "O ciclo e o que muda.",
-   "ciclo"
+  "ciclos": [
+   "O ciclo de todo dia.",
+   "ciclos"
   ]
  },
  "slides": [
   {
-   "id": "grupo",
-   "tipo": "pergunta",
-   "fundo": "tinta",
-   "eyebrow": "Mensagem no grupo do ciclismo",
-   "pergunta": "“Ele não tem motivação.” Isso explica alguma coisa?",
-   "apoio": "Pedalava quatro vezes por semana e sumiu dos treinos de sábado.",
-   "ic": "h:bike"
-  },
-  {
-   "id": "qualidade",
-   "tipo": "espectro",
-   "eyebrow": "Erro um",
-   "titulo": "Motivação não é quanto. É de que tipo",
-   "extremos": [
-    "controlada",
-    "autônoma"
-   ],
-   "inverter": true,
-   "marcas": [
+   "id": "regua",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Régua de seis tipos de motivação, da ausência de motivação à intrínseca, com a regulação controlada à esquerda e a autônoma à direita\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"3.0\" y=\"210\" width=\"271.3\" height=\"70\" rx=\"8\" fill=\"#9AA5AE\"/><rect x=\"280.3\" y=\"210\" width=\"271.3\" height=\"70\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"557.7\" y=\"210\" width=\"271.3\" height=\"70\" rx=\"8\" fill=\"#C0612F\"/><rect x=\"835.0\" y=\"210\" width=\"271.3\" height=\"70\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1112.3\" y=\"210\" width=\"271.3\" height=\"70\" rx=\"8\" fill=\"#3E9C8F\"/><rect x=\"1389.7\" y=\"210\" width=\"271.3\" height=\"70\" rx=\"8\" fill=\"#008A7E\"/><path d=\"M289 196 v-18 H820 v18\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M844 196 v-18 H1652 v18\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"560\" y=\"20\" width=\"560\" height=\"64\" rx=\"32\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M840 84 C 860 120, 980 110, 1000 130\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"8 8\"/></svg>",
+   "rotulos": [
     {
-     "ic": "t:lock",
-     "t": "Obrigação",
-     "cor": "verm"
+     "x": 0,
+     "y": 294,
+     "w": 277,
+     "t": "Sem motivação",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "ic": "t:mood-sad",
-     "t": "Culpa",
-     "cor": "verm"
+     "x": 0,
+     "y": 334,
+     "w": 277,
+     "t": "não vê sentido",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "ic": "t:scale",
-     "t": "Valor",
-     "cor": "ambar"
+     "x": 277,
+     "y": 294,
+     "w": 277,
+     "t": "Externa",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "ic": "t:user",
-     "t": "Identidade",
-     "cor": "petr"
+     "x": 277,
+     "y": 334,
+     "w": 277,
+     "t": "manda, premia, pune",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "ic": "t:mood-happy",
-     "t": "Prazer",
-     "cor": "petr"
+     "x": 555,
+     "y": 294,
+     "w": 277,
+     "t": "Introjetada",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 555,
+     "y": 334,
+     "w": 277,
+     "t": "culpa, provar valor",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 294,
+     "w": 277,
+     "t": "Identificada",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 334,
+     "w": 277,
+     "t": "reconhece o valor",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1109,
+     "y": 294,
+     "w": 277,
+     "t": "Integrada",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1109,
+     "y": 334,
+     "w": 277,
+     "t": "faz parte de quem é",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1387,
+     "y": 294,
+     "w": 277,
+     "t": "Intrínseca",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1387,
+     "y": 334,
+     "w": 277,
+     "t": "é bom em si",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 289,
+     "y": 140,
+     "w": 531,
+     "t": "controlada",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 140,
+     "w": 808,
+     "t": "autônoma",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 34,
+     "w": 560,
+     "t": "“ele não tem motivação”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1010,
+     "y": 110,
+     "w": 40,
+     "t": "?",
+     "tam": 40,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "66 estudos: quanto mais autônoma, mais exercício, e mais tempo.",
-   "destaque_cor": "petr",
-   "fonte": "Teoria da autodeterminação (Deci e Ryan) · revisão sistemática, Int J Behav Nutr Phys Act 2012"
+   "eyebrow": "Erro um",
+   "titulo": "Motivação não é quanto. É de que tipo",
+   "fonte": "Teoria da autodeterminação, Deci e Ryan · a frase do treinador não cabe em lugar nenhum da régua"
+  },
+  {
+   "id": "tempo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Esquema: a presença sustentada por motivação controlada cai ao longo de dois anos; a sustentada por motivação autônoma sobe devagar e se mantém\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"40.0\" y1=\"380\" x2=\"40.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"436.0\" y1=\"380\" x2=\"436.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"832.0\" y1=\"380\" x2=\"832.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1624.0\" y1=\"380\" x2=\"1624.0\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"40.0\" y=\"20.0\" width=\"396.0\" height=\"360.0\" fill=\"#F4EAD6\"/><rect x=\"436.0\" y=\"20.0\" width=\"1188.0\" height=\"360.0\" fill=\"#DDEFEC\" fill-opacity=\"0.6\"/><line x1=\"40\" y1=\"380\" x2=\"1624\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"40.0,56.0 73.0,65.9 106.0,75.4 139.0,84.5 172.0,93.4 205.0,101.9 238.0,110.2 271.0,118.1 304.0,125.8 337.0,133.2 370.0,140.3 403.0,147.2 436.0,153.9 469.0,160.3 502.0,166.5 535.0,172.5 568.0,178.2 601.0,183.8 634.0,189.2 667.0,194.3 700.0,199.3 733.0,204.2 766.0,208.8 799.0,213.3 832.0,217.6 865.0,221.8 898.0,225.9 931.0,229.7 964.0,233.5 997.0,237.1 1030.0,240.6 1063.0,244.0 1096.0,247.3 1129.0,250.4 1162.0,253.4 1195.0,256.3 1228.0,259.2 1261.0,261.9 1294.0,264.5 1327.0,267.1 1360.0,269.5 1393.0,271.9 1426.0,274.1 1459.0,276.3 1492.0,278.5 1525.0,280.5 1558.0,282.5 1591.0,284.4 1624.0,286.2\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"1030.0\" cy=\"314.4\" r=\"0\"/><polyline points=\"40.0,250.4 73.0,237.2 106.0,225.0 139.0,213.8 172.0,203.5 205.0,194.0 238.0,185.2 271.0,177.2 304.0,169.8 337.0,163.0 370.0,156.8 403.0,151.0 436.0,145.7 469.0,140.8 502.0,136.4 535.0,132.2 568.0,128.5 601.0,125.0 634.0,121.8 667.0,118.8 700.0,116.1 733.0,113.6 766.0,111.3 799.0,109.2 832.0,107.2 865.0,105.4 898.0,103.8 931.0,102.3 964.0,100.9 997.0,99.6 1030.0,98.4 1063.0,97.3 1096.0,96.3 1129.0,95.4 1162.0,94.5 1195.0,93.8 1228.0,93.0 1261.0,92.4 1294.0,91.8 1327.0,91.2 1360.0,90.7 1393.0,90.2 1426.0,89.8 1459.0,89.4 1492.0,89.0 1525.0,88.7 1558.0,88.4 1591.0,88.1 1624.0,87.8\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"1030.0\" cy=\"52.0\" r=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": -40,
+     "y": 396,
+     "w": 160,
+     "t": "início",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 356,
+     "y": 396,
+     "w": 160,
+     "t": "6 meses",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 752,
+     "y": 396,
+     "w": 160,
+     "t": "1 ano",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1544,
+     "y": 396,
+     "w": 160,
+     "t": "2 anos",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1044,
+     "y": 296,
+     "w": 380,
+     "t": "motivação controlada",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1044,
+     "y": 34,
+     "w": 380,
+     "t": "motivação autônoma",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 30,
+     "w": 420,
+     "t": "adoção: pesa reconhecer o valor",
+     "tam": 26,
+     "cor": "#8A5A10",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 30,
+     "w": 520,
+     "t": "manutenção: pesa o prazer em si",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 350,
+     "w": 300,
+     "t": "presença nos treinos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que o tipo importa",
+   "titulo": "Quem treina por culpa treina. E para.",
+   "fonte": "Esquema, sem valores medidos · revisão sistemática de 66 estudos, Int J Behav Nutr Phys Act 2012"
   },
   {
    "id": "necessidades",
-   "tipo": "icones",
-   "eyebrow": "Três necessidades",
-   "titulo": "Qual delas deixou de ser atendida?",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Três necessidades, competência, autonomia e vínculo, cada uma com uma pergunta sobre o ciclista, convergindo para a motivação autônoma\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"80\" cy=\"80\" r=\"72\" fill=\"#F4EAD6\"/><g transform=\"translate(36.0 36.0) scale(1.8333)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M12 7a1 1 0 0 1 1-1h22a1 1 0 0 1 1 1v1h5a1 1 0 0 1 1 1v6a5 5 0 0 1-5 5h-1.683A12.02 12.02 0 0 1 26 27.834V34h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H16a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h6v-6.166A12.02 12.02 0 0 1 12.683 20H11a5 5 0 0 1-5-5V9a1 1 0 0 1 1-1h5zm24 9v-6h4v5a3 3 0 0 1-3 3h-1zm-24-6H8v5a3 3 0 0 0 3 3h1z\" clip-rule=\"evenodd\"/></g><line x1=\"1040\" y1=\"80\" x2=\"1250\" y2=\"198.75\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"80\" cy=\"255\" r=\"72\" fill=\"#DDEFEC\"/><g transform=\"translate(36.0 211.0) scale(3.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m8 16l2-6l6-2l-2 6z\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m9-9v2m0 14v2m-9-9h2m14 0h2\"/></g></g><line x1=\"1040\" y1=\"255\" x2=\"1250\" y2=\"260.0\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"80\" cy=\"430\" r=\"72\" fill=\"#F3E1DE\"/><g transform=\"translate(36.0 386.0) scale(3.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0m0 17v-5l-1-1v-4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4l-1 1v5m6-17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m0 17v-4h-2l2-6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1l2 6h-2v4\"/></g><line x1=\"1040\" y1=\"430\" x2=\"1250\" y2=\"321.25\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1270\" y=\"170\" width=\"390\" height=\"180\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
     {
-     "ic": "h:award-trophy",
+     "x": 185,
+     "y": 30,
+     "w": 600,
      "t": "Competência",
-     "x": "sentir que melhora",
-     "cor": "ambar"
+     "tam": 40,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "ic": "t:compass",
+     "x": 185,
+     "y": 84,
+     "w": 820,
+     "t": "Ele parou de melhorar na serra?",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 185,
+     "y": 205,
+     "w": 600,
      "t": "Autonomia",
-     "x": "a escolha também é dele",
-     "cor": "petr"
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "ic": "t:friends",
+     "x": 185,
+     "y": 259,
+     "w": 820,
+     "t": "A planilha virou uma ordem sem explicação?",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 185,
+     "y": 380,
+     "w": 600,
      "t": "Vínculo",
-     "x": "pertencer ao grupo",
-     "cor": "verm"
-    }
-   ]
-  },
-  {
-   "id": "controle",
-   "tipo": "versus",
-   "eyebrow": "Erro dois",
-   "titulo": "Controlar para motivar",
-   "esq": {
-    "ic": "t:lock",
-    "t": "Controlar",
-    "itens": [
-     "cobrança em público",
-     "planilha fechada"
-    ],
-    "cor": "verm"
-   },
-   "dir": {
-    "ic": "t:compass",
-    "t": "Apoiar a autonomia",
-    "itens": [
-     "escolha dentro de limites",
-     "explicar o porquê"
-    ],
-    "cor": "petr"
-   },
-   "fonte": "Modelo da relação técnico e atleta, J Sports Sci 2003"
-  },
-  {
-   "id": "autoeficacia",
-   "tipo": "painel",
-   "lado": "esq",
-   "cor": "petr",
-   "ic": "t:target-arrow",
-   "grande": "r = 0,38",
-   "tam_grande": 88,
-   "ic_tam": 360,
-   "eyebrow": "Erro três",
-   "titulo": "Autoeficácia é sobre esta tarefa, hoje",
-   "itens": [
-    {
-     "ic": "t:x",
-     "t": "“Você é fera”",
-     "cor": "verm"
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "ic": "t:check",
-     "t": "“Você já subiu serra parecida neste ritmo”"
+     "x": 185,
+     "y": 434,
+     "w": 820,
+     "t": "O grupo de sábado mudou?",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "ic": "t:chart-line",
-     "t": "45 estudos no esporte: correlação média de 0,38 com desempenho"
+     "x": 1270,
+     "y": 214,
+     "w": 390,
+     "t": "Motivação autônoma",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1270,
+     "y": 262,
+     "w": 390,
+     "t": "a régua anda para a direita",
+     "tam": 24,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "fonte": "Bandura, 1977 · metanálise, Res Q Exerc Sport 2000"
+   "eyebrow": "O que desloca a régua",
+   "titulo": "Três necessidades, três perguntas para quem sumiu"
+  },
+  {
+   "id": "cascata",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Cascata do modelo da relação técnico e atleta: o que molda o técnico, os comportamentos dele, as três necessidades, a motivação e os desfechos; embaixo, o caminho controlador\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"250\" height=\"76\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"256\" y1=\"58\" x2=\"318\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"120\" width=\"250\" height=\"76\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"256\" y1=\"158\" x2=\"318\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"220\" width=\"250\" height=\"76\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"256\" y1=\"258\" x2=\"318\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"330\" y=\"40\" width=\"330\" height=\"220\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"666\" y1=\"150\" x2=\"740\" y2=\"54\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"750\" y=\"20\" width=\"240\" height=\"68\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"996\" y1=\"54\" x2=\"1068\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"666\" y1=\"150\" x2=\"740\" y2=\"144\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"750\" y=\"110\" width=\"240\" height=\"68\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"996\" y1=\"144\" x2=\"1068\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"666\" y1=\"150\" x2=\"740\" y2=\"234\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"750\" y=\"200\" width=\"240\" height=\"68\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"996\" y1=\"234\" x2=\"1068\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1080\" y=\"90\" width=\"260\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"1346\" y1=\"150\" x2=\"1400\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1410\" y=\"70\" width=\"254\" height=\"160\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"330\" y=\"400\" width=\"330\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"666\" y1=\"445\" x2=\"742\" y2=\"445\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"750\" y=\"400\" width=\"240\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"996\" y1=\"445\" x2=\"1072\" y2=\"445\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"1080\" y=\"400\" width=\"260\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1346\" y1=\"445\" x2=\"1402\" y2=\"445\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"1410\" y=\"400\" width=\"254\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 42,
+     "w": 250,
+     "t": "orientação pessoal",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 142,
+     "w": 250,
+     "t": "contexto e pressão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 242,
+     "w": 250,
+     "t": "leitura do atleta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 56,
+     "w": 330,
+     "t": "O que o técnico faz",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 108,
+     "w": 290,
+     "t": "apoio à autonomia",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 150,
+     "w": 290,
+     "t": "estrutura clara",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 192,
+     "w": 290,
+     "t": "envolvimento real",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 38,
+     "w": 240,
+     "t": "competência",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 128,
+     "w": 240,
+     "t": "autonomia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 218,
+     "w": 240,
+     "t": "vínculo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 116,
+     "w": 260,
+     "t": "motivação autônoma",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1410,
+     "y": 94,
+     "w": 254,
+     "t": "persistência, desempenho, bem-estar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 428,
+     "w": 330,
+     "t": "cobrança, prêmio, ameaça",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 428,
+     "w": 240,
+     "t": "necessidades frustradas",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 428,
+     "w": 260,
+     "t": "motivação controlada",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1410,
+     "y": 428,
+     "w": 254,
+     "t": "abandono",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Erro dois",
+   "titulo": "Controlar funciona na semana e cobra no ano",
+   "fonte": "Modelo motivacional da relação técnico e atleta, J Sports Sci 2003"
+  },
+  {
+   "id": "nuvem",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Esquema: nuvem de pontos com correlação próxima de 0,38 entre autoeficácia e desempenho; ao lado, a relação fica mais forte quando a pergunta corresponde à tarefa medida\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><line x1=\"60\" y1=\"400\" x2=\"820\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"2\"/><circle cx=\"227.4\" cy=\"244.5\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"512.3\" cy=\"253.2\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"137.4\" cy=\"170.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"483.6\" cy=\"95.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"241.6\" cy=\"166.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"725.1\" cy=\"26.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"400.1\" cy=\"188.3\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"408.1\" cy=\"140.1\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"577.7\" cy=\"167.1\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"236.6\" cy=\"188.3\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"363.1\" cy=\"172.1\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"467.4\" cy=\"89.1\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"591.9\" cy=\"199.0\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"479.7\" cy=\"77.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"353.5\" cy=\"186.4\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"599.5\" cy=\"88.2\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"503.8\" cy=\"270.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"250.6\" cy=\"217.3\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"485.1\" cy=\"26.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"307.4\" cy=\"149.8\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"539.6\" cy=\"286.8\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"313.5\" cy=\"210.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"359.8\" cy=\"222.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"496.9\" cy=\"239.5\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"496.4\" cy=\"228.5\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"352.5\" cy=\"180.0\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"348.4\" cy=\"196.7\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"657.6\" cy=\"156.2\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"409.2\" cy=\"156.8\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"378.0\" cy=\"140.3\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"247.4\" cy=\"194.1\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"357.1\" cy=\"264.6\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"681.8\" cy=\"207.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"680.0\" cy=\"111.6\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"636.8\" cy=\"224.3\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"600.6\" cy=\"75.2\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"413.4\" cy=\"211.3\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"779.5\" cy=\"124.0\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"369.9\" cy=\"251.5\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"493.5\" cy=\"167.1\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"455.3\" cy=\"85.1\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"383.3\" cy=\"178.3\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"637.7\" cy=\"225.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"577.8\" cy=\"55.4\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"237.2\" cy=\"305.9\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><circle cx=\"282.2\" cy=\"345.5\" r=\"9\" fill=\"#3A6EA5\" fill-opacity=\"0.7\"/><line x1=\"88.5\" y1=\"241.7\" x2=\"771.5\" y2=\"118.8\" stroke=\"#12202E\" stroke-width=\"5\"/><rect x=\"960\" y=\"110\" width=\"700\" height=\"330\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1000\" y=\"240\" width=\"220\" height=\"30\" rx=\"6\" fill=\"#3A6EA5\" fill-opacity=\"0.45\"/><rect x=\"1000\" y=\"360\" width=\"560\" height=\"30\" rx=\"6\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 410,
+     "w": 300,
+     "t": "autoeficácia →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 20,
+     "w": 200,
+     "t": "desempenho ↑",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 10,
+     "w": 700,
+     "t": "r = 0,38",
+     "tam": 64,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1000,
+     "y": 130,
+     "w": 620,
+     "t": "O moderador mais forte: a pergunta bate com a tarefa?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 202,
+     "w": 620,
+     "t": "“Você se sente confiante?”",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 240,
+     "w": 320,
+     "t": "relação mais fraca",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 318,
+     "w": 640,
+     "t": "“De 0 a 10, sobe a serra em 20 minutos?”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 400,
+     "w": 320,
+     "t": "relação mais forte",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Erro três",
+   "titulo": "Autoeficácia é sobre esta tarefa, e prevê desempenho",
+   "fonte": "Esquema: nuvem desenhada com correlação próxima de 0,38 · metanálise de 45 estudos, Res Q Exerc Sport 2000 · Bandura, 1977"
   },
   {
    "id": "fontes",
-   "tipo": "matriz",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Quatro fontes de autoeficácia, com setas de espessura decrescente: experiência de domínio, experiência vicária, persuasão verbal e estados fisiológicos\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><g transform=\"translate(0.0 26.0) scale(1.5000)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M12 7a1 1 0 0 1 1-1h22a1 1 0 0 1 1 1v1h5a1 1 0 0 1 1 1v6a5 5 0 0 1-5 5h-1.683A12.02 12.02 0 0 1 26 27.834V34h6a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H16a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h6v-6.166A12.02 12.02 0 0 1 12.683 20H11a5 5 0 0 1-5-5V9a1 1 0 0 1 1-1h5zm24 9v-6h4v5a3 3 0 0 1-3 3h-1zm-24-6H8v5a3 3 0 0 0 3 3h1z\" clip-rule=\"evenodd\"/></g><path d=\"M780 60 C 1000 60, 1080 260, 1250 260\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"26\" stroke-linecap=\"round\"/><g transform=\"translate(0.0 151.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><path d=\"M780 185 C 1000 185, 1080 260, 1250 260\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"17\" stroke-linecap=\"round\"/><g transform=\"translate(0.0 276.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><path d=\"M780 310 C 1000 310, 1080 260, 1250 260\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"10\" stroke-linecap=\"round\"/><g transform=\"translate(0.0 401.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><path d=\"M780 435 C 1000 435, 1080 260, 1250 260\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"1420\" cy=\"260\" r=\"180\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 96,
+     "y": 20,
+     "w": 560,
+     "t": "Ter conseguido antes",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 64,
+     "w": 640,
+     "t": "já subiu serra parecida neste ritmo",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 145,
+     "w": 560,
+     "t": "Ver alguém parecido",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 189,
+     "w": 640,
+     "t": "o colega da mesma idade subiu",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 270,
+     "w": 560,
+     "t": "Ouvir que consegue",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 314,
+     "w": 640,
+     "t": "“você é fera”",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 395,
+     "w": 560,
+     "t": "Ler o próprio corpo",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 439,
+     "w": 640,
+     "t": "coração acelerado: pronto ou perdido?",
+     "tam": 26,
+     "cor": "#3A4A57",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 226,
+     "w": 320,
+     "t": "Autoeficácia",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "As quatro fontes",
-   "titulo": "Da mais forte à mais fraca",
-   "quadrantes": [
+   "titulo": "A frase de incentivo é a fonte mais fraca",
+   "fonte": "Ordem de força proposta por Bandura · espessura das linhas ilustrativa"
+  },
+  {
+   "id": "curva",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Esquema: a intensidade da emoção sobe na hora antes da largada; cinco pontos onde é possível regular, o último deles com a emoção já no alto\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><line x1=\"20.0\" y1=\"410\" x2=\"20.0\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"827.0\" y1=\"410\" x2=\"827.0\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1634.0\" y1=\"410\" x2=\"1634.0\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"181.4\" y1=\"410.0\" x2=\"181.4\" y2=\"123.6\" stroke=\"#008A7E\" stroke-width=\"2\" stroke-dasharray=\"6 6\"/><line x1=\"450.4\" y1=\"410.0\" x2=\"450.4\" y2=\"123.6\" stroke=\"#008A7E\" stroke-width=\"2\" stroke-dasharray=\"6 6\"/><line x1=\"773.2\" y1=\"410.0\" x2=\"773.2\" y2=\"123.6\" stroke=\"#008A7E\" stroke-width=\"2\" stroke-dasharray=\"6 6\"/><line x1=\"1096.0\" y1=\"410.0\" x2=\"1096.0\" y2=\"123.6\" stroke=\"#008A7E\" stroke-width=\"2\" stroke-dasharray=\"6 6\"/><line x1=\"1472.6\" y1=\"410.0\" x2=\"1472.6\" y2=\"123.6\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"6 6\"/><line x1=\"20\" y1=\"410\" x2=\"1634\" y2=\"410\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"20.0,376.3 46.9,376.2 73.8,376.0 100.7,375.8 127.6,375.6 154.5,375.3 181.4,375.0 208.3,374.7 235.2,374.3 262.1,373.9 289.0,373.3 315.9,372.8 342.8,372.1 369.7,371.3 396.6,370.4 423.5,369.4 450.4,368.2 477.3,366.9 504.2,365.4 531.1,363.7 558.0,361.8 584.9,359.6 611.8,357.1 638.7,354.4 665.6,351.3 692.5,347.8 719.4,344.0 746.3,339.7 773.2,335.1 800.1,330.0 827.0,324.5 853.9,318.6 880.8,312.3 907.7,305.6 934.6,298.5 961.5,291.2 988.4,283.7 1015.3,276.0 1042.2,268.2 1069.1,260.4 1096.0,252.7 1122.9,245.2 1149.8,237.8 1176.7,230.8 1203.6,224.1 1230.5,217.8 1257.4,211.8 1284.3,206.3 1311.2,201.3 1338.1,196.6 1365.0,192.4 1391.9,188.6 1418.8,185.1 1445.7,182.0 1472.6,179.2 1499.5,176.8 1526.4,174.6 1553.3,172.6 1580.2,170.9 1607.1,169.4 1634.0,168.1\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"1472.6\" cy=\"179.2\" r=\"11\" fill=\"#12202E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "ic": "h:award-trophy",
-     "t": "1 · Ter conseguido antes",
-     "x": "experiência de domínio",
-     "cor": "petr"
+     "x": -60,
+     "y": 426,
+     "w": 160,
+     "t": "1 h antes",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "ic": "t:eye",
-     "t": "2 · Ver alguém parecido",
-     "x": "experiência vicária",
-     "cor": "petr"
+     "x": 747,
+     "y": 426,
+     "w": 160,
+     "t": "30 min",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "ic": "t:message-circle",
-     "t": "3 · Ouvir que consegue",
-     "x": "persuasão verbal",
-     "cor": "ambar"
+     "x": 1554,
+     "y": 426,
+     "w": 160,
+     "t": "largada",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "ic": "t:heartbeat",
-     "t": "4 · Ler o próprio corpo",
-     "x": "coração acelerado: pronto ou perdido?",
-     "cor": "ambar"
+     "x": 51,
+     "y": 0,
+     "w": 260,
+     "t": "escolher a situação",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 0,
+     "w": 260,
+     "t": "modificar a situação",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 643,
+     "y": 0,
+     "w": 260,
+     "t": "direcionar a atenção",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 966,
+     "y": 0,
+     "w": 260,
+     "t": "reavaliar o sentido",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1343,
+     "y": 0,
+     "w": 260,
+     "t": "suprimir a resposta",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1143,
+     "y": 150,
+     "w": 300,
+     "t": "“engole o choro”",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 300,
+     "w": 320,
+     "t": "intensidade da emoção",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
-   ]
-  },
-  {
-   "id": "ambiente",
-   "tipo": "frase",
-   "fundo": "tinta",
-   "eyebrow": "A ideia da aula",
-   "frase": "Motivação não se injeta. Ela cresce no ambiente de todo dia.",
-   "apoio": "A planilha que oferece escolha, o treino que mostra progresso, o grupo onde há lugar.",
-   "ic": "t:seedling"
-  },
-  {
-   "id": "processo",
-   "tipo": "fluxo",
+   ],
    "eyebrow": "Erro quatro",
-   "titulo": "“Engole o choro” chega tarde demais",
-   "passos": [
-    {
-     "ic": "t:map",
-     "t": "Situação",
-     "x": "escolher, modificar",
-     "cor": "petr"
-    },
-    {
-     "ic": "t:eye",
-     "t": "Atenção",
-     "x": "para onde olhar",
-     "cor": "petr"
-    },
-    {
-     "ic": "t:bulb",
-     "t": "Interpretação",
-     "x": "reavaliar o sentido",
-     "cor": "petr"
-    },
-    {
-     "ic": "t:hand-stop",
-     "t": "Resposta",
-     "x": "suprimir o que já sente",
-     "cor": "verm"
-    }
-   ],
-   "fonte": "Modelo de processo da regulação emocional (James Gross, 1998)"
+   "titulo": "Mandar engolir a emoção é regular tarde demais",
+   "fonte": "Esquema, sem valores medidos · modelo de processo da regulação emocional, James Gross, 1998"
   },
   {
-   "id": "custo",
-   "tipo": "painel",
-   "lado": "dir",
-   "cor": "ambar",
-   "ic": "t:bulb",
-   "ic_tam": 400,
+   "id": "setas",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Quem reavalia com frequência relata mais emoção positiva, menos negativa, melhores relações e mais bem-estar; quem suprime, o contrário\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"70\" width=\"1664\" height=\"80\" rx=\"10\" fill=\"#FDFCF9\"/><path d=\"M890 78 L856 114 H876 V144 H904 V114 H924 Z\" fill=\"#008A7E\"/><path d=\"M1390 142 L1356 106 H1376 V76 H1404 V106 H1424 Z\" fill=\"#A8322A\"/><rect x=\"0\" y=\"162\" width=\"1664\" height=\"80\" rx=\"10\" fill=\"#F1EEE6\"/><path d=\"M890 234 L856 198 H876 V168 H904 V198 H924 Z\" fill=\"#008A7E\"/><path d=\"M1390 170 L1356 206 H1376 V236 H1404 V206 H1424 Z\" fill=\"#A8322A\"/><rect x=\"0\" y=\"254\" width=\"1664\" height=\"80\" rx=\"10\" fill=\"#FDFCF9\"/><path d=\"M890 262 L856 298 H876 V328 H904 V298 H924 Z\" fill=\"#008A7E\"/><path d=\"M1390 326 L1356 290 H1376 V260 H1404 V290 H1424 Z\" fill=\"#A8322A\"/><rect x=\"0\" y=\"346\" width=\"1664\" height=\"80\" rx=\"10\" fill=\"#F1EEE6\"/><path d=\"M890 354 L856 390 H876 V420 H904 V390 H924 Z\" fill=\"#008A7E\"/><path d=\"M1390 418 L1356 382 H1376 V352 H1404 V382 H1424 Z\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 700,
+     "y": 0,
+     "w": 380,
+     "t": "Quem reavalia",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 0,
+     "w": 380,
+     "t": "Quem suprime",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 90,
+     "w": 640,
+     "t": "emoção positiva",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 182,
+     "w": 640,
+     "t": "emoção negativa",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 274,
+     "w": 640,
+     "t": "funcionamento nas relações",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 366,
+     "w": 640,
+     "t": "bem-estar",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O custo de suprimir",
-   "titulo": "Reavaliar ajuda mais que esconder",
-   "itens": [
-    {
-     "ic": "t:mood-happy",
-     "t": "Reavaliar: mais emoção positiva e mais bem-estar",
-     "cor": "petr"
-    },
-    {
-     "ic": "t:mood-sad",
-     "t": "Suprimir: mais emoção negativa, apesar de mostrar menos",
-     "cor": "verm"
-    },
-    {
-     "ic": "t:message-circle",
-     "t": "“O que esse nervosismo está te dizendo?”",
-     "cor": "ambar"
-    }
-   ],
-   "fonte": "Cinco estudos com estudantes, J Pers Soc Psychol 2003"
+   "titulo": "Reavaliar e esconder não custam o mesmo",
+   "destaque": "Cinco estudos com estudantes, e é associação. Em vez de “não fica nervoso”: “o que esse nervosismo está te dizendo?”",
+   "destaque_cor": "tinta",
+   "fonte": "J Pers Soc Psychol 2003"
   },
   {
-   "id": "ciclo",
-   "tipo": "ciclo",
+   "id": "ciclos",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Dois ciclos: o que se sustenta, com apoio à autonomia levando a persistência; e o que se fecha, com controle levando a abandono lido como falta de motivação\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M463.7 112.4 A170 170 0 0 1 557.6 206.3\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M557.6 333.7 A170 170 0 0 1 463.7 427.6\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M336.3 427.6 A170 170 0 0 1 242.4 333.7\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M242.4 206.3 A170 170 0 0 1 336.3 112.4\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><circle cx=\"400.0\" cy=\"100.0\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"570.0\" cy=\"270.0\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"400.0\" cy=\"440.0\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"230.0\" cy=\"270.0\" r=\"16\" fill=\"#008A7E\"/><path d=\"M1323.7 112.4 A170 170 0 0 1 1417.6 206.3\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><path d=\"M1417.6 333.7 A170 170 0 0 1 1323.7 427.6\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><path d=\"M1196.3 427.6 A170 170 0 0 1 1102.4 333.7\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><path d=\"M1102.4 206.3 A170 170 0 0 1 1196.3 112.4\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><circle cx=\"1260.0\" cy=\"100.0\" r=\"16\" fill=\"#A8322A\"/><circle cx=\"1430.0\" cy=\"270.0\" r=\"16\" fill=\"#A8322A\"/><circle cx=\"1260.0\" cy=\"440.0\" r=\"16\" fill=\"#A8322A\"/><circle cx=\"1090.0\" cy=\"270.0\" r=\"16\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 230,
+     "y": 42,
+     "w": 340,
+     "t": "apoio à autonomia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 596,
+     "y": 252,
+     "w": 250,
+     "t": "necessidades atendidas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 462,
+     "w": 340,
+     "t": "motivação autônoma",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": -46,
+     "y": 252,
+     "w": 250,
+     "t": "persiste e melhora",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1090,
+     "y": 42,
+     "w": 340,
+     "t": "controle",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1456,
+     "y": 252,
+     "w": 250,
+     "t": "necessidades frustradas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1090,
+     "y": 462,
+     "w": 340,
+     "t": "abandono",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 814,
+     "y": 252,
+     "w": 250,
+     "t": "“falta de motivação”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 250,
+     "y": 250,
+     "w": 300,
+     "t": "se alimenta",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1110,
+     "y": 250,
+     "w": 300,
+     "t": "se fecha",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Erro cinco",
-   "titulo": "Motivação é assunto de todo dia",
-   "nos": [
-    {
-     "ic": "t:users",
-     "t": "Quem conduz o treino",
-     "x": "escolha, estrutura, envolvimento",
-     "cor": "tinta"
-    },
-    {
-     "ic": "t:puzzle",
-     "t": "Necessidades atendidas",
-     "cor": "petr"
-    },
-    {
-     "ic": "t:compass",
-     "t": "Motivação autônoma",
-     "cor": "petr"
-    },
-    {
-     "ic": "t:trending-up",
-     "t": "Persistência e bem-estar",
-     "cor": "ambar"
-    }
-   ],
-   "centro": "o ciclo também roda ao contrário",
-   "fonte": "J Sports Sci 2003"
-  },
-  {
-   "id": "segunda",
-   "tipo": "checklist",
-   "eyebrow": "Na segunda-feira",
-   "titulo": "Quatro gestos",
-   "itens": [
-    {
-     "ic": "t:compass",
-     "t": "Uma escolha real",
-     "x": "em toda prescrição",
-     "cor": "petr"
-    },
-    {
-     "ic": "t:chart-line",
-     "t": "Um progresso visível",
-     "x": "carga anotada, teste repetido",
-     "cor": "ambar"
-    },
-    {
-     "ic": "t:friends",
-     "t": "Com quem ele treina?",
-     "x": "pertencer também sustenta",
-     "cor": "verm"
-    },
-    {
-     "ic": "t:message-circle",
-     "t": "Nomear a emoção",
-     "x": "em vez de mandar esconder",
-     "cor": "tinta"
-    }
-   ]
+   "titulo": "Motivação não vem da palestra. Vem do ciclo de todo dia",
+   "fonte": "A partir do modelo da relação técnico e atleta, J Sports Sci 2003"
   },
   {
    "id": "fecho",
@@ -337,7 +1167,7 @@
     {
      "ic": "h:doctor",
      "t": "Médico e fisioterapia",
-     "x": "Escolha, progresso visível e vínculo em cada consulta."
+     "x": "Uma escolha, um progresso visível, um vínculo, em cada consulta."
     },
     {
      "ic": "h:psychology",

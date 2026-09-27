@@ -117,39 +117,25 @@ rodapé, o símbolo no canto superior direito e as notas do apresentador tiradas
 texto da aula. O número de slides do spec precisa bater com o número de blocos
 📊 da aula, ou o gerador recusa.
 
-## Segunda versão: mais figura, menos texto (a partir do Módulo 10)
+## O que vale a partir do Módulo 10 (correção de rumo)
 
-Os decks dos módulos 1 a 9 saíram com texto demais na tela e o mesmo desenho de slide
-repetido (eyebrow, título, cards ou duas colunas). A partir do Módulo 10 valem estas regras:
+Nos módulos 3 a 9 os decks passaram a ter 12 slides fixos, aulas encurtadas para 10 a 12 minutos
+e layouts genéricos (cards, duas colunas). Nada disso foi pedido. O pedido era outro: **muitos
+slides tiravam a fluidez da aula, então reduzir a quantidade quando possível.** O modelo que
+funcionava é o dos Módulos 1 e 2, e é ele que vale daqui em diante:
 
-1. **Até 45 palavras visíveis por slide.** O gerador avisa quando passa. O que não cabe
-   é dito, e fica nas notas do apresentador, que vêm do texto falado.
-2. **Uma figura por slide de conteúdo**: pictograma, ícone grande, fluxo, espectro, ciclo,
-   linha do tempo, gráfico em vetor. No máximo dois slides por deck só de cards ou colunas.
-3. **Composições diferentes** dentro do mesmo deck. Tipos novos do gerador:
+1. **Número de slides decidido pelo conteúdo, e o menor possível.** Cada slide sustenta um trecho
+   longo de fala. Oito a onze slides por aula é o comum; nunca um número fixo.
+2. **Duração decidida pelo tema**, sem encurtar para caber num formato.
+3. **Cada slide é um desenho feito para aquela ideia**: a curva que mostra o ponto de cruzamento,
+   a metáfora (reservatório e torneira), a cascata do mecanismo, a escala que dá dimensão, a nuvem
+   de pontos que mostra o que é uma correlação de 0,38. O desenho explica; não enfeita.
+4. **Título que afirma** ("Quem treina por culpa treina. E para."), não título de assunto.
+5. Esquemas sem dado medido levam a legenda "Esquema, sem valores medidos".
+6. Ícones (Health Icons e Tabler, licença MIT, em `ferramentas/slides/icones.json`) entram como
+   apoio dentro dos desenhos, nunca como a figura principal do slide.
 
-| Tipo | O que mostra |
-|---|---|
-| `painel` | faixa de cor de altura inteira de um lado, com a figura grande; texto curto do outro |
-| `versus` | tela dividida ao meio, uma cor por metade, ícone e três palavras de cada lado |
-| `pergunta` | fundo cheio de cor, uma pergunta grande e um ícone ao fundo |
-| `hero` | um número ou palavra muito grande ao lado de um ícone em círculo |
-| `pictograma` | grade de pessoas com a fração destacada (prevalência, "1 em 3") |
-| `icones` | duas a quatro colunas, cada uma com ícone em círculo e duas ou três palavras |
-| `checklist` | itens curtos, cada um com o seu ícone |
-| `fluxo` | etapas com ícones ligadas por setas |
-| `espectro` | barra contínua com marcas e ícones (do bem-estar ao transtorno, por exemplo) |
-| `ciclo` | três a cinco etapas em círculo, com setas |
-| `matriz` | quatro quadrantes, cada um com ícone |
-| `linha_tempo` | marcos no tempo com ícones |
-| `barras` | barras horizontais com ícone por linha |
-
-   Os tipos antigos continuam valendo; `numeros` e os cartões do `fecho` aceitam ícone (`ic`).
-   `frase` aceita um ícone grande ao fundo, discreto (13% de opacidade). Não é o símbolo da
-   marca, que continua pequeno no canto.
-4. **O desenho da aula também varia.** Duas aulas seguidas não abrem com o mesmo tipo de
-   slide, e a ideia central nem sempre é um slide `frase`: pode ser uma pergunta, uma tela
-   dividida ou um número.
-5. **Ícones**: Health Icons e Tabler Icons, os dois de licença MIT, copiados em
-   `ferramentas/slides/icones.json` (licenças em `ferramentas/slides/LICENCAS-ICONES.md`).
-   No spec, `"h:nome"` ou `"t:nome"`. Para acrescentar: `ferramentas/slides/icones.py`.
+Os tipos de layout prontos do gerador (`painel`, `versus`, `pergunta`, `hero`, `pictograma`,
+`icones`, `checklist`, `fluxo`, `espectro`, `ciclo`, `matriz`, `linha_tempo`, `barras`) continuam
+disponíveis para um slide ou outro, mas o padrão é o `diagrama` desenhado para a ideia. O fecho
+tem ícones e não anuncia a próxima aula na tela. O Módulo 10 usa o tema `anil` na capa e no fecho.

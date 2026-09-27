@@ -570,7 +570,7 @@ def gerar(spec_path, saida):
             corpo = (simbolo(False) + eyebrow(s.get("eyebrow", "")) + titulo(s["titulo"]) + miolo(s, bg) + rodape(rod, n, total))
             html_s = secao(sid, bg, corpo, gap=s.get("gap", 34)) + nota
         pv = palavras_visiveis(html_s) - len(rod.split()) - 2
-        if pv > (70 if s["tipo"] == "fecho" else LIMITE_PALAVRAS):
+        if pv > (75 if s["tipo"] in ("fecho", "diagrama") else LIMITE_PALAVRAS):
             print(f"  aviso: {sid} tem {pv} palavras na tela (limite {LIMITE_PALAVRAS})")
         open(os.path.join(pasta, f"{sid}.html"), "w", encoding="utf-8").write(html_s)
 
