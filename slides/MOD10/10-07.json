@@ -1,0 +1,1076 @@
+{
+ "arquivo": "aulas/MOD10/10-07-prontidao-psicologica-para-o-retorno.md",
+ "modulo": "Psicologia do Esporte e Saúde Mental",
+ "tema": "anil",
+ "titulo": "Prontidão psicológica para o retorno",
+ "subtitulo": "Medir, cruzar com o corpo, tratar o medo",
+ "nota_capa": "Entra por um armador de handebol que passou em todos os testes.",
+ "secoes": {
+  "funil": [
+   "O tamanho do problema.",
+   "capa"
+  ],
+  "escala": [
+   "Como medir.",
+   "escala"
+  ],
+  "matriz": [
+   "Corpo e confiança.",
+   "matriz"
+  ],
+  "escada": [
+   "Como tratar o medo.",
+   "escada"
+  ]
+ },
+ "slides": [
+  {
+   "id": "funil",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Funil a partir de cem operados do cruzado: 81 voltam a algum esporte, 65 ao nível de antes, 55 ao competitivo; ao lado, um enxerto firme\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"50\" y=\"20\" width=\"900\" height=\"96\" rx=\"12\" fill=\"#C9CFD4\"/><rect x=\"136\" y=\"138\" width=\"729\" height=\"96\" rx=\"12\" fill=\"#DEE7F1\"/><rect x=\"208\" y=\"256\" width=\"585\" height=\"96\" rx=\"12\" fill=\"#3A6EA5\"/><rect x=\"252\" y=\"374\" width=\"495\" height=\"96\" rx=\"12\" fill=\"#A8322A\"/><line x1=\"950\" y1=\"20\" x2=\"950\" y2=\"480\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(1330.0 60.0) scale(10.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M11.46 20.846A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3a12 12 0 0 0 8.5 3a12 12 0 0 1-.09 7.06M15 19l2 2l4-4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 66,
+     "y": 40,
+     "w": 160,
+     "t": "100",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 50,
+     "w": 300,
+     "t": "operados",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 152,
+     "y": 158,
+     "w": 160,
+     "t": "81",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 168,
+     "w": 300,
+     "t": "algum esporte",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 224,
+     "y": 276,
+     "w": 160,
+     "t": "65",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 286,
+     "w": 300,
+     "t": "nível de antes",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 268,
+     "y": 394,
+     "w": 160,
+     "t": "55",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 404,
+     "w": 300,
+     "t": "competitivo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 350,
+     "w": 380,
+     "t": "o joelho não é o gargalo",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Um armador de handebol, dez meses depois",
+   "titulo": "O enxerto aguenta; quase metade não volta a competir",
+   "fonte": "Metanálise de 2014, retorno depois da reconstrução do cruzado · porcentagens arredondadas"
+  },
+  {
+   "id": "preditores",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Linha do tempo: antes da cirurgia, quatro meses, doze meses; quatro sinais medidos cedo levam ao retorno ou não ao nível de antes\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"60\" y=\"60\" width=\"760\" height=\"360\" rx=\"18\" fill=\"#DEE7F1\"/><line x1=\"60\" y1=\"440\" x2=\"1600\" y2=\"440\" stroke=\"#12202E\" stroke-width=\"5\"/><circle cx=\"160\" cy=\"440\" r=\"16\" fill=\"#12202E\"/><circle cx=\"720\" cy=\"440\" r=\"16\" fill=\"#12202E\"/><circle cx=\"1500\" cy=\"440\" r=\"16\" fill=\"#12202E\"/><g transform=\"translate(100.0 80.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><g transform=\"translate(100.0 164.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(100.0 248.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><g transform=\"translate(100.0 332.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><path d=\"M830 240 C 1050 240, 1200 240, 1380 240\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"1390\" y=\"150\" width=\"270\" height=\"180\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 180,
+     "y": 90,
+     "w": 600,
+     "t": "prontidão para o retorno",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 180,
+     "y": 174,
+     "w": 600,
+     "t": "medo de nova lesão",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 180,
+     "y": 258,
+     "w": 600,
+     "t": "sensação de que depende de si",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 180,
+     "y": 342,
+     "w": 600,
+     "t": "estimativa de meses até voltar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 460,
+     "w": 200,
+     "t": "antes da cirurgia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 460,
+     "w": 200,
+     "t": "4 meses",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 460,
+     "w": 200,
+     "t": "12 meses",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 180,
+     "w": 250,
+     "t": "voltou ao nível de antes?",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 180,
+     "w": 500,
+     "t": "cada um contribui de forma independente",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Medível antes",
+   "titulo": "A prontidão se mede cedo, e prevê o retorno",
+   "fonte": "Estudo australiano, Am J Sports Med 2013 · medida no quarto mês, ainda há tempo de tratar"
+  },
+  {
+   "id": "escala",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Mostrador de 0 a 100 com três faixas de uso; barra com a composição da escala: 5 itens de emoção, 5 de confiança, 2 de avaliação de risco; curva de reaplicação\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><path d=\"M360 330 L60 330 A300 300 0 0 1 267 45 Z\" fill=\"#F3E1DE\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M360 330 L267 45 A300 300 0 0 1 536 87 Z\" fill=\"#F4EAD6\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M360 330 L536 87 A300 300 0 0 1 660 330 Z\" fill=\"#DDEFEC\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><line x1=\"360\" y1=\"330\" x2=\"376\" y2=\"80\" stroke=\"#12202E\" stroke-width=\"8\" stroke-linecap=\"round\"/><circle cx=\"360\" cy=\"330\" r=\"18\" fill=\"#12202E\"/><rect x=\"780\" y=\"60\" width=\"350\" height=\"80\" fill=\"#A8322A\"/><rect x=\"1130\" y=\"60\" width=\"350\" height=\"80\" fill=\"#3A6EA5\"/><rect x=\"1480\" y=\"60\" width=\"140\" height=\"80\" fill=\"#B07A1C\"/><line x1=\"800\" y1=\"480\" x2=\"1640\" y2=\"480\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"820,364 950,351 1080,327 1210,303 1340,276 1470,252 1600,235\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\"/><circle cx=\"820\" cy=\"364\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"950\" cy=\"351\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"1080\" cy=\"327\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"1210\" cy=\"303\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"1340\" cy=\"276\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"1470\" cy=\"252\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"1600\" cy=\"235\" r=\"10\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 780,
+     "y": 76,
+     "w": 350,
+     "t": "5 · emoções",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 76,
+     "w": 350,
+     "t": "5 · confiança",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1480,
+     "y": 76,
+     "w": 140,
+     "t": "2 · risco",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 350,
+     "w": 60,
+     "t": "0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 350,
+     "w": 80,
+     "t": "100",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 390,
+     "w": 640,
+     "t": "faixas de uso, não pontos de corte",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 170,
+     "w": 200,
+     "t": "alvo de tratamento",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 250,
+     "y": 0,
+     "w": 240,
+     "t": "retorno gradual acompanhado",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 540,
+     "y": 170,
+     "w": 180,
+     "t": "critério cumprido",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 780,
+     "y": 12,
+     "w": 860,
+     "t": "12 itens, escore de 0 a 100 · versão curta de 6 itens",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 170,
+     "w": 860,
+     "t": "Reaplique: a curva vale mais que o número",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "A escala do cruzado",
+   "titulo": "Doze perguntas, três domínios, nenhum número mágico",
+   "fonte": "Escala de 2008, versão curta de 2018, ambas com versão brasileira · curva ilustrativa, sem valores medidos"
+  },
+  {
+   "id": "fora",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Três cartões para qualquer lesão: prontidão geral com seis itens; medo do movimento com dezessete itens; três perguntas em voz alta, com a terceira destacada\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"0\" y=\"0\" width=\"396\" height=\"480\" rx=\"20\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(30.0 30.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"420\" y=\"0\" width=\"396\" height=\"480\" rx=\"20\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(450.0 30.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"840\" y=\"0\" width=\"824\" height=\"480\" rx=\"20\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(870.0 30.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"860\" y=\"336\" width=\"784\" height=\"100\" rx=\"14\" fill=\"#DDEFEC\"/></svg>",
+   "rotulos": [
+    {
+     "x": 130,
+     "y": 40,
+     "w": 250,
+     "t": "Prontidão geral",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 140,
+     "w": 200,
+     "t": "2009",
+     "tam": 44,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 220,
+     "w": 340,
+     "t": "6 itens de confiança · baixa depois da lesão, sobe antes do treino e antes da competição",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.4
+    },
+    {
+     "x": 550,
+     "y": 40,
+     "w": 250,
+     "t": "Medo do movimento",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 450,
+     "y": 140,
+     "w": 200,
+     "t": "1990",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 450,
+     "y": 220,
+     "w": 340,
+     "t": "17 itens, de 17 a 68 · dor musculoesquelética, inclusive lombar · versão brasileira",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.4
+    },
+    {
+     "x": 880,
+     "y": 130,
+     "w": 750,
+     "t": "“De zero a dez, quanta confiança você tem de que aguenta um jogo inteiro?”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 880,
+     "y": 240,
+     "w": 750,
+     "t": "“O que aconteceria se entrasse numa disputa de bola hoje?”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 880,
+     "y": 350,
+     "w": 750,
+     "t": "“Tem algum movimento que você evita sem precisar?”",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 960,
+     "y": 44,
+     "w": 660,
+     "t": "Três perguntas em voz alta",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 440,
+     "w": 760,
+     "t": "a evitação é visível para quem pergunta e invisível para quem a pratica",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quando não é joelho",
+   "titulo": "Fora do joelho, três perguntas já abrem o caso"
+  },
+  {
+   "id": "matriz",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Matriz dois por dois: capacidade física no eixo horizontal, prontidão psicológica no vertical; quatro quadrantes nomeados; o armador no quadrante de capacidade alta e prontidão baixa\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"166\" y=\"26\" width=\"578\" height=\"218\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"756\" y=\"26\" width=\"578\" height=\"218\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"166\" y=\"256\" width=\"578\" height=\"218\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"756\" y=\"256\" width=\"578\" height=\"218\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1080.4 323.6) scale(1.8750)\"><g fill=\"#B07A1C\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><line x1=\"160\" y1=\"500\" x2=\"1340\" y2=\"500\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"140\" y1=\"20\" x2=\"140\" y2=\"480\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 190,
+     "y": 50,
+     "w": 530,
+     "t": "Capacidade baixa, prontidão alta",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 190,
+     "y": 100,
+     "w": 530,
+     "t": "o mais perigoso: sem freio interno",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 50,
+     "w": 530,
+     "t": "Capacidade alta, prontidão alta",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 780,
+     "y": 100,
+     "w": 530,
+     "t": "libere",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 190,
+     "y": 280,
+     "w": 530,
+     "t": "Capacidade baixa, prontidão baixa",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 190,
+     "y": 330,
+     "w": 530,
+     "t": "trate os dois: melhoram juntos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 280,
+     "w": 530,
+     "t": "Capacidade alta, prontidão baixa",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 780,
+     "y": 330,
+     "w": 530,
+     "t": "o mais mal manejado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 514,
+     "w": 1180,
+     "t": "capacidade física →",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 210,
+     "w": 120,
+     "t": "prontidão psicológica ↑",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1380,
+     "y": 60,
+     "w": 284,
+     "t": "Os dois quadrantes desalinhados são os que mais aparecem, e os que uma avaliação só física não distingue.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1380,
+     "y": 330,
+     "w": 284,
+     "t": "o armador",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Dois números, uma decisão",
+   "titulo": "Corpo e confiança nem sempre estão no mesmo lugar"
+  },
+  {
+   "id": "condutas",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Duas colunas de conduta: capacidade alta e prontidão baixa (nomear, expor em degraus, registrar) e capacidade baixa e prontidão alta (números mostrados, retorno negociado, freio de fora)\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"520\" rx=\"22\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"24\" y=\"110\" width=\"772\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\"/><g transform=\"translate(44.0 133.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"24\" y=\"240\" width=\"772\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\"/><g transform=\"translate(44.0 263.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><rect x=\"24\" y=\"370\" width=\"772\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\"/><g transform=\"translate(44.0 393.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"844\" y=\"0\" width=\"820\" height=\"520\" rx=\"22\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"868\" y=\"110\" width=\"772\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\"/><g transform=\"translate(888.0 133.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 13a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm12-4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zM9 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zM4 20h14\"/></g><rect x=\"868\" y=\"240\" width=\"772\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\"/><g transform=\"translate(888.0 263.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g><rect x=\"868\" y=\"370\" width=\"772\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\"/><g transform=\"translate(888.0 393.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 24,
+     "w": 760,
+     "t": "Capacidade alta, prontidão baixa",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 132,
+     "w": 650,
+     "t": "nomear: “o joelho passou; a confiança ainda não, e tem tratamento”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 130,
+     "y": 262,
+     "w": 650,
+     "t": "exposição em degraus",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 130,
+     "y": 392,
+     "w": 650,
+     "t": "registro do que deu certo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 874,
+     "y": 24,
+     "w": 760,
+     "t": "Capacidade baixa, prontidão alta",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 974,
+     "y": 132,
+     "w": 650,
+     "t": "os números dos testes, em voz alta e por escrito",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 974,
+     "y": 262,
+     "w": 650,
+     "t": "retorno negociado: tempo, posição, saída ao primeiro sinal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 974,
+     "y": 392,
+     "w": 650,
+     "t": "força seguindo durante a temporada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 874,
+     "y": 488,
+     "w": 760,
+     "t": "no atleta mais velho: calibração desatualizada, não teimosia",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Os dois quadrantes desalinhados",
+   "titulo": "Quando não há freio interno, o freio vem de fora"
+  },
+  {
+   "id": "escada",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Escada de cinco degraus de exposição, com a previsibilidade diminuindo a cada degrau; lacuna vermelha entre o terceiro degrau e o jogo\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><rect x=\"0\" y=\"370\" width=\"290\" height=\"130\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"300\" y=\"295\" width=\"290\" height=\"205\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"600\" y=\"220\" width=\"290\" height=\"280\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"900\" y=\"145\" width=\"290\" height=\"355\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"1200\" y=\"70\" width=\"290\" height=\"430\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M880 215 Q 900 40 1190 30\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"14 10\"/><polygon points=\"0,510 1500,510 1500,530 0,538\" fill=\"#D9D4C8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 14,
+     "y": 384,
+     "w": 262,
+     "t": "1 · sozinho, devagar",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 14,
+     "y": 420,
+     "w": 262,
+     "t": "salto de arremesso sem bola",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 314,
+     "y": 309,
+     "w": 262,
+     "t": "2 · velocidade normal",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 314,
+     "y": 375,
+     "w": 262,
+     "t": "em velocidade de jogo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 614,
+     "y": 234,
+     "w": 262,
+     "t": "3 · com carga ou salto",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 614,
+     "y": 300,
+     "w": 262,
+     "t": "com bola, salto máximo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 914,
+     "y": 159,
+     "w": 262,
+     "t": "4 · com outra pessoa, combinado",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 914,
+     "y": 225,
+     "w": 262,
+     "t": "bloqueio combinado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1214,
+     "y": 84,
+     "w": 262,
+     "t": "5 · imprevisível",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1214,
+     "y": 120,
+     "w": 262,
+     "t": "bloqueio real, em fadiga",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 0,
+     "w": 454,
+     "t": "o salto que quase todo programa dá: do 3 para o jogo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 700,
+     "t": "previsibilidade diminui a cada degrau →",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A exposição em degraus",
+   "titulo": "O que se progride é a previsibilidade, não o peso",
+   "fonte": "Os degraus 4 e 5 são conduzidos em campo pela preparação física e pelo treinador, com a fisioterapia por perto"
+  },
+  {
+   "id": "caderno",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Caderno aberto: à esquerda, a lista do que doeu, riscada; à direita, a lista do que ele conseguiu fazer, com vistos; ao lado, a memória do medo guardando um episódio ruim e esquecendo onze bons\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"0\" y=\"0\" width=\"1000\" height=\"500\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"500\" y1=\"20\" x2=\"500\" y2=\"480\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"30\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(530.0 106.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><line x1=\"30\" y1=\"238\" x2=\"254\" y2=\"238\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(530.0 216.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><line x1=\"30\" y1=\"348\" x2=\"310\" y2=\"348\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(530.0 326.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1080\" y=\"120\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1174\" y=\"120\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1268\" y=\"120\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1362\" y=\"120\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1456\" y=\"120\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#A8322A\"/><rect x=\"1550\" y=\"120\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1080\" y=\"230\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1174\" y=\"230\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1268\" y=\"230\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1362\" y=\"230\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1456\" y=\"230\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/><rect x=\"1550\" y=\"230\" width=\"76\" height=\"76\" rx=\"12\" fill=\"#D9DDE0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 24,
+     "w": 440,
+     "t": "o que doeu",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 530,
+     "y": 24,
+     "w": 440,
+     "t": "o que eu consegui",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 110,
+     "w": 440,
+     "t": "pontada no aquecimento",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 110,
+     "w": 390,
+     "t": "arremesso em suspensão, 20 vezes",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 220,
+     "w": 440,
+     "t": "rigidez de manhã",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 220,
+     "w": 390,
+     "t": "bloqueio combinado, 3 séries",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 330,
+     "w": 440,
+     "t": "desconforto no salto",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 330,
+     "w": 390,
+     "t": "jogo reduzido, 10 minutos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 20,
+     "w": 560,
+     "t": "A memória do medo",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1080,
+     "y": 330,
+     "w": 560,
+     "t": "guarda o único episódio ruim e esquece as onze sessões em que nada aconteceu",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    }
+   ],
+   "eyebrow": "O registro e o encaminhamento",
+   "titulo": "O caderno do que deu certo corrige a memória do medo",
+   "destaque": "“Não tem nada, pode ir” não trata medo. Encaminhamento é parte do plano esportivo, não consolo.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Prontidão psicológica para o retorno",
+   "titulo": "Os testes diziam pronto; ele não arremessava",
+   "regras": [
+    "Medir a prontidão cedo, e reaplicar",
+    "Cruzar corpo e confiança na matriz",
+    "Subir os degraus da previsibilidade até o jogo"
+   ],
+   "cards": [
+    {
+     "ic": "t:users",
+     "t": "Quem reabilita e prepara",
+     "x": "Mede, conduz os degraus e não salta do terceiro para o jogo."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Médico",
+     "x": "Junta as duas dimensões na decisão de retorno."
+    },
+    {
+     "ic": "h:psychology",
+     "t": "Psicologia do esporte",
+     "x": "Trata o medo que não cede à exposição."
+    }
+   ]
+  }
+ ]
+}
