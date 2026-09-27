@@ -283,19 +283,30 @@ psicologia do esporte e saúde mental, que abre o Módulo 10.
 
 ## Módulo 10 — Psicologia do Esporte e Saúde Mental · 11 aulas
 
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 10.1 | Motivação, autoeficácia e regulação emocional | M11-A07 | PRONTA |
-| 10.2 | Atenção, ativação e desempenho sob pressão | — | NOVA |
-| 10.3 **[M]** | Saúde mental no rendimento: prevalência e risco | M11-A01 + M11-A03 | FUNDIR |
-| 10.4 | Rastreio e instrumentos validados | M11-A02 + M4-A07 | FUNDIR |
-| 10.5 | Fluxo de encaminhamento | M11-A08 | PRONTA |
-| 10.6 **[M]** | Psicologia da lesão: do impacto ao medo de nova lesão | M18-A06 + M17-A09 | FUNDIR |
-| 10.7 | Prontidão psicológica para o retorno | M18-A06 | PRONTA |
-| 10.8 | Esgotamento e sobrecarga crônica | M11-A04 | PRONTA |
-| 10.9 | Transição de carreira e encerramento precoce | — | NOVA |
-| 10.10 | Ambiente seguro: assédio, abuso e proteção | — | NOVA |
-| 10.11 | Comunicação, adesão e mudança de comportamento | M11-A07 + M16-A06 | FUNDIR |
+**ESCRITO NA VOZ DO CURSO, NO MODELO DOS MÓDULOS 1 E 2.** Primeiro módulo depois da correção de rumo
+registrada em docs/08: o número de slides não é fixo, e cada slide carrega um desenho próprio (curva,
+metáfora, cascata, escala, nuvem de pontos), com títulos que afirmam e ícones só como apoio dentro do
+desenho. A duração é do tema. Capa e fecho em anil (docs/08). Dois casos clínicos no módulo, com idade
+por década e sem desfecho (10.6 e 10.9); os demais são perfis típicos. Autores citados por nome só nos
+modelos de referência (Deci e Ryan, Bandura, James Gross, Yuri Hanin).
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 10.1 | Motivação, autoeficácia e regulação emocional | 16 | 10 | ERRO | [slides](https://claude.ai/artifact/LVUiKqQTr8GZUavpdM4Zta) |
+| 10.2 | Atenção, ativação e desempenho sob pressão | 13 | 8 | PROCEDIMENTO | [slides](https://claude.ai/artifact/NwD5vWxknJLBBeBdkLuz3J) |
+| 10.3 **[M]** | Saúde mental no rendimento | 16 | 9 | NÚMERO | [slides](https://claude.ai/artifact/FHWJenV4BbHnxFK6Ts1q1H) |
+| 10.4 | Rastreio e instrumentos validados | 21 | 9 | DECISÃO | [slides](https://claude.ai/artifact/UJidQ2HL2AjyUkudoMZa42) |
+| 10.5 | Fluxo de encaminhamento | 17 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/W57aC4kUxm4gK2yMDDVK31) |
+| 10.6 **[M]** | Psicologia da lesão | 18 | 9 | CASO | [slides](https://claude.ai/artifact/NFuXWEqpC9VTqLp8a5Csk7) |
+| 10.7 | Prontidão psicológica para o retorno | 15 | 9 | NÚMERO | [slides](https://claude.ai/artifact/NCaCgsvyuUdLXJfVFWgXWp) |
+| 10.8 | Esgotamento e sobrecarga crônica | 15 | 9 | ERRO | [slides](https://claude.ai/artifact/1UtrM3Z33LihXUsNtSCeri) |
+| 10.9 | Transição de carreira e encerramento precoce | 14 | 9 | CASO | [slides](https://claude.ai/artifact/Qmuq6haRSEu4ysjV5EFpMy) |
+| 10.10 | Ambiente seguro: assédio, abuso e proteção | 15 | 9 | DECISÃO | [slides](https://claude.ai/artifact/8ttug65wbTMkafjmGWP2fn) |
+| 10.11 | Comunicação, adesão e mudança de comportamento | 16 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/FL3DUrwMFfdqca73MD1UAu) |
+
+Total: 2 h 56 min em 11 aulas, 99 slides. A 10.11 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
+atleta mulher, que abre o Módulo 11.
 
 ## Módulo 11 — A Atleta Mulher · 10 aulas
 

@@ -1,0 +1,961 @@
+{
+ "arquivo": "aulas/MOD10/10-11-comunicacao-adesao-e-mudanca-de-comportamento.md",
+ "modulo": "Psicologia do Esporte e Saúde Mental",
+ "tema": "anil",
+ "titulo": "Comunicação, adesão e mudança de comportamento",
+ "subtitulo": "A conversa que faz a pessoa voltar",
+ "nota_capa": "Entra por um aluno de academia em janeiro. Fecha o módulo.",
+ "secoes": {
+  "janeiro": [
+   "O que falta.",
+   "capa"
+  ],
+  "cabo": [
+   "A conversa.",
+   "cabo"
+  ],
+  "plano": [
+   "O plano e o hábito.",
+   "plano"
+  ],
+  "passos": [
+   "Os cinco passos e o fecho do módulo.",
+   "passos"
+  ]
+ },
+ "slides": [
+  {
+   "id": "janeiro",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Esquema: a frequência de uma academia ao longo do ano, alta em janeiro e descendo mês a mês; em cima, a frase ele não tem motivação, riscada\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><path d=\"M80 400 L80 60 L200 141 L320 199 L440 243 L560 274 L680 297 L800 314 L920 326 L1040 335 L1160 342 L1280 347 L1400 350 L1400 400 Z\" fill=\"#DEE7F1\"/><polyline points=\"80,60 200,141 320,199 440,243 560,274 680,297 800,314 920,326 1040,335 1160,342 1280,347 1400,350\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"7\"/><line x1=\"80\" y1=\"400\" x2=\"1400\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(1460.0 40.0) scale(5.8333)\"><path fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"760\" y1=\"130\" x2=\"1400\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"7\" stroke-linecap=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 412,
+     "w": 80,
+     "t": "jan",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 412,
+     "w": 80,
+     "t": "fev",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 412,
+     "w": 80,
+     "t": "mar",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 412,
+     "w": 80,
+     "t": "abr",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 412,
+     "w": 80,
+     "t": "mai",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 412,
+     "w": 80,
+     "t": "jun",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 412,
+     "w": 80,
+     "t": "jul",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 412,
+     "w": 80,
+     "t": "ago",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 412,
+     "w": 80,
+     "t": "set",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 412,
+     "w": 80,
+     "t": "out",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 412,
+     "w": 80,
+     "t": "nov",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 412,
+     "w": 80,
+     "t": "dez",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 70,
+     "w": 640,
+     "t": "“esse aí não tem motivação”",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 760,
+     "y": 170,
+     "w": 700,
+     "t": "permanência: o desfecho que sustenta todos os outros",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um aluno novo, em janeiro",
+   "titulo": "Ninguém não tem motivação",
+   "fonte": "Esquema, sem valores medidos · as pessoas têm motivações, e muitas vezes elas não combinam com o que foi prescrito"
+  },
+  {
+   "id": "banquinho",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Banquinho de três pernas com a palavra comportamento no assento: capacidade, oportunidade e motivação; uma perna mais curta faz o banquinho tombar\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><g transform=\"rotate(8 420 260)\"><rect x=\"170\" y=\"80\" width=\"500\" height=\"70\" rx=\"30\" fill=\"#12202E\"/><rect x=\"210\" y=\"150\" width=\"40\" height=\"300\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"400\" y=\"150\" width=\"40\" height=\"190\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"590\" y=\"150\" width=\"40\" height=\"300\" rx=\"10\" fill=\"#008A7E\"/></g><line x1=\"80\" y1=\"480\" x2=\"780\" y2=\"480\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"900\" y=\"10\" width=\"764\" height=\"150\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(920.0 50.0) scale(2.9167)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h4L20 8a1.5 1.5 0 0 0-4-4L3 17zM14.5 5.5l4 4\"/><path d=\"M12 8L7 3L3 7l5 5M7 8L5.5 9.5M16 12l5 5l-4 4l-5-5m4 1l-1.5 1.5\"/></g></g><rect x=\"900\" y=\"180\" width=\"764\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(920.0 220.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"900\" y=\"350\" width=\"764\" height=\"150\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(920.0 390.0) scale(2.9167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 200,
+     "y": 98,
+     "w": 440,
+     "t": "comportamento",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1010,
+     "y": 30,
+     "w": 640,
+     "t": "Capacidade",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1010,
+     "y": 80,
+     "w": 640,
+     "t": "sabe e consegue fazer? fica perdido na academia cheia?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1010,
+     "y": 200,
+     "w": 640,
+     "t": "Oportunidade",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1010,
+     "y": 250,
+     "w": 640,
+     "t": "a planilha pede quatro dias; a agenda tem dois, com filho e turnos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1010,
+     "y": 370,
+     "w": 640,
+     "t": "Motivação",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1010,
+     "y": 420,
+     "w": 640,
+     "t": "quer, mas quer o quê? e quanto?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Primeiro passo: descobrir o que falta",
+   "titulo": "Se uma perna falta, não adianta alongar as outras",
+   "fonte": "Modelo de 2011, a partir de 19 modelos de mudança de comportamento · “falta de motivação” costuma ser uma perna de oportunidade"
+  },
+  {
+   "id": "cabo",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Cabo de guerra: de um lado o profissional puxando para mudança, do outro o aluno puxando para não mudar; embaixo, 48 ensaios e razão de chances de 1,55\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"200\" y1=\"200\" x2=\"1464\" y2=\"200\" stroke=\"#9C8E74\" stroke-width=\"14\" stroke-linecap=\"round\"/><line x1=\"832\" y1=\"150\" x2=\"832\" y2=\"250\" stroke=\"#A8322A\" stroke-width=\"6\"/><g transform=\"translate(60.0 110.0) scale(3.7500)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><g transform=\"translate(1424.0 110.0) scale(3.7500)\"><g fill=\"#B07A1C\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><path d=\"M420 140 L320 140\" stroke=\"#3A6EA5\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><path d=\"M1244 140 L1344 140\" stroke=\"#B07A1C\" stroke-width=\"6\" marker-end=\"url(#m1)\"/><rect x=\"420\" y=\"330\" width=\"824\" height=\"130\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 20,
+     "w": 520,
+     "t": "“você precisa…” “o ideal é…” “já expliquei…”",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1144,
+     "y": 20,
+     "w": 520,
+     "t": "“mas eu não tenho tempo…” “já tentei…”",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 560,
+     "y": 250,
+     "w": 544,
+     "t": "quanto mais você puxa, mais ele puxa de volta",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 346,
+     "w": 200,
+     "t": "1,55",
+     "tam": 56,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 650,
+     "y": 350,
+     "w": 580,
+     "t": "razão de chances · 48 ensaios · 9.618 participantes · vantagem significativa e modesta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    }
+   ],
+   "eyebrow": "Segundo passo: parar de argumentar",
+   "titulo": "Quem argumenta mais perde o cabo de guerra",
+   "fonte": "Entrevista motivacional em contextos de cuidado em saúde, metanálise de 2013 · a ambivalência não é resistência"
+  },
+  {
+   "id": "regua",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Régua de 0 a 10 com o marcador no 6; a pergunta por que não 10 riscada; a pergunta por que não 3 gera as razões do próprio aluno; ao lado, quatro ferramentas\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"60\" y=\"200\" width=\"1000\" height=\"60\" rx=\"12\" fill=\"#E6E3DA\"/><line x1=\"60\" y1=\"200\" x2=\"60\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"160\" y1=\"200\" x2=\"160\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"260\" y1=\"200\" x2=\"260\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"360\" y1=\"200\" x2=\"360\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"460\" y1=\"200\" x2=\"460\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"560\" y1=\"200\" x2=\"560\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"660\" y1=\"200\" x2=\"660\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"760\" y1=\"200\" x2=\"760\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"860\" y1=\"200\" x2=\"860\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"960\" y1=\"200\" x2=\"960\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1060\" y1=\"200\" x2=\"1060\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\"/><polygon points=\"636.0,170 684.0,170 660.0,205\" fill=\"#12202E\"/><path d=\"M660.0 150 Q 910.0 80 1050 150\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"12 8\" marker-end=\"url(#m1)\"/><path d=\"M660.0 280 Q 510.0 360 370.0 280\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"1160\" y=\"20\" width=\"504\" height=\"100\" rx=\"14\" fill=\"#DEE7F1\"/><g transform=\"translate(1180.0 40.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><rect x=\"1160\" y=\"140\" width=\"504\" height=\"100\" rx=\"14\" fill=\"#DEE7F1\"/><g transform=\"translate(1180.0 160.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 11v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1za4 4 0 0 0 4-4V6a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1-2 2h-7a3 3 0 0 1-3-3\"/></g><rect x=\"1160\" y=\"260\" width=\"504\" height=\"100\" rx=\"14\" fill=\"#DEE7F1\"/><g transform=\"translate(1180.0 280.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g><rect x=\"1160\" y=\"380\" width=\"504\" height=\"100\" rx=\"14\" fill=\"#DEE7F1\"/><g transform=\"translate(1180.0 400.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3.5 5.5L5 7l2.5-2.5m-4 7L5 13l2.5-2.5m-4 7L5 19l2.5-2.5M11 6h9m-9 6h9m-9 6h9\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 272,
+     "w": 40,
+     "t": "0",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 268,
+     "w": 40,
+     "t": "3",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 268,
+     "w": 40,
+     "t": "6",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 272,
+     "w": 40,
+     "t": "10",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 40,
+     "w": 460,
+     "t": "“por que não 10?” → motivos para não mudar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 380,
+     "w": 520,
+     "t": "“por que 6, e não 3?”",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 430,
+     "w": 1000,
+     "t": "“quero correr com meu filho sem ficar sem ar” · “meu pai teve infarto com a minha idade”",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1260,
+     "y": 52,
+     "w": 390,
+     "t": "perguntas abertas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 172,
+     "w": 390,
+     "t": "reconhecimento",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 292,
+     "w": 390,
+     "t": "reflexão",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 412,
+     "w": 390,
+     "t": "resumo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Terceiro passo: as razões são dela",
+   "titulo": "Pergunte por que não é três",
+   "fonte": "Argumento próprio convence; argumento alheio, não · anote as frases dele: vão servir no dia em que ele quiser parar"
+  },
+  {
+   "id": "plano",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Dois cartões: vou treinar mais, riscado; e o plano se-então ancorado na escola do filho; embaixo, 94 testes e d = 0,65\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"0\" y=\"20\" width=\"560\" height=\"200\" rx=\"14\" fill=\"#EEEBE3\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"30\" y1=\"200\" x2=\"530\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"7\" stroke-linecap=\"round\"/><rect x=\"640\" y=\"0\" width=\"1024\" height=\"260\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><g transform=\"translate(670.0 30.0) scale(2.9167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M22 9L12 5L2 9l10 4zv6\"/><path d=\"M6 10.6V16a6 3 0 0 0 12 0v-5.4\"/></g></g><g transform=\"translate(670.0 150.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"0\" y=\"300\" width=\"1664\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 90,
+     "w": 500,
+     "t": "“vou treinar mais”",
+     "tam": 36,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 760,
+     "y": 36,
+     "w": 880,
+     "t": "SE deixar meu filho na escola, na terça e na quinta,",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 156,
+     "w": 880,
+     "t": "ENTÃO vou direto para a academia e faço o treino A",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 320,
+     "w": 260,
+     "t": "0,65",
+     "tam": 72,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 300,
+     "y": 330,
+     "w": 1330,
+     "t": "efeito de tamanho médio a grande · 94 testes, mais de 8.000 participantes · ajuda a começar, protege das distrações, facilita trocar o que não funciona",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 300,
+     "y": 420,
+     "w": 1330,
+     "t": "“Qual a menor coisa que você tem certeza de que consegue manter? Logo depois de quê?”",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Quarto passo: o plano é dela",
+   "titulo": "Um plano se-então vale mais que uma intenção",
+   "fonte": "Metanálise de 2006 de planos se-então · a planilha de quatro dias virou dois treinos ancorados e um curto em casa"
+  },
+  {
+   "id": "habito",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Curva de automaticidade de um hábito ao longo dos dias, subindo e se achatando; mediana de 66 dias; faixa de 18 a 254 dias; uma falta quase não mexe na linha\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><polyline points=\"80,400 89,378 97,357 106,338 114,320 123,304 132,288 140,274 149,261 158,248 166,237 175,226 183,216 192,206 201,198 209,190 218,182 226,175 235,168 244,162 252,166 261,161 270,156 278,142 287,138 295,134 304,130 313,127 321,123 330,120 338,118 347,115 356,113 364,110 373,108 382,106 390,104 399,103 407,101 416,100 425,98 433,97 442,96 450,95 459,94 468,93 476,92 485,91 494,90 502,90 511,89 519,88 528,88 537,87 545,87 554,86 562,86 571,85 580,85 588,85 597,84 606,84 614,84 623,84 631,83 640,83 649,83 657,83 666,82 674,82 683,82 692,82 700,82 709,82 718,82 726,82 735,81 743,81 752,81 761,81 769,81 778,81 786,81 795,81 804,81 812,81 821,81 830,81 838,81 847,81 855,81 864,80 873,80 881,80 890,80 898,80 907,80 916,80 924,80 933,80 942,80 950,80 959,80 967,80 976,80 985,80 993,80 1002,80 1010,80 1019,80 1028,80 1036,80 1045,80 1054,80 1062,80 1071,80 1079,80 1088,80 1097,80 1105,80 1114,80 1122,80 1131,80 1140,80 1148,80 1157,80 1166,80 1174,80 1183,80 1191,80 1200,80\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"7\"/><line x1=\"80\" y1=\"400\" x2=\"1200\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"80\" y1=\"400\" x2=\"80\" y2=\"60\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"158\" y=\"440\" width=\"1017\" height=\"26\" rx=\"13\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"364\" y1=\"60\" x2=\"364\" y2=\"470\" stroke=\"#12202E\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><circle cx=\"261\" cy=\"161\" r=\"14\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 376,
+     "y": 150,
+     "w": 300,
+     "t": "66 dias: mediana",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 376,
+     "y": 190,
+     "w": 300,
+     "t": "de cerca de metade dos participantes",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 100,
+     "y": 170,
+     "w": 200,
+     "t": "uma falta",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 894,
+     "y": 400,
+     "w": 280,
+     "t": "de 18 a 254 dias",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 60,
+     "w": 300,
+     "t": "automaticidade",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 120,
+     "w": 424,
+     "t": "“Vai ter semana em que você não vem. Está previsto. O que conta é voltar na seguinte.”",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 1240,
+     "y": 360,
+     "w": 424,
+     "t": "96 pessoas, 84 dias, um comportamento de saúde por dia",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Quanto tempo leva",
+   "titulo": "O hábito leva semanas a meses, e uma falta não o derruba",
+   "fonte": "Estudo de 2010 sobre formação de hábito · os dois primeiros meses são para instalar o hábito, não para a adaptação máxima"
+  },
+  {
+   "id": "palavras",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Duas colunas de palavras: à esquerda o vocabulário de dívida, riscado; à direita o vocabulário de capacidade\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"70\" width=\"780\" height=\"420\" rx=\"18\" fill=\"#F3E1DE\"/><rect x=\"884\" y=\"70\" width=\"780\" height=\"420\" rx=\"18\" fill=\"#DDEFEC\"/><line x1=\"314\" y1=\"122\" x2=\"466\" y2=\"122\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"228\" y1=\"198\" x2=\"552\" y2=\"198\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"228\" y1=\"274\" x2=\"552\" y2=\"274\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"186\" y1=\"350\" x2=\"594\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"246\" y1=\"426\" x2=\"534\" y2=\"426\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"800\" y1=\"280\" x2=\"864\" y2=\"280\" stroke=\"#12202E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 780,
+     "t": "Dívida e punição",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 0,
+     "w": 780,
+     "t": "Capacidade",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 100,
+     "w": 700,
+     "t": "compensar",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 100,
+     "w": 700,
+     "t": "construir",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 176,
+     "w": 700,
+     "t": "queimar o que comeu",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 176,
+     "w": 700,
+     "t": "conseguir",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 252,
+     "w": 700,
+     "t": "merecer a sobremesa",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 252,
+     "w": 700,
+     "t": "voltar",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 328,
+     "w": 700,
+     "t": "pagar pelo fim de semana",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 328,
+     "w": 700,
+     "t": "o que você já faz",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 404,
+     "w": 700,
+     "t": "recomeçar do zero",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 404,
+     "w": 700,
+     "t": "o que você vai usar",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A linguagem",
+   "titulo": "Ninguém sustenta penitência por vinte anos",
+   "destaque": "Na recaída: “você não perdeu tudo; voltar agora é mais fácil do que foi começar”.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "passos",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"A consulta de adesão em cinco estações: descobrir o que falta, parar de argumentar, ouvir as razões dela, o plano se-então, prever a falta e marcar o retorno; um relógio de dez minutos\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"150\" cy=\"120\" r=\"90\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"5\"/><g transform=\"translate(105.0 75.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><line x1=\"250\" y1=\"120\" x2=\"380\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"484\" cy=\"120\" r=\"90\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"5\"/><g transform=\"translate(439.0 75.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><line x1=\"584\" y1=\"120\" x2=\"714\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"818\" cy=\"120\" r=\"90\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><g transform=\"translate(773.0 75.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 10a7 7 0 1 1 13 3.6a10 10 0 0 1-2 2a8 8 0 0 0-2 3A4.5 4.5 0 0 1 8.2 20\"/><path d=\"M10 10a3 3 0 1 1 5 2.2\"/></g></g><line x1=\"918\" y1=\"120\" x2=\"1048\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"1152\" cy=\"120\" r=\"90\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"5\"/><g transform=\"translate(1107.0 75.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.615 20H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8m-3 5l2 2l4-4M9 8h4m-4 4h2\"/></g><line x1=\"1252\" y1=\"120\" x2=\"1382\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"1486\" cy=\"120\" r=\"90\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"5\"/><g transform=\"translate(1441.0 75.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><g transform=\"translate(760.0 400.0) scale(2.9167)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 230,
+     "w": 300,
+     "t": "1 · descobrir o que falta",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 10,
+     "y": 310,
+     "w": 280,
+     "t": "capacidade, oportunidade ou motivação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 334,
+     "y": 230,
+     "w": 300,
+     "t": "2 · parar de argumentar",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 344,
+     "y": 310,
+     "w": 280,
+     "t": "ambivalência é normal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 668,
+     "y": 230,
+     "w": 300,
+     "t": "3 · ouvir as razões dela",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 678,
+     "y": 310,
+     "w": 280,
+     "t": "“por que não 3?”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1002,
+     "y": 230,
+     "w": 300,
+     "t": "4 · o plano se-então",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1012,
+     "y": 310,
+     "w": 280,
+     "t": "pequeno, ancorado, escolhido por ela",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1336,
+     "y": 230,
+     "w": 300,
+     "t": "5 · prever a falta e marcar o retorno",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1346,
+     "y": 310,
+     "w": 280,
+     "t": "uma mensagem na terceira semana",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 850,
+     "y": 418,
+     "w": 600,
+     "t": "cerca de dez minutos, em qualquer profissão",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O procedimento inteiro",
+   "titulo": "A conversa de adesão em cinco passos",
+   "fonte": "Respeita a autonomia: se a pessoa decide não mudar agora, a conversa terminou bem, e a porta fica aberta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fecho do módulo · três níveis",
+   "titulo": "Da motivação à conversa que a sustenta",
+   "regras": [
+    "Decisão: psicologia e psiquiatria tratam; o médico investiga, rastreia e libera; reabilitação, preparação e nutrição no seu campo",
+    "Contribuição: o alívio quando o treino cai, a mudança de comportamento, o que acontece em casa",
+    "Reconhecimento: o silêncio depois do treino, a frase dita como piada, a atleta que evita alguém, o ex-atleta que sumiu"
+   ],
+   "cards": [
+    {
+     "ic": "h:psychology",
+     "t": "Psicologia e psiquiatria",
+     "x": "Diagnóstico, psicoterapia, psicofármaco, plano de segurança."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Médico e equipe de saúde",
+     "x": "Causas clínicas, rastreio, emergência, retorno, Conselho Tutelar."
+    },
+    {
+     "ic": "t:users",
+     "t": "Todos",
+     "x": "Próximo módulo: a atleta mulher, do déficit de evidência ao ciclo e à energia."
+    }
+   ]
+  }
+ ]
+}
