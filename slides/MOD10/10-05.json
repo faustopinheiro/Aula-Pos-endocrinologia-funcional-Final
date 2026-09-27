@@ -1,0 +1,968 @@
+{
+ "arquivo": "aulas/MOD10/10-05-fluxo-de-encaminhamento.md",
+ "modulo": "Psicologia do Esporte e Saúde Mental",
+ "tema": "anil",
+ "titulo": "Fluxo de encaminhamento",
+ "subtitulo": "Da frase solta à consulta marcada",
+ "nota_capa": "Entra por uma corredora de rua que brinca com não acordar.",
+ "secoes": {
+  "circulos": [
+   "Reconhecer e perguntar.",
+   "capa"
+  ],
+  "roteiro": [
+   "O roteiro de crise.",
+   "roteiro"
+  ],
+  "cano": [
+   "O encaminhamento de rotina.",
+   "cano"
+  ],
+  "cartao": [
+   "Pronto antes de precisar.",
+   "cartao"
+  ]
+ },
+ "slides": [
+  {
+   "id": "circulos",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Três círculos concêntricos: de todos, da sua profissão e o que não é seu; uma seta sai do círculo de dentro para fora com a palavra encaminhar\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><ellipse cx=\"700\" cy=\"280\" rx=\"690\" ry=\"255\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><ellipse cx=\"700\" cy=\"315\" rx=\"450\" ry=\"175\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><ellipse cx=\"700\" cy=\"350\" rx=\"240\" ry=\"100\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(670.0 295.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><g transform=\"translate(310.0 300.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm5-2V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m-4 5v.01\"/><path d=\"M3 13a20 20 0 0 0 18 0\"/></g></g><g transform=\"translate(60.0 250.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><path d=\"M930 330 C 1150 290, 1320 240, 1460 220\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 180,
+     "y": 56,
+     "w": 1040,
+     "t": "De todos: reconhecer · perguntar · acolher · encaminhar · acompanhar",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 160,
+     "w": 500,
+     "t": "Da sua profissão",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 370,
+     "w": 440,
+     "t": "Não é seu: diagnosticar · prescrever · psicoterapia · internação",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1420,
+     "y": 130,
+     "w": 244,
+     "t": "encaminhar é ato clínico",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O mapa antes do procedimento",
+   "titulo": "Ninguém precisa saber conduzir para saber reconhecer",
+   "fonte": "“Às vezes eu penso que seria mais fácil não acordar”: a frase dita no alongamento"
+  },
+  {
+   "id": "sinais",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Painel de sinais de alerta com a tentativa prévia maior; embaixo, uma faixa de terreno com o contexto que aumenta a vulnerabilidade\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"0\" y=\"0\" width=\"340\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(20.0 20.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"360\" y=\"0\" width=\"340\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(380.0 20.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 18a4.6 4.4 0 0 1 0-9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7m-8-5v2m0 3v2m4-5v2m0 3v2\"/></g><rect x=\"720\" y=\"0\" width=\"340\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(740.0 20.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m13 20l7-7m-7 7v-6a1 1 0 0 1 1-1h6V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z\"/></g><rect x=\"0\" y=\"170\" width=\"340\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(20.0 190.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"360\" y=\"170\" width=\"340\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(380.0 190.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 21h8m-4-6v6m5-18l1 7c0 3.012-2.686 5-6 5s-6-1.988-6-5l1-7z\"/><path d=\"M6 10a5 5 0 0 1 6 0a5 5 0 0 0 6 0\"/></g></g><rect x=\"720\" y=\"170\" width=\"340\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(740.0 190.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"1100\" y=\"0\" width=\"564\" height=\"320\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"6\"/><g transform=\"translate(1130.0 30.0) scale(2.2917)\"><path fill=\"#A8322A\" fill-rule=\"evenodd\" d=\"M24 10a2 2 0 0 1 2 2v18a2 2 0 1 1-4 0V12a2 2 0 0 1 2-2m0 28a2 2 0 1 0 0-4a2 2 0 0 0 0 4\" clip-rule=\"evenodd\"/></g><path d=\"M0 420 Q 200 380 420 410 T 840 400 T 1260 410 T 1664 395 V560 H0 Z\" fill=\"#E6E0D2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 84,
+     "w": 300,
+     "t": "falas sobre morte, mesmo como piada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 380,
+     "y": 84,
+     "w": 300,
+     "t": "desesperança",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 740,
+     "y": 84,
+     "w": 300,
+     "t": "despedidas e pendências resolvidas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 254,
+     "w": 300,
+     "t": "isolamento crescente",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 380,
+     "y": 254,
+     "w": 300,
+     "t": "mais álcool ou outras substâncias",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 740,
+     "y": 254,
+     "w": 300,
+     "t": "comportamento de risco novo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1260,
+     "y": 50,
+     "w": 380,
+     "t": "tentativa prévia",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1130,
+     "y": 170,
+     "w": 500,
+     "t": "o fator de risco mais importante na população geral",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 360,
+     "w": 400,
+     "t": "O terreno",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 460,
+     "w": 1584,
+     "t": "perda recente · lesão grave com afastamento longo · fim de carreira · humilhação pública · dívida · acesso a meios",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo zero: reconhecer",
+   "titulo": "A tentativa prévia é o sinal que mais pesa",
+   "fonte": "Organização Mundial da Saúde · nenhum sinal é diagnóstico; todos são motivo para perguntar"
+  },
+  {
+   "id": "pergunta",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Dois balões: o silêncio com um cadeado e a pergunta direta em letra grande; entre eles, treze estudos e nenhum aumento de ideação\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><path d=\"M0 40 H420 a20 20 0 0 1 20 20 V300 a20 20 0 0 1 -20 20 H160 L110 380 L110 320 H20 a20 20 0 0 1 -20 -20 Z\" fill=\"#E6E3DA\"/><g transform=\"translate(150.0 110.0) scale(5.8333)\"><g fill=\"none\" stroke=\"#9AA0A6\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><path d=\"M720 20 H1644 a20 20 0 0 1 20 20 V320 a20 20 0 0 1 -20 20 H1500 L1540 410 L1420 340 H740 a20 20 0 0 1 -20 -20 V40 a20 20 0 0 1 20 -20 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 400,
+     "w": 440,
+     "t": "o silêncio: é ele que produz dano",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 110,
+     "w": 220,
+     "t": "13",
+     "tam": 96,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 470,
+     "y": 240,
+     "w": 220,
+     "t": "estudos, nenhum com aumento de ideação depois da pergunta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 80,
+     "w": 820,
+     "t": "“Você tem tido pensamentos de tirar a própria vida?”",
+     "tam": 52,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 780,
+     "y": 262,
+     "w": 820,
+     "t": "sem eufemismo · com calma · olhando para a pessoa",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A pergunta que destrava",
+   "titulo": "Perguntar não planta a ideia",
+   "fonte": "Revisão de 13 estudos, adultos e adolescentes, comunidade e grupos de risco · Psychol Med 2014"
+  },
+  {
+   "id": "roteiro",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Caminho de quatro passos: fique, pergunte mais, acione conforme a gravidade, envolva alguém\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"100\" cy=\"90\" r=\"80\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"5\"/><g transform=\"translate(55.0 45.0) scale(1.8750)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"190\" y1=\"90\" x2=\"410\" y2=\"90\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"200\" width=\"396\" height=\"300\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"524\" cy=\"90\" r=\"80\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"5\"/><g transform=\"translate(479.0 45.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><line x1=\"614\" y1=\"90\" x2=\"834\" y2=\"90\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"424\" y=\"200\" width=\"396\" height=\"300\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"948\" cy=\"90\" r=\"80\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"5\"/><g transform=\"translate(903.0 45.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g><line x1=\"1038\" y1=\"90\" x2=\"1258\" y2=\"90\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"848\" y=\"200\" width=\"396\" height=\"300\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1372\" cy=\"90\" r=\"80\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><g transform=\"translate(1327.0 45.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0m0 17v-5l-1-1v-4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4l-1 1v5m6-17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m0 17v-4h-2l2-6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1l2 6h-2v4\"/></g><rect x=\"1272\" y=\"200\" width=\"396\" height=\"300\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 220,
+     "w": 350,
+     "t": "1 · Fique",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 290,
+     "w": 350,
+     "t": "não deixe a pessoa sozinha; atrase o próximo treino se precisar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 448,
+     "y": 220,
+     "w": 350,
+     "t": "2 · Pergunte mais",
+     "tam": 34,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 448,
+     "y": 290,
+     "w": 350,
+     "t": "como faria? tem acesso? hoje, nos próximos dias? já tentou?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 872,
+     "y": 220,
+     "w": 350,
+     "t": "3 · Acione",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 872,
+     "y": 290,
+     "w": 350,
+     "t": "conforme a gravidade: o próximo slide",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1296,
+     "y": 220,
+     "w": 350,
+     "t": "4 · Envolva alguém",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1296,
+     "y": 290,
+     "w": 350,
+     "t": "“quem você prefere que eu chame?”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    }
+   ],
+   "eyebrow": "Quando a resposta é sim",
+   "titulo": "Quatro passos, na mesma ordem, sem improviso",
+   "destaque": "Não fazer: prometer sigilo antes de ouvir, minimizar, discutir razões para viver, deixar ir sozinha sem plano.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "degraus",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Rampa de três degraus: ideação sem plano, risco presente sem iminência e risco iminente; por baixo, uma faixa contínua com o 188\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"0\" y=\"300\" width=\"540\" height=\"140\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"555\" y=\"170\" width=\"540\" height=\"270\" rx=\"10\" fill=\"#F6E0D2\" stroke=\"#C2571A\" stroke-width=\"4\"/><rect x=\"1110\" y=\"40\" width=\"540\" height=\"400\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"0\" y=\"460\" width=\"1664\" height=\"90\" rx=\"12\" fill=\"#008A7E\"/><g transform=\"translate(30.0 475.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 320,
+     "w": 500,
+     "t": "Ideação sem plano",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 370,
+     "w": 490,
+     "t": "encaminhar · contato próximo · não deixar solto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 579,
+     "y": 190,
+     "w": 500,
+     "t": "Risco presente, sem iminência",
+     "tam": 30,
+     "cor": "#C2571A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 579,
+     "y": 240,
+     "w": 490,
+     "t": "prioridade no mesmo dia ou nos próximos · rede de apoio · menos acesso a meios · retorno marcado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1134,
+     "y": 60,
+     "w": 500,
+     "t": "Risco iminente: plano, meio, intenção",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1134,
+     "y": 110,
+     "w": 490,
+     "t": "emergência · ninguém sozinho · SAMU 192 · alguém de confiança",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 110,
+     "y": 484,
+     "w": 1520,
+     "t": "Em qualquer degrau: 188, Centro de Valorização da Vida · 24 horas · sem custo · sigilo",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo três: acionar",
+   "titulo": "A gravidade decide quem você aciona",
+   "fonte": "Rede pública: atenção básica, centros de atenção psicossocial e urgência e emergência são portas de entrada"
+  },
+  {
+   "id": "cano",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Um cano da indicação até a primeira consulta, com cinco vazamentos e um remendo em cada um\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><rect x=\"120\" y=\"190\" width=\"1420\" height=\"70\" rx=\"35\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"5\"/><g transform=\"translate(10.0 170.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m13 20l7-7m-7 7v-6a1 1 0 0 1 1-1h6V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z\"/></g><g transform=\"translate(1554.0 170.0) scale(2.0833)\"><g fill=\"#008A7E\"><path fill-rule=\"evenodd\" d=\"M9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h5.389V30.762C11.345 28.487 9 25.422 9 21.45c0-3.302 1.378-6.469 3.83-8.803S18.61 9 22.08 9a18.9 18.9 0 0 1 7.669 1.607a12 12 0 0 1 4.815 3.509a9.85 9.85 0 0 1 1.843 5.478c.01.45.004.876-.002 1.288c-.022 1.457-.04 2.74.691 4.256c0 0 2.164 1.947 1.88 3.509c-.286 1.562-3.104 1.992-3.104 1.992c0 8.409-10.7 4.9-10.7 4.9V42H39a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3z\" clip-rule=\"evenodd\"/><path d=\"M26.27 22.455c.643 0 .439-.19.971-.543a3.27 3.27 0 0 0 1.828.53l2.066-.731a3.2 3.2 0 0 0 1.132-1.834c.15-.72.042-1.468-.306-2.119a3.26 3.26 0 0 0-1.609-1.459a3.1 3.1 0 0 0-1.128-1.765l-2.017-.687h-.227a3.24 3.24 0 0 0-1.893-1.277l-3.49-.237a3.26 3.26 0 0 0-1.925.829a3.28 3.28 0 0 0-2.507.418c-.52.33-.93.798-1.182 1.35l-1.644 1.132a3.07 3.07 0 0 0-.627 1.862c-.004.28.034.559.113.828a3.07 3.07 0 0 0 .216 4.044c.045.57.25 1.118.592 1.584a3.2 3.2 0 0 0 1.35 1.057c.622.38 1.15.89 1.542 1.495c.393.604.555 1.286.642 1.996h3.43v-3.314c-.001-.589.168-1.166.487-1.666s.498-.903 1.04-1.163a3.6 3.6 0 0 0 1.34-.873a3.26 3.26 0 0 0 1.805.543m6.064 2.795a1.25 1.25 0 1 1-2.5 0a1.25 1.25 0 0 1 2.5 0\"/><path fill-rule=\"evenodd\" d=\"M21.5 32.333h-3.333v-2H21.5zm0 3.334h-3.333v-2H21.5zm0 3.333h-3.333v-2H21.5z\" clip-rule=\"evenodd\"/></g></g><path d=\"M250 262 q -14 30 0 44 q 14 -14 0 -44 Z\" fill=\"#3A6EA5\"/><g transform=\"translate(234.0 320.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"190\" y=\"180\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.18\"/><path d=\"M540 262 q -14 30 0 44 q 14 -14 0 -44 Z\" fill=\"#3A6EA5\"/><g transform=\"translate(524.0 320.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"480\" y=\"180\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.18\"/><path d=\"M830 262 q -14 30 0 44 q 14 -14 0 -44 Z\" fill=\"#3A6EA5\"/><g transform=\"translate(814.0 320.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"770\" y=\"180\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.18\"/><path d=\"M1120 262 q -14 30 0 44 q 14 -14 0 -44 Z\" fill=\"#3A6EA5\"/><g transform=\"translate(1104.0 320.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1060\" y=\"180\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.18\"/><path d=\"M1410 262 q -14 30 0 44 q 14 -14 0 -44 Z\" fill=\"#3A6EA5\"/><g transform=\"translate(1394.0 320.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1350\" y=\"180\" width=\"120\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.18\"/></svg>",
+   "rotulos": [
+    {
+     "x": 115,
+     "y": 60,
+     "w": 270,
+     "t": "“procure um psicólogo”",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 115,
+     "y": 380,
+     "w": 270,
+     "t": "nome, não categoria",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 405,
+     "y": 110,
+     "w": 270,
+     "t": "“vou ver”",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 405,
+     "y": 380,
+     "w": 270,
+     "t": "ajudar a marcar ali",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 695,
+     "y": 60,
+     "w": 270,
+     "t": "“não sei como é”",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 695,
+     "y": 380,
+     "w": 270,
+     "t": "explicar o que acontece",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 985,
+     "y": 110,
+     "w": 270,
+     "t": "“vou ter que parar de treinar?”",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 985,
+     "y": 380,
+     "w": 270,
+     "t": "antecipar a objeção",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1275,
+     "y": 60,
+     "w": 270,
+     "t": "ninguém perguntou de novo",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1275,
+     "y": 380,
+     "w": 270,
+     "t": "marcar um retorno seu",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 280,
+     "w": 140,
+     "t": "indicação",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1524,
+     "y": 280,
+     "w": 140,
+     "t": "primeira consulta",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 480,
+     "w": 1664,
+     "t": "E o encaminhamento escrito com as cinco linhas do módulo de fundamentos.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O encaminhamento de rotina",
+   "titulo": "O encaminhamento se perde no caminho",
+   "fonte": "Estudos de encaminhamento da atenção primária para saúde mental: comparecimento muito variável"
+  },
+  {
+   "id": "seguimento",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Barras de comportamento suicida em seis meses: 5,29% no cuidado habitual e 3,03% com plano de segurança e telefonemas; linha do tempo dos telefonemas; seis passos do plano\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><rect x=\"60\" y=\"153\" width=\"200\" height=\"317\" rx=\"8\" fill=\"#B9BEC3\"/><rect x=\"320\" y=\"288\" width=\"200\" height=\"182\" rx=\"8\" fill=\"#008A7E\"/><line x1=\"20\" y1=\"470\" x2=\"560\" y2=\"470\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"680\" y1=\"60\" x2=\"1060\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"680\" cy=\"60\" r=\"18\" fill=\"#12202E\"/><circle cx=\"760\" cy=\"60\" r=\"14\" fill=\"#008A7E\"/><circle cx=\"880\" cy=\"60\" r=\"14\" fill=\"#008A7E\"/><circle cx=\"980\" cy=\"60\" r=\"14\" fill=\"#008A7E\"/><circle cx=\"1060\" cy=\"60\" r=\"14\" fill=\"#008A7E\"/><rect x=\"1120\" y=\"0\" width=\"544\" height=\"520\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 97,
+     "w": 200,
+     "t": "5,29%",
+     "tam": 40,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 320,
+     "y": 232,
+     "w": 200,
+     "t": "3,03%",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 482,
+     "w": 240,
+     "t": "cuidado habitual",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 482,
+     "w": 240,
+     "t": "plano + telefonemas",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 0,
+     "w": 100,
+     "t": "alta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 90,
+     "w": 120,
+     "t": "até 72 h",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 90,
+     "w": 260,
+     "t": "depois, semanal",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 200,
+     "w": 440,
+     "t": "≈ 45% menos",
+     "tam": 56,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 650,
+     "y": 290,
+     "w": 440,
+     "t": "comportamento suicida em seis meses, 1.640 pacientes",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1150,
+     "y": 24,
+     "w": 500,
+     "t": "O plano de segurança",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 90,
+     "w": 490,
+     "t": "1. sinais de alerta da própria pessoa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 160,
+     "w": 490,
+     "t": "2. o que ela faz sozinha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 230,
+     "w": 490,
+     "t": "3. pessoas e lugares que distraem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 300,
+     "w": 490,
+     "t": "4. a quem pedir ajuda",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 370,
+     "w": 490,
+     "t": "5. profissionais e serviços, um a qualquer hora",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 440,
+     "w": 490,
+     "t": "6. ambiente mais seguro, menos acesso a meios",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que o retorno marcado faz",
+   "titulo": "O telefonema depois faz parte do cuidado",
+   "fonte": "Serviços de emergência de hospitais de veteranos, EUA · JAMA Psychiatry 2018 · quem monta o plano é o profissional de saúde mental"
+  },
+  {
+   "id": "cartao",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Um cartão em quatro blocos: emergência, a sua rede, a rede pública e as perguntas; ao lado, uma porta entreaberta com um calendário para a recusa\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"540\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"5\"/><line x1=\"550\" y1=\"30\" x2=\"550\" y2=\"510\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"30\" y1=\"270\" x2=\"1070\" y2=\"270\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><g transform=\"translate(40.0 40.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g><g transform=\"translate(590.0 40.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><g transform=\"translate(40.0 310.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g><g transform=\"translate(590.0 310.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><g transform=\"translate(1230.0 40.0) scale(8.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><g transform=\"translate(1450.0 150.0) scale(4.5833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 48,
+     "w": 400,
+     "t": "Emergência",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 126,
+     "w": 470,
+     "t": "192 · 188 · pronto-socorro de referência",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 670,
+     "y": 48,
+     "w": 400,
+     "t": "A sua rede",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 126,
+     "w": 470,
+     "t": "psicologia com quem já conversou · psiquiatria · transtorno alimentar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 120,
+     "y": 318,
+     "w": 400,
+     "t": "Rede pública",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 396,
+     "w": 470,
+     "t": "unidade básica de referência · centro de atenção psicossocial",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 670,
+     "y": 318,
+     "w": 400,
+     "t": "As perguntas",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 396,
+     "w": 470,
+     "t": "ainda gosta de treinar? · tem se irritado mais? · o que mudou? · e a direta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1160,
+     "y": 290,
+     "w": 504,
+     "t": "A recusa não fecha nada",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 350,
+     "w": 480,
+     "t": "“Eu vou perguntar de novo daqui a um tempo, porque me importo com isso.”",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.35
+    }
+   ],
+   "eyebrow": "Pronto antes de precisar",
+   "titulo": "Monte o cartão hoje",
+   "fonte": "E para quem cuida: não ser o único apoio de ninguém, ter com quem discutir casos, deixar claro o canal de urgência"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fluxo de encaminhamento",
+   "titulo": "Da frase solta à consulta marcada",
+   "regras": [
+    "Reconhecer, perguntar de forma direta, ficar",
+    "A gravidade decide quem você aciona; o 188 vale em qualquer degrau",
+    "Nome, marcação e retorno: o encaminhamento que chega"
+   ],
+   "cards": [
+    {
+     "ic": "t:users",
+     "t": "Quem treina e reabilita",
+     "x": "Reconhece, pergunta, fica e encaminha com nome e telefone."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Médico",
+     "x": "Avalia o risco clínico e aciona a emergência quando é emergência."
+    },
+    {
+     "ic": "h:psychology",
+     "t": "Psicologia e psiquiatria",
+     "x": "Avaliam, tratam e montam o plano de segurança."
+    }
+   ]
+  }
+ ]
+}
