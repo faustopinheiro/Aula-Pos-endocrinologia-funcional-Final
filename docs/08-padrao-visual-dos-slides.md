@@ -54,6 +54,8 @@ No spec, a chave `"tema"` escolhe o conjunto (sem ela, vale tinta).
 | 3 | `bordo` | `#3A1A22` | `#4A2530` | `#7FC4BE` | `#E6C08A` |
 | 4 | `petroleo` | `#0F3432` | `#184442` | `#E6C08A` | `#F2A58F` |
 | 5 | `ameixa` | `#2B1E38` | `#3A2B48` | `#E6C08A` | `#7FC4BE` |
+| 7, 8 e 9 | `tinta` | `#12202E` | `#1B2E3F` | `#7FC4BE` | `#E88C7D` |
+| 10 | `anil` | `#1C2340` | `#283056` | `#E6C08A` | `#8FD3C8` |
 
 Todas as combinações de texto sobre o fundo passam de 5:1 de contraste.
 
@@ -114,3 +116,40 @@ feito à mão) e `fecho`. O gerador aplica a paleta, a tipografia, as margens, o
 rodapé, o símbolo no canto superior direito e as notas do apresentador tiradas do
 texto da aula. O número de slides do spec precisa bater com o número de blocos
 📊 da aula, ou o gerador recusa.
+
+## Segunda versão: mais figura, menos texto (a partir do Módulo 10)
+
+Os decks dos módulos 1 a 9 saíram com texto demais na tela e o mesmo desenho de slide
+repetido (eyebrow, título, cards ou duas colunas). A partir do Módulo 10 valem estas regras:
+
+1. **Até 45 palavras visíveis por slide.** O gerador avisa quando passa. O que não cabe
+   é dito, e fica nas notas do apresentador, que vêm do texto falado.
+2. **Uma figura por slide de conteúdo**: pictograma, ícone grande, fluxo, espectro, ciclo,
+   linha do tempo, gráfico em vetor. No máximo dois slides por deck só de cards ou colunas.
+3. **Composições diferentes** dentro do mesmo deck. Tipos novos do gerador:
+
+| Tipo | O que mostra |
+|---|---|
+| `painel` | faixa de cor de altura inteira de um lado, com a figura grande; texto curto do outro |
+| `versus` | tela dividida ao meio, uma cor por metade, ícone e três palavras de cada lado |
+| `pergunta` | fundo cheio de cor, uma pergunta grande e um ícone ao fundo |
+| `hero` | um número ou palavra muito grande ao lado de um ícone em círculo |
+| `pictograma` | grade de pessoas com a fração destacada (prevalência, "1 em 3") |
+| `icones` | duas a quatro colunas, cada uma com ícone em círculo e duas ou três palavras |
+| `checklist` | itens curtos, cada um com o seu ícone |
+| `fluxo` | etapas com ícones ligadas por setas |
+| `espectro` | barra contínua com marcas e ícones (do bem-estar ao transtorno, por exemplo) |
+| `ciclo` | três a cinco etapas em círculo, com setas |
+| `matriz` | quatro quadrantes, cada um com ícone |
+| `linha_tempo` | marcos no tempo com ícones |
+| `barras` | barras horizontais com ícone por linha |
+
+   Os tipos antigos continuam valendo; `numeros` e os cartões do `fecho` aceitam ícone (`ic`).
+   `frase` aceita um ícone grande ao fundo, discreto (13% de opacidade). Não é o símbolo da
+   marca, que continua pequeno no canto.
+4. **O desenho da aula também varia.** Duas aulas seguidas não abrem com o mesmo tipo de
+   slide, e a ideia central nem sempre é um slide `frase`: pode ser uma pergunta, uma tela
+   dividida ou um número.
+5. **Ícones**: Health Icons e Tabler Icons, os dois de licença MIT, copiados em
+   `ferramentas/slides/icones.json` (licenças em `ferramentas/slides/LICENCAS-ICONES.md`).
+   No spec, `"h:nome"` ou `"t:nome"`. Para acrescentar: `ferramentas/slides/icones.py`.
