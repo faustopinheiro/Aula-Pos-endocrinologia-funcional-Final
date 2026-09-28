@@ -5,64 +5,1182 @@
  "subtitulo": "Decisão, contribuição e reconhecimento",
  "nota_capa": "Entra pelas quatro cenas da semana.",
  "secoes": {
-  "fronteira": ["Quatro cenas, os dois erros opostos e as três camadas.", "capa"],
-  "niveis": ["Os três níveis de responsabilidade, com um exemplo.", "tres-niveis"],
-  "omissao": ["As quatro omissões e um caso real de invasão sem cara de invasão.", "omissoes"]
+  "fronteira": [
+   "Quatro cenas, os dois erros opostos e as três camadas.",
+   "capa"
+  ],
+  "niveis": [
+   "Os três níveis de responsabilidade, com um exemplo.",
+   "tres-niveis"
+  ],
+  "omissao": [
+   "As quatro omissões e um caso real de invasão sem cara de invasão.",
+   "omissoes"
+  ]
  },
  "slides": [
-  {"id": "cenas", "tipo": "cards", "eyebrow": "Esta semana", "titulo": "Quatro cenas de fronteira", "por_linha": 2, "gap": 26,
-   "cards": [
-    {"t": "A nutricionista", "x": "A corredora coloca um painel hormonal na mesa: “o que você acha desses resultados?”", "cor": "ambar"},
-    {"t": "O educador físico", "x": "“Professor, eu tomo creatina? E aquele pré-treino da loja?”", "cor": "ambar"},
-    {"t": "O fisioterapeuta", "x": "O técnico liga no fim da reabilitação: “ele pode jogar no domingo?”", "cor": "ambar"},
-    {"t": "O médico", "x": "Corre há oito anos e monta a planilha de treino do paciente na consulta.", "cor": "ambar"}],
-   "destaque": "Em nenhuma delas “isso não é da minha área”, dito sozinho, é uma boa conduta.", "destaque_cor": "verm"},
-  {"id": "dois-erros", "tipo": "duas", "eyebrow": "Dois erros opostos", "titulo": "Invasão e omissão",
-   "esq": {"t": "Invasão", "cor": "ambar", "itens": ["Fazer o que não é seu", "Todo conselho fiscaliza", "Todo mundo tem medo, com razão"]},
-   "dir": {"t": "Omissão", "cor": "verm", "itens": ["Não fazer o que é seu, porque parece de outro", "Ninguém fiscaliza", "Prejudica mais gente"]},
-   "destaque": "O medo é real. Mal calibrado, ele paralisa também o que é seu: você para de perguntar, de anotar e de escrever."},
-  {"id": "tres-camadas", "tipo": "lista", "eyebrow": "Para decidir se é seu", "titulo": "Três camadas, não uma", "gap_itens": 26,
-   "itens": [
-    {"t": "O que a lei permite", "x": "A fonte é o conselho da sua profissão, na resolução em vigor. Resolução muda.", "cor": "petr"},
-    {"t": "O que você sabe fazer", "x": "Autorizado não é preparado. Este curso aumenta esta camada, não a primeira.", "cor": "petr"},
-    {"t": "O que este caso precisa agora", "x": "A resposta pode ser não em qualquer uma das três.", "cor": "petr"}],
-   "destaque": "A pergunta deixa de ser “isso é meu?” e vira “é meu, eu sei fazer, e é disso que essa pessoa precisa agora?”"},
-  {"id": "tres-niveis", "tipo": "cards", "eyebrow": "O modelo do curso", "titulo": "Três níveis de responsabilidade",
-   "cards": [
-    {"t": "Decisão", "x": "Você conhece a fundo e responde pela conduta, dentro do que a lei permite. É a sua assinatura.", "cor": "petr"},
-    {"t": "Contribuição", "x": "Você entende o raciocínio e influencia a decisão do colega com argumento técnico.", "cor": "ambar"},
-    {"t": "Reconhecimento", "x": "Você identifica o sinal que não é seu e encaminha bem feito, a tempo.", "cor": "verm"}],
-   "destaque": "“Não é comigo” não existe neste curso. Até reconhecer exige saber o que procurar."},
-  {"id": "exemplo", "tipo": "tabela", "eyebrow": "Um exemplo", "titulo": "Falta de energia no atleta, nos três níveis", "larguras": [32, 22, 46], "tam": 28,
-   "cab": ["Profissão", "Nível", "O quê"],
-   "linhas": [
-    ["Nutrição", "Decisão", "Cálculo, conduta alimentar, reconstrução da energia"],
-    ["Medicina", "Decisão", "Menstruação ausente, osso, outras causas, doença"],
-    ["Preparação física", "Contribuição", "Ajustar a carga; não tratar como periodização"],
-    ["Fisioterapia", "Contribuição", "Saber que a lesão repetida pode ser consequência"],
-    ["Psicologia", "Decisão ou contribuição", "Decisão se há transtorno alimentar"],
-    ["Todas", "Reconhecimento", "Sempre"]]},
-  {"id": "quem-enxerga", "tipo": "frase", "eyebrow": "Os níveis não são ranking",
-   "frase": "Quem decide não é quem enxerga primeiro. E quem enxerga primeiro decide se o outro vai enxergar.",
-   "apoio": "O profissional em reconhecimento, que vê primeiro, muitas vezes vale mais para aquele paciente do que quem decide e só vai vê-lo daqui a quatro meses."},
-  {"id": "omissoes", "tipo": "cards", "eyebrow": "A omissão por dentro", "titulo": "As quatro formas de omissão", "por_linha": 2, "gap": 26,
-   "cards": [
-    {"t": "Não perguntar", "x": "“Sono é do médico.” Perguntar é de todo mundo.", "cor": "verm"},
-    {"t": "Encaminhar sem informação", "x": "“Favor avaliar.” Transfere o paciente, não o conhecimento.", "cor": "verm"},
-    {"t": "Encaminhar e sumir", "x": "Duas condutas paralelas que nunca conversam.", "cor": "verm"},
-    {"t": "Achar que alguém está cuidando", "x": "Todos veem, cada um acha que o outro resolve, ninguém resolve.", "cor": "verm"}],
-   "destaque": "Quem está em reconhecimento não fica em silêncio. Fica por escrito."},
-  {"id": "caso", "tipo": "lista", "eyebrow": "Um caso desconfortável", "titulo": "O personal e o antidepressivo", "gap_itens": 26,
-   "itens": [
-    {"t": "37 anos, depressão tratada, musculação há 6 meses", "x": "Antidepressivo, psiquiatra e psicoterapia havia um ano e meio.", "cor": "petr"},
-    {"t": "“O exercício é o melhor antidepressivo. Vai diminuindo.”", "x": "Dito com convicção e boa intenção. Ele diminuiu por conta própria e parou em seis semanas.", "cor": "ambar"},
-    {"t": "Insônia, irritação e a volta dos pensamentos ruins", "x": "Quatro meses para se recuperar. E, nesse tempo, parou de treinar.", "cor": "verm"}]},
-  {"id": "bilhete", "tipo": "html", "eyebrow": "O que teria sido excelente", "titulo": "A informação estava certa. O caminho, errado.",
-   "corpo": "<div style=\"background:#FDFCF9; border:1px solid #DDD8CC; border-left:8px solid #1F6F6B; border-radius:12px; padding:36px 44px; display:flex; flex-direction:column; gap:12px\"><p style=\"font-size:26px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:#1F6F6B\">O bilhete que nunca foi escrito</p><p style=\"font-size:30px; line-height:1.5; color:#12202E\">Ao psiquiatra do paciente.<br>Ele treina comigo três vezes por semana há seis meses, quase sem faltas.<br>Relata mais disposição e sono melhor nas últimas semanas.<br>Me contou que usa antidepressivo e que pensa em reduzir por conta própria.<br>Achei importante você saber. O que devo observar daqui para frente?</p></div>",
-   "destaque": "O erro não foi de conhecimento, foi de lugar. A invasão quase nunca tem cara de invasão: ele só deu uma opinião."},
-  {"id": "fecho", "tipo": "fecho", "titulo": "Três verbos e um limite",
-   "regras": ["Ler não é prescrever.", "Reconhecer não é diagnosticar.", "Encaminhar não é opinar sobre a conduta do colega.", "Limite duro: ninguém mexe em tratamento conduzido por outro profissional."],
+  {
+   "id": "cenas",
+   "tipo": "diagrama",
+   "h": 530,
+   "svg": "<svg aria-label=\"Quatro balões de fala, cada um com a pergunta difícil de uma cena: o painel hormonal para a nutricionista, a creatina para o educador físico, o jogo de domingo para o fisioterapeuta, a planilha de treino montada pelo médico; no centro, a frase isso não é da minha área, riscada\" width=\"1664\" height=\"530\" viewBox=\"0 0 1664 530\"><g transform=\"translate(10.0 10.0) scale(1.8750)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M17 28.013c.503-.115 2 1.987 2 1.987h10s1.497-2.102 2-1.987c5.404 1.23 11 4.782 11 8.557V42H6v-5.43c0-3.775 5.596-7.327 11-8.557M32 34v-2h2v2h2v2h-2v2h-2v-2h-2v-2zm-8-10a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><rect x=\"130\" y=\"0\" width=\"630\" height=\"150\" rx=\"26\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M170 148 L176 180 L206 148\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"172\" y1=\"148.5\" x2=\"204\" y2=\"148.5\" stroke=\"#F4EAD6\" stroke-width=\"5\"/><g transform=\"translate(154.0 24.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><g transform=\"translate(914.0 10.0) scale(1.8750)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3zm23 10h-3v16h3zm2 3h3v4h1v2h-1v4h-3zM16 32h3V16h-3zm-2-3h-3v-4h-1v-2h1v-4h3zm7-4h6v-2h-6z\" clip-rule=\"evenodd\"/></g><rect x=\"1034\" y=\"0\" width=\"630\" height=\"150\" rx=\"26\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M1074 148 L1080 180 L1110 148\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"1076\" y1=\"148.5\" x2=\"1108\" y2=\"148.5\" stroke=\"#F4EAD6\" stroke-width=\"5\"/><g transform=\"translate(1058.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(10.0 230.0) scale(1.8750)\"><g fill=\"#B07A1C\"><path fill-rule=\"evenodd\" d=\"M30.031 10A2 2 0 0 0 32 8V4H16v4a2 2 0 0 0 1.958 2l.014.315c.02.404.056 1.027.117 1.914c.123 1.773.35 4.602.768 8.839c.15 1.519 1.04 2.877 1.747 3.953l.079.12c.384.587.716 1.1.959 1.599c.24.494.355.902.355 1.262c0 .258 0 1.008.002 1.692L22 30.999a1 1 0 0 0 1 1v7.003a.998.998 0 1 0 1.997 0v-.007H25v-6.98h.01a1 1 0 0 0 1-1v-3.041c0-.356.115-.757.357-1.244c.245-.491.58-.996.969-1.576l.064-.096c.715-1.066 1.627-2.427 1.748-3.976a5204 5204 0 0 1 .853-10.71zm-2.024.21l.018-.21H19.96l.01.216c.02.39.054 1 .114 1.875c.038.534.084 1.167.143 1.91h7.476zm-3.873 16.794a5.8 5.8 0 0 1 .443-1.166c.308-.618.713-1.222 1.08-1.772l.017-.024c.797-1.192 1.404-2.14 1.48-3.117l.39-4.925h-7.15c.117 1.36.266 2.973.453 4.872c.098.991.716 1.964 1.509 3.174c.37.566.777 1.187 1.084 1.82c.173.354.326.735.428 1.138z\" clip-rule=\"evenodd\"/><path d=\"M22.302 41.966c.134-.632 1.038-.973 1.684-.973c.658 0 1.568.34 1.707.983l.15.686c.093.432-.108.877-.52 1.037c-.388.151-.886.3-1.337.3c-.422 0-.914-.15-1.303-.3c-.414-.162-.62-.608-.527-1.043z\"/></g></g><rect x=\"130\" y=\"220\" width=\"630\" height=\"150\" rx=\"26\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M170 368 L176 400 L206 368\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"172\" y1=\"368.5\" x2=\"204\" y2=\"368.5\" stroke=\"#F4EAD6\" stroke-width=\"5\"/><g transform=\"translate(154.0 244.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g><g transform=\"translate(914.0 230.0) scale(1.8750)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><rect x=\"1034\" y=\"220\" width=\"630\" height=\"150\" rx=\"26\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M1074 368 L1080 400 L1110 368\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"1076\" y1=\"368.5\" x2=\"1108\" y2=\"368.5\" stroke=\"#F4EAD6\" stroke-width=\"5\"/><g transform=\"translate(1058.0 244.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"582\" y=\"430\" width=\"500\" height=\"90\" rx=\"45\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"600\" y1=\"506\" x2=\"1064\" y2=\"444\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": -10,
+     "y": 106,
+     "w": 130,
+     "t": "A nutricionista",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 216,
+     "y": 22,
+     "w": 530,
+     "t": "“O que você acha desses resultados?”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 216,
+     "y": 106,
+     "w": 530,
+     "t": "painel hormonal em cima da mesa",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 894,
+     "y": 106,
+     "w": 130,
+     "t": "O educador físico",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 1120,
+     "y": 22,
+     "w": 530,
+     "t": "“Professor, eu tomo creatina? E aquele pré-treino?”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": -10,
+     "y": 326,
+     "w": 130,
+     "t": "O fisioterapeuta",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 216,
+     "y": 242,
+     "w": 530,
+     "t": "“Ele pode jogar no domingo?”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 216,
+     "y": 326,
+     "w": 530,
+     "t": "o técnico, no fim da reabilitação",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 894,
+     "y": 326,
+     "w": 130,
+     "t": "O médico",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 1120,
+     "y": 242,
+     "w": 530,
+     "t": "monta a planilha de treino na consulta",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1120,
+     "y": 326,
+     "w": 530,
+     "t": "porque também corre há oito anos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 582,
+     "y": 456,
+     "w": 500,
+     "t": "“isso não é da minha área”",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Esta semana",
+   "titulo": "Nas quatro cenas, “não é da minha área” é uma conduta ruim"
+  },
+  {
+   "id": "dois-erros",
+   "tipo": "diagrama",
+   "h": 580,
+   "svg": "<svg aria-label=\"Uma balança torta: no prato mais leve, a invasão; no prato mais pesado, a omissão, com três exemplos de quem viu e não falou\" width=\"1664\" height=\"580\" viewBox=\"0 0 1664 580\"><polygon points=\"832,220 790,340 874,340\" fill=\"#12202E\"/><g transform=\"rotate(8 832 220)\"><line x1=\"252\" y1=\"220\" x2=\"1412\" y2=\"220\" stroke=\"#12202E\" stroke-width=\"10\" stroke-linecap=\"round\"/></g><line x1=\"252\" y1=\"130\" x2=\"252\" y2=\"139\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1412\" y1=\"301\" x2=\"1412\" y2=\"321\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"20\" y=\"0\" width=\"464\" height=\"130\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1044\" y=\"320.72039855683795\" width=\"620\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 12,
+     "w": 424,
+     "t": "Invasão",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 58,
+     "w": 424,
+     "t": "fazer o que não é seu; todo conselho fiscaliza, todo mundo tem medo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1064,
+     "y": 335,
+     "w": 580,
+     "t": "Omissão",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 381,
+     "w": 580,
+     "t": "não fazer o que é seu; ninguém fiscaliza, e prejudica mais gente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1064,
+     "y": 447,
+     "w": 186,
+     "t": "a menstruação ausente que ninguém comentou",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1264,
+     "y": 447,
+     "w": 186,
+     "t": "o suplemento estranho que ninguém perguntou",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1464,
+     "y": 447,
+     "w": 186,
+     "t": "a decisão devolvida ao técnico sem nada escrito",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 420,
+     "w": 900,
+     "t": "o medo mal calibrado paralisa também o que é seu: você para de perguntar, de anotar e de escrever",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Dois erros opostos",
+   "titulo": "A omissão pesa mais que a invasão, e quase ninguém fala dela"
+  },
+  {
+   "id": "tres-camadas",
+   "tipo": "diagrama",
+   "h": 600,
+   "svg": "<svg aria-label=\"Três círculos que se sobrepõem: o que a lei permite, o que eu sei fazer, o que este caso precisa agora; a interseção dos três em destaque\" width=\"1664\" height=\"600\" viewBox=\"0 0 1664 600\"><circle cx=\"640\" cy=\"220\" r=\"190\" fill=\"#008A7E\" opacity=\"0.18\" stroke=\"#008A7E\" stroke-width=\"4\"/><circle cx=\"900\" cy=\"220\" r=\"190\" fill=\"#3A6EA5\" opacity=\"0.18\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><circle cx=\"770\" cy=\"400\" r=\"190\" fill=\"#B07A1C\" opacity=\"0.18\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"770\" cy=\"290\" r=\"40\" fill=\"#A8322A\"/><g transform=\"translate(750.0 270.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"0\" y=\"30\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1250\" y=\"30\" width=\"414\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1250\" y=\"360\" width=\"414\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"360\" width=\"400\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 470,
+     "y": 130,
+     "w": 220,
+     "t": "O que a lei permite",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 870,
+     "y": 130,
+     "w": 200,
+     "t": "O que eu sei fazer",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 620,
+     "y": 490,
+     "w": 300,
+     "t": "O que este caso precisa agora",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 46,
+     "w": 360,
+     "t": "Lei",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 90,
+     "w": 370,
+     "t": "a fonte é o conselho da sua profissão, na resolução em vigor; resolução muda",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1270,
+     "y": 46,
+     "w": 360,
+     "t": "Preparo",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1270,
+     "y": 90,
+     "w": 370,
+     "t": "autorizado não é preparado; este curso aumenta esta camada, não a primeira",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1270,
+     "y": 376,
+     "w": 360,
+     "t": "Caso",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1270,
+     "y": 420,
+     "w": 370,
+     "t": "a resposta pode ser não em qualquer uma das três",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 376,
+     "w": 360,
+     "t": "A pergunta vira",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 420,
+     "w": 370,
+     "t": "é meu, eu sei fazer, e é disso que essa pessoa precisa agora?",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Para decidir se é seu",
+   "titulo": "Decidir se é seu passa por três camadas, não por uma"
+  },
+  {
+   "id": "tres-niveis",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"Três faixas horizontais: decisão, contribuição e reconhecimento, cada uma com o que o profissional faz; embaixo, uma quarta faixa pontilhada e riscada: não é comigo\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"120\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(30.0 24.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g><rect x=\"0\" y=\"136\" width=\"1664\" height=\"120\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(30.0 160.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m21 14l-3-3h-7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1zm-7 1v2a1 1 0 0 1-1 1H6l-3 3V11a1 1 0 0 1 1-1h2\"/></g><rect x=\"0\" y=\"272\" width=\"1664\" height=\"120\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(30.0 296.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M11.102 17.957Q6.297 17.495 3 12q3.6-6 9-6t9 6a20 20 0 0 1-.663 1.032M15 19l2 2l4-4\"/></g></g><rect x=\"0\" y=\"424\" width=\"1664\" height=\"96\" rx=\"16\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"20\" y1=\"508\" x2=\"1644\" y2=\"436\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 130,
+     "y": 16,
+     "w": 360,
+     "t": "Decisão",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 68,
+     "w": 380,
+     "t": "é a sua assinatura",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 24,
+     "w": 1110,
+     "t": "você conhece a fundo e responde pela conduta, dentro do que a lei permite",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 130,
+     "y": 152,
+     "w": 360,
+     "t": "Contribuição",
+     "tam": 36,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 204,
+     "w": 380,
+     "t": "você não assina, e sua opinião pesa",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 160,
+     "w": 1110,
+     "t": "você entende o raciocínio e influencia a decisão do colega com argumento técnico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 130,
+     "y": 288,
+     "w": 360,
+     "t": "Reconhecimento",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 340,
+     "w": 380,
+     "t": "reconhecer exige saber o que procurar",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 296,
+     "w": 1110,
+     "t": "você identifica o sinal que não é seu e encaminha bem feito, em tempo útil",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 450,
+     "w": 1664,
+     "t": "“não é comigo”: essa posição não existe neste curso",
+     "tam": 30,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O modelo do curso",
+   "titulo": "Três níveis de responsabilidade, e nenhum é “não é comigo”"
+  },
+  {
+   "id": "exemplo",
+   "tipo": "diagrama",
+   "h": 600,
+   "svg": "<svg aria-label=\"Matriz com as profissões nas linhas e os três níveis nas colunas, para a falta de energia no atleta: nutrição e medicina em decisão, preparação física e fisioterapia em contribuição, psicologia entre decisão e contribuição, e todas em reconhecimento\" width=\"1664\" height=\"600\" viewBox=\"0 0 1664 600\"><rect x=\"0\" y=\"60\" width=\"1664\" height=\"76\" rx=\"10\" fill=\"#FDFCF9\"/><circle cx=\"455.0\" cy=\"98\" r=\"22\" fill=\"#008A7E\" opacity=\"1\"/><circle cx=\"705.0\" cy=\"98\" r=\"8\" fill=\"#C9CFD4\"/><circle cx=\"955.0\" cy=\"98\" r=\"22\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"0\" y=\"146\" width=\"1664\" height=\"76\" rx=\"10\" fill=\"#F7F6F2\"/><circle cx=\"455.0\" cy=\"184\" r=\"22\" fill=\"#008A7E\" opacity=\"1\"/><circle cx=\"705.0\" cy=\"184\" r=\"8\" fill=\"#C9CFD4\"/><circle cx=\"955.0\" cy=\"184\" r=\"22\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"0\" y=\"232\" width=\"1664\" height=\"76\" rx=\"10\" fill=\"#FDFCF9\"/><circle cx=\"455.0\" cy=\"270\" r=\"8\" fill=\"#C9CFD4\"/><circle cx=\"705.0\" cy=\"270\" r=\"22\" fill=\"#B07A1C\" opacity=\"1\"/><circle cx=\"955.0\" cy=\"270\" r=\"22\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"0\" y=\"318\" width=\"1664\" height=\"76\" rx=\"10\" fill=\"#F7F6F2\"/><circle cx=\"455.0\" cy=\"356\" r=\"8\" fill=\"#C9CFD4\"/><circle cx=\"705.0\" cy=\"356\" r=\"22\" fill=\"#B07A1C\" opacity=\"1\"/><circle cx=\"955.0\" cy=\"356\" r=\"22\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"0\" y=\"404\" width=\"1664\" height=\"76\" rx=\"10\" fill=\"#FDFCF9\"/><circle cx=\"455.0\" cy=\"442\" r=\"22\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"705.0\" cy=\"442\" r=\"22\" fill=\"#B07A1C\" opacity=\"0.55\"/><circle cx=\"955.0\" cy=\"442\" r=\"22\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"0\" y=\"490\" width=\"1664\" height=\"76\" rx=\"10\" fill=\"#F3E1DE\"/><rect x=\"860\" y=\"508\" width=\"190\" height=\"40\" rx=\"20\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 330,
+     "y": 0,
+     "w": 250,
+     "t": "Decisão",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 580,
+     "y": 0,
+     "w": 250,
+     "t": "Contribuição",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 830,
+     "y": 0,
+     "w": 250,
+     "t": "Reconhecimento",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 82,
+     "w": 300,
+     "t": "Nutrição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 82,
+     "w": 534,
+     "t": "cálculo, conduta alimentar, reconstrução da energia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 168,
+     "w": 300,
+     "t": "Medicina",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 168,
+     "w": 534,
+     "t": "menstruação ausente, osso, outras causas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 254,
+     "w": 300,
+     "t": "Preparação física",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 254,
+     "w": 534,
+     "t": "ajusta a carga; não trata como periodização",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 340,
+     "w": 300,
+     "t": "Fisioterapia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 340,
+     "w": 534,
+     "t": "a lesão repetida pode ser consequência",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 426,
+     "w": 300,
+     "t": "Psicologia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 426,
+     "w": 534,
+     "t": "decisão se há transtorno alimentar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 512,
+     "w": 300,
+     "t": "Todas",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 512,
+     "w": 400,
+     "t": "sempre",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um exemplo",
+   "titulo": "Na falta de energia, cada profissão ocupa um nível diferente"
+  },
+  {
+   "id": "quem-enxerga",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Linha do tempo: na primeira semana, o profissional em reconhecimento vê o sinal; quatro meses depois, o profissional em decisão vê a pessoa; uma seta liga os dois: quem vê primeiro decide se o outro vai ver\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"40\" y1=\"240\" x2=\"1620\" y2=\"240\" stroke=\"#6B7A87\" stroke-width=\"4\"/><line x1=\"120\" y1=\"228\" x2=\"120\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"480\" y1=\"228\" x2=\"480\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"840\" y1=\"228\" x2=\"840\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1200\" y1=\"228\" x2=\"1200\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1560\" y1=\"228\" x2=\"1560\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"240\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"1560\" cy=\"240\" r=\"22\" fill=\"#008A7E\"/><g transform=\"translate(80.0 136.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M11.102 17.957Q6.297 17.495 3 12q3.6-6 9-6t9 6a20 20 0 0 1-.663 1.032M15 19l2 2l4-4\"/></g></g><g transform=\"translate(1520.0 130.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g><path d=\"M140 272 C 500 410, 1180 410, 1540 272\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"10 8\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 50,
+     "w": 500,
+     "t": "quem está em reconhecimento",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 50,
+     "w": 500,
+     "t": "quem está em decisão",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 86,
+     "w": 500,
+     "t": "vê primeiro",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 86,
+     "w": 500,
+     "t": "vê a pessoa daqui a quatro meses",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 432,
+     "y": 400,
+     "w": 800,
+     "t": "o encaminhamento bem feito, ou o silêncio",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 256,
+     "w": 120,
+     "t": "mês 1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 256,
+     "w": 120,
+     "t": "mês 2",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 256,
+     "w": 120,
+     "t": "mês 3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Os níveis não são ranking",
+   "titulo": "Quem decide não é quem enxerga primeiro",
+   "destaque": "E quem enxerga primeiro decide se o outro vai enxergar.",
+   "destaque_cor": "verm"
+  },
+  {
+   "id": "omissoes",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Quatro desenhos: uma pergunta riscada, não perguntar; um envelope vazio com favor avaliar; duas linhas paralelas que nunca se encontram, encaminhar e sumir; quatro pessoas em roda apontando uma para a outra, achar que alguém está cuidando\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"396\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"420\" y=\"0\" width=\"396\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"840\" y=\"0\" width=\"396\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1260\" y=\"0\" width=\"396\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(108.0 60.0) scale(7.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><line x1=\"90\" y1=\"270\" x2=\"310\" y2=\"50\" stroke=\"#A8322A\" stroke-width=\"8\"/><rect x=\"490\" y=\"90\" width=\"256\" height=\"170\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M490 90 L618 190 L746 90\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"890\" y1=\"130\" x2=\"1180\" y2=\"130\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><line x1=\"890\" y1=\"220\" x2=\"1180\" y2=\"220\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><g transform=\"translate(1491.6 76.4) scale(1.2500)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"1521.6396103067893\" y1=\"144.54415587728428\" x2=\"1521.6396103067893\" y2=\"182.72792206135784\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><g transform=\"translate(1491.6 203.6) scale(1.2500)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"1483.4558441227157\" y1=\"233.63961030678928\" x2=\"1445.272077938642\" y2=\"233.63961030678928\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><g transform=\"translate(1364.4 203.6) scale(1.2500)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"1394.3603896932107\" y1=\"195.45584412271572\" x2=\"1394.3603896932107\" y2=\"157.27207793864216\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><g transform=\"translate(1364.4 76.4) scale(1.2500)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"1432.5441558772843\" y1=\"106.36038969321072\" x2=\"1470.727922061358\" y2=\"106.3603896932107\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 300,
+     "w": 356,
+     "t": "Não perguntar",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 385,
+     "w": 356,
+     "t": "“sono é do médico”: perguntar é de todo mundo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 440,
+     "y": 300,
+     "w": 356,
+     "t": "Encaminhar sem informação",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 385,
+     "w": 356,
+     "t": "transfere o paciente, não o conhecimento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 860,
+     "y": 300,
+     "w": 356,
+     "t": "Encaminhar e sumir",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 385,
+     "w": 356,
+     "t": "duas condutas paralelas que nunca conversam",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1280,
+     "y": 300,
+     "w": 356,
+     "t": "Achar que alguém está cuidando",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 385,
+     "w": 356,
+     "t": "todos veem, cada um acha que o outro resolve",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 128,
+     "y": 118,
+     "w": 140,
+     "t": "?",
+     "tam": 64,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 490,
+     "y": 210,
+     "w": 256,
+     "t": "“favor avaliar”",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 84,
+     "w": 200,
+     "t": "conduta 1",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 234,
+     "w": 200,
+     "t": "conduta 2",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A omissão por dentro",
+   "titulo": "A omissão tem quatro formas, e todas têm a mesma raiz",
+   "destaque": "Quem está em reconhecimento não fica em silêncio. Fica por escrito."
+  },
+  {
+   "id": "caso",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Linha do tempo do caso: o antidepressivo em uso estável, o treino começando; a conversa com o personal; o remédio caindo até zero em seis semanas; três semanas de insônia, irritação e volta dos pensamentos ruins; quatro meses de recuperação, com o treino interrompido\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><line x1=\"40\" y1=\"470\" x2=\"1640\" y2=\"470\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M60 150 L632 150 L788 330 L996 330 L1100 150 L1620 150\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"8\" stroke-linejoin=\"round\"/><path d=\"M60 300 L996 300\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"8\"/><path d=\"M996 300 L1516 300\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"8\" stroke-dasharray=\"10 8\" opacity=\"0.5\"/><rect x=\"840\" y=\"40\" width=\"78\" height=\"420\" fill=\"#A8322A\" opacity=\"0.18\"/><rect x=\"996\" y=\"40\" width=\"520\" height=\"420\" fill=\"#008A7E\" opacity=\"0.08\"/><g transform=\"translate(554.0 360.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m21 14l-3-3h-7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1zm-7 1v2a1 1 0 0 1-1 1H6l-3 3V11a1 1 0 0 1 1-1h2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 110,
+     "w": 520,
+     "t": "antidepressivo, psiquiatra e psicoterapia",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 262,
+     "w": 700,
+     "t": "musculação com personal, três vezes por semana",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 372,
+     "y": 420,
+     "w": 560,
+     "t": "“o exercício é o melhor antidepressivo; vai diminuindo”",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 268,
+     "y": 180,
+     "w": 354,
+     "t": "diminui por conta própria: zero em seis semanas",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 820,
+     "y": 50,
+     "w": 180,
+     "t": "insônia, irritação, pensamentos ruins",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1048,
+     "y": 60,
+     "w": 480,
+     "t": "quatro meses de recuperação, com o remédio reintroduzido pelo psiquiatra",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 320,
+     "w": 400,
+     "t": "e parou de treinar",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 482,
+     "w": 1600,
+     "t": "semanas",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um caso desconfortável",
+   "titulo": "Uma opinião bem-intencionada tirou o remédio e depois o treino",
+   "fonte": "Esquema, sem valores medidos"
+  },
+  {
+   "id": "bilhete",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"À esquerda, o personal que vê o paciente três vezes por semana; à direita, o psiquiatra; no meio, um bilhete de cinco linhas que o paciente levaria; embaixo, riscado, o caminho que aconteceu: a opinião direto ao paciente\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><g transform=\"translate(20.0 120.0) scale(3.1250)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h30a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3zm23 10h-3v16h3zm2 3h3v4h1v2h-1v4h-3zM16 32h3V16h-3zm-2-3h-3v-4h-1v-2h1v-4h3zm7-4h6v-2h-6z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(1490.0 120.0) scale(3.1250)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><g transform=\"rotate(-1.5 832 200)\"><rect x=\"330\" y=\"0\" width=\"1004\" height=\"380\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"330\" y=\"0\" width=\"12\" height=\"380\" fill=\"#008A7E\"/></g><line x1=\"190\" y1=\"200\" x2=\"318\" y2=\"200\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"1346\" y1=\"200\" x2=\"1474\" y2=\"200\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M190 470 L 1100 470\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><line x1=\"600\" y1=\"500\" x2=\"720\" y2=\"440\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 280,
+     "w": 200,
+     "t": "o personal: vê três vezes por semana",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1464,
+     "y": 280,
+     "w": 200,
+     "t": "o psiquiatra: conduz o tratamento",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 370,
+     "y": 20,
+     "w": 920,
+     "t": "o bilhete que nunca foi escrito",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 64,
+     "w": 940,
+     "t": "Ao psiquiatra do paciente.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 370,
+     "y": 124,
+     "w": 940,
+     "t": "Ele treina comigo três vezes por semana há seis meses, quase sem faltas.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 370,
+     "y": 184,
+     "w": 940,
+     "t": "Relata mais disposição e sono melhor nas últimas semanas.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 370,
+     "y": 244,
+     "w": 940,
+     "t": "Me contou que usa antidepressivo e pensa em reduzir por conta própria.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 370,
+     "y": 304,
+     "w": 940,
+     "t": "Achei importante você saber. O que devo observar daqui para frente?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 190,
+     "y": 490,
+     "w": 1000,
+     "t": "o que aconteceu: a opinião direto ao paciente, sem passar por quem conduz",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que teria sido excelente",
+   "titulo": "A informação estava certa, e o caminho, errado",
+   "destaque": "O erro não foi de conhecimento, foi de lugar. A invasão quase nunca tem cara de invasão."
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "titulo": "Três verbos e um limite",
+   "regras": [
+    "Ler não é prescrever.",
+    "Reconhecer não é diagnosticar.",
+    "Encaminhar não é opinar sobre a conduta do colega.",
+    "Limite duro: ninguém mexe em tratamento conduzido por outro profissional."
+   ],
    "quem": "Discordância no time: se há risco para o paciente, fale com o colega, com clareza e sem plateia. Se é diferença de escola ou de estilo, segure.",
-   "proxima": "O encaminhamento que o colega usa"}
+   "proxima": "O encaminhamento que o colega usa"
+  }
  ]
 }
