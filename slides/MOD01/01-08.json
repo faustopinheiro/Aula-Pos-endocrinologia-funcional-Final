@@ -21,238 +21,1364 @@
  "slides": [
   {
    "id": "faz-sentido",
-   "tipo": "lista",
-   "eyebrow": "Para começar",
-   "titulo": "Faz todo sentido. E está errado.",
-   "gap_itens": 18,
-   "itens": [
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Quatro elos em sequência: o exercício produz radicais livres, radicais livres causam dano, antioxidante neutraliza radical livre, logo antioxidante ajuda a recuperar; o último elo com um X vermelho\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"170\" width=\"380\" height=\"190\" rx=\"20\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"170\" r=\"30\" fill=\"#008A7E\"/><line x1=\"384\" y1=\"265\" x2=\"414\" y2=\"265\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"420\" y=\"170\" width=\"380\" height=\"190\" rx=\"20\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"460\" cy=\"170\" r=\"30\" fill=\"#008A7E\"/><line x1=\"804\" y1=\"265\" x2=\"834\" y2=\"265\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"840\" y=\"170\" width=\"380\" height=\"190\" rx=\"20\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"880\" cy=\"170\" r=\"30\" fill=\"#008A7E\"/><line x1=\"1224\" y1=\"265\" x2=\"1254\" y2=\"265\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"1260\" y=\"170\" width=\"380\" height=\"190\" rx=\"20\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"1300\" cy=\"170\" r=\"30\" fill=\"#A8322A\"/><line x1=\"1280\" y1=\"180\" x2=\"1650\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"6\" opacity=\"0.35\"/><line x1=\"1650\" y1=\"180\" x2=\"1280\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"6\" opacity=\"0.35\"/><g transform=\"translate(20.0 10.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(100.0 30.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(180.0 14.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 21h8m-4-6v6m5-18l1 7c0 3.012-2.686 5-6 5s-6-1.988-6-5l1-7z\"/><path d=\"M6 10a5 5 0 0 1 6 0a5 5 0 0 0 6 0\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 10,
+     "y": 152,
+     "w": 60,
+     "t": "1",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 210,
+     "w": 332,
      "t": "O exercício produz radicais livres",
-     "cor": "petr",
-     "m": "1"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 430,
+     "y": 152,
+     "w": 60,
+     "t": "2",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 444,
+     "y": 210,
+     "w": 332,
      "t": "Radicais livres causam dano nas células",
-     "cor": "petr",
-     "m": "2"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 850,
+     "y": 152,
+     "w": 60,
+     "t": "3",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 864,
+     "y": 210,
+     "w": 332,
      "t": "Antioxidante neutraliza radical livre",
-     "cor": "petr",
-     "m": "3"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1270,
+     "y": 152,
+     "w": 60,
+     "t": "?",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1284,
+     "y": 210,
+     "w": 332,
      "t": "Logo, antioxidante depois do treino ajuda a recuperar e a render",
-     "cor": "verm",
-     "m": "?"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 40,
+     "w": 900,
+     "t": "vitamina C e vitamina E todo dia, depois do treino",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 1664,
+     "t": "cada passo é verdade, e a conclusão parece inevitável",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     }
    ],
+   "eyebrow": "Para começar",
+   "titulo": "Faz todo sentido, e está errado",
    "destaque": "Cinco histórias, cinco jeitos de gente boa e bem informada ser enganada. Sem pirâmide, sem fórmula."
   },
   {
    "id": "antioxidante",
-   "tipo": "numeros",
-   "eyebrow": "Primeiro erro: confiar numa cadeia lógica perfeita",
-   "titulo": "O antioxidante que atrapalhou o treino",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Dois painéis de barras: à esquerda, os marcadores de adaptação dentro do músculo sobem só no grupo placebo; à direita, o VO2máx ao fim do treino fica igual nos dois grupos\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"0\" y=\"100\" width=\"784\" height=\"380\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"120\" y=\"320\" width=\"100\" height=\"80\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"230\" y=\"190\" width=\"100\" height=\"210\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"450\" y=\"320\" width=\"100\" height=\"80\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"560\" y=\"318\" width=\"100\" height=\"82\" rx=\"6\" fill=\"#A8322A\"/><line x1=\"40\" y1=\"400\" x2=\"744\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"880\" y=\"100\" width=\"784\" height=\"380\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1055\" y=\"200\" width=\"100\" height=\"200\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1385\" y=\"200\" width=\"100\" height=\"200\" rx=\"6\" fill=\"#A8322A\"/><line x1=\"920\" y1=\"400\" x2=\"1624\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "n": "54",
-     "x": "jovens, 11 semanas de treino aeróbio, vitaminas C e E × placebo, com biópsia do músculo",
-     "cor": "petr"
+     "x": 24,
+     "y": 22,
+     "w": 1616,
+     "t": "54 jovens · 11 semanas de treino aeróbio · vitamina C 1.000 mg e E 235 mg por dia × placebo · biópsia do músculo antes e depois",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "placebo",
-     "x": "só no grupo placebo os marcadores de adaptação subiram dentro do músculo",
-     "cor": "verm"
+     "x": 24,
+     "y": 114,
+     "w": 740,
+     "t": "Marcadores de adaptação no músculo",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "=",
-     "x": "o VO₂máx não foi diferente entre os grupos: marcador não é desempenho",
-     "cor": "ambar"
+     "x": 120,
+     "y": 406,
+     "w": 100,
+     "t": "antes",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 406,
+     "w": 100,
+     "t": "depois",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 434,
+     "w": 250,
+     "t": "placebo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 406,
+     "w": 100,
+     "t": "antes",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 406,
+     "w": 100,
+     "t": "depois",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 430,
+     "y": 434,
+     "w": 250,
+     "t": "vitaminas C e E",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 114,
+     "w": 740,
+     "t": "VO₂máx",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1055,
+     "y": 406,
+     "w": 100,
+     "t": "depois",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 434,
+     "w": 250,
+     "t": "placebo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1385,
+     "y": 406,
+     "w": 100,
+     "t": "depois",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1310,
+     "y": 434,
+     "w": 250,
+     "t": "vitaminas C e E",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 160,
+     "w": 300,
+     "t": "só o placebo sobe",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 160,
+     "w": 320,
+     "t": "igual nos dois grupos",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Radical livre também é sinal. Neutralizar o sinal apaga o pedido de adaptação. Mecanismo explica como poderia acontecer; não diz se acontece.",
-   "fonte": "Paulsen et al., Journal of Physiology 2014"
+   "eyebrow": "Primeiro erro: confiar numa cadeia lógica perfeita",
+   "titulo": "O antioxidante apagou o sinal, e o desempenho não mudou",
+   "fonte": "Paulsen e colaboradores, Journal of Physiology 2014 · barras: esquema, sem valores medidos",
+   "destaque": "Mecanismo explica como poderia acontecer. Não diz se acontece."
   },
   {
    "id": "betacaroteno",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Em cima, o prato de vegetais com uma seta verde para menos câncer de pulmão, e entre eles uma nuvem de diferenças escondidas; embaixo, a cápsula de betacaroteno com uma seta vermelha para mais câncer de pulmão no ensaio sorteado\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"1664\" height=\"250\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(40.0 60.0) scale(5.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><line x1=\"190\" y1=\"120\" x2=\"1260\" y2=\"120\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"330\" y=\"36\" width=\"270\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"630\" y=\"36\" width=\"270\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"930\" y=\"36\" width=\"270\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"330\" y=\"146\" width=\"270\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"630\" y=\"146\" width=\"270\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"930\" y=\"146\" width=\"270\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"0\" y=\"290\" width=\"1664\" height=\"270\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(40.0 340.0) scale(5.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><line x1=\"190\" y1=\"400\" x2=\"1260\" y2=\"400\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 190,
+     "w": 240,
+     "t": "quem come mais vegetal",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 80,
+     "w": 360,
+     "t": "menos câncer de pulmão",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1290,
+     "y": 170,
+     "w": 360,
+     "t": "a associação era real",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 47,
+     "w": 270,
+     "t": "fuma menos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 47,
+     "w": 270,
+     "t": "bebe menos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 47,
+     "w": 270,
+     "t": "se exercita mais",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 157,
+     "w": 270,
+     "t": "mais estudo",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 157,
+     "w": 270,
+     "t": "mais renda",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 157,
+     "w": 270,
+     "t": "mais acesso a médico",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 470,
+     "w": 280,
+     "t": "betacaroteno em cápsula",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 330,
+     "w": 900,
+     "t": "quase 30 mil fumantes sorteados, na Finlândia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 430,
+     "w": 900,
+     "t": "um segundo ensaio, nos Estados Unidos, parou antes do fim pelo mesmo sinal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 330,
+     "w": 360,
+     "t": "18% mais câncer de pulmão",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1290,
+     "y": 430,
+     "w": 360,
+     "t": "o dedo que apontava foi colocado numa cápsula",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Segundo erro: achar que andar junto é causar",
-   "titulo": "O betacaroteno",
-   "esq": {
-    "t": "O que se observava",
-    "cor": "petr",
-    "itens": [
-     "Mais vegetais, menos câncer de pulmão",
-     "Em vários países, com dose e resposta",
-     "Com explicação biológica bonita"
-    ]
-   },
-   "dir": {
-    "t": "O que o ensaio mostrou",
-    "cor": "verm",
-    "itens": [
-     "Quase 30 mil fumantes sorteados",
-     "Betacaroteno: 18% mais câncer de pulmão",
-     "Um segundo ensaio foi interrompido pelo mesmo sinal"
-    ]
-   },
-   "destaque": "A associação era real. A causa não era o betacaroteno. A mesma história se repetiu com a reposição hormonal para proteger o coração.",
-   "fonte": "ATBC, New England Journal of Medicine 1994 · Women's Health Initiative, JAMA 2002"
+   "titulo": "Com o betacaroteno, a associação era real e a causa, não",
+   "fonte": "ATBC, New England Journal of Medicine 1994 · a mesma história com a reposição hormonal, Women's Health Initiative, JAMA 2002"
   },
   {
    "id": "usuario-saudavel",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Duas pessoas lado a lado: uma cercada de suplemento, sono em dia, comida organizada, check-up e treino regular; a outra sem nada disso; entre elas, a pergunta: você está comparando o suplemento ou as pessoas; embaixo, o alongamento levando o crédito do aquecimento e da progressão\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><g transform=\"translate(190.0 40.0) scale(3.3333)\"><g fill=\"#008A7E\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1310.0 40.0) scale(3.3333)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(80.0 70.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(70.0 170.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><g transform=\"translate(410.0 70.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><g transform=\"translate(420.0 170.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><g transform=\"translate(250.0 10.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"0\" y=\"270\" width=\"1664\" height=\"180\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(40.0 300.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g><g transform=\"translate(150.0 310.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v3M8 4v6m8-6v6m-4 8.5L9 20l.5-3.5l-2-2l3-.5l1.5-3l1.5 3l3 .5l-2 2L15 20z\"/></g><rect x=\"560\" y=\"300\" width=\"250\" height=\"48\" rx=\"24\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"830\" y=\"300\" width=\"250\" height=\"48\" rx=\"24\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1100\" y=\"300\" width=\"250\" height=\"48\" rx=\"24\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1370\" y=\"300\" width=\"250\" height=\"48\" rx=\"24\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 236,
+     "w": 440,
+     "t": "usa suplemento por conta própria",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 236,
+     "w": 440,
+     "t": "não usa",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 70,
+     "w": 560,
+     "t": "Você está comparando o suplemento, ou as pessoas?",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 190,
+     "w": 560,
+     "t": "sortear quem usa é o jeito de desligar esse efeito",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 311,
+     "w": 250,
+     "t": "chega mais cedo",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 311,
+     "w": 250,
+     "t": "aquece direito",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 311,
+     "w": 250,
+     "t": "tem orientação",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1370,
+     "y": 311,
+     "w": 250,
+     "t": "cuida da progressão",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 300,
+     "w": 300,
+     "t": "alongar antes levou o crédito",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 378,
+     "w": 1070,
+     "t": "nos ensaios que sortearam as pessoas, o alongamento sozinho não mostrou efeito preventivo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "O nome que explica metade dos milagres",
-   "titulo": "O efeito do usuário saudável",
-   "esq": {
-    "t": "Quem usa por conta própria",
-    "cor": "petr",
-    "itens": [
-     "Dorme melhor e fuma menos",
-     "Vai mais ao médico",
-     "Treina com mais regularidade",
-     "Tem mais dinheiro sobrando"
-    ]
-   },
-   "dir": {
-    "t": "O que acontece no estudo",
-    "cor": "ambar",
-    "itens": [
-     "Só observar já dá vantagem ao produto",
-     "Sortear quem usa desliga o efeito",
-     "Alongar antes “prevenia” lesão; nos ensaios sorteados, sozinho, não preveniu"
-    ]
-   },
-   "destaque": "A primeira pergunta: essas pessoas eram iguais antes de começar?",
-   "fonte": "Lauersen et al., British Journal of Sports Medicine 2014"
+   "titulo": "O efeito do usuário saudável explica metade dos milagres",
+   "fonte": "Lauersen e colaboradores, British Journal of Sports Medicine 2014",
+   "destaque": "A primeira pergunta: essas pessoas eram iguais antes de começar?"
   },
   {
    "id": "em-quem",
-   "tipo": "numeros",
-   "eyebrow": "Terceiro erro: não perguntar em quem foi medido",
-   "titulo": "O participante padrão não é o seu paciente",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"À esquerda, uma barra com os estudos de ciência do esporte: 31% só com homens, 6% só com mulheres, o resto misto, e mulheres em cerca de um terço dos participantes; à direita, o participante padrão, homem jovem universitário treinado, e a paciente real, mulher de 50 e poucos anos, hipertensa, com dois empregos; entre eles, o filtro dos critérios de exclusão\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><rect x=\"0\" y=\"100\" width=\"232.6\" height=\"80\" fill=\"#A8322A\"/><rect x=\"235.6\" y=\"100\" width=\"475.8\" height=\"80\" fill=\"#C9CFD4\"/><rect x=\"714.4\" y=\"100\" width=\"42.6\" height=\"80\" fill=\"#B07A1C\"/><g transform=\"translate(0.0 260.0) scale(1.8750)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><g transform=\"translate(110.0 260.0) scale(1.8750)\"><path fill=\"#C9CFD4\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><g transform=\"translate(220.0 260.0) scale(1.8750)\"><path fill=\"#C9CFD4\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><rect x=\"860\" y=\"0\" width=\"380\" height=\"420\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(970.0 30.0) scale(3.3333)\"><path fill=\"#3A6EA5\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><rect x=\"1284\" y=\"0\" width=\"380\" height=\"420\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1394.0 30.0) scale(3.3333)\"><path fill=\"#A8322A\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><rect x=\"860\" y=\"440\" width=\"804\" height=\"100\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(880.0 462.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 4h16v2.172a2 2 0 0 1-.586 1.414L15 12v7l-6 2v-8.5L4.52 7.572A2 2 0 0 1 4 6.227z\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "~⅓",
-     "x": "de mulheres em mais de 5 mil estudos de ciência do esporte",
-     "cor": "ambar"
+     "x": 0,
+     "y": 0,
+     "w": 760,
+     "t": "Mais de 5 mil estudos, mais de 12 milhões de participantes",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
-     "n": "31%",
-     "x": "dos estudos só com homens",
-     "cor": "verm"
+     "x": 0,
+     "y": 190,
+     "w": 300,
+     "t": "31% só homens",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "6%",
-     "x": "só com mulheres",
-     "cor": "verm"
+     "x": 300,
+     "y": 190,
+     "w": 300,
+     "t": "mistos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 190,
+     "w": 200,
+     "t": "6% só mulheres",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 270,
+     "w": 420,
+     "t": "mulheres: cerca de um terço dos participantes",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 760,
+     "t": "e a idade: boa parte da fisiologia do exercício foi medida entre 18 e 30 anos, porque o laboratório fica dentro da universidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 880,
+     "y": 210,
+     "w": 340,
+     "t": "homem",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 250,
+     "w": 340,
+     "t": "jovem",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 290,
+     "w": 340,
+     "t": "universitário",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 330,
+     "w": 340,
+     "t": "treinado",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 370,
+     "w": 340,
+     "t": "o participante padrão",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1304,
+     "y": 210,
+     "w": 340,
+     "t": "mulher",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1304,
+     "y": 250,
+     "w": 340,
+     "t": "50 e poucos anos",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1304,
+     "y": 290,
+     "w": 340,
+     "t": "hipertensa",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1304,
+     "y": 330,
+     "w": 340,
+     "t": "dois empregos",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1304,
+     "y": 370,
+     "w": 340,
+     "t": "a paciente real",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 950,
+     "y": 456,
+     "w": 700,
+     "t": "critérios de exclusão: sem doença do coração, sem remédio contínuo, sem lesão, sem cigarro; tiram do estudo quem você atende",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "destaque": "Fisiologia medida entre 18 e 30 anos. E os critérios de exclusão tiram do estudo exatamente quem você atende: quem tem doença, usa remédio ou se lesionou.",
-   "fonte": "Cowley et al., Women in Sport and Physical Activity Journal 2021"
+   "eyebrow": "Terceiro erro: não perguntar em quem foi medido",
+   "titulo": "O participante padrão não é o seu paciente",
+   "fonte": "Cowley e colaboradores, Women in Sport and Physical Activity Journal 2021"
   },
   {
    "id": "placar",
-   "tipo": "frase",
-   "eyebrow": "Uma paciente de 52 anos, depois dos primeiros 5 km da vida",
-   "frase": "“Eu tô ganhando o jogo. Só me mostraram o placar de outro jogo.”",
-   "apoio": "O aplicativo a colocou na faixa vermelha, construída com outra população. Toda faixa de referência veio de algum grupo de pessoas. A comparação que importa é com ela mesma, três meses atrás."
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"A tela de um celular com um medidor e a agulha na faixa vermelha; ao lado, a frase da paciente; embaixo, a linha dela mesma subindo nos últimos meses\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"40\" y=\"0\" width=\"340\" height=\"560\" rx=\"40\" fill=\"#12202E\"/><rect x=\"60\" y=\"40\" width=\"300\" height=\"480\" rx=\"20\" fill=\"#FDFCF9\"/><path d=\"M100.0 260.0 A 110 110 0 0 1 155.0 164.7\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"28\"/><path d=\"M158.4 162.9 A 110 110 0 0 1 265.0 164.7\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"28\"/><path d=\"M268.3 166.7 A 110 110 0 0 1 320.0 260.0\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"28\"/><line x1=\"210\" y1=\"260\" x2=\"125\" y2=\"229\" stroke=\"#12202E\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"210\" cy=\"260\" r=\"10\" fill=\"#12202E\"/><polyline points=\"480,520 620,500 760,470 900,450 1040,410 1180,380 1320,330 1460,290 1600,250\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"7\" stroke-linejoin=\"round\"/><circle cx=\"480\" cy=\"520\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"620\" cy=\"500\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"760\" cy=\"470\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"900\" cy=\"450\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1040\" cy=\"410\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1180\" cy=\"380\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1320\" cy=\"330\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1460\" cy=\"290\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1600\" cy=\"250\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"460\" y1=\"540\" x2=\"1640\" y2=\"540\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 80,
+     "w": 300,
+     "t": "capacidade cardiorrespiratória",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 60,
+     "y": 300,
+     "w": 300,
+     "t": "faixa vermelha",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 360,
+     "w": 260,
+     "t": "tabela construída com outra população",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 460,
+     "y": 10,
+     "w": 1204,
+     "t": "“Eu tô ganhando o jogo. Só me mostraram o placar de outro jogo.”",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 150,
+     "w": 1204,
+     "t": "50 e poucos anos, catorze meses depois de sair do sedentarismo, os primeiros 5 km da vida",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 230,
+     "w": 1000,
+     "t": "A comparação que importa: ela mesma, três meses atrás",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Toda faixa de referência veio de algum grupo",
+   "titulo": "A faixa do aplicativo foi medida em outro jogo",
+   "fonte": "Linha: esquema, sem valores medidos"
   },
   {
    "id": "quem-pagou",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 580,
+   "svg": "<svg aria-label=\"À esquerda, um documento carimbado 1965 com trechos grifados; à direita, dois grupos de revisões sobre bebida açucarada: sem conflito, quase todas encontram associação; com conflito, quase todas dizem que a evidência é insuficiente; embaixo, os cinco lugares onde o conflito age antes do dado\" width=\"1664\" height=\"580\" viewBox=\"0 0 1664 580\"><g transform=\"rotate(-2 280 200)\"><rect x=\"40\" y=\"10\" width=\"480\" height=\"340\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/></g><rect x=\"80\" y=\"70\" width=\"380\" height=\"20\" rx=\"4\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"80\" y=\"108\" width=\"340\" height=\"26\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.9\"/><rect x=\"80\" y=\"146\" width=\"400\" height=\"20\" rx=\"4\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"80\" y=\"184\" width=\"300\" height=\"20\" rx=\"4\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"80\" y=\"222\" width=\"360\" height=\"26\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.9\"/><rect x=\"80\" y=\"260\" width=\"390\" height=\"20\" rx=\"4\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"80\" y=\"298\" width=\"250\" height=\"20\" rx=\"4\" fill=\"#C9CFD4\" opacity=\"0.7\"/><g transform=\"rotate(-12 420 300)\"><rect x=\"330\" y=\"270\" width=\"190\" height=\"70\" rx=\"8\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/></g><rect x=\"620\" y=\"70\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"710\" y=\"70\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"800\" y=\"70\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"890\" y=\"70\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"980\" y=\"70\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"1070\" y=\"70\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"620\" y=\"250\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"710\" y=\"250\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"800\" y=\"250\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"890\" y=\"250\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"980\" y=\"250\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"1070\" y=\"250\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"620\" y=\"400\" width=\"196\" height=\"60\" rx=\"30\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"832\" y=\"400\" width=\"196\" height=\"60\" rx=\"30\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1044\" y=\"400\" width=\"196\" height=\"60\" rx=\"30\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1256\" y=\"400\" width=\"196\" height=\"60\" rx=\"30\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1468\" y=\"400\" width=\"196\" height=\"60\" rx=\"30\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 330,
+     "y": 283,
+     "w": 190,
+     "t": "1965",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 370,
+     "w": 480,
+     "t": "gordura como vilã, açúcar minimizado, financiamento não declarado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 620,
+     "y": 20,
+     "w": 400,
+     "t": "revisões sem conflito",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1180,
+     "y": 90,
+     "w": 484,
+     "t": "há associação",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 620,
+     "y": 200,
+     "w": 400,
+     "t": "revisões com conflito",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1180,
+     "y": 270,
+     "w": 484,
+     "t": "evidência insuficiente",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 620,
+     "y": 410,
+     "w": 196,
+     "t": "a pergunta",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 832,
+     "y": 410,
+     "w": 196,
+     "t": "o comparador",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 1044,
+     "y": 410,
+     "w": 196,
+     "t": "o desfecho do resumo",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 1256,
+     "y": 410,
+     "w": 196,
+     "t": "o estudo que não sai",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 1468,
+     "y": 410,
+     "w": 196,
+     "t": "a redação",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 620,
+     "y": 370,
+     "w": 1000,
+     "t": "onde o conflito age, antes do dado:",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 490,
+     "w": 1044,
+     "t": "sinal prático: existe estudo grande e independente? Muitos pequenos, todos positivos e nenhum grande: desconfie",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Quarto erro: não perguntar quem pagou",
-   "titulo": "Ninguém mentiu. Mudou o enquadramento.",
-   "esq": {
-    "t": "1965, o açúcar",
-    "cor": "verm",
-    "itens": [
-     "Revisão patrocinada por fundação do açúcar",
-     "Gordura como vilã, açúcar minimizado",
-     "Financiamento não declarado"
-    ]
-   },
-   "dir": {
-    "t": "Hoje, a bebida açucarada",
-    "cor": "ambar",
-    "itens": [
-     "Revisões sem conflito: há associação",
-     "Revisões com conflito: evidência insuficiente",
-     "Mesma literatura, conclusões opostas"
-    ]
-   },
-   "destaque": "O conflito age antes do dado: na pergunta, no comparador, no desfecho, na publicação e na redação. Sinal prático: existe estudo grande e independente?",
-   "fonte": "Kearns et al., JAMA Internal Medicine 2016 · Bes-Rastrollo et al., PLoS Medicine 2013"
+   "titulo": "Ninguém mentiu, e o enquadramento mudou a conclusão",
+   "fonte": "Kearns e colaboradores, JAMA Internal Medicine 2016 · Bes-Rastrollo e colaboradores, PLoS Medicine 2013 · blocos: esquema"
   },
   {
    "id": "sobre-nos",
-   "tipo": "cards",
-   "eyebrow": "O mesmo olhar, virado para nós",
-   "titulo": "Conflito de interesse também é nosso",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 464,
+   "svg": "<svg aria-label=\"Um espelho oval; dentro dele, uma prateleira de consultório com produtos à venda e um vídeo antigo com muitas visualizações; ao lado, os dois conflitos: o de quem vende o que prescreve e o do que já se disse em público\" width=\"1664\" height=\"464\" viewBox=\"0 0 1664 464\"><ellipse cx=\"400\" cy=\"235\" rx=\"290\" ry=\"225\" fill=\"#DEE7F1\" stroke=\"#12202E\" stroke-width=\"10\"/><line x1=\"200\" y1=\"190\" x2=\"600\" y2=\"190\" stroke=\"#B07A1C\" stroke-width=\"8\"/><rect x=\"220\" y=\"110\" width=\"56\" height=\"80\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.8\"/><rect x=\"296\" y=\"126\" width=\"56\" height=\"64\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.8\"/><rect x=\"372\" y=\"110\" width=\"56\" height=\"80\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.8\"/><rect x=\"448\" y=\"126\" width=\"56\" height=\"64\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.8\"/><rect x=\"524\" y=\"110\" width=\"56\" height=\"80\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.8\"/><rect x=\"250\" y=\"230\" width=\"300\" height=\"150\" rx=\"14\" fill=\"#12202E\"/><g transform=\"translate(360.0 265.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 4v16l13-8z\"/></g><rect x=\"780\" y=\"0\" width=\"884\" height=\"224\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(810.0 30.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M24.039 6c-4.517 0-8.632 1.492-11.067 2.711q-.33.165-.616.322c-.378.206-.7.398-.956.567l2.77 4.078l1.304.519c5.096 2.571 11.93 2.571 17.027 0l1.48-.768L36.6 9.6a16 16 0 0 0-1.689-.957C32.488 7.437 28.471 6 24.04 6m-6.442 4.616a25 25 0 0 1-2.901-.728C16.978 8.875 20.377 7.8 24.04 7.8c2.537 0 4.936.516 6.92 1.17c-2.325.327-4.806.882-7.17 1.565c-1.86.538-4.034.48-6.192.081m15.96 5.064l-.246.124c-5.606 2.828-13.042 2.828-18.648 0l-.233-.118C6.008 24.927-.422 41.997 24.039 41.997S41.913 24.61 33.557 15.68M23 24a2 2 0 1 0 0 4zm2-2v-1h-2v1a4 4 0 0 0 0 8v4c-.87 0-1.611-.555-1.887-1.333a1 1 0 1 0-1.885.666A4 4 0 0 0 23 36v1h2v-1a4 4 0 0 0 0-8v-4c.87 0 1.611.555 1.887 1.333a1 1 0 1 0 1.885-.666A4 4 0 0 0 25 22m0 8v4a2 2 0 1 0 0-4\" clip-rule=\"evenodd\"/></g><rect x=\"780\" y=\"240\" width=\"884\" height=\"224\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(810.0 270.0) scale(1.6667)\"><g fill=\"#A8322A\"><path d=\"M12 31v7a2 2 0 1 0 4 0v-7zm-5-5v-6a3 3 0 0 1 3-3h6v12h-6a3 3 0 0 1-3-3m27-3v-1a3 3 0 0 0-3-3v7a3 3 0 0 0 3-3m-16 7V15l9.463-6.022A1 1 0 0 1 29 9.822v25.356a1 1 0 0 1-1.537.844z\"/><path fill-rule=\"evenodd\" d=\"M40.832 17.445a1 1 0 0 1-.277 1.387l-3 2a1 1 0 0 1-1.11-1.664l3-2a1 1 0 0 1 1.387.277M36 24a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2h-4a1 1 0 0 1-1-1m.168 3.445a1 1 0 0 1 1.387-.277l3 2a1 1 0 0 1-1.11 1.664l-3-2a1 1 0 0 1-.277-1.387\" clip-rule=\"evenodd\"/></g></g></svg>",
+   "rotulos": [
     {
-     "t": "Quem vende o que prescreve",
-     "x": "Prateleira, linha própria, laboratório de que é sócio, curso do protocolo. Não é antiético por si. Mas é conflito: diga antes.",
-     "cor": "ambar"
+     "x": 250,
+     "y": 390,
+     "w": 300,
+     "t": "vídeo antigo, milhares de visualizações",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
+     "x": 914,
+     "y": 26,
+     "w": 720,
+     "t": "Quem vende o que prescreve",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 914,
+     "y": 82,
+     "w": 720,
+     "t": "prateleira, linha própria, laboratório de que é sócio, curso do protocolo: não é antiético por si, mas é conflito; diga antes, em uma frase",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 914,
+     "y": 266,
+     "w": 720,
      "t": "O que você já disse em público",
-     "x": "O conflito sem dinheiro, e o mais difícil. Mudar de ideia custa identidade.",
-     "cor": "verm"
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 914,
+     "y": 322,
+     "w": 720,
+     "t": "o conflito sem dinheiro, e o mais difícil: mudar de ideia custa identidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     }
    ],
+   "eyebrow": "O mesmo olhar, virado para nós",
+   "titulo": "Conflito de interesse também é nosso",
    "destaque": "As pessoas confiam mais em quem muda de ideia explicando o motivo. O que destrói autoridade é defender o indefensável porque já falou."
   },
   {
    "id": "experiencia",
-   "tipo": "cards",
-   "eyebrow": "Quinto erro: a própria experiência como prova",
-   "titulo": "“Os meus pacientes melhoram quando eu faço isso”",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Curva da dor de um paciente ao longo do tempo: sobe até um pico no dia da consulta e desce depois, com três faixas que explicam a descida: história natural, regressão à média e expectativa; alguns pontos saem do gráfico: quem não melhorou parou de vir\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><line x1=\"80\" y1=\"440\" x2=\"1600\" y2=\"440\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"82\" y1=\"30\" x2=\"82\" y2=\"440\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M100 360 C 300 340, 420 240, 560 90 C 700 240, 900 340, 1580 385\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"70\" x2=\"560\" y2=\"440\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"40\" width=\"12\" height=\"76\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"960\" y=\"128\" width=\"12\" height=\"76\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"960\" y=\"216\" width=\"12\" height=\"76\" rx=\"6\" fill=\"#008A7E\"/><circle cx=\"1500\" cy=\"200\" r=\"12\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1550\" cy=\"150\" r=\"12\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1600\" cy=\"100\" r=\"12\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M1460 250 L 1630 60\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
     {
-     "t": "História natural",
-     "x": "A maior parte das dores musculares e articulares melhora sozinha.",
-     "cor": "ambar"
+     "x": 96,
+     "y": 20,
+     "w": 200,
+     "t": "dor",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Regressão à média",
-     "x": "A pessoa procura ajuda no pior momento. Depois dele, costuma melhorar.",
-     "cor": "ambar"
+     "x": 1400,
+     "y": 450,
+     "w": 200,
+     "t": "tempo",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "t": "Expectativa",
-     "x": "Quem investiu dinheiro e esperança relata melhora. E ela é real.",
-     "cor": "ambar"
+     "x": 340,
+     "y": 40,
+     "w": 210,
+     "t": "o dia da consulta: o pior momento",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 990,
+     "y": 42,
+     "w": 440,
+     "t": "história natural",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 990,
+     "y": 82,
+     "w": 440,
+     "t": "a maior parte das dores melhora sozinha",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 130,
+     "w": 440,
+     "t": "regressão à média",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 990,
+     "y": 170,
+     "w": 440,
+     "t": "depois do pior momento, vem um melhor",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 218,
+     "w": 440,
+     "t": "expectativa",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 990,
+     "y": 258,
+     "w": 440,
+     "t": "quem investiu relata melhora, e ela é real",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 270,
+     "w": 224,
+     "t": "quem não melhorou parou de vir, e não entra na conta",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Quem não melhorou parou de vir e não entra na sua conta. Experiência cria hipótese. Não prova."
+   "eyebrow": "Quinto erro: a própria experiência como prova",
+   "titulo": "Três forças melhoram o paciente sem você ter feito nada",
+   "fonte": "Esquema, sem valores medidos",
+   "destaque": "Experiência cria hipótese. Não prova."
   },
   {
    "id": "cinco-perguntas",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"À esquerda, cinco perguntas numa coluna: quem foram, comparado com o quê, desfecho ou marcador, por quanto tempo, qual o tamanho do efeito; à direita, uma balança: barato e seguro pede pouca prova, caro, invasivo ou por anos pede ensaio sorteado\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"84\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 14.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"0\" y=\"98\" width=\"640\" height=\"84\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 112.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><rect x=\"0\" y=\"196\" width=\"640\" height=\"84\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 210.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><rect x=\"0\" y=\"294\" width=\"640\" height=\"84\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 308.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><rect x=\"0\" y=\"392\" width=\"640\" height=\"84\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 406.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><polygon points=\"1180,290 1136,420 1224,420\" fill=\"#12202E\"/><g transform=\"rotate(9 1180 290)\"><line x1=\"780\" y1=\"290\" x2=\"1580\" y2=\"290\" stroke=\"#12202E\" stroke-width=\"10\" stroke-linecap=\"round\"/></g><rect x=\"700\" y=\"17.426213983907644\" width=\"360\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1300\" y=\"90.57378601609236\" width=\"364\" height=\"210\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 22,
+     "w": 520,
+     "t": "Quem foram?",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 120,
+     "w": 520,
+     "t": "Comparado com o quê?",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 218,
+     "w": 520,
+     "t": "É desfecho ou marcador?",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 316,
+     "w": 520,
+     "t": "Por quanto tempo?",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 414,
+     "w": 520,
+     "t": "Qual o tamanho do efeito?",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 720,
+     "y": 31,
+     "w": 320,
+     "t": "Barato, seguro e plausível",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 720,
+     "y": 107,
+     "w": 320,
+     "t": "dormir mais, comer melhor, distribuir a carga: dá para agir com estudo de observação",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1320,
+     "y": 105,
+     "w": 324,
+     "t": "Caro, invasivo, arriscado ou por anos",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1320,
+     "y": 191,
+     "w": 324,
+     "t": "hormônio, remédio, dose alta: exija ensaio sorteado; o custo de errar é o do betacaroteno",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 800,
+     "y": 440,
+     "w": 760,
+     "t": "o custo de errar decide quanta prova é preciso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Três minutos, antes de ler a conclusão",
-   "titulo": "Cinco perguntas e uma regra",
-   "esq": {
-    "t": "As cinco perguntas",
-    "cor": "petr",
-    "itens": [
-     "Quem foram?",
-     "Comparado com o quê?",
-     "É desfecho ou marcador?",
-     "Por quanto tempo?",
-     "Qual o tamanho do efeito?"
-    ]
-   },
-   "dir": {
-    "t": "A regra da assimetria",
-    "cor": "ambar",
-    "itens": [
-     "Barato, seguro e plausível: dá para agir com estudo de observação",
-     "Caro, invasivo, arriscado ou por anos: exija ensaio sorteado",
-     "O custo de errar decide"
-    ]
-   },
+   "titulo": "Cinco perguntas antes da conclusão, e uma regra de peso",
    "destaque": "Na fala: “foi visto em”, e diga em quem. “Hoje não há base para esperar isso.” E marque quando for observação sua."
   },
   {

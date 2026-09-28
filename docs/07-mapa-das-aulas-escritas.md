@@ -52,6 +52,11 @@ curta foi pensada para caber ao lado da fisiologia do exercício no mesmo mês.
 **Slides.** Cada aula tem um deck com a marca, gerado por
 `ferramentas/slides/gerar_deck.py` a partir de `slides/MOD01/*.json`. As notas
 do apresentador de cada slide trazem o texto falado daquele trecho da aula.
+Os oito decks foram refeitos no modelo dos desenhos (a especificação de cada um
+está em `slides/MOD01/01-0N.py`): cada slide de lista, cartões ou tabela virou
+um desenho próprio (balança, curva, régua, linha do tempo, nuvem de pontos,
+receituário, espelho), sem mudar o texto falado, a quantidade nem a ordem dos
+slides, para o teleprompter continuar batendo. Os links são os mesmos.
 
 ## Módulo 2 — Fisiologia do Exercício Aplicada · 12 aulas
 
