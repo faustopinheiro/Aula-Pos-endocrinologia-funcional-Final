@@ -1348,8 +1348,19 @@
     "Tem data de volta? Sem reavaliação, ninguém sabe se a dose estava certa.",
     "Tem uma versão menor combinada para a semana ruim?"
    ],
-   "quem": "Falar a recomendação e explicar por que ela existe é de todos. Montar a prescrição individual, com carga e progressão, é de quem prescreve treino ou conduz a reabilitação.",
-   "proxima": "150 minutos e o que ninguém lê na diretriz"
+   "proxima": "150 minutos e o que ninguém lê na diretriz",
+   "cards": [
+    {
+     "ic": "t:writing",
+     "t": "Quem faz o quê",
+     "x": "Falar a recomendação e explicar por que ela existe é de todos. Montar a prescrição individual, com carga e progressão, é de quem prescreve treino ou conduz a reabilitação."
+    },
+    {
+     "ic": "t:arrow-right",
+     "t": "Próxima conversa",
+     "x": "150 minutos e o que ninguém lê na diretriz."
+    }
+   ]
   }
  ]
 }

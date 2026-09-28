@@ -1179,8 +1179,19 @@
     "Encaminhar não é opinar sobre a conduta do colega.",
     "Limite duro: ninguém mexe em tratamento conduzido por outro profissional."
    ],
-   "quem": "Discordância no time: se há risco para o paciente, fale com o colega, com clareza e sem plateia. Se é diferença de escola ou de estilo, segure.",
-   "proxima": "O encaminhamento que o colega usa"
+   "proxima": "O encaminhamento que o colega usa",
+   "cards": [
+    {
+     "ic": "t:messages",
+     "t": "Discordância no time",
+     "x": "Se há risco para o paciente, fale com o colega, com clareza e sem plateia. Se é diferença de escola ou de estilo, segure."
+    },
+    {
+     "ic": "t:arrow-right",
+     "t": "Próxima conversa",
+     "x": "O encaminhamento que o colega usa."
+    }
+   ]
   }
  ]
 }

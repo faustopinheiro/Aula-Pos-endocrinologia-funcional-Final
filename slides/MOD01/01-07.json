@@ -1070,8 +1070,19 @@
     "Acrescente o complemento a liberado, carga, repouso, alta e moderado.",
     "Pergunte de volta: “como ficou aquele paciente que eu te mandei?”"
    ],
-   "quem": "Sem equipe montada? Três nomes na agenda: um médico, um nutricionista e um profissional de educação física ou fisioterapeuta. Três pessoas para quem você escreve e de quem recebe retorno.",
-   "proxima": "Como não ser enganado por um estudo"
+   "proxima": "Como não ser enganado por um estudo",
+   "cards": [
+    {
+     "ic": "t:phone-call",
+     "t": "Sem equipe montada",
+     "x": "Três nomes na agenda: um médico, um nutricionista e um profissional de educação física ou fisioterapeuta. Três pessoas para quem você escreve e de quem recebe retorno."
+    },
+    {
+     "ic": "t:arrow-right",
+     "t": "Próxima conversa",
+     "x": "Como não ser enganado por um estudo."
+    }
+   ]
   }
  ]
 }

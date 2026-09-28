@@ -180,72 +180,16 @@ Na próxima conversa, o número mais citado da saúde pública, cento e cinquent
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — A receita que ninguém escreveria
-· "Tome um remédio para pressão": qual, quanto, quantas vezes, até quando?
-· **"Faça exercício" é o mesmo tipo de receita**
-· Conselho não obriga ninguém: **nem o paciente a fazer, nem o profissional a acompanhar**
-Visual: duas receitas incompletas.
-
-**Slide 2** — A forma da curva
-· Acelerômetro, não lembrança · risco de morte × tempo ativo e sentado
-· **Despenca no começo, achata depois**
-· **30 a 40 min/dia** de moderada a vigorosa diminuíram bastante o risco de muitas horas sentado (**44 mil adultos**)
-· **Para quem está parado, a meta é sair do zero**
-Visual: curva com a faixa de 30 a 40 minutos.
-
-**Slide 3** — 26 doenças
-· Cabeça · cérebro · metabolismo · coração · pulmão · músculos e ossos · câncer
-· Muda desfechos que importam: **função, sintomas, controle, qualidade de vida**
-Visual: o 26 no centro.
-
-**Slide 4** — O cuidado com o slogan
-· **O efeito varia** muito entre doenças e desfechos
-· **Não substitui tratamento por decreto**
-· **Prescrever é assumir responsabilidade**: dose, acompanhamento, efeito colateral, reavaliação
-Visual: cartaz com três adesivos de atenção.
-
-**Slide 5** — Os sete campos
-· Frequência · intensidade · tempo · tipo · volume · progressão · **quem acompanha e quando volta**
-· **Força 2×/semana com carga**: a parte mais esquecida
-· **Progressão é um número com uma data**
-Visual: receituário com sete campos.
-
-**Slide 6** — Intensidade ancorada
-· Betabloqueador: **zona de frequência cardíaca não serve**
-· **Esforço de 0 a 10** e **teste da fala**
-· Teste de esforço **feito com os remédios em uso** = a melhor âncora
-Visual: três âncoras.
-
-**Slide 7** — Os dois erros da triagem
-· **Liberar tudo sem perguntar** · **exigir cardiologista para caminhar**
-· Três perguntas: já é ativa? tem doença ou sintoma? que intensidade pretende?
-· **Sem sintoma, sem doença conhecida, vai caminhar: começa hoje**
-Visual: dois caminhos que dão errado.
-
-**Slide 8** — Adesão
-· **Comece abaixo** · **pendure na rotina** · **acompanhe no começo** · **meça função** · **sem medo**
-· **Versão menor combinada** para a semana ruim
-· **O exercício feito vale mais que o ideal não feito**
-Visual: a prescrição modesta e cumprida ganha.
-
-**Slide 9** — O teste de três perguntas
-· Tem número? · tem data de volta? · tem versão menor?
-· Três sins: **prescreveu** · um não: **aconselhou**
-· Falar a recomendação é de **todos** · montar a prescrição individual é de **quem prescreve treino ou reabilita**
-Visual: as três perguntas à mão.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Título novo e voz do curso. Saiu o slide com os três documentos de
-diretriz, que repetia a aula seguinte; a curva de Ekelund ficou aqui e os números da OMS ficaram
-lá. Estratificação e adesão foram encurtadas; o detalhe está nos módulos de clínica e psicologia.
+**O que mudou nesta versão.** Título novo e voz do curso. Saiu o slide com os três documentos de diretriz, que repetia a aula seguinte; a curva de dose ficou aqui e os números da OMS ficaram lá. Estratificação e adesão foram encurtadas; o detalhe está nos módulos de clínica e de psicologia. Nesta revisão, os slides viraram desenhos próprios, sem mudar a quantidade nem a ordem, para o teleprompter continuar batendo; o slide de fecho ganhou cartões com quem faz o quê e a próxima conversa.
 
-**Citações faladas.** Nenhuma por nome de autor. O Colégio Americano de Medicina do Esporte entra
-pelo nome da instituição.
+**Números conferidos.** Metanálise de 2019 com acelerômetro: a curva de risco de morte cai muito rápido no começo e achata depois. Metanálise de 2020: 44.370 adultos de meia-idade e idosos; cerca de 30 a 40 minutos por dia de atividade moderada a vigorosa atenuaram o risco ligado a muito tempo sentado. Revisão de 2015: evidência para prescrever exercício como terapia em 26 doenças crônicas, em sete grupos (4 psiquiátricas, 3 neurológicas, 6 metabólicas, 5 cardiovasculares, 3 pulmonares, 4 musculoesqueléticas e câncer); a contagem por grupo aparece só no desenho. Revisão das recomendações de triagem do Colégio Americano de Medicina do Esporte, 2015. Faixas de esforço de 0 a 10 no desenho de intensidade: moderado 5 a 6, vigoroso 7 a 8, da diretriz da OMS de 2020 (não ditas).
 
-**Ligações internas.** "triagem com calma mais à frente" = Módulo 6 (avaliação pré-participação) ·
-"fronteiras daqui a pouco" = 1.6 · "150 minutos" = 1.4 · adesão em detalhe = Módulo 10.
+**Correções.** Nenhuma nesta revisão.
+
+**Saíram.** O slide dos três documentos de diretriz. O bloco "Roteiro Gamma". Duração de 18 para 13 minutos.
+
+**Citações faladas.** Nenhuma por nome de autor. O Colégio Americano de Medicina do Esporte entra pelo nome da instituição.
+
+**Ligações internas.** A triagem mais detalhada fica no módulo de medicina esportiva clínica. As fronteiras entre profissões são a aula de responsabilidades deste módulo. Os 150 minutos são a aula seguinte. Adesão em detalhe fica no módulo de psicologia do esporte.

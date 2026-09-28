@@ -43,7 +43,7 @@ abertura menos pesada. Três mudanças de estrutura:
 | 1.8 | Leitura crítica da literatura científica | 21 | ERRO | [slides](https://claude.ai/artifact/XyUpyLbciCTcyc5xVnrqwa) |
 
 Total: 1 h 47 min (antes: 3 h 16 min em 10 aulas). Um caso clínico no módulo
-(1.6, o homem de 37 anos com depressão e o personal). A 1.8 fecha o módulo com
+(1.6, o homem de trinta e poucos anos com depressão e o personal). A 1.8 fecha o módulo com
 a camada de integração nos três níveis.
 
 **Calendário.** Com 14 módulos, o **mês 1 reúne os Módulos 1 e 2**. A abertura
@@ -57,6 +57,12 @@ está em `slides/MOD01/01-0N.py`): cada slide de lista, cartões ou tabela virou
 um desenho próprio (balança, curva, régua, linha do tempo, nuvem de pontos,
 receituário, espelho), sem mudar o texto falado, a quantidade nem a ordem dos
 slides, para o teleprompter continuar batendo. Os links são os mesmos.
+
+**Acabamento.** Os fechos das oito aulas ganharam cartões com quem faz o quê e a
+próxima conversa. As notas de produção foram refeitas no formato completo (o que mudou,
+números conferidos, correções, saíram, citações faladas, ligações internas), com os números
+de estudo conferidos de novo. Na fala, as idades dos pacientes passaram a ser ditas por
+década e saíram duas palavras vetadas. O bloco "Roteiro Gamma" saiu de todas as aulas.
 
 ## Módulo 2 — Fisiologia do Exercício Aplicada · 12 aulas
 

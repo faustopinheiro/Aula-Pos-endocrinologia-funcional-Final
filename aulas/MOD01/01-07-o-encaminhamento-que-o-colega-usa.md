@@ -137,51 +137,16 @@ Na próxima conversa, a última deste bloco, a gente muda de assunto: como não 
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — "Favor avaliar. Queixa de fadiga."
-· O encaminhamento mais comum do país
-· **Transfere o paciente e não transfere o que você sabe**
-Visual: o bilhete de uma linha.
-
-**Slide 2** — As cinco linhas
-· **O que observei, com dado** · **há quanto tempo** · **o que já tentei** · **minha hipótese, como hipótese** · **o que quero saber de volta**
-Visual: cinco linhas numeradas.
-
-**Slide 3** — Um exemplo
-· Nutricionista: cansaço há 8 meses, **menstruação ausente há 5 meses não investigada**, ingestão abaixo do gasto, reconstrução iniciada, hipótese, pedido de retorno
-· **Entrega o que só ela tinha**
-· **Quem pergunta de volta vira destino de encaminhamento**
-Visual: o encaminhamento completo.
-
-**Slide 4** — Seis palavras perigosas
-· **Carga · liberado · repouso · moderado · dieta · alta**
-· Regra: **acrescente o complemento** · "liberado para treino técnico sem sprint, por duas semanas"
-Visual: seis palavras com setas.
-
-**Slide 5** — O registro compartilhado
-· **O que mudou** · **a carga da semana** · **o que cada um viu, com data e nome** · **o que está pendente, e com quem**
-Visual: registro com quatro campos.
-
-**Slide 6** — O que nunca entra
-· **Conteúdo de psicoterapia** · **dado sensível sem necessidade** · **julgamento sobre o paciente** · **crítica a colega**
-· "Quem vai ler isso precisa disso para agir?"
-Visual: quatro itens com cadeado.
-
-**Slide 7** — Esta semana
-· **Cinco linhas · complemento · pergunte de volta**
-· **Três nomes na agenda**
-Visual: a agenda com três nomes.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso, título novo e sete slides no lugar de quatro. Os "três
-nomes na agenda" ficaram só aqui. Entrou uma frase sobre dado de saúde como dado sensível na lei de
-proteção de dados, com a LGPD na lista.
+**O que mudou nesta versão.** Voz do curso, título novo e sete slides no lugar de quatro. Os três nomes na agenda ficaram só aqui. Entrou uma frase sobre dado de saúde como dado sensível na lei de proteção de dados. Nesta revisão, os slides viraram desenhos próprios, sem mudar a quantidade nem a ordem, para o teleprompter continuar batendo; o slide de fecho ganhou cartões com quem faz o quê e a próxima conversa.
+
+**Números conferidos.** Nenhum número de estudo na fala. O exemplo "fez duas das quatro sessões nas últimas três semanas" é ilustração de registro.
+
+**Correções.** Nenhuma nesta revisão.
+
+**Saíram.** O bloco "Roteiro Gamma". Duração de 10 para 10 minutos.
 
 **Citações faladas.** Nenhuma por nome.
 
-**Ligações internas.** "a informação precisa morar num lugar só" = 1.5 · "aquela omissão silenciosa"
-= 1.6 · "a próxima conversa" = 1.8 · registro de lesão em detalhe = 7.2.
+**Ligações internas.** A informação que mora num lugar só vem da aula de equipe. A omissão silenciosa vem da aula de responsabilidades. A próxima conversa é a aula de leitura crítica. O registro de lesão em detalhe fica na aula de vigilância de lesão do módulo de lesões.

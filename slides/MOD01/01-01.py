@@ -20,18 +20,18 @@ def defs(*cores):
 def ficha(p, rs, x, idade, linhas, cor, ct, ic):
     p.append(caixa(x, 0, 620, 590, cor, ct, esp=4, rx=20))
     p.append(icone(ic, x + 30, 30, 110, cor))
-    rs.append(rot(x + 160, 50, f"{idade} anos", w=440, tam=44, cor=cor, peso=700, serif=True))
+    rs.append(rot(x + 160, 50, idade, w=440, tam=44, cor=cor, peso=700, serif=True))
     for j, (icn, t, c) in enumerate(linhas):
         y = 180 + j * 78
         p.append(icone(icn, x + 40, y, 40, c))
         rs.append(rot(x + 100, y + 4, t, w=500, tam=26, cor=TINTA, peso=600))
 
 # 1. as duas fichas
-p = [svg_abre(1664, 600, "Duas fichas: 34 anos, exames normais, sono de cinco horas, cansaço, gripes, oito meses sem evoluir; 58 anos, hipertenso tratado, glicemia alterada, corre há doze anos, meia maratona")]
+p = [svg_abre(1664, 600, "Duas fichas: 30 e poucos anos, exames normais, sono de cinco horas, cansaço, gripes, oito meses sem evoluir; 50 e tantos anos, hipertenso tratado, glicemia alterada, corre há doze anos, meia maratona")]
 rs = []
-ficha(p, rs, 0, 34, [("t:check", "todos os exames normais", OXID), ("t:moon", "dorme cinco horas", FOSF), ("t:battery-1", "acorda cansado todo dia", FOSF),
+ficha(p, rs, 0, "30 e poucos anos", [("t:check", "todos os exames normais", OXID), ("t:moon", "dorme cinco horas", FOSF), ("t:battery-1", "acorda cansado todo dia", FOSF),
                      ("t:mood-sick", "pega toda gripe do escritório", FOSF), ("t:trending-down", "oito meses sem evoluir", FOSF)], AZUL, AZUL_T, "h:person")
-ficha(p, rs, 1044, 58, [("t:heartbeat", "hipertenso, tratando", GLIC), ("t:droplet", "glicemia de jejum alterada", GLIC), ("h:running", "corre há doze anos", OXID),
+ficha(p, rs, 1044, "50 e tantos anos", [("t:heartbeat", "hipertenso, tratando", GLIC), ("t:droplet", "glicemia de jejum alterada", GLIC), ("h:running", "corre há doze anos", OXID),
                         ("t:zzz", "dorme bem e sai com os amigos", OXID), ("t:medal", "meia maratona há dois meses", OXID)], GLIC, GLIC_T, "h:old-man")
 p.append(icone("t:question-mark", 752, 190, 160, TINTA))
 p.append("</svg>")
@@ -72,7 +72,7 @@ for i, t in enumerate(viram):
 for i, (ic, t) in enumerate(merc):
     p.append(icone(ic, 960, 8 + i * 58, 44, FOSF))
     rs.append(rot(1020, 16 + i * 58, t, w=640, tam=26, cor=TINTA, peso=600))
-for k, (x, idade, carimbo, c) in enumerate([(260, "58 anos · meia maratona", "doente", FOSF), (940, "34 anos · sem fôlego para a vida", "?", AZUL)]):
+for k, (x, idade, carimbo, c) in enumerate([(260, "50 e tantos · meia maratona", "doente", FOSF), (940, "30 e poucos · sem fôlego para a vida", "?", AZUL)]):
     p.append(caixa(x, 250, 460, 220, CINZA, CARTAO, esp=3, rx=18))
     p.append(f'<g transform="rotate(-10 {x + 300} 380)"><rect x="{x + 200}" y="340" width="220" height="80" rx="10" fill="none" stroke="{c}" stroke-width="6"/></g>')
     rs.append(rot(x + 20, 270, idade, w=420, tam=26, cor=TINTA, peso=700, lh=1.2))
@@ -82,10 +82,10 @@ S.append({"id": "medicaliza", "tipo": "diagrama", "h": 500, "svg": "".join(p), "
           "eyebrow": "A consequência", "titulo": "Uma definição que declara todos doentes empurra para tratar tudo"})
 
 # 4. a margem
-p = [svg_abre(1664, 560, "Duas colunas por paciente: a demanda da vida empilhada em blocos e a capacidade como uma linha; no de 58 anos sobra margem; no de 34 a demanda encosta na capacidade")]
+p = [svg_abre(1664, 560, "Duas colunas por paciente: a demanda da vida empilhada em blocos e a capacidade como uma linha; no de 50 e tantos sobra margem; no de 30 e poucos a demanda encosta na capacidade")]
 blocos = [("treino", AZUL), ("sono", OXID), ("trabalho", GLIC), ("doença", FOSF)]
 rs = []
-for k, (x, cap, dem, nome) in enumerate([(120, 450, [90, 60, 100, 60], "58 anos"), (720, 310, [100, 80, 110, 50], "34 anos")]):
+for k, (x, cap, dem, nome) in enumerate([(120, 450, [90, 60, 100, 60], "50 e tantos anos"), (720, 310, [100, 80, 110, 50], "30 e poucos anos")]):
     y = 510
     for (t, c), h in zip(blocos, dem):
         if h:
@@ -191,6 +191,9 @@ S.append({"id": "tres-perguntas", "tipo": "fecho", "titulo": "Três perguntas qu
                      "O que você deixou de fazer na sua vida por causa de como tem se sentido?"],
           "quem": "Avaliar margem é de todas as profissões, sem pedir exame: conversando, medindo o que você já mede e acompanhando ao longo do tempo.",
           "proxima": "Quando o objetivo e o corpo discordam"})
+
+F = S[-1]
+F["cards"] = [{"ic": "t:users", "t": "Todas as profissões", "x": F.pop("quem")}, {"ic": "t:arrow-right", "t": "Próxima conversa", "x": F["proxima"][0].upper() + F["proxima"][1:] + "."}]
 
 base = json.load(open(os.path.join(os.path.dirname(__file__), "01-01.json")))
 spec = {k: v for k, v in base.items() if k != "slides"}

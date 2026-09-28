@@ -163,73 +163,16 @@ Na próxima conversa, a outra metade dessa base: se exercício tem benefício qu
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Três mensagens da semana
-· "A maratona é em 5 semanas e a canela está doendo, mas eu não vou desistir"
-· "Faltam 6 quilos e a pesagem é em 3 semanas"
-· "Quando eu não treino eu fico péssima. Me passa treino para os 7 dias"
-· **Objetivos legítimos de adultos. E cada um custa alguma coisa ao corpo**
-Visual: três balões de mensagem.
-
-**Slide 2** — O acordo é a regra
-· O benefício do exercício **sobe rápido no começo** e achata depois
-· **Guerreiro de fim de semana**: redução de mortalidade parecida com quem distribui na semana
-· A pergunta que separa: **isso constrói margem ou gasta margem?**
-Visual: curva de benefício com a zona de acordo pintada.
-
-**Slide 3** — O erro que ninguém nomeia
-· Tratar **quem está em acordo como se estivesse em conflito**
-· 30 km por semana, dormindo bem e feliz **não é excesso**
-· Para a maioria, o trabalho é **facilitar**
-Visual: corredor tranquilo e balões de "cortisol" e "overtraining".
-
-**Slide 4** — Os cinco lugares do conflito
-· **Energia** · **peso e estética** · **competir machucado** · **volume e calendário** · **identidade**
-· No peso da categoria, **o conflito está no regulamento**: reduzir dano, não condenar o esporte
-· **Antes de retirar, redistribua**
-Visual: cinco cartões.
-
-**Slide 5** — O conflito com atraso
-· Consenso do COI, 2023: consequências no **corpo inteiro**, desempenho junto
-· **No curto prazo, funciona**: mais leve, às vezes mais rápido, elogiado
-· O custo chega **meses depois**: fratura, menstruação ausente, cansaço
-Visual: linha do tempo do verde ao vermelho.
-
-**Slide 6** — Como perceber, sem exame
-· **Energia**: desempenho caiu + recuperação lenta + algo sumiu
-· **Peso**: quando é a pesagem e quanto falta?
-· **Machucado**: o que acontece se você não jogar?
-· **Volume**: quanto tempo leva para voltar de uma semana pesada?
-· **Identidade**: como você se sente num dia sem treino?
-Visual: tabela lugar → pergunta.
-
-**Slide 7** — Quem vê primeiro
-· Desempenho: **quem prescreve o treino** · lesão repetida: **quem reabilita** · prato: **quem pergunta de comida** · humor: **quem escuta** · exame e fratura: **o médico, por último**
-· **Ninguém vê os cinco sozinho**
-Visual: cinco profissionais em volta do atleta.
-
-**Slide 8** — A postura em três degraus
-· **O objetivo é dela**: adulto informado escolhe o próprio risco
-· **O custo é dito**: o quê, em quanto tempo, com que chance, e o que dá para fazer
-· **O limite**: dano previsível e grave → você não acompanha, diz por quê e continua disponível
-Visual: três degraus, o último em vermelho.
-
-**Slide 9** — O que fica
-· Acordo é a regra; conflito é a exceção que pede método
-· Cinco lugares · três degraus
-Visual: a pergunta central e os três degraus.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso, nove slides no lugar de seis, título novo. Saíram daqui
-os números da diretriz da OMS (ficam só na aula de recomendações) e a curva de Ekelund (fica na
-aula de dose), para não repetir o mesmo dado em três aulas seguidas.
+**O que mudou nesta versão.** Voz do curso, nove slides no lugar de seis, título novo. Os números da diretriz da OMS ficaram só na aula de recomendações e a curva de mortalidade por acelerômetro ficou na aula de dose, para não repetir o mesmo dado em três aulas seguidas. Nesta revisão, os slides viraram desenhos próprios, sem mudar a quantidade nem a ordem, para o teleprompter continuar batendo; o slide de fecho ganhou cartões com quem faz o quê e a próxima conversa.
 
-**Citações faladas.** Nenhuma por nome de autor. O consenso do COI entra pelo nome da instituição.
+**Números conferidos.** Guerreiro de fim de semana, 2017: coortes da Inglaterra e da Escócia com mais de 63 mil adultos; quem concentrou a atividade em uma ou duas sessões teve redução de mortalidade comparável à de quem se exercitou espalhado pela semana (dito como "dezenas de milhares de adultos"). Consenso do Comitê Olímpico Internacional sobre deficiência relativa de energia no esporte, 2023: consequências espalhadas pelo corpo e pelo desempenho.
 
-**Ligações internas.** "os números com calma mais à frente" = 1.4 · "energia" = Módulo 4 e 7.11 ·
-"competir machucado" e "decisão em conjunto" = Módulo 8 · "sinais que circulam" = 1.5 e 1.7 ·
-"exercício é dose" = 1.3.
+**Correções.** Nenhuma nesta revisão. O exemplo de cortar cinco por cento do peso em quatro semanas ou em quatro dias é ilustração de prazo, e não dado de estudo.
+
+**Saíram.** Os números da diretriz e a curva de dose, levados para as aulas próprias. O bloco "Roteiro Gamma". Duração de 19 para 14 minutos.
+
+**Citações faladas.** Nenhuma por nome de autor. O consenso entra pelo nome da instituição.
+
+**Ligações internas.** "Os números com calma mais à frente" é a aula da diretriz da OMS deste módulo. Energia volta no módulo de nutrição esportiva e na aula de lesão óssea por estresse. Competir machucado e a decisão em conjunto voltam no módulo de fisioterapia e reabilitação. Os sinais que circulam são o assunto das aulas de equipe e de encaminhamento. Exercício como dose é a aula seguinte.

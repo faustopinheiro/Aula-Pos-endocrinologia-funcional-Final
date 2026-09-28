@@ -14,7 +14,7 @@ Três atletas, três portas de entrada.
 
 Um corredor de assessoria está desenvolvendo uma fratura por estresse na canela. Ele não entra pelo consultório médico. Ele entra pelo treinador, que percebe que ele ficou mais lento nos treinos de ritmo e acha que é falta de foco.
 
-Uma ginasta de dezesseis anos está com um transtorno alimentar começando. Ela não entra pela psicóloga. Ela entra pela fisioterapeuta, com a terceira lesão do ano.
+Uma ginasta adolescente está com um transtorno alimentar começando. Ela não entra pela psicóloga. Ela entra pela fisioterapeuta, com a terceira lesão do ano.
 
 E um lutador desidratado não entra por ninguém. Ele entra pela balança, na véspera da pesagem.
 
@@ -159,66 +159,16 @@ Na próxima conversa, as linhas entre as profissões: o que é só seu, o que é
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Três portas de entrada
-· Fratura por estresse → **pelo treinador** ("está mais lento")
-· Transtorno alimentar → **pela fisioterapia** (terceira lesão do ano)
-· Desidratação → **pela balança**, na véspera da pesagem
-· **O atleta entra pela porta de quem ele vê mais**
-Visual: três atletas e três portas.
-
-**Slide 2** — Erro 1: equipe é um lugar
-· Equipe é **um conjunto de funções**, não um prédio
-· Quatro formatos: **departamento completo · equipe pequena · rede informal · sozinho**
-· A rede informal é **o arranjo mais comum do país**
-Visual: os quatro formatos.
-
-**Slide 3** — As oito funções
-· Triagem · prescrição do treino · monitoramento · diagnóstico e conduta · reabilitação · nutrição e energia · saúde mental · **coordenação**
-Visual: oito funções em círculo, coordenação em vermelho.
-
-**Slide 4** — Erro 2: o problema é acumular
-· Acumular é normal; **o problema é a função vaga que ninguém sabe que está vaga**
-· Teste: **um nome ao lado de cada função**
-· Falham sempre: **triagem, monitoramento que alguém olha, coordenação**
-Visual: a folha com três espaços em branco.
-
-**Slide 5** — Erro 3: a informação circula sozinha
-· Ela **para em quem viu primeiro**
-· Não sabe que importa · não sabe para quem mandar · **não existe um lugar onde a informação more**
-Visual: balões que não chegam a ninguém.
-
-**Slide 6** — A estrutura mínima
-· **Onde a informação mora?**
-· **Quem chama a conversa quando não bate?**
-· **Quem assina, por tipo de decisão?**
-Visual: as três perguntas numa folha.
-
-**Slide 7** — Erro 4: "de quem é esse paciente?"
-· O paciente não é de ninguém; **a decisão é de alguém**
-· Retorno ao esporte: **discordâncias dentro de cada profissão maiores que entre profissões**
-· O conflito é de critério, não de corporação
-Visual: a pergunta riscada e a certa embaixo.
-
-**Slide 8** — Formato por formato
-· Completo: **quem assina quando técnica e competição discordam**
-· Pequena: **triagem e registro**
-· Rede informal: **lugar comum e quem chama a conversa**
-· Sozinho: **perguntar o que os outros estão vendo**
-Visual: tabela de formatos.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Título novo e voz do curso. A aula abre pelas três portas de entrada,
-que antes estavam no meio. Saiu a lista de cargos de um departamento de clube, que alongava a aula
-sem mudar conduta; a ideia ficou no último slide, dentro do formato "departamento completo".
+**O que mudou nesta versão.** Título novo e voz do curso. A aula abre pelas três portas de entrada, que antes estavam no meio. Saiu a lista de cargos de um departamento de clube, que alongava a aula sem mudar conduta. Nesta revisão, os slides viraram desenhos próprios, sem mudar a quantidade nem a ordem, para o teleprompter continuar batendo; o slide de fecho ganhou cartões com quem faz o quê e a próxima conversa. A ginasta passou a ser dita como adolescente, sem idade exata.
 
-**Citações faladas.** Nenhuma por nome de autor. O estudo de Shrier, Safai e Charland entra como
-"um grupo canadense".
+**Números conferidos.** Estudo canadense de 2014 sobre a decisão de volta ao esporte: médicos do esporte, fisioterapeutas, outros terapeutas, atletas, treinadores e dirigentes; as diferenças de critério foram em geral maiores dentro de cada grupo do que entre os grupos. A nuvem de pontos do slide é esquema.
 
-**Ligações internas.** "sinais de conflito entre objetivo e saúde" = 1.2 · "próxima conversa,
-as linhas entre as profissões" = 1.6 · registro e encaminhamento em detalhe = 1.7 · decisão de
-retorno compartilhada = Módulo 8.
+**Correções.** "Ginasta de dezesseis anos" virou "ginasta adolescente".
+
+**Saíram.** A lista de cargos do departamento de clube. O bloco "Roteiro Gamma". Duração de 18 para 12 minutos.
+
+**Citações faladas.** Nenhuma por nome de autor. O estudo entra como "um grupo canadense".
+
+**Ligações internas.** Os sinais de conflito entre objetivo e saúde vêm da aula de objetivo e saúde. As linhas entre as profissões são a aula seguinte. Registro e encaminhamento em detalhe ficam na aula de encaminhamento. A decisão de retorno compartilhada volta no módulo de fisioterapia e reabilitação.

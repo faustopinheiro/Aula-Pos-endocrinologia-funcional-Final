@@ -48,7 +48,7 @@ Mecanismo explica como uma coisa poderia acontecer. Ele não diz se ela acontece
 
 Segundo erro: achar que duas coisas que andam juntas são causa e efeito.
 
-Nos anos setenta e oitenta, vários estudos em vários países mostraram a mesma coisa: quem comia mais vegetais ricos em betacaroteno tinha menos câncer de pulmão. Quanto mais comia, menos câncer. E existia uma explicação biológica bonita para isso. Difícil imaginar uma associação com mais cara de causa.
+Nos anos setenta e oitenta, vários estudos em vários países mostraram a mesma coisa: quem comia mais vegetais ricos em betacaroteno tinha menos câncer de pulmão. Quanto mais comia, menos câncer. E existia uma explicação biológica convincente para isso. Difícil imaginar uma associação com mais cara de causa.
 
 Então fizeram o teste de verdade. Um ensaio na Finlândia sorteou quase trinta mil homens fumantes para tomar betacaroteno ou placebo. No grupo do betacaroteno, a incidência de câncer de pulmão foi dezoito por cento maior. Um segundo ensaio, nos Estados Unidos, foi interrompido antes do fim pelo mesmo sinal.
 
@@ -77,7 +77,7 @@ Então, quando você ouvir "atletas que fazem tal coisa rendem mais", a primeira
 ---
 
 📊 **[SLIDE 5 DE 11]**
-*Visual: uma silhueta padrão de participante de estudo: homem, jovem, universitário, treinado. Ao lado, a silhueta do paciente real: mulher, 51 anos, hipertensa, dois empregos.*
+*Visual: uma silhueta padrão de participante de estudo: homem, jovem, universitário, treinado. Ao lado, a silhueta do paciente real: mulher de cinquenta e poucos anos, hipertensa, dois empregos.*
 *Teleprompter: (terceiro erro, em quem foi medido)*
 
 Terceiro erro: não perguntar em quem aquilo foi medido.
@@ -100,7 +100,7 @@ A mulher de meia-idade está no meio de dois vazios ao mesmo tempo. E é uma das
 *Visual: a tela de um aplicativo com uma seta dentro de uma faixa vermelha, e embaixo a frase "eu tô ganhando o jogo, só me mostraram o placar de outro jogo".*
 *Teleprompter: (a história que fecha o terceiro erro, com carinho)*
 
-Uma paciente de cinquenta e dois anos, catorze meses depois de sair do sedentarismo, tinha acabado de correr os primeiros cinco quilômetros da vida. E chegou chateada, mostrando o celular. O aplicativo dizia que a capacidade cardiorrespiratória dela estava na faixa vermelha.
+Uma paciente de cinquenta e poucos anos, catorze meses depois de sair do sedentarismo, tinha acabado de correr os primeiros cinco quilômetros da vida. E chegou chateada, mostrando o celular. O aplicativo dizia que a capacidade cardiorrespiratória dela estava na faixa vermelha.
 
 Aquela faixa foi construída com outra população. E ela disse uma frase que eu nunca mais esqueci: eu estou ganhando o jogo, só me mostraram o placar de outro jogo.
 
@@ -220,96 +220,16 @@ A partir da próxima conversa, a gente entra no corpo: como a energia é produzi
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Faz todo sentido
-· Exercício gera radicais livres → dano → antioxidante neutraliza → **logo, antioxidante ajuda**
-· Cada passo é verdade. **A conclusão está errada**
-· Cinco histórias, cinco jeitos de ser enganado. **Sem pirâmide, sem fórmula**
-Visual: vitaminas ao lado da garrafinha.
-
-**Slide 2** — Erro 1: a cadeia lógica perfeita
-· **54 jovens, 11 semanas**, vitamina C 1.000 mg + E 235 mg × placebo, **com biópsia**
-· Marcadores de adaptação **subiram só no placebo**
-· Radical livre também é **sinal**: neutralizar apaga o pedido de adaptação
-· **VO₂máx igual nos dois grupos**: marcador não é desempenho
-· **Mecanismo explica como poderia acontecer. Não diz se acontece**
-Visual: cadeia com X e os dois gráficos.
-
-**Slide 3** — Erro 2: andar junto não é causar
-· Mais vegetal, menos câncer de pulmão (**real**)
-· Ensaio finlandês, **29.133 fumantes**: betacaroteno → **18% mais câncer de pulmão**
-· Reposição hormonal: décadas de observação, **ensaio de 2002 sem a proteção esperada**
-Visual: cenoura → menos câncer; cápsula → mais câncer.
-
-**Slide 4** — O efeito do usuário saudável
-· Quem usa suplemento **já dorme, come e treina melhor**
-· **Sortear quem toma** desliga esse efeito
-· Alongar antes "prevenia lesão": nos ensaios, **alongamento sozinho não preveniu**
-· Pergunta: **essas pessoas eram iguais antes de começar?**
-Visual: as duas pessoas lado a lado.
-
-**Slide 5** — Erro 3: em quem foi medido?
-· **5.261 estudos**, mais de 12 milhões de participantes: mulheres **~1/3** · **31% só homens · 6% só mulheres**
-· Fisiologia medida em **18 a 30 anos**
-· **Os critérios de exclusão tiram do estudo exatamente o seu paciente**
-Visual: participante padrão × paciente real.
-
-**Slide 6** — O placar de outro jogo
-· 52 anos, 14 meses fora do sedentarismo, primeiros 5 km, **seta na faixa vermelha do aplicativo**
-· **"Eu tô ganhando o jogo, só me mostraram o placar de outro jogo"**
-· Compare a pessoa **com ela mesma, três meses atrás**
-Visual: a tela do aplicativo.
-
-**Slide 7** — Erro 4: quem pagou?
-· **1965**: revisão patrocinada pelo açúcar, financiamento não declarado · **ninguém mentiu; mudou o enquadramento**
-· Bebida açucarada: **sem conflito → associação · com conflito → evidência insuficiente**
-· O conflito age **na pergunta, no comparador, no desfecho, na publicação e na redação**
-· Sinal prático: **existe estudo grande e independente?**
-Visual: documento de 1965 e os dois grupos de revisões.
-
-**Slide 8** — E sobre nós
-· **Quem vende o que prescreve tem conflito**: diga antes
-· O conflito sem dinheiro: **com o que você já disse em público**
-· **Mudar de ideia com motivo aumenta a confiança**
-Visual: o espelho.
-
-**Slide 9** — Erro 5: a própria experiência como prova
-· **História natural · regressão à média · expectativa**
-· **Quem não melhorou parou de vir** · várias mudanças ao mesmo tempo
-· Experiência **cria hipótese; não prova**
-Visual: curva de dor com os três rótulos.
-
-**Slide 10** — Três minutos, cinco perguntas
-· **Quem foram? · comparado com o quê? · desfecho ou marcador? · quanto tempo? · qual o tamanho do efeito?**
-· **Barato e seguro → dá para agir com observação · caro, invasivo ou por anos → exija ensaio**
-· Linguagem: **"foi visto em" + em quem** · "hoje não há base para esperar isso" · **marque o que é observação sua**
-Visual: as cinco perguntas e a balança.
-
-**Slide 11** — Fecho da abertura, nos três níveis
-· **Decisão**: prescrição individual = **educação física** (e fisioterapia na reabilitação) · plano alimentar = **nutrição** · diagnóstico, remédio, exame e liberação = **medicina** · psicoterapia = **psicologia** · o que um estudo vale para o paciente = **cada um, no que assina**
-· **Contribuição**: o sinal que cada um vê primeiro · **as cinco linhas** · a carga com complemento · a pergunta de volta
-· **Reconhecimento**: objetivo que gasta margem · **"150 minutos" para quem está em zero** · a vida que encolheu · **conselho de tirar remédio vindo de quem não prescreveu** · "liberado" sem complemento · estudo só de marcador · produto sem estudo independente
-· **Antes de acreditar: em quem, comparado com o quê, e quem pagou**
-Visual: a matriz dos três níveis sobre as oito aulas.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Por que esta aula existe assim.** Até esta versão, o módulo tinha três aulas de evidência
-(prática baseada em evidências, como ler um estudo e armadilhas da literatura), somando cerca de
-80 minutos. Por decisão do coordenador, as três foram fundidas nesta, com o critério de ficar só o
-que muda conduta e é memorável. Saíram: pirâmide de evidência, GRADE, critérios de Hill, o ensaio
-CAST, eficácia versus efetividade (que já aparece na aula de prevenção de lesões) e a lista
-detalhada de trocas de linguagem. Ficaram as cinco histórias.
+**O que mudou nesta versão.** Três aulas antigas de evidência (prática baseada em evidências, como ler um estudo e armadilhas da literatura) foram fundidas nesta, com o critério de ficar só o que muda conduta e é memorável. Nesta revisão, os slides viraram desenhos próprios, sem mudar a quantidade nem a ordem, para o teleprompter continuar batendo; o slide de fecho ganhou cartões com quem faz o quê e a próxima conversa. A paciente do aplicativo passou a ser dita por década.
 
-**Citações faladas.** Nenhuma por nome de autor. Os estudos entram pelo desenho e pelo número
-("54 jovens com biópsia", "quase trinta mil fumantes", "mais de cinco mil estudos").
+**Números conferidos.** Ensaio de 2014 com antioxidantes: 54 jovens, 11 semanas de treino aeróbio, 1.000 mg de vitamina C e 235 mg de vitamina E por dia contra placebo, com biópsia; os marcadores de adaptação mitocondrial subiram só no placebo, e o VO2máx não diferiu entre os grupos. Ensaio finlandês de 1994: 29.133 fumantes; incidência de câncer de pulmão 18% maior com betacaroteno. Ensaio americano de 1996 interrompido antes do fim pelo mesmo sinal. Ensaio de reposição hormonal de 2002, sem a proteção cardíaca esperada. Metanálise de 2014 de ensaios de prevenção de lesão: alongamento sozinho sem efeito preventivo. Levantamento de 2021: 5.261 estudos e mais de 12,5 milhões de participantes em seis revistas, 34% mulheres, 31% dos estudos só com homens, 6% só com mulheres. Documentos da indústria do açúcar, 2016: revisão de 1965 patrocinada, financiamento não declarado. Revisão de 2013: 83,3% das revisões sem conflito concluíram que havia associação, e 83,3% das com conflito concluíram que a evidência era insuficiente (dito como "na grande maioria").
 
-**Caso.** A paciente de 52 anos com o aplicativo é uma ilustração curta, não um caso clínico
-completo. O único caso clínico do módulo continua sendo o da aula de fronteiras profissionais.
+**Correções.** "Explicação biológica bonita" virou "explicação biológica convincente". "Cinquenta e dois anos" virou "cinquenta e poucos anos".
 
-**Ligações internas.** "a abertura do curso" = aulas 1.1 a 1.7 · alongamento e prevenção =
-7.13 · marcador × desfecho na endocrinologia = Módulo 3 · suplementos e evidência = Módulo 5 ·
-"a partir da próxima conversa, energia" = Módulo 2.
+**Saíram.** Pirâmide de evidência, GRADE, critérios de Hill, o ensaio CAST, eficácia contra efetividade (que já está na aula de prevenção de lesões) e a lista longa de trocas de linguagem. O bloco "Roteiro Gamma". Duração de 80 minutos somados para 21.
+
+**Citações faladas.** Nenhuma por nome de autor. Os estudos entram pelo desenho e pelo número.
+
+**Ligações internas.** Fecha o módulo nos três níveis. Alongamento e prevenção voltam na aula de prevenção de lesões. Marcador contra desfecho volta no módulo de endocrinologia do exercício, e suplemento e evidência no módulo de suplementação. Ponte para o módulo de fisiologia do exercício aplicada, começando pela energia.

@@ -129,51 +129,16 @@ Na próxima conversa, a gente sai do atleta e olha para quem cuida dele. Quem fa
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — O número mais citado e menos útil
-· **É o começo de uma faixa**: 150 a 300 min moderada, ou 75 a 150 vigorosa
-· **É só a metade aeróbia**: força em 2 dias ou mais
-· **Para quem está parado, assusta**: o maior ganho está em sair do zero
-· "Fazer alguma atividade é melhor do que não fazer nenhuma"
-Visual: 150 com três riscos.
-
-**Slide 2** — As seis linhas
-· Adulto · **idoso (mais exigente: equilíbrio e força 3×/semana)** · criança e adolescente (média de 60 min/dia) · gestante e pós-parto · doença crônica · deficiência
-· **Passar da faixa traz benefício adicional**
-Visual: tabela por população.
-
-**Slide 3** — Tempo sentado
-· Recomendação em todas as idades · **qualquer troca por atividade conta**
-· **Não existe número mágico de horas sentado**
-Visual: uma cadeira.
-
-**Slide 4** — O que mudou
-· **Fim do bloco de 10 minutos**: qualquer duração conta
-· **Tempo sentado virou recomendação própria**
-· **Populações específicas entraram por escrito**: a meta é a mesma
-Visual: três caixas.
-
-**Slide 5** — Diretriz é piso
-· Recomendação de população **não é prescrição de indivíduo**
-Visual: piso e pessoa.
-
-**Slide 6** — Quatro conversas
-· Em zero: **fale o degrau, não o número** · treina muito: **mostre a faixa inteira** · esquece força: **está escrito** · doença crônica: **a meta é a mesma**
-Visual: quatro balões.
-
-**Slide 7** — A fronteira
-· Falar a diretriz: **todos** · prescrever o exercício individual: **quem prescreve treino ou reabilita**
-Visual: as duas frases lado a lado.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Título novo e voz do curso; sete slides no lugar de quatro. Esta é agora
-a única aula do módulo que traz os números da diretriz da OMS. As outras só apontam para cá.
+**O que mudou nesta versão.** Título novo e voz do curso; sete slides no lugar de quatro. É a única aula do módulo com os números da diretriz da OMS; as outras só apontam para cá. Nesta revisão, os slides viraram desenhos próprios, sem mudar a quantidade nem a ordem, para o teleprompter continuar batendo; o slide de fecho ganhou cartões com quem faz o quê e a próxima conversa.
+
+**Números conferidos.** Diretriz da OMS de 2020: adultos de 18 a 64 anos, 150 a 300 minutos de atividade moderada ou 75 a 150 de vigorosa por semana, mais fortalecimento em dois dias ou mais, com benefício adicional acima da faixa; idosos, o mesmo mais atividade de equilíbrio e força em três dias ou mais; 5 a 17 anos, média de 60 minutos por dia de moderada a vigorosa, com músculo e osso em três dias; gestação e pós-parto, doença crônica e deficiência incluídas por escrito; fim do bloco mínimo de dez minutos; sem limite definido de horas sentado.
+
+**Correções.** Nenhuma nesta revisão.
+
+**Saíram.** O bloco "Roteiro Gamma". Duração de 12 para 9 minutos.
 
 **Citações faladas.** Nenhuma por nome de autor. A OMS entra pelo nome da instituição.
 
-**Ligações internas.** "a gente viu que o maior ganho está em sair do zero" = 1.3 · "quem faz o quê
-numa equipe" = 1.5 · fronteiras profissionais = 1.6.
+**Ligações internas.** O maior ganho em sair do zero vem da aula de dose. Quem faz o quê numa equipe é a aula seguinte. As fronteiras entre profissões ficam na aula de responsabilidades.

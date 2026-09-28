@@ -1290,8 +1290,19 @@
     "Quando há conflito, ele está num de cinco lugares: energia, peso e estética, competir machucado, volume e calendário, identidade.",
     "A postura: o objetivo é da pessoa, o custo é dito com prazo e chance, e existe um limite estreito."
    ],
-   "quem": "Todas as profissões reconhecem os cinco lugares. Cada uma vê um primeiro, e é isso que faz a equipe valer mais do que a soma.",
-   "proxima": "Exercício é dose: da conversa à prescrição"
+   "proxima": "Exercício é dose: da conversa à prescrição",
+   "cards": [
+    {
+     "ic": "t:eye-check",
+     "t": "Quem vê primeiro",
+     "x": "Todas as profissões reconhecem os cinco lugares. Cada uma vê um primeiro, e é isso que faz a equipe valer mais do que a soma."
+    },
+    {
+     "ic": "t:arrow-right",
+     "t": "Próxima conversa",
+     "x": "Exercício é dose: da conversa à prescrição."
+    }
+   ]
   }
  ]
 }

@@ -287,6 +287,9 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "A abertura, nos três níve
           "quem": "Antes de acreditar, pergunte: em quem, comparado com o quê, e quem pagou.",
           "proxima": "o corpo, começando pela energia"})
 
+F = S[-1]
+F["cards"] = [{"ic": "t:zoom-question", "t": "Antes de acreditar", "x": F.pop("quem").replace("Antes de acreditar, pergunte:", "Pergunte:")}, {"ic": "t:arrow-right", "t": "Próximo módulo", "x": 'Fisiologia do exercício aplicada, começando pela energia: como ela é produzida, gasta e reposta durante o exercício.'}]
+
 base = json.load(open(os.path.join(os.path.dirname(__file__), "01-08.json")))
 spec = {k: v for k, v in base.items() if k != "slides"}
 spec["slides"] = S

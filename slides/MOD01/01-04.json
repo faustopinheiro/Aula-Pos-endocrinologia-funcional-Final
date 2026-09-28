@@ -919,8 +919,19 @@
     "Idoso tem recomendação mais exigente; doença crônica tem a mesma meta.",
     "Diretriz é piso: a prescrição individual dá o resto."
    ],
-   "quem": "“A recomendação é de 150 a 300 minutos e inclui força” é de todos. “Faça três séries de dez com essa carga” é de quem prescreve treino ou conduz a reabilitação.",
-   "proxima": "Quem cuida de quem: as funções de uma equipe"
+   "proxima": "Quem cuida de quem: as funções de uma equipe",
+   "cards": [
+    {
+     "ic": "t:writing",
+     "t": "Quem faz o quê",
+     "x": "“A recomendação é de 150 a 300 minutos e inclui força” é de todos. “Faça três séries de dez com essa carga” é de quem prescreve treino ou conduz a reabilitação."
+    },
+    {
+     "ic": "t:arrow-right",
+     "t": "Próxima conversa",
+     "x": "Quem cuida de quem: as funções de uma equipe."
+    }
+   ]
   }
  ]
 }

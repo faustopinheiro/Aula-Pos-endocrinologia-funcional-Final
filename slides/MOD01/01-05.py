@@ -250,6 +250,9 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "O que falha e o que compens
           "quem": "Equipe não é quantidade de gente. É saber quais funções precisam existir, quem cumpre cada uma e onde a informação mora.",
           "proxima": "O que é seu, o que é do colega e o que é de todos"})
 
+F = S[-1]
+F["cards"] = [{"ic": "t:puzzle", "t": "O que é equipe", "x": F.pop("quem")}, {"ic": "t:arrow-right", "t": "Próxima conversa", "x": F["proxima"][0].upper() + F["proxima"][1:] + "."}]
+
 base = json.load(open(os.path.join(os.path.dirname(__file__), "01-05.json")))
 spec = {k: v for k, v in base.items() if k != "slides"}
 spec["slides"] = S

@@ -136,7 +136,7 @@ As quatro têm a mesma raiz. A pessoa confundiu "não sou eu que decido" com "n�
 
 Agora um caso desconfortável, e eu escolhi ele de propósito.
 
-Um homem de trinta e sete anos tinha começado musculação seis meses antes, com um personal. Tratava uma depressão havia um ano e meio, com antidepressivo, acompanhamento psiquiátrico e psicoterapia.
+Um homem de trinta e poucos anos tinha começado musculação seis meses antes, com um personal. Tratava uma depressão havia um ano e meio, com antidepressivo, acompanhamento psiquiátrico e psicoterapia.
 
 Chegou ao pronto atendimento, e depois ao consultório, com três semanas de insônia forte, irritação, e a volta dos pensamentos ruins.
 
@@ -194,74 +194,16 @@ Na próxima conversa, o instrumento que faz isso tudo funcionar: como se escreve
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Quatro cenas da semana
-· Nutricionista e o **painel hormonal** · educador físico e a **creatina** · fisioterapeuta e o **"joga domingo?"** · médico e a **planilha de treino**
-· "Não é da minha área", sozinha, **é péssima conduta**
-Visual: quatro balões.
-
-**Slide 2** — Invasão e omissão
-· **Invasão**: fazer o que não é seu. Todo mundo fiscaliza
-· **Omissão**: não fazer o que é seu. Ninguém fiscaliza, **e prejudica mais**
-· O medo é real; **mal calibrado, ele paralisa também o que é seu**
-Visual: balança pesando para a omissão.
-
-**Slide 3** — Três camadas
-· **A lei**: a fonte é o seu conselho, e resolução muda
-· **O que você sabe fazer**: autorizado não é preparado
-· **O que o caso precisa agora**
-Visual: três círculos.
-
-**Slide 4** — Decisão, contribuição, reconhecimento
-· **Decisão**: você assina · **Contribuição**: você influencia com argumento · **Reconhecimento**: você identifica e encaminha a tempo
-· **"Não é comigo" não existe**
-Visual: três faixas.
-
-**Slide 5** — Um exemplo: falta de energia
-· Nutrição e medicina: **decisão** · preparação física e fisioterapia: **contribuição** · psicologia: decisão se há transtorno · **todos: reconhecimento**
-Visual: tabela profissões × níveis.
-
-**Slide 6** — Quem enxerga primeiro
-· Os níveis **não são ranking**
-· **Quem decide não é quem enxerga primeiro. E quem enxerga primeiro decide se o outro vai enxergar**
-Visual: a frase em destaque.
-
-**Slide 7** — As quatro omissões
-· Não perguntar · encaminhar sem informação · encaminhar e sumir · **achar que alguém está cuidando**
-· **Quem está em reconhecimento não fica em silêncio. Fica por escrito**
-Visual: quatro cartões.
-
-**Slide 8** — O personal e o antidepressivo
-· 37 anos, depressão tratada, musculação há 6 meses
-· O personal: "o exercício é o melhor antidepressivo, vai diminuindo o remédio"
-· Parou em 6 semanas · **4 meses para se recuperar**, e parou de treinar
-Visual: cartela riscada por outra mão.
-
-**Slide 9** — O que teria sido excelente
-· O erro **não foi de conhecimento, foi de lugar**
-· A invasão **quase nunca tem cara de invasão**
-· **Cinco linhas para o psiquiatra** teriam sido contribuição de verdade
-Visual: o bilhete que nunca foi escrito.
-
-**Slide 10** — O que fica
-· **Ler não é prescrever · reconhecer não é diagnosticar · encaminhar não é opinar sobre a conduta do outro**
-· **Limite duro**: não se mexe em tratamento de outro profissional
-· Discordância: **risco → fala com o colega; estilo → segura**
-Visual: três verbos e o limite em vermelho.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Título novo e voz do curso; dez slides no lugar de seis. A palavra
-"escopo" saiu de toda a fala e dos slides. O fecho agora responde às quatro cenas da abertura. A
-recomendação dos "três nomes na agenda" saiu daqui e ficou só na aula de encaminhamento, para não
-repetir.
+**O que mudou nesta versão.** Título novo e voz do curso; dez slides no lugar de seis. O fecho responde às quatro cenas da abertura. Os três nomes na agenda ficaram só na aula de encaminhamento. Nesta revisão, os slides viraram desenhos próprios, sem mudar a quantidade nem a ordem, para o teleprompter continuar batendo; o slide de fecho ganhou cartões com quem faz o quê e a próxima conversa. A idade do homem do caso passou a ser dita por década.
 
-**Caso clínico.** Um caso no módulo inteiro: o homem de 37 anos com depressão e o personal. Anonimizado.
+**Números conferidos.** Nenhum número de estudo na fala. As resoluções dos conselhos profissionais ficam como orientação de consulta, sem lista fechada.
 
-**Citações faladas.** Nenhuma por nome de autor. As resoluções dos conselhos ficam só na lista.
+**Correções.** "Trinta e sete anos" virou "trinta e poucos anos". O desfecho do caso ficou, porque é o próprio conteúdo da aula: a opinião que tirou o remédio e depois o treino; o caso é anonimizado e não tem outros detalhes clínicos.
 
-**Ligações internas.** "aquele conflito do começo do curso" = 1.2 · "no fim de cada bloco de
-conteúdo" = camada de integração ao fim de cada módulo · "o encaminhamento que o colega usa" = 1.7.
+**Saíram.** A palavra "escopo", de toda a fala e dos slides. O bloco "Roteiro Gamma". Duração de 21 para 15 minutos.
+
+**Citações faladas.** Nenhuma por nome de autor.
+
+**Ligações internas.** O conflito do começo do curso é a aula de objetivo e saúde. O modelo dos três níveis volta no fim de cada módulo. O encaminhamento que o colega usa é a aula seguinte.

@@ -1390,8 +1390,19 @@
     "Contribuição: o sinal que cada um vê primeiro, as cinco linhas do encaminhamento, a carga com complemento e a pergunta de volta.",
     "Reconhecimento: objetivo que gasta margem, “150 minutos” para quem está em zero, conselho de tirar remédio vindo de quem não prescreveu, estudo só de marcador, produto sem estudo independente."
    ],
-   "quem": "Antes de acreditar, pergunte: em quem, comparado com o quê, e quem pagou.",
-   "proxima": "o corpo, começando pela energia"
+   "proxima": "o corpo, começando pela energia",
+   "cards": [
+    {
+     "ic": "t:zoom-question",
+     "t": "Antes de acreditar",
+     "x": "Pergunte: em quem, comparado com o quê, e quem pagou."
+    },
+    {
+     "ic": "t:arrow-right",
+     "t": "Próximo módulo",
+     "x": "Fisiologia do exercício aplicada, começando pela energia: como ela é produzida, gasta e reposta durante o exercício."
+    }
+   ]
   }
  ]
 }

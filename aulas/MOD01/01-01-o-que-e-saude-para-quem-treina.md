@@ -7,14 +7,14 @@ Duração: 13 minutos · 8 slides · Arquitetura: ERRO
 ---
 
 📊 **[SLIDE 1 DE 8]**
-*Visual: duas fichas lado a lado. Na da esquerda, 34 anos e todos os exames normais. Na da direita, 58 anos, hipertensão e glicemia alterada. Entre as duas, a pergunta: qual dos dois é saudável?*
+*Visual: duas fichas lado a lado. Na da esquerda, 30 e poucos anos e todos os exames normais. Na da direita, 50 e tantos anos, hipertensão e glicemia alterada. Entre as duas, a pergunta: qual dos dois é saudável?*
 *Teleprompter: (entra com a pergunta, com uma saudação curta, é a primeira conversa do curso)*
 
 Seja bem-vindo. Eu vou começar este curso com dois pacientes e uma pergunta, e eu queria que você respondesse antes de eu continuar.
 
-O primeiro tem trinta e quatro anos. Todos os exames dentro da faixa. Nenhuma doença, nenhum remédio. Dorme cinco horas por noite, treina seis vezes por semana, acorda cansado todo dia, pega toda gripe que passa pelo escritório, e há oito meses não evolui em nada.
+O primeiro tem trinta e poucos anos. Todos os exames dentro da faixa. Nenhuma doença, nenhum remédio. Dorme cinco horas por noite, treina seis vezes por semana, acorda cansado todo dia, pega toda gripe que passa pelo escritório, e há oito meses não evolui em nada.
 
-O segundo tem cinquenta e oito. Hipertenso, tratando. Glicemia de jejum alterada. Um pouco acima do peso. Corre quatro vezes por semana há doze anos, trabalha, dorme bem, sai com os amigos, e fez uma meia maratona há dois meses sem nenhum problema.
+O segundo tem cinquenta e tantos. Hipertenso, tratando. Glicemia de jejum alterada. Um pouco acima do peso. Corre quatro vezes por semana há doze anos, trabalha, dorme bem, sai com os amigos, e fez uma meia maratona há dois meses sem nenhum problema.
 
 Qual dos dois é saudável?
 
@@ -39,14 +39,14 @@ Completo bem-estar físico, mental e social. Quem está assim? Você está? Eu n
 ---
 
 📊 **[SLIDE 3 DE 8]**
-*Visual: as duas fichas de novo, agora com o carimbo "doente" na do homem de 58 anos e um ponto de interrogação na do rapaz de 34.*
+*Visual: as duas fichas de novo, agora com o carimbo "doente" na do homem de cinquenta e tantos e um ponto de interrogação na do rapaz de trinta e poucos.*
 *Teleprompter: (mostra a consequência prática, sem implicância com a OMS)*
 
 E isso não é implicância com palavra. Tem consequência.
 
 Uma definição que declara todo mundo doente empurra para tratar tudo. Envelhecer vira doença. Um período difícil da vida vira doença. Uma variação normal do corpo vira coisa para medicar. E quem trabalha com gente que treina trabalha num dos mercados que mais ganham dinheiro com isso: o suplemento para o que não está faltando, o exame para quem não tem queixa, o protocolo para consertar o que não quebrou.
 
-Volta nos nossos dois pacientes. Pela definição de mil novecentos e quarenta e oito, o senhor de cinquenta e oito anos, que corre meia maratona, não é saudável, porque tem doença. E o rapaz de trinta e quatro, que não tem doença nenhuma e também não tem fôlego nenhum para a vida dele, fica mais perto do ideal.
+Volta nos nossos dois pacientes. Pela definição de mil novecentos e quarenta e oito, o senhor de cinquenta e tantos anos, que corre meia maratona, não é saudável, porque tem doença. E o rapaz de trinta e poucos, que não tem doença nenhuma e também não tem fôlego nenhum para a vida dele, fica mais perto do ideal.
 
 Você e eu sabemos que tem alguma coisa errada nisso. O difícil é dizer o quê.
 
@@ -68,9 +68,9 @@ Isso foi escrito por gente de saúde pública que não estava pensando em esport
 
 Então eu vou deixar a versão que a gente vai usar daqui para frente, bem curta: saúde é ter margem. É a distância entre o que a vida está exigindo daquela pessoa e o que ela consegue pagar sem quebrar. E o treino é só uma das contas. Sono, trabalho, alimentação, hormônio, doença, filho pequeno, luto, tudo isso entra na mesma conta.
 
-Com essa régua, os dois pacientes trocam de lugar. O de cinquenta e oito anos tem duas condições tratadas e uma capacidade de adaptação preservada. Ele aguenta desafio, se organiza, participa da vida. Ele é saudável.
+Com essa régua, os dois pacientes trocam de lugar. O de cinquenta e tantos anos tem duas condições tratadas e uma capacidade de adaptação preservada. Ele aguenta desafio, se organiza, participa da vida. Ele é saudável.
 
-O de trinta e quatro não tem doença e não tem margem. Ele não absorve mais nada. Qualquer coisa que a vida colocar em cima, ele não paga.
+O de trinta e poucos não tem doença e não tem margem. Ele não absorve mais nada. Qualquer coisa que a vida colocar em cima, ele não paga.
 
 ---
 
@@ -98,7 +98,7 @@ Muda o alvo. Se saúde é margem, o objetivo deixa de ser só normalizar um exam
 
 Muda o valor da manutenção. A gente costuma tratar manutenção como fracasso. Nasceu um filho, mudou de emprego, morreu alguém na família, e o plano parou de progredir. Com essa régua, manter a capacidade num período difícil é resultado. E dizer isso para o paciente muda a relação dele com o próprio processo.
 
-Muda o lugar da adesão. Um plano que a pessoa não consegue sustentar não gera adaptação nenhuma, por mais bonito que seja no papel. Adesão deixa de ser detalhe e passa a ser parte do resultado.
+Muda o lugar da adesão. Um plano que a pessoa não consegue sustentar não gera adaptação nenhuma, por melhor que pareça no papel. Adesão deixa de ser detalhe e passa a ser parte do resultado.
 
 E muda o que você olha na reavaliação. Quanto ela aguenta, quanto tempo leva para voltar de uma semana pesada, quantas vezes ficou doente, como acorda, se está conseguindo manter a rotina. Coisas que, repara, quase nenhum exame mostra.
 
@@ -158,73 +158,16 @@ Um abraço, e até lá.
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Qual dos dois é saudável?
-· **34 anos**: exames normais, dorme 5 horas, cansado todo dia, não evolui há 8 meses
-· **58 anos**: hipertenso e com glicemia alterada, corre há 12 anos, meia maratona há 2 meses
-· **Qual dos dois é saudável?**
-Visual: duas fichas lado a lado e a pergunta entre elas.
-
-**Slide 2** — A definição de 1948
-· OMS: "estado de **completo** bem-estar físico, mental e social, e não apenas a ausência de doença"
-· Foi um manifesto do pós-guerra, e um avanço enorme
-· **Nunca foi alterada**
-· A palavra que quebra: **completo**. Ninguém está assim
-Visual: a frase com "completo" em vermelho.
-
-**Slide 3** — Uma definição que declara todo mundo doente
-· Empurra para tratar tudo: envelhecer, fase difícil, variação normal
-· O mercado do esporte lucra com isso: **suplemento sem falta, exame sem queixa, protocolo sem problema**
-· Pela régua de 1948, **o corredor de 58 é doente** e o de 34 está mais perto do ideal
-Visual: as duas fichas com os carimbos trocados.
-
-**Slide 4** — Saúde é ter margem
-· Huber, 2011: saúde como **capacidade de se adaptar e de se autogerenciar**
-· Treino é exatamente isso: **um desafio para o corpo se adaptar**
-· **Margem** = distância entre o que a vida exige e o que a pessoa consegue pagar sem quebrar
-· Treino é **uma** das contas: sono, trabalho, comida, hormônio, doença, família
-· Os dois pacientes **trocam de lugar**
-Visual: a frase de Huber e, maior, "saúde é ter margem".
-
-**Slide 5** — As críticas honestas
-· **Difícil de medir**: realista, porém vaga
-· **"Autogerenciar" pode virar culpa**: turno, ônibus, dinheiro, falta de lugar seguro
-· **A margem depende do que a pessoa faz e das condições em que ela vive**
-Visual: dois cartões com as críticas.
-
-**Slide 6** — O que muda na segunda-feira
-· **O alvo**: aumentar capacidade, não só normalizar exame
-· **A manutenção**: manter numa fase difícil **é resultado**
-· **A adesão**: plano que não se sustenta não produz saúde
-· **A reavaliação**: quanto aguenta, quanto demora para voltar, como acorda
-Visual: quatro cartões.
-
-**Slide 7** — Os dois erros opostos
-· **Margem não substitui rastreio**: pressão, colesterol, diabetes e câncer inicial não tiram ninguém do treino
-· **Tirar o treino custa caro**: estar sem condicionamento pesou mais que qualquer fator de risco cardíaco (**750 mil veteranos**)
-· No hipertenso, a corrida **protege por causa** da pressão
-· **O exame informa, a margem decide**
-Visual: uma balança entre as duas frases.
-
-**Slide 8** — Três perguntas que custam zero
-· O que você consegue fazer hoje que não conseguia há um ano?
-· Quanto tempo você leva para se recuperar de uma semana difícil?
-· **O que você deixou de fazer por causa de como tem se sentido?**
-· Avaliar margem é de **todas as profissões**, sem pedir exame
-Visual: as três perguntas grandes.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Reescrita na voz do curso: sem travessões na fala, sem número de aula,
-sem negrito no texto falado, oito slides no lugar de quatro para que cada bloco de fala caiba num
-slide. O título mudou de "O que são ciências do esporte aplicadas à saúde" para uma pergunta que o
-aluno reconhece.
+**O que mudou nesta versão.** Reescrita na voz do curso, com oito slides no lugar de quatro para que cada bloco de fala caiba num slide, e título que o aluno reconhece. Nesta revisão, os slides viraram desenhos próprios, sem mudar a quantidade nem a ordem, para o teleprompter continuar batendo; o slide de fecho ganhou cartões com quem faz o quê e a próxima conversa. As idades dos dois pacientes passaram a ser ditas por década.
 
-**Citações faladas.** Uma só por nome: Machteld Huber, porque é o marco da ideia central do curso.
-A coorte de veteranos entra pelo número.
+**Números conferidos.** Constituição da Organização Mundial da Saúde, 1948: saúde como estado de completo bem-estar físico, mental e social, e não apenas ausência de doença. Proposta de saúde como capacidade de se adaptar e de se autogerenciar: BMJ, 2011. Coorte de veteranos de 2022: 750.302 veteranos americanos de 30 a 95 anos; estar sem condicionamento carregou risco maior que qualquer um dos fatores de risco cardíaco avaliados (dito como "mais de setecentos mil").
 
-**Ligações internas.** "a tensão entre objetivo e corpo" = 1.2 · "rastreio" e "avaliação antes de
-treinar" = Módulo 6 · "desgaste e margem ao longo do curso" = Módulo 3 e Módulo 10.
+**Correções.** "Por mais bonito que seja no papel" virou "por melhor que pareça no papel". "Trinta e quatro" e "cinquenta e oito anos" viraram "trinta e poucos" e "cinquenta e tantos", na fala e nos slides.
+
+**Saíram.** A aula antiga sobre o que são as ciências do esporte, trocada por esta pergunta sobre saúde. O bloco "Roteiro Gamma", que o deck substituiu. Duração de 18 para 13 minutos.
+
+**Citações faladas.** Uma só por nome: Machteld Huber, porque o conceito dela é o marco da ideia central do curso. A coorte de veteranos entra pelo número.
+
+**Ligações internas.** A tensão entre objetivo e corpo abre a aula seguinte deste módulo. Rastreio e avaliação antes de treinar ficam no módulo de medicina esportiva clínica. Desgaste e margem voltam nos módulos de endocrinologia do exercício e de psicologia do esporte.

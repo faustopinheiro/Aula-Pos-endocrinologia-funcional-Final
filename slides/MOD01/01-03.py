@@ -231,6 +231,9 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Você prescreveu ou aconsel
           "quem": "Falar a recomendação e explicar por que ela existe é de todos. Montar a prescrição individual, com carga e progressão, é de quem prescreve treino ou conduz a reabilitação.",
           "proxima": "150 minutos e o que ninguém lê na diretriz"})
 
+F = S[-1]
+F["cards"] = [{"ic": "t:writing", "t": "Quem faz o quê", "x": F.pop("quem")}, {"ic": "t:arrow-right", "t": "Próxima conversa", "x": F["proxima"][0].upper() + F["proxima"][1:] + "."}]
+
 base = json.load(open(os.path.join(os.path.dirname(__file__), "01-03.json")))
 spec = {k: v for k, v in base.items() if k != "slides"}
 spec["slides"] = S

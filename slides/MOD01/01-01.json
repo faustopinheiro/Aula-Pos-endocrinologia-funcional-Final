@@ -23,13 +23,13 @@
    "id": "pergunta",
    "tipo": "diagrama",
    "h": 600,
-   "svg": "<svg aria-label=\"Duas fichas: 34 anos, exames normais, sono de cinco horas, cansaço, gripes, oito meses sem evoluir; 58 anos, hipertenso tratado, glicemia alterada, corre há doze anos, meia maratona\" width=\"1664\" height=\"600\" viewBox=\"0 0 1664 600\"><rect x=\"0\" y=\"0\" width=\"620\" height=\"590\" rx=\"20\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><g transform=\"translate(30.0 30.0) scale(2.2917)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(40.0 180.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(40.0 258.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><g transform=\"translate(40.0 336.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4\"/></g><g transform=\"translate(40.0 414.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><g transform=\"translate(40.0 492.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><rect x=\"1044\" y=\"0\" width=\"620\" height=\"590\" rx=\"20\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(1074.0 30.0) scale(2.2917)\"><g fill=\"#B07A1C\"><path d=\"M22 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m13 12a3 3 0 0 0-3 3v.343a1 1 0 1 0 2 0V28a1 1 0 1 1 2 0v14.946a1 1 0 1 0 2 0V28a3 3 0 0 0-3-3m-5.291-4.821L28 19.433l1.595.677zm1.226 1.062a5 5 0 0 0-1.226-1.062L36 22.928v-.096v.002c.095 1.1-.755 2.067-1.899 2.16c-1.134.09-2.132-.714-2.241-1.801v-.002l-.015-.086a4 4 0 0 0-.115-.434a4.5 4.5 0 0 0-.795-1.43\"/><path fill-rule=\"evenodd\" d=\"m36 22.831l-6.405-2.72A7 7 0 0 0 28 19.432V42a2 2 0 0 1-3.99.199l-1-10A2 2 0 0 1 23 32h-2q0 .1-.01.199l-1 10A2 2 0 0 1 16 42V27.919c-1.679-.223-3.09-.898-4.136-1.925A6.2 6.2 0 0 1 10 21.481A6.34 6.34 0 0 1 11.92 17c1.29-1.259 3.129-2 5.335-2h7.32c4.973 0 7.944 1.722 9.62 3.759a8.4 8.4 0 0 1 1.494 2.695c.146.44.26.893.309 1.353v.015l.002.006zm-21.169.362c.257.252.631.496 1.169.648V19.17c-.5.152-.864.389-1.123.641a2.4 2.4 0 0 0-.72 1.708c-.006.64.232 1.24.674 1.674\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1084.0 180.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(1084.0 258.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><g transform=\"translate(1084.0 336.0) scale(0.8333)\"><g fill=\"#008A7E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(1084.0 414.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g><g transform=\"translate(1084.0 492.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v3M8 4v6m8-6v6m-4 8.5L9 20l.5-3.5l-2-2l3-.5l1.5-3l1.5 3l3 .5l-2 2L15 20z\"/></g><g transform=\"translate(752.0 190.0) scale(6.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g></svg>",
+   "svg": "<svg aria-label=\"Duas fichas: 30 e poucos anos, exames normais, sono de cinco horas, cansaço, gripes, oito meses sem evoluir; 50 e tantos anos, hipertenso tratado, glicemia alterada, corre há doze anos, meia maratona\" width=\"1664\" height=\"600\" viewBox=\"0 0 1664 600\"><rect x=\"0\" y=\"0\" width=\"620\" height=\"590\" rx=\"20\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><g transform=\"translate(30.0 30.0) scale(2.2917)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(40.0 180.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(40.0 258.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><g transform=\"translate(40.0 336.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4\"/></g><g transform=\"translate(40.0 414.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><g transform=\"translate(40.0 492.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><rect x=\"1044\" y=\"0\" width=\"620\" height=\"590\" rx=\"20\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(1074.0 30.0) scale(2.2917)\"><g fill=\"#B07A1C\"><path d=\"M22 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m13 12a3 3 0 0 0-3 3v.343a1 1 0 1 0 2 0V28a1 1 0 1 1 2 0v14.946a1 1 0 1 0 2 0V28a3 3 0 0 0-3-3m-5.291-4.821L28 19.433l1.595.677zm1.226 1.062a5 5 0 0 0-1.226-1.062L36 22.928v-.096v.002c.095 1.1-.755 2.067-1.899 2.16c-1.134.09-2.132-.714-2.241-1.801v-.002l-.015-.086a4 4 0 0 0-.115-.434a4.5 4.5 0 0 0-.795-1.43\"/><path fill-rule=\"evenodd\" d=\"m36 22.831l-6.405-2.72A7 7 0 0 0 28 19.432V42a2 2 0 0 1-3.99.199l-1-10A2 2 0 0 1 23 32h-2q0 .1-.01.199l-1 10A2 2 0 0 1 16 42V27.919c-1.679-.223-3.09-.898-4.136-1.925A6.2 6.2 0 0 1 10 21.481A6.34 6.34 0 0 1 11.92 17c1.29-1.259 3.129-2 5.335-2h7.32c4.973 0 7.944 1.722 9.62 3.759a8.4 8.4 0 0 1 1.494 2.695c.146.44.26.893.309 1.353v.015l.002.006zm-21.169.362c.257.252.631.496 1.169.648V19.17c-.5.152-.864.389-1.123.641a2.4 2.4 0 0 0-.72 1.708c-.006.64.232 1.24.674 1.674\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1084.0 180.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(1084.0 258.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><g transform=\"translate(1084.0 336.0) scale(0.8333)\"><g fill=\"#008A7E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(1084.0 414.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g><g transform=\"translate(1084.0 492.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v3M8 4v6m8-6v6m-4 8.5L9 20l.5-3.5l-2-2l3-.5l1.5-3l1.5 3l3 .5l-2 2L15 20z\"/></g><g transform=\"translate(752.0 190.0) scale(6.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g></svg>",
    "rotulos": [
     {
      "x": 160,
      "y": 50,
      "w": 440,
-     "t": "34 anos",
+     "t": "30 e poucos anos",
      "tam": 44,
      "cor": "#3A6EA5",
      "peso": 700,
@@ -96,7 +96,7 @@
      "x": 1204,
      "y": 50,
      "w": 440,
-     "t": "58 anos",
+     "t": "50 e tantos anos",
      "tam": 44,
      "cor": "#B07A1C",
      "peso": 700,
@@ -331,7 +331,7 @@
      "x": 280,
      "y": 270,
      "w": 420,
-     "t": "58 anos · meia maratona",
+     "t": "50 e tantos · meia maratona",
      "tam": 26,
      "cor": "#12202E",
      "peso": 700,
@@ -354,7 +354,7 @@
      "x": 960,
      "y": 270,
      "w": 420,
-     "t": "34 anos · sem fôlego para a vida",
+     "t": "30 e poucos · sem fôlego para a vida",
      "tam": 26,
      "cor": "#12202E",
      "peso": 700,
@@ -381,7 +381,7 @@
    "id": "margem",
    "tipo": "diagrama",
    "h": 560,
-   "svg": "<svg aria-label=\"Duas colunas por paciente: a demanda da vida empilhada em blocos e a capacidade como uma linha; no de 58 anos sobra margem; no de 34 a demanda encosta na capacidade\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"120\" y=\"420\" width=\"240\" height=\"90\" fill=\"#3A6EA5\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"360\" width=\"240\" height=\"60\" fill=\"#008A7E\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"260\" width=\"240\" height=\"100\" fill=\"#B07A1C\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"200\" width=\"240\" height=\"60\" fill=\"#A8322A\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"90\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"6\"/><rect x=\"410\" y=\"60\" width=\"26\" height=\"140\" fill=\"#008A7E\"/><rect x=\"720\" y=\"410\" width=\"240\" height=\"100\" fill=\"#3A6EA5\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"330\" width=\"240\" height=\"80\" fill=\"#008A7E\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"220\" width=\"240\" height=\"110\" fill=\"#B07A1C\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"170\" width=\"240\" height=\"50\" fill=\"#A8322A\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"690\" y1=\"200\" x2=\"990\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"6\"/><line x1=\"60\" y1=\"510\" x2=\"1160\" y2=\"510\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "svg": "<svg aria-label=\"Duas colunas por paciente: a demanda da vida empilhada em blocos e a capacidade como uma linha; no de 50 e tantos sobra margem; no de 30 e poucos a demanda encosta na capacidade\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"120\" y=\"420\" width=\"240\" height=\"90\" fill=\"#3A6EA5\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"360\" width=\"240\" height=\"60\" fill=\"#008A7E\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"260\" width=\"240\" height=\"100\" fill=\"#B07A1C\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"200\" width=\"240\" height=\"60\" fill=\"#A8322A\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"90\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"6\"/><rect x=\"410\" y=\"60\" width=\"26\" height=\"140\" fill=\"#008A7E\"/><rect x=\"720\" y=\"410\" width=\"240\" height=\"100\" fill=\"#3A6EA5\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"330\" width=\"240\" height=\"80\" fill=\"#008A7E\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"220\" width=\"240\" height=\"110\" fill=\"#B07A1C\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"170\" width=\"240\" height=\"50\" fill=\"#A8322A\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"690\" y1=\"200\" x2=\"990\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"6\"/><line x1=\"60\" y1=\"510\" x2=\"1160\" y2=\"510\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
    "rotulos": [
     {
      "x": 120,
@@ -443,7 +443,7 @@
      "x": 90,
      "y": 520,
      "w": 300,
-     "t": "58 anos",
+     "t": "50 e tantos anos",
      "tam": 26,
      "cor": "#12202E",
      "peso": 700,
@@ -521,7 +521,7 @@
      "x": 690,
      "y": 520,
      "w": 300,
-     "t": "34 anos",
+     "t": "30 e poucos anos",
      "tam": 26,
      "cor": "#12202E",
      "peso": 700,
@@ -936,8 +936,19 @@
     "Quanto tempo você leva para se recuperar de uma semana difícil?",
     "O que você deixou de fazer na sua vida por causa de como tem se sentido?"
    ],
-   "quem": "Avaliar margem é de todas as profissões, sem pedir exame: conversando, medindo o que você já mede e acompanhando ao longo do tempo.",
-   "proxima": "Quando o objetivo e o corpo discordam"
+   "proxima": "Quando o objetivo e o corpo discordam",
+   "cards": [
+    {
+     "ic": "t:users",
+     "t": "Todas as profissões",
+     "x": "Avaliar margem é de todas as profissões, sem pedir exame: conversando, medindo o que você já mede e acompanhando ao longo do tempo."
+    },
+    {
+     "ic": "t:arrow-right",
+     "t": "Próxima conversa",
+     "x": "Quando o objetivo e o corpo discordam."
+    }
+   ]
   }
  ]
 }
