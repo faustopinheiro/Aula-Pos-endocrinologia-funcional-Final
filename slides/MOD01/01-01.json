@@ -5,47 +5,939 @@
  "subtitulo": "O conceito de saúde que orienta o curso",
  "nota_capa": "Primeira conversa do curso. Uma saudação curta e direto para os dois pacientes.",
  "secoes": {
-  "abertura": ["Dois pacientes e a definição de saúde de 1948.", "capa"],
-  "margem": ["Saúde como capacidade de se adaptar: ter margem.", "margem"],
-  "pratica": ["O que muda na semana de trabalho e os dois erros opostos.", "segunda"]
+  "abertura": [
+   "Dois pacientes e a definição de saúde de 1948.",
+   "capa"
+  ],
+  "margem": [
+   "Saúde como capacidade de se adaptar: ter margem.",
+   "margem"
+  ],
+  "pratica": [
+   "O que muda na semana de trabalho e os dois erros opostos.",
+   "segunda"
+  ]
  },
  "slides": [
-  {"id": "pergunta", "tipo": "cards", "eyebrow": "Para começar", "titulo": "Qual dos dois é saudável?",
-   "cards": [
-    {"t": "34 anos", "x": "Todos os exames normais. Nenhum remédio. Dorme 5 horas, treina 6 vezes por semana, acorda cansado todo dia, pega toda gripe e não evolui há 8 meses.", "cor": "ambar"},
-    {"t": "58 anos", "x": "Hipertenso, tratando. Glicemia de jejum alterada. Corre 4 vezes por semana há 12 anos, dorme bem, vive a vida e fez uma meia maratona há 2 meses.", "cor": "petr"}],
-   "destaque": "Responda antes de continuar. Pela definição oficial, a resposta é desconfortável.", "destaque_cor": "verm"},
-  {"id": "definicao", "tipo": "frase", "eyebrow": "Organização Mundial da Saúde, 1948",
-   "frase": "“Um estado de <span style=\"color:#F4B6A9\">completo</span> bem-estar físico, mental e social, e não apenas a ausência de doença.”",
-   "apoio": "Um manifesto do pós-guerra, e um avanço enorme para a época. Nunca foi alterada. E ninguém fica nesse estado por muito tempo."},
-  {"id": "medicaliza", "tipo": "cards", "eyebrow": "A consequência", "titulo": "Uma definição que declara todo mundo doente",
-   "cards": [
-    {"t": "58 anos: doente", "x": "Pela régua de 1948, o corredor de meia maratona não é saudável, porque tem doença.", "cor": "verm"},
-    {"t": "34 anos: quase ideal?", "x": "Sem doença nenhuma e sem fôlego nenhum para a própria vida, ele fica mais perto da definição.", "cor": "ambar"}],
-   "destaque": "Tratar tudo vira regra: envelhecer, uma fase difícil, uma variação normal. E o mercado do esporte ganha com isso: suplemento sem falta, exame sem queixa, protocolo sem problema.", "destaque_cor": "verm"},
-  {"id": "margem", "tipo": "html", "eyebrow": "A ideia do curso", "titulo": "Saúde é ter margem",
-   "corpo": "<div style=\"display:flex; flex-direction:column; gap:14px\"><p style=\"font-size:28px; color:#3A4A57\">O que a pessoa consegue pagar</p><div style=\"width:1500px; height:56px; background:#1F6F6B; border-radius:8px\"></div><p style=\"font-size:28px; color:#3A4A57\">O que a vida está exigindo: treino, sono, trabalho, comida, família, doença</p><div style=\"display:flex; align-items:center\"><div style=\"width:1000px; height:56px; background:#A8322A; border-radius:8px 0 0 8px\"></div><div style=\"width:500px; height:56px; border:3px dashed #1F6F6B; border-radius:0 8px 8px 0; display:flex; align-items:center; justify-content:center\"><p style=\"font-size:28px; font-weight:600; color:#1F6F6B\">margem</p></div></div></div>",
-   "destaque": "Saúde é a capacidade de se adaptar e de se autogerenciar diante do que a vida exige. Com essa régua, os dois pacientes trocam de lugar.",
-   "fonte": "Huber et al., BMJ 2011"},
-  {"id": "criticas", "tipo": "cards", "eyebrow": "Onde a nova ideia é fraca", "titulo": "As duas críticas honestas",
-   "cards": [
-    {"t": "Difícil de medir", "x": "“Completo bem-estar” é impossível, mas é claro. “Capacidade de se adaptar” é realista, só que vaga, e coisa vaga é difícil de pesquisar.", "cor": "ambar"},
-    {"t": "“Autogerenciar” pode virar culpa", "x": "Turno, duas horas de ônibus, dinheiro curto, falta de lugar seguro para caminhar. Não é escolha de ninguém.", "cor": "verm"}],
-   "destaque": "A margem depende do que a pessoa faz e também das condições em que ela vive."},
-  {"id": "segunda", "tipo": "cards", "eyebrow": "Na semana de trabalho", "titulo": "O que muda na segunda-feira", "por_linha": 2, "gap": 28,
-   "cards": [
-    {"t": "O alvo", "x": "Aumentar a capacidade da pessoa, não só normalizar um exame.", "cor": "petr"},
-    {"t": "A manutenção", "x": "Manter a capacidade numa fase difícil da vida é resultado.", "cor": "petr"},
-    {"t": "A adesão", "x": "Plano que a pessoa não sustenta não produz adaptação nenhuma.", "cor": "petr"},
-    {"t": "A reavaliação", "x": "Quanto aguenta, quanto demora para voltar, como acorda, se mantém a rotina.", "cor": "petr"}]},
-  {"id": "dois-erros", "tipo": "duas", "eyebrow": "Dois jeitos de usar mal", "titulo": "Um erro para cada lado",
-   "esq": {"t": "Margem não substitui rastreio", "cor": "verm", "itens": ["Pressão alta não dói", "Colesterol alto não dói", "Diabetes tipo 2 passa anos em silêncio", "Câncer no começo não tira ninguém do treino"]},
-   "dir": {"t": "Tirar o treino custa caro", "cor": "petr", "itens": ["Estar sem condicionamento pesou mais que qualquer fator de risco cardíaco avaliado", "A proteção aparece também em quem já tem fator de risco", "No hipertenso, a corrida protege por causa da pressão"]},
-   "destaque": "O exame informa. A margem decide.",
-   "fonte": "Kokkinos et al., JACC 2022 · 750.302 veteranos"},
-  {"id": "tres-perguntas", "tipo": "fecho", "titulo": "Três perguntas que custam zero",
-   "regras": ["O que você consegue fazer hoje que não conseguia há um ano? Ou o contrário.", "Quanto tempo você leva para se recuperar de uma semana difícil?", "O que você deixou de fazer na sua vida por causa de como tem se sentido?"],
+  {
+   "id": "pergunta",
+   "tipo": "diagrama",
+   "h": 600,
+   "svg": "<svg aria-label=\"Duas fichas: 34 anos, exames normais, sono de cinco horas, cansaço, gripes, oito meses sem evoluir; 58 anos, hipertenso tratado, glicemia alterada, corre há doze anos, meia maratona\" width=\"1664\" height=\"600\" viewBox=\"0 0 1664 600\"><rect x=\"0\" y=\"0\" width=\"620\" height=\"590\" rx=\"20\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><g transform=\"translate(30.0 30.0) scale(2.2917)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(40.0 180.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(40.0 258.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><g transform=\"translate(40.0 336.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4\"/></g><g transform=\"translate(40.0 414.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><g transform=\"translate(40.0 492.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><rect x=\"1044\" y=\"0\" width=\"620\" height=\"590\" rx=\"20\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(1074.0 30.0) scale(2.2917)\"><g fill=\"#B07A1C\"><path d=\"M22 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m13 12a3 3 0 0 0-3 3v.343a1 1 0 1 0 2 0V28a1 1 0 1 1 2 0v14.946a1 1 0 1 0 2 0V28a3 3 0 0 0-3-3m-5.291-4.821L28 19.433l1.595.677zm1.226 1.062a5 5 0 0 0-1.226-1.062L36 22.928v-.096v.002c.095 1.1-.755 2.067-1.899 2.16c-1.134.09-2.132-.714-2.241-1.801v-.002l-.015-.086a4 4 0 0 0-.115-.434a4.5 4.5 0 0 0-.795-1.43\"/><path fill-rule=\"evenodd\" d=\"m36 22.831l-6.405-2.72A7 7 0 0 0 28 19.432V42a2 2 0 0 1-3.99.199l-1-10A2 2 0 0 1 23 32h-2q0 .1-.01.199l-1 10A2 2 0 0 1 16 42V27.919c-1.679-.223-3.09-.898-4.136-1.925A6.2 6.2 0 0 1 10 21.481A6.34 6.34 0 0 1 11.92 17c1.29-1.259 3.129-2 5.335-2h7.32c4.973 0 7.944 1.722 9.62 3.759a8.4 8.4 0 0 1 1.494 2.695c.146.44.26.893.309 1.353v.015l.002.006zm-21.169.362c.257.252.631.496 1.169.648V19.17c-.5.152-.864.389-1.123.641a2.4 2.4 0 0 0-.72 1.708c-.006.64.232 1.24.674 1.674\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1084.0 180.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(1084.0 258.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><g transform=\"translate(1084.0 336.0) scale(0.8333)\"><g fill=\"#008A7E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(1084.0 414.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g><g transform=\"translate(1084.0 492.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v3M8 4v6m8-6v6m-4 8.5L9 20l.5-3.5l-2-2l3-.5l1.5-3l1.5 3l3 .5l-2 2L15 20z\"/></g><g transform=\"translate(752.0 190.0) scale(6.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 160,
+     "y": 50,
+     "w": 440,
+     "t": "34 anos",
+     "tam": 44,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 184,
+     "w": 500,
+     "t": "todos os exames normais",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 262,
+     "w": 500,
+     "t": "dorme cinco horas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 340,
+     "w": 500,
+     "t": "acorda cansado todo dia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 418,
+     "w": 500,
+     "t": "pega toda gripe do escritório",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 496,
+     "w": 500,
+     "t": "oito meses sem evoluir",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 50,
+     "w": 440,
+     "t": "58 anos",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 184,
+     "w": 500,
+     "t": "hipertenso, tratando",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 262,
+     "w": 500,
+     "t": "glicemia de jejum alterada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 340,
+     "w": 500,
+     "t": "corre há doze anos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 418,
+     "w": 500,
+     "t": "dorme bem e sai com os amigos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 496,
+     "w": 500,
+     "t": "meia maratona há dois meses",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 380,
+     "w": 384,
+     "t": "Qual dos dois é saudável?",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Dois pacientes",
+   "titulo": "O exame normal não responde a pergunta"
+  },
+  {
+   "id": "definicao",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Régua de bem-estar de zero a completo; a faixa onde as pessoas vivem fica longe do ponto completo; a palavra completo em vermelho\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"80\" y=\"230\" width=\"1400\" height=\"60\" rx=\"30\" fill=\"#E6E3DA\"/><rect x=\"420\" y=\"230\" width=\"760\" height=\"60\" rx=\"30\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"1480\" cy=\"260\" r=\"40\" fill=\"#A8322A\"/><g transform=\"translate(500.0 150.0) scale(1.2500)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(640.0 150.0) scale(1.2500)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(760.0 150.0) scale(1.2500)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(900.0 150.0) scale(1.2500)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1040.0 150.0) scale(1.2500)\"><g fill=\"#3A6EA5\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><path d=\"M1180 200 C 1300 120, 1400 120, 1470 200\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1664,
+     "t": "“Saúde é um estado de completo bem-estar físico, mental e social, e não apenas a ausência de doença.”",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 1380,
+     "y": 310,
+     "w": 200,
+     "t": "completo",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 420,
+     "y": 310,
+     "w": 760,
+     "t": "onde as pessoas vivem, quase o tempo todo",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 310,
+     "w": 120,
+     "t": "zero",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 70,
+     "w": 500,
+     "t": "ninguém fica aqui por muito tempo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Organização Mundial da Saúde, 1948",
+   "titulo": "Pela letra de 1948, quase todo mundo está doente",
+   "fonte": "Um manifesto do pós-guerra que abriu a porta para a promoção de saúde, e nunca foi reescrito"
+  },
+  {
+   "id": "medicaliza",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Cascata: a definição declara todos doentes; envelhecer, um período difícil e a variação normal viram doença; o mercado oferece suplemento, exame e protocolo; embaixo, as duas fichas com os carimbos trocados\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"360\" height=\"150\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"370\" y1=\"95\" x2=\"450\" y2=\"95\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"460\" y=\"10\" width=\"400\" height=\"50\" rx=\"25\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"460\" y=\"68\" width=\"400\" height=\"50\" rx=\"25\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"460\" y=\"126\" width=\"400\" height=\"50\" rx=\"25\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"870\" y1=\"95\" x2=\"950\" y2=\"95\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><g transform=\"translate(960.0 8.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(960.0 66.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><g transform=\"translate(960.0 124.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h4L20 8a1.5 1.5 0 0 0-4-4L3 17zM14.5 5.5l4 4\"/><path d=\"M12 8L7 3L3 7l5 5M7 8L5.5 9.5M16 12l5 5l-4 4l-5-5m4 1l-1.5 1.5\"/></g></g><rect x=\"260\" y=\"250\" width=\"460\" height=\"220\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><g transform=\"rotate(-10 560 380)\"><rect x=\"460\" y=\"340\" width=\"220\" height=\"80\" rx=\"10\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/></g><rect x=\"940\" y=\"250\" width=\"460\" height=\"220\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><g transform=\"rotate(-10 1240 380)\"><rect x=\"1140\" y=\"340\" width=\"220\" height=\"80\" rx=\"10\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 45,
+     "w": 320,
+     "t": "todo mundo doente",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 22,
+     "w": 400,
+     "t": "envelhecer",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 80,
+     "w": 400,
+     "t": "um período difícil",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 138,
+     "w": 400,
+     "t": "variação normal do corpo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1020,
+     "y": 16,
+     "w": 640,
+     "t": "suplemento para o que não falta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1020,
+     "y": 74,
+     "w": 640,
+     "t": "exame para quem não tem queixa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1020,
+     "y": 132,
+     "w": 640,
+     "t": "protocolo para o que não quebrou",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 270,
+     "w": 420,
+     "t": "58 anos · meia maratona",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 460,
+     "y": 352,
+     "w": 220,
+     "t": "doente",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 270,
+     "w": 420,
+     "t": "34 anos · sem fôlego para a vida",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1140,
+     "y": 352,
+     "w": 220,
+     "t": "?",
+     "tam": 40,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "A consequência",
+   "titulo": "Uma definição que declara todos doentes empurra para tratar tudo"
+  },
+  {
+   "id": "margem",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"Duas colunas por paciente: a demanda da vida empilhada em blocos e a capacidade como uma linha; no de 58 anos sobra margem; no de 34 a demanda encosta na capacidade\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><rect x=\"120\" y=\"420\" width=\"240\" height=\"90\" fill=\"#3A6EA5\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"360\" width=\"240\" height=\"60\" fill=\"#008A7E\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"260\" width=\"240\" height=\"100\" fill=\"#B07A1C\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"120\" y=\"200\" width=\"240\" height=\"60\" fill=\"#A8322A\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"90\" y1=\"60\" x2=\"390\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"6\"/><rect x=\"410\" y=\"60\" width=\"26\" height=\"140\" fill=\"#008A7E\"/><rect x=\"720\" y=\"410\" width=\"240\" height=\"100\" fill=\"#3A6EA5\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"330\" width=\"240\" height=\"80\" fill=\"#008A7E\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"220\" width=\"240\" height=\"110\" fill=\"#B07A1C\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"720\" y=\"170\" width=\"240\" height=\"50\" fill=\"#A8322A\" opacity=\"0.85\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"690\" y1=\"200\" x2=\"990\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"6\"/><line x1=\"60\" y1=\"510\" x2=\"1160\" y2=\"510\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 451,
+     "w": 240,
+     "t": "treino",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 376,
+     "w": 240,
+     "t": "sono",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 296,
+     "w": 240,
+     "t": "trabalho",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 216,
+     "w": 240,
+     "t": "doença",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 110,
+     "w": 160,
+     "t": "margem",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 520,
+     "w": 300,
+     "t": "58 anos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 20,
+     "w": 200,
+     "t": "capacidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 446,
+     "w": 240,
+     "t": "treino",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 356,
+     "w": 240,
+     "t": "sono",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 261,
+     "w": 240,
+     "t": "trabalho",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 181,
+     "w": 240,
+     "t": "doença",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 210,
+     "w": 200,
+     "t": "sem margem",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 690,
+     "y": 520,
+     "w": 300,
+     "t": "34 anos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 160,
+     "w": 200,
+     "t": "capacidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1220,
+     "y": 100,
+     "w": 444,
+     "t": "Saúde é ter margem",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1220,
+     "y": 230,
+     "w": 444,
+     "t": "a distância entre o que a vida exige e o que a pessoa consegue pagar sem quebrar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1220,
+     "y": 380,
+     "w": 444,
+     "t": "o treino é só uma das contas",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Capacidade de se adaptar e de se autogerenciar",
+   "titulo": "Com a régua da margem, os dois pacientes trocam de lugar",
+   "fonte": "Huber e colaboradores, BMJ 2011 · esquema, sem valores medidos"
+  },
+  {
+   "id": "criticas",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Duas críticas: uma régua com a escala borrada, difícil de medir; uma pessoa carregando pesos que não escolheu: dinheiro, turno, ônibus, falta de lugar, falta de tempo\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"0\" y=\"0\" width=\"780\" height=\"500\" rx=\"20\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"80\" y=\"220\" width=\"620\" height=\"60\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"100\" y1=\"220\" x2=\"100\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.90\"/><line x1=\"148\" y1=\"220\" x2=\"148\" y2=\"250\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.84\"/><line x1=\"196\" y1=\"220\" x2=\"196\" y2=\"250\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.78\"/><line x1=\"244\" y1=\"220\" x2=\"244\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.72\"/><line x1=\"292\" y1=\"220\" x2=\"292\" y2=\"250\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.66\"/><line x1=\"340\" y1=\"220\" x2=\"340\" y2=\"250\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.60\"/><line x1=\"388\" y1=\"220\" x2=\"388\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.54\"/><line x1=\"436\" y1=\"220\" x2=\"436\" y2=\"250\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.48\"/><line x1=\"484\" y1=\"220\" x2=\"484\" y2=\"250\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.42\"/><line x1=\"532\" y1=\"220\" x2=\"532\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.36\"/><line x1=\"580\" y1=\"220\" x2=\"580\" y2=\"250\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.30\"/><line x1=\"628\" y1=\"220\" x2=\"628\" y2=\"250\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.24\"/><line x1=\"676\" y1=\"220\" x2=\"676\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.18\"/><rect x=\"884\" y=\"0\" width=\"780\" height=\"500\" rx=\"20\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(920.0 150.0) scale(3.9583)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><rect x=\"1130\" y=\"105\" width=\"500\" height=\"50\" rx=\"25\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1080\" y1=\"130\" x2=\"1130\" y2=\"130\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1130\" y=\"167\" width=\"500\" height=\"50\" rx=\"25\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1080\" y1=\"192\" x2=\"1130\" y2=\"192\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1130\" y=\"229\" width=\"500\" height=\"50\" rx=\"25\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1080\" y1=\"254\" x2=\"1130\" y2=\"254\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1130\" y=\"291\" width=\"500\" height=\"50\" rx=\"25\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1080\" y1=\"316\" x2=\"1130\" y2=\"316\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1130\" y=\"353\" width=\"500\" height=\"50\" rx=\"25\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1080\" y1=\"378\" x2=\"1130\" y2=\"378\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 30,
+     "w": 720,
+     "t": "Difícil de medir",
+     "tam": 36,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 100,
+     "w": 720,
+     "t": "completo bem-estar é impossível, mas claro; capacidade de se adaptar é realista, e vaga",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 30,
+     "y": 320,
+     "w": 720,
+     "t": "coisa vaga é difícil de virar política pública e pesquisa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 914,
+     "y": 30,
+     "w": 720,
+     "t": "“Autogerenciar” pode virar culpa",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1130,
+     "y": 116,
+     "w": 500,
+     "t": "dinheiro",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 178,
+     "w": 500,
+     "t": "trabalho em turno",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 240,
+     "w": 500,
+     "t": "duas horas de ônibus",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 302,
+     "w": 500,
+     "t": "sem lugar seguro para caminhar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 364,
+     "w": 500,
+     "t": "sem tempo para cozinhar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 914,
+     "y": 440,
+     "w": 720,
+     "t": "a margem depende do que a pessoa faz e de onde ela vive",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Onde a definição nova é fraca",
+   "titulo": "Duas críticas honestas, e uma delas tem razão em parte"
+  },
+  {
+   "id": "segunda",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Quatro painéis: o alvo passa do número do exame para a capacidade; a manutenção num período difícil é resultado; o plano que não se sustenta não adapta; a reavaliação olha o que o exame não mostra\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"0\" y=\"0\" width=\"396\" height=\"500\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"420\" y=\"0\" width=\"396\" height=\"500\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"840\" y=\"0\" width=\"396\" height=\"500\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1260\" y=\"0\" width=\"396\" height=\"500\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(40.0 110.0) scale(5.0000)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><g transform=\"translate(220.0 110.0) scale(5.8333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><rect x=\"520\" y=\"110\" width=\"160\" height=\"200\" fill=\"#A8322A\" opacity=\"0.12\"/><polyline points=\"440,300 520,240 680,240 780,170\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"7\"/><rect x=\"880\" y=\"120\" width=\"100\" height=\"180\" rx=\"8\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\"  stroke-dasharray=\"10 8\"/><rect x=\"1030\" y=\"210\" width=\"100\" height=\"90\" rx=\"8\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"4\" /><g transform=\"translate(1290.0 100.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><g transform=\"translate(1440.0 100.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g><g transform=\"translate(1290.0 220.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><g transform=\"translate(1440.0 220.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 20,
+     "w": 356,
+     "t": "O alvo",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 20,
+     "w": 356,
+     "t": "A manutenção",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 20,
+     "w": 356,
+     "t": "A adesão",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 20,
+     "w": 356,
+     "t": "A reavaliação",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 10,
+     "y": 265,
+     "w": 200,
+     "t": "número do exame",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 270,
+     "w": 190,
+     "t": "capacidade de aguentar a vida",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 380,
+     "w": 356,
+     "t": "às vezes andam juntos; às vezes não",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 520,
+     "y": 120,
+     "w": 160,
+     "t": "período difícil",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 380,
+     "w": 356,
+     "t": "manter, aqui, é resultado",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 860,
+     "y": 310,
+     "w": 140,
+     "t": "no papel",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 310,
+     "w": 140,
+     "t": "sustentado",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 380,
+     "w": 356,
+     "t": "adesão é parte do resultado",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1280,
+     "y": 380,
+     "w": 356,
+     "t": "quanto aguenta, quanto demora a voltar, quantas vezes adoece, como acorda",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Por que isso muda a sua segunda-feira",
+   "titulo": "Quatro coisas mudam no trabalho de toda semana",
+   "fonte": "Coisas que quase nenhum exame mostra"
+  },
+  {
+   "id": "dois-erros",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Uma balança: de um lado, margem não substitui rastreio, com as doenças silenciosas; do outro, tirar o treino custa caro, com mais de setecentos mil veteranos\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><polygon points=\"832,300 792,420 872,420\" fill=\"#12202E\"/><line x1=\"232\" y1=\"300\" x2=\"1432\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect x=\"0\" y=\"40\" width=\"620\" height=\"240\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"1044\" y=\"40\" width=\"620\" height=\"240\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(40.0 170.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(180.0 170.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><g transform=\"translate(320.0 170.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><g transform=\"translate(460.0 170.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(1080.0 150.0) scale(2.0833)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 560,
+     "t": "Margem não substitui rastreio",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 110,
+     "w": 560,
+     "t": "pressão, colesterol, diabetes e câncer no começo não tiram ninguém do treino",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1074,
+     "y": 60,
+     "w": 560,
+     "t": "Tirar o treino custa caro",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 140,
+     "w": 440,
+     "t": "mais de 700 mil veteranos: estar sem condicionamento pesou mais no risco de morrer que qualquer fator de risco cardíaco avaliado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 532,
+     "y": 440,
+     "w": 600,
+     "t": "o exame informa; a margem decide",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Dois jeitos de usar mal a ideia",
+   "titulo": "Um erro para cada lado",
+   "fonte": "No hipertenso, a corrida é uma das coisas que mais o protegem por causa da pressão, e não apesar dela"
+  },
+  {
+   "id": "tres-perguntas",
+   "tipo": "fecho",
+   "titulo": "Três perguntas que custam zero",
+   "regras": [
+    "O que você consegue fazer hoje que não conseguia há um ano? Ou o contrário.",
+    "Quanto tempo você leva para se recuperar de uma semana difícil?",
+    "O que você deixou de fazer na sua vida por causa de como tem se sentido?"
+   ],
    "quem": "Avaliar margem é de todas as profissões, sem pedir exame: conversando, medindo o que você já mede e acompanhando ao longo do tempo.",
-   "proxima": "Quando o objetivo e o corpo discordam"}
+   "proxima": "Quando o objetivo e o corpo discordam"
+  }
  ]
 }
