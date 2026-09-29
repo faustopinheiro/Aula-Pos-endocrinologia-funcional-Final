@@ -66,7 +66,7 @@ A interleucina-6 é classificada como citocina pró-inflamatória. E a interleuc
 
 As duas coisas são verdadeiras porque o contexto pesa mais que a molécula. Produzida por macrófago na infecção, ela vem dentro de uma cascata com TNF e interleucina-1. Produzida pelo músculo na contração, ela aparece sozinha, e o que ela induz é outra coisa: sobe o antagonista do receptor de interleucina-1 e sobe a interleucina-10, que são mediadores anti-inflamatórios.
 
-O experimento que mostrou isso em gente foi de Starkie e colaboradores, em 2003. Oito homens receberam uma pequena dose de endotoxina, que sozinha dobra ou triplica o TNF circulante, em três situações: em repouso, durante três horas de pedalada e durante infusão de interleucina-6 em concentração parecida com a do exercício. Com o exercício e com a infusão, a subida do TNF praticamente não aconteceu.
+O experimento que mostrou isso em gente saiu em 2003. Oito homens receberam uma pequena dose de endotoxina, que sozinha dobra ou triplica o TNF circulante, em três situações: em repouso, durante três horas de pedalada e durante infusão de interleucina-6 em concentração parecida com a do exercício. Com o exercício e com a infusão, a subida do TNF praticamente não aconteceu.
 
 É um mecanismo para uma associação que a epidemiologia mostra há muito tempo: quem se exercita com regularidade tem um tônus inflamatório crônico mais baixo. Não apesar de a contração mexer com sinalização imune. Por meio dela.
 
@@ -82,7 +82,7 @@ Depois da interleucina-6, o campo explodiu. Hoje se descrevem centenas de moléc
 
 Do lado mais firme em humanos, além da interleucina-6, está a miostatina. Ela é um freio ao crescimento muscular, e o treino de força reduz a expressão dela no músculo. Quer dizer que parte do efeito do treino é soltar um freio, e não só pisar num acelerador.
 
-Em construção, com evidência humana ainda parcial, entram a interleucina-15, a decorina, a apelina, o SPARC e a catepsina B. E o BDNF, com uma ressalva que vale conhecer. O músculo produz BDNF e parece usá-lo localmente. Mas quando Rasmussen e colaboradores coletaram sangue da artéria e da veia jugular durante quatro horas de remo, o cérebro respondia por setenta a oitenta por cento do BDNF circulante. Então a frase "o músculo manda BDNF para o cérebro" é mais simples do que o dado.
+Em construção, com evidência humana ainda parcial, entram a interleucina-15, a decorina, a apelina, o SPARC e a catepsina B. E o BDNF, com uma ressalva que vale conhecer. O músculo produz BDNF e parece usá-lo localmente. Mas quando um grupo coletou sangue da artéria e da veia jugular durante quatro horas de remo, o cérebro respondia por setenta a oitenta por cento do BDNF circulante. Então a frase "o músculo manda BDNF para o cérebro" é mais simples do que o dado.
 
 E do lado controverso, um nome que você com certeza já ouviu: a irisina. Ela merece um slide só dela, porque ensina mais sobre como ler literatura do que sobre fisiologia.
 
@@ -96,9 +96,9 @@ A história começa em 2012. Boström e colaboradores descrevem, em camundongos,
 
 A promessa era enorme: o exercício em forma de molécula. E a repercussão foi do mesmo tamanho.
 
-Em 2015, Albrecht e colaboradores publicaram um trabalho com um título que não deixa dúvida: a irisina seria um mito, e não uma miocina induzida pelo exercício. O argumento era técnico. Os kits comerciais usados para medir irisina no sangue usavam anticorpos que nunca tinham sido testados contra outras proteínas do soro. Quando testados, reagiam com proteínas de tamanho errado. Parte da literatura podia estar medindo outra coisa.
+Em 2015, saiu um trabalho com um título que não deixa dúvida: a irisina seria um mito, e não uma miocina induzida pelo exercício. O argumento era técnico. Os kits comerciais usados para medir irisina no sangue usavam anticorpos que nunca tinham sido testados contra outras proteínas do soro. Quando testados, reagiam com proteínas de tamanho errado. Parte da literatura podia estar medindo outra coisa.
 
-No mesmo ano veio a réplica, e ela também é boa ciência. Jedrychowski e colaboradores mediram irisina por espectrometria de massas, que não depende de anticorpo. Encontraram a molécula, em concentração baixa: cerca de três vírgula seis nanogramas por mililitro em sedentários, e quatro vírgula três em quem fazia treino intervalado aeróbio.
+No mesmo ano veio a réplica, e ela também é boa ciência. O mesmo laboratório que descreveu a irisina mediu a molécula por espectrometria de massas, que não depende de anticorpo. Encontraram a molécula, em concentração baixa: cerca de três vírgula seis nanogramas por mililitro em sedentários, e quatro vírgula três em quem fazia treino intervalado aeróbio.
 
 Onde isso está hoje? A irisina existe, circula e muda com o exercício. O que segue em disputa é o tamanho da resposta em humanos e a relevância dos efeitos que foram atribuídos a ela.
 
@@ -118,11 +118,11 @@ Tecido adiposo: sinais que estimulam a quebra de gordura e mudam o comportamento
 
 Osso: o músculo sinaliza para o osso além da carga mecânica, e o osso responde. É um dos motivos pelos quais sarcopenia e osteoporose costumam andar juntas, e o módulo do atleta idoso volta a isso.
 
-Cérebro: aqui mora o maior entusiasmo e a maior distância entre mecanismo e prova. Em 2016, Moon e colaboradores mostraram que a catepsina B, liberada com a corrida, melhorava memória em camundongos; em humanos, depois de quatro meses de esteira, a subida da catepsina B se correlacionou com a melhora num teste de memória. Correlação, em gente. É um começo, e é assim que deve ser dito.
+Cérebro: aqui mora o maior entusiasmo e a maior distância entre mecanismo e prova. Em 2016, um estudo mostrou que a catepsina B, liberada com a corrida, melhorava memória em camundongos; em humanos, depois de quatro meses de esteira, a subida da catepsina B se correlacionou com a melhora num teste de memória. Correlação, em gente. É um começo, e é assim que deve ser dito.
 
 Sistema imune, que a gente já viu. E pâncreas, com sinais que modulam a célula beta.
 
-E um aviso de vocabulário, porque miocina já ficou pequeno. O termo em uso hoje é exercina, e ele é mais largo do que o músculo. Na revisão de Chow e colaboradores, de 2022, exercina é qualquer sinal liberado em resposta ao exercício, venha ele do músculo, do coração, do fígado ou do tecido adiposo. E não só proteína: vesículas extracelulares, microRNAs e metabólitos que funcionam como sinal. O lactato, da aula de glicólise do módulo de fisiologia do exercício, é o exemplo mais conhecido.
+E um aviso de vocabulário, porque miocina já ficou pequeno. O termo em uso hoje é exercina, e ele é mais largo do que o músculo. Numa revisão de 2022, exercina é qualquer sinal liberado em resposta ao exercício, venha ele do músculo, do coração, do fígado ou do tecido adiposo. E não só proteína: vesículas extracelulares, microRNAs e metabólitos que funcionam como sinal. O lactato, da aula de glicólise do módulo de fisiologia do exercício, é o exemplo mais conhecido.
 
 A frase que reorganiza o módulo é esta: a contração muscular não é só o efeito dos hormônios. Ela mesma é um evento endócrino.
 
@@ -136,7 +136,7 @@ O que isso muda na segunda-feira.
 
 Primeiro, derruba a ideia de que o benefício do exercício é gasto calórico. Essa é a versão popular do mesmo erro com que eu abri a aula: o músculo como motor que queima combustível, e o benefício como calorias subtraídas. Uma parte grande do benefício acontece em tecidos que não se contraíram e não gastaram quase nada. O que chega lá é sinal.
 
-Segundo, dá uma resposta honesta ao paciente que treina e não emagrece. Ele desanima porque o único número que aprendeu a olhar não se move. E a resposta deixa de ser consolo e vira mecanismo: o que ele está produzindo chega a vários órgãos, e a balança não mede nenhum deles. A próxima aula mostra isso com a insulina, em números.
+Segundo, dá uma resposta honesta ao paciente que treina e não emagrece. Ele desanima porque o único número que aprendeu a olhar não se move. E a resposta deixa de ser consolo e vira mecanismo: o que ele está produzindo chega a vários órgãos, e a balança não mede nenhum deles. A próxima conversa mostra isso com a insulina, em números.
 
 Terceiro, muda o peso da sarcopenia. Se o músculo é órgão endócrino, perder massa muscular não é só perder força. É perder um tecido que sinaliza para fígado, osso, pâncreas e sistema imune. E isso conversa direto com a aula de destreino: catorze dias andando menos já mexem nessa conta.
 
@@ -180,7 +180,7 @@ E aqui a divisão do trabalho é confortável, porque ninguém nesta turma presc
 
 A molécula é gratuita. O que custa é organizar a vida para que ela seja produzida algumas vezes por semana.
 
-Na próxima aula, a gente desce do panorama para o efeito metabólico mais bem medido de todos: por que o exercício melhora a sensibilidade à insulina mesmo quando a balança não se move.
+Na próxima conversa, a gente desce do panorama para o efeito metabólico mais bem medido de todos: por que o exercício melhora a sensibilidade à insulina mesmo quando a balança não se move.
 
 ---
 
@@ -201,38 +201,14 @@ Na próxima aula, a gente desce do panorama para o efeito metabólico mais bem m
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de seis blocos longos.
-Arquitetura ERRO mantida (a anterior é NÚMERO; a próxima também é NÚMERO, com uma aula no meio). O
-erro é duplo: o músculo só como efetor, e a interleucina-6 do exercício lida como sinal de lesão.
-Sem caso clínico.
+**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de seis blocos longos. Arquitetura ERRO mantida (a anterior é NÚMERO; a próxima também é NÚMERO, com uma aula no meio). O erro é duplo: o músculo só como efetor, e a interleucina-6 do exercício lida como sinal de lesão. Sem caso clínico. Entraram: Steensberg 2001 (glicogênio), Starkie 2003 (oito homens; endotoxina sozinha dobra ou triplica o TNF; com exercício ou infusão de IL-6, a subida some), Boström 2012 (a origem da irisina), Rasmussen 2009, Moon 2016, Chow 2022. Nesta revisão, os 5 slides que ainda eram texto viraram desenho (o sinal de trabalho, o catálogo de miocinas, o mapa dos alvos, a balança e o frasco), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Números conferidos.** Interleucina-6 até 100 vezes (Pedersen e Febbraio 2008). Noradrenalina perto
-de 12 vezes no esforço intenso (Sothmann, dado da aula das catecolaminas). Steensberg 2001: sete
-homens, cinco horas de extensão de joelho, uma perna com glicogênio reduzido, mais IL-6 produzida e
-liberada nessa perna. Jedrychowski 2015: ~3,6 ng/mL em sedentários, ~4,3 ng/mL com treino intervalado
-aeróbio. Rasmussen 2009: oito voluntários, quatro horas de remo, cérebro responde por 70-80% do BDNF
-circulante.
+**Números conferidos.** Interleucina-6 até 100 vezes (Pedersen e Febbraio 2008). Noradrenalina perto de 12 vezes no esforço intenso (Sothmann, dado da aula das catecolaminas). Steensberg 2001: sete homens, cinco horas de extensão de joelho, uma perna com glicogênio reduzido, mais IL-6 produzida e liberada nessa perna. Jedrychowski 2015: ~3,6 ng/mL em sedentários, ~4,3 ng/mL com treino intervalado aeróbio. Rasmussen 2009: oito voluntários, quatro horas de remo, cérebro responde por 70-80% do BDNF circulante.
 
-**Correções.**
-- BDNF saiu da coluna "firme". A versão antiga dizia que o músculo em contração ajuda a elevar o BDNF;
-  o BDNF que sobe no sangue durante o exercício vem sobretudo do cérebro (Rasmussen 2009).
-- IL-15 foi para "em construção": a evidência humana é parcial.
-- Exercina: a versão antiga dizia que o termo inclui "tudo o que a contração libera". Na definição de
-  Chow 2022, exercina é o sinal liberado em resposta ao exercício por qualquer órgão (músculo, coração,
-  fígado, tecido adiposo). Ajustado.
-- A catepsina B entrou com o dado humano dito como é: correlação depois de quatro meses de esteira.
+**Correções.** - BDNF saiu da coluna "firme". A versão antiga dizia que o músculo em contração ajuda a elevar o BDNF; o BDNF que sobe no sangue durante o exercício vem sobretudo do cérebro (Rasmussen 2009). - IL-15 foi para "em construção": a evidência humana é parcial. - Exercina: a versão antiga dizia que o termo inclui "tudo o que a contração libera". Na definição de Chow 2022, exercina é o sinal liberado em resposta ao exercício por qualquer órgão (músculo, coração, fígado, tecido adiposo). Ajustado. - A catepsina B entrou com o dado humano dito como é: correlação depois de quatro meses de esteira. Starkie, Rasmussen, Albrecht, Jedrychowski, Moon e Chow saíram da fala; os estudos entram pelo ano ou pelo grupo.
 
-**Entraram.** Steensberg 2001 (glicogênio), Starkie 2003 (oito homens; endotoxina sozinha dobra ou triplica o TNF; com exercício ou infusão de IL-6, a subida some), Boström 2012
-(a origem da irisina), Rasmussen 2009, Moon 2016, Chow 2022.
+**Saíram.** "Robusta", "escopo", "um conceito bonito", "aula um", "módulo passado", "três a cinco vezes por semana" (virou "algumas vezes por semana"), Hargreaves e Spriet 2020 e Brooks 2018 (citados sem uso na fala) e o bloco "Roteiro Gamma". Duração de 19 para 18 minutos.
 
-**Saíram.** "Robusta", "escopo", "um conceito bonito", "aula um", "módulo passado", "três a cinco
-vezes por semana" (virou "algumas vezes por semana"), Hargreaves e Spriet 2020 e Brooks 2018
-(citados sem uso na fala) e o bloco "Roteiro Gamma".
+**Citações faladas.** Bente Pedersen e Mark Febbraio, pelo grupo que firmou o conceito de miocina; Steensberg, pelo experimento da IL-6 saindo do músculo em contração; Boström, pela descrição da irisina. Os demais estudos entram pelo ano.
 
-**Citações faladas.** Pedersen e Febbraio (o conceito), Steensberg, Starkie, Rasmussen, Boström,
-Albrecht, Jedrychowski, Moon, Chow.
-
-**Ligações internas.** noradrenalina 12 vezes = aula das catecolaminas · lactato = aula de glicólise
-e lactato do módulo de fisiologia do exercício · ação local do IGF-1 e "marcador que se move" = aula
-do eixo somatotrófico · catorze dias = aula de destreino · sarcopenia e osso = módulo do atleta
-adolescente e idoso · insulina sem perda de peso = próxima aula.
+**Ligações internas.** noradrenalina 12 vezes = aula das catecolaminas · lactato = aula de glicólise e lactato do módulo de fisiologia do exercício · ação local do IGF-1 e "marcador que se move" = aula do eixo somatotrófico · catorze dias = aula de destreino · sarcopenia e osso = módulo do atleta adolescente e idoso · insulina sem perda de peso = próxima aula.

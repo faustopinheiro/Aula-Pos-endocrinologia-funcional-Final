@@ -12,9 +12,9 @@ Duração: 14 minutos · 11 slides · Arquitetura: DECISÃO
 
 Dois ensaios sorteados, a mesma vitamina, resultados opostos. E a diferença entre eles não está na molécula. Está em quem tomou.
 
-O primeiro é de Lappe e colaboradores, de 2008. Cinco mil duzentas e uma recrutas da Marinha americana, em treinamento básico, sorteadas para receber dois mil miligramas de cálcio e oitocentas unidades de vitamina D por dia, ou placebo. Resultado: vinte por cento menos fratura por estresse no grupo suplementado. Cinco vírgula três por cento contra seis vírgula seis.
+O primeiro é de 2008. Cinco mil duzentas e uma recrutas da Marinha americana, em treinamento básico, sorteadas para receber dois mil miligramas de cálcio e oitocentas unidades de vitamina D por dia, ou placebo. Resultado: vinte por cento menos fratura por estresse no grupo suplementado. Cinco vírgula três por cento contra seis vírgula seis.
 
-O segundo é de LeBoff e colaboradores, de 2022, dentro do estudo VITAL. Vinte e cinco mil oitocentos e setenta e um adultos, homens a partir dos cinquenta anos e mulheres a partir dos cinquenta e cinco, sorteados para duas mil unidades de vitamina D por dia ou placebo. Resultado: nenhuma redução de fratura. E, o mais importante, o resultado nulo se manteve qualquer que fosse o nível inicial de vitamina D.
+O segundo é de 2022, dentro do estudo VITAL. Vinte e cinco mil oitocentos e setenta e um adultos, homens a partir dos cinquenta anos e mulheres a partir dos cinquenta e cinco, sorteados para duas mil unidades de vitamina D por dia ou placebo. Resultado: nenhuma redução de fratura. E, o mais importante, o resultado nulo se manteve qualquer que fosse o nível inicial de vitamina D.
 
 Então funciona ou não funciona? As duas coisas. E a aula inteira mora na diferença entre essas duas populações.
 
@@ -72,7 +72,7 @@ Onde a saída A dá errado: você deixa de achar uma deficiência em alguém que
 
 A saída B é dosar de forma dirigida. E o conteúdo prático é: em quem?
 
-A meta-análise de Farrokhyar e colaboradores, de 2015, juntou os estudos com atletas e encontrou vitamina D inadequada em cinquenta e seis por cento deles. O risco foi maior no inverno e na primavera, em latitudes mais altas, em quem treina em ambiente fechado e em quem tem pele mais pigmentada.
+Uma meta-análise de 2015 juntou os estudos com atletas e encontrou vitamina D inadequada em cinquenta e seis por cento deles. O risco foi maior no inverno e na primavera, em latitudes mais altas, em quem treina em ambiente fechado e em quem tem pele mais pigmentada.
 
 A clínica acrescenta o resto da lista. Fratura por estresse, atual ou anterior. Baixa disponibilidade energética ou transtorno alimentar. Ciclo menstrual ausente ou irregular. Doença que atrapalhe a absorção: doença celíaca, doença inflamatória intestinal, cirurgia bariátrica. Uso de anticonvulsivante ou de corticoide. E dieta restritiva por escolha, sem laticínios.
 
@@ -88,7 +88,7 @@ A saída C é repor.
 
 Onde ela se sustenta: na deficiência documentada, e no perfil de risco alto com carga óssea intensa, que é o cenário das recrutas.
 
-E um detalhe do estudo de Lappe que costuma sumir quando ele é citado: era cálcio e vitamina D juntos. Não era vitamina D sozinha. Atribuir o resultado inteiro à vitamina D é ler o estudo pela metade.
+E um detalhe do estudo das recrutas que costuma sumir quando ele é citado: era cálcio e vitamina D juntos. Não era vitamina D sozinha. Atribuir o resultado inteiro à vitamina D é ler o estudo pela metade.
 
 Onde a saída C dá errado quando vira regra para todo mundo: é o VITAL. Vinte e cinco mil pessoas, dose diária generosa, nenhuma redução de fratura.
 
@@ -178,34 +178,14 @@ No próximo módulo a gente sai da regulação e vai para o combustível, na nut
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de onze slides no lugar de cinco blocos longos.
-Arquitetura DECISÃO mantida (a anterior é NÚMERO). Fecha o módulo com a camada dos três níveis
-(decisão, contribuição, reconhecimento), no mesmo padrão da aula que fechou o módulo de fisiologia
-do exercício. Sem caso clínico.
+**O que mudou nesta versão.** Voz do curso e deck de onze slides no lugar de cinco blocos longos. Arquitetura DECISÃO mantida (a anterior é NÚMERO). Fecha o módulo com a camada dos três níveis (decisão, contribuição, reconhecimento), no mesmo padrão da aula que fechou o módulo de fisiologia do exercício. Sem caso clínico. Nesta revisão, os 8 slides que ainda eram texto viraram desenho (os dois ensaios, quem tomou, quando dosar, onde repor se sustenta, o critério, as notas de segurança, os três níveis e o painel de sinais), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Números conferidos.** Lappe 2008: 5.201 recrutas; 2.000 mg de cálcio e 800 UI de vitamina D por dia;
-fratura por estresse 5,3% contra 6,6% na análise por intenção de tratar (20% menor); 21% menor na
-análise por protocolo. LeBoff 2022 (VITAL): 25.871 adultos; 2.000 UI por dia; razão de risco 0,98
-para fraturas totais; 25(OH)D inicial média de 30,7 ng/mL; sem modificação do efeito pelo nível
-inicial. Farrokhyar 2015: 56% dos atletas com vitamina D inadequada.
+**Números conferidos.** Lappe 2008: 5.201 recrutas; 2.000 mg de cálcio e 800 UI de vitamina D por dia; fratura por estresse 5,3% contra 6,6% na análise por intenção de tratar (20% menor); 21% menor na análise por protocolo. LeBoff 2022 (VITAL): 25.871 adultos; 2.000 UI por dia; razão de risco 0,98 para fraturas totais; 25(OH)D inicial média de 30,7 ng/mL; sem modificação do efeito pelo nível inicial. Farrokhyar 2015: 56% dos atletas com vitamina D inadequada.
 
-**Correções.**
-- Farrokhyar: a versão antiga dava risco relativo de 1,85 para inverno e primavera e de 1,19 para
-  esporte em ambiente fechado. Os valores conferidos não batem: 1,85 aparece para latitude de 40° norte
-  ou mais, e os riscos de inverno e primavera e de ambiente fechado são outros. Os números saíram da
-  fala; ficaram os fatores de risco, que estão confirmados.
-- VITAL: "média de sessenta e sete anos" saiu da fala; entrou o critério de idade de entrada (homens
-  a partir de 50, mulheres a partir de 55) e a média inicial de vitamina D, que sustenta "a maioria
-  sem deficiência".
-- REDs: o consenso do COI de 2023 agora é dito na fala, porque sustenta a segunda entrada.
+**Correções.** - Farrokhyar: a versão antiga dava risco relativo de 1,85 para inverno e primavera e de 1,19 para esporte em ambiente fechado. Os valores conferidos não batem: 1,85 aparece para latitude de 40° norte ou mais, e os riscos de inverno e primavera e de ambiente fechado são outros. Os números saíram da fala; ficaram os fatores de risco, que estão confirmados. - VITAL: "média de sessenta e sete anos" saiu da fala; entrou o critério de idade de entrada (homens a partir de 50, mulheres a partir de 55) e a média inicial de vitamina D, que sustenta "a maioria sem deficiência". - REDs: o consenso do COI de 2023 agora é dito na fala, porque sustenta a segunda entrada. Lappe, LeBoff e Farrokhyar saíram da fala; os ensaios entram pelo ano e pela população, e o autor fica na fonte do slide.
 
-**Saíram.** "Escopo", "aula um", "módulo passado", "doze vezes" (virou "quase toda aula"), a média de
-idade do VITAL e o bloco "Roteiro Gamma".
+**Saíram.** "Escopo", "aula um", "módulo passado", "doze vezes" (virou "quase toda aula"), a média de idade do VITAL e o bloco "Roteiro Gamma". Duração de 14 para 14 minutos.
 
-**Citações faladas.** Lappe e LeBoff (os dois ensaios), Farrokhyar (a prevalência), o consenso do COI
-de 2023.
+**Citações faladas.** Nenhum autor por nome. Os dois ensaios entram pelo ano e pela população, e o VITAL pelo nome do estudo.
 
-**Ligações internas.** eixo gonadal e estradiol = aulas da testosterona e do hipogonadismo · T3 baixo
-com TSH normal = aula da tireoide · disponibilidade energética = módulo de nutrição esportiva e módulo
-da atleta mulher · os três níveis = aula que fechou o módulo de fisiologia do
-exercício · a frase das duas leituras = primeira aula do módulo.
+**Ligações internas.** eixo gonadal e estradiol = aulas da testosterona e do hipogonadismo · T3 baixo com TSH normal = aula da tireoide · disponibilidade energética = módulo de nutrição esportiva e módulo da atleta mulher · os três níveis = aula que fechou o módulo de fisiologia do exercício · a frase das duas leituras = primeira aula do módulo.

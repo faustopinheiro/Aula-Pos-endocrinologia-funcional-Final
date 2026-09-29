@@ -22,7 +22,7 @@ A segunda: "tem que dormir antes das onze para liberar GH". Não existe janela m
 
 A consequência é o oposto do que se ensina: quem protege esse pulso é a integridade da primeira metade da noite. Sono fragmentado, álcool antes de deitar, apneia, sessão muito dura perto da hora de dormir: tudo isso tira ondas lentas, e tirar ondas lentas é tirar o pulso.
 
-E o sono de ondas lentas é o que mais cai com a idade. Van Cauter e colaboradores acompanharam cento e quarenta e nove homens de dezesseis a oitenta e três anos e viram a queda das ondas lentas acontecer cedo, entre vinte e cinco e quarenta e cinco anos, com a secreção de GH caindo junto. O master que dorme mal está pagando duas vezes.
+E o sono de ondas lentas é o que mais cai com a idade. Um estudo acompanhou cento e quarenta e nove homens de dezesseis a oitenta e três anos e viram a queda das ondas lentas acontecer cedo, entre vinte e cinco e quarenta e cinco anos, com a secreção de GH caindo junto. O master que dorme mal está pagando duas vezes.
 
 ---
 
@@ -106,9 +106,9 @@ GH e IGF-1 não são o motor desse processo. Participam de crescimento e reparo 
 
 Agora o que aconteceu quando alguém foi medir desfecho de verdade. E vou ser preciso, porque aqui a precisão é o ensinamento.
 
-Em 2008, Liu e colaboradores juntaram os estudos de GH em pessoas saudáveis e ativas: vinte e sete amostras, trezentos e três participantes que receberam GH. O GH aumentou a massa magra e não aumentou força nem capacidade de exercício, com mais inchaço e mais fadiga relatada em quem usou.
+Em 2008, uma revisão sistemática juntou os estudos de GH em pessoas saudáveis e ativas: vinte e sete amostras, trezentos e três participantes que receberam GH. O GH aumentou a massa magra e não aumentou força nem capacidade de exercício, com mais inchaço e mais fadiga relatada em quem usou.
 
-Em 2010, Meinhardt e colaboradores fizeram o ensaio que eu considero o mais relevante para o nosso território: noventa e seis atletas recreativos, sessenta e três homens e trinta e três mulheres, oito semanas de GH contra placebo, com parte dos homens recebendo também testosterona, e seis semanas de observação depois de parar.
+Em 2010, saiu o ensaio que eu considero o mais relevante para o nosso território: noventa e seis atletas recreativos, sessenta e três homens e trinta e três mulheres, oito semanas de GH contra placebo, com parte dos homens recebendo também testosterona, e seis semanas de observação depois de parar.
 
 A massa gorda caiu. A massa magra subiu, e boa parte dela era água fora das células, não fibra nova. A capacidade de sprint subiu três vírgula nove por cento com o GH, e oito vírgula três por cento com GH e testosterona juntos. E o efeito sumiu seis semanas depois de parar. Força, potência e capacidade aeróbica não mudaram.
 
@@ -122,7 +122,7 @@ A leitura que eu defendo é diferente do que se ouve dos dois lados. Não é ver
 
 E os secretagogos, porque hoje essa é a pergunta que chega ao consultório muito mais do que o GH injetável.
 
-Em 2008, Nass e colaboradores deram um secretagogo oral a sessenta e cinco adultos saudáveis de sessenta a oitenta e um anos, contra placebo, por dois anos. O GH e o IGF-1 subiram para a faixa do adulto jovem: funcionou exatamente como prometido no exame. A massa livre de gordura aumentou.
+Em 2008, um ensaio deu um secretagogo oral a sessenta e cinco adultos saudáveis de sessenta a oitenta e um anos, contra placebo, por dois anos. O GH e o IGF-1 subiram para a faixa do adulto jovem: funcionou exatamente como prometido no exame. A massa livre de gordura aumentou.
 
 E força e função não mudaram. A glicemia de jejum subiu, a sensibilidade à insulina caiu, e o cortisol subiu.
 
@@ -176,7 +176,7 @@ E existe uma zona que este curso precisa nomear sem rodeio. GH, secretagogos e p
 
 O que é de toda a equipe é o que esta aula entregou: reconhecer quando um exame baixo é consequência de outra coisa, e saber a pergunta que revela a outra coisa. Neste eixo, na maior parte das vezes, a pergunta é sobre o sono.
 
-Na próxima aula, a tireoide, e o achado de laboratório que mais produz tratamento desnecessário em quem treina e come pouco.
+Na próxima conversa, a tireoide, e o achado de laboratório que mais produz tratamento desnecessário em quem treina e come pouco.
 
 ---
 
@@ -193,27 +193,14 @@ Na próxima aula, a tireoide, e o achado de laboratório que mais produz tratame
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de onze slides no lugar de seis blocos longos.
-Arquitetura ERRO mantida (a anterior é PROCEDIMENTO), organizada pelas sete afirmações erradas.
-Sem caso: o homem de cinquenta e poucos anos com IGF-1 baixo é exemplo anônimo, sem desfecho.
+**O que mudou nesta versão.** Voz do curso e deck de onze slides no lugar de seis blocos longos. Arquitetura ERRO mantida (a anterior é PROCEDIMENTO), organizada pelas sete afirmações erradas. Sem caso: o homem de cinquenta e poucos anos com IGF-1 baixo é exemplo anônimo, sem desfecho. Entraram: Van Cauter, Leproult e Plat 2000 (149 homens de 16 a 83 anos; a queda das ondas lentas acontece entre 25 e 45 anos, com a queda de GH acompanhando), para sustentar o "master paga duas vezes". Ho 1987 para a secreção maior de GH na mulher. No secretagogo de Nass, a glicemia de jejum (+0,3 mmol/L) e a queda da sensibilidade à insulina, que estão no mesmo resumo do cortisol (+47 nmol/L) e mudam a conversa com quem quer usar. Nesta revisão, os 6 slides que ainda eram texto viraram desenho (o enquadramento, a dosagem de GH, o jejum, o secretagogo, a apneia e as três condutas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Entraram.** Van Cauter, Leproult e Plat 2000 (149 homens de 16 a 83 anos; a queda das ondas lentas
-acontece entre 25 e 45 anos, com a queda de GH acompanhando), para sustentar o "master paga duas
-vezes". Ho 1987 para a secreção maior de GH na mulher. No secretagogo de Nass, a glicemia de jejum
-(+0,3 mmol/L) e a queda da sensibilidade à insulina, que estão no mesmo resumo do cortisol (+47
-nmol/L) e mudam a conversa com quem quer usar.
+**Números conferidos.** Sem números novos nesta revisão; os da aula foram conferidos na reescrita.
 
-**Correções.** A versão antiga dava o intervalo de confiança do sprint (0 a 7,7%) sem fonte conferida;
-saiu. "A massa magra subiu por aumento de água extracelular" virou "boa parte era água fora das
-células", que é o que o ensaio sustenta sem exagerar. Liu 2008 conferido: 44 artigos, 27 amostras, 303
-participantes com GH.
+**Correções.** A versão antiga dava o intervalo de confiança do sprint (0 a 7,7%) sem fonte conferida; saiu. "A massa magra subiu por aumento de água extracelular" virou "boa parte era água fora das células", que é o que o ensaio sustenta sem exagerar. Liu 2008 conferido: 44 artigos, 27 amostras, 303 participantes com GH. Van Cauter, Liu, Meinhardt e Nass saíram da fala; os estudos entram pelo ano, e o autor fica na fonte do slide.
 
-**Saíram.** "Aula um", "aula quatro do módulo passado", "IGFBP-3 não tem valor diagnóstico" (virou
-"não tem papel no diagnóstico de rotina do adulto"), a lista das sete correções falada no fecho (fica
-no slide, não na fala) e o bloco "Roteiro Gamma".
+**Saíram.** "Aula um", "aula quatro do módulo passado", "IGFBP-3 não tem valor diagnóstico" (virou "não tem papel no diagnóstico de rotina do adulto"), a lista das sete correções falada no fecho (fica no slide, não na fala) e o bloco "Roteiro Gamma". Duração de 20 para 17 minutos.
 
-**Citações faladas.** Van Cauter (sono e GH), Liu, Meinhardt e Nass (os três desfechos medidos).
+**Citações faladas.** Nenhum autor por nome. O estudo do sono ao longo da vida, a revisão de 2008 e os ensaios de 2010 e 2008 entram pelo ano.
 
-**Ligações internas.** pulsatilidade e IGF-1 como integrador = primeira aula do módulo · tensão
-mecânica e o pico agudo = aula da testosterona · PGC-1 alfa = aula do metabolismo oxidativo ·
-hipogonadismo = aula anterior · tireoide = próxima aula.
+**Ligações internas.** pulsatilidade e IGF-1 como integrador = primeira aula do módulo · tensão mecânica e o pico agudo = aula da testosterona · PGC-1 alfa = aula do metabolismo oxidativo · hipogonadismo = aula anterior · tireoide = próxima aula.

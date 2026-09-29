@@ -10,7 +10,7 @@ Duração: 17 minutos · 10 slides · Arquitetura: PROCEDIMENTO
 *Visual: quatro laudos lado a lado, cada um com um valor fora ou na borda da faixa, e embaixo de todos a mesma pergunta: disfunção do eixo, ou eixo respondendo ao contexto?*
 *Teleprompter: (entra pelos quatro exames, sem apresentar ninguém)*
 
-Testosterona baixa num homem de quarenta e dois anos que levanta peso cinco vezes por semana. TSH levemente alterado numa corredora que está em restrição há meses. Cortisol fora da faixa num plantonista. IGF-1 baixo num nadador master que quer recuperar melhor.
+Testosterona baixa num homem de quarenta e poucos anos que levanta peso cinco vezes por semana. TSH levemente alterado numa corredora que está em restrição há meses. Cortisol fora da faixa num plantonista. IGF-1 baixo num nadador master que quer recuperar melhor.
 
 Quatro exames. E em cada um existem duas leituras possíveis, que levam a condutas opostas.
 
@@ -82,7 +82,7 @@ No gonadal feminino, LH e FSH com estradiol, lidos junto com a informação que 
 
 No tireoidiano, TSH com T4 livre. E aqui a leitura tem uma inversão que confunde. Hipotireoidismo primário tem TSH alto. Se o TSH não está alto, a fadiga daquela pessoa não é hipotireoidismo primário. É por isso que o TSH, que é um ótimo rastreio, não fecha a história em quem está em restrição.
 
-No eixo do cortisol, cortisol com ACTH. E o horário da coleta pesa mais aqui do que em qualquer outro lugar, como a próxima aula vai mostrar.
+No eixo do cortisol, cortisol com ACTH. E o horário da coleta pesa mais aqui do que em qualquer outro lugar, como a próxima conversa vai mostrar.
 
 ---
 
@@ -192,7 +192,7 @@ A armadilha mais cara de todas é procurar o hormônio antes de procurar o hábi
 
 Quem faz o quê. Solicitar e interpretar exame hormonal e decidir sobre reposição é ato médico. O que o resto da equipe entrega é o que o médico não tem: a virada percebida semana a semana. A percepção de esforço que subiu, o ciclo que espaçou, a recuperação que encurtou. Encaminhado com essa informação, o pedido de exame já chega com a conta montada.
 
-Na próxima aula, o eixo do cortisol. O mais mal compreendido dos cinco, e o único que virou, ao mesmo tempo, sinônimo de estresse e linha de produtos.
+Na próxima conversa, o eixo do cortisol. O mais mal compreendido dos cinco, e o único que virou, ao mesmo tempo, sinônimo de estresse e linha de produtos.
 
 ---
 
@@ -208,28 +208,14 @@ Na próxima aula, o eixo do cortisol. O mais mal compreendido dos cinco, e o ún
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck enxuto: dez slides no lugar de cinco blocos muito
-longos. Arquitetura PROCEDIMENTO mantida (a última aula do módulo anterior é DECISÃO; a próxima é
-ERRO). O procedimento agora tem quatro passos nomeados, na ordem em que o raciocínio acontece. Sem
-paciente: os quatro laudos da abertura são cena, não caso. Rodízio de modalidade: musculação,
-corrida, plantão, natação.
+**O que mudou nesta versão.** Voz do curso e deck enxuto: dez slides no lugar de cinco blocos muito longos. Arquitetura PROCEDIMENTO mantida (a última aula do módulo anterior é DECISÃO; a próxima é ERRO). O procedimento agora tem quatro passos nomeados, na ordem em que o raciocínio acontece. Sem paciente: os quatro laudos da abertura são cena, não caso. Rodízio de modalidade: musculação, corrida, plantão, natação. Entrou: Loucks e Thuma 2003: 29 mulheres jovens, sedentárias, ciclo regular, cinco dias com disponibilidade de energia controlada (45 contra 10, 20 ou 30 kcal/kg de massa magra por dia). Abaixo de 30, a frequência de pulsos de LH caiu entre 10 e 32% e a amplitude subiu entre 21 e 36%. A fala usa só a frequência. Serve para dar número ao passo dois e para amarrar o atraso entre andares (o comando muda em dias). Limite dito implicitamente: o dado é de mulheres; a fala não generaliza o número para homens. Nesta revisão, os 5 slides que ainda eram texto viraram desenho (os quatro laudos, o par de cada eixo, a anamnese que separa central de funcional, a ficha de coleta e os cinco sistemas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Entrou.** Loucks e Thuma 2003: 29 mulheres jovens, sedentárias, ciclo regular, cinco dias com
-disponibilidade de energia controlada (45 contra 10, 20 ou 30 kcal/kg de massa magra por dia). Abaixo
-de 30, a frequência de pulsos de LH caiu entre 10 e 32% e a amplitude subiu entre 21 e 36%. A fala usa
-só a frequência. Serve para dar número ao passo dois e para amarrar o atraso entre andares (o comando
-muda em dias). Limite dito implicitamente: o dado é de mulheres; a fala não generaliza o número para
-homens.
+**Números conferidos.** Cerca de 80% do T3 circulante vem da desiodação periférica do T4 (Bianco e Kim 2006, revisão das desiodases).
 
-**Conferido.** Cerca de 80% do T3 circulante vem da desiodação periférica do T4 (Bianco e Kim 2006,
-revisão das desiodases).
+**Correções.** A idade do homem que treina força passou a ser dita por década ("quarenta e poucos"), na fala e no slide.
 
-**Saíram.** "Elegante", as menções numeradas a módulo e aula, "no primeiro módulo" (virou "lá no
-começo do curso"), a quarta armadilha em lista (virou o parágrafo da anamnese no fecho) e o bloco
-"Roteiro Gamma", que os decks enxutos não usam.
+**Saíram.** "Elegante", as menções numeradas a módulo e aula, "no primeiro módulo" (virou "lá no começo do curso"), a quarta armadilha em lista (virou o parágrafo da anamnese no fecho) e o bloco "Roteiro Gamma", que os decks enxutos não usam. Duração de 19 para 17 minutos.
 
-**Citações faladas.** Loucks e Thuma, o experimento que põe número no limiar de escassez.
+**Citações faladas.** Loucks e Thuma, pelo experimento que pôs número no limiar de escassez.
 
-**Ligações internas.** conta de reserva = aula de saúde em quem treina · cortisol e horário = próxima
-aula · GH e exame em pacote = aula do eixo do GH · baixa disponibilidade de energia = módulo de
-nutrição esportiva.
+**Ligações internas.** conta de reserva = aula de saúde em quem treina · cortisol e horário = próxima aula · GH e exame em pacote = aula do eixo do GH · baixa disponibilidade de energia = módulo de nutrição esportiva.

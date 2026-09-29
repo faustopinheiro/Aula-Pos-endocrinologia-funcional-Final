@@ -10,7 +10,7 @@ Duração: 25 minutos · 12 slides · Arquitetura: DECISÃO
 *Visual: um laudo com testosterona total de 280 ng/dL ao lado de uma folha de anamnese em branco, as duas do mesmo tamanho. Embaixo, a frase do pedido: "quero começar reposição".*
 *Teleprompter: (entra direto, tom firme e sem acusação)*
 
-Um homem de quarenta e um anos senta na sua frente com um exame na mão e uma frase pronta: "minha testosterona está em duzentos e oitenta, já pesquisei, está abaixo do normal, eu quero começar reposição."
+Um homem de quarenta e poucos anos senta na sua frente com um exame na mão e uma frase pronta: "minha testosterona está em duzentos e oitenta, já pesquisei, está abaixo do normal, eu quero começar reposição."
 
 Essa é a encruzilhada desta aula. E ela chega assim, montada, várias vezes por semana. Às vezes com o exame, às vezes já com a ampola.
 
@@ -124,7 +124,7 @@ A ideia: certo tipo de treino eleva mais a testosterona e o GH logo depois da se
 
 A origem é legítima. Nos anos noventa, vários trabalhos mostraram que volume alto, intervalo curto e muita massa muscular envolvida produzem uma elevação aguda maior desses hormônios. Isso é verdade e continua sendo. O problema foi o salto: assumir que, se o pico é maior, o resultado é maior.
 
-Em 2012, West e Phillips testaram isso em cinquenta e seis homens jovens, num programa de doze semanas de treino de força. No meio do programa, mediram a resposta aguda de GH, testosterona livre, IGF-1 e cortisol depois de uma sessão intensa de pernas, e cruzaram com os ganhos de massa magra, de área da fibra e de força.
+Em 2012, um estudo testou isso em cinquenta e seis homens jovens, num programa de doze semanas de treino de força. No meio do programa, mediram a resposta aguda de GH, testosterona livre, IGF-1 e cortisol depois de uma sessão intensa de pernas, e cruzaram com os ganhos de massa magra, de área da fibra e de força.
 
 Não houve correlação que sustentasse a ideia. O tamanho do pico hormonal da sessão não previu quem ganhou mais músculo.
 
@@ -160,7 +160,7 @@ E o dado que mais convence paciente é limpo. Leproult e Van Cauter, em 2011, no
 
 Uma semana de sono curto faz isso num rapaz saudável. Agora vou montar um caso ilustrativo, porque aqui o tempo é o conteúdo e ele não cabe numa frase.
 
-Corretor de imóveis, quarenta e um anos. Cinco meses de corte alimentar agressivo por conta própria, seis treinos por semana entre musculação e corrida, onze quilos a menos, dormindo cinco horas e meia porque acorda às cinco para treinar, e em processo de separação. Na anamnese aparecem coisas que ele não trouxe como queixa: irritabilidade, queda de rendimento, cansaço ao acordar, e perda de ereção matinal, que só aparece quando alguém pergunta diretamente. Espontaneamente, ninguém conta.
+Corretor de imóveis, quarenta e poucos anos. Cinco meses de corte alimentar agressivo por conta própria, seis treinos por semana entre musculação e corrida, onze quilos a menos, dormindo cinco horas e meia porque acorda às cinco para treinar, e em processo de separação. Na anamnese aparecem coisas que ele não trouxe como queixa: irritabilidade, queda de rendimento, cansaço ao acordar, e perda de ereção matinal, que só aparece quando alguém pergunta diretamente. Espontaneamente, ninguém conta.
 
 O LH, que não tinha sido pedido, vem na faixa baixa do normal. O comando não está sendo dado.
 
@@ -196,7 +196,7 @@ Antes de dosar, três. Como está a conta desse homem: sono, energia, treino, vi
 
 Essa última é a mais importante e a menos feita. Uso prévio, mesmo interrompido há anos, muda a leitura do eixo inteiro. E ele não conta espontaneamente, por vergonha ou porque acha que não importa. Pergunte diretamente, sem julgamento, pelo nome do que ele usou.
 
-Antes de repor, outras três, e aqui a decisão é médica e pesada. A conta já foi corrigida e mantida por tempo suficiente? Existe sintoma consistente, e não só número? Sintoma consistente é libido baixa, perda de ereção matinal, perda documentada de massa e força, humor deprimido que não responde ao resto. Não é cansaço isolado num homem que dorme cinco horas. E a terceira: ele sabe o que a reposição implica, incluindo supressão da produção própria e impacto na fertilidade? O homem de trinta e cinco anos que ainda quer ter filho precisa ouvir isso antes, não depois.
+Antes de repor, outras três, e aqui a decisão é médica e pesada. A conta já foi corrigida e mantida por tempo suficiente? Existe sintoma consistente, e não só número? Sintoma consistente é libido baixa, perda de ereção matinal, perda documentada de massa e força, humor deprimido que não responde ao resto. Não é cansaço isolado num homem que dorme cinco horas. E a terceira: ele sabe o que a reposição implica, incluindo supressão da produção própria e impacto na fertilidade? O homem de trinta e poucos anos que ainda quer ter filho precisa ouvir isso antes, não depois.
 
 Uma palavra sobre a relação testosterona-cortisol, que aparece muito como marcador de excesso de treino. A lógica é atraente, anabólico sobre catabólico, mas a variabilidade é grande demais, e as revisões que a testaram como marcador individual não a sustentaram. Falo dela para você reconhecer quando alguém mostrar. Para monitorar carga, o que funciona é carga interna, sono, peso e o relato do atleta. Nenhum desses é hormônio.
 
@@ -218,7 +218,7 @@ E um limite, que vale para o módulo inteiro. Esta aula ensina a reconhecer, dim
 
 O que eu quero que você saiba fazer é o que mais falta hoje: olhar para um número baixo e perguntar o que aconteceu com aquele homem nos últimos seis meses, antes de perguntar qual a dose.
 
-Na próxima aula, o mesmo eixo, um andar abaixo: o que de fato é hipogonadismo, as armadilhas que fazem um homem saudável parecer hipogonádico, e as que fazem um hipogonádico passar anos sem diagnóstico.
+Na próxima conversa, o mesmo eixo, um andar abaixo: o que de fato é hipogonadismo, as armadilhas que fazem um homem saudável parecer hipogonádico, e as que fazem um hipogonádico passar anos sem diagnóstico.
 
 ---
 
@@ -236,33 +236,14 @@ Na próxima aula, o mesmo eixo, um andar abaixo: o que de fato é hipogonadismo,
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de sete blocos muito
-longos. Arquitetura DECISÃO mantida (a aula anterior é NÚMERO; a próxima é PROCEDIMENTO). É a mais
-longa do trecho (25 min) porque a decisão tem cinco elos (medir, ler as frações, entender o
-estradiol, desmontar o pico agudo, escolher a saída) e não se divide sem perder o critério. O "normal" do laudo, que era bloco próprio, foi para o slide de
-medida.
+**O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de sete blocos muito longos. Arquitetura DECISÃO mantida (a aula anterior é NÚMERO; a próxima é PROCEDIMENTO). É a mais longa do trecho (25 min) porque a decisão tem cinco elos (medir, ler as frações, entender o estradiol, desmontar o pico agudo, escolher a saída) e não se divide sem perder o critério. O "normal" do laudo, que era bloco próprio, foi para o slide de medida. Caso clínico: O corretor de imóveis é o primeiro dos dois casos permitidos no módulo e fica porque o tempo é o conteúdo (quatro meses entre 280 e 510). A versão antiga o apresentava como paciente real ("esse homem existiu") e trazia uma frase dele entre aspas; não há registro disso. Agora é dito como caso ilustrativo, e a frase saiu. Nesta revisão, os 6 slides que ainda eram texto viraram desenho (o quadro que aponta para vinte coisas, as duas verdades, o estradiol, a saída A, a saída C e as seis perguntas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Caso clínico.** O corretor de imóveis é o primeiro dos dois casos permitidos no módulo e fica
-porque o tempo é o conteúdo (quatro meses entre 280 e 510). A versão antiga o apresentava como
-paciente real ("esse homem existiu") e trazia uma frase dele entre aspas; não há registro disso.
-Agora é dito como caso ilustrativo, e a frase saiu.
+**Números conferidos.** Leproult e Van Cauter 2011: 10 homens, média de 24 anos, uma semana deitados das 0h30 às 5h30, testosterona diurna 10 a 15% menor, comparada pelos autores a 10 a 15 anos de envelhecimento. West e Phillips 2012: 56 homens jovens, 12 semanas, resposta aguda de GH, testosterona livre, IGF-1 e cortisol sem associação com ganho de massa magra, área da fibra ou força.
 
-**Correção.** A versão antiga dizia que "boa parte da função sexual dependia do estradiol" no estudo
-de Finkelstein. O que o estudo mostra: massa magra, área da coxa e força acompanharam a testosterona;
-gordura acompanhou sobretudo o estradiol; libido e ereção dependeram dos dois. A fala foi ajustada.
+**Correções.** A versão antiga dizia que "boa parte da função sexual dependia do estradiol" no estudo de Finkelstein. O que o estudo mostra: massa magra, área da coxa e força acompanharam a testosterona; gordura acompanhou sobretudo o estradiol; libido e ereção dependeram dos dois. A fala foi ajustada. "West e Phillips" virou "um estudo". As idades do caso e do exemplo de fertilidade passaram a ser ditas por década.
 
-**Conferido.** Leproult e Van Cauter 2011: 10 homens, média de 24 anos, uma semana deitados das 0h30
-às 5h30, testosterona diurna 10 a 15% menor, comparada pelos autores a 10 a 15 anos de
-envelhecimento. West e Phillips 2012: 56 homens jovens, 12 semanas, resposta aguda de GH,
-testosterona livre, IGF-1 e cortisol sem associação com ganho de massa magra, área da fibra ou força.
+**Saíram.** "Bonita" (a lógica da relação testosterona-cortisol), "colega médico", "aula um", "módulo passado", "brasileira" no primeiro parágrafo (o mercado não é só nosso) e o bloco "Roteiro Gamma". Duração de 31 para 25 minutos.
 
-**Saíram.** "Bonita" (a lógica da relação testosterona-cortisol), "colega médico", "aula um",
-"módulo passado", "brasileira" no primeiro parágrafo (o mercado não é só nosso) e o bloco "Roteiro
-Gamma".
+**Citações faladas.** Finkelstein, pelo ensaio de doses graduadas que separou testosterona e estradiol, e Leproult e Van Cauter, pelo experimento de sono e testosterona. O estudo do pico agudo entra pelo ano.
 
-**Citações faladas.** Finkelstein (estradiol), West e Phillips (o pico agudo), Leproult e Van Cauter
-(sono).
-
-**Ligações internas.** o par e as companhias do central = primeira aula do módulo · tensão mecânica
-= módulo de fisiologia do exercício · baixa disponibilidade de energia = módulo de nutrição esportiva
-· diferencial de hipogonadismo = próxima aula.
+**Ligações internas.** o par e as companhias do central = primeira aula do módulo · tensão mecânica = módulo de fisiologia do exercício · baixa disponibilidade de energia = módulo de nutrição esportiva · diferencial de hipogonadismo = próxima aula.

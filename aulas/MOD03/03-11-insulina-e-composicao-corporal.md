@@ -44,9 +44,9 @@ Existem duas maneiras de levar o GLUT4 até a membrana, e elas são independente
 
 A primeira é a insulina. É a via que todo mundo conhece, e é a que falha na resistência à insulina.
 
-A segunda é a própria contração. Richter e Hargreaves organizaram essa cascata numa revisão de 2013: a contração dispara sinais ligados ao gasto de energia da fibra e ao cálcio, e esses sinais levam o GLUT4 à membrana sem depender da insulina.
+A segunda é a própria contração. Uma revisão de 2013 organizou essa cascata: a contração dispara sinais ligados ao gasto de energia da fibra e ao cálcio, e esses sinais levam o GLUT4 à membrana sem depender da insulina.
 
-E a consequência clínica é enorme. Em 1999, Kennedy e colaboradores fizeram biópsia antes e depois de uma sessão de bicicleta em pessoas com diabetes tipo 2 e em pessoas sem diabetes. O GLUT4 na membrana subiu cerca de setenta por cento nos dois grupos. O músculo que responde mal à insulina respondeu normalmente à contração.
+E a consequência clínica é enorme. Em 1999, um estudo fez biópsia antes e depois de uma sessão de bicicleta em pessoas com diabetes tipo 2 e em pessoas sem diabetes. O GLUT4 na membrana subiu cerca de setenta por cento nos dois grupos. O músculo que responde mal à insulina respondeu normalmente à contração.
 
 Quer dizer: no paciente com resistência à insulina, existe uma porta de entrada preservada. Ela é acionada de graça, e o acionamento é voluntário.
 
@@ -56,7 +56,7 @@ Quer dizer: no paciente com resistência à insulina, existe uma porta de entrad
 *Visual: dois relógios. O agudo: abre as portas que existem, dura cerca de dois dias. O crônico: aumenta o número de portas, se constrói em semanas. Embaixo: cerca de 80% da glicose captada sob clamp vai para o músculo.*
 *Teleprompter: (dois efeitos, dois relógios, e por que o músculo)*
 
-E o treino soma um segundo efeito ao primeiro. Na mesma revisão, Richter e Hargreaves descrevem o treino como o estímulo mais potente conhecido para aumentar a quantidade de GLUT4 no músculo.
+E o treino soma um segundo efeito ao primeiro. A mesma revisão descreve o treino como o estímulo mais potente conhecido para aumentar a quantidade de GLUT4 no músculo.
 
 Então são dois efeitos, com relógios diferentes. O agudo, que abre as portas que já existem e dura perto de dois dias. E o crônico, que aumenta o número de portas e se constrói em semanas.
 
@@ -134,7 +134,7 @@ Por isso a frase que eu levo para o consultório não é "vamos emagrecer". É: 
 
 Três coisas derrubam tudo isso sem ter nada a ver com o treino, e o paciente que treina e não melhora quase sempre tem uma delas rodando.
 
-A primeira é o sono. Em 2012, Broussard e colaboradores colocaram sete adultos jovens e saudáveis em quatro noites de quatro horas e meia na cama, e em outras quatro noites de oito horas e meia, em ordem sorteada, com comida e atividade controladas. Depois das noites curtas, a resposta à insulina piorou no corpo inteiro e na própria célula de gordura, medida por biópsia.
+A primeira é o sono. Em 2012, um estudo colocou sete adultos jovens e saudáveis em quatro noites de quatro horas e meia na cama, e em outras quatro noites de oito horas e meia, em ordem sorteada, com comida e atividade controladas. Depois das noites curtas, a resposta à insulina piorou no corpo inteiro e na própria célula de gordura, medida por biópsia.
 
 Quatro noites. Para boa parte dos seus pacientes, isso é uma semana comum de trabalho. Some ao que a aula da testosterona mostrou com sono restrito e ao que a aula do eixo somatotrófico mostrou sobre sono profundo, e o sono deixa de ser item de bem-estar neste módulo. Ele é variável metabólica.
 
@@ -158,7 +158,7 @@ Proteger a massa magra. Déficit moderado, força sempre, proteína adequada.
 
 Quem faz o quê. O diagnóstico e o tratamento de pré-diabetes e diabetes, e a decisão sobre medicação, são conduta médica, e nada nesta aula sugere que exercício substitua tratamento indicado. Exercício é pilar, o que é diferente de ser a única coisa. A prescrição do estímulo é do educador físico e do preparador físico, e o que esta aula entrega a eles é a razão pela qual frequência importa neste desfecho. A ingestão que sustenta massa magra é do nutricionista. E perceber o sono curto, a restrição e a semana parada é de todos.
 
-Na próxima aula, que fecha este módulo, a gente vai para o tecido que a nossa área mais esquece e que mais cobra depois: o osso, com vitamina D e cálcio, e uma discussão sobre suplementação mais interessante do que os dois lados costumam admitir.
+Na próxima conversa, que fecha este módulo, a gente vai para o tecido que a nossa área mais esquece e que mais cobra depois: o osso, com vitamina D e cálcio, e uma discussão sobre suplementação mais interessante do que os dois lados costumam admitir.
 
 ---
 
@@ -176,38 +176,14 @@ Na próxima aula, que fecha este módulo, a gente vai para o tecido que a nossa 
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de nove slides no lugar de cinco blocos longos.
-Arquitetura NÚMERO mantida (a anterior é ERRO; a próxima é DECISÃO). O número de entrada agora tem
-fonte: Mikines 1988. Sem caso clínico.
+**O que mudou nesta versão.** Voz do curso e deck de nove slides no lugar de cinco blocos longos. Arquitetura NÚMERO mantida (a anterior é ERRO; a próxima é DECISÃO). O número de entrada agora tem fonte: Mikines 1988. Sem caso clínico. Entraram: Mikines 1988, ADA 2016, Kennedy 1999, DeFronzo 1981. Nesta revisão, os 4 slides que ainda eram texto viraram desenho (os dois relógios, as quatro mudanças, o que medir e os sabotadores), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Números conferidos.** Mikines 1988: sete homens destreinados, 60 minutos a 150 W, clamp em repouso,
-logo depois e 48 h depois; efeito presente em 48 h, ausente em 5 dias. ADA 2016: 150 min por semana,
-pelo menos 3 dias, no máximo 2 dias seguidos sem atividade aeróbia. Kennedy 1999: cinco pessoas com
-diabetes tipo 2 e cinco controles; GLUT4 na membrana +74% e +71%. Richter e Hargreaves 2013: o treino
-é o estímulo mais potente para aumentar o GLUT4 muscular. Broussard 2012: sete adultos (seis homens,
-uma mulher, 23,7 anos), quatro noites de 4,5 h contra 8,5 h na cama, cruzado e sorteado.
+**Números conferidos.** Mikines 1988: sete homens destreinados, 60 minutos a 150 W, clamp em repouso, logo depois e 48 h depois; efeito presente em 48 h, ausente em 5 dias. ADA 2016: 150 min por semana, pelo menos 3 dias, no máximo 2 dias seguidos sem atividade aeróbia. Kennedy 1999: cinco pessoas com diabetes tipo 2 e cinco controles; GLUT4 na membrana +74% e +71%. Richter e Hargreaves 2013: o treino é o estímulo mais potente para aumentar o GLUT4 muscular. Broussard 2012: sete adultos (seis homens, uma mulher, 23,7 anos), quatro noites de 4,5 h contra 8,5 h na cama, cruzado e sorteado.
 
-**Correções.**
-- "Oitenta por cento da glicose ingerida vai para o músculo" estava impreciso. O número vem do clamp,
-  com insulina alta e glicose intravenosa (DeFronzo 1981; DeFronzo e Tripathy 2009). Depois de
-  refeição, a divisão com fígado e outros tecidos é maior. A fala agora diz as duas coisas.
-- "Quarenta e oito horas" não tinha fonte; agora é Mikines 1988.
-- Broussard: os percentuais de queda não foram conferidos no texto completo e não entraram na fala;
-  entrou o desenho do estudo e a direção do resultado.
-- Os nomes AMPK, cálcio e óxido nítrico saíram da fala; ficou "sinais ligados ao gasto de energia da
-  fibra e ao cálcio", que é o que a revisão sustenta sem abrir a cascata.
+**Correções.** - "Oitenta por cento da glicose ingerida vai para o músculo" estava impreciso. O número vem do clamp, com insulina alta e glicose intravenosa (DeFronzo 1981; DeFronzo e Tripathy 2009). Depois de refeição, a divisão com fígado e outros tecidos é maior. A fala agora diz as duas coisas. - "Quarenta e oito horas" não tinha fonte; agora é Mikines 1988. - Broussard: os percentuais de queda não foram conferidos no texto completo e não entraram na fala; entrou o desenho do estudo e a direção do resultado. - Os nomes AMPK, cálcio e óxido nítrico saíram da fala; ficou "sinais ligados ao gasto de energia da fibra e ao cálcio", que é o que a revisão sustenta sem abrir a cascata. "Richter e Hargreaves", Kennedy e Broussard saíram da fala; a revisão e os estudos entram pelo ano.
 
-**Entraram.** Mikines 1988, ADA 2016, Kennedy 1999, DeFronzo 1981.
+**Saíram.** "Escopo", "módulo passado", "aula passada" como número de aula, Severinsen 2020 (sem uso na fala), Breen e McGlory na lista (continuam citados só pelo nome da aula de destreino) e o bloco "Roteiro Gamma". Duração de 15 para 15 minutos.
 
-**Saíram.** "Escopo", "módulo passado", "aula passada" como número de aula, Severinsen 2020 (sem uso
-na fala), Breen e McGlory na lista (continuam citados só pelo nome da aula de destreino) e o bloco
-"Roteiro Gamma".
+**Citações faladas.** Mikines, pelo experimento que mostrou o efeito de uma sessão sobre a insulina. A revisão de 2013 e os estudos de 1999 e 2012 entram pelo ano.
 
-**Citações faladas.** Mikines (o número), Richter e Hargreaves (a via da contração), Kennedy (o
-GLUT4 no diabetes), Broussard (o sono). A ADA como instituição.
-
-**Ligações internas.** hipotensão pós-exercício = aula cardiovascular · capilarização = aula de
-metabolismo oxidativo · zona de queima de gordura = módulo de fisiologia do exercício · VO₂máx por
-quilo = aula de limiares e VO₂máx · marcador que se move = aula do eixo somatotrófico · sono =
-aulas da testosterona e do eixo somatotrófico · catorze dias = aula de destreino · músculo endócrino
-= aula anterior · proteína = módulo de nutrição esportiva · osso = próxima aula.
+**Ligações internas.** hipotensão pós-exercício = aula cardiovascular · capilarização = aula de metabolismo oxidativo · zona de queima de gordura = módulo de fisiologia do exercício · VO₂máx por quilo = aula de limiares e VO₂máx · marcador que se move = aula do eixo somatotrófico · sono = aulas da testosterona e do eixo somatotrófico · catorze dias = aula de destreino · músculo endócrino = aula anterior · proteína = módulo de nutrição esportiva · osso = próxima aula.

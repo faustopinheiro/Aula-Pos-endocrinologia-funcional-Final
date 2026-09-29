@@ -16,9 +16,9 @@ Um homem saudável é tratado como hipogonádico. Recebe reposição, suprime o 
 
 E um homem hipogonádico passa anos sem diagnóstico. É tratado como cansaço, estresse ou idade, enquanto a causa real segue sem investigação.
 
-A aula passada tratou da decisão de repor. Esta é o diferencial: o roteiro que separa as duas portas.
+A decisão de repor já apareceu quando a gente falou de testosterona. Esta é o diferencial: o roteiro que separa as duas portas.
 
-E para dar a dimensão do segundo erro, um número. A síndrome de Klinefelter, a causa genética mais comum de hipogonadismo primário, aparece em cerca de um em cada seiscentos e cinquenta nascimentos masculinos. Um registro nacional da Dinamarca, de Bojesen e colaboradores, estimou que só um quarto dos afetados chega a ser diagnosticado. Três em cada quatro, nunca.
+E para dar a dimensão do segundo erro, um número. A síndrome de Klinefelter, a causa genética mais comum de hipogonadismo primário, aparece em cerca de um em cada seiscentos e cinquenta nascimentos masculinos. Um registro nacional da Dinamarca estimou que só um quarto dos afetados chega a ser diagnosticado. Três em cada quatro, nunca.
 
 E boa parte deles passa pelo consultório por infertilidade, ginecomastia, dificuldade de ganhar massa. Exatamente as queixas que chegam à nossa área.
 
@@ -46,7 +46,7 @@ E aqui está a dificuldade central deste diferencial: a caixa dois e a caixa tr�
 
 Passo dois: antes de aceitar o número, auditar como ele foi produzido. Existem armadilhas que fabricam uma testosterona baixa em quem não tem hipogonadismo.
 
-O horário, que é a primeira de todas: coleta de tarde é coleta no vale. O alimento: coleta depois de comer, sobretudo carboidrato, reduz o valor por algumas horas. A doença aguda: um homem colhido durante ou logo depois de uma virose tem um exame que descreve a virose, não o eixo dele. O treino extenuante recente, pela mesma lógica. A SHBG não pedida, que faz o atleta magro e o homem com obesidade errarem em direções opostas, como a gente viu na aula passada.
+O horário, que é a primeira de todas: coleta de tarde é coleta no vale. O alimento: coleta depois de comer, sobretudo carboidrato, reduz o valor por algumas horas. A doença aguda: um homem colhido durante ou logo depois de uma virose tem um exame que descreve a virose, não o eixo dele. O treino extenuante recente, pela mesma lógica. A SHBG não pedida, que faz o atleta magro e o homem com obesidade errarem em direções opostas, como a gente viu quando falou de testosterona.
 
 E a troca de método. Métodos de dosagem não são intercambiáveis e as faixas variam entre laboratórios. Comparar um exame de cinco anos atrás, feito num lugar, com um de hoje, feito em outro, como se fossem a mesma medida, produz uma "queda" que é de método.
 
@@ -64,7 +64,7 @@ Os medicamentos. Opioide, inclusive o de uso crônico para dor, é dos supressor
 
 E a obesidade, que é a mais prevalente no consultório. Ela derruba a testosterona por duas vias somadas: SHBG baixa, que derruba a total, e mais aromatização no tecido adiposo, com mais estradiol e mais freio sobre o eixo.
 
-O ponto que muda conduta: é a causa reversível mais comum de testosterona baixa no homem adulto. A meta-análise de Corona e colaboradores mostrou que perda de peso sobe a testosterona, e sobe mais quanto maior a perda. Sem ampola, sem supressão do eixo, sem impacto na fertilidade.
+O ponto que muda conduta: é a causa reversível mais comum de testosterona baixa no homem adulto. Uma meta-análise mostrou que perda de peso sobe a testosterona, e sobe mais quanto maior a perda. Sem ampola, sem supressão do eixo, sem impacto na fertilidade.
 
 Isso não é negar tratamento a quem precisa. É dizer que, num homem com obesidade e testosterona baixa sem outra causa aparente, a perda de peso é intervenção de primeira linha sobre o próprio eixo. Entra na mesa antes da reposição, não depois.
 
@@ -76,7 +76,7 @@ Isso não é negar tratamento a quem precisa. É dizer que, num homem com obesid
 
 Passo três: as armadilhas do outro lado, as que fazem o hipogonádico verdadeiro passar batido.
 
-"É normal nessa idade." É a frase que sepulta mais diagnóstico neste assunto. A queda com a idade é lenta e modesta. Um homem de quarenta e cinco anos com testosterona francamente baixa e sintoma consistente não está simplesmente envelhecendo.
+"É normal nessa idade." É a frase que sepulta mais diagnóstico neste assunto. A queda com a idade é lenta e modesta. Um homem de quarenta e tantos anos com testosterona francamente baixa e sintoma consistente não está simplesmente envelhecendo.
 
 Total normal com SHBG alta. O homem magro, de endurance, pode ter total na faixa e fração disponível ruim. Se você só olhou a total, ele passa.
 
@@ -112,9 +112,9 @@ O mecanismo é o do módulo inteiro. O androgênio de fora faz feedback negativo
 
 Quanto tempo leva para voltar? A resposta honesta: mais do que se promete, e nem sempre volta.
 
-Em 2021, Vilar Neto e colaboradores reuniram na literatura cento e sessenta e oito casos de hipogonadismo claramente ligado a anabolizante. Só trinta e oito tinham o desfecho completamente conhecido. E, desses, só quatro recuperaram o eixo por completo, dois deles com ajuda de medicamento.
+Em 2021, uma revisão reuniu na literatura cento e sessenta e oito casos de hipogonadismo claramente ligado a anabolizante. Só trinta e oito tinham o desfecho completamente conhecido. E, desses, só quatro recuperaram o eixo por completo, dois deles com ajuda de medicamento.
 
-Esse número tem viés, e é preciso dizer: são relatos publicados, e caso que deu errado chega mais ao papel do que caso que se resolveu sozinho. Uma revisão de 2023, de Solanki e colaboradores, fecha o quadro de outro jeito: a recuperação é imensamente variável e faltam dados prospectivos sobre o que acontece depois de parar.
+Esse número tem viés, e é preciso dizer: são relatos publicados, e caso que deu errado chega mais ao papel do que caso que se resolveu sozinho. Uma revisão de 2023 fecha o quadro de outro jeito: a recuperação é imensamente variável e faltam dados prospectivos sobre o que acontece depois de parar.
 
 Traduzindo para o paciente: ninguém consegue prometer quanto tempo, nem se.
 
@@ -130,7 +130,7 @@ Primeira: a palavra "ciclo" embute a promessa de que se sai de onde se entrou. O
 
 Segunda: a terapia pós-ciclo não é botão de reset. Existem esquemas médicos para tentar acelerar a recuperação, com indicação, e eles não garantem retorno. Vendidos como garantia, são desinformação.
 
-Terceira, a que mais muda decisão quando é dita na hora certa: fertilidade. O rapaz de vinte e oito anos que ainda vai querer ter filho precisa dessa informação antes, não depois de três anos de uso.
+Terceira, a que mais muda decisão quando é dita na hora certa: fertilidade. O rapaz de vinte e tantos anos que ainda vai querer ter filho precisa dessa informação antes, não depois de três anos de uso.
 
 E o ponto de conduta: um homem com testosterona baixa, LH baixo e testículos pequenos e moles tem uma história que não está no exame. Pergunte, sem julgamento, pelo nome do que ele usou, por quanto tempo e há quanto tempo parou. Se você não perguntar, vai diagnosticar hipogonadismo central sem causa num homem que tem uma causa conhecida, e vai tratar com o mesmo hormônio que produziu o quadro.
 
@@ -166,7 +166,7 @@ O que é da equipe inteira, e é muito, está em dois lugares. O primeiro é o p
 
 O segundo é a substância. O paciente muitas vezes conta ao educador físico o que não conta ao médico: a relação é semanal, o ambiente é outro, e ele acha que ali não vai ser julgado. Quando isso acontecer, a informação precisa chegar ao médico, com o consentimento dele, explicando por que aquilo muda o diagnóstico inteiro. Não é delação. É a diferença entre tratar a causa e tratar o número.
 
-Na próxima aula, outro eixo, o mais vendido e o mais mal explicado de todos: GH e IGF-1. E a gente começa por um exame oferecido em pacote que, pela própria fisiologia do hormônio, quase não significa nada.
+Na próxima conversa, outro eixo, o mais vendido e o mais mal explicado de todos: GH e IGF-1. E a gente começa por um exame oferecido em pacote que, pela própria fisiologia do hormônio, quase não significa nada.
 
 ---
 
@@ -182,30 +182,14 @@ Na próxima aula, outro eixo, o mais vendido e o mais mal explicado de todos: GH
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de seis blocos longos.
-Arquitetura PROCEDIMENTO mantida (a anterior é DECISÃO; a próxima é ERRO). Sem paciente.
+**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de seis blocos longos. Arquitetura PROCEDIMENTO mantida (a anterior é DECISÃO; a próxima é ERRO). Sem paciente. Entrou: Corona 2013, meta-análise sobre perda de peso e testosterona, para sustentar a obesidade como causa reversível mais comum. E a ressalva de viés no dado de anabolizante: relato publicado favorece o caso que deu errado. Nesta revisão, os 7 slides que ainda eram texto viraram desenho (as duas portas e Klinefelter, a auditoria do número, remédios e obesidade, as armadilhas, o exame físico, as três coisas ditas com clareza e os cinco passos), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Correções.**
-- A revisão de 2023 (scoping review) estava atribuída a "Windfeld-Mathiasen e colaboradores". Os autores
-  são Solanki, Eu, Smith, Allan e Lee. Corrigido na fala e na referência.
-- A versão antiga dava prazos de recuperação ("gonadotrofinas em três a seis meses") sem fonte
-  conferida. Saiu. A fala usa o que foi conferido: o funil de Vilar Neto (168 casos, 38 com desfecho
-  completo, 4 com reversão completa, 2 deles com medicamento) e a conclusão de Solanki sobre a
-  variabilidade.
-- Klinefelter: "um em cada seiscentos" virou "um em cada seiscentos e cinquenta", que é o que dá a
-  prevalência de Bojesen (153 por 100.000 nascimentos masculinos). Só 25% dos casos diagnosticados.
+**Números conferidos.** Sem números novos nesta revisão; os da aula foram conferidos na reescrita.
 
-**Entrou.** Corona 2013, meta-análise sobre perda de peso e testosterona, para sustentar a obesidade
-como causa reversível mais comum. E a ressalva de viés no dado de anabolizante: relato publicado
-favorece o caso que deu errado.
+**Correções.** - A revisão de 2023 (scoping review) estava atribuída a "Windfeld-Mathiasen e colaboradores". Os autores são Solanki, Eu, Smith, Allan e Lee. Corrigido na fala e na referência. - A versão antiga dava prazos de recuperação ("gonadotrofinas em três a seis meses") sem fonte conferida. Saiu. A fala usa o que foi conferido: o funil de Vilar Neto (168 casos, 38 com desfecho completo, 4 com reversão completa, 2 deles com medicamento) e a conclusão de Solanki sobre a variabilidade. - Klinefelter: "um em cada seiscentos" virou "um em cada seiscentos e cinquenta", que é o que dá a prevalência de Bojesen (153 por 100.000 nascimentos masculinos). Só 25% dos casos diagnosticados. Bojesen, Corona, Vilar Neto e Solanki saíram da fala; os estudos entram pelo tipo e pelo ano. As duas menções a "aula passada" viraram referência à conversa sobre testosterona. As idades dos exemplos passaram a ser ditas por década.
 
-**Saíram.** Finasterida e dutasterida da lista de medicamentos (não baixam a total, e a frase
-confundia mais do que ajudava). "Brasileiro" na obesidade. A numeração das armadilhas (eram sete;
-agora são agrupadas pelo passo em que aparecem). Menções numeradas a slide e aula. O bloco "Roteiro
-Gamma".
+**Saíram.** Finasterida e dutasterida da lista de medicamentos (não baixam a total, e a frase confundia mais do que ajudava). "Brasileiro" na obesidade. A numeração das armadilhas (eram sete; agora são agrupadas pelo passo em que aparecem). Menções numeradas a slide e aula. O bloco "Roteiro Gamma". Duração de 18 para 15 minutos.
 
-**Citações faladas.** Bojesen (Klinefelter), Corona (perda de peso), Vilar Neto e Solanki
-(anabolizante).
+**Citações faladas.** Nenhum autor por nome; Klinefelter e Kallmann entram como nomes de síndrome.
 
-**Ligações internas.** SHBG e horário = aula anterior · o par = primeira aula do módulo · GH e
-IGF-1 = próxima aula.
+**Ligações internas.** SHBG e horário = aula anterior · o par = primeira aula do módulo · GH e IGF-1 = próxima aula.

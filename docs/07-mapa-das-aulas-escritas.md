@@ -108,7 +108,7 @@ no formato completo, com as ligações internas pelo nome da aula e do módulo, 
 
 **ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão do Módulo 2: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em bordô, a cor do módulo (docs/08).
-Casos clínicos no módulo: dois, o teto (3.4, o corretor de 41 anos; 3.7, a corredora de 31 anos; ambos
+Casos clínicos no módulo: dois, o teto (3.4, o corretor de quarenta e poucos anos; 3.7, a corredora de trinta e poucos anos; ambos
 ditos como caso ilustrativo). As aulas 3.8 a 3.12 ficam sem caso.
 
 | Slot | Aula | Min | Slides | Arquitetura | Deck |

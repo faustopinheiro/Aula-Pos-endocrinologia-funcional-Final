@@ -14,7 +14,7 @@ Catorze dias.
 
 Não é um mês. Não são três meses. Catorze dias.
 
-Em 2013, Breen e colaboradores pediram a idosos saudáveis uma coisa só: andar menos. Os passos por dia caíram cerca de setenta e seis por cento, para perto de mil e quatrocentos. Sem internação, sem cama, sem doença.
+Em 2013, um estudo pediu a idosos saudáveis uma coisa só: andar menos. Os passos por dia caíram cerca de setenta e seis por cento, para perto de mil e quatrocentos. Sem internação, sem cama, sem doença.
 
 Duas semanas depois, a sensibilidade à insulina depois da refeição tinha caído cerca de quarenta e três por cento, e a resistência à insulina em jejum subido cerca de doze. A síntese de proteína muscular depois da refeição caiu cerca de vinte e seis por cento: o músculo perdeu parte da capacidade de responder à proteína que chegava. É o que a literatura chama de resistência anabólica, instalada em catorze dias. E a massa magra da perna diminuiu.
 
@@ -44,7 +44,7 @@ Essa assimetria é a tese da aula: as adaptações se perdem mais rápido do que
 
 E aqui a concessão que o tema pede, porque nem todo estudo encontra o mesmo.
 
-Em 2024, Walker e colaboradores sortearam sessenta e seis idosos, quase oito em cada dez mulheres, para duas semanas com menos de dois mil passos por dia, contra um grupo que seguiu a rotina. A massa magra da perna não mudou, e a função física também não.
+Em 2024, um ensaio sorteou sessenta e seis idosos, quase oito em cada dez mulheres, para duas semanas com menos de dois mil passos por dia, contra um grupo que seguiu a rotina. A massa magra da perna não mudou, e a função física também não.
 
 Então o recado não é "duas semanas estragam qualquer idoso". É mais fino. O tamanho do estrago depende de quanto a atividade cai e de quem está caindo. Mil passos em quem já tem pré-diabetes não é o mesmo que dois mil em quem está metabolicamente bem. O dado mais consistente dos três é o metabólico, no grupo mais vulnerável.
 
@@ -120,7 +120,7 @@ E a urgência no idoso e no pós-operatório, onde o relógio da inatividade cor
 
 Quem faz o quê. A dose de manutenção e o retorno progressivo são do preparador físico e do educador físico. Conduzir isso em tecido lesionado é da fisioterapia. A liberação clínica, quando há condição médica, é do médico. E enxergar o afastamento antes que vire hábito é de toda a equipe.
 
-Na próxima aula, a chave do módulo vira: o músculo não como alvo dos hormônios, mas como órgão que os produz.
+Na próxima conversa, a chave do módulo vira: o músculo não como alvo dos hormônios, mas como órgão que os produz.
 
 ---
 
@@ -136,30 +136,14 @@ Na próxima aula, a chave do módulo vira: o músculo não como alvo dos hormôn
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de oito slides no lugar de quatro blocos longos.
-Arquitetura NÚMERO mantida (a anterior é DECISÃO; a próxima é ERRO). Aula curta, a segunda do
-módulo depois da 3.3. Sem caso clínico.
+**O que mudou nesta versão.** Voz do curso e deck de oito slides no lugar de quatro blocos longos. Arquitetura NÚMERO mantida (a anterior é DECISÃO; a próxima é ERRO). Aula curta, a segunda do módulo depois da 3.3. Sem caso clínico. Entrou: Walker 2024 (ensaio randomizado, 66 idosos, 79% mulheres, menos de 2.000 passos por duas semanas: massa magra da perna e função sem mudança; HDL caiu de forma transitória). É a concessão da aula: o efeito depende de quanto a atividade cai e de quem cai. O dado mais consistente é o metabólico no grupo com pré-diabetes. Nesta revisão, os 4 slides que ainda eram texto viraram desenho (os catorze dias andando menos, a régua de passos, as duas conversas e a manutenção), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Números conferidos.** Breen 2013: passos reduzidos em ~76%, para 1.413 ± 110 por dia; sensibilidade
-à insulina pós-prandial −43%; resistência à insulina pós-absortiva +12%; síntese de proteína
-miofibrilar pós-prandial −26%; massa magra da perna menor. McGlory 2018: 22 adultos (12 homens, 10
-mulheres, 69 ± 4 anos), 7 dias habituais, 14 dias com menos de 1.000 passos, 14 dias de recuperação.
+**Números conferidos.** Breen 2013: passos reduzidos em ~76%, para 1.413 ± 110 por dia; sensibilidade à insulina pós-prandial −43%; resistência à insulina pós-absortiva +12%; síntese de proteína miofibrilar pós-prandial −26%; massa magra da perna menor. McGlory 2018: 22 adultos (12 homens, 10 mulheres, 69 ± 4 anos), 7 dias habituais, 14 dias com menos de 1.000 passos, 14 dias de recuperação.
 
-**Correção.** A versão antiga dava, para McGlory, "glicemia de jejum 8% maior e insulina 31% maior".
-Esses percentuais não foram conferidos e saíram. A fala usa o que está no título e no resumo: o
-controle da glicose e a síntese de proteína não se recuperaram em 14 dias.
+**Correções.** A versão antiga dava, para McGlory, "glicemia de jejum 8% maior e insulina 31% maior". Esses percentuais não foram conferidos e saíram. A fala usa o que está no título e no resumo: o controle da glicose e a síntese de proteína não se recuperaram em 14 dias. "Breen e colaboradores" e "Walker e colaboradores" viraram "um estudo" e "um ensaio", ditos pelo ano.
 
-**Entrou.** Walker 2024 (ensaio randomizado, 66 idosos, 79% mulheres, menos de 2.000 passos por duas
-semanas: massa magra da perna e função sem mudança; HDL caiu de forma transitória). É a concessão da
-aula: o efeito depende de quanto a atividade cai e de quem cai. O dado mais consistente é o
-metabólico no grupo com pré-diabetes.
+**Saíram.** "Módulo 2", "módulo passado", Bishop 2019 (citado na lista antiga sem aparecer na fala) e o bloco "Roteiro Gamma". Duração de 12 para 11 minutos.
 
-**Saíram.** "Módulo 2", "módulo passado", Bishop 2019 (citado na lista antiga sem aparecer na fala) e
-o bloco "Roteiro Gamma".
+**Citações faladas.** Mujika e Padilla, pelas revisões clássicas que organizaram a cronologia do destreino. Os estudos de 2013, 2018 e 2024 entram pelo ano.
 
-**Citações faladas.** Breen, McGlory e Walker (os três estudos de redução de passos), Mujika e Padilla
-(a cronologia do destreino).
-
-**Ligações internas.** volume plasmático = aula cardiovascular do módulo de fisiologia do exercício ·
-modelo aptidão-fadiga = aula de recuperação · manutenção com força = aula de treino concorrente ·
-educação cruzada = aula de unidade motora · músculo como órgão endócrino = próxima aula.
+**Ligações internas.** volume plasmático = aula cardiovascular do módulo de fisiologia do exercício · modelo aptidão-fadiga = aula de recuperação · manutenção com força = aula de treino concorrente · educação cruzada = aula de unidade motora · músculo como órgão endócrino = próxima aula.

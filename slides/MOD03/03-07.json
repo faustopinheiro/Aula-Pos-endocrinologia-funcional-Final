@@ -952,7 +952,7 @@
    "id": "caso",
    "tipo": "diagrama",
    "h": 380,
-   "svg": "<svg aria-label=\"Caso ilustrativo: corredora de 31 anos com T3 baixo, TSH 1,8 e T4 livre no limite; seis meses de T3 manipulado depois, TSH suprimido, palpitação, sono pior, dois quilos a menos quase todos de massa magra e o mesmo cansaço\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"620\" height=\"330\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"640\" y1=\"185\" x2=\"1020\" y2=\"185\" stroke=\"#6B7A87\" stroke-width=\"5\" marker-end=\"url(#c1)\"/><rect x=\"1044\" y=\"20\" width=\"620\" height=\"330\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "svg": "<svg aria-label=\"Caso ilustrativo: corredora de trinta e poucos anos com T3 baixo, TSH 1,8 e T4 livre no limite; seis meses de T3 manipulado depois, TSH suprimido, palpitação, sono pior, dois quilos a menos quase todos de massa magra e o mesmo cansaço\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"c1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"620\" height=\"330\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"640\" y1=\"185\" x2=\"1020\" y2=\"185\" stroke=\"#6B7A87\" stroke-width=\"5\" marker-end=\"url(#c1)\"/><rect x=\"1044\" y=\"20\" width=\"620\" height=\"330\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
    "rotulos": [
     {
      "x": 30,
@@ -969,7 +969,7 @@
      "x": 30,
      "y": 96,
      "w": 560,
-     "t": "31 anos, 60 km por semana<br>cansaço, frio, intestino lento<br>T3 baixo · TSH 1,8 · T4 livre no limite",
+     "t": "30 e poucos anos, 60 km por semana<br>cansaço, frio, intestino lento<br>T3 baixo · TSH 1,8 · T4 livre no limite",
      "tam": 26,
      "cor": "#12202E",
      "peso": 400,

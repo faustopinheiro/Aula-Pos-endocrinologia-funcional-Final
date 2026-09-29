@@ -14,9 +14,9 @@ Doze vezes.
 
 É quanto a noradrenalina plasmática subiu, em relação ao repouso, em homens treinados pedalando oito minutos a noventa por cento do consumo máximo de oxigênio. De cerca de duzentos e vinte para perto de dois mil e setecentos picogramas por mililitro. A adrenalina subiu na mesma ordem: de cerca de cinquenta para quinhentos e cinquenta.
 
-O dado é de Sothmann e colaboradores, de 1987, em sete homens treinados que pedalaram a trinta, sessenta e noventa por cento. E o formato é tão importante quanto o tamanho: a subida que chegou a ser significativa apareceu no esforço de noventa por cento. Em intensidade baixa e moderada, o sistema mexe pouco. Acima de um certo ponto, dispara.
+O dado é de um estudo de 1987, em sete homens treinados que pedalaram a trinta, sessenta e noventa por cento. E o formato é tão importante quanto o tamanho: a subida que chegou a ser significativa apareceu no esforço de noventa por cento. Em intensidade baixa e moderada, o sistema mexe pouco. Acima de um certo ponto, dispara.
 
-Doze vezes, em minutos. Nenhum outro sistema deste módulo se move nessa escala e nessa velocidade. O cortisol da aula passada sobe uma fração disso. O gonadal e o tireoidiano levam semanas para mudar de patamar.
+Doze vezes, em minutos. Nenhum outro sistema deste módulo se move nessa escala e nessa velocidade. O cortisol sobe uma fração disso. O gonadal e o tireoidiano levam semanas para mudar de patamar.
 
 As catecolaminas são o sistema que responde primeiro. E esta aula é sobre o que esse número explica, e sobre o que ele não explica.
 
@@ -108,7 +108,7 @@ Ele não explica fadiga crônica. Catecolamina sobe em segundos e cai em minutos
 
 Ele não é exame de rotina de quem treina. A dosagem de metanefrinas existe e tem indicação precisa: suspeita de feocromocitoma, diante de crises de pressão alta, dor de cabeça, palpitação e suor. Fora desse quadro, o resultado é difícil de interpretar e a ansiedade sai cara.
 
-E ele não é o que se trata em quem está com o sistema acionado o tempo todo. O que se trata é o contexto. A mesma conclusão da aula passada.
+E ele não é o que se trata em quem está com o sistema acionado o tempo todo. O que se trata é o contexto. A mesma conclusão a que a gente chegou com o cortisol.
 
 ---
 
@@ -122,7 +122,7 @@ Na prática, sobra uma regra para toda a equipe: no dia da prova, no calor e em 
 
 Quem faz o quê. Investigar e tratar qualquer coisa nesse território é médico, do ajuste do betabloqueador à suspeita de feocromocitoma. Prescrever por percepção de esforço, ensinar o atleta a usá-la e não brigar com o relógio no dia da prova é do educador físico e do preparador.
 
-Na próxima aula, a gente troca de escala de tempo de vez. Sai do sistema que responde em segundos e vai para um que leva meses para mudar de patamar, e que é, de longe, o mais dosado e o mais reposto de todos: a testosterona no praticante.
+Na próxima conversa, a gente troca de escala de tempo de vez. Sai do sistema que responde em segundos e vai para um que leva meses para mudar de patamar, e que é, de longe, o mais dosado e o mais reposto de todos: a testosterona no praticante.
 
 ---
 
@@ -140,25 +140,14 @@ Na próxima aula, a gente troca de escala de tempo de vez. Sai do sistema que re
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de oito slides. Arquitetura NÚMERO mantida (a
-aula anterior é ERRO). Aula curta de propósito: o módulo precisa de pelo menos duas. Sem paciente: a
-judoca é cena de duas linhas. Rodízio: combate, depois de musculação e corrida na abertura do módulo.
+**O que mudou nesta versão.** Voz do curso e deck de oito slides. Arquitetura NÚMERO mantida (a aula anterior é ERRO). Aula curta de propósito: o módulo precisa de pelo menos duas. Sem paciente: a judoca é cena de duas linhas. Rodízio: combate, depois de musculação e corrida na abertura do módulo. Nesta revisão, os 4 slides que ainda eram texto viraram desenho (adrenalina e noradrenalina, os seis alvos, o betabloqueador e os estimulantes e o que o sistema explica), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Fonte do número.** A versão antiga trazia "doze vezes, de 219 para 2.738 pg/mL" sem dizer de onde
-vinha. É de Sothmann, Gustafson e Chandler 1987: sete homens treinados, oito minutos de bicicleta a
-cerca de 30, 60 e 90% do VO₂máx. Noradrenalina livre de 219 ± 85 para 2.738 ± 1.149 pg/mL e adrenalina
-de 49 ± 49 para 555 ± 516 pg/mL a 90%; o aumento significativo de ambas só apareceu a 90%. A fala agora
-atribui o dado e descreve o formato sem afirmar que a dobra coincide com o segundo limiar, que a
-versão antiga dizia sem fonte.
+**Números conferidos.** Kjær 1998: treinado de endurance libera menos adrenalina na mesma carga absoluta e tem maior capacidade de secreção no máximo ("sports adrenal medulla"). Fonte do número: A versão antiga trazia "doze vezes, de 219 para 2.738 pg/mL" sem dizer de onde vinha. É de Sothmann, Gustafson e Chandler 1987: sete homens treinados, oito minutos de bicicleta a cerca de 30, 60 e 90% do VO₂máx. Noradrenalina livre de 219 ± 85 para 2.738 ± 1.149 pg/mL e adrenalina de 49 ± 49 para 555 ± 516 pg/mL a 90%; o aumento significativo de ambas só apareceu a 90%. A fala agora atribui o dado e descreve o formato sem afirmar que a dobra coincide com o segundo limiar, que a versão antiga dizia sem fonte.
 
-**Conferido.** Kjær 1998: treinado de endurance libera menos adrenalina na mesma carga absoluta e tem
-maior capacidade de secreção no máximo ("sports adrenal medulla").
+**Correções.** "Sothmann e colaboradores" virou "um estudo de 1987". As duas menções a "aula passada" viraram referência ao cortisol.
 
-**Saíram.** "Bonito", "olha isso com atenção", as menções numeradas a módulo e aula ("aula cinco do
-módulo passado", "aula três"), e o bloco "Roteiro Gamma".
+**Saíram.** "Bonito", "olha isso com atenção", as menções numeradas a módulo e aula ("aula cinco do módulo passado", "aula três"), e o bloco "Roteiro Gamma". Duração de 13 para 10 minutos.
 
-**Citações faladas.** Sothmann (o número da abertura) e Kjær (a medula adrenal esportiva).
+**Citações faladas.** Nenhum autor por nome. O dado das doze vezes entra como estudo de 1987.
 
-**Ligações internas.** ácido lático e lactato = aula do glicolítico · redistribuição de fluxo = aula
-cardiovascular · cortisol = aula anterior · betabloqueador e cardiopata = módulo de medicina esportiva
-clínica · estimulantes com nome e dose = módulo de suplementação · testosterona = próxima aula.
+**Ligações internas.** ácido lático e lactato = aula do glicolítico · redistribuição de fluxo = aula cardiovascular · cortisol = aula anterior · betabloqueador e cardiopata = módulo de medicina esportiva clínica · estimulantes com nome e dose = módulo de suplementação · testosterona = próxima aula.

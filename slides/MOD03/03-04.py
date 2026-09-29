@@ -200,7 +200,7 @@ S = _redesenho.aplicar(S, "03-04")
 spec = {"arquivo": "aulas/MOD03/03-04-testosterona-no-praticante.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Testosterona no praticante de exercício", "subtitulo": "Avaliação laboratorial e decisão terapêutica",
-        "nota_capa": "Entra direto no pedido do homem de 41 anos.",
+        "nota_capa": "Entra direto no pedido do homem de quarenta e poucos anos.",
         "secoes": {"pedido": ["O pedido, as duas verdades e o eixo.", "capa"],
                    "medida": ["Medir direito, frações e estradiol.", "medir"],
                    "mito": ["O pico agudo não constrói músculo.", "pico"],

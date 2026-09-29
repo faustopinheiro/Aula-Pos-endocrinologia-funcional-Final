@@ -33,9 +33,9 @@ rs += [rot(20, 104, "ponto de partida", w=300, tam=24, cor=MUDO),
        rot(1180, 280, "não voltou", w=480, tam=30, cor=FOSF, peso=700, alinha="right"),
        rot(560, 300, "controle da glicose e síntese de proteína", w=600, tam=26, cor=FOSF, peso=600)]
 S.append({"id": "mcglory", "tipo": "diagrama", "h": 360, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "McGlory e colaboradores, 2018", "titulo": "Duas semanas para perder; duas de volta não bastaram",
+          "eyebrow": "Um estudo de 2018", "titulo": "Duas semanas para perder; duas de volta não bastaram",
           "destaque": "As adaptações se perdem mais rápido do que se constroem, e a volta não é o espelho da ida.",
-          "destaque_cor": "tinta", "fonte": "Esquema da linha do tempo, sem valores medidos · 22 adultos com sobrepeso e pré-diabetes, 69 anos · Journals of Gerontology 2018"})
+          "destaque_cor": "tinta", "fonte": "Esquema da linha do tempo, sem valores medidos · 22 adultos com sobrepeso e pré-diabetes, 69 anos · McGlory e colaboradores, Journals of Gerontology 2018"})
 
 # 3. Walker, a concessão
 S.append({"id": "walker", "tipo": "duas", "eyebrow": "A concessão que o tema pede", "titulo": "O estrago depende de quanto cai, e de quem cai",

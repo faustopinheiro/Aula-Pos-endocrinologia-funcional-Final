@@ -90,9 +90,9 @@ for i, (nome, v, cor) in enumerate(vals):
     rs.append(rot(x - 80, 356, nome, w=360, tam=26, cor=TINTA, peso=600, alinha="center"))
 p.append("</svg>")
 S.append({"id": "limiar", "tipo": "diagrama", "h": 400, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Hill e colaboradores, 2008", "titulo": "Exercício acima de um certo ponto sobe cortisol",
+          "eyebrow": "Um experimento de 2008", "titulo": "Exercício acima de um certo ponto sobe cortisol",
           "destaque": "Corrigido para a redução do volume plasmático e o ritmo do dia, o esforço leve baixou o cortisol.",
-          "destaque_cor": "petr", "fonte": "Journal of Endocrinological Investigation 2008 · 12 homens moderadamente treinados, 30 min, dias separados · variação sem correção"})
+          "destaque_cor": "petr", "fonte": "Hill e colaboradores, Journal of Endocrinological Investigation 2008 · 12 homens moderadamente treinados, 30 min, dias separados · variação sem correção"})
 
 # 6. três cuidados
 S.append({"id": "cuidados", "tipo": "lista", "eyebrow": "Como usar o dado sem exagerar", "titulo": "O que importa é a volta, não o pico",

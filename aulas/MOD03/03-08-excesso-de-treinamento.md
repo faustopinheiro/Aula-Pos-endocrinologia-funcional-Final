@@ -86,7 +86,7 @@ Repara no que não aparece: nenhum valor de exame, nenhum hormônio, nenhuma raz
 *Visual: a pergunta de Urhausen e Kindermann, 2002, "que ferramentas diagnósticas nós temos?", e a resposta: muitas publicações, poucos instrumentos válidos. Ao lado, o porquê: o padrão-ouro é retrospectivo.*
 *Teleprompter: (por que não existe o exame)*
 
-Urhausen e Kindermann colocaram isso com franqueza em 2002, num artigo cujo título é uma pergunta: que ferramentas diagnósticas nós temos? A resposta foi um contraste entre a abundância de publicações sobre o tema e a escassez de instrumentos válidos. Mais de vinte anos depois, mudou pouco.
+Dois pesquisadores alemães colocaram isso com franqueza em 2002, num artigo cujo título é uma pergunta: que ferramentas diagnósticas nós temos? A resposta foi um contraste entre a abundância de publicações sobre o tema e a escassez de instrumentos válidos. Mais de vinte anos depois, mudou pouco.
 
 E não é preguiça da ciência. Para validar um marcador, seria preciso acompanhar muitos atletas, medir antes de o quadro aparecer e comparar com um padrão-ouro. Só que o padrão-ouro, como a gente acabou de ver, é retrospectivo. Não há como validar bem um teste contra um desfecho que só se conhece meses depois.
 
@@ -118,7 +118,7 @@ E um quarto item, que não é instrumento e vale mais que os três: o histórico
 
 E o dado que justifica confiar nesses instrumentos, porque ele incomoda muita gente.
 
-Em 2016, Saw, Main e Gastin publicaram uma revisão sistemática com um título que é quase uma provocação: as medidas subjetivas, relatadas pelo próprio atleta, superam as medidas objetivas usadas com frequência no monitoramento. Nos estudos que colheram as duas em paralelo, bem-estar, sono percebido, dor muscular, estresse e humor responderam à carga de forma mais sensível e mais consistente do que frequência cardíaca de repouso, marcadores de sangue e outras medidas ditas objetivas.
+Em 2016, saiu uma revisão sistemática com um título que é quase uma provocação: as medidas subjetivas, relatadas pelo próprio atleta, superam as medidas objetivas usadas com frequência no monitoramento. Nos estudos que colheram as duas em paralelo, bem-estar, sono percebido, dor muscular, estresse e humor responderam à carga de forma mais sensível e mais consistente do que frequência cardíaca de repouso, marcadores de sangue e outras medidas ditas objetivas.
 
 Para o consultório, isso quer dizer uma coisa: a pergunta bem feita é o melhor instrumento que você tem. Mais sensível que o exame, mais precoce que o teste de desempenho, e custa nada.
 
@@ -186,7 +186,7 @@ Por isso a frase certa quase nunca é "a carga estava alta demais". É "a carga 
 
 Quem faz o quê. Investigar causas médicas e pedir exames é do médico, e as bandeiras da saída C são o gatilho do encaminhamento. Ajustar carga, montar a descarga e conduzir o retorno é do preparador físico e do educador físico, e é conduta de primeira linha, não de última. E reconhecer os seis primeiros degraus da escada é de todo mundo, sobretudo de quem vê aquela pessoa toda semana. É ali, entre o primeiro degrau e o sétimo, que está a janela em que isso ainda é barato de resolver.
 
-Na próxima aula, o lado oposto da moeda, que quase nunca se ensina: o destreino. O que se perde, em que ordem e em quanto tempo.
+Na próxima conversa, o lado oposto da moeda, que quase nunca se ensina: o destreino. O que se perde, em que ordem e em quanto tempo.
 
 ---
 
@@ -203,28 +203,14 @@ Na próxima aula, o lado oposto da moeda, que quase nunca se ensina: o destreino
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de onze slides no lugar de sete blocos longos.
-Arquitetura DECISÃO mantida (a anterior é PROCEDIMENTO; a próxima é NÚMERO). Junta os cinco eixos do módulo numa
-mesma pessoa. Sem caso clínico.
+**O que mudou nesta versão.** Voz do curso e deck de onze slides no lugar de sete blocos longos. Arquitetura DECISÃO mantida (a anterior é PROCEDIMENTO; a próxima é NÚMERO). Junta os cinco eixos do módulo numa mesma pessoa. Sem caso clínico. Nesta revisão, os 7 slides que ainda eram texto viraram desenho (o diagnóstico retrospectivo, o critério, as ferramentas diagnósticas, os três instrumentos, as medidas subjetivas, as saídas A e B e a saída C), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Correções.**
-- A síndrome "leva meses, às vezes mais de um ano": o consenso fala em vários meses a anos. Ajustado.
-- O teste dos dois esforços máximos foi descrito antes como teste de desempenho ("prejuízo
-  desproporcional no segundo teste"). No consenso, é um protocolo de pesquisa, com quatro horas entre
-  os testes, que olha a resposta hormonal (ACTH, prolactina, GH) ao segundo esforço. A fala agora diz
-  isso e deixa claro que não é ferramenta de consultório.
-- Saw 2016: o número de estudos ("cinquenta e seis") não foi conferido e saiu da fala. A conclusão
-  dos autores está conferida.
-- A escada de sete degraus agora é dita como ordem aproximada da prática, não como sequência
-  medida em estudo.
+**Números conferidos.** Sem números novos nesta revisão; os da aula foram conferidos na reescrita.
 
-**Saíram.** "Elegante", "módulo passado", "aula um", "vinte e quatro anos depois" (virou "mais de
-vinte anos") e o bloco "Roteiro Gamma".
+**Correções.** - A síndrome "leva meses, às vezes mais de um ano": o consenso fala em vários meses a anos. Ajustado. - O teste dos dois esforços máximos foi descrito antes como teste de desempenho ("prejuízo desproporcional no segundo teste"). No consenso, é um protocolo de pesquisa, com quatro horas entre os testes, que olha a resposta hormonal (ACTH, prolactina, GH) ao segundo esforço. A fala agora diz isso e deixa claro que não é ferramenta de consultório. - Saw 2016: o número de estudos ("cinquenta e seis") não foi conferido e saiu da fala. A conclusão dos autores está conferida. - A escada de sete degraus agora é dita como ordem aproximada da prática, não como sequência medida em estudo. "Urhausen e Kindermann" virou "dois pesquisadores alemães"; "Saw, Main e Gastin" virou "uma revisão sistemática".
 
-**Citações faladas.** Urhausen e Kindermann (a pergunta sem resposta), Saw, Main e Gastin (as
-medidas subjetivas).
+**Saíram.** "Elegante", "módulo passado", "aula um", "vinte e quatro anos depois" (virou "mais de vinte anos") e o bloco "Roteiro Gamma". Duração de 23 para 18 minutos.
 
-**Ligações internas.** modelo aptidão-fadiga e descarga = aula de recuperação do módulo de
-fisiologia do exercício · relação testosterona-cortisol = aula da testosterona · os cinco eixos e o
-discriminador = primeira aula do módulo · diagnóstico diferencial de fadiga = módulo de medicina
-esportiva clínica · destreino = próxima aula.
+**Citações faladas.** Nenhum autor por nome. A revisão de 2002 e a revisão sistemática de 2016 entram pelo ano.
+
+**Ligações internas.** modelo aptidão-fadiga e descarga = aula de recuperação do módulo de fisiologia do exercício · relação testosterona-cortisol = aula da testosterona · os cinco eixos e o discriminador = primeira aula do módulo · diagnóstico diferencial de fadiga = módulo de medicina esportiva clínica · destreino = próxima aula.

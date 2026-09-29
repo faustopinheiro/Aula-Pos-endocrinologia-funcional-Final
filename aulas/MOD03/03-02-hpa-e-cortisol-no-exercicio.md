@@ -78,7 +78,7 @@ O problema não é a amplitude. É quando o estímulo não para e o eixo perde o
 
 Agora a resposta ao exercício, que é onde mora a maior parte da confusão.
 
-Em 2008, Hill e colaboradores colocaram doze homens moderadamente treinados para se exercitar trinta minutos em três intensidades, quarenta, sessenta e oitenta por cento do consumo máximo de oxigênio, e uma sessão de repouso como controle, em dias separados, controlando horário, dieta e treino prévio.
+Em 2008, um experimento colocou doze homens moderadamente treinados para se exercitar trinta minutos em três intensidades, quarenta, sessenta e oitenta por cento do consumo máximo de oxigênio, e uma sessão de repouso como controle, em dias separados, controlando horário, dieta e treino prévio.
 
 No repouso, o cortisol caiu seis vírgula seis por cento, que é o ritmo do dia. A quarenta por cento, subiu cinco vírgula sete. A sessenta, quase quarenta por cento. A oitenta, oitenta e três por cento.
 
@@ -116,9 +116,9 @@ Agora a curva de cortisol salivar de quatro pontos, porque ela vai chegar na sua
 
 São quatro coletas de saliva ao longo do dia, para desenhar o ritmo. A ideia é boa, e a saliva de fato reflete a fração livre do hormônio. O problema não está no conceito. Está em usar um dia de coleta para decidir sobre uma pessoa.
 
-Em 2023, Norton e colaboradores reuniram os estudos que coletaram a curva em dias diferentes nas mesmas pessoas. A reprodutibilidade de um dia para o outro variou de praticamente zero até zero vírgula setenta e cinco, dependendo de qual parte da curva se olha. E a parte mais popular, a resposta ao despertar, foi das menos confiáveis. As partes mais estáveis servem para comparar grupos em estudos grandes, não para decidir conduta num indivíduo.
+Em 2023, uma revisão reuniu os estudos que coletaram a curva em dias diferentes nas mesmas pessoas. A reprodutibilidade de um dia para o outro variou de praticamente zero até zero vírgula setenta e cinco, dependendo de qual parte da curva se olha. E a parte mais popular, a resposta ao despertar, foi das menos confiáveis. As partes mais estáveis servem para comparar grupos em estudos grandes, não para decidir conduta num indivíduo.
 
-Uma curva isolada, de um dia, é uma amostra de uma onda. É o mesmo problema de pulsatilidade da aula passada, agora com número.
+Uma curva isolada, de um dia, é uma amostra de uma onda. É o mesmo problema de pulsatilidade que apareceu na organização dos eixos, agora com número.
 
 E tem um segundo ponto. Quando a suspeita é excesso de cortisol de verdade, a diretriz da Endocrine Society manda começar por um de três testes: cortisol livre na urina de vinte e quatro horas, cortisol salivar no fim da noite, ou supressão com um miligrama de dexametasona. A saliva está na lista, mas é uma coleta noturna específica, não a curva de quatro pontos.
 
@@ -150,7 +150,7 @@ E agora a entidade que eu preciso nomear, porque ela é vendida todo dia: a "fad
 
 A ideia é que o estresse crônico esgotaria a adrenal, que passaria a produzir cortisol insuficiente, e daí viriam o cansaço, o sono ruim e a dificuldade de recuperar.
 
-Em 2016, Cadegiani e Kater publicaram uma revisão sistemática com um título que não deixa margem: a fadiga adrenal não existe. Analisaram cinquenta e oito estudos e não encontraram base para a entidade. Nenhuma sociedade de endocrinologia a reconhece.
+Em 2016, saiu uma revisão sistemática com um título que não deixa margem: a fadiga adrenal não existe. Analisaram cinquenta e oito estudos e não encontraram base para a entidade. Nenhuma sociedade de endocrinologia a reconhece.
 
 Agora o ponto mais fino. Os sintomas que levam a pessoa a procurar ajuda são reais. Ela está cansada de verdade, dorme mal de verdade, não recupera de verdade. O que não existe é aquela explicação. E o que não funciona é aquele tratamento.
 
@@ -176,7 +176,7 @@ O que não fazer: prescrever algo para "baixar cortisol" num eixo que está resp
 
 Quem faz o quê. Investigar excesso ou insuficiência é médico. Reorganizar a semana é do educador físico e do preparador, com o nutricionista no jejum e na refeição antes do treino.
 
-Na próxima aula, o mesmo território da resposta ao estresse, um andar mais rápido: as catecolaminas. E um número que reorganiza a conversa sobre intensidade.
+Na próxima conversa, o mesmo território da resposta ao estresse, um andar mais rápido: as catecolaminas. E um número que reorganiza a conversa sobre intensidade.
 
 ---
 
@@ -194,29 +194,14 @@ Na próxima aula, o mesmo território da resposta ao estresse, um andar mais rá
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck enxuto: dez slides no lugar de seis blocos
-longos. Arquitetura ERRO mantida (a aula anterior é PROCEDIMENTO; a próxima é NÚMERO). O erro é
-nomeado no primeiro slide ("baixar o cortisol é a solução") e desmontado até o fecho, que diz o que
-fazer no lugar. Sem paciente.
+**O que mudou nesta versão.** Voz do curso e deck enxuto: dez slides no lugar de seis blocos longos. Arquitetura ERRO mantida (a aula anterior é PROCEDIMENTO; a próxima é NÚMERO). O erro é nomeado no primeiro slide ("baixar o cortisol é a solução") e desmontado até o fecho, que diz o que fazer no lugar. Sem paciente. Nesta revisão, os 5 slides que ainda eram texto viraram desenho (as acusações ao cortisol, as quatro saídas do cortisol, a volta ao basal, os dois extremos e a revisão sobre fadiga adrenal), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Números conferidos.** Hill 2008: 12 homens ativos, moderadamente treinados, 30 min a 40, 60 e 80%
-do VO₂máx e repouso controle em dias separados. Variação do cortisol: −6,6 ± 3,5% (repouso), +5,7 ±
-11,0% (40%), +39,9 ± 11,8% (60%), +83,1 ± 18,5% (80%). Volume plasmático: +2,2, −9,9, −15,6, −17,2%.
-Conclusão dos autores: corrigido o volume e o ritmo, o esforço leve reduziu o cortisol circulante. O
-slide mostra as variações sem correção, com a nota da correção.
+**Números conferidos.** Hill 2008: 12 homens ativos, moderadamente treinados, 30 min a 40, 60 e 80% do VO₂máx e repouso controle em dias separados. Variação do cortisol: −6,6 ± 3,5% (repouso), +5,7 ± 11,0% (40%), +39,9 ± 11,8% (60%), +83,1 ± 18,5% (80%). Volume plasmático: +2,2, −9,9, −15,6, −17,2%. Conclusão dos autores: corrigido o volume e o ritmo, o esforço leve reduziu o cortisol circulante. O slide mostra as variações sem correção, com a nota da correção.
 
-**Correções.** A versão antiga dizia que a curva diurna completa "exige três a quatro dias de
-coleta". Não achei esse número no estudo de Norton; saiu. A fala agora diz o que o estudo conclui:
-confiabilidade de 0,00 a 0,75 entre dias, resposta ao despertar insuficiente, área sob a curva
-razoável para estudos grandes. Autoria completa acrescentada (Norton e colaboradores,
-Comprehensive Psychoneuroendocrinology 2023;16:100191). Cadegiani e Kater: 58 estudos analisados.
+**Correções.** A versão antiga dizia que a curva diurna completa "exige três a quatro dias de coleta". Não achei esse número no estudo de Norton; saiu. A fala agora diz o que o estudo conclui: confiabilidade de 0,00 a 0,75 entre dias, resposta ao despertar insuficiente, área sob a curva razoável para estudos grandes. Autoria completa acrescentada (Norton e colaboradores, Comprehensive Psychoneuroendocrinology 2023;16:100191). Cadegiani e Kater: 58 estudos analisados. "Hill e colaboradores", "Norton e colaboradores" e "Cadegiani e Kater" saíram da fala; os estudos entram pelo ano, e o autor fica na fonte do slide. "Da aula passada" virou referência à organização dos eixos.
 
-**Saíram.** A frase atribuída a um paciente ("tô treinando mais leve e tô mais forte"): não havia
-fonte. O gelo pós-treino como exemplo da inflamação útil: a ligação dependia de uma aula que não trata
-disso. "Elegante", "o que você leva desta aula" e as menções numeradas a módulo e aula.
+**Saíram.** A frase atribuída a um paciente ("tô treinando mais leve e tô mais forte"): não havia fonte. O gelo pós-treino como exemplo da inflamação útil: a ligação dependia de uma aula que não trata disso. "Elegante", "o que você leva desta aula" e as menções numeradas a módulo e aula. Duração de 23 para 17 minutos.
 
-**Citações faladas.** Hill (o limiar), Norton (a confiabilidade da curva), Cadegiani e Kater (a
-revisão da fadiga adrenal).
+**Citações faladas.** Nenhum autor por nome. O experimento das três intensidades, a revisão de 2023 e a revisão sistemática sobre fadiga adrenal entram pelo ano; Cushing entra como nome da doença.
 
-**Ligações internas.** pulsatilidade = aula anterior · teste do falar = aula de limiares · diagnóstico
-diferencial de fadiga = módulo de medicina esportiva clínica · catecolaminas = próxima aula.
+**Ligações internas.** pulsatilidade = aula anterior · teste do falar = aula de limiares · diagnóstico diferencial de fadiga = módulo de medicina esportiva clínica · catecolaminas = próxima aula.

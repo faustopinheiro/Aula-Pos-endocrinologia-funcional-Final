@@ -84,7 +84,7 @@ Em 1994, Loucks e Heath colocaram mulheres que não treinavam para se exercitar 
 
 Isso explica uma cena comum: o atleta que passa meses reduzindo comida sem nada acontecer e, de repente, apresenta o quadro inteiro.
 
-E o segundo, mais antigo, sobre o que dispara o ajuste. Em 1976, Spaulding e colaboradores compararam, em pessoas com obesidade, o jejum total e dietas de oitocentas quilocalorias com quantidades diferentes de carboidrato. No jejum total, o T3 caiu cinquenta e três por cento e o T3 reverso subiu cinquenta e oito. Na dieta de oitocentas calorias sem carboidrato, o T3 caiu quarenta e sete por cento. Com as mesmas oitocentas calorias e pelo menos cinquenta gramas de carboidrato, o T3 não mudou.
+E o segundo, mais antigo, sobre o que dispara o ajuste. Em 1976, um estudo comparou, em pessoas com obesidade, o jejum total e dietas de oitocentas quilocalorias com quantidades diferentes de carboidrato. No jejum total, o T3 caiu cinquenta e três por cento e o T3 reverso subiu cinquenta e oito. Na dieta de oitocentas calorias sem carboidrato, o T3 caiu quarenta e sete por cento. Com as mesmas oitocentas calorias e pelo menos cinquenta gramas de carboidrato, o T3 não mudou.
 
 São estudos pequenos, antigos, e em população que não é a nossa. Mas o recado é consistente: a disponibilidade de carboidrato pesa de forma específica nessa conversão. Na prática, quando alguém tem T3 baixo e cortou carboidrato por conta própria, você já tem uma hipótese muito mais barata do que tireoide.
 
@@ -128,7 +128,7 @@ Duas notas para quem recebe o paciente. O subclínico, TSH um pouco alto com T4 
 
 Vale ver o que acontece quando o discriminador não é aplicado, porque o custo só aparece com o tempo. É um caso ilustrativo, montado com o que aparece no consultório.
 
-Uma corredora de trinta e um anos, seis anos de corrida, cerca de sessenta quilômetros por semana. Procura ajuda por cansaço, queda de desempenho, frio, intestino lento e queda de cabelo. Nos exames: T3 baixo, TSH um vírgula oito, T4 livre no limite de baixo. Sai com T3 manipulado e o diagnóstico de "dificuldade de conversão".
+Uma corredora de trinta e poucos anos, seis anos de corrida, cerca de sessenta quilômetros por semana. Procura ajuda por cansaço, queda de desempenho, frio, intestino lento e queda de cabelo. Nos exames: T3 baixo, TSH um vírgula oito, T4 livre no limite de baixo. Sai com T3 manipulado e o diagnóstico de "dificuldade de conversão".
 
 Seis meses depois: TSH suprimido, palpitação, dormindo pior, dois quilos a menos, quase todos de massa magra, e o cansaço original igual.
 
@@ -164,7 +164,7 @@ E a advertência que atravessa os cinco, porque é o erro mais grave dos dois: n
 
 Pedir, interpretar e tratar é ato médico. O que é de toda a equipe é a informação que o médico não tem. Quem acompanha essa pessoa toda semana sabe se ela está em déficit, se cortou carboidrato, se o volume de treino subiu, e há quanto tempo. Sem isso, o médico vê T3 baixo e TSH normal, e o caminho mais fácil é o errado. Com isso escrito no encaminhamento, o caminho mais fácil passa a ser o certo.
 
-Na próxima aula, tudo o que o módulo construiu num só quadro: o espectro do excesso de treinamento, da adaptação ao overreaching e à síndrome. E os cinco eixos aparecem juntos ali, como a primeira aula prometeu.
+Na próxima conversa, tudo o que o módulo construiu num só quadro: o espectro do excesso de treinamento, da adaptação ao overreaching e à síndrome. E os cinco eixos aparecem juntos ali, como a primeira aula prometeu.
 
 ---
 
@@ -181,28 +181,14 @@ Na próxima aula, tudo o que o módulo construiu num só quadro: o espectro do e
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de seis blocos longos.
-Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é DECISÃO). A hipófise que converte
-ganhou slide próprio, porque é a peça que explica o TSH normal.
+**O que mudou nesta versão.** Voz do curso e deck de dez slides no lugar de seis blocos longos. Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é DECISÃO). A hipófise que converte ganhou slide próprio, porque é a peça que explica o TSH normal. Entrou: Spaulding 1976, com os números conferidos (jejum: T3 −53%, T3 reverso +58%; 800 kcal sem carboidrato: T3 −47%; 800 kcal com pelo menos 50 g de carboidrato: sem mudança). A fala diz o limite: estudo pequeno, antigo, em pessoas com obesidade. Substitui a frase vaga "observação antiga na literatura". Bianco e Kim 2006 para os 80% de T3 feitos nos tecidos. Caso clínico: A corredora de 31 anos é o segundo e último caso do módulo (o primeiro é o corretor da 3.4). Fica porque o custo do erro só aparece em seis meses. É dita como caso ilustrativo. As aulas 3.8 a 3.12 ficam sem caso. Nesta revisão, os 5 slides que ainda eram texto viraram desenho (os dois erros, o padrão de economia, o discriminador, o que pedir e os cinco passos), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD03/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, menções a "aula passada", idades por década), e "na próxima aula" virou "na próxima conversa".
 
-**Caso clínico.** A corredora de 31 anos é o segundo e último caso do módulo (o primeiro é o
-corretor da 3.4). Fica porque o custo do erro só aparece em seis meses. É dita como caso
-ilustrativo. As aulas 3.8 a 3.12 ficam sem caso.
+**Números conferidos.** Loucks e Heath 1994: 27 mulheres sem treino, quatro dias, quatro níveis de disponibilidade de energia (10,8; 19,0; 25,0; 40,4 kcal/kg de massa magra por dia); a síndrome do T3 baixo apareceu de forma abrupta abaixo de um limiar. A fala não dá o número do limiar.
 
-**Entrou.** Spaulding 1976, com os números conferidos (jejum: T3 −53%, T3 reverso +58%; 800 kcal
-sem carboidrato: T3 −47%; 800 kcal com pelo menos 50 g de carboidrato: sem mudança). A fala diz o
-limite: estudo pequeno, antigo, em pessoas com obesidade. Substitui a frase vaga "observação antiga
-na literatura". Bianco e Kim 2006 para os 80% de T3 feitos nos tecidos.
+**Correções.** "Spaulding e colaboradores" virou "um estudo de 1976". A idade da corredora passou a ser dita por década, na fala e no slide.
 
-**Conferido.** Loucks e Heath 1994: 27 mulheres sem treino, quatro dias, quatro níveis de
-disponibilidade de energia (10,8; 19,0; 25,0; 40,4 kcal/kg de massa magra por dia); a síndrome do T3
-baixo apareceu de forma abrupta abaixo de um limiar. A fala não dá o número do limiar.
+**Saíram.** "Bonita" (a lógica da economia), "aula um", "módulo passado", "esta aula não é sobre tireoide" e o bloco "Roteiro Gamma". Duração de 19 para 15 minutos.
 
-**Saíram.** "Bonita" (a lógica da economia), "aula um", "módulo passado", "esta aula não é sobre
-tireoide" e o bloco "Roteiro Gamma".
+**Citações faladas.** Loucks e Heath, pelo experimento que pôs em número o ajuste da conversão tireoidiana. O estudo de 1976 entra pelo ano; Hashimoto como nome da doença.
 
-**Citações faladas.** Loucks e Heath (o limiar), Spaulding (o carboidrato).
-
-**Ligações internas.** 80% do T3 nos tecidos = primeira aula do módulo · PGC-1 alfa = aula do
-metabolismo oxidativo · baixa disponibilidade de energia = módulo de nutrição esportiva · excesso de
-treinamento = próxima aula.
+**Ligações internas.** 80% do T3 nos tecidos = primeira aula do módulo · PGC-1 alfa = aula do metabolismo oxidativo · baixa disponibilidade de energia = módulo de nutrição esportiva · excesso de treinamento = próxima aula.

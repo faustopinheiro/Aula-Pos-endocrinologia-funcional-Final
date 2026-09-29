@@ -81,9 +81,9 @@ rs = [rot(0, 62, "insulina", w=400, tam=32, cor=TINTA, peso=700, alinha="center"
       rot(640, 50, "fibra muscular", w=440, tam=28, cor=FOSF, peso=700),
       rot(1120, 50, "GLUT4 guardado em vesículas", w=520, tam=26, cor=GLIC, peso=700)]
 S.append({"id": "portas", "tipo": "diagrama", "h": 400, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Richter e Hargreaves, 2013", "titulo": "Duas portas para a mesma glicose",
+          "eyebrow": "Uma revisão de 2013", "titulo": "Duas portas para a mesma glicose",
           "destaque": "Kennedy, 1999: depois de uma sessão de bicicleta, o GLUT4 na membrana subiu cerca de 70%, com e sem diabetes tipo 2.",
-          "destaque_cor": "petr", "fonte": "Physiological Reviews 2013 · Diabetes 1999, 5 pessoas com diabetes tipo 2 e 5 controles"})
+          "destaque_cor": "petr", "fonte": "Richter e Hargreaves, Physiological Reviews 2013 · Kennedy e colaboradores, Diabetes 1999, 5 pessoas com diabetes tipo 2 e 5 controles"})
 
 # 4. dois relógios e o 80%
 S.append({"id": "relogios", "tipo": "numeros", "eyebrow": "Dois efeitos, dois relógios", "titulo": "Abrir as portas, e ter mais portas",

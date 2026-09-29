@@ -87,9 +87,9 @@ rs = [rot(0, 160, "IL-6", w=380, tam=36, cor=TINTA, peso=700, alinha="center"),
       rot(750, 260, "Imune: o contexto muda o efeito", w=880, tam=28, cor=OXID, peso=700),
       rot(750, 310, "IL-1ra e IL-10 sobem · a subida do TNF some", w=880, tam=26, cor=TINTA)]
 S.append({"id": "paradoxo", "tipo": "diagrama", "h": 400, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Starkie e colaboradores, 2003", "titulo": "Pró-inflamatória no livro, anti-inflamatória no músculo",
+          "eyebrow": "Um experimento de 2003", "titulo": "Pró-inflamatória no livro, anti-inflamatória no músculo",
           "destaque": "Endotoxina sozinha dobrou ou triplicou o TNF. Com três horas de pedalada, ou com IL-6 infundida, a subida não veio.",
-          "destaque_cor": "petr", "fonte": "FASEB Journal 2003 · 8 homens saudáveis"})
+          "destaque_cor": "petr", "fonte": "Starkie e colaboradores, FASEB Journal 2003 · 8 homens saudáveis"})
 
 # 5. o catálogo com régua
 S.append({"id": "catalogo", "tipo": "cards", "por_linha": 3, "eyebrow": "Centenas de candidatas", "titulo": "Separar o estabelecido da promessa",

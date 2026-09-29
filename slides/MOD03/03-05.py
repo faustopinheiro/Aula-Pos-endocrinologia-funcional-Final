@@ -85,9 +85,9 @@ for i, (n, txt, cor) in enumerate(etapas):
 p.append("</svg>")
 rs.append(rot(300, 370, "dois dos quatro, com ajuda de medicamento", w=1300, tam=26, cor=MUDO))
 S.append({"id": "anabolizante", "tipo": "diagrama", "h": 400, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Vilar Neto e colaboradores, 2021", "titulo": "Mais do que se promete, e nem sempre volta",
+          "eyebrow": "Uma revisão de 2021", "titulo": "Mais do que se promete, e nem sempre volta",
           "destaque": "Viés: relato publicado favorece o caso que deu errado. Mas ninguém consegue prometer quanto tempo, nem se.",
-          "destaque_cor": "ambar", "fonte": "Andrologia 2021 · Solanki e colaboradores, Endocrine Connections 2023"})
+          "destaque_cor": "ambar", "fonte": "Vilar Neto e colaboradores, Andrologia 2021 · Solanki e colaboradores, Endocrine Connections 2023"})
 
 # 8. o que dizer
 S.append({"id": "dizer", "tipo": "lista", "eyebrow": "Sem moralismo", "titulo": "Três coisas ditas com clareza",

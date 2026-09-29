@@ -111,14 +111,14 @@ S.append({"id": "pedir", "tipo": "duas", "eyebrow": "Na ordem certa", "titulo": 
           "destaque_cor": "ambar", "fonte": "Jonklaas e colaboradores, American Thyroid Association 2014"})
 
 # 8. caso ilustrativo
-p = [svg_abre(1664, 380, "Caso ilustrativo: corredora de 31 anos com T3 baixo, TSH 1,8 e T4 livre no limite; seis meses de T3 manipulado depois, TSH suprimido, palpitação, sono pior, dois quilos a menos quase todos de massa magra e o mesmo cansaço"),
+p = [svg_abre(1664, 380, "Caso ilustrativo: corredora de trinta e poucos anos com T3 baixo, TSH 1,8 e T4 livre no limite; seis meses de T3 manipulado depois, TSH suprimido, palpitação, sono pior, dois quilos a menos quase todos de massa magra e o mesmo cansaço"),
      "<defs>" + seta_marker("c1", MUDO) + "</defs>"]
 p.append(caixa(0, 20, 620, 330, AZUL, AZUL_T, esp=3))
 p.append(seta(640, 185, 1020, 185, MUDO, "c1", esp=5))
 p.append(caixa(1044, 20, 620, 330, FOSF, FOSF_T, esp=3))
 p.append("</svg>")
 rs = [rot(30, 40, "Início", w=560, tam=32, cor=AZUL, peso=700),
-      rot(30, 96, "31 anos, 60 km por semana<br>cansaço, frio, intestino lento<br>T3 baixo · TSH 1,8 · T4 livre no limite", w=560, tam=26, cor=TINTA, lh=1.5),
+      rot(30, 96, "30 e poucos anos, 60 km por semana<br>cansaço, frio, intestino lento<br>T3 baixo · TSH 1,8 · T4 livre no limite", w=560, tam=26, cor=TINTA, lh=1.5),
       rot(30, 260, "história alimentar: não colhida", w=560, tam=26, cor=FOSF, peso=700),
       rot(640, 120, "T3 manipulado, 6 meses", w=380, tam=26, cor=TINTA, peso=600, alinha="center"),
       rot(1074, 40, "Seis meses depois", w=560, tam=32, cor=FOSF, peso=700),
