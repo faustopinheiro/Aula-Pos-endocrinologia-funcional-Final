@@ -105,60 +105,275 @@
   },
   {
    "id": "enquadre",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"À esquerda, o eixo: no hipotálamo, um comando que estimula e a somatostatina, que freia; a hipófise libera GH em pulsos; o fígado responde com IGF-1. À direita, em cima, a deficiência do adulto, rara: lesão ou tumor de hipófise, sequela de radioterapia, trauma craniano; tem critério diagnóstico e tratamento que ajuda muito. Embaixo, a queda com a idade, universal: uma curva que desce devagar a partir da terceira década em todo mundo, fisiológica, e vendida como doença\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"440\" height=\"90\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"170\" y1=\"96\" x2=\"170\" y2=\"150\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"270\" y1=\"96\" x2=\"270\" y2=\"150\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"160\" width=\"440\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 250 230 L 250 230 L 256 230 L 262 190 L 268 230 L 274 230 L 280 230 L 286 230 L 292 230 L 298 190 L 304 230 L 310 230 L 316 230 L 322 230 L 328 230 L 334 190 L 340 230 L 346 230 L 352 230 L 358 230 L 364 230 L 370 190 L 376 230 L 382 230 L 388 230 L 394 230 L 400 230 L 406 190 L 412 230\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"220\" y1=\"256\" x2=\"220\" y2=\"310\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m2)\"/><rect x=\"0\" y=\"320\" width=\"440\" height=\"90\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"540\" y=\"0\" width=\"1124\" height=\"190\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"540\" y=\"220\" width=\"1124\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M580 300 L598 304 L616 308 L634 312 L652 315 L670 319 L688 322 L706 325 L724 327 L742 330 L760 332 L778 334 L796 336 L814 338 L832 340 L850 342 L868 343 L886 345 L904 346 L922 347 L940 349 L958 350 L976 351 L994 352 L1012 353 L1030 354 L1048 354 L1066 355 L1084 356 L1102 356 L1120 357\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 12,
+     "w": 440,
+     "t": "Hipotálamo",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 48,
+     "w": 440,
+     "t": "um comando estimula, a somatostatina freia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 104,
+     "w": 100,
+     "t": "+",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 284,
+     "y": 104,
+     "w": 100,
+     "t": "−",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 176,
+     "w": 220,
+     "t": "Hipófise: GH em pulsos",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 346,
+     "w": 440,
+     "t": "Fígado: IGF-1",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 564,
+     "y": 14,
+     "w": 1080,
+     "t": "Deficiência do adulto: existe, e é rara",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 564,
+     "y": 66,
+     "w": 1080,
+     "t": "lesão ou tumor de hipófise · sequela de radioterapia · trauma craniano",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 564,
+     "y": 118,
+     "w": 1080,
+     "t": "critério diagnóstico, tratamento que ajuda muito",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 564,
+     "y": 232,
+     "w": 620,
+     "t": "Queda com a idade: universal",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 580,
+     "y": 408,
+     "w": 60,
+     "t": "20",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 408,
+     "w": 100,
+     "t": "80 anos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 280,
+     "w": 440,
+     "t": "a partir da terceira década, em todo mundo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 350,
+     "w": 440,
+     "t": "fisiológica, e vendida como doença",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O enquadramento",
    "titulo": "Uma doença rara e uma queda universal",
-   "esq": {
-    "t": "Deficiência do adulto: existe, e é rara",
-    "cor": "verm",
-    "itens": [
-     "lesão ou tumor de hipófise",
-     "sequela de radioterapia, trauma craniano",
-     "critério diagnóstico, tratamento que ajuda muito"
-    ]
-   },
-   "dir": {
-    "t": "Queda com a idade: universal",
-    "cor": "ambar",
-    "itens": [
-     "a partir da terceira década, em todo mundo",
-     "fisiológica, e vendida como doença",
-     "antienvelhecimento, GH injetável, secretagogos, peptídeos"
-    ]
-   },
-   "destaque": "Dois comandos opostos no hipotálamo, um que estimula e a somatostatina, que freia. A hipófise libera em pulsos; o fígado responde com IGF-1.",
-   "destaque_cor": "tinta"
+   "destaque": "Antienvelhecimento, GH injetável, secretagogos, peptídeos: é a queda universal que se vende como doença.",
+   "destaque_cor": "ambar",
+   "fonte": "Curva: esquema, sem valores medidos"
   },
   {
    "id": "dosar",
-   "tipo": "cards",
-   "eyebrow": "Terceira e quarta afirmações",
-   "titulo": "GH isolado no sangue é quase inútil",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, o GH ao longo de um dia em pulsos, com uma coleta isolada caindo num vale, indetectável numa pessoa normal, e o IGF-1 correndo estável como o integrador de dias. À direita, o teste de estímulo, que faz o diagnóstico no adulto com endocrinologista, e o IGFBP-3, sem papel no diagnóstico de rotina do adulto\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"20\" y1=\"330\" x2=\"980\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M20 326 L24 326 L28 326 L32 326 L36 326 L40 326 L44 326 L48 324 L52 321 L56 314 L60 298 L64 271 L68 234 L72 192 L76 159 L80 146 L84 159 L88 192 L92 234 L96 271 L100 298 L104 314 L108 321 L112 324 L116 326 L120 326 L124 326 L128 326 L132 325 L136 324 L140 320 L144 312 L148 296 L152 271 L156 238 L160 204 L164 181 L168 177 L172 195 L176 226 L180 260 L184 289 L188 308 L192 318 L196 323 L200 325 L204 326 L208 326 L212 325 L216 324 L220 320 L224 310 L228 292 L232 263 L236 226 L240 188 L244 162 L248 157 L252 177 L256 213 L260 252 L264 284 L268 306 L272 317 L276 323 L280 325 L284 326 L288 326 L292 326 L296 326 L300 326 L304 326 L308 326 L312 326 L316 326 L320 326 L324 326 L328 326 L332 326 L336 326 L340 326 L344 326 L348 326 L352 326 L356 326 L360 326 L364 326 L368 326 L372 326 L376 326 L380 326 L384 326 L388 326 L392 326 L396 326 L400 326 L404 325 L408 323 L412 319 L416 311 L420 300 L424 286 L428 273 L432 266 L436 268 L440 277 L444 291 L448 304 L452 314 L456 320 L460 324 L464 325 L468 326 L472 326 L476 326 L480 326 L484 326 L488 326 L492 326 L496 326 L500 326 L504 326 L508 326 L512 326 L516 326 L520 326 L524 326 L528 326 L532 326 L536 326 L540 326 L544 326 L548 326 L552 326 L556 326 L560 326 L564 326 L568 326 L572 326 L576 326 L580 326 L584 326 L588 325 L592 324 L596 321 L600 315 L604 305 L608 290 L612 274 L616 261 L620 256 L624 261 L628 274 L632 290 L636 305 L640 315 L644 321 L648 324 L652 325 L656 326 L660 326 L664 326 L668 326 L672 326 L676 326 L680 326 L684 326 L688 326 L692 326 L696 326 L700 326 L704 326 L708 326 L712 326 L716 326 L720 326 L724 326 L728 326 L732 326 L736 326 L740 326 L744 326 L748 326 L752 326 L756 326 L760 326 L764 326 L768 326 L772 326 L776 326 L780 326 L784 326 L788 325 L792 324 L796 322 L800 317 L804 308 L808 295 L812 281 L816 270 L820 266 L824 270 L828 281 L832 295 L836 308 L840 317 L844 322 L848 324 L852 325 L856 326 L860 326 L864 326 L868 326 L872 326 L876 326 L880 326 L884 326 L888 326 L892 326 L896 326 L900 326 L904 326 L908 326 L912 326 L916 326 L920 326 L924 326 L928 326 L932 326 L936 326 L940 326 L944 326 L948 326 L952 326 L956 326 L960 326 L964 326 L968 326 L972 326 L976 326 L980 326\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><line x1=\"20\" y1=\"250\" x2=\"980\" y2=\"250\" stroke=\"#008A7E\" stroke-width=\"7\"/><line x1=\"527\" y1=\"140\" x2=\"527\" y2=\"324\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"527\" cy=\"326\" r=\"13\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><rect x=\"1060\" y=\"0\" width=\"604\" height=\"170\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1082.0 20.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"1060\" y=\"200\" width=\"604\" height=\"170\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1082.0 220.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
     {
-     "t": "Dosagem isolada de GH",
-     "x": "no vale de um pulso, indetectável numa pessoa normal",
-     "cor": "verm"
+     "x": 20,
+     "y": 0,
+     "w": 300,
+     "t": "GH em pulsos",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "IGF-1",
-     "x": "o integrador de dias: é o que se olha",
-     "cor": "petr"
+     "x": 497,
+     "y": 96,
+     "w": 330,
+     "t": "coleta isolada: no vale, indetectável",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
+     "x": 720,
+     "y": 208,
+     "w": 300,
+     "t": "IGF-1: o integrador de dias",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 340,
+     "w": 960,
+     "t": "24 horas",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 24,
+     "w": 500,
      "t": "Teste de estímulo",
-     "x": "o que faz o diagnóstico no adulto, com endocrinologista",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1082,
+     "y": 88,
+     "w": 560,
+     "t": "o que faz o diagnóstico no adulto, com endocrinologista",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 224,
+     "w": 500,
      "t": "IGFBP-3",
-     "x": "sem papel no diagnóstico de rotina do adulto",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1082,
+     "y": 288,
+     "w": 560,
+     "t": "sem papel no diagnóstico de rotina do adulto",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Terceira e quarta afirmações",
+   "titulo": "GH isolado no sangue é quase inútil",
    "destaque": "E a mulher em idade reprodutiva secreta mais GH por dia do que o homem.",
    "destaque_cor": "tinta",
-   "fonte": "Ho e colaboradores, Journal of Clinical Endocrinology and Metabolism 1987"
+   "fonte": "Curva: esquema, sem valores medidos · Ho e colaboradores, Journal of Clinical Endocrinology and Metabolism 1987"
   },
   {
    "id": "restricao",
@@ -241,29 +456,174 @@
   },
   {
    "id": "jejum",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"À esquerda, no jejum: a seta do GH sobe, a do IGF-1 cai, porque o fígado fica resistente ao GH. A frase de venda está pela metade. À direita, dois IGF-1: um vem do fígado e circula no sangue; o outro é fabricado dentro da fibra muscular sob tensão mecânica. Para hipertrofia, pesa mais o local\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"700\" height=\"430\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"80\" y=\"230\" width=\"120\" height=\"110\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"210\" y=\"80\" width=\"120\" height=\"260\" rx=\"6\" fill=\"#3A6EA5\"/><g transform=\"translate(230.0 20.0) scale(2.0833)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><rect x=\"380\" y=\"230\" width=\"120\" height=\"110\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"510\" y=\"260\" width=\"120\" height=\"80\" rx=\"6\" fill=\"#A8322A\"/><g transform=\"translate(530.0 200.0) scale(2.0833)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><rect x=\"780\" y=\"60\" width=\"380\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1200\" y=\"100\" width=\"460\" height=\"40\" rx=\"20\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1230\" cy=\"120\" r=\"8\" fill=\"#6B7A87\"/><circle cx=\"1306\" cy=\"120\" r=\"8\" fill=\"#6B7A87\"/><circle cx=\"1382\" cy=\"120\" r=\"8\" fill=\"#6B7A87\"/><circle cx=\"1458\" cy=\"120\" r=\"8\" fill=\"#6B7A87\"/><circle cx=\"1534\" cy=\"120\" r=\"8\" fill=\"#6B7A87\"/><circle cx=\"1610\" cy=\"120\" r=\"8\" fill=\"#6B7A87\"/><line x1=\"1162\" y1=\"125\" x2=\"1196\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"780\" y=\"240\" width=\"880\" height=\"110\" rx=\"55\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"840\" y1=\"262\" x2=\"840\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"930\" y1=\"262\" x2=\"930\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1020\" y1=\"262\" x2=\"1020\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1110\" y1=\"262\" x2=\"1110\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1200\" y1=\"262\" x2=\"1200\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1290\" y1=\"262\" x2=\"1290\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1380\" y1=\"262\" x2=\"1380\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1470\" y1=\"262\" x2=\"1470\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1560\" y1=\"262\" x2=\"1560\" y2=\"328\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"890\" cy=\"295\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"1060\" cy=\"295\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"1230\" cy=\"295\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"1400\" cy=\"295\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"1570\" cy=\"295\" r=\"16\" fill=\"#008A7E\"/><line x1=\"740\" y1=\"295\" x2=\"772\" y2=\"295\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 650,
+     "t": "No jejum",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 350,
+     "w": 120,
+     "t": "antes",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 210,
+     "y": 350,
+     "w": 120,
+     "t": "jejum",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 60,
+     "w": 250,
+     "t": "GH",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 386,
+     "w": 300,
+     "t": "sobe: é verdade e se mede",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 380,
+     "y": 350,
+     "w": 120,
+     "t": "antes",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 510,
+     "y": 350,
+     "w": 120,
+     "t": "jejum",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 60,
+     "w": 250,
+     "t": "IGF-1",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 380,
+     "y": 386,
+     "w": 300,
+     "t": "cai: o fígado fica resistente",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 780,
+     "y": 0,
+     "w": 884,
+     "t": "Dois IGF-1",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 800,
+     "y": 72,
+     "w": 340,
+     "t": "do fígado",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 110,
+     "w": 340,
+     "t": "circula no sangue",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 204,
+     "w": 880,
+     "t": "o que a fibra fabrica sob tensão mecânica",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 370,
+     "w": 880,
+     "t": "para hipertrofia, pesa mais o local",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Sexta afirmação",
    "titulo": "“Jejum sobe o GH, logo é anabólico”",
-   "esq": {
-    "t": "No jejum",
-    "cor": "ambar",
-    "itens": [
-     "o GH sobe: é verdade e se mede",
-     "o IGF-1 cai: a mesma resistência do fígado",
-     "a frase de venda está pela metade"
-    ]
-   },
-   "dir": {
-    "t": "Dois IGF-1",
-    "cor": "petr",
-    "itens": [
-     "o que circula, vindo do fígado",
-     "o que a fibra fabrica sob tensão mecânica",
-     "para hipertrofia, pesa mais o local"
-    ]
-   },
    "destaque": "Subir um fator de crescimento no sangue não reproduz o que a tensão produz dentro da fibra. O frasco não substitui a série.",
-   "destaque_cor": "petr"
+   "destaque_cor": "petr",
+   "fonte": "Barras: esquema, sem valores medidos"
   },
   {
    "id": "mitocondria",
@@ -503,81 +863,454 @@
   },
   {
    "id": "secretagogo",
-   "tipo": "duas",
-   "eyebrow": "Nass e colaboradores, 2008",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Um placar com seis linhas, depois de dois anos de secretagogo oral contra placebo em adultos de 60 a 81 anos. Subiram, em verde: GH e IGF-1, até a faixa do adulto jovem, e a massa livre de gordura. Não mudaram: força e função. Pioraram, em vermelho: a glicemia de jejum subiu, a sensibilidade à insulina caiu e o cortisol subiu\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"544\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"56\" cy=\"116\" r=\"32\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(34.0 94.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><circle cx=\"56\" cy=\"226\" r=\"32\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(34.0 204.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><rect x=\"560\" y=\"0\" width=\"544\" height=\"420\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"616\" cy=\"116\" r=\"32\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(594.0 94.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><rect x=\"1120\" y=\"0\" width=\"544\" height=\"420\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1176\" cy=\"116\" r=\"32\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1154.0 94.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><circle cx=\"1176\" cy=\"226\" r=\"32\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1154.0 204.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><circle cx=\"1176\" cy=\"336\" r=\"32\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1154.0 314.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 500,
+     "t": "O que subiu",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 104,
+     "y": 88,
+     "w": 420,
+     "t": "GH e IGF-1",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 104,
+     "y": 124,
+     "w": 420,
+     "t": "até a faixa do adulto jovem",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 104,
+     "y": 198,
+     "w": 420,
+     "t": "Massa livre de gordura",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 104,
+     "y": 234,
+     "w": 420,
+     "t": "subiu",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 16,
+     "w": 500,
+     "t": "O que não mudou",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 664,
+     "y": 88,
+     "w": 420,
+     "t": "Força e função",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 664,
+     "y": 124,
+     "w": 420,
+     "t": "igual",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 16,
+     "w": 500,
+     "t": "O que piorou",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1224,
+     "y": 88,
+     "w": 420,
+     "t": "Glicemia de jejum",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1224,
+     "y": 124,
+     "w": 420,
+     "t": "subiu",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1224,
+     "y": 198,
+     "w": 420,
+     "t": "Sensibilidade à insulina",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1224,
+     "y": 234,
+     "w": 420,
+     "t": "caiu",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1224,
+     "y": 308,
+     "w": 420,
+     "t": "Cortisol",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1224,
+     "y": 344,
+     "w": 420,
+     "t": "subiu",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Dois anos de secretagogo oral, 2008",
    "titulo": "O biomarcador se move, a função não acompanha",
-   "esq": {
-    "t": "O que subiu",
-    "cor": "petr",
-    "itens": [
-     "GH e IGF-1, até a faixa do adulto jovem",
-     "massa livre de gordura"
-    ]
-   },
-   "dir": {
-    "t": "O que não mudou, e o que piorou",
-    "cor": "verm",
-    "itens": [
-     "força e função: iguais",
-     "glicemia de jejum: subiu",
-     "sensibilidade à insulina: caiu",
-     "cortisol: subiu"
-    ]
-   },
    "destaque": "GH e secretagogos estão na lista proibida do controle antidopagem. Muita gente compra sem saber.",
    "destaque_cor": "verm",
-   "fonte": "Annals of Internal Medicine 2008 · 65 adultos saudáveis de 60 a 81 anos, dois anos, secretagogo oral contra placebo"
+   "fonte": "Nass e colaboradores, Annals of Internal Medicine 2008 · 65 adultos saudáveis de 60 a 81 anos, secretagogo oral contra placebo"
   },
   {
    "id": "apneia",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"Em cima, a respiração ao longo da noite em onda, com pausas planas marcadas: o ronco e as pausas que alguém viu. Embaixo, à esquerda, o quadro: homem de cinquenta e poucos anos, treina há anos, não ganha mais massa, acorda arrebentado, IGF-1 abaixo da faixa e pedido de GH pronto. À direita, os sinais que reconhecem a apneia de graça: ronco alto e pausas, sonolência de dia e ganho de peso, pressão difícil de controlar e álcool à noite\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><path d=\"M0 80 L4 73 L8 66 L12 59 L16 53 L20 48 L24 45 L28 42 L32 40 L36 40 L40 41 L44 44 L48 47 L52 52 L56 58 L60 64 L64 71 L68 78 L72 85 L76 92 L80 99 L84 105 L88 110 L92 115 L96 118 L100 119 L104 120 L108 119 L112 117 L116 114 L120 109 L124 104 L128 98 L132 91 L136 84 L140 77 L144 70 L148 63 L152 57 L156 51 L160 47 L164 43 L168 41 L172 40 L176 40 L180 42 L184 45 L188 49 L192 54 L196 60 L200 67 L204 74 L208 81 L212 88 L216 95 L220 102 L224 107 L228 112 L232 116 L236 119 L240 120 L244 120 L248 118 L252 116 L256 112 L260 107 L264 101 L268 95 L272 88 L276 81 L280 74 L284 67 L288 60 L292 54 L296 49 L300 80 L304 80 L308 80 L312 80 L316 80 L320 80 L324 80 L328 80 L332 80 L336 80 L340 80 L344 80 L348 80 L352 80 L356 80 L360 80 L364 80 L368 80 L372 80 L376 80 L380 80 L384 80 L388 80 L392 80 L396 80 L400 80 L404 80 L408 80 L412 85 L416 78 L420 70 L424 64 L428 57 L432 52 L436 47 L440 43 L444 41 L448 40 L452 40 L456 42 L460 45 L464 49 L468 54 L472 60 L476 66 L480 73 L484 80 L488 88 L492 95 L496 101 L500 107 L504 112 L508 116 L512 118 L516 120 L520 120 L524 119 L528 116 L532 113 L536 108 L540 102 L544 96 L548 89 L552 82 L556 74 L560 67 L564 61 L568 55 L572 49 L576 45 L580 42 L584 40 L588 40 L592 41 L596 43 L600 46 L604 51 L608 56 L612 62 L616 69 L620 76 L624 84 L628 91 L632 98 L636 104 L640 109 L644 114 L648 117 L652 119 L656 120 L660 120 L664 118 L668 115 L672 111 L676 105 L680 99 L684 93 L688 86 L692 78 L696 71 L700 64 L704 58 L708 52 L712 48 L716 44 L720 41 L724 40 L728 40 L732 42 L736 44 L740 48 L744 53 L748 59 L752 65 L756 72 L760 80 L764 80 L768 80 L772 80 L776 80 L780 80 L784 80 L788 80 L792 80 L796 80 L800 80 L804 80 L808 80 L812 80 L816 80 L820 80 L824 80 L828 80 L832 80 L836 80 L840 80 L844 80 L848 80 L852 80 L856 80 L860 80 L864 80 L868 80 L872 43 L876 46 L880 50 L884 56 L888 62 L892 68 L896 75 L900 83 L904 90 L908 97 L912 103 L916 109 L920 113 L924 117 L928 119 L932 120 L936 120 L940 118 L944 115 L948 111 L952 106 L956 100 L960 94 L964 87 L968 79 L972 72 L976 65 L980 59 L984 53 L988 48 L992 44 L996 42 L1000 40 L1004 40 L1008 41 L1012 44 L1016 48 L1020 52 L1024 58 L1028 65 L1032 71 L1036 79 L1040 86 L1044 93 L1048 100 L1052 106 L1056 111 L1060 115 L1064 118 L1068 120 L1072 120 L1076 119 L1080 117 L1084 114 L1088 109 L1092 104 L1096 97 L1100 90 L1104 83 L1108 76 L1112 69 L1116 62 L1120 56 L1124 51 L1128 46 L1132 43 L1136 41 L1140 40 L1144 41 L1148 42 L1152 45 L1156 50 L1160 55 L1164 61 L1168 68 L1172 75 L1176 82 L1180 89 L1184 96 L1188 102 L1192 108 L1196 113 L1200 80 L1204 80 L1208 80 L1212 80 L1216 80 L1220 80 L1224 80 L1228 80 L1232 80 L1236 80 L1240 80 L1244 80 L1248 80 L1252 80 L1256 80 L1260 80 L1264 80 L1268 80 L1272 80 L1276 80 L1280 80 L1284 80 L1288 80 L1292 80 L1296 80 L1300 80 L1304 80 L1308 80 L1312 78 L1316 85 L1320 92 L1324 99 L1328 105 L1332 110 L1336 114 L1340 118 L1344 119 L1348 120 L1352 119 L1356 117 L1360 114 L1364 110 L1368 104 L1372 98 L1376 91 L1380 84 L1384 77 L1388 70 L1392 63 L1396 57 L1400 51 L1404 47 L1408 43 L1412 41 L1416 40 L1420 40 L1424 42 L1428 45 L1432 49 L1436 54 L1440 60 L1444 67 L1448 74 L1452 81 L1456 88 L1460 95 L1464 102 L1468 107 L1472 112 L1476 116 L1480 119 L1484 120 L1488 120 L1492 119 L1496 116 L1500 112 L1504 107 L1508 102 L1512 95 L1516 88 L1520 81 L1524 74 L1528 67 L1532 60 L1536 54 L1540 49 L1544 45 L1548 42 L1552 40 L1556 40 L1560 41 L1564 43 L1568 47 L1572 51 L1576 57 L1580 63 L1584 70 L1588 77 L1592 84 L1596 91 L1600 98 L1604 104 L1608 110 L1612 114 L1616 117 L1620 119 L1624 120 L1628 119 L1632 118 L1636 114 L1640 110 L1644 105 L1648 99 L1652 92 L1656 85 L1660 78 L1664 71\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"300\" y=\"30\" width=\"110\" height=\"100\" rx=\"8\" fill=\"#A8322A\" fill-opacity=\"0.12\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"760\" y=\"30\" width=\"110\" height=\"100\" rx=\"8\" fill=\"#A8322A\" fill-opacity=\"0.12\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"1200\" y=\"30\" width=\"110\" height=\"100\" rx=\"8\" fill=\"#A8322A\" fill-opacity=\"0.12\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"0\" y=\"190\" width=\"780\" height=\"240\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"860\" y=\"190\" width=\"804\" height=\"240\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(884.0 254.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 8a5 5 0 0 1 0 8m2.7-11a9 9 0 0 1 0 14M6 15H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l3.5-4.5A.8.8 0 0 1 11 5v14a.8.8 0 0 1-1.5.5z\"/></g><g transform=\"translate(884.0 304.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g><g transform=\"translate(884.0 354.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 136,
+     "w": 1000,
+     "t": "a respiração durante a noite; as pausas são a apneia",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 136,
+     "w": 110,
+     "t": "pausa",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 204,
+     "w": 730,
+     "t": "O quadro",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 256,
+     "w": 730,
+     "t": "homem de cinquenta e poucos anos, treina há anos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 302,
+     "w": 730,
+     "t": "não ganha mais massa, acorda arrebentado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 348,
+     "w": 730,
+     "t": "IGF-1 abaixo da faixa, pedido de GH pronto",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 204,
+     "w": 760,
+     "t": "A apneia se reconhece de graça",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 934,
+     "y": 256,
+     "w": 710,
+     "t": "ronco alto, pausas que alguém viu",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 306,
+     "w": 710,
+     "t": "sonolência de dia, ganho de peso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 356,
+     "w": 710,
+     "t": "pressão difícil de controlar, álcool à noite",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O IGF-1 baixo que vai aparecer",
    "titulo": "“Você ronca?”",
-   "esq": {
-    "t": "O quadro",
-    "cor": "tinta",
-    "itens": [
-     "homem de 50 e poucos anos, treina há anos",
-     "não ganha mais massa, acorda arrebentado",
-     "IGF-1 abaixo da faixa, pedido de GH pronto"
-    ]
-   },
-   "dir": {
-    "t": "A apneia se reconhece de graça",
-    "cor": "verm",
-    "itens": [
-     "ronco alto, pausas que alguém viu",
-     "sonolência de dia, ganho de peso",
-     "pressão difícil de controlar, álcool à noite"
-    ]
-   },
    "destaque": "Acima de 45 anos, com IGF-1 baixo, fadiga e dificuldade de ganhar massa, a apneia entra no diferencial antes da deficiência de GH.",
    "destaque_cor": "petr"
   },
   {
    "id": "condutas",
-   "tipo": "lista",
-   "eyebrow": "O que sobra de prático",
-   "titulo": "Três condutas, em ordem",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três condutas em ordem. Um, proteger a primeira metade da noite: um hipnograma mostra o sono de ondas lentas concentrado nas primeiras horas, e o que o ameaça é álcool, sessão dura perto de deitar, apneia e sono picado. Dois, alimentar o eixo: energia disponível e proteína suficiente. Três, carregar o músculo: a série é o estímulo, não há substituto sistêmico\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"900\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"120\" y=\"235\" width=\"380\" height=\"45\" fill=\"#008A7E\" fill-opacity=\"0.18\"/><path d=\"M120 160 L 148 160 L 148 260 L 196 260 L 196 210 L 224 210 L 224 260 L 282 260 L 282 160 L 310 160 L 310 210 L 338 210 L 338 260 L 376 260 L 376 160 L 414 160 L 414 110 L 434 110 L 434 160 L 500 160 L 500 210 L 538 210 L 538 160 L 586 160 L 586 110 L 604 110 L 604 160 L 690 160 L 690 210 L 718 210 L 718 160 L 766 160 L 766 110 L 785 110 L 785 160 L 880 160 L 880 160 L 880 160\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(984.0 70.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"960\" y=\"220\" width=\"704\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(984.0 290.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g></svg>",
+   "rotulos": [
     {
-     "t": "Proteger a primeira metade da noite",
-     "x": "álcool, sessão dura perto de deitar, apneia, continuidade do sono",
-     "cor": "petr"
+     "x": 24,
+     "y": 16,
+     "w": 850,
+     "t": "1 · Proteger a primeira metade da noite",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Alimentar o eixo",
-     "x": "energia disponível e proteína suficiente",
-     "cor": "ambar"
+     "x": 10,
+     "y": 98,
+     "w": 100,
+     "t": "REM",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "t": "Carregar o músculo",
-     "x": "a série é o estímulo; não há substituto sistêmico",
-     "cor": "verm"
+     "x": 10,
+     "y": 148,
+     "w": 100,
+     "t": "leve",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 198,
+     "w": 100,
+     "t": "médio",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 248,
+     "w": 100,
+     "t": "profundo",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 282,
+     "w": 370,
+     "t": "primeira metade: o sono profundo, e o pulso maior de GH",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 510,
+     "y": 282,
+     "w": 370,
+     "t": "ameaças: álcool, sessão dura perto de deitar, apneia, sono picado",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 360,
+     "w": 850,
+     "t": "a única intervenção com mecanismo direto sobre este eixo, e gratuita",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1068,
+     "y": 40,
+     "w": 580,
+     "t": "2 · Alimentar o eixo",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1068,
+     "y": 92,
+     "w": 580,
+     "t": "energia disponível e proteína suficiente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1068,
+     "y": 260,
+     "w": 580,
+     "t": "3 · Carregar o músculo",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1068,
+     "y": 312,
+     "w": 580,
+     "t": "a série é o estímulo; não há substituto sistêmico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "A primeira é a única intervenção com mecanismo direto sobre este eixo ao alcance de todo mundo, e é gratuita.",
-   "destaque_cor": "tinta"
+   "eyebrow": "O que sobra de prático",
+   "titulo": "Três condutas, em ordem",
+   "fonte": "Hipnograma: esquema, sem valores medidos"
   },
   {
    "id": "fecho",

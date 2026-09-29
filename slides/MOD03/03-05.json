@@ -26,21 +26,105 @@
  "slides": [
   {
    "id": "portas",
-   "tipo": "numeros",
-   "eyebrow": "Dois erros simétricos",
-   "titulo": "Tratado sem ter, ou tem e nunca foi tratado",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, duas portas lado a lado com o mesmo exame pendurado: numa, tratado sem ter; na outra, tem e nunca foi tratado. À direita, uma grade de 650 pontos com um só destacado: cerca de 1 em 650 nascimentos masculinos com síndrome de Klinefelter. Embaixo, quatro pessoas, três apagadas: 3 em cada 4 nunca diagnosticados\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><pattern id=\"gp\" width=\"14\" height=\"14\" patternUnits=\"userSpaceOnUse\"><circle cx=\"7\" cy=\"7\" r=\"4\" fill=\"#C9CFD4\"/></pattern></defs><rect x=\"20\" y=\"30\" width=\"260\" height=\"360\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"5\"/><rect x=\"44\" y=\"54\" width=\"212\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"44\" y=\"214\" width=\"212\" height=\"150\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"246\" cy=\"214\" r=\"10\" fill=\"#B07A1C\"/><rect x=\"80\" y=\"84\" width=\"140\" height=\"84\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"150\" y1=\"30\" x2=\"150\" y2=\"84\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"350\" y=\"30\" width=\"260\" height=\"360\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"374\" y=\"54\" width=\"212\" height=\"140\" rx=\"6\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"374\" y=\"214\" width=\"212\" height=\"150\" rx=\"6\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"576\" cy=\"214\" r=\"10\" fill=\"#A8322A\"/><rect x=\"410\" y=\"84\" width=\"140\" height=\"84\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"480\" y1=\"30\" x2=\"480\" y2=\"84\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"760\" y=\"40\" width=\"364\" height=\"350\" fill=\"url(#gp)\"/><circle cx=\"1005\" cy=\"201\" r=\"7\" fill=\"#A8322A\"/><g transform=\"translate(1160.0 150.0) scale(4.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1280.0 150.0) scale(4.0000)\"><path fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1400.0 150.0) scale(4.0000)\"><path fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1520.0 150.0) scale(4.0000)\"><path fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "1 em 650",
-     "x": "nascimentos masculinos com síndrome de Klinefelter",
-     "cor": "tinta"
+     "x": 80,
+     "y": 100,
+     "w": 140,
+     "t": "o mesmo exame",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.15
     },
     {
-     "n": "3 em 4",
-     "x": "dos afetados nunca diagnosticados",
-     "cor": "verm"
+     "x": 30,
+     "y": 236,
+     "w": 240,
+     "t": "tratado sem ter",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 410,
+     "y": 100,
+     "w": 140,
+     "t": "o mesmo exame",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 360,
+     "y": 236,
+     "w": 240,
+     "t": "tem e nunca foi tratado",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 760,
+     "y": 0,
+     "w": 364,
+     "t": "1 em 650",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 40,
+     "w": 500,
+     "t": "nascimentos masculinos com síndrome de Klinefelter",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 256,
+     "w": 500,
+     "t": "3 em 4",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 306,
+     "w": 500,
+     "t": "dos afetados nunca diagnosticados",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Dois erros simétricos",
+   "titulo": "Tratado sem ter, ou tem e nunca foi tratado",
    "destaque": "E eles passam pelo consultório por infertilidade, ginecomastia, dificuldade de ganhar massa: as queixas que chegam à nossa área.",
    "destaque_cor": "ambar",
    "fonte": "Bojesen, Juul e Gravholt, Journal of Clinical Endocrinology and Metabolism 2003 · registro nacional da Dinamarca"
@@ -167,129 +251,636 @@
   },
   {
    "id": "auditar",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo dois",
-   "titulo": "Auditar como o número foi produzido",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"No centro, um laudo com a testosterona baixa sob uma lupa. Em volta, seis perguntas sobre como o número foi produzido: horário, a coleta de tarde é coleta no vale; alimento, depois de comer o valor cai por horas; doença aguda, o exame descreve a virose; treino recente, a manhã seguinte à sessão pesada não é base; SHBG não pedida; troca de método de laboratório. Qualquer uma comprometida: repita, não trate\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"832\" y1=\"200\" x2=\"540\" y2=\"55\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"200\" x2=\"540\" y2=\"195\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"200\" x2=\"540\" y2=\"335\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"200\" x2=\"1124\" y2=\"55\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"200\" x2=\"1124\" y2=\"195\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"200\" x2=\"1124\" y2=\"335\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><rect x=\"682\" y=\"70\" width=\"300\" height=\"230\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"682\" y=\"70\" width=\"300\" height=\"12\" rx=\"4\" fill=\"#12202E\"/><circle cx=\"872\" cy=\"240\" r=\"42\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"7\"/><line x1=\"902\" y1=\"270\" x2=\"942\" y2=\"310\" stroke=\"#3A6EA5\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect x=\"0\" y=\"0\" width=\"540\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(18.0 28.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"0\" y=\"140\" width=\"540\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(18.0 168.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"0\" y=\"280\" width=\"540\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(18.0 308.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><rect x=\"1124\" y=\"0\" width=\"540\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1142.0 28.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"1124\" y=\"140\" width=\"540\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1142.0 168.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"1124\" y=\"280\" width=\"540\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1142.0 308.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 702,
+     "y": 100,
+     "w": 260,
+     "t": "Testosterona total",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 702,
+     "y": 140,
+     "w": 260,
+     "t": "baixa",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 86,
+     "y": 12,
+     "w": 440,
      "t": "Horário",
-     "x": "coleta de tarde é coleta no vale",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 86,
+     "y": 52,
+     "w": 440,
+     "t": "coleta de tarde é coleta no vale",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 86,
+     "y": 152,
+     "w": 440,
      "t": "Alimento",
-     "x": "depois de comer, o valor cai por horas",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 86,
+     "y": 192,
+     "w": 440,
+     "t": "depois de comer, o valor cai por horas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 86,
+     "y": 292,
+     "w": 440,
      "t": "Doença aguda",
-     "x": "o exame descreve a virose, não o eixo",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 86,
+     "y": 332,
+     "w": 440,
+     "t": "o exame descreve a virose, não o eixo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1210,
+     "y": 12,
+     "w": 440,
      "t": "Treino recente",
-     "x": "a manhã seguinte à sessão pesada não é base",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1210,
+     "y": 52,
+     "w": 440,
+     "t": "a manhã seguinte à sessão pesada não é base",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1210,
+     "y": 152,
+     "w": 440,
      "t": "SHBG não pedida",
-     "x": "atleta magro e homem com obesidade erram em sentidos opostos",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1210,
+     "y": 192,
+     "w": 440,
+     "t": "atleta magro e obeso erram em sentidos opostos",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1210,
+     "y": 292,
+     "w": 440,
      "t": "Troca de método",
-     "x": "laboratórios diferentes, “queda” que é de método",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 332,
+     "w": 440,
+     "t": "laboratórios diferentes, “queda” de método",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 582,
+     "y": 400,
+     "w": 500,
+     "t": "Qualquer uma comprometida: repita, não trate.",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Qualquer uma comprometida: repita, não trate.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Passo dois",
+   "titulo": "Auditar como o número foi produzido"
   },
   {
    "id": "acionaveis",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, remédios que suprimem o eixo: opioide, inclusive o crônico para dor; corticoide em dose alta ou prolongada; antipsicóticos e alguns antieméticos, pela prolactina; gabapentinoides e antiandrogênicos. À direita, a obesidade age por duas vias: a SHBG baixa derruba a testosterona total, e a aromatização no tecido adiposo gera estradiol, que freia o eixo. Perder peso sobe a testosterona\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"700\" height=\"420\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(24.0 84.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(24.0 166.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(24.0 248.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(24.0 330.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><circle cx=\"880\" cy=\"200\" r=\"90\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(846.0 150.0) scale(2.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><line x1=\"972\" y1=\"200\" x2=\"1054\" y2=\"104\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1064\" y=\"60\" width=\"600\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"972\" y1=\"200\" x2=\"1054\" y2=\"284\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1064\" y=\"240\" width=\"600\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"780\" y=\"360\" width=\"884\" height=\"60\" rx=\"30\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(800.0 368.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 650,
+     "t": "Remédios que suprimem o eixo",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 86,
+     "y": 86,
+     "w": 590,
+     "t": "opioide, inclusive o crônico para dor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 86,
+     "y": 168,
+     "w": 590,
+     "t": "corticoide em dose alta ou prolongada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 86,
+     "y": 250,
+     "w": 590,
+     "t": "antipsicóticos e alguns antieméticos: prolactina",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 86,
+     "y": 332,
+     "w": 590,
+     "t": "gabapentinoides, antiandrogênicos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 780,
+     "y": 0,
+     "w": 884,
+     "t": "Obesidade, por duas vias",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 800,
+     "y": 226,
+     "w": 160,
+     "t": "tecido adiposo",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1086,
+     "y": 72,
+     "w": 560,
+     "t": "SHBG baixa",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1086,
+     "y": 112,
+     "w": 560,
+     "t": "derruba a total",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1086,
+     "y": 252,
+     "w": 560,
+     "t": "mais aromatização",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1086,
+     "y": 292,
+     "w": 560,
+     "t": "estradiol, mais freio no eixo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 374,
+     "w": 790,
+     "t": "perder peso sobe a testosterona: a causa reversível mais comum",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "As mais acionáveis",
    "titulo": "Remédios e obesidade",
-   "esq": {
-    "t": "Remédios que suprimem o eixo",
-    "cor": "verm",
-    "itens": [
-     "opioide, inclusive o crônico para dor",
-     "corticoide em dose alta ou prolongada",
-     "antipsicóticos e alguns antieméticos: prolactina",
-     "gabapentinoides, antiandrogênicos"
-    ]
-   },
-   "dir": {
-    "t": "Obesidade, por duas vias",
-    "cor": "ambar",
-    "itens": [
-     "SHBG baixa derruba a total",
-     "mais aromatização no tecido adiposo, mais freio no eixo",
-     "a causa reversível mais comum no homem adulto",
-     "perder peso sobe a testosterona"
-    ]
-   },
    "destaque": "Perda de peso é intervenção de primeira linha sobre o próprio eixo: sem ampola, sem supressão, sem impacto na fertilidade.",
    "destaque_cor": "petr",
    "fonte": "Corona e colaboradores, European Journal of Endocrinology 2013 · Bhasin e colaboradores, Endocrine Society 2018"
   },
   {
    "id": "escondem",
-   "tipo": "lista",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Três painéis. Primeiro, é normal nessa idade: a queda da testosterona com a idade é lenta e modesta, uma linha quase plana. Segundo, total normal com SHBG alta: no magro de endurance a barra da total está dentro da faixa, e a da fração disponível está baixa. Terceiro, prolactina não pedida: um pedido de exame com a prolactina sem marcar; ela entra em todo padrão central, e o ferro quando a história sugerir\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"460\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"460\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"460\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"60\" y1=\"330\" x2=\"480\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"60\" y1=\"100\" x2=\"60\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 60 150 L 480 196\" stroke=\"#6B7A87\" stroke-width=\"6\" fill=\"none\"/><path d=\"M 60 150 L 200 150 L 230 300 L 480 300\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-dasharray=\"14 8\"/><rect x=\"628\" y=\"150\" width=\"400\" height=\"44\" rx=\"4\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"628\" y=\"150\" width=\"300\" height=\"44\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"628\" y=\"250\" width=\"400\" height=\"44\" rx=\"4\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"628\" y=\"250\" width=\"70\" height=\"44\" rx=\"4\" fill=\"#B07A1C\"/><line x1=\"728\" y1=\"144\" x2=\"728\" y2=\"200\" stroke=\"#008A7E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"728\" y1=\"244\" x2=\"728\" y2=\"300\" stroke=\"#008A7E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1216\" y=\"90\" width=\"370\" height=\"260\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1240\" y=\"116\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1242.0 118.0) scale(1.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1240\" y=\"172\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1242.0 174.0) scale(1.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1240\" y=\"228\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1242.0 230.0) scale(1.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1240\" y=\"284\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 480,
+     "t": "“É normal nessa idade”",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 18,
+     "w": 480,
+     "t": "Total normal com SHBG alta",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 18,
+     "w": 480,
+     "t": "Prolactina não pedida",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 340,
+     "w": 420,
+     "t": "idade",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 250,
+     "y": 104,
+     "w": 260,
+     "t": "queda com a idade: lenta e modesta",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 250,
+     "y": 250,
+     "w": 260,
+     "t": "queda franca: não é a idade",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 390,
+     "w": 480,
+     "t": "a idade não explica um valor muito baixo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 628,
+     "y": 110,
+     "w": 400,
+     "t": "testosterona total",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 628,
+     "y": 210,
+     "w": 400,
+     "t": "fração disponível",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 738,
+     "y": 310,
+     "w": 280,
+     "t": "limite da faixa",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 390,
+     "w": 480,
+     "t": "o magro de endurance passa, com fração disponível ruim",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1286,
+     "y": 118,
+     "w": 280,
+     "t": "Testosterona total",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1286,
+     "y": 174,
+     "w": 280,
+     "t": "LH e FSH",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1286,
+     "y": 230,
+     "w": 280,
+     "t": "SHBG",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1286,
+     "y": 286,
+     "w": 280,
+     "t": "Prolactina",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 390,
+     "w": 480,
+     "t": "em todo padrão central; ferro quando a história sugerir",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo três",
    "titulo": "As armadilhas que escondem o hipogonádico",
-   "itens": [
-    {
-     "t": "“É normal nessa idade”",
-     "x": "a queda com a idade é lenta e modesta",
-     "cor": "verm"
-    },
-    {
-     "t": "Total normal com SHBG alta",
-     "x": "o magro de endurance passa, com fração disponível ruim",
-     "cor": "ambar"
-    },
-    {
-     "t": "Prolactina não pedida",
-     "x": "em todo padrão central; ferro quando a história sugerir",
-     "cor": "petr"
-    }
-   ]
+   "fonte": "Esquemas, sem valores medidos"
   },
   {
    "id": "exame",
-   "tipo": "cards",
-   "eyebrow": "A armadilha que mais falta",
-   "titulo": "O exame físico que decide",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Uma figura humana esquemática com cinco pontos de exame: olfato, perguntar se sente cheiro normalmente, pela síndrome de Kallmann; campo visual, trinta segundos, por compressão do quiasma; mama, glândula à palpação e não gordura; pelos e puberdade, antes ou depois da puberdade; volume testicular, pequenos e firmes no primário, pequenos e moles na supressão central longa\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><circle cx=\"832\" cy=\"70\" r=\"58\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M 712 460 L 712 200 Q 712 140 772 140 L 892 140 Q 952 140 952 200 L 952 460\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"832\" cy=\"84\" r=\"14\" fill=\"#008A7E\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"832\" y1=\"84\" x2=\"560\" y2=\"60\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"20\" width=\"560\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"852\" cy=\"58\" r=\"14\" fill=\"#008A7E\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"852\" y1=\"58\" x2=\"1104\" y2=\"60\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1104\" y=\"20\" width=\"560\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"782\" cy=\"220\" r=\"14\" fill=\"#B07A1C\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"782\" y1=\"220\" x2=\"560\" y2=\"200\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"0\" y=\"160\" width=\"560\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"882\" cy=\"300\" r=\"14\" fill=\"#12202E\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"882\" y1=\"300\" x2=\"1104\" y2=\"220\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"1104\" y=\"180\" width=\"560\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"430\" r=\"14\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"832\" y1=\"430\" x2=\"560\" y2=\"360\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"0\" y=\"320\" width=\"560\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "t": "Volume testicular",
-     "x": "pequenos e firmes: primário · pequenos e moles: supressão central longa",
-     "cor": "verm"
-    },
-    {
-     "t": "Mama",
-     "x": "glândula à palpação, não gordura",
-     "cor": "ambar"
-    },
-    {
-     "t": "Pelos e puberdade",
-     "x": "antes ou depois da puberdade",
-     "cor": "tinta"
-    },
-    {
-     "t": "Campo visual",
-     "x": "30 segundos: compressão do quiasma",
-     "cor": "petr"
-    },
-    {
+     "x": 20,
+     "y": 30,
+     "w": 520,
      "t": "Olfato",
-     "x": "Kallmann: “sente cheiro normalmente?”",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 68,
+     "w": 520,
+     "t": "Kallmann: “sente cheiro normalmente?”",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1124,
+     "y": 30,
+     "w": 520,
+     "t": "Campo visual",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 68,
+     "w": 520,
+     "t": "30 segundos: compressão do quiasma",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 170,
+     "w": 520,
+     "t": "Mama",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 208,
+     "w": 520,
+     "t": "glândula à palpação, não gordura",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1124,
+     "y": 190,
+     "w": 520,
+     "t": "Pelos e puberdade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 228,
+     "w": 520,
+     "t": "antes ou depois da puberdade",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 330,
+     "w": 520,
+     "t": "Volume testicular",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 368,
+     "w": 520,
+     "t": "pequenos e firmes: primário · pequenos e moles: supressão central longa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     }
-   ]
+   ],
+   "eyebrow": "A armadilha que mais falta",
+   "titulo": "O exame físico que decide"
   },
   {
    "id": "anabolizante",
@@ -386,61 +977,298 @@
   },
   {
    "id": "dizer",
-   "tipo": "lista",
-   "eyebrow": "Sem moralismo",
-   "titulo": "Três coisas ditas com clareza",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três balões de fala, ditos com clareza e sem moralismo: ciclo sugere um retorno que não é garantido; terapia pós-ciclo não é botão de reset, é conduta médica com indicação e não garante retorno; fertilidade se discute antes, não depois de três anos de uso. À direita, as três perguntas: o nome da substância, por quanto tempo, há quanto tempo parou\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><path d=\"M 90 10 L 1000 10 Q 1020 10 1020 30 L 1020 104 Q 1020 124 1000 124 L 150 124 L 110 144 L 118 124 L 90 124 Q 70 124 70 104 L 70 30 Q 70 10 90 10 Z\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(0.0 40.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><path d=\"M 90 158 L 1000 158 Q 1020 158 1020 178 L 1020 252 Q 1020 272 1000 272 L 150 272 L 110 292 L 118 272 L 90 272 Q 70 272 70 252 L 70 178 Q 70 158 90 158 Z\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(0.0 188.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><path d=\"M 90 306 L 1000 306 Q 1020 306 1020 326 L 1020 400 Q 1020 420 1000 420 L 150 420 L 110 440 L 118 420 L 90 420 Q 70 420 70 400 L 70 326 Q 70 306 90 306 Z\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(0.0 336.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"1100\" y=\"0\" width=\"564\" height=\"440\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"1160\" cy=\"126\" r=\"36\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1136.0 102.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><circle cx=\"1160\" cy=\"236\" r=\"36\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1136.0 212.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><circle cx=\"1160\" cy=\"346\" r=\"36\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1136.0 322.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 100,
+     "y": 34,
+     "w": 890,
      "t": "“Ciclo” sugere um retorno que não é garantido",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 100,
+     "y": 170,
+     "w": 890,
      "t": "Terapia pós-ciclo não é botão de reset",
-     "x": "é conduta médica, com indicação, e não garante retorno",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 100,
+     "y": 216,
+     "w": 890,
+     "t": "é conduta médica, com indicação, e não garante retorno",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 318,
+     "w": 890,
      "t": "Fertilidade se discute antes",
-     "x": "não depois de três anos de uso",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 364,
+     "w": 890,
+     "t": "não depois de três anos de uso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 18,
+     "w": 520,
+     "t": "Pergunte, pelo nome",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1214,
+     "y": 110,
+     "w": 430,
+     "t": "qual substância",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1214,
+     "y": 220,
+     "w": 430,
+     "t": "por quanto tempo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1214,
+     "y": 330,
+     "w": 430,
+     "t": "há quanto tempo parou",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Testosterona baixa, LH baixo, testículos pequenos e moles: pergunte pelo nome da substância, por quanto tempo, há quanto tempo parou.",
+   "eyebrow": "Sem moralismo",
+   "titulo": "Três coisas ditas com clareza",
+   "destaque": "Testosterona baixa, LH baixo, testículos pequenos e moles: é aqui que a pergunta entra.",
    "destaque_cor": "tinta"
   },
   {
    "id": "roteiro",
-   "tipo": "lista",
-   "eyebrow": "O procedimento",
-   "titulo": "Cinco passos, cada um com sua saída",
-   "gap_itens": 20,
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Cinco passos em sequência, cada um com a sua saída embaixo. Um, auditar o número: algo comprometido, repetir. Dois, dosar o par e classificar: LH alto aponta o testículo, baixo ou normal aponta para cima. Três, central orgânico ou funcional: história, exame físico, prolactina, ferro quando couber. Quatro, corrigir o que é corrigível e reavaliar em três a quatro meses, com coleta padronizada. Cinco, investigar com imagem e encaminhar: central sem contexto, prolactina alta, visão, dor de cabeça nova\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"150\" rx=\"16\" fill=\"#12202E\"/><line x1=\"304\" y1=\"75\" x2=\"337\" y2=\"75\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"150.0\" y1=\"156\" x2=\"150.0\" y2=\"222\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"230\" width=\"300\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"341\" y=\"0\" width=\"300\" height=\"150\" rx=\"16\" fill=\"#12202E\"/><line x1=\"645\" y1=\"75\" x2=\"678\" y2=\"75\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"491.0\" y1=\"156\" x2=\"491.0\" y2=\"222\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"341\" y=\"230\" width=\"300\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"682\" y=\"0\" width=\"300\" height=\"150\" rx=\"16\" fill=\"#008A7E\"/><line x1=\"986\" y1=\"75\" x2=\"1019\" y2=\"75\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"832.0\" y1=\"156\" x2=\"832.0\" y2=\"222\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"682\" y=\"230\" width=\"300\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1023\" y=\"0\" width=\"300\" height=\"150\" rx=\"16\" fill=\"#008A7E\"/><line x1=\"1327\" y1=\"75\" x2=\"1360\" y2=\"75\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"1173.0\" y1=\"156\" x2=\"1173.0\" y2=\"222\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"1023\" y=\"230\" width=\"300\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1364\" y=\"0\" width=\"300\" height=\"150\" rx=\"16\" fill=\"#A8322A\"/><line x1=\"1514.0\" y1=\"156\" x2=\"1514.0\" y2=\"222\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"1364\" y=\"230\" width=\"300\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 14,
+     "w": 300,
+     "t": "1",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 16,
+     "y": 66,
+     "w": 268,
      "t": "Auditar o número",
-     "x": "algo comprometido: repetir",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
+     "x": 16,
+     "y": 246,
+     "w": 268,
+     "t": "algo comprometido: repetir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 341,
+     "y": 14,
+     "w": 300,
+     "t": "2",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 357,
+     "y": 66,
+     "w": 268,
      "t": "Dosar o par e classificar",
-     "x": "LH alto: testículo · baixo ou normal: acima",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
+     "x": 357,
+     "y": 246,
+     "w": 268,
+     "t": "LH alto: testículo · baixo ou normal: acima",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 682,
+     "y": 14,
+     "w": 300,
+     "t": "3",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 698,
+     "y": 66,
+     "w": 268,
      "t": "Central: orgânico ou funcional?",
-     "x": "história, exame físico, prolactina, ferro quando couber",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
-     "t": "Corrigir o que é corrigível e reavaliar",
-     "x": "3 a 4 meses, coleta padronizada",
-     "cor": "petr"
+     "x": 698,
+     "y": 246,
+     "w": 268,
+     "t": "história, exame físico, prolactina, ferro quando couber",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     },
     {
-     "t": "Investigar com imagem e encaminhar",
-     "x": "central sem contexto, prolactina alta, visão, dor de cabeça nova",
-     "cor": "verm"
+     "x": 1023,
+     "y": 14,
+     "w": 300,
+     "t": "4",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1039,
+     "y": 66,
+     "w": 268,
+     "t": "Corrigir o corrigível e reavaliar",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1039,
+     "y": 246,
+     "w": 268,
+     "t": "3 a 4 meses, coleta padronizada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1364,
+     "y": 14,
+     "w": 300,
+     "t": "5",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1380,
+     "y": 66,
+     "w": 268,
+     "t": "Imagem e encaminhar",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1380,
+     "y": 246,
+     "w": 268,
+     "t": "central sem contexto, prolactina alta, visão, dor de cabeça nova",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
-   ]
+   ],
+   "eyebrow": "O procedimento",
+   "titulo": "Cinco passos, cada um com sua saída"
   },
   {
    "id": "fecho",

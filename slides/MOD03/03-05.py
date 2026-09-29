@@ -112,6 +112,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Quem faz o quê", "titulo"
                     {"t": "A substância", "x": "Contada ao educador físico, chega ao médico com o consentimento do paciente."}],
           "quem": "Não é delação. É a diferença entre tratar a causa e tratar o número."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-05")
+
 spec = {"arquivo": "aulas/MOD03/03-05-hipogonadismo-diferencial-e-armadilhas.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Hipogonadismo masculino", "subtitulo": "Diagnóstico diferencial e armadilhas de interpretação",

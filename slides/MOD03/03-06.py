@@ -186,6 +186,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "As sete correções", "tit
                     {"t": "Toda a equipe", "x": "Reconhece o exame baixo que é consequência, e faz a pergunta que revela a causa."}],
           "quem": "GH, secretagogos e peptídeos para desempenho, estética ou longevidade não são terreno de prescrição de nenhuma profissão desta turma."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-06")
+
 spec = {"arquivo": "aulas/MOD03/03-06-eixo-gh-igf1.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Eixo somatotrófico e exercício", "subtitulo": "GH, IGF-1 e equívocos de interpretação",
