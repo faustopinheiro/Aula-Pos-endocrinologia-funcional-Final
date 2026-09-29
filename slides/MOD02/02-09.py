@@ -284,6 +284,7 @@ for i, (t, f, c, erro) in enumerate(blocos):
     rs.append(rot(x + 250, 326, "corrida", w=210, tam=24, cor=AZUL, peso=700, alinha="center"))
     rs.append(rot(x, 376, "8 a 12 semanas", w=530, tam=24, cor=MUDO, alinha="center"))
 rs.append(rot(1120 + 70, 180, "zerada", w=210, tam=26, cor=FOSF, peso=700, alinha="center"))
+p.append("</svg>")
 S.append({"id": "blocos", "tipo": "diagrama", "h": 420, "svg": "".join(p), "rotulos": rs,
           "eyebrow": "Saída C, ênfase rotativa", "titulo": "Uma desenvolve, a outra se mantém",
           "destaque": "O erro mais comum do corredor amador: zerar a força nas doze semanas finais, quando o volume de corrida está maior. Chega à prova mais fraco.",

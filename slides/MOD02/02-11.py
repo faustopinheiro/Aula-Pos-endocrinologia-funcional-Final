@@ -134,6 +134,7 @@ for j, (serie, tit, cor_t) in enumerate([(A_, "Semana A: encostada e monótona",
     rs.append(rot(x0, 0, tit, w=800, tam=28, cor=cor_t, peso=700))
 rs += [rot(560, 236, "teto do leve", w=240, tam=24, cor=OXID, peso=700, alinha="right"),
        rot(0, 404, "vermelho duro · âmbar “leve” que não é leve · verde leve de verdade · mesma carga total nas duas", w=1664, tam=26, cor=MUDO)]
+p.append("</svg>")
 S.append({"id": "distribuicao", "tipo": "diagrama", "h": 440, "svg": "".join(p), "rotulos": rs,
           "eyebrow": "O erro que sobra no atleta real", "titulo": "Mesmo total, resultado diferente",
           "destaque": "A primeira pergunta não é “quanto você treina?”. É “como está distribuído?”.",

@@ -139,6 +139,8 @@ def miolo(s, bg):
         w, h = s.get("w", 1664), s["h"]
         partes = [f'<div style="position:relative; width:{w}px; height:{h}px">']
         svg = s["svg"]
+        if svg.count("<svg") > svg.count("</svg>"):  # desenho sem fechamento trava o slide no editor
+            svg += "</svg>"
         if 'style="' not in svg[:200]:
             svg = svg.replace("<svg ", '<svg style="position:absolute; left:0px; top:0px" ', 1)
         partes.append(svg)
