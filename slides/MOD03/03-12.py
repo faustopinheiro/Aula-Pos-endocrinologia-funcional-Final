@@ -135,6 +135,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O que atravessou as doze a
                     {"t": "Reconhecimento", "x": "De todos."}],
           "quem": "No próximo módulo, a nutrição esportiva abre pela disponibilidade energética."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-12")
+
 spec = {"arquivo": "aulas/MOD03/03-12-vitamina-d-calcio-e-saude-ossea.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Saúde óssea no praticante de exercício", "subtitulo": "Vitamina D, cálcio e decisão de suplementar",

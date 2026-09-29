@@ -152,6 +152,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O que os números decidem"
                     {"t": "Nutricionista", "x": "A ingestão que sustenta massa magra."}],
           "quem": "Perceber o sono curto, a restrição e a semana parada é de todos."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-11")
+
 spec = {"arquivo": "aulas/MOD03/03-11-insulina-e-composicao-corporal.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Exercício e sensibilidade à insulina", "subtitulo": "Mecanismos, prescrição e composição corporal",
