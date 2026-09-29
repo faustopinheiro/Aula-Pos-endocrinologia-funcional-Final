@@ -130,6 +130,15 @@ Total: 3 h 32 min em 12 aulas, 120 slides. A 3.12 fecha o módulo com a camada d
 integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
 disponibilidade energética, que abre o Módulo 4.
 
+**Acabamento.** Os 66 slides que ainda eram texto (cartões, colunas, listas, tabelas, números e frases)
+viraram desenho, sem mudar a quantidade nem a ordem dos slides; agora todo slide do módulo, fora o fecho,
+é um desenho próprio (os novos estão em `slides/MOD03/_redesenho.py`). Na fala, saíram os nomes de autores
+que não são marco (ficam Loucks, Finkelstein, Leproult e Van Cauter, Mujika e Padilla, Pedersen e Febbraio,
+Steensberg, Boström e Mikines), as menções a "aula passada", e "na próxima aula" virou "na próxima conversa";
+as idades dos casos e exemplos passaram a ser ditas por década. O gerador passou a fechar sozinho um
+desenho sem `</svg>`, que travava a edição do slide. As notas de produção foram refeitas no formato completo.
+Os links são os mesmos.
+
 ## Módulo 4 — Nutrição Esportiva · 12 aulas
 
 **ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 e 3: decks enxutos, gráficos
