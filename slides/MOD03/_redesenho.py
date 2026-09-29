@@ -1421,6 +1421,290 @@ def criterioC():
                  destaque_cor="petr")
 
 
+# ---------------------------------------------------------------- 3.9
+
+def breen():
+    """3.9: três barras de antes e depois de catorze dias andando menos, em escala real de percentual."""
+    p = [svg_abre(1664, 400, "Três pares de barras, antes e depois de catorze dias andando menos, em idosos saudáveis. Passos por dia caíram 76%, para cerca de 1.400. A sensibilidade à insulina depois da refeição caiu 43%. A síntese de proteína muscular depois da refeição caiu 26%")]
+    linhas_ = [("t:walk", "Passos por dia", 76, "−76%", "para cerca de 1.400", TINTA),
+               ("t:droplet", "Sensibilidade à insulina depois da refeição", 43, "−43%", "", FOSF),
+               ("t:barbell", "Síntese de proteína muscular depois da refeição", 26, "−26%", "", FOSF)]
+    X0, W = 560, 900
+    rs = [rot(X0, 0, "antes = 100%", w=300, tam=20, cor=MUDO)]
+    for k, (ic, t, q, n, d, cor) in enumerate(linhas_):
+        y = 36 + k * 100
+        p.append(icone(ic, 0, y + 10, 56, cor))
+        rs.append(rot(76, y + 4, t, w=460, tam=24, cor=TINTA, peso=600, lh=1.2))
+        p.append(f'<rect x="{X0}" y="{y}" width="{W}" height="34" rx="6" fill="{CINZA}"/>')
+        p.append(f'<rect x="{X0}" y="{y+42}" width="{W * (100 - q) / 100:.0f}" height="34" rx="6" fill="{cor}"/>')
+        p.append(f'<rect x="{X0 + W * (100 - q) / 100:.0f}" y="{y+42}" width="{W * q / 100:.0f}" height="34" rx="6" fill="none" stroke="{cor}" stroke-width="2" stroke-dasharray="6 5"/>')
+        rs.append(rot(X0 + W + 20, y + 30, n, w=180, tam=36, cor=cor, peso=700, serif=True))
+        if d:
+            rs.append(rot(X0 + W * (100 - q) / 100 + 12, y + 46, d, w=500, tam=20, cor=TINTA))
+    p.append(icone("t:calendar", 0, 346, 44, AZUL))
+    rs.append(rot(56, 352, "14 dias, sem cama e sem doença: resistência anabólica instalada", w=1100, tam=22, cor=AZUL, peso=700))
+    return slide("breen", 400, p, rs,
+                 eyebrow="Um estudo de 2013 em idosos saudáveis", titulo="Catorze dias andando menos",
+                 destaque="E a massa magra da perna ficou menor.", destaque_cor="verm",
+                 fonte="Breen e colaboradores, Journal of Clinical Endocrinology and Metabolism 2013")
+
+
+def walker():
+    """3.9: uma régua de passos por dia com os dois estudos, e o que os separa."""
+    p = [svg_abre(1664, 420, "Uma régua de passos por dia, de zero a oito mil. Um estudo derrubou para cerca de 1.400 passos, em idosos, e encontrou prejuízo metabólico e resistência anabólica. Um ensaio de 2024 derrubou para menos de 2.000 passos, em 66 idosos sorteados, quase 8 em 10 mulheres, e não encontrou mudança em massa magra da perna nem em função. Embaixo, o que diferencia os estudos: mil passos não é o mesmo que dois mil; pré-diabetes não é o mesmo que metabolismo bom; o dado mais consistente é o metabólico, no mais vulnerável")]
+    X0, X1 = 40, 1624
+    X = lambda v: X0 + v / 8000 * (X1 - X0)
+    p.append(f'<line x1="{X0}" y1="120" x2="{X1}" y2="120" stroke="{MUDO}" stroke-width="3"/>')
+    rs = []
+    for v in range(0, 8001, 2000):
+        p.append(f'<line x1="{X(v):.0f}" y1="110" x2="{X(v):.0f}" y2="130" stroke="{MUDO}" stroke-width="3"/>')
+        rs.append(rot(X(v) - 60, 136, f"{v:,}".replace(",", "."), w=120, tam=20, cor=MUDO, alinha="center"))
+    rs.append(rot(X1 - 300, 170, "passos por dia", w=300, tam=20, cor=MUDO, alinha="right"))
+    p.append(f'<rect x="{X(4000):.0f}" y="104" width="{X(8000) - X(4000):.0f}" height="32" rx="8" fill="{OXID}" fill-opacity="0.15"/>')
+    rs.append(rot(X(4000), 70, "o que era a rotina", w=X(8000) - X(4000), tam=20, cor=OXID, alinha="center"))
+    for v, cor, t, d in [(1400, FOSF, "cerca de 1.400", "prejuízo metabólico"), (1950, OXID, "menos de 2.000", "massa magra e função: sem mudança")]:
+        p.append(f'<circle cx="{X(v):.0f}" cy="120" r="14" fill="{cor}" stroke="{CARTAO}" stroke-width="3"/>')
+    rs += [rot(0, 20, "cerca de 1.400: prejuízo metabólico", w=380, tam=22, cor=FOSF, peso=700, alinha="left"),
+           rot(X(1950) - 20, 176, "menos de 2.000: massa magra da perna e função sem mudança", w=560, tam=22, cor=OXID, peso=700, lh=1.2)]
+    p.append(f'<line x1="{X(1400):.0f}" y1="60" x2="{X(1400):.0f}" y2="104" stroke="{FOSF}" stroke-width="2"/>')
+    p.append(caixa(0, 250, 1664, 170, GLIC, GLIC_T, esp=3, rx=16))
+    rs.append(rot(24, 262, "O que diferencia os estudos", w=800, tam=26, cor=GLIC, peso=700, serif=True))
+    difs = ["mil passos não é o mesmo que dois mil", "pré-diabetes não é o mesmo que metabolismo bom", "o dado mais consistente: o metabólico, no mais vulnerável"]
+    for k, t in enumerate(difs):
+        rs.append(rot(24 + k * 548, 316, t, w=520, tam=22, cor=TINTA if k < 2 else FOSF, peso=400 if k < 2 else 700, lh=1.25))
+    rs.append(rot(620, 176, "", w=10, tam=20))
+    rs.pop()
+    return slide("walker", 420, p, rs,
+                 eyebrow="A concessão que o tema pede", titulo="O estrago depende de quanto cai, e de quem cai",
+                 destaque="E é esse grupo que a gente mais encontra depois de internação e cirurgia.", destaque_cor="tinta",
+                 fonte="Walker e colaboradores, European Journal of Applied Physiology 2024 · 66 idosos, quase 8 em 10 mulheres, ensaio randomizado")
+
+
+def conversas():
+    """3.9: duas curvas de aptidão, a da pausa curta e a da parada longa."""
+    p = [svg_abre(1664, 420, "Dois gráficos esquemáticos de aptidão no tempo. À esquerda, acalmar quem para pouco: duas semanas parado custam volume plasmático e um pouco de enzima; a curva mal se move e volta logo. À direita, não banalizar quem para muito: três meses parado, ou uma internação, derrubam a curva abaixo do ponto de partida, e o tempo de voltar se soma ao tempo parado")]
+    rs = []
+    for j, (x0, t, cor, fundo, queda, dur, volta, itens) in enumerate([
+            (0, "Acalmar quem para pouco", OXID, OXID_T, 0.1, 0.12, 0.1, ["custa volume plasmático e um pouco de enzima", "o medo faz gente treinar doente e voltar cedo"]),
+            (852, "Não banalizar quem para muito", FOSF, FOSF_T, 0.75, 0.35, 0.45, ["tempo parado mais tempo de voltar", "pós-internação: volta para trás do ponto de partida"])]):
+        p.append(caixa(x0, 0, 812, 420, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x0 + 24, 16, t, w=760, tam=28, cor=cor, peso=700, serif=True))
+        gx0, gx1, gy0, gy1 = x0 + 50, x0 + 770, 90, 250
+        p.append(f'<line x1="{gx0}" y1="{gy0}" x2="{gx1}" y2="{gy0}" stroke="{MUDO}" stroke-width="2"{TRACO}/>')
+        a = gx0 + 150
+        b = a + dur * (gx1 - gx0)
+        c = b + volta * (gx1 - gx0)
+        yb = gy0 + queda * (gy1 - gy0)
+        p.append(f'<rect x="{a:.0f}" y="{gy0-10}" width="{b - a:.0f}" height="{gy1 - gy0 + 20}" fill="{MUDO}" fill-opacity="0.12"/>')
+        p.append(f'<path d="M {gx0} {gy0} L {a:.0f} {gy0} C {a + 30:.0f} {yb:.0f}, {b - 30:.0f} {yb:.0f}, {b:.0f} {yb:.0f} C {b + 40:.0f} {yb:.0f}, {c - 40:.0f} {gy0}, {c:.0f} {gy0} L {gx1} {gy0}" fill="none" stroke="{cor}" stroke-width="6"/>')
+        rs += [rot(a, gy1 + 16, "parado", w=max(b - a, 120), tam=20, cor=MUDO, alinha="left")]
+        if j == 1:
+            rs.append(rot(b + 10, yb - 4, "voltar leva mais", w=260, tam=20, cor=FOSF, peso=700))
+        for k, it in enumerate(itens):
+            rs.append(rot(x0 + 24, 306 + k * 52, it, w=760, tam=22, cor=TINTA, lh=1.2))
+    rs.append(rot(52, 60, "aptidão", w=200, tam=20, cor=MUDO))
+    return slide("conversas", 420, p, rs,
+                 eyebrow="Duas conversas opostas", titulo="Duas semanas não estragam; três meses custam",
+                 destaque="E a redução silenciosa, a que ninguém chama de parada, também é destreino.", destaque_cor="verm",
+                 fonte="Curvas: esquema, sem valores medidos")
+
+
+def manter():
+    """3.9: a perda durante o afastamento com e sem manutenção, e as três formas de manter."""
+    p = [svg_abre(1664, 420, "À esquerda, um gráfico esquemático: durante o afastamento, sem nada a curva cai fundo; com alguma manutenção, cai pouco, e o retorno fica muito mais curto. À direita, três formas de manter: dose de manutenção, uma a duas sessões de força por semana com carga perto da habitual; na lesão, o que o quadro permitir, pedalar, nadar, poupar só o que precisa; treinar o lado saudável, a educação cruzada atenua a perda do lado imobilizado")]
+    gx0, gx1, gy0 = 30, 700, 90
+    p.append(f'<line x1="{gx0}" y1="{gy0}" x2="{gx1}" y2="{gy0}" stroke="{MUDO}" stroke-width="2"{TRACO}/>')
+    p.append(f'<rect x="150" y="60" width="300" height="300" fill="{MUDO}" fill-opacity="0.1"/>')
+    p.append(f'<path d="M {gx0} {gy0} L 150 {gy0} C 200 330, 400 330, 450 330 C 520 330, 640 {gy0}, {gx1} {gy0}" fill="none" stroke="{FOSF}" stroke-width="6"/>')
+    p.append(f'<path d="M {gx0} {gy0} L 150 {gy0} C 200 150, 400 150, 450 150 C 480 150, 520 {gy0}, 560 {gy0} L {gx1} {gy0}" fill="none" stroke="{OXID}" stroke-width="6"/>')
+    rs = [rot(300, 372, "afastamento", w=150, tam=20, cor=MUDO, alinha="right"),
+          rot(160, 334, "sem nada", w=200, tam=22, cor=FOSF, peso=700),
+          rot(250, 168, "com manutenção", w=220, tam=22, cor=OXID, peso=700),
+          rot(gx0, 40, "aptidão", w=200, tam=20, cor=MUDO)]
+    itens = [("t:barbell", "Dose de manutenção", "1 a 2 sessões de força por semana, carga perto da habitual", OXID),
+             ("t:bike", "Na lesão, o que o quadro permitir", "pedalar, nadar, poupar só o que precisa", OXID),
+             ("t:arrows-exchange", "Treinar o lado saudável", "educação cruzada atenua a perda do lado imobilizado", GLIC)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        y = k * 142
+        p.append(caixa(780, y, 884, 128, cor, CARTAO, esp=3, rx=16))
+        p.append(icone(ic, 804, y + 34, 60, cor))
+        rs += [rot(890, y + 16, t, w=750, tam=26, cor=cor, peso=700), rot(890, y + 58, d, w=750, tam=22, cor=TINTA, lh=1.2)]
+    return slide("manter", 420, p, rs,
+                 eyebrow="O oposto do repouso por precaução", titulo="Manter alguma coisa vale muito mais que nada",
+                 destaque="Quem mantém alguma coisa não está treinando pouco. Está encurtando muito o retorno.", destaque_cor="tinta",
+                 fonte="Curvas: esquema, sem valores medidos")
+
+
+# ---------------------------------------------------------------- 3.10
+
+def trabalho():
+    """3.10: a curva que se esperava se fosse lesão, a que se mediu, e as duas pernas com glicogênio diferente."""
+    p = [svg_abre(1664, 420, "À esquerda, dois gráficos esquemáticos no tempo. Se fosse lesão, o TNF subiria antes e puxaria a IL-6, que acompanharia o dano. O que se mediu: a IL-6 sobe sozinha, sem TNF na frente, saindo do próprio músculo em contração, acompanhando duração, intensidade e massa envolvida. À direita, as duas pernas da mesma pessoa: a perna com pouco glicogênio liberou mais IL-6 que a perna com glicogênio normal")]
+    rs = []
+    for j, (t, cor, fundo, tnf) in enumerate([("Se fosse lesão", GLIC, GLIC_T, True), ("O que se mediu", OXID, OXID_T, False)]):
+        y0 = j * 214
+        p.append(caixa(0, y0, 960, 200, cor, fundo, esp=3, rx=16))
+        rs.append(rot(24, y0 + 12, t, w=400, tam=26, cor=cor, peso=700, serif=True))
+        gx0, gx1, gb = 40, 640, y0 + 180
+        p.append(f'<line x1="{gx0}" y1="{gb}" x2="{gx1}" y2="{gb}" stroke="{MUDO}" stroke-width="2"/>')
+        if tnf:
+            p.append(f'<path d="M {gx0} {gb} C 120 {gb}, 140 {gb-110}, 220 {gb-110} C 300 {gb-110}, 320 {gb}, 400 {gb}" fill="none" stroke="{FOSF}" stroke-width="5" stroke-dasharray="12 8"/>')
+            p.append(f'<path d="M {gx0} {gb} C 200 {gb}, 240 {gb-120}, 360 {gb-120} C 480 {gb-120}, 520 {gb}, {gx1} {gb}" fill="none" stroke="{AZUL}" stroke-width="5" stroke-dasharray="12 8"/>')
+            rs += [rot(150, y0 + 40, "TNF antes", w=160, tam=20, cor=FOSF, peso=700), rot(380, y0 + 40, "IL-6 depois", w=200, tam=20, cor=AZUL, peso=700)]
+            itens = ["a IL-6 acompanha o dano", "o excêntrico, que lesa mais, daria mais IL-6"]
+        else:
+            p.append(f'<path d="M {gx0} {gb} C 140 {gb}, 200 {gb-130}, 360 {gb-130} C 480 {gb-130}, 520 {gb}, {gx1} {gb}" fill="none" stroke="{AZUL}" stroke-width="6"/>')
+            p.append(f'<line x1="{gx0}" y1="{gb-4}" x2="{gx1}" y2="{gb-4}" stroke="{FOSF}" stroke-width="3"/>')
+            rs += [rot(300, y0 + 26, "IL-6 sozinha", w=200, tam=20, cor=AZUL, peso=700), rot(470, y0 + 116, "TNF: nada", w=160, tam=20, cor=FOSF, peso=700)]
+            itens = ["sai do próprio músculo em contração", "acompanha duração, intensidade e massa envolvida"]
+        for k, it in enumerate(itens):
+            rs.append(rot(670, y0 + 60 + k * 64, it, w=270, tam=20, cor=TINTA, lh=1.2))
+    # duas pernas
+    X = 1020
+    rs.append(rot(X, 0, "Na mesma pessoa", w=644, tam=26, cor=TINTA, peso=700, serif=True))
+    for k, (t, nivel, seta_w, cor) in enumerate([("glicogênio normal", 0.8, 3, MUDO), ("pouco glicogênio", 0.2, 9, OXID)]):
+        x = X + 40 + k * 320
+        p.append(f'<path d="M {x} 70 L {x+90} 70 L {x+80} 360 L {x+10} 360 Z" fill="{PAPEL}" stroke="{TINTA}" stroke-width="3"/>')
+        p.append(f'<rect x="{x+22}" y="{120 + (1 - nivel) * 180:.0f}" width="46" height="{nivel * 180:.0f}" rx="6" fill="{GLIC}"/>')
+        p.append(f'<rect x="{x+22}" y="120" width="46" height="180" rx="6" fill="none" stroke="{GLIC}" stroke-width="2"/>')
+        p.append(f'<line x1="{x+100}" y1="200" x2="{x+200}" y2="200" stroke="{AZUL}" stroke-width="{seta_w}" stroke-linecap="round"/>')
+        rs += [rot(x - 30, 370, t, w=160, tam=20, cor=GLIC if k else MUDO, peso=700, alinha="center", lh=1.1),
+               rot(x + 110, 150, "IL-6", w=100, tam=22, cor=AZUL, peso=700)]
+    return slide("trabalho", 420, p, rs,
+                 eyebrow="O que desmontou a leitura", titulo="Sinal de trabalho, não de lesão",
+                 destaque="A perna com pouco glicogênio liberou mais IL-6. Um sinal de escassez local.", destaque_cor="tinta",
+                 fonte="Curvas: esquema · Steensberg e colaboradores, Journal of Physiology 2001 · 7 homens, 5 horas de extensão de joelho")
+
+
+def catalogo():
+    """3.10: três prateleiras de evidência, e de onde vem o BDNF que circula."""
+    p = [svg_abre(1664, 420, "Uma escada de três degraus de evidência. No mais alto, mais firme em humanos: IL-6, e o treino de força reduzindo a miostatina, soltando um freio. No do meio, em construção: IL-15, decorina, apelina, SPARC, catepsina B, BDNF. No mais baixo, controversa: irisina. À direita, um anel mostra que, no remo de quatro horas, o cérebro respondia por 70 a 80% do BDNF que circulava")]
+    degraus = [(0, 0, "Mais firme em humanos", OXID, OXID_T, ["IL-6", "miostatina: o treino de força reduz"]),
+               (0, 140, "Em construção", GLIC, GLIC_T, ["IL-15", "decorina", "apelina", "SPARC", "catepsina B", "BDNF"]),
+               (0, 280, "Controversa", FOSF, FOSF_T, ["irisina"])]
+    rs = []
+    for x, y, t, cor, fundo, chips in degraus:
+        w = 1100 - (y // 140) * 0
+        p.append(caixa(x, y, 1100, 124, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 24, y + 12, t, w=600, tam=26, cor=cor, peso=700, serif=True))
+        cx = x + 24
+        for c in chips:
+            cw = max(90, int(len(c) * 13 + 40))
+            p.append(f'<rect x="{cx}" y="{y+60}" width="{cw}" height="44" rx="22" fill="{CARTAO}" stroke="{cor}" stroke-width="2"/>')
+            rs.append(rot(cx, y + 69, c, w=cw, tam=21, cor=TINTA, peso=600, alinha="center"))
+            cx += cw + 14
+    rs.append(rot(24 + 300, 172, "", w=10, tam=20)); rs.pop()
+    # anel BDNF
+    import math
+    cx, cy, r = 1420, 190, 130
+    frac = 0.75
+    a0 = -math.pi / 2
+    a1 = a0 + 2 * math.pi * frac
+    x1, y1 = cx + r * math.cos(a1), cy + r * math.sin(a1)
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{CINZA}" stroke-width="44"/>')
+    p.append(f'<path d="M {cx} {cy - r} A {r} {r} 0 1 1 {x1:.1f} {y1:.1f}" fill="none" stroke="{AZUL}" stroke-width="44"/>')
+    p.append(icone("t:brain", cx - 40, cy - 60, 80, AZUL))
+    rs += [rot(cx - 100, cy + 26, "70 a 80%", w=200, tam=30, cor=AZUL, peso=700, alinha="center", serif=True),
+           rot(1190, 350, "do BDNF que circulava vinha do cérebro, no remo de quatro horas", w=474, tam=20, cor=TINTA, alinha="center", lh=1.2)]
+    return slide("catalogo", 420, p, rs,
+                 eyebrow="Centenas de candidatas", titulo="Separar o estabelecido da promessa",
+                 destaque="“O músculo manda BDNF ao cérebro” é mais simples que o dado. A irisina é um estudo de caso de como ler literatura.",
+                 destaque_cor="tinta", fonte="Rasmussen e colaboradores, Experimental Physiology 2009 · anel: faixa relatada, ponto médio desenhado")
+
+
+def mapa():
+    """3.10: o músculo em contração no centro, falando com seis tecidos."""
+    p = [svg_abre(1664, 430, "No centro, uma fibra muscular em contração emitindo sinais para seis tecidos: fígado, glicose e gordura hepática, mesmo sem perda de peso; tecido adiposo, quebra de gordura e comportamento do adipócito; osso, sinal além da carga, sarcopenia e osteoporose juntas; cérebro, catepsina B e memória em camundongos, em humanos só correlação; sistema imune, tônus inflamatório mais baixo; pâncreas, sinais que modulam a célula beta")]
+    cx, cy = 832, 215
+    alvos = [("t:droplet", "Fígado", "glicose e gordura hepática, mesmo sem perda de peso", TINTA),
+             ("t:scale", "Tecido adiposo", "quebra de gordura, comportamento do adipócito", TINTA),
+             ("t:stairs", "Osso", "sinal além da carga; sarcopenia e osteoporose juntas", TINTA),
+             ("t:brain", "Cérebro", "catepsina B: memória em camundongos; em humanos, correlação", GLIC),
+             ("t:shield", "Sistema imune", "tônus inflamatório mais baixo", TINTA),
+             ("t:target", "Pâncreas", "sinais que modulam a célula beta", TINTA)]
+    pos = [(0, 0), (0, 150), (0, 300), (1124, 0), (1124, 150), (1124, 300)]
+    rs = []
+    for (x, y), (ic, t, d, cor) in zip(pos, alvos):
+        ex = x + 540 if x == 0 else x
+        for k in range(3):
+            fx = cx + (ex - cx) * (0.35 + k * 0.18)
+            fy = cy + (y + 60 - cy) * (0.35 + k * 0.18)
+            p.append(f'<circle cx="{fx:.0f}" cy="{fy:.0f}" r="{7 - k}" fill="{OXID}"/>')
+    # fibra
+    p.append(f'<rect x="{cx-170}" y="{cy-70}" width="340" height="140" rx="70" fill="{OXID_T}" stroke="{OXID}" stroke-width="4"/>')
+    for k in range(6):
+        p.append(f'<line x1="{cx-110 + k*44}" y1="{cy-50}" x2="{cx-110 + k*44}" y2="{cy+50}" stroke="{OXID}" stroke-width="3"/>')
+    rs.append(rot(cx - 170, cy + 80, "músculo em contração", w=340, tam=22, cor=OXID, peso=700, alinha="center"))
+    for (x, y), (ic, t, d, cor) in zip(pos, alvos):
+        p.append(caixa(x, y, 540, 128, cor, CARTAO, esp=3, rx=14))
+        p.append(icone(ic, x + 18, y + 20, 48, cor))
+        rs += [rot(x + 80, y + 14, t, w=440, tam=26, cor=cor, peso=700),
+               rot(x + 80, y + 54, d, w=440, tam=20, cor=TINTA, lh=1.2)]
+    return slide("mapa", 430, p, rs,
+                 eyebrow="Para quem o músculo fala", titulo="A contração é, ela mesma, um evento endócrino",
+                 destaque="Exercina: sinal liberado com o exercício por músculo, coração, fígado ou tecido adiposo. Proteínas, vesículas, microRNAs e metabólitos como o lactato.",
+                 destaque_cor="petr", fonte="Moon e colaboradores, Cell Metabolism 2016 · Chow e colaboradores, Nature Reviews Endocrinology 2022")
+
+
+def conduta():
+    """3.10: a balança que marca o mesmo número enquanto o músculo manda recados, e as quatro consequências."""
+    p = [svg_abre(1664, 430, "À esquerda, uma balança marcando o mesmo número antes e depois de meses de treino, enquanto um músculo manda recados para o resto do corpo que a balança não mede. À direita, quatro consequências: o benefício não é só gasto calórico, boa parte acontece em tecido que não se contraiu; quem treina e não emagrece está mudando outra coisa; perder músculo é perder um órgão que sinaliza; parar não é neutro, é tirar um recado que o corpo estava recebendo")]
+    p.append(f'<rect x="60" y="170" width="400" height="250" rx="40" fill="{PAPEL}" stroke="{TINTA}" stroke-width="4"/>')
+    p.append(f'<rect x="150" y="210" width="220" height="80" rx="10" fill="{CARTAO}" stroke="{MUDO}" stroke-width="3"/>')
+    rs = [rot(150, 226, "mesmo peso", w=220, tam=28, cor=TINTA, peso=700, alinha="center", serif=True),
+          rot(60, 320, "o que a balança mede", w=400, tam=22, cor=MUDO, alinha="center")]
+    import random
+    random.seed(3)
+    p.append(f'<rect x="100" y="36" width="320" height="70" rx="35" fill="{OXID_T}" stroke="{OXID}" stroke-width="4"/>')
+    for k in range(6):
+        p.append(f'<line x1="{150 + k * 44}" y1="46" x2="{150 + k * 44}" y2="90" stroke="{OXID}" stroke-width="3"/>')
+    for k in range(14):
+        import math
+        ang = 3.3 + random.random() * 2.8
+        x, y = 260 + 200 * math.cos(ang), 76 + 60 * math.sin(ang)
+        p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="7" fill="{OXID}" fill-opacity="0.8"/>')
+    rs.append(rot(60, 116, "o que o músculo manda: a balança não vê", w=400, tam=22, cor=OXID, peso=700, alinha="center"))
+    itens = [("O benefício não é só gasto calórico", "boa parte acontece em tecido que não se contraiu", OXID),
+             ("Quem treina e não emagrece está mudando outra coisa", "a resposta deixa de ser consolo e vira mecanismo", OXID),
+             ("Perder músculo é perder um órgão que sinaliza", "o peso novo da sarcopenia e do destreino", GLIC),
+             ("Parar não é neutro", "é tirar um recado que o corpo estava recebendo", FOSF)]
+    for k, (t, d, cor) in enumerate(itens):
+        y = k * 108
+        p.append(f'<rect x="560" y="{y}" width="10" height="92" rx="5" fill="{cor}"/>')
+        rs += [rot(590, y + 4, t, w=1070, tam=26, cor=cor, peso=700), rot(590, y + 44, d, w=1070, tam=22, cor=TINTA)]
+    return slide("conduta", 430, p, rs,
+                 eyebrow="O que muda na segunda-feira", titulo="A balança não mede o que o músculo manda")
+
+
+def frasco():
+    """3.10: um frasco riscado ao lado de um músculo em contração soltando dezenas de sinais em pulsos."""
+    p = [svg_abre(1664, 420, "À esquerda, um frasco riscado: não existe versão da contração em frasco. À direita, uma fibra muscular em contração soltando dezenas de sinais juntos, em pulsos, a maior parte agindo ali mesmo, no próprio tecido, como o IGF-1")]
+    # frasco
+    p.append(f'<rect x="150" y="70" width="80" height="40" rx="6" fill="{MUDO}"/>')
+    p.append(f'<path d="M 140 110 L 240 110 L 250 150 L 250 370 Q 250 390 230 390 L 150 390 Q 130 390 130 370 L 130 150 Z" fill="{PAPEL}" stroke="{MUDO}" stroke-width="4"/>')
+    p.append(f'<rect x="146" y="240" width="88" height="130" rx="8" fill="{CINZA}"/>')
+    p.append(f'<line x1="70" y1="400" x2="320" y2="60" stroke="{FOSF}" stroke-width="10" stroke-linecap="round"/>')
+    rs = [rot(0, 400 - 0, "", w=10, tam=20)]
+    rs.pop()
+    rs.append(rot(360, 190, "não existe versão da contração em frasco", w=300, tam=24, cor=FOSF, peso=700, lh=1.25))
+    # fibra e sinais
+    fx0, fy = 760, 210
+    p.append(f'<rect x="{fx0}" y="{fy-80}" width="880" height="160" rx="80" fill="{OXID_T}" stroke="{OXID}" stroke-width="4"/>')
+    for k in range(10):
+        p.append(f'<line x1="{fx0 + 70 + k * 80}" y1="{fy-56}" x2="{fx0 + 70 + k * 80}" y2="{fy+56}" stroke="{OXID}" stroke-width="3"/>')
+    import random
+    random.seed(7)
+    cores = [OXID, AZUL, GLIC, FOSF]
+    for k in range(34):
+        x = fx0 + 40 + random.random() * 800
+        y = fy - 150 + random.random() * 60 if k % 2 else fy + 90 + random.random() * 60
+        p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{5 + random.random() * 5:.1f}" fill="{cores[k % 4]}" fill-opacity="0.8"/>')
+    rs += [rot(fx0, 0, "dezenas de sinais juntos, em pulsos", w=880, tam=24, cor=TINTA, peso=700, alinha="center"),
+           rot(fx0, 380, "boa parte da ação é local, como a do IGF-1", w=880, tam=24, cor=OXID, peso=700, alinha="center")]
+    return slide("frasco", 420, p, rs,
+                 eyebrow="O que o conceito não autoriza", titulo="O que eleva miocina é músculo se contraindo")
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"03-01": [laudos, pares, anamnese, ficha, cinco],
@@ -1430,7 +1714,9 @@ LICOES = {"03-01": [laudos, pares, anamnese, ficha, cinco],
           "03-05": [portas, auditar, acionaveis, escondem, exame, dizer, roteiro],
           "03-06": [enquadre, dosar, jejum, secretagogo, apneia, condutas],
           "03-07": [laudo, padrao, discriminador, pedir, roteiro_tireoide],
-          "03-08": [retro, criterio_ot, exame_ot, instrumentos, subjetivo, saidas_ot, criterioC]}
+          "03-08": [retro, criterio_ot, exame_ot, instrumentos, subjetivo, saidas_ot, criterioC],
+          "03-09": [breen, walker, conversas, manter],
+          "03-10": [trabalho, catalogo, mapa, conduta, frasco]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

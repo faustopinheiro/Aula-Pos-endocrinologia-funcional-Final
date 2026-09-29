@@ -108,6 +108,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O que os números decidem"
                     {"t": "Médico", "x": "A liberação clínica quando há condição médica."}],
           "quem": "Enxergar o afastamento antes que vire hábito é de toda a equipe."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-09")
+
 spec = {"arquivo": "aulas/MOD03/03-09-destreino-e-reversao-das-adaptacoes.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Destreino", "subtitulo": "Cronologia da perda e da recuperação das adaptações",

@@ -152,6 +152,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "A régua honesta", "titulo
                     {"t": "Fisioterapia e psicologia", "x": "Contração possível na lesão, e a adesão."}],
           "quem": "O médico reconhece o que não melhora sem contração, e para de procurar frasco."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-10")
+
 spec = {"arquivo": "aulas/MOD03/03-10-musculo-como-orgao-endocrino.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "O músculo como órgão endócrino", "subtitulo": "Miocinas, exercinas e os limites da evidência",

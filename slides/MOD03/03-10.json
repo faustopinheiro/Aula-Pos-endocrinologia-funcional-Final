@@ -246,31 +246,184 @@
   },
   {
    "id": "trabalho",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, dois gráficos esquemáticos no tempo. Se fosse lesão, o TNF subiria antes e puxaria a IL-6, que acompanharia o dano. O que se mediu: a IL-6 sobe sozinha, sem TNF na frente, saindo do próprio músculo em contração, acompanhando duração, intensidade e massa envolvida. À direita, as duas pernas da mesma pessoa: a perna com pouco glicogênio liberou mais IL-6 que a perna com glicogênio normal\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"960\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"40\" y1=\"180\" x2=\"640\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 40 180 C 120 180, 140 70, 220 70 C 300 70, 320 180, 400 180\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"12 8\"/><path d=\"M 40 180 C 200 180, 240 60, 360 60 C 480 60, 520 180, 640 180\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"5\" stroke-dasharray=\"12 8\"/><rect x=\"0\" y=\"214\" width=\"960\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"40\" y1=\"394\" x2=\"640\" y2=\"394\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 40 394 C 140 394, 200 264, 360 264 C 480 264, 520 394, 640 394\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><line x1=\"40\" y1=\"390\" x2=\"640\" y2=\"390\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 1060 70 L 1150 70 L 1140 360 L 1070 360 Z\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1082\" y=\"156\" width=\"46\" height=\"144\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"1082\" y=\"120\" width=\"46\" height=\"180\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1160\" y1=\"200\" x2=\"1260\" y2=\"200\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M 1380 70 L 1470 70 L 1460 360 L 1390 360 Z\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1402\" y=\"264\" width=\"46\" height=\"36\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"1402\" y=\"120\" width=\"46\" height=\"180\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1480\" y1=\"200\" x2=\"1580\" y2=\"200\" stroke=\"#3A6EA5\" stroke-width=\"9\" stroke-linecap=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 12,
+     "w": 400,
+     "t": "Se fosse lesão",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 150,
+     "y": 40,
+     "w": 160,
+     "t": "TNF antes",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 40,
+     "w": 200,
+     "t": "IL-6 depois",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 60,
+     "w": 270,
+     "t": "a IL-6 acompanha o dano",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 670,
+     "y": 124,
+     "w": 270,
+     "t": "o excêntrico, que lesa mais, daria mais IL-6",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 226,
+     "w": 400,
+     "t": "O que se mediu",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 300,
+     "y": 240,
+     "w": 200,
+     "t": "IL-6 sozinha",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 330,
+     "w": 160,
+     "t": "TNF: nada",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 274,
+     "w": 270,
+     "t": "sai do próprio músculo em contração",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 670,
+     "y": 338,
+     "w": 270,
+     "t": "acompanha duração, intensidade e massa envolvida",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1020,
+     "y": 0,
+     "w": 644,
+     "t": "Na mesma pessoa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1030,
+     "y": 370,
+     "w": 160,
+     "t": "glicogênio normal",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 1170,
+     "y": 150,
+     "w": 100,
+     "t": "IL-6",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 370,
+     "w": 160,
+     "t": "pouco glicogênio",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1
+    },
+    {
+     "x": 1490,
+     "y": 150,
+     "w": 100,
+     "t": "IL-6",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O que desmontou a leitura",
    "titulo": "Sinal de trabalho, não de lesão",
-   "esq": {
-    "t": "Se fosse lesão",
-    "cor": "ambar",
-    "itens": [
-     "o TNF sobe antes e puxa a IL-6",
-     "a IL-6 acompanha o dano",
-     "o excêntrico, que lesa mais, daria mais IL-6"
-    ]
-   },
-   "dir": {
-    "t": "O que se mediu",
-    "cor": "petr",
-    "itens": [
-     "sem TNF na frente",
-     "sai do próprio músculo em contração",
-     "acompanha duração, intensidade e massa envolvida",
-     "sobe mais com o glicogênio baixo"
-    ]
-   },
-   "destaque": "Steensberg, 2001: na mesma pessoa, a perna com pouco glicogênio liberou mais IL-6. Um sinal de escassez local.",
+   "destaque": "A perna com pouco glicogênio liberou mais IL-6. Um sinal de escassez local.",
    "destaque_cor": "tinta",
-   "fonte": "Steensberg e colaboradores, Journal of Physiology 2001 · 7 homens, 5 horas de extensão de joelho"
+   "fonte": "Curvas: esquema · Steensberg e colaboradores, Journal of Physiology 2001 · 7 homens, 5 horas de extensão de joelho"
   },
   {
    "id": "paradoxo",
@@ -353,30 +506,174 @@
   },
   {
    "id": "catalogo",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Centenas de candidatas",
-   "titulo": "Separar o estabelecido da promessa",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma escada de três degraus de evidência. No mais alto, mais firme em humanos: IL-6, e o treino de força reduzindo a miostatina, soltando um freio. No do meio, em construção: IL-15, decorina, apelina, SPARC, catepsina B, BDNF. No mais baixo, controversa: irisina. À direita, um anel mostra que, no remo de quatro horas, o cérebro respondia por 70 a 80% do BDNF que circulava\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"124\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"24\" y=\"60\" width=\"92\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"130\" y=\"60\" width=\"495\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"140\" width=\"1100\" height=\"124\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"24\" y=\"200\" width=\"105\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"143\" y=\"200\" width=\"144\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"301\" y=\"200\" width=\"131\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"446\" y=\"200\" width=\"105\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"565\" y=\"200\" width=\"183\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"762\" y=\"200\" width=\"92\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"0\" y=\"280\" width=\"1100\" height=\"124\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"24\" y=\"340\" width=\"131\" height=\"44\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1420\" cy=\"190\" r=\"130\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"44\"/><path d=\"M 1420 60 A 130 130 0 1 1 1290.0 190.0\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"44\"/><g transform=\"translate(1380.0 130.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 12,
+     "w": 600,
      "t": "Mais firme em humanos",
-     "x": "IL-6 · o treino de força reduz a miostatina: parte do efeito é soltar um freio",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 69,
+     "w": 92,
+     "t": "IL-6",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 130,
+     "y": 69,
+     "w": 495,
+     "t": "miostatina: o treino de força reduz",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 152,
+     "w": 600,
      "t": "Em construção",
-     "x": "IL-15, decorina, apelina, SPARC, catepsina B, BDNF",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 209,
+     "w": 105,
+     "t": "IL-15",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 143,
+     "y": 209,
+     "w": 144,
+     "t": "decorina",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 301,
+     "y": 209,
+     "w": 131,
+     "t": "apelina",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 446,
+     "y": 209,
+     "w": 105,
+     "t": "SPARC",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 565,
+     "y": 209,
+     "w": 183,
+     "t": "catepsina B",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 762,
+     "y": 209,
+     "w": 92,
+     "t": "BDNF",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 292,
+     "w": 600,
      "t": "Controversa",
-     "x": "irisina: um estudo de caso de como ler literatura",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 349,
+     "w": 131,
+     "t": "irisina",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 216,
+     "w": 200,
+     "t": "70 a 80%",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1190,
+     "y": 350,
+     "w": 474,
+     "t": "do BDNF que circulava vinha do cérebro, no remo de quatro horas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
     }
    ],
-   "destaque": "BDNF: no remo de quatro horas, o cérebro respondia por 70 a 80% do que circulava. “O músculo manda BDNF ao cérebro” é mais simples que o dado.",
+   "eyebrow": "Centenas de candidatas",
+   "titulo": "Separar o estabelecido da promessa",
+   "destaque": "“O músculo manda BDNF ao cérebro” é mais simples que o dado. A irisina é um estudo de caso de como ler literatura.",
    "destaque_cor": "tinta",
-   "fonte": "Rasmussen e colaboradores, Experimental Physiology 2009"
+   "fonte": "Rasmussen e colaboradores, Experimental Physiology 2009 · anel: faixa relatada, ponto médio desenhado"
   },
   {
    "id": "irisina",
@@ -470,82 +767,334 @@
   },
   {
    "id": "mapa",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Para quem o músculo fala",
-   "titulo": "A contração é, ela mesma, um evento endócrino",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"No centro, uma fibra muscular em contração emitindo sinais para seis tecidos: fígado, glicose e gordura hepática, mesmo sem perda de peso; tecido adiposo, quebra de gordura e comportamento do adipócito; osso, sinal além da carga, sarcopenia e osteoporose juntas; cérebro, catepsina B e memória em camundongos, em humanos só correlação; sistema imune, tônus inflamatório mais baixo; pâncreas, sinais que modulam a célula beta\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><circle cx=\"730\" cy=\"161\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"677\" cy=\"133\" r=\"6\" fill=\"#008A7E\"/><circle cx=\"625\" cy=\"105\" r=\"5\" fill=\"#008A7E\"/><circle cx=\"730\" cy=\"213\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"677\" cy=\"212\" r=\"6\" fill=\"#008A7E\"/><circle cx=\"625\" cy=\"211\" r=\"5\" fill=\"#008A7E\"/><circle cx=\"730\" cy=\"266\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"677\" cy=\"292\" r=\"6\" fill=\"#008A7E\"/><circle cx=\"625\" cy=\"318\" r=\"5\" fill=\"#008A7E\"/><circle cx=\"934\" cy=\"161\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"987\" cy=\"133\" r=\"6\" fill=\"#008A7E\"/><circle cx=\"1039\" cy=\"105\" r=\"5\" fill=\"#008A7E\"/><circle cx=\"934\" cy=\"213\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"987\" cy=\"212\" r=\"6\" fill=\"#008A7E\"/><circle cx=\"1039\" cy=\"211\" r=\"5\" fill=\"#008A7E\"/><circle cx=\"934\" cy=\"266\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"987\" cy=\"292\" r=\"6\" fill=\"#008A7E\"/><circle cx=\"1039\" cy=\"318\" r=\"5\" fill=\"#008A7E\"/><rect x=\"662\" y=\"145\" width=\"340\" height=\"140\" rx=\"70\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"722\" y1=\"165\" x2=\"722\" y2=\"265\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"766\" y1=\"165\" x2=\"766\" y2=\"265\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"810\" y1=\"165\" x2=\"810\" y2=\"265\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"854\" y1=\"165\" x2=\"854\" y2=\"265\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"898\" y1=\"165\" x2=\"898\" y2=\"265\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"942\" y1=\"165\" x2=\"942\" y2=\"265\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"540\" height=\"128\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(18.0 20.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"0\" y=\"150\" width=\"540\" height=\"128\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(18.0 170.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"0\" y=\"300\" width=\"540\" height=\"128\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(18.0 320.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><rect x=\"1124\" y=\"0\" width=\"540\" height=\"128\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1142.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><rect x=\"1124\" y=\"150\" width=\"540\" height=\"128\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1142.0 170.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><rect x=\"1124\" y=\"300\" width=\"540\" height=\"128\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1142.0 320.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 662,
+     "y": 295,
+     "w": 340,
+     "t": "músculo em contração",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 14,
+     "w": 440,
      "t": "Fígado",
-     "x": "glicose e gordura hepática, mesmo sem perda de peso",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 80,
+     "y": 54,
+     "w": 440,
+     "t": "glicose e gordura hepática, mesmo sem perda de peso",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 80,
+     "y": 164,
+     "w": 440,
      "t": "Tecido adiposo",
-     "x": "quebra de gordura, comportamento do adipócito",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 80,
+     "y": 204,
+     "w": 440,
+     "t": "quebra de gordura, comportamento do adipócito",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 80,
+     "y": 314,
+     "w": 440,
      "t": "Osso",
-     "x": "sinal além da carga; sarcopenia e osteoporose juntas",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 80,
+     "y": 354,
+     "w": 440,
+     "t": "sinal além da carga; sarcopenia e osteoporose juntas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1204,
+     "y": 14,
+     "w": 440,
      "t": "Cérebro",
-     "x": "catepsina B: memória em camundongos; em humanos, correlação",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1204,
+     "y": 54,
+     "w": 440,
+     "t": "catepsina B: memória em camundongos; em humanos, correlação",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1204,
+     "y": 164,
+     "w": 440,
      "t": "Sistema imune",
-     "x": "tônus inflamatório mais baixo",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1204,
+     "y": 204,
+     "w": 440,
+     "t": "tônus inflamatório mais baixo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1204,
+     "y": 314,
+     "w": 440,
      "t": "Pâncreas",
-     "x": "sinais que modulam a célula beta",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 354,
+     "w": 440,
+     "t": "sinais que modulam a célula beta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
+   "eyebrow": "Para quem o músculo fala",
+   "titulo": "A contração é, ela mesma, um evento endócrino",
    "destaque": "Exercina: sinal liberado com o exercício por músculo, coração, fígado ou tecido adiposo. Proteínas, vesículas, microRNAs e metabólitos como o lactato.",
    "destaque_cor": "petr",
    "fonte": "Moon e colaboradores, Cell Metabolism 2016 · Chow e colaboradores, Nature Reviews Endocrinology 2022"
   },
   {
    "id": "conduta",
-   "tipo": "lista",
-   "eyebrow": "O que muda na segunda-feira",
-   "titulo": "A balança não mede o que o músculo manda",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"À esquerda, uma balança marcando o mesmo número antes e depois de meses de treino, enquanto um músculo manda recados para o resto do corpo que a balança não mede. À direita, quatro consequências: o benefício não é só gasto calórico, boa parte acontece em tecido que não se contraiu; quem treina e não emagrece está mudando outra coisa; perder músculo é perder um órgão que sinaliza; parar não é neutro, é tirar um recado que o corpo estava recebendo\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><rect x=\"60\" y=\"170\" width=\"400\" height=\"250\" rx=\"40\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"150\" y=\"210\" width=\"220\" height=\"80\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"100\" y=\"36\" width=\"320\" height=\"70\" rx=\"35\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"150\" y1=\"46\" x2=\"150\" y2=\"90\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"194\" y1=\"46\" x2=\"194\" y2=\"90\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"238\" y1=\"46\" x2=\"238\" y2=\"90\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"282\" y1=\"46\" x2=\"282\" y2=\"90\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"326\" y1=\"46\" x2=\"326\" y2=\"90\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"370\" y1=\"46\" x2=\"370\" y2=\"90\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"124\" cy=\"32\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"282\" cy=\"16\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"186\" cy=\"20\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"315\" cy=\"18\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"327\" cy=\"19\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"72\" cy=\"56\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"64\" cy=\"64\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"421\" cy=\"40\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"133\" cy=\"30\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"123\" cy=\"32\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"456\" cy=\"64\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"241\" cy=\"16\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"420\" cy=\"40\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"244\" cy=\"16\" r=\"7\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><rect x=\"560\" y=\"0\" width=\"10\" height=\"92\" rx=\"5\" fill=\"#008A7E\"/><rect x=\"560\" y=\"108\" width=\"10\" height=\"92\" rx=\"5\" fill=\"#008A7E\"/><rect x=\"560\" y=\"216\" width=\"10\" height=\"92\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"560\" y=\"324\" width=\"10\" height=\"92\" rx=\"5\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
+     "x": 150,
+     "y": 226,
+     "w": 220,
+     "t": "mesmo peso",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 320,
+     "w": 400,
+     "t": "o que a balança mede",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 116,
+     "w": 400,
+     "t": "o que o músculo manda: a balança não vê",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 4,
+     "w": 1070,
      "t": "O benefício não é só gasto calórico",
-     "x": "boa parte acontece em tecido que não se contraiu",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 590,
+     "y": 44,
+     "w": 1070,
+     "t": "boa parte acontece em tecido que não se contraiu",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 112,
+     "w": 1070,
      "t": "Quem treina e não emagrece está mudando outra coisa",
-     "x": "a resposta deixa de ser consolo e vira mecanismo",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 590,
+     "y": 152,
+     "w": 1070,
+     "t": "a resposta deixa de ser consolo e vira mecanismo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 220,
+     "w": 1070,
      "t": "Perder músculo é perder um órgão que sinaliza",
-     "x": "o peso novo da sarcopenia e do destreino",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 590,
+     "y": 260,
+     "w": 1070,
+     "t": "o peso novo da sarcopenia e do destreino",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 328,
+     "w": 1070,
      "t": "Parar não é neutro",
-     "x": "é tirar um recado que o corpo estava recebendo",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 368,
+     "w": 1070,
+     "t": "é tirar um recado que o corpo estava recebendo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 22
+   "eyebrow": "O que muda na segunda-feira",
+   "titulo": "A balança não mede o que o músculo manda"
   },
   {
    "id": "frasco",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, um frasco riscado: não existe versão da contração em frasco. À direita, uma fibra muscular em contração soltando dezenas de sinais juntos, em pulsos, a maior parte agindo ali mesmo, no próprio tecido, como o IGF-1\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"150\" y=\"70\" width=\"80\" height=\"40\" rx=\"6\" fill=\"#6B7A87\"/><path d=\"M 140 110 L 240 110 L 250 150 L 250 370 Q 250 390 230 390 L 150 390 Q 130 390 130 370 L 130 150 Z\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"4\"/><rect x=\"146\" y=\"240\" width=\"88\" height=\"130\" rx=\"8\" fill=\"#C9CFD4\"/><line x1=\"70\" y1=\"400\" x2=\"320\" y2=\"60\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect x=\"760\" y=\"130\" width=\"880\" height=\"160\" rx=\"80\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"830\" y1=\"154\" x2=\"830\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"910\" y1=\"154\" x2=\"910\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"990\" y1=\"154\" x2=\"990\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1070\" y1=\"154\" x2=\"1070\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1150\" y1=\"154\" x2=\"1150\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1230\" y1=\"154\" x2=\"1230\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1310\" y1=\"154\" x2=\"1310\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1390\" y1=\"154\" x2=\"1390\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1470\" y1=\"154\" x2=\"1470\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1550\" y1=\"154\" x2=\"1550\" y2=\"266\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1059\" cy=\"309\" r=\"8.3\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"858\" cy=\"92\" r=\"6.8\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><circle cx=\"846\" cy=\"330\" r=\"5.2\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><circle cx=\"1147\" cy=\"64\" r=\"5.5\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><circle cx=\"1140\" cy=\"350\" r=\"5.6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"979\" cy=\"98\" r=\"9.7\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><circle cx=\"1262\" cy=\"324\" r=\"9.9\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><circle cx=\"837\" cy=\"112\" r=\"6.4\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><circle cx=\"915\" cy=\"307\" r=\"6.5\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"1453\" cy=\"71\" r=\"7.9\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><circle cx=\"1311\" cy=\"322\" r=\"7.7\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><circle cx=\"850\" cy=\"64\" r=\"6.0\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><circle cx=\"1344\" cy=\"326\" r=\"6.6\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"1268\" cy=\"87\" r=\"6.5\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><circle cx=\"1436\" cy=\"342\" r=\"6.2\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><circle cx=\"1260\" cy=\"92\" r=\"9.4\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><circle cx=\"1384\" cy=\"317\" r=\"9.9\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"894\" cy=\"85\" r=\"8.8\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><circle cx=\"922\" cy=\"329\" r=\"5.2\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><circle cx=\"1335\" cy=\"106\" r=\"7.9\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><circle cx=\"1500\" cy=\"319\" r=\"8.5\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"1275\" cy=\"95\" r=\"7.3\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><circle cx=\"1472\" cy=\"357\" r=\"7.4\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><circle cx=\"1331\" cy=\"64\" r=\"8.5\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><circle cx=\"1318\" cy=\"360\" r=\"9.1\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"1028\" cy=\"83\" r=\"8.3\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><circle cx=\"818\" cy=\"328\" r=\"5.8\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><circle cx=\"894\" cy=\"64\" r=\"8.8\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><circle cx=\"903\" cy=\"315\" r=\"7.0\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"1497\" cy=\"65\" r=\"7.2\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/><circle cx=\"1240\" cy=\"353\" r=\"9.1\" fill=\"#B07A1C\" fill-opacity=\"0.8\"/><circle cx=\"1491\" cy=\"77\" r=\"7.1\" fill=\"#A8322A\" fill-opacity=\"0.8\"/><circle cx=\"1087\" cy=\"353\" r=\"9.8\" fill=\"#008A7E\" fill-opacity=\"0.8\"/><circle cx=\"921\" cy=\"71\" r=\"6.2\" fill=\"#3A6EA5\" fill-opacity=\"0.8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 360,
+     "y": 190,
+     "w": 300,
+     "t": "não existe versão da contração em frasco",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 0,
+     "w": 880,
+     "t": "dezenas de sinais juntos, em pulsos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 380,
+     "w": 880,
+     "t": "boa parte da ação é local, como a do IGF-1",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O que o conceito não autoriza",
-   "frase": "O que eleva miocina é músculo se contraindo.",
-   "apoio": "São dezenas de sinais juntos, em pulsos. Boa parte da ação é local, como a do IGF-1. E o estímulo é a contração: não existe versão dela em frasco."
+   "titulo": "O que eleva miocina é músculo se contraindo"
   },
   {
    "id": "fecho",
