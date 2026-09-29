@@ -76,11 +76,11 @@ E o experiente que empaca. Nele a aptidão sobe cada vez menos por unidade de tr
 *Visual: dois pares de curvas muito diferentes, uma aptidão alta e curta com fadiga alta, outra aptidão baixa e longa com fadiga baixa, produzindo quase a mesma linha de desempenho. Ao lado, uma tela de aplicativo com "forma: 73" riscada.*
 *Teleprompter: (onde este modelo quebra, com honestidade)*
 
-Agora eu preciso dizer onde este modelo quebra. Porque se eu entregar ele inteiro e bonito, você sai daqui achando que dá para calcular. E não dá.
+Agora eu preciso dizer onde este modelo quebra. Porque se eu entregar ele inteiro e redondo, você sai daqui achando que dá para calcular. E não dá.
 
 O modelo de duas curvas é uma equação, com parâmetros: quanto cada sessão deposita de aptidão e de fadiga, e em quanto tempo cada uma some. A ideia era medir esses números no seu atleta e prever o desempenho dele.
 
-Quando Hellard e colaboradores testaram isso a sério, em nadadores de elite ao longo de uma temporada, o modelo acompanhou bem os dados. Mas os parâmetros não se deixavam identificar: combinações muito diferentes produziam resultados quase iguais. Eu posso dizer que o seu paciente deposita muita aptidão e ela some rápido, ou pouca e some devagar, e as duas versões encaixam nos mesmos pontos.
+Quando um grupo francês testou isso a sério, em nadadores de elite ao longo de uma temporada, o modelo acompanhou bem os dados. Mas os parâmetros não se deixavam identificar: combinações muito diferentes produziam resultados quase iguais. Eu posso dizer que o seu paciente deposita muita aptidão e ela some rápido, ou pouca e some devagar, e as duas versões encaixam nos mesmos pontos.
 
 Se duas explicações opostas cabem, o modelo não está contando qual é a verdadeira. O modelo é uma ótima metáfora e uma péssima calculadora. Use software de carga como registro, não como oráculo.
 
@@ -128,7 +128,7 @@ O que a evidência mostra, honestamente. Uma meta-análise de 2018 reuniu novent
 
 As coisas funcionam para aquilo que foi medido. E a pergunta que decide tudo: medido em quê? Dor, fadiga percebida, marcadores de dano e de inflamação. Nenhum desses é ganho de força em doze semanas. São desfechos de sintoma, não de adaptação.
 
-E às vezes os dois objetivos são opostos. Em 2015, Roberts e colaboradores colocaram vinte e um homens ativos para treinar força por doze semanas, duas vezes por semana. Depois de cada sessão, metade fazia dez minutos de água fria, metade fazia recuperação ativa. Força e massa muscular subiram mais no grupo ativo. A área das fibras rápidas subiu dezessete por cento e o número de núcleos por fibra, vinte e seis, no grupo ativo, e não no grupo do gelo. Uma meta-análise de 2024 foi na mesma direção, com estudos de qualidade modesta.
+E às vezes os dois objetivos são opostos. Em dois mil e quinze, um estudo colocou vinte e um homens ativos para treinar força por doze semanas, duas vezes por semana. Depois de cada sessão, metade fazia dez minutos de água fria, metade fazia recuperação ativa. Força e massa muscular subiram mais no grupo ativo. A área das fibras rápidas subiu dezessete por cento e o número de núcleos por fibra, vinte e seis, no grupo ativo, e não no grupo do gelo. Uma meta-análise de 2024 foi na mesma direção, com estudos de qualidade modesta.
 
 O mecanismo atravessa este módulo inteiro: o estresse e a inflamação depois do treino não são só dano a combater. São parte do sinal que dispara a adaptação. Vale o mesmo para anti-inflamatório de rotina depois do treino, e para antioxidante em dose alta, que a gente viu na aula do metabolismo oxidativo.
 
@@ -168,29 +168,14 @@ Na próxima aula, que fecha o módulo, a gente sai do corpo e olha para o que es
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso, nove slides. Arquitetura ERRO mantida (a aula anterior
-é PROCEDIMENTO). Sem caso clínico.
+**O que mudou nesta versão.** Voz do curso, nove slides. Arquitetura ERRO mantida (a aula anterior é PROCEDIMENTO). Sem caso clínico. Calvert e Banister 1976 (o artigo original das duas curvas), Bosquet 2007 (polimento de 2 semanas, volume reduzido em 41 a 60%, intensidade e frequência mantidas, 27 estudos), Mujika e Padilla 2000 (destreino curto: VO₂máx cai, em boa parte pelo volume de plasma), Piñero 2024 (8 estudos, qualidade razoável a baixa; a fala diz "qualidade modesta"). Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco).
 
-**Entraram.** Calvert e Banister 1976 (o artigo original das duas curvas), Bosquet 2007 (polimento de
-2 semanas, volume reduzido em 41 a 60%, intensidade e frequência mantidas, 27 estudos), Mujika e
-Padilla 2000 (destreino curto: VO₂máx cai, em boa parte pelo volume de plasma), Piñero 2024 (8
-estudos, qualidade razoável a baixa; a fala diz "qualidade modesta").
+**Números conferidos.** Hellard: 9 nadadores de elite, uma temporada, R² 0,79 ± 0,13, parâmetros correlacionados entre si (mal condicionamento). Foster: 25 atletas, monotonia = média diária ÷ desvio padrão, tensão = carga × monotonia; alta porcentagem das doenças quando o atleta passava do próprio limiar, sobretudo de tensão. Dupuy: 99 estudos; massagem com o melhor resultado para dor e fadiga percebida. Roberts: 21 homens, 12 semanas, 2×/semana, 10 min de imersão; no grupo ativo, trabalho isocinético +19%, área de fibra tipo II +17%, mionúcleos por fibra +26%, sem aumento no grupo do gelo.
 
-**Conferido.** Hellard: 9 nadadores de elite, uma temporada, R² 0,79 ± 0,13, parâmetros correlacionados
-entre si (mal condicionamento). Foster: 25 atletas, monotonia = média diária ÷ desvio padrão, tensão =
-carga × monotonia; alta porcentagem das doenças quando o atleta passava do próprio limiar, sobretudo de
-tensão. Dupuy: 99 estudos; massagem com o melhor resultado para dor e fadiga percebida. Roberts: 21
-homens, 12 semanas, 2×/semana, 10 min de imersão; no grupo ativo, trabalho isocinético +19%, área de
-fibra tipo II +17%, mionúcleos por fibra +26%, sem aumento no grupo do gelo.
+**Correções.** "Inteiro e bonito" virou "inteiro e redondo". "Hellard e colaboradores" virou "um grupo francês"; "Roberts e colaboradores" virou "um estudo".
 
-**Saíram.** "Duas semanas de férias raramente estragam alguém" e "a aptidão mal se move em duas
-semanas": em atletas muito treinados o VO₂máx cai de forma mensurável em 2 a 4 semanas. A fala agora
-diz "cai um pouco e volta rápido". "Há cinquenta anos" e "anos noventa" saíram (datas imprecisas);
-"escopo", "roupa" e as menções numeradas de aula também.
+**Saíram.** "Duas semanas de férias raramente estragam alguém" e "a aptidão mal se move em duas semanas": em atletas muito treinados o VO₂máx cai de forma mensurável em 2 a 4 semanas. A fala agora diz "cai um pouco e volta rápido". "Há cinquenta anos" e "anos noventa" saíram (datas imprecisas); "escopo", "roupa" e as menções numeradas de aula também. Duração de 21 para 15 minutos.
 
-**Citações faladas.** Banister (o modelo), Hellard (o limite dele), Foster (monotonia), Roberts (o
-estudo do gelo). Selye como origem histórica, sem referência formal.
+**Citações faladas.** Banister, pelo modelo, e Foster, pela monotonia; Selye como origem histórica, sem referência formal. O teste do modelo em nadadores e o estudo do gelo entram sem o nome do autor.
 
-**Ligações internas.** volume de plasma = aula do coração · colisão perna e longo = aula do treino
-concorrente · dia leve acima do limiar = aula de limiares · antioxidante = aula do metabolismo
-oxidativo · recursos terapêuticos = módulo de fisioterapia · calor, hidratação e altitude = próxima aula.
+**Ligações internas.** volume de plasma = aula do coração · colisão perna e longo = aula do treino concorrente · dia leve acima do limiar = aula de limiares · antioxidante = aula do metabolismo oxidativo · recursos terapêuticos = módulo de fisioterapia · calor, hidratação e altitude = próxima aula.

@@ -68,7 +68,7 @@ Isso diz, de um jeito limpo, que só existem duas maneiras de melhorar: circular
 
 E responde uma pergunta que todo aluno faz: o que limita o VO₂máx? Em pessoa saudável, ao nível do mar, o limite principal é a entrega. O débito cardíaco, com o volume de ejeção na frente. Não é a mitocôndria esperando trabalho. É o oxigênio que não chega na velocidade necessária.
 
-Isso não anula a aula passada. A capacidade oxidativa do músculo decide em boa parte a intensidade que a pessoa sustenta por muito tempo, o limiar. A entrega decide o teto. São duas perguntas diferentes, e o atleta real melhora mais na primeira do que na segunda. A aula de limiares volta nesse ponto com o exame que mede as duas.
+Isso não anula o que a gente viu sobre o metabolismo oxidativo. A capacidade oxidativa do músculo decide em boa parte a intensidade que a pessoa sustenta por muito tempo, o limiar. A entrega decide o teto. São duas perguntas diferentes, e o atleta real melhora mais na primeira do que na segunda. A aula de limiares volta nesse ponto com o exame que mede as duas.
 
 ---
 
@@ -118,7 +118,7 @@ E o que isso decide é de aplicação imediata. Se o efeito dura horas e não di
 
 Olha a semana. Cinco sessões moderadas cobrem muito mais horas com a pressão mais baixa do que duas sessões heroicas.
 
-É o mesmo princípio que a gente viu na aula passada com o pulso de sinal da mitocôndria, agora aparecendo como conduta cardiovascular. Frequência ganha de heroísmo em quase tudo que interessa à saúde.
+É o mesmo princípio que a gente viu no metabolismo oxidativo com o pulso de sinal da mitocôndria, agora aparecendo como conduta cardiovascular. Frequência ganha de heroísmo em quase tudo que interessa à saúde.
 
 ---
 
@@ -226,85 +226,16 @@ Na próxima conversa eu fecho o sistema de transporte pelo lado que quase nunca 
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — O comando vem antes · O débito multiplica · FC e volume de ejeção
-· A FC sobe **antes do primeiro passo**
-· Os primeiros 30 s **não medem esforço**: é antecipação
-· **5 L/min** repouso · **~20** destreinado no máximo · **> 35** atleta de endurance
-· FC sobe quase em linha reta; **volume de ejeção estabiliza**
-· Treinar o coração é, em boa parte, **treinar volume de ejeção**
-Visual: três barras.
-
-**Slide 2** — O sangue muda de endereço · Três territórios, um débito
-· Músculo: **15 a 20%** em repouso → **> 80%** no máximo
-· Intestino com pouco sangue por horas: **desconforto na prova longa**
-· No calor, **a pele entra na disputa**
-Visual: coração com três saídas.
-
-**Slide 3** — A pressão assimétrica · A equação
-· **Sistólica sobe, diastólica estável ou cai**
-· Diastólica subindo no teste: **atenção médica**
-· **VO₂ = débito cardíaco × diferença arteriovenosa**
-· Entrega decide o **teto**; periferia decide o **limiar**
-Visual: a equação.
-
-**Slide 4** — A deriva
-· Ritmo constante, **FC subindo e volume de ejeção caindo**
-· **Zona de FC perde validade** na sessão longa
-Visual: dois painéis de três horas.
-
-**Slide 5** — Carga alta · Técnica vira conduta
-· MacDougall 1985: **320/250 mmHg** em média; um caso **> 480/350**
-· Picos de segundos: **não é argumento contra treino de força**
-· Pressão descontrolada · aneurisma · retinopatia proliferativa · pós-operatório
-· **"Você prende a respiração quando levanta peso?"**
-Visual: barras de pressão.
-
-**Slide 6** — Hipotensão pós-exercício · Frequência ganha de heroísmo
-· **~6/4 mmHg** após aeróbico · **~3/3** após força · por **horas**
-· Efeito de horas: **a frequência das sessões controla a pressão**
-Visual: curva das horas seguintes.
-
-**Slide 7** — A ordem das adaptações
-· **Líquido → ritmo → estrutura → transporte**
-· Quatro semanas prometem **a parte líquida**
-Visual: linha do tempo de dois anos.
-
-**Slide 8** — Volume ou pressão · Pseudoanemia
-· Endurance: **cavidade maior** · força: **parede mais espessa**
-· Plasma cresce mais que as hemácias: **concentração cai**
-Visual: dois tubos.
-
-**Slide 9** — Ler sem errar nos dois sentidos · A ficha da segunda-feira · Master
-· **Companhia · condição de coleta · três cenários**
-· **FC de repouso · FC em carga padronizada · recuperação no 1º minuto**
-· O treino **desloca a curva** para cima
-Visual: ficha com datas.
-
-**Slide 10** — O que interrompe e encaminha
-· Síncope ao esforço · dor no peito · falta de ar desproporcional · palpitação com pré-síncope · morte súbita precoce na família
-Visual: cinco sinais.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides. Voz do curso, dezenove slides no lugar de cinco. Saíram "escopo" e as menções numeradas a aulas. A hipotensão pós-exercício agora traz os números de Carpio-Rivera 2016 (65 estudos: ~6/4 mmHg após aeróbico, ~3/3 após força, queda maior em hipertensos). Saiu a faixa "2 a 12 mmHg por 4 a 16 horas", que não consegui ligar a uma fonte conferida; a aula diz "por horas". A deriva cardiovascular ganhou Coyle e González-Alonso 2001, e a pseudoanemia, Mairbäurl 2013 (atleta de endurance com mais hemoglobina total, diluída em mais plasma). Kratz 2002 saiu das referências por não sustentar diretamente nenhum trecho da aula. Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco).
 
-**O que mudou nesta versão.** Voz do curso, dezenove slides no lugar de cinco. Saíram "escopo" e as
-menções numeradas a aulas. A hipotensão pós-exercício agora traz os números de Carpio-Rivera 2016
-(65 estudos: ~6/4 mmHg após aeróbico, ~3/3 após força, queda maior em hipertensos). Saiu a faixa
-"2 a 12 mmHg por 4 a 16 horas", que não consegui ligar a uma fonte conferida; a aula diz "por
-horas". A deriva cardiovascular ganhou Coyle e González-Alonso 2001, e a pseudoanemia, Mairbäurl
-2013 (atleta de endurance com mais hemoglobina total, diluída em mais plasma). Kratz 2002 saiu das
-referências por não sustentar diretamente nenhum trecho da aula.
+**Números conferidos.** As curvas dos slides 1, 3, 6, 8, 11, 12, 13 e 18 e os corações do slide 14 são ilustrativos, sem valores medidos. A referência de repouso de 120/80 no slide 9 é só comparação.
 
-**Esquemas.** As curvas dos slides 1, 3, 6, 8, 11, 12, 13 e 18 e os corações do slide 14 são
-ilustrativos, sem valores medidos. A referência de repouso de 120/80 no slide 9 é só comparação.
+**Correções.** As duas menções a "aula passada" viraram referência ao metabolismo oxidativo.
+
+**Saíram.** O bloco "Roteiro Gamma", que o deck substituiu. Duração de 20 para 19 minutos.
 
 **Citações faladas.** MacDougall e colaboradores, pela medida intra-arterial de 1985.
 
-**Ligações internas.** calor = aula de calor, hidratação e altitude · pulso de sinal = aula anterior ·
-limiar e ergoespirometria = aula de limiares · ferro e cardiologia do esporte = módulo de medicina
-esportiva clínica · pulmão = próxima aula.
+**Ligações internas.** calor = aula de calor, hidratação e altitude · pulso de sinal = aula anterior · limiar e ergoespirometria = aula de limiares · ferro e cardiologia do esporte = módulo de medicina esportiva clínica · pulmão = próxima aula.

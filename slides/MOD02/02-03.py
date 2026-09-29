@@ -311,6 +311,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "O que se diz no lugar",
                     {"t": "Dono técnico", "x": "A coleta de sangue e a leitura da curva de lactato."}],
           "quem": "Junto não é por causa."})
 
+# o último slide de texto virou desenho (_redesenho.py)
+import _redesenho
+S = [_redesenho.rabdo() if s["id"] == "rabdo" else s for s in S]
+
 # deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
 MANTER = ['juntos', 'combustivel', 'bioquimica', 'causa', 'lancadeira', 'fosfato', 'repetida', 'rabdo', 'tolerancia', 'fecho']
 S = [s for s in S if s["id"] in MANTER]

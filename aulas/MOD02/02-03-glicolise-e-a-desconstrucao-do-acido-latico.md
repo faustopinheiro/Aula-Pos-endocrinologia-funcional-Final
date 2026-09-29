@@ -72,7 +72,7 @@ Segunda. Os íons hidrogênio que acidificam o músculo não vêm da produção 
 
 Terceira. E essa costuma derrubar a plateia. A produção de lactato consome íon hidrogênio. Transformar piruvato em lactato gasta um próton. Ou seja, formar lactato atrasa a acidose em vez de causar.
 
-O Robergs e colaboradores escreveram isso com todas as letras em dois mil e quatro: não existe suporte bioquímico para a ideia de que a produção de lactato cause acidose.
+Uma revisão de dois mil e quatro escreveu isso com todas as letras: não existe suporte bioquímico para a ideia de que a produção de lactato cause acidose.
 
 ---
 
@@ -80,7 +80,7 @@ O Robergs e colaboradores escreveram isso com todas as letras em dois mil e quat
 *Visual: uma causa comum no alto, a demanda alta de ATP pela glicólise, com duas setas descendo: uma para "lactato sobe" e outra para "acidez sobe"; entre as duas, uma seta horizontal riscada.*
 *Teleprompter: (honestidade sobre o debate, e a conclusão que não está em disputa)*
 
-Aqui eu preciso ser honesto sobre o estado da discussão, porque ela não está encerrada. Os detalhes contábeis desse balanço de prótons, quanto vem de onde, ainda são debatidos entre bioquímicos. E existem críticas técnicas sérias ao modelo do Robergs.
+Aqui eu preciso ser honesto sobre o estado da discussão, porque ela não está encerrada. Os detalhes contábeis desse balanço de prótons, quanto vem de onde, ainda são debatidos entre bioquímicos. E existem críticas técnicas sérias a esse modelo.
 
 Mas a conclusão que importa para a prática não está em disputa. O lactato não é o agente da acidose. Ele é o acompanhante.
 
@@ -160,7 +160,7 @@ Duas palavras fazem o trabalho todo: excêntrico e não habituado.
 
 Por isso a dor castiga quem desceu a serra correndo. Quem jogou beach tennis depois de seis meses parado. Quem voltou à academia e fez três séries de agachamento como fazia anos atrás. Não é intensidade metabólica. É novidade mecânica.
 
-E tem um fenômeno que confirma o mecanismo de um jeito bonito. Faz a mesma sessão de novo uma semana depois, e a dor é muito menor. É o efeito da sessão repetida. O músculo se adaptou mecanicamente. Nenhuma adaptação de acidez explicaria isso.
+E tem um fenômeno que confirma o mecanismo de um jeito muito claro. Faz a mesma sessão de novo uma semana depois, e a dor é muito menor. É o efeito da sessão repetida. O músculo se adaptou mecanicamente. Nenhuma adaptação de acidez explicaria isso.
 
 Então, para a pergunta mais comum do consultório e da sala de musculação, "o que eu faço para não sentir isso?", a resposta não é alongar depois, nem gelo, nem drenagem. A resposta é dose. Gesto novo e excêntrico entram de forma progressiva, com a primeira exposição menor do que a vontade da pessoa. A primeira vez vai doer um pouco. A segunda vai doer bem menos.
 
@@ -228,97 +228,16 @@ Na próxima conversa a gente vai para o sistema que sustenta praticamente tudo o
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Três frases de todo dia · Por que convence
-· "Pedala leve para tirar o ácido lático" · "essa dor é o lactato acumulado" · "massagem drena"
-· Erradas **pelo motivo, pelo mecanismo, pelas duas coisas**
-· Hill e Meyerhof, **Nobel de 1922**, boa parte em **músculo de rã**
-· Lactato, queimação e queda de força **sobem juntos**
-· **Junto não é por causa**
-Visual: três curvas subindo juntas.
-
-**Slide 2** — De onde vem o combustível · O plano de velocidade
-· **Glicogênio de dentro da fibra** (um passo a menos) e **glicose do sangue**
-· O estoque da fibra se repõe **em horas, com comida**, não com gel no meio do treino
-· A glicólise entrega ATP **bem mais rápido** que a mitocôndria
-· **Não é o plano B do músculo sem oxigênio**
-· Quem abre a torneira é **contabilidade local** dentro da fibra
-Visual: fibra, glicogênio e capilar.
-
-**Slide 3** — A frase-chave · Bioquímica em três frases
-· Intensidade sobe → **fibra rápida entra** → **mais lactato mesmo com oxigênio**
-· Produz **lactato e H⁺**, por reações diferentes
-· O H⁺ vem em boa parte da **quebra do ATP**
-· **Formar lactato consome próton**
-Visual: a via com as duas saídas do piruvato.
-
-**Slide 4** — Acompanhante, não agente
-· Detalhes em debate; **a conclusão prática, não**
-· **Uma causa, dois sinais**: termômetro e febre
-Visual: causa comum e seta riscada.
-
-**Slide 5** — A lançadeira · Três funções
-· Produzido **o tempo todo, inclusive em repouso**
-· Queimado por **fibra oxidativa, coração, cérebro**; o **fígado** faz glicose
-· **Energia · matéria-prima de glicose · sinal**
-· O "lixo" ajuda a mandar **construir mitocôndria**
-Visual: lactato indo para quatro destinos.
-
-**Slide 6** — Queimação, sim · O fosfato inorgânico
-· H⁺ contribui para a **queimação**
-· Efeito na força **muito maior a 12 °C que a 32 °C**
-· Sobe de **~5 para ~30 mM**
-· Atrapalha a **ponte cruzada** e a **liberação de cálcio**
-· Vem da **fosfocreatina**: a potência paga na própria moeda
-Visual: PCr → Pi e as duas setas.
-
-**Slide 7** — O relógio · Excêntrico e não habituado
-· Lactato do sangue perto do normal em **1 a 2 h**, sozinho
-· Dor com pico em **48 a 72 h**
-· Dano estrutural + inflamação
-· **Efeito da sessão repetida**
-· A resposta é **dose**
-Visual: duas curvas de dor.
-
-**Slide 8** — Bandeira vermelha
-· Dor desproporcional · inchaço · fraqueza marcante · **urina escura**
-· **Rabdomiólise até prova em contrário: avaliação no mesmo dia**
-Visual: quatro sinais em fundo vermelho.
-
-**Slide 9** — Treinar o glicolítico
-· Melhora **tolerância**, não produção
-· **Tamponamento · transportadores · tolerância ao desconforto**
-· Assinatura: **decremento alto** de propósito
-Visual: fibra com as três adaptações.
-
-**Slide 10** — O que se diz no lugar
-· Desaquecimento: **diga o que é**
-· Dor de dois dias: **mexa na progressão**
-· Diga **lactato**; lactato medido é **marcador**
-Visual: duas colunas.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 16, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 16 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 16, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 16 slides. Voz do curso, dezesseis slides no lugar de seis, um visual por bloco. Saíram as menções numeradas a aulas e módulos e a palavra "elegância". Saiu o número "duas a três vezes mais rápida" para a glicólise contra a via oxidativa: não consegui confirmar a fonte e a aula diz só "bem mais rápido". A dor tardia passou de "pico entre 24 e 72 h" para "pico entre 48 e 72 h", como está em Hotfiel 2018. O tempo de volta do lactato passou de "pouco mais de uma hora" para "uma ou duas horas", e a aula agora admite que o desaquecimento acelera um pouco a remoção (Menzies 2010). Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco). No deck, o slide dos sinais de rabdomiólise, que ainda era texto, virou desenho, sem mudar a quantidade nem a ordem dos slides.
 
-**O que mudou nesta versão.** Voz do curso, dezesseis slides no lugar de seis, um visual por bloco.
-Saíram as menções numeradas a aulas e módulos e a palavra "elegância". Saiu o número "duas a três
-vezes mais rápida" para a glicólise contra a via oxidativa: não consegui confirmar a fonte e a aula
-diz só "bem mais rápido". A dor tardia passou de "pico entre 24 e 72 h" para "pico entre 48 e 72 h",
-como está em Hotfiel 2018. O tempo de volta do lactato passou de "pouco mais de uma hora" para "uma
-ou duas horas", e a aula agora admite que o desaquecimento acelera um pouco a remoção (Menzies 2010).
+**Números conferidos.** Temperatura: Westerblad 2002 mostra o efeito da acidificação muito maior a 12 °C que a 32 °C; as barras do slide 10 são ilustrativas, sem escala medida. Fosfato de ~5 para ~30 mM: Allen, Lamb e Westerblad 2008. As curvas dos slides 2, 5, 12 e 13 são esquemas.
 
-**Números.** Temperatura: Westerblad 2002 mostra o efeito da acidificação muito maior a 12 °C que a
-32 °C; as barras do slide 10 são ilustrativas, sem escala medida. Fosfato de ~5 para ~30 mM: Allen,
-Lamb e Westerblad 2008. As curvas dos slides 2, 5, 12 e 13 são esquemas.
+**Correções.** "O Robergs e colaboradores" virou "uma revisão de dois mil e quatro". "De um jeito bonito" virou "de um jeito muito claro".
 
-**Citações faladas.** Hill e Meyerhof (Nobel), Robergs (a revisão de 2004) e George Brooks (a
-lançadeira).
+**Saíram.** O bloco "Roteiro Gamma", que o deck substituiu. Duração de 21 para 19 minutos.
 
-**Ligações internas.** "duas conversas atrás" (torneiras) = aula dos três sistemas · "conversa
-passada" (fosfocreatina, decremento) = aula do intervalo · fibras = aula neuromuscular · limiares e
-curva de lactato = aula de limiares · fadiga central = aula de fadiga · recuperação = módulo de
-reabilitação · tamponantes = módulo de suplementação.
+**Citações faladas.** Hill e Meyerhof, pelo Nobel de 1922, e George Brooks, pela lançadeira do lactato, porque são marcos. A revisão de 2004 entra pelo ano.
+
+**Ligações internas.** "duas conversas atrás" (torneiras) = aula dos três sistemas · "conversa passada" (fosfocreatina, decremento) = aula do intervalo · fibras = aula neuromuscular · limiares e curva de lactato = aula de limiares · fadiga central = aula de fadiga · recuperação = módulo de reabilitação · tamponantes = módulo de suplementação.

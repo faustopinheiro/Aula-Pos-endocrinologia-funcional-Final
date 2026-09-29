@@ -212,7 +212,7 @@ Olha as duas semanas. Seis sessões moderadas geram seis pulsos. Duas sessões h
 
 Agora a pergunta que todo mundo faz: volume ou intensidade?
 
-Aqui existe controvérsia de verdade, e eu prefiro mostrar inteira a escolher um lado e fingir consenso. O grupo do David Bishop revisou isso em dois mil e dezenove com um título honesto, controvérsias atuais. E o próprio Bishop defendeu em debate publicado que o volume pesa mais do que a intensidade para aumentar mitocôndria, com resposta de quem pensa o contrário.
+Aqui existe controvérsia de verdade, e eu prefiro mostrar inteira a escolher um lado e fingir consenso. Um grupo australiano revisou isso em dois mil e dezenove com um título honesto, controvérsias atuais. E o autor principal defendeu em debate publicado que o volume pesa mais do que a intensidade para aumentar mitocôndria, com resposta de quem pensa o contrário.
 
 O que dá para dizer com segurança são três coisas.
 
@@ -282,90 +282,16 @@ Na próxima conversa eu saio de dentro da fibra e vou para o que leva o oxigêni
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Três números · A curva
-· **0,52 g/min** · **~62% do VO₂máx** · **± 0,15**
-· Acima do pico, a gordura cai **em gramas**, não só em fração
-· A faixa em volta do pico é larga: **individual demais para virar regra**
-Visual: curva com faixa de variação.
-
-**Slide 2** — Tanque e torneira
-· ~30 g/h ≈ **280 kcal/h** · tanque **> 60.000 kcal** · **mais de 200 horas** no pico
-Visual: tanque e vazão.
-
-**Slide 3** — Como se mede · Duas limitações
-· Razão de troca respiratória: **0,70 gordura · 0,85 meio a meio · 1,00 carboidrato**
-· Só vale em **estado estável**
-· Acima do limiar, o tamponamento solta **CO₂ que não é combustível**
-Visual: a régua.
-
-**Slide 4** — Cinco etapas · Rendimento por litro de O₂
-· Mobilizar · viajar na albumina · atravessar a membrana · **porta da carnitina** · matriz
-· Carboidrato **~5,0 kcal/L** · gordura **~4,7 kcal/L**
-· A troca de combustível é **escolha econômica correta**
-Visual: duas barras.
-
-**Slide 5** — As vias competem · A zona de queima na aritmética
-· Fluxo glicolítico alto **ocupa a carnitina** e fecha a porta da gordura
-· Não é falta de treino: **é arquitetura**
-· 8 kcal/min × 60% = **4,8** · 14 kcal/min × 35% = **4,9**
-· **Proporção não é quantidade**
-Visual: duas barras.
-
-**Slide 6** — Dias e semanas · Quebrar
-· Composição corporal é **balanço de dias e semanas**
-· Jejum: mais gordura **durante**; composição **parecida** em quatro semanas
-· Hipoglicemia: **cabeça vai junto**, melhora em minutos
-· Glicogênio muscular: **só a perna**, não melhora em minutos
-· **A cabeça foi junto, ou só a perna?**
-Visual: duas colunas.
-
-**Slide 7** — O teto do intestino · O que o número decide
-· Uma fonte: **~1 g/min** · glicose + frutose: **1,75 g/min**
-· **60 g/h** uma fonte · **90 g/h** combinado em prova ≥ 2,5 h · **treina-se**
-Visual: dois transportadores e duas barras.
-
-**Slide 8** — Como a capacidade cresce · Frequência
-· **AMPK · cálcio · redox → PGC-1α → mitocôndria nova**
-· **Não é GH nem IGF-1**
-· Cada sessão é **um pulso** de sinal
-Visual: a cascata.
-
-**Slide 9** — Volume ou intensidade · O que derruba sem ser treino · Treina e não melhora
-· **Os dois funcionam** · intervalado é eficiente em tempo
-· **Conteúdo não é função**
-· Energia baixa · sono curto · inatividade · idade (muito é **sofá**)
-· **Antioxidante em dose alta** atenua a adaptação
-· **Estímulo errado** → planilha · **matéria-prima não chega** → conta
-Visual: quatro setas e uma tracejada.
-
-**Slide 10** — Três tetos
-· Gordura **~0,5 g/min** · carboidrato **~1 a 1,75 g/min** · capacidade instalada, **o único que se move**
-Visual: três linhas e três setas.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides. Voz do curso, dezenove slides no lugar de sete. Saíram "É elegante", "escopo" e as menções numeradas a aulas. O pico de gordura agora vem de Achten e Jeukendrup 2003 (55 homens treinados: 0,52 ± 0,15 g/min a 62,5 ± 9,8% do VO₂máx). A diferença de custo de oxigênio passou de "cerca de 10% mais oxigênio por ATP" para o dado de tabela de Péronnet e Massicotte: ~5,05 kcal/L de O₂ com carboidrato e ~4,69 com gordura. O mecanismo da competição foi reescrito com a explicação da carnitina livre (Hargreaves e Spriet 2020), com a ressalva de "uma das explicações mais aceitas". O jejum ganhou a referência de Schoenfeld 2014. Os números de 1,06 e 1,75 g/min são de Jentjens e Jeukendrup 2005 (glicose a 1,2 g/min contra glicose 1,2 + frutose 1,2 g/min; por isso "em quantidade maior"). "Desmonta mais rápido do que o treino constrói" virou "se desmonta em poucas semanas parado". Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco). No deck, o slide do jejum e do atleta que quebra, que ainda era texto, virou desenho, sem mudar a quantidade nem a ordem dos slides.
 
-**O que mudou nesta versão.** Voz do curso, dezenove slides no lugar de sete. Saíram "É elegante",
-"escopo" e as menções numeradas a aulas. O pico de gordura agora vem de Achten e Jeukendrup 2003
-(55 homens treinados: 0,52 ± 0,15 g/min a 62,5 ± 9,8% do VO₂máx). A diferença de custo de oxigênio
-passou de "cerca de 10% mais oxigênio por ATP" para o dado de tabela de Péronnet e Massicotte:
-~5,05 kcal/L de O₂ com carboidrato e ~4,69 com gordura. O mecanismo da competição foi reescrito com
-a explicação da carnitina livre (Hargreaves e Spriet 2020), com a ressalva de "uma das explicações
-mais aceitas". O jejum ganhou a referência de Schoenfeld 2014. Os números de 1,06 e 1,75 g/min são
-de Jentjens e Jeukendrup 2005 (glicose a 1,2 g/min contra glicose 1,2 + frutose 1,2 g/min; por isso "em quantidade maior"). "Desmonta mais rápido do que o treino constrói" virou "se desmonta
-em poucas semanas parado".
+**Números conferidos.** 0,52 g/min × 60 = 31 g/h × 9 kcal/g ≈ 280 kcal/h. 60.000 ÷ 280 ≈ 214 h. Zona de queima: 8 × 0,60 = 4,8 e 14 × 0,35 = 4,9.
 
-**Contas.** 0,52 g/min × 60 = 31 g/h × 9 kcal/g ≈ 280 kcal/h. 60.000 ÷ 280 ≈ 214 h. Zona de queima:
-8 × 0,60 = 4,8 e 14 × 0,35 = 4,9.
+**Correções.** "O grupo do David Bishop" virou "um grupo australiano".
 
-**Citações faladas.** David Bishop, pela controvérsia volume x intensidade.
+**Saíram.** O bloco "Roteiro Gamma", que o deck substituiu. Duração de 27 para 23 minutos.
 
-**Ligações internas.** "começo do módulo" (tanques) = aula dos três sistemas · tamponamento e ácido
-lático = aula anterior · limiar e ergoespirometria = aula de limiares · disponibilidade de carboidrato
-= módulo de nutrição · energia disponível = módulos de fisiologia hormonal e da atleta mulher ·
-antioxidante = módulo de suplementação · coração e vasos = próxima aula.
+**Citações faladas.** Nenhum autor por nome. A revisão da controvérsia entra como "um grupo australiano", de 2019.
+
+**Ligações internas.** "começo do módulo" (tanques) = aula dos três sistemas · tamponamento e ácido lático = aula anterior · limiar e ergoespirometria = aula de limiares · disponibilidade de carboidrato = módulo de nutrição · energia disponível = módulos de fisiologia hormonal e da atleta mulher · antioxidante = módulo de suplementação · coração e vasos = próxima aula.

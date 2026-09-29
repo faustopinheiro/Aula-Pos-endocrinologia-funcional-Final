@@ -50,7 +50,7 @@ E tem uma tradução que o paciente entende na hora. O limiar explica por que el
 
 Agora a briga que eu venho adiando desde o começo do módulo. Ela tem mais de cinquenta anos, e importa para o jeito como você ensina o assunto.
 
-Poole, Rossiter, Brooks e Gladden publicaram em dois mil e vinte e um uma revisão longa com um título que resume tudo: o limiar anaeróbico e cinquenta e tantos anos de controvérsia.
+Quatro pesquisadores da área, um deles o autor da lançadeira do lactato, publicaram em dois mil e vinte e um uma revisão longa com um título que resume tudo: o limiar anaeróbico e cinquenta e tantos anos de controvérsia.
 
 O problema é o nome. Ele carrega três suposições que não se sustentam.
 
@@ -128,7 +128,7 @@ Anos de prática. A economia melhora com volume acumulado, devagar.
 
 E treino de força. Esse é o achado que mais muda conduta. Numa meta-análise com corredores de alto nível, programas de força de oito a doze semanas melhoraram a economia de corrida de forma clara. Sem precisar mexer no VO₂máx.
 
-Pensa num caso ilustrativo, para fixar a ideia. Um corredor de quarenta e seis anos, nove anos de estrada, parado em quarenta e sete minutos nos dez quilômetros há três anos. Tira uma sessão de tiros e coloca duas de força pesada. Meses depois, está correndo abaixo de quarenta e cinco. E o VO₂máx estimado ficou praticamente igual.
+Pensa num caso ilustrativo, para fixar a ideia. Um corredor de quarenta e tantos anos, nove anos de estrada, parado em quarenta e sete minutos nos dez quilômetros há três anos. Tira uma sessão de tiros e coloca duas de força pesada. Meses depois, está correndo abaixo de quarenta e cinco. E o VO₂máx estimado ficou praticamente igual.
 
 O motor era o mesmo. Mudou quanto ele gasta para ir na mesma velocidade.
 
@@ -166,7 +166,7 @@ Passo três, e é o que quase todo mundo pula: onde estão os dois limiares?
 
 E não basta saber em que percentual do VO₂máx eles caíram. Você precisa deles na moeda que prescreve: carga em watts, velocidade ou ritmo, e a frequência cardíaca correspondente.
 
-Ninguém treina em percentual de VO₂máx. A pessoa treina numa velocidade, numa carga, ou olhando o relógio. Se o laudo dá os limiares só em percentual, ele é bonito e inútil para a segunda-feira.
+Ninguém treina em percentual de VO₂máx. A pessoa treina numa velocidade, numa carga, ou olhando o relógio. Se o laudo dá os limiares só em percentual, ele é vistoso e inútil para a segunda-feira.
 
 Passo quatro: as zonas que o programa gerou.
 
@@ -210,7 +210,7 @@ Dois problemas. O primeiro é a estimativa da máxima. Duzentos e vinte menos a 
 
 O segundo problema é maior e é definitivo. O limiar não cai no mesmo percentual da máxima em pessoas diferentes. Duas pessoas com a mesma idade e a mesma máxima podem ter o segundo limiar em percentuais bem diferentes.
 
-Prescrever por percentual da máxima coloca pessoas diferentes em domínios fisiológicos diferentes com o mesmo número na planilha. É um dos erros mais comuns e mais invisíveis da prescrição. Invisível porque a planilha fica bonita, e o erro só aparece meses depois, como platô ou como fadiga.
+Prescrever por percentual da máxima coloca pessoas diferentes em domínios fisiológicos diferentes com o mesmo número na planilha. É um dos erros mais comuns e mais invisíveis da prescrição. Invisível porque a planilha fica arrumada, e o erro só aparece meses depois, como platô ou como fadiga.
 
 E a frequência cardíaca demora a responder e é mexida por calor, desidratação, cafeína, sono ruim e altitude. Num tiro de três minutos, ela chega no patamar quando o tiro está acabando. Em esforço curto e intenso, velocidade, potência ou esforço percebido prescrevem melhor.
 
@@ -261,82 +261,16 @@ Na próxima conversa, o problema que aparece quando alguém tenta treinar as dua
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — O laudo na mesa · Duas quebras
-· O número grande no topo · a tabela do programa · **as duas linhas que decidem**
-· **Três domínios**: moderado, pesado, severo
-Visual: lactato no teste progressivo.
-
-**Slide 2** — Sustentabilidade · Os dois limiares · "Anaeróbico"
-· Moderado: **horas** · pesado: **estabiliza** · severo: **não estabiliza**, minutos
-· Primeiro: **teto do treino leve** · segundo: **30 a 60 min** em estado estável
-· Sem falta de oxigênio · lactato não é falta de oxigênio · **não há linha única**
-· **Nome errado produz conduta errada**
-Visual: três gráficos em carga constante.
-
-**Slide 3** — O VO₂máx · Genética e resposta
-· Depende da cadeia; em saudável, **a entrega limita**
-· HERITAGE: até **47%** da resposta vem de família
-Visual: cadeia de entrega.
-
-**Slide 4** — O denominador · Três fatores
-· 3 L/min: **37,5** com 80 kg · **41,7** com 72 kg
-· Saúde e desempenho são conversas diferentes
-· **Motor · quanto dá para usar · quanto custa**
-Visual: a unidade com o quilo circulado.
-
-**Slide 5** — Economia · Caso ilustrativo
-· Técnica · tendão · massa · anos · **força**
-· Troca um tiro por **duas sessões de força**; o tempo cai, o VO₂máx não
-Visual: o caso.
-
-**Slide 6** — Sete passos · O teste foi máximo?
-· **O VO₂máx é o passo dois**
-· RER > 1,10 · FC ± 10 bpm · esforço no topo · lactato > 8 · platô · **peça a RER**
-Visual: laudo com sete marcações.
-
-**Slide 7** — Valor e limiares · As zonas do programa
-· L/min e mL/kg/min · limiares em **watts, ritmo e FC**
-· Por % da FC máxima? **Refaça pelos limiares**
-Visual: passos dois e três.
-
-**Slide 8** — Os três últimos passos · Sem laboratório
-· Recuperação da FC · eficiência ventilatória · por que terminou
-· **Teste do falar** · **contrarrelógio de 30 min**
-Visual: dois métodos.
-
-**Slide 9** — Por que não % da FC máxima · Três zonas, três alavancas
-· 208 − 0,7 × idade é melhor e ainda é população
-· **O limiar não cai no mesmo percentual**
-· Para quem treina há anos: **economia → limiar → VO₂máx**
-Visual: duas pessoas, domínios diferentes.
-
-**Slide 10** — Dois lembretes
-· **Os limiares se movem** · **o cronômetro é mais honesto que o algoritmo**
-Visual: dois lembretes.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 20, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 20 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 10 slides no lugar de 20, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 20 slides. Voz do curso, vinte slides no lugar de sete, com a aula enxugada de 29 para ~25 minutos. O corredor passou a ser dito como caso ilustrativo, porque não é um caso real documentado, e a idade passou a ser dita por década ("quarenta e tantos"). Entraram HERITAGE (Bouchard 1999, 47%), a meta-análise de força e economia (Balsalobre-Fernández 2016), os critérios de esforço máximo (Howley 1995), o teste do falar (Reed e Pipe 2014), o contrarrelógio de 30 minutos (McGehee 2005) e a atualização de ergoespirometria (Guazzi 2016). Os cortes numéricos de VE/VCO₂ ("abaixo de 30 normal, acima de 34 anormal") saíram, porque variam por população e não consegui conferir um corte único; a aula fala em "valores altos com valor prognóstico". A "réplica no mesmo periódico" à revisão de Poole saiu por não ter sido conferida. Saíram "robusta", "escopo" e as menções numeradas. Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco). No deck, o slide dos limiares sem laboratório, que ainda era texto, virou desenho, sem mudar a quantidade nem a ordem dos slides.
 
-**O que mudou nesta versão.** Voz do curso, vinte slides no lugar de sete, com a aula enxugada de
-29 para ~25 minutos. O corredor de 46 anos passou a ser dito como caso ilustrativo, porque não é um
-caso real documentado. Entraram HERITAGE (Bouchard 1999, 47%), a meta-análise de força e economia
-(Balsalobre-Fernández 2016), os critérios de esforço máximo (Howley 1995), o teste do falar (Reed e
-Pipe 2014), o contrarrelógio de 30 minutos (McGehee 2005) e a atualização de ergoespirometria (Guazzi
-2016). Os cortes numéricos de VE/VCO₂ ("abaixo de 30 normal, acima de 34 anormal") saíram, porque
-variam por população e não consegui conferir um corte único; a aula fala em "valores altos com valor
-prognóstico". A "réplica no mesmo periódico" à revisão de Poole saiu por não ter sido conferida.
-Saíram "robusta", "escopo" e as menções numeradas.
+**Números conferidos.** 3 L/min ÷ 80 kg = 37,5 mL/kg/min; ÷ 72 kg = 41,7 mL/kg/min.
 
-**Contas.** 3 L/min ÷ 80 kg = 37,5 mL/kg/min; ÷ 72 kg = 41,7 mL/kg/min.
+**Correções.** Os quatro nomes da revisão de 2021 saíram da fala. "Bonito e inútil" virou "vistoso e inútil"; "a planilha fica bonita" virou "a planilha fica arrumada".
 
-**Citações faladas.** Poole e colaboradores (a controvérsia), Joyner e Coyle (três fatores), Tanaka
-(frequência máxima).
+**Saíram.** O bloco "Roteiro Gamma", que o deck substituiu. Duração de 29 para 24 minutos.
 
-**Ligações internas.** lactato = aula do glicolítico · entrega e diastólica = aula do coração ·
-periferia = aula do oxidativo · treino concorrente = próxima aula · distribuição de intensidade =
-módulo de preparação física.
+**Citações faladas.** Joyner e Coyle, pelo modelo dos três fatores, e Tanaka, pela fórmula da frequência máxima. A revisão de 2021 sobre o limiar entra sem nomes.
+
+**Ligações internas.** lactato = aula do glicolítico · entrega e diastólica = aula do coração · periferia = aula do oxidativo · treino concorrente = próxima aula · distribuição de intensidade = módulo de preparação física.

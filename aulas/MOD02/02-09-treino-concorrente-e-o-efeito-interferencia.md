@@ -58,11 +58,11 @@ E fadiga tem solução de agenda. Sinalização, muito menos.
 
 Agora o tamanho do efeito. E aqui aconteceu uma coisa que vale mostrar, porque é a evidência se corrigindo em público.
 
-Em 2012, Wilson e colaboradores juntaram vinte e um estudos numa meta-análise. Olha a potência: quem treinou só força teve um tamanho de efeito de 0,91. Quem fez concorrente, 0,55. Quem fez só endurance, 0,11.
+Em dois mil e doze, uma meta-análise juntou vinte e um estudos. Olha a potência: quem treinou só força teve um tamanho de efeito de 0,91. Quem fez concorrente, 0,55. Quem fez só endurance, 0,11.
 
 E o que mais pesou foi o tipo de endurance escolhido: a modalidade, a frequência e a duração. Correr junto com a musculação reduziu hipertrofia e força. Pedalar, não. A explicação mais provável é o componente excêntrico da corrida, que machuca mais o músculo, e o fato de ela envolver mais massa muscular.
 
-Dez anos depois, em 2022, Schumann e colaboradores atualizaram a meta-análise com quarenta e três estudos. E o resultado foi mais tranquilizador e mais específico.
+Dez anos depois, em dois mil e vinte e dois, uma nova meta-análise atualizou a conta com quarenta e três estudos. E o resultado foi mais tranquilizador e mais específico.
 
 O treino concorrente não comprometeu hipertrofia. Não comprometeu força máxima. O que ficou atenuado foi a força explosiva, a capacidade de produzir força rápido. E principalmente quando as duas coisas eram feitas na mesma sessão.
 
@@ -253,32 +253,14 @@ Na próxima aula a gente vai para o assunto que atravessou todas as anteriores s
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 11 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 11 slides no lugar de 19, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 19 slides. Voz do curso, dezenove slides no lugar de cinco. Arquitetura mantida em DECISÃO (a aula anterior é PROCEDIMENTO). Sem caso clínico: o exemplo de sexta e sábado é de duas linhas, sem nome. Entraram Petré 2021 (interferência na força de perna só em treinados e só com menos de 20 minutos entre as sessões), Lundberg 2022 (fibra, corrida mais que bicicleta, preliminar), Eddens 2018 (força antes: ~6,9% a mais de força dinâmica de perna, sem efeito na hipertrofia nem no aeróbico), Robineau 2016 (0 h, 6 h e 24 h, rúgbi amador, 7 semanas) e Spiering 2021 (dose de manutenção). Bishop 2019 saiu das referências e entrou Coffey e Hawley 2017, que trata diretamente da sinalização no treino concorrente. A OMS entrou com a referência formal (Bull 2020). Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco). No deck, o slide de para quem a interferência importa, que ainda era texto, virou desenho, sem mudar a quantidade nem a ordem dos slides.
 
-**O que mudou nesta versão.** Voz do curso, dezenove slides no lugar de cinco. Arquitetura mantida
-em DECISÃO (a aula anterior é PROCEDIMENTO). Sem caso clínico: o exemplo de sexta e sábado é de
-duas linhas, sem nome. Entraram Petré 2021 (interferência na força de perna só em treinados e só com
-menos de 20 minutos entre as sessões), Lundberg 2022 (fibra, corrida mais que bicicleta, preliminar),
-Eddens 2018 (força antes: ~6,9% a mais de força dinâmica de perna, sem efeito na hipertrofia nem no
-aeróbico), Robineau 2016 (0 h, 6 h e 24 h, rúgbi amador, 7 semanas) e Spiering 2021 (dose de
-manutenção). Bishop 2019 saiu das referências e entrou Coffey e Hawley 2017, que trata diretamente da
-sinalização no treino concorrente. A OMS entrou com a referência formal (Bull 2020).
+**Números conferidos.** Hickson: 10 semanas; força 5 dias, endurance 6 dias; o grupo concorrente ganhou força até a 6ª-7ª semana, estabilizou e perdeu nas duas últimas; VO₂máx subiu igual nos dois grupos de endurance (cerca de 25% no cicloergômetro, 20% na esteira; não falado). Wilson: 21 estudos, 422 tamanhos de efeito; potência 0,91 / 0,55 / 0,11; corrida, e não ciclismo, reduziu hipertrofia e força. Schumann: 43 estudos.
 
-**Conferido.** Hickson: 10 semanas; força 5 dias, endurance 6 dias; o grupo concorrente ganhou força
-até a 6ª-7ª semana, estabilizou e perdeu nas duas últimas; VO₂máx subiu igual nos dois grupos de
-endurance (cerca de 25% no cicloergômetro, 20% na esteira; não falado). Wilson: 21 estudos, 422
-tamanhos de efeito; potência 0,91 / 0,55 / 0,11; corrida, e não ciclismo, reduziu hipertrofia e força.
-Schumann: 43 estudos.
+**Correções.** "Wilson e colaboradores" e "Schumann e colaboradores" viraram "uma meta-análise" e "uma nova meta-análise", ditas pelo ano.
 
-**Saiu.** "Elegante", "escopo" e as menções numeradas de aula. A frase "uma sessão de força por
-semana preserva quase tudo" foi trocada pelo achado de Spiering, com a ressalva dos mais velhos e da
-intensidade. Nota: uma meta-análise de 2024 (Huiberts e colaboradores) encontrou o padrão inverso de
-Petré quanto ao nível de treino na força de perna; não entrou na fala para não abrir uma controvérsia
-sem tempo de tratá-la, mas é a razão de a aula dizer "mora num lugar específico" e não cravar regra.
+**Saíram.** "Elegante", "escopo" e as menções numeradas de aula. A frase "uma sessão de força por semana preserva quase tudo" foi trocada pelo achado de Spiering, com a ressalva dos mais velhos e da intensidade. Nota: uma meta-análise de 2024 (Huiberts e colaboradores) encontrou o padrão inverso de Petré quanto ao nível de treino na força de perna; não entrou na fala para não abrir uma controvérsia sem tempo de tratá-la, mas é a razão de a aula dizer "mora num lugar específico" e não cravar regra. Duração de 17 para 20 minutos.
 
-**Citações faladas.** Hickson (o experimento que nomeou o efeito), Wilson e Schumann (a evidência se
-corrigindo). Os demais são ditos pelo ano e aparecem pelo autor só na fonte do slide.
+**Citações faladas.** Hickson, pelo experimento que nomeou o efeito. As meta-análises de 2012 e 2022 e os demais estudos entram pelo ano, e o autor aparece só na fonte do slide.
 
-**Ligações internas.** AMPK = aula do metabolismo oxidativo · economia de corrida e força = aula de
-limiares · esforços repetidos no coletivo = abertura do módulo · fadiga = próxima aula · montagem da
-semana = módulo de preparação física.
+**Ligações internas.** AMPK = aula do metabolismo oxidativo · economia de corrida e força = aula de limiares · esforços repetidos no coletivo = abertura do módulo · fadiga = próxima aula · montagem da semana = módulo de preparação física.

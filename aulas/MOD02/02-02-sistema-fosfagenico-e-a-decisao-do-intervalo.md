@@ -214,88 +214,16 @@ Na próxima conversa a gente entra no sistema do meio, o glicolítico, e no mal-
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — A decisão está na pausa
-· Nadador 6 × 50 m · levantador 5 × 3: **o mesmo sistema paga a conta**
-· A decisão que mais muda a sessão está **no espaço entre um esforço e outro**
-Visual: duas linhas do tempo com interrogação nas pausas.
-
-**Slide 2** — A curva da recarga · Sem fluxo, sem recarga
-· Depois de 30 s máximos: fosfocreatina a **~20%** do repouso
-· **1,5 min: ~65%** · **6 min: ~85%**
-· A potência do tiro seguinte **acompanha a fosfocreatina que voltou**
-· Harris e Hultman, 1976: circulação bloqueada, **a fosfocreatina não volta**
-· Soltou o manguito, **a recarga começa na hora**
-· **O tiro é fosfagênico. A pausa é oxidativa.**
-Visual: curva de seis minutos.
-
-**Slide 3** — Três saídas · Pausa curta
-· **30 a 60 s · 2 a 3 min · 4 a 5 min**
-· Lá pelo 4º tiro, quem paga é **o glicolítico**
-· **Tolerância vestida de velocidade**
-· Custo: meses correndo cansado e **sem ficar mais rápido**
-Visual: bifurcação.
-
-**Slide 4** — Média e longa
-· **2 a 3 min**: não erra e não otimiza
-· **4 a 5 min**: qualidade preservada; seis tiros viram **quase meia hora**
-Visual: três sessões em escala.
-
-**Slide 5** — O critério
-· Decide **o objeto do treino naquele dia**
-· Qualidade → **pausa é conteúdo** · repetir → **pausa encurta nas semanas** · tolerância → **chama pelo nome**
-Visual: três objetos, três pausas.
-
-**Slide 6** — O decremento · Ler contra a intenção
-· **(soma real ÷ melhor × número de tiros − 1) × 100**
-· Exemplo: 25,51 s contra 24,60 s → **3,7%**
-· Usar todos os tiros é **mais estável** que primeiro contra último
-· Qualidade + decremento alto → **pausa curta ou volume demais**
-· Tolerância + decremento quase zero → **sessão confortável**
-· **Compare o atleta com ele mesmo**
-Visual: barras dos seis tiros.
-
-**Slide 7** — Agenda apertada
-· **Corta tiros, não a pausa**
-· Volume é a variável barata · **pausa é a cara**
-Visual: duas sessões de doze minutos.
-
-**Slide 8** — O que o VO₂máx prevê · Teto não é velocidade
-· 45 estudos, **~1.500 pessoas**: correlação **~0,4**
-· O VO₂máx explica **cerca de um quinto** da diferença
-· Relação mais forte com tiros **abaixo de 40 m**
-· **VO₂máx é teto**; a recarga depende de **quão rápido a mitocôndria entra em regime**
-· Melhora por **mitocôndria e capilar** no músculo que usa
-Visual: nuvem de pontos.
-
-**Slide 9** — Três perguntas
-· **Qual é o objeto? A pausa protege? O decremento confirma?**
-· Pausa: **preparador e treinador** · lesão que se repete no fim da sessão: **peça a planilha de intervalos**
-Visual: perguntas e dois cartões.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 9 slides no lugar de 13, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 13 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 9 slides no lugar de 13, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 13 slides. Voz do curso, treze slides no lugar de quatro, um visual por bloco. Os números da curva (20% ao fim do tiro, 65% em 1,5 min, 85% em 6 min, correlação forte entre fosfocreatina recuperada e potência recuperada) são de Bogdanis 1995, depois de 30 s máximos de bicicleta. A curva desenhada entre os pontos é ilustrativa. As faixas de decremento "abaixo de 3% excelente, 3 a 5% muito bom" da versão anterior saíram: não achei fonte revisada por pares para elas, só sites de divulgação. O slide 9 passou a recomendar comparar o atleta com ele mesmo. Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco).
 
-**O que mudou nesta versão.** Voz do curso, treze slides no lugar de quatro, um visual por bloco.
-Os números da curva (20% ao fim do tiro, 65% em 1,5 min, 85% em 6 min, correlação forte entre
-fosfocreatina recuperada e potência recuperada) são de Bogdanis 1995, depois de 30 s máximos de
-bicicleta. A curva desenhada entre os pontos é ilustrativa. As faixas de decremento "abaixo de 3%
-excelente, 3 a 5% muito bom" da versão anterior saíram: não achei fonte revisada por pares para
-elas, só sites de divulgação. O slide 9 passou a recomendar comparar o atleta com ele mesmo.
+**Números conferidos.** Ulupınar e colaboradores 2023: r agrupado de 0,444 entre VO₂máx e tempo total de tiros e de 0,449 entre VO₂máx e índice de fadiga; r² ≈ 0,2, daí "um quinto". A nuvem de pontos do slide 11 é ilustrativa, gerada com essa correlação, e não são os dados do estudo. Tiros de 4,10 · 4,15 · 4,22 · 4,28 · 4,35 · 4,41 s. Soma 25,51 s. Ideal 6 × 4,10 = 24,60 s. Decremento (25,51 ÷ 24,60 − 1) × 100 = 3,7%.
 
-**Correlação.** Ulupınar e colaboradores 2023: r agrupado de 0,444 entre VO₂máx e tempo total de
-tiros e de 0,449 entre VO₂máx e índice de fadiga; r² ≈ 0,2, daí "um quinto". A nuvem de pontos do
-slide 11 é ilustrativa, gerada com essa correlação, e não são os dados do estudo.
+**Correções.** Nenhuma nesta revisão.
 
-**Exemplo do decremento.** Tiros de 4,10 · 4,15 · 4,22 · 4,28 · 4,35 · 4,41 s. Soma 25,51 s.
-Ideal 6 × 4,10 = 24,60 s. Decremento (25,51 ÷ 24,60 − 1) × 100 = 3,7%.
+**Saíram.** O bloco "Roteiro Gamma", que o deck substituiu. Duração de 13 para 16 minutos.
 
 **Citações faladas.** Uma por nome: Harris e Hultman, pelo experimento da oclusão.
 
-**Ligações internas.** "tanque pequeno de torneira larga" = aula anterior · acidez e ácido lático =
-próxima aula · cinética do oxigênio e VO₂máx = aula de limiares e ergoespirometria · lesão muscular
-que se repete = Módulo 7.
+**Ligações internas.** "tanque pequeno de torneira larga" = aula anterior · acidez e ácido lático = próxima aula · cinética do oxigênio e VO₂máx = aula de limiares e ergoespirometria · lesão muscular que se repete = o módulo de Lesões: Mecanismos, Epidemiologia e Prevenção.

@@ -782,33 +782,195 @@
   },
   {
    "id": "rabdo",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Bandeira vermelha",
-   "titulo": "Isso não é dor muscular tardia",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"À esquerda, duas curvas de dor ao longo de sete dias: a dor tardia comum sobe no primeiro e no segundo dia e some até o quarto; a da rabdomiólise continua alta depois do quarto dia. À direita, os quatro sinais: dor desproporcional, inchaço importante, fraqueza marcante e urina escura, com a escala de cor da urina\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><line x1=\"70\" y1=\"420\" x2=\"870\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"72\" y1=\"30\" x2=\"72\" y2=\"420\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"410\" y=\"30\" width=\"110\" height=\"390\" fill=\"#A8322A\" opacity=\"0.08\"/><path d=\"M80 403 L135 284 L190 182 L245 155 L300 182 L410 291 L520 379 L630 406 L850 413\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M80 403 L135 250 L190 131 L300 97 L410 87 L520 90 L630 94 L850 107\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"8\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"940\" y=\"0\" width=\"724\" height=\"84\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(960.0 17.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"940\" y=\"96\" width=\"724\" height=\"84\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(960.0 113.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"940\" y=\"192\" width=\"724\" height=\"84\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(960.0 209.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4\"/></g><rect x=\"940\" y=\"292\" width=\"724\" height=\"188\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"960\" y=\"352\" width=\"150\" height=\"64\" rx=\"10\" fill=\"#F3E7A2\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"1132\" y=\"352\" width=\"150\" height=\"64\" rx=\"10\" fill=\"#E2BE55\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"1304\" y=\"352\" width=\"150\" height=\"64\" rx=\"10\" fill=\"#8A4B1E\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"1476\" y=\"352\" width=\"150\" height=\"64\" rx=\"10\" fill=\"#3A1D12\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
     {
+     "x": 84,
+     "y": 0,
+     "w": 200,
+     "t": "dor",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 432,
+     "w": 800,
+     "t": "dias depois do treino",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 44,
+     "w": 190,
+     "t": "3 a 4 dias",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 300,
+     "w": 320,
+     "t": "dor tardia comum: some",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 36,
+     "w": 330,
+     "t": "não melhora: rabdomiólise até que se prove o contrário",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 8,
+     "w": 620,
      "t": "Dor desproporcional",
-     "x": "Que não melhora em três ou quatro dias.",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Inchaço",
-     "x": "Importante, no músculo trabalhado.",
-     "cor": "verm"
+     "x": 1030,
+     "y": 46,
+     "w": 620,
+     "t": "que não melhora em três ou quatro dias",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Fraqueza",
-     "x": "Marcante, fora do esperado.",
-     "cor": "verm"
+     "x": 1030,
+     "y": 104,
+     "w": 620,
+     "t": "Inchaço importante",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1030,
+     "y": 142,
+     "w": 620,
+     "t": "no músculo trabalhado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 200,
+     "w": 620,
+     "t": "Fraqueza marcante",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1030,
+     "y": 238,
+     "w": 620,
+     "t": "fora do esperado para o treino",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 304,
+     "w": 680,
      "t": "Urina escura",
-     "x": "Cor de chá ou de refrigerante de cola.",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 426,
+     "w": 150,
+     "t": "normal",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1132,
+     "y": 426,
+     "w": 150,
+     "t": "concentrada",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1304,
+     "y": 426,
+     "w": 150,
+     "t": "cor de chá",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1476,
+     "y": 426,
+     "w": 150,
+     "t": "cor de cola",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Rabdomiólise até que se prove o contrário: avaliação médica no mesmo dia. A dor tardia comum é o pano de fundo que faz ela passar despercebida.",
+   "eyebrow": "Bandeira vermelha",
+   "titulo": "Dor que não melhora em quatro dias não é dor tardia",
+   "fonte": "Curvas: esquema, sem valores medidos",
+   "destaque": "Avaliação médica no mesmo dia. A dor tardia comum é o pano de fundo que faz a rabdomiólise passar despercebida.",
    "destaque_cor": "verm"
   },
   {

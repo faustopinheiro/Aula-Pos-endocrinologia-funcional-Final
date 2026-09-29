@@ -336,6 +336,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Três tetos, três pergunta
                     {"t": "Capacidade instalada", "x": "O único que se move: devagar, por volume e frequência."}],
           "quem": "O tanque é imenso. A torneira é estreita."})
 
+# o último slide de texto virou desenho (_redesenho.py)
+import _redesenho
+S = [_redesenho.semanas() if s["id"] == "semanas" else s for s in S]
+
 # deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
 MANTER = ['curva', 'tanque', 'regua', 'litro', 'zona', 'semanas', 'intestino', 'cascata', 'derruba', 'fecho']
 S = [s for s in S if s["id"] in MANTER]

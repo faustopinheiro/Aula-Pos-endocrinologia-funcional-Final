@@ -292,6 +292,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Dois lembretes",
                     {"t": "As outras profissões", "x": "Leem a planilha e reconhecem quando a intensidade explica o platô, a fadiga ou a lesão que se repete."}],
           "quem": "A pior leitura do laudo é a que olha só o número grande do topo."})
 
+# o último slide de texto virou desenho (_redesenho.py)
+import _redesenho
+S = [_redesenho.campo() if s["id"] == "campo" else s for s in S]
+
 # deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
 MANTER = ['quebras', 'sustenta', 'cadeia', 'denominador', 'caso', 'sete', 'moeda', 'campo', 'percentual', 'fecho']
 S = [s for s in S if s["id"] in MANTER]

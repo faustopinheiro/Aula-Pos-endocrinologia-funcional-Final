@@ -16,7 +16,7 @@ Setenta e cinco segundos.
 
 Não cinco minutos. Não dois minutos e meio. Setenta e cinco segundos.
 
-Esse número vem de uma revisão de um pesquisador australiano, o Paul Gastin, publicada em dois mil e um. Ela virou a referência do assunto. E o mais bonito é o que aconteceu depois: vinte e cinco anos mais tarde, ele refez a conta junto com outro pesquisador, agora com mais de cem estudos e mais de trezentos pontos de dado. E as estimativas ficaram de zero a três por cento de diferença das antigas.
+Esse número vem de uma revisão de um pesquisador australiano, publicada em dois mil e um. Ela virou a referência do assunto. E o mais interessante é o que aconteceu depois: vinte e cinco anos mais tarde, ele refez a conta junto com outro pesquisador, agora com mais de cem estudos e mais de trezentos pontos de dado. E as estimativas ficaram de zero a três por cento de diferença das antigas.
 
 Na nossa área, é raro a literatura nova confirmar a velha em vez de derrubar. Esse é um desses casos.
 
@@ -198,71 +198,16 @@ Na próxima conversa, a gente olha de perto o sistema mais rápido, o fosfagêni
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Setenta e cinco segundos · A mistura no esporte real
-· Em esforço máximo contínuo, aeróbico e anaeróbico **se igualam por volta dos 75 s**
-· Revisão de 2001, refeita em 2026 com **mais de 100 estudos**: diferença de **0 a 3%**
-· **2 minutos: um terço anaeróbico, dois terços aeróbico**
-· Tiro de 10 s: **~94% anaeróbico** · série de 40 s: **1/3 aeróbico** · 400 m: **meio a meio** · 2 min: **2/3 aeróbico** · luta de 4 min: **~80% aeróbico**
-· **Não existe exercício puramente aeróbico nem puramente anaeróbico**
-Visual: as duas linhas cruzando em 75 s.
-
-**Slide 2** — Não é revezamento · ATP é moeda, não estoque
-· Os três sistemas **ligados desde o primeiro segundo**
-· Muda **de qual se tira mais**, não qual está aberto
-· "Anaeróbico" **não é músculo sem oxigênio**
-· Estoque **~5 mmol/kg** · gasto máximo **~3,7 mmol/kg por segundo** → **menos de 2 s**
-· O que sustenta o esforço é **a velocidade de refazer**, que sobe até **1.000×**
-Visual: ciclo do ATP.
-
-**Slide 3** — Três reservatórios, três torneiras · 2 ATP ou 30 ATP
-· **Fosfagênico**: pequeno, torneira larga · **glicolítico**: médio · **oxidativo**: enorme, torneira estreita
-· **Potência = torneira · capacidade = reservatório**
-· Caminho rápido: **2 ATP** · mitocôndria: **~30 ATP**
-· **Rendimento e velocidade são coisas diferentes**: juros para ter o dinheiro hoje
-Visual: os três tanques.
-
-**Slide 4** — Quem recarrega a fosfocreatina
-· **A fosfocreatina é refeita pelo oxidativo**
-· Repetir o explosivo **depende da base aeróbica** · o sintoma é anaeróbico, **o buraco é aeróbico**
-Visual: ciclo tiro → pausa → recarga.
-
-**Slide 5** — O tamanho dos tanques
-· Glicogênio: **400–500 g, 1.600–2.000 kcal** · gordura: **mais de 60.000 kcal**
-· **Acaba o tanque pequeno**, o único que serve para intensidade alta
-Visual: duas barras em escala.
-
-**Slide 6** — Esforço subindo com a carga igual
-· Mesmo treino, **nota de esforço mais alta** → primeira hipótese: **combustível não reposto**
-· "**O que você comeu antes e depois do treino de ontem?**"
-· Calor e sono curto pesam · **quanto e o que comer = nutrição**
-Visual: a mesma sessão em dois dias.
-
-**Slide 7** — Três tipos de esforço · O intervalo é variável de treino
-· **Intermitente · contínuo · fracionado com carga**
-· **Quem paga a recuperação é o oxidativo** · base aeróbica faz a sessão de força render mais
-· **1:10** → potência · **1:1** → glicolítico · **esforço longo, pausa curta** → oxidativo disfarçado
-· "Descansa o que precisar" **entrega ao acaso a variável mais poderosa**
-Visual: três linhas do tempo em escala.
-
-**Slide 8** — Três perguntas
-· **Quanto dura? · com que intensidade? · com quanto intervalo?**
-· O que adapta: **fosfocreatina e recrutamento · acidez · mitocôndria e capilares**
-· **A sessão que serve para tudo não serve direito para nada**
-Visual: as perguntas e as três colunas.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 8 slides no lugar de 12, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 12 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 8 slides no lugar de 12, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 12 slides. Voz do curso, título novo, doze slides no lugar de cinco, com um visual por bloco. As porcentagens do slide 2 são as estimativas de Gastin (2001) para esforço máximo com aquela duração: 10 s ≈ 6% aeróbico, 40 s ≈ 33%, 60 s ≈ 45%, 75 s ≈ 50%, 120 s ≈ 63%, 240 s ≈ 79%. Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco).
 
-**O que mudou nesta versão.** Voz do curso, título novo, doze slides no lugar de cinco, com um visual
-por bloco. As porcentagens do slide 2 são as estimativas de Gastin (2001) para esforço máximo com
-aquela duração: 10 s ≈ 6% aeróbico, 40 s ≈ 33%, 60 s ≈ 45%, 75 s ≈ 50%, 120 s ≈ 63%, 240 s ≈ 79%.
+**Números conferidos.** Revisão sistemática de 2026 com 102 estudos: estimativas de 0 a 3% de diferença das de 2001 para qualquer duração de esforço máximo.
 
-**Citações faladas.** Uma por nome: Paul Gastin, porque o número de abertura é dele.
+**Correções.** "O Paul Gastin" saiu da fala; a revisão entra pelo ano. "O mais bonito" virou "o mais interessante".
 
-**Ligações internas.** "sistema mais rápido, próxima conversa" = 2.2 · o nome "anaeróbico" e o
-lactato = 2.3 · combustível e nutrição = Módulo 4 · calor = 2.12 · sono = Módulo 10.
+**Saíram.** O bloco "Roteiro Gamma", que o deck substituiu. Duração de 17 para 17 minutos.
+
+**Citações faladas.** Nenhum autor por nome. A revisão de 2001 e a atualização de 2026 entram pelo ano.
+
+**Ligações internas.** "sistema mais rápido, próxima conversa" = a aula de Sistema fosfagênico · o nome "anaeróbico" e o lactato = a aula de Glicólise e lactato · combustível e nutrição = o módulo de Nutrição Esportiva · calor = a aula de Exercício em ambiente adverso · sono = o módulo de Psicologia do Esporte e Saúde Mental.

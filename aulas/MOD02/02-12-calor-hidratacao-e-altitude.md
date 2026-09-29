@@ -152,7 +152,7 @@ A bandeira vermelha é o mal agudo das montanhas: dor de cabeça, náusea, tontu
 
 Falta uma variável que afeta milhões de brasileiros todo dia: a poluição. A pergunta chega direta. Vale a pena correr na avenida?
 
-E tem resposta com dado. Tainio e colaboradores modelaram, em 2016, o balanço entre o benefício da atividade física e o risco do material particulado fino. Na concentração média das cidades do mundo, o benefício vence o risco mesmo nos volumes mais extremos de caminhada e pedalada. E mesmo num ar muito poluído, cinco vezes acima dessa média, o risco só passa o benefício depois de uma hora e meia de pedalada por dia.
+E tem resposta com dado. Um grupo de pesquisadores modelou, em dois mil e dezesseis, o balanço entre o benefício da atividade física e o risco do material particulado fino. Na concentração média das cidades do mundo, o benefício vence o risco mesmo nos volumes mais extremos de caminhada e pedalada. E mesmo num ar muito poluído, cinco vezes acima dessa média, o risco só passa o benefício depois de uma hora e meia de pedalada por dia.
 
 A mensagem principal: não desencoraje ninguém de se exercitar por causa da poluição. O risco de não se exercitar é maior. Dá para melhorar o balanço com coisas simples: horário fora do pico de trânsito, rota a uma quadra da avenida, parque quando houver.
 
@@ -193,28 +193,14 @@ No próximo módulo, a fisiologia hormonal e a endocrinologia do exercício. Vá
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso, dez slides. Arquitetura DECISÃO mantida (a aula anterior é
-ERRO). É a última do módulo e fecha com a camada Decisão · Contribuição · Reconhecimento. Sem caso
-clínico (o módulo usou um, na aula de limiares).
+**O que mudou nesta versão.** Voz do curso, dez slides. Arquitetura DECISÃO mantida (a aula anterior é ERRO). É a última do módulo e fecha com a camada Decisão · Contribuição · Reconhecimento. Sem caso clínico (o módulo usou um, na aula de limiares). Almond 2005 (Boston 2002: 488 corredores com amostra; 13% com sódio ≤ 135 mmol/L, 0,6% ≤ 120; ganho de peso OR 4,2; tempo acima de 4 h contra abaixo de 3h30 OR 7,4), Levine e Stray-Gundersen 1997 (39 corredores; viver a 2.500 m e treinar a 1.250 m melhorou os 5.000 m), Stellingwerff 2019 (ferritina adequada antes da altitude, em geral acima de 30 a 50 µg/L, e suplemento durante; os números não são falados). Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco).
 
-**Entraram.** Almond 2005 (Boston 2002: 488 corredores com amostra; 13% com sódio ≤ 135 mmol/L, 0,6% ≤
-120; ganho de peso OR 4,2; tempo acima de 4 h contra abaixo de 3h30 OR 7,4), Levine e Stray-Gundersen
-1997 (39 corredores; viver a 2.500 m e treinar a 1.250 m melhorou os 5.000 m), Stellingwerff 2019
-(ferritina adequada antes da altitude, em geral acima de 30 a 50 µg/L, e suplemento durante; os números
-não são falados).
+**Números conferidos.** NATA 2015: resfriar antes de transportar; meta abaixo de 38,9 °C em até 30 minutos do colapso (a versão antiga dizia "cerca de 39,5", corrigido). Tainio 2016: na média urbana mundial de PM2,5 (22 µg/m³) o benefício supera o risco mesmo nos volumes extremos; a 100 µg/m³, o dano supera o benefício depois de 1h30 de pedalada por dia. A frase antiga "fração mínima das cidades do mundo" saiu por não ter sido conferida.
 
-**Conferido.** NATA 2015: resfriar antes de transportar; meta abaixo de 38,9 °C em até 30 minutos do
-colapso (a versão antiga dizia "cerca de 39,5", corrigido). Tainio 2016: na média urbana mundial de
-PM2,5 (22 µg/m³) o benefício supera o risco mesmo nos volumes extremos; a 100 µg/m³, o dano supera o
-benefício depois de 1h30 de pedalada por dia. A frase antiga "fração mínima das cidades do mundo" saiu
-por não ter sido conferida.
+**Correções.** "Tainio e colaboradores" virou "um grupo de pesquisadores".
 
-**Saíram.** "Escopo", "slide cinco", as menções numeradas de aula. "Em ordem do que funciona melhor"
-na lista de modificações saiu: a ordem não tinha fonte.
+**Saíram.** "Escopo", "slide cinco", as menções numeradas de aula. "Em ordem do que funciona melhor" na lista de modificações saiu: a ordem não tinha fonte. Duração de 23 para 19 minutos.
 
-**Citações faladas.** Levine e Stray-Gundersen (o estudo que definiu o modelo), Tainio (a pergunta da
-avenida). Boston, NATA e os consensos são citados pelo nome da instituição ou do evento.
+**Citações faladas.** Levine e Stray-Gundersen, pelo estudo que definiu o modelo de viver no alto e treinar embaixo. Boston, NATA e os consensos pelo nome da instituição ou do evento; o modelo da poluição entra pelo ano.
 
-**Ligações internas.** desvio cardiovascular e plasma = aula do coração · domínio severo = aula de
-limiares · reposição individual = módulo de nutrição esportiva · diagnóstico e retorno = módulo de
-medicina esportiva clínica · disponibilidade de energia = módulo de fisiologia hormonal (próximo).
+**Ligações internas.** desvio cardiovascular e plasma = aula do coração · domínio severo = aula de limiares · reposição individual = módulo de nutrição esportiva · diagnóstico e retorno = módulo de medicina esportiva clínica · disponibilidade de energia = módulo de fisiologia hormonal (próximo).

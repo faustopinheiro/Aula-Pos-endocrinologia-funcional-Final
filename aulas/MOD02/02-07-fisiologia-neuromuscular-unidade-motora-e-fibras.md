@@ -28,7 +28,7 @@ A força veio, em boa parte, do sistema nervoso. E entender isso muda a conversa
 *Visual: duas curvas ao longo de doze semanas: força subindo desde a primeira semana e tamanho do músculo subindo mais devagar, com a distância entre elas marcada como ganho neural.*
 *Teleprompter: (o desenho clássico)*
 
-Esse é o desenho clássico. Folland e Williams revisaram o tema em dois mil e sete, e a descrição continua boa.
+Esse é o desenho clássico. Uma revisão de dois mil e sete organizou o tema, e a descrição continua boa.
 
 Os ganhos de força vêm de uma soma de fatores neurais e de fatores do próprio músculo. Os neurais pesam mais nas primeiras semanas. E a hipertrofia começa junto, só demora mais para aparecer no tamanho.
 
@@ -56,9 +56,9 @@ Segunda, na direção contrária, e ela evita abandono. Quando alguém troca de 
 
 📊 **[SLIDE 3 DE 9]**
 *Visual: duas pernas: uma treinada, com a barra de força subindo; a outra sem nenhuma carga, com uma barra menor subindo também, perto de 12%.*
-*Teleprompter: (a prova mais bonita de que o ganho inicial é nervoso)*
+*Teleprompter: (a prova mais clara de que o ganho inicial é nervoso)*
 
-E tem um fenômeno que é a prova mais bonita de que o ganho inicial é nervoso. A educação cruzada.
+E tem um fenômeno que é a prova mais convincente de que o ganho inicial é nervoso. A educação cruzada.
 
 Quem treina força de um lado só ganha força também do lado que não treinou, que não recebeu carga nenhuma. Uma meta-análise de dois mil e dezessete estimou esse ganho do outro lado em perto de doze por cento.
 
@@ -216,69 +216,16 @@ Na próxima conversa a gente junta o sistema que transporta com o sistema que co
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — Trinta e cinco dias
-· Força **+39%** · ativação elétrica **+35%** · área do quadríceps **+3,5 a 5%** aos 20 dias
-Visual: três barras.
-
-**Slide 2** — O desenho clássico · Cinco mudanças no nervo · Duas consequências
-· Neurais pesam mais **no começo**; a hipertrofia começa junto e aparece depois
-· Recrutamento · frequência de disparo · menos antagonista · coordenação · aprendizado
-· O ganho é **específico** · trocou de aparelho e a carga caiu: **não é perda de força**
-Visual: força x tamanho em 12 semanas.
-
-**Slide 3** — Educação cruzada
-· Treinar um lado dá **~12%** de força ao outro · uso no membro imobilizado
-Visual: duas pernas.
-
-**Slide 4** — A unidade motora · Princípio do tamanho
-· **~10 fibras** no olho · **> 1.000** no gastrocnêmio
-· Henneman 1965: **das menores para as maiores**
-Visual: rampa de recrutamento.
-
-**Slide 5** — Três portas · Recrutamento e frequência
-· **Carga alta · velocidade alta · perto da falha**
-· "Força sem explosão" é quase sempre **frequência de disparo**
-Visual: três portas.
-
-**Slide 6** — Um contínuo · A IIx encolhe · Converter fibras
-· **I · IIa · IIx** e as **híbridas**
-· **9% → 2%** com treino · **17%** depois de parar
-· O que muda de forma confiável: **tamanho, qualidade e o comando**
-Visual: três barras.
-
-**Slide 7** — Hipertrofia · Duas correções
-· **Tensão mecânica** · saldo positivo por **até 48 h** · células satélite
-· **Dano não é requisito** · **sem matéria-prima, não há construção**
-Visual: fibra sob tensão.
-
-**Slide 8** — Cada tecido no seu relógio
-· Nervo **dias** · músculo **semanas** · tendão e osso **meses**
-Visual: quatro linhas do tempo.
-
-**Slide 9** — O que fica
-· A lentidão do tendão **é agenda** · o osso gosta de **impacto e carga**
-Visual: três frases e dois cartões.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 9 slides no lugar de 16, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 16 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 9 slides no lugar de 16, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 16 slides. Voz do curso, dezesseis slides no lugar de cinco. A abertura trocou o número sem fonte ("30% no agachamento em três semanas") pelos dados de Seynnes 2007: 35 dias de treino pesado de extensão de joelho, força máxima +38,9%, EMG +34,8%, área do quadríceps +3,5% e +5,2% (regiões central e distal) aos 20 dias. A educação cruzada ganhou o número de Manca 2017 (~11,9%). O "overshoot" da IIx ganhou os números de Andersen e Aagaard 2000 (9,3% → 2,0% → 17,2%). A síntese proteica elevada "24 a 48 h" virou "saldo positivo por até 48 h em destreinados" (Phillips 1997). Saíram "elegante", "escopo" e as menções numeradas a aulas e módulos. Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco).
 
-**O que mudou nesta versão.** Voz do curso, dezesseis slides no lugar de cinco. A abertura trocou o
-número sem fonte ("30% no agachamento em três semanas") pelos dados de Seynnes 2007: 35 dias de
-treino pesado de extensão de joelho, força máxima +38,9%, EMG +34,8%, área do quadríceps +3,5% e
-+5,2% (regiões central e distal) aos 20 dias. A educação cruzada ganhou o número de Manca 2017
-(~11,9%). O "overshoot" da IIx ganhou os números de Andersen e Aagaard 2000 (9,3% → 2,0% → 17,2%).
-A síntese proteica elevada "24 a 48 h" virou "saldo positivo por até 48 h em destreinados" (Phillips
-1997). Saíram "elegante", "escopo" e as menções numeradas a aulas e módulos.
+**Números conferidos.** As curvas dos slides 2, 7, 9, 13 e 15 são ilustrativas. As razões de inervação (~10 e > 1.000 fibras) são valores clássicos de livro-texto.
 
-**Esquemas.** As curvas dos slides 2, 7, 9, 13 e 15 são ilustrativas. As razões de inervação (~10 e
-> 1.000 fibras) são valores clássicos de livro-texto.
+**Correções.** "Folland e Williams" virou "uma revisão de dois mil e sete". "A prova mais bonita" virou "a prova mais convincente".
 
-**Citações faladas.** Folland e Williams, pela revisão de 2007, e Henneman, pelo princípio do tamanho.
+**Saíram.** O bloco "Roteiro Gamma", que o deck substituiu. Duração de 18 para 18 minutos.
 
-**Ligações internas.** dor tardia = aula do glicolítico · limiares = próxima aula · adolescente,
-atleta mulher e idoso = módulos próprios · prescrição de força = módulo de preparação física.
+**Citações faladas.** Henneman, pelo princípio do tamanho. A revisão de 2007 entra pelo ano.
+
+**Ligações internas.** dor tardia = aula do glicolítico · limiares = próxima aula · adolescente, atleta mulher e idoso = módulos próprios · prescrição de força = módulo de preparação física.

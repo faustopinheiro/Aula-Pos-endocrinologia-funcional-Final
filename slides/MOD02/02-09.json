@@ -1083,28 +1083,169 @@
   },
   {
    "id": "quem",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 540,
+   "svg": "<svg aria-label=\"Uma faixa que vai de onde a interferência importa, em vermelho, até onde ela é nota de rodapé, em verde: levantador, velocista, saltador e lutador em fase específica de um lado; corredor de rua, quem treina por saúde, o master e o coletivo amador do outro. Embaixo, a inversão com a idade: no jovem, o endurance pode custar força; no master, o que custa força é o tempo\" width=\"1664\" height=\"540\" viewBox=\"0 0 1664 540\"><defs><linearGradient id=\"gq\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#A8322A\"/><stop offset=\"1\" stop-color=\"#008A7E\"/></linearGradient></defs><rect x=\"0\" y=\"170\" width=\"1664\" height=\"30\" rx=\"15\" fill=\"url(#gq)\"/><g transform=\"translate(90.0 40.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"135\" y1=\"140\" x2=\"135\" y2=\"168\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(322.0 40.0) scale(1.8750)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><line x1=\"367\" y1=\"140\" x2=\"367\" y2=\"168\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(554.0 40.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 9l4.5 1l3 2.5M13 21v-8l3-5.5\"/><path d=\"m8 4.5l4 2l4 1l4 3.5l-2 3.5M15.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><line x1=\"599\" y1=\"140\" x2=\"599\" y2=\"168\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(786.0 40.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 21h8m-4-4v4M7 4h10m0 0v8a5 5 0 0 1-10 0V4M3 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m14 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g><line x1=\"831\" y1=\"140\" x2=\"831\" y2=\"168\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1018.0 40.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><line x1=\"1063\" y1=\"140\" x2=\"1063\" y2=\"168\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1250.0 40.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"1295\" y1=\"140\" x2=\"1295\" y2=\"168\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1482.0 40.0) scale(1.8750)\"><g fill=\"#008A7E\"><path d=\"M31.25 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0m-5.557 20.397l5.193 5.124a2 2 0 0 1 .457.693l2.769 7.055a2 2 0 0 1-3.724 1.462l-2.614-6.661l-8.928-8.81a2 2 0 0 1-.583-1.649l.715-6.32c-1.724 1.714-3.054 4.123-4.073 7.316a2 2 0 1 1-3.81-1.216c1.87-5.86 4.975-10.246 10.185-12.257l.023-.009c1.327-.493 2.707-.453 3.937.182c1.181.611 2.022 1.666 2.573 2.848l.648 1.4c.488 1.058.898 1.95 1.293 2.732c.553 1.1.998 1.83 1.438 2.342c.408.474.813.766 1.33.968c.556.217 1.335.367 2.538.403a2 2 0 1 1-.12 3.998c-1.445-.043-2.728-.228-3.873-.675c-1.183-.462-2.116-1.165-2.91-2.09c-.5-.582-.94-1.247-1.35-1.97z\"/><path d=\"m18.263 30.22l3.315 3.18l-1.526 5.147a2 2 0 0 1-.684 1.006l-5.134 4.023a2 2 0 0 1-2.467-3.15l4.632-3.628l1.395-4.71z\"/></g></g><line x1=\"1527\" y1=\"140\" x2=\"1527\" y2=\"168\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"390\" width=\"812\" height=\"150\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(24.0 418.0) scale(1.8750)\"><path fill=\"#A8322A\" fill-rule=\"evenodd\" d=\"M33 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8m5.307 13.27c.58 1.89 1.308 3.873 1.762 5.07a1 1 0 0 1-.745 1.34c-4.538.835-7.663.813-12.594-.013a1.01 1.01 0 0 1-.761-1.37c.471-1.19 1.208-3.133 1.78-5.02c-1.816-.18-3.249-2.294-3.249-4.876c0-2.7 1.567-4.89 3.5-4.89h.013A1.328 1.328 0 0 1 29.329 18h7.343a1.328 1.328 0 0 1 1.315 1.513H38c1.933 0 3.5 2.189 3.5 4.889c0 2.555-1.404 4.653-3.193 4.87m-8.345-5.761c.405-.902.538-2.26.538-4.009h2c0 1.75-.117 3.498-.712 4.827c-.31.689-.763 1.304-1.425 1.74c-.664.438-1.459.643-2.363.643v-2c.596 0 .988-.132 1.262-.313c.276-.181.51-.462.7-.888M35.5 19.5c0 1.75.133 3.107.538 4.009c.19.426.424.707.7.888c.274.18.666.314 1.262.314v2c-.904 0-1.7-.207-2.363-.644c-.662-.436-1.115-1.051-1.425-1.74c-.595-1.33-.712-3.076-.712-4.827zm-7 17.652V38.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.275m6.641.218l.41 1.52a1.5 1.5 0 0 0 2.949-.39V37a42 42 0 0 1-3.359.37M14.445 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8m3.68 23.996A2 2 0 0 0 20 38v-8.701c1.974-.3 3.501-2.358 3.501-4.852c0-2.57-1.62-4.676-3.681-4.874A1 1 0 0 0 19 18h-8a1 1 0 0 0-.82 1.573c-2.06.2-3.68 2.305-3.68 4.874c0 2.493 1.527 4.55 3.5 4.851V38a2 2 0 0 0 3.983.256L14.792 32h.444l.78 6.248a2 2 0 0 0 2.11 1.748M11.527 23.67c.413-.852.578-2.201.578-4.112h2c0 1.92-.147 3.682-.777 4.984c-.329.678-.8 1.259-1.466 1.661c-.661.4-1.438.578-2.307.578v-2c.595 0 .993-.12 1.272-.29c.275-.165.508-.422.7-.821m6.146-4.112c0 1.91.165 3.26.578 4.112c.193.399.426.656.7.822c.28.168.677.29 1.272.29v2c-.868 0-1.646-.18-2.307-.579c-.665-.402-1.137-.983-1.465-1.661c-.63-1.302-.778-3.065-.778-4.984z\" clip-rule=\"evenodd\"/></g><rect x=\"852\" y=\"390\" width=\"812\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(876.0 418.0) scale(1.8750)\"><g fill=\"#008A7E\"><path d=\"M18 15a4 4 0 1 0 0-8a4 4 0 0 0 0 8m-5.484 5.935A9 9 0 0 1 13 20.4V38a2 2 0 0 0 3.988.22L17.79 31h.42l.802 7.22A2 2 0 0 0 23 38V24.36c.15-.796.711-1.949 1.596-3.032c.793.975 1.326 2.006 1.532 2.784c-.021 1.651-1.35 7.83-1.896 10.309a.986.986 0 0 0 .825 1.194c3.693.507 6.884.506 10.546.04c.683-.087 1.082-.844.834-1.487c-.737-1.913-1.937-5.886-1.937-11.49v-2.926c.39.3.8.694 1.208 1.183c1.057 1.267 1.713 2.718 1.799 3.62a1.5 1.5 0 0 0 2.986-.285c-.163-1.716-1.2-3.721-2.481-5.256C36.768 17.522 34.893 16 32.79 16h-4.628c-1.283 0-2.501.515-3.562 1.248C23.543 16.515 22.328 16 21.048 16h-5.614c-2.103 0-3.977 1.522-5.222 3.014c-1.28 1.535-2.318 3.54-2.481 5.256a1.5 1.5 0 0 0 2.986.285c.086-.902.742-2.353 1.8-3.62\"/><path d=\"M6 28.5a2.5 2.5 0 0 1 5 0V39a1 1 0 1 1-2 0V28.5a.5.5 0 0 0-1 0v1.013a1 1 0 1 1-2 0zM30.5 15a4 4 0 1 0 0-8a4 4 0 0 0 0 8m9 11a2.5 2.5 0 0 0-2.5 2.5v1.013a1 1 0 1 0 2 0V28.5a.5.5 0 0 1 1 0V39a1 1 0 1 0 2 0V28.5a2.5 2.5 0 0 0-2.5-2.5m-14 13.388v-2.236a36 36 0 0 0 3.588.282l-.64 2.348a1.5 1.5 0 0 1-2.948-.394m7.053.394l-.654-2.397A42 42 0 0 0 35.5 37v2.388a1.5 1.5 0 0 1-2.947.394\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 210,
+     "w": 400,
+     "t": "importa",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1264,
+     "y": 210,
+     "w": 400,
+     "t": "nota de rodapé",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 250,
+     "w": 210,
+     "t": "levantador",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 262,
+     "y": 250,
+     "w": 210,
+     "t": "velocista",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 494,
+     "y": 250,
+     "w": 210,
+     "t": "lutador em fase específica",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 726,
+     "y": 250,
+     "w": 210,
+     "t": "fase de competição de força",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 958,
+     "y": 250,
+     "w": 210,
+     "t": "coletivo amador: força longe do jogo",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1190,
+     "y": 250,
+     "w": 210,
+     "t": "corredor de rua com força 2 vezes",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1422,
+     "y": 250,
+     "w": 210,
+     "t": "quem treina por saúde",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 330,
+     "w": 1664,
+     "t": "quem está com a conta apertada: aí não é interferência, é falta de recuperação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 136,
+     "y": 410,
+     "w": 650,
+     "t": "No jovem que busca desempenho",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 136,
+     "y": 456,
+     "w": 650,
+     "t": "o endurance é o que pode custar força",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 988,
+     "y": 410,
+     "w": 650,
+     "t": "No master",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 988,
+     "y": 456,
+     "w": 650,
+     "t": "o que custa força é o tempo; o aeróbico que ele gosta não é o inimigo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Para quem essa conversa é séria",
-   "titulo": "Onde importa, onde é nota de rodapé",
-   "esq": {
-    "t": "Importa",
-    "cor": "verm",
-    "itens": [
-     "Levantador, velocista, saltador, lutador em fase específica",
-     "Fase de competição de esporte de força",
-     "Quem está com a conta apertada: aí é falta de recuperação"
-    ]
-   },
-   "dir": {
-    "t": "Nota de rodapé",
-    "cor": "petr",
-    "itens": [
-     "Corredor de rua com duas sessões de força",
-     "Quem treina por saúde",
-     "O master: nele, o que custa força é o tempo",
-     "Coletivo amador: força na semana, longe do jogo"
-    ]
-   },
+   "titulo": "A interferência importa numa ponta, e é nota de rodapé na outra",
    "destaque": "O inimigo do master não é o aeróbico que ele gosta de fazer. É a sessão de força que nunca entra na agenda.",
    "destaque_cor": "ambar"
   },

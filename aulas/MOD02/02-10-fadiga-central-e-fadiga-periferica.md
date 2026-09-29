@@ -54,7 +54,7 @@ Se o estímulo produz um degrau de força adicional, havia fibras que o comando 
 
 Passo três. Estimula-se o músculo relaxado, antes e depois do exercício, e compara-se a força que o estímulo produz. Se ela caiu, o músculo produz menos para o mesmo comando. Isso é fadiga periférica, medida.
 
-Foi com esse método que boa parte da literatura sobre fadiga foi construída. Gandevia fez a síntese em 2001, e ela continua sendo a referência do tema.
+Foi com esse método que boa parte da literatura sobre fadiga foi construída. A grande síntese saiu em dois mil e um, e continua sendo a referência do tema.
 
 ---
 
@@ -180,27 +180,14 @@ Na próxima aula, o outro lado da moeda: a recuperação. O que o modelo de supe
 
 ## Notas de produção (não falado, não vai para o slide)
 
-**O que mudou nesta versão.** Voz do curso e deck enxuto: nove slides, cada um com mais fala, a
-pedido do Fausto (os decks anteriores ficaram fragmentados demais). Arquitetura PROCEDIMENTO mantida
-(a aula anterior é DECISÃO). Sem caso clínico: a tenista é cena de abertura, não caso.
+**O que mudou nesta versão.** Voz do curso e deck enxuto: nove slides, cada um com mais fala, a pedido do Fausto (os decks anteriores ficaram fragmentados demais). Arquitetura PROCEDIMENTO mantida (a aula anterior é DECISÃO). Sem caso clínico: a tenista é cena de abertura, não caso. Claudino 2017 (151 estudos; média dos saltos mais sensível que o melhor salto), Ørtenblad 2013 (compartimentos de glicogênio), Holgado 2023 (viés de publicação e baixo poder na literatura de fadiga mental; a fala diz "efeito provavelmente menor", sem número). Marcora conferido: 16 participantes, 90 min de tarefa cognitiva contra documentário, 640 ± 316 contra 754 ± 339 s, a 80% da potência de pico. Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco).
 
-**Correção.** A versão antiga dizia "seis minutos e oito contra oito minutos e sete" para o estudo
-de Amann. O correto é 6,8 ± 0,3 contra 8,7 ± 0,3 minutos (fentanil intratecal contra placebo), com
-fadiga periférica se desenvolvendo 67 ± 10% mais rápido. A fala agora diz "taxa" ("se instalou mais
-rápido"), que é o que o estudo mediu.
+**Números conferidos.** Sem números novos nesta revisão; os da aula foram conferidos na reescrita.
 
-**Entraram.** Claudino 2017 (151 estudos; média dos saltos mais sensível que o melhor salto),
-Ørtenblad 2013 (compartimentos de glicogênio), Holgado 2023 (viés de publicação e baixo poder na
-literatura de fadiga mental; a fala diz "efeito provavelmente menor", sem número). Marcora conferido:
-16 participantes, 90 min de tarefa cognitiva contra documentário, 640 ± 316 contra 754 ± 339 s, a
-80% da potência de pico.
+**Correções.** A versão antiga dizia "seis minutos e oito contra oito minutos e sete" para o estudo de Amann. O correto é 6,8 ± 0,3 contra 8,7 ± 0,3 minutos (fentanil intratecal contra placebo), com fadiga periférica se desenvolvendo 67 ± 10% mais rápido. A fala agora diz "taxa" ("se instalou mais rápido"), que é o que o estudo mediu. "Gandevia fez a síntese" virou "a grande síntese saiu em dois mil e um".
 
-**Saíram.** "Elegante" (duas vezes), "escopo", "quarenta anos de literatura" e as menções numeradas
-de aula. "Quinze por cento, maior que muitos suplementos caros" saiu: a comparação não tinha fonte.
+**Saíram.** "Elegante" (duas vezes), "escopo", "quarenta anos de literatura" e as menções numeradas de aula. "Quinze por cento, maior que muitos suplementos caros" saiu: a comparação não tinha fonte. Duração de 18 para 15 minutos.
 
-**Citações faladas.** Gandevia (a síntese do método), Amann e Marcora (os dois experimentos que
-reorganizaram o tema).
+**Citações faladas.** Amann e Marcora, pelos dois experimentos que reorganizaram o tema. A síntese de 2001 entra pelo ano.
 
-**Ligações internas.** decremento = aula do intervalo · fosfato e hidrogênio = aula do glicolítico ·
-excesso de treinamento = módulo de fisiologia hormonal · diagnóstico diferencial de fadiga = módulo de
-medicina esportiva clínica · recuperação = próxima aula.
+**Ligações internas.** decremento = aula do intervalo · fosfato e hidrogênio = aula do glicolítico · excesso de treinamento = módulo de fisiologia hormonal · diagnóstico diferencial de fadiga = módulo de medicina esportiva clínica · recuperação = próxima aula.

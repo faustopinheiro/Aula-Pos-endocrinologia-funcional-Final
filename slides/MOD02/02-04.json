@@ -546,29 +546,227 @@
   },
   {
    "id": "semanas",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 560,
+   "svg": "<svg aria-label=\"À esquerda, duas faixas de quatro semanas, uma treinando em jejum e outra alimentada, com a mesma dieta e o mesmo treino; na de jejum as chamas da queima de gordura na sessão são maiores, e as duas chegam ao mesmo ponto: composição parecida. À direita, o atleta que quebra: a cabeça foi junto, hipoglicemia, ou só a perna, glicogênio muscular esgotado\" width=\"1664\" height=\"560\" viewBox=\"0 0 1664 560\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"160\" y=\"70\" width=\"136\" height=\"130\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(194.0 90.0) scale(2.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><rect x=\"310\" y=\"70\" width=\"136\" height=\"130\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(344.0 90.0) scale(2.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><rect x=\"460\" y=\"70\" width=\"136\" height=\"130\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(494.0 90.0) scale(2.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><rect x=\"610\" y=\"70\" width=\"136\" height=\"130\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(644.0 90.0) scale(2.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><line x1=\"770\" y1=\"135\" x2=\"820\" y2=\"185\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"160\" y=\"240\" width=\"136\" height=\"130\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(206.0 260.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><rect x=\"310\" y=\"240\" width=\"136\" height=\"130\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(356.0 260.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><rect x=\"460\" y=\"240\" width=\"136\" height=\"130\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(506.0 260.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><rect x=\"610\" y=\"240\" width=\"136\" height=\"130\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(656.0 260.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><line x1=\"770\" y1=\"305\" x2=\"820\" y2=\"185\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"850\" cy=\"205\" r=\"30\" fill=\"#008A7E\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"560\" rx=\"18\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"984\" y=\"120\" width=\"656\" height=\"200\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1004.0 142.0) scale(1.3333)\"><path fill=\"#A8322A\" d=\"M12.286 42V29.903c-1.731-1.785-5.143-6.24-5.143-11.98C7.143 13.84 10.157 6 21.983 6C28.06 6 30.76 7.486 33.13 9.667q.151.14.298.273c.852.777 1.53 1.395 1.88 2.32c1.3 3.44 3.64 8.452 5.142 11.588c.642 1.338-.332 2.896-1.816 2.896h-1.31V31.5a2 2 0 0 1-2 2h-3.209a1 1 0 0 0-.137-.006q-.285.006-.59.006h-.022c-1.272 0-2.756-.08-4.15-.226c-1.648-.172-3.076-.427-3.878-.715a1 1 0 0 0-.676 1.882c1.044.375 2.675.648 4.346.822c.653.069 1.326.123 1.992.163V42z\"/></g><rect x=\"984\" y=\"336\" width=\"656\" height=\"200\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1004.0 358.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 900,
+     "t": "Durante a sessão, e ao longo de semanas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 114,
+     "w": 150,
+     "t": "em jejum",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 170,
+     "w": 136,
+     "t": "semana 1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 310,
+     "y": 170,
+     "w": 136,
+     "t": "semana 2",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 170,
+     "w": 136,
+     "t": "semana 3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 170,
+     "w": 136,
+     "t": "semana 4",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 284,
+     "w": 150,
+     "t": "alimentada",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 340,
+     "w": 136,
+     "t": "semana 1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 310,
+     "y": 340,
+     "w": 136,
+     "t": "semana 2",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 340,
+     "w": 136,
+     "t": "semana 3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 340,
+     "w": 136,
+     "t": "semana 4",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 244,
+     "w": 180,
+     "t": "composição parecida",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 900,
+     "t": "na sessão, a queima de gordura em jejum é maior; em quatro semanas, com a mesma dieta, a composição foi parecida",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 470,
+     "w": 900,
+     "t": "o que decide é o balanço de energia, e a intensidade que a pessoa sustenta sem se machucar e sem abandonar",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 990,
+     "y": 20,
+     "w": 650,
+     "t": "O atleta que quebra: a cabeça foi junto, ou só a perna?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1086,
+     "y": 142,
+     "w": 540,
+     "t": "Hipoglicemia: central",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1086,
+     "y": 186,
+     "w": 540,
+     "t": "confusão, suor frio, tontura; melhora em minutos com carboidrato rápido; previne-se com o que se come durante a prova",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1086,
+     "y": 358,
+     "w": 540,
+     "t": "Glicogênio da perna: local",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1086,
+     "y": 402,
+     "w": 540,
+     "t": "cabeça lúcida, perna que não entrega; não melhora em minutos; previne-se nos dias antes e no ritmo da primeira metade",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "O erro maior é conceitual",
-   "titulo": "Composição corporal se decide em semanas",
-   "esq": {
-    "t": "Durante a sessão",
-    "cor": "ambar",
-    "itens": [
-     "A mistura de combustível muda com a intensidade",
-     "Em jejum, queima-se mais gordura naquela hora",
-     "Nada disso fica guardado como crédito"
-    ]
-   },
-   "dir": {
-    "t": "Ao longo de dias e semanas",
-    "cor": "petr",
-    "itens": [
-     "O que decide é o balanço de energia",
-     "Jejum ou alimentada, com a mesma dieta: composição parecida em quatro semanas",
-     "A variável que importa é a intensidade que a pessoa sustenta"
-    ]
-   },
-   "destaque": "Treino longo e leve vale muito, por capilar, mitocôndria e tolerância. Só não vale pelo motivo que costuma ser vendido.",
-   "fonte": "Schoenfeld e colaboradores, Journal of the International Society of Sports Nutrition 2014"
+   "titulo": "Composição corporal se decide em semanas, não na sessão",
+   "fonte": "Schoenfeld e colaboradores, Journal of the International Society of Sports Nutrition 2014 · chamas: esquema"
   },
   {
    "id": "intestino",

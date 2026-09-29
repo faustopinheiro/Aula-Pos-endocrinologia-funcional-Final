@@ -166,7 +166,7 @@ E no lugar de prescrever exercício respiratório por reflexo, reconheça que a 
 
 E no lugar de "é normal sentir isso", guarda as situações em que não é.
 
-Falta de ar desproporcional ao esforço e ao nível de treino. Chiado. Tosse que começa depois do treino e persiste. Ruído na garganta ao puxar o ar. Falta de ar em repouso, ou que acorda a pessoa. E, atravessando tudo, qualquer sintoma respiratório com dor no peito, palpitação ou quase desmaio. Esse já saiu do capítulo respiratório e voltou para o da aula passada.
+Falta de ar desproporcional ao esforço e ao nível de treino. Chiado. Tosse que começa depois do treino e persiste. Ruído na garganta ao puxar o ar. Falta de ar em repouso, ou que acorda a pessoa. E, atravessando tudo, qualquer sintoma respiratório com dor no peito, palpitação ou quase desmaio. Esse já saiu do capítulo respiratório e voltou para o capítulo do coração.
 
 Uma última observação para amarrar. Tudo o que eu disse sobre o pulmão não limitar vale ao nível do mar. Na altitude, a pressão do oxigênio cai, a saturação cai, e a equação muda de lugar. Isso tem aula própria no fim deste módulo, junto com calor.
 
@@ -185,69 +185,16 @@ Na próxima conversa eu saio do sistema de transporte e vou para quem faz a for�
 
 ---
 
-## Roteiro Gamma.app
-
-**Slide 1** — "Meu pulmão não aguenta" · Sobra reserva
-· A falta de ar é **a sensação mais alta do corpo**: a culpa vai para lá
-· Em saudável, ao nível do mar, **o pulmão não limita**
-· Exceção: **hipoxemia do atleta de endurance muito treinado**
-Visual: ventilação x capacidade máxima.
-
-**Slide 2** — O único que não se adapta · Comando ventilatório
-· Coração, sangue, capilar, mitocôndria melhoram; **o pulmão, não**
-· **A queimação no peito é a química da perna chegando ao cérebro**
-Visual: setas em tudo menos no pulmão.
-
-**Slide 3** — Três quadros que se confundem · Broncoconstrição
-· Broncoconstrição · obstrução da laringe · descondicionamento
-· A doença crônica mais comum no atleta de elite
-· Endurance, inverno e água: **perto de metade** em algumas séries
-Visual: via aérea seca e fria.
-
-**Slide 4** — Piora depois
-· Pico **5 a 15 min após parar**
-· Diagnóstico por **broncoprovocação**, não por relato
-Visual: linha do tempo.
-
-**Slide 5** — A laringe · As diferenças de graça
-· **5 a 8%** dos adolescentes
-· Quando · onde é o barulho · o que a bombinha faz
-Visual: tabela.
-
-**Slide 6** — O tamanho do problema · O músculo que ventila
-· **1.007 pacientes · 2 anos · 20% tratados como asmáticos**
-· Harms e Dempsey 1997: **respiração e perna disputam o mesmo débito**
-Visual: o reflexo que fecha a perna.
-
-**Slide 7** — Dor de lado
-· **~70%** dos corredores no ano · **~1 em 5** numa prova · **não é cãibra de diafragma**
-Visual: dois números.
-
-**Slide 8** — Três perguntas
-· **Quando? Onde aponta? O que já tentou?**
-Visual: fluxo com três saídas.
-
-**Slide 9** — Quando não é normal
-· Desproporção · chiado · tosse depois · ruído ao inspirar · repouso · com dor no peito
-Visual: sinais e a nota de altitude.
-
----
-
 ## Notas de produção (não falado, não vai para o slide)
 
-**Deck enxuto.** A pedido do coordenador, blocos vizinhos foram fundidos: 9 slides no lugar de 14, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 14 slides.
+**O que mudou nesta versão.** A pedido do coordenador, blocos vizinhos foram fundidos: 9 slides no lugar de 14, com a fala intacta e um visual por bloco. Números de slide citados abaixo são da versão de 14 slides. Voz do curso, catorze slides no lugar de quatro. Saíram "elegante", "escopo" e as menções numeradas a aulas. Entrou a ressalva da hipoxemia arterial induzida pelo exercício (Dempsey e Wagner 1999), porque "a saturação fica normal" não vale para todo atleta de endurance de alto nível. As faixas de prevalência de broncoconstrição por esporte da versão anterior (esquiadores ~50%, nadadores 11–29%, inverno 18–26%) viraram "perto de metade em algumas séries com esquiadores de cross-country e nadadores de elite", porque os números variam muito entre estudos. A prevalência de obstrução da laringe agora vem dos estudos populacionais com adolescentes (Johansson 2015: 5,7%; Christensen 2011: 7,5%); saiu o "~15% em crianças com asma", que não conferi. Nesta revisão, a fala passou pela revisão de voz (palavras vetadas, menções a "aula passada" e nomes de autores que não são marco). No deck, o slide da dor de lado, que ainda era texto, virou desenho, sem mudar a quantidade nem a ordem dos slides.
 
-**O que mudou nesta versão.** Voz do curso, catorze slides no lugar de quatro. Saíram "elegante",
-"escopo" e as menções numeradas a aulas. Entrou a ressalva da hipoxemia arterial induzida pelo
-exercício (Dempsey e Wagner 1999), porque "a saturação fica normal" não vale para todo atleta de
-endurance de alto nível. As faixas de prevalência de broncoconstrição por esporte da versão anterior
-(esquiadores ~50%, nadadores 11–29%, inverno 18–26%) viraram "perto de metade em algumas séries com
-esquiadores de cross-country e nadadores de elite", porque os números variam muito entre estudos.
-A prevalência de obstrução da laringe agora vem dos estudos populacionais com adolescentes
-(Johansson 2015: 5,7%; Christensen 2011: 7,5%); saiu o "~15% em crianças com asma", que não conferi.
+**Números conferidos.** Dor de lado: perto de 70% dos corredores sentiram no último ano, e cerca de 1 em 5 participantes sente numa única prova (revisão de 2015).
+
+**Correções.** "O da aula passada" virou "o capítulo do coração".
+
+**Saíram.** O bloco "Roteiro Gamma", que o deck substituiu. Duração de 15 para 15 minutos.
 
 **Citações faladas.** Harms e Dempsey, pelo experimento de 1997.
 
-**Ligações internas.** tamponamento e ácido lático = aula do glicolítico · sinais cardíacos = aula
-anterior · medicina esportiva clínica e antidoping = módulos próprios · altitude = aula de calor,
-hidratação e altitude · neuromuscular = próxima aula.
+**Ligações internas.** tamponamento e ácido lático = aula do glicolítico · sinais cardíacos = aula anterior · medicina esportiva clínica e antidoping = módulos próprios · altitude = aula de calor, hidratação e altitude · neuromuscular = próxima aula.

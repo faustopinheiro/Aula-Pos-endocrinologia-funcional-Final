@@ -209,6 +209,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Quando a falta de ar não �
                     {"t": "Na altitude", "x": "A pressão do oxigênio cai e a equação muda de lugar. Tem aula própria."}],
           "quem": "Não é o pulmão. É a conta. Até que a história diga o contrário."})
 
+# o último slide de texto virou desenho (_redesenho.py)
+import _redesenho
+S = [_redesenho.dordelado() if s["id"] == "dordelado" else s for s in S]
+
 # deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
 MANTER = ['reserva', 'adapta', 'bronco', 'depois', 'diferencas', 'roubo', 'dordelado', 'perguntas', 'fecho']
 S = [s for s in S if s["id"] in MANTER]

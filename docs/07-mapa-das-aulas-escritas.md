@@ -91,8 +91,18 @@ no texto falado.
 | 2.12 | Exercício em ambiente adverso | 19 | 10 | DECISÃO | [slides](https://claude.ai/artifact/MLGr7WJCvXZWAi1NoYgiNX) |
 
 Total: 3 h 40 min em 12 aulas. Um caso clínico no módulo (2.8, o corredor de
-46 anos, dito como caso ilustrativo). A 2.12 fecha o módulo com a camada de
+quarenta e tantos anos, dito como caso ilustrativo). A 2.12 fecha o módulo com a camada de
 integração nos três níveis (decisão, contribuição, reconhecimento).
+
+**Acabamento.** Os cinco slides que ainda eram texto viraram desenho (dor tardia
+contra rabdomiólise, as quatro semanas em jejum e alimentado, a dor de lado, os
+limiares sem laboratório e o espectro de quem sente a interferência), sem mudar a
+quantidade nem a ordem dos slides; os desenhos estão em `slides/MOD02/_redesenho.py`.
+Na fala, saíram os nomes de autores que não são marco (ficam Harris e Hultman, Hill e
+Meyerhof, Brooks, Henneman, Hickson, Banister, Foster e os demais modelos clássicos),
+as menções a "aula passada" e as palavras vetadas. As notas de produção foram refeitas
+no formato completo, com as ligações internas pelo nome da aula e do módulo, e o bloco
+"Roteiro Gamma" saiu de todas as aulas. Os links são os mesmos.
 
 ## Módulo 3 — Fisiologia Hormonal e Endocrinologia do Exercício · 12 aulas
 

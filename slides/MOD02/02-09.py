@@ -342,6 +342,10 @@ S.append({"id": "fecho", "tipo": "fecho", "titulo": "Duas regras",
                     {"t": "As outras profissões", "x": "Olham o calendário e enxergam a colisão por trás de “meu rendimento caiu” ou “meu tendão dói”."}],
           "quem": "Três dias por semana? Sessão combinada, a prioridade primeiro. A que se cumpre vence quase sempre."})
 
+# o último slide de texto virou desenho (_redesenho.py)
+import _redesenho
+S = [_redesenho.quem() if s["id"] == "quem" else s for s in S]
+
 # deck enxuto: blocos vizinhos da aula fundidos; fica um visual por bloco
 MANTER = ['hickson', 'camadas', 'schumann', 'treinados', 'saidas', 'ordem', 'calendario', 'blocos', 'quem', 'criterio', 'fecho']
 S = [s for s in S if s["id"] in MANTER]

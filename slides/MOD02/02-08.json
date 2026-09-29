@@ -993,27 +993,215 @@
   },
   {
    "id": "campo",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"À esquerda, o teste do falar: um balão com a frase inteira abaixo do primeiro limiar e um balão com a frase quebrada em pedaços quando a pessoa cruza o limiar, numa seta de intensidade. À direita, o contrarrelógio de trinta minutos: a barra de tempo com os últimos vinte minutos destacados, a frequência cardíaca média desse trecho e a velocidade média do teste\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"800\" height=\"500\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"30\" y=\"100\" width=\"340\" height=\"110\" rx=\"26\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"430\" y=\"100\" width=\"340\" height=\"110\" rx=\"26\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><defs><linearGradient id=\"gi\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#008A7E\"/><stop offset=\"1\" stop-color=\"#A8322A\"/></linearGradient></defs><rect x=\"40\" y=\"300\" width=\"720\" height=\"26\" rx=\"13\" fill=\"url(#gi)\"/><line x1=\"430\" y1=\"280\" x2=\"430\" y2=\"346\" stroke=\"#12202E\" stroke-width=\"5\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"500\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"900\" y=\"130\" width=\"730\" height=\"70\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1143.3333333333333\" y=\"130\" width=\"486.66666666666663\" height=\"70\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.8\"/><g transform=\"translate(890.0 280.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(890.0 372.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 760,
+     "t": "1º limiar: o teste do falar",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 118,
+     "w": 340,
+     "t": "“Hoje a subida estava tranquila, deu para conversar.”",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 220,
+     "w": 340,
+     "t": "fala a frase inteira: abaixo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 430,
+     "y": 130,
+     "w": 340,
+     "t": "“Hoje… a subida… estava…”",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 430,
+     "y": 220,
+     "w": 340,
+     "t": "a fala quebra: cruzando",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 340,
+     "w": 720,
+     "t": "intensidade",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 250,
+     "w": 200,
+     "t": "1º limiar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 390,
+     "w": 752,
+     "t": "o critério para o paciente levar para todo treino leve, sem aparelho e sem conta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 888,
+     "y": 20,
+     "w": 760,
+     "t": "2º limiar: contrarrelógio de 30 minutos",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 210,
+     "w": 80,
+     "t": "0 min",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1103,
+     "y": 210,
+     "w": 80,
+     "t": "10 min",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1347,
+     "y": 210,
+     "w": 80,
+     "t": "20 min",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1590,
+     "y": 210,
+     "w": 80,
+     "t": "30 min",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1143,
+     "y": 150,
+     "w": 487,
+     "t": "últimos 20 minutos",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 80,
+     "w": 730,
+     "t": "esforço máximo e contínuo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 958,
+     "y": 284,
+     "w": 680,
+     "t": "FC média dos últimos 20 minutos: aproximação da FC de limiar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 958,
+     "y": 376,
+     "w": 680,
+     "t": "velocidade ou potência média do teste: perto do 2º limiar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 460,
+     "w": 760,
+     "t": "em corredores e triatletas, próximo da medida de laboratório",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A maioria nunca vai fazer o exame",
-   "titulo": "Achar os limiares sem laboratório",
-   "esq": {
-    "t": "1º limiar: teste do falar",
-    "cor": "petr",
-    "itens": [
-     "Fala uma frase inteira, com conforto: abaixo",
-     "A fala quebra em pedaços: cruzando",
-     "O critério para levar para todo treino leve"
-    ]
-   },
-   "dir": {
-    "t": "2º limiar: contrarrelógio de 30 min",
-    "cor": "verm",
-    "itens": [
-     "Velocidade ou potência média: perto do 2º limiar",
-     "FC média dos últimos 20 minutos: a FC de limiar",
-     "Próximo do laboratório em corredores e triatletas"
-    ]
-   },
+   "titulo": "Os dois limiares também se acham sem laboratório",
    "fonte": "Reed e Pipe, Current Opinion in Cardiology 2014 · McGehee e colaboradores, Journal of Strength and Conditioning Research 2005"
   },
   {
