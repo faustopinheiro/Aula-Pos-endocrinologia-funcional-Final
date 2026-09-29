@@ -1044,6 +1044,383 @@ def condutas():
                  fonte="Hipnograma: esquema, sem valores medidos")
 
 
+# ---------------------------------------------------------------- 3.7
+
+def laudo():
+    """3.7: os dois erros, um em linha do tempo, o outro em quem tem mais risco."""
+    p = [svg_abre(1664, 420, "À esquerda, o primeiro erro, tratar a economia: T3 baixo com TSH normal e sintomas; hormônio prescrito; melhora no começo; a conta aparece depois, em massa magra e osso. À direita, o segundo erro, mais grave, não tratar a doença: hipotireoidismo é comum, sobretudo em mulher acima dos 40, em Hashimoto, no pós-parto e depois de radioiodo ou cirurgia"), defs(GLIC)]
+    p.append(caixa(0, 0, 800, 420, GLIC, GLIC_T, esp=3, rx=16))
+    rs = [rot(24, 16, "Primeiro erro: tratar a economia", w=750, tam=28, cor=GLIC, peso=700, serif=True)]
+    passos = [("T3 baixo, TSH normal, sintomas", "t:clipboard-list"), ("hormônio prescrito", "t:pill"), ("melhora no começo", "t:trending-up"), ("a conta aparece depois: massa magra e osso", "t:alert-triangle")]
+    for k, (t, ic) in enumerate(passos):
+        y = 76 + k * 84
+        p.append(f'<circle cx="60" cy="{y+30}" r="30" fill="{CARTAO}" stroke="{GLIC}" stroke-width="3"/>')
+        p.append(icone(ic, 40, y + 10, 40, FOSF if k == 3 else GLIC))
+        if k < 3:
+            p.append(f'<line x1="60" y1="{y+62}" x2="60" y2="{y+82}" stroke="{GLIC}" stroke-width="3"/>')
+        rs.append(rot(110, y + 16, t, w=660, tam=24, cor=FOSF if k == 3 else TINTA, peso=700 if k == 3 else 400))
+    p.append(caixa(864, 0, 800, 420, FOSF, FOSF_T, esp=3, rx=16))
+    rs += [rot(888, 16, "Segundo erro, mais grave: não tratar a doença", w=750, tam=28, cor=FOSF, peso=700, serif=True, lh=1.15),
+           rot(888, 100, "hipotireoidismo é comum, sobretudo em:", w=750, tam=24, cor=TINTA)]
+    grupos = [("h:woman", "mulher acima dos 40"), ("t:shield", "Hashimoto"), ("t:baby-carriage", "pós-parto"), ("t:first-aid-kit", "depois de radioiodo ou cirurgia")]
+    for k, (ic, t) in enumerate(grupos):
+        x, y = 888 + (k % 2) * 380, 160 + (k // 2) * 130
+        p.append(f'<circle cx="{x+40}" cy="{y+40}" r="40" fill="{CARTAO}" stroke="{FOSF}" stroke-width="3"/>')
+        p.append(icone(ic, x + 12, y + 12, 56, FOSF))
+        rs.append(rot(x + 94, y + 14, t, w=270, tam=22, cor=TINTA, peso=600, lh=1.2))
+    return slide("laudo", 420, p, rs,
+                 eyebrow="O eixo que mais recebe prescrição desnecessária", titulo="A glândula falhou, ou o organismo economizou?",
+                 destaque="O objetivo não é desconfiar de tireoide. É ter o discriminador.", destaque_cor="tinta")
+
+
+def padrao():
+    """3.7: o painel do T3 baixo, e as duas vias que o organismo troca."""
+    p = [svg_abre(1664, 400, "À esquerda, um painel com quatro exames e a posição de cada um na faixa: T3 baixo; T3 reverso alto; T4 livre normal ou no limite de baixo; TSH normal ou um pouco reduzido. À direita, o T4 chega ao tecido e tem duas saídas: a via que ativa, que gera T3, fica fechada; a via que desativa, que gera T3 reverso, fica aberta"), defs(MUDO, GLIC)]
+    exames = [("T3", "baixo", 0.08, FOSF), ("T3 reverso", "alto", 0.92, GLIC), ("T4 livre", "normal ou no limite de baixo", 0.34, TINTA), ("TSH", "normal ou um pouco reduzido", 0.4, OXID)]
+    rs = []
+    for k, (t, d, pos, cor) in enumerate(exames):
+        y = k * 100
+        rs += [rot(0, y + 10, t, w=200, tam=28, cor=cor, peso=700, serif=True), rot(0, y + 50, d, w=260, tam=20, cor=TINTA, lh=1.15)]
+        p.append(f'<rect x="280" y="{y+30}" width="520" height="20" rx="10" fill="{CINZA}"/>')
+        p.append(f'<rect x="400" y="{y+30}" width="280" height="20" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"/>')
+        p.append(f'<circle cx="{280 + pos * 520:.0f}" cy="{y+40}" r="16" fill="{cor}" stroke="{CARTAO}" stroke-width="3"/>')
+    rs.append(rot(400, 380, "faixa de referência", w=280, tam=20, cor=OXID, alinha="center"))
+    # vias
+    p.append(f'<circle cx="1000" cy="200" r="70" fill="{AZUL_T}" stroke="{AZUL}" stroke-width="4"/>')
+    rs.append(rot(930, 184, "T4", w=140, tam=30, cor=AZUL, peso=700, alinha="center", serif=True))
+    p.append(f'<path d="M 1070 170 C 1150 120, 1200 90, 1290 90" fill="none" stroke="{CINZA}" stroke-width="6" stroke-dasharray="4 10"/>')
+    p.append(f'<line x1="1160" y1="80" x2="1200" y2="140" stroke="{FOSF}" stroke-width="7" stroke-linecap="round"/>')
+    p.append(f'<path d="M 1070 230 C 1150 280, 1200 310, 1280 310" fill="none" stroke="{GLIC}" stroke-width="6" marker-end="url(#m1)"/>')
+    p.append(caixa(1300, 50, 364, 80, MUDO, CARTAO, esp=2, rx=14))
+    p.append(caixa(1300, 270, 364, 80, GLIC, GLIC_T, esp=3, rx=14))
+    rs += [rot(1300, 60, "T3: a via que ativa", w=364, tam=24, cor=MUDO, peso=700, alinha="center"),
+           rot(1300, 94, "fechada", w=364, tam=20, cor=FOSF, peso=700, alinha="center"),
+           rot(1300, 280, "T3 reverso: a que desativa", w=364, tam=24, cor=GLIC, peso=700, alinha="center"),
+           rot(1300, 314, "aberta", w=364, tam=20, cor=GLIC, peso=700, alinha="center")]
+    return slide("padrao", 400, p, rs,
+                 eyebrow="Passo dois", titulo="O padrão de economia: síndrome do T3 baixo",
+                 destaque="Déficit de energia, doença aguda, trauma, jejum prolongado: o organismo desliga a via que ativa e liga a que desativa. Não é falha, é a resposta certa.",
+                 destaque_cor="petr", fonte="Esquema, sem valores medidos")
+
+
+def discriminador():
+    """3.7: duas linhas de comando, uma com a hipófise gritando e outra com o ajuste na ponta."""
+    p = [svg_abre(1664, 420, "Duas linhas de comando. Em cima, hipotireoidismo primário: a glândula não entrega, a hipófise grita mais alto, TSH alto. Embaixo, economia: a glândula entrega, a hipófise fala no tom de sempre, TSH normal, e o ajuste acontece na ponta, no tecido, com T3 baixo"), defs(FOSF, OXID, MUDO)]
+    faixas = [(0, "Hipotireoidismo primário", FOSF, FOSF_T, "TSH alto", "acusa a glândula", True),
+              (220, "Economia", OXID, OXID_T, "TSH normal, T3 baixo", "acusa a conta", False)]
+    rs = []
+    for y, t, cor, fundo, res, acusa, grito in faixas:
+        p.append(f'<rect x="0" y="{y}" width="1664" height="200" rx="18" fill="{fundo}"/>')
+        rs.append(rot(24, y + 12, t, w=600, tam=28, cor=cor, peso=700, serif=True))
+        # hipófise
+        p.append(f'<circle cx="160" cy="{y+120}" r="50" fill="{CARTAO}" stroke="{AZUL}" stroke-width="3"/>')
+        rs.append(rot(90, y + 176, "hipófise", w=140, tam=20, cor=AZUL, alinha="center"))
+        p.append(icone("t:speakerphone" if grito else "t:message-circle", 130 if grito else 136, y + 90, 60 if grito else 48, FOSF if grito else AZUL))
+        p.append(seta(216, y + 120, 380 if grito else 360, y + 120, cor, "m0" if grito else "m1", esp=10 if grito else 4))
+        # glândula
+        tr = TRACO if grito else ""
+        p.append(f'<path d="M 420 {y+80} q 50 -30 90 0 q 40 -30 90 0 q 20 40 -40 90 q -50 10 -100 0 q -60 -50 -40 -90 z" fill="{CARTAO}" stroke="{cor}" stroke-width="4"{tr}/>')
+        rs.append(rot(420, y + 176, "tireoide: " + ("não entrega" if grito else "entrega"), w=200, tam=20, cor=cor, peso=700, alinha="center"))
+        p.append(seta(640, y + 120, 840, y + 120, MUDO, "m2", esp=3 if grito else 5))
+        # tecido
+        p.append(caixa(860, y + 70, 220, 100, cor if not grito else MUDO, CARTAO, esp=3 if not grito else 2, rx=14))
+        rs.append(rot(860, y + 104, "tecido" + ("" if grito else ": ajuste na ponta"), w=220, tam=20, cor=OXID if not grito else MUDO, peso=700, alinha="center", lh=1.15))
+        p.append(caixa(1160, y + 60, 480, 120, cor, CARTAO, esp=4, rx=16))
+        rs += [rot(1160, y + 76, res, w=480, tam=30, cor=cor, peso=700, alinha="center", serif=True),
+               rot(1160, y + 126, acusa, w=480, tam=24, cor=TINTA, alinha="center")]
+    return slide("discriminador", 420, p, rs,
+                 eyebrow="Passo três: o discriminador", titulo="TSH alto acusa a glândula. T3 baixo com TSH normal acusa a conta.",
+                 destaque="Na economia, o ajuste acontece na ponta, e o TSH não sobe.", destaque_cor="petr")
+
+
+def pedir():
+    """3.7: o pedido de exame com o que marcar e o que deixar de fora, e o tratamento padrão."""
+    p = [svg_abre(1664, 420, "Um pedido de exame. Marcados: TSH e T4 livre, baratos e suficientes para a triagem. Condicional: anti-TPO, se houver suspeita de autoimunidade. Riscados para rastrear: T3, normal no hipotireoidismo inicial e baixo na economia; T3 reverso, sobe em quase tudo, sem corte que mude conduta. À direita, o tratamento: levotiroxina é o padrão; T3 manipulado para economia soma dois erros")]
+    p.append(caixa(0, 0, 1000, 420, MUDO, PAPEL, esp=2, rx=14))
+    p.append(f'<rect x="0" y="0" width="1000" height="60" rx="14" fill="{TINTA}"/><rect x="0" y="36" width="1000" height="24" fill="{TINTA}"/>')
+    rs = [rot(24, 12, "Pedido para rastrear tireoide", w=900, tam=26, cor=PAPEL, peso=700, serif=True)]
+    itens = [("TSH e T4 livre", "baratos, bastam para a triagem", "ok"), ("anti-TPO", "se houver suspeita de autoimunidade", "cond"),
+             ("T3", "normal no hipotireoidismo inicial, baixo na economia", "nao"), ("T3 reverso", "sobe em quase tudo, sem corte que mude conduta", "nao")]
+    for k, (t, d, st) in enumerate(itens):
+        y = 80 + k * 74
+        cor = {"ok": OXID, "cond": GLIC, "nao": FOSF}[st]
+        p.append(f'<rect x="28" y="{y+6}" width="40" height="40" rx="8" fill="{CARTAO}" stroke="{cor}" stroke-width="3"/>')
+        if st == "ok":
+            p.append(icone("t:check", 30, y + 8, 36, OXID))
+        elif st == "cond":
+            p.append(icone("t:question-mark", 32, y + 10, 32, GLIC))
+        else:
+            p.append(icone("t:x", 32, y + 10, 32, FOSF))
+        rs += [rot(92, y, t, w=260, tam=26, cor=cor, peso=700), rot(360, y + 4, d, w=610, tam=22, cor=TINTA, lh=1.2)]
+        if st == "nao":
+            p.append(f'<line x1="88" y1="{y+17}" x2="{96 + len(t) * 14.5:.0f}" y2="{y+17}" stroke="{FOSF}" stroke-width="3"/>')
+    rs.append(rot(92, 380, "subclínico: decisão médica, caso a caso", w=880, tam=22, cor=MUDO))
+    p.append(caixa(1064, 0, 600, 200, OXID, OXID_T, esp=3, rx=16))
+    p.append(icone("t:pill", 1088, 24, 52, OXID))
+    rs += [rot(1156, 28, "Levotiroxina é o padrão", w=490, tam=28, cor=OXID, peso=700, serif=True, lh=1.15),
+           rot(1088, 104, "sem vantagem consistente das combinações com T3", w=550, tam=22, cor=TINTA, lh=1.25)]
+    p.append(caixa(1064, 220, 600, 200, FOSF, FOSF_T, esp=3, rx=16))
+    p.append(icone("t:alert-triangle", 1088, 244, 52, FOSF))
+    rs += [rot(1156, 248, "T3 manipulado para economia", w=490, tam=28, cor=FOSF, peso=700, serif=True, lh=1.15),
+           rot(1088, 324, "soma dois erros: trata o que não é doença, com o que não é padrão", w=550, tam=22, cor=TINTA, lh=1.25)]
+    return slide("pedir", 420, p, rs,
+                 eyebrow="Na ordem certa", titulo="O que pedir, e o que não pedir para rastrear",
+                 fonte="Jonklaas e colaboradores, American Thyroid Association 2014")
+
+
+def roteiro_tireoide():
+    """3.7: cinco passos, com a bifurcação entre conta e glândula no terceiro."""
+    p = [svg_abre(1664, 420, "Um fluxo. Um, a história: quanto come, quanto treina, se cortou carboidrato, quanto peso perdeu. Dois, TSH e T4 livre, e anti-TPO se houver suspeita de autoimunidade. Três, o discriminador. Dele saem dois caminhos: TSH alto aponta a glândula e leva ao passo cinco, conduta médica, levotiroxina, subclínico caso a caso; T3 baixo com TSH normal aponta a conta e leva ao passo quatro, restaurar energia, com nutricionista, carga revista e exame repetido depois"), defs(TINTA, GLIC, FOSF)]
+    passos = [("1", "A história", "quanto come, quanto treina, se cortou carboidrato, quanto peso perdeu", OXID),
+              ("2", "TSH e T4 livre", "anti-TPO se houver suspeita de autoimunidade", TINTA),
+              ("3", "O discriminador", "TSH alto ou T3 baixo com TSH normal?", TINTA)]
+    rs = []
+    for k, (n, t, d, cor) in enumerate(passos):
+        x = k * 360
+        p.append(caixa(x, 110, 320, 200, cor, CARTAO, esp=3, rx=16))
+        p.append(f'<circle cx="{x+40}" cy="150" r="24" fill="{cor}"/>')
+        rs += [rot(x + 16, 136, n, w=48, tam=26, cor=PAPEL, peso=700, alinha="center"),
+               rot(x + 76, 132, t, w=230, tam=26, cor=cor, peso=700, lh=1.1),
+               rot(x + 20, 196, d, w=280, tam=21, cor=TINTA, lh=1.25)]
+        if k < 2:
+            p.append(seta(x + 324, 210, x + 356, 210, TINTA, "m0", esp=4))
+    p.append(f'<path d="M 1044 180 C 1100 180, 1100 90, 1150 90" fill="none" stroke="{GLIC}" stroke-width="5" marker-end="url(#m1)"/>')
+    p.append(f'<path d="M 1044 240 C 1100 240, 1100 330, 1150 330" fill="none" stroke="{FOSF}" stroke-width="5" marker-end="url(#m2)"/>')
+    rs += [rot(1040, 60, "conta", w=100, tam=20, cor=GLIC, peso=700), rot(1030, 356, "glândula", w=120, tam=20, cor=FOSF, peso=700)]
+    saidas = [(0, "4", "Economia: restaurar energia", "nutricionista, carga revista, exame repetido depois", GLIC, GLIC_T),
+              (240, "5", "Glândula: conduta médica", "levotiroxina; subclínico caso a caso", FOSF, FOSF_T)]
+    for y, n, t, d, cor, fundo in saidas:
+        p.append(caixa(1164, y, 500, 180, cor, fundo, esp=3, rx=16))
+        p.append(f'<circle cx="1204" cy="{y+40}" r="24" fill="{cor}"/>')
+        rs += [rot(1180, y + 26, n, w=48, tam=26, cor=PAPEL, peso=700, alinha="center"),
+               rot(1240, y + 22, t, w=410, tam=24, cor=cor, peso=700, lh=1.15),
+               rot(1188, y + 96, d, w=460, tam=21, cor=TINTA, lh=1.25)]
+    return slide("roteiro", 420, p, rs,
+                 eyebrow="O procedimento", titulo="Cinco passos, com a história antes do exame")
+
+
+# ---------------------------------------------------------------- 3.8
+
+def retro():
+    """3.8: o mesmo dia de consulta e três futuros que só se conhecem olhando para trás."""
+    p = [svg_abre(1664, 430, "Um ponto marca o dia da consulta: pessoa cansada, desempenho caindo. Dele saem três curvas de volta ao normal: uma em cerca de dez dias, outra em semanas, outra em dez meses. Até o dia da consulta, as três são iguais; depois, uma área cinzenta com um ponto de interrogação: naquele dia não há como saber qual delas é. A primeira conduta é parecida nas três")]
+    X0, X1, Yb, Yc = 60, 1640, 70, 330
+    p.append(f'<line x1="{X0}" y1="{Yb}" x2="{X1}" y2="{Yb}" stroke="{CINZA}" stroke-width="2"{TRACO}/>')
+    p.append(f'<path d="M {X0} {Yb} C {X0+120} {Yb}, {X0+200} {Yc}, 360 {Yc}" fill="none" stroke="{TINTA}" stroke-width="6"/>')
+    p.append(f'<circle cx="360" cy="{Yc}" r="16" fill="{TINTA}"/>')
+    p.append(f'<rect x="376" y="20" width="{X1 - 376}" height="340" fill="{MUDO}" fill-opacity="0.07"/>')
+    futuros = [(460, OXID, "cerca de dez dias"), (820, GLIC, "semanas"), (1560, FOSF, "dez meses")]
+    rs = [rot(200, 360, "hoje, na consulta: cansaço, desempenho caindo", w=480, tam=22, cor=TINTA, peso=700, lh=1.2),
+          rot(X0, Yb - 40, "o desempenho de antes", w=400, tam=20, cor=MUDO)]
+    for xv, cor, t in futuros:
+        p.append(f'<path d="M 360 {Yc} C {360 + (xv-360)*0.5} {Yc}, {360 + (xv-360)*0.6} {Yb}, {xv} {Yb}" fill="none" stroke="{cor}" stroke-width="5"/>')
+        p.append(f'<circle cx="{xv}" cy="{Yb}" r="10" fill="{cor}"/>')
+        rs.append(rot(xv - 140, Yb - 44, t, w=280, tam=22, cor=cor, peso=700, alinha="center"))
+    p.append(icone("t:question-mark", 1100, 150, 110, MUDO))
+    rs.append(rot(900, 280, "só se sabe olhando para trás", w=560, tam=26, cor=TINTA, peso=700, alinha="center", serif=True))
+    return slide("retro", 430, p, rs,
+                 eyebrow="A coisa mais importante da aula", titulo="O diagnóstico é retrospectivo",
+                 destaque="A boa notícia: a primeira conduta é parecida nos três.", destaque_cor="petr",
+                 fonte="Esquema, sem valores medidos")
+
+
+def criterio_ot():
+    """3.8: a definição sublinhada palavra por palavra, e o exame que não entra nela."""
+    p = [svg_abre(1664, 420, "A definição escrita em uma linha, com cada trecho sublinhado e uma nota embaixo: queda de desempenho, pressupõe um antes medido; inexplicada, obriga o diferencial; apesar de repouso adequado, carga bem reduzida por semanas; com sintomas, fadiga, sono, humor, apetite, infecções; outras causas afastadas, diagnóstico de exclusão. À parte, riscado: nenhum exame, nenhum hormônio, nenhuma razão entre marcadores")]
+    trechos = [("Queda de desempenho", "pressupõe um “antes” medido", TINTA, 0, 10, 400),
+               ("inexplicada,", "obriga o diferencial", FOSF, 440, 10, 260),
+               ("apesar de repouso adequado,", "carga bem reduzida por semanas", TINTA, 740, 10, 520),
+               ("com sintomas,", "fadiga, sono, humor, apetite, infecções", TINTA, 0, 230, 330),
+               ("outras causas afastadas", "diagnóstico de exclusão", FOSF, 370, 230, 440)]
+    rs = []
+    for t, d, cor, x, y, w in trechos:
+        rs.append(rot(x, y, t, w=w, tam=32, cor=cor, peso=700, serif=True))
+        p.append(f'<line x1="{x}" y1="{y+52}" x2="{x+w-20}" y2="{y+52}" stroke="{cor}" stroke-width="5"/>')
+        p.append(f'<line x1="{x+20}" y1="{y+56}" x2="{x+20}" y2="{y+86}" stroke="{cor}" stroke-width="2"/>')
+        rs.append(rot(x + 30, y + 78, d, w=w - 30, tam=24, cor=TINTA, lh=1.2))
+    p.append(caixa(1100, 220, 564, 170, GLIC, GLIC_T, esp=3, rx=16))
+    p.append(icone("t:droplet", 1124, 250, 56, GLIC))
+    p.append(f'<line x1="1120" y1="310" x2="1190" y2="246" stroke="{FOSF}" stroke-width="6"/>')
+    rs += [rot(1200, 242, "Nenhum exame", w=440, tam=28, cor=GLIC, peso=700, serif=True),
+           rot(1200, 290, "nenhum hormônio, nenhuma razão entre marcadores", w=440, tam=22, cor=TINTA, lh=1.25)]
+    return slide("criterio", 420, p, rs,
+                 eyebrow="O que existe como critério", titulo="Cada palavra carrega trabalho",
+                 fonte="Meeusen e colaboradores, consenso ECSS e ACSM 2013")
+
+
+def exame_ot():
+    """3.8: muitas publicações e poucos instrumentos, e por que validar é tão difícil."""
+    p = [svg_abre(1664, 420, "À esquerda, uma pilha alta de publicações sobre o tema ao lado de uma pilha baixa de instrumentos válidos; mais de vinte anos depois, mudou pouco. À direita, a linha do tempo de por que validar é difícil: seria preciso medir antes do quadro, mas ninguém sabe quem vai entrar nele; o quadro aparece; o padrão-ouro só confirma olhando para trás. Embaixo, dois testes separados por quatro horas: protocolo de pesquisa hormonal, não de consultório"), defs(MUDO)]
+    for k in range(12):
+        p.append(f'<rect x="{40 + (k % 2) * 6}" y="{330 - k * 26}" width="200" height="22" rx="3" fill="{AZUL_T}" stroke="{AZUL}" stroke-width="2"/>')
+    for k in range(2):
+        p.append(f'<rect x="320" y="{330 - k * 26}" width="200" height="22" rx="3" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"/>')
+    rs = [rot(20, 364, "publicações sobre o tema", w=240, tam=22, cor=AZUL, peso=700, alinha="center", lh=1.2),
+          rot(300, 364, "instrumentos válidos", w=240, tam=22, cor=OXID, peso=700, alinha="center", lh=1.2),
+          rot(300, 200, "mais de vinte anos depois, mudou pouco", w=280, tam=22, cor=TINTA, lh=1.25)]
+    # linha do tempo
+    X0 = 700
+    p.append(f'<line x1="{X0}" y1="120" x2="1640" y2="120" stroke="{MUDO}" stroke-width="3" marker-end="url(#m0)"/>')
+    marcos = [(X0 + 60, "medir antes do quadro", "ninguém sabe quem vai entrar nele", True),
+              (X0 + 420, "o quadro aparece", "", False),
+              (X0 + 760, "o padrão-ouro confirma", "olhando para trás", False)]
+    for x, t, d, falta in marcos:
+        if falta:
+            p.append(f'<circle cx="{x}" cy="120" r="18" fill="{CARTAO}" stroke="{FOSF}" stroke-width="4" stroke-dasharray="6 5"/>')
+        else:
+            p.append(f'<circle cx="{x}" cy="120" r="18" fill="{TINTA}"/>')
+        rs.append(rot(x - 140, 20, t, w=280, tam=22, cor=FOSF if falta else TINTA, peso=700, alinha="center", lh=1.15))
+        if d:
+            rs.append(rot(x - 140, 150, d, w=280, tam=20, cor=TINTA, alinha="center", lh=1.2))
+    p.append(caixa(X0, 250, 964, 150, TINTA, PAPEL, esp=2, rx=16))
+    p.append(icone("t:clock", X0 + 24, 290, 60, TINTA))
+    rs += [rot(X0 + 104, 268, "dois testes com 4 horas de intervalo", w=830, tam=26, cor=TINTA, peso=700),
+           rot(X0 + 104, 318, "protocolo de pesquisa hormonal, não de consultório", w=830, tam=22, cor=MUDO)]
+    return slide("exame", 420, p, rs,
+                 eyebrow="Uma revisão de 2002", titulo="“Que ferramentas diagnósticas nós temos?”",
+                 destaque="Painel que “diagnostica overtraining” vende o que não existe. Relação testosterona-cortisol: reconhecer, não decidir.",
+                 destaque_cor="ambar", fonte="Urhausen e Kindermann, Sports Medicine 2002 · Meeusen e colaboradores 2013")
+
+
+def instrumentos():
+    """3.8: três instrumentos sem sangue, cada um com o seu desenho, e o histórico de carga acima deles."""
+    p = [svg_abre(1664, 440, "Três instrumentos, nenhum de sangue. Teste padronizado repetido: o mesmo percurso, com o tempo anotado em datas. Esforço para carga fixa: a mesma carga com a percepção de esforço subindo semana a semana. Humor e recuperação: questionário validado com mais fadiga e menos vigor. Em cima dos três, o histórico de carga escrito, que vale mais: às vezes a carga não mudou, mudou a vida")]
+    p.append(caixa(0, 0, 1664, 110, TINTA, PAPEL, esp=3, rx=16))
+    p.append(icone("t:notebook", 24, 24, 62, TINTA))
+    rs = [rot(110, 16, "O histórico de carga escrito vale mais que os três", w=1520, tam=28, cor=TINTA, peso=700, serif=True),
+          rot(110, 62, "às vezes a carga não mudou; mudou a vida", w=1520, tam=22, cor=MUDO)]
+    W = 528
+    tits = [("Teste padronizado repetido", "mesmo percurso ou carga, mesma condição"),
+            ("Esforço para carga fixa", "mesma carga, percepção subindo por semanas"),
+            ("Humor e recuperação", "questionários validados: mais fadiga, menos vigor")]
+    for j, (t, d) in enumerate(tits):
+        x = j * (W + 40)
+        p.append(caixa(x, 140, W, 300, OXID, CARTAO, esp=3, rx=16))
+        rs += [rot(x + 24, 154, t, w=W - 48, tam=26, cor=OXID, peso=700, serif=True),
+               rot(x + 24, 196, d, w=W - 48, tam=20, cor=TINTA, lh=1.2)]
+    # 1: tempos em datas
+    x = 0
+    for k, v in enumerate([0, 4, 10, 18]):
+        p.append(f'<rect x="{x + 60 + k * 110}" y="{400 - 80 - v}" width="70" height="{80 + v}" rx="4" fill="{AZUL}"/>')
+        rs.append(rot(x + 40 + k * 110, 404, f"sem {1 + k * 2}", w=110, tam=18, cor=MUDO, alinha="center"))
+    rs.append(rot(x + 30, 250, "tempo no mesmo percurso, subindo", w=460, tam=20, cor=AZUL, peso=700))
+    # 2: percepção subindo
+    x = W + 40
+    pts = [(0, 30), (1, 34), (2, 46), (3, 62), (4, 80)]
+    d = "M" + " L".join(f"{x + 60 + a * 100} {390 - b * 1.6:.0f}" for a, b in pts)
+    p.append(f'<line x1="{x+60}" y1="390" x2="{x+480}" y2="390" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<path d="{d}" fill="none" stroke="{FOSF}" stroke-width="6" stroke-linejoin="round"/>')
+    rs += [rot(x + 60, 400, "semanas, carga fixa", w=420, tam=18, cor=MUDO, alinha="center"),
+           rot(x + 30, 250, "percepção de esforço, subindo", w=460, tam=20, cor=FOSF, peso=700)]
+    # 3: questionário
+    x = 2 * (W + 40)
+    for k, (t, v, cor) in enumerate([("fadiga", 0.85, FOSF), ("vigor", 0.25, OXID), ("sono", 0.4, AZUL)]):
+        y = 270 + k * 50
+        rs.append(rot(x + 30, y - 4, t, w=100, tam=20, cor=TINTA))
+        p.append(f'<rect x="{x+140}" y="{y}" width="340" height="18" rx="9" fill="{CINZA}"/>')
+        p.append(f'<rect x="{x+140}" y="{y}" width="{340 * v:.0f}" height="18" rx="9" fill="{cor}"/>')
+    return slide("instrumentos", 440, p, rs,
+                 eyebrow="O que funciona", titulo="Três instrumentos, nenhum de sangue",
+                 fonte="Esquemas, sem valores medidos")
+
+
+def subjetivo():
+    """3.8: a mesma carga, e quem acusou primeiro: as medidas subjetivas ou as objetivas."""
+    p = [svg_abre(1664, 420, "No alto, um aumento de carga. Embaixo, duas colunas de medidas acompanhando essa carga. Medidas subjetivas: bem-estar, sono percebido, dor muscular, estresse e humor, com os indicadores acesos, porque responderam à carga de forma mais sensível e consistente. Objetivas habituais: frequência cardíaca de repouso e marcadores de sangue, com os indicadores mais apagados, porque responderam menos"), defs(TINTA)]
+    p.append(f'<path d="M 0 90 L 500 90 L 560 20 L 1664 20 L 1664 90 Z" fill="{GLIC_T}"/>')
+    p.append(f'<path d="M 0 90 L 500 90 L 560 20 L 1664 20" fill="none" stroke="{GLIC}" stroke-width="5"/>')
+    rs = [rot(20, 40, "a carga aumenta", w=400, tam=22, cor=GLIC, peso=700)]
+    cols = [(0, "Medidas subjetivas", OXID, OXID_T, [("t:mood-smile", "bem-estar"), ("t:bed", "sono percebido"), ("t:barbell", "dor muscular"), ("t:brain", "estresse"), ("t:mood-neutral", "humor")], 5,
+             "responderam à carga de forma mais sensível e consistente"),
+            (872, "Objetivas habituais", MUDO, PAPEL, [("t:heartbeat", "frequência cardíaca de repouso"), ("t:droplet", "marcadores de sangue")], 2, "responderam menos")]
+    for x, t, cor, fundo, itens, acesos, nota in cols:
+        p.append(caixa(x, 120, 792, 300, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 24, 132, t, w=740, tam=28, cor=cor, peso=700, serif=True))
+        for k, (ic, it) in enumerate(itens):
+            cx = x + 24 + (k % 3) * 250
+            cy = 186 + (k // 3) * 80
+            p.append(icone(ic, cx, cy, 40, cor))
+            rs.append(rot(cx + 50, cy + 6, it, w=190, tam=21, cor=TINTA, lh=1.15))
+        for k in range(5):
+            on = (k < 4) if cor == OXID else (k < 1)
+            p.append(f'<rect x="{x + 24 + k * 44}" y="360" width="36" height="36" rx="6" fill="{cor if on else CINZA}"/>')
+        rs.append(rot(x + 260, 356, nota, w=510, tam=22, cor=cor if cor == OXID else TINTA, peso=700, lh=1.2))
+    return slide("subjetivo", 420, p, rs,
+                 eyebrow="Uma revisão sistemática, 2016", titulo="A pergunta bem feita supera o exame",
+                 destaque="O problema não é que falte instrumento. É que o instrumento que funciona não parece instrumento.",
+                 destaque_cor="petr", fonte="Saw, Main e Gastin, British Journal of Sports Medicine 2016 · indicadores: esquema, sem valores medidos")
+
+
+def saidas_ot():
+    """3.8: manter só sob condição, ou o teste de descarga desenhado em barras de carga."""
+    p = [svg_abre(1664, 420, "À esquerda, a saída A, manter a carga como se fosse funcional: só com sobrecarga planejada e curta, e descarga real que a vida permite cumprir; faltou uma, está fora. À direita, a saída B, o teste de descarga: barras de carga semanal com três semanas bem reduzidas mas não zeradas, frequência e alguma intensidade curta mantidas, e os marcadores anotados antes de começar"), defs(TINTA)]
+    p.append(caixa(0, 0, 600, 420, FOSF, FOSF_T, esp=3, rx=16))
+    rs = [rot(24, 16, "A: manter, como se fosse funcional", w=560, tam=26, cor=FOSF, peso=700, serif=True, lh=1.15)]
+    cond = ["sobrecarga planejada e curta", "descarga real que a vida permite cumprir"]
+    for k, t in enumerate(cond):
+        y = 110 + k * 90
+        p.append(f'<rect x="24" y="{y}" width="40" height="40" rx="8" fill="{CARTAO}" stroke="{FOSF}" stroke-width="3"/>')
+        rs.append(rot(80, y + 4, t, w=500, tam=24, cor=TINTA, lh=1.2))
+    rs += [rot(24, 70, "só com as duas:", w=560, tam=22, cor=MUDO),
+           rot(24, 300, "faltou uma: está fora", w=560, tam=28, cor=FOSF, peso=700, serif=True)]
+    # B
+    x0 = 660
+    rs.append(rot(x0, 0, "B: o teste de descarga", w=1004, tam=28, cor=OXID, peso=700, serif=True))
+    cargas = [100, 105, 110, 108, 45, 45, 45, None]
+    for k, c in enumerate(cargas):
+        x = x0 + 40 + k * 120
+        if c is None:
+            p.append(f'<rect x="{x}" y="120" width="80" height="210" rx="6" fill="none" stroke="{MUDO}" stroke-width="2" stroke-dasharray="8 6"/>')
+            rs.append(rot(x - 20, 180, "reavaliar", w=120, tam=20, cor=MUDO, alinha="center"))
+        else:
+            h = c * 1.9
+            p.append(f'<rect x="{x}" y="{330 - h:.0f}" width="80" height="{h:.0f}" rx="6" fill="{GLIC if k < 4 else OXID}"/>')
+        rs.append(rot(x - 20, 338, f"sem {k + 1}", w=120, tam=18, cor=MUDO, alinha="center"))
+    p.append(f'<line x1="{x0 + 520}" y1="60" x2="{x0 + 520}" y2="330" stroke="{TINTA}" stroke-width="3"{TRACO}/>')
+    p.append(icone("t:notebook", x0 + 490, 60, 44, TINTA))
+    rs += [rot(x0 + 540, 60, "marcadores anotados antes", w=400, tam=22, cor=TINTA, peso=700),
+           rot(x0 + 540, 96, "2 a 3 semanas: bem reduzida, não zerada", w=440, tam=20, cor=OXID, peso=700, lh=1.2),
+           rot(x0, 376, "frequência e alguma intensidade curta mantidas", w=1004, tam=22, cor=TINTA)]
+    return slide("saidas", 420, p, rs,
+                 eyebrow="A encruzilhada", titulo="Manter a carga, ou reduzir e reavaliar",
+                 destaque="Avise que os primeiros dias vão ser ruins. Sem aviso, a pessoa abandona no terceiro dia achando que precisava treinar mais.",
+                 destaque_cor="ambar", fonte="Barras: esquema, sem valores medidos")
+
+
+def criterioC():
+    """3.8: as bandeiras que mandam investigar antes, e o que reavaliar em quatro a seis semanas."""
+    p = [svg_abre(1664, 420, "À esquerda, a saída C, investigar antes de mexer, com quatro bandeiras: perda de peso sem intenção, febre, suor noturno; gânglios, falta de ar desproporcional, dor no peito; palpitação com sensação de desmaio, ideação suicida; fadiga de meses sem mudança de carga. À direita, uma régua de seis semanas com a reavaliação marcada entre a quarta e a sexta: esforço na mesma sessão, qualidade do sono, vigor e motivação numa escala simples, teste padronizado com data")]
+    p.append(caixa(0, 0, 800, 420, FOSF, FOSF_T, esp=3, rx=16))
+    rs = [rot(24, 16, "C: investigar antes de mexer", w=750, tam=28, cor=FOSF, peso=700, serif=True)]
+    band = [("t:scale", "perda de peso sem intenção, febre, suor noturno"), ("t:heartbeat", "gânglios, falta de ar desproporcional, dor no peito"),
+            ("t:alert-triangle", "palpitação com sensação de desmaio, ideação suicida"), ("t:calendar", "fadiga de meses sem mudança de carga")]
+    for k, (ic, t) in enumerate(band):
+        y = 76 + k * 84
+        p.append(icone("t:flag", 24, y + 4, 40, FOSF))
+        p.append(icone(ic, 72, y + 4, 40, FOSF))
+        rs.append(rot(128, y + 4, t, w=650, tam=23, cor=TINTA, lh=1.2))
+    X0, X1 = 900, 1640
+    rs.append(rot(864, 0, "Reavaliar em 4 a 6 semanas", w=800, tam=28, cor=OXID, peso=700, serif=True))
+    p.append(f'<line x1="{X0}" y1="110" x2="{X1}" y2="110" stroke="{MUDO}" stroke-width="3"/>')
+    for k in range(7):
+        x = X0 + k * (X1 - X0) / 6
+        p.append(f'<line x1="{x:.0f}" y1="100" x2="{x:.0f}" y2="120" stroke="{MUDO}" stroke-width="3"/>')
+        rs.append(rot(x - 30, 124, str(k), w=60, tam=20, cor=MUDO, alinha="center"))
+    xa, xb = X0 + 4 * (X1 - X0) / 6, X1
+    p.append(f'<rect x="{xa:.0f}" y="90" width="{xb - xa:.0f}" height="40" rx="10" fill="{OXID}" fill-opacity="0.25"/>')
+    rs.append(rot(X0, 60, "semanas", w=200, tam=20, cor=MUDO))
+    marc = ["esforço na mesma sessão", "qualidade do sono", "vigor e motivação numa escala simples", "teste padronizado, com data"]
+    for k, t in enumerate(marc):
+        y = 180 + k * 60
+        p.append(f'<rect x="{X0 - 36}" y="{y+2}" width="32" height="32" rx="6" fill="{CARTAO}" stroke="{OXID}" stroke-width="3"/>')
+        p.append(icone("t:check", X0 - 34, y + 4, 28, OXID))
+        rs.append(rot(X0 + 10, y + 2, t, w=740, tam=23, cor=TINTA))
+    return slide("criterioC", 420, p, rs,
+                 eyebrow="Saída C e o critério", titulo="B e C em paralelo; A precisa ser justificada",
+                 destaque="A primeira conduta é a mesma nos três estados, e reduzir carga não atrapalha investigação nenhuma.",
+                 destaque_cor="petr")
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"03-01": [laudos, pares, anamnese, ficha, cinco],
@@ -1051,7 +1428,9 @@ LICOES = {"03-01": [laudos, pares, anamnese, ficha, cinco],
           "03-03": [origem, efeitos, beta, limites],
           "03-04": [pedido, verdades, estradiol, saidaA, saidaC, criterio],
           "03-05": [portas, auditar, acionaveis, escondem, exame, dizer, roteiro],
-          "03-06": [enquadre, dosar, jejum, secretagogo, apneia, condutas]}
+          "03-06": [enquadre, dosar, jejum, secretagogo, apneia, condutas],
+          "03-07": [laudo, padrao, discriminador, pedir, roteiro_tireoide],
+          "03-08": [retro, criterio_ot, exame_ot, instrumentos, subjetivo, saidas_ot, criterioC]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

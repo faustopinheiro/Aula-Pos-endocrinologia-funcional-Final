@@ -145,6 +145,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Ceticismo não; ordem", "t
                     {"t": "Quem acompanha toda semana", "x": "Sabe do déficit, do carboidrato cortado, do volume que subiu, e há quanto tempo."}],
           "quem": "Com essa informação escrita no encaminhamento, o caminho mais fácil passa a ser o certo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-07")
+
 spec = {"arquivo": "aulas/MOD03/03-07-tireoide-e-exercicio.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Função tireoidiana no praticante de exercício", "subtitulo": "Interpretação laboratorial",

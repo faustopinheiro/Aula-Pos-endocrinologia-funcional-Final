@@ -144,6 +144,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Cinco eixos na mesma dire�
                     {"t": "Todo mundo", "x": "Reconhece os seis primeiros degraus da escada."}],
           "quem": "Entre o primeiro degrau e o sétimo está a janela em que isso ainda é barato de resolver."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-08")
+
 spec = {"arquivo": "aulas/MOD03/03-08-excesso-de-treinamento.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Excesso de treinamento", "subtitulo": "Overreaching funcional, não funcional e síndrome do overtraining",

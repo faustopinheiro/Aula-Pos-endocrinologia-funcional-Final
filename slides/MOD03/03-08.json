@@ -152,11 +152,83 @@
   },
   {
    "id": "retro",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"Um ponto marca o dia da consulta: pessoa cansada, desempenho caindo. Dele saem três curvas de volta ao normal: uma em cerca de dez dias, outra em semanas, outra em dez meses. Até o dia da consulta, as três são iguais; depois, uma área cinzenta com um ponto de interrogação: naquele dia não há como saber qual delas é. A primeira conduta é parecida nas três\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><line x1=\"60\" y1=\"70\" x2=\"1640\" y2=\"70\" stroke=\"#C9CFD4\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><path d=\"M 60 70 C 180 70, 260 330, 360 330\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\"/><circle cx=\"360\" cy=\"330\" r=\"16\" fill=\"#12202E\"/><rect x=\"376\" y=\"20\" width=\"1264\" height=\"340\" fill=\"#6B7A87\" fill-opacity=\"0.07\"/><path d=\"M 360 330 C 410.0 330, 420.0 70, 460 70\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><circle cx=\"460\" cy=\"70\" r=\"10\" fill=\"#008A7E\"/><path d=\"M 360 330 C 590.0 330, 636.0 70, 820 70\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\"/><circle cx=\"820\" cy=\"70\" r=\"10\" fill=\"#B07A1C\"/><path d=\"M 360 330 C 960.0 330, 1080.0 70, 1560 70\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/><circle cx=\"1560\" cy=\"70\" r=\"10\" fill=\"#A8322A\"/><g transform=\"translate(1100.0 150.0) scale(4.5833)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 200,
+     "y": 360,
+     "w": 480,
+     "t": "hoje, na consulta: cansaço, desempenho caindo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 60,
+     "y": 30,
+     "w": 400,
+     "t": "o desempenho de antes",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 26,
+     "w": 280,
+     "t": "cerca de dez dias",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 26,
+     "w": 280,
+     "t": "semanas",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1420,
+     "y": 26,
+     "w": 280,
+     "t": "dez meses",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 280,
+     "w": 560,
+     "t": "só se sabe olhando para trás",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "A coisa mais importante da aula",
-   "frase": "O diagnóstico é retrospectivo.",
-   "apoio": "Na consulta há uma pessoa cansada, com desempenho caindo. Não há como saber, naquele dia, se ela volta em dez dias ou em dez meses. A boa notícia: a primeira conduta é parecida nos três."
+   "titulo": "O diagnóstico é retrospectivo",
+   "destaque": "A boa notícia: a primeira conduta é parecida nos três.",
+   "destaque_cor": "petr",
+   "fonte": "Esquema, sem valores medidos"
   },
   {
    "id": "funcional",
@@ -239,122 +311,635 @@
   },
   {
    "id": "criterio",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O que existe como critério",
-   "titulo": "Cada palavra carrega trabalho",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A definição escrita em uma linha, com cada trecho sublinhado e uma nota embaixo: queda de desempenho, pressupõe um antes medido; inexplicada, obriga o diferencial; apesar de repouso adequado, carga bem reduzida por semanas; com sintomas, fadiga, sono, humor, apetite, infecções; outras causas afastadas, diagnóstico de exclusão. À parte, riscado: nenhum exame, nenhum hormônio, nenhuma razão entre marcadores\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"0\" y1=\"62\" x2=\"380\" y2=\"62\" stroke=\"#12202E\" stroke-width=\"5\"/><line x1=\"20\" y1=\"66\" x2=\"20\" y2=\"96\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"440\" y1=\"62\" x2=\"680\" y2=\"62\" stroke=\"#A8322A\" stroke-width=\"5\"/><line x1=\"460\" y1=\"66\" x2=\"460\" y2=\"96\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"740\" y1=\"62\" x2=\"1240\" y2=\"62\" stroke=\"#12202E\" stroke-width=\"5\"/><line x1=\"760\" y1=\"66\" x2=\"760\" y2=\"96\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"282\" x2=\"310\" y2=\"282\" stroke=\"#12202E\" stroke-width=\"5\"/><line x1=\"20\" y1=\"286\" x2=\"20\" y2=\"316\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"370\" y1=\"282\" x2=\"790\" y2=\"282\" stroke=\"#A8322A\" stroke-width=\"5\"/><line x1=\"390\" y1=\"286\" x2=\"390\" y2=\"316\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1100\" y=\"220\" width=\"564\" height=\"170\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1124.0 250.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><line x1=\"1120\" y1=\"310\" x2=\"1190\" y2=\"246\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 10,
+     "w": 400,
      "t": "Queda de desempenho",
-     "x": "pressupõe um “antes” medido",
-     "cor": "tinta"
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Inexplicada",
-     "x": "obriga o diferencial",
-     "cor": "verm"
+     "x": 30,
+     "y": 88,
+     "w": 370,
+     "t": "pressupõe um “antes” medido",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "t": "Apesar de repouso adequado",
-     "x": "carga bem reduzida por semanas",
-     "cor": "tinta"
+     "x": 440,
+     "y": 10,
+     "w": 260,
+     "t": "inexplicada,",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Com sintomas",
-     "x": "fadiga, sono, humor, apetite, infecções",
-     "cor": "tinta"
+     "x": 470,
+     "y": 88,
+     "w": 230,
+     "t": "obriga o diferencial",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "t": "Outras causas afastadas",
-     "x": "diagnóstico de exclusão",
-     "cor": "verm"
+     "x": 740,
+     "y": 10,
+     "w": 520,
+     "t": "apesar de repouso adequado,",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 770,
+     "y": 88,
+     "w": 490,
+     "t": "carga bem reduzida por semanas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 330,
+     "t": "com sintomas,",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 308,
+     "w": 300,
+     "t": "fadiga, sono, humor, apetite, infecções",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 370,
+     "y": 230,
+     "w": 440,
+     "t": "outras causas afastadas",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 308,
+     "w": 410,
+     "t": "diagnóstico de exclusão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1200,
+     "y": 242,
+     "w": 440,
      "t": "Nenhum exame",
-     "x": "nenhum hormônio, nenhuma razão entre marcadores",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 290,
+     "w": 440,
+     "t": "nenhum hormônio, nenhuma razão entre marcadores",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O que existe como critério",
+   "titulo": "Cada palavra carrega trabalho",
    "fonte": "Meeusen e colaboradores, consenso ECSS e ACSM 2013"
   },
   {
    "id": "exame",
-   "tipo": "duas",
-   "eyebrow": "Urhausen e Kindermann, 2002",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, uma pilha alta de publicações sobre o tema ao lado de uma pilha baixa de instrumentos válidos; mais de vinte anos depois, mudou pouco. À direita, a linha do tempo de por que validar é difícil: seria preciso medir antes do quadro, mas ninguém sabe quem vai entrar nele; o quadro aparece; o padrão-ouro só confirma olhando para trás. Embaixo, dois testes separados por quatro horas: protocolo de pesquisa hormonal, não de consultório\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"40\" y=\"330\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"46\" y=\"304\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"40\" y=\"278\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"46\" y=\"252\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"40\" y=\"226\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"46\" y=\"200\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"40\" y=\"174\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"46\" y=\"148\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"40\" y=\"122\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"46\" y=\"96\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"40\" y=\"70\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"46\" y=\"44\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"320\" y=\"330\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"320\" y=\"304\" width=\"200\" height=\"22\" rx=\"3\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"700\" y1=\"120\" x2=\"1640\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"760\" cy=\"120\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"6 5\"/><circle cx=\"1120\" cy=\"120\" r=\"18\" fill=\"#12202E\"/><circle cx=\"1460\" cy=\"120\" r=\"18\" fill=\"#12202E\"/><rect x=\"700\" y=\"250\" width=\"964\" height=\"150\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(724.0 290.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 364,
+     "w": 240,
+     "t": "publicações sobre o tema",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 300,
+     "y": 364,
+     "w": 240,
+     "t": "instrumentos válidos",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 300,
+     "y": 200,
+     "w": 280,
+     "t": "mais de vinte anos depois, mudou pouco",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 20,
+     "w": 280,
+     "t": "medir antes do quadro",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 620,
+     "y": 150,
+     "w": 280,
+     "t": "ninguém sabe quem vai entrar nele",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 980,
+     "y": 20,
+     "w": 280,
+     "t": "o quadro aparece",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1320,
+     "y": 20,
+     "w": 280,
+     "t": "o padrão-ouro confirma",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1320,
+     "y": 150,
+     "w": 280,
+     "t": "olhando para trás",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 804,
+     "y": 268,
+     "w": 830,
+     "t": "dois testes com 4 horas de intervalo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 318,
+     "w": 830,
+     "t": "protocolo de pesquisa hormonal, não de consultório",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma revisão de 2002",
    "titulo": "“Que ferramentas diagnósticas nós temos?”",
-   "esq": {
-    "t": "A resposta",
-    "cor": "verm",
-    "itens": [
-     "muitas publicações sobre o tema",
-     "poucos instrumentos válidos",
-     "mais de vinte anos depois, mudou pouco"
-    ]
-   },
-   "dir": {
-    "t": "O porquê",
-    "cor": "tinta",
-    "itens": [
-     "validar exige medir antes do quadro",
-     "o padrão-ouro é retrospectivo",
-     "dois testes com 4 horas: protocolo de pesquisa hormonal"
-    ]
-   },
    "destaque": "Painel que “diagnostica overtraining” vende o que não existe. Relação testosterona-cortisol: reconhecer, não decidir.",
    "destaque_cor": "ambar",
-   "fonte": "Sports Medicine 2002 · Meeusen e colaboradores 2013"
+   "fonte": "Urhausen e Kindermann, Sports Medicine 2002 · Meeusen e colaboradores 2013"
   },
   {
    "id": "instrumentos",
-   "tipo": "cards",
-   "eyebrow": "O que funciona",
-   "titulo": "Três instrumentos, nenhum de sangue",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três instrumentos, nenhum de sangue. Teste padronizado repetido: o mesmo percurso, com o tempo anotado em datas. Esforço para carga fixa: a mesma carga com a percepção de esforço subindo semana a semana. Humor e recuperação: questionário validado com mais fadiga e menos vigor. Em cima dos três, o histórico de carga escrito, que vale mais: às vezes a carga não mudou, mudou a vida\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(24.0 24.0) scale(2.5833)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"0\" y=\"140\" width=\"528\" height=\"300\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"568\" y=\"140\" width=\"528\" height=\"300\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1136\" y=\"140\" width=\"528\" height=\"300\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"60\" y=\"320\" width=\"70\" height=\"80\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"170\" y=\"316\" width=\"70\" height=\"84\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"280\" y=\"310\" width=\"70\" height=\"90\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"390\" y=\"302\" width=\"70\" height=\"98\" rx=\"4\" fill=\"#3A6EA5\"/><line x1=\"628\" y1=\"390\" x2=\"1048\" y2=\"390\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M628 342 L728 336 L828 316 L928 291 L1028 262\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"1276\" y=\"270\" width=\"340\" height=\"18\" rx=\"9\" fill=\"#C9CFD4\"/><rect x=\"1276\" y=\"270\" width=\"289\" height=\"18\" rx=\"9\" fill=\"#A8322A\"/><rect x=\"1276\" y=\"320\" width=\"340\" height=\"18\" rx=\"9\" fill=\"#C9CFD4\"/><rect x=\"1276\" y=\"320\" width=\"85\" height=\"18\" rx=\"9\" fill=\"#008A7E\"/><rect x=\"1276\" y=\"370\" width=\"340\" height=\"18\" rx=\"9\" fill=\"#C9CFD4\"/><rect x=\"1276\" y=\"370\" width=\"136\" height=\"18\" rx=\"9\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
     {
+     "x": 110,
+     "y": 16,
+     "w": 1520,
+     "t": "O histórico de carga escrito vale mais que os três",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 62,
+     "w": 1520,
+     "t": "às vezes a carga não mudou; mudou a vida",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 154,
+     "w": 480,
      "t": "Teste padronizado repetido",
-     "x": "mesmo percurso ou carga, mesma condição; a sessão de sábado depois da de sexta",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 196,
+     "w": 480,
+     "t": "mesmo percurso ou carga, mesma condição",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 592,
+     "y": 154,
+     "w": 480,
      "t": "Esforço para carga fixa",
-     "x": "mesma carga, percepção subindo por semanas",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 196,
+     "w": 480,
+     "t": "mesma carga, percepção subindo por semanas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1160,
+     "y": 154,
+     "w": 480,
      "t": "Humor e recuperação",
-     "x": "questionários validados: mais fadiga, menos vigor",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 196,
+     "w": 480,
+     "t": "questionários validados: mais fadiga, menos vigor",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 40,
+     "y": 404,
+     "w": 110,
+     "t": "sem 1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 150,
+     "y": 404,
+     "w": 110,
+     "t": "sem 3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 404,
+     "w": 110,
+     "t": "sem 5",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 404,
+     "w": 110,
+     "t": "sem 7",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 250,
+     "w": 460,
+     "t": "tempo no mesmo percurso, subindo",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 628,
+     "y": 400,
+     "w": 420,
+     "t": "semanas, carga fixa",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 598,
+     "y": 250,
+     "w": 460,
+     "t": "percepção de esforço, subindo",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 266,
+     "w": 100,
+     "t": "fadiga",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 316,
+     "w": 100,
+     "t": "vigor",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 366,
+     "w": 100,
+     "t": "sono",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "E o que vale mais que os três: o histórico de carga escrito. Às vezes a carga não mudou. Mudou a vida.",
-   "destaque_cor": "tinta"
+   "eyebrow": "O que funciona",
+   "titulo": "Três instrumentos, nenhum de sangue",
+   "fonte": "Esquemas, sem valores medidos"
   },
   {
    "id": "subjetivo",
-   "tipo": "duas",
-   "eyebrow": "Saw, Main e Gastin, 2016",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"No alto, um aumento de carga. Embaixo, duas colunas de medidas acompanhando essa carga. Medidas subjetivas: bem-estar, sono percebido, dor muscular, estresse e humor, com os indicadores acesos, porque responderam à carga de forma mais sensível e consistente. Objetivas habituais: frequência cardíaca de repouso e marcadores de sangue, com os indicadores mais apagados, porque responderam menos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 0 90 L 500 90 L 560 20 L 1664 20 L 1664 90 Z\" fill=\"#F4EAD6\"/><path d=\"M 0 90 L 500 90 L 560 20 L 1664 20\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\"/><rect x=\"0\" y=\"120\" width=\"792\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 186.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01\"/><path d=\"M9.5 15a3.5 3.5 0 0 0 5 0\"/></g></g><g transform=\"translate(274.0 186.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m17 8v-3H2m0-6v9m10-3h10v-2a3 3 0 0 0-3-3h-7z\"/></g><g transform=\"translate(524.0 186.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><g transform=\"translate(24.0 266.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><g transform=\"translate(274.0 266.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01\"/></g><rect x=\"24\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"68\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"112\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"156\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"200\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"872\" y=\"120\" width=\"792\" height=\"300\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(896.0 186.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(1146.0 186.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"896\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#6B7A87\"/><rect x=\"940\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"984\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"1028\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"1072\" y=\"360\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#C9CFD4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 40,
+     "w": 400,
+     "t": "a carga aumenta",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 132,
+     "w": 740,
+     "t": "Medidas subjetivas",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 74,
+     "y": 192,
+     "w": 190,
+     "t": "bem-estar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 324,
+     "y": 192,
+     "w": 190,
+     "t": "sono percebido",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 574,
+     "y": 192,
+     "w": 190,
+     "t": "dor muscular",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 74,
+     "y": 272,
+     "w": 190,
+     "t": "estresse",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 324,
+     "y": 272,
+     "w": 190,
+     "t": "humor",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 260,
+     "y": 356,
+     "w": 510,
+     "t": "responderam à carga de forma mais sensível e consistente",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 896,
+     "y": 132,
+     "w": 740,
+     "t": "Objetivas habituais",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 946,
+     "y": 192,
+     "w": 190,
+     "t": "frequência cardíaca de repouso",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1196,
+     "y": 192,
+     "w": 190,
+     "t": "marcadores de sangue",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1132,
+     "y": 356,
+     "w": 510,
+     "t": "responderam menos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Uma revisão sistemática, 2016",
    "titulo": "A pergunta bem feita supera o exame",
-   "esq": {
-    "t": "Medidas subjetivas",
-    "cor": "petr",
-    "itens": [
-     "bem-estar, sono percebido",
-     "dor muscular, estresse, humor",
-     "responderam à carga de forma mais sensível e consistente"
-    ]
-   },
-   "dir": {
-    "t": "Objetivas habituais",
-    "cor": "tinta",
-    "itens": [
-     "frequência cardíaca de repouso",
-     "marcadores de sangue",
-     "responderam menos"
-    ]
-   },
    "destaque": "O problema não é que falte instrumento. É que o instrumento que funciona não parece instrumento.",
    "destaque_cor": "petr",
-   "fonte": "British Journal of Sports Medicine 2016 · revisão sistemática de estudos com as duas medidas em paralelo"
+   "fonte": "Saw, Main e Gastin, British Journal of Sports Medicine 2016 · indicadores: esquema, sem valores medidos"
   },
   {
    "id": "escada",
@@ -468,55 +1053,427 @@
   },
   {
    "id": "saidas",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, a saída A, manter a carga como se fosse funcional: só com sobrecarga planejada e curta, e descarga real que a vida permite cumprir; faltou uma, está fora. À direita, a saída B, o teste de descarga: barras de carga semanal com três semanas bem reduzidas mas não zeradas, frequência e alguma intensidade curta mantidas, e os marcadores anotados antes de começar\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"600\" height=\"420\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"24\" y=\"110\" width=\"40\" height=\"40\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"24\" y=\"200\" width=\"40\" height=\"40\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"700\" y=\"140\" width=\"80\" height=\"190\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"820\" y=\"130\" width=\"80\" height=\"200\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"940\" y=\"121\" width=\"80\" height=\"209\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"1060\" y=\"125\" width=\"80\" height=\"205\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"1180\" y=\"244\" width=\"80\" height=\"86\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1300\" y=\"244\" width=\"80\" height=\"86\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1420\" y=\"244\" width=\"80\" height=\"86\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1540\" y=\"120\" width=\"80\" height=\"210\" rx=\"6\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"8 6\"/><line x1=\"1180\" y1=\"60\" x2=\"1180\" y2=\"330\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1150.0 60.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 560,
+     "t": "A: manter, como se fosse funcional",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 114,
+     "w": 500,
+     "t": "sobrecarga planejada e curta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 80,
+     "y": 204,
+     "w": 500,
+     "t": "descarga real que a vida permite cumprir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 70,
+     "w": 560,
+     "t": "só com as duas:",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 300,
+     "w": 560,
+     "t": "faltou uma: está fora",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 660,
+     "y": 0,
+     "w": 1004,
+     "t": "B: o teste de descarga",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 680,
+     "y": 338,
+     "w": 120,
+     "t": "sem 1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 338,
+     "w": 120,
+     "t": "sem 2",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 920,
+     "y": 338,
+     "w": 120,
+     "t": "sem 3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 338,
+     "w": 120,
+     "t": "sem 4",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 338,
+     "w": 120,
+     "t": "sem 5",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 338,
+     "w": 120,
+     "t": "sem 6",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 338,
+     "w": 120,
+     "t": "sem 7",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1520,
+     "y": 180,
+     "w": 120,
+     "t": "reavaliar",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1520,
+     "y": 338,
+     "w": 120,
+     "t": "sem 8",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 60,
+     "w": 400,
+     "t": "marcadores anotados antes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 96,
+     "w": 440,
+     "t": "2 a 3 semanas: bem reduzida, não zerada",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 660,
+     "y": 376,
+     "w": 1004,
+     "t": "frequência e alguma intensidade curta mantidas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A encruzilhada",
    "titulo": "Manter a carga, ou reduzir e reavaliar",
-   "esq": {
-    "t": "A: manter, como se fosse funcional",
-    "cor": "verm",
-    "itens": [
-     "só com sobrecarga planejada e curta",
-     "e descarga real que a vida permite cumprir",
-     "faltou uma: está fora"
-    ]
-   },
-   "dir": {
-    "t": "B: o teste de descarga",
-    "cor": "petr",
-    "itens": [
-     "carga bem reduzida, não zerada",
-     "frequência e alguma intensidade curta mantidas",
-     "2 a 3 semanas, marcadores anotados antes"
-    ]
-   },
    "destaque": "Avise que os primeiros dias vão ser ruins. Sem aviso, a pessoa abandona no terceiro dia achando que precisava treinar mais.",
-   "destaque_cor": "ambar"
+   "destaque_cor": "ambar",
+   "fonte": "Barras: esquema, sem valores medidos"
   },
   {
    "id": "criterioC",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, a saída C, investigar antes de mexer, com quatro bandeiras: perda de peso sem intenção, febre, suor noturno; gânglios, falta de ar desproporcional, dor no peito; palpitação com sensação de desmaio, ideação suicida; fadiga de meses sem mudança de carga. À direita, uma régua de seis semanas com a reavaliação marcada entre a quarta e a sexta: esforço na mesma sessão, qualidade do sono, vigor e motivação numa escala simples, teste padronizado com data\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"420\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(24.0 80.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g><g transform=\"translate(72.0 80.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><g transform=\"translate(24.0 164.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g><g transform=\"translate(72.0 164.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(24.0 248.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g><g transform=\"translate(72.0 248.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(24.0 332.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g><g transform=\"translate(72.0 332.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><line x1=\"900\" y1=\"110\" x2=\"1640\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"900\" y1=\"100\" x2=\"900\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1023\" y1=\"100\" x2=\"1023\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1147\" y1=\"100\" x2=\"1147\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1270\" y1=\"100\" x2=\"1270\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1393\" y1=\"100\" x2=\"1393\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1517\" y1=\"100\" x2=\"1517\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1640\" y1=\"100\" x2=\"1640\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"1393\" y=\"90\" width=\"247\" height=\"40\" rx=\"10\" fill=\"#008A7E\" fill-opacity=\"0.25\"/><rect x=\"864\" y=\"182\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(866.0 184.0) scale(1.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"242\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(866.0 244.0) scale(1.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"302\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(866.0 304.0) scale(1.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"362\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(866.0 364.0) scale(1.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 750,
+     "t": "C: investigar antes de mexer",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 128,
+     "y": 80,
+     "w": 650,
+     "t": "perda de peso sem intenção, febre, suor noturno",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 128,
+     "y": 164,
+     "w": 650,
+     "t": "gânglios, falta de ar desproporcional, dor no peito",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 128,
+     "y": 248,
+     "w": 650,
+     "t": "palpitação com sensação de desmaio, ideação suicida",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 128,
+     "y": 332,
+     "w": 650,
+     "t": "fadiga de meses sem mudança de carga",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 864,
+     "y": 0,
+     "w": 800,
+     "t": "Reavaliar em 4 a 6 semanas",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 870,
+     "y": 124,
+     "w": 60,
+     "t": "0",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 993,
+     "y": 124,
+     "w": 60,
+     "t": "1",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1117,
+     "y": 124,
+     "w": 60,
+     "t": "2",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 124,
+     "w": 60,
+     "t": "3",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1363,
+     "y": 124,
+     "w": 60,
+     "t": "4",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1487,
+     "y": 124,
+     "w": 60,
+     "t": "5",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1610,
+     "y": 124,
+     "w": 60,
+     "t": "6",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 60,
+     "w": 200,
+     "t": "semanas",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 182,
+     "w": 740,
+     "t": "esforço na mesma sessão",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 242,
+     "w": 740,
+     "t": "qualidade do sono",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 302,
+     "w": 740,
+     "t": "vigor e motivação numa escala simples",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 362,
+     "w": 740,
+     "t": "teste padronizado, com data",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Saída C e o critério",
    "titulo": "B e C em paralelo; A precisa ser justificada",
-   "esq": {
-    "t": "C: investigar antes de mexer",
-    "cor": "verm",
-    "itens": [
-     "perda de peso sem intenção, febre, suor noturno",
-     "gânglios, falta de ar desproporcional, dor no peito",
-     "palpitação com sensação de desmaio, ideação suicida",
-     "fadiga de meses sem mudança de carga"
-    ]
-   },
-   "dir": {
-    "t": "Reavaliar em 4 a 6 semanas",
-    "cor": "petr",
-    "itens": [
-     "esforço na mesma sessão",
-     "qualidade do sono",
-     "vigor e motivação numa escala simples",
-     "teste padronizado, com data"
-    ]
-   },
    "destaque": "A primeira conduta é a mesma nos três estados, e reduzir carga não atrapalha investigação nenhuma.",
    "destaque_cor": "petr"
   },
