@@ -145,6 +145,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O que fazer no lugar", "ti
                     {"t": "Educador físico e preparador", "x": "Reorganizam a semana, com o nutricionista no jejum."}],
           "quem": "Não prescreva nada para baixar cortisol num eixo que responde certo a um contexto que ninguém mudou."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-02")
+
 spec = {"arquivo": "aulas/MOD03/03-02-hpa-e-cortisol-no-exercicio.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Eixo hipotálamo-hipófise-adrenal e exercício", "subtitulo": "Cortisol, avaliação e equívocos frequentes",

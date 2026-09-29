@@ -26,31 +26,193 @@
  "slides": [
   {
    "id": "laudos",
-   "tipo": "cards",
-   "eyebrow": "Quatro exames",
-   "titulo": "O mesmo número, duas leituras opostas",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"Quatro laudos, cada um com o valor fora da faixa de referência: testosterona baixa num homem de quarenta e poucos anos que treina força cinco vezes por semana, TSH alterado numa corredora em restrição, cortisol fora da faixa num plantonista e IGF-1 baixo num nadador master. Embaixo de cada laudo, a pessoa e o contexto\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><rect x=\"0\" y=\"0\" width=\"392\" height=\"214\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"0\" width=\"392\" height=\"10\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"40\" y=\"132\" width=\"312\" height=\"18\" rx=\"9\" fill=\"#C9CFD4\"/><rect x=\"118\" y=\"132\" width=\"156\" height=\"18\" rx=\"0\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"77\" cy=\"141\" r=\"15\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"196\" y1=\"222\" x2=\"196\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"196\" cy=\"300\" r=\"44\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(170.0 274.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"424\" y=\"0\" width=\"392\" height=\"214\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"424\" y=\"0\" width=\"392\" height=\"10\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"464\" y=\"132\" width=\"312\" height=\"18\" rx=\"9\" fill=\"#C9CFD4\"/><rect x=\"542\" y=\"132\" width=\"156\" height=\"18\" rx=\"0\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"745\" cy=\"141\" r=\"15\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"620\" y1=\"222\" x2=\"620\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"620\" cy=\"300\" r=\"44\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(594.0 274.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"848\" y=\"0\" width=\"392\" height=\"214\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"848\" y=\"0\" width=\"392\" height=\"10\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"888\" y=\"132\" width=\"312\" height=\"18\" rx=\"9\" fill=\"#C9CFD4\"/><rect x=\"966\" y=\"132\" width=\"156\" height=\"18\" rx=\"0\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1181\" cy=\"141\" r=\"15\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"1044\" y1=\"222\" x2=\"1044\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1044\" cy=\"300\" r=\"44\" fill=\"#F7F6F2\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1018.0 274.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><rect x=\"1272\" y=\"0\" width=\"392\" height=\"214\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1272\" y=\"0\" width=\"392\" height=\"10\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"1312\" y=\"132\" width=\"312\" height=\"18\" rx=\"9\" fill=\"#C9CFD4\"/><rect x=\"1390\" y=\"132\" width=\"156\" height=\"18\" rx=\"0\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1343\" cy=\"141\" r=\"15\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"1468\" y1=\"222\" x2=\"1468\" y2=\"252\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1468\" cy=\"300\" r=\"44\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1442.0 274.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g></svg>",
+   "rotulos": [
     {
-     "t": "Testosterona baixa",
-     "x": "42 anos, musculação cinco vezes por semana",
-     "cor": "verm"
+     "x": 24,
+     "y": 28,
+     "w": 344,
+     "t": "Testosterona",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "TSH alterado",
-     "x": "corredora em restrição há meses",
-     "cor": "ambar"
+     "x": 24,
+     "y": 72,
+     "w": 344,
+     "t": "baixa",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Cortisol fora da faixa",
-     "x": "plantonista",
-     "cor": "petr"
+     "x": 118,
+     "y": 162,
+     "w": 156,
+     "t": "faixa",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "t": "IGF-1 baixo",
-     "x": "nadador master que quer recuperar melhor",
-     "cor": "tinta"
+     "x": 10,
+     "y": 356,
+     "w": 372,
+     "t": "quarenta e poucos anos, força cinco vezes por semana",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 448,
+     "y": 28,
+     "w": 344,
+     "t": "TSH",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 448,
+     "y": 72,
+     "w": 344,
+     "t": "alterado",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 542,
+     "y": 162,
+     "w": 156,
+     "t": "faixa",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 434,
+     "y": 356,
+     "w": 372,
+     "t": "corredora em restrição há meses",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 28,
+     "w": 344,
+     "t": "Cortisol",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 872,
+     "y": 72,
+     "w": 344,
+     "t": "fora da faixa",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 966,
+     "y": 162,
+     "w": 156,
+     "t": "faixa",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 858,
+     "y": 356,
+     "w": 372,
+     "t": "plantonista",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1296,
+     "y": 28,
+     "w": 344,
+     "t": "IGF-1",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1296,
+     "y": 72,
+     "w": 344,
+     "t": "baixo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1390,
+     "y": 162,
+     "w": 156,
+     "t": "faixa",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1282,
+     "y": 356,
+     "w": 372,
+     "t": "nadador master que quer recuperar melhor",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Quatro exames",
+   "titulo": "O mesmo número, duas leituras opostas",
    "destaque": "Disfunção do eixo, ou eixo funcionando certo diante do contexto que a pessoa criou?",
    "destaque_cor": "verm"
   },
@@ -268,47 +430,222 @@
   },
   {
    "id": "pares",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro eixos em linhas. Em cada um, o sinal de cima comanda o hormônio final: LH e FSH comandam a testosterona; LH e FSH, com o ciclo, comandam o estradiol; TSH comanda o T4 livre; ACTH comanda o cortisol, com horário. À direita, o sinal que aponta para a própria glândula: LH alto, FSH alto, TSH alto, ACTH alto\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"44\" width=\"1664\" height=\"84\" rx=\"12\" fill=\"#F7F6F2\"/><rect x=\"360\" y=\"54\" width=\"340\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"708\" y1=\"86\" x2=\"790\" y2=\"86\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"800\" y=\"54\" width=\"380\" height=\"64\" rx=\"32\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1196\" y1=\"86\" x2=\"1262\" y2=\"86\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1300.0 62.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 7L7 17M8 7h9v9\"/></g><rect x=\"0\" y=\"144\" width=\"1664\" height=\"84\" rx=\"12\" fill=\"#FDFCF9\"/><rect x=\"360\" y=\"154\" width=\"340\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"708\" y1=\"186\" x2=\"790\" y2=\"186\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"800\" y=\"154\" width=\"380\" height=\"64\" rx=\"32\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1196\" y1=\"186\" x2=\"1262\" y2=\"186\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1300.0 162.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 7L7 17M8 7h9v9\"/></g><rect x=\"0\" y=\"244\" width=\"1664\" height=\"84\" rx=\"12\" fill=\"#F7F6F2\"/><rect x=\"360\" y=\"254\" width=\"340\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"708\" y1=\"286\" x2=\"790\" y2=\"286\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"800\" y=\"254\" width=\"380\" height=\"64\" rx=\"32\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1196\" y1=\"286\" x2=\"1262\" y2=\"286\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1300.0 262.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 7L7 17M8 7h9v9\"/></g><rect x=\"0\" y=\"344\" width=\"1664\" height=\"84\" rx=\"12\" fill=\"#FDFCF9\"/><rect x=\"360\" y=\"354\" width=\"340\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"708\" y1=\"386\" x2=\"790\" y2=\"386\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"800\" y=\"354\" width=\"380\" height=\"64\" rx=\"32\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1196\" y1=\"386\" x2=\"1262\" y2=\"386\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1300.0 362.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 7L7 17M8 7h9v9\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 360,
+     "y": 0,
+     "w": 340,
+     "t": "sinal de cima",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 0,
+     "w": 380,
+     "t": "hormônio final",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 0,
+     "w": 394,
+     "t": "aponta para a glândula quando",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 70,
+     "w": 330,
+     "t": "Gonadal masculino",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 70,
+     "w": 340,
+     "t": "LH e FSH",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 70,
+     "w": 380,
+     "t": "Testosterona total",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 70,
+     "w": 300,
+     "t": "LH alto",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 170,
+     "w": 330,
+     "t": "Gonadal feminino",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 170,
+     "w": 340,
+     "t": "LH, FSH e o ciclo",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 170,
+     "w": 380,
+     "t": "Estradiol",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 170,
+     "w": 300,
+     "t": "FSH alto",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 270,
+     "w": 330,
+     "t": "Tireoidiano",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 270,
+     "w": 340,
+     "t": "TSH",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 270,
+     "w": 380,
+     "t": "T4 livre",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 270,
+     "w": 300,
+     "t": "TSH alto",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 370,
+     "w": 330,
+     "t": "Adrenal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 370,
+     "w": 340,
+     "t": "ACTH",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 370,
+     "w": 380,
+     "t": "Cortisol, com horário",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 370,
+     "w": 300,
+     "t": "ACTH alto",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O que pedir",
    "titulo": "O par em cada eixo",
-   "cab": [
-    "Eixo",
-    "Hormônio final",
-    "Sinal de cima",
-    "Aponta para a glândula quando"
-   ],
-   "larguras": [
-    22,
-    22,
-    26,
-    30
-   ],
-   "linhas": [
-    [
-     "Gonadal masculino",
-     "Testosterona total",
-     "LH e FSH",
-     "LH alto"
-    ],
-    [
-     "Gonadal feminino",
-     "Estradiol",
-     "LH e FSH, e como está o ciclo",
-     "FSH alto"
-    ],
-    [
-     "Tireoidiano",
-     "T4 livre",
-     "TSH",
-     "TSH alto"
-    ],
-    [
-     "Adrenal",
-     "Cortisol, com horário",
-     "ACTH",
-     "ACTH alto"
-    ]
-   ],
    "destaque": "Se o TSH não está alto, a fadiga não é hipotireoidismo primário. O TSH rastreia bem, e não fecha a história em quem está em restrição.",
    "destaque_cor": "ambar"
   },
@@ -382,29 +719,148 @@
   },
   {
    "id": "anamnese",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"No centro, o achado: hormônio final baixo com sinal de cima baixo ou normal. Dele saem dois caminhos. À esquerda, supressão funcional: restrição energética e perda de peso, sono curto crônico, volume alto com pouca comida, doença recente ou estresse prolongado. À direita, central verdadeiro: cefaleia e alteração visual, outros eixos alterados fora de proporção, trauma ou cirurgia na cabeça, hormônio exógeno\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"482\" y=\"0\" width=\"700\" height=\"64\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 600 64 C 600 120, 420 100, 420 150\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M 1064 64 C 1064 120, 1244 100, 1244 150\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"164\" width=\"812\" height=\"256\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"54\" cy=\"258\" r=\"30\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(36.0 240.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><circle cx=\"450\" cy=\"258\" r=\"30\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(432.0 240.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g><circle cx=\"54\" cy=\"352\" r=\"30\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(36.0 334.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><circle cx=\"450\" cy=\"352\" r=\"30\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(432.0 334.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><rect x=\"852\" y=\"164\" width=\"812\" height=\"256\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"906\" cy=\"258\" r=\"30\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(888.0 240.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><circle cx=\"1302\" cy=\"258\" r=\"30\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1284.0 240.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g><circle cx=\"906\" cy=\"352\" r=\"30\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(888.0 334.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><circle cx=\"1302\" cy=\"352\" r=\"30\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1284.0 334.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 492,
+     "y": 14,
+     "w": 680,
+     "t": "Final baixo, sinal de cima baixo ou normal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 612,
+     "y": 84,
+     "w": 440,
+     "t": "a pergunta vai para a história",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 176,
+     "w": 760,
+     "t": "Supressão funcional",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 96,
+     "y": 230,
+     "w": 310,
+     "t": "restrição energética, perda de peso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 492,
+     "y": 230,
+     "w": 310,
+     "t": "sono curto crônico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 324,
+     "w": 310,
+     "t": "volume alto com pouca comida",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 492,
+     "y": 324,
+     "w": 310,
+     "t": "doença recente, estresse prolongado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 876,
+     "y": 176,
+     "w": 760,
+     "t": "Central verdadeiro",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 948,
+     "y": 230,
+     "w": 310,
+     "t": "cefaleia, alteração visual",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 230,
+     "w": 310,
+     "t": "outros eixos alterados fora de proporção",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 948,
+     "y": 324,
+     "w": 310,
+     "t": "trauma ou cirurgia na cabeça",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 324,
+     "w": 310,
+     "t": "hormônio exógeno, declarado ou não",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo dois",
    "titulo": "Quem separa central de funcional é a anamnese",
-   "esq": {
-    "t": "Supressão funcional",
-    "cor": "petr",
-    "itens": [
-     "restrição energética sustentada, perda de peso",
-     "sono curto crônico",
-     "volume alto com pouca comida",
-     "doença recente, estresse prolongado"
-    ]
-   },
-   "dir": {
-    "t": "Central verdadeiro",
-    "cor": "verm",
-    "itens": [
-     "cefaleia, alteração visual",
-     "outros eixos alterados fora de proporção",
-     "trauma ou cirurgia na cabeça",
-     "hormônio exógeno, declarado ou não"
-    ]
-   },
    "destaque": "Abaixo de 30 kcal por kg de massa magra por dia, em cinco dias, os pulsos de LH ficaram 10 a 32% menos frequentes. O hipotálamo lê a escassez rápido.",
    "destaque_cor": "ambar",
    "fonte": "Loucks e Thuma, Journal of Clinical Endocrinology and Metabolism 2003 · 29 mulheres jovens com ciclo regular"
@@ -512,72 +968,358 @@
   },
   {
    "id": "ficha",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo três",
-   "titulo": "Registre a condição de coleta",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Uma ficha de coleta com seis campos para preencher: horário, horas desde o último treino, quão duro foi esse treino, fase do ciclo quando for o caso, tempo de jejum e o que comeu na véspera, e o que mudou em três meses. Ao lado, duas fotos da mesma pessoa com luz diferente\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"1120\" height=\"460\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"0\" width=\"1120\" height=\"64\" rx=\"14\" fill=\"#12202E\"/><rect x=\"0\" y=\"40\" width=\"1120\" height=\"24\" fill=\"#12202E\"/><rect x=\"28\" y=\"96\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(76.0 92.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><line x1=\"132\" y1=\"186\" x2=\"544\" y2=\"186\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"574\" y=\"96\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(622.0 92.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><line x1=\"678\" y1=\"186\" x2=\"1090\" y2=\"186\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"28\" y=\"218\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(76.0 214.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><line x1=\"132\" y1=\"308\" x2=\"544\" y2=\"308\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"574\" y=\"218\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(622.0 214.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><line x1=\"678\" y1=\"308\" x2=\"1090\" y2=\"308\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"28\" y=\"340\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(76.0 336.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 14c.83.642 2.077 1.017 3.5 1c1.423.017 2.67-.358 3.5-1s2.077-1.017 3.5-1c1.423-.017 2.67.358 3.5 1M8 3a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2m4-4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2\"/><path d=\"M3 10h14v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6z\"/><path d=\"M16.746 16.726a3 3 0 1 0 .252-5.555\"/></g></g><line x1=\"132\" y1=\"430\" x2=\"544\" y2=\"430\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"574\" y=\"340\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(622.0 336.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g><line x1=\"678\" y1=\"430\" x2=\"1090\" y2=\"430\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"1180\" y=\"60\" width=\"220\" height=\"260\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1230.0 110.0) scale(5.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"1430\" y=\"60\" width=\"220\" height=\"260\" rx=\"10\" fill=\"#C9CFD4\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1480.0 110.0) scale(5.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 28,
+     "y": 14,
+     "w": 600,
+     "t": "Ficha de coleta",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 132,
+     "y": 90,
+     "w": 412,
      "t": "Horário",
-     "x": "testosterona das 15 h não é a das 7 h"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 132,
+     "y": 126,
+     "w": 412,
+     "t": "testosterona das 15 h não é a das 7 h",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 678,
+     "y": 90,
+     "w": 412,
      "t": "Horas desde o último treino",
-     "x": "a manhã seguinte à sessão pesada não é base"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 678,
+     "y": 126,
+     "w": 412,
+     "t": "a manhã seguinte à sessão pesada não é base",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 132,
+     "y": 212,
+     "w": 412,
      "t": "Quão duro foi esse treino",
-     "x": "quem sabe é o preparador físico"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 132,
+     "y": 248,
+     "w": 412,
+     "t": "quem sabe é o preparador físico",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 678,
+     "y": 212,
+     "w": 412,
      "t": "Fase do ciclo",
-     "x": "quando for o caso"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 678,
+     "y": 248,
+     "w": 412,
+     "t": "quando for o caso",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 132,
+     "y": 334,
+     "w": 412,
      "t": "Tempo de jejum",
-     "x": "e o que comeu na véspera"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 132,
+     "y": 370,
+     "w": 412,
+     "t": "e o que comeu na véspera",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 678,
+     "y": 334,
+     "w": 412,
      "t": "O que mudou em três meses",
-     "x": "peso, sono, carga, trabalho, doença"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 678,
+     "y": 370,
+     "w": 412,
+     "t": "peso, sono, carga, trabalho, doença",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1180,
+     "y": 332,
+     "w": 220,
+     "t": "coleta às 7 h, descansado",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1430,
+     "y": 332,
+     "w": 220,
+     "t": "coleta às 15 h, depois do treino",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1180,
+     "y": 400,
+     "w": 470,
+     "t": "mesma pessoa, fotos diferentes",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo três",
+   "titulo": "Registre a condição de coleta",
    "destaque": "Sem a ficha, você compara duas fotos tiradas com luz diferente e atribui a diferença à pessoa.",
    "destaque_cor": "tinta"
   },
   {
    "id": "cinco",
-   "tipo": "cards",
-   "eyebrow": "Passo quatro",
-   "titulo": "Um eixo sozinho, ou vários na mesma direção?",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"O hipotálamo no centro, com cinco linhas saindo para cinco sistemas: cortisol, mobilização; gonadal, investimento, o primeiro a ser cortado; tireoidiano, velocidade, com oitenta por cento do T3 nascendo nos tecidos; GH e IGF-1, reparo acoplado ao sono profundo; sinais periféricos, informação, insulina, leptina e grelina. A periferia informa, o hipotálamo decide, os outros executam\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"832\" y1=\"250\" x2=\"260\" y2=\"40\" stroke=\"#C9CFD4\" stroke-width=\"4\"/><line x1=\"832\" y1=\"250\" x2=\"1404\" y2=\"40\" stroke=\"#C9CFD4\" stroke-width=\"4\"/><line x1=\"832\" y1=\"250\" x2=\"260\" y2=\"360\" stroke=\"#C9CFD4\" stroke-width=\"4\"/><line x1=\"832\" y1=\"250\" x2=\"1404\" y2=\"360\" stroke=\"#C9CFD4\" stroke-width=\"4\"/><line x1=\"832\" y1=\"250\" x2=\"832\" y2=\"420\" stroke=\"#C9CFD4\" stroke-width=\"4\"/><circle cx=\"832\" cy=\"250\" r=\"96\" fill=\"#12202E\"/><rect x=\"0\" y=\"0\" width=\"520\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(458.0 16.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"1144\" y=\"0\" width=\"520\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1602.0 16.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10a6 6 0 0 0-6-6H3v2a6 6 0 0 0 6 6h3m0 2a6 6 0 0 1 6-6h3v1a6 6 0 0 1-6 6h-3m0 5V10\"/></g><rect x=\"0\" y=\"320\" width=\"520\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(458.0 336.0) scale(1.9167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"1144\" y=\"320\" width=\"520\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1602.0 336.0) scale(1.9167)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h4L20 8a1.5 1.5 0 0 0-4-4L3 17zM14.5 5.5l4 4\"/><path d=\"M12 8L7 3L3 7l5 5M7 8L5.5 9.5M16 12l5 5l-4 4l-5-5m4 1l-1.5 1.5\"/></g></g><rect x=\"572\" y=\"380\" width=\"520\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1030.0 396.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m21 14l-3-3h-7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1zm-7 1v2a1 1 0 0 1-1 1H6l-3 3V11a1 1 0 0 1 1-1h2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 742,
+     "y": 212,
+     "w": 180,
+     "t": "Hipotálamo",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 742,
+     "y": 254,
+     "w": 180,
+     "t": "decide uma vez",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 6,
+     "w": 430,
      "t": "Cortisol",
-     "x": "mobilização: energia agora",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 20,
+     "y": 42,
+     "w": 430,
+     "t": "mobilização: energia agora",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 6,
+     "w": 430,
      "t": "Gonadal",
-     "x": "investimento: o primeiro a ser cortado",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1164,
+     "y": 42,
+     "w": 430,
+     "t": "investimento: o primeiro a ser cortado",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 326,
+     "w": 430,
      "t": "Tireoidiano",
-     "x": "velocidade: 80% do T3 nasce nos tecidos",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 20,
+     "y": 362,
+     "w": 430,
+     "t": "velocidade: 80% do T3 nasce nos tecidos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 326,
+     "w": 430,
      "t": "GH e IGF-1",
-     "x": "reparo, acoplado ao sono profundo",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1164,
+     "y": 362,
+     "w": 430,
+     "t": "reparo, acoplado ao sono profundo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 386,
+     "w": 430,
      "t": "Sinais periféricos",
-     "x": "informação: insulina, leptina, grelina",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 422,
+     "w": 430,
+     "t": "informação: insulina, leptina, grelina",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 422,
+     "w": 560,
+     "t": "um eixo sozinho alterado: desconfie de doença",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 422,
+     "w": 560,
+     "t": "vários na mesma direção: desconfie de contexto",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
-   "destaque": "Um eixo alterado sozinho: desconfie de doença. Vários levemente deslocados na mesma direção: desconfie de contexto. É uma decisão executada em cinco lugares.",
+   "eyebrow": "Passo quatro",
+   "titulo": "Um eixo sozinho, ou vários na mesma direção?",
+   "destaque": "Não são cinco decisões independentes. É uma decisão executada em cinco lugares.",
    "destaque_cor": "petr",
    "fonte": "Bianco e Kim, Journal of Clinical Investigation 2006"
   },

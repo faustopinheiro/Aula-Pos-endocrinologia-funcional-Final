@@ -26,11 +26,140 @@
  "slides": [
   {
    "id": "vilao",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"À esquerda, o cortisol no centro com cinco acusações ligadas a ele: engorda, destrói músculo, causa barriga, derruba a imunidade, acaba com o sono. À direita, o raciocínio em três passos: o cortisol é o problema, então baixar o cortisol, então a solução; o último passo está riscado, porque sem cortisol não se vive\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"360\" y1=\"220\" x2=\"130\" y2=\"38\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"360\" y1=\"220\" x2=\"590\" y2=\"58\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"360\" y1=\"220\" x2=\"130\" y2=\"402\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"360\" y1=\"220\" x2=\"585\" y2=\"402\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"360\" y1=\"220\" x2=\"135\" y2=\"220\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"360\" cy=\"220\" r=\"92\" fill=\"#A8322A\"/><rect x=\"10\" y=\"10\" width=\"240\" height=\"56\" rx=\"28\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"470\" y=\"30\" width=\"240\" height=\"56\" rx=\"28\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"10\" y=\"374\" width=\"240\" height=\"56\" rx=\"28\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"450\" y=\"374\" width=\"270\" height=\"56\" rx=\"28\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"0\" y=\"192\" width=\"270\" height=\"56\" rx=\"28\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"900\" y=\"20\" width=\"520\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1160\" y1=\"114\" x2=\"1160\" y2=\"152\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"900\" y=\"160\" width=\"520\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1160\" y1=\"254\" x2=\"1160\" y2=\"292\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"900\" y=\"300\" width=\"520\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"920\" y1=\"380\" x2=\"1400\" y2=\"310\" stroke=\"#A8322A\" stroke-width=\"7\" stroke-linecap=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 270,
+     "y": 202,
+     "w": 180,
+     "t": "Cortisol",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 10,
+     "y": 23,
+     "w": 240,
+     "t": "engorda",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 43,
+     "w": 240,
+     "t": "destrói músculo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 387,
+     "w": 240,
+     "t": "causa barriga",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 387,
+     "w": 270,
+     "t": "derruba a imunidade",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 205,
+     "w": 270,
+     "t": "acaba com o sono",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 46,
+     "w": 520,
+     "t": "o cortisol é o problema",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 186,
+     "w": 520,
+     "t": "então baixar o cortisol",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 326,
+     "w": 520,
+     "t": "é a solução",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1440,
+     "y": 300,
+     "w": 224,
+     "t": "parece prudente e está errado",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 408,
+     "w": 764,
+     "t": "Sem cortisol, não se vive.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O hormônio mais caluniado",
-   "frase": "Se o cortisol é o problema, baixar o cortisol é a solução.",
-   "apoio": "Engorda, destrói músculo, causa barriga, derruba a imunidade, acaba com o sono. Essa conduta parece prudente e está errada. Sem cortisol, não se vive: insuficiência adrenal não tratada é fatal."
+   "titulo": "Baixar o cortisol parece prudente e está errado",
+   "destaque": "Insuficiência adrenal não tratada é fatal. O problema nunca foi o hormônio existir.",
+   "destaque_cor": "verm"
   },
   {
    "id": "origem",
@@ -123,32 +252,159 @@
   },
   {
    "id": "funcao",
-   "tipo": "cards",
-   "eyebrow": "Para que ele existe",
-   "titulo": "Deixar energia disponível agora",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"Um estímulo aciona o cortisol, que tem quatro saídas: mais glicose disponível no sangue; gordura e aminoácido mobilizados do tecido; inflamação contida, para não consumir recursos demais; tônus vascular, para a pressão não cair quando é preciso correr. Embaixo, o músculo como reserva que vira combustível na emergência\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"150\" width=\"260\" height=\"110\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"268\" y1=\"205\" x2=\"350\" y2=\"205\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><circle cx=\"460\" cy=\"205\" r=\"100\" fill=\"#A8322A\"/><path d=\"M 560 205 C 640 205, 640 40, 720 40\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"730\" y=\"0\" width=\"934\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(750.0 16.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><path d=\"M 560 205 C 640 205, 640 140, 720 140\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"730\" y=\"100\" width=\"934\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(750.0 116.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><path d=\"M 560 205 C 640 205, 640 240, 720 240\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"730\" y=\"200\" width=\"934\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(750.0 216.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><path d=\"M 560 205 C 640 205, 640 340, 720 340\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"730\" y=\"300\" width=\"934\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(750.0 316.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"0\" y=\"330\" width=\"560\" height=\"100\" rx=\"14\" fill=\"#F4EAD6\"/><g transform=\"translate(20.0 350.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"96\" y1=\"380\" x2=\"150\" y2=\"380\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><g transform=\"translate(160.0 350.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 170,
+     "w": 260,
+     "t": "estímulo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 210,
+     "w": 260,
+     "t": "treino, susto, jejum",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 170,
+     "w": 180,
+     "t": "Cortisol",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 370,
+     "y": 212,
+     "w": 180,
+     "t": "energia agora",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 8,
+     "w": 820,
      "t": "Glicose",
-     "x": "mais glicose disponível no sangue",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 820,
+     "y": 44,
+     "w": 820,
+     "t": "mais glicose disponível no sangue",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 108,
+     "w": 820,
      "t": "Substrato",
-     "x": "gordura e aminoácido mobilizados do tecido",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 820,
+     "y": 144,
+     "w": 820,
+     "t": "gordura e aminoácido mobilizados do tecido",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 208,
+     "w": 820,
      "t": "Inflamação",
-     "x": "contida, para não consumir recursos demais",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 820,
+     "y": 244,
+     "w": 820,
+     "t": "contida, para não consumir recursos demais",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 308,
+     "w": 820,
      "t": "Tônus vascular",
-     "x": "a pressão não cai quando você precisa correr",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 344,
+     "w": 820,
+     "t": "a pressão não cai quando você precisa correr",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 344,
+     "w": 310,
+     "t": "músculo é reserva: na emergência, reserva vira combustível",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Catabólico porque músculo é reserva, e em emergência reserva vira combustível. Acionado o dia inteiro: mais sinal catabólico e menos permissão para reparar.",
+   "eyebrow": "Para que ele existe",
+   "titulo": "Deixar energia disponível agora",
+   "destaque": "Acionado o dia inteiro: mais sinal catabólico e menos permissão para reparar.",
    "destaque_cor": "verm"
   },
   {
@@ -359,28 +615,82 @@
   },
   {
    "id": "cuidados",
-   "tipo": "lista",
-   "eyebrow": "Como usar o dado sem exagerar",
-   "titulo": "O que importa é a volta, não o pico",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Dois dias esquemáticos de cortisol com três sessões de treino. No de cima, cada sessão sobe o cortisol e ele volta ao basal antes da próxima. No de baixo, as sessões chegam antes da volta, somadas a jejum e pico da manhã, e a curva fica empilhada num patamar alto\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"300\" y1=\"170\" x2=\"1620\" y2=\"170\" stroke=\"#C9CFD4\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><path d=\"M300 170 L310 170 L320 170 L330 170 L340 170 L350 170 L360 170 L370 139 L380 124 L390 120 L400 120 L410 123 L420 128 L430 132 L440 136 L450 140 L460 144 L470 147 L480 150 L490 153 L500 155 L510 157 L520 159 L530 160 L540 162 L550 163 L560 164 L570 165 L580 165 L590 166 L600 166 L610 167 L620 167 L630 168 L640 168 L650 168 L660 168 L670 169 L680 169 L690 169 L700 169 L710 169 L720 169 L730 169 L740 170 L750 170 L760 170 L770 170 L780 170 L790 170 L800 170 L810 138 L820 124 L830 120 L840 120 L850 123 L860 127 L870 132 L880 136 L890 140 L900 144 L910 147 L920 150 L930 153 L940 155 L950 157 L960 159 L970 160 L980 162 L990 163 L1000 164 L1010 165 L1020 165 L1030 166 L1040 166 L1050 167 L1060 167 L1070 168 L1080 168 L1090 168 L1100 168 L1110 169 L1120 169 L1130 169 L1140 169 L1150 169 L1160 169 L1170 169 L1180 170 L1190 170 L1200 170 L1210 170 L1220 170 L1230 170 L1240 170 L1250 138 L1260 124 L1270 120 L1280 120 L1290 123 L1300 127 L1310 132 L1320 136 L1330 140 L1340 144 L1350 147 L1360 150 L1370 153 L1380 155 L1390 157 L1400 159 L1410 160 L1420 162 L1430 163 L1440 164 L1450 165 L1460 165 L1470 166 L1480 166 L1490 167 L1500 167 L1510 168 L1520 168 L1530 168 L1540 168 L1550 169 L1560 169 L1570 169 L1580 169 L1590 169 L1600 169\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"360\" y=\"180\" width=\"60\" height=\"14\" rx=\"7\" fill=\"#12202E\"/><rect x=\"800\" y=\"180\" width=\"60\" height=\"14\" rx=\"7\" fill=\"#12202E\"/><rect x=\"1240\" y=\"180\" width=\"60\" height=\"14\" rx=\"7\" fill=\"#12202E\"/><line x1=\"300\" y1=\"400\" x2=\"1620\" y2=\"400\" stroke=\"#C9CFD4\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><path d=\"M300 400 L310 400 L320 400 L330 400 L340 400 L350 400 L360 400 L370 371 L380 354 L390 344 L400 338 L410 336 L420 335 L430 335 L440 337 L450 338 L460 340 L470 342 L480 344 L490 346 L500 348 L510 350 L520 351 L530 353 L540 326 L550 311 L560 302 L570 298 L580 297 L590 298 L600 300 L610 302 L620 305 L630 308 L640 311 L650 314 L660 317 L670 320 L680 323 L690 326 L700 329 L710 303 L720 288 L730 281 L740 277 L750 277 L760 279 L770 281 L780 284 L790 288 L800 291 L810 295 L820 299 L830 303 L840 306 L850 310 L860 313 L870 316 L880 291 L890 277 L900 269 L910 267 L920 267 L930 269 L940 271 L950 275 L960 279 L970 283 L980 287 L990 291 L1000 295 L1010 299 L1020 303 L1030 306 L1040 310 L1050 313 L1060 316 L1070 319 L1080 323 L1090 325 L1100 328 L1110 331 L1120 334 L1130 336 L1140 338 L1150 341 L1160 343 L1170 345 L1180 347 L1190 349 L1200 351 L1210 353 L1220 355 L1230 356 L1240 358 L1250 360 L1260 361 L1270 363 L1280 364 L1290 365 L1300 367 L1310 368 L1320 369 L1330 370 L1340 371 L1350 373 L1360 374 L1370 375 L1380 376 L1390 376 L1400 377 L1410 378 L1420 379 L1430 380 L1440 381 L1450 381 L1460 382 L1470 383 L1480 383 L1490 384 L1500 385 L1510 385 L1520 386 L1530 386 L1540 387 L1550 387 L1560 388 L1570 388 L1580 389 L1590 389 L1600 390\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linejoin=\"round\"/><rect x=\"360\" y=\"410\" width=\"60\" height=\"14\" rx=\"7\" fill=\"#12202E\"/><rect x=\"530\" y=\"410\" width=\"60\" height=\"14\" rx=\"7\" fill=\"#12202E\"/><rect x=\"700\" y=\"410\" width=\"60\" height=\"14\" rx=\"7\" fill=\"#12202E\"/><rect x=\"870\" y=\"410\" width=\"60\" height=\"14\" rx=\"7\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
     {
-     "t": "Subir no exercício é a resposta certa",
-     "x": "treino que não sobe cortisol não é objetivo de saúde",
-     "cor": "petr"
+     "x": 0,
+     "y": 60,
+     "w": 280,
+     "t": "Volta ao basal antes do próximo estímulo",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Sessenta por cento é princípio, não régua",
-     "x": "doze homens, num desenho controlado",
-     "cor": "ambar"
+     "x": 0,
+     "y": 300,
+     "w": 280,
+     "t": "Não volta: pico da manhã, jejum e sessão dura na mesma janela",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Volta ao basal antes do próximo estímulo?",
-     "x": "a intervenção: parte do volume abaixo do limiar. Não tira nada da pessoa",
-     "cor": "verm"
+     "x": 1310,
+     "y": 30,
+     "w": 340,
+     "t": "subir no exercício é a resposta certa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1500,
+     "y": 136,
+     "w": 120,
+     "t": "basal",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 250,
+     "w": 460,
+     "t": "débito empilhado",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 424,
+     "w": 600,
+     "t": "barras escuras: sessões de treino",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Jejum soma. Pico da manhã, jejum e sessão dura na mesma janela, em quem já acorda acionado, é débito empilhado.",
-   "destaque_cor": "ambar"
+   "eyebrow": "Como usar o dado sem exagerar",
+   "titulo": "O que importa é a volta, não o pico",
+   "destaque": "A intervenção: parte do volume abaixo do limiar. Sessenta por cento é princípio, não régua: foram doze homens.",
+   "destaque_cor": "ambar",
+   "fonte": "Esquema, sem valores medidos"
   },
   {
    "id": "curva4",
@@ -463,52 +773,364 @@
   },
   {
    "id": "investigar",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Uma régua de cortisol, de pouco a muito. Na ponta esquerda, insuficiência, uma urgência: pressão baixa e fraqueza progressiva, escurecimento de pele e mucosas, vontade intensa de sal e náusea, perda de peso sem intenção e sódio baixo. Na ponta direita, excesso: fraqueza proximal, estrias violáceas largas, hipertensão de difícil controle e glicose fora de proporção, pele frágil e fratura sem trauma. No meio, cansaço e gordura abdominal sozinhos, que não abrem investigação\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><defs><linearGradient id=\"rg\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\"><stop offset=\"0\" stop-color=\"#A8322A\"/><stop offset=\"0.3\" stop-color=\"#C9CFD4\"/><stop offset=\"0.7\" stop-color=\"#C9CFD4\"/><stop offset=\"1\" stop-color=\"#B07A1C\"/></linearGradient></defs><rect x=\"0\" y=\"0\" width=\"1664\" height=\"26\" rx=\"13\" fill=\"url(#rg)\"/><rect x=\"0\" y=\"80\" width=\"600\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(24.0 154.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><g transform=\"translate(24.0 224.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7\"/></g><g transform=\"translate(24.0 294.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><g transform=\"translate(24.0 364.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"1064\" y=\"80\" width=\"600\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1088.0 154.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><g transform=\"translate(1088.0 224.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><g transform=\"translate(1088.0 294.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(1088.0 364.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"640\" y=\"170\" width=\"384\" height=\"190\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(700.0 196.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4\"/></g><g transform=\"translate(868.0 196.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 36,
+     "w": 300,
+     "t": "pouco cortisol",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1364,
+     "y": 36,
+     "w": 300,
+     "t": "muito cortisol",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 94,
+     "w": 560,
+     "t": "Insuficiência: urgência",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 150,
+     "w": 500,
+     "t": "pressão baixa, fraqueza progressiva",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 80,
+     "y": 220,
+     "w": 500,
+     "t": "escurecimento de pele e mucosas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 80,
+     "y": 290,
+     "w": 500,
+     "t": "vontade intensa de sal, náusea",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 80,
+     "y": 360,
+     "w": 500,
+     "t": "perda de peso sem intenção, sódio baixo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1088,
+     "y": 94,
+     "w": 560,
+     "t": "Excesso",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 150,
+     "w": 500,
+     "t": "fraqueza proximal: levantar da cadeira sem os braços",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1144,
+     "y": 220,
+     "w": 500,
+     "t": "estrias violáceas largas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1144,
+     "y": 290,
+     "w": 500,
+     "t": "hipertensão difícil, glicose fora de proporção",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1144,
+     "y": 360,
+     "w": 500,
+     "t": "pele frágil, fratura sem trauma",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 660,
+     "y": 262,
+     "w": 344,
+     "t": "cansaço e gordura abdominal, sozinhos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 660,
+     "y": 318,
+     "w": 344,
+     "t": "não abrem investigação",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Quando investigar de verdade",
    "titulo": "Os dois extremos que existem",
-   "esq": {
-    "t": "Excesso",
-    "cor": "ambar",
-    "itens": [
-     "fraqueza proximal: levantar da cadeira sem os braços",
-     "estrias violáceas largas",
-     "hipertensão de difícil controle, glicose fora de proporção",
-     "pele frágil, fratura sem trauma"
-    ]
-   },
-   "dir": {
-    "t": "Insuficiência: urgência",
-    "cor": "verm",
-    "itens": [
-     "pressão baixa, fraqueza progressiva",
-     "escurecimento de pele e mucosas",
-     "vontade intensa de sal, náusea",
-     "perda de peso sem intenção, sódio baixo"
-    ]
-   },
-   "destaque": "Cansaço e gordura abdominal, sozinhos, não abrem investigação. E são os dois que trazem a pessoa pedindo o exame.",
+   "destaque": "E cansaço e gordura abdominal são justamente os dois que trazem a pessoa pedindo o exame.",
    "destaque_cor": "tinta"
   },
   {
    "id": "fadiga",
-   "tipo": "numeros",
-   "eyebrow": "Cadegiani e Kater, 2016",
-   "titulo": "“Fadiga adrenal” não existe; os sintomas, sim",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, um funil: 3.470 artigos triados, 58 estudos analisados de perto, nenhuma base para a entidade fadiga adrenal. À direita, uma etiqueta escrita fadiga adrenal cobrindo sete causas que ficam sem ser procuradas: sono curto, apneia, pouca energia disponível, ferro, tireoide, medicamento e depressão\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"700\" height=\"96\" rx=\"12\" fill=\"#12202E\"/><rect x=\"90\" y=\"110\" width=\"520\" height=\"96\" rx=\"12\" fill=\"#3A6EA5\"/><rect x=\"180\" y=\"220\" width=\"340\" height=\"96\" rx=\"12\" fill=\"#A8322A\"/><rect x=\"860\" y=\"124\" width=\"370\" height=\"60\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1260\" y=\"124\" width=\"370\" height=\"60\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"860\" y=\"196\" width=\"370\" height=\"60\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1260\" y=\"196\" width=\"370\" height=\"60\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"860\" y=\"268\" width=\"370\" height=\"60\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1260\" y=\"268\" width=\"370\" height=\"60\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"860\" y=\"340\" width=\"370\" height=\"60\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"rotate(-4 1250 44)\"><rect x=\"960\" y=\"6\" width=\"560\" height=\"84\" rx=\"12\" fill=\"#B07A1C\" stroke=\"#12202E\" stroke-width=\"2\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "3.470",
-     "x": "artigos triados na revisão sistemática",
-     "cor": "tinta"
+     "x": 16,
+     "y": 14,
+     "w": 160,
+     "t": "3.470",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "58",
-     "x": "estudos analisados de perto, sem base para a entidade",
-     "cor": "verm"
+     "x": 180,
+     "y": 30,
+     "w": 500,
+     "t": "artigos triados",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 106,
+     "y": 124,
+     "w": 160,
+     "t": "58",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 270,
+     "y": 140,
+     "w": 320,
+     "t": "estudos analisados de perto",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 196,
+     "y": 234,
+     "w": 160,
+     "t": "0",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 360,
+     "y": 250,
+     "w": 140,
+     "t": "base para a entidade",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 0,
+     "y": 340,
+     "w": 700,
+     "t": "revisão sistemática, 2016",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 138,
+     "w": 370,
+     "t": "sono curto",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 138,
+     "w": 370,
+     "t": "apneia",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 210,
+     "w": 370,
+     "t": "pouca energia disponível",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 210,
+     "w": 370,
+     "t": "ferro",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 282,
+     "w": 370,
+     "t": "tireoide",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 282,
+     "w": 370,
+     "t": "medicamento",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 354,
+     "w": 370,
+     "t": "depressão",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 26,
+     "w": 560,
+     "t": "“fadiga adrenal”",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1270,
+     "y": 350,
+     "w": 370,
+     "t": "o que o rótulo deixa de procurar",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
-   "destaque": "O rótulo fecha a investigação cedo: sono curto, apneia, pouca energia disponível, ferro, tireoide, medicamento, depressão. Custa os meses em que o diagnóstico certo não foi procurado.",
+   "eyebrow": "Uma revisão sistemática, 2016",
+   "titulo": "“Fadiga adrenal” não existe; os sintomas, sim",
+   "destaque": "O rótulo fecha a investigação cedo. Custa os meses em que o diagnóstico certo não foi procurado.",
    "destaque_cor": "verm",
-   "fonte": "BMC Endocrine Disorders 2016"
+   "fonte": "Cadegiani e Kater, BMC Endocrine Disorders 2016"
   },
   {
    "id": "fecho",

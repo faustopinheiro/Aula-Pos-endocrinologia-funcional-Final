@@ -162,6 +162,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O procedimento", "titulo":
                     {"t": "O resto da equipe", "x": "Entrega a virada percebida semana a semana: esforço, ciclo, recuperação."}],
           "quem": "Hipotireoidismo, hipogonadismo, insuficiência adrenal e tumor de hipófise existem. A defesa é de ordem, não de negação."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-01")
+
 spec = {"arquivo": "aulas/MOD03/03-01-arquitetura-dos-eixos-neuroendocrinos.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Organização dos eixos neuroendócrinos", "subtitulo": "Princípios de leitura do perfil hormonal",
