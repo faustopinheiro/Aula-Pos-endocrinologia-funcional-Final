@@ -122,6 +122,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Um sistema de agora", "tit
                     {"t": "Educador físico e preparador", "x": "Prescrevem por percepção de esforço e ensinam o atleta a usá-la."}],
           "quem": "Cansaço de seis meses não é adrenalina alta o tempo todo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-03")
+
 spec = {"arquivo": "aulas/MOD03/03-03-catecolaminas-e-a-resposta-aguda.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Catecolaminas no exercício", "subtitulo": "Resposta simpatoadrenal aguda e adaptações ao treino",

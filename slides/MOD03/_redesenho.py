@@ -330,10 +330,303 @@ def fadiga():
                  destaque_cor="verm", fonte="Cadegiani e Kater, BMC Endocrine Disorders 2016")
 
 
+# ---------------------------------------------------------------- 3.3
+
+def origem():
+    """3.3: adrenalina que cai no sangue e age longe; noradrenalina que age no tecido e vaza para o plasma."""
+    p = [svg_abre(1664, 430, "À esquerda, a medula da adrenal lança adrenalina no sangue, e ela viaja até órgãos distantes: a peça endócrina do sistema. À direita, uma terminação simpática solta noradrenalina dentro do tecido; a maior parte age ali, e só o excedente escapa da sinapse para o vaso, onde é medido no plasma"), defs(OXID, FOSF)]
+    rs = [rot(0, 0, "Adrenalina", w=780, tam=30, cor=OXID, peso=700, serif=True),
+          rot(884, 0, "Noradrenalina", w=780, tam=30, cor=FOSF, peso=700, serif=True)]
+    # adrenal e vaso
+    p.append(f'<ellipse cx="120" cy="170" rx="100" ry="70" fill="{OXID_T}" stroke="{OXID}" stroke-width="4"/>')
+    p.append(f'<ellipse cx="120" cy="170" rx="46" ry="30" fill="{OXID}"/>')
+    rs.append(rot(20, 250, "medula da adrenal", w=200, tam=22, cor=OXID, peso=700, alinha="center"))
+    p.append(f'<rect x="230" y="150" width="480" height="44" rx="22" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="2"/>')
+    for k in range(8):
+        p.append(f'<circle cx="{258 + k * 58}" cy="172" r="9" fill="{OXID}"/>')
+    rs.append(rot(230, 110, "cai na circulação", w=480, tam=22, cor=TINTA, alinha="center"))
+    for k, ic in enumerate(["t:heart", "t:droplet", "t:barbell"]):
+        y = 60 + k * 90
+        p.append(seta(712, 172, 744, y + 24, OXID, "m0", esp=3))
+        p.append(icone(ic, 756, y, 48, OXID))
+    rs.append(rot(0, 320, "age longe: é a peça endócrina do sistema", w=780, tam=24, cor=OXID, peso=700))
+    rs.append(rot(0, 360, "produzida na medula da adrenal, age em órgãos distantes", w=780, tam=22, cor=TINTA))
+    # terminação simpática
+    X = 884
+    p.append(f'<line x1="{X}" y1="120" x2="{X+300}" y2="120" stroke="{FOSF}" stroke-width="10" stroke-linecap="round"/>')
+    p.append(f'<circle cx="{X+320}" cy="120" r="36" fill="{FOSF}"/>')
+    p.append(f'<rect x="{X+380}" y="60" width="200" height="130" rx="20" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="3"/>')
+    for (dx, dy) in [(0, -24), (8, 0), (0, 24), (14, -12), (14, 12), (22, -30), (22, 30)]:
+        p.append(f'<circle cx="{X+366+dx}" cy="{120+dy}" r="7" fill="{FOSF}"/>')
+    rs += [rot(X, 70, "terminação simpática", w=300, tam=22, cor=FOSF, peso=700),
+           rot(X + 380, 196, "tecido", w=200, tam=22, cor=GLIC, peso=700, alinha="center")]
+    # vazamento para o vaso
+    p.append(f'<rect x="{X+100}" y="270" width="680" height="44" rx="22" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="2"/>')
+    p.append(f'<path d="M {X+360} 160 C {X+330} 210, {X+300} 230, {X+300} 262" fill="none" stroke="{FOSF}" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#m1)"/>')
+    for k in range(3):
+        p.append(f'<circle cx="{X+260 + k * 60}" cy="292" r="7" fill="{FOSF}"/>')
+    rs += [rot(X, 214, "o excedente que escapou", w=280, tam=22, cor=FOSF, peso=700, alinha="right"),
+           rot(X, 330, "no plasma, é o eco de uma atividade local, espalhada pelo corpo", w=780, tam=24, cor=FOSF, peso=700, lh=1.25),
+           rot(X, 396, "marca quanto o simpático está acionado", w=780, tam=22, cor=TINTA)]
+    return slide("origem", 430, p, rs,
+                 eyebrow="De onde vem cada uma", titulo="Um hormônio e um neurotransmissor que vazou",
+                 destaque="Noradrenalina plasmática não é um comando que desce.", destaque_cor="tinta")
+
+
+def efeitos():
+    """3.3: seis alvos ligados ao mesmo tempo, e o relógio de segundos e minutos."""
+    p = [svg_abre(1664, 430, "No centro, as catecolaminas. Em volta, seis alvos ao mesmo tempo: coração, mais frequência e mais força; vaso, fecha víscera e pele e abre o músculo que trabalha; brônquio, dilata, o mesmo receptor da medicação de asma; fígado, quebra glicogênio e solta glicose; tecido adiposo, libera gordura; músculo, acelera a glicólise com oxigênio sobrando. Embaixo, uma régua: liga em segundos, desliga em minutos")]
+    alvos = [("t:heart", "Coração", "mais frequência e mais força", FOSF),
+             ("t:route", "Vaso", "fecha víscera e pele, abre o músculo que trabalha", FOSF),
+             ("t:wave-sine", "Brônquio", "dilata: o receptor da medicação de asma", AZUL),
+             ("t:droplet", "Fígado", "quebra glicogênio, solta glicose", GLIC),
+             ("t:scale", "Tecido adiposo", "libera gordura", GLIC),
+             ("t:barbell", "Músculo", "acelera a glicólise, com oxigênio sobrando", OXID)]
+    cx, cy = 832, 150
+    pos = [(0, 0), (0, 110), (0, 220), (1124, 0), (1124, 110), (1124, 220)]
+    rs = []
+    for (x, y) in pos:
+        ex = x + 540 if x == 0 else x
+        p.append(f'<line x1="{cx}" y1="{cy}" x2="{ex}" y2="{y+45}" stroke="{CINZA}" stroke-width="3"/>')
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="120" fill="{TINTA}"/>')
+    rs += [rot(cx - 110, cy - 34, "Catecolaminas", w=220, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True),
+           rot(cx - 110, cy + 8, "tudo ao mesmo tempo", w=220, tam=20, cor=PAPEL, alinha="center")]
+    for (x, y), (ic, t, d, cor) in zip(pos, alvos):
+        p.append(caixa(x, y, 540, 90, cor, CARTAO, esp=3, rx=14))
+        p.append(icone(ic, x + 18, y + 20, 50, cor))
+        rs += [rot(x + 84, y + 8, t, w=440, tam=26, cor=cor, peso=700),
+               rot(x + 84, y + 46, d, w=440, tam=20, cor=TINTA, lh=1.15)]
+    # régua de tempo
+    y0 = 360
+    p.append(f'<line x1="0" y1="{y0}" x2="1664" y2="{y0}" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<rect x="0" y="{y0-14}" width="140" height="28" rx="14" fill="{FOSF}"/>')
+    p.append(f'<path d="M 140 {y0-14} L 620 {y0-4} L 620 {y0+4} L 140 {y0+14} Z" fill="{FOSF_T}"/>')
+    rs += [rot(0, y0 + 24, "liga em segundos", w=300, tam=22, cor=FOSF, peso=700),
+           rot(420, y0 + 24, "desliga em minutos", w=300, tam=22, cor=FOSF, peso=700),
+           rot(1200, y0 + 24, "horas, dias: fora do alcance", w=464, tam=22, cor=MUDO, alinha="right")]
+    return slide("efeitos", 430, p, rs,
+                 eyebrow="Muita coisa ao mesmo tempo", titulo="Liga em segundos, desliga em minutos",
+                 destaque="Parte do lactato do esforço intenso depende da adrenalina, não da falta de oxigênio.",
+                 destaque_cor="petr", fonte="Hargreaves e Spriet, Nature Metabolism 2020")
+
+
+def beta():
+    """3.3: frequência cardíaca por esforço, com o betabloqueado achatado e o estimulante somando."""
+    p = [svg_abre(1664, 440, "Gráfico esquemático de frequência cardíaca contra esforço. A curva de referência sobe até a máxima prevista. A do betabloqueado sobe menos e achata no pico, então o percentual da máxima prevista subestima o esforço. A de quem usa estimulante corre acima da referência, somando num sistema que o exercício já aciona")]
+    X0, X1, Y0, Y1 = 90, 900, 400, 30
+    p.append(f'<line x1="{X0}" y1="{Y0}" x2="{X1}" y2="{Y0}" stroke="{MUDO}" stroke-width="3"/><line x1="{X0}" y1="{Y0}" x2="{X0}" y2="{Y1}" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<line x1="{X0}" y1="70" x2="{X1}" y2="70" stroke="{CINZA}" stroke-width="2"{TRACO}/>')
+    def c(pts, cor, esp, traco=""):
+        d = "M" + " L".join(f"{X0 + a * (X1 - X0):.0f} {Y0 - b * (Y0 - 70):.0f}" for a, b in pts)
+        p.append(f'<path d="{d}" fill="none" stroke="{cor}" stroke-width="{esp}" stroke-linecap="round" stroke-linejoin="round"{traco}/>')
+    c([(0, 0.25), (0.25, 0.42), (0.5, 0.62), (0.75, 0.82), (1, 1)], MUDO, 6)
+    c([(0, 0.18), (0.25, 0.3), (0.5, 0.42), (0.75, 0.52), (1, 0.58)], OXID, 7)
+    c([(0, 0.38), (0.25, 0.56), (0.5, 0.74), (0.75, 0.9), (0.95, 1.04)], FOSF, 7)
+    rs = [rot(X0 + 10, 40, "máxima prevista", w=260, tam=20, cor=MUDO),
+          rot(0, 20, "FC", w=80, tam=22, cor=MUDO, peso=700),
+          rot(X0, 408, "esforço", w=X1 - X0, tam=22, cor=MUDO, alinha="center"),
+          rot(X1 - 250, 250, "betabloqueado: pico achatado", w=260, tam=22, cor=OXID, peso=700, lh=1.2),
+          rot(X0 + 180, 120, "com estimulante", w=260, tam=22, cor=FOSF, peso=700),
+          rot(X0 + 400, 212, "referência", w=180, tam=20, cor=MUDO)]
+    blocos = [(960, 0, "Betabloqueador", OXID, OXID_T, ["o percentual da máxima prevista subestima o esforço", "a percepção de esforço vira o instrumento principal"]),
+              (960, 220, "Estimulantes", FOSF, FOSF_T, ["saudável, dose habitual: costuma ser tolerado", "arritmia, hipertensão mal controlada, doença cardíaca: cuidado"])]
+    for x, y, t, cor, fundo, itens in blocos:
+        p.append(caixa(x, y, 704, 200, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 24, y + 14, t, w=660, tam=28, cor=cor, peso=700, serif=True))
+        for k, it in enumerate(itens):
+            rs.append(rot(x + 24, y + 62 + k * 66, it, w=660, tam=22, cor=TINTA, lh=1.25))
+    return slide("beta", 440, p, rs,
+                 eyebrow="A situação espelhada", titulo="Quando o relógio subestima o esforço",
+                 destaque="No betabloqueado, a percepção de esforço deixa de ser alternativa: é o instrumento, para prescrever e para interpretar um teste.",
+                 destaque_cor="petr", fonte="Curvas: esquema, sem valores medidos")
+
+
+def limites():
+    """3.3: o alcance do sistema numa régua de tempo: explica segundos e minutos, não explica meses."""
+    p = [svg_abre(1664, 440, "Uma régua de tempo de segundos a meses. A faixa das catecolaminas cobre segundos e minutos. Embaixo dela, o que o sistema explica: a subida rápida da frequência cardíaca, até antes do esforço; a redistribuição de fluxo; glicose e gordura disponíveis e parte do lactato; a diferença entre treino e prova. Do lado das horas aos meses, o que não explica: cansaço de meses; não é exame de painel de atleta; metanefrinas só na suspeita de feocromocitoma; não é o que se trata, trata-se o contexto")]
+    esc = ["segundos", "minutos", "horas", "dias", "meses"]
+    rs = []
+    for i, t in enumerate(esc):
+        x = 80 + i * 376
+        p.append(f'<line x1="{x}" y1="36" x2="{x}" y2="60" stroke="{MUDO}" stroke-width="3"/>')
+        rs.append(rot(x - 100, 0, t, w=200, tam=22, cor=MUDO, alinha="center"))
+    p.append(f'<line x1="80" y1="60" x2="1584" y2="60" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<rect x="40" y="70" width="496" height="30" rx="15" fill="{OXID}"/>')
+    rs.append(rot(40, 72, "catecolaminas", w=496, tam=20, cor=PAPEL, peso=700, alinha="center"))
+    lados = [(0, 740, "Explica", OXID, OXID_T,
+              ["a subida rápida da frequência cardíaca, até antes do esforço", "a redistribuição de fluxo", "glicose e gordura disponíveis, parte do lactato", "a diferença entre treino e prova"]),
+             (804, 860, "Não explica", FOSF, FOSF_T,
+              ["cansaço de meses: sobe em segundos, cai em minutos", "não é exame de painel de atleta", "metanefrinas: só na suspeita de feocromocitoma", "não é o que se trata: trata-se o contexto"])]
+    for x, w, t, cor, fundo, itens in lados:
+        p.append(caixa(x, 124, w, 316, cor, fundo, esp=3, rx=16))
+        p.append(icone("t:check" if cor == OXID else "t:x", x + 20, 138, 40, cor))
+        rs.append(rot(x + 70, 140, t, w=w - 90, tam=28, cor=cor, peso=700, serif=True))
+        for k, it in enumerate(itens):
+            rs.append(rot(x + 24, 196 + k * 60, it, w=w - 48, tam=24, cor=TINTA, lh=1.2))
+    return slide("limites", 440, p, rs,
+                 eyebrow="Onde a conversa escorrega", titulo="O que esse sistema explica, e o que não explica",
+                 fonte="Lenders e colaboradores, Endocrine Society 2014")
+
+
+# ---------------------------------------------------------------- 3.4
+
+def pedido():
+    """3.4: quatro sintomas que convergem num quadro, e o quadro que aponta para muitas causas."""
+    p = [svg_abre(1664, 420, "À esquerda, os quatro sintomas atribuídos à testosterona: cansaço, libido baixa, dificuldade de ganhar massa, humor ruim. Eles convergem num quadro só. Do quadro saem muitas setas: testosterona baixa é uma delas; sono curto e apneia, déficit de energia, excesso de treino e depressão também produzem o mesmo quadro"), defs(MUDO)]
+    sint = [("t:battery-1", "cansaço"), ("t:heart-broken", "libido baixa"), ("t:barbell", "dificuldade de ganhar massa"), ("t:mood-sad", "humor ruim")]
+    rs = [rot(0, 0, "Os sintomas atribuídos à testosterona", w=520, tam=24, cor=FOSF, peso=700)]
+    for k, (ic, t) in enumerate(sint):
+        y = 50 + k * 90
+        p.append(caixa(0, y, 480, 72, FOSF, FOSF_T, esp=2, rx=36))
+        p.append(icone(ic, 20, y + 14, 44, FOSF))
+        rs.append(rot(80, y + 20, t, w=390, tam=24, cor=TINTA))
+        p.append(f'<path d="M 484 {y+36} C 560 {y+36}, 560 226, 632 226" fill="none" stroke="{CINZA}" stroke-width="4"/>')
+    p.append(f'<circle cx="720" cy="226" r="90" fill="{TINTA}"/>')
+    rs.append(rot(640, 206, "o quadro", w=160, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True))
+    causas = [("testosterona baixa", GLIC), ("sono curto, apneia", AZUL), ("déficit de energia", AZUL), ("excesso de treino", AZUL), ("depressão", AZUL), ("e muitas outras", MUDO)]
+    rs.append(rot(1004, 0, "O que também produz esse quadro", w=660, tam=24, cor=TINTA, peso=700))
+    for k, (t, cor) in enumerate(causas):
+        y = 44 + k * 62
+        p.append(f'<path d="M 810 226 C 900 226, 900 {y+26}, 996 {y+26}" fill="none" stroke="{cor}" stroke-width="3"/>')
+        p.append(caixa(1004, y, 520, 52, cor, CARTAO, esp=2 if cor == MUDO else 3, rx=26))
+        rs.append(rot(1004, y + 11, t, w=520, tam=24, cor=cor, peso=700, alinha="center"))
+    return slide("pedido", 420, p, rs,
+                 eyebrow="280 ng/dL e um pedido pronto", titulo="Um quadro que aponta para vinte coisas",
+                 destaque="“Minha testosterona está em 280, já pesquisei, está abaixo do normal, eu quero começar reposição.”",
+                 destaque_cor="ambar")
+
+
+def verdades():
+    """3.4: a doença que existe, e o orçamento que corta primeiro a reprodução."""
+    p = [svg_abre(1664, 440, "À esquerda, o hipogonadismo que existe: Klinefelter, quimio ou radioterapia pélvica, trauma ou torção; tumor de hipófise, prolactina alta, hemocromatose; opioide crônico, corticoide em dose alta; anabolizante com eixo que não recuperou. À direita, um orçamento de energia com os gastos em ordem de prioridade: manter-se vivo, mover-se, reparar, e por último reproduzir. Quando falta caixa, o corte começa por cima, na reprodução")]
+    p.append(caixa(0, 0, 780, 440, FOSF, FOSF_T, esp=3, rx=16))
+    rs = [rot(24, 16, "Hipogonadismo existe", w=730, tam=30, cor=FOSF, peso=700, serif=True)]
+    doencas = [("t:id", "Klinefelter, quimio ou radioterapia pélvica, trauma ou torção"),
+               ("t:brain", "tumor de hipófise, prolactina alta, hemocromatose"),
+               ("t:pill", "opioide crônico, corticoide em dose alta"),
+               ("t:barbell", "anabolizante com eixo que não recuperou")]
+    for k, (ic, t) in enumerate(doencas):
+        y = 80 + k * 88
+        p.append(icone(ic, 24, y + 6, 48, FOSF))
+        rs.append(rot(92, y, t, w=660, tam=24, cor=TINTA, lh=1.25))
+    rs.append(rot(900, 0, "Suprimido por contexto", w=764, tam=30, cor=OXID, peso=700, serif=True))
+    gastos = [("reproduzir", GLIC, True), ("reparar", AZUL, False), ("mover-se", AZUL, False), ("manter-se vivo", TINTA, False)]
+    for k, (t, cor, corta) in enumerate(gastos):
+        y = 60 + k * 84
+        if corta:
+            p.append(f'<rect x="900" y="{y}" width="460" height="70" rx="12" fill="{CARTAO}" stroke="{cor}" stroke-width="4" stroke-dasharray="12 8"/>')
+        else:
+            p.append(f'<rect x="900" y="{y}" width="460" height="70" rx="12" fill="{cor}"/>')
+        rs.append(rot(900, y + 18, t, w=460, tam=26, cor=cor if corta else PAPEL, peso=700, alinha="center"))
+    p.append(f'<line x1="880" y1="146" x2="1380" y2="146" stroke="{FOSF}" stroke-width="5"/>')
+    rs += [rot(1390, 60, "quando falta caixa, é o primeiro corte", w=274, tam=24, cor=FOSF, peso=700, lh=1.25),
+           rot(1390, 200, "o que pesa na conta: sono, energia, treino, vida", w=274, tam=22, cor=TINTA, lh=1.25),
+           rot(900, 400, "dos cinco eixos, o mais fácil de desligar", w=764, tam=24, cor=OXID, peso=700)]
+    return slide("verdades", 440, p, rs,
+                 eyebrow="Duas coisas verdadeiras ao mesmo tempo", titulo="Doença real, e o eixo mais fácil de desligar",
+                 destaque="A pergunta não é “quanto está”. É: o eixo está doente, ou está fazendo o que deveria diante da conta desse homem?",
+                 destaque_cor="tinta")
+
+
+def estradiol():
+    """3.4: dois círculos, testosterona e estradiol, e o que coube a cada um e aos dois."""
+    p = [svg_abre(1664, 420, "Dois círculos que se sobrepõem. No da testosterona: massa magra, área muscular da coxa, força no leg press. No do estradiol: acúmulo de gordura, sobretudo. Na interseção, o que dependeu dos dois: libido e ereção")]
+    p.append(f'<circle cx="692" cy="206" r="200" fill="{OXID}" fill-opacity="0.14" stroke="{OXID}" stroke-width="4"/>')
+    p.append(f'<circle cx="952" cy="206" r="200" fill="{GLIC}" fill-opacity="0.14" stroke="{GLIC}" stroke-width="4"/>')
+    p.append(f'<path d="M 822 54 A 200 200 0 0 1 822 358 A 200 200 0 0 1 822 54 Z" fill="{FOSF}" fill-opacity="0.22"/>')
+    rs = [rot(160, 40, "Testosterona", w=300, tam=30, cor=OXID, peso=700, serif=True, alinha="right"),
+          rot(1204, 40, "Estradiol", w=300, tam=30, cor=GLIC, peso=700, serif=True),
+          rot(516, 150, "massa magra", w=236, tam=20, cor=TINTA, peso=600),
+          rot(506, 196, "área muscular da coxa", w=246, tam=20, cor=TINTA, peso=600),
+          rot(516, 242, "força no leg press", w=236, tam=20, cor=TINTA, peso=600),
+          rot(924, 180, "acúmulo de gordura, sobretudo", w=200, tam=20, cor=TINTA, peso=600, lh=1.25),
+          rot(752, 170, "libido e ereção", w=140, tam=22, cor=FOSF, peso=700, alinha="center", lh=1.2),
+          rot(742, 234, "dependeu dos dois", w=160, tam=20, cor=FOSF, alinha="center", lh=1.15)]
+    return slide("estradiol", 420, p, rs,
+                 eyebrow="Um ensaio de doses graduadas, 2013", titulo="O estradiol no homem não é impureza",
+                 destaque="Bloquear aromatase para “otimizar” custa gordura, osso e função sexual: o que o paciente foi buscar.",
+                 destaque_cor="verm", fonte="Finkelstein e colaboradores, New England Journal of Medicine 2013 · homens de 20 a 50 anos, produção própria suprimida, doses graduadas com e sem inibidor de aromatase")
+
+
+def saidaA():
+    """3.4: o que acontece embaixo do número depois que a reposição começa."""
+    p = [svg_abre(1664, 430, "Linha do tempo esquemática depois do início da reposição. A testosterona no sangue sobe para a faixa normal. O LH cai e o testículo para, por meses a anos. A produção de espermatozoide cai junto. Embaixo, uma faixa cinza continua igual o tempo todo: o contexto de sono, energia e treino segue rodando"), defs(TINTA)]
+    X0, X1 = 260, 1640
+    p.append(f'<line x1="{X0 + 180}" y1="10" x2="{X0 + 180}" y2="330" stroke="{TINTA}" stroke-width="3"{TRACO}/>')
+    rs = [rot(X0 + 190, 0, "começa a reposição", w=300, tam=22, cor=TINTA, peso=700)]
+    faixas = [(40, "Testosterona no sangue", OXID, [(0, 0.2), (0.14, 0.2), (0.22, 0.85), (1, 0.85)], "o número normaliza"),
+              (140, "LH e testículo", FOSF, [(0, 0.7), (0.14, 0.7), (0.24, 0.08), (1, 0.08)], "parado por meses a anos, nem sempre volta ao que era"),
+              (240, "Espermatozoide", FOSF, [(0, 0.7), (0.14, 0.7), (0.34, 0.1), (1, 0.1)], "e ninguém perguntou se ele ainda quer ter filho")]
+    for y, t, cor, pts, nota in faixas:
+        d = "M" + " L".join(f"{X0 + a * (X1 - X0):.0f} {y + 80 - b * 70:.0f}" for a, b in pts)
+        p.append(f'<line x1="{X0}" y1="{y+80}" x2="{X1}" y2="{y+80}" stroke="{CINZA}" stroke-width="2"/>')
+        p.append(f'<path d="{d}" fill="none" stroke="{cor}" stroke-width="6" stroke-linejoin="round"/>')
+        rs += [rot(0, y + 38, t, w=240, tam=22, cor=cor, peso=700, alinha="right"),
+               rot(X0 + 520, y + 48 if cor == OXID else y + 36, nota, w=X1 - X0 - 520, tam=22, cor=cor if cor != OXID else OXID, peso=600)]
+    p.append(f'<rect x="{X0}" y="352" width="{X1 - X0}" height="56" rx="12" fill="{CINZA}"/>')
+    rs += [rot(0, 366, "O contexto", w=240, tam=22, cor=TINTA, peso=700, alinha="right"),
+           rot(X0 + 20, 364, "sono, energia, treino: continua rodando embaixo, e a causa fica", w=X1 - X0 - 40, tam=24, cor=TINTA, peso=600)]
+    return slide("saidaA", 430, p, rs,
+                 eyebrow="Saída A", titulo="Repor agora, quando a leitura está errada",
+                 destaque="O argumento é honesto: ele tem sintoma e a reposição funciona. O custo aparece quando o número era contexto.",
+                 destaque_cor="ambar", fonte="Esquema, sem valores medidos")
+
+
+def saidaC():
+    """3.4: as bandeiras que tornam a investigação obrigatória, e o caminho de quando ela é pulada."""
+    p = [svg_abre(1664, 430, "À esquerda, quatro bandeiras que tornam a investigação obrigatória: LH alto com testosterona baixa; alteração visual, dor de cabeça, galactorreia; trauma, quimio ou radioterapia, caxumba; testículos pequenos, ginecomastia, anabolizante. À direita, o caminho de quando a investigação é pulada: anos de estilo de vida em quem tinha Klinefelter, prolactinoma ou tumor de hipófise; o erro mais raro, e mais grave"), defs(TINTA, FOSF)]
+    rs = [rot(0, 0, "Obrigatória quando", w=760, tam=28, cor=FOSF, peso=700, serif=True)]
+    band = ["LH alto com testosterona baixa", "alteração visual, dor de cabeça, galactorreia", "trauma, quimio ou radioterapia, caxumba", "testículos pequenos, ginecomastia, anabolizante"]
+    for k, t in enumerate(band):
+        y = 56 + k * 92
+        p.append(caixa(0, y, 760, 76, FOSF, FOSF_T, esp=2, rx=14))
+        p.append(icone("t:flag", 18, y + 14, 46, FOSF))
+        rs.append(rot(84, y + 22, t, w=660, tam=24, cor=TINTA))
+    rs.append(rot(860, 0, "Quando é pulada", w=804, tam=28, cor=TINTA, peso=700, serif=True))
+    passos = [("t:zoom-question", "“é estilo de vida”", MUDO), ("t:calendar", "anos corrigindo sono, dieta e treino", MUDO), ("t:alert-triangle", "Klinefelter, prolactinoma, tumor de hipófise", FOSF)]
+    for k, (ic, t, cor) in enumerate(passos):
+        y = 56 + k * 124
+        p.append(caixa(860, y, 804, 92, cor, CARTAO, esp=3, rx=14))
+        p.append(icone(ic, 880, y + 20, 52, cor))
+        rs.append(rot(950, y + 26, t, w=700, tam=24, cor=cor if cor == FOSF else TINTA, peso=700 if cor == FOSF else 400))
+        if k < 2:
+            p.append(seta(1262, y + 96, 1262, y + 118, TINTA, "m0", esp=4))
+    rs.append(rot(860, 404, "o erro mais raro, e mais grave", w=804, tam=24, cor=FOSF, peso=700))
+    return slide("saidaC", 430, p, rs,
+                 eyebrow="Saída C", titulo="Investigar a causa verdadeira",
+                 destaque="Nem todo mundo responde à correção da conta. O que se defende não é nunca repor: é nunca repor sem ter montado a conta antes.",
+                 destaque_cor="petr")
+
+
+def criterio():
+    """3.4: as seis perguntas como um caminho com dois portões."""
+    p = [svg_abre(1664, 430, "Um caminho com dois portões e três perguntas em cada. Antes de dosar: como está a conta de sono, energia, treino e vida; há déficit ou perda de peso rápida; usa ou já usou algo hormonal, pelo nome, sem julgamento. Antes de repor, decisão médica: a conta foi corrigida e mantida por tempo suficiente; o sintoma é consistente, e não só número; ele sabe da supressão e do impacto na fertilidade"), defs(TINTA)]
+    blocos = [(0, "Antes de dosar", OXID, OXID_T, ["Como está a conta: sono, energia, treino, vida?", "Déficit ou perda de peso rápida?", "Usa ou já usou algo hormonal? Pelo nome, sem julgamento"]),
+              (872, "Antes de repor: decisão médica", FOSF, FOSF_T, ["A conta foi corrigida e mantida por tempo suficiente?", "Sintoma consistente, e não só número?", "Ele sabe da supressão e do impacto na fertilidade?"])]
+    rs = []
+    n = 1
+    for x, t, cor, fundo, qs in blocos:
+        p.append(caixa(x, 0, 792, 430, cor, fundo, esp=3, rx=18))
+        rs.append(rot(x + 28, 18, t, w=740, tam=28, cor=cor, peso=700, serif=True))
+        for k, q in enumerate(qs):
+            y = 86 + k * 112
+            p.append(f'<circle cx="{x+60}" cy="{y+40}" r="32" fill="{cor}"/>')
+            rs.append(rot(x + 28, y + 24, str(n), w=64, tam=28, cor=PAPEL, peso=700, alinha="center"))
+            rs.append(rot(x + 112, y + 8, q, w=650, tam=24, cor=TINTA, lh=1.3))
+            n += 1
+    p.append(seta(796, 215, 866, 215, TINTA, "m0", esp=6))
+    return slide("criterio", 430, p, rs,
+                 eyebrow="O que torna a decisão defensável", titulo="Seis perguntas",
+                 destaque="Relação testosterona-cortisol: reconheça quando aparecer, não use para decidir. Para carga, carga interna, sono, peso e relato.",
+                 destaque_cor="ambar", fonte="Urhausen, Gabriel e Kindermann, Sports Medicine 1995")
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"03-01": [laudos, pares, anamnese, ficha, cinco],
-          "03-02": [vilao, funcao, cuidados, investigar, fadiga]}
+          "03-02": [vilao, funcao, cuidados, investigar, fadiga],
+          "03-03": [origem, efeitos, beta, limites],
+          "03-04": [pedido, verdades, estradiol, saidaA, saidaC, criterio]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

@@ -151,68 +151,336 @@
   },
   {
    "id": "origem",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"À esquerda, a medula da adrenal lança adrenalina no sangue, e ela viaja até órgãos distantes: a peça endócrina do sistema. À direita, uma terminação simpática solta noradrenalina dentro do tecido; a maior parte age ali, e só o excedente escapa da sinapse para o vaso, onde é medido no plasma\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><ellipse cx=\"120\" cy=\"170\" rx=\"100\" ry=\"70\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><ellipse cx=\"120\" cy=\"170\" rx=\"46\" ry=\"30\" fill=\"#008A7E\"/><rect x=\"230\" y=\"150\" width=\"480\" height=\"44\" rx=\"22\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"258\" cy=\"172\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"316\" cy=\"172\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"374\" cy=\"172\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"432\" cy=\"172\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"490\" cy=\"172\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"548\" cy=\"172\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"606\" cy=\"172\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"664\" cy=\"172\" r=\"9\" fill=\"#008A7E\"/><line x1=\"712\" y1=\"172\" x2=\"744\" y2=\"84\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><g transform=\"translate(756.0 60.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><line x1=\"712\" y1=\"172\" x2=\"744\" y2=\"174\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><g transform=\"translate(756.0 150.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><line x1=\"712\" y1=\"172\" x2=\"744\" y2=\"264\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><g transform=\"translate(756.0 240.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"884\" y1=\"120\" x2=\"1184\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><circle cx=\"1204\" cy=\"120\" r=\"36\" fill=\"#A8322A\"/><rect x=\"1264\" y=\"60\" width=\"200\" height=\"130\" rx=\"20\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1250\" cy=\"96\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1258\" cy=\"120\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1250\" cy=\"144\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1264\" cy=\"108\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1264\" cy=\"132\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1272\" cy=\"90\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1272\" cy=\"150\" r=\"7\" fill=\"#A8322A\"/><rect x=\"984\" y=\"270\" width=\"680\" height=\"44\" rx=\"22\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><path d=\"M 1244 160 C 1214 210, 1184 230, 1184 262\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"6 6\" marker-end=\"url(#m1)\"/><circle cx=\"1144\" cy=\"292\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1204\" cy=\"292\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1264\" cy=\"292\" r=\"7\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 780,
+     "t": "Adrenalina",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 0,
+     "w": 780,
+     "t": "Noradrenalina",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 250,
+     "w": 200,
+     "t": "medula da adrenal",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 110,
+     "w": 480,
+     "t": "cai na circulação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 320,
+     "w": 780,
+     "t": "age longe: é a peça endócrina do sistema",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 360,
+     "w": 780,
+     "t": "produzida na medula da adrenal, age em órgãos distantes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 70,
+     "w": 300,
+     "t": "terminação simpática",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1264,
+     "y": 196,
+     "w": 200,
+     "t": "tecido",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 214,
+     "w": 280,
+     "t": "o excedente que escapou",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 330,
+     "w": 780,
+     "t": "no plasma, é o eco de uma atividade local, espalhada pelo corpo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 396,
+     "w": 780,
+     "t": "marca quanto o simpático está acionado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "De onde vem cada uma",
    "titulo": "Um hormônio e um neurotransmissor que vazou",
-   "esq": {
-    "t": "Adrenalina",
-    "cor": "petr",
-    "itens": [
-     "produzida na medula da adrenal",
-     "cai na circulação e age longe",
-     "é a peça endócrina do sistema"
-    ]
-   },
-   "dir": {
-    "t": "Noradrenalina",
-    "cor": "verm",
-    "itens": [
-     "liberada nas terminações simpáticas, dentro dos tecidos",
-     "no plasma, o excedente que escapou das sinapses",
-     "marca quanto o simpático está acionado"
-    ]
-   },
-   "destaque": "Noradrenalina plasmática não é um comando que desce. É o eco de uma atividade local, espalhada pelo corpo.",
+   "destaque": "Noradrenalina plasmática não é um comando que desce.",
    "destaque_cor": "tinta"
   },
   {
    "id": "efeitos",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Muita coisa ao mesmo tempo",
-   "titulo": "Liga em segundos, desliga em minutos",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 430,
+   "svg": "<svg aria-label=\"No centro, as catecolaminas. Em volta, seis alvos ao mesmo tempo: coração, mais frequência e mais força; vaso, fecha víscera e pele e abre o músculo que trabalha; brônquio, dilata, o mesmo receptor da medicação de asma; fígado, quebra glicogênio e solta glicose; tecido adiposo, libera gordura; músculo, acelera a glicólise com oxigênio sobrando. Embaixo, uma régua: liga em segundos, desliga em minutos\" width=\"1664\" height=\"430\" viewBox=\"0 0 1664 430\"><line x1=\"832\" y1=\"150\" x2=\"540\" y2=\"45\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"150\" x2=\"540\" y2=\"155\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"150\" x2=\"540\" y2=\"265\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"150\" x2=\"1124\" y2=\"45\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"150\" x2=\"1124\" y2=\"155\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><line x1=\"832\" y1=\"150\" x2=\"1124\" y2=\"265\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"150\" r=\"120\" fill=\"#12202E\"/><rect x=\"0\" y=\"0\" width=\"540\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(18.0 20.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><rect x=\"0\" y=\"110\" width=\"540\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(18.0 130.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 19a2 2 0 1 0 4 0a2 2 0 0 0-4 0M19 7a2 2 0 1 0 0-4a2 2 0 0 0 0 4m-8 12h5.5a3.5 3.5 0 0 0 0-7h-8a3.5 3.5 0 0 1 0-7H13\"/></g><rect x=\"0\" y=\"220\" width=\"540\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(18.0 240.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 12h-2c-.894 0-1.662-.857-1.761-2c-.296-3.45-.749-6-2.749-6s-2.5 3.582-2.5 8s-.5 8-2.5 8s-2.452-2.547-2.749-6c-.1-1.147-.867-2-1.763-2h-2\"/></g><rect x=\"1124\" y=\"0\" width=\"540\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1142.0 20.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1124\" y=\"110\" width=\"540\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1142.0 130.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"1124\" y=\"220\" width=\"540\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1142.0 240.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"0\" y1=\"360\" x2=\"1664\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"0\" y=\"346\" width=\"140\" height=\"28\" rx=\"14\" fill=\"#A8322A\"/><path d=\"M 140 346 L 620 356 L 620 364 L 140 374 Z\" fill=\"#F3E1DE\"/></svg>",
+   "rotulos": [
     {
+     "x": 722,
+     "y": 116,
+     "w": 220,
+     "t": "Catecolaminas",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 722,
+     "y": 158,
+     "w": 220,
+     "t": "tudo ao mesmo tempo",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 8,
+     "w": 440,
      "t": "Coração",
-     "x": "mais frequência e mais força",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 84,
+     "y": 46,
+     "w": 440,
+     "t": "mais frequência e mais força",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 84,
+     "y": 118,
+     "w": 440,
      "t": "Vaso",
-     "x": "fecha víscera e pele, abre o músculo que trabalha",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 84,
+     "y": 156,
+     "w": 440,
+     "t": "fecha víscera e pele, abre o músculo que trabalha",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 84,
+     "y": 228,
+     "w": 440,
      "t": "Brônquio",
-     "x": "dilata: o mesmo receptor da medicação de asma",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 84,
+     "y": 266,
+     "w": 440,
+     "t": "dilata: o receptor da medicação de asma",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1208,
+     "y": 8,
+     "w": 440,
      "t": "Fígado",
-     "x": "quebra glicogênio, solta glicose",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1208,
+     "y": 46,
+     "w": 440,
+     "t": "quebra glicogênio, solta glicose",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1208,
+     "y": 118,
+     "w": 440,
      "t": "Tecido adiposo",
-     "x": "libera gordura",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1208,
+     "y": 156,
+     "w": 440,
+     "t": "libera gordura",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1208,
+     "y": 228,
+     "w": 440,
      "t": "Músculo",
-     "x": "acelera a glicólise, com oxigênio sobrando",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1208,
+     "y": 266,
+     "w": 440,
+     "t": "acelera a glicólise, com oxigênio sobrando",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 0,
+     "y": 384,
+     "w": 300,
+     "t": "liga em segundos",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 384,
+     "w": 300,
+     "t": "desliga em minutos",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 384,
+     "w": 464,
+     "t": "horas, dias: fora do alcance",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Muita coisa ao mesmo tempo",
+   "titulo": "Liga em segundos, desliga em minutos",
    "destaque": "Parte do lactato do esforço intenso depende da adrenalina, não da falta de oxigênio.",
    "destaque_cor": "petr",
    "fonte": "Hargreaves e Spriet, Nature Metabolism 2020"
@@ -408,57 +676,338 @@
   },
   {
    "id": "beta",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Gráfico esquemático de frequência cardíaca contra esforço. A curva de referência sobe até a máxima prevista. A do betabloqueado sobe menos e achata no pico, então o percentual da máxima prevista subestima o esforço. A de quem usa estimulante corre acima da referência, somando num sistema que o exercício já aciona\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"90\" y1=\"400\" x2=\"900\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"90\" y1=\"400\" x2=\"90\" y2=\"30\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"90\" y1=\"70\" x2=\"900\" y2=\"70\" stroke=\"#C9CFD4\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><path d=\"M90 318 L292 261 L495 195 L698 129 L900 70\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M90 341 L292 301 L495 261 L698 228 L900 209\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M90 275 L292 215 L495 156 L698 103 L860 57\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"960\" y=\"220\" width=\"704\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 40,
+     "w": 260,
+     "t": "máxima prevista",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 20,
+     "w": 80,
+     "t": "FC",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 408,
+     "w": 810,
+     "t": "esforço",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 250,
+     "w": 260,
+     "t": "betabloqueado: pico achatado",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 270,
+     "y": 120,
+     "w": 260,
+     "t": "com estimulante",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 490,
+     "y": 212,
+     "w": 180,
+     "t": "referência",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 14,
+     "w": 660,
+     "t": "Betabloqueador",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 62,
+     "w": 660,
+     "t": "o percentual da máxima prevista subestima o esforço",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 128,
+     "w": 660,
+     "t": "a percepção de esforço vira o instrumento principal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 234,
+     "w": 660,
+     "t": "Estimulantes",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 282,
+     "w": 660,
+     "t": "saudável, dose habitual: costuma ser tolerado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 348,
+     "w": 660,
+     "t": "arritmia, hipertensão mal controlada, doença cardíaca: cuidado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A situação espelhada",
    "titulo": "Quando o relógio subestima o esforço",
-   "esq": {
-    "t": "Betabloqueador",
-    "cor": "petr",
-    "itens": [
-     "a frequência não sobe como a de outra pessoa",
-     "o pico fica achatado",
-     "percentual da máxima prevista subestima o esforço",
-     "percepção de esforço vira o instrumento principal"
-    ]
-   },
-   "dir": {
-    "t": "Estimulantes",
-    "cor": "verm",
-    "itens": [
-     "cafeína em dose alta, termogênico, pré-treino adrenérgico",
-     "somam num sistema que o exercício já aciona",
-     "saudável, dose habitual: costuma ser tolerado",
-     "arritmia, hipertensão mal controlada, doença cardíaca: cuidado"
-    ]
-   },
    "destaque": "No betabloqueado, a percepção de esforço deixa de ser alternativa: é o instrumento, para prescrever e para interpretar um teste.",
-   "destaque_cor": "petr"
+   "destaque_cor": "petr",
+   "fonte": "Curvas: esquema, sem valores medidos"
   },
   {
    "id": "limites",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Uma régua de tempo de segundos a meses. A faixa das catecolaminas cobre segundos e minutos. Embaixo dela, o que o sistema explica: a subida rápida da frequência cardíaca, até antes do esforço; a redistribuição de fluxo; glicose e gordura disponíveis e parte do lactato; a diferença entre treino e prova. Do lado das horas aos meses, o que não explica: cansaço de meses; não é exame de painel de atleta; metanefrinas só na suspeita de feocromocitoma; não é o que se trata, trata-se o contexto\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"80\" y1=\"36\" x2=\"80\" y2=\"60\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"456\" y1=\"36\" x2=\"456\" y2=\"60\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"832\" y1=\"36\" x2=\"832\" y2=\"60\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1208\" y1=\"36\" x2=\"1208\" y2=\"60\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1584\" y1=\"36\" x2=\"1584\" y2=\"60\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"80\" y1=\"60\" x2=\"1584\" y2=\"60\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"40\" y=\"70\" width=\"496\" height=\"30\" rx=\"15\" fill=\"#008A7E\"/><rect x=\"0\" y=\"124\" width=\"740\" height=\"316\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(20.0 138.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"804\" y=\"124\" width=\"860\" height=\"316\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(824.0 138.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": -20,
+     "y": 0,
+     "w": 200,
+     "t": "segundos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 356,
+     "y": 0,
+     "w": 200,
+     "t": "minutos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 732,
+     "y": 0,
+     "w": 200,
+     "t": "horas",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1108,
+     "y": 0,
+     "w": 200,
+     "t": "dias",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1484,
+     "y": 0,
+     "w": 200,
+     "t": "meses",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 72,
+     "w": 496,
+     "t": "catecolaminas",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 140,
+     "w": 650,
+     "t": "Explica",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 196,
+     "w": 692,
+     "t": "a subida rápida da frequência cardíaca, até antes do esforço",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 256,
+     "w": 692,
+     "t": "a redistribuição de fluxo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 316,
+     "w": 692,
+     "t": "glicose e gordura disponíveis, parte do lactato",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 376,
+     "w": 692,
+     "t": "a diferença entre treino e prova",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 874,
+     "y": 140,
+     "w": 770,
+     "t": "Não explica",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 828,
+     "y": 196,
+     "w": 812,
+     "t": "cansaço de meses: sobe em segundos, cai em minutos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 828,
+     "y": 256,
+     "w": 812,
+     "t": "não é exame de painel de atleta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 828,
+     "y": 316,
+     "w": 812,
+     "t": "metanefrinas: só na suspeita de feocromocitoma",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 828,
+     "y": 376,
+     "w": 812,
+     "t": "não é o que se trata: trata-se o contexto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "Onde a conversa escorrega",
    "titulo": "O que esse sistema explica, e o que não explica",
-   "esq": {
-    "t": "Explica",
-    "cor": "petr",
-    "itens": [
-     "a subida rápida da frequência cardíaca, até antes do esforço",
-     "a redistribuição de fluxo",
-     "glicose e gordura disponíveis, parte do lactato",
-     "a diferença entre treino e prova"
-    ]
-   },
-   "dir": {
-    "t": "Não explica",
-    "cor": "verm",
-    "itens": [
-     "cansaço de meses: sobe em segundos, cai em minutos",
-     "não é exame de painel de atleta",
-     "metanefrinas: só na suspeita de feocromocitoma",
-     "não é o que se trata: trata-se o contexto"
-    ]
-   },
    "fonte": "Lenders e colaboradores, Endocrine Society 2014"
   },
   {

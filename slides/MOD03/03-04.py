@@ -193,6 +193,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Quem faz o quê", "titulo"
                     {"t": "O encaminhamento", "x": "“Perdeu 11 kg em 5 meses, 6 sessões, dorme 5h30, rendimento e libido em queda há 3 meses.”"}],
           "quem": "Reposição, eixo pós-anabolizante e moduladores seletivos exigem formação clínica que um módulo não entrega."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "03-04")
+
 spec = {"arquivo": "aulas/MOD03/03-04-testosterona-no-praticante.md",
         "modulo": "Fisiologia Hormonal e Endocrinologia do Exercício", "tema": "bordo",
         "titulo": "Testosterona no praticante de exercício", "subtitulo": "Avaliação laboratorial e decisão terapêutica",
