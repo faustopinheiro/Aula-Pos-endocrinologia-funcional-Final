@@ -22,11 +22,80 @@
  "slides": [
   {
    "id": "formigamento",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Um balão com a frase de quem parou no terceiro dia: não senti nada, só um formigamento. Embaixo, os dois erros de número. Primeiro: esperava efeito no dia, e a beta-alanina funciona por acúmulo, em semanas. Segundo: leu o formigamento como falha, quando é parestesia esperada, resolvida pela dose\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 0 30 a 30 30 0 0 1 30 -30 h 1000 a 30 30 0 0 1 30 30 v 70 a 30 30 0 0 1 -30 30 h -880 l -50 40 l 10 -40 h -80 a 30 30 0 0 1 -30 -30 z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"0\" y=\"200\" width=\"812\" height=\"150\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(20.0 222.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><line x1=\"40\" y1=\"272\" x2=\"40\" y2=\"316\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"852\" y=\"200\" width=\"812\" height=\"150\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(872.0 222.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><line x1=\"892\" y1=\"272\" x2=\"892\" y2=\"316\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 36,
+     "w": 1000,
+     "t": "“Não senti nada, só um formigamento.”",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1100,
+     "y": 40,
+     "w": 560,
+     "t": "parou no terceiro dia",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 224,
+     "w": 720,
+     "t": "esperava efeito no dia",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 296,
+     "w": 720,
+     "t": "funciona por acúmulo, em semanas",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 922,
+     "y": 224,
+     "w": 720,
+     "t": "leu o formigamento como falha",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 922,
+     "y": 296,
+     "w": 720,
+     "t": "é parestesia esperada, resolvida pela dose",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Perfil típico",
-   "frase": "“Não senti nada, só um formigamento.”",
-   "apoio": "Parou no terceiro dia. Dois erros de número: esperava efeito no dia, e a beta-alanina funciona por acúmulo, em semanas; e leu o formigamento como falha, quando é parestesia esperada, resolvida pela dose."
+   "titulo": "Parou no terceiro dia, por dois erros de número"
   },
   {
    "id": "carnosina",
@@ -130,29 +199,140 @@
   },
   {
    "id": "acumulo",
-   "tipo": "numeros",
-   "eyebrow": "Hill e colaboradores, 2007",
-   "titulo": "Quatro semanas é o começo, não o fim",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Um gráfico de carnosina muscular ao longo de 10 semanas. Dois pontos medidos: mais 59% em 4 semanas e mais 80% em 10 semanas, ligados por linha. Marcados no eixo, 3 dias e 15 dias, perto do começo. À direita, o trabalho total no teste de bicicleta: mais 13% em 4 semanas\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"120\" y1=\"330\" x2=\"1040\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"120\" y1=\"30\" x2=\"120\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"120,330 488,153 1040,90\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\"/><circle cx=\"488\" cy=\"153\" r=\"12\" fill=\"#B07A1C\"/><circle cx=\"1040\" cy=\"90\" r=\"12\" fill=\"#008A7E\"/><line x1=\"159\" y1=\"270\" x2=\"159\" y2=\"330\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"317\" y1=\"270\" x2=\"317\" y2=\"330\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1140\" y=\"40\" width=\"524\" height=\"290\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1164.0 64.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 18a3 3 0 1 0 6 0a3 3 0 0 0-6 0m14 0a3 3 0 1 0 6 0a3 3 0 0 0-6 0m-4 1v-4l-3-3l5-4l2 3h3m-5.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "+59%",
-     "x": "carnosina muscular em 4 semanas",
-     "cor": "ambar"
+     "x": 0,
+     "y": 20,
+     "w": 110,
+     "t": "carnosina muscular",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "n": "+80%",
-     "x": "carnosina muscular em 10 semanas",
-     "cor": "petr"
+     "x": 368,
+     "y": 101,
+     "w": 240,
+     "t": "+59%",
+     "tam": 34,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "+13%",
-     "x": "trabalho total no teste de bicicleta, em 4 semanas",
-     "cor": "tinta"
+     "x": 920,
+     "y": 38,
+     "w": 240,
+     "t": "+80%",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 50,
+     "y": 342,
+     "w": 140,
+     "t": "início",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 418,
+     "y": 342,
+     "w": 140,
+     "t": "4 semanas",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 970,
+     "y": 342,
+     "w": 140,
+     "t": "10 semanas",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 99,
+     "y": 238,
+     "w": 120,
+     "t": "3 dias",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 257,
+     "y": 238,
+     "w": 120,
+     "t": "15 dias",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 374,
+     "w": 600,
+     "t": "pontos medidos; a linha só os liga",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 140,
+     "w": 524,
+     "t": "+13%",
+     "tam": 64,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 236,
+     "w": 476,
+     "t": "trabalho total no teste de bicicleta, em 4 semanas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Um experimento de 2007",
+   "titulo": "Quatro semanas é o começo, não o fim",
    "destaque": "Quem toma quinze dias e para não chegou à metade do caminho. Quem toma três dias não testou nada.",
    "destaque_cor": "verm",
-   "fonte": "13 homens, biópsia muscular · Amino Acids 2007"
+   "fonte": "Hill e colaboradores · 13 homens, biópsia muscular · Amino Acids 2007"
   },
   {
    "id": "janela",
@@ -257,150 +437,827 @@
   },
   {
    "id": "tamanho",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o mesmo efeito pequeno em dois lugares: num 800 metros, decide a prova; num treino de academia, não se percebe. À direita, o desenho dos estudos, em esquema: muitos ganhos em testes de capacidade, como tempo sustentado e trabalho total, e menos em provas cronometradas reais\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"60\" width=\"760\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(30.0 100.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 21h8m-4-4v4M7 4h10m0 0v8a5 5 0 0 1-10 0V4M3 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m14 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g><rect x=\"0\" y=\"230\" width=\"760\" height=\"150\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(30.0 270.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"860\" y=\"160\" width=\"780\" height=\"34\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"860\" y=\"160\" width=\"663\" height=\"34\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"860\" y=\"300\" width=\"780\" height=\"34\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"860\" y=\"300\" width=\"273\" height=\"34\" rx=\"8\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 760,
+     "t": "O mesmo efeito, pequeno",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 120,
+     "y": 94,
+     "w": 620,
+     "t": "num 800 m",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 142,
+     "w": 620,
+     "t": "decide a prova",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 120,
+     "y": 264,
+     "w": 620,
+     "t": "num treino de academia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 312,
+     "w": 620,
+     "t": "não se percebe",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 0,
+     "w": 780,
+     "t": "Onde os estudos medem",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 90,
+     "w": 780,
+     "t": "testes de capacidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 124,
+     "w": 780,
+     "t": "tempo sustentado, trabalho total",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 230,
+     "w": 780,
+     "t": "provas cronometradas reais",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 264,
+     "w": 780,
+     "t": "menos ganhos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 380,
+     "w": 300,
+     "t": "barras: esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A magnitude, sem propaganda",
    "titulo": "Real, e menor do que o rótulo sugere",
-   "esq": {
-    "t": "O tamanho",
-    "cor": "petr",
-    "itens": [
-     "pequeno, como todo o grupo A",
-     "num 800 m, decide a prova",
-     "num treino de academia, não se percebe"
-    ]
-   },
-   "dir": {
-    "t": "O desenho dos estudos",
-    "cor": "ambar",
-    "itens": [
-     "muitos ganhos em testes de capacidade",
-     "tempo sustentado, trabalho total",
-     "menos em provas cronometradas reais"
-    ]
-   },
    "destaque": "Efeito medido com precisão em laboratório não é garantia do mesmo efeito na rua.",
    "destaque_cor": "tinta"
   },
   {
    "id": "protocolo",
-   "tipo": "numeros",
-   "eyebrow": "Trexler e colaboradores, 2015",
-   "titulo": "O protocolo",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, um dia com três tomadas de cerca de 1,6 grama, de manhã, à tarde e à noite: 4 a 6 gramas por dia, todos os dias. À direita, uma régua de semanas: a partir de 4 semanas há efeito, e o estoque continua subindo por 10 semanas ou mais\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"720\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"60\" y1=\"170\" x2=\"660\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(111.0 100.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><circle cx=\"135\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><g transform=\"translate(336.0 100.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><circle cx=\"360\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><g transform=\"translate(561.0 100.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><circle cx=\"585\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><rect x=\"1073\" y=\"120\" width=\"547\" height=\"80\" rx=\"10\" fill=\"#F4EAD6\"/><line x1=\"800\" y1=\"200\" x2=\"1620\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"800\" y1=\"192\" x2=\"800\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1073\" y1=\"192\" x2=\"1073\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1347\" y1=\"192\" x2=\"1347\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1620\" y1=\"192\" x2=\"1620\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "n": "4 a 6 g",
-     "x": "por dia, todos os dias",
-     "cor": "petr"
+     "x": 24,
+     "y": 18,
+     "w": 600,
+     "t": "Um dia",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "≥ 4 sem",
-     "x": "para efeito; o estoque sobe por 10 semanas ou mais",
-     "cor": "ambar"
+     "x": 55,
+     "y": 186,
+     "w": 160,
+     "t": "manhã",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "≈ 1,6 g",
-     "x": "por tomada, dividida ao longo do dia",
-     "cor": "tinta"
+     "x": 55,
+     "y": 64,
+     "w": 160,
+     "t": "≈ 1,6 g",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 186,
+     "w": 160,
+     "t": "tarde",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 64,
+     "w": 160,
+     "t": "≈ 1,6 g",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 505,
+     "y": 186,
+     "w": 160,
+     "t": "noite",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 505,
+     "y": 64,
+     "w": 160,
+     "t": "≈ 1,6 g",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 250,
+     "w": 670,
+     "t": "4 a 6 g por dia",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 320,
+     "w": 670,
+     "t": "todos os dias, dividida ao longo do dia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 0,
+     "w": 600,
+     "t": "As semanas",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 750,
+     "y": 214,
+     "w": 100,
+     "t": "0 sem",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1023,
+     "y": 214,
+     "w": 100,
+     "t": "4 sem",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1297,
+     "y": 214,
+     "w": 100,
+     "t": "8 sem",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1570,
+     "y": 214,
+     "w": 100,
+     "t": "12 sem",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1087,
+     "y": 132,
+     "w": 500,
+     "t": "≥ 4 semanas: efeito",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 280,
+     "w": 820,
+     "t": "o estoque sobe por 10 semanas ou mais",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O posicionamento de 2015",
+   "titulo": "O protocolo",
    "destaque": "Quem vai competir começa pelo menos um mês antes, idealmente dois ou três.",
    "destaque_cor": "petr",
-   "fonte": "Journal of the International Society of Sports Nutrition 2015"
+   "fonte": "Trexler e colaboradores · Journal of the International Society of Sports Nutrition 2015"
   },
   {
    "id": "notas",
-   "tipo": "lista",
-   "eyebrow": "Parestesia e três notas",
-   "titulo": "O formigamento se resolve com dose",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, a parestesia: formigamento no rosto, pescoço e orelhas, curto, o único efeito adverso relatado; a solução é dividir a dose ou usar liberação prolongada. À direita, três notas: o total acumulado importa mais que o dia; quando para, cai devagar, e alguns dias esquecidos não apagam nada; e é uso diário, em qualquer horário, não um pré-treino, embora seja vendida dentro de um\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"760\" height=\"400\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(30.0 70.0) scale(2.7083)\"><path fill=\"#B07A1C\" d=\"M12.286 42V29.903c-1.731-1.785-5.143-6.24-5.143-11.98C7.143 13.84 10.157 6 21.983 6C28.06 6 30.76 7.486 33.13 9.667q.151.14.298.273c.852.777 1.53 1.395 1.88 2.32c1.3 3.44 3.64 8.452 5.142 11.588c.642 1.338-.332 2.896-1.816 2.896h-1.31V31.5a2 2 0 0 1-2 2h-3.209a1 1 0 0 0-.137-.006q-.285.006-.59.006h-.022c-1.272 0-2.756-.08-4.15-.226c-1.648-.172-3.076-.427-3.878-.715a1 1 0 0 0-.676 1.882c1.044.375 2.675.648 4.346.822c.653.069 1.326.123 1.992.163V42z\"/></g><line x1=\"380\" y1=\"190\" x2=\"380\" y2=\"250\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"24\" y=\"262\" width=\"712\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"820\" y=\"0\" width=\"844\" height=\"124\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(844.0 22.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 19h16M4 15l4-6l4 2l4-5l4 4\"/></g><rect x=\"820\" y=\"136\" width=\"844\" height=\"124\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(844.0 158.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><rect x=\"820\" y=\"272\" width=\"844\" height=\"124\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(844.0 294.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 18,
+     "w": 600,
      "t": "Parestesia",
-     "x": "rosto, pescoço, orelhas; curta; único efeito adverso relatado; dividir a dose ou liberação prolongada",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 190,
+     "y": 80,
+     "w": 540,
+     "t": "rosto, pescoço, orelhas; curta; o único efeito adverso relatado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 48,
+     "y": 282,
+     "w": 670,
+     "t": "dividir a dose, ou liberação prolongada",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 22,
+     "w": 740,
      "t": "O total acumulado importa mais que o dia",
-     "x": "a carga ao longo das semanas enche o estoque",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 900,
+     "y": 66,
+     "w": 740,
+     "t": "a carga ao longo das semanas enche o estoque",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 158,
+     "w": 740,
      "t": "Quando para, cai devagar",
-     "x": "alguns dias esquecidos não apagam nada",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 900,
+     "y": 202,
+     "w": 740,
+     "t": "alguns dias esquecidos não apagam nada",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 294,
+     "w": 740,
      "t": "Uso diário, qualquer horário",
-     "x": "não é pré-treino, embora seja vendida dentro de um",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 338,
+     "w": 740,
+     "t": "não é pré-treino, embora seja vendida dentro de um",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 18
+   "eyebrow": "Parestesia e três notas",
+   "titulo": "O formigamento se resolve com dose"
   },
   {
    "id": "onde",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma régua de duração do esforço, de segundos a horas, com a janela de 30 segundos a 10 minutos destacada. Dentro dela: 400 e 800 metros, 200 metros de natação, remo de 2.000 metros, perseguição e lutas; intermitentes, com evidência mais heterogênea. Fora, à esquerda: salto, uma repetição máxima e tiro curto. Fora, à direita: meia maratona e maratona. Embaixo, mais três notas: vegetarianos têm menos carnosina e mais espaço; não serve a quem quer sentir algo hoje; e não substitui condicionamento\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"409\" y=\"124\" width=\"616\" height=\"92\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"40\" y1=\"170\" x2=\"1620\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"183\" y1=\"162\" x2=\"183\" y2=\"178\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"409\" y1=\"162\" x2=\"409\" y2=\"178\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"551\" y1=\"162\" x2=\"551\" y2=\"178\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1025\" y1=\"162\" x2=\"1025\" y2=\"178\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1394\" y1=\"162\" x2=\"1394\" y2=\"178\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1620\" y1=\"162\" x2=\"1620\" y2=\"178\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"533\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"676\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"710\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"837\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"861\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"942\" cy=\"170\" r=\"9\" fill=\"#008A7E\"/><circle cx=\"137\" cy=\"170\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"1477\" cy=\"170\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"1604\" cy=\"170\" r=\"9\" fill=\"#A8322A\"/><rect x=\"0\" y=\"290\" width=\"528\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 318.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 15h10v4a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2zm5-6a6 6 0 0 0-6-6H3v2a6 6 0 0 0 6 6h3m0 0a6 6 0 0 1 6-6h3v1a6 6 0 0 1-6 6h-3m0 3V9\"/></g><rect x=\"568\" y=\"290\" width=\"528\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(588.0 318.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"1136\" y=\"290\" width=\"528\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1156.0 318.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 133,
+     "y": 224,
+     "w": 100,
+     "t": "10 s",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 359,
+     "y": 224,
+     "w": 100,
+     "t": "30 s",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 501,
+     "y": 224,
+     "w": 100,
+     "t": "1 min",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 975,
+     "y": 224,
+     "w": 100,
+     "t": "10 min",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 224,
+     "w": 100,
+     "t": "1 h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1570,
+     "y": 224,
+     "w": 100,
+     "t": "3 h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 409,
+     "y": 70,
+     "w": 616,
+     "t": "a janela: 30 s a 10 min",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 463,
+     "y": 136,
+     "w": 140,
+     "t": "400 m",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 606,
+     "y": 186,
+     "w": 140,
+     "t": "800 m",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 136,
+     "w": 140,
+     "t": "200 m nado",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 767,
+     "y": 186,
+     "w": 140,
+     "t": "lutas",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 791,
+     "y": 136,
+     "w": 140,
+     "t": "perseguição",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 186,
+     "w": 140,
+     "t": "remo 2.000 m",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 107,
+     "y": 100,
+     "w": 200,
+     "t": "salto, 1RM, tiro curto",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1277,
+     "y": 100,
+     "w": 260,
+     "t": "meia e maratona",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 310,
+     "w": 440,
+     "t": "vegetarianos: menos carnosina, mais espaço",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 642,
+     "y": 310,
+     "w": 440,
+     "t": "não serve a quem quer sentir algo hoje",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 310,
+     "w": 440,
+     "t": "não substitui condicionamento",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "É só aplicar a janela",
    "titulo": "Onde vale, e onde não vale",
-   "esq": {
-    "t": "Vale",
-    "cor": "petr",
-    "itens": [
-     "400 e 800 m; 200 m de natação",
-     "remo de 2.000 m; perseguição",
-     "lutas; intermitentes (evidência mais heterogênea)",
-     "vegetarianos: menos carnosina, mais espaço"
-    ]
-   },
-   "dir": {
-    "t": "Não vale",
-    "cor": "verm",
-    "itens": [
-     "salto, uma repetição máxima, tiro curto",
-     "meia maratona e maratona",
-     "quem quer sentir algo hoje",
-     "como substituto de condicionamento"
-    ]
-   },
    "destaque": "A capacidade de tamponamento se treina. A beta-alanina se soma a esse treino; não o substitui.",
    "destaque_cor": "tinta"
   },
   {
    "id": "perfis",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A mesma régua de duração, com três perfis. A nadadora de 200 metros, com esforço de 2 a 3 minutos, cai no meio da janela: 4 a 6 gramas por dia, divididos, começando dois meses antes. O futsal, de tiros repetidos, está em parte: é defensável, com expectativa calibrada. O maratonista, com esforço de horas, fica fora: funciona, mas não para o que você faz\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"409\" y=\"104\" width=\"616\" height=\"92\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"40\" y1=\"150\" x2=\"1620\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"183\" y1=\"142\" x2=\"183\" y2=\"158\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"409\" y1=\"142\" x2=\"409\" y2=\"158\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"551\" y1=\"142\" x2=\"551\" y2=\"158\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1025\" y1=\"142\" x2=\"1025\" y2=\"158\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1394\" y1=\"142\" x2=\"1394\" y2=\"158\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1620\" y1=\"142\" x2=\"1620\" y2=\"158\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"740\" cy=\"150\" r=\"14\" fill=\"#008A7E\"/><rect x=\"0\" y=\"250\" width=\"528\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(20.0 270.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><circle cx=\"78\" cy=\"150\" r=\"9\" fill=\"#B07A1C\"/><circle cx=\"137\" cy=\"150\" r=\"9\" fill=\"#B07A1C\"/><circle cx=\"220\" cy=\"150\" r=\"9\" fill=\"#B07A1C\"/><rect x=\"568\" y=\"250\" width=\"528\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(588.0 270.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"m12 7l4.76 3.45L15 16H9l-1.76-5.55zm0 0V3m3 13l2.5 3m-.74-8.55L20.5 9M9.06 16.05L6.5 19m.74-8.55L3.5 9\"/></g></g><circle cx=\"1604\" cy=\"150\" r=\"14\" fill=\"#A8322A\"/><rect x=\"1136\" y=\"250\" width=\"528\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1156.0 270.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 133,
+     "y": 204,
+     "w": 100,
+     "t": "10 s",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 359,
+     "y": 204,
+     "w": 100,
+     "t": "30 s",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 501,
+     "y": 204,
+     "w": 100,
+     "t": "1 min",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 975,
+     "y": 204,
+     "w": 100,
+     "t": "10 min",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 204,
+     "w": 100,
+     "t": "1 h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1570,
+     "y": 204,
+     "w": 100,
+     "t": "3 h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 56,
+     "w": 240,
+     "t": "Nadadora, 200 m",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 274,
+     "w": 440,
+     "t": "Nadadora, 200 m: no meio",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 322,
+     "w": 490,
+     "t": "4 a 6 g/dia, divididos, dois meses antes",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 37,
+     "y": 92,
+     "w": 200,
+     "t": "tiros repetidos",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 642,
+     "y": 274,
+     "w": 440,
+     "t": "Futsal: em parte",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 322,
+     "w": 490,
+     "t": "defensável, com expectativa calibrada",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1424,
+     "y": 56,
+     "w": 240,
+     "t": "Maratonista",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 274,
+     "w": 440,
+     "t": "Maratonista: fora",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1156,
+     "y": 322,
+     "w": 490,
+     "t": "“funciona, mas não para o que você faz”",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Três perfis típicos",
    "titulo": "Quem está na janela",
-   "cab": [
-    "Perfil",
-    "Esforço",
-    "Na janela?",
-    "Conduta"
-   ],
-   "larguras": [
-    22,
-    22,
-    16,
-    40
-   ],
-   "linhas": [
-    [
-     "Nadadora, 200 m",
-     "2 a 3 min",
-     "no meio",
-     "4 a 6 g/dia, divididos, dois meses antes"
-    ],
-    [
-     "Futsal",
-     "tiros repetidos",
-     "em parte",
-     "defensável, com expectativa calibrada"
-    ],
-    [
-     "Maratonista",
-     "horas",
-     "fora",
-     "“funciona, mas não para o que você faz”"
-    ]
-   ],
    "destaque": "O dinheiro do maratonista rende mais em carboidrato durante a prova.",
    "destaque_cor": "ambar"
   },

@@ -143,6 +143,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Três regras", "titulo": "
                     {"t": "Educador físico e preparador", "x": "Veem a pergunta primeiro."}],
           "quem": "A melhor resposta ao pedido de pote é uma pergunta."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-06")
+
 spec = {"arquivo": "aulas/MOD05/05-06-proteina-em-po-e-aminoacidos.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Proteína em pó e aminoácidos", "subtitulo": "Tipos, indicação e o limite dos aminoácidos isolados",

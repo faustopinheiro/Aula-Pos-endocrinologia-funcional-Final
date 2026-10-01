@@ -117,6 +117,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Os quatro números", "titu
                     {"t": "Médico", "x": "Sintoma atípico; gestante, criança, adolescente."}],
           "quem": "A pergunta da duração do esforço é de todos."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-04")
+
 spec = {"arquivo": "aulas/MOD05/05-04-beta-alanina-e-capacidade-de-tamponamento.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Beta-alanina", "subtitulo": "Carnosina muscular, janela de efeito e protocolo de uso",

@@ -126,6 +126,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O quadro-resumo", "titulo"
                     {"t": "Preparador e educador físico", "x": "O ensaio em treino."}],
           "quem": "Sem ensaio, não existe protocolo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-05")
+
 spec = {"arquivo": "aulas/MOD05/05-05-nitrato-beterraba-e-bicarbonato-de-sodio.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Nitrato e bicarbonato de sódio", "subtitulo": "Mecanismos, protocolos e tolerância",
