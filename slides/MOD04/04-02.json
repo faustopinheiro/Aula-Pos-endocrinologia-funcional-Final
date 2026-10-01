@@ -22,27 +22,150 @@
  "slides": [
   {
    "id": "conta",
-   "tipo": "numeros",
-   "eyebrow": "Caso ilustrativo",
-   "titulo": "“Eu como muito bem”",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A conta de uma triatleta amadora em blocos: 2.400 quilocalorias por dia no registro de sete dias, menos 700 do exercício, 90 minutos seis dias por semana, dividido por 45 quilos de massa livre de gordura, de 58 quilos com 22% de gordura. O resultado, cerca de 38, cai na faixa entre 30 e 45\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"440\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"880\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"1320\" y=\"0\" width=\"344\" height=\"180\" rx=\"16\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><rect x=\"200\" y=\"260\" width=\"542\" height=\"36\" fill=\"#F3E1DE\"/><rect x=\"742\" y=\"260\" width=\"542\" height=\"36\" fill=\"#F4EAD6\"/><rect x=\"1283\" y=\"260\" width=\"181\" height=\"36\" fill=\"#DDEFEC\"/><line x1=\"742\" y1=\"254\" x2=\"742\" y2=\"302\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1283\" y1=\"254\" x2=\"1283\" y2=\"302\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 1031 254 l -16 -30 l 32 0 z\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
     {
-     "n": "2.400",
-     "x": "kcal por dia no registro de sete dias",
-     "cor": "tinta"
+     "x": 0,
+     "y": 20,
+     "w": 400,
+     "t": "2.400",
+     "tam": 52,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "− 700",
-     "x": "kcal do exercício: 90 minutos, seis dias por semana",
-     "cor": "ambar"
+     "x": 24,
+     "y": 100,
+     "w": 352,
+     "t": "kcal por dia no registro de sete dias",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "÷ 45",
-     "x": "kg de massa livre de gordura: 58 kg com 22% de gordura",
-     "cor": "tinta"
+     "x": 440,
+     "y": 20,
+     "w": 400,
+     "t": "− 700",
+     "tam": 52,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 464,
+     "y": 100,
+     "w": 352,
+     "t": "kcal do exercício: 90 min, seis dias por semana",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 20,
+     "w": 400,
+     "t": "÷ 45 kg",
+     "tam": 52,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 904,
+     "y": 100,
+     "w": 352,
+     "t": "de massa livre de gordura: 58 kg com 22% de gordura",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 20,
+     "w": 344,
+     "t": "≈ 38",
+     "tam": 60,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1320,
+     "y": 110,
+     "w": 344,
+     "t": "resultado",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 702,
+     "y": 306,
+     "w": 80,
+     "t": "30",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1243,
+     "y": 306,
+     "w": 80,
+     "t": "45",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 336,
+     "w": 1264,
+     "t": "kcal por kg de massa livre de gordura por dia",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 971,
+     "y": 196,
+     "w": 120,
+     "t": "38",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Resultado: cerca de 38. Triatleta amadora, 31 anos, encaminhada depois da terceira lesão em um ano.",
+   "eyebrow": "Caso ilustrativo",
+   "titulo": "“Eu como muito bem”",
+   "destaque": "Triatleta amadora, trinta e poucos anos, encaminhada depois da terceira lesão em um ano.",
    "destaque_cor": "petr"
   },
   {
@@ -126,146 +249,717 @@
   },
   {
    "id": "ingestao",
-   "tipo": "lista",
-   "eyebrow": "Passo um",
-   "titulo": "A ingestão",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, uma tira de sete dias de registro alimentar com o fim de semana destacado, ou recordatórios de 24 horas repetidos com foto das refeições. À direita, duas barras: o que foi comido de verdade e o que foi registrado, menor, porque o erro tem direção, para baixo; e numa terceira barra, de quem se preocupa com o corpo, a diferença é ainda maior\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"50\" width=\"100\" height=\"130\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(30.0 70.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"112\" y=\"50\" width=\"100\" height=\"130\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(142.0 70.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"224\" y=\"50\" width=\"100\" height=\"130\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(254.0 70.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"336\" y=\"50\" width=\"100\" height=\"130\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(366.0 70.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"448\" y=\"50\" width=\"100\" height=\"130\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(478.0 70.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"560\" y=\"50\" width=\"100\" height=\"130\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(590.0 70.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"672\" y=\"50\" width=\"100\" height=\"130\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(702.0 70.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><g transform=\"translate(0.0 290.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 7h1a2 2 0 0 0 2-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2\"/><path d=\"M9.5 15a3.5 3.5 0 0 0 5 0m.5-4h.01M9 11h.01\"/></g></g><rect x=\"900\" y=\"100\" width=\"170\" height=\"300\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"1150\" y=\"170\" width=\"170\" height=\"230\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"1400\" y=\"230\" width=\"170\" height=\"170\" rx=\"6\" fill=\"#A8322A\"/><line x1=\"880\" y1=\"400\" x2=\"1664\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"900\" y1=\"100\" x2=\"1660\" y2=\"100\" stroke=\"#3A6EA5\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
     {
-     "t": "Registro de 3 a 7 dias",
-     "x": "com pelo menos um dia de fim de semana",
-     "cor": "petr"
+     "x": 0,
+     "y": 0,
+     "w": 820,
+     "t": "Registro de 3 a 7 dias, com um dia de fim de semana",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Ou recordatórios de 24 h repetidos",
-     "x": "em dias diferentes, com foto das refeições",
-     "cor": "petr"
+     "x": 0,
+     "y": 128,
+     "w": 100,
+     "t": "seg",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "t": "O erro tem direção: para baixo",
-     "x": "esquecimento, porção, o azeite, o que se come em pé",
-     "cor": "ambar"
+     "x": 112,
+     "y": 128,
+     "w": 100,
+     "t": "ter",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "t": "E não é aleatório",
-     "x": "quem se preocupa com o corpo subnotifica mais",
-     "cor": "verm"
+     "x": 224,
+     "y": 128,
+     "w": 100,
+     "t": "qua",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 336,
+     "y": 128,
+     "w": 100,
+     "t": "qui",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 448,
+     "y": 128,
+     "w": 100,
+     "t": "sex",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 128,
+     "w": 100,
+     "t": "sáb",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 672,
+     "y": 128,
+     "w": 100,
+     "t": "dom",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 210,
+     "w": 780,
+     "t": "ou recordatórios de 24 horas repetidos, em dias diferentes, com foto das refeições",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 300,
+     "w": 700,
+     "t": "a foto pega o azeite, a porção e o que se come em pé",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 908,
+     "y": 114,
+     "w": 154,
+     "t": "comido de verdade",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1158,
+     "y": 184,
+     "w": 154,
+     "t": "registrado",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1408,
+     "y": 244,
+     "w": 154,
+     "t": "registrado, quem se preocupa com o corpo",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 880,
+     "y": 0,
+     "w": 784,
+     "t": "O erro tem direção: para baixo, e não é aleatório",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 22
+   "eyebrow": "Passo um",
+   "titulo": "A ingestão",
+   "fonte": "Barras: esquema, sem valores medidos"
   },
   {
    "id": "gasto",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, a conta certa do gasto do exercício: MET menos um, vezes o peso, vezes as horas. Uma barra de gasto total da sessão tem embaixo uma fatia, o repouso que já seria gasto, que sai da conta; em 90 minutos por dia, perto de 100 quilocalorias de diferença. À direita, os instrumentos: relógios e aplicativos tendem a superestimar; a exceção é o medidor de potência no ciclismo, em que os quilojoules de trabalho aproximam as quilocalorias gastas\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"60\" y=\"150\" width=\"200\" height=\"200\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"60\" y=\"300\" width=\"200\" height=\"50\" rx=\"6\" fill=\"#C9CFD4\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><rect x=\"964\" y=\"0\" width=\"700\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(988.0 40.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 9a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3zm3 9v3h6v-3M9 6V3h6v3\"/></g><g transform=\"translate(1070.0 52.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><rect x=\"964\" y=\"220\" width=\"700\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(988.0 262.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 18a3 3 0 1 0 6 0a3 3 0 0 0-6 0m14 0a3 3 0 1 0 6 0a3 3 0 0 0-6 0m-4 1v-4l-3-3l5-4l2 3h3m-5.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 850,
+     "t": "A conta certa",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 70,
+     "w": 850,
+     "t": "(MET − 1) × peso × horas",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 200,
+     "w": 200,
+     "t": "gasto da sessão",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 60,
+     "y": 312,
+     "w": 200,
+     "t": "repouso",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 290,
+     "w": 580,
+     "t": "o “menos um”: o repouso que já seria gasto sai da conta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 170,
+     "w": 580,
+     "t": "em 90 minutos por dia, perto de 100 kcal de diferença",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 30,
+     "w": 500,
+     "t": "Relógios e aplicativos",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 76,
+     "w": 500,
+     "t": "tendem a superestimar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 246,
+     "w": 560,
+     "t": "A exceção: medidor de potência",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1080,
+     "y": 292,
+     "w": 560,
+     "t": "kJ de trabalho ≈ kcal gastas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 340,
+     "w": 560,
+     "t": "eficiência do pedal de 20 a 25%, e 1 kcal ≈ 4 kJ",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo dois",
-   "titulo": "O gasto do exercício, descontado o repouso",
-   "esq": {
-    "t": "A conta certa",
-    "cor": "petr",
-    "itens": [
-     "(MET − 1) × peso × horas",
-     "o “menos um” é o repouso que já seria gasto",
-     "em 90 minutos por dia, perto de 100 kcal de diferença"
-    ]
-   },
-   "dir": {
-    "t": "Os instrumentos",
-    "cor": "ambar",
-    "itens": [
-     "relógios e aplicativos tendem a superestimar",
-     "exceção: medidor de potência no ciclismo",
-     "kJ de trabalho ≈ kcal gastas"
-    ]
-   },
-   "destaque": "Eficiência do pedal de 20 a 25% e 1 kcal ≈ 4 kJ: por isso os quilojoules do medidor aproximam as quilocalorias.",
-   "destaque_cor": "tinta"
+   "titulo": "O gasto do exercício, descontado o repouso"
   },
   {
    "id": "massa",
-   "tipo": "frase",
-   "fundo": "petr",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma mesma pessoa medida por três métodos, bioimpedância, dobras cutâneas e densitometria, com três barras de massa livre de gordura de alturas diferentes. Ao lado, a regra: sempre o mesmo método; sem nenhum, estime um percentual razoável e assuma que o erro existe\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><g transform=\"translate(0.0 120.0) scale(7.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"280\" y=\"110\" width=\"160\" height=\"230\" rx=\"6\" fill=\"#3A6EA5\"/><g transform=\"translate(336.0 130.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"510\" y=\"70\" width=\"160\" height=\"270\" rx=\"6\" fill=\"#B07A1C\"/><g transform=\"translate(566.0 90.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><rect x=\"740\" y=\"90\" width=\"160\" height=\"250\" rx=\"6\" fill=\"#008A7E\"/><g transform=\"translate(796.0 110.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><line x1=\"260\" y1=\"340\" x2=\"980\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1060\" y=\"40\" width=\"604\" height=\"300\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 320,
+     "w": 180,
+     "t": "a mesma pessoa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 250,
+     "y": 350,
+     "w": 220,
+     "t": "bioimpedância",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 350,
+     "w": 220,
+     "t": "dobras cutâneas",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 350,
+     "w": 220,
+     "t": "densitometria",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 20,
+     "w": 700,
+     "t": "massa livre de gordura estimada",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 70,
+     "w": 560,
+     "t": "Sempre o mesmo método",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1084,
+     "y": 150,
+     "w": 560,
+     "t": "sem nenhum: estime um percentual razoável e assuma que o erro existe",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Passo três · o denominador",
-   "frase": "Sempre o mesmo método.",
-   "apoio": "Bioimpedância, dobras e densitometria dão números diferentes para a mesma pessoa. Sem nenhum, estime um percentual razoável e assuma que o erro existe."
+   "titulo": "Três métodos, três números para a mesma pessoa",
+   "fonte": "Barras: esquema, sem valores medidos"
   },
   {
    "id": "erro",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma régua de disponibilidade energética de 15 a 50, com as faixas abaixo de 30, de 30 a 45 e acima de 45. Quatro pontos para a mesma mulher: conta revisada, cerca de 38; registro 20% abaixo e relógio 30% acima, cerca de 22; método que marca 28% de gordura, cerca de 41; método que marca 18% de gordura, cerca de 36\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"500\" y=\"320\" width=\"489\" height=\"36\" fill=\"#F3E1DE\"/><rect x=\"989\" y=\"320\" width=\"489\" height=\"36\" fill=\"#F4EAD6\"/><rect x=\"1477\" y=\"320\" width=\"163\" height=\"36\" fill=\"#DDEFEC\"/><line x1=\"989\" y1=\"314\" x2=\"989\" y2=\"362\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1477\" y1=\"314\" x2=\"1477\" y2=\"362\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"480\" y1=\"24\" x2=\"1249\" y2=\"24\" stroke=\"#C9CFD4\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"1249\" y1=\"24\" x2=\"1249\" y2=\"314\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"1249\" cy=\"24\" r=\"14\" fill=\"#12202E\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"480\" y1=\"96\" x2=\"728\" y2=\"96\" stroke=\"#C9CFD4\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"728\" y1=\"96\" x2=\"728\" y2=\"314\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"728\" cy=\"96\" r=\"14\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"480\" y1=\"168\" x2=\"1347\" y2=\"168\" stroke=\"#C9CFD4\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"1347\" y1=\"168\" x2=\"1347\" y2=\"314\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1347\" cy=\"168\" r=\"14\" fill=\"#B07A1C\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"480\" y1=\"240\" x2=\"1184\" y2=\"240\" stroke=\"#C9CFD4\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"1184\" y1=\"240\" x2=\"1184\" y2=\"314\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1184\" cy=\"240\" r=\"14\" fill=\"#B07A1C\" stroke=\"#FDFCF9\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 949,
+     "y": 366,
+     "w": 80,
+     "t": "30",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1437,
+     "y": 366,
+     "w": 80,
+     "t": "45",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 396,
+     "w": 1140,
+     "t": "kcal por kg de massa livre de gordura por dia",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 470,
+     "t": "Conta revisada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 32,
+     "w": 470,
+     "t": "2.400 − 700 ÷ 45 kg",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1269,
+     "y": 8,
+     "w": 100,
+     "t": "≈ 38",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 74,
+     "w": 470,
+     "t": "Registro −20%, relógio +30%",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 104,
+     "w": 470,
+     "t": "1.920 − 910 ÷ 45 kg",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 748,
+     "y": 80,
+     "w": 100,
+     "t": "≈ 22",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 146,
+     "w": 470,
+     "t": "Método marca 28% de gordura",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 176,
+     "w": 470,
+     "t": "2.400 − 700 ÷ 42 kg",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1367,
+     "y": 152,
+     "w": 100,
+     "t": "≈ 41",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 218,
+     "w": 470,
+     "t": "Método marca 18% de gordura",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 248,
+     "w": 470,
+     "t": "2.400 − 700 ÷ 47,5 kg",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 224,
+     "w": 100,
+     "t": "≈ 36",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo quatro · propagar o erro",
    "titulo": "A mesma mulher, números diferentes",
-   "cab": [
-    "Cenário",
-    "Ingestão",
-    "Exercício",
-    "Massa magra",
-    "Resultado"
-   ],
-   "larguras": [
-    34,
-    16,
-    16,
-    18,
-    16
-   ],
-   "linhas": [
-    [
-     "Conta revisada",
-     "2.400",
-     "700",
-     "45 kg",
-     "≈ 38"
-    ],
-    [
-     "Registro −20%, relógio +30%",
-     "1.920",
-     "910",
-     "45 kg",
-     "≈ 22"
-    ],
-    [
-     "Método marca 28% de gordura",
-     "2.400",
-     "700",
-     "≈ 42 kg",
-     "≈ 41"
-    ],
-    [
-     "Método marca 18% de gordura",
-     "2.400",
-     "700",
-     "≈ 47,5 kg",
-     "≈ 36"
-    ]
-   ],
    "destaque": "Número muito baixo pode ser artefato. Número na casa dos 40 não tranquiliza quem tem três lesões. A conta gera hipótese.",
    "destaque_cor": "verm",
    "fonte": "Suposições de erro para o cálculo; direção do erro conforme Burke e colaboradores, 2018"
   },
   {
    "id": "semconta",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, a pergunta que dispensa calculadora: o treino subiu e o prato não mudou? Se sim, a conta está negativa até prova em contrário. À direita, o questionário LEAF-Q, 25 itens sobre lesão, intestino e função reprodutiva, com corte em 8: sensibilidade de 78% e especificidade de 90%; para homens, o LEAM-Q, em validação\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"760\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(60.0 100.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><g transform=\"translate(140.0 110.0) scale(2.0833)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><g transform=\"translate(330.0 100.0) scale(2.9167)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><g transform=\"translate(410.0 110.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><line x1=\"380\" y1=\"230\" x2=\"380\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"40\" y=\"280\" width=\"680\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"824\" y=\"0\" width=\"840\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1070\" y=\"130\" width=\"460\" height=\"44\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"1070\" y=\"130\" width=\"359\" height=\"44\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1070\" y=\"220\" width=\"460\" height=\"44\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"1070\" y=\"220\" width=\"414\" height=\"44\" rx=\"8\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 720,
+     "t": "Sem calculadora",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 180,
+     "w": 220,
+     "t": "o treino subiu",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 180,
+     "w": 220,
+     "t": "o prato não mudou",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 300,
+     "w": 640,
+     "t": "a conta está negativa até prova em contrário",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 848,
+     "y": 16,
+     "w": 400,
+     "t": "LEAF-Q",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 848,
+     "y": 62,
+     "w": 790,
+     "t": "25 itens: lesão, intestino, função reprodutiva · corte em 8",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 848,
+     "y": 138,
+     "w": 210,
+     "t": "sensibilidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1540,
+     "y": 136,
+     "w": 110,
+     "t": "78%",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 848,
+     "y": 228,
+     "w": 210,
+     "t": "especificidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1540,
+     "y": 226,
+     "w": 110,
+     "t": "90%",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 848,
+     "y": 320,
+     "w": 790,
+     "t": "homens: LEAM-Q, em validação",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 848,
+     "y": 360,
+     "w": 790,
+     "t": "rastreia; falso positivo é esperado",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo cinco · quando a conta não sai",
    "titulo": "Os caminhos mais baratos",
-   "esq": {
-    "t": "As cinco perguntas",
-    "cor": "petr",
-    "itens": [
-     "o treino subiu e o prato não mudou?",
-     "então a conta está negativa até prova em contrário",
-     "sem calculadora"
-    ]
-   },
-   "dir": {
-    "t": "LEAF-Q · Melin, 2014",
-    "cor": "ambar",
-    "itens": [
-     "25 itens: lesão, intestino, função reprodutiva",
-     "corte em 8; sensibilidade 78%, especificidade 90%",
-     "homens: LEAM-Q, em validação"
-    ]
-   },
-   "destaque": "Questionário rastreia. Itens se confundem com treino pesado, e falso positivo é esperado.",
+   "destaque": "Os itens se confundem com treino pesado: o questionário rastreia, não diagnostica.",
    "destaque_cor": "tinta",
-   "fonte": "British Journal of Sports Medicine 2014 · 84 atletas"
+   "fonte": "Melin e colaboradores, British Journal of Sports Medicine 2014 · 84 atletas"
   },
   {
    "id": "caros",
@@ -370,26 +1064,103 @@
   },
   {
    "id": "lanche",
-   "tipo": "numeros",
-   "eyebrow": "Passo seis · o que fazer com o número",
-   "titulo": "Acrescentar comida, não tirar treino",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Na régua de disponibilidade, uma seta vai de 38 a 45: sete pontos. Sete pontos vezes 45 quilos de massa livre de gordura dão cerca de 315 quilocalorias por dia, desenhadas como um lanche de verdade perto do treino\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"140\" width=\"386\" height=\"36\" fill=\"#F3E1DE\"/><rect x=\"386\" y=\"140\" width=\"386\" height=\"36\" fill=\"#F4EAD6\"/><rect x=\"771\" y=\"140\" width=\"129\" height=\"36\" fill=\"#DDEFEC\"/><line x1=\"386\" y1=\"134\" x2=\"386\" y2=\"182\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"771\" y1=\"134\" x2=\"771\" y2=\"182\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 591 110 C 643 60, 720 60, 771 106\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"980\" y=\"20\" width=\"684\" height=\"360\" rx=\"20\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1040.0 70.0) scale(5.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><g transform=\"translate(1180.0 90.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><g transform=\"translate(1280.0 90.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 13v.01M12 17v.01M12 12v.01M16 14v.01M11 8v.01m2.148-4.534l2.667 1.104a4 4 0 0 0 4.656 6.14l.053.132a3 3 0 0 1 0 2.296Q19.779 14.328 19.5 15q-.283.684-.66 2.216a3 3 0 0 1-1.624 1.623q-1.572.394-2.216.661q-.712.295-1.852 1.024a3 3 0 0 1-2.296 0Q9.649 19.77 9 19.5q-.707-.292-2.216-.66a3 3 0 0 1-1.623-1.624Q4.764 15.639 4.5 15q-.298-.718-1.024-1.852a3 3 0 0 1 0-2.296Q4.195 9.736 4.5 9q.257-.62.66-2.216a3 3 0 0 1 1.624-1.623Q8.331 4.777 9 4.5q.687-.285 1.852-1.024a3 3 0 0 1 2.296 0\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "38 → 45",
-     "x": "sete pontos de disponibilidade",
-     "cor": "tinta"
+     "x": 346,
+     "y": 186,
+     "w": 80,
+     "t": "30",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "× 45 kg",
-     "x": "de massa livre de gordura",
-     "cor": "tinta"
+     "x": 731,
+     "y": 186,
+     "w": 80,
+     "t": "45",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "≈ 315",
-     "x": "kcal por dia: um lanche real, perto do treino",
-     "cor": "petr"
+     "x": 0,
+     "y": 216,
+     "w": 900,
+     "t": "kcal por kg de massa livre de gordura por dia",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 491,
+     "y": 70,
+     "w": 80,
+     "t": "38",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 561,
+     "y": 20,
+     "w": 240,
+     "t": "+ 7 pontos",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 280,
+     "w": 900,
+     "t": "7 × 45 kg de massa livre de gordura",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1000,
+     "y": 210,
+     "w": 644,
+     "t": "≈ 315 kcal por dia",
+     "tam": 44,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1000,
+     "y": 290,
+     "w": 644,
+     "t": "um lanche real, perto do treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo seis · o que fazer com o número",
+   "titulo": "Acrescentar comida, não tirar treino",
    "destaque": "“O treino não é demais; a comida é pouca para o treino que você faz.” O mesmo desequilíbrio, dito pelo lado que preserva a identidade.",
    "destaque_cor": "tinta"
   },

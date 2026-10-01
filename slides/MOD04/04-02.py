@@ -122,6 +122,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Duas regras de segurança"
                     {"t": "Médico", "x": "O diagnóstico quando há deficiência clínica."}],
           "quem": "Encaminhar com a ordem de grandeza já calculada encurta o trabalho de todos."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-02")
+
 spec = {"arquivo": "aulas/MOD04/04-02-como-calcular-disponibilidade-energetica.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Estimativa da disponibilidade energética", "subtitulo": "Métodos, erros de medida e alternativas clínicas",

@@ -152,6 +152,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O que se faz na segunda-fe
                     {"t": "Educador, preparador e psicólogo", "x": "Volume do treino e componente comportamental."}],
           "quem": "As cinco perguntas são de todo mundo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-01")
+
 spec = {"arquivo": "aulas/MOD04/04-01-disponibilidade-energetica.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Disponibilidade energética", "subtitulo": "Conceito, limiares e controvérsias",

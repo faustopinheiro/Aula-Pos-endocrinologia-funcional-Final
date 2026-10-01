@@ -22,34 +22,251 @@
  "slides": [
   {
    "id": "equacao",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A equação em blocos: ingestão, menos o gasto do exercício, dá o que sobra para o corpo funcionar; o que sobra, dividido pela massa livre de gordura, dá a disponibilidade energética em quilocalorias por quilo por dia\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"340\" height=\"190\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(140.0 60.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"420\" y=\"40\" width=\"340\" height=\"190\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(560.0 60.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"840\" y=\"40\" width=\"340\" height=\"190\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(980.0 60.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4m3-4v4m3-4v4m3-4v4\"/></g><line x1=\"1240\" y1=\"135\" x2=\"1300\" y2=\"135\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"1324\" y=\"40\" width=\"340\" height=\"190\" rx=\"18\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(1464.0 60.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"432\" y=\"290\" width=\"800\" height=\"100\" rx=\"18\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"832\" y1=\"236\" x2=\"832\" y2=\"282\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 132,
+     "w": 340,
+     "t": "Ingestão",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 176,
+     "w": 340,
+     "t": "o que entra",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 132,
+     "w": 340,
+     "t": "Gasto do exercício",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 420,
+     "y": 176,
+     "w": 340,
+     "t": "o que o treino cobra",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 132,
+     "w": 340,
+     "t": "O que sobra",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 840,
+     "y": 176,
+     "w": 340,
+     "t": "para o corpo funcionar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 104,
+     "w": 80,
+     "t": "−",
+     "tam": 60,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 104,
+     "w": 80,
+     "t": "=",
+     "tam": 60,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 104,
+     "w": 180,
+     "t": "÷",
+     "tam": 60,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1324,
+     "y": 132,
+     "w": 340,
+     "t": "Massa livre de gordura",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.1,
+     "serif": true
+    },
+    {
+     "x": 1324,
+     "y": 196,
+     "w": 340,
+     "t": "em kg",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 432,
+     "y": 318,
+     "w": 800,
+     "t": "kcal por kg de massa livre de gordura por dia",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O número que o curso inteiro citou",
-   "frase": "(ingestão − gasto do exercício) ÷ massa livre de gordura",
-   "apoio": "O que sobra para o corpo funcionar depois que o treino cobrou a parte dele. Disponibilidade energética baixa não é comer pouco. É comer pouco para o que se gasta."
+   "titulo": "O que sobra para o corpo funcionar",
+   "destaque": "Disponibilidade energética baixa não é comer pouco. É comer pouco para o que se gasta.",
+   "destaque_cor": "verm"
   },
   {
    "id": "conta",
-   "tipo": "numeros",
-   "eyebrow": "Uma conta que desmonta a intuição",
-   "titulo": "Três mil calorias, e abaixo de trinta",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma cascata: 3.100 quilocalorias ingeridas, menos 1.100 do exercício, sobram 2.000. Divididas por 69 quilos de massa livre de gordura, de um homem de 78 quilos com 12% de gordura, dão cerca de 29 quilocalorias por quilo, abaixo da linha de 30\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"40\" y=\"70\" width=\"200\" height=\"310\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"300\" y=\"70\" width=\"200\" height=\"110\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"560\" y=\"180\" width=\"200\" height=\"200\" rx=\"6\" fill=\"#008A7E\"/><line x1=\"240\" y1=\"70\" x2=\"300\" y2=\"70\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"500\" y1=\"180\" x2=\"560\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"20\" y1=\"380\" x2=\"780\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1120\" y=\"230\" width=\"223\" height=\"40\" fill=\"#F3E1DE\"/><rect x=\"1343\" y=\"230\" width=\"223\" height=\"40\" fill=\"#F4EAD6\"/><rect x=\"1566\" y=\"230\" width=\"74\" height=\"40\" fill=\"#DDEFEC\"/><line x1=\"1343\" y1=\"210\" x2=\"1343\" y2=\"290\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M 1328 222 l -14 -26 l 28 0 z\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
-     "n": "69 kg",
-     "x": "massa livre de gordura: 78 kg com 12% de gordura",
-     "cor": "tinta"
+     "x": 20,
+     "y": 386,
+     "w": 240,
+     "t": "3.100 ingeridas",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "2.000",
-     "x": "kcal que sobram: 3.100 ingeridas menos 1.100 do exercício",
-     "cor": "ambar"
+     "x": 280,
+     "y": 386,
+     "w": 240,
+     "t": "− 1.100 do exercício",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "≈ 29",
-     "x": "kcal por kg de massa livre de gordura por dia",
-     "cor": "verm"
+     "x": 540,
+     "y": 386,
+     "w": 240,
+     "t": "2.000 que sobram",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 150,
+     "w": 220,
+     "t": "÷ 69 kg",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 830,
+     "y": 206,
+     "w": 260,
+     "t": "de massa livre de gordura: 78 kg com 12% de gordura",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1228,
+     "y": 100,
+     "w": 200,
+     "t": "≈ 29",
+     "tam": 56,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1303,
+     "y": 294,
+     "w": 80,
+     "t": "30",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 330,
+     "w": 520,
+     "t": "kcal por kg de massa livre de gordura por dia",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Uma conta que desmonta a intuição",
+   "titulo": "Três mil calorias, e abaixo de trinta",
    "destaque": "Ninguém que come três mil calorias se vê como alguém que come pouco. É esse perfil que chega para discutir testosterona.",
    "destaque_cor": "tinta"
   },
@@ -167,61 +384,372 @@
   },
   {
    "id": "revisao",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, mulheres: a chance de alteração menstrual sobe abaixo de 30, mas a curva não começa em zero acima de 30 e não chega a cem abaixo; há alteração dos dois lados. À direita, homens, seis voluntários, 15 contra 40 quilocalorias por quilo por quatro dias: a leptina caiu 53 a 56%, a insulina 34 a 38%, e T3, testosterona e IGF-1 ainda não se moveram\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"70\" y1=\"270\" x2=\"760\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"70\" y1=\"80\" x2=\"70\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M70 130 L90 131 L109 132 L129 134 L149 136 L169 138 L188 141 L208 145 L228 150 L247 155 L267 161 L287 169 L307 176 L326 184 L346 193 L366 200 L385 208 L405 214 L425 219 L445 224 L464 228 L484 231 L504 233 L523 235 L543 237 L563 238 L583 239 L602 239 L622 240 L642 240 L661 241 L681 241 L701 241 L721 241 L740 241 L760 241\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"366\" y1=\"80\" x2=\"366\" y2=\"270\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"380\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"1180\" y1=\"90\" x2=\"1180\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"990\" y=\"94\" width=\"190\" height=\"40\" rx=\"4\" fill=\"#A8322A\" fill-opacity=\"0.35\"/><rect x=\"1000\" y=\"94\" width=\"180\" height=\"40\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1051\" y=\"148\" width=\"129\" height=\"40\" rx=\"4\" fill=\"#A8322A\" fill-opacity=\"0.35\"/><rect x=\"1064\" y=\"148\" width=\"116\" height=\"40\" rx=\"4\" fill=\"#A8322A\"/><circle cx=\"1180\" cy=\"222\" r=\"9\" fill=\"#6B7A87\"/><circle cx=\"1180\" cy=\"276\" r=\"9\" fill=\"#6B7A87\"/><circle cx=\"1180\" cy=\"330\" r=\"9\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 14,
+     "w": 760,
+     "t": "Mulheres: uma faixa de risco",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 326,
+     "y": 276,
+     "w": 80,
+     "t": "30",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 300,
+     "w": 690,
+     "t": "disponibilidade energética",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 382,
+     "y": 120,
+     "w": 330,
+     "t": "acima de 30 também há alteração",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 334,
+     "w": 760,
+     "t": "uma linha libera; um risco não libera",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 14,
+     "w": 760,
+     "t": "Homens: quatro dias a 15 contra 40",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 888,
+     "y": 52,
+     "w": 760,
+     "t": "seis voluntários",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 102,
+     "w": 150,
+     "t": "leptina",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1194,
+     "y": 100,
+     "w": 300,
+     "t": "−53 a −56%",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 156,
+     "w": 150,
+     "t": "insulina",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1194,
+     "y": 154,
+     "w": 300,
+     "t": "−34 a −38%",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 210,
+     "w": 150,
+     "t": "T3",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1194,
+     "y": 208,
+     "w": 300,
+     "t": "ainda parado",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 264,
+     "w": 150,
+     "t": "testosterona",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1194,
+     "y": 262,
+     "w": 300,
+     "t": "ainda parado",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 318,
+     "w": 150,
+     "t": "IGF-1",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1194,
+     "y": 316,
+     "w": 300,
+     "t": "ainda parado",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Vinte anos depois",
    "titulo": "De linha a faixa de risco",
-   "esq": {
-    "t": "Mulheres · Salamunes, 2024",
-    "cor": "petr",
-    "itens": [
-     "abaixo de 30, a chance de alteração menstrual sobe",
-     "mas há alteração acima e abaixo de 30",
-     "uma linha libera; um risco não libera"
-    ]
-   },
-   "dir": {
-    "t": "Homens · Koehler, 2016",
-    "cor": "ambar",
-    "itens": [
-     "seis homens, 15 contra 40 kcal/kg, quatro dias",
-     "leptina −53 a −56%, insulina −34 a −38%",
-     "T3, testosterona e IGF-1 ainda parados"
-    ]
-   },
    "destaque": "Consenso do COI, 2023: um contínuo, do adaptável ao problemático. Quanto, por quanto tempo, e com que consequência?",
    "destaque_cor": "tinta",
-   "fonte": "Applied Physiology, Nutrition, and Metabolism 2024 · Journal of Sports Sciences 2016"
+   "fonte": "Curva: esquema · Salamunes e colaboradores, Applied Physiology, Nutrition, and Metabolism 2024 · Koehler e colaboradores, Journal of Sports Sciences 2016"
   },
   {
    "id": "medida",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "Burke e colaboradores, 2018",
-   "titulo": "A equação é frágil",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A equação de novo, ingestão menos gasto do exercício dividido pela massa livre de gordura, e embaixo de cada termo o seu erro: a ingestão é subestimada por esquecimento, porção mal estimada e o que se come em pé; o gasto do exercício é mal medido e quase ninguém desconta o repouso; a massa magra muda com o método; e a variação de um dia para o outro é grande\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"380\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"190\" y1=\"96\" x2=\"190\" y2=\"140\" stroke=\"#B07A1C\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"150\" width=\"380\" height=\"170\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(20.0 170.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><rect x=\"450\" y=\"0\" width=\"380\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"640\" y1=\"96\" x2=\"640\" y2=\"140\" stroke=\"#B07A1C\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"450\" y=\"150\" width=\"380\" height=\"170\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(470.0 170.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><rect x=\"900\" y=\"0\" width=\"380\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1090\" y1=\"96\" x2=\"1090\" y2=\"140\" stroke=\"#B07A1C\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"900\" y=\"150\" width=\"380\" height=\"170\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(920.0 170.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><rect x=\"1350\" y=\"0\" width=\"314\" height=\"320\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><path d=\"M1380 200 L1416 141 L1452 215 L1488 256 L1524 170 L1560 152 L1596 242 L1632 237\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"0\" y=\"350\" width=\"1664\" height=\"70\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
-     "t": "Ingestão subestimada",
-     "x": "esquecimento, porção mal estimada, o que se come em pé",
-     "cor": "ambar"
+     "x": 0,
+     "y": 26,
+     "w": 380,
+     "t": "Ingestão",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "t": "Gasto do exercício mal medido",
-     "x": "e quase ninguém desconta o que se gastaria em repouso",
-     "cor": "ambar"
+     "x": 76,
+     "y": 176,
+     "w": 290,
+     "t": "subestimada",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Massa magra muda com o método",
-     "x": "o denominador também tem erro",
-     "cor": "ambar"
+     "x": 20,
+     "y": 232,
+     "w": 340,
+     "t": "esquecimento, porção mal estimada, o que se come em pé",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 450,
+     "y": 26,
+     "w": 380,
+     "t": "Gasto do exercício",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 526,
+     "y": 176,
+     "w": 290,
+     "t": "mal medido",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 232,
+     "w": 340,
+     "t": "e quase ninguém desconta o que se gastaria em repouso",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 26,
+     "w": 380,
+     "t": "Massa livre de gordura",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 976,
+     "y": 176,
+     "w": 290,
+     "t": "muda com o método",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 920,
+     "y": 232,
+     "w": 340,
+     "t": "o denominador também tem erro",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 26,
+     "w": 70,
+     "t": "−",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 26,
+     "w": 70,
+     "t": "÷",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1366,
+     "y": 14,
+     "w": 290,
      "t": "Variação diária grande",
-     "x": "um dia não representa a semana",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1366,
+     "y": 266,
+     "w": 290,
+     "t": "um dia não representa a semana",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 368,
+     "w": 1664,
+     "t": "o número não é diagnóstico: é ordem de grandeza",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "O número não é diagnóstico. É ordem de grandeza, e faz o paciente ver a própria conta.",
-   "destaque_cor": "petr"
+   "eyebrow": "Uma revisão de 2018",
+   "titulo": "A equação é frágil",
+   "destaque": "E faz o paciente ver a própria conta.",
+   "destaque_cor": "petr",
+   "fonte": "Burke e colaboradores, International Journal of Sport Nutrition and Exercise Metabolism 2018"
   },
   {
    "id": "horas",
@@ -559,93 +1087,446 @@
   },
   {
    "id": "alarme",
-   "tipo": "duas",
-   "eyebrow": "Areta, Taylor e Koehler, 2021",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, a mulher: o ciclo como um sinal vital que apita todo mês, desenhado como um anel de 28 dias com um sino; a alteração vai da fase lútea curta à amenorreia, e foi onde a literatura nasceu, porque era visível. À direita, o homem: um sino riscado, sem alarme equivalente; os sinais são desempenho, fadiga, libido, infecções e uma testosterona que cai com LH baixo\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"190\" cy=\"120\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"217\" cy=\"123\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"242\" cy=\"132\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"265\" cy=\"146\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"284\" cy=\"165\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"298\" cy=\"188\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"307\" cy=\"213\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"310\" cy=\"240\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"307\" cy=\"267\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"298\" cy=\"292\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"284\" cy=\"315\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"265\" cy=\"334\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"242\" cy=\"348\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"217\" cy=\"357\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"190\" cy=\"360\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"163\" cy=\"357\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"138\" cy=\"348\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"115\" cy=\"334\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"96\" cy=\"315\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"82\" cy=\"292\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"73\" cy=\"267\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"70\" cy=\"240\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"73\" cy=\"213\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"82\" cy=\"188\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"96\" cy=\"165\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"115\" cy=\"146\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"138\" cy=\"132\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"163\" cy=\"123\" r=\"10\" fill=\"#008A7E\"/><g transform=\"translate(154.0 204.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a7 7 0 1 0 14 0a7 7 0 1 0-14 0\"/><path d=\"M12 10v3h2M7 4L4.25 6M17 4l2.75 2\"/></g></g><rect x=\"864\" y=\"0\" width=\"800\" height=\"420\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1054\" cy=\"240\" r=\"110\" fill=\"#FDFCF9\" stroke=\"#C9CFD4\" stroke-width=\"4\"/><g transform=\"translate(1018.0 204.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 8a5 5 0 0 1 1.912 4.934m-1.377 2.602A5 5 0 0 1 15 16m2.7-11a9 9 0 0 1 2.362 11.086m-1.676 2.299A9 9 0 0 1 17.7 19M9.069 5.054L9.5 4.5A.8.8 0 0 1 11 5v2m0 4v8a.8.8 0 0 1-1.5.5L6 15H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l1.294-1.664M3 3l18 18\"/></g><g transform=\"translate(1210.0 90.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><g transform=\"translate(1210.0 154.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4\"/></g><g transform=\"translate(1210.0 218.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/><path d=\"m12 6l-2 4l4 3l-2 4v3\"/></g></g><g transform=\"translate(1210.0 282.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><g transform=\"translate(1210.0 346.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 14,
+     "w": 760,
+     "t": "Mulher: um alarme que apita todo mês",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 350,
+     "y": 120,
+     "w": 420,
+     "t": "o ciclo, um sinal vital",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 210,
+     "w": 420,
+     "t": "da fase lútea curta à amenorreia",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 300,
+     "w": 420,
+     "t": "foi onde a literatura nasceu, porque era visível",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 14,
+     "w": 760,
+     "t": "Homem: nenhum alarme equivalente",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1262,
+     "y": 96,
+     "w": 390,
+     "t": "desempenho",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1262,
+     "y": 160,
+     "w": 390,
+     "t": "fadiga",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1262,
+     "y": 224,
+     "w": 390,
+     "t": "libido",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1262,
+     "y": 288,
+     "w": 390,
+     "t": "infecções",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1262,
+     "y": 352,
+     "w": 390,
+     "t": "testosterona baixa, LH baixo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma revisão de 2021",
    "titulo": "Mesma fisiologia, alarmes diferentes",
-   "esq": {
-    "t": "Mulher",
-    "cor": "petr",
-    "itens": [
-     "um sinal vital que apita todo mês: o ciclo",
-     "da fase lútea curta à amenorreia",
-     "foi onde a literatura nasceu, porque era visível"
-    ]
-   },
-   "dir": {
-    "t": "Homem",
-    "cor": "ambar",
-    "itens": [
-     "nenhum alarme equivalente",
-     "desempenho, fadiga, libido, infecções",
-     "e uma testosterona que cai, com LH baixo"
-    ]
-   },
    "destaque": "Homem jovem e ativo com testosterona baixa: calcule a disponibilidade antes de discutir reposição. E balança parada pode ser economia.",
    "destaque_cor": "verm",
-   "fonte": "European Journal of Applied Physiology 2021 · consenso do COI 2023"
+   "fonte": "Areta, Taylor e Koehler, European Journal of Applied Physiology 2021 · consenso do COI 2023"
   },
   {
    "id": "portas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Por onde a conta estoura",
-   "titulo": "Cinco portas, e só uma é procurada",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Cinco portas lado a lado por onde a conta estoura. A primeira, acesa, é a única que costuma ser procurada: restrição por desempenho ou estética. As outras quatro: emagrecer com orientação legítima, com dieta e treino somados, e com remédio comer vira tarefa; o gasto subiu e o prato não; insuficiente sem intenção, por tempo, dinheiro, logística ou crescimento; e desorganização, quando o total até fecha mas a comida nunca está na hora certa\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"50\" y=\"0\" width=\"200\" height=\"230\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"5\"/><circle cx=\"226\" cy=\"125\" r=\"9\" fill=\"#A8322A\"/><rect x=\"391\" y=\"0\" width=\"200\" height=\"230\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"567\" cy=\"125\" r=\"9\" fill=\"#B07A1C\"/><rect x=\"732\" y=\"0\" width=\"200\" height=\"230\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"908\" cy=\"125\" r=\"9\" fill=\"#B07A1C\"/><rect x=\"1073\" y=\"0\" width=\"200\" height=\"230\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1249\" cy=\"125\" r=\"9\" fill=\"#B07A1C\"/><rect x=\"1414\" y=\"0\" width=\"200\" height=\"230\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1590\" cy=\"125\" r=\"9\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
     {
-     "t": "1 · Restrição por desempenho ou estética",
-     "x": "categoria de peso, esporte estético: a que a gente reconhece",
-     "cor": "verm"
+     "x": 50,
+     "y": 70,
+     "w": 200,
+     "t": "1",
+     "tam": 64,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "2 · Emagrecer com orientação legítima",
-     "x": "dieta e treino somados; com remédio, comer vira tarefa",
-     "cor": "ambar"
+     "x": 0,
+     "y": 246,
+     "w": 300,
+     "t": "Restrição por desempenho ou estética",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
-     "t": "3 · O gasto subiu e o prato não",
-     "x": "ninguém restringiu nada: a conta do segundo slide",
-     "cor": "ambar"
+     "x": 0,
+     "y": 330,
+     "w": 300,
+     "t": "categoria de peso, esporte estético",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
-     "t": "4 · Insuficiente sem intenção",
-     "x": "tempo, dinheiro, logística, crescimento",
-     "cor": "ambar"
+     "x": 391,
+     "y": 70,
+     "w": 200,
+     "t": "2",
+     "tam": 64,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "5 · Desorganização",
-     "x": "o total até fecha; a comida nunca está na hora certa",
-     "cor": "ambar"
+     "x": 341,
+     "y": 246,
+     "w": 300,
+     "t": "Emagrecer com orientação legítima",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 341,
+     "y": 330,
+     "w": 300,
+     "t": "com remédio, comer vira tarefa",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 732,
+     "y": 70,
+     "w": 200,
+     "t": "3",
+     "tam": 64,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 682,
+     "y": 246,
+     "w": 300,
+     "t": "O gasto subiu e o prato não",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 682,
+     "y": 330,
+     "w": 300,
+     "t": "ninguém restringiu nada",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1073,
+     "y": 70,
+     "w": 200,
+     "t": "4",
+     "tam": 64,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1023,
+     "y": 246,
+     "w": 300,
+     "t": "Insuficiente sem intenção",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1023,
+     "y": 330,
+     "w": 300,
+     "t": "tempo, dinheiro, logística, crescimento",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1414,
+     "y": 70,
+     "w": 200,
+     "t": "5",
+     "tam": 64,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1364,
+     "y": 246,
+     "w": 300,
+     "t": "Desorganização",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1364,
+     "y": 330,
+     "w": 300,
+     "t": "o total fecha; a hora, nunca",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 390,
+     "w": 300,
+     "t": "só a primeira é procurada",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Por onde a conta estoura",
+   "titulo": "Cinco portas, e só uma é procurada",
    "destaque": "Identificar a porta é metade da conduta.",
    "destaque_cor": "tinta"
   },
   {
    "id": "controversia",
-   "tipo": "duas",
-   "eyebrow": "Jeukendrup, Areta e colaboradores, 2024",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"No centro, a zona de acordo: os efeitos endócrinos e metabólicos são reais; existe na prática e é modificável. Num anel tracejado em volta, o que está em disputa: o rótulo de síndrome e o diagnóstico por lista de sintomas. À esquerda, a crítica: a causa é quase impossível de medir fora do laboratório; sintomas genéricos com causas múltiplas, a carga alostática\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><circle cx=\"1140\" cy=\"210\" r=\"205\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"14 10\"/><circle cx=\"1140\" cy=\"210\" r=\"130\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"0\" y=\"0\" width=\"640\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(24.0 90.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><g transform=\"translate(24.0 196.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3.5 5.5L5 7l2.5-2.5m-4 7L5 13l2.5-2.5m-4 7L5 19l2.5-2.5M11 6h9m-9 6h9m-9 6h9\"/></g><g transform=\"translate(24.0 302.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7h3a1 1 0 0 0 1-1V5a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-1a2 2 0 0 0-4 0v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a2 2 0 0 0 0-4H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 1020,
+     "y": 114,
+     "w": 240,
+     "t": "A zona de acordo",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1020,
+     "y": 160,
+     "w": 240,
+     "t": "efeitos endócrinos e metabólicos reais",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1020,
+     "y": 230,
+     "w": 240,
+     "t": "existe na prática e é modificável",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1290,
+     "y": 20,
+     "w": 200,
+     "t": "em disputa:",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 56,
+     "w": 230,
+     "t": "o rótulo de síndrome",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1350,
+     "y": 330,
+     "w": 230,
+     "t": "o diagnóstico por lista",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 16,
+     "w": 600,
+     "t": "A crítica",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 92,
+     "y": 90,
+     "w": 520,
+     "t": "a causa é quase impossível de medir fora do laboratório",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 92,
+     "y": 196,
+     "w": 520,
+     "t": "o diagnóstico vira lista de sintomas",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 92,
+     "y": 302,
+     "w": 520,
+     "t": "sintomas genéricos, causas múltiplas: carga alostática",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma crítica de 2024",
    "titulo": "A síndrome existe?",
-   "esq": {
-    "t": "A crítica",
-    "cor": "ambar",
-    "itens": [
-     "a causa é quase impossível de medir fora do laboratório",
-     "o diagnóstico vira lista de sintomas",
-     "sintomas genéricos, causas múltiplas: carga alostática"
-    ]
-   },
-   "dir": {
-    "t": "A zona de acordo",
-    "cor": "petr",
-    "itens": [
-     "os efeitos endócrinos e metabólicos são reais",
-     "existe na prática e é modificável",
-     "a disputa é o rótulo de síndrome e o diagnóstico por lista"
-    ]
-   },
    "destaque": "Contribuinte principal e modificável, não explicação única. Encontrou? Corrija, e não pare a investigação.",
    "destaque_cor": "tinta",
-   "fonte": "Sports Medicine 2024; resposta dos autores do consenso e réplica em 2025"
+   "fonte": "Jeukendrup, Areta e colaboradores, Sports Medicine 2024; resposta dos autores do consenso e réplica em 2025"
   },
   {
    "id": "fecho",
