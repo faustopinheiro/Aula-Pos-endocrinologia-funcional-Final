@@ -143,7 +143,7 @@ Os links são os mesmos.
 
 **ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 e 3: decks enxutos, gráficos
 em SVG, referências conferidas. Capa e fecho em petróleo, a cor do módulo (docs/08).
-Casos clínicos no módulo: dois, o teto (4.2, a triatleta amadora de 31 anos; 4.12, o caso de
+Casos clínicos no módulo: dois, o teto (4.2, a triatleta amadora de trinta e poucos anos; 4.12, o caso de
 alimentação desordenada; ambos ditos como caso ilustrativo). As demais aulas usam contas e quadros
 típicos, sem pessoa.
 
@@ -165,6 +165,15 @@ típicos, sem pessoa.
 Total: 3 h 18 min em 12 aulas, 121 slides. A 4.12 fecha o módulo com a camada de
 integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
 suplementação, que abre o Módulo 5.
+
+**Acabamento.** Os 79 slides que ainda eram texto (cartões, colunas, listas, tabelas, números e frases)
+viraram desenho, sem mudar a quantidade nem a ordem dos slides; agora todo slide do módulo, fora o fecho,
+é um desenho próprio (os novos estão em `slides/MOD04/_redesenho.py`). Na fala e no topo dos slides, saíram os
+nomes de autores que não são marco (ficam Loucks, com Heath e com Thuma, Jeukendrup, Burke pelos marchadores,
+Impey, Areta, Shirreffs e Maughan); os demais estudos entram pelo ano, e o autor fica na fonte do slide.
+"Na próxima aula" virou "na próxima conversa", e as idades dos dois casos passaram a ser ditas por década.
+No slide das bebidas, "treze bebidas contra a água" virou "treze bebidas, e a água como régua", porque a água
+era uma das treze. As notas de produção foram refeitas no formato completo. Os links são os mesmos.
 
 ## Módulo 5 — Suplementação, Ergogênicos e Antidoping · 11 aulas
 
