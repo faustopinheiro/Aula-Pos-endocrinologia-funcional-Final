@@ -997,6 +997,397 @@ def frase_46():
 
 
 
+# ---------------------------------------------------------------- 4.7
+
+def pedidos():
+    """4.7: o adulto que pede o painel e a adolescente que ninguém pensou em examinar."""
+    p = [svg_abre(1664, 400, "Dois pedidos lado a lado. À esquerda, o adulto que quer dosar trinta micronutrientes, toma multivitamínico por conta própria e come bem, sem excluir nada: risco de deficiência baixo. À direita, a adolescente cansada, que nada dois períodos por dia, está em crescimento, não come carne vermelha e evita leite: risco alto")]
+    lados = [(0, "h:man", "O adulto do painel", GLIC, GLIC_T,
+              [("t:clipboard-list", "quer dosar trinta micronutrientes"), ("t:pill", "multivitamínico por conta própria"), ("t:salad", "come bem, não exclui nada")], 0.15, "baixo", OXID),
+             (864, "h:girl-1015y", "A adolescente cansada", FOSF, FOSF_T,
+              [("t:swimming", "nada dois períodos por dia, em crescimento"), ("t:x", "não come carne vermelha"), ("t:x", "evita leite “porque incha”")], 0.85, "alto", FOSF)]
+    rs = []
+    for x, ic, t, cor, fundo, itens, frac, nivel, cr in lados:
+        p.append(caixa(x, 0, 800, 400, cor, fundo, esp=3, rx=16))
+        p.append(icone(ic, x + 24, 18, 52, cor))
+        rs.append(rot(x + 90, 26, t, w=680, tam=30, cor=cor, peso=700, serif=True))
+        for k, (ii, tt) in enumerate(itens):
+            y = 100 + k * 62
+            p.append(icone(ii, x + 30, y, 38, cor if ii == "t:x" else MUDO))
+            rs.append(rot(x + 84, y + 4, tt, w=690, tam=24, cor=TINTA))
+        p.append(f'<rect x="{x + 30}" y="350" width="740" height="18" rx="9" fill="{CINZA}"/>')
+        p.append(f'<rect x="{x + 30}" y="350" width="{740 * frac:.0f}" height="18" rx="9" fill="{cr}"/>')
+        rs.append(rot(x + 30, 306, f"risco de deficiência: {nivel}", w=740, tam=22, cor=cr, peso=700))
+    return slide("pedidos", 400, p, rs,
+                 eyebrow="Dois pedidos típicos", titulo="Um painel sem risco, um risco sem painel",
+                 destaque="O posicionamento de 2016: o risco está em quem restringe energia, perde peso de forma agressiva ou exclui grupos de alimentos.",
+                 destaque_cor="petr", fonte="Thomas, Erdman e Burke · Medicine and Science in Sports and Exercise 2016")
+
+
+def quem():
+    """4.7: matriz de grupos por nutriente, com as linhas que a adolescente cruza."""
+    grupos = [("Mulher que menstrua", "●    ", True), ("Adolescente em crescimento", "●●   ", True),
+              ("Atleta de resistência", "●    ", True), ("Restrição de energia ou corte", "●●●  ", False),
+              ("Exclusão de grupos (vegano)", "●●●●●", True), ("Doador de sangue frequente", "●    ", False)]
+    nutr = [("Ferro", FOSF), ("Cálcio", AZUL), ("Vit. D", GLIC), ("B12", OXID), ("Iodo", TINTA)]
+    p = [svg_abre(1664, 400, "Uma matriz: seis grupos nas linhas e cinco nutrientes nas colunas. Ferro aparece em todos os grupos. Cálcio no adolescente, na restrição de energia e na exclusão de grupos. Vitamina D na restrição e na exclusão. B12 e iodo só na exclusão de grupos, como o vegano. Na última coluna, as quatro linhas que a adolescente cansada cruza: mulher que menstrua, adolescente em crescimento, atleta de resistência e exclusão de grupos")]
+    rs = []
+    X = lambda j: 690 + j * 140
+    for j, (n, cor) in enumerate(nutr):
+        rs.append(rot(X(j) - 70, 4, n, w=140, tam=24, cor=cor, peso=700, alinha="center"))
+    rs.append(rot(1400, 4, "a adolescente", w=264, tam=24, cor=FOSF, peso=700, alinha="center"))
+    for i, (g, marc, ela) in enumerate(grupos):
+        y = 80 + i * 54
+        if i % 2 == 0:
+            p.append(f'<rect x="0" y="{y - 26}" width="1664" height="54" rx="8" fill="{PAPEL}"/>')
+        rs.append(rot(10, y - 14, g, w=600, tam=24, cor=TINTA))
+        for j, c in enumerate(marc):
+            if c == "●":
+                p.append(f'<circle cx="{X(j)}" cy="{y}" r="15" fill="{nutr[j][1]}"/>')
+            else:
+                p.append(f'<circle cx="{X(j)}" cy="{y}" r="5" fill="{CINZA}"/>')
+        if ela:
+            p.append(icone("t:check", 1508, y - 20, 40, FOSF))
+    p.append(f'<line x1="1390" y1="0" x2="1390" y2="400" stroke="{BORDA}" stroke-width="3"/>')
+    return slide("quem", 400, p, rs,
+                 eyebrow="Passo um · quem é", titulo="Onde as deficiências se concentram",
+                 destaque="A adolescente cruza quase todas as linhas. O adulto do painel não cruza nenhuma.",
+                 destaque_cor="petr", fonte="Pontos de atenção principais por grupo, conforme a aula")
+
+
+def vegano():
+    """4.7: o que muda na lista de quem não come nada de origem animal."""
+    p = [svg_abre(1664, 400, "Três blocos. B12: não há fonte vegetal confiável, e o suplemento é parte da dieta. Seis pontos de atenção: ferro, zinco, cálcio, iodo, vitamina D e ômega-3 de cadeia longa. O iodo no Brasil: o sal comum é iodado, alguns sais gourmet não são, então vale ler o rótulo")]
+    p.append(caixa(0, 0, 440, 400, FOSF, FOSF_T, esp=3, rx=16))
+    p.append(icone("t:pill", 170, 40, 100, FOSF))
+    rs = [rot(0, 160, "B12", w=440, tam=56, cor=FOSF, peso=700, alinha="center", serif=True),
+          rot(30, 250, "não há fonte vegetal confiável: suplementar é parte da dieta", w=380, tam=24, cor=TINTA, alinha="center", lh=1.3)]
+    p.append(caixa(480, 0, 640, 400, GLIC, GLIC_T, esp=3, rx=16))
+    rs.append(rot(504, 18, "Pontos de atenção", w=600, tam=30, cor=GLIC, peso=700, serif=True))
+    for k, t in enumerate(["ferro", "zinco", "cálcio", "iodo", "vitamina D", "ômega-3 de cadeia longa"]):
+        y = 84 + k * 50
+        p.append(f'<circle cx="524" cy="{y + 14}" r="8" fill="{GLIC}"/>')
+        rs.append(rot(548, y, t, w=560, tam=25, cor=TINTA))
+    p.append(caixa(1160, 0, 504, 400, TINTA, CARTAO, esp=3, rx=16))
+    rs.append(rot(1184, 18, "A nota brasileira do iodo", w=460, tam=28, cor=TINTA, peso=700, serif=True))
+    for k, (t, ok, cor) in enumerate([("sal comum", "iodado", OXID), ("alguns sais “gourmet”", "nem sempre", FOSF)]):
+        y = 90 + k * 110
+        p.append(icone("t:check" if k == 0 else "t:x", 1184, y + 8, 44, cor))
+        rs += [rot(1244, y, t, w=400, tam=25, cor=TINTA, peso=600), rot(1244, y + 38, ok, w=400, tam=23, cor=cor, peso=700)]
+    p.append(icone("t:zoom-question", 1184, 318, 44, TINTA))
+    rs.append(rot(1244, 326, "leia o rótulo", w=400, tam=25, cor=TINTA, peso=700))
+    return slide("vegano", 400, p, rs,
+                 eyebrow="Uma revisão de 2017", titulo="O vegano muda a lista",
+                 destaque="Uma dieta vegana bem planejada atende a maior parte dos atletas, com manejo de alimentos e suplementação adequada.",
+                 destaque_cor="petr", fonte="Rogerson · Journal of the International Society of Sports Nutrition 2017")
+
+
+def come():
+    """4.7: quatro perguntas em sequência, e a primeira pode encerrar a conversa."""
+    p = [svg_abre(1664, 400, "Quatro perguntas em sequência. Primeira: come energia suficiente? Se não, esse é o problema principal, e a conversa muda. Segunda: o que foi excluído, e por quê? Ética é uma coisa, medo é outra conversa. Terceira: de onde vem o ferro, heme ou não heme, e o que vem junto. Quarta: de onde vem o cálcio, e qual é a rota de quem cortou laticínio"), defs(MUDO, FOSF)]
+    qs = [("Come energia suficiente?", FOSF, FOSF_T), ("O que foi excluído, e por quê?", GLIC, GLIC_T),
+          ("De onde vem o ferro?", OXID, OXID_T), ("De onde vem o cálcio?", OXID, OXID_T)]
+    sub = ["", "ética é uma coisa; medo é outra conversa", "heme ou não heme, e o que vem junto", "e qual é a rota de quem cortou laticínio"]
+    rs = []
+    for k, (t, cor, fundo) in enumerate(qs):
+        x = k * 428
+        p.append(caixa(x, 0, 380, 256, cor, fundo, esp=3, rx=16))
+        p.append(f'<circle cx="{x + 44}" cy="44" r="24" fill="{cor}"/>')
+        rs += [rot(x + 20, 30, str(k + 1), w=48, tam=26, cor=PAPEL, peso=700, alinha="center"),
+               rot(x + 24, 86, t, w=340, tam=28, cor=cor, peso=700, serif=True, lh=1.15)]
+        if sub[k]:
+            rs.append(rot(x + 24, 180, sub[k], w=340, tam=21, cor=TINTA, lh=1.25))
+        if k < 3:
+            p.append(seta(x + 384, 115, x + 422, 115, MUDO, "m0", esp=4))
+    p.append(seta(190, 262, 190, 304, FOSF, "m1", esp=4))
+    rs.append(rot(214, 270, "não", w=80, tam=22, cor=FOSF, peso=700))
+    p.append(caixa(0, 310, 760, 70, FOSF, FOSF, esp=0, rx=14))
+    rs.append(rot(24, 330, "esse é o problema principal", w=720, tam=27, cor=PAPEL, peso=700))
+    return slide("come", 380, p, rs,
+                 eyebrow="Passo dois · o que come", titulo="Quatro perguntas sobre o padrão")
+
+
+def prato():
+    """4.7: ferro e cálcio no prato, com o que ajuda e o que atrapalha."""
+    p = [svg_abre(1664, 400, "À esquerda, o ferro: o heme das carnes é bem absorvido, o não heme de feijão, folhas e fortificados bem menos; vitamina C junto aumenta, café, chá e cálcio junto reduzem, e convém afastar uma hora. Barras em esquema. À direita, o cálcio: cerca de 1.000 miligramas por dia no adulto, mais no adolescente; um copo de leite ou iogurte dá perto de 300, então três copos chegam perto da meta; sem laticínio, bebida fortificada, tofu, sardinha e folhas"), defs(OXID, FOSF)]
+    p.append(caixa(0, 0, 800, 400, FOSF, CARTAO, esp=3, rx=16))
+    rs = [rot(24, 16, "Ferro", w=400, tam=32, cor=FOSF, peso=700, serif=True),
+          rot(560, 24, "absorção: esquema", w=220, tam=18, cor=MUDO, alinha="right")]
+    for k, (t, d, frac) in enumerate([("heme", "carnes", 0.8), ("não heme", "feijão, folhas, fortificados", 0.3)]):
+        y = 90 + k * 84
+        rs += [rot(24, y, t, w=170, tam=25, cor=TINTA, peso=700), rot(24, y + 34, d, w=300, tam=19, cor=MUDO)]
+        p.append(f'<rect x="330" y="{y}" width="440" height="30" rx="6" fill="{CINZA}"/>')
+        p.append(f'<rect x="330" y="{y}" width="{440 * frac:.0f}" height="30" rx="6" fill="{FOSF}"/>')
+    p.append(f'<line x1="24" y1="270" x2="776" y2="270" stroke="{BORDA}" stroke-width="2"/>')
+    p.append(icone("t:trending-up", 24, 290, 40, OXID))
+    rs.append(rot(78, 296, "vitamina C junto aumenta", w=700, tam=24, cor=TINTA))
+    p.append(icone("t:coffee", 24, 344, 40, FOSF))
+    rs.append(rot(78, 340, "café, chá e cálcio junto reduzem: afastar uma hora", w=700, tam=24, cor=TINTA, lh=1.2))
+    p.append(caixa(864, 0, 800, 400, AZUL, CARTAO, esp=3, rx=16))
+    rs += [rot(888, 16, "Cálcio", w=400, tam=32, cor=AZUL, peso=700, serif=True),
+           rot(888, 76, "cerca de 1.000 mg por dia no adulto; mais no adolescente", w=760, tam=22, cor=TINTA)]
+    K = 0.7
+    for k in range(3):
+        p.append(f'<rect x="{888 + k * 300 * K + 3:.0f}" y="130" width="{300 * K - 6:.0f}" height="56" rx="8" fill="{AZUL}"/>')
+        rs.append(rot(888 + k * 300 * K, 144, "copo ≈ 300", w=300 * K, tam=20, cor=PAPEL, peso=700, alinha="center"))
+    p.append(f'<rect x="{888 + 900 * K + 3:.0f}" y="130" width="{100 * K - 6:.0f}" height="56" rx="8" fill="{AZUL_T}" stroke="{AZUL}" stroke-width="2"/>')
+    p.append(f'<line x1="{888 + 1000 * K:.0f}" y1="116" x2="{888 + 1000 * K:.0f}" y2="200" stroke="{TINTA}" stroke-width="3"/>')
+    rs += [rot(888 + 1000 * K - 40, 204, "1.000 mg", w=120, tam=20, cor=TINTA, peso=700),
+           rot(888, 204, "leite ou iogurte", w=400, tam=20, cor=MUDO)]
+    p.append(f'<line x1="888" y1="262" x2="1640" y2="262" stroke="{BORDA}" stroke-width="2"/>')
+    rs += [rot(888, 280, "Sem laticínio", w=760, tam=24, cor=AZUL, peso=700),
+           rot(888, 320, "bebida fortificada, tofu, sardinha, folhas", w=760, tam=24, cor=TINTA)]
+    return slide("prato", 400, p, rs,
+                 eyebrow="Onde a comida mais resolve", titulo="Ferro e cálcio no prato",
+                 destaque="Multivitamínico comum: não corrige ferro, não repõe vitamina D baixa, tem pouco cálcio. Resposta genérica para uma pergunta específica.",
+                 destaque_cor="ambar")
+
+
+def sente():
+    """4.7: os sintomas vagos espalham para muitas causas; poucas pistas apontam."""
+    p = [svg_abre(1664, 400, "À esquerda, cansaço, queda de desempenho e infecções se espalham para quatro causas possíveis: sono ruim, treino excessivo, déficit de energia e deficiência de um nutriente. À direita, as pistas que apontam: para ferro, fluxo intenso, falta de ar desproporcional, palidez e vontade de mastigar gelo; para B12, formigamento, memória e humor, em vegano sem suplemento ou com remédios que reduzem a absorção; para cálcio e vitamina D, fratura por estresse repetida, e antes disso a pergunta sobre energia"), defs(MUDO)]
+    p.append(caixa(0, 110, 260, 180, MUDO, PAPEL, esp=3, rx=14))
+    rs = [rot(0, 136 + k * 40, t, w=260, tam=22, cor=TINTA, peso=700, alinha="center") for k, t in enumerate(["cansaço", "queda de desempenho", "infecções"])]
+    causas = ["sono ruim", "treino excessivo", "déficit de energia", "deficiência"]
+    for k, c in enumerate(causas):
+        y = 20 + k * 96
+        p.append(seta(266, 200, 330, y + 30, MUDO, "m0", esp=3))
+        p.append(caixa(340, y, 220, 60, MUDO, CARTAO, esp=2, rx=10))
+        rs.append(rot(340, y + 16, c, w=220, tam=21, cor=TINTA, alinha="center"))
+    pistas = [("Ferro", FOSF, FOSF_T, "fluxo intenso, falta de ar desproporcional, palidez, vontade de mastigar gelo"),
+              ("B12", GLIC, GLIC_T, "formigamento, memória e humor, em vegano sem suplemento ou com remédios que reduzem a absorção"),
+              ("Cálcio e vitamina D", AZUL, AZUL_T, "fratura por estresse repetida; e antes: falta energia?")]
+    rs.append(rot(620, 0, "As pistas que apontam", w=1000, tam=24, cor=MUDO, peso=700))
+    for k, (t, cor, fundo, x) in enumerate(pistas):
+        y = 44 + k * 120
+        p.append(caixa(620, y, 1044, 104, cor, fundo, esp=3, rx=14))
+        rs += [rot(644, y + 14, t, w=1000, tam=25, cor=cor, peso=700, serif=True),
+               rot(644, y + 52, x, w=1000, tam=21, cor=TINTA, lh=1.25)]
+    return slide("sente", 400, p, rs,
+                 eyebrow="Passo três · o que sente", titulo="O sintoma não aponta o nutriente",
+                 destaque="Cansaço, queda de desempenho e infecções são os mesmos de sono ruim, treino excessivo e déficit. O passo três decide a urgência, não o diagnóstico.",
+                 destaque_cor="petr")
+
+
+def turbina():
+    """4.7: o tanque baixo enche até a linha; o tanque cheio não passa dela."""
+    p = [svg_abre(1664, 380, "Dois tanques com a mesma linha de suficiência. No primeiro, o nível está baixo, e uma seta mostra que a deficiência se corrige até a linha. No segundo, o nível já está na linha, e a seta para cima está riscada: suficiência não se turbina. À direita, o que fica fora do procedimento: exame de cabelo, teste intracelular em pacote, painel sem pergunta clínica e soro de vitaminas na veia sem deficiência"), defs(OXID, FOSF)]
+    rs = []
+    for k, (nivel, t, cor) in enumerate([(0.3, "deficiência: se corrige", OXID), (0.65, "suficiência: não se turbina", FOSF)]):
+        x = 40 + k * 380
+        p.append(f'<rect x="{x}" y="40" width="200" height="260" rx="14" fill="{CARTAO}" stroke="{TINTA}" stroke-width="4"/>')
+        p.append(f'<rect x="{x + 4}" y="{296 - 252 * nivel:.0f}" width="192" height="{252 * nivel:.0f}" rx="10" fill="{AZUL_T}"/>')
+        ylin = 296 - 252 * 0.65
+        p.append(f'<line x1="{x - 16}" y1="{ylin:.0f}" x2="{x + 216}" y2="{ylin:.0f}" stroke="{TINTA}" stroke-width="3"{TRACO}/>')
+        if k == 0:
+            p.append(seta(x + 100, 260, x + 100, ylin + 14, OXID, "m0", esp=6))
+        else:
+            p.append(seta(x + 100, ylin - 10, x + 100, 60, FOSF, "m1", esp=6))
+            p.append(f'<line x1="{x + 66}" y1="62" x2="{x + 134}" y2="104" stroke="{FOSF}" stroke-width="6"/>')
+        rs.append(rot(x - 60, 320, t, w=320, tam=24, cor=cor, peso=700, alinha="center", lh=1.2))
+    rs.append(rot(260, 108, "linha de suficiência", w=140, tam=18, cor=MUDO, alinha="center", lh=1.2))
+    p.append(caixa(860, 0, 804, 380, FOSF, FOSF_T, esp=3, rx=16))
+    rs.append(rot(884, 18, "Fora do procedimento", w=760, tam=30, cor=FOSF, peso=700, serif=True))
+    for k, t in enumerate(["exame de cabelo", "teste “intracelular” em pacote", "painel sem pergunta clínica", "soro de vitaminas na veia sem deficiência"]):
+        y = 90 + k * 68
+        p.append(icone("t:x", 884, y, 40, FOSF))
+        rs.append(rot(940, y + 4, t, w=700, tam=25, cor=TINTA))
+    return slide("turbina", 380, p, rs,
+                 eyebrow="O que o procedimento não inclui", titulo="Deficiência se corrige. Suficiência não se turbina.",
+                 destaque="Magnésio e zinco se perdem no suor, mas deficiência clínica em quem come bem é incomum.",
+                 destaque_cor="tinta")
+
+
+# ---------------------------------------------------------------- 4.8
+
+def numero():
+    """4.8: a maratonista que bebeu em todos os postos e a metade da regra que faltou."""
+    p = [svg_abre(1664, 400, "Uma prova desenhada como uma estrada: largada, oito postos de água, todos usados, e a chegada depois de mais de cinco horas, confusa e mais pesada do que largou. Embaixo, as duas metades da regra: não perder mais de 2 por cento, que ela cumpriu, e não ganhar, a metade que teria protegido")]
+    p.append(f'<line x1="60" y1="110" x2="1300" y2="110" stroke="{MUDO}" stroke-width="6" stroke-linecap="round"/>')
+    p.append(icone("t:flag", 30, 30, 56, TINTA))
+    rs = [rot(0, 136, "largada", w=120, tam=22, cor=TINTA, alinha="center")]
+    for k in range(8):
+        x = 190 + k * 130
+        p.append(f'<circle cx="{x}" cy="110" r="26" fill="{AZUL_T}" stroke="{AZUL}" stroke-width="3"/>')
+        p.append(icone("t:droplet", x - 16, 94, 32, AZUL))
+    rs.append(rot(190, 150, "bebe em todos os postos", w=930, tam=22, cor=AZUL, peso=700, alinha="center"))
+    p.append(icone("t:clock", 1150, 20, 40, MUDO))
+    rs.append(rot(1196, 28, "mais de 5 h", w=160, tam=22, cor=MUDO))
+    p.append(caixa(1330, 40, 334, 150, FOSF, FOSF_T, esp=3, rx=14))
+    p.append(icone("t:scale", 1350, 60, 48, FOSF))
+    rs.append(rot(1410, 58, "chega confusa e mais pesada", w=240, tam=23, cor=FOSF, peso=700, lh=1.2))
+    rs.append(rot(1350, 134, "primeira maratona", w=300, tam=20, cor=TINTA))
+    metades = [(0, "t:check", "Não perder mais de 2%", "ela cumpriu", OXID, OXID_T),
+               (864, "t:x", "E não ganhar", "a metade que teria protegido", FOSF, FOSF_T)]
+    for x, ic, t, d, cor, fundo in metades:
+        p.append(caixa(x, 240, 800, 150, cor, fundo, esp=3, rx=16))
+        p.append(icone(ic, x + 30, 270, 56, cor))
+        rs += [rot(x + 110, 264, t, w=660, tam=32, cor=cor, peso=700, serif=True),
+               rot(x + 110, 322, d, w=660, tam=24, cor=TINTA)]
+    return slide("numero", 400, p, rs,
+                 eyebrow="O posicionamento de 2007", titulo="Não perder mais de 2%. E não ganhar.",
+                 destaque="Fez o que mandaram. A segunda metade da regra teria protegido.",
+                 destaque_cor="verm", fonte="Sawka e colaboradores · Medicine and Science in Sports and Exercise 2007")
+
+
+def variacao():
+    """4.8: a faixa de suor entre pessoas e a conta da corredora lenta."""
+    p = [svg_abre(1664, 400, "À esquerda, uma régua de taxa de suor de 0 a 2,5 litros por hora, com a faixa relatada em atletas de 0,5 a 2, um fator de quatro. Marcados nela: 0,6 litro por hora, o que a corredora perde, e 0,8, o que ela bebe. À direita, duas barras em 5 horas e 40: cerca de 3,4 litros perdidos e cerca de 4,5 bebidos, um quilo a mais na chegada. Conta ilustrativa")]
+    X0, X1 = 20, 860
+    X = lambda v: X0 + v / 2.5 * (X1 - X0)
+    rs = []
+    p.append(f'<rect x="{X(0.5):.0f}" y="120" width="{X(2) - X(0.5):.0f}" height="60" rx="8" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"/>')
+    p.append(f'<line x1="{X0}" y1="180" x2="{X1}" y2="180" stroke="{MUDO}" stroke-width="3"/>')
+    for v in [0, 0.5, 1, 1.5, 2, 2.5]:
+        p.append(f'<line x1="{X(v):.0f}" y1="180" x2="{X(v):.0f}" y2="192" stroke="{MUDO}" stroke-width="3"/>')
+        rs.append(rot(X(v) - 40, 198, f"{v:g}".replace(".", ","), w=80, tam=20, cor=MUDO, alinha="center"))
+    rs += [rot(X0, 236, "litros de suor por hora", w=840, tam=20, cor=MUDO, alinha="center"),
+           rot(X(0.5), 128, "faixa relatada em atletas: fator de quatro", w=X(2) - X(0.5), tam=22, cor=OXID, peso=700, alinha="center")]
+    for v, t, cor, y in [(0.6, "perde 0,6", GLIC, 290), (0.8, "bebe 0,8", FOSF, 340)]:
+        p.append(f'<line x1="{X(v):.0f}" y1="182" x2="{X(v):.0f}" y2="{y + 10}" stroke="{cor}" stroke-width="3"/>')
+        p.append(f'<circle cx="{X(v):.0f}" cy="180" r="10" fill="{cor}"/>')
+        rs.append(rot(X(v) + 12, y - 4, t, w=200, tam=22, cor=cor, peso=700))
+    B, K = 380, 70
+    for k, (v, t, cor) in enumerate([(3.4, "≈ 3,4 L perdidos", GLIC), (4.5, "≈ 4,5 L bebidos", FOSF)]):
+        x = 1040 + k * 260
+        p.append(f'<rect x="{x}" y="{B - v * K:.0f}" width="180" height="{v * K:.0f}" rx="8" fill="{cor}"/>')
+        rs.append(rot(x - 30, B - v * K - 36, t, w=240, tam=22, cor=cor, peso=700, alinha="center"))
+    p.append(f'<line x1="1000" y1="{B}" x2="1520" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<line x1="1220" y1="{B - 3.4 * K:.0f}" x2="1300" y2="{B - 3.4 * K:.0f}" stroke="{MUDO}" stroke-width="2"{TRACO}/>')
+    p.append(f'<path d="M 1500 {B - 4.5 * K:.0f} h 20 v {1.1 * K:.0f} h -20" fill="none" stroke="{FOSF}" stroke-width="3"/>')
+    rs += [rot(1530, B - 4.2 * K, "+ 1 kg na chegada", w=134, tam=22, cor=FOSF, peso=700, lh=1.2),
+           rot(1040, 0, "em 5 h 40", w=440, tam=22, cor=TINTA, peso=700, alinha="center")]
+    return slide("variacao", 400, p, rs,
+                 eyebrow="Uma revisão de 2017", titulo="Um fator de quatro entre pessoas",
+                 destaque="Conta ilustrativa, não dado medido. Sua pouco, corre devagar, passa muito tempo na prova: a regra de quem sua muito vira excesso.",
+                 destaque_cor="tinta", fonte="Baker · Sports Medicine 2017")
+
+
+def regras():
+    """4.8: três regras de uso da taxa de suor, cada uma num quadro."""
+    p = [svg_abre(1664, 380, "Três quadros. Primeiro: a taxa vale para aquela condição; verão e inverno dão números diferentes, então se mede no longão, no jogo, na prova. Segundo: não é para repor cem por cento durante; o alvo é limitar a perda, não zerar, e a sede guia. Barras em esquema. Terceiro: até uma hora em clima ameno, a sede resolve; a conta é para sessão longa, calor, sintoma ou problema prévio")]
+    rs = []
+    W = 528
+    cores = [(AZUL, AZUL_T), (GLIC, GLIC_T), (OXID, OXID_T)]
+    tits = ["A taxa vale para aquela condição", "Não é repor cem por cento durante", "Até uma hora, clima ameno: a sede resolve"]
+    for k in range(3):
+        x = k * (W + 40)
+        cor, fundo = cores[k]
+        p.append(caixa(x, 0, W, 380, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 24, 18, tits[k], w=W - 48, tam=27, cor=cor, peso=700, serif=True, lh=1.15))
+    # 1: verão e inverno
+    p.append(icone("t:sun", 60, 120, 70, GLIC))
+    p.append(icone("t:cloud-rain", 300, 120, 70, AZUL))
+    rs += [rot(170, 130, "≠", w=100, tam=56, cor=TINTA, peso=700, alinha="center"),
+           rot(24, 210, "verão e inverno dão números diferentes", w=W - 48, tam=22, cor=TINTA, alinha="center"),
+           rot(24, 290, "medir no longão, no jogo, na prova", w=W - 48, tam=23, cor=AZUL, peso=700, alinha="center")]
+    # 2: limitar a perda
+    x = W + 40
+    for j, (t, frac, cor) in enumerate([("perda", 1.0, MUDO), ("reposição durante", 0.6, GLIC)]):
+        y = 130 + j * 76
+        rs.append(rot(x + 24, y - 30, t, w=300, tam=20, cor=MUDO))
+        p.append(f'<rect x="{x + 24}" y="{y}" width="{(W - 48) * frac:.0f}" height="32" rx="6" fill="{cor}"/>')
+    rs += [rot(x + 24, 260, "barras: esquema", w=300, tam=18, cor=MUDO),
+           rot(x + 24, 296, "limitar a perda, não zerar; a sede guia", w=W - 48, tam=23, cor=GLIC, peso=700, lh=1.2)]
+    # 3: quando a conta entra
+    x = 2 * (W + 40)
+    for j, (ic, t) in enumerate([("t:clock", "sessão longa"), ("t:temperature", "calor"), ("t:mood-sick", "sintoma"), ("t:alert-triangle", "problema prévio")]):
+        y = 140 + j * 56
+        p.append(icone(ic, x + 24, y, 36, OXID))
+        rs.append(rot(x + 74, y + 4, t, w=300, tam=23, cor=TINTA))
+    rs.append(rot(x + 24, 104, "a conta é para:", w=300, tam=21, cor=MUDO))
+    return slide("regras", 380, p, rs,
+                 eyebrow="Três regras de uso", titulo="O número vale para uma condição")
+
+
+def depois():
+    """4.8: a conta da reidratação no jogo da noite, e quando ela importa."""
+    p = [svg_abre(1664, 400, "À esquerda, a conta: perdeu 1,1 quilo no treino, multiplica por 1,25 a 1,5, e bebe 1,4 a 1,7 litro até o jogo da noite, com sódio da bebida ou da comida. À direita, quando a conta importa: outra sessão no mesmo dia ou cedo no dia seguinte, e perda grande. Com uma sessão por dia e jantar normal, a comida e a sede resolvem"), defs(MUDO)]
+    passos = [("t:scale", "perdeu", "1,1 kg", GLIC), (None, "vezes", "1,25 a 1,5", TINTA), ("t:droplet", "até o jogo", "1,4 a 1,7 L", AZUL)]
+    rs = []
+    for k, (ic, t, n, cor) in enumerate(passos):
+        x = k * 290
+        p.append(caixa(x, 20, 230, 200, cor, CARTAO, esp=3, rx=16))
+        if ic:
+            p.append(icone(ic, x + 91, 36, 48, cor))
+        rs += [rot(x, 96, t, w=230, tam=21, cor=MUDO, alinha="center"),
+               rot(x, 134, n, w=230, tam=34, cor=cor, peso=700, alinha="center", serif=True)]
+        if k < 2:
+            p.append(seta(x + 236, 120, x + 284, 120, MUDO, "m0", esp=4))
+    p.append(caixa(0, 260, 810, 120, AZUL, AZUL_T, esp=3, rx=16))
+    rs += [rot(24, 278, "com sódio, da bebida ou da comida", w=760, tam=26, cor=AZUL, peso=700),
+           rot(24, 326, "volume de 1,25 a 1,5 L por quilo perdido, nas horas seguintes", w=760, tam=21, cor=TINTA)]
+    p.append(caixa(880, 20, 784, 220, GLIC, GLIC_T, esp=3, rx=16))
+    rs.append(rot(904, 36, "Quando importa", w=740, tam=28, cor=GLIC, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:repeat", "outra sessão no mesmo dia ou cedo no dia seguinte"), ("t:weight", "perda grande")]):
+        y = 96 + j * 66
+        p.append(icone(ic, 904, y, 40, GLIC))
+        rs.append(rot(960, y + 6, t, w=690, tam=23, cor=TINTA))
+    p.append(caixa(880, 260, 784, 120, MUDO, PAPEL, esp=3, rx=16))
+    p.append(icone("t:salad", 904, 290, 48, MUDO))
+    rs.append(rot(970, 282, "uma sessão por dia e jantar normal: a comida e a sede resolvem", w=670, tam=23, cor=TINTA, lh=1.25))
+    return slide("depois", 400, p, rs,
+                 eyebrow="Depois · Shirreffs e colaboradores, 1996", titulo="Volume maior que a perda, com sódio",
+                 destaque="Volume sem sódio escoa pela urina. Sódio sem volume não basta. O balanço fecha na interação dos dois.",
+                 destaque_cor="tinta", fonte="Medicine and Science in Sports and Exercise 1996")
+
+
+def bebidas():
+    """4.8: a água como régua; três bebidas acima dela, nove no mesmo nível."""
+    p = [svg_abre(1664, 400, "A água como linha de referência. Acima dela, as três bebidas que retiveram mais volume: leite integral, leite desnatado e solução de reidratação oral. Na linha, as nove que ficaram iguais à água no volume testado: café, chá quente, chá gelado, refrigerante comum, refrigerante sem açúcar, água com gás, isotônico, suco de laranja e cerveja comum"), defs(OXID)]
+    rs = []
+    acima = ["leite integral", "leite desnatado", "solução de reidratação oral"]
+    for k, t in enumerate(acima):
+        x = 120 + k * 480
+        p.append(caixa(x, 10, 420, 70, OXID, OXID, esp=0, rx=35))
+        rs.append(rot(x, 30, t, w=420, tam=25, cor=PAPEL, peso=700, alinha="center"))
+        p.append(seta(x + 210, 160, x + 210, 92, OXID, "m0", esp=4))
+    rs.append(rot(1540, 22, "retiveram mais", w=124, tam=21, cor=OXID, peso=700, lh=1.2))
+    p.append(f'<line x1="0" y1="170" x2="1664" y2="170" stroke="{AZUL}" stroke-width="5"{TRACO}/>')
+    p.append(icone("t:droplet", 0, 120, 40, AZUL))
+    rs.append(rot(48, 128, "água", w=200, tam=24, cor=AZUL, peso=700))
+    iguais = ["café", "chá quente", "chá gelado", "refrigerante comum", "refrigerante sem açúcar", "água com gás", "isotônico", "suco de laranja", "cerveja comum"]
+    for k, t in enumerate(iguais):
+        x, y = 120 + (k % 3) * 480, 200 + (k // 3) * 66
+        p.append(caixa(x, y, 420, 54, TINTA, CARTAO, esp=2, rx=27))
+        rs.append(rot(x, y + 13, t, w=420, tam=23, cor=TINTA, alinha="center"))
+    rs.append(rot(1540, 234, "iguais à água, no volume testado", w=124, tam=21, cor=TINTA, peso=700, lh=1.2))
+    return slide("bebidas", 400, p, rs,
+                 eyebrow="Maughan e colaboradores, 2016", titulo="Treze bebidas, e a água como régua",
+                 destaque="O café de todo dia não desidrata. O leite é uma bebida de recuperação subestimada. A cerveja: o problema não é a água, é o sono e a recuperação.",
+                 destaque_cor="ambar", fonte="Um litro de cada, em pessoas hidratadas · American Journal of Clinical Nutrition 2016")
+
+
+def sodio():
+    """4.8: a faixa do sódio no suor contra a faixa da bebida, e quem precisa repor durante."""
+    p = [svg_abre(1664, 400, "Uma régua de sódio de 0 a 100 milimoles por litro. O suor varia de 10 a 90 entre pessoas. A bebida esportiva fica entre 20 e 50, o que dá 0,5 a pouco mais de 1 grama de sódio por litro. À direita, quem precisa repor durante: acima de duas horas, calor e umidade, suador salgado, duas sessões no dia. Embaixo, a água de coco: potássio alto, sódio baixo e variável, não repõe o suador salgado")]
+    X0, X1 = 20, 1000
+    X = lambda v: X0 + v / 100 * (X1 - X0)
+    rs = [rot(X0, 0, "sódio, em mmol/L", w=400, tam=20, cor=MUDO)]
+    for v, w_, t, cor, fundo, y in [(10, 80, "no suor: 10 a 90", GLIC, GLIC_T, 40), (20, 30, "na bebida: 20 a 50", OXID, OXID_T, 120)]:
+        p.append(f'<rect x="{X(v):.0f}" y="{y}" width="{X(v + w_) - X(v):.0f}" height="56" rx="8" fill="{fundo}" stroke="{cor}" stroke-width="3"/>')
+        rs.append(rot(X(v) + 14, y + 14, t, w=400, tam=23, cor=cor, peso=700))
+    p.append(f'<line x1="{X0}" y1="200" x2="{X1}" y2="200" stroke="{MUDO}" stroke-width="3"/>')
+    for v in range(0, 101, 20):
+        p.append(f'<line x1="{X(v):.0f}" y1="200" x2="{X(v):.0f}" y2="212" stroke="{MUDO}" stroke-width="3"/>')
+        rs.append(rot(X(v) - 40, 216, str(v), w=80, tam=19, cor=MUDO, alinha="center"))
+    rs.append(rot(X(50) + 14, 134, "0,5 a pouco mais de 1 g de sódio por litro", w=420, tam=20, cor=TINTA))
+    p.append(caixa(0, 280, 1000, 110, FOSF, FOSF_T, esp=3, rx=14))
+    rs += [rot(24, 296, "Água de coco", w=300, tam=25, cor=FOSF, peso=700, serif=True),
+           rot(24, 336, "potássio alto, sódio baixo e variável: não repõe o suador salgado", w=960, tam=22, cor=TINTA)]
+    p.append(caixa(1060, 0, 604, 390, AZUL, AZUL_T, esp=3, rx=16))
+    rs.append(rot(1084, 18, "Quem precisa durante", w=560, tam=28, cor=AZUL, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:clock", "acima de duas horas"), ("t:sun", "calor e umidade"), ("t:droplet", "suador salgado"), ("t:repeat", "duas sessões no dia")]):
+        y = 90 + j * 72
+        p.append(icone(ic, 1084, y, 42, AZUL))
+        rs.append(rot(1144, y + 6, t, w=500, tam=24, cor=TINTA))
+    return slide("sodio", 400, p, rs,
+                 eyebrow="Sódio · uma revisão de 2017", titulo="De 10 a 90 mmol/L no suor",
+                 destaque="Sal em cápsula não protege de quem bebe demais. A hiponatremia do exercício é, quase sempre, excesso de água.",
+                 destaque_cor="tinta", fonte="Baker 2017 · Hew-Butler e colaboradores 2015 · faixa da bebida: posicionamento de 2007")
+
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"04-01": [equacao, conta_41, revisao, medida, alarme, portas_41, controversia],
@@ -1004,7 +1395,9 @@ LICOES = {"04-01": [equacao, conta_41, revisao, medida, alarme, portas_41, contr
           "04-03": [identidade, demais, marchadores, paraquem, comida],
           "04-04": [decisao, familias, limites, triagem, nunca, perfis],
           "04-05": [tres, teto, qualidade, whey, carga_45, perfis_45],
-          "04-06": [erro_46, rotas, funcoes, hormonio, densidade, frase_46]}
+          "04-06": [erro_46, rotas, funcoes, hormonio, densidade, frase_46],
+          "04-07": [pedidos, quem, vegano, come, prato, sente, turbina],
+          "04-08": [numero, variacao, regras, depois, bebidas, sodio]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

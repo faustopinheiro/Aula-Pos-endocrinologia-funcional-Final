@@ -22,11 +22,117 @@
  "slides": [
   {
    "id": "numero",
-   "tipo": "frase",
-   "fundo": "tinta",
-   "eyebrow": "Sawka e colaboradores, 2007",
-   "frase": "Não perder mais de 2%. E não ganhar.",
-   "apoio": "Perfil típico de posto médico: primeira maratona, acima de cinco horas, bebe em todos os postos, chega confusa e mais pesada do que largou. Fez o que mandaram. A segunda metade da regra teria protegido."
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma prova desenhada como uma estrada: largada, oito postos de água, todos usados, e a chegada depois de mais de cinco horas, confusa e mais pesada do que largou. Embaixo, as duas metades da regra: não perder mais de 2 por cento, que ela cumpriu, e não ganhar, a metade que teria protegido\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"60\" y1=\"110\" x2=\"1300\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"6\" stroke-linecap=\"round\"/><g transform=\"translate(30.0 30.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g><circle cx=\"190\" cy=\"110\" r=\"26\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(174.0 94.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><circle cx=\"320\" cy=\"110\" r=\"26\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(304.0 94.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><circle cx=\"450\" cy=\"110\" r=\"26\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(434.0 94.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><circle cx=\"580\" cy=\"110\" r=\"26\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(564.0 94.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><circle cx=\"710\" cy=\"110\" r=\"26\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(694.0 94.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><circle cx=\"840\" cy=\"110\" r=\"26\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(824.0 94.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><circle cx=\"970\" cy=\"110\" r=\"26\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(954.0 94.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><circle cx=\"1100\" cy=\"110\" r=\"26\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1084.0 94.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><g transform=\"translate(1150.0 20.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"1330\" y=\"40\" width=\"334\" height=\"150\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1350.0 60.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"0\" y=\"240\" width=\"800\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(30.0 270.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"240\" width=\"800\" height=\"150\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(894.0 270.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 136,
+     "w": 120,
+     "t": "largada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 190,
+     "y": 150,
+     "w": 930,
+     "t": "bebe em todos os postos",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1196,
+     "y": 28,
+     "w": 160,
+     "t": "mais de 5 h",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1410,
+     "y": 58,
+     "w": 240,
+     "t": "chega confusa e mais pesada",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1350,
+     "y": 134,
+     "w": 300,
+     "t": "primeira maratona",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 264,
+     "w": 660,
+     "t": "Não perder mais de 2%",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 322,
+     "w": 660,
+     "t": "ela cumpriu",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 974,
+     "y": 264,
+     "w": 660,
+     "t": "E não ganhar",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 974,
+     "y": 322,
+     "w": 660,
+     "t": "a metade que teria protegido",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O posicionamento de 2007",
+   "titulo": "Não perder mais de 2%. E não ganhar.",
+   "destaque": "Fez o que mandaram. A segunda metade da regra teria protegido.",
+   "destaque_cor": "verm",
+   "fonte": "Sawka e colaboradores · Medicine and Science in Sports and Exercise 2007"
   },
   {
    "id": "faixa",
@@ -108,53 +214,348 @@
   },
   {
    "id": "variacao",
-   "tipo": "numeros",
-   "eyebrow": "Baker, 2017",
-   "titulo": "Um fator de quatro entre pessoas",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, uma régua de taxa de suor de 0 a 2,5 litros por hora, com a faixa relatada em atletas de 0,5 a 2, um fator de quatro. Marcados nela: 0,6 litro por hora, o que a corredora perde, e 0,8, o que ela bebe. À direita, duas barras em 5 horas e 40: cerca de 3,4 litros perdidos e cerca de 4,5 bebidos, um quilo a mais na chegada. Conta ilustrativa\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"188\" y=\"120\" width=\"504\" height=\"60\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"20\" y1=\"180\" x2=\"860\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"20\" y1=\"180\" x2=\"20\" y2=\"192\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"188\" y1=\"180\" x2=\"188\" y2=\"192\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"356\" y1=\"180\" x2=\"356\" y2=\"192\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"524\" y1=\"180\" x2=\"524\" y2=\"192\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"692\" y1=\"180\" x2=\"692\" y2=\"192\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"860\" y1=\"180\" x2=\"860\" y2=\"192\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"222\" y1=\"182\" x2=\"222\" y2=\"300\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"222\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><line x1=\"289\" y1=\"182\" x2=\"289\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"289\" cy=\"180\" r=\"10\" fill=\"#A8322A\"/><rect x=\"1040\" y=\"142\" width=\"180\" height=\"238\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1300\" y=\"65\" width=\"180\" height=\"315\" rx=\"8\" fill=\"#A8322A\"/><line x1=\"1000\" y1=\"380\" x2=\"1520\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1220\" y1=\"142\" x2=\"1300\" y2=\"142\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><path d=\"M 1500 65 h 20 v 77 h -20\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "n": "0,5 a 2",
-     "x": "litros de suor por hora, na faixa relatada em atletas",
-     "cor": "petr"
+     "x": -20,
+     "y": 198,
+     "w": 80,
+     "t": "0",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "≈ 3,4 L",
-     "x": "perdidos em 5 h 40 a 0,6 L/h",
-     "cor": "ambar"
+     "x": 148,
+     "y": 198,
+     "w": 80,
+     "t": "0,5",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "≈ 4,5 L",
-     "x": "bebidos a 0,8 L/h: um quilo a mais na chegada",
-     "cor": "verm"
+     "x": 316,
+     "y": 198,
+     "w": 80,
+     "t": "1",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 198,
+     "w": 80,
+     "t": "1,5",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 652,
+     "y": 198,
+     "w": 80,
+     "t": "2",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 198,
+     "w": 80,
+     "t": "2,5",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 236,
+     "w": 840,
+     "t": "litros de suor por hora",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 188,
+     "y": 128,
+     "w": 504,
+     "t": "faixa relatada em atletas: fator de quatro",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 234,
+     "y": 286,
+     "w": 200,
+     "t": "perde 0,6",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 301,
+     "y": 336,
+     "w": 200,
+     "t": "bebe 0,8",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 106,
+     "w": 240,
+     "t": "≈ 3,4 L perdidos",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 29,
+     "w": 240,
+     "t": "≈ 4,5 L bebidos",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1530,
+     "y": 86,
+     "w": 134,
+     "t": "+ 1 kg na chegada",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1040,
+     "y": 0,
+     "w": 440,
+     "t": "em 5 h 40",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Uma revisão de 2017",
+   "titulo": "Um fator de quatro entre pessoas",
    "destaque": "Conta ilustrativa, não dado medido. Sua pouco, corre devagar, passa muito tempo na prova: a regra de quem sua muito vira excesso.",
    "destaque_cor": "tinta",
-   "fonte": "Sports Medicine 2017"
+   "fonte": "Baker · Sports Medicine 2017"
   },
   {
    "id": "regras",
-   "tipo": "lista",
-   "eyebrow": "Três regras de uso",
-   "titulo": "O número vale para uma condição",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três quadros. Primeiro: a taxa vale para aquela condição; verão e inverno dão números diferentes, então se mede no longão, no jogo, na prova. Segundo: não é para repor cem por cento durante; o alvo é limitar a perda, não zerar, e a sede guia. Barras em esquema. Terceiro: até uma hora em clima ameno, a sede resolve; a conta é para sessão longa, calor, sintoma ou problema prévio\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"380\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"380\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(60.0 120.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7\"/></g><g transform=\"translate(300.0 120.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 18a4.6 4.4 0 0 1 0-9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7m-8-5v2m0 3v2m4-5v2m0 3v2\"/></g><rect x=\"592\" y=\"130\" width=\"480\" height=\"32\" rx=\"6\" fill=\"#6B7A87\"/><rect x=\"592\" y=\"206\" width=\"288\" height=\"32\" rx=\"6\" fill=\"#B07A1C\"/><g transform=\"translate(1160.0 140.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><g transform=\"translate(1160.0 196.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><g transform=\"translate(1160.0 252.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><g transform=\"translate(1160.0 308.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 18,
+     "w": 480,
      "t": "A taxa vale para aquela condição",
-     "x": "verão e inverno dão números diferentes; medir no longão, no jogo, na prova",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
-     "t": "Não é para repor cem por cento durante",
-     "x": "o alvo é limitar a perda, não zerar; a sede guia",
-     "cor": "ambar"
+     "x": 592,
+     "y": 18,
+     "w": 480,
+     "t": "Não é repor cem por cento durante",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 1160,
+     "y": 18,
+     "w": 480,
      "t": "Até uma hora, clima ameno: a sede resolve",
-     "x": "a conta é para sessão longa, calor, sintoma ou problema prévio",
-     "cor": "tinta"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 170,
+     "y": 130,
+     "w": 100,
+     "t": "≠",
+     "tam": 56,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 210,
+     "w": 480,
+     "t": "verão e inverno dão números diferentes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 290,
+     "w": 480,
+     "t": "medir no longão, no jogo, na prova",
+     "tam": 23,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 100,
+     "w": 300,
+     "t": "perda",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 176,
+     "w": 300,
+     "t": "reposição durante",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 260,
+     "w": 300,
+     "t": "barras: esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 296,
+     "w": 480,
+     "t": "limitar a perda, não zerar; a sede guia",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1210,
+     "y": 144,
+     "w": 300,
+     "t": "sessão longa",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 200,
+     "w": 300,
+     "t": "calor",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 256,
+     "w": 300,
+     "t": "sintoma",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 312,
+     "w": 300,
+     "t": "problema prévio",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 104,
+     "w": 300,
+     "t": "a conta é para:",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "Três regras de uso",
+   "titulo": "O número vale para uma condição"
   },
   {
    "id": "antes",
@@ -226,84 +627,532 @@
   },
   {
    "id": "depois",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, a conta: perdeu 1,1 quilo no treino, multiplica por 1,25 a 1,5, e bebe 1,4 a 1,7 litro até o jogo da noite, com sódio da bebida ou da comida. À direita, quando a conta importa: outra sessão no mesmo dia ou cedo no dia seguinte, e perda grande. Com uma sessão por dia e jantar normal, a comida e a sede resolvem\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"230\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(91.0 36.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><line x1=\"236\" y1=\"120\" x2=\"284\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"290\" y=\"20\" width=\"230\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"526\" y1=\"120\" x2=\"574\" y2=\"120\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"580\" y=\"20\" width=\"230\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(671.0 36.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"0\" y=\"260\" width=\"810\" height=\"120\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"880\" y=\"20\" width=\"784\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(904.0 96.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12V9a3 3 0 0 1 3-3h13m-3-3l3 3l-3 3m3 3v3a3 3 0 0 1-3 3H4m3 3l-3-3l3-3\"/></g><g transform=\"translate(904.0 162.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 6a3 3 0 1 0 6 0a3 3 0 1 0-6 0\"/><path d=\"M6.835 9h10.33a1 1 0 0 1 .984.821l1.637 9A1 1 0 0 1 18.802 20H5.198a1 1 0 0 1-.984-1.179l1.637-9A1 1 0 0 1 6.835 9\"/></g></g><rect x=\"880\" y=\"260\" width=\"784\" height=\"120\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(904.0 290.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 96,
+     "w": 230,
+     "t": "perdeu",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 134,
+     "w": 230,
+     "t": "1,1 kg",
+     "tam": 34,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 96,
+     "w": 230,
+     "t": "vezes",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 134,
+     "w": 230,
+     "t": "1,25 a 1,5",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 580,
+     "y": 96,
+     "w": 230,
+     "t": "até o jogo",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 134,
+     "w": 230,
+     "t": "1,4 a 1,7 L",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 278,
+     "w": 760,
+     "t": "com sódio, da bebida ou da comida",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 326,
+     "w": 760,
+     "t": "volume de 1,25 a 1,5 L por quilo perdido, nas horas seguintes",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 36,
+     "w": 740,
+     "t": "Quando importa",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 102,
+     "w": 690,
+     "t": "outra sessão no mesmo dia ou cedo no dia seguinte",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 168,
+     "w": 690,
+     "t": "perda grande",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 970,
+     "y": 282,
+     "w": 670,
+     "t": "uma sessão por dia e jantar normal: a comida e a sede resolvem",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Depois · Shirreffs e colaboradores, 1996",
    "titulo": "Volume maior que a perda, com sódio",
-   "esq": {
-    "t": "A regra prática",
-    "cor": "petr",
-    "itens": [
-     "1,25 a 1,5 L por quilo perdido, nas horas seguintes",
-     "sódio da bebida ou da comida",
-     "perdeu 1,1 kg e joga à noite: 1,4 a 1,7 L até lá"
-    ]
-   },
-   "dir": {
-    "t": "Quando importa",
-    "cor": "ambar",
-    "itens": [
-     "outra sessão no mesmo dia ou cedo no dia seguinte",
-     "perda grande",
-     "uma sessão por dia e jantar normal: a comida e a sede resolvem"
-    ]
-   },
    "destaque": "Volume sem sódio escoa pela urina. Sódio sem volume não basta. O balanço fecha na interação dos dois.",
    "destaque_cor": "tinta",
    "fonte": "Medicine and Science in Sports and Exercise 1996"
   },
   {
    "id": "bebidas",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A água como linha de referência. Acima dela, as três bebidas que retiveram mais volume: leite integral, leite desnatado e solução de reidratação oral. Na linha, as nove que ficaram iguais à água no volume testado: café, chá quente, chá gelado, refrigerante comum, refrigerante sem açúcar, água com gás, isotônico, suco de laranja e cerveja comum\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"120\" y=\"10\" width=\"420\" height=\"70\" rx=\"35\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><line x1=\"330\" y1=\"160\" x2=\"330\" y2=\"92\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"600\" y=\"10\" width=\"420\" height=\"70\" rx=\"35\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><line x1=\"810\" y1=\"160\" x2=\"810\" y2=\"92\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1080\" y=\"10\" width=\"420\" height=\"70\" rx=\"35\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><line x1=\"1290\" y1=\"160\" x2=\"1290\" y2=\"92\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"0\" y1=\"170\" x2=\"1664\" y2=\"170\" stroke=\"#3A6EA5\" stroke-width=\"5\" stroke-dasharray=\"10 8\"/><g transform=\"translate(0.0 120.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"120\" y=\"200\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"600\" y=\"200\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"1080\" y=\"200\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"120\" y=\"266\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"600\" y=\"266\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"1080\" y=\"266\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"120\" y=\"332\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"600\" y=\"332\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"1080\" y=\"332\" width=\"420\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 30,
+     "w": 420,
+     "t": "leite integral",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 30,
+     "w": 420,
+     "t": "leite desnatado",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 30,
+     "w": 420,
+     "t": "solução de reidratação oral",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1540,
+     "y": 22,
+     "w": 124,
+     "t": "retiveram mais",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 48,
+     "y": 128,
+     "w": 200,
+     "t": "água",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 213,
+     "w": 420,
+     "t": "café",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 213,
+     "w": 420,
+     "t": "chá quente",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 213,
+     "w": 420,
+     "t": "chá gelado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 279,
+     "w": 420,
+     "t": "refrigerante comum",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 279,
+     "w": 420,
+     "t": "refrigerante sem açúcar",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 279,
+     "w": 420,
+     "t": "água com gás",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 345,
+     "w": 420,
+     "t": "isotônico",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 345,
+     "w": 420,
+     "t": "suco de laranja",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 345,
+     "w": 420,
+     "t": "cerveja comum",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1540,
+     "y": 234,
+     "w": 124,
+     "t": "iguais à água, no volume testado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "Maughan e colaboradores, 2016",
-   "titulo": "Treze bebidas contra a água",
-   "esq": {
-    "t": "Retiveram mais que a água",
-    "cor": "petr",
-    "itens": [
-     "leite integral",
-     "leite desnatado",
-     "solução de reidratação oral"
-    ]
-   },
-   "dir": {
-    "t": "Iguais à água, no volume testado",
-    "cor": "tinta",
-    "itens": [
-     "café, chá quente e gelado",
-     "refrigerante comum e sem açúcar, água com gás",
-     "isotônico, suco de laranja, cerveja comum"
-    ]
-   },
+   "titulo": "Treze bebidas, e a água como régua",
    "destaque": "O café de todo dia não desidrata. O leite é uma bebida de recuperação subestimada. A cerveja: o problema não é a água, é o sono e a recuperação.",
    "destaque_cor": "ambar",
    "fonte": "Um litro de cada, em pessoas hidratadas · American Journal of Clinical Nutrition 2016"
   },
   {
    "id": "sodio",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Sódio · Baker, 2017",
-   "titulo": "De 10 a 90 mmol/L no suor",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma régua de sódio de 0 a 100 milimoles por litro. O suor varia de 10 a 90 entre pessoas. A bebida esportiva fica entre 20 e 50, o que dá 0,5 a pouco mais de 1 grama de sódio por litro. À direita, quem precisa repor durante: acima de duas horas, calor e umidade, suador salgado, duas sessões no dia. Embaixo, a água de coco: potássio alto, sódio baixo e variável, não repõe o suador salgado\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"118\" y=\"40\" width=\"784\" height=\"56\" rx=\"8\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"216\" y=\"120\" width=\"294\" height=\"56\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"20\" y1=\"200\" x2=\"1000\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"20\" y1=\"200\" x2=\"20\" y2=\"212\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"216\" y1=\"200\" x2=\"216\" y2=\"212\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"412\" y1=\"200\" x2=\"412\" y2=\"212\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"608\" y1=\"200\" x2=\"608\" y2=\"212\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"804\" y1=\"200\" x2=\"804\" y2=\"212\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1000\" y1=\"200\" x2=\"1000\" y2=\"212\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"0\" y=\"280\" width=\"1000\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1060\" y=\"0\" width=\"604\" height=\"390\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1084.0 90.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><g transform=\"translate(1084.0 162.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7\"/></g><g transform=\"translate(1084.0 234.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><g transform=\"translate(1084.0 306.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12V9a3 3 0 0 1 3-3h13m-3-3l3 3l-3 3m3 3v3a3 3 0 0 1-3 3H4m3 3l-3-3l3-3\"/></g></svg>",
+   "rotulos": [
     {
-     "t": "Quem precisa durante",
-     "x": "acima de duas horas, calor e umidade, suador salgado, duas sessões no dia",
-     "cor": "petr"
+     "x": 20,
+     "y": 0,
+     "w": 400,
+     "t": "sódio, em mmol/L",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "O rótulo",
-     "x": "na bebida, cerca de 20 a 50 mmol/L: 0,5 a pouco mais de 1 g de sódio por litro",
-     "cor": "ambar"
+     "x": 132,
+     "y": 54,
+     "w": 400,
+     "t": "no suor: 10 a 90",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 230,
+     "y": 134,
+     "w": 400,
+     "t": "na bebida: 20 a 50",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": -20,
+     "y": 216,
+     "w": 80,
+     "t": "0",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 176,
+     "y": 216,
+     "w": 80,
+     "t": "20",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 372,
+     "y": 216,
+     "w": 80,
+     "t": "40",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 568,
+     "y": 216,
+     "w": 80,
+     "t": "60",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 764,
+     "y": 216,
+     "w": 80,
+     "t": "80",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 216,
+     "w": 80,
+     "t": "100",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 524,
+     "y": 134,
+     "w": 420,
+     "t": "0,5 a pouco mais de 1 g de sódio por litro",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 296,
+     "w": 300,
      "t": "Água de coco",
-     "x": "potássio alto, sódio baixo e variável: não repõe o suador salgado",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 336,
+     "w": 960,
+     "t": "potássio alto, sódio baixo e variável: não repõe o suador salgado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 18,
+     "w": 560,
+     "t": "Quem precisa durante",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 96,
+     "w": 500,
+     "t": "acima de duas horas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 168,
+     "w": 500,
+     "t": "calor e umidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 240,
+     "w": 500,
+     "t": "suador salgado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 312,
+     "w": 500,
+     "t": "duas sessões no dia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Sal em cápsula não protege de quem bebe demais. A hiponatremia do exercício é, quase sempre, excesso de água (Hew-Butler e colaboradores, 2015).",
+   "eyebrow": "Sódio · uma revisão de 2017",
+   "titulo": "De 10 a 90 mmol/L no suor",
+   "destaque": "Sal em cápsula não protege de quem bebe demais. A hiponatremia do exercício é, quase sempre, excesso de água.",
    "destaque_cor": "tinta",
-   "fonte": "Faixa do sódio na bebida: posicionamento de 2007"
+   "fonte": "Baker 2017 · Hew-Butler e colaboradores 2015 · faixa da bebida: posicionamento de 2007"
   },
   {
    "id": "caibra",

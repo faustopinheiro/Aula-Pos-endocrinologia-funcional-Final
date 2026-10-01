@@ -122,6 +122,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Os números da aula", "tit
                     {"t": "Médico", "x": "Hiponatremia, doença do calor, atleta confuso."}],
           "quem": "Na dúvida, não se empurra líquido em quem pode estar com sódio baixo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-08")
+
 spec = {"arquivo": "aulas/MOD04/04-08-hidratacao-e-reposicao-hidroeletrolitica.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Hidratação no exercício", "subtitulo": "Taxa de sudorese, reposição de sódio e prevenção da hiponatremia",

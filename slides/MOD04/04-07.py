@@ -113,6 +113,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Passo quatro · para onde 
                     {"t": "Educador e preparador físico", "x": "A queda de rendimento, vista primeiro."}],
           "quem": "Exclusão com medo ou culpa: o psicólogo entra com o médico."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-07")
+
 spec = {"arquivo": "aulas/MOD04/04-07-micronutrientes-e-deficiencias-prevalentes.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Micronutrientes no praticante de exercício", "subtitulo": "Grupos de risco e avaliação dirigida",
