@@ -417,10 +417,274 @@ def lanche():
                  destaque="“O treino não é demais; a comida é pouca para o treino que você faz.” O mesmo desequilíbrio, dito pelo lado que preserva a identidade.",
                  destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 4.3
+
+def identidade():
+    """4.3: dois eixos para decidir a dose: a identidade, riscada, e a demanda."""
+    p = [svg_abre(1664, 400, "Dois caminhos para a dose de carboidrato. Em cima, riscado: a identidade, eu sou corredor, que leva à pergunta a favor ou contra. Embaixo, a demanda: quanto tempo, que intensidade e quando é a próxima sessão, que leva à dose"), defs(MUDO, OXID)]
+    rs = []
+    linhas_ = [(20, "t:id", "“Eu sou corredor”", "a favor ou contra?", FOSF, True),
+               (220, "t:calendar", "quanto tempo · que intensidade · quando é a próxima sessão", "a dose da sessão", OXID, False)]
+    for y, ic, t, res, cor, risca in linhas_:
+        p.append(caixa(0, y, 980, 150, cor, FOSF_T if risca else OXID_T, esp=3, rx=18))
+        p.append(icone(ic, 30, y + 40, 70, cor))
+        rs.append(rot(130, y + 30 if risca else y + 26, t, w=820, tam=32 if risca else 28, cor=cor, peso=700, serif=True, lh=1.2))
+        p.append(seta(990, y + 75, 1130, y + 75, cor if not risca else MUDO, "m1" if not risca else "m0", esp=5))
+        p.append(caixa(1140, y, 524, 150, cor, CARTAO, esp=3, rx=18))
+        rs.append(rot(1140, y + 52, res, w=524, tam=30, cor=cor, peso=700, alinha="center", serif=True))
+        if risca:
+            p.append(f'<line x1="20" y1="{y + 140}" x2="960" y2="{y + 10}" stroke="{FOSF}" stroke-width="6" stroke-linecap="round" opacity="0.7"/>')
+    return slide("identidade", 400, p, rs,
+                 eyebrow="O erro é de eixo", titulo="A dose foi prescrita pela identidade, e não pela demanda",
+                 destaque="O carboidrato é o único macronutriente com opinião moral, e a pergunta clínica vira “a favor ou contra?”.",
+                 destaque_cor="tinta")
+
+
+def demais():
+    """4.3: oito gramas por quilo contra quatro horas de treino por semana."""
+    p = [svg_abre(1664, 420, "À esquerda, a conta: 78 quilos vezes 8 gramas por quilo dão 624 gramas de carboidrato por dia, cerca de 2.500 quilocalorias só de carboidrato. À direita, a semana de treino: sete barras de cerca de 34 minutos, quatro horas por semana, ao lado das barras tracejadas, bem mais altas, da semana de quem treina em alto volume, a quem essa dose se destina")]
+    blocos = [(0, "78 kg × 8 g/kg", AZUL), (0, "= 624 g por dia", GLIC), (0, "≈ 2.500 kcal só de carboidrato", GLIC)]
+    rs = []
+    for k, (x, t, cor) in enumerate(blocos):
+        y = 20 + k * 120
+        p.append(caixa(0, y, 640, 100, cor, CARTAO if k == 0 else GLIC_T, esp=3, rx=16))
+        rs.append(rot(0, y + 26, t, w=640, tam=36, cor=cor, peso=700, alinha="center", serif=True))
+    rs.append(rot(0, 384, "antes de proteína e gordura", w=640, tam=22, cor=MUDO, alinha="center"))
+    dias = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
+    B = 360
+    for k, d in enumerate(dias):
+        x = 760 + k * 128
+        p.append(f'<rect x="{x}" y="{B - 260}" width="80" height="260" rx="6" fill="none" stroke="{CINZA}" stroke-width="2" stroke-dasharray="8 6"/>')
+        p.append(f'<rect x="{x}" y="{B - 34 * 1.6:.0f}" width="80" height="{34 * 1.6:.0f}" rx="6" fill="{TINTA}"/>')
+        rs.append(rot(x - 10, B + 8, d, w=100, tam=20, cor=MUDO, alinha="center"))
+    rs += [rot(760, 0, "≈ 4 h por semana: menos de 40 minutos por dia", w=900, tam=26, cor=TINTA, peso=700),
+           rot(760, 40, "tracejado: a semana de quem treina em alto volume", w=900, tam=20, cor=MUDO)]
+    return slide("demais", 420, p, rs,
+                 eyebrow="Primeiro erro · demais para a demanda", titulo="Oito gramas por quilo, quatro horas por semana",
+                 destaque="Não há mistério metabólico. É a dieta de quem treina em alto volume, com quatro horas por semana.",
+                 destaque_cor="tinta", fonte="Barras tracejadas: esquema")
+
+
+def marchadores():
+    """4.3: o que o cetogênico fez nos marchadores: mais gordura queimada, pior economia, sem ganho."""
+    p = [svg_abre(1664, 420, "Três painéis esquemáticos dos marchadores de elite. A oxidação de gordura subiu muito no grupo cetogênico. A economia piorou: mais oxigênio para a mesma velocidade. E o ganho do bloco de treino, que veio nos grupos com carboidrato, não veio no cetogênico. O resultado se repetiu em 2020, com mais atletas e incluindo mulheres")]
+    W = 520
+    paineis = [("A oxidação de gordura subiu", OXID, [("carbo", 0.25, CINZA), ("cetogênico", 0.95, OXID)], "a adaptação é real e mensurável"),
+               ("A economia piorou", FOSF, [("carbo", 0.5, CINZA), ("cetogênico", 0.75, FOSF)], "mais oxigênio para a mesma velocidade"),
+               ("O ganho do treino não veio", FOSF, [("carbo alto", 0.7, AZUL), ("periodizado", 0.75, AZUL), ("cetogênico", 0.04, FOSF)], "os outros grupos melhoraram")]
+    rs = []
+    for j, (t, cor, barras, d) in enumerate(paineis):
+        x0 = j * (W + 52)
+        p.append(caixa(x0, 0, W, 420, cor, CARTAO, esp=3, rx=16))
+        rs += [rot(x0 + 20, 14, t, w=W - 40, tam=26, cor=cor, peso=700, serif=True),
+               rot(x0 + 20, 370, d, w=W - 40, tam=20, cor=TINTA)]
+        bw = 110 if len(barras) == 3 else 150
+        for k, (n, v, c) in enumerate(barras):
+            x = x0 + 40 + k * (bw + 40)
+            h = v * 230
+            p.append(f'<rect x="{x}" y="{300 - h:.0f}" width="{bw}" height="{max(h, 4):.0f}" rx="6" fill="{c}"/>')
+            rs.append(rot(x - 20, 310, n, w=bw + 40, tam=18, cor=MUDO, alinha="center"))
+        p.append(f'<line x1="{x0 + 20}" y1="300" x2="{x0 + W - 20}" y2="300" stroke="{MUDO}" stroke-width="2"/>')
+    return slide("marchadores", 420, p, rs,
+                 eyebrow="Segundo erro · de menos para a intensidade", titulo="Os marchadores de elite",
+                 destaque="Gordura custa mais oxigênio por ATP. No leve, quase não importa. Na intensidade alta, importa muito. E o resultado se repetiu em 2020, com mais atletas e incluindo mulheres.",
+                 destaque_cor="tinta", fonte="Barras: esquema, sem valores medidos · Burke e colaboradores, Journal of Physiology 2017 · PLoS One 2020")
+
+
+def paraquem():
+    """4.3: a régua de intensidade com quem pode e quem provavelmente não, e o teste de seis semanas."""
+    p = [svg_abre(1664, 420, "Uma régua de intensidade do treino, do leve ao intenso. No lado leve, sem prejuízo relevante para baixo carboidrato: treino predominantemente leve, preferência forte sem competir, razão clínica. No lado intenso, provavelmente não: quem compete, alta intensidade frequente, esporte intermitente, glicolítico por natureza. Embaixo, um teste de seis semanas com carboidrato só em torno das sessões intensas e o desempenho registrado")]
+    p.append(f'<defs><linearGradient id="gi" x1="0" x2="1"><stop offset="0" stop-color="{OXID}"/><stop offset="1" stop-color="{FOSF}"/></linearGradient></defs>')
+    p.append(f'<rect x="0" y="0" width="1664" height="22" rx="11" fill="url(#gi)"/>')
+    rs = [rot(0, 30, "treino leve", w=300, tam=20, cor=OXID, peso=700), rot(1364, 30, "treino intenso", w=300, tam=20, cor=FOSF, peso=700, alinha="right")]
+    lados = [(0, "Sem prejuízo relevante", OXID, OXID_T, ["treino predominantemente leve", "preferência forte, sem competir", "razão clínica"]),
+             (864, "Provavelmente não", FOSF, FOSF_T, ["quem compete", "alta intensidade frequente", "esporte intermitente, glicolítico por natureza"])]
+    for x, t, cor, fundo, itens in lados:
+        p.append(caixa(x, 70, 800, 200, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 24, 82, t, w=760, tam=26, cor=cor, peso=700, serif=True))
+        for k, it in enumerate(itens):
+            rs.append(rot(x + 24, 130 + k * 42, "· " + it, w=760, tam=22, cor=TINTA))
+    rs.append(rot(0, 290, "Teste de seis semanas, com desempenho registrado", w=1100, tam=24, cor=TINTA, peso=700))
+    for k in range(6):
+        x = k * 278
+        p.append(caixa(x, 330, 258, 90, MUDO, PAPEL, esp=2, rx=12))
+        rs.append(rot(x + 14, 342, f"semana {k + 1}", w=230, tam=20, cor=MUDO))
+        for j, intensa in enumerate([True, False, False, True, False]):
+            p.append(f'<rect x="{x + 14 + j * 46}" y="376" width="36" height="30" rx="4" fill="{GLIC if intensa else CINZA}"/>')
+    rs.append(rot(1180, 290, "carboidrato só nas sessões intensas", w=484, tam=20, cor=GLIC, peso=700, alinha="right"))
+    return slide("paraquem", 420, p, rs,
+                 eyebrow="Baixo carboidrato", titulo="Para quem, e como conversar",
+                 destaque="A decisão sai com os números da pessoa. E cortar carboidrato costuma cortar o total.",
+                 destaque_cor="ambar")
+
+
+def comida():
+    """4.3: a prateleira de comida de verdade, e o gel ao lado com o preço de várias bananas."""
+    p = [svg_abre(1664, 420, "À esquerda, uma prateleira de comida de verdade para o carboidrato durante o treino: banana média, cerca de 25 gramas; pão francês com geleia, mais de 30 gramas; tapioca com mel; bolacha de água e sal; doce de banana; rapadura; tâmaras; água de coco. À direita, o gel: compacto, não amassa, rótulo com a quantidade; conveniência, não requisito fisiológico; e custa muitas vezes uma banana")]
+    p.append(caixa(0, 0, 1040, 420, OXID, OXID_T, esp=3, rx=16))
+    rs = [rot(24, 14, "Comida de verdade", w=990, tam=28, cor=OXID, peso=700, serif=True)]
+    itens = [("banana média", "≈ 25 g"), ("pão francês com geleia", "> 30 g"), ("tapioca com mel", ""), ("bolacha de água e sal", ""),
+             ("doce de banana", ""), ("rapadura", ""), ("tâmaras", ""), ("água de coco", "")]
+    for k, (t, g) in enumerate(itens):
+        x, y = 24 + (k % 4) * 250, 80 + (k // 4) * 160
+        p.append(caixa(x, y, 230, 140, OXID, CARTAO, esp=2, rx=14))
+        rs.append(rot(x + 10, y + 20, t, w=210, tam=22, cor=TINTA, peso=600, alinha="center", lh=1.2))
+        if g:
+            rs.append(rot(x + 10, y + 90, g, w=210, tam=28, cor=OXID, peso=700, alinha="center", serif=True))
+    rs.append(rot(24, 392, "carboidrato por porção, quando medido", w=990, tam=18, cor=MUDO))
+    p.append(caixa(1100, 0, 564, 420, GLIC, GLIC_T, esp=3, rx=16))
+    rs += [rot(1124, 14, "O gel", w=520, tam=28, cor=GLIC, peso=700, serif=True),
+           rot(1124, 64, "compacto, não amassa, rótulo com a quantidade", w=520, tam=21, cor=TINTA, lh=1.2),
+           rot(1124, 128, "conveniência, não requisito fisiológico", w=520, tam=21, cor=GLIC, peso=700, lh=1.2)]
+    p.append(f'<rect x="1130" y="230" width="90" height="140" rx="14" fill="{GLIC}"/>')
+    rs.append(rot(1240, 240, "=", w=40, tam=40, cor=TINTA, peso=700))
+    for k in range(5):
+        p.append(f'<path d="M {1300 + k * 70} 300 q 30 -60 60 -40 q -20 10 -50 60 z" fill="#E2BE55" stroke="{GLIC}" stroke-width="2"/>')
+    rs.append(rot(1290, 330, "custa muitas vezes uma banana", w=360, tam=20, cor=TINTA, alinha="center"))
+    return slide("comida", 420, p, rs,
+                 eyebrow="Uma pós feita para o Brasil", titulo="Nada disso exige gel",
+                 destaque="Para quem pedala quatro horas toda semana, o custo decide se a estratégia é seguida. Estratégia abandonada tem eficácia zero.",
+                 destaque_cor="tinta")
+
+
+# ---------------------------------------------------------------- 4.4
+
+def decisao():
+    """4.4: a ferramenta certa, o paciente errado, a ordem errada."""
+    p = [svg_abre(1664, 400, "Três verificações lado a lado. A ferramenta: certa, a periodização nutricional é legítima e nasceu no esporte de elite. O paciente: errado, ele trabalha nove horas por dia. A ordem: errada, o refinamento veio antes do básico")]
+    cols = [("t:tools", "A ferramenta", "certa", "legítima, nasceu no esporte de elite", OXID, "t:check"),
+            ("t:briefcase", "O paciente", "errado", "trabalha nove horas por dia", FOSF, "t:x"),
+            ("t:stairs", "A ordem", "errada", "o refinamento veio antes do básico", FOSF, "t:x")]
+    rs = []
+    for k, (ic, t, v, d, cor, marca) in enumerate(cols):
+        x = k * 570
+        p.append(caixa(x, 0, 524, 400, cor, OXID_T if cor == OXID else FOSF_T, esp=3, rx=18))
+        p.append(icone(ic, x + 30, 30, 70, cor))
+        p.append(f'<circle cx="{x + 460}" cy="66" r="40" fill="{cor}"/>')
+        p.append(icone(marca, x + 436, 42, 48, PAPEL))
+        rs += [rot(x + 30, 130, t, w=470, tam=30, cor=TINTA, peso=700, serif=True),
+               rot(x + 30, 180, v, w=470, tam=44, cor=cor, peso=700, serif=True),
+               rot(x + 30, 260, d, w=470, tam=24, cor=TINTA, lh=1.3)]
+    return slide("decisao", 400, p, rs,
+                 eyebrow="Periodizar ou não, e em que nível", titulo="A ferramenta certa, no paciente errado, na ordem errada",
+                 destaque="A pergunta é quanto da periodização sobrevive quando o paciente trabalha nove horas por dia.",
+                 destaque_cor="tinta")
+
+
+def familias():
+    """4.4: a refeição grande e a sobremesa pequena da periodização."""
+    p = [svg_abre(1664, 420, "À esquerda, um prato grande: a refeição, alta disponibilidade de carboidrato, combustível para o trabalho exigido, com a dose acompanhando a sessão que vem; consensual, baixo risco, quase todo o ganho. À direita, uma tigela pequena: a sobremesa, baixa disponibilidade, treinar em jejum, dois treinos sem repor entre eles, a sessão da noite e dormir sem carboidrato")]
+    p.append(f'<circle cx="300" cy="210" r="200" fill="{OXID_T}" stroke="{OXID}" stroke-width="6"/>')
+    p.append(f'<circle cx="300" cy="210" r="150" fill="{CARTAO}" stroke="{OXID}" stroke-width="2"/>')
+    rs = [rot(160, 120, "A refeição", w=280, tam=34, cor=OXID, peso=700, alinha="center", serif=True),
+          rot(160, 176, "alta disponibilidade", w=280, tam=22, cor=TINTA, alinha="center"),
+          rot(160, 220, "quase todo o ganho", w=280, tam=22, cor=OXID, peso=700, alinha="center")]
+    itens = ["combustível para o trabalho exigido", "a dose acompanha a sessão que vem", "consensual, baixo risco"]
+    for k, t in enumerate(itens):
+        rs.append(rot(540, 60 + k * 70, "· " + t, w=480, tam=23, cor=TINTA))
+    p.append(f'<path d="M 1180 200 q 140 160 280 0 z" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="5"/>')
+    p.append(f'<line x1="1160" y1="200" x2="1480" y2="200" stroke="{GLIC}" stroke-width="5"/>')
+    rs += [rot(1160, 110, "A sobremesa", w=320, tam=30, cor=GLIC, peso=700, alinha="center", serif=True),
+           rot(1160, 150, "baixa disponibilidade", w=320, tam=20, cor=TINTA, alinha="center")]
+    sob = ["treinar em jejum", "dois treinos sem repor entre eles", "a sessão da noite e dormir sem carboidrato"]
+    for k, t in enumerate(sob):
+        rs.append(rot(1120, 300 + k * 38, "· " + t, w=540, tam=21, cor=TINTA))
+    return slide("familias", 420, p, rs,
+                 eyebrow="Duas revisões de 2017 e 2018", titulo="Um princípio de planejamento, duas famílias",
+                 destaque="Periodizar é ajustar a nutrição ao objetivo de cada sessão e de cada fase. Nesse sentido amplo, quase todo mundo deveria periodizar alguma coisa.",
+                 destaque_cor="tinta", fonte="Jeukendrup, Sports Medicine 2017 · Impey e colaboradores, Sports Medicine 2018")
+
+
+def limites():
+    """4.4: cinco barreiras numa pista antes da periodização."""
+    p = [svg_abre(1664, 420, "Uma pista com cinco barreiras antes da periodização no amador: margem de erro, o elite erra e alguém corrige, o amador descobre três meses depois; o denominador do ganho, 1 a 3% sobre base otimizada contra buracos grandes no básico; orçamento de atenção, a complexidade não soma, desloca; deriva para o déficit, treinar com pouco vira comer pouco; o objetivo é outro, pico numa data contra treinar bem o ano inteiro"), defs(TINTA)]
+    p.append(f'<line x1="0" y1="190" x2="1600" y2="190" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(seta(1560, 190, 1650, 190, TINTA, "m0", esp=4))
+    bar = [("Margem de erro", "o elite erra e alguém corrige; o amador descobre três meses depois", TINTA),
+           ("O denominador do ganho", "1 a 3% sobre base otimizada, contra buracos grandes no básico", FOSF),
+           ("Orçamento de atenção", "a complexidade não soma; desloca", TINTA),
+           ("Deriva para o déficit", "treinar com pouco vira comer pouco", GLIC),
+           ("O objetivo é outro", "pico numa data contra treinar bem o ano inteiro", TINTA)]
+    rs = []
+    for k, (t, d, cor) in enumerate(bar):
+        x = 20 + k * 320
+        p.append(f'<rect x="{x + 100}" y="110" width="12" height="80" fill="{cor}"/><rect x="{x + 180}" y="110" width="12" height="80" fill="{cor}"/>')
+        p.append(f'<rect x="{x + 90}" y="104" width="112" height="18" rx="4" fill="{cor}"/>')
+        rs += [rot(x + 146 - 40, 40, str(k + 1), w=80, tam=40, cor=cor, peso=700, alinha="center", serif=True),
+               rot(x, 210, t, w=300, tam=24, cor=cor, peso=700, alinha="center", lh=1.15),
+               rot(x, 280, d, w=300, tam=20, cor=TINTA, alinha="center", lh=1.25)]
+    return slide("limites", 420, p, rs, eyebrow="Por que antes da hora", titulo="Cinco limites estruturais no amador")
+
+
+def triagem():
+    """4.4: quatro colunas que seguram o telhado da periodização."""
+    p = [svg_abre(1664, 420, "Um frontão sustentado por quatro colunas. As colunas: energia total adequada, fora da zona cinza; proteína distribuída, e não concentrada no jantar; carboidrato alinhado à sessão, mais no dia intenso e menos no leve; sono, a variável que ninguém periodiza. O telhado, só depois que as quatro estão estáveis por três meses: a periodização")]
+    p.append(f'<path d="M 232 110 L 832 10 L 1432 110 Z" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="4"/>')
+    rs = [rot(532, 60, "periodização, só depois", w=600, tam=26, cor=GLIC, peso=700, alinha="center", serif=True)]
+    cols = [("t:battery-4", "Energia total adequada", "fora da zona cinza"), ("t:barbell", "Proteína distribuída", "e não concentrada no jantar"),
+            ("t:calendar", "Carboidrato alinhado à sessão", "mais no dia intenso, menos no leve"), ("t:moon", "Sono", "a variável que ninguém periodiza")]
+    for k, (ic, t, d) in enumerate(cols):
+        x = 232 + k * 310
+        p.append(f'<rect x="{x}" y="120" width="270" height="250" fill="{OXID_T}" stroke="{OXID}" stroke-width="3"/>')
+        p.append(icone(ic, x + 105, 140, 60, OXID))
+        rs += [rot(x + 10, 214, t, w=250, tam=23, cor=OXID, peso=700, alinha="center", lh=1.15),
+               rot(x + 10, 290, d, w=250, tam=19, cor=TINTA, alinha="center", lh=1.2)]
+    p.append(f'<rect x="212" y="370" width="1240" height="30" fill="{CINZA}"/>')
+    rs.append(rot(212, 372, "estáveis por três meses", w=1240, tam=20, cor=TINTA, peso=700, alinha="center"))
+    return slide("triagem", 420, p, rs,
+                 eyebrow="A regra de triagem", titulo="Quatro coisas estáveis por três meses",
+                 destaque="Quem não cumpre as quatro não precisa de periodização. Precisa das quatro.", destaque_cor="tinta")
+
+
+def nunca():
+    """4.4: cinco placas de pare para a restrição deliberada."""
+    p = [svg_abre(1664, 400, "Cinco placas de pare, uma para cada grupo em que restrição deliberada de carboidrato é risco sem contrapartida: adolescente em crescimento; história de transtorno alimentar ou relação difícil com a comida; disponibilidade energética já baixa; gestante; doença crônica descompensada")]
+    grupos = [("t:seedling", "Adolescente em crescimento"), ("t:mood-sad", "Transtorno alimentar ou relação difícil com a comida"),
+              ("t:battery-1", "Disponibilidade energética já baixa"), ("t:baby-carriage", "Gestante"), ("t:heartbeat", "Doença crônica descompensada")]
+    rs = []
+    for k, (ic, t) in enumerate(grupos):
+        x = k * 336
+        cx = x + 150
+        pts = " ".join(f"{cx + 110 * __import__('math').cos(__import__('math').pi / 8 + j * __import__('math').pi / 4):.0f},{120 + 110 * __import__('math').sin(__import__('math').pi / 8 + j * __import__('math').pi / 4):.0f}" for j in range(8))
+        p.append(f'<polygon points="{pts}" fill="{FOSF}" stroke="{CARTAO}" stroke-width="6"/>')
+        p.append(icone(ic, cx - 36, 84, 72, PAPEL))
+        rs.append(rot(x, 250, t, w=300, tam=23, cor=TINTA, peso=700, alinha="center", lh=1.25))
+    return slide("nunca", 400, p, rs,
+                 eyebrow="A lista do nunca", titulo="Restrição deliberada aqui é risco sem contrapartida")
+
+
+def perfis():
+    """4.4: três perfis em linha, do que falta à conduta."""
+    p = [svg_abre(1664, 400, "Três linhas, cada uma com o perfil, o que falta e a conduta. O amador que dorme pouco: faltam as quatro condições; suspender e fazer o básico. Quem faz quatro estratégias juntas: falta atenção para o básico; manter uma e largar três. Base sólida e prova marcada: não falta nada; nível dois, sem treinar com pouco"), defs(MUDO)]
+    linhas_ = [("t:moon", "Amador que dorme pouco", "as quatro condições", "suspender e fazer o básico", FOSF),
+               ("t:list-check", "Quatro estratégias juntas", "atenção para o básico", "manter uma, largar três", GLIC),
+               ("t:flag", "Base sólida, prova marcada", "nada", "nível dois, sem treinar com pouco", OXID)]
+    rs = [rot(0, 0, "Perfil", w=520, tam=22, cor=MUDO, peso=700), rot(600, 0, "O que falta", w=460, tam=22, cor=MUDO, peso=700),
+          rot(1140, 0, "Conduta", w=524, tam=22, cor=MUDO, peso=700)]
+    for k, (ic, t, f, c, cor) in enumerate(linhas_):
+        y = 44 + k * 118
+        p.append(caixa(0, y, 520, 100, cor, CARTAO, esp=3, rx=14))
+        p.append(icone(ic, 20, y + 26, 48, cor))
+        rs.append(rot(84, y + 30, t, w=420, tam=24, cor=TINTA, peso=700))
+        p.append(seta(526, y + 50, 594, y + 50, MUDO, "m0", esp=3))
+        p.append(caixa(600, y, 460, 100, cor, PAPEL, esp=2, rx=14))
+        rs.append(rot(600, y + 32, f, w=460, tam=24, cor=cor, peso=700, alinha="center"))
+        p.append(seta(1066, y + 50, 1134, y + 50, MUDO, "m0", esp=3))
+        p.append(caixa(1140, y, 524, 100, cor, cor, esp=0, rx=14))
+        rs.append(rot(1140, y + 32, c, w=524, tam=24, cor=PAPEL, peso=700, alinha="center"))
+    return slide("perfis", 400, p, rs,
+                 eyebrow="O critério aplicado", titulo="Três perfis típicos, três condutas",
+                 destaque="Ele fazia a parte difícil e pulava a parte fácil. E os atletas dos estudos não trabalham nove horas por dia.",
+                 destaque_cor="ambar")
+
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"04-01": [equacao, conta_41, revisao, medida, alarme, portas_41, controversia],
-          "04-02": [conta_42, ingestao, gasto, massa, erro, semconta, lanche]}
+          "04-02": [conta_42, ingestao, gasto, massa, erro, semconta, lanche],
+          "04-03": [identidade, demais, marchadores, paraquem, comida],
+          "04-04": [decisao, familias, limites, triagem, nunca, perfis]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

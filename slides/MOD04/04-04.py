@@ -123,6 +123,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "A regra operacional do mó
                     {"t": "Médico", "x": "Se há contraindicação clínica."}],
           "quem": "Qualquer um pode perguntar se as quatro coisas estão de pé, antes da sobremesa."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-04")
+
 spec = {"arquivo": "aulas/MOD04/04-04-periodizacao-de-carboidrato.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Periodização de carboidrato", "subtitulo": "Disponibilidade manipulada e critérios de indicação",

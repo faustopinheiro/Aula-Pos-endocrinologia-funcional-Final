@@ -111,6 +111,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Três erros com o mesmo nu
                     {"t": "Toda a equipe", "x": "O sintoma de horário marcado."}],
           "quem": "A queda em alta intensidade de quem corta carboidrato tem explicação. Não é falta de vontade."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-03")
+
 spec = {"arquivo": "aulas/MOD04/04-03-carboidrato-quanto-quando-e-por-que.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Carboidrato no exercício", "subtitulo": "Dose, momento e erros de prescrição",
