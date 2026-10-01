@@ -22,11 +22,147 @@
  "slides": [
   {
    "id": "regra",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma linha do tempo da primeira meia maratona. Na véspera, massa com molho de creme. De manhã, o gel do kit e um café mais forte para acordar. Cada um tem a etiqueta de novo. No quilômetro doze, a procura por um banheiro. Nada era absurdo; tudo era novo\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"40\" y1=\"200\" x2=\"1290\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"20\" y=\"40\" width=\"300\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(40.0 64.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"240\" y=\"22\" width=\"80\" height=\"34\" rx=\"17\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><circle cx=\"170\" cy=\"200\" r=\"12\" fill=\"#B07A1C\"/><rect x=\"430\" y=\"40\" width=\"300\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(450.0 64.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m7.05 11.293l4.243-4.243a2 2 0 0 1 2.828 0l2.829 2.83a2 2 0 0 1 0 2.828l-4.243 4.243a2 2 0 0 1-2.828 0L7.05 14.12a2 2 0 0 1 0-2.828m9.193-2.12l3.086-.772a1.5 1.5 0 0 0 .697-2.516L17.81 3.667a1.5 1.5 0 0 0-2.44.47L14.122 7.05\"/><path d=\"M9.172 16.243L8.4 19.329a1.5 1.5 0 0 1-2.516.697L3.667 17.81a1.5 1.5 0 0 1 .47-2.44l2.913-1.248\"/></g></g><rect x=\"650\" y=\"22\" width=\"80\" height=\"34\" rx=\"17\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><circle cx=\"580\" cy=\"200\" r=\"12\" fill=\"#B07A1C\"/><rect x=\"840\" y=\"40\" width=\"300\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(860.0 64.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 14c.83.642 2.077 1.017 3.5 1c1.423.017 2.67-.358 3.5-1s2.077-1.017 3.5-1c1.423-.017 2.67.358 3.5 1M8 3a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2m4-4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2\"/><path d=\"M3 10h14v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6z\"/><path d=\"M16.746 16.726a3 3 0 1 0 .252-5.555\"/></g></g><rect x=\"1060\" y=\"22\" width=\"80\" height=\"34\" rx=\"17\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><circle cx=\"990\" cy=\"200\" r=\"12\" fill=\"#B07A1C\"/><rect x=\"1320\" y=\"120\" width=\"344\" height=\"160\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1344.0 144.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><line x1=\"1290\" y1=\"200\" x2=\"1312\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"5\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 94,
+     "y": 62,
+     "w": 216,
+     "t": "massa com molho de creme",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 240,
+     "y": 27,
+     "w": 80,
+     "t": "novo",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 224,
+     "w": 200,
+     "t": "véspera",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 62,
+     "w": 216,
+     "t": "o gel do kit",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 650,
+     "y": 27,
+     "w": 80,
+     "t": "novo",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 224,
+     "w": 200,
+     "t": "manhã",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 914,
+     "y": 62,
+     "w": 216,
+     "t": "um café mais forte",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1060,
+     "y": 27,
+     "w": 80,
+     "t": "novo",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 890,
+     "y": 224,
+     "w": 200,
+     "t": "manhã",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1404,
+     "y": 150,
+     "w": 240,
+     "t": "km 12",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1344,
+     "y": 208,
+     "w": 300,
+     "t": "a procura por um banheiro",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 40,
+     "y": 300,
+     "w": 1240,
+     "t": "Nada era absurdo. Tudo era novo.",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Perfil típico de primeira meia maratona",
-   "frase": "Nada de novo no dia.",
-   "apoio": "Massa com molho de creme na véspera, o gel do kit, um café mais forte para acordar. Nada era absurdo. Tudo era novo. E no quilômetro doze, a procura por um banheiro."
+   "titulo": "Nada de novo no dia."
   },
   {
    "id": "passos",
@@ -152,54 +288,352 @@
   },
   {
    "id": "corte",
-   "tipo": "duas",
-   "eyebrow": "Passo um · Burke e colaboradores, 2011",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma pergunta no topo: a prova passa de noventa minutos contínuos? Não, como em 10 quilômetros, futebol e luta: sem sobrecarga de carboidrato, alimentação habitual de treino, e o treino reduzido já enche o estoque. Sim, como em maratona, ciclismo longo e triatlo: 10 a 12 gramas por quilo por dia nas 36 a 48 horas antes, com o treino reduzido\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"482\" y=\"0\" width=\"700\" height=\"80\" rx=\"40\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"560\" y1=\"84\" x2=\"400\" y2=\"140\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"1104\" y1=\"84\" x2=\"1264\" y2=\"140\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"150\" width=\"780\" height=\"250\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"34\" cy=\"240\" r=\"7\" fill=\"#6B7A87\"/><circle cx=\"34\" cy=\"292\" r=\"7\" fill=\"#6B7A87\"/><circle cx=\"34\" cy=\"344\" r=\"7\" fill=\"#6B7A87\"/><rect x=\"884\" y=\"150\" width=\"780\" height=\"250\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 482,
+     "y": 22,
+     "w": 700,
+     "t": "Passa de 90 minutos contínuos?",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 420,
+     "y": 92,
+     "w": 100,
+     "t": "não",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 92,
+     "w": 100,
+     "t": "sim",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 166,
+     "w": 740,
+     "t": "10 km, futebol, luta",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 52,
+     "y": 226,
+     "w": 700,
+     "t": "sem sobrecarga de carboidrato",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 52,
+     "y": 278,
+     "w": 700,
+     "t": "alimentação habitual de treino",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 52,
+     "y": 330,
+     "w": 700,
+     "t": "o treino reduzido já enche o estoque",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 166,
+     "w": 740,
+     "t": "maratona, ciclismo longo, triatlo",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 908,
+     "y": 220,
+     "w": 740,
+     "t": "10 a 12 g/kg por dia",
+     "tam": 44,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 908,
+     "y": 290,
+     "w": 740,
+     "t": "nas 36 a 48 horas antes, com o treino reduzido",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 336,
+     "w": 740,
+     "t": "70 kg: 700 a 840 g de carboidrato por dia",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo um · uma revisão de 2011",
    "titulo": "A prova passa de noventa minutos contínuos?",
-   "esq": {
-    "t": "Não: 10 km, futebol, luta",
-    "cor": "tinta",
-    "itens": [
-     "sem sobrecarga de carboidrato",
-     "alimentação habitual de treino",
-     "o treino reduzido já enche o estoque"
-    ]
-   },
-   "dir": {
-    "t": "Sim: maratona, ciclismo longo, triatlo",
-    "cor": "petr",
-    "itens": [
-     "10 a 12 g/kg por dia",
-     "nas 36 a 48 horas antes",
-     "com o treino reduzido"
-    ]
-   },
-   "destaque": "A conta, para 70 kg: 700 a 840 g de carboidrato por dia. Planejado em dois dias, não improvisado num jantar.",
+   "destaque": "Planejado em dois dias, não improvisado num jantar.",
    "destaque_cor": "ambar",
-   "fonte": "Journal of Sports Sciences 2011"
+   "fonte": "Burke e colaboradores · Journal of Sports Sciences 2011"
   },
   {
    "id": "ajustes",
-   "tipo": "lista",
-   "eyebrow": "Como a sobrecarga cabe no prato",
-   "titulo": "Três ajustes",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três ajustes. Primeiro, dois pratos em esquema: o de sempre, com carboidrato, proteína, gordura e fibra; o da sobrecarga, com mais carboidrato e menos gordura e fibra, trocando parte do prato em vez de comer mais de tudo. Segundo, o carboidrato de baixo volume: arroz branco, massa, pão, tapioca, batata sem casca, suco. Terceiro, a balança vai subir, porque o glicogênio vem com água; quem não sabe corta a comida na véspera\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 130 170 L 130 60 A 110 110 0 0 1 195 259 Z\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 130 170 L 195 259 A 110 110 0 0 1 41 235 Z\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 130 170 L 41 235 A 110 110 0 0 1 25 136 Z\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 130 170 L 25 136 A 110 110 0 0 1 130 60 Z\" fill=\"#C9CFD4\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 420 170 L 420 60 A 110 110 0 1 1 331 235 Z\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 420 170 L 331 235 A 110 110 0 0 1 340 95 Z\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 420 170 L 340 95 A 110 110 0 0 1 373 70 Z\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 420 170 L 373 70 A 110 110 0 0 1 420 60 Z\" fill=\"#C9CFD4\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><rect x=\"0\" y=\"370\" width=\"22\" height=\"22\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"140\" y=\"370\" width=\"22\" height=\"22\" rx=\"4\" fill=\"#3A6EA5\"/><rect x=\"280\" y=\"370\" width=\"22\" height=\"22\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"420\" y=\"370\" width=\"22\" height=\"22\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"620\" y=\"0\" width=\"560\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"644\" y=\"80\" width=\"236\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"900\" y=\"80\" width=\"236\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"644\" y=\"150\" width=\"236\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"900\" y=\"150\" width=\"236\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"644\" y=\"220\" width=\"236\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"900\" y=\"220\" width=\"236\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1220\" y=\"0\" width=\"444\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1290.0 120.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><g transform=\"translate(1420.0 130.0) scale(2.9167)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g></svg>",
+   "rotulos": [
     {
-     "t": "Carboidrato de baixo volume",
-     "x": "arroz branco, massa, pão, tapioca, batata sem casca, suco; não é o momento das fibras",
-     "cor": "petr"
+     "x": 30,
+     "y": 296,
+     "w": 200,
+     "t": "o de sempre",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
+     "x": 320,
+     "y": 296,
+     "w": 200,
+     "t": "o da sobrecarga",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 560,
      "t": "Trocar parte do prato",
-     "x": "menos gordura e fibra para abrir espaço; não é comer mais de tudo",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 0,
+     "y": 336,
+     "w": 560,
+     "t": "esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 368,
+     "w": 110,
+     "t": "carboidrato",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 170,
+     "y": 368,
+     "w": 110,
+     "t": "proteína",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 310,
+     "y": 368,
+     "w": 110,
+     "t": "gordura",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 368,
+     "w": 110,
+     "t": "fibra",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 16,
+     "w": 520,
+     "t": "Carboidrato de baixo volume",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 644,
+     "y": 94,
+     "w": 236,
+     "t": "arroz branco",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 94,
+     "w": 236,
+     "t": "massa",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 164,
+     "w": 236,
+     "t": "pão",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 164,
+     "w": 236,
+     "t": "tapioca",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 234,
+     "w": 236,
+     "t": "batata sem casca",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 234,
+     "w": 236,
+     "t": "suco",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 300,
+     "w": 520,
+     "t": "não é o momento das fibras",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1244,
+     "y": 16,
+     "w": 400,
      "t": "Avisar que a balança vai subir",
-     "x": "glicogênio vem com água; quem não sabe corta a comida na véspera",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1244,
+     "y": 250,
+     "w": 400,
+     "t": "glicogênio vem com água; quem não sabe corta a comida na véspera",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "Como a sobrecarga cabe no prato",
+   "titulo": "Três ajustes"
   },
   {
    "id": "manha",
@@ -325,125 +759,668 @@
   },
   {
    "id": "intestino",
-   "tipo": "numeros",
-   "eyebrow": "Passo três · De Oliveira, Burini e Jeukendrup, 2014",
-   "titulo": "O intestino decide a prova do amador",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Dez figuras de corredores; de três a cinco destacadas: 30 a 50% dos atletas têm queixa gastrointestinal no exercício. À direita, três tipos de causa: fisiológica, mecânica e nutricional. A nutricional é a mais acionável: o que foi comido, quando e em que concentração\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><g transform=\"translate(20.0 60.0) scale(2.2917)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(170.0 60.0) scale(2.2917)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(320.0 60.0) scale(2.2917)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(470.0 60.0) scale(2.2917)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"460\" y=\"54\" width=\"130\" height=\"122\" rx=\"10\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(620.0 60.0) scale(2.2917)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"610\" y=\"54\" width=\"130\" height=\"122\" rx=\"10\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(20.0 210.0) scale(2.2917)\"><g fill=\"#C9CFD4\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(170.0 210.0) scale(2.2917)\"><g fill=\"#C9CFD4\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(320.0 210.0) scale(2.2917)\"><g fill=\"#C9CFD4\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(470.0 210.0) scale(2.2917)\"><g fill=\"#C9CFD4\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><g transform=\"translate(620.0 210.0) scale(2.2917)\"><g fill=\"#C9CFD4\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"860\" y=\"0\" width=\"804\" height=\"120\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"860\" y=\"136\" width=\"804\" height=\"120\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"860\" y=\"272\" width=\"804\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "n": "30 a 50%",
-     "x": "dos atletas com queixa gastrointestinal no exercício",
-     "cor": "verm"
+     "x": 0,
+     "y": 0,
+     "w": 760,
+     "t": "30 a 50% com queixa gastrointestinal no exercício",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "3",
-     "x": "tipos de causa: fisiológica, mecânica e nutricional",
-     "cor": "tinta"
+     "x": 0,
+     "y": 366,
+     "w": 760,
+     "t": "tracejado: a ponta de cima da faixa",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "1",
-     "x": "a mais acionável: o que foi comido, quando e em que concentração",
-     "cor": "petr"
+     "x": 884,
+     "y": 16,
+     "w": 760,
+     "t": "Fisiológica",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 58,
+     "w": 760,
+     "t": "a perfusão cai no esforço",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 152,
+     "w": 760,
+     "t": "Mecânica",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 194,
+     "w": 760,
+     "t": "o impacto e a postura",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 288,
+     "w": 760,
+     "t": "Nutricional",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 330,
+     "w": 760,
+     "t": "o que foi comido, quando e em que concentração: a mais acionável",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Costa e colaboradores, 2017: a perfusão intestinal cai no esforço. Piora com intensidade, duração, calor e desidratação.",
+   "eyebrow": "Passo três · uma revisão de 2014",
+   "titulo": "O intestino decide a prova do amador",
+   "destaque": "Uma revisão de 2017: a perfusão intestinal cai no esforço. Piora com intensidade, duração, calor e desidratação.",
    "destaque_cor": "ambar",
-   "fonte": "Sports Medicine 2014 · Alimentary Pharmacology and Therapeutics 2017"
+   "fonte": "De Oliveira, Burini e Jeukendrup · Sports Medicine 2014 · Costa e colaboradores · Alimentary Pharmacology and Therapeutics 2017"
   },
   {
    "id": "resolve",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Em ordem de retorno",
-   "titulo": "O que resolve, e o que é proibido",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma escada de quatro degraus, em ordem de retorno: antes, pouca gordura, fibra e volume; concentração, gel com água; treinar o intestino, semanas de longos com a estratégia da prova; mistura de açúcares, quando a taxa for alta. À direita, o proibido: anti-inflamatório preventivo. E os sinais que mandam ao médico, não ao gel: sangue nas fezes, dor intensa, sintoma noturno, perda de peso\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"250\" width=\"1000\" height=\"150\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"34\" cy=\"280\" r=\"20\" fill=\"#008A7E\"/><rect x=\"250\" y=\"180\" width=\"750\" height=\"220\" fill=\"#CDE6E1\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"284\" cy=\"210\" r=\"20\" fill=\"#008A7E\"/><rect x=\"500\" y=\"110\" width=\"500\" height=\"290\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"534\" cy=\"140\" r=\"20\" fill=\"#008A7E\"/><rect x=\"750\" y=\"40\" width=\"250\" height=\"360\" fill=\"#CDE6E1\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"784\" cy=\"70\" r=\"20\" fill=\"#008A7E\"/><rect x=\"1060\" y=\"0\" width=\"604\" height=\"160\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1084.0 30.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><line x1=\"1080\" y1=\"90\" x2=\"1144\" y2=\"30\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"1060\" y=\"190\" width=\"604\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1084.0 210.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><circle cx=\"1092\" cy=\"299\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1382\" cy=\"299\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1092\" cy=\"349\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"1382\" cy=\"349\" r=\"7\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
-     "t": "1 · Antes",
-     "x": "pouca gordura, fibra e volume",
-     "cor": "petr"
+     "x": 14,
+     "y": 268,
+     "w": 40,
+     "t": "1",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "t": "2 · Concentração",
-     "x": "gel com água",
-     "cor": "petr"
+     "x": 16,
+     "y": 310,
+     "w": 226,
+     "t": "Antes",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "3 · Treinar o intestino",
-     "x": "semanas de longos com a estratégia da prova",
-     "cor": "petr"
+     "x": 16,
+     "y": 344,
+     "w": 226,
+     "t": "pouca gordura, fibra e volume",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "t": "4 · Mistura de açúcares",
-     "x": "quando a taxa for alta",
-     "cor": "petr"
+     "x": 264,
+     "y": 198,
+     "w": 40,
+     "t": "2",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 266,
+     "y": 240,
+     "w": 226,
+     "t": "Concentração",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 266,
+     "y": 274,
+     "w": 226,
+     "t": "gel com água",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 514,
+     "y": 128,
+     "w": 40,
+     "t": "3",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 516,
+     "y": 170,
+     "w": 226,
+     "t": "Treinar o intestino",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 516,
+     "y": 204,
+     "w": 226,
+     "t": "semanas de longos com a estratégia da prova",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 764,
+     "y": 58,
+     "w": 40,
+     "t": "4",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 766,
+     "y": 100,
+     "w": 226,
+     "t": "Mistura de açúcares",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 766,
+     "y": 134,
+     "w": 226,
+     "t": "quando a taxa for alta",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1160,
+     "y": 28,
+     "w": 480,
+     "t": "Anti-inflamatório preventivo: não",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 100,
+     "w": 480,
+     "t": "ibuprofeno antes do esforço",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 216,
+     "w": 500,
+     "t": "Médico, não gel",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1108,
+     "y": 286,
+     "w": 260,
+     "t": "sangue nas fezes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1398,
+     "y": 286,
+     "w": 260,
+     "t": "dor intensa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1108,
+     "y": 336,
+     "w": 260,
+     "t": "sintoma noturno",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1398,
+     "y": 336,
+     "w": 260,
+     "t": "perda de peso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Anti-inflamatório preventivo: não. Van Wijck, 2012: ibuprofeno antes do esforço aumentou a lesão do intestino. Sangue nas fezes, dor intensa, sintoma noturno ou perda de peso: médico, não gel.",
+   "eyebrow": "Em ordem de retorno",
+   "titulo": "O que resolve, e o que é proibido",
+   "destaque": "Num experimento de 2012, ibuprofeno antes do esforço aumentou a lesão do intestino.",
    "destaque_cor": "verm",
-   "fonte": "Medicine and Science in Sports and Exercise 2012"
+   "fonte": "Van Wijck e colaboradores · Medicine and Science in Sports and Exercise 2012"
   },
   {
    "id": "entre",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro colunas que encolhem com o intervalo. Cerca de 4 horas: refeição leve logo depois, sanduíche, arroz com frango, fruta. 1 a 2 horas: fruta, pão com mel, bebida com carboidrato, iogurte. Menos de 1 hora: líquido com carboidrato e lanches pequenos. Intervalo do jogo: bebida com carboidrato, gel com água, fruta fácil. À parte, a pesagem na véspera: líquido com sódio, carboidrato em refeições pequenas, nada novo\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"60.0\" width=\"270\" height=\"340.0\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(16.0 74.0) scale(1.4167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"294\" y=\"128.0\" width=\"270\" height=\"272.0\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(310.0 142.0) scale(1.4167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"588\" y=\"196.0\" width=\"270\" height=\"204.0\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(604.0 210.0) scale(1.4167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"882\" y=\"247.0\" width=\"270\" height=\"153.0\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(898.0 261.0) scale(1.4167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"1200\" y=\"60\" width=\"464\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1224.0 84.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><circle cx=\"1234\" cy=\"174\" r=\"7\" fill=\"#B07A1C\"/><circle cx=\"1234\" cy=\"238\" r=\"7\" fill=\"#B07A1C\"/><circle cx=\"1234\" cy=\"302\" r=\"7\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "t": "intervalo",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 58,
+     "y": 78,
+     "w": 206,
+     "t": "≈ 4 h",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.1
+    },
+    {
+     "x": 16,
+     "y": 130,
+     "w": 238,
+     "t": "refeição leve logo depois: sanduíche, arroz com frango, fruta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 352,
+     "y": 146,
+     "w": 206,
+     "t": "1 a 2 h",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.1
+    },
+    {
+     "x": 310,
+     "y": 198,
+     "w": 238,
+     "t": "fruta, pão com mel, bebida com carboidrato, iogurte",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 646,
+     "y": 214,
+     "w": 206,
+     "t": "< 1 h",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.1
+    },
+    {
+     "x": 604,
+     "y": 266,
+     "w": 238,
+     "t": "líquido com carboidrato e lanches pequenos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 265,
+     "w": 206,
+     "t": "intervalo do jogo",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.1
+    },
+    {
+     "x": 898,
+     "y": 317,
+     "w": 238,
+     "t": "bebida com carboidrato, gel com água, fruta fácil",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 90,
+     "w": 370,
+     "t": "Pesagem na véspera",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1252,
+     "y": 160,
+     "w": 390,
+     "t": "líquido com sódio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1252,
+     "y": 224,
+     "w": 390,
+     "t": "carboidrato em refeições pequenas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1252,
+     "y": 288,
+     "w": 390,
+     "t": "nada novo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "Passo quatro · entre um esforço e outro",
    "titulo": "O intervalo decide o que cabe",
-   "cab": [
-    "Intervalo",
-    "O que comer"
-   ],
-   "larguras": [
-    30,
-    70
-   ],
-   "linhas": [
-    [
-     "Cerca de 4 horas",
-     "refeição leve logo depois: sanduíche, arroz com frango, fruta"
-    ],
-    [
-     "1 a 2 horas",
-     "fruta, pão com mel, bebida com carboidrato, iogurte"
-    ],
-    [
-     "Menos de 1 hora",
-     "líquido com carboidrato e lanches pequenos"
-    ],
-    [
-     "Intervalo do jogo",
-     "bebida com carboidrato, gel com água, fruta fácil"
-    ],
-    [
-     "Pesagem na véspera",
-     "líquido com sódio, carboidrato em refeições pequenas, nada novo"
-    ]
-   ],
    "destaque": "A bolsa térmica é parte do equipamento. A lanchonete do ginásio tem salgado frito, refrigerante e fila.",
    "destaque_cor": "ambar"
   },
   {
    "id": "plano",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, uma folha com o plano do mesmo perfil, cada linha marcada como testada em treino: dois dias de sobrecarga com menos fibra, sabendo que a balança sobe; véspera com arroz, frango e legumes cozidos; três horas antes, pão com mel, banana e o café de sempre; o gel dos treinos, com água, a partir dos 40 minutos. À direita, o plano B: largada atrasada, posto sem a bebida esperada, calor acima do previsto, estômago que não aceita\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 0 0 h 940 l 60 60 v 340 h -1000 z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 940 0 v 60 h 60\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"30\" y1=\"142\" x2=\"970\" y2=\"142\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(920.0 86.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><line x1=\"30\" y1=\"218\" x2=\"970\" y2=\"218\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(920.0 162.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><line x1=\"30\" y1=\"294\" x2=\"970\" y2=\"294\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(920.0 238.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><line x1=\"30\" y1=\"370\" x2=\"970\" y2=\"370\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(920.0 314.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1060\" y=\"0\" width=\"604\" height=\"400\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1084.0 90.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><g transform=\"translate(1084.0 164.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><g transform=\"translate(1084.0 238.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><g transform=\"translate(1084.0 312.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 16,
+     "w": 880,
+     "t": "O mesmo perfil, com plano",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 92,
+     "w": 230,
+     "t": "dois dias",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 270,
+     "y": 92,
+     "w": 560,
+     "t": "sobrecarga, menos fibra; a balança sobe",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 168,
+     "w": 230,
+     "t": "véspera",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 270,
+     "y": 168,
+     "w": 560,
+     "t": "arroz, frango, legumes cozidos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 244,
+     "w": 230,
+     "t": "3 h antes",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 270,
+     "y": 244,
+     "w": 560,
+     "t": "pão com mel e banana; o café de sempre",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 320,
+     "w": 230,
+     "t": "a partir dos 40 min",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 270,
+     "y": 320,
+     "w": 560,
+     "t": "gel dos treinos, com água",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 46,
+     "w": 160,
+     "t": "testado em treino",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 16,
+     "w": 560,
+     "t": "O plano B",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 96,
+     "w": 500,
+     "t": "largada atrasada",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 170,
+     "w": 500,
+     "t": "posto sem a bebida esperada",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 244,
+     "w": 500,
+     "t": "calor acima do previsto",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 318,
+     "w": 500,
+     "t": "estômago que não aceita",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo cinco · o plano escrito",
    "titulo": "Uma página, tudo testado em treino",
-   "esq": {
-    "t": "O mesmo perfil, com plano",
-    "cor": "petr",
-    "itens": [
-     "dois dias de sobrecarga, menos fibra; a balança sobe",
-     "véspera: arroz, frango, legumes cozidos",
-     "3 h antes: pão com mel e banana; o café de sempre",
-     "gel dos treinos, com água, a partir dos 40 min"
-    ]
-   },
-   "dir": {
-    "t": "O plano B",
-    "cor": "ambar",
-    "itens": [
-     "largada atrasada",
-     "posto sem a bebida esperada",
-     "calor acima do previsto",
-     "estômago que não aceita"
-    ]
-   },
    "destaque": "O gel do kit fica no kit. O que não tem a marca “testado em treino” sai do plano.",
    "destaque_cor": "tinta"
   },

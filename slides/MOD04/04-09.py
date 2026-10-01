@@ -131,6 +131,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "A regra para todos", "titu
                     {"t": "Médico", "x": "Medicação, sarcopenia, critério de interrupção."}],
           "quem": "Quando o número dispara restrição, o psicólogo entra junto com o médico."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-09")
+
 spec = {"arquivo": "aulas/MOD04/04-09-composicao-corporal-metodos-metas-e-risco.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Composição corporal no praticante de exercício", "subtitulo": "Indicação, métodos e definição de metas",

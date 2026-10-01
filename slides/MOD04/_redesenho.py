@@ -1388,6 +1388,363 @@ def sodio():
 
 
 
+# ---------------------------------------------------------------- 4.9
+
+def medir():
+    """4.9: quando medir tem indicação e quando não medir vence."""
+    p = [svg_abre(1664, 400, "Duas colunas. Medir tem indicação: categoria de peso, restrição com risco de perder massa magra, recomposição em treino de força e doença, como sarcopenia ou obesidade em tratamento. Não medir de rotina: transtorno alimentar atual ou passado, relação alterada com corpo e comida, adolescente, baixa disponibilidade energética. Quando as colunas se cruzam, a da direita vence")]
+    lados = [(0, "Medir tem indicação", OXID, OXID_T, [("t:weight", "categoria de peso"), ("t:trending-down", "restrição com risco de perder massa magra"), ("t:barbell", "recomposição em treino de força"), ("t:stethoscope", "doença: sarcopenia, obesidade em tratamento")]),
+             (864, "Não medir de rotina", FOSF, FOSF_T, [("h:mental-health", "transtorno alimentar, atual ou passado"), ("t:heart-broken", "relação alterada com corpo e comida"), ("h:girl-1015y", "adolescente"), ("t:battery-1", "baixa disponibilidade energética")])]
+    rs = []
+    for x, t, cor, fundo, itens in lados:
+        p.append(caixa(x, 0, 800, 400, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 24, 18, t, w=600, tam=30, cor=cor, peso=700, serif=True))
+        for k, (ic, tt) in enumerate(itens):
+            y = 94 + k * 74
+            p.append(icone(ic, x + 28, y, 42, cor))
+            rs.append(rot(x + 88, y + 8, tt, w=690, tam=24, cor=TINTA))
+    p.append(icone("t:crown", 1590, 16, 48, FOSF))
+    rs.append(rot(1250, 22, "se cruzar, vence", w=330, tam=21, cor=FOSF, peso=700, alinha="right"))
+    return slide("medir", 400, p, rs,
+                 eyebrow="Decisão um", titulo="Só meça se houver uma decisão dependendo do número",
+                 destaque="Resultado alto e resultado baixo levam à mesma conduta? Não meça. As colunas se cruzam? A da direita vence.",
+                 destaque_cor="tinta")
+
+
+def metodos():
+    """4.9: cada método com a fonte do seu erro e o uso que ele aguenta."""
+    p = [svg_abre(1664, 400, "Cinco métodos, cada um com o que domina o seu erro e para que serve. Bioimpedância: a água do corpo; só com padronização rigorosa. Dobras cutâneas: quem mede; acompanhar a mesma pessoa, com avaliador treinado. DXA: protocolo e aparelho; massa magra por região. Cintura: quase nada, se padronizada; risco cardiometabólico. Índice de massa corporal: não separa músculo de gordura; serve para população, não para indivíduo")]
+    linhas = [("Bioimpedância", "t:droplet", "a água do corpo", "só com padronização rigorosa", GLIC, GLIC_T),
+              ("Dobras cutâneas", "t:user", "quem mede", "a mesma pessoa, avaliador treinado", AZUL, AZUL_T),
+              ("DXA", "t:adjustments-horizontal", "protocolo e aparelho", "massa magra por região", AZUL, AZUL_T),
+              ("Cintura", "t:ruler-measure", "quase nada, se padronizada", "risco cardiometabólico", OXID, OXID_T),
+              ("Índice de massa corporal", "t:scale", "não separa músculo de gordura", "população, não indivíduo", FOSF, FOSF_T)]
+    rs = [rot(0, 0, "Método", w=400, tam=20, cor=MUDO, peso=700), rot(430, 0, "O que domina o erro", w=500, tam=20, cor=MUDO, peso=700),
+          rot(1040, 0, "Para que serve", w=500, tam=20, cor=MUDO, peso=700)]
+    for k, (m, ic, e, u, cor, fundo) in enumerate(linhas):
+        y = 44 + k * 72
+        p.append(f'<line x1="0" y1="{y + 64}" x2="1664" y2="{y + 64}" stroke="{BORDA}" stroke-width="2"/>')
+        rs.append(rot(0, y + 14, m, w=420, tam=26, cor=TINTA, peso=700, serif=True))
+        p.append(icone(ic, 430, y + 10, 38, MUDO))
+        rs.append(rot(484, y + 16, e, w=540, tam=23, cor=TINTA))
+        p.append(caixa(1040, y + 6, 624, 50, cor, fundo, esp=2, rx=25))
+        rs.append(rot(1040, y + 18, u, w=624, tam=22, cor=cor, peso=700, alinha="center"))
+    return slide("metodos", 400, p, rs,
+                 eyebrow="Decisão dois · duas revisões, 2012 e 2015", titulo="Todo método tem erro. Qual você aceita?",
+                 destaque="A massa livre de gordura da conta de disponibilidade energética vem de um destes métodos, e carrega o erro dele.",
+                 destaque_cor="petr", fonte="Ackland e colaboradores · Sports Medicine 2012 · Nana e colaboradores · International Journal of Sport Nutrition and Exercise Metabolism 2015")
+
+
+def padrao():
+    """4.9: padronizar a medida e ler a série contra o erro do método."""
+    p = [svg_abre(1664, 400, "À esquerda, o que padronizar e anotar: mesmo horário, de manhã, mesmo jejum; hidratação habitual, nada depois de treino ou sauna; sem treino intenso no dia anterior; mesma fase do ciclo, mesmo avaliador e aparelho. À direita, uma série em esquema, com medidas a cada doze semanas e a faixa de erro do método em volta de cada ponto: a primeira diferença cabe dentro do erro e é variação; a segunda passa do erro e é mudança real")]
+    p.append(caixa(0, 0, 760, 400, OXID, OXID_T, esp=3, rx=16))
+    rs = [rot(24, 16, "Padronizar e anotar", w=700, tam=30, cor=OXID, peso=700, serif=True)]
+    for k, (ic, t) in enumerate([("t:clock", "mesmo horário, de manhã; mesmo jejum"), ("t:droplet", "hidratação habitual; nada depois de treino ou sauna"),
+                                 ("t:barbell", "sem treino intenso no dia anterior"), ("t:calendar", "mesma fase do ciclo; mesmo avaliador e aparelho")]):
+        y = 84 + k * 76
+        p.append(icone(ic, 28, y, 40, OXID))
+        rs.append(rot(84, y + 2, t, w=660, tam=23, cor=TINTA, lh=1.2))
+    X0, B = 900, 330
+    pts = [(0, 200), (12, 186), (24, 120)]
+    X = lambda s: X0 + 60 + s * 26
+    p.append(f'<line x1="{X0}" y1="{B}" x2="1640" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    for s, y in pts:
+        p.append(f'<rect x="{X(s) - 30:.0f}" y="{y - 40}" width="60" height="80" rx="8" fill="{GLIC_T}"/>')
+        p.append(f'<line x1="{X(s):.0f}" y1="{y - 40}" x2="{X(s):.0f}" y2="{y + 40}" stroke="{GLIC}" stroke-width="3"/>')
+        p.append(f'<circle cx="{X(s):.0f}" cy="{y}" r="11" fill="{TINTA}"/>')
+        rs.append(rot(X(s) - 70, B + 8, f"semana {s}", w=140, tam=19, cor=MUDO, alinha="center"))
+    p.append(f'<polyline points="{" ".join(f"{X(s):.0f},{y}" for s, y in pts)}" fill="none" stroke="{TINTA}" stroke-width="2"{TRACO}/>')
+    rs += [rot(X(6) - 90, 236, "dentro do erro: variação", w=180, tam=19, cor=MUDO, alinha="center", lh=1.2),
+           rot(X(24) - 360, 84, "passou do erro: mudança real", w=320, tam=20, cor=GLIC, peso=700, alinha="right"),
+           rot(X0, 0, "Ler a mudança", w=700, tam=30, cor=GLIC, peso=700, serif=True),
+           rot(X0, 44, "não mais que a cada doze semanas · faixas: erro do método, esquema", w=760, tam=19, cor=MUDO)]
+    return slide("padrao", 400, p, rs,
+                 eyebrow="Se for medir, medir direito", titulo="Uma série, não números soltos",
+                 destaque="Medir todo mês produz custo, ilusão de precisão e ansiedade. Nenhuma das três é conduta.",
+                 destaque_cor="tinta")
+
+
+def ritmo():
+    """4.9: dois ritmos de perda e o que aconteceu com a massa magra."""
+    p = [svg_abre(1664, 400, "Duas barras de mudança da massa magra. Perdendo 0,7% do peso por semana, a massa magra subiu 2,1%. Perdendo 1,4% por semana, ficou perto de zero. À direita, a conversão: 0,7% por semana, numa pessoa de 70 quilos, é cerca de meio quilo por semana")]
+    B, K = 300, 100
+    rs = [rot(0, 0, "mudança da massa magra", w=600, tam=20, cor=MUDO)]
+    p.append(f'<line x1="0" y1="{B}" x2="900" y2="{B}" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<rect x="120" y="{B - 2.1 * K:.0f}" width="240" height="{2.1 * K:.0f}" rx="8" fill="{OXID}"/>')
+    p.append(f'<rect x="540" y="{B - 4}" width="240" height="8" rx="4" fill="{FOSF}"/>')
+    rs += [rot(120, B - 2.1 * K - 60, "+2,1%", w=240, tam=44, cor=OXID, peso=700, alinha="center", serif=True),
+           rot(540, B - 70, "≈ 0", w=240, tam=44, cor=FOSF, peso=700, alinha="center", serif=True),
+           rot(80, B + 16, "0,7% do peso por semana", w=320, tam=22, cor=OXID, peso=700, alinha="center"),
+           rot(500, B + 16, "1,4% por semana", w=320, tam=22, cor=FOSF, peso=700, alinha="center"),
+           rot(80, B + 50, "mais devagar", w=320, tam=20, cor=MUDO, alinha="center"),
+           rot(500, B + 50, "o dobro do ritmo", w=320, tam=20, cor=MUDO, alinha="center")]
+    p.append(caixa(1020, 40, 644, 300, TINTA, CARTAO, esp=3, rx=16))
+    p.append(icone("t:scale", 1050, 70, 56, TINTA))
+    rs += [rot(1124, 78, "0,7% por semana em 70 kg", w=520, tam=25, cor=TINTA, peso=700),
+           rot(1050, 160, "≈ 500 g", w=590, tam=64, cor=TINTA, peso=700, serif=True),
+           rot(1050, 250, "por semana", w=590, tam=24, cor=MUDO)]
+    return slide("ritmo", 400, p, rs,
+                 eyebrow="Um ensaio de 2011", titulo="Mais devagar preservou o que importava",
+                 destaque="Meta numérica pede faixa, prazo, ritmo e freios: desempenho que cai, ciclo que some, fratura por estresse, humor e sono piores, comida ocupando o dia.",
+                 destaque_cor="ambar", fonte="Garthe e colaboradores · 24 atletas de elite, 4 sessões de força por semana · International Journal of Sport Nutrition and Exercise Metabolism 2011")
+
+
+def devolver():
+    """4.9: quatro regras de linguagem, cada uma com o que sai e o que entra."""
+    p = [svg_abre(1664, 400, "Quatro quadros. Sem adjetivo: alto, ruim e ótimo riscados; o número vem com contexto e margem. Sem elogio automático: parabéns, baixou, riscado; a redução pode ter vindo de restrição. O erro em voz alta: uma diferença pequena pode ser só variação. Ancorar no que importa: força, desempenho, sintoma e ciclo")]
+    W = 386
+    quadros = [("Sem adjetivo", OXID, OXID_T), ("Sem elogio automático", FOSF, FOSF_T), ("O erro em voz alta", GLIC, GLIC_T), ("Ancorar no que importa", TINTA, CARTAO)]
+    rs = []
+    for k, (t, cor, fundo) in enumerate(quadros):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 400, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 20, 18, t, w=W - 40, tam=27, cor=cor, peso=700, serif=True, lh=1.15))
+    for j, t in enumerate(["alto", "ruim", "ótimo"]):
+        y = 104 + j * 52
+        rs.append(rot(20, y, t, w=200, tam=25, cor=MUDO))
+        p.append(f'<line x1="16" y1="{y + 16}" x2="{34 + len(t) * 14}" y2="{y + 16}" stroke="{FOSF}" stroke-width="4"/>')
+    rs.append(rot(20, 280, "número com contexto e margem", w=W - 40, tam=23, cor=OXID, peso=700, lh=1.25))
+    x = W + 40
+    rs.append(rot(x + 20, 110, "“Parabéns, baixou!”", w=W - 40, tam=25, cor=MUDO))
+    p.append(f'<line x1="{x + 16}" y1="126" x2="{x + 250}" y2="126" stroke="{FOSF}" stroke-width="4"/>')
+    rs.append(rot(x + 20, 280, "a redução pode ter vindo de restrição", w=W - 40, tam=23, cor=FOSF, peso=700, lh=1.25))
+    x = 2 * (W + 40)
+    p.append(f'<path d="M {x + 20} 100 h {W - 40} v 130 h -230 l -40 40 l 6 -40 h -{W - 40 - 274} z" fill="{CARTAO}" stroke="{GLIC}" stroke-width="3"/>')
+    rs.append(rot(x + 36, 118, "“Uma diferença pequena pode ser só variação.”", w=W - 72, tam=23, cor=TINTA, lh=1.3))
+    x = 3 * (W + 40)
+    for j, (ic, t) in enumerate([("t:barbell", "força"), ("t:stopwatch", "desempenho"), ("t:mood-sick", "sintoma"), ("t:calendar", "ciclo")]):
+        y = 96 + j * 70
+        p.append(icone(ic, x + 24, y, 40, TINTA))
+        rs.append(rot(x + 80, y + 6, t, w=280, tam=24, cor=TINTA))
+    return slide("devolver", 400, p, rs,
+                 eyebrow="Como devolver o número", titulo="Quatro regras de linguagem",
+                 destaque="“Eu tenho o número e posso te mostrar. Mas ele não responde à sua pergunta. O que responde é isto aqui.” E a mesma frase em todas as salas.",
+                 destaque_cor="petr")
+
+
+def perfis_49():
+    """4.9: três perfis, com medir ou não, com o quê e a meta."""
+    p = [svg_abre(1664, 400, "Três perfis. A lutadora de 62 quilos que quer perder 4 em 6 semanas: medir, depois da triagem, com dobras ou DXA, em milímetros e quilos; o ritmo pedido é de cerca de 1,1% por semana, e o prazo precisa ser revisto. Em medicação para obesidade, com a força caindo: medir, com DXA e teste de função; a meta é gordura, preservando músculo. O rapaz com o papel da academia, restrição e culpa: não medir; a meta é regularidade e relação com a comida")]
+    linhas = [("h:woman", "Lutadora", "62 kg, −4 kg em 6 semanas", True, "sim, após triagem", "dobras ou DXA, em mm e kg", "≈ 1,1% por semana: rever o prazo", GLIC),
+              ("t:pill", "Em medicação para obesidade", "força caindo", True, "sim", "DXA e teste de função", "gordura, preservando músculo", OXID),
+              ("h:man", "Rapaz com o papel da academia", "restrição e culpa", False, "não", "—", "regularidade e relação com a comida", FOSF)]
+    rs = [rot(110, 0, "Perfil", w=400, tam=20, cor=MUDO, peso=700), rot(600, 0, "Medir?", w=300, tam=20, cor=MUDO, peso=700),
+          rot(900, 0, "Com o quê", w=300, tam=20, cor=MUDO, peso=700), rot(1250, 0, "A meta", w=400, tam=20, cor=MUDO, peso=700)]
+    for k, (ic, t, d, sim, m, q, meta, cor) in enumerate(linhas):
+        y = 40 + k * 120
+        p.append(caixa(0, y, 1664, 104, cor, CARTAO, esp=3, rx=14))
+        p.append(icone(ic, 24, y + 24, 56, cor))
+        rs += [rot(110, y + 16, t, w=470, tam=25, cor=cor, peso=700, serif=True), rot(110, y + 56, d, w=470, tam=21, cor=TINTA)]
+        p.append(icone("t:check" if sim else "t:x", 600, y + 32, 40, OXID if sim else FOSF))
+        rs += [rot(650, y + 38, m, w=230, tam=21, cor=TINTA, lh=1.2),
+               rot(900, y + 30, q, w=320, tam=22, cor=TINTA, lh=1.25),
+               rot(1250, y + 30, meta, w=390, tam=22, cor=cor, peso=700, lh=1.25)]
+    return slide("perfis", 400, p, rs,
+                 eyebrow="Três perfis típicos", titulo="A mesma pergunta, três respostas",
+                 destaque="Desidratar para a pesagem não é composição corporal: é água, com risco real. Ninguém da equipe ensina.",
+                 destaque_cor="verm")
+
+
+# ---------------------------------------------------------------- 4.10
+
+def regra():
+    """4.10: três novidades no caminho até o quilômetro doze."""
+    p = [svg_abre(1664, 380, "Uma linha do tempo da primeira meia maratona. Na véspera, massa com molho de creme. De manhã, o gel do kit e um café mais forte para acordar. Cada um tem a etiqueta de novo. No quilômetro doze, a procura por um banheiro. Nada era absurdo; tudo era novo"), defs(MUDO)]
+    p.append(f'<line x1="40" y1="200" x2="1290" y2="200" stroke="{MUDO}" stroke-width="5" stroke-linecap="round"/>')
+    itens = [(170, "véspera", "massa com molho de creme", "t:salad"), (580, "manhã", "o gel do kit", "t:candy"), (990, "manhã", "um café mais forte", "t:coffee")]
+    rs = []
+    for x, q, t, ic in itens:
+        p.append(caixa(x - 150, 40, 300, 120, GLIC, CARTAO, esp=3, rx=14))
+        p.append(icone(ic, x - 130, 64, 44, GLIC))
+        rs.append(rot(x - 76, 62, t, w=216, tam=22, cor=TINTA, peso=600, lh=1.2))
+        p.append(caixa(x + 70, 22, 80, 34, GLIC, GLIC, esp=0, rx=17))
+        rs.append(rot(x + 70, 27, "novo", w=80, tam=19, cor=PAPEL, peso=700, alinha="center"))
+        p.append(f'<circle cx="{x}" cy="200" r="12" fill="{GLIC}"/>')
+        rs.append(rot(x - 100, 224, q, w=200, tam=21, cor=MUDO, alinha="center"))
+    p.append(caixa(1320, 120, 344, 160, FOSF, FOSF_T, esp=3, rx=16))
+    p.append(icone("t:alert-triangle", 1344, 144, 48, FOSF))
+    rs += [rot(1404, 150, "km 12", w=240, tam=30, cor=FOSF, peso=700, serif=True),
+           rot(1344, 208, "a procura por um banheiro", w=300, tam=22, cor=TINTA, lh=1.2)]
+    p.append(seta(1290, 200, 1312, 200, MUDO, "m0", esp=5))
+    rs.append(rot(40, 300, "Nada era absurdo. Tudo era novo.", w=1240, tam=28, cor=TINTA, peso=700, alinha="center", serif=True))
+    return slide("regra", 380, p, rs,
+                 eyebrow="Perfil típico de primeira meia maratona", titulo="Nada de novo no dia.")
+
+
+def corte():
+    """4.10: a pergunta dos noventa minutos e os dois caminhos."""
+    p = [svg_abre(1664, 400, "Uma pergunta no topo: a prova passa de noventa minutos contínuos? Não, como em 10 quilômetros, futebol e luta: sem sobrecarga de carboidrato, alimentação habitual de treino, e o treino reduzido já enche o estoque. Sim, como em maratona, ciclismo longo e triatlo: 10 a 12 gramas por quilo por dia nas 36 a 48 horas antes, com o treino reduzido"), defs(MUDO, OXID)]
+    p.append(caixa(482, 0, 700, 80, TINTA, TINTA, esp=0, rx=40))
+    rs = [rot(482, 22, "Passa de 90 minutos contínuos?", w=700, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True)]
+    p.append(seta(560, 84, 400, 140, MUDO, "m0", esp=4))
+    p.append(seta(1104, 84, 1264, 140, OXID, "m1", esp=4))
+    rs += [rot(420, 92, "não", w=100, tam=22, cor=MUDO, peso=700), rot(1200, 92, "sim", w=100, tam=22, cor=OXID, peso=700)]
+    p.append(caixa(0, 150, 780, 250, MUDO, PAPEL, esp=3, rx=16))
+    rs.append(rot(24, 166, "10 km, futebol, luta", w=740, tam=27, cor=TINTA, peso=700, serif=True))
+    for k, t in enumerate(["sem sobrecarga de carboidrato", "alimentação habitual de treino", "o treino reduzido já enche o estoque"]):
+        rs.append(rot(52, 226 + k * 52, t, w=700, tam=23, cor=TINTA))
+        p.append(f'<circle cx="34" cy="{240 + k * 52}" r="7" fill="{MUDO}"/>')
+    p.append(caixa(884, 150, 780, 250, OXID, OXID_T, esp=3, rx=16))
+    rs += [rot(908, 166, "maratona, ciclismo longo, triatlo", w=740, tam=27, cor=OXID, peso=700, serif=True),
+           rot(908, 220, "10 a 12 g/kg por dia", w=740, tam=44, cor=OXID, peso=700, serif=True),
+           rot(908, 290, "nas 36 a 48 horas antes, com o treino reduzido", w=740, tam=23, cor=TINTA),
+           rot(908, 336, "70 kg: 700 a 840 g de carboidrato por dia", w=740, tam=23, cor=TINTA, peso=700)]
+    return slide("corte", 400, p, rs,
+                 eyebrow="Passo um · uma revisão de 2011", titulo="A prova passa de noventa minutos contínuos?",
+                 destaque="Planejado em dois dias, não improvisado num jantar.",
+                 destaque_cor="ambar", fonte="Burke e colaboradores · Journal of Sports Sciences 2011")
+
+
+def ajustes():
+    """4.10: o prato muda de proporção, o carboidrato é de baixo volume, a balança sobe."""
+    p = [svg_abre(1664, 400, "Três ajustes. Primeiro, dois pratos em esquema: o de sempre, com carboidrato, proteína, gordura e fibra; o da sobrecarga, com mais carboidrato e menos gordura e fibra, trocando parte do prato em vez de comer mais de tudo. Segundo, o carboidrato de baixo volume: arroz branco, massa, pão, tapioca, batata sem casca, suco. Terceiro, a balança vai subir, porque o glicogênio vem com água; quem não sabe corta a comida na véspera")]
+    import math
+    rs = []
+    def prato_(cx, cy, r, fatias):
+        a0 = -90
+        for frac, cor in fatias:
+            a1 = a0 + 360 * frac
+            x0, y0 = cx + r * math.cos(math.radians(a0)), cy + r * math.sin(math.radians(a0))
+            x1, y1 = cx + r * math.cos(math.radians(a1)), cy + r * math.sin(math.radians(a1))
+            p.append(f'<path d="M {cx} {cy} L {x0:.0f} {y0:.0f} A {r} {r} 0 {1 if frac > 0.5 else 0} 1 {x1:.0f} {y1:.0f} Z" fill="{cor}" stroke="{PAPEL}" stroke-width="4"/>')
+            a0 = a1
+    prato_(130, 170, 110, [(0.4, OXID), (0.25, AZUL), (0.15, GLIC), (0.2, CINZA)])
+    prato_(420, 170, 110, [(0.65, OXID), (0.22, AZUL), (0.06, GLIC), (0.07, CINZA)])
+    rs += [rot(30, 296, "o de sempre", w=200, tam=21, cor=MUDO, alinha="center"),
+           rot(320, 296, "o da sobrecarga", w=200, tam=21, cor=OXID, peso=700, alinha="center"),
+           rot(0, 0, "Trocar parte do prato", w=560, tam=26, cor=TINTA, peso=700, serif=True),
+           rot(0, 336, "esquema", w=560, tam=18, cor=MUDO, alinha="center")]
+    for k, (t, cor) in enumerate([("carboidrato", OXID), ("proteína", AZUL), ("gordura", GLIC), ("fibra", CINZA)]):
+        p.append(f'<rect x="{k * 140}" y="370" width="22" height="22" rx="4" fill="{cor}"/>')
+        rs.append(rot(k * 140 + 30, 368, t, w=110, tam=19, cor=TINTA))
+    p.append(caixa(620, 0, 560, 400, OXID, OXID_T, esp=3, rx=16))
+    rs.append(rot(644, 16, "Carboidrato de baixo volume", w=520, tam=26, cor=OXID, peso=700, serif=True))
+    for k, t in enumerate(["arroz branco", "massa", "pão", "tapioca", "batata sem casca", "suco"]):
+        x, y = 644 + (k % 2) * 256, 80 + (k // 2) * 70
+        p.append(caixa(x, y, 236, 54, OXID, CARTAO, esp=2, rx=27))
+        rs.append(rot(x, y + 14, t, w=236, tam=22, cor=OXID, peso=700, alinha="center"))
+    rs.append(rot(644, 300, "não é o momento das fibras", w=520, tam=22, cor=TINTA, lh=1.2))
+    p.append(caixa(1220, 0, 444, 400, FOSF, FOSF_T, esp=3, rx=16))
+    rs.append(rot(1244, 16, "Avisar que a balança vai subir", w=400, tam=26, cor=FOSF, peso=700, serif=True, lh=1.15))
+    p.append(icone("t:scale", 1290, 120, 90, FOSF))
+    p.append(icone("t:trending-up", 1420, 130, 70, FOSF))
+    rs.append(rot(1244, 250, "glicogênio vem com água; quem não sabe corta a comida na véspera", w=400, tam=22, cor=TINTA, lh=1.3))
+    return slide("ajustes", 400, p, rs,
+                 eyebrow="Como a sobrecarga cabe no prato", titulo="Três ajustes")
+
+
+def intestino():
+    """4.10: de três a cinco em cada dez, três causas, uma acionável."""
+    p = [svg_abre(1664, 400, "Dez figuras de corredores; de três a cinco destacadas: 30 a 50% dos atletas têm queixa gastrointestinal no exercício. À direita, três tipos de causa: fisiológica, mecânica e nutricional. A nutricional é a mais acionável: o que foi comido, quando e em que concentração")]
+    rs = [rot(0, 0, "30 a 50% com queixa gastrointestinal no exercício", w=760, tam=24, cor=FOSF, peso=700)]
+    for k in range(10):
+        x = (k % 5) * 150
+        y = 60 + (k // 5) * 150
+        p.append(icone("h:running", x + 20, y, 110, FOSF if k < 5 else CINZA))
+        if 3 <= k < 5:
+            p.append(f'<rect x="{x + 10}" y="{y - 6}" width="130" height="122" rx="10" fill="none" stroke="{FOSF}" stroke-width="3"{TRACO}/>')
+    rs.append(rot(0, 366, "tracejado: a ponta de cima da faixa", w=760, tam=19, cor=MUDO))
+    causas = [("Fisiológica", "a perfusão cai no esforço", MUDO, PAPEL), ("Mecânica", "o impacto e a postura", MUDO, PAPEL),
+              ("Nutricional", "o que foi comido, quando e em que concentração: a mais acionável", OXID, OXID_T)]
+    for k, (t, d, cor, fundo) in enumerate(causas):
+        y = k * 136
+        h = 120
+        p.append(caixa(860, y, 804, h, cor, fundo, esp=3 if k == 2 else 2, rx=14))
+        rs += [rot(884, y + 16, t, w=760, tam=27, cor=cor if k == 2 else TINTA, peso=700, serif=True),
+               rot(884, y + 58, d, w=760, tam=22, cor=TINTA, lh=1.25)]
+    return slide("intestino", 400, p, rs,
+                 eyebrow="Passo três · uma revisão de 2014", titulo="O intestino decide a prova do amador",
+                 destaque="Uma revisão de 2017: a perfusão intestinal cai no esforço. Piora com intensidade, duração, calor e desidratação.",
+                 destaque_cor="ambar", fonte="De Oliveira, Burini e Jeukendrup · Sports Medicine 2014 · Costa e colaboradores · Alimentary Pharmacology and Therapeutics 2017")
+
+
+def resolve():
+    """4.10: a escada do que resolve, em ordem de retorno, e o que é proibido."""
+    p = [svg_abre(1664, 400, "Uma escada de quatro degraus, em ordem de retorno: antes, pouca gordura, fibra e volume; concentração, gel com água; treinar o intestino, semanas de longos com a estratégia da prova; mistura de açúcares, quando a taxa for alta. À direita, o proibido: anti-inflamatório preventivo. E os sinais que mandam ao médico, não ao gel: sangue nas fezes, dor intensa, sintoma noturno, perda de peso")]
+    degraus = [("Antes", "pouca gordura, fibra e volume"), ("Concentração", "gel com água"), ("Treinar o intestino", "semanas de longos com a estratégia da prova"), ("Mistura de açúcares", "quando a taxa for alta")]
+    rs = []
+    for k, (t, d) in enumerate(degraus):
+        x, y = k * 250, 250 - k * 70
+        p.append(f'<rect x="{x}" y="{y}" width="{1000 - x}" height="{400 - y}" fill="{OXID_T if k % 2 == 0 else "#CDE6E1"}" stroke="{OXID}" stroke-width="2"/>')
+        p.append(f'<circle cx="{x + 34}" cy="{y + 30}" r="20" fill="{OXID}"/>')
+        rs += [rot(x + 14, y + 18, str(k + 1), w=40, tam=22, cor=PAPEL, peso=700, alinha="center"),
+               rot(x + 16, y + 60, t, w=226, tam=22, cor=OXID, peso=700, serif=True),
+               rot(x + 16, y + 94, d, w=226, tam=19, cor=TINTA, lh=1.2)]
+    p.append(caixa(1060, 0, 604, 160, FOSF, FOSF_T, esp=3, rx=16))
+    p.append(icone("t:pill", 1084, 30, 52, FOSF))
+    p.append(f'<line x1="1080" y1="90" x2="1144" y2="30" stroke="{FOSF}" stroke-width="5"/>')
+    rs += [rot(1160, 28, "Anti-inflamatório preventivo: não", w=480, tam=25, cor=FOSF, peso=700, serif=True, lh=1.15),
+           rot(1160, 100, "ibuprofeno antes do esforço", w=480, tam=21, cor=TINTA)]
+    p.append(caixa(1060, 190, 604, 210, TINTA, CARTAO, esp=3, rx=16))
+    p.append(icone("t:stethoscope", 1084, 210, 44, TINTA))
+    rs.append(rot(1140, 216, "Médico, não gel", w=500, tam=25, cor=TINTA, peso=700, serif=True))
+    for k, t in enumerate(["sangue nas fezes", "dor intensa", "sintoma noturno", "perda de peso"]):
+        x, y = 1084 + (k % 2) * 290, 286 + (k // 2) * 50
+        p.append(f'<circle cx="{x + 8}" cy="{y + 13}" r="7" fill="{FOSF}"/>')
+        rs.append(rot(x + 24, y, t, w=260, tam=22, cor=TINTA))
+    return slide("resolve", 400, p, rs,
+                 eyebrow="Em ordem de retorno", titulo="O que resolve, e o que é proibido",
+                 destaque="Num experimento de 2012, ibuprofeno antes do esforço aumentou a lesão do intestino.",
+                 destaque_cor="verm", fonte="Van Wijck e colaboradores · Medicine and Science in Sports and Exercise 2012")
+
+
+def entre():
+    """4.10: quanto menor o intervalo, menor e mais líquido o que cabe."""
+    p = [svg_abre(1664, 400, "Quatro colunas que encolhem com o intervalo. Cerca de 4 horas: refeição leve logo depois, sanduíche, arroz com frango, fruta. 1 a 2 horas: fruta, pão com mel, bebida com carboidrato, iogurte. Menos de 1 hora: líquido com carboidrato e lanches pequenos. Intervalo do jogo: bebida com carboidrato, gel com água, fruta fácil. À parte, a pesagem na véspera: líquido com sódio, carboidrato em refeições pequenas, nada novo")]
+    cols = [("≈ 4 h", "refeição leve logo depois: sanduíche, arroz com frango, fruta", 1.0),
+            ("1 a 2 h", "fruta, pão com mel, bebida com carboidrato, iogurte", 0.8),
+            ("< 1 h", "líquido com carboidrato e lanches pequenos", 0.6),
+            ("intervalo do jogo", "bebida com carboidrato, gel com água, fruta fácil", 0.45)]
+    rs = [rot(0, 0, "intervalo", w=300, tam=20, cor=MUDO)]
+    W = 270
+    for k, (t, d, f) in enumerate(cols):
+        x = k * (W + 24)
+        h = 340 * f
+        p.append(caixa(x, 400 - h, W, h, OXID, OXID_T, esp=2, rx=12))
+        p.append(icone("t:clock", x + 16, 400 - h + 14, 34, OXID))
+        rs += [rot(x + 58, 400 - h + 18, t, w=W - 64, tam=23, cor=OXID, peso=700, lh=1.1),
+               rot(x + 16, 400 - h + 70, d, w=W - 32, tam=20, cor=TINTA, lh=1.25)]
+    p.append(caixa(1200, 60, 464, 340, GLIC, GLIC_T, esp=3, rx=16))
+    p.append(icone("t:scale", 1224, 84, 44, GLIC))
+    rs.append(rot(1280, 90, "Pesagem na véspera", w=370, tam=25, cor=GLIC, peso=700, serif=True))
+    for k, t in enumerate(["líquido com sódio", "carboidrato em refeições pequenas", "nada novo"]):
+        y = 160 + k * 64
+        p.append(f'<circle cx="1234" cy="{y + 14}" r="7" fill="{GLIC}"/>')
+        rs.append(rot(1252, y, t, w=390, tam=22, cor=TINTA, lh=1.2))
+    return slide("entre", 400, p, rs,
+                 eyebrow="Passo quatro · entre um esforço e outro", titulo="O intervalo decide o que cabe",
+                 destaque="A bolsa térmica é parte do equipamento. A lanchonete do ginásio tem salgado frito, refrigerante e fila.",
+                 destaque_cor="ambar")
+
+
+def plano():
+    """4.10: uma página com o plano testado e, ao lado, o plano B."""
+    p = [svg_abre(1664, 400, "À esquerda, uma folha com o plano do mesmo perfil, cada linha marcada como testada em treino: dois dias de sobrecarga com menos fibra, sabendo que a balança sobe; véspera com arroz, frango e legumes cozidos; três horas antes, pão com mel, banana e o café de sempre; o gel dos treinos, com água, a partir dos 40 minutos. À direita, o plano B: largada atrasada, posto sem a bebida esperada, calor acima do previsto, estômago que não aceita")]
+    p.append(f'<path d="M 0 0 h 940 l 60 60 v 340 h -1000 z" fill="{CARTAO}" stroke="{TINTA}" stroke-width="3"/>')
+    p.append(f'<path d="M 940 0 v 60 h 60" fill="none" stroke="{TINTA}" stroke-width="3"/>')
+    rs = [rot(30, 16, "O mesmo perfil, com plano", w=880, tam=28, cor=OXID, peso=700, serif=True)]
+    linhas = [("dois dias", "sobrecarga, menos fibra; a balança sobe"), ("véspera", "arroz, frango, legumes cozidos"),
+              ("3 h antes", "pão com mel e banana; o café de sempre"), ("a partir dos 40 min", "gel dos treinos, com água")]
+    for k, (q, t) in enumerate(linhas):
+        y = 80 + k * 76
+        p.append(f'<line x1="30" y1="{y + 62}" x2="970" y2="{y + 62}" stroke="{BORDA}" stroke-width="2"/>')
+        rs += [rot(30, y + 12, q, w=230, tam=22, cor=MUDO, peso=700), rot(270, y + 12, t, w=560, tam=23, cor=TINTA)]
+        p.append(icone("t:check", 920, y + 6, 40, OXID))
+    rs.append(rot(800, 46, "testado em treino", w=160, tam=18, cor=OXID, peso=700, alinha="center"))
+    p.append(caixa(1060, 0, 604, 400, GLIC, GLIC_T, esp=3, rx=16))
+    rs.append(rot(1084, 16, "O plano B", w=560, tam=28, cor=GLIC, peso=700, serif=True))
+    for k, (ic, t) in enumerate([("t:clock", "largada atrasada"), ("t:droplet", "posto sem a bebida esperada"), ("t:temperature", "calor acima do previsto"), ("t:mood-sick", "estômago que não aceita")]):
+        y = 90 + k * 74
+        p.append(icone(ic, 1084, y, 42, GLIC))
+        rs.append(rot(1144, y + 6, t, w=500, tam=23, cor=TINTA))
+    return slide("plano", 400, p, rs,
+                 eyebrow="Passo cinco · o plano escrito", titulo="Uma página, tudo testado em treino",
+                 destaque="O gel do kit fica no kit. O que não tem a marca “testado em treino” sai do plano.",
+                 destaque_cor="tinta")
+
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"04-01": [equacao, conta_41, revisao, medida, alarme, portas_41, controversia],
@@ -1397,7 +1754,9 @@ LICOES = {"04-01": [equacao, conta_41, revisao, medida, alarme, portas_41, contr
           "04-05": [tres, teto, qualidade, whey, carga_45, perfis_45],
           "04-06": [erro_46, rotas, funcoes, hormonio, densidade, frase_46],
           "04-07": [pedidos, quem, vegano, come, prato, sente, turbina],
-          "04-08": [numero, variacao, regras, depois, bebidas, sodio]}
+          "04-08": [numero, variacao, regras, depois, bebidas, sodio],
+          "04-09": [medir, metodos, padrao, ritmo, devolver, perfis_49],
+          "04-10": [regra, corte, ajustes, intestino, resolve, entre, plano]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

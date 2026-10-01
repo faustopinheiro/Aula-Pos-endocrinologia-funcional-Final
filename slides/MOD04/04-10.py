@@ -115,6 +115,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Quem faz o quê", "titulo"
                     {"t": "Médico", "x": "Sintoma que a comida não explica; anti-inflamatório."}],
           "quem": "Sem ensaio, não há plano."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-10")
+
 spec = {"arquivo": "aulas/MOD04/04-10-nutricao-em-dia-de-competicao.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Nutrição em dia de competição", "subtitulo": "Planejamento, tolerância gastrointestinal e logística",
