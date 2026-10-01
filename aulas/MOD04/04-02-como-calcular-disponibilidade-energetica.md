@@ -10,7 +10,7 @@ Duração: 13 minutos · 10 slides · Arquitetura: PROCEDIMENTO
 *Visual: a conta escrita à mão: 2.400 menos 700, dividido por 45, com o resultado 38 circulado. Embaixo, a régua com as faixas 30 e 45 e a zona entre elas sombreada em cinza.*
 *Teleprompter: (entra pelo caso ilustrativo e pela conta)*
 
-Um caso ilustrativo. Uma triatleta amadora de trinta e um anos, cinquenta e oito quilos, trabalho de escritório, noventa minutos de treino por dia, seis dias por semana. Chega encaminhada depois da terceira lesão em um ano. E a primeira frase dela é: eu como muito bem.
+Um caso ilustrativo. Uma triatleta amadora de trinta e poucos anos, cinquenta e oito quilos, trabalho de escritório, noventa minutos de treino por dia, seis dias por semana. Chega encaminhada depois da terceira lesão em um ano. E a primeira frase dela é: eu como muito bem.
 
 E é verdade. Em qualidade, o registro alimentar dela é impecável.
 
@@ -102,7 +102,7 @@ Quatro caminhos, em ordem de custo.
 
 Um: as cinco perguntas da aula anterior. Se o treino subiu e o prato não mudou, a conta está negativa até prova em contrário, e você não precisou de calculadora.
 
-Dois: o questionário. Para mulheres, o LEAF-Q, de Melin e colaboradores, de 2014: vinte e cinco itens sobre lesões, função gastrointestinal e função reprodutiva, com ponto de corte em oito. No estudo original, com oitenta e quatro atletas, classificou corretamente com sensibilidade de setenta e oito por cento e especificidade de noventa. Para homens, o LEAM-Q, ainda em validação. Os dois rastreiam. E vários itens se confundem com treino pesado, então falso positivo é esperado.
+Dois: o questionário. Para mulheres, o LEAF-Q, de 2014: vinte e cinco itens sobre lesões, função gastrointestinal e função reprodutiva, com ponto de corte em oito. No estudo original, com oitenta e quatro atletas, classificou corretamente com sensibilidade de setenta e oito por cento e especificidade de noventa. Para homens, o LEAM-Q, ainda em validação. Os dois rastreiam. E vários itens se confundem com treino pesado, então falso positivo é esperado.
 
 ---
 
@@ -148,7 +148,7 @@ E monitore o desfecho, não o número. Ciclo, ausência de nova lesão, desempen
 
 Quem faz o quê. A estimativa detalhada da ingestão e o plano alimentar são do nutricionista, e o encaminhamento com a ordem de grandeza já calculada encurta muito o trabalho. A estimativa do gasto é onde o educador físico e o preparador mais contribuem, porque são eles que sabem o que a pessoa de fato faz. E o diagnóstico, quando há deficiência clínica, é médico.
 
-Na próxima aula a gente sai do total e entra no combustível que mais decide desempenho: o carboidrato, e por que a maior parte das recomendações que circulam foi escrita para quem treina o dobro do seu paciente.
+Na próxima conversa a gente sai do total e entra no combustível que mais decide desempenho: o carboidrato, e por que a maior parte das recomendações que circulam foi escrita para quem treina o dobro do seu paciente.
 
 ---
 
@@ -170,6 +170,8 @@ Na próxima aula a gente sai do total e entra no combustível que mais decide de
 agora organizados em seis passos. Arquitetura PROCEDIMENTO mantida (a anterior é NÚMERO; a próxima é
 ERRO). A triatleta de 31 anos é dita como caso ilustrativo e é o primeiro dos dois casos do módulo.
 
+Nesta revisão, os 7 slides que ainda eram texto viraram desenho (a conta, a ingestão, o gasto, a massa livre de gordura, o erro de cada termo, a conduta sem conta e o lanche), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** LEAF-Q: 25 itens (lesão, função gastrointestinal, função reprodutiva), ponto
 de corte 8, estudo original com 84 atletas, sensibilidade 78% e especificidade 90%. Estudo de 2024
 sobre equações: 241 atletas de alto nível; a escolha da equação muda a classificação. Estudo de 2025:
@@ -184,12 +186,12 @@ cores, diagnóstico final médico. As contas da aula foram refeitas e fecham.
   como número; a fala diz que ela é grande e tem direção. O exemplo de 20% no passo quatro ficou,
   dito como suposição de cálculo.
 - Entraram os números de desempenho do LEAF-Q (sensibilidade e especificidade).
+- "Melin e colaboradores" saiu da fala; o LEAF-Q entra pelo nome e pelo ano. A idade da triatleta passou a ser dita por década, na fala e no slide.
 
 **Saíram.** "Escopo", "aula passada", "a triatleta do primeiro slide" (virou "a triatleta"), "insultante"
-(virou "ofensiva"), o bloco "Roteiro Gamma".
+(virou "ofensiva"), o bloco "Roteiro Gamma". Duração de 16 para 13 minutos.
 
-**Citações faladas.** Melin (LEAF-Q), os estudos de 2024 e 2025 sobre a razão do metabolismo de
-repouso, a ferramenta do COI.
+**Citações faladas.** Nenhum autor por nome; o LEAF-Q entra pelo nome do questionário.
 
 **Ligações internas.** as cinco perguntas e os estudos hora a hora = aula anterior · transtorno
 alimentar = última aula deste módulo · carboidrato = próxima aula.

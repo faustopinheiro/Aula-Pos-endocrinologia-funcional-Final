@@ -42,7 +42,7 @@ Passo um: os dias anteriores. E ele começa com a pergunta de corte: a prova pas
 
 Se não, como numa prova de dez quilômetros, um jogo de futebol ou uma luta, não existe sobrecarga de carboidrato. Alimentação habitual de um período de treino, com carboidrato suficiente, e o treino já reduzido nos dias finais. A redução do treino, com a alimentação mantida, já deixa o estoque cheio.
 
-Se sim, como numa meia maratona para quem corre devagar, numa maratona, numa prova longa de ciclismo ou num triatlo, entra a sobrecarga. A revisão de Burke e colaboradores, de 2011, dá o número: cerca de dez a doze gramas de carboidrato por quilo por dia, nas trinta e seis a quarenta e oito horas antes, com o treino reduzido.
+Se sim, como numa meia maratona para quem corre devagar, numa maratona, numa prova longa de ciclismo ou num triatlo, entra a sobrecarga. Uma revisão de 2011 dá o número: cerca de dez a doze gramas de carboidrato por quilo por dia, nas trinta e seis a quarenta e oito horas antes, com o treino reduzido.
 
 A conta, para setenta quilos: setecentos a oitocentos e quarenta gramas de carboidrato por dia. É muito. E é por isso que a prática precisa ser planejada, e não improvisada num jantar de massas.
 
@@ -90,9 +90,9 @@ A cafeína segue a mesma regra. A discussão de dose e de evidência é do módu
 
 Passo três: durante. As quantidades estão na aula de carboidrato, organizadas pela duração. O que decide a prova do amador, muitas vezes, não é quanto. É se o intestino aceita.
 
-De Oliveira, Burini e Jeukendrup, em 2014, num grupo com pesquisadores brasileiros, revisaram o tema. Os estudos sugerem que trinta a cinquenta por cento dos atletas têm queixas gastrointestinais no exercício. Não é raro. É perto de metade.
+Em 2014, uma revisão de um grupo com pesquisadores brasileiros organizou o tema. Os estudos sugerem que trinta a cinquenta por cento dos atletas têm queixas gastrointestinais no exercício. Não é raro. É perto de metade.
 
-Costa e colaboradores, em 2017, organizaram o mecanismo sob o nome de síndrome gastrointestinal induzida pelo exercício. Durante o esforço, o sangue sai do intestino para o músculo e para a pele. A perfusão intestinal cai, e isso mexe com permeabilidade, motilidade e absorção. Piora com intensidade alta, com duração longa, com calor e com desidratação.
+Em 2017, uma revisão organizou o mecanismo sob o nome de síndrome gastrointestinal induzida pelo exercício. Durante o esforço, o sangue sai do intestino para o músculo e para a pele. A perfusão intestinal cai, e isso mexe com permeabilidade, motilidade e absorção. Piora com intensidade alta, com duração longa, com calor e com desidratação.
 
 Na prática, três tipos de causa, e a conduta muda conforme o que domina. Fisiológica: intensidade, calor, desidratação. Mecânica: o impacto da corrida, a posição na bicicleta. Nutricional: o que foi comido, quando e em que concentração. Essa última é a mais acionável.
 
@@ -112,7 +112,7 @@ Três: treinar o intestino. A tolerância a carboidrato durante o exercício se 
 
 Quatro: a mistura de açúcares, quando a taxa for alta, pelo transportador intestinal que o módulo de fisiologia explicou.
 
-E um quinto item que é proibição: anti-inflamatório preventivo antes da prova. Van Wijck e colaboradores, em 2012, deram ibuprofeno a homens treinados antes de pedalar, e a lesão do intestino delgado induzida pelo exercício ficou maior. Somado a calor, desidratação e prova longa, é uma combinação ruim, e comum no esporte amador.
+E um quinto item que é proibição: anti-inflamatório preventivo antes da prova. Em 2012, um experimento deu ibuprofeno a homens treinados antes de pedalar, e a lesão do intestino delgado induzida pelo exercício ficou maior. Somado a calor, desidratação e prova longa, é uma combinação ruim, e comum no esporte amador.
 
 E o que não é ajuste nutricional: sangue nas fezes, dor intensa, sintoma fora do exercício, perda de peso, sintoma que acorda à noite. Isso é investigação médica. Não se trata com gel diferente.
 
@@ -162,7 +162,7 @@ Montar o plano alimentar de competição, com quantidades, é do nutricionista. 
 
 E a regra que qualquer um da equipe pode repetir, e que previne a maior parte dos desastres: nada de novo no dia.
 
-Na próxima aula, o que acontece depois do apito final e fora de casa: viagem, horário quebrado e recuperação depois do jogo.
+Na próxima conversa, o que acontece depois do apito final e fora de casa: viagem, horário quebrado e recuperação depois do jogo.
 
 ---
 
@@ -183,13 +183,15 @@ Arquitetura PROCEDIMENTO mantida (a anterior é DECISÃO; a próxima também é 
 diferente). Sem caso clínico: o corredor de 38 anos virou "perfil típico de primeira meia
 maratona", sem idade, e o fim da aula virou o plano preenchido para esse perfil.
 
+Nesta revisão, os 7 slides que ainda eram texto viraram desenho (a regra do dia, o corte dos noventa minutos, os ajustes, o intestino, o que resolve, o intervalo e o plano), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Burke 2011: sobrecarga de 10 a 12 g/kg por dia nas 36 a 48 h antes de
 eventos acima de ~90 min. De Oliveira 2014: 30 a 50% dos atletas com queixas gastrointestinais;
 causas fisiológicas, mecânicas e nutricionais. Costa 2017: síndrome gastrointestinal induzida pelo
 exercício. Van Wijck 2012: ibuprofeno antes do ciclismo agravou a lesão do intestino delgado em
 nove homens treinados.
 
-**Contas feitas na aula.** 10 a 12 g/kg × 70 kg = 700 a 840 g/dia. Relógio de trás para a frente a
+Contas feitas na aula: 10 a 12 g/kg × 70 kg = 700 a 840 g/dia. Relógio de trás para a frente a
 partir de largada às 7h.
 
 **Correções.**
@@ -198,11 +200,12 @@ partir de largada às 7h.
 - A frase do corredor ("eu não fiz nada de especial") e o resultado ("tempo melhor, nenhuma
   parada") saíram: eram fala e desfecho inventados. Ficou o plano preenchido.
 - "Ganhar um a dois quilos" na sobrecarga virou "um quilo ou mais", sem faixa fechada.
+- Burke, De Oliveira, Burini e Jeukendrup, Costa e Van Wijck saíram da fala; as revisões e o experimento do ibuprofeno entram pelo ano.
 
 **Saíram.** "Aula 4.4", "aula 4.3", "2.4", "4.8", "aula 4.11", "aula 4.9", "Módulo 5", "o escopo",
-a idade, o bloco "Roteiro Gamma".
+a idade, o bloco "Roteiro Gamma". Duração de 17 para 16 minutos.
 
-**Citações faladas.** Burke; De Oliveira, Burini e Jeukendrup; Costa; Van Wijck.
+**Citações faladas.** Nenhum autor por nome. As revisões de 2011, 2014 e 2017 e o experimento de 2012 entram pelo ano.
 
 **Ligações internas.** ensaio e treino do intestino = aula de periodização de carboidrato ·
 quantidades e refeição pré-treino = aula de carboidrato · transportador intestinal = módulo de

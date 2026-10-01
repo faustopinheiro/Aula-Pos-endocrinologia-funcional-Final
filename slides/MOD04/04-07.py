@@ -59,9 +59,9 @@ svg, rs = linhas(1664, 320, "Hepcidina subindo depois de uma sessão intensa, co
 rs += [rot(780, 40, "hepcidina", w=300, tam=30, cor=FOSF, peso=700),
        rot(1000, 110, "absorção de ferro menor enquanto ela está alta", w=620, tam=26, cor=TINTA, peso=600)]
 S.append({"id": "hepcidina", "tipo": "diagrama", "h": 320, "svg": svg, "rotulos": rs,
-          "eyebrow": "Sim e colaboradores, 2019", "titulo": "Por que o exercício pesa no ferro",
+          "eyebrow": "Uma revisão de 2019", "titulo": "Por que o exercício pesa no ferro",
           "destaque": "Dois treinos duros por dia: muitas horas com a porta de absorção meio fechada. A refeição mais rica em ferro rende mais longe desse pico.",
-          "destaque_cor": "verm", "fonte": "Esquema, sem valores medidos · European Journal of Applied Physiology 2019"})
+          "destaque_cor": "verm", "fonte": "Esquema, sem valores medidos · Sim e colaboradores · European Journal of Applied Physiology 2019"})
 
 # 5. vegano e iodo
 S.append({"id": "vegano", "tipo": "cards", "por_linha": 3, "eyebrow": "Rogerson, 2017", "titulo": "O vegano muda a lista",

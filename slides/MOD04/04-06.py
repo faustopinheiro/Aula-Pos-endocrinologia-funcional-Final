@@ -70,9 +70,9 @@ p.append("</svg>")
 rs.append(rot(1100, 24, "resolve a maioria", w=540, tam=26, cor=OXID, peso=700, alinha="right"))
 rs.append(rot(1100, 258, "encontra pouco", w=540, tam=26, cor=GLIC, peso=700, alinha="right"))
 S.append({"id": "ordem", "tipo": "diagrama", "h": 400, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Hackney, 2020", "titulo": "Energia total antes de macronutriente",
+          "eyebrow": "Uma revisão de 2020", "titulo": "Energia total antes de macronutriente",
           "destaque": "Na mulher, ainda mais claro: a função reprodutiva acompanha a disponibilidade energética, não a composição da dieta.",
-          "destaque_cor": "petr", "fonte": "Frontiers in Endocrinology 2020 · Loucks e Thuma 2003"})
+          "destaque_cor": "petr", "fonte": "Hackney · Frontiers in Endocrinology 2020 · Loucks e Thuma 2003"})
 
 # 7. densidade
 S.append({"id": "densidade", "tipo": "numeros", "eyebrow": "A virada prática", "titulo": "Gordura como ferramenta de densidade",

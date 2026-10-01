@@ -25,9 +25,9 @@ svg, rs = linhas(1664, 340, "Ganho de massa livre de gordura subindo com a prote
 rs += [rot(1050, 60, "platô", w=300, tam=30, cor=OXID, peso=700),
        rot(120, 220, "ganho de massa livre de gordura", w=500, tam=26, cor=OXID, peso=600)]
 S.append({"id": "plato", "tipo": "diagrama", "h": 340, "svg": svg, "rotulos": rs,
-          "eyebrow": "Morton e colaboradores, 2018", "titulo": "Onde mais proteína para de ajudar",
+          "eyebrow": "Uma meta-análise de 2018", "titulo": "Onde mais proteína para de ajudar",
           "destaque": "49 estudos, 1.863 pessoas treinando força: +0,30 kg de massa livre de gordura. Efeito maior em treinados, menor com a idade. Em déficit, a necessidade sobe.",
-          "destaque_cor": "petr", "fonte": "Esquema da curva, sem valores medidos, com os pontos do estudo · British Journal of Sports Medicine 2018 · Jäger 2017: 1,4 a 2,0 g/kg"})
+          "destaque_cor": "petr", "fonte": "Esquema da curva, sem valores medidos, com os pontos do estudo · Morton e colaboradores · British Journal of Sports Medicine 2018 · Jäger 2017: 1,4 a 2,0 g/kg"})
 
 # 3. Areta
 p = [svg_abre(1664, 330, "Mesmos 80 g de whey em 12 horas, divididos em 8 doses de 10 g, 4 de 20 g ou 2 de 40 g; o padrão de 4 doses de 20 g teve a maior síntese miofibrilar")]
@@ -83,9 +83,9 @@ svg, rs = linhas(1664, 340, "Síntese miofibrilar por dose de proteína por refe
 rs += [rot(1320, 50, "jovem", w=200, tam=30, cor=OXID, peso=700),
        rot(1160, 110, "idoso", w=200, tam=30, cor=GLIC, peso=700)]
 S.append({"id": "idoso", "tipo": "diagrama", "h": 340, "svg": svg, "rotulos": rs,
-          "eyebrow": "Moore e colaboradores, 2015", "titulo": "A mesma refeição rende menos no idoso",
+          "eyebrow": "Uma análise de 2015", "titulo": "A mesma refeição rende menos no idoso",
           "destaque": "PROT-AGE: ≥ 1,0 a 1,2 g/kg/dia; ≥ 1,2 para quem se exercita; 1,2 a 1,5 com doença. Para 65 kg, 26 g por refeição.",
-          "destaque_cor": "ambar", "fonte": "Esquema das curvas, com os pontos de platô do estudo · Journals of Gerontology 2015 · Bauer 2013"})
+          "destaque_cor": "ambar", "fonte": "Esquema das curvas, com os pontos de platô do estudo · Moore e colaboradores · Journals of Gerontology 2015 · Bauer 2013"})
 
 # 8. carga e barreiras
 S.append({"id": "carga", "tipo": "duas", "eyebrow": "Carga primeiro, proteína junto", "titulo": "O problema do idoso é textura e logística",

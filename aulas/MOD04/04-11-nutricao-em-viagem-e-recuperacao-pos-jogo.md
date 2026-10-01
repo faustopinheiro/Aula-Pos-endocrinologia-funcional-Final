@@ -58,7 +58,7 @@ E a recuperação tem quatro componentes que cabem numa refeição comum. Repor 
 
 Agora a cerveja. Ela aparece em quase todo pós-jogo amador, e a conversa precisa ser honesta nas duas direções.
 
-Parr e colaboradores, em 2014, colocaram oito homens ativos para fazer uma sessão de treino combinado, força e depois bicicleta, e mediram a síntese de proteína muscular nas horas seguintes. Com álcool junto da proteína, a síntese caiu vinte e quatro por cento em relação à proteína sozinha. Com álcool junto de carboidrato, sem proteína, caiu trinta e sete.
+Em 2014, um experimento colocou oito homens ativos para fazer uma sessão de treino combinado, força e depois bicicleta, e mediram a síntese de proteína muscular nas horas seguintes. Com álcool junto da proteína, a síntese caiu vinte e quatro por cento em relação à proteína sozinha. Com álcool junto de carboidrato, sem proteína, caiu trinta e sete.
 
 Mas repare na dose: um grama e meio de álcool por quilo. Cerca de doze doses, para os participantes do estudo. É uma noite de bebedeira, não duas latas.
 
@@ -76,7 +76,7 @@ Decisão dois: a semana de horário quebrado. E a ferramenta que resolve quase t
 
 Não comece pelo modelo café, almoço e jantar. Ele pressupõe uma agenda que o paciente não tem. Comece pelo horário do treino, coloque a refeição de antes e a de depois, e distribua o resto em volta. É a mesma conta que a aula do dia de competição fez com a largada às sete.
 
-Treino às cinco da manhã. Não há tempo para refeição e digestão. Treinar em jejum é aceitável? A meta-análise de Aird, Davies e Carson, de 2018, reuniu quarenta e seis estudos. Comer antes melhorou o desempenho no exercício aeróbico prolongado. No aeróbico mais curto, não fez diferença.
+Treino às cinco da manhã. Não há tempo para refeição e digestão. Treinar em jejum é aceitável? Uma meta-análise de 2018 reuniu quarenta e seis estudos. Comer antes melhorou o desempenho no exercício aeróbico prolongado. No aeróbico mais curto, não fez diferença.
 
 Então: sessão curta, leve a moderada, em quem tolera, o jejum é aceitável. Sessão longa, intensa ou de força pesada, uma mini-refeição de vinte a quarenta gramas de carboidrato, quinze a trinta minutos antes. Banana, pão com geleia, suco, tapioca fina. E nunca jejum em quem já está em baixa disponibilidade energética, porque ali o jejum não é técnica. É mais um buraco.
 
@@ -92,7 +92,7 @@ Treino às dez da noite. Dois problemas competem: o sono e o jantar.
 
 A solução errada é a mais intuitiva, que é não jantar. Ela põe a pessoa para treinar e dormir em déficit. A solução é ajustar o jantar: volume modesto, proteína suficiente, carboidrato presente, pouca gordura e pouca fibra, e trinta a sessenta minutos até deitar.
 
-E aqui existe uma oportunidade. Snijders e colaboradores, em 2015, deram a quarenta e quatro homens jovens, em doze semanas de treino de força, cerca de trinta gramas de caseína antes de dormir, contra uma bebida sem calorias. O grupo da proteína ganhou mais massa e mais força. A ressalva honesta: o grupo da proteína comeu mais proteína no total. Parte do efeito pode ser do total, não do horário. Mas, para quem treina às dez, o jantar depois do treino já é a refeição antes do sono. Uma refeição resolve dois andares.
+E aqui existe uma oportunidade. Em 2015, um ensaio deu a quarenta e quatro homens jovens, em doze semanas de treino de força, cerca de trinta gramas de caseína antes de dormir, contra uma bebida sem calorias. O grupo da proteína ganhou mais massa e mais força. A ressalva honesta: o grupo da proteína comeu mais proteína no total. Parte do efeito pode ser do total, não do horário. Mas, para quem treina às dez, o jantar depois do treino já é a refeição antes do sono. Uma refeição resolve dois andares.
 
 E a cafeína. A meia-vida dela gira em torno de cinco horas, com grande variação entre pessoas. Vamos fazer a conta. Um pré-treino com cafeína às nove e meia da noite: às duas e meia da manhã, ainda resta perto da metade circulando. Quem treina tarde e usa cafeína troca uma sessão um pouco melhor por uma noite inteira pior.
 
@@ -156,7 +156,7 @@ E nenhum dos três mudou a agenda. O jogo continuou no domingo, o treino continu
 
 Quem faz o quê. O plano alimentar da semana, do pós-jogo e da viagem é do nutricionista. O treinador e a comissão técnica decidem a logística da equipe: horário de saída, paradas, kit, restaurante. Sem eles, o melhor plano não chega ao ônibus. Sono ruim persistente, uso de estimulantes e consumo de álcool que preocupa são conversa com o médico. E se o álcool deixou de ser o copo do pós-jogo e virou um padrão, o psicólogo entra junto.
 
-Na próxima aula, que fecha o módulo, o tema que atravessa todas as outras onze: quando a relação com a comida deixa de ser escolha e vira problema.
+Na próxima conversa, que fecha o módulo, o tema que atravessa todas as outras onze: quando a relação com a comida deixa de ser escolha e vira problema.
 
 ---
 
@@ -176,6 +176,8 @@ Arquitetura DECISÃO mantida (a anterior e a próxima são PROCEDIMENTO). Sem ca
 jogador de 34 anos, a professora de 36 e a equipe sub-17 viraram "três perfis típicos", sem idade
 exata (a equipe ficou como "jovem", porque o crescimento importa para a conduta).
 
+Nesta revisão, os 6 slides que ainda eram texto viraram desenho (a agenda, o pós-jogo, o álcool, o treino às cinco, a viagem e os três perfis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Parr 2014: oito homens ativos, álcool a 1,5 g/kg (cerca de 12 doses); síntese
 de proteína miofibrilar 24% menor com álcool e proteína e 37% menor com álcool e carboidrato, em
 relação à proteína sozinha. Aird 2018: 46 estudos; comer antes melhorou o aeróbico prolongado, não o
@@ -183,18 +185,19 @@ curto. Snijders 2015: 44 homens jovens, 12 semanas de força, cerca de 30 g de c
 dormir contra placebo sem calorias; mais ganho de massa e força; o total de proteína foi maior no
 grupo da caseína.
 
-**Contas feitas na aula.** Cafeína às 21h30, meia-vida de ~5 h: perto da metade às 2h30.
+Contas feitas na aula: Cafeína às 21h30, meia-vida de ~5 h: perto da metade às 2h30.
 
 **Correções.**
 - Os desfechos inventados saíram: "três semanas depois, a segunda-feira mudou", "o sono voltou",
   "o primeiro jogo foi o pior da temporada". Os perfis ficaram com a conduta, sem resultado narrado.
 - "Com álcool no lugar da proteína, mais de um terço" virou o número do estudo (37%, álcool com
   carboidrato).
+- Parr, Aird, Davies e Carson e Snijders saíram da fala e do topo dos slides; os estudos entram pelo ano.
 
 **Saíram.** "Aula 4.5", "aula 4.3", "4.10", "aula 4.8", "aula 9.12", "4.12", "o escopo", as idades,
-o bloco "Roteiro Gamma".
+o bloco "Roteiro Gamma". Duração de 19 para 18 minutos.
 
-**Citações faladas.** Parr; Aird, Davies e Carson; Snijders.
+**Citações faladas.** Nenhum autor por nome. O experimento de 2014, a meta-análise de 2018 e o ensaio de 2015 entram pelo ano.
 
 **Ligações internas.** distribuição de proteína = aula de proteína · reposição rápida = aula de
 carboidrato · logística e "nada de novo" = aula do dia de competição · leite = aula de hidratação ·

@@ -24,9 +24,9 @@ Em qualquer outro contexto, isso é sinal de alerta. No esporte, costuma ser cha
 
 Três fatos antes do procedimento.
 
-Um: é mais comum no esporte. Sundgot-Borgen e Torstveit, em 2004, avaliaram todos os atletas de elite da Noruega e uma amostra da população geral, com questionário seguido de entrevista clínica. Transtornos alimentares apareceram em cerca de treze e meio por cento dos atletas, contra quatro vírgula seis por cento no grupo controle. Nas mulheres atletas, perto de vinte por cento. Nos homens atletas, perto de oito. E a concentração foi maior nos esportes em que o peso ou a magreza pesam no resultado.
+Um: é mais comum no esporte. Em 2004, um estudo avaliou todos os atletas de elite da Noruega e uma amostra da população geral, com questionário seguido de entrevista clínica. Transtornos alimentares apareceram em cerca de treze e meio por cento dos atletas, contra quatro vírgula seis por cento no grupo controle. Nas mulheres atletas, perto de vinte por cento. Nos homens atletas, perto de oito. E a concentração foi maior nos esportes em que o peso ou a magreza pesam no resultado.
 
-Dois: é grave. A meta-análise de Arcelus e colaboradores, de 2011, reuniu trinta e seis estudos. A mortalidade na anorexia nervosa foi quase seis vezes maior do que a esperada. E, entre as pessoas com anorexia que morreram, uma em cada cinco morreu por suicídio.
+Dois: é grave. Uma meta-análise de 2011 reuniu trinta e seis estudos. A mortalidade na anorexia nervosa foi quase seis vezes maior do que a esperada. E, entre as pessoas com anorexia que morreram, uma em cada cinco morreu por suicídio.
 
 Três: o que vem a seguir.
 
@@ -84,9 +84,9 @@ Se a resposta envolve medo de engordar, culpa depois de comer, regras rígidas o
 
 Para rastreio estruturado, dois instrumentos cabem em qualquer atendimento.
 
-O SCOFF, descrito por Morgan, Reid e Lacey, em 1999. Cinco perguntas de sim ou não, em menos de dois minutos. Se a pessoa provoca o vômito por se sentir desconfortavelmente cheia. Se sente que perdeu o controle sobre o quanto come. Se perdeu muito peso recentemente. Se se acha gorda quando os outros dizem que está magra. E se a comida domina a vida dela. Duas ou mais respostas sim pedem avaliação mais detalhada.
+O SCOFF, descrito em 1999. Cinco perguntas de sim ou não, em menos de dois minutos. Se a pessoa provoca o vômito por se sentir desconfortavelmente cheia. Se sente que perdeu o controle sobre o quanto come. Se perdeu muito peso recentemente. Se se acha gorda quando os outros dizem que está magra. E se a comida domina a vida dela. Duas ou mais respostas sim pedem avaliação mais detalhada.
 
-E um instrumento feito para atletas, o BEDA-Q, de Martinsen e colaboradores, em 2014. É um questionário breve, desenvolvido em atletas adolescentes de elite, mulheres, justamente porque parte dos comportamentos é normalizada no esporte e escapa aos instrumentos gerais.
+E um instrumento feito para atletas, o BEDA-Q, de 2014. É um questionário breve, desenvolvido em atletas adolescentes de elite, mulheres, justamente porque parte dos comportamentos é normalizada no esporte e escapa aos instrumentos gerais.
 
 As ressalvas de sempre. Rastreio não é diagnóstico. Um resultado negativo em quem mostra os sinais do passo um não encerra a conversa. E os instrumentos foram construídos sobretudo com mulheres e com a apresentação de perder peso. No homem com dismorfia muscular, falham com frequência. Para ele, duas perguntas abrem mais do que qualquer escala: quanto tempo por dia você passa pensando no seu corpo? E você já deixou de ir a algum lugar por causa do treino ou de como se sentia com o corpo?
 
@@ -126,7 +126,7 @@ A porta de encaminhar com calma. Para psicólogo e médico com experiência em t
 
 Um caso ilustrativo, porque ele mostra a apresentação que mais escapa.
 
-Um estudante de vinte e quatro anos, que treinava musculação seis dias por semana havia sete anos, chegou por uma dor no ombro que piorava havia cinco meses. E pela qual não tinha faltado a um único treino.
+Um estudante de vinte e poucos anos, que treinava musculação seis dias por semana havia sete anos, chegou por uma dor no ombro que piorava havia cinco meses. E pela qual não tinha faltado a um único treino.
 
 Nada do que importava apareceu na primeira consulta. Apareceu ao longo de semanas. Ele adaptava o exercício para conseguir fazer, nunca para reduzir. Tinha faltado ao casamento de um primo porque caía em dia de treino de peito, e contou isso rindo. Comia as mesmas seis refeições, pesadas, todos os dias, havia dois anos, e levava marmita a qualquer evento social. Tirava fotos de si mesmo todos os dias, no mesmo ângulo. Quando perguntado como se via, disse que ainda se achava pequeno, mesmo estando visivelmente acima da média muscular da academia. Disse que pensava no corpo praticamente o dia todo. E, perguntado diretamente e sem julgamento sobre substâncias, contou que estava no terceiro ciclo de anabolizante do ano, orientado por alguém da academia.
 
@@ -193,6 +193,8 @@ Arquitetura PROCEDIMENTO mantida (a anterior é DECISÃO). O fecho do módulo no
 dois slides próprios e um terceiro de frase final, como no módulo de endocrinologia. O estudante de
 24 anos é o segundo e último caso do módulo, dito como caso ilustrativo.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (disciplina ou sintoma, os números, reconhecer, os dois erros, a pergunta, abordar, encaminhar, o caso, os níveis e os sinais de todos), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Sundgot-Borgen e Torstveit 2004: todos os atletas de elite noruegueses (1.620)
 e 1.696 controles, questionário e entrevista clínica; 13,5% contra 4,6%; cerca de 20% nas mulheres
 atletas e 8% nos homens; mais comum em esportes dependentes de peso e magreza. Arcelus 2011: 36
@@ -208,11 +210,12 @@ adolescentes de elite, mulheres (MSSE 2014).
 - "Mulheres atletas de elite" no BEDA-Q virou "atletas adolescentes de elite, mulheres", como na
   amostra de desenvolvimento.
 - Entrou o dado de suicídio de Arcelus, que sustenta a porta de agora.
+- Sundgot-Borgen e Torstveit, Arcelus, Morgan, Reid e Lacey e Martinsen saíram da fala; os estudos entram pelo ano, e SCOFF e BEDA-Q pelo nome. A idade do caso passou a ser dita por década, na fala e no slide. "Das onze aulas" virou "do módulo" no slide da abertura.
 
 **Saíram.** "4.1", "4.4", "4.6", "4.9", "aula 4.11", "aula 4.6", "aulas 4.5, 4.10 e 4.11", "aula
-10.4", "aula 10.5", "Módulo 12", "aula 13.11", "Módulo 5", "o escopo", o bloco "Roteiro Gamma".
+10.4", "aula 10.5", "Módulo 12", "aula 13.11", "Módulo 5", "o escopo", o bloco "Roteiro Gamma". Duração de 20 para 20 minutos.
 
-**Citações faladas.** Sundgot-Borgen e Torstveit; Arcelus; Morgan, Reid e Lacey; Martinsen.
+**Citações faladas.** Nenhum autor por nome. Os estudos de 2004 e 2011 entram pelo ano; SCOFF e BEDA-Q pelos nomes dos instrumentos.
 
 **Ligações internas.** disponibilidade energética não intencional = primeira aula do módulo ·
 "cortou alguma coisa?" = aula de lipídios · coluna da direita = aula de composição corporal ·

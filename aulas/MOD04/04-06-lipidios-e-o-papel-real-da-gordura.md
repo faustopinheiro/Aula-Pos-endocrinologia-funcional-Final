@@ -70,7 +70,7 @@ Essa terceira razão é a mais subestimada. A gordura tem nove quilocalorias por
 
 O segundo erro anda junto com o primeiro e é o espelho dele: gordura é o nutriente dos hormônios; para a testosterona subir, coma mais gordura. É um dos temas mais distorcidos da internet, nas duas direções.
 
-Whittaker e Wu, em 2021, fizeram uma meta-análise de estudos de intervenção com duzentos e seis homens. Dietas de baixa gordura se associaram a testosterona total e livre mais baixas que dietas com mais gordura, com efeito pequeno a moderado. LH e SHBG não diferiram. O artigo recebeu errata depois de publicado, e isso pede cuidado antes de citar números exatos.
+Em 2021, saiu uma meta-análise de estudos de intervenção com duzentos e seis homens. Dietas de baixa gordura se associaram a testosterona total e livre mais baixas que dietas com mais gordura, com efeito pequeno a moderado. LH e SHBG não diferiram. O artigo recebeu errata depois de publicado, e isso pede cuidado antes de citar números exatos.
 
 As ressalvas são metade da história. Estudos pequenos, muitos antigos, e na maioria a mudança de gordura veio junto com mudança de fibra, de tipo de gordura e às vezes de calorias. É difícil isolar a variável. E a relevância clínica: uma queda modesta em quem está no meio da faixa de referência provavelmente não muda nada que ele sinta. Em quem já estava no limite inferior, pode pesar.
 
@@ -82,7 +82,7 @@ O que não se sustenta: que mais gordura eleve a testosterona acima do normal, q
 *Visual: a ordem de investigação do homem ativo com testosterona baixa, em cinco degraus: disponibilidade energética, sono, carga e recuperação, gordura e o piso de 20%, causas clínicas. Rodapé: Hackney 2020.*
 *Teleprompter: (a ordem que resolve)*
 
-Agora o ponto que reordena a investigação. Hackney, em 2020, revisou o homem ativo com testosterona baixa e argumentou que o quadro é mais bem entendido como ajuste adaptativo ao balanço energético e à carga de treino do que como falha da gônada. O determinante dominante raramente é a distribuição de macronutrientes. É a energia total.
+Agora o ponto que reordena a investigação. Em 2020, uma revisão olhou para o homem ativo com testosterona baixa e argumentou que o quadro é mais bem entendido como ajuste adaptativo ao balanço energético e à carga de treino do que como falha da gônada. O determinante dominante raramente é a distribuição de macronutrientes. É a energia total.
 
 Então a ordem de investigação. Um: disponibilidade energética. Dois: sono. Três: carga e recuperação. Quatro: gordura da dieta e o piso de vinte por cento. Cinco: causas clínicas, que as aulas da testosterona e do hipogonadismo detalharam. Quem começa pelo quarto degrau encontra pouco. Quem começa pelo primeiro resolve a maioria.
 
@@ -132,7 +132,7 @@ Na rota da orientação, a consulta começa com uma frase que a gente deve mais 
 
 Quem faz o quê. A distribuição de macronutrientes e o plano alimentar são do nutricionista. Dosar testosterona, investigar ciclo irregular, avaliar perfil lipídico e decidir medicação é do médico. Carga e volume, do educador físico. Se a restrição tiver cara de regra moral, o psicólogo entra com o médico. E a pergunta de triagem é de todos: você cortou alguma gordura da sua alimentação? Qual, e por quê?
 
-Na próxima aula, os micronutrientes, e as deficiências que de fato aparecem em quem treina, separadas das que só aparecem no marketing.
+Na próxima conversa, os micronutrientes, e as deficiências que de fato aparecem em quem treina, separadas das que só aparecem no marketing.
 
 ---
 
@@ -152,6 +152,8 @@ Arquitetura ERRO mantida (a anterior é NÚMERO; a próxima é PROCEDIMENTO). Se
 de 31 anos, a corredora de 33 e o ciclista de 54 viraram as três rotas (estética, pureza,
 orientação), sem idade.
 
+Nesta revisão, os 6 slides que ainda eram texto viraram desenho (o erro, as três rotas, as cinco funções, o hormônio, a densidade e a frase completa), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Faixa de 20 a 35% da energia e o piso de 20% (posicionamento de 2016).
 Whittaker e Wu 2021: meta-análise de intervenção em homens, testosterona total e livre mais baixas com
 baixa gordura, efeito pequeno a moderado; errata publicada (PMID 41139558). Energia dos alimentos
@@ -164,11 +166,12 @@ em tabelas de composição de uso corrente.
 - O caso do ciclista virou a rota da orientação incompleta; a frase dita ao paciente ficou como
   orientação ao profissional.
 - "Nutricionistas do Canadá" corrigido para "Dietistas do Canadá".
+- Hackney e Whittaker e Wu saíram da fala e do topo dos slides; os estudos entram pelo ano.
 
 **Saíram.** "Aula 4.3", "aula 3.12", "aula 4.1", "aulas 3.4 e 3.5", "aula 11.5", "aula 4.12",
-"Módulo 5", "Módulo 3", "o escopo", as idades, o bloco "Roteiro Gamma".
+"Módulo 5", "Módulo 3", "o escopo", as idades, o bloco "Roteiro Gamma". Duração de 15 para 13 minutos.
 
-**Citações faladas.** Posicionamento de 2016, Whittaker e Wu, Hackney, Loucks.
+**Citações faladas.** Loucks, pelo trabalho que ligou função reprodutiva e disponibilidade. A revisão de 2020 e a meta-análise de 2021 entram pelo ano.
 
 **Ligações internas.** carboidrato = aula de carboidrato · disponibilidade energética e Loucks = primeira
 aula do módulo · testosterona e hipogonadismo = aulas do módulo de endocrinologia · ômega-3 =

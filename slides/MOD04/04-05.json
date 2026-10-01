@@ -262,11 +262,11 @@
      "lh": 1.25
     }
    ],
-   "eyebrow": "Morton e colaboradores, 2018",
+   "eyebrow": "Uma meta-análise de 2018",
    "titulo": "Onde mais proteína para de ajudar",
    "destaque": "49 estudos, 1.863 pessoas treinando força: +0,30 kg de massa livre de gordura. Efeito maior em treinados, menor com a idade. Em déficit, a necessidade sobe.",
    "destaque_cor": "petr",
-   "fonte": "Esquema da curva, sem valores medidos, com os pontos do estudo · British Journal of Sports Medicine 2018 · Jäger 2017: 1,4 a 2,0 g/kg"
+   "fonte": "Esquema da curva, sem valores medidos, com os pontos do estudo · Morton e colaboradores · British Journal of Sports Medicine 2018 · Jäger 2017: 1,4 a 2,0 g/kg"
   },
   {
    "id": "areta",
@@ -803,11 +803,11 @@
      "lh": 1.25
     }
    ],
-   "eyebrow": "Moore e colaboradores, 2015",
+   "eyebrow": "Uma análise de 2015",
    "titulo": "A mesma refeição rende menos no idoso",
    "destaque": "PROT-AGE: ≥ 1,0 a 1,2 g/kg/dia; ≥ 1,2 para quem se exercita; 1,2 a 1,5 com doença. Para 65 kg, 26 g por refeição.",
    "destaque_cor": "ambar",
-   "fonte": "Esquema das curvas, com os pontos de platô do estudo · Journals of Gerontology 2015 · Bauer 2013"
+   "fonte": "Esquema das curvas, com os pontos de platô do estudo · Moore e colaboradores · Journals of Gerontology 2015 · Bauer 2013"
   },
   {
    "id": "carga",

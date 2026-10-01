@@ -18,7 +18,7 @@ Uma adolescente que nada dois períodos por dia chega pela mão da família porq
 
 O primeiro tem um painel e quase nenhum risco. A segunda tem quase todos os riscos e nenhum painel.
 
-Esta aula é um procedimento para não inverter essa ordem. E a premissa vem do posicionamento conjunto de 2016, de Thomas, Erdman e Burke: quem tem mais risco de estado ruim de micronutrientes é quem restringe energia, quem usa práticas agressivas de perda de peso e quem exclui grupos de alimentos.
+Esta aula é um procedimento para não inverter essa ordem. E a premissa vem do posicionamento conjunto de 2016: quem tem mais risco de estado ruim de micronutrientes é quem restringe energia, quem usa práticas agressivas de perda de peso e quem exclui grupos de alimentos.
 
 Deficiência de micronutriente raramente cai do céu. Ela segue a falta de energia e a falta de variedade.
 
@@ -54,7 +54,7 @@ Aplicando aos dois pedidos: a adolescente cruza quase todas as linhas. O adulto 
 
 No ferro, vale entender por que o exercício pesa.
 
-A revisão de Sim e colaboradores, de 2019, resumiu. Além das perdas, o exercício eleva a hepcidina, o hormônio que controla a absorção de ferro. Ela sobe nas horas seguintes a uma sessão intensa, com pico por volta de três a seis horas, e, enquanto está alta, o intestino absorve menos ferro.
+Uma revisão de 2019 resumiu. Além das perdas, o exercício eleva a hepcidina, o hormônio que controla a absorção de ferro. Ela sobe nas horas seguintes a uma sessão intensa, com pico por volta de três a seis horas, e, enquanto está alta, o intestino absorve menos ferro.
 
 Treino duro duas vezes por dia significa muitas horas com a porta de absorção meio fechada. E isso tem uma consequência prática que o nutricionista usa: a refeição mais rica em ferro rende mais longe desse pico.
 
@@ -64,7 +64,7 @@ Treino duro duas vezes por dia significa muitas horas com a porta de absorção 
 *Visual: o vegano, com os pontos de atenção de Rogerson 2017: B12, ferro, zinco, cálcio, iodo, vitamina D e ômega-3 de cadeia longa. A B12 destacada: não há fonte vegetal confiável. Ao lado, o sal: o comum é iodado; alguns sais "gourmet" não.*
 *Teleprompter: (o vegano e a nota brasileira do iodo)*
 
-No vegano, a lista muda. A revisão de Rogerson, de 2017, sobre dieta vegana em atletas, destaca B12, ferro, zinco, cálcio, iodo, vitamina D e os ômega-3 de cadeia longa como pontos de atenção. E conclui que uma dieta vegana bem planejada atende a maior parte dos atletas, com manejo de alimentos e suplementação adequada.
+No vegano, a lista muda. Uma revisão de 2017, sobre dieta vegana em atletas, destaca B12, ferro, zinco, cálcio, iodo, vitamina D e os ômega-3 de cadeia longa como pontos de atenção. E conclui que uma dieta vegana bem planejada atende a maior parte dos atletas, com manejo de alimentos e suplementação adequada.
 
 A B12 tem uma particularidade: não existe fonte vegetal confiável. Para o vegano, suplementar B12 não é opcional. É parte da dieta.
 
@@ -142,7 +142,7 @@ O adulto do painel vai pela primeira saída, e quase não precisa dela. A condut
 
 Quem faz o quê. Alimentação e fontes, nutricionista. Exame, diagnóstico e reposição, médico. O educador físico e o preparador são muitas vezes os primeiros a ver a queda de rendimento, e os passos um e três cabem na conversa deles. E se a exclusão vier com medo ou culpa, o psicólogo entra com o médico.
 
-Na próxima aula, o nutriente que todo mundo acha que já domina: a água, e o sódio que vai junto com ela.
+Na próxima conversa, o nutriente que todo mundo acha que já domina: a água, e o sódio que vai junto com ela.
 
 ---
 
@@ -161,6 +161,8 @@ Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é NÚMERO). Se
 de 40 anos e a nadadora de 15 viraram "dois pedidos típicos", sem idade exata (a adolescente ficou
 como categoria, porque o risco depende dela).
 
+Nesta revisão, os 7 slides que ainda eram texto viraram desenho (os dois pedidos, a matriz de grupos, o vegano, as quatro perguntas, o prato, os sintomas e a suficiência), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Hepcidina elevada nas horas seguintes ao exercício, com pico por volta de 3 a
 6 horas (Sim 2019). Lista de Rogerson 2017: B12, ferro, zinco, cálcio, iodo, vitamina D e ômega-3 de
 cadeia longa. Cálcio de cerca de 1.000 mg/dia no adulto e ~300 mg num copo de leite ou iogurte,
@@ -170,11 +172,12 @@ valores de tabela de uso corrente.
 - A lista do vegano estava sem zinco e sem ômega-3 de cadeia longa; entraram, como na revisão.
 - A frase "não há evidência de que colocar mais do que falta produza mais do que o corpo precisa"
   virou "não tem evidência de benefício", mais precisa.
+- Thomas, Erdman e Burke, Rogerson e Sim saíram da fala e do topo dos slides; os estudos entram pelo ano.
 
 **Saíram.** "Aula 3.12", "aula 6.9", "aula 4.1", "aula 4.12", "aula 2.10", "aulas 7.11 e 11.7",
-"aula 6.10", "Módulo 5", "aula 4.8", "o escopo", as idades, o bloco "Roteiro Gamma".
+"aula 6.10", "Módulo 5", "aula 4.8", "o escopo", as idades, o bloco "Roteiro Gamma". Duração de 14 para 13 minutos.
 
-**Citações faladas.** Thomas, Erdman e Burke; Sim; Rogerson.
+**Citações faladas.** Nenhum autor por nome. O posicionamento de 2016 e as revisões de 2017 e 2019 entram pelo ano.
 
 **Ligações internas.** vitamina D e osso = última aula do módulo de endocrinologia · anemia e ferro =
 módulo de medicina esportiva clínica · energia = primeira aula do módulo · exclusão por medo =

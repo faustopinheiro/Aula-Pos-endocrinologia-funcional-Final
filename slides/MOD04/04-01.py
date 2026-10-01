@@ -81,8 +81,8 @@ rs += [rot(400, 36, "come distribuído", w=380, tam=28, cor=OXID, peso=700),
        rot(130, 262, "jejum cedo, almoço tarde, jantar às 22 h", w=640, tam=26, cor=FOSF, peso=700)]
 S.append({"id": "horas", "tipo": "diagrama", "h": 360, "svg": svg, "rotulos": rs,
           "eyebrow": "O segundo problema é de tempo", "titulo": "Não importa só quanto. Importa quando",
-          "destaque": "Fahrenholtz, 2018: com a mesma conta de 24 h, as atletas com disfunção menstrual passavam 24% mais horas abaixo de −300 kcal.",
-          "destaque_cor": "verm", "fonte": "Esquema, sem valores medidos · eixo em kcal de saldo · Scandinavian Journal of Medicine and Science in Sports 2018; Torstveit 2018, 31 homens"})
+          "destaque": "Em 2018, com a mesma conta de 24 h, as atletas com disfunção menstrual passavam 24% mais horas abaixo de −300 kcal.",
+          "destaque_cor": "verm", "fonte": "Esquema, sem valores medidos · eixo em kcal de saldo · Fahrenholtz e colaboradores · Scandinavian Journal of Medicine and Science in Sports 2018; Torstveit e colaboradores 2018, 31 homens"})
 
 # 7. a cadeia
 p = [svg_abre(1664, 400, "Déficit derruba leptina e insulina, o hipotálamo lê escassez, e os eixos respondem em relógios diferentes: dias, semanas, meses"),

@@ -68,11 +68,11 @@ As faixas que circulam, e que eu vou usar com essa ressalva: em torno de quarent
 
 Vinte anos depois, o número foi revisto, e por quem mais trabalhou com ele.
 
-Em 2024, Salamunes, Williams e De Souza publicaram uma revisão crítica com uma pergunta no título: as alterações menstruais estão associadas a um limiar de disponibilidade energética? A resposta foi mais fina do que o título. Ficar abaixo de trinta aumenta a chance de alteração menstrual, mas alterações aparecem acima e abaixo desse valor.
+Em 2024, esse grupo publicou uma revisão crítica com uma pergunta no título: as alterações menstruais estão associadas a um limiar de disponibilidade energética? A resposta foi mais fina do que o título. Ficar abaixo de trinta aumenta a chance de alteração menstrual, mas alterações aparecem acima e abaixo desse valor.
 
 A conclusão prática: trinta não é uma linha abaixo da qual a disfunção acontece. É uma faixa em que o risco sobe. Uma linha permite dizer "está acima, está liberado". Um risco não permite.
 
-E a outra metade da humanidade. Em 2016, Koehler e colaboradores colocaram seis homens que se exercitavam em quinze quilocalorias por quilo de massa magra, metade do famoso trinta, por quatro dias, e compararam com quarenta. A leptina caiu entre cinquenta e três e cinquenta e seis por cento. A insulina, entre trinta e quatro e trinta e oito. T3, testosterona e IGF-1 não mudaram de forma significativa.
+E a outra metade da humanidade. Em 2016, um experimento colocou seis homens que se exercitavam em quinze quilocalorias por quilo de massa magra, metade do famoso trinta, por quatro dias, e compararam com quarenta. A leptina caiu entre cinquenta e três e cinquenta e seis por cento. A insulina, entre trinta e quatro e trinta e oito. T3, testosterona e IGF-1 não mudaram de forma significativa.
 
 Dá para errar dos dois lados. Um erro é concluir que homem não sofre com baixa disponibilidade. O estudo mostra que, em quatro dias, os sinais que chegam ao hipotálamo já despencaram, e os eixos, que são lentos, ainda não tinham se movido. O outro erro é aplicar ao homem o mesmo trinta da mulher. O que existe sugere que o homem tolera valores mais baixos por mais tempo antes de os eixos cederem.
 
@@ -88,11 +88,11 @@ A pergunta deixa de ser "está abaixo de trinta?" e passa a ser "quanto, por qua
 
 Antes do mecanismo, dois problemas de medida, porque eles decidem o quanto você pode confiar no número.
 
-O primeiro: a equação é frágil. Burke e colaboradores publicaram em 2018 um artigo cujo título já é a lição: as armadilhas de estimar e interpretar disponibilidade energética em atletas na vida real.
+O primeiro: a equação é frágil. Em 2018, saiu um artigo cujo título já é a lição: as armadilhas de estimar e interpretar disponibilidade energética em atletas na vida real.
 
 A ingestão costuma ser subestimada, e não por mentira: é esquecimento, porção mal estimada, o que se come em pé. O gasto do exercício costuma ser mal medido, e quase ninguém desconta o que a pessoa gastaria em repouso naquele mesmo tempo. A massa livre de gordura muda com o método. E a variação de um dia para o outro é grande.
 
-A próxima aula trabalha cada um desses erros com número e ferramenta. Aqui basta a consequência: o número calculado não é diagnóstico. É ordem de grandeza e instrumento de conversa. Ele responde "perto de quarenta e cinco, perto de trinta, ou claramente abaixo?". E, principalmente, faz o paciente ver a própria conta.
+A próxima conversa trabalha cada um desses erros com número e ferramenta. Aqui basta a consequência: o número calculado não é diagnóstico. É ordem de grandeza e instrumento de conversa. Ele responde "perto de quarenta e cinco, perto de trinta, ou claramente abaixo?". E, principalmente, faz o paciente ver a própria conta.
 
 ---
 
@@ -104,7 +104,7 @@ O segundo problema é de tempo, e é o mais interessante.
 
 A disponibilidade energética costuma ser calculada como média do dia. E essa média esconde uma pergunta: o corpo lê a conta uma vez por dia, ou o tempo todo?
 
-Dois estudos do mesmo grupo escandinavo, em 2018, olharam o saldo hora a hora. Fahrenholtz e colaboradores estudaram vinte e cinco atletas de endurance de elite, dez com ciclo regular e quinze com disfunção menstrual, com disponibilidade parecida nas vinte e quatro horas. As atletas com disfunção passavam cerca de vinte e quatro por cento mais horas do dia com saldo abaixo de menos trezentas quilocalorias. Torstveit e colaboradores repetiram a pergunta em trinta e um homens, ciclistas, triatletas e fundistas, e o déficit prolongado dentro do dia apareceu associado a metabolismo de repouso suprimido e a marcadores hormonais de escassez.
+Dois estudos do mesmo grupo escandinavo, em 2018, olharam o saldo hora a hora. O primeiro estudou vinte e cinco atletas de endurance de elite, dez com ciclo regular e quinze com disfunção menstrual, com disponibilidade parecida nas vinte e quatro horas. As atletas com disfunção passavam cerca de vinte e quatro por cento mais horas do dia com saldo abaixo de menos trezentas quilocalorias. O segundo repetiu a pergunta em trinta e um homens, ciclistas, triatletas e fundistas, e o déficit prolongado dentro do dia apareceu associado a metabolismo de repouso suprimido e a marcadores hormonais de escassez.
 
 São estudos transversais, e não provam causa. Mas apontam numa direção com plausibilidade fisiológica: não importa só quanto a pessoa come no dia. Importa quando.
 
@@ -138,7 +138,7 @@ Quarto elo: o tempo. Sinais periféricos, dias. Eixos reprodutivo e tireoidiano,
 
 O que a conta produz, na lista do consenso: função menstrual e reprodutiva, osso, imunidade, metabolismo, sistema cardiovascular, hematologia, saúde mental, trato gastrointestinal, e crescimento no adolescente. E no desempenho: menor resposta ao treino, pior recuperação, menos força, mais lesão e mais doença.
 
-Areta, Taylor e Koehler revisaram em 2021 a evidência prospectiva em mulheres e em homens, e os efeitos aparecem nos dois sexos. O que muda entre eles não é a fisiologia. É o alarme.
+Em 2021, uma revisão reuniu a evidência prospectiva em mulheres e em homens, e os efeitos aparecem nos dois sexos. O que muda entre eles não é a fisiologia. É o alarme.
 
 A mulher tem um sinal vital que apita todo mês: o ciclo menstrual. O homem não tem nada equivalente. Tem sinais difusos: queda de desempenho, fadiga, libido mais baixa, infecções mais frequentes, e uma testosterona que cai.
 
@@ -176,7 +176,7 @@ Repare que as portas dois a cinco não se parecem com a imagem que a gente tem d
 
 E a controvérsia, que precisa ser mostrada inteira, senão o conceito vira dogma na sua mão.
 
-Em 2024, Jeukendrup, Areta e colaboradores, e repare que Areta é autor da revisão de 2021, publicaram na Sports Medicine um artigo com uma pergunta no título: a síndrome de deficiência energética relativa no esporte existe?
+Em 2024, um grupo que inclui um dos autores da revisão de 2021 publicou na Sports Medicine um artigo com uma pergunta no título: a síndrome de deficiência energética relativa no esporte existe?
 
 Três argumentos, e sérios. A disponibilidade energética, núcleo do modelo, é quase impossível de medir com precisão fora do laboratório. Sem medir a causa, o diagnóstico acaba feito pelos sintomas. E os sintomas são genéricos, com causas múltiplas: sono, estresse, carga mal distribuída, doença. Os autores propõem que o modelo de carga alostática explicaria melhor o quadro. Houve resposta dos autores do consenso, e réplica em 2025.
 
@@ -200,13 +200,13 @@ Dois questionários de rastreio: o LEAF-Q, de 2014, para mulheres, e o LEAM-Q, d
 
 A conduta em três passos. Restaurar energia, com prioridade para o entorno do treino, e reduzir o volume por um tempo quando a pessoa não consegue comer o suficiente. Identificar a porta. E definir antes o que será reavaliado.
 
-O ensaio que dá ordem de grandeza é o REFUEL, de De Souza e colaboradores, publicado em 2021. Mulheres ativas com ciclo irregular ou ausente foram sorteadas para manter a rotina ou comer vinte a quarenta por cento acima da necessidade, por doze meses. O grupo que comeu mais teve duas vezes mais chance de menstruar, com ganho médio de cerca de dois quilos e meio. A correção funciona, é lenta, e não exige grande mudança de peso. E numa análise de 2023, comer mais por doze meses não piorou atitudes ligadas a transtorno alimentar, estresse nem sintomas depressivos.
+O ensaio que dá ordem de grandeza é o REFUEL, do mesmo grupo, publicado em 2021. Mulheres ativas com ciclo irregular ou ausente foram sorteadas para manter a rotina ou comer vinte a quarenta por cento acima da necessidade, por doze meses. O grupo que comeu mais teve duas vezes mais chance de menstruar, com ganho médio de cerca de dois quilos e meio. A correção funciona, é lenta, e não exige grande mudança de peso. E numa análise de 2023, comer mais por doze meses não piorou atitudes ligadas a transtorno alimentar, estresse nem sintomas depressivos.
 
 E as bandeiras que tiram o caso deste capítulo: medo de engordar, compensação, vômito, laxante, perda de peso rápida, amenorreia prolongada, fratura por estresse, bradicardia importante, desmaio. Isso vai para a aula de alimentação desordenada, no fim deste módulo.
 
 Quem faz o quê. O plano alimentar é do nutricionista. Exames, diferencial e medicação, do médico. Volume e distribuição do treino, do educador e do preparador físico. O componente comportamental, do psicólogo com o médico. E as cinco perguntas são de todo mundo.
 
-Na próxima aula, a oficina: como estimar cada variável da equação na vida real, o tamanho do erro de cada uma, e o que fazer quando não dá para calcular nada.
+Na próxima conversa, a oficina: como estimar cada variável da equação na vida real, o tamanho do erro de cada uma, e o que fazer quando não dá para calcular nada.
 
 ---
 
@@ -236,6 +236,8 @@ número, revisão, medida, tempo, mecanismo, consequência, portas, controvérsi
 NÚMERO mantida. Capa e fecho em petróleo, a cor do módulo. Sem caso clínico: a conta do segundo
 slide é um exemplo de cálculo, sem pessoa; as figuras das portas ficaram genéricas, sem idade.
 
+Nesta revisão, os 7 slides que ainda eram texto viraram desenho (a equação em blocos, a conta em cascata, a revisão do limiar, a medida, os sinais de alarme, as portas e a controvérsia), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Loucks e Thuma 2003: 29 mulheres regularmente menstruadas, habitualmente
 sedentárias, composição corporal normal, 5 dias na fase folicular inicial, gasto de 15 kcal/kg de
 massa magra em exercício, disponibilidade de 45 e 10, 20 ou 30. Koehler 2016: seis homens, 15 contra
@@ -253,12 +255,12 @@ cerca de 2,6 kg.
 - REFUEL: "ganho de um a cinco quilos" virou o ganho médio conferido, cerca de 2,6 kg, e entrou o
   efeito principal (duas vezes mais chance de menstruar).
 - Fahrenholtz: entrou o número conferido (24% mais horas abaixo de −300 kcal).
+- Koehler, Burke, Fahrenholtz, Torstveit, Areta, Jeukendrup, Salamunes, Williams e De Souza saíram da fala; os estudos entram pelo ano, e os autores ficam na fonte do slide.
 
 **Saíram.** "Elegante", "escopo", "módulo passado", "aula um do módulo passado", "no slide sete", a
-idade e o esporte das figuras das portas, o bloco "Roteiro Gamma".
+idade e o esporte das figuras das portas, o bloco "Roteiro Gamma". Duração de 37 para 22 minutos.
 
-**Citações faladas.** Loucks (Heath, Thuma), Salamunes, Koehler, Burke, Fahrenholtz, Torstveit,
-Areta, Jeukendrup, De Souza (REFUEL), o consenso do COI.
+**Citações faladas.** Loucks, com Heath e com Thuma, pelos experimentos que puseram número no limiar. O REFUEL entra pelo nome do ensaio, e o COI pelo consenso; os demais estudos, pelo ano.
 
 **Ligações internas.** T3, testosterona, GH e IGF-1, osso = módulo de endocrinologia do exercício ·
 "vários eixos na mesma direção" = primeira aula do módulo de endocrinologia · conta de reserva

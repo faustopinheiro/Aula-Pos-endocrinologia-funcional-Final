@@ -39,9 +39,9 @@ for i, (n, v, t, c) in enumerate(barras):
 p.append(f'<line x1="{x0}" y1="20" x2="{x0}" y2="290" stroke="{TINTA}" stroke-width="3"/>')
 p.append("</svg>")
 S.append({"id": "marquet", "tipo": "diagrama", "h": 300, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "O lado a favor · Marquet e colaboradores, 2016", "titulo": "Mesmo total, outro horário",
+          "eyebrow": "O lado a favor · um estudo de 2016", "titulo": "Mesmo total, outro horário",
           "destaque": "21 triatletas, três semanas, 6 g/kg/dia nos dois grupos. Não houve restrição do total: foi redistribuição.",
-          "destaque_cor": "petr", "fonte": "Melhora no tempo de 10 km · Medicine and Science in Sports and Exercise 2016"})
+          "destaque_cor": "petr", "fonte": "Melhora no tempo de 10 km · Marquet e colaboradores · Medicine and Science in Sports and Exercise 2016"})
 
 # 4. Gejl e Nybo
 p = [svg_abre(1664, 260, "Meta-análise de nove estudos: diferença média padronizada de 0,17, com intervalo de confiança de −0,15 a 0,49, cruzando o zero")]
@@ -58,9 +58,9 @@ rs = [rot(fx(0.17) - 150, 36, "0,17", w=300, tam=36, cor=GLIC, peso=700, alinha=
       rot(fx(0.6) - 500, 214, "favorece a restrição", w=500, tam=24, cor=MUDO, alinha="right"),
       rot(fx(0) - 60, 214, "0", w=120, tam=24, cor=TINTA, peso=700, alinha="center")]
 S.append({"id": "gejl", "tipo": "diagrama", "h": 260, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "O outro lado · Gejl e Nybo, 2021", "titulo": "Sinalização não é desfecho",
+          "eyebrow": "O outro lado · uma meta-análise de 2021", "titulo": "Sinalização não é desfecho",
           "destaque": "E os custos: sessão intensa pior, mais esforço percebido, imunidade, deriva para o déficit, adesão difícil.",
-          "destaque_cor": "verm", "fonte": "Diferença média padronizada no desempenho, 9 estudos · Journal of the International Society of Sports Nutrition 2021"})
+          "destaque_cor": "verm", "fonte": "Diferença média padronizada no desempenho, 9 estudos · Gejl e Nybo · Journal of the International Society of Sports Nutrition 2021"})
 
 # 5. cinco limites
 S.append({"id": "limites", "tipo": "lista", "eyebrow": "Por que antes da hora", "titulo": "Cinco limites estruturais no amador",

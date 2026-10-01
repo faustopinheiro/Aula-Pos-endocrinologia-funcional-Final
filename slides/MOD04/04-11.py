@@ -73,9 +73,9 @@ svg, rs = linhas(1664, 280, "Decaimento da cafeína tomada às 21h30 com meia-vi
                  destaques=[{"x": 5}])
 rs += [rot(900, 40, "ainda perto da metade no meio da noite", w=700, tam=28, cor=GLIC, peso=700)]
 S.append({"id": "noite", "tipo": "diagrama", "h": 280, "svg": svg, "rotulos": rs,
-          "eyebrow": "Treino às dez da noite · Snijders e colaboradores, 2015", "titulo": "O jantar é a refeição antes do sono",
+          "eyebrow": "Treino às dez da noite · um ensaio de 2015", "titulo": "O jantar é a refeição antes do sono",
           "destaque": "Jantar modesto, com proteína e carboidrato, pouca gordura e fibra. Caseína antes de dormir somou massa e força em 12 semanas, com mais proteína no total. Cafeína à noite: uma sessão melhor, uma noite pior.",
-          "destaque_cor": "petr", "fonte": "Esquema calculado com meia-vida de cerca de 5 h, sem valores medidos; a variação entre pessoas é grande · Journal of Nutrition 2015"})
+          "destaque_cor": "petr", "fonte": "Esquema calculado com meia-vida de cerca de 5 h, sem valores medidos; a variação entre pessoas é grande · Snijders e colaboradores · Journal of Nutrition 2015"})
 
 # 7. regra do buraco
 p = [svg_abre(1664, 300, "Três dias de treino em horários diferentes, das 5h às 24h, com as refeições marcadas; qualquer intervalo acordado acima de quatro a cinco horas sem comer aparece em vermelho")]

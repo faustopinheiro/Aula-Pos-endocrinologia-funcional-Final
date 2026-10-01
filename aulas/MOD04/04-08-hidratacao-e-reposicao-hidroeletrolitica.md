@@ -18,7 +18,7 @@ Ela fez exatamente o que mandaram. E o que mandaram estava errado para ela.
 
 A aula de ambiente adverso, no módulo de fisiologia do exercício, deu a fisiologia: o calor, a sede como guia, a hiponatremia como risco real. Esta aula dá os números. Hidratação é um dos poucos temas da nutrição esportiva em que existe um método individual, barato e preciso. E quase ninguém usa.
 
-O número de partida vem do posicionamento do Colégio Americano de Medicina do Esporte sobre reposição de líquidos, de Sawka e colaboradores, em 2007. Durante o exercício, o objetivo é evitar perder mais de dois por cento do peso corporal. E evitar mudanças excessivas no equilíbrio de eletrólitos, o que inclui não ganhar peso.
+O número de partida vem do posicionamento do Colégio Americano de Medicina do Esporte sobre reposição de líquidos, de 2007. Durante o exercício, o objetivo é evitar perder mais de dois por cento do peso corporal. E evitar mudanças excessivas no equilíbrio de eletrólitos, o que inclui não ganhar peso.
 
 A primeira metade todo mundo repete. A segunda quase ninguém. E é a segunda que teria protegido essa corredora.
 
@@ -50,7 +50,7 @@ Suor total: um vírgula um mais zero vírgula seis, um litro e setecentos em uma
 
 Por que fazer a conta, em vez de usar uma recomendação padrão? Porque a variação é enorme.
 
-A revisão de Baker, de 2017, reuniu os dados de teste de suor em atletas. A taxa de suor relatada vai de cerca de meio litro a cerca de dois litros por hora, conforme a pessoa, a intensidade, o calor, a umidade e a aclimatação. Um fator de quatro.
+Uma revisão de 2017 reuniu os dados de teste de suor em atletas. A taxa de suor relatada vai de cerca de meio litro a cerca de dois litros por hora, conforme a pessoa, a intensidade, o calor, a umidade e a aclimatação. Um fator de quatro.
 
 Uma recomendação única para todos é, necessariamente, errada para quase todos.
 
@@ -138,7 +138,7 @@ A cerveja depois do jogo é a pergunta que sempre vem. No estudo, a cerveja comu
 
 Sódio. O eletrólito que importa no suor.
 
-Na mesma revisão de Baker, a concentração de sódio no suor relatada vai de cerca de dez a cerca de noventa milimols por litro. Traduzindo para o que o paciente entende: numa mesma sessão, uma pessoa perde um quarto de grama de sódio por litro de suor, e outra perde perto de dois gramas. Mesma sala, perdas completamente diferentes.
+Na mesma revisão, a concentração de sódio no suor relatada vai de cerca de dez a cerca de noventa milimols por litro. Traduzindo para o que o paciente entende: numa mesma sessão, uma pessoa perde um quarto de grama de sódio por litro de suor, e outra perde perto de dois gramas. Mesma sala, perdas completamente diferentes.
 
 Como reconhecer o suador salgado sem laboratório? Marcas brancas na roupa e no boné, suor que arde nos olhos, gosto salgado na pele depois do treino. Não é preciso, mas é um bom filtro.
 
@@ -148,7 +148,7 @@ Quando entra sódio na bebida, o posicionamento de 2007 fala em algo como vinte 
 
 E a água de coco, que no Brasil tem fama de isotônico natural. É uma bebida boa, mas o perfil dela é de potássio alto e sódio baixo e variável. Para quem sua salgado numa sessão longa no calor, ela não repõe o que foi perdido. Não é proibir. É não confundir. O que sai no suor é principalmente sódio, e é sódio que precisa voltar.
 
-Uma última observação, sobre sal em cápsula. Faz sentido em pouquíssimos cenários: provas muito longas, no calor, em suador salgado. E não protege da hiponatremia de quem está bebendo demais. A hiponatremia associada ao exercício é, na maior parte das vezes, excesso de água, não falta de sal. É o que diz o consenso internacional de 2015, de Hew-Butler e colaboradores. Tomar sal e continuar bebendo em todos os postos não resolve o problema da corredora.
+Uma última observação, sobre sal em cápsula. Faz sentido em pouquíssimos cenários: provas muito longas, no calor, em suador salgado. E não protege da hiponatremia de quem está bebendo demais. A hiponatremia associada ao exercício é, na maior parte das vezes, excesso de água, não falta de sal. É o que diz o consenso internacional de 2015. Tomar sal e continuar bebendo em todos os postos não resolve o problema da corredora.
 
 ---
 
@@ -158,7 +158,7 @@ Uma última observação, sobre sal em cápsula. Faz sentido em pouquíssimos ce
 
 O último número da aula desmonta uma explicação que todo mundo dá com convicção: cãibra é falta de sal e de água.
 
-Schwellnus, Drew e Collins, em 2011, acompanharam duzentos e dez triatletas de Ironman, com sangue e pesagem antes e depois da prova. Quarenta e três tiveram cãibra. Eles não diferiram dos que não tiveram em sódio no sangue nem em grau de desidratação. O que previu a cãibra foi correr mais rápido do que o habitual e ter história de cãibra.
+Em 2011, um estudo acompanhou duzentos e dez triatletas de Ironman, com sangue e pesagem antes e depois da prova. Quarenta e três tiveram cãibra. Eles não diferiram dos que não tiveram em sódio no sangue nem em grau de desidratação. O que previu a cãibra foi correr mais rápido do que o habitual e ter história de cãibra.
 
 A hipótese mais aceita hoje é neuromuscular. A fadiga desequilibra o controle excitatório e inibitório do músculo. Por isso a cãibra costuma ser localizada, na panturrilha ou no posterior da coxa, enquanto a desidratação é sistêmica. E por isso o alongamento alivia: ele age por reflexo, não por reidratação.
 
@@ -182,7 +182,7 @@ Quem faz o quê. Individualizar o plano de líquidos e de sódio é do nutricion
 
 E uma regra para levar para o posto médico: na dúvida, não se empurra líquido em quem pode estar com sódio baixo.
 
-Na próxima aula, o número que mais produz decisão errada no esporte e na saúde: o da composição corporal. Como se mede, o que se pode querer dele, e o risco da meta errada.
+Na próxima conversa, o número que mais produz decisão errada no esporte e na saúde: o da composição corporal. Como se mede, o que se pode querer dele, e o risco da meta errada.
 
 ---
 
@@ -204,6 +204,8 @@ Arquitetura NÚMERO mantida (a anterior é PROCEDIMENTO; a próxima é DECISÃO)
 maratonista de 44 anos e a jogadora de futsal de 29 viraram "perfis típicos", sem idade. A taxa de
 600 mL/h da corredora virou uma conta ilustrativa, dita como tal.
 
+Nesta revisão, os 6 slides que ainda eram texto viraram desenho (a regra dos 2%, a variação do suor, as regras de uso, o depois, as bebidas e o sódio), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Sawka 2007: evitar perda acima de 2% e mudanças excessivas de eletrólitos;
 5 a 7 mL/kg pelo menos 4 h antes; 3 a 5 mL/kg 2 h antes se não urina ou urina escura; sódio de 20 a
 50 mEq/L na bebida, quando usado. Baker 2017: taxa de suor de ~0,5 a ~2,0 L/h e sódio no suor de ~10
@@ -223,11 +225,12 @@ triatletas, 43 com cãibra; preditores independentes foram ritmo mais rápido e 
   regra prática derivada dessa linha de estudos, não como resultado de um único braço.
 - O sódio do isotônico ("400 a 700 mg/L") saiu, por não ter fonte conferida; entrou a faixa do
   posicionamento de 2007 para a bebida.
+- Sawka, Baker, Hew-Butler e Schwellnus, Drew e Collins saíram da fala; o posicionamento, a revisão, o consenso e o estudo das cãibras entram pelo ano. "Treze bebidas contra a água" virou "treze bebidas, e a água como régua": a água era uma das treze.
 
 **Saíram.** "Aula 2.12", "Módulo 6", "aula 4.11", "aula 4.9", "o escopo", as idades, o bloco
-"Roteiro Gamma".
+"Roteiro Gamma". Duração de 16 para 18 minutos.
 
-**Citações faladas.** Sawka; Baker; Shirreffs; Maughan; Schwellnus, Drew e Collins; Hew-Butler.
+**Citações faladas.** Shirreffs, pelo experimento que fixou volume maior que a perda, com sódio, e Maughan, pelo experimento das treze bebidas. Os demais entram pelo ano.
 
 **Ligações internas.** fisiologia do calor e hiponatremia = aula de ambiente adverso do módulo de
 fisiologia do exercício · conduta de emergência = módulo de medicina esportiva clínica · álcool depois

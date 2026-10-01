@@ -48,13 +48,13 @@ As duas colunas podem se cruzar. Um lutador jovem, em corte de peso, com histór
 
 Decisão dois: com o quê.
 
-A referência que organiza o campo é o posicionamento de Ackland e colaboradores, de 2012, feito por um grupo de trabalho da comissão médica do Comitê Olímpico Internacional. A mensagem é incômoda e libertadora ao mesmo tempo: todo método tem erro. O mais próximo de uma referência é o modelo de vários compartimentos, que separa água, mineral, proteína e gordura. E isso é laboratório de pesquisa. A pergunta prática é outra: qual erro eu aceito, para responder a qual pergunta?
+A referência que organiza o campo é o posicionamento de 2012, feito por um grupo de trabalho da comissão médica do Comitê Olímpico Internacional. A mensagem é incômoda e libertadora ao mesmo tempo: todo método tem erro. O mais próximo de uma referência é o modelo de vários compartimentos, que separa água, mineral, proteína e gordura. E isso é laboratório de pesquisa. A pergunta prática é outra: qual erro eu aceito, para responder a qual pergunta?
 
 Bioimpedância. O método mais disponível e o mais frágil. Ela estima a composição pela resistência do corpo a uma corrente elétrica, e essa resistência depende da água. Medir depois do treino, depois de beber meio litro, depois de comer, depois da sauna, em outra fase do ciclo: cada condição desloca o número. O problema não é o aparelho ser barato. É que, muitas vezes, o erro do método é maior do que a mudança que você quer enxergar em três meses.
 
 Dobras cutâneas. A limitação principal é quem mede. O erro entre avaliadores diferentes é grande. O do mesmo avaliador cai muito com treinamento formal, e o padrão da sociedade internacional de cineantropometria existe por isso. Com avaliador treinado, mesmo adipômetro e mesmos pontos, é um método barato e razoável para acompanhar a mesma pessoa.
 
-Densitometria por dupla emissão de raios X, a DXA. É boa, mas não é infalível. A revisão metodológica de Nana e colaboradores, de 2015, mostrou quanto o resultado depende de protocolo: jejum, repouso, hidratação, posicionamento na mesa. E aparelhos e versões de software diferentes não formam uma série. A vantagem que só ela tem: separa massa magra, gordura e osso por região. Para quem está em restrição importante, é a medida que melhor responde "o que eu estou perdendo?".
+Densitometria por dupla emissão de raios X, a DXA. É boa, mas não é infalível. Uma revisão metodológica de 2015 mostrou quanto o resultado depende de protocolo: jejum, repouso, hidratação, posicionamento na mesa. E aparelhos e versões de software diferentes não formam uma série. A vantagem que só ela tem: separa massa magra, gordura e osso por região. Para quem está em restrição importante, é a medida que melhor responde "o que eu estou perdendo?".
 
 Circunferências. Simples, baratas, com erro pequeno quando padronizadas. A da cintura não é composição corporal no sentido técnico, mas se associa a risco cardiometabólico de forma consistente. Em muitos atendimentos de saúde, ela responde à pergunta que interessa sem nenhum dos problemas dos outros métodos.
 
@@ -130,7 +130,7 @@ Então, qual é a meta certa? Na maior parte de quem treina por saúde, a meta n
 
 Quando existe indicação para meta numérica, como em categoria de peso ou em obesidade em tratamento, ela precisa de quatro coisas. Uma faixa, não um ponto. Um prazo realista. Um ritmo seguro. E critérios de saúde que interrompem o processo.
 
-Sobre o ritmo, um estudo que vale conhecer. Garthe e colaboradores, em 2011, randomizaram vinte e quatro atletas de elite que precisavam perder peso, todos com quatro sessões de força por semana, para dois ritmos: cerca de 0,7 por cento do peso por semana, ou cerca de 1,4. Os dois grupos perderam uma proporção parecida de peso. O mais lento ganhou em torno de dois por cento de massa magra no processo. O mais rápido não ganhou.
+Sobre o ritmo, um estudo que vale conhecer. Em 2011, um ensaio randomizou vinte e quatro atletas de elite que precisavam perder peso, todos com quatro sessões de força por semana, para dois ritmos: cerca de 0,7 por cento do peso por semana, ou cerca de 1,4. Os dois grupos perderam uma proporção parecida de peso. O mais lento ganhou em torno de dois por cento de massa magra no processo. O mais rápido não ganhou.
 
 Mais devagar preservou mais do que importava.
 
@@ -168,7 +168,7 @@ Um cuidado de equipe: o número tem que ser o mesmo, e a frase parecida, em toda
 
 Três perfis típicos. As três decisões aplicadas.
 
-A lutadora que quer descer de categoria: sessenta e dois quilos, quatro quilos a perder em seis semanas. Medir? Sim, é categoria de peso. Mas antes, a triagem da coluna da direita: história de restrição, ciclo, cortes agressivos anteriores. Se alguma luz acender, a medida espera. Com o quê? Dobras com avaliador treinado, ou DXA com protocolo, em milímetros e quilos. A meta: quatro quilos em seis semanas é cerca de 1,1 por cento por semana, acima do ritmo que preservou massa magra no estudo de Garthe. A conversa honesta é sobre prazo. Planejar a descida para a competição seguinte, com dez a doze semanas, ou aceitar um ritmo que custa desempenho. A decisão é da atleta, com técnico, nutricionista e médico, sabendo o custo.
+A lutadora que quer descer de categoria: sessenta e dois quilos, quatro quilos a perder em seis semanas. Medir? Sim, é categoria de peso. Mas antes, a triagem da coluna da direita: história de restrição, ciclo, cortes agressivos anteriores. Se alguma luz acender, a medida espera. Com o quê? Dobras com avaliador treinado, ou DXA com protocolo, em milímetros e quilos. A meta: quatro quilos em seis semanas é cerca de 1,1 por cento por semana, acima do ritmo que preservou massa magra no ensaio de 2011. A conversa honesta é sobre prazo. Planejar a descida para a competição seguinte, com dez a doze semanas, ou aceitar um ritmo que custa desempenho. A decisão é da atleta, com técnico, nutricionista e médico, sabendo o custo.
 
 E o atalho que precisa ser nomeado nas lutas: perder o que falta por desidratação nos dias antes da pesagem. Sauna, roupa plástica, restrição de líquido, às vezes diurético. Isso não é composição corporal, é água. Tem risco real, com mortes registradas no esporte. Não é conduta, e ninguém da equipe ensina como fazer. Se ela já faz, é assunto médico e conversa franca com o técnico.
 
@@ -190,7 +190,7 @@ Medir, quando indicado, pode ser do nutricionista, do educador físico ou do mé
 
 A regra que vale para todos: só meça quando houver decisão. Devolva sem adjetivo. E desconfie da meta que só olha para baixo.
 
-Na próxima aula, a nutrição sai da semana e vai para o dia que mais importa: o dia de competição.
+Na próxima conversa, a nutrição sai da semana e vai para o dia que mais importa: o dia de competição.
 
 ---
 
@@ -210,12 +210,14 @@ duração caiu de 29 para cerca de 23 minutos. Arquitetura DECISÃO mantida (a a
 próxima é PROCEDIMENTO). Sem caso clínico: a judoca de 19 anos, a mulher de 52 em medicação para
 obesidade e o rapaz de 23 com bioimpedância viraram "três perfis típicos", sem idade.
 
+Nesta revisão, os 6 slides que ainda eram texto viraram desenho (quando medir, os métodos, a série, o ritmo, a devolução do número e os três perfis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Garthe 2011: 24 atletas de elite (13 no ritmo lento, 11 no rápido), quatro
 sessões de força por semana; perda de peso de ~5,5% nos dois; massa magra +2,1% no ritmo de 0,7%/semana
 e sem mudança no de 1,4%. Ackland 2012: posicionamento do grupo de trabalho da comissão médica do COI.
 Nana 2015: protocolo de DXA padronizado (jejum noturno, repouso, pouca roupa, posicionamento).
 
-**Contas feitas na aula.** Percentual como razão: 70 kg com 14 kg de gordura (20%); +2 kg de massa
+Contas feitas na aula: Percentual como razão: 70 kg com 14 kg de gordura (20%); +2 kg de massa
 magra → 72 kg, 19,4%; −1 kg de gordura e −4 kg de massa magra → 65 kg, 20,0%. Lutadora: 4 kg em 6
 semanas a partir de 62 kg ≈ 1,1% por semana. 0,7% de 70 kg ≈ 490 g.
 
@@ -225,12 +227,13 @@ semanas a partir de 62 kg ≈ 1,1% por semana. 0,7% de 70 kg ≈ 490 g.
 - A frase atribuída a Ackland ("não existe método padrão-ouro universalmente aplicável") virou uma
   paráfrase do documento, sem aspas.
 - A frase-modelo de devolução perdeu os números inventados do teste de cadeira (12 para 18).
+- Ackland, Nana e Garthe saíram da fala; o posicionamento, a revisão e o ensaio entram pelo ano.
 
 **Saíram.** "Aula 3.11", "aula 4.2", "aula 4.1", "aula 4.5", "aula 4.12", "aula 4.10", "aula 11.5",
 "aulas 12.7 e 12.8", "o escopo", as idades, "cuspir" e "laxante" da lista do corte de peso, o bloco
-"Roteiro Gamma".
+"Roteiro Gamma". Duração de 29 para 23 minutos.
 
-**Citações faladas.** Ackland; Nana; Garthe.
+**Citações faladas.** Nenhum autor por nome. O posicionamento de 2012, a revisão de 2015 e o ensaio de 2011 entram pelo ano.
 
 **Ligações internas.** balança e bioimpedância doméstica = aula de insulina e composição corporal do
 módulo de endocrinologia · massa livre de gordura na conta = aula de estimativa da disponibilidade

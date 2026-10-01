@@ -39,9 +39,9 @@ for v in [0, 3, 6, 12]:
 p.append("</svg>")
 rs.append(rot(fx(8) + 12, 26, "a conta: 8 g/kg", w=300, tam=24, cor=TINTA, peso=700))
 S.append({"id": "faixas", "tipo": "diagrama", "h": 400, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Thomas, Erdman e Burke, 2016", "titulo": "O eixo é hora e intensidade, não modalidade",
+          "eyebrow": "O posicionamento de 2016", "titulo": "O eixo é hora e intensidade, não modalidade",
           "destaque": "Conte as horas reais de treino, as que aconteceram. É a pergunta mais barata da aula, e desfaz metade dos casos.",
-          "destaque_cor": "petr", "fonte": "Gramas por kg por dia · posicionamento da Academia de Nutrição e Dietética, Dietistas do Canadá e ACSM"})
+          "destaque_cor": "petr", "fonte": "Gramas por kg por dia · Thomas, Erdman e Burke · posicionamento da Academia de Nutrição e Dietética, Dietistas do Canadá e ACSM"})
 
 # 4. durante
 p = [svg_abre(1664, 330, "Carboidrato durante o exercício por duração: até 30 minutos, nada; 30 a 75 minutos, bochecho ou pouco; 1 a 2 h, até 30 g/h; 2 a 3 h, até 60 g/h; acima de 2,5 h, até 90 g/h com carboidratos combinados")]

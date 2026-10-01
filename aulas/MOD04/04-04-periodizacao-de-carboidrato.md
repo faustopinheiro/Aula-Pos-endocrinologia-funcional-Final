@@ -44,7 +44,7 @@ A família um é a refeição. A família dois é a sobremesa.
 
 A evidência da família dois, com os dois lados, porque quase sempre só um aparece.
 
-O lado a favor. Marquet e colaboradores, em 2016, estudaram vinte e um triatletas treinados por três semanas. Os dois grupos comeram a mesma quantidade diária de carboidrato, seis gramas por quilo. Só mudou o horário: o grupo "dormir com pouco" fazia a sessão intensa à noite, não repunha carboidrato, dormia com glicogênio baixo e fazia a sessão leve da manhã seguinte ainda em baixa disponibilidade.
+O lado a favor. Em 2016, um estudo acompanhou vinte e um triatletas treinados por três semanas. Os dois grupos comeram a mesma quantidade diária de carboidrato, seis gramas por quilo. Só mudou o horário: o grupo "dormir com pouco" fazia a sessão intensa à noite, não repunha carboidrato, dormia com glicogênio baixo e fazia a sessão leve da manhã seguinte ainda em baixa disponibilidade.
 
 Resultado: melhora da economia no ciclismo, da capacidade supramáxima, e do tempo nos dez quilômetros de corrida, cerca de dois vírgula nove por cento mais rápido, contra praticamente zero no controle.
 
@@ -56,7 +56,7 @@ Resultado: melhora da economia no ciclismo, da capacidade supramáxima, e do tem
 *Visual: a meta-análise de Gejl e Nybo 2021: nove estudos; diferença média padronizada de 0,17, com o intervalo de −0,15 a 0,49 cruzando o zero. Ao lado, os custos: sessão intensa pior, esforço percebido maior, imunidade, deriva para déficit, adesão.*
 *Teleprompter: (o outro lado, e como conciliar)*
 
-O outro lado. Gejl e Nybo publicaram em 2021 uma revisão sistemática com meta-análise da restrição periodizada de carboidrato em atletas de endurance treinados. Nove estudos. O efeito sobre o desempenho não foi diferente do treino com alta disponibilidade: diferença média padronizada de zero vírgula dezessete, com o intervalo de confiança cruzando o zero.
+O outro lado. Em 2021, saiu uma revisão sistemática com meta-análise da restrição periodizada de carboidrato em atletas de endurance treinados. Nove estudos. O efeito sobre o desempenho não foi diferente do treino com alta disponibilidade: diferença média padronizada de zero vírgula dezessete, com o intervalo de confiança cruzando o zero.
 
 Como conciliar? Com uma distinção que este curso já fez várias vezes. A sinalização molecular é real: treinar com glicogênio baixo amplifica vias de adaptação. O que não se sustenta com consistência é a tradução disso em desempenho medido.
 
@@ -144,7 +144,7 @@ A regra operacional que fecha, e ela vale para qualquer mudança deste módulo: 
 
 Quem faz o quê. O desenho de estratégias periodizadas é do nutricionista, e as de nível três pedem acompanhamento próximo. Onde a equipe inteira contribui é na triagem: o preparador sabe se a base de treino é estável, o médico sabe se há contraindicação clínica, e qualquer um pode perguntar se as quatro coisas básicas estão de pé antes que alguém coma a sobremesa sem ter jantado.
 
-Na próxima aula, o macronutriente em que a discussão deixa de ser só quanto e passa a ser, em boa parte, como distribuir: a proteína.
+Na próxima conversa, o macronutriente em que a discussão deixa de ser só quanto e passa a ser, em boa parte, como distribuir: a proteína.
 
 ---
 
@@ -164,6 +164,8 @@ Na próxima aula, o macronutriente em que a discussão deixa de ser só quanto e
 Arquitetura DECISÃO mantida (a anterior é ERRO; a próxima é NÚMERO). Sem caso clínico: o triatleta de
 38 anos, a corredora de 50 e a maratonista viraram três perfis típicos, sem idade.
 
+Nesta revisão, os 6 slides que ainda eram texto viraram desenho (a decisão, as famílias de periodização, os limites, a triagem, o que nunca fazer e os perfis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Marquet 2016: 21 triatletas (11 sleep low, 10 controle), três semanas, 6 g/kg/dia
 nos dois grupos; 10 km 2,9% mais rápido no sleep low, cerca de 0,1% no controle. Gejl e Nybo 2021:
 407 artigos triados, nove estudos incluídos; diferença média padronizada 0,17 (IC 95% −0,15 a 0,49;
@@ -175,12 +177,12 @@ P = 0,29).
   primeira virou frase do narrador.
 - "Lacunas de trinta por cento no básico" era um número sem fonte; virou "lacunas grandes no básico".
 - "Estratégia de prova ensaiada três vezes" virou "algumas vezes".
+- Marquet e Gejl e Nybo saíram da fala e do topo dos slides; os estudos entram pelo ano, e os autores ficam na fonte.
 
 **Saíram.** "Escopo", "soar como", "aula do GH" (virou "aula do eixo somatotrófico"), idades dos
-perfis, o bloco "Roteiro Gamma".
+perfis, o bloco "Roteiro Gamma". Duração de 15 para 13 minutos.
 
-**Citações faladas.** Jeukendrup (a definição), Impey (combustível para o trabalho exigido), Marquet
-(sleep low), Gejl e Nybo (a meta-análise).
+**Citações faladas.** Jeukendrup, pela definição de periodização nutricional, e Impey, pela ideia de combustível para o trabalho exigido. Os estudos de 2016 e 2021 entram pelo ano.
 
 **Ligações internas.** pico hormonal agudo = aula da testosterona · marcador que se move = aula do
 eixo somatotrófico · zona cinza e déficit = primeiras aulas do módulo · dia de competição = aula

@@ -108,9 +108,9 @@ for j, (t, c, riscado) in enumerate([("sódio no sangue: igual", MUDO, True), ("
         p.append(f'<line x1="560" y1="{y+26}" x2="1104" y2="{y+26}" stroke="{FOSF}" stroke-width="3"/>')
 p.append("</svg>")
 S.append({"id": "caibra", "tipo": "diagrama", "h": 320, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Schwellnus, Drew e Collins, 2011", "titulo": "Cãibra não é número de hidratação",
+          "eyebrow": "Um estudo de 2011", "titulo": "Cãibra não é número de hidratação",
           "destaque": "Perfil típico de quadra: futsal amador, jogo inteiro sem substituição, mais jogos que treinos, cãibra desde a adolescência. A conduta sai do copo e vai para a quadra.",
-          "destaque_cor": "petr", "fonte": "210 triatletas de Ironman · British Journal of Sports Medicine 2011"})
+          "destaque_cor": "petr", "fonte": "210 triatletas de Ironman · Schwellnus, Drew e Collins · British Journal of Sports Medicine 2011"})
 
 # 10. fecho
 S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Os números da aula", "titulo": "Uma balança substitui qualquer tabela",

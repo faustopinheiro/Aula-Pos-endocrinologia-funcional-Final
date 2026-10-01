@@ -42,7 +42,7 @@ Meses depois, alguns quilos a mais, e a convicção de que o problema é o metab
 *Visual: as quatro faixas do posicionamento de 2016 numa régua: leve, 3 a 5 g/kg/dia; moderado, cerca de 1 h/dia, 5 a 7; resistência, 1 a 3 h/dia, 6 a 10; extremo, 4 a 5 h/dia ou mais, 8 a 12. Em cima, o eixo destacado: horas e intensidade por dia. A palavra "modalidade" riscada.*
 *Teleprompter: (a tabela, e o eixo que todo mundo lê errado)*
 
-A referência é o posicionamento conjunto de 2016 da Academia de Nutrição e Dietética, dos Dietistas do Canadá e do Colégio Americano de Medicina do Esporte, de Thomas, Erdman e Burke. É uma tabela de faixas.
+A referência é o posicionamento conjunto de 2016 da Academia de Nutrição e Dietética, dos Dietistas do Canadá e do Colégio Americano de Medicina do Esporte. É uma tabela de faixas.
 
 Atividade leve, de baixa intensidade ou de habilidade: três a cinco gramas por quilo por dia. Programa moderado, em torno de uma hora por dia: cinco a sete. Programa de resistência, de uma a três horas por dia em intensidade moderada a alta: seis a dez. Programa extremo, quatro a cinco horas por dia ou mais: oito a doze.
 
@@ -50,7 +50,7 @@ E o ponto que quase todo mundo lê errado: o eixo dessa tabela é horas e intens
 
 A conta do slide anterior está na primeira faixa, ou no começo da segunda, e comia na faixa extrema.
 
-Duas consequências. A dose não precisa ser igual todos os dias: distribuir a mesma média por sete dias iguais é o jeito mais comum de comer demais nos dias leves e de menos nos pesados. É o tema da próxima aula. E, antes de discutir se alguém come carboidrato demais ou de menos, conte as horas reais de treino. Não as da planilha: as que aconteceram. É a pergunta mais barata desta aula, e desfaz metade dos casos.
+Duas consequências. A dose não precisa ser igual todos os dias: distribuir a mesma média por sete dias iguais é o jeito mais comum de comer demais nos dias leves e de menos nos pesados. É o tema da próxima conversa. E, antes de discutir se alguém come carboidrato demais ou de menos, conte as horas reais de treino. Não as da planilha: as que aconteceram. É a pergunta mais barata desta aula, e desfaz metade dos casos.
 
 ---
 
@@ -132,7 +132,7 @@ Os três se resolvem com a mesma troca de pergunta. Não "você é a favor ou co
 
 Quem faz o quê. A prescrição em gramas por quilo e o plano alimentar são do nutricionista. O que é de toda a equipe é contar as horas reais de treino, reconhecer o sintoma de horário marcado, e saber que a queda de desempenho em alta intensidade de quem corta carboidrato tem explicação, e não é falta de vontade.
 
-Na próxima aula a gente leva a ideia de ajustar a dose à sessão até o limite: a periodização de carboidrato e o treino com disponibilidade manipulada, o que funciona, para quem, e por que quase nunca é para o amador.
+Na próxima conversa a gente leva a ideia de ajustar a dose à sessão até o limite: a periodização de carboidrato e o treino com disponibilidade manipulada, o que funciona, para quem, e por que quase nunca é para o amador.
 
 ---
 
@@ -153,6 +153,8 @@ Arquitetura ERRO mantida (a anterior é PROCEDIMENTO; a próxima é DECISÃO). O
 de menos, nada) organizam a aula. Sem caso clínico: o corredor de 36 anos virou uma conta sem
 pessoa; a mulher de 29 anos e a ciclista de 41 viraram quadros típicos, sem idade.
 
+Nesta revisão, os 5 slides que ainda eram texto viraram desenho (a identidade do carboidrato, o excesso, os marchadores, para quem e a comida), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Faixas do posicionamento de 2016 (3 a 5, 5 a 7, 6 a 10, 8 a 12 g/kg/dia) e
 reposição de 1 a 1,2 g/kg/h nas primeiras quatro horas quando o intervalo é menor que oito horas.
 Burke 2017 (marchadores de elite, três dietas, economia pior e sem ganho de desempenho no grupo
@@ -168,12 +170,12 @@ cetogênico) e a replicação de 2020, com mais atletas e incluindo mulheres.
   fonte e muda com o mercado.
 - A queda de desempenho da conta do slide 2 era dita como "seis quilos a mais em oito meses", um
   desfecho de caso. Virou "alguns quilos a mais".
+- "Thomas, Erdman e Burke" saiu da fala e do topo do slide das faixas; o posicionamento entra pelo ano, e os autores ficam na fonte.
 
 **Saíram.** "Escopo", "módulo dois", "aula do módulo dois", a idade e o sexo das três figuras, o
-bloco "Roteiro Gamma".
+bloco "Roteiro Gamma". Duração de 16 para 13 minutos.
 
-**Citações faladas.** Thomas, Erdman e Burke (as faixas), Jeukendrup (o durante), Burke (os
-marchadores).
+**Citações faladas.** Jeukendrup, pela tabela do durante organizada por duração, e Burke, pelo estudo dos marchadores de elite que organizou o campo. O posicionamento de 2016 entra pelo ano.
 
 **Ligações internas.** fadiga central e custo de oxigênio da gordura = módulo de fisiologia do
 exercício · déficit energético = primeira aula do módulo · periodização = próxima aula.

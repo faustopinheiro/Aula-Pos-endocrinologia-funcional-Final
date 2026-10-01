@@ -22,7 +22,7 @@ Um vírgula seis e dois vírgula dois vêm do mesmo estudo, e vale entender de o
 *Visual: a curva de Morton 2018: ganho de massa livre de gordura subindo com a proteína total e achatando por volta de 1,6 g/kg/dia, com a faixa até 2,2 sombreada como incerteza. Esquema da curva, com os pontos de quebra do estudo.*
 *Teleprompter: (o platô e o limite)*
 
-Em 2018, Morton e colaboradores publicaram uma meta-análise com quarenta e nove estudos e mil oitocentos e sessenta e três participantes, todos em programa de treino de força. A pergunta: suplementar proteína aumenta o ganho de massa e de força produzido pelo treino?
+Em 2018, saiu uma meta-análise com quarenta e nove estudos e mil oitocentos e sessenta e três participantes, todos em programa de treino de força. A pergunta: suplementar proteína aumenta o ganho de massa e de força produzido pelo treino?
 
 Aumenta, e modestamente. Cerca de trezentos gramas a mais de massa livre de gordura ao longo dos programas, e um ganho pequeno de força máxima. O efeito foi maior em quem já treinava e diminuiu com a idade. Guarde essa segunda parte: ela volta quando a gente falar do idoso.
 
@@ -30,7 +30,7 @@ O dado mais útil é outro: a partir de cerca de um vírgula seis grama por quil
 
 A leitura prudente: um vírgula seis cobre a maioria; até dois vírgula dois é razoável para quem quer margem. Acima disso, na pessoa saudável em balanço energético, o ganho adicional não aparece.
 
-A posição da Sociedade Internacional de Nutrição Esportiva, de Jäger e colaboradores, de 2017, chega a uma faixa parecida: um vírgula quatro a dois gramas por quilo por dia para a maior parte de quem se exercita. E com uma exceção que conversa com a primeira aula do módulo: em déficit energético, a necessidade sobe, e em pessoas treinadas em restrição a posição sugere valores da ordem de dois vírgula três a três vírgula um gramas por quilo de massa livre de gordura. O déficit é quando a proteína mais trabalha.
+A posição da Sociedade Internacional de Nutrição Esportiva, de 2017, chega a uma faixa parecida: um vírgula quatro a dois gramas por quilo por dia para a maior parte de quem se exercita. E com uma exceção que conversa com a primeira aula do módulo: em déficit energético, a necessidade sobe, e em pessoas treinadas em restrição a posição sugere valores da ordem de dois vírgula três a três vírgula um gramas por quilo de massa livre de gordura. O déficit é quando a proteína mais trabalha.
 
 Mas o total é só a primeira de três perguntas: quanto por dia, como distribuir, de que fonte. E a ordem de importância é essa.
 
@@ -54,7 +54,7 @@ E o limite do estudo, porque ele costuma ser esticado. Foi síntese aguda, em do
 
 E um mito derivado desse tipo de estudo: o corpo só aproveita trinta gramas por refeição, o resto é desperdício.
 
-Em 2023, Trommelen e colaboradores compararam vinte e cinco contra cem gramas de proteína do leite depois de um treino de corpo inteiro. Os cem gramas produziram uma resposta anabólica maior e mais longa, que passou de doze horas. O título do artigo diz que a resposta não tem limite superior, nem em tamanho nem em duração.
+Em 2023, um experimento comparou vinte e cinco contra cem gramas de proteína do leite depois de um treino de corpo inteiro. Os cem gramas produziram uma resposta anabólica maior e mais longa, que passou de doze horas. O título do artigo diz que a resposta não tem limite superior, nem em tamanho nem em duração.
 
 Como conciliar? Existe uma dose por refeição que maximiza o estímulo agudo, mas ela não é teto de aproveitamento. A proteína acima dela é usada, com retorno menor por grama e espalhada por mais tempo.
 
@@ -74,7 +74,7 @@ A terceira pergunta é a qualidade. Ela importa menos que as duas primeiras, e i
 
 Qualidade tem três componentes. Digestibilidade: quanto do que foi ingerido é absorvido. Perfil de aminoácidos essenciais: se falta algum. E leucina, o aminoácido que funciona como gatilho da síntese. A posição da Sociedade Internacional fala em algo como setecentos a três mil miligramas de leucina por dose, e a maior parte das refeições com vinte a quarenta gramas de proteína animal chega lá sem esforço.
 
-A revisão de van Vliet, Burd e van Loon, de 2015, resumiu o que muda com a proteína vegetal: menor digestibilidade, mais extração no intestino e no fígado, menos leucina e, em muitas fontes, um aminoácido limitante, lisina nos cereais e metionina nas leguminosas. Por grama, a resposta anabólica tende a ser menor.
+Uma revisão de 2015 resumiu o que muda com a proteína vegetal: menor digestibilidade, mais extração no intestino e no fígado, menos leucina e, em muitas fontes, um aminoácido limitante, lisina nos cereais e metionina nas leguminosas. Por grama, a resposta anabólica tende a ser menor.
 
 Isso não quer dizer que vegetariano não ganha músculo. Quer dizer que a conta precisa de ajuste. Um pouco mais de proteína por refeição e no total, como margem. Combinar fontes, e aqui o Brasil tem uma vantagem esquecida: arroz com feijão é uma combinação complementar clássica. E priorizar fontes de melhor perfil, como soja e derivados, e, para quem é ovolactovegetariano, ovos, leite, iogurte e queijo.
 
@@ -98,11 +98,11 @@ A pergunta nunca é "precisa de whey?". É "está fechando a conta com comida?".
 
 Existe um paciente em que a mesma refeição rende menos músculo: o idoso.
 
-Moore e colaboradores, em 2015, juntaram estudos de dose e resposta e estimaram quanto de proteína por refeição maximiza a síntese miofibrilar. No jovem, cerca de zero vírgula vinte e quatro grama por quilo. No idoso, cerca de zero vírgula quarenta. Quase o dobro.
+Em 2015, uma análise juntou estudos de dose e resposta e estimaram quanto de proteína por refeição maximiza a síntese miofibrilar. No jovem, cerca de zero vírgula vinte e quatro grama por quilo. No idoso, cerca de zero vírgula quarenta. Quase o dobro.
 
 É a resistência anabólica: o músculo envelhecido responde menos ao mesmo estímulo. A refeição de vinte gramas que resolve o jovem não resolve o idoso. Para sessenta e cinco quilos, zero vírgula quarenta são vinte e seis gramas por refeição.
 
-No total do dia, o grupo PROT-AGE, de Bauer e colaboradores, de 2013, recomendou para pessoas acima de sessenta e cinco anos pelo menos um a um vírgula dois grama por quilo; um vírgula dois ou mais para quem se exercita; e um vírgula dois a um vírgula cinco com doença aguda ou crônica. A exceção explícita é a doença renal crônica avançada sem diálise, em que a decisão é médica.
+No total do dia, o grupo PROT-AGE, em 2013, recomendou para pessoas acima de sessenta e cinco anos pelo menos um a um vírgula dois grama por quilo; um vírgula dois ou mais para quem se exercita; e um vírgula dois a um vírgula cinco com doença aguda ou crônica. A exceção explícita é a doença renal crônica avançada sem diálise, em que a decisão é médica.
 
 ---
 
@@ -110,7 +110,7 @@ No total do dia, o grupo PROT-AGE, de Bauer e colaboradores, de 2013, recomendou
 *Visual: "carga primeiro, proteína junto". Ao lado, as barreiras do idoso: apetite, saciedade precoce, mastigação, prótese, custo da carne, morar sozinho. E as soluções de textura: ovos, leite, iogurte, queijo, carne moída ou desfiada, peixe, leguminosas bem cozidas.*
 *Teleprompter: (carga primeiro, e as barreiras reais)*
 
-E o ponto mais importante: proteína sem carga é estímulo fraco. Na meta-análise de Morton, todos os participantes treinavam, e mesmo assim o efeito ficou menor com a idade. O músculo precisa de um motivo para usar a proteína. No idoso, a ordem é carga primeiro, proteína junto. Nunca proteína no lugar da carga.
+E o ponto mais importante: proteína sem carga é estímulo fraco. Nessa meta-análise, todos os participantes treinavam, e mesmo assim o efeito ficou menor com a idade. O músculo precisa de um motivo para usar a proteína. No idoso, a ordem é carga primeiro, proteína junto. Nunca proteína no lugar da carga.
 
 As barreiras também são outras: apetite menor, saciedade precoce, dificuldade de mastigar, prótese mal adaptada, custo da carne, morar sozinho e não cozinhar. Muitas vezes o problema não é informação. É textura e logística. Ovos, leite, iogurte, queijo, carne moída ou desfiada, peixe, leguminosas bem cozidas resolvem mais que qualquer tabela. A sarcopenia completa é tema do módulo do atleta adolescente e do idoso.
 
@@ -142,7 +142,7 @@ Quanto por dia, como distribuir, de que fonte. Nessa ordem.
 
 Quem faz o quê. O plano alimentar, a escolha de fontes e as quantidades são do nutricionista. Suspeita de doença renal, exames e medicação, do médico. O programa de carga, que é o que dá motivo ao músculo para usar a proteína, do educador físico. E qualquer profissional pode fazer a triagem desta aula: qual é o total, como está distribuído, de onde vem.
 
-Na próxima aula, o macronutriente que ganhou fama de vilão e que, cortado demais, também cobra a conta: os lipídios.
+Na próxima conversa, o macronutriente que ganhou fama de vilão e que, cortado demais, também cobra a conta: os lipídios.
 
 ---
 
@@ -164,6 +164,8 @@ Na próxima aula, o macronutriente que ganhou fama de vilão e que, cortado dema
 Arquitetura NÚMERO mantida (a anterior é DECISÃO; a próxima é ERRO). Sem caso clínico: as três
 pessoas com idade viraram três perfis típicos com a conta, sem idade (o idoso é dito como categoria).
 
+Nesta revisão, os 6 slides que ainda eram texto viraram desenho (os três números, o teto de 30 gramas, a qualidade das fontes, o whey, a carga do idoso e os três perfis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD04/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Morton 2018: 49 estudos, 1.863 participantes, +0,30 kg de massa livre de
 gordura, platô em 1,62 g/kg/dia com limite superior de ~2,2. Areta 2013: 24 homens treinados (8 por
 grupo), 80 g de whey em 12 h, 8×10, 4×20, 2×40; maior síntese com 4×20. Trommelen 2023: 25 contra
@@ -174,12 +176,12 @@ grupo), 80 g de whey em 12 h, 8×10, 4×20, 2×40; maior síntese com 4×20. Tro
 - Saiu "perto de 750 gramas em quem já treinava" (Morton), número não conferido; ficou o qualitativo
   (efeito maior em treinados, menor com a idade).
 - As idades dos três perfis saíram; o idoso ficou como categoria.
+- Morton, Jäger, Trommelen, Moore, Bauer e van Vliet, Burd e van Loon saíram da fala; os estudos entram pelo ano ou pelo nome do grupo, e os autores ficam na fonte do slide.
 
 **Saíram.** "Aula 4.1", "aula 4.3", "aula 4.6", "aulas 12.7 e 12.8", "Módulo 5", "slide 4", "o
-escopo", o bloco "Roteiro Gamma".
+escopo", o bloco "Roteiro Gamma". Duração de 19 para 16 minutos.
 
-**Citações faladas.** Morton, Jäger (Sociedade Internacional), Areta, Trommelen, van Vliet, Burd e
-van Loon, Moore, Bauer (PROT-AGE).
+**Citações faladas.** Areta, pelo experimento da distribuição que todo mundo cita. O PROT-AGE entra pelo nome do grupo; os demais estudos, pelo ano.
 
 **Ligações internas.** déficit = primeira aula do módulo · carboidrato para treinar = aula de
 carboidrato · suplementos = módulo de suplementação · sarcopenia = módulo do atleta adolescente e
