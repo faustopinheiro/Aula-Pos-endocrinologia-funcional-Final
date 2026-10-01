@@ -22,147 +22,675 @@
  "slides": [
   {
    "id": "inversao",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Dois quadros de tamanhos diferentes. A promessa falsa custa dinheiro. A substância não declarada no pote pode custar uma carreira e, às vezes, a saúde\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"40\" width=\"560\" height=\"260\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(30.0 70.0) scale(1.3333)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M24.039 6c-4.517 0-8.632 1.492-11.067 2.711q-.33.165-.616.322c-.378.206-.7.398-.956.567l2.77 4.078l1.304.519c5.096 2.571 11.93 2.571 17.027 0l1.48-.768L36.6 9.6a16 16 0 0 0-1.689-.957C32.488 7.437 28.471 6 24.04 6m-6.442 4.616a25 25 0 0 1-2.901-.728C16.978 8.875 20.377 7.8 24.04 7.8c2.537 0 4.936.516 6.92 1.17c-2.325.327-4.806.882-7.17 1.565c-1.86.538-4.034.48-6.192.081m15.96 5.064l-.246.124c-5.606 2.828-13.042 2.828-18.648 0l-.233-.118C6.008 24.927-.422 41.997 24.039 41.997S41.913 24.61 33.557 15.68M23 24a2 2 0 1 0 0 4zm2-2v-1h-2v1a4 4 0 0 0 0 8v4c-.87 0-1.611-.555-1.887-1.333a1 1 0 1 0-1.885.666A4 4 0 0 0 23 36v1h2v-1a4 4 0 0 0 0-8v-4c.87 0 1.611.555 1.887 1.333a1 1 0 1 0 1.885-.666A4 4 0 0 0 25 22m0 8v4a2 2 0 1 0 0-4\" clip-rule=\"evenodd\"/></g><rect x=\"620\" y=\"0\" width=\"1044\" height=\"340\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(650.0 30.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(650.0 140.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 21h8m-4-4v4M7 4h10m0 0v8a5 5 0 0 1-10 0V4M3 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m14 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g><g transform=\"translate(650.0 230.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 110,
+     "y": 76,
+     "w": 420,
+     "t": "Promessa falsa",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 170,
+     "w": 500,
+     "t": "custa dinheiro",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 740,
+     "y": 40,
+     "w": 900,
+     "t": "Substância não declarada",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 724,
+     "y": 148,
+     "w": 900,
+     "t": "pode custar uma carreira",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 238,
+     "w": 900,
+     "t": "e, às vezes, a saúde",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O que não está escrito no rótulo",
-   "frase": "Uma promessa falsa custa dinheiro. Uma substância não declarada pode custar uma carreira.",
-   "apoio": "E, às vezes, a saúde. A aula anterior leu o rótulo; esta trata do que está no pote sem estar no rótulo."
+   "titulo": "Uma promessa falsa custa dinheiro. Uma substância não declarada pode custar uma carreira.",
+   "destaque": "O rótulo já foi lido. Agora, o que está no pote sem estar no rótulo.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "situacoes",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Três situações típicas",
-   "titulo": "Depois, durante e antes",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 290,
+   "svg": "<svg aria-label=\"Uma linha do tempo com três momentos. Antes: a nutricionista precisa escolher a marca para três atletas testados; é o único momento em que o procedimento funciona. Durante: o jogador toma uma fórmula manipulada, feita sob medida. Depois: a atleta testou positivo e diz que comprou em loja, com nota fiscal\" width=\"1664\" height=\"290\" viewBox=\"0 0 1664 290\"><line x1=\"60\" y1=\"40\" x2=\"1604\" y2=\"40\" stroke=\"#DDD8CC\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"264\" cy=\"40\" r=\"22\" fill=\"#008A7E\"/><rect x=\"0\" y=\"120\" width=\"528\" height=\"170\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"40\" r=\"22\" fill=\"#B07A1C\"/><rect x=\"568\" y=\"120\" width=\"528\" height=\"170\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1400\" cy=\"40\" r=\"22\" fill=\"#A8322A\"/><rect x=\"1136\" y=\"120\" width=\"528\" height=\"170\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "t": "Depois",
-     "x": "a atleta testou positivo; “comprei em loja, com nota fiscal”",
-     "cor": "verm"
-    },
-    {
-     "t": "Durante",
-     "x": "o jogador toma fórmula manipulada, “feita sob medida”",
-     "cor": "ambar"
-    },
-    {
+     "x": 164,
+     "y": 74,
+     "w": 200,
      "t": "Antes",
-     "x": "a nutricionista precisa escolher a marca para três atletas testados",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 140,
+     "w": 488,
+     "t": "a nutricionista precisa escolher a marca para três atletas testados",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 732,
+     "y": 74,
+     "w": 200,
+     "t": "Durante",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 140,
+     "w": 488,
+     "t": "o jogador toma fórmula manipulada, “feita sob medida”",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1300,
+     "y": 74,
+     "w": 200,
+     "t": "Depois",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 140,
+     "w": 488,
+     "t": "a atleta testou positivo; “comprei em loja, com nota fiscal”",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     }
    ],
+   "eyebrow": "Três situações típicas",
+   "titulo": "Antes, durante e depois",
    "destaque": "Esta aula é o procedimento do antes, porque é o único que funciona.",
    "destaque_cor": "tinta"
   },
   {
    "id": "geyer",
-   "tipo": "numeros",
-   "eyebrow": "Geyer e colaboradores, 2004",
-   "titulo": "634 suplementos não hormonais",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, cem quadradinhos representando os suplementos não hormonais analisados: cerca de 15 em cada 100, 14,8%, tinham esteroide anabolizante não declarado, sobretudo pró-hormônio. À direita, duas barras: 21,1% nos produtos de empresas que também vendiam pró-hormônio, e 9,6% nos de empresas que não vendiam\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"32\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"64\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"96\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"128\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"160\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"192\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"224\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"256\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"288\" y=\"40\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"0\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"32\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"64\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"96\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"128\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"160\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"72\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"32\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"64\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"96\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"128\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"160\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"104\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"32\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"64\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"96\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"128\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"160\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"136\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"32\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"64\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"96\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"128\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"160\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"168\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"32\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"64\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"96\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"128\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"160\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"200\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"32\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"64\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"96\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"128\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"160\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"232\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"32\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"64\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"96\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"128\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"160\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"264\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"32\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"64\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"96\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"128\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"160\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"296\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"32\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"64\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"96\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"128\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"160\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"192\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"224\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"256\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"288\" y=\"328\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"760\" y=\"104\" width=\"802\" height=\"56\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"760\" y=\"254\" width=\"365\" height=\"56\" rx=\"8\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
     {
-     "n": "14,8%",
-     "x": "com esteroide anabolizante não declarado, sobretudo pró-hormônio",
-     "cor": "verm"
+     "x": 0,
+     "y": 0,
+     "w": 600,
+     "t": "634 suplementos não hormonais, a cada 100",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "21,1%",
-     "x": "nos produtos de empresas que também vendiam pró-hormônio",
-     "cor": "ambar"
+     "x": 350,
+     "y": 60,
+     "w": 300,
+     "t": "14,8%",
+     "tam": 56,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "9,6%",
-     "x": "nos de empresas que não vendiam",
-     "cor": "petr"
+     "x": 350,
+     "y": 150,
+     "w": 330,
+     "t": "com esteroide anabolizante não declarado, sobretudo pró-hormônio",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 760,
+     "y": 0,
+     "w": 900,
+     "t": "a companhia que o produto mantém",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 60,
+     "w": 900,
+     "t": "empresas que também vendiam pró-hormônio",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1578,
+     "y": 112,
+     "w": 200,
+     "t": "21,1%",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 760,
+     "y": 210,
+     "w": 900,
+     "t": "empresas que não vendiam",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1141,
+     "y": 262,
+     "w": 200,
+     "t": "9,6%",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     }
    ],
+   "eyebrow": "Geyer e colaboradores, 2004",
+   "titulo": "634 suplementos não hormonais",
    "destaque": "A companhia que o produto mantém importa, e é uma das poucas coisas que dá para checar de fora.",
    "destaque_cor": "tinta",
    "fonte": "13 países, 215 fornecedores · International Journal of Sports Medicine 2004"
   },
   {
    "id": "brasil",
-   "tipo": "duas",
-   "eyebrow": "Martínez-Sanz, 2017 · Torres, 2024",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, uma régua de 0 a 100% com a faixa de contaminação por substância proibida encontrada na revisão, de 12% a 58%: larga, porque os estudos são heterogêneos, mas até o limite inferior é alto demais para ignorar. À direita, o laboratório brasileiro, de 2017 a 2022: diuréticos foram os adulterantes mais comuns; estimulantes apareceram mais nos industrializados; e anabolizantes, mais nos manipulados\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"99\" y=\"90\" width=\"304\" height=\"70\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"20\" y1=\"160\" x2=\"680\" y2=\"160\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"780\" y=\"0\" width=\"884\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"804\" y=\"80\" width=\"836\" height=\"90\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(824.0 104.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"804\" y=\"184\" width=\"836\" height=\"90\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(824.0 208.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"804\" y=\"288\" width=\"836\" height=\"90\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(824.0 312.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 700,
+     "t": "A revisão",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": -20,
+     "y": 168,
+     "w": 80,
+     "t": "0%",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 59,
+     "y": 168,
+     "w": 80,
+     "t": "12%",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 363,
+     "y": 168,
+     "w": 80,
+     "t": "58%",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 168,
+     "w": 80,
+     "t": "100%",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 99,
+     "y": 112,
+     "w": 304,
+     "t": "contaminação por proibida",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 220,
+     "w": 660,
+     "t": "faixa larga: estudos heterogêneos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 270,
+     "w": 660,
+     "t": "até o limite inferior é alto demais para ignorar",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 16,
+     "w": 840,
+     "t": "O laboratório brasileiro, 2017 a 2022",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 882,
+     "y": 108,
+     "w": 250,
+     "t": "diuréticos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 110,
+     "w": 480,
+     "t": "os adulterantes mais comuns",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 882,
+     "y": 212,
+     "w": 250,
+     "t": "estimulantes",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 214,
+     "w": 480,
+     "t": "mais nos industrializados",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 882,
+     "y": 316,
+     "w": 250,
+     "t": "anabolizantes",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 318,
+     "w": 480,
+     "t": "mais nos manipulados",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma revisão de 2017 · um laboratório brasileiro, 2024",
    "titulo": "Depois de Geyer, e aqui",
-   "esq": {
-    "t": "A revisão",
-    "cor": "ambar",
-    "itens": [
-     "contaminação por substância proibida entre 12% e 58%",
-     "faixa larga: estudos heterogêneos",
-     "até o limite inferior é alto demais para ignorar"
-    ]
-   },
-   "dir": {
-    "t": "O laboratório brasileiro, 2017 a 2022",
-    "cor": "verm",
-    "itens": [
-     "diuréticos: os adulterantes mais comuns",
-     "estimulantes: mais nos industrializados",
-     "anabolizantes: mais nos manipulados"
-    ]
-   },
    "destaque": "Guarde a última linha: ela contradiz a intuição do jogador.",
    "destaque_cor": "verm",
-   "fonte": "Nutrients 2017 · Drug Testing and Analysis 2024"
+   "fonte": "Martínez-Sanz e colaboradores · Nutrients 2017 · Torres e colaboradores · Drug Testing and Analysis 2024"
   },
   {
    "id": "rotas",
-   "tipo": "lista",
-   "eyebrow": "Por que acontece",
-   "titulo": "Quatro rotas",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"O caminho de um pote em quatro estações, cada uma com uma rota de contaminação. Matéria-prima: insumo a granel, importado, que o fabricante final não testa. Linha de produção: contaminação cruzada; a quantidade não precisa ter efeito, só ser detectável. Formulação: adulteração deliberada, um remédio posto para o produto funcionar, sem declarar. Prateleira: o enquadramento regulatório; suplemento é alimento, e não há teste de rotina de cada lote para o esporte\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"193\" cy=\"70\" r=\"44\" fill=\"#F4EAD6\"/><g transform=\"translate(167.0 44.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z\"/></g><line x1=\"390\" y1=\"70\" x2=\"422\" y2=\"70\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"426\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"619\" cy=\"70\" r=\"44\" fill=\"#F4EAD6\"/><g transform=\"translate(593.0 44.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h4L20 8a1.5 1.5 0 0 0-4-4L3 17zM14.5 5.5l4 4\"/><path d=\"M12 8L7 3L3 7l5 5M7 8L5.5 9.5M16 12l5 5l-4 4l-5-5m4 1l-1.5 1.5\"/></g></g><line x1=\"816\" y1=\"70\" x2=\"848\" y2=\"70\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"852\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1045\" cy=\"70\" r=\"44\" fill=\"#F3E1DE\"/><g transform=\"translate(1019.0 44.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><line x1=\"1242\" y1=\"70\" x2=\"1274\" y2=\"70\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1278\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"1471\" cy=\"70\" r=\"44\" fill=\"#F7F6F2\"/><g transform=\"translate(1445.0 44.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 12H3l9-9l9 9h-2M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7\"/><path d=\"M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6\"/></g></g></svg>",
+   "rotulos": [
     {
-     "t": "Contaminação cruzada",
-     "x": "mesma linha de produção; a quantidade não precisa ter efeito, só ser detectável",
-     "cor": "ambar"
-    },
-    {
-     "t": "Adulteração deliberada",
-     "x": "remédio posto para o produto “funcionar”, sem declarar",
-     "cor": "verm"
-    },
-    {
+     "x": 20,
+     "y": 136,
+     "w": 346,
      "t": "Matéria-prima",
-     "x": "insumo a granel, importado, que o fabricante final não testa",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Enquadramento regulatório",
-     "x": "suplemento é alimento: não há teste de rotina de cada lote para o esporte",
-     "cor": "tinta"
+     "x": 24,
+     "y": 190,
+     "w": 338,
+     "t": "insumo a granel, importado, que o fabricante final não testa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 446,
+     "y": 136,
+     "w": 346,
+     "t": "Linha de produção",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 450,
+     "y": 190,
+     "w": 338,
+     "t": "contaminação cruzada: a quantidade não precisa ter efeito, só ser detectável",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 872,
+     "y": 136,
+     "w": 346,
+     "t": "Formulação",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 876,
+     "y": 190,
+     "w": 338,
+     "t": "adulteração deliberada: remédio posto para o produto “funcionar”, sem declarar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 1298,
+     "y": 136,
+     "w": 346,
+     "t": "Prateleira",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1302,
+     "y": 190,
+     "w": 338,
+     "t": "suplemento é alimento: não há teste de rotina de cada lote para o esporte",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
     }
    ],
+   "eyebrow": "Por que acontece",
+   "titulo": "Quatro rotas",
    "destaque": "Não existe suplemento com risco zero. Existe risco menor e risco maior.",
-   "destaque_cor": "verm",
-   "gap_itens": 18
+   "destaque_cor": "verm"
   },
   {
    "id": "responsabilidade",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas pessoas ligadas por uma seta de indicação. O atleta responde pelo que está no corpo, sem prova de intenção; rótulo e boa-fé não protegem sozinhos; reduzir a sanção exige demonstrar a origem, com pote, lote, compra e análise do produto. Quem indicou responde pela indicação; o código prevê consequência para o pessoal de apoio; e, fora do esporte, o risco é à saúde, como estimulante com arritmia ou diurético com anti-hipertensivo\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"780\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(24.0 18.0) scale(1.0833)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"38\" cy=\"110\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"38\" cy=\"184\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"38\" cy=\"258\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"38\" cy=\"332\" r=\"8\" fill=\"#A8322A\"/><rect x=\"884\" y=\"0\" width=\"780\" height=\"400\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(908.0 18.0) scale(1.0833)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M17 28.013c.503-.115 2 1.987 2 1.987h10s1.497-2.102 2-1.987c5.404 1.23 11 4.782 11 8.557V42H6v-5.43c0-3.775 5.596-7.327 11-8.557M32 34v-2h2v2h2v2h-2v2h-2v-2h-2v-2zm-8-10a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><circle cx=\"922\" cy=\"110\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"922\" cy=\"184\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"922\" cy=\"258\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"922\" cy=\"332\" r=\"8\" fill=\"#B07A1C\"/><line x1=\"880\" y1=\"50\" x2=\"790\" y2=\"50\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 90,
+     "y": 26,
+     "w": 660,
+     "t": "O atleta",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 96,
+     "w": 700,
+     "t": "responde pelo que está no corpo, sem prova de intenção",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 170,
+     "w": 700,
+     "t": "rótulo e boa-fé não protegem sozinhos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 244,
+     "w": 700,
+     "t": "reduzir a sanção exige demonstrar a origem",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 318,
+     "w": 700,
+     "t": "pote, lote, compra e análise do produto",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 974,
+     "y": 26,
+     "w": 660,
+     "t": "Quem indicou",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 944,
+     "y": 96,
+     "w": 700,
+     "t": "responde pela indicação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 170,
+     "w": 700,
+     "t": "o código prevê consequência para o pessoal de apoio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 244,
+     "w": 700,
+     "t": "fora do esporte, o risco é à saúde",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 318,
+     "w": 700,
+     "t": "estimulante com arritmia; diurético com anti-hipertensivo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 64,
+     "w": 90,
+     "t": "indicou",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Responsabilidade estrita",
    "titulo": "Nota fiscal não protege",
-   "esq": {
-    "t": "O atleta",
-    "cor": "verm",
-    "itens": [
-     "responde pelo que está no corpo, sem prova de intenção",
-     "rótulo e boa-fé não protegem sozinhos",
-     "reduzir a sanção exige demonstrar a origem",
-     "pote, lote, compra e análise do produto"
-    ]
-   },
-   "dir": {
-    "t": "Quem indicou",
-    "cor": "ambar",
-    "itens": [
-     "responde pela indicação",
-     "o código prevê consequência para o pessoal de apoio",
-     "fora do esporte, o risco é à saúde",
-     "estimulante com arritmia; diurético com anti-hipertensivo"
-    ]
-   },
    "destaque": "Se você não sabe checar o produto, não indique o produto.",
    "destaque_cor": "tinta"
   },
@@ -312,129 +840,513 @@
   },
   {
    "id": "categoria",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma faixa de risco que vai do menor, à esquerda, ao maior, à direita, com três linhas. Categoria: risco menor em produto de um ingrediente, como creatina, proteína, carboidrato e eletrólito; maior em pré-treino, termogênico, hormonal, emagrecedor e fórmula complexa. Fabricante: menor com planta própria, boas práticas e rastreabilidade; maior se também vende apelo hormonal ou pró-hormônio. Compra: menor em canal com fabricante identificável; maior em marketplace e importação por conta própria\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><linearGradient id=\"gr59\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#DDEFEC\"/><stop offset=\"1\" stop-color=\"#F3E1DE\"/></linearGradient></defs><rect x=\"0\" y=\"0\" width=\"1664\" height=\"50\" rx=\"25\" fill=\"url(#gr59)\"/><rect x=\"270\" y=\"76\" width=\"660\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"984\" y=\"76\" width=\"680\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"270\" y=\"178\" width=\"660\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"984\" y=\"178\" width=\"680\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"270\" y=\"280\" width=\"660\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"984\" y=\"280\" width=\"680\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 12,
+     "w": 400,
+     "t": "risco menor",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 12,
+     "w": 400,
+     "t": "risco maior",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 106,
+     "w": 260,
+     "t": "Categoria",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 90,
+     "w": 620,
+     "t": "um ingrediente: creatina, proteína, carboidrato, eletrólito",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 90,
+     "w": 640,
+     "t": "pré-treino, termogênico, “hormonal”, emagrecedor, fórmula complexa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 208,
+     "w": 260,
+     "t": "Fabricante",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 192,
+     "w": 620,
+     "t": "planta própria, boas práticas, rastreabilidade",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 192,
+     "w": 640,
+     "t": "também vende apelo hormonal ou pró-hormônio",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 310,
+     "w": 260,
+     "t": "Compra",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 294,
+     "w": 620,
+     "t": "canal com fabricante identificável",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 294,
+     "w": 640,
+     "t": "marketplace, importação por conta própria",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passos dois e três",
    "titulo": "Categoria e fabricante",
-   "cab": [
-    "",
-    "Risco menor",
-    "Risco maior"
-   ],
-   "larguras": [
-    18,
-    41,
-    41
-   ],
-   "linhas": [
-    [
-     "Categoria",
-     "um ingrediente: creatina, proteína, carboidrato, eletrólito",
-     "pré-treino, termogênico, “hormonal”, emagrecedor, fórmula complexa"
-    ],
-    [
-     "Fabricante",
-     "planta própria, boas práticas, rastreabilidade",
-     "também vende apelo hormonal ou pró-hormônio"
-    ],
-    [
-     "Compra",
-     "canal com fabricante identificável",
-     "marketplace, importação por conta própria"
-    ]
-   ],
    "destaque": "É a lista da primeira aula do módulo, agora lida como mapa de risco.",
    "destaque_cor": "ambar"
   },
   {
    "id": "lote",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"No centro, um pote com a etiqueta do número do lote destacada por uma lupa: a certificação é do lote, não da marca. À esquerda, o que ela faz: um terceiro independente analisa o lote, procura substâncias proibidas no esporte, e confere-se pelo número do lote na embalagem; é a melhor ferramenta que existe. À direita, o que ela não faz: não zera o risco, por causa da amostra e do painel; não vale para o lote seguinte; não substitui registro e guarda; e não acompanha troca de fórmula\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"580\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 80.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 156.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 232.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 308.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1084\" y=\"0\" width=\"580\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1108.0 80.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1108.0 156.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1108.0 232.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1108.0 308.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"724\" y=\"30\" width=\"213\" height=\"58\" rx=\"8\" fill=\"#12202E\"/><rect x=\"690\" y=\"92\" width=\"280\" height=\"298\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"720\" y=\"210\" width=\"220\" height=\"70\" rx=\"8\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(900.0 160.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 530,
+     "t": "O que ela faz",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 70,
+     "y": 82,
+     "w": 490,
+     "t": "terceiro independente analisa o lote",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 158,
+     "w": 490,
+     "t": "procura substâncias proibidas no esporte",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 234,
+     "w": 490,
+     "t": "confere-se pelo número do lote na embalagem",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 310,
+     "w": 490,
+     "t": "é a melhor ferramenta que existe",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1108,
+     "y": 16,
+     "w": 530,
+     "t": "O que ela não faz",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1154,
+     "y": 82,
+     "w": 490,
+     "t": "não zera o risco: amostra e painel",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1154,
+     "y": 158,
+     "w": 490,
+     "t": "não vale para o lote seguinte",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1154,
+     "y": 234,
+     "w": 490,
+     "t": "não substitui registro e guarda",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1154,
+     "y": 310,
+     "w": 490,
+     "t": "não acompanha troca de fórmula",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 232,
+     "w": 220,
+     "t": "nº do lote",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 130,
+     "w": 280,
+     "t": "a certificação é do lote",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "Passos quatro, cinco e seis",
    "titulo": "A certificação é do lote, não da marca",
-   "esq": {
-    "t": "O que ela faz",
-    "cor": "petr",
-    "itens": [
-     "terceiro independente analisa o lote",
-     "procura substâncias proibidas no esporte",
-     "confere-se pelo número do lote na embalagem",
-     "é a melhor ferramenta que existe"
-    ]
-   },
-   "dir": {
-    "t": "O que ela não faz",
-    "cor": "verm",
-    "itens": [
-     "não zera o risco: amostra e painel",
-     "não vale para o lote seguinte",
-     "não substitui registro e guarda",
-     "não acompanha troca de fórmula"
-    ]
-   },
    "destaque": "Anotar marca, lote e validade, fotografar o rótulo e guardar a embalagem custa dois minutos. Revisar a cada compra, não a cada temporada.",
    "destaque_cor": "tinta"
   },
   {
    "id": "cenario",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três origens de produto no Brasil, cada uma com o que se sabe e o veredito para o atleta testado. Industrializado: estimulantes mais frequentes, certificação rara e cara; para o testado, lista mínima e lote certificado quando houver. Manipulado: anabolizantes mais frequentes, lote único, sem certificação; para o testado, não. Importado por conta própria: sem registro, sem fabricante, sem origem demonstrável; para o testado, não\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(24.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 12H3l9-9l9 9h-2M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7\"/><path d=\"M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6\"/></g></g><rect x=\"24\" y=\"252\" width=\"480\" height=\"104\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(592.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><rect x=\"592\" y=\"252\" width=\"480\" height=\"104\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1160.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z\"/></g><rect x=\"1160\" y=\"252\" width=\"480\" height=\"104\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 84,
+     "y": 26,
+     "w": 428,
+     "t": "Industrializado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 100,
+     "w": 480,
+     "t": "estimulantes mais frequentes; certificação rara e cara",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 220,
+     "w": 480,
+     "t": "atleta testado",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 272,
+     "w": 448,
+     "t": "lista mínima; lote certificado quando houver",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 652,
+     "y": 26,
+     "w": 428,
+     "t": "Manipulado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 100,
+     "w": 480,
+     "t": "anabolizantes mais frequentes; lote único, sem certificação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 592,
+     "y": 220,
+     "w": 480,
+     "t": "atleta testado",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 608,
+     "y": 278,
+     "w": 448,
+     "t": "não",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1220,
+     "y": 26,
+     "w": 428,
+     "t": "Importado por conta própria",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 100,
+     "w": 480,
+     "t": "sem registro, sem fabricante, sem origem demonstrável",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1160,
+     "y": 220,
+     "w": 480,
+     "t": "atleta testado",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 278,
+     "w": 448,
+     "t": "não",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "O cenário brasileiro",
    "titulo": "Três origens, três condutas",
-   "cab": [
-    "Origem",
-    "O que se sabe",
-    "Atleta testado"
-   ],
-   "larguras": [
-    20,
-    46,
-    34
-   ],
-   "linhas": [
-    [
-     "Industrializado",
-     "estimulantes mais frequentes; certificação rara e cara",
-     "lista mínima; lote certificado quando houver"
-    ],
-    [
-     "Manipulado",
-     "anabolizantes mais frequentes; lote único, sem certificação",
-     "não"
-    ],
-    [
-     "Importado por conta própria",
-     "sem registro, sem fabricante, sem origem demonstrável",
-     "não"
-    ]
-   ],
    "destaque": "Regular perante a Anvisa não é o mesmo que seguro para quem é testado. São duas perguntas diferentes.",
    "destaque_cor": "verm"
   },
   {
    "id": "condutas",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"A mesma linha do tempo, agora com a conduta de cada momento. Antes: lista mínima, um ingrediente, fabricante identificável, lote certificado e planilha da equipe. Durante: o que há na fórmula, quem prescreveu e por quê; se é atleta testado, não; se é hormonal, é outra conversa. Depois: reunir embalagem, lote, nota e histórico, listar tudo o que usou, e buscar apoio jurídico e a via formal\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"60\" y1=\"40\" x2=\"1604\" y2=\"40\" stroke=\"#DDD8CC\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"264\" cy=\"40\" r=\"22\" fill=\"#008A7E\"/><rect x=\"0\" y=\"120\" width=\"528\" height=\"260\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"40\" r=\"22\" fill=\"#B07A1C\"/><rect x=\"568\" y=\"120\" width=\"528\" height=\"260\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1400\" cy=\"40\" r=\"22\" fill=\"#A8322A\"/><rect x=\"1136\" y=\"120\" width=\"528\" height=\"260\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 164,
+     "y": 74,
+     "w": 200,
+     "t": "Antes",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 140,
+     "w": 488,
+     "t": "lista mínima; um ingrediente; fabricante identificável; lote certificado; planilha da equipe",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 732,
+     "y": 74,
+     "w": 200,
+     "t": "Durante",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 140,
+     "w": 488,
+     "t": "o que há na fórmula, quem prescreveu, por quê; se testado, não; se hormonal, outra conversa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1300,
+     "y": 74,
+     "w": 200,
+     "t": "Depois",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 140,
+     "w": 488,
+     "t": "reunir embalagem, lote, nota e histórico; listar tudo o que usou; apoio jurídico e via formal",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    }
+   ],
    "eyebrow": "As três situações",
    "titulo": "Três condutas",
-   "cab": [
-    "Situação",
-    "Conduta"
-   ],
-   "larguras": [
-    22,
-    78
-   ],
-   "linhas": [
-    [
-     "Depois",
-     "reunir embalagem, lote, nota e histórico; listar tudo o que usou; apoio jurídico e via formal"
-    ],
-    [
-     "Durante",
-     "o que há na fórmula, quem prescreveu, por quê; se testado, não; se hormonal, outra conversa"
-    ],
-    [
-     "Antes",
-     "lista mínima; um ingrediente; fabricante identificável; lote certificado; planilha da equipe"
-    ]
-   ],
    "destaque": "“Nenhum produto é risco zero. O que a gente pode fazer é escolher o risco menor e documentar tudo.”",
    "destaque_cor": "petr"
   },

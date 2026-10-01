@@ -146,6 +146,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Reconhecimento: de todos",
                     {"t": "Reconhecimento", "x": "Não exige a profissão certa. Exige ter aprendido o sinal."}],
           "quem": "E quase tudo o que funciona já estava disponível antes de alguém comprar alguma coisa. Próximo módulo: medicina esportiva clínica."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-11")
+
 spec = {"arquivo": "aulas/MOD05/05-11-hormonios-e-peptideos-fora-de-indicacao.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Hormônios e peptídeos fora de indicação", "subtitulo": "Limites clínicos, éticos e legais",

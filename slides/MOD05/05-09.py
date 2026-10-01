@@ -128,6 +128,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O procedimento do antes", 
                     {"t": "Preparador, técnico, fisioterapeuta", "x": "Levam a informação e o pote; nunca endossam."}],
           "quem": "A regra vale para todos, sem exceção."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-09")
+
 spec = {"arquivo": "aulas/MOD05/05-09-contaminacao-de-suplementos-e-certificacao-de-lote.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Contaminação de suplementos", "subtitulo": "Rotas, responsabilidade e certificação de lote",

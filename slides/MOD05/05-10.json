@@ -26,95 +26,464 @@
  "slides": [
   {
    "id": "remedio",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Um balão com a pergunta: isso é proibido? Ela quase nunca aponta para um pote, desenhado pequeno e apagado, e quase sempre para um remédio, desenhado grande. À direita, duas notas: a lista muda todo ano e se confere na fonte oficial, toda vez; o sistema, o raciocínio e o fluxo são estáveis\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><path d=\"M 0 30 a 30 30 0 0 1 30 -30 h 620 a 30 30 0 0 1 30 30 v 50 a 30 30 0 0 1 -30 30 h -300 l -40 40 l 6 -40 h -286 a 30 30 0 0 1 -30 -30 z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"93\" y=\"190\" width=\"84\" height=\"24\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"80\" y=\"218\" width=\"110\" height=\"122\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#C9CFD4\" stroke-width=\"4\"/><g transform=\"translate(340.0 150.0) scale(3.7500)\"><g fill=\"#008A7E\"><path fill-rule=\"evenodd\" d=\"M42 14a8 8 0 1 1-16 0a8 8 0 0 1 16 0m-3.718.985a1 1 0 0 1-1.198.75l-6.616-1.52a1 1 0 0 1 .448-1.95l6.616 1.521a1 1 0 0 1 .75 1.199\" clip-rule=\"evenodd\"/><path d=\"M16.778 9.245c-.647-1.532-2.813-1.686-3.682-.263L6.292 20.115c-.785 1.284.092 2.924 1.623 3.033l11.866.846c1.53.11 2.644-1.388 2.06-2.77z\"/><path fill-rule=\"evenodd\" d=\"M35.385 36.36a6 6 0 0 0-5.071-10.876l-10.876 5.07a6 6 0 1 0 5.071 10.877zm-5.442.33l4.597-2.143a4 4 0 0 0-3.381-7.25l-4.597 2.143z\" clip-rule=\"evenodd\"/></g></g><rect x=\"760\" y=\"0\" width=\"904\" height=\"164\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(784.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"760\" y=\"180\" width=\"904\" height=\"164\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(784.0 204.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 34,
+     "w": 680,
+     "t": "“Isso é proibido?”",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 340,
+     "w": 190,
+     "t": "quase nunca",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 336,
+     "w": 280,
+     "t": "quase sempre um remédio",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 28,
+     "w": 780,
+     "t": "A lista muda todo ano",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 784,
+     "y": 96,
+     "w": 850,
+     "t": "os itens se conferem na fonte oficial, toda vez",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 208,
+     "w": 780,
+     "t": "O fluxo é estável",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 784,
+     "y": 276,
+     "w": 850,
+     "t": "o sistema e o raciocínio não mudam",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Decisão clínica, não suplemento",
-   "frase": "A pergunta “isso é proibido?” quase nunca chega sobre um pote. Chega sobre um remédio.",
-   "apoio": "A lista muda todo ano. O sistema, o raciocínio e o fluxo são estáveis; os itens se conferem na fonte oficial, toda vez."
+   "titulo": "A pergunta “isso é proibido?” quase nunca chega sobre um pote. Chega sobre um remédio."
   },
   {
    "id": "decisoes",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Três decisões típicas",
-   "titulo": "Nenhuma resposta é “não”",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro quadros. A nadadora master com asma, usando broncodilatador inalatório há anos, antes do campeonato nacional. O corredor com TDAH, em metilfenidato prescrito pelo psiquiatra, numa prova com premiação e controle. A jogadora de vôlei com infiltração de corticoide indicada duas semanas antes do campeonato. E, tracejada, a quarta pessoa: o profissional que não prescreve nada e acha que isso não é com ele\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(157.0 30.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"426\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(583.0 30.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"852\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1009.0 30.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><rect x=\"1278\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1435.0 30.0) scale(1.5000)\"><path fill=\"#12202E\" fill-rule=\"evenodd\" d=\"M17 28.013c.503-.115 2 1.987 2 1.987h10s1.497-2.102 2-1.987c5.404 1.23 11 4.782 11 8.557V42H6v-5.43c0-3.775 5.596-7.327 11-8.557M32 34v-2h2v2h2v2h-2v2h-2v-2h-2v-2zm-8-10a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 124,
+     "w": 346,
      "t": "A nadadora master",
-     "x": "asma, broncodilatador inalatório há anos; campeonato nacional",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 180,
+     "w": 338,
+     "t": "asma, broncodilatador inalatório há anos; campeonato nacional",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 446,
+     "y": 124,
+     "w": 346,
      "t": "O corredor",
-     "x": "TDAH, metilfenidato do psiquiatra; prova com premiação e controle",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 450,
+     "y": 180,
+     "w": 338,
+     "t": "TDAH, metilfenidato do psiquiatra; prova com premiação e controle",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 872,
+     "y": 124,
+     "w": 346,
      "t": "A jogadora de vôlei",
-     "x": "infiltração de corticoide indicada duas semanas antes do campeonato",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 876,
+     "y": 180,
+     "w": 338,
+     "t": "infiltração de corticoide indicada duas semanas antes do campeonato",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 1298,
+     "y": 124,
+     "w": 346,
+     "t": "A quarta pessoa",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1302,
+     "y": 180,
+     "w": 338,
+     "t": "o profissional que não prescreve nada e acha que isso não é com ele",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
     }
    ],
-   "destaque": "E a quarta pessoa: o profissional que não prescreve nada e acha que isso não é com ele.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Três decisões típicas",
+   "titulo": "Nenhuma resposta é “não”"
   },
   {
    "id": "lista",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três faixas sobre o tempo. Em todos os momentos, dentro e fora de competição: substâncias não aprovadas, anabolizantes, hormônios peptídicos e fatores de crescimento, beta-2 agonistas, moduladores hormonais e metabólicos, diuréticos e mascarantes, e métodos de sangue, químicos e genéticos. Em competição, das 23h59 da véspera ao fim da coleta: estimulantes, narcóticos, canabinoides e glicocorticoides. Em esportes específicos: betabloqueadores, nas modalidades de precisão\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"1120\" y1=\"30\" x2=\"1120\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"260\" y=\"40\" width=\"1404\" height=\"150\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1120\" y=\"206\" width=\"544\" height=\"100\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1120\" y=\"318\" width=\"544\" height=\"50\" rx=\"12\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 260,
+     "y": 0,
+     "w": 860,
+     "t": "fora de competição",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 0,
+     "w": 544,
+     "t": "em competição",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 372,
+     "w": 240,
+     "t": "23h59 da véspera",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 101,
+     "w": 250,
+     "t": "Em todos os momentos",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 280,
+     "y": 54,
+     "w": 1364,
+     "t": "não aprovadas; anabolizantes; hormônios peptídicos e fatores de crescimento; beta-2 agonistas; moduladores hormonais e metabólicos; diuréticos e mascarantes; métodos de sangue, químicos e genéticos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 242,
+     "w": 250,
+     "t": "Em competição",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 220,
+     "w": 504,
+     "t": "estimulantes, narcóticos, canabinoides, glicocorticoides; até o fim da coleta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 329,
+     "w": 250,
+     "t": "Esportes específicos",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 330,
+     "w": 504,
+     "t": "betabloqueadores, em modalidades de precisão",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Agência Mundial Antidopagem · ABCD",
    "titulo": "Três blocos, em vigor em 1º de janeiro",
-   "cab": [
-    "Bloco",
-    "Classes"
-   ],
-   "larguras": [
-    24,
-    76
-   ],
-   "linhas": [
-    [
-     "Em todos os momentos",
-     "não aprovadas; anabolizantes; hormônios peptídicos e fatores de crescimento; beta-2 agonistas; moduladores hormonais e metabólicos; diuréticos e mascarantes; métodos de sangue, químicos e genéticos"
-    ],
-    [
-     "Em competição",
-     "estimulantes, narcóticos, canabinoides, glicocorticoides; das 23h59 da véspera ao fim da coleta"
-    ],
-    [
-     "Esportes específicos",
-     "betabloqueadores, em modalidades de precisão"
-    ]
-   ],
    "destaque": "Entra na lista quem cumpre dois de três critérios (desempenho, saúde, espírito esportivo) ou mascara. Consulte a do ano, em português, pelo princípio ativo.",
    "destaque_cor": "petr"
   },
   {
    "id": "violacoes",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Onze quadrados, um por violação. Quatro dizem respeito ao atleta: presença na amostra, uso ou tentativa, recusar ou evitar a coleta, e falhas de localização. Sete podem ser cometidas por qualquer pessoa: adulterar o controle, posse, tráfico, administração a um atleta, cumplicidade, associação proibida, e retaliar quem denuncia\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"50\" width=\"500\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"14\" y=\"67\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#12202E\"/><rect x=\"0\" y=\"132\" width=\"500\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"14\" y=\"149\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#12202E\"/><rect x=\"0\" y=\"214\" width=\"500\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"14\" y=\"231\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#12202E\"/><rect x=\"0\" y=\"296\" width=\"500\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"14\" y=\"313\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#12202E\"/><rect x=\"560\" y=\"50\" width=\"536\" height=\"70\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"574\" y=\"67\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1116\" y=\"50\" width=\"536\" height=\"70\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1130\" y=\"67\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"560\" y=\"132\" width=\"536\" height=\"70\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"574\" y=\"149\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1116\" y=\"132\" width=\"536\" height=\"70\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1130\" y=\"149\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"560\" y=\"214\" width=\"536\" height=\"70\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"574\" y=\"231\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1116\" y=\"214\" width=\"536\" height=\"70\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1130\" y=\"231\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"560\" y=\"296\" width=\"536\" height=\"70\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"574\" y=\"313\" width=\"36\" height=\"36\" rx=\"6\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 500,
+     "t": "Dizem respeito ao atleta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 0,
+     "w": 1100,
+     "t": "Qualquer pessoa pode cometer",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 64,
+     "y": 72,
+     "w": 420,
+     "t": "presença na amostra",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 154,
+     "w": 420,
+     "t": "uso ou tentativa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 236,
+     "w": 420,
+     "t": "recusar ou evitar a coleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 318,
+     "w": 420,
+     "t": "falhas de localização",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 72,
+     "w": 460,
+     "t": "adulterar o controle",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 72,
+     "w": 460,
+     "t": "posse",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 154,
+     "w": 460,
+     "t": "tráfico",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 154,
+     "w": 460,
+     "t": "administração a um atleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 236,
+     "w": 460,
+     "t": "cumplicidade: ajudar, encobrir, incentivar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 236,
+     "w": 460,
+     "t": "associação proibida",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 318,
+     "w": 460,
+     "t": "retaliar quem denuncia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Onze violações",
    "titulo": "Violação não é sinônimo de exame positivo",
-   "esq": {
-    "t": "Dizem respeito ao atleta",
-    "cor": "tinta",
-    "itens": [
-     "presença na amostra",
-     "uso ou tentativa",
-     "recusar ou evitar a coleta",
-     "falhas de localização"
-    ]
-   },
-   "dir": {
-    "t": "Qualquer pessoa pode cometer",
-    "cor": "verm",
-    "itens": [
-     "adulterar o controle",
-     "posse; tráfico",
-     "administração a um atleta",
-     "cumplicidade: ajudar, encobrir, incentivar",
-     "associação proibida",
-     "retaliar quem denuncia"
-    ]
-   },
    "destaque": "“Eu não prescrevo, então não me envolve” está errado como fato, não como opinião.",
    "destaque_cor": "verm",
    "fonte": "Código Mundial Antidopagem, artigos 2.1 a 2.11"
@@ -320,206 +689,970 @@
   },
   {
    "id": "consultorio",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco situações. Asma: beta-2 agonista, proibido sempre; decide a substância, a via e a dose, e o salbutamol inalado é permitido até 1.600 microgramas em 24 horas e 600 em 8 horas, pela lista de 2026. Corticoide: glicocorticoide, em competição; injetável, oral e retal proibidos, com tempo de eliminação publicado. Resfriado: estimulante, em competição; o descongestionante do xarope, conferindo o princípio ativo. TDAH: estimulante, em competição; não interromper, pedir autorização de uso terapêutico. Corte de peso: diurético, sempre; mascara, e é também o adulterante mais comum no Brasil\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"0\" y1=\"74\" x2=\"1664\" y2=\"74\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 16.0) scale(0.8333)\"><g fill=\"#12202E\"><path d=\"M16.542 11.991c5.85.005 5.312 7.962 5.31 11.145c-.004 4.062.993 12.261-2.14 15.382c-3.194 3.18-9.577 4.767-12.766 2.112s2.15-28.645 9.596-28.639m14.941.012c-5.85-.005-5.325 7.953-5.328 11.136c-.003 4.063-1.014 12.26 2.115 15.386c3.188 3.186 9.569 4.782 12.762 2.133s-2.104-28.649-9.55-28.655\"/><path fill-rule=\"evenodd\" d=\"M23.018 6h2l-.012 14.494c-.002 2.101-.939 3.305-1.999 3.923a4.3 4.3 0 0 1-1.976.572h-.026v-2h-.01H21q.014 0 .051-.004a2.3 2.3 0 0 0 .95-.297c.44-.255 1.003-.799 1.005-2.196z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M25.018 6h-2l-.012 14.492c-.002 2.101.932 3.307 1.991 3.927a4.3 4.3 0 0 0 1.975.574H27l.002-1c0-1 .002-1 .002-1h.009h-.005l-.051-.003a2.3 2.3 0 0 1-.949-.298c-.44-.257-1.003-.801-1.001-2.198z\" clip-rule=\"evenodd\"/></g></g><rect x=\"520\" y=\"14\" width=\"200\" height=\"46\" rx=\"23\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"0\" y1=\"154\" x2=\"1664\" y2=\"154\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 96.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"520\" y=\"94\" width=\"200\" height=\"46\" rx=\"23\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"0\" y1=\"234\" x2=\"1664\" y2=\"234\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 176.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><rect x=\"520\" y=\"174\" width=\"200\" height=\"46\" rx=\"23\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"0\" y1=\"314\" x2=\"1664\" y2=\"314\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 256.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><rect x=\"520\" y=\"254\" width=\"200\" height=\"46\" rx=\"23\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"0\" y1=\"394\" x2=\"1664\" y2=\"394\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 336.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"520\" y=\"334\" width=\"200\" height=\"46\" rx=\"23\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 56,
+     "y": 22,
+     "w": 230,
+     "t": "Asma",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 22,
+     "w": 230,
+     "t": "beta-2 agonista",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 26,
+     "w": 200,
+     "t": "sempre",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 12,
+     "w": 914,
+     "t": "substância, via, dose; salbutamol inalado até 1.600 µg/24 h e 600 µg/8 h (lista 2026)",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 56,
+     "y": 102,
+     "w": 230,
+     "t": "Corticoide",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 102,
+     "w": 230,
+     "t": "glicocorticoide",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 106,
+     "w": 200,
+     "t": "em competição",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 92,
+     "w": 914,
+     "t": "injetável, oral e retal proibidos; tempo de eliminação publicado",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 56,
+     "y": 182,
+     "w": 230,
+     "t": "Resfriado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 182,
+     "w": 230,
+     "t": "estimulante",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 186,
+     "w": 200,
+     "t": "em competição",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 172,
+     "w": 914,
+     "t": "descongestionante do xarope; conferir o princípio ativo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 56,
+     "y": 262,
+     "w": 230,
+     "t": "TDAH",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 262,
+     "w": 230,
+     "t": "estimulante",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 266,
+     "w": 200,
+     "t": "em competição",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 252,
+     "w": 914,
+     "t": "não interromper: AUT",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 56,
+     "y": 342,
+     "w": 230,
+     "t": "Corte de peso",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 342,
+     "w": 230,
+     "t": "diurético",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 346,
+     "w": 200,
+     "t": "sempre",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 332,
+     "w": 914,
+     "t": "mascara; também o adulterante mais comum no Brasil",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Onde a lista aparece de verdade",
    "titulo": "Cinco situações do consultório",
-   "cab": [
-    "Situação",
-    "Classe e bloco",
-    "O que decide"
-   ],
-   "larguras": [
-    18,
-    30,
-    52
-   ],
-   "linhas": [
-    [
-     "Asma",
-     "beta-2 agonista · sempre",
-     "substância, via, dose; salbutamol inalado até 1.600 µg/24 h e 600 µg/8 h (lista 2026)"
-    ],
-    [
-     "Corticoide",
-     "glicocorticoide · em competição",
-     "injetável, oral e retal proibidos; tempo de eliminação publicado"
-    ],
-    [
-     "Resfriado",
-     "estimulante · em competição",
-     "descongestionante do xarope; conferir o princípio ativo"
-    ],
-    [
-     "TDAH",
-     "estimulante · em competição",
-     "não interromper: AUT"
-    ],
-    [
-     "Corte de peso",
-     "diurético · sempre",
-     "mascara; também o adulterante mais comum no Brasil"
-    ]
-   ],
    "destaque": "Números da lista de 2026 são exemplo. Confira sempre a lista vigente.",
    "destaque_cor": "ambar"
   },
   {
    "id": "aut",
-   "tipo": "lista",
-   "eyebrow": "Autorização de uso terapêutico",
-   "titulo": "Não é brecha: é o que permite tratar",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro critérios que precisam valer juntos, ligados por e, levando à autorização de uso terapêutico: condição médica diagnosticada que exige a substância ou o método proibido; sem ganho além do normal, altamente improvável que melhore além do retorno ao estado de saúde; sem alternativa permitida razoável; e não ser consequência de doping prévio. Embaixo, os prazos na ABCD: pedido pelo menos 30 dias antes, para substância proibida em competição, e até 21 dias para decidir\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"200\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 20.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"330\" y=\"0\" width=\"300\" height=\"200\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(350.0 20.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"660\" y=\"0\" width=\"300\" height=\"200\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(680.0 20.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"990\" y=\"0\" width=\"300\" height=\"200\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1010.0 20.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><line x1=\"1324\" y1=\"100\" x2=\"1370\" y2=\"100\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1380\" y=\"20\" width=\"284\" height=\"160\" rx=\"16\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><line x1=\"40\" y1=\"320\" x2=\"1620\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"266\" cy=\"320\" r=\"12\" fill=\"#008A7E\"/><circle cx=\"1214\" cy=\"320\" r=\"12\" fill=\"#008A7E\"/><circle cx=\"1620\" cy=\"320\" r=\"12\" fill=\"#A8322A\"/><rect x=\"266\" y=\"290\" width=\"948\" height=\"16\" rx=\"8\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 66,
+     "w": 260,
      "t": "Condição médica diagnosticada",
-     "x": "que exige a substância ou o método proibido",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
+     "x": 20,
+     "y": 130,
+     "w": 260,
+     "t": "que exige a substância ou o método proibido",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 84,
+     "w": 30,
+     "t": "e",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 66,
+     "w": 260,
      "t": "Sem ganho além do normal",
-     "x": "altamente improvável que melhore além do retorno ao estado de saúde",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
+     "x": 350,
+     "y": 130,
+     "w": 260,
+     "t": "improvável que melhore além do retorno à saúde",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 84,
+     "w": 30,
+     "t": "e",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 66,
+     "w": 260,
      "t": "Sem alternativa permitida razoável",
-     "x": "",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
+     "x": 960,
+     "y": 84,
+     "w": 30,
+     "t": "e",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 66,
+     "w": 260,
      "t": "Não é consequência de doping prévio",
-     "x": "quem se dopou não usa o dano como justificativa",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1010,
+     "y": 130,
+     "w": 260,
+     "t": "o dano não vira justificativa",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1380,
+     "y": 60,
+     "w": 284,
+     "t": "AUT",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 106,
+     "y": 340,
+     "w": 320,
+     "t": "pedido: ≥ 30 dias antes",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1054,
+     "y": 340,
+     "w": 320,
+     "t": "decisão: até 21 dias depois",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 340,
+     "w": 320,
+     "t": "competição",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 266,
+     "y": 256,
+     "w": 948,
+     "t": "na ABCD",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Na ABCD: pedido pelo menos 30 dias antes (substância proibida em competição) e até 21 dias para decidir. A documentação aprova ou reprova.",
-   "destaque_cor": "verm",
-   "gap_itens": 16
+   "eyebrow": "Autorização de uso terapêutico",
+   "titulo": "Não é brecha: é o que permite tratar",
+   "destaque": "A documentação aprova ou reprova.",
+   "destaque_cor": "verm"
   },
   {
    "id": "controle",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas sequências. No dia: notificação e observação até a coleta; acompanhante, obrigatório para menor; conferir dados e lacres, e anotar irregularidade no formulário; declarar remédios e suplementos. Depois de um resultado adverso: amostra B a pedido do atleta; recusar a coleta equivale a positivo; suspensão provisória, defesa e recurso; e, para mostrar ausência de culpa significativa, a documentação pesa\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"44\" width=\"384\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"388\" y1=\"114\" x2=\"414\" y2=\"114\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"420\" y=\"44\" width=\"384\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"808\" y1=\"114\" x2=\"834\" y2=\"114\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"840\" y=\"44\" width=\"384\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"1228\" y1=\"114\" x2=\"1254\" y2=\"114\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1260\" y=\"44\" width=\"384\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"254\" width=\"384\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"388\" y1=\"324\" x2=\"414\" y2=\"324\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"420\" y=\"254\" width=\"384\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"808\" y1=\"324\" x2=\"834\" y2=\"324\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"840\" y=\"254\" width=\"384\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1228\" y1=\"324\" x2=\"1254\" y2=\"324\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1260\" y=\"254\" width=\"384\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 800,
+     "t": "No dia",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 18,
+     "y": 64,
+     "w": 348,
+     "t": "notificação; observação até a coleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 438,
+     "y": 64,
+     "w": 348,
+     "t": "acompanhante: obrigatório para menor",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 858,
+     "y": 64,
+     "w": 348,
+     "t": "conferir dados e lacres; irregularidade no formulário",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1278,
+     "y": 64,
+     "w": 348,
+     "t": "declarar remédios e suplementos",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 210,
+     "w": 800,
+     "t": "Depois do resultado adverso",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 18,
+     "y": 274,
+     "w": 348,
+     "t": "amostra B a pedido do atleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 438,
+     "y": 274,
+     "w": 348,
+     "t": "recusar a coleta equivale a positivo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 858,
+     "y": 274,
+     "w": 348,
+     "t": "suspensão provisória, defesa, recurso",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1278,
+     "y": 274,
+     "w": 348,
+     "t": "sem culpa significativa: a documentação pesa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "O controle, na prática",
    "titulo": "O que fazer e o que dizer no dia",
-   "esq": {
-    "t": "No dia",
-    "cor": "petr",
-    "itens": [
-     "notificação; observação até a coleta",
-     "acompanhante: obrigatório para menor",
-     "conferir dados e lacres; irregularidade no formulário",
-     "declarar remédios e suplementos"
-    ]
-   },
-   "dir": {
-    "t": "Depois do resultado adverso",
-    "cor": "verm",
-    "itens": [
-     "amostra B a pedido do atleta",
-     "recusar a coleta equivale a positivo",
-     "suspensão provisória, defesa, recurso",
-     "sem culpa significativa: a documentação pesa"
-    ]
-   },
    "destaque": "O papel da equipe não é julgar. É organizar a defesa e sustentar a pessoa.",
    "destaque_cor": "tinta"
   },
   {
    "id": "profissoes",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco profissões e o que cada uma faz no antidoping. Médico: verifica antes de prescrever, escolhe a alternativa permitida, conduz a autorização de uso terapêutico e registra. Nutricionista: as seis perguntas do suplemento, o registro de marca e lote, e o direito de dizer não. Educador físico e preparador: encaminha em vez de opinar e reconhece o que circula no vestiário. Fisioterapeuta: o que é aplicado entra na conta, e administrar é violação. Psicólogo: a pressão que leva ao uso, e o atleta em colapso depois da violação\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"0\" y1=\"74\" x2=\"1664\" y2=\"74\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 16.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><line x1=\"0\" y1=\"154\" x2=\"1664\" y2=\"154\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 96.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><line x1=\"0\" y1=\"234\" x2=\"1664\" y2=\"234\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 176.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><line x1=\"0\" y1=\"314\" x2=\"1664\" y2=\"314\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 256.0) scale(0.8333)\"><g fill=\"#008A7E\"><path fill-rule=\"evenodd\" d=\"M30.031 10A2 2 0 0 0 32 8V4H16v4a2 2 0 0 0 1.958 2l.014.315c.02.404.056 1.027.117 1.914c.123 1.773.35 4.602.768 8.839c.15 1.519 1.04 2.877 1.747 3.953l.079.12c.384.587.716 1.1.959 1.599c.24.494.355.902.355 1.262c0 .258 0 1.008.002 1.692L22 30.999a1 1 0 0 0 1 1v7.003a.998.998 0 1 0 1.997 0v-.007H25v-6.98h.01a1 1 0 0 0 1-1v-3.041c0-.356.115-.757.357-1.244c.245-.491.58-.996.969-1.576l.064-.096c.715-1.066 1.627-2.427 1.748-3.976a5204 5204 0 0 1 .853-10.71zm-2.024.21l.018-.21H19.96l.01.216c.02.39.054 1 .114 1.875c.038.534.084 1.167.143 1.91h7.476zm-3.873 16.794a5.8 5.8 0 0 1 .443-1.166c.308-.618.713-1.222 1.08-1.772l.017-.024c.797-1.192 1.404-2.14 1.48-3.117l.39-4.925h-7.15c.117 1.36.266 2.973.453 4.872c.098.991.716 1.964 1.509 3.174c.37.566.777 1.187 1.084 1.82c.173.354.326.735.428 1.138z\" clip-rule=\"evenodd\"/><path d=\"M22.302 41.966c.134-.632 1.038-.973 1.684-.973c.658 0 1.568.34 1.707.983l.15.686c.093.432-.108.877-.52 1.037c-.388.151-.886.3-1.337.3c-.422 0-.914-.15-1.303-.3c-.414-.162-.62-.608-.527-1.043z\"/></g></g><line x1=\"0\" y1=\"394\" x2=\"1664\" y2=\"394\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 336.0) scale(0.8333)\"><g fill=\"#008A7E\"><path fill-rule=\"evenodd\" d=\"M9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h5.389V30.762C11.345 28.487 9 25.422 9 21.45c0-3.302 1.378-6.469 3.83-8.803S18.61 9 22.08 9a18.9 18.9 0 0 1 7.669 1.607a12 12 0 0 1 4.815 3.509a9.85 9.85 0 0 1 1.843 5.478c.01.45.004.876-.002 1.288c-.022 1.457-.04 2.74.691 4.256c0 0 2.164 1.947 1.88 3.509c-.286 1.562-3.104 1.992-3.104 1.992c0 8.409-10.7 4.9-10.7 4.9V42H39a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3z\" clip-rule=\"evenodd\"/><path d=\"M26.27 22.455c.643 0 .439-.19.971-.543a3.27 3.27 0 0 0 1.828.53l2.066-.731a3.2 3.2 0 0 0 1.132-1.834c.15-.72.042-1.468-.306-2.119a3.26 3.26 0 0 0-1.609-1.459a3.1 3.1 0 0 0-1.128-1.765l-2.017-.687h-.227a3.24 3.24 0 0 0-1.893-1.277l-3.49-.237a3.26 3.26 0 0 0-1.925.829a3.28 3.28 0 0 0-2.507.418c-.52.33-.93.798-1.182 1.35l-1.644 1.132a3.07 3.07 0 0 0-.627 1.862c-.004.28.034.559.113.828a3.07 3.07 0 0 0 .216 4.044c.045.57.25 1.118.592 1.584a3.2 3.2 0 0 0 1.35 1.057c.622.38 1.15.89 1.542 1.495c.393.604.555 1.286.642 1.996h3.43v-3.314c-.001-.589.168-1.166.487-1.666s.498-.903 1.04-1.163a3.6 3.6 0 0 0 1.34-.873a3.26 3.26 0 0 0 1.805.543m6.064 2.795a1.25 1.25 0 1 1-2.5 0a1.25 1.25 0 0 1 2.5 0\"/><path fill-rule=\"evenodd\" d=\"M21.5 32.333h-3.333v-2H21.5zm0 3.334h-3.333v-2H21.5zm0 3.333h-3.333v-2H21.5z\" clip-rule=\"evenodd\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 56,
+     "y": 22,
+     "w": 380,
+     "t": "Médico",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 22,
+     "w": 1200,
+     "t": "verifica antes de prescrever, escolhe a alternativa permitida, conduz a AUT, registra",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 102,
+     "w": 380,
+     "t": "Nutricionista",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 102,
+     "w": 1200,
+     "t": "as seis perguntas do suplemento; registro de marca e lote; o direito de dizer não",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 182,
+     "w": 380,
+     "t": "Educador e preparador",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 182,
+     "w": 1200,
+     "t": "encaminha em vez de opinar; reconhece o que circula no vestiário",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 262,
+     "w": 380,
+     "t": "Fisioterapeuta",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 262,
+     "w": 1200,
+     "t": "o que é aplicado entra na conta; administrar é violação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 342,
+     "w": 380,
+     "t": "Psicólogo",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 342,
+     "w": 1200,
+     "t": "a pressão que leva ao uso; o atleta em colapso depois da violação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A parte que é de todos",
    "titulo": "Responsabilidade de cada profissão",
-   "cab": [
-    "Profissão",
-    "O que faz no antidoping"
-   ],
-   "larguras": [
-    26,
-    74
-   ],
-   "linhas": [
-    [
-     "Médico",
-     "verifica antes de prescrever, escolhe a alternativa permitida, conduz a AUT, registra"
-    ],
-    [
-     "Nutricionista",
-     "as seis perguntas do suplemento; registro de marca e lote; o direito de dizer não"
-    ],
-    [
-     "Educador físico e preparador",
-     "encaminha em vez de opinar; reconhece o que circula no vestiário"
-    ],
-    [
-     "Fisioterapeuta",
-     "o que é aplicado entra na conta; administrar é violação"
-    ],
-    [
-     "Psicólogo",
-     "a pressão que leva ao uso; o atleta em colapso depois da violação"
-    ]
-   ],
    "destaque": "Verificar, documentar, encaminhar. Verificar custa minutos; não verificar pode custar anos.",
    "destaque_cor": "petr"
   },
   {
    "id": "amador",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Dois círculos que se cruzam: atletas testados e amadores. Na interseção: campeonatos master, ligas amadoras federadas, provas de rua com premiação, universitários e categorias de base. Fora dela, à direita: a lista é, em boa parte, de coisas que fazem mal; o risco à saúde é o mesmo, sem controle médico; e reconhecer o vocabulário, como ciclo, protocolo, TRT e modulador, é clínica\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><circle cx=\"330\" cy=\"200\" r=\"190\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\" opacity=\"0.9\"/><circle cx=\"560\" cy=\"200\" r=\"190\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" opacity=\"0.8\"/><rect x=\"880\" y=\"0\" width=\"784\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"918\" cy=\"90\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"918\" cy=\"156\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"918\" cy=\"222\" r=\"8\" fill=\"#A8322A\"/><rect x=\"904\" y=\"300\" width=\"115\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1035\" y=\"300\" width=\"175\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1226\" y=\"300\" width=\"85\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1327\" y=\"300\" width=\"175\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 150,
+     "y": 20,
+     "w": 200,
+     "t": "testados",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 570,
+     "y": 20,
+     "w": 200,
+     "t": "amadores",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 100,
+     "w": 150,
+     "t": "master",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 148,
+     "w": 150,
+     "t": "ligas federadas",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 196,
+     "w": 150,
+     "t": "rua com premiação",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 262,
+     "w": 150,
+     "t": "universitários e base",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 16,
+     "w": 740,
+     "t": "Fora da interseção",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 938,
+     "y": 76,
+     "w": 700,
+     "t": "a lista é, em boa parte, de coisas que fazem mal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 938,
+     "y": 142,
+     "w": 700,
+     "t": "mesmo risco à saúde, sem controle médico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 938,
+     "y": 208,
+     "w": 700,
+     "t": "reconhecer o vocabulário é clínica",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 315,
+     "w": 115,
+     "t": "“ciclo”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1035,
+     "y": 315,
+     "w": 175,
+     "t": "“protocolo”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1226,
+     "y": 315,
+     "w": 85,
+     "t": "“TRT”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1327,
+     "y": 315,
+     "w": 175,
+     "t": "“modulador”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "E quem nunca vai ser testado?",
    "titulo": "Muda a pergunta, não a lista",
-   "esq": {
-    "t": "A sobreposição",
-    "cor": "ambar",
-    "itens": [
-     "campeonatos master",
-     "ligas amadoras federadas",
-     "provas de rua com premiação",
-     "universitários e categorias de base"
-    ]
-   },
-   "dir": {
-    "t": "Fora dela",
-    "cor": "verm",
-    "itens": [
-     "a lista é, em boa parte, de coisas que fazem mal",
-     "mesmo risco à saúde, sem controle médico",
-     "“ciclo”, “protocolo”, “TRT”, “modulador”",
-     "reconhecer o vocabulário é clínica"
-    ]
-   },
-   "destaque": "Para o amador: “isso é seguro, e por que essa pessoa está usando?”. É a pergunta da próxima aula.",
+   "destaque": "Para o amador: “isso é seguro, e por que essa pessoa está usando?”. É a pergunta da próxima conversa.",
    "destaque_cor": "tinta"
   },
   {
    "id": "resolucao",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"As três decisões do começo, cada uma ligada à pergunta do fluxo que a resolve e à conduta. A nadadora com asma: via, dose e momento; inalatório dentro do limite segue, com registro e declaração; fora dele, autorização. O corredor com TDAH: alternativa permitida; autorização 30 dias antes e, se não der tempo, muda a prova, não o remédio. A jogadora com infiltração: via, dose e momento; injetável pede tempo de eliminação, alternativa ou autorização, e a pergunta se é o melhor tratamento\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"36\" width=\"400\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 62.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><line x1=\"406\" y1=\"86\" x2=\"432\" y2=\"86\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"56\" width=\"380\" height=\"60\" rx=\"30\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"826\" y1=\"86\" x2=\"852\" y2=\"86\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"860\" y=\"36\" width=\"804\" height=\"100\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"152\" width=\"400\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 178.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"406\" y1=\"202\" x2=\"432\" y2=\"202\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"172\" width=\"380\" height=\"60\" rx=\"30\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"826\" y1=\"202\" x2=\"852\" y2=\"202\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"860\" y=\"152\" width=\"804\" height=\"100\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"268\" width=\"400\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 294.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><line x1=\"406\" y1=\"318\" x2=\"432\" y2=\"318\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"288\" width=\"380\" height=\"60\" rx=\"30\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"826\" y1=\"318\" x2=\"852\" y2=\"318\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"860\" y=\"268\" width=\"804\" height=\"100\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 440,
+     "y": 0,
+     "w": 400,
+     "t": "Pergunta do fluxo",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 0,
+     "w": 400,
+     "t": "Conduta",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 72,
+     "w": 300,
+     "t": "Nadadora, asma",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 74,
+     "w": 380,
+     "t": "via, dose e momento",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 58,
+     "w": 764,
+     "t": "inalatório dentro do limite: segue, registra, declara; fora dele: AUT",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 84,
+     "y": 188,
+     "w": 300,
+     "t": "Corredor, TDAH",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 190,
+     "w": 380,
+     "t": "alternativa permitida",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 174,
+     "w": 764,
+     "t": "AUT 30 dias antes; se não der tempo, muda a prova, não o remédio",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 84,
+     "y": 304,
+     "w": 300,
+     "t": "Jogadora, infiltração",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 306,
+     "w": 380,
+     "t": "via, dose e momento",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 290,
+     "w": 764,
+     "t": "injetável: tempo de eliminação, alternativa, ou AUT; e é o melhor tratamento?",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "As três decisões do começo",
    "titulo": "Onde cada uma se resolve no fluxo",
-   "cab": [
-    "Decisão",
-    "Pergunta do fluxo",
-    "Conduta"
-   ],
-   "larguras": [
-    20,
-    26,
-    54
-   ],
-   "linhas": [
-    [
-     "Nadadora, asma",
-     "via, dose e momento",
-     "inalatório dentro do limite: segue, registra, declara; fora dele: AUT"
-    ],
-    [
-     "Corredor, TDAH",
-     "alternativa permitida",
-     "AUT 30 dias antes; se não der tempo, muda a prova, não o remédio"
-    ],
-    [
-     "Jogadora, infiltração",
-     "via, dose e momento",
-     "injetável: tempo de eliminação, alternativa, ou AUT; e é o melhor tratamento?"
-    ]
-   ],
    "destaque": "Depende da substância, da via, da dose e do prazo, e alguém precisa verificar e documentar.",
    "destaque_cor": "ambar"
   },

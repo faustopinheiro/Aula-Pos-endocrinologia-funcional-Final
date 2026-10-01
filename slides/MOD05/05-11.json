@@ -22,176 +22,907 @@
  "slides": [
   {
    "id": "papel",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o contexto: veio para a avaliação pré-participação de uma prova de trilha e, na pergunta de rotina sobre remédios, hesitou e tirou um papel dobrado do bolso. À direita, o papel, intitulado protocolo, com seis linhas: testosterona injetável, hormônio de crescimento, dois peptídeos, um inibidor de aromatase, e um comprimido para proteger o fígado\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"40\" width=\"620\" height=\"320\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 64.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 9l2 2l4-4\"/></g></g><path d=\"M 720 10 L 1590 30 L 1600 390 L 730 380 Z\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1160\" y1=\"20\" x2=\"1165\" y2=\"385\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"780\" y1=\"146\" x2=\"1560\" y2=\"148\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><line x1=\"780\" y1=\"200\" x2=\"1560\" y2=\"202\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><line x1=\"780\" y1=\"254\" x2=\"1560\" y2=\"256\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><line x1=\"780\" y1=\"308\" x2=\"1560\" y2=\"310\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><line x1=\"780\" y1=\"362\" x2=\"1560\" y2=\"364\" stroke=\"#DDD8CC\" stroke-width=\"1\"/></svg>",
+   "rotulos": [
+    {
+     "x": 90,
+     "y": 70,
+     "w": 510,
+     "t": "Avaliação pré-participação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 140,
+     "w": 570,
+     "t": "uma prova de trilha",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 200,
+     "w": 570,
+     "t": "na pergunta de rotina sobre remédios, hesitou e tirou um papel dobrado do bolso",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 770,
+     "y": 40,
+     "w": 500,
+     "t": "“Protocolo”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 790,
+     "y": 110,
+     "w": 760,
+     "t": "testosterona injetável",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 164,
+     "w": 760,
+     "t": "hormônio de crescimento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 218,
+     "w": 760,
+     "t": "dois peptídeos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 272,
+     "w": 760,
+     "t": "inibidor de aromatase",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 326,
+     "w": 760,
+     "t": "comprimido “para proteger o fígado”",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Caso ilustrativo",
-   "frase": "Na pergunta de rotina sobre remédios, ele hesitou e tirou um papel dobrado do bolso.",
-   "apoio": "Veio para a avaliação pré-participação de uma prova de trilha. No papel: testosterona injetável, hormônio de crescimento, dois peptídeos, um inibidor de aromatase e um comprimido “para proteger o fígado”. Chamava aquilo de protocolo."
+   "titulo": "Ele chamava aquilo de protocolo"
   },
   {
    "id": "limites",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas colunas, item contra item. Esta aula faz: ajuda a reconhecer; mostra o risco real; mostra a fronteira ética e legal no Brasil; conduz a conversa sem perder a pessoa. Não faz: não ensina a prescrever; não traz protocolo nem dose; não discute como fazer com segurança; não compara esquemas\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"56\" width=\"800\" height=\"64\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 70.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"56\" width=\"800\" height=\"64\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(882.0 70.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"132\" width=\"800\" height=\"64\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 146.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"132\" width=\"800\" height=\"64\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(882.0 146.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"208\" width=\"800\" height=\"64\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 222.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"208\" width=\"800\" height=\"64\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(882.0 222.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"284\" width=\"800\" height=\"64\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 298.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"284\" width=\"800\" height=\"64\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(882.0 298.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 0,
+     "w": 600,
+     "t": "Faz",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 934,
+     "y": 0,
+     "w": 600,
+     "t": "Não faz",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 70,
+     "y": 74,
+     "w": 710,
+     "t": "ajuda a reconhecer",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 74,
+     "w": 710,
+     "t": "não ensina a prescrever",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 150,
+     "w": 710,
+     "t": "mostra o risco real",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 150,
+     "w": 710,
+     "t": "não traz protocolo nem dose",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 226,
+     "w": 710,
+     "t": "mostra a fronteira ética e legal no Brasil",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 226,
+     "w": 710,
+     "t": "não discute “como fazer com segurança”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 302,
+     "w": 710,
+     "t": "conduz a conversa sem perder a pessoa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 302,
+     "w": 710,
+     "t": "não compara esquemas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Antes de seguir",
    "titulo": "O que esta aula faz, e o que não faz",
-   "esq": {
-    "t": "Faz",
-    "cor": "petr",
-    "itens": [
-     "ajuda a reconhecer",
-     "mostra o risco real",
-     "mostra a fronteira ética e legal no Brasil",
-     "conduz a conversa sem perder a pessoa"
-    ]
-   },
-   "dir": {
-    "t": "Não faz",
-    "cor": "verm",
-    "itens": [
-     "não ensina a prescrever",
-     "não traz protocolo nem dose",
-     "não discute “como fazer com segurança”",
-     "não compara esquemas"
-    ]
-   },
    "destaque": "Hipogonadismo e deficiência de GH ficaram no módulo de fisiologia hormonal. Esta aula é sobre o que acontece fora disso.",
    "destaque_cor": "tinta"
   },
   {
    "id": "lista",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cada item do papel, o que ele é e o que fazia ali. Testosterona: medicamento com indicação no hipogonadismo diagnosticado; no papel, sem diagnóstico e com objetivo estético. Hormônio de crescimento: medicamento com indicações específicas; a composição muda, mas força e função não acompanham. Inibidor de aromatase: uso oncológico e endócrino; sem estradiol, mais gordura e pior função sexual. Peptídeos: muitos sem aprovação para uso humano, vendidos apenas para pesquisa, sem controle. O protetor do fígado: o item mais revelador, um efeito adverso previsto e administrado\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"34\" width=\"1664\" height=\"64\" rx=\"10\" fill=\"#F7F6F2\"/><rect x=\"0\" y=\"108\" width=\"1664\" height=\"64\" rx=\"10\" fill=\"#FDFCF9\"/><rect x=\"0\" y=\"182\" width=\"1664\" height=\"64\" rx=\"10\" fill=\"#F7F6F2\"/><rect x=\"0\" y=\"256\" width=\"1664\" height=\"64\" rx=\"10\" fill=\"#FDFCF9\"/><rect x=\"0\" y=\"330\" width=\"1664\" height=\"64\" rx=\"10\" fill=\"#F3E1DE\"/></svg>",
+   "rotulos": [
+    {
+     "x": 400,
+     "y": 0,
+     "w": 500,
+     "t": "O que é",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 0,
+     "w": 500,
+     "t": "No papel dele",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 52,
+     "w": 370,
+     "t": "Testosterona",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 52,
+     "w": 640,
+     "t": "medicamento; indicação: hipogonadismo diagnosticado",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 52,
+     "w": 600,
+     "t": "sem diagnóstico; objetivo estético",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 126,
+     "w": 370,
+     "t": "Hormônio de crescimento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 126,
+     "w": 640,
+     "t": "medicamento; indicações específicas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 126,
+     "w": 600,
+     "t": "composição muda, força e função não acompanham",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 200,
+     "w": 370,
+     "t": "Inibidor de aromatase",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 200,
+     "w": 640,
+     "t": "uso oncológico e endócrino",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 200,
+     "w": 600,
+     "t": "sem estradiol: mais gordura, pior função sexual",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 274,
+     "w": 370,
+     "t": "Peptídeos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 274,
+     "w": 640,
+     "t": "muitos sem aprovação para uso humano",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 274,
+     "w": 600,
+     "t": "“apenas para pesquisa”: sem controle",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 348,
+     "w": 370,
+     "t": "“Protetor do fígado”",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 348,
+     "w": 640,
+     "t": "o item mais revelador",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 348,
+     "w": 600,
+     "t": "efeito adverso previsto e administrado",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O que havia no papel",
    "titulo": "A classificação muda tudo",
-   "cab": [
-    "Item",
-    "O que é",
-    "No papel dele"
-   ],
-   "larguras": [
-    24,
-    38,
-    38
-   ],
-   "linhas": [
-    [
-     "Testosterona",
-     "medicamento; indicação: hipogonadismo diagnosticado",
-     "sem diagnóstico; objetivo estético"
-    ],
-    [
-     "Hormônio de crescimento",
-     "medicamento; indicações específicas",
-     "composição muda, força e função não acompanham"
-    ],
-    [
-     "Inibidor de aromatase",
-     "uso oncológico e endócrino",
-     "sem estradiol: mais gordura, pior função sexual"
-    ],
-    [
-     "Peptídeos",
-     "muitos sem aprovação para uso humano",
-     "“apenas para pesquisa”: sem controle"
-    ],
-    [
-     "“Protetor do fígado”",
-     "o item mais revelador",
-     "efeito adverso previsto e administrado"
-    ]
-   ],
    "destaque": "Repor o que falta é tratamento. Elevar o que está normal é outra coisa.",
    "destaque_cor": "verm",
    "fonte": "Estradiol em homens: Finkelstein e colaboradores, New England Journal of Medicine 2013"
   },
   {
    "id": "sagoe",
-   "tipo": "numeros",
-   "eyebrow": "Sagoe e colaboradores, 2014",
-   "titulo": "Não é raro",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, três barras de uso de anabolizante ao longo da vida: 3,3% no mundo, 6,4% entre homens, e 4,8% na América do Sul, acima da média global. À direita, as palavras que tiram a conversa do tratamento e a levam para o aprimoramento: otimização, modulação, protocolo, ciclo e reposição fora de indicação\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"86\" width=\"297\" height=\"50\" rx=\"8\" fill=\"#12202E\"/><rect x=\"0\" y=\"196\" width=\"576\" height=\"50\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"0\" y=\"306\" width=\"432\" height=\"50\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"900\" y=\"0\" width=\"764\" height=\"380\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"924\" y=\"80\" width=\"180\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1118\" y=\"80\" width=\"166\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1298\" y=\"80\" width=\"166\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1478\" y=\"80\" width=\"110\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"924\" y=\"152\" width=\"418\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"940\" y1=\"300\" x2=\"1620\" y2=\"300\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
     {
-     "n": "3,3%",
-     "x": "uso de anabolizante ao longo da vida, no mundo",
-     "cor": "tinta"
+     "x": 0,
+     "y": 0,
+     "w": 760,
+     "t": "uso de anabolizante ao longo da vida",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "6,4%",
-     "x": "entre homens",
-     "cor": "ambar"
+     "x": 0,
+     "y": 50,
+     "w": 500,
+     "t": "no mundo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "4,8%",
-     "x": "na América do Sul, acima da média global",
-     "cor": "verm"
+     "x": 313,
+     "y": 92,
+     "w": 200,
+     "t": "3,3%",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 500,
+     "t": "entre homens",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 202,
+     "w": 200,
+     "t": "6,4%",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 270,
+     "w": 500,
+     "t": "na América do Sul",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 448,
+     "y": 312,
+     "w": 200,
+     "t": "4,8%",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 18,
+     "w": 720,
+     "t": "As palavras que mudam a conversa",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 95,
+     "w": 180,
+     "t": "“otimização”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1118,
+     "y": 95,
+     "w": 166,
+     "t": "“modulação”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1298,
+     "y": 95,
+     "w": 166,
+     "t": "“protocolo”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1478,
+     "y": 95,
+     "w": 110,
+     "t": "“ciclo”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 167,
+     "w": 418,
+     "t": "“reposição fora de indicação”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 316,
+     "w": 300,
+     "t": "do tratamento",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 316,
+     "w": 300,
+     "t": "para o aprimoramento",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
-   "destaque": "Otimização, modulação, protocolo, ciclo, reposição fora de indicação: palavras que tiram a conversa do tratamento e a levam para o aprimoramento.",
-   "destaque_cor": "tinta",
-   "fonte": "187 estudos · Annals of Epidemiology 2014"
+   "eyebrow": "Uma meta-análise de 2014",
+   "titulo": "Não é raro",
+   "fonte": "Sagoe e colaboradores · 187 estudos · Annals of Epidemiology 2014"
   },
   {
    "id": "motores",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Por que ele chegou lá",
-   "titulo": "Três motores e o que havia por baixo",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três motores com setas para o protocolo, no centro. O corpo: insatisfação, comparação, dismorfia muscular. A idade: seus hormônios caíram, uma verdade parcial com conclusão falsa. O mercado: consulta, exames, produtos, níveis ótimos. Embaixo, o que acontecia de fato: cinco horas de sono, viagens, álcool, nove quilos a mais e nenhum treino de força\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"528\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(20.0 20.0) scale(0.8333)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M39.715 25.366c-.879-1.82-.856-3.36-.83-5.107c.007-.495.015-1.007.002-1.547a11.83 11.83 0 0 0-2.211-6.573a14.4 14.4 0 0 0-5.779-4.21A22.7 22.7 0 0 0 21.695 6c-4.163 0-8.155 1.574-11.098 4.376S6 16.978 6 20.94c0 4.767 2.814 8.444 6.467 11.174v6.449c1.036 2.108 4.946 3.603 7.23 3.422c4.851 0 5.707-2.716 5.707-2.716v-1.423s12.841 4.212 12.841-5.88c0 0 3.382-.516 3.724-2.39s-2.254-4.21-2.254-4.21M34 25.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0M22.84 12.21c1.263-.373 2.697-.295 3.98.613c1.327.935 2.12 2.495 2.176 4.105c.088 2.518-1.26 4.651-2.845 6.385c-1.229 1.343-2.713 2.562-3.98 3.602c-.364.298-.709.581-1.025.849l-.651.55l-.647-.556c-.348-.299-.734-.618-1.14-.955c-1.234-1.02-2.663-2.203-3.849-3.494c-1.586-1.728-2.937-3.853-2.855-6.378v-.002c.055-1.61.85-3.172 2.178-4.107c1.281-.903 2.714-.981 3.977-.609c.364.108.717.337 1.053.61c.273.22.535.471.783.708c.175.168.344.33.505.469c.16-.14.329-.301.505-.47c.247-.236.508-.486.78-.707c.337-.274.69-.505 1.055-.613\" clip-rule=\"evenodd\"/></g><line x1=\"264\" y1=\"156\" x2=\"832\" y2=\"196\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(588.0 20.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><line x1=\"832\" y1=\"156\" x2=\"832\" y2=\"196\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"150\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1156.0 20.0) scale(0.8333)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M24.039 6c-4.517 0-8.632 1.492-11.067 2.711q-.33.165-.616.322c-.378.206-.7.398-.956.567l2.77 4.078l1.304.519c5.096 2.571 11.93 2.571 17.027 0l1.48-.768L36.6 9.6a16 16 0 0 0-1.689-.957C32.488 7.437 28.471 6 24.04 6m-6.442 4.616a25 25 0 0 1-2.901-.728C16.978 8.875 20.377 7.8 24.04 7.8c2.537 0 4.936.516 6.92 1.17c-2.325.327-4.806.882-7.17 1.565c-1.86.538-4.034.48-6.192.081m15.96 5.064l-.246.124c-5.606 2.828-13.042 2.828-18.648 0l-.233-.118C6.008 24.927-.422 41.997 24.039 41.997S41.913 24.61 33.557 15.68M23 24a2 2 0 1 0 0 4zm2-2v-1h-2v1a4 4 0 0 0 0 8v4c-.87 0-1.611-.555-1.887-1.333a1 1 0 1 0-1.885.666A4 4 0 0 0 23 36v1h2v-1a4 4 0 0 0 0-8v-4c.87 0 1.611.555 1.887 1.333a1 1 0 1 0 1.885-.666A4 4 0 0 0 25 22m0 8v4a2 2 0 1 0 0-4\" clip-rule=\"evenodd\"/></g><line x1=\"1400\" y1=\"156\" x2=\"832\" y2=\"196\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"632\" y=\"200\" width=\"400\" height=\"56\" rx=\"28\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><rect x=\"0\" y=\"280\" width=\"1664\" height=\"120\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 338.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><g transform=\"translate(322.0 338.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z\"/></g><g transform=\"translate(476.0 338.0) scale(0.7500)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(618.0 338.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 6a3 3 0 1 0 6 0a3 3 0 1 0-6 0\"/><path d=\"M6.835 9h10.33a1 1 0 0 1 .984.821l1.637 9A1 1 0 0 1 18.802 20H5.198a1 1 0 0 1-.984-1.179l1.637-9A1 1 0 0 1 6.835 9\"/></g></g><g transform=\"translate(820.0 338.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 72,
+     "y": 24,
+     "w": 440,
      "t": "O corpo",
-     "x": "insatisfação, comparação, dismorfia muscular",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 76,
+     "w": 490,
+     "t": "insatisfação, comparação, dismorfia muscular",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 24,
+     "w": 440,
      "t": "A idade",
-     "x": "“seus hormônios caíram”: verdade parcial, conclusão falsa",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 76,
+     "w": 490,
+     "t": "“seus hormônios caíram”: verdade parcial, conclusão falsa",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1208,
+     "y": 24,
+     "w": 440,
      "t": "O mercado",
-     "x": "consulta, exames, produtos, “níveis ótimos”",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "O que acontecia",
-     "x": "cinco horas de sono, viagens, álcool, nove quilos, nenhum treino de força",
-     "cor": "petr"
+     "x": 1156,
+     "y": 76,
+     "w": 490,
+     "t": "consulta, exames, produtos, “níveis ótimos”",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 632,
+     "y": 214,
+     "w": 400,
+     "t": "o protocolo",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 294,
+     "w": 600,
+     "t": "O que acontecia por baixo",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 68,
+     "y": 342,
+     "w": 300,
+     "t": "cinco horas de sono",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 366,
+     "y": 342,
+     "w": 300,
+     "t": "viagens",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 342,
+     "w": 300,
+     "t": "álcool",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 662,
+     "y": 342,
+     "w": 300,
+     "t": "nove quilos",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 864,
+     "y": 342,
+     "w": 300,
+     "t": "nenhum treino de força",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Por que ele chegou lá",
+   "titulo": "Três motores e o que havia por baixo",
    "destaque": "Ele se sentia melhor. Negar isso destrói a conversa: o efeito é real, parte dele viria de dormir e treinar, e o preço está em outro lugar.",
    "destaque_cor": "tinta"
   },
   {
    "id": "riscos",
-   "tipo": "lista",
-   "eyebrow": "Sem suavizar e sem exagerar",
-   "titulo": "Os riscos",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco quadros de risco, sem suavizar e sem exagerar. Coração: perfil lipídico, pressão, alterações estruturais em uso longo. Eixo e fertilidade: supressão, com recuperação em meses, nem sempre completa. Sangue e fígado: hematócrito e trombose; formas orais e o fígado. Humor: irritabilidade no uso, depressão na suspensão, dependência descrita. O produto e os peptídeos: frasco sem rótulo, sem dado de segurança; a pessoa é o estudo\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"150\" cy=\"70\" r=\"46\" fill=\"#F3E1DE\"/><g transform=\"translate(124.0 44.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><rect x=\"341\" y=\"0\" width=\"300\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"491\" cy=\"70\" r=\"46\" fill=\"#F3E1DE\"/><g transform=\"translate(465.0 44.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 14a5 5 0 1 0 10 0a5 5 0 1 0-10 0m14-9l-5.4 5.4M19 5h-5m5 0v5\"/></g><rect x=\"682\" y=\"0\" width=\"300\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"70\" r=\"46\" fill=\"#F4EAD6\"/><g transform=\"translate(806.0 44.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1023\" y=\"0\" width=\"300\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1173\" cy=\"70\" r=\"46\" fill=\"#F4EAD6\"/><g transform=\"translate(1147.0 44.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><rect x=\"1364\" y=\"0\" width=\"300\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"1514\" cy=\"70\" r=\"46\" fill=\"#F7F6F2\"/><g transform=\"translate(1488.0 44.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 16,
+     "y": 136,
+     "w": 268,
      "t": "Coração",
-     "x": "perfil lipídico, pressão, alterações estruturais em uso longo",
-     "cor": "verm"
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 18,
+     "y": 210,
+     "w": 264,
+     "t": "perfil lipídico, pressão, alterações estruturais em uso longo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 357,
+     "y": 136,
+     "w": 268,
      "t": "Eixo e fertilidade",
-     "x": "supressão; recuperação em meses, nem sempre completa",
-     "cor": "verm"
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 359,
+     "y": 210,
+     "w": 264,
+     "t": "supressão; recuperação em meses, nem sempre completa",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 698,
+     "y": 136,
+     "w": 268,
      "t": "Sangue e fígado",
-     "x": "hematócrito e trombose; formas orais e o fígado",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 700,
+     "y": 210,
+     "w": 264,
+     "t": "hematócrito e trombose; formas orais e o fígado",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 1039,
+     "y": 136,
+     "w": 268,
      "t": "Humor",
-     "x": "irritabilidade no uso; depressão na suspensão; dependência descrita",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 1041,
+     "y": 210,
+     "w": 264,
+     "t": "irritabilidade no uso; depressão na suspensão; dependência descrita",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 1380,
+     "y": 136,
+     "w": 268,
      "t": "O produto e os peptídeos",
-     "x": "frasco sem rótulo; sem dado de segurança: a pessoa é o estudo",
-     "cor": "tinta"
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1382,
+     "y": 210,
+     "w": 264,
+     "t": "frasco sem rótulo; sem dado de segurança: a pessoa é o estudo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
     }
    ],
-   "gap_itens": 14
+   "eyebrow": "Sem suavizar e sem exagerar",
+   "titulo": "Os riscos"
   },
   {
    "id": "portoes",
@@ -285,60 +1016,273 @@
   },
   {
    "id": "conversa",
-   "tipo": "lista",
-   "eyebrow": "Como conduzir",
-   "titulo": "Quatro passos",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro passos de conversa. Perguntar sem julgar, como rotina: hormônio, peptídeo, algo injetável, algo manipulado? Nomear o risco específico: fertilidade, hematócrito, fígado, humor na suspensão. Oferecer a avaliação que faltou: entregar o que o protocolo prometeu, um diagnóstico. Manter a porta aberta: ele pode não parar, e sem porta some até a complicação\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"36\" cy=\"36\" r=\"26\" fill=\"#008A7E\"/><rect x=\"0\" y=\"130\" width=\"386\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"390\" y1=\"36\" x2=\"422\" y2=\"36\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"462\" cy=\"36\" r=\"26\" fill=\"#008A7E\"/><rect x=\"426\" y=\"130\" width=\"386\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"816\" y1=\"36\" x2=\"848\" y2=\"36\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"888\" cy=\"36\" r=\"26\" fill=\"#B07A1C\"/><rect x=\"852\" y=\"130\" width=\"386\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"1242\" y1=\"36\" x2=\"1274\" y2=\"36\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"1314\" cy=\"36\" r=\"26\" fill=\"#B07A1C\"/><rect x=\"1278\" y=\"130\" width=\"386\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 10,
+     "y": 20,
+     "w": 52,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 14,
+     "w": 306,
      "t": "Perguntar sem julgar, como rotina",
-     "x": "“hormônio, peptídeo, algo injetável, algo manipulado?”",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 156,
+     "w": 346,
+     "t": "“Hormônio, peptídeo, algo injetável, algo manipulado?”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 436,
+     "y": 20,
+     "w": 52,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 14,
+     "w": 306,
      "t": "Nomear o risco específico",
-     "x": "fertilidade, hematócrito, fígado, humor na suspensão",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 446,
+     "y": 156,
+     "w": 346,
+     "t": "fertilidade, hematócrito, fígado, humor na suspensão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 862,
+     "y": 20,
+     "w": 52,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 14,
+     "w": 306,
      "t": "Oferecer a avaliação que faltou",
-     "x": "entregar o que o protocolo prometeu: um diagnóstico",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 872,
+     "y": 156,
+     "w": 346,
+     "t": "entregar o que o protocolo prometeu: um diagnóstico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1288,
+     "y": 20,
+     "w": 52,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1352,
+     "y": 14,
+     "w": 306,
      "t": "Manter a porta aberta",
-     "x": "ele pode não parar; sem porta, some até a complicação",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1298,
+     "y": 156,
+     "w": 346,
+     "t": "ele pode não parar; sem porta, some até a complicação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     }
    ],
+   "eyebrow": "Como conduzir",
+   "titulo": "Quatro passos",
    "destaque": "Específico convence; genérico dispensa.",
-   "destaque_cor": "tinta",
-   "gap_itens": 20
+   "destaque_cor": "tinta"
   },
   {
    "id": "fronteira",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma linha vertical separa dois lados. Cuidar: acompanhar exames, monitorar risco, tratar complicação, manter a conversa. Viabilizar: prescrever ou ajustar dose, sugerir substância, legitimar o protocolo; e, do mesmo lado, ameaçar, humilhar ou julgar, que também afastam do cuidado\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"780\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 20.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M12 6L8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25m-7 3l2 2M15 13l2 2\"/></g></g><circle cx=\"40\" cy=\"124\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"40\" cy=\"190\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"40\" cy=\"256\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"40\" cy=\"322\" r=\"8\" fill=\"#008A7E\"/><rect x=\"884\" y=\"0\" width=\"780\" height=\"380\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(908.0 20.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><circle cx=\"924\" cy=\"124\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"924\" cy=\"190\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"924\" cy=\"256\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"924\" cy=\"322\" r=\"8\" fill=\"#A8322A\"/><line x1=\"832\" y1=\"0\" x2=\"832\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 92,
+     "y": 28,
+     "w": 660,
+     "t": "Cuidar",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 62,
+     "y": 110,
+     "w": 690,
+     "t": "acompanhar exames",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 62,
+     "y": 176,
+     "w": 690,
+     "t": "monitorar risco",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 62,
+     "y": 242,
+     "w": 690,
+     "t": "tratar complicação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 62,
+     "y": 308,
+     "w": 690,
+     "t": "manter a conversa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 976,
+     "y": 28,
+     "w": 660,
+     "t": "Viabilizar",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 946,
+     "y": 110,
+     "w": 690,
+     "t": "prescrever ou ajustar dose",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 946,
+     "y": 176,
+     "w": 690,
+     "t": "sugerir substância",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 946,
+     "y": 242,
+     "w": 690,
+     "t": "legitimar o protocolo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 946,
+     "y": 308,
+     "w": 690,
+     "t": "ameaçar, humilhar, julgar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Acompanhar quem não quer parar é conivência?",
    "titulo": "Cuidar da pessoa, não viabilizar a prática",
-   "esq": {
-    "t": "Cuidar",
-    "cor": "petr",
-    "itens": [
-     "acompanhar exames",
-     "monitorar risco",
-     "tratar complicação",
-     "manter a conversa"
-    ]
-   },
-   "dir": {
-    "t": "Viabilizar",
-    "cor": "verm",
-    "itens": [
-     "prescrever ou ajustar dose",
-     "sugerir substância",
-     "legitimar o protocolo",
-     "ameaçar, humilhar, julgar"
-    ]
-   },
    "destaque": "Menor de idade: família e proteção. Dor no peito, pressão muito alta, humor alterado, ideação suicida: encaminhamento imediato.",
    "destaque_cor": "verm"
   },
@@ -444,46 +1388,205 @@
   },
   {
    "id": "niveis",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco profissões, cada uma com o que decide e com o que contribui. Nutricionista decide suplemento, dose e estratégia, e marca e lote no atleta testado; contribui reconhecendo o ingrediente de risco no rótulo. Médico decide medicamento, deficiência, reposição, autorização de uso terapêutico e suspensão; contribui perguntando, em cinco segundos, se a pessoa compete sob controle. Educador físico e preparador decidem o treino que dá sentido ao ergogênico; contribuem escutando o vestiário. Fisioterapeuta decide a carga no tecido em recuperação; é quem mais escuta sobre substância. Psicólogo decide sobre corpo, pressão e sofrimento na suspensão; vê a insatisfação por trás do pedido\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"0\" y1=\"102\" x2=\"1664\" y2=\"102\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 48.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"1070\" y=\"40\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"175\" x2=\"1664\" y2=\"175\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 121.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"1070\" y=\"113\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"248\" x2=\"1664\" y2=\"248\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 194.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"1070\" y=\"186\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"321\" x2=\"1664\" y2=\"321\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 267.0) scale(0.8333)\"><g fill=\"#12202E\"><path fill-rule=\"evenodd\" d=\"M30.031 10A2 2 0 0 0 32 8V4H16v4a2 2 0 0 0 1.958 2l.014.315c.02.404.056 1.027.117 1.914c.123 1.773.35 4.602.768 8.839c.15 1.519 1.04 2.877 1.747 3.953l.079.12c.384.587.716 1.1.959 1.599c.24.494.355.902.355 1.262c0 .258 0 1.008.002 1.692L22 30.999a1 1 0 0 0 1 1v7.003a.998.998 0 1 0 1.997 0v-.007H25v-6.98h.01a1 1 0 0 0 1-1v-3.041c0-.356.115-.757.357-1.244c.245-.491.58-.996.969-1.576l.064-.096c.715-1.066 1.627-2.427 1.748-3.976a5204 5204 0 0 1 .853-10.71zm-2.024.21l.018-.21H19.96l.01.216c.02.39.054 1 .114 1.875c.038.534.084 1.167.143 1.91h7.476zm-3.873 16.794a5.8 5.8 0 0 1 .443-1.166c.308-.618.713-1.222 1.08-1.772l.017-.024c.797-1.192 1.404-2.14 1.48-3.117l.39-4.925h-7.15c.117 1.36.266 2.973.453 4.872c.098.991.716 1.964 1.509 3.174c.37.566.777 1.187 1.084 1.82c.173.354.326.735.428 1.138z\" clip-rule=\"evenodd\"/><path d=\"M22.302 41.966c.134-.632 1.038-.973 1.684-.973c.658 0 1.568.34 1.707.983l.15.686c.093.432-.108.877-.52 1.037c-.388.151-.886.3-1.337.3c-.422 0-.914-.15-1.303-.3c-.414-.162-.62-.608-.527-1.043z\"/></g></g><rect x=\"1070\" y=\"259\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"394\" x2=\"1664\" y2=\"394\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 340.0) scale(0.8333)\"><g fill=\"#12202E\"><path fill-rule=\"evenodd\" d=\"M9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h5.389V30.762C11.345 28.487 9 25.422 9 21.45c0-3.302 1.378-6.469 3.83-8.803S18.61 9 22.08 9a18.9 18.9 0 0 1 7.669 1.607a12 12 0 0 1 4.815 3.509a9.85 9.85 0 0 1 1.843 5.478c.01.45.004.876-.002 1.288c-.022 1.457-.04 2.74.691 4.256c0 0 2.164 1.947 1.88 3.509c-.286 1.562-3.104 1.992-3.104 1.992c0 8.409-10.7 4.9-10.7 4.9V42H39a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3z\" clip-rule=\"evenodd\"/><path d=\"M26.27 22.455c.643 0 .439-.19.971-.543a3.27 3.27 0 0 0 1.828.53l2.066-.731a3.2 3.2 0 0 0 1.132-1.834c.15-.72.042-1.468-.306-2.119a3.26 3.26 0 0 0-1.609-1.459a3.1 3.1 0 0 0-1.128-1.765l-2.017-.687h-.227a3.24 3.24 0 0 0-1.893-1.277l-3.49-.237a3.26 3.26 0 0 0-1.925.829a3.28 3.28 0 0 0-2.507.418c-.52.33-.93.798-1.182 1.35l-1.644 1.132a3.07 3.07 0 0 0-.627 1.862c-.004.28.034.559.113.828a3.07 3.07 0 0 0 .216 4.044c.045.57.25 1.118.592 1.584a3.2 3.2 0 0 0 1.35 1.057c.622.38 1.15.89 1.542 1.495c.393.604.555 1.286.642 1.996h3.43v-3.314c-.001-.589.168-1.166.487-1.666s.498-.903 1.04-1.163a3.6 3.6 0 0 0 1.34-.873a3.26 3.26 0 0 0 1.805.543m6.064 2.795a1.25 1.25 0 1 1-2.5 0a1.25 1.25 0 0 1 2.5 0\"/><path fill-rule=\"evenodd\" d=\"M21.5 32.333h-3.333v-2H21.5zm0 3.334h-3.333v-2H21.5zm0 3.333h-3.333v-2H21.5z\" clip-rule=\"evenodd\"/></g></g><rect x=\"1070\" y=\"332\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 480,
+     "y": 0,
+     "w": 500,
+     "t": "Decide",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 0,
+     "w": 500,
+     "t": "Contribui",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 54,
+     "w": 400,
+     "t": "Nutricionista",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 54,
+     "w": 560,
+     "t": "suplemento, dose, estratégia; marca e lote no atleta testado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 56,
+     "w": 560,
+     "t": "reconhece o ingrediente de risco no rótulo",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 56,
+     "y": 127,
+     "w": 400,
+     "t": "Médico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 127,
+     "w": 560,
+     "t": "medicamento, deficiência, reposição, AUT, suspensão",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 129,
+     "w": 560,
+     "t": "“você compete sob controle?”, em cinco segundos",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 56,
+     "y": 200,
+     "w": 400,
+     "t": "Educador e preparador",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 200,
+     "w": 560,
+     "t": "o treino que dá sentido ao ergogênico",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 202,
+     "w": 560,
+     "t": "escuta o vestiário",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 56,
+     "y": 273,
+     "w": 400,
+     "t": "Fisioterapeuta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 273,
+     "w": 560,
+     "t": "carga no tecido em recuperação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 275,
+     "w": 560,
+     "t": "é quem mais escuta sobre substância",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 56,
+     "y": 346,
+     "w": 400,
+     "t": "Psicólogo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 346,
+     "w": 560,
+     "t": "corpo, pressão, sofrimento na suspensão",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 348,
+     "w": 560,
+     "t": "vê a insatisfação por trás do pedido",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "Fecho do módulo",
    "titulo": "Decisão e contribuição",
-   "cab": [
-    "Profissão",
-    "Decide",
-    "Contribui"
-   ],
-   "larguras": [
-    22,
-    40,
-    38
-   ],
-   "linhas": [
-    [
-     "Nutricionista",
-     "suplemento, dose, estratégia; marca e lote no atleta testado",
-     "reconhece o ingrediente de risco no rótulo"
-    ],
-    [
-     "Médico",
-     "medicamento, deficiência, reposição, AUT, suspensão",
-     "“você compete sob controle?”, em cinco segundos"
-    ],
-    [
-     "Educador físico e preparador",
-     "o treino que dá sentido ao ergogênico",
-     "escuta o vestiário"
-    ],
-    [
-     "Fisioterapeuta",
-     "carga no tecido em recuperação",
-     "é quem mais escuta sobre substância"
-    ],
-    [
-     "Psicólogo",
-     "corpo, pressão, sofrimento na suspensão",
-     "vê a insatisfação por trás do pedido"
-    ]
-   ],
    "destaque": "Terapia hormonal com finalidade estética, de massa muscular ou de desempenho não é decisão médica disponível: é conduta vedada.",
    "destaque_cor": "verm"
   },

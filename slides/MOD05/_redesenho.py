@@ -1687,6 +1687,640 @@ def respostas_58():
 
 
 
+# ---------------------------------------------------------------- 5.9
+
+def linha_tempo3(p, rs, itens, y=0, h=360):
+    """Três momentos numa linha: antes, durante e depois; cada um com um quadro embaixo."""
+    p.append(f'<line x1="60" y1="{y + 40}" x2="1604" y2="{y + 40}" stroke="{BORDA}" stroke-width="6" stroke-linecap="round"/>')
+    for k, (t, d, cor, fundo) in enumerate(itens):
+        x = k * 568
+        p.append(f'<circle cx="{x + 264}" cy="{y + 40}" r="22" fill="{cor}"/>')
+        rs.append(rot(x + 164, y + 74, t, w=200, tam=26, cor=cor, peso=700, alinha="center", serif=True))
+        p.append(caixa(x, y + 120, 528, h - 120, cor, fundo, esp=3, rx=14))
+        rs.append(rot(x + 20, y + 140, d, w=488, tam=24, cor=TINTA, lh=1.35))
+
+
+def inversao_59():
+    """5.9: o que custa a promessa falsa e o que custa a substância não declarada."""
+    p = [svg_abre(1664, 340, "Dois quadros de tamanhos diferentes. A promessa falsa custa dinheiro. A substância não declarada no pote pode custar uma carreira e, às vezes, a saúde")]
+    rs = []
+    p.append(caixa(0, 40, 560, 260, GLIC, GLIC_T, esp=3, rx=16))
+    p.append(icone("h:money-bag", 30, 70, 64, GLIC))
+    rs += [rot(110, 76, "Promessa falsa", w=420, tam=28, cor=GLIC, peso=700, serif=True), rot(30, 170, "custa dinheiro", w=500, tam=34, cor=TINTA, peso=700, serif=True)]
+    p.append(caixa(620, 0, 1044, 340, FOSF, FOSF_T, esp=4, rx=16))
+    p.append(icone("t:alert-triangle", 650, 30, 72, FOSF))
+    rs += [rot(740, 40, "Substância não declarada", w=900, tam=32, cor=FOSF, peso=700, serif=True)]
+    for k, (ic, t) in enumerate([("t:trophy", "pode custar uma carreira"), ("t:heartbeat", "e, às vezes, a saúde")]):
+        y = 140 + k * 90
+        p.append(icone(ic, 650, y, 52, FOSF))
+        rs.append(rot(724, y + 8, t, w=900, tam=30, cor=TINTA, peso=700))
+    return slide("inversao", 340, p, rs,
+                 eyebrow="O que não está escrito no rótulo", titulo="Uma promessa falsa custa dinheiro. Uma substância não declarada pode custar uma carreira.",
+                 destaque="O rótulo já foi lido. Agora, o que está no pote sem estar no rótulo.", destaque_cor="tinta")
+
+
+def situacoes_59():
+    """5.9: antes, durante e depois numa linha do tempo."""
+    p = [svg_abre(1664, 290, "Uma linha do tempo com três momentos. Antes: a nutricionista precisa escolher a marca para três atletas testados; é o único momento em que o procedimento funciona. Durante: o jogador toma uma fórmula manipulada, feita sob medida. Depois: a atleta testou positivo e diz que comprou em loja, com nota fiscal")]
+    rs = []
+    linha_tempo3(p, rs, [("Antes", "a nutricionista precisa escolher a marca para três atletas testados", OXID, OXID_T),
+                         ("Durante", "o jogador toma fórmula manipulada, “feita sob medida”", GLIC, GLIC_T),
+                         ("Depois", "a atleta testou positivo; “comprei em loja, com nota fiscal”", FOSF, FOSF_T)], h=290)
+    return slide("situacoes", 290, p, rs,
+                 eyebrow="Três situações típicas", titulo="Antes, durante e depois",
+                 destaque="Esta aula é o procedimento do antes, porque é o único que funciona.", destaque_cor="tinta")
+
+
+def geyer():
+    """5.9: cem quadradinhos com cerca de quinze contaminados, e a companhia do fabricante."""
+    p = [svg_abre(1664, 380, "À esquerda, cem quadradinhos representando os suplementos não hormonais analisados: cerca de 15 em cada 100, 14,8%, tinham esteroide anabolizante não declarado, sobretudo pró-hormônio. À direita, duas barras: 21,1% nos produtos de empresas que também vendiam pró-hormônio, e 9,6% nos de empresas que não vendiam")]
+    rs = [rot(0, 0, "634 suplementos não hormonais, a cada 100", w=600, tam=21, cor=MUDO, peso=700)]
+    for k in range(100):
+        x, y = (k % 10) * 32, 40 + (k // 10) * 32
+        p.append(f'<rect x="{x}" y="{y}" width="26" height="26" rx="4" fill="{FOSF if k < 15 else CINZA}"/>')
+    rs += [rot(350, 60, "14,8%", w=300, tam=56, cor=FOSF, peso=700, serif=True),
+           rot(350, 150, "com esteroide anabolizante não declarado, sobretudo pró-hormônio", w=330, tam=21, cor=TINTA, lh=1.3)]
+    rs.append(rot(760, 0, "a companhia que o produto mantém", w=900, tam=21, cor=MUDO, peso=700))
+    for k, (v, t, cor) in enumerate([(21.1, "empresas que também vendiam pró-hormônio", FOSF), (9.6, "empresas que não vendiam", OXID)]):
+        y = 60 + k * 150
+        p.append(f'<rect x="760" y="{y + 44}" width="{v * 38:.0f}" height="56" rx="8" fill="{cor}"/>')
+        rs += [rot(760, y, t, w=900, tam=23, cor=TINTA, peso=700), rot(760 + v * 38 + 16, y + 52, f"{v:g}%".replace(".", ","), w=200, tam=32, cor=cor, peso=700, serif=True)]
+    return slide("geyer", 380, p, rs,
+                 eyebrow="Geyer e colaboradores, 2004", titulo="634 suplementos não hormonais",
+                 destaque="A companhia que o produto mantém importa, e é uma das poucas coisas que dá para checar de fora.",
+                 destaque_cor="tinta", fonte="13 países, 215 fornecedores · International Journal of Sports Medicine 2004")
+
+
+def brasil():
+    """5.9: a faixa larga da revisão e o achado do laboratório brasileiro."""
+    p = [svg_abre(1664, 400, "À esquerda, uma régua de 0 a 100% com a faixa de contaminação por substância proibida encontrada na revisão, de 12% a 58%: larga, porque os estudos são heterogêneos, mas até o limite inferior é alto demais para ignorar. À direita, o laboratório brasileiro, de 2017 a 2022: diuréticos foram os adulterantes mais comuns; estimulantes apareceram mais nos industrializados; e anabolizantes, mais nos manipulados")]
+    rs = [rot(0, 0, "A revisão", w=700, tam=27, cor=GLIC, peso=700, serif=True)]
+    X = lambda v: 20 + v / 100 * 660
+    p.append(f'<rect x="{X(12):.0f}" y="90" width="{X(58) - X(12):.0f}" height="70" rx="10" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="3"/>')
+    p.append(f'<line x1="{X(0):.0f}" y1="160" x2="{X(100):.0f}" y2="160" stroke="{MUDO}" stroke-width="3"/>')
+    for v in [0, 12, 58, 100]:
+        rs.append(rot(X(v) - 40, 168, f"{v}%", w=80, tam=19, cor=GLIC if v in (12, 58) else MUDO, peso=700 if v in (12, 58) else 400, alinha="center"))
+    rs += [rot(X(12), 112, "contaminação por proibida", w=X(58) - X(12), tam=19, cor=GLIC, peso=700, alinha="center"),
+           rot(20, 220, "faixa larga: estudos heterogêneos", w=660, tam=22, cor=TINTA),
+           rot(20, 270, "até o limite inferior é alto demais para ignorar", w=660, tam=22, cor=FOSF, peso=700)]
+    p.append(caixa(780, 0, 884, 400, FOSF, CARTAO, esp=3, rx=16))
+    rs.append(rot(804, 16, "O laboratório brasileiro, 2017 a 2022", w=840, tam=26, cor=FOSF, peso=700, serif=True))
+    linhas = [("t:droplet", "diuréticos", "os adulterantes mais comuns", TINTA, CARTAO), ("t:bolt", "estimulantes", "mais nos industrializados", GLIC, CARTAO), ("t:barbell", "anabolizantes", "mais nos manipulados", FOSF, FOSF_T)]
+    for k, (ic, t, d, cor, fundo) in enumerate(linhas):
+        y = 80 + k * 104
+        p.append(caixa(804, y, 836, 90, cor, fundo, esp=2 if k < 2 else 3, rx=12))
+        p.append(icone(ic, 824, y + 24, 40, cor))
+        rs += [rot(882, y + 28, t, w=250, tam=24, cor=cor, peso=700), rot(1140, y + 30, d, w=480, tam=22, cor=TINTA)]
+    return slide("brasil", 400, p, rs,
+                 eyebrow="Uma revisão de 2017 · um laboratório brasileiro, 2024", titulo="Depois de Geyer, e aqui",
+                 destaque="Guarde a última linha: ela contradiz a intuição do jogador.",
+                 destaque_cor="verm", fonte="Martínez-Sanz e colaboradores · Nutrients 2017 · Torres e colaboradores · Drug Testing and Analysis 2024")
+
+
+def rotas_59():
+    """5.9: o caminho do pote, da matéria-prima à prateleira, com as quatro rotas."""
+    p = [svg_abre(1664, 380, "O caminho de um pote em quatro estações, cada uma com uma rota de contaminação. Matéria-prima: insumo a granel, importado, que o fabricante final não testa. Linha de produção: contaminação cruzada; a quantidade não precisa ter efeito, só ser detectável. Formulação: adulteração deliberada, um remédio posto para o produto funcionar, sem declarar. Prateleira: o enquadramento regulatório; suplemento é alimento, e não há teste de rotina de cada lote para o esporte"), defs(MUDO)]
+    est = [("t:plane", "Matéria-prima", "insumo a granel, importado, que o fabricante final não testa", GLIC),
+           ("t:tools", "Linha de produção", "contaminação cruzada: a quantidade não precisa ter efeito, só ser detectável", GLIC),
+           ("t:pill", "Formulação", "adulteração deliberada: remédio posto para o produto “funcionar”, sem declarar", FOSF),
+           ("t:home", "Prateleira", "suplemento é alimento: não há teste de rotina de cada lote para o esporte", TINTA)]
+    W = 386
+    rs = []
+    for k, (ic, t, d, cor) in enumerate(est):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 380, cor, CARTAO, esp=3, rx=16))
+        p.append(f'<circle cx="{x + W / 2:.0f}" cy="70" r="44" fill="{FOSF_T if cor == FOSF else (GLIC_T if cor == GLIC else PAPEL)}"/>')
+        p.append(icone(ic, x + W / 2 - 26, 44, 52, cor))
+        rs += [rot(x + 20, 136, t, w=W - 40, tam=26, cor=cor, peso=700, serif=True, alinha="center"), rot(x + 24, 190, d, w=W - 48, tam=21, cor=TINTA, alinha="center", lh=1.35)]
+        if k < 3:
+            p.append(seta(x + W + 4, 70, x + W + 36, 70, MUDO, "m0", esp=3))
+    return slide("rotas", 380, p, rs,
+                 eyebrow="Por que acontece", titulo="Quatro rotas",
+                 destaque="Não existe suplemento com risco zero. Existe risco menor e risco maior.", destaque_cor="verm")
+
+
+def responsabilidade():
+    """5.9: o atleta responde pelo corpo, quem indicou responde pela indicação."""
+    p = [svg_abre(1664, 400, "Duas pessoas ligadas por uma seta de indicação. O atleta responde pelo que está no corpo, sem prova de intenção; rótulo e boa-fé não protegem sozinhos; reduzir a sanção exige demonstrar a origem, com pote, lote, compra e análise do produto. Quem indicou responde pela indicação; o código prevê consequência para o pessoal de apoio; e, fora do esporte, o risco é à saúde, como estimulante com arritmia ou diurético com anti-hipertensivo"), defs(MUDO)]
+    lados = [(0, "h:person", "O atleta", ["responde pelo que está no corpo, sem prova de intenção", "rótulo e boa-fé não protegem sozinhos", "reduzir a sanção exige demonstrar a origem", "pote, lote, compra e análise do produto"], FOSF, FOSF_T),
+             (884, "h:health-worker", "Quem indicou", ["responde pela indicação", "o código prevê consequência para o pessoal de apoio", "fora do esporte, o risco é à saúde", "estimulante com arritmia; diurético com anti-hipertensivo"], GLIC, GLIC_T)]
+    rs = []
+    for x, ic, t, itens, cor, fundo in lados:
+        p.append(caixa(x, 0, 780, 400, cor, fundo, esp=3, rx=16))
+        p.append(icone(ic, x + 24, 18, 52, cor))
+        rs.append(rot(x + 90, 26, t, w=660, tam=30, cor=cor, peso=700, serif=True))
+        for k, it in enumerate(itens):
+            y = 96 + k * 74
+            p.append(f'<circle cx="{x + 38}" cy="{y + 14}" r="8" fill="{cor}"/>')
+            rs.append(rot(x + 60, y, it, w=700, tam=22, cor=TINTA, lh=1.25))
+    p.append(seta(880, 50, 790, 50, MUDO, "m0", esp=4))
+    rs.append(rot(790, 64, "indicou", w=90, tam=17, cor=MUDO, alinha="center"))
+    return slide("responsabilidade", 400, p, rs,
+                 eyebrow="Responsabilidade estrita", titulo="Nota fiscal não protege",
+                 destaque="Se você não sabe checar o produto, não indique o produto.", destaque_cor="tinta")
+
+
+def categoria_59():
+    """5.9: três linhas lidas numa régua de risco, do menor ao maior."""
+    p = [svg_abre(1664, 380, "Uma faixa de risco que vai do menor, à esquerda, ao maior, à direita, com três linhas. Categoria: risco menor em produto de um ingrediente, como creatina, proteína, carboidrato e eletrólito; maior em pré-treino, termogênico, hormonal, emagrecedor e fórmula complexa. Fabricante: menor com planta própria, boas práticas e rastreabilidade; maior se também vende apelo hormonal ou pró-hormônio. Compra: menor em canal com fabricante identificável; maior em marketplace e importação por conta própria")]
+    p.append(f'<defs><linearGradient id="gr59" x1="0" x2="1"><stop offset="0" stop-color="{OXID_T}"/><stop offset="1" stop-color="{FOSF_T}"/></linearGradient></defs>')
+    p.append(f'<rect x="0" y="0" width="1664" height="50" rx="25" fill="url(#gr59)"/>')
+    rs = [rot(24, 12, "risco menor", w=400, tam=22, cor=OXID, peso=700), rot(1240, 12, "risco maior", w=400, tam=22, cor=FOSF, peso=700, alinha="right")]
+    linhas = [("Categoria", "um ingrediente: creatina, proteína, carboidrato, eletrólito", "pré-treino, termogênico, “hormonal”, emagrecedor, fórmula complexa"),
+              ("Fabricante", "planta própria, boas práticas, rastreabilidade", "também vende apelo hormonal ou pró-hormônio"),
+              ("Compra", "canal com fabricante identificável", "marketplace, importação por conta própria")]
+    for k, (t, a, b) in enumerate(linhas):
+        y = 76 + k * 102
+        rs.append(rot(0, y + 30, t, w=260, tam=25, cor=TINTA, peso=700, serif=True))
+        p.append(caixa(270, y, 660, 88, OXID, CARTAO, esp=2, rx=14))
+        rs.append(rot(290, y + 14, a, w=620, tam=21, cor=TINTA, lh=1.25))
+        p.append(caixa(984, y, 680, 88, FOSF, CARTAO, esp=2, rx=14))
+        rs.append(rot(1004, y + 14, b, w=640, tam=21, cor=TINTA, lh=1.25))
+    return slide("categoria", 380, p, rs,
+                 eyebrow="Passos dois e três", titulo="Categoria e fabricante",
+                 destaque="É a lista da primeira aula do módulo, agora lida como mapa de risco.", destaque_cor="ambar")
+
+
+def lote():
+    """5.9: o pote com o número do lote em destaque, o que a certificação faz e o que não faz."""
+    p = [svg_abre(1664, 400, "No centro, um pote com a etiqueta do número do lote destacada por uma lupa: a certificação é do lote, não da marca. À esquerda, o que ela faz: um terceiro independente analisa o lote, procura substâncias proibidas no esporte, e confere-se pelo número do lote na embalagem; é a melhor ferramenta que existe. À direita, o que ela não faz: não zera o risco, por causa da amostra e do painel; não vale para o lote seguinte; não substitui registro e guarda; e não acompanha troca de fórmula")]
+    rs = []
+    for x, t, itens, ic, cor, fundo in [(0, "O que ela faz", ["terceiro independente analisa o lote", "procura substâncias proibidas no esporte", "confere-se pelo número do lote na embalagem", "é a melhor ferramenta que existe"], "t:check", OXID, OXID_T),
+                                        (1084, "O que ela não faz", ["não zera o risco: amostra e painel", "não vale para o lote seguinte", "não substitui registro e guarda", "não acompanha troca de fórmula"], "t:x", FOSF, FOSF_T)]:
+        p.append(caixa(x, 0, 580, 400, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 24, 16, t, w=530, tam=27, cor=cor, peso=700, serif=True))
+        for k, it in enumerate(itens):
+            y = 80 + k * 76
+            p.append(icone(ic, x + 24, y, 34, cor))
+            rs.append(rot(x + 70, y + 2, it, w=490, tam=21, cor=TINTA, lh=1.25))
+    pote(p, 690, 30, 280, 360, TINTA, CARTAO)
+    p.append(f'<rect x="720" y="210" width="220" height="70" rx="8" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="3"/>')
+    rs.append(rot(720, 232, "nº do lote", w=220, tam=24, cor=GLIC, peso=700, alinha="center"))
+    p.append(icone("t:zoom-question", 900, 160, 80, GLIC))
+    rs.append(rot(690, 130, "a certificação é do lote", w=280, tam=21, cor=TINTA, peso=700, alinha="center", lh=1.2))
+    return slide("lote", 400, p, rs,
+                 eyebrow="Passos quatro, cinco e seis", titulo="A certificação é do lote, não da marca",
+                 destaque="Anotar marca, lote e validade, fotografar o rótulo e guardar a embalagem custa dois minutos. Revisar a cada compra, não a cada temporada.",
+                 destaque_cor="tinta")
+
+
+def cenario():
+    """5.9: três origens de produto e o veredito para o atleta testado."""
+    p = [svg_abre(1664, 380, "Três origens de produto no Brasil, cada uma com o que se sabe e o veredito para o atleta testado. Industrializado: estimulantes mais frequentes, certificação rara e cara; para o testado, lista mínima e lote certificado quando houver. Manipulado: anabolizantes mais frequentes, lote único, sem certificação; para o testado, não. Importado por conta própria: sem registro, sem fabricante, sem origem demonstrável; para o testado, não")]
+    W = 528
+    origens = [("t:home", "Industrializado", "estimulantes mais frequentes; certificação rara e cara", "lista mínima; lote certificado quando houver", GLIC, GLIC_T),
+               ("t:pill", "Manipulado", "anabolizantes mais frequentes; lote único, sem certificação", "não", FOSF, FOSF_T),
+               ("t:plane", "Importado por conta própria", "sem registro, sem fabricante, sem origem demonstrável", "não", FOSF, FOSF_T)]
+    rs = []
+    for k, (ic, t, sabe, ver, cor, fundo) in enumerate(origens):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 380, cor, CARTAO, esp=3, rx=16))
+        p.append(icone(ic, x + 24, 22, 44, cor))
+        rs += [rot(x + 84, 26, t, w=W - 100, tam=24, cor=TINTA, peso=700, serif=True, lh=1.15), rot(x + 24, 100, sabe, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
+        rs.append(rot(x + 24, 220, "atleta testado", w=W - 48, tam=18, cor=MUDO, peso=700))
+        p.append(caixa(x + 24, 252, W - 48, 104, cor, fundo, esp=3, rx=14))
+        rs.append(rot(x + 40, 272 if len(ver) > 5 else 278, ver, w=W - 80, tam=24 if len(ver) > 5 else 40, cor=cor, peso=700, alinha="center", lh=1.25, serif=len(ver) <= 5))
+    return slide("cenario", 380, p, rs,
+                 eyebrow="O cenário brasileiro", titulo="Três origens, três condutas",
+                 destaque="Regular perante a Anvisa não é o mesmo que seguro para quem é testado. São duas perguntas diferentes.", destaque_cor="verm")
+
+
+def condutas_59():
+    """5.9: as três situações na linha do tempo, agora com a conduta."""
+    p = [svg_abre(1664, 380, "A mesma linha do tempo, agora com a conduta de cada momento. Antes: lista mínima, um ingrediente, fabricante identificável, lote certificado e planilha da equipe. Durante: o que há na fórmula, quem prescreveu e por quê; se é atleta testado, não; se é hormonal, é outra conversa. Depois: reunir embalagem, lote, nota e histórico, listar tudo o que usou, e buscar apoio jurídico e a via formal")]
+    rs = []
+    linha_tempo3(p, rs, [("Antes", "lista mínima; um ingrediente; fabricante identificável; lote certificado; planilha da equipe", OXID, OXID_T),
+                         ("Durante", "o que há na fórmula, quem prescreveu, por quê; se testado, não; se hormonal, outra conversa", GLIC, GLIC_T),
+                         ("Depois", "reunir embalagem, lote, nota e histórico; listar tudo o que usou; apoio jurídico e via formal", FOSF, FOSF_T)], h=380)
+    return slide("condutas", 380, p, rs,
+                 eyebrow="As três situações", titulo="Três condutas",
+                 destaque="“Nenhum produto é risco zero. O que a gente pode fazer é escolher o risco menor e documentar tudo.”", destaque_cor="petr")
+
+
+# ---------------------------------------------------------------- 5.10
+
+def remedio():
+    """5.10: a pergunta chega sobre um remédio, e a lista se confere toda vez."""
+    p = [svg_abre(1664, 360, "Um balão com a pergunta: isso é proibido? Ela quase nunca aponta para um pote, desenhado pequeno e apagado, e quase sempre para um remédio, desenhado grande. À direita, duas notas: a lista muda todo ano e se confere na fonte oficial, toda vez; o sistema, o raciocínio e o fluxo são estáveis")]
+    rs = []
+    p.append(f'<path d="M 0 30 a 30 30 0 0 1 30 -30 h 620 a 30 30 0 0 1 30 30 v 50 a 30 30 0 0 1 -30 30 h -300 l -40 40 l 6 -40 h -286 a 30 30 0 0 1 -30 -30 z" fill="{CARTAO}" stroke="{TINTA}" stroke-width="3"/>')
+    rs.append(rot(0, 34, "“Isso é proibido?”", w=680, tam=32, cor=TINTA, peso=700, alinha="center", serif=True))
+    pote(p, 80, 190, 110, 150, CINZA, PAPEL)
+    rs.append(rot(40, 340, "quase nunca", w=190, tam=19, cor=MUDO, alinha="center"))
+    p.append(icone("h:medicines", 340, 150, 180, OXID))
+    rs.append(rot(300, 336, "quase sempre um remédio", w=280, tam=21, cor=OXID, peso=700, alinha="center"))
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:calendar", "A lista muda todo ano", "os itens se conferem na fonte oficial, toda vez", GLIC, GLIC_T), ("t:refresh", "O fluxo é estável", "o sistema e o raciocínio não mudam", OXID, OXID_T)]):
+        y = k * 180
+        p.append(caixa(760, y, 904, 164, cor, fundo, esp=3, rx=16))
+        p.append(icone(ic, 784, y + 24, 48, cor))
+        rs += [rot(850, y + 28, t, w=780, tam=28, cor=cor, peso=700, serif=True), rot(784, y + 96, d, w=850, tam=22, cor=TINTA)]
+    return slide("remedio", 360, p, rs,
+                 eyebrow="Decisão clínica, não suplemento", titulo="A pergunta “isso é proibido?” quase nunca chega sobre um pote. Chega sobre um remédio.")
+
+
+def decisoes_510():
+    """5.10: três decisões típicas e a quarta pessoa, tracejada."""
+    p = [svg_abre(1664, 380, "Quatro quadros. A nadadora master com asma, usando broncodilatador inalatório há anos, antes do campeonato nacional. O corredor com TDAH, em metilfenidato prescrito pelo psiquiatra, numa prova com premiação e controle. A jogadora de vôlei com infiltração de corticoide indicada duas semanas antes do campeonato. E, tracejada, a quarta pessoa: o profissional que não prescreve nada e acha que isso não é com ele")]
+    W = 386
+    cards = [("t:swimming", "A nadadora master", "asma, broncodilatador inalatório há anos; campeonato nacional", OXID, CARTAO, False),
+             ("t:run", "O corredor", "TDAH, metilfenidato do psiquiatra; prova com premiação e controle", GLIC, CARTAO, False),
+             ("t:ball-volleyball", "A jogadora de vôlei", "infiltração de corticoide indicada duas semanas antes do campeonato", FOSF, CARTAO, False),
+             ("h:health-worker", "A quarta pessoa", "o profissional que não prescreve nada e acha que isso não é com ele", TINTA, PAPEL, True)]
+    rs = []
+    for k, (ic, t, d, cor, fundo, tr) in enumerate(cards):
+        x = k * (W + 40)
+        p.append(f'<rect x="{x}" y="0" width="{W}" height="380" rx="16" fill="{fundo}" stroke="{cor}" stroke-width="3"{TRACO if tr else ""}/>')
+        p.append(icone(ic, x + W / 2 - 36, 30, 72, cor))
+        rs += [rot(x + 20, 124, t, w=W - 40, tam=25, cor=cor, peso=700, alinha="center", serif=True), rot(x + 24, 180, d, w=W - 48, tam=21, cor=TINTA, alinha="center", lh=1.35)]
+    return slide("decisoes", 380, p, rs,
+                 eyebrow="Três decisões típicas", titulo="Nenhuma resposta é “não”")
+
+
+def lista_510():
+    """5.10: os três blocos da lista como faixas sobre o tempo."""
+    p = [svg_abre(1664, 400, "Três faixas sobre o tempo. Em todos os momentos, dentro e fora de competição: substâncias não aprovadas, anabolizantes, hormônios peptídicos e fatores de crescimento, beta-2 agonistas, moduladores hormonais e metabólicos, diuréticos e mascarantes, e métodos de sangue, químicos e genéticos. Em competição, das 23h59 da véspera ao fim da coleta: estimulantes, narcóticos, canabinoides e glicocorticoides. Em esportes específicos: betabloqueadores, nas modalidades de precisão")]
+    X0, XC, X1 = 260, 1120, 1664
+    rs = [rot(X0, 0, "fora de competição", w=XC - X0, tam=20, cor=MUDO, peso=700, alinha="center"),
+          rot(XC, 0, "em competição", w=X1 - XC, tam=20, cor=MUDO, peso=700, alinha="center")]
+    p.append(f'<line x1="{XC}" y1="30" x2="{XC}" y2="400" stroke="{TINTA}" stroke-width="3"{TRACO}/>')
+    rs.append(rot(XC - 120, 372, "23h59 da véspera", w=240, tam=17, cor=TINTA, peso=700, alinha="center"))
+    faixas = [("Em todos os momentos", X0, X1, "não aprovadas; anabolizantes; hormônios peptídicos e fatores de crescimento; beta-2 agonistas; moduladores hormonais e metabólicos; diuréticos e mascarantes; métodos de sangue, químicos e genéticos", FOSF, FOSF_T, 40, 150),
+              ("Em competição", XC, X1, "estimulantes, narcóticos, canabinoides, glicocorticoides; até o fim da coleta", GLIC, GLIC_T, 206, 100),
+              ("Esportes específicos", XC, X1, "betabloqueadores, em modalidades de precisão", AZUL, AZUL_T, 318, 50)]
+    for t, a, b, d, cor, fundo, y, h in faixas:
+        rs.append(rot(0, y + h / 2 - 14, t, w=250, tam=22, cor=cor, peso=700, serif=True, lh=1.15))
+        p.append(f'<rect x="{a}" y="{y}" width="{b - a}" height="{h}" rx="12" fill="{fundo}" stroke="{cor}" stroke-width="2"/>')
+        rs.append(rot(a + 20, y + (14 if h > 60 else 12), d, w=b - a - 40, tam=20 if h > 60 else 19, cor=TINTA, lh=1.3))
+    return slide("lista", 400, p, rs,
+                 eyebrow="Agência Mundial Antidopagem · ABCD", titulo="Três blocos, em vigor em 1º de janeiro",
+                 destaque="Entra na lista quem cumpre dois de três critérios (desempenho, saúde, espírito esportivo) ou mascara. Consulte a do ano, em português, pelo princípio ativo.",
+                 destaque_cor="petr")
+
+
+def violacoes():
+    """5.10: onze violações, quatro do atleta e sete de qualquer pessoa."""
+    p = [svg_abre(1664, 380, "Onze quadrados, um por violação. Quatro dizem respeito ao atleta: presença na amostra, uso ou tentativa, recusar ou evitar a coleta, e falhas de localização. Sete podem ser cometidas por qualquer pessoa: adulterar o controle, posse, tráfico, administração a um atleta, cumplicidade, associação proibida, e retaliar quem denuncia")]
+    atl = ["presença na amostra", "uso ou tentativa", "recusar ou evitar a coleta", "falhas de localização"]
+    qq = ["adulterar o controle", "posse", "tráfico", "administração a um atleta", "cumplicidade: ajudar, encobrir, incentivar", "associação proibida", "retaliar quem denuncia"]
+    rs = [rot(0, 0, "Dizem respeito ao atleta", w=500, tam=24, cor=TINTA, peso=700, serif=True), rot(560, 0, "Qualquer pessoa pode cometer", w=1100, tam=24, cor=FOSF, peso=700, serif=True)]
+    for k, t in enumerate(atl):
+        y = 50 + k * 82
+        p.append(caixa(0, y, 500, 70, TINTA, CARTAO, esp=2, rx=12))
+        p.append(f'<rect x="14" y="{y + 17}" width="36" height="36" rx="6" fill="{TINTA}"/>')
+        rs.append(rot(64, y + 22, t, w=420, tam=21, cor=TINTA))
+    for k, t in enumerate(qq):
+        x, y = 560 + (k % 2) * 556, 50 + (k // 2) * 82
+        p.append(caixa(x, y, 536, 70, FOSF, FOSF_T, esp=2, rx=12))
+        p.append(f'<rect x="{x + 14}" y="{y + 17}" width="36" height="36" rx="6" fill="{FOSF}"/>')
+        rs.append(rot(x + 64, y + 22, t, w=460, tam=21, cor=TINTA))
+    return slide("violacoes", 380, p, rs,
+                 eyebrow="Onze violações", titulo="Violação não é sinônimo de exame positivo",
+                 destaque="“Eu não prescrevo, então não me envolve” está errado como fato, não como opinião.",
+                 destaque_cor="verm", fonte="Código Mundial Antidopagem, artigos 2.1 a 2.11")
+
+
+def consultorio():
+    """5.10: cinco situações do consultório, com classe, bloco e o que decide."""
+    p = [svg_abre(1664, 400, "Cinco situações. Asma: beta-2 agonista, proibido sempre; decide a substância, a via e a dose, e o salbutamol inalado é permitido até 1.600 microgramas em 24 horas e 600 em 8 horas, pela lista de 2026. Corticoide: glicocorticoide, em competição; injetável, oral e retal proibidos, com tempo de eliminação publicado. Resfriado: estimulante, em competição; o descongestionante do xarope, conferindo o princípio ativo. TDAH: estimulante, em competição; não interromper, pedir autorização de uso terapêutico. Corte de peso: diurético, sempre; mascara, e é também o adulterante mais comum no Brasil")]
+    linhas = [("h:lungs", "Asma", "beta-2 agonista", "sempre", "substância, via, dose; salbutamol inalado até 1.600 µg/24 h e 600 µg/8 h (lista 2026)"),
+              ("t:first-aid-kit", "Corticoide", "glicocorticoide", "em competição", "injetável, oral e retal proibidos; tempo de eliminação publicado"),
+              ("t:mood-sick", "Resfriado", "estimulante", "em competição", "descongestionante do xarope; conferir o princípio ativo"),
+              ("t:brain", "TDAH", "estimulante", "em competição", "não interromper: AUT"),
+              ("t:scale", "Corte de peso", "diurético", "sempre", "mascara; também o adulterante mais comum no Brasil")]
+    rs = []
+    for k, (ic, t, cl, bl, d) in enumerate(linhas):
+        y = k * 80
+        cor = FOSF if bl == "sempre" else GLIC
+        p.append(f'<line x1="0" y1="{y + 74}" x2="1664" y2="{y + 74}" stroke="{BORDA}" stroke-width="2"/>')
+        p.append(icone(ic, 0, y + 16, 40, TINTA))
+        rs.append(rot(56, y + 22, t, w=230, tam=23, cor=TINTA, peso=700, serif=True))
+        rs.append(rot(290, y + 22, cl, w=230, tam=21, cor=TINTA))
+        p.append(caixa(520, y + 14, 200, 46, cor, FOSF_T if cor == FOSF else GLIC_T, esp=2, rx=23))
+        rs.append(rot(520, y + 26, bl, w=200, tam=19, cor=cor, peso=700, alinha="center"))
+        rs.append(rot(750, y + 12, d, w=914, tam=20, cor=TINTA, lh=1.3))
+    return slide("consultorio", 400, p, rs,
+                 eyebrow="Onde a lista aparece de verdade", titulo="Cinco situações do consultório",
+                 destaque="Números da lista de 2026 são exemplo. Confira sempre a lista vigente.", destaque_cor="ambar")
+
+
+def aut():
+    """5.10: quatro critérios somados abrem a autorização, e os prazos."""
+    p = [svg_abre(1664, 400, "Quatro critérios que precisam valer juntos, ligados por e, levando à autorização de uso terapêutico: condição médica diagnosticada que exige a substância ou o método proibido; sem ganho além do normal, altamente improvável que melhore além do retorno ao estado de saúde; sem alternativa permitida razoável; e não ser consequência de doping prévio. Embaixo, os prazos na ABCD: pedido pelo menos 30 dias antes, para substância proibida em competição, e até 21 dias para decidir"), defs(MUDO)]
+    crit = [("Condição médica diagnosticada", "que exige a substância ou o método proibido"), ("Sem ganho além do normal", "improvável que melhore além do retorno à saúde"),
+            ("Sem alternativa permitida razoável", ""), ("Não é consequência de doping prévio", "o dano não vira justificativa")]
+    rs = []
+    for k, (t, d) in enumerate(crit):
+        x = k * 330
+        p.append(caixa(x, 0, 300, 200, OXID, OXID_T, esp=2, rx=14))
+        p.append(icone("t:check", x + 20, 20, 36, OXID))
+        rs += [rot(x + 20, 66, t, w=260, tam=21, cor=OXID, peso=700, lh=1.2)]
+        if d:
+            rs.append(rot(x + 20, 130, d, w=260, tam=18, cor=TINTA, lh=1.25))
+        if k < 3:
+            rs.append(rot(x + 300, 84, "e", w=30, tam=22, cor=OXID, peso=700, alinha="center"))
+    p.append(seta(1324, 100, 1370, 100, MUDO, "m0", esp=4))
+    p.append(caixa(1380, 20, 284, 160, OXID, OXID, esp=0, rx=16))
+    rs.append(rot(1380, 60, "AUT", w=284, tam=48, cor=PAPEL, peso=700, alinha="center", serif=True))
+    X0, X1 = 40, 1620
+    X = lambda d: X0 + (d + 35) / 35 * (X1 - X0)
+    p.append(f'<line x1="{X0}" y1="320" x2="{X1}" y2="320" stroke="{MUDO}" stroke-width="3"/>')
+    for d, t in [(-30, "pedido: ≥ 30 dias antes"), (-9, "decisão: até 21 dias depois"), (0, "competição")]:
+        p.append(f'<circle cx="{X(d):.0f}" cy="320" r="12" fill="{FOSF if d == 0 else OXID}"/>')
+        rs.append(rot(min(X(d) - 160, 1664 - 320), 340, t, w=320, tam=20, cor=TINTA, peso=700, alinha="right" if d == 0 else "center"))
+    p.append(f'<rect x="{X(-30):.0f}" y="290" width="{X(-9) - X(-30):.0f}" height="16" rx="8" fill="{GLIC}"/>')
+    rs.append(rot(X(-30), 256, "na ABCD", w=X(-9) - X(-30), tam=19, cor=GLIC, peso=700, alinha="center"))
+    return slide("aut", 400, p, rs,
+                 eyebrow="Autorização de uso terapêutico", titulo="Não é brecha: é o que permite tratar",
+                 destaque="A documentação aprova ou reprova.", destaque_cor="verm")
+
+
+def controle():
+    """5.10: o dia do controle e o que vem depois de um resultado adverso."""
+    p = [svg_abre(1664, 400, "Duas sequências. No dia: notificação e observação até a coleta; acompanhante, obrigatório para menor; conferir dados e lacres, e anotar irregularidade no formulário; declarar remédios e suplementos. Depois de um resultado adverso: amostra B a pedido do atleta; recusar a coleta equivale a positivo; suspensão provisória, defesa e recurso; e, para mostrar ausência de culpa significativa, a documentação pesa"), defs(MUDO)]
+    rs = []
+    for i, (t, passos, cor, fundo) in enumerate([("No dia", ["notificação; observação até a coleta", "acompanhante: obrigatório para menor", "conferir dados e lacres; irregularidade no formulário", "declarar remédios e suplementos"], OXID, OXID_T),
+                                                 ("Depois do resultado adverso", ["amostra B a pedido do atleta", "recusar a coleta equivale a positivo", "suspensão provisória, defesa, recurso", "sem culpa significativa: a documentação pesa"], FOSF, FOSF_T)]):
+        y = i * 210
+        rs.append(rot(0, y, t, w=800, tam=24, cor=cor, peso=700, serif=True))
+        for k, ps in enumerate(passos):
+            x = k * 420
+            p.append(caixa(x, y + 44, 384, 140, cor, fundo, esp=2, rx=14))
+            rs.append(rot(x + 18, y + 64, ps, w=348, tam=21, cor=TINTA, lh=1.3))
+            if k < 3:
+                p.append(seta(x + 388, y + 114, x + 414, y + 114, MUDO, "m0", esp=3))
+    return slide("controle", 400, p, rs,
+                 eyebrow="O controle, na prática", titulo="O que fazer e o que dizer no dia",
+                 destaque="O papel da equipe não é julgar. É organizar a defesa e sustentar a pessoa.", destaque_cor="tinta")
+
+
+def profissoes():
+    """5.10: o que cada profissão faz no antidoping."""
+    p = [svg_abre(1664, 400, "Cinco profissões e o que cada uma faz no antidoping. Médico: verifica antes de prescrever, escolhe a alternativa permitida, conduz a autorização de uso terapêutico e registra. Nutricionista: as seis perguntas do suplemento, o registro de marca e lote, e o direito de dizer não. Educador físico e preparador: encaminha em vez de opinar e reconhece o que circula no vestiário. Fisioterapeuta: o que é aplicado entra na conta, e administrar é violação. Psicólogo: a pressão que leva ao uso, e o atleta em colapso depois da violação")]
+    linhas = [("t:stethoscope", "Médico", "verifica antes de prescrever, escolhe a alternativa permitida, conduz a AUT, registra"),
+              ("t:salad", "Nutricionista", "as seis perguntas do suplemento; registro de marca e lote; o direito de dizer não"),
+              ("t:stopwatch", "Educador e preparador", "encaminha em vez de opinar; reconhece o que circula no vestiário"),
+              ("h:crutches", "Fisioterapeuta", "o que é aplicado entra na conta; administrar é violação"),
+              ("h:psychology", "Psicólogo", "a pressão que leva ao uso; o atleta em colapso depois da violação")]
+    rs = []
+    for k, (ic, t, d) in enumerate(linhas):
+        y = k * 80
+        p.append(f'<line x1="0" y1="{y + 74}" x2="1664" y2="{y + 74}" stroke="{BORDA}" stroke-width="2"/>')
+        p.append(icone(ic, 0, y + 16, 40, OXID))
+        rs += [rot(56, y + 22, t, w=380, tam=23, cor=TINTA, peso=700, serif=True), rot(460, y + 22, d, w=1200, tam=21, cor=TINTA)]
+    return slide("profissoes", 400, p, rs,
+                 eyebrow="A parte que é de todos", titulo="Responsabilidade de cada profissão",
+                 destaque="Verificar, documentar, encaminhar. Verificar custa minutos; não verificar pode custar anos.", destaque_cor="petr")
+
+
+def amador():
+    """5.10: o amador testado na interseção, e fora dela a lista vira pergunta de saúde."""
+    p = [svg_abre(1664, 400, "Dois círculos que se cruzam: atletas testados e amadores. Na interseção: campeonatos master, ligas amadoras federadas, provas de rua com premiação, universitários e categorias de base. Fora dela, à direita: a lista é, em boa parte, de coisas que fazem mal; o risco à saúde é o mesmo, sem controle médico; e reconhecer o vocabulário, como ciclo, protocolo, TRT e modulador, é clínica")]
+    p.append(f'<circle cx="330" cy="200" r="190" fill="{AZUL_T}" stroke="{AZUL}" stroke-width="3" opacity="0.9"/>')
+    p.append(f'<circle cx="560" cy="200" r="190" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="3" opacity="0.8"/>')
+    rs = [rot(150, 20, "testados", w=200, tam=24, cor=AZUL, peso=700), rot(570, 20, "amadores", w=200, tam=24, cor=GLIC, peso=700, alinha="right")]
+    for k, t in enumerate(["master", "ligas federadas", "rua com premiação", "universitários e base"]):
+        rs.append(rot(370, [100, 148, 196, 262][k], t, w=150, tam=18, cor=TINTA, peso=700, alinha="center"))
+    p.append(caixa(880, 0, 784, 400, FOSF, FOSF_T, esp=3, rx=16))
+    rs.append(rot(904, 16, "Fora da interseção", w=740, tam=27, cor=FOSF, peso=700, serif=True))
+    for k, t in enumerate(["a lista é, em boa parte, de coisas que fazem mal", "mesmo risco à saúde, sem controle médico", "reconhecer o vocabulário é clínica"]):
+        y = 76 + k * 66
+        p.append(f'<circle cx="918" cy="{y + 14}" r="8" fill="{FOSF}"/>')
+        rs.append(rot(938, y, t, w=700, tam=22, cor=TINTA))
+    x = 904
+    for t in ["ciclo", "protocolo", "TRT", "modulador"]:
+        w = 40 + len(t) * 15
+        p.append(caixa(x, 300, w, 56, FOSF, CARTAO, esp=2, rx=28))
+        rs.append(rot(x, 315, f"“{t}”", w=w, tam=21, cor=FOSF, peso=700, alinha="center"))
+        x += w + 16
+    return slide("amador", 400, p, rs,
+                 eyebrow="E quem nunca vai ser testado?", titulo="Muda a pergunta, não a lista",
+                 destaque="Para o amador: “isso é seguro, e por que essa pessoa está usando?”. É a pergunta da próxima conversa.",
+                 destaque_cor="tinta")
+
+
+def resolucao():
+    """5.10: as três decisões, a pergunta do fluxo que as resolve e a conduta."""
+    p = [svg_abre(1664, 380, "As três decisões do começo, cada uma ligada à pergunta do fluxo que a resolve e à conduta. A nadadora com asma: via, dose e momento; inalatório dentro do limite segue, com registro e declaração; fora dele, autorização. O corredor com TDAH: alternativa permitida; autorização 30 dias antes e, se não der tempo, muda a prova, não o remédio. A jogadora com infiltração: via, dose e momento; injetável pede tempo de eliminação, alternativa ou autorização, e a pergunta se é o melhor tratamento"), defs(MUDO)]
+    linhas = [("t:swimming", "Nadadora, asma", "via, dose e momento", "inalatório dentro do limite: segue, registra, declara; fora dele: AUT", OXID, OXID_T),
+              ("t:run", "Corredor, TDAH", "alternativa permitida", "AUT 30 dias antes; se não der tempo, muda a prova, não o remédio", GLIC, GLIC_T),
+              ("t:ball-volleyball", "Jogadora, infiltração", "via, dose e momento", "injetável: tempo de eliminação, alternativa, ou AUT; e é o melhor tratamento?", FOSF, FOSF_T)]
+    rs = [rot(440, 0, "Pergunta do fluxo", w=400, tam=19, cor=MUDO, peso=700), rot(860, 0, "Conduta", w=400, tam=19, cor=MUDO, peso=700)]
+    for k, (ic, t, q, c, cor, fundo) in enumerate(linhas):
+        y = 36 + k * 116
+        p.append(caixa(0, y, 400, 100, TINTA, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, 20, y + 26, 48, cor))
+        rs.append(rot(84, y + 36, t, w=300, tam=22, cor=TINTA, peso=700, serif=True))
+        p.append(seta(406, y + 50, 432, y + 50, MUDO, "m0", esp=3))
+        p.append(caixa(440, y + 20, 380, 60, cor, CARTAO, esp=2, rx=30))
+        rs.append(rot(440, y + 38, q, w=380, tam=21, cor=cor, peso=700, alinha="center"))
+        p.append(seta(826, y + 50, 852, y + 50, MUDO, "m0", esp=3))
+        p.append(caixa(860, y, 804, 100, cor, fundo, esp=3, rx=14))
+        rs.append(rot(880, y + 22, c, w=764, tam=21, cor=TINTA, lh=1.3))
+    return slide("resolucao", 380, p, rs,
+                 eyebrow="As três decisões do começo", titulo="Onde cada uma se resolve no fluxo",
+                 destaque="Depende da substância, da via, da dose e do prazo, e alguém precisa verificar e documentar.", destaque_cor="ambar")
+
+
+# ---------------------------------------------------------------- 5.11
+
+def papel_511():
+    """5.11: o papel dobrado com o protocolo."""
+    p = [svg_abre(1664, 400, "À esquerda, o contexto: veio para a avaliação pré-participação de uma prova de trilha e, na pergunta de rotina sobre remédios, hesitou e tirou um papel dobrado do bolso. À direita, o papel, intitulado protocolo, com seis linhas: testosterona injetável, hormônio de crescimento, dois peptídeos, um inibidor de aromatase, e um comprimido para proteger o fígado")]
+    rs = []
+    p.append(caixa(0, 40, 620, 320, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:clipboard-check", 24, 64, 48, TINTA))
+    rs += [rot(90, 70, "Avaliação pré-participação", w=510, tam=24, cor=TINTA, peso=700, serif=True),
+           rot(24, 140, "uma prova de trilha", w=570, tam=22, cor=MUDO),
+           rot(24, 200, "na pergunta de rotina sobre remédios, hesitou e tirou um papel dobrado do bolso", w=570, tam=23, cor=TINTA, lh=1.35)]
+    p.append(f'<path d="M 720 10 L 1590 30 L 1600 390 L 730 380 Z" fill="{PAPEL}" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<line x1="1160" y1="20" x2="1165" y2="385" stroke="{BORDA}" stroke-width="2"/>')
+    rs.append(rot(770, 40, "“Protocolo”", w=500, tam=30, cor=TINTA, peso=700, serif=True))
+    itens = ["testosterona injetável", "hormônio de crescimento", "dois peptídeos", "inibidor de aromatase", "comprimido “para proteger o fígado”"]
+    for k, t in enumerate(itens):
+        y = 110 + k * 54
+        rs.append(rot(790, y, t, w=760, tam=24, cor=FOSF if k == 4 else TINTA, peso=700 if k == 4 else 400))
+        p.append(f'<line x1="780" y1="{y + 36}" x2="1560" y2="{y + 38}" stroke="{BORDA}" stroke-width="1"/>')
+    return slide("papel", 400, p, rs,
+                 eyebrow="Caso ilustrativo", titulo="Ele chamava aquilo de protocolo")
+
+
+def limites_511():
+    """5.11: o que a aula faz e o que não faz."""
+    p = [svg_abre(1664, 360, "Duas colunas, item contra item. Esta aula faz: ajuda a reconhecer; mostra o risco real; mostra a fronteira ética e legal no Brasil; conduz a conversa sem perder a pessoa. Não faz: não ensina a prescrever; não traz protocolo nem dose; não discute como fazer com segurança; não compara esquemas")]
+    faz = ["ajuda a reconhecer", "mostra o risco real", "mostra a fronteira ética e legal no Brasil", "conduz a conversa sem perder a pessoa"]
+    nao = ["não ensina a prescrever", "não traz protocolo nem dose", "não discute “como fazer com segurança”", "não compara esquemas"]
+    rs = [rot(70, 0, "Faz", w=600, tam=30, cor=OXID, peso=700, serif=True), rot(934, 0, "Não faz", w=600, tam=30, cor=FOSF, peso=700, serif=True)]
+    for k in range(4):
+        y = 56 + k * 76
+        for x, it, ic, cor, fundo in [(0, faz[k], "t:check", OXID, OXID_T), (864, nao[k], "t:x", FOSF, FOSF_T)]:
+            p.append(caixa(x, y, 800, 64, cor, fundo, esp=2, rx=14))
+            p.append(icone(ic, x + 18, y + 14, 36, cor))
+            rs.append(rot(x + 70, y + 18, it, w=710, tam=22, cor=TINTA))
+    return slide("limites", 360, p, rs,
+                 eyebrow="Antes de seguir", titulo="O que esta aula faz, e o que não faz",
+                 destaque="Hipogonadismo e deficiência de GH ficaram no módulo de fisiologia hormonal. Esta aula é sobre o que acontece fora disso.",
+                 destaque_cor="tinta")
+
+
+def lista_511():
+    """5.11: cada linha do papel, o que é e o que fazia ali."""
+    p = [svg_abre(1664, 400, "Cada item do papel, o que ele é e o que fazia ali. Testosterona: medicamento com indicação no hipogonadismo diagnosticado; no papel, sem diagnóstico e com objetivo estético. Hormônio de crescimento: medicamento com indicações específicas; a composição muda, mas força e função não acompanham. Inibidor de aromatase: uso oncológico e endócrino; sem estradiol, mais gordura e pior função sexual. Peptídeos: muitos sem aprovação para uso humano, vendidos apenas para pesquisa, sem controle. O protetor do fígado: o item mais revelador, um efeito adverso previsto e administrado")]
+    linhas = [("Testosterona", "medicamento; indicação: hipogonadismo diagnosticado", "sem diagnóstico; objetivo estético", GLIC),
+              ("Hormônio de crescimento", "medicamento; indicações específicas", "composição muda, força e função não acompanham", GLIC),
+              ("Inibidor de aromatase", "uso oncológico e endócrino", "sem estradiol: mais gordura, pior função sexual", GLIC),
+              ("Peptídeos", "muitos sem aprovação para uso humano", "“apenas para pesquisa”: sem controle", GLIC),
+              ("“Protetor do fígado”", "o item mais revelador", "efeito adverso previsto e administrado", FOSF)]
+    rs = [rot(400, 0, "O que é", w=500, tam=19, cor=MUDO, peso=700), rot(1060, 0, "No papel dele", w=500, tam=19, cor=MUDO, peso=700)]
+    for k, (t, e, n, cor) in enumerate(linhas):
+        y = 34 + k * 74
+        destaque = cor == FOSF
+        p.append(f'<rect x="0" y="{y}" width="1664" height="64" rx="10" fill="{FOSF_T if destaque else (PAPEL if k % 2 == 0 else CARTAO)}"/>')
+        rs += [rot(16, y + 18, t, w=370, tam=22, cor=FOSF if destaque else TINTA, peso=700, serif=True), rot(400, y + 18, e, w=640, tam=20, cor=TINTA), rot(1060, y + 18, n, w=600, tam=20, cor=cor, peso=700)]
+    return slide("lista", 400, p, rs,
+                 eyebrow="O que havia no papel", titulo="A classificação muda tudo",
+                 destaque="Repor o que falta é tratamento. Elevar o que está normal é outra coisa.",
+                 destaque_cor="verm", fonte="Estradiol em homens: Finkelstein e colaboradores, New England Journal of Medicine 2013")
+
+
+def sagoe():
+    """5.11: a prevalência em barras, e as palavras que mudam a conversa de lugar."""
+    p = [svg_abre(1664, 380, "À esquerda, três barras de uso de anabolizante ao longo da vida: 3,3% no mundo, 6,4% entre homens, e 4,8% na América do Sul, acima da média global. À direita, as palavras que tiram a conversa do tratamento e a levam para o aprimoramento: otimização, modulação, protocolo, ciclo e reposição fora de indicação"), defs(FOSF)]
+    rs = [rot(0, 0, "uso de anabolizante ao longo da vida", w=760, tam=21, cor=MUDO, peso=700)]
+    for k, (v, t, cor) in enumerate([(3.3, "no mundo", TINTA), (6.4, "entre homens", GLIC), (4.8, "na América do Sul", FOSF)]):
+        y = 50 + k * 110
+        rs.append(rot(0, y, t, w=500, tam=22, cor=TINTA, peso=700))
+        p.append(f'<rect x="0" y="{y + 36}" width="{v * 90:.0f}" height="50" rx="8" fill="{cor}"/>')
+        rs.append(rot(v * 90 + 16, y + 42, f"{v:g}%".replace(".", ","), w=200, tam=32, cor=cor, peso=700, serif=True))
+    p.append(caixa(900, 0, 764, 380, FOSF, FOSF_T, esp=3, rx=16))
+    rs.append(rot(924, 18, "As palavras que mudam a conversa", w=720, tam=25, cor=FOSF, peso=700, serif=True))
+    x, y = 924, 80
+    for t in ["otimização", "modulação", "protocolo", "ciclo", "reposição fora de indicação"]:
+        w = 40 + len(t) * 14
+        if x + w > 1640:
+            x, y = 924, y + 72
+        p.append(caixa(x, y, w, 56, FOSF, CARTAO, esp=2, rx=28))
+        rs.append(rot(x, y + 15, f"“{t}”", w=w, tam=21, cor=FOSF, peso=700, alinha="center"))
+        x += w + 14
+    p.append(seta(940, 300, 1620, 300, FOSF, "m0", esp=4))
+    rs += [rot(924, 316, "do tratamento", w=300, tam=20, cor=TINTA, peso=700), rot(1340, 316, "para o aprimoramento", w=300, tam=20, cor=FOSF, peso=700, alinha="right")]
+    return slide("sagoe", 380, p, rs,
+                 eyebrow="Uma meta-análise de 2014", titulo="Não é raro",
+                 fonte="Sagoe e colaboradores · 187 estudos · Annals of Epidemiology 2014")
+
+
+def motores():
+    """5.11: três motores empurrando para o protocolo, e o que havia por baixo."""
+    p = [svg_abre(1664, 400, "Três motores com setas para o protocolo, no centro. O corpo: insatisfação, comparação, dismorfia muscular. A idade: seus hormônios caíram, uma verdade parcial com conclusão falsa. O mercado: consulta, exames, produtos, níveis ótimos. Embaixo, o que acontecia de fato: cinco horas de sono, viagens, álcool, nove quilos a mais e nenhum treino de força"), defs(MUDO)]
+    mot = [("h:mental-health", "O corpo", "insatisfação, comparação, dismorfia muscular"), ("t:calendar", "A idade", "“seus hormônios caíram”: verdade parcial, conclusão falsa"), ("h:money-bag", "O mercado", "consulta, exames, produtos, “níveis ótimos”")]
+    rs = []
+    for k, (ic, t, d) in enumerate(mot):
+        x = k * 568
+        p.append(caixa(x, 0, 528, 150, GLIC, GLIC_T, esp=2, rx=14))
+        p.append(icone(ic, x + 20, 20, 40, GLIC))
+        rs += [rot(x + 72, 24, t, w=440, tam=24, cor=GLIC, peso=700, serif=True), rot(x + 20, 76, d, w=490, tam=20, cor=TINTA, lh=1.25)]
+        p.append(seta(x + 264, 156, 832, 196, MUDO, "m0", esp=3))
+    p.append(caixa(632, 200, 400, 56, FOSF, FOSF, esp=0, rx=28))
+    rs.append(rot(632, 214, "o protocolo", w=400, tam=24, cor=PAPEL, peso=700, alinha="center"))
+    p.append(caixa(0, 280, 1664, 120, OXID, OXID_T, esp=3, rx=16))
+    rs.append(rot(24, 294, "O que acontecia por baixo", w=600, tam=24, cor=OXID, peso=700, serif=True))
+    x = 24
+    for ic, t in [("t:moon", "cinco horas de sono"), ("t:plane", "viagens"), ("h:alcohol", "álcool"), ("t:weight", "nove quilos"), ("t:barbell", "nenhum treino de força")]:
+        p.append(icone(ic, x, 338, 36, OXID))
+        rs.append(rot(x + 44, 342, t, w=300, tam=21, cor=TINTA))
+        x += 70 + len(t) * 12
+    return slide("motores", 400, p, rs,
+                 eyebrow="Por que ele chegou lá", titulo="Três motores e o que havia por baixo",
+                 destaque="Ele se sentia melhor. Negar isso destrói a conversa: o efeito é real, parte dele viria de dormir e treinar, e o preço está em outro lugar.",
+                 destaque_cor="tinta")
+
+
+def riscos_511():
+    """5.11: cinco riscos, um por sistema."""
+    p = [svg_abre(1664, 400, "Cinco quadros de risco, sem suavizar e sem exagerar. Coração: perfil lipídico, pressão, alterações estruturais em uso longo. Eixo e fertilidade: supressão, com recuperação em meses, nem sempre completa. Sangue e fígado: hematócrito e trombose; formas orais e o fígado. Humor: irritabilidade no uso, depressão na suspensão, dependência descrita. O produto e os peptídeos: frasco sem rótulo, sem dado de segurança; a pessoa é o estudo")]
+    rr = [("t:heart", "Coração", "perfil lipídico, pressão, alterações estruturais em uso longo", FOSF),
+          ("t:gender-male", "Eixo e fertilidade", "supressão; recuperação em meses, nem sempre completa", FOSF),
+          ("t:droplet", "Sangue e fígado", "hematócrito e trombose; formas orais e o fígado", GLIC),
+          ("t:brain", "Humor", "irritabilidade no uso; depressão na suspensão; dependência descrita", GLIC),
+          ("t:alert-triangle", "O produto e os peptídeos", "frasco sem rótulo; sem dado de segurança: a pessoa é o estudo", TINTA)]
+    W = 300
+    rs = []
+    for k, (ic, t, d, cor) in enumerate(rr):
+        x = k * (W + 41)
+        p.append(caixa(x, 0, W, 400, cor, CARTAO, esp=3, rx=16))
+        p.append(f'<circle cx="{x + W / 2:.0f}" cy="70" r="46" fill="{FOSF_T if cor == FOSF else (GLIC_T if cor == GLIC else PAPEL)}"/>')
+        p.append(icone(ic, x + W / 2 - 26, 44, 52, cor))
+        rs += [rot(x + 16, 136, t, w=W - 32, tam=23, cor=cor, peso=700, serif=True, alinha="center", lh=1.15), rot(x + 18, 210, d, w=W - 36, tam=20, cor=TINTA, alinha="center", lh=1.35)]
+    return slide("riscos", 400, p, rs,
+                 eyebrow="Sem suavizar e sem exagerar", titulo="Os riscos")
+
+
+def conversa_511():
+    """5.11: quatro passos de conversa, cada um com a frase que o representa."""
+    p = [svg_abre(1664, 380, "Quatro passos de conversa. Perguntar sem julgar, como rotina: hormônio, peptídeo, algo injetável, algo manipulado? Nomear o risco específico: fertilidade, hematócrito, fígado, humor na suspensão. Oferecer a avaliação que faltou: entregar o que o protocolo prometeu, um diagnóstico. Manter a porta aberta: ele pode não parar, e sem porta some até a complicação"), defs(MUDO)]
+    ps = [("Perguntar sem julgar, como rotina", "“Hormônio, peptídeo, algo injetável, algo manipulado?”", OXID, OXID_T),
+          ("Nomear o risco específico", "fertilidade, hematócrito, fígado, humor na suspensão", OXID, OXID_T),
+          ("Oferecer a avaliação que faltou", "entregar o que o protocolo prometeu: um diagnóstico", GLIC, GLIC_T),
+          ("Manter a porta aberta", "ele pode não parar; sem porta, some até a complicação", GLIC, GLIC_T)]
+    W = 386
+    rs = []
+    for k, (t, fala, cor, fundo) in enumerate(ps):
+        x = k * (W + 40)
+        p.append(f'<circle cx="{x + 36}" cy="36" r="26" fill="{cor}"/>')
+        rs += [rot(x + 10, 20, str(k + 1), w=52, tam=26, cor=PAPEL, peso=700, alinha="center"), rot(x + 74, 14, t, w=W - 80, tam=23, cor=cor, peso=700, serif=True, lh=1.15)]
+        p.append(caixa(x, 130, W, 220, cor, fundo, esp=3, rx=16))
+        rs.append(rot(x + 20, 156, fala, w=W - 40, tam=22, cor=TINTA, lh=1.35))
+        if k < 3:
+            p.append(seta(x + W + 4, 36, x + W + 36, 36, MUDO, "m0", esp=3))
+    return slide("conversa", 380, p, rs,
+                 eyebrow="Como conduzir", titulo="Quatro passos",
+                 destaque="Específico convence; genérico dispensa.", destaque_cor="tinta")
+
+
+def fronteira():
+    """5.11: a linha entre cuidar da pessoa e viabilizar a prática."""
+    p = [svg_abre(1664, 380, "Uma linha vertical separa dois lados. Cuidar: acompanhar exames, monitorar risco, tratar complicação, manter a conversa. Viabilizar: prescrever ou ajustar dose, sugerir substância, legitimar o protocolo; e, do mesmo lado, ameaçar, humilhar ou julgar, que também afastam do cuidado")]
+    rs = []
+    for x, t, itens, ic, cor, fundo in [(0, "Cuidar", ["acompanhar exames", "monitorar risco", "tratar complicação", "manter a conversa"], "t:heart-handshake", OXID, OXID_T),
+                                        (884, "Viabilizar", ["prescrever ou ajustar dose", "sugerir substância", "legitimar o protocolo", "ameaçar, humilhar, julgar"], "t:hand-stop", FOSF, FOSF_T)]:
+        p.append(caixa(x, 0, 780, 380, cor, fundo, esp=3, rx=16))
+        p.append(icone(ic, x + 24, 20, 52, cor))
+        rs.append(rot(x + 92, 28, t, w=660, tam=32, cor=cor, peso=700, serif=True))
+        for k, it in enumerate(itens):
+            y = 110 + k * 66
+            p.append(f'<circle cx="{x + 40}" cy="{y + 14}" r="8" fill="{cor}"/>')
+            rs.append(rot(x + 62, y, it, w=690, tam=24, cor=TINTA))
+    p.append(f'<line x1="832" y1="0" x2="832" y2="380" stroke="{TINTA}" stroke-width="6"/>')
+    return slide("fronteira", 380, p, rs,
+                 eyebrow="Acompanhar quem não quer parar é conivência?", titulo="Cuidar da pessoa, não viabilizar a prática",
+                 destaque="Menor de idade: família e proteção. Dor no peito, pressão muito alta, humor alterado, ideação suicida: encaminhamento imediato.",
+                 destaque_cor="verm")
+
+
+def niveis_511():
+    """5.11: cada profissão, o que decide e com o que contribui."""
+    p = [svg_abre(1664, 400, "Cinco profissões, cada uma com o que decide e com o que contribui. Nutricionista decide suplemento, dose e estratégia, e marca e lote no atleta testado; contribui reconhecendo o ingrediente de risco no rótulo. Médico decide medicamento, deficiência, reposição, autorização de uso terapêutico e suspensão; contribui perguntando, em cinco segundos, se a pessoa compete sob controle. Educador físico e preparador decidem o treino que dá sentido ao ergogênico; contribuem escutando o vestiário. Fisioterapeuta decide a carga no tecido em recuperação; é quem mais escuta sobre substância. Psicólogo decide sobre corpo, pressão e sofrimento na suspensão; vê a insatisfação por trás do pedido")]
+    linhas = [("t:salad", "Nutricionista", "suplemento, dose, estratégia; marca e lote no atleta testado", "reconhece o ingrediente de risco no rótulo"),
+              ("t:stethoscope", "Médico", "medicamento, deficiência, reposição, AUT, suspensão", "“você compete sob controle?”, em cinco segundos"),
+              ("t:stopwatch", "Educador e preparador", "o treino que dá sentido ao ergogênico", "escuta o vestiário"),
+              ("h:crutches", "Fisioterapeuta", "carga no tecido em recuperação", "é quem mais escuta sobre substância"),
+              ("h:psychology", "Psicólogo", "corpo, pressão, sofrimento na suspensão", "vê a insatisfação por trás do pedido")]
+    rs = [rot(480, 0, "Decide", w=500, tam=20, cor=TINTA, peso=700), rot(1080, 0, "Contribui", w=500, tam=20, cor=OXID, peso=700)]
+    for k, (ic, q, d, c) in enumerate(linhas):
+        y = 36 + k * 73
+        p.append(f'<line x1="0" y1="{y + 66}" x2="1664" y2="{y + 66}" stroke="{BORDA}" stroke-width="2"/>')
+        p.append(icone(ic, 0, y + 12, 40, TINTA))
+        rs += [rot(56, y + 18, q, w=400, tam=24, cor=TINTA, peso=700, serif=True), rot(480, y + 18, d, w=560, tam=21, cor=TINTA, lh=1.2)]
+        p.append(caixa(1070, y + 4, 594, 56, OXID, OXID_T, esp=2, rx=12))
+        rs.append(rot(1090, y + 20, c, w=560, tam=20, cor=OXID, peso=700, lh=1.2))
+    return slide("niveis", 400, p, rs,
+                 eyebrow="Fecho do módulo", titulo="Decisão e contribuição",
+                 destaque="Terapia hormonal com finalidade estética, de massa muscular ou de desempenho não é decisão médica disponível: é conduta vedada.",
+                 destaque_cor="verm")
+
+
+
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"05-01": [pedidos_51, passo1, comida, abcd, perguntas, riscos, rotulo, decidir, respostas],
@@ -1696,7 +2330,10 @@ LICOES = {"05-01": [pedidos_51, passo1, comida, abcd, perguntas, riscos, rotulo,
           "05-05": [esqueleto, inversao, nitrato, erros_55, bicarbonato, intestino_55, limites_55, perfis_55],
           "05-06": [categoria, perfis_56, morton_56, obstaculos, tipos, jackman, prateleira, colageno, condutas],
           "05-07": [regra_57, perfis_57, perguntas_57, ferro_57, stoffel, pista, vitd, paulsen, aplicado],
-          "05-08": [aparencia, situacoes, pecas, fraquezas, clemesha, categorias, passos_58, negocia, alertas, respostas_58]}
+          "05-08": [aparencia, situacoes, pecas, fraquezas, clemesha, categorias, passos_58, negocia, alertas, respostas_58],
+          "05-09": [inversao_59, situacoes_59, geyer, brasil, rotas_59, responsabilidade, categoria_59, lote, cenario, condutas_59],
+          "05-10": [remedio, decisoes_510, lista_510, violacoes, consultorio, aut, controle, profissoes, amador, resolucao],
+          "05-11": [papel_511, limites_511, lista_511, sagoe, motores, riscos_511, conversa_511, fronteira, niveis_511]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

@@ -145,6 +145,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O que fica", "titulo": "Ve
                     {"t": "Educador físico, preparador, fisioterapeuta, psicólogo", "x": "Escutam primeiro; encaminham."}],
           "quem": "Responsabilidade estrita para o atleta; profissional para quem indica."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-10")
+
 spec = {"arquivo": "aulas/MOD05/05-10-lista-proibida-aut-e-responsabilidade-da-equipe.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Lista proibida e autorização de uso terapêutico", "subtitulo": "Sistema, decisão clínica e responsabilidade da equipe",
