@@ -22,27 +22,82 @@
  "slides": [
   {
    "id": "pedidos",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Três pedidos típicos",
-   "titulo": "A mesma pergunta, três vezes",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três potes, cada um com um pedido. O pré-treino de catorze ingredientes, com blend proprietário e sem dose por item. O colágeno, pedido por uma mulher que treina força duas vezes por semana e tem dor no joelho. A creatina, para um adolescente do futebol que o técnico achou fraco para a idade\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"46\" y=\"0\" width=\"167\" height=\"54\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"20\" y=\"58\" width=\"220\" height=\"282\" rx=\"22\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(98.0 220.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><rect x=\"614\" y=\"0\" width=\"167\" height=\"54\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"588\" y=\"58\" width=\"220\" height=\"282\" rx=\"22\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(666.0 220.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><rect x=\"1182\" y=\"0\" width=\"167\" height=\"54\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1156\" y=\"58\" width=\"220\" height=\"282\" rx=\"22\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(1234.0 220.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 130,
+     "w": 220,
      "t": "O pré-treino",
-     "x": "catorze ingredientes, “blend proprietário”, sem dose por item",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 262,
+     "y": 90,
+     "w": 262,
+     "t": "catorze ingredientes, “blend proprietário”, sem dose por item",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 130,
+     "w": 220,
      "t": "O colágeno",
-     "x": "mulher que treina força duas vezes por semana, com dor no joelho",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 830,
+     "y": 90,
+     "w": 262,
+     "t": "mulher que treina força duas vezes por semana, com dor no joelho",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1156,
+     "y": 130,
+     "w": 220,
      "t": "A creatina",
-     "x": "adolescente de futebol; o técnico disse que ele está fraco para a idade",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1398,
+     "y": 90,
+     "w": 262,
+     "t": "adolescente de futebol; o técnico disse que ele está fraco para a idade",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Três pedidos típicos",
+   "titulo": "A mesma pergunta, três vezes",
    "destaque": "A resposta certa para as três não é “funciona” nem “não funciona”.",
    "destaque_cor": "tinta"
   },
@@ -137,261 +192,1170 @@
   },
   {
    "id": "passo1",
-   "tipo": "lista",
-   "eyebrow": "Passo um · a pergunta antes do produto",
-   "titulo": "Três perguntas antes do pote",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Um funil de três perguntas antes de chegar ao pote. Primeira: qual é o objetivo, em desfecho, como sprint repetido, prova longa, massa ou recuperação entre jogos; suplemento não tem efeito genérico. Segunda: a base está feita, com energia, sono, treino e proteína distribuída; sem base, o retorno é indistinguível de zero. Terceira: existe um motivo para não ser comida? Se não existe obstáculo, a resposta já é não\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 0 0 H 1300 L 1170 116 H 130 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 130 130 H 1170 L 1040 246 H 260 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 260 260 H 1040 L 910 376 H 390 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1442\" y=\"150\" width=\"137\" height=\"37\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"1420\" y=\"191\" width=\"180\" height=\"189\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"4\"/><path d=\"M 1060 300 C 1200 340, 1320 320, 1410 290\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
     {
+     "x": 60,
+     "y": 14,
+     "w": 1180,
      "t": "Qual é o objetivo, em desfecho?",
-     "x": "sprint repetido, prova longa, massa, recuperação entre jogos: suplemento não tem efeito genérico",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 90,
+     "y": 54,
+     "w": 1120,
+     "t": "sprint repetido, prova longa, massa, recuperação entre jogos: suplemento não tem efeito genérico",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 190,
+     "y": 144,
+     "w": 920,
      "t": "A base está feita?",
-     "x": "energia, sono, treino, proteína distribuída: sem base, o retorno é indistinguível de zero",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 220,
+     "y": 184,
+     "w": 860,
+     "t": "energia, sono, treino, proteína distribuída: sem base, o retorno é indistinguível de zero",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 274,
+     "w": 660,
      "t": "Existe um motivo para não ser comida?",
-     "x": "se não existe obstáculo, a resposta já é não",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 350,
+     "y": 314,
+     "w": 600,
+     "t": "se não existe obstáculo, a resposta já é não",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 250,
+     "w": 140,
+     "t": "o pote, por último",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "Passo um · a pergunta antes do produto",
+   "titulo": "Três perguntas antes do pote"
   },
   {
    "id": "comida",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Close e colaboradores, 2022",
-   "titulo": "Comida primeiro, mas nem sempre só comida",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o prato: comida primeiro. À direita, os seis motivos que abrem espaço ao suplemento, em dois grupos. Pelo nutriente: difícil de obter na dieta em quantidade suficiente, está num alimento que a pessoa não come, ou tem teor variável quando a dose precisa ser previsível. Pela situação: deficiência que pede dose concentrada, perto do exercício quando comer é inviável, e preocupação real com a higiene do alimento disponível\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"190\" cy=\"190\" r=\"170\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(140.0 80.0) scale(4.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><line x1=\"380\" y1=\"190\" x2=\"470\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"520\" y=\"46\" width=\"544\" height=\"104\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"520\" y=\"164\" width=\"544\" height=\"104\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"520\" y=\"282\" width=\"544\" height=\"104\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1100\" y=\"46\" width=\"544\" height=\"104\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1100\" y=\"164\" width=\"544\" height=\"104\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1100\" y=\"282\" width=\"544\" height=\"104\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 40,
+     "y": 200,
+     "w": 300,
+     "t": "Comida primeiro",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 380,
+     "y": 214,
+     "w": 120,
+     "t": "nem sempre só comida, quando",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 520,
+     "y": 0,
+     "w": 540,
+     "t": "Pelo nutriente",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 540,
+     "y": 60,
+     "w": 500,
      "t": "Difícil de obter",
-     "x": "na dieta, em quantidade suficiente",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 540,
+     "y": 98,
+     "w": 510,
+     "t": "na dieta, em quantidade suficiente",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 540,
+     "y": 178,
+     "w": 500,
      "t": "Alimento que não come",
-     "x": "o nutriente está onde a pessoa não vai",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 540,
+     "y": 216,
+     "w": 510,
+     "t": "o nutriente está onde a pessoa não vai",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 540,
+     "y": 296,
+     "w": 500,
      "t": "Teor variável",
-     "x": "e a dose precisa ser previsível",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 540,
+     "y": 334,
+     "w": 510,
+     "t": "e a dose precisa ser previsível",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1100,
+     "y": 0,
+     "w": 540,
+     "t": "Pela situação",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1120,
+     "y": 60,
+     "w": 500,
      "t": "Deficiência",
-     "x": "pede dose concentrada para corrigir",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1120,
+     "y": 98,
+     "w": 510,
+     "t": "pede dose concentrada para corrigir",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1120,
+     "y": 178,
+     "w": 500,
      "t": "Perto do exercício",
-     "x": "comer é inviável: gel e bebida são suplemento",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1120,
+     "y": 216,
+     "w": 510,
+     "t": "comer é inviável: gel e bebida são suplemento",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1120,
+     "y": 296,
+     "w": 500,
      "t": "Higiene",
-     "x": "preocupação real com o alimento disponível",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 334,
+     "w": 510,
+     "t": "preocupação real com o alimento disponível",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
-   "fonte": "International Journal of Sport Nutrition and Exercise Metabolism 2022"
+   "eyebrow": "Uma revisão de 2022",
+   "titulo": "Comida primeiro, mas nem sempre só comida",
+   "fonte": "Close e colaboradores · International Journal of Sport Nutrition and Exercise Metabolism 2022"
   },
   {
    "id": "abcd",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"As quatro letras do quadro do Instituto Australiano do Esporte. A: evidência forte, no protocolo e na situação certos; alimentos esportivos, ferro, vitamina D e cálcio na deficiência, creatina, cafeína, beta-alanina, bicarbonato, nitrato e glicerol. B: evidência emergente; colágeno, curcumina, alguns polifenóis. C: sem benefício comprovado; o grupo maior, e a maior parte do que se vende. D: proibido ou com alto risco de conter; estimulantes, pró-hormônios e moduladores seletivos do receptor de androgênio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"88\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"44\" r=\"32\" fill=\"#008A7E\"/><rect x=\"0\" y=\"100\" width=\"1664\" height=\"88\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"144\" r=\"32\" fill=\"#B07A1C\"/><rect x=\"0\" y=\"200\" width=\"1664\" height=\"88\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"244\" r=\"32\" fill=\"#6B7A87\"/><rect x=\"0\" y=\"300\" width=\"1664\" height=\"88\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"344\" r=\"32\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 18,
+     "y": 20,
+     "w": 64,
+     "t": "A",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 28,
+     "w": 520,
+     "t": "evidência forte, no protocolo e na situação certos",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 660,
+     "y": 16,
+     "w": 980,
+     "t": "alimentos esportivos; ferro, vitamina D e cálcio na deficiência; creatina, cafeína, beta-alanina, bicarbonato, nitrato, glicerol",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 18,
+     "y": 120,
+     "w": 64,
+     "t": "B",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 128,
+     "w": 520,
+     "t": "evidência emergente",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 660,
+     "y": 130,
+     "w": 980,
+     "t": "colágeno, curcumina, alguns polifenóis",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 18,
+     "y": 220,
+     "w": 64,
+     "t": "C",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 228,
+     "w": 520,
+     "t": "sem benefício comprovado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 660,
+     "y": 230,
+     "w": 980,
+     "t": "o grupo maior, e a maior parte do que se vende",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 18,
+     "y": 320,
+     "w": 64,
+     "t": "D",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 328,
+     "w": 520,
+     "t": "proibido ou com alto risco de conter",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 660,
+     "y": 330,
+     "w": 980,
+     "t": "estimulantes, pró-hormônios, moduladores seletivos do receptor de androgênio",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Passo dois · Instituto Australiano do Esporte",
    "titulo": "O eixo da evidência, em quatro letras",
-   "cab": [
-    "Grupo",
-    "O que significa",
-    "Exemplos"
-   ],
-   "larguras": [
-    10,
-    34,
-    56
-   ],
-   "linhas": [
-    [
-     "A",
-     "evidência forte, no protocolo e na situação certos",
-     "alimentos esportivos; ferro, vitamina D e cálcio na deficiência; creatina, cafeína, beta-alanina, bicarbonato, nitrato, glicerol"
-    ],
-    [
-     "B",
-     "evidência emergente",
-     "colágeno, curcumina, alguns polifenóis"
-    ],
-    [
-     "C",
-     "sem benefício comprovado",
-     "o grupo maior, e a maior parte do que se vende"
-    ],
-    [
-     "D",
-     "proibido ou com alto risco de conter",
-     "estimulantes, pró-hormônios, moduladores seletivos do receptor de androgênio"
-    ]
-   ],
    "destaque": "O quadro classifica ingredientes, não marcas. Essa distinção já é meio caminho.",
    "destaque_cor": "petr",
    "fonte": "AIS Sports Supplement Framework"
   },
   {
    "id": "perguntas",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Dentro do grupo A · Maughan e colaboradores, 2018",
-   "titulo": "A letra não basta",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"No centro, o selo do grupo A. Em volta, quatro perguntas que a letra não responde. Em quem? A maioria dos estudos é em homens jovens treinados. Qual desfecho? Desempenho, ou marcador de laboratório. De que tamanho? Pequeno: decide pódio, some no amador. Comparado com o quê? Com placebo, e com dormir, comer e treinar\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"600\" y1=\"90\" x2=\"742\" y2=\"160\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"600\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 24.0) scale(1.0000)\"><path fill=\"#008A7E\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><line x1=\"1064\" y1=\"90\" x2=\"922\" y2=\"160\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1064\" y=\"0\" width=\"600\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1088.0 24.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><line x1=\"600\" y1=\"310\" x2=\"742\" y2=\"240\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"220\" width=\"600\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(24.0 244.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><line x1=\"1064\" y1=\"310\" x2=\"922\" y2=\"240\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1064\" y=\"220\" width=\"600\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1088.0 244.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><circle cx=\"832\" cy=\"200\" r=\"110\" fill=\"#008A7E\"/><circle cx=\"832\" cy=\"200\" r=\"94\" fill=\"none\" stroke=\"#F7F6F2\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 90,
+     "y": 30,
+     "w": 490,
      "t": "Em quem?",
-     "x": "a maioria dos estudos: homens jovens treinados",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 96,
+     "w": 550,
+     "t": "a maioria dos estudos: homens jovens treinados",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1154,
+     "y": 30,
+     "w": 490,
      "t": "Qual desfecho?",
-     "x": "desempenho, ou marcador de laboratório",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1088,
+     "y": 96,
+     "w": 550,
+     "t": "desempenho, ou marcador de laboratório",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 90,
+     "y": 250,
+     "w": 490,
      "t": "De que tamanho?",
-     "x": "pequeno: decide pódio, some no amador",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 316,
+     "w": 550,
+     "t": "pequeno: decide pódio, some no amador",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1154,
+     "y": 250,
+     "w": 490,
      "t": "Comparado com o quê?",
-     "x": "com placebo, e com dormir, comer e treinar",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1088,
+     "y": 316,
+     "w": 550,
+     "t": "com placebo, e com dormir, comer e treinar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 752,
+     "y": 130,
+     "w": 160,
+     "t": "A",
+     "tam": 96,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 752,
+     "y": 244,
+     "w": 160,
+     "t": "grupo",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Dentro do grupo A · o consenso do COI, 2018",
+   "titulo": "A letra não basta",
    "destaque": "Consenso do Comitê Olímpico: a nutrição dá uma contribuição pequena, mas potencialmente valiosa, ao desempenho; os suplementos, uma contribuição menor dentro dela.",
    "destaque_cor": "tinta",
-   "fonte": "British Journal of Sports Medicine 2018"
+   "fonte": "Maughan e colaboradores · British Journal of Sports Medicine 2018"
   },
   {
    "id": "riscos",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Passo três · o eixo do risco",
-   "titulo": "Quatro riscos, e basta um",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro riscos lado a lado, cada um com uma seta para a mesma barra: basta um para pesar contra. Contaminação: o rótulo e o pote podem não coincidir, e a responsabilidade é do atleta. Risco clínico: interação, doença de base, gestação, idade; avaliação médica. Custo: dinheiro que não foi para comida, academia ou consulta. Deslocamento: o que o pote tira do lugar, como sono, café da manhã e carga\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"386\" height=\"250\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(20.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><line x1=\"193.0\" y1=\"256\" x2=\"640.3\" y2=\"314\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"426\" y=\"0\" width=\"386\" height=\"250\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(446.0 20.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><line x1=\"619.0\" y1=\"256\" x2=\"768.1\" y2=\"314\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"852\" y=\"0\" width=\"386\" height=\"250\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(872.0 20.0) scale(0.9167)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M24.039 6c-4.517 0-8.632 1.492-11.067 2.711q-.33.165-.616.322c-.378.206-.7.398-.956.567l2.77 4.078l1.304.519c5.096 2.571 11.93 2.571 17.027 0l1.48-.768L36.6 9.6a16 16 0 0 0-1.689-.957C32.488 7.437 28.471 6 24.04 6m-6.442 4.616a25 25 0 0 1-2.901-.728C16.978 8.875 20.377 7.8 24.04 7.8c2.537 0 4.936.516 6.92 1.17c-2.325.327-4.806.882-7.17 1.565c-1.86.538-4.034.48-6.192.081m15.96 5.064l-.246.124c-5.606 2.828-13.042 2.828-18.648 0l-.233-.118C6.008 24.927-.422 41.997 24.039 41.997S41.913 24.61 33.557 15.68M23 24a2 2 0 1 0 0 4zm2-2v-1h-2v1a4 4 0 0 0 0 8v4c-.87 0-1.611-.555-1.887-1.333a1 1 0 1 0-1.885.666A4 4 0 0 0 23 36v1h2v-1a4 4 0 0 0 0-8v-4c.87 0 1.611.555 1.887 1.333a1 1 0 1 0 1.885-.666A4 4 0 0 0 25 22m0 8v4a2 2 0 1 0 0-4\" clip-rule=\"evenodd\"/></g><line x1=\"1045.0\" y1=\"256\" x2=\"895.9\" y2=\"314\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1278\" y=\"0\" width=\"386\" height=\"250\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1298.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><line x1=\"1471.0\" y1=\"256\" x2=\"1023.7\" y2=\"314\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"432\" y=\"320\" width=\"800\" height=\"70\" rx=\"35\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
+     "x": 76,
+     "y": 28,
+     "w": 296,
      "t": "Contaminação",
-     "x": "o rótulo e o pote podem não coincidir; a responsabilidade é do atleta",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 96,
+     "w": 346,
+     "t": "o rótulo e o pote podem não coincidir; a responsabilidade é do atleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 502,
+     "y": 28,
+     "w": 296,
      "t": "Risco clínico",
-     "x": "interação, doença de base, gestação, idade; avaliação médica",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 446,
+     "y": 96,
+     "w": 346,
+     "t": "interação, doença de base, gestação, idade; avaliação médica",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 928,
+     "y": 28,
+     "w": 296,
      "t": "Custo",
-     "x": "dinheiro que não foi para comida, academia ou consulta",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 872,
+     "y": 96,
+     "w": 346,
+     "t": "dinheiro que não foi para comida, academia ou consulta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1354,
+     "y": 28,
+     "w": 296,
      "t": "Deslocamento",
-     "x": "o que o pote tira do lugar: sono, café da manhã, carga",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1298,
+     "y": 96,
+     "w": 346,
+     "t": "o que o pote tira do lugar: sono, café da manhã, carga",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 432,
+     "y": 338,
+     "w": 800,
+     "t": "basta um para pesar contra",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo três · o eixo do risco",
+   "titulo": "Quatro riscos, e basta um",
    "destaque": "O suplemento raramente faz mal. Ele frequentemente faz com que outra coisa não seja feita, e essa outra coisa costuma ser a que funcionava.",
    "destaque_cor": "verm"
   },
   {
    "id": "rotulo",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o enquadramento brasileiro do suplemento: suplementa, não substitui; é para indivíduos saudáveis, não tratamento; é alimento e não prova eficácia antes da venda; segue listas positivas de constituintes e de alegações. À direita, um pote com o rótulo e cinco sinais de alerta apontados: blend proprietário sem dose por item, lista muito longa, dose abaixo da estudada, alegação que não é o desfecho estudado, e estudo único, pequeno e do fabricante\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"38\" cy=\"98\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"38\" cy=\"174\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"38\" cy=\"250\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"38\" cy=\"326\" r=\"8\" fill=\"#008A7E\"/><rect x=\"751\" y=\"30\" width=\"198\" height=\"58\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"720\" y=\"92\" width=\"260\" height=\"298\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"4\"/><rect x=\"740\" y=\"140\" width=\"220\" height=\"200\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"760\" y1=\"170\" x2=\"940\" y2=\"170\" stroke=\"#C9CFD4\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"760\" y1=\"194\" x2=\"910\" y2=\"194\" stroke=\"#C9CFD4\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"760\" y1=\"218\" x2=\"880\" y2=\"218\" stroke=\"#C9CFD4\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"760\" y1=\"242\" x2=\"940\" y2=\"242\" stroke=\"#C9CFD4\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"760\" y1=\"266\" x2=\"910\" y2=\"266\" stroke=\"#C9CFD4\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"760\" y1=\"290\" x2=\"880\" y2=\"290\" stroke=\"#C9CFD4\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"760\" y1=\"314\" x2=\"940\" y2=\"314\" stroke=\"#C9CFD4\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"960\" y1=\"180\" x2=\"1056\" y2=\"88\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1076\" cy=\"88\" r=\"16\" fill=\"#A8322A\"/><line x1=\"960\" y1=\"204\" x2=\"1056\" y2=\"154\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1076\" cy=\"154\" r=\"16\" fill=\"#A8322A\"/><line x1=\"960\" y1=\"228\" x2=\"1056\" y2=\"220\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1076\" cy=\"220\" r=\"16\" fill=\"#A8322A\"/><line x1=\"960\" y1=\"252\" x2=\"1056\" y2=\"286\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1076\" cy=\"286\" r=\"16\" fill=\"#A8322A\"/><line x1=\"960\" y1=\"276\" x2=\"1056\" y2=\"352\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1076\" cy=\"352\" r=\"16\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 600,
+     "t": "O enquadramento brasileiro",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 58,
+     "y": 84,
+     "w": 560,
+     "t": "suplementa, não substitui",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 58,
+     "y": 160,
+     "w": 560,
+     "t": "para indivíduos saudáveis, não tratamento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 58,
+     "y": 236,
+     "w": 560,
+     "t": "é alimento: não prova eficácia antes da venda",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 58,
+     "y": 312,
+     "w": 560,
+     "t": "listas positivas de constituintes e de alegações",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 0,
+     "w": 600,
+     "t": "Cinco sinais de alerta",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 76,
+     "w": 32,
+     "t": "1",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1106,
+     "y": 74,
+     "w": 556,
+     "t": "blend proprietário, sem dose por item",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 142,
+     "w": 32,
+     "t": "2",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1106,
+     "y": 140,
+     "w": 556,
+     "t": "lista muito longa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 208,
+     "w": 32,
+     "t": "3",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1106,
+     "y": 206,
+     "w": 556,
+     "t": "dose abaixo da estudada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 274,
+     "w": 32,
+     "t": "4",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1106,
+     "y": 272,
+     "w": 556,
+     "t": "alegação que não é o desfecho estudado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 340,
+     "w": 32,
+     "t": "5",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1106,
+     "y": 338,
+     "w": 556,
+     "t": "estudo único, pequeno e do fabricante",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo quatro · RDC 243 e IN 28, de 2018",
    "titulo": "O rótulo e a alegação",
-   "esq": {
-    "t": "O enquadramento brasileiro",
-    "cor": "petr",
-    "itens": [
-     "suplementa, não substitui",
-     "para indivíduos saudáveis, não tratamento",
-     "é alimento: não prova eficácia antes da venda",
-     "listas positivas de constituintes e de alegações"
-    ]
-   },
-   "dir": {
-    "t": "Cinco sinais de alerta",
-    "cor": "verm",
-    "itens": [
-     "blend proprietário, sem dose por item",
-     "lista muito longa",
-     "dose abaixo da estudada",
-     "alegação que não é o desfecho estudado",
-     "estudo único, pequeno e do fabricante"
-    ]
-   },
    "destaque": "Promessa de cura, emagrecimento garantido ou “aumenta a testosterona” fora da lista: o rótulo está irregular.",
    "destaque_cor": "ambar",
    "fonte": "Agência Nacional de Vigilância Sanitária"
   },
   {
    "id": "decidir",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"O pedido se abre em três saídas. Não: isso não responde; o que responde é isto. Sim, com protocolo: grupo A, dose, momento, risco avaliado. Talvez: então é teste, não adoção. O talvez leva a uma folha de teste com quatro linhas: o quê, uma coisa por vez; para qual desfecho medido; por quanto tempo; e o critério de reversão, escrito antes\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"150\" width=\"200\" height=\"90\" rx=\"45\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"206\" y1=\"195\" x2=\"296\" y2=\"70\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"306\" y=\"20\" width=\"560\" height=\"104\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"206\" y1=\"195\" x2=\"296\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"306\" y=\"150\" width=\"560\" height=\"104\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"206\" y1=\"195\" x2=\"296\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"306\" y=\"280\" width=\"560\" height=\"104\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"872\" y1=\"332\" x2=\"950\" y2=\"332\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><path d=\"M 960 0 h 650 l 54 54 v 346 h -704 z\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 1610 0 v 54 h 54\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"990\" y1=\"144\" x2=\"1634\" y2=\"144\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"990\" y1=\"220\" x2=\"1634\" y2=\"220\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"990\" y1=\"296\" x2=\"1634\" y2=\"296\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"990\" y1=\"372\" x2=\"1634\" y2=\"372\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 178,
+     "w": 200,
+     "t": "o pedido",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 32,
+     "w": 520,
+     "t": "Não",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 330,
+     "y": 76,
+     "w": 520,
+     "t": "“isso não responde; o que responde é isto”",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 162,
+     "w": 520,
+     "t": "Sim, com protocolo",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 330,
+     "y": 206,
+     "w": 520,
+     "t": "grupo A, dose, momento, risco avaliado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 292,
+     "w": 520,
+     "t": "Talvez",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 330,
+     "y": 336,
+     "w": 520,
+     "t": "então é teste, não adoção",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 18,
+     "w": 600,
+     "t": "A folha do teste",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 990,
+     "y": 98,
+     "w": 200,
+     "t": "o quê",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 98,
+     "w": 430,
+     "t": "uma coisa por vez",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 174,
+     "w": 200,
+     "t": "desfecho",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 174,
+     "w": 430,
+     "t": "qual, e medido como",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 250,
+     "w": 200,
+     "t": "tempo",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 250,
+     "w": 430,
+     "t": "por quanto tempo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 326,
+     "w": 200,
+     "t": "reversão",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 326,
+     "w": 430,
+     "t": "critério escrito antes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo cinco · decidir",
    "titulo": "Três saídas, e o teste com data",
-   "esq": {
-    "t": "As saídas",
-    "cor": "petr",
-    "itens": [
-     "não: “isso não responde; o que responde é isto”",
-     "sim, com protocolo: grupo A, dose, momento, risco avaliado",
-     "talvez: então é teste, não adoção"
-    ]
-   },
-   "dir": {
-    "t": "A folha do teste",
-    "cor": "ambar",
-    "itens": [
-     "o quê, uma coisa por vez",
-     "para qual desfecho medido",
-     "por quanto tempo",
-     "critério de reversão escrito antes"
-    ]
-   },
    "destaque": "O placebo é real, custa todo mês e ensina a atribuir o resultado ao pote. Quem atribui o progresso ao pote para de treinar quando o pote acaba.",
    "destaque_cor": "tinta"
   },
   {
    "id": "respostas",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Os três potes do começo, cada um com o passo que decide e a resposta. Pré-treino: decide o passo quatro, o rótulo; sem dose por item, não há o que avaliar, e o problema é a jornada, não a química. Colágeno: decide o passo um, o objetivo; é grupo B, e para a dor no joelho o que tem evidência é exercício. Creatina: decide o passo um, a base; fraco para a idade não é diagnóstico, e vêm antes comida, sono, maturação e treino orientado\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"20\" y=\"0\" width=\"129\" height=\"46\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"0\" y=\"50\" width=\"170\" height=\"240\" rx=\"22\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"190\" y=\"40\" width=\"340\" height=\"60\" rx=\"30\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><rect x=\"588\" y=\"0\" width=\"129\" height=\"46\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"568\" y=\"50\" width=\"170\" height=\"240\" rx=\"22\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"758\" y=\"40\" width=\"340\" height=\"60\" rx=\"30\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><rect x=\"1156\" y=\"0\" width=\"129\" height=\"46\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1136\" y=\"50\" width=\"170\" height=\"240\" rx=\"22\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"1326\" y=\"40\" width=\"340\" height=\"60\" rx=\"30\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 120,
+     "w": 170,
+     "t": "O pré-treino",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 190,
+     "y": 56,
+     "w": 340,
+     "t": "passo quatro: o rótulo",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 190,
+     "y": 124,
+     "w": 340,
+     "t": "sem dose por item, não há o que avaliar; o problema é a jornada, não a química",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 568,
+     "y": 120,
+     "w": 170,
+     "t": "O colágeno",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 758,
+     "y": 56,
+     "w": 340,
+     "t": "passo um: o objetivo",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 758,
+     "y": 124,
+     "w": 340,
+     "t": "grupo B; para a dor no joelho, o que tem evidência é exercício",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1136,
+     "y": 120,
+     "w": 170,
+     "t": "A creatina",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1326,
+     "y": 56,
+     "w": 340,
+     "t": "passo um: a base",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1326,
+     "y": 124,
+     "w": 340,
+     "t": "“fraco para a idade” não é diagnóstico: comida, sono, maturação, treino orientado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Os três pedidos, com os cinco passos",
    "titulo": "O passo que decide cada um",
-   "cab": [
-    "Pedido",
-    "Passo que decide",
-    "Resposta"
-   ],
-   "larguras": [
-    22,
-    26,
-    52
-   ],
-   "linhas": [
-    [
-     "Pré-treino",
-     "quatro: o rótulo",
-     "sem dose por item, não há o que avaliar; o problema é a jornada, não a química"
-    ],
-    [
-     "Colágeno",
-     "um: o objetivo",
-     "grupo B; para a dor no joelho, o que tem evidência é exercício"
-    ],
-    [
-     "Creatina",
-     "um: a base",
-     "“fraco para a idade” não é diagnóstico: comida, sono, maturação, treino orientado"
-    ]
-   ],
    "destaque": "A creatina tem a maior evidência do campo, e, ainda assim, a resposta não sai do eixo da evidência.",
    "destaque_cor": "petr"
   },

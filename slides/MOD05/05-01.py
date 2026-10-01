@@ -125,6 +125,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Cinco passos, antes de qua
                     {"t": "Educador físico e preparador", "x": "O treino que o pote não substitui."}],
           "quem": "Todos aplicam os cinco passos em voz alta: a compra acontece antes da pergunta."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-01")
+
 spec = {"arquivo": "aulas/MOD05/05-01-como-classificar-um-suplemento-por-evidencia-e-por-risco.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Avaliação de suplementos no esporte", "subtitulo": "Evidência, risco e tomada de decisão",

@@ -125,6 +125,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "A decisão, em cinco linha
                     {"t": "Educador físico e preparador", "x": "Veem o efeito e o efeito adverso no treino."}],
           "quem": "A pergunta que quase ninguém faz é de todos."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-03")
+
 spec = {"arquivo": "aulas/MOD05/05-03-cafeina-dose-momento-genetica-e-efeito-real.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Cafeína no exercício", "subtitulo": "Dose, momento de uso e variabilidade individual",

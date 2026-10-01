@@ -22,40 +22,266 @@
  "slides": [
   {
    "id": "pergunta",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"À esquerda, as quatro perguntas que sobram quando a resposta é funciona: quanto, quando, para quem, e trocando o quê. À direita, três perfis típicos: quem treina às nove da noite e só sobrou a cafeína do pote; a jogadora de vôlei com jogo às nove e meia; e o ciclista hipertenso com quatro cafés, pré-treino e gel, que nunca somou nada\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"0\" y=\"0\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"380\" y=\"0\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"154\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"380\" y=\"154\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"820\" y=\"0\" width=\"844\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(844.0 20.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><rect x=\"820\" y=\"104\" width=\"844\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(844.0 124.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><rect x=\"820\" y=\"208\" width=\"844\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(844.0 228.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 18a3 3 0 1 0 6 0a3 3 0 0 0-6 0m14 0a3 3 0 1 0 6 0a3 3 0 0 0-6 0m-4 1v-4l-3-3l5-4l2 3h3m-5.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 48,
+     "w": 350,
+     "t": "Quanto?",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 380,
+     "y": 48,
+     "w": 350,
+     "t": "Quando?",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 202,
+     "w": 350,
+     "t": "Para quem?",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 380,
+     "y": 202,
+     "w": 350,
+     "t": "Trocando o quê?",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 916,
+     "y": 12,
+     "w": 720,
+     "t": "treina às 21h",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 916,
+     "y": 52,
+     "w": 720,
+     "t": "só sobrou a cafeína do pote",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 916,
+     "y": 116,
+     "w": 720,
+     "t": "vôlei às 21h30",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 916,
+     "y": 156,
+     "w": 720,
+     "t": "jogo decisivo à noite",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 916,
+     "y": 220,
+     "w": 720,
+     "t": "ciclista hipertenso",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 916,
+     "y": 260,
+     "w": 720,
+     "t": "quatro cafés, pré-treino e gel, nunca somados",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Três perfis típicos",
-   "frase": "Funciona. Então a pergunta é outra.",
-   "apoio": "Quem treina às nove da noite e só sobrou a cafeína do pote. A jogadora de vôlei com jogo às nove e meia. O ciclista hipertenso com quatro cafés, pré-treino e gel, que nunca somou nada. Quanto, quando, para quem, e trocando o quê."
+   "titulo": "Funciona. Então a pergunta é outra."
   },
   {
    "id": "mecanismo",
-   "tipo": "duas",
-   "eyebrow": "Grgic e colaboradores, 2020 · Guest e colaboradores, 2021",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o que a evidência sustenta: 21 meta-análises reunidas, com efeito em resistência aeróbica e muscular, força e potência; efeito pequeno, que decide pódio e some no amador. À direita, o mecanismo: a cafeína ocupa o receptor de adenosina, e a adenosina, que sinaliza cansaço, fica de fora. Não queima gordura de forma relevante; adia a percepção de que a energia acaba\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"700\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 170.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 226.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><path d=\"M 810 160 v 140 h 180 v -140 h -50 v 90 h -80 v -90 z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"864\" y=\"168\" width=\"72\" height=\"80\" rx=\"10\" fill=\"#B07A1C\"/><circle cx=\"1090\" cy=\"110\" r=\"44\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 650,
+     "t": "O que a evidência sustenta",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 70,
+     "w": 200,
+     "t": "21",
+     "tam": 64,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 92,
+     "w": 540,
+     "t": "meta-análises reunidas",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 174,
+     "w": 600,
+     "t": "resistência aeróbica e muscular",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 230,
+     "w": 600,
+     "t": "força e potência",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 300,
+     "w": 650,
+     "t": "efeito pequeno: decide pódio, some no amador",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 316,
+     "w": 300,
+     "t": "receptor de adenosina",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 130,
+     "w": 200,
+     "t": "cafeína",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 162,
+     "w": 180,
+     "t": "adenosina: o sinal de cansaço fica de fora",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1260,
+     "y": 60,
+     "w": 400,
+     "t": "não queima gordura de forma relevante",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 200,
+     "w": 400,
+     "t": "adia a percepção de que a energia acaba",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma revisão de 2020 · um posicionamento de 2021",
    "titulo": "Ela não cria energia",
-   "esq": {
-    "t": "O que a evidência sustenta",
-    "cor": "petr",
-    "itens": [
-     "21 meta-análises reunidas",
-     "resistência aeróbica e muscular",
-     "força e potência",
-     "efeito pequeno: decide pódio, some no amador"
-    ]
-   },
-   "dir": {
-    "t": "O mecanismo certo",
-    "cor": "ambar",
-    "itens": [
-     "bloqueia o receptor de adenosina",
-     "a adenosina sinaliza cansaço",
-     "não queima gordura de forma relevante",
-     "adia a percepção de que a energia acaba"
-    ]
-   },
    "destaque": "O que o amador sente não é velocidade: é que o treino pareceu mais fácil. E a conta do cansaço continua existindo.",
    "destaque_cor": "tinta",
-   "fonte": "British Journal of Sports Medicine 2020 · Journal of the International Society of Sports Nutrition 2021"
+   "fonte": "Grgic e colaboradores · British Journal of Sports Medicine 2020 · Guest e colaboradores · Journal of the International Society of Sports Nutrition 2021"
   },
   {
    "id": "dose",
@@ -160,74 +386,304 @@
   },
   {
    "id": "fonte",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco fontes de cafeína, com um medidor de quanto a dose é previsível. Cápsula de cafeína anidra: sim, é o que os estudos usam. Gel e bebida esportiva: sim, no rótulo, práticos durante o esforço. Goma de mascar: sim, com absorção mais rápida. Café coado: não, varia com pó, grão, moagem e tempo. Energético: em parte, vem com açúcar e outros componentes\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"0\" y1=\"100\" x2=\"1664\" y2=\"100\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 48.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><rect x=\"560\" y=\"54\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"606\" y=\"54\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"652\" y=\"54\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><line x1=\"0\" y1=\"172\" x2=\"1664\" y2=\"172\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 120.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"560\" y=\"126\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"606\" y=\"126\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"652\" y=\"126\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><line x1=\"0\" y1=\"244\" x2=\"1664\" y2=\"244\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 192.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m7.05 11.293l4.243-4.243a2 2 0 0 1 2.828 0l2.829 2.83a2 2 0 0 1 0 2.828l-4.243 4.243a2 2 0 0 1-2.828 0L7.05 14.12a2 2 0 0 1 0-2.828m9.193-2.12l3.086-.772a1.5 1.5 0 0 0 .697-2.516L17.81 3.667a1.5 1.5 0 0 0-2.44.47L14.122 7.05\"/><path d=\"M9.172 16.243L8.4 19.329a1.5 1.5 0 0 1-2.516.697L3.667 17.81a1.5 1.5 0 0 1 .47-2.44l2.913-1.248\"/></g></g><rect x=\"560\" y=\"198\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"606\" y=\"198\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"652\" y=\"198\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#008A7E\"/><line x1=\"0\" y1=\"316\" x2=\"1664\" y2=\"316\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 264.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 14c.83.642 2.077 1.017 3.5 1c1.423.017 2.67-.358 3.5-1s2.077-1.017 3.5-1c1.423-.017 2.67.358 3.5 1M8 3a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2m4-4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2\"/><path d=\"M3 10h14v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6z\"/><path d=\"M16.746 16.726a3 3 0 1 0 .252-5.555\"/></g></g><rect x=\"560\" y=\"270\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"606\" y=\"270\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"652\" y=\"270\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#C9CFD4\"/><line x1=\"0\" y1=\"388\" x2=\"1664\" y2=\"388\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 336.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4m3-4v4m3-4v4m3-4v4\"/></g><rect x=\"560\" y=\"342\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"606\" y=\"342\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"652\" y=\"342\" width=\"38\" height=\"26\" rx=\"6\" fill=\"#C9CFD4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 560,
+     "y": 0,
+     "w": 300,
+     "t": "dose previsível?",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 54,
+     "w": 480,
+     "t": "Cápsula de cafeína anidra",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 54,
+     "w": 200,
+     "t": "sim",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 54,
+     "w": 730,
+     "t": "é o que os estudos usam",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 126,
+     "w": 480,
+     "t": "Gel e bebida esportiva",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 126,
+     "w": 200,
+     "t": "sim, no rótulo",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 126,
+     "w": 730,
+     "t": "práticos durante o esforço",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 198,
+     "w": 480,
+     "t": "Goma de mascar",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 198,
+     "w": 200,
+     "t": "sim",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 198,
+     "w": 730,
+     "t": "absorção mais rápida",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 270,
+     "w": 480,
+     "t": "Café coado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 270,
+     "w": 200,
+     "t": "não",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 270,
+     "w": 730,
+     "t": "varia com pó, grão, moagem e tempo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 342,
+     "w": 480,
+     "t": "Energético",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 342,
+     "w": 200,
+     "t": "em parte",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 342,
+     "w": 730,
+     "t": "vem com açúcar e outros componentes",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A fonte, e a soma",
    "titulo": "A dose só existe se a fonte for previsível",
-   "cab": [
-    "Fonte",
-    "Dose previsível?",
-    "Observação"
-   ],
-   "larguras": [
-    28,
-    18,
-    54
-   ],
-   "linhas": [
-    [
-     "Cápsula de cafeína anidra",
-     "sim",
-     "é o que os estudos usam"
-    ],
-    [
-     "Gel e bebida esportiva",
-     "sim, no rótulo",
-     "práticos durante o esforço"
-    ],
-    [
-     "Goma de mascar",
-     "sim",
-     "absorção mais rápida"
-    ],
-    [
-     "Café coado",
-     "não",
-     "varia com pó, grão, moagem e tempo"
-    ],
-    [
-     "Energético",
-     "em parte",
-     "vem com açúcar e outros componentes"
-    ]
-   ],
    "destaque": "Quatro cafés, um pré-treino e um gel não são três decisões. São uma dose só. Somar em voz alta é o primeiro trabalho da consulta.",
    "destaque_cor": "ambar"
   },
   {
    "id": "sono",
-   "tipo": "numeros",
-   "eyebrow": "Drake e colaboradores, 2013",
-   "titulo": "O custo está na meia-vida",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma linha do tempo até a hora de deitar, com três horários de 400 miligramas de cafeína: na hora de deitar, 3 horas antes e 6 horas antes. Uma curva de queda em esquema parte da dose de 6 horas antes e ainda está longe de zero quando a pessoa deita. Mesmo nesse horário, o sono total medido caiu mais de uma hora. A meia-vida fica em torno de 5 horas, com faixa larga\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"60\" y1=\"330\" x2=\"1180\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"60\" y1=\"330\" x2=\"60\" y2=\"342\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"60\" cy=\"70\" r=\"12\" fill=\"#B07A1C\"/><line x1=\"433\" y1=\"330\" x2=\"433\" y2=\"342\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"433\" cy=\"70\" r=\"12\" fill=\"#C9CFD4\"/><line x1=\"807\" y1=\"330\" x2=\"807\" y2=\"342\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"807\" cy=\"70\" r=\"12\" fill=\"#C9CFD4\"/><polyline points=\"60,90 91,98 122,106 153,114 184,121 216,128 247,135 278,142 309,148 340,154 371,160 402,166 433,172 464,177 496,182 527,187 558,192 589,197 620,201 651,206 682,210 713,214 744,218 776,222 807,226 838,229 869,233 900,236 931,239 962,242 993,245 1024,248 1056,251 1087,254 1118,256 1149,259 1180,261\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\"/><rect x=\"807\" y=\"60\" width=\"373\" height=\"270\" fill=\"#DEE7F1\"/><g transform=\"translate(965.3 210.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><rect x=\"1260\" y=\"40\" width=\"404\" height=\"290\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "n": "400 mg",
-     "x": "de cafeína, em três horários",
-     "cor": "tinta"
+     "x": -20,
+     "y": 346,
+     "w": 160,
+     "t": "6 h antes",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "6 h",
-     "x": "antes de deitar, o horário mais distante testado",
-     "cor": "ambar"
+     "x": 353,
+     "y": 346,
+     "w": 160,
+     "t": "3 h antes",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "> 1 h",
-     "x": "a menos de sono total medido, mesmo assim",
-     "cor": "verm"
+     "x": 727,
+     "y": 346,
+     "w": 160,
+     "t": "deitar",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 10,
+     "w": 500,
+     "t": "400 mg, três horários testados",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 807,
+     "y": 70,
+     "w": 373,
+     "t": "sono",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 240,
+     "w": 420,
+     "t": "a cafeína ainda está lá ao deitar",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 380,
+     "w": 600,
+     "t": "curva: esquema com meia-vida de cerca de 5 h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 70,
+     "w": 404,
+     "t": "> 1 h",
+     "tam": 64,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1284,
+     "y": 170,
+     "w": 356,
+     "t": "a menos de sono total medido, mesmo com a dose 6 h antes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Um experimento de 2013",
+   "titulo": "O custo está na meia-vida",
    "destaque": "Meia-vida em torno de 5 horas, com faixa larga: mais longa com anticoncepcional oral e na gestação, mais curta em fumantes.",
    "destaque_cor": "petr",
-   "fonte": "Journal of Clinical Sleep Medicine 2013"
+   "fonte": "Drake e colaboradores · Journal of Clinical Sleep Medicine 2013"
   },
   {
    "id": "tras",
@@ -287,130 +743,521 @@
   },
   {
    "id": "genetica",
-   "tipo": "numeros",
-   "eyebrow": "Guest e colaboradores, 2018 · 101 atletas, 10 km de bicicleta",
-   "titulo": "Genética: achado real, sem teste de balcão",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Barras de mudança no tempo de 10 quilômetros de bicicleta, a partir do zero. Genótipo AA com 2 miligramas por quilo: 4,8% mais rápido. Genótipo AA com 4 miligramas por quilo: 6,8% mais rápido. Genótipo CC com 4 miligramas por quilo: 13,7% mais lento\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"428\" y=\"50\" width=\"192\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"348\" y=\"146\" width=\"272\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"620\" y=\"242\" width=\"548\" height=\"60\" rx=\"6\" fill=\"#A8322A\"/><line x1=\"620\" y1=\"30\" x2=\"620\" y2=\"340\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "n": "−4,8%",
-     "x": "tempo no genótipo AA, com 2 mg/kg",
-     "cor": "petr"
+     "x": 0,
+     "y": 66,
+     "w": 320,
+     "t": "AA, 2 mg/kg",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "−6,8%",
-     "x": "tempo no genótipo AA, com 4 mg/kg",
-     "cor": "petr"
+     "x": 278,
+     "y": 64,
+     "w": 140,
+     "t": "−4,8%",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "+13,7%",
-     "x": "tempo no genótipo CC, com 4 mg/kg",
-     "cor": "verm"
+     "x": 0,
+     "y": 162,
+     "w": 320,
+     "t": "AA, 4 mg/kg",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 198,
+     "y": 160,
+     "w": 140,
+     "t": "−6,8%",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 258,
+     "w": 320,
+     "t": "CC, 4 mg/kg",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1182,
+     "y": 256,
+     "w": 160,
+     "t": "+13,7%",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 220,
+     "y": 0,
+     "w": 380,
+     "t": "← mais rápido",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 0,
+     "w": 380,
+     "t": "mais lento →",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Um estudo de 2018 · 101 atletas, 10 km de bicicleta",
+   "titulo": "Genética: achado real, sem teste de balcão",
    "destaque": "Outros estudos não replicaram de forma consistente. E a conduta seria a mesma: testar a dose em treino. O teste barato já existe, e se chama treino.",
    "destaque_cor": "tinta",
-   "fonte": "Medicine and Science in Sports and Exercise 2018"
+   "fonte": "Guest e colaboradores · Medicine and Science in Sports and Exercise 2018"
   },
   {
    "id": "habito",
-   "tipo": "duas",
-   "eyebrow": "Gonçalves, Gualano e colaboradores, 2017",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, 40 ciclistas em três níveis de consumo habitual, cerca de 60, 140 e 350 miligramas por dia, em barras. Todos tomaram 6 miligramas por quilo antes do contrarrelógio, e o ganho foi o mesmo nos três grupos, desenhado como três setas iguais. A semana de abstinência não se justifica. À direita, quem passa mal: ansiedade, tremor, palpitação, náusea, urgência intestinal, dor de cabeça e insônia; para essa pessoa, não usar\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"40\" y=\"264\" width=\"140\" height=\"36\" rx=\"6\" fill=\"#B07A1C\"/><line x1=\"240\" y1=\"280\" x2=\"240\" y2=\"70\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"340\" y=\"216\" width=\"140\" height=\"84\" rx=\"6\" fill=\"#B07A1C\"/><line x1=\"540\" y1=\"280\" x2=\"540\" y2=\"70\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"640\" y=\"90\" width=\"140\" height=\"210\" rx=\"6\" fill=\"#B07A1C\"/><line x1=\"840\" y1=\"280\" x2=\"840\" y2=\"70\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><line x1=\"20\" y1=\"300\" x2=\"900\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"980\" y=\"0\" width=\"684\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1018\" cy=\"100\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1018\" cy=\"162\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1018\" cy=\"224\" r=\"8\" fill=\"#A8322A\"/><rect x=\"1004\" y=\"300\" width=\"636\" height=\"76\" rx=\"38\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 900,
+     "t": "40 ciclistas, consumo habitual por dia",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 310,
+     "w": 200,
+     "t": "≈ 60 mg",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 310,
+     "y": 310,
+     "w": 200,
+     "t": "≈ 140 mg",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 310,
+     "w": 200,
+     "t": "≈ 350 mg",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 350,
+     "w": 900,
+     "t": "6 mg/kg antes do contrarrelógio: o mesmo ganho nos três",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 18,
+     "w": 640,
+     "t": "Quem passa mal",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1038,
+     "y": 86,
+     "w": 600,
+     "t": "ansiedade, tremor, palpitação",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1038,
+     "y": 148,
+     "w": 600,
+     "t": "náusea, urgência intestinal",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1038,
+     "y": 210,
+     "w": 600,
+     "t": "dor de cabeça, insônia",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 320,
+     "w": 636,
+     "t": "para essa pessoa: não usar",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um estudo de 2017",
    "titulo": "Hábito não apaga o efeito",
-   "esq": {
-    "t": "40 ciclistas, três tercis de consumo",
-    "cor": "petr",
-    "itens": [
-     "≈ 60, 140 e 350 mg por dia",
-     "todos com 6 mg/kg antes do contrarrelógio",
-     "mesmo ganho nos três grupos",
-     "a semana de abstinência não se justifica"
-    ]
-   },
-   "dir": {
-    "t": "Quem passa mal",
-    "cor": "verm",
-    "itens": [
-     "ansiedade, tremor, palpitação",
-     "náusea, urgência intestinal",
-     "dor de cabeça, insônia",
-     "para essa pessoa: não usar"
-    ]
-   },
-   "destaque": "A cafeína do dia de prova é sempre a dose testada em treino.",
+   "destaque": "A semana de abstinência não se justifica. A cafeína do dia de prova é sempre a dose testada em treino.",
    "destaque_cor": "ambar",
-   "fonte": "Journal of Applied Physiology 2017"
+   "fonte": "Gonçalves, Gualano e colaboradores · Journal of Applied Physiology 2017"
   },
   {
    "id": "limites",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Onde a decisão deixa de ser de desempenho",
-   "titulo": "Os limites",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"No centro, a decisão de desempenho. Em volta, seis fronteiras onde ela deixa de ser de desempenho. Pó a granel: dose em miligramas, venda em gramas, com mortes documentadas por erro de colher. Gestação: teto em torno de 200 miligramas por dia, meia-vida maior, decisão médica. Crianças e adolescentes: sem indicação ergogênica, energético desaconselhado. Coração: hipertensão não controlada, arritmia, palpitação, doença conhecida. Soma de estimulantes: pré-treino, café, energético e termogênico, a dose que ninguém pretendeu. Antidoping: não é proibida, está em monitoramento, e há regras de federação\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"620\" y1=\"60\" x2=\"752\" y2=\"144\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(18.0 16.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><line x1=\"620\" y1=\"200\" x2=\"752\" y2=\"200\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"140\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(18.0 156.0) scale(0.7917)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><line x1=\"620\" y1=\"340\" x2=\"752\" y2=\"256\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"280\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(18.0 296.0) scale(0.7917)\"><g fill=\"#B07A1C\"><path d=\"M17.8 13.734a3.734 3.734 0 1 1-7.466 0a3.734 3.734 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M9.696 25.995a2 2 0 0 1-3.392-2.12l.004-.006l.007-.011l.024-.038a20 20 0 0 1 .391-.593a25 25 0 0 1 1.022-1.4c.399-.504.889-1.073 1.407-1.535c.259-.231.571-.477.924-.675c.332-.186.851-.416 1.486-.416h4.996c.635 0 1.154.23 1.487.416c.352.198.665.444.923.675c.518.462 1.009 1.031 1.407 1.536a25 25 0 0 1 1.413 1.992l.025.038l.007.01l.003.006s-.035-.054 0 0a2 2 0 0 1-3.391 2.121l-.003-.004l-.016-.025l-.152-.235v2.484l.723 7.595a2 2 0 0 1-3.97.473L14 29.143l-1.02 7.14a2 2 0 0 1-3.971-.473l.84-8.81h.018v-1.27l-.153.236l-.015.025z\" clip-rule=\"evenodd\"/><path d=\"M37.8 13.733a3.733 3.733 0 1 1-7.467 0a3.733 3.733 0 0 1 7.467 0\"/><path fill-rule=\"evenodd\" d=\"M29.701 25.785a2 2 0 0 1-3.402-2.103l.003-.006l.008-.011l.023-.038l.085-.134a26 26 0 0 1 1.313-1.858c.394-.504.88-1.074 1.392-1.537c.257-.231.567-.479.918-.677c.33-.188.85-.421 1.488-.421h4.942c.638 0 1.158.233 1.489.42c.35.2.66.447.917.678c.513.463.998 1.033 1.392 1.537a25 25 0 0 1 1.398 1.991l.024.039l.01.017a2 2 0 0 1-3.402 2.104l-.003-.005l-.015-.025l-.066-.103a22 22 0 0 0-.399-.6c.468 2.331 1.39 5.526 1.872 7.143a.99.99 0 0 1-.738 1.26c-3.537.737-6.013.718-9.854-.014a1 1 0 0 1-.76-1.28c.505-1.624 1.444-4.786 1.889-7.168a24 24 0 0 0-.506.762l-.015.025zm-.101 9.367V36.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.274m5.655.27l.397 1.469A1.5 1.5 0 0 0 38.6 36.5v-1.362a38 38 0 0 1-3.345.283\" clip-rule=\"evenodd\"/></g></g><line x1=\"1044\" y1=\"60\" x2=\"912\" y2=\"144\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1044\" y=\"0\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1062.0 16.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><line x1=\"1044\" y1=\"200\" x2=\"912\" y2=\"200\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1044\" y=\"140\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1062.0 156.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><line x1=\"1044\" y1=\"340\" x2=\"912\" y2=\"256\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1044\" y=\"280\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1062.0 296.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><circle cx=\"832\" cy=\"200\" r=\"90\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
     {
+     "x": 68,
+     "y": 20,
+     "w": 530,
      "t": "Pó a granel",
-     "x": "dose em miligramas, venda em gramas; mortes documentadas por erro de colher",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 62,
+     "w": 580,
+     "t": "dose em miligramas, venda em gramas; mortes documentadas por erro de colher",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 68,
+     "y": 160,
+     "w": 530,
      "t": "Gestação",
-     "x": "teto em torno de 200 mg/dia; meia-vida maior; decisão médica",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 202,
+     "w": 580,
+     "t": "teto em torno de 200 mg/dia; meia-vida maior; decisão médica",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 68,
+     "y": 300,
+     "w": 530,
      "t": "Crianças e adolescentes",
-     "x": "sem indicação ergogênica; energético desaconselhado",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 342,
+     "w": 580,
+     "t": "sem indicação ergogênica; energético desaconselhado",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1112,
+     "y": 20,
+     "w": 530,
      "t": "Coração",
-     "x": "hipertensão não controlada, arritmia, palpitação, doença conhecida",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1064,
+     "y": 62,
+     "w": 580,
+     "t": "hipertensão não controlada, arritmia, palpitação, doença conhecida",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1112,
+     "y": 160,
+     "w": 530,
      "t": "Soma de estimulantes",
-     "x": "pré-treino, café, energético, termogênico: a dose que ninguém pretendeu",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1064,
+     "y": 202,
+     "w": 580,
+     "t": "pré-treino, café, energético, termogênico: a dose que ninguém pretendeu",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1112,
+     "y": 300,
+     "w": 530,
      "t": "Antidoping",
-     "x": "não é proibida; está em monitoramento; há regras de federação",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 342,
+     "w": 580,
+     "t": "não é proibida; está em monitoramento; há regras de federação",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 752,
+     "y": 174,
+     "w": 160,
+     "t": "decisão de desempenho",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
     }
-   ]
+   ],
+   "eyebrow": "Onde a decisão deixa de ser de desempenho",
+   "titulo": "Os limites"
   },
   {
    "id": "decisoes",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três perfis, cada um ligado ao que decide e à decisão. Quem treina às 21 horas: o sono é a causa da falta de disposição; não usar como pré-treino, e cuidar de jantar, horário e sono. A jogadora de vôlei às 21h30: decide se o jogo é decisivo ou de calendário; dose baixa só no decisivo, ciente da noite pior. O ciclista hipertenso: decide a soma do dia; somar em voz alta, cortar o pré-treino e tratar a pressão com o médico\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"36\" width=\"400\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 62.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><line x1=\"406\" y1=\"86\" x2=\"432\" y2=\"86\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"36\" width=\"500\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"946\" y1=\"86\" x2=\"992\" y2=\"86\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1000\" y=\"36\" width=\"664\" height=\"100\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"154\" width=\"400\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 180.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><line x1=\"406\" y1=\"204\" x2=\"432\" y2=\"204\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"154\" width=\"500\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"946\" y1=\"204\" x2=\"992\" y2=\"204\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1000\" y=\"154\" width=\"664\" height=\"100\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"272\" width=\"400\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 298.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 18a3 3 0 1 0 6 0a3 3 0 0 0-6 0m14 0a3 3 0 1 0 6 0a3 3 0 0 0-6 0m-4 1v-4l-3-3l5-4l2 3h3m-5.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g><line x1=\"406\" y1=\"322\" x2=\"432\" y2=\"322\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"272\" width=\"500\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"946\" y1=\"322\" x2=\"992\" y2=\"322\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1000\" y=\"272\" width=\"664\" height=\"100\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 440,
+     "y": 0,
+     "w": 400,
+     "t": "O que decide",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 0,
+     "w": 400,
+     "t": "Decisão",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 70,
+     "w": 300,
+     "t": "Treina às 21h",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 58,
+     "w": 460,
+     "t": "o sono é a causa da falta de disposição",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1020,
+     "y": 58,
+     "w": 624,
+     "t": "não usar como pré-treino; jantar, horário e sono",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 84,
+     "y": 188,
+     "w": 300,
+     "t": "Vôlei às 21h30",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 176,
+     "w": 460,
+     "t": "jogo decisivo ou de calendário",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1020,
+     "y": 176,
+     "w": 624,
+     "t": "dose baixa só no decisivo, ciente da noite pior",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 84,
+     "y": 306,
+     "w": 300,
+     "t": "Ciclista hipertenso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 294,
+     "w": 460,
+     "t": "a soma do dia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1020,
+     "y": 294,
+     "w": 624,
+     "t": "somar em voz alta; cortar o pré-treino; pressão com o médico",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "As três decisões",
    "titulo": "O que decide cada perfil",
-   "cab": [
-    "Perfil",
-    "O que decide",
-    "Decisão"
-   ],
-   "larguras": [
-    24,
-    30,
-    46
-   ],
-   "linhas": [
-    [
-     "Treina às 21h",
-     "o sono é a causa da falta de disposição",
-     "não usar como pré-treino; jantar, horário e sono"
-    ],
-    [
-     "Vôlei às 21h30",
-     "jogo decisivo ou de calendário",
-     "dose baixa só no decisivo, ciente da noite pior"
-    ],
-    [
-     "Ciclista hipertenso",
-     "a soma do dia",
-     "somar em voz alta; cortar o pré-treino; pressão com o médico"
-    ]
-   ],
    "destaque": "A cafeína não é o problema principal do ciclista, mas é a parte que ele controla e que ninguém tinha contado.",
    "destaque_cor": "petr"
   },

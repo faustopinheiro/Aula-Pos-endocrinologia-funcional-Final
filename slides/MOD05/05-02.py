@@ -139,6 +139,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Os três perfis", "titulo"
                     {"t": "Educador físico e preparador", "x": "O treino que dá sentido ao pote."}],
           "quem": "Registrar o uso antes de um exame de sangue é de todos."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-02")
+
 spec = {"arquivo": "aulas/MOD05/05-02-creatina-mecanismo-protocolo-mitos-e-populacoes.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Creatina", "subtitulo": "Fisiologia, protocolo de uso, segurança e populações específicas",
