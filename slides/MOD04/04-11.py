@@ -131,6 +131,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Quem faz o quê", "titulo"
                     {"t": "Médico", "x": "Sono, estimulantes e álcool que preocupa."}],
           "quem": "Se o álcool virou padrão, o psicólogo entra junto."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-11")
+
 spec = {"arquivo": "aulas/MOD04/04-11-nutricao-em-viagem-e-recuperacao-pos-jogo.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Nutrição na rotina real", "subtitulo": "Recuperação pós-esforço, horários irregulares e viagem",

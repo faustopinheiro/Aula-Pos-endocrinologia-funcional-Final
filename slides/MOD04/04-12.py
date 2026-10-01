@@ -129,6 +129,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O que atravessou as doze a
                     {"t": "Reconhecimento", "x": "De todos."}],
           "quem": "No próximo módulo, suplementos e ergogênicos: evidência, marketing, risco e antidoping."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-12")
+
 spec = {"arquivo": "aulas/MOD04/04-12-alimentacao-desordenada-sinais-rastreio-e-encaminhamento.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Alimentação desordenada no esporte", "subtitulo": "Sinais, rastreio e encaminhamento",

@@ -22,37 +22,291 @@
  "slides": [
   {
    "id": "disciplina",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"No centro, cinco comportamentos: pesar toda a comida, controlar com rigidez, treinar doente, buscar o menor percentual possível, resistir à fome. Uma seta para a esquerda leva a dentro do esporte: elogio. Uma seta para a direita leva a fora do esporte: alerta\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"452\" y=\"10\" width=\"760\" height=\"58\" rx=\"29\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"452\" y=\"82\" width=\"760\" height=\"58\" rx=\"29\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"452\" y=\"154\" width=\"760\" height=\"58\" rx=\"29\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"452\" y=\"226\" width=\"760\" height=\"58\" rx=\"29\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"452\" y=\"298\" width=\"760\" height=\"58\" rx=\"29\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"440\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"1224\" y1=\"180\" x2=\"1324\" y2=\"180\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"80\" width=\"324\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(132.0 100.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 11v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1za4 4 0 0 0 4-4V6a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1-2 2h-7a3 3 0 0 1-3-3\"/></g><rect x=\"1340\" y=\"80\" width=\"324\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1472.0 100.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 452,
+     "y": 25,
+     "w": 760,
+     "t": "pesar toda a comida",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 452,
+     "y": 97,
+     "w": 760,
+     "t": "controlar com rigidez",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 452,
+     "y": 169,
+     "w": 760,
+     "t": "treinar doente",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 452,
+     "y": 241,
+     "w": 760,
+     "t": "buscar o menor percentual possível",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 452,
+     "y": 313,
+     "w": 760,
+     "t": "resistir à fome",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 176,
+     "w": 324,
+     "t": "Dentro do esporte",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 216,
+     "w": 324,
+     "t": "elogio",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1340,
+     "y": 176,
+     "w": 324,
+     "t": "Fora do esporte",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 216,
+     "w": 324,
+     "t": "alerta",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "A ambiguidade que o esporte cria",
-   "frase": "Disciplina ou sintoma?",
-   "apoio": "Pesar toda a comida, controlar com rigidez, treinar doente, buscar o menor percentual possível, resistir à fome. Fora do esporte, alerta. Dentro, elogio. As ferramentas das onze aulas são as mesmas; muda a relação da pessoa com elas."
+   "titulo": "Disciplina ou sintoma?",
+   "destaque": "As ferramentas do módulo são as mesmas; muda a relação da pessoa com elas.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "fatos",
-   "tipo": "numeros",
-   "eyebrow": "Sundgot-Borgen e Torstveit, 2004 · Arcelus, 2011",
-   "titulo": "Mais comum no esporte, e grave",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três blocos. Prevalência de transtorno alimentar: 13,5% nos atletas de elite contra 4,6% na população geral. Por sexo: 20% nas atletas mulheres e 8% nos atletas homens. Mortalidade na anorexia nervosa: 5,9 vezes a esperada, e uma em cada cinco mortes é por suicídio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"0\" y1=\"330\" x2=\"500\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"30\" y=\"168\" width=\"190\" height=\"162\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"270\" y=\"275\" width=\"190\" height=\"55\" rx=\"6\" fill=\"#6B7A87\"/><line x1=\"580\" y1=\"330\" x2=\"1080\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"610\" y=\"90\" width=\"190\" height=\"240\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"850\" y=\"234\" width=\"190\" height=\"96\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"1180\" y=\"0\" width=\"484\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1214.0 220.0) scale(1.4583)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1300.0 220.0) scale(1.4583)\"><g fill=\"#C9CFD4\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1386.0 220.0) scale(1.4583)\"><g fill=\"#C9CFD4\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1472.0 220.0) scale(1.4583)\"><g fill=\"#C9CFD4\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1558.0 220.0) scale(1.4583)\"><g fill=\"#C9CFD4\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g></svg>",
+   "rotulos": [
     {
-     "n": "13,5%",
-     "x": "dos atletas de elite com transtorno alimentar, contra 4,6% na população geral",
-     "cor": "verm"
+     "x": 0,
+     "y": 0,
+     "w": 520,
+     "t": "Elite contra população",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "20% e 8%",
-     "x": "nas atletas mulheres e nos atletas homens",
-     "cor": "ambar"
+     "x": 10,
+     "y": 122,
+     "w": 230,
+     "t": "13,5%",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "5,9 ×",
-     "x": "mortalidade na anorexia nervosa; uma em cada cinco mortes por suicídio",
-     "cor": "tinta"
+     "x": 10,
+     "y": 340,
+     "w": 230,
+     "t": "atletas de elite",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 250,
+     "y": 229,
+     "w": 230,
+     "t": "4,6%",
+     "tam": 32,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 250,
+     "y": 340,
+     "w": 230,
+     "t": "população geral",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 0,
+     "w": 520,
+     "t": "Por sexo, nos atletas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 44,
+     "w": 230,
+     "t": "20%",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 340,
+     "w": 230,
+     "t": "mulheres",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 188,
+     "w": 230,
+     "t": "8%",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 830,
+     "y": 340,
+     "w": 230,
+     "t": "homens",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 18,
+     "w": 440,
+     "t": "Anorexia nervosa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1204,
+     "y": 66,
+     "w": 440,
+     "t": "5,9 ×",
+     "tam": 60,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1204,
+     "y": 150,
+     "w": 440,
+     "t": "a mortalidade esperada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 310,
+     "w": 440,
+     "t": "uma em cada cinco mortes, por suicídio",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
+   "eyebrow": "Dois estudos, 2004 e 2011",
+   "titulo": "Mais comum no esporte, e grave",
    "destaque": "A concentração foi maior nos esportes em que o peso ou a magreza pesam no resultado.",
    "destaque_cor": "petr",
-   "fonte": "Clinical Journal of Sport Medicine 2004 · Archives of General Psychiatry 2011"
+   "fonte": "Sundgot-Borgen e Torstveit · Clinical Journal of Sport Medicine 2004 · Arcelus e colaboradores · Archives of General Psychiatry 2011"
   },
   {
    "id": "espectro",
@@ -189,257 +443,1270 @@
   },
   {
    "id": "reconhecer",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Passo um · reconhecer",
-   "titulo": "Muito disso é observável",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro quadros, um para cada canal. O que se vê: perda ou oscilação de peso, roupa larga no calor, frio constante, fratura por estresse repetida. O que se observa: evitar comer com o grupo, banheiro após refeições, rituais, excluir grupos, treinar doente. O que se ouve: fui bem, estraguei tudo, comida limpa e suja, merecer, compensar. O que o exame mostra: bradicardia com sintomas, hipotensão, eletrólitos, ciclo ausente, osso baixo\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"386\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(20.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><line x1=\"20\" y1=\"154\" x2=\"366\" y2=\"154\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"20\" y1=\"226\" x2=\"366\" y2=\"226\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"20\" y1=\"298\" x2=\"366\" y2=\"298\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"20\" y1=\"370\" x2=\"366\" y2=\"370\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"426\" y=\"0\" width=\"386\" height=\"400\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(446.0 18.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><line x1=\"446\" y1=\"154\" x2=\"792\" y2=\"154\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"446\" y1=\"226\" x2=\"792\" y2=\"226\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"446\" y1=\"298\" x2=\"792\" y2=\"298\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"446\" y1=\"370\" x2=\"792\" y2=\"370\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"852\" y=\"0\" width=\"386\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(872.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 10a7 7 0 1 1 13 3.6a10 10 0 0 1-2 2a8 8 0 0 0-2 3A4.5 4.5 0 0 1 8.2 20\"/><path d=\"M10 10a3 3 0 1 1 5 2.2\"/></g></g><line x1=\"872\" y1=\"154\" x2=\"1218\" y2=\"154\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"872\" y1=\"226\" x2=\"1218\" y2=\"226\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"872\" y1=\"298\" x2=\"1218\" y2=\"298\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"872\" y1=\"370\" x2=\"1218\" y2=\"370\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1278\" y=\"0\" width=\"386\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1298.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><line x1=\"1298\" y1=\"154\" x2=\"1644\" y2=\"154\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1298\" y1=\"226\" x2=\"1644\" y2=\"226\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1298\" y1=\"298\" x2=\"1644\" y2=\"298\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1298\" y1=\"370\" x2=\"1644\" y2=\"370\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 76,
+     "y": 24,
+     "w": 296,
      "t": "O que se vê",
-     "x": "perda ou oscilação de peso, roupa larga no calor, frio constante, fratura por estresse repetida",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 110,
+     "w": 346,
+     "t": "perda ou oscilação de peso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 182,
+     "w": 346,
+     "t": "roupa larga no calor",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 254,
+     "w": 346,
+     "t": "frio constante",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 326,
+     "w": 346,
+     "t": "fratura por estresse repetida",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 502,
+     "y": 24,
+     "w": 296,
      "t": "O que se observa",
-     "x": "evitar comer com o grupo, banheiro após refeições, rituais, excluir grupos, treinar doente",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 446,
+     "y": 110,
+     "w": 346,
+     "t": "evitar comer com o grupo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 446,
+     "y": 182,
+     "w": 346,
+     "t": "banheiro após refeições",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 446,
+     "y": 254,
+     "w": 346,
+     "t": "rituais; excluir grupos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 446,
+     "y": 326,
+     "w": 346,
+     "t": "treinar doente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 928,
+     "y": 24,
+     "w": 296,
      "t": "O que se ouve",
-     "x": "“fui bem”, “estraguei tudo”, comida limpa e suja, merecer, compensar",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 872,
+     "y": 110,
+     "w": 346,
+     "t": "“fui bem”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 182,
+     "w": 346,
+     "t": "“estraguei tudo”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 254,
+     "w": 346,
+     "t": "comida limpa e suja",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 326,
+     "w": 346,
+     "t": "merecer, compensar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1354,
+     "y": 24,
+     "w": 296,
      "t": "O que o exame mostra",
-     "x": "bradicardia com sintomas, hipotensão, eletrólitos, ciclo ausente, osso baixo",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1298,
+     "y": 110,
+     "w": 346,
+     "t": "bradicardia com sintomas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1298,
+     "y": 182,
+     "w": 346,
+     "t": "hipotensão; eletrólitos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1298,
+     "y": 254,
+     "w": 346,
+     "t": "ciclo ausente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1298,
+     "y": 326,
+     "w": 346,
+     "t": "osso baixo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo um · reconhecer",
+   "titulo": "Muito disso é observável",
    "destaque": "O vocabulário moral sobre comida é o sinal mais barato e mais subestimado.",
    "destaque_cor": "verm"
   },
   {
    "id": "observacoes",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, um homem musculoso diante de um espelho que devolve uma figura menor: na dismorfia muscular, o corpo parece pequeno. Espelho, dieta ritualizada, treino acima de tudo, anabolizante com frequência importante, e chega por lesão, dor ou platô. À direita, a baixa disponibilidade energética com duas origens: não intencional, por tempo, apetite ou informação; ou intencional, ligada a um transtorno. A mesma fisiologia, com condutas opostas\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"800\" height=\"400\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(30.0 90.0) scale(3.1250)\"><path fill=\"#12202E\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><rect x=\"200\" y=\"80\" width=\"120\" height=\"180\" rx=\"60\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(225.0 150.0) scale(1.4583)\"><path fill=\"#6B7A87\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><circle cx=\"374\" cy=\"104\" r=\"7\" fill=\"#B07A1C\"/><circle cx=\"374\" cy=\"194\" r=\"7\" fill=\"#B07A1C\"/><circle cx=\"374\" cy=\"284\" r=\"7\" fill=\"#B07A1C\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"888\" y=\"80\" width=\"752\" height=\"64\" rx=\"32\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"1100\" y1=\"150\" x2=\"1040\" y2=\"196\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"1428\" y1=\"150\" x2=\"1488\" y2=\"196\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"888\" y=\"206\" width=\"364\" height=\"170\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1276\" y=\"206\" width=\"364\" height=\"170\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "No homem, outra apresentação",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 270,
+     "w": 320,
+     "t": "o corpo parece pequeno",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 392,
+     "y": 90,
+     "w": 390,
+     "t": "espelho, dieta ritualizada, treino acima de tudo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 392,
+     "y": 180,
+     "w": 390,
+     "t": "anabolizante com frequência importante",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 392,
+     "y": 270,
+     "w": 390,
+     "t": "chega por lesão, dor ou platô",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 16,
+     "w": 760,
+     "t": "Baixa disponibilidade não é transtorno",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 888,
+     "y": 98,
+     "w": 752,
+     "t": "a mesma fisiologia",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 222,
+     "w": 324,
+     "t": "não intencional",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 908,
+     "y": 266,
+     "w": 324,
+     "t": "tempo, apetite, informação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1296,
+     "y": 222,
+     "w": 324,
+     "t": "intencional",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1296,
+     "y": 266,
+     "w": 324,
+     "t": "ligada a um transtorno",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 330,
+     "w": 324,
+     "t": "comer mais resolve",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1296,
+     "y": 330,
+     "w": 324,
+     "t": "conduta oposta",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Dois erros comuns",
    "titulo": "O homem musculoso e a energia que falta",
-   "esq": {
-    "t": "No homem, outra apresentação",
-    "cor": "ambar",
-    "itens": [
-     "o corpo parece pequeno: dismorfia muscular",
-     "espelho, dieta ritualizada, treino acima de tudo",
-     "anabolizante com frequência importante",
-     "chega por lesão, dor ou platô"
-    ]
-   },
-   "dir": {
-    "t": "Baixa disponibilidade não é transtorno",
-    "cor": "petr",
-    "itens": [
-     "pode ser não intencional: tempo, apetite, informação",
-     "ou intencional e ligada a um transtorno",
-     "mesma fisiologia, condutas opostas"
-    ]
-   },
-   "destaque": "O ambiente elogia a dismorfia muscular, e o corpo não denuncia. O passo dois é o que separa as duas colunas da direita.",
+   "destaque": "O ambiente elogia a dismorfia muscular, e o corpo não denuncia. O passo dois é o que separa as duas origens.",
    "destaque_cor": "tinta"
   },
   {
    "id": "perguntar",
-   "tipo": "duas",
-   "eyebrow": "Passo dois · Morgan, Reid e Lacey, 1999 · Martinsen, 2014",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma pergunta no topo: por que você come pouco? Se a resposta é logística, como não dá tempo, sem fome de manhã, não sei o que comer, o caminho é nutrição e organização do dia, e aumentar a ingestão resolve. Se é outra coisa, como medo de engordar, culpa, regras, compensação, mandar comer mais pode aumentar a angústia, e o cuidado é com a relação com a comida\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"482\" y=\"0\" width=\"700\" height=\"80\" rx=\"40\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"560\" y1=\"84\" x2=\"420\" y2=\"136\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"1104\" y1=\"84\" x2=\"1244\" y2=\"136\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"146\" width=\"780\" height=\"254\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"884\" y=\"146\" width=\"780\" height=\"254\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 482,
+     "y": 22,
+     "w": 700,
+     "t": "“Por que você come pouco?”",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 162,
+     "w": 730,
+     "t": "Logística",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 210,
+     "w": 730,
+     "t": "“não dá tempo”, “sem fome de manhã”, “não sei o que comer”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 282,
+     "w": 730,
+     "t": "nutrição e organização do dia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 336,
+     "w": 730,
+     "t": "aumentar a ingestão resolve",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 162,
+     "w": 730,
+     "t": "Outra coisa",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 908,
+     "y": 210,
+     "w": 730,
+     "t": "medo de engordar, culpa, regras, compensação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 282,
+     "w": 730,
+     "t": "“coma mais” pode aumentar a angústia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 336,
+     "w": 730,
+     "t": "cuidar da relação com a comida",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo dois · dois questionários, 1999 e 2014",
    "titulo": "Por que você come pouco?",
-   "esq": {
-    "t": "Logística",
-    "cor": "petr",
-    "itens": [
-     "não dá tempo, sem fome de manhã, não sei o que comer",
-     "nutrição e organização do dia",
-     "aumentar a ingestão resolve"
-    ]
-   },
-   "dir": {
-    "t": "Outra coisa",
-    "cor": "verm",
-    "itens": [
-     "medo de engordar, culpa, regras, compensação",
-     "“coma mais” pode aumentar a angústia",
-     "cuidar da relação com a comida"
-    ]
-   },
    "destaque": "SCOFF: cinco perguntas, dois “sim” pedem avaliação. BEDA-Q: feito para atletas. Rastreio não é diagnóstico, e falha no homem com dismorfia: quanto tempo por dia você pensa no seu corpo?",
    "destaque_cor": "ambar",
-   "fonte": "BMJ 1999 · Medicine and Science in Sports and Exercise 2014"
+   "fonte": "Morgan, Reid e Lacey · BMJ 1999 · Martinsen e colaboradores · Medicine and Science in Sports and Exercise 2014"
   },
   {
    "id": "abordar",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas colunas, item contra item. Fazer: em particular, com tempo; começar pelo funcional, como frio e cargas que caíram; nomear a preocupação, não o diagnóstico; manter o vínculo, mesmo com recusa. Não fazer: comentar o corpo, nem para elogiar; pesar em público ou medir sem indicação; prescrever restrição ou usar comida como prêmio; prometer sigilo absoluto a menor em risco\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><g transform=\"translate(0.0 -4.0) scale(1.0833)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M18.5 6C10.492 6 4 12.492 4 20.5C4 38.5 28 42 28 42v-7h1.5C37.508 35 44 28.508 44 20.5S37.508 6 29.5 6zM24 23.5a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5M34.5 21a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0M16 23.5a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5\" clip-rule=\"evenodd\"/></g><g transform=\"translate(864.0 -4.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><rect x=\"0\" y=\"66\" width=\"800\" height=\"72\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 82.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"66\" width=\"800\" height=\"72\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(882.0 82.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"150\" width=\"800\" height=\"72\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 166.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"150\" width=\"800\" height=\"72\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(882.0 166.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"234\" width=\"800\" height=\"72\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 250.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"234\" width=\"800\" height=\"72\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(882.0 250.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"318\" width=\"800\" height=\"72\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 334.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"318\" width=\"800\" height=\"72\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(882.0 334.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 0,
+     "w": 600,
+     "t": "Fazer",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 934,
+     "y": 0,
+     "w": 600,
+     "t": "Não fazer",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 74,
+     "y": 88,
+     "w": 710,
+     "t": "em particular, com tempo",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 938,
+     "y": 88,
+     "w": 710,
+     "t": "comentar o corpo, nem para elogiar",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 172,
+     "w": 710,
+     "t": "começar pelo funcional: frio, cargas que caíram",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 938,
+     "y": 172,
+     "w": 710,
+     "t": "pesar em público; medir sem indicação",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 256,
+     "w": 710,
+     "t": "nomear a preocupação, não o diagnóstico",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 938,
+     "y": 256,
+     "w": 710,
+     "t": "prescrever restrição; comida como prêmio",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 340,
+     "w": 710,
+     "t": "manter o vínculo, mesmo com recusa",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 938,
+     "y": 340,
+     "w": 710,
+     "t": "prometer sigilo absoluto a menor em risco",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo três · abordar",
    "titulo": "A lista do que não fazer pesa tanto quanto a outra",
-   "esq": {
-    "t": "Fazer",
-    "cor": "petr",
-    "itens": [
-     "em particular, com tempo",
-     "começar pelo funcional: frio, cargas que caíram",
-     "nomear a preocupação, não o diagnóstico",
-     "manter o vínculo, mesmo com recusa"
-    ]
-   },
-   "dir": {
-    "t": "Não fazer",
-    "cor": "verm",
-    "itens": [
-     "comentar o corpo, nem para elogiar",
-     "pesar em público; medir sem indicação",
-     "prescrever restrição; comida como prêmio",
-     "prometer sigilo absoluto a menor em risco"
-    ]
-   },
    "destaque": "A pressão também está na regra da modalidade. Uma conversa com técnicos e pais alcança mais atletas do que um ano de consultório.",
    "destaque_cor": "tinta"
   },
   {
    "id": "encaminhar",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas portas. A porta de agora: desmaio ou quase desmaio; bradicardia com sintomas ou hipotensão ao levantar; vômitos frequentes, perda de peso rápida ou confusão; qualquer sinal de risco de suicídio. A porta com calma: psicólogo e médico com experiência em transtorno alimentar; nutricionista da mesma rede; ajudar a marcar, porque um nome num papel não acontece; e, no menor de idade, a família entra\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 0 400 V 60 a 60 60 0 0 1 60 -60 h 680 a 60 60 0 0 1 60 60 V 400\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(30.0 26.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/><path d=\"M5 17H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5M6 10h4M8 8v4\"/></g></g><circle cx=\"40\" cy=\"126\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"40\" cy=\"196\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"40\" cy=\"266\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"40\" cy=\"336\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"760\" cy=\"250\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 864 400 V 60 a 60 60 0 0 1 60 -60 h 680 a 60 60 0 0 1 60 60 V 400\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(894.0 26.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><circle cx=\"904\" cy=\"126\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"904\" cy=\"196\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"904\" cy=\"266\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"904\" cy=\"336\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"1624\" cy=\"250\" r=\"9\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 96,
+     "y": 32,
+     "w": 600,
+     "t": "Agora",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 62,
+     "y": 112,
+     "w": 710,
+     "t": "desmaio ou quase desmaio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 62,
+     "y": 182,
+     "w": 710,
+     "t": "bradicardia com sintomas, hipotensão ao levantar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 62,
+     "y": 252,
+     "w": 710,
+     "t": "vômitos frequentes, perda de peso rápida, confusão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 62,
+     "y": 322,
+     "w": 710,
+     "t": "qualquer sinal de risco de suicídio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 960,
+     "y": 32,
+     "w": 600,
+     "t": "Com calma",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 926,
+     "y": 112,
+     "w": 710,
+     "t": "psicólogo e médico com experiência em transtorno alimentar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 926,
+     "y": 182,
+     "w": 710,
+     "t": "nutricionista da mesma rede",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 926,
+     "y": 252,
+     "w": 710,
+     "t": "ajudar a marcar: um nome num papel não acontece",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 926,
+     "y": 322,
+     "w": 710,
+     "t": "menor de idade: a família entra",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "Passo quatro · encaminhar",
    "titulo": "Duas portas",
-   "esq": {
-    "t": "Agora",
-    "cor": "verm",
-    "itens": [
-     "desmaio ou quase desmaio",
-     "bradicardia com sintomas, hipotensão ao levantar",
-     "vômitos frequentes, perda de peso rápida, confusão",
-     "qualquer sinal de risco de suicídio"
-    ]
-   },
-   "dir": {
-    "t": "Com calma",
-    "cor": "petr",
-    "itens": [
-     "psicólogo e médico com experiência em transtorno alimentar",
-     "nutricionista da mesma rede",
-     "ajudar a marcar: um nome num papel não acontece",
-     "menor de idade: a família entra"
-    ]
-   },
    "destaque": "Na porta de agora, interromper a atividade e levar ao médico hoje, não na semana que vem.",
    "destaque_cor": "verm"
   },
   {
    "id": "caso",
-   "tipo": "lista",
-   "eyebrow": "Caso ilustrativo",
-   "titulo": "A apresentação que mais escapa",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma linha com quatro tempos. Primeira consulta: vinte e poucos anos, musculação há sete anos, dor no ombro há cinco meses, nenhum treino perdido. Ao longo das semanas: exercício adaptado, nunca reduzido; o casamento do primo perdido; as mesmas refeições; fotos diárias; ainda se achava pequeno. A pergunta direta, sem julgamento: terceiro ciclo de anabolizante do ano, orientado na academia. A conduta, lenta: vínculo, conversa funcional sobre o casamento, psicólogo e médico, treino redesenhado mantendo a frequência\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"380\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"40\" r=\"26\" fill=\"#12202E\"/><line x1=\"384\" y1=\"220\" x2=\"422\" y2=\"220\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"428\" y=\"40\" width=\"380\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"468\" cy=\"40\" r=\"26\" fill=\"#B07A1C\"/><line x1=\"812\" y1=\"220\" x2=\"850\" y2=\"220\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"856\" y=\"40\" width=\"380\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"896\" cy=\"40\" r=\"26\" fill=\"#A8322A\"/><line x1=\"1240\" y1=\"220\" x2=\"1278\" y2=\"220\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1284\" y=\"40\" width=\"380\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1324\" cy=\"40\" r=\"26\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
     {
+     "x": 14,
+     "y": 26,
+     "w": 52,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 86,
+     "w": 340,
      "t": "Primeira consulta",
-     "x": "24 anos, musculação há sete anos, dor no ombro há cinco meses, nenhum treino perdido",
-     "cor": "tinta"
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 164,
+     "w": 340,
+     "t": "vinte e poucos anos, musculação há sete anos, dor no ombro há cinco meses, nenhum treino perdido",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 442,
+     "y": 26,
+     "w": 52,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 448,
+     "y": 86,
+     "w": 340,
      "t": "Ao longo das semanas",
-     "x": "exercício adaptado, nunca reduzido; o casamento do primo perdido; as mesmas refeições; fotos diárias; ainda se achava pequeno",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 448,
+     "y": 164,
+     "w": 340,
+     "t": "exercício adaptado, nunca reduzido; o casamento do primo perdido; as mesmas refeições; fotos diárias; ainda se achava pequeno",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 870,
+     "y": 26,
+     "w": 52,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 876,
+     "y": 86,
+     "w": 340,
      "t": "A pergunta direta, sem julgamento",
-     "x": "terceiro ciclo de anabolizante do ano, orientado na academia",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 876,
+     "y": 164,
+     "w": 340,
+     "t": "terceiro ciclo de anabolizante do ano, orientado na academia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1298,
+     "y": 26,
+     "w": 52,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1304,
+     "y": 86,
+     "w": 340,
      "t": "A conduta, lenta",
-     "x": "vínculo; conversa funcional sobre o casamento; psicólogo e médico; treino redesenhado mantendo a frequência",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1304,
+     "y": 164,
+     "w": 340,
+     "t": "vínculo; conversa funcional sobre o casamento; psicólogo e médico; treino redesenhado mantendo a frequência",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 18
+   "eyebrow": "Caso ilustrativo",
+   "titulo": "A apresentação que mais escapa"
   },
   {
    "id": "niveis",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco profissões, cada uma com o que decide e o que contribui. Nutricionista decide plano, quantidades, periodização e estratégia de prova; contribui com o que a pessoa excluiu, e por quê. Médico decide exame, reposição, medicação e afastamento; contribui com a ferritina baixa que volta como pergunta. Educador e preparador físico decidem a carga; contribuem com a taxa de suor e a carga que caiu com a dieta. Fisioterapeuta decide sobre tecido e fratura em recuperação; contribui com a segunda fratura, que leva a pergunta sobre energia. Psicólogo decide sobre alimentação desordenada, com o médico; contribui com a restrição de origem comportamental\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"0\" y1=\"102\" x2=\"1664\" y2=\"102\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 48.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"1070\" y=\"40\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"175\" x2=\"1664\" y2=\"175\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 121.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"1070\" y=\"113\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"248\" x2=\"1664\" y2=\"248\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 194.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"1070\" y=\"186\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"321\" x2=\"1664\" y2=\"321\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 267.0) scale(0.8333)\"><g fill=\"#12202E\"><path fill-rule=\"evenodd\" d=\"M30.031 10A2 2 0 0 0 32 8V4H16v4a2 2 0 0 0 1.958 2l.014.315c.02.404.056 1.027.117 1.914c.123 1.773.35 4.602.768 8.839c.15 1.519 1.04 2.877 1.747 3.953l.079.12c.384.587.716 1.1.959 1.599c.24.494.355.902.355 1.262c0 .258 0 1.008.002 1.692L22 30.999a1 1 0 0 0 1 1v7.003a.998.998 0 1 0 1.997 0v-.007H25v-6.98h.01a1 1 0 0 0 1-1v-3.041c0-.356.115-.757.357-1.244c.245-.491.58-.996.969-1.576l.064-.096c.715-1.066 1.627-2.427 1.748-3.976a5204 5204 0 0 1 .853-10.71zm-2.024.21l.018-.21H19.96l.01.216c.02.39.054 1 .114 1.875c.038.534.084 1.167.143 1.91h7.476zm-3.873 16.794a5.8 5.8 0 0 1 .443-1.166c.308-.618.713-1.222 1.08-1.772l.017-.024c.797-1.192 1.404-2.14 1.48-3.117l.39-4.925h-7.15c.117 1.36.266 2.973.453 4.872c.098.991.716 1.964 1.509 3.174c.37.566.777 1.187 1.084 1.82c.173.354.326.735.428 1.138z\" clip-rule=\"evenodd\"/><path d=\"M22.302 41.966c.134-.632 1.038-.973 1.684-.973c.658 0 1.568.34 1.707.983l.15.686c.093.432-.108.877-.52 1.037c-.388.151-.886.3-1.337.3c-.422 0-.914-.15-1.303-.3c-.414-.162-.62-.608-.527-1.043z\"/></g></g><rect x=\"1070\" y=\"259\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"394\" x2=\"1664\" y2=\"394\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(0.0 340.0) scale(0.8333)\"><g fill=\"#12202E\"><path fill-rule=\"evenodd\" d=\"M9 6a3 3 0 0 0-3 3v30a3 3 0 0 0 3 3h5.389V30.762C11.345 28.487 9 25.422 9 21.45c0-3.302 1.378-6.469 3.83-8.803S18.61 9 22.08 9a18.9 18.9 0 0 1 7.669 1.607a12 12 0 0 1 4.815 3.509a9.85 9.85 0 0 1 1.843 5.478c.01.45.004.876-.002 1.288c-.022 1.457-.04 2.74.691 4.256c0 0 2.164 1.947 1.88 3.509c-.286 1.562-3.104 1.992-3.104 1.992c0 8.409-10.7 4.9-10.7 4.9V42H39a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3z\" clip-rule=\"evenodd\"/><path d=\"M26.27 22.455c.643 0 .439-.19.971-.543a3.27 3.27 0 0 0 1.828.53l2.066-.731a3.2 3.2 0 0 0 1.132-1.834c.15-.72.042-1.468-.306-2.119a3.26 3.26 0 0 0-1.609-1.459a3.1 3.1 0 0 0-1.128-1.765l-2.017-.687h-.227a3.24 3.24 0 0 0-1.893-1.277l-3.49-.237a3.26 3.26 0 0 0-1.925.829a3.28 3.28 0 0 0-2.507.418c-.52.33-.93.798-1.182 1.35l-1.644 1.132a3.07 3.07 0 0 0-.627 1.862c-.004.28.034.559.113.828a3.07 3.07 0 0 0 .216 4.044c.045.57.25 1.118.592 1.584a3.2 3.2 0 0 0 1.35 1.057c.622.38 1.15.89 1.542 1.495c.393.604.555 1.286.642 1.996h3.43v-3.314c-.001-.589.168-1.166.487-1.666s.498-.903 1.04-1.163a3.6 3.6 0 0 0 1.34-.873a3.26 3.26 0 0 0 1.805.543m6.064 2.795a1.25 1.25 0 1 1-2.5 0a1.25 1.25 0 0 1 2.5 0\"/><path fill-rule=\"evenodd\" d=\"M21.5 32.333h-3.333v-2H21.5zm0 3.334h-3.333v-2H21.5zm0 3.333h-3.333v-2H21.5z\" clip-rule=\"evenodd\"/></g></g><rect x=\"1070\" y=\"332\" width=\"594\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 480,
+     "y": 0,
+     "w": 500,
+     "t": "Decide",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 0,
+     "w": 500,
+     "t": "Contribui com",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 54,
+     "w": 400,
+     "t": "Nutricionista",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 54,
+     "w": 560,
+     "t": "plano, quantidades, periodização, estratégia de prova",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 56,
+     "w": 560,
+     "t": "o que a pessoa excluiu, e por quê",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 56,
+     "y": 127,
+     "w": 400,
+     "t": "Médico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 127,
+     "w": 560,
+     "t": "exame, reposição, medicação, afastamento",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 129,
+     "w": 560,
+     "t": "a ferritina baixa que volta como pergunta",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 56,
+     "y": 200,
+     "w": 400,
+     "t": "Educador e preparador",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 200,
+     "w": 560,
+     "t": "a carga que decide o que se perde",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 202,
+     "w": 560,
+     "t": "a taxa de suor; a carga que caiu com a dieta",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 56,
+     "y": 273,
+     "w": 400,
+     "t": "Fisioterapeuta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 273,
+     "w": 560,
+     "t": "tecido e fratura em recuperação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 275,
+     "w": 560,
+     "t": "a segunda fratura leva a pergunta sobre energia",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 56,
+     "y": 346,
+     "w": 400,
+     "t": "Psicólogo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 346,
+     "w": 560,
+     "t": "alimentação desordenada, com o médico",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1090,
+     "y": 348,
+     "w": 560,
+     "t": "a restrição de origem comportamental",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "O módulo nos três níveis",
    "titulo": "Decisão e contribuição",
-   "cab": [
-    "Quem",
-    "Decide",
-    "Contribui com"
-   ],
-   "larguras": [
-    26,
-    36,
-    38
-   ],
-   "linhas": [
-    [
-     "Nutricionista",
-     "plano, quantidades, periodização, estratégia de prova",
-     "o que a pessoa excluiu, e por quê"
-    ],
-    [
-     "Médico",
-     "exame, reposição, medicação, afastamento",
-     "a ferritina baixa que volta como pergunta"
-    ],
-    [
-     "Educador e preparador físico",
-     "a carga que decide o que se perde",
-     "a taxa de suor; a carga que caiu com a dieta"
-    ],
-    [
-     "Fisioterapeuta",
-     "tecido e fratura em recuperação",
-     "a segunda fratura leva a pergunta sobre energia"
-    ],
-    [
-     "Psicólogo",
-     "alimentação desordenada, com o médico",
-     "a restrição de origem comportamental"
-    ]
-   ],
    "destaque": "O treinador que organiza o kit da viagem garante que o plano chegue ao ônibus.",
    "destaque_cor": "tinta"
   },
   {
    "id": "todos",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O terceiro nível é de todos",
-   "titulo": "Reconhecer exige ter aprendido o sinal",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"No centro, quem reconhece. Em volta, seis sinais. O que se ouve: vocabulário moral, exclusão sem razão clínica, parar de comer com o grupo. O que o corpo mostra: frio constante, ciclo que espaçou, fratura que se repete. O que o treino mostra: rendimento que cai com o treino mantido. O que a prova mostra: peso que sobe na prova longa, cãibra atribuída ao sal. O que o espelho esconde: o atleta muito musculoso que se acha pequeno. A porta de agora: desmaio, instabilidade, vômitos frequentes, risco de suicídio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><circle cx=\"832\" cy=\"200\" r=\"86\" fill=\"#12202E\"/><g transform=\"translate(806.0 140.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M11.102 17.957Q6.297 17.495 3 12q3.6-6 9-6t9 6a20 20 0 0 1-.663 1.032M15 19l2 2l4-4\"/></g></g><line x1=\"620\" y1=\"60\" x2=\"752\" y2=\"144\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(18.0 16.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 10a7 7 0 1 1 13 3.6a10 10 0 0 1-2 2a8 8 0 0 0-2 3A4.5 4.5 0 0 1 8.2 20\"/><path d=\"M10 10a3 3 0 1 1 5 2.2\"/></g></g><line x1=\"620\" y1=\"200\" x2=\"752\" y2=\"200\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"140\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(18.0 156.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><line x1=\"620\" y1=\"340\" x2=\"752\" y2=\"256\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"280\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(18.0 296.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><line x1=\"1044\" y1=\"60\" x2=\"912\" y2=\"144\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1044\" y=\"0\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1062.0 16.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><line x1=\"1044\" y1=\"200\" x2=\"912\" y2=\"200\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1044\" y=\"140\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1062.0 156.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g><line x1=\"1044\" y1=\"340\" x2=\"912\" y2=\"256\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1044\" y=\"280\" width=\"620\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1062.0 296.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/><path d=\"M5 17H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5M6 10h4M8 8v4\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 752,
+     "y": 204,
+     "w": 160,
+     "t": "quem aprendeu o sinal",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 68,
+     "y": 20,
+     "w": 530,
      "t": "O que se ouve",
-     "x": "vocabulário moral; exclusão sem razão clínica; parar de comer com o grupo",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 62,
+     "w": 580,
+     "t": "vocabulário moral; exclusão sem razão clínica; parar de comer com o grupo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 68,
+     "y": 160,
+     "w": 530,
      "t": "O que o corpo mostra",
-     "x": "frio constante; ciclo que espaçou; fratura que se repete",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 202,
+     "w": 580,
+     "t": "frio constante; ciclo que espaçou; fratura que se repete",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 68,
+     "y": 300,
+     "w": 530,
      "t": "O que o treino mostra",
-     "x": "rendimento que cai com o treino mantido",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 342,
+     "w": 580,
+     "t": "rendimento que cai com o treino mantido",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1112,
+     "y": 20,
+     "w": 530,
      "t": "O que a prova mostra",
-     "x": "peso que sobe na prova longa; cãibra atribuída ao sal",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1064,
+     "y": 62,
+     "w": 580,
+     "t": "peso que sobe na prova longa; cãibra atribuída ao sal",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1112,
+     "y": 160,
+     "w": 530,
      "t": "O que o espelho esconde",
-     "x": "o atleta muito musculoso que se acha pequeno",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1064,
+     "y": 202,
+     "w": 580,
+     "t": "o atleta muito musculoso que se acha pequeno",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1112,
+     "y": 300,
+     "w": 530,
      "t": "A porta de agora",
-     "x": "desmaio, instabilidade, vômitos frequentes, risco de suicídio",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 342,
+     "w": 580,
+     "t": "desmaio, instabilidade, vômitos frequentes, risco de suicídio",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
-   ]
+   ],
+   "eyebrow": "O terceiro nível é de todos",
+   "titulo": "Reconhecer exige ter aprendido o sinal"
   },
   {
    "id": "fecho",

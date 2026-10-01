@@ -22,11 +22,246 @@
  "slides": [
   {
    "id": "pergunta",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma faixa de 24 horas preenchida: sono, deslocamento, trabalho, deslocamento, família. O treino entra no único horário que sobra, tarde da noite. Embaixo, as duas leituras: na literatura, horário, viagem e recuperação são variáveis de otimização; no consultório, são a restrição principal\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"22\" y=\"40\" width=\"402\" height=\"90\" rx=\"10\" fill=\"#C9CFD4\"/><rect x=\"428\" y=\"40\" width=\"98\" height=\"90\" rx=\"10\" fill=\"#DDD8CC\"/><rect x=\"530\" y=\"40\" width=\"673\" height=\"90\" rx=\"10\" fill=\"#DEE7F1\"/><rect x=\"1206\" y=\"40\" width=\"98\" height=\"90\" rx=\"10\" fill=\"#DDD8CC\"/><rect x=\"1308\" y=\"40\" width=\"165\" height=\"90\" rx=\"10\" fill=\"#F4EAD6\"/><rect x=\"1477\" y=\"40\" width=\"98\" height=\"90\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"1578\" y=\"40\" width=\"64\" height=\"90\" rx=\"10\" fill=\"#C9CFD4\"/><path d=\"M 1526 34 l -12 -20 h 24 z\" fill=\"#008A7E\"/><rect x=\"0\" y=\"200\" width=\"812\" height=\"150\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"852\" y=\"200\" width=\"812\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 72,
+     "w": 406,
+     "t": "sono",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 426,
+     "y": 72,
+     "w": 102,
+     "t": "trânsito",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 528,
+     "y": 72,
+     "w": 677,
+     "t": "trabalho",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 72,
+     "w": 102,
+     "t": "trânsito",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1306,
+     "y": 72,
+     "w": 169,
+     "t": "família, jantar",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1475,
+     "y": 72,
+     "w": 102,
+     "t": "treino",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1576,
+     "y": 72,
+     "w": 68,
+     "t": "sono",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": -20,
+     "y": 140,
+     "w": 80,
+     "t": "0h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 183,
+     "y": 140,
+     "w": 80,
+     "t": "3h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 386,
+     "y": 140,
+     "w": 80,
+     "t": "6h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 589,
+     "y": 140,
+     "w": 80,
+     "t": "9h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 792,
+     "y": 140,
+     "w": 80,
+     "t": "12h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 995,
+     "y": 140,
+     "w": 80,
+     "t": "15h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1198,
+     "y": 140,
+     "w": 80,
+     "t": "18h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1401,
+     "y": 140,
+     "w": 80,
+     "t": "21h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1604,
+     "y": 140,
+     "w": 80,
+     "t": "24h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1196,
+     "y": 0,
+     "w": 316,
+     "t": "o único horário que sobra",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 218,
+     "w": 760,
+     "t": "Na literatura",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 270,
+     "w": 760,
+     "t": "horário, viagem e recuperação são variáveis de otimização",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 876,
+     "y": 218,
+     "w": 760,
+     "t": "No consultório",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 876,
+     "y": 270,
+     "w": 760,
+     "t": "são a restrição principal",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A restrição real",
-   "frase": "Quando a agenda não deixa fazer tudo, o que priorizar?",
-   "apoio": "Na literatura, horário, viagem e recuperação são variáveis de otimização. No consultório, são a restrição principal: o paciente treina no único horário que sobra."
+   "titulo": "Quando a agenda não deixa fazer tudo, o que priorizar?"
   },
   {
    "id": "piramide",
@@ -130,82 +365,520 @@
   },
   {
    "id": "posjogo",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma régua de horas depois do jogo, de zero a 36. Se o próximo esforço vem em menos de oito horas, como dois jogos no dia, torneio ou etapas, a reposição rápida importa: carboidrato logo, com alguma proteína. Se é amanhã ou depois, as próximas 24 horas resolvem: o jantar e o café seguinte decidem, e o shake não é errado, só não decide\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"20\" y=\"40\" width=\"361\" height=\"300\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"397\" y=\"40\" width=\"1247\" height=\"300\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"20\" y1=\"360\" x2=\"1644\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"20\" y1=\"352\" x2=\"20\" y2=\"368\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"381\" y1=\"352\" x2=\"381\" y2=\"368\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"561\" y1=\"352\" x2=\"561\" y2=\"368\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1103\" y1=\"352\" x2=\"1103\" y2=\"368\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1644\" y1=\"352\" x2=\"1644\" y2=\"368\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(420.9 170.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><g transform=\"translate(420.9 224.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 14c.83.642 2.077 1.017 3.5 1c1.423.017 2.67-.358 3.5-1s2.077-1.017 3.5-1c1.423-.017 2.67.358 3.5 1M8 3a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2m4-4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2\"/><path d=\"M3 10h14v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6z\"/><path d=\"M16.746 16.726a3 3 0 1 0 .252-5.555\"/></g></g><circle cx=\"440\" cy=\"297\" r=\"8\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": -30,
+     "y": 372,
+     "w": 100,
+     "t": "0 h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 331,
+     "y": 372,
+     "w": 100,
+     "t": "8 h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 511,
+     "y": 372,
+     "w": 100,
+     "t": "12 h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1053,
+     "y": 372,
+     "w": 100,
+     "t": "24 h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1594,
+     "y": 372,
+     "w": 100,
+     "t": "36 h",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 58,
+     "w": 321,
+     "t": "Em menos de oito horas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 140,
+     "w": 321,
+     "t": "dois jogos no dia, torneio, etapas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 230,
+     "w": 321,
+     "t": "carboidrato logo, com alguma proteína",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 421,
+     "y": 58,
+     "w": 1000,
+     "t": "Amanhã ou depois",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 421,
+     "y": 112,
+     "w": 1000,
+     "t": "as próximas 24 horas resolvem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 477,
+     "y": 174,
+     "w": 900,
+     "t": "o jantar decide",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 477,
+     "y": 228,
+     "w": 900,
+     "t": "o café seguinte decide",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 477,
+     "y": 282,
+     "w": 900,
+     "t": "o shake não é errado; só não decide",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Decisão um · o pós-jogo",
    "titulo": "Quando é o próximo esforço?",
-   "esq": {
-    "t": "Em menos de oito horas",
-    "cor": "ambar",
-    "itens": [
-     "dois jogos no dia, torneio, etapas",
-     "a reposição rápida importa",
-     "carboidrato logo, com alguma proteína"
-    ]
-   },
-   "dir": {
-    "t": "Amanhã ou depois",
-    "cor": "petr",
-    "itens": [
-     "as próximas 24 horas resolvem",
-     "o jantar e o café seguinte decidem",
-     "o shake não é errado; só não decide"
-    ]
-   },
    "destaque": "Carboidrato, líquido e sódio, proteína e sono: arroz, feijão, carne, salada e um copo de leite já são uma refeição de recuperação.",
    "destaque_cor": "tinta"
   },
   {
    "id": "alcool",
-   "tipo": "numeros",
-   "eyebrow": "Parr e colaboradores, 2014",
-   "titulo": "A cerveja, com a dose na mesa",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, doze copos: 1,5 grama de álcool por quilo, cerca de doze doses, uma noite de bebedeira. À direita, três barras de síntese de proteína muscular depois do treino: só proteína, a referência; álcool com proteína, 24% menor; álcool com carboidrato, sem proteína, 37% menor\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><g transform=\"translate(0.0 120.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(100.0 120.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(200.0 120.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(300.0 120.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(400.0 120.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(500.0 120.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(0.0 230.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(100.0 230.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(200.0 230.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(300.0 230.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(400.0 230.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><g transform=\"translate(500.0 230.0) scale(1.6667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M19.5 5a1 1 0 0 0-1-1H16a1 1 0 0 0-1 1v12.182a.72.72 0 0 1-.237.531A14.4 14.4 0 0 0 10 28.408v13.384c0 1.22.989 2.208 2.208 2.208h9.436A2.356 2.356 0 0 0 24 41.644V28.063c0-3.882-1.542-7.605-4.287-10.35a.73.73 0 0 1-.213-.514zM12 29h10v8H12zm23.639-5H28.36l.64-6h6zM27.2 16h9.6l1.013 9.536A5.85 5.85 0 0 1 33 31.916V42h3a1 1 0 1 1 0 2h-8a1 1 0 1 1 0-2h3V31.915a5.85 5.85 0 0 1-4.813-6.379z\" clip-rule=\"evenodd\"/></g><rect x=\"760\" y=\"86\" width=\"624\" height=\"40\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"760\" y=\"186\" width=\"474\" height=\"40\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"760\" y=\"286\" width=\"393\" height=\"40\" rx=\"6\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
-     "n": "1,5 g/kg",
-     "x": "de álcool: cerca de 12 doses, uma noite de bebedeira",
-     "cor": "tinta"
+     "x": 0,
+     "y": 0,
+     "w": 640,
+     "t": "1,5 g/kg de álcool",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "−24%",
-     "x": "síntese de proteína muscular, álcool com proteína",
-     "cor": "ambar"
+     "x": 0,
+     "y": 52,
+     "w": 640,
+     "t": "cerca de 12 doses: uma noite de bebedeira",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "−37%",
-     "x": "álcool com carboidrato, sem proteína",
-     "cor": "verm"
+     "x": 760,
+     "y": 0,
+     "w": 900,
+     "t": "síntese de proteína muscular depois do treino",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 50,
+     "w": 600,
+     "t": "só proteína",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1398,
+     "y": 90,
+     "w": 200,
+     "t": "referência",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 150,
+     "w": 600,
+     "t": "álcool com proteína",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1248,
+     "y": 190,
+     "w": 200,
+     "t": "−24%",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 250,
+     "w": 600,
+     "t": "álcool com carboidrato, sem proteína",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1167,
+     "y": 290,
+     "w": 200,
+     "t": "−37%",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Um experimento de 2014",
+   "titulo": "A cerveja, com a dose na mesa",
    "destaque": "O efeito é de dose, e o estudo mostrou o extremo. A conduta não moraliza, ordena: comer antes do copo, água entre as doses, nada na véspera do que importa.",
    "destaque_cor": "petr",
-   "fonte": "Oito homens ativos, treino de força e bicicleta · PLoS One 2014"
+   "fonte": "Parr e colaboradores · oito homens ativos, treino de força e bicicleta · PLoS One 2014"
   },
   {
    "id": "cinco",
-   "tipo": "duas",
-   "eyebrow": "Decisão dois · Aird, Davies e Carson, 2018",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, a decisão de antes. Jejum aceitável em sessão curta, leve a moderada, em quem tolera, e nunca em baixa disponibilidade energética. Mini-refeição antes em sessão longa, intensa ou força pesada: 20 a 40 gramas de carboidrato, 15 a 30 minutos antes, como banana, pão com geleia, suco ou tapioca fina. À direita, uma linha das 4 às 13 horas: treino às cinco e, depois dele, sete horas sem proteína até o almoço, a menos que a refeição vá na mochila\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"700\" height=\"180\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"200\" width=\"700\" height=\"180\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"780\" y1=\"250\" x2=\"1640\" y2=\"250\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"780\" y1=\"244\" x2=\"780\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"866\" y1=\"244\" x2=\"866\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"952\" y1=\"244\" x2=\"952\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1038\" y1=\"244\" x2=\"1038\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1124\" y1=\"244\" x2=\"1124\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1210\" y1=\"244\" x2=\"1210\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1296\" y1=\"244\" x2=\"1296\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1382\" y1=\"244\" x2=\"1382\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1468\" y1=\"244\" x2=\"1468\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1554\" y1=\"244\" x2=\"1554\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1640\" y1=\"244\" x2=\"1640\" y2=\"256\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"866\" y=\"150\" width=\"86\" height=\"90\" rx=\"10\" fill=\"#12202E\"/><rect x=\"958\" y=\"150\" width=\"590\" height=\"90\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1554\" y=\"150\" width=\"60\" height=\"90\" rx=\"8\" fill=\"#3A6EA5\"/><g transform=\"translate(969.2 300.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm5-2V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m-4 5v.01\"/><path d=\"M3 13a20 20 0 0 0 18 0\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 650,
+     "t": "Jejum aceitável",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 62,
+     "w": 650,
+     "t": "sessão curta, leve a moderada, em quem tolera; nunca em baixa disponibilidade",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 216,
+     "w": 650,
+     "t": "Mini-refeição antes",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 262,
+     "w": 650,
+     "t": "sessão longa, intensa ou força pesada: 20 a 40 g de carboidrato, 15 a 30 min antes",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 336,
+     "w": 650,
+     "t": "banana, pão com geleia, suco, tapioca fina",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 262,
+     "w": 60,
+     "t": "4h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 836,
+     "y": 262,
+     "w": 60,
+     "t": "5h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 922,
+     "y": 262,
+     "w": 60,
+     "t": "6h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1008,
+     "y": 262,
+     "w": 60,
+     "t": "7h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1094,
+     "y": 262,
+     "w": 60,
+     "t": "8h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 262,
+     "w": 60,
+     "t": "9h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1266,
+     "y": 262,
+     "w": 60,
+     "t": "10h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1352,
+     "y": 262,
+     "w": 60,
+     "t": "11h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1438,
+     "y": 262,
+     "w": 60,
+     "t": "12h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1524,
+     "y": 262,
+     "w": 60,
+     "t": "13h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1610,
+     "y": 262,
+     "w": 60,
+     "t": "14h",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 866,
+     "y": 182,
+     "w": 86,
+     "t": "treino",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 952,
+     "y": 170,
+     "w": 602,
+     "t": "sete horas sem proteína",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1514,
+     "y": 112,
+     "w": 140,
+     "t": "almoço",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1029,
+     "y": 304,
+     "w": 640,
+     "t": "a refeição que decide cabe na mochila",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 0,
+     "w": 860,
+     "t": "O problema é o depois",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Decisão dois · uma meta-análise de 2018",
    "titulo": "Treino às cinco da manhã",
-   "esq": {
-    "t": "Jejum aceitável",
-    "cor": "petr",
-    "itens": [
-     "sessão curta, leve a moderada",
-     "em quem tolera",
-     "nunca em baixa disponibilidade energética"
-    ]
-   },
-   "dir": {
-    "t": "Mini-refeição antes",
-    "cor": "ambar",
-    "itens": [
-     "sessão longa, intensa ou força pesada",
-     "20 a 40 g de carboidrato, 15 a 30 min antes",
-     "banana, pão com geleia, suco, tapioca fina"
-    ]
-   },
-   "destaque": "O problema de quem treina às cinco é o depois: sete horas sem proteína até o almoço. A refeição que decide cabe na mochila.",
+   "destaque": "Comer antes melhorou o aeróbico prolongado, não o curto. O problema de quem treina às cinco é o depois.",
    "destaque_cor": "verm",
-   "fonte": "46 estudos: comer antes melhorou o aeróbico prolongado, não o curto · Scandinavian Journal of Medicine and Science in Sports 2018"
+   "fonte": "Aird, Davies e Carson · 46 estudos · Scandinavian Journal of Medicine and Science in Sports 2018"
   },
   {
    "id": "noite",
@@ -411,62 +1084,383 @@
   },
   {
    "id": "viagem",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Decisão três · a viagem",
-   "titulo": "Levar o que precisa, não depender do que encontrar",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três quadros. O kit sem geladeira: banana, pão, pasta de amendoim, bolacha, castanhas, leite em caixinha e bebida com carboidrato. Nada de novo na véspera: o restaurante com arroz, massa e frango é o certo; a comida típica fica para depois. Ferva, cozinhe, descasque, ou deixe: a diarreia do viajante perde a competição antes de ela começar\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"620\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm5-2V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m-4 5v.01\"/><path d=\"M3 13a20 20 0 0 0 18 0\"/></g></g><rect x=\"24\" y=\"90\" width=\"280\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"314\" y=\"90\" width=\"280\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"24\" y=\"162\" width=\"280\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"314\" y=\"162\" width=\"280\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"24\" y=\"234\" width=\"280\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"314\" y=\"234\" width=\"280\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"24\" y=\"306\" width=\"570\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"660\" y=\"0\" width=\"480\" height=\"400\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(684.0 96.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(684.0 216.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"1180\" y=\"0\" width=\"484\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1204.0 112.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><g transform=\"translate(1204.0 162.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><g transform=\"translate(1204.0 212.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><g transform=\"translate(1204.0 262.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 80,
+     "y": 24,
+     "w": 520,
      "t": "O kit sem geladeira",
-     "x": "banana, pão, pasta de amendoim, bolacha, castanhas, leite em caixinha, bebida com carboidrato",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 104,
+     "w": 280,
+     "t": "banana",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 314,
+     "y": 104,
+     "w": 280,
+     "t": "pão",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 176,
+     "w": 280,
+     "t": "pasta de amendoim",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 314,
+     "y": 176,
+     "w": 280,
+     "t": "bolacha",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 248,
+     "w": 280,
+     "t": "castanhas",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 314,
+     "y": 248,
+     "w": 280,
+     "t": "leite em caixinha",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 320,
+     "w": 570,
+     "t": "bebida com carboidrato",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 684,
+     "y": 18,
+     "w": 440,
      "t": "Nada de novo na véspera",
-     "x": "o restaurante com arroz, massa e frango é o certo; a comida típica fica para depois",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 740,
+     "y": 96,
+     "w": 380,
+     "t": "arroz, massa e frango",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 132,
+     "w": 380,
+     "t": "é o certo",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 216,
+     "w": 380,
+     "t": "a comida típica",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 252,
+     "w": 380,
+     "t": "fica para depois da prova",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 18,
+     "w": 440,
      "t": "Ferva, cozinhe, descasque, ou deixe",
-     "x": "a diarreia do viajante perde a competição antes de ela começar",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1256,
+     "y": 116,
+     "w": 380,
+     "t": "ferva",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1256,
+     "y": 166,
+     "w": 380,
+     "t": "cozinhe",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1256,
+     "y": 216,
+     "w": 380,
+     "t": "descasque",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1256,
+     "y": 266,
+     "w": 380,
+     "t": "ou deixe",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 318,
+     "w": 440,
+     "t": "a diarreia do viajante perde a competição antes de ela começar",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Decisão três · a viagem",
+   "titulo": "Levar o que precisa, não depender do que encontrar",
    "destaque": "O café do hotel segue a regra do dia de prova. E o pós-jogo em viagem é no ônibus: é quando o kit mais importa.",
    "destaque_cor": "tinta"
   },
   {
    "id": "perfis",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três perfis, cada um com uma pirâmide pequena acendendo o andar em que a decisão mora. O jogador de domingo, com churrasco e sem jantar: prato antes do copo, água entre as cervejas, jantar leve e nenhum suplemento; base e distribuição. Quem treina às 22 horas e toma cafeína às 21h30: sem cafeína à noite, jantar como refeição antes do sono e lanche no fim da tarde; distribuição e perto do treino. A equipe jovem com oito horas de ônibus: kit em horários fixos, jantar combinado e café cedo com o de casa; logística para existir um total\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"34\" width=\"1664\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 64.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"m12 7l4.76 3.45L15 16H9l-1.76-5.55zm0 0V3m3 13l2.5 3m-.74-8.55L20.5 9M9.06 16.05L6.5 19m.74-8.55L3.5 9\"/></g></g><path d=\"M 1430 106 L 1452 94 L 1608 94 L 1630 106 Z\" fill=\"#008A7E\"/><path d=\"M 1452 90 L 1473 78 L 1587 78 L 1608 90 Z\" fill=\"#008A7E\"/><path d=\"M 1473 74 L 1495 62 L 1565 62 L 1587 74 Z\" fill=\"#C9CFD4\"/><path d=\"M 1495 58 L 1517 46 L 1543 46 L 1565 58 Z\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"158\" width=\"1664\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(20.0 188.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><path d=\"M 1430 230 L 1452 218 L 1608 218 L 1630 230 Z\" fill=\"#C9CFD4\"/><path d=\"M 1452 214 L 1473 202 L 1587 202 L 1608 214 Z\" fill=\"#B07A1C\"/><path d=\"M 1473 198 L 1495 186 L 1565 186 L 1587 198 Z\" fill=\"#B07A1C\"/><path d=\"M 1495 182 L 1517 170 L 1543 170 L 1565 182 Z\" fill=\"#C9CFD4\"/><rect x=\"0\" y=\"282\" width=\"1664\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 312.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1M15 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2 5h2a2 2 0 0 1 2 2v1M5 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h2\"/></g><path d=\"M 1430 354 L 1452 342 L 1608 342 L 1630 354 Z\" fill=\"#008A7E\"/><path d=\"M 1452 338 L 1473 326 L 1587 326 L 1608 338 Z\" fill=\"#C9CFD4\"/><path d=\"M 1473 322 L 1495 310 L 1565 310 L 1587 322 Z\" fill=\"#C9CFD4\"/><path d=\"M 1495 306 L 1517 294 L 1543 294 L 1565 306 Z\" fill=\"#C9CFD4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 1400,
+     "y": 0,
+     "w": 264,
+     "t": "o andar",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 52,
+     "w": 380,
+     "t": "Jogador de domingo",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 84,
+     "y": 92,
+     "w": 380,
+     "t": "churrasco sem jantar",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 54,
+     "w": 860,
+     "t": "prato antes do copo, água entre as cervejas, jantar leve; nenhum suplemento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1380,
+     "y": 112,
+     "w": 300,
+     "t": "base e distribuição",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 176,
+     "w": 380,
+     "t": "Treina às 22h",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 84,
+     "y": 216,
+     "w": 380,
+     "t": "cafeína às 21h30",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 178,
+     "w": 860,
+     "t": "sem cafeína à noite, jantar como refeição antes do sono, lanche no fim da tarde",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1380,
+     "y": 236,
+     "w": 300,
+     "t": "distribuição e perto do treino",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 300,
+     "w": 380,
+     "t": "Equipe jovem",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 84,
+     "y": 340,
+     "w": 380,
+     "t": "8 horas de ônibus",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 302,
+     "w": 860,
+     "t": "kit em horários fixos, jantar combinado, café cedo com o de casa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1380,
+     "y": 360,
+     "w": 300,
+     "t": "logística para existir um total",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Três perfis típicos",
    "titulo": "Uma decisão para cada",
-   "cab": [
-    "Perfil",
-    "A decisão",
-    "Andar"
-   ],
-   "larguras": [
-    30,
-    48,
-    22
-   ],
-   "linhas": [
-    [
-     "Jogador de domingo, churrasco sem jantar",
-     "prato antes do copo, água entre as cervejas, jantar leve; nenhum suplemento",
-     "base e distribuição"
-    ],
-    [
-     "Treina às 22h, cafeína às 21h30",
-     "sem cafeína à noite, jantar como refeição pré-sono, lanche no fim da tarde",
-     "distribuição e perto do treino"
-    ],
-    [
-     "Equipe jovem, 8 horas de ônibus",
-     "kit em horários fixos, jantar combinado, café cedo com o de casa",
-     "logística para existir um total"
-    ]
-   ],
    "destaque": "Ninguém precisou do topo da pirâmide. E ninguém mudou a agenda: mudou o que acontece em volta dela.",
    "destaque_cor": "petr"
   },
