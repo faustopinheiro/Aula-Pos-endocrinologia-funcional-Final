@@ -130,6 +130,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Um procedimento, não desc
                     {"t": "Educador físico e preparador", "x": "Ouvem a promessa primeiro, no vestiário."}],
           "quem": "Desmontar uma promessa é de todos."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-08")
+
 spec = {"arquivo": "aulas/MOD05/05-08-suplementos-sem-evidencia-como-desmontar-uma-promessa.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Suplementos sem evidência", "subtitulo": "Anatomia de uma promessa comercial e como respondê-la",

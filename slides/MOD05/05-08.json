@@ -22,35 +22,186 @@
  "slides": [
   {
    "id": "aparencia",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, os quatro enfeites da promessa moderna: estudo, referência, mecanismo e gráfico. À direita, duas máscaras: a aparência de ciência e a ciência. O erro não é do paciente: é de leitura, e o profissional também o comete\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"350\" height=\"160\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(30.0 52.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"380\" y=\"0\" width=\"350\" height=\"160\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(410.0 52.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0M3 6v13m9-13v13m9-13v13\"/></g><rect x=\"0\" y=\"180\" width=\"350\" height=\"160\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(30.0 232.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g><rect x=\"380\" y=\"180\" width=\"350\" height=\"160\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(410.0 232.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 19h16M4 15l4-6l4 2l4-5l4 4\"/></g><rect x=\"860\" y=\"0\" width=\"804\" height=\"160\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(884.0 44.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0\"/><path d=\"M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z\"/></g></g><rect x=\"860\" y=\"190\" width=\"804\" height=\"160\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(884.0 234.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 110,
+     "y": 62,
+     "w": 220,
+     "t": "estudo",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 490,
+     "y": 62,
+     "w": 220,
+     "t": "referência",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 242,
+     "w": 220,
+     "t": "mecanismo",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 490,
+     "y": 242,
+     "w": 220,
+     "t": "gráfico",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 980,
+     "y": 30,
+     "w": 660,
+     "t": "Aparência de ciência",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 980,
+     "y": 86,
+     "w": 660,
+     "t": "vem com estudo, referência, mecanismo e gráfico",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 220,
+     "w": 660,
+     "t": "Ciência",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 980,
+     "y": 276,
+     "w": 660,
+     "t": "o erro é de leitura, e o profissional também o comete",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O erro é de leitura",
-   "frase": "A promessa moderna não mente de forma grosseira. Ela se parece com ciência.",
-   "apoio": "Vem com estudo, referência, mecanismo e gráfico. O erro não é do paciente: é confundir a aparência de ciência com ciência, e o profissional também comete."
+   "titulo": "A promessa moderna não mente de forma grosseira. Ela se parece com ciência."
   },
   {
    "id": "situacoes",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Três situações típicas",
-   "titulo": "Resposta para hoje",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Três situações típicas. O estimulante de testosterona, com dez ingredientes e um estudo citado no rótulo, e a pergunta: posso tomar junto? O termogênico indicado por uma amiga, e a palpitação que começou. O estudo do laboratório: a colega fisioterapeuta pergunta sobre um produto de recuperação\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(224.0 30.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><rect x=\"568\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(792.0 30.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><rect x=\"1136\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1360.0 30.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 140,
+     "w": 480,
      "t": "O estimulante de testosterona",
-     "x": "dez ingredientes, um estudo citado no rótulo; “posso tomar junto?”",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 30,
+     "y": 230,
+     "w": 468,
+     "t": "dez ingredientes, um estudo citado no rótulo; “posso tomar junto?”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 592,
+     "y": 140,
+     "w": 480,
      "t": "O termogênico",
-     "x": "indicado por uma amiga; começou a ter palpitação",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 598,
+     "y": 230,
+     "w": 468,
+     "t": "indicado por uma amiga; começou a ter palpitação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
+    },
+    {
+     "x": 1160,
+     "y": 140,
+     "w": 480,
      "t": "O estudo do laboratório",
-     "x": "a colega fisioterapeuta pergunta sobre um produto de recuperação",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1166,
+     "y": 230,
+     "w": 468,
+     "t": "a colega fisioterapeuta pergunta sobre um produto de recuperação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.35
     }
    ],
+   "eyebrow": "Três situações típicas",
+   "titulo": "Resposta para hoje",
    "destaque": "“Não tem evidência” não é resposta suficiente para nenhum dos três.",
    "destaque_cor": "tinta"
   },
@@ -157,276 +308,1299 @@
   },
   {
    "id": "pecas",
-   "tipo": "lista",
-   "eyebrow": "A anatomia da promessa",
-   "titulo": "Seis peças, quase sempre nesta ordem",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Seis peças da promessa, em sequência, quase sempre nesta ordem. Um: mecanismo plausível; a frase costuma ser verdadeira, mas plausibilidade não é efeito. Dois: um estudo que existe; a pergunta muda de tem estudo para que estudo. Três: desfecho substituto; mediu marcador e o anúncio vende desempenho. Quatro: dose e população extrapoladas. Cinco: prova social, com depoimento, antes e depois, atleta conhecido. Seis: autoridade e urgência, como patenteado e últimas unidades, a peça que impede de pensar\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 0 0 h 500 l 40 95 l -40 95 h -500 l 30 -95 z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"70\" cy=\"44\" r=\"20\" fill=\"#008A7E\"/><path d=\"M 562 0 h 500 l 40 95 l -40 95 h -500 l 30 -95 z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"632\" cy=\"44\" r=\"20\" fill=\"#008A7E\"/><path d=\"M 1124 0 h 500 l 40 95 l -40 95 h -500 l 30 -95 z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1194\" cy=\"44\" r=\"20\" fill=\"#B07A1C\"/><path d=\"M 0 206 h 500 l 40 95 l -40 95 h -500 l 30 -95 z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"70\" cy=\"250\" r=\"20\" fill=\"#B07A1C\"/><path d=\"M 562 206 h 500 l 40 95 l -40 95 h -500 l 30 -95 z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"632\" cy=\"250\" r=\"20\" fill=\"#A8322A\"/><path d=\"M 1124 206 h 500 l 40 95 l -40 95 h -500 l 30 -95 z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1194\" cy=\"250\" r=\"20\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
+     "x": 50,
+     "y": 32,
+     "w": 40,
+     "t": "1",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 104,
+     "y": 30,
+     "w": 380,
      "t": "Mecanismo plausível",
-     "x": "a frase costuma ser verdadeira; plausibilidade não é efeito",
-     "cor": "petr"
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 50,
+     "y": 96,
+     "w": 420,
+     "t": "a frase costuma ser verdadeira; plausibilidade não é efeito",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 612,
+     "y": 32,
+     "w": 40,
+     "t": "2",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 666,
+     "y": 30,
+     "w": 380,
      "t": "Um estudo que existe",
-     "x": "a pergunta muda de “tem estudo?” para “que estudo?”",
-     "cor": "petr"
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 612,
+     "y": 96,
+     "w": 420,
+     "t": "a pergunta muda de “tem estudo?” para “que estudo?”",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1174,
+     "y": 32,
+     "w": 40,
+     "t": "3",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1228,
+     "y": 30,
+     "w": 380,
      "t": "Desfecho substituto",
-     "x": "mediu marcador; o anúncio vende desempenho",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 1174,
+     "y": 96,
+     "w": 420,
+     "t": "mediu marcador; o anúncio vende desempenho",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 50,
+     "y": 238,
+     "w": 40,
+     "t": "4",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 104,
+     "y": 236,
+     "w": 380,
      "t": "Dose e população extrapoladas",
-     "x": "dose maior que a do pote; gente que não é o seu paciente",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 50,
+     "y": 302,
+     "w": 420,
+     "t": "dose maior que a do pote; gente que não é o seu paciente",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 612,
+     "y": 238,
+     "w": 40,
+     "t": "5",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 666,
+     "y": 236,
+     "w": 380,
      "t": "Prova social",
-     "x": "depoimento, antes e depois, atleta conhecido",
-     "cor": "verm"
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 612,
+     "y": 302,
+     "w": 420,
+     "t": "depoimento, antes e depois, atleta conhecido",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1174,
+     "y": 238,
+     "w": 40,
+     "t": "6",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1228,
+     "y": 236,
+     "w": 380,
      "t": "Autoridade e urgência",
-     "x": "“patenteado”, “últimas unidades”: a peça que impede de pensar",
-     "cor": "verm"
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1174,
+     "y": 302,
+     "w": 420,
+     "t": "“patenteado”, “últimas unidades”: a peça que impede de pensar",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 12
+   "eyebrow": "A anatomia da promessa",
+   "titulo": "Seis peças, quase sempre nesta ordem"
   },
   {
    "id": "fraquezas",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, as cinco fraquezas do estudo citado: amostra pequena, que gera hipótese e não conduta; sem placebo ou sem cegamento; marcador no lugar de desfecho; único estudo do fabricante, sem replicação; resumo de congresso que nunca virou artigo. À direita, três expressões do rótulo e o que elas querem dizer: clinicamente testado não diz o resultado; fórmula patenteada é propriedade, não eficácia; natural, e digitálico também é\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"780\" height=\"400\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(24.0 72.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(24.0 136.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(24.0 200.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(24.0 264.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(24.0 328.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"840\" y=\"60\" width=\"340\" height=\"92\" rx=\"46\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1188\" y1=\"106\" x2=\"1236\" y2=\"106\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"840\" y=\"176\" width=\"340\" height=\"92\" rx=\"46\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1188\" y1=\"222\" x2=\"1236\" y2=\"222\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"840\" y=\"292\" width=\"340\" height=\"92\" rx=\"46\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1188\" y1=\"338\" x2=\"1236\" y2=\"338\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 700,
+     "t": "O estudo citado",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 76,
+     "w": 690,
+     "t": "amostra pequena: gera hipótese, não conduta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 140,
+     "w": 690,
+     "t": "sem placebo ou sem cegamento",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 204,
+     "w": 690,
+     "t": "marcador no lugar de desfecho",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 268,
+     "w": 690,
+     "t": "único estudo do fabricante, sem replicação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 332,
+     "w": 690,
+     "t": "resumo de congresso que nunca virou artigo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 0,
+     "w": 800,
+     "t": "O rótulo, traduzido",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 840,
+     "y": 90,
+     "w": 340,
+     "t": "“clinicamente testado”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1250,
+     "y": 90,
+     "w": 414,
+     "t": "não diz o resultado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 206,
+     "w": 340,
+     "t": "“fórmula patenteada”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1250,
+     "y": 206,
+     "w": 414,
+     "t": "propriedade, não eficácia",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 322,
+     "w": 340,
+     "t": "“natural”",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1250,
+     "y": 322,
+     "w": 414,
+     "t": "digitálico também é",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Quando existe um estudo",
    "titulo": "Cinco fraquezas, três expressões vazias",
-   "esq": {
-    "t": "O estudo citado",
-    "cor": "ambar",
-    "itens": [
-     "amostra pequena: gera hipótese, não conduta",
-     "sem placebo ou sem cegamento",
-     "marcador no lugar de desfecho",
-     "único estudo do fabricante, sem replicação",
-     "resumo de congresso que nunca virou artigo"
-    ]
-   },
-   "dir": {
-    "t": "O rótulo",
-    "cor": "verm",
-    "itens": [
-     "“clinicamente testado”: não diz o resultado",
-     "“fórmula patenteada”: propriedade, não eficácia",
-     "“natural”: digitálico também é"
-    ]
-   },
    "destaque": "Patrocínio não invalida um estudo; a pesquisa da creatina também tem indústria. O problema é a fonte única.",
    "destaque_cor": "tinta"
   },
   {
    "id": "clemesha",
-   "tipo": "numeros",
-   "eyebrow": "Clemesha e colaboradores, 2020",
-   "titulo": "Cinquenta estimulantes de testosterona",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, cinquenta quadradinhos, um por produto: 45 deles, 90%, prometem aumentar a testosterona. Em média, 8,3 ingredientes por produto. À direita, os 109 ingredientes diferentes, em três barras: 27 com algum estudo mostrando aumento, 11 com estudo mostrando queda, e 67 sem estudo\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"62\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"124\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"186\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"248\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"310\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"372\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"434\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"496\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"558\" y=\"50\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"0\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"62\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"124\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"186\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"248\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"310\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"372\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"434\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"496\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"558\" y=\"112\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"0\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"62\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"124\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"186\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"248\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"310\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"372\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"434\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"496\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"558\" y=\"174\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"0\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"62\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"124\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"186\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"248\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"310\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"372\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"434\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"496\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"558\" y=\"236\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"0\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"62\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"124\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"186\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"248\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"310\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"372\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"434\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"496\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"558\" y=\"298\" width=\"52\" height=\"52\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"800\" y=\"96\" width=\"860\" height=\"40\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.4\"/><rect x=\"800\" y=\"96\" width=\"213\" height=\"40\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"800\" y=\"202\" width=\"860\" height=\"40\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.4\"/><rect x=\"800\" y=\"202\" width=\"87\" height=\"40\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"800\" y=\"308\" width=\"860\" height=\"40\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.4\"/><rect x=\"800\" y=\"308\" width=\"529\" height=\"40\" rx=\"8\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
     {
-     "n": "90%",
-     "x": "dos produtos prometem aumentar a testosterona",
-     "cor": "verm"
+     "x": 0,
+     "y": 0,
+     "w": 600,
+     "t": "50 produtos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "8,3",
-     "x": "ingredientes por produto, em média; 109 ingredientes diferentes",
-     "cor": "ambar"
+     "x": 0,
+     "y": 370,
+     "w": 760,
+     "t": "90% prometem aumentar a testosterona · 8,3 ingredientes por produto, em média",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "27 de 109",
-     "x": "ingredientes com algum estudo mostrando aumento; 11 mostrando queda; 67 sem estudo",
-     "cor": "petr"
+     "x": 800,
+     "y": 0,
+     "w": 860,
+     "t": "109 ingredientes diferentes",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 800,
+     "y": 60,
+     "w": 860,
+     "t": "27 de 109 · com algum estudo mostrando aumento",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 166,
+     "w": 860,
+     "t": "11 de 109 · com estudo mostrando queda",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 272,
+     "w": 860,
+     "t": "67 de 109 · sem estudo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Uma análise de 2020",
+   "titulo": "Cinquenta estimulantes de testosterona",
    "destaque": "Vários produtos traziam zinco, vitamina B3 ou magnésio acima do limite superior tolerável.",
    "destaque_cor": "tinta",
-   "fonte": "World Journal of Men’s Health 2020"
+   "fonte": "Clemesha e colaboradores · World Journal of Men’s Health 2020"
   },
   {
    "id": "categorias",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro prateleiras. Testosterona: tribulus não mudou hormônio em ensaio controlado; o que se diz é que o sintoma é que se investiga. Termogênico: o que age costuma ser cafeína somada a outros estimulantes; o que se diz é palpitação, insônia, pressão alta. Detox: sem mecanismo, com efeito diurético ou laxativo; fígado e rim fazem o trabalho. Recuperação e articulação: grupo B, como colágeno, curcumina e cereja azeda; ainda não se sabe o suficiente\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"386\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(20.0 20.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 14a5 5 0 1 0 10 0a5 5 0 1 0-10 0m14-9l-5.4 5.4M19 5h-5m5 0v5\"/></g><path d=\"M 0 270 h 386 v 100 h -306 l -40 30 l 6 -30 h -46 z\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"426\" y=\"0\" width=\"386\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(446.0 20.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><path d=\"M 426 270 h 386 v 100 h -306 l -40 30 l 6 -30 h -46 z\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"852\" y=\"0\" width=\"386\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(872.0 20.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><path d=\"M 852 270 h 386 v 100 h -306 l -40 30 l 6 -30 h -46 z\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1278\" y=\"0\" width=\"386\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1298.0 20.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g><path d=\"M 1278 270 h 386 v 100 h -306 l -40 30 l 6 -30 h -46 z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 72,
+     "y": 24,
+     "w": 296,
+     "t": "Testosterona",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 100,
+     "w": 346,
+     "t": "tribulus: sem mudança hormonal em ensaio controlado",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 16,
+     "y": 290,
+     "w": 354,
+     "t": "o sintoma é que se investiga",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 498,
+     "y": 24,
+     "w": 296,
+     "t": "Termogênico",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 446,
+     "y": 100,
+     "w": 346,
+     "t": "o que age costuma ser cafeína, somada a outros estimulantes",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 442,
+     "y": 290,
+     "w": 354,
+     "t": "palpitação, insônia, pressão alta",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 24,
+     "w": 296,
+     "t": "Detox",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 872,
+     "y": 100,
+     "w": 346,
+     "t": "sem mecanismo; efeito diurético ou laxativo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 868,
+     "y": 290,
+     "w": 354,
+     "t": "fígado e rim fazem o trabalho",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 24,
+     "w": 296,
+     "t": "Recuperação e articulação",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1298,
+     "y": 100,
+     "w": 346,
+     "t": "grupo B: colágeno, curcumina, cereja azeda",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1294,
+     "y": 290,
+     "w": 354,
+     "t": "“ainda não se sabe o suficiente”",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O que mais chega ao consultório",
    "titulo": "Quatro prateleiras",
-   "cab": [
-    "Categoria",
-    "O que se sabe",
-    "O que dizer"
-   ],
-   "larguras": [
-    22,
-    40,
-    38
-   ],
-   "linhas": [
-    [
-     "Testosterona",
-     "tribulus: sem mudança hormonal em ensaio controlado",
-     "o sintoma é que se investiga"
-    ],
-    [
-     "Termogênico",
-     "o que age costuma ser cafeína, somada a outros estimulantes",
-     "palpitação, insônia, pressão alta"
-    ],
-    [
-     "Detox",
-     "sem mecanismo; efeito diurético ou laxativo",
-     "fígado e rim fazem o trabalho"
-    ],
-    [
-     "Recuperação e articulação",
-     "grupo B: colágeno, curcumina, cereja azeda",
-     "“ainda não se sabe o suficiente”"
-    ]
-   ],
    "destaque": "Nem tudo na prateleira é igual. Tratar tudo como charlatanismo é tão impreciso quanto tratar tudo como promissor.",
    "destaque_cor": "petr",
    "fonte": "Tribulus: Neychev e Mitev, Journal of Ethnopharmacology 2005"
   },
   {
    "id": "passos",
-   "tipo": "lista",
-   "eyebrow": "Como dizer",
-   "titulo": "Quem só diz não perde o paciente para quem diz sim",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro passos de conversa, cada um com a frase que o representa. Validar a pergunta, não o produto: isso é um problema real, e a gente vai resolver. Ensinar o critério: vinte pessoas, mediu um marcador, dose maior que a do pote. Oferecer o que responde: para cansaço, sono, energia total, ferro, carga de treino. Negociar, quando couber: mantenha, e em oito semanas a gente olha o que mudou\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"36\" cy=\"36\" r=\"26\" fill=\"#008A7E\"/><path d=\"M 0 130 h 386 v 190 h -296 l -40 40 l 6 -40 h -56 z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"390\" y1=\"36\" x2=\"422\" y2=\"36\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"462\" cy=\"36\" r=\"26\" fill=\"#008A7E\"/><path d=\"M 426 130 h 386 v 190 h -296 l -40 40 l 6 -40 h -56 z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"816\" y1=\"36\" x2=\"848\" y2=\"36\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"888\" cy=\"36\" r=\"26\" fill=\"#B07A1C\"/><path d=\"M 852 130 h 386 v 190 h -296 l -40 40 l 6 -40 h -56 z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"1242\" y1=\"36\" x2=\"1274\" y2=\"36\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"1314\" cy=\"36\" r=\"26\" fill=\"#B07A1C\"/><path d=\"M 1278 130 h 386 v 190 h -296 l -40 40 l 6 -40 h -56 z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 10,
+     "y": 20,
+     "w": 52,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 14,
+     "w": 306,
      "t": "Validar a pergunta, não o produto",
-     "x": "“isso é um problema real, e a gente vai resolver”",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 156,
+     "w": 346,
+     "t": "“Isso é um problema real, e a gente vai resolver.”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 436,
+     "y": 20,
+     "w": 52,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 14,
+     "w": 306,
      "t": "Ensinar o critério",
-     "x": "“vinte pessoas, mediu um marcador, dose maior que a do pote”",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 446,
+     "y": 156,
+     "w": 346,
+     "t": "“Vinte pessoas, mediu um marcador, dose maior que a do pote.”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 862,
+     "y": 20,
+     "w": 52,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 14,
+     "w": 306,
      "t": "Oferecer o que responde",
-     "x": "cansaço: sono, energia total, ferro, carga de treino",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 872,
+     "y": 156,
+     "w": 346,
+     "t": "Cansaço: sono, energia total, ferro, carga de treino.",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1288,
+     "y": 20,
+     "w": 52,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1352,
+     "y": 14,
+     "w": 306,
      "t": "Negociar, quando couber",
-     "x": "“mantenha, e em oito semanas a gente olha o que mudou”",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1298,
+     "y": 156,
+     "w": 346,
+     "t": "“Mantenha, e em oito semanas a gente olha o que mudou.”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     }
    ],
-   "gap_itens": 22
+   "eyebrow": "Como dizer",
+   "titulo": "Quem só diz não perde o paciente para quem diz sim"
   },
   {
    "id": "negocia",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Dois quadros com lógicas diferentes. Negocia quando tudo vale ao mesmo tempo: produto inócuo, e barato, e pessoa decidida, e o que muda o caso está sendo feito. Não negocia quando basta uma: estimulante com doença cardiovascular ou sintoma, ou origem duvidosa ou algo que pareça hormônio, ou custo alto para quem não tem sobrando, ou o produto substitui um tratamento que funciona\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"70\" y=\"80\" width=\"706\" height=\"62\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"70\" y=\"158\" width=\"706\" height=\"62\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"70\" y=\"236\" width=\"706\" height=\"62\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"70\" y=\"314\" width=\"706\" height=\"62\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"934\" y=\"80\" width=\"706\" height=\"62\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"934\" y=\"158\" width=\"706\" height=\"62\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"934\" y=\"236\" width=\"706\" height=\"62\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"934\" y=\"314\" width=\"706\" height=\"62\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 400,
+     "t": "Negocia",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 24,
+     "w": 376,
+     "t": "só se tudo vale junto",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 98,
+     "w": 670,
+     "t": "produto inócuo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 176,
+     "w": 670,
+     "t": "barato",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 14,
+     "y": 174,
+     "w": 44,
+     "t": "e",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 254,
+     "w": 670,
+     "t": "pessoa decidida",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 14,
+     "y": 252,
+     "w": 44,
+     "t": "e",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 332,
+     "w": 670,
+     "t": "o que muda o caso está sendo feito",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 14,
+     "y": 330,
+     "w": 44,
+     "t": "e",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 16,
+     "w": 400,
+     "t": "Não negocia",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1264,
+     "y": 24,
+     "w": 376,
+     "t": "basta uma",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 954,
+     "y": 98,
+     "w": 670,
+     "t": "estimulante com doença cardiovascular ou sintoma",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 954,
+     "y": 176,
+     "w": 670,
+     "t": "origem duvidosa, ou algo que pareça hormônio",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 878,
+     "y": 174,
+     "w": 44,
+     "t": "ou",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 954,
+     "y": 254,
+     "w": 670,
+     "t": "custo alto para quem não tem sobrando",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 878,
+     "y": 252,
+     "w": 44,
+     "t": "ou",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 954,
+     "y": 332,
+     "w": 670,
+     "t": "substitui um tratamento que funciona",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 878,
+     "y": 330,
+     "w": 44,
+     "t": "ou",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Escolha as batalhas",
    "titulo": "Quando negociar, e quando não",
-   "esq": {
-    "t": "Negocia",
-    "cor": "petr",
-    "itens": [
-     "produto inócuo",
-     "barato",
-     "pessoa decidida",
-     "e o que muda o caso está sendo feito"
-    ]
-   },
-   "dir": {
-    "t": "Não negocia",
-    "cor": "verm",
-    "itens": [
-     "estimulante com doença cardiovascular ou sintoma",
-     "origem duvidosa, ou algo que pareça hormônio",
-     "custo alto para quem não tem sobrando",
-     "substitui um tratamento que funciona"
-    ]
-   },
    "destaque": "Aí a resposta é não, firme, com o motivo dito em voz alta.",
    "destaque_cor": "verm"
   },
   {
    "id": "alertas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Três ou mais, e a conversa muda de tom",
-   "titulo": "O cartão de bolso",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Um cartão de bolso com nove caixas de marcar. Promete tudo: emagrece, dá energia, melhora o sono. Dose escondida em fórmula patenteada. Lista longa de ingredientes ativos. Degrau baixo de evidência: célula, animal ou marcador. Fonte única, só o fabricante. Dose que não bate entre o pote e o estudo. Depoimento no lugar da técnica. Urgência: escassez, prazo, marketing de rede. E efeito de remédio, sinal de substância não declarada. Três ou mais marcadas, e a conversa muda de tom\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"1240\" height=\"400\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"24\" y=\"26\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"428\" y=\"26\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"832\" y=\"26\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"24\" y=\"152\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"428\" y=\"152\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"832\" y=\"152\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"24\" y=\"278\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"428\" y=\"278\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"832\" y=\"278\" width=\"34\" height=\"34\" rx=\"6\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1280\" y=\"60\" width=\"384\" height=\"280\" rx=\"16\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
+     "x": 72,
+     "y": 26,
+     "w": 340,
      "t": "Promete tudo",
-     "x": "emagrece, dá energia, melhora o sono",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 72,
+     "y": 64,
+     "w": 340,
+     "t": "emagrece, dá energia, melhora o sono",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 476,
+     "y": 26,
+     "w": 340,
      "t": "Dose escondida",
-     "x": "fórmula patenteada, sem dose por item",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 476,
+     "y": 64,
+     "w": 340,
+     "t": "fórmula patenteada, sem dose por item",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 26,
+     "w": 340,
      "t": "Lista longa",
-     "x": "muitos ingredientes ativos",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 880,
+     "y": 64,
+     "w": 340,
+     "t": "muitos ingredientes ativos",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 152,
+     "w": 340,
      "t": "Degrau baixo",
-     "x": "célula, animal ou marcador",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 72,
+     "y": 190,
+     "w": 340,
+     "t": "célula, animal ou marcador",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 476,
+     "y": 152,
+     "w": 340,
      "t": "Fonte única",
-     "x": "só o fabricante, sem replicação",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 476,
+     "y": 190,
+     "w": 340,
+     "t": "só o fabricante, sem replicação",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 152,
+     "w": 340,
      "t": "Dose que não bate",
-     "x": "o pote e o estudo não conversam",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 880,
+     "y": 190,
+     "w": 340,
+     "t": "o pote e o estudo não conversam",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 278,
+     "w": 340,
      "t": "Depoimento",
-     "x": "antes e depois no lugar da técnica",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 72,
+     "y": 316,
+     "w": 340,
+     "t": "antes e depois no lugar da técnica",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 476,
+     "y": 278,
+     "w": 340,
      "t": "Urgência",
-     "x": "escassez, prazo, marketing de rede",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 476,
+     "y": 316,
+     "w": 340,
+     "t": "escassez, prazo, marketing de rede",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 278,
+     "w": 340,
      "t": "Efeito de remédio",
-     "x": "sinal de substância não declarada",
-     "cor": "verm"
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 316,
+     "w": 340,
+     "t": "sinal de substância não declarada",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 96,
+     "w": 384,
+     "t": "3 ou mais",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 180,
+     "w": 344,
+     "t": "marcadas: a conversa muda de tom",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     }
-   ]
+   ],
+   "eyebrow": "Três ou mais, e a conversa muda de tom",
+   "titulo": "O cartão de bolso"
   },
   {
    "id": "respostas",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"As três situações do começo, cada uma com o tipo de resposta. O estimulante de testosterona: valida o sintoma, ensina o critério, investiga sono, energia e carga; pote só se não houver estimulante. O termogênico com palpitação: sem negociação; suspende, avaliação médica, e o pote vai junto à consulta. O estudo do laboratório: o método, não o veredito; quantos, placebo, desfecho, dose, quem financiou, quem replicou\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"460\" height=\"112\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 32.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><line x1=\"466\" y1=\"56\" x2=\"504\" y2=\"56\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"512\" y=\"0\" width=\"1152\" height=\"112\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"128\" width=\"460\" height=\"112\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 160.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><line x1=\"466\" y1=\"184\" x2=\"504\" y2=\"184\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"512\" y=\"128\" width=\"1152\" height=\"112\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"256\" width=\"460\" height=\"112\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 288.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><line x1=\"466\" y1=\"312\" x2=\"504\" y2=\"312\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"512\" y=\"256\" width=\"1152\" height=\"112\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 84,
+     "y": 40,
+     "w": 360,
+     "t": "Estimulante de testosterona",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 536,
+     "y": 14,
+     "w": 1100,
+     "t": "valida e investiga",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 536,
+     "y": 52,
+     "w": 1100,
+     "t": "valida o sintoma, ensina o critério, investiga sono, energia e carga; pote só se não houver estimulante",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 168,
+     "w": 360,
+     "t": "Termogênico com palpitação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 536,
+     "y": 142,
+     "w": 1100,
+     "t": "sem negociação",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 536,
+     "y": 180,
+     "w": 1100,
+     "t": "suspende, avaliação médica, o pote vai junto à consulta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 296,
+     "w": 360,
+     "t": "Estudo do laboratório",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 536,
+     "y": 270,
+     "w": 1100,
+     "t": "o método, não o veredito",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 536,
+     "y": 308,
+     "w": 1100,
+     "t": "quantos, placebo, desfecho, dose, quem financiou, quem replicou",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "As três situações do começo",
    "titulo": "Três respostas",
-   "cab": [
-    "Situação",
-    "Resposta"
-   ],
-   "larguras": [
-    26,
-    74
-   ],
-   "linhas": [
-    [
-     "Estimulante de testosterona",
-     "valida o sintoma, ensina o critério, investiga sono, energia e carga; pote só se não houver estimulante"
-    ],
-    [
-     "Termogênico com palpitação",
-     "sem negociação: suspende, avaliação médica, o pote vai junto à consulta"
-    ],
-    [
-     "Estudo do laboratório",
-     "o método, não o veredito: quantos, placebo, desfecho, dose, quem financiou, quem replicou"
-    ]
-   ],
    "destaque": "Grupo B é “pode ser, ainda não se sabe”, que é diferente de “não funciona”. E a clínica vai vender o produto?",
    "destaque_cor": "ambar"
   },

@@ -125,6 +125,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Nos ergogênicos: vale a p
                     {"t": "Educador físico e preparador", "x": "Veem o sinal primeiro; levam o dado adiante."}],
           "quem": "A pergunta de primeira consulta é de todas as profissões."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "05-07")
+
 spec = {"arquivo": "aulas/MOD05/05-07-ferro-vitamina-d-e-omega-3-no-praticante.md",
         "modulo": "Suplementação, Ergogênicos e Antidoping", "tema": "ameixa",
         "titulo": "Ferro, vitamina D e ômega-3", "subtitulo": "Suplementos de uso clínico, diagnóstico antes do produto",

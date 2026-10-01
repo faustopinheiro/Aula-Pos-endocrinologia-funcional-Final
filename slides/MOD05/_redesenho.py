@@ -1234,6 +1234,459 @@ def condutas():
 
 
 
+# ---------------------------------------------------------------- 5.7
+
+def regra_57():
+    """5.7: três nutrientes, cada um com os dois caminhos: falta ou não falta."""
+    p = [svg_abre(1664, 380, "Três nutrientes de uso clínico: ferro, vitamina D e ômega-3. Cada um se abre em dois caminhos. Se falta, corrigir melhora. Se não falta, não há o que turbinar. No meio, a regra: sem saber se falta, não existe decisão possível"), defs(OXID, MUDO)]
+    nutr = [("t:droplet", "Ferro", FOSF), ("t:sun", "Vitamina D", GLIC), ("t:wave-sine", "Ômega-3", AZUL)]
+    rs = []
+    for k, (ic, t, cor) in enumerate(nutr):
+        x = k * 568
+        p.append(caixa(x + 104, 0, 320, 90, cor, CARTAO, esp=3, rx=45))
+        p.append(icone(ic, x + 130, 22, 44, cor))
+        rs.append(rot(x + 186, 28, t, w=220, tam=26, cor=cor, peso=700, serif=True))
+        p.append(seta(x + 230, 96, x + 120, 176, OXID, "m0", esp=3))
+        p.append(seta(x + 300, 96, x + 410, 176, MUDO, "m1", esp=3))
+        p.append(caixa(x, 186, 250, 100, OXID, OXID_T, esp=2, rx=14))
+        rs += [rot(x, 200, "falta", w=250, tam=20, cor=OXID, peso=700, alinha="center"), rot(x, 236, "corrigir melhora", w=250, tam=22, cor=TINTA, alinha="center")]
+        p.append(caixa(x + 278, 186, 250, 100, MUDO, PAPEL, esp=2, rx=14))
+        rs += [rot(x + 278, 200, "não falta", w=250, tam=20, cor=MUDO, peso=700, alinha="center"), rot(x + 278, 236, "nada a turbinar", w=250, tam=22, cor=TINTA, alinha="center")]
+    p.append(caixa(332, 310, 1000, 64, TINTA, TINTA, esp=0, rx=32))
+    rs.append(rot(332, 328, "sem saber se falta, não existe decisão possível", w=1000, tam=24, cor=PAPEL, peso=700, alinha="center"))
+    return slide("regra", 380, p, rs,
+                 eyebrow="Suplementos de uso clínico", titulo="Corrigir deficiência melhora. Turbinar suficiência, não.",
+                 destaque="Os ergogênicos acrescentam algo sobre uma base normal. Ferro, vitamina D e ômega-3 funcionam quando há falta.",
+                 destaque_cor="tinta")
+
+
+def perfis_57():
+    """5.7: três perfis típicos e o selo de cada um."""
+    p = [svg_abre(1664, 360, "Três perfis típicos, cada um com um selo. A corredora cansada há três meses, com ferritina 18 e hemoglobina normal: precisa. O homem da megadose, com 50 mil unidades de vitamina D por semana há oito meses, que nunca dosou cálcio: se arrisca. O jogador com uma cápsula de ômega-3 por dia para inflamação: não move nada")]
+    W = 528
+    cards = [("t:run", "A corredora", "precisa", "cansada há três meses; ferritina 18, hemoglobina normal", OXID, OXID_T),
+             ("t:pill", "O homem da megadose", "se arrisca", "50 mil unidades de vitamina D por semana, há oito meses; nunca dosou cálcio", FOSF, FOSF_T),
+             ("t:ball-football", "O jogador", "não move nada", "uma cápsula de ômega-3 por dia “para inflamação”", GLIC, GLIC_T)]
+    rs = []
+    for k, (ic, t, selo, d, cor, fundo) in enumerate(cards):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 360, cor, CARTAO, esp=3, rx=16))
+        p.append(icone(ic, x + 24, 24, 48, cor))
+        rs.append(rot(x + 88, 32, t, w=W - 110, tam=26, cor=TINTA, peso=700, serif=True))
+        p.append(caixa(x + 24, 100, W - 48, 64, cor, fundo, esp=3, rx=32))
+        rs += [rot(x + 24, 118, selo, w=W - 48, tam=25, cor=cor, peso=700, alinha="center"), rot(x + 24, 200, d, w=W - 48, tam=22, cor=TINTA, lh=1.35)]
+    return slide("perfis", 360, p, rs,
+                 eyebrow="Três perfis típicos", titulo="Uma precisa, um se arrisca, um não move nada")
+
+
+def perguntas_57():
+    """5.7: as três perguntas cruzadas com os três nutrientes."""
+    p = [svg_abre(1664, 400, "Uma matriz com as três perguntas nas linhas e os três nutrientes nas colunas. Existe falta demonstrada? Para ferro e vitamina D, exame com indicação; para ômega-3, a ingestão habitual de peixe. Existe risco no excesso? Ferro: sério. Vitamina D: em dose alta sem controle. Ômega-3: menor, com atenção a anticoagulante. Existe dose, prazo e reavaliação? Para os três: repor sem data de reavaliação cria uso permanente por inércia")]
+    cols = [("Ferro", FOSF), ("Vitamina D", GLIC), ("Ômega-3", AZUL)]
+    X = lambda j: 520 + j * 382
+    rs = []
+    for j, (t, cor) in enumerate(cols):
+        rs.append(rot(X(j), 0, t, w=362, tam=24, cor=cor, peso=700, alinha="center", serif=True))
+    linhas = [("Existe falta, demonstrada?", [("exame com indicação", OXID_T), ("exame com indicação", OXID_T), ("ingestão habitual de peixe", OXID_T)]),
+              ("Existe risco no excesso?", [("sério", FOSF_T), ("em dose alta sem controle", GLIC_T), ("menor; anticoagulante", PAPEL)])]
+    for i, (q, cells) in enumerate(linhas):
+        y = 44 + i * 120
+        rs.append(rot(0, y + 30, q, w=500, tam=24, cor=TINTA, peso=700, serif=True))
+        for j, (t, fundo) in enumerate(cells):
+            p.append(f'<rect x="{X(j)}" y="{y}" width="362" height="104" rx="12" fill="{fundo}"/>')
+            rs.append(rot(X(j) + 16, y + 36, t, w=330, tam=22, cor=TINTA, alinha="center"))
+    y = 284
+    rs.append(rot(0, y + 30, "Existe dose, prazo e reavaliação?", w=500, tam=24, cor=TINTA, peso=700, serif=True))
+    p.append(f'<rect x="{X(0)}" y="{y}" width="{X(2) + 362 - X(0)}" height="104" rx="12" fill="{GLIC_T}"/>')
+    rs.append(rot(X(0) + 20, y + 36, "repor sem data de reavaliação cria uso permanente por inércia", w=X(2) + 322 - X(0), tam=23, cor=TINTA, alinha="center"))
+    return slide("perguntas", 400, p, rs,
+                 eyebrow="A decisão", titulo="Três perguntas, para qualquer suplemento de uso clínico")
+
+
+def ferro_57():
+    """5.7: o corte da ferritina, a janela da hepcidina e o engano da inflamação."""
+    import math
+    p = [svg_abre(1664, 400, "Três quadros. A ferritina: numa régua, abaixo de 35 microgramas por litro está o primeiro estágio de deficiência em atletas, com hemoglobina ainda normal. A hepcidina: uma curva em esquema depois do exercício, com pico de 3 a 6 horas, quando a absorção intestinal de ferro se fecha. A inflamação: a ferritina sobe, e o número pode parecer falsamente confortável")]
+    rs = []
+    p.append(caixa(0, 0, 520, 400, OXID, CARTAO, esp=3, rx=16))
+    rs.append(rot(24, 18, "Ferritina", w=480, tam=27, cor=OXID, peso=700, serif=True))
+    X = lambda v: 40 + v / 100 * 440
+    p.append(f'<rect x="{X(0):.0f}" y="120" width="{X(35) - X(0):.0f}" height="60" rx="8" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="2"/>')
+    p.append(f'<line x1="{X(0):.0f}" y1="180" x2="{X(100):.0f}" y2="180" stroke="{MUDO}" stroke-width="3"/>')
+    for v in [0, 35, 100]:
+        rs.append(rot(X(v) - 40, 188, str(v), w=80, tam=19, cor=FOSF if v == 35 else MUDO, peso=700 if v == 35 else 400, alinha="center"))
+    rs += [rot(X(0) + 8, 138, "< 35 µg/L", w=160, tam=20, cor=FOSF, peso=700),
+           rot(24, 240, "primeiro estágio de deficiência em atletas, com hemoglobina ainda normal", w=470, tam=21, cor=TINTA, lh=1.3)]
+    p.append(caixa(560, 0, 620, 400, GLIC, CARTAO, esp=3, rx=16))
+    rs.append(rot(584, 18, "Hepcidina depois do exercício", w=580, tam=27, cor=GLIC, peso=700, serif=True))
+    T = lambda h: 600 + h / 12 * 540
+    B = 270
+    pts = [(T(h / 4), B - 150 * math.exp(-((h / 4 - 4.5) ** 2) / 6)) for h in range(0, 49)]
+    p.append(f'<rect x="{T(3):.0f}" y="80" width="{T(6) - T(3):.0f}" height="{B - 80}" fill="{GLIC_T}"/>')
+    p.append(f'<polyline points="{" ".join(f"{a:.0f},{b:.0f}" for a, b in pts)}" fill="none" stroke="{GLIC}" stroke-width="5"/>')
+    p.append(f'<line x1="{T(0):.0f}" y1="{B}" x2="{T(12):.0f}" y2="{B}" stroke="{MUDO}" stroke-width="3"/>')
+    for h in [0, 3, 6, 12]:
+        rs.append(rot(T(h) - 40, B + 8, f"{h} h", w=80, tam=19, cor=MUDO, alinha="center"))
+    rs += [rot(T(3), 86, "3 a 6 h", w=T(6) - T(3), tam=20, cor=GLIC, peso=700, alinha="center"),
+           rot(584, 316, "a absorção intestinal se fecha · curva: esquema", w=580, tam=20, cor=TINTA)]
+    p.append(caixa(1220, 0, 444, 400, FOSF, FOSF_T, esp=3, rx=16))
+    p.append(icone("t:temperature", 1244, 24, 48, FOSF))
+    rs += [rot(1300, 30, "Inflamação", w=340, tam=27, cor=FOSF, peso=700, serif=True),
+           rot(1220, 110, "ferritina ↑", w=444, tam=44, cor=FOSF, peso=700, alinha="center", serif=True),
+           rot(1244, 200, "pode estar falsamente confortável", w=396, tam=23, cor=TINTA, alinha="center", lh=1.3)]
+    return slide("ferro", 400, p, rs,
+                 eyebrow="Uma revisão de 2019", titulo="Ferro: quem testar e o que o número diz",
+                 destaque="Grupo de risco somado a sintoma abre exame. Nenhum dos dois, sozinho, costuma abrir.",
+                 destaque_cor="tinta", fonte="Sim e colaboradores · European Journal of Applied Physiology 2019")
+
+
+def stoffel():
+    """5.7: dias consecutivos contra dias alternados, e a dose dividida."""
+    p = [svg_abre(1664, 400, "Dois calendários de duas semanas. Em dias consecutivos, um comprimido por dia: absorção fracionada acumulada de 16,3%, e 131 miligramas de ferro absorvido no total. Em dias alternados: 21,8%, e 175 miligramas. À direita, dividir a dose do dia em duas tomadas: sem ganho de absorção, e mais hepcidina")]
+    rs = []
+    linhas = [("Dias consecutivos", 1, "16,3%", "131 mg", MUDO), ("Dias alternados", 2, "21,8%", "175 mg", OXID)]
+    for i, (t, passo, pct, mg, cor) in enumerate(linhas):
+        y = i * 200
+        rs.append(rot(0, y, t, w=400, tam=24, cor=TINTA if cor == MUDO else cor, peso=700, serif=True))
+        for d in range(14):
+            x = d * 52
+            p.append(f'<rect x="{x}" y="{y + 44}" width="44" height="44" rx="8" fill="{CARTAO}" stroke="{BORDA}" stroke-width="2"/>')
+            if d % passo == 0:
+                p.append(f'<circle cx="{x + 22}" cy="{y + 66}" r="12" fill="{cor}"/>')
+        p.append(f'<rect x="0" y="{y + 112}" width="{float(pct.replace("%", "").replace(",", ".")) * 25:.0f}" height="40" rx="6" fill="{cor}"/>')
+        rs += [rot(float(pct.replace("%", "").replace(",", ".")) * 25 + 14, y + 116, f"{pct} de absorção acumulada · {mg} no total", w=500, tam=21, cor=TINTA if cor == MUDO else cor, peso=700)]
+    p.append(caixa(1180, 20, 484, 340, FOSF, FOSF_T, esp=3, rx=16))
+    rs += [rot(1204, 40, "Dividir a dose do dia", w=440, tam=27, cor=FOSF, peso=700, serif=True),
+           rot(1204, 110, "sem ganho de absorção", w=440, tam=24, cor=TINTA),
+           rot(1204, 170, "mais hepcidina", w=440, tam=24, cor=TINTA),
+           rot(1204, 250, "dose única, pela manhã, em dias alternados, longe da sessão intensa", w=440, tam=20, cor=OXID, peso=700, lh=1.3)]
+    return slide("stoffel", 400, p, rs,
+                 eyebrow="Dois ensaios de 2017", titulo="Ferro: dias alternados, dose única",
+                 destaque="Vitamina C junto; café, chá, leite e cálcio longe.",
+                 destaque_cor="petr", fonte="Stoffel e colaboradores · mulheres com estoque baixo · Lancet Haematology 2017")
+
+
+def pista():
+    """5.7: o ferro que só entra, e a pista que a reposição apaga."""
+    p = [svg_abre(1664, 400, "À esquerda, um reservatório de ferro com entrada e sem saída: o ferro em excesso acumula, porque o corpo não tem via eficiente de excreção; a hemocromatose hereditária não é raríssima, e polivitamínico com ferro também conta. À direita, a ferritina baixa como pista, ligada às causas a investigar: fluxo menstrual, dieta, doença celíaca e perda digestiva, que é obrigatório investigar. Repor sem investigar apaga a pista"), defs(FOSF, MUDO)]
+    p.append(caixa(0, 0, 720, 400, FOSF, FOSF_T, esp=3, rx=16))
+    rs = [rot(24, 18, "Ferro em excesso", w=660, tam=27, cor=FOSF, peso=700, serif=True)]
+    p.append(f'<rect x="60" y="120" width="180" height="220" rx="12" fill="{CARTAO}" stroke="{FOSF}" stroke-width="4"/>')
+    p.append(f'<rect x="64" y="200" width="172" height="136" rx="8" fill="{FOSF}" opacity="0.5"/>')
+    p.append(seta(150, 70, 150, 110, FOSF, "m0", esp=5))
+    p.append(f'<line x1="200" y1="350" x2="240" y2="390" stroke="{MUDO}" stroke-width="4"/><line x1="240" y1="350" x2="200" y2="390" stroke="{MUDO}" stroke-width="4"/>')
+    rs.append(rot(252, 356, "sem saída", w=200, tam=19, cor=MUDO, peso=700))
+    for k, t in enumerate(["acumula; sem via eficiente de excreção", "hemocromatose hereditária não é raríssima", "polivitamínico com ferro também conta"]):
+        rs.append(rot(290, 110 + k * 80, t, w=410, tam=22, cor=TINTA, lh=1.25))
+    p.append(caixa(780, 140, 300, 120, GLIC, GLIC_T, esp=3, rx=14))
+    rs += [rot(780, 162, "ferritina baixa", w=300, tam=25, cor=GLIC, peso=700, alinha="center", serif=True), rot(780, 206, "é achado, não diagnóstico", w=300, tam=19, cor=TINTA, alinha="center")]
+    causas = [("fluxo menstrual", GLIC), ("dieta", GLIC), ("doença celíaca", GLIC), ("perda digestiva: obrigatório investigar", FOSF)]
+    for k, (t, cor) in enumerate(causas):
+        y = k * 100 + 4
+        p.append(seta(1086, 200, 1150, y + 40, MUDO, "m1", esp=3))
+        p.append(caixa(1160, y, 504, 80, cor, CARTAO, esp=2, rx=14))
+        rs.append(rot(1180, y + 26, t, w=470, tam=22, cor=cor if cor == FOSF else TINTA, peso=700 if cor == FOSF else 400))
+    rs.append(rot(780, 300, "repor às cegas apaga a pista", w=340, tam=22, cor=FOSF, peso=700, lh=1.2))
+    return slide("pista", 400, p, rs,
+                 eyebrow="Ferro só com diagnóstico", titulo="Por que não repor às cegas",
+                 destaque="Diagnóstico, prescrição e reavaliação são do médico. Reconhecer risco e sintoma e encaminhar cedo é de todos.",
+                 destaque_cor="tinta")
+
+
+def vitd():
+    """5.7: corrigir leva da deficiência à suficiência; otimizar empurra para além dela."""
+    p = [svg_abre(1664, 400, "Uma régua de estado de vitamina D em três zonas: deficiente, suficiente e alto, sem valores. Corrigir é a seta da deficiência até a suficiência: em deficiente, repor melhora desfecho ósseo, com refeição que tenha gordura. Otimizar é a seta da suficiência para o alto: sem ganho de desempenho demonstrado, e a megadose sem controle traz hipercalcemia, que não dá sintoma cedo. Embaixo, quem tem motivo para testar: pouco sol, treino coberto, pele escura, idade, obesidade, má absorção, fratura por estresse"), defs(OXID, FOSF)]
+    Y = 150
+    zonas = [(0, 520, "deficiente", FOSF_T, FOSF), (520, 1100, "suficiente", OXID_T, OXID), (1100, 1664, "alto", GLIC_T, GLIC)]
+    rs = []
+    for a, b, t, f, c in zonas:
+        p.append(f'<rect x="{a + 2}" y="{Y}" width="{b - a - 4}" height="60" rx="10" fill="{f}"/>')
+        rs.append(rot(a, Y + 16, t, w=b - a, tam=23, cor=c, peso=700, alinha="center"))
+    p.append(f'<path d="M 260 {Y - 10} C 400 40, 640 40, 780 {Y - 14}" fill="none" stroke="{OXID}" stroke-width="5" marker-end="url(#m0)"/>')
+    p.append(f'<path d="M 840 {Y - 10} C 1000 40, 1240 40, 1380 {Y - 14}" fill="none" stroke="{FOSF}" stroke-width="5" marker-end="url(#m1)"/>')
+    rs += [rot(320, 0, "Corrigir: melhora desfecho ósseo", w=420, tam=22, cor=OXID, peso=700, alinha="center"),
+           rot(900, 0, "Otimizar: sem ganho demonstrado", w=420, tam=22, cor=FOSF, peso=700, alinha="center"),
+           rot(1104, Y + 76, "megadose sem controle: hipercalcemia, sem sintoma cedo", w=560, tam=20, cor=FOSF, peso=700, lh=1.25),
+           rot(0, Y + 76, "com refeição que tenha gordura", w=500, tam=20, cor=OXID, peso=700),
+           rot(0, 300, "Quem tem motivo para testar", w=600, tam=21, cor=MUDO, peso=700)]
+    x = 0
+    for t in ["pouco sol", "treino coberto", "pele escura", "idade", "obesidade", "má absorção", "fratura por estresse"]:
+        w = 32 + len(t) * 13
+        p.append(caixa(x, 336, w, 52, MUDO, CARTAO, esp=2, rx=26))
+        rs.append(rot(x, 350, t, w=w, tam=20, cor=TINTA, alinha="center"))
+        x += w + 16
+    return slide("vitd", 400, p, rs,
+                 eyebrow="Vitamina D: só a decisão", titulo="Corrigir não é otimizar",
+                 destaque="Na megadose, a conduta é avaliação médica com cálcio e vitamina D, e a suspensão decidida com o resultado na mão.",
+                 destaque_cor="verm")
+
+
+def paulsen():
+    """5.7: o ensaio das vitaminas antioxidantes e a adaptação mitocondrial embotada."""
+    p = [svg_abre(1664, 380, "À esquerda, o desenho do ensaio: 54 jovens, duplo-cego, 11 semanas de treino aeróbio, sobretudo corrida; o grupo suplementado tomou 1.000 miligramas de vitamina C com 235 de vitamina E por dia, doses de prateleira. À direita, o aumento das proteínas mitocondriais com o treino, em esquema: menor no grupo suplementado")]
+    rs = []
+    fatos = [("t:users", "54 jovens", "duplo-cego, 11 semanas de treino aeróbio, sobretudo corrida"), ("t:pill", "1.000 mg de C + 235 mg de E", "por dia: doses de prateleira")]
+    for k, (ic, t, d) in enumerate(fatos):
+        y = k * 190
+        p.append(caixa(0, y, 760, 170, TINTA if k == 0 else GLIC, CARTAO, esp=3, rx=16))
+        p.append(icone(ic, 24, y + 24, 48, TINTA if k == 0 else GLIC))
+        rs += [rot(90, y + 30, t, w=650, tam=28, cor=TINTA if k == 0 else GLIC, peso=700, serif=True), rot(24, y + 96, d, w=710, tam=22, cor=TINTA)]
+    B = 320
+    rs.append(rot(860, 0, "aumento das proteínas mitocondriais com o treino", w=800, tam=22, cor=MUDO, peso=700))
+    for k, (t, h, cor) in enumerate([("placebo", 220, OXID), ("vitaminas C e E", 110, FOSF)]):
+        x = 920 + k * 340
+        p.append(f'<rect x="{x}" y="{B - h}" width="220" height="{h}" rx="8" fill="{cor}"/>')
+        rs.append(rot(x - 30, B + 10, t, w=280, tam=22, cor=cor, peso=700, alinha="center"))
+    p.append(f'<line x1="880" y1="{B}" x2="1620" y2="{B}" stroke="{MUDO}" stroke-width="3"/>')
+    rs += [rot(1260, B - 160, "embotado", w=220, tam=26, cor=FOSF, peso=700, alinha="center", serif=True),
+           rot(880, B + 46, "alturas: esquema", w=300, tam=17, cor=MUDO)]
+    return slide("paulsen", 380, p, rs,
+                 eyebrow="Um ensaio de 2014", titulo="Apagar o sinal que adapta",
+                 destaque="Achado de vitamina C e E, não do ômega-3. Mas a postura vale: onde a inflamação faz parte do sinal, “reduzir inflamação” não é automaticamente bom.",
+                 destaque_cor="tinta", fonte="Paulsen e colaboradores · Journal of Physiology 2014")
+
+
+def aplicado():
+    """5.7: os três perfis colocados na curva de benefício."""
+    p = [svg_abre(1664, 400, "Uma curva de benefício em esquema: sobe enquanto há falta e fica plana na suficiência; no excesso, aparece o risco. A corredora está na subida: falta provável, e o risco é repor às cegas; o médico investiga o porquê, com dose única matinal em dias alternados e reavaliação. O jogador está perto do platô, com um ponto de interrogação: talvez falte, risco baixo; peixe duas vezes por semana e, se usar, a dose dos estudos. O homem da megadose de vitamina D está além, na zona de risco: a questão não é falta, é hipercalcemia; médico, cálcio e vitamina D, e suspensão orientada")]
+    X0, X1, B, T = 40, 1620, 200, 20
+    pts = []
+    for i in range(0, 101):
+        x = X0 + i / 100 * (X1 - X0)
+        v = min(1, i / 45) ** 0.6
+        pts.append((x, B - (B - T - 20) * v))
+    p.append(f'<rect x="{X0 + 0.78 * (X1 - X0):.0f}" y="{T}" width="{0.22 * (X1 - X0):.0f}" height="{B - T}" fill="{FOSF_T}"/>')
+    p.append(f'<polyline points="{" ".join(f"{a:.0f},{b:.0f}" for a, b in pts)}" fill="none" stroke="{OXID}" stroke-width="5"/>')
+    p.append(f'<line x1="{X0}" y1="{B}" x2="{X1}" y2="{B}" stroke="{MUDO}" stroke-width="3"/>')
+    rs = [rot(X0 + 0.78 * (X1 - X0), B - 40, "excesso: risco", w=0.22 * (X1 - X0), tam=20, cor=FOSF, peso=700, alinha="center"),
+          rot(X0, B + 8, "falta", w=200, tam=19, cor=MUDO), rot(X1 - 200, B + 8, "excesso", w=200, tam=19, cor=MUDO, alinha="right"),
+          rot(X0 + 300, B + 8, "curva: esquema", w=300, tam=17, cor=MUDO)]
+    marcas = [(0.18, "corredora", OXID), (0.5, "jogador ?", GLIC), (0.88, "megadose de D", FOSF)]
+    for f, t, cor in marcas:
+        x = X0 + f * (X1 - X0)
+        y = pts[int(f * 100)][1]
+        p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="14" fill="{cor}"/>')
+        rs.append(rot(x - 110, y + 22, t, w=220, tam=20, cor=cor, peso=700, alinha="center"))
+    cards = [("Corredora", "falta provável · risco: repor às cegas", "médico investiga o porquê; dose única matinal, dias alternados; reavaliação", OXID),
+             ("Jogador", "talvez falte · risco baixo", "peixe duas vezes por semana; se usar, a dose dos estudos", GLIC),
+             ("Megadose de D", "falta não é a questão · risco: hipercalcemia", "médico, cálcio e vitamina D; suspensão orientada", FOSF)]
+    for k, (t, a, c, cor) in enumerate(cards):
+        x = k * 568
+        p.append(caixa(x, 250, 528, 150, cor, CARTAO, esp=3, rx=14))
+        rs += [rot(x + 20, 262, t, w=490, tam=23, cor=cor, peso=700, serif=True), rot(x + 20, 296, a, w=490, tam=18, cor=MUDO), rot(x + 20, 326, c, w=490, tam=19, cor=TINTA, lh=1.25)]
+    return slide("aplicado", 400, p, rs,
+                 eyebrow="As três perguntas, aplicadas", titulo="Três posições na curva",
+                 destaque="A dor depois do jogo tem candidatos melhores: volume de jogo acima do treinado, sono e recuperação.",
+                 destaque_cor="ambar")
+
+
+# ---------------------------------------------------------------- 5.8
+
+def aparencia():
+    """5.8: os enfeites da promessa e a pergunta que separa aparência de ciência."""
+    p = [svg_abre(1664, 360, "À esquerda, os quatro enfeites da promessa moderna: estudo, referência, mecanismo e gráfico. À direita, duas máscaras: a aparência de ciência e a ciência. O erro não é do paciente: é de leitura, e o profissional também o comete")]
+    rs = []
+    for k, (ic, t) in enumerate([("t:notebook", "estudo"), ("t:book", "referência"), ("t:adjustments-horizontal", "mecanismo"), ("t:chart-line", "gráfico")]):
+        x, y = (k % 2) * 380, (k // 2) * 180
+        p.append(caixa(x, y, 350, 160, GLIC, GLIC_T, esp=2, rx=16))
+        p.append(icone(ic, x + 30, y + 52, 56, GLIC))
+        rs.append(rot(x + 110, y + 62, t, w=220, tam=28, cor=GLIC, peso=700, serif=True))
+    p.append(caixa(860, 0, 804, 160, FOSF, FOSF_T, esp=3, rx=16))
+    p.append(icone("t:mask", 884, 44, 72, FOSF))
+    rs += [rot(980, 30, "Aparência de ciência", w=660, tam=30, cor=FOSF, peso=700, serif=True), rot(980, 86, "vem com estudo, referência, mecanismo e gráfico", w=660, tam=21, cor=TINTA)]
+    p.append(caixa(860, 190, 804, 160, OXID, OXID_T, esp=3, rx=16))
+    p.append(icone("t:zoom-question", 884, 234, 72, OXID))
+    rs += [rot(980, 220, "Ciência", w=660, tam=30, cor=OXID, peso=700, serif=True), rot(980, 276, "o erro é de leitura, e o profissional também o comete", w=660, tam=21, cor=TINTA)]
+    return slide("aparencia", 360, p, rs,
+                 eyebrow="O erro é de leitura", titulo="A promessa moderna não mente de forma grosseira. Ela se parece com ciência.")
+
+
+def situacoes():
+    """5.8: três situações de hoje, cada uma com seu tom de risco."""
+    p = [svg_abre(1664, 360, "Três situações típicas. O estimulante de testosterona, com dez ingredientes e um estudo citado no rótulo, e a pergunta: posso tomar junto? O termogênico indicado por uma amiga, e a palpitação que começou. O estudo do laboratório: a colega fisioterapeuta pergunta sobre um produto de recuperação")]
+    W = 528
+    cards = [("t:pill", "O estimulante de testosterona", "dez ingredientes, um estudo citado no rótulo; “posso tomar junto?”", GLIC, GLIC_T),
+             ("t:heartbeat", "O termogênico", "indicado por uma amiga; começou a ter palpitação", FOSF, FOSF_T),
+             ("t:notebook", "O estudo do laboratório", "a colega fisioterapeuta pergunta sobre um produto de recuperação", OXID, OXID_T)]
+    rs = []
+    for k, (ic, t, d, cor, fundo) in enumerate(cards):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 360, cor, fundo, esp=3, rx=16))
+        p.append(icone(ic, x + W / 2 - 40, 30, 80, cor))
+        rs += [rot(x + 24, 140, t, w=W - 48, tam=27, cor=cor, peso=700, serif=True, alinha="center", lh=1.15), rot(x + 30, 230, d, w=W - 60, tam=22, cor=TINTA, alinha="center", lh=1.35)]
+    return slide("situacoes", 360, p, rs,
+                 eyebrow="Três situações típicas", titulo="Resposta para hoje",
+                 destaque="“Não tem evidência” não é resposta suficiente para nenhum dos três.", destaque_cor="tinta")
+
+
+def pecas():
+    """5.8: as seis peças da promessa, em sequência."""
+    p = [svg_abre(1664, 400, "Seis peças da promessa, em sequência, quase sempre nesta ordem. Um: mecanismo plausível; a frase costuma ser verdadeira, mas plausibilidade não é efeito. Dois: um estudo que existe; a pergunta muda de tem estudo para que estudo. Três: desfecho substituto; mediu marcador e o anúncio vende desempenho. Quatro: dose e população extrapoladas. Cinco: prova social, com depoimento, antes e depois, atleta conhecido. Seis: autoridade e urgência, como patenteado e últimas unidades, a peça que impede de pensar")]
+    pc = [("Mecanismo plausível", "a frase costuma ser verdadeira; plausibilidade não é efeito", OXID, OXID_T),
+          ("Um estudo que existe", "a pergunta muda de “tem estudo?” para “que estudo?”", OXID, OXID_T),
+          ("Desfecho substituto", "mediu marcador; o anúncio vende desempenho", GLIC, GLIC_T),
+          ("Dose e população extrapoladas", "dose maior que a do pote; gente que não é o seu paciente", GLIC, GLIC_T),
+          ("Prova social", "depoimento, antes e depois, atleta conhecido", FOSF, FOSF_T),
+          ("Autoridade e urgência", "“patenteado”, “últimas unidades”: a peça que impede de pensar", FOSF, FOSF_T)]
+    W = 540
+    rs = []
+    for k, (t, d, cor, fundo) in enumerate(pc):
+        x, y = (k % 3) * (W + 22), (k // 3) * 206
+        p.append(f'<path d="M {x} {y} h {W - 40} l 40 95 l -40 95 h -{W - 40} l 30 -95 z" fill="{fundo}" stroke="{cor}" stroke-width="3"/>')
+        p.append(f'<circle cx="{x + 70}" cy="{y + 44}" r="20" fill="{cor}"/>')
+        rs += [rot(x + 50, y + 32, str(k + 1), w=40, tam=21, cor=PAPEL, peso=700, alinha="center"),
+               rot(x + 104, y + 30, t, w=W - 160, tam=22, cor=cor, peso=700, lh=1.15),
+               rot(x + 50, y + 96, d, w=W - 120, tam=19, cor=TINTA, lh=1.25)]
+    return slide("pecas", 400, p, rs,
+                 eyebrow="A anatomia da promessa", titulo="Seis peças, quase sempre nesta ordem")
+
+
+def fraquezas():
+    """5.8: cinco fraquezas do estudo citado e três expressões vazias do rótulo traduzidas."""
+    p = [svg_abre(1664, 400, "À esquerda, as cinco fraquezas do estudo citado: amostra pequena, que gera hipótese e não conduta; sem placebo ou sem cegamento; marcador no lugar de desfecho; único estudo do fabricante, sem replicação; resumo de congresso que nunca virou artigo. À direita, três expressões do rótulo e o que elas querem dizer: clinicamente testado não diz o resultado; fórmula patenteada é propriedade, não eficácia; natural, e digitálico também é"), defs(MUDO)]
+    p.append(caixa(0, 0, 780, 400, GLIC, GLIC_T, esp=3, rx=16))
+    rs = [rot(24, 16, "O estudo citado", w=700, tam=27, cor=GLIC, peso=700, serif=True)]
+    for k, t in enumerate(["amostra pequena: gera hipótese, não conduta", "sem placebo ou sem cegamento", "marcador no lugar de desfecho", "único estudo do fabricante, sem replicação", "resumo de congresso que nunca virou artigo"]):
+        y = 72 + k * 64
+        p.append(icone("t:alert-triangle", 24, y, 34, GLIC))
+        rs.append(rot(72, y + 4, t, w=690, tam=21, cor=TINTA))
+    rs.append(rot(840, 0, "O rótulo, traduzido", w=800, tam=27, cor=FOSF, peso=700, serif=True))
+    for k, (a, b) in enumerate([("“clinicamente testado”", "não diz o resultado"), ("“fórmula patenteada”", "propriedade, não eficácia"), ("“natural”", "digitálico também é")]):
+        y = 60 + k * 116
+        p.append(caixa(840, y, 340, 92, FOSF, FOSF_T, esp=2, rx=46))
+        rs.append(rot(840, y + 30, a, w=340, tam=21, cor=FOSF, peso=700, alinha="center"))
+        p.append(seta(1188, y + 46, 1236, y + 46, MUDO, "m0", esp=3))
+        rs.append(rot(1250, y + 30, b, w=414, tam=23, cor=TINTA, peso=700))
+    return slide("fraquezas", 400, p, rs,
+                 eyebrow="Quando existe um estudo", titulo="Cinco fraquezas, três expressões vazias",
+                 destaque="Patrocínio não invalida um estudo; a pesquisa da creatina também tem indústria. O problema é a fonte única.",
+                 destaque_cor="tinta")
+
+
+def clemesha():
+    """5.8: cinquenta potes, quarenta e cinco prometendo, e os 109 ingredientes por evidência."""
+    p = [svg_abre(1664, 400, "À esquerda, cinquenta quadradinhos, um por produto: 45 deles, 90%, prometem aumentar a testosterona. Em média, 8,3 ingredientes por produto. À direita, os 109 ingredientes diferentes, em três barras: 27 com algum estudo mostrando aumento, 11 com estudo mostrando queda, e 67 sem estudo")]
+    rs = [rot(0, 0, "50 produtos", w=600, tam=24, cor=TINTA, peso=700, serif=True)]
+    for k in range(50):
+        x, y = (k % 10) * 62, 50 + (k // 10) * 62
+        p.append(f'<rect x="{x}" y="{y}" width="52" height="52" rx="8" fill="{FOSF if k < 45 else CINZA}"/>')
+    rs += [rot(0, 370, "90% prometem aumentar a testosterona · 8,3 ingredientes por produto, em média", w=760, tam=19, cor=FOSF, peso=700)]
+    rs.append(rot(800, 0, "109 ingredientes diferentes", w=860, tam=24, cor=TINTA, peso=700, serif=True))
+    barras = [(27, "com algum estudo mostrando aumento", OXID), (11, "com estudo mostrando queda", FOSF), (67, "sem estudo", MUDO)]
+    for k, (n, t, cor) in enumerate(barras):
+        y = 60 + k * 106
+        p.append(f'<rect x="800" y="{y + 36}" width="860" height="40" rx="8" fill="{CINZA}" opacity="0.4"/>')
+        p.append(f'<rect x="800" y="{y + 36}" width="{860 * n / 109:.0f}" height="40" rx="8" fill="{cor}"/>')
+        rs.append(rot(800, y, f"{n} de 109 · {t}", w=860, tam=22, cor=cor if cor != MUDO else TINTA, peso=700))
+    return slide("clemesha", 400, p, rs,
+                 eyebrow="Uma análise de 2020", titulo="Cinquenta estimulantes de testosterona",
+                 destaque="Vários produtos traziam zinco, vitamina B3 ou magnésio acima do limite superior tolerável.",
+                 destaque_cor="tinta", fonte="Clemesha e colaboradores · World Journal of Men’s Health 2020")
+
+
+def categorias():
+    """5.8: quatro prateleiras, o que se sabe e o que dizer."""
+    p = [svg_abre(1664, 400, "Quatro prateleiras. Testosterona: tribulus não mudou hormônio em ensaio controlado; o que se diz é que o sintoma é que se investiga. Termogênico: o que age costuma ser cafeína somada a outros estimulantes; o que se diz é palpitação, insônia, pressão alta. Detox: sem mecanismo, com efeito diurético ou laxativo; fígado e rim fazem o trabalho. Recuperação e articulação: grupo B, como colágeno, curcumina e cereja azeda; ainda não se sabe o suficiente")]
+    cats = [("t:gender-male", "Testosterona", "tribulus: sem mudança hormonal em ensaio controlado", "o sintoma é que se investiga", GLIC),
+            ("t:flame", "Termogênico", "o que age costuma ser cafeína, somada a outros estimulantes", "palpitação, insônia, pressão alta", FOSF),
+            ("t:droplet", "Detox", "sem mecanismo; efeito diurético ou laxativo", "fígado e rim fazem o trabalho", MUDO),
+            ("t:stretching", "Recuperação e articulação", "grupo B: colágeno, curcumina, cereja azeda", "“ainda não se sabe o suficiente”", OXID)]
+    W = 386
+    rs = []
+    for k, (ic, t, sabe, diz, cor) in enumerate(cats):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 240, cor, CARTAO, esp=3, rx=16))
+        p.append(icone(ic, x + 20, 20, 40, cor))
+        rs += [rot(x + 72, 24, t, w=W - 90, tam=23, cor=cor if cor != MUDO else TINTA, peso=700, serif=True, lh=1.15), rot(x + 20, 100, sabe, w=W - 40, tam=20, cor=TINTA, lh=1.3)]
+        p.append(f'<path d="M {x} 270 h {W} v 100 h -{W - 80} l -40 30 l 6 -30 h -46 z" fill="{OXID_T if cor == OXID else PAPEL}" stroke="{cor}" stroke-width="2"/>')
+        rs.append(rot(x + 16, 290, diz, w=W - 32, tam=20, cor=cor if cor != MUDO else TINTA, peso=700, lh=1.25))
+    return slide("categorias", 400, p, rs,
+                 eyebrow="O que mais chega ao consultório", titulo="Quatro prateleiras",
+                 destaque="Nem tudo na prateleira é igual. Tratar tudo como charlatanismo é tão impreciso quanto tratar tudo como promissor.",
+                 destaque_cor="petr", fonte="Tribulus: Neychev e Mitev, Journal of Ethnopharmacology 2005")
+
+
+def passos_58():
+    """5.8: quatro passos de conversa, cada um com a frase que o representa."""
+    p = [svg_abre(1664, 380, "Quatro passos de conversa, cada um com a frase que o representa. Validar a pergunta, não o produto: isso é um problema real, e a gente vai resolver. Ensinar o critério: vinte pessoas, mediu um marcador, dose maior que a do pote. Oferecer o que responde: para cansaço, sono, energia total, ferro, carga de treino. Negociar, quando couber: mantenha, e em oito semanas a gente olha o que mudou"), defs(MUDO)]
+    ps = [("Validar a pergunta, não o produto", "“Isso é um problema real, e a gente vai resolver.”", OXID, OXID_T),
+          ("Ensinar o critério", "“Vinte pessoas, mediu um marcador, dose maior que a do pote.”", OXID, OXID_T),
+          ("Oferecer o que responde", "Cansaço: sono, energia total, ferro, carga de treino.", GLIC, GLIC_T),
+          ("Negociar, quando couber", "“Mantenha, e em oito semanas a gente olha o que mudou.”", GLIC, GLIC_T)]
+    W = 386
+    rs = []
+    for k, (t, fala, cor, fundo) in enumerate(ps):
+        x = k * (W + 40)
+        p.append(f'<circle cx="{x + 36}" cy="36" r="26" fill="{cor}"/>')
+        rs += [rot(x + 10, 20, str(k + 1), w=52, tam=26, cor=PAPEL, peso=700, alinha="center"), rot(x + 74, 14, t, w=W - 80, tam=23, cor=cor, peso=700, serif=True, lh=1.15)]
+        p.append(f'<path d="M {x} 130 h {W} v 190 h -{W - 90} l -40 40 l 6 -40 h -56 z" fill="{fundo}" stroke="{cor}" stroke-width="3"/>')
+        rs.append(rot(x + 20, 156, fala, w=W - 40, tam=22, cor=TINTA, lh=1.35))
+        if k < 3:
+            p.append(seta(x + W + 4, 36, x + W + 36, 36, MUDO, "m0", esp=3))
+    return slide("passos", 380, p, rs,
+                 eyebrow="Como dizer", titulo="Quem só diz não perde o paciente para quem diz sim")
+
+
+def negocia():
+    """5.8: negociar exige todas as condições; uma só basta para não negociar."""
+    p = [svg_abre(1664, 400, "Dois quadros com lógicas diferentes. Negocia quando tudo vale ao mesmo tempo: produto inócuo, e barato, e pessoa decidida, e o que muda o caso está sendo feito. Não negocia quando basta uma: estimulante com doença cardiovascular ou sintoma, ou origem duvidosa ou algo que pareça hormônio, ou custo alto para quem não tem sobrando, ou o produto substitui um tratamento que funciona")]
+    rs = []
+    for x, t, regra, itens, lig, cor, fundo in [(0, "Negocia", "só se tudo vale junto", ["produto inócuo", "barato", "pessoa decidida", "o que muda o caso está sendo feito"], "e", OXID, OXID_T),
+                                                (864, "Não negocia", "basta uma", ["estimulante com doença cardiovascular ou sintoma", "origem duvidosa, ou algo que pareça hormônio", "custo alto para quem não tem sobrando", "substitui um tratamento que funciona"], "ou", FOSF, FOSF_T)]:
+        p.append(caixa(x, 0, 800, 400, cor, fundo, esp=3, rx=16))
+        rs += [rot(x + 24, 16, t, w=400, tam=30, cor=cor, peso=700, serif=True), rot(x + 400, 24, regra, w=376, tam=21, cor=cor, peso=700, alinha="right")]
+        for k, it in enumerate(itens):
+            y = 80 + k * 78
+            p.append(caixa(x + 70, y, 706, 62, cor, CARTAO, esp=2, rx=12))
+            rs.append(rot(x + 90, y + 18, it, w=670, tam=21, cor=TINTA))
+            if k:
+                rs.append(rot(x + 14, y + 16, lig, w=44, tam=22, cor=cor, peso=700, alinha="center"))
+    return slide("negocia", 400, p, rs,
+                 eyebrow="Escolha as batalhas", titulo="Quando negociar, e quando não",
+                 destaque="Aí a resposta é não, firme, com o motivo dito em voz alta.", destaque_cor="verm")
+
+
+def alertas():
+    """5.8: o cartão de bolso com nove caixas de marcar."""
+    p = [svg_abre(1664, 400, "Um cartão de bolso com nove caixas de marcar. Promete tudo: emagrece, dá energia, melhora o sono. Dose escondida em fórmula patenteada. Lista longa de ingredientes ativos. Degrau baixo de evidência: célula, animal ou marcador. Fonte única, só o fabricante. Dose que não bate entre o pote e o estudo. Depoimento no lugar da técnica. Urgência: escassez, prazo, marketing de rede. E efeito de remédio, sinal de substância não declarada. Três ou mais marcadas, e a conversa muda de tom")]
+    itens = [("Promete tudo", "emagrece, dá energia, melhora o sono"), ("Dose escondida", "fórmula patenteada, sem dose por item"), ("Lista longa", "muitos ingredientes ativos"),
+             ("Degrau baixo", "célula, animal ou marcador"), ("Fonte única", "só o fabricante, sem replicação"), ("Dose que não bate", "o pote e o estudo não conversam"),
+             ("Depoimento", "antes e depois no lugar da técnica"), ("Urgência", "escassez, prazo, marketing de rede"), ("Efeito de remédio", "sinal de substância não declarada")]
+    p.append(f'<rect x="0" y="0" width="1240" height="400" rx="22" fill="{CARTAO}" stroke="{TINTA}" stroke-width="3"/>')
+    rs = []
+    for k, (t, d) in enumerate(itens):
+        x, y = 24 + (k % 3) * 404, 20 + (k // 3) * 126
+        cor = FOSF if k == 8 else GLIC
+        p.append(f'<rect x="{x}" y="{y + 6}" width="34" height="34" rx="6" fill="none" stroke="{cor}" stroke-width="3"/>')
+        rs += [rot(x + 48, y + 6, t, w=340, tam=22, cor=cor, peso=700), rot(x + 48, y + 44, d, w=340, tam=18, cor=TINTA, lh=1.25)]
+    p.append(caixa(1280, 60, 384, 280, FOSF, FOSF, esp=0, rx=16))
+    rs += [rot(1280, 96, "3 ou mais", w=384, tam=44, cor=PAPEL, peso=700, alinha="center", serif=True), rot(1300, 180, "marcadas: a conversa muda de tom", w=344, tam=24, cor=PAPEL, alinha="center", lh=1.3)]
+    return slide("alertas", 400, p, rs,
+                 eyebrow="Três ou mais, e a conversa muda de tom", titulo="O cartão de bolso")
+
+
+def respostas_58():
+    """5.8: as três situações do começo e a resposta de cada uma."""
+    p = [svg_abre(1664, 380, "As três situações do começo, cada uma com o tipo de resposta. O estimulante de testosterona: valida o sintoma, ensina o critério, investiga sono, energia e carga; pote só se não houver estimulante. O termogênico com palpitação: sem negociação; suspende, avaliação médica, e o pote vai junto à consulta. O estudo do laboratório: o método, não o veredito; quantos, placebo, desfecho, dose, quem financiou, quem replicou"), defs(MUDO)]
+    linhas = [("t:pill", "Estimulante de testosterona", "valida e investiga", "valida o sintoma, ensina o critério, investiga sono, energia e carga; pote só se não houver estimulante", GLIC, GLIC_T),
+              ("t:heartbeat", "Termogênico com palpitação", "sem negociação", "suspende, avaliação médica, o pote vai junto à consulta", FOSF, FOSF_T),
+              ("t:notebook", "Estudo do laboratório", "o método, não o veredito", "quantos, placebo, desfecho, dose, quem financiou, quem replicou", OXID, OXID_T)]
+    rs = []
+    for k, (ic, t, tipo, d, cor, fundo) in enumerate(linhas):
+        y = k * 128
+        p.append(caixa(0, y, 460, 112, TINTA, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, 20, y + 32, 48, cor))
+        rs.append(rot(84, y + 40, t, w=360, tam=22, cor=TINTA, peso=700, serif=True))
+        p.append(seta(466, y + 56, 504, y + 56, MUDO, "m0", esp=3))
+        p.append(caixa(512, y, 1152, 112, cor, fundo, esp=3, rx=14))
+        rs += [rot(536, y + 14, tipo, w=1100, tam=22, cor=cor, peso=700), rot(536, y + 52, d, w=1100, tam=20, cor=TINTA, lh=1.25)]
+    return slide("respostas", 380, p, rs,
+                 eyebrow="As três situações do começo", titulo="Três respostas",
+                 destaque="Grupo B é “pode ser, ainda não se sabe”, que é diferente de “não funciona”. E a clínica vai vender o produto?",
+                 destaque_cor="ambar")
+
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"05-01": [pedidos_51, passo1, comida, abcd, perguntas, riscos, rotulo, decidir, respostas],
@@ -1241,7 +1694,9 @@ LICOES = {"05-01": [pedidos_51, passo1, comida, abcd, perguntas, riscos, rotulo,
           "05-03": [pergunta_53, mecanismo, fonte_53, sono, genetica, habito, limites, decisoes_53],
           "05-04": [formigamento, acumulo, tamanho, protocolo_54, notas_54, onde, perfis_54],
           "05-05": [esqueleto, inversao, nitrato, erros_55, bicarbonato, intestino_55, limites_55, perfis_55],
-          "05-06": [categoria, perfis_56, morton_56, obstaculos, tipos, jackman, prateleira, colageno, condutas]}
+          "05-06": [categoria, perfis_56, morton_56, obstaculos, tipos, jackman, prateleira, colageno, condutas],
+          "05-07": [regra_57, perfis_57, perguntas_57, ferro_57, stoffel, pista, vitd, paulsen, aplicado],
+          "05-08": [aparencia, situacoes, pecas, fraquezas, clemesha, categorias, passos_58, negocia, alertas, respostas_58]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
