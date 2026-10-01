@@ -106,7 +106,7 @@ Resfriado e o balcão da farmácia. Alguns descongestionantes são estimulantes,
 
 Transtorno de déficit de atenção. Os estimulantes do tratamento estão na classe proibida em competição. A resposta não é interromper o tratamento psiquiátrico; é autorização de uso terapêutico.
 
-E diuréticos no corte de peso. Proibidos em todos os momentos, porque mascaram. Fecha o círculo com a aula de composição corporal do módulo de nutrição: quem usa diurético para bater a balança não corre só risco de saúde, comete violação. E, como a aula anterior mostrou, diurético foi o adulterante mais comum nos suplementos analisados no Brasil. A violação pode acontecer sem que a pessoa saiba.
+E diuréticos no corte de peso. Proibidos em todos os momentos, porque mascaram. Fecha o círculo com a aula de composição corporal do módulo de nutrição: quem usa diurético para bater a balança não corre só risco de saúde, comete violação. E, como já apareceu na conversa sobre contaminação, diurético foi o adulterante mais comum nos suplementos analisados no Brasil. A violação pode acontecer sem que a pessoa saiba.
 
 ---
 
@@ -148,7 +148,7 @@ O atleta é notificado, em competição ou fora dela, inclusive sem aviso. A par
 
 A amostra é dividida em A e B. A A é analisada; se houver resultado adverso, o atleta pode pedir a análise da B. E recusar ou evitar a coleta equivale a um positivo. Isso se diz ao atleta antes, não na hora em que ele está irritado com o agente.
 
-Depois do resultado adverso, pode haver suspensão provisória, antes do julgamento, com direito a defesa, audiência e recurso. As sanções variam com a intenção e as circunstâncias. Violação intencional leva a períodos longos de inelegibilidade. Há redução quando se demonstra ausência de culpa significativa, e é aqui que entra a documentação da aula anterior: produto contaminado, embalagem guardada, lote registrado, compra documentada, análise do produto. O que parecia burocracia vira a diferença de anos.
+Depois do resultado adverso, pode haver suspensão provisória, antes do julgamento, com direito a defesa, audiência e recurso. As sanções variam com a intenção e as circunstâncias. Violação intencional leva a períodos longos de inelegibilidade. Há redução quando se demonstra ausência de culpa significativa, e é aqui que entra a documentação do lote: produto contaminado, embalagem guardada, lote registrado, compra documentada, análise do produto. O que parecia burocracia vira a diferença de anos.
 
 E uma nota de humanidade. O atleta notificado entra numa crise de identidade, de reputação e, muitas vezes, financeira. Vai precisar de apoio jurídico especializado e, com frequência, psicológico, assunto do módulo de psicologia do esporte e saúde mental. O papel da equipe ali não é julgar. É organizar a defesa e sustentar a pessoa.
 
@@ -162,7 +162,7 @@ A responsabilidade de cada profissão. Este slide é o motivo de a aula ser obri
 
 O médico prescreve, e portanto é quem mais decide. Verifica a substância na lista vigente antes de prescrever, escolhe a alternativa permitida quando existe, conduz a AUT com documentação e registra tudo. "Eu não sabia que ele competia" é evitável com uma pergunta na anamnese.
 
-O nutricionista decide sobre suplementos, a principal fonte de violação não intencional. O procedimento de seis perguntas da aula anterior, com registro de marca e lote. E o direito de dizer não ao que não dá para checar.
+O nutricionista decide sobre suplementos, a principal fonte de violação não intencional. O procedimento de seis perguntas, com registro de marca e lote. E o direito de dizer não ao que não dá para checar.
 
 O educador físico e o preparador não prescrevem substância, e justamente por isso são muito consultados de forma informal. A resposta profissional é encaminhar, não opinar. E reconhecer o que o ambiente oferece: o colega que vende, o "protocolo" que circula no vestiário, o produto que apareceu na mochila.
 
@@ -186,7 +186,7 @@ A lista é, em boa parte, uma lista de coisas que fazem mal. Anabolizantes, horm
 
 E o vocabulário do doping vazou para a academia. "Ciclo", "protocolo", "TRT", "modulador": palavras do meio competitivo que circulam entre pessoas que nunca vão competir. Reconhecer esse vocabulário é reconhecimento clínico, como a aula de alimentação desordenada pediu com a comida.
 
-Para quem atende o amador, não muda a lista; muda a pergunta. Em vez de "isso é proibido?", "isso é seguro, e por que essa pessoa está usando?". É a pergunta da próxima aula.
+Para quem atende o amador, não muda a lista; muda a pergunta. Em vez de "isso é proibido?", "isso é seguro, e por que essa pessoa está usando?". É a pergunta da próxima conversa.
 
 ---
 
@@ -237,6 +237,8 @@ três situações do começo são resolvidas dentro dele. Sem caso clínico: a n
 corredor de 34 e a jogadora de 19 viraram "três decisões típicas", sem idade; saiu "dona de casa".
 Continua sendo a aula mais longa do módulo (22 minutos, eram 30), pelo volume normativo.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (o remédio, as decisões, os três blocos, as onze violações, o consultório, a autorização de uso terapêutico, o controle, as profissões, o amador e a resolução), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** ABCD: AUT pedida pelo menos 30 dias antes da competição para substâncias
 proibidas só em competição; Comissão de AUT com até 21 dias corridos para decidir. ISTUE, critério
 de desempenho: "altamente improvável" que produza melhora além do retorno ao estado normal de saúde.
@@ -247,7 +249,7 @@ formoterol até 54 µg/24 h; salmeterol até 200 µg/24 h (até 100 µg em 8 h a
 Código 2021: onze violações (artigos 2.1 a 2.11); as sete de 2.5 a 2.11 alcançam o atleta ou
 "outra pessoa".
 
-**Correções.**
+**Correções.** 
 - O segundo critério da AUT estava como "na balança das probabilidades"; o padrão atual diz
   "altamente improvável". Corrigido.
 - "As últimas cinco violações podem ser cometidas por quem não é atleta" virou "sete de onze",
@@ -255,12 +257,13 @@ Código 2021: onze violações (artigos 2.1 a 2.11); as sete de 2.5 a 2.11 alcan
 - Entraram os limites de dose dos beta-2 inalatórios da lista de 2026, como exemplo e com o aviso
   de conferir a lista vigente.
 - A definição de "em competição" ganhou o horário da norma (23h59 da véspera).
+- As menções a "aula anterior" viraram referência ao conteúdo; "a pergunta da próxima aula" virou "da próxima conversa", na fala e no slide.
 
 **Saíram.** "Aula 4.9", "aula 5.9", "aula 10.5", "aula 8 do curso", "aula 4.12", "aula 5.11",
 "slide 1", "slide 4", "slide 8", "slide 9", "o escopo", as idades, "dona de casa", o bloco
-"Roteiro Gamma".
+"Roteiro Gamma". Duração de 30 para 22 minutos.
 
-**Citações faladas.** Agência Mundial Antidopagem; ABCD.
+**Citações faladas.** Nenhum autor por nome. Código Mundial Antidopagem, lista da Agência Mundial Antidopagem e ABCD entram pelo nome.
 
 **Ligações internas.** diurético e corte de peso = aula de composição corporal do módulo de nutrição
 · adulterantes no Brasil, documentação e seis perguntas = aula anterior · apoio psicológico =

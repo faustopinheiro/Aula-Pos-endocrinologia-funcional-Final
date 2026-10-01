@@ -2,7 +2,7 @@
 
 **Módulo 5 — Suplementação, Ergogênicos e Antidoping**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 16 minutos · 12 slides · Arquitetura: PROCEDIMENTO
+Duração: 15 minutos · 12 slides · Arquitetura: PROCEDIMENTO
 
 ---
 
@@ -10,7 +10,7 @@ Duração: 16 minutos · 12 slides · Arquitetura: PROCEDIMENTO
 *Visual: fundo escuro, a frase "Uma promessa falsa custa dinheiro. Uma substância não declarada pode custar uma carreira." Embaixo: "o que não está escrito no rótulo".*
 *Teleprompter: (entra pela inversão do problema)*
 
-A aula anterior tratou do que está escrito no rótulo: se é verdade, se a dose bate, se a evidência sustenta.
+Até aqui, a conversa foi sobre o que está escrito no rótulo: se é verdade, se a dose bate, se a evidência sustenta.
 
 Esta trata do que não está escrito.
 
@@ -52,11 +52,11 @@ E um detalhe que vira critério prático. Entre os produtos de empresas que tamb
 *Visual: à esquerda, a faixa "12 a 58%" da revisão de Martínez-Sanz. À direita, os achados do laboratório brasileiro: diuréticos no conjunto, estimulantes nos industrializados, anabolizantes nos manipulados.*
 *Teleprompter: (o que veio depois, e o dado brasileiro)*
 
-A revisão de Martínez-Sanz e colaboradores, de 2017, juntou o que se publicou depois e encontrou taxas de contaminação por substâncias proibidas entre 12 e 58 por cento.
+Uma revisão de 2017 juntou o que se publicou depois e encontrou taxas de contaminação por substâncias proibidas entre 12 e 58 por cento.
 
 A faixa é larga porque os estudos são heterogêneos: tipo de produto, país, método. Mas repare que mesmo o limite inferior é alto demais para ignorar.
 
-E o dado brasileiro, que é o que mais interessa aqui. Torres e colaboradores publicaram as análises de suplementos feitas pelo Laboratório Brasileiro de Controle de Dopagem entre 2017 e 2022, e o número de amostras adulteradas preocupa.
+E o dado brasileiro, que é o que mais interessa aqui. Em 2024, saíram as análises de suplementos feitas pelo Laboratório Brasileiro de Controle de Dopagem entre 2017 e 2022, e o número de amostras adulteradas preocupa.
 
 Os achados desenham o nosso mapa de risco. Diuréticos foram os adulterantes mais comuns no conjunto. Estimulantes apareceram mais nos produtos industrializados. Agentes anabolizantes, mais nos manipulados.
 
@@ -72,7 +72,7 @@ Por que isso acontece? Quatro rotas.
 
 Contaminação cruzada na produção. Uma fábrica produz, na mesma linha, um produto com pró-hormônio e um pote de creatina. Resíduo de um lote contamina o seguinte. As quantidades podem ser mínimas e suficientes para um exame positivo, porque os métodos do controle antidoping detectam concentrações muito baixas. A quantidade que contamina não precisa ter efeito nenhum no corpo. Só precisa ser detectável.
 
-Adulteração deliberada. O fabricante põe uma substância farmacológica para o produto funcionar, e não declara. É o nono alerta do cartão de bolso da aula anterior: quando promete efeito de remédio, às vezes é porque tem remédio.
+Adulteração deliberada. O fabricante põe uma substância farmacológica para o produto funcionar, e não declara. É o nono alerta do cartão de bolso: quando promete efeito de remédio, às vezes é porque tem remédio.
 
 Matéria-prima. O insumo é comprado a granel, muitas vezes importado, e o fabricante final não testa o que recebeu. A cadeia é longa e a rastreabilidade, curta.
 
@@ -92,7 +92,7 @@ No sistema antidoping vale a responsabilidade estrita: o atleta responde pelo qu
 
 Nota fiscal não protege. Rótulo não protege. Boa-fé não protege automaticamente.
 
-Existem mecanismos que consideram a ausência de culpa e podem reduzir a sanção, e eles exigem que o atleta demonstre a origem: o pote guardado, o lote registrado, a compra documentada e uma análise do produto. Quem jogou a embalagem fora não tem como demonstrar nada. O processo, as sanções e a autorização de uso terapêutico ficam para a próxima aula.
+Existem mecanismos que consideram a ausência de culpa e podem reduzir a sanção, e eles exigem que o atleta demonstre a origem: o pote guardado, o lote registrado, a compra documentada e uma análise do produto. Quem jogou a embalagem fora não tem como demonstrar nada. O processo, as sanções e a autorização de uso terapêutico ficam para a próxima conversa.
 
 E a parte que interessa a esta turma: a responsabilidade estrita é do atleta, mas a responsabilidade profissional é de quem indicou. O código antidoping prevê consequências para o pessoal de apoio que contribui para uma violação.
 
@@ -176,7 +176,7 @@ E uma nota sobre a norma. A Anvisa regula composição, rotulagem e alegações,
 
 As três situações.
 
-A atleta que testou positivo. O procedimento do antes não existe mais, e a conduta é de redução de danos: reunir embalagem, lote, nota fiscal e histórico de compra; listar todos os produtos usados nos últimos meses; acionar apoio jurídico e a via formal, que é a próxima aula. E a lição para os outros atletas da equipe: a nota fiscal não a protegeu. A embalagem guardada, se ela guardou, vale mais que a nota.
+A atleta que testou positivo. O procedimento do antes não existe mais, e a conduta é de redução de danos: reunir embalagem, lote, nota fiscal e histórico de compra; listar todos os produtos usados nos últimos meses; acionar apoio jurídico e a via formal, que é a próxima conversa. E a lição para os outros atletas da equipe: a nota fiscal não a protegeu. A embalagem guardada, se ela guardou, vale mais que a nota.
 
 O jogador do manipulado. Entender o que há na fórmula, quem prescreveu e por quê. Se houver apelo hormonal, a conversa muda de aula e vai para a última do módulo. Se ele for testado em alguma competição, a resposta é não. E, mesmo não sendo, ele merece saber o que está tomando.
 
@@ -194,7 +194,7 @@ Quem faz o quê. Escolher e indicar produto é do nutricionista e, num atleta te
 
 E a regra que vale para todos, sem exceção: quem não sabe checar o produto não indica o produto.
 
-Na próxima aula, a que organiza o sistema inteiro: a lista de substâncias e métodos proibidos, a autorização de uso terapêutico e a responsabilidade de cada membro da equipe.
+Na próxima conversa, a que organiza o sistema inteiro: a lista de substâncias e métodos proibidos, a autorização de uso terapêutico e a responsabilidade de cada membro da equipe.
 
 ---
 
@@ -216,6 +216,8 @@ outras duas aulas de procedimento do módulo, o procedimento aqui é uma sequên
 perguntas, com três slides de apoio, e não um roteiro de conversa. Sem caso clínico: a atleta de
 23 anos, o jogador de 31 e a nutricionista viraram "três situações típicas", sem idade.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (o custo, antes, durante e depois, o estudo de 2004, a faixa e o laboratório brasileiro, as rotas, a responsabilidade, o mapa de risco, o lote, as origens e as condutas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Geyer 2004: 634 suplementos, 13 países, 215 fornecedores, outubro de 2000 a
 novembro de 2001; 94 (14,8%) com esteroide anabolizante não declarado; 21,1% nos produtos de
 empresas que vendiam pró-hormônios contra 9,6% nas que não vendiam. Martínez-Sanz 2017: 12% a 58%.
@@ -223,17 +225,18 @@ Torres 2024: amostras do Laboratório Brasileiro de Controle de Dopagem de 2017 
 como adulterantes mais comuns; estimulantes mais nos industrializados; anabolizantes mais nos
 manipulados.
 
-**Correções.**
+**Correções.** 
 - "Cerca de o dobro" entre empresas com e sem pró-hormônio virou os percentuais do estudo
   (21,1% contra 9,6%).
 - A referência de Torres estava com a inicial errada e sem autores; ficou completa (Torres CL e
   colaboradores, 2024;16(1):38-48), com o período das amostras (2017 a 2022).
 - "Três situações" virou "três situações típicas".
+- Martínez-Sanz e Torres saíram da fala e do topo dos slides; as menções a "aula anterior" saíram, também no slide de abertura.
 
 **Saíram.** "Aula 5.8", "aula 5.1", "aula 5.10", "aula 5.11", "slide 1", "slide 6", "o escopo",
-o verbo de aparência sobre manipulados, as idades, o bloco "Roteiro Gamma".
+o verbo de aparência sobre manipulados, as idades, o bloco "Roteiro Gamma". Duração de 19 para 15 minutos.
 
-**Citações faladas.** Geyer; Martínez-Sanz; Torres; Laboratório Brasileiro de Controle de Dopagem.
+**Citações faladas.** Geyer, pelo estudo que abriu o campo da contaminação de suplementos. A revisão de 2017 e as análises do laboratório brasileiro entram pelo ano.
 
 **Ligações internas.** o nono alerta do cartão de bolso = aula anterior · suplemento como alimento,
 categorias de risco = primeira aula do módulo · creatina e lote = aula de creatina · processo,

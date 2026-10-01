@@ -78,7 +78,7 @@ Grupo de risco somado a sintoma abre exame. Nenhum dos dois, sozinho, costuma ab
 
 E o que o número significa? Três coisas que todos da equipe devem saber, sabendo que interpretar é ato médico.
 
-Ferritina baixa com hemoglobina normal já é deficiência de ferro, só que sem anemia. Não é preciso estar anêmico para ter sintoma. A revisão de Sim e colaboradores, de 2019, define o primeiro estágio da deficiência em atletas com ferritina abaixo de 35 microgramas por litro. Mais alto do que muita gente supõe.
+Ferritina baixa com hemoglobina normal já é deficiência de ferro, só que sem anemia. Não é preciso estar anêmico para ter sintoma. Uma revisão de 2019 define o primeiro estágio da deficiência em atletas com ferritina abaixo de 35 microgramas por litro. Mais alto do que muita gente supõe.
 
 Ferritina sobe na inflamação. Logo depois de infecção ou de uma sessão muito intensa, ela pode estar falsamente confortável. Por isso a condição da coleta importa.
 
@@ -94,7 +94,7 @@ A corredora, com ferritina de 18, está no cenário mais comum e mais subdiagnos
 
 Como repor. Aqui há um estudo que mudou a prática.
 
-Durante décadas, a reposição oral foi feita duas ou três vezes por dia, todos os dias. Stoffel e colaboradores, em 2017, mostraram por que isso é ineficiente: cada dose eleva a hepcidina, e a hepcidina reduz a absorção da dose seguinte.
+Durante décadas, a reposição oral foi feita duas ou três vezes por dia, todos os dias. Dois ensaios de 2017 mostraram por que isso é ineficiente: cada dose eleva a hepcidina, e a hepcidina reduz a absorção da dose seguinte.
 
 Em mulheres com estoque baixo, a absorção fracionada acumulada foi de 16,3 por cento com doses em dias consecutivos e de 21,8 por cento em dias alternados. O ferro total absorvido subiu de 131 para 175 miligramas.
 
@@ -164,7 +164,7 @@ Três cuidados. Óleo de peixe oxida; cheiro e gosto fortes de peixe são sinal.
 
 Um alerta que vale para a família inteira dos "anti-inflamatórios nutricionais".
 
-Paulsen e colaboradores, em 2014, fizeram um ensaio duplo-cego com 54 jovens em onze semanas de treino de resistência aeróbia, sobretudo corrida. Metade recebeu mil miligramas de vitamina C e 235 miligramas de vitamina E por dia, doses de prateleira. A outra metade, placebo.
+Em 2014, um ensaio duplo-cego foi feito com 54 jovens em onze semanas de treino de resistência aeróbia, sobretudo corrida. Metade recebeu mil miligramas de vitamina C e 235 miligramas de vitamina E por dia, doses de prateleira. A outra metade, placebo.
 
 No grupo suplementado, o aumento das proteínas mitocondriais que o treino produz ficou menor.
 
@@ -206,7 +206,7 @@ O educador físico e o preparador costumam ver o sinal primeiro: a queda de rend
 
 E uma pergunta que deveria estar em toda primeira consulta, de qualquer profissão: você toma alguma vitamina ou suplemento por conta própria?
 
-Na próxima aula, a gente vai para o outro lado do balcão: como desmontar uma promessa comercial, o que faz uma alegação parecer científica sem ser, e como responder sem perder o paciente.
+Na próxima conversa, a gente vai para o outro lado do balcão: como desmontar uma promessa comercial, o que faz uma alegação parecer científica sem ser, e como responder sem perder o paciente.
 
 ---
 
@@ -229,6 +229,8 @@ de benefício como moldura. Sem caso clínico: a corredora de 29 anos, o homem d
 26 viraram "três perfis típicos", sem idade; os números de exame e de dose ficaram, como dados do
 perfil.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (os três nutrientes, os perfis, a matriz de perguntas, o ferro, os dias alternados, a pista, a vitamina D, o ensaio das vitaminas e a curva aplicada), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Sim 2019: hepcidina com pico cerca de 3 a 6 h depois do exercício;
 primeiro estágio da deficiência de ferro com ferritina abaixo de 35 µg/L. Stoffel 2017: absorção
 fracionada acumulada de 16,3% (dias consecutivos) contra 21,8% (dias alternados); ferro total
@@ -237,7 +239,7 @@ fracionada nem total, com hepcidina maior. Paulsen 2014: 54 jovens, 11 semanas d
 resistência aeróbia, 1.000 mg de vitamina C e 235 mg de vitamina E por dia; aumento de proteínas
 mitocondriais embotado no grupo suplementado.
 
-**Correções.**
+**Correções.** 
 - "A dose única diária foi melhor do que a dose dividida" estava errado: no segundo ensaio de
   Stoffel não houve diferença de absorção; a dose dividida só elevou mais a hepcidina. O texto
   e o slide dizem isso agora.
@@ -248,11 +250,12 @@ mitocondriais embotado no grupo suplementado.
   slide diz isso.
 - "Perda digestiva num homem de meia-idade" ficou "num homem ou numa mulher depois da menopausa".
 - A referência do posicionamento do ACSM de 2016 saiu, porque a aula não o cita.
+- Sim, Stoffel e Paulsen saíram da fala e do topo dos slides; os estudos entram pelo ano.
 
 **Saíram.** "Aula 4.7", "aula 6.9", "Módulo 6", "aula 3.12", "aula 4.6", "aula 1.8", "aula 4.11",
-"slide 1", "aula 5.8", "o escopo", as idades, o bloco "Roteiro Gamma".
+"slide 1", "aula 5.8", "o escopo", as idades, o bloco "Roteiro Gamma". Duração de 21 para 18 minutos.
 
-**Citações faladas.** Sim; Stoffel; Paulsen.
+**Citações faladas.** Nenhum autor por nome. A revisão de 2019 e os ensaios de 2017 e 2014 entram pelo ano.
 
 **Ligações internas.** "corrigir deficiência melhora" e grupos de risco = aula de micronutrientes do
 módulo de nutrição · vitamina D, osso e cálcio = aula de vitamina D e osso do módulo de fisiologia

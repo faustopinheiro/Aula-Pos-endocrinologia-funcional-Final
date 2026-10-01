@@ -56,7 +56,7 @@ E o comprimido "para proteger o fígado" é a peça mais reveladora da lista. El
 *Visual: três números grandes de Sagoe: 3,3% de uso de anabolizante ao longo da vida no mundo; 6,4% entre homens; 4,8% na América do Sul. Embaixo, as palavras "otimização", "modulação", "protocolo", "reposição".*
 *Teleprompter: (não é raro, e o vocabulário é a primeira pista)*
 
-Isso não é raro. A meta-análise de Sagoe e colaboradores, de 2014, juntou 187 estudos e estimou em 3,3 por cento a prevalência de uso de esteroide anabolizante ao longo da vida no mundo. Entre homens, 6,4 por cento. Na América do Sul, 4,8 por cento, acima da média global.
+Isso não é raro. Uma meta-análise de 2014 juntou 187 estudos e estimou em 3,3 por cento a prevalência de uso de esteroide anabolizante ao longo da vida no mundo. Entre homens, 6,4 por cento. Na América do Sul, 4,8 por cento, acima da média global.
 
 E o vocabulário é a primeira pista clínica. "Otimização", "modulação", "protocolo", "ciclo", "reposição" usada fora de indicação. Essas palavras deslocam a conversa do campo do tratamento para o do aprimoramento, e é exatamente essa a função delas. Quem diz "eu faço reposição" usa uma palavra médica para descrever algo que, muitas vezes, não repõe nada.
 
@@ -225,6 +225,8 @@ dor no ombro para avaliação pré-participação: a dor no ombro já abre o cas
 alimentação desordenada, e a avaliação pré-participação faz a ponte para o módulo seguinte. O fecho
 do módulo nos três níveis ocupa os dois últimos slides, com a frase final no fecho.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (o papel, o que a aula faz, a classificação, a prevalência, os motores, os riscos, a conversa, a fronteira e os níveis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Resolução CFM 2.333/2023: veda terapia hormonal com esteroides androgênicos e
 anabolizantes com finalidade estética, de ganho de massa muscular e de melhora do desempenho, para
 atletas amadores ou profissionais; reposição indicada com deficiência específica comprovada, nexo
@@ -234,7 +236,7 @@ com essas finalidades. Sagoe 2014: 187 estudos; prevalência global ao longo da 
 entre homens; 4,8% na América do Sul. Finkelstein 2013: deficiência de estradiol associada a aumento
 de gordura corporal e piora da função sexual em homens.
 
-**Correções.**
+**Correções.** 
 - As falas entre aspas atribuídas ao paciente ("é só otimização, doutor", "ninguém nunca tinha me
   perguntado como eu dormia") viraram discurso indireto: eram falas inventadas.
 - "Eu conto o desfecho real" e "um ano depois" saíram; o seguimento ficou como "nos meses
@@ -244,12 +246,13 @@ de gordura corporal e piora da função sexual em homens.
 - A frase sobre a Anvisa ganhou a norma de 2024 (RE 4.353), no lugar de "atuou sobre implantes".
 - Entrou o dado de prevalência de Sagoe, que estava só nas referências.
 - A referência do consenso do COI saiu, porque a aula não a cita.
+- Sagoe saiu da fala e do topo do slide; a meta-análise entra pelo ano. O título do slide de abertura virou "Ele chamava aquilo de protocolo", e a frase longa passou para o desenho.
 
 **Saíram.** "Módulo 3", "aulas 3.4, 3.5 e 3.6", "aula 3.4", "aula 3.5", "aula 3.6", "aula 4.12",
 "aula 5.8", "aula 5.9", "aula 5.10", "aula 10.5", "Módulo 6", "slide 1", "slide 2", "o escopo",
-a idade exata, a primeira pessoa do desfecho, o bloco "Roteiro Gamma".
+a idade exata, a primeira pessoa do desfecho, o bloco "Roteiro Gamma". Duração de 25 para 21 minutos.
 
-**Citações faladas.** Finkelstein; Sagoe; Conselho Federal de Medicina; Anvisa.
+**Citações faladas.** Finkelstein, pelo experimento que separou os efeitos de testosterona e estradiol. A meta-análise de 2014 entra pelo ano; CFM e Anvisa, pelas normas.
 
 **Ligações internas.** hipogonadismo, GH e investigação da queixa androgênica = módulo de fisiologia
 hormonal · dismorfia muscular e rastreio = aula de alimentação desordenada · promessa comercial =

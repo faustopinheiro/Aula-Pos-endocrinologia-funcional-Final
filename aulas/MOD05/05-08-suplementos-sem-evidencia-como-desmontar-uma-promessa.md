@@ -94,7 +94,7 @@ E três expressões que não significam nada. "Clinicamente testado": não diz o
 *Visual: números de Clemesha: 50 produtos; 90% prometem aumentar a testosterona; 8,3 ingredientes em média; dos 109 ingredientes, 27 com estudo mostrando aumento, 11 mostrando queda, 67 sem estudo nenhum.*
 *Teleprompter: (o setor, em números)*
 
-Um estudo resume o setor. Clemesha e colaboradores, em 2020, pegaram cinquenta produtos vendidos como estimuladores de testosterona, listaram os ingredientes e foram procurar sustentação na literatura.
+Um estudo resume o setor. Uma análise de 2020 pegou cinquenta produtos vendidos como estimuladores de testosterona, listou os ingredientes e foi procurar sustentação na literatura.
 
 Noventa por cento dos produtos prometiam aumentar a testosterona. Cada produto tinha, em média, 8,3 ingredientes. Ao todo, 109 ingredientes diferentes.
 
@@ -112,7 +112,7 @@ Repare na conta: a promessa está em nove de cada dez rótulos. A sustentação,
 
 As categorias que mais chegam ao consultório.
 
-Estimulantes de testosterona. O exemplo clássico é o tribulus. Neychev e Mitev, em 2005, deram tribulus ou placebo a homens jovens saudáveis por quatro semanas: testosterona, androstenediona e LH não mudaram. O resto da categoria repete o padrão de Clemesha.
+Estimulantes de testosterona. O exemplo clássico é o tribulus. Em 2005, um ensaio deu tribulus ou placebo a homens jovens saudáveis por quatro semanas: testosterona, androstenediona e LH não mudaram. O resto da categoria repete o padrão daquela análise.
 
 E vale uma honestidade que preserva a credibilidade: nem tudo nessa prateleira é igual. A ashwagandha, por exemplo, tem estudos em estresse, sono e alguns desfechos de força, com limitações. Tratar tudo como charlatanismo é tão impreciso quanto tratar tudo como promissor.
 
@@ -210,7 +210,7 @@ O erro desta aula era confundir a aparência de ciência com ciência. A correç
 
 Avaliar e indicar suplemento é do nutricionista. Avaliar interação, sintoma e risco é do médico. Mas desmontar uma promessa comercial é de todos, porque a promessa chega a todos: na academia, na sala de espera, no vestiário, no grupo da família. E a maior parte das compras acontece antes de alguém perguntar a um profissional.
 
-Na próxima aula, o problema deixa de ser a promessa do rótulo e passa a ser o que está dentro do pote sem estar escrito nele: contaminação de suplementos e certificação de lote.
+Na próxima conversa, o problema deixa de ser a promessa do rótulo e passa a ser o que está dentro do pote sem estar escrito nele: contaminação de suplementos e certificação de lote.
 
 ---
 
@@ -231,13 +231,15 @@ Arquitetura ERRO mantida (a anterior é DECISÃO; a próxima é PROCEDIMENTO). P
 abertura da aula de proteína em pó, esta abre por uma escada de evidência com o salto da promessa.
 Sem caso clínico: o homem de 36 anos e a mulher de 44 viraram "situações típicas", sem idade.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a aparência de ciência, as situações, as seis peças, as fraquezas, os estimulantes de testosterona, as prateleiras, os passos, a negociação, o cartão de bolso e as respostas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Clemesha 2020: 50 produtos; 90% prometem aumentar a testosterona; 109
 ingredientes únicos, média de 8,3 por produto; 27 ingredientes com dado de aumento, 11 com dado de
 queda, 67 sem estudo; produtos acima do limite superior tolerável de zinco, vitamina B3 e magnésio.
 Neychev e Mitev 2005: 22 homens jovens, tribulus ou placebo por quatro semanas; testosterona,
 androstenediona e LH sem mudança.
 
-**Correções.**
+**Correções.** 
 - "Cerca de um quarto tinha dado a favor; cerca de dez por cento tinha dado de queda" estava
   atribuído aos produtos. Os percentuais são dos ingredientes (27 e 11 de 109). O texto diz isso.
 - "Boa parte trazia vitaminas e minerais acima do limite" virou "vários produtos", com os três
@@ -247,11 +249,12 @@ androstenediona e LH sem mudança.
 - "A ashwagandha é grupo B" saiu, porque a classificação não foi confirmada no quadro do AIS
   conferido; ficou "tem estudos em estresse, sono e força, com limitações".
 - "Situações reais" virou "situações típicas".
+- Clemesha e Neychev e Mitev saíram da fala e do topo dos slides; os estudos entram pelo ano.
 
 **Saíram.** "Aula 5.1", "aula 1.8", "Módulo 3", "aula 3.4", "aula 5.3", "aula 5.6", "Módulo 14",
-"aula 5.9", "o escopo", as idades, o bloco "Roteiro Gamma".
+"aula 5.9", "o escopo", as idades, o bloco "Roteiro Gamma". Duração de 20 para 17 minutos.
 
-**Citações faladas.** Clemesha; Neychev e Mitev.
+**Citações faladas.** Nenhum autor por nome. A análise de 2020 e o ensaio de 2005 entram pelo ano.
 
 **Ligações internas.** plausibilidade e marcador = aula de leitura crítica da literatura do módulo de
 fundamentos · dose por item e grupo B = primeira aula do módulo · causas de sintoma androgênico =

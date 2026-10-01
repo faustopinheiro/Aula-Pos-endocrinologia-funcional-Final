@@ -54,9 +54,9 @@ Terceira: existe um motivo para não ser comida? E aqui entra a formulação mai
 
 📊 **[SLIDE 4 DE 11]**
 *Visual: título "Comida primeiro, mas nem sempre só comida". Seis cartões com as situações em que a comida sozinha não dá conta.*
-*Teleprompter: (Close e colaboradores: quando a comida não basta)*
+*Teleprompter: (quando a comida não basta)*
 
-O artigo de Close e colaboradores, de 2022, tem um título que já é a tese: comida primeiro, mas nem sempre só comida.
+Um artigo de 2022 tem um título que já é a tese: comida primeiro, mas nem sempre só comida.
 
 O princípio é comida primeiro. E os autores listam seis situações em que a comida, sozinha, pode não dar conta. Quando o nutriente é difícil de obter na dieta em quantidade suficiente. Quando ele está sobretudo em alimentos que a pessoa não come ou não gosta. Quando o teor no alimento varia muito e a dose precisa ser previsível. Quando é preciso uma dose concentrada para corrigir uma deficiência. Quando comer perto, durante ou logo depois do exercício é inviável, e aí o gel e a bebida com carboidrato do dia de competição são suplemento, no sentido técnico. E quando há preocupação real com higiene ou contaminação do alimento, como na viagem.
 
@@ -94,7 +94,7 @@ Três: de que tamanho? E aqui a conversa muda. Os ganhos reais dos ergogênicos 
 
 Quatro: comparado com o quê? Comparar com placebo é o mínimo. A comparação que interessa na clínica é outra: comparado a dormir uma hora a mais, a comer o suficiente, a organizar o treino. Nessa comparação, quase tudo perde.
 
-E o consenso do Comitê Olímpico Internacional, de Maughan e colaboradores, em 2018, fecha esse eixo: a nutrição costuma dar uma contribuição pequena, mas potencialmente valiosa, ao desempenho de elite, e os suplementos dão uma contribuição menor dentro dela.
+E o consenso do Comitê Olímpico Internacional, de 2018, fecha esse eixo: a nutrição costuma dar uma contribuição pequena, mas potencialmente valiosa, ao desempenho de elite, e os suplementos dão uma contribuição menor dentro dela.
 
 ---
 
@@ -156,7 +156,7 @@ O pré-treino de catorze ingredientes. O passo quatro resolve sozinho: blend pro
 
 O colágeno. Grupo B: evidência emergente, sobretudo em tendão e tecido conjuntivo, com protocolos que dependem de carga. E o passo um dá a resposta mais importante: ela tem dor no joelho, e o que tem evidência forte para essa dor é exercício. Se quiser tomar, o risco é baixo e o custo é real. E o colágeno não é o tratamento.
 
-A creatina do adolescente. Aqui os dois eixos divergem. A creatina é o ergogênico com mais evidência que existe, e, ainda assim, a resposta não sai do eixo da evidência. Sai do passo um: "fraco para a idade" é frase do técnico, não diagnóstico. Antes de qualquer pote: come o suficiente para crescer e treinar? Dorme? Em que fase de maturação está? Faz treino de força orientado? A creatina no adolescente, com as ressalvas que ela tem, é a próxima aula.
+A creatina do adolescente. Aqui os dois eixos divergem. A creatina é o ergogênico com mais evidência que existe, e, ainda assim, a resposta não sai do eixo da evidência. Sai do passo um: "fraco para a idade" é frase do técnico, não diagnóstico. Antes de qualquer pote: come o suficiente para crescer e treinar? Dorme? Em que fase de maturação está? Faz treino de força orientado? A creatina no adolescente, com as ressalvas que ela tem, é a próxima conversa.
 
 ---
 
@@ -168,7 +168,7 @@ Cinco passos. A pergunta antes do produto. A evidência, com as quatro perguntas
 
 Quem faz o quê. Prescrever suplemento alimentar é do nutricionista. Diagnosticar deficiência, avaliar interação com medicamento e prescrever fármaco é do médico. Prescrever treino é do educador físico e do preparador. Ninguém fora dessas fronteiras indica produto. E todos, sem exceção, podem aplicar os cinco passos em voz alta com o paciente, porque a maior parte das compras acontece antes de alguém perguntar.
 
-Na próxima aula, o ergogênico com mais evidência acumulada: a creatina.
+Na próxima conversa, o ergogênico com mais evidência acumulada: a creatina.
 
 ---
 
@@ -190,23 +190,26 @@ o homem de 29 anos, a mulher de 61 e o menino de 15 viraram "três pedidos típi
 adolescente ficou como categoria, porque a conduta depende dela). O módulo tem um caso clínico, na
 última aula.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (os três pedidos, o funil de perguntas, comida primeiro, as quatro letras, as perguntas da letra A, os quatro riscos, o rótulo, as três saídas e as respostas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Close 2022: seis motivos para a comida sozinha não bastar. Maughan 2018: a
 nutrição dá uma contribuição pequena, mas potencialmente valiosa, e os suplementos, uma contribuição
 menor dentro dela. AIS: grupo A de ergogênicos com cafeína, beta-alanina, bicarbonato, suco de
 beterraba (nitrato), creatina e glicerol; colágeno e curcumina no grupo B. RDC 243/2018: definição de
 suplemento alimentar para indivíduos saudáveis, em formas farmacêuticas.
 
-**Correções.**
+**Correções.** 
 - O grupo A de ergogênicos estava sem o glicerol, que entrou na versão atual do quadro australiano.
 - As listas de constituintes e de alegações estão na IN 28/2018, e não na RDC 243; a aula agora
   nomeia as duas e a IN entrou nas referências.
 - "Ganhos de um a três por cento" saiu, por não ter fonte única; ficou "pequenos".
 - A frase de Maughan virou paráfrase fiel, sem aspas.
+- Close e Maughan saíram da fala e do topo dos slides; o artigo e o consenso do COI entram pelo ano, e os autores ficam na fonte.
 
 **Saíram.** "Aula 4.11", "aula 4.10", "aula 4.4", "aula 1.8", "aula 2.10", "aulas 5.2, 5.3, 5.9 e
-5.10", "Módulo 9", "o escopo", as idades, o bloco "Roteiro Gamma".
+5.10", "Módulo 9", "o escopo", as idades, o bloco "Roteiro Gamma". Duração de 24 para 18 minutos.
 
-**Citações faladas.** Close; Maughan; Instituto Australiano do Esporte; Anvisa.
+**Citações faladas.** Nenhum autor por nome. O artigo de 2022 e o consenso do COI de 2018 entram pelo ano; o quadro do Instituto Australiano do Esporte, pelo nome.
 
 **Ligações internas.** pirâmide = aula de rotina real do módulo de nutrição · gel e bebida =
 aula do dia de competição · sinalização não é desfecho = módulo de fundamentos · contaminação,

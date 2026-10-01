@@ -93,9 +93,9 @@ p.append("</svg>")
 rs += [rot(572, 250, "quebra de proteína do próprio músculo", w=1044, tam=30, cor=FOSF, peso=700, alinha="center"),
        rot(32, 156, "o que o pote de BCAA entrega", w=504, tam=24, cor=AZUL, peso=600, alinha="center")]
 S.append({"id": "wolfe", "tipo": "diagrama", "h": 330, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Wolfe, 2017", "titulo": "Três de nove",
+          "eyebrow": "Um artigo de 2017", "titulo": "Três de nove",
           "destaque": "Para fazer proteína nova, o músculo precisa dos nove essenciais. O teto dos BCAA sozinhos é aritmética, não falta de estudo.",
-          "destaque_cor": "tinta", "fonte": "Esquema, sem valores medidos"})
+          "destaque_cor": "tinta", "fonte": "Esquema, sem valores medidos · Wolfe · Journal of the International Society of Sports Nutrition 2017"})
 
 # 8. Jackman
 S.append({"id": "jackman", "tipo": "numeros", "eyebrow": "Jackman e colaboradores, 2017", "titulo": "Não é zero. É metade.",

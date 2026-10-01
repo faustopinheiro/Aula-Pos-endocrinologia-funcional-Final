@@ -46,7 +46,7 @@ Nos três, o pote está na pessoa errada ou no lugar errado. E em dois deles a c
 
 Primeiro, o tamanho real do efeito.
 
-A meta-análise de Morton e colaboradores, de 2018, juntou 49 estudos e 1.863 pessoas que treinavam força, com e sem suplemento de proteína.
+Uma meta-análise de 2018 juntou 49 estudos e 1.863 pessoas que treinavam força, com e sem suplemento de proteína.
 
 O suplemento aumentou o ganho de massa livre de gordura em média 0,30 quilo, e o de força no teste de uma repetição máxima em média 2,49 quilos, ao longo dos programas de treino.
 
@@ -120,13 +120,13 @@ O teste que separa uma coisa da outra mede aminoácido por aminoácido. E a defe
 
 📊 **[SLIDE 7 DE 12]**
 *Visual: nove blocos, um por aminoácido essencial. Três, destacados, são os BCAA. Os outros seis aparecem vindo de uma seta que sai do próprio músculo, com a legenda "quebra de proteína muscular".*
-*Teleprompter: (o erro mais caro do balcão: o argumento de Wolfe)*
+*Teleprompter: (o erro mais caro do balcão)*
 
 Agora o erro mais caro do balcão: os aminoácidos isolados.
 
 BCAA são leucina, isoleucina e valina. Três dos nove aminoácidos essenciais. A promessa é que eles, sozinhos, construam músculo.
 
-Wolfe, em 2017, organizou o argumento contra essa promessa num artigo cujo título já é a pergunta: aminoácidos de cadeia ramificada e síntese de proteína muscular, mito ou realidade?
+Em 2017, um artigo organizou o argumento contra essa promessa, e o título já é a pergunta: aminoácidos de cadeia ramificada e síntese de proteína muscular, mito ou realidade?
 
 O raciocínio é estrutural. Para fazer proteína nova, o músculo precisa dos nove essenciais. Se você entrega três, os outros seis têm de vir de algum lugar. E o único lugar disponível, sem comida, é a quebra de proteína do próprio músculo.
 
@@ -140,7 +140,7 @@ Isso impõe um teto baixo ao que os BCAA sozinhos conseguem fazer. Não por falt
 
 E o outro lado existe, e precisa ser dito.
 
-Jackman e colaboradores, também em 2017, deram 5,6 gramas de BCAA depois de treino de força e mediram síntese de proteína miofibrilar 22 por cento maior do que com uma bebida placebo de mesma energia.
+Também em 2017, um experimento deu 5,6 gramas de BCAA depois de treino de força e mediu síntese de proteína miofibrilar 22 por cento maior do que com uma bebida placebo de mesma energia.
 
 Então não é zero.
 
@@ -176,7 +176,7 @@ E o pote com tudo dentro: whey com creatina, com vitaminas, com termogênico. Re
 
 Colágeno merece mais tempo, porque ele não é só marketing, e também não é o que o rótulo diz.
 
-Shaw e colaboradores, em 2017, fizeram um estudo cruzado com oito homens. Deram placebo, 5 ou 15 gramas de gelatina enriquecida com vitamina C, uma hora antes de seis minutos de pular corda. Com 15 gramas, o marcador de síntese de colágeno no sangue praticamente dobrou em relação ao placebo.
+Em 2017, um estudo cruzado foi feito com oito homens. Deram placebo, 5 ou 15 gramas de gelatina enriquecida com vitamina C, uma hora antes de seis minutos de pular corda. Com 15 gramas, o marcador de síntese de colágeno no sangue praticamente dobrou em relação ao placebo.
 
 Isso é interessante. E é marcador, não desfecho. Ninguém mediu tendão que doeu menos ou rompeu menos.
 
@@ -192,7 +192,7 @@ E proteína incompleta, pobre em alguns essenciais. Não conta como proteína do
 
 Os três do começo.
 
-O rapaz que já come dois gramas por quilo está acima do teto de Morton. O pote não acrescenta nada. A pergunta real dele, quase sempre, é sobre o treino, não sobre a comida. Se ele quiser manter o pó por conveniência, para um café da manhã que ele não faria, tudo bem. Como conveniência, não como estratégia.
+O rapaz que já come dois gramas por quilo está acima do teto da meta-análise. O pote não acrescenta nada. A pergunta real dele, quase sempre, é sobre o treino, não sobre a comida. Se ele quiser manter o pó por conveniência, para um café da manhã que ele não faria, tudo bem. Como conveniência, não como estratégia.
 
 A praticante com 0,8 grama por quilo, quase tudo no jantar, é quem mais se beneficiaria, e é quem acha que o produto não é para ela. O problema é total baixo e distribuição torta. A conduta é redistribuir com comida primeiro: ovo, leite, iogurte, queijo no café da manhã. Se o café da manhã dela não comporta isso, um shake resolve uma refeição inteira. Não é para ficar grande. É para manter músculo e função, assunto que volta no módulo do atleta adolescente e do atleta idoso.
 
@@ -214,7 +214,7 @@ BCAA, leucina isolada e glutamina não se sustentam para quem come proteína suf
 
 Quem faz o quê. Definir a necessidade de proteína, escolher a fonte e indicar o pó é do nutricionista. Doença renal, doença hepática, medicação e qualquer condição que mude a necessidade de proteína são do médico, e quem descarta doença renal é o exame, não o balcão. O educador físico e o preparador veem a pergunta aparecer primeiro, e a resposta mais útil que eles podem dar é outra pergunta: quanta proteína você come por dia, e em quantas refeições?
 
-Na próxima aula, a gente sai dos ergogênicos e entra nos suplementos de uso clínico, os que só funcionam quando existe deficiência e por isso exigem diagnóstico antes do produto: ferro, vitamina D e ômega-3.
+Na próxima conversa, a gente sai dos ergogênicos e entra nos suplementos de uso clínico, os que só funcionam quando existe deficiência e por isso exigem diagnóstico antes do produto: ferro, vitamina D e ômega-3.
 
 ---
 
@@ -235,6 +235,8 @@ Na próxima aula, a gente sai dos ergogênicos e entra nos suplementos de uso cl
 Arquitetura ERRO mantida (a anterior é PROCEDIMENTO; a próxima é DECISÃO). Sem caso clínico: o
 rapaz de 22 anos, a mulher de 47 e o corredor de 38 viraram "três perfis típicos", sem idade.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (comida em pó, os três perfis, o teto, os obstáculos, os tipos, o BCAA, a prateleira, o colágeno e as condutas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Morton 2018: 49 estudos, 1.863 participantes; suplemento de proteína
 aumentou a força em uma repetição máxima em 2,49 kg e a massa livre de gordura em 0,30 kg; sem
 ganho adicional acima de cerca de 1,6 g/kg/dia de proteína total. Jackman 2017: 5,6 g de BCAA
@@ -245,7 +247,7 @@ ou 15 g de gelatina com vitamina C uma hora antes de 6 min de pular corda; com 1
 praticamente dobrou. *Amino spiking*: método de nitrogênio total com fator 6,25; glicina e taurina
 como adulterantes típicos.
 
-**Correções.**
+**Correções.** 
 - Entrou o slide de Morton, com o tamanho do efeito e o teto, que a versão anterior citava só
   nas referências.
 - "Vinte gramas de whey contêm a quantidade de BCAA de uma dose" saiu, por não ter número
@@ -255,11 +257,12 @@ como adulterantes típicos.
 - No HMB, "estudos entusiasmados com problemas metodológicos conhecidos" virou "resultados que
   variam muito entre grupos de pesquisa", sem acusação a estudo específico.
 - A frase "eu vejo os dois na mesma semana" saiu, por ser relato não verificável.
+- Morton, Wolfe, Jackman e Shaw saíram da fala e do topo dos slides; "o teto de Morton" virou "o teto da meta-análise".
 
 **Saíram.** "Aula 4.5", "aula 5.1", "aula 4.11", "aula 4.10", "aula 4.3", "aula 5.9", "Módulo 8",
-"aulas 12.7 e 12.8", "aula 5.7", "o escopo", as idades, o bloco "Roteiro Gamma".
+"aulas 12.7 e 12.8", "aula 5.7", "o escopo", as idades, o bloco "Roteiro Gamma". Duração de 17 para 16 minutos.
 
-**Citações faladas.** Morton; Wolfe; Jackman; Shaw.
+**Citações faladas.** Nenhum autor por nome. A meta-análise de 2018 e os trabalhos de 2017 entram pelo ano.
 
 **Ligações internas.** comida em pó, total e distribuição = aula de proteína do módulo de nutrição ·
 obstáculo, grupo B e dose por item = primeira aula do módulo · caseína antes de dormir = aula de

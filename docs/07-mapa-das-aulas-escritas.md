@@ -186,19 +186,27 @@ típicos, sem idade, e contas feitas em aula.
 |---|---|---|---|---|---|
 | 5.1 | Avaliação de suplementos no esporte | 18 | 11 | PROCEDIMENTO | [slides](https://claude.ai/artifact/VjtKYknfSt3JsvUxR5wb5d) |
 | 5.2 | Creatina | 21 | 12 | NÚMERO | [slides](https://claude.ai/artifact/FMeaA9yx5ky3hJ6XXm61jb) |
-| 5.3 | Cafeína no exercício | 16 | 11 | DECISÃO | [slides](https://claude.ai/artifact/3RVdoaD71SuJzaX8Pq61sv) |
+| 5.3 | Cafeína no exercício | 15 | 11 | DECISÃO | [slides](https://claude.ai/artifact/3RVdoaD71SuJzaX8Pq61sv) |
 | 5.4 | Beta-alanina | 12 | 10 | NÚMERO | [slides](https://claude.ai/artifact/E5W6SrSsiEHKmG3XSnkWVS) |
 | 5.5 | Nitrato e bicarbonato de sódio | 13 | 11 | PROCEDIMENTO | [slides](https://claude.ai/artifact/3jXnXk7q8begqZtUXjnMYb) |
 | 5.6 | Proteína em pó e aminoácidos | 16 | 12 | ERRO | [slides](https://claude.ai/artifact/FMz7XeMxRzuFXnvsgwsYUj) |
 | 5.7 | Ferro, vitamina D e ômega-3 | 18 | 12 | DECISÃO | [slides](https://claude.ai/artifact/AKrUBvR2KvMqRyD1hvqsNF) |
 | 5.8 | Suplementos sem evidência | 17 | 12 | ERRO | [slides](https://claude.ai/artifact/E2PGjQBELM7K394zmu1tgL) |
-| 5.9 | Contaminação de suplementos | 16 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/X6sPsDxHa4PoipVrNYQfoh) |
+| 5.9 | Contaminação de suplementos | 15 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/X6sPsDxHa4PoipVrNYQfoh) |
 | 5.10 | Lista proibida e autorização de uso terapêutico | 22 | 12 | DECISÃO | [slides](https://claude.ai/artifact/29BMVTFdH9a5oCjvYnj3Dw) |
 | 5.11 | Hormônios e peptídeos fora de indicação | 21 | 12 | CASO | [slides](https://claude.ai/artifact/DmBQus52PMFGkAQ97Dqi7f) |
 
-Total: 3 h 10 min em 11 aulas, 127 slides. A 5.11 fecha o módulo com a camada de
+Total: 3 h 08 min em 11 aulas, 127 slides. A 5.11 fecha o módulo com a camada de
 integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
 medicina esportiva clínica, que abre o Módulo 6.
+
+**Acabamento.** Os 97 slides que ainda eram texto (cartões, colunas, listas, tabelas, números e frases)
+viraram desenho, sem mudar a quantidade nem a ordem dos slides; agora todo slide do módulo, fora o fecho,
+é um desenho próprio (os novos estão em `slides/MOD05/_redesenho.py`). Na fala e no topo dos slides, saíram os
+nomes de autores que não são marco (ficam Hultman, pela carga de creatina, Geyer, pelo estudo que abriu o campo
+da contaminação, e Finkelstein, pelo experimento de testosterona e estradiol); os demais estudos entram pelo ano,
+e o autor fica na fonte do slide. As menções a "aula anterior" viraram referência ao conteúdo, e "na próxima aula"
+virou "na próxima conversa". As notas de produção foram refeitas no formato completo. Os links são os mesmos.
 
 ## Módulo 6 — Medicina Esportiva Clínica · 12 aulas
 

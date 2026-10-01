@@ -16,7 +16,7 @@ E é, ao mesmo tempo, o suplemento sobre o qual eu mais escuto informação erra
 
 Muita evidência e muita confusão. E quase toda a confusão é de magnitude: gente que espera dela o efeito de um anabolizante, e gente que descarta um efeito real por ele ser pequeno. Por isso esta aula é de números.
 
-Três perfis típicos voltam no fim. O adolescente de futebol da aula anterior, que o técnico chamou de fraco para a idade. Uma mulher na menopausa que começou musculação há alguns meses. E um corredor amador de dez quilômetros e meia maratona que quer saber se creatina é coisa só de quem faz musculação.
+Três perfis típicos voltam no fim. O adolescente de futebol, aquele que o técnico chamou de fraco para a idade. Uma mulher na menopausa que começou musculação há alguns meses. E um corredor amador de dez quilômetros e meia maratona que quer saber se creatina é coisa só de quem faz musculação.
 
 ---
 
@@ -58,7 +58,7 @@ E o mais importante do slide: creatina é uso contínuo. O efeito vem do estoque
 
 O que a creatina faz, e de que tamanho.
 
-A meta-análise de Branch, de 2003, reuniu cerca de cem estudos e separou os resultados por tipo de esforço. O padrão é coerente com a fisiologia: o maior efeito aparece nos esforços que dependem de fosfocreatina, esforços máximos de poucos segundos e, sobretudo, esforços repetidos com intervalo curto. Nos esforços longos, o efeito é menor.
+Uma meta-análise de 2003 reuniu cerca de cem estudos e separou os resultados por tipo de esforço. O padrão é coerente com a fisiologia: o maior efeito aparece nos esforços que dependem de fosfocreatina, esforços máximos de poucos segundos e, sobretudo, esforços repetidos com intervalo curto. Nos esforços longos, o efeito é menor.
 
 E os tamanhos de efeito são pequenos, em termos estatísticos. Mas o que isso significa na academia é mais útil do que o número. Significa uma repetição a mais na terceira série. Significa que o quarto tiro sai na mesma velocidade do terceiro, em vez de cair. Um pouco mais de trabalho por sessão, e é a soma disso ao longo das semanas que aparece no fim.
 
@@ -90,11 +90,11 @@ Nem todo mundo responde igual, e o motivo é o tanque: o espaço entre onde a pe
 
 Quem já tem estoque alto tem pouco espaço, e responde pouco. É o chamado não respondedor. Estimativas, vindas de estudos pequenos, falam em algo como vinte a trinta por cento das pessoas. Não é falha do produto. É um tanque que já estava cheio.
 
-E quem responde mais é quem chega com o tanque baixo. Burke e colaboradores, em 2003, compararam vegetarianos e não vegetarianos em oito semanas de treino de força, com creatina ou placebo. Os vegetarianos partiam de estoque mais baixo, cerca de cento e dezessete contra cento e trinta milimols por quilo, e, com creatina, tiveram maior aumento de estoque, de massa magra e de trabalho total.
+E quem responde mais é quem chega com o tanque baixo. Em 2003, um estudo comparou vegetarianos e não vegetarianos em oito semanas de treino de força, com creatina ou placebo. Os vegetarianos partiam de estoque mais baixo, cerca de cento e dezessete contra cento e trinta milimols por quilo, e, com creatina, tiveram maior aumento de estoque, de massa magra e de trabalho total.
 
 Então a primeira pergunta da triagem é dietética, não farmacológica: quanta carne e peixe essa pessoa come?
 
-E como saber se alguém respondeu, sem biópsia? Medindo o desfecho, como na aula anterior. Quatro a oito semanas, três a cinco gramas por dia, e um desfecho de treino escolhido antes: repetições na mesma carga, carga num exercício-chave, tiros mantidos na velocidade alvo.
+E como saber se alguém respondeu, sem biópsia? Medindo o desfecho, como no teste com data. Quatro a oito semanas, três a cinco gramas por dia, e um desfecho de treino escolhido antes: repetições na mesma carga, carga num exercício-chave, tiros mantidos na velocidade alvo.
 
 ---
 
@@ -104,7 +104,7 @@ E como saber se alguém respondeu, sem biópsia? Medindo o desfecho, como na aul
 
 Agora os mitos, cada um com o número que merece. O primeiro é o que mais afasta quem se beneficiaria: faz mal para o rim.
 
-Lugaresi, Gualano e colaboradores, em 2013, um grupo brasileiro, fizeram um ensaio randomizado, duplo-cego, com placebo, em pessoas treinadas em força que comiam dieta rica em proteína, por doze semanas, com carga e manutenção. Mediram a filtração glomerular com um marcador de referência, além de depuração de creatinina, ureia, eletrólitos, proteinúria e albuminúria. Nada se alterou de forma relevante. E o posicionamento da Sociedade Internacional de Nutrição Esportiva, de Kreider e colaboradores, em 2017, resume o conjunto: em doses usuais, o uso é seguro e bem tolerado em pessoas saudáveis.
+Em 2013, um grupo brasileiro fez um ensaio randomizado, duplo-cego, com placebo, em pessoas treinadas em força que comiam dieta rica em proteína, por doze semanas, com carga e manutenção. Mediram a filtração glomerular com um marcador de referência, além de depuração de creatinina, ureia, eletrólitos, proteinúria e albuminúria. Nada se alterou de forma relevante. E o posicionamento da Sociedade Internacional de Nutrição Esportiva, de 2017, resume o conjunto: em doses usuais, o uso é seguro e bem tolerado em pessoas saudáveis.
 
 Mas aqui está a armadilha que todo médico desta turma precisa guardar. A creatina vira creatinina. Quem toma pode ter creatinina sérica um pouco mais alta sem lesão renal nenhuma. É substrato a mais, não filtração a menos. E a creatinina é justamente o que se usa para estimar a função renal. O resultado previsível: exame de rotina, creatinina levemente alta, filtração estimada mais baixa, e um susto que vira investigação, ou um diagnóstico errado.
 
@@ -118,9 +118,9 @@ A ressalva: quem tem doença renal ou fator de risco relevante é outra conversa
 *Visual: quatro mitos em cartões, cada um com o que a evidência mostra: cabelo, cãibra, esteroide, ciclar.*
 *Teleprompter: (os outros quatro mitos)*
 
-Mito dois: cai o cabelo. Vem de um estudo: van der Merwe e colaboradores, em 2009, com vinte jogadores de rúgbi, mostraram alteração na razão entre di-hidrotestosterona e testosterona depois de três semanas de creatina. É pequeno, mediu hormônio e não cabelo, e não foi replicado de forma consistente. É o erro de tratar sinalização como desfecho. Não há demonstração de que creatina cause queda de cabelo. Quem tem calvície familiar e quer ser conservador pode não usar, sabendo que a escolha é de precaução, não de evidência.
+Mito dois: cai o cabelo. Vem de um estudo de 2009, com vinte jogadores de rúgbi, que mostrou alteração na razão entre di-hidrotestosterona e testosterona depois de três semanas de creatina. É pequeno, mediu hormônio e não cabelo, e não foi replicado de forma consistente. É o erro de tratar sinalização como desfecho. Não há demonstração de que creatina cause queda de cabelo. Quem tem calvície familiar e quer ser conservador pode não usar, sabendo que a escolha é de precaução, não de evidência.
 
-Mito três: dá cãibra e desidratação. Greenwood e colaboradores, em 2003, acompanharam jogadores universitários de futebol americano ao longo de uma temporada, no calor. Quem usava creatina não teve mais cãibra nem mais lesão. É um estudo observacional, com voluntários, e não um ensaio randomizado, mas aponta na direção contrária ao mito. E a revisão de Lopez e colaboradores, de 2009, não encontrou prejuízo na termorregulação nem na hidratação. Suspender creatina no verão não tem base.
+Mito três: dá cãibra e desidratação. Em 2003, um estudo acompanhou jogadores universitários de futebol americano ao longo de uma temporada, no calor. Quem usava creatina não teve mais cãibra nem mais lesão. É um estudo observacional, com voluntários, e não um ensaio randomizado, mas aponta na direção contrária ao mito. E uma revisão de 2009 não encontrou prejuízo na termorregulação nem na hidratação. Suspender creatina no verão não tem base.
 
 Mito quatro: é esteroide, ou quase. Não é. Não é hormônio, não age no receptor androgênico, e não é substância proibida.
 
@@ -132,13 +132,13 @@ Mito cinco: precisa ciclar. Não. Quando a suplementação para, o estoque volta
 *Visual: tabela de populações: mulheres, idosos, adolescentes, vegetarianos; o que a evidência mostra e o que muda na conduta. Em destaque, o número de Chilibeck: +1,4 kg de massa magra com treino de força.*
 *Teleprompter: (populações: onde a conta muda)*
 
-Populações específicas. É a primeira pergunta da aula anterior: em quem foi estudado?
+Populações específicas. É a primeira pergunta que a letra A não responde: em quem foi estudado?
 
-Mulheres. A revisão de Smith-Ryan e colaboradoras, de 2021, organizou o que existe ao longo da vida da mulher. O efeito sobre força e desempenho em idade reprodutiva é compatível com o dos homens, e há interesse crescente na menopausa, quando músculo e osso estão sob pressão. O conjunto de estudos é menor. Dose igual.
+Mulheres. Uma revisão de 2021 organizou o que existe ao longo da vida da mulher. O efeito sobre força e desempenho em idade reprodutiva é compatível com o dos homens, e há interesse crescente na menopausa, quando músculo e osso estão sob pressão. O conjunto de estudos é menor. Dose igual.
 
-Pessoas idosas. Aqui está, para o nosso público, a aplicação mais interessante. A meta-análise de Chilibeck e colaboradores, de 2017, reuniu vinte e dois ensaios, com setecentas e vinte e uma pessoas. Creatina somada a treino de força deu cerca de um quilo e quatrocentos gramas a mais de massa magra, e mais força, do que o treino sozinho. Repare na frase: somada a treino de força. Sem carga, não vale a pena. O quadro completo de sarcopenia fica para o módulo do atleta adolescente e idoso.
+Pessoas idosas. Aqui está, para o nosso público, a aplicação mais interessante. Uma meta-análise de 2017 reuniu vinte e dois ensaios, com setecentas e vinte e uma pessoas. Creatina somada a treino de força deu cerca de um quilo e quatrocentos gramas a mais de massa magra, e mais força, do que o treino sozinho. Repare na frase: somada a treino de força. Sem carga, não vale a pena. O quadro completo de sarcopenia fica para o módulo do atleta adolescente e idoso.
 
-Adolescentes. A revisão de Jagim e Kerksick, de 2021, não encontrou sinal de dano nas doses usuais. E, ainda assim, a posição prática é conservadora, e o motivo não é toxicológico. É o passo um da aula anterior: o adolescente fraco para a idade quase sempre tem outras quatro explicações antes da creatina. Come pouco para crescer e treinar, dorme mal, está numa fase de maturação diferente, e nunca fez treino de força orientado. E há o que o pote ensina: um garoto que aprende que a força passa por comprar alguma coisa fica mais disponível para o próximo produto, que pode não ser creatina. Adolescente é decisão médica, com o responsável, depois da base feita.
+Adolescentes. Uma revisão de 2021 não encontrou sinal de dano nas doses usuais. E, ainda assim, a posição prática é conservadora, e o motivo não é toxicológico. É o passo um da classificação: o adolescente fraco para a idade quase sempre tem outras quatro explicações antes da creatina. Come pouco para crescer e treinar, dorme mal, está numa fase de maturação diferente, e nunca fez treino de força orientado. E há o que o pote ensina: um garoto que aprende que a força passa por comprar alguma coisa fica mais disponível para o próximo produto, que pode não ser creatina. Adolescente é decisão médica, com o responsável, depois da base feita.
 
 Vegetarianos e veganos: o grupo com maior chance de resposta. Um cuidado de rótulo: a creatina sintética não é de origem animal, mas cápsulas de gelatina são. Pó resolve.
 
@@ -150,9 +150,9 @@ Vegetarianos e veganos: o grupo com maior chance de resposta. Um cuidado de rót
 
 Duas aplicações que não são de desempenho.
 
-Reabilitação. Hespel e colaboradores, em 2001, imobilizaram a perna de vinte e dois voluntários saudáveis por duas semanas e depois fizeram dez semanas de reabilitação, com creatina ou placebo. As duas metades precisam ser ditas juntas. Durante a imobilização, a creatina não impediu a perda de massa e de força. Na reabilitação, o grupo com creatina recuperou mais depressa a área do quadríceps e a potência. A leitura é precisa: creatina não protege o músculo parado. Ajuda o músculo que voltou a ser estimulado. Para o fisioterapeuta, a pergunta muda: não é tomar durante o gesso, é estar tomando quando a carga voltar.
+Reabilitação. Em 2001, um experimento imobilizou a perna de vinte e dois voluntários saudáveis por duas semanas e depois fizeram dez semanas de reabilitação, com creatina ou placebo. As duas metades precisam ser ditas juntas. Durante a imobilização, a creatina não impediu a perda de massa e de força. Na reabilitação, o grupo com creatina recuperou mais depressa a área do quadríceps e a potência. A leitura é precisa: creatina não protege o músculo parado. Ajuda o músculo que voltou a ser estimulado. Para o fisioterapeuta, a pergunta muda: não é tomar durante o gesso, é estar tomando quando a carga voltar.
 
-Cognição. O cérebro usa creatina, com o mesmo sistema de fosfocreatina. A revisão sistemática de Avgerinos e colaboradores, de 2018, reuniu seis ensaios com duzentas e oitenta e uma pessoas saudáveis. Há sinal de melhora de memória de curto prazo, mais visível em idosos. O sinal existe e é modesto. E "tem mecanismo e estudos em andamento" não é a mesma coisa que "está indicado". Entre essas duas frases mora boa parte do marketing de suplemento, que é o assunto da aula de suplementos sem evidência.
+Cognição. O cérebro usa creatina, com o mesmo sistema de fosfocreatina. Uma revisão sistemática de 2018 reuniu seis ensaios com duzentas e oitenta e uma pessoas saudáveis. Há sinal de melhora de memória de curto prazo, mais visível em idosos. O sinal existe e é modesto. E "tem mecanismo e estudos em andamento" não é a mesma coisa que "está indicado". Entre essas duas frases mora boa parte do marketing de suplemento, que é o assunto da aula de suplementos sem evidência.
 
 ---
 
@@ -192,7 +192,7 @@ O adolescente. A resposta não é não pode. É ainda não é essa a pergunta. C
 
 Quem faz o quê. Indicar e dosar é do nutricionista. Função renal, doença de base, interação e adolescente são do médico. O treino que dá sentido à creatina é do educador físico e do preparador, e sem ele a conversa sobre o pote é vazia. E registrar o uso antes de um exame de sangue é de todos.
 
-Na próxima aula, o outro ergogênico de evidência forte, e o mais consumido do planeta, muitas vezes sem que ninguém o chame de suplemento: a cafeína.
+Na próxima conversa, o outro ergogênico de evidência forte, e o mais consumido do planeta, muitas vezes sem que ninguém o chame de suplemento: a cafeína.
 
 ---
 
@@ -222,6 +222,8 @@ de 21 minutos. Arquitetura NÚMERO mantida (a anterior é PROCEDIMENTO; a próxi
 clínico: o menino de 15 anos, a mulher de 58 e o corredor de 44 viraram "três perfis típicos", sem
 idade. O bloco de "déficit energético" saiu, por ter evidência escassa e não mudar a conduta.
 
+Nesta revisão, os 8 slides que ainda eram texto viraram desenho (a régua da magnitude, o peso, os dois tanques, o rim, os mitos, as populações, além do desempenho e o protocolo), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Hultman 1996: 31 homens; ~20% de aumento com 20 g/dia por 6 dias; 2 g/dia
 mantém; 3 g/dia por 28 dias produz aumento semelhante. Burke 2003: 18 vegetarianos e 24 não
 vegetarianos; creatina total basal de 117 contra 130 mmol/kg; maior aumento de estoque, massa magra
@@ -230,7 +232,7 @@ Chilibeck 2017: 22 ensaios, 721 pessoas, +1,37 kg de massa magra. Hespel 2001: 2
 2 semanas de gesso e 10 de reabilitação; sem proteção na imobilização, recuperação maior depois.
 Avgerinos 2018: 6 ensaios, 281 pessoas; melhora de memória de curto prazo, mais em idosos.
 
-**Correções.**
+**Correções.** 
 - Greenwood 2003 foi apresentado antes como se fosse ensaio controlado; é observacional, com
   voluntários (38 de 72 atletas), e a aula agora diz isso.
 - Os "20 a 30% de não respondedores" vêm de estudos pequenos (Syrotuik e Bell 2004, com 11 homens);
@@ -238,12 +240,12 @@ Avgerinos 2018: 6 ensaios, 281 pessoas; melhora de memória de curto prazo, mais
 - Avgerinos: a menção a privação de sono saiu, porque não é conclusão da revisão; ficou memória de
   curto prazo, mais visível em idosos.
 - As séries de repetições do slide de efeito são esquema ilustrativo, marcadas como tal.
+- Branch, Burke, Kreider, Lugaresi e Gualano, van der Merwe, Greenwood, Lopez, Smith-Ryan, Chilibeck, Jagim e Kerksick, Hespel e Avgerinos saíram da fala; Kreider e Branch saíram também do topo dos slides. As menções a "aula anterior" viraram referência ao conteúdo.
 
 **Saíram.** "Aula passada", "aulas 5.1, 5.3, 5.8, 5.9, 5.10, 5.11", "aula 2.1", "aula 2.2", "aula
-1.8", "aula 4.8", "aula 4.9", "aulas 12.7 e 12.8", "o escopo", as idades, o bloco "Roteiro Gamma".
+1.8", "aula 4.8", "aula 4.9", "aulas 12.7 e 12.8", "o escopo", as idades, o bloco "Roteiro Gamma". Duração de 34 para 21 minutos.
 
-**Citações faladas.** Hultman; Branch; Burke; Lugaresi e Gualano; Kreider; van der Merwe; Greenwood;
-Lopez; Smith-Ryan; Chilibeck; Jagim e Kerksick; Hespel; Avgerinos.
+**Citações faladas.** Hultman, pelo estudo de referência da carga de creatina. Os demais estudos entram pelo ano.
 
 **Ligações internas.** fosfocreatina = módulo de fisiologia do exercício · categoria de peso = aula
 de composição corporal · passo um e teste = aula anterior · sarcopenia = módulo do atleta adolescente

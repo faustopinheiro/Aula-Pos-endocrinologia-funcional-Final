@@ -40,9 +40,9 @@ E o que sustenta o uso não é o mecanismo. É o desfecho replicado.
 
 📊 **[SLIDE 3 DE 10]**
 *Visual: barras de carnosina muscular: basal, 4 semanas (+59%) e 10 semanas (+80%). Ao lado, o trabalho total no teste de bicicleta: +13% em 4 semanas.*
-*Teleprompter: (Hill e colaboradores: o acúmulo)*
+*Teleprompter: (o acúmulo)*
 
-Os números do acúmulo vêm de Hill e colaboradores, em 2007, com biópsia muscular em treze homens.
+Os números do acúmulo vêm de um experimento de 2007, com biópsia muscular em treze homens.
 
 A carnosina muscular subiu perto de cinquenta e nove por cento em quatro semanas, e perto de oitenta por cento em dez semanas. E o trabalho total num teste de alta intensidade na bicicleta subiu cerca de treze por cento em quatro semanas.
 
@@ -54,11 +54,11 @@ Quem toma por quinze dias e para não chegou nem à metade do caminho. E quem to
 
 📊 **[SLIDE 4 DE 10]**
 *Visual: régua de duração do esforço, de zero a vinte minutos. A faixa entre trinta segundos e dez minutos pintada. À esquerda, "fosfocreatina"; à direita, "oxidativo".*
-*Teleprompter: (Saunders e colaboradores: a janela)*
+*Teleprompter: (a janela)*
 
 Onde ela funciona. É o número mais útil da aula.
 
-A meta-análise de Saunders e colaboradores, de 2017, com participação de pesquisadores brasileiros, reuniu quarenta estudos, sessenta e cinco protocolos de exercício e mil quatrocentos e sessenta e uma pessoas. A conclusão delimita a janela: a beta-alanina é eficaz em esforços de alta intensidade que duram entre trinta segundos e dez minutos.
+Uma meta-análise de 2017, com participação de pesquisadores brasileiros, reuniu quarenta estudos, sessenta e cinco protocolos de exercício e mil quatrocentos e sessenta e uma pessoas. A conclusão delimita a janela: a beta-alanina é eficaz em esforços de alta intensidade que duram entre trinta segundos e dez minutos.
 
 E dá para entender a janela pela fisiologia.
 
@@ -86,7 +86,7 @@ E há um detalhe de desenho que muda a conversa clínica. Boa parte dos ganhos a
 *Visual: três números do protocolo: "4 a 6 g por dia", "pelo menos 4 semanas", "tomadas de cerca de 1,6 g". Embaixo, a conta para setenta quilos e o calendário de doze semanas.*
 *Teleprompter: (o protocolo)*
 
-O protocolo, pelo posicionamento da Sociedade Internacional de Nutrição Esportiva, de Trexler e colaboradores, em 2015.
+O protocolo, pelo posicionamento da Sociedade Internacional de Nutrição Esportiva, de 2015.
 
 A dose: quatro a seis gramas por dia.
 
@@ -156,7 +156,7 @@ Quem faz o quê. Indicar e dosar é do nutricionista. O educador físico e o pre
 
 E a pergunta que qualquer um da equipe pode fazer, e que resolve a maior parte dos casos: quanto tempo dura o esforço que você quer melhorar?
 
-Na próxima aula, os outros dois recursos de grupo A com lógica parecida: nitrato e bicarbonato de sódio.
+Na próxima conversa, os outros dois recursos de grupo A com lógica parecida: nitrato e bicarbonato de sódio.
 
 ---
 
@@ -176,24 +176,27 @@ Arquitetura NÚMERO mantida (a anterior é DECISÃO; a próxima é PROCEDIMENTO)
 homem de 33 anos do formigamento, a nadadora de 31, o jogador de futsal de 24 e o maratonista de 46
 viraram perfis típicos, sem idade. A frase de abertura é de perfil típico, não fala de paciente.
 
+Nesta revisão, os 7 slides que ainda eram texto viraram desenho (os dois erros, o acúmulo, o tamanho, o protocolo, a parestesia, a janela e os perfis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Hill 2007: 13 homens; carnosina +58,8% em 4 semanas e +80,1% em 10 semanas
 (8 continuaram); trabalho total +13,0% em 4 semanas. Saunders 2017: 40 estudos, 65 protocolos, 1.461
 participantes; eficaz entre 30 s e 10 min. Trexler 2015: 4 a 6 g/dia; pelo menos 2 a 4 semanas para
 melhorar o desempenho; parestesia como único efeito adverso relatado, atenuada por doses divididas
 de cerca de 1,6 g ou liberação prolongada.
 
-**Correções.**
+**Correções.** 
 - "Doses de até 800 mg a 1,5 g" virou "cerca de 1,6 g por tomada", como no posicionamento.
 - "65 mg/kg por dia" saiu, por não estar no posicionamento conferido.
 - "Efeito de 2 a 3%" saiu, por não ter fonte conferida; ficou "pequeno".
 - A frase da versão anterior que opunha mecanismo e recomendação virou "o que sustenta o uso é o desfecho replicado".
 - A referência de Robergs 2004 saiu, porque a aula não cita o estudo, apenas a ideia já dada no
   módulo de fisiologia.
+- Hill, Saunders e Trexler saíram da fala e do topo dos slides; os estudos entram pelo ano.
 
 **Saíram.** "Aula 2.1", "aula 2.3", "aula 1.8", "aula 5.1", "aula 5.2", "aula 4.10", "aula 5.5",
-"o escopo", o adjetivo do mecanismo, as idades, o bloco "Roteiro Gamma".
+"o escopo", o adjetivo do mecanismo, as idades, o bloco "Roteiro Gamma". Duração de 16 para 12 minutos.
 
-**Citações faladas.** Hill; Saunders; Trexler.
+**Citações faladas.** Nenhum autor por nome. O experimento de 2007, a meta-análise de 2017 e o posicionamento de 2015 entram pelo ano.
 
 **Ligações internas.** íon hidrogênio e fadiga = módulo de fisiologia do exercício · pré-treino e
 dose por item = primeira aula do módulo · vegetarianos = aula de creatina · carboidrato na prova =

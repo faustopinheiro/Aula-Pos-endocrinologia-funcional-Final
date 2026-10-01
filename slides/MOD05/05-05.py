@@ -32,9 +32,9 @@ p.append(f'<line x1="700" y1="150" x2="770" y2="210" stroke="{FOSF}" stroke-widt
 p.append("</svg>")
 rs.append(rot(300, 200, "enxaguante antisséptico corta aqui", w=390, tam=26, cor=FOSF, peso=700, alinha="right"))
 S.append({"id": "via", "tipo": "diagrama", "h": 260, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Govoni e colaboradores, 2008", "titulo": "Uma bactéria no meio do mecanismo",
+          "eyebrow": "Um experimento de 2008", "titulo": "Uma bactéria no meio do mecanismo",
           "destaque": "Sete voluntários, com e sem clorexidina: com o enxaguante, a subida do nitrito no sangue foi muito menor. Suco de beterraba com enxaguante é dinheiro fora.",
-          "destaque_cor": "verm", "fonte": "Nitric Oxide 2008"})
+          "destaque_cor": "verm", "fonte": "Govoni e colaboradores · Nitric Oxide 2008"})
 
 # 3. quem responde
 S.append({"id": "inversao", "tipo": "duas", "eyebrow": "Jones, 2014", "titulo": "A inversão: rende mais em quem é menos treinado",
@@ -75,9 +75,9 @@ rs = [rot(0, 50, "dentro da fibra", w=700, tam=30, cor=AZUL, peso=700, alinha="c
       rot(1100, 170, "bicarbonato: reserva alcalina", w=560, tam=28, cor=TINTA, alinha="center"),
       rot(600, 90, "H⁺ sai da fibra", w=460, tam=28, cor=FOSF, peso=700, alinha="center")]
 S.append({"id": "tampoes", "tipo": "diagrama", "h": 280, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "O bicarbonato · Grgic e colaboradores, 2021", "titulo": "Dois tampões, dois compartimentos",
+          "eyebrow": "O bicarbonato · o posicionamento de 2021", "titulo": "Dois tampões, dois compartimentos",
           "destaque": "Melhora em resistência muscular, em lutas (boxe, judô, caratê, taekwondo, luta olímpica) e em ciclismo, corrida e natação de alta intensidade.",
-          "destaque_cor": "petr", "fonte": "Journal of the International Society of Sports Nutrition 2021"})
+          "destaque_cor": "petr", "fonte": "Grgic e colaboradores · Journal of the International Society of Sports Nutrition 2021"})
 
 # 7. protocolo bicarbonato
 S.append({"id": "bicarbonato", "tipo": "numeros", "eyebrow": "O protocolo do bicarbonato", "titulo": "Muito pó, e o tempo varia de pessoa para pessoa",

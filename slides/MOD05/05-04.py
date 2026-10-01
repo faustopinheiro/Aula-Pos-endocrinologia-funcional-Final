@@ -59,9 +59,9 @@ rs = [rot(fx(0.5) + 20, 90, "janela da beta-alanina", w=fx(10) - fx(0.5) - 40, t
 for m, t in [(0.5, "30 s"), (2, "2 min"), (5, "5 min"), (10, "10 min"), (20, "20 min")]:
     rs.append(rot(min(fx(m) - 70, 1664 - 140), 162, t, w=140, tam=26, cor=TINTA, peso=700, alinha="right" if m == 20 else "center"))
 S.append({"id": "janela", "tipo": "diagrama", "h": 260, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Saunders e colaboradores, 2017", "titulo": "De trinta segundos a dez minutos",
+          "eyebrow": "Uma meta-análise de 2017", "titulo": "De trinta segundos a dez minutos",
           "destaque": "40 estudos, 65 protocolos, 1.461 pessoas. Abaixo de 30 s domina a fosfocreatina (creatina); acima de 10 min, o esforço oxidativo. No meio, o território glicolítico intenso.",
-          "destaque_cor": "petr", "fonte": "Escala da régua comprimida · British Journal of Sports Medicine 2017"})
+          "destaque_cor": "petr", "fonte": "Escala da régua comprimida · Saunders e colaboradores · British Journal of Sports Medicine 2017"})
 
 # 5. magnitude
 S.append({"id": "tamanho", "tipo": "duas", "eyebrow": "A magnitude, sem propaganda", "titulo": "Real, e menor do que o rótulo sugere",

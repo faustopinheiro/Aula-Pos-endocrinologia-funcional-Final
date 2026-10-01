@@ -2,7 +2,7 @@
 
 **Módulo 5 — Suplementação, Ergogênicos e Antidoping**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 16 minutos · 11 slides · Arquitetura: DECISÃO
+Duração: 15 minutos · 11 slides · Arquitetura: DECISÃO
 
 ---
 
@@ -28,7 +28,7 @@ Os três têm a mesma estrutura: um benefício real e pequeno de um lado, e um c
 *Visual: à esquerda, "21 meta-análises": efeito em resistência aeróbica, resistência muscular, força e potência. À direita, o receptor de adenosina ocupado pela cafeína, e a frase "não cria energia, adia a percepção de que ela acaba".*
 *Teleprompter: (o que a evidência sustenta, e o mecanismo certo)*
 
-O que a evidência sustenta. Grgic e colaboradores, em 2020, fizeram uma revisão guarda-chuva: reuniram vinte e uma meta-análises já publicadas sobre cafeína e desempenho. O efeito ergogênico aparece em resistência aeróbica, resistência muscular, força e potência. É dos poucos recursos que atravessam quase todos os tipos de esforço. E o posicionamento da Sociedade Internacional de Nutrição Esportiva, de Guest e colaboradores, em 2021, organiza o campo em recomendações práticas.
+O que a evidência sustenta. Em 2020, uma revisão guarda-chuva reuniu vinte e uma meta-análises já publicadas sobre cafeína e desempenho. O efeito ergogênico aparece em resistência aeróbica, resistência muscular, força e potência. É dos poucos recursos que atravessam quase todos os tipos de esforço. E o posicionamento da Sociedade Internacional de Nutrição Esportiva, de 2021, organiza o campo em recomendações práticas.
 
 Agora o mecanismo, que costuma ser contado errado. A cafeína não queima gordura nem acelera o metabolismo de forma relevante para o desempenho. O mecanismo dominante é central: ela bloqueia os receptores de adenosina no sistema nervoso. A adenosina se acumula ao longo do dia e do esforço e sinaliza cansaço. A cafeína ocupa o lugar dela.
 
@@ -78,7 +78,7 @@ O momento. A cafeína é absorvida rápido, e o pico no sangue vem cerca de meia
 
 Mas o que decide o custo não é o pico. É a meia-vida, que em adultos saudáveis gira em torno de cinco horas, com variação larga. Ela é mais longa em quem usa anticoncepcional oral e na gestação, e mais curta em fumantes. Duas pessoas, mesma dose, mesmo horário, corpos diferentes.
 
-E o número que eu queria trazer. Drake e colaboradores, em 2013, deram quatrocentos miligramas de cafeína na hora de deitar, três horas antes e seis horas antes, e mediram o sono em casa. Mesmo seis horas antes, o tempo total de sono medido caiu mais de uma hora.
+E o número que eu queria trazer. Em 2013, um experimento deu quatrocentos miligramas de cafeína na hora de deitar, três horas antes e seis horas antes, e mediram o sono em casa. Mesmo seis horas antes, o tempo total de sono medido caiu mais de uma hora.
 
 Seis horas antes.
 
@@ -104,7 +104,7 @@ Porque existe uma troca que precisa ser dita em voz alta: um efeito pequeno num 
 
 A variação entre pessoas é enorme, e três perguntas costumam aparecer. A primeira: existe genética?
 
-Existe pesquisa, e ela é interessante. Guest e colaboradores, em 2018, estudaram cento e um atletas num contrarrelógio de dez quilômetros de bicicleta, com duas doses de cafeína, e olharam um polimorfismo do gene CYP1A2, a enzima que metaboliza a maior parte da cafeína. Nos portadores do genótipo associado a metabolismo mais rápido, o tempo caiu perto de cinco por cento com a dose menor e perto de sete com a maior. Nos de metabolismo mais lento, a dose maior piorou o tempo em quase catorze por cento.
+Existe pesquisa, e ela é interessante. Em 2018, um estudo acompanhou cento e um atletas num contrarrelógio de dez quilômetros de bicicleta, com duas doses de cafeína, e olhou um polimorfismo do gene CYP1A2, a enzima que metaboliza a maior parte da cafeína. Nos portadores do genótipo associado a metabolismo mais rápido, o tempo caiu perto de cinco por cento com a dose menor e perto de sete com a maior. Nos de metabolismo mais lento, a dose maior piorou o tempo em quase catorze por cento.
 
 É um achado importante. E ele não sustenta, hoje, um teste genético de balcão. Outros estudos não replicaram de forma consistente. E, mesmo que o teste acertasse, a conduta seria a mesma que a gente já faz: testar a dose em treino e observar. O teste barato já existe, e se chama treino.
 
@@ -116,7 +116,7 @@ Existe pesquisa, e ela é interessante. Guest e colaboradores, em 2018, estudara
 
 A segunda pergunta: quem toma café todo dia perde o efeito? Precisa se desabituar antes da prova?
 
-Gonçalves, Gualano e colaboradores, em 2017, um grupo brasileiro, dividiram quarenta ciclistas treinados pelo consumo habitual: baixo, perto de sessenta miligramas por dia; moderado, perto de cento e quarenta; e alto, perto de trezentos e cinquenta. Todos receberam seis miligramas por quilo antes de um contrarrelógio. O efeito apareceu igualmente nos três grupos.
+Em 2017, um grupo brasileiro dividiu quarenta ciclistas treinados pelo consumo habitual: baixo, perto de sessenta miligramas por dia; moderado, perto de cento e quarenta; e alto, perto de trezentos e cinquenta. Todos receberam seis miligramas por quilo antes de um contrarrelógio. O efeito apareceu igualmente nos três grupos.
 
 Isso desmonta a semana de abstinência antes da prova, que custa dor de cabeça, irritabilidade e sono ruim justamente quando nada disso é desejável.
 
@@ -166,7 +166,7 @@ Resumindo a decisão. Três a seis miligramas por quilo, sessenta minutos antes,
 
 Quem faz o quê. Indicar cafeína como ergogênico, com dose e momento, é do nutricionista. Hipertensão, arritmia, gestação, ansiedade e interação com medicamento são do médico. O educador físico e o preparador são quem vê o efeito e o efeito adverso aparecerem no treino, e quem pode fazer a pergunta que quase ninguém faz: quanta cafeína você tomou hoje, somando tudo?
 
-Na próxima aula, um ergogênico de grupo A que não funciona de forma aguda e exige semanas de uso: a beta-alanina.
+Na próxima conversa, um ergogênico de grupo A que não funciona de forma aguda e exige semanas de uso: a beta-alanina.
 
 ---
 
@@ -187,6 +187,8 @@ Na próxima aula, um ergogênico de grupo A que não funciona de forma aguda e e
 Arquitetura DECISÃO mantida (a anterior e a próxima são NÚMERO). Sem caso clínico: o homem de
 29 anos, a jogadora de 26 e o ciclista de 52 viraram "três perfis típicos", sem idade.
 
+Nesta revisão, os 8 slides que ainda eram texto viraram desenho (as perguntas que sobram, o receptor, as fontes, o sono, a genética, o hábito, os limites e as decisões), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Grgic 2020: 21 meta-análises. Guest 2021: 3 a 6 mg/kg cerca de 60 min antes;
 dose mínima eficaz talvez tão baixa quanto 2 mg/kg; 9 mg/kg com muito efeito adverso; cafeína
 aumenta ansiedade. Drake 2013: 400 mg a 0, 3 e 6 h antes de deitar; a 6 h, o sono total medido caiu
@@ -194,7 +196,7 @@ mais de uma hora. Guest 2018: 101 atletas, contrarrelógio de 10 km; AA com temp
 com 2 e 4 mg/kg; CC com tempo 13,7% maior com 4 mg/kg; AC sem efeito. Gonçalves 2017: 40 ciclistas
 por tercil de consumo (58, 143 e 351 mg/dia); 6 mg/kg melhorou o contrarrelógio igualmente nos três.
 
-**Correções.**
+**Correções.** 
 - "Ganhos de 2 a 4%" saiu, por não ter fonte única; ficou "pequeno", com os números de Guest 2018
   como exemplo concreto.
 - "Acima de 9 mg/kg não há benefício adicional demonstrado" virou a formulação do posicionamento:
@@ -202,11 +204,12 @@ por tercil de consumo (58, 143 e 351 mg/dia); 6 mg/kg melhorou o contrarrelógio
 - O teor de cafeína do expresso ("60 a 80 mg") saiu, por não ter fonte conferida; ficou a
   variabilidade do café.
 - A balança da capa ("2 a 4%" contra "−1 hora de sono") perdeu o número de desempenho.
+- Grgic, Guest, Drake e Gonçalves e Gualano saíram da fala e do topo dos slides; os estudos entram pelo ano.
 
 **Saíram.** "Aula 5.1", "aula 2.10", "aula 3.3", "aula 4.10", "aula 4.11", "aula 5.10", "aula 9.12",
-"Módulo 11", "aula 5.4", "o escopo", "com elegância", "robusta", as idades, o bloco "Roteiro Gamma".
+"Módulo 11", "aula 5.4", "o escopo", "com elegância", "robusta", as idades, o bloco "Roteiro Gamma". Duração de 21 para 15 minutos.
 
-**Citações faladas.** Grgic; Guest (2021 e 2018); Drake; Gonçalves e Gualano.
+**Citações faladas.** Nenhum autor por nome. A revisão de 2020, o posicionamento de 2021 e os estudos de 2013, 2017 e 2018 entram pelo ano.
 
 **Ligações internas.** pré-treino de catorze ingredientes = primeira aula do módulo · esforço
 percebido = aula de fadiga do módulo de fisiologia · resposta simpática = módulo de endocrinologia ·

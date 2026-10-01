@@ -27,9 +27,9 @@ rs = [rot(fx(80) + 20, 144, "estoque habitual ≈ 120", w=700, tam=30, cor=AZUL,
       rot(fx(155) - 220, 40, "teto ≈ 150 a 160", w=440, tam=30, cor=FOSF, peso=700, alinha="center"),
       rot(0, 244, "mmol por quilo de músculo seco · síntese ≈ 1 g/dia · carne e peixe ≈ 1 a 2 g/dia · 95% no músculo", w=1664, tam=26, cor=MUDO, alinha="center")]
 S.append({"id": "tanque", "tipo": "diagrama", "h": 300, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Os números de base · Kreider, 2017", "titulo": "Um tanque com tampa",
+          "eyebrow": "Os números de base · o posicionamento de 2017", "titulo": "Um tanque com tampa",
           "destaque": "Quando enche, acabou: creatina a mais não sobe mais nada. E 1 a 2% do estoque vira creatinina todo dia; guarde isso para o exame de sangue.",
-          "destaque_cor": "petr", "fonte": "Journal of the International Society of Sports Nutrition 2017"})
+          "destaque_cor": "petr", "fonte": "Kreider e colaboradores · Journal of the International Society of Sports Nutrition 2017"})
 
 # 3. Hultman
 t = [i / 2 for i in range(0, 61)]
@@ -60,9 +60,9 @@ for i in range(4):
     rs.append(rot(260 + i * 340, 262, f"série {i+1}", w=300, tam=24, cor=MUDO))
 p.append("</svg>")
 S.append({"id": "efeito", "tipo": "diagrama", "h": 300, "svg": "".join(p), "rotulos": rs,
-          "eyebrow": "Branch, 2003", "titulo": "A creatina não constrói músculo",
+          "eyebrow": "Uma meta-análise de 2003", "titulo": "A creatina não constrói músculo",
           "destaque": "Ela permite treinar um pouco mais, e é o treino que constrói. Efeito maior no esforço curto e repetido; sem treino, irrelevante.",
-          "destaque_cor": "tinta", "fonte": "Esquema ilustrativo, sem valores medidos · International Journal of Sport Nutrition and Exercise Metabolism 2003"})
+          "destaque_cor": "tinta", "fonte": "Esquema ilustrativo, sem valores medidos · Branch · International Journal of Sport Nutrition and Exercise Metabolism 2003"})
 
 # 5. o peso
 S.append({"id": "peso", "tipo": "numeros", "eyebrow": "As primeiras semanas", "titulo": "O que se vê em uma semana é peso",

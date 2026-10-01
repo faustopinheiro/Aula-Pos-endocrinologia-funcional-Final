@@ -32,7 +32,7 @@ Ele está nas folhas verde-escuras e na beterraba: rúcula, espinafre, alface, a
 
 E o óxido nítrico faz o trabalho: vasodilatação, eficiência da contração e, o achado mais consistente, menor custo de oxigênio para a mesma intensidade submáxima. A mesma velocidade fica mais barata.
 
-Agora o passo que anula o protocolo inteiro. Se você elimina as bactérias da boca, a via para. Govoni e colaboradores, em 2008, deram nitrato a sete voluntários, com e sem enxaguante bucal de clorexidina. Com o enxaguante, a subida do nitrito no sangue foi muito menor.
+Agora o passo que anula o protocolo inteiro. Se você elimina as bactérias da boca, a via para. Em 2008, um experimento deu nitrato a sete voluntários, com e sem enxaguante bucal de clorexidina. Com o enxaguante, a subida do nitrito no sangue foi muito menor.
 
 A consequência prática é quase cômica de tão simples: quem toma suco de beterraba e usa enxaguante antisséptico jogou o dinheiro fora. Isso precisa estar escrito no plano, porque ninguém pergunta e ninguém conta.
 
@@ -42,7 +42,7 @@ A consequência prática é quase cômica de tão simples: quem toma suco de bet
 *Visual: duas colunas: "rende mais" (menos treinado, esforço submáximo prolongado, intermitente de alta intensidade, idoso) e "rende menos" (atleta de elite de resistência).*
 *Teleprompter: (quem responde: a inversão)*
 
-A magnitude, com honestidade. A revisão de Jones, de 2014, organizou o campo, e o padrão se confirmou depois: o efeito é mais consistente em pessoas menos treinadas e em esforços submáximos prolongados, e tende a ser menor em atletas de elite de resistência, que já têm eficiência alta e pouco espaço para melhorar.
+A magnitude, com honestidade. Uma revisão de 2014 organizou o campo, e o padrão se confirmou depois: o efeito é mais consistente em pessoas menos treinadas e em esforços submáximos prolongados, e tende a ser menor em atletas de elite de resistência, que já têm eficiência alta e pouco espaço para melhorar.
 
 Repare na inversão. Quase todo ergogênico rende mais no atleta de alto nível. O nitrato tende a render mais exatamente no público deste curso: o amador, o praticante recreacional. E há linha de pesquisa em pessoas mais velhas, sobre função muscular e pressão arterial.
 
@@ -90,9 +90,9 @@ E duas notas de segurança. Em quem usa medicação para disfunção erétil ou 
 
 O bicarbonato de sódio. O tampão mais antigo, mais barato e mais desagradável.
 
-O mecanismo é fácil de explicar ao paciente. A beta-alanina, da aula anterior, trabalha dentro da fibra. O bicarbonato trabalha fora dela, no sangue. Ele aumenta a reserva alcalina e, com isso, o gradiente que puxa o íon hidrogênio para fora da fibra. Dois tampões, dois compartimentos, e por isso existe interesse em combinar os dois.
+O mecanismo é fácil de explicar ao paciente. A beta-alanina trabalha dentro da fibra. O bicarbonato trabalha fora dela, no sangue. Ele aumenta a reserva alcalina e, com isso, o gradiente que puxa o íon hidrogênio para fora da fibra. Dois tampões, dois compartimentos, e por isso existe interesse em combinar os dois.
 
-A janela de esforço é parecida com a da beta-alanina: alta intensidade, de cerca de trinta segundos a alguns minutos. O posicionamento da Sociedade Internacional de Nutrição Esportiva, de Grgic e colaboradores, em 2021, lista melhora em resistência muscular, em lutas como boxe, judô, caratê, taekwondo e luta olímpica, e em ciclismo, corrida e natação de alta intensidade.
+A janela de esforço é parecida com a da beta-alanina: alta intensidade, de cerca de trinta segundos a alguns minutos. O posicionamento da Sociedade Internacional de Nutrição Esportiva, de 2021, lista melhora em resistência muscular, em lutas como boxe, judô, caratê, taekwondo e luta olímpica, e em ciclismo, corrida e natação de alta intensidade.
 
 ---
 
@@ -160,7 +160,7 @@ Quem faz o quê. Indicar e dosar os dois é do nutricionista. Hipertensão, doen
 
 E a pergunta de triagem de todos: quanto tempo dura o esforço, e isso já foi testado fora da prova?
 
-Na próxima aula, o produto mais vendido de todos, e um dos menos necessários na maioria dos casos: proteína em pó e aminoácidos.
+Na próxima conversa, o produto mais vendido de todos, e um dos menos necessários na maioria dos casos: proteína em pó e aminoácidos.
 
 ---
 
@@ -179,6 +179,8 @@ Na próxima aula, o produto mais vendido de todos, e um dos menos necessários n
 Arquitetura PROCEDIMENTO mantida (a anterior é NÚMERO; a próxima é ERRO). Sem caso clínico: o
 ciclista de 41, a judoca de 27 e a corredora de 35 viraram "três perfis típicos", sem idade.
 
+Nesta revisão, os 8 slides que ainda eram texto viraram desenho (a boca e o intestino, a inversão, o protocolo do nitrato, os erros do nitrato, o protocolo do bicarbonato, o intestino, os limites clínicos e os perfis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD05/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Govoni 2008: sete voluntários, enxaguante de clorexidina, aumento de nitrito
 no plasma muito atenuado. Grgic 2021: bicarbonato de 0,2 a 0,5 g/kg melhora resistência muscular,
 lutas (boxe, judô, caratê, taekwondo, luta olímpica) e ciclismo, corrida e natação de alta
@@ -186,7 +188,7 @@ intensidade; estratégias contra efeito adverso: doses menores (0,2 ou 0,3 g/kg)
 antes, com refeição rica em carboidrato, cápsula entérica. Consenso do COI 2018: nitrato agudo de
 5 a 9 mmol (310 a 560 mg) 2 a 3 h antes; uso por mais de 3 dias.
 
-**Correções.**
+**Correções.** 
 - A faixa do bicarbonato estava como 0,2 a 0,4 g/kg; o posicionamento de 2021 dá 0,2 a 0,5 g/kg,
   com 0,2 a 0,3 g/kg sugeridos para reduzir efeito adverso. A conta para 70 kg foi refeita
   (14 a 21 g).
@@ -196,11 +198,12 @@ antes, com refeição rica em carboidrato, cápsula entérica. Consenso do COI 2
 - A estratégia de carga do bicarbonato em vários dias saiu, por não estar no posicionamento
   conferido.
 - A referência de Kapil 2013 saiu, porque a aula não cita o estudo.
+- Govoni, Jones e Grgic saíram da fala e do topo dos slides; "da aula anterior" saiu.
 
 **Saíram.** "Aula 4.10", "aula 5.3", "aula passada", "aula 5.4", "aula 4.9", "aula 5.6", "o escopo",
-as idades, o bloco "Roteiro Gamma".
+as idades, o bloco "Roteiro Gamma". Duração de 17 para 13 minutos.
 
-**Citações faladas.** Govoni; Jones; Comitê Olímpico Internacional; Grgic.
+**Citações faladas.** Nenhum autor por nome. O experimento de 2008, a revisão de 2014, o posicionamento de 2021 e o consenso do COI entram pelo ano.
 
 **Ligações internas.** café coado = aula de cafeína · carnosina = aula anterior · corte de peso =
 aula de composição corporal do módulo de nutrição · "nada de novo no dia" = aula do dia de
