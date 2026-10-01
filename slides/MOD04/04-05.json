@@ -22,26 +22,170 @@
  "slides": [
   {
    "id": "tres",
-   "tipo": "numeros",
-   "eyebrow": "Três números que todo mundo mistura",
-   "titulo": "Gramas por quilo por dia",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma régua de proteína em gramas por quilo por dia, de zero a três. Em 0,8, o piso populacional contra deficiência, que não é meta para quem treina. Em 1,6, o platô do ganho de massa livre de gordura com treino de força. Em 2,2, o limite superior do intervalo desse platô; a faixa entre 1,6 e 2,2 está sombreada\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"885\" y=\"170\" width=\"317\" height=\"60\" fill=\"#DDEFEC\"/><line x1=\"40\" y1=\"200\" x2=\"1624\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"4\"/><line x1=\"40\" y1=\"192\" x2=\"40\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"568\" y1=\"192\" x2=\"568\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1096\" y1=\"192\" x2=\"1096\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1624\" y1=\"192\" x2=\"1624\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"462\" cy=\"200\" r=\"16\" fill=\"#12202E\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"462\" y1=\"182\" x2=\"462\" y2=\"110\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"885\" cy=\"200\" r=\"16\" fill=\"#008A7E\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"885\" y1=\"218\" x2=\"885\" y2=\"260\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1202\" cy=\"200\" r=\"16\" fill=\"#B07A1C\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><line x1=\"1202\" y1=\"182\" x2=\"1202\" y2=\"110\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
-     "n": "0,8",
-     "x": "piso populacional contra deficiência, não meta para quem treina",
-     "cor": "tinta"
+     "x": 10,
+     "y": 244,
+     "w": 60,
+     "t": "0",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "1,6",
-     "x": "platô do ganho de massa livre de gordura com treino de força",
-     "cor": "petr"
+     "x": 538,
+     "y": 244,
+     "w": 60,
+     "t": "1",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "2,2",
-     "x": "limite superior do intervalo desse platô",
-     "cor": "ambar"
+     "x": 1066,
+     "y": 244,
+     "w": 60,
+     "t": "2",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1594,
+     "y": 244,
+     "w": 60,
+     "t": "3",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 232,
+     "y": 10,
+     "w": 460,
+     "t": "0,8",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 232,
+     "y": 60,
+     "w": 460,
+     "t": "piso populacional contra deficiência",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 232,
+     "y": 86,
+     "w": 460,
+     "t": "não é meta para quem treina",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 655,
+     "y": 260,
+     "w": 460,
+     "t": "1,6",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 655,
+     "y": 310,
+     "w": 460,
+     "t": "platô do ganho de massa livre de gordura",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 655,
+     "y": 338,
+     "w": 460,
+     "t": "com treino de força",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 972,
+     "y": 10,
+     "w": 460,
+     "t": "2,2",
+     "tam": 40,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 972,
+     "y": 60,
+     "w": 460,
+     "t": "limite superior do intervalo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 972,
+     "y": 86,
+     "w": 460,
+     "t": "desse platô",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 270,
+     "w": 420,
+     "t": "g por kg por dia",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Três números que todo mundo mistura",
+   "titulo": "Gramas por quilo por dia",
    "destaque": "“A recomendação oficial é 0,8, o resto é exagero”: o número certo para a pergunta errada.",
    "destaque_cor": "tinta"
   },
@@ -183,65 +327,408 @@
   },
   {
    "id": "teto",
-   "tipo": "duas",
-   "eyebrow": "Trommelen e colaboradores, 2023",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, curvas esquemáticas de síntese de proteína muscular depois de treino de corpo inteiro: com 25 gramas, a resposta sobe e volta; com 100 gramas, a resposta é maior e mais longa, e passou de 12 horas. À direita, a conduta: refeição grande não é desperdício; 0,25 grama por quilo ou 20 a 40 gramas a cada 3 a 4 horas; a janela pós-treino é larga, salvo quem treina em jejum\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"60\" y1=\"320\" x2=\"900\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M60 320 L75 274 L90 243 L105 222 L120 210 L135 202 L150 199 L165 199 L180 201 L195 204 L210 209 L225 213 L240 219 L255 224 L270 230 L285 235 L300 240 L315 245 L330 250 L345 254 L360 259 L375 263 L390 267 L405 270 L420 273 L435 277 L450 280 L465 282 L480 285 L495 287 L510 290 L525 292 L540 294 L555 295 L570 297 L585 299 L600 300 L615 302 L630 303 L645 304 L660 305 L675 306 L690 307 L705 308 L720 309 L735 310 L750 310 L765 311 L780 312 L795 312 L810 313 L825 313 L840 314 L855 314 L870 315 L885 315 L900 315\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"5\"/><path d=\"M60 320 L75 250 L90 198 L105 158 L120 128 L135 106 L150 90 L165 80 L180 73 L195 69 L210 68 L225 68 L240 70 L255 73 L270 76 L285 80 L300 85 L315 90 L330 95 L345 100 L360 105 L375 111 L390 116 L405 121 L420 126 L435 131 L450 136 L465 141 L480 146 L495 151 L510 155 L525 160 L540 164 L555 168 L570 172 L585 176 L600 180 L615 184 L630 188 L645 191 L660 195 L675 198 L690 202 L705 205 L720 208 L735 211 L750 214 L765 217 L780 220 L795 223 L810 225 L825 228 L840 230 L855 233 L870 235 L885 238 L900 240\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"7\"/><line x1=\"780\" y1=\"60\" x2=\"780\" y2=\"320\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"980\" y=\"0\" width=\"684\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1004.0 84.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1004.0 184.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><g transform=\"translate(1004.0 284.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 720,
+     "y": 328,
+     "w": 120,
+     "t": "12 h",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 360,
+     "w": 840,
+     "t": "horas depois do treino",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 70,
+     "w": 360,
+     "t": "100 g: maior e mais longa",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 210,
+     "w": 120,
+     "t": "25 g",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 16,
+     "w": 640,
+     "t": "A conduta",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 88,
+     "w": 580,
+     "t": "refeição grande não é desperdício",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 188,
+     "w": 580,
+     "t": "0,25 g/kg ou 20 a 40 g a cada 3 a 4 h",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 288,
+     "w": 580,
+     "t": "a janela pós-treino é larga, salvo quem treina em jejum",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um experimento de 2023",
    "titulo": "O mito do teto de 30 gramas",
-   "esq": {
-    "t": "O dado",
-    "cor": "petr",
-    "itens": [
-     "25 g contra 100 g depois de treino de corpo inteiro",
-     "100 g: resposta maior e mais longa",
-     "passou de 12 horas"
-    ]
-   },
-   "dir": {
-    "t": "A conduta",
-    "cor": "ambar",
-    "itens": [
-     "refeição grande não é desperdício",
-     "0,25 g/kg ou 20 a 40 g a cada 3 a 4 h",
-     "a janela pós-treino é larga, salvo quem treina em jejum"
-    ]
-   },
    "destaque": "O problema não é o jantar com 60 g. É o café da manhã com 8.",
    "destaque_cor": "verm",
-   "fonte": "Cell Reports Medicine 2023 · Jäger 2017"
+   "fonte": "Curvas: esquema · Trommelen e colaboradores, Cell Reports Medicine 2023 · Jäger e colaboradores 2017"
   },
   {
    "id": "qualidade",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "van Vliet, Burd e van Loon, 2015",
-   "titulo": "Qualidade: o que muda entre as fontes",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três painéis sobre a qualidade da proteína. Digestibilidade: quanto do ingerido é absorvido, menor na fonte vegetal. Aminoácidos essenciais: a lisina limita nos cereais e a metionina nas leguminosas, e o arroz com feijão se completa como duas peças. Leucina: o gatilho da síntese, de 700 a 3.000 miligramas por dose\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"520\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"572\" y=\"0\" width=\"520\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1144\" y=\"0\" width=\"520\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"140\" y=\"130\" width=\"340\" height=\"40\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"140\" y=\"130\" width=\"323\" height=\"40\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"140\" y=\"240\" width=\"340\" height=\"40\" rx=\"8\" fill=\"#C9CFD4\"/><rect x=\"140\" y=\"240\" width=\"272\" height=\"40\" rx=\"8\" fill=\"#008A7E\"/><path d=\"M 632 130 h 160 v 50 a 25 25 0 0 1 0 50 v 50 h -160 z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><path d=\"M 812 130 h 220 v 150 h -220 v -50 a 25 25 0 0 0 0 -50 z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"1184\" y=\"200\" width=\"440\" height=\"50\" rx=\"10\" fill=\"#C9CFD4\"/><rect x=\"1272\" y=\"200\" width=\"289\" height=\"50\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 14,
+     "w": 480,
      "t": "Digestibilidade",
-     "x": "quanto do ingerido é absorvido; menor na vegetal",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 54,
+     "w": 480,
+     "t": "quanto do ingerido é absorvido",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 14,
+     "w": 480,
      "t": "Aminoácidos essenciais",
-     "x": "lisina limita nos cereais, metionina nas leguminosas",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 54,
+     "w": 480,
+     "t": "um completa o que falta no outro",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 14,
+     "w": 480,
      "t": "Leucina",
-     "x": "o gatilho da síntese: 700 a 3.000 mg por dose",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 54,
+     "w": 480,
+     "t": "o gatilho da síntese",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 136,
+     "w": 120,
+     "t": "animal",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 246,
+     "w": 120,
+     "t": "vegetal",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 350,
+     "w": 480,
+     "t": "menor na vegetal",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 300,
+     "w": 340,
+     "t": "barras: esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 632,
+     "y": 180,
+     "w": 160,
+     "t": "arroz",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 842,
+     "y": 180,
+     "w": 190,
+     "t": "feijão",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 300,
+     "w": 480,
+     "t": "cereais: falta lisina",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 334,
+     "w": 480,
+     "t": "leguminosas: falta metionina",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 140,
+     "w": 440,
+     "t": "700 a 3.000 mg por dose",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 262,
+     "w": 60,
+     "t": "0",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1484,
+     "y": 262,
+     "w": 120,
+     "t": "3.500 mg",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 330,
+     "w": 480,
+     "t": "abaixo do limiar, o sinal é fraco",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Uma revisão de 2015",
+   "titulo": "Qualidade: o que muda entre as fontes",
    "destaque": "Vegetariano ganha músculo, com ajuste: um pouco mais por refeição, combinar fontes (arroz com feijão), soja, ovos e laticínios.",
    "destaque_cor": "petr",
-   "fonte": "Journal of Nutrition 2015"
+   "fonte": "van Vliet, Burd e van Loon, Journal of Nutrition 2015"
   },
   {
    "id": "whey",
-   "tipo": "frase",
-   "fundo": "petr",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, uma equação: uma medida de whey é igual a proteína do leite, conveniente e fácil de dosar, nem mágica nem obrigatória. À direita, a troca de pergunta: precisa de whey, riscada; está fechando a conta com comida, no lugar\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 60 140 h 180 l -20 200 h -140 z\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"4\"/><ellipse cx=\"150\" cy=\"140\" rx=\"90\" ry=\"22\" fill=\"#EFE8D8\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M 400 120 h 140 l -14 220 h -112 z\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><path d=\"M 410 170 h 120 l -10 166 h -100 z\" fill=\"#DEE7F1\"/><rect x=\"1000\" y=\"30\" width=\"664\" height=\"140\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1030\" y1=\"150\" x2=\"1634\" y2=\"50\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\"/><rect x=\"1000\" y=\"220\" width=\"664\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 360,
+     "w": 220,
+     "t": "whey",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 270,
+     "y": 200,
+     "w": 80,
+     "t": "=",
+     "tam": 60,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 360,
+     "w": 220,
+     "t": "proteína do leite",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 120,
+     "w": 360,
+     "t": "conveniente, fácil de dosar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 210,
+     "w": 360,
+     "t": "não é mágica nem obrigatória",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 76,
+     "w": 664,
+     "t": "“Precisa de whey?”",
+     "tam": 34,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1020,
+     "y": 252,
+     "w": 624,
+     "t": "“Está fechando a conta com comida?”",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    }
+   ],
    "eyebrow": "O suplemento de proteína",
-   "frase": "Whey é comida em pó.",
-   "apoio": "Proteína do leite, conveniente, fácil de dosar. Não é mágica nem obrigatória. A pergunta não é “precisa de whey?”. É “está fechando a conta com comida?”."
+   "titulo": "Whey é comida em pó"
   },
   {
    "id": "idoso",
@@ -324,67 +811,346 @@
   },
   {
    "id": "carga",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três barreiras do idoso, cada uma ligada ao que resolve. Apetite menor e saciedade precoce: ovos, leite, iogurte e queijo, que cabem em pouco volume. Mastigação e prótese: carne moída ou desfiada, e peixe. Custo da carne e morar sozinho: leguminosas bem cozidas, e ovos\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"50\" width=\"700\" height=\"96\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(20.0 72.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01M9 15h6\"/></g><line x1=\"708\" y1=\"98\" x2=\"956\" y2=\"98\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"964\" y=\"50\" width=\"700\" height=\"96\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"166\" width=\"700\" height=\"96\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(20.0 188.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01\"/><path d=\"M9.5 16a10 10 0 0 1 6-1.5\"/></g></g><line x1=\"708\" y1=\"214\" x2=\"956\" y2=\"214\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"964\" y=\"166\" width=\"700\" height=\"96\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"282\" width=\"700\" height=\"96\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(20.0 304.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 12H3l9-9l9 9h-2M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7\"/><path d=\"M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6\"/></g></g><line x1=\"708\" y1=\"330\" x2=\"956\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"964\" y=\"282\" width=\"700\" height=\"96\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 700,
+     "t": "Barreiras",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 964,
+     "y": 0,
+     "w": 700,
+     "t": "O que resolve",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 80,
+     "w": 590,
+     "t": "apetite menor, saciedade precoce",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 80,
+     "w": 650,
+     "t": "ovos, leite, iogurte, queijo",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 196,
+     "w": 590,
+     "t": "mastigação e prótese",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 196,
+     "w": 650,
+     "t": "carne moída ou desfiada, peixe",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 312,
+     "w": 590,
+     "t": "custo da carne, morar sozinho",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 312,
+     "w": 650,
+     "t": "leguminosas bem cozidas, ovos",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Carga primeiro, proteína junto",
    "titulo": "O problema do idoso é textura e logística",
-   "esq": {
-    "t": "Barreiras",
-    "cor": "ambar",
-    "itens": [
-     "apetite menor, saciedade precoce",
-     "mastigação e prótese",
-     "custo da carne, morar sozinho"
-    ]
-   },
-   "dir": {
-    "t": "O que resolve",
-    "cor": "petr",
-    "itens": [
-     "ovos, leite, iogurte, queijo",
-     "carne moída ou desfiada, peixe",
-     "leguminosas bem cozidas"
-    ]
-   },
    "destaque": "Rim: com função normal, sem sinal de dano nestas faixas. Com doença renal, a decisão é médica, e quem descarta é o exame.",
    "destaque_cor": "tinta"
   },
   {
    "id": "perfis",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três linhas sobre a mesma régua de proteína, de zero a quatro gramas por quilo. A vegetariana de 58 quilos está em 1,5 com 87 gramas por dia, mas com 8 gramas no café da manhã: o problema é a distribuição, e a conduta é quatro refeições de 20 a 25 gramas, com o total um pouco maior. O idoso de 65 quilos que começou a treinar está em 0,9, com 58 gramas: total baixo, e a conduta é 26 gramas três vezes ao dia, com textura. O jovem de 80 quilos está em 3,5, com 280 gramas: total alto, e a conduta é cerca de 2 gramas por quilo, com espaço para o carboidrato\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"520\" y1=\"40\" x2=\"520\" y2=\"384\" stroke=\"#D9D4C8\" stroke-width=\"1\"/><line x1=\"665\" y1=\"40\" x2=\"665\" y2=\"384\" stroke=\"#D9D4C8\" stroke-width=\"1\"/><line x1=\"810\" y1=\"40\" x2=\"810\" y2=\"384\" stroke=\"#D9D4C8\" stroke-width=\"1\"/><line x1=\"955\" y1=\"40\" x2=\"955\" y2=\"384\" stroke=\"#D9D4C8\" stroke-width=\"1\"/><line x1=\"1100\" y1=\"40\" x2=\"1100\" y2=\"384\" stroke=\"#D9D4C8\" stroke-width=\"1\"/><rect x=\"752\" y=\"40\" width=\"87\" height=\"344\" fill=\"#DDEFEC\"/><line x1=\"520\" y1=\"90\" x2=\"1100\" y2=\"90\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><circle cx=\"738\" cy=\"90\" r=\"15\" fill=\"#B07A1C\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><rect x=\"1150\" y=\"56\" width=\"514\" height=\"88\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"520\" y1=\"202\" x2=\"1100\" y2=\"202\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 650 202 L 684 202\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"650\" cy=\"202\" r=\"15\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><rect x=\"1150\" y=\"168\" width=\"514\" height=\"88\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"520\" y1=\"314\" x2=\"1100\" y2=\"314\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 1028 314 L 820 314\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"1028\" cy=\"314\" r=\"15\" fill=\"#3A6EA5\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><rect x=\"1150\" y=\"280\" width=\"514\" height=\"88\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 520,
+     "y": 0,
+     "w": 580,
+     "t": "g por kg por dia",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 392,
+     "w": 40,
+     "t": "0",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 645,
+     "y": 392,
+     "w": 40,
+     "t": "1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 392,
+     "w": 40,
+     "t": "2",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 935,
+     "y": 392,
+     "w": 40,
+     "t": "3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 392,
+     "w": 40,
+     "t": "4",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 60,
+     "w": 500,
+     "t": "Vegetariana, 58 kg",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 96,
+     "w": 500,
+     "t": "87 g/dia; 8 g no café",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 688,
+     "y": 52,
+     "w": 100,
+     "t": "1,5",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 64,
+     "w": 480,
+     "t": "distribuição",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 100,
+     "w": 480,
+     "t": "4 × 20 a 25 g, total um pouco maior",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 172,
+     "w": 500,
+     "t": "Idoso, 65 kg, começou a treinar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 208,
+     "w": 500,
+     "t": "58 g/dia",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 164,
+     "w": 100,
+     "t": "0,9",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 176,
+     "w": 480,
+     "t": "total baixo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 212,
+     "w": 480,
+     "t": "26 g × 3, com textura",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 284,
+     "w": 500,
+     "t": "Jovem, 80 kg",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 320,
+     "w": 500,
+     "t": "280 g/dia",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 978,
+     "y": 276,
+     "w": 100,
+     "t": "3,5",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 288,
+     "w": 480,
+     "t": "total alto",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 324,
+     "w": 480,
+     "t": "≈ 2 g/kg e espaço ao carboidrato",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "As três perguntas aplicadas",
    "titulo": "O mesmo número, três condutas",
-   "cab": [
-    "Perfil",
-    "A conta",
-    "O problema",
-    "Conduta"
-   ],
-   "larguras": [
-    24,
-    26,
-    22,
-    28
-   ],
-   "linhas": [
-    [
-     "Vegetariana, 58 kg",
-     "87 g/dia, 1,5 g/kg; 8 g no café",
-     "distribuição",
-     "4 × 20 a 25 g, total um pouco maior"
-    ],
-    [
-     "Idoso, 65 kg, começou a treinar",
-     "58 g/dia, 0,9 g/kg",
-     "total baixo",
-     "26 g × 3, com textura"
-    ],
-    [
-     "Jovem, 80 kg",
-     "280 g/dia, 3,5 g/kg",
-     "total alto",
-     "≈ 2 g/kg e espaço ao carboidrato"
-    ]
-   ],
    "destaque": "No primeiro, o total estava certo e a distribuição errada. No segundo, o total baixo. No terceiro, alto demais para o objetivo.",
    "destaque_cor": "petr"
   },

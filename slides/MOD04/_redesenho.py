@@ -679,12 +679,332 @@ def perfis():
 
 
 
+# ---------------------------------------------------------------- 4.5
+
+def tres():
+    """4.5: os três números de proteína numa régua de gramas por quilo."""
+    p = [svg_abre(1664, 380, "Uma régua de proteína em gramas por quilo por dia, de zero a três. Em 0,8, o piso populacional contra deficiência, que não é meta para quem treina. Em 1,6, o platô do ganho de massa livre de gordura com treino de força. Em 2,2, o limite superior do intervalo desse platô; a faixa entre 1,6 e 2,2 está sombreada")]
+    X0, X1, Y = 40, 1624, 200
+    X = lambda v: X0 + v / 3 * (X1 - X0)
+    p.append(f'<rect x="{X(1.6):.0f}" y="{Y - 30}" width="{X(2.2) - X(1.6):.0f}" height="60" fill="{OXID_T}"/>')
+    p.append(f'<line x1="{X0}" y1="{Y}" x2="{X1}" y2="{Y}" stroke="{MUDO}" stroke-width="4"/>')
+    rs = []
+    for v in (0, 1, 2, 3):
+        p.append(f'<line x1="{X(v):.0f}" y1="{Y - 8}" x2="{X(v):.0f}" y2="{Y + 8}" stroke="{MUDO}" stroke-width="3"/>')
+        rs.append(rot(X(v) - 30, Y + 44, str(v), w=60, tam=20, cor=MUDO, alinha="center"))
+    marcos = [(0.8, "0,8", "piso populacional contra deficiência", "não é meta para quem treina", TINTA, -1),
+              (1.6, "1,6", "platô do ganho de massa livre de gordura", "com treino de força", OXID, 1),
+              (2.2, "2,2", "limite superior do intervalo", "desse platô", GLIC, -1)]
+    for v, n, t, d, cor, lado in marcos:
+        p.append(f'<circle cx="{X(v):.0f}" cy="{Y}" r="16" fill="{cor}" stroke="{CARTAO}" stroke-width="3"/>')
+        y = 10 if lado < 0 else 260
+        p.append(f'<line x1="{X(v):.0f}" y1="{Y - 18 if lado < 0 else Y + 18}" x2="{X(v):.0f}" y2="{y + 100 if lado < 0 else y}" stroke="{cor}" stroke-width="2"/>')
+        rs += [rot(X(v) - 230, y, n, w=460, tam=40, cor=cor, peso=700, alinha="center", serif=True),
+               rot(X(v) - 230, y + 50 if lado < 0 else y + 50, t, w=460, tam=21, cor=TINTA, alinha="center")]
+        if lado < 0:
+            rs.append(rot(X(v) - 230, y + 76, d, w=460, tam=19, cor=MUDO, alinha="center"))
+        else:
+            rs.append(rot(X(v) - 230, y + 78, d, w=460, tam=19, cor=MUDO, alinha="center"))
+    rs.append(rot(X1 - 420, Y + 70, "g por kg por dia", w=420, tam=20, cor=MUDO, alinha="right"))
+    return slide("tres", 380, p, rs,
+                 eyebrow="Três números que todo mundo mistura", titulo="Gramas por quilo por dia",
+                 destaque="“A recomendação oficial é 0,8, o resto é exagero”: o número certo para a pergunta errada.",
+                 destaque_cor="tinta")
+
+
+def teto():
+    """4.5: 25 contra 100 gramas: a resposta maior e mais longa, e a conduta."""
+    import math
+    p = [svg_abre(1664, 400, "À esquerda, curvas esquemáticas de síntese de proteína muscular depois de treino de corpo inteiro: com 25 gramas, a resposta sobe e volta; com 100 gramas, a resposta é maior e mais longa, e passou de 12 horas. À direita, a conduta: refeição grande não é desperdício; 0,25 grama por quilo ou 20 a 40 gramas a cada 3 a 4 horas; a janela pós-treino é larga, salvo quem treina em jejum")]
+    X0, X1, Yb = 60, 900, 320
+    p.append(f'<line x1="{X0}" y1="{Yb}" x2="{X1}" y2="{Yb}" stroke="{MUDO}" stroke-width="2"/><line x1="{X0}" y1="40" x2="{X0}" y2="{Yb}" stroke="{MUDO}" stroke-width="2"/>')
+    def curva(amp, larg, cor, esp):
+        pts = [(h, amp * (1 - math.exp(-h / 1.2)) * math.exp(-h / larg)) for h in [x / 4 for x in range(0, 57)]]
+        d = "M" + " L".join(f"{X0 + h / 14 * (X1 - X0):.0f} {Yb - v:.0f}" for h, v in pts)
+        p.append(f'<path d="{d}" fill="none" stroke="{cor}" stroke-width="{esp}"/>')
+    curva(260, 3.5, MUDO, 5)
+    curva(380, 9, OXID, 7)
+    x12 = X0 + 12 / 14 * (X1 - X0)
+    p.append(f'<line x1="{x12:.0f}" y1="60" x2="{x12:.0f}" y2="{Yb}" stroke="{TINTA}" stroke-width="2"{TRACO}/>')
+    rs = [rot(x12 - 60, Yb + 8, "12 h", w=120, tam=20, cor=TINTA, peso=700, alinha="center"),
+          rot(X0, Yb + 40, "horas depois do treino", w=X1 - X0, tam=20, cor=MUDO, alinha="center"),
+          rot(330, 70, "100 g: maior e mais longa", w=360, tam=22, cor=OXID, peso=700),
+          rot(160, 210, "25 g", w=120, tam=22, cor=MUDO, peso=700)]
+    p.append(caixa(980, 0, 684, 400, OXID, OXID_T, esp=3, rx=16))
+    rs.append(rot(1004, 16, "A conduta", w=640, tam=28, cor=OXID, peso=700, serif=True))
+    cond = [("t:check", "refeição grande não é desperdício"), ("t:clock", "0,25 g/kg ou 20 a 40 g a cada 3 a 4 h"),
+            ("t:door", "a janela pós-treino é larga, salvo quem treina em jejum")]
+    for k, (ic, t) in enumerate(cond):
+        y = 84 + k * 100
+        p.append(icone(ic, 1004, y, 44, OXID))
+        rs.append(rot(1064, y + 4, t, w=580, tam=23, cor=TINTA, lh=1.25))
+    return slide("teto", 400, p, rs,
+                 eyebrow="Um experimento de 2023", titulo="O mito do teto de 30 gramas",
+                 destaque="O problema não é o jantar com 60 g. É o café da manhã com 8.", destaque_cor="verm",
+                 fonte="Curvas: esquema · Trommelen e colaboradores, Cell Reports Medicine 2023 · Jäger e colaboradores 2017")
+
+
+def qualidade():
+    """4.5: digestibilidade, aminoácidos que se completam e o gatilho da leucina."""
+    p = [svg_abre(1664, 400, "Três painéis sobre a qualidade da proteína. Digestibilidade: quanto do ingerido é absorvido, menor na fonte vegetal. Aminoácidos essenciais: a lisina limita nos cereais e a metionina nas leguminosas, e o arroz com feijão se completa como duas peças. Leucina: o gatilho da síntese, de 700 a 3.000 miligramas por dose")]
+    W = 520
+    rs = []
+    tits = [("Digestibilidade", "quanto do ingerido é absorvido", TINTA), ("Aminoácidos essenciais", "um completa o que falta no outro", TINTA), ("Leucina", "o gatilho da síntese", GLIC)]
+    for j, (t, d, cor) in enumerate(tits):
+        x = j * (W + 52)
+        p.append(caixa(x, 0, W, 400, cor, CARTAO, esp=3, rx=16))
+        rs += [rot(x + 20, 14, t, w=W - 40, tam=26, cor=cor, peso=700, serif=True), rot(x + 20, 54, d, w=W - 40, tam=20, cor=MUDO)]
+    # 1
+    for k, (t, v, cor) in enumerate([("animal", 0.95, AZUL), ("vegetal", 0.8, OXID)]):
+        y = 130 + k * 110
+        rs.append(rot(20, y + 6, t, w=120, tam=22, cor=cor, peso=700))
+        p.append(f'<rect x="140" y="{y}" width="340" height="40" rx="8" fill="{CINZA}"/>')
+        p.append(f'<rect x="140" y="{y}" width="{340 * v:.0f}" height="40" rx="8" fill="{cor}"/>')
+    rs.append(rot(20, 350, "menor na vegetal", w=480, tam=21, cor=OXID, peso=700))
+    rs.append(rot(140, 300, "barras: esquema", w=340, tam=18, cor=MUDO))
+    # 2 peças
+    x = W + 52
+    p.append(f'<path d="M {x+60} 130 h 160 v 50 a 25 25 0 0 1 0 50 v 50 h -160 z" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="4"/>')
+    p.append(f'<path d="M {x+240} 130 h 220 v 150 h -220 v -50 a 25 25 0 0 0 0 -50 z" fill="{AZUL_T}" stroke="{AZUL}" stroke-width="4"/>')
+    rs += [rot(x + 60, 180, "arroz", w=160, tam=24, cor=GLIC, peso=700, alinha="center"),
+           rot(x + 270, 180, "feijão", w=190, tam=24, cor=AZUL, peso=700, alinha="center"),
+           rot(x + 20, 300, "cereais: falta lisina", w=480, tam=20, cor=TINTA),
+           rot(x + 20, 334, "leguminosas: falta metionina", w=480, tam=20, cor=TINTA)]
+    # 3 limiar de leucina
+    x = 2 * (W + 52)
+    p.append(f'<rect x="{x+40}" y="200" width="440" height="50" rx="10" fill="{CINZA}"/>')
+    p.append(f'<rect x="{x+40 + 440 * 0.7 / 3.5:.0f}" y="200" width="{440 * 2.3 / 3.5:.0f}" height="50" fill="{GLIC}"/>')
+    rs += [rot(x + 40, 140, "700 a 3.000 mg por dose", w=440, tam=26, cor=GLIC, peso=700, alinha="center"),
+           rot(x + 40, 262, "0", w=60, tam=18, cor=MUDO), rot(x + 340, 262, "3.500 mg", w=120, tam=18, cor=MUDO, alinha="right"),
+           rot(x + 20, 330, "abaixo do limiar, o sinal é fraco", w=480, tam=20, cor=TINTA)]
+    return slide("qualidade", 400, p, rs,
+                 eyebrow="Uma revisão de 2015", titulo="Qualidade: o que muda entre as fontes",
+                 destaque="Vegetariano ganha músculo, com ajuste: um pouco mais por refeição, combinar fontes (arroz com feijão), soja, ovos e laticínios.",
+                 destaque_cor="petr", fonte="van Vliet, Burd e van Loon, Journal of Nutrition 2015")
+
+
+def whey():
+    """4.5: o pó que é leite, e a pergunta que muda."""
+    p = [svg_abre(1664, 400, "À esquerda, uma equação: uma medida de whey é igual a proteína do leite, conveniente e fácil de dosar, nem mágica nem obrigatória. À direita, a troca de pergunta: precisa de whey, riscada; está fechando a conta com comida, no lugar")]
+    p.append(f'<path d="M 60 140 h 180 l -20 200 h -140 z" fill="{PAPEL}" stroke="{MUDO}" stroke-width="4"/>')
+    p.append(f'<ellipse cx="150" cy="140" rx="90" ry="22" fill="#EFE8D8" stroke="{MUDO}" stroke-width="3"/>')
+    rs = [rot(40, 360, "whey", w=220, tam=24, cor=MUDO, peso=700, alinha="center"),
+          rot(270, 200, "=", w=80, tam=60, cor=TINTA, peso=700, alinha="center")]
+    p.append(f'<path d="M 400 120 h 140 l -14 220 h -112 z" fill="{CARTAO}" stroke="{AZUL}" stroke-width="4"/>')
+    p.append(f'<path d="M 410 170 h 120 l -10 166 h -100 z" fill="{AZUL_T}"/>')
+    rs += [rot(360, 360, "proteína do leite", w=220, tam=24, cor=AZUL, peso=700, alinha="center"),
+           rot(600, 120, "conveniente, fácil de dosar", w=360, tam=24, cor=TINTA, lh=1.25),
+           rot(600, 210, "não é mágica nem obrigatória", w=360, tam=24, cor=OXID, peso=700, lh=1.25)]
+    p.append(caixa(1000, 30, 664, 140, MUDO, PAPEL, esp=2, rx=16))
+    rs.append(rot(1000, 76, "“Precisa de whey?”", w=664, tam=34, cor=MUDO, peso=700, alinha="center", serif=True))
+    p.append(f'<line x1="1030" y1="150" x2="1634" y2="50" stroke="{FOSF}" stroke-width="6" stroke-linecap="round"/>')
+    p.append(caixa(1000, 220, 664, 150, OXID, OXID_T, esp=4, rx=16))
+    rs.append(rot(1020, 252, "“Está fechando a conta com comida?”", w=624, tam=32, cor=OXID, peso=700, alinha="center", serif=True, lh=1.2))
+    return slide("whey", 400, p, rs,
+                 eyebrow="O suplemento de proteína", titulo="Whey é comida em pó")
+
+
+def carga_45():
+    """4.5: cada barreira do idoso ligada à comida que resolve."""
+    p = [svg_abre(1664, 400, "Três barreiras do idoso, cada uma ligada ao que resolve. Apetite menor e saciedade precoce: ovos, leite, iogurte e queijo, que cabem em pouco volume. Mastigação e prótese: carne moída ou desfiada, e peixe. Custo da carne e morar sozinho: leguminosas bem cozidas, e ovos"), defs(MUDO)]
+    pares = [("t:mood-empty", "apetite menor, saciedade precoce", "ovos, leite, iogurte, queijo"),
+             ("t:mood-confuzed", "mastigação e prótese", "carne moída ou desfiada, peixe"),
+             ("t:home", "custo da carne, morar sozinho", "leguminosas bem cozidas, ovos")]
+    rs = [rot(0, 0, "Barreiras", w=700, tam=26, cor=GLIC, peso=700, serif=True), rot(964, 0, "O que resolve", w=700, tam=26, cor=OXID, peso=700, serif=True)]
+    for k, (ic, b, s_) in enumerate(pares):
+        y = 50 + k * 116
+        p.append(caixa(0, y, 700, 96, GLIC, GLIC_T, esp=3, rx=14))
+        p.append(icone(ic, 20, y + 22, 52, GLIC))
+        rs.append(rot(90, y + 30, b, w=590, tam=24, cor=TINTA))
+        p.append(seta(708, y + 48, 956, y + 48, MUDO, "m0", esp=4))
+        p.append(caixa(964, y, 700, 96, OXID, OXID_T, esp=3, rx=14))
+        rs.append(rot(990, y + 30, s_, w=650, tam=24, cor=OXID, peso=700))
+    return slide("carga", 400, p, rs,
+                 eyebrow="Carga primeiro, proteína junto", titulo="O problema do idoso é textura e logística",
+                 destaque="Rim: com função normal, sem sinal de dano nestas faixas. Com doença renal, a decisão é médica, e quem descarta é o exame.",
+                 destaque_cor="tinta")
+
+
+def perfis_45():
+    """4.5: três pessoas na régua de g/kg, do número de hoje ao da conduta."""
+    p = [svg_abre(1664, 420, "Três linhas sobre a mesma régua de proteína, de zero a quatro gramas por quilo. A vegetariana de 58 quilos está em 1,5 com 87 gramas por dia, mas com 8 gramas no café da manhã: o problema é a distribuição, e a conduta é quatro refeições de 20 a 25 gramas, com o total um pouco maior. O idoso de 65 quilos que começou a treinar está em 0,9, com 58 gramas: total baixo, e a conduta é 26 gramas três vezes ao dia, com textura. O jovem de 80 quilos está em 3,5, com 280 gramas: total alto, e a conduta é cerca de 2 gramas por quilo, com espaço para o carboidrato"), defs(OXID)]
+    X0, X1 = 520, 1100
+    X = lambda v: X0 + v / 4 * (X1 - X0)
+    perf = [("Vegetariana, 58 kg", "87 g/dia; 8 g no café", 1.5, 1.6, "distribuição", "4 × 20 a 25 g, total um pouco maior", GLIC),
+            ("Idoso, 65 kg, começou a treinar", "58 g/dia", 0.9, 1.2, "total baixo", "26 g × 3, com textura", FOSF),
+            ("Jovem, 80 kg", "280 g/dia", 3.5, 2.0, "total alto", "≈ 2 g/kg e espaço ao carboidrato", AZUL)]
+    rs = [rot(X0, 0, "g por kg por dia", w=X1 - X0, tam=20, cor=MUDO, alinha="center")]
+    for v in range(5):
+        rs.append(rot(X(v) - 20, 392, str(v), w=40, tam=18, cor=MUDO, alinha="center"))
+        p.append(f'<line x1="{X(v):.0f}" y1="40" x2="{X(v):.0f}" y2="384" stroke="{GRADE}" stroke-width="1"/>')
+    p.append(f'<rect x="{X(1.6):.0f}" y="40" width="{X(2.2) - X(1.6):.0f}" height="344" fill="{OXID_T}"/>')
+    for k, (t, d, hoje, alvo, prob, cond, cor) in enumerate(perf):
+        y = 56 + k * 112
+        rs += [rot(0, y + 4, t, w=500, tam=24, cor=TINTA, peso=700), rot(0, y + 40, d, w=500, tam=20, cor=MUDO)]
+        p.append(f'<line x1="{X0}" y1="{y + 34}" x2="{X1}" y2="{y + 34}" stroke="{CINZA}" stroke-width="3"/>')
+        if abs(hoje - alvo) > 0.15:
+            p.append(f'<path d="M {X(hoje):.0f} {y + 34} L {X(alvo) + (10 if alvo < hoje else -10):.0f} {y + 34}" stroke="{OXID}" stroke-width="4" marker-end="url(#m0)"/>')
+        p.append(f'<circle cx="{X(hoje):.0f}" cy="{y + 34}" r="15" fill="{cor}" stroke="{CARTAO}" stroke-width="3"/>')
+        rs.append(rot(X(hoje) - 50, y - 4, f"{hoje:.1f}".replace(".", ","), w=100, tam=20, cor=cor, peso=700, alinha="center"))
+        p.append(caixa(1150, y, 514, 88, cor, CARTAO, esp=3, rx=12))
+        rs += [rot(1170, y + 8, prob, w=480, tam=22, cor=cor, peso=700), rot(1170, y + 44, cond, w=480, tam=20, cor=TINTA)]
+    return slide("perfis", 420, p, rs,
+                 eyebrow="As três perguntas aplicadas", titulo="O mesmo número, três condutas",
+                 destaque="No primeiro, o total estava certo e a distribuição errada. No segundo, o total baixo. No terceiro, alto demais para o objetivo.",
+                 destaque_cor="petr")
+
+
+# ---------------------------------------------------------------- 4.6
+
+def erro_46():
+    """4.6: reabilitada no discurso, cortada no prato."""
+    p = [svg_abre(1664, 400, "À esquerda, um balão de fala com azeite, castanha e ovo aprovados: a gordura foi reabilitada no discurso. À direita, um prato em que a fatia de gordura está tracejada e recortada: no prato, ela continua sendo o primeiro macronutriente cortado por quem decide se cuidar. Embaixo, a lembrança de que ela tem um piso")]
+    p.append(f'<path d="M 40 20 h 640 a 30 30 0 0 1 30 30 v 200 a 30 30 0 0 1 -30 30 h -480 l -60 50 l 10 -50 h -110 a 30 30 0 0 1 -30 -30 v -200 a 30 30 0 0 1 30 -30 z" fill="{OXID_T}" stroke="{OXID}" stroke-width="4"/>')
+    rs = [rot(40, 40, "No discurso: reabilitada", w=670, tam=30, cor=OXID, peso=700, alinha="center", serif=True)]
+    for k, t in enumerate(["azeite", "castanha", "ovo"]):
+        x = 90 + k * 200
+        p.append(icone("t:thumb-up", x + 40, 110, 56, OXID))
+        rs.append(rot(x, 180, t, w=140, tam=24, cor=TINTA, alinha="center"))
+    import math
+    cx, cy, r = 1200, 205, 140
+    P = lambda a, dx=0, dy=0: f"{cx + dx + r * math.cos(math.radians(a)):.0f} {cy + dy + r * math.sin(math.radians(a)):.0f}"
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="{r + 28}" fill="{CARTAO}" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<path d="M {cx} {cy} L {P(-30)} A {r} {r} 0 1 1 {P(-90)} Z" fill="{AZUL_T}" stroke="{AZUL}" stroke-width="3"/>')
+    p.append(f'<path d="M {cx + 40} {cy - 30} L {P(-90, 40, -30)} A {r} {r} 0 0 1 {P(-30, 40, -30)} Z" fill="none" stroke="{GLIC}" stroke-width="4" stroke-dasharray="12 8"/>')
+    rs += [rot(cx + 180, 20, "gordura, recortada", w=200, tam=24, cor=GLIC, peso=700, lh=1.2),
+           rot(cx - 120, cy + 30, "no prato: o primeiro corte", w=240, tam=24, cor=TINTA, peso=700, alinha="center", lh=1.2)]
+    return slide("erro", 400, p, rs,
+                 eyebrow="O erro desta aula", titulo="Cortar gordura é comer melhor?",
+                 destaque="E ela tem um piso.", destaque_cor="verm")
+
+
+def rotas():
+    """4.6: três rotas que chegam ao mesmo piso, uma delas saindo do consultório."""
+    p = [svg_abre(1664, 420, "Três rotas que descem até o mesmo lugar, abaixo do piso de gordura. Estética: meses com cerca de 15% da energia em gordura para secar, e libido, humor, sono e testosterona caem. Pureza alimentar: comida limpa, sem óleo nem castanha, sem dieta mas sem densidade, e o ciclo fica irregular. Orientação incompleta: reduza a gordura, sai azeite, castanha e ovo e fica o biscoito recheado; esta saiu de dentro de um consultório"), defs(GLIC, FOSF)]
+    rotas_ = [(0, "t:barbell", "Estética", "meses com ~15% da energia em gordura para “secar”; libido, humor, sono e testosterona caem", GLIC, "m0"),
+              (572, "t:salad", "Pureza alimentar", "“comida limpa”, sem óleo nem castanha; sem dieta, mas sem densidade; o ciclo fica irregular", GLIC, "m0"),
+              (1144, "t:stethoscope", "Orientação incompleta", "“reduza a gordura”: sai azeite, castanha e ovo; fica o biscoito recheado", FOSF, "m1")]
+    rs = []
+    for x, ic, t, d, cor, mk in rotas_:
+        p.append(caixa(x, 0, 520, 230, cor, CARTAO, esp=3, rx=16))
+        p.append(icone(ic, x + 20, 20, 50, cor))
+        rs += [rot(x + 84, 28, t, w=420, tam=26, cor=cor, peso=700, serif=True), rot(x + 20, 90, d, w=480, tam=21, cor=TINTA, lh=1.25)]
+        p.append(f'<path d="M {x + 260} 236 C {x + 260} 300, 832 280, 832 320" fill="none" stroke="{cor}" stroke-width="4" marker-end="url(#{mk})"/>')
+    p.append(caixa(482, 330, 700, 80, FOSF, FOSF_T, esp=3, rx=14))
+    rs += [rot(482, 352, "abaixo do piso", w=700, tam=30, cor=FOSF, peso=700, alinha="center", serif=True),
+           rot(1190, 360, "esta saiu de um consultório", w=470, tam=20, cor=FOSF, peso=700)]
+    return slide("rotas", 420, p, rs,
+                 eyebrow="Três rotas até o piso", titulo="Não é um perfil de paciente. É uma cultura",
+                 destaque="Uma das três rotas saiu de dentro de um consultório.", destaque_cor="tinta")
+
+
+def funcoes():
+    """4.6: cinco funções da gordura em cinco colunas, sem substituto."""
+    p = [svg_abre(1664, 420, "Cinco colunas, cinco funções que só a gordura faz: ácidos graxos essenciais, linoleico e alfa-linolênico, e não existe carboidrato essencial; vitaminas A, D, E e K, porque a salada sem azeite entrega menos; membranas e combustível, o substrato dominante no esforço leve e longo; colesterol e esteroides, uma relação que existe mas não é uma torneira; saciedade e adesão, porque dieta pobre em gordura é mais difícil de manter")]
+    fun = [("t:key", "Ácidos graxos essenciais", "linoleico e alfa-linolênico; não existe carboidrato essencial", OXID),
+           ("t:salad", "Vitaminas A, D, E e K", "a salada sem azeite entrega menos", OXID),
+           ("t:battery-4", "Membranas e combustível", "o substrato dominante no esforço leve e longo", OXID),
+           ("t:adjustments-horizontal", "Colesterol e esteroides", "a relação existe, mas não é uma torneira", GLIC),
+           ("t:mood-smile", "Saciedade e adesão", "dieta pobre em gordura é mais difícil de manter", TINTA)]
+    rs = []
+    W = 304
+    for k, (ic, t, d, cor) in enumerate(fun):
+        x = k * (W + 36)
+        p.append(caixa(x, 0, W, 420, cor, OXID_T if cor == OXID else (GLIC_T if cor == GLIC else PAPEL), esp=3, rx=16))
+        p.append(f'<circle cx="{x + W / 2:.0f}" cy="80" r="50" fill="{CARTAO}" stroke="{cor}" stroke-width="3"/>')
+        p.append(icone(ic, x + W / 2 - 30, 50, 60, cor))
+        rs += [rot(x + 14, 150, t, w=W - 28, tam=24, cor=cor, peso=700, alinha="center", lh=1.15),
+               rot(x + 14, 240, d, w=W - 28, tam=21, cor=TINTA, alinha="center", lh=1.3)]
+    return slide("funcoes", 420, p, rs, eyebrow="O que só a gordura faz", titulo="Cinco funções que não têm substituto")
+
+
+def hormonio():
+    """4.6: o que a meta-análise mostrou, em pontos de efeito, e as ressalvas."""
+    p = [svg_abre(1664, 420, "À esquerda, pontos esquemáticos de efeito da dieta baixa em gordura em 206 homens: testosterona total e livre mais baixas, efeito pequeno a moderado; LH e SHBG sem diferença, sobre a linha do zero. À direita, as ressalvas: estudos pequenos e antigos; fibra, tipo de gordura e calorias mudando junto; errata publicada depois")]
+    p.append(caixa(0, 0, 900, 420, OXID, OXID_T, esp=3, rx=16))
+    rs = [rot(24, 14, "O que a meta-análise mostrou", w=850, tam=26, cor=OXID, peso=700, serif=True),
+          rot(24, 52, "206 homens, estudos de intervenção, dieta baixa em gordura", w=850, tam=20, cor=MUDO)]
+    Z = 640
+    p.append(f'<line x1="{Z}" y1="100" x2="{Z}" y2="360" stroke="{TINTA}" stroke-width="2"/>')
+    efe = [("testosterona total", -0.45, FOSF), ("testosterona livre", -0.55, FOSF), ("LH", 0, MUDO), ("SHBG", 0, MUDO)]
+    for k, (t, e, cor) in enumerate(efe):
+        y = 120 + k * 60
+        rs.append(rot(24, y - 4, t, w=330, tam=22, cor=TINTA, peso=600, alinha="right"))
+        x = Z + e * 400
+        p.append(f'<line x1="{x - 60:.0f}" y1="{y + 10}" x2="{x + 60:.0f}" y2="{y + 10}" stroke="{cor}" stroke-width="4"/>')
+        p.append(f'<rect x="{x - 12:.0f}" y="{y - 2}" width="24" height="24" fill="{cor}"/>')
+    rs += [rot(Z - 380, 370, "mais baixa", w=300, tam=20, cor=FOSF, alinha="center"),
+           rot(Z - 60, 370, "sem diferença", w=200, tam=20, cor=MUDO, alinha="center"),
+           rot(Z + 90, 160, "efeito pequeno a moderado", w=220, tam=20, cor=FOSF, peso=700, lh=1.2)]
+    p.append(caixa(964, 0, 700, 420, GLIC, GLIC_T, esp=3, rx=16))
+    rs.append(rot(988, 14, "As ressalvas", w=650, tam=26, cor=GLIC, peso=700, serif=True))
+    res = [("t:hourglass", "estudos pequenos e antigos"), ("t:arrows-exchange", "fibra, tipo de gordura e calorias mudando junto"), ("t:pencil", "errata publicada depois")]
+    for k, (ic, t) in enumerate(res):
+        y = 90 + k * 100
+        p.append(icone(ic, 988, y, 44, GLIC))
+        rs.append(rot(1048, y + 4, t, w=590, tam=23, cor=TINTA, lh=1.25))
+    return slide("hormonio", 420, p, rs,
+                 eyebrow="O erro espelhado · uma meta-análise de 2021", titulo="Gordura como nutriente dos hormônios?",
+                 destaque="Não se sustenta: mais gordura elevando testosterona acima do normal, gordura saturada “anabólica”, dieta como reposição hormonal.",
+                 destaque_cor="verm", fonte="Pontos: esquema · Whittaker e Wu, Journal of Steroid Biochemistry and Molecular Biology 2021")
+
+
+def densidade():
+    """4.6: três porções pequenas que valem muito, em barras de energia."""
+    p = [svg_abre(1664, 400, "Três porções pequenas e a energia de cada uma em barras: uma colher de sopa de azeite, cerca de 120 quilocalorias; um punhado de castanhas, cerca de 200; duas colheres de pasta de amendoim, cerca de 200. Para quem não consegue comer volume, a comida não precisa ser maior: precisa valer mais")]
+    itens = [("uma colher de sopa de azeite", 120, "t:droplet"), ("um punhado de castanhas", 200, "t:seedling"), ("duas colheres de pasta de amendoim", 200, "t:cookie")]
+    rs = []
+    for k, (t, v, ic) in enumerate(itens):
+        y = 20 + k * 120
+        p.append(f'<circle cx="60" cy="{y + 46}" r="44" fill="{OXID_T}" stroke="{OXID}" stroke-width="3"/>')
+        p.append(icone(ic, 34, y + 20, 52, OXID))
+        rs.append(rot(130, y + 30, t, w=440, tam=24, cor=TINTA, peso=600))
+        p.append(f'<rect x="600" y="{y + 16}" width="{v * 4.2:.0f}" height="60" rx="8" fill="{OXID}"/>')
+        rs.append(rot(600 + v * 4.2 + 20, y + 26, f"≈ {v} kcal", w=240, tam=34, cor=OXID, peso=700, serif=True))
+    p.append(f'<line x1="600" y1="10" x2="600" y2="380" stroke="{MUDO}" stroke-width="2"/>')
+    rs.append(rot(600, 380 - 0, "", w=10, tam=18)); rs.pop()
+    return slide("densidade", 400, p, rs,
+                 eyebrow="A virada prática", titulo="Gordura como ferramenta de densidade",
+                 destaque="Para quem não consegue comer volume, a comida não precisa ser maior. Precisa valer mais. Não é efeito endócrino: é densidade.",
+                 destaque_cor="tinta")
+
+
+def frase_46():
+    """4.6: a frase incompleta e o que ela tira do prato, contra a frase completa."""
+    p = [svg_abre(1664, 400, "À esquerda, a frase incompleta, reduza a gordura: saem azeite, castanha e ovo, riscados, e ficam biscoito e pão doce; o colesterol quase não muda. À direita, a frase completa: reduza a gordura dos industrializados, mantenha azeite, castanha, ovo e peixe, e não fique abaixo do piso")]
+    p.append(caixa(0, 0, 800, 400, FOSF, FOSF_T, esp=3, rx=16))
+    rs = [rot(24, 14, "“Reduza a gordura”", w=760, tam=30, cor=FOSF, peso=700, serif=True)]
+    rs.append(rot(24, 74, "sai o que parece gorduroso", w=360, tam=20, cor=MUDO))
+    for k, t in enumerate(["azeite", "castanha", "ovo"]):
+        y = 110 + k * 60
+        rs.append(rot(24, y, t, w=300, tam=24, cor=TINTA))
+        p.append(f'<line x1="20" y1="{y + 16}" x2="{30 + len(t) * 14}" y2="{y + 16}" stroke="{FOSF}" stroke-width="4"/>')
+    rs.append(rot(420, 74, "fica o que não parece", w=360, tam=20, cor=MUDO))
+    for k, t in enumerate(["biscoito recheado", "pão doce"]):
+        rs.append(rot(420, 110 + k * 60, t, w=360, tam=24, cor=FOSF, peso=700))
+    rs.append(rot(24, 320, "e o colesterol quase não muda", w=760, tam=24, cor=FOSF, peso=700))
+    p.append(caixa(864, 0, 800, 400, OXID, OXID_T, esp=3, rx=16))
+    rs.append(rot(888, 14, "A frase completa", w=760, tam=30, cor=OXID, peso=700, serif=True))
+    comp = [("t:x", "reduza a gordura dos industrializados", FOSF), ("t:check", "mantenha azeite, castanha, ovo e peixe", OXID), ("t:stairs", "não fique abaixo do piso", OXID)]
+    for k, (ic, t, cor) in enumerate(comp):
+        y = 90 + k * 96
+        p.append(icone(ic, 888, y, 44, cor))
+        rs.append(rot(948, y + 6, t, w=690, tam=25, cor=TINTA, peso=600))
+    return slide("frase", 400, p, rs,
+                 eyebrow="A correção: número, momento, qualidade e a frase", titulo="Orientação incompleta produz o oposto",
+                 destaque="Momento: menos gordura perto do treino, não fora do dia. Saturada: o alvo não é zero. Trans industrial: eliminar. Ômega-3: peixe duas vezes por semana antes do suplemento.",
+                 destaque_cor="tinta")
+
+
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"04-01": [equacao, conta_41, revisao, medida, alarme, portas_41, controversia],
           "04-02": [conta_42, ingestao, gasto, massa, erro, semconta, lanche],
           "04-03": [identidade, demais, marchadores, paraquem, comida],
-          "04-04": [decisao, familias, limites, triagem, nunca, perfis]}
+          "04-04": [decisao, familias, limites, triagem, nunca, perfis],
+          "04-05": [tres, teto, qualidade, whey, carga_45, perfis_45],
+          "04-06": [erro_46, rotas, funcoes, hormonio, densidade, frase_46]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

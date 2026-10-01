@@ -116,6 +116,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Três perguntas, nessa ord
                     {"t": "Educador físico", "x": "A carga que dá motivo ao músculo."}],
           "quem": "Total, distribuição e fonte: três perguntas que qualquer profissional sabe fazer."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-05")
+
 spec = {"arquivo": "aulas/MOD04/04-05-proteina-dose-distribuicao-e-qualidade.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Proteína no praticante de exercício", "subtitulo": "Dose diária, distribuição e qualidade",

@@ -103,6 +103,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "As três rotas fechadas", 
                     {"t": "Educador físico e psicólogo", "x": "Carga e volume; restrição com cara de regra moral."}],
           "quem": "A pergunta de todos: você cortou alguma gordura? Qual, e por quê?"})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "04-06")
+
 spec = {"arquivo": "aulas/MOD04/04-06-lipidios-e-o-papel-real-da-gordura.md",
         "modulo": "Nutrição Esportiva", "tema": "petroleo",
         "titulo": "Lipídios na nutrição esportiva", "subtitulo": "Funções, ingestão mínima e interpretações equivocadas",

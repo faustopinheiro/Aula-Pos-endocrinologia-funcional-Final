@@ -22,71 +22,306 @@
  "slides": [
   {
    "id": "erro",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, um balão de fala com azeite, castanha e ovo aprovados: a gordura foi reabilitada no discurso. À direita, um prato em que a fatia de gordura está tracejada e recortada: no prato, ela continua sendo o primeiro macronutriente cortado por quem decide se cuidar. Embaixo, a lembrança de que ela tem um piso\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 40 20 h 640 a 30 30 0 0 1 30 30 v 200 a 30 30 0 0 1 -30 30 h -480 l -60 50 l 10 -50 h -110 a 30 30 0 0 1 -30 -30 v -200 a 30 30 0 0 1 30 -30 z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(130.0 110.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 11v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1za4 4 0 0 0 4-4V6a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1-2 2h-7a3 3 0 0 1-3-3\"/></g><g transform=\"translate(330.0 110.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 11v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1za4 4 0 0 0 4-4V6a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1-2 2h-7a3 3 0 0 1-3-3\"/></g><g transform=\"translate(530.0 110.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 11v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1za4 4 0 0 0 4-4V6a2 2 0 0 1 4 0v5h3a2 2 0 0 1 2 2l-1 5a2 3 0 0 1-2 2h-7a3 3 0 0 1-3-3\"/></g><circle cx=\"1200\" cy=\"205\" r=\"168\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M 1200 205 L 1321 135 A 140 140 0 1 1 1200 65 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 1240 175 L 1240 35 A 140 140 0 0 1 1361 105 Z\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\" stroke-dasharray=\"12 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 40,
+     "w": 670,
+     "t": "No discurso: reabilitada",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 180,
+     "w": 140,
+     "t": "azeite",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 180,
+     "w": 140,
+     "t": "castanha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 490,
+     "y": 180,
+     "w": 140,
+     "t": "ovo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1380,
+     "y": 20,
+     "w": 200,
+     "t": "gordura, recortada",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1080,
+     "y": 235,
+     "w": 240,
+     "t": "no prato: o primeiro corte",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "O erro desta aula",
-   "frase": "Cortar gordura é comer melhor?",
-   "apoio": "A gordura foi reabilitada no discurso. No prato, continua sendo o primeiro macronutriente cortado por quem decide se cuidar. E ela tem um piso."
+   "titulo": "Cortar gordura é comer melhor?",
+   "destaque": "E ela tem um piso.",
+   "destaque_cor": "verm"
   },
   {
    "id": "rotas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Três rotas até o piso",
-   "titulo": "Não é um perfil de paciente. É uma cultura",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três rotas que descem até o mesmo lugar, abaixo do piso de gordura. Estética: meses com cerca de 15% da energia em gordura para secar, e libido, humor, sono e testosterona caem. Pureza alimentar: comida limpa, sem óleo nem castanha, sem dieta mas sem densidade, e o ciclo fica irregular. Orientação incompleta: reduza a gordura, sai azeite, castanha e ovo e fica o biscoito recheado; esta saiu de dentro de um consultório\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(20.0 20.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><path d=\"M 260 236 C 260 300, 832 280, 832 320\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"572\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(592.0 20.0) scale(2.0833)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><path d=\"M 832 236 C 832 300, 832 280, 832 320\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1144\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1164.0 20.0) scale(2.0833)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><path d=\"M 1404 236 C 1404 300, 832 280, 832 320\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"482\" y=\"330\" width=\"700\" height=\"80\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 84,
+     "y": 28,
+     "w": 420,
      "t": "Estética",
-     "x": "meses com ~15% da energia em gordura para “secar”; libido, humor, sono e testosterona caem",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 90,
+     "w": 480,
+     "t": "meses com ~15% da energia em gordura para “secar”; libido, humor, sono e testosterona caem",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 656,
+     "y": 28,
+     "w": 420,
      "t": "Pureza alimentar",
-     "x": "“comida limpa”, sem óleo nem castanha; sem dieta, mas sem densidade; o ciclo fica irregular",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 90,
+     "w": 480,
+     "t": "“comida limpa”, sem óleo nem castanha; sem dieta, mas sem densidade; o ciclo fica irregular",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1228,
+     "y": 28,
+     "w": 420,
      "t": "Orientação incompleta",
-     "x": "“reduza a gordura”: sai azeite, castanha e ovo; fica o biscoito recheado",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 90,
+     "w": 480,
+     "t": "“reduza a gordura”: sai azeite, castanha e ovo; fica o biscoito recheado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 482,
+     "y": 352,
+     "w": 700,
+     "t": "abaixo do piso",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1190,
+     "y": 360,
+     "w": 470,
+     "t": "esta saiu de um consultório",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Três rotas até o piso",
+   "titulo": "Não é um perfil de paciente. É uma cultura",
    "destaque": "Uma das três rotas saiu de dentro de um consultório.",
    "destaque_cor": "tinta"
   },
   {
    "id": "funcoes",
-   "tipo": "lista",
-   "eyebrow": "O que só a gordura faz",
-   "titulo": "Cinco funções que não têm substituto",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Cinco colunas, cinco funções que só a gordura faz: ácidos graxos essenciais, linoleico e alfa-linolênico, e não existe carboidrato essencial; vitaminas A, D, E e K, porque a salada sem azeite entrega menos; membranas e combustível, o substrato dominante no esforço leve e longo; colesterol e esteroides, uma relação que existe mas não é uma torneira; saciedade e adesão, porque dieta pobre em gordura é mais difícil de manter\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"304\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"152\" cy=\"80\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(122.0 50.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1-4.069 0l-.301-.301l-6.558 6.558a2 2 0 0 1-1.239.578L5.172 21H4a1 1 0 0 1-.993-.883L3 20v-1.172a2 2 0 0 1 .467-1.284l.119-.13L4 17h2v-2h2v-2l2.144-2.144l-.301-.301a2.877 2.877 0 0 1 0-4.069l2.643-2.643a2.877 2.877 0 0 1 4.069 0M15 9h.01\"/></g><rect x=\"340\" y=\"0\" width=\"304\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"492\" cy=\"80\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(462.0 50.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"680\" y=\"0\" width=\"304\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"80\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(802.0 50.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4m3-4v4m3-4v4m3-4v4\"/></g><rect x=\"1020\" y=\"0\" width=\"304\" height=\"420\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1172\" cy=\"80\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1142.0 50.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g><rect x=\"1360\" y=\"0\" width=\"304\" height=\"420\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"1512\" cy=\"80\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1482.0 50.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01\"/><path d=\"M9.5 15a3.5 3.5 0 0 0 5 0\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 14,
+     "y": 150,
+     "w": 276,
      "t": "Ácidos graxos essenciais",
-     "x": "linoleico e alfa-linolênico; não existe carboidrato essencial",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
     },
     {
+     "x": 14,
+     "y": 240,
+     "w": 276,
+     "t": "linoleico e alfa-linolênico; não existe carboidrato essencial",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 354,
+     "y": 150,
+     "w": 276,
      "t": "Vitaminas A, D, E e K",
-     "x": "a salada sem azeite entrega menos",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
     },
     {
+     "x": 354,
+     "y": 240,
+     "w": 276,
+     "t": "a salada sem azeite entrega menos",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 694,
+     "y": 150,
+     "w": 276,
      "t": "Membranas e combustível",
-     "x": "o substrato dominante no esforço leve e longo",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
     },
     {
+     "x": 694,
+     "y": 240,
+     "w": 276,
+     "t": "o substrato dominante no esforço leve e longo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1034,
+     "y": 150,
+     "w": 276,
      "t": "Colesterol e esteroides",
-     "x": "a relação existe, mas não é uma torneira",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
     },
     {
+     "x": 1034,
+     "y": 240,
+     "w": 276,
+     "t": "a relação existe, mas não é uma torneira",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1374,
+     "y": 150,
+     "w": 276,
      "t": "Saciedade e adesão",
-     "x": "dieta pobre em gordura é mais difícil de manter",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1374,
+     "y": 240,
+     "w": 276,
+     "t": "dieta pobre em gordura é mais difícil de manter",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 14
+   "eyebrow": "O que só a gordura faz",
+   "titulo": "Cinco funções que não têm substituto"
   },
   {
    "id": "piso",
@@ -191,30 +426,161 @@
   },
   {
    "id": "hormonio",
-   "tipo": "duas",
-   "eyebrow": "O erro espelhado · Whittaker e Wu, 2021",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, pontos esquemáticos de efeito da dieta baixa em gordura em 206 homens: testosterona total e livre mais baixas, efeito pequeno a moderado; LH e SHBG sem diferença, sobre a linha do zero. À direita, as ressalvas: estudos pequenos e antigos; fibra, tipo de gordura e calorias mudando junto; errata publicada depois\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"640\" y1=\"100\" x2=\"640\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"400\" y1=\"130\" x2=\"520\" y2=\"130\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"448\" y=\"118\" width=\"24\" height=\"24\" fill=\"#A8322A\"/><line x1=\"360\" y1=\"190\" x2=\"480\" y2=\"190\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"408\" y=\"178\" width=\"24\" height=\"24\" fill=\"#A8322A\"/><line x1=\"580\" y1=\"250\" x2=\"700\" y2=\"250\" stroke=\"#6B7A87\" stroke-width=\"4\"/><rect x=\"628\" y=\"238\" width=\"24\" height=\"24\" fill=\"#6B7A87\"/><line x1=\"580\" y1=\"310\" x2=\"700\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"4\"/><rect x=\"628\" y=\"298\" width=\"24\" height=\"24\" fill=\"#6B7A87\"/><rect x=\"964\" y=\"0\" width=\"700\" height=\"420\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(988.0 90.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><g transform=\"translate(988.0 190.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><g transform=\"translate(988.0 290.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 20h4L18.5 9.5a2.828 2.828 0 1 0-4-4L4 16zm9.5-13.5l4 4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 14,
+     "w": 850,
+     "t": "O que a meta-análise mostrou",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 52,
+     "w": 850,
+     "t": "206 homens, estudos de intervenção, dieta baixa em gordura",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 116,
+     "w": 330,
+     "t": "testosterona total",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 176,
+     "w": 330,
+     "t": "testosterona livre",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 236,
+     "w": 330,
+     "t": "LH",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 296,
+     "w": 330,
+     "t": "SHBG",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 370,
+     "w": 300,
+     "t": "mais baixa",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 370,
+     "w": 200,
+     "t": "sem diferença",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 730,
+     "y": 160,
+     "w": 220,
+     "t": "efeito pequeno a moderado",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 988,
+     "y": 14,
+     "w": 650,
+     "t": "As ressalvas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1048,
+     "y": 94,
+     "w": 590,
+     "t": "estudos pequenos e antigos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1048,
+     "y": 194,
+     "w": 590,
+     "t": "fibra, tipo de gordura e calorias mudando junto",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1048,
+     "y": 294,
+     "w": 590,
+     "t": "errata publicada depois",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O erro espelhado · uma meta-análise de 2021",
    "titulo": "Gordura como nutriente dos hormônios?",
-   "esq": {
-    "t": "O que a meta-análise mostrou",
-    "cor": "petr",
-    "itens": [
-     "206 homens, estudos de intervenção",
-     "baixa gordura: testosterona total e livre mais baixas",
-     "efeito pequeno a moderado; LH e SHBG iguais"
-    ]
-   },
-   "dir": {
-    "t": "As ressalvas",
-    "cor": "ambar",
-    "itens": [
-     "estudos pequenos e antigos",
-     "fibra, tipo de gordura e calorias mudando junto",
-     "errata publicada depois"
-    ]
-   },
    "destaque": "Não se sustenta: mais gordura elevando testosterona acima do normal, gordura saturada “anabólica”, dieta como reposição hormonal.",
    "destaque_cor": "verm",
-   "fonte": "Journal of Steroid Biochemistry and Molecular Biology 2021"
+   "fonte": "Pontos: esquema · Whittaker e Wu, Journal of Steroid Biochemistry and Molecular Biology 2021"
   },
   {
    "id": "ordem",
@@ -308,52 +674,239 @@
   },
   {
    "id": "densidade",
-   "tipo": "numeros",
-   "eyebrow": "A virada prática",
-   "titulo": "Gordura como ferramenta de densidade",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três porções pequenas e a energia de cada uma em barras: uma colher de sopa de azeite, cerca de 120 quilocalorias; um punhado de castanhas, cerca de 200; duas colheres de pasta de amendoim, cerca de 200. Para quem não consegue comer volume, a comida não precisa ser maior: precisa valer mais\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><circle cx=\"60\" cy=\"66\" r=\"44\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(34.0 40.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"600\" y=\"36\" width=\"504\" height=\"60\" rx=\"8\" fill=\"#008A7E\"/><circle cx=\"60\" cy=\"186\" r=\"44\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(34.0 160.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10a6 6 0 0 0-6-6H3v2a6 6 0 0 0 6 6h3m0 2a6 6 0 0 1 6-6h3v1a6 6 0 0 1-6 6h-3m0 5V10\"/></g><rect x=\"600\" y=\"156\" width=\"840\" height=\"60\" rx=\"8\" fill=\"#008A7E\"/><circle cx=\"60\" cy=\"306\" r=\"44\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(34.0 280.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 13v.01M12 17v.01M12 12v.01M16 14v.01M11 8v.01m2.148-4.534l2.667 1.104a4 4 0 0 0 4.656 6.14l.053.132a3 3 0 0 1 0 2.296Q19.779 14.328 19.5 15q-.283.684-.66 2.216a3 3 0 0 1-1.624 1.623q-1.572.394-2.216.661q-.712.295-1.852 1.024a3 3 0 0 1-2.296 0Q9.649 19.77 9 19.5q-.707-.292-2.216-.66a3 3 0 0 1-1.623-1.624Q4.764 15.639 4.5 15q-.298-.718-1.024-1.852a3 3 0 0 1 0-2.296Q4.195 9.736 4.5 9q.257-.62.66-2.216a3 3 0 0 1 1.624-1.623Q8.331 4.777 9 4.5q.687-.285 1.852-1.024a3 3 0 0 1 2.296 0\"/></g><rect x=\"600\" y=\"276\" width=\"840\" height=\"60\" rx=\"8\" fill=\"#008A7E\"/><line x1=\"600\" y1=\"10\" x2=\"600\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
-     "n": "≈ 120",
-     "x": "kcal numa colher de sopa de azeite",
-     "cor": "petr"
+     "x": 130,
+     "y": 50,
+     "w": 440,
+     "t": "uma colher de sopa de azeite",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "≈ 200",
-     "x": "kcal num punhado de castanhas",
-     "cor": "petr"
+     "x": 1124,
+     "y": 46,
+     "w": 240,
+     "t": "≈ 120 kcal",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "≈ 200",
-     "x": "kcal em duas colheres de pasta de amendoim",
-     "cor": "petr"
+     "x": 130,
+     "y": 170,
+     "w": 440,
+     "t": "um punhado de castanhas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1460,
+     "y": 166,
+     "w": 240,
+     "t": "≈ 200 kcal",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 290,
+     "w": 440,
+     "t": "duas colheres de pasta de amendoim",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1460,
+     "y": 286,
+     "w": 240,
+     "t": "≈ 200 kcal",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     }
    ],
+   "eyebrow": "A virada prática",
+   "titulo": "Gordura como ferramenta de densidade",
    "destaque": "Para quem não consegue comer volume, a comida não precisa ser maior. Precisa valer mais. Não é efeito endócrino: é densidade.",
    "destaque_cor": "tinta"
   },
   {
    "id": "frase",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, a frase incompleta, reduza a gordura: saem azeite, castanha e ovo, riscados, e ficam biscoito e pão doce; o colesterol quase não muda. À direita, a frase completa: reduza a gordura dos industrializados, mantenha azeite, castanha, ovo e peixe, e não fique abaixo do piso\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"20\" y1=\"126\" x2=\"114\" y2=\"126\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"20\" y1=\"186\" x2=\"142\" y2=\"186\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"20\" y1=\"246\" x2=\"72\" y2=\"246\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(888.0 90.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(888.0 186.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(888.0 282.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 14,
+     "w": 760,
+     "t": "“Reduza a gordura”",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 74,
+     "w": 360,
+     "t": "sai o que parece gorduroso",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 110,
+     "w": 300,
+     "t": "azeite",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 170,
+     "w": 300,
+     "t": "castanha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 230,
+     "w": 300,
+     "t": "ovo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 74,
+     "w": 360,
+     "t": "fica o que não parece",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 110,
+     "w": 360,
+     "t": "biscoito recheado",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 170,
+     "w": 360,
+     "t": "pão doce",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 320,
+     "w": 760,
+     "t": "e o colesterol quase não muda",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 14,
+     "w": 760,
+     "t": "A frase completa",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 948,
+     "y": 96,
+     "w": 690,
+     "t": "reduza a gordura dos industrializados",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 948,
+     "y": 192,
+     "w": 690,
+     "t": "mantenha azeite, castanha, ovo e peixe",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 948,
+     "y": 288,
+     "w": 690,
+     "t": "não fique abaixo do piso",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A correção: número, momento, qualidade e a frase",
    "titulo": "Orientação incompleta produz o oposto",
-   "esq": {
-    "t": "“Reduza a gordura”",
-    "cor": "verm",
-    "itens": [
-     "sai o que parece gorduroso: azeite, castanha, ovo",
-     "fica o que não parece: biscoito, pão doce",
-     "o colesterol quase não muda"
-    ]
-   },
-   "dir": {
-    "t": "A frase completa",
-    "cor": "petr",
-    "itens": [
-     "reduza a gordura dos industrializados",
-     "mantenha azeite, castanha, ovo e peixe",
-     "não fique abaixo do piso"
-    ]
-   },
    "destaque": "Momento: menos gordura perto do treino, não fora do dia. Saturada: o alvo não é zero. Trans industrial: eliminar. Ômega-3: peixe duas vezes por semana antes do suplemento.",
    "destaque_cor": "tinta"
   },
