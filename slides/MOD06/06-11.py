@@ -114,6 +114,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "As três decisões, respon
                     {"t": "Todos", "x": "Não distribuem nem emprestam; registram e perguntam."}],
           "quem": "“Só um anti-inflamatório” continua sendo prescrição."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-11")
+
 spec = {"arquivo": "aulas/MOD06/06-11-analgesia-anti-inflamatorios-e-corticoides.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Analgesia no esporte", "subtitulo": "Anti-inflamatórios, corticoides e o que a dor informa",

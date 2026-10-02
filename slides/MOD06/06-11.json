@@ -22,171 +22,875 @@
  "slides": [
   {
    "id": "copa",
-   "tipo": "frase",
-   "fundo": "tinta",
-   "eyebrow": "Copa do Mundo de 2010",
-   "frase": "Até um terço dos jogadores tomou anti-inflamatório antes de cada partida.",
-   "apoio": "Mais da metade usou durante o torneio, segundo as listas declaradas pelos médicos das seleções. O título do trabalho: “lição não aprendida”."
-  },
-  {
-   "id": "decisoes",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "As três decisões da aula",
-   "titulo": "Resolve, esconde, custa",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Dois elencos de doze jogadores, desenhados. À esquerda, antes de cada partida: até um terço tomou anti-inflamatório, quatro de doze destacados. À direita, durante o torneio: mais da metade usou, sete de doze destacados. Fonte: as listas declaradas pelos médicos das seleções na Copa do Mundo de 2010\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(30.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(154.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(278.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(402.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(526.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(650.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(30.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(154.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(278.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(402.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(526.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(650.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><rect x=\"864\" y=\"0\" width=\"800\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(894.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1018.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1142.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1266.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1390.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1514.0 24.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(894.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1018.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1142.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1266.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1390.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(1514.0 134.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g></svg>",
+   "rotulos": [
     {
-     "t": "Véspera de jogo",
-     "x": "o lateral pede “o de sempre” para não sentir o tornozelo",
-     "cor": "verm"
+     "x": 30,
+     "y": 252,
+     "w": 740,
+     "t": "até 1 em 3",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Prova longa e força",
-     "x": "o corredor toma ibuprofeno antes das duas",
-     "cor": "ambar"
+     "x": 30,
+     "y": 310,
+     "w": 740,
+     "t": "tomou anti-inflamatório antes de cada partida",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Três semanas para competir",
-     "x": "a atleta com tendinopatia quer infiltrar",
-     "cor": "petr"
+     "x": 894,
+     "y": 252,
+     "w": 740,
+     "t": "mais da metade",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 894,
+     "y": 310,
+     "w": 740,
+     "t": "usou durante o torneio",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "O que essa medicação resolve, o que ela esconde, e o que ela custa.",
+   "eyebrow": "Copa do Mundo de 2010",
+   "titulo": "Anti-inflamatório antes de cada partida",
+   "destaque": "Segundo as listas declaradas pelos médicos das seleções. O título do trabalho: “lição não aprendida”.",
    "destaque_cor": "tinta"
   },
   {
-   "id": "principio",
-   "tipo": "lista",
-   "eyebrow": "Dor é informação",
-   "titulo": "Três perguntas antes de qualquer analgésico",
-   "itens": [
+   "id": "decisoes",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três decisões, cada uma passada pelas mesmas três perguntas. Véspera de jogo: o lateral pede o de sempre para não sentir o tornozelo. Prova longa e força: o corredor toma ibuprofeno antes das duas. Três semanas para competir: a atleta com tendinopatia quer infiltrar. Embaixo, as três perguntas: o que resolve, o que esconde, o que custa\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"230\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><line x1=\"264\" y1=\"230\" x2=\"264\" y2=\"270\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"230\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(592.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"832\" y1=\"230\" x2=\"832\" y2=\"270\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"230\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1160.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><line x1=\"1400\" y1=\"230\" x2=\"1400\" y2=\"270\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><line x1=\"264\" y1=\"270\" x2=\"1400\" y2=\"270\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"132\" y=\"300\" width=\"400\" height=\"72\" rx=\"36\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><rect x=\"632\" y=\"300\" width=\"400\" height=\"72\" rx=\"36\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><rect x=\"1132\" y=\"300\" width=\"400\" height=\"72\" rx=\"36\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
-     "t": "O que dói, e por quê?",
-     "x": "dor sem diagnóstico é dor sem plano",
-     "cor": "petr"
+     "x": 94,
+     "y": 32,
+     "w": 410,
+     "t": "Véspera de jogo",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Há quanto tempo?",
-     "x": "dor de sete semanas quase nunca se resolve com comprimido",
-     "cor": "ambar"
+     "x": 24,
+     "y": 110,
+     "w": 480,
+     "t": "o lateral pede “o de sempre” para não sentir o tornozelo",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     },
     {
-     "t": "O que muda se a dor sumir?",
-     "x": "se ele vai treinar igual, a medicação não trata: permite",
-     "cor": "verm"
+     "x": 662,
+     "y": 32,
+     "w": 410,
+     "t": "Prova longa e força",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 110,
+     "w": 480,
+     "t": "o corredor toma ibuprofeno antes das duas",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1230,
+     "y": 32,
+     "w": 410,
+     "t": "Três semanas para competir",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 110,
+     "w": 480,
+     "t": "a atleta com tendinopatia quer infiltrar",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 132,
+     "y": 320,
+     "w": 400,
+     "t": "o que resolve",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 632,
+     "y": 320,
+     "w": 400,
+     "t": "o que esconde",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1132,
+     "y": 320,
+     "w": 400,
+     "t": "o que custa",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "As três decisões da aula",
+   "titulo": "Resolve, esconde, custa"
+  },
+  {
+   "id": "principio",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Um filtro de três perguntas, da esquerda para a direita, antes de chegar ao comprimido. O que dói, e por quê? Dor sem diagnóstico é dor sem plano. Há quanto tempo? Dor de sete semanas quase nunca se resolve com comprimido. O que muda se a dor sumir? Se ele vai treinar igual, a medicação não trata: permite\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 0 0.0 H 400 V 380.0 H 0 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"404\" y1=\"190\" x2=\"434\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><path d=\"M 440 30.0 H 840 V 350.0 H 440 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"844\" y1=\"190\" x2=\"874\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><path d=\"M 880 60.0 H 1280 V 320.0 H 880 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1284\" y1=\"190\" x2=\"1314\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"1520\" cy=\"190\" r=\"110\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1470.0 120.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 24,
+     "w": 352,
+     "t": "O que dói, e por quê?",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 130,
+     "w": 352,
+     "t": "dor sem diagnóstico é dor sem plano",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 464,
+     "y": 54,
+     "w": 352,
+     "t": "Há quanto tempo?",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 464,
+     "y": 160,
+     "w": 352,
+     "t": "dor de sete semanas quase nunca se resolve com comprimido",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 904,
+     "y": 84,
+     "w": 352,
+     "t": "O que muda se a dor sumir?",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 904,
+     "y": 190,
+     "w": 352,
+     "t": "se ele vai treinar igual, a medicação não trata: permite",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1420,
+     "y": 236,
+     "w": 200,
+     "t": "só então, o comprimido",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Dor é informação",
+   "titulo": "Três perguntas antes de qualquer analgésico"
   },
   {
    "id": "lateral",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "A véspera de jogo",
-   "titulo": "O anti-inflamatório de sempre: não",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"No centro, o anti-inflamatório de sempre, riscado. Em volta, quatro motivos. Sem racional: não previne lesão, não melhora desempenho, não protege articulação. Tira o sinal: sem o incômodo, ele entra na dividida em que não entraria. O cenário do rim: calor, desidratação e esforço máximo. O vestiário: quem entrega, o quê, em que dose, onde está escrito\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><circle cx=\"832\" cy=\"190\" r=\"120\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(772.0 110.0) scale(5.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><line x1=\"742\" y1=\"280\" x2=\"922\" y2=\"100\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect x=\"0\" y=\"0\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"560\" y1=\"90\" x2=\"712\" y2=\"150\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1104\" y=\"0\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1104\" y1=\"90\" x2=\"952\" y2=\"150\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"200\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"560\" y1=\"290\" x2=\"712\" y2=\"230\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1104\" y=\"200\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1104\" y1=\"290\" x2=\"952\" y2=\"230\" stroke=\"#DDD8CC\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 712,
+     "y": 316,
+     "w": 240,
+     "t": "“o de sempre”",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 22,
+     "w": 510,
      "t": "Sem racional",
-     "x": "não previne lesão, não melhora desempenho, não protege articulação",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 80,
+     "w": 510,
+     "t": "não previne lesão, não melhora desempenho, não protege articulação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1128,
+     "y": 22,
+     "w": 510,
      "t": "Tira o sinal",
-     "x": "sem o incômodo, ele entra na dividida em que não entraria",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1128,
+     "y": 80,
+     "w": 510,
+     "t": "sem o incômodo, ele entra na dividida em que não entraria",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 222,
+     "w": 510,
      "t": "O cenário do rim",
-     "x": "calor, desidratação e esforço máximo",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 280,
+     "w": 510,
+     "t": "calor, desidratação e esforço máximo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1128,
+     "y": 222,
+     "w": 510,
      "t": "O vestiário",
-     "x": "quem entrega, o quê, em que dose, onde está escrito?",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1128,
+     "y": 280,
+     "w": 510,
+     "t": "quem entrega, o quê, em que dose, onde está escrito?",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "A véspera de jogo",
+   "titulo": "O anti-inflamatório de sempre: não",
    "destaque": "No lugar: examinar, ajustar carga, analgesia com diagnóstico e prazo, considerar a via tópica, registrar.",
    "destaque_cor": "petr"
   },
   {
    "id": "nolugar",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, a analgesia com plano, em quatro passos encadeados: examinar o que dói; ajustar a carga e tratar a causa; fármaco, dose, prazo e reavaliação; registrar quem prescreveu e até quando. À direita, em esquema, a via tópica: para dor superficial e localizada, a concentração fica no local, e a exposição sistêmica é bem menor que a do comprimido\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"56\" width=\"900\" height=\"66\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"89\" r=\"20\" fill=\"#008A7E\"/><rect x=\"0\" y=\"138\" width=\"900\" height=\"66\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"171\" r=\"20\" fill=\"#008A7E\"/><rect x=\"0\" y=\"220\" width=\"900\" height=\"66\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"253\" r=\"20\" fill=\"#008A7E\"/><rect x=\"0\" y=\"302\" width=\"900\" height=\"66\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"335\" r=\"20\" fill=\"#008A7E\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1000\" y1=\"330\" x2=\"1640\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1010\" y=\"130\" width=\"110\" height=\"200\" rx=\"4\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"1165\" y=\"290\" width=\"110\" height=\"40\" rx=\"4\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"1350\" y=\"210\" width=\"110\" height=\"120\" rx=\"4\" fill=\"#6B7A87\" opacity=\"0.6\"/><rect x=\"1505\" y=\"180\" width=\"110\" height=\"150\" rx=\"4\" fill=\"#6B7A87\" opacity=\"0.6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 900,
+     "t": "Analgesia com plano",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 74,
+     "w": 40,
+     "t": "1",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 74,
+     "w": 800,
+     "t": "examinar o que dói",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 156,
+     "w": 40,
+     "t": "2",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 156,
+     "w": 800,
+     "t": "ajustar a carga e tratar a causa",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 238,
+     "w": 40,
+     "t": "3",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 238,
+     "w": 800,
+     "t": "fármaco, dose, prazo, reavaliação",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 320,
+     "w": 40,
+     "t": "4",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 320,
+     "w": 800,
+     "t": "registrar quem prescreveu e até quando",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 18,
+     "w": 650,
+     "t": "A via tópica",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 62,
+     "w": 650,
+     "t": "dor superficial e localizada",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 336,
+     "w": 150,
+     "t": "no local",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1145,
+     "y": 336,
+     "w": 150,
+     "t": "no sangue",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1330,
+     "y": 336,
+     "w": 150,
+     "t": "no local",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1485,
+     "y": 336,
+     "w": 150,
+     "t": "no sangue",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 100,
+     "w": 280,
+     "t": "tópico",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 100,
+     "w": 280,
+     "t": "comprimido",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1500,
+     "y": 22,
+     "w": 140,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O que fazer no lugar",
    "titulo": "Paracetamol não é anti-inflamatório",
-   "esq": {
-    "t": "Analgesia com plano",
-    "cor": "petr",
-    "itens": [
-     "examinar o que dói",
-     "ajustar a carga e tratar a causa",
-     "fármaco, dose, prazo, reavaliação",
-     "registrar quem prescreveu e até quando"
-    ]
-   },
-   "dir": {
-    "t": "A via tópica",
-    "cor": "ambar",
-    "itens": [
-     "dor superficial e localizada",
-     "concentração no local",
-     "exposição sistêmica bem menor"
-    ]
-   },
    "destaque": "Quem precisa só de analgesia nem sempre precisa de anti-inflamatório sistêmico.",
    "destaque_cor": "tinta"
   },
   {
    "id": "rim",
-   "tipo": "numeros",
-   "eyebrow": "Os custos do anti-inflamatório sistêmico",
-   "titulo": "Ultramaratona de 80 km, ibuprofeno contra placebo",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, 44 por cento dos corredores de ultramaratona de 80 quilômetros com lesão renal aguda, no conjunto. No meio, duas barras: 52 por cento com ibuprofeno contra 34 por cento com placebo, diferença sem significância estatística num estudo pequeno. À direita, o número necessário para causar um caso: 5,5, desenhado como onze corredores com dois destacados\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"500\" y=\"71\" width=\"140\" height=\"229\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"700\" y=\"150\" width=\"140\" height=\"150\" rx=\"4\" fill=\"#C9CFD4\"/><line x1=\"480\" y1=\"300\" x2=\"880\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"940\" y=\"0\" width=\"724\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(964.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1026.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1088.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1150.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1212.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1274.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1336.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1398.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1460.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1522.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1584.0 200.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#C9CFD4\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g></svg>",
+   "rotulos": [
     {
-     "n": "44%",
-     "x": "dos corredores com lesão renal aguda, no conjunto",
-     "cor": "tinta"
+     "x": 24,
+     "y": 30,
+     "w": 380,
+     "t": "44%",
+     "tam": 80,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "52% × 34%",
-     "x": "ibuprofeno contra placebo, sem significância",
-     "cor": "verm"
+     "x": 24,
+     "y": 160,
+     "w": 370,
+     "t": "dos corredores com lesão renal aguda, no conjunto",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     },
     {
-     "n": "5,5",
-     "x": "corredores tratados para causar um caso",
-     "cor": "ambar"
+     "x": 24,
+     "y": 280,
+     "w": 370,
+     "t": "ultramaratona de 80 km",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 19,
+     "w": 180,
+     "t": "52%",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 308,
+     "w": 180,
+     "t": "ibuprofeno",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 98,
+     "w": 180,
+     "t": "34%",
+     "tam": 36,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 680,
+     "y": 308,
+     "w": 180,
+     "t": "placebo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 480,
+     "y": 336,
+     "w": 420,
+     "t": "sem significância; estudo pequeno",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 20,
+     "w": 200,
+     "t": "5,5",
+     "tam": 64,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 36,
+     "w": 490,
+     "t": "corredores tratados para causar um caso",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 280,
+     "w": 680,
+     "t": "a cada 11 tratados, 2 casos a mais",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Os custos do anti-inflamatório sistêmico",
+   "titulo": "Ultramaratona de 80 km, ibuprofeno contra placebo",
    "destaque": "E ainda: estômago e perda de sangue, que levam à deficiência de ferro; hiponatremia; pressão no adulto mais velho; dose somada por nomes comerciais diferentes.",
    "destaque_cor": "tinta",
    "fonte": "Ensaio randomizado, Emerg Med J 2017"
   },
   {
    "id": "corredor",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Dois painéis. Antes da prova longa: esforço prolongado, calor e desidratação somam-se ao fluxo renal reduzido e ao risco no sódio; não é prevenção, é risco somado. Antes do treino de força: com 1.200 miligramas por dia por oito semanas, menos ganho de força e de massa, desenhado como duas barras de ganho, a do placebo maior; em doses menores o efeito é limitado; o alvo do alerta é o uso crônico e preventivo\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"800\" height=\"380\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"24\" y=\"96\" width=\"752\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"24\" y=\"162\" width=\"752\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"24\" y=\"228\" width=\"752\" height=\"54\" rx=\"27\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"380\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(888.0 20.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"920\" y=\"180\" width=\"130\" height=\"140\" rx=\"4\" fill=\"#C9CFD4\"/><rect x=\"1100\" y=\"230\" width=\"130\" height=\"90\" rx=\"4\" fill=\"#B07A1C\"/><line x1=\"900\" y1=\"320\" x2=\"1260\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 88,
+     "y": 26,
+     "w": 690,
+     "t": "Antes da prova longa",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 44,
+     "y": 109,
+     "w": 712,
+     "t": "esforço prolongado, calor, desidratação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 175,
+     "w": 712,
+     "t": "+ fluxo renal reduzido",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 241,
+     "w": 712,
+     "t": "+ risco no sódio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 310,
+     "w": 752,
+     "t": "não é prevenção: é risco somado",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 952,
+     "y": 26,
+     "w": 690,
+     "t": "Antes do treino de força",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 888,
+     "y": 86,
+     "w": 750,
+     "t": "1.200 mg por dia, 8 semanas: menos ganho de força e de massa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 900,
+     "y": 326,
+     "w": 170,
+     "t": "placebo",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 326,
+     "w": 170,
+     "t": "ibuprofeno",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 152,
+     "w": 360,
+     "t": "ganho, em esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 190,
+     "w": 350,
+     "t": "doses menores: efeito limitado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1290,
+     "y": 260,
+     "w": 350,
+     "t": "o alvo é o uso crônico e preventivo",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "O corredor amador",
    "titulo": "Dois usos ruins, por razões diferentes",
-   "esq": {
-    "t": "Antes da prova longa",
-    "cor": "verm",
-    "itens": [
-     "esforço prolongado, calor, desidratação",
-     "fluxo renal reduzido",
-     "risco no sódio",
-     "não é prevenção: é risco somado"
-    ]
-   },
-   "dir": {
-    "t": "Antes do treino de força",
-    "cor": "ambar",
-    "itens": [
-     "1.200 mg por dia, 8 semanas",
-     "menos ganho de força e de massa",
-     "doses menores: efeito limitado",
-     "o alvo é o uso crônico e preventivo"
-    ]
-   },
    "destaque": "A inflamação depois do treino faz parte do sinal que produz adaptação. Dor recorrente pede técnica, calçado, progressão e força.",
    "destaque_cor": "tinta",
    "fonte": "Ensaio randomizado em adultos jovens, Acta Physiol 2018"
@@ -261,102 +965,430 @@
   },
   {
    "id": "eliminacao",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma linha de dias antes da competição, fora de escala, com marcas em 3, 5, 10 e 60 dias. Oral: a maioria, 3 dias; triancinolona e triancinolona acetonida, 10. Intramuscular: a maioria, 5 dias; prednisolona e prednisona, 10; triancinolona acetonida, 60. Local, articular ou peritendínea: a maioria, 3 dias; prednisolona, prednisona e triancinolonas, 10\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"360\" y1=\"300\" x2=\"1600\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"360\" y1=\"292\" x2=\"360\" y2=\"308\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"580\" y1=\"292\" x2=\"580\" y2=\"308\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"740\" y1=\"292\" x2=\"740\" y2=\"308\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1000\" y1=\"292\" x2=\"1000\" y2=\"308\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1540\" y1=\"292\" x2=\"1540\" y2=\"308\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"360\" y1=\"40\" x2=\"1000\" y2=\"40\" stroke=\"#DDD8CC\" stroke-width=\"6\"/><circle cx=\"580\" cy=\"40\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"1000\" cy=\"40\" r=\"13\" fill=\"#A8322A\"/><line x1=\"360\" y1=\"132\" x2=\"1540\" y2=\"132\" stroke=\"#DDD8CC\" stroke-width=\"6\"/><circle cx=\"740\" cy=\"132\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"1000\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"1540\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><line x1=\"360\" y1=\"224\" x2=\"1000\" y2=\"224\" stroke=\"#DDD8CC\" stroke-width=\"6\"/><circle cx=\"580\" cy=\"224\" r=\"13\" fill=\"#008A7E\"/><circle cx=\"1000\" cy=\"224\" r=\"13\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 310,
+     "y": 314,
+     "w": 100,
+     "t": "0",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 530,
+     "y": 314,
+     "w": 100,
+     "t": "3 dias",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 314,
+     "w": 100,
+     "t": "5 dias",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 314,
+     "w": 100,
+     "t": "10 dias",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1490,
+     "y": 314,
+     "w": 100,
+     "t": "60 dias",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 340,
+     "w": 420,
+     "t": "dias antes da competição · fora de escala",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 24,
+     "w": 340,
+     "t": "Oral",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 450,
+     "y": 58,
+     "w": 260,
+     "t": "a maioria",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 58,
+     "w": 260,
+     "t": "triancinolona, triancinolona acetonida",
+     "tam": 17,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 116,
+     "w": 340,
+     "t": "Intramuscular",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 610,
+     "y": 150,
+     "w": 260,
+     "t": "a maioria",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 150,
+     "w": 260,
+     "t": "prednisolona, prednisona",
+     "tam": 17,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 150,
+     "w": 300,
+     "t": "triancinolona acetonida",
+     "tam": 17,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 208,
+     "w": 340,
+     "t": "Local (articular, peritendínea)",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 450,
+     "y": 242,
+     "w": 260,
+     "t": "a maioria",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 242,
+     "w": 260,
+     "t": "prednisolona, prednisona, triancinolonas",
+     "tam": 17,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Glicocorticoides e antidoping",
    "titulo": "Os períodos de eliminação antes da competição",
-   "cab": [
-    "Via",
-    "A maioria",
-    "As exceções"
-   ],
-   "larguras": [
-    26,
-    22,
-    52
-   ],
-   "linhas": [
-    [
-     "Oral",
-     "3 dias",
-     "10 dias: triancinolona e triancinolona acetonida"
-    ],
-    [
-     "Intramuscular",
-     "5 dias",
-     "10: prednisolona, prednisona; 60: triancinolona acetonida"
-    ],
-    [
-     "Local (articular, peritendínea)",
-     "3 dias",
-     "10: prednisolona, prednisona, triancinolonas"
-    ]
-   ],
    "destaque": "Proibidos em competição por via injetável, oral ou retal. Depósito pode ficar detectável além do prazo, e a lista muda: confira a vigente.",
    "destaque_cor": "verm",
    "fonte": "Lista de substâncias proibidas da WADA, 2026, S9"
   },
   {
    "id": "escada",
-   "tipo": "lista",
-   "eyebrow": "A escada que substitui o comprimido reflexo",
-   "titulo": "A analgesia fica no meio, não na base",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma escada de cinco degraus. Na base, o diagnóstico: o que dói, por quê, há quanto tempo, o que agrava. Depois a carga: volume, intensidade, superfície, calçado e gesto, que são causa e tratamento. Depois a reabilitação ativa, com exercício terapêutico. Só então, no quarto degrau, a analgesia com prazo: fármaco, dose, dias e reavaliação. No topo, reavaliar: o que a analgesia permitiu fazer?\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"250\" width=\"324\" height=\"150\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"333\" y=\"194\" width=\"324\" height=\"206\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"666\" y=\"138\" width=\"324\" height=\"262\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"999\" y=\"82\" width=\"324\" height=\"318\" rx=\"8\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"1332\" y=\"26\" width=\"324\" height=\"374\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 16,
+     "y": 264,
+     "w": 292,
      "t": "Diagnóstico",
-     "x": "o que dói, por quê, há quanto tempo, o que agrava",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 16,
+     "y": 302,
+     "w": 292,
+     "t": "o que dói, por quê, há quanto tempo, o que agrava",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 349,
+     "y": 208,
+     "w": 292,
      "t": "Carga",
-     "x": "volume, intensidade, superfície, calçado, gesto: causa e tratamento",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 349,
+     "y": 246,
+     "w": 292,
+     "t": "volume, intensidade, superfície, calçado, gesto: causa e tratamento",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 682,
+     "y": 152,
+     "w": 292,
      "t": "Reabilitação ativa",
-     "x": "exercício terapêutico",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 682,
+     "y": 190,
+     "w": 292,
+     "t": "exercício terapêutico",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1015,
+     "y": 96,
+     "w": 292,
      "t": "Analgesia com prazo",
-     "x": "fármaco, dose, dias, reavaliação",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1015,
+     "y": 134,
+     "w": 292,
+     "t": "fármaco, dose, dias, reavaliação",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1348,
+     "y": 40,
+     "w": 292,
      "t": "Reavaliar",
-     "x": "o que a analgesia permitiu fazer?",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1348,
+     "y": 78,
+     "w": 292,
+     "t": "o que a analgesia permitiu fazer?",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 40,
+     "w": 900,
+     "t": "examinar, ajustar, reabilitar, e só então medicar com prazo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 16
+   "eyebrow": "A escada que substitui o comprimido reflexo",
+   "titulo": "A analgesia fica no meio, não na base"
   },
   {
    "id": "controle",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Para qualquer clube ou academia",
-   "titulo": "Quatro perguntas de controle",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma prancheta com quatro perguntas de controle para qualquer clube ou academia. Quem prescreve? A prescrição é médica, inclusive a do anti-inflamatório comum. Onde está registrado? Medicação, data, dose e responsável. Ele sabe o que toma? O princípio ativo, não o comprimido branco. Há quanto tempo? A pergunta que revela o uso crônico\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"20\" width=\"1664\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"732\" y=\"0\" width=\"200\" height=\"40\" rx=\"10\" fill=\"#12202E\"/><rect x=\"30\" y=\"70\" width=\"44\" height=\"44\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"850\" y=\"70\" width=\"44\" height=\"44\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"30\" y=\"210\" width=\"44\" height=\"44\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"850\" y=\"210\" width=\"44\" height=\"44\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 94,
+     "y": 74,
+     "w": 720,
      "t": "Quem prescreve?",
-     "x": "prescrição é médica, inclusive a do anti-inflamatório comum",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 94,
+     "y": 120,
+     "w": 720,
+     "t": "prescrição é médica, inclusive a do anti-inflamatório comum",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 914,
+     "y": 74,
+     "w": 720,
      "t": "Onde está registrado?",
-     "x": "medicação, data, dose, responsável",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 914,
+     "y": 120,
+     "w": 720,
+     "t": "medicação, data, dose, responsável",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 94,
+     "y": 214,
+     "w": 720,
      "t": "Ele sabe o que toma?",
-     "x": "o princípio ativo, não o comprimido branco",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 94,
+     "y": 260,
+     "w": 720,
+     "t": "o princípio ativo, não o comprimido branco",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 914,
+     "y": 214,
+     "w": 720,
      "t": "Há quanto tempo?",
-     "x": "a pergunta que revela o uso crônico",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 914,
+     "y": 260,
+     "w": 720,
+     "t": "a pergunta que revela o uso crônico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Para qualquer clube ou academia",
+   "titulo": "Quatro perguntas de controle",
    "destaque": "Analgésico sem data de término vira uso crônico por inércia.",
    "destaque_cor": "tinta"
   },

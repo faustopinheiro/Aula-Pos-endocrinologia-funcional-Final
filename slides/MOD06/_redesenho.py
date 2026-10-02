@@ -2547,6 +2547,223 @@ def fazer_610():
                  destaque="Escreva a pergunta numa frase, padronize a coleta, construa um basal enxuto, e decida o que fazer com cada resultado antes de vê-lo.",
                  destaque_cor="petr")
 
+# ---------------------------------------------------------------- 6.11
+
+def copa_611():
+    """6.11: dois elencos desenhados: um terço antes de cada partida, mais da metade no torneio."""
+    p = [svg_abre(1664, 360, "Dois elencos de doze jogadores, desenhados. À esquerda, antes de cada partida: até um terço tomou anti-inflamatório, quatro de doze destacados. À direita, durante o torneio: mais da metade usou, sete de doze destacados. Fonte: as listas declaradas pelos médicos das seleções na Copa do Mundo de 2010")]
+    rs = []
+    for x0, n, t, d in [(0, 4, "até 1 em 3", "tomou anti-inflamatório antes de cada partida"), (864, 7, "mais da metade", "usou durante o torneio")]:
+        p.append(caixa(x0, 0, 800, 360, FOSF, CARTAO, esp=2, rx=16))
+        for k in range(12):
+            col, lin = k % 6, k // 6
+            p.append(icone("t:shirt-sport", x0 + 30 + col * 124, 24 + lin * 110, 90, FOSF if k < n else CINZA))
+        rs += [rot(x0 + 30, 252, t, w=740, tam=40, cor=FOSF, peso=700, serif=True), rot(x0 + 30, 310, d, w=740, tam=23, cor=TINTA)]
+    return slide("copa", 360, p, rs, eyebrow="Copa do Mundo de 2010", titulo="Anti-inflamatório antes de cada partida",
+                 destaque="Segundo as listas declaradas pelos médicos das seleções. O título do trabalho: “lição não aprendida”.", destaque_cor="tinta")
+
+
+def decisoes_611():
+    """6.11: três decisões passadas pelas mesmas três perguntas: resolve, esconde, custa."""
+    p = [svg_abre(1664, 380, "Três decisões, cada uma passada pelas mesmas três perguntas. Véspera de jogo: o lateral pede o de sempre para não sentir o tornozelo. Prova longa e força: o corredor toma ibuprofeno antes das duas. Três semanas para competir: a atleta com tendinopatia quer infiltrar. Embaixo, as três perguntas: o que resolve, o que esconde, o que custa")]
+    rs = []
+    itens = [("t:calendar", "Véspera de jogo", "o lateral pede “o de sempre” para não sentir o tornozelo", FOSF, FOSF_T),
+             ("t:run", "Prova longa e força", "o corredor toma ibuprofeno antes das duas", GLIC, GLIC_T),
+             ("t:hourglass", "Três semanas para competir", "a atleta com tendinopatia quer infiltrar", OXID, OXID_T)]
+    for k, (ic, t, d, cor, fundo) in enumerate(itens):
+        x = k * 568
+        p.append(caixa(x, 0, 528, 230, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 24, 52, cor))
+        rs += [rot(x + 94, 32, t, w=410, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, 110, d, w=480, tam=23, cor=TINTA, lh=1.3)]
+        p.append(f'<line x1="{x + 264}" y1="230" x2="{x + 264}" y2="270" stroke="{BORDA}" stroke-width="3"/>')
+    p.append(f'<line x1="264" y1="270" x2="1400" y2="270" stroke="{BORDA}" stroke-width="3"/>')
+    for k, t in enumerate(["o que resolve", "o que esconde", "o que custa"]):
+        x = 132 + k * 500
+        p.append(caixa(x, 300, 400, 72, TINTA, TINTA, esp=0, rx=36))
+        rs.append(rot(x, 320, t, w=400, tam=26, cor=PAPEL, peso=700, alinha="center", serif=True))
+    return slide("decisoes", 380, p, rs, eyebrow="As três decisões da aula", titulo="Resolve, esconde, custa")
+
+
+def principio_611():
+    """6.11: três perguntas como um filtro antes do comprimido."""
+    p = [svg_abre(1664, 380, "Um filtro de três perguntas, da esquerda para a direita, antes de chegar ao comprimido. O que dói, e por quê? Dor sem diagnóstico é dor sem plano. Há quanto tempo? Dor de sete semanas quase nunca se resolve com comprimido. O que muda se a dor sumir? Se ele vai treinar igual, a medicação não trata: permite"), defs(MUDO)]
+    rs = []
+    qs = [("O que dói, e por quê?", "dor sem diagnóstico é dor sem plano", OXID, OXID_T),
+          ("Há quanto tempo?", "dor de sete semanas quase nunca se resolve com comprimido", GLIC, GLIC_T),
+          ("O que muda se a dor sumir?", "se ele vai treinar igual, a medicação não trata: permite", FOSF, FOSF_T)]
+    for k, (t, d, cor, fundo) in enumerate(qs):
+        x = k * 440
+        h = 380 - k * 60
+        y = (380 - h) / 2
+        p.append(f'<path d="M {x} {y} H {x + 400} V {y + h} H {x} Z" fill="{fundo}" stroke="{cor}" stroke-width="2"/>')
+        rs += [rot(x + 24, y + 24, t, w=352, tam=27, cor=cor, peso=700, serif=True, lh=1.15), rot(x + 24, y + 130, d, w=352, tam=22, cor=TINTA, lh=1.3)]
+        p.append(seta(x + 404, 190, x + 434, 190, MUDO, "m0", esp=3))
+    p.append(f'<circle cx="1520" cy="190" r="110" fill="{PAPEL}" stroke="{MUDO}" stroke-width="3"{TRACO}/>')
+    p.append(icone("t:pill", 1470, 120, 100, MUDO))
+    rs.append(rot(1420, 236, "só então, o comprimido", w=200, tam=20, cor=MUDO, peso=700, alinha="center", lh=1.2))
+    return slide("principio", 380, p, rs, eyebrow="Dor é informação", titulo="Três perguntas antes de qualquer analgésico")
+
+
+def lateral_611():
+    """6.11: o comprimido de sempre riscado no centro e os quatro motivos em volta."""
+    p = [svg_abre(1664, 380, "No centro, o anti-inflamatório de sempre, riscado. Em volta, quatro motivos. Sem racional: não previne lesão, não melhora desempenho, não protege articulação. Tira o sinal: sem o incômodo, ele entra na dividida em que não entraria. O cenário do rim: calor, desidratação e esforço máximo. O vestiário: quem entrega, o quê, em que dose, onde está escrito")]
+    rs = []
+    p.append(f'<circle cx="832" cy="190" r="120" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="3"/>')
+    p.append(icone("t:pill", 772, 110, 120, FOSF))
+    p.append(f'<line x1="742" y1="280" x2="922" y2="100" stroke="{FOSF}" stroke-width="10" stroke-linecap="round"/>')
+    rs.append(rot(712, 316, "“o de sempre”", w=240, tam=22, cor=FOSF, peso=700, alinha="center"))
+    itens = [((0, 0), "Sem racional", "não previne lesão, não melhora desempenho, não protege articulação", FOSF),
+             ((1104, 0), "Tira o sinal", "sem o incômodo, ele entra na dividida em que não entraria", FOSF),
+             ((0, 200), "O cenário do rim", "calor, desidratação e esforço máximo", GLIC),
+             ((1104, 200), "O vestiário", "quem entrega, o quê, em que dose, onde está escrito?", GLIC)]
+    for (x, y), t, d, cor in itens:
+        p.append(caixa(x, y, 560, 180, cor, CARTAO, esp=2, rx=16))
+        rs += [rot(x + 24, y + 22, t, w=510, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, y + 80, d, w=510, tam=22, cor=TINTA, lh=1.3)]
+        p.append(f'<line x1="{x + 560 if x == 0 else x}" y1="{y + 90}" x2="{832 + (-120 if x == 0 else 120)}" y2="{190 + (-40 if y == 0 else 40)}" stroke="{BORDA}" stroke-width="3"/>')
+    return slide("lateral", 380, p, rs, eyebrow="A véspera de jogo", titulo="O anti-inflamatório de sempre: não",
+                 destaque="No lugar: examinar, ajustar carga, analgesia com diagnóstico e prazo, considerar a via tópica, registrar.", destaque_cor="petr")
+
+
+def nolugar_611():
+    """6.11: a analgesia com plano em quatro passos e a via tópica em esquema."""
+    p = [svg_abre(1664, 380, "À esquerda, a analgesia com plano, em quatro passos encadeados: examinar o que dói; ajustar a carga e tratar a causa; fármaco, dose, prazo e reavaliação; registrar quem prescreveu e até quando. À direita, em esquema, a via tópica: para dor superficial e localizada, a concentração fica no local, e a exposição sistêmica é bem menor que a do comprimido"), defs(MUDO)]
+    rs = []
+    rs.append(rot(0, 0, "Analgesia com plano", w=900, tam=26, cor=OXID, peso=700, serif=True))
+    for k, t in enumerate(["examinar o que dói", "ajustar a carga e tratar a causa", "fármaco, dose, prazo, reavaliação", "registrar quem prescreveu e até quando"]):
+        y = 56 + k * 82
+        p.append(caixa(0, y, 900, 66, OXID, OXID_T, esp=2, rx=14))
+        p.append(f'<circle cx="40" cy="{y + 33}" r="20" fill="{OXID}"/>')
+        rs += [rot(20, y + 18, str(k + 1), w=40, tam=22, cor=PAPEL, peso=700, alinha="center"), rot(76, y + 18, t, w=800, tam=23, cor=TINTA)]
+    p.append(caixa(960, 0, 704, 380, GLIC, CARTAO, esp=2, rx=16))
+    rs += [rot(984, 18, "A via tópica", w=650, tam=26, cor=GLIC, peso=700, serif=True), rot(984, 62, "dor superficial e localizada", w=650, tam=21, cor=TINTA)]
+    Yb = 330
+    p.append(f'<line x1="1000" y1="{Yb}" x2="1640" y2="{Yb}" stroke="{MUDO}" stroke-width="2"/>')
+    barras = [("no local", 200, 170, GLIC), ("no sangue", 40, 170, GLIC), ("no local", 120, 170, MUDO), ("no sangue", 150, 170, MUDO)]
+    for k, (t, h, w, cor) in enumerate(barras):
+        x = 1010 + k * 155 + (30 if k >= 2 else 0)
+        p.append(f'<rect x="{x}" y="{Yb - h}" width="110" height="{h}" rx="4" fill="{cor}" opacity="{1 if cor == GLIC else 0.6}"/>')
+        rs.append(rot(x - 20, Yb + 6, t, w=150, tam=17, cor=MUDO, alinha="center"))
+    rs += [rot(1010, 100, "tópico", w=280, tam=22, cor=GLIC, peso=700, alinha="center"), rot(1350, 100, "comprimido", w=280, tam=22, cor=MUDO, peso=700, alinha="center"),
+           rot(1500, 0 + 22, "esquema", w=140, tam=16, cor=MUDO, alinha="right")]
+    return slide("nolugar", 380, p, rs, eyebrow="O que fazer no lugar", titulo="Paracetamol não é anti-inflamatório",
+                 destaque="Quem precisa só de analgesia nem sempre precisa de anti-inflamatório sistêmico.", destaque_cor="tinta")
+
+
+def rim_611():
+    """6.11: lesão renal na ultramaratona, as duas barras do ensaio e o número para causar um caso."""
+    p = [svg_abre(1664, 360, "À esquerda, 44 por cento dos corredores de ultramaratona de 80 quilômetros com lesão renal aguda, no conjunto. No meio, duas barras: 52 por cento com ibuprofeno contra 34 por cento com placebo, diferença sem significância estatística num estudo pequeno. À direita, o número necessário para causar um caso: 5,5, desenhado como onze corredores com dois destacados")]
+    rs = []
+    p.append(caixa(0, 0, 420, 360, TINTA, CARTAO, esp=2, rx=16))
+    rs += [rot(24, 30, "44%", w=380, tam=80, cor=TINTA, peso=700, serif=True), rot(24, 160, "dos corredores com lesão renal aguda, no conjunto", w=370, tam=23, cor=TINTA, lh=1.3),
+           rot(24, 280, "ultramaratona de 80 km", w=370, tam=20, cor=MUDO)]
+    Yb = 300
+    for k, (t, v, cor) in enumerate([("ibuprofeno", 52, FOSF), ("placebo", 34, CINZA)]):
+        x = 500 + k * 200
+        h = v * 4.4
+        p.append(f'<rect x="{x}" y="{Yb - h:.0f}" width="140" height="{h:.0f}" rx="4" fill="{cor}"/>')
+        rs += [rot(x - 20, Yb - h - 52, f"{v}%", w=180, tam=36, cor=cor if cor != CINZA else MUDO, peso=700, alinha="center", serif=True),
+               rot(x - 20, Yb + 8, t, w=180, tam=20, cor=TINTA, alinha="center")]
+    p.append(f'<line x1="480" y1="{Yb}" x2="880" y2="{Yb}" stroke="{MUDO}" stroke-width="2"/>')
+    rs.append(rot(480, 336, "sem significância; estudo pequeno", w=420, tam=18, cor=MUDO, alinha="center"))
+    p.append(caixa(940, 0, 724, 360, GLIC, GLIC_T, esp=2, rx=16))
+    rs += [rot(964, 20, "5,5", w=200, tam=64, cor=GLIC, peso=700, serif=True), rot(1150, 36, "corredores tratados para causar um caso", w=490, tam=23, cor=TINTA, lh=1.25)]
+    for k in range(11):
+        x = 964 + k * 62
+        p.append(icone("t:run", x, 200, 56, FOSF if k in (4, 9) else CINZA))
+    rs.append(rot(964, 280, "a cada 11 tratados, 2 casos a mais", w=680, tam=21, cor=TINTA))
+    return slide("rim", 360, p, rs, eyebrow="Os custos do anti-inflamatório sistêmico", titulo="Ultramaratona de 80 km, ibuprofeno contra placebo",
+                 destaque="E ainda: estômago e perda de sangue, que levam à deficiência de ferro; hiponatremia; pressão no adulto mais velho; dose somada por nomes comerciais diferentes.",
+                 destaque_cor="tinta", fonte="Ensaio randomizado, Emerg Med J 2017")
+
+
+def corredor_611():
+    """6.11: os dois usos ruins: antes da prova longa e antes do treino de força."""
+    p = [svg_abre(1664, 380, "Dois painéis. Antes da prova longa: esforço prolongado, calor e desidratação somam-se ao fluxo renal reduzido e ao risco no sódio; não é prevenção, é risco somado. Antes do treino de força: com 1.200 miligramas por dia por oito semanas, menos ganho de força e de massa, desenhado como duas barras de ganho, a do placebo maior; em doses menores o efeito é limitado; o alvo do alerta é o uso crônico e preventivo"), defs(FOSF)]
+    rs = []
+    p.append(caixa(0, 0, 800, 380, FOSF, FOSF_T, esp=2, rx=16))
+    p.append(icone("t:run", 24, 20, 48, FOSF))
+    rs.append(rot(88, 26, "Antes da prova longa", w=690, tam=26, cor=FOSF, peso=700, serif=True))
+    for k, t in enumerate(["esforço prolongado, calor, desidratação", "+ fluxo renal reduzido", "+ risco no sódio"]):
+        y = 96 + k * 66
+        p.append(caixa(24, y, 752, 54, FOSF, CARTAO, esp=2, rx=27))
+        rs.append(rot(44, y + 13, t, w=712, tam=22, cor=TINTA))
+    rs.append(rot(24, 310, "não é prevenção: é risco somado", w=752, tam=24, cor=FOSF, peso=700))
+    p.append(caixa(864, 0, 800, 380, GLIC, GLIC_T, esp=2, rx=16))
+    p.append(icone("t:barbell", 888, 20, 48, GLIC))
+    rs += [rot(952, 26, "Antes do treino de força", w=690, tam=26, cor=GLIC, peso=700, serif=True),
+           rot(888, 86, "1.200 mg por dia, 8 semanas: menos ganho de força e de massa", w=750, tam=22, cor=TINTA, lh=1.3)]
+    Yb = 320
+    for k, (t, h, cor) in enumerate([("placebo", 140, CINZA), ("ibuprofeno", 90, GLIC)]):
+        x = 920 + k * 180
+        p.append(f'<rect x="{x}" y="{Yb - h}" width="130" height="{h}" rx="4" fill="{cor}"/>')
+        rs.append(rot(x - 20, Yb + 6, t, w=170, tam=19, cor=TINTA, alinha="center"))
+    p.append(f'<line x1="900" y1="{Yb}" x2="1260" y2="{Yb}" stroke="{MUDO}" stroke-width="2"/>')
+    rs += [rot(900, 152, "ganho, em esquema", w=360, tam=17, cor=MUDO),
+           rot(1290, 190, "doses menores: efeito limitado", w=350, tam=21, cor=TINTA, lh=1.3),
+           rot(1290, 260, "o alvo é o uso crônico e preventivo", w=350, tam=21, cor=GLIC, peso=700, lh=1.3)]
+    return slide("corredor", 380, p, rs, eyebrow="O corredor amador", titulo="Dois usos ruins, por razões diferentes",
+                 destaque="A inflamação depois do treino faz parte do sinal que produz adaptação. Dor recorrente pede técnica, calçado, progressão e força.",
+                 destaque_cor="tinta", fonte="Ensaio randomizado em adultos jovens, Acta Physiol 2018")
+
+
+def eliminacao_611():
+    """6.11: os períodos de eliminação por via, numa linha de dias fora de escala."""
+    p = [svg_abre(1664, 360, "Uma linha de dias antes da competição, fora de escala, com marcas em 3, 5, 10 e 60 dias. Oral: a maioria, 3 dias; triancinolona e triancinolona acetonida, 10. Intramuscular: a maioria, 5 dias; prednisolona e prednisona, 10; triancinolona acetonida, 60. Local, articular ou peritendínea: a maioria, 3 dias; prednisolona, prednisona e triancinolonas, 10")]
+    rs = []
+    X0 = 360
+    pos = {0: X0, 3: X0 + 220, 5: X0 + 380, 10: X0 + 640, 60: X0 + 1180}
+    p.append(f'<line x1="{X0}" y1="300" x2="{X0 + 1240}" y2="300" stroke="{MUDO}" stroke-width="3"/>')
+    for d, x in pos.items():
+        p.append(f'<line x1="{x}" y1="292" x2="{x}" y2="308" stroke="{MUDO}" stroke-width="3"/>')
+        rs.append(rot(x - 50, 314, f"{d} dias" if d else "0", w=100, tam=18, cor=MUDO, alinha="center"))
+    rs.append(rot(X0 + 880, 340, "dias antes da competição · fora de escala", w=420, tam=16, cor=MUDO, alinha="right"))
+    vias = [("Oral", [(3, "a maioria", OXID), (10, "triancinolona, triancinolona acetonida", FOSF)]),
+            ("Intramuscular", [(5, "a maioria", OXID), (10, "prednisolona, prednisona", FOSF), (60, "triancinolona acetonida", FOSF)]),
+            ("Local (articular, peritendínea)", [(3, "a maioria", OXID), (10, "prednisolona, prednisona, triancinolonas", FOSF)])]
+    for i, (t, marcas) in enumerate(vias):
+        y = 10 + i * 92
+        rs.append(rot(0, y + 14, t, w=340, tam=23, cor=TINTA, peso=700, lh=1.15))
+        p.append(f'<line x1="{X0}" y1="{y + 30}" x2="{pos[max(d for d, _, _ in marcas)]}" y2="{y + 30}" stroke="{BORDA}" stroke-width="6"/>')
+        for d, lab, cor in marcas:
+            x = pos[d]
+            p.append(f'<circle cx="{x}" cy="{y + 30}" r="13" fill="{cor}"/>')
+            rs.append(rot(x - 130 if d < 60 else x - 280, y + 48, lab, w=260 if d < 60 else 300, tam=17, cor=cor, peso=700, alinha="center" if d < 60 else "right"))
+    return slide("eliminacao", 360, p, rs, eyebrow="Glicocorticoides e antidoping", titulo="Os períodos de eliminação antes da competição",
+                 destaque="Proibidos em competição por via injetável, oral ou retal. Depósito pode ficar detectável além do prazo, e a lista muda: confira a vigente.",
+                 destaque_cor="verm", fonte="Lista de substâncias proibidas da WADA, 2026, S9")
+
+
+def escada_611():
+    """6.11: cinco degraus, com a analgesia no quarto, não na base."""
+    p = [svg_abre(1664, 400, "Uma escada de cinco degraus. Na base, o diagnóstico: o que dói, por quê, há quanto tempo, o que agrava. Depois a carga: volume, intensidade, superfície, calçado e gesto, que são causa e tratamento. Depois a reabilitação ativa, com exercício terapêutico. Só então, no quarto degrau, a analgesia com prazo: fármaco, dose, dias e reavaliação. No topo, reavaliar: o que a analgesia permitiu fazer?")]
+    rs = []
+    degraus = [("Diagnóstico", "o que dói, por quê, há quanto tempo, o que agrava", OXID), ("Carga", "volume, intensidade, superfície, calçado, gesto: causa e tratamento", OXID),
+               ("Reabilitação ativa", "exercício terapêutico", OXID), ("Analgesia com prazo", "fármaco, dose, dias, reavaliação", GLIC), ("Reavaliar", "o que a analgesia permitiu fazer?", TINTA)]
+    for k, (t, d, cor) in enumerate(degraus):
+        x, w = k * 333, 324
+        y = 250 - k * 56
+        p.append(f'<rect x="{x}" y="{y}" width="{w}" height="{400 - y}" rx="8" fill="{GLIC_T if cor == GLIC else CARTAO}" stroke="{cor}" stroke-width="{4 if cor == GLIC else 2}"/>')
+        rs += [rot(x + 16, y + 14, t, w=w - 32, tam=24, cor=cor, peso=700, serif=True), rot(x + 16, y + 52, d, w=w - 32, tam=20, cor=TINTA, lh=1.25)]
+    rs.append(rot(0, 40, "examinar, ajustar, reabilitar, e só então medicar com prazo", w=900, tam=22, cor=TINTA))
+    return slide("escada", 400, p, rs, eyebrow="A escada que substitui o comprimido reflexo", titulo="A analgesia fica no meio, não na base")
+
+
+def controle_611():
+    """6.11: a prancheta com as quatro perguntas de controle."""
+    p = [svg_abre(1664, 360, "Uma prancheta com quatro perguntas de controle para qualquer clube ou academia. Quem prescreve? A prescrição é médica, inclusive a do anti-inflamatório comum. Onde está registrado? Medicação, data, dose e responsável. Ele sabe o que toma? O princípio ativo, não o comprimido branco. Há quanto tempo? A pergunta que revela o uso crônico")]
+    rs = []
+    p.append(caixa(0, 20, 1664, 340, TINTA, CARTAO, esp=3, rx=16))
+    p.append(f'<rect x="732" y="0" width="200" height="40" rx="10" fill="{TINTA}"/>')
+    itens = [("Quem prescreve?", "prescrição é médica, inclusive a do anti-inflamatório comum", OXID), ("Onde está registrado?", "medicação, data, dose, responsável", OXID),
+             ("Ele sabe o que toma?", "o princípio ativo, não o comprimido branco", GLIC), ("Há quanto tempo?", "a pergunta que revela o uso crônico", FOSF)]
+    for k, (t, d, cor) in enumerate(itens):
+        col, lin = k % 2, k // 2
+        x, y = 30 + col * 820, 70 + lin * 140
+        p.append(f'<rect x="{x}" y="{y}" width="44" height="44" rx="8" fill="{CARTAO}" stroke="{cor}" stroke-width="3"/>')
+        rs += [rot(x + 64, y + 4, t, w=720, tam=27, cor=cor, peso=700, serif=True), rot(x + 64, y + 50, d, w=720, tam=22, cor=TINTA, lh=1.3)]
+    return slide("controle", 360, p, rs, eyebrow="Para qualquer clube ou academia", titulo="Quatro perguntas de controle",
+                 destaque="Analgésico sem data de término vira uso crônico por inércia.", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, sintomas_61, historia_61, perfis_61, tres_saidas_61, registro_61],
@@ -2558,7 +2775,8 @@ LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, s
           "06-07": [perfis_67, numeros_67, mecanismo_67, prevalencia_67, diferenciais_67, laringe_67, camadas_67, aquecimento_67, doses_67, urina_67],
           "06-08": [mensagens_68, leituras_68, pescoco_68, excecoes_68, febre_68, degraus_68, sinais_68, medica_68, rastreio_68, prevencao_68],
           "06-09": [perfil_69, mapa_69, fadiga_69, perguntas_69, pedido_69, estagios_69, armadilhas_69, causa_69, repor_69, veia_69],
-          "06-10": [perfil_610, assimetria_610, ck_610, regua_610, pergunta_610, cascata_610, campeoes_610, paineis_610, contraponto_610, fazer_610]}
+          "06-10": [perfil_610, assimetria_610, ck_610, regua_610, pergunta_610, cascata_610, campeoes_610, paineis_610, contraponto_610, fazer_610],
+          "06-11": [copa_611, decisoes_611, principio_611, lateral_611, nolugar_611, rim_611, corredor_611, eliminacao_611, escada_611, controle_611]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
