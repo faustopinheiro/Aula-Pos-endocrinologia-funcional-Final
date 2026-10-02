@@ -100,6 +100,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Do primeiro dia ao retorno
                     {"t": "Treinador", "x": "Aceita o critério e protege o atleta da pressa."}],
           "quem": "Próxima aula: o tendão, que dói por meses e quase nunca afasta."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-06")
+
 spec = {"arquivo": "aulas/MOD07/07-06-estiramento-muscular-manejo-do-primeiro-dia-ao-retorno.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Manejo do estiramento muscular", "subtitulo": "Do primeiro dia ao retorno",
