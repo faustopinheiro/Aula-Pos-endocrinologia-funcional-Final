@@ -159,12 +159,12 @@ E só o que o colete vê: perguntar pelo que aconteceu fora dele.
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os cinco erros e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os cinco erros e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 GPS mede carga externa, e mede bem o que está no campo de visão dele. A informação boa está na relação com o custo. Aparelhos e limiares diferentes não se comparam. O acelerômetro mede movimento, não estresse no tecido. E, no atleta amador, boa parte da carga acontece fora do colete.
 
-Na próxima aula, a outra metade da conta: a carga interna. Percepção de esforço da sessão, frequência cardíaca e questionários, e como decidir qual usar.
+Na próxima conversa, a outra metade da conta: a carga interna. Percepção de esforço da sessão, frequência cardíaca e questionários, e como decidir qual usar.
 
 ---
 
@@ -183,6 +183,8 @@ Na próxima aula, a outra metade da conta: a carga interna. Percepção de esfor
 Arquitetura ERRO. Sem caso clínico: o time amador é um perfil típico, sem nomes, idades ou
 desfecho. Abre por futebol amador.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (os coletes, a carga externa, a amostragem, o limiar, o campo de visão, o acelerômetro, o que fica fora, onde vale, o pulso e as correções), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Estudo de 2012: aparelhos de 5 e 10 registros por segundo contra laser, em
 aceleração, desaceleração e velocidade constante; os de 10 mais válidos e confiáveis. Revisão de
 2013: falta de consistência na definição das zonas de velocidade. Revisão de 2017: separar cargas
@@ -194,9 +196,10 @@ estudos, que é o próprio ponto da aula. Os jogadores do exemplo de nove quilô
 perderam idades; ficaram como dois jogadores. O "caso do Esporte Clube" virou o perfil do time
 amador, sem nomes. A referência ao caso de outra aula antiga saiu. A crítica ao índice agudo e
 crônico ficou para a aula-mestra deste módulo.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa". Os destaques do que fica fora e do pulso entraram no desenho.
 
 **Saíram.** O caso nomeado, as referências a "Módulo 1" e "primeira aula deste módulo", o bloco
-"Roteiro Gamma". Duração de 18 para 10 minutos.
+"Roteiro Gamma". A aula antiga tinha 18 minutos. Duração de 10 para 10 minutos.
 
 **Citações faladas.** Nenhum autor por nome.
 

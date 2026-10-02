@@ -56,7 +56,7 @@ Uma metanálise de 2022 fez uma pergunta mais limpa: e se o volume total for o m
 
 Com o volume igualado, o treino periodizado continuou ganhando em força, mas não em hipertrofia. E o ondulatório ganhou do linear em força, sobretudo em pessoas já treinadas. Em hipertrofia, os dois ficaram iguais.
 
-A leitura prática: se o objetivo é força em alguém já treinado, variar a intensidade ao longo da semana tem algum respaldo. Se o objetivo é massa muscular, o modelo importa pouco. O que importa é o volume, e isso é assunto da próxima aula.
+A leitura prática: se o objetivo é força em alguém já treinado, variar a intensidade ao longo da semana tem algum respaldo. Se o objetivo é massa muscular, o modelo importa pouco. O que importa é o volume, e isso é assunto da próxima conversa.
 
 ---
 
@@ -161,14 +161,14 @@ E a resposta do dia seguinte piora de forma consistente: sono pior, dor que não
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com as três perguntas e a ponte para a próxima aula.*
+*Visual: fecho em tinta com as três perguntas e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Três modelos, e nenhum vencedor absoluto. O periodizado ganha do não periodizado em força, por pouco. O ondulatório ganha do linear em força, sobretudo em quem já treina. Para massa muscular, o modelo quase não importa.
 
 Três perguntas para escolher: quantos picos, quantas sessões reais, qual o objetivo e há quanto tempo a pessoa treina. E uma regra acima de todas: o melhor modelo é o que acontece.
 
-Na próxima aula, a força por objetivo: força máxima, hipertrofia, potência e resistência. Quais variáveis mudam o resultado, e quais são detalhe.
+Na próxima conversa, a força por objetivo: força máxima, hipertrofia, potência e resistência. Quais variáveis mudam o resultado, e quais são detalhe.
 
 ---
 
@@ -190,6 +190,8 @@ versões cheia e mínima. Arquitetura DECISÃO, em três perguntas. Sem caso cl�
 time de vôlei e o representante comercial são perfis típicos, sem idade e sem desfecho. Abre por
 natação e vôlei.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (os pedidos, o que funciona, o volume igualado, o que acontece, os picos, as sessões, o objetivo, a dose mínima, o modelo aplicado e os sinais), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Metanálise de 2017: 18 estudos; tamanho de efeito de 0,43 a favor do
 periodizado em força máxima, 0,23 depois do ajuste para assimetria do funil; modelos ondulatórios
 mais favoráveis; ganhos maiores em não treinados. Metanálise de 2022, volume igualado: periodizado
@@ -203,9 +205,10 @@ estudo. O paradoxo do treino e da prevenção e a crítica ao índice agudo e cr
 estão na aula de etiologia do módulo de lesões e voltam na aula-mestra de índices deste módulo.
 A queda do consumo máximo de oxigênio no destreino não foi repetida; está no módulo de
 endocrinologia.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa". O apoio da frase central passou a destaque.
 
 **Saíram.** O caso nomeado, "Módulo 10" dito em voz alta, o bloco "Roteiro Gamma". Duração de
-36 minutos somados para 10.
+36 minutos somados para 10. Duração de 10 para 10 minutos.
 
 **Citações faladas.** Nenhum autor por nome; a revisão de blocos entra pelo ano.
 

@@ -163,12 +163,12 @@ A conferência final é sempre o dia seguinte. Se o "fácil" deixa cansaço no o
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os quatro passos e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os quatro passos e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Quatro passos: âncora, medida do dia, poucas zonas e conferência. Porcentagem de máximo estimado é a âncora mais fraca; limiar medido na pessoa é a melhor. A percepção de esforço tem respaldo de milhares de testes e integra o dia. E, quando os aparelhos discordam, cada medida manda num tipo de treino.
 
-Na próxima aula, a carga vista de fora: o que o GPS e as métricas de campo medem, e o que não medem.
+Na próxima conversa, a carga vista de fora: o que o GPS e as métricas de campo medem, e o que não medem.
 
 ---
 
@@ -188,6 +188,8 @@ sessão. O cálculo de carga da sessão foi para a aula de carga interna deste m
 prescrição de intensidade. Arquitetura PROCEDIMENTO, em quatro passos. Sem caso clínico: o triatleta
 é um perfil típico, sem idade e sem desfecho. Abre por triatlo.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (as telas, o roteiro, as âncoras, poucas zonas, a zona ancorada, a escala de Borg, as escalas, as medidas, a tabela e o desempate), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Estudo de 2013: 2.560 pessoas, idade mediana de 28 anos, testes em esteira ou
 cicloergômetro; limiar de lactato em RPE 10,8 ± 1,8; limiar anaeróbio individual em 13,6 ± 1,8;
 recomendação de 11 a 13 para menos treinados e 13 a 15 para esforço mais intenso ainda aeróbio;
@@ -200,10 +202,11 @@ estudo de 2013, apresentadas como ponto de partida, não como valores de corte. 
 frequência máxima foi repetida: está na aula de limiares do módulo de fisiologia. A deriva da
 frequência cardíaca no esforço longo foi descrita sem número. O caso nomeado da aula antiga, com
 idade e desfecho, saiu.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa". Os destaques de poucas zonas e da escala de Borg tiveram a segunda frase levada ao desenho: as zonas que envelhecem e as faixas de 11 a 13 e de 13 a 15.
 
 **Saíram.** O caso nomeado, o cálculo de carga da sessão (vai para a aula de carga interna), a
 monotonia (já está na aula de recuperação do módulo de fisiologia), o bloco "Roteiro Gamma".
-Duração de 19 para 10 minutos.
+A aula antiga tinha 19 minutos. Duração de 10 para 10 minutos.
 
 **Citações faladas.** Borg, pelo nome da escala. Os demais pelo ano.
 

@@ -161,12 +161,12 @@ A aula não apresenta o desfecho do caso. O que ela entrega é o raciocínio: id
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com as três regras e a ponte para a próxima aula.*
+*Visual: fecho em tinta com as três regras e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Contínuo e intervalado funcionam, e o intervalado entrega mais estímulo cardiorrespiratório por minuto. Os atletas de alto nível passam a maior parte do tempo no fácil, e isso não é desperdício. Quem treina pouco precisa pensar em uma a duas sessões de qualidade, não em vinte por cento. E a zona cinzenta, o moderado de todo dia, é o padrão mais comum de quem parou de melhorar.
 
-Na próxima aula, a ferramenta que faltou dizer como usar: prescrever por zonas e por percepção de esforço, com e sem relógio.
+Na próxima conversa, a ferramenta que faltou dizer como usar: prescrever por zonas e por percepção de esforço, com e sem relógio.
 
 ---
 
@@ -187,6 +187,8 @@ ampliada com a comparação entre contínuo e intervalado, que o slot pede. Arqu
 primeiro dos dois casos do módulo: uma corredora na faixa dos quarenta anos, sem nome, com o plano
 apresentado e sem desfecho. Abre por corrida.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a planilha, os tipos, os dois caminhos, a elite, o ensaio, o que paga, a zona cinzenta, a conta, o plano e como acompanhar), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Metanálise de 2015: adultos saudáveis de 18 a 45 anos; contínuo e intervalado
 com grandes melhoras no consumo máximo de oxigênio; maior com o intervalado. Artigo de 2010: atletas
 com 10 a 13 sessões por semana, cerca de 80% em intensidade baixa. Ensaio de 2014: 48 atletas bem
@@ -200,9 +202,10 @@ sido conferidos nesta revisão; o slide quatro é esquema. O ancoramento em porc
 cardíaca máxima estimada da aula antiga saiu daqui e vai para a aula de zonas. O formato de
 intervalado do plano é exemplo de prática corrente, apresentado como exemplo, não como protocolo de
 estudo. A corredora ganhou seis anos de treino e dois de platô como parte da cena; não há desfecho.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa". Os destaques da elite e do ensaio tiveram a segunda frase levada ao desenho, e o da conta entrou inteiro no desenho. O do plano diz agora que os dias da semana são ilustrativos; o começo pelo número menor de blocos entrou no desenho. O valor do ensaio de intervalado que a fala não dá aparece como "não detalhado aqui".
 
 **Saíram.** O bloco "Roteiro Gamma"; a referência à "aula de mitocôndria" e ao "Módulo 6" da aula
-antiga. Duração de 18 para 10 minutos.
+antiga. A aula antiga tinha 18 minutos. Duração de 10 para 10 minutos.
 
 **Citações faladas.** Nenhum autor por nome.
 

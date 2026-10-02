@@ -159,14 +159,14 @@ Como reconhecer que a bateria não está funcionando: nenhum treino mudou por ca
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os cinco passos e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os cinco passos e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Voltando ao tênis. Com o procedimento, a manhã de onze testes vira outra coisa: três testes, em dois dias, na ordem certa. Saltos e sprint curto com mudança de direção no primeiro dia, descansados. O vaivém no segundo. O primeiro ciclo como familiarização, o segundo como linha de base. E, antes de tudo, a pergunta escrita ao lado de cada teste: que decisão ele muda.
 
 Cinco passos: perguntar, escolher, aplicar, interpretar e repetir. E um teste só vira informação quando existe uma linha.
 
-Na próxima aula, a reintegração ao treinamento coletivo: como o atleta que passou pela reabilitação volta para o grupo, e onde os testes desta aula entram nessa volta.
+Na próxima conversa, a reintegração ao treinamento coletivo: como o atleta que passou pela reabilitação volta para o grupo, e onde os testes desta aula entram nessa volta.
 
 ---
 
@@ -189,6 +189,8 @@ ficou na aula de avaliação funcional do módulo de reabilitação; aqui ficou 
 escolher, aplicar e interpretar testes de desempenho. Arquitetura PROCEDIMENTO, em cinco passos.
 Sem caso clínico: a equipe de tênis é um perfil típico, sem idade e sem desfecho. Abre por tênis.
 
+Nesta revisão, os 8 slides que ainda eram texto viraram desenho (a planilha, a pergunta, as propriedades, o teste parecido, a ficha de protocolo, a linha, o dado bruto e o calendário), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Revisão de 2008: validade, confiabilidade e sensibilidade como as três
 propriedades de um teste de desempenho; contrarrelógios mais reprodutíveis que testes até a
 exaustão. Vaivém de 20 metros: protocolo publicado em 1982. Revisão de 2000: erro típico como medida
@@ -196,18 +198,21 @@ padrão de confiabilidade. Texto de 2004: menor mudança que importa como 0,2 do
 sujeitos. Revisão de 2014: registros de cinco minutos em repouso e em exercício submáximo como
 provavelmente os mais úteis. Ordem da bateria conforme o manual da NSCA.
 
+Doze atletas por onze testes dão 132 números. No calendário ilustrativo, o teste de desempenho cai a cada 11 semanas, dentro da faixa de 8 a 12.
+
 **Correções.** A frequência de oito a doze semanas e as quarenta e oito horas sem sessão pesada
 são ditas como prática corrente, sem atribuição a estudo. O coeficiente de correlação da equação do
 vaivém e os coeficientes de variação da revisão de 2008 ficaram fora, para não depender de um
 número de estudo específico. O exemplo de 2.600 e 2.750 metros é ilustrativo. O caso do corredor
 com nome, idade e desfecho da aula antiga saiu, e o caso do tenista também. O estudo sobre força de
 preensão e mortalidade não entrou: é de saúde, não de preparação física.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa".
 
 **Saíram.** Os dois casos nomeados, mobilidade e controle motor (estão na aula de avaliação
 funcional do módulo de reabilitação), a crítica à triagem de movimento (módulo de lesões), o teste
 de doze minutos como protocolo detalhado, a fórmula de frequência máxima por idade (módulo de
 fisiologia), o teste da fala e o contrarrelógio de trinta minutos (aula de limiares do módulo de
-fisiologia), o bloco "Roteiro Gamma". Duração de 36 minutos somados para 12.
+fisiologia), o bloco "Roteiro Gamma". As aulas antigas somavam 36 minutos. Duração de 12 para 12 minutos.
 
 **Citações faladas.** Nenhum autor por nome. Estudos pelo ano; a NSCA como "os manuais de
 preparação física".

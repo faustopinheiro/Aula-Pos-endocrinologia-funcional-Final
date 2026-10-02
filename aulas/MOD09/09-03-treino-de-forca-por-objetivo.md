@@ -12,7 +12,7 @@ Duração: 12 minutos · 12 slides · Arquitetura: PROCEDIMENTO
 
 Numa academia, a pergunta mais comum é também a mais mal formulada: "quantas séries e quantas repetições?"
 
-Ela chega de todo mundo. Do jovem que quer ganhar massa. Da corredora que ouviu que força melhora o tempo de prova. Do jogador de basquete que quer saltar mais. Da senhora de setenta anos que quer levantar da cadeira sem apoiar as mãos. E do médico que quer prescrever força para o paciente com diabetes.
+Ela chega de todo mundo. Do jovem que quer ganhar massa. Da corredora que ouviu que força melhora o tempo de prova. Do jogador de basquete que quer saltar mais. Da senhora na casa dos setenta que quer levantar da cadeira sem apoiar as mãos. E do médico que quer prescrever força para o paciente com diabetes.
 
 Para cada uma dessas pessoas, a resposta é diferente. E, para quase todas, "três séries de dez" é uma resposta pior do que parece.
 
@@ -167,14 +167,14 @@ E a ficha mostra o que nenhum espelho mostra: se a carga não sobe há semanas, 
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os cinco passos e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os cinco passos e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Cinco passos. Objetivo primeiro. Carga pesada para força, qualquer carga com esforço alto para hipertrofia. Volume como dial, com mais séries para quem quer crescer. Frequência como logística. Esforço perto da falha para crescer, não necessariamente para ficar forte. E a ficha, que transforma progressão em número.
 
-Voltando às pessoas da abertura: o jovem, a corredora, o jogador de basquete, a senhora de setenta anos e o paciente com diabetes. Cinco objetivos, cinco programas, e nenhum deles é "três séries de dez" por padrão.
+Voltando às pessoas da abertura: o jovem, a corredora, o jogador de basquete, a senhora na casa dos setenta e o paciente com diabetes. Cinco objetivos, cinco programas, e nenhum deles é "três séries de dez" por padrão.
 
-Na próxima aula, a qualidade que o jogador de basquete foi buscar e que a força sozinha não entrega: velocidade, aceleração e mudança de direção.
+Na próxima conversa, a qualidade que o jogador de basquete foi buscar e que a força sozinha não entrega: velocidade, aceleração e mudança de direção.
 
 ---
 
@@ -201,6 +201,8 @@ no mapa; ficou com cerca de doze minutos, porque a duração é do tema. Arquite
 PROCEDIMENTO, em cinco passos. Sem caso clínico: as cinco pessoas da abertura são perfis típicos.
 Abre por academia.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a ficha, o roteiro, o objetivo, a carga, crescer, a frequência, o esforço, os ajustes, o serviço e o registro), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Metanálise de cargas, 2017: carga baixa até 60% do máximo, alta acima, séries
 até a falha, no mínimo seis semanas; hipertrofia semelhante, força maior com carga alta. Metanálise
 de volume, 2017: 15 estudos, 34 grupos; menos de cinco séries semanais, 5,4%; cinco a nove, 6,6%;
@@ -216,9 +218,10 @@ de fisiologia. Os três exercícios do treino mínimo foram ditos como grupos de
 técnica de execução. "Trinta minutos, duas vezes por semana" é exemplo de organização, não número de
 estudo. As barras de risco de lesão da aula antiga (alongamento, propriocepção e força) saíram: o
 programa preventivo está no módulo de lesões.
+- "A senhora de setenta anos" virou "a senhora na casa dos setenta", nas duas vezes. Os destaques do objetivo e do registro entraram no desenho; o da carga ficou só com a duração das séries, e os limites de 60% entraram no desenho; o da frequência ganhou "a vantagem antiga vinha do volume maior".
 
 **Saíram.** O caso nomeado da aula antiga, o bloco "Roteiro Gamma". Duração de 36 minutos somados
-para 12.
+para 12. Duração de 12 para 12 minutos.
 
 **Citações faladas.** Nenhum autor por nome. A associação norte-americana de força e
 condicionamento entra como instituição.

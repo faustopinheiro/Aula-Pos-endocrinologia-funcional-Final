@@ -155,12 +155,12 @@ Mudança de direção e agilidade: desaceleração, técnica de mudança, e exer
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com as três qualidades e a ponte para a próxima aula.*
+*Visual: fecho em tinta com as três qualidades e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Quarenta e cinco por cento dos gols analisados tiveram um sprint em linha reta do jogador que marcou. Três qualidades diferentes: aceleração, velocidade máxima e mudança de direção. Agilidade exige estímulo. Velocidade se treina com velocidade, descansado. E o teste de mudança de direção precisa separar o custo da mudança da velocidade em linha reta.
 
-Na próxima aula, o outro extremo da preparação: o treino aeróbio, contínuo e intervalado, e como distribuir a intensidade ao longo da semana. A aula traz um caso.
+Na próxima conversa, o outro extremo da preparação: o treino aeróbio, contínuo e intervalado, e como distribuir a intensidade ao longo da semana. A aula traz um caso.
 
 ---
 
@@ -179,6 +179,8 @@ Na próxima aula, o outro extremo da preparação: o treino aeróbio, contínuo 
 **O que mudou nesta versão.** Aula nova: o slot não tinha roteiro escrito. Arquitetura NÚMERO,
 construída sobre quatro números conferidos e um esquema. Sem caso clínico. Abre por futebol.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (o lance, os gols, as três qualidades, a agilidade, descansado, o trenó, a dose, o que protege e o resumo), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Estudo de 2012: 360 gols da primeira divisão alemã, temporada 2007/08; 83%
 precedidos de pelo menos uma ação de potência do jogador que marcou ou do que passou; ações do
 jogador que marcou: sprint em linha reta 161 (45%), saltos 57 (16%), rotações e sprints com mudança
@@ -194,8 +196,9 @@ semana não foram ditos, por não terem sido conferidos nesta revisão; a aula f
 achado. As regras de dose do slide nove são de prática corrente e foram ditas sem números de
 repetições nem de segundos de pausa, que variam entre fontes. A afirmação de que mudanças de direção
 e desacelerações são frequentes no jogo inteiro está sem número, de propósito.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa". O destaque do trenó perdeu os 16 jogadores amadores, que entraram no desenho; o do que protege passou a dizer o tipo de estudo e a modalidade, e a exposição regular entrou no desenho.
 
-**Saíram.** Não se aplica; aula nova.
+**Saíram.** Não se aplica; aula nova. Duração de 10 para 10 minutos.
 
 **Citações faladas.** Nenhum autor por nome.
 

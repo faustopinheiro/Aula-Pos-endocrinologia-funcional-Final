@@ -151,14 +151,14 @@ E ela, a atleta, tem o papel que ninguém substitui: contar a escala de plantõe
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com o plano dela resumido e a ponte para a próxima aula.*
+*Visual: fecho em tinta com o plano dela resumido e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Voltando ao bilhete. O plano dela ficou escrito assim: quatro etapas dentro dos treinos do grupo, o avanço de etapa sempre depois de uma folga, três medidas simples, e uma regra para os sinais de alerta. O jogo de sábado tem data prevista, não data marcada.
 
 O que vai acontecer nas próximas semanas, a aula não sabe. O plano foi feito para que, aconteça o que acontecer, a próxima decisão tenha informação.
 
-Uma ideia atravessa este caso: a sessão que cai depois do plantão noturno não é a mesma sessão. E isso leva direto à próxima aula, que fecha o módulo: sono e recuperação como variáveis de treino.
+Uma ideia atravessa este caso: a sessão que cai depois do plantão noturno não é a mesma sessão. E isso leva direto à próxima conversa, que fecha o módulo: sono e recuperação como variáveis de treino.
 
 ---
 
@@ -178,6 +178,8 @@ e guardou da origem a ideia central: a carga do trabalho entra na conta do retor
 CASO. É o segundo e último caso do módulo: jogadora de basquete amador, na casa dos trinta anos, sem
 nome e sem desfecho; só o plano. Abre por basquete.
 
+Nesta revisão, os 8 slides que ainda eram texto viraram desenho (o bilhete, a distância, as etapas, o dia certo, a próxima etapa, as medidas, os sinais e os papéis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Consenso de Berna, 2016: retorno em três degraus (participação, esporte,
 desempenho). Modelo do controle ao caos: 2019, futebol da Premier League, progressão que combina
 variáveis de GPS com exigências crescentes de percepção e reação. Consenso do Comitê Olímpico
@@ -188,12 +190,13 @@ carga psicológica e viagens.
 sem validação. O modelo do controle ao caos é apresentado como modelo de prática, não como ensaio
 clínico. Nenhum número de recidiva de entorse foi dito: a reabilitação do tornozelo está no módulo
 de reabilitação. A escala de plantões é descrita sem número de horas de sono.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa". O destaque dos sinais de alerta entrou no desenho.
 
 **Saíram.** Os três casos nomeados da aula antiga, com idade e desfecho (pedreiro, auxiliar de
 enfermagem, trabalhadora em casa). A revisão Cochrane de intervenções no local de trabalho, a síntese
 de 2018 sobre retorno ao trabalho, o atestado por tarefa, as bandeiras amarelas, azuis e pretas: são
 de retorno ao trabalho, não de preparação física. As menções a outras aulas e módulos pelo número.
-Duração de 20 para 10 minutos.
+A aula antiga tinha 20 minutos. Duração de 10 para 10 minutos.
 
 **Citações faladas.** Nenhum autor por nome. Berna entra como "o módulo de reabilitação"; o consenso
 do Comitê Olímpico Internacional pela instituição.

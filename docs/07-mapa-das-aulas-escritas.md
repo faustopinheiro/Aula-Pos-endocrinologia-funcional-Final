@@ -355,6 +355,18 @@ Total: 2 h 10 min em 12 aulas, 144 slides. A 9.12 fecha o módulo com a camada d
 integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
 psicologia do esporte e saúde mental, que abre o Módulo 10.
 
+**Acabamento.** Os 113 slides que ainda eram texto (cartões, colunas, listas, tabelas, números e frases)
+viraram desenho, sem mudar a quantidade nem a ordem dos slides; agora todo slide do módulo, fora o fecho,
+é um desenho próprio (os novos estão em `slides/MOD09/_redesenho.py`). Destaques cujo conteúdo foi para o
+desenho saíram do rodapé do slide. Gráficos sem valores medidos dizem "esquema", e semanas e dias montados
+para o exemplo dizem "ilustrativos". Uma correção de conteúdo: na aula de índices de carga, "1,49 é verde"
+estava errado, porque a faixa verde termina em 1,3; agora 1,49 fica fora da zona vermelha e 1,51 fica
+dentro. Na fala, a "aula anterior" virou referência ao conteúdo, "a senhora de setenta anos" virou "na
+casa dos setenta", "as doze aulas" virou "todas as conversas do módulo", e "na próxima aula" virou "na
+próxima conversa". Selye e Borg seguem citados por nome, por serem marcos; os demais estudos entram pelo
+ano. As notas de produção foram refeitas no formato completo. As durações não mudaram. Os links são os
+mesmos.
+
 ## Módulo 10 — Psicologia do Esporte e Saúde Mental · 11 aulas
 
 **ESCRITO NA VOZ DO CURSO, NO MODELO DOS MÓDULOS 1 E 2.** Primeiro módulo depois da correção de rumo

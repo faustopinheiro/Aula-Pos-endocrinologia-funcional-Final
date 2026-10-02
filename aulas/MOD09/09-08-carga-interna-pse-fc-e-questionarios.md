@@ -14,7 +14,7 @@ O técnico de uma equipe universitária de handebol recebe três propostas para 
 
 O orçamento dá para uma. Qual escolher?
 
-A aula anterior mostrou a carga vista de fora. Esta é sobre a carga vista de dentro, o custo do treino para cada pessoa, e sobre como decidir qual instrumento usar. A resposta não é o mais sofisticado. É o que vai mudar uma decisão.
+A conversa sobre GPS mostrou a carga vista de fora. Esta é sobre a carga vista de dentro, o custo do treino para cada pessoa, e sobre como decidir qual instrumento usar. A resposta não é o mais sofisticado. É o que vai mudar uma decisão.
 
 ---
 
@@ -170,7 +170,7 @@ Para o técnico do handebol, a resposta é a folha: percepção de esforço da s
 
 Quatro ferramentas. A nota da sessão, a mais barata e a que mais atravessa modalidades. A frequência cardíaca, boa no contínuo. A variabilidade, exigente e sujeita à ansiedade. E os questionários, sensíveis se forem curtos.
 
-Na próxima aula, a aula-mestra do módulo: o que acontece quando se juntam essas cargas numa razão entre a carga aguda e a crônica, por que ela virou semáforo em tantos aplicativos, e por que a crítica a ela é séria.
+Na próxima conversa, a aula-mestra do módulo: o que acontece quando se juntam essas cargas numa razão entre a carga aguda e a crônica, por que ela virou semáforo em tantos aplicativos, e por que a crítica a ela é séria.
 
 ---
 
@@ -192,21 +192,26 @@ interna e externa já apareceu na aula de GPS; aqui ficou a escolha do instrumen
 DECISÃO. Sem caso clínico: a equipe de handebol é um perfil típico, sem idades nem desfecho. Abre
 por handebol.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (as três propostas, as quatro ferramentas, a conta, as condições, a frequência cardíaca, a variabilidade, o questionário, a terceira semana, os cenários e as regras), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Método de 2001: comparado com padrão por frequência cardíaca em exercício
 contínuo, intervalado e em treino de basquete; válido em vários tipos de exercício. Revisão de 2017:
 validade e utilidade ecológica em muitas modalidades. Revisão de 2013 sobre variabilidade em atletas
 de endurance de elite. Publicação de 2017 que nomeou a ortossonia. Revisão de 2016 sobre medidas
 subjetivas (já apresentada no módulo de endocrinologia; aqui só retomada).
 
+O desenho da conta usa áreas proporcionais: 70 por 7 e 40 por 4.
+
 **Correções.** Nenhum coeficiente de correlação do método de 2001 foi dito, por não ter sido
 conferido. A recomendação de média de sete dias da variabilidade foi dita como "média de vários
 dias". A monotonia e a tensão semanais não foram repetidas: estão na aula de recuperação do módulo
 de fisiologia. As quatro perguntas de bem-estar são formato de prática corrente, sem instrumento
 específico citado. O caso nomeado da aula antiga de percepção de esforço saiu.
+- "A aula anterior mostrou" virou "a conversa sobre GPS mostrou". O apoio das três propostas entrou no desenho; o da frase central passou a destaque. Os cenários ganharam um destaque que lê a própria tabela: a nota da sessão está em todas as linhas.
 
 **Saíram.** O caso nomeado, a lista de fatores que alteram a nota (fica implícita na conversa do
 slide cinco), as referências a "Módulo 1", "Módulo 4" e "Módulo 5", o bloco "Roteiro Gamma".
-Duração de 64 minutos somados para 10.
+As aulas antigas somavam 64 minutos. Duração de 10 para 10 minutos.
 
 **Citações faladas.** Nenhum autor por nome. A ortossonia entra pelo termo.
 

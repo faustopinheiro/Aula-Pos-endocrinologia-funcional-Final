@@ -94,7 +94,7 @@ Por que sete dias para a carga aguda e vinte e oito para a crônica? A crítica 
 
 Houve tentativas de melhorar a conta. Uma proposta de 2017 trocou as médias simples por médias com peso decrescente no tempo, mais sensíveis a mudanças bruscas. É uma melhora técnica, mas continua sendo uma razão, com os mesmos cortes transformando um número contínuo em três cores.
 
-E cortar um número contínuo em categorias joga fora informação. Um vírgula quarenta e nove é verde, um vírgula cinquenta e um é vermelho.
+E cortar um número contínuo em categorias joga fora informação. Um vírgula quarenta e nove fica fora da zona vermelha, um vírgula cinquenta e um fica dentro.
 
 ---
 
@@ -153,14 +153,14 @@ E decidir com contexto. Um salto de carga num jogador que dorme bem, não tem do
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os cinco erros e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os cinco erros e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Voltando à reunião de segunda-feira. O vermelho na tela não é motivo, sozinho, para tirar o jogador do jogo. É motivo para três perguntas: de onde veio o salto, como ele está dormindo e o que ele sente, e como foi a carga das semanas anteriores. A decisão sai da conversa, não da cor.
 
 Cinco erros: tratar associação como causa, ignorar o acoplamento, confiar em janelas e cortes arbitrários, acreditar que o crônico faz o trabalho, e transplantar a elite deixando o número decidir. E uma ideia que sobrevive: construir a carga aos poucos e vigiar os saltos.
 
-Na próxima aula, os testes físicos: como escolher, aplicar e interpretar um teste de um jeito que o resultado mude alguma coisa.
+Na próxima conversa, os testes físicos: como escolher, aplicar e interpretar um teste de um jeito que o resultado mude alguma coisa.
 
 ---
 
@@ -185,6 +185,8 @@ minutos, porque a duração é do tema. Arquitetura ERRO, em cinco erros. Sem ca
 de rúgbi é um perfil típico, sem idade e sem desfecho. Abre por rúgbi. O módulo de lesões apresentou
 a crítica em um slide; aqui ela é desenvolvida.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (a reunião, a origem, por que convenceu, a causa, as janelas, a crônica sorteada, a ideia frágil, o transplante e o que fica), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Estudo de 2014: 28 arremessadores rápidos, 43 temporadas individuais, seis
 anos; carga por bolas arremessadas e por percepção de esforço vezes minutos. Artigo de 2016: faixa
 de cerca de 0,8 a 1,3 como região de menor risco; a partir de 1,5, risco duas a quatro vezes maior
@@ -195,13 +197,16 @@ de 2017: médias exponencialmente ponderadas. Reanálise de 2021: crônica subst
 inventados, com associação parecida. Estudo de 2014 com corredores: 874 iniciantes com GPS; aumento
 de mais de 30% em duas semanas associado a mais risco de alguns tipos de lesão.
 
+Tabela do que fica conferida: médias anteriores de 1.850 e 1.900; mudanças de 5,6%, 8,1% e 42,1%, arredondadas. As barras do corredor são semanas ilustrativas, 20, 22, 24 e 32 km, que dão +10%, +9% e +33%.
+
 **Correções.** Os números de razão de risco do estudo de 2021 e do estudo com corredores não foram
 ditos; ficou a direção. A lista de lesões associadas ao aumento de distância foi reduzida a dois
 exemplos. A atribuição "pesquisadores da própria área" para a crítica de 2020 descreve os autores
 sem nomeá-los.
+- Correção de conteúdo: "1,49 é verde" estava errado, porque a faixa verde termina em 1,3. Destaque e fala passaram a dizer que 1,49 fica fora da zona vermelha e 1,51 fica dentro. O destaque do que fica entrou no desenho.
 
 **Saíram.** Os blocos "Roteiro Gamma" das duas aulas antigas; o paciente com três noites em claro
-da aula antiga, que virou o contraste do slide onze sem nome. Duração de 36 minutos somados para 11.
+da aula antiga, que virou o contraste do slide onze sem nome. As aulas antigas somavam 36 minutos. Duração de 11 para 11 minutos.
 
 **Citações faladas.** Nenhum autor por nome.
 

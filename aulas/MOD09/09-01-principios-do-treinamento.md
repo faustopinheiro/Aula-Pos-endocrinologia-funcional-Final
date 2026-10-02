@@ -132,7 +132,7 @@ Os princípios se sustentam bem na prática: especificidade, progressão, recupe
 
 Um artigo de 2018 na Sports Medicine, com o título "Teoria da periodização: enfrentando uma verdade inconveniente", mostrou que a base fisiológica tradicional do planejamento foi construída sobre a síndrome geral de adaptação, e que a própria pesquisa sobre estresse já tinha abandonado aquela leitura.
 
-Isso não invalida planejar. Muda a postura: menos confiança no modelo, mais atenção ao que se mede naquela pessoa. É o assunto da próxima aula.
+Isso não invalida planejar. Muda a postura: menos confiança no modelo, mais atenção ao que se mede naquela pessoa. É o assunto da próxima conversa.
 
 ---
 
@@ -173,14 +173,14 @@ Não é um plano melhor por ser mais complexo. É melhor porque cada escolha res
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os cinco erros e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os cinco erros e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Cinco erros. Especificidade reduzida ao gesto. Sobrecarga reduzida a mais. Individualidade usada como desculpa. Variação como fim. Reversibilidade esquecida no planejamento.
 
 E uma regra que atravessa todos: princípio é pergunta, não é slogan.
 
-Na próxima aula, a pergunta seguinte: como organizar esses estímulos ao longo de semanas e meses. Linear, ondulatória, em blocos. O que a evidência diz sobre cada modelo, e como escolher sem fingir que existe uma resposta única.
+Na próxima conversa, a pergunta seguinte: como organizar esses estímulos ao longo de semanas e meses. Linear, ondulatória, em blocos. O que a evidência diz sobre cada modelo, e como escolher sem fingir que existe uma resposta única.
 
 ---
 
@@ -202,6 +202,8 @@ de 2018 à base teórica da periodização. O resto é aula nova, sobre os princ
 Arquitetura ERRO, em cinco erros. Sem caso clínico: o ciclista é um perfil típico, sem idade e sem
 desfecho. Abre por ciclismo.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (o percurso do ciclista, o roteiro, a especificidade, a dose, a variação, a reversibilidade, a teoria, as perguntas e o ciclista), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Estudo de 2017: 78 adultos saudáveis, cinco grupos com uma a cinco sessões
 de 60 minutos por semana, seis semanas; não respondedores em 69%, 40%, 29%, 0% e 0%; depois de
 mais seis semanas com 120 minutos a mais por semana, a não resposta desapareceu. Revisão de 2022:
@@ -212,9 +214,10 @@ atrapalhar.
 que era aptidão cardiorrespiratória em adultos saudáveis. Nenhum valor de manutenção foi repetido:
 a dose mínima está na aula de treino concorrente do módulo de fisiologia, e a cronologia da perda,
 na aula de destreino do módulo de endocrinologia.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa". O destaque do roteiro entrou no desenho.
 
 **Saíram.** A fadiga adrenal, o cortisol salivar e a paciente com nome, idade e desfecho da aula
-antiga; o bloco "Roteiro Gamma". Duração de 26 para 11 minutos.
+antiga; o bloco "Roteiro Gamma". A aula antiga tinha 26 minutos. Duração de 11 para 11 minutos.
 
 **Citações faladas.** Selye, pelo experimento histórico que dá origem ao conceito. Os demais pelo
 ano e pelo tipo de estudo.

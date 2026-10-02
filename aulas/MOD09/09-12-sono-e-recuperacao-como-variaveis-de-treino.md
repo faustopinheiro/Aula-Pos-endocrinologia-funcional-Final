@@ -152,7 +152,7 @@ Se o sono não melhorar com a agenda, ou se aparecer ronco com pausas ou insôni
 *Visual: fecho do módulo em tinta: a matriz dos três níveis, Decisão, Contribuição e Reconhecimento, aplicada ao módulo inteiro, e a ponte para o próximo módulo.*
 *Teleprompter: (fecha a aula e o módulo nos três níveis)*
 
-Como esta aula fecha o módulo, juntamos as doze aulas do jeito que a equipe trabalha, em três níveis.
+Como esta aula fecha o módulo, juntamos todas as conversas do módulo do jeito que a equipe trabalha, em três níveis.
 
 Decisão. Prescrever e periodizar o treino, dosar a força, a velocidade e o aeróbio, escolher as zonas, ler a carga externa e a interna, aplicar os testes e conduzir a volta ao grupo: preparação física e profissional de educação física. Separar excesso de treino de doença, investigar insônia e apneia e dar a liberação médica: médico. O critério do tecido na volta ao grupo: fisioterapia. A energia que sustenta a carga: nutrição. A insônia instalada e a carga psicológica: psicologia.
 
@@ -188,6 +188,8 @@ como variável de treino, organizado por números. Arquitetura NÚMERO. Sem caso
 um perfil típico, sem idade e sem desfecho. Abre por remo. Fecha o módulo nos três níveis e emenda
 no módulo de psicologia do esporte e saúde mental.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a raia, a dose, as três frentes, a extensão do sono, a lesão, o que cai, a imitação, a noite, o diário e o plano), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD09/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Painel de 2015: 7 a 9 horas para adultos. Consenso de 2021: sono habitual
 curto (menos de 7 horas) e fragmentado em atletas; abordagem individualizada. Estudo de extensão:
 11 jogadores, cerca de 110,9 minutos a mais por noite, sprint de 16,2 para 15,5 segundos, lances
@@ -199,18 +201,21 @@ exercício intenso terminando menos de 1 hora antes de deitar atrasou o início 
 limitada. Diretriz de 2016: terapia cognitivo-comportamental como tratamento inicial da insônia
 crônica.
 
+Das 23h30 às 4h45 são 5h15, dito como cerca de cinco horas; das 21h30 às 4h45 são 7h15, perto de sete. O gráfico de lesão usa escala logarítmica, e o intervalo encosta no 1.
+
 **Correções.** "Quem treina volume alto precisa da parte de cima da faixa" saiu: o consenso de 2021
 recomenda individualizar, sem esse número. A frase "parte do efeito pode vir de expectativa" foi
 acrescentada ao estudo de extensão, que não teve grupo controle. O horário de deitar às nove e meia é
 uma conta para sete horas, não recomendação de estudo. A ligação direta entre sono e infecção atribuída ao consenso do Comitê Olímpico Internacional saiu,
 por não ter sido confirmada no texto do consenso; ficou a relação geral entre sono e defesa. O efeito da luz de tela, os itens da lista de
 higiene um a um e a melatonina ficaram fora: sem número conferido para esta aula.
+- "As doze aulas" virou "todas as conversas do módulo".
 
 **Saíram.** Os casos nomeados das duas aulas antigas, com idade e desfecho. O estudo da testosterona,
 o do hormônio do crescimento e o da cafeína (estão nos módulos de endocrinologia e de suplementos). Os
 componentes detalhados da terapia para insônia e a discussão de medicação para dormir (são de quem
 trata). As menções a outras aulas e módulos pelo número. O bloco "Roteiro Gamma". Duração de 37
-minutos somados para 14.
+minutos somados para 14. Duração de 14 para 14 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O Colégio Americano de Médicos pela instituição; os demais pelo ano.
 
