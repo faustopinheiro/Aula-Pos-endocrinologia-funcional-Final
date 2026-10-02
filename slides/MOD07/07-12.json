@@ -22,267 +22,1242 @@
  "slides": [
   {
    "id": "caso",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Caso ilustrativo. Uma corredora na casa dos quarenta, três vezes por semana, com dor no joelho há três semanas, desde que aumentou o ritmo. Ela chega com a ressonância. O laudo: lesão horizontal do menisco medial, condropatia patelar grau dois, edema ósseo subcondral. E duas perguntas: vou ter que operar? Vou poder voltar a correr?\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"440\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(1.5000)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><path d=\"M 480 0 H 1100 L 1160 60 V 360 H 480 Z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(504.0 20.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"504\" y=\"104\" width=\"632\" height=\"62\" rx=\"10\" fill=\"#F3E1DE\"/><rect x=\"504\" y=\"182\" width=\"632\" height=\"62\" rx=\"10\" fill=\"#F3E1DE\"/><rect x=\"504\" y=\"260\" width=\"632\" height=\"62\" rx=\"10\" fill=\"#F3E1DE\"/><path d=\"M 1200 30 H 1644 Q 1664 30 1664 50 V 140 Q 1664 160 1644 160 H 1230 L 1190 180 L 1206 160 H 1220 Q 1200 160 1200 140 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><path d=\"M 1200 200 H 1644 Q 1664 200 1664 220 V 310 Q 1664 330 1644 330 H 1230 L 1190 350 L 1206 330 H 1220 Q 1200 330 1200 310 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 110,
+     "y": 34,
+     "w": 310,
+     "t": "casa dos quarenta",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 72,
+     "w": 310,
+     "t": "corre três vezes por semana",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 150,
+     "w": 392,
+     "t": "dor no joelho há três semanas, desde que aumentou o ritmo",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 560,
+     "y": 30,
+     "w": 500,
+     "t": "laudo de ressonância",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 524,
+     "y": 122,
+     "w": 600,
+     "t": "lesão horizontal do menisco medial",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 524,
+     "y": 200,
+     "w": 600,
+     "t": "condropatia patelar grau dois",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 524,
+     "y": 278,
+     "w": 600,
+     "t": "edema ósseo subcondral",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1220,
+     "y": 74,
+     "w": 420,
+     "t": "“Vou ter que operar?”",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1220,
+     "y": 244,
+     "w": 420,
+     "t": "“Vou poder voltar a correr?”",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Caso ilustrativo",
-   "frase": "Corredora na casa dos quarenta, dor no joelho há três semanas, ressonância na mão.",
-   "apoio": "Menisco medial com lesão horizontal, condropatia patelar grau dois, edema ósseo subcondral. “Vou ter que operar? Vou poder voltar a correr?”"
+   "titulo": "Corredora na casa dos quarenta, dor no joelho há três semanas, ressonância na mão."
   },
   {
    "id": "mesa",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma mesa vista de cima. Num canto, pequena, a dor: três semanas, começou quando o ritmo subiu, é o que ela veio resolver. No centro, grande, o laudo: três achados que ocuparam a conversa; agora o assunto é o menisco\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"1664\" height=\"360\" rx=\"24\" fill=\"#F4EAD6\"/><rect x=\"40\" y=\"90\" width=\"380\" height=\"220\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"430\" y1=\"200\" x2=\"560\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><path d=\"M 580 20 H 1560 L 1624 84 V 340 H 580 Z\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(610.0 44.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 106,
+     "w": 340,
+     "t": "A dor",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 156,
+     "w": 350,
+     "t": "· três semanas",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 200,
+     "w": 350,
+     "t": "· começou quando o ritmo subiu",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 244,
+     "w": 350,
+     "t": "· é o que ela veio resolver",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 424,
+     "y": 160,
+     "w": 140,
+     "t": "saiu do centro",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 52,
+     "w": 600,
+     "t": "O laudo",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 610,
+     "y": 140,
+     "w": 980,
+     "t": "· três achados",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 200,
+     "w": 980,
+     "t": "· ocupou o centro da conversa",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 260,
+     "w": 980,
+     "t": "· agora o assunto é o menisco",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O que aconteceu naquela mesa",
    "titulo": "O papel virou o assunto",
-   "esq": {
-    "t": "A dor",
-    "cor": "petr",
-    "itens": [
-     "três semanas",
-     "começou quando o ritmo subiu",
-     "é o que ela veio resolver"
-    ]
-   },
-   "dir": {
-    "t": "O laudo",
-    "cor": "verm",
-    "itens": [
-     "três achados",
-     "ocupou o centro da conversa",
-     "agora o assunto é o menisco"
-    ]
-   },
    "destaque": "O problema quase nunca é o exame. É o que a gente faz com ele.",
    "destaque_cor": "tinta"
   },
   {
    "id": "joelhos",
-   "tipo": "numeros",
-   "eyebrow": "Erro um · achar que a imagem diagnostica",
-   "titulo": "230 joelhos de adultos sem dor, sem lesão",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Barras numa escala de zero a cem por cento, em 230 joelhos de adultos sem dor e sem lesão. Alguma alteração: 97%. Alteração de cartilagem femoropatelar: 57%. Alteração de medula óssea femoropatelar: 48%. Lesão de menisco, a maioria horizontal: 30%\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"470\" y=\"0\" width=\"1050\" height=\"66\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"470\" y=\"0\" width=\"1018\" height=\"66\" rx=\"8\" fill=\"#12202E\"/><rect x=\"470\" y=\"82\" width=\"1050\" height=\"66\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"470\" y=\"82\" width=\"598\" height=\"66\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"470\" y=\"164\" width=\"1050\" height=\"66\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"470\" y=\"164\" width=\"504\" height=\"66\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"470\" y=\"246\" width=\"1050\" height=\"66\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"470\" y=\"246\" width=\"315\" height=\"66\" rx=\"8\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
-     "n": "97%",
-     "x": "com alguma alteração",
-     "cor": "tinta"
+     "x": 0,
+     "y": 20,
+     "w": 440,
+     "t": "com alguma alteração",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "30%",
-     "x": "lesão de menisco, a maioria horizontal",
-     "cor": "verm"
+     "x": 486,
+     "y": 12,
+     "w": 200,
+     "t": "97%",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "57%",
-     "x": "alteração de cartilagem femoropatelar",
-     "cor": "ambar"
+     "x": 0,
+     "y": 102,
+     "w": 440,
+     "t": "cartilagem femoropatelar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "48%",
-     "x": "alteração de medula óssea femoropatelar",
-     "cor": "ambar"
+     "x": 486,
+     "y": 94,
+     "w": 200,
+     "t": "57%",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 184,
+     "w": 440,
+     "t": "medula óssea femoropatelar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 486,
+     "y": 176,
+     "w": 200,
+     "t": "48%",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 266,
+     "w": 440,
+     "t": "menisco, a maioria horizontal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 486,
+     "y": 258,
+     "w": 200,
+     "t": "30%",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 470,
+     "y": 340,
+     "w": 1100,
+     "t": "dos 230 joelhos, de 115 adultos sedentários sem queixa",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Erro um · achar que a imagem diagnostica",
+   "titulo": "230 joelhos de adultos sem dor, sem lesão",
    "destaque": "Mediana de 44 anos. Ninguém sentia dor.",
    "destaque_cor": "verm",
    "fonte": "Skeletal Radiol 2020"
   },
   {
    "id": "dez",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Dez pessoas quaisquer a partir dos quarenta. Quase todas têm alguma marca de achado no laudo; três delas têm menisco. O menisco já estava lá antes da dor, e vai continuar lá depois\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><g transform=\"translate(20.0 30.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"120\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><g transform=\"translate(184.0 30.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"284\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><g transform=\"translate(348.0 30.0) scale(2.5000)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"448\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"348\" y=\"170\" width=\"124\" height=\"44\" rx=\"22\" fill=\"#A8322A\"/><g transform=\"translate(512.0 30.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"612\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><g transform=\"translate(676.0 30.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"776\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><g transform=\"translate(840.0 30.0) scale(2.5000)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"940\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"840\" y=\"170\" width=\"124\" height=\"44\" rx=\"22\" fill=\"#A8322A\"/><g transform=\"translate(1004.0 30.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1168.0 30.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"1268\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><g transform=\"translate(1332.0 30.0) scale(2.5000)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"1432\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"1332\" y=\"170\" width=\"124\" height=\"44\" rx=\"22\" fill=\"#A8322A\"/><g transform=\"translate(1496.0 30.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><circle cx=\"1596\" cy=\"44\" r=\"14\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"34\" cy=\"280\" r=\"12\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 348,
+     "y": 180,
+     "w": 124,
+     "t": "menisco",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 180,
+     "w": 124,
+     "t": "menisco",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1332,
+     "y": 180,
+     "w": 124,
+     "t": "menisco",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 266,
+     "w": 700,
+     "t": "alguma coisa no laudo: quase todas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 266,
+     "w": 700,
+     "t": "menisco: três em dez",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Na prática",
-   "frase": "O menisco já estava lá antes da dor, e vai continuar lá depois.",
-   "apoio": "Dez pessoas quaisquer a partir dos quarenta: quase todas com algo no laudo, três com menisco. Menisco pode doer, mas a presença do achado não prova que ele é a causa."
+   "titulo": "O menisco já estava lá antes da dor, e vai continuar lá depois.",
+   "destaque": "Menisco pode doer, mas a presença do achado não prova que ele é a causa.",
+   "destaque_cor": "verm"
   },
   {
    "id": "territorios",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"O mesmo padrão no corpo inteiro, em gente sem dor, em barras de zero a cem por cento. Ombro: rotura do manguito em 34%, completa em 15%. Quadril: alguma alteração em 73%, lesão do lábio em 69%. Coluna: degeneração de disco em 37% aos 20 anos, 96% aos 80. Joelho: sinais de artrose em 4 a 14% abaixo dos 40, 19 a 43% acima\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"330\" y=\"4\" width=\"960\" height=\"38\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"330\" y=\"4\" width=\"326\" height=\"38\" rx=\"6\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"330\" y=\"50\" width=\"960\" height=\"38\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"330\" y=\"50\" width=\"144\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"0\" y=\"104\" width=\"300\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"330\" y=\"108\" width=\"960\" height=\"38\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"330\" y=\"108\" width=\"701\" height=\"38\" rx=\"6\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"330\" y=\"154\" width=\"960\" height=\"38\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"330\" y=\"154\" width=\"662\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"0\" y=\"208\" width=\"300\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"330\" y=\"212\" width=\"960\" height=\"38\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"330\" y=\"212\" width=\"355\" height=\"38\" rx=\"6\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"330\" y=\"258\" width=\"960\" height=\"38\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"330\" y=\"258\" width=\"922\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"0\" y=\"312\" width=\"300\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"330\" y=\"316\" width=\"960\" height=\"38\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"368\" y=\"316\" width=\"96\" height=\"38\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"330\" y=\"362\" width=\"960\" height=\"38\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"512\" y=\"362\" width=\"230\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 28,
+     "w": 300,
+     "t": "Ombro",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 668,
+     "y": 12,
+     "w": 420,
+     "t": "rotura do manguito 34%",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 486,
+     "y": 58,
+     "w": 420,
+     "t": "completa 15%",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 132,
+     "w": 300,
+     "t": "Quadril",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 342,
+     "y": 116,
+     "w": 420,
+     "t": "alguma alteração 73%",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 342,
+     "y": 162,
+     "w": 420,
+     "t": "lábio 69%",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 236,
+     "w": 300,
+     "t": "Coluna",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 697,
+     "y": 220,
+     "w": 420,
+     "t": "disco aos 20 anos: 37%",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 342,
+     "y": 266,
+     "w": 420,
+     "t": "aos 80: 96%",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 340,
+     "w": 300,
+     "t": "Joelho",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 476,
+     "y": 324,
+     "w": 420,
+     "t": "artrose abaixo dos 40: 4 a 14%",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 755,
+     "y": 370,
+     "w": 420,
+     "t": "acima dos 40: 19 a 43%",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Erro dois · achar que o joelho é exceção",
    "titulo": "O mesmo padrão no corpo inteiro, em gente sem dor",
-   "cab": [
-    "Região",
-    "O que a imagem mostra"
-   ],
-   "larguras": [
-    22,
-    78
-   ],
-   "linhas": [
-    [
-     "Ombro",
-     "rotura do manguito em 34%, completa em 15%; mais da metade acima dos 60"
-    ],
-    [
-     "Quadril",
-     "alguma alteração em 73%; lesão do lábio em 69%"
-    ],
-    [
-     "Coluna",
-     "degeneração de disco em 37% aos 20 anos, 96% aos 80"
-    ],
-    [
-     "Joelho",
-     "sinais de artrose em 4 a 14% abaixo dos 40; 19 a 43% acima"
-    ]
-   ],
    "destaque": "Não é doença: é o tecido ao longo do tempo, como cabelo branco. Ninguém faz ressonância do cabelo.",
    "destaque_cor": "tinta",
    "fonte": "J Bone Joint Surg Am 1995 · Am J Sports Med 2012 · AJNR 2015 · Br J Sports Med 2019"
   },
   {
    "id": "perguntas",
-   "tipo": "lista",
-   "eyebrow": "Erro três · pedir sem pergunta",
-   "titulo": "Três perguntas antes de qualquer exame",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três perguntas em fila, como portões antes de qualquer exame. O que eu estou suspeitando? Sem completar quero saber se tem, é ansiedade, não indicação. O resultado muda a conduta? Se faço o mesmo com laudo normal e alterado, não é agora. E o achado que eu não procurei? Ele vai vir; decida antes o que fazer com ele. Só depois dos três portões, o exame\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"408\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"46\" cy=\"46\" r=\"24\" fill=\"#008A7E\"/><g transform=\"translate(340.0 24.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-3-5V6a4 4 0 0 1 8 0\"/></g></g><line x1=\"410\" y1=\"190\" x2=\"436\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"0\" width=\"408\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"486\" cy=\"46\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(780.0 24.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-3-5V6a4 4 0 0 1 8 0\"/></g></g><line x1=\"850\" y1=\"190\" x2=\"876\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"880\" y=\"0\" width=\"408\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"926\" cy=\"46\" r=\"24\" fill=\"#A8322A\"/><g transform=\"translate(1220.0 24.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-3-5V6a4 4 0 0 1 8 0\"/></g></g><line x1=\"1290\" y1=\"190\" x2=\"1316\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1320\" y=\"120\" width=\"344\" height=\"140\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(1340.0 166.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 22,
+     "y": 32,
+     "w": 48,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 100,
+     "w": 360,
      "t": "O que eu estou suspeitando?",
-     "x": "sem completar “quero saber se tem”, é ansiedade, não indicação",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 230,
+     "w": 360,
+     "t": "sem completar “quero saber se tem”, é ansiedade, não indicação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 462,
+     "y": 32,
+     "w": 48,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 464,
+     "y": 100,
+     "w": 360,
      "t": "O resultado muda a conduta?",
-     "x": "se faço o mesmo com laudo normal e alterado, não é agora",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 464,
+     "y": 230,
+     "w": 360,
+     "t": "se faço o mesmo com laudo normal e alterado, não é agora",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 902,
+     "y": 32,
+     "w": 48,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 100,
+     "w": 360,
      "t": "E o achado que eu não procurei?",
-     "x": "ele vai vir; decida antes o que fazer com ele",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 904,
+     "y": 230,
+     "w": 360,
+     "t": "ele vai vir; decida antes o que fazer com ele",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1400,
+     "y": 172,
+     "w": 250,
+     "t": "aí, o exame",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     }
    ],
-   "gap_itens": 26,
+   "eyebrow": "Erro três · pedir sem pergunta",
+   "titulo": "Três perguntas antes de qualquer exame",
    "destaque": "Auditoria de um mês: anote cada exame pedido e se mudou a conduta.",
    "destaque_cor": "tinta"
   },
   {
    "id": "palavras",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Erro quatro · a palavra vira prognóstico",
-   "titulo": "Feitas para descrever tecido, lidas com medo",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Quatro palavras do laudo, grandes, pesando sobre uma pessoa pequena embaixo. Degeneração, lida como fim. Rotura, lida como algo partido. Lesão, lida como dano novo. Desgaste, lido como prazo de validade\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"392\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"196\" y1=\"204\" x2=\"832\" y2=\"268\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.5\"/><rect x=\"424\" y=\"0\" width=\"392\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"620\" y1=\"204\" x2=\"832\" y2=\"268\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.5\"/><rect x=\"848\" y=\"0\" width=\"392\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1044\" y1=\"204\" x2=\"832\" y2=\"268\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.5\"/><rect x=\"1272\" y=\"0\" width=\"392\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1468\" y1=\"204\" x2=\"832\" y2=\"268\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.5\"/><g transform=\"translate(800.0 270.0) scale(1.3333)\"><g fill=\"#12202E\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 40,
+     "w": 392,
      "t": "Degeneração",
-     "x": "lida como fim",
-     "cor": "verm"
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 0,
+     "y": 120,
+     "w": 392,
+     "t": "lida como fim",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 424,
+     "y": 40,
+     "w": 392,
      "t": "Rotura",
-     "x": "lida como algo partido",
-     "cor": "verm"
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 424,
+     "y": 120,
+     "w": 392,
+     "t": "lida como algo partido",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 848,
+     "y": 40,
+     "w": 392,
      "t": "Lesão",
-     "x": "lida como dano novo",
-     "cor": "verm"
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 848,
+     "y": 120,
+     "w": 392,
+     "t": "lida como dano novo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1272,
+     "y": 40,
+     "w": 392,
      "t": "Desgaste",
-     "x": "lida como prazo de validade",
-     "cor": "verm"
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1272,
+     "y": 120,
+     "w": 392,
+     "t": "lida como prazo de validade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 296,
+     "w": 400,
+     "t": "quem lê com medo",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Erro quatro · a palavra vira prognóstico",
+   "titulo": "Feitas para descrever tecido, lidas com medo",
    "destaque": "Tem gente que para de correr porque leu “desgaste”. Ninguém mandou parar.",
    "destaque_cor": "tinta"
   },
   {
    "id": "laudo",
-   "tipo": "numeros",
-   "eyebrow": "E se o laudo fosse escrito melhor?",
-   "titulo": "Prevalência dentro do laudo de coluna",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Um laudo de coluna com uma frase a mais: a prevalência do achado em gente sem dor da mesma idade. O ensaio randomizado testou isso em 250.401 adultos, em 98 clínicas de atenção primária. O efeito sobre o que veio depois foi pequeno\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 0 0 H 560 L 620 60 V 360 H 0 Z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 20.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"24\" y=\"96\" width=\"520\" height=\"14\" rx=\"7\" fill=\"#C9CFD4\"/><rect x=\"24\" y=\"130\" width=\"440\" height=\"14\" rx=\"7\" fill=\"#C9CFD4\"/><rect x=\"24\" y=\"164\" width=\"360\" height=\"14\" rx=\"7\" fill=\"#C9CFD4\"/><rect x=\"24\" y=\"210\" width=\"572\" height=\"120\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"680\" y=\"0\" width=\"560\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"680\" y=\"110\" width=\"560\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1244\" y1=\"100\" x2=\"1300\" y2=\"100\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1310\" y=\"0\" width=\"354\" height=\"206\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "n": "250.401",
-     "x": "adultos no ensaio randomizado",
-     "cor": "tinta"
+     "x": 80,
+     "y": 30,
+     "w": 440,
+     "t": "laudo de coluna",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "98",
-     "x": "clínicas de atenção primária",
-     "cor": "tinta"
+     "x": 44,
+     "y": 226,
+     "w": 530,
+     "t": "+ prevalência do achado em gente sem dor da mesma idade",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
     },
     {
-     "n": "pequeno",
-     "x": "efeito sobre o que veio depois",
-     "cor": "verm"
+     "x": 700,
+     "y": 20,
+     "w": 240,
+     "t": "250.401",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 950,
+     "y": 32,
+     "w": 280,
+     "t": "adultos no ensaio randomizado",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 700,
+     "y": 130,
+     "w": 240,
+     "t": "98",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 950,
+     "y": 142,
+     "w": 280,
+     "t": "clínicas de atenção primária",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1310,
+     "y": 30,
+     "w": 354,
+     "t": "efeito",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1310,
+     "y": 70,
+     "w": 354,
+     "t": "pequeno",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1326,
+     "y": 140,
+     "w": 322,
+     "t": "sobre o que veio depois",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "E se o laudo fosse escrito melhor?",
+   "titulo": "Prevalência dentro do laudo de coluna",
    "destaque": "A frase no papel não substitui a conversa. Quem desarma o laudo é quem está na frente do paciente.",
    "destaque_cor": "tinta",
    "fonte": "JAMA Netw Open 2020"
   },
   {
    "id": "dizer",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Um balão de fala com a continuação da frase: o que explica a sua dor é o que mudou no treino nas últimas semanas, e é isso que a gente vai ajustar. Ao lado, uma etiqueta: não é consolo, é informação correta\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><path d=\"M 20 0 H 1100 Q 1120 0 1120 20 V 220 Q 1120 240 1100 240 H 180 L 110 300 L 120 240 H 20 Q 0 240 0 220 V 20 Q 0 0 20 0 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(30.0 30.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"1180\" y=\"40\" width=\"484\" height=\"160\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 40,
+     "w": 980,
+     "t": "“O que explica a sua dor é o que mudou no treino nas últimas semanas, e é isso que a gente vai ajustar.”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 70,
+     "w": 444,
+     "t": "não é consolo:",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 116,
+     "w": 444,
+     "t": "é informação correta",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Como dizer",
-   "frase": "“Essas alterações são comuns na sua idade, e a maioria de quem tem não sente dor.”",
-   "apoio": "“O que explica a sua dor é o que mudou no treino nas últimas semanas, e é isso que a gente vai ajustar.” Não é consolo: é informação correta."
+   "titulo": "“Essas alterações são comuns na sua idade, e a maioria de quem tem não sente dor.”"
   },
   {
    "id": "controle",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Dois esquemas, sem valores. No tendão, a função volta e a imagem continua alterada. No músculo, a imagem melhora antes da capacidade. O retorno se decide por função. À direita, as exceções em que a imagem de controle tem lugar: lesão óssea em sítio de alto risco; suspeita de complicação; quadro que não segue o esperado\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"510\" height=\"330\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(20,20)\"><polyline points=\"40,250 140,200 240,140 340,100 440,80\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><polyline points=\"40,90 140,92 240,94 340,96 440,95\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><line x1=\"30\" y1=\"270\" x2=\"460\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><rect x=\"530\" y=\"0\" width=\"510\" height=\"330\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(550,20)\"><polyline points=\"40,250 140,230 240,190 340,140 440,90\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><polyline points=\"40,250 140,140 240,90 340,80 440,78\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><line x1=\"30\" y1=\"270\" x2=\"460\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><rect x=\"1100\" y=\"0\" width=\"564\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1124.0 96.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1124.0 192.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1124.0 288.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 14,
+     "w": 400,
+     "t": "Tendão",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 296,
+     "w": 220,
+     "t": "função volta",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 296,
+     "w": 230,
+     "t": "imagem segue alterada",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 554,
+     "y": 14,
+     "w": 400,
+     "t": "Músculo",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 570,
+     "y": 296,
+     "w": 220,
+     "t": "capacidade, devagar",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 296,
+     "w": 230,
+     "t": "imagem melhora antes",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 346,
+     "w": 1040,
+     "t": "o retorno se decide por função · esquema",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 18,
+     "w": 500,
+     "t": "Exceções",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1178,
+     "y": 100,
+     "w": 460,
+     "t": "lesão óssea em sítio de alto risco",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1178,
+     "y": 196,
+     "w": 460,
+     "t": "suspeita de complicação",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1178,
+     "y": 292,
+     "w": 460,
+     "t": "quadro que não segue o esperado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Erro cinco · repetir para ver se curou",
-   "titulo": "A imagem de controle engana nos dois sentidos",
-   "esq": {
-    "t": "Engana",
-    "cor": "verm",
-    "itens": [
-     "tendão: imagem alterada com a pessoa correndo bem",
-     "músculo: imagem melhora antes da capacidade",
-     "o retorno se decide por função"
-    ]
-   },
-   "dir": {
-    "t": "Exceções",
-    "cor": "petr",
-    "itens": [
-     "lesão óssea em sítio de alto risco",
-     "suspeita de complicação",
-     "quadro que não segue o esperado"
-    ]
-   },
-   "destaque_cor": "tinta"
+   "titulo": "A imagem de controle engana nos dois sentidos"
   },
   {
    "id": "pedir",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O outro lado da balança",
-   "titulo": "Quando pedir é obrigação",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Seis situações em que pedir imagem é obrigação. Trauma: não apoia ou dor óssea localizada, regra de Ottawa. Joelho que incha em horas depois de torção. Osso de alto risco: virilha, frente da tíbia, meio do pé. Bloqueio articular: trava e não completa o movimento. Sinais sistêmicos: dor noturna, febre, perda de peso; déficit neurológico. Tratamento bem feito falhou: a imagem entra na revisão do diagnóstico\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"564\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(586.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1128\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1150.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><rect x=\"0\" y=\"206\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(22.0 228.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"564\" y=\"206\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(586.0 228.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><rect x=\"1128\" y=\"206\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1150.0 228.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 86,
+     "y": 30,
+     "w": 430,
      "t": "Trauma",
-     "x": "não apoia ou dor óssea localizada; regra de Ottawa",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 98,
+     "w": 490,
+     "t": "não apoia ou dor óssea localizada; regra de Ottawa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 650,
+     "y": 30,
+     "w": 430,
      "t": "Joelho que incha em horas",
-     "x": "depois de torção",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 98,
+     "w": 490,
+     "t": "depois de torção",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1214,
+     "y": 30,
+     "w": 430,
      "t": "Osso de alto risco",
-     "x": "virilha, frente da tíbia, meio do pé",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1152,
+     "y": 98,
+     "w": 490,
+     "t": "virilha, frente da tíbia, meio do pé",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 86,
+     "y": 236,
+     "w": 430,
      "t": "Bloqueio articular",
-     "x": "trava e não completa o movimento",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 304,
+     "w": 490,
+     "t": "trava e não completa o movimento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 650,
+     "y": 236,
+     "w": 430,
      "t": "Sinais sistêmicos",
-     "x": "dor noturna, febre, perda de peso; déficit neurológico",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 304,
+     "w": 490,
+     "t": "dor noturna, febre, perda de peso; déficit neurológico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1214,
+     "y": 236,
+     "w": 430,
      "t": "Tratamento bem feito falhou",
-     "x": "a imagem entra na revisão do diagnóstico",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 304,
+     "w": 490,
+     "t": "a imagem entra na revisão do diagnóstico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "destaque_cor": "tinta"
+   "eyebrow": "O outro lado da balança",
+   "titulo": "Quando pedir é obrigação"
   },
   {
    "id": "fecho",

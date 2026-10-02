@@ -90,6 +90,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Caso ilustrativo · o plan
                     {"t": "Fisioterapia e preparação", "x": "Tratam a função."}],
           "quem": "Próxima aula, a última do módulo: prevenção, eficácia e adesão."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-12")
+
 spec = {"arquivo": "aulas/MOD07/07-12-imagem-no-esporte-e-o-achado-incidental.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Imagem no esporte", "subtitulo": "Cinco erros diante do achado incidental",

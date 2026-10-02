@@ -2576,6 +2576,222 @@ def recidiva_711():
     rs.append(rot(1364, 140, "segunda lesão", w=300, tam=26, cor=PAPEL, peso=700, alinha="center", serif=True))
     return slide("recidiva", 320, p, rs, eyebrow="A parte que evita a recidiva", titulo="Sem corrigir a causa energética, o retorno é frágil.")
 
+# ---------------------------------------------------------------- 7.12
+
+def caso_712():
+    """7.12: a corredora, o laudo com três achados e as duas perguntas."""
+    p = [svg_abre(1664, 360, "Caso ilustrativo. Uma corredora na casa dos quarenta, três vezes por semana, com dor no joelho há três semanas, desde que aumentou o ritmo. Ela chega com a ressonância. O laudo: lesão horizontal do menisco medial, condropatia patelar grau dois, edema ósseo subcondral. E duas perguntas: vou ter que operar? Vou poder voltar a correr?")]
+    rs = []
+    p.append(caixa(0, 0, 440, 360, OXID, CARTAO, esp=2, rx=16))
+    p.append(icone("h:woman", 24, 24, 72, OXID))
+    rs += [rot(110, 34, "casa dos quarenta", w=310, tam=24, cor=OXID, peso=700), rot(110, 72, "corre três vezes por semana", w=310, tam=20, cor=TINTA),
+           rot(24, 150, "dor no joelho há três semanas, desde que aumentou o ritmo", w=392, tam=23, cor=TINTA, peso=700, lh=1.3)]
+    X = 480
+    p.append(f'<path d="M {X} 0 H {X + 620} L {X + 680} 60 V 360 H {X} Z" fill="{CARTAO}" stroke="{TINTA}" stroke-width="2"/>')
+    p.append(icone("t:clipboard-list", X + 24, 20, 44, TINTA))
+    rs.append(rot(X + 80, 30, "laudo de ressonância", w=500, tam=22, cor=TINTA, peso=700))
+    for j, t in enumerate(["lesão horizontal do menisco medial", "condropatia patelar grau dois", "edema ósseo subcondral"]):
+        y = 104 + j * 78
+        p.append(f'<rect x="{X + 24}" y="{y}" width="632" height="62" rx="10" fill="{FOSF_T}"/>')
+        rs.append(rot(X + 44, y + 18, t, w=600, tam=22, cor=FOSF, peso=700))
+    for k, q in enumerate(["“Vou ter que operar?”", "“Vou poder voltar a correr?”"]):
+        y = 30 + k * 170
+        p.append(f'<path d="M 1200 {y} H 1644 Q 1664 {y} 1664 {y + 20} V {y + 110} Q 1664 {y + 130} 1644 {y + 130} H 1230 L 1190 {y + 150} L 1206 {y + 130} H 1220 Q 1200 {y + 130} 1200 {y + 110} Z" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="2"/>')
+        rs.append(rot(1220, y + 44, q, w=420, tam=25, cor=TINTA, peso=700, serif=True))
+    return slide("caso", 360, p, rs, eyebrow="Caso ilustrativo", titulo="Corredora na casa dos quarenta, dor no joelho há três semanas, ressonância na mão.")
+
+
+def mesa_712():
+    """7.12: a dor pequena num canto e o laudo ocupando o centro da mesa."""
+    p = [svg_abre(1664, 360, "Uma mesa vista de cima. Num canto, pequena, a dor: três semanas, começou quando o ritmo subiu, é o que ela veio resolver. No centro, grande, o laudo: três achados que ocuparam a conversa; agora o assunto é o menisco"), defs(MUDO)]
+    rs = []
+    p.append(f'<rect x="0" y="0" width="1664" height="360" rx="24" fill="{GLIC_T}"/>')
+    p.append(caixa(40, 90, 380, 220, OXID, CARTAO, esp=2, rx=14))
+    rs += [rot(60, 106, "A dor", w=340, tam=25, cor=OXID, peso=700, serif=True)]
+    for j, t in enumerate(["três semanas", "começou quando o ritmo subiu", "é o que ela veio resolver"]):
+        rs.append(rot(60, 156 + j * 44, "· " + t, w=350, tam=19, cor=TINTA, peso=700 if j == 2 else 400))
+    p.append(seta(430, 200, 560, 200, MUDO, "m0", esp=3))
+    rs.append(rot(424, 160, "saiu do centro", w=140, tam=16, cor=MUDO, alinha="center"))
+    p.append(f'<path d="M 580 20 H 1560 L 1624 84 V 340 H 580 Z" fill="{CARTAO}" stroke="{FOSF}" stroke-width="4"/>')
+    p.append(icone("t:clipboard-list", 610, 44, 64, FOSF))
+    rs += [rot(690, 52, "O laudo", w=600, tam=34, cor=FOSF, peso=700, serif=True)]
+    for j, t in enumerate(["três achados", "ocupou o centro da conversa", "agora o assunto é o menisco"]):
+        rs.append(rot(610, 140 + j * 60, "· " + t, w=980, tam=27, cor=TINTA, peso=700 if j == 2 else 400))
+    return slide("mesa", 360, p, rs, eyebrow="O que aconteceu naquela mesa", titulo="O papel virou o assunto",
+                 destaque="O problema quase nunca é o exame. É o que a gente faz com ele.", destaque_cor="tinta")
+
+
+def joelhos_712():
+    """7.12: quatro barras de 0 a 100% em joelhos sem dor."""
+    p = [svg_abre(1664, 380, "Barras numa escala de zero a cem por cento, em 230 joelhos de adultos sem dor e sem lesão. Alguma alteração: 97%. Alteração de cartilagem femoropatelar: 57%. Alteração de medula óssea femoropatelar: 48%. Lesão de menisco, a maioria horizontal: 30%")]
+    rs = []
+    X0, E = 470, 10.5
+    itens = [("com alguma alteração", 97, TINTA), ("cartilagem femoropatelar", 57, GLIC), ("medula óssea femoropatelar", 48, GLIC), ("menisco, a maioria horizontal", 30, FOSF)]
+    for k, (t, v, cor) in enumerate(itens):
+        y = k * 82
+        rs.append(rot(0, y + 20, t, w=440, tam=22, cor=TINTA, peso=700, alinha="right"))
+        p.append(f'<rect x="{X0}" y="{y}" width="{100 * E:.0f}" height="66" rx="8" fill="{PAPEL}" stroke="{BORDA}" stroke-width="2"/>')
+        p.append(f'<rect x="{X0}" y="{y}" width="{v * E:.0f}" height="66" rx="8" fill="{cor}"/>')
+        rs.append(rot(X0 + 16, y + 12, f"{v}%", w=200, tam=34, cor=PAPEL, peso=700, serif=True))
+    rs.append(rot(X0, 340, "dos 230 joelhos, de 115 adultos sedentários sem queixa", w=1100, tam=19, cor=MUDO))
+    return slide("joelhos", 380, p, rs, eyebrow="Erro um · achar que a imagem diagnostica", titulo="230 joelhos de adultos sem dor, sem lesão",
+                 destaque="Mediana de 44 anos. Ninguém sentia dor.", destaque_cor="verm", fonte="Skeletal Radiol 2020")
+
+
+def dez_712():
+    """7.12: dez pessoas a partir dos quarenta; quase todas com achado, três com menisco."""
+    p = [svg_abre(1664, 320, "Dez pessoas quaisquer a partir dos quarenta. Quase todas têm alguma marca de achado no laudo; três delas têm menisco. O menisco já estava lá antes da dor, e vai continuar lá depois")]
+    rs = []
+    for i in range(10):
+        x = 20 + i * 164
+        men = i in (2, 5, 8)
+        p.append(icone("h:person", x, 30, 120, FOSF if men else MUDO))
+        if i != 6:
+            p.append(f'<circle cx="{x + 100}" cy="44" r="14" fill="{GLIC}" stroke="{PAPEL}" stroke-width="3"/>')
+        if men:
+            p.append(f'<rect x="{x}" y="170" width="124" height="44" rx="22" fill="{FOSF}"/>')
+            rs.append(rot(x, 180, "menisco", w=124, tam=19, cor=PAPEL, peso=700, alinha="center"))
+    p.append(f'<circle cx="34" cy="280" r="12" fill="{GLIC}"/>')
+    rs += [rot(56, 266, "alguma coisa no laudo: quase todas", w=700, tam=22, cor=TINTA, peso=700),
+           rot(820, 266, "menisco: três em dez", w=700, tam=22, cor=FOSF, peso=700)]
+    return slide("dez", 320, p, rs, eyebrow="Na prática", titulo="O menisco já estava lá antes da dor, e vai continuar lá depois.",
+                 destaque="Menisco pode doer, mas a presença do achado não prova que ele é a causa.", destaque_cor="verm")
+
+
+def territorios_712():
+    """7.12: quatro regiões, cada uma com barras do que a imagem mostra em gente sem dor."""
+    p = [svg_abre(1664, 420, "O mesmo padrão no corpo inteiro, em gente sem dor, em barras de zero a cem por cento. Ombro: rotura do manguito em 34%, completa em 15%. Quadril: alguma alteração em 73%, lesão do lábio em 69%. Coluna: degeneração de disco em 37% aos 20 anos, 96% aos 80. Joelho: sinais de artrose em 4 a 14% abaixo dos 40, 19 a 43% acima")]
+    rs = []
+    X0, E = 330, 9.6
+    regs = [("Ombro", [(0, 34, "rotura do manguito 34%"), (0, 15, "completa 15%")]),
+            ("Quadril", [(0, 73, "alguma alteração 73%"), (0, 69, "lábio 69%")]),
+            ("Coluna", [(0, 37, "disco aos 20 anos: 37%"), (0, 96, "aos 80: 96%")]),
+            ("Joelho", [(4, 14, "artrose abaixo dos 40: 4 a 14%"), (19, 43, "acima dos 40: 19 a 43%")])]
+    for k, (t, barras) in enumerate(regs):
+        y = k * 104
+        p.append(caixa(0, y, 300, 92, TINTA, CARTAO, esp=2, rx=14))
+        rs.append(rot(0, y + 28, t, w=300, tam=27, cor=TINTA, peso=700, alinha="center", serif=True))
+        for j, (a, b, lab) in enumerate(barras):
+            yy = y + 4 + j * 46
+            p.append(f'<rect x="{X0}" y="{yy}" width="{100 * E:.0f}" height="38" rx="6" fill="{PAPEL}" stroke="{BORDA}" stroke-width="1"/>')
+            p.append(f'<rect x="{X0 + a * E:.0f}" y="{yy}" width="{(b - a) * E:.0f}" height="38" rx="6" fill="{GLIC if j == 0 else FOSF}" opacity="{1 if a == 0 else 0.85}"/>')
+            rs.append(rot(X0 + max(b, 0) * E + 12 if b < 60 else X0 + 12, yy + 8, lab, w=420, tam=18, cor=TINTA if b < 60 else PAPEL, peso=700))
+    return slide("territorios", 420, p, rs, eyebrow="Erro dois · achar que o joelho é exceção", titulo="O mesmo padrão no corpo inteiro, em gente sem dor",
+                 destaque="Não é doença: é o tecido ao longo do tempo, como cabelo branco. Ninguém faz ressonância do cabelo.", destaque_cor="tinta",
+                 fonte="J Bone Joint Surg Am 1995 · Am J Sports Med 2012 · AJNR 2015 · Br J Sports Med 2019")
+
+
+def perguntas_712():
+    """7.12: três perguntas em fila, como portões, antes de qualquer exame."""
+    p = [svg_abre(1664, 380, "Três perguntas em fila, como portões antes de qualquer exame. O que eu estou suspeitando? Sem completar quero saber se tem, é ansiedade, não indicação. O resultado muda a conduta? Se faço o mesmo com laudo normal e alterado, não é agora. E o achado que eu não procurei? Ele vai vir; decida antes o que fazer com ele. Só depois dos três portões, o exame"), defs(MUDO)]
+    rs = []
+    qs = [("O que eu estou suspeitando?", "sem completar “quero saber se tem”, é ansiedade, não indicação", OXID), ("O resultado muda a conduta?", "se faço o mesmo com laudo normal e alterado, não é agora", GLIC),
+          ("E o achado que eu não procurei?", "ele vai vir; decida antes o que fazer com ele", FOSF)]
+    for k, (t, d, cor) in enumerate(qs):
+        x = k * 440
+        p.append(caixa(x, 0, 408, 380, cor, CARTAO, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 46}" cy="46" r="24" fill="{cor}"/>')
+        p.append(icone("t:lock-open", x + 340, 24, 44, cor))
+        rs += [rot(x + 22, 32, str(k + 1), w=48, tam=24, cor=PAPEL, peso=700, alinha="center"),
+               rot(x + 24, 100, t, w=360, tam=26, cor=cor, peso=700, serif=True, lh=1.2), rot(x + 24, 230, d, w=360, tam=22, cor=TINTA, lh=1.3)]
+        p.append(seta(x + 410, 190, x + 436, 190, MUDO, "m0", esp=3))
+    p.append(caixa(1320, 120, 344, 140, TINTA, TINTA, esp=0, rx=16))
+    p.append(icone("t:eye", 1340, 166, 48, PAPEL))
+    rs.append(rot(1400, 172, "aí, o exame", w=250, tam=26, cor=PAPEL, peso=700, serif=True))
+    return slide("perguntas", 380, p, rs, eyebrow="Erro três · pedir sem pergunta", titulo="Três perguntas antes de qualquer exame",
+                 destaque="Auditoria de um mês: anote cada exame pedido e se mudou a conduta.", destaque_cor="tinta")
+
+
+def palavras_712():
+    """7.12: quatro palavras do laudo pesando sobre uma pessoa pequena."""
+    p = [svg_abre(1664, 360, "Quatro palavras do laudo, grandes, pesando sobre uma pessoa pequena embaixo. Degeneração, lida como fim. Rotura, lida como algo partido. Lesão, lida como dano novo. Desgaste, lido como prazo de validade")]
+    rs = []
+    pal = [("Degeneração", "lida como fim"), ("Rotura", "lida como algo partido"), ("Lesão", "lida como dano novo"), ("Desgaste", "lida como prazo de validade")]
+    for k, (t, d) in enumerate(pal):
+        x = k * 424
+        p.append(caixa(x, 0, 392, 200, FOSF, FOSF_T, esp=2, rx=16))
+        rs += [rot(x, 40, t, w=392, tam=36, cor=FOSF, peso=700, alinha="center", serif=True), rot(x, 120, d, w=392, tam=22, cor=TINTA, alinha="center")]
+        p.append(f'<line x1="{x + 196}" y1="204" x2="832" y2="268" stroke="{FOSF}" stroke-width="2" opacity="0.5"/>')
+    p.append(icone("h:person", 800, 270, 64, TINTA))
+    rs.append(rot(880, 296, "quem lê com medo", w=400, tam=20, cor=MUDO, peso=700))
+    return slide("palavras", 360, p, rs, eyebrow="Erro quatro · a palavra vira prognóstico", titulo="Feitas para descrever tecido, lidas com medo",
+                 destaque="Tem gente que para de correr porque leu “desgaste”. Ninguém mandou parar.", destaque_cor="tinta")
+
+
+def laudo_712():
+    """7.12: o laudo com a frase de prevalência acrescentada, os números do ensaio e o efeito pequeno."""
+    p = [svg_abre(1664, 360, "Um laudo de coluna com uma frase a mais: a prevalência do achado em gente sem dor da mesma idade. O ensaio randomizado testou isso em 250.401 adultos, em 98 clínicas de atenção primária. O efeito sobre o que veio depois foi pequeno"), defs(MUDO)]
+    rs = []
+    p.append(f'<path d="M 0 0 H 560 L 620 60 V 360 H 0 Z" fill="{CARTAO}" stroke="{TINTA}" stroke-width="2"/>')
+    p.append(icone("t:clipboard-list", 24, 20, 44, TINTA))
+    rs.append(rot(80, 30, "laudo de coluna", w=440, tam=22, cor=TINTA, peso=700))
+    for j in range(3):
+        p.append(f'<rect x="24" y="{96 + j * 34}" width="{520 - j * 80}" height="14" rx="7" fill="{CINZA}"/>')
+    p.append(f'<rect x="24" y="210" width="572" height="120" rx="12" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"/>')
+    rs.append(rot(44, 226, "+ prevalência do achado em gente sem dor da mesma idade", w=530, tam=22, cor=OXID, peso=700, lh=1.3))
+    nums = [("250.401", "adultos no ensaio randomizado"), ("98", "clínicas de atenção primária")]
+    for k, (n, t) in enumerate(nums):
+        y = k * 110
+        p.append(caixa(680, y, 560, 96, TINTA, CARTAO, esp=2, rx=14))
+        rs += [rot(700, y + 20, n, w=240, tam=40, cor=TINTA, peso=700, serif=True), rot(950, y + 32, t, w=280, tam=20, cor=TINTA, lh=1.2)]
+    p.append(seta(1244, 100, 1300, 100, MUDO, "m0", esp=3))
+    p.append(caixa(1310, 0, 354, 206, FOSF, FOSF_T, esp=3, rx=16))
+    rs += [rot(1310, 30, "efeito", w=354, tam=22, cor=TINTA, alinha="center"), rot(1310, 70, "pequeno", w=354, tam=44, cor=FOSF, peso=700, alinha="center", serif=True),
+           rot(1326, 140, "sobre o que veio depois", w=322, tam=20, cor=TINTA, alinha="center")]
+    return slide("laudo", 360, p, rs, eyebrow="E se o laudo fosse escrito melhor?", titulo="Prevalência dentro do laudo de coluna",
+                 destaque="A frase no papel não substitui a conversa. Quem desarma o laudo é quem está na frente do paciente.", destaque_cor="tinta",
+                 fonte="JAMA Netw Open 2020")
+
+
+def dizer_712():
+    """7.12: a segunda metade da frase, em balão, e o que ela é: informação correta."""
+    p = [svg_abre(1664, 320, "Um balão de fala com a continuação da frase: o que explica a sua dor é o que mudou no treino nas últimas semanas, e é isso que a gente vai ajustar. Ao lado, uma etiqueta: não é consolo, é informação correta")]
+    rs = []
+    p.append(f'<path d="M 20 0 H 1100 Q 1120 0 1120 20 V 220 Q 1120 240 1100 240 H 180 L 110 300 L 120 240 H 20 Q 0 240 0 220 V 20 Q 0 0 20 0 Z" fill="{OXID_T}" stroke="{OXID}" stroke-width="3"/>')
+    p.append(icone("t:message-circle", 30, 30, 52, OXID))
+    rs.append(rot(100, 40, "“O que explica a sua dor é o que mudou no treino nas últimas semanas, e é isso que a gente vai ajustar.”", w=980, tam=30, cor=TINTA, peso=700, serif=True, lh=1.3))
+    p.append(caixa(1180, 40, 484, 160, TINTA, TINTA, esp=0, rx=16))
+    rs += [rot(1200, 70, "não é consolo:", w=444, tam=26, cor=PAPEL, alinha="center"), rot(1200, 116, "é informação correta", w=444, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True)]
+    return slide("dizer", 320, p, rs, eyebrow="Como dizer", titulo="“Essas alterações são comuns na sua idade, e a maioria de quem tem não sente dor.”")
+
+
+def controle_712():
+    """7.12: duas curvas em esquema, tendão e músculo, com a imagem e a função descasadas, e as exceções."""
+    p = [svg_abre(1664, 400, "Dois esquemas, sem valores. No tendão, a função volta e a imagem continua alterada. No músculo, a imagem melhora antes da capacidade. O retorno se decide por função. À direita, as exceções em que a imagem de controle tem lugar: lesão óssea em sítio de alto risco; suspeita de complicação; quadro que não segue o esperado")]
+    rs = []
+    for k, (t, fun, img, lf, li) in enumerate([("Tendão", "40,250 140,200 240,140 340,100 440,80", "40,90 140,92 240,94 340,96 440,95", "função volta", "imagem segue alterada"),
+                                              ("Músculo", "40,250 140,230 240,190 340,140 440,90", "40,250 140,140 240,90 340,80 440,78", "capacidade, devagar", "imagem melhora antes")]):
+        x = k * 530
+        p.append(caixa(x, 0, 510, 330, FOSF, CARTAO, esp=2, rx=16))
+        rs.append(rot(x + 24, 14, t, w=400, tam=26, cor=FOSF, peso=700, serif=True))
+        p.append(f'<g transform="translate({x + 20},20)"><polyline points="{fun}" fill="none" stroke="{OXID}" stroke-width="5"/><polyline points="{img}" fill="none" stroke="{MUDO}" stroke-width="4"{TRACO}/>'
+                 f'<line x1="30" y1="270" x2="460" y2="270" stroke="{MUDO}" stroke-width="2"/></g>')
+        rs += [rot(x + 40, 296, lf, w=220, tam=18, cor=OXID, peso=700), rot(x + 260, 296, li, w=230, tam=18, cor=MUDO, peso=700, alinha="right")]
+    rs.append(rot(0, 346, "o retorno se decide por função · esquema", w=1040, tam=21, cor=TINTA, peso=700))
+    p.append(caixa(1100, 0, 564, 400, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(1124, 18, "Exceções", w=500, tam=27, cor=OXID, peso=700, serif=True))
+    for j, t in enumerate(["lesão óssea em sítio de alto risco", "suspeita de complicação", "quadro que não segue o esperado"]):
+        y = 96 + j * 96
+        p.append(icone("t:check", 1124, y, 40, OXID))
+        rs.append(rot(1178, y + 4, t, w=460, tam=23, cor=TINTA, peso=700, lh=1.25))
+    return slide("controle", 400, p, rs, eyebrow="Erro cinco · repetir para ver se curou", titulo="A imagem de controle engana nos dois sentidos")
+
+
+def pedir_712():
+    """7.12: seis situações em que pedir imagem é obrigação, em ladrilhos com ícones."""
+    p = [svg_abre(1664, 400, "Seis situações em que pedir imagem é obrigação. Trauma: não apoia ou dor óssea localizada, regra de Ottawa. Joelho que incha em horas depois de torção. Osso de alto risco: virilha, frente da tíbia, meio do pé. Bloqueio articular: trava e não completa o movimento. Sinais sistêmicos: dor noturna, febre, perda de peso; déficit neurológico. Tratamento bem feito falhou: a imagem entra na revisão do diagnóstico")]
+    rs = []
+    itens = [("t:alert-triangle", "Trauma", "não apoia ou dor óssea localizada; regra de Ottawa", FOSF), ("t:droplet", "Joelho que incha em horas", "depois de torção", FOSF),
+             ("t:target", "Osso de alto risco", "virilha, frente da tíbia, meio do pé", FOSF), ("t:lock", "Bloqueio articular", "trava e não completa o movimento", GLIC),
+             ("t:temperature", "Sinais sistêmicos", "dor noturna, febre, perda de peso; déficit neurológico", GLIC), ("t:zoom-question", "Tratamento bem feito falhou", "a imagem entra na revisão do diagnóstico", OXID)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        col, lin = k % 3, k // 3
+        x, y = col * 564, lin * 206
+        p.append(caixa(x, y, 536, 190, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 22, y + 22, 48, cor))
+        rs += [rot(x + 86, y + 30, t, w=430, tam=24, cor=cor, peso=700, serif=True), rot(x + 24, y + 98, d, w=490, tam=22, cor=TINTA, lh=1.3)]
+    return slide("pedir", 400, p, rs, eyebrow="O outro lado da balança", titulo="Quando pedir é obrigação")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"07-01": [numeros_71, usos_71, familias_71, consenso_71, denominador_71, novatos_71, vocabulario_71, oslo_71, leitura_71, rastreio_71],
@@ -2588,7 +2804,8 @@ LICOES = {"07-01": [numeros_71, usos_71, familias_71, consenso_71, denominador_7
           "07-08": [caso_78, tentativas_78, perguntas_78, ajuste_78, regua_78, pesada_78, comparacao_78, falhas_78, plano_78],
           "07-09": [sala_79, femoropatelar_79, mensagens_79, fazer_79, naofazer_79, inchou_79, gramado_79, depois_79, grindem_79, regras_79, prevencao_79],
           "07-10": [abertura_710, ottawa_710, alerta_710, semana_710, alta_710, instabilidade_710, programa_710, ombro_710, manguito_710, frentes_710, carga_710],
-          "07-11": [dedo_711, balanca_711, reconhecer_711, diferencial_711, risco_711, naoespera_711, energia_711, detalhes_711, perguntas_711, volta_711, recidiva_711]}
+          "07-11": [dedo_711, balanca_711, reconhecer_711, diferencial_711, risco_711, naoespera_711, energia_711, detalhes_711, perguntas_711, volta_711, recidiva_711],
+          "07-12": [caso_712, mesa_712, joelhos_712, dez_712, territorios_712, perguntas_712, palavras_712, laudo_712, dizer_712, controle_712, pedir_712]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
