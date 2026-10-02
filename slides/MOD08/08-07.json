@@ -26,34 +26,171 @@
  "slides": [
   {
    "id": "um3",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Uma linha do tempo do tratamento habitual, bem feito: entorse descendo do bloqueio, gelo, faixa e alguns dias de muleta, volta sem dor em pouco mais de uma semana. Ali o tratamento termina. No ano seguinte, de cada três atletas, uma torce de novo\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"60\" cy=\"80\" r=\"56\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(34.0 54.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><line x1=\"124\" y1=\"80\" x2=\"232\" y2=\"80\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"360\" cy=\"80\" r=\"56\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(334.0 54.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><line x1=\"424\" y1=\"80\" x2=\"532\" y2=\"80\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"660\" cy=\"80\" r=\"56\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(634.0 54.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6\"/><path d=\"m6 12l2-3l4-1l3 3l3 1\"/></g></g><line x1=\"810\" y1=\"0\" x2=\"810\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"850\" y=\"70\" width=\"814\" height=\"270\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(900.0 140.0) scale(2.2917)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1030.0 140.0) scale(2.2917)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1160.0 140.0) scale(2.2917)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": -20,
+     "y": 152,
+     "w": 200,
+     "t": "entorse",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 280,
+     "y": 152,
+     "w": 200,
+     "t": "gelo, faixa, muleta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 580,
+     "y": 152,
+     "w": 200,
+     "t": "sem dor em pouco mais de uma semana",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 830,
+     "y": 0,
+     "w": 320,
+     "t": "o tratamento termina aqui",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 874,
+     "y": 88,
+     "w": 780,
+     "t": "no ano seguinte",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1330,
+     "y": 160,
+     "w": 320,
+     "t": "uma em cada três torce de novo",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    }
+   ],
    "eyebrow": "Descendo do bloqueio, no pé da adversária",
-   "frase": "Um em cada três torceu de novo no ano seguinte.",
-   "apoio": "Com o tratamento habitual, bem feito: gelo, faixa, alguns dias de muleta, volta sem dor em pouco mais de uma semana. O tratamento termina antes da parte que evita a próxima."
+   "titulo": "Um em cada três torceu de novo no ano seguinte.",
+   "fonte": "Tratamento habitual, bem feito · BMJ 2009"
   },
   {
    "id": "ensaio",
-   "tipo": "numeros",
-   "eyebrow": "BMJ, 2009",
-   "titulo": "Oito semanas em casa, sem supervisão",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"522 atletas de 12 a 70 anos com entorse lateral recente, sorteados em dois braços. Tratamento habitual: 33% de nova entorse em um ano. Tratamento habitual mais oito semanas de programa de equilíbrio e propriocepção em casa, sem supervisão: 22%\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"90\" width=\"340\" height=\"160\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"350\" y1=\"170\" x2=\"420\" y2=\"80\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"350\" y1=\"170\" x2=\"420\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><g transform=\"translate(432.0 42.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"860\" y=\"20\" width=\"726\" height=\"100\" rx=\"8\" fill=\"#A8322A\"/><g transform=\"translate(432.0 222.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"860\" y=\"200\" width=\"484\" height=\"100\" rx=\"8\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
     {
-     "n": "522",
-     "x": "atletas de 12 a 70 anos com entorse lateral recente, sorteados",
-     "cor": "tinta"
+     "x": 0,
+     "y": 108,
+     "w": 340,
+     "t": "522",
+     "tam": 52,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "33%",
-     "x": "nova entorse em um ano com tratamento habitual",
-     "cor": "verm"
+     "x": 16,
+     "y": 186,
+     "w": 308,
+     "t": "atletas de 12 a 70 anos, entorse lateral recente",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
-     "n": "22%",
-     "x": "com o programa de equilíbrio e propriocepção em casa",
-     "cor": "petr"
+     "x": 492,
+     "y": 44,
+     "w": 350,
+     "t": "tratamento habitual",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1606,
+     "y": 46,
+     "w": 200,
+     "t": "33%",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 492,
+     "y": 224,
+     "w": 350,
+     "t": "+ 8 semanas em casa, sem supervisão",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1364,
+     "y": 226,
+     "w": 200,
+     "t": "22%",
+     "tam": 48,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 310,
+     "w": 600,
+     "t": "nova entorse em um ano",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "BMJ, 2009",
+   "titulo": "Oito semanas em casa, sem supervisão",
    "destaque": "Não foi um programa caro, conduzido todo dia por um profissional. A pessoa fez sozinha, depois de orientada.",
    "destaque_cor": "tinta",
    "fonte": "Ensaio holandês, BMJ 2009"
@@ -95,232 +232,1034 @@
   },
   {
    "id": "programa",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Os quatro ingredientes do módulo de lesões",
-   "titulo": "Em casa, oito semanas, depois da alta",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro ingredientes: amplitude, a dorsiflexão; força, panturrilha e estabilizadores do pé; equilíbrio, do apoio parado ao instável, olhos abertos a fechados; gesto, salto, aterrissagem e mudança de direção. Embaixo, uma faixa de oito semanas em casa depois da alta. A fisioterapia ensina e entrega por escrito; alguém pergunta toda semana se está sendo feito\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"386\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><rect x=\"426\" y=\"0\" width=\"386\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(448.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"852\" y=\"0\" width=\"386\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(874.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 20h4l1.5-3m7.5 3l-1-5h-5l1-7\"/><path d=\"m4 10l4-1l4-1l4 1.5l4 1.5m-9.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"1278\" y=\"0\" width=\"386\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1300.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><rect x=\"0\" y=\"290\" width=\"124\" height=\"60\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(44.0 300.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"140\" y=\"290\" width=\"124\" height=\"60\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(184.0 300.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"280\" y=\"290\" width=\"124\" height=\"60\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(324.0 300.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"420\" y=\"290\" width=\"124\" height=\"60\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(464.0 300.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"560\" y=\"290\" width=\"124\" height=\"60\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(604.0 300.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"700\" y=\"290\" width=\"124\" height=\"60\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(744.0 300.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"840\" y=\"290\" width=\"124\" height=\"60\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(884.0 300.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"980\" y=\"290\" width=\"124\" height=\"60\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1024.0 300.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1140\" y=\"250\" width=\"524\" height=\"150\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(1162.0 272.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 80,
+     "y": 30,
+     "w": 286,
      "t": "Amplitude",
-     "x": "a dorsiflexão, o tornozelo dobrando para a frente",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 22,
+     "y": 96,
+     "w": 342,
+     "t": "a dorsiflexão, o tornozelo dobrando para a frente",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 506,
+     "y": 30,
+     "w": 286,
      "t": "Força",
-     "x": "panturrilha e estabilizadores do pé",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 448,
+     "y": 96,
+     "w": 342,
+     "t": "panturrilha e estabilizadores do pé",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 932,
+     "y": 30,
+     "w": 286,
      "t": "Equilíbrio",
-     "x": "do apoio parado ao instável, olhos abertos a fechados",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 874,
+     "y": 96,
+     "w": 342,
+     "t": "do apoio parado ao instável, olhos abertos a fechados",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1358,
+     "y": 30,
+     "w": 286,
      "t": "Gesto",
-     "x": "salto, aterrissagem, mudança de direção",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 96,
+     "w": 342,
+     "t": "salto, aterrissagem, mudança de direção",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 248,
+     "w": 800,
+     "t": "em casa, oito semanas, depois da alta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1220,
+     "y": 274,
+     "w": 420,
+     "t": "alguém pergunta toda semana se está sendo feito",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 366,
+     "w": 1100,
+     "t": "a fisioterapia ensina e entrega por escrito",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "A fisioterapia ensina e entrega por escrito. Alguém pergunta toda semana se está sendo feito.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Os quatro ingredientes do módulo de lesões",
+   "titulo": "Em casa, oito semanas, depois da alta"
   },
   {
    "id": "ortese",
-   "tipo": "numeros",
-   "eyebrow": "O segundo número, 2014",
-   "titulo": "Treino, órtese ou os dois",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três barras de nova entorse em um ano, em 384 atletas: 27% com o treino de oito semanas; 15% com órtese semirrígida em todo esporte por 12 meses; 19% com os dois, órtese por oito semanas. Órtese contra treino: risco relativo de 0,53. Ao lado, o que não foi diferente entre os grupos: gravidade, tempo perdido e custos\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"20\" y=\"81\" width=\"220\" height=\"189\" rx=\"8\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"300\" y=\"165\" width=\"220\" height=\"105\" rx=\"8\" fill=\"#008A7E\" opacity=\"1\"/><rect x=\"580\" y=\"137\" width=\"220\" height=\"133\" rx=\"8\" fill=\"#008A7E\" opacity=\"0.7\"/><line x1=\"0\" y1=\"270\" x2=\"840\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"920\" y=\"0\" width=\"744\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(944.0 90.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><g transform=\"translate(944.0 166.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><g transform=\"translate(944.0 242.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "27%",
-     "x": "nova entorse com o treino de oito semanas",
-     "cor": "ambar"
+     "x": 20,
+     "y": 27,
+     "w": 220,
+     "t": "27%",
+     "tam": 40,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "15%",
-     "x": "com órtese semirrígida em todo esporte por 12 meses",
-     "cor": "petr"
+     "x": 0,
+     "y": 280,
+     "w": 260,
+     "t": "treino, 8 semanas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "19%",
-     "x": "com os dois, órtese por oito semanas",
-     "cor": "petr"
+     "x": 300,
+     "y": 111,
+     "w": 220,
+     "t": "15%",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 280,
+     "y": 280,
+     "w": 260,
+     "t": "órtese, 12 meses",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 83,
+     "w": 220,
+     "t": "19%",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 280,
+     "w": 260,
+     "t": "os dois",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 310,
+     "w": 860,
+     "t": "nova entorse em um ano · órtese contra treino: risco relativo 0,53",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 20,
+     "w": 700,
+     "t": "Não foram diferentes",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1004,
+     "y": 98,
+     "w": 620,
+     "t": "gravidade das novas entorses",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 174,
+     "w": 620,
+     "t": "tempo perdido",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 250,
+     "w": 620,
+     "t": "custos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 304,
+     "w": 700,
+     "t": "a órtese reduziu quantas, não o tamanho",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Órtese contra treino: risco relativo de 0,53. Mas gravidade, tempo perdido e custos não foram diferentes.",
-   "destaque_cor": "tinta",
+   "eyebrow": "O segundo número, 2014",
+   "titulo": "Treino, órtese ou os dois",
    "fonte": "384 atletas, ensaio holandês · Br J Sports Med 2014"
   },
   {
    "id": "juntar",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas linhas do tempo, em esquema. A órtese: proteção desde o primeiro dia, enquanto a capacidade não voltou; depende de usar em todo treino, por meses. O treino: reconstrói amplitude, força e controle, subindo ao longo de semanas; depende de fazer, e muita gente para. Um sinal de mais entre as duas: para quem já torceu, se somam\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"780\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><line x1=\"40\" y1=\"210\" x2=\"740\" y2=\"210\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 40 210 L 40 110 L 740 110 L 740 210 Z\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"884\" y=\"0\" width=\"780\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(908.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"924\" y1=\"210\" x2=\"1624\" y2=\"210\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 924 205 C 1184 200, 1334 120, 1624 104\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\"/><circle cx=\"832\" cy=\"180\" r=\"34\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 82,
+     "y": 28,
+     "w": 680,
+     "t": "A órtese protege",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 218,
+     "w": 700,
+     "t": "tempo · esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 260,
+     "w": 720,
+     "t": "· funciona desde o primeiro dia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 300,
+     "w": 720,
+     "t": "· depende de usar em todo treino, por meses",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 966,
+     "y": 28,
+     "w": 680,
+     "t": "O treino reconstrói",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 218,
+     "w": 700,
+     "t": "tempo · esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 260,
+     "w": 720,
+     "t": "· amplitude, força e controle, em semanas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 300,
+     "w": 720,
+     "t": "· depende de fazer, e muita gente para",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 798,
+     "y": 152,
+     "w": 68,
+     "t": "+",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Sem briga de torcida",
    "titulo": "Uma protege, o outro reconstrói",
-   "esq": {
-    "t": "A órtese",
-    "cor": "petr",
-    "itens": [
-     "protege enquanto a capacidade não voltou",
-     "funciona desde o primeiro dia",
-     "depende de usar em todo treino, por meses"
-    ]
-   },
-   "dir": {
-    "t": "O treino",
-    "cor": "ambar",
-    "itens": [
-     "reconstrói amplitude, força e controle",
-     "leva semanas para fazer efeito",
-     "depende de fazer, e muita gente para"
-    ]
-   },
    "destaque": "Para quem já torceu, as duas se somam. A pergunta útil: qual delas essa pessoa vai de fato usar ou fazer, e por quanto tempo?",
    "destaque_cor": "tinta",
    "fonte": "Revisão de revisões, Br J Sports Med 2017"
   },
   {
    "id": "oito",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Em esquema, depois da entorse: a dor cai sozinha e zera perto da alta. A capacidade do tornozelo fica baixa e só sobe na faixa das oito semanas depois da alta, se o programa for feito; sem ele, continua baixa. É quando a dor vai embora que a pessoa para de cuidar do tornozelo\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"520\" y=\"20\" width=\"700\" height=\"280\" fill=\"#DDEFEC\"/><line x1=\"120\" y1=\"300\" x2=\"1640\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"520\" y1=\"10\" x2=\"520\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M 120 40 C 320 60, 360 270, 520 296 L 1640 296\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/><path d=\"M 120 250 C 320 240, 420 220, 520 220 C 820 210, 1020 100, 1220 80 L 1640 76\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><path d=\"M 520 220 L 1640 222\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 0,
+     "w": 200,
+     "t": "dor",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 270,
+     "y": 60,
+     "w": 240,
+     "t": "a dor vai embora sozinha",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 534,
+     "y": 0,
+     "w": 200,
+     "t": "alta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 30,
+     "w": 420,
+     "t": "oito semanas depois da alta",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 34,
+     "w": 380,
+     "t": "com o programa",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 180,
+     "w": 380,
+     "t": "sem ele, a capacidade não volta",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 236,
+     "w": 110,
+     "t": "capacidade",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 312,
+     "w": 200,
+     "t": "entorse",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 312,
+     "w": 200,
+     "t": "esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "A próxima entorse se decide nas oito semanas depois da alta.",
-   "apoio": "A dor vai embora sozinha. A capacidade do tornozelo não. E é quando a dor vai embora que a pessoa para de cuidar do tornozelo."
+   "titulo": "A próxima entorse se decide nas oito semanas depois da alta.",
+   "destaque": "É quando a dor vai embora que a pessoa para de cuidar do tornozelo.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "paass",
-   "tipo": "cards",
-   "por_linha": 5,
-   "eyebrow": "Consenso internacional de 2021",
-   "titulo": "Cinco perguntas antes de voltar",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Cinco cartões, como cinco fechaduras de uma porta de retorno. Dor: no esporte e nas últimas 24 horas. Tornozelo: amplitude, força, resistência, potência. Percepção: confiança, estabilidade, prontidão. Controle: equilíbrio parado e em movimento. Desempenho: saltos, agilidade, um treino inteiro. A porta só abre com as cinco\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"0\" y=\"0\" width=\"304\" height=\"240\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><g transform=\"translate(246.0 26.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"340\" y=\"0\" width=\"304\" height=\"240\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(362.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><g transform=\"translate(586.0 26.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"680\" y=\"0\" width=\"304\" height=\"240\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(702.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><g transform=\"translate(926.0 26.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"1020\" y=\"0\" width=\"304\" height=\"240\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1042.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 20h4l1.5-3m7.5 3l-1-5h-5l1-7\"/><path d=\"m4 10l4-1l4-1l4 1.5l4 1.5m-9.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><g transform=\"translate(1266.0 26.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"1360\" y=\"0\" width=\"304\" height=\"240\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1382.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1606.0 26.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><path d=\"M 152 252 L 152 272 L 1512 272 L 1512 252\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"832\" y1=\"272\" x2=\"832\" y2=\"286\" stroke=\"#6B7A87\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 22,
+     "y": 92,
+     "w": 260,
      "t": "Dor",
-     "x": "no esporte e nas últimas 24 horas",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 22,
+     "y": 140,
+     "w": 260,
+     "t": "no esporte e nas últimas 24 horas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 362,
+     "y": 92,
+     "w": 260,
      "t": "Tornozelo",
-     "x": "amplitude, força, resistência, potência",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 362,
+     "y": 140,
+     "w": 260,
+     "t": "amplitude, força, resistência, potência",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 702,
+     "y": 92,
+     "w": 260,
      "t": "Percepção",
-     "x": "confiança, estabilidade, prontidão",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 702,
+     "y": 140,
+     "w": 260,
+     "t": "confiança, estabilidade, prontidão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1042,
+     "y": 92,
+     "w": 260,
      "t": "Controle",
-     "x": "equilíbrio parado e em movimento",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1042,
+     "y": 140,
+     "w": 260,
+     "t": "equilíbrio parado e em movimento",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1382,
+     "y": 92,
+     "w": 260,
      "t": "Desempenho",
-     "x": "saltos, agilidade, um treino inteiro",
-     "cor": "tinta"
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1382,
+     "y": 140,
+     "w": 260,
+     "t": "saltos, agilidade, um treino inteiro",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 432,
+     "y": 290,
+     "w": 800,
+     "t": "a porta só abre com as cinco, não com a ausência de dor",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "98% de concordância entre os participantes. A decisão depende das cinco, não da ausência de dor.",
+   "eyebrow": "Consenso internacional de 2021",
+   "titulo": "Cinco perguntas antes de voltar",
+   "destaque": "98% de concordância entre os participantes.",
    "destaque_cor": "tinta",
    "fonte": "Br J Sports Med 2021"
   },
   {
    "id": "barato",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Cinco linhas, cada pergunta com um jeito barato de responder. Dor: nota de 0 a 10 no treino e na manhã seguinte. Tornozelo: joelho à parede com fita; elevações de calcanhar numa perna, dos dois lados. Percepção: você confia nesse tornozelo para bloquear e cair?, e um questionário de instabilidade. Controle: apoio numa perna, olhos abertos e fechados; alcance em várias direções. Desempenho: saltos numa perna, de lado e para a frente; o treino completo, observado. Embaixo: compare com o outro lado e com a própria pessoa ao longo das semanas\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"330\" height=\"58\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(14.0 10.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><line x1=\"340\" y1=\"29\" x2=\"392\" y2=\"29\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"404\" y=\"0\" width=\"1260\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"70\" width=\"330\" height=\"58\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(14.0 80.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><line x1=\"340\" y1=\"99\" x2=\"392\" y2=\"99\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"404\" y=\"70\" width=\"1260\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"140\" width=\"330\" height=\"58\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(14.0 150.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><line x1=\"340\" y1=\"169\" x2=\"392\" y2=\"169\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"404\" y=\"140\" width=\"1260\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"210\" width=\"330\" height=\"58\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(14.0 220.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 20h4l1.5-3m7.5 3l-1-5h-5l1-7\"/><path d=\"m4 10l4-1l4-1l4 1.5l4 1.5m-9.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><line x1=\"340\" y1=\"239\" x2=\"392\" y2=\"239\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"404\" y=\"210\" width=\"1260\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"280\" width=\"330\" height=\"58\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(14.0 290.0) scale(1.5833)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"340\" y1=\"309\" x2=\"392\" y2=\"309\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"404\" y=\"280\" width=\"1260\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"362\" width=\"1664\" height=\"58\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(18.0 371.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 64,
+     "y": 15,
+     "w": 250,
+     "t": "Dor",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 426,
+     "y": 16,
+     "w": 1220,
+     "t": "nota de 0 a 10 no treino e na manhã seguinte",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 85,
+     "w": 250,
+     "t": "Tornozelo",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 426,
+     "y": 86,
+     "w": 1220,
+     "t": "joelho à parede com fita; elevações de calcanhar numa perna, dos dois lados",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 155,
+     "w": 250,
+     "t": "Percepção",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 426,
+     "y": 156,
+     "w": 1220,
+     "t": "“Você confia nesse tornozelo para bloquear e cair?”; questionário de instabilidade",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 225,
+     "w": 250,
+     "t": "Controle",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 426,
+     "y": 226,
+     "w": 1220,
+     "t": "apoio numa perna, olhos abertos e fechados; alcance em várias direções",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 295,
+     "w": 250,
+     "t": "Desempenho",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 426,
+     "y": 296,
+     "w": 1220,
+     "t": "saltos numa perna, de lado e para a frente; o treino completo, observado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 376,
+     "w": 1570,
+     "t": "nenhum valor mágico: compare com o outro lado e com a própria pessoa ao longo das semanas",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Sem laboratório",
-   "titulo": "Um jeito barato de responder cada uma",
-   "cab": [
-    "Pergunta",
-    "Como medir"
-   ],
-   "larguras": [
-    22,
-    78
-   ],
-   "linhas": [
-    [
-     "Dor",
-     "nota de 0 a 10 no treino e na manhã seguinte"
-    ],
-    [
-     "Tornozelo",
-     "joelho à parede com fita; elevações de calcanhar numa perna, dos dois lados"
-    ],
-    [
-     "Percepção",
-     "“Você confia nesse tornozelo para bloquear e cair?”; questionário de instabilidade"
-    ],
-    [
-     "Controle",
-     "apoio numa perna, olhos abertos e fechados; alcance em várias direções"
-    ],
-    [
-     "Desempenho",
-     "saltos numa perna, de lado e para a frente; o treino completo, observado"
-    ]
-   ],
-   "destaque": "Nenhum valor mágico: compare com o outro lado e com a própria pessoa ao longo das semanas.",
-   "destaque_cor": "tinta"
+   "titulo": "Um jeito barato de responder cada uma"
   },
   {
    "id": "erros",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O que os números explicam",
-   "titulo": "Três erros de alta",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três cartões de erro de alta, cada um com um pequeno desenho. Alta pela dor: três figuras, uma torcendo de novo; é o erro que produz o um em cada três. Órtese sem treino: a órtese sai e o tornozelo é o mesmo de antes. Programa que para no jogo: oito semanas previstas, só duas feitas; quem para na segunda semana não fez o programa que funcionou\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(60.0 90.0) scale(2.5000)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(200.0 90.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(340.0 90.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(628.0 100.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><line x1=\"618\" y1=\"200\" x2=\"738\" y2=\"100\" stroke=\"#A8322A\" stroke-width=\"5\"/><g transform=\"translate(778.0 126.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><g transform=\"translate(878.0 100.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"1160\" y=\"120\" width=\"50\" height=\"80\" rx=\"8\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"1220\" y=\"120\" width=\"50\" height=\"80\" rx=\"8\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"1280\" y=\"120\" width=\"50\" height=\"80\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"1340\" y=\"120\" width=\"50\" height=\"80\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"1400\" y=\"120\" width=\"50\" height=\"80\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"1460\" y=\"120\" width=\"50\" height=\"80\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"1520\" y=\"120\" width=\"50\" height=\"80\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"1580\" y=\"120\" width=\"50\" height=\"80\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.5\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 20,
+     "w": 480,
      "t": "Alta pela dor",
-     "x": "o erro que produz o um em cada três",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 250,
+     "w": 480,
+     "t": "o erro que produz o um em cada três",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 592,
+     "y": 20,
+     "w": 480,
      "t": "Órtese sem treino",
-     "x": "quando a órtese sai, o tornozelo é o mesmo de antes",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 250,
+     "w": 480,
+     "t": "quando a órtese sai, o tornozelo é o mesmo de antes",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1160,
+     "y": 20,
+     "w": 480,
      "t": "Programa que para no jogo",
-     "x": "quem para na segunda semana não fez o programa que funcionou",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 250,
+     "w": 480,
+     "t": "quem para na segunda semana não fez o programa que funcionou",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1160,
+     "y": 80,
+     "w": 480,
+     "t": "8 semanas previstas, 2 feitas",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque_cor": "tinta"
+   "eyebrow": "O que os números explicam",
+   "titulo": "Três erros de alta"
   },
   {
    "id": "quem",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Em esquema, cinco faixas da entorse às oito semanas depois da alta. Médico: nos primeiros dias, descarta fratura e lesão associada, decide imagem, analgesia. Fisioterapia: fase inicial, ensina e entrega o programa, aplica as cinco perguntas. Preparação física: o programa dentro do aquecimento, saltos e mudança de direção. Treinador: cobra a órtese indicada e não conta como recuperada quem parou o programa. Atleta: sabe a conta, nove fazendo, uma entorse a menos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"330\" y1=\"0\" x2=\"330\" y2=\"380\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"633\" y1=\"0\" x2=\"633\" y2=\"380\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1603\" y1=\"0\" x2=\"1603\" y2=\"380\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"330\" y=\"6\" width=\"170\" height=\"60\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"1\"/><rect x=\"330\" y=\"82\" width=\"303\" height=\"60\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.55\"/><rect x=\"633\" y=\"82\" width=\"970\" height=\"60\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.3\"/><rect x=\"1518\" y=\"82\" width=\"85\" height=\"60\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.55\"/><rect x=\"633\" y=\"158\" width=\"970\" height=\"60\" rx=\"10\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"330\" y=\"234\" width=\"1273\" height=\"60\" rx=\"10\" fill=\"#12202E\" opacity=\"0.3\"/><rect x=\"330\" y=\"310\" width=\"1273\" height=\"60\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 240,
+     "y": 388,
+     "w": 180,
+     "t": "entorse",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 543,
+     "y": 388,
+     "w": 180,
+     "t": "alta",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1484,
+     "y": 388,
+     "w": 180,
+     "t": "8 semanas depois",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 24,
+     "w": 300,
+     "t": "Médico",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 514,
+     "y": 24,
+     "w": 1072,
+     "t": "primeiros dias: descarta fratura e lesão associada; imagem; analgesia",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 100,
+     "w": 300,
+     "t": "Fisioterapia",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 100,
+     "w": 1241,
+     "t": "fase inicial; ensina e entrega o programa; as cinco perguntas",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 176,
+     "w": 300,
+     "t": "Preparação física",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 647,
+     "y": 176,
+     "w": 938,
+     "t": "o programa no aquecimento; saltos e mudança de direção",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 252,
+     "w": 300,
+     "t": "Treinador",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 252,
+     "w": 1241,
+     "t": "cobra a órtese indicada; não conta como recuperada quem parou o programa",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 328,
+     "w": 300,
+     "t": "Atleta",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 328,
+     "w": 1241,
+     "t": "sabe a conta: nove fazendo, uma entorse a menos",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 388,
+     "w": 200,
+     "t": "esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Quem faz o quê",
-   "titulo": "Da beira da quadra às oito semanas",
-   "cab": [
-    "Quem",
-    "O que faz"
-   ],
-   "larguras": [
-    26,
-    74
-   ],
-   "linhas": [
-    [
-     "Médico",
-     "descarta fratura e lesão associada; imagem; analgesia nos primeiros dias"
-    ],
-    [
-     "Fisioterapia",
-     "fase inicial; ensina e entrega o programa; aplica as cinco perguntas"
-    ],
-    [
-     "Preparação física",
-     "o programa dentro do aquecimento; saltos e mudança de direção"
-    ],
-    [
-     "Treinador",
-     "cobra a órtese indicada; não conta como recuperada quem parou o programa"
-    ],
-    [
-     "Atleta",
-     "sabe a conta: nove fazendo, uma entorse a menos"
-    ]
-   ],
-   "destaque_cor": "tinta"
+   "titulo": "Da beira da quadra às oito semanas"
   },
   {
    "id": "fecho",

@@ -104,6 +104,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Tornozelo depois da entors
                     {"t": "Atleta", "x": "Faz as oito semanas depois da alta."}],
           "quem": "Próxima aula: ombro e coluna; parar, modificar ou manter."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-07")
+
 spec = {"arquivo": "aulas/MOD08/08-07-reabilitacao-do-tornozelo-e-prevencao-de-recidiva.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Tornozelo depois da entorse", "subtitulo": "A recidiva em números e as cinco perguntas do retorno",
