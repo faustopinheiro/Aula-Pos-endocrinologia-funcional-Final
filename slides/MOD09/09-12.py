@@ -107,6 +107,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Fecho do módulo · três 
                     {"t": "Todos", "x": "O salto, o acúmulo, a volta após pausa, o ronco com pausas."}],
           "quem": "Próximo módulo: psicologia do esporte e saúde mental."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-12")
+
 spec = {"arquivo": "aulas/MOD09/09-12-sono-e-recuperacao-como-variaveis-de-treino.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Sono e recuperação", "subtitulo": "O sono como variável de treino, em números",

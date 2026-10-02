@@ -2483,6 +2483,237 @@ def papeis_911():
         p.append(f'<line x1="{xa}" y1="{y + 95}" x2="{xb}" y2="{200}" stroke="{cor}" stroke-width="3"{TRACO}/>')
     return slide("papeis", 400, p, rs, eyebrow="Uma folha só, compartilhada", titulo="Quem faz o quê")
 
+# ---------------------------------------------------------------- 9.12
+
+def raia_912():
+    """9.12: a noite do remador numa régua de horas, cinco horas de sono e o treino às 5h30, com a queixa ao lado."""
+    p = [svg_abre(1664, 360, "Uma régua de horas, das 21h às 6h. A faixa do sono vai das 23h30 às 4h45, cerca de cinco horas, nas noites de treino. Às 5h30, o treino na água. Embaixo, a queixa: não estou recuperando, e o meu tempo no ergômetro piorou. E o primeiro impulso: mexer no treino")]
+    rs = []
+    x0, x1 = 40, 1624
+    X = lambda h: x0 + (h - 21) / 9 * (x1 - x0)
+    p.append(f'<line x1="{x0}" y1="150" x2="{x1}" y2="150" stroke="{MUDO}" stroke-width="2"/>')
+    for h in range(21, 31):
+        p.append(f'<line x1="{X(h):.0f}" y1="140" x2="{X(h):.0f}" y2="160" stroke="{MUDO}" stroke-width="2"/>')
+    for h, t in [(21, "21h"), (24, "0h"), (27, "3h"), (30, "6h")]:
+        rs.append(rot(X(h) - 40, 168, t, w=80, tam=17, cor=MUDO, peso=700, alinha="center"))
+    p.append(f'<rect x="{X(23.5):.0f}" y="60" width="{X(28.75) - X(23.5):.0f}" height="70" rx="12" fill="{AZUL}"/>')
+    p.append(icone("t:zzz", X(23.5) + 20, 71, 48, PAPEL))
+    rs += [rot(X(23.5) + 80, 78, "cerca de 5 horas", w=600, tam=26, cor=PAPEL, peso=700, serif=True),
+           rot(X(23.5) - 160, 20, "deita 23h30", w=320, tam=19, cor=TINTA, peso=700, alinha="center"),
+           rot(X(28.75) - 160, 20, "acorda 4h45", w=320, tam=19, cor=TINTA, peso=700, alinha="center")]
+    p.append(f'<rect x="{X(29.5):.0f}" y="60" width="{X(30) - X(29.5):.0f}" height="70" rx="10" fill="{OXID}"/>')
+    rs.append(rot(X(30) - 290, 192, "treino na água 5h30", w=260, tam=19, cor=OXID, peso=700, alinha="right"))
+    p.append(caixa(0, 220, 1060, 140, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:message-circle", 24, 246, 52, TINTA))
+    rs += [rot(96, 238, "A queixa", w=940, tam=18, cor=MUDO, peso=700),
+           rot(96, 270, "“Não estou recuperando, e o meu tempo no ergômetro piorou.”", w=940, tam=24, cor=TINTA, peso=700, serif=True, lh=1.25)]
+    p.append(caixa(1100, 220, 564, 140, GLIC, GLIC_T, esp=2, rx=16))
+    rs += [rot(1124, 238, "O primeiro impulso", w=520, tam=18, cor=GLIC, peso=700), rot(1124, 272, "mexer no treino", w=520, tam=28, cor=TINTA, peso=700, serif=True)]
+    return slide("raia", 360, p, rs, eyebrow="Treino na água às 5h30", titulo="Cinco horas de sono nas noites de treino.")
+
+
+def dose_912():
+    """9.12: uma régua de horas de sono com a faixa recomendada, a zona curta e o remador marcado."""
+    p = [svg_abre(1664, 300, "Uma régua de horas de sono, de 4 a 10. A faixa de 7 a 9 horas, recomendação para adultos do painel de 2015. Abaixo de 7, a zona do sono habitual curto, frequente em atletas. Um marcador em 5 horas: o remador, três noites por semana")]
+    rs = []
+    x0, x1 = 40, 1624
+    X = lambda h: x0 + (h - 4) / 6 * (x1 - x0)
+    p.append(f'<rect x="{X(4):.0f}" y="120" width="{X(7) - X(4):.0f}" height="60" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="2"/>')
+    p.append(f'<rect x="{X(7):.0f}" y="120" width="{X(9) - X(7):.0f}" height="60" fill="{OXID}"/>')
+    p.append(f'<rect x="{X(9):.0f}" y="120" width="{X(10) - X(9):.0f}" height="60" fill="{CARTAO}" stroke="{BORDA}" stroke-width="2"/>')
+    for h in range(4, 11):
+        rs.append(rot(X(h) - 40, 192, f"{h} h", w=80, tam=19, cor=TINTA, peso=700, alinha="center"))
+    rs += [rot(X(7), 136, "7 a 9 h: recomendação para adultos", w=X(9) - X(7), tam=20, cor=PAPEL, peso=700, alinha="center"),
+           rot(X(4), 60, "abaixo de 7 h: sono habitual curto, frequente em atletas", w=X(7) - X(4), tam=19, cor=FOSF, peso=700, alinha="center")]
+    p.append(f'<path d="M {X(5):.0f} 120 l -16 -22 l 32 0 Z" fill="{GLIC}"/>')
+    p.append(f'<line x1="{X(5):.0f}" y1="120" x2="{X(5):.0f}" y2="240" stroke="{GLIC}" stroke-width="5"/>')
+    rs.append(rot(X(5) - 200, 250, "5 h: o remador, três noites por semana", w=400, tam=20, cor=GLIC, peso=700, alinha="center"))
+    return slide("dose", 300, p, rs, eyebrow="O primeiro número: quanto", titulo="A dose de sono",
+                 destaque="O consenso de 2021 não deu um número único: rastrear, educar e individualizar.", destaque_cor="tinta",
+                 fonte="Sleep Health 2015 · Br J Sports Med 2021")
+
+
+def sustenta_912():
+    """9.12: as três frentes do sono, cada uma com o lugar do curso onde já apareceu."""
+    p = [svg_abre(1664, 300, "Três quadros com ícone. Músculo e hormônios: testosterona e hormônio do crescimento, no módulo de endocrinologia. O gesto: o aprendizado motor se consolida durante o sono. A defesa: sono e imunidade conversam nos dois sentidos; carga e infecção, no módulo de medicina esportiva clínica")]
+    rs = []
+    for k, (ic, t, x_, cor, fundo) in enumerate([("t:barbell", "Músculo e hormônios", "testosterona e hormônio do crescimento: módulo de endocrinologia", OXID, OXID_T),
+                                                  ("t:brain", "O gesto", "o aprendizado motor se consolida durante o sono", GLIC, GLIC_T),
+                                                  ("t:shield", "A defesa", "sono e imunidade conversam nos dois sentidos; carga e infecção: medicina esportiva clínica", TINTA, CARTAO)]):
+        x = k * 564
+        p.append(caixa(x, 0, 536, 300, cor, fundo, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 268}" cy="96" r="60" fill="{CARTAO}" stroke="{cor}" stroke-width="3"/>')
+        p.append(icone(ic, x + 236, 64, 64, cor))
+        p.append(icone("t:moon", x + 300, 40, 36, AZUL))
+        rs += [rot(x + 24, 172, t, w=490, tam=24, cor=cor, peso=700, serif=True, alinha="center"), rot(x + 24, 214, x_, w=490, tam=19, cor=TINTA, lh=1.3, alinha="center")]
+    return slide("sustenta", 300, p, rs, eyebrow="O que o sono muda", titulo="Três frentes que o curso já mostrou",
+                 destaque="Esta aula acrescenta os números de desempenho e de lesão.", destaque_cor="tinta")
+
+
+def extensao_912():
+    """9.12: o sono estendido em cerca de 111 minutos e o sprint e os arremessos depois."""
+    p = [svg_abre(1664, 340, "À esquerda, o sono de cada noite com um bloco a mais de cerca de 111 minutos. À direita, os resultados: o sprint padronizado caiu de 16,2 para 15,5 segundos, duas barras; o acerto nos lances livres subiu 9%; nos arremessos de três, 9,2%")]
+    rs = []
+    p.append(caixa(0, 0, 560, 340, AZUL, AZUL_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "Mais tempo na cama", w=520, tam=24, cor=AZUL, peso=700, serif=True))
+    p.append(f'<rect x="40" y="110" width="300" height="60" rx="10" fill="{AZUL}" opacity="0.5"/>')
+    p.append(f'<rect x="344" y="110" width="176" height="60" rx="10" fill="{AZUL}"/>')
+    rs += [rot(40, 126, "o sono de antes", w=300, tam=19, cor=TINTA, peso=700, alinha="center"),
+           rot(330, 186, "+ cerca de 111 min", w=200, tam=21, cor=AZUL, peso=700, alinha="center"),
+           rot(24, 262, "11 jogadores de basquete universitário", w=520, tam=19, cor=TINTA, peso=700)]
+    p.append(caixa(600, 0, 1064, 340, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(624, 16, "Sprint padronizado", w=500, tam=22, cor=OXID, peso=700, serif=True))
+    for j, (v, lab) in enumerate([(16.2, "antes"), (15.5, "depois")]):
+        y = 70 + j * 60
+        w = (v - 12) * 100
+        p.append(f'<rect x="720" y="{y}" width="{w:.0f}" height="40" rx="8" fill="{OXID}" opacity="{0.5 + j * 0.5}"/>')
+        rs += [rot(624, y + 8, lab, w=90, tam=18, cor=TINTA, peso=700), rot(730 + w, y + 6, f"{v} s".replace(".", ","), w=100, tam=22, cor=TINTA, peso=700)]
+    rs.append(rot(1300, 90, "−0,7 s", w=340, tam=44, cor=OXID, peso=700, serif=True, alinha="center"))
+    for j, (v, t) in enumerate([("+9%", "acerto nos lances livres"), ("+9,2%", "acerto nos arremessos de três")]):
+        x = 624 + j * 520
+        p.append(icone("t:ball-basketball", x, 230, 48, OXID))
+        rs += [rot(x + 60, 226, v, w=200, tam=32, cor=OXID, peso=700, serif=True), rot(x + 60, 276, t, w=440, tam=18, cor=TINTA, peso=700)]
+    return slide("extensao", 340, p, rs, eyebrow="O segundo número: estender o sono", titulo="Cerca de 111 minutos a mais por noite",
+                 destaque="Onze jogadores de basquete universitário, sem grupo controle: parte do efeito pode ser expectativa. A direção é coerente, e a intervenção não tem custo nem efeito adverso.", destaque_cor="ambar",
+                 fonte="Sleep 2011")
+
+
+def lesao_912():
+    """9.12: a razão de chances de 1,7 com o intervalo de 1,0 a 3,0, encostando na linha do nenhum efeito."""
+    import math
+    p = [svg_abre(1664, 300, "Um gráfico de efeito em escala logarítmica, de 0,5 a 4. Uma linha vertical em 1, nenhuma diferença. O ponto em 1,7 vez mais chance de ter tido lesão, com o intervalo de confiança de 95% de 1,0 a 3,0, que encosta na linha do 1. À direita: 112 atletas adolescentes, menos de 8 horas por noite, cerca de 21 meses de registro, estudo observacional")]
+    rs = []
+    x0, x1 = 60, 1020
+    X = lambda v: x0 + (math.log(v) - math.log(0.5)) / (math.log(4) - math.log(0.5)) * (x1 - x0)
+    p.append(f'<line x1="{x0}" y1="200" x2="{x1}" y2="200" stroke="{MUDO}" stroke-width="2"/>')
+    for v in (0.5, 1, 2, 4):
+        p.append(f'<line x1="{X(v):.0f}" y1="194" x2="{X(v):.0f}" y2="206" stroke="{MUDO}" stroke-width="2"/>')
+        rs.append(rot(X(v) - 40, 212, f"{v}".replace(".", ","), w=80, tam=18, cor=MUDO, peso=700, alinha="center"))
+    p.append(f'<line x1="{X(1):.0f}" y1="30" x2="{X(1):.0f}" y2="200" stroke="{TINTA}" stroke-width="2"{TRACO}/>')
+    rs.append(rot(X(1) - 210, 30, "1 = nenhuma diferença", w=200, tam=17, cor=MUDO, alinha="right"))
+    p.append(f'<line x1="{X(1.0):.0f}" y1="120" x2="{X(3.0):.0f}" y2="120" stroke="{FOSF}" stroke-width="6" stroke-linecap="round"/>')
+    p.append(f'<rect x="{X(1.7) - 16:.0f}" y="104" width="32" height="32" fill="{FOSF}"/>')
+    rs += [rot(X(1.7) - 120, 56, "1,7 vez", w=240, tam=32, cor=FOSF, peso=700, alinha="center", serif=True),
+           rot(X(1.0) - 70, 108, "1,0", w=60, tam=18, cor=TINTA, peso=700, alinha="right"), rot(X(3.0) + 10, 108, "3,0", w=60, tam=18, cor=TINTA, peso=700),
+           rot(x0, 256, "chance de ter tido lesão · intervalo de confiança de 95%", w=x1 - x0, tam=18, cor=MUDO, alinha="center")]
+    p.append(caixa(1080, 0, 584, 300, TINTA, CARTAO, esp=2, rx=16))
+    for j, (n, t) in enumerate([("112", "atletas adolescentes"), ("< 8 h", "de sono por noite"), ("21 meses", "de registro, aproximadamente")]):
+        y = 24 + j * 88
+        rs += [rot(1104, y, n, w=200, tam=34, cor=TINTA, peso=700, serif=True), rot(1310, y + 12, t, w=340, tam=19, cor=TINTA, peso=700)]
+    return slide("lesao", 300, p, rs, eyebrow="O terceiro número: lesão", titulo="Menos de oito horas, em adolescentes",
+                 destaque="Observacional: quem dorme pouco também treina e estuda mais. Associação não é causa, como na aula de índices de carga.", destaque_cor="tinta",
+                 fonte="J Pediatr Orthop 2014")
+
+
+def cai_912():
+    """9.12: o que se mantém e o que cai depois de uma noite curta, em setas."""
+    p = [svg_abre(1664, 300, "Dois quadros. Pode se manter, com setas na horizontal: alguns esforços máximos e gestos motores amplos. Tende a cair, com setas para baixo: desempenho específico do esporte, decisão e respostas cognitivas; e uma seta para cima no esforço percebido: o mesmo esforço parece mais pesado")]
+    rs = []
+    for k, (t, cor, fundo, itens) in enumerate([("Pode se manter", OXID, OXID_T, [("t:arrow-right", "alguns esforços máximos"), ("t:arrow-right", "gestos motores amplos")]),
+                                                 ("Tende a cair", FOSF, FOSF_T, [("t:trending-down", "desempenho específico do esporte"), ("t:trending-down", "decisão e respostas cognitivas"), ("t:trending-up", "o mesmo esforço parece mais pesado")])]):
+        x0 = 0 if k == 0 else 640
+        w = 600 if k == 0 else 1024
+        p.append(caixa(x0, 0, w, 300, cor, fundo, esp=2, rx=16))
+        rs.append(rot(x0 + 24, 16, t, w=w - 48, tam=24, cor=cor, peso=700, serif=True))
+        for j, (ic, it) in enumerate(itens):
+            y = 80 + j * 70
+            p.append(icone(ic, x0 + 24, y, 48, cor))
+            rs.append(rot(x0 + 90, y + 10, it, w=w - 120, tam=23, cor=TINTA, peso=700))
+    return slide("cai", 300, p, rs, eyebrow="O que cai primeiro", titulo="Depois de uma noite curta",
+                 destaque="O remador: ergômetro pior e nota de esforço mais alta, sem a carga ter mudado. O mesmo trabalho custando mais.", destaque_cor="tinta",
+                 fonte="Revisão, Sports Med 2015")
+
+
+def imita_912():
+    """9.12: a mesma lista de sinais vinda de duas causas, excesso de treino e sono curto."""
+    p = [svg_abre(1664, 360, "No meio, uma lista de cinco sinais: recuperação pior, desempenho pior, esforço maior, humor pior, mais infecção. Da esquerda chegam setas do excesso de treino; da direita, setas do sono curto. A mesma lista. Embaixo: reduzir a carga de quem dorme cinco horas ajuda um pouco, e não resolve"), defs(GLIC, AZUL)]
+    rs = []
+    p.append(caixa(0, 90, 360, 120, GLIC, GLIC_T, esp=2, rx=16))
+    p.append(icone("t:barbell", 24, 124, 52, GLIC))
+    rs.append(rot(90, 132, "Excesso de treino", w=260, tam=23, cor=GLIC, peso=700, serif=True, lh=1.15))
+    p.append(caixa(1304, 90, 360, 120, AZUL, AZUL_T, esp=2, rx=16))
+    p.append(icone("t:moon", 1328, 124, 52, AZUL))
+    rs.append(rot(1394, 132, "Sono curto", w=260, tam=23, cor=AZUL, peso=700, serif=True))
+    sinais = ["recuperação pior", "desempenho pior", "esforço maior", "humor pior", "mais infecção"]
+    for j, t in enumerate(sinais):
+        y = j * 54
+        p.append(caixa(500, y, 664, 44, TINTA, CARTAO, esp=2, rx=10))
+        rs.append(rot(500, y + 10, t, w=664, tam=20, cor=TINTA, peso=700, alinha="center"))
+        p.append(seta(364, 150, 494, y + 22, GLIC, "m0", esp=2))
+        p.append(seta(1300, 150, 1170, y + 22, AZUL, "m1", esp=2))
+    p.append(caixa(0, 290, 1664, 70, TINTA, TINTA, esp=0, rx=14))
+    rs.append(rot(24, 308, "Reduzir a carga de quem dorme cinco horas ajuda um pouco, e não resolve.", w=1616, tam=22, cor=PAPEL, peso=700, alinha="center"))
+    return slide("imita", 360, p, rs, eyebrow="A ideia da aula", titulo="Sono curto imita excesso de treino.")
+
+
+def noite_912():
+    """9.12: as duas saídas para o remador, deitar cedo antes da água ou mover um treino para a noite com uma hora de folga."""
+    p = [svg_abre(1664, 360, "Duas faixas de tempo. Na de cima, a noite antes do treino na água: deitar às 21h30 e acordar às 4h45 chega perto de 7 horas; é uma conta, não recomendação de estudo. Na de baixo, um treino movido para a noite, no ergômetro: termina e só então, depois de pelo menos 1 hora, a cama. Ao lado: 23 estudos na metanálise, treino à noite não piorou o sono; a exceção foi o intenso terminando menos de 1 hora antes de deitar")]
+    rs = []
+    p.append(caixa(0, 0, 1060, 160, AZUL, AZUL_T, esp=2, rx=16))
+    rs.append(rot(24, 14, "Antes do treino na água", w=600, tam=22, cor=AZUL, peso=700, serif=True))
+    p.append(f'<rect x="200" y="70" width="640" height="50" rx="10" fill="{AZUL}"/>')
+    rs += [rot(40, 82, "21h30", w=150, tam=22, cor=TINTA, peso=700, alinha="right"), rot(852, 82, "4h45", w=100, tam=22, cor=TINTA, peso=700),
+           rot(200, 82, "perto de 7 h", w=640, tam=22, cor=PAPEL, peso=700, alinha="center")]
+    p.append(caixa(0, 200, 1060, 160, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 214, "Um treino movido para a noite", w=600, tam=22, cor=OXID, peso=700, serif=True))
+    p.append(f'<rect x="60" y="270" width="300" height="50" rx="10" fill="{OXID}"/>')
+    rs.append(rot(60, 282, "ergômetro", w=300, tam=21, cor=PAPEL, peso=700, alinha="center"))
+    p.append(f'<line x1="370" y1="295" x2="700" y2="295" stroke="{GLIC}" stroke-width="4"{TRACO}/>')
+    rs.append(rot(370, 252, "pelo menos 1 hora", w=330, tam=20, cor=GLIC, peso=700, alinha="center"))
+    p.append(f'<rect x="710" y="270" width="320" height="50" rx="10" fill="{AZUL}"/>')
+    p.append(icone("t:bed", 730, 275, 40, PAPEL))
+    rs.append(rot(780, 282, "cama", w=230, tam=21, cor=PAPEL, peso=700))
+    p.append(caixa(1100, 0, 564, 360, TINTA, CARTAO, esp=2, rx=16))
+    rs += [rot(1124, 24, "23", w=200, tam=60, cor=OXID, peso=700, serif=True),
+           rot(1124, 110, "estudos na metanálise: treino à noite não piorou o sono", w=516, tam=21, cor=TINTA, peso=700, lh=1.3),
+           rot(1124, 210, "a exceção: intenso terminando menos de 1 hora antes de deitar", w=516, tam=21, cor=GLIC, peso=700, lh=1.3)]
+    return slide("noite", 360, p, rs, eyebrow="Como se dosa: o treino decide o sono", titulo="Treinar à noite é uma opção",
+                 destaque="Para o remador: trocar um treino da raia por ergômetro no começo da noite. O folclore não pode tirar do amador a única janela que ele tem.", destaque_cor="tinta",
+                 fonte="Sports Med 2019 · o horário das 21h30 é uma conta, não recomendação de estudo")
+
+
+def reconhecer_912():
+    """9.12: as seis perguntas do diário de duas semanas e os quatro sinais encaminhados para quem cuida."""
+    p = [svg_abre(1664, 420, "À esquerda, um diário de duas semanas com seis perguntas: a que horas deita e levanta; quanto demora para dormir; se acorda à noite; se acorda descansado; se tem sono de dia; se ronca ou tem pausas. O relógio serve como tendência. À direita, quatro sinais encaminhados. Sono curto por agenda: horário, treino e janela na cama, com a preparação física. Insônia instalada: terapia cognitivo-comportamental primeiro, com médico e psicologia. Ronco com pausas: suspeita de apneia, médico. Cafeína tardia e álcool: cafeína no módulo de suplementos, álcool fragmenta o fim da noite, equipe")]
+    rs = []
+    p.append(caixa(0, 0, 560, 420, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:notebook", 24, 18, 44, TINTA))
+    rs.append(rot(80, 24, "Duas semanas de diário", w=460, tam=22, cor=TINTA, peso=700, serif=True))
+    for j, t in enumerate(["deita e levanta: a que horas?", "quanto demora para dormir?", "acorda à noite?", "acorda descansado?", "sono durante o dia?", "ronco ou pausas?"]):
+        rs.append(rot(40, 84 + j * 46, f"{j + 1}. {t}", w=500, tam=19, cor=TINTA, peso=700))
+    rs.append(rot(24, 378, "relógio: serve como tendência", w=520, tam=17, cor=MUDO))
+    linhas = [("Sono curto por agenda", "horário, treino e janela na cama · preparação física", OXID, OXID_T),
+              ("Insônia instalada", "terapia cognitivo-comportamental primeiro · médico, psicologia", FOSF, FOSF_T),
+              ("Ronco com pausas", "suspeita de apneia · médico", FOSF, FOSF_T),
+              ("Cafeína tardia, álcool", "cafeína: módulo de suplementos; álcool fragmenta o fim da noite · equipe", GLIC, GLIC_T)]
+    for j, (s, f, cor, fundo) in enumerate(linhas):
+        y = j * 108
+        p.append(caixa(600, y, 1064, 96, cor, fundo, esp=2, rx=14))
+        rs += [rot(624, y + 12, s, w=1010, tam=22, cor=cor, peso=700, serif=True), rot(624, y + 50, f, w=1016, tam=19, cor=TINTA, peso=700)]
+    return slide("reconhecer", 420, p, rs, eyebrow="Como se mede e quando não é de treino", titulo="Seis perguntas, duas semanas de diário",
+                 destaque="Lista de higiene do sono não é tratamento de insônia. Relógio serve como tendência.", destaque_cor="tinta",
+                 fonte="Ann Intern Med 2016")
+
+
+def plano_912():
+    """9.12: o plano do remador em quatro passos, na ordem em que entram."""
+    p = [svg_abre(1664, 300, "Quatro passos em sequência. 7h30 na cama nas noites antes do treino na água. Um treino à noite, no ergômetro, terminando 1 hora antes de deitar. Duas semanas de diário antes de mexer na planilha de treino. O mesmo teste no ergômetro, na mesma condição, para ver a linha"), defs(MUDO)]
+    rs = []
+    passos = [("t:bed", "7h30 na cama", "nas noites antes do treino na água", OXID, OXID_T),
+              ("t:moon", "Um treino à noite", "ergômetro, terminando 1 hora antes de deitar", OXID, OXID_T),
+              ("t:notebook", "Duas semanas de diário", "antes de mexer na planilha de treino", GLIC, GLIC_T),
+              ("t:chart-line", "O mesmo teste", "ergômetro na mesma condição, para ver a linha", TINTA, CARTAO)]
+    for k, (ic, t, x_, cor, fundo) in enumerate(passos):
+        x = k * 424
+        p.append(caixa(x, 0, 392, 300, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 24, 56, cor))
+        rs += [rot(x + 24, 100, t, w=350, tam=24, cor=cor, peso=700, serif=True, lh=1.2), rot(x + 24, 180, x_, w=350, tam=20, cor=TINTA, lh=1.3)]
+        if k < 3:
+            p.append(seta(x + 394, 150, x + 420, 150, MUDO, "m0", esp=3))
+    return slide("plano", 300, p, rs, eyebrow="O plano, sem prometer desfecho", titulo="Para esse perfil de remador",
+                 destaque="Sono que não melhora com agenda, ronco com pausas ou insônia: sai da preparação física e vai para quem trata.", destaque_cor="verm")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
@@ -2495,7 +2726,8 @@ LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variaca
           "09-08": [propostas_98, quatro_98, conta_98, condicoes_98, fc_98, vfc_98, questionario_98, terceira_98, cenarios_98, regras_98],
           "09-09": [reuniao_99, origem_99, convenceu_99, causa_99, janelas_99, aleatorio_99, fragil_99, transplante_99, fica_99],
           "09-10": [planilha_910, pergunta_910, propriedades_910, parecido_910, padronizar_910, linha_910, bruto_910, repetir_910],
-          "09-11": [bilhete_911, distancia_911, etapas_911, encaixar_911, etapa_911, medir_911, alerta_911, papeis_911]}
+          "09-11": [bilhete_911, distancia_911, etapas_911, encaixar_911, etapa_911, medir_911, alerta_911, papeis_911],
+          "09-12": [raia_912, dose_912, sustenta_912, extensao_912, lesao_912, cai_912, imita_912, noite_912, reconhecer_912, plano_912]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
