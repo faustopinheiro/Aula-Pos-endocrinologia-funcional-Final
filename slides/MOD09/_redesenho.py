@@ -702,11 +702,206 @@ def registro_93():
         rs += [rot(x + 92, 266, t, w=700, tam=22, cor=TINTA, peso=700), rot(x + 92, 306, d, w=700, tam=30, cor=cor, peso=700, serif=True)]
     return slide("registro", 380, p, rs, eyebrow="Passo cinco", titulo="A ficha que transforma progressão em número")
 
+# ---------------------------------------------------------------- 9.4
+
+def lance_94():
+    """9.4: o arranque reto antes do gol e uma semana de treino quase sem velocidade máxima, em esquema."""
+    p = [svg_abre(1664, 340, "À esquerda, meio campo visto de cima: o rastro de um atacante em linha reta até a pequena área, dois ou três segundos antes do chute. À direita, em esquema, a semana de treino em barras: muita corrida contínua, circuitos e força; uma fatia mínima de correr o mais rápido possível")]
+    rs = []
+    p.append(f'<rect x="0" y="0" width="640" height="340" rx="12" fill="{OXID_T}" stroke="{OXID}" stroke-width="3"/>')
+    p.append(f'<rect x="200" y="0" width="240" height="90" fill="none" stroke="{OXID}" stroke-width="3"/>')
+    p.append(f'<rect x="270" y="0" width="100" height="36" fill="none" stroke="{OXID}" stroke-width="3"/>')
+    p.append(f'<path d="M 0 340 A 120 120 0 0 1 0 340" fill="none"/>')
+    p.append(f'<line x1="320" y1="300" x2="320" y2="70" stroke="{FOSF}" stroke-width="6" stroke-dasharray="14 10"/>')
+    p.append(f'<circle cx="320" cy="300" r="14" fill="{FOSF}"/>')
+    p.append(f'<path d="M 306 82 L 320 58 L 334 82 Z" fill="{FOSF}"/>')
+    rs += [rot(350, 180, "2 a 3 segundos, em linha reta", w=260, tam=21, cor=FOSF, peso=700, lh=1.2)]
+    B = 280
+    barras = [("corrida contínua", 200, AZUL), ("circuitos", 160, GLIC), ("força", 140, TINTA), ("velocidade máxima", 18, FOSF)]
+    for k, (t, h, cor) in enumerate(barras):
+        x = 720 + k * 230
+        p.append(f'<rect x="{x}" y="{B - h}" width="180" height="{h}" rx="8" fill="{cor}"/>')
+        rs.append(rot(x - 20, B + 10, t, w=220, tam=19, cor=TINTA, peso=700, alinha="center"))
+    p.append(f'<line x1="700" y1="{B}" x2="1660" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    rs += [rot(720, 0, "a semana de treino · esquema", w=600, tam=19, cor=MUDO, peso=700), rot(1410, 200, "quase nada", w=180, tam=19, cor=FOSF, peso=700, alinha="center")]
+    return slide("lance", 340, p, rs, eyebrow="Antes do gol", titulo="Dois ou três segundos que raramente aparecem no treino da semana.")
+
+
+def gols_94():
+    """9.4: trezentos e sessenta pontos, um por gol, com 161 marcados pelo sprint reto de quem marcou."""
+    p = [svg_abre(1664, 300, "Trezentos e sessenta pontos, um por gol da primeira divisão alemã analisado em vídeo. Cento e sessenta e um estão marcados: gols com sprint em linha reta do jogador que marcou, 45% do total, a ação mais frequente antes do gol")]
+    rs = []
+    for i in range(360):
+        x, y = (i % 36) * 30, (i // 36) * 28
+        p.append(f'<circle cx="{x + 12}" cy="{y + 14}" r="10" fill="{FOSF if i < 161 else CINZA}" opacity="{1 if i < 161 else 0.6}"/>')
+    p.append(caixa(1124, 0, 540, 280, FOSF, FOSF, esp=0, rx=16))
+    rs += [rot(1124, 24, "45%", w=540, tam=72, cor=PAPEL, peso=700, alinha="center", serif=True),
+           rot(1148, 130, "161 de 360 gols com sprint em linha reta de quem marcou", w=492, tam=22, cor=PAPEL, peso=700, alinha="center", lh=1.25)]
+    return slide("gols", 300, p, rs, eyebrow="O primeiro número", titulo="A ação mais frequente antes do gol",
+                 destaque="Em 83% dos gols, quem marcou ou quem passou fez pelo menos uma ação de potência antes do lance.", destaque_cor="tinta",
+                 fonte="J Sports Sci 2012")
+
+
+def tres_94():
+    """9.4: três cartões, cada um com o traçado da sua qualidade."""
+    p = [svg_abre(1664, 360, "Três cartões, cada um com um pequeno traçado. Aceleração: a velocidade subindo nos primeiros metros; empurrar o chão para trás com força. Velocidade máxima: o platô depois da aceleração; força rápida num contato curto. Mudança de direção: um caminho que freia, muda e sai; força excêntrica, técnica e decisão")]
+    rs = []
+    W = 528
+    for k, (t, d, cor, fundo) in enumerate([("Aceleração", "ganhar velocidade nos primeiros metros; empurrar o chão para trás com força", FOSF, FOSF_T),
+                                            ("Velocidade máxima", "o pico, depois da aceleração; força rápida num contato curto", GLIC, GLIC_T),
+                                            ("Mudança de direção", "frear, mudar e sair; força excêntrica, técnica e decisão", OXID, OXID_T)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 360, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 24, 18, t, w=W - 48, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, 260, d, w=W - 48, tam=20, cor=TINTA, lh=1.3)]
+        p.append(f'<line x1="{x + 40}" y1="220" x2="{x + W - 40}" y2="220" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<path d="M 40 215 C 120 120, 200 100, 300 92" fill="none" stroke="{FOSF}" stroke-width="6"/>')
+    p.append(f'<path d="M 300 92 L 488 90" fill="none" stroke="{FOSF}" stroke-width="3"{TRACO}/>')
+    x0 = W + 40
+    p.append(f'<path d="M {x0 + 40} 215 C {x0 + 120} 130, {x0 + 200} 92, {x0 + 260} 86" fill="none" stroke="{GLIC}" stroke-width="3"{TRACO}/>')
+    p.append(f'<path d="M {x0 + 260} 86 L {x0 + 488} 84" fill="none" stroke="{GLIC}" stroke-width="7"/>')
+    x0 = 2 * (W + 40)
+    p.append(f'<path d="M {x0 + 50} 200 L {x0 + 200} 90 L {x0 + 330} 200 L {x0 + 470} 90" fill="none" stroke="{OXID}" stroke-width="6" stroke-linejoin="round"/>')
+    for cx, cy in [(200, 90), (330, 200)]:
+        p.append(f'<circle cx="{x0 + cx}" cy="{cy}" r="12" fill="{OXID}"/>')
+    return slide("tres", 360, p, rs, eyebrow="Três qualidades, não uma", titulo="Cada uma se treina e se mede de um jeito",
+                 destaque="Uma pessoa pode ser boa numa e ruim em outra.", destaque_cor="tinta")
+
+
+def agilidade_94():
+    """9.4: o circuito de cones com caminho conhecido e o atleta que reage ao adversário."""
+    p = [svg_abre(1664, 360, "À esquerda, mudança de direção pré-planejada: um circuito de cones em que o atleta sabe o caminho; treina a parte física. À direita, agilidade: o atleta diante de um adversário, com duas setas possíveis e uma interrogação; a mudança de velocidade ou direção acontece em resposta a um estímulo, adversário, bola ou sinal; entra a percepção e a decisão")]
+    rs = []
+    p.append(caixa(0, 0, 800, 360, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 16, "Mudança de direção pré-planejada", w=760, tam=24, cor=TINTA, peso=700, serif=True))
+    pts = [(80, 260), (240, 120), (400, 260), (560, 120), (720, 260)]
+    p.append(f'<polyline points="{" ".join(f"{x},{y}" for x, y in pts)}" fill="none" stroke="{TINTA}" stroke-width="4" stroke-dasharray="12 8"/>')
+    for x, y in pts[1:-1]:
+        p.append(f'<path d="M {x - 16} {y + 20} L {x} {y - 14} L {x + 16} {y + 20} Z" fill="{GLIC}"/>')
+    rs.append(rot(24, 306, "circuito de cones · o atleta sabe o caminho · treina a parte física", w=760, tam=19, cor=TINTA))
+    p.append(caixa(864, 0, 800, 360, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(888, 16, "Agilidade", w=760, tam=24, cor=OXID, peso=700, serif=True))
+    p.append(icone("h:running", 980, 150, 90, OXID))
+    p.append(icone("h:man", 1380, 120, 110, FOSF))
+    p.append(f'<path d="M 1090 170 Q 1200 90 1300 110" fill="none" stroke="{OXID}" stroke-width="4" stroke-dasharray="10 8"/>')
+    p.append(f'<path d="M 1090 220 Q 1200 300 1300 260" fill="none" stroke="{OXID}" stroke-width="4" stroke-dasharray="10 8"/>')
+    rs += [rot(1150, 166, "?", w=80, tam=44, cor=OXID, peso=700, alinha="center"),
+           rot(888, 306, "em resposta a um estímulo: adversário, bola, sinal", w=760, tam=19, cor=TINTA, peso=700)]
+    return slide("agilidade", 360, p, rs, eyebrow="Uma definição que muda o treino", titulo="Agilidade exige estímulo",
+                 destaque="Só cones deixa de fora a percepção e a decisão, a parte que o jogo cobra.", destaque_cor="tinta", fonte="Revisão, J Sports Sci 2006")
+
+
+def descansado_94():
+    """9.4: sprints com recuperação completa mantêm o tempo; com pausa curta, o tempo cai, em esquema."""
+    p = [svg_abre(1664, 340, "Em esquema, duas fileiras de sprints. Com recuperação completa, de minutos, cada barra de velocidade sai igual: treino de velocidade. Com pausa curta, o sistema do esforço máximo e curto não se recompõe e as barras caem uma a uma: vira resistência à velocidade, outro estímulo")]
+    rs = []
+    for k, (t, d, cor, alturas, gap) in enumerate([("Recuperação completa", "treino de velocidade", OXID, [150] * 6, 220),
+                                                   ("Pausa curta", "vira resistência à velocidade", FOSF, [150, 132, 116, 100, 88, 78], 110)]):
+        x0 = k * 844
+        p.append(caixa(x0, 0, 820, 340, cor, CARTAO, esp=2, rx=16))
+        rs += [rot(x0 + 24, 16, t, w=500, tam=25, cor=cor, peso=700, serif=True), rot(x0 + 24, 290, d, w=760, tam=21, cor=TINTA, peso=700)]
+        for j, h in enumerate(alturas):
+            x = x0 + 40 + j * (gap if k == 0 else 120)
+            if x > x0 + 770:
+                break
+            p.append(f'<rect x="{x}" y="{250 - h}" width="60" height="{h}" rx="6" fill="{cor}"/>')
+        rs.append(rot(x0 + 540, 16, "esquema", w=260, tam=16, cor=MUDO, alinha="right"))
+    rs.append(rot(40, 64, "minutos entre os sprints", w=400, tam=17, cor=MUDO))
+    return slide("descansado", 340, p, rs, eyebrow="A ideia da aula", titulo="Velocidade se treina com velocidade. Correr rápido e cansado é treinar outra coisa.")
+
+
+def treno_94():
+    """9.4: o trenó a 80% da massa corporal, a dose do estudo e os dois tamanhos de efeito."""
+    p = [svg_abre(1664, 340, "À esquerda, um corredor puxando um trenó com carga de 80% da massa corporal: dezesseis sessões de dez sprints de vinte metros. À direita, duas barras de tamanho de efeito na força horizontal máxima: 0,80 com o trenó e 0,20 sem carga")]
+    rs = []
+    p.append(caixa(0, 0, 760, 340, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("h:running", 420, 60, 140, TINTA))
+    p.append(f'<line x1="460" y1="150" x2="200" y2="200" stroke="{MUDO}" stroke-width="4"/>')
+    p.append(f'<rect x="60" y="170" width="160" height="70" rx="8" fill="{GLIC}"/>')
+    p.append(f'<line x1="40" y1="246" x2="720" y2="246" stroke="{MUDO}" stroke-width="2"/>')
+    rs += [rot(60, 190, "80% da massa", w=160, tam=19, cor=PAPEL, peso=700, alinha="center"),
+           rot(24, 270, "16 sessões × 10 sprints de 20 m · 16 jogadores amadores", w=720, tam=20, cor=TINTA, peso=700, lh=1.25)]
+    X0, E = 980, 700
+    for k, (v, t, cor) in enumerate([(0.80, "trenó", FOSF), (0.20, "sem carga", MUDO)]):
+        y = 30 + k * 130
+        rs.append(rot(800, y + 28, t, w=160, tam=22, cor=TINTA, peso=700, alinha="right"))
+        p.append(f'<rect x="{X0}" y="{y}" width="{v * E:.0f}" height="90" rx="8" fill="{cor}"/>')
+        rs.append(rot(X0 + v * E + 16, y + 18, f"{v:.2f}".replace(".", ","), w=160, tam=44, cor=cor, peso=700, serif=True))
+    rs.append(rot(X0, 290, "tamanho de efeito · força horizontal máxima", w=680, tam=19, cor=MUDO))
+    return slide("treno", 340, p, rs, eyebrow="A aceleração", titulo="A força aplicada no chão responde ao treino",
+                 destaque="Melhora moderada nos primeiros 5 metros. Estudo pequeno: sprint resistido e sem carga são estímulos diferentes.", destaque_cor="tinta",
+                 fonte="Int J Sports Physiol Perform 2017")
+
+
+def dose_94():
+    """9.4: quatro regras, cada uma com um pequeno desenho."""
+    p = [svg_abre(1664, 360, "Quatro cartões. Esforço máximo: um mostrador no topo; a oitenta por cento é outro treino. Recuperação completa: tempos iguais, até o primeiro que cai, e ali a série acaba. Poucas repetições: a qualidade some antes do cansaço aparecer. Início da sessão: o sprint logo depois do aquecimento, não no fim de um treino longo")]
+    rs = []
+    W = 392
+    for k, (t, d, cor, fundo) in enumerate([("Esforço máximo", "a oitenta por cento é outro treino", FOSF, FOSF_T), ("Recuperação completa", "se o tempo começa a cair, a série acabou", GLIC, GLIC_T),
+                                            ("Poucas repetições", "a qualidade some antes do cansaço aparecer", OXID, OXID_T), ("Início da sessão", "depois do aquecimento, não no fim de um treino longo", TINTA, PAPEL)]):
+        x = k * (W + 32)
+        p.append(caixa(x, 0, W, 360, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 22, 18, t, w=W - 44, tam=24, cor=cor, peso=700, serif=True), rot(x + 22, 268, d, w=W - 44, tam=20, cor=TINTA, lh=1.3)]
+    p.append(icone("t:gauge", 130, 100, 130, FOSF))
+    x0 = W + 32
+    for j, h in enumerate([110, 110, 108, 84]):
+        p.append(f'<rect x="{x0 + 40 + j * 80}" y="{220 - h}" width="56" height="{h}" rx="6" fill="{GLIC if j < 3 else FOSF}"/>')
+    p.append(icone("t:hand-stop", x0 + 300, 70, 36, FOSF))
+    x0 = 2 * (W + 32)
+    for j in range(4):
+        p.append(f'<rect x="{x0 + 40 + j * 80}" y="110" width="56" height="110" rx="6" fill="{OXID}"/>')
+    x0 = 3 * (W + 32)
+    p.append(f'<rect x="{x0 + 30}" y="150" width="332" height="40" rx="20" fill="{CINZA}" opacity="0.6"/>')
+    p.append(f'<rect x="{x0 + 30}" y="150" width="80" height="40" rx="20" fill="{AZUL}"/>')
+    p.append(f'<rect x="{x0 + 114}" y="150" width="60" height="40" rx="10" fill="{FOSF}"/>')
+    rs += [rot(x0 + 22, 110, "aquecimento → sprint → resto", w=W - 44, tam=17, cor=MUDO, peso=700)]
+    return slide("dose", 360, p, rs, eyebrow="Como dosar", titulo="Quatro regras para o sprint ser treino de velocidade")
+
+
+def protege_94():
+    """9.4: exposição regular à velocidade máxima ao longo das semanas, contra o tecido que só a encontra no jogo."""
+    p = [svg_abre(1664, 360, "Em esquema, duas linhas de semanas. Na de cima, exposição regular: toques semanais na velocidade máxima. Na de baixo, exposição ocasional: a velocidade máxima aparece pela primeira vez no jogo, e é ali que o posterior da coxa a encontra. No estudo observacional do futebol gaélico, mais exposição a esforços em velocidade máxima se associou a menor risco de lesão")]
+    rs = []
+    for k, (t, picos, cor) in enumerate([("exposição regular", list(range(12)), OXID), ("exposição ocasional", [11], FOSF)]):
+        y = 30 + k * 140
+        rs.append(rot(0, y + 30, t, w=250, tam=22, cor=cor, peso=700, alinha="right", serif=True))
+        p.append(f'<line x1="280" y1="{y + 100}" x2="1660" y2="{y + 100}" stroke="{MUDO}" stroke-width="2"/>')
+        for s in range(12):
+            x = 300 + s * 112
+            h = 90 if s in picos else 30
+            p.append(f'<rect x="{x}" y="{y + 100 - h}" width="70" height="{h}" rx="6" fill="{cor if s in picos else CINZA}" opacity="{1 if s in picos else 0.6}"/>')
+    rs += [rot(1100, 200, "primeira vez: no jogo", w=410, tam=20, cor=FOSF, peso=700, alinha="right"),
+           rot(280, 316, "semanas · altura = velocidade máxima atingida · esquema", w=1000, tam=18, cor=MUDO)]
+    return slide("protege", 360, p, rs, eyebrow="Velocidade também protege", titulo="Exposição regular à velocidade máxima",
+                 destaque="Estudo observacional, futebol gaélico: mais exposição, menor risco de lesão. Treinar velocidade prepara o tecido para ela.", destaque_cor="tinta",
+                 fonte="J Sci Med Sport 2017")
+
+
+def resumo_94():
+    """9.4: três linhas, cada qualidade com como treinar e como medir."""
+    p = [svg_abre(1664, 360, "Três linhas. Aceleração: sprints curtos com e sem resistência e força para empurrar o chão; mede-se pelo tempo nos primeiros 10 metros. Velocidade máxima: sprints com aceleração suficiente e recuperação completa; mede-se num trecho lançado ou pela velocidade máxima registrada. Mudança de direção e agilidade: desaceleração, técnica e exercícios com estímulo; mede-se pelo déficit de mudança de direção e por um teste com estímulo"), defs(MUDO)]
+    rs = []
+    rs += [rot(400, 0, "como treinar", w=700, tam=19, cor=MUDO, peso=700, alinha="center"), rot(1180, 0, "como medir", w=484, tam=19, cor=MUDO, peso=700, alinha="center")]
+    for k, (t, tr, me, cor, fundo) in enumerate([("Aceleração", "sprints curtos com e sem resistência; força para empurrar o chão", "tempo nos primeiros 10 m", FOSF, FOSF_T),
+                                                 ("Velocidade máxima", "sprints com aceleração suficiente; recuperação completa", "trecho lançado ou velocidade máxima registrada", GLIC, GLIC_T),
+                                                 ("Mudança de direção e agilidade", "desaceleração, técnica e exercícios com estímulo", "déficit de mudança de direção; teste com estímulo", OXID, OXID_T)]):
+        y = 36 + k * 108
+        p.append(caixa(0, y, 370, 92, cor, fundo, esp=2, rx=14))
+        rs.append(rot(20, y + 22, t, w=330, tam=23, cor=cor, peso=700, serif=True, lh=1.15))
+        p.append(caixa(400, y, 700, 92, BORDA, CARTAO, esp=2, rx=14))
+        rs.append(rot(420, y + 22, tr, w=660, tam=21, cor=TINTA, lh=1.25))
+        p.append(seta(1110, y + 46, 1166, y + 46, MUDO, "m0", esp=3))
+        p.append(caixa(1180, y, 484, 92, cor, CARTAO, esp=2, rx=14))
+        p.append(icone("t:stopwatch", 1196, y + 26, 40, cor))
+        rs.append(rot(1248, y + 22, me, w=400, tam=21, cor=TINTA, peso=700, lh=1.25))
+    return slide("resumo", 360, p, rs, eyebrow="O resumo operacional", titulo="Treinar e medir cada qualidade")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
           "09-02": [pedidos_92, funciona_92, igualado_92, acontece_92, picos_92, sessoes_92, objetivo_92, minima_92, aplicado_92, sinais_92],
-          "09-03": [ficha_93, roteiro_93, objetivo_93, carga_93, crescer_93, frequencia_93, esforco_93, ajustes_93, servico_93, registro_93]}
+          "09-03": [ficha_93, roteiro_93, objetivo_93, carga_93, crescer_93, frequencia_93, esforco_93, ajustes_93, servico_93, registro_93],
+          "09-04": [lance_94, gols_94, tres_94, agilidade_94, descansado_94, treno_94, dose_94, protege_94, resumo_94]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

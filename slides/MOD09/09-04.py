@@ -105,6 +105,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Velocidade, aceleração e
                     {"t": "Fisioterapia", "x": "Prepara o tecido para a velocidade máxima."}],
           "quem": "Próxima aula: treino aeróbio contínuo e intervalado."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-04")
+
 spec = {"arquivo": "aulas/MOD09/09-04-velocidade-aceleracao-e-mudanca-de-direcao.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Velocidade, aceleração e mudança de direção", "subtitulo": "O que os números dizem sobre treinar o que decide o jogo",
