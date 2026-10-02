@@ -585,11 +585,233 @@ def pratica_83():
     return slide("pratica", 340, p, rs, eyebrow="Na segunda-feira", titulo="Cinco traduções para a prescrição",
                  destaque="Avisar no começo que o tendão leva meses evita o abandono no segundo mês.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 8.4
+
+def planilha_84():
+    """8.4: sete semanas de volume, cada uma dez por cento maior, e a dor subindo junto, em esquema."""
+    p = [svg_abre(1664, 360, "Em esquema, a planilha de um corredor voltando de tendinopatia de Aquiles: sete barras de volume semanal, cada uma dez por cento maior que a anterior, e uma linha de dor que sobe junto. Ao lado, as duas coisas que a regra não diz: sobre o que se calculam os dez por cento, e o que mais mudou naquela semana")]
+    rs = []
+    B, X0 = 300, 40
+    pts = []
+    for k in range(7):
+        v = 1.1 ** k
+        h = 90 * v
+        x = X0 + k * 130
+        p.append(f'<rect x="{x}" y="{B - h:.0f}" width="96" height="{h:.0f}" rx="6" fill="{AZUL}" opacity="0.85"/>')
+        rs.append(rot(x - 10, B + 10, f"sem {k + 1}", w=116, tam=18, cor=MUDO, alinha="center"))
+        pts.append((x + 48, B - 110 - k * 20 - (k * k) * 1.2))
+    p.append(f'<line x1="{X0 - 10}" y1="{B}" x2="{X0 + 900}" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    p.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in pts) + f'" fill="none" stroke="{FOSF}" stroke-width="4"/>')
+    for x, y in pts:
+        p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="8" fill="{FOSF}" stroke="{CARTAO}" stroke-width="2"/>')
+    rs += [rot(X0, 0, "volume semanal +10% · esquema", w=500, tam=19, cor=AZUL, peso=700),
+           rot(pts[-1][0] + 18, pts[-1][1] - 14, "dor", w=100, tam=22, cor=FOSF, peso=700)]
+    p.append(caixa(1000, 0, 664, 360, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:question-mark", 1024, 22, 44, TINTA))
+    rs.append(rot(1080, 28, "O que a regra não diz", w=560, tam=26, cor=TINTA, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:anchor", "sobre o que se calculam os dez por cento"), ("t:arrows-exchange", "o que mais mudou naquela semana")]):
+        y = 110 + j * 120
+        p.append(icone(ic, 1024, y, 44, GLIC))
+        rs.append(rot(1084, y + 4, t, w=556, tam=23, cor=TINTA, lh=1.25))
+    return slide("planilha", 360, p, rs, eyebrow="A conduta que parece prudente", titulo="Dez por cento por semana, religiosamente, há sete semanas. E piorando.",
+                 fonte="Um corredor voltando de tendinopatia de Aquiles")
+
+
+def regra_84():
+    """8.4: o ensaio de 2008 com proporções iguais de lesão, e a coorte de 2014 com saltos acima de 30%."""
+    p = [svg_abre(1664, 340, "Dois estudos. À esquerda, um ensaio de 2008 com 486 corredores iniciantes sorteados: lesionados com a regra dos dez por cento, 21%; sem a regra, 20%. À direita, uma coorte de 2014 com 874 iniciantes acompanhados por GPS: quem aumentou a distância mais de 30% em duas semanas teve mais lesão relacionada à distância que quem aumentou menos de 10%")]
+    rs = []
+    p.append(caixa(0, 0, 800, 340, GLIC, CARTAO, esp=2, rx=16))
+    rs += [rot(24, 16, "Ensaio de 2008 · 486 iniciantes sorteados", w=760, tam=22, cor=GLIC, peso=700),
+           rot(24, 290, "lesionados", w=760, tam=19, cor=MUDO)]
+    B = 270
+    for k, (t, v) in enumerate([("com a regra dos 10%", 21), ("sem a regra", 20)]):
+        x = 60 + k * 360
+        h = v * 7
+        p.append(f'<rect x="{x}" y="{B - h}" width="300" height="{h}" rx="6" fill="{GLIC}" opacity="{1 - k * 0.3:.1f}"/>')
+        rs += [rot(x, B - h - 54, f"{v}%", w=300, tam=40, cor=GLIC, peso=700, alinha="center", serif=True),
+               rot(x, B - h + 18, t, w=300, tam=20, cor=PAPEL, peso=700, alinha="center")]
+    p.append(caixa(864, 0, 800, 340, FOSF, CARTAO, esp=2, rx=16))
+    rs += [rot(888, 16, "Coorte de 2014 · 874 iniciantes com GPS", w=760, tam=22, cor=FOSF, peso=700),
+           rot(888, 290, "aumento de distância em duas semanas", w=760, tam=19, cor=MUDO)]
+    p.append(f'<line x1="920" y1="270" x2="1220" y2="230" stroke="{OXID}" stroke-width="8" stroke-linecap="round"/>')
+    p.append(f'<line x1="1300" y1="270" x2="1600" y2="90" stroke="{FOSF}" stroke-width="8" stroke-linecap="round"/>')
+    p.append(icone("t:alert-triangle", 1540, 120, 48, FOSF))
+    rs += [rot(920, 170, "menos de 10%", w=300, tam=24, cor=OXID, peso=700, alinha="center"),
+           rot(1300, 80, "mais de 30%", w=220, tam=24, cor=FOSF, peso=700),
+           rot(1300, 118, "mais lesão por distância", w=230, tam=19, cor=TINTA, lh=1.2)]
+    return slide("regra", 340, p, rs, eyebrow="O que a evidência diz da regra", titulo="Saltos grandes preocupam; a regra sozinha não protegeu",
+                 destaque="Boa heurística de conversa, não lei. E dá para errar respeitando-a à risca.", destaque_cor="tinta",
+                 fonte="Am J Sports Med 2008 · J Orthop Sports Phys Ther 2014")
+
+
+def variavel_84():
+    """8.4: escada de quatro degraus, do menos arriscado ao mais, com a leitura de 24 a 48 horas entre eles."""
+    p = [svg_abre(1664, 400, "Uma escada de quatro degraus, do menos arriscado para o mais: frequência, mais sessões na semana; volume, mais em cada sessão; densidade, menos pausa; intensidade, ritmo, ladeira e carga, por último. Entre um degrau e outro, um relógio: a leitura de 24 a 48 horas. É regra prática, não achado de ensaio")]
+    rs = []
+    degraus = [("Frequência", "mais sessões na semana", OXID, OXID_T), ("Volume", "mais em cada sessão", OXID, OXID_T),
+               ("Densidade", "menos pausa", GLIC, GLIC_T), ("Intensidade", "ritmo, ladeira, carga: por último", FOSF, FOSF_T)]
+    W, H, B = 360, 72, 330
+    for k, (t, d, cor, fundo) in enumerate(degraus):
+        x, y = k * (W + 70), B - (k + 1) * H
+        p.append(f'<rect x="{x}" y="{y}" width="{W}" height="{B - y}" rx="10" fill="{fundo}" stroke="{cor}" stroke-width="3"/>')
+        rs += [rot(x + 18, y + 8, t, w=W - 36, tam=26, cor=cor, peso=700, serif=True), rot(x + 18, y + 44, d, w=W - 36, tam=19, cor=TINTA, lh=1.2)]
+        if k < 3:
+            p.append(icone("t:clock", x + W + 13, y - 58, 44, TINTA))
+    p.append(icone("t:clock", 0, 20, 40, TINTA))
+    rs.append(rot(52, 26, "entre um degrau e outro, leia o dia seguinte: 24 a 48 h", w=800, tam=21, cor=TINTA, peso=700))
+    p.append(f'<line x1="0" y1="354" x2="1600" y2="354" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<path d="M 1600 344 L 1630 354 L 1600 364 Z" fill="{MUDO}"/>')
+    rs += [rot(0, 368, "do menos arriscado para o mais", w=600, tam=20, cor=MUDO, peso=700),
+           rot(1000, 368, "regra prática, não achado de ensaio", w=600, tam=20, cor=MUDO, alinha="right")]
+    return slide("variavel", 400, p, rs, eyebrow="Erro dois · volume e ladeira na mesma semana", titulo="Uma variável por vez, nesta ordem")
+
+
+def degrau_84():
+    """8.4: os quatro elementos de um degrau, com o critério de regressão destacado."""
+    p = [svg_abre(1664, 380, "Quatro caixas em sequência, os elementos de um degrau. Estímulo: elevação de calcanhar numa perna só, 3 séries, 2 repetições antes da falha. Dose: quantas vezes por semana, com que carga. Critério de saída: o que precisa acontecer para subir, por exemplo as repetições combinadas nos dois lados sem dor no dia seguinte. Critério de regressão, destacado: o que faz voltar um degrau, por exemplo dor no dia seguinte bem acima do habitual ou inchaço que voltou. É o mais importante e o menos escrito")]
+    rs = []
+    cards = [("t:target", "Estímulo", "elevação de calcanhar numa perna só, 3 séries, 2 repetições antes da falha", OXID, OXID_T),
+             ("t:calendar", "Dose", "quantas vezes por semana, com que carga", OXID, OXID_T),
+             ("t:trending-up", "Critério de saída", "o que precisa acontecer para subir: as repetições combinadas, sem dor no dia seguinte", GLIC, GLIC_T),
+             ("t:arrow-down-right", "Critério de regressão", "o que faz voltar um degrau: dor no dia seguinte bem acima do habitual, ou inchaço de volta", FOSF, FOSF_T)]
+    W = 386
+    for k, (ic, t, d, cor, fundo) in enumerate(cards):
+        x = k * (W + 40)
+        ultimo = k == 3
+        p.append(caixa(x, 40 if not ultimo else 0, W, 300 if not ultimo else 380, cor, fundo, esp=6 if ultimo else 2, rx=16))
+        y0 = 64 if not ultimo else 24
+        p.append(icone(ic, x + 20, y0, 44, cor))
+        rs += [rot(x + 76, y0 + 6, t, w=W - 92, tam=24, cor=cor, peso=700, serif=True, lh=1.15),
+               rot(x + 20, y0 + 70, d, w=W - 40, tam=20, cor=TINTA, lh=1.3)]
+        if k < 3:
+            p.append(f'<path d="M {x + W + 10} 180 L {x + W + 30} 190 L {x + W + 10} 200 Z" fill="{MUDO}"/>')
+    rs.append(rot(3 * (W + 40) + 20, 300, "o mais importante e o menos escrito", w=W - 40, tam=20, cor=FOSF, peso=700, lh=1.2))
+    return slide("degrau", 380, p, rs, eyebrow="Erro três · o protocolo sem “desde que”", titulo="Os quatro elementos de um degrau")
+
+
+def degrauabaixo_84():
+    """8.4: na escada, uma piora é descer um degrau; sem plano, vira queda até o chão."""
+    p = [svg_abre(1664, 360, "Duas escadas. À esquerda, com regressão escrita antes: a piora desce um degrau, por poucos dias, e a subida recomeça dali. À direita, sem plano: a piora vira queda da escada inteira, até o chão, e a subida recomeça do zero")]
+    rs = []
+
+    def escada(x0, cor):
+        d = f"M {x0} 320"
+        for k in range(5):
+            d += f" L {x0 + k * 110} {320 - (k + 1) * 56} L {x0 + (k + 1) * 110} {320 - (k + 1) * 56}"
+        d += f" L {x0 + 550} 320 Z"
+        p.append(f'<path d="{d}" fill="{CINZA}" opacity="0.5" stroke="{cor}" stroke-width="3"/>')
+    escada(40, OXID)
+    p.append(f'<circle cx="{40 + 3 * 110 + 55}" cy="{320 - 4 * 56 - 22}" r="14" fill="{MUDO}" opacity="0.5"/>')
+    p.append(f'<circle cx="{40 + 2 * 110 + 55}" cy="{320 - 3 * 56 - 22}" r="16" fill="{OXID}"/>')
+    p.append(f'<path d="M {40 + 3 * 110 + 40} {320 - 4 * 56 - 40} Q {40 + 3 * 110} {320 - 4 * 56 - 70} {40 + 2 * 110 + 70} {320 - 3 * 56 - 44}" fill="none" stroke="{OXID}" stroke-width="4"/>')
+    rs += [rot(620, 70, "Degrau para baixo", w=380, tam=28, cor=OXID, peso=700, serif=True),
+           rot(620, 116, "regressão escrita antes", w=380, tam=21, cor=TINTA),
+           rot(620, 150, "volta um passo por poucos dias", w=380, tam=21, cor=TINTA),
+           rot(620, 184, "e sobe de novo dali", w=380, tam=21, cor=TINTA)]
+    escada(1060, FOSF)
+    p.append(f'<circle cx="{1060 + 4 * 110 + 55}" cy="{320 - 5 * 56 - 22}" r="14" fill="{MUDO}" opacity="0.5"/>')
+    p.append(f'<circle cx="1640" cy="304" r="16" fill="{FOSF}"/>')
+    p.append(f'<path d="M {1060 + 4 * 110 + 40} {320 - 5 * 56 - 30} C 1640 10, 1650 150, 1640 288" fill="none" stroke="{FOSF}" stroke-width="4"{TRACO}/>')
+    rs += [rot(1060, 0, "Queda da escada", w=330, tam=28, cor=FOSF, peso=700, serif=True),
+           rot(1060, 40, "sem plano: para tudo", w=330, tam=21, cor=TINTA),
+           rot(1060, 74, "e recomeça do zero", w=330, tam=21, cor=TINTA)]
+    return slide("degrauabaixo", 360, p, rs, eyebrow="A ideia da aula", titulo="Uma piora é um degrau para baixo, não uma queda da escada.",
+                 destaque="A piora vai acontecer; no tendão, quase sempre. A diferença está em a pessoa saber, antes, o que fazer quando ela chegar.", destaque_cor="tinta")
+
+
+def registro_84():
+    """8.4: uma página de caderno com as cinco colunas e a linha da ladeira marcada."""
+    p = [svg_abre(1664, 360, "Uma página de caderno com cinco colunas: data, o que fez, carga ou volume, dor durante de 0 a 10, dor em 24 horas de 0 a 10. Três linhas ilustrativas: segunda, trote e caminhada, 20 minutos, dor 2 e 2; quarta, trote e caminhada, 25 minutos, dor 2 e 3; sexta, trote com ladeira, 25 minutos, dor 3 e 6. A linha de sexta está marcada: a ladeira entrou e a dor do dia seguinte subiu")]
+    rs = []
+    p.append(caixa(0, 0, 1300, 360, BORDA, CARTAO, esp=2, rx=16))
+    p.append(f'<line x1="60" y1="0" x2="60" y2="360" stroke="{FOSF}" stroke-width="2" opacity="0.5"/>')
+    cab = ["Data", "O que fez", "Carga ou volume", "Dor durante (0–10)", "Dor em 24 h (0–10)"]
+    larg = [140, 340, 240, 260, 260]
+    linhas = [["seg", "trote e caminhada", "20 min", "2", "2"], ["qua", "trote e caminhada", "25 min", "2", "3"], ["sex", "trote com ladeira", "25 min", "3", "6"]]
+    xs = [70]
+    for w in larg[:-1]:
+        xs.append(xs[-1] + w)
+    for x, w, t in zip(xs, larg, cab):
+        rs.append(rot(x + 10, 30, t, w=w - 20, tam=20, cor=TINTA, peso=700, lh=1.15))
+    for k in range(4):
+        y = 100 + k * 80
+        p.append(f'<line x1="20" y1="{y}" x2="1280" y2="{y}" stroke="{BORDA}" stroke-width="2"/>')
+    p.append(f'<rect x="66" y="262" width="1220" height="76" rx="8" fill="{FOSF_T}"/>')
+    for i, l in enumerate(linhas):
+        y = 124 + i * 80
+        for j, (x, w, t) in enumerate(zip(xs, larg, l)):
+            forte = i == 2 and j in (1, 4)
+            rs.append(rot(x + 10, y, t, w=w - 20, tam=24 if not forte else 26, cor=FOSF if forte else TINTA, peso=700 if forte else 400,
+                          alinha="center" if j >= 3 else "left", serif=j >= 3))
+    p.append(icone("t:notebook", 1340, 40, 64, TINTA))
+    rs.append(rot(1340, 130, "na sexta entrou a ladeira, e a dor do dia seguinte subiu", w=324, tam=21, cor=FOSF, peso=700, lh=1.3))
+    return slide("registro", 360, p, rs, eyebrow="A ferramenta que corrige os cinco", titulo="O registro de cinco colunas",
+                 destaque="Sem registro, a consulta traz memória, puxada pelo último dia ruim. Com registro, a pessoa costuma achar o padrão antes de você.",
+                 destaque_cor="tinta", fonte="Linhas ilustrativas")
+
+
+def principios_84():
+    """8.4: três cartões com mini desenhos: base larga, semana de pico, e a carga que vem de fora do treino."""
+    p = [svg_abre(1664, 360, "Três cartões, cada um com um pequeno esquema. A base protege: uma faixa larga de carga crônica bem construída, que tolera mais. O pico importa: barras semanais com uma semana que dobrou, que pesa mais que a média do mês. Carga não é só treino: ao lado do treino entram sono, trabalho, estresse e doença")]
+    rs = []
+    W = 528
+    for k, (t, d, cor, fundo) in enumerate([("A base protege", "carga crônica bem construída tolera mais", OXID, OXID_T),
+                                            ("O pico importa", "a semana em que dobrou pesa mais que a média do mês", GLIC, GLIC_T),
+                                            ("Carga não é só treino", "sono, trabalho, estresse e doença entram na conta", TINTA, PAPEL)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 360, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 24, 18, t, w=W - 48, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, 270, d, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
+    # base
+    p.append(f'<rect x="40" y="190" width="448" height="56" rx="8" fill="{OXID}"/>')
+    for j, h in enumerate([30, 40, 34, 44, 38, 46]):
+        p.append(f'<rect x="{60 + j * 72}" y="{186 - h}" width="48" height="{h}" rx="4" fill="{OXID}" opacity="0.5"/>')
+    # pico
+    x0 = W + 40
+    for j, h in enumerate([50, 56, 52, 112, 54]):
+        p.append(f'<rect x="{x0 + 50 + j * 88}" y="{246 - h}" width="60" height="{h}" rx="4" fill="{GLIC}" opacity="{1 if j == 3 else 0.45}"/>')
+    p.append(f'<line x1="{x0 + 40}" y1="{246 - 65}" x2="{x0 + 490}" y2="{246 - 65}" stroke="{TINTA}" stroke-width="2"{TRACO}/>')
+    p.append(f'<line x1="{x0 + 40}" y1="246" x2="{x0 + 490}" y2="246" stroke="{MUDO}" stroke-width="2"/>')
+    rs.append(rot(x0 + 30, 74, "média do mês", w=200, tam=17, cor=TINTA))
+    # fora do treino
+    x0 = 2 * (W + 40)
+    for j, (ic, cor) in enumerate([("t:barbell", OXID), ("t:moon", AZUL), ("t:clipboard-list", MUDO), ("t:bolt", GLIC), ("t:mood-sick", FOSF)]):
+        p.append(icone(ic, x0 + 30 + j * 96, 130, 56, cor))
+    return slide("principios", 360, p, rs, eyebrow="O que sobrevive à crítica dos índices de carga", titulo="Três princípios para a reabilitação",
+                 destaque="O índice agudo e crônico não serve como número de decisão; o módulo de preparação física volta a ele.", destaque_cor="tinta",
+                 fonte="Br J Sports Med 2016 · consenso do COI 2016")
+
+
+def cinco_84():
+    """8.4: cinco linhas de erro para correção, apoiadas numa faixa do registro."""
+    p = [svg_abre(1664, 470, "Cinco linhas, cada uma com um erro à esquerda e o que fazer no lugar à direita. Âncora errada: progredir sobre o que tolerou nas últimas duas semanas. Duas variáveis juntas: uma por vez, frequência, volume, densidade, intensidade. Degrau sem condição: estímulo, dose, critério de saída e de regressão. Parar tudo quando piora: regressão escrita antes, um degrau para baixo. Alta administrativa: sessões espaçadas, programa escrito, revisão marcada. Por baixo das cinco linhas, uma faixa: o registro")]
+    rs = []
+    mk = defs(OXID)
+    p.append(mk)
+    linhas = [("t:anchor", "Âncora errada", "progredir sobre o que tolerou nas últimas duas semanas"),
+              ("t:arrows-exchange", "Duas variáveis juntas", "uma por vez: frequência, volume, densidade, intensidade"),
+              ("t:stairs", "Degrau sem condição", "estímulo, dose, critério de saída e de regressão"),
+              ("t:hand-stop", "Parar tudo quando piora", "regressão escrita antes: um degrau para baixo"),
+              ("t:door-exit", "Alta administrativa", "sessões espaçadas, programa escrito, revisão marcada")]
+    for k, (ic, e, c) in enumerate(linhas):
+        y = k * 76
+        p.append(caixa(0, y, 560, 64, FOSF, FOSF_T, esp=2, rx=12))
+        p.append(icone(ic, 16, y + 12, 40, FOSF))
+        rs.append(rot(70, y + 16, e, w=480, tam=23, cor=FOSF, peso=700))
+        p.append(seta(574, y + 32, 636, y + 32, OXID, "m0", esp=3))
+        p.append(caixa(650, y, 1014, 64, OXID, OXID_T, esp=2, rx=12))
+        rs.append(rot(674, y + 17, c, w=970, tam=22, cor=TINTA))
+    p.append(caixa(0, 394, 1664, 76, TINTA, TINTA, esp=0, rx=16))
+    p.append(icone("t:notebook", 24, 408, 48, PAPEL))
+    rs.append(rot(90, 414, "Por baixo dos cinco, o registro", w=1500, tam=28, cor=PAPEL, peso=700, serif=True))
+    return slide("cinco", 470, p, rs, eyebrow="Juntando", titulo="Cinco erros e o que fazer no lugar")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipoteses_81, laudo_81, vieses_81, quem_81],
           "08-02": [folha_82, piso_82, resposta_82, saidas_82, portas_82, custo_82, naoabre_82, degraus_82, quem_82, ficha_82],
-          "08-03": [bomba_83, desmontar_83, musculo_83, magnitude_83, desuso_83, repouso_83, relogios_83, pratica_83]}
+          "08-03": [bomba_83, desmontar_83, musculo_83, magnitude_83, desuso_83, repouso_83, relogios_83, pratica_83],
+          "08-04": [planilha_84, regra_84, variavel_84, degrau_84, degrauabaixo_84, registro_84, principios_84, cinco_84]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

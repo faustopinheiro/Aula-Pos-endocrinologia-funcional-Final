@@ -26,29 +26,280 @@
  "slides": [
   {
    "id": "planilha",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Em esquema, a planilha de um corredor voltando de tendinopatia de Aquiles: sete barras de volume semanal, cada uma dez por cento maior que a anterior, e uma linha de dor que sobe junto. Ao lado, as duas coisas que a regra não diz: sobre o que se calculam os dez por cento, e o que mais mudou naquela semana\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"40\" y=\"210\" width=\"96\" height=\"90\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"170\" y=\"201\" width=\"96\" height=\"99\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"300\" y=\"191\" width=\"96\" height=\"109\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"430\" y=\"180\" width=\"96\" height=\"120\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"560\" y=\"168\" width=\"96\" height=\"132\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"690\" y=\"155\" width=\"96\" height=\"145\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"820\" y=\"141\" width=\"96\" height=\"159\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><line x1=\"30\" y1=\"300\" x2=\"940\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><polyline points=\"88,190 218,169 348,145 478,119 608,91 738,60 868,27\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"88\" cy=\"190\" r=\"8\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"2\"/><circle cx=\"218\" cy=\"169\" r=\"8\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"2\"/><circle cx=\"348\" cy=\"145\" r=\"8\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"2\"/><circle cx=\"478\" cy=\"119\" r=\"8\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"2\"/><circle cx=\"608\" cy=\"91\" r=\"8\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"2\"/><circle cx=\"738\" cy=\"60\" r=\"8\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"2\"/><circle cx=\"868\" cy=\"27\" r=\"8\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"2\"/><rect x=\"1000\" y=\"0\" width=\"664\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1024.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><g transform=\"translate(1024.0 110.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v12m-8-8a8 8 0 0 0 16 0m1 0h-2M5 13H3m6-7a3 3 0 1 0 6 0a3 3 0 1 0-6 0\"/></g><g transform=\"translate(1024.0 230.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 310,
+     "w": 116,
+     "t": "sem 1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 310,
+     "w": 116,
+     "t": "sem 2",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 310,
+     "w": 116,
+     "t": "sem 3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 310,
+     "w": 116,
+     "t": "sem 4",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 550,
+     "y": 310,
+     "w": 116,
+     "t": "sem 5",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 310,
+     "w": 116,
+     "t": "sem 6",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 810,
+     "y": 310,
+     "w": 116,
+     "t": "sem 7",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 0,
+     "w": 500,
+     "t": "volume semanal +10% · esquema",
+     "tam": 19,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 886,
+     "y": 13,
+     "w": 100,
+     "t": "dor",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 28,
+     "w": 560,
+     "t": "O que a regra não diz",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1084,
+     "y": 114,
+     "w": 556,
+     "t": "sobre o que se calculam os dez por cento",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 234,
+     "w": 556,
+     "t": "o que mais mudou naquela semana",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A conduta que parece prudente",
-   "frase": "Dez por cento por semana, religiosamente, há sete semanas. E piorando.",
-   "apoio": "Um corredor voltando de tendinopatia de Aquiles. A regra não diz sobre o que se calculam os dez por cento, nem o que mais mudou naquela semana."
+   "titulo": "Dez por cento por semana, religiosamente, há sete semanas. E piorando.",
+   "fonte": "Um corredor voltando de tendinopatia de Aquiles"
   },
   {
    "id": "regra",
-   "tipo": "numeros",
-   "eyebrow": "O que a evidência diz da regra",
-   "titulo": "Saltos grandes preocupam; a regra sozinha não protegeu",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Dois estudos. À esquerda, um ensaio de 2008 com 486 corredores iniciantes sorteados: lesionados com a regra dos dez por cento, 21%; sem a regra, 20%. À direita, uma coorte de 2014 com 874 iniciantes acompanhados por GPS: quem aumentou a distância mais de 30% em duas semanas teve mais lesão relacionada à distância que quem aumentou menos de 10%\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"60\" y=\"123\" width=\"300\" height=\"147\" rx=\"6\" fill=\"#B07A1C\" opacity=\"1.0\"/><rect x=\"420\" y=\"130\" width=\"300\" height=\"140\" rx=\"6\" fill=\"#B07A1C\" opacity=\"0.7\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"920\" y1=\"270\" x2=\"1220\" y2=\"230\" stroke=\"#008A7E\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"1300\" y1=\"270\" x2=\"1600\" y2=\"90\" stroke=\"#A8322A\" stroke-width=\"8\" stroke-linecap=\"round\"/><g transform=\"translate(1540.0 120.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "21% × 20%",
-     "x": "lesionados com e sem a regra dos 10%; 486 iniciantes sorteados",
-     "cor": "ambar"
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "Ensaio de 2008 · 486 iniciantes sorteados",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "> 30%",
-     "x": "de aumento em duas semanas: mais lesão por distância que abaixo de 10%; 874 iniciantes",
-     "cor": "verm"
+     "x": 24,
+     "y": 290,
+     "w": 760,
+     "t": "lesionados",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 69,
+     "w": 300,
+     "t": "21%",
+     "tam": 40,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 141,
+     "w": 300,
+     "t": "com a regra dos 10%",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 76,
+     "w": 300,
+     "t": "20%",
+     "tam": 40,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 420,
+     "y": 148,
+     "w": 300,
+     "t": "sem a regra",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 16,
+     "w": 760,
+     "t": "Coorte de 2014 · 874 iniciantes com GPS",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 290,
+     "w": 760,
+     "t": "aumento de distância em duas semanas",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 920,
+     "y": 170,
+     "w": 300,
+     "t": "menos de 10%",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 80,
+     "w": 220,
+     "t": "mais de 30%",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 118,
+     "w": 230,
+     "t": "mais lesão por distância",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
+   "eyebrow": "O que a evidência diz da regra",
+   "titulo": "Saltos grandes preocupam; a regra sozinha não protegeu",
    "destaque": "Boa heurística de conversa, não lei. E dá para errar respeitando-a à risca.",
    "destaque_cor": "tinta",
    "fonte": "Am J Sports Med 2008 · J Orthop Sports Phys Ther 2014"
@@ -112,65 +363,251 @@
   },
   {
    "id": "variavel",
-   "tipo": "lista",
-   "eyebrow": "Erro dois · volume e ladeira na mesma semana",
-   "titulo": "Uma variável por vez, nesta ordem",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma escada de quatro degraus, do menos arriscado para o mais: frequência, mais sessões na semana; volume, mais em cada sessão; densidade, menos pausa; intensidade, ritmo, ladeira e carga, por último. Entre um degrau e outro, um relógio: a leitura de 24 a 48 horas. É regra prática, não achado de ensaio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"258\" width=\"360\" height=\"72\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(373.0 200.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"430\" y=\"186\" width=\"360\" height=\"144\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(803.0 128.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"860\" y=\"114\" width=\"360\" height=\"216\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1233.0 56.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"1290\" y=\"42\" width=\"360\" height=\"288\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(0.0 20.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><line x1=\"0\" y1=\"354\" x2=\"1600\" y2=\"354\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M 1600 344 L 1630 354 L 1600 364 Z\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
     {
+     "x": 18,
+     "y": 266,
+     "w": 324,
      "t": "Frequência",
-     "x": "mais sessões na semana",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 18,
+     "y": 302,
+     "w": 324,
+     "t": "mais sessões na semana",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 448,
+     "y": 194,
+     "w": 324,
      "t": "Volume",
-     "x": "mais em cada sessão",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 448,
+     "y": 230,
+     "w": 324,
+     "t": "mais em cada sessão",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 878,
+     "y": 122,
+     "w": 324,
      "t": "Densidade",
-     "x": "menos pausa",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 878,
+     "y": 158,
+     "w": 324,
+     "t": "menos pausa",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1308,
+     "y": 50,
+     "w": 324,
      "t": "Intensidade",
-     "x": "ritmo, ladeira, carga: por último",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1308,
+     "y": 86,
+     "w": 324,
+     "t": "ritmo, ladeira, carga: por último",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 52,
+     "y": 26,
+     "w": 800,
+     "t": "entre um degrau e outro, leia o dia seguinte: 24 a 48 h",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 368,
+     "w": 600,
+     "t": "do menos arriscado para o mais",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 368,
+     "w": 600,
+     "t": "regra prática, não achado de ensaio",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 6,
-   "destaque": "Regra prática, não achado de ensaio: do menos arriscado para o mais. Entre uma mudança e outra, a leitura de 24 a 48 horas.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Erro dois · volume e ladeira na mesma semana",
+   "titulo": "Uma variável por vez, nesta ordem"
   },
   {
    "id": "degrau",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Erro três · o protocolo sem “desde que”",
-   "titulo": "Os quatro elementos de um degrau",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro caixas em sequência, os elementos de um degrau. Estímulo: elevação de calcanhar numa perna só, 3 séries, 2 repetições antes da falha. Dose: quantas vezes por semana, com que carga. Critério de saída: o que precisa acontecer para subir, por exemplo as repetições combinadas nos dois lados sem dor no dia seguinte. Critério de regressão, destacado: o que faz voltar um degrau, por exemplo dor no dia seguinte bem acima do habitual ou inchaço que voltou. É o mais importante e o menos escrito\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"40\" width=\"386\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 64.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><path d=\"M 396 180 L 416 190 L 396 200 Z\" fill=\"#6B7A87\"/><rect x=\"426\" y=\"40\" width=\"386\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(446.0 64.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><path d=\"M 822 180 L 842 190 L 822 200 Z\" fill=\"#6B7A87\"/><rect x=\"852\" y=\"40\" width=\"386\" height=\"300\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(872.0 64.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><path d=\"M 1248 180 L 1268 190 L 1248 200 Z\" fill=\"#6B7A87\"/><rect x=\"1278\" y=\"0\" width=\"386\" height=\"380\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"6\"/><g transform=\"translate(1298.0 24.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m7 7l10 10m0-9v9H8\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 76,
+     "y": 70,
+     "w": 294,
      "t": "Estímulo",
-     "x": "elevação de calcanhar numa perna só, 3 séries, 2 repetições antes da falha",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 134,
+     "w": 346,
+     "t": "elevação de calcanhar numa perna só, 3 séries, 2 repetições antes da falha",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 502,
+     "y": 70,
+     "w": 294,
      "t": "Dose",
-     "x": "quantas vezes por semana, com que carga",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 446,
+     "y": 134,
+     "w": 346,
+     "t": "quantas vezes por semana, com que carga",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 928,
+     "y": 70,
+     "w": 294,
      "t": "Critério de saída",
-     "x": "o que precisa acontecer para subir",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 872,
+     "y": 134,
+     "w": 346,
+     "t": "o que precisa acontecer para subir: as repetições combinadas, sem dor no dia seguinte",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1354,
+     "y": 30,
+     "w": 294,
      "t": "Critério de regressão",
-     "x": "o que faz voltar um degrau",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1298,
+     "y": 94,
+     "w": 346,
+     "t": "o que faz voltar um degrau: dor no dia seguinte bem acima do habitual, ou inchaço de volta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1298,
+     "y": 300,
+     "w": 346,
+     "t": "o mais importante e o menos escrito",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
-   "destaque": "O quarto elemento é o mais importante e o menos escrito.",
-   "destaque_cor": "verm"
+   "eyebrow": "Erro três · o protocolo sem “desde que”",
+   "titulo": "Os quatro elementos de um degrau"
   },
   {
    "id": "espiral",
@@ -242,11 +679,94 @@
   },
   {
    "id": "degrauabaixo",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas escadas. À esquerda, com regressão escrita antes: a piora desce um degrau, por poucos dias, e a subida recomeça dali. À direita, sem plano: a piora vira queda da escada inteira, até o chão, e a subida recomeça do zero\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><path d=\"M 40 320 L 40 264 L 150 264 L 150 208 L 260 208 L 260 152 L 370 152 L 370 96 L 480 96 L 480 40 L 590 40 L 590 320 Z\" fill=\"#C9CFD4\" opacity=\"0.5\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"425\" cy=\"74\" r=\"14\" fill=\"#6B7A87\" opacity=\"0.5\"/><circle cx=\"315\" cy=\"130\" r=\"16\" fill=\"#008A7E\"/><path d=\"M 410 56 Q 370 26 330 108\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 1060 320 L 1060 264 L 1170 264 L 1170 208 L 1280 208 L 1280 152 L 1390 152 L 1390 96 L 1500 96 L 1500 40 L 1610 40 L 1610 320 Z\" fill=\"#C9CFD4\" opacity=\"0.5\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1555\" cy=\"18\" r=\"14\" fill=\"#6B7A87\" opacity=\"0.5\"/><circle cx=\"1640\" cy=\"304\" r=\"16\" fill=\"#A8322A\"/><path d=\"M 1540 10 C 1640 10, 1650 150, 1640 288\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 620,
+     "y": 70,
+     "w": 380,
+     "t": "Degrau para baixo",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 620,
+     "y": 116,
+     "w": 380,
+     "t": "regressão escrita antes",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 150,
+     "w": 380,
+     "t": "volta um passo por poucos dias",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 184,
+     "w": 380,
+     "t": "e sobe de novo dali",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 0,
+     "w": 330,
+     "t": "Queda da escada",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 40,
+     "w": 330,
+     "t": "sem plano: para tudo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 74,
+     "w": 330,
+     "t": "e recomeça do zero",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "Uma piora é um degrau para baixo, não uma queda da escada.",
-   "apoio": "A piora vai acontecer; no tendão, quase sempre. A diferença está em a pessoa saber, antes, o que fazer quando ela chegar."
+   "titulo": "Uma piora é um degrau para baixo, não uma queda da escada.",
+   "destaque": "A piora vai acontecer; no tendão, quase sempre. A diferença está em a pessoa saber, antes, o que fazer quando ela chegar.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "alta",
@@ -340,114 +860,478 @@
   },
   {
    "id": "registro",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma página de caderno com cinco colunas: data, o que fez, carga ou volume, dor durante de 0 a 10, dor em 24 horas de 0 a 10. Três linhas ilustrativas: segunda, trote e caminhada, 20 minutos, dor 2 e 2; quarta, trote e caminhada, 25 minutos, dor 2 e 3; sexta, trote com ladeira, 25 minutos, dor 3 e 6. A linha de sexta está marcada: a ladeira entrou e a dor do dia seguinte subiu\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"1300\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"60\" y1=\"0\" x2=\"60\" y2=\"360\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.5\"/><line x1=\"20\" y1=\"100\" x2=\"1280\" y2=\"100\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"20\" y1=\"180\" x2=\"1280\" y2=\"180\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"20\" y1=\"260\" x2=\"1280\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"20\" y1=\"340\" x2=\"1280\" y2=\"340\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"66\" y=\"262\" width=\"1220\" height=\"76\" rx=\"8\" fill=\"#F3E1DE\"/><g transform=\"translate(1340.0 40.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 30,
+     "w": 120,
+     "t": "Data",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 220,
+     "y": 30,
+     "w": 320,
+     "t": "O que fez",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 560,
+     "y": 30,
+     "w": 220,
+     "t": "Carga ou volume",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 800,
+     "y": 30,
+     "w": 240,
+     "t": "Dor durante (0–10)",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1060,
+     "y": 30,
+     "w": 240,
+     "t": "Dor em 24 h (0–10)",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 80,
+     "y": 124,
+     "w": 120,
+     "t": "seg",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 220,
+     "y": 124,
+     "w": 320,
+     "t": "trote e caminhada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 124,
+     "w": 220,
+     "t": "20 min",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 124,
+     "w": 240,
+     "t": "2",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 124,
+     "w": 240,
+     "t": "2",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 204,
+     "w": 120,
+     "t": "qua",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 220,
+     "y": 204,
+     "w": 320,
+     "t": "trote e caminhada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 204,
+     "w": 220,
+     "t": "25 min",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 204,
+     "w": 240,
+     "t": "2",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 204,
+     "w": 240,
+     "t": "3",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 284,
+     "w": 120,
+     "t": "sex",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 220,
+     "y": 284,
+     "w": 320,
+     "t": "trote com ladeira",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 284,
+     "w": 220,
+     "t": "25 min",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 284,
+     "w": 240,
+     "t": "3",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 284,
+     "w": 240,
+     "t": "6",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1340,
+     "y": 130,
+     "w": 324,
+     "t": "na sexta entrou a ladeira, e a dor do dia seguinte subiu",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "A ferramenta que corrige os cinco",
    "titulo": "O registro de cinco colunas",
-   "cab": [
-    "Data",
-    "O que fez",
-    "Carga ou volume",
-    "Dor durante (0–10)",
-    "Dor em 24 h (0–10)"
-   ],
-   "larguras": [
-    14,
-    26,
-    20,
-    20,
-    20
-   ],
-   "linhas": [
-    [
-     "seg",
-     "trote e caminhada",
-     "20 min",
-     "2",
-     "2"
-    ],
-    [
-     "qua",
-     "trote e caminhada",
-     "25 min",
-     "2",
-     "3"
-    ],
-    [
-     "sex",
-     "trote com ladeira",
-     "25 min",
-     "3",
-     "6"
-    ]
-   ],
    "destaque": "Sem registro, a consulta traz memória, puxada pelo último dia ruim. Com registro, a pessoa costuma achar o padrão antes de você.",
    "destaque_cor": "tinta",
    "fonte": "Linhas ilustrativas"
   },
   {
    "id": "principios",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O que sobrevive à crítica dos índices de carga",
-   "titulo": "Três princípios para a reabilitação",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Três cartões, cada um com um pequeno esquema. A base protege: uma faixa larga de carga crônica bem construída, que tolera mais. O pico importa: barras semanais com uma semana que dobrou, que pesa mais que a média do mês. Carga não é só treino: ao lado do treino entram sono, trabalho, estresse e doença\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"40\" y=\"190\" width=\"448\" height=\"56\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"60\" y=\"156\" width=\"48\" height=\"30\" rx=\"4\" fill=\"#008A7E\" opacity=\"0.5\"/><rect x=\"132\" y=\"146\" width=\"48\" height=\"40\" rx=\"4\" fill=\"#008A7E\" opacity=\"0.5\"/><rect x=\"204\" y=\"152\" width=\"48\" height=\"34\" rx=\"4\" fill=\"#008A7E\" opacity=\"0.5\"/><rect x=\"276\" y=\"142\" width=\"48\" height=\"44\" rx=\"4\" fill=\"#008A7E\" opacity=\"0.5\"/><rect x=\"348\" y=\"148\" width=\"48\" height=\"38\" rx=\"4\" fill=\"#008A7E\" opacity=\"0.5\"/><rect x=\"420\" y=\"140\" width=\"48\" height=\"46\" rx=\"4\" fill=\"#008A7E\" opacity=\"0.5\"/><rect x=\"618\" y=\"196\" width=\"60\" height=\"50\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.45\"/><rect x=\"706\" y=\"190\" width=\"60\" height=\"56\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.45\"/><rect x=\"794\" y=\"194\" width=\"60\" height=\"52\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.45\"/><rect x=\"882\" y=\"134\" width=\"60\" height=\"112\" rx=\"4\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"970\" y=\"192\" width=\"60\" height=\"54\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.45\"/><line x1=\"608\" y1=\"181\" x2=\"1058\" y2=\"181\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"608\" y1=\"246\" x2=\"1058\" y2=\"246\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1166.0 130.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><g transform=\"translate(1262.0 130.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><g transform=\"translate(1358.0 130.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><g transform=\"translate(1454.0 130.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><g transform=\"translate(1550.0 130.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 18,
+     "w": 480,
      "t": "A base protege",
-     "x": "carga crônica bem construída tolera mais",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 270,
+     "w": 480,
+     "t": "carga crônica bem construída tolera mais",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 592,
+     "y": 18,
+     "w": 480,
      "t": "O pico importa",
-     "x": "a semana em que dobrou pesa mais que a média do mês",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 270,
+     "w": 480,
+     "t": "a semana em que dobrou pesa mais que a média do mês",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1160,
+     "y": 18,
+     "w": 480,
      "t": "Carga não é só treino",
-     "x": "sono, trabalho, estresse e doença entram na conta",
-     "cor": "tinta"
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 270,
+     "w": 480,
+     "t": "sono, trabalho, estresse e doença entram na conta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 598,
+     "y": 74,
+     "w": 200,
+     "t": "média do mês",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O que sobrevive à crítica dos índices de carga",
+   "titulo": "Três princípios para a reabilitação",
    "destaque": "O índice agudo e crônico não serve como número de decisão; o módulo de preparação física volta a ele.",
    "destaque_cor": "tinta",
    "fonte": "Br J Sports Med 2016 · consenso do COI 2016"
   },
   {
    "id": "cinco",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Cinco linhas, cada uma com um erro à esquerda e o que fazer no lugar à direita. Âncora errada: progredir sobre o que tolerou nas últimas duas semanas. Duas variáveis juntas: uma por vez, frequência, volume, densidade, intensidade. Degrau sem condição: estímulo, dose, critério de saída e de regressão. Parar tudo quando piora: regressão escrita antes, um degrau para baixo. Alta administrativa: sessões espaçadas, programa escrito, revisão marcada. Por baixo das cinco linhas, uma faixa: o registro\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 12.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v12m-8-8a8 8 0 0 0 16 0m1 0h-2M5 13H3m6-7a3 3 0 1 0 6 0a3 3 0 1 0-6 0\"/></g><line x1=\"574\" y1=\"32\" x2=\"636\" y2=\"32\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"650\" y=\"0\" width=\"1014\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"76\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 88.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><line x1=\"574\" y1=\"108\" x2=\"636\" y2=\"108\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"650\" y=\"76\" width=\"1014\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"152\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 164.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><line x1=\"574\" y1=\"184\" x2=\"636\" y2=\"184\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"650\" y=\"152\" width=\"1014\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"228\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 240.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><line x1=\"574\" y1=\"260\" x2=\"636\" y2=\"260\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"650\" y=\"228\" width=\"1014\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"304\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 316.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g><line x1=\"574\" y1=\"336\" x2=\"636\" y2=\"336\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"650\" y=\"304\" width=\"1014\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"394\" width=\"1664\" height=\"76\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(24.0 408.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 16,
+     "w": 480,
+     "t": "Âncora errada",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 674,
+     "y": 17,
+     "w": 970,
+     "t": "progredir sobre o que tolerou nas últimas duas semanas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 92,
+     "w": 480,
+     "t": "Duas variáveis juntas",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 674,
+     "y": 93,
+     "w": 970,
+     "t": "uma por vez: frequência, volume, densidade, intensidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 168,
+     "w": 480,
+     "t": "Degrau sem condição",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 674,
+     "y": 169,
+     "w": 970,
+     "t": "estímulo, dose, critério de saída e de regressão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 244,
+     "w": 480,
+     "t": "Parar tudo quando piora",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 674,
+     "y": 245,
+     "w": 970,
+     "t": "regressão escrita antes: um degrau para baixo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 320,
+     "w": 480,
+     "t": "Alta administrativa",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 674,
+     "y": 321,
+     "w": 970,
+     "t": "sessões espaçadas, programa escrito, revisão marcada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 414,
+     "w": 1500,
+     "t": "Por baixo dos cinco, o registro",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Juntando",
-   "titulo": "Cinco erros e o que fazer no lugar",
-   "cab": [
-    "Erro",
-    "No lugar"
-   ],
-   "larguras": [
-    34,
-    66
-   ],
-   "linhas": [
-    [
-     "Âncora errada",
-     "progredir sobre o que tolerou nas últimas duas semanas"
-    ],
-    [
-     "Duas variáveis juntas",
-     "uma por vez: frequência, volume, densidade, intensidade"
-    ],
-    [
-     "Degrau sem condição",
-     "estímulo, dose, critério de saída e de regressão"
-    ],
-    [
-     "Parar tudo quando piora",
-     "regressão escrita antes: um degrau para baixo"
-    ],
-    [
-     "Alta administrativa",
-     "sessões espaçadas, programa escrito, revisão marcada"
-    ]
-   ],
-   "destaque": "Por baixo dos cinco, o registro.",
-   "destaque_cor": "tinta"
+   "titulo": "Cinco erros e o que fazer no lugar"
   },
   {
    "id": "fecho",

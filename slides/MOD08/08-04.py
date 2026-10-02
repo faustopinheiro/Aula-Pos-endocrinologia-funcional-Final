@@ -134,6 +134,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Progressão de carga", "ti
                     {"t": "Médico", "x": "Traduz “repouso relativo” em carga."}],
           "quem": "Próxima aula: a reconstrução do cruzado anterior, num caso ilustrativo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-04")
+
 spec = {"arquivo": "aulas/MOD08/08-04-progressao-de-carga-em-tecido-em-cicatrizacao.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Progressão de carga", "subtitulo": "Cinco erros de dose em tecido em cicatrização",
