@@ -174,19 +174,19 @@ O espaçamento importa. Tendão agradece dias pesados alternados com leves; osso
 
 O tempo é do tecido. O músculo mostra resultado em semanas; o tendão, em meses. Avisar isso no começo evita o abandono no segundo mês.
 
-E a dor não é o sinal de adaptação. Dá para adaptar sem dor, e dá para doer sem adaptar. A dor é uma informação sobre tolerância, que a próxima aula vai usar para dosar, não o termômetro do resultado.
+E a dor não é o sinal de adaptação. Dá para adaptar sem dor, e dá para doer sem adaptar. A dor é uma informação sobre tolerância, que a próxima conversa vai usar para dosar, não o termômetro do resultado.
 
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta: "sem carga, não há sinal", com os quatro relógios em miniatura e a ponte para a próxima aula.*
+*Visual: fecho em tinta: "sem carga, não há sinal", com os quatro relógios em miniatura e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Voltando ao número do começo. O miolo do seu tendão de Aquiles tem a idade da sua adolescência. O seu músculo, algumas semanas. E os dois obedecem à mesma regra: sem carga, não há sinal, e sem sinal não há reparo.
 
 Para a equipe, isso muda a conversa. Quem prescreve repouso precisa dizer por quanto tempo e para qual tecido. Quem conduz a reabilitação precisa dosar magnitude, espaçamento e tempo por tecido. E quem cuida da alimentação garante a matéria-prima, porque o sinal sozinho não constrói nada.
 
-Falta a pergunta prática: como se progride carga num tecido que ainda está cicatrizando, sem passar do ponto? É o assunto da próxima aula.
+Falta a pergunta prática: como se progride carga num tecido que ainda está cicatrizando, sem passar do ponto? É o assunto da próxima conversa.
 
 ---
 
@@ -210,8 +210,9 @@ como manda o guia de escrita. Arquitetura NÚMERO: abre pelo tendão que não se
 renova e desmonta o número tecido por tecido. Sem caso clínico. A modalidade entra de passagem
 (força e academia na imobilização, corrida na fratura por estresse).
 
-**Números conferidos.**
-- Carbono-14: 28 amostras de miolo do tendão de Aquiles, nascidos de 1945 a 1983; o carbono refletia
+Nesta revisão, os 8 slides que ainda eram texto viraram desenho (o carbono-14, o miolo do tendão, o relógio do músculo, magnitude e tempo, a perna engessada, proteger e repousar, os quatro relógios e a prática), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
+**Números conferidos.** - Carbono-14: 28 amostras de miolo do tendão de Aquiles, nascidos de 1945 a 1983; o carbono refletia
   a atmosfera dos primeiros 17 anos de vida; músculo com renovação contínua (*FASEB J* 2013).
 - Síntese de proteína muscular depois de 8 × 8 a 80% de 1RM, em oito destreinados, em jejum: +112%
   em 3 h, +65% em 24 h, +34% em 48 h; degradação +31% e +18% em 3 e 24 h; balanço negativo em jejum
@@ -226,14 +227,15 @@ renova e desmonta o número tecido por tecido. Sem caso clínico. A modalidade e
 - Imobilização: 5 dias com −3,5% de área do quadríceps e −9% de força; 14 dias com cerca de −23% de
   força (*Acta Physiol* 2014).
 
-**Correções e escolhas.**
+**Correções.** 
 - A concentração de carbono-14 na atmosfera foi dita como "subiu de forma abrupta", sem o fator de
   aumento, que não foi conferido nesta revisão.
 - O saldo negativo do colágeno logo depois da carga está no esquema e dito sem número de horas;
   a revisão descreve os picos, e a janela exata de saldo negativo varia entre estudos.
 - A área do quadríceps em 14 dias não entrou por não ter sido conferida; ficou a força.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa".
 
-**Saíram.** Nada; aula nova. Duração de 14 minutos.
+**Saíram.** Nada; aula nova. Duração de 14 minutos. Duração de 14 para 14 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O estudo do carbono-14 entra como "um grupo
 dinamarquês".

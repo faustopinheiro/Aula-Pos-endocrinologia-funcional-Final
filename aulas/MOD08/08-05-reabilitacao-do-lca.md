@@ -175,14 +175,14 @@ E a atleta e a família recebem a expectativa honesta no primeiro mês, para que
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta: "caso ilustrativo, o plano", com as portas do percurso e a ponte para a próxima aula.*
+*Visual: fecho em tinta: "caso ilustrativo, o plano", com as portas do percurso e a ponte para a próxima conversa.*
 *Teleprompter: (fecha o caso pelo plano, sem desfecho)*
 
 O plano da jogadora de handebol, então, cabe em poucas linhas. Expectativa honesta no primeiro mês. Joelho calmo e quadríceps ativo antes da cirurgia, se houver tempo. Extensão completa e derrame controlado nas primeiras semanas. Meses de força, com cadeira extensora e eletroestimulação quando ajudarem. Corrida por critério, não por calendário. Uma fase de campo longa, do controlado ao caótico, passando muitas vezes pelo gesto em que a lesão aconteceu. E a última porta, perto do nono mês, com testes, prontidão e decisão compartilhada.
 
 O que acontece com ela depois disso não é o assunto. O assunto é que cada passo do caminho tem uma porta, um responsável e um motivo.
 
-Na próxima aula, o foco sai do joelho e vai para duas regiões que respondem por muito afastamento no futebol e nos esportes de campo: o posterior da coxa e a virilha.
+Na próxima conversa, o foco sai do joelho e vai para duas regiões que respondem por muito afastamento no futebol e nos esportes de campo: o posterior da coxa e a virilha.
 
 ---
 
@@ -207,8 +207,9 @@ do módulo até aqui: o tempo é o conteúdo, e o erro só aparece ao longo de m
 ilustrativo, sem nome, com idade dita por década, e apresenta o plano, não o desfecho. Abre por
 handebol (coletivo de quadra).
 
-**Números conferidos.**
-- Metanálise de 2014: cerca de 81% voltam a algum esporte, 65% ao nível de antes da lesão, 55% ao
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (o caso, a expectativa, antes da cirurgia, as primeiras semanas, a força, a corrida, os dois relógios, a última porta e quem faz o quê), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
+**Números conferidos.** - Metanálise de 2014: cerca de 81% voltam a algum esporte, 65% ao nível de antes da lesão, 55% ao
   esporte competitivo.
 - Comparação entre coortes de 2016: 192 pacientes com reabilitação estendida antes da cirurgia
   contra 1.995 sem; retorno ao esporte de antes em 72% contra 63% aos dois anos. A correção
@@ -218,16 +219,17 @@ handebol (coletivo de quadra).
 - Revisão de mapeamento de 2018: 201 estudos; mediana de 12 semanas para liberar a corrida; menos de um
   em cada cinco usou critério clínico, de força ou de desempenho além do tempo.
 
-**Correções e escolhas.**
+**Correções.** 
 - Os números do estudo de Delaware e Oslo (queda por mês até o nono mês; 38% contra cerca de 6%)
   não foram repetidos: já estão na aula de joelho do módulo de lesões. Aqui entram em uma frase.
 - Nenhum valor de simetria de força para a porta da corrida foi dito: as diretrizes variam, e a
   aula ficou com "uma força combinada em comparação com o outro lado".
 - O conteúdo de fatores de risco, ciclo menstrual e rastreio da aula antiga saiu; fica com o
   módulo da atleta mulher e com a prevenção do módulo de lesões.
+- Os destaques de antes da cirurgia, das primeiras semanas e da corrida entraram no desenho. O da última porta ficou só com "cada parte ganha uma conversa própria adiante"; o resto entrou no desenho.
 
 **Saíram.** O caso nomeado da aula antiga, "a aula 2 deste módulo", "a aula 3", o bloco "Roteiro
-Gamma". Duração de 19 para 15 minutos.
+Gamma". Duração de 15 para 15 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O estudo de Delaware e Oslo entra pelo nome das
 cidades.

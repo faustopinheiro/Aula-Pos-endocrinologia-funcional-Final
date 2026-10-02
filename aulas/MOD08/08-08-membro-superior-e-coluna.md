@@ -175,14 +175,14 @@ E modificar quando precisava parar: deixar passar a ruptura, a lesão do arco ve
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com as três saídas e a ponte para a próxima aula.*
+*Visual: fecho em tinta com as três saídas e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Para a nadadora: sem sinal de alerta, modificar volume, intensidade e material, manter a pernada e o que não dói, e fortalecer o ombro em paralelo, com a expectativa de semanas. Para o levantador: sem sinal de alerta, modificar carga, amplitude e variação, manter o resto do treino, e desfazer o medo da coluna curvada.
 
 Na equipe, o médico responde a primeira pergunta, a dos sinais de alerta, e decide sobre imagem. A fisioterapia conduz o fortalecimento e ajuda a escolher as modificações. O treinador de natação e o preparador de força mexem na planilha, que é onde a maior parte da solução está. E o atleta aprende a ler o dia seguinte.
 
-Na próxima aula, o assunto são os recursos que aparecem em toda sala de fisioterapia e em toda beira de piscina: gelo, calor, massagem, eletroterapia, bandagem. O que cada um muda, e o que é ritual.
+Na próxima conversa, o assunto são os recursos que aparecem em toda sala de fisioterapia e em toda beira de piscina: gelo, calor, massagem, eletroterapia, bandagem. O que cada um muda, e o que é ritual.
 
 ---
 
@@ -206,8 +206,9 @@ com a decisão de parar, modificar ou manter. Arquitetura DECISÃO. Sem caso cl�
 levantador são perfis típicos; a nadadora é dita adolescente porque a faixa etária é o dado da
 revisão, não um caso. Abre por natação e força.
 
-**Números conferidos.**
-- Revisão de 2020 sobre natação: 12 estudos, 1.460 nadadores; adolescentes com as maiores taxas de
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (eu paro?, os sinais de alerta, a nadadora, as alavancas do ombro, a cirurgia, o mostrador, a flexão, o risco, as alavancas da coluna e o custo), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
+**Números conferidos.** - Revisão de 2020 sobre natação: 12 estudos, 1.460 nadadores; adolescentes com as maiores taxas de
   dor no ombro; volume de treino associado à dor nos adolescentes (e nos masters). A taxa de dor dos
   adolescentes não foi dita.
 - Ensaio cirúrgico de 2018: 32 hospitais britânicos; descompressão, artroscopia sem descompressão e
@@ -218,14 +219,17 @@ revisão, não um caso. Abre por natação e força.
 - Revisão de 2017 sobre levantamento: 1,0 a 4,4 lesões por mil horas no levantamento básico; risco
   parecido com outros esportes de força sem contato e baixo perto dos de contato.
 
-**Correções e escolhas.**
+Conta do desenho do risco: mil horas a seis horas por semana são cerca de 167 semanas, pouco mais de três anos; os pontos de lesão no calendário são ilustrativos.
+
+**Correções.** 
 - O ensaio de exercício autogerido do ombro e as tabelas de testes de exame físico saíram.
 - A prevalência de achados de degeneração em ressonância de pessoas sem dor não foi repetida: está
   na aula de imagem do módulo de lesões.
 - A conta de "mais de três anos" para mil horas foi feita em aula (seis horas por semana).
+- Os destaques dos sinais de alerta, da nadadora, do risco e da coluna entraram no desenho. A fonte do risco passou a dizer que a conta dos três anos é nossa, e a da coluna ganhou "série sobre dor lombar".
 
 **Saíram.** Os seis pacientes nomeados com idade e desfecho, os blocos "Roteiro Gamma" das duas
-aulas antigas. Duração de 38 minutos somados para 13.
+aulas antigas. Duração de 38 minutos somados para 13. Duração de 13 para 13 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O ensaio cirúrgico entra pelo Lancet; a série de dor
 lombar, pelo Lancet.

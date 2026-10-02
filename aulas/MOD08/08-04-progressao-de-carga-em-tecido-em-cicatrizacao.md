@@ -16,7 +16,7 @@ Um corredor voltando de uma tendinopatia de Aquiles faz exatamente o que o conse
 
 Essa é a conduta que abre esta aula. Ela é plausível, é difundida, parece prudente, e no caso dele está errada. Não porque dez por cento seja um número ruim, mas por duas coisas que a regra não diz: sobre o que se calculam os dez por cento, e o que mais mudou naquela semana.
 
-A aula anterior mostrou por que o tecido precisa de carga. Esta mostra os cinco jeitos mais comuns de errar a dose dessa carga.
+A conversa sobre mecanotransdução mostrou por que o tecido precisa de carga. Esta mostra os cinco jeitos mais comuns de errar a dose dessa carga.
 
 ---
 
@@ -182,7 +182,7 @@ O corredor da primeira cena não precisava de um exercício novo. Precisava rean
 
 Para a equipe, a divisão é simples. A fisioterapia escreve os degraus e os critérios. A preparação física traz a base real de treino e assume a progressão quando a reabilitação vai para o campo. E o médico, quando prescreve "repouso relativo", diz o que isso significa em carga, para que ninguém traduza como parar tudo.
 
-Na próxima aula, tudo isso é aplicado ao percurso mais longo da reabilitação esportiva: a reconstrução do ligamento cruzado anterior, acompanhada ao longo de nove meses num caso ilustrativo.
+Na próxima conversa, tudo isso é aplicado ao percurso mais longo da reabilitação esportiva: a reconstrução do ligamento cruzado anterior, acompanhada ao longo de nove meses num caso ilustrativo.
 
 ---
 
@@ -204,12 +204,16 @@ tempo e critério; esta ficou com a dose. Os três pacientes nomeados com idade 
 ombro e Aquiles) saíram; ficou um perfil típico, o corredor voltando de tendinopatia, sem idade e sem
 desfecho, e as outras duas histórias viraram erros três e cinco. Abre por corrida.
 
+Nesta revisão, os 8 slides que ainda eram texto viraram desenho (a planilha, a regra dos dez por cento, a ordem das variáveis, o degrau, o degrau para baixo, o registro, os três princípios e os cinco erros), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Ensaio holandês de 2008: 486 corredores iniciantes, programa graduado de 13
 semanas com 10% por semana contra programa padrão de 8 semanas, lesão em cerca de 21% contra 20%,
 sem diferença. Estudo dinamarquês de 2014: 874 iniciantes com GPS por um ano; aumento acima de 30%
 em duas semanas associado a mais lesões relacionadas à distância que aumento abaixo de 10%.
 
-**Correções.**
+Conta do desenho da planilha: sete semanas a 10% por semana dão 1,1 elevado a 6, cerca de 1,77 vez o volume da primeira; a linha de dor é esquema.
+
+**Correções.** 
 - "Cada degrau deve durar de uma a duas semanas" e "a escada inteira deve ter entre quatro e sete
   degraus" saíram: são regra prática sem fonte conferida.
 - A ordem frequência, volume, densidade e intensidade ficou explicitamente como regra prática, não
@@ -217,9 +221,10 @@ em duas semanas associado a mais lesões relacionadas à distância que aumento 
 - A citação do ensaio de exercício autogerido do ombro, de outro módulo antigo, saiu.
 - Os valores de dor nos critérios de exemplo (três, quatro) saíram; ficou "bem acima do habitual".
 - O dado de nove meses no cruzado foi para a próxima aula, onde é o centro.
+- "A aula anterior mostrou" virou "a conversa sobre mecanotransdução mostrou". Os destaques da ordem das variáveis e do degrau entraram no desenho.
 
 **Saíram.** "a aula 1", "aula 3 do módulo 17", "o dado da aula 1", "slide 3", o bloco "Roteiro
-Gamma". Duração de 20 para 13 minutos.
+Gamma". Duração de 13 para 13 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O consenso do Comitê Olímpico Internacional entra pela
 instituição.

@@ -195,7 +195,7 @@ E o atleta traz as metas. Quando ele participa da escolha do que vai ser medido,
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com as cinco perguntas e a ponte para a próxima aula.*
+*Visual: fecho em tinta com as cinco perguntas e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Então, o roteiro de segunda-feira. Isso é de reabilitação? Quão irritável está? O que a pessoa não consegue fazer? O que explica a limitação, e qual teste pode me desmentir? O que eu vou medir de novo?
@@ -204,7 +204,7 @@ Cinco perguntas, antes do primeiro exercício.
 
 O praticante de jiu-jitsu da primeira cena sai com um diagnóstico, que ele já tinha, e com três atividades, duas medidas e uma hipótese que vai ser testada na próxima sessão. É isso que ele não tinha.
 
-Na próxima aula, o plano ganha forma no tempo: quais são as fases da reabilitação e, principalmente, o que precisa acontecer para passar de uma para a outra.
+Na próxima conversa, o plano ganha forma no tempo: quais são as fases da reabilitação e, principalmente, o que precisa acontecer para passar de uma para a outra.
 
 ---
 
@@ -225,19 +225,21 @@ e controle com recurso mínimo era de monitoramento do praticante saudável, e v
 avaliação dentro da reabilitação. Arquitetura PROCEDIMENTO, em cinco perguntas. Sem caso clínico:
 o praticante de jiu-jitsu é um perfil típico, sem idade. Abre por combate.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (o tatame, o roteiro, as bandeiras, a irritabilidade, a CIF, as hipóteses, o laudo, os vieses e quem faz o quê), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Modelo da CIF: OMS, 2001. Revisão sobre gravidade, irritabilidade,
 natureza, estágio e estabilidade: 2021, *J Man Manip Ther*. Escala funcional específica do
 paciente: 1995, *Physiotherapy Canada*, três a cinco atividades com nota de zero a dez.
 
-**Correções.**
+**Correções.** 
 - O estudo PURE e a força de preensão como marcador de mortalidade saíram: são de saúde do
   praticante, não de reabilitação.
 - O caso do tenista com nome, idade e desfecho em quatro meses saiu.
 - Os valores do exemplo do erro de medida (três e cinco por cento) são ilustrativos e ditos como
   exemplo, sem atribuição a teste específico.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa".
 
-**Saíram.** "a gente viu na primeira aula", "módulo passado", "Eixo 1", o bloco "Roteiro Gamma".
-Duração de 18 para 14 minutos.
+**Saíram.** "a gente viu na primeira aula", "módulo passado", "Eixo 1", o bloco "Roteiro Gamma". Duração de 14 para 14 minutos.
 
 **Citações faladas.** Nenhum autor por nome. OMS citada como instituição.
 

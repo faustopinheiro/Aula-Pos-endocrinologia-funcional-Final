@@ -100,7 +100,7 @@ Se é para ficar uma frase, que seja esta.
 
 O risco que sobra não é falha do tratamento. É o que o melhor tratamento não consegue tirar. E precisa ser dito, em número, antes da volta.
 
-Quem não ouve o número antes ouve a lesão depois como traição: "vocês disseram que estava tudo bem". Quem ouve antes pode decidir, que é o que a aula anterior pediu.
+Quem não ouve o número antes ouve a lesão depois como traição: "vocês disseram que estava tudo bem". Quem ouve antes pode decidir, que é o que a decisão compartilhada pede.
 
 ---
 
@@ -166,7 +166,7 @@ E depois: "Pode me dizer, com as suas palavras, o que você vai contar em casa?"
 *Visual: fecho do módulo em tinta: a matriz dos três níveis, Decisão, Contribuição e Reconhecimento, aplicada ao módulo inteiro.*
 *Teleprompter: (fecha a aula e o módulo nos três níveis)*
 
-Como esta aula fecha o módulo, juntamos as doze aulas do jeito que a equipe trabalha, em três níveis.
+Como esta aula fecha o módulo, juntamos todas as conversas do módulo do jeito que a equipe trabalha, em três níveis.
 
 Decisão. Diagnosticar, pedir imagem quando muda conduta, dar a liberação médica e dizer quando um risco é inaceitável por si: médico. Avaliar a função, conduzir as fases, dosar a carga no tecido que cicatriza, aplicar os testes e escolher o que é exercício e o que é recurso passivo: fisioterapia. Levar a carga da clínica para o campo e reconstruir o condicionamento: profissional de educação física e preparação. Garantir energia e proteína para reparar: nutrição. Medo de voltar e prontidão psicológica: psicologia. Pesar o risco contra o que está em jogo, informada: a atleta. E a gestão decide se há tempo e estrutura para os testes, e se quem avalia está separado de quem tem interesse na data.
 
@@ -202,6 +202,8 @@ sem desfecho; a pergunta da mãe é a cena. Abre por basquete, modalidade que o 
 tinha usado. Fecha o módulo nos três níveis e faz a ponte para o módulo de preparação física,
 treinamento e gestão de carga.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (a pergunta da mãe, os dois números, os três formatos, o outro joelho, o posterior da coxa, o risco que sobra, os três públicos, a lei e a resposta), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Estudo de Cincinnati: 78 atletas operados, idade média de 17 anos, e 47
 controles; 29,5% com nova lesão do cruzado em 24 meses (20,5% contralateral, 9,0% no enxerto);
 taxa de 1,39 contra 0,24 por mil exposições, quase seis vezes. Metanálise de 2016: 15% no total
@@ -211,6 +213,8 @@ relativo de 2,25 (IC 95% de 1,34 a 3,76). LGPD: dado de saúde como sensível (a
 tratamento pelo art. 11, consentimento de pelo menos um dos pais para dados de criança (art. 14,
 § 1º).
 
+As barras do risco relativo foram desenhadas na razão de quase seis para um, sem valor absoluto; as grades de cem pontos usam 30, 20 e 9.
+
 **Correções.** A comparação de "quatro vezes" das atletas operadas com as controles do mesmo sexo
 saiu, para não haver dois riscos relativos na mesma aula. A resposta montada para a mãe usa a faixa
 "vinte a trinta em cada cem", que cobre os dois estudos, em vez de escolher um. O texto sobre a lei
@@ -218,12 +222,13 @@ não diz que o adolescente precisa ou não de consentimento parental, porque o a
 expressamente de crianças e a aplicação aos adolescentes é discutida; a aula diz "quando a atleta
 for menor" só para a participação da família na conversa. A redução relativa de risco com os
 critérios de retorno não foi repetida em número aqui; fica na aula do cruzado.
+- "Que é o que a aula anterior pediu" virou "que é o que a decisão compartilhada pede", e "as doze aulas" virou "todas as conversas do módulo". Os destaques dos formatos, do posterior da coxa, dos públicos e da resposta entraram no desenho.
 
 **Saíram.** Os blocos "Roteiro Gamma" e os três pacientes nomeados, com idade e desfecho, da aula
 antiga de recidiva. A parte de quando o retorno não é a resposta ficou reduzida à pergunta "o que o
 esporte faz por você?" e à saída "ainda não" da aula anterior. A frequência de reteste no primeiro
 ano saiu, por não ter sido conferida. Os estudos de critérios de alta com números de redução de
-risco não foram repetidos; ficam na aula do cruzado. Duração de 38 minutos somados para 15.
+risco não foram repetidos; ficam na aula do cruzado. Duração de 38 minutos somados para 15. Duração de 15 para 15 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O estudo de Cincinnati entra pela cidade; os demais,
 pelo tipo e pelo ano.

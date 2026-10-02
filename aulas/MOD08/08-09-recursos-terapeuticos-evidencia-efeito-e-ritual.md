@@ -165,14 +165,14 @@ E o atleta tem direito, e deveria ser estimulado, a perguntar: "o que isso muda 
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com as quatro perguntas e a ponte para a próxima aula.*
+*Visual: fecho em tinta com as quatro perguntas e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 A sessão da jogadora de beach tennis, desvirada: começa pelo exercício para o cotovelo, com carga que progride; usa, se ajudar, um recurso manual ou analgésico para abrir a janela do exercício; e deixa o gelo, se ela gostar, para casa. O tempo da sessão passa a ir para o que muda o quadro.
 
 Recurso passivo não é inimigo. É coadjuvante. Quando ele vira protagonista, o tratamento vira ritual, e a pessoa vira dependente dele.
 
-Na próxima aula, a pergunta muda de lugar: quando a reabilitação termina, como se testa que o atleta está pronto? Quais testes aplicar, e como não ser enganado por eles.
+Na próxima conversa, a pergunta muda de lugar: quando a reabilitação termina, como se testa que o atleta está pronto? Quais testes aplicar, e como não ser enganado por eles.
 
 ---
 
@@ -194,8 +194,9 @@ lesões. Aqui ficaram os recursos passivos dentro da reabilitação, com a régu
 Arquitetura ERRO, a partir da sessão de cabeça para baixo. Sem caso clínico: a jogadora de beach
 tennis é um perfil típico, sem idade. Abre por esporte de raquete.
 
-**Números conferidos.**
-- Revisão Cochrane de 2016 sobre eletroterapia no manguito: 47 ensaios, 2.388 participantes;
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (as quatro perguntas, o aparelho, a fita, a terapia manual, a janela, os recursos caros, o contexto, os três sinais e quem faz o quê), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
+**Números conferidos.** - Revisão Cochrane de 2016 sobre eletroterapia no manguito: 47 ensaios, 2.388 participantes;
   evidência de baixa qualidade; ultrassom, laser de baixa intensidade e campo eletromagnético
   pulsado provavelmente sem benefício adicional somados a outras intervenções; incerteza sobre a
   corrente elétrica transcutânea.
@@ -206,16 +207,17 @@ tennis é um perfil típico, sem idade. Abre por esporte de raquete.
 - Revisão de 2016 sobre fatores de contexto: quatro categorias (profissional e paciente, relação,
   tratamento, ambiente).
 
-**Correções e escolhas.**
+**Correções.** 
 - Ondas de choque e agulhamento foram descritos sem número e sem condição específica: a evidência
   varia muito por condição, e nenhuma metanálise específica foi conferida para esta aula.
 - A imersão em água fria depois do treino de força e a metanálise de técnicas de recuperação não
   foram repetidas: estão na aula de recuperação do módulo de fisiologia.
 - A revisão do ombro foi dita como do ombro, com a ressalva de que não se transpõe inteira para o
   cotovelo.
+- O destaque do aparelho entrou no desenho.
 
 **Saíram.** O conteúdo de sono e recuperação da aula antiga, o paciente nomeado, o bloco "Roteiro
-Gamma". Duração de 19 para 12 minutos.
+Gamma". Duração de 12 para 12 minutos.
 
 **Citações faladas.** Nenhum autor por nome. A Cochrane entra pelo nome da colaboração.
 

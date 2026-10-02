@@ -184,7 +184,7 @@ Os números da aula, então. Um em cada três torce de novo em um ano com o trat
 
 A jogadora de vôlei da primeira cena não precisa escolher entre órtese e treino. Precisa das oito semanas depois da alta, e de alguém perguntando toda semana se elas estão acontecendo.
 
-Na próxima aula, a reabilitação sobe para o ombro e para a coluna, e a pergunta muda: quando parar, quando modificar e quando manter o treino.
+Na próxima conversa, a reabilitação sobe para o ombro e para a coluna, e a pergunta muda: quando parar, quando modificar e quando manter o treino.
 
 ---
 
@@ -205,8 +205,9 @@ e os quatro ingredientes; esta ficou com a recidiva em números e com a decisão
 Arquitetura NÚMERO, abrindo por "um em cada três". Sem caso clínico: a jogadora de vôlei é um
 perfil típico, sem idade. Abre por vôlei.
 
-**Números conferidos.**
-- Ensaio holandês de 2009 (BMJ): 522 atletas de 12 a 70 anos, entorse lateral nos dois meses
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (um em cada três, o ensaio de 2009, o programa, a órtese, órtese e treino, as oito semanas, as cinco perguntas, o jeito barato, os erros de alta e quem faz o quê), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
+**Números conferidos.** - Ensaio holandês de 2009 (BMJ): 522 atletas de 12 a 70 anos, entorse lateral nos dois meses
   anteriores; nova entorse em um ano em 33% (89 de 266) com tratamento habitual e 22% (56 de 256)
   com o programa de oito semanas em casa. A conta de cerca de nove foi feita em aula a partir das
   duas proporções.
@@ -215,16 +216,17 @@ perfil típico, sem idade. Abre por vôlei.
   perdido e nos custos.
 - Consenso de 2021: cinco domínios, 98% de concordância.
 
-**Correções e escolhas.**
+**Correções.** 
 - A frequência semanal e a duração de cada sessão do programa não foram ditas: não foram conferidas
   nesta revisão.
 - A faixa de 40% a 70% de instabilidade crônica não foi repetida; está na aula de tornozelo do
   módulo de lesões.
 - Nenhum valor de corte para os testes de campo foi dito; a comparação é com o outro lado e com a
   própria pessoa.
+- Os destaques do programa, da órtese e das cinco perguntas entraram no desenho; nas cinco perguntas ficou só "98% de concordância". O destaque da frase central ficou com a última frase do apoio.
 
 **Saíram.** Os três pacientes nomeados com idade e desfecho e o bloco "Roteiro Gamma" da versão antiga. Duração de 19 para 12
-minutos.
+minutos. Duração de 12 para 12 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O BMJ entra pelo nome da revista.
 

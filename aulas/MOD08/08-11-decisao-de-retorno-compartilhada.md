@@ -36,7 +36,7 @@ A resposta dos autores foi organizar a decisão em três passos, na ordem em que
 *Visual: três passos em sequência: estado de saúde, risco da participação, modificadores da decisão.*
 *Teleprompter: (os três passos)*
 
-Passo um: o estado de saúde. Como está o tecido, a função, a dor, os testes. É tudo o que as aulas anteriores deste módulo construíram, da avaliação funcional aos testes de retorno.
+Passo um: o estado de saúde. Como está o tecido, a função, a dor, os testes. É tudo o que o módulo construiu até aqui, da avaliação funcional aos testes de retorno.
 
 Passo dois: o risco da participação. O mesmo joelho corre riscos diferentes em esportes diferentes, em posições diferentes, com ou sem proteção. No judô, as entradas de perna e as quedas com o joelho em valgo são o risco específico. Uma joelheira, uma restrição de técnica ou um tempo de luta menor mudam esse risco.
 
@@ -116,7 +116,7 @@ Um modelo de decisão compartilhada publicado em 2012, que se tornou referência
 
 A conversa da escolha: deixar claro que existe uma escolha. "Há mais de um caminho razoável aqui, e a sua opinião conta."
 
-A conversa das opções: apresentar cada saída, com o que ela traz de bom e de risco, em números que a pessoa entenda. A próxima aula é inteira sobre esses números.
+A conversa das opções: apresentar cada saída, com o que ela traz de bom e de risco, em números que a pessoa entenda. A próxima conversa é inteira sobre esses números.
 
 A conversa da decisão: perguntar o que importa para ela, e decidir juntos. "Para você, o que pesa mais: a seletiva deste ano, ou chegar inteira ao próximo ciclo?"
 
@@ -167,14 +167,14 @@ O registro protege a atleta, porque deixa claro o que foi combinado. Protege a e
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os três passos, as três saídas e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os três passos, as três saídas e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Para a judoca: o estado de saúde é o mesmo nas duas situações. No torneio de pré-temporada, a decisão mais razoável é ainda não, ou treino sem competição. Na seletiva, se o risco estiver dentro do aceitável, a decisão pode ser liberar com restrição, com joelheira, sem as entradas que provocam, com os sinais para parar combinados e escritos. Em qualquer das duas, ela decide junto, informada.
 
 Três passos: estado de saúde, risco da participação, modificadores. Três saídas: liberar, liberar com restrição, ainda não. Uma separação: avaliar o risco não é o mesmo que aceitá-lo.
 
-Falta a parte que costuma dar errado mesmo quando a decisão é boa: como explicar o risco que sobra, em números que o atleta, o técnico e a família entendam. É o assunto da próxima aula, a última do módulo.
+Falta a parte que costuma dar errado mesmo quando a decisão é boa: como explicar o risco que sobra, em números que o atleta, o técnico e a família entendam. É o assunto da próxima conversa, a última do módulo.
 
 ---
 
@@ -198,6 +198,8 @@ duração segue o tema. Arquitetura DECISÃO, com três saídas. Sem caso clíni
 típico, sem idade e sem desfecho; as duas situações são hipotéticas para mostrar o modificador de
 contexto. Abre por judô (combate).
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (o tatame, o modelo, os três passos, avaliar e aceitar, as três saídas, quem responde, as três conversas, os conflitos, fora do clube e o registro), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Nenhum número de efeito na fala. O artigo de 2010 afirma que as decisões de
 retorno variam muito para a mesma condição e circunstância e propõe três passos (estado de saúde,
 risco da participação, modificação da decisão). O refinamento de 2015 separa avaliação do risco
@@ -205,7 +207,7 @@ risco da participação, modificação da decisão). O refinamento de 2015 separ
 limiar de tolerância. O modelo de decisão compartilhada de 2012 organiza a conversa em escolha,
 opções e decisão.
 
-**Correções e escolhas.**
+**Correções.** 
 - Os modificadores do passo três foram ditos conforme o modelo de 2010: momento da temporada,
   pressão do atleta, pressão externa, mascarar a lesão, conflito de interesse e medo de
   responsabilização.
@@ -213,9 +215,10 @@ opções e decisão.
   de que depende de o risco estar dentro do aceitável.
 - As ferramentas de apoio à decisão (revisão Cochrane) e os ícones de risco saíram desta aula; os
   números de risco ficam para a próxima.
+- "As aulas anteriores deste módulo construíram" virou "o módulo construiu até aqui". O destaque das três conversas, que falava em "próxima aula", entrou no desenho como "esses números fecham o módulo"; os destaques dos conflitos entraram no desenho.
 
 **Saíram.** Os seis pacientes nomeados com idade e desfecho, os blocos "Roteiro Gamma" das duas
-aulas antigas. Duração de 39 minutos somados para 13.
+aulas antigas. Duração de 39 minutos somados para 13. Duração de 13 para 13 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O consenso de Berna entra pela cidade.
 

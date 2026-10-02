@@ -319,6 +319,15 @@ Total: 2 h 39 min em 12 aulas, 144 slides. A 8.12 fecha o módulo com a camada d
 integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
 preparação física, treinamento e gestão de carga, que abre o Módulo 9.
 
+**Acabamento.** Os 112 slides que ainda eram texto (cartões, colunas, listas, tabelas, números e frases)
+viraram desenho, sem mudar a quantidade nem a ordem dos slides; agora todo slide do módulo, fora o fecho,
+é um desenho próprio (os novos estão em `slides/MOD08/_redesenho.py`). Destaques cujo conteúdo foi para o
+desenho saíram do rodapé do slide. A fala já não citava autores por nome; os estudos entram pelo ano, pelo
+lugar ou pela instituição, e o autor fica na fonte do slide. As menções a "aula anterior" e "aulas
+anteriores" viraram referência ao conteúdo, "as doze aulas" virou "todas as conversas do módulo", e "na
+próxima aula" virou "na próxima conversa". As notas de produção foram refeitas no formato completo. As
+durações não mudaram. Os links são os mesmos.
+
 ## Módulo 9 — Preparação Física, Treinamento e Gestão de Carga · 12 aulas
 
 **ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 a 8: decks enxutos, gráficos

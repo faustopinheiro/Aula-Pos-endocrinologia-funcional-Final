@@ -118,7 +118,7 @@ Passo quatro: medir a cabeça.
 
 O medo de uma nova lesão é uma das razões mais citadas para não voltar ao esporte depois do cruzado, e ele não aparece no dinamômetro. Existe um questionário australiano, publicado em 2008, que mede o impacto psicológico de voltar ao esporte depois da reconstrução: confiança no joelho, emoções e avaliação de risco.
 
-Aplicar é simples e rápido. O valor está em duas coisas. Identificar quem está com os testes físicos bons e a cabeça longe de pronta, que costuma voltar jogando de um jeito diferente, protegendo o joelho. E abrir a conversa que a próxima aula aprofunda: a decisão de voltar não é só da perna.
+Aplicar é simples e rápido. O valor está em duas coisas. Identificar quem está com os testes físicos bons e a cabeça longe de pronta, que costuma voltar jogando de um jeito diferente, protegendo o joelho. E abrir a conversa que a próxima conversa aprofunda: a decisão de voltar não é só da perna.
 
 ---
 
@@ -165,14 +165,14 @@ E o médico junta os resultados com o tempo biológico do tecido, que o teste n�
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os cinco passos e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os cinco passos e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 O armador da primeira cena, com noventa e cinco por cento de simetria, precisa de mais três perguntas antes de alguém dizer "está pronto". Quanto a perna boa perdeu nesses oito meses? Como ele salta e aterrissa cansado, reagindo? E como está a cabeça dele em relação ao joelho?
 
 Os cinco passos: medir vários domínios, comparar com a capacidade de antes e não só com a outra perna, testar como o esporte cobra, medir a cabeça, e ler a bateria como informação para a decisão.
 
-Na próxima aula, a própria decisão: como a equipe, o atleta e o contexto se juntam para dizer sim, sim com restrição, ou ainda não.
+Na próxima conversa, a própria decisão: como a equipe, o atleta e o contexto se juntam para dizer sim, sim com restrição, ou ainda não.
 
 ---
 
@@ -194,8 +194,9 @@ nomeados; esta ficou centrada no retorno depois do cruzado, onde a evidência so
 densa, mantendo a bateria de consultório. Arquitetura PROCEDIMENTO, em cinco passos. Sem caso
 clínico: o armador de basquete é um perfil típico, sem idade e sem desfecho. Abre por basquete.
 
-**Números conferidos.**
-- Estudo de 2017 (Delaware): 70 pacientes; 57,1% passaram no índice de simetria de 90% em todos os
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a simetria, o roteiro, o que medir, as duas contas, as duas distâncias, como o esporte cobra, a cabeça, o que a bateria prevê, a bateria de consultório e quem faz o quê), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
+**Números conferidos.** - Estudo de 2017 (Delaware): 70 pacientes; 57,1% passaram no índice de simetria de 90% em todos os
   testes aos seis meses; 28,6% passaram na comparação com a capacidade estimada antes da lesão;
   34,3% passaram no primeiro e não no segundo; a comparação com a capacidade de antes foi mais
   sensível para a segunda lesão do cruzado (0,818 contra 0,273).
@@ -205,14 +206,15 @@ clínico: o armador de basquete é um perfil típico, sem idade e sem desfecho. 
   joelho contralateral (a análise original sugeriu aumento de risco contralateral; análises
   posteriores não encontraram associação). Os percentuais não foram ditos.
 
-**Correções e escolhas.**
+**Correções.** 
 - Os testes de equilíbrio em estrela, a elevação de calcanhar e as baterias de ombro da aula antiga
   saíram; a elevação de calcanhar aparece na aula de tornozelo.
 - O corte de 90% foi citado como o de uso comum, sem ser apresentado como valor validado.
 - O questionário australiano de prontidão foi descrito pelo que mede, sem citar pontos de corte.
+- Os destaques de como o esporte cobra, do que a bateria prevê e da bateria de consultório entraram no desenho.
 
 **Saíram.** Os três pacientes nomeados com idade e desfecho, o bloco "Roteiro Gamma". Duração de 19
-para 12 minutos.
+para 12 minutos. Duração de 12 para 12 minutos.
 
 **Citações faladas.** Nenhum autor por nome. A coorte de Delaware entra pelo nome do lugar.
 

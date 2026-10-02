@@ -177,14 +177,14 @@ E ela pode ter uma estimativa de prazo, sim. Todo atleta pergunta "quando?", e m
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com as três saídas de cada porta e a ponte para a próxima aula.*
+*Visual: fecho em tinta com as três saídas de cada porta e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Então, a reabilitação é uma sequência de portas. O tempo é o piso, o critério é a porta, e a resposta de vinte e quatro horas decide o dia a dia. Em cada porta, três saídas: avançar, segurar, recuar.
 
 A corredora da primeira cena troca a folha de oito semanas por uma ficha com cinco portas. Talvez ela volte em seis semanas, talvez em dez. Mas volta quando a panturrilha estiver pronta, e não quando o papel mandar.
 
-Falta a pergunta que sustenta tudo isso: por que carga faz o tecido se reorganizar? Esse é o assunto da próxima aula, a mecanotransdução, que é a biologia por trás de cada porta.
+Falta a pergunta que sustenta tudo isso: por que carga faz o tecido se reorganizar? Esse é o assunto da próxima conversa, a mecanotransdução, que é a biologia por trás de cada porta.
 
 ---
 
@@ -202,19 +202,22 @@ entre fases tem três saídas defensáveis (avançar, segurar, recuar), com o cu
 lado. Sem caso clínico: a corredora com lesão de panturrilha é um perfil típico, sem idade. Abre por
 corrida.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a folha de semanas, o piso biológico, a resposta do dia seguinte, as saídas, as portas, o custo, a porta que não abre, os degraus, quem faz o quê e a ficha), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Nenhum número de efeito na fala. O consenso de Berna (2016) sustenta os três
 degraus do retorno (participar, esporte, desempenho). O modelo de monitoramento de dor é o mesmo
 já conferido no módulo de lesões.
 
-**Correções e escolhas.**
+**Correções.** 
 - Os critérios de cada porta estão em linguagem funcional, sem porcentagens de simetria: os valores
   por tecido ficam para as aulas de joelho, posterior de coxa, tornozelo e testes de retorno, onde
   cada número tem fonte.
 - "Vinte elevações de calcanhar" na cena de abertura é exemplo de tarefa, não valor de referência.
 - A afirmação de que a recidiva muscular e ligamentar tende a afastar por mais tempo foi mantida no
   condicional ("costuma", "tende a"), sem número.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa".
 
-**Saíram.** Nada; aula nova. Duração de 13 minutos.
+**Saíram.** Nada; aula nova. Duração de 13 minutos. Duração de 13 para 13 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O consenso de Berna entra pelo nome da cidade.
 

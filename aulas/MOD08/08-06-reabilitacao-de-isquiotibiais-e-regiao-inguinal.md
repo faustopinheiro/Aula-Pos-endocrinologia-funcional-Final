@@ -165,14 +165,14 @@ E esquecer a manutenção. Tanto no posterior da coxa quanto na virilha, a recid
 ---
 
 📊 **[SLIDE 12 DE 12]**
-*Visual: fecho em tinta com os dois roteiros de três passos e a ponte para a próxima aula.*
+*Visual: fecho em tinta com os dois roteiros de três passos e a ponte para a próxima conversa.*
 *Teleprompter: (fecha a aula)*
 
 Então, os dois roteiros. Posterior da coxa, na fase final: o exercício em alongamento e a dor tolerável já feitos, a exposição à velocidade construída em degraus, e os critérios de dor e de função, sem a ressonância, numa decisão compartilhada. Virilha: dar nome pela classificação de Doha, medir força de adução e a perspectiva do atleta, e tratar com carga ativa, mantendo um exercício de adutor na temporada.
 
 Na divisão do trabalho, o médico dá o nome e descarta as outras causas. A fisioterapia conduz a carga e mede. A preparação física constrói a velocidade e mantém o programa na temporada. E o jogador precisa entender que a última fase é a que evita a próxima lesão.
 
-Na próxima aula, a região mais lesionada de todas e a que mais recidiva: o tornozelo.
+Na próxima conversa, a região mais lesionada de todas e a que mais recidiva: o tornozelo.
 
 ---
 
@@ -196,8 +196,9 @@ final e virilha, que o slot pede; panturrilha e fáscia plantar saíram. Arquite
 dois roteiros de três passos. Sem caso clínico: o meia e o lateral são perfis típicos, sem idade.
 Abre por futebol, e a aula diz que a maior parte dos dados vem do futebol.
 
-**Números conferidos.**
-- Futebol australiano, 2016: corrida de alta velocidade acima do habitual na semana anterior
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (as duas macas, os dois roteiros, o que já se resolveu, os critérios, o primeiro sprint, Doha, as medidas, o ensaio de 1999, a manutenção e as armadilhas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD08/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
+**Números conferidos.** - Futebol australiano, 2016: corrida de alta velocidade acima do habitual na semana anterior
   associada a maior chance de lesão de posterior de coxa (razão de chances de 6,44 na semana −1).
   O número não foi dito na fala.
 - Consenso de 2017: 58 especialistas de 28 centros de excelência da FIFA; critérios de ausência de
@@ -211,14 +212,15 @@ Abre por futebol, e a aula diz que a maior parte dos dados vem do futebol.
 - Ensaio norueguês de 2019: 35 equipes (18 com 339 jogadores e 17 com 313); prevalência média de
   13,5% contra 21,3%; risco 41% menor.
 
-**Correções e escolhas.**
+**Correções.** 
 - Panturrilha e fáscia plantar saíram por não pertencerem ao slot.
 - A controvérsia sobre a reanálise do exercício nórdico ficou fora: o módulo de lesões já trata do
   exercício nórdico e do programa de prevenção.
 - A razão de chances do futebol australiano ficou só nas notas, para não virar número de decisão.
+- Os destaques de Doha e da manutenção entraram no desenho; a fonte da manutenção ganhou as 35 equipes semiprofissionais.
 
 **Saíram.** Os três pacientes nomeados com desfecho, o bloco "Roteiro Gamma". Duração de 20 para 13
-minutos.
+minutos. Duração de 13 para 13 minutos.
 
 **Citações faladas.** Nenhum autor por nome. O consenso de Doha entra pela cidade.
 
