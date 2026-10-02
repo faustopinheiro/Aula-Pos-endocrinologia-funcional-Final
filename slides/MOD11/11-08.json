@@ -1,0 +1,780 @@
+{
+ "arquivo": "aulas/MOD11/11-08-risco-de-lca-em-mulheres.md",
+ "titulo": "Risco de LCA em mulheres",
+ "subtitulo": "O que pesa, o que é folclore e o que funciona",
+ "nota_capa": "Entra por um aviso no celular e por um teste de salto numa equipe de basquete.",
+ "secoes": {
+  "alerta": [
+   "O erro.",
+   "capa"
+  ],
+  "esportes": [
+   "O risco.",
+   "esportes"
+  ],
+  "ciclo": [
+   "O ciclo.",
+   "ciclo"
+  ],
+  "rastreio": [
+   "O teste e o programa.",
+   "rastreio"
+  ]
+ },
+ "slides": [
+  {
+   "id": "alerta",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"A tela de um celular com uma notificação: fase de risco para o joelho, evite saltos e mudanças de direção. Ao lado, a súmula de basquete com os minutos de uma atleta riscados e reduzidos. Embaixo, uma fila de atletas diante de uma plataforma de salto: só quem falhar no teste faz prevenção\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"470\" rx=\"40\" fill=\"#12202E\"/><rect x=\"20\" y=\"40\" width=\"380\" height=\"390\" rx=\"20\" fill=\"#F7F6F2\"/><rect x=\"40\" y=\"80\" width=\"340\" height=\"190\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(60.0 100.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"480\" y=\"0\" width=\"540\" height=\"470\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"500\" y1=\"380\" x2=\"1000\" y2=\"380\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"1080\" y=\"0\" width=\"584\" height=\"470\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1140\" y=\"300\" width=\"200\" height=\"40\" rx=\"6\" fill=\"#3A6EA5\"/><g transform=\"translate(1390.0 150.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1510.0 150.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1390.0 260.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1510.0 260.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1200.0 200.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 106,
+     "w": 250,
+     "t": "fase de risco para o joelho",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 60,
+     "y": 180,
+     "w": 300,
+     "t": "evite saltos e mudanças de direção",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 20,
+     "w": 500,
+     "t": "Súmula · sábado",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 504,
+     "y": 100,
+     "w": 220,
+     "t": "armadora",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 100,
+     "w": 240,
+     "t": "32 → 14 min",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 190,
+     "w": 220,
+     "t": "ala",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 190,
+     "w": 240,
+     "t": "28 min",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 280,
+     "w": 220,
+     "t": "pivô",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 280,
+     "w": 240,
+     "t": "30 min",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 400,
+     "w": 500,
+     "t": "minutos cortados pelo aviso",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 20,
+     "w": 540,
+     "t": "Teste de salto na pré-temporada",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1104,
+     "y": 380,
+     "w": 540,
+     "t": "só quem falhar faz prevenção",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma equipe de basquete feminino",
+   "titulo": "Duas decisões que parecem cuidado, e erram"
+  },
+  {
+   "id": "esportes",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três barras horizontais com a razão de incidência entre mulheres e homens. Esportes de contato: 3,0 vezes. Esportes com aterrissagem de alto impacto e rotação: 5,5 vezes. Esportes de colisão: 1,1 vez, sem diferença significativa\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"700\" y1=\"0\" x2=\"700\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"520\" y=\"20\" width=\"540\" height=\"70\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"520\" y=\"130\" width=\"992\" height=\"70\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"520\" y=\"240\" width=\"205\" height=\"70\" rx=\"10\" fill=\"#C9CFD4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 580,
+     "y": 360,
+     "w": 240,
+     "t": "1× = igual",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 34,
+     "w": 490,
+     "t": "Contato",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1076,
+     "y": 36,
+     "w": 420,
+     "t": "3,0×",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 144,
+     "w": 490,
+     "t": "Aterrissagem com rotação",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1528,
+     "y": 146,
+     "w": 420,
+     "t": "5,5×",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 254,
+     "w": 490,
+     "t": "Colisão",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 741,
+     "y": 256,
+     "w": 420,
+     "t": "1,1× · sem diferença",
+     "tam": 32,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Metanálise de 2019, por categoria de esporte",
+   "titulo": "A mulher rompe mais, e quanto mais depende do esporte",
+   "fonte": "Razão de incidência mulher para homem; J Athl Train 2019"
+  },
+  {
+   "id": "colunas",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Três colunas. Não se mexe: lesão prévia, sexo, anatomia óssea, história familiar. Se mexe: força, controle na desaceleração, aterrissagem, fadiga e carga, exposição a jogo. Não sustenta o peso: ângulo Q isolado, core fraco como causa universal, fase do ciclo como critério de decisão\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"470\" rx=\"18\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"470\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 488,
+     "t": "Não se mexe",
+     "tam": 32,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 36,
+     "y": 100,
+     "w": 480,
+     "t": "· lesão prévia, o maior",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 170,
+     "w": 480,
+     "t": "· sexo",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 240,
+     "w": 480,
+     "t": "· anatomia óssea",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 310,
+     "w": 480,
+     "t": "· história familiar",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 20,
+     "w": 488,
+     "t": "Se mexe",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 600,
+     "y": 100,
+     "w": 480,
+     "t": "· força de coxa e quadril",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 170,
+     "w": 480,
+     "t": "· controle na desaceleração",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 240,
+     "w": 480,
+     "t": "· aterrissagem",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 310,
+     "w": 480,
+     "t": "· fadiga e carga",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 380,
+     "w": 480,
+     "t": "· exposição a jogo",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 20,
+     "w": 488,
+     "t": "Não sustenta o peso",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 100,
+     "w": 480,
+     "t": "· ângulo Q isolado",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 170,
+     "w": 480,
+     "t": "· core fraco para tudo",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 240,
+     "w": 480,
+     "t": "· fase do ciclo para decidir",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Organizar antes de opinar",
+   "titulo": "Quase nada do que se mexe é o sexo"
+  },
+  {
+   "id": "ciclo",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma cadeia de quatro elos. Receptores de estrogênio no ligamento, colágeno influenciado pelo estradiol e frouxidão maior perto da ovulação, sólidos. Um elo pontilhado e quebrado: mais ruptura numa fase. Força da evidência: baixa\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"360\" height=\"220\" rx=\"110\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"366\" y1=\"150\" x2=\"418\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"424\" y=\"40\" width=\"360\" height=\"220\" rx=\"110\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"790\" y1=\"150\" x2=\"842\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"848\" y=\"40\" width=\"360\" height=\"220\" rx=\"110\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"6\"/><path d=\"M 1214 150 l 18 -14 l 6 28 l 20 -14\" stroke=\"#A8322A\" stroke-width=\"5\" fill=\"none\"/><rect x=\"1272\" y=\"40\" width=\"360\" height=\"220\" rx=\"110\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/><rect x=\"0\" y=\"310\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 110,
+     "w": 280,
+     "t": "receptores de estrogênio no ligamento",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 464,
+     "y": 110,
+     "w": 280,
+     "t": "colágeno influenciado pelo estradiol",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 888,
+     "y": 110,
+     "w": 280,
+     "t": "frouxidão maior perto da ovulação",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1312,
+     "y": 110,
+     "w": 280,
+     "t": "mais ruptura numa fase?",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 334,
+     "w": 1616,
+     "t": "Força da evidência sobre a ruptura: baixa · fase por contagem de dias · lesão rara",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O ciclo e o ligamento",
+   "titulo": "Plausível no ligamento, insuficiente na ruptura",
+   "fonte": "Revisão sistemática, Orthop J Sports Med 2017"
+  },
+  {
+   "id": "custo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três cartões riscados, cada um com o custo ao lado. Tirar de jogo pela fase: perda de oportunidade, rótulo de fragilidade. Prevenção concentrada em dias de risco: o efeito vem do acúmulo. Pílula para proteger o joelho: decisão de outra natureza, evidência baixa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"30\" y1=\"100\" x2=\"610\" y2=\"20\" stroke=\"#A8322A\" stroke-width=\"5\"/><line x1=\"660\" y1=\"60\" x2=\"720\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"0\" y=\"150\" width=\"640\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"30\" y1=\"250\" x2=\"610\" y2=\"170\" stroke=\"#A8322A\" stroke-width=\"5\"/><line x1=\"660\" y1=\"210\" x2=\"720\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"30\" y1=\"400\" x2=\"610\" y2=\"320\" stroke=\"#A8322A\" stroke-width=\"5\"/><line x1=\"660\" y1=\"360\" x2=\"720\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 38,
+     "w": 600,
+     "t": "tirar de jogo pela fase",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 40,
+     "w": 920,
+     "t": "minutos, oportunidade, rótulo de fragilidade",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 188,
+     "w": 600,
+     "t": "prevenção só nos dias de risco",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 190,
+     "w": 920,
+     "t": "o efeito vem do acúmulo, não da janela",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 338,
+     "w": 600,
+     "t": "pílula para proteger o joelho",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 340,
+     "w": 920,
+     "t": "outra decisão; evidência baixa demais",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que agir antes do dado não é neutro",
+   "titulo": "Levar a fisiologia a sério não é agir antes do dado"
+  },
+  {
+   "id": "rastreio",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Uma plataforma de salto com uma atleta aterrissando. Os números do estudo: 710 jogadoras de elite, 42 rupturas sem contato. Uma balança desequilibrada entre acertos e erros: teste de rastreio ruim. Nota: na análise corrigida, nenhum fator do salto se associou à lesão\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"60\" y=\"300\" width=\"300\" height=\"50\" rx=\"6\" fill=\"#3A6EA5\"/><g transform=\"translate(130.0 80.0) scale(6.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><line x1=\"380\" y1=\"120\" x2=\"380\" y2=\"280\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"1180\" y1=\"140\" x2=\"1600\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"6\"/><path d=\"M 1390 170 l -30 120 l 60 0 z\" fill=\"#12202E\"/><circle cx=\"1220\" cy=\"112\" r=\"34\" fill=\"#008A7E\"/><circle cx=\"1560\" cy=\"228\" r=\"34\" fill=\"#A8322A\"/><rect x=\"0\" y=\"380\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 460,
+     "y": 10,
+     "w": 260,
+     "t": "710",
+     "tam": 80,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 740,
+     "y": 40,
+     "w": 360,
+     "t": "jogadoras de elite",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 140,
+     "w": 260,
+     "t": "42",
+     "tam": 80,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 740,
+     "y": 170,
+     "w": 360,
+     "t": "rupturas sem contato",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 40,
+     "w": 120,
+     "t": "acertos",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1500,
+     "y": 268,
+     "w": 120,
+     "t": "erros",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 310,
+     "w": 520,
+     "t": "teste de rastreio ruim",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 400,
+     "w": 1624,
+     "t": "Correção de 2017: na análise corrigida, nem o joelho para dentro se associou à lesão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Coorte de 2016, futebol e handebol",
+   "titulo": "O teste de salto não separa quem vai romper",
+   "fonte": "Am J Sports Med 2016; correção 2017"
+  },
+  {
+   "id": "time",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Um time inteiro em aquecimento estruturado. Dois números: metade das rupturas, em todos os atletas; dois terços das rupturas sem contato, nas mulheres. Embaixo: o programa é o aquecimento, o ano inteiro\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><g transform=\"translate(20.0 30.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(140.0 30.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(260.0 30.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(380.0 30.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(500.0 30.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(20.0 160.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(140.0 160.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(260.0 160.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(380.0 160.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(500.0 160.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"700\" y=\"0\" width=\"964\" height=\"130\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"700\" y=\"150\" width=\"964\" height=\"130\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"330\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 724,
+     "y": 14,
+     "w": 150,
+     "t": "½",
+     "tam": 80,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 44,
+     "w": 740,
+     "t": "das rupturas, em todos os atletas",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 164,
+     "w": 150,
+     "t": "⅔",
+     "tam": 80,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 194,
+     "w": 740,
+     "t": "das rupturas sem contato, nas mulheres",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 362,
+     "w": 1624,
+     "t": "O programa é o aquecimento: todas, a temporada inteira, e permanente para quem já rompeu",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Metanálise de metanálises, 2018",
+   "titulo": "Treinar o time inteiro corta metade das rupturas",
+   "fonte": "J Orthop Res 2018"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Risco de LCA em mulheres",
+   "titulo": "Nenhum teste dispensa ninguém do programa",
+   "regras": [
+    "Ninguém sai de jogo pela fase do ciclo; ninguém troca de método para proteger o joelho",
+    "Não se rastreia para selecionar: nenhum teste separa quem vai romper",
+    "Programa para o time inteiro, o ano inteiro; permanente para quem já rompeu"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e prepara",
+     "x": "Transforma o aquecimento no programa e corrige a técnica na execução."
+    },
+    {
+     "ic": "h:doctor-female",
+     "t": "Fisioterapia",
+     "x": "Conduz o retorno de quem rompeu e mantém o programa depois da alta."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Responde sobre ciclo e contracepção com o que o dado autoriza."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
