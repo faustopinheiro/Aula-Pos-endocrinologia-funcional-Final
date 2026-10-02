@@ -1,0 +1,1043 @@
+{
+ "arquivo": "aulas/MOD11/11-06-reconhecer-a-deficiencia-energetica-fora-do-consultorio-medico.md",
+ "titulo": "Reconhecer a deficiência energética fora do consultório médico",
+ "subtitulo": "O que se vê do treino, do prato e do vestiário",
+ "nota_capa": "Entra por uma ciclista parada no rolo e por um número de rendimento.",
+ "secoes": {
+  "temporada": [
+   "O número.",
+   "capa"
+  ],
+  "janelas": [
+   "O que cada um vê.",
+   "janelas"
+  ],
+  "conversa": [
+   "Falar e encaminhar.",
+   "conversa"
+  ]
+ },
+ "slides": [
+  {
+   "id": "temporada",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Duas linhas ao longo de doze semanas de temporada. Uma sobe até mais 8,2 por cento: ciclo preservado. Outra desce até menos 9,8 por cento: ovário suprimido. Eixo vertical: variação da velocidade nos 400 metros\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><line x1=\"160\" y1=\"230\" x2=\"1180\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"440\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><path d=\"M 160 230 C 500 230 800 96 1180 96\" stroke=\"#008A7E\" stroke-width=\"7\" fill=\"none\"/><path d=\"M 160 230 C 500 230 800 390 1180 390\" stroke=\"#A8322A\" stroke-width=\"7\" fill=\"none\"/><circle cx=\"1180\" cy=\"96\" r=\"12\" fill=\"#008A7E\"/><circle cx=\"1180\" cy=\"390\" r=\"12\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 214,
+     "w": 140,
+     "t": "0%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 30,
+     "w": 140,
+     "t": "mais rápida",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 390,
+     "w": 140,
+     "t": "mais lenta",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 160,
+     "y": 420,
+     "w": 200,
+     "t": "semana 0",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 420,
+     "w": 200,
+     "t": "semana 12",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 50,
+     "w": 440,
+     "t": "+8,2%",
+     "tam": 48,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1210,
+     "y": 106,
+     "w": 440,
+     "t": "ciclo preservado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 344,
+     "w": 440,
+     "t": "−9,8%",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1210,
+     "y": 400,
+     "w": 440,
+     "t": "ovário suprimido",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma ciclista parada no rolo; uma temporada de natação",
+   "titulo": "Mesmo treino, direções opostas: a supressão aparece na planilha",
+   "fonte": "Velocidade nos 400 m livres, 12 semanas; Med Sci Sports Exerc 2014"
+  },
+  {
+   "id": "amostra",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Dez figuras de nadadoras adolescentes separadas em dois grupos pelo estradiol e pela progesterona. Embaixo do grupo suprimido, quatro setas para baixo no fim da temporada: ingestão, disponibilidade energética, T3, IGF-1. Etiqueta: observacional, dez atletas\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"480\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(30.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(118.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(206.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(294.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(382.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"520\" y=\"0\" width=\"480\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(550.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(638.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(726.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(814.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(902.0 80.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><line x1=\"540\" y1=\"280\" x2=\"540\" y2=\"330\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"800\" y1=\"280\" x2=\"800\" y2=\"330\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"540\" y1=\"354\" x2=\"540\" y2=\"404\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"800\" y1=\"354\" x2=\"800\" y2=\"404\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"1100\" y=\"60\" width=\"564\" height=\"300\" rx=\"18\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 16,
+     "w": 440,
+     "t": "ciclo preservado",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 540,
+     "y": 16,
+     "w": 440,
+     "t": "ovário suprimido",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 220,
+     "w": 1000,
+     "t": "separadas por estradiol e progesterona dosados na temporada",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 564,
+     "y": 288,
+     "w": 220,
+     "t": "ingestão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 824,
+     "y": 288,
+     "w": 220,
+     "t": "disponibilidade energética",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 564,
+     "y": 362,
+     "w": 220,
+     "t": "T3",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 824,
+     "y": 362,
+     "w": 220,
+     "t": "IGF-1",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 0,
+     "y": 300,
+     "w": 500,
+     "t": "no fim da temporada, no grupo suprimido:",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 90,
+     "w": 520,
+     "t": "observacional",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1124,
+     "y": 160,
+     "w": 520,
+     "t": "dez atletas, de 15 a 17 anos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 230,
+     "w": 520,
+     "t": "não sorteadas para comer menos",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Em quem foi medido",
+   "titulo": "Dez atletas; no grupo suprimido, um corpo poupando energia"
+  },
+  {
+   "id": "mil",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Uma grade de mil pontos, parte deles destacada como sinais de baixa disponibilidade. Ao lado, o número 2,1 vezes: chance de relatar resposta ao treino reduzida. Embaixo: transversal, autorrelatado\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><path d=\"M10 10h0M32 10h0M76 10h0M142 10h0M208 10h0M252 10h0M318 10h0M384 10h0M428 10h0M494 10h0M560 10h0M626 10h0M670 10h0M736 10h0M802 10h0M846 10h0M32 26h0M98 26h0M142 26h0M164 26h0M208 26h0M274 26h0M340 26h0M384 26h0M450 26h0M516 26h0M560 26h0M626 26h0M692 26h0M736 26h0M758 26h0M802 26h0M868 26h0M54 42h0M98 42h0M164 42h0M230 42h0M274 42h0M340 42h0M406 42h0M450 42h0M472 42h0M516 42h0M582 42h0M648 42h0M692 42h0M758 42h0M824 42h0M868 42h0M54 58h0M120 58h0M186 58h0M230 58h0M296 58h0M362 58h0M406 58h0M472 58h0M538 58h0M582 58h0M604 58h0M648 58h0M714 58h0M780 58h0M824 58h0M10 74h0M76 74h0M120 74h0M186 74h0M252 74h0M296 74h0M318 74h0M362 74h0M428 74h0M494 74h0M538 74h0M604 74h0M670 74h0M714 74h0M780 74h0M846 74h0M10 90h0M32 90h0M76 90h0M142 90h0M208 90h0M252 90h0M318 90h0M384 90h0M428 90h0M494 90h0M560 90h0M626 90h0M670 90h0M736 90h0M802 90h0M846 90h0M32 106h0M98 106h0M142 106h0M164 106h0M208 106h0M274 106h0M340 106h0M384 106h0M450 106h0M516 106h0M560 106h0M626 106h0M692 106h0M736 106h0M758 106h0M802 106h0M868 106h0M54 122h0M98 122h0M164 122h0M230 122h0M274 122h0M340 122h0M406 122h0M450 122h0M472 122h0M516 122h0M582 122h0M648 122h0M692 122h0M758 122h0M824 122h0M868 122h0M54 138h0M120 138h0M186 138h0M230 138h0M296 138h0M362 138h0M406 138h0M472 138h0M538 138h0M582 138h0M604 138h0M648 138h0M714 138h0M780 138h0M824 138h0M10 154h0M76 154h0M120 154h0M186 154h0M252 154h0M296 154h0M318 154h0M362 154h0M428 154h0M494 154h0M538 154h0M604 154h0M670 154h0M714 154h0M780 154h0M846 154h0M10 170h0M32 170h0M76 170h0M142 170h0M208 170h0M252 170h0M318 170h0M384 170h0M428 170h0M494 170h0M560 170h0M626 170h0M670 170h0M736 170h0M802 170h0M846 170h0M32 186h0M98 186h0M142 186h0M164 186h0M208 186h0M274 186h0M340 186h0M384 186h0M450 186h0M516 186h0M560 186h0M626 186h0M692 186h0M736 186h0M758 186h0M802 186h0M868 186h0M54 202h0M98 202h0M164 202h0M230 202h0M274 202h0M340 202h0M406 202h0M450 202h0M472 202h0M516 202h0M582 202h0M648 202h0M692 202h0M758 202h0M824 202h0M868 202h0M54 218h0M120 218h0M186 218h0M230 218h0M296 218h0M362 218h0M406 218h0M472 218h0M538 218h0M582 218h0M604 218h0M648 218h0M714 218h0M780 218h0M824 218h0M10 234h0M76 234h0M120 234h0M186 234h0M252 234h0M296 234h0M318 234h0M362 234h0M428 234h0M494 234h0M538 234h0M604 234h0M670 234h0M714 234h0M780 234h0M846 234h0M10 250h0M32 250h0M76 250h0M142 250h0M208 250h0M252 250h0M318 250h0M384 250h0M428 250h0M494 250h0M560 250h0M626 250h0M670 250h0M736 250h0M802 250h0M846 250h0M32 266h0M98 266h0M142 266h0M164 266h0M208 266h0M274 266h0M340 266h0M384 266h0M450 266h0M516 266h0M560 266h0M626 266h0M692 266h0M736 266h0M758 266h0M802 266h0M868 266h0M54 282h0M98 282h0M164 282h0M230 282h0M274 282h0M340 282h0M406 282h0M450 282h0M472 282h0M516 282h0M582 282h0M648 282h0M692 282h0M758 282h0M824 282h0M868 282h0M54 298h0M120 298h0M186 298h0M230 298h0M296 298h0M362 298h0M406 298h0M472 298h0M538 298h0M582 298h0M604 298h0M648 298h0M714 298h0M780 298h0M824 298h0M10 314h0M76 314h0M120 314h0M186 314h0M252 314h0M296 314h0M318 314h0M362 314h0M428 314h0M494 314h0M538 314h0M604 314h0M670 314h0M714 314h0M780 314h0M846 314h0M10 330h0M32 330h0M76 330h0M142 330h0M208 330h0M252 330h0M318 330h0M384 330h0M428 330h0M494 330h0M560 330h0M626 330h0M670 330h0M736 330h0M802 330h0M846 330h0M32 346h0M98 346h0M142 346h0M164 346h0M208 346h0M274 346h0M340 346h0M384 346h0M450 346h0M516 346h0M560 346h0M626 346h0M692 346h0M736 346h0M758 346h0M802 346h0M868 346h0M54 362h0M98 362h0M164 362h0M230 362h0M274 362h0M340 362h0M406 362h0M450 362h0M472 362h0M516 362h0M582 362h0M648 362h0M692 362h0M758 362h0M824 362h0M868 362h0M54 378h0M120 378h0M186 378h0M230 378h0M296 378h0M362 378h0M406 378h0M472 378h0M538 378h0M582 378h0M604 378h0M648 378h0M714 378h0M780 378h0M824 378h0M10 394h0M76 394h0M120 394h0M186 394h0M252 394h0M296 394h0M318 394h0M362 394h0M428 394h0M494 394h0M538 394h0M604 394h0M670 394h0M714 394h0M780 394h0M846 394h0\" stroke=\"#B07A1C\" stroke-width=\"12\" stroke-linecap=\"round\"/><path d=\"M54 10h0M98 10h0M120 10h0M164 10h0M186 10h0M230 10h0M274 10h0M296 10h0M340 10h0M362 10h0M406 10h0M450 10h0M472 10h0M516 10h0M538 10h0M582 10h0M604 10h0M648 10h0M692 10h0M714 10h0M758 10h0M780 10h0M824 10h0M868 10h0M10 26h0M54 26h0M76 26h0M120 26h0M186 26h0M230 26h0M252 26h0M296 26h0M318 26h0M362 26h0M406 26h0M428 26h0M472 26h0M494 26h0M538 26h0M582 26h0M604 26h0M648 26h0M670 26h0M714 26h0M780 26h0M824 26h0M846 26h0M10 42h0M32 42h0M76 42h0M120 42h0M142 42h0M186 42h0M208 42h0M252 42h0M296 42h0M318 42h0M362 42h0M384 42h0M428 42h0M494 42h0M538 42h0M560 42h0M604 42h0M626 42h0M670 42h0M714 42h0M736 42h0M780 42h0M802 42h0M846 42h0M10 58h0M32 58h0M76 58h0M98 58h0M142 58h0M164 58h0M208 58h0M252 58h0M274 58h0M318 58h0M340 58h0M384 58h0M428 58h0M450 58h0M494 58h0M516 58h0M560 58h0M626 58h0M670 58h0M692 58h0M736 58h0M758 58h0M802 58h0M846 58h0M868 58h0M32 74h0M54 74h0M98 74h0M142 74h0M164 74h0M208 74h0M230 74h0M274 74h0M340 74h0M384 74h0M406 74h0M450 74h0M472 74h0M516 74h0M560 74h0M582 74h0M626 74h0M648 74h0M692 74h0M736 74h0M758 74h0M802 74h0M824 74h0M868 74h0M54 90h0M98 90h0M120 90h0M164 90h0M186 90h0M230 90h0M274 90h0M296 90h0M340 90h0M362 90h0M406 90h0M450 90h0M472 90h0M516 90h0M538 90h0M582 90h0M604 90h0M648 90h0M692 90h0M714 90h0M758 90h0M780 90h0M824 90h0M868 90h0M10 106h0M54 106h0M76 106h0M120 106h0M186 106h0M230 106h0M252 106h0M296 106h0M318 106h0M362 106h0M406 106h0M428 106h0M472 106h0M494 106h0M538 106h0M582 106h0M604 106h0M648 106h0M670 106h0M714 106h0M780 106h0M824 106h0M846 106h0M10 122h0M32 122h0M76 122h0M120 122h0M142 122h0M186 122h0M208 122h0M252 122h0M296 122h0M318 122h0M362 122h0M384 122h0M428 122h0M494 122h0M538 122h0M560 122h0M604 122h0M626 122h0M670 122h0M714 122h0M736 122h0M780 122h0M802 122h0M846 122h0M10 138h0M32 138h0M76 138h0M98 138h0M142 138h0M164 138h0M208 138h0M252 138h0M274 138h0M318 138h0M340 138h0M384 138h0M428 138h0M450 138h0M494 138h0M516 138h0M560 138h0M626 138h0M670 138h0M692 138h0M736 138h0M758 138h0M802 138h0M846 138h0M868 138h0M32 154h0M54 154h0M98 154h0M142 154h0M164 154h0M208 154h0M230 154h0M274 154h0M340 154h0M384 154h0M406 154h0M450 154h0M472 154h0M516 154h0M560 154h0M582 154h0M626 154h0M648 154h0M692 154h0M736 154h0M758 154h0M802 154h0M824 154h0M868 154h0M54 170h0M98 170h0M120 170h0M164 170h0M186 170h0M230 170h0M274 170h0M296 170h0M340 170h0M362 170h0M406 170h0M450 170h0M472 170h0M516 170h0M538 170h0M582 170h0M604 170h0M648 170h0M692 170h0M714 170h0M758 170h0M780 170h0M824 170h0M868 170h0M10 186h0M54 186h0M76 186h0M120 186h0M186 186h0M230 186h0M252 186h0M296 186h0M318 186h0M362 186h0M406 186h0M428 186h0M472 186h0M494 186h0M538 186h0M582 186h0M604 186h0M648 186h0M670 186h0M714 186h0M780 186h0M824 186h0M846 186h0M10 202h0M32 202h0M76 202h0M120 202h0M142 202h0M186 202h0M208 202h0M252 202h0M296 202h0M318 202h0M362 202h0M384 202h0M428 202h0M494 202h0M538 202h0M560 202h0M604 202h0M626 202h0M670 202h0M714 202h0M736 202h0M780 202h0M802 202h0M846 202h0M10 218h0M32 218h0M76 218h0M98 218h0M142 218h0M164 218h0M208 218h0M252 218h0M274 218h0M318 218h0M340 218h0M384 218h0M428 218h0M450 218h0M494 218h0M516 218h0M560 218h0M626 218h0M670 218h0M692 218h0M736 218h0M758 218h0M802 218h0M846 218h0M868 218h0M32 234h0M54 234h0M98 234h0M142 234h0M164 234h0M208 234h0M230 234h0M274 234h0M340 234h0M384 234h0M406 234h0M450 234h0M472 234h0M516 234h0M560 234h0M582 234h0M626 234h0M648 234h0M692 234h0M736 234h0M758 234h0M802 234h0M824 234h0M868 234h0M54 250h0M98 250h0M120 250h0M164 250h0M186 250h0M230 250h0M274 250h0M296 250h0M340 250h0M362 250h0M406 250h0M450 250h0M472 250h0M516 250h0M538 250h0M582 250h0M604 250h0M648 250h0M692 250h0M714 250h0M758 250h0M780 250h0M824 250h0M868 250h0M10 266h0M54 266h0M76 266h0M120 266h0M186 266h0M230 266h0M252 266h0M296 266h0M318 266h0M362 266h0M406 266h0M428 266h0M472 266h0M494 266h0M538 266h0M582 266h0M604 266h0M648 266h0M670 266h0M714 266h0M780 266h0M824 266h0M846 266h0M10 282h0M32 282h0M76 282h0M120 282h0M142 282h0M186 282h0M208 282h0M252 282h0M296 282h0M318 282h0M362 282h0M384 282h0M428 282h0M494 282h0M538 282h0M560 282h0M604 282h0M626 282h0M670 282h0M714 282h0M736 282h0M780 282h0M802 282h0M846 282h0M10 298h0M32 298h0M76 298h0M98 298h0M142 298h0M164 298h0M208 298h0M252 298h0M274 298h0M318 298h0M340 298h0M384 298h0M428 298h0M450 298h0M494 298h0M516 298h0M560 298h0M626 298h0M670 298h0M692 298h0M736 298h0M758 298h0M802 298h0M846 298h0M868 298h0M32 314h0M54 314h0M98 314h0M142 314h0M164 314h0M208 314h0M230 314h0M274 314h0M340 314h0M384 314h0M406 314h0M450 314h0M472 314h0M516 314h0M560 314h0M582 314h0M626 314h0M648 314h0M692 314h0M736 314h0M758 314h0M802 314h0M824 314h0M868 314h0M54 330h0M98 330h0M120 330h0M164 330h0M186 330h0M230 330h0M274 330h0M296 330h0M340 330h0M362 330h0M406 330h0M450 330h0M472 330h0M516 330h0M538 330h0M582 330h0M604 330h0M648 330h0M692 330h0M714 330h0M758 330h0M780 330h0M824 330h0M868 330h0M10 346h0M54 346h0M76 346h0M120 346h0M186 346h0M230 346h0M252 346h0M296 346h0M318 346h0M362 346h0M406 346h0M428 346h0M472 346h0M494 346h0M538 346h0M582 346h0M604 346h0M648 346h0M670 346h0M714 346h0M780 346h0M824 346h0M846 346h0M10 362h0M32 362h0M76 362h0M120 362h0M142 362h0M186 362h0M208 362h0M252 362h0M296 362h0M318 362h0M362 362h0M384 362h0M428 362h0M494 362h0M538 362h0M560 362h0M604 362h0M626 362h0M670 362h0M714 362h0M736 362h0M780 362h0M802 362h0M846 362h0M10 378h0M32 378h0M76 378h0M98 378h0M142 378h0M164 378h0M208 378h0M252 378h0M274 378h0M318 378h0M340 378h0M384 378h0M428 378h0M450 378h0M494 378h0M516 378h0M560 378h0M626 378h0M670 378h0M692 378h0M736 378h0M758 378h0M802 378h0M846 378h0M868 378h0M32 394h0M54 394h0M98 394h0M142 394h0M164 394h0M208 394h0M230 394h0M274 394h0M340 394h0M384 394h0M406 394h0M450 394h0M472 394h0M516 394h0M560 394h0M582 394h0M626 394h0M648 394h0M692 394h0M736 394h0M758 394h0M802 394h0M824 394h0M868 394h0\" stroke=\"#C9CFD4\" stroke-width=\"12\" stroke-linecap=\"round\"/><rect x=\"960\" y=\"20\" width=\"704\" height=\"380\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 410,
+     "w": 880,
+     "t": "esquema: a proporção destacada é ilustrativa",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 50,
+     "w": 656,
+     "t": "2,1×",
+     "tam": 120,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 210,
+     "w": 656,
+     "t": "chance de relatar resposta ao treino reduzida",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 330,
+     "w": 656,
+     "t": "transversal · autorrelatado",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Levantamento de 2019, 1.000 atletas mulheres",
+   "titulo": "A mesma direção numa amostra cem vezes maior",
+   "fonte": "Br J Sports Med 2019"
+  },
+  {
+   "id": "janelas",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Cinco janelas, uma por profissional, cada uma com o que se vê dali. Treinador: platô com treino cumprido, recuperação lenta, sessões perdidas por doença. Preparação física: potência e força paradas. Fisioterapia: dor óssea localizada, lesões que se repetem. Nutrição: refeição pulada perto do treino, cardápio encolhendo. Vestiário e viagem: frio constante, comer separado, irritabilidade\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"310\" height=\"96\" rx=\"16\" fill=\"#DEE7F1\"/><g transform=\"translate(18.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"338\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"338\" y=\"0\" width=\"310\" height=\"96\" rx=\"16\" fill=\"#DEE7F1\"/><g transform=\"translate(356.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"676\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"676\" y=\"0\" width=\"310\" height=\"96\" rx=\"16\" fill=\"#DEE7F1\"/><g transform=\"translate(694.0 22.0) scale(1.0833)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><rect x=\"1014\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1014\" y=\"0\" width=\"310\" height=\"96\" rx=\"16\" fill=\"#DEE7F1\"/><g transform=\"translate(1032.0 22.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"1352\" y=\"0\" width=\"310\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1352\" y=\"0\" width=\"310\" height=\"96\" rx=\"16\" fill=\"#DEE7F1\"/><g transform=\"translate(1370.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"0\" y=\"404\" width=\"1664\" height=\"66\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 82,
+     "y": 30,
+     "w": 220,
+     "t": "Treinador",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 120,
+     "w": 276,
+     "t": "platô com treino cumprido",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 204,
+     "w": 276,
+     "t": "recuperação lenta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 288,
+     "w": 276,
+     "t": "sessões perdidas por doença",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 420,
+     "y": 30,
+     "w": 220,
+     "t": "Preparação",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 358,
+     "y": 120,
+     "w": 276,
+     "t": "potência parada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 358,
+     "y": 204,
+     "w": 276,
+     "t": "força parada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 758,
+     "y": 30,
+     "w": 220,
+     "t": "Fisioterapia",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 696,
+     "y": 120,
+     "w": 276,
+     "t": "dor óssea localizada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 696,
+     "y": 204,
+     "w": 276,
+     "t": "lesões que se repetem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1096,
+     "y": 30,
+     "w": 220,
+     "t": "Nutrição",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1034,
+     "y": 120,
+     "w": 276,
+     "t": "refeição pulada perto do treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1034,
+     "y": 204,
+     "w": 276,
+     "t": "cardápio encolhendo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1434,
+     "y": 30,
+     "w": 220,
+     "t": "Vestiário",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1372,
+     "y": 120,
+     "w": 276,
+     "t": "frio constante",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1372,
+     "y": 204,
+     "w": 276,
+     "t": "come separado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1372,
+     "y": 288,
+     "w": 276,
+     "t": "irritabilidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 420,
+     "w": 1624,
+     "t": "Nenhum sinal sozinho diz deficiência energética: o que pesa é a soma",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que se vê sem exame",
+   "titulo": "Os sinais estão espalhados por várias janelas, e só a soma pesa"
+  },
+  {
+   "id": "questionario",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"O questionário em três blocos com cortes parciais: lesões, 2 ou mais; sintomas gastrointestinais, 2 ou mais; função menstrual, 4 ou mais. Total: 25 itens, corte 8 ou mais. Sensibilidade 78 por cento, especificidade 90 por cento. Sob contracepção hormonal, o bloco menstrual perde valor\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"300\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"330\" y=\"0\" width=\"300\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"660\" y=\"0\" width=\"300\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"660\" y=\"236\" width=\"300\" height=\"70\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"0\" y=\"330\" width=\"960\" height=\"130\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><rect x=\"1020\" y=\"330\" width=\"644\" height=\"130\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 24,
+     "w": 268,
+     "t": "Lesões",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 16,
+     "y": 120,
+     "w": 268,
+     "t": "≥2",
+     "tam": 60,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 346,
+     "y": 24,
+     "w": 268,
+     "t": "Gastrointestinal",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 346,
+     "y": 120,
+     "w": 268,
+     "t": "≥2",
+     "tam": 60,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 676,
+     "y": 24,
+     "w": 268,
+     "t": "Função menstrual",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 676,
+     "y": 120,
+     "w": 268,
+     "t": "≥4",
+     "tam": 60,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 670,
+     "y": 244,
+     "w": 280,
+     "t": "sob contracepção hormonal, perde valor",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 360,
+     "w": 912,
+     "t": "25 itens · total ≥8 · rastreio, não diagnóstico",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1040,
+     "y": 10,
+     "w": 260,
+     "t": "78%",
+     "tam": 72,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 36,
+     "w": 360,
+     "t": "das que tinham o problema",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1040,
+     "y": 170,
+     "w": 260,
+     "t": "90%",
+     "tam": 72,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 196,
+     "w": 360,
+     "t": "das que não tinham",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1044,
+     "y": 350,
+     "w": 600,
+     "t": "validado em 45 atletas de endurance; outros esportes, menos estudado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Questionário de 2014, feito para mulheres que treinam",
+   "titulo": "Vinte e cinco perguntas que qualquer profissional pode aplicar",
+   "fonte": "Br J Sports Med 2014"
+  },
+  {
+   "id": "conversa",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas colunas de frases. Abre a conversa: rendimento que caiu com treino mantido, recuperação, ciclo, energia para treinar. Fecha a conversa: peso, corpo, você está muito magra, você está comendo pouco, elogio à forma. Embaixo: em particular, pelo funcional\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"340\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"340\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"370\" width=\"1664\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 28,
+     "y": 20,
+     "w": 740,
+     "t": "Abre a conversa",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 96,
+     "w": 740,
+     "t": "· o rendimento parou com tudo cumprido",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 156,
+     "w": 740,
+     "t": "· como está a recuperação?",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 216,
+     "w": 740,
+     "t": "· como está o seu ciclo?",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 276,
+     "w": 740,
+     "t": "· tem energia para treinar?",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 892,
+     "y": 20,
+     "w": 740,
+     "t": "Fecha a conversa",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 904,
+     "y": 96,
+     "w": 740,
+     "t": "· peso, forma, corpo",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 156,
+     "w": 740,
+     "t": "· “você está muito magra”",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 216,
+     "w": 740,
+     "t": "· “você está comendo pouco”",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 276,
+     "w": 740,
+     "t": "· elogio à forma",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 386,
+     "w": 1624,
+     "t": "Em particular, pelo funcional, sem falar do corpo",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Como se puxa o assunto",
+   "titulo": "O rendimento abre a conversa; o corpo a fecha"
+  },
+  {
+   "id": "encaminhamento",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Um cartão de encaminhamento com seis linhas: modalidade e volume semanal; o que mudou em doze meses; ciclo e método contraceptivo; dor óssea ou lesões de repetição; tendência do rendimento; pontuação do questionário. Ao lado, um encaminhamento vazio: avaliar atleta, cansada, riscado\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"0\" y=\"0\" width=\"1060\" height=\"480\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"52\" cy=\"108\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"52\" cy=\"172\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"52\" cy=\"236\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"52\" cy=\"300\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"52\" cy=\"364\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"52\" cy=\"428\" r=\"16\" fill=\"#008A7E\"/><rect x=\"1120\" y=\"100\" width=\"544\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1150\" y1=\"250\" x2=\"1634\" y2=\"150\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 20,
+     "w": 600,
+     "t": "Encaminhamento",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 640,
+     "y": 26,
+     "w": 390,
+     "t": "para: medicina do esporte",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 94,
+     "w": 32,
+     "t": "1",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 90,
+     "w": 950,
+     "t": "modalidade e volume semanal, contando tudo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 158,
+     "w": 32,
+     "t": "2",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 154,
+     "w": 950,
+     "t": "o que mudou em doze meses: treino e prato",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 222,
+     "w": 32,
+     "t": "3",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 218,
+     "w": 950,
+     "t": "ciclo: intervalo e método contraceptivo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 286,
+     "w": 32,
+     "t": "4",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 282,
+     "w": 950,
+     "t": "dor óssea e lesões de repetição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 350,
+     "w": 32,
+     "t": "5",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 346,
+     "w": 950,
+     "t": "tendência do rendimento, com números",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 36,
+     "y": 414,
+     "w": 32,
+     "t": "6",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 410,
+     "w": 950,
+     "t": "questionário: pontuação",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 150,
+     "w": 496,
+     "t": "“avaliar atleta, cansada”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1120,
+     "y": 320,
+     "w": 544,
+     "t": "a consulta começa do zero",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que mais ajuda quem recebe",
+   "titulo": "Seis linhas fazem a consulta começar pelo meio"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Reconhecer a deficiência energética fora do consultório médico",
+   "titulo": "Antes de acrescentar volume, pergunte",
+   "regras": [
+    "Platô com treino mantido: pergunte por energia e ciclo antes de subir o volume",
+    "Os sinais estão em várias janelas; junte as janelas",
+    "O questionário rastreia: positivo encaminha, negativo com sinais não encerra"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e prepara",
+     "x": "Nota o rendimento, pergunta e encaminha com as seis linhas."
+    },
+    {
+     "ic": "t:salad",
+     "t": "Nutrição e reabilitação",
+     "x": "Somam o prato e o tecido, e podem aplicar o questionário."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Recebe o encaminhamento e investiga."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
