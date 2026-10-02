@@ -1,0 +1,984 @@
+{
+ "arquivo": "aulas/MOD11/11-07-saude-ossea-disfuncao-menstrual-e-fratura-por-estresse.md",
+ "titulo": "Saúde óssea, disfunção menstrual e fratura por estresse",
+ "subtitulo": "Trinta meses de uma jogadora de vôlei",
+ "nota_capa": "Entra por uma fratura que consolidou e por uma causa que continuou.",
+ "secoes": {
+  "linha": [
+   "O caso.",
+   "capa"
+  ],
+  "regua": [
+   "O osso da atleta.",
+   "regua"
+  ],
+  "mesnove": [
+   "A segunda fratura.",
+   "mesnove"
+  ],
+  "piramide": [
+   "O tratamento e o desfecho.",
+   "piramide"
+  ]
+ },
+ "slides": [
+  {
+   "id": "linha",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Linha do tempo de trinta meses ilustrativos. Mês zero: primeira fratura. Mês nove: segunda fratura. Entre os dois: voltou a jogar. Depois do mês nove: energia, investigação, carga. Mês dezesseis: ciclo volta. Mês trinta: densitometria de controle. Uma linha pontilhada do começo até o mês dezesseis: sem menstruar\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><line x1=\"40\" y1=\"200\" x2=\"1624\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"60\" y1=\"190\" x2=\"60\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"522\" y1=\"190\" x2=\"522\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"881\" y1=\"190\" x2=\"881\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"1600\" y1=\"190\" x2=\"1600\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"80\" y=\"110\" width=\"422\" height=\"50\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"542\" y=\"110\" width=\"1038\" height=\"50\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 50.0 20 L 68.0 44 L 54.0 52 L 70.0 80\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-linejoin=\"round\"/><path d=\"M 512.0 20 L 530.0 44 L 516.0 52 L 532.0 80\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"881\" cy=\"300\" r=\"16\" fill=\"#A8322A\"/><line x1=\"60\" y1=\"410\" x2=\"881\" y2=\"410\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 214,
+     "w": 120,
+     "t": "mês 0",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 462,
+     "y": 214,
+     "w": 120,
+     "t": "mês 9",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 821,
+     "y": 214,
+     "w": 120,
+     "t": "mês 16",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1540,
+     "y": 214,
+     "w": 120,
+     "t": "mês 30",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 120,
+     "w": 422,
+     "t": "voltou a jogar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 542,
+     "y": 120,
+     "w": 1038,
+     "t": "energia, investigação, carga",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 30,
+     "w": 300,
+     "t": "primeira fratura",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 546,
+     "y": 30,
+     "w": 300,
+     "t": "segunda fratura",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 731,
+     "y": 330,
+     "w": 300,
+     "t": "ciclo volta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 300,
+     "w": 330,
+     "t": "densitometria de controle",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 424,
+     "w": 600,
+     "t": "sem menstruar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma jogadora de vôlei, no começo dos vinte",
+   "titulo": "A primeira fratura consolidou; o que a causou continuou",
+   "fonte": "Meses ilustrativos"
+  },
+  {
+   "id": "regua",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Régua de Z-score de menos 3 a mais 2. Faixa de menos 2 a mais 2: laudo, dentro do esperado. Faixa acima de zero: esperado para quem salta. Linha em menos 1: abaixo disso, baixa para atleta de impacto. Coluna lombar em menos 1,4; colo do fêmur em mais 0,3\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"380\" y=\"40\" width=\"1200\" height=\"60\" rx=\"12\" fill=\"#C9CFD4\" opacity=\"0.45\"/><rect x=\"980\" y=\"120\" width=\"600\" height=\"60\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"80\" y1=\"260\" x2=\"1580\" y2=\"260\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"80\" y1=\"250\" x2=\"80\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"380\" y1=\"250\" x2=\"380\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"680\" y1=\"250\" x2=\"680\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"980\" y1=\"250\" x2=\"980\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1280\" y1=\"250\" x2=\"1280\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1580\" y1=\"250\" x2=\"1580\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"680\" y1=\"110\" x2=\"680\" y2=\"250\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><circle cx=\"560\" cy=\"260\" r=\"14\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><circle cx=\"1070\" cy=\"260\" r=\"14\" fill=\"#008A7E\" stroke=\"#FDFCF9\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 380,
+     "y": 54,
+     "w": 1200,
+     "t": "laudo: dentro do esperado para a idade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 134,
+     "w": 600,
+     "t": "esperado para quem salta",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 280,
+     "w": 80,
+     "t": "−3",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 280,
+     "w": 80,
+     "t": "−2",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 280,
+     "w": 80,
+     "t": "−1",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 280,
+     "w": 80,
+     "t": "0",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 280,
+     "w": 80,
+     "t": "+1",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1540,
+     "y": 280,
+     "w": 80,
+     "t": "+2",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 130,
+     "w": 400,
+     "t": "abaixo de −1: baixa para atleta de impacto",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 430,
+     "y": 340,
+     "w": 260,
+     "t": "coluna −1,4",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 940,
+     "y": 340,
+     "w": 260,
+     "t": "fêmur +0,3",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O laudo do mês zero",
+   "titulo": "Para quem salta, um Z-score de −1,4 não é normal",
+   "fonte": "Coalizão da tríade, Br J Sports Med 2014"
+  },
+  {
+   "id": "sitios",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Lado a lado, uma vértebra em corte com a malha trabecular rarefeita e o colo do fêmur com casca cortical grossa e setas de impacto chegando de baixo. Trabecular: troca rápida, depende de estrogênio. Cortical: protegido pelo impacto. Esquema\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"800\" height=\"440\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"200\" y=\"60\" width=\"400\" height=\"240\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"6\"/><line x1=\"230\" y1=\"134\" x2=\"250\" y2=\"164\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"230\" y1=\"178\" x2=\"250\" y2=\"208\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"230\" y1=\"222\" x2=\"250\" y2=\"252\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"272\" y1=\"90\" x2=\"292\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"272\" y1=\"178\" x2=\"292\" y2=\"208\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"272\" y1=\"222\" x2=\"292\" y2=\"252\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"272\" y1=\"266\" x2=\"292\" y2=\"296\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"314\" y1=\"90\" x2=\"334\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"314\" y1=\"134\" x2=\"334\" y2=\"164\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"314\" y1=\"222\" x2=\"334\" y2=\"252\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"314\" y1=\"266\" x2=\"334\" y2=\"296\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"356\" y1=\"90\" x2=\"376\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"356\" y1=\"134\" x2=\"376\" y2=\"164\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"356\" y1=\"178\" x2=\"376\" y2=\"208\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"356\" y1=\"266\" x2=\"376\" y2=\"296\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"398\" y1=\"134\" x2=\"418\" y2=\"164\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"398\" y1=\"178\" x2=\"418\" y2=\"208\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"398\" y1=\"222\" x2=\"418\" y2=\"252\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"440\" y1=\"90\" x2=\"460\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"440\" y1=\"178\" x2=\"460\" y2=\"208\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"440\" y1=\"222\" x2=\"460\" y2=\"252\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"440\" y1=\"266\" x2=\"460\" y2=\"296\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"482\" y1=\"90\" x2=\"502\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"482\" y1=\"134\" x2=\"502\" y2=\"164\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"482\" y1=\"222\" x2=\"502\" y2=\"252\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"482\" y1=\"266\" x2=\"502\" y2=\"296\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"524\" y1=\"90\" x2=\"544\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"524\" y1=\"134\" x2=\"544\" y2=\"164\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"524\" y1=\"178\" x2=\"544\" y2=\"208\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"524\" y1=\"266\" x2=\"544\" y2=\"296\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"566\" y1=\"134\" x2=\"586\" y2=\"164\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"566\" y1=\"178\" x2=\"586\" y2=\"208\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"566\" y1=\"222\" x2=\"586\" y2=\"252\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 1000 260 Q 1100 240 1180 150 Q 1230 90 1320 80 Q 1400 80 1400 150 Q 1390 210 1300 200 Q 1240 200 1210 250 Q 1180 300 1180 300 L 1060 300 Z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"14\"/><line x1=\"1080\" y1=\"300\" x2=\"1080\" y2=\"236\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"1120\" y1=\"300\" x2=\"1120\" y2=\"236\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"1160\" y1=\"300\" x2=\"1160\" y2=\"236\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 320,
+     "w": 752,
+     "t": "Vértebra: trabecular",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 372,
+     "w": 752,
+     "t": "troca rápida; perde primeiro sem estrogênio",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 320,
+     "w": 752,
+     "t": "Colo do fêmur: mais cortical",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 888,
+     "y": 372,
+     "w": 752,
+     "t": "o impacto segura a densidade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1520,
+     "y": 20,
+     "w": 130,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que os dois sítios discordam",
+   "titulo": "A coluna perde primeiro; o impacto protege o fêmur",
+   "destaque": "Densitometria em atleta com disfunção menstrual: coluna e fêmur. O fêmur bom não tranquiliza sobre a coluna.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "mesnove",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"A tíbia com duas marcas de fratura, uma consolidada e outra nova. O que foi feito: imobilização, retorno progressivo, liberação. O que não foi feito: pergunta sobre o ciclo, conta da energia, investigação da amenorreia, leitura do laudo com a régua da atleta\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><path d=\"M 150 20 Q 130 240 150 450 L 230 450 Q 250 240 230 20 Z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"5\"/><line x1=\"140\" y1=\"150\" x2=\"200\" y2=\"140\" stroke=\"#C9CFD4\" stroke-width=\"8\"/><path d=\"M 190 300 L 208 324 L 194 332 L 210 360\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-linejoin=\"round\"/><rect x=\"520\" y=\"0\" width=\"544\" height=\"470\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1100\" y=\"0\" width=\"544\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 250,
+     "y": 126,
+     "w": 240,
+     "t": "mês 0: consolidou",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 250,
+     "y": 316,
+     "w": 240,
+     "t": "mês 9: nova fratura",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 544,
+     "y": 20,
+     "w": 500,
+     "t": "Foi feito",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 554,
+     "y": 100,
+     "w": 490,
+     "t": "· proteção da fratura",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 554,
+     "y": 180,
+     "w": 490,
+     "t": "· retorno progressivo",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 554,
+     "y": 260,
+     "w": 490,
+     "t": "· liberação",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1124,
+     "y": 20,
+     "w": 500,
+     "t": "Não foi feito",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1134,
+     "y": 100,
+     "w": 490,
+     "t": "· perguntar pelo ciclo",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1134,
+     "y": 180,
+     "w": 490,
+     "t": "· fazer a conta da energia",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1134,
+     "y": 260,
+     "w": 490,
+     "t": "· investigar a amenorreia",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1134,
+     "y": 340,
+     "w": 490,
+     "t": "· ler o laudo com a régua da atleta",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Entre o mês zero e o mês nove",
+   "titulo": "Cada um tratou bem a sua parte; ninguém juntou as partes"
+  },
+  {
+   "id": "escada",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Degraus que sobem. Um fator de risco: de 15 a 20 por cento com lesão óssea. Fatores combinados: de 30 a 50 por cento. Duas combinações: densidade baixa para atleta mais 12 horas ou mais por semana, 29,7 por cento; 12 horas ou mais mais esporte de magreza mais restrição alimentar, 46,2 por cento\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"280\" width=\"380\" height=\"120\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"400\" y=\"140\" width=\"380\" height=\"260\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"880\" y=\"0\" width=\"784\" height=\"190\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"880\" y=\"210\" width=\"784\" height=\"190\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 300,
+     "w": 380,
+     "t": "15 a 20%",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 420,
+     "w": 380,
+     "t": "um fator",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 160,
+     "w": 380,
+     "t": "30 a 50%",
+     "tam": 44,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 420,
+     "w": 380,
+     "t": "combinados",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 24,
+     "w": 240,
+     "t": "29,7%",
+     "tam": 60,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 40,
+     "w": 490,
+     "t": "densidade baixa para atleta + 12 h ou mais por semana",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 904,
+     "y": 234,
+     "w": 240,
+     "t": "46,2%",
+     "tam": 60,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 250,
+     "w": 490,
+     "t": "12 h ou mais + esporte de magreza + restrição alimentar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Estudo prospectivo de 2014, cerca de 260 meninas e mulheres ativas",
+   "titulo": "Fatores de risco somam: de um em cinco a quase metade",
+   "fonte": "Proporção com lesão óssea por estresse no seguimento; Am J Sports Med 2014"
+  },
+  {
+   "id": "piramide",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Pirâmide de tratamento. Base: energia, carga e comportamento. Meio: estradiol transdérmico com progesterona cíclica, se o ciclo não volta e a densidade é baixa. Ao lado, riscados: pílula combinada e bisfosfonato\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><path d=\"M 40 440 L 1000 440 L 860 260 L 180 260 Z\" fill=\"#008A7E\"/><path d=\"M 200 240 L 840 240 L 700 60 L 340 60 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"1100\" y=\"80\" width=\"564\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1130\" y1=\"180\" x2=\"1634\" y2=\"100\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"1100\" y=\"260\" width=\"564\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1130\" y1=\"360\" x2=\"1634\" y2=\"280\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 180,
+     "y": 316,
+     "w": 680,
+     "t": "energia, carga e comportamento",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 180,
+     "y": 372,
+     "w": 680,
+     "t": "o tratamento da causa",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 90,
+     "w": 440,
+     "t": "estradiol transdérmico + progesterona cíclica",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 260,
+     "y": 180,
+     "w": 520,
+     "t": "se o ciclo não volta e a densidade segue baixa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 118,
+     "w": 524,
+     "t": "pílula combinada",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 298,
+     "w": 524,
+     "t": "bisfosfonato",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A partir do mês nove",
+   "titulo": "A causa na base; o hormônio só se faltar",
+   "fonte": "Diretriz da sociedade de endocrinologia, J Clin Endocrinol Metab 2017"
+  },
+  {
+   "id": "janela",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Curva de massa óssea ao longo da vida, subindo na adolescência, pico perto do fim da segunda década, descendo devagar depois. Janela de construção sombreada. Dois pontos: dois anos sem menstruar aos 19 e aos 35, com setas de tamanhos diferentes. Esquema\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"317\" y=\"10\" width=\"257\" height=\"360\" fill=\"#F4EAD6\"/><path d=\"M 60 370 L 111 365 L 163 345 L 214 308 L 265 258 L 317 205 L 368 157 L 419 120 L 471 96 L 522 82 L 573 75 L 625 72 L 676 70 L 727 70 L 779 70 L 830 70 L 881 74 L 933 79 L 984 83 L 1035 88 L 1087 92 L 1138 96 L 1189 101 L 1241 105 L 1292 110 L 1343 114 L 1395 118 L 1446 123 L 1497 127 L 1549 132 L 1600 136\" stroke=\"#12202E\" stroke-width=\"6\" fill=\"none\"/><line x1=\"60\" y1=\"370\" x2=\"1600\" y2=\"370\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><circle cx=\"548\" cy=\"77\" r=\"14\" fill=\"#A8322A\"/><line x1=\"548\" y1=\"95\" x2=\"548\" y2=\"205\" stroke=\"#A8322A\" stroke-width=\"8\"/><circle cx=\"958\" cy=\"81\" r=\"14\" fill=\"#A8322A\"/><line x1=\"958\" y1=\"99\" x2=\"958\" y2=\"149\" stroke=\"#A8322A\" stroke-width=\"8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 317,
+     "y": 20,
+     "w": 257,
+     "t": "janela de construção",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 380,
+     "w": 80,
+     "t": "0",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 277,
+     "y": 380,
+     "w": 80,
+     "t": "10",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 533,
+     "y": 380,
+     "w": 80,
+     "t": "20",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 380,
+     "w": 80,
+     "t": "30",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1047,
+     "y": 380,
+     "w": 80,
+     "t": "40",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1303,
+     "y": 380,
+     "w": 80,
+     "t": "50",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1560,
+     "y": 380,
+     "w": 80,
+     "t": "60",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 572,
+     "y": 107,
+     "w": 420,
+     "t": "aos 19: deixa de construir",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 982,
+     "y": 111,
+     "w": 420,
+     "t": "aos 35: perde a partir do pico",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 410,
+     "w": 200,
+     "t": "idade, anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 20,
+     "w": 200,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Dá para recuperar tudo?",
+   "titulo": "Dois anos sem menstruar não custam o mesmo aos 19 e aos 35"
+  },
+  {
+   "id": "desfecho",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A linha do tempo completa a partir do mês nove. Mês dezesseis: ciclo volta, irregular. Mês vinte: ciclos de 30 a 35 dias. Mês trinta: coluna lombar menos 1,1, melhor, ainda abaixo do esperado para quem salta. Faixa contínua desde o mês nove: sem nova fratura\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"40\" y1=\"160\" x2=\"1624\" y2=\"160\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"60\" cy=\"160\" r=\"16\" fill=\"#008A7E\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"560\" cy=\"160\" r=\"16\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"846\" cy=\"160\" r=\"16\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"1560\" cy=\"160\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><rect x=\"60\" y=\"300\" width=\"1564\" height=\"64\" rx=\"32\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 40,
+     "w": 340,
+     "t": "mês 9",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 90,
+     "w": 340,
+     "t": "mudança de rumo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 390,
+     "y": 40,
+     "w": 340,
+     "t": "mês 16",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 390,
+     "y": 90,
+     "w": 340,
+     "t": "ciclo volta, irregular",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 676,
+     "y": 40,
+     "w": 340,
+     "t": "mês 20",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 676,
+     "y": 90,
+     "w": 340,
+     "t": "ciclos de 30 a 35 dias",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 40,
+     "w": 340,
+     "t": "mês 30",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1240,
+     "y": 90,
+     "w": 340,
+     "t": "coluna −1,1",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1224,
+     "y": 200,
+     "w": 400,
+     "t": "melhor, ainda abaixo do esperado para quem salta",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 60,
+     "y": 314,
+     "w": 1564,
+     "t": "sem nova fratura desde o mês 9",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 392,
+     "w": 800,
+     "t": "meses e valores ilustrativos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O desfecho, sem enfeite",
+   "titulo": "O ciclo voltou em meses; o osso melhorou, mas não normalizou",
+   "destaque": "As duas fraturas tinham a mesma causa, e só a segunda foi tratada pela causa.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Saúde óssea, disfunção menstrual e fratura por estresse",
+   "titulo": "Trate a fratura e a causa no mesmo dia",
+   "regras": [
+    "Fratura por estresse na atleta abre a pergunta pelo ciclo e pela energia no mesmo dia",
+    "Densitometria com a régua da atleta: Z-score, coluna e fêmur; abaixo de −1 com impacto já é baixo",
+    "Energia, carga e comportamento primeiro; estradiol transdérmico só se faltar; nem pílula, nem bisfosfonato"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e prepara",
+     "x": "Ajusta o impacto e não libera sem saber se a causa foi tratada."
+    },
+    {
+     "ic": "t:salad",
+     "t": "Nutrição",
+     "x": "Conduz a energia, que é o tratamento principal."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Faz o funil, lê a densitometria com a régua certa e decide sobre hormônio."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
