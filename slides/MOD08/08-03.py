@@ -126,6 +126,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Mecanotransdução", "titu
                     {"t": "Nutrição", "x": "Garante a matéria-prima do reparo."}],
           "quem": "Próxima aula: progressão de carga em tecido em cicatrização."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-03")
+
 spec = {"arquivo": "aulas/MOD08/08-03-mecanotransducao.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Mecanotransdução", "subtitulo": "Como a carga vira reparo, em números",

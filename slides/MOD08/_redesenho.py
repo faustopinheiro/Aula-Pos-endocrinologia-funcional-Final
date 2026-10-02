@@ -424,10 +424,172 @@ def ficha_82():
     return slide("ficha", 400, p, rs, eyebrow="O que substitui a folha de semanas", titulo="Uma ficha de uma página",
                  destaque="O prazo existe, como faixa: “depende de você passar nas portas, não do calendário”.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 8.3
+
+def bomba_83():
+    """8.3: a curva de carbono-14 na atmosfera, em esquema, e o que ela revelou no tendão e no músculo."""
+    p = [svg_abre(1664, 380, "À esquerda, em esquema, a concentração de carbono-14 na atmosfera: sobe de repente com os testes nucleares, até a proibição em 1963, e cai devagar depois. Funciona como data de fabricação de cada tecido. À direita, o resultado em 28 tendões de Aquiles de pessoas nascidas entre 1945 e 1983: o carbono do miolo do tendão correspondia aos primeiros 17 anos de vida; no músculo das mesmas pessoas, a renovação era contínua")]
+    rs = []
+    p.append(caixa(0, 0, 820, 380, TINTA, CARTAO, esp=2, rx=16))
+    X0, B = 60, 300
+    p.append(f'<line x1="{X0}" y1="{B}" x2="790" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<path d="M {X0} {B - 10} L 250 {B - 14} C 290 {B - 20}, 310 70, 350 66 C 420 70, 520 170, 780 {B - 40}" fill="none" stroke="{GLIC}" stroke-width="5"/>')
+    p.append(f'<line x1="350" y1="56" x2="350" y2="{B}" stroke="{TINTA}" stroke-width="2"{TRACO}/>')
+    for x, t in [(X0, "1950"), (350, "1963"), (560, "1980"), (760, "2000")]:
+        rs.append(rot(x - 40, B + 8, t, w=80, tam=18, cor=MUDO, alinha="center"))
+    rs += [rot(362, 46, "proibição dos testes", w=260, tam=18, cor=TINTA, peso=700),
+           rot(24, 16, "carbono-14 na atmosfera · esquema", w=600, tam=19, cor=GLIC, peso=700),
+           rot(24, 344, "a data de fabricação de cada tecido", w=760, tam=19, cor=MUDO)]
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:hourglass", "Miolo do tendão de Aquiles", "carbono dos primeiros 17 anos de vida", FOSF, FOSF_T),
+                                                 ("t:refresh", "Músculo, mesmas pessoas", "renovação contínua", OXID, OXID_T)]):
+        y = k * 150
+        p.append(caixa(860, y, 804, 136, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, 884, y + 24, 44, cor))
+        rs += [rot(944, y + 26, t, w=700, tam=25, cor=cor, peso=700, serif=True), rot(944, y + 76, d, w=700, tam=22, cor=TINTA)]
+    rs.append(rot(860, 318, "28 tendões, pessoas nascidas entre 1945 e 1983", w=804, tam=21, cor=TINTA, peso=700))
+    return slide("bomba", 380, p, rs, eyebrow="O carbono-14 dos testes nucleares como data de fabricação", titulo="O miolo do tendão de Aquiles adulto tem o colágeno da adolescência.",
+                 fonte="FASEB J 2013")
+
+
+def desmontar_83():
+    """8.3: o corte do tendão com o miolo fixo e a resposta acontecendo no material e na periferia."""
+    p = [svg_abre(1664, 360, "Um corte de tendão. O miolo, em cinza, não é trocado: isso explica a cicatrização ruim e a tendinopatia de meses. Em volta, setas de resposta: o tendão responde a treino, mudando o material, como as fibras se ligam, e a periferia e a matriz ao redor. A dose e a paciência são outras")]
+    rs = []
+    cx, cy = 400, 180
+    p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="300" ry="160" fill="{OXID_T}" stroke="{OXID}" stroke-width="4"/>')
+    p.append(f'<ellipse cx="{cx}" cy="{cy}" rx="150" ry="80" fill="{CINZA}"/>')
+    rs += [rot(cx - 140, cy - 30, "miolo", w=280, tam=24, cor=TINTA, peso=700, alinha="center"), rot(cx - 140, cy + 4, "não é trocado", w=280, tam=19, cor=TINTA, alinha="center")]
+    for ang in range(0, 360, 45):
+        import math
+        a = math.radians(ang)
+        x1, y1 = cx + 190 * math.cos(a), cy + 105 * math.sin(a)
+        x2, y2 = cx + 270 * math.cos(a), cy + 145 * math.sin(a)
+        p.append(f'<line x1="{x1:.0f}" y1="{y1:.0f}" x2="{x2:.0f}" y2="{y2:.0f}" stroke="{OXID}" stroke-width="4" stroke-linecap="round"/>')
+    for k, (t, itens, cor) in enumerate([("O que significa", ["o núcleo de colágeno não é trocado", "explica a cicatrização ruim", "explica tendinopatia de meses"], TINTA),
+                                         ("O que não significa", ["que o tendão não responde a treino", "a resposta muda o material e a periferia", "a dose e a paciência são outras"], OXID)]):
+        y = k * 186
+        p.append(caixa(760, y, 904, 174, cor, CARTAO, esp=2, rx=14))
+        rs.append(rot(784, y + 14, t, w=860, tam=24, cor=cor, peso=700, serif=True))
+        for j, it in enumerate(itens):
+            rs.append(rot(784, y + 56 + j * 36, "· " + it, w=860, tam=21, cor=TINTA))
+    return slide("desmontar", 360, p, rs, eyebrow="Antes que o número vire mito", titulo="O tendão muda devagar, e de outro jeito", fonte="FASEB J 2013")
+
+
+def musculo_83():
+    """8.3: barras da síntese de proteína muscular acima do repouso em 3, 24 e 48 horas."""
+    p = [svg_abre(1664, 340, "Barras da síntese de proteína muscular acima do repouso depois de uma sessão de força, em oito pessoas destreinadas. Três horas depois: mais 112%. Vinte e quatro horas: mais 65%. Quarenta e oito horas: mais 34%. Uma sessão, quase dois dias de sinal")]
+    rs = []
+    B, E = 280, 2.0
+    for k, (t, v) in enumerate([("3 h", 112), ("24 h", 65), ("48 h", 34)]):
+        x = 120 + k * 380
+        p.append(f'<rect x="{x}" y="{B - v * E:.0f}" width="260" height="{v * E:.0f}" rx="6" fill="{OXID}" opacity="{1 - k * 0.2:.1f}"/>')
+        rs += [rot(x, B - v * E - 50, f"+{v}%", w=260, tam=40, cor=OXID, peso=700, alinha="center", serif=True), rot(x, B + 10, t, w=260, tam=22, cor=TINTA, peso=700, alinha="center")]
+    p.append(f'<line x1="80" y1="{B}" x2="1240" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    rs.append(rot(80, 318, "síntese de proteína acima do repouso · depois de uma sessão", w=1100, tam=17, cor=MUDO))
+    p.append(caixa(1300, 40, 364, 220, TINTA, TINTA, esp=0, rx=16))
+    rs += [rot(1316, 70, "uma sessão,", w=332, tam=24, cor=PAPEL, alinha="center"), rot(1316, 110, "quase dois dias de sinal", w=332, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True, lh=1.2)]
+    return slide("musculo", 340, p, rs, eyebrow="O relógio do músculo", titulo="Uma sessão de força, quase dois dias de sinal",
+                 destaque="A degradação também sobe. Em jejum, o balanço seguiu negativo, só menos que em repouso: o sinal vem da carga, a matéria-prima vem da comida.",
+                 destaque_cor="ambar", fonte="8 destreinados, 8 × 8 a 80% de 1RM · Am J Physiol 1997")
+
+
+def magnitude_83():
+    """8.3: duas barras de tamanho de efeito na rigidez do tendão, alta e baixa intensidade, e a régua de semanas."""
+    p = [svg_abre(1664, 340, "Duas barras do tamanho de efeito na rigidez do tendão. Com contrações acima de 70% da contração máxima: 0,90, efeito grande. Com intensidade menor: 0,04, praticamente nada. Ao lado, uma régua de semanas: intervenções com mais de 12 semanas funcionaram melhor")]
+    rs = []
+    X0, E = 380, 900
+    for k, (t, v, cor) in enumerate([("acima de 70% da contração máxima", 0.90, OXID), ("intensidade menor", 0.04, FOSF)]):
+        y = 20 + k * 120
+        rs.append(rot(0, y + 22, t, w=350, tam=21, cor=TINTA, peso=700, alinha="right", lh=1.2))
+        p.append(f'<rect x="{X0}" y="{y}" width="{max(v * E, 6):.0f}" height="90" rx="8" fill="{cor}"/>')
+        rs.append(rot(X0 + max(v * E, 6) + 18, y + 18, f"{v:.2f}".replace(".", ","), w=200, tam=44, cor=cor, peso=700, serif=True))
+    rs.append(rot(X0, 236, "tamanho de efeito na rigidez do tendão", w=800, tam=18, cor=MUDO))
+    p.append(caixa(0, 270, 1664, 70, TINTA, PAPEL, esp=2, rx=35))
+    for w in range(1, 15):
+        x = 40 + w * 90
+        p.append(f'<rect x="{x}" y="288" width="70" height="34" rx="6" fill="{OXID if w > 12 else CINZA}"/>')
+    rs.append(rot(1400, 292, "mais de 12 semanas", w=250, tam=21, cor=OXID, peso=700))
+    return slide("magnitude", 340, p, rs, eyebrow="O que faz o tendão se adaptar", titulo="Magnitude e tempo",
+                 destaque="O tipo de contração pesou menos que a intensidade. Na fase de construção: carga alta, lenta e controlada, por meses.", destaque_cor="tinta",
+                 fonte="Metanálise em tendões saudáveis · Sports Med Open 2015")
+
+
+def desuso_83():
+    """8.3: barras de perda com a perna engessada: área e força em 5 dias, força em 14 dias."""
+    p = [svg_abre(1664, 340, "Barras de perda com a perna engessada, em homens jovens e saudáveis, numa linha de dias. Em 5 dias: área do quadríceps menos 3,5% e força menos 9%. Em 14 dias: força menos 23%")]
+    rs = []
+    T, E = 40, 8
+    bars = [("área do quadríceps", "5 dias", 3.5, GLIC, 200), ("força", "5 dias", 9, FOSF, 560), ("força", "14 dias", 23, FOSF, 920)]
+    p.append(f'<line x1="120" y1="{T}" x2="1300" y2="{T}" stroke="{MUDO}" stroke-width="2"/>')
+    for t, d, v, cor, x in bars:
+        p.append(f'<rect x="{x}" y="{T}" width="240" height="{v * E:.0f}" rx="6" fill="{cor}"/>')
+        rs += [rot(x, T + v * E + 10, f"−{str(v).replace('.', ',')}%", w=240, tam=38, cor=cor, peso=700, alinha="center", serif=True),
+               rot(x, 0, f"{t} · {d}", w=240, tam=18, cor=TINTA, peso=700, alinha="center")]
+    p.append(icone("t:lock", 1360, 60, 80, MUDO))
+    rs += [rot(1330, 160, "perna engessada", w=300, tam=22, cor=TINTA, peso=700, alinha="center"), rot(1330, 196, "homens jovens e saudáveis", w=300, tam=19, cor=MUDO, alinha="center")]
+    return slide("desuso", 340, p, rs, eyebrow="O custo de tirar o sinal", titulo="Perna engessada em homens jovens e saudáveis",
+                 destaque="Proteger o tecido lesionado nos primeiros dias é necessário. Imobilizar o resto do corpo junto não é.", destaque_cor="tinta", fonte="Acta Physiol 2014")
+
+
+def repouso_83():
+    """8.3: proteger tira a carga que machuca; repouso total é lido como ordem de perder."""
+    p = [svg_abre(1664, 340, "Dois caminhos. Proteger: tirar a carga que machuca, e manter o resto. Repouso total: o tecido lê a ausência de carga como uma ordem, e obedece: menos proteína, menos matriz, menos força")]
+    rs = []
+    p.append(caixa(0, 0, 700, 340, OXID, OXID_T, esp=2, rx=16))
+    p.append(icone("t:shield-check", 24, 24, 56, OXID))
+    rs += [rot(96, 34, "Proteger", w=580, tam=30, cor=OXID, peso=700, serif=True), rot(24, 120, "tirar a carga que machuca", w=650, tam=26, cor=TINTA, peso=700),
+           rot(24, 170, "e manter o resto", w=650, tam=24, cor=TINTA)]
+    p.append(caixa(760, 0, 904, 340, FOSF, FOSF_T, esp=2, rx=16))
+    p.append(icone("t:bed", 784, 24, 56, FOSF))
+    rs += [rot(856, 34, "Repouso total", w=780, tam=30, cor=FOSF, peso=700, serif=True), rot(784, 110, "o tecido lê como ordem, e obedece:", w=850, tam=23, cor=TINTA, peso=700)]
+    for j, t in enumerate(["menos proteína", "menos matriz", "menos força"]):
+        x = 784 + j * 290
+        p.append(f'<rect x="{x}" y="180" width="270" height="70" rx="35" fill="{CARTAO}" stroke="{FOSF}" stroke-width="2"/>')
+        p.append(icone("t:trending-down", x + 18, 197, 36, FOSF))
+        rs.append(rot(x + 60, 200, t, w=200, tam=21, cor=FOSF, peso=700))
+    return slide("repouso", 340, p, rs, eyebrow="A ideia da aula", titulo="Repouso não é neutro. O tecido lê a ausência de carga como uma ordem.")
+
+
+def relogios_83():
+    """8.3: quatro faixas numa régua de tempo, das horas aos meses, uma por tecido."""
+    p = [svg_abre(1664, 400, "Quatro faixas numa régua de tempo que vai de horas a meses, uma por tecido, em esquema. Músculo: responde em horas, síntese elevada por 1 a 2 dias, ganhos em semanas. Tendão: colágeno em dias, saldo depois, miolo não se renova, rigidez em mais de 12 semanas. Osso: carga dinâmica, satura com repetição, volta com pausa, meses. Ligamento e enxerto: lentos como o tendão; a biologia marca o piso de tempo")]
+    rs = []
+    X0, W = 300, 340
+    for k, t in enumerate(["horas", "dias", "semanas", "meses"]):
+        rs.append(rot(X0 + k * W, 0, t, w=W, tam=21, cor=TINTA, peso=700, alinha="center"))
+        p.append(f'<line x1="{X0 + k * W}" y1="32" x2="{X0 + k * W}" y2="400" stroke="{BORDA}" stroke-width="2"/>')
+    faixas = [("Músculo", 0.1, 2.6, "horas; síntese 1 a 2 dias; ganhos em semanas", OXID), ("Tendão", 1.0, 4.0, "colágeno em dias; miolo não se renova; rigidez > 12 sem", GLIC),
+              ("Osso", 2.3, 4.0, "carga dinâmica; satura; volta com pausa; meses", AZUL), ("Ligamento e enxerto", 2.4, 4.0, "lentos como o tendão; a biologia marca o piso", FOSF)]
+    for k, (t, a, b, d, cor) in enumerate(faixas):
+        y = 50 + k * 88
+        rs.append(rot(0, y + 18, t, w=280, tam=22, cor=cor, peso=700, alinha="right"))
+        p.append(f'<rect x="{X0 + a * W:.0f}" y="{y}" width="{(b - a) * W:.0f}" height="72" rx="36" fill="{cor}"/>')
+        rs.append(rot(X0 + a * W + 20, y + 22, d, w=(b - a) * W - 40, tam=19, cor=PAPEL, peso=700))
+    return slide("relogios", 400, p, rs, eyebrow="Quatro relógios, lado a lado", titulo="O prazo é do tecido, não da dor",
+                 destaque="Duas lesões com a mesma dor podem ter prazos muito diferentes.", destaque_cor="tinta")
+
+
+def pratica_83():
+    """8.3: cinco traduções para a prescrição, cada uma com um ícone."""
+    p = [svg_abre(1664, 340, "Cinco traduções para a prescrição. Carga é sinal: sem progressão, é espera. Magnitude: principalmente no tendão. Espaçamento: tendão alterna, osso pausa. Tempo: semanas no músculo, meses no tendão. Dor não mede: informa tolerância, não adaptação")]
+    rs = []
+    itens = [("t:bolt", "Carga é sinal", "sem progressão, é espera", OXID), ("t:barbell", "Magnitude", "principalmente no tendão", OXID),
+             ("t:calendar", "Espaçamento", "tendão alterna; osso pausa", GLIC), ("t:hourglass", "Tempo", "semanas no músculo, meses no tendão", GLIC),
+             ("t:gauge", "Dor não mede", "informa tolerância, não adaptação", FOSF)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        x = k * 337
+        p.append(caixa(x, 0, 312, 340, cor, CARTAO, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 156}" cy="80" r="50" fill="{OXID_T if cor == OXID else GLIC_T if cor == GLIC else FOSF_T}"/>')
+        p.append(icone(ic, x + 128, 52, 56, cor))
+        rs += [rot(x + 14, 156, t, w=284, tam=25, cor=cor, peso=700, serif=True, alinha="center"), rot(x + 14, 210, d, w=284, tam=21, cor=TINTA, alinha="center", lh=1.3)]
+    return slide("pratica", 340, p, rs, eyebrow="Na segunda-feira", titulo="Cinco traduções para a prescrição",
+                 destaque="Avisar no começo que o tendão leva meses evita o abandono no segundo mês.", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipoteses_81, laudo_81, vieses_81, quem_81],
-          "08-02": [folha_82, piso_82, resposta_82, saidas_82, portas_82, custo_82, naoabre_82, degraus_82, quem_82, ficha_82]}
+          "08-02": [folha_82, piso_82, resposta_82, saidas_82, portas_82, custo_82, naoabre_82, degraus_82, quem_82, ficha_82],
+          "08-03": [bomba_83, desmontar_83, musculo_83, magnitude_83, desuso_83, repouso_83, relogios_83, pratica_83]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
