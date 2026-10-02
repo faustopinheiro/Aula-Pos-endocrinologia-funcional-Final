@@ -1,0 +1,922 @@
+{
+ "arquivo": "aulas/MOD11/11-03-sintomas-menstruais-o-que-de-fato-limita.md",
+ "titulo": "Sintomas menstruais: o que de fato limita",
+ "subtitulo": "O roteiro para enxergar, registrar e tratar",
+ "nota_capa": "Entra por uma nadadora que perdia um mês de treino por ano.",
+ "secoes": {
+  "calendario": [
+   "O que pesa.",
+   "capa"
+  ],
+  "perguntas": [
+   "Perguntar e registrar.",
+   "perguntas"
+  ],
+  "alertas": [
+   "O que muda de mãos.",
+   "alertas"
+  ],
+  "tratar": [
+   "Tratar e falar.",
+   "tratar"
+  ]
+ },
+ "slides": [
+  {
+   "id": "calendario",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Um calendário de doze meses de natação, com os treinos marcados em azul. Em cada mês, dois ou três dias seguidos em branco, sempre no começo do sangramento. Ao lado, a conta: dois dias e meio por mês são trinta dias por ano, um mês de treino perdido\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"10\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"130\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"130\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"130\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"130\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"172\" y=\"0\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"182\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"222\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"242\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"262\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"282\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"182\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"222\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"242\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"262\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"282\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"182\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"222\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"242\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"262\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"282\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"182\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"222\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"242\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"262\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"282\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"344\" y=\"0\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"354\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"374\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"394\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"414\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"434\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"454\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"474\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"354\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"374\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"394\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"414\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"434\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"454\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"474\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"354\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"374\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"394\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"414\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"434\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"454\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"474\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"354\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"374\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"394\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"414\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"434\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"454\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"474\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"516\" y=\"0\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"526\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"546\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"566\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"586\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"606\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"626\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"646\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"526\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"546\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"566\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"586\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"606\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"626\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"646\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"526\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"546\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"566\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"586\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"606\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"626\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"646\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"526\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"546\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"566\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"586\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"606\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"626\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"646\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"688\" y=\"0\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"698\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"718\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"738\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"758\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"778\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"798\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"818\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"698\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"718\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"738\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"758\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"778\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"798\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"818\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"698\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"718\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"738\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"758\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"778\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"798\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"818\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"698\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"718\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"738\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"758\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"778\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"798\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"818\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"860\" y=\"0\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"870\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"890\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"910\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"930\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"950\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"970\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"990\" y=\"50\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"870\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"890\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"910\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"930\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"950\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"970\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"990\" y=\"88\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"870\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"890\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"910\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"930\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"950\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"970\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"990\" y=\"126\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"870\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"890\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"910\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"930\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"950\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"970\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"990\" y=\"164\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"0\" y=\"230\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"10\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"130\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"130\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"130\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"10\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"130\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"172\" y=\"230\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"182\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"222\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"242\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"262\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"282\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"182\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"222\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"242\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"262\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"282\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"182\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"222\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"242\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"262\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"282\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"182\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"222\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"242\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"262\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"282\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"302\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"344\" y=\"230\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"354\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"374\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"394\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"414\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"434\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"454\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"474\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"354\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"374\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"394\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"414\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"434\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"454\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"474\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"354\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"374\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"394\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"414\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"434\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"454\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"474\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"354\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"374\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"394\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"414\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"434\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"454\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"474\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"516\" y=\"230\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"526\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"546\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"566\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"586\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"606\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"626\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"646\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"526\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"546\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"566\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"586\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"606\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"626\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"646\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"526\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"546\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"566\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"586\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"606\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"626\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"646\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"526\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"546\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"566\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"586\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"606\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"626\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"646\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"688\" y=\"230\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"698\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"718\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"738\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"758\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"778\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"798\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"818\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"698\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"718\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"738\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"758\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"778\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"798\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"818\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"698\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"718\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"738\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"758\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"778\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"798\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"818\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"698\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"718\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"738\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"758\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"778\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"798\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"818\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"860\" y=\"230\" width=\"156\" height=\"210\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"870\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"890\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"910\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"930\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"950\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"970\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"990\" y=\"280\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"870\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"890\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"910\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"930\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"950\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"970\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"990\" y=\"318\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"870\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"890\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"910\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"930\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"950\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"970\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"990\" y=\"356\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"870\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"890\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"910\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"930\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"950\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"970\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"990\" y=\"394\" width=\"16\" height=\"30\" rx=\"3\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"1.5\"/><rect x=\"1080\" y=\"0\" width=\"584\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 10,
+     "w": 156,
+     "t": "jan",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 172,
+     "y": 10,
+     "w": 156,
+     "t": "fev",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 10,
+     "w": 156,
+     "t": "mar",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 516,
+     "y": 10,
+     "w": 156,
+     "t": "abr",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 688,
+     "y": 10,
+     "w": 156,
+     "t": "mai",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 10,
+     "w": 156,
+     "t": "jun",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 240,
+     "w": 156,
+     "t": "jul",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 172,
+     "y": 240,
+     "w": 156,
+     "t": "ago",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 240,
+     "w": 156,
+     "t": "set",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 516,
+     "y": 240,
+     "w": 156,
+     "t": "out",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 688,
+     "y": 240,
+     "w": 156,
+     "t": "nov",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 240,
+     "w": 156,
+     "t": "dez",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 30,
+     "w": 530,
+     "t": "2,5 dias por mês × 12",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 100,
+     "w": 530,
+     "t": "30 dias",
+     "tam": 80,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1110,
+     "y": 220,
+     "w": 530,
+     "t": "um mês inteiro de treino por ano, há quase vinte anos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1110,
+     "y": 350,
+     "w": 530,
+     "t": "“É assim, todo mundo tem.”",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Uma nadadora e os dias em branco",
+   "titulo": "O hormônio pesa pouco; o sintoma tira um mês por ano"
+  },
+  {
+   "id": "balanca",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Uma balança. No prato leve, o efeito da fase, um peso pequeno. No prato pesado, os sintomas empilhados com as frequências de um levantamento de 2021: humor ou ansiedade 91%, cansaço 86%, cólica 84%, dor nas mamas 83%. Embaixo: quanto mais sintomas, mais treino perdido ou alterado\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><polygon points=\"832,440 792,470 872,470\" fill=\"#12202E\"/><line x1=\"832\" y1=\"440\" x2=\"832\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"6\"/><line x1=\"320\" y1=\"90\" x2=\"1344\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"8\"/><line x1=\"320\" y1=\"90\" x2=\"320\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 180 130 L 460 130 L 420 170 L 220 170 Z\" fill=\"#C9CFD4\"/><rect x=\"290\" y=\"100\" width=\"60\" height=\"30\" rx=\"6\" fill=\"#6B7A87\"/><line x1=\"1344\" y1=\"210\" x2=\"1344\" y2=\"420\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 1104 420 L 1584 420 L 1544 466 L 1144 466 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1164\" y=\"372\" width=\"360\" height=\"42\" rx=\"8\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"1164\" y=\"324\" width=\"360\" height=\"42\" rx=\"8\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"1164\" y=\"276\" width=\"360\" height=\"42\" rx=\"8\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"1164\" y=\"228\" width=\"360\" height=\"42\" rx=\"8\" fill=\"#A8322A\" opacity=\"1\"/></svg>",
+   "rotulos": [
+    {
+     "x": 150,
+     "y": 186,
+     "w": 340,
+     "t": "efeito da fase: trivial",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 379,
+     "w": 340,
+     "t": "humor ou ansiedade · 91%",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 331,
+     "w": 340,
+     "t": "cansaço · 86%",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 283,
+     "w": 340,
+     "t": "cólica · 84%",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 235,
+     "w": 340,
+     "t": "dor nas mamas · 83%",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 390,
+     "w": 720,
+     "t": "mais sintomas: mais treino perdido ou alterado, mais competição e trabalho perdidos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 290,
+     "w": 640,
+     "t": "e a crença sobre a fase pode pesar mais que a fase",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O que pesa de verdade",
+   "titulo": "O que tira a mulher do treino está neste prato",
+   "fonte": "Levantamento com 6.812 mulheres que treinam, Br J Sports Med 2021"
+  },
+  {
+   "id": "sangramento",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Uma gota grande com quatro perguntas de rastreio: troca em menos de duas horas, coágulos grandes, vazamento à noite ou dupla proteção, mais de sete dias. Uma seta leva da gota a um tubo de exame: ferritina. Ao lado, o número: 37% das atletas de elite relataram sangramento intenso\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 360 0 C 300 120, 60 230, 60 330 A 300 140 0 0 0 660 330 C 660 230, 420 120, 360 0 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"5\"/><line x1=\"690\" y1=\"320\" x2=\"820\" y2=\"320\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"840\" y=\"200\" width=\"70\" height=\"240\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"846\" y=\"320\" width=\"58\" height=\"114\" rx=\"29\" fill=\"#A8322A\"/><rect x=\"1220\" y=\"0\" width=\"444\" height=\"470\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 110,
+     "y": 180,
+     "w": 500,
+     "t": "troca em menos de 2 horas?",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 242,
+     "w": 500,
+     "t": "coágulos grandes?",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 304,
+     "w": 500,
+     "t": "vaza à noite, ou usa dois métodos?",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 366,
+     "w": 500,
+     "t": "dura mais de 7 dias?",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 300,
+     "w": 260,
+     "t": "ferritina",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1244,
+     "y": 30,
+     "w": 400,
+     "t": "37%",
+     "tam": 96,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1244,
+     "y": 170,
+     "w": 400,
+     "t": "das atletas de elite relataram sangramento intenso",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1244,
+     "y": 300,
+     "w": 400,
+     "t": "um terço já tinha tido anemia; poucas procuraram atendimento",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O sintoma mais subestimado",
+   "titulo": "Ninguém mede em mililitro: pergunte pelo efeito, e peça a ferritina",
+   "fonte": "Atletas e corredoras da maratona de Londres, 2016"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Uma ficha de anamnese com seis perguntas numeradas e um relógio marcando dois minutos: primeira menstruação; regularidade, e como ela sabe; meses sem menstruar; contracepção, qual e desde quando; sintomas que atrapalham o treino; gestações e planos\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"0\" y=\"0\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 38.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"640\" y=\"0\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(664.0 38.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12V9a3 3 0 0 1 3-3h13m-3-3l3 3l-3 3m3 3v3a3 3 0 0 1-3 3H4m3 3l-3-3l3-3\"/></g><rect x=\"0\" y=\"160\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 198.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"640\" y=\"160\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(664.0 198.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><rect x=\"0\" y=\"320\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 358.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01\"/><path d=\"M9.5 15.25a3.5 3.5 0 0 1 5 0\"/></g></g><rect x=\"640\" y=\"320\" width=\"620\" height=\"140\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(664.0 358.0) scale(1.2500)\"><path fill=\"#12202E\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><circle cx=\"1470\" cy=\"200\" r=\"150\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"6\"/><path d=\"M1470 200 L1470 80 A120 120 0 0 1 1574 140 Z\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 104,
+     "y": 30,
+     "w": 490,
+     "t": "Com que idade veio a primeira menstruação?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 744,
+     "y": 30,
+     "w": 490,
+     "t": "Os ciclos são regulares? E como você sabe?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 104,
+     "y": 190,
+     "w": 490,
+     "t": "Já ficou meses sem menstruar? Quantos, quando?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 744,
+     "y": 190,
+     "w": 490,
+     "t": "Usa contracepção? Qual, por qual via, desde quando?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 104,
+     "y": 350,
+     "w": 490,
+     "t": "Algum sintoma atrapalha o treino? Já tratou?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 744,
+     "y": 350,
+     "w": 490,
+     "t": "Já engravidou? Tem planos?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1320,
+     "y": 380,
+     "w": 300,
+     "t": "dois minutos",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 430,
+     "w": 340,
+     "t": "quase nunca alguém perguntou antes",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Primeiro passo: perguntar",
+   "titulo": "Seis perguntas que cabem em qualquer avaliação"
+  },
+  {
+   "id": "registro",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Uma planilha de três ciclos, cada um em linha, com dias numerados. Duas faixas acendem nos três ciclos: os dois primeiros dias de sangramento e os três dias antes dele, com sintoma e esforço altos. Ao lado, o que não precisa de rotina: temperatura basal, teste de ovulação, aplicativo com previsão\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"130\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"160\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"190\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"220\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"280\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"310\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"340\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"400\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"430\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"460\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"520\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"550\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"580\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"610\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"640\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"670\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"700\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"730\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"760\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"790\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"820\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"850\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"880\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"910\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"940\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"970\" y=\"40\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"130\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"160\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"190\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"220\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"280\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"310\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"340\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"400\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"430\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"460\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"520\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"550\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"580\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"610\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"640\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"670\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"700\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"730\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"760\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"790\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"820\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"850\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"880\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"910\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"940\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"970\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1000\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1030\" y=\"160\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"130\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"160\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"190\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"220\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"250\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"280\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"310\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"340\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"370\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"400\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"430\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"460\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"490\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"520\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"550\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"580\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"610\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"640\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"670\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"700\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"730\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"760\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"790\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"820\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"850\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"880\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"910\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"940\" y=\"280\" width=\"26\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1100\" y=\"0\" width=\"564\" height=\"380\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1124.0 96.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1124.0 176.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1124.0 256.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 58,
+     "w": 120,
+     "t": "ciclo 1",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 178,
+     "w": 120,
+     "t": "ciclo 2",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 298,
+     "w": 120,
+     "t": "ciclo 3",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 130,
+     "y": 0,
+     "w": 420,
+     "t": "sangramento: sintoma e esforço altos",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 400,
+     "w": 640,
+     "t": "os três dias antes: esforço alto e sono ruim, nos três ciclos",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 20,
+     "w": 520,
+     "t": "O que não precisa de rotina",
+     "tam": 27,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1180,
+     "y": 100,
+     "w": 460,
+     "t": "temperatura basal",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 180,
+     "w": 460,
+     "t": "teste de ovulação",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 260,
+     "w": 460,
+     "t": "aplicativo com previsão",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 340,
+     "w": 520,
+     "t": "três colunas bastam",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Segundo passo: registrar por três ciclos",
+   "titulo": "Três colunas mostram se o padrão é dela, ou se não existe",
+   "fonte": "Colunas: primeiro dia do sangramento · nota de sintoma de 0 a 10 · esforço nas sessões habituais"
+  },
+  {
+   "id": "alertas",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Um painel de seis sinais de alerta, cada um com um ícone, três em vermelho: amenorreia de três meses ou mais em quem menstruava; sem menarca aos 15 anos; intervalos acima de 35 dias de forma persistente; mudança de padrão em quem era regular; sangramento intenso; dor que limita. Embaixo: rastrear é de todos, investigar é médico\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"170\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(20.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"560\" y=\"0\" width=\"536\" height=\"170\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(580.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"1120\" y=\"0\" width=\"536\" height=\"170\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1140.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"190\" width=\"536\" height=\"170\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(20.0 212.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"560\" y=\"190\" width=\"536\" height=\"170\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(580.0 212.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"1120\" y=\"190\" width=\"536\" height=\"170\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1140.0 212.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"400\" width=\"1664\" height=\"100\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 84,
+     "y": 24,
+     "w": 430,
+     "t": "Amenorreia de 3 meses ou mais",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 100,
+     "w": 490,
+     "t": "em quem já menstruava: nunca é adaptação ao treino",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 24,
+     "w": 430,
+     "t": "Sem menarca aos 15 anos",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 584,
+     "y": 100,
+     "w": 490,
+     "t": "ou 3 anos depois do início das mamas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 24,
+     "w": 430,
+     "t": "Intervalos acima de 35 dias",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1144,
+     "y": 100,
+     "w": 490,
+     "t": "de forma persistente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 214,
+     "w": 430,
+     "t": "Mudança de padrão",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 290,
+     "w": 490,
+     "t": "de 28 para 45 dias: o que mais mudou?",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 214,
+     "w": 430,
+     "t": "Sangramento intenso",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 584,
+     "y": 290,
+     "w": 490,
+     "t": "e a ferritina",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 214,
+     "w": 430,
+     "t": "Dor que limita",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1144,
+     "y": 290,
+     "w": 490,
+     "t": "a endometriose ainda leva anos para ser vista",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 418,
+     "w": 1624,
+     "t": "Amenorreia, lesão óssea e perda de peso juntas: prioridade sobre todos · rastrear é de todos; investigar é médico",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Terceiro passo: o que muda de mãos",
+   "titulo": "Seis sinais em que o caso sai do treino e vai para quem investiga"
+  },
+  {
+   "id": "tratar",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Dois caminhos saindo da mesma cólica. Em cima, reorganizar o treino em volta do sintoma: o calendário fica cheio de buracos. Embaixo, tratar o sintoma: encaminhamento, tratamento, e o calendário volta a ficar cheio. A frase: se a cólica tira você do treino, o problema a resolver é a cólica\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"120\" cy=\"235\" r=\"100\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"5\"/><line x1=\"230\" y1=\"190\" x2=\"380\" y2=\"100\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"230\" y1=\"280\" x2=\"380\" y2=\"370\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><rect x=\"400\" y=\"0\" width=\"1264\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"430\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"472\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"514\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"556\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"598\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"640\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"682\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"724\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"766\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"808\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"850\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"892\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"934\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"976\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1018\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1060\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1102\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1144\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1186\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1228\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1270\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1312\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1354\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1396\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1438\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1480\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1522\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1564\" y=\"100\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"400\" y=\"250\" width=\"1264\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"430\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"472\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"514\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"556\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"598\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"640\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"682\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"724\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"766\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"808\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"850\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"892\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"934\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"976\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1018\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1060\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1102\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1144\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1186\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1228\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1270\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1312\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1354\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1396\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1438\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1480\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1522\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1564\" y=\"350\" width=\"34\" height=\"80\" rx=\"5\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1250\" y=\"10\" width=\"400\" height=\"70\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 214,
+     "w": 160,
+     "t": "a mesma cólica",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 424,
+     "y": 20,
+     "w": 800,
+     "t": "reorganizar o treino em volta dela",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 424,
+     "y": 270,
+     "w": 800,
+     "t": "tratar, e depois ajustar o fino",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1250,
+     "y": 26,
+     "w": 400,
+     "t": "o calendário esvazia",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A decisão que mais devolve dias",
+   "titulo": "Se a cólica tira você do treino, o problema a resolver é a cólica",
+   "destaque": "Primeiro tratar, depois ajustar. Na nadadora: ginecologia, ferro, e só então o ajuste de três dias pelo registro dela.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "falar",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Dois balões de fala. O riscado: nessas duas semanas o seu corpo não responde. O marcado: em média o efeito é pequeno; vamos anotar três ciclos e descobrir se você sente, e ajustar pelos seus dados. Embaixo, uma prova no calendário caindo no primeiro dia do sangramento: manejar o sintoma, não o calendário\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"250\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M 80 250 l 0 50 l 60 -50 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(470.0 20.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"600\" y=\"0\" width=\"1064\" height=\"250\" rx=\"40\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 680 250 l 0 50 l 60 -50 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(1574.0 20.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"0\" y=\"330\" width=\"1664\" height=\"130\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(30.0 360.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 21h8m-4-4v4M7 4h10m0 0v8a5 5 0 0 1-10 0V4M3 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m14 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 36,
+     "y": 50,
+     "w": 410,
+     "t": "“Nessas duas semanas o seu corpo não responde.”",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 636,
+     "y": 50,
+     "w": 914,
+     "t": "“Em média, o efeito é pequeno. Vamos anotar três ciclos e descobrir se você sente. Se sentir, a gente ajusta pelos seus dados.”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 352,
+     "w": 1500,
+     "t": "A prova cai no primeiro dia do sangramento?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 130,
+     "y": 400,
+     "w": 1500,
+     "t": "manejar o sintoma, não o calendário; deslocar o sangramento com hormônio é decisão médica",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quarto passo: como falar",
+   "titulo": "A frase errada instala um limite que a evidência não sustenta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Sintomas menstruais",
+   "titulo": "Perguntar, registrar, separar o alerta, tratar antes de ajustar",
+   "regras": [
+    "Seis perguntas e três ciclos de registro",
+    "Amenorreia de três meses nunca é adaptação ao treino",
+    "Tratar o sintoma antes de reorganizar o treino"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e prepara",
+     "x": "Pergunta, registra e ajusta o dia pelo sintoma do dia."
+    },
+    {
+     "ic": "t:salad",
+     "t": "Nutrição",
+     "x": "Pergunta pelo sangramento quando vê cansaço e ferritina baixa."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Médico e ginecologia",
+     "x": "Investigam amenorreia, dor e sangramento, e tratam."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
