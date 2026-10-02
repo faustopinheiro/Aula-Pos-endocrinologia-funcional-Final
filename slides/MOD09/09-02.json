@@ -26,11 +26,115 @@
  "slides": [
   {
    "id": "pedidos",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três fichas na mesma semana. A nadadora master: doze meses e um único campeonato, em outubro. O time de vôlei: oito meses com um jogo todo sábado. O representante comercial que corre: uma semana com três ou quatro dias na estrada e uma meia maratona como meta\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(24.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"568\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(592.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><rect x=\"1136\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1160.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"24\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"64\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"104\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"144\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"184\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"224\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"264\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"304\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"344\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"384\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"424\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"464\" y=\"120\" width=\"32\" height=\"110\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><circle cx=\"598\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"628\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"658\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"688\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"718\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"748\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"778\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"808\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"838\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"868\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"898\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"928\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"958\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"988\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"1018\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"1048\" cy=\"130\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"598\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"628\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"658\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"688\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"718\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"748\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"778\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"808\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"838\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"868\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"898\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"928\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"958\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"988\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"1018\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"1048\" cy=\"180\" r=\"10\" fill=\"#B07A1C\"/><rect x=\"1160\" y=\"120\" width=\"60\" height=\"110\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"1\"/><rect x=\"1228\" y=\"120\" width=\"60\" height=\"110\" rx=\"8\" fill=\"#6B7A87\" stroke=\"#6B7A87\" stroke-width=\"2\" opacity=\"0.6\"/><g transform=\"translate(1240.0 158.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 7l6-3l6 3l6-3v13l-6 3l-6-3l-6 3zm6-3v13m6-10v13\"/></g><rect x=\"1296\" y=\"120\" width=\"60\" height=\"110\" rx=\"8\" fill=\"#6B7A87\" stroke=\"#6B7A87\" stroke-width=\"2\" opacity=\"0.6\"/><g transform=\"translate(1308.0 158.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 7l6-3l6 3l6-3v13l-6 3l-6-3l-6 3zm6-3v13m6-10v13\"/></g><rect x=\"1364\" y=\"120\" width=\"60\" height=\"110\" rx=\"8\" fill=\"#6B7A87\" stroke=\"#6B7A87\" stroke-width=\"2\" opacity=\"0.6\"/><g transform=\"translate(1376.0 158.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 7l6-3l6 3l6-3v13l-6 3l-6-3l-6 3zm6-3v13m6-10v13\"/></g><rect x=\"1432\" y=\"120\" width=\"60\" height=\"110\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"1\"/><rect x=\"1500\" y=\"120\" width=\"60\" height=\"110\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"1\"/><rect x=\"1568\" y=\"120\" width=\"60\" height=\"110\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"1\"/></svg>",
+   "rotulos": [
+    {
+     "x": 82,
+     "y": 28,
+     "w": 428,
+     "t": "Nadadora master",
+     "tam": 25,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 270,
+     "w": 480,
+     "t": "um único campeonato, em outubro",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 28,
+     "w": 428,
+     "t": "Time de vôlei",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 270,
+     "w": 480,
+     "t": "um jogo todo sábado, por oito meses",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1218,
+     "y": 28,
+     "w": 428,
+     "t": "Representante que corre",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 270,
+     "w": 480,
+     "t": "meia maratona; metade da semana na estrada",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 90,
+     "w": 112,
+     "t": "out",
+     "tam": 18,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 90,
+     "w": 300,
+     "t": "32 sábados",
+     "tam": 18,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 90,
+     "w": 300,
+     "t": "dias na estrada",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Três pedidos na mesma semana",
-   "frase": "Os três pedem “uma periodização”. Precisam de coisas diferentes.",
-   "apoio": "Uma nadadora master com um único campeonato em outubro. Um time de vôlei que joga todo sábado por oito meses. Um representante comercial que corre e passa metade da semana na estrada."
+   "titulo": "Os três pedem “uma periodização”. Precisam de coisas diferentes."
   },
   {
    "id": "modelos",
@@ -135,230 +239,945 @@
   },
   {
    "id": "funciona",
-   "tipo": "numeros",
-   "eyebrow": "Periodizar funciona?",
-   "titulo": "Funciona, por pouco",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"À esquerda, dezoito quadrados, um por estudo comparando força periodizada e não periodizada. À direita, duas barras do tamanho de efeito: 0,43 antes e 0,23 depois do ajuste para viés de publicação; ainda favorável, mas pequeno\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"80\" y=\"20\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"160\" y=\"20\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"240\" y=\"20\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"320\" y=\"20\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"400\" y=\"20\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"0\" y=\"100\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"80\" y=\"100\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"160\" y=\"100\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"240\" y=\"100\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"320\" y=\"100\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"400\" y=\"100\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"0\" y=\"180\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"80\" y=\"180\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"160\" y=\"180\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"240\" y=\"180\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"320\" y=\"180\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"400\" y=\"180\" width=\"66\" height=\"66\" rx=\"8\" fill=\"#12202E\" opacity=\"0.8\"/><rect x=\"760\" y=\"30\" width=\"731\" height=\"90\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"760\" y=\"160\" width=\"391\" height=\"90\" rx=\"8\" fill=\"#008A7E\"/><line x1=\"1125.5\" y1=\"124\" x2=\"1125.5\" y2=\"156\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
     {
-     "n": "18",
-     "x": "estudos comparando força periodizada e não periodizada",
-     "cor": "tinta"
+     "x": 0,
+     "y": 270,
+     "w": 480,
+     "t": "18 estudos · força periodizada × não periodizada",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "n": "0,43 → 0,23",
-     "x": "tamanho de efeito, antes e depois do ajuste para viés de publicação",
-     "cor": "ambar"
+     "x": 1507,
+     "y": 48,
+     "w": 180,
+     "t": "0,43",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 60,
+     "w": 180,
+     "t": "antes",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.15
+    },
+    {
+     "x": 1167,
+     "y": 178,
+     "w": 180,
+     "t": "0,23",
+     "tam": 44,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 190,
+     "w": 180,
+     "t": "depois do ajuste para viés de publicação",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.15
+    },
+    {
+     "x": 760,
+     "y": 286,
+     "w": 900,
+     "t": "tamanho de efeito · ainda favorável, mas pequeno",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Periodizar funciona?",
+   "titulo": "Funciona, por pouco",
    "destaque": "Ondulatório um pouco à frente. Ganhos maiores em quem não era treinado: no começo, quase qualquer progressão funciona.",
    "destaque_cor": "tinta",
    "fonte": "Metanálise, Sports Med 2017"
   },
   {
    "id": "igualado",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Uma matriz com o volume igualado. Linhas: periodizado contra não periodizado; ondulatório contra linear. Colunas: força e hipertrofia. Força: periodizado maior; ondulatório maior, sobretudo em treinados. Hipertrofia: igual nas duas comparações\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><rect x=\"0\" y=\"50\" width=\"590\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"620\" y=\"50\" width=\"500\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(640.0 86.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><rect x=\"1164\" y=\"50\" width=\"500\" height=\"120\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"0\" y=\"190\" width=\"590\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"620\" y=\"190\" width=\"500\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(640.0 226.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><rect x=\"1164\" y=\"190\" width=\"500\" height=\"120\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 620,
+     "y": 0,
+     "w": 500,
+     "t": "Força",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 0,
+     "w": 500,
+     "t": "Hipertrofia",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 92,
+     "w": 550,
+     "t": "Periodizado × não periodizado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 706,
+     "y": 84,
+     "w": 400,
+     "t": "periodizado maior",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 74,
+     "w": 160,
+     "t": "=",
+     "tam": 52,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1324,
+     "y": 92,
+     "w": 320,
+     "t": "igual",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 232,
+     "w": 550,
+     "t": "Ondulatório × linear",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 706,
+     "y": 212,
+     "w": 400,
+     "t": "ondulatório maior, sobretudo em treinados",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 214,
+     "w": 160,
+     "t": "=",
+     "tam": 52,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1324,
+     "y": 232,
+     "w": 320,
+     "t": "igual",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Com o volume igualado",
    "titulo": "Força responde ao modelo; hipertrofia, ao volume",
-   "cab": [
-    "Comparação",
-    "Força",
-    "Hipertrofia"
-   ],
-   "larguras": [
-    40,
-    30,
-    30
-   ],
-   "linhas": [
-    [
-     "Periodizado × não periodizado",
-     "periodizado maior",
-     "igual"
-    ],
-    [
-     "Ondulatório × linear",
-     "ondulatório maior, sobretudo em treinados",
-     "igual"
-    ]
-   ],
    "destaque": "Para massa muscular, o modelo importa pouco. O que importa é o volume.",
    "destaque_cor": "tinta",
    "fonte": "Metanálise, Sports Med 2022"
   },
   {
    "id": "acontece",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Em esquema, dois planos como barras. Um plano simples, cumprido em oitenta por cento. Um plano sofisticado, mais comprido, cumprido em quarenta por cento. O simples chega mais longe. Embaixo: a diferença entre modelos é menor que a diferença entre fazer e não fazer as sessões; boa parte dos modelos vem da tradição\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"360\" y=\"20\" width=\"900\" height=\"84\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"360\" y=\"20\" width=\"720\" height=\"84\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"360\" y=\"140\" width=\"1250\" height=\"84\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"360\" y=\"140\" width=\"500\" height=\"84\" rx=\"10\" fill=\"#B07A1C\"/><line x1=\"1080\" y1=\"10\" x2=\"1080\" y2=\"240\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"0\" y=\"262\" width=\"1664\" height=\"78\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 46,
+     "w": 330,
+     "t": "plano simples",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 380,
+     "y": 42,
+     "w": 400,
+     "t": "80% cumprido",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 166,
+     "w": 330,
+     "t": "plano sofisticado",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 380,
+     "y": 162,
+     "w": 400,
+     "t": "40% cumprido",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1092,
+     "y": 116,
+     "w": 300,
+     "t": "chega mais longe",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 284,
+     "w": 1616,
+     "t": "diferença entre modelos < diferença entre fazer e não fazer as sessões · esquema",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "O melhor modelo é o que acontece.",
-   "apoio": "Boa parte dos modelos vem da tradição, e a diferença entre eles é pequena. Menor que a diferença entre fazer e não fazer as sessões."
+   "titulo": "O melhor modelo é o que acontece.",
+   "destaque": "Boa parte dos modelos vem da tradição, e a diferença entre eles é pequena.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "picos",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Em esquema, dois painéis. Um pico: a curva da nadadora sobe até o campeonato de outubro, numa sequência linear ou em blocos, e termina com o polimento antes da prova. Um pico por semana: a linha do vôlei sobe e desce a cada sábado, com ondulatório dentro da semana e manutenção de força ao longo da temporada\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"340\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><line x1=\"40\" y1=\"230\" x2=\"780\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"844\" y=\"0\" width=\"820\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"884\" y1=\"230\" x2=\"1624\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 40 220 C 300 210, 560 140, 700 80 L 740 90\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><circle cx=\"720\" cy=\"80\" r=\"14\" fill=\"#3A6EA5\"/><polyline points=\"884,200 924,110 934,200 944,200 984,110 994,200 1004,200 1044,110 1054,200 1064,200 1104,110 1114,200 1124,200 1164,110 1174,200 1184,200 1224,110 1234,200 1244,200 1284,110 1294,200 1304,200 1344,110 1354,200 1364,200 1404,110 1414,200 1424,200 1464,110 1474,200 1484,200 1524,110 1534,200 1544,200 1584,110 1594,200\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 780,
+     "t": "Um pico",
+     "tam": 27,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 262,
+     "w": 370,
+     "t": "· linear ou em blocos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 420,
+     "y": 262,
+     "w": 370,
+     "t": "· polimento antes da prova",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 868,
+     "y": 16,
+     "w": 780,
+     "t": "Um pico por semana",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 262,
+     "w": 370,
+     "t": "· ondulatório dentro da semana",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1264,
+     "y": 262,
+     "w": 370,
+     "t": "· manutenção de força na temporada",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 660,
+     "y": 40,
+     "w": 140,
+     "t": "outubro",
+     "tam": 18,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 60,
+     "w": 600,
+     "t": "sábado a sábado · esquema",
+     "tam": 18,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Pergunta um",
    "titulo": "Quantos momentos de pico existem?",
-   "esq": {
-    "t": "Um pico",
-    "cor": "petr",
-    "itens": [
-     "a nadadora e o campeonato de outubro",
-     "sequência linear ou em blocos",
-     "termina com polimento antes da prova"
-    ]
-   },
-   "dir": {
-    "t": "Um pico por semana",
-    "cor": "ambar",
-    "itens": [
-     "o vôlei e seus sábados",
-     "ondulatório dentro da semana",
-     "manutenção de força ao longo da temporada"
-    ]
-   },
    "destaque": "Com trinta e poucos picos, não existe caminhar para um momento.",
    "destaque_cor": "tinta"
   },
   {
    "id": "sessoes",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Pergunta dois",
-   "titulo": "Quantas sessões acontecem de verdade?",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas semanas lado a lado. A literatura clássica: atletas com dez a catorze sessões, catorze pontos. O representante: quatro sessões, que viram duas nas semanas de viagem. À direita, a unidade de planejamento muda: sai o macrociclo, entra a semana que se repete por três a seis semanas\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"860\" height=\"160\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"106\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"164\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"222\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"280\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"338\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"396\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"454\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"512\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"570\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"628\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"686\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"744\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><circle cx=\"802\" cy=\"84\" r=\"20\" fill=\"#12202E\" opacity=\"1\"/><rect x=\"0\" y=\"180\" width=\"860\" height=\"160\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"264\" r=\"20\" fill=\"#B07A1C\" opacity=\"1\"/><circle cx=\"106\" cy=\"264\" r=\"20\" fill=\"#B07A1C\" opacity=\"1\"/><circle cx=\"164\" cy=\"264\" r=\"20\" fill=\"#B07A1C\" opacity=\"0.45\"/><circle cx=\"222\" cy=\"264\" r=\"20\" fill=\"#B07A1C\" opacity=\"0.45\"/><line x1=\"880\" y1=\"180\" x2=\"940\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"956\" y=\"0\" width=\"708\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"980\" y=\"74\" width=\"660\" height=\"56\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"990\" y1=\"102\" x2=\"1630\" y2=\"102\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"980\" y=\"160\" width=\"100\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.60\"/><rect x=\"1092\" y=\"160\" width=\"100\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.67\"/><rect x=\"1204\" y=\"160\" width=\"100\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.74\"/><rect x=\"1316\" y=\"160\" width=\"100\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.81\"/><rect x=\"1428\" y=\"160\" width=\"100\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.88\"/><rect x=\"1540\" y=\"160\" width=\"100\" height=\"90\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.95\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 16,
+     "w": 500,
      "t": "A literatura clássica",
-     "x": "atletas com dez a catorze sessões por semana",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 118,
+     "w": 800,
+     "t": "dez a catorze sessões por semana",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 196,
+     "w": 500,
      "t": "O representante",
-     "x": "quatro sessões; duas nas semanas de viagem",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 298,
+     "w": 800,
+     "t": "quatro sessões; duas nas semanas de viagem",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 16,
+     "w": 660,
      "t": "A unidade muda",
-     "x": "sai o macrociclo, entra a semana que se repete por três a seis semanas",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 980,
+     "y": 88,
+     "w": 660,
+     "t": "macrociclo",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 274,
+     "w": 660,
+     "t": "a mesma semana, de três a seis vezes",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 312,
+     "w": 660,
+     "t": "progressão pequena, revisada e ajustada",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Pergunta dois",
+   "titulo": "Quantas sessões acontecem de verdade?",
    "destaque": "Cada sessão precisa se justificar numa frase. Sem a frase, é enfeite.",
    "destaque_cor": "tinta"
   },
   {
    "id": "objetivo",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Quatro linhas, perfil e o que decide. Iniciante: qualquer progressão bem feita; aprender e aparecer. Treinado buscando força: variar a intensidade ao longo da semana. Hipertrofia: o volume; o modelo fica em segundo plano. Endurance: a distribuição de intensidade na semana\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"520\" height=\"72\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(18.0 15.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M22 9L12 5L2 9l10 4zv6\"/><path d=\"M6 10.6V16a6 3 0 0 0 12 0v-5.4\"/></g></g><line x1=\"532\" y1=\"36\" x2=\"594\" y2=\"36\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"608\" y=\"0\" width=\"1056\" height=\"72\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"86\" width=\"520\" height=\"72\" rx=\"12\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(18.0 101.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"532\" y1=\"122\" x2=\"594\" y2=\"122\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"608\" y=\"86\" width=\"1056\" height=\"72\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"172\" width=\"520\" height=\"72\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(18.0 187.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><line x1=\"532\" y1=\"208\" x2=\"594\" y2=\"208\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"608\" y=\"172\" width=\"1056\" height=\"72\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"258\" width=\"520\" height=\"72\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(18.0 273.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"532\" y1=\"294\" x2=\"594\" y2=\"294\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"608\" y=\"258\" width=\"1056\" height=\"72\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 76,
+     "y": 20,
+     "w": 430,
+     "t": "Iniciante",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 632,
+     "y": 22,
+     "w": 1010,
+     "t": "qualquer progressão bem feita; aprender e aparecer",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 106,
+     "w": 430,
+     "t": "Treinado buscando força",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 632,
+     "y": 108,
+     "w": 1010,
+     "t": "variar a intensidade ao longo da semana",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 192,
+     "w": 430,
+     "t": "Hipertrofia",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 632,
+     "y": 194,
+     "w": 1010,
+     "t": "o volume; o modelo fica em segundo plano",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 278,
+     "w": 430,
+     "t": "Endurance",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 632,
+     "y": 280,
+     "w": 1010,
+     "t": "a distribuição de intensidade na semana",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Pergunta três",
-   "titulo": "Qual o objetivo, e há quanto tempo treina?",
-   "cab": [
-    "Quem",
-    "O que decide"
-   ],
-   "larguras": [
-    34,
-    66
-   ],
-   "linhas": [
-    [
-     "Iniciante",
-     "qualquer progressão bem feita; aprender e aparecer"
-    ],
-    [
-     "Treinado buscando força",
-     "variar a intensidade ao longo da semana"
-    ],
-    [
-     "Hipertrofia",
-     "o volume; o modelo fica em segundo plano"
-    ],
-    [
-     "Endurance",
-     "a distribuição de intensidade na semana"
-    ]
-   ]
+   "titulo": "Qual o objetivo, e há quanto tempo treina?"
   },
   {
    "id": "minima",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma folha presa por um ímã, com duas colunas. Semana cheia: quatro sessões, progressão pequena, revisão a cada três a seis semanas. Semana mínima: duas sessões, começando pelo mais difícil de recuperar, a força. Embaixo, a regra escrita: semana mínima não conta como falha e não exige recomeço\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"10\" width=\"1664\" height=\"370\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><circle cx=\"832\" cy=\"14\" r=\"16\" fill=\"#A8322A\"/><rect x=\"40\" y=\"96\" width=\"170\" height=\"90\" rx=\"12\" fill=\"#008A7E\" opacity=\"1\"/><rect x=\"226\" y=\"96\" width=\"170\" height=\"90\" rx=\"12\" fill=\"#008A7E\" opacity=\"0.6\"/><rect x=\"412\" y=\"96\" width=\"170\" height=\"90\" rx=\"12\" fill=\"#008A7E\" opacity=\"0.6\"/><rect x=\"598\" y=\"96\" width=\"170\" height=\"90\" rx=\"12\" fill=\"#008A7E\" opacity=\"0.6\"/><rect x=\"852\" y=\"96\" width=\"170\" height=\"90\" rx=\"12\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"1038\" y=\"96\" width=\"170\" height=\"90\" rx=\"12\" fill=\"#B07A1C\" opacity=\"0.6\"/><line x1=\"832\" y1=\"40\" x2=\"832\" y2=\"250\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"40\" y=\"274\" width=\"1584\" height=\"80\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 40,
+     "w": 760,
+     "t": "Semana cheia",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 128,
+     "w": 170,
+     "t": "força",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 226,
+     "y": 128,
+     "w": 170,
+     "t": "sessão",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 412,
+     "y": 128,
+     "w": 170,
+     "t": "sessão",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 598,
+     "y": 128,
+     "w": 170,
+     "t": "sessão",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 206,
+     "w": 760,
+     "t": "progressão pequena · revisão a cada três a seis semanas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 852,
+     "y": 40,
+     "w": 760,
+     "t": "Semana mínima",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 852,
+     "y": 128,
+     "w": 170,
+     "t": "força",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1038,
+     "y": 128,
+     "w": 170,
+     "t": "sessão",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 852,
+     "y": 206,
+     "w": 760,
+     "t": "começa pelo mais difícil de recuperar: a força",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 64,
+     "y": 296,
+     "w": 1536,
+     "t": "semana mínima não conta como falha e não exige recomeço",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "O detalhe que salva o plano",
    "titulo": "Semana cheia e semana mínima, escritas desde o primeiro dia",
-   "esq": {
-    "t": "Semana cheia",
-    "cor": "petr",
-    "itens": [
-     "as quatro sessões",
-     "progressão pequena",
-     "revisão a cada três a seis semanas"
-    ]
-   },
-   "dir": {
-    "t": "Semana mínima",
-    "cor": "ambar",
-    "itens": [
-     "duas sessões",
-     "começa pelo mais difícil de recuperar: a força",
-     "não conta como falha, não exige recomeço"
-    ]
-   },
    "destaque": "Sem versão mínima, a semana ruim tem zero sessões: “não deu para fazer direito” vira “não deu para fazer”.",
    "destaque_cor": "tinta"
   },
   {
    "id": "aplicado",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três linhas, os três pedidos passando pelas três perguntas até a escolha. Nadadora master: um pico, quatro a cinco sessões, desempenho; linear ou blocos até outubro, polimento no fim. Time de vôlei: um pico por semana, muitas sessões, jogo de sábado; ondulatório, sessão pesada longe do jogo, manutenção. Representante: a prova, quatro sessões que viram duas, meia maratona; semana que se repete, cheia e mínima\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"280\" height=\"100\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(16.0 68.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"300\" y=\"56\" width=\"640\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><line x1=\"950\" y1=\"90\" x2=\"998\" y2=\"90\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1010\" y=\"40\" width=\"654\" height=\"100\" rx=\"14\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"0\"/><rect x=\"0\" y=\"154\" width=\"280\" height=\"100\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(16.0 182.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><rect x=\"300\" y=\"170\" width=\"640\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"950\" y1=\"204\" x2=\"998\" y2=\"204\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1010\" y=\"154\" width=\"654\" height=\"100\" rx=\"14\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><rect x=\"0\" y=\"268\" width=\"280\" height=\"100\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(16.0 296.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"300\" y=\"284\" width=\"640\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"950\" y1=\"318\" x2=\"998\" y2=\"318\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1010\" y=\"268\" width=\"654\" height=\"100\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 300,
+     "y": 0,
+     "w": 640,
+     "t": "picos · sessões · objetivo",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 0,
+     "w": 654,
+     "t": "escolha",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 62,
+     "w": 200,
+     "t": "Nadadora master",
+     "tam": 21,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 300,
+     "y": 76,
+     "w": 640,
+     "t": "um · 4 a 5 · desempenho",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 62,
+     "w": 614,
+     "t": "linear ou blocos até outubro, polimento no fim",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 176,
+     "w": 200,
+     "t": "Time de vôlei",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 300,
+     "y": 190,
+     "w": 640,
+     "t": "um por semana · muitas · sábado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 176,
+     "w": 614,
+     "t": "ondulatório, sessão pesada longe do jogo, manutenção",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 290,
+     "w": 200,
+     "t": "Representante",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 300,
+     "y": 304,
+     "w": 640,
+     "t": "a prova · 4 que viram 2 · meia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 290,
+     "w": 614,
+     "t": "semana que se repete, cheia e mínima",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "As três perguntas aplicadas",
-   "titulo": "Três pedidos, três escolhas",
-   "cab": [
-    "Pedido",
-    "Picos · sessões · objetivo",
-    "Escolha"
-   ],
-   "larguras": [
-    22,
-    36,
-    42
-   ],
-   "linhas": [
-    [
-     "Nadadora master",
-     "um · quatro a cinco · desempenho",
-     "linear ou blocos até outubro, polimento no fim"
-    ],
-    [
-     "Time de vôlei",
-     "um por semana · muitas · jogo de sábado",
-     "ondulatório, sessão pesada longe do jogo, manutenção"
-    ],
-    [
-     "Representante",
-     "a prova · quatro que viram duas · meia maratona",
-     "semana que se repete, cheia e mínima"
-    ]
-   ]
+   "titulo": "Três pedidos, três escolhas"
   },
   {
    "id": "sinais",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Quando não está funcionando",
-   "titulo": "Três sinais, em qualquer modelo",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três cartões, cada um com um pequeno esquema. As sessões não acontecem: casas de sessão cada vez mais vazias; o plano pede mais do que a vida comporta. A carga não sobe: uma linha reta; falta sobrecarga, não falta modelo. O dia seguinte piora: sono, dor e rendimento caindo; a carga passou da recuperação\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"340\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"40\" y=\"90\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"40\" y=\"128\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"40\" y=\"166\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"40\" y=\"204\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"160\" y=\"90\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"160\" y=\"128\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"160\" y=\"166\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"160\" y=\"204\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"1\"/><rect x=\"280\" y=\"90\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"280\" y=\"128\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"280\" y=\"166\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"1\"/><rect x=\"280\" y=\"204\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"1\"/><rect x=\"400\" y=\"90\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.8\"/><rect x=\"400\" y=\"128\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"1\"/><rect x=\"400\" y=\"166\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"1\"/><rect x=\"400\" y=\"204\" width=\"100\" height=\"30\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"1\"/><polyline points=\"608,180 728,178 848,181 968,179 1056,180\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\"/><line x1=\"608\" y1=\"230\" x2=\"1056\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1196.0 120.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><g transform=\"translate(1346.0 120.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><g transform=\"translate(1496.0 120.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 18,
+     "w": 480,
      "t": "As sessões não acontecem",
-     "x": "o plano pede mais do que a vida comporta",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 262,
+     "w": 480,
+     "t": "o plano pede mais do que a vida comporta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 18,
+     "w": 480,
      "t": "A carga não sobe",
-     "x": "falta sobrecarga, não falta modelo",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 262,
+     "w": 480,
+     "t": "falta sobrecarga, não falta modelo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 18,
+     "w": 480,
      "t": "O dia seguinte piora",
-     "x": "sono, dor, rendimento: a carga passou da recuperação",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 262,
+     "w": 480,
+     "t": "sono, dor, rendimento: a carga passou da recuperação",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Quando não está funcionando",
+   "titulo": "Três sinais, em qualquer modelo",
    "destaque": "O terceiro sinal é o assunto das aulas de monitoramento deste módulo.",
    "destaque_cor": "tinta"
   },

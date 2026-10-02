@@ -112,6 +112,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Modelos de periodização"
                     {"t": "Atleta", "x": "Diz quantas sessões a vida comporta."}],
           "quem": "Próxima aula: treino de força por objetivo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-02")
+
 spec = {"arquivo": "aulas/MOD09/09-02-modelos-de-periodizacao.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Modelos de periodização", "subtitulo": "Linear, ondulatório e em blocos, e como escolher",

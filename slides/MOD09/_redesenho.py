@@ -247,9 +247,240 @@ def ciclista_91():
     return slide("ciclista", 400, p, rs, eyebrow="As perguntas aplicadas", titulo="A semana do ciclista, reorganizada",
                  destaque="Não é melhor por ser mais complexo. É melhor porque cada escolha responde a uma pergunta.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 9.2
+
+def pedidos_92():
+    """9.2: três fichas, três calendários: um pico em outubro, um sábado atrás do outro, a semana na estrada."""
+    p = [svg_abre(1664, 340, "Três fichas na mesma semana. A nadadora master: doze meses e um único campeonato, em outubro. O time de vôlei: oito meses com um jogo todo sábado. O representante comercial que corre: uma semana com três ou quatro dias na estrada e uma meia maratona como meta")]
+    rs = []
+    W = 528
+    fichas = [("t:swimming", "Nadadora master", "um único campeonato, em outubro", AZUL, AZUL_T),
+              ("t:ball-volleyball", "Time de vôlei", "um jogo todo sábado, por oito meses", GLIC, GLIC_T),
+              ("t:run", "Representante que corre", "meia maratona; metade da semana na estrada", OXID, OXID_T)]
+    for k, (ic, t, d, cor, fundo) in enumerate(fichas):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 340, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 22, 44, cor))
+        rs += [rot(x + 82, 28, t, w=W - 100, tam=25, cor=cor, peso=700, serif=True), rot(x + 24, 270, d, w=W - 48, tam=20, cor=TINTA, lh=1.25)]
+    for m in range(12):
+        x = 24 + m * 40
+        alvo = m == 9
+        p.append(f'<rect x="{x}" y="120" width="32" height="110" rx="6" fill="{AZUL if alvo else CARTAO}" stroke="{AZUL}" stroke-width="2"/>')
+    rs.append(rot(24 + 9 * 40 - 40, 90, "out", w=112, tam=18, cor=AZUL, peso=700, alinha="center"))
+    x0 = W + 40
+    for s in range(32):
+        x, y = x0 + 30 + (s % 16) * 30, 130 + (s // 16) * 50
+        p.append(f'<circle cx="{x}" cy="{y}" r="10" fill="{GLIC}"/>')
+    rs.append(rot(x0 + 24, 90, "32 sábados", w=300, tam=18, cor=GLIC, peso=700))
+    x0 = 2 * (W + 40)
+    for j, d in enumerate(["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]):
+        x = x0 + 24 + j * 68
+        estrada = j in (1, 2, 3)
+        p.append(f'<rect x="{x}" y="120" width="60" height="110" rx="8" fill="{MUDO if estrada else CARTAO}" stroke="{OXID if not estrada else MUDO}" stroke-width="2" opacity="{0.6 if estrada else 1}"/>')
+        if estrada:
+            p.append(icone("t:map", x + 12, 158, 36, PAPEL))
+    rs.append(rot(x0 + 24, 90, "dias na estrada", w=300, tam=18, cor=MUDO, peso=700))
+    return slide("pedidos", 340, p, rs, eyebrow="Três pedidos na mesma semana", titulo="Os três pedem “uma periodização”. Precisam de coisas diferentes.")
+
+
+def funciona_92():
+    """9.2: dezoito estudos e o tamanho de efeito que encolhe com o ajuste para viés de publicação."""
+    p = [svg_abre(1664, 320, "À esquerda, dezoito quadrados, um por estudo comparando força periodizada e não periodizada. À direita, duas barras do tamanho de efeito: 0,43 antes e 0,23 depois do ajuste para viés de publicação; ainda favorável, mas pequeno"), defs(MUDO)]
+    rs = []
+    for i in range(18):
+        x, y = (i % 6) * 80, (i // 6) * 80
+        p.append(f'<rect x="{x}" y="{y + 20}" width="66" height="66" rx="8" fill="{TINTA}" opacity="0.8"/>')
+    rs.append(rot(0, 270, "18 estudos · força periodizada × não periodizada", w=480, tam=20, cor=TINTA, peso=700, lh=1.2))
+    X0, E = 760, 1700
+    for k, (v, t, cor) in enumerate([(0.43, "antes", GLIC), (0.23, "depois do ajuste para viés de publicação", OXID)]):
+        y = 30 + k * 130
+        p.append(f'<rect x="{X0}" y="{y}" width="{v * E:.0f}" height="90" rx="8" fill="{cor}"/>')
+        rs += [rot(X0 + v * E + 16, y + 18, f"{v:.2f}".replace(".", ","), w=180, tam=44, cor=cor, peso=700, serif=True),
+               rot(560, y + 30, t, w=180, tam=19, cor=TINTA, peso=700, alinha="right", lh=1.15)]
+    p.append(seta(X0 + 0.43 * E * 0.5, 124, X0 + 0.43 * E * 0.5, 156, MUDO, "m0", esp=3))
+    rs.append(rot(X0, 286, "tamanho de efeito · ainda favorável, mas pequeno", w=900, tam=19, cor=MUDO))
+    return slide("funciona", 320, p, rs, eyebrow="Periodizar funciona?", titulo="Funciona, por pouco",
+                 destaque="Ondulatório um pouco à frente. Ganhos maiores em quem não era treinado: no começo, quase qualquer progressão funciona.", destaque_cor="tinta",
+                 fonte="Metanálise, Sports Med 2017")
+
+
+def igualado_92():
+    """9.2: uma matriz de duas comparações por dois desfechos, com setas e sinais de igual."""
+    p = [svg_abre(1664, 330, "Uma matriz com o volume igualado. Linhas: periodizado contra não periodizado; ondulatório contra linear. Colunas: força e hipertrofia. Força: periodizado maior; ondulatório maior, sobretudo em treinados. Hipertrofia: igual nas duas comparações")]
+    rs = []
+    rs += [rot(620, 0, "Força", w=500, tam=26, cor=OXID, peso=700, alinha="center", serif=True), rot(1164, 0, "Hipertrofia", w=500, tam=26, cor=GLIC, peso=700, alinha="center", serif=True)]
+    for k, (t, f, h) in enumerate([("Periodizado × não periodizado", "periodizado maior", "igual"), ("Ondulatório × linear", "ondulatório maior, sobretudo em treinados", "igual")]):
+        y = 50 + k * 140
+        p.append(caixa(0, y, 590, 120, TINTA, CARTAO, esp=2, rx=14))
+        rs.append(rot(24, y + 42, t, w=550, tam=24, cor=TINTA, peso=700))
+        p.append(caixa(620, y, 500, 120, OXID, OXID_T, esp=2, rx=14))
+        p.append(icone("t:trending-up", 640, y + 36, 48, OXID))
+        rs.append(rot(706, y + 34 if k == 0 else y + 22, f, w=400, tam=22, cor=TINTA, peso=700, lh=1.25))
+        p.append(caixa(1164, y, 500, 120, GLIC, GLIC_T, esp=2, rx=14))
+        rs.append(rot(1164, y + 24, "=", w=160, tam=52, cor=GLIC, peso=700, alinha="center"))
+        rs.append(rot(1324, y + 42, h, w=320, tam=24, cor=TINTA, peso=700))
+    return slide("igualado", 330, p, rs, eyebrow="Com o volume igualado", titulo="Força responde ao modelo; hipertrofia, ao volume",
+                 destaque="Para massa muscular, o modelo importa pouco. O que importa é o volume.", destaque_cor="tinta", fonte="Metanálise, Sports Med 2022")
+
+
+def acontece_92():
+    """9.2: dois planos, um simples cumprido em 80% e um sofisticado cumprido em 40%, em esquema."""
+    p = [svg_abre(1664, 340, "Em esquema, dois planos como barras. Um plano simples, cumprido em oitenta por cento. Um plano sofisticado, mais comprido, cumprido em quarenta por cento. O simples chega mais longe. Embaixo: a diferença entre modelos é menor que a diferença entre fazer e não fazer as sessões; boa parte dos modelos vem da tradição")]
+    rs = []
+    X0 = 360
+    for k, (t, total, feito, cor) in enumerate([("plano simples", 900, 0.8, OXID), ("plano sofisticado", 1250, 0.4, GLIC)]):
+        y = 20 + k * 120
+        rs.append(rot(0, y + 26, t, w=330, tam=24, cor=cor, peso=700, alinha="right", serif=True))
+        p.append(f'<rect x="{X0}" y="{y}" width="{total}" height="84" rx="10" fill="{CARTAO}" stroke="{cor}" stroke-width="3"{TRACO}/>')
+        p.append(f'<rect x="{X0}" y="{y}" width="{total * feito:.0f}" height="84" rx="10" fill="{cor}"/>')
+        rs.append(rot(X0 + 20, y + 22, f"{int(feito * 100)}% cumprido", w=400, tam=24, cor=PAPEL, peso=700))
+    p.append(f'<line x1="{X0 + 720}" y1="10" x2="{X0 + 720}" y2="240" stroke="{TINTA}" stroke-width="3"/>')
+    rs.append(rot(X0 + 732, 116, "chega mais longe", w=300, tam=20, cor=OXID, peso=700))
+    p.append(caixa(0, 262, 1664, 78, TINTA, TINTA, esp=0, rx=14))
+    rs.append(rot(24, 284, "diferença entre modelos < diferença entre fazer e não fazer as sessões · esquema", w=1616, tam=21, cor=PAPEL, peso=700, alinha="center"))
+    return slide("acontece", 340, p, rs, eyebrow="A ideia da aula", titulo="O melhor modelo é o que acontece.",
+                 destaque="Boa parte dos modelos vem da tradição, e a diferença entre eles é pequena.", destaque_cor="tinta")
+
+
+def picos_92():
+    """9.2: uma curva que sobe até outubro, contra uma serra com um pico a cada sábado, em esquema."""
+    p = [svg_abre(1664, 340, "Em esquema, dois painéis. Um pico: a curva da nadadora sobe até o campeonato de outubro, numa sequência linear ou em blocos, e termina com o polimento antes da prova. Um pico por semana: a linha do vôlei sobe e desce a cada sábado, com ondulatório dentro da semana e manutenção de força ao longo da temporada")]
+    rs = []
+    for k, (t, itens, cor, fundo) in enumerate([("Um pico", ["linear ou em blocos", "polimento antes da prova"], AZUL, AZUL_T),
+                                                ("Um pico por semana", ["ondulatório dentro da semana", "manutenção de força na temporada"], GLIC, GLIC_T)]):
+        x = k * 844
+        p.append(caixa(x, 0, 820, 340, cor, fundo, esp=2, rx=16))
+        rs.append(rot(x + 24, 16, t, w=780, tam=27, cor=cor, peso=700, serif=True))
+        p.append(f'<line x1="{x + 40}" y1="230" x2="{x + 780}" y2="230" stroke="{MUDO}" stroke-width="2"/>')
+        for j, it in enumerate(itens):
+            rs.append(rot(x + 40 + j * 380, 262, "· " + it, w=370, tam=20, cor=TINTA, lh=1.2))
+    p.append(f'<path d="M 40 220 C 300 210, 560 140, 700 80 L 740 90" fill="none" stroke="{AZUL}" stroke-width="6"/>')
+    p.append(f'<circle cx="720" cy="80" r="14" fill="{AZUL}"/>')
+    rs.append(rot(660, 40, "outubro", w=140, tam=18, cor=AZUL, peso=700, alinha="center"))
+    pts = []
+    for s in range(12):
+        x = 884 + s * 60
+        pts += [f"{x},200", f"{x + 40},110", f"{x + 50},200"]
+    p.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{GLIC}" stroke-width="4" stroke-linejoin="round"/>')
+    rs.append(rot(884, 60, "sábado a sábado · esquema", w=600, tam=18, cor=GLIC, peso=700))
+    return slide("picos", 340, p, rs, eyebrow="Pergunta um", titulo="Quantos momentos de pico existem?",
+                 destaque="Com trinta e poucos picos, não existe caminhar para um momento.", destaque_cor="tinta")
+
+
+def sessoes_92():
+    """9.2: catorze pontos de sessão contra quatro, e a unidade de planejamento que encolhe para a semana."""
+    p = [svg_abre(1664, 360, "Duas semanas lado a lado. A literatura clássica: atletas com dez a catorze sessões, catorze pontos. O representante: quatro sessões, que viram duas nas semanas de viagem. À direita, a unidade de planejamento muda: sai o macrociclo, entra a semana que se repete por três a seis semanas"), defs(MUDO)]
+    rs = []
+    for k, (t, n, extra, cor) in enumerate([("A literatura clássica", 14, "dez a catorze sessões por semana", TINTA), ("O representante", 4, "quatro sessões; duas nas semanas de viagem", GLIC)]):
+        y = k * 180
+        p.append(caixa(0, y, 860, 160, cor, CARTAO, esp=2, rx=16))
+        rs += [rot(24, y + 16, t, w=500, tam=24, cor=cor, peso=700, serif=True), rot(24, y + 118, extra, w=800, tam=19, cor=TINTA)]
+        for i in range(n):
+            x = 30 + i * 58
+            p.append(f'<circle cx="{x + 18}" cy="{y + 84}" r="20" fill="{cor}" opacity="{0.45 if (k == 1 and i >= 2) else 1}"/>')
+    p.append(seta(880, 180, 940, 180, MUDO, "m0", esp=3))
+    p.append(caixa(956, 0, 708, 360, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(980, 16, "A unidade muda", w=660, tam=26, cor=OXID, peso=700, serif=True))
+    p.append(f'<rect x="980" y="74" width="660" height="56" rx="10" fill="{CARTAO}" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<line x1="990" y1="102" x2="1630" y2="102" stroke="{FOSF}" stroke-width="4"/>')
+    rs.append(rot(980, 88, "macrociclo", w=660, tam=20, cor=MUDO, peso=700, alinha="center"))
+    for s in range(6):
+        x = 980 + s * 112
+        p.append(f'<rect x="{x}" y="160" width="100" height="90" rx="10" fill="{OXID}" opacity="{0.6 + s * 0.07:.2f}"/>')
+    rs += [rot(980, 274, "a mesma semana, de três a seis vezes", w=660, tam=20, cor=OXID, peso=700),
+           rot(980, 312, "progressão pequena, revisada e ajustada", w=660, tam=20, cor=TINTA)]
+    return slide("sessoes", 360, p, rs, eyebrow="Pergunta dois", titulo="Quantas sessões acontecem de verdade?",
+                 destaque="Cada sessão precisa se justificar numa frase. Sem a frase, é enfeite.", destaque_cor="tinta")
+
+
+def objetivo_92():
+    """9.2: quatro perfis com o que decide o plano de cada um."""
+    p = [svg_abre(1664, 340, "Quatro linhas, perfil e o que decide. Iniciante: qualquer progressão bem feita; aprender e aparecer. Treinado buscando força: variar a intensidade ao longo da semana. Hipertrofia: o volume; o modelo fica em segundo plano. Endurance: a distribuição de intensidade na semana"), defs(MUDO)]
+    rs = []
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:school", "Iniciante", "qualquer progressão bem feita; aprender e aparecer", OXID, OXID_T),
+                                                ("t:barbell", "Treinado buscando força", "variar a intensidade ao longo da semana", AZUL, AZUL_T),
+                                                ("t:stairs", "Hipertrofia", "o volume; o modelo fica em segundo plano", GLIC, GLIC_T),
+                                                ("t:run", "Endurance", "a distribuição de intensidade na semana", FOSF, FOSF_T)]):
+        y = k * 86
+        p.append(caixa(0, y, 520, 72, cor, fundo, esp=2, rx=12))
+        p.append(icone(ic, 18, y + 15, 42, cor))
+        rs.append(rot(76, y + 20, t, w=430, tam=24, cor=cor, peso=700, serif=True))
+        p.append(seta(532, y + 36, 594, y + 36, MUDO, "m0", esp=3))
+        p.append(caixa(608, y, 1056, 72, BORDA, CARTAO, esp=2, rx=12))
+        rs.append(rot(632, y + 22, d, w=1010, tam=23, cor=TINTA, peso=700))
+    return slide("objetivo", 340, p, rs, eyebrow="Pergunta três", titulo="Qual o objetivo, e há quanto tempo treina?")
+
+
+def minima_92():
+    """9.2: uma folha na geladeira com a semana cheia e a semana mínima, e a regra escrita embaixo."""
+    p = [svg_abre(1664, 380, "Uma folha presa por um ímã, com duas colunas. Semana cheia: quatro sessões, progressão pequena, revisão a cada três a seis semanas. Semana mínima: duas sessões, começando pelo mais difícil de recuperar, a força. Embaixo, a regra escrita: semana mínima não conta como falha e não exige recomeço")]
+    rs = []
+    p.append(f'<rect x="0" y="10" width="1664" height="370" rx="10" fill="{CARTAO}" stroke="{BORDA}" stroke-width="2"/>')
+    p.append(f'<circle cx="832" cy="14" r="16" fill="{FOSF}"/>')
+    for k, (t, sess, d, cor) in enumerate([("Semana cheia", ["força", "sessão", "sessão", "sessão"], "progressão pequena · revisão a cada três a seis semanas", OXID),
+                                           ("Semana mínima", ["força", "sessão"], "começa pelo mais difícil de recuperar: a força", GLIC)]):
+        x = 40 + k * 812
+        rs.append(rot(x, 40, t, w=760, tam=27, cor=cor, peso=700, serif=True))
+        for j, s in enumerate(sess):
+            p.append(f'<rect x="{x + j * 186}" y="96" width="170" height="90" rx="12" fill="{cor}" opacity="{1 if s == "força" else 0.6}"/>')
+            rs.append(rot(x + j * 186, 128, s, w=170, tam=21, cor=PAPEL, peso=700, alinha="center"))
+        rs.append(rot(x, 206, d, w=760, tam=20, cor=TINTA, lh=1.25))
+    p.append(f'<line x1="832" y1="40" x2="832" y2="250" stroke="{BORDA}" stroke-width="2"/>')
+    p.append(caixa(40, 274, 1584, 80, TINTA, TINTA, esp=0, rx=12))
+    rs.append(rot(64, 296, "semana mínima não conta como falha e não exige recomeço", w=1536, tam=24, cor=PAPEL, peso=700, alinha="center", serif=True))
+    return slide("minima", 380, p, rs, eyebrow="O detalhe que salva o plano", titulo="Semana cheia e semana mínima, escritas desde o primeiro dia",
+                 destaque="Sem versão mínima, a semana ruim tem zero sessões: “não deu para fazer direito” vira “não deu para fazer”.", destaque_cor="tinta")
+
+
+def aplicado_92():
+    """9.2: os três pedidos passando pelas três perguntas até a escolha."""
+    p = [svg_abre(1664, 380, "Três linhas, os três pedidos passando pelas três perguntas até a escolha. Nadadora master: um pico, quatro a cinco sessões, desempenho; linear ou blocos até outubro, polimento no fim. Time de vôlei: um pico por semana, muitas sessões, jogo de sábado; ondulatório, sessão pesada longe do jogo, manutenção. Representante: a prova, quatro sessões que viram duas, meia maratona; semana que se repete, cheia e mínima"), defs(MUDO)]
+    rs = []
+    rs += [rot(300, 0, "picos · sessões · objetivo", w=640, tam=19, cor=MUDO, peso=700, alinha="center"), rot(1010, 0, "escolha", w=654, tam=19, cor=MUDO, peso=700, alinha="center")]
+    linhas = [("t:swimming", "Nadadora master", "um · 4 a 5 · desempenho", "linear ou blocos até outubro, polimento no fim", AZUL, AZUL_T),
+              ("t:ball-volleyball", "Time de vôlei", "um por semana · muitas · sábado", "ondulatório, sessão pesada longe do jogo, manutenção", GLIC, GLIC_T),
+              ("t:run", "Representante", "a prova · 4 que viram 2 · meia", "semana que se repete, cheia e mínima", OXID, OXID_T)]
+    for k, (ic, t, perg, esc, cor, fundo) in enumerate(linhas):
+        y = 40 + k * 114
+        p.append(caixa(0, y, 280, 100, cor, fundo, esp=2, rx=14))
+        p.append(icone(ic, 16, y + 28, 44, cor))
+        rs.append(rot(70, y + 22, t, w=200, tam=21, cor=cor, peso=700, serif=True, lh=1.15))
+        p.append(f'<rect x="300" y="{y + 16}" width="640" height="68" rx="34" fill="{CARTAO}" stroke="{cor}" stroke-width="2"/>')
+        rs.append(rot(300, y + 36, perg, w=640, tam=21, cor=TINTA, peso=700, alinha="center"))
+        p.append(seta(950, y + 50, 998, y + 50, MUDO, "m0", esp=3))
+        p.append(caixa(1010, y, 654, 100, cor, cor, esp=0, rx=14))
+        rs.append(rot(1030, y + 22, esc, w=614, tam=21, cor=PAPEL, peso=700, lh=1.25))
+    return slide("aplicado", 380, p, rs, eyebrow="As três perguntas aplicadas", titulo="Três pedidos, três escolhas")
+
+
+def sinais_92():
+    """9.2: três sinais, cada um com um pequeno gráfico em esquema."""
+    p = [svg_abre(1664, 340, "Três cartões, cada um com um pequeno esquema. As sessões não acontecem: casas de sessão cada vez mais vazias; o plano pede mais do que a vida comporta. A carga não sobe: uma linha reta; falta sobrecarga, não falta modelo. O dia seguinte piora: sono, dor e rendimento caindo; a carga passou da recuperação")]
+    rs = []
+    W = 528
+    for k, (t, d, cor, fundo) in enumerate([("As sessões não acontecem", "o plano pede mais do que a vida comporta", FOSF, FOSF_T),
+                                            ("A carga não sobe", "falta sobrecarga, não falta modelo", GLIC, GLIC_T),
+                                            ("O dia seguinte piora", "sono, dor, rendimento: a carga passou da recuperação", FOSF, FOSF_T)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 340, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 24, 18, t, w=W - 48, tam=25, cor=cor, peso=700, serif=True), rot(x + 24, 262, d, w=W - 48, tam=20, cor=TINTA, lh=1.25)]
+    for s in range(4):
+        for j in range(4):
+            feito = j < 4 - s
+            p.append(f'<rect x="{40 + s * 120}" y="{90 + j * 38}" width="100" height="30" rx="6" fill="{FOSF if feito else CARTAO}" stroke="{FOSF}" stroke-width="2" opacity="{0.8 if feito else 1}"/>')
+    x0 = W + 40
+    p.append(f'<polyline points="{x0 + 40},180 {x0 + 160},178 {x0 + 280},181 {x0 + 400},179 {x0 + 488},180" fill="none" stroke="{GLIC}" stroke-width="6"/>')
+    p.append(f'<line x1="{x0 + 40}" y1="230" x2="{x0 + 488}" y2="230" stroke="{MUDO}" stroke-width="2"/>')
+    x0 = 2 * (W + 40)
+    for j, ic in enumerate(["t:moon", "t:mood-sick", "t:trending-down"]):
+        p.append(icone(ic, x0 + 60 + j * 150, 120, 72, FOSF))
+    return slide("sinais", 340, p, rs, eyebrow="Quando não está funcionando", titulo="Três sinais, em qualquer modelo",
+                 destaque="O terceiro sinal é o assunto das aulas de monitoramento deste módulo.", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
-LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91]}
+LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
+          "09-02": [pedidos_92, funciona_92, igualado_92, acontece_92, picos_92, sessoes_92, objetivo_92, minima_92, aplicado_92, sinais_92]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
