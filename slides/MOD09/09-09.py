@@ -119,6 +119,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Índices de carga aguda e 
                     {"t": "Atleta", "x": "Conta sono, dor e o que fez fora do clube."}],
           "quem": "Próxima aula: testes físicos, escolher, aplicar e interpretar."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-09")
+
 spec = {"arquivo": "aulas/MOD09/09-09-indices-de-carga-aguda-e-cronica.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Índices de carga aguda e crônica", "subtitulo": "Uso, limitação e crítica em cinco erros",

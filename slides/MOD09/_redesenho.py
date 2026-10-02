@@ -1860,6 +1860,242 @@ def regras_98():
     p.append(f'<circle cx="{cx}" cy="{cy}" r="62" fill="none" stroke="{FOSF}" stroke-width="2"{TRACO}/>')
     return slide("regras", 440, p, rs, eyebrow="Para qualquer instrumento", titulo="Quatro regras de uso")
 
+# ---------------------------------------------------------------- 9.9
+
+def reuniao_99():
+    """9.9: a tela do software com um nome em vermelho, e três pessoas na sala sem saber de onde vem o número."""
+    p = [svg_abre(1664, 380, "À esquerda, a tela de um software de monitoramento de um clube de rúgbi amador, com uma lista de jogadores e um deles em vermelho: 1,6, zona de perigo. À direita, a sala: o técnico quer tirá-lo do jogo de sábado; o jogador diz que está ótimo; o preparador físico não sabe responder. Embaixo: ninguém na sala sabe de onde vem o número")]
+    rs = []
+    p.append(f'<rect x="0" y="0" width="720" height="300" rx="18" fill="{TINTA}"/>')
+    p.append(f'<rect x="20" y="20" width="680" height="260" rx="10" fill="#1E3346"/>')
+    for j, (cor, v) in enumerate([(OXID, "0,9"), (OXID, "1,1"), (FOSF, "1,6"), (OXID, "1,0")]):
+        y = 44 + j * 58
+        p.append(f'<rect x="44" y="{y}" width="632" height="44" rx="8" fill="{FOSF if cor == FOSF else "#27415A"}"/>')
+        p.append(f'<rect x="60" y="{y + 14}" width="{220 if j != 2 else 180}" height="16" rx="8" fill="{PAPEL}" opacity="{0.35 if cor != FOSF else 0.9}"/>')
+        rs.append(rot(500, y + 8, v, w=160, tam=22, cor=PAPEL, peso=700, alinha="right"))
+    rs.append(rot(300, 162, "zona de perigo", w=200, tam=18, cor=PAPEL, peso=700))
+    rs.append(rot(0, 314, "clube de rúgbi amador · software comprado", w=720, tam=18, cor=MUDO, alinha="center"))
+    pessoas = [("h:man", "o técnico", "“tira do jogo de sábado”", FOSF), ("h:running", "o jogador", "“estou ótimo”", OXID), ("h:person", "o preparador físico", "não sabe o que responder", MUDO)]
+    for j, (ic, q, f, cor) in enumerate(pessoas):
+        y = j * 100
+        p.append(caixa(780, y, 884, 84, cor, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, 796, y + 14, 56, cor))
+        rs += [rot(870, y + 12, q, w=760, tam=18, cor=MUDO, peso=700), rot(870, y + 40, f, w=760, tam=24, cor=TINTA, peso=700, serif=True)]
+    p.append(caixa(780, 310, 884, 70, TINTA, TINTA, esp=0, rx=14))
+    p.append(icone("t:question-mark", 800, 322, 44, PAPEL))
+    rs.append(rot(860, 330, "ninguém na sala sabe de onde vem o número", w=780, tam=22, cor=PAPEL, peso=700))
+    return slide("reuniao", 380, p, rs, eyebrow="Segunda-feira, reunião técnica", titulo="“Razão aguda e crônica, 1,6. Zona de perigo.”")
+
+
+def origem_99():
+    """9.9: os números do estudo do críquete e a conta que ele fazia, a semana atual contra a média das quatro."""
+    p = [svg_abre(1664, 330, "À esquerda, três números do estudo de origem no críquete: 28 arremessadores rápidos de elite, 43 temporadas individuais, 6 anos de acompanhamento. À direita, a conta em esquema: quatro barras de semanas com a linha tracejada da média, e a semana atual bem acima dela, um pico de carga aguda; seta para lesão nas semanas seguintes"), defs(FOSF)]
+    rs = []
+    for j, (n, t, cor) in enumerate([("28", "arremessadores rápidos de elite", TINTA), ("43", "temporadas individuais", OXID), ("6 anos", "de acompanhamento", GLIC)]):
+        y = j * 110
+        rs += [rot(0, y, n, w=230, tam=64, cor=cor, peso=700, serif=True, alinha="right"), rot(256, y + 28, t, w=420, tam=22, cor=TINTA, peso=700)]
+    p.append(caixa(760, 0, 904, 330, TINTA, CARTAO, esp=2, rx=16))
+    B = 260
+    for j, v in enumerate([110, 130, 120, 100]):
+        x = 800 + j * 110
+        p.append(f'<rect x="{x}" y="{B - v}" width="80" height="{v}" rx="6" fill="{CINZA}"/>')
+    p.append(f'<rect x="1260" y="{B - 210}" width="80" height="210" rx="6" fill="{FOSF}"/>')
+    p.append(f'<line x1="790" y1="{B - 115}" x2="1350" y2="{B - 115}" stroke="{TINTA}" stroke-width="3"{TRACO}/>')
+    p.append(f'<line x1="780" y1="{B}" x2="1360" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    rs += [rot(800, B + 10, "as últimas quatro semanas", w=410, tam=17, cor=MUDO, alinha="center"),
+           rot(1230, B + 10, "semana atual", w=140, tam=17, cor=FOSF, peso=700, alinha="center"),
+           rot(800, 100, "média", w=200, tam=17, cor=TINTA, peso=700)]
+    p.append(seta(1370, 120, 1440, 120, FOSF, "m0", esp=4))
+    rs += [rot(1450, 90, "mais lesão nas semanas seguintes", w=200, tam=21, cor=FOSF, peso=700, lh=1.25),
+           rot(784, 296, "esquema", w=200, tam=16, cor=MUDO)]
+    return slide("origem", 330, p, rs, eyebrow="De onde veio", titulo="Começou no críquete",
+                 destaque="A semana atual comparada com a média das últimas quatro. Picos de carga aguda se associaram a mais lesão nas semanas seguintes.", destaque_cor="tinta",
+                 fonte="Br J Sports Med 2014")
+
+
+def convenceu_99():
+    """9.9: quatro motivos, cada um com um desenho mínimo: a divisão, o semáforo, o aplicativo, a escada."""
+    p = [svg_abre(1664, 300, "Quatro quadros. Simples: uma divisão, aguda sobre crônica. Colorido: um semáforo verde, amarelo e vermelho. Cabe em software: um celular com o gráfico, em aplicativo de clube e de relógio. Ideia de fundo sensata: uma escada de carga subindo aos poucos, sem saltos sobre uma base baixa")]
+    rs = []
+    for k, (t, x_, cor, fundo) in enumerate([("Simples", "uma divisão", OXID, OXID_T), ("Colorido", "verde, amarelo, vermelho", OXID, OXID_T),
+                                              ("Cabe em software", "gráfico em aplicativo de clube e de relógio", GLIC, GLIC_T),
+                                              ("Ideia de fundo sensata", "não dar saltos de carga sobre uma base baixa", TINTA, CARTAO)]):
+        x = k * 420
+        p.append(caixa(x, 0, 400, 300, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 20, 16, t, w=360, tam=23, cor=cor, peso=700, serif=True), rot(x + 20, 224, x_, w=360, tam=19, cor=TINTA, lh=1.25)]
+    rs += [rot(20, 80, "aguda", w=360, tam=26, cor=TINTA, peso=700, alinha="center", serif=True), rot(20, 150, "crônica", w=360, tam=26, cor=TINTA, peso=700, alinha="center", serif=True)]
+    p.append(f'<line x1="100" y1="134" x2="300" y2="134" stroke="{TINTA}" stroke-width="4"/>')
+    p.append(f'<rect x="560" y="64" width="120" height="150" rx="20" fill="{TINTA}"/>')
+    for j, c in enumerate([FOSF, GLIC, OXID]):
+        p.append(f'<circle cx="620" cy="{94 + j * 45}" r="18" fill="{c}"/>')
+    p.append(f'<rect x="980" y="60" width="100" height="160" rx="16" fill="{TINTA}"/>')
+    p.append(f'<rect x="990" y="76" width="80" height="124" rx="6" fill="{PAPEL}"/>')
+    for j, c in enumerate([OXID, OXID, GLIC, FOSF]):
+        p.append(f'<rect x="{996 + j * 18}" y="{180 - j * 22}" width="14" height="{16 + j * 22}" rx="3" fill="{c}"/>')
+    for j in range(5):
+        p.append(f'<rect x="{1300 + j * 46}" y="{196 - j * 28}" width="46" height="{20 + j * 28}" fill="{TINTA}" opacity="{0.4 + j * 0.12:.2f}"/>')
+    return slide("convenceu", 300, p, rs, eyebrow="Por que se espalhou", titulo="Quatro motivos compreensíveis",
+                 destaque="Uma ideia sensata embalada numa conta que não aguenta o peso colocado nela.", destaque_cor="verm")
+
+
+def causa_99():
+    """9.9: o pico de carga andando junto com a lesão, e a seta causal que ninguém estimou."""
+    p = [svg_abre(1664, 330, "À esquerda, o que os estudos mostram: dados observacionais em grupos específicos, em que o pico de carga e a lesão aparecem juntos, ligados por um traço de associação. À direita, o que não mostram: uma seta causal de mexer na razão para reduzir lesão, tracejada e com um ponto de interrogação; nenhum estudo estimou o efeito causal; sem base para usar em gestão de carga"), defs(FOSF)]
+    rs = []
+    p.append(caixa(0, 0, 800, 330, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "O que os estudos mostram", w=760, tam=24, cor=OXID, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:trending-up", "pico de carga"), ("t:first-aid-kit", "lesão")]):
+        x = 60 + j * 440
+        p.append(caixa(x, 90, 260, 110, OXID, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, x + 20, 118, 52, OXID))
+        rs.append(rot(x + 84, 128, t, w=170, tam=22, cor=TINTA, peso=700))
+    p.append(f'<line x1="330" y1="145" x2="490" y2="145" stroke="{OXID}" stroke-width="4" stroke-dasharray="4 8" stroke-linecap="round"/>')
+    rs += [rot(330, 106, "andam juntos", w=160, tam=17, cor=OXID, peso=700, alinha="center"),
+           rot(24, 236, "dados observacionais, em grupos específicos", w=760, tam=21, cor=TINTA, peso=700)]
+    p.append(caixa(864, 0, 800, 330, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(888, 16, "O que não mostram", w=760, tam=24, cor=FOSF, peso=700, serif=True))
+    p.append(caixa(904, 90, 260, 110, FOSF, CARTAO, esp=2, rx=14))
+    p.append(caixa(1364, 90, 260, 110, FOSF, CARTAO, esp=2, rx=14))
+    rs += [rot(904, 116, "mexer na razão", w=260, tam=22, cor=TINTA, peso=700, alinha="center"), rot(1364, 116, "reduz lesão", w=260, tam=22, cor=TINTA, peso=700, alinha="center")]
+    p.append(f'<line x1="1176" y1="145" x2="1340" y2="145" stroke="{FOSF}" stroke-width="4"{TRACO}/>')
+    p.append(seta(1330, 145, 1352, 145, FOSF, "m0", esp=4))
+    rs += [rot(1176, 92, "?", w=164, tam=36, cor=FOSF, peso=700, alinha="center"),
+           rot(888, 226, "nenhum estudo estimou o efeito causal", w=760, tam=21, cor=TINTA, peso=700),
+           rot(888, 266, "sem base para usar em gestão de carga", w=760, tam=21, cor=TINTA)]
+    return slide("causa", 330, p, rs, eyebrow="Erro um", titulo="Tratar associação como causa",
+                 destaque="Tirar o jogador pelo vermelho é tratar uma associação de outro esporte como mecanismo.", destaque_cor="tinta",
+                 fonte="Int J Sports Physiol Perform 2020")
+
+
+def janelas_99():
+    """9.9: as janelas de 7 e 28 dias com interrogação, a régua contínua cortada em cores e as médias com peso no tempo."""
+    p = [svg_abre(1664, 360, "No alto à esquerda, dois calendários, 7 dias e 28 dias, cada um com um ponto de interrogação: janelas sem fundamento declarado. No alto à direita, médias com peso no tempo: barras que diminuem para trás; melhora técnica, mas continua sendo uma razão com cortes. Embaixo, uma régua contínua da razão cortada em três cores, nos pontos 0,8, 1,3 e 1,5, que mudam de estudo para estudo; 1,49 e 1,51 lado a lado, um de cada lado do corte")]
+    rs = []
+    p.append(caixa(0, 0, 800, 170, GLIC, GLIC_T, esp=2, rx=16))
+    for j, (t, n) in enumerate([("7 dias", 7), ("28 dias", 28)]):
+        x = 24 + j * 300
+        p.append(icone("t:calendar", x, 30, 64, GLIC))
+        rs += [rot(x + 74, 34, t, w=160, tam=26, cor=GLIC, peso=700, serif=True), rot(x + 74, 70, "?", w=60, tam=28, cor=GLIC, peso=700)]
+    rs.append(rot(24, 124, "janelas sem fundamento declarado", w=760, tam=20, cor=TINTA, peso=700))
+    p.append(caixa(844, 0, 820, 170, OXID, OXID_T, esp=2, rx=16))
+    for j in range(8):
+        h = 80 * (0.75 ** j)
+        p.append(f'<rect x="{1580 - j * 44}" y="{110 - h:.0f}" width="34" height="{h:.0f}" rx="4" fill="{OXID}"/>')
+    rs += [rot(868, 20, "Médias com peso no tempo", w=480, tam=23, cor=OXID, peso=700, serif=True),
+           rot(868, 66, "melhora técnica, mas continua sendo uma razão com cortes", w=400, tam=19, cor=TINTA, lh=1.3),
+           rot(1250, 124, "o mais recente pesa mais", w=390, tam=16, cor=MUDO, alinha="right")]
+    x0, x1, v0, v1 = 60, 1604, 0.5, 2.0
+    X = lambda v: x0 + (v - v0) / (v1 - v0) * (x1 - x0)
+    for a, b, c in [(0.5, 0.8, CINZA), (0.8, 1.3, OXID), (1.3, 1.5, GLIC), (1.5, 2.0, FOSF)]:
+        p.append(f'<rect x="{X(a):.0f}" y="220" width="{X(b) - X(a):.0f}" height="40" fill="{c}"/>')
+    for v in (0.8, 1.3, 1.5):
+        p.append(f'<line x1="{X(v):.0f}" y1="206" x2="{X(v):.0f}" y2="274" stroke="{TINTA}" stroke-width="3"/>')
+        rs.append(rot(X(v) - 40, 282, f"{v}".replace(".", ","), w=80, tam=20, cor=TINTA, peso=700, alinha="center"))
+    for v, d in [(1.49, -1), (1.51, 1)]:
+        p.append(f'<circle cx="{X(v):.0f}" cy="240" r="7" fill="{PAPEL}" stroke="{TINTA}" stroke-width="3"/>')
+        rs.append(rot(X(v) + (8 if d > 0 else -128), 186, f"{v}".replace(".", ","), w=120, tam=18, cor=TINTA, peso=700, alinha="left" if d > 0 else "right"))
+    rs.append(rot(0, 322, "uma régua contínua cortada em cores · cortes que mudam de estudo para estudo", w=1664, tam=18, cor=MUDO, alinha="center"))
+    return slide("janelas", 360, p, rs, eyebrow="Erro três", titulo="Confiar em janelas e cortes que ninguém justificou",
+                 destaque="1,49 fica fora da zona vermelha, 1,51 fica dentro. Cortar um número contínuo em cores joga informação fora.", destaque_cor="verm",
+                 fonte="Int J Sports Physiol Perform 2020 · Br J Sports Med 2017")
+
+
+def aleatorio_99():
+    """9.9: a razão com a crônica verdadeira e com uma crônica sorteada, e associações parecidas com lesão."""
+    p = [svg_abre(1664, 330, "Duas frações lado a lado. À esquerda, carga aguda dividida pela crônica verdadeira, a média real. À direita, carga aguda dividida por valores inventados, sorteados como num dado. Embaixo de cada uma, em esquema, uma barra de associação com lesão, de tamanho parecido nas duas")]
+    rs = []
+    for k, (t, den, cor, fundo, w) in enumerate([("Crônica verdadeira", "média real", TINTA, CARTAO, 520), ("Crônica sorteada", "valores inventados", GLIC, GLIC_T, 490)]):
+        x0 = k * 844
+        p.append(caixa(x0, 0, 820, 330, cor, fundo, esp=2, rx=16))
+        rs += [rot(x0 + 24, 16, t, w=760, tam=24, cor=cor, peso=700, serif=True),
+               rot(x0 + 60, 70, "aguda", w=320, tam=28, cor=TINTA, peso=700, alinha="center", serif=True),
+               rot(x0 + 60, 132, den, w=320, tam=24, cor=cor, peso=700, alinha="center")]
+        p.append(f'<line x1="{x0 + 90}" y1="120" x2="{x0 + 350}" y2="120" stroke="{TINTA}" stroke-width="4"/>')
+        if k:
+            p.append(icone("t:question-mark", x0 + 500, 70, 80, GLIC))
+        else:
+            p.append(icone("t:chart-bar", x0 + 500, 70, 80, TINTA))
+        rs.append(rot(x0 + 24, 210, "associação com lesão", w=760, tam=19, cor=MUDO, peso=700))
+        p.append(f'<rect x="{x0 + 24}" y="244" width="{w}" height="36" rx="8" fill="{FOSF}"/>')
+    rs.append(rot(0, 298, "esquema", w=1640, tam=16, cor=MUDO, alinha="right"))
+    return slide("aleatorio", 330, p, rs, eyebrow="Erro quatro", titulo="Acreditar que a carga crônica faz o trabalho",
+                 destaque="Se trocar o denominador por qualquer número não muda o resultado, a razão não mede o que prometia.", destaque_cor="verm",
+                 fonte="Sports Med 2021")
+
+
+def fragil_99():
+    """9.9: a ideia que continua de pé e a conta que caiu."""
+    p = [svg_abre(1664, 320, "À esquerda, a ideia, que continua valendo: uma escada de carga construída aos poucos, com três marcas de certo: construir a carga aos poucos, evitar saltos, cuidar da volta após pausa. À direita, a conta, que caiu: um semáforo riscado, a razão colorida decidindo quem joga")]
+    rs = []
+    p.append(caixa(0, 0, 1000, 320, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "A ideia: continua valendo", w=960, tam=24, cor=OXID, peso=700, serif=True))
+    for j in range(5):
+        p.append(f'<rect x="{40 + j * 50}" y="{250 - j * 30}" width="50" height="{30 + j * 30}" fill="{OXID}" opacity="{0.4 + j * 0.12:.2f}"/>')
+    for j, t in enumerate(["construir a carga aos poucos", "evitar saltos", "cuidar da volta após pausa"]):
+        y = 90 + j * 70
+        p.append(icone("t:check", 340, y, 40, OXID))
+        rs.append(rot(396, y + 4, t, w=580, tam=24, cor=TINTA, peso=700))
+    p.append(caixa(1040, 0, 624, 320, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(1064, 16, "A conta: caiu", w=580, tam=24, cor=FOSF, peso=700, serif=True))
+    p.append(f'<rect x="1100" y="80" width="100" height="200" rx="20" fill="{TINTA}"/>')
+    for j, c in enumerate([FOSF, GLIC, OXID]):
+        p.append(f'<circle cx="1150" cy="{120 + j * 60}" r="22" fill="{c}" opacity="0.5"/>')
+    p.append(f'<line x1="1080" y1="290" x2="1220" y2="70" stroke="{FOSF}" stroke-width="8" stroke-linecap="round"/>')
+    rs.append(rot(1250, 130, "a razão colorida decidindo quem joga", w=390, tam=24, cor=TINTA, peso=700, lh=1.3))
+    return slide("fragil", 320, p, rs, eyebrow="A ideia da aula", titulo="A ideia por trás estava certa. A conta estava frágil.")
+
+
+def transplante_99():
+    """9.9: do monitoramento diário da elite para a semana que quebra do amador, e a mudança semanal em porcentagem."""
+    p = [svg_abre(1664, 360, "À esquerda, os dados de origem: atletas profissionais, monitoramento diário, rotina estável, uma fileira de dias todos preenchidos. Uma seta riscada para o amador: trabalho, sono ruim, semana que quebra, dados incompletos, a fileira de dias com falhas. À direita, uma medida simples: barras da distância semanal de um corredor com a mudança em porcentagem escrita sobre cada uma; diz mais"), defs(FOSF)]
+    rs = []
+    import math
+    for k, (t, itens, cor, fundo, falha) in enumerate([("Dados de origem", "atletas profissionais · monitoramento diário · rotina estável", TINTA, CARTAO, set()),
+                                                        ("O amador", "trabalho, sono ruim, semana que quebra · dados incompletos", GLIC, GLIC_T, {2, 3, 7, 9, 10, 13})]):
+        y0 = k * 190
+        p.append(caixa(0, y0, 900, 170, cor, fundo, esp=2, rx=16))
+        rs += [rot(24, y0 + 14, t, w=400, tam=23, cor=cor, peso=700, serif=True), rot(24, y0 + 120, itens, w=860, tam=19, cor=TINTA, peso=700)]
+        for d in range(14):
+            cx = 60 + d * 58
+            p.append(f'<rect x="{cx - 20}" y="{y0 + 62}" width="40" height="40" rx="8" fill="{PAPEL if d in falha else cor}" stroke="{cor}" stroke-width="2"/>')
+    p.append(caixa(940, 0, 724, 360, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(964, 14, "Para o amador, uma medida simples diz mais", w=680, tam=22, cor=OXID, peso=700, serif=True))
+    B = 300
+    for j, (km, pc) in enumerate([(20, ""), (22, "+10%"), (24, "+9%"), (32, "+33%")]):
+        x = 1000 + j * 160
+        h = km * 6
+        p.append(f'<rect x="{x}" y="{B - h}" width="110" height="{h}" rx="6" fill="{FOSF if j == 3 else OXID}"/>')
+        if pc:
+            rs.append(rot(x - 20, B - h - 32, pc, w=150, tam=21, cor=FOSF if j == 3 else TINTA, peso=700, alinha="center"))
+    rs.append(rot(964, B + 14, "distância semanal · semanas ilustrativas", w=680, tam=17, cor=MUDO))
+    return slide("transplante", 360, p, rs, eyebrow="Erro cinco", titulo="Transplantar a elite e deixar o número decidir",
+                 destaque="874 corredores iniciantes: aumentos acima de 30% em duas semanas se associaram a alguns tipos de lesão. Também é associação, mas o corredor entende.", destaque_cor="tinta",
+                 fonte="J Orthop Sports Phys Ther 2014")
+
+
+def fica_99():
+    """9.9: quatro semanas descritas sem cor, com a média anterior e a mudança, e os três momentos a vigiar."""
+    p = [svg_abre(1664, 360, "À esquerda, quatro semanas de carga em barras neutras, sem zona verde nem vermelha: 1.800, 1.900, 2.000 e 2.700. Sobre cada barra, a média das semanas anteriores, tracejada, e a mudança: sem base, mais 6%, mais 8%, mais 42%. Exemplo ilustrativo. À direita, três momentos a vigiar: salto de volume, acúmulo sem descanso, volta depois de pausa")]
+    rs = []
+    B, k = 290, 0.09
+    for j, (c, m, pc) in enumerate([(1800, None, "sem base"), (1900, 1800, "+6%"), (2000, 1850, "+8%"), (2700, 1900, "+42%")]):
+        x = 40 + j * 220
+        p.append(f'<rect x="{x}" y="{B - c * k:.0f}" width="150" height="{c * k:.0f}" rx="6" fill="{TINTA}" opacity="{0.9 if j == 3 else 0.55}"/>')
+        if m:
+            p.append(f'<line x1="{x - 10}" y1="{B - m * k:.0f}" x2="{x + 160}" y2="{B - m * k:.0f}" stroke="{MUDO}" stroke-width="3"{TRACO}/>')
+        rs += [rot(x - 20, B - c * k - 34, pc, w=190, tam=22 if j == 3 else 19, cor=TINTA, peso=700, alinha="center"),
+               rot(x - 20, B + 10, f"semana {j + 1} · {c:,}".replace(",", "."), w=190, tam=17, cor=TINTA, alinha="center")]
+    rs.append(rot(40, 336, "tracejado: média das semanas anteriores, sem a atual", w=860, tam=16, cor=MUDO))
+    p.append(caixa(960, 0, 704, 360, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(984, 16, "Três momentos a vigiar", w=660, tam=24, cor=TINTA, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:trending-up", "salto de volume"), ("t:stairs", "acúmulo sem descanso"), ("t:refresh", "volta depois de pausa")]):
+        y = 80 + j * 66
+        p.append(icone(ic, 984, y, 44, TINTA))
+        rs.append(rot(1046, y + 8, t, w=600, tam=22, cor=TINTA, peso=700))
+    rs.append(rot(984, 290, "e perguntar por sono, dor e nota de esforço", w=660, tam=20, cor=OXID, peso=700))
+    return slide("fica", 360, p, rs, eyebrow="O que fica", titulo="Descrever sem colorir, decidir com contexto",
+                 fonte="Exemplo ilustrativo, sem dados reais")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
@@ -1869,7 +2105,8 @@ LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variaca
           "09-05": [planilha_95, tipos_95, ambos_95, elite_95, ensaio_95, paga_95, cinzenta_95, conta_95, plano_95, acompanhar_95],
           "09-06": [telas_96, roteiro_96, ancoras_96, poucas_96, ancorada_96, borg_96, escalas_96, medidas_96, tabela_96, desempate_96],
           "09-07": [coletes_97, externa_97, amostragem_97, limiar_97, campo_97, acelerometro_97, fora_97, vale_97, pulso_97, correcoes_97],
-          "09-08": [propostas_98, quatro_98, conta_98, condicoes_98, fc_98, vfc_98, questionario_98, terceira_98, cenarios_98, regras_98]}
+          "09-08": [propostas_98, quatro_98, conta_98, condicoes_98, fc_98, vfc_98, questionario_98, terceira_98, cenarios_98, regras_98],
+          "09-09": [reuniao_99, origem_99, convenceu_99, causa_99, janelas_99, aleatorio_99, fragil_99, transplante_99, fica_99]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
