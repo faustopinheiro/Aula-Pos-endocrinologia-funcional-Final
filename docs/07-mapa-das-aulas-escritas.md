@@ -396,20 +396,35 @@ atleta mulher, que abre o Módulo 11.
 
 ## Módulo 11 — A Atleta Mulher · 10 aulas
 
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 11.1 | Fisiologia da mulher e o déficit histórico de evidência | M13-A09 + M3-A03 | FUNDIR |
-| 11.2 | Ciclo menstrual: fases e efeitos | M13-A01 | PRONTA |
-| 11.3 | Sintomas menstruais: o que de fato limita | M13-A02 | PRONTA |
-| 11.4 | Contracepção hormonal no esporte | M13-A03 | PRONTA |
-| 11.5 **[M]** | REDs: da tríade ao modelo multissistêmico | M13-A04 + M2-A05 | FUNDIR |
-| 11.6 | Reconhecer a deficiência energética fora do consultório médico | M13-A05 parcial | PARCIAL |
-| 11.7 | Saúde óssea, disfunção menstrual e fratura por estresse | M13-A05 + M17-A04 | FUNDIR |
-| 11.8 | Risco de LCA em mulheres | M13-A06 | PRONTA |
-| 11.9 | Exercício na gestação e no pós-parto | M13-A07 | PRONTA |
-| 11.10 | Transição da menopausa | M13-A08 | PRONTA |
+**ESCRITO NA VOZ DO CURSO, NO MODELO DO MÓDULO 10.** Slides em número definido pelo conteúdo, cada um
+com desenho próprio, títulos que afirmam e ícones só como apoio. Capa e fecho em terra (docs/08).
+Um caso clínico no módulo, sem nome e com meses ilustrativos (11.7, a única aula CASO); os demais são
+perfis típicos, sem nome e sem desfecho. Rodízio de modalidade: futebol, musculação, natação,
+jiu-jitsu, corrida, ciclismo, vôlei, basquete, treinamento funcional e beach tennis. Nenhum autor citado
+por nome na fala.
 
-**Módulo mais bem servido do curso: 7 de 10 slots prontos.**
+A 11.5 estava planejada como mestra. Deixou de ser: o mecanismo da deficiência energética, a conta, a
+lista de sistemas e a crítica de 2024 já estão nas duas conversas sobre disponibilidade energética do
+Módulo 4, e a 11.5 ficou com o que é da mulher (a tríade, a disputa de 2014 com o REDs, o funil de
+exclusão da amenorreia). Pelo mesmo motivo, as aulas de osso, LCA e gestação remetem aos Módulos 3, 4,
+7 e 8 em vez de repetir prevenção, reabilitação e cálculo.
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 11.1 | Fisiologia da mulher e o déficit histórico de evidência | 16 | 9 | ERRO | [slides](https://claude.ai/artifact/6qzLoGrWTJn7Wwce48Tfmf) |
+| 11.2 | Ciclo menstrual: fases e efeitos | 14 | 9 | NÚMERO | [slides](https://claude.ai/artifact/AtxbHD6cczmibzvwJBGKDM) |
+| 11.3 | Sintomas menstruais: o que de fato limita | 14 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/Sd1g11Gxx68TzF64bmWQCk) |
+| 11.4 | Contracepção hormonal no esporte | 15 | 9 | DECISÃO | [slides](https://claude.ai/artifact/JCqvr2DegrRxcLASq6AoQp) |
+| 11.5 | REDs: da tríade ao modelo multissistêmico | 17 | 9 | ERRO | [slides](https://claude.ai/artifact/D7u3GDys9fak6quhKkDcgD) |
+| 11.6 | Reconhecer a deficiência energética fora do consultório médico | 11 | 8 | NÚMERO | [slides](https://claude.ai/artifact/8Ez6XrUFbqmwm62Pmb2pWY) |
+| 11.7 | Saúde óssea, disfunção menstrual e fratura por estresse | 13 | 9 | CASO | [slides](https://claude.ai/artifact/E7LdpT9SLZHnP5Fbv8ffqL) |
+| 11.8 | Risco de LCA em mulheres | 12 | 8 | ERRO | [slides](https://claude.ai/artifact/5zq6yH9cqQwoNk12S7UALd) |
+| 11.9 | Exercício na gestação e no pós-parto | 12 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/6rtCiRE8mLwhkptPUJJJK4) |
+| 11.10 | Transição da menopausa | 14 | 9 | NÚMERO | [slides](https://claude.ai/artifact/D4qADhRZz8aCn6E1oc5dwV) |
+
+Total: 2 h 18 min em 10 aulas, 88 slides. A 11.10 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda no
+atleta adolescente e no atleta idoso, que abrem o Módulo 12.
 
 ## Módulo 12 — Atleta Adolescente e Atleta Idoso · 11 aulas
 
