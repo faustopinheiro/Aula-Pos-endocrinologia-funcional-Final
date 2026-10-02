@@ -26,34 +26,291 @@
  "slides": [
   {
    "id": "caso",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, a sequência da lesão de uma jogadora de handebol na casa dos vinte anos: aterrissagem depois do arremesso, joelho para dentro, estalo, inchaço em horas; ruptura do cruzado anterior e reconstrução decidida com o cirurgião. À direita, a pergunta quando eu volto, respondida com nove meses de plano em vez de uma data. O objeto é o percurso, não o desfecho\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(14.0 10.0) scale(0.9167)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"0\" y=\"76\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(14.0 86.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m7 7l10 10m0-9v9H8\"/></g><rect x=\"0\" y=\"152\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(14.0 162.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"0\" y=\"228\" width=\"560\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(14.0 238.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"0\" y=\"304\" width=\"560\" height=\"56\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"580\" y1=\"180\" x2=\"650\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"670\" y=\"0\" width=\"994\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(694.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"700\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"746\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/><rect x=\"804\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"850\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/><rect x=\"908\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"954\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/><rect x=\"1012\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1058\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/><rect x=\"1116\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1162\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/><rect x=\"1220\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1266\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/><rect x=\"1324\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1370\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/><rect x=\"1428\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1474\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/><rect x=\"1532\" y=\"120\" width=\"92\" height=\"110\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1578\" cy=\"200\" r=\"7\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 72,
+     "y": 18,
+     "w": 470,
+     "t": "aterrissagem depois do arremesso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 94,
+     "w": 470,
+     "t": "joelho para dentro",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 170,
+     "w": 470,
+     "t": "estalo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 246,
+     "w": 470,
+     "t": "inchaço em horas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 318,
+     "w": 520,
+     "t": "ruptura do cruzado · reconstrução",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 756,
+     "y": 26,
+     "w": 600,
+     "t": "“Quando eu volto?”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 700,
+     "y": 134,
+     "w": 92,
+     "t": "1º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 134,
+     "w": 92,
+     "t": "2º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 134,
+     "w": 92,
+     "t": "3º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1012,
+     "y": 134,
+     "w": 92,
+     "t": "4º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1116,
+     "y": 134,
+     "w": 92,
+     "t": "5º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1220,
+     "y": 134,
+     "w": 92,
+     "t": "6º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1324,
+     "y": 134,
+     "w": 92,
+     "t": "7º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1428,
+     "y": 134,
+     "w": 92,
+     "t": "8º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1532,
+     "y": 134,
+     "w": 92,
+     "t": "9º",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 250,
+     "w": 940,
+     "t": "um plano: fases, portas, responsáveis",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 296,
+     "w": 940,
+     "t": "o objeto é o percurso, não o desfecho",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Caso ilustrativo · jogadora de handebol, na casa dos vinte",
-   "frase": "“Quando eu volto?” A resposta é um plano, não uma data.",
-   "apoio": "Aterrissagem depois do arremesso, joelho para dentro, estalo, inchaço em horas. Ruptura do cruzado anterior; reconstrução decidida com o cirurgião. O objeto da aula é o percurso, não o desfecho."
+   "titulo": "“Quando eu volto?” A resposta é um plano, não uma data."
   },
   {
    "id": "expectativa",
-   "tipo": "numeros",
-   "eyebrow": "A conversa do primeiro mês",
-   "titulo": "Voltar ao nível de antes não é automático",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Três barras horizontais sobre uma escala de cem por cento: 81% voltam a algum esporte, 65% ao nível de antes da lesão, 55% ao esporte competitivo\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"420\" y=\"0\" width=\"1200\" height=\"76\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.45\"/><rect x=\"420\" y=\"0\" width=\"972\" height=\"76\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"420\" y=\"96\" width=\"1200\" height=\"76\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.45\"/><rect x=\"420\" y=\"96\" width=\"780\" height=\"76\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"420\" y=\"192\" width=\"1200\" height=\"76\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.45\"/><rect x=\"420\" y=\"192\" width=\"660\" height=\"76\" rx=\"8\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
-     "n": "81%",
-     "x": "voltam a algum esporte",
-     "cor": "petr"
+     "x": 0,
+     "y": 22,
+     "w": 390,
+     "t": "voltam a algum esporte",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "65%",
-     "x": "ao nível de antes da lesão",
-     "cor": "ambar"
+     "x": 1222,
+     "y": 14,
+     "w": 150,
+     "t": "81%",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "55%",
-     "x": "ao esporte competitivo",
-     "cor": "verm"
+     "x": 0,
+     "y": 118,
+     "w": 390,
+     "t": "ao nível de antes da lesão",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 110,
+     "w": 150,
+     "t": "65%",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 214,
+     "w": 390,
+     "t": "ao esporte competitivo",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 206,
+     "w": 150,
+     "t": "55%",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 420,
+     "y": 286,
+     "w": 1200,
+     "t": "100%",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "A conversa do primeiro mês",
+   "titulo": "Voltar ao nível de antes não é automático",
    "destaque": "Com os números de Delaware e Oslo do módulo de lesões: nove meses é o horizonte, e o critério decide se nove meses bastam.",
    "destaque_cor": "tinta",
    "fonte": "Metanálise, Br J Sports Med 2014"
@@ -183,95 +440,535 @@
   },
   {
    "id": "antes",
-   "tipo": "numeros",
-   "eyebrow": "Quando há tempo antes da cirurgia",
-   "titulo": "A reabilitação começa antes dela",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Duas barras de retorno ao esporte de antes, dois anos depois da cirurgia: 72% com reabilitação estendida antes da cirurgia, 63% sem ela. É comparação entre coortes, não ensaio sorteado. À direita, os três alvos para chegar à cirurgia: joelho calmo, extensão completa, quadríceps ativo\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"40\" y=\"94\" width=\"280\" height=\"216\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"380\" y=\"121\" width=\"280\" height=\"189\" rx=\"8\" fill=\"#B07A1C\"/><line x1=\"20\" y1=\"310\" x2=\"700\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"780\" y=\"0\" width=\"884\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(808.0 96.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><g transform=\"translate(808.0 180.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><g transform=\"translate(808.0 264.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "72%",
-     "x": "voltaram ao esporte de antes, com reabilitação estendida antes da cirurgia",
-     "cor": "petr"
+     "x": 40,
+     "y": 38,
+     "w": 280,
+     "t": "72%",
+     "tam": 44,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "63%",
-     "x": "sem ela; dois anos depois",
-     "cor": "ambar"
+     "x": 40,
+     "y": 320,
+     "w": 280,
+     "t": "com reabilitação antes",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 65,
+     "w": 280,
+     "t": "63%",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 380,
+     "y": 320,
+     "w": 280,
+     "t": "sem ela",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 0,
+     "w": 680,
+     "t": "voltaram ao esporte de antes, dois anos depois",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 352,
+     "w": 680,
+     "t": "comparação entre coortes, não ensaio sorteado",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 808,
+     "y": 20,
+     "w": 820,
+     "t": "Chegar à cirurgia com",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 874,
+     "y": 106,
+     "w": 760,
+     "t": "joelho calmo, sem derrame importante",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 874,
+     "y": 190,
+     "w": 760,
+     "t": "extensão completa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 874,
+     "y": 274,
+     "w": 760,
+     "t": "quadríceps contraindo bem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Joelho calmo, extensão completa, quadríceps ativo. Comparação entre coortes, não ensaio sorteado; a direção é consistente.",
-   "destaque_cor": "tinta",
+   "eyebrow": "Quando há tempo antes da cirurgia",
+   "titulo": "A reabilitação começa antes dela",
    "fonte": "192 contra 1.995 pacientes · Am J Sports Med 2016"
   },
   {
    "id": "semanas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Primeiras semanas depois da cirurgia",
-   "titulo": "Três prioridades, nesta ordem",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três prioridades numeradas, nesta ordem. Um: extensão completa; perdida agora, é difícil de recuperar e muda a marcha por meses. Dois: derrame sob controle; o joelho cheio desliga o quadríceps, medido toda sessão. Três: quadríceps ligado; contração voluntária e perna estendida sem o joelho dobrar. Embaixo, a porta da fase: extensão completa, derrame mínimo e estável, marcha sem muletas e sem mancar. Não é semana seis\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"44\" cy=\"46\" r=\"26\" fill=\"#A8322A\"/><g transform=\"translate(456.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><line x1=\"526\" y1=\"115\" x2=\"566\" y2=\"115\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"572\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"616\" cy=\"46\" r=\"26\" fill=\"#B07A1C\"/><g transform=\"translate(1028.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><line x1=\"1098\" y1=\"115\" x2=\"1138\" y2=\"115\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1144\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1188\" cy=\"46\" r=\"26\" fill=\"#008A7E\"/><g transform=\"translate(1600.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"0\" y=\"260\" width=\"1664\" height=\"140\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(24.0 282.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><g transform=\"translate(1360.0 290.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><line x1=\"1350\" y1=\"352\" x2=\"1426\" y2=\"280\" stroke=\"#A8322A\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
     {
+     "x": 18,
+     "y": 30,
+     "w": 52,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 84,
+     "y": 30,
+     "w": 360,
      "t": "Extensão completa",
-     "x": "perdida agora, é difícil de recuperar e muda a marcha por meses",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 100,
+     "w": 472,
+     "t": "perdida agora, é difícil de recuperar e muda a marcha por meses",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 590,
+     "y": 30,
+     "w": 52,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 656,
+     "y": 30,
+     "w": 360,
      "t": "Derrame sob controle",
-     "x": "o joelho cheio desliga o quadríceps; medido toda sessão",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 596,
+     "y": 100,
+     "w": 472,
+     "t": "o joelho cheio desliga o quadríceps; medido toda sessão",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1162,
+     "y": 30,
+     "w": 52,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1228,
+     "y": 30,
+     "w": 360,
      "t": "Quadríceps ligado",
-     "x": "contração voluntária e perna estendida sem o joelho dobrar",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1168,
+     "y": 100,
+     "w": 472,
+     "t": "contração voluntária e perna estendida sem o joelho dobrar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 88,
+     "y": 288,
+     "w": 500,
+     "t": "A porta da fase",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 88,
+     "y": 334,
+     "w": 1240,
+     "t": "extensão completa · derrame mínimo e estável · marcha sem muletas e sem mancar",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 300,
+     "w": 210,
+     "t": "não é “semana seis”",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
-   "destaque": "A porta: extensão completa, derrame mínimo e estável, marcha sem muletas e sem mancar. Não é “semana seis”.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Primeiras semanas depois da cirurgia",
+   "titulo": "Três prioridades, nesta ordem"
   },
   {
    "id": "forca",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Dois painéis. À esquerda, cadeira extensora pode? Cadeia aberta e cadeia fechada, com um sinal de igual: sem diferença na frouxidão do joelho; entra, com amplitude e carga combinadas. À direita, eletroestimulação ajuda? Uma barra de força do quadríceps com a fisioterapia, e um pedaço a mais somado pela eletroestimulação: soma ao treino, não o substitui\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"30\" y=\"80\" width=\"320\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"450\" y=\"80\" width=\"320\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"900\" y=\"100\" width=\"480\" height=\"80\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1384\" y=\"100\" width=\"150\" height=\"80\" rx=\"8\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 760,
+     "t": "Cadeira extensora pode?",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 46,
+     "y": 100,
+     "w": 288,
+     "t": "cadeia aberta",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 46,
+     "y": 140,
+     "w": 288,
+     "t": "cadeira extensora, pé livre",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 466,
+     "y": 100,
+     "w": 288,
+     "t": "cadeia fechada",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 466,
+     "y": 140,
+     "w": 288,
+     "t": "agachamento, pé apoiado",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 112,
+     "w": 100,
+     "t": "=",
+     "tam": 52,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 222,
+     "w": 740,
+     "t": "sem diferença na frouxidão do joelho",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 268,
+     "w": 740,
+     "t": "entra, com amplitude e carga combinadas",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 18,
+     "w": 760,
+     "t": "Eletroestimulação ajuda?",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 122,
+     "w": 480,
+     "t": "fisioterapia e treino",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1384,
+     "y": 114,
+     "w": 150,
+     "t": "+ eletro",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 194,
+     "w": 640,
+     "t": "força do quadríceps · esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 238,
+     "w": 740,
+     "t": "soma ao treino, não o substitui",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A fase mais longa: o quadríceps é o eixo",
    "titulo": "Duas discussões antigas",
-   "esq": {
-    "t": "Cadeira extensora pode?",
-    "cor": "petr",
-    "itens": [
-     "cadeia aberta e fechada: sem diferença na frouxidão do joelho",
-     "entra, com amplitude e carga combinadas"
-    ]
-   },
-   "dir": {
-    "t": "Eletroestimulação ajuda?",
-    "cor": "petr",
-    "itens": [
-     "somada à fisioterapia, aumenta a força do quadríceps",
-     "soma ao treino, não o substitui"
-    ]
-   },
    "destaque": "Força de verdade pede carga alta, por meses. Faixa elástica para sempre não reconstrói um quadríceps.",
    "destaque_cor": "tinta",
    "fonte": "J Orthop Sports Phys Ther 2018 · Knee Surg Sports Traumatol Arthrosc 2018"
   },
   {
    "id": "corrida",
-   "tipo": "numeros",
-   "eyebrow": "A primeira porta que a atleta sente como vitória",
-   "titulo": "Voltar a correr: o tempo quase sempre sozinho",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, um relógio: mediana de 12 semanas para liberar a corrida em 201 estudos. Embaixo, cinco casas, com menos de uma preenchida: menos de 1 em 5 usou algum critério além do tempo. À direita, a porta da jogadora: sem derrame, amplitude completa, força do quadríceps combinada com o outro lado, saltitar e aterrissar sem dor e sem o joelho ir para dentro\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(30.0 30.0) scale(4.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"30\" y=\"200\" width=\"124\" height=\"70\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"170\" y=\"200\" width=\"124\" height=\"70\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"310\" y=\"200\" width=\"124\" height=\"70\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"450\" y=\"200\" width=\"124\" height=\"70\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"590\" y=\"200\" width=\"124\" height=\"70\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"30\" y=\"200\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"820\" y=\"0\" width=\"844\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(846.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><g transform=\"translate(846.0 98.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(846.0 166.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(846.0 234.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(846.0 302.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "12 sem",
-     "x": "mediana de liberação da corrida em 201 estudos",
-     "cor": "ambar"
+     "x": 150,
+     "y": 30,
+     "w": 580,
+     "t": "12 semanas",
+     "tam": 48,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "< 1 em 5",
-     "x": "usou algum critério além do tempo",
-     "cor": "verm"
+     "x": 150,
+     "y": 96,
+     "w": 580,
+     "t": "mediana de liberação da corrida em 201 estudos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 286,
+     "w": 700,
+     "t": "menos de 1 em 5 usou algum critério além do tempo",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 28,
+     "w": 700,
+     "t": "A porta dela",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 896,
+     "y": 102,
+     "w": 740,
+     "t": "sem derrame",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 896,
+     "y": 170,
+     "w": 740,
+     "t": "amplitude completa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 896,
+     "y": 238,
+     "w": 740,
+     "t": "força do quadríceps combinada com o outro lado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 896,
+     "y": 306,
+     "w": 740,
+     "t": "saltitar e aterrissar sem dor e sem o joelho ir para dentro",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
-   "destaque": "A porta dela: sem derrame, amplitude completa, força do quadríceps combinada, saltitar e aterrissar sem dor e sem o joelho ir para dentro.",
-   "destaque_cor": "tinta",
+   "eyebrow": "A primeira porta que a atleta sente como vitória",
+   "titulo": "Voltar a correr: o tempo quase sempre sozinho",
    "fonte": "Revisão de mapeamento, Br J Sports Med 2018"
   },
   {
@@ -366,74 +1063,416 @@
   },
   {
    "id": "relogios",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Em esquema, duas trilhas de zero a nove meses. O enxerto amadurece devagar e de forma regular: é ele que marca o horizonte de nove meses. O quadríceps sobe e empaca de forma imprevisível. No sexto mês a atleta pode se sentir pronta com o quadríceps fraco; no sétimo, ter um quadríceps excelente com o enxerto no meio do caminho. A decisão é tempo e critério\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"300\" y1=\"20\" x2=\"300\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"444\" y1=\"20\" x2=\"444\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"589\" y1=\"20\" x2=\"589\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"733\" y1=\"20\" x2=\"733\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"878\" y1=\"20\" x2=\"878\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1022\" y1=\"20\" x2=\"1022\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1167\" y1=\"20\" x2=\"1167\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1311\" y1=\"20\" x2=\"1311\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1456\" y1=\"20\" x2=\"1456\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1600\" y1=\"20\" x2=\"1600\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"300\" y1=\"320\" x2=\"1600\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 300 290 C 800 280, 1200 200, 1600 60\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><path d=\"M 300 300 L 450 260 L 560 270 L 720 190 L 860 200 L 1000 150 L 1170 90 L 1300 100 L 1600 70\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\" stroke-linejoin=\"round\"/><g transform=\"translate(1584.0 2.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 250,
+     "y": 328,
+     "w": 100,
+     "t": "0",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 683,
+     "y": 328,
+     "w": 100,
+     "t": "3 meses",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1117,
+     "y": 328,
+     "w": 100,
+     "t": "6 meses",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1550,
+     "y": 328,
+     "w": 100,
+     "t": "9 meses",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 216,
+     "w": 280,
+     "t": "enxerto",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 250,
+     "w": 280,
+     "t": "devagar e regular",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 120,
+     "w": 280,
+     "t": "quadríceps",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 154,
+     "w": 280,
+     "t": "sobe e empaca",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 0,
+     "w": 200,
+     "t": "esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 350,
+     "w": 300,
+     "t": "a decisão: tempo e critério",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia do caso",
-   "frase": "O relógio do enxerto e o relógio do quadríceps não andam juntos.",
-   "apoio": "Pronta no sexto mês com o quadríceps fraco; quadríceps excelente no sétimo com o enxerto no meio do caminho. A decisão é tempo e critério."
+   "titulo": "O relógio do enxerto e o relógio do quadríceps não andam juntos.",
+   "destaque": "Pronta no sexto mês com o quadríceps fraco; quadríceps excelente no sétimo com o enxerto no meio do caminho.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "ultima",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Perto do nono mês",
-   "titulo": "A última porta tem três partes",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma linha do tempo do primeiro dia até perto do nono mês, onde está a última porta, com três placas. Testes de retorno: força, saltos e a armadilha do índice de simetria. Prontidão psicológica: o medo de nova lesão não aparece no dinamômetro. Decisão compartilhada: avaliar o risco é uma coisa; aceitá-lo é outra. A porta está no plano desde o primeiro dia, e cada parte ganha uma conversa adiante\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><rect x=\"572\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(596.0 24.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"1144\" y=\"0\" width=\"520\" height=\"230\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1168.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1M15 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2 5h2a2 2 0 0 1 2 2v1M5 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h2\"/></g><line x1=\"20\" y1=\"300\" x2=\"1560\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"4\"/><circle cx=\"20\" cy=\"300\" r=\"12\" fill=\"#008A7E\"/><rect x=\"1560\" y=\"254\" width=\"64\" height=\"92\" rx=\"8\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
     {
+     "x": 88,
+     "y": 32,
+     "w": 410,
      "t": "Testes de retorno",
-     "x": "força, saltos e a armadilha do índice de simetria",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 100,
+     "w": 472,
+     "t": "força, saltos e a armadilha do índice de simetria",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 660,
+     "y": 32,
+     "w": 410,
      "t": "Prontidão psicológica",
-     "x": "o medo de nova lesão não aparece no dinamômetro",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 596,
+     "y": 100,
+     "w": 472,
+     "t": "o medo de nova lesão não aparece no dinamômetro",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1232,
+     "y": 32,
+     "w": 410,
      "t": "Decisão compartilhada",
-     "x": "avaliar o risco é uma coisa; aceitá-lo é outra",
-     "cor": "tinta"
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1168,
+     "y": 100,
+     "w": 472,
+     "t": "avaliar o risco é uma coisa; aceitá-lo é outra",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 324,
+     "w": 700,
+     "t": "primeiro dia: a porta já está no plano",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 354,
+     "w": 620,
+     "t": "perto do nono mês",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 256,
+     "w": 600,
+     "t": "ninguém é surpreendido no oitavo mês",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Cada parte ganha uma aula adiante. A porta está no plano desde o primeiro dia; ninguém é surpreendido no oitavo mês.",
+   "eyebrow": "Perto do nono mês",
+   "titulo": "A última porta tem três partes",
+   "destaque": "Cada parte ganha uma conversa própria adiante.",
    "destaque_cor": "tinta"
   },
   {
    "id": "quem",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Em esquema, cinco faixas ao longo dos nove meses. Cirurgião: técnica, enxerto e restrições iniciais, forte no começo, depois nas portas em que o tecido é o limite. Fisioterapia: do começo ao fim, mede derrame, amplitude e força e escreve as portas. Preparação física: da corrida em diante, fase de campo, gesto e condicionamento. Psicologia e nutrição: a matéria-prima de meses de força o tempo todo, e o medo perto do retorno. Treinador, atleta e família: a expectativa honesta desde o começo e a porta de cada mês\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"430\" y1=\"0\" x2=\"430\" y2=\"380\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"820\" y1=\"0\" x2=\"820\" y2=\"380\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1209\" y1=\"0\" x2=\"1209\" y2=\"380\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1599\" y1=\"0\" x2=\"1599\" y2=\"380\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"378\" y=\"6\" width=\"247\" height=\"60\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.3\"/><rect x=\"820\" y=\"6\" width=\"52\" height=\"60\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.3\"/><rect x=\"1209\" y=\"6\" width=\"52\" height=\"60\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.3\"/><rect x=\"1560\" y=\"6\" width=\"65\" height=\"60\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.3\"/><rect x=\"378\" y=\"82\" width=\"1273\" height=\"60\" rx=\"10\" fill=\"#008A7E\" opacity=\"1\"/><rect x=\"820\" y=\"158\" width=\"831\" height=\"60\" rx=\"10\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"378\" y=\"234\" width=\"1273\" height=\"60\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.3\"/><rect x=\"1339\" y=\"234\" width=\"312\" height=\"60\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.8\"/><rect x=\"378\" y=\"310\" width=\"1273\" height=\"60\" rx=\"10\" fill=\"#12202E\" opacity=\"0.3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 380,
+     "y": 388,
+     "w": 100,
+     "t": "cirurgia",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 770,
+     "y": 388,
+     "w": 100,
+     "t": "3 meses",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1159,
+     "y": 388,
+     "w": 100,
+     "t": "6 meses",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1549,
+     "y": 388,
+     "w": 100,
+     "t": "9 meses",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 24,
+     "w": 360,
+     "t": "Cirurgião",
+     "tam": 21,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.15
+    },
+    {
+     "x": 394,
+     "y": 24,
+     "w": 1241,
+     "t": "técnica, enxerto, restrições; portas do tecido",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 100,
+     "w": 360,
+     "t": "Fisioterapia",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.15
+    },
+    {
+     "x": 394,
+     "y": 100,
+     "w": 1241,
+     "t": "conduz do começo ao fim; mede e escreve as portas",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 176,
+     "w": 360,
+     "t": "Preparação física",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.15
+    },
+    {
+     "x": 836,
+     "y": 176,
+     "w": 799,
+     "t": "corrida, fase de campo, gesto e condicionamento",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 252,
+     "w": 360,
+     "t": "Psicologia e nutrição",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.15
+    },
+    {
+     "x": 394,
+     "y": 252,
+     "w": 1241,
+     "t": "matéria-prima de meses; o medo perto do retorno",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 328,
+     "w": 360,
+     "t": "Treinador, atleta, família",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.15
+    },
+    {
+     "x": 394,
+     "y": 328,
+     "w": 1241,
+     "t": "expectativa honesta desde o começo; a porta de cada mês",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 388,
+     "w": 300,
+     "t": "esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Nove meses, muitas mãos",
-   "titulo": "Quem faz o quê",
-   "cab": [
-    "Quem",
-    "O que faz no percurso"
-   ],
-   "larguras": [
-    28,
-    72
-   ],
-   "linhas": [
-    [
-     "Cirurgião",
-     "técnica, enxerto, restrições iniciais, portas em que o tecido é o limite"
-    ],
-    [
-     "Fisioterapia",
-     "conduz do começo ao fim; mede derrame, amplitude e força; escreve as portas"
-    ],
-    [
-     "Preparação física",
-     "corrida, fase de campo, gesto e condicionamento"
-    ],
-    [
-     "Psicologia e nutrição",
-     "o medo perto do retorno; a matéria-prima de meses de força"
-    ],
-    [
-     "Treinador, atleta, família",
-     "a porta de cada mês; a expectativa honesta desde o começo"
-    ]
-   ],
-   "destaque_cor": "tinta"
+   "titulo": "Quem faz o quê"
   },
   {
    "id": "fecho",

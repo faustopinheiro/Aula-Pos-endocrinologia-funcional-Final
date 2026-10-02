@@ -107,6 +107,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Caso ilustrativo · o plan
                     {"t": "Psicologia, nutrição, família", "x": "O medo, a matéria-prima, a paciência."}],
           "quem": "Próxima aula: posterior da coxa e virilha."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-05")
+
 spec = {"arquivo": "aulas/MOD08/08-05-reabilitacao-do-lca.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Reabilitação do cruzado anterior", "subtitulo": "Nove meses de portas num caso ilustrativo",

@@ -806,12 +806,227 @@ def cinco_84():
     rs.append(rot(90, 414, "Por baixo dos cinco, o registro", w=1500, tam=28, cor=PAPEL, peso=700, serif=True))
     return slide("cinco", 470, p, rs, eyebrow="Juntando", titulo="Cinco erros e o que fazer no lugar")
 
+# ---------------------------------------------------------------- 8.5
+
+def caso_85():
+    """8.5: a sequência da lesão da jogadora e, ao lado, nove meses de plano no lugar de uma data."""
+    p = [svg_abre(1664, 360, "À esquerda, a sequência da lesão de uma jogadora de handebol na casa dos vinte anos: aterrissagem depois do arremesso, joelho para dentro, estalo, inchaço em horas; ruptura do cruzado anterior e reconstrução decidida com o cirurgião. À direita, a pergunta quando eu volto, respondida com nove meses de plano em vez de uma data. O objeto é o percurso, não o desfecho"), defs(MUDO)]
+    rs = []
+    passos = [("h:running", "aterrissagem depois do arremesso"), ("t:arrow-down-right", "joelho para dentro"), ("t:bolt", "estalo"), ("t:droplet", "inchaço em horas")]
+    for k, (ic, t) in enumerate(passos):
+        y = k * 76
+        p.append(caixa(0, y, 560, 64, FOSF, FOSF_T, esp=2, rx=12))
+        p.append(icone(ic, 14, y + 10, 44, FOSF))
+        rs.append(rot(72, y + 18, t, w=470, tam=22, cor=TINTA, peso=700))
+    p.append(caixa(0, 304, 560, 56, TINTA, TINTA, esp=0, rx=12))
+    rs.append(rot(20, 318, "ruptura do cruzado · reconstrução", w=520, tam=21, cor=PAPEL, peso=700))
+    p.append(seta(580, 180, 650, 180, MUDO, "m0", esp=3))
+    p.append(caixa(670, 0, 994, 360, OXID, CARTAO, esp=2, rx=16))
+    p.append(icone("t:message-circle", 694, 22, 48, TINTA))
+    rs.append(rot(756, 26, "“Quando eu volto?”", w=600, tam=28, cor=TINTA, peso=700, serif=True))
+    for m in range(9):
+        x = 700 + m * 104
+        p.append(f'<rect x="{x}" y="120" width="92" height="110" rx="10" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"/>')
+        p.append(f'<circle cx="{x + 46}" cy="200" r="7" fill="{OXID}"/>')
+        rs.append(rot(x, 134, f"{m + 1}º", w=92, tam=22, cor=OXID, peso=700, alinha="center"))
+    rs += [rot(700, 250, "um plano: fases, portas, responsáveis", w=940, tam=22, cor=TINTA, peso=700),
+           rot(700, 296, "o objeto é o percurso, não o desfecho", w=940, tam=21, cor=MUDO)]
+    return slide("caso", 360, p, rs, eyebrow="Caso ilustrativo · jogadora de handebol, na casa dos vinte", titulo="“Quando eu volto?” A resposta é um plano, não uma data.")
+
+
+def expectativa_85():
+    """8.5: três barras que encolhem, de algum esporte a esporte competitivo, sobre cem atletas."""
+    p = [svg_abre(1664, 300, "Três barras horizontais sobre uma escala de cem por cento: 81% voltam a algum esporte, 65% ao nível de antes da lesão, 55% ao esporte competitivo")]
+    rs = []
+    X0, E = 420, 12
+    for k, (v, t, cor) in enumerate([(81, "voltam a algum esporte", OXID), (65, "ao nível de antes da lesão", GLIC), (55, "ao esporte competitivo", FOSF)]):
+        y = k * 96
+        p.append(f'<rect x="{X0}" y="{y}" width="{100 * E}" height="76" rx="8" fill="{CINZA}" opacity="0.45"/>')
+        p.append(f'<rect x="{X0}" y="{y}" width="{v * E}" height="76" rx="8" fill="{cor}"/>')
+        rs += [rot(0, y + 22, t, w=390, tam=23, cor=TINTA, peso=700, alinha="right"),
+               rot(X0 + v * E - 170, y + 14, f"{v}%", w=150, tam=40, cor=PAPEL, peso=700, alinha="right", serif=True)]
+    rs.append(rot(X0, 290 - 4, "100%", w=1200, tam=17, cor=MUDO, alinha="right"))
+    return slide("expectativa", 300, p, rs, eyebrow="A conversa do primeiro mês", titulo="Voltar ao nível de antes não é automático",
+                 destaque="Com os números de Delaware e Oslo do módulo de lesões: nove meses é o horizonte, e o critério decide se nove meses bastam.", destaque_cor="tinta",
+                 fonte="Metanálise, Br J Sports Med 2014")
+
+
+def antes_85():
+    """8.5: duas barras de retorno, com e sem reabilitação antes da cirurgia, e os três alvos da chegada à cirurgia."""
+    p = [svg_abre(1664, 380, "Duas barras de retorno ao esporte de antes, dois anos depois da cirurgia: 72% com reabilitação estendida antes da cirurgia, 63% sem ela. É comparação entre coortes, não ensaio sorteado. À direita, os três alvos para chegar à cirurgia: joelho calmo, extensão completa, quadríceps ativo")]
+    rs = []
+    B, E = 310, 3.0
+    for k, (v, t, cor) in enumerate([(72, "com reabilitação antes", OXID), (63, "sem ela", GLIC)]):
+        x = 40 + k * 340
+        p.append(f'<rect x="{x}" y="{B - v * E:.0f}" width="280" height="{v * E:.0f}" rx="8" fill="{cor}"/>')
+        rs += [rot(x, B - v * E - 56, f"{v}%", w=280, tam=44, cor=cor, peso=700, alinha="center", serif=True),
+               rot(x, B + 10, t, w=280, tam=20, cor=TINTA, peso=700, alinha="center")]
+    p.append(f'<line x1="20" y1="{B}" x2="700" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    rs.append(rot(20, 0, "voltaram ao esporte de antes, dois anos depois", w=680, tam=19, cor=MUDO, peso=700))
+    rs.append(rot(20, 352, "comparação entre coortes, não ensaio sorteado", w=680, tam=18, cor=MUDO))
+    p.append(caixa(780, 0, 884, 380, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(808, 20, "Chegar à cirurgia com", w=820, tam=26, cor=OXID, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:temperature", "joelho calmo, sem derrame importante"), ("t:ruler-measure", "extensão completa"), ("t:bolt", "quadríceps contraindo bem")]):
+        y = 96 + j * 84
+        p.append(icone(ic, 808, y, 48, OXID))
+        rs.append(rot(874, y + 10, t, w=760, tam=24, cor=TINTA, peso=700))
+    return slide("antes", 380, p, rs, eyebrow="Quando há tempo antes da cirurgia", titulo="A reabilitação começa antes dela",
+                 fonte="192 contra 1.995 pacientes · Am J Sports Med 2016")
+
+
+def semanas_85():
+    """8.5: três prioridades numeradas e, embaixo, a porta da fase no lugar da semana seis."""
+    p = [svg_abre(1664, 400, "Três prioridades numeradas, nesta ordem. Um: extensão completa; perdida agora, é difícil de recuperar e muda a marcha por meses. Dois: derrame sob controle; o joelho cheio desliga o quadríceps, medido toda sessão. Três: quadríceps ligado; contração voluntária e perna estendida sem o joelho dobrar. Embaixo, a porta da fase: extensão completa, derrame mínimo e estável, marcha sem muletas e sem mancar. Não é semana seis"), defs(MUDO)]
+    rs = []
+    W = 520
+    cards = [("Extensão completa", "perdida agora, é difícil de recuperar e muda a marcha por meses", FOSF, FOSF_T, "t:ruler-measure"),
+             ("Derrame sob controle", "o joelho cheio desliga o quadríceps; medido toda sessão", GLIC, GLIC_T, "t:droplet"),
+             ("Quadríceps ligado", "contração voluntária e perna estendida sem o joelho dobrar", OXID, OXID_T, "t:bolt")]
+    for k, (t, d, cor, fundo, ic) in enumerate(cards):
+        x = k * (W + 52)
+        p.append(caixa(x, 0, W, 230, cor, fundo, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 44}" cy="46" r="26" fill="{cor}"/>')
+        rs.append(rot(x + 18, 30, str(k + 1), w=52, tam=26, cor=PAPEL, peso=700, alinha="center", serif=True))
+        p.append(icone(ic, x + W - 64, 22, 44, cor))
+        rs += [rot(x + 84, 30, t, w=W - 160, tam=25, cor=cor, peso=700, serif=True), rot(x + 24, 100, d, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
+        if k < 2:
+            p.append(seta(x + W + 6, 115, x + W + 46, 115, MUDO, "m0", esp=3))
+    p.append(caixa(0, 260, 1664, 140, TINTA, TINTA, esp=0, rx=16))
+    p.append(icone("t:door", 24, 282, 48, PAPEL))
+    rs += [rot(88, 288, "A porta da fase", w=500, tam=26, cor=PAPEL, peso=700, serif=True),
+           rot(88, 334, "extensão completa · derrame mínimo e estável · marcha sem muletas e sem mancar", w=1240, tam=22, cor=PAPEL)]
+    p.append(icone("t:calendar", 1360, 290, 56, MUDO))
+    p.append(f'<line x1="1350" y1="352" x2="1426" y2="280" stroke="{FOSF}" stroke-width="5"/>')
+    rs.append(rot(1440, 300, "não é “semana seis”", w=210, tam=22, cor=PAPEL, peso=700, lh=1.2))
+    return slide("semanas", 400, p, rs, eyebrow="Primeiras semanas depois da cirurgia", titulo="Três prioridades, nesta ordem")
+
+
+def forca_85():
+    """8.5: cadeia aberta igual a fechada na frouxidão; eletroestimulação somada ao treino."""
+    p = [svg_abre(1664, 340, "Dois painéis. À esquerda, cadeira extensora pode? Cadeia aberta e cadeia fechada, com um sinal de igual: sem diferença na frouxidão do joelho; entra, com amplitude e carga combinadas. À direita, eletroestimulação ajuda? Uma barra de força do quadríceps com a fisioterapia, e um pedaço a mais somado pela eletroestimulação: soma ao treino, não o substitui")]
+    rs = []
+    p.append(caixa(0, 0, 800, 340, OXID, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 18, "Cadeira extensora pode?", w=760, tam=27, cor=OXID, peso=700, serif=True))
+    for k, (t, d) in enumerate([("cadeia aberta", "cadeira extensora, pé livre"), ("cadeia fechada", "agachamento, pé apoiado")]):
+        x = 30 + k * 420
+        p.append(caixa(x, 80, 320, 120, OXID, OXID_T, esp=2, rx=14))
+        rs += [rot(x + 16, 100, t, w=288, tam=24, cor=OXID, peso=700, alinha="center"), rot(x + 16, 140, d, w=288, tam=19, cor=TINTA, alinha="center")]
+    rs.append(rot(350, 112, "=", w=100, tam=52, cor=TINTA, peso=700, alinha="center", serif=True))
+    rs += [rot(30, 222, "sem diferença na frouxidão do joelho", w=740, tam=23, cor=TINTA, peso=700),
+           rot(30, 268, "entra, com amplitude e carga combinadas", w=740, tam=21, cor=MUDO)]
+    p.append(caixa(864, 0, 800, 340, OXID, CARTAO, esp=2, rx=16))
+    rs.append(rot(888, 18, "Eletroestimulação ajuda?", w=760, tam=27, cor=OXID, peso=700, serif=True))
+    p.append(f'<rect x="900" y="100" width="480" height="80" rx="8" fill="{OXID}"/>')
+    p.append(f'<rect x="1384" y="100" width="150" height="80" rx="8" fill="{GLIC}"/>')
+    rs += [rot(900, 122, "fisioterapia e treino", w=480, tam=22, cor=PAPEL, peso=700, alinha="center"),
+           rot(1384, 114, "+ eletro", w=150, tam=22, cor=PAPEL, peso=700, alinha="center"),
+           rot(900, 194, "força do quadríceps · esquema", w=640, tam=18, cor=MUDO),
+           rot(900, 238, "soma ao treino, não o substitui", w=740, tam=23, cor=TINTA, peso=700)]
+    return slide("forca", 340, p, rs, eyebrow="A fase mais longa: o quadríceps é o eixo", titulo="Duas discussões antigas",
+                 destaque="Força de verdade pede carga alta, por meses. Faixa elástica para sempre não reconstrói um quadríceps.", destaque_cor="tinta",
+                 fonte="J Orthop Sports Phys Ther 2018 · Knee Surg Sports Traumatol Arthrosc 2018")
+
+
+def corrida_85():
+    """8.5: o relógio de doze semanas e menos de um em cinco estudos com critério; ao lado, a porta da jogadora."""
+    p = [svg_abre(1664, 380, "À esquerda, um relógio: mediana de 12 semanas para liberar a corrida em 201 estudos. Embaixo, cinco casas, com menos de uma preenchida: menos de 1 em 5 usou algum critério além do tempo. À direita, a porta da jogadora: sem derrame, amplitude completa, força do quadríceps combinada com o outro lado, saltitar e aterrissar sem dor e sem o joelho ir para dentro")]
+    rs = []
+    p.append(caixa(0, 0, 760, 380, GLIC, CARTAO, esp=2, rx=16))
+    p.append(icone("t:clock", 30, 30, 96, GLIC))
+    rs += [rot(150, 30, "12 semanas", w=580, tam=48, cor=GLIC, peso=700, serif=True),
+           rot(150, 96, "mediana de liberação da corrida em 201 estudos", w=580, tam=20, cor=TINTA, lh=1.25)]
+    for c in range(5):
+        x = 30 + c * 140
+        p.append(f'<rect x="{x}" y="200" width="124" height="70" rx="10" fill="{CINZA}" opacity="0.5"/>')
+    p.append(f'<rect x="30" y="200" width="100" height="70" rx="10" fill="{FOSF}"/>')
+    rs += [rot(30, 286, "menos de 1 em 5 usou algum critério além do tempo", w=700, tam=21, cor=FOSF, peso=700, lh=1.25)]
+    p.append(caixa(820, 0, 844, 380, OXID, OXID_T, esp=2, rx=16))
+    p.append(icone("t:door", 846, 22, 48, OXID))
+    rs.append(rot(908, 28, "A porta dela", w=700, tam=28, cor=OXID, peso=700, serif=True))
+    for j, t in enumerate(["sem derrame", "amplitude completa", "força do quadríceps combinada com o outro lado", "saltitar e aterrissar sem dor e sem o joelho ir para dentro"]):
+        y = 98 + j * 68
+        p.append(icone("t:check", 846, y, 36, OXID))
+        rs.append(rot(896, y + 4, t, w=740, tam=22, cor=TINTA, peso=700 if j < 2 else 400, lh=1.2))
+    return slide("corrida", 380, p, rs, eyebrow="A primeira porta que a atleta sente como vitória", titulo="Voltar a correr: o tempo quase sempre sozinho",
+                 fonte="Revisão de mapeamento, Br J Sports Med 2018")
+
+
+def relogios_85():
+    """8.5: duas trilhas de nove meses, a do enxerto lenta e regular, a do quadríceps imprevisível, em esquema."""
+    p = [svg_abre(1664, 380, "Em esquema, duas trilhas de zero a nove meses. O enxerto amadurece devagar e de forma regular: é ele que marca o horizonte de nove meses. O quadríceps sobe e empaca de forma imprevisível. No sexto mês a atleta pode se sentir pronta com o quadríceps fraco; no sétimo, ter um quadríceps excelente com o enxerto no meio do caminho. A decisão é tempo e critério")]
+    rs = []
+    X0, W, B = 300, 1300, 320
+    for m in range(10):
+        x = X0 + m * W / 9
+        p.append(f'<line x1="{x:.0f}" y1="20" x2="{x:.0f}" y2="{B}" stroke="{BORDA}" stroke-width="2"/>')
+        if m % 3 == 0:
+            rs.append(rot(x - 50, B + 8, f"{m} meses" if m else "0", w=100, tam=18, cor=MUDO, alinha="center"))
+    p.append(f'<line x1="{X0}" y1="{B}" x2="{X0 + W}" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<path d="M {X0} 290 C {X0 + 500} 280, {X0 + 900} 200, {X0 + W} 60" fill="none" stroke="{AZUL}" stroke-width="6"/>')
+    p.append(f'<path d="M {X0} 300 L {X0 + 150} 260 L {X0 + 260} 270 L {X0 + 420} 190 L {X0 + 560} 200 L {X0 + 700} 150 L {X0 + 870} 90 L {X0 + 1000} 100 L {X0 + W} 70" fill="none" stroke="{GLIC}" stroke-width="6" stroke-linejoin="round"/>')
+    rs += [rot(0, 216, "enxerto", w=280, tam=26, cor=AZUL, peso=700, alinha="right", serif=True), rot(0, 250, "devagar e regular", w=280, tam=19, cor=TINTA, alinha="right"),
+           rot(0, 120, "quadríceps", w=280, tam=26, cor=GLIC, peso=700, alinha="right", serif=True), rot(0, 154, "sobe e empaca", w=280, tam=19, cor=TINTA, alinha="right")]
+    rs.append(rot(X0, 0, "esquema", w=200, tam=17, cor=MUDO))
+    p.append(icone("t:door", X0 + W - 16, 2, 40, TINTA))
+    rs.append(rot(X0 + W - 260, 350, "a decisão: tempo e critério", w=300, tam=21, cor=TINTA, peso=700, alinha="right"))
+    return slide("relogios", 380, p, rs, eyebrow="A ideia do caso", titulo="O relógio do enxerto e o relógio do quadríceps não andam juntos.",
+                 destaque="Pronta no sexto mês com o quadríceps fraco; quadríceps excelente no sétimo com o enxerto no meio do caminho.", destaque_cor="tinta")
+
+
+def ultima_85():
+    """8.5: a porta do nono mês com três placas, ligada ao primeiro dia por uma linha do tempo."""
+    p = [svg_abre(1664, 380, "Uma linha do tempo do primeiro dia até perto do nono mês, onde está a última porta, com três placas. Testes de retorno: força, saltos e a armadilha do índice de simetria. Prontidão psicológica: o medo de nova lesão não aparece no dinamômetro. Decisão compartilhada: avaliar o risco é uma coisa; aceitá-lo é outra. A porta está no plano desde o primeiro dia, e cada parte ganha uma conversa adiante")]
+    rs = []
+    W = 520
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:ruler-measure", "Testes de retorno", "força, saltos e a armadilha do índice de simetria", OXID, OXID_T),
+                                                ("t:zoom-question", "Prontidão psicológica", "o medo de nova lesão não aparece no dinamômetro", GLIC, GLIC_T),
+                                                ("t:users-group", "Decisão compartilhada", "avaliar o risco é uma coisa; aceitá-lo é outra", TINTA, PAPEL)]):
+        x = k * (W + 52)
+        p.append(caixa(x, 0, W, 230, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 24, 48, cor))
+        rs += [rot(x + 88, 32, t, w=W - 110, tam=25, cor=cor, peso=700, serif=True), rot(x + 24, 100, d, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
+    B = 300
+    p.append(f'<line x1="20" y1="{B}" x2="1560" y2="{B}" stroke="{MUDO}" stroke-width="4"/>')
+    p.append(f'<circle cx="20" cy="{B}" r="12" fill="{OXID}"/>')
+    p.append(f'<rect x="1560" y="{B - 46}" width="64" height="92" rx="8" fill="{TINTA}"/>')
+    rs += [rot(0, B + 24, "primeiro dia: a porta já está no plano", w=700, tam=21, cor=OXID, peso=700),
+           rot(1000, B + 54, "perto do nono mês", w=620, tam=21, cor=TINTA, peso=700, alinha="right"),
+           rot(560, B - 44, "ninguém é surpreendido no oitavo mês", w=600, tam=19, cor=MUDO, alinha="center")]
+    return slide("ultima", 380, p, rs, eyebrow="Perto do nono mês", titulo="A última porta tem três partes",
+                 destaque="Cada parte ganha uma conversa própria adiante.", destaque_cor="tinta")
+
+
+def quem_85():
+    """8.5: cinco faixas de responsáveis ao longo dos nove meses, em esquema."""
+    p = [svg_abre(1664, 420, "Em esquema, cinco faixas ao longo dos nove meses. Cirurgião: técnica, enxerto e restrições iniciais, forte no começo, depois nas portas em que o tecido é o limite. Fisioterapia: do começo ao fim, mede derrame, amplitude e força e escreve as portas. Preparação física: da corrida em diante, fase de campo, gesto e condicionamento. Psicologia e nutrição: a matéria-prima de meses de força o tempo todo, e o medo perto do retorno. Treinador, atleta e família: a expectativa honesta desde o começo e a porta de cada mês")]
+    rs = []
+    X0, W = 430, 1234
+    def mx(m):
+        return X0 + m * W / 9.5
+    for m in range(0, 10, 3):
+        p.append(f'<line x1="{mx(m):.0f}" y1="0" x2="{mx(m):.0f}" y2="380" stroke="{BORDA}" stroke-width="2"/>')
+        rs.append(rot(mx(m) - 50, 388, f"{m} meses" if m else "cirurgia", w=100, tam=18, cor=MUDO, alinha="center"))
+    faixas = [("Cirurgião", [(-0.4, 1.5, .3), (3, 3.4, .3), (6, 6.4, .3), (8.7, 9.2, .3)], "técnica, enxerto, restrições; portas do tecido", AZUL, -0.4, TINTA),
+              ("Fisioterapia", [(-0.4, 9.4, 1)], "conduz do começo ao fim; mede e escreve as portas", OXID, -0.4, PAPEL),
+              ("Preparação física", [(3, 9.4, 1)], "corrida, fase de campo, gesto e condicionamento", GLIC, 3, PAPEL),
+              ("Psicologia e nutrição", [(-0.4, 9.4, .3), (7, 9.4, .8)], "matéria-prima de meses; o medo perto do retorno", FOSF, -0.4, TINTA),
+              ("Treinador, atleta, família", [(-0.4, 9.4, .3)], "expectativa honesta desde o começo; a porta de cada mês", TINTA, -0.4, TINTA)]
+    for k, (t, segs, d, cor, x0, ct) in enumerate(faixas):
+        y = 6 + k * 76
+        rs.append(rot(0, y + 18, t, w=360, tam=21, cor=cor, peso=700, alinha="right", lh=1.15))
+        for a, b, op in segs:
+            p.append(f'<rect x="{mx(a):.0f}" y="{y}" width="{mx(b) - mx(a):.0f}" height="60" rx="10" fill="{cor}" opacity="{op}"/>')
+        rs.append(rot(mx(x0) + 16, y + 18, d, w=mx(9.4) - mx(x0) - 32, tam=19, cor=ct, peso=700))
+    rs.append(rot(0, 388, "esquema", w=300, tam=17, cor=MUDO, alinha="right"))
+    return slide("quem", 420, p, rs, eyebrow="Nove meses, muitas mãos", titulo="Quem faz o quê")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipoteses_81, laudo_81, vieses_81, quem_81],
           "08-02": [folha_82, piso_82, resposta_82, saidas_82, portas_82, custo_82, naoabre_82, degraus_82, quem_82, ficha_82],
           "08-03": [bomba_83, desmontar_83, musculo_83, magnitude_83, desuso_83, repouso_83, relogios_83, pratica_83],
-          "08-04": [planilha_84, regra_84, variavel_84, degrau_84, degrauabaixo_84, registro_84, principios_84, cinco_84]}
+          "08-04": [planilha_84, regra_84, variavel_84, degrau_84, degrauabaixo_84, registro_84, principios_84, cinco_84],
+          "08-05": [caso_85, expectativa_85, antes_85, semanas_85, forca_85, corrida_85, relogios_85, ultima_85, quem_85]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
