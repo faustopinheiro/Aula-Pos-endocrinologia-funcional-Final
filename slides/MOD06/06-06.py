@@ -119,6 +119,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "As três decisões, respon
                     {"t": "Preparação, fisio, psicologia", "x": "Conduzem os degraus, tratam pescoço e equilíbrio, cuidam do medo de voltar."}],
           "quem": "A conversa com escola, família e clube é parte do tratamento."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-06")
+
 spec = {"arquivo": "aulas/MOD06/06-06-concussao-reconhecimento-retirada-e-retorno.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Concussão relacionada ao esporte", "subtitulo": "Reconhecer, retirar e conduzir o retorno",

@@ -1328,13 +1328,300 @@ def ensaio_65():
                  destaque="O cronômetro costuma mostrar a mesma coisa: o DEA demora mais do que todo mundo achava.",
                  destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 6.6
+
+def frase_66():
+    """6.6: o exame que não decide e a decisão clínica tomada três vezes."""
+    p = [svg_abre(1664, 400, "À esquerda, o exame: a tomografia costuma vir normal na concussão; ela exclui sangramento, não concussão, e não decide por você. À direita, a decisão: clínica, rápida, sob pressão, e tomada três vezes, à beira do campo, em casa e no vestiário")]
+    rs = []
+    p.append(caixa(0, 0, 620, 400, MUDO, PAPEL, esp=2, rx=18))
+    p.append(icone("t:brain", 40, 40, 120, MUDO))
+    p.append(icone("t:check", 170, 110, 56, OXID))
+    rs += [rot(240, 60, "A tomografia", w=360, tam=30, cor=TINTA, peso=700, serif=True),
+           rot(240, 110, "costuma vir normal", w=360, tam=24, cor=OXID, peso=700),
+           rot(40, 220, "exclui sangramento, não concussão: nenhum exame decide por você", w=550, tam=24, cor=TINTA, lh=1.35)]
+    p.append(caixa(680, 0, 984, 400, FOSF, CARTAO, esp=2, rx=18))
+    rs += [rot(704, 24, "A decisão é clínica, rápida, sob pressão", w=930, tam=30, cor=FOSF, peso=700, serif=True),
+           rot(704, 82, "e é tomada três vezes", w=930, tam=24, cor=TINTA)]
+    for k, (t, ic) in enumerate([("à beira do campo", "t:soccer-field"), ("em casa", "t:home"), ("no vestiário", "t:door")]):
+        x = 720 + k * 312
+        p.append(f'<circle cx="{x + 130}" cy="230" r="72" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="3"/>')
+        p.append(icone(ic, x + 100, 200, 60, FOSF))
+        rs.append(rot(x, 320, t, w=260, tam=24, cor=TINTA, peso=700, alinha="center"))
+        if k < 2:
+            p.append(f'<line x1="{x + 206}" y1="230" x2="{x + 366}" y2="230" stroke="{FOSF}" stroke-width="3"{TRACO}/>')
+    return slide("frase", 400, p, rs, eyebrow="Concussão relacionada ao esporte", titulo="A lesão em que a decisão errada custa mais do que a lesão")
+
+
+def decisoes_66():
+    """6.6: as três decisões numa linha do tempo: 30 segundos, 48 horas, sétimo dia."""
+    p = [svg_abre(1664, 380, "Uma linha do tempo com três decisões. Aos trinta segundos, à beira do campo: o meia cambaleia e diz que está bem; dá para continuar? Às quarenta e oito horas, na casa da família: o adolescente no domingo; escola, celular, quarto escuro? No sétimo dia, no vestiário: estou zerado, posso treinar com contato?")]
+    rs = []
+    p.append(f'<line x1="0" y1="52" x2="1664" y2="52" stroke="{MUDO}" stroke-width="4"/>')
+    itens = [("30 segundos", "À beira do campo", "o meia cambaleia e diz que está bem: dá para continuar?", FOSF, FOSF_T, "t:soccer-field"),
+             ("48 horas", "Na casa da família", "o adolescente no domingo: escola, celular, quarto escuro?", GLIC, GLIC_T, "t:home"),
+             ("7º dia", "No vestiário", "“estou zerado, posso treinar com contato?”", OXID, OXID_T, "t:door")]
+    for k, (q, t, d, cor, fundo, ic) in enumerate(itens):
+        x = k * 568
+        p.append(f'<circle cx="{x + 264}" cy="52" r="14" fill="{cor}"/>')
+        rs.append(rot(x, 0, q, w=528, tam=22, cor=cor, peso=700, alinha="center"))
+        p.append(caixa(x, 90, 528, 290, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 114, 52, cor))
+        rs += [rot(x + 92, 122, t, w=420, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, 200, d, w=480, tam=24, cor=TINTA, lh=1.35)]
+    return slide("decisoes", 380, p, rs, eyebrow="As três decisões da aula", titulo="Trinta segundos, quarenta e oito horas, sétimo dia",
+                 destaque="O diagnóstico é médico. Reconhecer e retirar de campo não é, e é aí que o sistema mais falha.", destaque_cor="tinta")
+
+
+def equivocos_66():
+    """6.6: três frases riscadas e o que vale no lugar, com a perda de consciência em barra."""
+    p = [svg_abre(1664, 380, "Três equívocos riscados e o que vale. Não bateu a cabeça: a força chega pelo ombro, pelo tronco, pela queda. Não desmaiou: a perda de consciência aparece em menos de dez por cento dos casos, mostrada numa barra. A tomografia deu normal: é o esperado; ela exclui sangramento, não concussão")]
+    rs = []
+    itens = [("“Não bateu a cabeça.”", "a força chega pelo ombro, pelo tronco, pela queda", "forca"),
+             ("“Não desmaiou.”", "perda de consciência em menos de 10% dos casos", "barra"),
+             ("“A tomografia deu normal.”", "é o esperado; ela exclui sangramento, não concussão", "tc")]
+    for k, (a, b, viz) in enumerate(itens):
+        x = k * 568
+        p.append(caixa(x, 0, 528, 80, FOSF, FOSF_T, esp=2, rx=40))
+        rs.append(rot(x + 20, 22, a, w=488, tam=25, cor=FOSF, peso=700, alinha="center"))
+        wl = len(a) * 12.5
+        p.append(f'<line x1="{x + 264 - wl / 2:.0f}" y1="40" x2="{x + 264 + wl / 2:.0f}" y2="40" stroke="{FOSF}" stroke-width="3"/>')
+        p.append(caixa(x, 100, 528, 280, OXID, CARTAO, esp=2, rx=16))
+        rs.append(rot(x + 24, 290, b, w=480, tam=23, cor=TINTA, lh=1.3))
+        if viz == "forca":
+            p.append(icone("h:person", x + 200, 120, 140, MUDO))
+            p.append(f'<line x1="{x + 60}" y1="200" x2="{x + 220}" y2="200" stroke="{OXID}" stroke-width="6"/>')
+            p.append(f'<path d="M {x + 220} 188 L {x + 240} 200 L {x + 220} 212 Z" fill="{OXID}"/>')
+        elif viz == "barra":
+            p.append(f'<rect x="{x + 24}" y="170" width="480" height="60" rx="6" fill="{PAPEL}" stroke="{BORDA}" stroke-width="2"/>')
+            p.append(f'<rect x="{x + 24}" y="170" width="48" height="60" rx="6" fill="{OXID}"/>')
+            rs += [rot(x + 84, 186, "< 10% perdem a consciência", w=400, tam=22, cor=OXID, peso=700)]
+        else:
+            p.append(icone("t:brain", x + 190, 120, 140, MUDO))
+            p.append(icone("t:check", x + 340, 130, 50, OXID))
+    return slide("equivocos", 380, p, rs, eyebrow="A definição do consenso de Amsterdã", titulo="Três equívocos que ela resolve",
+                 destaque="Os sintomas podem aparecer em minutos ou horas. Quem estava bem no intervalo e piora à noite continua suspeito.",
+                 destaque_cor="petr", fonte="Consenso de Amsterdã, Br J Sports Med 2023")
+
+
+def sinais_66():
+    """6.6: seis sinais, e qualquer um deles leva para fora de campo."""
+    p = [svg_abre(1664, 400, "Seis sinais em ladrilhos, todos ligados a uma saída à direita: fora de campo. Demora para levantar sem causa aparente; incoordenação, cambaleio e passos instáveis; olhar vago, parado, desconectado; postura tônica ou abalos, com retirada imediata e avaliação urgente; confusão, não sabe o placar, repete perguntas; e o que ele relata: dor de cabeça, náusea, tontura, lentidão. Um único sinal basta"), defs(FOSF)]
+    rs = []
+    itens = [("t:clock", "Demora para levantar", "sem causa aparente", FOSF), ("t:walk", "Incoordenação", "cambaleio, passos instáveis", FOSF),
+             ("t:eye-off", "Olhar vago", "parado, desconectado", FOSF), ("t:alert-triangle", "Postura tônica ou abalos", "retirada imediata e avaliação urgente", FOSF),
+             ("t:mood-confuzed", "Confusão", "não sabe o placar, repete perguntas", GLIC), ("t:message-circle", "O que ele relata", "dor de cabeça, náusea, tontura, lentidão", GLIC)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        col, lin = k % 3, k // 3
+        x, y = col * 410, lin * 206
+        p.append(caixa(x, y, 390, 190, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 20, y + 20, 48, cor))
+        rs += [rot(x + 80, y + 26, t, w=290, tam=24, cor=cor, peso=700, lh=1.15), rot(x + 20, y + 106, d, w=350, tam=22, cor=TINTA, lh=1.3)]
+    p.append(seta(1240, 200, 1300, 200, FOSF, "m0", esp=6))
+    p.append(caixa(1320, 60, 344, 280, FOSF, FOSF, esp=0, rx=18))
+    p.append(icone("t:door-exit", 1452, 90, 80, PAPEL))
+    rs += [rot(1330, 190, "um sinal basta", w=324, tam=30, cor=PAPEL, peso=700, alinha="center", serif=True),
+           rot(1340, 240, "sai de campo para ser avaliado", w=304, tam=22, cor=PAPEL, alinha="center", lh=1.3)]
+    return slide("sinais", 400, p, rs, eyebrow="Decisão à beira do campo", titulo="Um único sinal basta")
+
+
+def retira_66():
+    """6.6: reconhecer, retirar, avaliar: quem faz cada parte e com que ferramenta."""
+    p = [svg_abre(1664, 380, "Um fluxo em três partes. Reconhecer: qualquer pessoa, com o cartão CRT6, feito para quem não é da saúde; não diagnostica, decide quem sai para ser avaliado. Retirar: não volta no mesmo dia, em nenhuma idade. Avaliar: o médico, com o SCAT6 a partir de 13 anos e o Child SCAT6 de 8 a 12, com maior sensibilidade até 72 horas; depois de uma semana, a versão de consultório"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 0, 620, 380, OXID, OXID_T, esp=2, rx=18))
+    p.append(icone("t:users", 24, 22, 48, OXID))
+    rs += [rot(88, 28, "Reconhecer: qualquer pessoa", w=520, tam=27, cor=OXID, peso=700, serif=True)]
+    for k, t in enumerate(["cartão CRT6", "feito para quem não é da saúde", "não diagnostica", "decide quem sai para ser avaliado"]):
+        y = 104 + k * 64
+        p.append(icone("t:check", 24, y, 34, OXID))
+        rs.append(rot(70, y + 2, t, w=530, tam=23, cor=TINTA))
+    p.append(seta(630, 190, 690, 190, MUDO, "m0", esp=4))
+    p.append(caixa(700, 90, 264, 200, FOSF, FOSF, esp=0, rx=18))
+    p.append(icone("t:door-exit", 800, 108, 64, PAPEL))
+    rs.append(rot(712, 186, "retira: não volta no mesmo dia", w=240, tam=22, cor=PAPEL, peso=700, alinha="center", lh=1.25))
+    p.append(seta(974, 190, 1034, 190, MUDO, "m0", esp=4))
+    p.append(caixa(1044, 0, 620, 380, TINTA, CARTAO, esp=2, rx=18))
+    p.append(icone("t:stethoscope", 1068, 22, 48, TINTA))
+    rs += [rot(1132, 28, "Avaliar: o médico", w=510, tam=27, cor=TINTA, peso=700, serif=True)]
+    for k, (a, b) in enumerate([("SCAT6", "13 anos ou mais"), ("Child SCAT6", "8 a 12 anos"), ("até 72 h", "maior sensibilidade"), ("após 1 semana", "versão de consultório")]):
+        y = 104 + k * 64
+        rs += [rot(1068, y, a, w=220, tam=24, cor=TINTA, peso=700), rot(1300, y + 2, b, w=340, tam=23, cor=TINTA)]
+    return slide("retira", 380, p, rs, eyebrow="Reconheceu, retira", titulo="Não volta no mesmo dia, em nenhuma idade",
+                 destaque="Retirar não é diagnosticar. É tirar do risco quem pode estar lesionado.", destaque_cor="petr",
+                 fonte="SCAT6 e CRT6, Br J Sports Med 2023")
+
+
+def alarme_66():
+    """6.6: três grupos de sinais de alarme convergindo para a conduta: não mover, 192, hospital."""
+    p = [svg_abre(1664, 380, "Três grupos de sinais de alarme, à esquerda, convergem para a conduta, à direita: não mover, ligar 192, hospital. Consciência: perda prolongada ou nível piorando, comportamento muito alterado. Cabeça: vômitos repetidos, dor que piora, pupilas diferentes, convulsão. Neurológico e coluna: fraqueza, formigamento, fala arrastada, suspeita de lesão cervical"), defs(FOSF)]
+    rs = []
+    itens = [("t:eye-off", "Consciência", "perda prolongada ou nível piorando; comportamento muito alterado"),
+             ("h:head", "Cabeça", "vômitos repetidos, dor que piora, pupilas diferentes, convulsão"),
+             ("t:bolt", "Neurológico e coluna", "fraqueza, formigamento, fala arrastada, suspeita de lesão cervical")]
+    for k, (ic, t, d) in enumerate(itens):
+        y = k * 130
+        p.append(caixa(0, y, 1000, 116, FOSF, FOSF_T, esp=2, rx=16))
+        p.append(icone(ic, 22, y + 30, 52, FOSF))
+        rs += [rot(96, y + 14, t, w=880, tam=26, cor=FOSF, peso=700, serif=True), rot(96, y + 60, d, w=880, tam=22, cor=TINTA)]
+        p.append(f'<path d="M 1000 {y + 58} C 1060 {y + 58}, 1080 190, 1130 190" fill="none" stroke="{FOSF}" stroke-width="3" marker-end="url(#m0)"/>')
+    p.append(caixa(1150, 40, 514, 300, FOSF, FOSF, esp=0, rx=18))
+    for k, (ic, t) in enumerate([("t:hand-stop", "não mover"), ("t:phone-call", "192"), ("t:building-hospital", "hospital")]):
+        y = 70 + k * 86
+        p.append(icone(ic, 1190, y, 52, PAPEL))
+        rs.append(rot(1262, y + 8, t, w=380, tam=32, cor=PAPEL, peso=700, serif=True))
+    return slide("alarme", 380, p, rs, eyebrow="Quando a suspeita vira emergência", titulo="Não mover, 192, hospital")
+
+
+def cultura_66():
+    """6.6: as duas pressões que empurram para ficar em campo e a regra que empurra de volta."""
+    p = [svg_abre(1664, 380, "No centro, a decisão de ficar ou sair de campo. Da esquerda, duas pressões empurram para ficar: o atleta subnotifica, por vaga, contrato ou final, e o órgão lesionado é o que se autoavalia; o técnico decide sob pressão, não por maldade, mas pela função. Da direita, a regra empurra para sair: a substituição adicional por concussão, aprovada pela IFAB em 2024 e adotada pela CBF, que não conta nas trocas normais e tira o peso do banco"), defs(GLIC, OXID)]
+    rs = []
+    for k, (t, d) in enumerate([("O atleta subnotifica", "vaga, contrato, final; o órgão lesionado é o que se autoavalia; “disse que está bem” não é dado clínico"),
+                                ("O técnico decide sob pressão", "não é maldade, é a função; a retirada não deveria depender dele")]):
+        y = k * 196
+        p.append(caixa(0, y, 560, 184, GLIC, GLIC_T, esp=2, rx=16))
+        rs += [rot(24, y + 18, t, w=510, tam=26, cor=GLIC, peso=700, serif=True), rot(24, y + 66, d, w=510, tam=21, cor=TINTA, lh=1.3)]
+        p.append(seta(570, y + 92, 690, 190, GLIC, "m0", esp=4))
+    p.append(f'<circle cx="832" cy="190" r="120" fill="{CARTAO}" stroke="{TINTA}" stroke-width="3"/>')
+    p.append(icone("t:soccer-field", 792, 110, 80, TINTA))
+    rs.append(rot(722, 206, "fica ou sai?", w=220, tam=26, cor=TINTA, peso=700, alinha="center", serif=True))
+    p.append(seta(1090, 190, 974, 190, OXID, "m1", esp=5))
+    p.append(caixa(1104, 0, 560, 380, OXID, OXID_T, esp=2, rx=16))
+    p.append(icone("t:arrows-exchange", 1128, 22, 52, OXID))
+    rs += [rot(1196, 26, "A regra tira o peso do banco", w=450, tam=26, cor=OXID, peso=700, serif=True, lh=1.15),
+           rot(1128, 120, "substituição adicional por concussão", w=510, tam=24, cor=TINTA, peso=700),
+           rot(1128, 190, "aprovada pela IFAB em 2024; adotada pela CBF, a primeira confederação da FIFA a implantá-la", w=510, tam=21, cor=TINTA, lh=1.3),
+           rot(1128, 300, "não conta nas trocas normais", w=510, tam=22, cor=OXID, peso=700)]
+    return slide("cultura", 380, p, rs, eyebrow="Por que a regra é quebrada", titulo="E o que ajuda a cumpri-la",
+                 fonte="IFAB 2024 · CBF, relatório dos campeonatos brasileiros de 2024")
+
+
+def repouso_66():
+    """6.6: duas linhas do tempo: o repouso absoluto antigo e o repouso relativo com volta gradual."""
+    p = [svg_abre(1664, 380, "Duas linhas do tempo, em esquema. Em cima, a orientação antiga: repouso absoluto até zerar os sintomas, quarto escuro, sem tela e sem escola, por dias, desenhado como uma faixa parada. Embaixo, a orientação atual: repouso relativo de 24 a 48 horas, com tela limitada e sono priorizado; depois, movimento leve abaixo do limiar de sintoma, numa linha que sobe aos poucos; uma piora breve de até dois pontos na escala de sintomas é tolerada")]
+    rs = []
+    X0 = 330
+    rs += [rot(0, 20, "A orientação antiga", w=300, tam=26, cor=FOSF, peso=700, serif=True),
+           rot(0, 64, "quarto escuro, sem tela, sem escola, por dias", w=300, tam=20, cor=TINTA, lh=1.25)]
+    p.append(f'<rect x="{X0}" y="40" width="1300" height="60" rx="8" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="2"/>')
+    rs.append(rot(X0 + 24, 56, "repouso absoluto até zerar", w=900, tam=24, cor=FOSF, peso=700))
+    rs += [rot(0, 190, "A orientação atual", w=300, tam=26, cor=OXID, peso=700, serif=True),
+           rot(0, 234, "tela limitada, sono priorizado; álcool não", w=300, tam=20, cor=TINTA, lh=1.25)]
+    p.append(f'<rect x="{X0}" y="300" width="260" height="50" rx="8" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"/>')
+    rs.append(rot(X0 + 10, 310, "24 a 48 h relativo", w=240, tam=21, cor=OXID, peso=700, alinha="center"))
+    p.append(f'<path d="M {X0 + 260} 300 C {X0 + 600} 290, {X0 + 900} 220, {X0 + 1300} 170" fill="none" stroke="{OXID}" stroke-width="5"/>')
+    p.append(f'<path d="M {X0 + 260} 270 C {X0 + 600} 260, {X0 + 900} 190, {X0 + 1300} 140 L {X0 + 1300} 170 C {X0 + 900} 220, {X0 + 600} 290, {X0 + 260} 300 Z" fill="{OXID}" opacity="0.15"/>')
+    rs += [rot(X0 + 620, 176, "movimento leve abaixo do limiar, subindo aos poucos", w=520, tam=21, cor=OXID, peso=700),
+           rot(X0 + 820, 300, "faixa: piora breve de até 2 pontos é tolerada", w=480, tam=19, cor=MUDO),
+           rot(X0, 356, "esquema", w=200, tam=18, cor=MUDO)]
+    return slide("repouso", 380, p, rs, eyebrow="Decisão na casa da família", titulo="A recomendação mudou",
+                 destaque="Álcool não. Analgésico só com orientação. Sinais de alarme entregues por escrito.", destaque_cor="tinta",
+                 fonte="Consenso de Amsterdã 2023")
+
+
+def escola_66():
+    """6.6: duas trilhas em paralelo, a cognitiva e a física, com o contato no fim."""
+    p = [svg_abre(1664, 400, "Duas trilhas em paralelo. Em cima, a trilha cognitiva: atividade cognitiva é carga; meia jornada, pausas, prova adiada, combinado por escrito, até a jornada inteira. Embaixo, a trilha física: movimento leve em paralelo, que sobe aos poucos; o contato fica para o fim, depois que a escola voltou inteira. No adulto, o trabalho: motorista, máquina e altura têm critério de segurança próprio"), defs(MUDO)]
+    rs = []
+    rs += [rot(0, 0, "Escola e trabalho", w=300, tam=26, cor=OXID, peso=700, serif=True), rot(0, 40, "atividade cognitiva é carga", w=300, tam=20, cor=TINTA)]
+    for k, t in enumerate(["meia jornada, com pausas", "prova adiada, combinado por escrito", "jornada inteira"]):
+        x = 320 + k * 420
+        p.append(caixa(x, 0, 400, 80, OXID, OXID_T, esp=2, rx=12))
+        rs.append(rot(x + 16, 24, t, w=368, tam=22, cor=TINTA, peso=600, alinha="center"))
+        if k < 2:
+            p.append(seta(x + 402, 40, x + 416, 40, MUDO, "m0", esp=3))
+    rs += [rot(0, 150, "Movimento", w=300, tam=26, cor=GLIC, peso=700, serif=True), rot(0, 190, "leve, em paralelo", w=300, tam=20, cor=TINTA)]
+    for k, t in enumerate(["leve, abaixo do limiar", "moderado", "treino sem contato"]):
+        x = 320 + k * 420
+        p.append(caixa(x, 150, 400, 80, GLIC, GLIC_T, esp=2, rx=12))
+        rs.append(rot(x + 16, 174, t, w=368, tam=22, cor=TINTA, peso=600, alinha="center"))
+        if k < 2:
+            p.append(seta(x + 402, 190, x + 416, 190, MUDO, "m0", esp=3))
+    p.append(f'<line x1="1500" y1="80" x2="1500" y2="260" stroke="{OXID}" stroke-width="3"{TRACO}/>')
+    p.append(caixa(1440, 260, 224, 80, FOSF, FOSF, esp=0, rx=12))
+    rs += [rot(1440, 284, "contato, no fim", w=224, tam=23, cor=PAPEL, peso=700, alinha="center"),
+           rot(1060, 266, "só depois da escola inteira", w=370, tam=20, cor=OXID, peso=700, alinha="right")]
+    p.append(caixa(0, 300, 1060, 100, MUDO, PAPEL, esp=2, rx=14))
+    p.append(icone("t:briefcase", 20, 326, 48, TINTA))
+    rs.append(rot(84, 318, "No adulto, o trabalho: motorista, máquina, altura têm critério de segurança próprio", w=960, tam=22, cor=TINTA, lh=1.3))
+    return slide("escola", 400, p, rs, eyebrow="A ordem que quase todo mundo inverte", titulo="Escola e trabalho antes do contato")
+
+
+def escada_66():
+    """6.6: os seis degraus do retorno ao esporte, com a seta de recuo."""
+    p = [svg_abre(1664, 400, "Uma escada de seis degraus, cada um com pelo menos 24 horas. Um: atividade limitada por sintoma. Dois: aeróbico leve, cerca de 55 por cento da frequência máxima, depois moderado. Três: exercício do esporte, individual, sem impacto na cabeça. Nos três primeiros, sintoma leve e breve é tolerado. Quatro: treino sem contato, intenso, com força, com sintomas no basal. Cinco: treino com contato, depois da liberação médica. Seis: jogo. Uma seta mostra que sintoma que volta faz retroceder um degrau"), defs(FOSF)]
+    rs = []
+    degraus = [("atividade limitada por sintoma", OXID), ("aeróbico leve (≈ 55% da FC máx.), depois moderado", OXID), ("exercício do esporte, individual, sem impacto na cabeça", OXID),
+               ("treino sem contato, intenso, com força", GLIC), ("treino com contato", FOSF), ("jogo", FOSF)]
+    for k, (t, cor) in enumerate(degraus):
+        x, w = k * 277, 270
+        y = 270 - k * 46
+        p.append(f'<rect x="{x}" y="{y}" width="{w}" height="{400 - y}" rx="8" fill="{CARTAO}" stroke="{cor}" stroke-width="3"/>')
+        p.append(f'<rect x="{x}" y="{y}" width="{w}" height="14" rx="4" fill="{cor}"/>')
+        rs += [rot(x + 14, y + 22, str(k + 1), w=60, tam=30, cor=cor, peso=700, serif=True),
+               rot(x + 14, y + 56, t, w=w - 28, tam=19, cor=TINTA, lh=1.25)]
+    rs += [rot(0, 40, "cada degrau: pelo menos 24 horas", w=700, tam=22, cor=TINTA, peso=700),
+           rot(0, 76, "1 a 3: sintoma leve e breve tolerado · 4: sintomas no basal · 5: liberação médica", w=780, tam=20, cor=MUDO, lh=1.3)]
+    p.append(f'<path d="M 1420 34 C 1380 -6, 1290 0, 1250 76" fill="none" stroke="{FOSF}" stroke-width="4" marker-end="url(#m0)"/>')
+    rs.append(rot(860, 0, "sintoma volta: desce um degrau", w=380, tam=21, cor=FOSF, peso=700, alinha="right"))
+    return slide("escada", 400, p, rs, eyebrow="Decisão no vestiário", titulo="Seis degraus, pelo menos 24 horas cada",
+                 destaque="Sintoma que volta faz retroceder. Assintomático em repouso não é liberado: o teste é tolerar carga.", destaque_cor="verm",
+                 fonte="Estratégia de retorno ao esporte, consenso de Amsterdã 2023")
+
+
+def demora_66():
+    """6.6: a maioria em quatro semanas, a fração que demora mais, e as quatro frentes."""
+    p = [svg_abre(1664, 380, "Uma barra de cem por cento: a maioria dos jovens e adultos se recupera em até quatro semanas; de 20 a 30 por cento seguem com sintoma por mais tempo, faixa mostrada como intervalo. À direita, as quatro frentes de tratamento de quem demora: pescoço, sistema vestibular, visão, e humor e sono")]
+    rs = []
+    rs.append(rot(0, 0, "Jovens e adultos com concussão", w=900, tam=22, cor=MUDO, peso=700))
+    p.append(f'<rect x="0" y="50" width="900" height="80" rx="8" fill="{OXID}"/>')
+    p.append(f'<rect x="630" y="50" width="270" height="80" fill="{GLIC}"/>')
+    p.append(f'<rect x="630" y="50" width="90" height="80" fill="{GLIC_T}"/>')
+    p.append(f'<line x1="630" y1="40" x2="630" y2="140" stroke="{GLIC}" stroke-width="3"/>')
+    rs += [rot(20, 74, "a maioria: recuperada em até 4 semanas", w=600, tam=23, cor=PAPEL, peso=700),
+           rot(630, 150, "20 a 30%: sintoma por mais tempo", w=270, tam=22, cor=GLIC, peso=700, alinha="right", lh=1.2),
+           rot(0, 230, "esperar parado é o erro: quem demora tem frentes tratáveis", w=880, tam=23, cor=TINTA, lh=1.3)]
+    for k, (ic, t) in enumerate([("t:stretching", "pescoço"), ("h:ear", "sistema vestibular"), ("t:eye", "visão"), ("t:moon", "humor e sono")]):
+        col, lin = k % 2, k // 2
+        x, y = 980 + col * 344, lin * 190
+        p.append(caixa(x, y, 324, 174, TINTA, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 132, y + 24, 60, TINTA))
+        rs.append(rot(x + 12, y + 104, t, w=300, tam=24, cor=TINTA, peso=700, alinha="center"))
+    return slide("demora", 380, p, rs, eyebrow="Quando a recuperação demora", titulo="Não é frescura, e esperar parado é o erro",
+                 destaque="Encefalopatia traumática crônica: preocupação legítima, associação descrita, causa e risco individual não estabelecidos. Reduzir exposição já se justifica hoje.",
+                 destaque_cor="tinta", fonte="Consenso de Amsterdã 2023")
+
+
+def prevencao_66():
+    """6.6: as reduções com dado, em barras, e o que não tem evidência, riscado."""
+    p = [svg_abre(1664, 380, "Três barras de redução de concussão, cada uma de um conjunto de estudos. Sem body checking no hóquei de crianças e adolescentes: 58 por cento menos. Com protetor bucal nos esportes de colisão: cerca de 26 por cento menos. Com aquecimento neuromuscular no rugby: até 60 por cento menos. À direita, riscados, o que não tem evidência para vender como prevenção: faixa de cabeça, suplemento neuroprotetor, imagem de rotina")]
+    rs = []
+    X0, esc = 420, 10
+    for k, (t, v, lab, cor) in enumerate([("regra: sem body checking no hóquei jovem", 58, "58%", OXID), ("protetor bucal, esportes de colisão", 26, "≈ 26%", GLIC), ("aquecimento neuromuscular no rugby", 60, "até 60%", OXID)]):
+        y = 20 + k * 110
+        rs.append(rot(0, y + 12, t, w=400, tam=22, cor=TINTA, peso=600, lh=1.2))
+        p.append(f'<rect x="{X0}" y="{y}" width="{v * esc}" height="70" rx="4" fill="{cor}"/>')
+        rs.append(rot(X0 + v * esc + 16, y + 16, lab, w=160, tam=30, cor=cor, peso=700, serif=True))
+    p.append(f'<line x1="{X0}" y1="0" x2="{X0}" y2="340" stroke="{MUDO}" stroke-width="3"/>')
+    rs.append(rot(X0, 346, "menos concussão, em redução relativa; estudos diferentes", w=700, tam=18, cor=MUDO))
+    rs.append(rot(1210, 0, "Sem evidência como prevenção", w=454, tam=24, cor=FOSF, peso=700, serif=True))
+    for k, t in enumerate(["faixa de cabeça", "suplemento neuroprotetor", "imagem de rotina"]):
+        y = 60 + k * 90
+        p.append(caixa(1210, y, 454, 70, FOSF, FOSF_T, esp=2, rx=35))
+        rs.append(rot(1230, y + 20, t, w=414, tam=23, cor=TINTA, alinha="center"))
+        p.append(f'<line x1="{1437 - len(t) * 6.5:.0f}" y1="{y + 35}" x2="{1437 + len(t) * 6.5:.0f}" y2="{y + 35}" stroke="{FOSF}" stroke-width="3"/>')
+    return slide("prevencao", 380, p, rs, eyebrow="Prevenção com dado", titulo="Regra primeiro, equipamento depois",
+                 destaque="Custo zero: ensinar a comissão e limitar contato no treino.", destaque_cor="verm",
+                 fonte="Revisão sistemática do consenso, Br J Sports Med 2023")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, sintomas_61, historia_61, perfis_61, tres_saidas_61, registro_61],
           "06-02": [pergunta_62, pedidos_62, ecg_62, corrado_62, posicoes_62, leitura_62, adulto_62, naopedir_62, perfis_62, respostas_62],
           "06-03": [laudos_63, perfis_63, remodelamento_63, cavidade_63, quem_63, discriminadores_63, destreino_63, ondat_63, aritmetica_63, condutas_63],
           "06-04": [frases_64, desfechos_64, frequencia_64, causa_64, quem_64, rastreio_64, consequencias_64, reconhecer_64, desfibrilador_64, correcoes_64],
-          "06-05": [cena_65, mapa_65, folha_65, dea_65, comprimir_65, erros_65, chocar_65, depois_65, calor_65, outras_65, ensaio_65]}
+          "06-05": [cena_65, mapa_65, folha_65, dea_65, comprimir_65, erros_65, chocar_65, depois_65, calor_65, outras_65, ensaio_65],
+          "06-06": [frase_66, decisoes_66, equivocos_66, sinais_66, retira_66, alarme_66, cultura_66, repouso_66, escola_66, escada_66, demora_66, prevencao_66]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

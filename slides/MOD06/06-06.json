@@ -26,346 +26,1571 @@
  "slides": [
   {
    "id": "frase",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o exame: a tomografia costuma vir normal na concussão; ela exclui sangramento, não concussão, e não decide por você. À direita, a decisão: clínica, rápida, sob pressão, e tomada três vezes, à beira do campo, em casa e no vestiário\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"620\" height=\"400\" rx=\"18\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(40.0 40.0) scale(5.0000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><g transform=\"translate(170.0 110.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"680\" y=\"0\" width=\"984\" height=\"400\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"850\" cy=\"230\" r=\"72\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(820.0 200.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M3 9h3v6H3zm15 0h3v6h-3z\"/><path d=\"M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm9-2v14\"/></g></g><line x1=\"926\" y1=\"230\" x2=\"1086\" y2=\"230\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1162\" cy=\"230\" r=\"72\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1132.0 200.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 12H3l9-9l9 9h-2M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7\"/><path d=\"M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6\"/></g></g><line x1=\"1238\" y1=\"230\" x2=\"1398\" y2=\"230\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1474\" cy=\"230\" r=\"72\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1444.0 200.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 240,
+     "y": 60,
+     "w": 360,
+     "t": "A tomografia",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 240,
+     "y": 110,
+     "w": 360,
+     "t": "costuma vir normal",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 220,
+     "w": 550,
+     "t": "exclui sangramento, não concussão: nenhum exame decide por você",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 704,
+     "y": 24,
+     "w": 930,
+     "t": "A decisão é clínica, rápida, sob pressão",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 704,
+     "y": 82,
+     "w": 930,
+     "t": "e é tomada três vezes",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 320,
+     "w": 260,
+     "t": "à beira do campo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1032,
+     "y": 320,
+     "w": 260,
+     "t": "em casa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 320,
+     "w": 260,
+     "t": "no vestiário",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Concussão relacionada ao esporte",
-   "frase": "A lesão em que a decisão errada custa mais do que a lesão.",
-   "apoio": "Não há exame que decida por você: a tomografia costuma vir normal. A decisão é clínica, rápida, sob pressão, e é tomada três vezes."
+   "titulo": "A lesão em que a decisão errada custa mais do que a lesão"
   },
   {
    "id": "decisoes",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "As três decisões da aula",
-   "titulo": "Trinta segundos, quarenta e oito horas, sétimo dia",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma linha do tempo com três decisões. Aos trinta segundos, à beira do campo: o meia cambaleia e diz que está bem; dá para continuar? Às quarenta e oito horas, na casa da família: o adolescente no domingo; escola, celular, quarto escuro? No sétimo dia, no vestiário: estou zerado, posso treinar com contato?\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><line x1=\"0\" y1=\"52\" x2=\"1664\" y2=\"52\" stroke=\"#6B7A87\" stroke-width=\"4\"/><circle cx=\"264\" cy=\"52\" r=\"14\" fill=\"#A8322A\"/><rect x=\"0\" y=\"90\" width=\"528\" height=\"290\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 114.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M3 9h3v6H3zm15 0h3v6h-3z\"/><path d=\"M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm9-2v14\"/></g></g><circle cx=\"832\" cy=\"52\" r=\"14\" fill=\"#B07A1C\"/><rect x=\"568\" y=\"90\" width=\"528\" height=\"290\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(592.0 114.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 12H3l9-9l9 9h-2M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7\"/><path d=\"M9 21v-6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v6\"/></g></g><circle cx=\"1400\" cy=\"52\" r=\"14\" fill=\"#008A7E\"/><rect x=\"1136\" y=\"90\" width=\"528\" height=\"290\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1160.0 114.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 0,
+     "w": 528,
+     "t": "30 segundos",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 92,
+     "y": 122,
+     "w": 420,
      "t": "À beira do campo",
-     "x": "o meia cambaleia e diz que está bem: dá para continuar?",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 200,
+     "w": 480,
+     "t": "o meia cambaleia e diz que está bem: dá para continuar?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 568,
+     "y": 0,
+     "w": 528,
+     "t": "48 horas",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 122,
+     "w": 420,
      "t": "Na casa da família",
-     "x": "o adolescente no domingo: escola, celular, quarto escuro?",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 200,
+     "w": 480,
+     "t": "o adolescente no domingo: escola, celular, quarto escuro?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1136,
+     "y": 0,
+     "w": 528,
+     "t": "7º dia",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1228,
+     "y": 122,
+     "w": 420,
      "t": "No vestiário",
-     "x": "“estou zerado, posso treinar com contato?”",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 200,
+     "w": 480,
+     "t": "“estou zerado, posso treinar com contato?”",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     }
    ],
+   "eyebrow": "As três decisões da aula",
+   "titulo": "Trinta segundos, quarenta e oito horas, sétimo dia",
    "destaque": "O diagnóstico é médico. Reconhecer e retirar de campo não é, e é aí que o sistema mais falha.",
    "destaque_cor": "tinta"
   },
   {
    "id": "equivocos",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três equívocos riscados e o que vale. Não bateu a cabeça: a força chega pelo ombro, pelo tronco, pela queda. Não desmaiou: a perda de consciência aparece em menos de dez por cento dos casos, mostrada numa barra. A tomografia deu normal: é o esperado; ela exclui sangramento, não concussão\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"133\" y1=\"40\" x2=\"395\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"100\" width=\"528\" height=\"280\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(200.0 120.0) scale(2.9167)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"60\" y1=\"200\" x2=\"220\" y2=\"200\" stroke=\"#008A7E\" stroke-width=\"6\"/><path d=\"M 220 188 L 240 200 L 220 212 Z\" fill=\"#008A7E\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"738\" y1=\"40\" x2=\"926\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"568\" y=\"100\" width=\"528\" height=\"280\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"592\" y=\"170\" width=\"480\" height=\"60\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"592\" y=\"170\" width=\"48\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1238\" y1=\"40\" x2=\"1562\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1136\" y=\"100\" width=\"528\" height=\"280\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1326.0 120.0) scale(5.8333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><g transform=\"translate(1476.0 130.0) scale(2.0833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 22,
+     "w": 488,
+     "t": "“Não bateu a cabeça.”",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 290,
+     "w": 480,
+     "t": "a força chega pelo ombro, pelo tronco, pela queda",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 22,
+     "w": 488,
+     "t": "“Não desmaiou.”",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 290,
+     "w": 480,
+     "t": "perda de consciência em menos de 10% dos casos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 652,
+     "y": 186,
+     "w": 400,
+     "t": "< 10% perdem a consciência",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1156,
+     "y": 22,
+     "w": 488,
+     "t": "“A tomografia deu normal.”",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 290,
+     "w": 480,
+     "t": "é o esperado; ela exclui sangramento, não concussão",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "A definição do consenso de Amsterdã",
    "titulo": "Três equívocos que ela resolve",
-   "cab": [
-    "O equívoco",
-    "O que vale"
-   ],
-   "larguras": [
-    40,
-    60
-   ],
-   "linhas": [
-    [
-     "“Não bateu a cabeça.”",
-     "a força chega pelo ombro, pelo tronco, pela queda"
-    ],
-    [
-     "“Não desmaiou.”",
-     "perda de consciência em menos de 10% dos casos"
-    ],
-    [
-     "“A tomografia deu normal.”",
-     "é o esperado; ela exclui sangramento, não concussão"
-    ]
-   ],
    "destaque": "Os sintomas podem aparecer em minutos ou horas. Quem estava bem no intervalo e piora à noite continua suspeito.",
    "destaque_cor": "petr",
    "fonte": "Consenso de Amsterdã, Br J Sports Med 2023"
   },
   {
    "id": "sinais",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Decisão à beira do campo",
-   "titulo": "Um único sinal basta",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Seis sinais em ladrilhos, todos ligados a uma saída à direita: fora de campo. Demora para levantar sem causa aparente; incoordenação, cambaleio e passos instáveis; olhar vago, parado, desconectado; postura tônica ou abalos, com retirada imediata e avaliação urgente; confusão, não sabe o placar, repete perguntas; e o que ele relata: dor de cabeça, náusea, tontura, lentidão. Um único sinal basta\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"390\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(20.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"410\" y=\"0\" width=\"390\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(430.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6\"/><path d=\"m6 12l2-3l4-1l3 3l3 1\"/></g></g><rect x=\"820\" y=\"0\" width=\"390\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(840.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g><rect x=\"0\" y=\"206\" width=\"390\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(20.0 226.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"410\" y=\"206\" width=\"390\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(430.0 226.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01\"/><path d=\"M9.5 16a10 10 0 0 1 6-1.5\"/></g></g><rect x=\"820\" y=\"206\" width=\"390\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(840.0 226.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><line x1=\"1240\" y1=\"200\" x2=\"1300\" y2=\"200\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"1320\" y=\"60\" width=\"344\" height=\"280\" rx=\"18\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(1452.0 90.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 80,
+     "y": 26,
+     "w": 290,
      "t": "Demora para levantar",
-     "x": "sem causa aparente",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 20,
+     "y": 106,
+     "w": 350,
+     "t": "sem causa aparente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 490,
+     "y": 26,
+     "w": 290,
      "t": "Incoordenação",
-     "x": "cambaleio, passos instáveis",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 430,
+     "y": 106,
+     "w": 350,
+     "t": "cambaleio, passos instáveis",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 900,
+     "y": 26,
+     "w": 290,
      "t": "Olhar vago",
-     "x": "parado, desconectado",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 840,
+     "y": 106,
+     "w": 350,
+     "t": "parado, desconectado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 80,
+     "y": 232,
+     "w": 290,
      "t": "Postura tônica ou abalos",
-     "x": "retirada imediata e avaliação urgente",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 20,
+     "y": 312,
+     "w": 350,
+     "t": "retirada imediata e avaliação urgente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 490,
+     "y": 232,
+     "w": 290,
      "t": "Confusão",
-     "x": "não sabe o placar, repete perguntas",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 430,
+     "y": 312,
+     "w": 350,
+     "t": "não sabe o placar, repete perguntas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 900,
+     "y": 232,
+     "w": 290,
      "t": "O que ele relata",
-     "x": "dor de cabeça, náusea, tontura, lentidão",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 840,
+     "y": 312,
+     "w": 350,
+     "t": "dor de cabeça, náusea, tontura, lentidão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1330,
+     "y": 190,
+     "w": 324,
+     "t": "um sinal basta",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1340,
+     "y": 240,
+     "w": 304,
+     "t": "sai de campo para ser avaliado",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
-   "destaque_cor": "tinta"
+   "eyebrow": "Decisão à beira do campo",
+   "titulo": "Um único sinal basta"
   },
   {
    "id": "retira",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Um fluxo em três partes. Reconhecer: qualquer pessoa, com o cartão CRT6, feito para quem não é da saúde; não diagnostica, decide quem sai para ser avaliado. Retirar: não volta no mesmo dia, em nenhuma idade. Avaliar: o médico, com o SCAT6 a partir de 13 anos e o Child SCAT6 de 8 a 12, com maior sensibilidade até 72 horas; depois de uma semana, a versão de consultório\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"620\" height=\"380\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><g transform=\"translate(24.0 104.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 168.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 232.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 296.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><line x1=\"630\" y1=\"190\" x2=\"690\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"700\" y=\"90\" width=\"264\" height=\"200\" rx=\"18\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(800.0 108.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g><line x1=\"974\" y1=\"190\" x2=\"1034\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1044\" y=\"0\" width=\"620\" height=\"380\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1068.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 88,
+     "y": 28,
+     "w": 520,
+     "t": "Reconhecer: qualquer pessoa",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 70,
+     "y": 106,
+     "w": 530,
+     "t": "cartão CRT6",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 170,
+     "w": 530,
+     "t": "feito para quem não é da saúde",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 234,
+     "w": 530,
+     "t": "não diagnostica",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 298,
+     "w": 530,
+     "t": "decide quem sai para ser avaliado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 712,
+     "y": 186,
+     "w": 240,
+     "t": "retira: não volta no mesmo dia",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1132,
+     "y": 28,
+     "w": 510,
+     "t": "Avaliar: o médico",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1068,
+     "y": 104,
+     "w": 220,
+     "t": "SCAT6",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 106,
+     "w": 340,
+     "t": "13 anos ou mais",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1068,
+     "y": 168,
+     "w": 220,
+     "t": "Child SCAT6",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 170,
+     "w": 340,
+     "t": "8 a 12 anos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1068,
+     "y": 232,
+     "w": 220,
+     "t": "até 72 h",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 234,
+     "w": 340,
+     "t": "maior sensibilidade",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1068,
+     "y": 296,
+     "w": 220,
+     "t": "após 1 semana",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 298,
+     "w": 340,
+     "t": "versão de consultório",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Reconheceu, retira",
    "titulo": "Não volta no mesmo dia, em nenhuma idade",
-   "esq": {
-    "t": "Reconhecer: qualquer pessoa",
-    "cor": "petr",
-    "itens": [
-     "cartão CRT6",
-     "feito para quem não é da saúde",
-     "não diagnostica",
-     "decide quem sai para ser avaliado"
-    ]
-   },
-   "dir": {
-    "t": "Avaliar: médico",
-    "cor": "tinta",
-    "itens": [
-     "SCAT6, 13 anos ou mais",
-     "Child SCAT6, 8 a 12 anos",
-     "maior sensibilidade até 72 horas",
-     "depois de uma semana, versão de consultório"
-    ]
-   },
    "destaque": "Retirar não é diagnosticar. É tirar do risco quem pode estar lesionado.",
    "destaque_cor": "petr",
    "fonte": "SCAT6 e CRT6, Br J Sports Med 2023"
   },
   {
    "id": "alarme",
-   "tipo": "lista",
-   "eyebrow": "Quando a suspeita vira emergência",
-   "titulo": "Não mover, 192, hospital",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três grupos de sinais de alarme, à esquerda, convergem para a conduta, à direita: não mover, ligar 192, hospital. Consciência: perda prolongada ou nível piorando, comportamento muito alterado. Cabeça: vômitos repetidos, dor que piora, pupilas diferentes, convulsão. Neurológico e coluna: fraqueza, formigamento, fala arrastada, suspeita de lesão cervical\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"1000\" height=\"116\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(22.0 30.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g><path d=\"M 1000 58 C 1060 58, 1080 190, 1130 190\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"130\" width=\"1000\" height=\"116\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(22.0 160.0) scale(1.0833)\"><path fill=\"#A8322A\" d=\"M12.286 42V29.903c-1.731-1.785-5.143-6.24-5.143-11.98C7.143 13.84 10.157 6 21.983 6C28.06 6 30.76 7.486 33.13 9.667q.151.14.298.273c.852.777 1.53 1.395 1.88 2.32c1.3 3.44 3.64 8.452 5.142 11.588c.642 1.338-.332 2.896-1.816 2.896h-1.31V31.5a2 2 0 0 1-2 2h-3.209a1 1 0 0 0-.137-.006q-.285.006-.59.006h-.022c-1.272 0-2.756-.08-4.15-.226c-1.648-.172-3.076-.427-3.878-.715a1 1 0 0 0-.676 1.882c1.044.375 2.675.648 4.346.822c.653.069 1.326.123 1.992.163V42z\"/></g><path d=\"M 1000 188 C 1060 188, 1080 190, 1130 190\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"260\" width=\"1000\" height=\"116\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(22.0 290.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><path d=\"M 1000 318 C 1060 318, 1080 190, 1130 190\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1150\" y=\"40\" width=\"514\" height=\"300\" rx=\"18\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(1190.0 70.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><g transform=\"translate(1190.0 156.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g><g transform=\"translate(1190.0 242.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 96,
+     "y": 14,
+     "w": 880,
      "t": "Consciência",
-     "x": "perda prolongada ou nível piorando; comportamento muito alterado",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 96,
+     "y": 60,
+     "w": 880,
+     "t": "perda prolongada ou nível piorando; comportamento muito alterado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 144,
+     "w": 880,
      "t": "Cabeça",
-     "x": "vômitos repetidos, dor que piora, pupilas diferentes, convulsão",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 96,
+     "y": 190,
+     "w": 880,
+     "t": "vômitos repetidos, dor que piora, pupilas diferentes, convulsão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 274,
+     "w": 880,
      "t": "Neurológico e coluna",
-     "x": "fraqueza, formigamento, fala arrastada, suspeita de lesão cervical",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 96,
+     "y": 320,
+     "w": 880,
+     "t": "fraqueza, formigamento, fala arrastada, suspeita de lesão cervical",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1262,
+     "y": 78,
+     "w": 380,
+     "t": "não mover",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1262,
+     "y": 164,
+     "w": 380,
+     "t": "192",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1262,
+     "y": 250,
+     "w": 380,
+     "t": "hospital",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "Quando a suspeita vira emergência",
+   "titulo": "Não mover, 192, hospital"
   },
   {
    "id": "cultura",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"No centro, a decisão de ficar ou sair de campo. Da esquerda, duas pressões empurram para ficar: o atleta subnotifica, por vaga, contrato ou final, e o órgão lesionado é o que se autoavalia; o técnico decide sob pressão, não por maldade, mas pela função. Da direita, a regra empurra para sair: a substituição adicional por concussão, aprovada pela IFAB em 2024 e adotada pela CBF, que não conta nas trocas normais e tira o peso do banco\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"560\" height=\"184\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"570\" y1=\"92\" x2=\"690\" y2=\"190\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"196\" width=\"560\" height=\"184\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"570\" y1=\"288\" x2=\"690\" y2=\"190\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"832\" cy=\"190\" r=\"120\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(792.0 110.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M3 9h3v6H3zm15 0h3v6h-3z\"/><path d=\"M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm9-2v14\"/></g></g><line x1=\"1090\" y1=\"190\" x2=\"974\" y2=\"190\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><rect x=\"1104\" y=\"0\" width=\"560\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1128.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 510,
+     "t": "O atleta subnotifica",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 66,
+     "w": 510,
+     "t": "vaga, contrato, final; o órgão lesionado é o que se autoavalia; “disse que está bem” não é dado clínico",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 214,
+     "w": 510,
+     "t": "O técnico decide sob pressão",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 262,
+     "w": 510,
+     "t": "não é maldade, é a função; a retirada não deveria depender dele",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 722,
+     "y": 206,
+     "w": 220,
+     "t": "fica ou sai?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1196,
+     "y": 26,
+     "w": 450,
+     "t": "A regra tira o peso do banco",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1128,
+     "y": 120,
+     "w": 510,
+     "t": "substituição adicional por concussão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 190,
+     "w": 510,
+     "t": "aprovada pela IFAB em 2024; adotada pela CBF, a primeira confederação da FIFA a implantá-la",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1128,
+     "y": 300,
+     "w": 510,
+     "t": "não conta nas trocas normais",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Por que a regra é quebrada",
    "titulo": "E o que ajuda a cumpri-la",
-   "esq": {
-    "t": "O atleta subnotifica",
-    "cor": "ambar",
-    "itens": [
-     "vaga, contrato, final",
-     "o órgão lesionado é o que se autoavalia",
-     "“disse que está bem” não é dado clínico"
-    ]
-   },
-   "dir": {
-    "t": "O técnico decide sob pressão",
-    "cor": "ambar",
-    "itens": [
-     "não é maldade, é a função",
-     "a retirada não deveria depender dele",
-     "a regra pode tirar o peso do banco"
-    ]
-   },
-   "destaque": "Substituição adicional por concussão: aprovada pela IFAB em 2024, adotada pela CBF, a primeira confederação da FIFA a implantá-la. Não conta nas trocas normais.",
-   "destaque_cor": "petr",
    "fonte": "IFAB 2024 · CBF, relatório dos campeonatos brasileiros de 2024"
   },
   {
    "id": "repouso",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Duas linhas do tempo, em esquema. Em cima, a orientação antiga: repouso absoluto até zerar os sintomas, quarto escuro, sem tela e sem escola, por dias, desenhado como uma faixa parada. Embaixo, a orientação atual: repouso relativo de 24 a 48 horas, com tela limitada e sono priorizado; depois, movimento leve abaixo do limiar de sintoma, numa linha que sobe aos poucos; uma piora breve de até dois pontos na escala de sintomas é tolerada\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"330\" y=\"40\" width=\"1300\" height=\"60\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"330\" y=\"300\" width=\"260\" height=\"50\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 590 300 C 930 290, 1230 220, 1630 170\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><path d=\"M 590 270 C 930 260, 1230 190, 1630 140 L 1630 170 C 1230 220, 930 290, 590 300 Z\" fill=\"#008A7E\" opacity=\"0.15\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 20,
+     "w": 300,
+     "t": "A orientação antiga",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 64,
+     "w": 300,
+     "t": "quarto escuro, sem tela, sem escola, por dias",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 354,
+     "y": 56,
+     "w": 900,
+     "t": "repouso absoluto até zerar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 190,
+     "w": 300,
+     "t": "A orientação atual",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 234,
+     "w": 300,
+     "t": "tela limitada, sono priorizado; álcool não",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 310,
+     "w": 240,
+     "t": "24 a 48 h relativo",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 176,
+     "w": 520,
+     "t": "movimento leve abaixo do limiar, subindo aos poucos",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 300,
+     "w": 480,
+     "t": "faixa: piora breve de até 2 pontos é tolerada",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 356,
+     "w": 200,
+     "t": "esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Decisão na casa da família",
    "titulo": "A recomendação mudou",
-   "esq": {
-    "t": "A orientação antiga",
-    "cor": "verm",
-    "itens": [
-     "repouso absoluto até zerar",
-     "quarto escuro",
-     "sem tela, sem escola, por dias"
-    ]
-   },
-   "dir": {
-    "t": "A orientação atual",
-    "cor": "petr",
-    "itens": [
-     "repouso relativo de 24 a 48 horas",
-     "tela limitada, sono priorizado",
-     "depois, movimento leve abaixo do limiar",
-     "piora breve de até 2 pontos é tolerada"
-    ]
-   },
    "destaque": "Álcool não. Analgésico só com orientação. Sinais de alarme entregues por escrito.",
    "destaque_cor": "tinta",
    "fonte": "Consenso de Amsterdã 2023"
   },
   {
    "id": "escola",
-   "tipo": "lista",
-   "eyebrow": "A ordem que quase todo mundo inverte",
-   "titulo": "Escola e trabalho antes do contato",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas trilhas em paralelo. Em cima, a trilha cognitiva: atividade cognitiva é carga; meia jornada, pausas, prova adiada, combinado por escrito, até a jornada inteira. Embaixo, a trilha física: movimento leve em paralelo, que sobe aos poucos; o contato fica para o fim, depois que a escola voltou inteira. No adulto, o trabalho: motorista, máquina e altura têm critério de segurança próprio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"320\" y=\"0\" width=\"400\" height=\"80\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"722\" y1=\"40\" x2=\"736\" y2=\"40\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"740\" y=\"0\" width=\"400\" height=\"80\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"1142\" y1=\"40\" x2=\"1156\" y2=\"40\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1160\" y=\"0\" width=\"400\" height=\"80\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"320\" y=\"150\" width=\"400\" height=\"80\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"722\" y1=\"190\" x2=\"736\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"740\" y=\"150\" width=\"400\" height=\"80\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1142\" y1=\"190\" x2=\"1156\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1160\" y=\"150\" width=\"400\" height=\"80\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1500\" y1=\"80\" x2=\"1500\" y2=\"260\" stroke=\"#008A7E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1440\" y=\"260\" width=\"224\" height=\"80\" rx=\"12\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><rect x=\"0\" y=\"300\" width=\"1060\" height=\"100\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(20.0 326.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm5-2V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m-4 5v.01\"/><path d=\"M3 13a20 20 0 0 0 18 0\"/></g></g></svg>",
+   "rotulos": [
     {
-     "t": "Atividade cognitiva é carga",
-     "x": "quem não passa uma manhã de aula sem dor não está pronto para o coletivo",
-     "cor": "petr"
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "t": "Escola e trabalho",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "A volta à escola também é graduada",
-     "x": "meia jornada, pausas, prova adiada, combinado por escrito",
-     "cor": "ambar"
+     "x": 0,
+     "y": 40,
+     "w": 300,
+     "t": "atividade cognitiva é carga",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Movimento leve em paralelo",
-     "x": "o que fica para o fim é o contato",
-     "cor": "petr"
+     "x": 336,
+     "y": 24,
+     "w": 368,
+     "t": "meia jornada, com pausas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "t": "No adulto, o trabalho",
-     "x": "motorista, máquina, altura: critério de segurança próprio",
-     "cor": "ambar"
+     "x": 756,
+     "y": 24,
+     "w": 368,
+     "t": "prova adiada, combinado por escrito",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 24,
+     "w": 368,
+     "t": "jornada inteira",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 150,
+     "w": 300,
+     "t": "Movimento",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 190,
+     "w": 300,
+     "t": "leve, em paralelo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 336,
+     "y": 174,
+     "w": 368,
+     "t": "leve, abaixo do limiar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 756,
+     "y": 174,
+     "w": 368,
+     "t": "moderado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 174,
+     "w": 368,
+     "t": "treino sem contato",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 284,
+     "w": 224,
+     "t": "contato, no fim",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 266,
+     "w": 370,
+     "t": "só depois da escola inteira",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 318,
+     "w": 960,
+     "t": "No adulto, o trabalho: motorista, máquina, altura têm critério de segurança próprio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 22
+   "eyebrow": "A ordem que quase todo mundo inverte",
+   "titulo": "Escola e trabalho antes do contato"
   },
   {
    "id": "escada",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma escada de seis degraus, cada um com pelo menos 24 horas. Um: atividade limitada por sintoma. Dois: aeróbico leve, cerca de 55 por cento da frequência máxima, depois moderado. Três: exercício do esporte, individual, sem impacto na cabeça. Nos três primeiros, sintoma leve e breve é tolerado. Quatro: treino sem contato, intenso, com força, com sintomas no basal. Cinco: treino com contato, depois da liberação médica. Seis: jogo. Uma seta mostra que sintoma que volta faz retroceder um degrau\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"270\" width=\"270\" height=\"130\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"270\" width=\"270\" height=\"14\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"277\" y=\"224\" width=\"270\" height=\"176\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"277\" y=\"224\" width=\"270\" height=\"14\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"554\" y=\"178\" width=\"270\" height=\"222\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"554\" y=\"178\" width=\"270\" height=\"14\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"831\" y=\"132\" width=\"270\" height=\"268\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"831\" y=\"132\" width=\"270\" height=\"14\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1108\" y=\"86\" width=\"270\" height=\"314\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1108\" y=\"86\" width=\"270\" height=\"14\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1385\" y=\"40\" width=\"270\" height=\"360\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1385\" y=\"40\" width=\"270\" height=\"14\" rx=\"4\" fill=\"#A8322A\"/><path d=\"M 1420 34 C 1380 -6, 1290 0, 1250 76\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 14,
+     "y": 292,
+     "w": 60,
+     "t": "1",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 14,
+     "y": 326,
+     "w": 242,
+     "t": "atividade limitada por sintoma",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 291,
+     "y": 246,
+     "w": 60,
+     "t": "2",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 291,
+     "y": 280,
+     "w": 242,
+     "t": "aeróbico leve (≈ 55% da FC máx.), depois moderado",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 568,
+     "y": 200,
+     "w": 60,
+     "t": "3",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 568,
+     "y": 234,
+     "w": 242,
+     "t": "exercício do esporte, individual, sem impacto na cabeça",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 845,
+     "y": 154,
+     "w": 60,
+     "t": "4",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 845,
+     "y": 188,
+     "w": 242,
+     "t": "treino sem contato, intenso, com força",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1122,
+     "y": 108,
+     "w": 60,
+     "t": "5",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1122,
+     "y": 142,
+     "w": 242,
+     "t": "treino com contato",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1399,
+     "y": 62,
+     "w": 60,
+     "t": "6",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1399,
+     "y": 96,
+     "w": 242,
+     "t": "jogo",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 40,
+     "w": 700,
+     "t": "cada degrau: pelo menos 24 horas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 76,
+     "w": 780,
+     "t": "1 a 3: sintoma leve e breve tolerado · 4: sintomas no basal · 5: liberação médica",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 860,
+     "y": 0,
+     "w": 380,
+     "t": "sintoma volta: desce um degrau",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Decisão no vestiário",
    "titulo": "Seis degraus, pelo menos 24 horas cada",
-   "cab": [
-    "Degrau",
-    "O que se faz",
-    "Condição"
-   ],
-   "larguras": [
-    12,
-    50,
-    38
-   ],
-   "linhas": [
-    [
-     "1",
-     "atividade limitada por sintoma",
-     "sintoma leve e breve tolerado"
-    ],
-    [
-     "2",
-     "aeróbico leve (cerca de 55% da FC máx.), depois moderado",
-     "sintoma leve e breve tolerado"
-    ],
-    [
-     "3",
-     "exercício do esporte, individual, sem impacto na cabeça",
-     "sintoma leve e breve tolerado"
-    ],
-    [
-     "4",
-     "treino sem contato, intenso, com força",
-     "sintomas no basal"
-    ],
-    [
-     "5",
-     "treino com contato",
-     "liberação médica"
-    ],
-    [
-     "6",
-     "jogo",
-     ""
-    ]
-   ],
    "destaque": "Sintoma que volta faz retroceder. Assintomático em repouso não é liberado: o teste é tolerar carga.",
    "destaque_cor": "verm",
    "fonte": "Estratégia de retorno ao esporte, consenso de Amsterdã 2023"
   },
   {
    "id": "demora",
-   "tipo": "numeros",
-   "eyebrow": "Quando a recuperação demora",
-   "titulo": "Não é frescura, e esperar parado é o erro",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma barra de cem por cento: a maioria dos jovens e adultos se recupera em até quatro semanas; de 20 a 30 por cento seguem com sintoma por mais tempo, faixa mostrada como intervalo. À direita, as quatro frentes de tratamento de quem demora: pescoço, sistema vestibular, visão, e humor e sono\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"50\" width=\"900\" height=\"80\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"630\" y=\"50\" width=\"270\" height=\"80\" fill=\"#B07A1C\"/><rect x=\"630\" y=\"50\" width=\"90\" height=\"80\" fill=\"#F4EAD6\"/><line x1=\"630\" y1=\"40\" x2=\"630\" y2=\"140\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"980\" y=\"0\" width=\"324\" height=\"174\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1112.0 24.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g><rect x=\"1324\" y=\"0\" width=\"324\" height=\"174\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1456.0 24.0) scale(1.2500)\"><path fill=\"#12202E\" fill-rule=\"evenodd\" d=\"M12.154 18c0-6.075 5.304-11 11.846-11s11.846 4.925 11.846 11c0 3.807-2.082 7.163-5.25 9.139c-2.689 1.676-5.52 4.315-5.52 7.772V35c0 3.314-2.892 6-6.46 6c-3.57 0-6.462-2.686-6.462-6v-2H10v2c0 4.418 3.857 8 8.615 8s8.616-3.582 8.616-8v-.089c0-2.404 2.013-4.52 4.565-6.112C35.536 26.467 38 22.501 38 18c0-7.18-6.268-13-14-13s-14 5.82-14 13zM23 14c-1.948 0-3.528 1.315-3.911 3.02h.028c.813.042 1.918.158 3.038.464c1.111.304 2.312.816 3.247 1.697c.964.909 1.598 2.169 1.598 3.827q0 .045-.004.09c-.146 1.61-.54 2.84-1.137 3.762c-.606.937-1.386 1.503-2.202 1.824c-.798.314-1.598.382-2.249.382c-.327 0-.629-.018-.878-.033l-.099-.007l-.3-.018l-.041.077a6 6 0 0 0-.277.674c-.064.174-.137.374-.233.614c-.21.525-.511 1.178-1.017 1.7c-.544.559-1.284.927-2.252.927c-.838 0-1.532-.192-2.076-.565a2.74 2.74 0 0 1-1.031-1.34A3.5 3.5 0 0 1 13 29.891a4 4 0 0 1 .04-.546l.003-.014l.001-.005v-.003c0-.001 0-.002.984.178l.984.179v-.003l.001-.003v-.003v.003l-.004.038a1.7 1.7 0 0 0 .073.695a.74.74 0 0 0 .281.376c.14.096.417.216.948.216c.402 0 .632-.131.817-.321c.221-.228.405-.574.595-1.049c.046-.115.097-.253.152-.401c.13-.35.282-.76.436-1.058q.05-.1.12-.213c.556-1.423 1.417-3.915 1.069-4.958c-.233-.698-.682-1.396-1.096-1.943c-.504-.422-.888-.83-1.12-1.318c-.286-.604-.285-1.235-.284-1.815v-.103c0-3.248 2.721-5.82 6-5.82s6 2.572 6 5.82h-2c0-2.075-1.756-3.82-4-3.82m-2.808 14.92l-.009.01z\" clip-rule=\"evenodd\"/></g><rect x=\"980\" y=\"190\" width=\"324\" height=\"174\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1112.0 214.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><rect x=\"1324\" y=\"190\" width=\"324\" height=\"174\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1456.0 214.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "4 semanas",
-     "x": "a maioria se recupera nesse prazo",
-     "cor": "petr"
+     "x": 0,
+     "y": 0,
+     "w": 900,
+     "t": "Jovens e adultos com concussão",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "20 a 30%",
-     "x": "de jovens e adultos seguem com sintoma por mais tempo",
-     "cor": "ambar"
+     "x": 20,
+     "y": 74,
+     "w": 600,
+     "t": "a maioria: recuperada em até 4 semanas",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "4 frentes",
-     "x": "pescoço, sistema vestibular, visão, humor e sono",
-     "cor": "tinta"
+     "x": 630,
+     "y": 150,
+     "w": 270,
+     "t": "20 a 30%: sintoma por mais tempo",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 880,
+     "t": "esperar parado é o erro: quem demora tem frentes tratáveis",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 992,
+     "y": 104,
+     "w": 300,
+     "t": "pescoço",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1336,
+     "y": 104,
+     "w": 300,
+     "t": "sistema vestibular",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 992,
+     "y": 294,
+     "w": 300,
+     "t": "visão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1336,
+     "y": 294,
+     "w": 300,
+     "t": "humor e sono",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Quando a recuperação demora",
+   "titulo": "Não é frescura, e esperar parado é o erro",
    "destaque": "Encefalopatia traumática crônica: preocupação legítima, associação descrita, causa e risco individual não estabelecidos. Reduzir exposição já se justifica hoje.",
    "destaque_cor": "tinta",
    "fonte": "Consenso de Amsterdã 2023"
   },
   {
    "id": "prevencao",
-   "tipo": "numeros",
-   "eyebrow": "Prevenção com dado",
-   "titulo": "Regra primeiro, equipamento depois",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três barras de redução de concussão, cada uma de um conjunto de estudos. Sem body checking no hóquei de crianças e adolescentes: 58 por cento menos. Com protetor bucal nos esportes de colisão: cerca de 26 por cento menos. Com aquecimento neuromuscular no rugby: até 60 por cento menos. À direita, riscados, o que não tem evidência para vender como prevenção: faixa de cabeça, suplemento neuroprotetor, imagem de rotina\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"420\" y=\"20\" width=\"580\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"420\" y=\"130\" width=\"260\" height=\"70\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"420\" y=\"240\" width=\"600\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><line x1=\"420\" y1=\"0\" x2=\"420\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"1210\" y=\"60\" width=\"454\" height=\"70\" rx=\"35\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1340\" y1=\"95\" x2=\"1534\" y2=\"95\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1210\" y=\"150\" width=\"454\" height=\"70\" rx=\"35\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1281\" y1=\"185\" x2=\"1593\" y2=\"185\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1210\" y=\"240\" width=\"454\" height=\"70\" rx=\"35\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1333\" y1=\"275\" x2=\"1541\" y2=\"275\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "n": "58%",
-     "x": "menos concussão sem body checking no hóquei de crianças e adolescentes",
-     "cor": "petr"
+     "x": 0,
+     "y": 32,
+     "w": 400,
+     "t": "regra: sem body checking no hóquei jovem",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "n": "26%",
-     "x": "a menos, aproximadamente, com protetor bucal nos esportes de colisão",
-     "cor": "ambar"
+     "x": 1016,
+     "y": 36,
+     "w": 160,
+     "t": "58%",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "até 60%",
-     "x": "menos com aquecimento neuromuscular no rugby",
-     "cor": "petr"
+     "x": 0,
+     "y": 142,
+     "w": 400,
+     "t": "protetor bucal, esportes de colisão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 696,
+     "y": 146,
+     "w": 160,
+     "t": "≈ 26%",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 252,
+     "w": 400,
+     "t": "aquecimento neuromuscular no rugby",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1036,
+     "y": 256,
+     "w": 160,
+     "t": "até 60%",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 420,
+     "y": 346,
+     "w": 700,
+     "t": "menos concussão, em redução relativa; estudos diferentes",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 0,
+     "w": 454,
+     "t": "Sem evidência como prevenção",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1230,
+     "y": 80,
+     "w": 414,
+     "t": "faixa de cabeça",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1230,
+     "y": 170,
+     "w": 414,
+     "t": "suplemento neuroprotetor",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1230,
+     "y": 260,
+     "w": 414,
+     "t": "imagem de rotina",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Sem evidência para vender como prevenção: faixa de cabeça, suplemento neuroprotetor, imagem de rotina. Custo zero: ensinar a comissão e limitar contato no treino.",
+   "eyebrow": "Prevenção com dado",
+   "titulo": "Regra primeiro, equipamento depois",
+   "destaque": "Custo zero: ensinar a comissão e limitar contato no treino.",
    "destaque_cor": "verm",
    "fonte": "Revisão sistemática do consenso, Br J Sports Med 2023"
   },
