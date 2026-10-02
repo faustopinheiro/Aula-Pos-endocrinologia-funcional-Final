@@ -118,6 +118,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "A divisão mais horizontal
                     {"t": "A gestão", "x": "DEA conferido, plano, capacitação e ensaio."}],
           "quem": "O mínimo viável custa perto de zero: telefone, endereço, alguém que comprime, portão aberto."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-05")
+
 spec = {"arquivo": "aulas/MOD06/06-05-emergencia-em-campo-e-cadeia-de-sobrevivencia.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Emergência em campo", "subtitulo": "Plano escrito, reanimação e o que não é parada",

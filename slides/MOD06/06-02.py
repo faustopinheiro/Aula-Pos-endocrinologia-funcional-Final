@@ -128,6 +128,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Que pergunta, que ferramen
                     {"t": "Todos", "x": "Perguntam o sintoma e a história familiar, e encaminham."}],
           "quem": "Exame normal não autoriza pular a progressão."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-02")
+
 spec = {"arquivo": "aulas/MOD06/06-02-triagem-cardiologica-o-que-rastrear-e-em-quem.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Triagem cardiológica", "subtitulo": "O que rastrear, em quem e com qual exame",

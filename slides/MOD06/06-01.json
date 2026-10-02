@@ -22,97 +22,634 @@
  "slides": [
   {
    "id": "caso",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Em cima, a trajetória: vinte anos parado, aula de alta intensidade na segunda semana, aperto no peito na terceira série. Embaixo, à esquerda, a ficha de matrícula de uma linha: tem algum problema de saúde? Ele marcou não. À direita, o que a investigação achou depois: pressão alta sem tratamento, colesterol nunca dosado, trinta anos de cigarro, circunferência abdominal alta e um pai morto de infarto aos cinquenta e poucos\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"500\" height=\"76\" rx=\"38\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"508\" y1=\"38\" x2=\"558\" y2=\"38\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"568\" y=\"0\" width=\"500\" height=\"76\" rx=\"38\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1076\" y1=\"38\" x2=\"1126\" y2=\"38\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1136\" y=\"0\" width=\"500\" height=\"76\" rx=\"38\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"0\" y=\"130\" width=\"560\" height=\"270\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 152.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"40\" y=\"300\" width=\"40\" height=\"40\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"260\" y=\"300\" width=\"40\" height=\"40\" rx=\"6\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 268 318 L 282 334 L 304 302\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"580\" y1=\"265\" x2=\"680\" y2=\"265\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><circle cx=\"730\" cy=\"202\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"730\" cy=\"274\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"730\" cy=\"346\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"1200\" cy=\"202\" r=\"9\" fill=\"#A8322A\"/><circle cx=\"1200\" cy=\"274\" r=\"9\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 22,
+     "w": 460,
+     "t": "vinte anos parado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 22,
+     "w": 460,
+     "t": "alta intensidade, na segunda semana",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1156,
+     "y": 22,
+     "w": 460,
+     "t": "aperto no peito, na terceira série",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 158,
+     "w": 440,
+     "t": "Ficha de matrícula",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 232,
+     "w": 520,
+     "t": "Tem algum problema de saúde?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 94,
+     "y": 304,
+     "w": 120,
+     "t": "sim",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 314,
+     "y": 304,
+     "w": 120,
+     "t": "não",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 130,
+     "w": 900,
+     "t": "O que a investigação achou depois",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 752,
+     "y": 186,
+     "w": 430,
+     "t": "pressão alta sem tratamento",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 752,
+     "y": 258,
+     "w": 430,
+     "t": "colesterol nunca dosado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 752,
+     "y": 330,
+     "w": 430,
+     "t": "trinta anos de cigarro",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1222,
+     "y": 186,
+     "w": 430,
+     "t": "circunferência abdominal alta",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1222,
+     "y": 258,
+     "w": 430,
+     "t": "pai morto de infarto aos cinquenta e poucos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1190,
+     "y": 340,
+     "w": 470,
+     "t": "Ninguém tinha perguntado.",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Caso ilustrativo",
-   "frase": "Na matrícula, ele marcou “não” para problema de saúde. Porque não sabia que tinha.",
-   "apoio": "Vinte anos parado, aula de alta intensidade na segunda semana, aperto no peito na terceira série. Depois: pressão alta sem tratamento, colesterol nunca dosado, trinta anos de cigarro, pai morto de infarto aos 52. Ninguém tinha perguntado."
+   "titulo": "Marcou “não” porque não sabia que tinha"
   },
   {
    "id": "paradoxo",
-   "tipo": "duas",
-   "eyebrow": "Franklin e colaboradores, 2020",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Esquema, sem valores medidos. Risco ao longo das semanas em duas pessoas. Quem é pouco ativo tem a linha de base mais alta e, no esforço vigoroso raro, um pico grande. Quem é ativo tem a linha de base mais baixa e picos pequenos a cada sessão. No esforço, o risco sobe de forma transitória e mais em quem é menos ativo; na vida, o risco absoluto é pequeno e o saldo favorece a proteção\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><line x1=\"60\" y1=\"360\" x2=\"1080\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M 60 210 L 640 210 L 660 60 L 690 210 L 1080 210\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 60 310 L 120 310 L 132 270 L 148 310 L 230 310 L 242 270 L 258 310 L 340 310 L 352 270 L 368 310 L 450 310 L 462 270 L 478 310 L 560 310 L 572 270 L 588 310 L 670 310 L 682 270 L 698 310 L 780 310 L 792 270 L 808 310 L 890 310 L 902 270 L 918 310 L 1000 310 L 1012 270 L 1028 310 L 1080 310\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\" stroke-linejoin=\"round\"/><rect x=\"1150\" y=\"0\" width=\"514\" height=\"180\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1150\" y=\"200\" width=\"514\" height=\"180\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 20,
+     "w": 56,
+     "t": "risco",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 368,
+     "w": 300,
+     "t": "semanas",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 170,
+     "w": 300,
+     "t": "pouco ativo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 50,
+     "w": 320,
+     "t": "esforço vigoroso raro",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 322,
+     "w": 200,
+     "t": "ativo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 368,
+     "w": 400,
+     "t": "esquema, sem valores medidos",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1172,
+     "y": 18,
+     "w": 470,
+     "t": "No esforço",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1172,
+     "y": 66,
+     "w": 470,
+     "t": "o risco sobe, de forma transitória, e mais em quem é menos ativo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1172,
+     "y": 218,
+     "w": 470,
+     "t": "Na vida",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1172,
+     "y": 266,
+     "w": 470,
+     "t": "o risco absoluto é pequeno; a atividade habitual reduz eventos; o saldo favorece a proteção",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Associação Americana do Coração, 2020",
    "titulo": "As duas frases são verdade",
-   "esq": {
-    "t": "No esforço",
-    "cor": "verm",
-    "itens": [
-     "o risco de morte súbita e infarto sobe",
-     "de forma transitória",
-     "mais em quem é menos ativo"
-    ]
-   },
-   "dir": {
-    "t": "Na vida",
-    "cor": "petr",
-    "itens": [
-     "o risco absoluto é pequeno",
-     "a atividade habitual reduz eventos",
-     "o saldo favorece a proteção"
-    ]
-   },
    "destaque": "A avaliação não serve para assustar nem para impedir. Serve para achar quem precisa de uma entrada diferente.",
    "destaque_cor": "tinta",
-   "fonte": "Associação Americana do Coração · Circulation 2020"
+   "fonte": "Franklin e colaboradores · Circulation 2020"
   },
   {
    "id": "modelo",
-   "tipo": "lista",
-   "eyebrow": "Riebe e colaboradores, 2015",
-   "titulo": "Etapa um: três perguntas, não a idade",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, a idade, riscada: deixou de ser o critério. À direita, as três perguntas do modelo. Já pratica exercício regular, planejado, ao menos moderado, trinta minutos, três vezes por semana, nos últimos três meses? Tem doença cardiovascular, metabólica ou renal conhecida, ou sinais e sintomas sugestivos? Que intensidade pretende: leve, moderada ou vigorosa?\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"110\" width=\"240\" height=\"120\" rx=\"60\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"20\" y1=\"210\" x2=\"220\" y2=\"130\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"256\" y1=\"170\" x2=\"316\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"336\" y=\"0\" width=\"424\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"384\" cy=\"48\" r=\"28\" fill=\"#008A7E\"/><g transform=\"translate(676.0 22.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"784\" y=\"0\" width=\"424\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"832\" cy=\"48\" r=\"28\" fill=\"#A8322A\"/><g transform=\"translate(1124.0 22.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><rect x=\"1232\" y=\"0\" width=\"424\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1280\" cy=\"48\" r=\"28\" fill=\"#B07A1C\"/><g transform=\"translate(1572.0 22.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 140,
+     "w": 240,
+     "t": "a idade",
+     "tam": 34,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 250,
+     "w": 240,
+     "t": "deixou de ser o critério",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 356,
+     "y": 30,
+     "w": 56,
+     "t": "1",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 360,
+     "y": 100,
+     "w": 380,
      "t": "Já pratica exercício regular?",
-     "x": "planejado, ao menos moderado, 30 min, 3 vezes por semana, nos últimos 3 meses",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 360,
+     "y": 170,
+     "w": 380,
+     "t": "planejado, ao menos moderado, 30 min, 3 vezes por semana, nos últimos 3 meses",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 804,
+     "y": 30,
+     "w": 56,
+     "t": "2",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 808,
+     "y": 100,
+     "w": 380,
      "t": "Tem doença ou sintoma?",
-     "x": "cardiovascular, metabólica ou renal conhecida; ou sinais e sintomas sugestivos",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 808,
+     "y": 170,
+     "w": 380,
+     "t": "cardiovascular, metabólica ou renal conhecida; ou sinais e sintomas sugestivos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1252,
+     "y": 30,
+     "w": 56,
+     "t": "3",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1256,
+     "y": 100,
+     "w": 380,
      "t": "Que intensidade pretende?",
-     "x": "leve, moderada ou vigorosa",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1256,
+     "y": 170,
+     "w": 380,
+     "t": "leve, moderada ou vigorosa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     }
    ],
+   "eyebrow": "Colégio Americano de Medicina do Esporte, 2015",
+   "titulo": "Etapa um: três perguntas, não a idade",
    "destaque": "O modelo anterior mandava gente demais ao médico. O rastreio cauteloso demais tira mais gente do exercício do que salva de evento.",
    "destaque_cor": "tinta",
-   "gap_itens": 22,
-   "fonte": "Colégio Americano de Medicina do Esporte · Medicine & Science in Sports & Exercise 2015"
+   "fonte": "Riebe e colaboradores · Medicine & Science in Sports & Exercise 2015"
   },
   {
    "id": "saidas",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Grade com as saídas do modelo. Linhas: não pratica e já pratica. Colunas: sem doença e sem sintoma, doença conhecida sem sintoma, sinal ou sintoma. Não pratica, sem doença: não precisa de liberação, começa leve a moderado e progride. Não pratica, com doença conhecida: liberação recomendada antes de começar. Não pratica, com sintoma: liberação antes de começar. Já pratica, sem doença: segue e progride. Já pratica, com doença conhecida: moderado sem liberação, vigoroso com liberação. Já pratica, com sintoma: para e avalia\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"250\" y=\"52\" width=\"462\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(268.0 72.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"726\" y=\"52\" width=\"462\" height=\"140\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(744.0 72.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"1202\" y=\"52\" width=\"462\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1220.0 72.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"250\" y=\"206\" width=\"462\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(268.0 226.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"726\" y=\"206\" width=\"462\" height=\"140\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(744.0 226.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"1202\" y=\"206\" width=\"462\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1220.0 226.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 250,
+     "y": 6,
+     "w": 462,
+     "t": "Sem doença, sem sintoma",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 726,
+     "y": 6,
+     "w": 462,
+     "t": "Doença conhecida, sem sintoma",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1202,
+     "y": 6,
+     "w": 462,
+     "t": "Sinal ou sintoma",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 104,
+     "w": 230,
+     "t": "Não pratica",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 320,
+     "y": 74,
+     "w": 376,
+     "t": "não precisa de liberação",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 320,
+     "y": 136,
+     "w": 376,
+     "t": "começa leve a moderado e progride",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 796,
+     "y": 74,
+     "w": 376,
+     "t": "liberação recomendada",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 796,
+     "y": 136,
+     "w": 376,
+     "t": "antes de começar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1272,
+     "y": 74,
+     "w": 376,
+     "t": "liberação antes de começar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1272,
+     "y": 136,
+     "w": 376,
+     "t": "o sintoma é investigado primeiro",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 258,
+     "w": 230,
+     "t": "Já pratica",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 320,
+     "y": 228,
+     "w": 376,
+     "t": "não precisa de liberação",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 320,
+     "y": 290,
+     "w": 376,
+     "t": "segue e progride",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 796,
+     "y": 228,
+     "w": 376,
+     "t": "moderado: segue",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 796,
+     "y": 290,
+     "w": 376,
+     "t": "vigoroso: com liberação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1272,
+     "y": 228,
+     "w": 376,
+     "t": "para e avalia",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1272,
+     "y": 290,
+     "w": 376,
+     "t": "a única saída sem negociação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "As saídas do modelo",
    "titulo": "Quem precisa de liberação médica",
-   "cab": [
-    "",
-    "Sem doença, sem sintoma",
-    "Doença conhecida, sem sintoma",
-    "Sinal ou sintoma"
-   ],
-   "larguras": [
-    16,
-    28,
-    30,
-    26
-   ],
-   "linhas": [
-    [
-     "Não pratica",
-     "não precisa; leve a moderado, progride",
-     "recomendada antes de começar",
-     "recomendada antes de começar"
-    ],
-    [
-     "Já pratica",
-     "não precisa; segue e progride",
-     "moderado sem; vigoroso com liberação",
-     "para e avalia"
-    ]
-   ],
    "destaque": "Perguntar sobre doença e sintoma é de todos. Investigar o que a pergunta achar é do médico. PAR-Q+: melhor que o formulário de uma linha.",
    "destaque_cor": "petr"
   },
@@ -240,184 +777,852 @@
   },
   {
    "id": "fechamento",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Rendem mais do que parecem",
-   "titulo": "Três perguntas que quase ninguém faz",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três balões de fala com as perguntas de fechamento. O que mudou nos últimos seis meses: trabalho, sono, peso, medicação, vida. Já parou alguma atividade por causa de um sintoma: acha quem se adaptou ao próprio limite, quem não diz que sente falta de ar, diz que parou de subir escada. Toma alguma coisa por conta própria: estimulante, pré-treino, emagrecedor, anabolizante, que não são relatados espontaneamente\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 16 0 H 512 Q 528 0 528 16 V 168 Q 528 184 512 184 H 120 L 70 226 L 80 184 H 16 Q 0 184 0 168 V 16 Q 0 0 16 0 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 260.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><path d=\"M 584 0 H 1080 Q 1096 0 1096 16 V 168 Q 1096 184 1080 184 H 688 L 638 226 L 648 184 H 584 Q 568 184 568 168 V 16 Q 568 0 584 0 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(592.0 260.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><path d=\"M 1152 0 H 1648 Q 1664 0 1664 16 V 168 Q 1664 184 1648 184 H 1256 L 1206 226 L 1216 184 H 1152 Q 1136 184 1136 168 V 16 Q 1136 0 1152 0 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1160.0 260.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 30,
+     "w": 480,
      "t": "“O que mudou nos últimos seis meses?”",
-     "x": "trabalho, sono, peso, medicação, vida",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 92,
+     "y": 256,
+     "w": 430,
+     "t": "trabalho, sono, peso, medicação, vida",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 592,
+     "y": 30,
+     "w": 480,
      "t": "“Já parou alguma atividade por causa de um sintoma?”",
-     "x": "acha quem se adaptou ao próprio limite",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 660,
+     "y": 256,
+     "w": 430,
+     "t": "acha quem se adaptou ao próprio limite: não diz que sente falta de ar, diz que parou de subir escada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1160,
+     "y": 30,
+     "w": 480,
      "t": "“Toma alguma coisa por conta própria?”",
-     "x": "estimulante, pré-treino, emagrecedor, anabolizante",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1228,
+     "y": 256,
+     "w": 430,
+     "t": "estimulante, pré-treino, emagrecedor, anabolizante: ninguém relata sem ser perguntado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Rendem mais do que parecem",
+   "titulo": "Três perguntas que quase ninguém faz",
    "destaque": "Na primeira consulta, o que decide segurança: sintoma, doença, história familiar, medicação e substância. O resto melhora com vínculo.",
    "destaque_cor": "tinta"
   },
   {
    "id": "sintomas",
-   "tipo": "lista",
-   "eyebrow": "Etapa três: para as seis profissões",
-   "titulo": "Os sinais que interrompem tudo",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, em destaque, a síncope durante o esforço: bandeira vermelha máxima, não treina até ser avaliado. À direita, os outros sinais: desconforto no peito no esforço, falta de ar desproporcional, palpitação com tontura ou desmaio, queda de tolerância sem explicação, e o conjunto da insuficiência cardíaca. Uma nota: síncope logo depois de parar costuma ser vasovagal, mas quem conclui é quem investigou\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"420\" rx=\"18\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(32.0 32.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"600\" y=\"0\" width=\"524\" height=\"130\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1140\" y=\"0\" width=\"524\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"600\" y=\"144\" width=\"524\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1140\" y=\"144\" width=\"524\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"600\" y=\"288\" width=\"524\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1140\" y=\"288\" width=\"524\" height=\"130\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
-     "t": "Desconforto no peito no esforço",
-     "x": "aperto, peso, queimação; quem nega “dor” descreve outra coisa",
-     "cor": "verm"
-    },
-    {
+     "x": 32,
+     "y": 136,
+     "w": 500,
      "t": "Síncope durante o esforço",
-     "x": "bandeira vermelha máxima: não treina até ser avaliado",
-     "cor": "verm"
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.1,
+     "serif": true
     },
     {
+     "x": 32,
+     "y": 250,
+     "w": 500,
+     "t": "bandeira vermelha máxima",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 32,
+     "y": 300,
+     "w": 500,
+     "t": "desmaiou no esforço: não treina até ser avaliado. Sem “foi só a pressão”.",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 620,
+     "y": 14,
+     "w": 484,
+     "t": "Desconforto no peito no esforço",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 620,
+     "y": 74,
+     "w": 484,
+     "t": "aperto, peso, queimação: quem nega “dor” descreve outra coisa",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 14,
+     "w": 484,
      "t": "Falta de ar desproporcional",
-     "x": "ou em repouso, ou ao deitar",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "t": "Palpitação com tontura, falta de ar ou desmaio",
-     "x": "isolada é comum; com sintoma, não",
-     "cor": "ambar"
+     "x": 1160,
+     "y": 74,
+     "w": 484,
+     "t": "ou em repouso, ou ao deitar",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 620,
+     "y": 158,
+     "w": 484,
+     "t": "Palpitação com tontura ou desmaio",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 620,
+     "y": 218,
+     "w": 484,
+     "t": "isolada é comum; com sintoma, não",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 158,
+     "w": 484,
      "t": "Queda de tolerância sem explicação",
-     "x": "acima dos 40, coronária se disfarça de “fora de forma”",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "t": "Inchaço, falta de ar ao deitar, acordar sem ar",
-     "x": "o conjunto da insuficiência cardíaca",
-     "cor": "ambar"
+     "x": 1160,
+     "y": 218,
+     "w": 484,
+     "t": "acima dos quarenta, a coronária se disfarça de “fora de forma”",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 302,
+     "w": 484,
+     "t": "Inchaço e falta de ar ao deitar",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 620,
+     "y": 362,
+     "w": 484,
+     "t": "acordar sem ar: o conjunto da insuficiência cardíaca",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 302,
+     "w": 484,
+     "t": "Síncope logo depois de parar",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1160,
+     "y": 362,
+     "w": 484,
+     "t": "costuma ser vasovagal; quem conclui é quem investigou",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 10
+   "eyebrow": "Etapa três: para as seis profissões",
+   "titulo": "Os sinais que interrompem tudo"
   },
   {
    "id": "historia",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O que precisa estar na ficha",
-   "titulo": "História familiar, fatores de risco, substâncias",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três blocos da ficha. História familiar, numa árvore: morte súbita ou cardiopatia hereditária em qualquer parente; coronária precoce em parente de primeiro grau, antes dos 55 no homem e antes dos 65 na mulher. Fatores de risco: pressão alta, diabetes, colesterol, tabagismo, obesidade abdominal, doença renal. Medicações e substâncias, inclusive as de conta própria\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(130.0 76.0) scale(1.5000)\"><path fill=\"#A8322A\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><g transform=\"translate(390.0 76.0) scale(1.5000)\"><path fill=\"#A8322A\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><line x1=\"202\" y1=\"112\" x2=\"390\" y2=\"112\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><line x1=\"296\" y1=\"112\" x2=\"296\" y2=\"200\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><line x1=\"200\" y1=\"200\" x2=\"400\" y2=\"200\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><line x1=\"200\" y1=\"200\" x2=\"200\" y2=\"212\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><g transform=\"translate(170.0 212.0) scale(1.2500)\"><g fill=\"#12202E\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"400\" y1=\"200\" x2=\"400\" y2=\"212\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><g transform=\"translate(370.0 212.0) scale(1.2500)\"><g fill=\"#A8322A\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><rect x=\"680\" y=\"0\" width=\"560\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"704\" y=\"90\" width=\"244\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"966\" y=\"90\" width=\"244\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"704\" y=\"190\" width=\"244\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"966\" y=\"190\" width=\"244\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"704\" y=\"290\" width=\"244\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"966\" y=\"290\" width=\"244\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1280\" y=\"0\" width=\"384\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1412.0 130.0) scale(5.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 18,
+     "w": 590,
      "t": "História familiar",
-     "x": "morte súbita, cardiopatia hereditária; coronária precoce: antes dos 55 no homem, antes dos 65 na mulher, em parente de primeiro grau",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 60,
+     "y": 152,
+     "w": 212,
+     "t": "homem: antes dos 55",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 152,
+     "w": 212,
+     "t": "mulher: antes dos 65",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 130,
+     "y": 276,
+     "w": 140,
+     "t": "a pessoa",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 276,
+     "w": 140,
+     "t": "irmão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 318,
+     "w": 596,
+     "t": "coronária precoce em parente de primeiro grau; morte súbita ou cardiopatia hereditária em qualquer idade",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 704,
+     "y": 18,
+     "w": 510,
      "t": "Fatores de risco",
-     "x": "pressão alta, diabetes, colesterol, tabagismo, obesidade abdominal, doença renal",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 712,
+     "y": 114,
+     "w": 228,
+     "t": "pressão alta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 974,
+     "y": 114,
+     "w": 228,
+     "t": "diabetes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 712,
+     "y": 214,
+     "w": 228,
+     "t": "colesterol",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 974,
+     "y": 214,
+     "w": 228,
+     "t": "tabagismo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 712,
+     "y": 314,
+     "w": 228,
+     "t": "obesidade abdominal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 974,
+     "y": 314,
+     "w": 228,
+     "t": "doença renal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1304,
+     "y": 18,
+     "w": 340,
      "t": "Medicações e substâncias",
-     "x": "inclusive as de conta própria",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1304,
+     "y": 280,
+     "w": 340,
+     "t": "inclusive as de conta própria",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "O que precisa estar na ficha",
+   "titulo": "História familiar, fatores de risco, substâncias",
    "destaque": "“Não sei” é resposta clínica: não é “não”, é motivo para medir a pressão ali mesmo.",
    "destaque_cor": "tinta"
   },
   {
    "id": "perfis",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro perfis típicos, cada um com o que decide e a entrada no exercício. Jovem sem sintoma: decide a ausência de história familiar; entra leve a moderado sem liberação, com progressão. Meia-idade voltando: decidem fatores de risco, sintoma e intensidade; o médico faz a conta do risco e a entrada é gradual. Doença crônica compensada: decide quem prescreve e como monitora; exercício é tratamento, com critério. Atleta federado: decide a exigência da federação ou do evento; outro sistema, outra lógica\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><g transform=\"translate(10.0 48.0) scale(1.1667)\"><g fill=\"#008A7E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"84\" y=\"40\" width=\"420\" height=\"74\" rx=\"37\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"512\" y1=\"77\" x2=\"548\" y2=\"77\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"1102\" y1=\"77\" x2=\"1138\" y2=\"77\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1150\" y=\"40\" width=\"514\" height=\"74\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(10.0 134.0) scale(1.1667)\"><path fill=\"#B07A1C\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><rect x=\"84\" y=\"126\" width=\"420\" height=\"74\" rx=\"37\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"512\" y1=\"163\" x2=\"548\" y2=\"163\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"1102\" y1=\"163\" x2=\"1138\" y2=\"163\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1150\" y=\"126\" width=\"514\" height=\"74\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(10.0 220.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><rect x=\"84\" y=\"212\" width=\"420\" height=\"74\" rx=\"37\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><line x1=\"512\" y1=\"249\" x2=\"548\" y2=\"249\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"1102\" y1=\"249\" x2=\"1138\" y2=\"249\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1150\" y=\"212\" width=\"514\" height=\"74\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(10.0 306.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v3M8 4v6m8-6v6m-4 8.5L9 20l.5-3.5l-2-2l3-.5l1.5-3l1.5 3l3 .5l-2 2L15 20z\"/></g><rect x=\"84\" y=\"298\" width=\"420\" height=\"74\" rx=\"37\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"512\" y1=\"335\" x2=\"548\" y2=\"335\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"1102\" y1=\"335\" x2=\"1138\" y2=\"335\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1150\" y=\"298\" width=\"514\" height=\"74\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 84,
+     "y": 0,
+     "w": 400,
+     "t": "Perfil",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 0,
+     "w": 500,
+     "t": "O que decide",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 0,
+     "w": 500,
+     "t": "Entrada",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 62,
+     "w": 388,
+     "t": "Jovem sem sintoma",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 62,
+     "w": 540,
+     "t": "sem história familiar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 62,
+     "w": 484,
+     "t": "leve a moderado sem liberação; progressão",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 100,
+     "y": 148,
+     "w": 388,
+     "t": "Meia-idade voltando",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 148,
+     "w": 540,
+     "t": "fatores de risco, sintoma, intensidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 148,
+     "w": 484,
+     "t": "conta do risco pelo médico; entrada gradual",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 100,
+     "y": 234,
+     "w": 388,
+     "t": "Doença crônica compensada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 234,
+     "w": 540,
+     "t": "quem prescreve e como monitora",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 234,
+     "w": 484,
+     "t": "exercício é tratamento, com critério",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 100,
+     "y": 320,
+     "w": 388,
+     "t": "Atleta federado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 320,
+     "w": 540,
+     "t": "exigência da federação ou do evento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 320,
+     "w": 484,
+     "t": "outro sistema, outra lógica",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
    "eyebrow": "Etapa quatro: perfis típicos",
    "titulo": "O que fazer com o que se achou",
-   "cab": [
-    "Perfil",
-    "O que decide",
-    "Entrada"
-   ],
-   "larguras": [
-    26,
-    38,
-    36
-   ],
-   "linhas": [
-    [
-     "Jovem sem sintoma",
-     "sem história familiar",
-     "leve a moderado sem liberação; progressão"
-    ],
-    [
-     "Meia-idade voltando",
-     "fatores de risco, sintoma, intensidade",
-     "conta do risco pelo médico; entrada gradual"
-    ],
-    [
-     "Doença crônica compensada",
-     "quem prescreve e como monitora",
-     "exercício é tratamento, com critério"
-    ],
-    [
-     "Atleta federado",
-     "exigência da federação ou do evento",
-     "outro sistema, outra lógica"
-    ]
-   ],
    "destaque": "Doença cardiovascular estabelecida não é, em geral, contraindicação ao exercício. É indicação de exercício prescrito com critério.",
    "destaque_cor": "petr"
   },
   {
    "id": "tres_saidas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Quase nunca é tudo ou nada",
-   "titulo": "Três saídas",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Do que se achou na avaliação saem três caminhos; a espessura indica, em esquema, quantos vão por cada um. O mais largo: libera com progressão, a maioria. O do meio: libera com restrição enquanto investiga, a saída mais subutilizada, como caminhar enquanto espera o cardiologista. O mais fino: suspende até avaliar, para sintoma de alerta e instabilidade\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 280 158 C 480 158, 560 60, 760 60\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"70\" stroke-linecap=\"round\" opacity=\"0.85\"/><rect x=\"780\" y=\"2\" width=\"884\" height=\"116\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(800.0 30.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><path d=\"M 280 200 C 480 200, 560 200, 760 200\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"30\" stroke-linecap=\"round\" opacity=\"0.85\"/><rect x=\"780\" y=\"142\" width=\"884\" height=\"116\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(800.0 170.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6\"/><path d=\"m6 12l2-3l4-1l3 3l3 1\"/></g></g><path d=\"M 280 242 C 480 242, 560 340, 760 340\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/><rect x=\"780\" y=\"282\" width=\"884\" height=\"116\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(800.0 310.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><rect x=\"0\" y=\"140\" width=\"300\" height=\"120\" rx=\"60\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 880,
+     "y": 16,
+     "w": 760,
      "t": "Libera com progressão",
-     "x": "a maioria",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 880,
+     "y": 62,
+     "w": 760,
+     "t": "a maioria",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 156,
+     "w": 760,
      "t": "Libera com restrição enquanto investiga",
-     "x": "a mais subutilizada: caminhar enquanto espera o cardiologista",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 880,
+     "y": 202,
+     "w": 760,
+     "t": "a mais subutilizada: caminhar enquanto espera o cardiologista",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 296,
+     "w": 760,
      "t": "Suspende até avaliar",
-     "x": "sintoma de alerta e instabilidade",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 342,
+     "w": 760,
+     "t": "sintoma de alerta e instabilidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 178,
+     "w": 280,
+     "t": "o que se achou",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 300,
+     "w": 300,
+     "t": "espessura em esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque_cor": "tinta"
+   "eyebrow": "Quase nunca é tudo ou nada",
+   "titulo": "Três saídas"
   },
   {
    "id": "registro",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, uma página de registro com cinco linhas marcadas: as três perguntas do modelo; sintomas, com o que foi negado; história familiar, com idade e evento; fatores de risco, medicações e substâncias; conduta, data e orientação dada. À direita, dois erros: escrever sem alterações sem dizer o que se perguntou, e não registrar a recusa nem a orientação\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 0 0 H 820 L 880 60 V 400 H 0 Z\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 820 0 V 60 H 880\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"28\" y=\"84\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 36 101 L 43 109 L 56 93\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"128\" x2=\"840\" y2=\"128\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"28\" y=\"146\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 36 163 L 43 171 L 56 155\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"190\" x2=\"840\" y2=\"190\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"28\" y=\"208\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 36 225 L 43 233 L 56 217\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"252\" x2=\"840\" y2=\"252\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"28\" y=\"270\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 36 287 L 43 295 L 56 279\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"314\" x2=\"840\" y2=\"314\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"28\" y=\"332\" width=\"34\" height=\"34\" rx=\"6\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 36 349 L 43 357 L 56 341\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"376\" x2=\"840\" y2=\"376\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"960\" y=\"84\" width=\"704\" height=\"136\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(984.0 122.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"960\" y=\"242\" width=\"704\" height=\"136\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(984.0 280.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 28,
+     "y": 20,
+     "w": 700,
+     "t": "Em uma página",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 86,
+     "w": 760,
+     "t": "as três perguntas do modelo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 148,
+     "w": 760,
+     "t": "sintomas, com o que foi negado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 210,
+     "w": 760,
+     "t": "história familiar, com idade e evento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 272,
+     "w": 760,
+     "t": "fatores de risco, medicações, substâncias",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 334,
+     "w": 760,
+     "t": "conduta, data e orientação dada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 20,
+     "w": 700,
+     "t": "Dois erros",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 106,
+     "w": 580,
+     "t": "“Sem alterações”",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 154,
+     "w": 580,
+     "t": "sem dizer o que se perguntou",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 264,
+     "w": 580,
+     "t": "Nada sobre a recusa",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 312,
+     "w": 580,
+     "t": "nem sobre a orientação dada",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O registro",
    "titulo": "O que não está escrito não aconteceu",
-   "esq": {
-    "t": "Em uma página",
-    "cor": "petr",
-    "itens": [
-     "as três perguntas do modelo",
-     "sintomas, com o que foi negado",
-     "história familiar, com idade e evento",
-     "fatores de risco, medicações, substâncias",
-     "conduta, data e orientação dada"
-    ]
-   },
-   "dir": {
-    "t": "Dois erros",
-    "cor": "verm",
-    "itens": [
-     "“sem alterações” sem dizer o que se perguntou",
-     "não registrar a recusa, nem a orientação"
-    ]
-   },
    "destaque": "O formulário de matrícula de uma linha é documento de defesa, não instrumento clínico. Trocá-lo custa cinco minutos por aluno.",
    "destaque_cor": "tinta"
   },

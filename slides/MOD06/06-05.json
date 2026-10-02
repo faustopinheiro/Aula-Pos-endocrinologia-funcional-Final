@@ -22,335 +22,1639 @@
  "slides": [
   {
    "id": "cena",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Um campo de futebol visto de cima, num sábado de manhã. No meio do primeiro tempo, um menino cai sem que ninguém tenha encostado nele. Em volta, as quatro coisas decididas antes do jogo: quem vai primeiro, onde está o desfibrilador, quem liga, quem abre o portão\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"400\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"450\" y1=\"0\" x2=\"450\" y2=\"400\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"450\" cy=\"200\" r=\"64\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"110\" width=\"120\" height=\"180\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"780\" y=\"110\" width=\"120\" height=\"180\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"300\" cy=\"240\" r=\"34\" fill=\"#A8322A\"/><g transform=\"translate(276.0 216.0) scale(1.0000)\"><g fill=\"#F7F6F2\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><rect x=\"820\" y=\"330\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(836.0 340.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><path d=\"M 820 350 C 600 350, 420 320, 330 270\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"950\" y=\"60\" width=\"714\" height=\"70\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(974.0 75.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"950\" y=\"144\" width=\"714\" height=\"70\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(974.0 159.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"950\" y=\"228\" width=\"714\" height=\"70\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(974.0 243.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g><rect x=\"950\" y=\"312\" width=\"714\" height=\"70\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(974.0 327.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 180,
+     "y": 286,
+     "w": 240,
+     "t": "caiu; ninguém encostou",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 360,
+     "w": 240,
+     "t": "onde está o DEA?",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 0,
+     "w": 700,
+     "t": "Decidido antes do jogo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1030,
+     "y": 80,
+     "w": 620,
+     "t": "quem vai primeiro",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 164,
+     "w": 620,
+     "t": "onde está o desfibrilador",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 248,
+     "w": 620,
+     "t": "quem liga",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 332,
+     "w": 620,
+     "t": "quem abre o portão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Sábado de manhã, campo alugado",
-   "frase": "Um menino cai no meio do primeiro tempo. Ninguém encostou nele.",
-   "apoio": "A partir desse segundo, o desfecho depende de coisas decididas antes do jogo: quem vai primeiro, onde está o desfibrilador, quem liga, quem abre o portão."
+   "titulo": "Um menino cai no meio do primeiro tempo"
   },
   {
    "id": "mapa",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O procedimento",
-   "titulo": "Seis passos, metade antes da queda",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Os seis passos em três faixas de tempo. Antes da queda: plano escrito e desfibrilador no lugar. Na queda: reconhecer e comprimir, chocar e voltar. Depois: transferir e registrar, e ensaiar, de novo. Metade dos passos acontece antes da queda, numa terça-feira qualquer\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"24\" y=\"90\" width=\"476\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"150\" r=\"32\" fill=\"#008A7E\"/><rect x=\"24\" y=\"230\" width=\"476\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"290\" r=\"32\" fill=\"#008A7E\"/><path d=\"M 532 190 l 20 0\" stroke=\"#6B7A87\" stroke-width=\"4\"/><rect x=\"560\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"584\" y=\"90\" width=\"476\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"640\" cy=\"150\" r=\"32\" fill=\"#A8322A\"/><rect x=\"584\" y=\"230\" width=\"476\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"640\" cy=\"290\" r=\"32\" fill=\"#A8322A\"/><path d=\"M 1092 190 l 20 0\" stroke=\"#6B7A87\" stroke-width=\"4\"/><rect x=\"1120\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1144\" y=\"90\" width=\"476\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1200\" cy=\"150\" r=\"32\" fill=\"#B07A1C\"/><rect x=\"1144\" y=\"230\" width=\"476\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1200\" cy=\"290\" r=\"32\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
     {
-     "t": "1. Plano escrito",
-     "x": "antes da queda",
-     "cor": "petr"
+     "x": 24,
+     "y": 20,
+     "w": 480,
+     "t": "Antes da queda",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "2. Desfibrilador no lugar",
-     "x": "antes da queda",
-     "cor": "petr"
+     "x": 50,
+     "y": 130,
+     "w": 60,
+     "t": "1",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "3. Reconhecer e comprimir",
-     "x": "na queda",
-     "cor": "verm"
+     "x": 130,
+     "y": 130,
+     "w": 350,
+     "t": "Plano escrito",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "4. Chocar e voltar",
-     "x": "na queda",
-     "cor": "verm"
+     "x": 50,
+     "y": 270,
+     "w": 60,
+     "t": "2",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "5. Transferir e registrar",
-     "x": "depois",
-     "cor": "ambar"
+     "x": 130,
+     "y": 270,
+     "w": 350,
+     "t": "Desfibrilador no lugar",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "6. Ensaiar",
-     "x": "depois, e de novo",
-     "cor": "ambar"
+     "x": 584,
+     "y": 20,
+     "w": 480,
+     "t": "Na queda",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 610,
+     "y": 130,
+     "w": 60,
+     "t": "3",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 690,
+     "y": 130,
+     "w": 350,
+     "t": "Reconhecer e comprimir",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 270,
+     "w": 60,
+     "t": "4",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 690,
+     "y": 270,
+     "w": 350,
+     "t": "Chocar e voltar",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 20,
+     "w": 480,
+     "t": "Depois",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1170,
+     "y": 130,
+     "w": 60,
+     "t": "5",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1250,
+     "y": 130,
+     "w": 350,
+     "t": "Transferir e registrar",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 270,
+     "w": 60,
+     "t": "6",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1250,
+     "y": 270,
+     "w": 350,
+     "t": "Ensaiar, de novo",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O procedimento",
+   "titulo": "Seis passos, metade antes da queda",
    "destaque": "A parte que decide o desfecho é a parte administrativa, feita numa terça-feira qualquer. Nada aqui substitui o curso presencial de suporte básico de vida.",
    "destaque_cor": "tinta"
   },
   {
    "id": "folha",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A folha do plano escrito, com sete linhas. Cada linha tem a função, o que ela faz e um espaço para um nome próprio. Quem lidera: olha o relógio e distribui tarefas, não comprime. Quem comprime, e quem é o segundo: troca a cada dois minutos. Quem busca o desfibrilador: sai correndo sem esperar ordem. Quem liga para o 192: com endereço, referência e portão escritos na folha. Quem abre o portão e conduz a ambulância até o atleta. Quem afasta as pessoas e protege a imagem do atleta. Quem cuida do grupo: atletas e famílias que viram a queda\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"420\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 64.0) scale(1.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><line x1=\"1240\" y1=\"96\" x2=\"1630\" y2=\"96\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"24\" y1=\"106\" x2=\"1640\" y2=\"106\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(24.0 115.0) scale(1.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><line x1=\"1240\" y1=\"147\" x2=\"1630\" y2=\"147\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"24\" y1=\"157\" x2=\"1640\" y2=\"157\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(24.0 166.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><line x1=\"1240\" y1=\"198\" x2=\"1630\" y2=\"198\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"24\" y1=\"208\" x2=\"1640\" y2=\"208\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(24.0 217.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g><line x1=\"1240\" y1=\"249\" x2=\"1630\" y2=\"249\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"24\" y1=\"259\" x2=\"1640\" y2=\"259\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(24.0 268.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><line x1=\"1240\" y1=\"300\" x2=\"1630\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"24\" y1=\"310\" x2=\"1640\" y2=\"310\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(24.0 319.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><line x1=\"1240\" y1=\"351\" x2=\"1630\" y2=\"351\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"24\" y1=\"361\" x2=\"1640\" y2=\"361\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(24.0 370.0) scale(1.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M12 6L8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25m-7 3l2 2M15 13l2 2\"/></g></g><line x1=\"1240\" y1=\"402\" x2=\"1630\" y2=\"402\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 14,
+     "w": 600,
+     "t": "Plano de emergência",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1240,
+     "y": 18,
+     "w": 400,
+     "t": "nome",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 66,
+     "w": 400,
+     "t": "Quem lidera",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 66,
+     "w": 740,
+     "t": "olha o relógio, distribui tarefas; não comprime",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 117,
+     "w": 400,
+     "t": "Quem comprime",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 117,
+     "w": 740,
+     "t": "e quem é o segundo: troca a cada dois minutos",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 168,
+     "w": 400,
+     "t": "Quem busca o desfibrilador",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 168,
+     "w": 740,
+     "t": "sai correndo sem esperar ordem",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 219,
+     "w": 400,
+     "t": "Quem liga para o 192",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 219,
+     "w": 740,
+     "t": "com endereço, referência e portão escritos na folha",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 270,
+     "w": 400,
+     "t": "Quem abre o portão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 270,
+     "w": 740,
+     "t": "e conduz a ambulância até o atleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 321,
+     "w": 400,
+     "t": "Quem afasta as pessoas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 321,
+     "w": 740,
+     "t": "e protege a imagem do atleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 372,
+     "w": 400,
+     "t": "Quem cuida do grupo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 372,
+     "w": 740,
+     "t": "atletas e famílias que viram a queda",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo um: o plano escrito",
    "titulo": "Sete linhas, sete nomes próprios",
-   "cab": [
-    "Função",
-    "O que faz"
-   ],
-   "larguras": [
-    34,
-    66
-   ],
-   "linhas": [
-    [
-     "Quem lidera",
-     "olha o relógio, distribui tarefas; não comprime"
-    ],
-    [
-     "Quem comprime",
-     "e quem é o segundo: troca a cada dois minutos"
-    ],
-    [
-     "Quem busca o desfibrilador",
-     "sai correndo sem esperar ordem"
-    ],
-    [
-     "Quem liga para o 192",
-     "com endereço, referência e portão escritos na folha"
-    ],
-    [
-     "Quem abre o portão",
-     "e conduz a ambulância até o atleta"
-    ],
-    [
-     "Quem afasta as pessoas",
-     "e protege a imagem do atleta"
-    ],
-    [
-     "Quem cuida do grupo",
-     "atletas e famílias que viram a queda"
-    ]
-   ],
    "destaque": "O teste: entregue a folha a quem não estava na reunião. Se não souber o que fazer, existe uma folha, não um plano.",
    "destaque_cor": "petr"
   },
   {
    "id": "dea",
-   "tipo": "numeros",
-   "eyebrow": "Passo dois: o desfibrilador",
-   "titulo": "O critério de posicionamento é tempo",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, um relógio de dez minutos a partir da queda, com a faixa de três a cinco minutos destacada: a meta entre a queda e o primeiro choque. No meio, o desfibrilador: qualquer pessoa pode usar, e o aparelho só choca ritmo chocável. À direita, a verificação: bateria e pás dentro da validade, e a checagem registrada\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><circle cx=\"190\" cy=\"190\" r=\"160\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M 321 233 A 138 138 0 0 1 190 328\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"28\"/><line x1=\"190\" y1=\"36\" x2=\"190\" y2=\"70\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"281\" y1=\"65\" x2=\"273\" y2=\"75\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"336\" y1=\"142\" x2=\"325\" y2=\"146\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"336\" y1=\"238\" x2=\"325\" y2=\"234\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"281\" y1=\"315\" x2=\"273\" y2=\"305\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"190\" y1=\"344\" x2=\"190\" y2=\"310\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"99\" y1=\"315\" x2=\"107\" y2=\"305\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"44\" y1=\"238\" x2=\"55\" y2=\"234\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"44\" y1=\"142\" x2=\"55\" y2=\"146\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"99\" y1=\"65\" x2=\"107\" y2=\"75\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"190\" y1=\"190\" x2=\"190\" y2=\"90\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"700\" y=\"0\" width=\"460\" height=\"380\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"860\" y=\"40\" width=\"140\" height=\"120\" rx=\"16\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><g transform=\"translate(895.0 65.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"1200\" y=\"0\" width=\"464\" height=\"380\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1224.0 90.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4m3-4v4m3-4v4m3-4v4\"/></g><g transform=\"translate(1224.0 180.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><g transform=\"translate(1224.0 270.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 9l2 2l4-4\"/></g></g></svg>",
+   "rotulos": [
     {
-     "n": "3 a 5 min",
-     "x": "meta entre a queda e o primeiro choque",
-     "cor": "verm"
+     "x": 202,
+     "y": 42,
+     "w": 120,
+     "t": "queda",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "qualquer",
-     "x": "pessoa pode usar; o aparelho só choca ritmo chocável",
-     "cor": "petr"
+     "x": 40,
+     "y": 214,
+     "w": 140,
+     "t": "3 a 5 min",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "validade",
-     "x": "bateria e pás; verificação registrada",
-     "cor": "ambar"
+     "x": 400,
+     "y": 40,
+     "w": 260,
+     "t": "A meta",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 170,
+     "w": 260,
+     "t": "da queda ao primeiro choque, contando a corrida até o aparelho",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 724,
+     "y": 190,
+     "w": 412,
+     "t": "Qualquer pessoa pode usar",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 724,
+     "y": 240,
+     "w": 412,
+     "t": "o aparelho só choca ritmo chocável",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1224,
+     "y": 20,
+     "w": 420,
+     "t": "Verificação",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1290,
+     "y": 100,
+     "w": 350,
+     "t": "bateria na validade",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 190,
+     "w": 350,
+     "t": "pás na validade",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 280,
+     "w": 350,
+     "t": "checagem registrada",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo dois: o desfibrilador",
+   "titulo": "O critério de posicionamento é tempo",
    "destaque": "Distância se mede em segundos de corrida. DEA trancado na diretoria é DEA que não existe. A primeira vez que alguém abre a maleta não pode ser com um atleta no chão.",
    "destaque_cor": "tinta",
    "fonte": "Força-tarefa americana, Prehosp Emerg Care 2007 · Lei Lucas, 13.722/2018"
   },
   {
    "id": "comprimir",
-   "tipo": "numeros",
-   "eyebrow": "Passo três: reconhecer e começar",
-   "titulo": "Não responde e não respira normalmente: comprime",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três desenhos. Frequência: uma fileira de batidas, de 100 a 120 compressões por minuto. Profundidade: uma régua no tórax do adulto, com a faixa de 5 a 6 centímetros e retorno completo. Troca: duas pessoas que se revezam na compressão a cada dois minutos\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><path d=\"M 40 260 L 50 260 L 58 190 L 66 260 L 88 260\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 98 260 L 108 260 L 116 190 L 124 260 L 146 260\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 156 260 L 166 260 L 174 190 L 182 260 L 204 260\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 214 260 L 224 260 L 232 190 L 240 260 L 262 260\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 272 260 L 282 260 L 290 190 L 298 260 L 320 260\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 330 260 L 340 260 L 348 190 L 356 260 L 378 260\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 388 260 L 398 260 L 406 190 L 414 260 L 436 260\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 446 260 L 456 260 L 464 190 L 472 260 L 494 260\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-linejoin=\"round\"/><rect x=\"570\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"700\" y1=\"160\" x2=\"700\" y2=\"340\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"700\" y1=\"160\" x2=\"724\" y2=\"160\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"700\" y1=\"185\" x2=\"714\" y2=\"185\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"700\" y1=\"210\" x2=\"714\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"700\" y1=\"235\" x2=\"714\" y2=\"235\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"700\" y1=\"260\" x2=\"714\" y2=\"260\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"700\" y1=\"285\" x2=\"724\" y2=\"285\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"700\" y1=\"310\" x2=\"714\" y2=\"310\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"700\" y1=\"335\" x2=\"714\" y2=\"335\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"730\" y=\"285\" width=\"200\" height=\"25\" fill=\"#B07A1C\"/><rect x=\"1140\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1210.0 180.0) scale(2.2917)\"><g fill=\"#008A7E\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1470.0 180.0) scale(2.2917)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><path d=\"M 1340 200 C 1380 160, 1420 160, 1460 200\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 1460 290 C 1420 330, 1380 330, 1340 290\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
     {
-     "n": "100 a 120",
-     "x": "compressões por minuto",
-     "cor": "verm"
+     "x": 24,
+     "y": 20,
+     "w": 480,
+     "t": "100 a 120",
+     "tam": 56,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "5 a 6 cm",
-     "x": "de profundidade no adulto, com retorno completo",
-     "cor": "ambar"
+     "x": 24,
+     "y": 100,
+     "w": 480,
+     "t": "compressões por minuto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "2 min",
-     "x": "troca de quem comprime",
-     "cor": "petr"
+     "x": 24,
+     "y": 300,
+     "w": 480,
+     "t": "no ritmo, sem pausa",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 594,
+     "y": 20,
+     "w": 480,
+     "t": "5 a 6 cm",
+     "tam": 56,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 594,
+     "y": 100,
+     "w": 480,
+     "t": "de profundidade no adulto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 148,
+     "w": 56,
+     "t": "0",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 173,
+     "w": 56,
+     "t": "1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 198,
+     "w": 56,
+     "t": "2",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 223,
+     "w": 56,
+     "t": "3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 248,
+     "w": 56,
+     "t": "4",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 273,
+     "w": 56,
+     "t": "5",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 298,
+     "w": 56,
+     "t": "6",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 323,
+     "w": 56,
+     "t": "7",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 282,
+     "w": 140,
+     "t": "5 a 6 cm",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 730,
+     "y": 180,
+     "w": 320,
+     "t": "com retorno completo do tórax",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 20,
+     "w": 480,
+     "t": "2 min",
+     "tam": 56,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 100,
+     "w": 480,
+     "t": "troca de quem comprime",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo três: reconhecer e começar",
+   "titulo": "Não responde e não respira normalmente: comprime",
    "destaque": "Grite e dispare duas tarefas ao mesmo tempo: “traz o DEA” e “liga 192”. Quem não é treinado em ventilação faz compressão contínua.",
    "destaque_cor": "tinta",
    "fonte": "Diretriz americana de ressuscitação, Circulation 2025"
   },
   {
    "id": "erros",
-   "tipo": "lista",
-   "eyebrow": "Três erros que custam tempo",
-   "titulo": "O que aparece em quase todo vídeo",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Esquema. Uma faixa de compressão contínua, da queda até a chegada do socorro. Três erros abrem buracos na faixa: procurar pulso, em que leigos e profissionais erram e cada segundo é sem compressão; esperar o médico, que pode estar no vestiário ou não existir, quando quem está ao lado deveria começar; levar o atleta para fora do campo, quando a reanimação acontece onde ele está\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"60\" width=\"244\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"356\" y=\"60\" width=\"420\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"888\" y=\"60\" width=\"420\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1420\" y=\"60\" width=\"244\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"244\" y=\"60\" width=\"112\" height=\"60\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"300\" y1=\"126\" x2=\"300\" y2=\"170\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"65\" y=\"170\" width=\"470\" height=\"230\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(85.0 190.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"776\" y=\"60\" width=\"112\" height=\"60\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"832\" y1=\"126\" x2=\"832\" y2=\"170\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"597\" y=\"170\" width=\"470\" height=\"230\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(617.0 190.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"1308\" y=\"60\" width=\"112\" height=\"60\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"1364\" y1=\"126\" x2=\"1364\" y2=\"170\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1129\" y=\"170\" width=\"470\" height=\"230\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1149.0 190.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "t": "compressão contínua",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1264,
+     "y": 0,
+     "w": 400,
+     "t": "esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 135,
+     "y": 194,
+     "w": 380,
      "t": "Procurar pulso",
-     "x": "leigos e profissionais erram; cada segundo nisso é sem compressão",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 89,
+     "y": 260,
+     "w": 422,
+     "t": "leigos e profissionais erram; cada segundo nisso é sem compressão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 667,
+     "y": 194,
+     "w": 380,
      "t": "Esperar o médico",
-     "x": "pode estar no vestiário, ou não existir; quem está ao lado começa",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 621,
+     "y": 260,
+     "w": 422,
+     "t": "pode estar no vestiário, ou não existir; quem está ao lado começa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1199,
+     "y": 194,
+     "w": 380,
      "t": "Levar para fora do campo",
-     "x": "a reanimação acontece onde o atleta está",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1153,
+     "y": 260,
+     "w": 422,
+     "t": "a reanimação acontece onde o atleta está",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "Três erros que custam tempo",
+   "titulo": "O que aparece em quase todo vídeo"
   },
   {
    "id": "chocar",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, um laço: compressão, choque, e de volta à compressão na hora, sem checar pulso; quem comprime não para enquanto outro cola as pás. À direita, seis obstáculos que atrasam as pás e a solução de cada um: tórax molhado, secar rápido; muito pelo, lâmina da maleta; adesivo de medicação, retirar e limpar; dispositivo implantado, pá alguns centímetros ao lado; criança sem pá pediátrica, usar a de adulto; choque não indicado, continuar comprimindo\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 120 140 A 130 80 0 0 1 380 140\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m1)\"/><path d=\"M 380 240 A 130 80 0 0 1 120 240\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"150\" width=\"220\" height=\"80\" rx=\"40\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"290\" y=\"150\" width=\"220\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"580\" y=\"0\" width=\"530\" height=\"122\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1126\" y=\"0\" width=\"530\" height=\"122\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"580\" y=\"136\" width=\"530\" height=\"122\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1126\" y=\"136\" width=\"530\" height=\"122\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"580\" y=\"272\" width=\"530\" height=\"122\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1126\" y=\"272\" width=\"530\" height=\"122\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 172,
+     "w": 220,
+     "t": "compressão",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 172,
+     "w": 220,
+     "t": "choque",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 344,
+     "w": 520,
+     "t": "volta a comprimir na hora, sem checar pulso",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 16,
+     "w": 490,
+     "t": "Tórax molhado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 64,
+     "w": 490,
+     "t": "→ secar rápido",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1146,
+     "y": 16,
+     "w": 490,
+     "t": "Muito pelo onde vão as pás",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1146,
+     "y": 64,
+     "w": 490,
+     "t": "→ lâmina da maleta",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 152,
+     "w": 490,
+     "t": "Adesivo de medicação",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 200,
+     "w": 490,
+     "t": "→ retirar e limpar",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1146,
+     "y": 152,
+     "w": 490,
+     "t": "Dispositivo implantado",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1146,
+     "y": 200,
+     "w": 490,
+     "t": "→ pá alguns centímetros ao lado",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 288,
+     "w": 490,
+     "t": "Criança sem pá pediátrica",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 336,
+     "w": 490,
+     "t": "→ usar a de adulto",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1146,
+     "y": 288,
+     "w": 490,
+     "t": "“Choque não indicado”",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1146,
+     "y": 336,
+     "w": 490,
+     "t": "→ continuar comprimindo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo quatro: chocar e voltar a comprimir",
    "titulo": "O que atrasa as pás, e a solução",
-   "cab": [
-    "Situação",
-    "O que fazer"
-   ],
-   "larguras": [
-    40,
-    60
-   ],
-   "linhas": [
-    [
-     "Tórax molhado",
-     "secar rápido"
-    ],
-    [
-     "Muito pelo na região das pás",
-     "lâmina da maleta"
-    ],
-    [
-     "Adesivo de medicação",
-     "retirar e limpar"
-    ],
-    [
-     "Dispositivo implantado",
-     "pá alguns centímetros ao lado"
-    ],
-    [
-     "Criança sem pá pediátrica",
-     "usar a de adulto"
-    ],
-    [
-     "“Choque não indicado”",
-     "continuar comprimindo"
-    ]
-   ],
    "destaque": "Depois do choque, volta a comprimir na hora, sem checar pulso. Quem comprime não para enquanto outro cola as pás.",
    "destaque_cor": "tinta"
   },
   {
    "id": "depois",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo cinco: o que quase todo mundo esquece",
-   "titulo": "Transferir, registrar, cuidar de quem ficou",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três blocos de depois da queda. A transferência para a equipe da ambulância, numa frase com quatro campos: hora da queda, hora da primeira compressão, choques dados, estado agora. Quem fala: uma pessoa designada; família por telefone, não pelo story. O registro, no mesmo dia: horários, choques e quem fez o quê\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/><path d=\"M5 17H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5M6 10h4M8 8v4\"/></g></g><rect x=\"24\" y=\"100\" width=\"346\" height=\"120\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"40\" y1=\"190\" x2=\"354\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"386\" y=\"100\" width=\"346\" height=\"120\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"402\" y1=\"190\" x2=\"716\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"24\" y=\"240\" width=\"346\" height=\"120\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"40\" y1=\"330\" x2=\"354\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"386\" y=\"240\" width=\"346\" height=\"120\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"402\" y1=\"330\" x2=\"716\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"800\" y=\"0\" width=\"420\" height=\"380\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(824.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M18 8a3 3 0 0 1 0 6m-8-6v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-5\"/><path d=\"m12 8l4.524-3.77A.9.9 0 0 1 18 4.922v12.156a.9.9 0 0 1-1.476.692L12 14H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z\"/></g></g><rect x=\"1260\" y=\"0\" width=\"404\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1284.0 20.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g></svg>",
+   "rotulos": [
     {
-     "t": "A transferência",
-     "x": "uma frase: hora da queda, da compressão, choques, estado agora",
-     "cor": "petr"
+     "x": 88,
+     "y": 28,
+     "w": 650,
+     "t": "A transferência, numa frase",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 40,
+     "y": 114,
+     "w": 314,
+     "t": "hora da queda",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 402,
+     "y": 114,
+     "w": 314,
+     "t": "hora da primeira compressão",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 254,
+     "w": 314,
+     "t": "choques dados",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 402,
+     "y": 254,
+     "w": 314,
+     "t": "estado agora",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 28,
+     "w": 310,
      "t": "Quem fala",
-     "x": "uma pessoa designada; família por telefone, não pelo story",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 824,
+     "y": 110,
+     "w": 372,
+     "t": "uma pessoa designada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 824,
+     "y": 170,
+     "w": 372,
+     "t": "família por telefone, não pelo story",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1348,
+     "y": 28,
+     "w": 300,
      "t": "O registro",
-     "x": "no mesmo dia: horários, choques, quem fez o quê",
-     "cor": "tinta"
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1284,
+     "y": 110,
+     "w": 360,
+     "t": "no mesmo dia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 170,
+     "w": 360,
+     "t": "horários, choques, quem fez o quê",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Passo cinco: o que quase todo mundo esquece",
+   "titulo": "Transferir, registrar, cuidar de quem ficou",
    "destaque": "O grupo que viu o colega cair faz parte do atendimento. Dias depois, revisão curta: o que travou e quanto demorou cada elo.",
    "destaque_cor": "petr"
   },
   {
    "id": "calor",
-   "tipo": "numeros",
-   "eyebrow": "A emergência não cardíaca que mais se trata errado",
-   "titulo": "Golpe de calor: resfriar primeiro, transportar depois",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, um termômetro retal. No alto, acima de 40,5 graus, com disfunção do sistema nervoso, o golpe de calor. Embaixo, a meta: abaixo de 38,9 graus. Uma seta desce de um ao outro: imersão fria, em até 30 minutos do colapso à meta. À direita, a ordem: primeiro resfriar, depois transportar; caixa d'água, banheira inflável ou tanque, com água, gelo e o corpo dentro, antes da ambulância\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"98\" y=\"20\" width=\"44\" height=\"320\" rx=\"22\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"108\" y=\"90\" width=\"24\" height=\"240\" rx=\"12\" fill=\"#A8322A\"/><line x1=\"146\" y1=\"330\" x2=\"160\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"146\" y1=\"244\" x2=\"160\" y2=\"244\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"146\" y1=\"159\" x2=\"160\" y2=\"159\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"146\" y1=\"73\" x2=\"160\" y2=\"73\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"90\" y1=\"116\" x2=\"320\" y2=\"116\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"90\" y1=\"253\" x2=\"320\" y2=\"253\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"400\" y1=\"155.71428571428572\" x2=\"400\" y2=\"240.85714285714297\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"860\" y=\"0\" width=\"804\" height=\"180\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"910\" cy=\"50\" r=\"30\" fill=\"#008A7E\"/><g transform=\"translate(1580.0 22.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"860\" y=\"196\" width=\"804\" height=\"180\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><circle cx=\"910\" cy=\"246\" r=\"30\" fill=\"#6B7A87\"/><g transform=\"translate(1580.0 218.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/><path d=\"M5 17H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5M6 10h4M8 8v4\"/></g></g><line x1=\"1262\" y1=\"182\" x2=\"1262\" y2=\"194\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m1)\"/></svg>",
+   "rotulos": [
     {
-     "n": "> 40,5 °C",
-     "x": "retal, com disfunção do sistema nervoso",
-     "cor": "verm"
+     "x": 10,
+     "y": 318,
+     "w": 80,
+     "t": "38 °C",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "< 38,9 °C",
-     "x": "a meta do resfriamento",
-     "cor": "petr"
+     "x": 10,
+     "y": 232,
+     "w": 80,
+     "t": "39 °C",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "30 min",
-     "x": "do colapso até a meta, em imersão fria",
-     "cor": "ambar"
+     "x": 10,
+     "y": 147,
+     "w": 80,
+     "t": "40 °C",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 61,
+     "w": 80,
+     "t": "41 °C",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 100,
+     "w": 420,
+     "t": "> 40,5 °C retal, com disfunção do sistema nervoso",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 330,
+     "y": 237,
+     "w": 420,
+     "t": "< 38,9 °C: a meta",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 420,
+     "y": 176,
+     "w": 330,
+     "t": "imersão fria: até 30 min do colapso à meta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 32,
+     "w": 60,
+     "t": "1",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 964,
+     "y": 28,
+     "w": 600,
+     "t": "Resfriar",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 96,
+     "w": 740,
+     "t": "caixa d'água, banheira inflável, tanque: água, gelo, corpo dentro",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 880,
+     "y": 228,
+     "w": 60,
+     "t": "2",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 964,
+     "y": 224,
+     "w": 600,
+     "t": "Transportar",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 292,
+     "w": 740,
+     "t": "depois de chegar à meta, não antes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "A emergência não cardíaca que mais se trata errado",
+   "titulo": "Golpe de calor: resfriar primeiro, transportar depois",
    "destaque": "A medida retal é a única confiável em quem está se exercitando. Caixa d'água, banheira inflável, tanque: água, gelo, corpo dentro, antes da ambulância.",
    "destaque_cor": "tinta",
    "fonte": "Posicionamento da NATA, J Athl Train 2015"
   },
   {
    "id": "outras",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Seis emergências, cada uma com a primeira conduta. Hipoglicemia: consciente, açúcar pela boca; inconsciente, nada pela boca e 192. Anafilaxia: adrenalina intramuscular na coxa, já, com o dispositivo no local do treino. Lesão cervical: não mover, não tirar o capacete; na parada, comprimir vem antes. Engasgo: tosse eficaz, deixa tossir; se não passa ar, desobstrução. Convulsão: protege a cabeça, nada na boca; passou de cinco minutos, emergência. Fratura e luxação: imobiliza como está, não reduz em campo\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m7.05 11.293l4.243-4.243a2 2 0 0 1 2.828 0l2.829 2.83a2 2 0 0 1 0 2.828l-4.243 4.243a2 2 0 0 1-2.828 0L7.05 14.12a2 2 0 0 1 0-2.828m9.193-2.12l3.086-.772a1.5 1.5 0 0 0 .697-2.516L17.81 3.667a1.5 1.5 0 0 0-2.44.47L14.122 7.05\"/><path d=\"M9.172 16.243L8.4 19.329a1.5 1.5 0 0 1-2.516.697L3.667 17.81a1.5 1.5 0 0 1 .47-2.44l2.913-1.248\"/></g></g><rect x=\"560\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(582.0 22.0) scale(1.1667)\"><g fill=\"#A8322A\"><path fill-rule=\"evenodd\" d=\"M42 14a8 8 0 1 1-16 0a8 8 0 0 1 16 0m-3.718.985a1 1 0 0 1-1.198.75l-6.616-1.52a1 1 0 0 1 .448-1.95l6.616 1.521a1 1 0 0 1 .75 1.199\" clip-rule=\"evenodd\"/><path d=\"M16.778 9.245c-.647-1.532-2.813-1.686-3.682-.263L6.292 20.115c-.785 1.284.092 2.924 1.623 3.033l11.866.846c1.53.11 2.644-1.388 2.06-2.77z\"/><path fill-rule=\"evenodd\" d=\"M35.385 36.36a6 6 0 0 0-5.071-10.876l-10.876 5.07a6 6 0 1 0 5.071 10.877zm-5.442.33l4.597-2.143a4 4 0 0 0-3.381-7.25l-4.597 2.143z\" clip-rule=\"evenodd\"/></g></g><rect x=\"1120\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1142.0 22.0) scale(1.1667)\"><path fill=\"#A8322A\" d=\"M12.286 42V29.903c-1.731-1.785-5.143-6.24-5.143-11.98C7.143 13.84 10.157 6 21.983 6C28.06 6 30.76 7.486 33.13 9.667q.151.14.298.273c.852.777 1.53 1.395 1.88 2.32c1.3 3.44 3.64 8.452 5.142 11.588c.642 1.338-.332 2.896-1.816 2.896h-1.31V31.5a2 2 0 0 1-2 2h-3.209a1 1 0 0 0-.137-.006q-.285.006-.59.006h-.022c-1.272 0-2.756-.08-4.15-.226c-1.648-.172-3.076-.427-3.878-.715a1 1 0 0 0-.676 1.882c1.044.375 2.675.648 4.346.822c.653.069 1.326.123 1.992.163V42z\"/></g><rect x=\"0\" y=\"206\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(22.0 228.0) scale(1.1667)\"><g fill=\"#B07A1C\"><path d=\"M16.542 11.991c5.85.005 5.312 7.962 5.31 11.145c-.004 4.062.993 12.261-2.14 15.382c-3.194 3.18-9.577 4.767-12.766 2.112s2.15-28.645 9.596-28.639m14.941.012c-5.85-.005-5.325 7.953-5.328 11.136c-.003 4.063-1.014 12.26 2.115 15.386c3.188 3.186 9.569 4.782 12.762 2.133s-2.104-28.649-9.55-28.655\"/><path fill-rule=\"evenodd\" d=\"M23.018 6h2l-.012 14.494c-.002 2.101-.939 3.305-1.999 3.923a4.3 4.3 0 0 1-1.976.572h-.026v-2h-.01H21q.014 0 .051-.004a2.3 2.3 0 0 0 .95-.297c.44-.255 1.003-.799 1.005-2.196z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M25.018 6h-2l-.012 14.492c-.002 2.101.932 3.307 1.991 3.927a4.3 4.3 0 0 0 1.975.574H27l.002-1c0-1 .002-1 .002-1h.009h-.005l-.051-.003a2.3 2.3 0 0 1-.949-.298c-.44-.257-1.003-.801-1.001-2.198z\" clip-rule=\"evenodd\"/></g></g><rect x=\"560\" y=\"206\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(582.0 228.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><rect x=\"1120\" y=\"206\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1142.0 228.0) scale(1.1667)\"><g fill=\"#6B7A87\"><path fill-rule=\"evenodd\" d=\"M30.031 10A2 2 0 0 0 32 8V4H16v4a2 2 0 0 0 1.958 2l.014.315c.02.404.056 1.027.117 1.914c.123 1.773.35 4.602.768 8.839c.15 1.519 1.04 2.877 1.747 3.953l.079.12c.384.587.716 1.1.959 1.599c.24.494.355.902.355 1.262c0 .258 0 1.008.002 1.692L22 30.999a1 1 0 0 0 1 1v7.003a.998.998 0 1 0 1.997 0v-.007H25v-6.98h.01a1 1 0 0 0 1-1v-3.041c0-.356.115-.757.357-1.244c.245-.491.58-.996.969-1.576l.064-.096c.715-1.066 1.627-2.427 1.748-3.976a5204 5204 0 0 1 .853-10.71zm-2.024.21l.018-.21H19.96l.01.216c.02.39.054 1 .114 1.875c.038.534.084 1.167.143 1.91h7.476zm-3.873 16.794a5.8 5.8 0 0 1 .443-1.166c.308-.618.713-1.222 1.08-1.772l.017-.024c.797-1.192 1.404-2.14 1.48-3.117l.39-4.925h-7.15c.117 1.36.266 2.973.453 4.872c.098.991.716 1.964 1.509 3.174c.37.566.777 1.187 1.084 1.82c.173.354.326.735.428 1.138z\" clip-rule=\"evenodd\"/><path d=\"M22.302 41.966c.134-.632 1.038-.973 1.684-.973c.658 0 1.568.34 1.707.983l.15.686c.093.432-.108.877-.52 1.037c-.388.151-.886.3-1.337.3c-.422 0-.914-.15-1.303-.3c-.414-.162-.62-.608-.527-1.043z\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 94,
+     "y": 34,
+     "w": 420,
+     "t": "Hipoglicemia",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 98,
+     "w": 490,
+     "t": "consciente: açúcar pela boca; inconsciente: nada pela boca, 192",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 654,
+     "y": 34,
+     "w": 420,
+     "t": "Anafilaxia",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 98,
+     "w": 490,
+     "t": "adrenalina intramuscular na coxa, já; dispositivo no local do treino",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1214,
+     "y": 34,
+     "w": 420,
+     "t": "Lesão cervical",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 98,
+     "w": 490,
+     "t": "não mover, não tirar capacete; na parada, comprimir vem antes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 94,
+     "y": 240,
+     "w": 420,
+     "t": "Engasgo",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 304,
+     "w": 490,
+     "t": "tosse eficaz, deixa tossir; não passa ar, desobstrução",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 654,
+     "y": 240,
+     "w": 420,
+     "t": "Convulsão",
+     "tam": 27,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 304,
+     "w": 490,
+     "t": "protege a cabeça, nada na boca; passou de 5 min, emergência",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1214,
+     "y": 240,
+     "w": 420,
+     "t": "Fratura, luxação",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 304,
+     "w": 490,
+     "t": "imobiliza como está; não reduz em campo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "As outras emergências",
-   "titulo": "Uma linha para cada",
-   "cab": [
-    "Emergência",
-    "O que fazer"
-   ],
-   "larguras": [
-    30,
-    70
-   ],
-   "linhas": [
-    [
-     "Hipoglicemia",
-     "consciente: açúcar pela boca; inconsciente: nada pela boca, 192"
-    ],
-    [
-     "Anafilaxia",
-     "adrenalina intramuscular na coxa, já; dispositivo no local do treino"
-    ],
-    [
-     "Lesão cervical",
-     "não mover, não tirar capacete; na parada, comprimir vem antes"
-    ],
-    [
-     "Engasgo",
-     "tosse eficaz, deixa tossir; não passa ar, desobstrução"
-    ],
-    [
-     "Convulsão",
-     "protege a cabeça, nada na boca; passou de 5 min, emergência"
-    ],
-    [
-     "Fratura, luxação",
-     "imobiliza como está; não reduz em campo"
-    ]
-   ],
-   "destaque_cor": "tinta"
+   "titulo": "Uma linha para cada"
   },
   {
    "id": "ensaio",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, o ensaio: quinze minutos, com cronômetro; alguém deita no gramado e a equipe executa cada linha da folha; uma vez por trimestre, e com gente nova. À direita, as quatro perguntas antes de cada jogo fora: onde está o desfibrilador daqui, qual é o endereço e o portão, tem ambulância e até que horas, e qual é o hospital de referência\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"780\" height=\"380\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(5.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><g transform=\"translate(24.0 190.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 250.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 310.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"820\" y=\"0\" width=\"844\" height=\"380\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"844\" y=\"84\" width=\"796\" height=\"60\" rx=\"30\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 96.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"844\" y=\"156\" width=\"796\" height=\"60\" rx=\"30\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 168.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 7l6-3l6 3l6-3v13l-6 3l-6-3l-6 3zm6-3v13m6-10v13\"/></g><rect x=\"844\" y=\"228\" width=\"796\" height=\"60\" rx=\"30\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 240.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/><path d=\"M5 17H3V6a1 1 0 0 1 1-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5M6 10h4M8 8v4\"/></g></g><rect x=\"844\" y=\"300\" width=\"796\" height=\"60\" rx=\"30\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 312.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 170,
+     "y": 30,
+     "w": 400,
+     "t": "15 min",
+     "tam": 64,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 170,
+     "y": 116,
+     "w": 400,
+     "t": "com cronômetro",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 194,
+     "w": 680,
+     "t": "alguém deita no gramado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 254,
+     "w": 680,
+     "t": "a equipe executa cada linha da folha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 314,
+     "w": 680,
+     "t": "por trimestre, e com gente nova",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 20,
+     "w": 780,
+     "t": "Antes de cada jogo fora",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 914,
+     "y": 100,
+     "w": 700,
+     "t": "onde está o DEA daqui?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 914,
+     "y": 172,
+     "w": 700,
+     "t": "qual o endereço e o portão?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 914,
+     "y": 244,
+     "w": 700,
+     "t": "tem ambulância, e até que horas?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 914,
+     "y": 316,
+     "w": 700,
+     "t": "qual o hospital de referência?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo seis: ensaiar",
    "titulo": "O que transforma papel em plano",
-   "esq": {
-    "t": "O ensaio",
-    "cor": "petr",
-    "itens": [
-     "quinze minutos, com cronômetro",
-     "alguém deita no gramado",
-     "a equipe executa cada linha da folha",
-     "por trimestre, e com gente nova"
-    ]
-   },
-   "dir": {
-    "t": "Antes de cada jogo fora",
-    "cor": "ambar",
-    "itens": [
-     "onde está o DEA daqui?",
-     "qual o endereço e o portão?",
-     "tem ambulância, e até que horas?",
-     "qual o hospital de referência?"
-    ]
-   },
    "destaque": "O cronômetro costuma mostrar a mesma coisa: o DEA demora mais do que todo mundo achava.",
    "destaque_cor": "tinta"
   },

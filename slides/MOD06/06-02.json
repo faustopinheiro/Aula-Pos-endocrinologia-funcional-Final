@@ -22,35 +22,182 @@
  "slides": [
   {
    "id": "pergunta",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, um traçado de eletrocardiograma de repouso. Duas setas saem dele. Uma, firme, chega ao que mata o jovem: cardiomiopatia, canalopatia, pré-excitação; o exame foi desenhado para isso. A outra, tracejada, chega ao que mata o adulto de meia-idade: a doença coronariana, que um eletrocardiograma normal não exclui\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"110\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 30 220 L 55 220 Q 68 207 80 220 L 97 220 L 102 230 L 108 150 L 115 241 L 120 220 L 134 220 Q 151 198 167 220 L 197 220 L 222 220 Q 234 207 247 220 L 263 220 L 268 230 L 275 150 L 282 241 L 287 220 L 301 220 Q 318 198 334 220 L 363 220 L 388 220 Q 401 207 413 220 L 430 220 L 435 230 L 442 150 L 448 241 L 453 220 L 468 220 Q 484 198 501 220 L 530 220\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"4\" stroke-linejoin=\"round\"/><path d=\"M 570 170 C 700 120, 760 90, 880 90\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M 570 240 C 700 290, 760 310, 880 310\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"10 8\" marker-end=\"url(#m1)\"/><rect x=\"900\" y=\"0\" width=\"764\" height=\"180\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(924.0 30.0) scale(1.5000)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M33 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8m5.307 13.27c.58 1.89 1.308 3.873 1.762 5.07a1 1 0 0 1-.745 1.34c-4.538.835-7.663.813-12.594-.013a1.01 1.01 0 0 1-.761-1.37c.471-1.19 1.208-3.133 1.78-5.02c-1.816-.18-3.249-2.294-3.249-4.876c0-2.7 1.567-4.89 3.5-4.89h.013A1.328 1.328 0 0 1 29.329 18h7.343a1.328 1.328 0 0 1 1.315 1.513H38c1.933 0 3.5 2.189 3.5 4.889c0 2.555-1.404 4.653-3.193 4.87m-8.345-5.761c.405-.902.538-2.26.538-4.009h2c0 1.75-.117 3.498-.712 4.827c-.31.689-.763 1.304-1.425 1.74c-.664.438-1.459.643-2.363.643v-2c.596 0 .988-.132 1.262-.313c.276-.181.51-.462.7-.888M35.5 19.5c0 1.75.133 3.107.538 4.009c.19.426.424.707.7.888c.274.18.666.314 1.262.314v2c-.904 0-1.7-.207-2.363-.644c-.662-.436-1.115-1.051-1.425-1.74c-.595-1.33-.712-3.076-.712-4.827zm-7 17.652V38.5a1.5 1.5 0 0 0 2.948.39l.395-1.464a36 36 0 0 1-3.343-.275m6.641.218l.41 1.52a1.5 1.5 0 0 0 2.949-.39V37a42 42 0 0 1-3.359.37M14.445 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8m3.68 23.996A2 2 0 0 0 20 38v-8.701c1.974-.3 3.501-2.358 3.501-4.852c0-2.57-1.62-4.676-3.681-4.874A1 1 0 0 0 19 18h-8a1 1 0 0 0-.82 1.573c-2.06.2-3.68 2.305-3.68 4.874c0 2.493 1.527 4.55 3.5 4.851V38a2 2 0 0 0 3.983.256L14.792 32h.444l.78 6.248a2 2 0 0 0 2.11 1.748M11.527 23.67c.413-.852.578-2.201.578-4.112h2c0 1.92-.147 3.682-.777 4.984c-.329.678-.8 1.259-1.466 1.661c-.661.4-1.438.578-2.307.578v-2c.595 0 .993-.12 1.272-.29c.275-.165.508-.422.7-.821m6.146-4.112c0 1.91.165 3.26.578 4.112c.193.399.426.656.7.822c.28.168.677.29 1.272.29v2c-.868 0-1.646-.18-2.307-.579c-.665-.402-1.137-.983-1.465-1.661c-.63-1.302-.778-3.065-.778-4.984z\" clip-rule=\"evenodd\"/></g><rect x=\"900\" y=\"220\" width=\"764\" height=\"180\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(924.0 250.0) scale(1.5000)\"><path fill=\"#A8322A\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><g transform=\"translate(700.0 60.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(700.0 300.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 124,
+     "w": 510,
+     "t": "eletrocardiograma de repouso",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1016,
+     "y": 24,
+     "w": 620,
+     "t": "O que mata o jovem",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1016,
+     "y": 76,
+     "w": 620,
+     "t": "cardiomiopatia, canalopatia, pré-excitação: o exame foi desenhado para isso",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1016,
+     "y": 244,
+     "w": 620,
+     "t": "O que mata o adulto de meia-idade",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1016,
+     "y": 296,
+     "w": 620,
+     "t": "doença coronariana: um eletrocardiograma normal não a exclui",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "A frase que organiza a aula",
-   "frase": "Exame não responde se a pessoa está bem. Responde a uma pergunta, e mal às outras.",
-   "apoio": "O eletrocardiograma foi desenhado para achar o que mata o jovem. O adulto de meia-idade morre de coronária, que um eletrocardiograma normal não exclui."
+   "titulo": "Exame responde a uma pergunta, e mal às outras"
   },
   {
    "id": "pedidos",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Três pedidos típicos",
-   "titulo": "A mesma coisa, necessidades diferentes",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três pedidos típicos na mesma semana. O clube pede exame do coração para liberar o jogador da base. Uma mulher de meia-idade vai começar a correr e diz que faz check-up completo e está tudo normal. O preparador quer exigir eletrocardiograma de todos os alunos. Embaixo de cada pedido, a pergunta que precisa ser feita antes: que pergunta estou fazendo, e que ferramenta responde\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"528\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><line x1=\"264\" y1=\"230\" x2=\"264\" y2=\"282\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"64\" y=\"296\" width=\"400\" height=\"100\" rx=\"50\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(88.0 322.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"568\" y=\"0\" width=\"528\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(592.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.615 20H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8m-3 5l2 2l4-4M9 8h4m-4 4h2\"/></g><line x1=\"832\" y1=\"230\" x2=\"832\" y2=\"282\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"632\" y=\"296\" width=\"400\" height=\"100\" rx=\"50\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(656.0 322.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"1136\" y=\"0\" width=\"528\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1160.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1M15 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2 5h2a2 2 0 0 1 2 2v1M5 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h2\"/></g><line x1=\"1400\" y1=\"230\" x2=\"1400\" y2=\"282\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1200\" y=\"296\" width=\"400\" height=\"100\" rx=\"50\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1224.0 322.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 96,
+     "y": 34,
+     "w": 410,
      "t": "O clube",
-     "x": "“exame do coração para liberar” o jogador da base",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 108,
+     "w": 480,
+     "t": "“exame do coração para liberar” o jogador da base",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 150,
+     "y": 314,
+     "w": 300,
+     "t": "que pergunta? que ferramenta?",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 664,
+     "y": 34,
+     "w": 410,
      "t": "O check-up completo",
-     "x": "mulher de meia-idade, vai começar a correr, “está tudo normal”",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 108,
+     "w": 480,
+     "t": "mulher de meia-idade, vai começar a correr: “está tudo normal”",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 718,
+     "y": 314,
+     "w": 300,
+     "t": "que pergunta? que ferramenta?",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1232,
+     "y": 34,
+     "w": 410,
      "t": "O preparador",
-     "x": "quer exigir eletrocardiograma de todos os alunos",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 108,
+     "w": 480,
+     "t": "quer exigir eletrocardiograma de todos os alunos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1286,
+     "y": 314,
+     "w": 300,
+     "t": "que pergunta? que ferramenta?",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
+   "eyebrow": "Três pedidos típicos",
+   "titulo": "A mesma coisa, necessidades diferentes",
    "destaque": "A decisão não é pedir ou não pedir. É que pergunta estou fazendo, e que ferramenta responde.",
    "destaque_cor": "tinta"
   },
@@ -146,247 +293,1197 @@
   },
   {
    "id": "ecg",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Em cima, um traçado de eletrocardiograma de repouso. À esquerda, o que ele vê bem: padrão de cardiomiopatia hipertrófica, sinais de cardiomiopatia arritmogênica, pré-excitação, QT longo e Brugada, bloqueios e sobrecargas. À direita, o que não vê: coronária obstruída em quem não tem sintoma; mostra a cicatriz de um infarto silencioso, mas um traçado normal não tranquiliza sobre a coronária\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><path d=\"M 0 70 L 31 70 Q 47 60 62 70 L 83 70 L 89 78 L 98 14 L 106 87 L 112 70 L 130 70 Q 151 52 172 70 L 208 70 L 239 70 Q 255 60 270 70 L 291 70 L 297 78 L 306 14 L 314 87 L 320 70 L 338 70 Q 359 52 380 70 L 416 70 L 447 70 Q 463 60 478 70 L 499 70 L 505 78 L 514 14 L 522 87 L 528 70 L 546 70 Q 567 52 588 70 L 624 70 L 655 70 Q 671 60 686 70 L 707 70 L 713 78 L 722 14 L 730 87 L 736 70 L 754 70 Q 775 52 796 70 L 832 70 L 863 70 Q 879 60 894 70 L 915 70 L 921 78 L 930 14 L 938 87 L 944 70 L 962 70 Q 983 52 1004 70 L 1040 70 L 1071 70 Q 1087 60 1102 70 L 1123 70 L 1129 78 L 1138 14 L 1146 87 L 1152 70 L 1170 70 Q 1191 52 1212 70 L 1248 70 L 1279 70 Q 1295 60 1310 70 L 1331 70 L 1337 78 L 1346 14 L 1354 87 L 1360 70 L 1378 70 Q 1399 52 1420 70 L 1456 70 L 1487 70 Q 1503 60 1518 70 L 1539 70 L 1545 78 L 1554 14 L 1562 87 L 1568 70 L 1586 70 Q 1607 52 1628 70 L 1664 70\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"0\" y=\"110\" width=\"800\" height=\"270\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 126.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><circle cx=\"34\" cy=\"204\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"34\" cy=\"242\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"34\" cy=\"280\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"34\" cy=\"318\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"34\" cy=\"356\" r=\"7\" fill=\"#008A7E\"/><rect x=\"864\" y=\"110\" width=\"800\" height=\"270\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(888.0 126.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g><circle cx=\"898\" cy=\"204\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"898\" cy=\"260\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"898\" cy=\"316\" r=\"7\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 82,
+     "y": 130,
+     "w": 680,
+     "t": "Vê bem",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 54,
+     "y": 190,
+     "w": 720,
+     "t": "padrão de cardiomiopatia hipertrófica",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 54,
+     "y": 228,
+     "w": 720,
+     "t": "sinais de cardiomiopatia arritmogênica",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 54,
+     "y": 266,
+     "w": 720,
+     "t": "pré-excitação",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 54,
+     "y": 304,
+     "w": 720,
+     "t": "QT longo, Brugada",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 54,
+     "y": 342,
+     "w": 720,
+     "t": "bloqueios e sobrecargas",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 946,
+     "y": 130,
+     "w": 680,
+     "t": "Não vê",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 918,
+     "y": 190,
+     "w": 720,
+     "t": "coronária obstruída em quem não tem sintoma",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 918,
+     "y": 246,
+     "w": 720,
+     "t": "mostra a cicatriz de um infarto silencioso",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 918,
+     "y": 302,
+     "w": 720,
+     "t": "normal não tranquiliza sobre a coronária",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O eletrocardiograma de repouso",
    "titulo": "Doença elétrica e estrutural, não coronária",
-   "esq": {
-    "t": "Vê bem",
-    "cor": "petr",
-    "itens": [
-     "padrão de cardiomiopatia hipertrófica",
-     "sinais de cardiomiopatia arritmogênica",
-     "pré-excitação",
-     "QT longo, Brugada",
-     "bloqueios e sobrecargas"
-    ]
-   },
-   "dir": {
-    "t": "Não vê",
-    "cor": "verm",
-    "itens": [
-     "coronária obstruída em quem não tem sintoma",
-     "mostra cicatriz de infarto silencioso",
-     "normal não tranquiliza sobre a coronária"
-    ]
-   },
    "destaque": "Depois dos quarenta, a ferramenta que importa é a avaliação de risco cardiovascular. Check-up completo é conceito de marketing.",
    "destaque_cor": "verm"
   },
   {
    "id": "corrado",
-   "tipo": "numeros",
-   "eyebrow": "Corrado e colaboradores, 2006",
-   "titulo": "O argumento do Vêneto",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas barras na mesma escala: mortes súbitas cardiovasculares por cem mil atletas por ano no Vêneto. Em 1979 e 1980, antes do rastreio, 3,6. Em 2003 e 2004, no período tardio do rastreio com eletrocardiograma, 0,4. Queda de 89 por cento, concentrada nas mortes por cardiomiopatia\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"340\" y=\"30\" width=\"792\" height=\"90\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"340\" y=\"170\" width=\"88\" height=\"90\" rx=\"4\" fill=\"#008A7E\"/><line x1=\"340\" y1=\"10\" x2=\"340\" y2=\"280\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"1340\" y=\"40\" width=\"324\" height=\"220\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
-     "n": "3,6",
-     "x": "mortes súbitas cardiovasculares por 100 mil atletas-ano, antes do rastreio",
-     "cor": "verm"
+     "x": 0,
+     "y": 48,
+     "w": 320,
+     "t": "1979–1980, antes do rastreio",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "n": "0,4",
-     "x": "no período tardio do rastreio com eletrocardiograma",
-     "cor": "petr"
+     "x": 1152,
+     "y": 46,
+     "w": 200,
+     "t": "3,6",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "−89%",
-     "x": "queda concentrada nas mortes por cardiomiopatia",
-     "cor": "tinta"
+     "x": 0,
+     "y": 188,
+     "w": 320,
+     "t": "2003–2004, rastreio estabelecido",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 448,
+     "y": 186,
+     "w": 200,
+     "t": "0,4",
+     "tam": 48,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 340,
+     "y": 296,
+     "w": 1000,
+     "t": "mortes súbitas cardiovasculares por 100 mil atletas por ano, de 12 a 35 anos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 64,
+     "w": 324,
+     "t": "−89%",
+     "tam": 72,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1360,
+     "y": 160,
+     "w": 284,
+     "t": "concentrada nas mortes por cardiomiopatia",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Corrado e colaboradores, 2006",
+   "titulo": "O argumento do Vêneto",
    "destaque": "Observacional, de uma região, 1979 a 2004. É o dado que sustenta a posição europeia, e o debate sobre generalizá-lo continua.",
    "destaque_cor": "ambar",
    "fonte": "Atletas de 12 a 35 anos · JAMA 2006"
   },
   {
    "id": "posicoes",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três posições sobre o eletrocardiograma no jovem competitivo, a partir dos mesmos dados. Europeia: rastreio de todos, pela experiência italiana. Americana: história e exame físico de catorze itens, sem rastreio universal, por custo, estrutura e falso-positivo. Brasileira, de 2019, em destaque: eletrocardiograma classe I, nível A, no profissional e no amador; ergometria antes de alta intensidade com força menor; ecocardiograma como confirmatório\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><line x1=\"24\" y1=\"240\" x2=\"500\" y2=\"240\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"560\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(584.0 24.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><line x1=\"584\" y1=\"240\" x2=\"1060\" y2=\"240\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1120\" y=\"0\" width=\"524\" height=\"380\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><g transform=\"translate(1144.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g><line x1=\"1144\" y1=\"240\" x2=\"1620\" y2=\"240\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 88,
+     "y": 30,
+     "w": 420,
+     "t": "Europeia",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 104,
+     "w": 480,
+     "t": "eletrocardiograma no jovem competitivo",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 140,
+     "w": 476,
+     "t": "rastreio de todos",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 256,
+     "w": 480,
+     "t": "o argumento",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 290,
+     "w": 476,
+     "t": "a experiência italiana",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 648,
+     "y": 30,
+     "w": 420,
+     "t": "Americana",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 104,
+     "w": 480,
+     "t": "eletrocardiograma no jovem competitivo",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 140,
+     "w": 476,
+     "t": "história e exame físico de 14 itens; sem rastreio universal",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 256,
+     "w": 480,
+     "t": "o argumento",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 290,
+     "w": 476,
+     "t": "custo, estrutura, falso-positivo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1208,
+     "y": 30,
+     "w": 420,
+     "t": "Brasileira, 2019",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 104,
+     "w": 480,
+     "t": "eletrocardiograma no jovem competitivo",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 140,
+     "w": 476,
+     "t": "classe I, nível A, no profissional e no amador",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 256,
+     "w": 480,
+     "t": "o argumento",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 290,
+     "w": 476,
+     "t": "ergometria antes de alta intensidade, com força menor; eco confirmatório",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Os mesmos dados, decisões diferentes",
    "titulo": "Onde o Brasil está",
-   "cab": [
-    "Posição",
-    "Eletrocardiograma no jovem competitivo",
-    "O argumento"
-   ],
-   "larguras": [
-    20,
-    38,
-    42
-   ],
-   "linhas": [
-    [
-     "Europeia",
-     "rastreio de todos",
-     "a experiência italiana"
-    ],
-    [
-     "Americana",
-     "história e exame físico de 14 itens; sem rastreio universal",
-     "custo, estrutura, falso-positivo"
-    ],
-    [
-     "Brasileira, 2019",
-     "classe I, nível A, no profissional e no amador",
-     "ergometria antes de alta intensidade com força menor; eco confirmatório"
-    ]
-   ],
    "destaque": "Quando o clube ou a federação pede eletrocardiograma, não é excesso. Está na diretriz.",
    "destaque_cor": "petr",
    "fonte": "SBC e SBMEE, Arquivos Brasileiros de Cardiologia 2019"
   },
   {
    "id": "leitura",
-   "tipo": "duas",
-   "eyebrow": "Drezner e colaboradores, 2017",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Dois lados de uma régua de leitura do eletrocardiograma do atleta. À esquerda, adaptação: isolada, não investiga; bradicardia sinusal, arritmia sinusal respiratória, bloqueio atrioventricular de primeiro grau, repolarização precoce, voltagem isolada de hipertrofia. À direita, sempre investiga: inversão de onda T em certas derivações, depressão de ST, onda Q patológica, pré-excitação e QT muito longo ou curto, arritmia ventricular\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><g transform=\"translate(0.0 0.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><rect x=\"0\" y=\"64\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"126\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"188\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"250\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"312\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(864.0 0.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"864\" y=\"64\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"864\" y=\"126\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"864\" y=\"188\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"864\" y=\"250\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"864\" y=\"312\" width=\"800\" height=\"52\" rx=\"26\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"832\" y1=\"0\" x2=\"832\" y2=\"380\" stroke=\"#DDD8CC\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 58,
+     "y": 4,
+     "w": 740,
+     "t": "Adaptação: isolada, não investiga",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 28,
+     "y": 76,
+     "w": 750,
+     "t": "bradicardia sinusal",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 28,
+     "y": 138,
+     "w": 750,
+     "t": "arritmia sinusal respiratória",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 28,
+     "y": 200,
+     "w": 750,
+     "t": "bloqueio AV de primeiro grau",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 28,
+     "y": 262,
+     "w": 750,
+     "t": "repolarização precoce",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 28,
+     "y": 324,
+     "w": 750,
+     "t": "voltagem isolada de hipertrofia",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 922,
+     "y": 4,
+     "w": 740,
+     "t": "Sempre investiga",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 892,
+     "y": 76,
+     "w": 750,
+     "t": "inversão de onda T em certas derivações",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 892,
+     "y": 138,
+     "w": 750,
+     "t": "depressão de ST",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 892,
+     "y": 200,
+     "w": 750,
+     "t": "onda Q patológica",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 892,
+     "y": 262,
+     "w": 750,
+     "t": "pré-excitação; QT muito longo ou curto",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 892,
+     "y": 324,
+     "w": 750,
+     "t": "arritmia ventricular",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Critérios internacionais, 2017",
    "titulo": "Pedir é fácil; ler é o que decide",
-   "esq": {
-    "t": "Adaptação: isolada, não investiga",
-    "cor": "petr",
-    "itens": [
-     "bradicardia sinusal",
-     "arritmia sinusal respiratória",
-     "bloqueio AV de primeiro grau",
-     "repolarização precoce",
-     "voltagem isolada de hipertrofia"
-    ]
-   },
-   "dir": {
-    "t": "Sempre investiga",
-    "cor": "verm",
-    "itens": [
-     "inversão de onda T em certas derivações",
-     "depressão de ST",
-     "onda Q patológica",
-     "pré-excitação; QT muito longo ou curto",
-     "arritmia ventricular"
-    ]
-   },
    "destaque": "O laudo automático do aparelho não usa critério de atleta. Exame sem leitura treinada produz mais dano que benefício.",
    "destaque_cor": "tinta",
-   "fonte": "Critérios internacionais · British Journal of Sports Medicine 2017"
+   "fonte": "Drezner e colaboradores · British Journal of Sports Medicine 2017"
   },
   {
    "id": "adulto",
-   "tipo": "lista",
-   "eyebrow": "O adulto de meia-idade",
-   "titulo": "Quatro ferramentas, em ordem",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro degraus, na ordem de uso no adulto de meia-idade. Primeiro, o cálculo de risco cardiovascular, com idade, sexo, pressão, colesterol, diabetes e tabagismo, que custa zero. Segundo, o teste ergométrico, com sintoma, doença conhecida, alto risco e esforço vigoroso, e para prescrever. Terceiro, o escore de cálcio, que reclassifica o risco intermediário, em conversa com a cardiologia. Quarto, o ecocardiograma, por indicação: sopro, eletro alterado, sintoma, história familiar\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"190\" width=\"400\" height=\"190\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"230\" r=\"24\" fill=\"#008A7E\"/><g transform=\"translate(336.0 208.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.615 20H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8m-3 5l2 2l4-4M9 8h4m-4 4h2\"/></g><rect x=\"416\" y=\"130\" width=\"400\" height=\"250\" rx=\"10\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"456\" cy=\"170\" r=\"24\" fill=\"#008A7E\"/><g transform=\"translate(752.0 148.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"832\" y=\"70\" width=\"400\" height=\"310\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"872\" cy=\"110\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(1168.0 88.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><rect x=\"1248\" y=\"10\" width=\"400\" height=\"370\" rx=\"10\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1288\" cy=\"50\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(1584.0 28.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 16,
+     "y": 214,
+     "w": 48,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 76,
+     "y": 210,
+     "w": 250,
      "t": "Cálculo de risco cardiovascular",
-     "x": "idade, sexo, pressão, colesterol, diabetes, tabagismo; custa zero",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 18,
+     "y": 276,
+     "w": 364,
+     "t": "idade, sexo, pressão, colesterol, diabetes, tabagismo: custa zero",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 432,
+     "y": 154,
+     "w": 48,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 492,
+     "y": 150,
+     "w": 250,
      "t": "Teste ergométrico",
-     "x": "com sintoma, doença conhecida, alto risco e esforço vigoroso; e para prescrever",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 434,
+     "y": 216,
+     "w": 364,
+     "t": "sintoma, doença conhecida, alto risco e esforço vigoroso; e para prescrever",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 848,
+     "y": 94,
+     "w": 48,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 908,
+     "y": 90,
+     "w": 250,
      "t": "Escore de cálcio",
-     "x": "reclassifica o risco intermediário; conversa com a cardiologia",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 850,
+     "y": 156,
+     "w": 364,
+     "t": "reclassifica o risco intermediário; conversa com a cardiologia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1264,
+     "y": 34,
+     "w": 48,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1324,
+     "y": 30,
+     "w": 250,
      "t": "Ecocardiograma",
-     "x": "por indicação: sopro, eletro alterado, sintoma, história familiar",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1266,
+     "y": 96,
+     "w": 364,
+     "t": "por indicação: sopro, eletro alterado, sintoma, história familiar",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 800,
+     "t": "do mais barato e mais útil ao que depende de indicação",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O adulto de meia-idade",
+   "titulo": "Quatro ferramentas, em ordem",
    "destaque": "Ergometria em quem é de baixo risco e sem sintoma: falso-positivo alto, valor preditivo baixo, e uma cascata.",
-   "destaque_cor": "verm",
-   "gap_itens": 18
+   "destaque_cor": "verm"
   },
   {
    "id": "naopedir",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "A metade esquecida",
-   "titulo": "O que não pedir",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro pedidos riscados: ecocardiograma de rotina sem sintoma e sem indicação; ergometria anual em quem é de baixo risco; painel gigante de exames em quem não tem pergunta; check-up completo, caro, tranquilizador e sem resposta. Embaixo, a cascata que um achado sem pergunta dispara: achado, novo exame, ansiedade, outro exame, afastamento\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"392\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(156.0 22.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><line x1=\"140\" y1=\"112\" x2=\"252\" y2=\"16\" stroke=\"#A8322A\" stroke-width=\"7\" stroke-linecap=\"round\"/><rect x=\"424\" y=\"0\" width=\"392\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(580.0 22.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"564\" y1=\"112\" x2=\"676\" y2=\"16\" stroke=\"#A8322A\" stroke-width=\"7\" stroke-linecap=\"round\"/><rect x=\"848\" y=\"0\" width=\"392\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1004.0 22.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><line x1=\"988\" y1=\"112\" x2=\"1100\" y2=\"16\" stroke=\"#A8322A\" stroke-width=\"7\" stroke-linecap=\"round\"/><rect x=\"1272\" y=\"0\" width=\"392\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1428.0 22.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.615 20H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8m-3 5l2 2l4-4M9 8h4m-4 4h2\"/></g><line x1=\"1412\" y1=\"112\" x2=\"1524\" y2=\"16\" stroke=\"#A8322A\" stroke-width=\"7\" stroke-linecap=\"round\"/><path d=\"M 40 300 H 1624\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"300\" r=\"12\" fill=\"#6B7A87\"/><circle cx=\"436\" cy=\"300\" r=\"12\" fill=\"#A8322A\"/><circle cx=\"832\" cy=\"300\" r=\"12\" fill=\"#A8322A\"/><circle cx=\"1228\" cy=\"300\" r=\"12\" fill=\"#A8322A\"/><circle cx=\"1624\" cy=\"300\" r=\"12\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
+     "x": 16,
+     "y": 124,
+     "w": 360,
      "t": "Eco de rotina",
-     "x": "sem sintoma e sem indicação",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 16,
+     "y": 168,
+     "w": 360,
+     "t": "sem sintoma e sem indicação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 124,
+     "w": 360,
      "t": "Ergometria anual",
-     "x": "em baixo risco",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 440,
+     "y": 168,
+     "w": 360,
+     "t": "em baixo risco",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 864,
+     "y": 124,
+     "w": 360,
      "t": "Painel gigante",
-     "x": "em quem não tem pergunta",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 864,
+     "y": 168,
+     "w": 360,
+     "t": "em quem não tem pergunta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1288,
+     "y": 124,
+     "w": 360,
      "t": "Check-up completo",
-     "x": "caro, tranquilizador, sem resposta",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1288,
+     "y": 168,
+     "w": 360,
+     "t": "caro, tranquilizador, sem resposta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 326,
+     "w": 300,
+     "t": "achado sem pergunta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 286,
+     "y": 326,
+     "w": 300,
+     "t": "novo exame",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 682,
+     "y": 326,
+     "w": 300,
+     "t": "ansiedade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1078,
+     "y": 326,
+     "w": 300,
+     "t": "outro exame",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1364,
+     "y": 326,
+     "w": 300,
+     "t": "afastamento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 256,
+     "w": 400,
+     "t": "a cascata",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque_cor": "tinta"
+   "eyebrow": "A metade esquecida",
+   "titulo": "O que não pedir"
   },
   {
    "id": "perfis",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro perfis, cada um com o que pedir. Jovem federado: história e exame físico estruturados, e eletrocardiograma lido com critério de atleta. Jovem recreacional: anamnese no centro; eletrocardiograma razoável e amparado. Adulto iniciante sem sintoma: risco calculado; pressão, colesterol e glicemia; ergometria só se alto risco ou esforço vigoroso. Adulto com doença conhecida: avaliação funcional para prescrever, não para liberar\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><g transform=\"translate(0.0 14.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 4v3M8 4v6m8-6v6m-4 8.5L9 20l.5-3.5l-2-2l3-.5l1.5-3l1.5 3l3 .5l-2 2L15 20z\"/></g><rect x=\"410\" y=\"12\" width=\"436.40000000000003\" height=\"60\" rx=\"30\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"860.4000000000001\" y=\"12\" width=\"413.6\" height=\"60\" rx=\"30\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"88\" x2=\"1664\" y2=\"88\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(0.0 110.0) scale(1.0833)\"><g fill=\"#12202E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"410\" y=\"108\" width=\"231.20000000000002\" height=\"60\" rx=\"30\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"655.2\" y=\"108\" width=\"333.8\" height=\"60\" rx=\"30\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"0\" y1=\"184\" x2=\"1664\" y2=\"184\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(0.0 206.0) scale(1.0833)\"><path fill=\"#12202E\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><rect x=\"410\" y=\"204\" width=\"197.0\" height=\"60\" rx=\"30\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"621.0\" y=\"204\" width=\"356.6\" height=\"60\" rx=\"30\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"991.6\" y=\"204\" width=\"436.40000000000003\" height=\"60\" rx=\"30\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"0\" y1=\"280\" x2=\"1664\" y2=\"280\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><g transform=\"translate(0.0 302.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><rect x=\"410\" y=\"300\" width=\"630.2\" height=\"60\" rx=\"30\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 68,
+     "y": 20,
+     "w": 330,
+     "t": "Jovem federado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 423,
+     "y": 28,
+     "w": 410,
+     "t": "história e exame físico estruturados",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 873,
+     "y": 28,
+     "w": 388,
+     "t": "eletro lido com critério de atleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 68,
+     "y": 116,
+     "w": 330,
+     "t": "Jovem recreacional",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 423,
+     "y": 124,
+     "w": 205,
+     "t": "anamnese no centro",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 668,
+     "y": 124,
+     "w": 308,
+     "t": "eletro: razoável e amparado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 68,
+     "y": 212,
+     "w": 330,
+     "t": "Adulto iniciante sem sintoma",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 423,
+     "y": 220,
+     "w": 171,
+     "t": "risco calculado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 634,
+     "y": 220,
+     "w": 331,
+     "t": "pressão, colesterol, glicemia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1005,
+     "y": 220,
+     "w": 410,
+     "t": "ergometria se alto risco ou vigoroso",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 68,
+     "y": 308,
+     "w": 330,
+     "t": "Adulto com doença conhecida",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 423,
+     "y": 316,
+     "w": 604,
+     "t": "avaliação funcional para prescrever, não para liberar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A decisão consolidada",
    "titulo": "Por perfil típico",
-   "cab": [
-    "Perfil",
-    "O que pedir"
-   ],
-   "larguras": [
-    28,
-    72
-   ],
-   "linhas": [
-    [
-     "Jovem federado",
-     "história e exame físico estruturados; eletrocardiograma lido com critério de atleta"
-    ],
-    [
-     "Jovem recreacional",
-     "anamnese no centro; eletrocardiograma razoável e amparado"
-    ],
-    [
-     "Adulto iniciante sem sintoma",
-     "risco calculado, pressão, colesterol, glicemia; ergometria se alto risco ou vigoroso"
-    ],
-    [
-     "Adulto com doença conhecida",
-     "avaliação funcional para prescrever, não para liberar"
-    ]
-   ],
    "destaque": "Sintoma no esforço, história familiar de morte súbita ou achado no exame físico transformam a triagem em investigação.",
    "destaque_cor": "verm"
   },
   {
    "id": "respostas",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Os três pedidos do começo, agora com resposta. O clube: o pedido é legítimo; anamnese de verdade, história familiar perguntada e eletrocardiograma lido com critério de atleta. O check-up completo: desmontar o completo, calcular o risco, progredir, e parar se houver sintoma no esforço. O preparador: exame sem leitura transfere risco; o que funciona é questionário, as perguntas certas, encaminhamento e desfibrilador\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"0\" width=\"528\" height=\"140\" rx=\"16\" fill=\"#DDEFEC\"/><g transform=\"translate(24.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m15 4l6 2v5h-3v8a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-8H3V6l6-2a3 3 0 0 0 6 0\"/><path d=\"M10.5 11H13l-1.5 5\"/></g></g><g transform=\"translate(24.0 172.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 244.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 316.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"568\" y=\"0\" width=\"528\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"140\" rx=\"16\" fill=\"#F4EAD6\"/><g transform=\"translate(592.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.615 20H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8m-3 5l2 2l4-4M9 8h4m-4 4h2\"/></g><g transform=\"translate(592.0 172.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(592.0 244.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(592.0 316.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1136\" y=\"0\" width=\"528\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\"/><g transform=\"translate(1160.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1M15 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2 5h2a2 2 0 0 1 2 2v1M5 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h2\"/></g><g transform=\"translate(1160.0 172.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1160.0 244.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1160.0 316.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 88,
+     "y": 28,
+     "w": 420,
+     "t": "O clube",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 88,
+     "w": 480,
+     "t": "legítimo",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 176,
+     "w": 430,
+     "t": "anamnese de verdade",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 248,
+     "w": 430,
+     "t": "história familiar perguntada",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 320,
+     "w": 430,
+     "t": "eletro lido com critério de atleta",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 656,
+     "y": 28,
+     "w": 420,
+     "t": "O check-up completo",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 88,
+     "w": 480,
+     "t": "desmontar o “completo”",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 642,
+     "y": 176,
+     "w": 430,
+     "t": "calcular o risco",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 642,
+     "y": 248,
+     "w": 430,
+     "t": "progressão",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 642,
+     "y": 320,
+     "w": 430,
+     "t": "sintoma no esforço: para",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1224,
+     "y": 28,
+     "w": 420,
+     "t": "O preparador",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 88,
+     "w": 480,
+     "t": "exame sem leitura transfere risco",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 176,
+     "w": 430,
+     "t": "questionário e perguntas",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 248,
+     "w": 430,
+     "t": "encaminhamento",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 320,
+     "w": 430,
+     "t": "desfibrilador",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Os três pedidos do começo",
    "titulo": "Três respostas",
-   "cab": [
-    "Pedido",
-    "Resposta"
-   ],
-   "larguras": [
-    24,
-    76
-   ],
-   "linhas": [
-    [
-     "O clube",
-     "legítimo; anamnese de verdade, história familiar perguntada, eletro lido com critério de atleta"
-    ],
-    [
-     "O check-up completo",
-     "desmontar o “completo”; calcular o risco; progressão; sintoma no esforço, para"
-    ],
-    [
-     "O preparador",
-     "exame sem leitura transfere risco; questionário, perguntas, encaminhamento e desfibrilador"
-    ]
-   ],
    "destaque": "Um plano de emergência ensaiado salva mais que uma gaveta de eletrocardiogramas que ninguém olhou.",
    "destaque_cor": "petr"
   },

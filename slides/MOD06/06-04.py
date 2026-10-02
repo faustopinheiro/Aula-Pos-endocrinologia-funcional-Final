@@ -99,6 +99,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "A parte que mais muda o de
                     {"t": "A gestão", "x": "Desfibrilador acessível, plano escrito, ensaio periódico."}],
           "quem": "Levar sintoma a sério é de todo mundo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-04")
+
 spec = {"arquivo": "aulas/MOD06/06-04-morte-subita-no-esporte.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Morte súbita no esporte", "subtitulo": "Frequência, causas e o que muda o desfecho",

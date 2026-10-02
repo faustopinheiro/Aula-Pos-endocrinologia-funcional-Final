@@ -123,6 +123,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Cinco regras da zona cinze
                     {"t": "Todos", "x": "Nem banalizar nem dramatizar; uma voz alinhada com clube e família."}],
           "quem": "Decidir inclui marcar o retorno."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-03")
+
 spec = {"arquivo": "aulas/MOD06/06-03-coracao-de-atleta-versus-cardiopatia.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Coração de atleta versus cardiopatia", "subtitulo": "Os números da zona cinzenta",

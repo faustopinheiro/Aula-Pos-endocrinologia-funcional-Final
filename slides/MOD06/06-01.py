@@ -130,6 +130,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Três perguntas teriam bas
                     {"t": "Fisioterapeuta e nutricionista", "x": "Fazem as mesmas perguntas, com frequência."}],
           "quem": "Perguntar é da sua profissão, qualquer que seja ela."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-01")
+
 spec = {"arquivo": "aulas/MOD06/06-01-avaliacao-pre-participacao-estrutura-e-anamnese.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Avaliação pré-participação", "subtitulo": "Estrutura, anamnese dirigida e decisão",
