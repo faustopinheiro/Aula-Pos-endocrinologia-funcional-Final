@@ -116,6 +116,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Cinco erros", "titulo": "T
                     {"t": "Todos", "x": "Explicam que dor de tendão não é destruição."}],
           "quem": "Próxima aula: como se dosa carga num tendão que dói."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-07")
+
 spec = {"arquivo": "aulas/MOD07/07-07-tendinopatia-o-continuum-e-o-que-a-dor-significa.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Tendinopatia", "subtitulo": "Cinco erros sobre o contínuo e o significado da dor",

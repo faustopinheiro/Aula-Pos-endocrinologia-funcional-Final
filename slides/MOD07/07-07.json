@@ -22,35 +22,205 @@
  "slides": [
   {
    "id": "palavra",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"A palavra tendinite numa receita, com o sufixo ite marcado: quer dizer inflamação. Dele saem, no automático, três tratamentos: anti-inflamatório, gelo e repouso. Ao fim da fila, quem tem dor no Aquiles há oito meses: já fez os três, e continua com dor\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"420\" height=\"260\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 60.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><line x1=\"250\" y1=\"196\" x2=\"330\" y2=\"196\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"424\" y1=\"170\" x2=\"480\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"490\" y=\"0\" width=\"460\" height=\"100\" rx=\"50\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(520.0 28.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><line x1=\"954\" y1=\"50\" x2=\"1050\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"490\" y=\"116\" width=\"460\" height=\"100\" rx=\"50\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(520.0 144.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><line x1=\"954\" y1=\"166\" x2=\"1050\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"490\" y=\"232\" width=\"460\" height=\"100\" rx=\"50\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(520.0 260.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m17 8v-3H2m0-6v9m10-3h10v-2a3 3 0 0 0-3-3h-7z\"/></g><line x1=\"954\" y1=\"282\" x2=\"1050\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"1060\" y=\"60\" width=\"604\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(1084.0 84.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 130,
+     "w": 220,
+     "t": "tendin",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 246,
+     "y": 130,
+     "w": 150,
+     "t": "ite",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 230,
+     "w": 372,
+     "t": "“ite” = inflamação",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 34,
+     "w": 340,
+     "t": "anti-inflamatório",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 150,
+     "w": 340,
+     "t": "gelo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 266,
+     "w": 340,
+     "t": "repouso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1146,
+     "y": 92,
+     "w": 500,
+     "t": "oito meses depois",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1084,
+     "y": 160,
+     "w": 560,
+     "t": "já fez os três, e continua com dor",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A palavra que carrega o erro",
-   "frase": "Tendinite.",
-   "apoio": "Se é inflamação, o tratamento parece óbvio: anti-inflamatório, gelo e repouso. Quem tem dor no Aquiles há oito meses já fez os três, e continua com dor."
+   "titulo": "Tendinite."
   },
   {
    "id": "nome",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Dois nomes, cada um levando ao seu tratamento. Tendinite, riscada: sugere inflamação e empurra para anti-inflamatório, gelo e repouso. Tendinopatia: dor persistente associada à carga, aponta para a forma de carregar, e leva a carga bem administrada\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"560\" height=\"160\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"24\" y1=\"44\" x2=\"260\" y2=\"44\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"566\" y1=\"80\" x2=\"640\" y2=\"80\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"652\" y=\"30\" width=\"320\" height=\"100\" rx=\"50\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"992\" y=\"30\" width=\"320\" height=\"100\" rx=\"50\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1332\" y=\"30\" width=\"320\" height=\"100\" rx=\"50\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"0\" y=\"190\" width=\"560\" height=\"160\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"566\" y1=\"270\" x2=\"640\" y2=\"270\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"652\" y=\"220\" width=\"1012\" height=\"100\" rx=\"50\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 22,
+     "w": 510,
+     "t": "Tendinite",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 90,
+     "w": 510,
+     "t": "sugere inflamação",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 652,
+     "y": 64,
+     "w": 320,
+     "t": "anti-inflamatório",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 992,
+     "y": 64,
+     "w": 320,
+     "t": "gelo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1332,
+     "y": 64,
+     "w": 320,
+     "t": "repouso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 212,
+     "w": 510,
+     "t": "Tendinopatia",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 280,
+     "w": 510,
+     "t": "dor persistente associada à carga",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 652,
+     "y": 252,
+     "w": 1012,
+     "t": "carga bem administrada: a forma de carregar",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Consenso de terminologia, 2019",
    "titulo": "O nome muda o tratamento",
-   "esq": {
-    "t": "Tendinite",
-    "cor": "verm",
-    "itens": [
-     "sugere inflamação",
-     "empurra para anti-inflamatório",
-     "gelo e repouso"
-    ]
-   },
-   "dir": {
-    "t": "Tendinopatia",
-    "cor": "petr",
-    "itens": [
-     "dor persistente associada à carga",
-     "aponta para a forma de carregar",
-     "carga bem administrada"
-    ]
-   },
    "destaque": "Não é preciosismo de vocabulário: o nome antigo empurra para o tratamento errado.",
    "destaque_cor": "tinta",
    "fonte": "Br J Sports Med 2020"
@@ -136,61 +306,362 @@
   },
   {
    "id": "rosca",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"O corte de um tendão desenhado como uma rosca. No centro, uma pequena área degenerada, o buraco. Em volta, muito tecido funcional, a rosca, que pode ganhar capacidade. Não é preciso consertar o buraco para a pessoa voltar a correr: é preciso aumentar a capacidade do que está bom\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><ellipse cx=\"300\" cy=\"190\" rx=\"280\" ry=\"180\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><circle cx=\"177\" cy=\"262\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"407\" cy=\"279\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"455\" cy=\"127\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"211\" cy=\"81\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"414\" cy=\"217\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"114\" cy=\"239\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"355\" cy=\"114\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"363\" cy=\"318\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"180\" cy=\"145\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"513\" cy=\"160\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"215\" cy=\"267\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"271\" cy=\"46\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"419\" cy=\"254\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"65\" cy=\"196\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"417\" cy=\"116\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"189\" cy=\"105\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"151\" cy=\"256\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"395\" cy=\"296\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"481\" cy=\"137\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"251\" cy=\"266\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"230\" cy=\"65\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"421\" cy=\"231\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"91\" cy=\"225\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"379\" cy=\"112\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"338\" cy=\"332\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"178\" cy=\"130\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"532\" cy=\"178\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"190\" cy=\"266\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"415\" cy=\"271\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"443\" cy=\"120\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"200\" cy=\"88\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"125\" cy=\"248\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"344\" cy=\"114\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"377\" cy=\"312\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"178\" cy=\"153\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"504\" cy=\"150\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"228\" cy=\"269\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"253\" cy=\"51\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"424\" cy=\"246\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"71\" cy=\"208\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"404\" cy=\"112\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"181\" cy=\"113\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"163\" cy=\"262\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"406\" cy=\"288\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"469\" cy=\"129\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"262\" cy=\"265\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"216\" cy=\"72\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"422\" cy=\"223\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"100\" cy=\"235\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"366\" cy=\"110\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"355\" cy=\"327\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"175\" cy=\"138\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"526\" cy=\"166\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><circle cx=\"203\" cy=\"270\" r=\"7\" fill=\"#008A7E\" opacity=\"0.55\"/><path d=\"M 210 190 C 210 130, 320 120, 380 160 S 360 250, 300 245 S 210 240, 210 190 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"560\" y1=\"90\" x2=\"700\" y2=\"70\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"390\" y1=\"220\" x2=\"700\" y2=\"270\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"710\" y=\"0\" width=\"954\" height=\"150\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"710\" y=\"200\" width=\"954\" height=\"150\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 220,
+     "y": 176,
+     "w": 160,
+     "t": "o buraco",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 734,
+     "y": 20,
+     "w": 900,
+     "t": "A rosca: trate aqui",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 734,
+     "y": 72,
+     "w": 900,
+     "t": "muito tecido funcional em volta, que pode ganhar capacidade",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 734,
+     "y": 220,
+     "w": 900,
+     "t": "O buraco: não precisa consertar",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 734,
+     "y": 272,
+     "w": 900,
+     "t": "a área degenerada pode ficar; a pessoa volta a correr assim mesmo",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "A revisão do modelo, 2016",
-   "frase": "Trate a rosca, não o buraco.",
-   "apoio": "Mesmo o tendão com área degenerada tem muito tecido funcional em volta, e ele pode ganhar capacidade. Essa frase muda a conversa com quem chegou assustado com o laudo."
+   "titulo": "Trate a rosca, não o buraco.",
+   "destaque": "Essa frase muda a conversa com quem chegou assustado com o laudo.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "imagem",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Duas imagens de ultrassom de tendão, em esquema. A da esquerda tem alteração evidente e não dói. A da direita tem alteração pequena e dói. Ao lado, o que cada coisa diz. Imagem alterada: comum em quem não sente dor; aumenta o risco de dor futura; não diz quanto dói hoje. Dor: pode vir com imagem pouco alterada; acompanha a carga recente, e quanto essa carga mudou\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"350\" height=\"300\" rx=\"12\" fill=\"#2B3640\"/><path d=\"M 20 60 Q 175 54 330 60\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 20 82 Q 175 88 330 82\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 20 104 Q 175 98 330 104\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 20 126 Q 175 132 330 126\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 20 148 Q 175 142 330 148\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 20 170 Q 175 176 330 170\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 20 192 Q 175 186 330 192\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 20 214 Q 175 220 330 214\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 20 236 Q 175 230 330 236\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><ellipse cx=\"175\" cy=\"150\" rx=\"112\" ry=\"49\" fill=\"#0B1015\"/><rect x=\"60\" y=\"320\" width=\"230\" height=\"70\" rx=\"35\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"380\" y=\"0\" width=\"350\" height=\"300\" rx=\"12\" fill=\"#2B3640\"/><path d=\"M 400 60 Q 555 54 710 60\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 400 82 Q 555 88 710 82\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 400 104 Q 555 98 710 104\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 400 126 Q 555 132 710 126\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 400 148 Q 555 142 710 148\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 400 170 Q 555 176 710 170\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 400 192 Q 555 186 710 192\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 400 214 Q 555 220 710 214\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><path d=\"M 400 236 Q 555 230 710 236\" fill=\"none\" stroke=\"#C9CFD4\" stroke-width=\"3\"/><ellipse cx=\"555\" cy=\"150\" rx=\"29\" ry=\"13\" fill=\"#0B1015\"/><rect x=\"440\" y=\"320\" width=\"230\" height=\"70\" rx=\"35\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><rect x=\"800\" y=\"0\" width=\"864\" height=\"195\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"836\" cy=\"74\" r=\"6\" fill=\"#B07A1C\"/><circle cx=\"836\" cy=\"114\" r=\"6\" fill=\"#B07A1C\"/><circle cx=\"836\" cy=\"154\" r=\"6\" fill=\"#B07A1C\"/><rect x=\"800\" y=\"205\" width=\"864\" height=\"195\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"836\" cy=\"279\" r=\"6\" fill=\"#A8322A\"/><circle cx=\"836\" cy=\"319\" r=\"6\" fill=\"#A8322A\"/><circle cx=\"836\" cy=\"359\" r=\"6\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 340,
+     "w": 230,
+     "t": "não dói",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 340,
+     "w": 230,
+     "t": "dói",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 730,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 824,
+     "y": 14,
+     "w": 800,
+     "t": "Imagem alterada",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 854,
+     "y": 61,
+     "w": 790,
+     "t": "comum em quem não sente dor",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 854,
+     "y": 101,
+     "w": 790,
+     "t": "aumenta o risco de dor futura",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 854,
+     "y": 141,
+     "w": 790,
+     "t": "não diz quanto dói hoje",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 824,
+     "y": 219,
+     "w": 800,
+     "t": "Dor",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 854,
+     "y": 266,
+     "w": 790,
+     "t": "pode vir com imagem pouco alterada",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 854,
+     "y": 306,
+     "w": 790,
+     "t": "acompanha a carga recente",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 854,
+     "y": 346,
+     "w": 790,
+     "t": "e quanto essa carga mudou",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Erro dois · achar que a dor mede o estrago",
    "titulo": "Estrutura e dor andam menos juntas do que parece",
-   "esq": {
-    "t": "Imagem alterada",
-    "cor": "ambar",
-    "itens": [
-     "comum em quem não sente dor",
-     "aumenta o risco de dor futura",
-     "não diz quanto dói hoje"
-    ]
-   },
-   "dir": {
-    "t": "Dor",
-    "cor": "verm",
-    "itens": [
-     "pode vir com imagem pouco alterada",
-     "acompanha a carga recente",
-     "e quanto essa carga mudou"
-    ]
-   },
-   "destaque_cor": "tinta",
    "fonte": "Metanálise de ultrassom, Br J Sports Med 2016"
   },
   {
    "id": "exames",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O que isso muda sobre imagem",
-   "titulo": "Três consequências práticas",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três consequências práticas sobre imagem. Não é rotina: só para dúvida diagnóstica, ruptura ou caso que não evolui. Não serve de controle: a pessoa melhora e a imagem continua igual, o que frustra quem melhora. A melhora se mede na função e na dor durante a carga, não em milímetros\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"150\" r=\"46\" fill=\"#DDEFEC\"/><g transform=\"translate(66.0 126.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><circle cx=\"250\" cy=\"150\" r=\"46\" fill=\"#DDEFEC\"/><g transform=\"translate(226.0 126.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><circle cx=\"410\" cy=\"150\" r=\"46\" fill=\"#DDEFEC\"/><g transform=\"translate(386.0 126.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><rect x=\"614\" y=\"90\" width=\"190\" height=\"130\" rx=\"8\" fill=\"#12202E\"/><ellipse cx=\"709\" cy=\"155\" rx=\"50\" ry=\"22\" fill=\"#6B7A87\"/><rect x=\"854\" y=\"90\" width=\"190\" height=\"130\" rx=\"8\" fill=\"#12202E\"/><ellipse cx=\"949\" cy=\"155\" rx=\"50\" ry=\"22\" fill=\"#6B7A87\"/><rect x=\"1178\" y=\"190\" width=\"44\" height=\"40\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"1238\" y=\"160\" width=\"44\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"1298\" y=\"130\" width=\"44\" height=\"100\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"1358\" y=\"100\" width=\"44\" height=\"130\" rx=\"4\" fill=\"#008A7E\"/><g transform=\"translate(1458.0 120.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><line x1=\"1448\" y1=\"110\" x2=\"1528\" y2=\"190\" stroke=\"#A8322A\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 20,
+     "w": 490,
      "t": "Não é rotina",
-     "x": "dúvida diagnóstica, ruptura, caso que não evolui",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 280,
+     "w": 490,
+     "t": "dúvida diagnóstica, ruptura, caso que não evolui",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 20,
+     "w": 490,
      "t": "Não serve de controle",
-     "x": "a estrutura muda devagar e frustra quem melhora",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 280,
+     "w": 490,
+     "t": "a estrutura muda devagar e frustra quem melhora",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1152,
+     "y": 20,
+     "w": 490,
      "t": "Melhora se mede na função",
-     "x": "e na dor durante a carga, não em milímetros",
-     "cor": "tinta"
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 280,
+     "w": 490,
+     "t": "e na dor durante a carga, não em milímetros",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 40,
+     "y": 206,
+     "w": 100,
+     "t": "dúvida",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 206,
+     "w": 100,
+     "t": "ruptura",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 206,
+     "w": 100,
+     "t": "não evolui",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 614,
+     "y": 228,
+     "w": 190,
+     "t": "mês 1: dói",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 854,
+     "y": 228,
+     "w": 190,
+     "t": "mês 4: bem",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 140,
+     "w": 60,
+     "t": "=",
+     "tam": 40,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1158,
+     "y": 238,
+     "w": 260,
+     "t": "função",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O que isso muda sobre imagem",
+   "titulo": "Três consequências práticas",
    "destaque": "O laudo que assusta faz a pessoa se mover com medo, e o medo é parte do problema.",
    "destaque_cor": "verm"
   },
@@ -264,87 +735,432 @@
   },
   {
    "id": "mudou",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "A pergunta que abre o caso",
-   "titulo": "O que mudou nas semanas antes da dor?",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro mudanças comuns nas semanas antes da dor: volume, mais quilômetros ou mais sessões; tipo, ladeira, escada, pliometria; retomada, voltou das férias no ritmo de antes; contexto, superfície nova, duas sessões no dia. Embaixo, uma linha das semanas: primeiro a mudança, depois a dor\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"392\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(1.9167)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><line x1=\"196\" y1=\"214\" x2=\"700\" y2=\"290\" stroke=\"#B07A1C\" stroke-width=\"2\" opacity=\"0.6\"/><rect x=\"424\" y=\"0\" width=\"392\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(446.0 22.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><line x1=\"620\" y1=\"214\" x2=\"700\" y2=\"290\" stroke=\"#B07A1C\" stroke-width=\"2\" opacity=\"0.6\"/><rect x=\"848\" y=\"0\" width=\"392\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(870.0 22.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z\"/></g><line x1=\"1044\" y1=\"214\" x2=\"700\" y2=\"290\" stroke=\"#A8322A\" stroke-width=\"2\" opacity=\"0.6\"/><rect x=\"1272\" y=\"0\" width=\"392\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1294.0 22.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 7l6-3l6 3l6-3v13l-6 3l-6-3l-6 3zm6-3v13m6-10v13\"/></g><line x1=\"1468\" y1=\"214\" x2=\"700\" y2=\"290\" stroke=\"#008A7E\" stroke-width=\"2\" opacity=\"0.6\"/><line x1=\"0\" y1=\"320\" x2=\"1650\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"60\" y1=\"310\" x2=\"60\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"250\" y1=\"310\" x2=\"250\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"440\" y1=\"310\" x2=\"440\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"630\" y1=\"310\" x2=\"630\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"820\" y1=\"310\" x2=\"820\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1010\" y1=\"310\" x2=\"1010\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1200\" y1=\"310\" x2=\"1200\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1390\" y1=\"310\" x2=\"1390\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><circle cx=\"700\" cy=\"320\" r=\"20\" fill=\"#B07A1C\"/><circle cx=\"1280\" cy=\"320\" r=\"20\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
+     "x": 82,
+     "y": 30,
+     "w": 290,
      "t": "Volume",
-     "x": "mais quilômetros ou mais sessões",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 22,
+     "y": 100,
+     "w": 350,
+     "t": "mais quilômetros ou mais sessões",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 506,
+     "y": 30,
+     "w": 290,
      "t": "Tipo",
-     "x": "ladeira, escada, pliometria",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 446,
+     "y": 100,
+     "w": 350,
+     "t": "ladeira, escada, pliometria",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 930,
+     "y": 30,
+     "w": 290,
      "t": "Retomada",
-     "x": "voltou das férias no ritmo de antes",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 870,
+     "y": 100,
+     "w": 350,
+     "t": "voltou das férias no ritmo de antes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1354,
+     "y": 30,
+     "w": 290,
      "t": "Contexto",
-     "x": "superfície nova, duas sessões no dia",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1294,
+     "y": 100,
+     "w": 350,
+     "t": "superfície nova, duas sessões no dia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 560,
+     "y": 350,
+     "w": 280,
+     "t": "a mudança",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 350,
+     "w": 280,
+     "t": "a dor começa",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 350,
+     "w": 300,
+     "t": "semanas",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "A pergunta que abre o caso",
+   "titulo": "O que mudou nas semanas antes da dor?",
    "destaque": "A dor apareceu depois de uma mudança. É a mudança que se ajusta, não a existência de carga.",
    "destaque_cor": "tinta"
   },
   {
    "id": "compressao",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Erro quatro · mandar alongar",
-   "titulo": "Onde o tendão é comprimido contra o osso",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três lugares onde o tendão, em amplitude máxima, é comprimido contra o osso, cada um desenhado como um tendão dobrando sobre um osso, com o ponto de compressão marcado. Aquiles na inserção: contra o calcanhar, com o tornozelo em flexão máxima. Isquiotibiais proximais: contra o ísquio, com o quadril muito fletido. Glúteos: na lateral do quadril, com a perna cruzada para dentro\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"268\" cy=\"180\" r=\"58\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"4\"/><path d=\"M 78 100 Q 198 108 268 118 Q 334 126 338 180 L 342 270\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"14\" stroke-linecap=\"round\"/><circle cx=\"314\" cy=\"136\" r=\"18\" fill=\"#A8322A\" opacity=\"0.85\"/><line x1=\"68\" y1=\"100\" x2=\"28\" y2=\"98\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"832\" cy=\"180\" r=\"58\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"4\"/><path d=\"M 642 100 Q 762 108 832 118 Q 898 126 902 180 L 906 270\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"14\" stroke-linecap=\"round\"/><circle cx=\"878\" cy=\"136\" r=\"18\" fill=\"#A8322A\" opacity=\"0.85\"/><line x1=\"632\" y1=\"100\" x2=\"592\" y2=\"98\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1396\" cy=\"180\" r=\"58\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"4\"/><path d=\"M 1206 100 Q 1326 108 1396 118 Q 1462 126 1466 180 L 1470 270\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"14\" stroke-linecap=\"round\"/><circle cx=\"1442\" cy=\"136\" r=\"18\" fill=\"#A8322A\" opacity=\"0.85\"/><line x1=\"1196\" y1=\"100\" x2=\"1156\" y2=\"98\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 20,
+     "w": 490,
      "t": "Aquiles na inserção",
-     "x": "contra o calcanhar, com o tornozelo em flexão máxima",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 290,
+     "w": 490,
+     "t": "contra o calcanhar, com o tornozelo em flexão máxima",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 218,
+     "y": 168,
+     "w": 100,
+     "t": "osso",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 20,
+     "w": 490,
      "t": "Isquiotibiais proximais",
-     "x": "contra o ísquio, com o quadril muito fletido",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 290,
+     "w": 490,
+     "t": "contra o ísquio, com o quadril muito fletido",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 782,
+     "y": 168,
+     "w": 100,
+     "t": "osso",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 20,
+     "w": 490,
      "t": "Glúteos",
-     "x": "na lateral do quadril, com a perna cruzada para dentro",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 290,
+     "w": 490,
+     "t": "na lateral do quadril, com a perna cruzada para dentro",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1346,
+     "y": 168,
+     "w": 100,
+     "t": "osso",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 256,
+     "w": 300,
+     "t": "tendão: tração + compressão",
+     "tam": 18,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Erro quatro · mandar alongar",
+   "titulo": "Onde o tendão é comprimido contra o osso",
    "destaque": "Tração somada a compressão irrita o tecido. O alongamento sustentado faz isso várias vezes por dia.",
    "destaque_cor": "tinta",
    "fonte": "Cook e Purdam, Br J Sports Med 2012"
   },
   {
    "id": "conduta",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, como reconhecer sem exame, em quatro posições que pioram a dor: flexão profunda; subir escada e banco baixo; cruzar as pernas; dormir de lado com a perna de cima caída. À direita, o que fazer: reduzir posições de compressão; ajustar como senta e dorme; força em amplitude que não comprime; extremos só depois\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"780\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"24\" y=\"80\" width=\"354\" height=\"140\" rx=\"12\" fill=\"#F4EAD6\"/><g transform=\"translate(42.0 98.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g><rect x=\"398\" y=\"80\" width=\"354\" height=\"140\" rx=\"12\" fill=\"#F4EAD6\"/><g transform=\"translate(416.0 98.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><rect x=\"24\" y=\"236\" width=\"354\" height=\"140\" rx=\"12\" fill=\"#F4EAD6\"/><g transform=\"translate(42.0 254.0) scale(1.0000)\"><g fill=\"#B07A1C\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><rect x=\"398\" y=\"236\" width=\"354\" height=\"140\" rx=\"12\" fill=\"#F4EAD6\"/><g transform=\"translate(416.0 254.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m17 8v-3H2m0-6v9m10-3h10v-2a3 3 0 0 0-3-3h-7z\"/></g><line x1=\"786\" y1=\"200\" x2=\"840\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"848\" y=\"0\" width=\"816\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"896\" cy=\"110\" r=\"20\" fill=\"#008A7E\"/><circle cx=\"896\" cy=\"188\" r=\"20\" fill=\"#008A7E\"/><circle cx=\"896\" cy=\"266\" r=\"20\" fill=\"#008A7E\"/><circle cx=\"896\" cy=\"344\" r=\"20\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 700,
+     "t": "Como reconhecer",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 42,
+     "y": 158,
+     "w": 320,
+     "t": "piora na flexão profunda",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 416,
+     "y": 158,
+     "w": 320,
+     "t": "subir escada, banco baixo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 42,
+     "y": 314,
+     "w": 320,
+     "t": "cruzar as pernas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 416,
+     "y": 314,
+     "w": 320,
+     "t": "dormir de lado, perna de cima caída",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 872,
+     "y": 18,
+     "w": 700,
+     "t": "O que fazer",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 876,
+     "y": 97,
+     "w": 40,
+     "t": "1",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 932,
+     "y": 96,
+     "w": 700,
+     "t": "reduzir posições de compressão",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 876,
+     "y": 175,
+     "w": 40,
+     "t": "2",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 932,
+     "y": 174,
+     "w": 700,
+     "t": "ajustar como senta e dorme",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 876,
+     "y": 253,
+     "w": 40,
+     "t": "3",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 932,
+     "y": 252,
+     "w": 700,
+     "t": "força em amplitude que não comprime",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 876,
+     "y": 331,
+     "w": 40,
+     "t": "4",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 932,
+     "y": 330,
+     "w": 700,
+     "t": "extremos só depois",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Reconhecer e aliviar",
    "titulo": "Sem exame, na conversa e no movimento",
-   "esq": {
-    "t": "Como reconhecer",
-    "cor": "ambar",
-    "itens": [
-     "piora na flexão profunda",
-     "subir escada, banco baixo",
-     "cruzar as pernas",
-     "dormir de lado, perna de cima caída"
-    ]
-   },
-   "dir": {
-    "t": "O que fazer",
-    "cor": "petr",
-    "itens": [
-     "reduzir posições de compressão",
-     "ajustar como senta e dorme",
-     "força em amplitude que não comprime",
-     "extremos só depois"
-    ]
-   },
    "destaque": "Mobilidade continua importando. Evita-se o alongamento sustentado, em compressão, num tendão irritado.",
    "destaque_cor": "tinta"
   },
