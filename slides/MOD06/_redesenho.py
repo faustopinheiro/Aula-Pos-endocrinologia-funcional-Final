@@ -2078,6 +2078,264 @@ def prevencao_68():
                  destaque="Achado de subgrupo não é passe livre para vender vitamina C. A base não cabe num frasco.",
                  destaque_cor="verm", fonte="Revisão Cochrane de vitamina C e resfriado, 2013")
 
+# ---------------------------------------------------------------- 6.9
+
+def perfil_69():
+    """6.9: a curva de quem piora há meses e os três erros empilhados por baixo dela."""
+    p = [svg_abre(1664, 400, "À esquerda, em esquema, a disposição da corredora caindo ao longo dos meses, com três marcos: um painel normal, outro painel normal, ferro por conta própria, e a curva continua descendo. À direita, os três erros empilhados como blocos: o exame certo nunca foi pedido; o que foi pedido foi colhido e lido errado; o tratamento veio sem diagnóstico")]
+    rs = []
+    X0, X1 = 40, 860
+    p.append(f'<line x1="{X0}" y1="340" x2="{X1}" y2="340" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<line x1="{X0}" y1="20" x2="{X0}" y2="340" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<path d="M {X0} 60 C 300 80, 500 160, {X1} 300" fill="none" stroke="{FOSF}" stroke-width="5"/>')
+    rs += [rot(X0 + 10, 14, "disposição", w=200, tam=19, cor=MUDO), rot(X1 - 200, 346, "meses · esquema", w=200, tam=18, cor=MUDO, alinha="right")]
+    for x, y, t in [(240, 90, "painel normal"), (470, 150, "painel normal"), (690, 222, "ferro por conta própria")]:
+        p.append(f'<circle cx="{x}" cy="{y}" r="12" fill="{CARTAO}" stroke="{TINTA}" stroke-width="4"/>')
+        rs.append(rot(x - 110, y + 22, t, w=220, tam=20, cor=TINTA, peso=700, alinha="center"))
+    rs.append(rot(940, 0, "Três erros empilhados", w=720, tam=26, cor=FOSF, peso=700, serif=True))
+    erros = ["o exame certo nunca foi pedido", "o que foi pedido foi colhido e lido errado", "o tratamento veio sem diagnóstico"]
+    for k, t in enumerate(erros):
+        y = 290 - k * 110
+        p.append(caixa(940, y, 724, 100, FOSF, FOSF_T if k % 2 == 0 else CARTAO, esp=2, rx=10))
+        p.append(f'<circle cx="990" cy="{y + 50}" r="26" fill="{FOSF}"/>')
+        rs += [rot(964, y + 34, str(k + 1), w=52, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True), rot(1036, y + 34, t, w=610, tam=23, cor=TINTA, peso=600)]
+    return slide("perfil", 400, p, rs, eyebrow="A corredora que piora há meses", titulo="Dois painéis normais, e continua piorando")
+
+
+def mapa_69():
+    """6.9: os cinco passos em fila, com ícone."""
+    p = [svg_abre(1664, 300, "Cinco passos em fila. Um, perguntar, antes de qualquer exame. Dois, pedir e colher o exame certo na hora certa. Três, interpretar com a régua do atleta. Quatro, investigar por que o ferro caiu. Cinco, repor e reavaliar"), defs(MUDO)]
+    rs = []
+    passos = [("t:message-circle", "Perguntar", "antes de qualquer exame", OXID), ("t:clipboard-list", "Pedir e colher", "o exame certo, na hora certa", OXID),
+              ("t:ruler-measure", "Interpretar", "com a régua do atleta", GLIC), ("t:zoom-question", "Investigar", "por que o ferro caiu", FOSF), ("t:pill", "Repor", "e reavaliar", TINTA)]
+    for k, (ic, t, d, cor) in enumerate(passos):
+        x = k * 340
+        p.append(caixa(x, 0, 304, 300, cor, CARTAO, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 48}" cy="48" r="28" fill="{cor}"/>')
+        p.append(icone(ic, x + 220, 22, 56, cor))
+        rs += [rot(x + 20, 30, str(k + 1), w=56, tam=30, cor=PAPEL, peso=700, alinha="center", serif=True),
+               rot(x + 24, 120, t, w=260, tam=28, cor=cor, peso=700, serif=True), rot(x + 24, 180, d, w=260, tam=22, cor=TINTA, lh=1.3)]
+        if k < 4:
+            p.append(seta(x + 308, 150, x + 334, 150, MUDO, "m0", esp=3))
+    return slide("mapa", 300, p, rs, eyebrow="O procedimento", titulo="Cinco passos",
+                 destaque="Das causas clínicas mais comuns de “estou sem energia”, e das mais malfeitas nos dois sentidos.", destaque_cor="tinta")
+
+
+def fadiga_69():
+    """6.9: a fadiga no centro e oito causas em volta, com o ferro destacado."""
+    p = [svg_abre(1664, 400, "No centro, a fadiga, que é sintoma, não diagnóstico. Em volta, oito causas: carga e recuperação, a mais comum; sono curto, ruim ou apneia; energia, a baixa disponibilidade; ferro, com ou sem anemia, destacado; tireoide; depressão e ansiedade, a última hipótese, e não deveria ser; convalescença depois de infecção; e doenças da mesma idade, fora do esporte")]
+    rs = []
+    import math as _m
+    cx, cy = 832, 200
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="100" fill="{TINTA}"/>')
+    rs += [rot(cx - 90, cy - 30, "Fadiga", w=180, tam=32, cor=PAPEL, peso=700, alinha="center", serif=True), rot(cx - 90, cy + 14, "é sintoma", w=180, tam=21, cor=PAPEL, alinha="center")]
+    itens = [("Carga e recuperação", "a mais comum", OXID), ("Sono", "curto, ruim, apneia", OXID), ("Energia", "baixa disponibilidade", GLIC), ("Ferro", "com ou sem anemia", FOSF),
+             ("Convalescença", "depois de infecção", OXID), ("Fora do esporte", "doenças da mesma idade", MUDO), ("Depressão, ansiedade", "a última hipótese, e não deveria", GLIC), ("Tireoide", "", GLIC)]
+    pos = [(0, 0), (0, 104), (0, 208), (0, 312), (1264, 0), (1264, 104), (1264, 208), (1264, 312)]
+    for (x, y), (t, d, cor) in zip(pos, itens):
+        destaque = t == "Ferro"
+        p.append(caixa(x, y, 400, 88, cor, FOSF_T if destaque else CARTAO, esp=4 if destaque else 2, rx=14))
+        rs.append(rot(x + 20, y + (12 if d else 28), t, w=360, tam=23, cor=cor if cor != MUDO else TINTA, peso=700))
+        if d:
+            rs.append(rot(x + 20, y + 50, d, w=360, tam=19, cor=TINTA))
+        x1 = x + 400 if x == 0 else x
+        a = _m.atan2(y + 44 - cy, x1 - cx)
+        p.append(f'<line x1="{x1}" y1="{y + 44}" x2="{cx + 100 * _m.cos(a):.0f}" y2="{cy + 100 * _m.sin(a):.0f}" stroke="{FOSF if destaque else BORDA}" stroke-width="{4 if destaque else 2}"/>')
+    return slide("fadiga", 400, p, rs, eyebrow="Passo um", titulo="Fadiga é sintoma, não diagnóstico",
+                 destaque="Ferritina baixa em quem dorme cinco horas por noite vai ser tratada com ferro, e a pessoa vai continuar cansada.", destaque_cor="tinta")
+
+
+def perguntas_69():
+    """6.9: cinco perguntas em balões e quatro sinais, com a pergunta do fluxo destacada."""
+    p = [svg_abre(1664, 380, "À esquerda, cinco perguntas, com a primeira destacada: como é o fluxo menstrual? Depois: é vegetariana, come carne vermelha com que frequência? Quanto corre, em que superfície? Usa anti-inflamatório com frequência? Já teve ferro baixo, já tomou? À direita, quatro sinais: falta de ar desproporcional, queda de desempenho aeróbico, palidez com alteração de cabelo e unhas, e vontade de mastigar gelo")]
+    rs = []
+    qs = ["como é o fluxo menstrual?", "vegetariana? carne vermelha com que frequência?", "quanto corre, em que superfície?", "anti-inflamatório com frequência?", "já teve ferro baixo? já tomou?"]
+    for k, q in enumerate(qs):
+        y = k * 76
+        cor, fundo = (FOSF, FOSF_T) if k == 0 else (OXID, CARTAO)
+        p.append(f'<path d="M 14 {y} H 1000 Q 1014 {y} 1014 {y + 14} V {y + 50} Q 1014 {y + 64} 1000 {y + 64} H 60 L 30 {y + 74} L 36 {y + 64} H 14 Q 0 {y + 64} 0 {y + 50} V {y + 14} Q 0 {y} 14 {y} Z" fill="{fundo}" stroke="{cor}" stroke-width="{3 if k == 0 else 2}"/>')
+        rs.append(rot(24, y + 17, "“" + q[0].upper() + q[1:] + "”", w=970, tam=23, cor=cor if k == 0 else TINTA, peso=700 if k == 0 else 400))
+    p.append(caixa(1064, 0, 600, 380, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(1088, 18, "Sinais", w=550, tam=26, cor=GLIC, peso=700, serif=True))
+    for k, (ic, t) in enumerate([("h:lungs", "falta de ar desproporcional"), ("t:trending-down", "queda de desempenho aeróbico"), ("t:eye", "palidez, cabelo, unhas"), ("t:droplet", "vontade de mastigar gelo")]):
+        y = 80 + k * 72
+        p.append(icone(ic, 1088, y, 40, GLIC))
+        rs.append(rot(1144, y + 6, t, w=500, tam=23, cor=TINTA))
+    return slide("perguntas", 380, p, rs, eyebrow="As perguntas que orientam a suspeita", titulo="O que perguntar antes de pedir",
+                 destaque="A pergunta sobre o fluxo menstrual é a que mais encontra deficiência de ferro no esporte feminino, e a que menos se faz.", destaque_cor="verm")
+
+
+def pedido_69():
+    """6.9: os quatro exames em tubos e a janela de coleta depois do treino intenso."""
+    p = [svg_abre(1664, 380, "À esquerda, quatro tubos com o que pedir: hemograma com hemoglobina, VCM e RDW; ferritina; saturação de transferrina; proteína C reativa. À direita, uma linha do tempo a partir de um treino intenso: a coleta fica na janela de 24 a 48 horas depois, fora de infecção, de manhã, sempre no mesmo esquema. Antes disso, a ferritina sobe como proteína de fase aguda e vem falsamente confortável")]
+    rs = []
+    tubos = [("hemograma", "Hb, VCM, RDW"), ("ferritina", ""), ("saturação de transferrina", ""), ("proteína C reativa", "")]
+    for k, (t, d) in enumerate(tubos):
+        x = k * 170
+        p.append(f'<rect x="{x + 50}" y="0" width="70" height="30" rx="6" fill="{OXID}"/>')
+        p.append(f'<path d="M {x + 50} 34 H {x + 120} V 220 Q {x + 120} 250 {x + 85} 250 Q {x + 50} 250 {x + 50} 220 Z" fill="{CARTAO}" stroke="{OXID}" stroke-width="3"/>')
+        p.append(f'<path d="M {x + 53} 140 H {x + 117} V 220 Q {x + 117} 246 {x + 85} 246 Q {x + 53} 246 {x + 53} 220 Z" fill="{FOSF}" opacity="0.75"/>')
+        rs.append(rot(x, 264, t, w=170, tam=20, cor=TINTA, peso=700, alinha="center", lh=1.2))
+        if d:
+            rs.append(rot(x, 314, d, w=170, tam=18, cor=MUDO, alinha="center"))
+    X0, X1 = 760, 1640
+    fx = lambda h: X0 + h / 72 * (X1 - X0)
+    p.append(f'<rect x="{fx(24):.0f}" y="40" width="{fx(48) - fx(24):.0f}" height="160" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"/>')
+    p.append(f'<rect x="{fx(0):.0f}" y="40" width="{fx(24) - fx(0):.0f}" height="160" fill="{FOSF_T}"/>')
+    p.append(f'<line x1="{X0}" y1="200" x2="{X1}" y2="200" stroke="{MUDO}" stroke-width="3"/>')
+    for h in (0, 24, 48, 72):
+        p.append(f'<line x1="{fx(h):.0f}" y1="200" x2="{fx(h):.0f}" y2="212" stroke="{MUDO}" stroke-width="2"/>')
+        rs.append(rot(fx(h) - 40, 216, f"{h} h", w=80, tam=18, cor=MUDO, alinha="center"))
+    p.append(icone("t:barbell", X0 - 24, 0, 48, TINTA))
+    rs += [rot(X0 + 30, 8, "treino intenso", w=240, tam=20, cor=TINTA, peso=700),
+           rot(fx(0) + 10, 90, "ferritina falsamente confortável", w=fx(24) - fx(0) - 20, tam=20, cor=FOSF, peso=700, lh=1.2),
+           rot(fx(24) + 10, 70, "colher aqui", w=fx(48) - fx(24) - 20, tam=26, cor=OXID, peso=700, alinha="center", serif=True),
+           rot(fx(24) + 10, 120, "24 a 48 h depois", w=fx(48) - fx(24) - 20, tam=20, cor=OXID, alinha="center")]
+    for k, t in enumerate(["fora de infecção", "de manhã", "sempre no mesmo esquema"]):
+        x = X0 + k * 300
+        p.append(caixa(x, 270, 280, 60, OXID, CARTAO, esp=2, rx=30))
+        rs.append(rot(x + 10, 289, t, w=260, tam=19, cor=TINTA, alinha="center"))
+    return slide("pedido", 380, p, rs, eyebrow="Passo dois", titulo="O exame certo, na hora certa",
+                 destaque="Ferritina é proteína de fase aguda: colhida depois de treino longo, vem falsamente confortável. Escreva no pedido.", destaque_cor="tinta")
+
+
+def estagios_69():
+    """6.9: três estágios em grade, com o que cai em cada um, e o alcance do hemograma."""
+    p = [svg_abre(1664, 360, "Grade com os três estágios da deficiência de ferro e três marcadores. Depleção de estoque: ferritina baixa, saturação e hemoglobina normais. Eritropoiese deficiente em ferro: ferritina e saturação baixas, hemoglobina normal. Anemia ferropriva: os três baixos. Uma faixa mostra que o hemograma sozinho só enxerga o terceiro estágio")]
+    rs = []
+    cols = ["Ferritina", "Saturação", "Hemoglobina"]
+    linhas = [("Depleção de estoque", [1, 0, 0]), ("Eritropoiese deficiente em ferro", [1, 1, 0]), ("Anemia ferropriva", [1, 1, 1])]
+    W0, cw = 560, 300
+    for j, c in enumerate(cols):
+        rs.append(rot(W0 + j * cw, 0, c, w=cw, tam=24, cor=TINTA, peso=700, alinha="center"))
+    for i, (t, v) in enumerate(linhas):
+        y = 50 + i * 100
+        rs.append(rot(0, y + 26, f"{i + 1}. {t}", w=540, tam=24, cor=TINTA, peso=700))
+        p.append(f'<line x1="0" y1="{y + 90}" x2="{W0 + 3 * cw}" y2="{y + 90}" stroke="{BORDA}" stroke-width="1"/>')
+        for j, b in enumerate(v):
+            cx = W0 + j * cw + cw / 2
+            p.append(f'<circle cx="{cx:.0f}" cy="{y + 42}" r="40" fill="{FOSF if b else OXID_T}" stroke="{FOSF if b else OXID}" stroke-width="2"/>')
+            rs.append(rot(cx - 60, y + 31, "baixa" if b else "normal", w=120, tam=17, cor=PAPEL if b else OXID, peso=700, alinha="center"))
+    xh = W0 + 2 * cw
+    p.append(f'<rect x="{xh + 6}" y="250" width="{cw - 12}" height="88" rx="12" fill="none" stroke="{TINTA}" stroke-width="4"{TRACO}/>')
+    p.append(caixa(1480, 40, 184, 300, TINTA, TINTA, esp=0, rx=14))
+    rs.append(rot(1490, 80, "o hemograma sozinho só enxerga o terceiro", w=164, tam=21, cor=PAPEL, peso=700, alinha="center", lh=1.3))
+    return slide("estagios", 360, p, rs, eyebrow="Passo três: interpretar", titulo="Os três estágios",
+                 destaque="Os painéis da corredora não estavam errados: estavam incompletos.", destaque_cor="verm")
+
+
+def armadilhas_69():
+    """6.9: três armadilhas de leitura, cada uma com um pequeno desenho."""
+    p = [svg_abre(1664, 380, "Três armadilhas de leitura. Ferritina com PCR alta: a inflamação empurra a ferritina para cima, e ela deixa de medir estoque; repetir ou valorizar a saturação. Pseudoanemia do atleta: o plasma expandido dilui a hemoglobina, com ferritina normal; não se trata. Ferritina muito alta, sem inflamação e sem ferro: investigar sobrecarga")]
+    rs = []
+    itens = [("Ferritina com PCR alta", "não mede estoque; repetir ou valorizar a saturação", GLIC, "pcr"),
+             ("Pseudoanemia do atleta", "plasma expandido dilui a hemoglobina; ferritina normal; não se trata", OXID, "dilui"),
+             ("Ferritina muito alta", "sem inflamação e sem ferro: investigar sobrecarga", FOSF, "alta")]
+    for k, (t, d, cor, viz) in enumerate(itens):
+        x = k * 568
+        p.append(caixa(x, 0, 528, 380, cor, CARTAO, esp=2, rx=16))
+        rs += [rot(x + 24, 18, t, w=480, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, 280, d, w=480, tam=22, cor=TINTA, lh=1.3)]
+        if viz == "pcr":
+            p.append(f'<rect x="{x + 80}" y="{230 - 60}" width="80" height="60" fill="{OXID}"/>')
+            p.append(f'<rect x="{x + 80}" y="{230 - 150}" width="80" height="90" fill="{GLIC}" opacity="0.6"/>')
+            rs += [rot(x + 180, 92, "inflamação soma", w=300, tam=19, cor=GLIC, peso=700), rot(x + 180, 186, "estoque real", w=300, tam=19, cor=OXID, peso=700)]
+            p.append(f'<line x1="{x + 60}" y1="230" x2="{x + 480}" y2="230" stroke="{MUDO}" stroke-width="2"/>')
+        elif viz == "dilui":
+            for j, (h, rot_) in enumerate([(70, "antes"), (110, "plasma expandido")]):
+                bx = x + 90 + j * 220
+                p.append(f'<rect x="{bx}" y="{230 - h}" width="90" height="{h}" rx="6" fill="{AZUL_T}" stroke="{AZUL}" stroke-width="2"/>')
+                for dd in range(6):
+                    p.append(f'<circle cx="{bx + 18 + (dd % 3) * 27}" cy="{230 - 14 - (dd // 3) * 24}" r="8" fill="{FOSF}"/>')
+                rs.append(rot(bx - 40, 238, rot_, w=170, tam=18, cor=MUDO, alinha="center"))
+        else:
+            p.append(f'<line x1="{x + 60}" y1="230" x2="{x + 480}" y2="230" stroke="{MUDO}" stroke-width="2"/>')
+            p.append(f'<rect x="{x + 220}" y="80" width="90" height="150" fill="{FOSF}"/>')
+            p.append(icone("t:arrow-up-right", x + 330, 80, 50, FOSF))
+    return slide("armadilhas", 380, p, rs, eyebrow="As armadilhas da leitura", titulo="Errar aqui é mais comum que errar no pedido",
+                 destaque="Anemia não é sinônimo de ferro: B12 e folato dão anemia com VCM alto.", destaque_cor="tinta")
+
+
+def causa_69():
+    """6.9: o estoque de ferro como um tanque, com o que entra e as três saídas."""
+    p = [svg_abre(1664, 400, "No centro, o estoque de ferro desenhado como um tanque. À esquerda, o que entra: ingestão e dieta, com café e cálcio atrapalhando, e a doença celíaca. Embaixo, três saídas: a perda menstrual, a mais frequente no esporte feminino; o trato gastrointestinal, obrigatório investigar no homem e na mulher depois da menopausa, com o anti-inflamatório entrando aqui; e o próprio treino, com o impacto do pé, o suor e a hepcidina, que tem pico três a seis horas depois"), defs(GLIC, FOSF)]
+    rs = []
+    p.append(f'<path d="M 640 20 V 230 Q 640 260 670 260 H 990 Q 1020 260 1020 230 V 20" fill="{CARTAO}" stroke="{TINTA}" stroke-width="4"/>')
+    p.append(f'<rect x="644" y="150" width="372" height="106" rx="8" fill="{FOSF}" opacity="0.7"/>')
+    rs += [rot(640, 60, "estoque de ferro", w=380, tam=28, cor=TINTA, peso=700, alinha="center", serif=True), rot(640, 190, "baixo", w=380, tam=24, cor=PAPEL, peso=700, alinha="center")]
+    p.append(caixa(0, 20, 540, 180, GLIC, GLIC_T, esp=2, rx=16))
+    rs += [rot(24, 36, "O que entra", w=500, tam=26, cor=GLIC, peso=700, serif=True), rot(24, 86, "ingestão e dieta; café e cálcio atrapalham; e a doença celíaca", w=500, tam=22, cor=TINTA, lh=1.3)]
+    p.append(seta(544, 110, 630, 110, GLIC, "m0", esp=5))
+    saidas = [(0, "Perda menstrual", "a mais frequente no esporte feminino; tratar a perda evita a recaída"),
+              (560, "Trato gastrointestinal", "obrigatório no homem e depois da menopausa; o anti-inflamatório entra aqui"),
+              (1120, "O próprio treino", "impacto do pé, suor, e a hepcidina com pico 3 a 6 h depois")]
+    for x, t, d in saidas:
+        p.append(f'<path d="M 830 262 C 830 290, {x + 272} 270, {x + 272} 296" fill="none" stroke="{FOSF}" stroke-width="3" marker-end="url(#m1)"/>')
+        p.append(caixa(x, 300, 544, 100, FOSF, FOSF_T, esp=2, rx=14))
+        rs += [rot(x + 20, 310, t, w=500, tam=23, cor=FOSF, peso=700), rot(x + 20, 346, d, w=510, tam=19, cor=TINTA, lh=1.25)]
+    p.append(caixa(1100, 20, 564, 180, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(1124, 40, "Investigar antes de repor: repor sem achar a saída enche um tanque furado", w=516, tam=23, cor=TINTA, peso=600, lh=1.35))
+    return slide("causa", 400, p, rs, eyebrow="Passo quatro", titulo="Investigar antes de repor",
+                 destaque="Na carga muito alta, parte da deficiência não se resolve com mais ferro. Resolve-se com carga e recuperação.", destaque_cor="tinta")
+
+
+def repor_69():
+    """6.9: a janela da hepcidina no dia de treino, a absorção em dias alternados e o prazo de reavaliação."""
+    p = [svg_abre(1664, 380, "À esquerda, o dia de treino: o comprimido de manhã, fora da janela de três a seis horas depois do treino intenso, quando a hepcidina está alta. No meio, duas barras de absorção fracionada: 21,8 por cento em dias alternados contra 16,3 por cento em dias seguidos. À direita, o prazo: reavaliar em oito a doze semanas, porque o estoque leva meses")]
+    rs = []
+    X0, X1 = 0, 640
+    fx = lambda h: X0 + (h - 6) / 18 * (X1 - X0)
+    p.append(f'<rect x="{fx(17):.0f}" y="60" width="{fx(20) - fx(17):.0f}" height="180" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="2"{TRACO}/>')
+    p.append(f'<line x1="{X0}" y1="240" x2="{X1}" y2="240" stroke="{MUDO}" stroke-width="3"/>')
+    for h in (6, 12, 18, 24):
+        rs.append(rot(fx(h) - 40, 248, f"{h} h", w=80, tam=18, cor=MUDO, alinha="center"))
+    p.append(icone("t:pill", fx(7) - 20, 150, 50, OXID))
+    p.append(icone("t:barbell", fx(14) - 24, 170, 48, TINTA))
+    rs += [rot(fx(7) - 60, 100, "manhã", w=120, tam=24, cor=OXID, peso=700, alinha="center"),
+           rot(fx(14) - 70, 120, "treino intenso", w=140, tam=18, cor=TINTA, alinha="center"),
+           rot(fx(17) + 4, 70, "hepcidina alta: 3 a 6 h depois", w=fx(20) - fx(17) + 120, tam=18, cor=FOSF, peso=700, lh=1.2),
+           rot(0, 290, "o comprimido fora da janela da hepcidina", w=640, tam=21, cor=TINTA, lh=1.3)]
+    Xb = 760
+    rs.append(rot(Xb, 0, "absorção fracionada", w=500, tam=22, cor=MUDO, peso=700))
+    for k, (t, v, cor) in enumerate([("dias alternados", 21.8, GLIC), ("dias seguidos", 16.3, CINZA)]):
+        y = 60 + k * 110
+        rs.append(rot(Xb, y + 20, t, w=200, tam=22, cor=TINTA, peso=600))
+        p.append(f'<rect x="{Xb + 210}" y="{y}" width="{v * 10:.0f}" height="80" rx="4" fill="{cor}"/>')
+        rs.append(rot(Xb + 222 + v * 10, y + 18, f"{v:.1f}%".replace(".", ","), w=140, tam=34, cor=cor if cor != CINZA else MUDO, peso=700, serif=True))
+    p.append(caixa(1380, 40, 284, 260, TINTA, TINTA, esp=0, rx=16))
+    rs += [rot(1380, 70, "8 a 12", w=284, tam=56, cor=PAPEL, peso=700, alinha="center", serif=True),
+           rot(1380, 150, "semanas", w=284, tam=24, cor=PAPEL, alinha="center"),
+           rot(1400, 200, "para reavaliar; o estoque leva meses", w=244, tam=20, cor=PAPEL, alinha="center", lh=1.3)]
+    return slide("repor", 380, p, rs, eyebrow="Passo cinco: repor direito", titulo="Horário, frequência, companhia, tempo",
+                 destaque="Vitamina C ajuda; café, chá, cálcio e whey com leite atrapalham. E pergunte: “você está conseguindo tomar?”", destaque_cor="verm",
+                 fonte="Ensaio randomizado em mulheres com estoque baixo, Lancet Haematol 2017")
+
+
+def veia_69():
+    """6.9: a bolsa de infusão com a linha dos 100 mL, e o que o ferro não faz."""
+    p = [svg_abre(1664, 400, "No meio, uma bolsa de infusão com uma linha nos 100 mililitros: acima disso em doze horas, proibido fora do hospital. À esquerda, quando o ferro endovenoso entra: intolerância ou falha do oral, correção rápida, perdas importantes, por decisão médica, nunca por conveniência. À direita, o que o ferro não faz: trata quem tem deficiência e melhora ferritina, ferro sérico e hemoglobina, mas não é argumento para quem está normal")]
+    rs = []
+    p.append(caixa(0, 0, 560, 400, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(24, 18, "Endovenoso", w=500, tam=27, cor=FOSF, peso=700, serif=True))
+    for k, t in enumerate(["intolerância ou falha do oral", "correção rápida, perdas importantes", "decisão médica, nunca por conveniência"]):
+        y = 90 + k * 76
+        p.append(f'<circle cx="34" cy="{y + 14}" r="8" fill="{FOSF}"/>')
+        rs.append(rot(54, y, t, w=480, tam=23, cor=TINTA, lh=1.25))
+    p.append(f'<path d="M 720 20 H 940 Q 960 20 960 40 V 260 Q 960 300 900 300 H 760 Q 700 300 700 260 V 40 Q 700 20 720 20 Z" fill="{CARTAO}" stroke="{TINTA}" stroke-width="4"/>')
+    p.append(f'<rect x="704" y="150" width="252" height="146" rx="20" fill="{GLIC}" opacity="0.55"/>')
+    p.append(f'<line x1="680" y1="150" x2="980" y2="150" stroke="{FOSF}" stroke-width="4"{TRACO}/>')
+    p.append(f'<line x1="830" y1="300" x2="830" y2="326" stroke="{TINTA}" stroke-width="4"/>')
+    rs += [rot(640, 104, "100 mL em 12 h", w=380, tam=26, cor=FOSF, peso=700, alinha="center", serif=True),
+           rot(600, 344, "acima: proibido fora do hospital", w=460, tam=20, cor=FOSF, peso=700, alinha="center")]
+    p.append(caixa(1104, 0, 560, 400, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(1128, 18, "O que o ferro faz, e não faz", w=510, tam=27, cor=OXID, peso=700, serif=True))
+    for k, (t, ok) in enumerate([("trata quem tem deficiência", True), ("melhora ferritina, ferro sérico e hemoglobina", True), ("não é argumento para quem está normal", False)]):
+        y = 90 + k * 90
+        p.append(icone("t:check" if ok else "t:x", 1128, y, 36, OXID if ok else FOSF))
+        rs.append(rot(1176, y + 2, t, w=460, tam=23, cor=TINTA, lh=1.25))
+    return slide("veia", 400, p, rs, eyebrow="Ferro na veia e o que o ferro não faz", titulo="100 mL em 12 horas",
+                 destaque="Infusão “de vitaminas e ferro” para dar energia é má medicina e risco antidoping.", destaque_cor="tinta",
+                 fonte="WADA 2026, M2.2 · metanálise em atletas de endurance, BJSM 2015")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, sintomas_61, historia_61, perfis_61, tres_saidas_61, registro_61],
@@ -2087,7 +2345,8 @@ LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, s
           "06-05": [cena_65, mapa_65, folha_65, dea_65, comprimir_65, erros_65, chocar_65, depois_65, calor_65, outras_65, ensaio_65],
           "06-06": [frase_66, decisoes_66, equivocos_66, sinais_66, retira_66, alarme_66, cultura_66, repouso_66, escola_66, escada_66, demora_66, prevencao_66],
           "06-07": [perfis_67, numeros_67, mecanismo_67, prevalencia_67, diferenciais_67, laringe_67, camadas_67, aquecimento_67, doses_67, urina_67],
-          "06-08": [mensagens_68, leituras_68, pescoco_68, excecoes_68, febre_68, degraus_68, sinais_68, medica_68, rastreio_68, prevencao_68]}
+          "06-08": [mensagens_68, leituras_68, pescoco_68, excecoes_68, febre_68, degraus_68, sinais_68, medica_68, rastreio_68, prevencao_68],
+          "06-09": [perfil_69, mapa_69, fadiga_69, perguntas_69, pedido_69, estagios_69, armadilhas_69, causa_69, repor_69, veia_69]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

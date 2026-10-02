@@ -124,6 +124,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "O perfil, refeito pelo pro
                     {"t": "Todos", "x": "Perguntam sobre ciclo menstrual sem constrangimento."}],
           "quem": "Ferro por conta própria apaga a pista e pode fazer mal."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-09")
+
 spec = {"arquivo": "aulas/MOD06/06-09-anemia-deficiencia-de-ferro-e-a-armadilha-da-ferritina.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Deficiência de ferro no atleta", "subtitulo": "Do sintoma à reposição, em cinco passos",
