@@ -26,118 +26,692 @@
  "slides": [
   {
    "id": "ficha",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"No centro, uma ficha de academia em branco, com as colunas séries e repetições vazias. Em volta, cinco pessoas fazendo a mesma pergunta: o jovem que quer massa, a corredora, o jogador de basquete que quer saltar, a senhora na casa dos setenta que quer levantar da cadeira, e o paciente com diabetes. Ao lado, a resposta padrão três séries de dez, riscada\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><circle cx=\"30\" cy=\"30\" r=\"28\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(12.0 12.0) scale(0.7500)\"><path fill=\"#3A6EA5\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><circle cx=\"30\" cy=\"98\" r=\"28\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(12.0 80.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><circle cx=\"30\" cy=\"166\" r=\"28\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(12.0 148.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m2.65-6.35l12.7 12.7m-12.7 0l12.7-12.7\"/><path d=\"M12 3a9 9 0 0 0 9 9M3 12a9 9 0 0 1 9 9\"/></g></g><circle cx=\"30\" cy=\"234\" r=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(12.0 216.0) scale(0.7500)\"><path fill=\"#A8322A\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><circle cx=\"30\" cy=\"302\" r=\"28\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(12.0 284.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"560\" y=\"0\" width=\"560\" height=\"340\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"580\" y1=\"110\" x2=\"1100\" y2=\"110\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"580\" y1=\"154\" x2=\"1100\" y2=\"154\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"580\" y1=\"198\" x2=\"1100\" y2=\"198\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"580\" y1=\"242\" x2=\"1100\" y2=\"242\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"580\" y1=\"286\" x2=\"1100\" y2=\"286\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"840\" y1=\"56\" x2=\"840\" y2=\"320\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1180\" y=\"90\" width=\"484\" height=\"160\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1210\" y1=\"170\" x2=\"1630\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 72,
+     "y": 18,
+     "w": 420,
+     "t": "o jovem que quer massa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 86,
+     "w": 420,
+     "t": "a corredora",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 154,
+     "w": 420,
+     "t": "o jogador que quer saltar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 222,
+     "w": 420,
+     "t": "a senhora na casa dos setenta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 290,
+     "w": 420,
+     "t": "o paciente com diabetes",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 16,
+     "w": 200,
+     "t": "ficha",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 60,
+     "w": 250,
+     "t": "séries",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 60,
+     "w": 250,
+     "t": "repetições",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 118,
+     "w": 444,
+     "t": "“três séries de dez”",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 180,
+     "w": 444,
+     "t": "resposta pior do que parece",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Na academia",
-   "frase": "“Quantas séries e quantas repetições?” depende de para quê.",
-   "apoio": "O jovem que quer massa, a corredora, o jogador de basquete que quer saltar, a senhora de setenta anos e o paciente com diabetes fazem a mesma pergunta. “Três séries de dez” é resposta pior do que parece."
+   "titulo": "“Quantas séries e quantas repetições?” depende de para quê."
   },
   {
    "id": "roteiro",
-   "tipo": "lista",
-   "eyebrow": "O roteiro",
-   "titulo": "Cinco passos, nesta ordem",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Cinco passos em fila, nesta ordem. Um, objetivo: força máxima, hipertrofia, potência, saúde e função, ou outro esporte. Dois, carga: a variável que mais separa força de hipertrofia. Três, volume e frequência: quantas séries por músculo, distribuídas como. Quatro, esforço e intervalo: quanto perto da falha, quanto descanso entre séries. Cinco, progressão e registro: sem ficha, não existe progressão\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"44\" r=\"24\" fill=\"#12202E\"/><g transform=\"translate(236.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><line x1=\"304\" y1=\"150\" x2=\"336\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"341\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"381\" cy=\"44\" r=\"24\" fill=\"#A8322A\"/><g transform=\"translate(577.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"645\" y1=\"150\" x2=\"677\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"682\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"722\" cy=\"44\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(918.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><line x1=\"986\" y1=\"150\" x2=\"1018\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1023\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"1063\" cy=\"44\" r=\"24\" fill=\"#008A7E\"/><g transform=\"translate(1259.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><line x1=\"1327\" y1=\"150\" x2=\"1359\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1364\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"1404\" cy=\"44\" r=\"24\" fill=\"#12202E\"/><g transform=\"translate(1600.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 16,
+     "y": 30,
+     "w": 48,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 96,
+     "w": 260,
      "t": "Objetivo",
-     "x": "força máxima, hipertrofia, potência, saúde e função, ou outro esporte",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 170,
+     "w": 260,
+     "t": "força máxima, hipertrofia, potência, saúde e função, ou outro esporte",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 357,
+     "y": 30,
+     "w": 48,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 361,
+     "y": 96,
+     "w": 260,
      "t": "Carga",
-     "x": "a variável que mais separa força de hipertrofia",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 361,
+     "y": 170,
+     "w": 260,
+     "t": "a variável que mais separa força de hipertrofia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 698,
+     "y": 30,
+     "w": 48,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 702,
+     "y": 96,
+     "w": 260,
      "t": "Volume e frequência",
-     "x": "quantas séries por músculo, distribuídas como",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 702,
+     "y": 170,
+     "w": 260,
+     "t": "quantas séries por músculo, distribuídas como",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1039,
+     "y": 30,
+     "w": 48,
+     "t": "4",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1043,
+     "y": 96,
+     "w": 260,
      "t": "Esforço e intervalo",
-     "x": "quanto perto da falha; quanto descanso entre séries",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 1043,
+     "y": 170,
+     "w": 260,
+     "t": "quanto perto da falha; quanto descanso entre séries",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1380,
+     "y": 30,
+     "w": 48,
+     "t": "5",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1384,
+     "y": 96,
+     "w": 260,
      "t": "Progressão e registro",
-     "x": "sem ficha, não existe progressão",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1384,
+     "y": 170,
+     "w": 260,
+     "t": "sem ficha, não existe progressão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 10
+   "eyebrow": "O roteiro",
+   "titulo": "Cinco passos, nesta ordem"
   },
   {
    "id": "objetivo",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Cinco linhas, objetivo e o que mais pesa. Força máxima: carga pesada, no próprio exercício que se quer melhorar. Hipertrofia: volume e esforço perto da falha; a carga pode variar. Potência: velocidade de execução, sobre uma base de força. Saúde e função: regularidade, com exercícios que conversam com a vida real. Outro esporte: o que o esporte exige e falta, sem roubar o treino principal. Embaixo: nomear o objetivo com a pessoa evita o programa de fisiculturista para quem queria correr melhor\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"440\" height=\"64\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 12.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"452\" y1=\"32\" x2=\"512\" y2=\"32\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"526\" y=\"0\" width=\"1138\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"76\" width=\"440\" height=\"64\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(16.0 88.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><line x1=\"452\" y1=\"108\" x2=\"512\" y2=\"108\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"526\" y=\"76\" width=\"1138\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"152\" width=\"440\" height=\"64\" rx=\"12\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(16.0 164.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><line x1=\"452\" y1=\"184\" x2=\"512\" y2=\"184\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"526\" y=\"152\" width=\"1138\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"228\" width=\"440\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(16.0 240.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M12 6L8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25m-7 3l2 2M15 13l2 2\"/></g></g><line x1=\"452\" y1=\"260\" x2=\"512\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"526\" y=\"228\" width=\"1138\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"304\" width=\"440\" height=\"64\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(16.0 316.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"452\" y1=\"336\" x2=\"512\" y2=\"336\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"526\" y=\"304\" width=\"1138\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"394\" width=\"1664\" height=\"76\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(24.0 410.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 16,
+     "w": 360,
+     "t": "Força máxima",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 548,
+     "y": 18,
+     "w": 1100,
+     "t": "carga pesada, no próprio exercício que se quer melhorar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 92,
+     "w": 360,
+     "t": "Hipertrofia",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 548,
+     "y": 94,
+     "w": 1100,
+     "t": "volume e esforço perto da falha; a carga pode variar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 168,
+     "w": 360,
+     "t": "Potência",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 548,
+     "y": 170,
+     "w": 1100,
+     "t": "velocidade de execução, sobre uma base de força",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 244,
+     "w": 360,
+     "t": "Saúde e função",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 548,
+     "y": 246,
+     "w": 1100,
+     "t": "regularidade, com exercícios que conversam com a vida real",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 320,
+     "w": 360,
+     "t": "Outro esporte",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 548,
+     "y": 322,
+     "w": 1100,
+     "t": "o que o esporte exige e falta, sem roubar o treino principal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 414,
+     "w": 1560,
+     "t": "nomear o objetivo com a pessoa evita o programa de fisiculturista para quem queria correr melhor",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo um",
-   "titulo": "Cada objetivo tem uma variável que manda",
-   "cab": [
-    "Objetivo",
-    "O que mais pesa"
-   ],
-   "larguras": [
-    30,
-    70
-   ],
-   "linhas": [
-    [
-     "Força máxima",
-     "carga pesada, no próprio exercício que se quer melhorar"
-    ],
-    [
-     "Hipertrofia",
-     "volume e esforço perto da falha; a carga pode variar"
-    ],
-    [
-     "Potência",
-     "velocidade de execução, sobre uma base de força"
-    ],
-    [
-     "Saúde e função",
-     "regularidade, com exercícios que conversam com a vida real"
-    ],
-    [
-     "Outro esporte",
-     "o que o esporte exige e falta, sem roubar o treino principal"
-    ]
-   ],
-   "destaque": "Nomear o objetivo com a pessoa evita o programa de fisiculturista para quem queria correr melhor.",
-   "destaque_cor": "tinta"
+   "titulo": "Cada objetivo tem uma variável que manda"
   },
   {
    "id": "carga",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Dois painéis em esquema, sem valores. Hipertrofia: duas barras iguais, carga baixa até 60% do máximo e carga alta acima disso; ganhos semelhantes, desde que as séries sejam levadas ao esforço alto; saída para quem não tolera carga pesada. Força máxima: a barra da carga alta é maior; quem quer ficar forte num levantamento precisa treinar pesado nele em algum momento\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"80\" y=\"100\" width=\"200\" height=\"150\" rx=\"8\" fill=\"#008A7E\" opacity=\"0.6\"/><rect x=\"360\" y=\"100\" width=\"200\" height=\"150\" rx=\"8\" fill=\"#008A7E\" opacity=\"1\"/><line x1=\"40\" y1=\"250\" x2=\"620\" y2=\"250\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"844\" y=\"0\" width=\"820\" height=\"340\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"924\" y=\"160\" width=\"200\" height=\"90\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.6\"/><rect x=\"1204\" y=\"80\" width=\"200\" height=\"170\" rx=\"8\" fill=\"#A8322A\" opacity=\"1\"/><line x1=\"884\" y1=\"250\" x2=\"1464\" y2=\"250\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 500,
+     "t": "Hipertrofia",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 258,
+     "w": 240,
+     "t": "carga baixa (≤ 60%)",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 258,
+     "w": 240,
+     "t": "carga alta",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 290,
+     "w": 780,
+     "t": "semelhante, com esforço alto · saída para quem não tolera carga pesada",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 640,
+     "y": 120,
+     "w": 140,
+     "t": "=",
+     "tam": 56,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 16,
+     "w": 500,
+     "t": "Força máxima",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 904,
+     "y": 258,
+     "w": 240,
+     "t": "carga baixa (≤ 60%)",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 258,
+     "w": 240,
+     "t": "carga alta",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 290,
+     "w": 780,
+     "t": "carga pesada ganhou · treinar pesado no próprio levantamento",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1484,
+     "y": 120,
+     "w": 140,
+     "t": "↑",
+     "tam": 56,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 16,
+     "w": 200,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo dois · carga",
    "titulo": "Hipertrofia em toda a faixa; força com carga pesada",
-   "esq": {
-    "t": "Hipertrofia",
-    "cor": "petr",
-    "itens": [
-     "ganhos semelhantes com carga baixa e alta",
-     "desde que as séries sejam levadas ao esforço alto",
-     "saída para quem não tolera carga pesada"
-    ]
-   },
-   "dir": {
-    "t": "Força máxima",
-    "cor": "verm",
-    "itens": [
-     "carga pesada ganhou",
-     "quem quer ficar forte num levantamento",
-     "precisa treinar pesado nele em algum momento"
-    ]
-   },
-   "destaque": "Carga baixa: até 60% do máximo. Carga alta: acima disso. Séries até a falha, pelo menos seis semanas.",
+   "destaque": "Séries até a falha, pelo menos seis semanas.",
    "destaque_cor": "tinta",
    "fonte": "Metanálise, J Strength Cond Res 2017"
   },
   {
    "id": "crescer",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Duas metades. Para crescer: uma régua de carga de leve a pesada, toda ela marcada como serve, e um mostrador de esforço no alto. Para ficar forte: a mesma régua, só a ponta pesada marcada. Embaixo: as duas metades resolvem boa parte das discussões de academia e das prescrições para quem tem limitação\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"240\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"40\" y=\"110\" width=\"560\" height=\"34\" rx=\"17\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"40\" y=\"110\" width=\"560\" height=\"34\" rx=\"17\" fill=\"#008A7E\"/><g transform=\"translate(660.0 80.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"844\" y=\"0\" width=\"820\" height=\"240\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"884\" y=\"110\" width=\"560\" height=\"34\" rx=\"17\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"1276\" y=\"110\" width=\"168\" height=\"34\" rx=\"17\" fill=\"#A8322A\"/><g transform=\"translate(1504.0 80.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"0\" y=\"260\" width=\"1664\" height=\"60\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 760,
+     "t": "Para crescer",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 190,
+     "w": 760,
+     "t": "quase qualquer carga, se o esforço for alto",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 76,
+     "w": 200,
+     "t": "leve",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 76,
+     "w": 200,
+     "t": "pesada",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 18,
+     "w": 760,
+     "t": "Para ficar forte",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 868,
+     "y": 190,
+     "w": 760,
+     "t": "precisa de carga pesada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 76,
+     "w": 200,
+     "t": "leve",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1244,
+     "y": 76,
+     "w": 200,
+     "t": "pesada",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 276,
+     "w": 1616,
+     "t": "as duas metades resolvem boa parte das discussões de academia e das prescrições para quem tem limitação",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "Para crescer, quase qualquer carga serve se o esforço for alto. Para ficar forte, precisa de carga pesada.",
-   "apoio": "As duas metades resolvem boa parte das discussões de academia, e boa parte das prescrições para quem tem limitação."
+   "titulo": "Para crescer, quase qualquer carga serve se o esforço for alto. Para ficar forte, precisa de carga pesada."
   },
   {
    "id": "volume",
@@ -220,144 +794,727 @@
   },
   {
    "id": "frequencia",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"O mesmo volume semanal, nove séries, distribuído em uma, duas ou três sessões; ao lado de cada linha, um sinal de igual: resultado semelhante para a hipertrofia. À direita, para que serve a frequência: logística, distribuir o volume em sessões que a pessoa faz bem; com três dias, corpo inteiro; com cinco, dividir\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"210\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"244\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"278\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"312\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"346\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"380\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"414\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"448\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"482\" y=\"20\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"210\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"244\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"278\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"312\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"346\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"420\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"454\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"488\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"522\" y=\"120\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"210\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"244\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"278\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"352\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"386\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"420\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"494\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"528\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"562\" y=\"220\" width=\"28\" height=\"70\" rx=\"5\" fill=\"#B07A1C\"/><rect x=\"760\" y=\"0\" width=\"904\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(784.0 84.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><g transform=\"translate(784.0 164.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><g transform=\"translate(784.0 244.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3.5 5.5L5 7l2.5-2.5m-4 7L5 13l2.5-2.5m-4 7L5 19l2.5-2.5M11 6h9m-9 6h9m-9 6h9\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 42,
+     "w": 180,
+     "t": "1× por semana",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 28,
+     "w": 80,
+     "t": "=",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 142,
+     "w": 180,
+     "t": "2× por semana",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 128,
+     "w": 80,
+     "t": "=",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 242,
+     "w": 180,
+     "t": "3× por semana",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 228,
+     "w": 80,
+     "t": "=",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 210,
+     "y": 310,
+     "w": 600,
+     "t": "mesmo volume semanal · resultado semelhante para hipertrofia",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 784,
+     "y": 18,
+     "w": 860,
+     "t": "Para que serve, então: logística",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 846,
+     "y": 92,
+     "w": 800,
+     "t": "distribuir o volume em sessões que a pessoa faz bem",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 846,
+     "y": 172,
+     "w": 800,
+     "t": "três dias: corpo inteiro nos três",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 846,
+     "y": 252,
+     "w": 800,
+     "t": "cinco dias: dá para dividir",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo três · frequência",
    "titulo": "Com o mesmo volume, a frequência não muda a hipertrofia",
-   "esq": {
-    "t": "O que a metanálise encontrou",
-    "cor": "tinta",
-    "itens": [
-     "só estudos com volume semanal igual",
-     "uma ou três vezes por semana: resultado semelhante",
-     "a vantagem antiga vinha do volume maior"
-    ]
-   },
-   "dir": {
-    "t": "Para que serve, então",
-    "cor": "petr",
-    "itens": [
-     "logística: distribuir o volume",
-     "sessões que a pessoa faz bem",
-     "três dias: corpo inteiro; cinco: dividir"
-    ]
-   },
-   "destaque": "A frequência distribui o volume; não o substitui.",
+   "destaque": "A frequência distribui o volume; não o substitui. A vantagem antiga vinha do volume maior.",
    "destaque_cor": "tinta",
    "fonte": "Metanálise, J Sports Sci 2019"
   },
   {
    "id": "esforco",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "Passo quatro",
-   "titulo": "Esforço e intervalo",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Dois painéis em esquema. Perto da falha: conforme as repetições de reserva diminuem, a hipertrofia sobe; a linha da força fica quase plana, relação desprezível. Intervalo entre séries: o benefício para hipertrofia sobe um pouco acima de 60 segundos e achata depois de 90\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"60\" y1=\"290\" x2=\"780\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"844\" y=\"0\" width=\"820\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"904\" y1=\"290\" x2=\"1624\" y2=\"290\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 60 260 C 300 240, 560 160, 760 100\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><path d=\"M 60 200 L 760 190\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"5\" stroke-dasharray=\"10 8\"/><path d=\"M 904 250 C 1044 230, 1144 150, 1264 130 L 1624 126\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"6\"/><line x1=\"1108\" y1=\"100\" x2=\"1108\" y2=\"290\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"1210\" y1=\"100\" x2=\"1210\" y2=\"290\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 16,
+     "w": 760,
      "t": "Perto da falha",
-     "x": "hipertrofia aumenta quanto mais perto da falha; para força, relação desprezível",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 868,
+     "y": 16,
+     "w": 760,
      "t": "Intervalo entre séries",
-     "x": "pequeno benefício acima de 60 segundos; sem diferença apreciável acima de 90",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 70,
+     "w": 200,
+     "t": "hipertrofia",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 206,
+     "w": 240,
+     "t": "força: relação desprezível",
+     "tam": 18,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 60,
+     "y": 300,
+     "w": 200,
+     "t": "mais reserva",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 300,
+     "w": 200,
+     "t": "perto da falha",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1058,
+     "y": 300,
+     "w": 100,
+     "t": "60 s",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 300,
+     "w": 100,
+     "t": "90 s",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 80,
+     "w": 360,
+     "t": "sem diferença apreciável acima de 90 s",
+     "tam": 18,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 904,
+     "y": 326,
+     "w": 200,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo quatro",
+   "titulo": "Esforço e intervalo",
    "destaque": "Esforço se mede em repetições de reserva: quantas ainda sobrariam. Para força máxima, intervalos mais longos.",
    "destaque_cor": "tinta",
    "fonte": "Metarregressões, Sports Med 2024 · metanálise, Front Sports Act Living 2024"
   },
   {
    "id": "ajustes",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, uma pirâmide da potência: na base, a força, porque quem é mais forte produz mais potência; acima, cargas leves a moderadas na maior velocidade; no topo, saltos e arremessos. À direita, o idoso: duas a três sessões por semana; duas a três séries, e no início uma série única basta; incluir potência, com segurança, porque é ela que tira alguém da cadeira\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"220\" width=\"760\" height=\"80\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"100\" y=\"130\" width=\"560\" height=\"80\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"220\" y=\"40\" width=\"320\" height=\"80\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"840\" y=\"0\" width=\"824\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(864.0 22.0) scale(1.1667)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><g transform=\"translate(864.0 104.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><g transform=\"translate(864.0 186.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3.5 5.5L5 7l2.5-2.5m-4 7L5 13l2.5-2.5m-4 7L5 19l2.5-2.5M11 6h9m-9 6h9m-9 6h9\"/></g><g transform=\"translate(864.0 268.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 242,
+     "w": 740,
+     "t": "base: força",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 110,
+     "y": 152,
+     "w": 540,
+     "t": "cargas leves a moderadas na maior velocidade",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 230,
+     "y": 62,
+     "w": 300,
+     "t": "saltos e arremessos",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 0,
+     "y": 320,
+     "w": 760,
+     "t": "quem é mais forte produz mais potência",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 30,
+     "w": 700,
+     "t": "Idoso",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 926,
+     "y": 108,
+     "w": 710,
+     "t": "duas a três sessões por semana",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 190,
+     "w": 710,
+     "t": "duas a três séries; no início, série única basta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 272,
+     "w": 710,
+     "t": "incluir potência, com segurança: é ela que tira alguém da cadeira",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Dois objetivos com ajustes próprios",
    "titulo": "Potência e o idoso",
-   "esq": {
-    "t": "Potência",
-    "cor": "ambar",
-    "itens": [
-     "quem é mais forte produz mais potência",
-     "a base de força vem antes",
-     "depois, cargas leves a moderadas na maior velocidade"
-    ]
-   },
-   "dir": {
-    "t": "Idoso",
-    "cor": "petr",
-    "itens": [
-     "duas a três sessões por semana",
-     "duas a três séries; no início, série única basta",
-     "incluir potência, com segurança"
-    ]
-   },
    "destaque": "O jogador que só salta e nunca fica mais forte bate num teto.",
    "destaque_cor": "tinta",
    "fonte": "Revisão de potência, Sports Med 2011 · posicionamento para idosos, J Strength Cond Res 2019"
   },
   {
    "id": "servico",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, a semana de uma corredora: dois treinos de qualidade e, longe deles, duas sessões curtas de força pesada ou explosiva, poucas séries e poucos exercícios; melhora a economia. À direita, o treino mínimo para quem tem pouco tempo: três movimentos multiarticulares, membros inferiores, empurrar e puxar, duas vezes por semana\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"24\" y=\"80\" width=\"100\" height=\"110\" rx=\"10\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"134\" y=\"80\" width=\"100\" height=\"110\" rx=\"10\" fill=\"#12202E\" opacity=\"1\"/><rect x=\"244\" y=\"80\" width=\"100\" height=\"110\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.55\"/><rect x=\"354\" y=\"80\" width=\"100\" height=\"110\" rx=\"10\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"464\" y=\"80\" width=\"100\" height=\"110\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.55\"/><rect x=\"574\" y=\"80\" width=\"100\" height=\"110\" rx=\"10\" fill=\"#12202E\" opacity=\"1\"/><rect x=\"684\" y=\"80\" width=\"100\" height=\"110\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.55\"/><rect x=\"844\" y=\"0\" width=\"820\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"868\" y=\"80\" width=\"240\" height=\"120\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(966.0 96.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><rect x=\"1124\" y=\"80\" width=\"240\" height=\"120\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1222.0 96.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m7 7l10 10m0-9v9H8\"/></g><rect x=\"1380\" y=\"80\" width=\"240\" height=\"120\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1478.0 96.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "Atleta de resistência",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 122,
+     "w": 100,
+     "t": "qualidade",
+     "tam": 16,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 134,
+     "y": 122,
+     "w": 100,
+     "t": "força",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 244,
+     "y": 122,
+     "w": 100,
+     "t": "leve",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 354,
+     "y": 122,
+     "w": 100,
+     "t": "qualidade",
+     "tam": 16,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 464,
+     "y": 122,
+     "w": 100,
+     "t": "leve",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 574,
+     "y": 122,
+     "w": 100,
+     "t": "força",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 684,
+     "y": 122,
+     "w": 100,
+     "t": "longo",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 210,
+     "w": 780,
+     "t": "força pesada ou explosiva melhora a economia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 250,
+     "w": 780,
+     "t": "poucas séries, poucos exercícios, longe dos treinos de qualidade",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 320,
+     "w": 400,
+     "t": "dias ilustrativos",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 16,
+     "w": 760,
+     "t": "Quem tem pouco tempo",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 868,
+     "y": 154,
+     "w": 240,
+     "t": "membros inferiores",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 154,
+     "w": 240,
+     "t": "empurrar",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1380,
+     "y": 154,
+     "w": 240,
+     "t": "puxar",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 226,
+     "w": 780,
+     "t": "multiarticulares · duas vezes por semana cabe na vida",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Força a serviço de outro objetivo",
    "titulo": "A corredora e o treino mínimo",
-   "esq": {
-    "t": "Atleta de resistência",
-    "cor": "petr",
-    "itens": [
-     "força pesada ou explosiva melhora a economia",
-     "poucas séries, poucos exercícios",
-     "longe dos treinos de qualidade"
-    ]
-   },
-   "dir": {
-    "t": "Quem tem pouco tempo",
-    "cor": "ambar",
-    "itens": [
-     "exercícios multiarticulares",
-     "membros inferiores, empurrar e puxar",
-     "duas vezes por semana cabe na vida"
-    ]
-   },
    "destaque": "O treino mínimo que acontece vence o completo que nunca acontece.",
    "destaque_cor": "tinta",
    "fonte": "Revisão, Scand J Med Sci Sports 2014 · revisão, Sports Med 2021"
   },
   {
    "id": "registro",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Uma ficha com cinco colunas: data, exercício, carga, repetições e reserva, cada uma com a sua função: a frequência real, o mesmo exercício por semanas, a carga que se quer ver subir, o que foi feito e não o previsto, e quantas repetições ainda sobrariam. Embaixo, a regra: terminou com mais reserva que o combinado, a carga sobe; com menos, a carga fica\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"210\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"16\" y1=\"64\" x2=\"304\" y2=\"64\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"336\" y=\"0\" width=\"320\" height=\"210\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"352\" y1=\"64\" x2=\"640\" y2=\"64\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"672\" y=\"0\" width=\"320\" height=\"210\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"688\" y1=\"64\" x2=\"976\" y2=\"64\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1008\" y=\"0\" width=\"320\" height=\"210\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1024\" y1=\"64\" x2=\"1312\" y2=\"64\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1344\" y=\"0\" width=\"320\" height=\"210\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1360\" y1=\"64\" x2=\"1648\" y2=\"64\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"240\" width=\"820\" height=\"140\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 286.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><rect x=\"844\" y=\"240\" width=\"820\" height=\"140\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(868.0 286.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 20,
+     "w": 288,
+     "t": "Data",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 16,
+     "y": 84,
+     "w": 288,
+     "t": "frequência real e semanas sem treino",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 352,
+     "y": 20,
+     "w": 288,
+     "t": "Exercício",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 352,
+     "y": 84,
+     "w": 288,
+     "t": "o mesmo por semanas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 688,
+     "y": 20,
+     "w": 288,
+     "t": "Carga",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 688,
+     "y": 84,
+     "w": 288,
+     "t": "a variável que se quer ver subir",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1024,
+     "y": 20,
+     "w": 288,
+     "t": "Repetições",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1024,
+     "y": 84,
+     "w": 288,
+     "t": "o que foi feito, não o previsto",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1360,
+     "y": 20,
+     "w": 288,
+     "t": "Reserva",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1360,
+     "y": 84,
+     "w": 288,
+     "t": "quantas ainda sobrariam; decide a próxima carga",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 92,
+     "y": 266,
+     "w": 700,
+     "t": "mais reserva que o combinado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 92,
+     "y": 306,
+     "w": 700,
+     "t": "a carga sobe",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 936,
+     "y": 266,
+     "w": 700,
+     "t": "menos reserva que o combinado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 936,
+     "y": 306,
+     "w": 700,
+     "t": "a carga fica",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Passo cinco",
-   "titulo": "A ficha que transforma progressão em número",
-   "cab": [
-    "Coluna",
-    "Para que serve"
-   ],
-   "larguras": [
-    26,
-    74
-   ],
-   "linhas": [
-    [
-     "Data",
-     "mostra a frequência real e as semanas sem treino"
-    ],
-    [
-     "Exercício",
-     "o mesmo por semanas, para a carga poder subir"
-    ],
-    [
-     "Carga",
-     "a variável que se quer ver progredir"
-    ],
-    [
-     "Repetições",
-     "o que foi feito, não o que estava previsto"
-    ],
-    [
-     "Reserva",
-     "quantas repetições ainda sobrariam; decide a próxima carga"
-    ]
-   ],
-   "destaque": "Terminou com mais reserva que o combinado: a carga sobe. Com menos: a carga fica.",
-   "destaque_cor": "tinta"
+   "titulo": "A ficha que transforma progressão em número"
   },
   {
    "id": "fecho",

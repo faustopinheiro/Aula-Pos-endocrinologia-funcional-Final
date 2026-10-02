@@ -108,6 +108,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Força por objetivo", "tit
                     {"t": "Atleta", "x": "Anota a carga e a reserva de cada série."}],
           "quem": "Próxima aula: velocidade, aceleração e mudança de direção."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-03")
+
 spec = {"arquivo": "aulas/MOD09/09-03-treino-de-forca-por-objetivo.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Treino de força por objetivo", "subtitulo": "Carga, volume, esforço e intervalo para cada meta",
