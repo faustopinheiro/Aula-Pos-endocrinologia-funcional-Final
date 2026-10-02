@@ -1,0 +1,976 @@
+{
+ "arquivo": "aulas/MOD12/12-07-sarcopenia-e-exercicio-como-contramedida.md",
+ "titulo": "Sarcopenia e exercício como contramedida",
+ "subtitulo": "A força cai três vezes mais rápido que a massa",
+ "nota_capa": "Entra por um corredor na casa dos sessenta com a balança normal e a força caindo.",
+ "secoes": {
+  "corredor": [
+   "O caso e a definição.",
+   "capa"
+  ],
+  "tres": [
+   "O número.",
+   "tres"
+  ],
+  "resistencia": [
+   "Por que rende menos.",
+   "resistencia"
+  ],
+  "noventa": [
+   "A contramedida.",
+   "noventa"
+  ]
+ },
+ "slides": [
+  {
+   "id": "corredor",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Corredor na casa dos sessenta ao lado de uma balança de bioimpedância com massa muscular normal. Duas fichas de preensão palmar com dois anos de distância, 46 kg e 40 kg, ambas acima da linha de 27 kg. Números ilustrativos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"174\" cy=\"56\" r=\"30\" fill=\"#3A6EA5\"/><path d=\"M 165 92 L 135 185 M 135 185 L 186 245 L 165 314 M 135 185 L 90 236 L 42 230 M 156 116 L 210 152 L 240 122 M 156 116 L 108 146 L 90 188\" stroke=\"#3A6EA5\" stroke-width=\"27\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"340\" y=\"140\" width=\"300\" height=\"220\" rx=\"24\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"400\" y=\"170\" width=\"180\" height=\"60\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"800\" y=\"78\" width=\"180\" height=\"322\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"1100\" y=\"120\" width=\"180\" height=\"280\" rx=\"8\" fill=\"#B07A1C\"/><line x1=\"740\" y1=\"211\" x2=\"1440\" y2=\"211\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"12 8\"/><line x1=\"740\" y1=\"400\" x2=\"1440\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 400,
+     "y": 186,
+     "w": 180,
+     "t": "normal",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 250,
+     "w": 280,
+     "t": "massa muscular na bioimpedância",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 360,
+     "w": 640,
+     "t": "na casa dos sessenta · 40 km por semana",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 28,
+     "w": 260,
+     "t": "46 kg",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 760,
+     "y": 406,
+     "w": 260,
+     "t": "há dois anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 70,
+     "w": 260,
+     "t": "40 kg",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1060,
+     "y": 406,
+     "w": 260,
+     "t": "agora",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1460,
+     "y": 195,
+     "w": 204,
+     "t": "corte: 27 kg",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1460,
+     "y": 0,
+     "w": 204,
+     "t": "preensão palmar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1460,
+     "y": 380,
+     "w": 204,
+     "t": "números ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um corredor na casa dos sessenta",
+   "titulo": "A balança diz normal, e a força está caindo"
+  },
+  {
+   "id": "definicao",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três degraus do consenso europeu revisado de 2019: força baixa levanta a suspeita; massa ou qualidade baixa confirma; desempenho físico ruim indica gravidade. A balança de bioimpedância não diagnostica\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"280\" width=\"330\" height=\"160\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"340\" y=\"150\" width=\"330\" height=\"290\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"680\" y=\"20\" width=\"330\" height=\"420\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1140\" y=\"40\" width=\"524\" height=\"230\" rx=\"24\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1290\" y=\"80\" width=\"220\" height=\"70\" rx=\"8\" fill=\"#D9D4C8\"/><rect x=\"1220\" y=\"190\" width=\"80\" height=\"40\" rx=\"8\" fill=\"#D9D4C8\"/><rect x=\"1500\" y=\"190\" width=\"80\" height=\"40\" rx=\"8\" fill=\"#D9D4C8\"/><line x1=\"1180\" y1=\"250\" x2=\"1624\" y2=\"60\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 296,
+     "w": 298,
+     "t": "força baixa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 16,
+     "y": 340,
+     "w": 298,
+     "t": "suspeita",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 356,
+     "y": 166,
+     "w": 298,
+     "t": "massa ou qualidade baixa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 356,
+     "y": 230,
+     "w": 298,
+     "t": "confirma",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 696,
+     "y": 36,
+     "w": 298,
+     "t": "desempenho ruim",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 696,
+     "y": 100,
+     "w": 298,
+     "t": "gravidade",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 300,
+     "w": 524,
+     "t": "bioimpedância da academia: não diagnostica",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Consenso europeu revisado, 2019",
+   "titulo": "A suspeita começa pela força, não pela massa",
+   "fonte": "Age Ageing 2019"
+  },
+  {
+   "id": "medir",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro instrumentos com pontos de corte. Questionário de cinco itens: rastreio. Dinamômetro: preensão abaixo de 27 kg em homens e 16 kg em mulheres. Cadeira com cronômetro: cinco levantadas em mais de 15 segundos. Marcha a 0,8 metro por segundo ou menos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"440\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(150.0 30.0) scale(4.1667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"420\" y=\"0\" width=\"400\" height=\"440\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(570.0 30.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"840\" y=\"0\" width=\"400\" height=\"440\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(990.0 30.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"1260\" y=\"0\" width=\"400\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1410.0 30.0) scale(4.1667)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 160,
+     "w": 360,
+     "t": "Rastrear",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 230,
+     "w": 360,
+     "t": "5 itens",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 320,
+     "w": 360,
+     "t": "questionário",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 160,
+     "w": 360,
+     "t": "Força",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 230,
+     "w": 360,
+     "t": "< 27 kg · < 16 kg",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 320,
+     "w": 360,
+     "t": "preensão, homens · mulheres",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 160,
+     "w": 360,
+     "t": "Força, sem dinamômetro",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 230,
+     "w": 360,
+     "t": "> 15 s",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 320,
+     "w": 360,
+     "t": "5 levantadas da cadeira",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 160,
+     "w": 360,
+     "t": "Gravidade",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 230,
+     "w": 360,
+     "t": "≤ 0,8 m/s",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 320,
+     "w": 360,
+     "t": "velocidade de marcha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Como medir",
+   "titulo": "Um dinamômetro e um cronômetro bastam para começar",
+   "fonte": "Age Ageing 2019"
+  },
+  {
+   "id": "tres",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Estudo de 2006 com 1.880 pessoas na casa dos setenta, três anos. Perda anual de massa magra da perna, cerca de 1%; perda anual de força da perna, cerca de 3%. Três vezes. Ganhar massa não impediu a perda de força\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"80\" y=\"290\" width=\"220\" height=\"90\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"440\" y=\"110\" width=\"220\" height=\"270\" rx=\"10\" fill=\"#A8322A\"/><line x1=\"40\" y1=\"380\" x2=\"760\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"820\" y=\"290\" width=\"844\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 234,
+     "w": 300,
+     "t": "≈ 1% ao ano",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 390,
+     "w": 300,
+     "t": "massa magra da perna",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 54,
+     "w": 300,
+     "t": "≈ 3% ao ano",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 390,
+     "w": 300,
+     "t": "força da perna",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 0,
+     "w": 300,
+     "t": "3×",
+     "tam": 120,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 820,
+     "y": 160,
+     "w": 844,
+     "t": "cerca de 3% de força contra 1% de massa por ano",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 844,
+     "y": 310,
+     "w": 796,
+     "t": "Quem ganhou massa no período não manteve a força por isso. A potência cai mais depressa ainda.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Estudo de 2006, 1.880 pessoas na casa dos setenta, três anos",
+   "titulo": "A força cai três vezes mais rápido que a massa",
+   "fonte": "J Gerontol A Biol Sci Med Sci 2006"
+  },
+  {
+   "id": "tendencia",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas réguas. Em cima, os pontos de corte feitos para o idoso frágil, com o corredor muito acima. Embaixo, a curva do corredor em dois anos: 46 caindo para 40 kg, menos 13%, contra cerca de 6% esperado. No ativo, o valor está na tendência\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"1100\" height=\"24\" rx=\"12\" fill=\"#D9D4C8\"/><rect x=\"0\" y=\"40\" width=\"486\" height=\"24\" rx=\"12\" fill=\"#F3E1DE\"/><line x1=\"486\" y1=\"20\" x2=\"486\" y2=\"84\" stroke=\"#A8322A\" stroke-width=\"5\"/><circle cx=\"720\" cy=\"52\" r=\"16\" fill=\"#B07A1C\"/><circle cx=\"828\" cy=\"52\" r=\"16\" fill=\"#3A6EA5\"/><path d=\"M 140 230 L 440 270 L 740 320\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\"/><path d=\"M 140 230 L 740 258\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\" fill=\"none\"/><circle cx=\"140\" cy=\"230\" r=\"12\" fill=\"#A8322A\"/><circle cx=\"440\" cy=\"270\" r=\"12\" fill=\"#A8322A\"/><circle cx=\"740\" cy=\"320\" r=\"12\" fill=\"#A8322A\"/><line x1=\"80\" y1=\"380\" x2=\"800\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1140\" y=\"150\" width=\"524\" height=\"290\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 96,
+     "w": 700,
+     "t": "corte para o idoso frágil: 27 kg",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 96,
+     "w": 500,
+     "t": "o corredor: 40 e 46 kg, muito acima",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 186,
+     "w": 160,
+     "t": "46 kg",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 330,
+     "w": 160,
+     "t": "40 kg",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 236,
+     "w": 260,
+     "t": "esperado: ≈ −6%",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 392,
+     "w": 720,
+     "t": "dois anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 170,
+     "w": 476,
+     "t": "−13%",
+     "tam": 56,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 260,
+     "w": 476,
+     "t": "No ativo, o valor está na tendência: medir com data a cada 6 a 12 meses e olhar a inclinação.",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "No atleta que envelhece",
+   "titulo": "No ativo, a queda importa mais que o ponto de corte"
+  },
+  {
+   "id": "resistencia",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Curvas de síntese de proteína muscular em resposta à dose: a do jovem e a do mais velho, deslocada para a direita, que ainda sobe com doses maiores. Inatividade empurra mais para a direita; treino de força puxa de volta\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"60\" y1=\"400\" x2=\"1000\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 60 380 C 200 200 300 100 420 90 L 1000 86\" stroke=\"#008A7E\" stroke-width=\"7\" fill=\"none\"/><path d=\"M 60 390 C 360 340 520 170 700 120 L 1000 110\" stroke=\"#B07A1C\" stroke-width=\"7\" fill=\"none\"/><rect x=\"1080\" y=\"0\" width=\"584\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1110\" y1=\"60\" x2=\"1200\" y2=\"60\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"1080\" y=\"240\" width=\"584\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"1200\" y1=\"300\" x2=\"1110\" y2=\"300\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m1)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 250,
+     "y": 44,
+     "w": 200,
+     "t": "jovem",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 150,
+     "w": 240,
+     "t": "mais velho",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 408,
+     "w": 600,
+     "t": "dose de proteína por refeição",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 10,
+     "w": 200,
+     "t": "resposta",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 360,
+     "w": 200,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1216,
+     "y": 24,
+     "w": 430,
+     "t": "inatividade empurra a curva mais para a direita",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1216,
+     "y": 264,
+     "w": 430,
+     "t": "treino de força puxa de volta: a comida volta a funcionar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Resistência anabólica",
+   "titulo": "A curva se desloca com a idade, mas não desaparece"
+  },
+  {
+   "id": "noventa",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Ensaio de 1990: dez moradores de instituição de longa permanência, média de 90 anos, até 96, oito semanas de treino de força com carga alta. Ganhos: força +174%, área muscular da coxa +9%, velocidade de marcha em linha +48%\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"480\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"600\" y=\"102\" width=\"220\" height=\"278\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"960\" y=\"366\" width=\"220\" height=\"14\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"1320\" y=\"303\" width=\"220\" height=\"77\" rx=\"10\" fill=\"#008A7E\"/><line x1=\"560\" y1=\"380\" x2=\"1664\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 24,
+     "w": 432,
+     "t": "Ensaio de 1990",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 96,
+     "w": 432,
+     "t": "10 moradores de instituição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 150,
+     "w": 432,
+     "t": "média de 90 anos, até 96",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 204,
+     "w": 432,
+     "t": "8 semanas de força com carga alta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 330,
+     "w": 432,
+     "t": "pequeno, sem grupo controle: vale a direção",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 46,
+     "w": 300,
+     "t": "+174%",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 390,
+     "w": 300,
+     "t": "força",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 920,
+     "y": 310,
+     "w": 300,
+     "t": "+9%",
+     "tam": 36,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 920,
+     "y": 390,
+     "w": 300,
+     "t": "área muscular da coxa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 247,
+     "w": 300,
+     "t": "+48%",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 390,
+     "w": 300,
+     "t": "marcha em linha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O segundo número",
+   "titulo": "Aos noventa anos, o músculo ainda responde à carga",
+   "fonte": "JAMA 1990"
+  },
+  {
+   "id": "corrida",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"O corredor. O que a corrida mantém: coração, capacidade aeróbia, peso. O que não mantém: força, potência, massa da perna, levantar do chão. Embaixo: exercício é a atividade; treino é a atividade com sobrecarga que progride\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"851\" cy=\"51\" r=\"26\" fill=\"#3A6EA5\"/><path d=\"M 843 82 L 817 163 M 817 163 L 861 215 L 843 275 M 817 163 L 778 207 L 736 202 M 835 103 L 882 134 L 908 108 M 835 103 L 794 129 L 778 166\" stroke=\"#3A6EA5\" stroke-width=\"23\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"0\" y=\"0\" width=\"600\" height=\"280\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1064\" y=\"0\" width=\"600\" height=\"280\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"310\" width=\"812\" height=\"130\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"832\" y=\"310\" width=\"812\" height=\"130\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 552,
+     "t": "A corrida mantém",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 90,
+     "w": 552,
+     "t": "· coração",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 146,
+     "w": 552,
+     "t": "· capacidade aeróbia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 202,
+     "w": 552,
+     "t": "· peso e humor",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1088,
+     "y": 20,
+     "w": 552,
+     "t": "A corrida não mantém",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1088,
+     "y": 90,
+     "w": 552,
+     "t": "· força",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1088,
+     "y": 146,
+     "w": 552,
+     "t": "· potência",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1088,
+     "y": 202,
+     "w": 552,
+     "t": "· levantar do chão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 330,
+     "w": 764,
+     "t": "exercício",
+     "tam": 32,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 384,
+     "w": 764,
+     "t": "a atividade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 856,
+     "y": 330,
+     "w": 764,
+     "t": "treino",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 856,
+     "y": 384,
+     "w": 764,
+     "t": "a atividade com sobrecarga que progride",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "De volta ao corredor",
+   "titulo": "Correr não substitui força: falta o que progride"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Sarcopenia e exercício como contramedida",
+   "titulo": "Força medida com data e carga que progride",
+   "regras": [
+    "A força cai cerca de três vezes mais rápido que a massa",
+    "No atleta ativo, vale a tendência da força, não o ponto de corte do idoso frágil",
+    "O músculo responde a carga em qualquer idade; trava sem progressão"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina e fisioterapia",
+     "x": "Medem preensão, sentar e levantar e marcha, com data, e olham a inclinação."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Acrescenta força e potência ao que o esporte não entrega, com progressão registrada."
+    },
+    {
+     "ic": "t:salad",
+     "t": "Nutrição",
+     "x": "Ajusta a proteína por refeição ao músculo que envelhece."
+    }
+   ]
+  }
+ ],
+ "modulo": "Atleta Adolescente e Atleta Idoso",
+ "tema": "musgo"
+}
