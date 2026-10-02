@@ -142,12 +142,11 @@ rs += [rot(0, 70, "carga (kg)", w=180, tam=24, cor=TINTA, peso=700), rot(0, 170,
 for i, (cg, rp) in enumerate(plano):
     x = 200 + i * 170
     sobe = i == 3
-    rs.append(rot(x, 10, f"sem {i + 1}", w=150, tam=22, cor=MUDO, peso=600, alinha="center"))
     p.append(caixa(x, 50, 150, 70, OXID if sobe else GRADE, OXID_T if sobe else CARTAO, esp=3, rx=12))
     p.append(caixa(x, 150, 150, 70, GLIC, GLIC_T if rp == 12 else CARTAO, esp=3, rx=12))
     rs.append(rot(x, 172, str(rp), w=150, tam=26, cor=TINTA, peso=700, alinha="center"))
     rs.append(rot(x, 72, f"{cg} ↑" if sobe else str(cg), w=150, tam=26, cor=OXID if sobe else TINTA, peso=700, alinha="center"))
-rs.append(rot(200, 236, "números ilustrativos", w=400, tam=20, cor=MUDO))
+rs += [rot(200, 236, "números ilustrativos", w=400, tam=20, cor=MUDO), rot(200, 6, "semana 1 → semana 6", w=1000, tam=22, cor=MUDO, peso=600)]
 p.append(caixa(0, 290, 1220, 150, GLIC, GLIC_T, esp=3, rx=16))
 rs.append(rot(24, 310, "Chegou ao topo da faixa com 2 a 3 sobrando: a carga sobe e as repetições voltam ao começo. Tudo anotado.", w=1172, tam=26, cor=TINTA, peso=700, lh=1.3))
 p.append(caixa(1280, 50, 384, 390, AZUL, AZUL_T, esp=3, rx=16))
