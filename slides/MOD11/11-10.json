@@ -1,0 +1,886 @@
+{
+ "arquivo": "aulas/MOD11/11-10-transicao-da-menopausa.md",
+ "titulo": "Transição da menopausa",
+ "subtitulo": "Mais carga, melhor atribuição, menos mercado",
+ "nota_capa": "Entra por uma jogadora de beach tennis com osteopenia. Fecha o módulo.",
+ "secoes": {
+  "numero": [
+   "O número.",
+   "capa"
+  ],
+  "estagios": [
+   "O que muda.",
+   "estagios"
+  ],
+  "pilares": [
+   "O treino e o hormônio.",
+   "pilares"
+  ],
+  "mercado": [
+   "O mercado e o fecho do módulo.",
+   "mercado"
+  ]
+ },
+ "slides": [
+  {
+   "id": "numero",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Duas barras sobre uma linha de zero. Treino de alta intensidade supervisionado: mais 2,9 por cento na densidade da coluna lombar. Programa leve em casa: menos 1,2 por cento. Receita: duas sessões por semana, trinta minutos, cinco séries de cinco repetições acima de 85 por cento da carga máxima, mais impacto\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><line x1=\"40\" y1=\"230\" x2=\"900\" y2=\"230\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"140\" y=\"85\" width=\"260\" height=\"145\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"540\" y=\"230\" width=\"260\" height=\"60\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"980\" y=\"0\" width=\"684\" height=\"450\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 140,
+     "y": 15,
+     "w": 260,
+     "t": "+2,9%",
+     "tam": 56,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 540,
+     "y": 300,
+     "w": 260,
+     "t": "−1,2%",
+     "tam": 56,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 260,
+     "w": 340,
+     "t": "carga alta, supervisionada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 500,
+     "y": 160,
+     "w": 340,
+     "t": "programa leve em casa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 410,
+     "w": 860,
+     "t": "densidade da coluna lombar em oito meses",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 22,
+     "w": 636,
+     "t": "A receita",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1004,
+     "y": 96,
+     "w": 636,
+     "t": "· 2 sessões por semana",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 162,
+     "w": 636,
+     "t": "· 30 minutos cada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 228,
+     "w": 636,
+     "t": "· 5 séries de 5, acima de 85% da carga máxima",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 294,
+     "w": 636,
+     "t": "· agachamento, terra, desenvolvimento",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 360,
+     "w": 636,
+     "t": "· mais impacto",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma jogadora de beach tennis, na casa dos cinquenta",
+   "titulo": "O osso baixo respondeu à carga pesada, não à leve",
+   "fonte": "Ensaio randomizado, J Bone Miner Res 2018"
+  },
+  {
+   "id": "quem",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"O cartão do ensaio: 101 mulheres acima de 58 anos com massa óssea baixa; adesão de 92 por cento; nenhuma fratura vertebral nova ou piorada; um evento adverso. Ressalvas: supervisionado; progressão conduzida; fratura vertebral prévia muda a indicação\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"490\" height=\"190\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"520\" y=\"0\" width=\"490\" height=\"190\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"210\" width=\"490\" height=\"190\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"520\" y=\"210\" width=\"490\" height=\"190\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1080\" y=\"0\" width=\"584\" height=\"400\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 16,
+     "w": 450,
+     "t": "101",
+     "tam": 64,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 110,
+     "w": 450,
+     "t": "mulheres, acima de 58 anos, osso baixo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 540,
+     "y": 16,
+     "w": 450,
+     "t": "92%",
+     "tam": 64,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 540,
+     "y": 110,
+     "w": 450,
+     "t": "de adesão no grupo da carga alta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 226,
+     "w": 450,
+     "t": "0",
+     "tam": 64,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 320,
+     "w": 450,
+     "t": "fratura vertebral nova ou piorada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 540,
+     "y": 226,
+     "w": 450,
+     "t": "1",
+     "tam": 64,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 540,
+     "y": 320,
+     "w": 450,
+     "t": "evento adverso, leve",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1104,
+     "y": 20,
+     "w": 540,
+     "t": "Vai junto com o número",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1104,
+     "y": 100,
+     "w": 540,
+     "t": "· supervisionado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 190,
+     "w": 540,
+     "t": "· técnica ensinada, progressão conduzida",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 280,
+     "w": 540,
+     "t": "· fratura vertebral prévia muda a indicação",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Em quem foi medido",
+   "titulo": "Seguro e bem aceito, desde que supervisionado"
+  },
+  {
+   "id": "estagios",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Linha dos estágios: ciclos regulares; transição inicial, ciclos variando sete dias ou mais; transição tardia, intervalos de sessenta dias ou mais; menopausa, uma data, depois de doze meses sem menstruar; pós-menopausa. Avisos: FSH oscila; antes dos 45 precoce, antes dos 40 insuficiência ovariana; enquanto há ciclo, há chance de gravidez\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"4\" y=\"20\" width=\"352\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"364\" y=\"20\" width=\"392\" height=\"140\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"764\" y=\"20\" width=\"452\" height=\"140\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1224\" y=\"20\" width=\"436\" height=\"140\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"1220\" y1=\"0\" x2=\"1220\" y2=\"200\" stroke=\"#A8322A\" stroke-width=\"6\"/><circle cx=\"1220\" cy=\"200\" r=\"14\" fill=\"#A8322A\"/><rect x=\"0\" y=\"320\" width=\"524\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"560\" y=\"320\" width=\"524\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1120\" y=\"320\" width=\"524\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 50,
+     "w": 328,
+     "t": "ciclos regulares",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 376,
+     "y": 50,
+     "w": 368,
+     "t": "transição inicial: variação de 7 dias ou mais",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 776,
+     "y": 50,
+     "w": 428,
+     "t": "transição tardia: intervalos de 60 dias ou mais",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1236,
+     "y": 50,
+     "w": 412,
+     "t": "pós-menopausa",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 220,
+     "w": 480,
+     "t": "menopausa: uma data, reconhecida após 12 meses sem menstruar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 350,
+     "w": 484,
+     "t": "FSH oscila na transição: o diagnóstico é pela história",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 580,
+     "y": 350,
+     "w": 484,
+     "t": "antes dos 45: precoce · antes dos 40: insuficiência ovariana",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1140,
+     "y": 350,
+     "w": 484,
+     "t": "enquanto há ciclo, há chance de gravidez",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Os nomes",
+   "titulo": "Menopausa é uma data; a transição é o que vem antes",
+   "fonte": "Estadiamento revisto, Fertil Steril 2012"
+  },
+  {
+   "id": "pesos",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Sete domínios com pesos. Grandes: fogachos e sono; osso. Médios: massa magra e força; síndrome geniturinária; humor e memória; gordura abdominal. Pequeno, com interrogação: tendão\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"450\" y=\"16\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"550\" y=\"16\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"650\" y=\"16\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"450\" y=\"132\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"550\" y=\"132\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"650\" y=\"132\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"450\" y=\"248\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"550\" y=\"248\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"450\" y=\"364\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"550\" y=\"364\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"1290\" y=\"16\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"1390\" y=\"16\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"1290\" y=\"132\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"1390\" y=\"132\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"1290\" y=\"248\" width=\"86\" height=\"64\" rx=\"10\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 26,
+     "w": 420,
+     "t": "fogachos e sono",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 142,
+     "w": 420,
+     "t": "osso",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 258,
+     "w": 420,
+     "t": "massa magra e força",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 374,
+     "w": 420,
+     "t": "síndrome geniturinária",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 26,
+     "w": 420,
+     "t": "humor e memória",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 142,
+     "w": 420,
+     "t": "gordura abdominal",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 258,
+     "w": 420,
+     "t": "tendão: dados limitados",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 258,
+     "w": 60,
+     "t": "?",
+     "tam": 36,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que muda, e com que peso",
+   "titulo": "O sono e o osso pesam mais; o tendão ainda é pergunta"
+  },
+  {
+   "id": "atribuicao",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma queixa, a força caiu e o ritmo piorou, decomposta numa barra empilhada: desuso, sono fragmentado, falta de estrogênio, idade. Esquema; as fatias variam de mulher para mulher. A pergunta: existe outra explicação mais tratável? Trate essa primeiro\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"80\" width=\"394\" height=\"120\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"400\" y=\"80\" width=\"244\" height=\"120\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"650\" y=\"80\" width=\"214\" height=\"120\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"870\" y=\"80\" width=\"124\" height=\"120\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"1080\" y=\"40\" width=\"584\" height=\"300\" rx=\"18\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1000,
+     "t": "“a força caiu e o ritmo piorou”",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 8,
+     "y": 116,
+     "w": 378,
+     "t": "desuso",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 408,
+     "y": 116,
+     "w": 228,
+     "t": "sono fragmentado",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 658,
+     "y": 116,
+     "w": 198,
+     "t": "falta de estrogênio",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 878,
+     "y": 116,
+     "w": 108,
+     "t": "idade",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 0,
+     "y": 220,
+     "w": 1000,
+     "t": "esquema: as fatias variam de mulher para mulher",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1110,
+     "y": 80,
+     "w": 524,
+     "t": "Existe outra explicação, provável e mais tratável? Trate essa primeiro.",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 300,
+     "w": 1000,
+     "t": "várias costumam coexistir: todas entram no plano, a ordem é que muda",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "A ferramenta clínica",
+   "titulo": "Antes de dizer “é a menopausa”, divida a queixa"
+  },
+  {
+   "id": "pilares",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro pilares sob uma barra: força pesada supervisionada, impacto progressivo, proteína distribuída, aeróbico. Ao lado, riscado: exercício para tratar fogacho, evidência insuficiente\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"20\" width=\"1100\" height=\"50\" rx=\"10\" fill=\"#12202E\"/><rect x=\"30\" y=\"70\" width=\"230\" height=\"280\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(105.0 110.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"300\" y=\"70\" width=\"230\" height=\"280\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(375.0 110.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"570\" y=\"70\" width=\"230\" height=\"280\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(645.0 110.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"840\" y=\"70\" width=\"230\" height=\"280\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(915.0 110.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"0\" y=\"350\" width=\"1100\" height=\"30\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"1160\" y=\"60\" width=\"504\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1190\" y1=\"250\" x2=\"1634\" y2=\"90\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 220,
+     "w": 210,
+     "t": "força pesada, supervisionada",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 310,
+     "y": 220,
+     "w": 210,
+     "t": "impacto progressivo",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 580,
+     "y": 220,
+     "w": 210,
+     "t": "proteína distribuída",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 850,
+     "y": 220,
+     "w": 210,
+     "t": "aeróbico",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1180,
+     "y": 100,
+     "w": 464,
+     "t": "exercício para tratar fogacho",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1160,
+     "y": 300,
+     "w": 504,
+     "t": "evidência insuficiente (revisão de 2014)",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que o treino faz",
+   "titulo": "Pelo osso, pela força, pelo sono e pelo coração; não pelo fogacho"
+  },
+  {
+   "id": "janela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Régua de idade com a janela antes dos 60 anos ou até 10 anos da menopausa: benefício maior que risco para fogachos incômodos e prevenção de perda óssea. Cartão: estrogênio vaginal em dose baixa para síndrome geniturinária. Selo: decisão médica, compartilhada\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"40\" y1=\"200\" x2=\"1080\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"40\" y1=\"190\" x2=\"40\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"337\" y1=\"190\" x2=\"337\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"634\" y1=\"190\" x2=\"634\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"931\" y1=\"190\" x2=\"931\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"278\" y=\"60\" width=\"357\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"634\" y=\"60\" width=\"446\" height=\"120\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"1140\" y=\"0\" width=\"524\" height=\"200\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1140\" y=\"240\" width=\"524\" height=\"120\" rx=\"60\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 220,
+     "w": 80,
+     "t": "40",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 297,
+     "y": 220,
+     "w": 80,
+     "t": "50",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 594,
+     "y": 220,
+     "w": 80,
+     "t": "60",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 891,
+     "y": 220,
+     "w": 80,
+     "t": "70",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 288,
+     "y": 78,
+     "w": 337,
+     "t": "benefício maior que risco",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 644,
+     "y": 92,
+     "w": 426,
+     "t": "menos favorável",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 270,
+     "w": 1040,
+     "t": "antes dos 60 anos ou até 10 anos da menopausa · fogachos incômodos e prevenção de perda óssea",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1160,
+     "y": 40,
+     "w": 484,
+     "t": "estrogênio vaginal em dose baixa: síndrome geniturinária",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1160,
+     "y": 280,
+     "w": 484,
+     "t": "decisão médica, compartilhada",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Posicionamento de 2022",
+   "titulo": "Terapia hormonal: eficaz, com janela definida",
+   "fonte": "Sociedade norte-americana de menopausa, Menopause 2022"
+  },
+  {
+   "id": "mercado",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Uma mesa com potes, uma ampola e um implante, com etiquetas riscadas: hormônio para desempenho; testosterona para força ou composição corporal; implante manipulado em dose acima da fisiológica; bioidêntico como argumento. Aviso: atleta federada, verificar regras antidoping\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"40\" y1=\"110\" x2=\"780\" y2=\"20\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"840\" y=\"0\" width=\"820\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"880\" y1=\"110\" x2=\"1620\" y2=\"20\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"0\" y=\"160\" width=\"820\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"40\" y1=\"270\" x2=\"780\" y2=\"180\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"840\" y=\"160\" width=\"820\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"880\" y1=\"270\" x2=\"1620\" y2=\"180\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"0\" y=\"340\" width=\"1664\" height=\"100\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(30.0 364.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 44,
+     "w": 760,
+     "t": "hormônio para desempenho",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 44,
+     "w": 760,
+     "t": "testosterona para força ou composição corporal",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 204,
+     "w": 760,
+     "t": "implante manipulado acima da dose fisiológica",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 204,
+     "w": 760,
+     "t": "“bioidêntico” como argumento",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 370,
+     "w": 1540,
+     "t": "Atleta federada: terapia hormonal e testosterona têm implicações antidoping",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que não é indicação",
+   "titulo": "O que a mesa vende não trata o que ela tem"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fecho do módulo · três níveis",
+   "titulo": "Do déficit de evidência à mulher que treina depois dos cinquenta",
+   "regras": [
+    "Decisão: a medicina e a ginecologia investigam e decidem sobre hormônio; a nutrição corrige a energia; preparação e fisioterapia conduzem carga, prevenção e retorno",
+    "Contribuição: o ciclo registrado, o rendimento que parou, o prato contado, a lesão que se repete, o encaminhamento em seis linhas",
+    "Reconhecimento: o ciclo que espaçou, a fratura que volta, o platô com treino mantido, a perda urinária, a gestante parada, a carga leve para osso fraco"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor-female",
+     "t": "Medicina e ginecologia",
+     "x": "Funil de exclusão, densitometria, contracepção, terapia hormonal, liberação."
+    },
+    {
+     "ic": "t:salad",
+     "t": "Nutrição, preparação e fisioterapia",
+     "x": "Energia, programa de prevenção, gestação, assoalho pélvico, carga."
+    },
+    {
+     "ic": "t:users",
+     "t": "Todos",
+     "x": "Próximo módulo: o atleta adolescente e o atleta idoso, a começar pelo crescimento."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
