@@ -25,6 +25,7 @@ TEMAS = {
     "petroleo": {"fundo": "#0F3432", "card": "#184442", "linha": "#2A5A57", "eyebrow": "#E6C08A", "sub": "#F2A58F", "apoio": "#C9DDDA"},
     "ameixa":   {"fundo": "#2B1E38", "card": "#3A2B48", "linha": "#4E3E5E", "eyebrow": "#E6C08A", "sub": "#7FC4BE", "apoio": "#D9CFE3"},
     "anil":     {"fundo": "#1C2340", "card": "#283056", "linha": "#3A426C", "eyebrow": "#E6C08A", "sub": "#8FD3C8", "apoio": "#D2D6EA"},
+    "terra":    {"fundo": "#33231B", "card": "#45302A", "linha": "#5C4336", "eyebrow": "#E6C08A", "sub": "#8FD3C8", "apoio": "#E8D9CC"},
 }
 SANS = "'IBM Plex Sans', Arial, sans-serif"
 

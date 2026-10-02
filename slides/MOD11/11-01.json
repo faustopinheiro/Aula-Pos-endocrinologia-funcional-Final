@@ -1,0 +1,1080 @@
+{
+ "arquivo": "aulas/MOD11/11-01-fisiologia-da-mulher-e-o-deficit-historico-de-evidencia.md",
+ "titulo": "Fisiologia da mulher e o déficit histórico de evidência",
+ "subtitulo": "O que difere, o que não difere, e como saber",
+ "nota_capa": "Entra por um time feminino que herdou o relatório do masculino.",
+ "secoes": {
+  "regua": [
+   "O erro que parece padronização.",
+   "capa"
+  ],
+  "puberdade": [
+   "O que de fato difere.",
+   "puberdade"
+  ],
+  "deficit": [
+   "De onde vem a lacuna.",
+   "deficit"
+  ],
+  "baldes": [
+   "Como decidir com ela.",
+   "baldes"
+  ]
+ },
+ "slides": [
+  {
+   "id": "regua",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Duas réguas de velocidade de 0 a 30 km/h. Em cima, o corte de alta velocidade do masculino em 19,8. Embaixo, a distribuição de velocidades de uma jogadora: quase toda a corrida intensa fica abaixo de 19,8 e some do relatório\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><line x1=\"80\" y1=\"150\" x2=\"1580\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"80\" y1=\"150\" x2=\"80\" y2=\"164\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"330\" y1=\"150\" x2=\"330\" y2=\"164\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"580\" y1=\"150\" x2=\"580\" y2=\"164\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"830\" y1=\"150\" x2=\"830\" y2=\"164\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1080\" y1=\"150\" x2=\"1080\" y2=\"164\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1330\" y1=\"150\" x2=\"1330\" y2=\"164\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1580\" y1=\"150\" x2=\"1580\" y2=\"164\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"80\" y1=\"420\" x2=\"1580\" y2=\"420\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"80\" y1=\"420\" x2=\"80\" y2=\"434\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"330\" y1=\"420\" x2=\"330\" y2=\"434\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"580\" y1=\"420\" x2=\"580\" y2=\"434\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"830\" y1=\"420\" x2=\"830\" y2=\"434\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1080\" y1=\"420\" x2=\"1080\" y2=\"434\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1330\" y1=\"420\" x2=\"1330\" y2=\"434\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1580\" y1=\"420\" x2=\"1580\" y2=\"434\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"1070\" y=\"90\" width=\"510\" height=\"60\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><polygon points=\"80,420 80,415 92,414 105,412 118,411 130,409 142,406 155,404 168,400 180,397 192,393 205,388 218,383 230,377 242,371 255,364 268,356 280,348 292,339 305,330 318,320 330,310 342,299 355,288 368,277 380,266 392,256 405,245 418,235 430,225 442,217 455,209 468,202 480,196 493,191 505,188 518,186 530,185 542,186 555,188 568,191 580,196 592,201 605,208 618,215 630,224 642,233 655,242 668,251 680,260 692,269 705,277 718,284 730,291 742,297 755,302 768,306 780,309 792,312 805,314 818,315 830,317 842,318 855,321 868,323 880,327 892,331 905,336 918,342 930,348 942,355 955,362 968,369 980,376 992,383 1005,389 1018,395 1030,399 1042,404 1055,407 1068,410 1080,413 1092,415 1105,416 1118,417 1130,418 1142,419 1155,419 1168,419 1180,420 1192,420 1205,420 1218,420 1230,420 1242,420 1255,420 1268,420 1280,420 1292,420 1305,420 1318,420 1330,420 1342,420 1355,420 1368,420 1380,420 1392,420 1405,420 1418,420 1430,420 1442,420 1455,420 1468,420 1480,420 1492,420 1505,420 1518,420 1530,420 1542,420 1555,420 1568,420 1580,420 1580,420\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"1070\" y1=\"60\" x2=\"1070\" y2=\"430\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 440,
+     "w": 80,
+     "t": "0",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 440,
+     "w": 80,
+     "t": "5",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 440,
+     "w": 80,
+     "t": "10",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 440,
+     "w": 80,
+     "t": "15",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 440,
+     "w": 80,
+     "t": "20",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 440,
+     "w": 80,
+     "t": "25",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1540,
+     "y": 440,
+     "w": 80,
+     "t": "30",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1086,
+     "y": 104,
+     "w": 486,
+     "t": "alta velocidade, no relatório do masculino",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 20,
+     "w": 200,
+     "t": "19,8 km/h",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 300,
+     "w": 420,
+     "t": "a corrida intensa dela acontece aqui",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1130,
+     "y": 330,
+     "w": 440,
+     "t": "e quase nada passa da linha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 474,
+     "w": 1400,
+     "t": "km/h · distribuição de velocidades em esquema, sem valores medidos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um time feminino que herdou tudo do masculino",
+   "titulo": "O relatório dizia que elas não corriam. A régua é que não as via"
+  },
+  {
+   "id": "limiares",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Régua de 0 a 30 km/h com os cortes do masculino em cima, 19,8 e 25,2, e os três cortes propostos em 2015 para o futebol feminino de elite embaixo: 12,5, 19,0 e 22,5. Ao lado, o limiar relativo: a fração da velocidade máxima de cada jogadora\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"60\" y1=\"200\" x2=\"1100\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M746 196 l -14 -40 l 28 0 Z\" fill=\"#6B7A87\"/><path d=\"M934 196 l -14 -40 l 28 0 Z\" fill=\"#6B7A87\"/><path d=\"M493 254 l -14 40 l 28 0 Z\" fill=\"#008A7E\"/><path d=\"M719 254 l -14 40 l 28 0 Z\" fill=\"#008A7E\"/><path d=\"M840 254 l -14 40 l 28 0 Z\" fill=\"#008A7E\"/><rect x=\"1160\" y=\"20\" width=\"504\" height=\"430\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1190.0 50.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 214,
+     "w": 60,
+     "t": "0",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 203,
+     "y": 214,
+     "w": 60,
+     "t": "5",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 377,
+     "y": 214,
+     "w": 60,
+     "t": "10",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 550,
+     "y": 214,
+     "w": 60,
+     "t": "15",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 723,
+     "y": 214,
+     "w": 60,
+     "t": "20",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 897,
+     "y": 214,
+     "w": 60,
+     "t": "25",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 214,
+     "w": 60,
+     "t": "30",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 696,
+     "y": 110,
+     "w": 100,
+     "t": "19,8",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 110,
+     "w": 100,
+     "t": "25,2",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 443,
+     "y": 302,
+     "w": 100,
+     "t": "12,5",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 669,
+     "y": 302,
+     "w": 100,
+     "t": "19,0",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 790,
+     "y": 302,
+     "w": 100,
+     "t": "22,5",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 40,
+     "w": 600,
+     "t": "cortes do masculino",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 360,
+     "w": 900,
+     "t": "cortes propostos para o futebol feminino de elite",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 400,
+     "w": 900,
+     "t": "alta · muito alta · sprint",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 62,
+     "w": 370,
+     "t": "Melhor ainda",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1190,
+     "y": 150,
+     "w": 450,
+     "t": "o limiar relativo: uma fração da velocidade máxima de cada jogadora",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1190,
+     "y": 310,
+     "w": 450,
+     "t": "resolve o sexo e a diferença dentro do próprio elenco",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Medir as próprias jogadoras",
+   "titulo": "Mesmo jogo, mesmo colete: muda a régua, vira a conclusão",
+   "fonte": "Futebol feminino de elite, Int J Sports Physiol Perform 2015 · 19,8 e 25,2 são cortes de uso comum no masculino"
+  },
+  {
+   "id": "pendulo",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Um pêndulo entre dois extremos. À esquerda, o descaso: a mulher tratada como homem menor e a amenorreia que passa batida. À direita, o exagero: o mês dividido em fases coloridas, cada uma com um treino vendido. No meio, parado, o ponto defensável\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><line x1=\"832\" y1=\"20\" x2=\"832\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M 832 20 L 470 250\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M 832 20 L 1194 250\" stroke=\"#C9CFD4\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M 360 330 Q 832 470 1304 330\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"4\"/><circle cx=\"832\" cy=\"330\" r=\"46\" fill=\"#008A7E\"/><rect x=\"0\" y=\"40\" width=\"520\" height=\"400\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(30.0 70.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g><rect x=\"1144\" y=\"40\" width=\"520\" height=\"400\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1180\" y=\"76\" width=\"100\" height=\"56\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.75\"/><rect x=\"1292\" y=\"76\" width=\"100\" height=\"56\" rx=\"10\" fill=\"#B07A1C\" opacity=\"0.75\"/><rect x=\"1404\" y=\"76\" width=\"100\" height=\"56\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.75\"/><rect x=\"1516\" y=\"76\" width=\"100\" height=\"56\" rx=\"10\" fill=\"#3A6EA5\" opacity=\"0.75\"/></svg>",
+   "rotulos": [
+    {
+     "x": 110,
+     "y": 78,
+     "w": 380,
+     "t": "Descaso",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 170,
+     "w": 460,
+     "t": "a mulher tratada como homem menor",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 30,
+     "y": 290,
+     "w": 460,
+     "t": "e a amenorreia que ninguém pergunta",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1174,
+     "y": 160,
+     "w": 460,
+     "t": "Exagero",
+     "tam": 34,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1174,
+     "y": 220,
+     "w": 460,
+     "t": "cada fase do mês com um treino vendido",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1174,
+     "y": 330,
+     "w": 460,
+     "t": "duas semanas sem treino forte, à toa",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 582,
+     "y": 412,
+     "w": 500,
+     "t": "uma variável clínica relevante, entre várias",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O erro de quem corrige o erro",
+   "titulo": "Os dois extremos decidem pela mulher sem medir a mulher"
+  },
+  {
+   "id": "puberdade",
+   "tipo": "diagrama",
+   "h": 520,
+   "svg": "<svg aria-label=\"À esquerda, duas curvas de desempenho dos 6 aos 25 anos, uma por sexo: juntas até perto dos 12 e separadas depois da puberdade, estabilizando numa diferença de 8% a 12% em corrida e natação. À direita, as faixas de testosterona circulante de mulheres e homens adultos, que não se encostam. Embaixo, o mesmo programa de força: resposta relativa semelhante\" width=\"1664\" height=\"520\" viewBox=\"0 0 1664 520\"><line x1=\"70\" y1=\"380\" x2=\"900\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"2\"/><polyline points=\"70,294 81,294 92,293 103,292 114,291 125,290 136,288 146,287 157,285 168,283 179,281 190,278 201,276 212,272 223,269 234,265 245,261 256,256 267,251 278,245 288,239 299,233 310,226 321,219 332,211 343,203 354,195 365,187 376,178 387,170 398,161 409,153 419,145 430,138 441,130 452,123 463,117 474,111 485,105 496,100 507,95 518,91 529,87 540,84 551,81 561,78 572,75 583,73 594,71 605,69 616,68 627,67 638,65 649,64 660,63 671,63 682,62 692,61 703,61 714,60 725,60 736,59 747,59 758,59 769,59 780,58 791,58 802,58 813,58 824,58 834,58 845,58 856,58 867,57 878,57 889,57 900,57\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><polyline points=\"70,294 81,294 92,293 103,292 114,291 125,290 136,288 146,287 157,285 168,283 179,281 190,279 201,276 212,273 223,269 234,266 245,261 256,257 267,252 278,247 288,241 299,235 310,228 321,222 332,215 343,208 354,201 365,194 376,187 387,180 398,173 409,166 419,160 430,154 441,149 452,143 463,139 474,134 485,130 496,126 507,122 518,119 529,116 540,113 551,111 561,108 572,106 583,105 594,103 605,102 616,100 627,99 638,98 649,97 660,96 671,96 682,95 692,95 703,94 714,94 725,93 736,93 747,93 758,93 769,92 780,92 791,92 802,92 813,92 824,92 834,92 845,92 856,91 867,91 878,91 889,91 900,91\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><line x1=\"332\" y1=\"40\" x2=\"332\" y2=\"380\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"20\" width=\"704\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"1000\" y=\"150\" width=\"35\" height=\"44\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"1159\" y=\"260\" width=\"448\" height=\"44\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"0\" y=\"430\" width=\"1664\" height=\"90\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 50,
+     "y": 390,
+     "w": 120,
+     "t": "6 anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 390,
+     "w": 120,
+     "t": "25 anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 242,
+     "y": 390,
+     "w": 180,
+     "t": "puberdade",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 638,
+     "y": 0,
+     "w": 200,
+     "t": "homens",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 638,
+     "y": 150,
+     "w": 200,
+     "t": "mulheres",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 463,
+     "y": 230,
+     "w": 360,
+     "t": "8% a 12% em corrida e natação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1049,
+     "y": 114,
+     "w": 200,
+     "t": "mulheres",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1159,
+     "y": 224,
+     "w": 200,
+     "t": "homens",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 40,
+     "w": 660,
+     "t": "Testosterona circulante, adultos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 330,
+     "w": 660,
+     "t": "faixas que não se encostam · nmol/L",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 452,
+     "w": 1600,
+     "t": "Mesmo programa de força: hipertrofia e força relativas semelhantes; nos braços, elas ganham mais",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que de fato difere",
+   "titulo": "Outro ponto de partida, a mesma resposta ao treino",
+   "fonte": "Endocr Rev 2018 · metanálise de treino de força, J Strength Cond Res 2020 · curvas em esquema"
+  },
+  {
+   "id": "quatro",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Quatro quadros. Fadiga: numa contração sustentada de mesma intensidade, a força da mulher cai mais devagar, mas depende da tarefa. Ferro: perda menstrual somada ao treino. Energia, ciclo e osso: o eixo em que o déficit aparece primeiro. Joelho e assoalho pélvico: o corpo que o esporte masculino não precisou olhar\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"401\" height=\"470\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"421\" y=\"0\" width=\"401\" height=\"470\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"842\" y=\"0\" width=\"401\" height=\"470\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1263\" y=\"0\" width=\"401\" height=\"470\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><polyline points=\"30,110 64,111 98,114 132,119 166,126 200,135 234,146 268,159 302,173 336,190 370,209\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"5\"/><polyline points=\"30,110 64,110 98,112 132,114 166,117 200,121 234,126 268,132 302,138 336,146 370,154\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/><path d=\"M 636 110 C 600 160, 600 200, 636 220 C 672 200, 672 160, 636 110 Z\" fill=\"#A8322A\"/><g transform=\"translate(520.0 130.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><g transform=\"translate(890.0 110.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"1000\" y=\"140\" width=\"150\" height=\"34\" rx=\"17\" fill=\"#B07A1C\" opacity=\"0.6\"/><g transform=\"translate(1350.0 100.0) scale(3.1250)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><circle cx=\"1410\" cy=\"200\" r=\"16\" fill=\"#A8322A\"/><circle cx=\"1428\" cy=\"168\" r=\"12\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 360,
+     "t": "Fadiga",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 300,
+     "w": 356,
+     "t": "em contração sustentada, ela costuma cansar mais devagar; depende da tarefa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 445,
+     "y": 20,
+     "w": 360,
+     "t": "Ferro",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 445,
+     "y": 300,
+     "w": 356,
+     "t": "perda menstrual somada ao treino: pergunte pelo volume do sangramento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 866,
+     "y": 20,
+     "w": 360,
+     "t": "Energia, ciclo e osso",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 866,
+     "y": 300,
+     "w": 356,
+     "t": "onde o déficit aparece primeiro, e onde o descaso cobra mais caro",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1287,
+     "y": 20,
+     "w": 360,
+     "t": "Joelho e assoalho",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1287,
+     "y": 300,
+     "w": 356,
+     "t": "mais lesão do cruzado; perda urinária que ninguém pergunta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 240,
+     "w": 360,
+     "t": "homens · mulheres, em esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Onde a diferença muda a conduta",
+   "titulo": "Quatro lugares. Fora deles, o princípio geral costuma servir",
+   "fonte": "Fadiga: revisão, Acta Physiol 2014"
+  },
+  {
+   "id": "deficit",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Uma grade de cem quadrados representando os participantes da pesquisa em ciência do esporte, 66 homens e 34 mulheres. Ao lado, duas barras: 31% dos estudos só com homens, 6% só com mulheres. Embaixo, a porta do laboratório marcada variável demais\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"44\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"88\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"132\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"176\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"220\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"264\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"308\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"352\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"396\" y=\"0\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"0\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"44\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"88\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"132\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"176\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"220\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"264\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"308\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"352\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"396\" y=\"44\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"0\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"44\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"88\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"132\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"176\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"220\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"264\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"308\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"352\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"396\" y=\"88\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"0\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"44\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"88\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"132\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"176\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"220\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"264\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"308\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"352\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"396\" y=\"132\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"0\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"44\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"88\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"132\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"176\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"220\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"264\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"308\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"352\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"396\" y=\"176\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"0\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"44\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"88\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"132\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"176\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"220\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"264\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"308\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"352\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"396\" y=\"220\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"0\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"44\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"88\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"132\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"176\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"220\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"264\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"308\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"352\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"396\" y=\"264\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"0\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"44\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"88\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"132\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"176\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"220\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"264\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"308\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"352\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"396\" y=\"308\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"0\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"44\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"88\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"132\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"176\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"220\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"264\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"308\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"352\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"396\" y=\"352\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"0\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"44\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"88\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"132\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"176\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"220\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"264\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"308\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"352\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"396\" y=\"396\" width=\"38\" height=\"38\" rx=\"6\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"820\" y=\"90\" width=\"744\" height=\"50\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"820\" y=\"220\" width=\"144\" height=\"50\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"820\" y=\"320\" width=\"844\" height=\"150\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(846.0 350.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 460,
+     "y": 40,
+     "w": 300,
+     "t": "66% homens",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 330,
+     "w": 300,
+     "t": "34% mulheres",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 448,
+     "w": 760,
+     "t": "participantes de 5.261 artigos, 2014 a 2020",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 40,
+     "w": 200,
+     "t": "31%",
+     "tam": 40,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 46,
+     "w": 680,
+     "t": "dos estudos só com homens",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 170,
+     "w": 200,
+     "t": "6%",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 960,
+     "y": 176,
+     "w": 680,
+     "t": "só com mulheres",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 946,
+     "y": 340,
+     "w": 700,
+     "t": "Excluir quem tem ciclo saía mais barato",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 946,
+     "y": 394,
+     "w": 700,
+     "t": "fase, ovulação, contracepção: tudo encarece",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que se sabe menos sobre elas",
+   "titulo": "A literatura ficou limpa, e fala pouco de quem mais procura atendimento",
+   "fonte": "Levantamento de 2021 em seis revistas da área · guia de padrões para estudos com mulheres, Sports Med 2021"
+  },
+  {
+   "id": "baldes",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Dois baldes. Extrapolar é razoável: força e progressão de carga, sono, princípios de periodização, mecânica da reabilitação. Extrapolar é arriscado: limiares de energia, osso, gestação e pós-parto, assoalho pélvico, cruzado, calor e hidratação, eixo reprodutivo. Entre eles, a pergunta: o desfecho depende de hormônio sexual?\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><path d=\"M 0 80 L 660 80 L 600 480 L 60 480 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 1004 80 L 1664 80 L 1604 480 L 1064 480 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"832\" cy=\"260\" r=\"120\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 20,
+     "w": 660,
+     "t": "Extrapolar é razoável",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 130,
+     "w": 500,
+     "t": "força e progressão de carga",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 212,
+     "w": 500,
+     "t": "sono e desempenho",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 294,
+     "w": 500,
+     "t": "princípios de periodização",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 376,
+     "w": 500,
+     "t": "mecânica da reabilitação",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 20,
+     "w": 660,
+     "t": "Extrapolar é arriscado",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1084,
+     "y": 130,
+     "w": 500,
+     "t": "limiares de energia e osso",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 212,
+     "w": 500,
+     "t": "gestação e pós-parto",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 294,
+     "w": 500,
+     "t": "assoalho pélvico",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 376,
+     "w": 500,
+     "t": "cruzado, calor e hidratação",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 722,
+     "y": 196,
+     "w": 220,
+     "t": "o desfecho depende de hormônio sexual?",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Decidir com a lacuna",
+   "titulo": "Uma pergunta diz em que balde a sua dúvida cai",
+   "destaque": "No cruzado, a lógica se inverte: os programas de prevenção foram testados sobretudo em mulheres.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "ficha",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Uma ficha de leitura com cinco perguntas e caixas de marcar: havia mulheres, e quantas? o estado hormonal foi caracterizado? a contracepção foi incluída, excluída ou misturada? o desfecho depende de hormônio? a conclusão passou da amostra? Ao lado, um carimbo: extrapolação declarada\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"0\" y=\"0\" width=\"1080\" height=\"480\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"34\" y=\"34\" width=\"48\" height=\"48\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"34\" y=\"122\" width=\"48\" height=\"48\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"34\" y=\"210\" width=\"48\" height=\"48\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"34\" y=\"298\" width=\"48\" height=\"48\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"34\" y=\"386\" width=\"48\" height=\"48\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"rotate(-8 1380 220)\"><rect x=\"1150\" y=\"120\" width=\"460\" height=\"200\" rx=\"20\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"8\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 110,
+     "y": 40,
+     "w": 940,
+     "t": "Havia mulheres na amostra, e quantas?",
+     "tam": 29,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 128,
+     "w": 940,
+     "t": "O estado hormonal foi caracterizado, ou só o sexo?",
+     "tam": 29,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 216,
+     "w": 940,
+     "t": "Contracepção: incluída, excluída ou misturada?",
+     "tam": 29,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 304,
+     "w": 940,
+     "t": "O desfecho depende de hormônio sexual?",
+     "tam": 29,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 392,
+     "w": 940,
+     "t": "A conclusão passou da amostra?",
+     "tam": 29,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 180,
+     "w": 460,
+     "t": "extrapolação declarada",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1130,
+     "y": 380,
+     "w": 520,
+     "t": "a extrapolação não é proibida; ela é dita, e acompanhada de perto",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Antes de levar um estudo para ela",
+   "titulo": "Cinco perguntas, e uma regra para o que sobrar de dúvida"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fisiologia da mulher e o déficit de evidência",
+   "titulo": "Antes do número, pergunte em quem ele foi medido",
+   "regras": [
+    "Trocar a régua antes de concluir que ela rende menos",
+    "Desconfiar da extrapolação quando o desfecho depende de hormônio",
+    "Extrapolar dizendo que está extrapolando, e acompanhar"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem prepara e reabilita",
+     "x": "Confere o limiar e a régua antes de ler qualquer relatório."
+    },
+    {
+     "ic": "t:book",
+     "t": "Quem pesquisa e divulga",
+     "x": "Caracteriza o estado hormonal e não estica a conclusão."
+    },
+    {
+     "ic": "t:users",
+     "t": "Toda a equipe",
+     "x": "Pergunta pelo ciclo: o descaso começa na pergunta que ninguém faz."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
