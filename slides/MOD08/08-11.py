@@ -110,6 +110,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Decisão de retorno", "tit
                     {"t": "Atleta", "x": "Pesa o que está em jogo, informada."}],
           "quem": "Próxima aula, a última do módulo: risco residual e comunicação."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-11")
+
 spec = {"arquivo": "aulas/MOD08/08-11-decisao-de-retorno-compartilhada.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Decisão de retorno ao esporte", "subtitulo": "Avaliar o risco, aceitar o risco e decidir junto",

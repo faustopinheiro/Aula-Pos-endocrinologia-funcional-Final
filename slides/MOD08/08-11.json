@@ -26,63 +26,398 @@
  "slides": [
   {
    "id": "tatame",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"No centro, o mesmo joelho de uma judoca no fim da reabilitação do colateral medial: força boa, testes bons, um pouco de dor no fim do treino mais pesado, alguma insegurança nas entradas de perna. Dos dois lados, duas datas: um torneio de pré-temporada sem nada em jogo; a seletiva da equipe nacional em doze dias\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"560\" y=\"0\" width=\"544\" height=\"340\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(584.0 90.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(584.0 168.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><g transform=\"translate(584.0 246.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"0\" y=\"60\" width=\"500\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 84.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"1164\" y=\"60\" width=\"500\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1188.0 84.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a7 7 0 1 0 14 0a7 7 0 1 0-14 0\"/><path d=\"M12 10v3h2M7 4L4.25 6M17 4l2.75 2\"/></g></g><line x1=\"548\" y1=\"170\" x2=\"512\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"1116\" y1=\"170\" x2=\"1152\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 584,
+     "y": 20,
+     "w": 496,
+     "t": "O mesmo joelho",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 640,
+     "y": 92,
+     "w": 440,
+     "t": "força boa, testes bons",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 640,
+     "y": 170,
+     "w": 440,
+     "t": "um pouco de dor no fim do treino mais pesado",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 640,
+     "y": 248,
+     "w": 440,
+     "t": "alguma insegurança nas entradas de perna",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 150,
+     "w": 452,
+     "t": "Torneio de pré-temporada",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 224,
+     "w": 452,
+     "t": "nada em jogo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1188,
+     "y": 150,
+     "w": 452,
+     "t": "Seletiva da equipe nacional",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1188,
+     "y": 224,
+     "w": 452,
+     "t": "em 12 dias",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "No tatame",
-   "frase": "O joelho é o mesmo. A decisão de voltar pode ser diferente.",
-   "apoio": "Uma judoca no fim da reabilitação do colateral medial. Numa situação, um torneio de pré-temporada sem nada em jogo; na outra, a seletiva da equipe nacional em doze dias."
+   "titulo": "O joelho é o mesmo. A decisão de voltar pode ser diferente."
   },
   {
    "id": "variam",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"À esquerda, o que existia: fatores soltos, espalhados, sem critério quantitativo, sem ordem e sem peso. À direita, o que o modelo propôs: três passos, na ordem em que o clínico pensa; depois, a separação entre quanto risco existe e quanto risco se aceita\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"700\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"rotate(-6 110 112)\"><rect x=\"40\" y=\"90\" width=\"140\" height=\"44\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><g transform=\"rotate(5 290 102)\"><rect x=\"220\" y=\"80\" width=\"140\" height=\"44\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><g transform=\"rotate(-3 490 122)\"><rect x=\"420\" y=\"100\" width=\"140\" height=\"44\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><g transform=\"rotate(4 160 192)\"><rect x=\"90\" y=\"170\" width=\"140\" height=\"44\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><g transform=\"rotate(-5 370 182)\"><rect x=\"300\" y=\"160\" width=\"140\" height=\"44\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><g transform=\"rotate(6 570 202)\"><rect x=\"500\" y=\"180\" width=\"140\" height=\"44\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><g transform=\"rotate(-4 250 252)\"><rect x=\"180\" y=\"230\" width=\"140\" height=\"44\" rx=\"22\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></g><line x1=\"712\" y1=\"170\" x2=\"772\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"784\" y=\"0\" width=\"880\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"808\" y=\"80\" width=\"258\" height=\"70\" rx=\"12\" fill=\"#008A7E\"/><rect x=\"1086\" y=\"80\" width=\"258\" height=\"70\" rx=\"12\" fill=\"#008A7E\"/><rect x=\"1364\" y=\"80\" width=\"258\" height=\"70\" rx=\"12\" fill=\"#008A7E\"/><line x1=\"1224\" y1=\"160\" x2=\"1224\" y2=\"196\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"808\" y=\"210\" width=\"400\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1228\" y=\"210\" width=\"400\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 650,
+     "t": "O que existia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 100,
+     "w": 140,
+     "t": "dor",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 220,
+     "y": 90,
+     "w": 140,
+     "t": "testes",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 110,
+     "w": 140,
+     "t": "calendário",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 180,
+     "w": 140,
+     "t": "posição",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 170,
+     "w": 140,
+     "t": "pressão",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 190,
+     "w": 140,
+     "t": "medo",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 180,
+     "y": 240,
+     "w": 140,
+     "t": "proteção",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 296,
+     "w": 650,
+     "t": "sem critério, sem ordem, sem peso",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 808,
+     "y": 18,
+     "w": 830,
+     "t": "O que o modelo propôs",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 808,
+     "y": 92,
+     "w": 258,
+     "t": "1 · estado de saúde",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1086,
+     "y": 92,
+     "w": 258,
+     "t": "2 · risco da participação",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1364,
+     "y": 92,
+     "w": 258,
+     "t": "3 · modificadores",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 808,
+     "y": 244,
+     "w": 400,
+     "t": "quanto risco existe",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1228,
+     "y": 244,
+     "w": 400,
+     "t": "quanto risco se aceita",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "O problema reconhecido",
    "titulo": "Mesma condição, mesma circunstância, decisões diferentes",
-   "esq": {
-    "t": "O que existia",
-    "cor": "tinta",
-    "itens": [
-     "listas de fatores que entram na decisão",
-     "nenhum critério quantitativo",
-     "nenhuma ordem nem peso para os fatores"
-    ]
-   },
-   "dir": {
-    "t": "O que o modelo propôs",
-    "cor": "petr",
-    "itens": [
-     "três passos, na ordem em que o clínico pensa",
-     "depois, separar quanto risco existe de quanto risco se aceita"
-    ]
-   },
    "destaque": "É essa separação que resolve a judoca.",
    "destaque_cor": "tinta",
    "fonte": "Clin J Sport Med 2010 · Br J Sports Med 2015"
   },
   {
    "id": "passos",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Os três passos",
-   "titulo": "Dois descrevem o risco; o terceiro, o contexto",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Três passos em fila. Um, estado de saúde: tecido, função, dor, testes. Dois, risco da participação: esporte, posição, proteção; no judô, entradas de perna e quedas em valgo; joelheira, restrição de técnica e tempo de luta menor mudam este passo. Três, modificadores: momento da temporada, pressão interna e externa, analgesia, conflito de interesse, medo de responsabilização. Uma chave sobre os dois primeiros: descrevem o risco. Outra sobre o terceiro: descreve o contexto\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"70\" width=\"528\" height=\"290\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 92.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"568\" y=\"70\" width=\"528\" height=\"290\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(592.0 92.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><rect x=\"1136\" y=\"70\" width=\"528\" height=\"290\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1160.0 92.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><path d=\"M 10 54 L 10 34 L 1086 34 L 1086 54\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 1146 54 L 1146 34 L 1654 34 L 1654 54\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 80,
+     "y": 98,
+     "w": 428,
      "t": "1 · Estado de saúde",
-     "x": "tecido, função, dor, testes: tudo o que o módulo construiu",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 160,
+     "w": 480,
+     "t": "tecido, função, dor, testes: tudo o que o percurso de reabilitação construiu",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 648,
+     "y": 98,
+     "w": 428,
      "t": "2 · Risco da participação",
-     "x": "esporte, posição, proteção; no judô, entradas de perna e quedas em valgo",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 160,
+     "w": 480,
+     "t": "esporte, posição, proteção; no judô, entradas de perna e quedas em valgo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1216,
+     "y": 98,
+     "w": 428,
      "t": "3 · Modificadores",
-     "x": "momento da temporada, pressão interna e externa, analgesia, conflito de interesse, medo de responsabilização",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 160,
+     "w": 480,
+     "t": "momento da temporada, pressão interna e externa, analgesia, conflito de interesse, medo de responsabilização",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1096,
+     "t": "descrevem o risco",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1136,
+     "y": 0,
+     "w": 528,
+     "t": "descreve o contexto",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 592,
+     "y": 284,
+     "w": 480,
+     "t": "joelheira, restrição de técnica e tempo de luta menor mudam este passo",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
-   "destaque": "Joelheira, restrição de técnica e tempo de luta menor mudam o passo dois.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Os três passos",
+   "titulo": "Dois descrevem o risco; o terceiro, o contexto"
   },
   {
    "id": "starrt",
@@ -176,203 +511,941 @@
   },
   {
    "id": "aceitar",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Dois lados. Avaliar o risco: a equipe de saúde, a melhor fonte. Aceitar o risco: quem corre, a atleta, dona da tolerância. Embaixo, a exceção: há riscos que ninguém tem o direito de aceitar em nome dela, e riscos que ela não pode aceitar sem ter sido bem informada\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"780\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 30.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"884\" y=\"0\" width=\"780\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(908.0 30.0) scale(1.5000)\"><g fill=\"#B07A1C\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><rect x=\"0\" y=\"250\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(24.0 280.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 36,
+     "w": 630,
+     "t": "Avaliar o risco",
+     "tam": 29,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 120,
+     "y": 92,
+     "w": 630,
+     "t": "a equipe de saúde: a melhor fonte, não a dona da tolerância",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1004,
+     "y": 36,
+     "w": 630,
+     "t": "Aceitar o risco",
+     "tam": 29,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1004,
+     "y": 92,
+     "w": 630,
+     "t": "quem corre: a atleta, antes de todos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 780,
+     "y": 84,
+     "w": 104,
+     "t": "≠",
+     "tam": 56,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 266,
+     "w": 1540,
+     "t": "A exceção",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 96,
+     "y": 306,
+     "w": 1540,
+     "t": "riscos que ninguém pode aceitar em nome dela; riscos que ela não pode aceitar sem ser bem informada",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "Avaliar o risco é uma coisa. Aceitar o risco é outra. E quem aceita é quem corre.",
-   "apoio": "A equipe de saúde é a melhor fonte para avaliar o risco. Não é, sozinha, a dona da tolerância a ele."
+   "titulo": "Avaliar o risco é uma coisa. Aceitar o risco é outra. E quem aceita é quem corre."
   },
   {
    "id": "saidas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "As três saídas",
-   "titulo": "Liberar com restrição é a mais útil e a mais esquecida",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três portas. Liberar, verde: risco abaixo da tolerância, volta sem restrição, com monitoramento. Liberar com restrição, ocre e a mais larga: menos tempo de luta, sem certas técnicas, com proteção, ou só treino. Ainda não, vermelha: risco acima da tolerância, por mais que a data aperte\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><path d=\"M 0 340 L 0 30 Q 0 0 30 0 L 410 0 Q 440 0 440 30 L 440 340\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><g transform=\"translate(24.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g><path d=\"M 480 340 L 480 30 Q 480 0 510 0 L 1154 0 Q 1184 0 1184 30 L 1184 340\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><g transform=\"translate(504.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><path d=\"M 1224 340 L 1224 30 Q 1224 0 1254 0 L 1634 0 Q 1664 0 1664 30 L 1664 340\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(1248.0 24.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"504\" y=\"110\" width=\"316\" height=\"70\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"836\" y=\"110\" width=\"316\" height=\"70\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"504\" y=\"200\" width=\"316\" height=\"70\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"836\" y=\"200\" width=\"316\" height=\"70\" rx=\"35\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 84,
+     "y": 30,
+     "w": 340,
      "t": "Liberar",
-     "x": "risco abaixo da tolerância; volta sem restrição, com monitoramento",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 120,
+     "w": 392,
+     "t": "risco abaixo da tolerância; volta sem restrição, com monitoramento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 564,
+     "y": 30,
+     "w": 604,
      "t": "Liberar com restrição",
-     "x": "menos tempo de luta, sem certas técnicas, com proteção, ou só treino",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1308,
+     "y": 30,
+     "w": 340,
      "t": "Ainda não",
-     "x": "risco acima da tolerância, por mais que a data aperte",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1248,
+     "y": 120,
+     "w": 392,
+     "t": "risco acima da tolerância, por mais que a data aperte",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 504,
+     "y": 132,
+     "w": 316,
+     "t": "menos tempo de luta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 836,
+     "y": 132,
+     "w": 316,
+     "t": "sem certas técnicas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 222,
+     "w": 316,
+     "t": "com proteção",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 836,
+     "y": 222,
+     "w": 316,
+     "t": "só treino",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "As três saídas",
+   "titulo": "Liberar com restrição é a mais útil e a mais esquecida",
    "destaque": "Há riscos inaceitáveis por si: tecido que pode falhar de forma grave, sinal neurológico, sequela permanente. A tolerância de ninguém muda essa resposta.",
    "destaque_cor": "verm"
   },
   {
    "id": "quem",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A atleta no centro: pesa o risco contra o que está em jogo e decide dentro do aceitável. Em volta, com setas para ela: equipe de saúde, estimar o risco, tecido, função, prontidão; médico, liberação médica e dizer quando o risco é inaceitável por si; técnico e clube, trazer o contexto esportivo, sem decidir pela saúde; família, entra quando a atleta é menor de idade\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"592\" y=\"130\" width=\"480\" height=\"140\" rx=\"70\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><rect x=\"0\" y=\"0\" width=\"540\" height=\"130\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"540\" y1=\"65\" x2=\"586\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1124\" y=\"0\" width=\"540\" height=\"130\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><line x1=\"1124\" y1=\"65\" x2=\"1078\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"270\" width=\"540\" height=\"130\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"540\" y1=\"335\" x2=\"586\" y2=\"240\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1124\" y=\"270\" width=\"540\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1124\" y1=\"335\" x2=\"1078\" y2=\"240\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 592,
+     "y": 150,
+     "w": 480,
+     "t": "Atleta",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 632,
+     "y": 194,
+     "w": 400,
+     "t": "pesa o risco contra o que está em jogo e decide dentro do aceitável",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 16,
+     "w": 500,
+     "t": "Equipe de saúde",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 58,
+     "w": 500,
+     "t": "estimar o risco: tecido, função, prontidão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 16,
+     "w": 500,
+     "t": "Médico",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 58,
+     "w": 500,
+     "t": "liberação médica; dizer quando o risco é inaceitável por si",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 286,
+     "w": 500,
+     "t": "Técnico e clube",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 328,
+     "w": 500,
+     "t": "trazer o contexto esportivo, sem decidir pela saúde",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 286,
+     "w": 500,
+     "t": "Família",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 328,
+     "w": 500,
+     "t": "entra quando a atleta é menor de idade",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Quem responde por quê",
    "titulo": "Decidido com a atleta, não sobre ela",
-   "cab": [
-    "Quem",
-    "Responde por"
-   ],
-   "larguras": [
-    30,
-    70
-   ],
-   "linhas": [
-    [
-     "Equipe de saúde",
-     "estimar o risco: tecido, função, prontidão"
-    ],
-    [
-     "Médico",
-     "liberação médica; dizer quando o risco é inaceitável por si"
-    ],
-    [
-     "Atleta",
-     "pesar o risco contra o que está em jogo e decidir dentro do aceitável"
-    ],
-    [
-     "Técnico e clube",
-     "trazer o contexto esportivo, sem decidir pela saúde"
-    ],
-    [
-     "Família",
-     "entra na decisão quando a atleta é menor de idade"
-    ]
-   ],
    "destaque": "Decisão compartilhada, na direção do consenso de Berna.",
    "destaque_cor": "tinta",
    "fonte": "Br J Sports Med 2017 · Consenso de Berna, 2016"
   },
   {
    "id": "conversa",
-   "tipo": "lista",
-   "eyebrow": "Decidir junto, na prática",
-   "titulo": "Três conversas, alguns minutos a mais",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três balões de conversa em sequência. Escolha: há mais de um caminho razoável, e a sua opinião conta. Opções: cada saída, com o que traz de bom e de risco, em números que a pessoa entenda; esses números fecham o módulo. Decisão: para você, o que pesa mais, a seletiva deste ano ou chegar inteira ao próximo ciclo? Alguns minutos a mais\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 20 0 L 480 0 Q 500 0 500 20 L 500 250 Q 500 270 480 270 L 120 270 L 70 320 L 80 270 L 20 270 Q 0 270 0 250 L 0 20 Q 0 0 20 0 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"510\" y1=\"135\" x2=\"572\" y2=\"135\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><path d=\"M 602 0 L 1062 0 Q 1082 0 1082 20 L 1082 250 Q 1082 270 1062 270 L 702 270 L 652 320 L 662 270 L 602 270 Q 582 270 582 250 L 582 20 Q 582 0 602 0 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"1092\" y1=\"135\" x2=\"1154\" y2=\"135\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><path d=\"M 1184 0 L 1644 0 Q 1664 0 1664 20 L 1664 250 Q 1664 270 1644 270 L 1284 270 L 1234 320 L 1244 270 L 1184 270 Q 1164 270 1164 250 L 1164 20 Q 1164 0 1184 0 Z\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
-     "t": "Escolha",
-     "x": "“Há mais de um caminho razoável, e a sua opinião conta.”",
-     "cor": "petr"
+     "x": 24,
+     "y": 20,
+     "w": 452,
+     "t": "1 · Escolha",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Opções",
-     "x": "cada saída, com o que traz de bom e de risco, em números que a pessoa entenda",
-     "cor": "ambar"
+     "x": 24,
+     "y": 84,
+     "w": 452,
+     "t": "“Há mais de um caminho razoável, e a sua opinião conta.”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     },
     {
-     "t": "Decisão",
-     "x": "“Para você, o que pesa mais: a seletiva deste ano ou chegar inteira ao próximo ciclo?”",
-     "cor": "tinta"
+     "x": 606,
+     "y": 20,
+     "w": 452,
+     "t": "2 · Opções",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 606,
+     "y": 84,
+     "w": 452,
+     "t": "cada saída, com o que traz de bom e de risco, em números que a pessoa entenda",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 1188,
+     "y": 20,
+     "w": 452,
+     "t": "3 · Decisão",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1188,
+     "y": 84,
+     "w": 452,
+     "t": "“Para você, o que pesa mais: a seletiva deste ano ou chegar inteira ao próximo ciclo?”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 606,
+     "y": 220,
+     "w": 452,
+     "t": "esses números fecham o módulo",
+     "tam": 18,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 300,
+     "w": 500,
+     "t": "alguns minutos a mais",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 16,
-   "destaque": "Os números da conversa das opções são o assunto da próxima aula.",
-   "destaque_cor": "tinta",
+   "eyebrow": "Decidir junto, na prática",
+   "titulo": "Três conversas, alguns minutos a mais",
    "fonte": "Modelo de decisão compartilhada, J Gen Intern Med 2012"
   },
   {
    "id": "conflitos",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "O que distorce a decisão",
-   "titulo": "Nomear os conflitos antes que eles decidam",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro conflitos em grade. Quem paga quem decide: o dever com a saúde da atleta não fica abaixo do interesse do clube. A dor escondida: quem quer voltar minimiza; testes e observação não dependem só do relato. A analgesia que mascara: muda a informação, não o risco. A pressão do calendário: empurra a linha de tolerância sem ninguém dizer em voz alta. Embaixo, três proteções: separar quem avalia de quem tem interesse, registrar o raciocínio, pedir segunda opinião\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(20.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"844\" y=\"0\" width=\"820\" height=\"120\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 20.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g><rect x=\"0\" y=\"136\" width=\"820\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(20.0 156.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><rect x=\"844\" y=\"136\" width=\"820\" height=\"120\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 156.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"0\" y=\"290\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(24.0 344.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><g transform=\"translate(640.0 344.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g><g transform=\"translate(1140.0 344.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 80,
+     "y": 18,
+     "w": 720,
      "t": "Quem paga quem decide",
-     "x": "o dever com a saúde da atleta não fica abaixo do interesse do clube",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 80,
+     "y": 60,
+     "w": 720,
+     "t": "o dever com a saúde da atleta não fica abaixo do interesse do clube",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 18,
+     "w": 720,
      "t": "A dor escondida",
-     "x": "quem quer voltar minimiza; testes e observação não dependem só do relato",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 924,
+     "y": 60,
+     "w": 720,
+     "t": "quem quer voltar minimiza; testes e observação não dependem só do relato",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 154,
+     "w": 720,
      "t": "A analgesia que mascara",
-     "x": "muda a informação, não o risco",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 80,
+     "y": 196,
+     "w": 720,
+     "t": "muda a informação, não o risco",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 154,
+     "w": 720,
      "t": "A pressão do calendário",
-     "x": "empurra a linha de tolerância sem ninguém dizer em voz alta",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 196,
+     "w": 720,
+     "t": "empurra a linha de tolerância sem ninguém dizer em voz alta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 302,
+     "w": 400,
+     "t": "Proteções",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 70,
+     "y": 348,
+     "w": 560,
+     "t": "separar quem avalia de quem tem interesse",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 686,
+     "y": 348,
+     "w": 560,
+     "t": "registrar o raciocínio",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1186,
+     "y": 348,
+     "w": 560,
+     "t": "pedir segunda opinião",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Proteções: separar quem avalia de quem tem interesse, registrar o raciocínio, pedir segunda opinião.",
-   "destaque_cor": "tinta"
+   "eyebrow": "O que distorce a decisão",
+   "titulo": "Nomear os conflitos antes que eles decidam"
   },
   {
    "id": "semclube",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Três linhas, os mesmos passos fora do clube. Estado de saúde: avaliação e testes de consultório. Risco da participação: corrida de rua, campeonato de fim de semana, treino de academia. Modificadores: a prova já paga, a viagem marcada, o trabalho que não pode parar. À direita, a equipe que encolhe: o profissional, o praticante e, às vezes, a família\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"104\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"308\" y1=\"52\" x2=\"352\" y2=\"52\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"364\" y=\"18\" width=\"284\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"664\" y=\"18\" width=\"284\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"124\" width=\"300\" height=\"104\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"308\" y1=\"176\" x2=\"352\" y2=\"176\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"364\" y=\"142\" width=\"284\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"664\" y=\"142\" width=\"284\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"964\" y=\"142\" width=\"284\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"248\" width=\"300\" height=\"104\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"308\" y1=\"300\" x2=\"352\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"364\" y=\"266\" width=\"284\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"664\" y=\"266\" width=\"284\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"964\" y=\"266\" width=\"284\" height=\"68\" rx=\"34\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1290\" y=\"0\" width=\"374\" height=\"352\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1310.0 84.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><g transform=\"translate(1310.0 168.0) scale(1.0000)\"><g fill=\"#12202E\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><g transform=\"translate(1310.0 252.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 22,
+     "w": 268,
+     "t": "1 · Estado de saúde",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 374,
+     "y": 32,
+     "w": 264,
+     "t": "avaliação",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 674,
+     "y": 32,
+     "w": 264,
+     "t": "testes de consultório",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 16,
+     "y": 146,
+     "w": 268,
+     "t": "2 · Risco da participação",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 374,
+     "y": 156,
+     "w": 264,
+     "t": "corrida de rua",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 674,
+     "y": 156,
+     "w": 264,
+     "t": "campeonato de fim de semana",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 974,
+     "y": 156,
+     "w": 264,
+     "t": "treino de academia",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 16,
+     "y": 270,
+     "w": 268,
+     "t": "3 · Modificadores",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 374,
+     "y": 280,
+     "w": 264,
+     "t": "a prova já paga",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 674,
+     "y": 280,
+     "w": 264,
+     "t": "a viagem marcada",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 974,
+     "y": 280,
+     "w": 264,
+     "t": "o trabalho que não pode parar",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1310,
+     "y": 18,
+     "w": 340,
+     "t": "A equipe encolhe",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1372,
+     "y": 94,
+     "w": 280,
+     "t": "o profissional",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1372,
+     "y": 178,
+     "w": 280,
+     "t": "o praticante",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1372,
+     "y": 262,
+     "w": 280,
+     "t": "às vezes, a família",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Fora do clube",
    "titulo": "Os mesmos passos, outra equipe",
-   "cab": [
-    "Passo",
-    "No consultório"
-   ],
-   "larguras": [
-    30,
-    70
-   ],
-   "linhas": [
-    [
-     "Estado de saúde",
-     "avaliação e testes de consultório"
-    ],
-    [
-     "Risco da participação",
-     "corrida de rua, campeonato de fim de semana, treino de academia"
-    ],
-    [
-     "Modificadores",
-     "a prova já paga, a viagem marcada, o trabalho que não pode parar"
-    ]
-   ],
    "destaque": "Equipe menor não diminui a decisão compartilhada. Aumenta a responsabilidade de explicar bem.",
    "destaque_cor": "tinta"
   },
   {
    "id": "registro",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O registro",
-   "titulo": "Seis campos bastam",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma ficha de decisão de retorno com seis campos em linhas: estado de saúde, com os testes; risco da participação, no esporte e na posição; modificadores, os que foram considerados; saída escolhida, com três caixas de marcar, liberar, com restrição, ainda não; condições, restrições, prazo e sinais para parar; data de revisão, a próxima conversa já marcada\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(24.0 20.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 9l2 2l4-4\"/></g></g><line x1=\"24\" y1=\"124\" x2=\"1640\" y2=\"124\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"24\" y=\"86\" width=\"8\" height=\"32\" rx=\"4\" fill=\"#008A7E\"/><line x1=\"24\" y1=\"176\" x2=\"1640\" y2=\"176\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"24\" y=\"138\" width=\"8\" height=\"32\" rx=\"4\" fill=\"#008A7E\"/><line x1=\"24\" y1=\"228\" x2=\"1640\" y2=\"228\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"24\" y=\"190\" width=\"8\" height=\"32\" rx=\"4\" fill=\"#B07A1C\"/><line x1=\"24\" y1=\"280\" x2=\"1640\" y2=\"280\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"24\" y=\"242\" width=\"8\" height=\"32\" rx=\"4\" fill=\"#12202E\"/><line x1=\"24\" y1=\"332\" x2=\"1640\" y2=\"332\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"24\" y=\"294\" width=\"8\" height=\"32\" rx=\"4\" fill=\"#A8322A\"/><line x1=\"24\" y1=\"384\" x2=\"1640\" y2=\"384\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"24\" y=\"346\" width=\"8\" height=\"32\" rx=\"4\" fill=\"#12202E\"/><rect x=\"420\" y=\"246\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"720\" y=\"246\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"1020\" y=\"246\" width=\"26\" height=\"26\" rx=\"4\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 80,
+     "y": 24,
+     "w": 600,
+     "t": "Decisão de retorno",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 48,
+     "y": 90,
+     "w": 360,
      "t": "Estado de saúde",
-     "x": "com os testes",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 420,
+     "y": 92,
+     "w": 900,
+     "t": "com os testes",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 48,
+     "y": 142,
+     "w": 360,
      "t": "Risco da participação",
-     "x": "no esporte e na posição",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 420,
+     "y": 144,
+     "w": 900,
+     "t": "no esporte e na posição",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 48,
+     "y": 194,
+     "w": 360,
      "t": "Modificadores",
-     "x": "os que foram considerados",
-     "cor": "ambar"
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 420,
+     "y": 196,
+     "w": 900,
+     "t": "os que foram considerados",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 48,
+     "y": 246,
+     "w": 360,
      "t": "Saída escolhida",
-     "x": "liberar, com restrição, ainda não",
-     "cor": "tinta"
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 48,
+     "y": 298,
+     "w": 360,
      "t": "Condições",
-     "x": "restrições, prazo e sinais para parar",
-     "cor": "verm"
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 420,
+     "y": 300,
+     "w": 900,
+     "t": "restrições, prazo e sinais para parar",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 48,
+     "y": 350,
+     "w": 360,
      "t": "Data de revisão",
-     "x": "a próxima conversa já marcada",
-     "cor": "tinta"
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 352,
+     "w": 900,
+     "t": "a próxima conversa já marcada",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 458,
+     "y": 248,
+     "w": 240,
+     "t": "liberar",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 758,
+     "y": 248,
+     "w": 240,
+     "t": "com restrição",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1058,
+     "y": 248,
+     "w": 240,
+     "t": "ainda não",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O registro",
+   "titulo": "Seis campos bastam",
    "destaque": "Protege a atleta, mostra o raciocínio da equipe e organiza a próxima conversa.",
    "destaque_cor": "tinta"
   },

@@ -2119,6 +2119,224 @@ def quem_810():
         rs += [rot(x + 24, 100, t, w=W - 48, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, 150, d, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
     return slide("quem", 300, p, rs, eyebrow="Quem faz o quê", titulo="Cada domínio tem dono")
 
+# ---------------------------------------------------------------- 8.11
+
+def tatame_811():
+    """8.11: o mesmo joelho no centro e duas datas no quadro, uma de cada lado."""
+    p = [svg_abre(1664, 340, "No centro, o mesmo joelho de uma judoca no fim da reabilitação do colateral medial: força boa, testes bons, um pouco de dor no fim do treino mais pesado, alguma insegurança nas entradas de perna. Dos dois lados, duas datas: um torneio de pré-temporada sem nada em jogo; a seletiva da equipe nacional em doze dias"), defs(MUDO)]
+    rs = []
+    p.append(caixa(560, 0, 544, 340, TINTA, TINTA, esp=0, rx=16))
+    rs.append(rot(584, 20, "O mesmo joelho", w=496, tam=27, cor=PAPEL, peso=700, serif=True, alinha="center"))
+    for j, (ic, t) in enumerate([("t:check", "força boa, testes bons"), ("t:gauge", "um pouco de dor no fim do treino mais pesado"), ("t:zoom-question", "alguma insegurança nas entradas de perna")]):
+        y = 90 + j * 78
+        p.append(icone(ic, 584, y, 40, PAPEL))
+        rs.append(rot(640, y + 2, t, w=440, tam=21, cor=PAPEL, lh=1.2))
+    for k, (x, t, d, cor, fundo, ic) in enumerate([(0, "Torneio de pré-temporada", "nada em jogo", OXID, OXID_T, "t:calendar"),
+                                                   (1164, "Seletiva da equipe nacional", "em 12 dias", FOSF, FOSF_T, "t:alarm")]):
+        p.append(caixa(x, 60, 500, 220, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 84, 52, cor))
+        rs += [rot(x + 24, 150, t, w=452, tam=25, cor=cor, peso=700, serif=True, lh=1.15), rot(x + 24, 224, d, w=452, tam=22, cor=TINTA, peso=700)]
+    p.append(seta(548, 170, 512, 170, MUDO, "m0", esp=3))
+    p.append(seta(1116, 170, 1152, 170, MUDO, "m0", esp=3))
+    return slide("tatame", 340, p, rs, eyebrow="No tatame", titulo="O joelho é o mesmo. A decisão de voltar pode ser diferente.")
+
+
+def variam_811():
+    """8.11: fatores soltos, sem ordem nem peso, e ao lado o modelo em três passos que separa o risco da tolerância."""
+    p = [svg_abre(1664, 340, "À esquerda, o que existia: fatores soltos, espalhados, sem critério quantitativo, sem ordem e sem peso. À direita, o que o modelo propôs: três passos, na ordem em que o clínico pensa; depois, a separação entre quanto risco existe e quanto risco se aceita"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 0, 700, 340, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 18, "O que existia", w=650, tam=26, cor=TINTA, peso=700, serif=True))
+    for x, y, t, a in [(40, 90, "dor", -6), (220, 80, "testes", 5), (420, 100, "calendário", -3), (90, 170, "posição", 4), (300, 160, "pressão", -5), (500, 180, "medo", 6), (180, 230, "proteção", -4)]:
+        p.append(f'<g transform="rotate({a} {x + 70} {y + 22})"><rect x="{x}" y="{y}" width="140" height="44" rx="22" fill="{PAPEL}" stroke="{MUDO}" stroke-width="2"/></g>')
+        rs.append(rot(x, y + 10, t, w=140, tam=18, cor=MUDO, peso=700, alinha="center"))
+    rs.append(rot(24, 296, "sem critério, sem ordem, sem peso", w=650, tam=21, cor=FOSF, peso=700))
+    p.append(seta(712, 170, 772, 170, MUDO, "m0", esp=3))
+    p.append(caixa(784, 0, 880, 340, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(808, 18, "O que o modelo propôs", w=830, tam=26, cor=OXID, peso=700, serif=True))
+    for j, t in enumerate(["estado de saúde", "risco da participação", "modificadores"]):
+        x = 808 + j * 278
+        p.append(f'<rect x="{x}" y="80" width="258" height="70" rx="12" fill="{OXID}"/>')
+        rs.append(rot(x, 92, f"{j + 1} · {t}", w=258, tam=19, cor=PAPEL, peso=700, alinha="center", lh=1.15))
+    p.append(seta(1224, 160, 1224, 196, OXID, "m0", esp=3))
+    for j, (t, cor) in enumerate([("quanto risco existe", OXID), ("quanto risco se aceita", GLIC)]):
+        x = 808 + j * 420
+        p.append(caixa(x, 210, 400, 100, cor, CARTAO, esp=3, rx=14))
+        rs.append(rot(x, 244, t, w=400, tam=23, cor=cor, peso=700, alinha="center", serif=True))
+    return slide("variam", 340, p, rs, eyebrow="O problema reconhecido", titulo="Mesma condição, mesma circunstância, decisões diferentes",
+                 destaque="É essa separação que resolve a judoca.", destaque_cor="tinta", fonte="Clin J Sport Med 2010 · Br J Sports Med 2015")
+
+
+def passos_811():
+    """8.11: três passos com chaves: os dois primeiros descrevem o risco, o terceiro o contexto."""
+    p = [svg_abre(1664, 360, "Três passos em fila. Um, estado de saúde: tecido, função, dor, testes. Dois, risco da participação: esporte, posição, proteção; no judô, entradas de perna e quedas em valgo; joelheira, restrição de técnica e tempo de luta menor mudam este passo. Três, modificadores: momento da temporada, pressão interna e externa, analgesia, conflito de interesse, medo de responsabilização. Uma chave sobre os dois primeiros: descrevem o risco. Outra sobre o terceiro: descreve o contexto"), defs(MUDO)]
+    rs = []
+    W = 528
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:stethoscope", "1 · Estado de saúde", "tecido, função, dor, testes: tudo o que o percurso de reabilitação construiu", OXID, OXID_T),
+                                                ("t:shield", "2 · Risco da participação", "esporte, posição, proteção; no judô, entradas de perna e quedas em valgo", OXID, OXID_T),
+                                                ("t:scale", "3 · Modificadores", "momento da temporada, pressão interna e externa, analgesia, conflito de interesse, medo de responsabilização", GLIC, GLIC_T)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 70, W, 290, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 92, 44, cor))
+        rs += [rot(x + 80, 98, t, w=W - 100, tam=24, cor=cor, peso=700, serif=True), rot(x + 24, 160, d, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
+    p.append(f'<path d="M 10 54 L 10 34 L {2 * W + 30} 34 L {2 * W + 30} 54" fill="none" stroke="{OXID}" stroke-width="3"/>')
+    p.append(f'<path d="M {2 * (W + 40) + 10} 54 L {2 * (W + 40) + 10} 34 L 1654 34 L 1654 54" fill="none" stroke="{GLIC}" stroke-width="3"/>')
+    rs += [rot(0, 0, "descrevem o risco", w=2 * W + 40, tam=21, cor=OXID, peso=700, alinha="center"),
+           rot(2 * (W + 40), 0, "descreve o contexto", w=W, tam=21, cor=GLIC, peso=700, alinha="center"),
+           rot(W + 64, 284, "joelheira, restrição de técnica e tempo de luta menor mudam este passo", w=W - 48, tam=18, cor=OXID, peso=700, lh=1.2)]
+    return slide("passos", 360, p, rs, eyebrow="Os três passos", titulo="Dois descrevem o risco; o terceiro, o contexto")
+
+
+def aceitar_811():
+    """8.11: duas mãos, quem avalia e quem aceita, e a faixa da exceção."""
+    p = [svg_abre(1664, 360, "Dois lados. Avaliar o risco: a equipe de saúde, a melhor fonte. Aceitar o risco: quem corre, a atleta, dona da tolerância. Embaixo, a exceção: há riscos que ninguém tem o direito de aceitar em nome dela, e riscos que ela não pode aceitar sem ter sido bem informada"), defs(MUDO)]
+    rs = []
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:stethoscope", "Avaliar o risco", "a equipe de saúde: a melhor fonte, não a dona da tolerância", OXID, OXID_T),
+                                                ("h:person", "Aceitar o risco", "quem corre: a atleta, antes de todos", GLIC, GLIC_T)]):
+        x = k * 884
+        p.append(caixa(x, 0, 780, 220, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 30, 72, cor))
+        rs += [rot(x + 120, 36, t, w=630, tam=29, cor=cor, peso=700, serif=True), rot(x + 120, 92, d, w=630, tam=22, cor=TINTA, lh=1.3)]
+    rs.append(rot(780, 84, "≠", w=104, tam=56, cor=TINTA, peso=700, alinha="center"))
+    p.append(caixa(0, 250, 1664, 110, FOSF, FOSF, esp=0, rx=16))
+    p.append(icone("t:alert-triangle", 24, 280, 48, PAPEL))
+    rs += [rot(96, 266, "A exceção", w=1540, tam=24, cor=PAPEL, peso=700, serif=True),
+           rot(96, 306, "riscos que ninguém pode aceitar em nome dela; riscos que ela não pode aceitar sem ser bem informada", w=1540, tam=21, cor=PAPEL)]
+    return slide("aceitar", 360, p, rs, eyebrow="A ideia da aula", titulo="Avaliar o risco é uma coisa. Aceitar o risco é outra. E quem aceita é quem corre.")
+
+
+def saidas_811():
+    """8.11: três portas, a do meio mais larga, com os exemplos de restrição."""
+    p = [svg_abre(1664, 340, "Três portas. Liberar, verde: risco abaixo da tolerância, volta sem restrição, com monitoramento. Liberar com restrição, ocre e a mais larga: menos tempo de luta, sem certas técnicas, com proteção, ou só treino. Ainda não, vermelha: risco acima da tolerância, por mais que a data aperte")]
+    rs = []
+    portas = [(0, 440, "Liberar", "risco abaixo da tolerância; volta sem restrição, com monitoramento", OXID, OXID_T, "t:door-exit"),
+              (480, 704, "Liberar com restrição", "", GLIC, GLIC_T, "t:door"),
+              (1224, 440, "Ainda não", "risco acima da tolerância, por mais que a data aperte", FOSF, FOSF_T, "t:lock")]
+    for x, w, t, d, cor, fundo, ic in portas:
+        p.append(f'<path d="M {x} 340 L {x} 30 Q {x} 0 {x + 30} 0 L {x + w - 30} 0 Q {x + w} 0 {x + w} 30 L {x + w} 340" fill="{fundo}" stroke="{cor}" stroke-width="4"/>')
+        p.append(icone(ic, x + 24, 24, 48, cor))
+        rs.append(rot(x + 84, 30, t, w=w - 100, tam=27, cor=cor, peso=700, serif=True))
+        if d:
+            rs.append(rot(x + 24, 120, d, w=w - 48, tam=22, cor=TINTA, lh=1.3))
+    for j, t in enumerate(["menos tempo de luta", "sem certas técnicas", "com proteção", "só treino"]):
+        x = 504 + (j % 2) * 332
+        y = 110 + (j // 2) * 90
+        p.append(f'<rect x="{x}" y="{y}" width="316" height="70" rx="35" fill="{CARTAO}" stroke="{GLIC}" stroke-width="2"/>')
+        rs.append(rot(x, y + 22, t, w=316, tam=21, cor=TINTA, peso=700, alinha="center"))
+    return slide("saidas", 340, p, rs, eyebrow="As três saídas", titulo="Liberar com restrição é a mais útil e a mais esquecida",
+                 destaque="Há riscos inaceitáveis por si: tecido que pode falhar de forma grave, sinal neurológico, sequela permanente. A tolerância de ninguém muda essa resposta.",
+                 destaque_cor="verm")
+
+
+def quem_811():
+    """8.11: a atleta no centro e quem responde por quê em volta, com setas para ela."""
+    p = [svg_abre(1664, 400, "A atleta no centro: pesa o risco contra o que está em jogo e decide dentro do aceitável. Em volta, com setas para ela: equipe de saúde, estimar o risco, tecido, função, prontidão; médico, liberação médica e dizer quando o risco é inaceitável por si; técnico e clube, trazer o contexto esportivo, sem decidir pela saúde; família, entra quando a atleta é menor de idade"), defs(MUDO)]
+    rs = []
+    p.append(caixa(592, 130, 480, 140, GLIC, GLIC, esp=0, rx=70))
+    rs += [rot(592, 150, "Atleta", w=480, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True),
+           rot(632, 194, "pesa o risco contra o que está em jogo e decide dentro do aceitável", w=400, tam=19, cor=PAPEL, alinha="center", lh=1.2)]
+    cantos = [(0, 0, "Equipe de saúde", "estimar o risco: tecido, função, prontidão", OXID, OXID_T, 592, 170),
+              (1124, 0, "Médico", "liberação médica; dizer quando o risco é inaceitável por si", AZUL, AZUL_T, 1072, 170),
+              (0, 270, "Técnico e clube", "trazer o contexto esportivo, sem decidir pela saúde", MUDO, PAPEL, 592, 240),
+              (1124, 270, "Família", "entra quando a atleta é menor de idade", TINTA, CARTAO, 1072, 240)]
+    for x, y, t, d, cor, fundo, ax, ay in cantos:
+        p.append(caixa(x, y, 540, 130, cor, fundo, esp=2, rx=14))
+        rs += [rot(x + 20, y + 16, t, w=500, tam=24, cor=cor if cor != MUDO else TINTA, peso=700, serif=True), rot(x + 20, y + 58, d, w=500, tam=20, cor=TINTA, lh=1.25)]
+        x1 = x + 540 if x == 0 else x
+        p.append(seta(x1, y + 65, ax - 6 if x == 0 else ax + 6, ay, MUDO, "m0", esp=3))
+    return slide("quem", 400, p, rs, eyebrow="Quem responde por quê", titulo="Decidido com a atleta, não sobre ela",
+                 destaque="Decisão compartilhada, na direção do consenso de Berna.", destaque_cor="tinta", fonte="Br J Sports Med 2017 · Consenso de Berna, 2016")
+
+
+def conversa_811():
+    """8.11: três balões de conversa em sequência: escolha, opções, decisão."""
+    p = [svg_abre(1664, 340, "Três balões de conversa em sequência. Escolha: há mais de um caminho razoável, e a sua opinião conta. Opções: cada saída, com o que traz de bom e de risco, em números que a pessoa entenda; esses números fecham o módulo. Decisão: para você, o que pesa mais, a seletiva deste ano ou chegar inteira ao próximo ciclo? Alguns minutos a mais"), defs(MUDO)]
+    rs = []
+    W = 500
+    for k, (t, d, cor, fundo) in enumerate([("Escolha", "“Há mais de um caminho razoável, e a sua opinião conta.”", OXID, OXID_T),
+                                            ("Opções", "cada saída, com o que traz de bom e de risco, em números que a pessoa entenda", GLIC, GLIC_T),
+                                            ("Decisão", "“Para você, o que pesa mais: a seletiva deste ano ou chegar inteira ao próximo ciclo?”", TINTA, PAPEL)]):
+        x = k * (W + 82)
+        p.append(f'<path d="M {x + 20} 0 L {x + W - 20} 0 Q {x + W} 0 {x + W} 20 L {x + W} 250 Q {x + W} 270 {x + W - 20} 270 L {x + 120} 270 L {x + 70} 320 L {x + 80} 270 L {x + 20} 270 Q {x} 270 {x} 250 L {x} 20 Q {x} 0 {x + 20} 0 Z" fill="{fundo}" stroke="{cor}" stroke-width="3"/>')
+        rs += [rot(x + 24, 20, f"{k + 1} · {t}", w=W - 48, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, 84, d, w=W - 48, tam=22, cor=TINTA, lh=1.35)]
+        if k < 2:
+            p.append(seta(x + W + 10, 135, x + W + 72, 135, MUDO, "m0", esp=3))
+    rs += [rot(W + 82 + 24, 220, "esses números fecham o módulo", w=W - 48, tam=18, cor=GLIC, peso=700),
+           rot(1164, 300, "alguns minutos a mais", w=500, tam=20, cor=MUDO, peso=700, alinha="right")]
+    return slide("conversa", 340, p, rs, eyebrow="Decidir junto, na prática", titulo="Três conversas, alguns minutos a mais",
+                 fonte="Modelo de decisão compartilhada, J Gen Intern Med 2012")
+
+
+def conflitos_811():
+    """8.11: quatro conflitos em grade e a faixa das três proteções."""
+    p = [svg_abre(1664, 400, "Quatro conflitos em grade. Quem paga quem decide: o dever com a saúde da atleta não fica abaixo do interesse do clube. A dor escondida: quem quer voltar minimiza; testes e observação não dependem só do relato. A analgesia que mascara: muda a informação, não o risco. A pressão do calendário: empurra a linha de tolerância sem ninguém dizer em voz alta. Embaixo, três proteções: separar quem avalia de quem tem interesse, registrar o raciocínio, pedir segunda opinião")]
+    rs = []
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:scale", "Quem paga quem decide", "o dever com a saúde da atleta não fica abaixo do interesse do clube", FOSF, FOSF_T),
+                                                ("t:eye-off", "A dor escondida", "quem quer voltar minimiza; testes e observação não dependem só do relato", GLIC, GLIC_T),
+                                                ("t:pill", "A analgesia que mascara", "muda a informação, não o risco", FOSF, FOSF_T),
+                                                ("t:calendar", "A pressão do calendário", "empurra a linha de tolerância sem ninguém dizer em voz alta", GLIC, GLIC_T)]):
+        x, y = (k % 2) * 844, (k // 2) * 136
+        p.append(caixa(x, y, 820, 120, cor, fundo, esp=2, rx=14))
+        p.append(icone(ic, x + 20, y + 20, 44, cor))
+        rs += [rot(x + 80, y + 18, t, w=720, tam=24, cor=cor, peso=700, serif=True), rot(x + 80, y + 60, d, w=720, tam=20, cor=TINTA, lh=1.25)]
+    p.append(caixa(0, 290, 1664, 110, TINTA, TINTA, esp=0, rx=16))
+    rs.append(rot(24, 302, "Proteções", w=400, tam=22, cor=PAPEL, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:arrows-exchange", "separar quem avalia de quem tem interesse"), ("t:writing", "registrar o raciocínio"), ("t:users", "pedir segunda opinião")]):
+        x = [24, 640, 1140][j]
+        p.append(icone(ic, x, 344, 36, PAPEL))
+        rs.append(rot(x + 46, 348, t, w=560, tam=20, cor=PAPEL, peso=700))
+    return slide("conflitos", 400, p, rs, eyebrow="O que distorce a decisão", titulo="Nomear os conflitos antes que eles decidam")
+
+
+def semclube_811():
+    """8.11: os três passos com o que muda no consultório, e a equipe que encolhe."""
+    p = [svg_abre(1664, 360, "Três linhas, os mesmos passos fora do clube. Estado de saúde: avaliação e testes de consultório. Risco da participação: corrida de rua, campeonato de fim de semana, treino de academia. Modificadores: a prova já paga, a viagem marcada, o trabalho que não pode parar. À direita, a equipe que encolhe: o profissional, o praticante e, às vezes, a família"), defs(MUDO)]
+    rs = []
+    linhas = [("1 · Estado de saúde", ["avaliação", "testes de consultório"], OXID, OXID_T),
+              ("2 · Risco da participação", ["corrida de rua", "campeonato de fim de semana", "treino de academia"], OXID, OXID_T),
+              ("3 · Modificadores", ["a prova já paga", "a viagem marcada", "o trabalho que não pode parar"], GLIC, GLIC_T)]
+    for k, (t, chips, cor, fundo) in enumerate(linhas):
+        y = k * 124
+        p.append(caixa(0, y, 300, 104, cor, fundo, esp=2, rx=14))
+        rs.append(rot(16, y + 22, t, w=268, tam=22, cor=cor, peso=700, serif=True, lh=1.15))
+        p.append(seta(308, y + 52, 352, y + 52, MUDO, "m0", esp=3))
+        for j, c in enumerate(chips):
+            x = 364 + j * 300
+            p.append(f'<rect x="{x}" y="{y + 18}" width="284" height="68" rx="34" fill="{CARTAO}" stroke="{cor}" stroke-width="2"/>')
+            rs.append(rot(x + 10, y + 32, c, w=264, tam=19, cor=TINTA, peso=700, alinha="center", lh=1.15))
+    p.append(caixa(1290, 0, 374, 352, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(1310, 18, "A equipe encolhe", w=340, tam=24, cor=TINTA, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:stethoscope", "o profissional"), ("h:person", "o praticante"), ("t:users", "às vezes, a família")]):
+        y = 84 + j * 84
+        p.append(icone(ic, 1310, y, 48, TINTA))
+        rs.append(rot(1372, y + 10, t, w=280, tam=21, cor=TINTA, peso=700))
+    return slide("semclube", 360, p, rs, eyebrow="Fora do clube", titulo="Os mesmos passos, outra equipe",
+                 destaque="Equipe menor não diminui a decisão compartilhada. Aumenta a responsabilidade de explicar bem.", destaque_cor="tinta")
+
+
+def registro_811():
+    """8.11: a ficha de decisão de retorno com seis campos preenchíveis."""
+    p = [svg_abre(1664, 400, "Uma ficha de decisão de retorno com seis campos em linhas: estado de saúde, com os testes; risco da participação, no esporte e na posição; modificadores, os que foram considerados; saída escolhida, com três caixas de marcar, liberar, com restrição, ainda não; condições, restrições, prazo e sinais para parar; data de revisão, a próxima conversa já marcada")]
+    rs = []
+    p.append(caixa(0, 0, 1664, 400, BORDA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:clipboard-check", 24, 20, 40, TINTA))
+    rs.append(rot(80, 24, "Decisão de retorno", w=600, tam=24, cor=TINTA, peso=700, serif=True))
+    campos = [("Estado de saúde", "com os testes", OXID), ("Risco da participação", "no esporte e na posição", OXID), ("Modificadores", "os que foram considerados", GLIC),
+              ("Saída escolhida", "", TINTA), ("Condições", "restrições, prazo e sinais para parar", FOSF), ("Data de revisão", "a próxima conversa já marcada", TINTA)]
+    for k, (t, d, cor) in enumerate(campos):
+        y = 80 + k * 52
+        p.append(f'<line x1="24" y1="{y + 44}" x2="1640" y2="{y + 44}" stroke="{BORDA}" stroke-width="2"/>')
+        p.append(f'<rect x="24" y="{y + 6}" width="8" height="32" rx="4" fill="{cor}"/>')
+        rs.append(rot(48, y + 10, t, w=360, tam=21, cor=cor, peso=700))
+        if d:
+            rs.append(rot(420, y + 12, d, w=900, tam=19, cor=MUDO))
+    for j, t in enumerate(["liberar", "com restrição", "ainda não"]):
+        x = 420 + j * 300
+        p.append(f'<rect x="{x}" y="{80 + 3 * 52 + 10}" width="26" height="26" rx="4" fill="{CARTAO}" stroke="{TINTA}" stroke-width="2"/>')
+        rs.append(rot(x + 38, 80 + 3 * 52 + 12, t, w=240, tam=19, cor=TINTA))
+    return slide("registro", 400, p, rs, eyebrow="O registro", titulo="Seis campos bastam",
+                 destaque="Protege a atleta, mostra o raciocínio da equipe e organiza a próxima conversa.", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipoteses_81, laudo_81, vieses_81, quem_81],
@@ -2130,7 +2348,8 @@ LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipot
           "08-07": [um3_87, ensaio_87, programa_87, ortese_87, juntar_87, oito_87, paass_87, barato_87, erros_87, quem_87],
           "08-08": [paro_88, alerta_88, natacao_88, mod_ombro_88, cirurgia_88, meio_88, flexao_88, risco_88, mod_coluna_88, custo_88],
           "08-09": [perguntas_89, aparelho_89, fita_89, manual_89, janela_89, caros_89, contexto_89, reconhecer_89, quem_89],
-          "08-10": [simetria_810, roteiro_810, medir_810, epic_810, distancia_810, esporte_810, cabeca_810, preve_810, consultorio_810, quem_810]}
+          "08-10": [simetria_810, roteiro_810, medir_810, epic_810, distancia_810, esporte_810, cabeca_810, preve_810, consultorio_810, quem_810],
+          "08-11": [tatame_811, variam_811, passos_811, aceitar_811, saidas_811, quem_811, conversa_811, conflitos_811, semclube_811, registro_811]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
