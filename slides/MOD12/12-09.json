@@ -1,0 +1,1131 @@
+{
+ "arquivo": "aulas/MOD12/12-09-o-atleta-master.md",
+ "titulo": "O atleta máster",
+ "subtitulo": "Dois anos de um triatleta que ouviu “é a idade”",
+ "nota_capa": "Acompanha, por vinte e quatro meses ilustrativos, um triatleta na casa dos quarenta.",
+ "secoes": {
+  "linha": [
+   "O caso.",
+   "capa"
+  ],
+  "curva": [
+   "O que a idade explica.",
+   "curva"
+  ],
+  "perguntas": [
+   "A investigação.",
+   "perguntas"
+  ],
+  "balanca": [
+   "O treino.",
+   "balanca"
+  ],
+  "desfecho": [
+   "O resto da linha.",
+   "desfecho"
+  ]
+ },
+ "slides": [
+  {
+   "id": "linha",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Linha do tempo de 24 meses ilustrativos. Mês 0: volta ao triatlo com o plano dos 25. Mês 6: melhor prova da volta. Mês 10: desempenho começa a cair. Mês 11: remédio novo para a pressão. Mês 13: dor no tendão de Aquiles. Mês 16: é a idade. Embaixo: quatro sessões duras por semana, nenhuma de força\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><line x1=\"60\" y1=\"380\" x2=\"1600\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"60\" y1=\"372\" x2=\"60\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"445\" y1=\"372\" x2=\"445\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"830\" y1=\"372\" x2=\"830\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1215\" y1=\"372\" x2=\"1215\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1600\" y1=\"372\" x2=\"1600\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1087\" y=\"40\" width=\"513\" height=\"300\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\" stroke-dasharray=\"8 6\"/><path d=\"M 60 300 L 252 230 L 445 190 L 638 200 L 702 210 L 894 280 L 1087 330\" stroke=\"#3A6EA5\" stroke-width=\"7\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"60\" cy=\"300\" r=\"14\" fill=\"#12202E\"/><circle cx=\"445\" cy=\"190\" r=\"14\" fill=\"#008A7E\"/><circle cx=\"766\" cy=\"230\" r=\"14\" fill=\"#B07A1C\"/><circle cx=\"894\" cy=\"280\" r=\"14\" fill=\"#A8322A\"/><circle cx=\"1087\" cy=\"330\" r=\"14\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 320,
+     "w": 260,
+     "t": "volta, com o plano dos 25",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 345,
+     "y": 112,
+     "w": 220,
+     "t": "melhor prova da volta",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 616,
+     "y": 140,
+     "w": 240,
+     "t": "remédio novo para a pressão",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 914,
+     "y": 240,
+     "w": 200,
+     "t": "dor no Aquiles",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1111,
+     "y": 316,
+     "w": 220,
+     "t": "“é a idade”",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 10,
+     "y": 396,
+     "w": 100,
+     "t": "mês 0",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 395,
+     "y": 396,
+     "w": 100,
+     "t": "mês 6",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 396,
+     "w": 100,
+     "t": "mês 12",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1165,
+     "y": 396,
+     "w": 100,
+     "t": "mês 18",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1550,
+     "y": 396,
+     "w": 100,
+     "t": "mês 24",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1347,
+     "y": 60,
+     "w": 260,
+     "t": "o resto da linha, no fim da conversa",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 0,
+     "w": 600,
+     "t": "desempenho · meses ilustrativos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um triatleta na casa dos quarenta volta a competir",
+   "titulo": "Dois anos de um atleta que ouviu “é a idade”"
+  },
+  {
+   "id": "curva",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Curva dos recordes mundiais máster por idade: quase reta e suave até perto dos 80 anos, depois dobrando para baixo. Ao lado, a curva do triatleta caindo em seis meses. Três cautelas: é o teto, não a média; menos competidores nas faixas mais velhas; é um mosaico, não uma pessoa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"60\" y1=\"380\" x2=\"900\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 80 70 L 640 170 C 720 190 780 260 860 360\" stroke=\"#3A6EA5\" stroke-width=\"7\" fill=\"none\"/><rect x=\"960\" y=\"0\" width=\"300\" height=\"200\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 990 70 L 1080 46 L 1230 110\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\"/><rect x=\"960\" y=\"230\" width=\"704\" height=\"60\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"960\" y=\"302\" width=\"704\" height=\"60\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"960\" y=\"374\" width=\"704\" height=\"60\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 392,
+     "w": 60,
+     "t": "35",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 392,
+     "w": 80,
+     "t": "≈ 80",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 392,
+     "w": 140,
+     "t": "idade",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 230,
+     "w": 420,
+     "t": "recordes máster: inclinação suave até perto dos 80",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 136,
+     "w": 260,
+     "t": "o triatleta: queda em seis meses",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 980,
+     "y": 246,
+     "w": 664,
+     "t": "é o teto, não a média",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 318,
+     "w": 664,
+     "t": "menos competidores nas faixas mais velhas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 390,
+     "w": 664,
+     "t": "um mosaico, não uma pessoa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 40,
+     "w": 364,
+     "t": "Idade não muda de um semestre para o outro.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Análise de 2017 dos recordes mundiais máster",
+   "titulo": "A idade é uma inclinação suave, não uma queda",
+   "fonte": "J Physiol 2017"
+  },
+  {
+   "id": "determinantes",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três determinantes do desempenho de resistência: consumo máximo de oxigênio cai, por frequência cardíaca máxima e volume sistólico; limiar como fração do máximo preservado em quem treina; economia preservada. No máster pesam também: potência cai mais rápido e recuperação mais lenta\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"340\" height=\"300\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"120\" y1=\"40\" x2=\"220\" y2=\"120\" stroke=\"#A8322A\" stroke-width=\"8\" marker-end=\"url(#m0)\"/><rect x=\"360\" y=\"0\" width=\"340\" height=\"300\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"470\" y1=\"80\" x2=\"590\" y2=\"80\" stroke=\"#008A7E\" stroke-width=\"8\" marker-end=\"url(#m1)\"/><rect x=\"720\" y=\"0\" width=\"340\" height=\"300\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"830\" y1=\"80\" x2=\"950\" y2=\"80\" stroke=\"#008A7E\" stroke-width=\"8\" marker-end=\"url(#m1)\"/><rect x=\"1110\" y=\"0\" width=\"554\" height=\"300\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"330\" width=\"1664\" height=\"110\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 150,
+     "w": 300,
+     "t": "consumo máximo de oxigênio",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 226,
+     "w": 300,
+     "t": "frequência cardíaca máxima e volume sistólico caem",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 150,
+     "w": 300,
+     "t": "limiar como fração do máximo",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 380,
+     "y": 226,
+     "w": 300,
+     "t": "preservado ou maior em quem treina",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 150,
+     "w": 300,
+     "t": "economia de movimento",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 740,
+     "y": 226,
+     "w": 300,
+     "t": "preservada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1134,
+     "y": 20,
+     "w": 506,
+     "t": "E no máster pesam ainda",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1134,
+     "y": 90,
+     "w": 506,
+     "t": "· a potência cai mais depressa que a força",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1134,
+     "y": 170,
+     "w": 506,
+     "t": "· a recuperação do mesmo estímulo demora mais",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 350,
+     "w": 1624,
+     "t": "Desempenho de resistência: mantido até ≈ 35 anos, queda modesta até 50 a 60, mais íngreme depois",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Revisão de 2008 sobre atletas máster de resistência",
+   "titulo": "O máximo cai; limiar e economia se preservam",
+   "fonte": "J Physiol 2008"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três perguntas: mudou em meses ou em anos? O treino mudou, ainda treina força? Há uma explicação médica que ninguém procurou? Ao lado da primeira, a curva do triatleta: meses\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"70\" cy=\"70\" r=\"44\" fill=\"#A8322A\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"634\" cy=\"70\" r=\"44\" fill=\"#B07A1C\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"1198\" cy=\"70\" r=\"44\" fill=\"#3A6EA5\"/><rect x=\"0\" y=\"330\" width=\"536\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"564\" y=\"330\" width=\"536\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"1128\" y=\"330\" width=\"536\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 46,
+     "w": 80,
+     "t": "1",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 140,
+     "w": 488,
+     "t": "Mudou em meses ou em anos?",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 594,
+     "y": 46,
+     "w": 80,
+     "t": "2",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 140,
+     "w": 488,
+     "t": "O treino mudou? Ainda treina força?",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1158,
+     "y": 46,
+     "w": 80,
+     "t": "3",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 140,
+     "w": 488,
+     "t": "Há uma explicação médica que ninguém procurou?",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 362,
+     "w": 496,
+     "t": "no triatleta: meses: não é a idade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 584,
+     "y": 362,
+     "w": 496,
+     "t": "no triatleta: nunca voltou à força; quatro sessões duras",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1148,
+     "y": 362,
+     "w": 496,
+     "t": "no triatleta: a seguir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Antes de dizer “é a idade”",
+   "titulo": "Três perguntas tiram a idade do papel principal"
+  },
+  {
+   "id": "disfarces",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Seis diagnósticos que se disfarçam de idade: deficiência de ferro, tireoide, apneia do sono, remédio novo, energia insuficiente, depressão. Acesos no caso: ferritina baixa com hemoglobina normal e betabloqueador há cinco meses. No homem acima dos quarenta, ferritina baixa pede investigação da causa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"0\" y=\"170\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"564\" y=\"170\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"1128\" y=\"170\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"0\" y=\"350\" width=\"1664\" height=\"90\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 22,
+     "w": 488,
+     "t": "deficiência de ferro",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 84,
+     "w": 488,
+     "t": "ferritina baixa, hemoglobina normal",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 22,
+     "w": 488,
+     "t": "tireoide",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 22,
+     "w": 488,
+     "t": "apneia do sono",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 192,
+     "w": 488,
+     "t": "remédio novo",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 254,
+     "w": 488,
+     "t": "betabloqueador há cinco meses",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 192,
+     "w": 488,
+     "t": "energia insuficiente",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 192,
+     "w": 488,
+     "t": "depressão",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 374,
+     "w": 1624,
+     "t": "No homem acima dos quarenta, ferritina baixa pede a investigação da causa, incluindo o tubo digestivo",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que a investigação achou",
+   "titulo": "Seis diagnósticos se disfarçam de idade"
+  },
+  {
+   "id": "balanca",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Balança de treino: estímulo contra recuperação disponível. Aos 25, equilibrada. Aos quarenta e poucos, o mesmo estímulo e menos recuperação: a balança tomba. A semana dele: quatro sessões duras, dias fáceis em ritmo moderado, nenhuma força\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><path d=\"M 270 120 L 240 300 L 300 300 Z\" fill=\"#12202E\"/><line x1=\"100\" y1=\"120\" x2=\"440\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"50\" y=\"10\" width=\"100\" height=\"100\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"390\" y=\"16\" width=\"100\" height=\"104\" rx=\"10\" fill=\"#008A7E\"/><path d=\"M 790 120 L 760 300 L 820 300 Z\" fill=\"#12202E\"/><line x1=\"620\" y1=\"148\" x2=\"960\" y2=\"92\" stroke=\"#12202E\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"570\" y=\"38\" width=\"100\" height=\"100\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"910\" y=\"28\" width=\"100\" height=\"64\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"1080\" y=\"0\" width=\"584\" height=\"440\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1104\" y=\"100\" width=\"40\" height=\"40\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"1104\" y=\"200\" width=\"40\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1104\" y=\"300\" width=\"40\" height=\"40\" rx=\"8\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 320,
+     "w": 400,
+     "t": "aos 25",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 320,
+     "w": 400,
+     "t": "aos quarenta e poucos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 380,
+     "w": 240,
+     "t": "estímulo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 380,
+     "w": 300,
+     "t": "recuperação disponível",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 20,
+     "w": 536,
+     "t": "A semana dele",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 104,
+     "w": 480,
+     "t": "4 sessões duras",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 204,
+     "w": 480,
+     "t": "dias fáceis em ritmo moderado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 304,
+     "w": 480,
+     "t": "nenhuma força",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O treino também se disfarçava de idade",
+   "titulo": "O plano não envelheceu junto com ele"
+  },
+  {
+   "id": "semana",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A semana nova: duas sessões duras separadas por 48 a 72 horas; dias fáceis de verdade; dois blocos de força; um dia livre; descarga quando os sinais aparecem. Estudo de 2013 com corredores máster de maratona: força máxima melhorou a economia de corrida em cerca de 6%, grupo de seis pessoas\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"136\" height=\"220\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"150\" y=\"0\" width=\"136\" height=\"220\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"300\" y=\"0\" width=\"136\" height=\"220\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"450\" y=\"0\" width=\"136\" height=\"220\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"600\" y=\"0\" width=\"136\" height=\"220\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"750\" y=\"0\" width=\"136\" height=\"220\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"900\" y=\"0\" width=\"136\" height=\"220\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"1100\" y=\"0\" width=\"564\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 20,
+     "w": 136,
+     "t": "seg",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 8,
+     "y": 100,
+     "w": 120,
+     "t": "dura",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 150,
+     "y": 20,
+     "w": 136,
+     "t": "ter",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 158,
+     "y": 100,
+     "w": 120,
+     "t": "fácil + força",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 300,
+     "y": 20,
+     "w": 136,
+     "t": "qua",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 308,
+     "y": 100,
+     "w": 120,
+     "t": "fácil",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 450,
+     "y": 20,
+     "w": 136,
+     "t": "qui",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 458,
+     "y": 100,
+     "w": 120,
+     "t": "dura",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 600,
+     "y": 20,
+     "w": 136,
+     "t": "sex",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 608,
+     "y": 100,
+     "w": 120,
+     "t": "fácil + força",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 750,
+     "y": 20,
+     "w": 136,
+     "t": "sáb",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 758,
+     "y": 100,
+     "w": 120,
+     "t": "fácil longo",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 900,
+     "y": 20,
+     "w": 136,
+     "t": "dom",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 100,
+     "w": 120,
+     "t": "livre",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 240,
+     "w": 1040,
+     "t": "duas sessões duras, separadas por 48 a 72 horas · descarga quando os sinais aparecem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1124,
+     "y": 20,
+     "w": 516,
+     "t": "Estudo de 2013",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1124,
+     "y": 80,
+     "w": 516,
+     "t": "corredores máster de maratona; grupo de força máxima",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 190,
+     "w": 516,
+     "t": "+6%",
+     "tam": 72,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1124,
+     "y": 290,
+     "w": 516,
+     "t": "na economia de corrida no ritmo de maratona",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 380,
+     "w": 516,
+     "t": "estudo pequeno: seis pessoas no grupo",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A semana nova",
+   "titulo": "Menos sessões duras, dias fáceis de verdade e força",
+   "fonte": "J Strength Cond Res 2013"
+  },
+  {
+   "id": "desfecho",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Linha do tempo completa, mês 0 a 24. A partir do mês 16: ferro e causa investigados, remédio trocado por quem prescreveu, semana nova com força. A curva sobe de novo e passa o ponto do mês 10, sem chegar à linha tracejada dos 25 anos\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><line x1=\"60\" y1=\"380\" x2=\"1600\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"60\" y1=\"372\" x2=\"60\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"445\" y1=\"372\" x2=\"445\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"830\" y1=\"372\" x2=\"830\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1215\" y1=\"372\" x2=\"1215\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1600\" y1=\"372\" x2=\"1600\" y2=\"388\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"60\" y1=\"110\" x2=\"1600\" y2=\"110\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"12 8\"/><path d=\"M 60 300 L 252 230 L 445 190 L 638 200 L 702 210 L 894 280 L 1087 330\" stroke=\"#D9D4C8\" stroke-width=\"7\" fill=\"none\" stroke-linejoin=\"round\"/><path d=\"M 1087 330 L 1215 290 L 1343 230 L 1472 190 L 1600 170\" stroke=\"#008A7E\" stroke-width=\"8\" fill=\"none\" stroke-linejoin=\"round\"/><line x1=\"445\" y1=\"190\" x2=\"1600\" y2=\"190\" stroke=\"#3A6EA5\" stroke-width=\"2\" stroke-dasharray=\"6 6\"/><circle cx=\"830\" cy=\"224\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"830\" cy=\"264\" r=\"10\" fill=\"#3A6EA5\"/><circle cx=\"830\" cy=\"304\" r=\"10\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 850,
+     "y": 210,
+     "w": 420,
+     "t": "ferro e causa investigados",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 250,
+     "w": 420,
+     "t": "remédio trocado por quem prescreveu",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 290,
+     "w": 420,
+     "t": "semana nova, com força",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 70,
+     "w": 400,
+     "t": "aos 25: não volta",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 70,
+     "w": 500,
+     "t": "mês 24: melhor que na volta",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 335,
+     "y": 140,
+     "w": 220,
+     "t": "melhor prova da volta",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 396,
+     "w": 100,
+     "t": "mês 0",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 395,
+     "y": 396,
+     "w": 100,
+     "t": "mês 6",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 396,
+     "w": 100,
+     "t": "mês 12",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1165,
+     "y": 396,
+     "w": 100,
+     "t": "mês 18",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1550,
+     "y": 396,
+     "w": 100,
+     "t": "mês 24",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O resto da linha do tempo",
+   "titulo": "A idade é a menor parte, e a única que não se trata"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "O atleta máster",
+   "titulo": "Investigar antes de explicar, e fazer o plano envelhecer",
+   "regras": [
+    "A idade é uma inclinação suave: queda em meses quase nunca é idade",
+    "Antes de “é a idade”: meses ou anos, o treino mudou, que explicação ninguém procurou",
+    "Menos sessões duras, dias fáceis de verdade e força duas vezes por semana"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Investiga antes de explicar: ferro e causa, tireoide, sono, remédios, energia e humor."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Ajusta a densidade de sessões duras, protege os dias fáceis e põe a força na semana."
+    },
+    {
+     "ic": "t:calendar",
+     "t": "O atleta",
+     "x": "Registra o que mudou e quando: a pergunta dos meses ou anos depende disso."
+    }
+   ]
+  }
+ ],
+ "modulo": "Atleta Adolescente e Atleta Idoso",
+ "tema": "musgo"
+}
