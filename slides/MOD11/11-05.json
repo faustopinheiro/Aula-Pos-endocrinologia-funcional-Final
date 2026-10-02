@@ -1,0 +1,1119 @@
+{
+ "arquivo": "aulas/MOD11/11-05-reds-da-triade-ao-modelo-multissistemico.md",
+ "titulo": "REDs: da tríade ao modelo multissistêmico",
+ "subtitulo": "Por que a ficha de três caixas está errada",
+ "nota_capa": "Entra por uma corredora de rua cujos ciclos espaçaram no ano da primeira maratona.",
+ "secoes": {
+  "caixas": [
+   "O erro.",
+   "capa"
+  ],
+  "linha": [
+   "De onde ele vem.",
+   "linha"
+  ],
+  "disputa": [
+   "Os dois vocabulários.",
+   "disputa"
+  ],
+  "exclusao": [
+   "O funil.",
+   "exclusao"
+  ]
+ },
+ "slides": [
+  {
+   "id": "caixas",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Uma ficha de avaliação com três caixas de seleção, transtorno alimentar, amenorreia e osteoporose, nenhuma marcada. Ao lado de amenorreia, escrito à mão: ciclos de 45 a 60 dias. Embaixo, um carimbo: não fecha tríade. À direita, uma pista de corrida e o volume que quase dobrou em um ano\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"460\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"40\" y=\"100\" width=\"46\" height=\"46\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"40\" y=\"180\" width=\"46\" height=\"46\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"40\" y=\"260\" width=\"46\" height=\"46\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 410 210 Q 380 205 370 200\" stroke=\"#B07A1C\" stroke-width=\"3\" fill=\"none\"/><rect x=\"200\" y=\"350\" width=\"420\" height=\"80\" rx=\"10\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"900\" y=\"40\" width=\"700\" height=\"300\" rx=\"150\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"8\"/><rect x=\"934\" y=\"74\" width=\"632\" height=\"232\" rx=\"116\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"4\"/><rect x=\"968\" y=\"108\" width=\"564\" height=\"164\" rx=\"82\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"4\"/><rect x=\"1002\" y=\"142\" width=\"496\" height=\"96\" rx=\"48\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"4\"/><g transform=\"translate(1180.0 150.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 24,
+     "w": 760,
+     "t": "Ficha de avaliação",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 106,
+     "w": 330,
+     "t": "transtorno alimentar",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 186,
+     "w": 330,
+     "t": "amenorreia",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 266,
+     "w": 330,
+     "t": "osteoporose",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 188,
+     "w": 380,
+     "t": "ciclos de 45 a 60 dias",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 200,
+     "y": 368,
+     "w": 420,
+     "t": "não fecha tríade",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 370,
+     "w": 760,
+     "t": "volume semanal quase dobrou em um ano",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 414,
+     "w": 760,
+     "t": "primeira maratona",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma corredora de rua, na casa dos trinta",
+   "titulo": "Esperar as três caixas marcadas deixa a maioria de fora"
+  },
+  {
+   "id": "linha",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Linha do tempo de 1992 a 2023. 1992: três doenças. 1997: primeiro posicionamento do colégio americano. 2007: três espectros, energia como motor. 2014: consenso da coalizão da tríade e REDs do Comitê Olímpico. 2021: tríade masculina. 2023: REDs revisado. Embaixo, uma faixa que vai de diagnóstico tardio a reconhecimento precoce\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"40\" y1=\"200\" x2=\"1624\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"70\" cy=\"200\" r=\"16\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"315\" cy=\"200\" r=\"16\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"805\" cy=\"200\" r=\"16\" fill=\"#008A7E\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"1149\" cy=\"200\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"1492\" cy=\"200\" r=\"16\" fill=\"#008A7E\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"1590\" cy=\"200\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><defs><linearGradient id=\"gt\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#A8322A\"/><stop offset=\"1\" stop-color=\"#008A7E\"/></linearGradient></defs><rect x=\"40\" y=\"390\" width=\"1584\" height=\"64\" rx=\"32\" fill=\"url(#gt)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 50,
+     "y": 30,
+     "w": 340,
+     "t": "1992",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 50,
+     "y": 80,
+     "w": 340,
+     "t": "três doenças",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 295,
+     "y": 232,
+     "w": 340,
+     "t": "1997",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 295,
+     "y": 282,
+     "w": 340,
+     "t": "primeiro posicionamento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 635,
+     "y": 30,
+     "w": 340,
+     "t": "2007",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 635,
+     "y": 80,
+     "w": 340,
+     "t": "três espectros; energia como motor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 979,
+     "y": 232,
+     "w": 340,
+     "t": "2014",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 979,
+     "y": 282,
+     "w": 340,
+     "t": "coalizão da tríade e REDs do Comitê Olímpico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1192,
+     "y": 30,
+     "w": 320,
+     "t": "2021",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1192,
+     "y": 80,
+     "w": 320,
+     "t": "tríade masculina",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 232,
+     "w": 320,
+     "t": "2023",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1290,
+     "y": 282,
+     "w": 320,
+     "t": "REDs revisado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 404,
+     "w": 600,
+     "t": "diagnóstico tardio",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 994,
+     "y": 404,
+     "w": 600,
+     "t": "reconhecimento precoce",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Trinta anos de revisões",
+   "titulo": "Cada revisão empurrou o diagnóstico para mais cedo"
+  },
+  {
+   "id": "espectros",
+   "tipo": "diagrama",
+   "h": 490,
+   "svg": "<svg aria-label=\"Três réguas empilhadas. Energia: da baixa disponibilidade, com ou sem transtorno alimentar, à disponibilidade ótima. Ciclo: da amenorreia hipotalâmica funcional, passando por disfunção subclínica e oligomenorreia, à eumenorreia. Osso: da osteoporose, passando pela densidade baixa, à saúde óssea ótima. Uma seta sai do cursor da energia e empurra os outros dois. Esquema\" width=\"1664\" height=\"490\" viewBox=\"0 0 1664 490\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><defs><linearGradient id=\"gr\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#A8322A\"/><stop offset=\"0.5\" stop-color=\"#B07A1C\"/><stop offset=\"1\" stop-color=\"#008A7E\"/></linearGradient></defs><rect x=\"280\" y=\"30\" width=\"1380\" height=\"40\" rx=\"20\" fill=\"url(#gr)\"/><path d=\"M 804 26 l -18 -28 l 36 0 z\" fill=\"#12202E\"/><rect x=\"280\" y=\"190\" width=\"1380\" height=\"40\" rx=\"20\" fill=\"url(#gr)\"/><path d=\"M 970 186 l -18 -28 l 36 0 z\" fill=\"#12202E\"/><rect x=\"280\" y=\"350\" width=\"1380\" height=\"40\" rx=\"20\" fill=\"url(#gr)\"/><path d=\"M 1274 346 l -18 -28 l 36 0 z\" fill=\"#12202E\"/><line x1=\"230\" y1=\"76\" x2=\"230\" y2=\"178\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"230\" y1=\"236\" x2=\"230\" y2=\"338\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 32,
+     "w": 200,
+     "t": "Energia",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 280,
+     "y": 82,
+     "w": 520,
+     "t": "baixa, com ou sem transtorno alimentar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 82,
+     "w": 400,
+     "t": "ótima",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 192,
+     "w": 200,
+     "t": "Ciclo",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 280,
+     "y": 242,
+     "w": 520,
+     "t": "amenorreia hipotalâmica",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 242,
+     "w": 400,
+     "t": "eumenorreia",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 770,
+     "y": 242,
+     "w": 420,
+     "t": "subclínica · oligomenorreia",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 352,
+     "w": 200,
+     "t": "Osso",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 280,
+     "y": 402,
+     "w": 520,
+     "t": "osteoporose",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 402,
+     "w": 400,
+     "t": "saúde óssea ótima",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 770,
+     "y": 402,
+     "w": 420,
+     "t": "densidade baixa",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 452,
+     "w": 260,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O modelo de 2007",
+   "titulo": "Cada componente é uma régua; a energia empurra as outras"
+  },
+  {
+   "id": "prevalencia",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três barras de faixa sobre um eixo de 0 a 60 por cento. Um componente: de 16 a 60 por cento. Dois componentes: de 2,7 a 27 por cento. Os três: de 0 a 15,9 por cento\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"400\" y1=\"10\" x2=\"400\" y2=\"330\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"800\" y1=\"10\" x2=\"800\" y2=\"330\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"1200\" y1=\"10\" x2=\"1200\" y2=\"330\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"1600\" y1=\"10\" x2=\"1600\" y2=\"330\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"720\" y=\"30\" width=\"880\" height=\"60\" rx=\"12\" fill=\"#008A7E\"/><rect x=\"454\" y=\"134\" width=\"486\" height=\"60\" rx=\"12\" fill=\"#B07A1C\"/><rect x=\"400\" y=\"238\" width=\"318\" height=\"60\" rx=\"12\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 340,
+     "y": 344,
+     "w": 120,
+     "t": "0%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 344,
+     "w": 120,
+     "t": "20%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 344,
+     "w": 120,
+     "t": "40%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1540,
+     "y": 344,
+     "w": 120,
+     "t": "60%",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 40,
+     "w": 370,
+     "t": "Um componente",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 42,
+     "w": 400,
+     "t": "16 a 60%",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 144,
+     "w": 370,
+     "t": "Dois componentes",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 956,
+     "y": 146,
+     "w": 300,
+     "t": "2,7 a 27%",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 248,
+     "w": 370,
+     "t": "Os três",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 734,
+     "y": 250,
+     "w": 300,
+     "t": "0 a 15,9%",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 384,
+     "w": 1200,
+     "t": "faixas largas: populações, esportes e cortes diferentes",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Revisão sistemática de 2013, 65 estudos",
+   "titulo": "A tríade completa é a forma rara; um componente só é a comum",
+   "fonte": "Med Sci Sports Exerc 2013"
+  },
+  {
+   "id": "regra",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Um triângulo com três vértices: energia, ciclo e osso. O vértice do ciclo aceso; dele saem setas pontilhadas para os outros dois, com pontos de interrogação. À direita, quatro círculos menores apagados: ferro, imunidade, humor, desempenho, o resto do corpo\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 450 80 L 160 380 L 740 380 Z\" fill=\"none\" stroke=\"#D9D4C8\" stroke-width=\"4\"/><circle cx=\"450\" cy=\"80\" r=\"72\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><circle cx=\"160\" cy=\"380\" r=\"72\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"740\" cy=\"380\" r=\"72\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><line x1=\"210\" y1=\"312\" x2=\"380\" y2=\"140\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\" stroke-dasharray=\"10 8\"/><line x1=\"240\" y1=\"380\" x2=\"650\" y2=\"380\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\" stroke-dasharray=\"10 8\"/><rect x=\"940\" y=\"20\" width=\"724\" height=\"430\" rx=\"18\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><circle cx=\"1060\" cy=\"180\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1390\" cy=\"180\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1060\" cy=\"330\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1390\" cy=\"330\" r=\"50\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 360,
+     "y": 62,
+     "w": 180,
+     "t": "energia",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 362,
+     "w": 180,
+     "t": "ciclo",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 362,
+     "w": 180,
+     "t": "osso",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 200,
+     "w": 60,
+     "t": "?",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 400,
+     "w": 60,
+     "t": "?",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 40,
+     "w": 680,
+     "t": "O resto do corpo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1122,
+     "y": 164,
+     "w": 200,
+     "t": "ferro",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1452,
+     "y": 164,
+     "w": 200,
+     "t": "imunidade",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1122,
+     "y": 314,
+     "w": 200,
+     "t": "humor",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1452,
+     "y": 314,
+     "w": 200,
+     "t": "desempenho",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 404,
+     "w": 680,
+     "t": "pesam mais sob contracepção hormonal",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que entra no lugar da ficha",
+   "titulo": "Um componente aceso obriga a procurar os outros dois",
+   "destaque": "A regra já estava no posicionamento de 2007: quem chega com um componente é avaliada para os outros.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "disputa",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Duas colunas de 2014. Comitê Olímpico: muitos sistemas, homens incluídos, o nome tríade deixa gente de fora. Coalizão da tríade: o modelo de 2007 já punha a energia como motor, elos novos sem evidência causal, nome novo confunde. Embaixo, a faixa de acordo: a energia que falta é o motor\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"330\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"330\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"370\" width=\"1664\" height=\"100\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 28,
+     "y": 22,
+     "w": 740,
+     "t": "Comitê Olímpico, 2014",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 104,
+     "w": 740,
+     "t": "· muitos sistemas, não três",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 174,
+     "w": 740,
+     "t": "· homens também",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 244,
+     "w": 740,
+     "t": "· o nome tríade deixa gente de fora",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 892,
+     "y": 22,
+     "w": 740,
+     "t": "Coalizão da tríade, 2014",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 904,
+     "y": 104,
+     "w": 740,
+     "t": "· 2007 já punha a energia como motor",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 174,
+     "w": 740,
+     "t": "· elos novos sem evidência causal",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 244,
+     "w": 740,
+     "t": "· nome novo confunde quem atende",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 396,
+     "w": 1624,
+     "t": "Onde concordam: a energia que falta é o motor",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "A troca de nome não foi pacífica",
+   "titulo": "A briga de 2014 era sobre o mapa e o nome, não sobre a causa"
+  },
+  {
+   "id": "convergencia",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Duas estradas que saem de pontos diferentes em 2014 e se encontram. Na estrada da tríade, a placa de 2021: tríade masculina. Na estrada do REDs, a placa de 2023: muitos sistemas, gravidade em faixas. No encontro, uma placa única: energia no centro, homens incluídos, reconhecer cedo\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><path d=\"M 0 70 C 500 70 760 235 1200 235\" stroke=\"#B07A1C\" stroke-opacity=\"0.25\" stroke-width=\"54\" fill=\"none\"/><path d=\"M 0 70 C 500 70 760 235 1200 235\" stroke=\"#B07A1C\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"10 8\"/><path d=\"M 0 400 C 500 400 760 235 1200 235\" stroke=\"#3A6EA5\" stroke-opacity=\"0.25\" stroke-width=\"54\" fill=\"none\"/><path d=\"M 0 400 C 500 400 760 235 1200 235\" stroke=\"#3A6EA5\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"10 8\"/><rect x=\"380\" y=\"110\" width=\"420\" height=\"96\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"380\" y=\"268\" width=\"420\" height=\"96\" rx=\"12\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1200\" y=\"80\" width=\"464\" height=\"310\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><g transform=\"translate(1224.0 110.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><g transform=\"translate(1224.0 202.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><g transform=\"translate(1224.0 294.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 6,
+     "w": 300,
+     "t": "tríade, 2014",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 440,
+     "w": 300,
+     "t": "REDs, 2014",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 118,
+     "w": 390,
+     "t": "2021 · tríade masculina",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 156,
+     "w": 390,
+     "t": "energia, hipogonadismo, osso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 276,
+     "w": 390,
+     "t": "2023 · REDs revisado",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 314,
+     "w": 390,
+     "t": "muitos sistemas, gravidade em faixas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 112,
+     "w": 360,
+     "t": "energia no centro",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 204,
+     "w": 360,
+     "t": "homens incluídos",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 296,
+     "w": 360,
+     "t": "reconhecer cedo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que veio depois",
+   "titulo": "As duas estradas convergiram, e a conduta é a mesma nas duas",
+   "destaque": "Use o nome que quem vai ler o relatório entende. O motor não muda.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "exclusao",
+   "tipo": "diagrama",
+   "h": 500,
+   "svg": "<svg aria-label=\"Um funil com cinco filtros, cada um com o exame ao lado. Gravidez, beta-hCG. Prolactina alta, prolactina. Tireoide, TSH e T4 livre. Ovário que falhou, FSH alto. Excesso de andrógeno e ovário policístico, clínica, testosterona e hormônio antimülleriano. No fundo, o que sobra: amenorreia hipotalâmica funcional, com LH e estradiol baixos e FSH sem subir\" width=\"1664\" height=\"500\" viewBox=\"0 0 1664 500\"><rect x=\"30\" y=\"0\" width=\"860\" height=\"58\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"900\" y1=\"29\" x2=\"930\" y2=\"29\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"75\" y=\"70\" width=\"770\" height=\"58\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"855\" y1=\"99\" x2=\"930\" y2=\"99\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"120\" y=\"140\" width=\"680\" height=\"58\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"810\" y1=\"169\" x2=\"930\" y2=\"169\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"165\" y=\"210\" width=\"590\" height=\"58\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"765\" y1=\"239\" x2=\"930\" y2=\"239\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"210\" y=\"280\" width=\"500\" height=\"58\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"720\" y1=\"309\" x2=\"930\" y2=\"309\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"150\" y=\"370\" width=\"620\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"950\" y=\"390\" width=\"714\" height=\"90\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(970.0 410.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 12,
+     "w": 860,
+     "t": "gravidez",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 12,
+     "w": 714,
+     "t": "beta-hCG, sempre primeiro",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 75,
+     "y": 82,
+     "w": 770,
+     "t": "prolactina alta",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 82,
+     "w": 714,
+     "t": "prolactina",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 152,
+     "w": 680,
+     "t": "tireoide",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 152,
+     "w": 714,
+     "t": "TSH e T4 livre",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 165,
+     "y": 222,
+     "w": 590,
+     "t": "ovário que falhou",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 222,
+     "w": 714,
+     "t": "FSH alto",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 210,
+     "y": 292,
+     "w": 500,
+     "t": "andrógeno · ovário policístico",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 292,
+     "w": 714,
+     "t": "clínica, testosterona, antimülleriano",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 384,
+     "w": 600,
+     "t": "amenorreia hipotalâmica funcional",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 160,
+     "y": 436,
+     "w": 600,
+     "t": "LH e estradiol baixos · FSH sem subir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1036,
+     "y": 416,
+     "w": 610,
+     "t": "duas causas podem coexistir",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que só o médico faz",
+   "titulo": "A amenorreia só vira energética depois de excluir o resto",
+   "fonte": "Diretriz da sociedade de endocrinologia, J Clin Endocrinol Metab 2017"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "REDs: da tríade ao modelo multissistêmico",
+   "titulo": "Quem espera as três caixas chega depois",
+   "regras": [
+    "Um componente aceso: procure os outros dois e o resto do corpo",
+    "Amenorreia é diagnóstico de exclusão: gravidez, prolactina, tireoide e ovário primeiro",
+    "Tríade ou REDs, o motor é a energia: devolver energia, não apagar o sinal"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e prepara",
+     "x": "Reconhece o vértice aceso e encaminha."
+    },
+    {
+     "ic": "t:salad",
+     "t": "Nutrição",
+     "x": "Avalia a energia e conduz a correção, a intervenção principal."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina e ginecologia",
+     "x": "Fazem o funil de exclusão, pedem densitometria e decidem a liberação."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
