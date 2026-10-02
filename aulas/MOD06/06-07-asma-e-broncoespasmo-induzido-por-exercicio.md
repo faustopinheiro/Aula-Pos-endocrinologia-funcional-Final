@@ -182,7 +182,7 @@ E o dado que liberta o paciente: a revisão sistemática Cochrane sobre treino f
 
 Quem faz o quê. Diagnosticar com medida objetiva, prescrever, ajustar controle e conduzir a autorização: médico. Perguntar sobre tosse e chiado no esforço e encaminhar: todos. Montar o aquecimento, progredir carga e ajustar horário e ambiente: preparador e profissional de educação física, com o médico. Padrão respiratório na obstrução laríngea: fonoaudiologia. Registrar o que é inalado: a comissão inteira, como na aula de encaminhamento do módulo de fundamentos.
 
-Na próxima aula, a decisão que todo mundo já tomou errado pelo menos uma vez: infecção e retorno depois de doença. Quando o atleta pode treinar com sintoma, quando não pode, e por que a gripe que parecia pequena preocupa o coração.
+Na próxima conversa, a decisão que todo mundo já tomou errado pelo menos uma vez: infecção e retorno depois de doença. Quando o atleta pode treinar com sintoma, quando não pode, e por que a gripe que parecia pequena preocupa o coração.
 
 ---
 
@@ -204,6 +204,8 @@ Arquitetura NÚMERO mantida (a anterior é DECISÃO; a próxima é DECISÃO). Os
 nomeados, com idade, viraram perfis típicos sem nome e sem idade: o adolescente afastado da
 educação física, a nadadora de piscina coberta, o corredor de rua.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (os três perfis, os números, o mecanismo, a prevalência, os diferenciais, a laringe, as camadas, o aquecimento, as doses e a urina), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** ATS 2013: queda de 10% ou mais do VEF1 (média mais dois desvios de pessoas
 saudáveis); broncodilatador de curta ação em geral 15 minutos antes; uso diário gera tolerância,
 recomendação de uso intermitente; aquecimento de 10 a 15 minutos com redução do broncoespasmo por
@@ -214,7 +216,7 @@ vilanterol 25 µg em 24 h; limiares urinários de 1.000 ng/mL para salbutamol e 
 formoterol. Cochrane 2013: 21 estudos, treino melhora o condicionamento, bem tolerado, sem relato
 de piora da asma.
 
-**Correções.**
+**Correções.** 
 - A prevalência na população geral, de 5 a 20%, saiu: não encontrei a fonte do intervalo no
   material conferido. Ficou só a comparação qualitativa.
 - "Em esquiadores de fundo, mais da metade afetados" saiu pelo mesmo motivo.
@@ -224,9 +226,10 @@ de piora da asma.
   alergia e segue com sintoma.
 - "Só uma gripezinha já matou gente em campo", na ponte para a próxima aula, virou uma frase sem
   afirmação de desfecho.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa".
 
 **Saíram.** "5.10", "6.2", "6.9", "6.12", "1.7", "6.8", "Escopo", os nomes e as idades, o bloco
-"Roteiro Gamma".
+"Roteiro Gamma". Duração de 18 para 15 minutos.
 
 **Citações faladas.** Sociedade Torácica Americana; Cochrane; lista da Agência Mundial Antidoping.
 Nenhum autor por nome.

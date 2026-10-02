@@ -90,7 +90,7 @@ No Brasil, a obrigatoriedade do aparelho depende de lei estadual e municipal; n�
 
 Passo três: reconhecer e começar.
 
-A regra da aula anterior, agora em ação. Atleta que cai sem contato e não responde está em parada até prova em contrário. Abalo que parece convulsão não exclui. Respiração agônica, o gasping, não exclui.
+A regra de reconhecimento, agora em ação. Atleta que cai sem contato e não responde está em parada até prova em contrário. Abalo que parece convulsão não exclui. Respiração agônica, o gasping, não exclui.
 
 A sequência é curta. Chame e estimule: nome, ombro, voz alta. Sem resposta e sem respiração normal, acabou a avaliação. Grite por ajuda e dispare duas tarefas ao mesmo tempo, com os nomes da folha: "traz o DEA" e "liga 192".
 
@@ -178,7 +178,7 @@ Engasgo: tosse eficaz, deixe tossir. Parou de tossir e não passa ar, manobra de
 
 Convulsão de verdade, a que não é parada: protege a cabeça, não segura o corpo, nada na boca, cronometra. Passou de cinco minutos ou repetiu, emergência.
 
-Fratura exposta e luxação: imobiliza como está, não tenta reduzir em campo. O detalhe disso é assunto do próximo módulo, de lesões. E a concussão, a mais frequente nos esportes de contato, tem a próxima aula inteira.
+Fratura exposta e luxação: imobiliza como está, não tenta reduzir em campo. O detalhe disso é assunto do próximo módulo, de lesões. E a concussão, a mais frequente nos esportes de contato, tem a próxima conversa inteira.
 
 ---
 
@@ -212,7 +212,7 @@ Garantir DEA acessível e conferido, plano escrito, capacitação periódica e e
 
 E o mínimo viável, para a várzea, a escola pública e a academia de bairro, onde não há médico, ambulância nem DEA: um telefone carregado, o endereço escrito, alguém que saiba reconhecer e comprimir, o portão aberto e a informação de onde está o DEA mais próximo. Custa perto de zero e já é muito melhor do que o que existe na maioria dos campos do país.
 
-Na próxima aula, a emergência mais frequente do esporte de contato, a mais subnotificada e a que mais gera decisão errada à beira do campo: concussão, com reconhecimento, retirada imediata e retorno progressivo.
+Na próxima conversa, a emergência mais frequente do esporte de contato, a mais subnotificada e a que mais gera decisão errada à beira do campo: concussão, com reconhecimento, retirada imediata e retorno progressivo.
 
 ---
 
@@ -236,13 +236,15 @@ seis passos logo no início, dividido em antes, durante e depois da queda, para 
 procedimento da primeira aula do módulo. Sem caso clínico: a cena de abertura é um perfil típico,
 sem idade e sem desfecho.
 
+Nesta revisão, os 11 slides que ainda eram texto viraram desenho (a cena, os seis passos, a folha do plano, o desfibrilador, a compressão, os erros, o choque, o depois, o golpe de calor, as outras emergências e o ensaio), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Diretriz AHA 2025 de suporte básico: 100 a 120 compressões por minuto,
 profundidade de pelo menos 5 cm sem passar de 6 cm, retorno completo do tórax. Força-tarefa de 2007:
 meta de menos de 3 a 5 minutos entre a queda e o primeiro choque. NATA 2015: critério de golpe de
 calor com temperatura retal acima de 40,5 °C (105 °F) e disfunção do sistema nervoso central;
 "cool first, transport second"; meta de abaixo de 38,9 °C (102,5 °F) em até 30 minutos do colapso.
 
-**Correções.**
+**Correções.** 
 - A abertura repetia a sobrevida geral de 48% e a comparação de 79% contra 44% com e sem plano.
   Esses números já tinham saído da aula de morte súbita por não terem fonte confirmada; saíram
   daqui também.
@@ -257,9 +259,10 @@ calor com temperatura retal acima de 40,5 °C (105 °F) e disfunção do sistema
 - "Jogo da categoria sub-15" virou "categoria de base", e "aos 22 minutos" virou "no meio do
   primeiro tempo", para a cena ficar como perfil típico.
 - Saíram as referências de Drezner 2009, Miranda 2011 e Maron 2010, que a aula não cita nesta versão.
+- "A regra da aula anterior" virou "a regra de reconhecimento".
 
 **Saíram.** "6.4", "6.6", "2.12", "Módulo 7", "Escopo", "um lugar bonito", "aparelho comprado em 2019",
-o bloco "Roteiro Gamma".
+o bloco "Roteiro Gamma". Duração de 23 para 18 minutos.
 
 **Citações faladas.** Nenhum autor por nome. Diretriz americana de ressuscitação de 2025;
 força-tarefa americana de preparação para parada cardíaca; associação americana de athletic trainers;

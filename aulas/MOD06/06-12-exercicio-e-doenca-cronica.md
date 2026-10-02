@@ -160,7 +160,7 @@ E o desfecho que importa nem sempre é o exame. Às vezes é subir a escada, car
 *Visual: duas colunas, "Decisão" e "Contribuição", aplicadas ao módulo inteiro.*
 *Teleprompter: (fecha o módulo nos dois primeiros níveis)*
 
-Como esta aula fecha o módulo, as doze aulas juntas, na forma como a equipe realmente trabalha.
+Como esta aula fecha o módulo, todas as conversas juntas, na forma como a equipe realmente trabalha.
 
 Decisão. Diagnosticar, pedir e interpretar exames, decidir elegibilidade e afastamento, prescrever e ajustar medicação, liberar o retorno depois de doença, de concussão e de miocardite, e conduzir a autorização de uso terapêutico: médico, e, na zona cinzenta do coração, cardiologista com experiência em atleta. Prescrever e progredir carga dentro do que foi liberado: profissional de educação física e preparador. Tecido lesionado, pescoço, sistema vestibular e reabilitação: fisioterapia. Alimentação, inclusive na doença renal e no diabetes: nutricionista. Medo de voltar, humor, sono e pressão de retorno: psicologia, com o médico. E desfibrilador acessível, plano escrito, capacitação e ensaio: a gestão, a decisão administrativa que mais muda desfecho no módulo.
 
@@ -204,6 +204,8 @@ exata: virou "um homem na casa dos sessenta", com "doença renal crônica modera
 estágio 3b e "anos" no lugar de "quatro anos". A aula fecha o módulo nos três níveis (Decisão,
 Contribuição, Reconhecimento) e faz a ponte para o módulo de lesões.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (o caso, a inversão, as perguntas, as contraindicações, os remédios, o diabetes, as outras condições, o plano, as regras e os níveis), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** KDIGO 2024, recomendação 3.2.2.1: atividade moderada, pelo menos 150
 minutos por semana ou o nível compatível com a tolerância cardiovascular e física, grau 1D. ADA
 2016: sensibilidade à insulina aumentada por 24 a 72 horas depois de uma sessão aeróbica; não mais
@@ -211,7 +213,7 @@ que 2 dias seguidos sem atividade aeróbica. Mesa-redonda de 2019 sobre câncer:
 sessões de cerca de 30 minutos, 3 vezes por semana, com força pelo menos 2 vezes; melhora de
 fadiga, ansiedade, depressão, função física e qualidade de vida, sem piora do linfedema.
 
-**Correções.**
+**Correções.** 
 - "Com força de recomendação alta" virou "recomendação forte, embora apoiada em evidência de
   qualidade baixa", que é o que o grau 1D significa.
 - O resultado inventado do caso saiu ("doze semanas depois ele levanta da cadeira sem apoio,
@@ -224,6 +226,7 @@ fadiga, ansiedade, depressão, função física e qualidade de vida, sem piora d
   semana, com força pelo menos 2 vezes.
 - A diretriz europeia ganhou o DOI conferido no lugar do PMID, e a diretriz brasileira de 2019 saiu
   das referências, porque a aula não a cita diretamente nesta versão.
+- "As doze aulas juntas" virou "todas as conversas juntas".
 
 **Saíram.** "Sebastião", "66 anos", "estágio 3b", "6.1", "6.2", "6.7", "6.8", "6.10", "6.11",
 "2.12", "4.8", "Módulo 6", "Módulo 7", "Módulo 12", "Módulo 13", "slide 3", "Escopo", o bloco

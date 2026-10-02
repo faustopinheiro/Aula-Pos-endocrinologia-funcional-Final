@@ -2,7 +2,7 @@
 
 **Módulo 6 — Medicina Esportiva Clínica**
 Pós-Graduação em Ciências do Esporte Aplicadas à Saúde
-Duração: 14 minutos · 11 slides · Arquitetura: ERRO
+Duração: 15 minutos · 11 slides · Arquitetura: ERRO
 
 ---
 
@@ -42,11 +42,11 @@ Os dois eram profissionais, avaliados, acompanhados por departamento médico. A 
 
 Erro um: "isso quase nunca acontece", ou, na versão oposta, "isso está acontecendo toda hora". Os dois usam a palavra "raro", e nenhum olha o denominador.
 
-Harmon e colaboradores acompanharam uma década de atletas universitários americanos. A morte súbita cardíaca foi de cerca de 1 caso para cada 53.703 atletas por ano. Esse número sustenta "é raro".
+Um estudo de 2015 acompanhou uma década de atletas universitários americanos. A morte súbita cardíaca foi de cerca de 1 caso para cada 53.703 atletas por ano. Esse número sustenta "é raro".
 
 Mas o mesmo estudo mostra por que isso não basta: no basquete masculino da primeira divisão, foi de 1 para cada 5.200. Dez vezes mais.
 
-E, na Inglaterra, Malhotra e colaboradores acompanharam 11.168 jogadores de futebol adolescentes da federação: 6,8 mortes súbitas cardíacas por 100 mil atletas.
+E, na Inglaterra, um estudo de 2018 acompanhou 11.168 jogadores de futebol adolescentes da federação: 6,8 mortes súbitas cardíacas por 100 mil atletas.
 
 Três coisas para levar. Em termos absolutos, é raro; quem trabalha com esporte a vida toda pode nunca ver um caso. O risco não é igual para todos: homens têm várias vezes mais que mulheres, e certos esportes e populações concentram casos. E raro não é improvável ao longo de uma vida institucional: um clube com categorias de base, centenas de atletas por ano, por décadas, acumula uma probabilidade que não é desprezível. Um evento raro, fatal e com resposta conhecida é exatamente o evento para o qual se prepara. Ninguém deixa de ter extintor porque incêndio é raro.
 
@@ -60,7 +60,7 @@ Erro dois: "morte súbita em atleta jovem é sempre cardiomiopatia hipertrófica
 
 Maron e colaboradores, em 2009, analisaram 1.866 mortes súbitas de atletas jovens nos Estados Unidos, entre 1980 e 2006. Entre as causas cardiovasculares, a cardiomiopatia hipertrófica respondeu por cerca de 36 por cento, e as anomalias das coronárias por cerca de 17 por cento.
 
-Só que existe outro conjunto de dados, e ele discorda. Harmon e colaboradores revisaram as autópsias de mortes súbitas de atletas universitários, com cada caso julgado por um painel. O achado mais comum foi autópsia negativa: coração estruturalmente normal, em cerca de 31 por cento. E a hipertrófica apareceu pouco.
+Só que existe outro conjunto de dados, e ele discorda. Uma revisão de 2014 analisou as autópsias de mortes súbitas de atletas universitários, com cada caso julgado por um painel. O achado mais comum foi autópsia negativa: coração estruturalmente normal, em cerca de 31 por cento. E a hipertrófica apareceu pouco.
 
 A diferença é de método: um registro montado em boa parte a partir de notícias, por 26 anos, num país inteiro, contra laudos de autópsia de uma população definida. Não é preciso escolher vencedor.
 
@@ -172,7 +172,7 @@ Garantir desfibrilador acessível, plano escrito e ensaio periódico é da gest�
 
 E levar sintoma a sério, sem deixar o atleta "esperar para ver", é de todo mundo.
 
-Na próxima aula, o como: emergência em campo e cadeia de sobrevivência. Quem faz o quê nos primeiros três minutos, onde fica o desfibrilador, o que precisa estar escrito, e por que um plano nunca ensaiado não é um plano.
+Na próxima conversa, o como: emergência em campo e cadeia de sobrevivência. Quem faz o quê nos primeiros três minutos, onde fica o desfibrilador, o que precisa estar escrito, e por que um plano nunca ensaiado não é um plano.
 
 ---
 
@@ -195,6 +195,8 @@ Na próxima aula, o como: emergência em campo e cadeia de sobrevivência. Quem 
 Arquitetura ERRO mantida (a anterior é NÚMERO; a próxima é PROCEDIMENTO). Sem caso clínico: os
 dois colapsos em campo são fatos públicos, citados sem nome, por ano e competição.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (as duas frases, os dois colapsos, a frequência, a causa, quem morre, o rastreio, as consequências, o reconhecimento, o desfibrilador e as frases substituídas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Harmon 2015: incidência geral de cerca de 1 em 53.703 atletas-ano; basquete
 masculino da primeira divisão, 1 em 5.200. Harmon 2014: autópsia negativa como achado mais comum,
 cerca de 31%. Maron 2009: 1.866 mortes, 1980 a 2006; hipertrófica cerca de 36%, anomalia coronariana
@@ -202,18 +204,19 @@ cerca de 17%. Malhotra 2018: 11.168 adolescentes; doença em 42 (0,38%); 6,8 por
 mortes cardíacas com rastreio normal. Drezner 2013: sobrevida de 89% quando o desfibrilador do local
 foi usado.
 
-**Correções.**
+**Correções.** 
 - A sobrevida geral de 48% e a comparação de 79% contra 44% com e sem plano de emergência saíram,
   porque não consegui confirmar a fonte exata desses números no texto conferido. Ficou o 89% com
   desfibrilador do local usado, que foi confirmado.
 - "Em mais da metade dos casos há atividade mioclônica" virou "é comum", sem percentual conferido.
 - A referência de Drezner 2009, a da diretriz brasileira e a de Franklin 2020 saíram, porque a aula
   não as cita diretamente nesta versão.
+- Harmon e Malhotra saíram da fala; os estudos entram pelo ano. No slide da causa, as autópsias de 2014 aparecem sem nome.
 
 **Saíram.** "6.1", "6.2", "6.3", "6.5", "6.8", "2.12", "slide 1", "o escopo", "inclusive em aulas que
-eu já dei", o bloco "Roteiro Gamma".
+eu já dei", o bloco "Roteiro Gamma". Duração de 20 para 15 minutos.
 
-**Citações faladas.** Harmon; Maron; Malhotra; Revista Brasileira de Medicina do Esporte.
+**Citações faladas.** Maron, pelo registro americano de 2009. Os estudos de 2014, 2015 e 2018 entram pelo ano; a Revista Brasileira de Medicina do Esporte, pelo nome.
 
 **Ligações internas.** esforço vigoroso no destreinado = primeira aula do módulo · idade muda a doença
 e experiência italiana = aula de triagem cardiológica · "normal por enquanto" = aula de coração de

@@ -82,7 +82,7 @@ A avaliação clínica é outra coisa, e é médica. A ferramenta padronizada é
 *Visual: lista de sinais de alarme em fundo claro, com "não mover, 192, hospital" em destaque.*
 *Teleprompter: (quando a suspeita vira emergência)*
 
-Alguns sinais transformam a situação em emergência, e aí vale o procedimento da aula anterior.
+Alguns sinais transformam a situação em emergência, e aí vale o procedimento de emergência em campo.
 
 Perda de consciência prolongada ou nível de consciência piorando. Vômitos repetidos. Convulsão. Dor de cabeça que piora progressivamente. Pupilas diferentes. Fraqueza ou formigamento em braços ou pernas. Fala arrastada. Comportamento muito alterado. E qualquer suspeita de lesão cervical.
 
@@ -200,7 +200,7 @@ O atleta do sétimo dia: depende do degrau em que realmente está. E o contato t
 
 Quem faz o quê. Reconhecer e retirar: qualquer pessoa da comissão; retirar não é diagnosticar. Diagnosticar, avaliar com o SCAT6, indicar imagem diante de sinal de alarme e liberar o contato: médico. Conduzir os degraus de carga e relatar sintoma que volta: profissional de educação física e preparador, com a fisioterapia. Pescoço, sistema vestibular e equilíbrio: fisioterapia. Humor, sono e medo de voltar: psicologia, com o médico. E a conversa com escola, família e clube é parte do tratamento.
 
-Na próxima aula, a queixa respiratória confundida com falta de condicionamento em metade dos vestiários: asma e broncoespasmo induzido pelo exercício, como diferenciar, como confirmar e o que isso tem a ver com a lista de substâncias proibidas.
+Na próxima conversa, a queixa respiratória confundida com falta de condicionamento em metade dos vestiários: asma e broncoespasmo induzido pelo exercício, como diferenciar, como confirmar e o que isso tem a ver com a lista de substâncias proibidas.
 
 ---
 
@@ -224,6 +224,8 @@ continuam organizando a aula, mas os três atletas viraram perfis típicos, sem 
 adulto", "um adolescente", "um atleta adulto". Os dois casos ilustrativos do módulo ficam na
 primeira aula e no fechamento.
 
+Nesta revisão, os 12 slides que ainda eram texto viraram desenho (a abertura, as três decisões, os equívocos, os sinais, a retirada, o alarme, a cultura, o repouso, a escola, a escada, a recuperação longa e a prevenção), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Consenso de Amsterdã: perda de consciência em menos de 10% das concussões;
 a maioria se recupera em até 4 semanas e até 20 a 30% de jovens e adultos têm sintomas por mais
 tempo; repouso relativo de 24 a 48 horas; estratégia de retorno em seis degraus, com degrau 2A em
@@ -236,7 +238,7 @@ IRR 0,74; aquecimento neuromuscular no rugby com até 60% menos concussões. CBF
 confederação filiada à FIFA a adotar a substituição adicional e permanente por concussão, aprovada
 pela IFAB em março de 2024, nos campeonatos brasileiros de 2024; o adversário também ganha uma troca.
 
-**Correções.**
+**Correções.** 
 - Protetor bucal: "em torno de 28%, em jovens do hóquei" virou "em torno de 26%, nos esportes de
   colisão", que é o que a metanálise reporta (IRR 0,74).
 - Treino neuromuscular no rugby ganhou o número conferido (até 60%).
@@ -247,9 +249,10 @@ pela IFAB em março de 2024, nos campeonatos brasileiros de 2024; o adversário 
   numérico do consenso.
 - Entrou que a substituição por concussão também dá uma troca ao adversário.
 - As idades dos três atletas saíram.
+- "O procedimento da aula anterior" virou "o procedimento de emergência em campo".
 
 **Saíram.** "6.5", "6.7", "6.11", "Módulo 7", "Decisão 1, 2, 3" como numeração, "Escopo", a duração antiga de 29
-minutos (agora 20), o bloco "Roteiro Gamma".
+minutos (agora 20), o bloco "Roteiro Gamma". Duração de 29 para 20 minutos.
 
 **Citações faladas.** Consenso de Amsterdã; IFAB; CBF; CRT6; SCAT6. Nenhum autor por nome.
 

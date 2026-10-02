@@ -28,7 +28,7 @@ A aula é um procedimento em cinco passos.
 
 Primeiro, perguntar, antes de qualquer exame. Segundo, pedir o exame certo e colher na hora certa. Terceiro, interpretar com a régua certa. Quarto, investigar por que o ferro caiu. Quinto, repor de um jeito que funcione e reavaliar.
 
-A parte nutricional, de quem está em risco e do que a comida resolve, está no módulo de nutrição. A lógica geral de pedir e não pedir exame é a próxima aula. Aqui é o problema clínico do começo ao fim.
+A parte nutricional, de quem está em risco e do que a comida resolve, está no módulo de nutrição. A lógica geral de pedir e não pedir exame é a próxima conversa. Aqui é o problema clínico do começo ao fim.
 
 ---
 
@@ -38,7 +38,7 @@ A parte nutricional, de quem está em risco e do que a comida resolve, está no 
 
 Passo um: entender que fadiga é sintoma, não diagnóstico.
 
-Antes de pedir ferritina, a lista do que mais produz "estou sem energia" em quem treina. Carga mal distribuída e recuperação insuficiente, a mais comum de todas. Sono curto ou ruim, incluindo apneia no adulto mais velho. Baixa disponibilidade energética. Deficiência de ferro, com ou sem anemia. Disfunção da tireoide. Depressão e ansiedade, que dão fadiga real e costumam ser a última hipótese no atleta. Convalescença de infecção, que foi a aula anterior. E doenças que não têm nada a ver com esporte e aparecem na mesma idade.
+Antes de pedir ferritina, a lista do que mais produz "estou sem energia" em quem treina. Carga mal distribuída e recuperação insuficiente, a mais comum de todas. Sono curto ou ruim, incluindo apneia no adulto mais velho. Baixa disponibilidade energética. Deficiência de ferro, com ou sem anemia. Disfunção da tireoide. Depressão e ansiedade, que dão fadiga real e costumam ser a última hipótese no atleta. Convalescença de infecção. E doenças que não têm nada a ver com esporte e aparecem na mesma idade.
 
 Por que isso vem primeiro? Porque quem pula direto para o exame trata o que o exame mostrar, e não o que a pessoa tem. Ferritina baixa em quem dorme cinco horas por noite vai ser tratada com ferro, e a pessoa vai continuar cansada.
 
@@ -178,7 +178,7 @@ As regras. Em fadiga com queda de desempenho, ferritina vai junto com o hemogram
 
 Quem faz o quê. Pedir, interpretar, investigar e prescrever: médico. Suplementar por conta própria apaga a pista e pode fazer mal. Ajustar fontes, horários e inibidores de absorção: nutricionista. Perceber a queda de desempenho, a frequência cardíaca desproporcional e a recuperação ruim, e avisar: preparação física, porque a suspeita muitas vezes nasce na planilha. Ajustar carga quando a hepcidina faz parte do problema: comissão técnica com o médico. Perguntar sobre ciclo menstrual sem constrangimento: todos, e o módulo sobre a atleta mulher volta a esse ponto.
 
-Na próxima aula, a pergunta que este módulo vem construindo: rastreio laboratorial, o que pedir, o que não pedir, e por que o check-up completo é uma das piores ideias da medicina do esporte.
+Na próxima conversa, a pergunta que este módulo vem construindo: rastreio laboratorial, o que pedir, o que não pedir, e por que o check-up completo é uma das piores ideias da medicina do esporte.
 
 ---
 
@@ -202,6 +202,8 @@ com um mapa no início. A paciente com nome e idade, e com exames e desfecho des
 perfil típico: a corredora amadora que piora há meses. Os dois casos ilustrativos do módulo ficam
 na primeira aula e no fechamento.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (o perfil, os cinco passos, a fadiga, as perguntas, o pedido, os estágios, as armadilhas, a causa, a reposição e o ferro na veia), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Consenso suíço 2015: acima de 15 anos, ferritina abaixo de 15 µg/L é
 estoque vazio, de 15 a 30 é estoque baixo, corte de 30; 15 para crianças de 6 a 12 anos e 20 para
 adolescentes de 12 a 15. Stoffel 2017: absorção fracional acumulada de 21,8% em dias alternados
@@ -210,7 +212,7 @@ WADA 2026, M2.2: mais de 100 mL em 12 horas, exceto tratamento hospitalar, cirur
 diagnóstica. Burden 2015: tratamento melhora ferritina, ferro sérico e hemoglobina em atletas de
 endurance com deficiência sem anemia.
 
-**Correções.**
+**Correções.** 
 - Os resultados inventados do caso (hemoglobina de 12,3, ferritina de 14, reavaliação em 10
   semanas) e o desfecho ("ela relatou melhora de disposição antes de o exame mudar") saíram junto
   com o caso.
@@ -220,10 +222,11 @@ endurance com deficiência sem anemia.
   consegui confirmar a conclusão sobre VO2máx; ficou só o efeito conferido sobre os marcadores.
 - O horário da reposição foi reescrito em torno da janela de 3 a 6 horas da hepcidina.
 - Telford, Stoffel, Sim e Burden deixaram de ser citados por nome.
+- "Convalescença de infecção, que foi a aula anterior" ficou só "convalescença de infecção". O título do slide de abertura virou "Dois painéis normais, e continua piorando".
 
 **Saíram.** "6.8", "6.10", "6.11", "4.2", "4.7", "2.5", "5.10", "Módulo 9", "Módulo 10",
 "Módulo 11", "Escopo", o nome e a idade da paciente, o bloco "Roteiro Gamma". Duração de 23 para
-17 minutos.
+17 minutos. Duração de 23 para 17 minutos.
 
 **Citações faladas.** Sociedade Suíça de Medicina do Esporte; lista da Agência Mundial Antidoping.
 Nenhum autor por nome.

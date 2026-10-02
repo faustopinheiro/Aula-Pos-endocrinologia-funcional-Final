@@ -62,7 +62,7 @@ O problema: em fase inicial, essas três produzem exatamente os números que o t
 
 O primeiro número é de 1991, e ainda organiza a prática.
 
-Pelliccia e colaboradores mediram por ecocardiograma o coração de 947 atletas de elite italianos, de muitos esportes. Pergunta: até onde o treino engrossa a parede do ventrículo esquerdo?
+Pelliccia e colaboradores, em 1991, mediram por ecocardiograma o coração de 947 atletas de elite italianos, de muitos esportes. Pergunta: até onde o treino engrossa a parede do ventrículo esquerdo?
 
 Parede de 13 milímetros ou mais foi incomum, cerca de 2 por cento. Quando aparecia, estava quase confinada ao remo e à canoagem, e vinha com cavidade aumentada: quando o treino engrossa a parede, o coração cresce inteiro. E o limite superior do que o treino produziu foi 16 milímetros.
 
@@ -80,7 +80,7 @@ E duas advertências. É um estudo de atletas de elite italianos, medidos na dé
 
 O segundo número é da cavidade, e ele assusta mais, porque "ventrículo dilatado" lembra insuficiência cardíaca.
 
-Pelliccia e colaboradores, em 1999, mediram a cavidade de 1.309 atletas de elite, 957 homens e 352 mulheres, de 38 esportes. A cavidade variou muito: de 38 a 66 milímetros nas mulheres, de 43 a 70 nos homens. E em quase 15 por cento ela estava aumentada a ponto de ser compatível com cardiomiopatia dilatada, se o exame fosse de alguém que não treina. Um em cada sete.
+Em 1999, um estudo mediu a cavidade de 1.309 atletas de elite, 957 homens e 352 mulheres, de 38 esportes. A cavidade variou muito: de 38 a 66 milímetros nas mulheres, de 43 a 70 nos homens. E em quase 15 por cento ela estava aumentada a ponto de ser compatível com cardiomiopatia dilatada, se o exame fosse de alguém que não treina. Um em cada sete.
 
 Os determinantes foram superfície corporal maior e esporte de endurance: ciclismo, esqui cross-country, canoagem.
 
@@ -100,13 +100,13 @@ A triatleta, com 59 milímetros, está num número que um em cada sete atletas d
 
 Os números que acabamos de ver não são universais. Mudam com quem é a pessoa.
 
-Sexo. Pelliccia e colaboradores, em 1996, avaliaram 600 atletas de elite mulheres, de 27 esportes. A parede ficou entre 6 e 12 milímetros, e em nenhuma passou de 12. Em mulher atleta, parede acima de 12 não se explica por treino por padrão. O que no homem é zona cinzenta, na mulher já é motivo para investigar.
+Sexo. Em 1996, um estudo avaliou 600 atletas de elite mulheres, de 27 esportes. A parede ficou entre 6 e 12 milímetros, e em nenhuma passou de 12. Em mulher atleta, parede acima de 12 não se explica por treino por padrão. O que no homem é zona cinzenta, na mulher já é motivo para investigar.
 
-Ancestralidade. Basavarajaiah e colaboradores, em 2008, compararam 300 atletas negros de alto nível com 300 brancos. Parede média de 11,3 milímetros nos negros contra 10,0 nos brancos. Parede acima de 12 em 18 por cento dos negros contra 4 por cento dos brancos. E 15 milímetros ou mais em 3 por cento dos negros, e em nenhum branco. Aplicar a atletas negros os limites derivados de atletas brancos gera falso-positivo de cardiomiopatia hipertrófica.
+Ancestralidade. Em 2008, um estudo comparou 300 atletas negros de alto nível com 300 brancos. Parede média de 11,3 milímetros nos negros contra 10,0 nos brancos. Parede acima de 12 em 18 por cento dos negros contra 4 por cento dos brancos. E 15 milímetros ou mais em 3 por cento dos negros, e em nenhum branco. Aplicar a atletas negros os limites derivados de atletas brancos gera falso-positivo de cardiomiopatia hipertrófica.
 
 No Brasil, isso não é detalhe acadêmico. Boa parte dos nossos atletas, no futebol, no basquete, no atletismo, é negra. A régua errada afasta meninos negros do esporte por um achado que, nessa população, é adaptação. E a régua também não pode simplesmente ser afrouxada, porque a cardiomiopatia hipertrófica pesa nas mortes súbitas dessa mesma população. Precisa ser a régua certa, com quem sabe usá-la.
 
-Idade. Sharma e colaboradores, em 2002, estudaram 720 atletas adolescentes de elite. Os limites fisiológicos nessa faixa são menores que no adulto. Levar para um adolescente o teto de 16 milímetros do adulto de elite amplia a zona cinzenta muito além do que os dados sustentam.
+Idade. Em 2002, um estudo acompanhou 720 atletas adolescentes de elite. Os limites fisiológicos nessa faixa são menores que no adulto. Levar para um adolescente o teto de 16 milímetros do adulto de elite amplia a zona cinzenta muito além do que os dados sustentam.
 
 Tamanho corporal: 13 milímetros num homem grande não é o mesmo que numa mulher pequena, e por isso se indexa. E esporte: remo, canoagem, ciclismo, esqui de fundo são onde os extremos aparecem; um zagueiro não costuma estar na faixa de um remador olímpico.
 
@@ -130,7 +130,7 @@ O eletrocardiograma, lido com critérios de atleta.
 
 A história familiar: cardiomiopatia hipertrófica e arritmogênica são em boa parte hereditárias. Morte súbita em parente de primeiro grau muda a probabilidade antes de qualquer exame, e custa uma pergunta.
 
-A capacidade funcional. Sharma e colaboradores, em 2000, mostraram com ergoespirometria que pico de consumo de oxigênio acima de 50 mililitros por quilo por minuto, ou acima de cerca de 120 por cento do previsto, apontava para coração de atleta. Coração doente costuma render menos.
+A capacidade funcional. Em 2000, um estudo mostrou com ergoespirometria que pico de consumo de oxigênio acima de 50 mililitros por quilo por minuto, ou acima de cerca de 120 por cento do previsto, apontava para coração de atleta. Coração doente costuma render menos.
 
 A ressonância com realce tardio, que mostra fibrose. Fibrose não é adaptação ao treino.
 
@@ -146,7 +146,7 @@ Nada disso é para o aluno desta pós fazer; é cardiologia. O slide serve para 
 
 Existe um teste que resolve muitos casos duvidosos, e ele não é um exame: é parar de treinar. Se o coração cresceu pelo treino, encolhe quando o treino sai. Se cresceu por doença, não encolhe.
 
-Pelliccia e colaboradores, em 2002, reavaliaram 40 atletas de elite da zona cinzenta, com cavidade de 60 milímetros ou mais, parede de 13 ou mais, ou os dois, depois de um período longo sem treinar: de 1 a 13 anos, média de 5,6.
+Em 2002, um estudo reavaliou 40 atletas de elite da zona cinzenta, com cavidade de 60 milímetros ou mais, parede de 13 ou mais, ou os dois, depois de um período longo sem treinar: de 1 a 13 anos, média de 5,6.
 
 A cavidade caiu 7 por cento. A espessura máxima da parede, 15 por cento. A massa indexada, 28 por cento. A parede voltou ao normal em todos. Mas a cavidade de 60 milímetros ou mais persistiu em 9 atletas, 22 por cento.
 
@@ -166,7 +166,7 @@ A localização muda tudo. Inversão de T nas derivações anteriores, em atleta
 
 A diferença está em quais derivações, e no que vem antes da onda T. É detalhe fino, trabalho de quem lê eletrocardiograma de atleta, e é exatamente o que o laudo automático não faz.
 
-E o número que dá a dimensão. Sheikh e colaboradores, em 2018, pegaram 100 atletas jovens sem sintoma, com onda T invertida e ecocardiograma normal, metade negros e metade brancos, e fizeram tudo: esforço, Holter, ressonância e um painel de 311 genes.
+E o número que dá a dimensão. Em 2018, um estudo pegou 100 atletas jovens sem sintoma, com onda T invertida e ecocardiograma normal, metade negros e metade brancos, e fez tudo: esforço, Holter, ressonância e um painel de 311 genes.
 
 A avaliação clínica completa encontrou cardiomiopatia em 21 por cento: 30 por cento nos brancos, 12 por cento nos negros. O painel genético rendeu menos que a avaliação clínica e acrescentou pouco a ela.
 
@@ -180,7 +180,7 @@ E o ponto mais esquecido: atleta com T invertida e investigação negativa não 
 *Visual: números de Basavarajaiah: 3.500 atletas; 53 com parede de 13 a 16 mm (1,5%); 3 compatíveis com cardiomiopatia hipertrófica (0,08%).*
 *Teleprompter: (por que o falso-positivo é a regra, e por que isso não autoriza relaxar)*
 
-O número que explica o comportamento da zona cinzenta. Basavarajaiah e colaboradores, em 2008, rastrearam 3.500 atletas de elite sem sintoma. Cinquenta e três, 1,5 por cento, tinham parede entre 13 e 16 milímetros. E só três, 0,08 por cento, tinham quadro compatível com cardiomiopatia hipertrófica.
+O número que explica o comportamento da zona cinzenta. Em 2008, foram rastreados 3.500 atletas de elite sem sintoma. Cinquenta e três, 1,5 por cento, tinham parede entre 13 e 16 milímetros. E só três, 0,08 por cento, tinham quadro compatível com cardiomiopatia hipertrófica.
 
 Cinquenta e três achados. Três prováveis doenças. É a aritmética de qualquer rastreio de doença rara com exame imperfeito: a maioria dos achados anormais não é doença.
 
@@ -188,7 +188,7 @@ Daí a primeira regra: achado anormal em atleta não é afastamento automático.
 
 Mas existe a segunda regra, a que salva vida: o falso-negativo mata. Três coisas passam por cima de qualquer número desta aula. Síncope durante o esforço: nenhum eco normal apaga um desmaio em campo. Sintoma no esforço: dor no peito, falta de ar desproporcional, palpitação com quase desmaio. E história familiar de morte súbita precoce ou de cardiomiopatia.
 
-Duas notas curtas. O ventrículo direito sofre de forma desproporcional depois de provas longas de endurance, como mostraram La Gerche e colaboradores em 2012, e a sobreposição com a cardiomiopatia arritmogênica é terreno de especialista: atleta de endurance com arritmia ventricular não é "coisa do treino" até alguém provar. E hipertrofia de hipertenso não é coração de atleta: adulto com parede espessa, pressão mal controlada e cavidade normal tem cardiopatia hipertensiva até prova em contrário, e o caminho é tratar a pressão.
+Duas notas curtas. O ventrículo direito sofre de forma desproporcional depois de provas longas de endurance, como mostrou um estudo de 2012, e a sobreposição com a cardiomiopatia arritmogênica é terreno de especialista: atleta de endurance com arritmia ventricular não é "coisa do treino" até alguém provar. E hipertrofia de hipertenso não é coração de atleta: adulto com parede espessa, pressão mal controlada e cavidade normal tem cardiopatia hipertensiva até prova em contrário, e o caminho é tratar a pressão.
 
 ---
 
@@ -214,7 +214,7 @@ As cinco regras da zona cinzenta. Número isolado não diagnostica: parede, cavi
 
 Quem faz o quê. Pedir, interpretar e decidir elegibilidade é do médico, e na zona cinzenta, do cardiologista com experiência em atleta. Reconhecer o achado, não banalizar, não dramatizar e encaminhar é de todos, inclusive saber explicar à família que "hipertrofia" no laudo de um atleta não quer dizer o que ela leu na internet. Controlar a carga durante a investigação é do educador físico e do preparador, com o médico, porque parar tudo por precaução também tem custo. E a conversa com o clube, o empresário e a família precisa de uma voz alinhada: três versões da mesma dúvida destroem a confiança do atleta.
 
-Na próxima aula, a pergunta por trás de toda essa cautela: morte súbita no esporte, quantos casos existem de verdade, quais as causas, e o que muda o desfecho.
+Na próxima conversa, a pergunta por trás de toda essa cautela: morte súbita no esporte, quantos casos existem de verdade, quais as causas, e o que muda o desfecho.
 
 ---
 
@@ -243,6 +243,8 @@ próxima é ERRO). Sem caso clínico: o zagueiro de 19 anos, a triatleta de 34 e
 viraram "três perfis típicos", sem idade exata; o adolescente ficou "adolescente", porque a faixa
 etária pesa na leitura.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (os laudos, os três atletas, o remodelamento, a cavidade, normal para quem, os discriminadores, o destreino, a onda T, o funil e as condutas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Pelliccia 1991: 947 atletas; parede ≥ 13 mm incomum, quase só em remo e
 canoagem, com cavidade aumentada; teto de 16 mm. Pelliccia 1999: 1.309 atletas (957 homens, 352
 mulheres), 38 esportes; cavidade de 38 a 66 mm nas mulheres e 43 a 70 mm nos homens; quase 15% em
@@ -256,7 +258,7 @@ normal; cardiomiopatia em 21% (30% nos brancos, 12% nos negros); painel de 311 g
 Basavarajaiah 2008 (prevalência): 3.500 atletas; 53 (1,5%) com 13 a 16 mm; 3 (0,08%) com quadro
 compatível com cardiomiopatia hipertrófica.
 
-**Correções.**
+**Correções.** 
 - Pelliccia 1991: "incomum" ganhou a ordem de grandeza (cerca de 2%).
 - Sheikh 2018: entrou a divisão por ancestralidade (30% contra 12%), que reforça o slide da régua.
   Os percentuais exatos do rendimento genético saíram do texto falado, por não terem sido
@@ -264,11 +266,12 @@ compatível com cardiomiopatia hipertrófica.
 - A referência de Sheikh 2014, a de Maron e Pelliccia 2006 e a da diretriz brasileira saíram,
   porque a aula não as cita diretamente.
 - O PMID do posicionamento europeu virou o DOI conferido.
+- Pelliccia (1996, 1999 e 2002), Basavarajaiah, Sharma, Sheikh e La Gerche saíram da fala e do topo dos slides; os estudos entram pelo ano. Pelliccia ficou só no estudo de 1991, o marco, agora com o ano dito.
 
 **Saíram.** "Aula 2.5", "aula 2.8", "aula 2.11", "aula 4.7", "6.1", "6.2", "6.4", "6.5", "6.9",
-"6.10", "slide 5", "slide 8", "o escopo", as idades exatas, o bloco "Roteiro Gamma".
+"6.10", "slide 5", "slide 8", "o escopo", as idades exatas, o bloco "Roteiro Gamma". Duração de 35 para 22 minutos.
 
-**Citações faladas.** Pelliccia; Basavarajaiah; Sharma; Sheikh; La Gerche.
+**Citações faladas.** Pelliccia, pelo estudo de 1991 da espessura da parede em 947 atletas. Os demais estudos entram pelo ano.
 
 **Ligações internas.** remodelamento = módulo de fisiologia do exercício · ergoespirometria = aula de
 limiares do módulo de fisiologia · leitura do eletrocardiograma = aula anterior · cansaço, ferro e

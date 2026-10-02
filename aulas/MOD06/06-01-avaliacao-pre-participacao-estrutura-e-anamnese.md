@@ -14,7 +14,7 @@ Um caso ilustrativo.
 
 Um homem na casa dos cinquenta, vinte anos sem fazer exercício, se matricula numa academia em janeiro porque a filha insistiu. Na segunda semana, entra numa aula de alta intensidade em grupo. Na terceira série, sente um aperto no peito, fica pálido e senta no chão.
 
-Ele sobrevive. E a investigação depois encontra: pressão alta sem tratamento havia anos, colesterol nunca dosado, trinta anos de cigarro, circunferência abdominal alta, e um pai que morreu de infarto aos 52.
+Ele sobrevive. E a investigação depois encontra: pressão alta sem tratamento havia anos, colesterol nunca dosado, trinta anos de cigarro, circunferência abdominal alta, e um pai que morreu de infarto aos cinquenta e poucos.
 
 Ninguém tinha perguntado nada disso. Na matrícula, ele preencheu um formulário de uma linha que perguntava se tinha algum problema de saúde. Marcou não, porque não sabia que tinha.
 
@@ -28,13 +28,13 @@ Este módulo é de medicina esportiva clínica, e esta é a aula em que boa part
 
 Antes do procedimento, uma coisa precisa ser desarmada, porque o medo produz tanto dano quanto a negligência, e de forma mais silenciosa.
 
-A declaração científica da Associação Americana do Coração coordenada por Franklin e colaboradores, em 2020, põe a tensão com precisão. O risco de morte súbita e de infarto sobe de forma transitória durante e logo depois do esforço vigoroso. E, ao mesmo tempo, o risco absoluto é pequeno, e a atividade física habitual reduz eventos. O aumento transitório é maior justamente em quem é menos ativo.
+A declaração científica da Associação Americana do Coração de 2020, põe a tensão com precisão. O risco de morte súbita e de infarto sobe de forma transitória durante e logo depois do esforço vigoroso. E, ao mesmo tempo, o risco absoluto é pequeno, e a atividade física habitual reduz eventos. O aumento transitório é maior justamente em quem é menos ativo.
 
 Leia as duas frases juntas, porque quase todo mundo só ouve uma. O mesmo exercício que protege de forma crônica eleva o risco de forma aguda, e o saldo é muito favorável à proteção.
 
 Então a avaliação pré-participação não serve para assustar nem para impedir. Serve para identificar a pessoa em quem aquele risco transitório é alto o bastante para pedir cautela, investigação e uma entrada diferente no exercício.
 
-Quatro etapas, na ordem: quem precisa de quê; a anamnese que encontra o que o formulário não encontra; os sinais que interrompem tudo; e o que fazer com o que se achou. Os exames ficam para a próxima aula.
+Quatro etapas, na ordem: quem precisa de quê; a anamnese que encontra o que o formulário não encontra; os sinais que interrompem tudo; e o que fazer com o que se achou. Os exames ficam para a próxima conversa.
 
 ---
 
@@ -44,7 +44,7 @@ Quatro etapas, na ordem: quem precisa de quê; a anamnese que encontra o que o f
 
 Etapa um: quem precisa de quê.
 
-Riebe e colaboradores publicaram, em 2015, a atualização das recomendações de rastreio pré-participação do Colégio Americano de Medicina do Esporte. E o motivo da mudança é honesto e incomum: o modelo anterior mandava gente demais ao médico, e isso virava barreira ao exercício.
+Em 2015, saiu a atualização das recomendações de rastreio pré-participação do Colégio Americano de Medicina do Esporte. E o motivo da mudança é honesto e incomum: o modelo anterior mandava gente demais ao médico, e isso virava barreira ao exercício.
 
 Pense no que isso significa. Uma pessoa decide começar a caminhar, é mandada ao cardiologista, espera meses pela consulta, depois espera pela ergometria, e no meio disso a motivação morre. O rastreio cauteloso demais tira mais gente do exercício do que salva de evento.
 
@@ -78,7 +78,7 @@ E sinal ou sintoma, em qualquer cenário: para e avalia. É a única saída sem 
 
 O modelo distribui responsabilidade de um jeito que interessa a todas as profissões desta turma. A pergunta sobre doença e sintoma é de todos. Não é preciso ser médico para perguntar. É preciso ser médico para investigar o que a pergunta encontrar.
 
-E existe instrumento validado para isso: o PAR-Q+, de Warburton e colaboradores, construído justamente para reduzir barreiras desnecessárias, com um fluxo complementar para quem responde sim. É melhor que o formulário de uma linha da matrícula. E ainda assim não faz metade das perguntas que vêm a seguir.
+E existe instrumento validado para isso: o PAR-Q+, construído justamente para reduzir barreiras desnecessárias, com um fluxo complementar para quem responde sim. É melhor que o formulário de uma linha da matrícula. E ainda assim não faz metade das perguntas que vêm a seguir.
 
 ---
 
@@ -144,7 +144,7 @@ E inchaço nas pernas, falta de ar ao deitar e acordar sem ar à noite: o conjun
 
 E a história que precisa estar na ficha, sempre.
 
-História familiar de morte súbita, de cardiopatia hereditária ou de doença coronariana precoce. O critério de precoce: infarto ou morte súbita antes dos 55 anos em pai, irmão ou filho; antes dos 65 em mãe, irmã ou filha. O pai do caso morreu aos 52, e ninguém perguntou.
+História familiar de morte súbita, de cardiopatia hereditária ou de doença coronariana precoce. O critério de precoce: infarto ou morte súbita antes dos 55 anos em pai, irmão ou filho; antes dos 65 em mãe, irmã ou filha. O pai do caso morreu aos cinquenta e poucos, e ninguém perguntou.
 
 Os fatores de risco: pressão alta, diabetes, colesterol alterado, tabagismo atual ou passado, obesidade abdominal, doença renal crônica.
 
@@ -160,7 +160,7 @@ E uma resposta que é resposta clínica: "não sei". A pessoa que não sabe se t
 
 Etapa quatro: o que fazer com o que se achou. A resposta muda por perfil típico.
 
-O jovem sem sintoma e sem história familiar não precisa de liberação para começar leve a moderado. Precisa de progressão, e de alguém que tenha feito as perguntas. A discussão do eletrocardiograma nesse perfil é a próxima aula, e é mais controversa do que parece.
+O jovem sem sintoma e sem história familiar não precisa de liberação para começar leve a moderado. Precisa de progressão, e de alguém que tenha feito as perguntas. A discussão do eletrocardiograma nesse perfil é a próxima conversa, e é mais controversa do que parece.
 
 O adulto de meia-idade que volta a treinar. Aqui está a maior parte dos eventos, e aqui o rastreio rende mais. O que decide não é a idade: é o número de fatores de risco, a presença de sintoma e a intensidade pretendida. O que teria protegido o homem do caso não era um exame. Era a conta do risco cardiovascular, feita pelo médico, e uma entrada gradual no esforço em vez de alta intensidade na segunda semana.
 
@@ -204,7 +204,7 @@ E uma nota para academia, clube e estúdio: o formulário de matrícula como est
 *Visual: fecho da aula em tinta: as cinco regras e três cartões de papel profissional.*
 *Teleprompter: (fecha o caso e entrega as regras)*
 
-Voltando ao caso. O que aconteceu não foi má sorte. Foi a ausência de três perguntas. "Você tem pressão alta, diabetes ou colesterol alto?" A resposta certa teria sido "não sei", e isso teria disparado uma medida de pressão. "Alguém da família morreu do coração cedo?" O pai, aos 52. "O que você pretende fazer, e a partir de onde?" Vinte anos parado, direto para alta intensidade. Nenhuma dessas três exige ser médico.
+Voltando ao caso. O que aconteceu não foi má sorte. Foi a ausência de três perguntas. "Você tem pressão alta, diabetes ou colesterol alto?" A resposta certa teria sido "não sei", e isso teria disparado uma medida de pressão. "Alguém da família morreu do coração cedo?" O pai, aos cinquenta e poucos. "O que você pretende fazer, e a partir de onde?" Vinte anos parado, direto para alta intensidade. Nenhuma dessas três exige ser médico.
 
 Neste caso ilustrativo, a investigação encontrou doença coronariana, que foi tratada. Nos meses seguintes, com reabilitação cardiovascular, pressão controlada e colesterol tratado, ele voltou a treinar, com força e caminhada. E ficou mais protegido do que estava antes do susto, com o exercício como parte do motivo.
 
@@ -212,7 +212,7 @@ As cinco regras. O risco de não treinar é maior que o de treinar; a avaliaçã
 
 Quem faz o quê. Liberar, investigar, pedir e interpretar exame, diagnosticar e tratar é do médico. Prescrever e progredir a carga, e reconhecer o sintoma que aparece no treino, é do educador físico e do preparador. Fisioterapeuta e nutricionista veem a pessoa com frequência e fazem essas perguntas tão bem quanto qualquer um.
 
-Na próxima aula, os exames: o que rastrear, em quem, e por que o eletrocardiograma responde muito bem a uma pergunta e quase nada à outra.
+Na próxima conversa, os exames: o que rastrear, em quem, e por que o eletrocardiograma responde muito bem a uma pergunta e quase nada à outra.
 
 ---
 
@@ -232,6 +232,8 @@ Arquitetura PROCEDIMENTO mantida (é a primeira do módulo; a próxima é DECIS�
 tinta, a cor dos módulos 1 e 2. O homem de 56 anos é o primeiro dos dois casos do módulo, dito como
 caso ilustrativo, sem idade exata ("na casa dos cinquenta").
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (o caso, as duas frases, as três perguntas do modelo, a grade de saídas, as perguntas de fechamento, os sinais, a ficha, os perfis, as três saídas e o registro), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Riebe 2015: modelo em três fatores (atividade atual, doença conhecida ou
 sinais e sintomas, intensidade pretendida); exercício regular = planejado, pelo menos moderado,
 30 minutos, 3 dias por semana, nos últimos 3 meses; saídas separadas para quem pratica e quem não
@@ -239,7 +241,7 @@ pratica. Franklin 2020: risco agudo transitório durante o esforço vigoroso, ri
 maior em quem é menos ativo; atividade habitual reduz eventos. Critério de história familiar
 precoce: antes dos 55 anos em parente masculino de primeiro grau e antes dos 65 em parente feminino.
 
-**Correções.**
+**Correções.** 
 - O algoritmo do ACSM estava simplificado de um jeito que confundia as saídas: quem não pratica e
   tem doença conhecida tem liberação recomendada antes de começar, mesmo no leve a moderado. O
   slide 4 separa as saídas por quem pratica e quem não pratica.
@@ -251,11 +253,12 @@ precoce: antes dos 55 anos em parente masculino de primeiro grau e antes dos 65 
 - A referência de Thompson 2007 saiu, porque a aula cita a atualização de 2020. O identificador do
   posicionamento europeu virou o DOI conferido (10.1093/eurheartj/ehaa605).
 - "Ele está vivo" ficou "ele sobrevive", para não soar como relato de paciente real.
+- Franklin, Riebe e Warburton saíram da fala e do topo dos slides; a declaração de 2020 e a atualização de 2015 entram pelo ano, e os autores ficam na fonte. O pai do caso passou de "aos 52" para "aos cinquenta e poucos", na fala e no slide.
 
 **Saíram.** "Aula 6.2", "aula 6.12", "aulas 6.2 e 6.3", "aula 5.7", "Módulo 5", "Módulos 2, 3 e 4",
-"slide 1", "slide 4", "o escopo", o bloco "Roteiro Gamma".
+"slide 1", "slide 4", "o escopo", o bloco "Roteiro Gamma". Duração de 22 para 19 minutos.
 
-**Citações faladas.** Franklin; Riebe; Warburton.
+**Citações faladas.** Nenhum autor por nome. A declaração da Associação Americana do Coração, de 2020, e a atualização do Colégio Americano de Medicina do Esporte, de 2015, entram pelo ano; o PAR-Q+, pelo nome.
 
 **Ligações internas.** pergunta B (sono, energia, carga) = módulos de fisiologia do exercício,
 endocrinologia e nutrição · substâncias = módulo de suplementação · exames = próxima aula · coração

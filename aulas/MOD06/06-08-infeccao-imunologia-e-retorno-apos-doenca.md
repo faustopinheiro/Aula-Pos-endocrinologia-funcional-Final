@@ -160,7 +160,7 @@ Miocardite, mas estou ótimo: sentir-se bem não é critério. Abstenção, reav
 
 Quem faz o quê. Decidir o retorno depois de doença sistêmica, investigar miocardite e liberar: médico. Aplicar o teste do pescoço, reduzir a sessão e avisar: preparador e profissional de educação física, que são quem recebe a mensagem da sexta. Monitorar frequência cardíaca e resposta à carga na volta, registrar e comunicar: preparação física. Sono, energia, vacina e higiene do vestiário: a instituição.
 
-Na próxima aula, a causa mais comum de "estou sem energia" no esporte, tratada errado nos dois sentidos, por excesso e por omissão: anemia, deficiência de ferro e as armadilhas da ferritina.
+Na próxima conversa, a causa mais comum de "estou sem energia" no esporte, tratada errado nos dois sentidos, por excesso e por omissão: anemia, deficiência de ferro e as armadilhas da ferritina.
 
 ---
 
@@ -182,13 +182,15 @@ Arquitetura DECISÃO mantida (a anterior é NÚMERO; a próxima é PROCEDIMENTO)
 continuam organizando a aula, sem idade dos remetentes. "Decisão 1, 2, 3" virou "a mensagem da
 sexta", "a corredora", "a terceira mensagem".
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (as mensagens, as leituras, o teste do pescoço, as exceções, a febre, os degraus, os sinais, a parte médica, o rastreio e a prevenção), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Hemilä e Chalker 2013: população geral RR 0,97; cinco ensaios com 598
 maratonistas, esquiadores e militares em exercício subártico, RR 0,48. Moulson 2021 (registro
 ORCCA): 3.018 atletas com infecção, acometimento cardíaco provável ou definido em 0,7%. Diretriz
 ESC 2020: retorno considerado depois de 3 a 6 meses, com marcadores e ECG normalizados, sem
 arritmia no Holter e no teste de esforço, função ventricular normal e ressonância sem edema.
 
-**Correções.**
+**Correções.** 
 - A diretriz europeia estava citada com PMID; troquei pelo DOI conferido, como nas aulas de triagem
   e de coração de atleta.
 - A frase "de tempos em tempos, um atleta jovem morre semanas depois de uma infecção banal" saiu;
@@ -197,6 +199,7 @@ arritmia no Holter e no teste de esforço, função ventricular normal e resson�
 - A regra de um dia de retomada por dia de doença continua marcada como prática, não como evidência.
 - A referência da diretriz brasileira de 2019 saiu, porque a aula não a cita nesta versão.
 - "Campbell e Turner" deixaram de ser citados por nome: é uma revisão, não um estudo de referência.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa".
 
 **Saíram.** "6.2", "6.3", "6.4", "6.5", "6.9", "6.11", "2.12", "4.2", "4.11", "1.7", "Módulo 9",
 "Escopo", as idades dos remetentes, o bloco "Roteiro Gamma". Duração de 21 para 14 minutos.

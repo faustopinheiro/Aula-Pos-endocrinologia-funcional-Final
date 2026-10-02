@@ -178,7 +178,7 @@ Quem faz o quê. Indicar, pedir, interpretar e decidir conduta: médico. E dizer
 
 Pedir exame é uma intervenção. Tem indicação, benefício e dano, e a única coisa que a separa do excesso é a pergunta que veio antes.
 
-Na próxima aula, outra intervenção que se banalizou no esporte, com dano que também não aparece na fatura: analgesia, anti-inflamatórios e corticoides.
+Na próxima conversa, outra intervenção que se banalizou no esporte, com dano que também não aparece na fatura: analgesia, anti-inflamatórios e corticoides.
 
 ---
 
@@ -199,18 +199,21 @@ idade, com desfecho inventado (nódulo de nove milímetros, cirurgia, reposiçã
 virou um perfil típico e uma "sequência típica" descrita como possibilidade, sem desfecho
 atribuído a ninguém.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a cascata de abertura, a assimetria, a CK, o basal, a pergunta, a cascata, os campeões, os painéis, o contraponto e o que fazer), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Probabilidade de pelo menos um resultado fora da faixa, supondo exames
 independentes: 1 − 0,95^n, que dá 5% para 1, 22,6% para 5, 40,1% para 10, 64,2% para 20 e 76,2%
 para 28. Mougios 2007: 483 homens e 245 mulheres atletas, intervalos de 82 a 1.083 U/L e de 47 a
 513 U/L. Ganguli 2019: 376 internistas responderam; 99,4% relataram cascata depois de achado
 incidental.
 
-**Correções.**
+**Correções.** 
 - A conta de probabilidade ganhou a ressalva de independência entre os exames, que ela supõe.
 - Entrou o número conferido da pesquisa de 2019 sobre cascatas.
 - A referência da AAAAI ganhou autor, e saíram Carroll 2017, o consenso suíço de ferro e a diretriz
   brasileira de 2019, que a aula não cita diretamente nesta versão.
 - "Mougios" deixou de ser citado por nome.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa".
 
 **Saíram.** "6.1", "6.2", "6.3", "6.4", "6.9", "6.11", "5.10", "5.11", "4.2", "4.7", "1.7",
 "Módulo 3", "Módulos 7 e 8", "Módulo 11", "slide 2", "Escopo", o nome e a idade da paciente, o

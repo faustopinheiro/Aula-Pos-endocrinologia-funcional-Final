@@ -192,7 +192,7 @@ A atleta com tendinopatia: a conversa honesta. Alívio no curto prazo, provável
 
 Quem faz o quê. Prescrever, escolher fármaco, dose, via e prazo, e decidir infiltração: médico. "Só um anti-inflamatório" continua sendo prescrição. Não distribuir, não indicar e não emprestar medicação: todos, inclusive quem tem uma cartela na mochila. Tratar a dor com exercício terapêutico: fisioterapia. Ajustar carga, técnica e material: preparação física e treinador. Registrar e perguntar, sem julgamento, o que o atleta toma por conta própria: a comissão inteira, porque a maior parte do consumo de analgésico no esporte não passa por prescrição nenhuma.
 
-Na próxima aula, a que fecha o módulo: exercício e doença crônica, o paciente que treina, e por que "não pode fazer esforço" é uma das frases que mais adoecem gente no Brasil.
+Na próxima conversa, a que fecha o módulo: exercício e doença crônica, o paciente que treina, e por que "não pode fazer esforço" é uma das frases que mais adoecem gente no Brasil.
 
 ---
 
@@ -214,6 +214,8 @@ Arquitetura DECISÃO mantida (a anterior é ERRO; a próxima é CASO). As três 
 organizando a aula, com perfis sem idade: um lateral, um corredor amador, uma atleta com
 tendinopatia.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a Copa, as três decisões, o princípio, a véspera, o que fazer no lugar, o rim, o corredor, a eliminação, a escada e o controle), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Copa de 2010: mais da metade dos jogadores usou anti-inflamatório; até um
 terço de todos os jogadores usou antes de cada partida, entrando em campo ou não. Lipman 2017:
 lesão renal aguda em 44% no conjunto; 52% com ibuprofeno contra 34% com placebo; diferença sem
@@ -224,7 +226,7 @@ Períodos de eliminação de glicocorticoides conferidos (oral 3 dias, 10 para t
 triancinolona acetonida; intramuscular 5, 10 e 60 dias; injeções locais 3 dias, 10 para as
 exceções).
 
-**Correções.**
+**Correções.** 
 - "Cerca de quatro em cada dez tomaram analgésico antes de cada partida" virou "até um terço de
   todos os jogadores tomou anti-inflamatório antes de cada partida", que é o que o trabalho de 2010
   descreve.
@@ -235,10 +237,11 @@ exceções).
 - As referências de antioxidantes e a orientação genérica da WADA saíram; a aula remete ao módulo
   de suplementação.
 - Tscholl, Lipman, Lilja e Coombes deixaram de ser citados por nome.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa". No slide da Copa, a frase longa passou para o desenho.
 
 **Saíram.** "5.7", "5.10", "6.6", "6.9", "6.12", "1.7", "2.11", "2.12", "4.8", "Módulos 7 e 8",
 "Módulo 13", "Escopo", as idades dos personagens, o bloco "Roteiro Gamma". Duração de 22 para 15
-minutos.
+minutos. Duração de 22 para 15 minutos.
 
 **Citações faladas.** FIFA; Lancet; lista da Agência Mundial Antidoping. Nenhum autor por nome.
 

@@ -32,7 +32,7 @@ E um preparador físico pergunta se pode exigir eletrocardiograma de todos os al
 
 Os três pedem a mesma coisa e precisam de coisas diferentes.
 
-A distinção entre coração de atleta e cardiopatia fica para a próxima aula, e a epidemiologia da morte súbita, para a seguinte. Aqui se decide o que pedir, e para quem.
+A distinção entre coração de atleta e cardiopatia fica para a próxima conversa, e a epidemiologia da morte súbita, para a seguinte. Aqui se decide o que pedir, e para quem.
 
 ---
 
@@ -104,7 +104,7 @@ O coração treinado tem alterações que são adaptação, não doença: bradic
 
 E há achados que sempre investigam: inversão de onda T em certas derivações, depressão do segmento ST, onda Q patológica, pré-excitação, QT muito longo ou muito curto, arritmia ventricular.
 
-A separação foi padronizada nos critérios internacionais de interpretação do eletrocardiograma em atletas, de Drezner e colaboradores, em 2017, feitos para reduzir falso-positivo sem perder o que importa.
+A separação foi padronizada nos critérios internacionais de interpretação do eletrocardiograma em atletas, de 2017, feitos para reduzir falso-positivo sem perder o que importa.
 
 E o falso-positivo tem custo real, invisível na estatística: o adolescente afastado do time por meses esperando um ecocardiograma, a família em pânico, e o jovem que abandona o esporte no meio do processo.
 
@@ -148,7 +148,7 @@ A decisão, por perfil típico.
 
 Jovem competitivo federado: história e exame físico estruturados, mais eletrocardiograma, lido com critérios de atleta. Achado anormal não afasta automaticamente: encaminha para avaliação.
 
-Jovem recreacional, sem sintoma e sem história familiar: a avaliação clínica da aula anterior é o centro. O eletrocardiograma é razoável e amparado, mas o item de maior retorno é a anamnese: sintoma no esforço e história familiar de morte precoce. E se a família não sabe a história, isso é um dado, não um vazio.
+Jovem recreacional, sem sintoma e sem história familiar: a avaliação clínica com anamnese dirigida é o centro. O eletrocardiograma é razoável e amparado, mas o item de maior retorno é a anamnese: sintoma no esforço e história familiar de morte precoce. E se a família não sabe a história, isso é um dado, não um vazio.
 
 Adulto iniciante sem sintoma: cálculo de risco, pressão medida, colesterol e glicemia dosados, progressão gradual. O eletrocardiograma é útil como base e para achar cicatriz, e não substitui a conta de risco. Ergometria se o risco for alto ou o esforço pretendido for vigoroso.
 
@@ -180,7 +180,7 @@ O que fica. A idade muda a doença: abaixo dos 35, estrutural e elétrica; acima
 
 Quem faz o quê. Pedir, interpretar e decidir a partir de qualquer desses exames é do médico, e a leitura do eletrocardiograma do atleta exige critérios próprios. Reconhecer o sintoma, perguntar a história familiar e encaminhar é de todos. Prescrever e progredir a carga, usando os dados do teste ergométrico quando existirem, é do educador físico e do preparador. E ninguém, de nenhuma profissão, usa exame normal como autorização para pular a progressão.
 
-Na próxima aula, a pergunta mais difícil desta área: quando o que o exame mostrou é um coração treinado, e quando é uma doença.
+Na próxima conversa, a pergunta mais difícil desta área: quando o que o exame mostrou é um coração treinado, e quando é uma doença.
 
 ---
 
@@ -200,24 +200,26 @@ Na próxima aula, a pergunta mais difícil desta área: quando o que o exame mos
 Arquitetura DECISÃO mantida (a anterior é PROCEDIMENTO; a próxima é NÚMERO). Sem caso clínico: o
 adolescente de 17 anos, a mulher de 56 e o preparador viraram "três pedidos típicos", sem idade.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a frase de abertura, os três pedidos, o que o eletrocardiograma vê, o Vêneto, as posições, a leitura, as quatro ferramentas, o que não pedir, os perfis e as respostas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD06/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Corrado 2006: Vêneto, 1979 a 2004, 12 a 35 anos; morte súbita
 cardiovascular em atletas de 3,6 para 0,4 por 100 mil pessoas-ano (queda de 89%), concentrada nas
 cardiomiopatias. Diretriz SBC/SBMEE 2019: avaliação clínica e eletrocardiograma de repouso classe I,
 nível A, no atleta competitivo profissional, mantida para o amador.
 
-**Correções.**
+**Correções.** 
 - Entraram os números de Corrado, que a versão anterior citava sem valores, e a ressalva de que é
   estudo observacional de uma região.
 - A classe exata do teste ergométrico ("dois A") saiu do texto falado, por não ter sido conferida;
   ficou "força de recomendação menor".
 - O PMID do posicionamento europeu virou o DOI conferido.
 - A referência de Riebe 2015 saiu, porque o modelo do ACSM é da aula anterior.
+- Drezner saiu da fala e do topo do slide; os critérios entram pelo ano. "A avaliação clínica da aula anterior" virou "a avaliação clínica com anamnese dirigida".
 
 **Saíram.** "Aula 6.1", "aula 6.3", "aula 6.4", "aula 6.5", "aula 6.10", "slide 1", "slide 6", as
-idades, "o escopo", o bloco "Roteiro Gamma".
+idades, "o escopo", o bloco "Roteiro Gamma". Duração de 20 para 15 minutos.
 
-**Citações faladas.** Corrado; Drezner; Sociedade Brasileira de Cardiologia e Sociedade Brasileira de
-Medicina do Exercício e do Esporte.
+**Citações faladas.** Corrado, pelo estudo do Vêneto que sustenta o rastreio com eletrocardiograma. Os critérios internacionais de 2017 entram pelo ano; a diretriz brasileira, pelas sociedades.
 
 **Ligações internas.** anamnese e perfis = aula anterior · coração de atleta = próxima aula · morte
 súbita = aula de morte súbita · desfibrilador = aula de emergência em campo · pedir e não pedir exame

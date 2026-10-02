@@ -220,7 +220,7 @@ típicos, sem idade, e contas feitas em aula.
 | 6.1 | Avaliação pré-participação | 19 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/5XNMp9y1t4m4BYxVSr6Bk9) |
 | 6.2 | Triagem cardiológica | 15 | 12 | DECISÃO | [slides](https://claude.ai/artifact/RYp1EvgZsQ5ySwRKBtriEu) |
 | 6.3 | Coração de atleta versus cardiopatia | 22 | 12 | NÚMERO | [slides](https://claude.ai/artifact/QdE5U2a3EwDxcw37jnMkmC) |
-| 6.4 | Morte súbita no esporte | 14 | 11 | ERRO | [slides](https://claude.ai/artifact/AMz2PhjEfQ7EPZHZXysZgG) |
+| 6.4 | Morte súbita no esporte | 15 | 11 | ERRO | [slides](https://claude.ai/artifact/AMz2PhjEfQ7EPZHZXysZgG) |
 | 6.5 | Emergência em campo | 18 | 12 | PROCEDIMENTO | [slides](https://claude.ai/artifact/G8X3hgaRPHzvh8djbxKvpZ) |
 | 6.6 | Concussão relacionada ao esporte | 20 | 13 | DECISÃO | [slides](https://claude.ai/artifact/CyvT4PVvUngEguH3SCQS5n) |
 | 6.7 | Broncoespasmo induzido pelo exercício | 15 | 12 | NÚMERO | [slides](https://claude.ai/artifact/DzjnUMt6eFDykUFYPvqaKq) |
@@ -230,7 +230,7 @@ típicos, sem idade, e contas feitas em aula.
 | 6.11 | Analgesia no esporte | 15 | 12 | DECISÃO | [slides](https://claude.ai/artifact/TuM4SBdrVDgHjTdG23inNQ) |
 | 6.12 | Exercício na doença crônica | 18 | 12 | CASO | [slides](https://claude.ai/artifact/U2aKTDu9vRviZ2Jjufwctu) |
 
-Total: 3 h 23 min em 12 aulas, 143 slides. A 6.12 fecha o módulo com a camada de
+Total: 3 h 24 min em 12 aulas, 143 slides. A 6.12 fecha o módulo com a camada de
 integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
 prevenção de lesões, que abre o Módulo 7.
 
@@ -240,6 +240,15 @@ primeira confederação filiada à FIFA a adotá-la, Brasileirão 2024), Lei Luc
 (13.722/2018), levantamento da RBME sobre protocolos dos clubes profissionais de
 São Paulo, e lista proibida da WADA 2026 (beta-2 agonistas, glicocorticoides e
 infusões acima de 100 mL/12 h).
+
+**Acabamento.** Os 123 slides que ainda eram texto (cartões, colunas, listas, tabelas, números e frases)
+viraram desenho, sem mudar a quantidade nem a ordem dos slides; agora todo slide do módulo, fora o fecho,
+é um desenho próprio (os novos estão em `slides/MOD06/_redesenho.py`). Na fala e no topo dos slides, saíram os
+nomes de autores que não são marco (ficam Corrado, pelo estudo do Vêneto, Pelliccia, pela espessura da parede
+em 1991, e Maron, pelo registro americano de morte súbita); os demais estudos entram pelo ano, e o autor fica
+na fonte do slide. O pai do caso da 6.1 morreu "aos cinquenta e poucos". As menções a "aula anterior" viraram
+referência ao conteúdo, e "na próxima aula" virou "na próxima conversa". As notas de produção foram refeitas
+no formato completo. Os links são os mesmos.
 
 ## Módulo 7 — Lesões: Mecanismos, Epidemiologia e Prevenção · 13 aulas
 
