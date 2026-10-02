@@ -98,6 +98,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Posterior da coxa e virilh
                     {"t": "Preparação física", "x": "Constrói a velocidade e mantém o programa."}],
           "quem": "Próxima aula: o tornozelo, a região mais lesionada e a que mais recidiva."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-06")
+
 spec = {"arquivo": "aulas/MOD08/08-06-reabilitacao-de-isquiotibiais-e-regiao-inguinal.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Posterior da coxa e virilha", "subtitulo": "O roteiro da fase final e da dor que não passa",
