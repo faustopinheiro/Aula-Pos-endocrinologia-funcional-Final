@@ -26,107 +26,514 @@
  "slides": [
   {
    "id": "simetria",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"O índice de simetria escrito como fração: a perna operada dividida pela perna boa dá 95%, acima do corte de 90%. O denominador, a perna boa, está destacado com uma pergunta: e se ela também perdeu força nesses oito meses? Então 95% de uma perna enfraquecida pode ser bem menos do que ele tinha antes da lesão\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"420\" height=\"110\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"0\" y1=\"160\" x2=\"420\" y2=\"160\" stroke=\"#12202E\" stroke-width=\"5\"/><rect x=\"0\" y=\"190\" width=\"420\" height=\"110\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"540\" y=\"90\" width=\"300\" height=\"140\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"440\" y1=\"260\" x2=\"920\" y2=\"260\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"940\" y=\"150\" width=\"724\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(964.0 172.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 54,
+     "w": 420,
+     "t": "perna operada",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 224,
+     "w": 420,
+     "t": "perna boa",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 126,
+     "w": 80,
+     "t": "=",
+     "tam": 52,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 106,
+     "w": 300,
+     "t": "95%",
+     "tam": 56,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 540,
+     "y": 184,
+     "w": 300,
+     "t": "acima do corte de 90%",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1020,
+     "y": 176,
+     "w": 620,
+     "t": "e se a perna boa também perdeu força?",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 964,
+     "y": 262,
+     "w": 680,
+     "t": "95% de uma perna enfraquecida pode ser bem menos do que ele tinha antes",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Um armador de basquete, oito meses depois do cruzado",
-   "frase": "Noventa e cinco por cento de simetria. E se a outra perna também perdeu força?",
-   "apoio": "O índice compara uma perna com a outra. 95% de uma perna enfraquecida pode ser bem menos do que ele tinha antes da lesão."
+   "titulo": "Noventa e cinco por cento de simetria. E se a outra perna também perdeu força?"
   },
   {
    "id": "roteiro",
-   "tipo": "lista",
-   "eyebrow": "O roteiro da bateria",
-   "titulo": "Cinco passos",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Cinco passos em fila. Um, o que medir: força, salto, movimento, gesto do esporte, cabeça. Dois, contra o quê comparar: a outra perna, a capacidade de antes, valores de referência. Três, como o esporte cobra: cansado, reagindo, mudando de direção. Quatro, a cabeça: confiança e medo de nova lesão. Cinco, a leitura: o que a bateria prevê e o que não prevê\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"44\" r=\"24\" fill=\"#008A7E\"/><g transform=\"translate(236.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><line x1=\"304\" y1=\"150\" x2=\"336\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"341\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"381\" cy=\"44\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(577.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><line x1=\"645\" y1=\"150\" x2=\"677\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"682\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"722\" cy=\"44\" r=\"24\" fill=\"#008A7E\"/><g transform=\"translate(918.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"986\" y1=\"150\" x2=\"1018\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1023\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1063\" cy=\"44\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(1259.0 22.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><line x1=\"1327\" y1=\"150\" x2=\"1359\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1364\" y=\"0\" width=\"300\" height=\"300\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"1404\" cy=\"44\" r=\"24\" fill=\"#12202E\"/><g transform=\"translate(1600.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 16,
+     "y": 30,
+     "w": 48,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 96,
+     "w": 260,
      "t": "O que medir",
-     "x": "força, salto, movimento, gesto do esporte, cabeça",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 172,
+     "w": 260,
+     "t": "força, salto, movimento, gesto do esporte, cabeça",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 357,
+     "y": 30,
+     "w": 48,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 361,
+     "y": 96,
+     "w": 260,
      "t": "Contra o quê comparar",
-     "x": "a outra perna, a capacidade de antes, valores de referência",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 361,
+     "y": 172,
+     "w": 260,
+     "t": "a outra perna, a capacidade de antes, valores de referência",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 698,
+     "y": 30,
+     "w": 48,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 702,
+     "y": 96,
+     "w": 260,
      "t": "Como o esporte cobra",
-     "x": "cansado, reagindo, mudando de direção",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 702,
+     "y": 172,
+     "w": 260,
+     "t": "cansado, reagindo, mudando de direção",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1039,
+     "y": 30,
+     "w": 48,
+     "t": "4",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1043,
+     "y": 96,
+     "w": 260,
      "t": "A cabeça",
-     "x": "confiança e medo de nova lesão",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 1043,
+     "y": 172,
+     "w": 260,
+     "t": "confiança e medo de nova lesão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1380,
+     "y": 30,
+     "w": 48,
+     "t": "5",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1384,
+     "y": 96,
+     "w": 260,
      "t": "A leitura",
-     "x": "o que a bateria prevê e o que não prevê",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1384,
+     "y": 172,
+     "w": 260,
+     "t": "o que a bateria prevê e o que não prevê",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 8
+   "eyebrow": "O roteiro da bateria",
+   "titulo": "Cinco passos"
   },
   {
    "id": "medir",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco linhas, um domínio por linha, com o modo de medir. Força: isocinético; ou dinamômetro de mão com faixa, ou repetições com carga padronizada. Salto: quatro saltos numa perna, simples, triplo, cruzado, seis metros cronometrados. Movimento: aterrissagem filmada de frente, joelho para dentro, tronco que desaba. Gesto: no basquete, parada brusca, corte, salto para o rebote. Cabeça: o passo quatro\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"66\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(16.0 13.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"310\" y1=\"33\" x2=\"362\" y2=\"33\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"374\" y=\"0\" width=\"1290\" height=\"66\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"80\" width=\"300\" height=\"66\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(16.0 93.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><line x1=\"310\" y1=\"113\" x2=\"362\" y2=\"113\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"374\" y=\"80\" width=\"1290\" height=\"66\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"160\" width=\"300\" height=\"66\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(16.0 173.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 7h1a2 2 0 0 0 2-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2\"/><path d=\"M9.5 15a3.5 3.5 0 0 0 5 0m.5-4h.01M9 11h.01\"/></g></g><line x1=\"310\" y1=\"193\" x2=\"362\" y2=\"193\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"374\" y=\"160\" width=\"1290\" height=\"66\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"240\" width=\"300\" height=\"66\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(16.0 253.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m2.65-6.35l12.7 12.7m-12.7 0l12.7-12.7\"/><path d=\"M12 3a9 9 0 0 0 9 9M3 12a9 9 0 0 1 9 9\"/></g></g><line x1=\"310\" y1=\"273\" x2=\"362\" y2=\"273\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"374\" y=\"240\" width=\"1290\" height=\"66\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"320\" width=\"300\" height=\"66\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(16.0 333.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><line x1=\"310\" y1=\"353\" x2=\"362\" y2=\"353\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"374\" y=\"320\" width=\"1290\" height=\"66\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 18,
+     "w": 220,
+     "t": "Força",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 20,
+     "w": 1250,
+     "t": "isocinético; ou dinamômetro de mão com faixa, ou repetições com carga padronizada",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 98,
+     "w": 220,
+     "t": "Salto",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 100,
+     "w": 1250,
+     "t": "quatro saltos numa perna: simples, triplo, cruzado, seis metros cronometrados",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 178,
+     "w": 220,
+     "t": "Movimento",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 180,
+     "w": 1250,
+     "t": "aterrissagem filmada de frente: joelho para dentro, tronco que desaba",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 258,
+     "w": 220,
+     "t": "Gesto",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 260,
+     "w": 1250,
+     "t": "no basquete: parada brusca, corte, salto para o rebote",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 338,
+     "w": 220,
+     "t": "Cabeça",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 340,
+     "w": 1250,
+     "t": "o passo quatro",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo um",
    "titulo": "O que medir, com e sem laboratório",
-   "cab": [
-    "Domínio",
-    "Como"
-   ],
-   "larguras": [
-    24,
-    76
-   ],
-   "linhas": [
-    [
-     "Força",
-     "isocinético; ou dinamômetro de mão com faixa, ou repetições com carga padronizada"
-    ],
-    [
-     "Salto",
-     "quatro saltos numa perna: simples, triplo, cruzado, seis metros cronometrados"
-    ],
-    [
-     "Movimento",
-     "aterrissagem filmada de frente: joelho para dentro, tronco que desaba"
-    ],
-    [
-     "Gesto",
-     "no basquete: parada brusca, corte, salto para o rebote"
-    ],
-    [
-     "Cabeça",
-     "o passo quatro"
-    ]
-   ],
    "destaque": "A distância do salto pode ser boa com uma aterrissagem ruim.",
    "destaque_cor": "tinta",
    "fonte": "Saltos: Am J Sports Med 1991"
   },
   {
    "id": "epic",
-   "tipo": "numeros",
-   "eyebrow": "Passo dois · 70 pacientes, seis meses depois",
-   "titulo": "Contra o quê comparar muda o resultado",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Duas contas sobre os mesmos 70 pacientes, seis meses depois da cirurgia. Barras numa escala de 100%: 57% passaram no índice de simetria de 90% em todos os testes; 29% passaram na comparação com a capacidade de antes da lesão. Embaixo, 34% passaram no primeiro e não no segundo\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"470\" y=\"0\" width=\"1100\" height=\"84\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.4\"/><rect x=\"470\" y=\"0\" width=\"627\" height=\"84\" rx=\"8\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"470\" y=\"108\" width=\"1100\" height=\"84\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.4\"/><rect x=\"470\" y=\"108\" width=\"319\" height=\"84\" rx=\"8\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"470\" y=\"216\" width=\"1100\" height=\"84\" rx=\"8\" fill=\"#C9CFD4\" opacity=\"0.4\"/><rect x=\"470\" y=\"216\" width=\"374\" height=\"84\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.55\"/></svg>",
+   "rotulos": [
     {
-     "n": "57%",
-     "x": "passaram no índice de simetria de 90% em todos os testes",
-     "cor": "ambar"
+     "x": 0,
+     "y": 10,
+     "w": 440,
+     "t": "Índice de simetria",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "29%",
-     "x": "passaram na comparação com a capacidade de antes da lesão",
-     "cor": "verm"
+     "x": 0,
+     "y": 44,
+     "w": 440,
+     "t": "operada contra a boa, as duas aos seis meses",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.2
     },
     {
-     "n": "34%",
-     "x": "passaram no primeiro e não no segundo",
-     "cor": "verm"
+     "x": 1113,
+     "y": 16,
+     "w": 200,
+     "t": "57%",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 118,
+     "w": 440,
+     "t": "Capacidade de antes",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 152,
+     "w": 440,
+     "t": "operada contra a boa medida antes da cirurgia",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 805,
+     "y": 124,
+     "w": 200,
+     "t": "29%",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 226,
+     "w": 440,
+     "t": "Passaram só no primeiro",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 260,
+     "w": 440,
+     "t": "simétricos e abaixo do que tinham",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 860,
+     "y": 232,
+     "w": 200,
+     "t": "34%",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     }
    ],
+   "eyebrow": "Passo dois · 70 pacientes, seis meses depois",
+   "titulo": "Contra o quê comparar muda o resultado",
    "destaque": "A comparação com a capacidade de antes foi bem mais sensível para identificar quem teria a segunda lesão do cruzado.",
    "destaque_cor": "tinta",
    "fonte": "Coorte de Delaware · J Orthop Sports Phys Ther 2017"
@@ -201,154 +608,700 @@
   },
   {
    "id": "distancia",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Em esquema, duas barras de força, perna boa e perna operada, quase da mesma altura: a distância entre as pernas é pequena. Acima delas, uma linha tracejada marca o que o esporte cobra: a distância até ela é grande. Ao lado: simetria continua útil, uma perna muito mais fraca é problema, sempre; mas simetria boa não diz, sozinha, que o atleta está pronto\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"40\" y1=\"60\" x2=\"860\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><rect x=\"140\" y=\"170\" width=\"180\" height=\"170\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"380\" y=\"182\" width=\"180\" height=\"158\" rx=\"8\" fill=\"#008A7E\"/><line x1=\"640\" y1=\"170\" x2=\"700\" y2=\"170\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"640\" y1=\"182\" x2=\"700\" y2=\"182\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"600\" y1=\"66\" x2=\"600\" y2=\"164\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M 590 76 L 600 64 L 610 76 M 590 154 L 600 166 L 610 154\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"940\" y=\"0\" width=\"724\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(964.0 40.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(964.0 190.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 18,
+     "w": 500,
+     "t": "o que o esporte cobra",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 300,
+     "w": 180,
+     "t": "perna boa",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 300,
+     "w": 180,
+     "t": "perna operada",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 160,
+     "w": 200,
+     "t": "entre as pernas: perto",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 614,
+     "y": 90,
+     "w": 220,
+     "t": "até o esporte: longe",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1030,
+     "y": 44,
+     "w": 610,
+     "t": "continua útil: uma perna muito mais fraca é problema, sempre",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1030,
+     "y": 194,
+     "w": 610,
+     "t": "simetria boa não diz, sozinha, que o atleta está pronto",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 40,
+     "y": 318,
+     "w": 90,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "Simetria mede a distância entre as pernas, não a distância até o esporte.",
-   "apoio": "Continua útil: uma perna muito mais fraca é problema, sempre. Mas simetria boa não diz, sozinha, que o atleta está pronto."
+   "titulo": "Simetria mede a distância entre as pernas, não a distância até o esporte."
   },
   {
    "id": "esporte",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo três",
-   "titulo": "Testar como o esporte cobra",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Três cartões sobre uma faixa que vai do controlado ao caótico. Cansado: saltos e aterrissagem depois de um bloco de esforço. Reagindo: a direção só aparece depois de um sinal. No treino: o gesto do esporte filmado, não só o teste isolado. É a faixa do controlado ao caótico do percurso do cruzado, usada como teste\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"250\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4\"/></g><rect x=\"568\" y=\"0\" width=\"528\" height=\"250\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(592.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><rect x=\"1136\" y=\"0\" width=\"528\" height=\"250\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1160.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm4-2v16m8-16v16M4 8h4m-4 8h4m-4-4h16m-4-4h4m-4 8h4\"/></g><defs><linearGradient id=\"g810\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#008A7E\"/><stop offset=\"1\" stop-color=\"#A8322A\"/></linearGradient></defs><rect x=\"0\" y=\"280\" width=\"1664\" height=\"30\" rx=\"15\" fill=\"url(#g810)\"/></svg>",
+   "rotulos": [
     {
+     "x": 92,
+     "y": 34,
+     "w": 408,
      "t": "Cansado",
-     "x": "saltos e aterrissagem depois de um bloco de esforço",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 110,
+     "w": 480,
+     "t": "saltos e aterrissagem depois de um bloco de esforço",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 660,
+     "y": 34,
+     "w": 408,
      "t": "Reagindo",
-     "x": "a direção só aparece depois de um sinal",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 110,
+     "w": 480,
+     "t": "a direção só aparece depois de um sinal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1228,
+     "y": 34,
+     "w": 408,
      "t": "No treino",
-     "x": "o gesto do esporte filmado, não só o teste isolado",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 110,
+     "w": 480,
+     "t": "o gesto do esporte filmado, não só o teste isolado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 322,
+     "w": 800,
+     "t": "controlado: descansado, sabendo o que vai fazer",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 864,
+     "y": 322,
+     "w": 800,
+     "t": "caótico: como o jogo cobra",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
-   "destaque": "A faixa do controlado ao caótico da aula do cruzado, usada como teste.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Passo três",
+   "titulo": "Testar como o esporte cobra"
   },
   {
    "id": "cabeca",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"À esquerda, a folha de um questionário australiano de 2008, com três domínios: confiança no joelho, emoções, avaliação de risco. À direita, para que serve: achar testes físicos bons com a cabeça longe de pronta; quem volta protegendo o joelho joga diferente; abrir a conversa da decisão\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><circle cx=\"40\" cy=\"146\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"146\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"146\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"146\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"146\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"146\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"222\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"222\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"222\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"222\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"222\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"222\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"298\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"298\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"298\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"298\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"298\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"298\" r=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"700\" y=\"0\" width=\"964\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(724.0 90.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><g transform=\"translate(724.0 170.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(724.0 250.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 28,
+     "w": 540,
+     "t": "Questionário australiano, 2008",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 100,
+     "w": 560,
+     "t": "confiança no joelho",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 176,
+     "w": 560,
+     "t": "emoções",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 252,
+     "w": 560,
+     "t": "avaliação de risco",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 20,
+     "w": 900,
+     "t": "Para que serve",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 786,
+     "y": 98,
+     "w": 850,
+     "t": "achar testes físicos bons com a cabeça longe de pronta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 786,
+     "y": 178,
+     "w": 850,
+     "t": "quem volta protegendo o joelho joga diferente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 786,
+     "y": 258,
+     "w": 850,
+     "t": "abrir a conversa da decisão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo quatro",
    "titulo": "Medir a cabeça",
-   "esq": {
-    "t": "O questionário australiano, 2008",
-    "cor": "petr",
-    "itens": [
-     "confiança no joelho",
-     "emoções",
-     "avaliação de risco"
-    ]
-   },
-   "dir": {
-    "t": "Para que serve",
-    "cor": "ambar",
-    "itens": [
-     "achar testes físicos bons com a cabeça longe",
-     "quem volta protegendo o joelho joga diferente",
-     "abrir a conversa da decisão"
-    ]
-   },
    "destaque": "O medo de nova lesão é uma das razões mais citadas para não voltar, e não aparece no dinamômetro.",
    "destaque_cor": "tinta",
    "fonte": "Phys Ther Sport 2008"
   },
   {
    "id": "preve",
-   "tipo": "numeros",
-   "eyebrow": "Passo cinco · o que a bateria prevê",
-   "titulo": "Ajuda muito, não prevê o indivíduo",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, 158 atletas profissionais homens que voltaram ao nível de antes: quem não cumpriu seis critérios de alta teve cerca de quatro vezes mais ruptura do enxerto; duas barras, uma quatro vezes a outra. À direita, a metanálise de 2019: passar nos testes, menos ruptura do enxerto; para o outro joelho, a proteção não apareceu. Embaixo: a bateria alimenta a decisão, não a substitui\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"290\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"60\" y=\"210\" width=\"220\" height=\"40\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"400\" y=\"90\" width=\"220\" height=\"160\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"820\" y=\"0\" width=\"844\" height=\"290\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(844.0 84.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(844.0 184.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><rect x=\"0\" y=\"310\" width=\"1664\" height=\"50\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
-     "n": "158",
-     "x": "atletas profissionais homens que voltaram ao nível de antes",
-     "cor": "tinta"
+     "x": 24,
+     "y": 18,
+     "w": 720,
+     "t": "158 atletas profissionais homens",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "4×",
-     "x": "mais ruptura do enxerto sem cumprir seis critérios de alta",
-     "cor": "verm"
+     "x": 40,
+     "y": 254,
+     "w": 260,
+     "t": "cumpriu os seis critérios",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 254,
+     "w": 260,
+     "t": "não cumpriu",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 50,
+     "w": 220,
+     "t": "≈ 4×",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 160,
+     "w": 240,
+     "t": "ruptura do enxerto, risco relativo",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 18,
+     "w": 800,
+     "t": "Metanálise de 2019",
+     "tam": 23,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 910,
+     "y": 80,
+     "w": 720,
+     "t": "o enxerto",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 116,
+     "w": 720,
+     "t": "passar nos testes, menos ruptura",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 180,
+     "w": 720,
+     "t": "o outro joelho",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 216,
+     "w": 720,
+     "t": "a proteção não apareceu",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 322,
+     "w": 1664,
+     "t": "ajuda muito; não prevê o indivíduo; alimenta a decisão, não a substitui",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Metanálise de 2019: passar nos testes, menos ruptura do enxerto; a proteção não apareceu para o outro joelho. A bateria alimenta a decisão, não a substitui.",
-   "destaque_cor": "tinta",
+   "eyebrow": "Passo cinco · o que a bateria prevê",
+   "titulo": "Ajuda muito, não prevê o indivíduo",
    "fonte": "Br J Sports Med 2016 · Sports Med 2019"
   },
   {
    "id": "consultorio",
-   "tipo": "cards",
-   "por_linha": 5,
-   "eyebrow": "Sem laboratório",
-   "titulo": "Uma bateria de consultório",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Cinco ferramentas lado a lado. Força: dinamômetro de mão ou repetições. Saltos: fita métrica e cronômetro. Aterrissagem: celular, sempre no mesmo ângulo. Reação: alguém aponta a direção. Prontidão: o questionário. Embaixo, três cuidados que valem mais que o equipamento: medir cedo, padronizar tudo, registrar valores absolutos e não só a porcentagem\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"304\" height=\"210\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"340\" y=\"0\" width=\"304\" height=\"210\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(362.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"680\" y=\"0\" width=\"304\" height=\"210\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(702.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 7h1a2 2 0 0 0 2-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2\"/><path d=\"M9.5 15a3.5 3.5 0 0 0 5 0m.5-4h.01M9 11h.01\"/></g></g><rect x=\"1020\" y=\"0\" width=\"304\" height=\"210\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1042.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><rect x=\"1360\" y=\"0\" width=\"304\" height=\"210\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1382.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"0\" y=\"240\" width=\"380\" height=\"120\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(24.0 276.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"400\" y=\"240\" width=\"380\" height=\"120\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(424.0 276.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12V9a3 3 0 0 1 3-3h13m-3-3l3 3l-3 3m3 3v3a3 3 0 0 1-3 3H4m3 3l-3-3l3-3\"/></g><rect x=\"800\" y=\"240\" width=\"864\" height=\"120\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(824.0 276.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 22,
+     "y": 86,
+     "w": 260,
      "t": "Força",
-     "x": "dinamômetro de mão ou repetições",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 22,
+     "y": 128,
+     "w": 260,
+     "t": "dinamômetro de mão ou repetições",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 362,
+     "y": 86,
+     "w": 260,
      "t": "Saltos",
-     "x": "fita métrica e cronômetro",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 362,
+     "y": 128,
+     "w": 260,
+     "t": "fita métrica e cronômetro",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 702,
+     "y": 86,
+     "w": 260,
      "t": "Aterrissagem",
-     "x": "celular, sempre no mesmo ângulo",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 702,
+     "y": 128,
+     "w": 260,
+     "t": "celular, sempre no mesmo ângulo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1042,
+     "y": 86,
+     "w": 260,
      "t": "Reação",
-     "x": "alguém aponta a direção",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1042,
+     "y": 128,
+     "w": 260,
+     "t": "alguém aponta a direção",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1382,
+     "y": 86,
+     "w": 260,
      "t": "Prontidão",
-     "x": "o questionário",
-     "cor": "tinta"
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1382,
+     "y": 128,
+     "w": 260,
+     "t": "o questionário",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 84,
+     "y": 282,
+     "w": 280,
+     "t": "medir cedo",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 484,
+     "y": 282,
+     "w": 280,
+     "t": "padronizar tudo",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 884,
+     "y": 282,
+     "w": 764,
+     "t": "registrar valores absolutos, não só a porcentagem",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
-   "destaque": "Medir cedo, padronizar tudo e registrar valores absolutos, não só a porcentagem.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Sem laboratório",
+   "titulo": "Uma bateria de consultório"
   },
   {
    "id": "quem",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Quatro cartões, cada domínio com um dono. Fisioterapia: testes clínicos e de força; guarda os valores de antes. Preparação física: saltos, velocidade, fadiga; a referência do esporte e do atleta. Psicologia: prontidão e medo; sem psicólogo, o questionário e a conversa. Médico: junta com o tempo biológico do tecido, que o teste não mede\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"0\" y=\"0\" width=\"386\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"426\" y=\"0\" width=\"386\" height=\"300\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(450.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"852\" y=\"0\" width=\"386\" height=\"300\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(876.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"1278\" y=\"0\" width=\"386\" height=\"300\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(1302.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 100,
+     "w": 338,
+     "t": "Fisioterapia",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 150,
+     "w": 338,
+     "t": "testes clínicos e de força; guarda os valores de antes",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 450,
+     "y": 100,
+     "w": 338,
+     "t": "Preparação física",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 450,
+     "y": 150,
+     "w": 338,
+     "t": "saltos, velocidade, fadiga; a referência do esporte e do atleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 876,
+     "y": 100,
+     "w": 338,
+     "t": "Psicologia",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 876,
+     "y": 150,
+     "w": 338,
+     "t": "prontidão e medo; sem psicólogo, o questionário e a conversa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1302,
+     "y": 100,
+     "w": 338,
+     "t": "Médico",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1302,
+     "y": 150,
+     "w": 338,
+     "t": "junta com o tempo biológico do tecido, que o teste não mede",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Quem faz o quê",
-   "titulo": "Cada domínio tem dono",
-   "cab": [
-    "Quem",
-    "Na bateria"
-   ],
-   "larguras": [
-    26,
-    74
-   ],
-   "linhas": [
-    [
-     "Fisioterapia",
-     "testes clínicos e de força; guarda os valores de antes"
-    ],
-    [
-     "Preparação física",
-     "saltos, velocidade, fadiga; a referência do esporte e do atleta"
-    ],
-    [
-     "Psicologia",
-     "prontidão e medo; sem psicólogo, o questionário e a conversa"
-    ],
-    [
-     "Médico",
-     "junta com o tempo biológico do tecido, que o teste não mede"
-    ]
-   ],
-   "destaque_cor": "tinta"
+   "titulo": "Cada domínio tem dono"
   },
   {
    "id": "fecho",

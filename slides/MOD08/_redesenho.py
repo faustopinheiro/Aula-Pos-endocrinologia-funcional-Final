@@ -1907,6 +1907,218 @@ def quem_89():
         rs += [rot(x + 24, 100, t, w=W - 48, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, 150, d, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
     return slide("quem", 300, p, rs, eyebrow="Quem faz o quê", titulo="Cada um com uma parte da régua")
 
+# ---------------------------------------------------------------- 8.10
+
+def simetria_810():
+    """8.10: a fração do índice de simetria, com o denominador posto em dúvida."""
+    p = [svg_abre(1664, 340, "O índice de simetria escrito como fração: a perna operada dividida pela perna boa dá 95%, acima do corte de 90%. O denominador, a perna boa, está destacado com uma pergunta: e se ela também perdeu força nesses oito meses? Então 95% de uma perna enfraquecida pode ser bem menos do que ele tinha antes da lesão"), defs(FOSF)]
+    rs = []
+    p.append(caixa(0, 20, 420, 110, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(0, 54, "perna operada", w=420, tam=28, cor=OXID, peso=700, alinha="center", serif=True))
+    p.append(f'<line x1="0" y1="160" x2="420" y2="160" stroke="{TINTA}" stroke-width="5"/>')
+    p.append(caixa(0, 190, 420, 110, FOSF, FOSF_T, esp=5, rx=16))
+    rs.append(rot(0, 224, "perna boa", w=420, tam=28, cor=FOSF, peso=700, alinha="center", serif=True))
+    rs.append(rot(440, 126, "=", w=80, tam=52, cor=TINTA, peso=700, alinha="center"))
+    p.append(caixa(540, 90, 300, 140, TINTA, TINTA, esp=0, rx=16))
+    rs += [rot(540, 106, "95%", w=300, tam=56, cor=PAPEL, peso=700, alinha="center", serif=True), rot(540, 184, "acima do corte de 90%", w=300, tam=19, cor=PAPEL, alinha="center")]
+    p.append(seta(440, 260, 920, 260, FOSF, "m0", esp=3))
+    p.append(caixa(940, 150, 724, 190, FOSF, CARTAO, esp=2, rx=16))
+    p.append(icone("t:question-mark", 964, 172, 44, FOSF))
+    rs += [rot(1020, 176, "e se a perna boa também perdeu força?", w=620, tam=25, cor=FOSF, peso=700, serif=True, lh=1.2),
+           rot(964, 262, "95% de uma perna enfraquecida pode ser bem menos do que ele tinha antes", w=680, tam=20, cor=TINTA, lh=1.25)]
+    return slide("simetria", 340, p, rs, eyebrow="Um armador de basquete, oito meses depois do cruzado",
+                 titulo="Noventa e cinco por cento de simetria. E se a outra perna também perdeu força?")
+
+
+def roteiro_810():
+    """8.10: os cinco passos da bateria em fila, cada um com o seu ícone."""
+    p = [svg_abre(1664, 300, "Cinco passos em fila. Um, o que medir: força, salto, movimento, gesto do esporte, cabeça. Dois, contra o quê comparar: a outra perna, a capacidade de antes, valores de referência. Três, como o esporte cobra: cansado, reagindo, mudando de direção. Quatro, a cabeça: confiança e medo de nova lesão. Cinco, a leitura: o que a bateria prevê e o que não prevê"), defs(MUDO)]
+    rs = []
+    W = 300
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:ruler-measure", "O que medir", "força, salto, movimento, gesto do esporte, cabeça", OXID, OXID_T),
+                                                ("t:scale", "Contra o quê comparar", "a outra perna, a capacidade de antes, valores de referência", GLIC, GLIC_T),
+                                                ("t:run", "Como o esporte cobra", "cansado, reagindo, mudando de direção", OXID, OXID_T),
+                                                ("t:message-circle", "A cabeça", "confiança e medo de nova lesão", GLIC, GLIC_T),
+                                                ("t:eye", "A leitura", "o que a bateria prevê e o que não prevê", TINTA, PAPEL)]):
+        x = k * (W + 41)
+        p.append(caixa(x, 0, W, 300, cor, fundo, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 40}" cy="44" r="24" fill="{cor}"/>')
+        rs.append(rot(x + 16, 30, str(k + 1), w=48, tam=24, cor=PAPEL, peso=700, alinha="center", serif=True))
+        p.append(icone(ic, x + W - 64, 22, 44, cor))
+        rs += [rot(x + 20, 96, t, w=W - 40, tam=24, cor=cor, peso=700, serif=True, lh=1.15), rot(x + 20, 172, d, w=W - 40, tam=20, cor=TINTA, lh=1.3)]
+        if k < 4:
+            p.append(seta(x + W + 4, 150, x + W + 36, 150, MUDO, "m0", esp=3))
+    return slide("roteiro", 300, p, rs, eyebrow="O roteiro da bateria", titulo="Cinco passos")
+
+
+def medir_810():
+    """8.10: cinco domínios em linha, com o como medir de cada um."""
+    p = [svg_abre(1664, 400, "Cinco linhas, um domínio por linha, com o modo de medir. Força: isocinético; ou dinamômetro de mão com faixa, ou repetições com carga padronizada. Salto: quatro saltos numa perna, simples, triplo, cruzado, seis metros cronometrados. Movimento: aterrissagem filmada de frente, joelho para dentro, tronco que desaba. Gesto: no basquete, parada brusca, corte, salto para o rebote. Cabeça: o passo quatro"), defs(MUDO)]
+    rs = []
+    linhas = [("t:barbell", "Força", "isocinético; ou dinamômetro de mão com faixa, ou repetições com carga padronizada", OXID, OXID_T),
+              ("t:stairs", "Salto", "quatro saltos numa perna: simples, triplo, cruzado, seis metros cronometrados", OXID, OXID_T),
+              ("t:camera-selfie", "Movimento", "aterrissagem filmada de frente: joelho para dentro, tronco que desaba", GLIC, GLIC_T),
+              ("t:ball-basketball", "Gesto", "no basquete: parada brusca, corte, salto para o rebote", GLIC, GLIC_T),
+              ("t:message-circle", "Cabeça", "o passo quatro", TINTA, PAPEL)]
+    for k, (ic, t, d, cor, fundo) in enumerate(linhas):
+        y = k * 80
+        p.append(caixa(0, y, 300, 66, cor, fundo, esp=2, rx=12))
+        p.append(icone(ic, 16, y + 13, 40, cor))
+        rs.append(rot(70, y + 18, t, w=220, tam=24, cor=cor, peso=700))
+        p.append(seta(310, y + 33, 362, y + 33, MUDO, "m0", esp=3))
+        p.append(caixa(374, y, 1290, 66, BORDA, CARTAO, esp=2, rx=12))
+        rs.append(rot(396, y + 20, d, w=1250, tam=21, cor=TINTA))
+    return slide("medir", 400, p, rs, eyebrow="Passo um", titulo="O que medir, com e sem laboratório",
+                 destaque="A distância do salto pode ser boa com uma aterrissagem ruim.", destaque_cor="tinta", fonte="Saltos: Am J Sports Med 1991")
+
+
+def epic_810():
+    """8.10: duas contas sobre os mesmos 70 pacientes, a simetria e a capacidade de antes, e a fatia que passou numa e não na outra."""
+    p = [svg_abre(1664, 320, "Duas contas sobre os mesmos 70 pacientes, seis meses depois da cirurgia. Barras numa escala de 100%: 57% passaram no índice de simetria de 90% em todos os testes; 29% passaram na comparação com a capacidade de antes da lesão. Embaixo, 34% passaram no primeiro e não no segundo")]
+    rs = []
+    X0, E = 470, 11
+    for k, (v, t, d, cor) in enumerate([(57, "Índice de simetria", "operada contra a boa, as duas aos seis meses", GLIC),
+                                        (29, "Capacidade de antes", "operada contra a boa medida antes da cirurgia", FOSF),
+                                        (34, "Passaram só no primeiro", "simétricos e abaixo do que tinham", FOSF)]):
+        y = k * 108
+        rs += [rot(0, y + 10, t, w=440, tam=23, cor=cor, peso=700, alinha="right"), rot(0, y + 44, d, w=440, tam=18, cor=TINTA, alinha="right", lh=1.2)]
+        p.append(f'<rect x="{X0}" y="{y}" width="{100 * E}" height="84" rx="8" fill="{CINZA}" opacity="0.4"/>')
+        p.append(f'<rect x="{X0}" y="{y}" width="{v * E}" height="84" rx="8" fill="{cor}" opacity="{0.55 if k == 2 else 1}"/>')
+        rs.append(rot(X0 + v * E + 16, y + 16, f"{v}%", w=200, tam=44, cor=cor, peso=700, serif=True))
+    return slide("epic", 320, p, rs, eyebrow="Passo dois · 70 pacientes, seis meses depois", titulo="Contra o quê comparar muda o resultado",
+                 destaque="A comparação com a capacidade de antes foi bem mais sensível para identificar quem teria a segunda lesão do cruzado.", destaque_cor="tinta",
+                 fonte="Coorte de Delaware · J Orthop Sports Phys Ther 2017")
+
+
+def distancia_810():
+    """8.10: duas barras de perna próximas entre si e longe da linha do esporte, em esquema."""
+    p = [svg_abre(1664, 360, "Em esquema, duas barras de força, perna boa e perna operada, quase da mesma altura: a distância entre as pernas é pequena. Acima delas, uma linha tracejada marca o que o esporte cobra: a distância até ela é grande. Ao lado: simetria continua útil, uma perna muito mais fraca é problema, sempre; mas simetria boa não diz, sozinha, que o atleta está pronto")]
+    rs = []
+    B = 340
+    p.append(f'<line x1="40" y1="60" x2="860" y2="60" stroke="{TINTA}" stroke-width="4"{TRACO}/>')
+    rs.append(rot(40, 18, "o que o esporte cobra", w=500, tam=21, cor=TINTA, peso=700))
+    for k, (h, t, cor) in enumerate([(170, "perna boa", AZUL), (158, "perna operada", OXID)]):
+        x = 140 + k * 240
+        p.append(f'<rect x="{x}" y="{B - h}" width="180" height="{h}" rx="8" fill="{cor}"/>')
+        rs.append(rot(x, B - 40, t, w=180, tam=19, cor=PAPEL, peso=700, alinha="center"))
+    p.append(f'<line x1="640" y1="{B - 170}" x2="700" y2="{B - 170}" stroke="{GLIC}" stroke-width="3"/>')
+    p.append(f'<line x1="640" y1="{B - 158}" x2="700" y2="{B - 158}" stroke="{GLIC}" stroke-width="3"/>')
+    rs.append(rot(710, B - 180, "entre as pernas: perto", w=200, tam=19, cor=GLIC, peso=700, lh=1.15))
+    p.append(f'<line x1="600" y1="66" x2="600" y2="{B - 176}" stroke="{FOSF}" stroke-width="4"/>')
+    p.append(f'<path d="M 590 76 L 600 64 L 610 76 M 590 {B - 186} L 600 {B - 174} L 610 {B - 186}" fill="none" stroke="{FOSF}" stroke-width="4"/>')
+    rs.append(rot(614, 90, "até o esporte: longe", w=220, tam=19, cor=FOSF, peso=700, lh=1.15))
+    p.append(caixa(940, 0, 724, 360, TINTA, CARTAO, esp=2, rx=16))
+    for j, (ic, t, cor) in enumerate([("t:check", "continua útil: uma perna muito mais fraca é problema, sempre", OXID),
+                                      ("t:x", "simetria boa não diz, sozinha, que o atleta está pronto", FOSF)]):
+        y = 40 + j * 150
+        p.append(icone(ic, 964, y, 48, cor))
+        rs.append(rot(1030, y + 4, t, w=610, tam=23, cor=TINTA, peso=700, lh=1.3))
+    rs.append(rot(40, B - 22, "esquema", w=90, tam=16, cor=MUDO))
+    return slide("distancia", 360, p, rs, eyebrow="A ideia da aula", titulo="Simetria mede a distância entre as pernas, não a distância até o esporte.")
+
+
+def esporte_810():
+    """8.10: o mesmo salto em três condições, sobre a faixa do controlado ao caótico."""
+    p = [svg_abre(1664, 360, "Três cartões sobre uma faixa que vai do controlado ao caótico. Cansado: saltos e aterrissagem depois de um bloco de esforço. Reagindo: a direção só aparece depois de um sinal. No treino: o gesto do esporte filmado, não só o teste isolado. É a faixa do controlado ao caótico do percurso do cruzado, usada como teste")]
+    rs = []
+    W = 528
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:battery-1", "Cansado", "saltos e aterrissagem depois de um bloco de esforço", GLIC, GLIC_T),
+                                                ("t:arrows-exchange", "Reagindo", "a direção só aparece depois de um sinal", GLIC, GLIC_T),
+                                                ("t:movie", "No treino", "o gesto do esporte filmado, não só o teste isolado", FOSF, FOSF_T)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 250, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 24, 52, cor))
+        rs += [rot(x + 92, 34, t, w=W - 120, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, 110, d, w=W - 48, tam=22, cor=TINTA, lh=1.3)]
+    p.append('<defs><linearGradient id="g810" x1="0" x2="1"><stop offset="0" stop-color="' + OXID + '"/><stop offset="1" stop-color="' + FOSF + '"/></linearGradient></defs>')
+    p.append('<rect x="0" y="280" width="1664" height="30" rx="15" fill="url(#g810)"/>')
+    rs += [rot(0, 322, "controlado: descansado, sabendo o que vai fazer", w=800, tam=19, cor=OXID, peso=700),
+           rot(864, 322, "caótico: como o jogo cobra", w=800, tam=19, cor=FOSF, peso=700, alinha="right")]
+    return slide("esporte", 360, p, rs, eyebrow="Passo três", titulo="Testar como o esporte cobra")
+
+
+def cabeca_810():
+    """8.10: a folha do questionário com três domínios e, ao lado, para que ele serve."""
+    p = [svg_abre(1664, 340, "À esquerda, a folha de um questionário australiano de 2008, com três domínios: confiança no joelho, emoções, avaliação de risco. À direita, para que serve: achar testes físicos bons com a cabeça longe de pronta; quem volta protegendo o joelho joga diferente; abrir a conversa da decisão")]
+    rs = []
+    p.append(caixa(0, 0, 640, 340, OXID, CARTAO, esp=2, rx=16))
+    p.append(icone("t:clipboard-list", 24, 22, 44, OXID))
+    rs.append(rot(80, 28, "Questionário australiano, 2008", w=540, tam=24, cor=OXID, peso=700, serif=True))
+    for j, t in enumerate(["confiança no joelho", "emoções", "avaliação de risco"]):
+        y = 100 + j * 76
+        rs.append(rot(24, y, t, w=560, tam=20, cor=TINTA, peso=700))
+        for c in range(6):
+            p.append(f'<circle cx="{40 + c * 50}" cy="{y + 46}" r="12" fill="{CARTAO}" stroke="{OXID}" stroke-width="2"/>')
+    p.append(caixa(700, 0, 964, 340, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(724, 20, "Para que serve", w=900, tam=27, cor=GLIC, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:zoom-question", "achar testes físicos bons com a cabeça longe de pronta"), ("t:shield", "quem volta protegendo o joelho joga diferente"), ("t:message-circle", "abrir a conversa da decisão")]):
+        y = 90 + j * 80
+        p.append(icone(ic, 724, y, 44, GLIC))
+        rs.append(rot(786, y + 8, t, w=850, tam=22, cor=TINTA, peso=700 if j == 0 else 400))
+    return slide("cabeca", 340, p, rs, eyebrow="Passo quatro", titulo="Medir a cabeça",
+                 destaque="O medo de nova lesão é uma das razões mais citadas para não voltar, e não aparece no dinamômetro.", destaque_cor="tinta",
+                 fonte="Phys Ther Sport 2008")
+
+
+def preve_810():
+    """8.10: o risco de ruptura do enxerto quatro vezes maior sem os critérios, e o que a metanálise achou para cada joelho."""
+    p = [svg_abre(1664, 360, "À esquerda, 158 atletas profissionais homens que voltaram ao nível de antes: quem não cumpriu seis critérios de alta teve cerca de quatro vezes mais ruptura do enxerto; duas barras, uma quatro vezes a outra. À direita, a metanálise de 2019: passar nos testes, menos ruptura do enxerto; para o outro joelho, a proteção não apareceu. Embaixo: a bateria alimenta a decisão, não a substitui")]
+    rs = []
+    p.append(caixa(0, 0, 760, 290, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 18, "158 atletas profissionais homens", w=720, tam=23, cor=TINTA, peso=700, serif=True))
+    B = 250
+    for k, (h, t, cor) in enumerate([(40, "cumpriu os seis critérios", OXID), (160, "não cumpriu", FOSF)]):
+        x = 60 + k * 340
+        p.append(f'<rect x="{x}" y="{B - h}" width="220" height="{h}" rx="8" fill="{cor}"/>')
+        rs.append(rot(x - 20, B + 4, t, w=260, tam=18, cor=TINTA, peso=700, alinha="center"))
+    rs += [rot(400, 50, "≈ 4×", w=220, tam=40, cor=FOSF, peso=700, alinha="center", serif=True), rot(60, 160, "ruptura do enxerto, risco relativo", w=240, tam=18, cor=MUDO, alinha="center")]
+    p.append(caixa(820, 0, 844, 290, AZUL, CARTAO, esp=2, rx=16))
+    rs.append(rot(844, 18, "Metanálise de 2019", w=800, tam=23, cor=AZUL, peso=700, serif=True))
+    for j, (ic, t, d, cor) in enumerate([("t:check", "o enxerto", "passar nos testes, menos ruptura", OXID), ("t:question-mark", "o outro joelho", "a proteção não apareceu", GLIC)]):
+        y = 80 + j * 100
+        p.append(icone(ic, 844, y + 4, 48, cor))
+        rs += [rot(910, y, t, w=720, tam=23, cor=cor, peso=700), rot(910, y + 36, d, w=720, tam=21, cor=TINTA)]
+    p.append(caixa(0, 310, 1664, 50, TINTA, TINTA, esp=0, rx=12))
+    rs.append(rot(0, 322, "ajuda muito; não prevê o indivíduo; alimenta a decisão, não a substitui", w=1664, tam=21, cor=PAPEL, peso=700, alinha="center"))
+    return slide("preve", 360, p, rs, eyebrow="Passo cinco · o que a bateria prevê", titulo="Ajuda muito, não prevê o indivíduo",
+                 fonte="Br J Sports Med 2016 · Sports Med 2019")
+
+
+def consultorio_810():
+    """8.10: cinco ferramentas baratas e os três cuidados que valem mais que o equipamento."""
+    p = [svg_abre(1664, 360, "Cinco ferramentas lado a lado. Força: dinamômetro de mão ou repetições. Saltos: fita métrica e cronômetro. Aterrissagem: celular, sempre no mesmo ângulo. Reação: alguém aponta a direção. Prontidão: o questionário. Embaixo, três cuidados que valem mais que o equipamento: medir cedo, padronizar tudo, registrar valores absolutos e não só a porcentagem")]
+    rs = []
+    W = 304
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:gauge", "Força", "dinamômetro de mão ou repetições", OXID, OXID_T), ("t:stopwatch", "Saltos", "fita métrica e cronômetro", OXID, OXID_T),
+                                                ("t:camera-selfie", "Aterrissagem", "celular, sempre no mesmo ângulo", GLIC, GLIC_T), ("t:hand-stop", "Reação", "alguém aponta a direção", GLIC, GLIC_T),
+                                                ("t:clipboard-list", "Prontidão", "o questionário", TINTA, PAPEL)]):
+        x = k * (W + 36)
+        p.append(caixa(x, 0, W, 210, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 22, 22, 48, cor))
+        rs += [rot(x + 22, 86, t, w=W - 44, tam=25, cor=cor, peso=700, serif=True), rot(x + 22, 128, d, w=W - 44, tam=20, cor=TINTA, lh=1.3)]
+    for j, (ic, t) in enumerate([("t:calendar", "medir cedo"), ("t:repeat", "padronizar tudo"), ("t:notebook", "registrar valores absolutos, não só a porcentagem")]):
+        x = [0, 400, 800][j]
+        w = [380, 380, 864][j]
+        p.append(caixa(x, 240, w, 120, TINTA, TINTA, esp=0, rx=16))
+        p.append(icone(ic, x + 24, 276, 44, PAPEL))
+        rs.append(rot(x + 84, 282, t, w=w - 100, tam=23, cor=PAPEL, peso=700, lh=1.2))
+    return slide("consultorio", 360, p, rs, eyebrow="Sem laboratório", titulo="Uma bateria de consultório")
+
+
+def quem_810():
+    """8.10: quatro donos, cada um com o seu domínio da bateria."""
+    p = [svg_abre(1664, 300, "Quatro cartões, cada domínio com um dono. Fisioterapia: testes clínicos e de força; guarda os valores de antes. Preparação física: saltos, velocidade, fadiga; a referência do esporte e do atleta. Psicologia: prontidão e medo; sem psicólogo, o questionário e a conversa. Médico: junta com o tempo biológico do tecido, que o teste não mede")]
+    rs = []
+    W = 386
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:barbell", "Fisioterapia", "testes clínicos e de força; guarda os valores de antes", OXID, OXID_T),
+                                                ("t:stopwatch", "Preparação física", "saltos, velocidade, fadiga; a referência do esporte e do atleta", GLIC, GLIC_T),
+                                                ("t:message-circle", "Psicologia", "prontidão e medo; sem psicólogo, o questionário e a conversa", FOSF, FOSF_T),
+                                                ("t:hourglass", "Médico", "junta com o tempo biológico do tecido, que o teste não mede", AZUL, AZUL_T)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 300, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 24, 52, cor))
+        rs += [rot(x + 24, 100, t, w=W - 48, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, 150, d, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
+    return slide("quem", 300, p, rs, eyebrow="Quem faz o quê", titulo="Cada domínio tem dono")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipoteses_81, laudo_81, vieses_81, quem_81],
@@ -1917,7 +2129,8 @@ LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipot
           "08-06": [macas_86, roteiro_86, resolvido_86, criterios_86, sprint_86, doha_86, medir_86, holmich_86, manter_86, armadilhas_86],
           "08-07": [um3_87, ensaio_87, programa_87, ortese_87, juntar_87, oito_87, paass_87, barato_87, erros_87, quem_87],
           "08-08": [paro_88, alerta_88, natacao_88, mod_ombro_88, cirurgia_88, meio_88, flexao_88, risco_88, mod_coluna_88, custo_88],
-          "08-09": [perguntas_89, aparelho_89, fita_89, manual_89, janela_89, caros_89, contexto_89, reconhecer_89, quem_89]}
+          "08-09": [perguntas_89, aparelho_89, fita_89, manual_89, janela_89, caros_89, contexto_89, reconhecer_89, quem_89],
+          "08-10": [simetria_810, roteiro_810, medir_810, epic_810, distancia_810, esporte_810, cabeca_810, preve_810, consultorio_810, quem_810]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

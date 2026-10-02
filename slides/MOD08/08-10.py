@@ -105,6 +105,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Testes de retorno", "titul
                     {"t": "Psicologia e médico", "x": "A cabeça e o tempo do tecido."}],
           "quem": "Próxima aula: a decisão de retorno, compartilhada."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-10")
+
 spec = {"arquivo": "aulas/MOD08/08-10-testes-de-retorno-ao-esporte.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Testes de retorno ao esporte", "subtitulo": "O que medir, contra o quê, e como não ser enganado",
