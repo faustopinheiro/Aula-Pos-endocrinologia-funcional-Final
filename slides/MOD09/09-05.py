@@ -99,6 +99,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Treino aeróbio", "titulo"
                     {"t": "Atleta", "x": "Aceita correr devagar, e sozinha se preciso."}],
           "quem": "Próxima aula: prescrição por zonas e por percepção de esforço."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-05")
+
 spec = {"arquivo": "aulas/MOD09/09-05-treino-aerobio-continuo-e-intervalado.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Treino aeróbio contínuo e intervalado", "subtitulo": "Distribuição de intensidade para quem treina pouco",
