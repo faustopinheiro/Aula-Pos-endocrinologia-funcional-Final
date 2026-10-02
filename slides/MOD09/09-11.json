@@ -26,11 +26,117 @@
  "slides": [
   {
    "id": "bilhete",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, o bilhete da fisioterapia: liberada para treinar com o grupo. No meio, quem é ela: jogadora de basquete amador, na casa dos trinta; técnica de enfermagem em plantões de 12 por 36; três semanas afastada por entorse de tornozelo. À direita, três perguntas que o bilhete não responde: liberada para qual treino? em qual semana? fazendo o quê?\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"20\" y=\"30\" width=\"460\" height=\"300\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\" transform=\"rotate(-3 250 180)\"/><line x1=\"60\" y1=\"210\" x2=\"440\" y2=\"200\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><line x1=\"60\" y1=\"232\" x2=\"440\" y2=\"222\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><line x1=\"60\" y1=\"254\" x2=\"440\" y2=\"244\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><line x1=\"60\" y1=\"276\" x2=\"440\" y2=\"266\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><line x1=\"60\" y1=\"298\" x2=\"440\" y2=\"288\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"540\" y=\"0\" width=\"560\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(564.0 20.0) scale(1.3333)\"><g fill=\"#12202E\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"><path d=\"M24 6c-2.806 0-6.238 1.026-8.264 1.731c-.988.344-1.483 1.417-1.156 2.41l2.148 6.521a8 8 0 1 0 14.544 0l2.148-6.52c.327-.994-.168-2.067-1.156-2.41C30.237 7.025 26.806 6 24 6m-5.62 12.425c3.757-1.543 7.483-1.543 11.24 0q.09.037.186.056a6 6 0 1 1-11.613 0q.096-.019.187-.056M25 11h2v2h-2v2h-2v-2h-2v-2h2V9h2z\"/><path d=\"M22.85 32.193L16.88 28S6 31.393 6 35.467V42h36v-6.533C42 31.393 31.121 28 31.121 28l-5.972 4.193a2 2 0 0 1-2.298 0M32 32h2v2h2v2h-2v2h-2v-2h-2v-2h2z\"/></g></g><g transform=\"translate(564.0 120.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m2.65-6.35l12.7 12.7m-12.7 0l12.7-12.7\"/><path d=\"M12 3a9 9 0 0 0 9 9M3 12a9 9 0 0 1 9 9\"/></g></g><g transform=\"translate(564.0 202.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g><g transform=\"translate(564.0 284.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"1140\" y=\"0\" width=\"524\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1160.0 30.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><rect x=\"1140\" y=\"130\" width=\"524\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1160.0 160.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><rect x=\"1140\" y=\"260\" width=\"524\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1160.0 290.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 50,
+     "y": 70,
+     "w": 400,
+     "t": "Fisioterapia",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 50,
+     "y": 110,
+     "w": 400,
+     "t": "“Liberada para treinar com o grupo.”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 644,
+     "y": 36,
+     "w": 440,
+     "t": "Quem é ela",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 624,
+     "y": 122,
+     "w": 460,
+     "t": "basquete amador, na casa dos trinta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 204,
+     "w": 460,
+     "t": "técnica de enfermagem, plantões de 12 por 36",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 286,
+     "w": 460,
+     "t": "três semanas afastada: entorse de tornozelo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1222,
+     "y": 38,
+     "w": 430,
+     "t": "Liberada para qual treino?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1222,
+     "y": 168,
+     "w": 430,
+     "t": "Em qual semana?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1222,
+     "y": 298,
+     "w": 430,
+     "t": "Fazendo o quê?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Segundo caso do módulo",
-   "frase": "“Liberada para treinar com o grupo.”",
-   "apoio": "Jogadora de basquete amador, na casa dos trinta anos, técnica de enfermagem em plantões de 12 por 36. Três semanas afastada por entorse de tornozelo. Liberada para qual treino? Em qual semana? Fazendo o quê?"
+   "titulo": "“Liberada para treinar com o grupo.”"
   },
   {
    "id": "degraus",
@@ -102,27 +208,103 @@
   },
   {
    "id": "distancia",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, o que a reabilitação treinou: um percurso reto entre cones, sempre igual; exercício previsível, no ritmo dela, com intervalo, sem ninguém do outro lado. À direita, o que o treino coletivo exige: a jogadora no meio de setas em várias direções, a bola e uma adversária encostando; reagir à bola e à adversária, aterrissar com contato, saltos seguidos no ritmo do grupo\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"800\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 80 150 l -18 36 l 36 0 Z\" fill=\"#B07A1C\"/><path d=\"M 230 150 l -18 36 l 36 0 Z\" fill=\"#B07A1C\"/><path d=\"M 380 150 l -18 36 l 36 0 Z\" fill=\"#B07A1C\"/><path d=\"M 530 150 l -18 36 l 36 0 Z\" fill=\"#B07A1C\"/><path d=\"M 680 150 l -18 36 l 36 0 Z\" fill=\"#B07A1C\"/><line x1=\"80\" y1=\"120\" x2=\"700\" y2=\"120\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1139.3923101204882\" y1=\"136.9459271066772\" x2=\"1193.5567365361599\" y2=\"141.54760381485087\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><line x1=\"1110.3527618041007\" y1=\"168.63703305156272\" x2=\"1124.5878092847395\" y2=\"194.23406744822304\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><line x1=\"1069.358222275241\" y1=\"155.7115043874616\" x2=\"1027.225777903697\" y2=\"172.74537604415488\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><line x1=\"1062.4122951685636\" y1=\"116.31919426697326\" x2=\"1010.7292010253387\" y2=\"107.25566046884303\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><line x1=\"1093.0540728933229\" y1=\"90.60768987951168\" x2=\"1083.5034231216416\" y2=\"64.51028442468817\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><line x1=\"1130.641777724759\" y1=\"104.28849561253841\" x2=\"1172.774222096303\" y2=\"87.25462395584512\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><g transform=\"translate(1072.0 102.0) scale(1.1667)\"><path fill=\"#12202E\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><g transform=\"translate(1250.0 70.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m2.65-6.35l12.7 12.7m-12.7 0l12.7-12.7\"/><path d=\"M12 3a9 9 0 0 0 9 9M3 12a9 9 0 0 1 9 9\"/></g></g><g transform=\"translate(1340.0 100.0) scale(1.1667)\"><path fill=\"#6B7A87\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "O que a reabilitação treinou",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 220,
+     "w": 760,
+     "t": "· exercício previsível",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 260,
+     "w": 760,
+     "t": "· o ritmo dela, com intervalo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 300,
+     "w": 760,
+     "t": "· ninguém do outro lado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 16,
+     "w": 760,
+     "t": "O que o treino coletivo exige",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 888,
+     "y": 220,
+     "w": 760,
+     "t": "· reagir à bola e à adversária",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 260,
+     "w": 760,
+     "t": "· aterrissar com contato",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 300,
+     "w": 760,
+     "t": "· saltos seguidos, no ritmo do grupo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Por que não basta entrar e fazer tudo",
    "titulo": "Dois ambientes diferentes",
-   "esq": {
-    "t": "O que a reabilitação treinou",
-    "cor": "petr",
-    "itens": [
-     "exercício previsível",
-     "o ritmo dela, com intervalo",
-     "ninguém do outro lado"
-    ]
-   },
-   "dir": {
-    "t": "O que o treino coletivo exige",
-    "cor": "verm",
-    "itens": [
-     "reagir à bola e à adversária",
-     "aterrissar com contato",
-     "saltos seguidos, no ritmo do grupo"
-    ]
-   },
    "destaque": "A força do tornozelo pode estar recuperada e ela ainda não ter visto nada disso.",
    "destaque_cor": "tinta"
   },
@@ -207,41 +389,149 @@
   },
   {
    "id": "etapas",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma escada de quatro degraus. Etapa 1: aquecimento e técnica sem oposição; fica de fora o coletivo com oposição. Etapa 2: oposição controlada, 2 contra 2 e 3 contra 3; fica de fora o coletivo livre. Etapa 3: treino completo, com coletivo; fica de fora o jogo de sábado. Etapa 4: jogo com minutos combinados; nada fica de fora. Entre os degraus, o mesmo critério para avançar\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"260\" width=\"400\" height=\"100\" rx=\"12\" fill=\"#008A7E\" opacity=\"0.45\"/><rect x=\"416\" y=\"200\" width=\"400\" height=\"160\" rx=\"12\" fill=\"#008A7E\" opacity=\"0.63\"/><rect x=\"832\" y=\"140\" width=\"400\" height=\"220\" rx=\"12\" fill=\"#008A7E\" opacity=\"0.81\"/><rect x=\"1248\" y=\"80\" width=\"400\" height=\"280\" rx=\"12\" fill=\"#008A7E\" opacity=\"0.99\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 274,
+     "w": 360,
+     "t": "Etapa 1",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 190,
+     "w": 370,
+     "t": "aquecimento e técnica sem oposição",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 316,
+     "w": 370,
+     "t": "fica de fora: coletivo com oposição",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 436,
+     "y": 214,
+     "w": 360,
+     "t": "Etapa 2",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 436,
+     "y": 130,
+     "w": 370,
+     "t": "oposição controlada: 2 contra 2, 3 contra 3",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 436,
+     "y": 256,
+     "w": 370,
+     "t": "fica de fora: coletivo livre",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 852,
+     "y": 154,
+     "w": 360,
+     "t": "Etapa 3",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 852,
+     "y": 70,
+     "w": 370,
+     "t": "treino completo, com coletivo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 852,
+     "y": 196,
+     "w": 370,
+     "t": "fica de fora: jogo de sábado",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1268,
+     "y": 94,
+     "w": 360,
+     "t": "Etapa 4",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1268,
+     "y": 10,
+     "w": 370,
+     "t": "jogo com minutos combinados",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1268,
+     "y": 136,
+     "w": 370,
+     "t": "fica de fora: nada",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O plano dela",
    "titulo": "Quatro etapas dentro dos treinos do grupo",
-   "cab": [
-    "Etapa",
-    "Faz com o grupo",
-    "Fica de fora"
-   ],
-   "larguras": [
-    14,
-    46,
-    40
-   ],
-   "linhas": [
-    [
-     "1",
-     "aquecimento e técnica sem oposição",
-     "coletivo com oposição"
-    ],
-    [
-     "2",
-     "oposição controlada: 2 contra 2, 3 contra 3",
-     "coletivo livre"
-    ],
-    [
-     "3",
-     "treino completo, com coletivo",
-     "jogo de sábado"
-    ],
-    [
-     "4",
-     "jogo com minutos combinados",
-     "nada"
-    ]
-   ],
    "destaque": "Para avançar: tornozelo sem piora na manhã seguinte, sem inchaço, nota de esforço perto do planejado. Não atingiu, repete a etapa.",
    "destaque_cor": "tinta",
    "fonte": "Exemplo de prática corrente, sem validação"
@@ -415,121 +705,578 @@
   },
   {
    "id": "encaixar",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Duas sequências de dois dias. À esquerda: folga, depois treino; a sessão que avança de etapa, e o coletivo quando chegar a hora. À direita: plantão noturno, depois treino; fica na etapa anterior, ou só a parte técnica\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"820\" height=\"330\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"24\" y=\"70\" width=\"300\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(44.0 96.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7\"/></g><line x1=\"336\" y1=\"125\" x2=\"396\" y2=\"125\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"408\" y=\"70\" width=\"388\" height=\"110\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><g transform=\"translate(428.0 96.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m2.65-6.35l12.7 12.7m-12.7 0l12.7-12.7\"/><path d=\"M12 3a9 9 0 0 0 9 9M3 12a9 9 0 0 1 9 9\"/></g></g><rect x=\"844\" y=\"0\" width=\"820\" height=\"330\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"868\" y=\"70\" width=\"300\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(888.0 96.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><line x1=\"1180\" y1=\"125\" x2=\"1240\" y2=\"125\" stroke=\"#B07A1C\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"1252\" y=\"70\" width=\"388\" height=\"110\" rx=\"14\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><g transform=\"translate(1272.0 96.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m2.65-6.35l12.7 12.7m-12.7 0l12.7-12.7\"/><path d=\"M12 3a9 9 0 0 0 9 9M3 12a9 9 0 0 1 9 9\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "Depois de uma folga",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 110,
+     "w": 200,
+     "t": "folga",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 110,
+     "w": 280,
+     "t": "treino",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 214,
+     "w": 770,
+     "t": "· a sessão que avança de etapa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 258,
+     "w": 770,
+     "t": "· o coletivo, quando chegar a hora",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 16,
+     "w": 760,
+     "t": "Depois do plantão noturno",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 954,
+     "y": 110,
+     "w": 200,
+     "t": "plantão noturno",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 110,
+     "w": 280,
+     "t": "treino",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 214,
+     "w": 770,
+     "t": "· fica na etapa anterior",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 258,
+     "w": 770,
+     "t": "· ou só a parte técnica",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Encaixar na semana dela",
    "titulo": "Não só qual etapa: em qual dia",
-   "esq": {
-    "t": "Depois de uma folga",
-    "cor": "petr",
-    "itens": [
-     "a sessão que avança de etapa",
-     "o coletivo, quando chegar a hora"
-    ]
-   },
-   "dir": {
-    "t": "Depois do plantão noturno",
-    "cor": "ambar",
-    "itens": [
-     "fica na etapa anterior",
-     "ou só a parte técnica"
-    ]
-   },
    "destaque": "Ela está no terceiro momento de risco do módulo de lesões: a volta depois de uma pausa. Reposicionar rende mais do que reduzir.",
    "destaque_cor": "tinta"
   },
   {
    "id": "etapa",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"À esquerda, o bilhete da fisioterapia, com uma seta para o começo de uma escada. O primeiro degrau à frente está aceso: pronta para a próxima etapa. Os degraus de cima estão apagados: pronta para tudo, ainda não. Embaixo: o bilhete é o começo de um plano, não o fim de um processo\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"300\" height=\"200\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"316\" y1=\"140\" x2=\"400\" y2=\"140\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"420\" y=\"200\" width=\"290\" height=\"60\" rx=\"10\" fill=\"#008A7E\" opacity=\"1\"/><rect x=\"720\" y=\"150\" width=\"290\" height=\"110\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"1020\" y=\"100\" width=\"290\" height=\"160\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"1320\" y=\"50\" width=\"290\" height=\"210\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 80,
+     "w": 260,
+     "t": "“Liberada para treinar com o grupo.”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 420,
+     "y": 214,
+     "w": 290,
+     "t": "a próxima etapa",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 60,
+     "w": 880,
+     "t": "tudo: ainda não",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 284,
+     "w": 1664,
+     "t": "o bilhete é o começo de um plano, não o fim de um processo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "Liberada não quer dizer pronta para tudo. Quer dizer pronta para a próxima etapa.",
-   "apoio": "O bilhete da fisioterapia é o começo de um plano, não o fim de um processo."
+   "titulo": "Liberada não quer dizer pronta para tudo. Quer dizer pronta para a próxima etapa."
   },
   {
    "id": "medir",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Como acompanhar",
-   "titulo": "Três medidas, sem laboratório",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três quadros. Nota da sessão contra o planejado: uma barra planejada em cinco e a relatada em oito; o grupo exigindo mais. Tornozelo na manhã seguinte: uma régua de dor de 0 a 10 e a pergunta do inchaço; a resposta do tecido. Um salto por semana, numa perna só, dos dois lados, do mesmo jeito: pontos semanais formando uma linha, em esquema\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"60\" y=\"140\" width=\"120\" height=\"80\" rx=\"6\" fill=\"#6B7A87\"/><rect x=\"260\" y=\"92\" width=\"120\" height=\"128\" rx=\"6\" fill=\"#008A7E\"/><line x1=\"604\" y1=\"150\" x2=\"1060\" y2=\"150\" stroke=\"#B07A1C\" stroke-width=\"10\" stroke-linecap=\"round\" opacity=\"0.4\"/><circle cx=\"696\" cy=\"150\" r=\"14\" fill=\"#B07A1C\"/><polyline points=\"1180,170 1260,156 1340,142 1420,128 1500,114\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"1180\" cy=\"170\" r=\"8\" fill=\"#12202E\"/><circle cx=\"1260\" cy=\"156\" r=\"8\" fill=\"#12202E\"/><circle cx=\"1340\" cy=\"142\" r=\"8\" fill=\"#12202E\"/><circle cx=\"1420\" cy=\"128\" r=\"8\" fill=\"#12202E\"/><circle cx=\"1500\" cy=\"114\" r=\"8\" fill=\"#12202E\"/><polyline points=\"1180,200 1260,186 1340,172 1420,158 1500,144\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"1180\" cy=\"200\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1260\" cy=\"186\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1340\" cy=\"172\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1420\" cy=\"158\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1500\" cy=\"144\" r=\"8\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 16,
+     "w": 490,
      "t": "Nota da sessão",
-     "x": "contra o planejado; cinco que volta oito é o grupo exigindo mais",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 250,
+     "w": 490,
+     "t": "contra o planejado; cinco que volta oito é o grupo exigindo mais",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 16,
+     "w": 490,
      "t": "Tornozelo na manhã seguinte",
-     "x": "dor de 0 a 10 e se há inchaço: a resposta do tecido",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 250,
+     "w": 490,
+     "t": "dor de 0 a 10 e se há inchaço: a resposta do tecido",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1152,
+     "y": 16,
+     "w": 490,
      "t": "Um salto por semana",
-     "x": "numa perna só, dos dois lados, do mesmo jeito: para ver a linha",
-     "cor": "tinta"
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 250,
+     "w": 490,
+     "t": "numa perna só, dos dois lados, do mesmo jeito: para ver a linha",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 40,
+     "y": 118,
+     "w": 160,
+     "t": "planejado 5",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 70,
+     "w": 160,
+     "t": "relatado 8",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 172,
+     "w": 50,
+     "t": "0",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1036,
+     "y": 172,
+     "w": 50,
+     "t": "10",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 604,
+     "y": 80,
+     "w": 456,
+     "t": "inchaço? sim · não",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 210,
+     "w": 490,
+     "t": "direita · esquerda · esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Como acompanhar",
+   "titulo": "Três medidas, sem laboratório",
    "destaque": "Retoma a aula de carga interna e a de testes físicos.",
    "destaque_cor": "tinta"
   },
   {
    "id": "alerta",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "Como reconhecer que não está funcionando",
-   "titulo": "Quatro sinais",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Quatro sinais em cartões. Dor que piora de uma etapa para outra, ou que não volta ao nível de antes em 24 horas. Nota acima do planejado em sessões seguidas. Nova entorse ou falseio: o tornozelo cede. Evita o gesto: não sobe para o rebote, freia nas mudanças de direção, mesmo sem dor. À direita, a regra: uma escada com uma seta voltando um degrau, não até o chão; e conversar com a fisioterapia\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"540\" height=\"196\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(20.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><rect x=\"560\" y=\"0\" width=\"540\" height=\"196\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(580.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"0\" y=\"214\" width=\"540\" height=\"196\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(20.0 234.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"560\" y=\"214\" width=\"540\" height=\"196\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(580.0 234.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><rect x=\"1140\" y=\"0\" width=\"524\" height=\"420\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1170\" y=\"260\" width=\"104\" height=\"40\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1280\" y=\"220\" width=\"104\" height=\"80\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.55\"/><rect x=\"1390\" y=\"180\" width=\"104\" height=\"120\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.75\"/><rect x=\"1500\" y=\"140\" width=\"104\" height=\"160\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.95\"/><path d=\"M 1555 130 C 1520 90, 1470 110, 1450 165\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M 1440 150 l 10 18 l 14 -14\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
     {
+     "x": 84,
+     "y": 28,
+     "w": 440,
      "t": "Dor que piora",
-     "x": "de uma etapa para outra, ou que não volta ao nível de antes em 24 horas",
-     "cor": "verm"
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 90,
+     "w": 496,
+     "t": "de uma etapa para outra, ou que não volta ao nível de antes em 24 horas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 644,
+     "y": 28,
+     "w": 440,
      "t": "Nota acima do planejado",
-     "x": "em sessões seguidas",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 584,
+     "y": 90,
+     "w": 496,
+     "t": "em sessões seguidas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 84,
+     "y": 242,
+     "w": 440,
      "t": "Nova entorse ou falseio",
-     "x": "o tornozelo cede",
-     "cor": "verm"
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 304,
+     "w": 496,
+     "t": "o tornozelo cede",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 644,
+     "y": 242,
+     "w": 440,
      "t": "Evita o gesto",
-     "x": "não sobe para o rebote, freia nas mudanças de direção, mesmo sem dor",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 304,
+     "w": 496,
+     "t": "não sobe para o rebote, freia nas mudanças de direção, mesmo sem dor",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1164,
+     "y": 16,
+     "w": 480,
+     "t": "A regra",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 316,
+     "w": 480,
+     "t": "voltar uma etapa, não voltar ao zero",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 370,
+     "w": 480,
+     "t": "e conversar com a fisioterapia",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Voltar uma etapa, não voltar ao zero. E conversar com a fisioterapia.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Como reconhecer que não está funcionando",
+   "titulo": "Quatro sinais"
   },
   {
    "id": "papeis",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "Uma folha só, compartilhada",
-   "titulo": "Quem faz o quê",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"No centro, uma folha só, compartilhada. Ligados a ela, quatro papéis. Fisioterapia: critério do tecido e o que ainda está proibido. Preparação física: a dose dentro do treino do grupo, qual etapa e em qual dia. Técnico: sabe a etapa e os minutos combinados, não o prontuário. Atleta: conta a escala, a noite mal dormida e o tornozelo da manhã\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"712\" y=\"70\" width=\"240\" height=\"260\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(792.0 110.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"0\" y=\"0\" width=\"660\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 20.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g><line x1=\"660\" y1=\"95\" x2=\"712\" y2=\"200\" stroke=\"#008A7E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1004\" y=\"0\" width=\"660\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1024.0 20.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><line x1=\"1004\" y1=\"95\" x2=\"952\" y2=\"200\" stroke=\"#008A7E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"0\" y=\"210\" width=\"660\" height=\"190\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(20.0 230.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M18 8a3 3 0 0 1 0 6m-8-6v11a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-5\"/><path d=\"m12 8l4.524-3.77A.9.9 0 0 1 18 4.922v12.156a.9.9 0 0 1-1.476.692L12 14H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z\"/></g></g><line x1=\"660\" y1=\"305\" x2=\"712\" y2=\"200\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1004\" y=\"210\" width=\"660\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1024.0 230.0) scale(1.0833)\"><g fill=\"#12202E\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"><path d=\"M24 6c-2.806 0-6.238 1.026-8.264 1.731c-.988.344-1.483 1.417-1.156 2.41l2.148 6.521a8 8 0 1 0 14.544 0l2.148-6.52c.327-.994-.168-2.067-1.156-2.41C30.237 7.025 26.806 6 24 6m-5.62 12.425c3.757-1.543 7.483-1.543 11.24 0q.09.037.186.056a6 6 0 1 1-11.613 0q.096-.019.187-.056M25 11h2v2h-2v2h-2v-2h-2v-2h2V9h2z\"/><path d=\"M22.85 32.193L16.88 28S6 31.393 6 35.467V42h36v-6.533C42 31.393 31.121 28 31.121 28l-5.972 4.193a2 2 0 0 1-2.298 0M32 32h2v2h2v2h-2v2h-2v-2h-2v-2h2z\"/></g></g><line x1=\"1004\" y1=\"305\" x2=\"952\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
     {
+     "x": 712,
+     "y": 220,
+     "w": 240,
+     "t": "uma folha só, compartilhada",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 88,
+     "y": 30,
+     "w": 550,
      "t": "Fisioterapia",
-     "x": "critério do tecido e o que ainda está proibido",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 96,
+     "w": 612,
+     "t": "critério do tecido e o que ainda está proibido",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1092,
+     "y": 30,
+     "w": 550,
      "t": "Preparação física",
-     "x": "a dose dentro do treino do grupo: qual etapa, em qual dia",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1028,
+     "y": 96,
+     "w": 612,
+     "t": "a dose dentro do treino do grupo: qual etapa, em qual dia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 88,
+     "y": 240,
+     "w": 550,
      "t": "Técnico",
-     "x": "sabe a etapa e os minutos combinados, não o prontuário",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 306,
+     "w": 612,
+     "t": "sabe a etapa e os minutos combinados, não o prontuário",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1092,
+     "y": 240,
+     "w": 550,
      "t": "Atleta",
-     "x": "conta a escala, a noite mal dormida e o tornozelo da manhã",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1028,
+     "y": 306,
+     "w": 612,
+     "t": "conta a escala, a noite mal dormida e o tornozelo da manhã",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
-   ]
+   ],
+   "eyebrow": "Uma folha só, compartilhada",
+   "titulo": "Quem faz o quê"
   },
   {
    "id": "fecho",

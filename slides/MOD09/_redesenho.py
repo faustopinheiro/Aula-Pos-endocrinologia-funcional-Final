@@ -2299,6 +2299,190 @@ def repetir_910():
                  destaque="Mesma velocidade custando menos batimentos é adaptação; custando mais, fadiga, calor ou doença chegando.", destaque_cor="tinta",
                  fonte="Revisão, Front Physiol 2014 · frequência como prática corrente")
 
+# ---------------------------------------------------------------- 9.11
+
+def bilhete_911():
+    """9.11: o bilhete da fisioterapia, a jogadora por trás dele e as três perguntas que ele não responde."""
+    p = [svg_abre(1664, 380, "À esquerda, o bilhete da fisioterapia: liberada para treinar com o grupo. No meio, quem é ela: jogadora de basquete amador, na casa dos trinta; técnica de enfermagem em plantões de 12 por 36; três semanas afastada por entorse de tornozelo. À direita, três perguntas que o bilhete não responde: liberada para qual treino? em qual semana? fazendo o quê?")]
+    rs = []
+    p.append(f'<rect x="20" y="30" width="460" height="300" rx="10" fill="{PAPEL}" stroke="{BORDA}" stroke-width="2" transform="rotate(-3 250 180)"/>')
+    for j in range(5):
+        p.append(f'<line x1="60" y1="{210 + j * 22}" x2="440" y2="{200 + j * 22}" stroke="{CINZA}" stroke-width="2"/>')
+    rs += [rot(50, 70, "Fisioterapia", w=400, tam=18, cor=MUDO, peso=700),
+           rot(50, 110, "“Liberada para treinar com o grupo.”", w=400, tam=28, cor=TINTA, peso=700, serif=True, lh=1.2)]
+    p.append(caixa(540, 0, 560, 380, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("h:nurse", 564, 20, 64, TINTA))
+    rs.append(rot(644, 36, "Quem é ela", w=440, tam=24, cor=TINTA, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:ball-basketball", "basquete amador, na casa dos trinta"), ("t:building-hospital", "técnica de enfermagem, plantões de 12 por 36"), ("t:first-aid-kit", "três semanas afastada: entorse de tornozelo")]):
+        y = 120 + j * 82
+        p.append(icone(ic, 564, y, 44, OXID if j < 2 else FOSF))
+        rs.append(rot(624, y + 2, t, w=460, tam=21, cor=TINTA, peso=700, lh=1.25))
+    for j, t in enumerate(["Liberada para qual treino?", "Em qual semana?", "Fazendo o quê?"]):
+        y = j * 130
+        p.append(caixa(1140, y, 524, 110, FOSF, FOSF_T, esp=2, rx=14))
+        p.append(icone("t:question-mark", 1160, y + 30, 48, FOSF))
+        rs.append(rot(1222, y + 38, t, w=430, tam=24, cor=TINTA, peso=700, serif=True))
+    return slide("bilhete", 380, p, rs, eyebrow="Segundo caso do módulo", titulo="“Liberada para treinar com o grupo.”")
+
+
+def distancia_911():
+    """9.11: o percurso previsível da reabilitação e o emaranhado do treino coletivo."""
+    import math
+    p = [svg_abre(1664, 360, "À esquerda, o que a reabilitação treinou: um percurso reto entre cones, sempre igual; exercício previsível, no ritmo dela, com intervalo, sem ninguém do outro lado. À direita, o que o treino coletivo exige: a jogadora no meio de setas em várias direções, a bola e uma adversária encostando; reagir à bola e à adversária, aterrissar com contato, saltos seguidos no ritmo do grupo"), defs(OXID, FOSF)]
+    rs = []
+    p.append(caixa(0, 0, 800, 360, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "O que a reabilitação treinou", w=760, tam=24, cor=OXID, peso=700, serif=True))
+    for j in range(5):
+        x = 80 + j * 150
+        p.append(f'<path d="M {x} 150 l -18 36 l 36 0 Z" fill="{GLIC}"/>')
+    p.append(seta(80, 120, 700, 120, OXID, "m0", esp=4))
+    for j, t in enumerate(["exercício previsível", "o ritmo dela, com intervalo", "ninguém do outro lado"]):
+        rs.append(rot(24, 220 + j * 40, "· " + t, w=760, tam=21, cor=TINTA, peso=700))
+    p.append(caixa(864, 0, 800, 360, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(888, 16, "O que o treino coletivo exige", w=760, tam=24, cor=FOSF, peso=700, serif=True))
+    cx, cy = 1100, 130
+    for a in (10, 75, 140, 200, 260, 320):
+        r = math.radians(a)
+        p.append(seta(cx + 40 * math.cos(r), cy + 40 * math.sin(r), cx + 95 * math.cos(r), cy + 95 * math.sin(r) * 0.7, FOSF, "m1", esp=3))
+    p.append(icone("h:woman", cx - 28, cy - 28, 56, TINTA))
+    p.append(icone("t:ball-basketball", 1250, 70, 48, GLIC))
+    p.append(icone("h:woman", 1340, 100, 56, MUDO))
+    for j, t in enumerate(["reagir à bola e à adversária", "aterrissar com contato", "saltos seguidos, no ritmo do grupo"]):
+        rs.append(rot(888, 220 + j * 40, "· " + t, w=760, tam=21, cor=TINTA, peso=700))
+    return slide("distancia", 360, p, rs, eyebrow="Por que não basta entrar e fazer tudo", titulo="Dois ambientes diferentes",
+                 destaque="A força do tornozelo pode estar recuperada e ela ainda não ter visto nada disso.", destaque_cor="tinta")
+
+
+def etapas_911():
+    """9.11: uma escada de quatro etapas dentro dos treinos do grupo, com o que fica de fora em cada degrau."""
+    p = [svg_abre(1664, 360, "Uma escada de quatro degraus. Etapa 1: aquecimento e técnica sem oposição; fica de fora o coletivo com oposição. Etapa 2: oposição controlada, 2 contra 2 e 3 contra 3; fica de fora o coletivo livre. Etapa 3: treino completo, com coletivo; fica de fora o jogo de sábado. Etapa 4: jogo com minutos combinados; nada fica de fora. Entre os degraus, o mesmo critério para avançar")]
+    rs = []
+    etapas = [("aquecimento e técnica sem oposição", "coletivo com oposição"), ("oposição controlada: 2 contra 2, 3 contra 3", "coletivo livre"),
+              ("treino completo, com coletivo", "jogo de sábado"), ("jogo com minutos combinados", "nada")]
+    for j, (faz, fora) in enumerate(etapas):
+        x = j * 416
+        top = 260 - j * 60
+        p.append(f'<rect x="{x}" y="{top}" width="400" height="{360 - top}" rx="12" fill="{OXID}" opacity="{0.45 + j * 0.18:.2f}"/>')
+        rs += [rot(x + 20, top + 14, f"Etapa {j + 1}", w=360, tam=22, cor=PAPEL, peso=700, serif=True),
+               rot(x + 20, top - 70, faz, w=370, tam=20, cor=TINTA, peso=700, lh=1.25),
+               rot(x + 20, top + 56, "fica de fora: " + fora, w=370, tam=18, cor=PAPEL, lh=1.25)]
+    return slide("etapas", 360, p, rs, eyebrow="O plano dela", titulo="Quatro etapas dentro dos treinos do grupo",
+                 destaque="Para avançar: tornozelo sem piora na manhã seguinte, sem inchaço, nota de esforço perto do planejado. Não atingiu, repete a etapa.", destaque_cor="tinta",
+                 fonte="Exemplo de prática corrente, sem validação")
+
+
+def encaixar_911():
+    """9.11: o treino depois de uma folga e o treino depois do plantão noturno, lado a lado."""
+    p = [svg_abre(1664, 330, "Duas sequências de dois dias. À esquerda: folga, depois treino; a sessão que avança de etapa, e o coletivo quando chegar a hora. À direita: plantão noturno, depois treino; fica na etapa anterior, ou só a parte técnica"), defs(OXID, GLIC)]
+    rs = []
+    for k, (ic, dia, t, itens, cor, fundo) in enumerate([("t:sun", "folga", "Depois de uma folga", ["a sessão que avança de etapa", "o coletivo, quando chegar a hora"], OXID, OXID_T),
+                                                          ("t:moon", "plantão noturno", "Depois do plantão noturno", ["fica na etapa anterior", "ou só a parte técnica"], GLIC, GLIC_T)]):
+        x0 = k * 844
+        p.append(caixa(x0, 0, 820, 330, cor, fundo, esp=2, rx=16))
+        rs.append(rot(x0 + 24, 16, t, w=760, tam=24, cor=cor, peso=700, serif=True))
+        p.append(caixa(x0 + 24, 70, 300, 110, cor, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, x0 + 44, 96, 56, cor))
+        rs.append(rot(x0 + 110, 110, dia, w=200, tam=21, cor=TINTA, peso=700))
+        p.append(seta(x0 + 336, 125, x0 + 396, 125, cor, f"m{k}", esp=4))
+        p.append(caixa(x0 + 408, 70, 388, 110, cor, cor, esp=0, rx=14))
+        p.append(icone("t:ball-basketball", x0 + 428, 96, 56, PAPEL))
+        rs.append(rot(x0 + 500, 110, "treino", w=280, tam=22, cor=PAPEL, peso=700))
+        for j, it in enumerate(itens):
+            rs.append(rot(x0 + 24, 214 + j * 44, "· " + it, w=770, tam=22, cor=TINTA, peso=700))
+    return slide("encaixar", 330, p, rs, eyebrow="Encaixar na semana dela", titulo="Não só qual etapa: em qual dia",
+                 destaque="Ela está no terceiro momento de risco do módulo de lesões: a volta depois de uma pausa. Reposicionar rende mais do que reduzir.", destaque_cor="tinta")
+
+
+def etapa_911():
+    """9.11: o bilhete abrindo uma escada, com só o próximo degrau aceso."""
+    p = [svg_abre(1664, 320, "À esquerda, o bilhete da fisioterapia, com uma seta para o começo de uma escada. O primeiro degrau à frente está aceso: pronta para a próxima etapa. Os degraus de cima estão apagados: pronta para tudo, ainda não. Embaixo: o bilhete é o começo de um plano, não o fim de um processo"), defs(OXID)]
+    rs = []
+    p.append(f'<rect x="0" y="40" width="300" height="200" rx="10" fill="{PAPEL}" stroke="{BORDA}" stroke-width="2"/>')
+    rs.append(rot(20, 80, "“Liberada para treinar com o grupo.”", w=260, tam=22, cor=TINTA, peso=700, serif=True, lh=1.25))
+    p.append(seta(316, 140, 400, 140, OXID, "m0", esp=4))
+    for j in range(4):
+        x = 420 + j * 300
+        top = 200 - j * 50
+        aceso = j == 0
+        p.append(f'<rect x="{x}" y="{top}" width="290" height="{260 - top}" rx="10" fill="{OXID if aceso else CINZA}" opacity="{1 if aceso else 0.5}"/>')
+    rs += [rot(420, 214, "a próxima etapa", w=290, tam=22, cor=PAPEL, peso=700, alinha="center"),
+           rot(720, 60, "tudo: ainda não", w=880, tam=22, cor=MUDO, peso=700, alinha="center"),
+           rot(0, 284, "o bilhete é o começo de um plano, não o fim de um processo", w=1664, tam=21, cor=TINTA, peso=700, alinha="center")]
+    return slide("etapa", 320, p, rs, eyebrow="A ideia da aula", titulo="Liberada não quer dizer pronta para tudo. Quer dizer pronta para a próxima etapa.")
+
+
+def medir_911():
+    """9.11: as três medidas sem laboratório, cada uma com o seu desenho mínimo."""
+    p = [svg_abre(1664, 340, "Três quadros. Nota da sessão contra o planejado: uma barra planejada em cinco e a relatada em oito; o grupo exigindo mais. Tornozelo na manhã seguinte: uma régua de dor de 0 a 10 e a pergunta do inchaço; a resposta do tecido. Um salto por semana, numa perna só, dos dois lados, do mesmo jeito: pontos semanais formando uma linha, em esquema")]
+    rs = []
+    for k, (t, x_, cor, fundo) in enumerate([("Nota da sessão", "contra o planejado; cinco que volta oito é o grupo exigindo mais", OXID, OXID_T),
+                                              ("Tornozelo na manhã seguinte", "dor de 0 a 10 e se há inchaço: a resposta do tecido", GLIC, GLIC_T),
+                                              ("Um salto por semana", "numa perna só, dos dois lados, do mesmo jeito: para ver a linha", TINTA, CARTAO)]):
+        x = k * 564
+        p.append(caixa(x, 0, 536, 340, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 24, 16, t, w=490, tam=23, cor=cor, peso=700, serif=True), rot(x + 24, 250, x_, w=490, tam=19, cor=TINTA, peso=700, lh=1.3)]
+    for j, (v, lab, c) in enumerate([(5, "planejado 5", MUDO), (8, "relatado 8", OXID)]):
+        p.append(f'<rect x="{60 + j * 200}" y="{220 - v * 16}" width="120" height="{v * 16}" rx="6" fill="{c}"/>')
+        rs.append(rot(40 + j * 200, 228 - v * 16 - 30, lab, w=160, tam=17, cor=TINTA, peso=700, alinha="center"))
+    p.append(f'<line x1="604" y1="150" x2="1060" y2="150" stroke="{GLIC}" stroke-width="10" stroke-linecap="round" opacity="0.4"/>')
+    p.append(f'<circle cx="696" cy="150" r="14" fill="{GLIC}"/>')
+    rs += [rot(580, 172, "0", w=50, tam=18, cor=TINTA, peso=700, alinha="center"), rot(1036, 172, "10", w=50, tam=18, cor=TINTA, peso=700, alinha="center"),
+           rot(604, 80, "inchaço? sim · não", w=456, tam=19, cor=GLIC, peso=700, alinha="center")]
+    for lado, (cor, dy) in enumerate([(TINTA, 0), (AZUL, 30)]):
+        pts = [(1180 + i * 80, 170 - i * 14 + dy) for i in range(5)]
+        p.append(f'<polyline points="{" ".join(f"{a},{b}" for a, b in pts)}" fill="none" stroke="{cor}" stroke-width="3"/>')
+        for a, b in pts:
+            p.append(f'<circle cx="{a}" cy="{b}" r="8" fill="{cor}"/>')
+    rs.append(rot(1152, 210, "direita · esquerda · esquema", w=490, tam=16, cor=MUDO))
+    return slide("medir", 340, p, rs, eyebrow="Como acompanhar", titulo="Três medidas, sem laboratório",
+                 destaque="Retoma a aula de carga interna e a de testes físicos.", destaque_cor="tinta")
+
+
+def alerta_911():
+    """9.11: quatro sinais de alerta e a regra de voltar um degrau, não ao chão."""
+    p = [svg_abre(1664, 420, "Quatro sinais em cartões. Dor que piora de uma etapa para outra, ou que não volta ao nível de antes em 24 horas. Nota acima do planejado em sessões seguidas. Nova entorse ou falseio: o tornozelo cede. Evita o gesto: não sobe para o rebote, freia nas mudanças de direção, mesmo sem dor. À direita, a regra: uma escada com uma seta voltando um degrau, não até o chão; e conversar com a fisioterapia"), defs(OXID)]
+    rs = []
+    cards = [("t:trending-up", "Dor que piora", "de uma etapa para outra, ou que não volta ao nível de antes em 24 horas", FOSF, FOSF_T),
+             ("t:gauge", "Nota acima do planejado", "em sessões seguidas", GLIC, GLIC_T),
+             ("t:alert-triangle", "Nova entorse ou falseio", "o tornozelo cede", FOSF, FOSF_T),
+             ("t:hand-stop", "Evita o gesto", "não sobe para o rebote, freia nas mudanças de direção, mesmo sem dor", GLIC, GLIC_T)]
+    for k, (ic, t, x_, cor, fundo) in enumerate(cards):
+        x, y = (k % 2) * 560, (k // 2) * 214
+        p.append(caixa(x, y, 540, 196, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 20, y + 20, 48, cor))
+        rs += [rot(x + 84, y + 28, t, w=440, tam=23, cor=cor, peso=700, serif=True), rot(x + 24, y + 90, x_, w=496, tam=20, cor=TINTA, lh=1.3)]
+    p.append(caixa(1140, 0, 524, 420, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(1164, 16, "A regra", w=480, tam=24, cor=OXID, peso=700, serif=True))
+    for j in range(4):
+        p.append(f'<rect x="{1170 + j * 110}" y="{260 - j * 40}" width="104" height="{40 + j * 40}" rx="6" fill="{OXID}" opacity="{0.35 + j * 0.2:.2f}"/>')
+    p.append(f'<path d="M 1555 130 C 1520 90, 1470 110, 1450 165" fill="none" stroke="{FOSF}" stroke-width="4"/>')
+    p.append(f'<path d="M 1440 150 l 10 18 l 14 -14" fill="none" stroke="{FOSF}" stroke-width="4"/>')
+    rs += [rot(1164, 316, "voltar uma etapa, não voltar ao zero", w=480, tam=22, cor=TINTA, peso=700, lh=1.25),
+           rot(1164, 370, "e conversar com a fisioterapia", w=480, tam=20, cor=OXID, peso=700)]
+    return slide("alerta", 420, p, rs, eyebrow="Como reconhecer que não está funcionando", titulo="Quatro sinais")
+
+
+def papeis_911():
+    """9.11: uma folha só no centro e os quatro papéis ligados a ela."""
+    p = [svg_abre(1664, 400, "No centro, uma folha só, compartilhada. Ligados a ela, quatro papéis. Fisioterapia: critério do tecido e o que ainda está proibido. Preparação física: a dose dentro do treino do grupo, qual etapa e em qual dia. Técnico: sabe a etapa e os minutos combinados, não o prontuário. Atleta: conta a escala, a noite mal dormida e o tornozelo da manhã")]
+    rs = []
+    p.append(f'<rect x="712" y="70" width="240" height="260" rx="12" fill="{PAPEL}" stroke="{TINTA}" stroke-width="3"/>')
+    p.append(icone("t:clipboard-list", 792, 110, 80, TINTA))
+    rs.append(rot(712, 220, "uma folha só, compartilhada", w=240, tam=20, cor=TINTA, peso=700, alinha="center", lh=1.2))
+    papeis = [("t:stretching", "Fisioterapia", "critério do tecido e o que ainda está proibido", OXID, OXID_T),
+              ("t:stopwatch", "Preparação física", "a dose dentro do treino do grupo: qual etapa, em qual dia", OXID, OXID_T),
+              ("t:speakerphone", "Técnico", "sabe a etapa e os minutos combinados, não o prontuário", GLIC, GLIC_T),
+              ("h:nurse", "Atleta", "conta a escala, a noite mal dormida e o tornozelo da manhã", TINTA, CARTAO)]
+    for k, (ic, t, x_, cor, fundo) in enumerate(papeis):
+        x, y = (0 if k % 2 == 0 else 1004), (k // 2) * 210
+        p.append(caixa(x, y, 660, 190, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 20, y + 20, 52, cor))
+        rs += [rot(x + 88, y + 30, t, w=550, tam=24, cor=cor, peso=700, serif=True), rot(x + 24, y + 96, x_, w=612, tam=21, cor=TINTA, lh=1.3)]
+        xa = 660 if k % 2 == 0 else 1004
+        xb = 712 if k % 2 == 0 else 952
+        p.append(f'<line x1="{xa}" y1="{y + 95}" x2="{xb}" y2="{200}" stroke="{cor}" stroke-width="3"{TRACO}/>')
+    return slide("papeis", 400, p, rs, eyebrow="Uma folha só, compartilhada", titulo="Quem faz o quê")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
@@ -2310,7 +2494,8 @@ LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variaca
           "09-07": [coletes_97, externa_97, amostragem_97, limiar_97, campo_97, acelerometro_97, fora_97, vale_97, pulso_97, correcoes_97],
           "09-08": [propostas_98, quatro_98, conta_98, condicoes_98, fc_98, vfc_98, questionario_98, terceira_98, cenarios_98, regras_98],
           "09-09": [reuniao_99, origem_99, convenceu_99, causa_99, janelas_99, aleatorio_99, fragil_99, transplante_99, fica_99],
-          "09-10": [planilha_910, pergunta_910, propriedades_910, parecido_910, padronizar_910, linha_910, bruto_910, repetir_910]}
+          "09-10": [planilha_910, pergunta_910, propriedades_910, parecido_910, padronizar_910, linha_910, bruto_910, repetir_910],
+          "09-11": [bilhete_911, distancia_911, etapas_911, encaixar_911, etapa_911, medir_911, alerta_911, papeis_911]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

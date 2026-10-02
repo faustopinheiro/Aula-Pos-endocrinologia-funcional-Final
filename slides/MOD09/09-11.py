@@ -132,6 +132,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Reintegração ao treiname
                     {"t": "Atleta", "x": "Traz a escala de plantões."}],
           "quem": "Próxima aula: sono e recuperação como variáveis de treino, e o fecho do módulo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-11")
+
 spec = {"arquivo": "aulas/MOD09/09-11-reintegracao-ao-treinamento-coletivo.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Reintegração ao treinamento coletivo", "subtitulo": "Da alta da reabilitação ao jogo",
