@@ -1,0 +1,1101 @@
+{
+ "arquivo": "aulas/MOD12/12-05-lesoes-do-esqueleto-imaturo.md",
+ "titulo": "Lesões do esqueleto imaturo",
+ "subtitulo": "Quatro passos para a dor localizada no jovem atleta",
+ "nota_capa": "Entra por um ponteiro de vôlei de treze anos tratado duas vezes por tendinite do manguito.",
+ "secoes": {
+  "ombro": [
+   "O caso e as estruturas.",
+   "capa"
+  ],
+  "alarmes": [
+   "Os quatro passos.",
+   "alarmes"
+  ],
+  "lombar": [
+   "A lombar.",
+   "lombar"
+  ],
+  "conduta": [
+   "A conduta.",
+   "conduta"
+  ]
+ },
+ "slides": [
+  {
+   "id": "ombro",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Ponteiro de vôlei de 13 anos no momento da cortada, ombro direito marcado. Linha do tempo de cinco meses de dor, com dois tratamentos de tendinite do manguito, cada um com melhora parcial e volta da dor ao voltar ao treino\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"200\" cy=\"70\" r=\"34\" fill=\"#3A6EA5\"/><rect x=\"160\" y=\"112\" width=\"80\" height=\"150\" rx=\"22\" fill=\"#3A6EA5\"/><path d=\"M 232 124 L 300 30\" stroke=\"#3A6EA5\" stroke-width=\"24\" stroke-linecap=\"round\"/><path d=\"M 168 128 L 120 220\" stroke=\"#3A6EA5\" stroke-width=\"24\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"250\" width=\"30\" height=\"120\" rx=\"14\" fill=\"#3A6EA5\"/><rect x=\"204\" y=\"250\" width=\"30\" height=\"120\" rx=\"14\" fill=\"#3A6EA5\"/><circle cx=\"320\" cy=\"10\" r=\"24\" fill=\"#B07A1C\"/><circle cx=\"234\" cy=\"124\" r=\"30\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"440\" y=\"40\" width=\"1224\" height=\"20\" rx=\"10\" fill=\"#F3E1DE\"/><line x1=\"440\" y1=\"30\" x2=\"440\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"685\" y1=\"30\" x2=\"685\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"930\" y1=\"30\" x2=\"930\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1174\" y1=\"30\" x2=\"1174\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1419\" y1=\"30\" x2=\"1419\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1664\" y1=\"30\" x2=\"1664\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"480\" y=\"140\" width=\"540\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"750\" y1=\"256\" x2=\"750\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1080\" y=\"140\" width=\"540\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1350\" y1=\"256\" x2=\"1350\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"480\" y=\"370\" width=\"1140\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 400,
+     "w": 330,
+     "t": "13 anos · ponteiro",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 80,
+     "w": 1224,
+     "t": "cinco meses de dor no ombro direito",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 156,
+     "w": 500,
+     "t": "tratamento 1",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 192,
+     "w": 500,
+     "t": "“tendinite do manguito”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 310,
+     "w": 540,
+     "t": "melhora em parte, volta a doer",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 156,
+     "w": 500,
+     "t": "tratamento 2",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 192,
+     "w": 500,
+     "t": "“tendinite do manguito”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1080,
+     "y": 310,
+     "w": 540,
+     "t": "melhora em parte, volta a doer",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 388,
+     "w": 1100,
+     "t": "Manguito rotador é diagnóstico de adulto",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um ponteiro de vôlei de 13 anos",
+   "titulo": "Dois tratamentos para um diagnóstico de adulto"
+  },
+  {
+   "id": "elo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Osso longo de criança com a fise, placa de crescimento, atravessando a extremidade, e uma apófise na inserção de um tendão. Ao lado, o mesmo trauma: no adulto cede o ligamento ou o tendão; na criança, a fise ou a apófise\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><path d=\"M 120 40 Q 220 -10 320 40 L 320 110 L 120 110 Z\" fill=\"#D9D4C7\"/><rect x=\"120\" y=\"110\" width=\"200\" height=\"26\" fill=\"#B07A1C\"/><path d=\"M 120 136 L 320 136 L 290 200 L 290 440 L 150 440 L 150 200 Z\" fill=\"#D9D4C7\"/><circle cx=\"300\" cy=\"210\" r=\"26\" fill=\"#008A7E\"/><path d=\"M 320 214 C 400 222 460 262 520 330\" stroke=\"#008A7E\" stroke-width=\"16\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"700\" y=\"0\" width=\"964\" height=\"210\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"700\" y=\"230\" width=\"964\" height=\"210\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 340,
+     "y": 96,
+     "w": 300,
+     "t": "fise: o osso cresce aqui",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 140,
+     "w": 320,
+     "t": "apófise: onde o tendão se prende",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 120,
+     "y": 400,
+     "w": 160,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 18,
+     "w": 916,
+     "t": "Adulto",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 724,
+     "y": 80,
+     "w": 916,
+     "t": "trauma em valgo: rompe o ligamento",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 136,
+     "w": 916,
+     "t": "tração repetida: tendão",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 248,
+     "w": 916,
+     "t": "Criança",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 724,
+     "y": 310,
+     "w": 916,
+     "t": "trauma em valgo: lesa a fise",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 366,
+     "w": 916,
+     "t": "tração repetida: apófise",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que o adulto não tem",
+   "titulo": "Na criança, o elo mais fraco é a cartilagem de crescimento"
+  },
+  {
+   "id": "alarmes",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo 1, filtro: isto é do esporte? Seis sinais que tiram o caso do esporte: dor noturna que acorda, febre, perda de peso ou mal-estar, dor sem relação com a atividade, deformidade, incapacidade de usar o membro. Saída: avaliação médica urgente\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 0 0 L 360 0 L 230 170 L 230 300 L 130 340 L 130 170 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"410\" y=\"0\" width=\"400\" height=\"80\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"822\" y=\"0\" width=\"400\" height=\"80\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"410\" y=\"96\" width=\"400\" height=\"80\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"822\" y=\"96\" width=\"400\" height=\"80\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"410\" y=\"192\" width=\"400\" height=\"80\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"822\" y=\"192\" width=\"400\" height=\"80\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1226\" y1=\"136\" x2=\"1292\" y2=\"136\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"1300\" y=\"60\" width=\"364\" height=\"150\" rx=\"18\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><rect x=\"420\" y=\"330\" width=\"1244\" height=\"110\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"180\" y1=\"350\" x2=\"400\" y2=\"386\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m1)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 40,
+     "w": 320,
+     "t": "isto é do esporte?",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 422,
+     "y": 22,
+     "w": 376,
+     "t": "dor noturna que acorda",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 834,
+     "y": 22,
+     "w": 376,
+     "t": "febre",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 422,
+     "y": 118,
+     "w": 376,
+     "t": "perda de peso, mal-estar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 834,
+     "y": 118,
+     "w": 376,
+     "t": "dor sem relação com o treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 422,
+     "y": 214,
+     "w": 376,
+     "t": "deformidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 834,
+     "y": 214,
+     "w": 376,
+     "t": "não consegue usar o membro",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1316,
+     "y": 92,
+     "w": 332,
+     "t": "avaliação médica urgente",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 444,
+     "y": 350,
+     "w": 1196,
+     "t": "Sem nenhum deles, padrão mecânico: piora com a carga, melhora com a pausa. Daí em diante, raciocínio esportivo.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Passo 1",
+   "titulo": "Primeiro, tirar o que não é do esporte"
+  },
+  {
+   "id": "endereco",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Passo 2: silhueta de adolescente com endereços em três cores. Apófises: tuberosidade da tíbia, polo inferior da patela, calcâneo, crista ilíaca, tuberosidade isquiática, epicôndilo medial. Fises por estresse: rádio distal, úmero proximal. Osso: tíbia, metatarsos, colo do fêmur, vértebra lombar\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><circle cx=\"270\" cy=\"32\" r=\"30\" fill=\"#D9D4C8\"/><rect x=\"220\" y=\"70\" width=\"100\" height=\"150\" rx=\"22\" fill=\"#D9D4C8\"/><path d=\"M 214 84 L 176 230\" stroke=\"#D9D4C8\" stroke-width=\"26\" stroke-linecap=\"round\"/><path d=\"M 326 84 L 364 230\" stroke=\"#D9D4C8\" stroke-width=\"26\" stroke-linecap=\"round\"/><rect x=\"218\" y=\"206\" width=\"104\" height=\"48\" rx=\"16\" fill=\"#D9D4C8\"/><rect x=\"226\" y=\"240\" width=\"38\" height=\"186\" rx=\"16\" fill=\"#D9D4C8\"/><rect x=\"276\" y=\"240\" width=\"38\" height=\"186\" rx=\"16\" fill=\"#D9D4C8\"/><rect x=\"206\" y=\"414\" width=\"58\" height=\"22\" rx=\"10\" fill=\"#D9D4C8\"/><rect x=\"276\" y=\"414\" width=\"58\" height=\"22\" rx=\"10\" fill=\"#D9D4C8\"/><circle cx=\"245\" cy=\"330\" r=\"13\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"295\" cy=\"300\" r=\"13\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"245\" cy=\"432\" r=\"13\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"222\" cy=\"212\" r=\"13\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"300\" cy=\"252\" r=\"13\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"190\" cy=\"160\" r=\"13\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"364\" cy=\"222\" r=\"13\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"322\" cy=\"88\" r=\"13\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"295\" cy=\"380\" r=\"13\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"320\" cy=\"432\" r=\"13\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"250\" cy=\"248\" r=\"13\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"270\" cy=\"196\" r=\"13\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"512\" cy=\"22\" r=\"12\" fill=\"#008A7E\"/><circle cx=\"912\" cy=\"22\" r=\"12\" fill=\"#B07A1C\"/><circle cx=\"912\" cy=\"222\" r=\"12\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 534,
+     "y": 4,
+     "w": 360,
+     "t": "Apófises",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 534,
+     "y": 56,
+     "w": 360,
+     "t": "tuberosidade da tíbia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 534,
+     "y": 100,
+     "w": 360,
+     "t": "polo inferior da patela",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 534,
+     "y": 144,
+     "w": 360,
+     "t": "calcâneo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 534,
+     "y": 188,
+     "w": 360,
+     "t": "crista ilíaca",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 534,
+     "y": 232,
+     "w": 360,
+     "t": "tuberosidade isquiática",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 534,
+     "y": 276,
+     "w": 360,
+     "t": "epicôndilo medial",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 4,
+     "w": 360,
+     "t": "Fises por estresse",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 934,
+     "y": 56,
+     "w": 730,
+     "t": "rádio distal (apoio nas mãos)",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 100,
+     "w": 730,
+     "t": "úmero proximal (arremesso, saque)",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 204,
+     "w": 360,
+     "t": "Osso",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 934,
+     "y": 256,
+     "w": 730,
+     "t": "tíbia, metatarsos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 300,
+     "w": 730,
+     "t": "colo do fêmur: alto risco",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 934,
+     "y": 344,
+     "w": 730,
+     "t": "vértebra lombar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 2",
+   "titulo": "Palpar o endereço: no jovem, o lugar exato decide"
+  },
+  {
+   "id": "trauma",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Passo 3, trauma agudo: cinco desenhos de traço de fratura através da fise, tipos I a V. Tipos I e V: radiografia pode vir normal. Tipo II: o mais comum. Conduta: parar, imobilizar, avaliar no mesmo dia; não fazer teste de estresse vigoroso\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><g transform=\"translate(0,20)\"><path d=\"M 10 60 L 10 20 Q 100 -14 190 20 L 190 60 Z\" fill=\"#D9D4C7\"/><rect x=\"10\" y=\"60\" width=\"180\" height=\"20\" fill=\"#B07A1C\"/><path d=\"M 10 80 L 190 80 L 170 170 L 30 170 Z\" fill=\"#D9D4C7\"/><path d=\"M 10 70 L 190 70\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g transform=\"translate(300,20)\"><path d=\"M 10 60 L 10 20 Q 100 -14 190 20 L 190 60 Z\" fill=\"#D9D4C7\"/><rect x=\"10\" y=\"60\" width=\"180\" height=\"20\" fill=\"#B07A1C\"/><path d=\"M 10 80 L 190 80 L 170 170 L 30 170 Z\" fill=\"#D9D4C7\"/><path d=\"M 10 70 L 120 70 L 170 150\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g transform=\"translate(600,20)\"><path d=\"M 10 60 L 10 20 Q 100 -14 190 20 L 190 60 Z\" fill=\"#D9D4C7\"/><rect x=\"10\" y=\"60\" width=\"180\" height=\"20\" fill=\"#B07A1C\"/><path d=\"M 10 80 L 190 80 L 170 170 L 30 170 Z\" fill=\"#D9D4C7\"/><path d=\"M 10 70 L 110 70 L 110 0\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g transform=\"translate(900,20)\"><path d=\"M 10 60 L 10 20 Q 100 -14 190 20 L 190 60 Z\" fill=\"#D9D4C7\"/><rect x=\"10\" y=\"60\" width=\"180\" height=\"20\" fill=\"#B07A1C\"/><path d=\"M 10 80 L 190 80 L 170 170 L 30 170 Z\" fill=\"#D9D4C7\"/><path d=\"M 110 0 L 110 150\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g transform=\"translate(1200,20)\"><path d=\"M 10 60 L 10 20 Q 100 -14 190 20 L 190 60 Z\" fill=\"#D9D4C7\"/><rect x=\"10\" y=\"64\" width=\"180\" height=\"10\" fill=\"#B07A1C\"/><path d=\"M 10 80 L 190 80 L 170 170 L 30 170 Z\" fill=\"#D9D4C7\"/><path d=\"M 60 -4 L 60 40 M 140 -4 L 140 40\" stroke=\"#A8322A\" stroke-width=\"6\" stroke-linecap=\"round\"/></g><rect x=\"0\" y=\"340\" width=\"310\" height=\"80\" rx=\"40\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"330\" y=\"340\" width=\"310\" height=\"80\" rx=\"40\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"660\" y=\"340\" width=\"310\" height=\"80\" rx=\"40\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1020\" y=\"340\" width=\"644\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 200,
+     "w": 200,
+     "t": "I",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 300,
+     "y": 200,
+     "w": 200,
+     "t": "II",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 600,
+     "y": 200,
+     "w": 200,
+     "t": "III",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 200,
+     "w": 200,
+     "t": "IV",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 200,
+     "w": 200,
+     "t": "V",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 244,
+     "w": 200,
+     "t": "radiografia pode vir normal",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 300,
+     "y": 244,
+     "w": 200,
+     "t": "o mais comum",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 244,
+     "w": 200,
+     "t": "radiografia pode vir normal",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 10,
+     "y": 362,
+     "w": 290,
+     "t": "parar",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 362,
+     "w": 290,
+     "t": "imobilizar",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 362,
+     "w": 290,
+     "t": "avaliar no mesmo dia",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 362,
+     "w": 604,
+     "t": "não: teste de estresse vigoroso",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 3, se houve trauma",
+   "titulo": "Depois de trauma, pensar em fise antes de entorse",
+   "fonte": "J Bone Joint Surg Am 1963"
+  },
+  {
+   "id": "imagem",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo 4: duas radiografias esquemáticas de ombro. Lado sem dor: fise do úmero fina e regular. Lado da dor: fise alargada e irregular. Compare com o outro lado; ressonância se a suspeita persiste; na apofisite, diagnóstico clínico; radiografia normal com clínica sugestiva não libera\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"390\" height=\"380\" rx=\"16\" fill=\"#12202E\"/><circle cx=\"200\" cy=\"110\" r=\"90\" fill=\"#D9D4C7\"/><rect x=\"140\" y=\"150\" width=\"120\" height=\"230\" fill=\"#D9D4C7\"/><path d=\"M 108 146 Q 200 128 292 146\" stroke=\"#12202E\" stroke-width=\"6\" fill=\"none\"/><rect x=\"420\" y=\"0\" width=\"390\" height=\"380\" rx=\"16\" fill=\"#12202E\"/><circle cx=\"620\" cy=\"110\" r=\"90\" fill=\"#D9D4C7\"/><rect x=\"560\" y=\"150\" width=\"120\" height=\"230\" fill=\"#D9D4C7\"/><path d=\"M 524 140 L 560 128 L 590 150 L 620 130 L 652 152 L 682 132 L 718 146 L 718 170 L 682 158 L 652 178 L 620 156 L 590 176 L 560 154 L 524 166 Z\" fill=\"#12202E\"/><rect x=\"900\" y=\"0\" width=\"764\" height=\"96\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"900\" y=\"112\" width=\"764\" height=\"96\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"900\" y=\"224\" width=\"764\" height=\"96\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"900\" y=\"336\" width=\"764\" height=\"96\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 392,
+     "w": 390,
+     "t": "lado sem dor",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 392,
+     "w": 390,
+     "t": "lado da dor",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 330,
+     "w": 380,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 30,
+     "w": 716,
+     "t": "Compare com o lado que não dói",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 924,
+     "y": 142,
+     "w": 716,
+     "t": "Ressonância se a suspeita persiste",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 924,
+     "y": 254,
+     "w": 716,
+     "t": "Apofisite: diagnóstico clínico",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 924,
+     "y": 366,
+     "w": 716,
+     "t": "Radiografia normal com clínica sugestiva não libera",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Passo 4",
+   "titulo": "Na imagem, a diferença entre os dois lados é o achado"
+  },
+  {
+   "id": "lombar",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Coluna lombar de perfil com a parte posterior de L5 destacada. Estudo de 1995 com dor lombar: lesão por estresse dessa região em 47% dos jovens atletas e em 5% dos adultos. Padrão: dor que piora na extensão, muitas vezes de um lado, arrastada; o teste de extensão em uma perna não decide\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"40\" y=\"0\" width=\"150\" height=\"62\" rx=\"10\" fill=\"#D9D4C7\"/><path d=\"M 190 20 L 250 30 L 290 10 L 300 50 L 250 52 L 190 44 Z\" fill=\"#D9D4C7\"/><rect x=\"40\" y=\"80\" width=\"150\" height=\"62\" rx=\"10\" fill=\"#D9D4C7\"/><path d=\"M 190 100 L 250 110 L 290 90 L 300 130 L 250 132 L 190 124 Z\" fill=\"#D9D4C7\"/><rect x=\"40\" y=\"160\" width=\"150\" height=\"62\" rx=\"10\" fill=\"#D9D4C7\"/><path d=\"M 190 180 L 250 190 L 290 170 L 300 210 L 250 212 L 190 204 Z\" fill=\"#D9D4C7\"/><rect x=\"40\" y=\"240\" width=\"150\" height=\"62\" rx=\"10\" fill=\"#D9D4C7\"/><path d=\"M 190 260 L 250 270 L 290 250 L 300 290 L 250 292 L 190 284 Z\" fill=\"#D9D4C7\"/><rect x=\"40\" y=\"320\" width=\"150\" height=\"62\" rx=\"10\" fill=\"#D9D4C7\"/><path d=\"M 190 340 L 250 350 L 290 330 L 300 370 L 250 372 L 190 364 Z\" fill=\"#D9D4C7\"/><circle cx=\"228\" cy=\"360\" r=\"22\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"420\" y=\"71\" width=\"150\" height=\"329\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"640\" y=\"365\" width=\"150\" height=\"35\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"900\" y=\"0\" width=\"764\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 14,
+     "w": 90,
+     "t": "L1",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 94,
+     "w": 90,
+     "t": "L2",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 174,
+     "w": 90,
+     "t": "L3",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 254,
+     "w": 90,
+     "t": "L4",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 334,
+     "w": 90,
+     "t": "L5",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 395,
+     "y": 404,
+     "w": 200,
+     "t": "jovens atletas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 395,
+     "y": 27,
+     "w": 200,
+     "t": "47%",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 615,
+     "y": 404,
+     "w": 200,
+     "t": "adultos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 615,
+     "y": 321,
+     "w": 200,
+     "t": "5%",
+     "tam": 32,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 18,
+     "w": 716,
+     "t": "O padrão que pede investigação",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 86,
+     "w": 716,
+     "t": "· piora na extensão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 138,
+     "w": 716,
+     "t": "· muitas vezes de um lado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 190,
+     "w": 716,
+     "t": "· arrastada por semanas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 242,
+     "w": 716,
+     "t": "· esporte de extensão repetida",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 316,
+     "w": 716,
+     "t": "O teste de extensão numa perna só não confirma nem afasta.",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Dor lombar com espondilólise, estudo de 1995",
+   "titulo": "No jovem que estende a coluna, a dor lombar tem causa",
+   "fonte": "Arch Pediatr Adolesc Med 1995; Br J Sports Med 2006"
+  },
+  {
+   "id": "conduta",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Conduta em cinco blocos: tira o gesto, não o esporte; conta o gesto; corrige o que é corrigível; explica o prazo; acompanha o crescimento. Nota: na apofisite do calcâneo, nove artigos numa revisão de 2013\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"316\" height=\"300\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(118.0 24.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"336\" y=\"0\" width=\"316\" height=\"300\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(454.0 24.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"672\" y=\"0\" width=\"316\" height=\"300\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(790.0 24.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"1008\" y=\"0\" width=\"316\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1126.0 24.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"1344\" y=\"0\" width=\"316\" height=\"300\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1462.0 24.0) scale(3.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"0\" y=\"330\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 14,
+     "y": 124,
+     "w": 288,
+     "t": "Tira o gesto",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 14,
+     "y": 180,
+     "w": 288,
+     "t": "não o esporte",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 124,
+     "w": 288,
+     "t": "Conta o gesto",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 180,
+     "w": 288,
+     "t": "por sessão e por semana",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 686,
+     "y": 124,
+     "w": 288,
+     "t": "Corrige",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 686,
+     "y": 180,
+     "w": 288,
+     "t": "tornozelo, calçado, força, técnica",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1022,
+     "y": 124,
+     "w": 288,
+     "t": "Explica o prazo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1022,
+     "y": 180,
+     "w": 288,
+     "t": "até a apófise se fundir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1358,
+     "y": 124,
+     "w": 288,
+     "t": "Acompanha",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1358,
+     "y": 180,
+     "w": 288,
+     "t": "comprimento e desvio, meses depois",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 350,
+     "w": 1616,
+     "t": "Evidência pequena: na apofisite do calcâneo, nove artigos numa revisão de 2013. Anti-inflamatório contínuo esconde o sinal; infiltração não tem lugar.",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "A conduta, para fise e apófise",
+   "titulo": "Tira o gesto, mantém o atleta no grupo e conta",
+   "fonte": "J Foot Ankle Res 2013"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Lesões do esqueleto imaturo",
+   "titulo": "Dor localizada em quem cresce e treina tem endereço",
+   "regras": [
+    "Na criança, o elo mais fraco é a cartilagem de crescimento; “dor do crescimento” não fecha diagnóstico",
+    "Tirar o que não é do esporte, palpar o endereço, pensar em fise após trauma, comparar os lados",
+    "A conduta tira o gesto, não o esporte, e conta o gesto"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Conta os gestos de risco, legitima a queixa de dor e mantém o atleta no grupo."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina e fisioterapia",
+     "x": "Palpam o endereço, pedem a imagem certa e escrevem a hipótese."
+    },
+    {
+     "ic": "t:users",
+     "t": "A família",
+     "x": "Sabe o prazo e sabe que dor que acorda à noite é urgente."
+    }
+   ]
+  }
+ ],
+ "modulo": "Atleta Adolescente e Atleta Idoso",
+ "tema": "musgo"
+}
