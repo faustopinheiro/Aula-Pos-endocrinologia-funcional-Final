@@ -103,6 +103,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Carga interna", "titulo": 
                     {"t": "Atleta", "x": "Responde sozinha, meia hora depois."}],
           "quem": "Próxima aula: índices de carga aguda e crônica, uso, limitação e crítica."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-08")
+
 spec = {"arquivo": "aulas/MOD09/09-08-carga-interna-pse-fc-e-questionarios.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Carga interna", "subtitulo": "Percepção de esforço, frequência cardíaca, variabilidade e questionários, e como escolher",

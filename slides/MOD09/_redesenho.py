@@ -1579,6 +1579,287 @@ def correcoes_97():
         rs.append(rot(872, y + 20, c, w=770, tam=21, cor=TINTA, peso=700))
     return slide("correcoes", 400, p, rs, eyebrow="Os cinco erros", titulo="E a correção de cada um")
 
+# ---------------------------------------------------------------- 9.8
+
+def propostas_98():
+    """9.8: dezoito atletas de handebol, três propostas na mesa e um orçamento que dá para uma."""
+    p = [svg_abre(1664, 400, "No alto, dezoito atletas de uma equipe universitária de handebol. Embaixo, três propostas lado a lado: cintas de frequência cardíaca para todas; um aplicativo de variabilidade da frequência cardíaca, medido toda manhã; uma folha com quatro perguntas, respondida por mensagem depois do treino. O orçamento dá para uma. Na faixa de baixo: a resposta não é a mais sofisticada, é a que muda uma decisão")]
+    rs = []
+    for j in range(18):
+        p.append(icone("h:woman", 120 + j * 76, 0, 52, MUDO))
+    rs.append(rot(0, 64, "equipe universitária de handebol · dezoito atletas · o orçamento dá para uma", w=1664, tam=19, cor=MUDO, peso=700, alinha="center"))
+    props = [("t:heartbeat", "Cintas cardíacas", "uma para cada atleta", GLIC, GLIC_T),
+             ("t:device-mobile", "Aplicativo de variabilidade", "medido toda manhã", AZUL, AZUL_T),
+             ("t:clipboard-list", "Folha com quatro perguntas", "por mensagem, depois do treino", OXID, OXID_T)]
+    for k, (ic, t, x_, cor, fundo) in enumerate(props):
+        x = k * 568
+        p.append(caixa(x, 110, 528, 160, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 140, 64, cor))
+        rs += [rot(x + 104, 140, t, w=410, tam=24, cor=cor, peso=700, serif=True, lh=1.15), rot(x + 104, 210, x_, w=410, tam=20, cor=TINTA)]
+    p.append(caixa(0, 300, 1664, 100, TINTA, TINTA, esp=0, rx=14))
+    rs.append(rot(40, 330, "A resposta não é o mais sofisticado. É o que muda uma decisão.", w=1584, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True))
+    return slide("propostas", 400, p, rs, eyebrow="Três propostas, um orçamento", titulo="Cintas cardíacas, um aplicativo de variabilidade, ou uma folha com quatro perguntas?")
+
+
+def quatro_98():
+    """9.8: as quatro ferramentas da carga interna, cada uma com o que mede e o que deixa de ver."""
+    p = [svg_abre(1664, 420, "Quatro cartões. Percepção de esforço da sessão: nota de 0 a 10 vezes os minutos; deixa de valer sem escala, tempo e privacidade. Frequência cardíaca durante o treino: atrasa no esforço curto e na força. Variabilidade da frequência cardíaca em repouso, de manhã: o número de um dia é ruído. Questionários curtos de sono, dor, cansaço, estresse e humor: longos demais, ninguém responde")]
+    rs = []
+    cards = [("t:gauge", "Percepção de esforço da sessão", "nota de 0 a 10 vezes os minutos", "sem escala, tempo e privacidade, vira ruído", OXID, OXID_T),
+             ("t:heartbeat", "Frequência cardíaca", "durante o treino", "atrasa no esforço curto e na força", GLIC, GLIC_T),
+             ("t:wave-sine", "Variabilidade da frequência cardíaca", "em repouso, de manhã", "o número de um dia é ruído", TINTA, CARTAO),
+             ("t:clipboard-list", "Questionários curtos", "sono, dor, cansaço, estresse, humor", "longos demais, ninguém responde", FOSF, FOSF_T)]
+    for k, (ic, t, x_, cego, cor, fundo) in enumerate(cards):
+        x, y = (k % 2) * 844, (k // 2) * 220
+        p.append(caixa(x, y, 820, 196, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, y + 24, 56, cor))
+        rs += [rot(x + 100, y + 22, t, w=700, tam=24, cor=cor, peso=700, serif=True), rot(x + 100, y + 64, x_, w=700, tam=21, cor=TINTA)]
+        p.append(f'<line x1="{x + 24}" y1="{y + 116}" x2="{x + 796}" y2="{y + 116}" stroke="{BORDA}" stroke-width="2"/>')
+        p.append(icone("t:eye-off", x + 24, y + 132, 36, MUDO))
+        rs.append(rot(x + 74, y + 138, "ponto cego: " + cego, w=730, tam=20, cor=MUDO, peso=700))
+    return slide("quatro", 420, p, rs, eyebrow="A carga vista de dentro", titulo="Quatro ferramentas, cada uma com um ponto cego")
+
+
+def conta_98():
+    """9.8: a carga da sessão como área, minutos na base e nota na altura, e a soma de modalidades."""
+    p = [svg_abre(1664, 330, "Duas áreas desenhadas em escala. Setenta minutos de base por nota sete de altura dão 490 unidades de carga. Quarenta minutos por nota quatro dão 160. À direita, quatro modalidades, musculação, quadra, piscina e jogo, respondidas com a mesma pergunta e somadas num número só da semana"), defs(MUDO)]
+    rs = []
+    B, kx, ky = 250, 7, 26
+    for (x0, m, n, val, cor, fundo) in [(60, 70, 7, "490", TINTA, CARTAO), (640, 40, 4, "160", OXID, OXID_T)]:
+        w, h = m * kx, n * ky
+        p.append(f'<rect x="{x0}" y="{B - h}" width="{w}" height="{h}" rx="8" fill="{fundo}" stroke="{cor}" stroke-width="4"/>')
+        rs += [rot(x0, B - h / 2 - 30, val, w=w, tam=44, cor=cor, peso=700, alinha="center", serif=True),
+               rot(x0, B + 10, f"{m} minutos", w=w, tam=19, cor=TINTA, peso=700, alinha="center"),
+               rot(x0 - 60, B - h / 2 - 12, f"nota {n}", w=52, tam=17, cor=TINTA, peso=700, alinha="right", lh=1.1)]
+    rs.append(rot(0, 296, "altura: a nota · base: os minutos · área: unidades de carga", w=1020, tam=17, cor=MUDO))
+    p.append(caixa(1080, 0, 584, 330, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(1104, 16, "A mesma pergunta em tudo", w=540, tam=23, cor=OXID, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:barbell", "musculação"), ("t:play-basketball", "quadra"), ("t:swimming", "piscina"), ("t:trophy", "jogo")]):
+        x = 1110 + j * 134
+        p.append(icone(ic, x + 30, 80, 52, OXID))
+        rs.append(rot(x, 140, t, w=112, tam=17, cor=TINTA, peso=700, alinha="center"))
+    p.append(seta(1372, 180, 1372, 220, OXID, "m0", esp=3))
+    p.append(caixa(1140, 232, 464, 70, OXID, OXID, esp=0, rx=12))
+    rs.append(rot(1140, 252, "um número da semana", w=464, tam=22, cor=PAPEL, peso=700, alinha="center"))
+    return slide("conta", 330, p, rs, eyebrow="A mais barata", titulo="Percepção de esforço da sessão",
+                 destaque="Validada contra um padrão de frequência cardíaca em exercício contínuo, intervalado e basquete. A mesma pergunta soma quadra, musculação e jogo.", destaque_cor="tinta",
+                 fonte="J Strength Cond Res 2001 · revisão, Front Neurosci 2017")
+
+
+def condicoes_98():
+    """9.8: a escala com âncoras, a espera depois do treino, a resposta sem plateia e o contrato de não punir."""
+    p = [svg_abre(1664, 420, "Três quadros e uma faixa. A escala de 0 a 10, com as mesmas palavras em cada número, ensinadas uma vez com calma. Uma linha do tempo: o fim do treino e, cerca de trinta minutos depois, a pergunta; perguntada no fim, a nota reflete só o último tiro. Sem plateia: a nota em voz alta no grupo mede hierarquia; por mensagem, individual. Na faixa de baixo, o contrato: nunca para punir, porque nota alta que vira sermão deixa de ser honesta"), defs(GLIC)]
+    rs = []
+    p.append(caixa(0, 0, 528, 280, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "Escala com âncoras", w=480, tam=23, cor=OXID, peso=700, serif=True))
+    for i in range(11):
+        x = 44 + i * 44
+        p.append(f'<rect x="{x - 16}" y="{130 - i * 6}" width="32" height="{i * 6 + 20}" rx="4" fill="{OXID}" opacity="{0.25 + i * 0.07:.2f}"/>')
+    for v, x in [("0", 44), ("5", 264), ("10", 484)]:
+        rs.append(rot(x - 30, 160, v, w=60, tam=19, cor=TINTA, peso=700, alinha="center"))
+    rs.append(rot(24, 200, "as mesmas palavras em cada número, ensinadas uma vez com calma", w=480, tam=19, cor=TINTA, lh=1.3))
+    p.append(caixa(568, 0, 528, 280, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(592, 16, "Cerca de 30 minutos depois", w=480, tam=23, cor=GLIC, peso=700, serif=True))
+    p.append(f'<line x1="610" y1="120" x2="1050" y2="120" stroke="{GLIC}" stroke-width="4"/>')
+    p.append(f'<circle cx="620" cy="120" r="10" fill="{GLIC}"/>')
+    p.append(icone("t:message-circle", 1006, 96, 48, GLIC))
+    rs += [rot(580, 140, "fim do treino", w=140, tam=17, cor=TINTA, peso=700, alinha="center"),
+           rot(820, 84, "± 30 min", w=120, tam=18, cor=GLIC, peso=700, alinha="center"),
+           rot(592, 200, "no fim do treino, a nota reflete só o último tiro", w=480, tam=19, cor=TINTA, lh=1.3)]
+    p.append(caixa(1136, 0, 528, 280, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(1160, 16, "Sem plateia", w=480, tam=23, cor=GLIC, peso=700, serif=True))
+    p.append(icone("t:users-group", 1180, 70, 64, MUDO))
+    p.append(f'<line x1="1176" y1="66" x2="1248" y2="138" stroke="{FOSF}" stroke-width="5"/>')
+    p.append(icone("t:message-circle", 1180, 156, 56, OXID))
+    rs += [rot(1270, 84, "em voz alta, no grupo: mede hierarquia", w=370, tam=19, cor=TINTA, lh=1.25),
+           rot(1270, 166, "por mensagem, individual", w=370, tam=19, cor=OXID, peso=700, lh=1.25)]
+    p.append(caixa(0, 310, 1664, 110, FOSF, FOSF, esp=0, rx=14))
+    p.append(icone("t:hand-stop", 28, 336, 56, PAPEL))
+    rs += [rot(104, 330, "Nunca para punir", w=1520, tam=24, cor=PAPEL, peso=700, serif=True),
+           rot(104, 370, "nota alta que vira sermão deixa de ser honesta", w=1520, tam=21, cor=PAPEL)]
+    return slide("condicoes", 420, p, rs, eyebrow="Sem isso, vira ruído", titulo="Quatro condições para a nota valer")
+
+
+def fc_98():
+    """9.8: a frequência cardíaca acompanhando o esforço contínuo e atrasando nos tiros curtos e na força."""
+    p = [svg_abre(1664, 380, "Dois gráficos em esquema. À esquerda, um bloco de esforço contínuo e a curva da frequência cardíaca subindo e acompanhando o bloco: funciona no esforço aeróbio contínuo, complementa a nota, de graça para quem já usa relógio. À direita, tiros curtos em picos e a curva da frequência cardíaca atrasada e achatada, sem chegar aos picos: atrasa nos esforços curtos, responde mal à força, subestima sprints, saltos e contato")]
+    rs = []
+    for k, (t, cor, fundo, itens) in enumerate([("Funciona", OXID, OXID_T, "esforço aeróbio contínuo · complemento objetivo à nota · de graça para quem já usa relógio"),
+                                                 ("Falha", FOSF, FOSF_T, "atrasa nos esforços curtos · responde mal ao treino de força · subestima sprints, saltos e contato")]):
+        x0 = k * 844
+        p.append(caixa(x0, 0, 820, 380, cor, fundo, esp=2, rx=16))
+        rs.append(rot(x0 + 24, 16, t, w=760, tam=24, cor=cor, peso=700, serif=True))
+        B = 230
+        if k == 0:
+            p.append(f'<rect x="{x0 + 120}" y="{B - 120}" width="560" height="120" fill="{CINZA}" opacity="0.6"/>')
+            pts = []
+            for i in range(61):
+                u = i / 60
+                xx = x0 + 60 + u * 700
+                if xx < x0 + 120:
+                    yy = B - 20
+                elif xx > x0 + 680:
+                    yy = B - 20 - 100 * (2.718 ** (-(xx - x0 - 680) / 30))
+                else:
+                    yy = B - 20 - 100 * (1 - 2.718 ** (-(xx - x0 - 120) / 40))
+                pts.append(f"{xx:.0f},{yy:.0f}")
+        else:
+            for j in range(5):
+                p.append(f'<rect x="{x0 + 110 + j * 130}" y="{B - 120}" width="30" height="120" fill="{CINZA}" opacity="0.6"/>')
+            pts = []
+            for i in range(61):
+                u = i / 60
+                xx = x0 + 60 + u * 700
+                yy = B - 20 - 40 * (1 - 2.718 ** (-max(0, xx - x0 - 110) / 120)) - 6 * (1 + __import__("math").sin((xx - x0 - 110) / 130 * 6.283 - 1.2))
+                pts.append(f"{xx:.0f},{yy:.0f}")
+        p.append('<polyline points="' + " ".join(pts) + f'" fill="none" stroke="{cor}" stroke-width="5"/>')
+        p.append(f'<line x1="{x0 + 50}" y1="{B}" x2="{x0 + 780}" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+        rs.append(rot(x0 + 24, 246, "cinza: esforço · linha: frequência cardíaca · esquema", w=760, tam=16, cor=MUDO))
+        rs.append(rot(x0 + 24, 290, itens, w=772, tam=20, cor=TINTA, peso=700, lh=1.35))
+    return slide("fc", 380, p, rs, eyebrow="Frequência cardíaca", titulo="Boa no contínuo, fraca no resto",
+                 destaque="Para uma equipe de handebol: um aparelho por atleta, bateria, dados e alguém para olhar. Caro para o que entrega.", destaque_cor="tinta")
+
+
+def vfc_98():
+    """9.8: pontos diários serrilhados da variabilidade com a média de vários dias por cima, e o risco da ansiedade."""
+    import math
+    p = [svg_abre(1664, 360, "À esquerda, em esquema, pontos diários da variabilidade da frequência cardíaca muito serrilhados e, sobre eles, a média de vários dias, uma linha suave. Como usar bem: mesma hora, mesma posição, ao acordar; a média, não o número do dia; a pessoa comparada com ela mesma. À direita, o risco: decidir o dia pelo número da manhã, ansiedade com o próprio dado, padrão descrito no sono como ortossonia")]
+    rs = []
+    p.append(caixa(0, 0, 980, 360, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "Como usar bem", w=900, tam=24, cor=OXID, peso=700, serif=True))
+    vals = [math.sin(i * 1.9) * 0.6 + math.sin(i * 0.7 + 1) * 0.5 + math.sin(i * 0.17) * 0.4 for i in range(28)]
+    pts = [(50 + i * 30, 150 - v * 50) for i, v in enumerate(vals)]
+    p.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in pts) + f'" fill="none" stroke="{MUDO}" stroke-width="2"/>')
+    for x, y in pts:
+        p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="6" fill="{MUDO}"/>')
+    med = []
+    for i in range(6, 28):
+        med.append((50 + i * 30, 150 - sum(vals[i - 6:i + 1]) / 7 * 50))
+    p.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in med) + f'" fill="none" stroke="{OXID}" stroke-width="6" stroke-linecap="round"/>')
+    rs += [rot(24, 226, "pontos: o número de cada manhã · linha: a média · esquema", w=930, tam=16, cor=MUDO)]
+    for j, t in enumerate(["mesma hora, mesma posição, ao acordar", "a média de vários dias, não o número do dia", "a pessoa comparada com ela mesma"]):
+        rs.append(rot(24 + (j % 2) * 470, 262 + (j // 2) * 40, "· " + t, w=460, tam=19, cor=TINTA, peso=700))
+    p.append(caixa(1020, 0, 644, 360, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(1044, 16, "O risco", w=600, tam=24, cor=GLIC, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:alarm", "decidir o dia pelo número da manhã"), ("t:mood-nervous", "ansiedade com o próprio dado"), ("t:moon", "descrito no sono como ortossonia")]):
+        y = 80 + j * 88
+        p.append(icone(ic, 1044, y, 48, GLIC))
+        rs.append(rot(1110, y + 10, t, w=530, tam=21, cor=TINTA, peso=700, lh=1.25))
+    return slide("vfc", 360, p, rs, eyebrow="Variabilidade da frequência cardíaca", titulo="Exigente, e com um efeito colateral",
+                 destaque="Número que gera ansiedade custa caro.", destaque_cor="tinta", fonte="Revisão, Sports Med 2013 · J Clin Sleep Med 2017")
+
+
+def questionario_98():
+    """9.8: a folha da manhã, quatro perguntas de 1 a 5 e uma semanal, e o caminho até ninguém responder."""
+    p = [svg_abre(1664, 400, "À esquerda, a folha da manhã: como você dormiu, dor muscular, cansaço e estresse, cada uma com cinco bolinhas de 1 a 5 e uma marcada; embaixo, uma linha semanal: algum problema de saúde esta semana? No meio, um cronômetro: trinta segundos. À direita, o risco em três passos: perguntas demais, todo dia, sem retorno; na terceira semana, ninguém responde"), defs(FOSF)]
+    rs = []
+    p.append(caixa(0, 0, 860, 400, TINTA, CARTAO, esp=2, rx=16))
+    for j, (t, m) in enumerate([("Como você dormiu?", 3), ("Dor muscular", 1), ("Cansaço", 2), ("Estresse", 3)]):
+        y = 30 + j * 70
+        rs.append(rot(30, y + 10, t, w=430, tam=22, cor=TINTA, peso=700))
+        for i in range(5):
+            cx = 520 + i * 66
+            p.append(f'<circle cx="{cx}" cy="{y + 24}" r="20" fill="{OXID if i == m else PAPEL}" stroke="{OXID}" stroke-width="3"/>')
+    rs.append(rot(500, 8, "1 · · · 5", w=330, tam=16, cor=MUDO, alinha="center"))
+    p.append(f'<line x1="24" y1="316" x2="836" y2="316" stroke="{BORDA}" stroke-width="2"{TRACO}/>')
+    rs += [rot(30, 334, "Algum problema de saúde esta semana?", w=600, tam=22, cor=TINTA, peso=700), rot(650, 334, "semanal", w=180, tam=20, cor=AZUL, peso=700, alinha="right")]
+    p.append(icone("t:stopwatch", 930, 100, 96, OXID))
+    rs += [rot(890, 210, "30 segundos", w=180, tam=24, cor=OXID, peso=700, alinha="center", serif=True), rot(890, 250, "de manhã", w=180, tam=19, cor=TINTA, alinha="center")]
+    p.append(caixa(1120, 0, 544, 400, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(1144, 16, "O risco", w=500, tam=24, cor=FOSF, peso=700, serif=True))
+    for j, t in enumerate(["perguntas demais", "todo dia", "sem retorno"]):
+        y = 80 + j * 64
+        p.append(caixa(1144, y, 496, 50, FOSF, CARTAO, esp=2, rx=10))
+        rs.append(rot(1144, y + 12, t, w=496, tam=20, cor=TINTA, peso=700, alinha="center"))
+    p.append(seta(1392, 278, 1392, 306, FOSF, "m0", esp=3))
+    p.append(caixa(1144, 316, 496, 64, FOSF, FOSF, esp=0, rx=10))
+    rs.append(rot(1144, 334, "na terceira semana, ninguém responde", w=496, tam=20, cor=PAPEL, peso=700, alinha="center"))
+    return slide("questionario", 400, p, rs, eyebrow="Questionários curtos", titulo="Trinta segundos de manhã",
+                 destaque="Medidas relatadas pela atleta respondem à carga de forma sensível. O risco: perguntas demais, todo dia, sem retorno.", destaque_cor="tinta",
+                 fonte="Revisão sistemática, Br J Sports Med 2016 · formato de prática corrente")
+
+
+def terceira_98():
+    """9.8: três semanas de respostas, um instrumento preciso que se esvazia e uma pergunta simples que chega todo dia."""
+    p = [svg_abre(1664, 330, "Três semanas, um ponto por dia, em esquema. Na primeira linha, o instrumento preciso que ninguém usa: os pontos preenchidos rareiam até sumirem na terceira semana. Na segunda linha, a pergunta simples: um ponto preenchido em todos os dias, e um olho ao lado, porque alguém lê")]
+    rs = []
+    for s in range(3):
+        rs.append(rot(260 + s * 440, 0, f"semana {s + 1}", w=400, tam=19, cor=MUDO, peso=700, alinha="center"))
+        if s:
+            p.append(f'<line x1="{240 + s * 440}" y1="30" x2="{240 + s * 440}" y2="270" stroke="{BORDA}" stroke-width="2"{TRACO}/>')
+    falta = {9, 11, 12, 15, 16, 17, 18, 19, 20, 13}
+    for k, (t, cor, fundo) in enumerate([("preciso, e ninguém usa", MUDO, CINZA), ("simples, todo dia, e alguém lê", OXID, OXID_T)]):
+        y = 60 + k * 120
+        p.append(caixa(0, y, 1664, 96, cor, fundo if k else PAPEL, esp=2, rx=14))
+        rs.append(rot(20, y + 22, t, w=220, tam=20, cor=TINTA if k == 0 else OXID, peso=700, lh=1.2))
+        for d in range(21):
+            cx = 280 + (d // 7) * 440 + (d % 7) * 56
+            cheio = k == 1 or d not in falta
+            p.append(f'<circle cx="{cx}" cy="{y + 48}" r="18" fill="{cor if cheio else PAPEL}" stroke="{cor}" stroke-width="3"/>')
+    p.append(icone("t:eye-check", 1580, 196, 56, OXID))
+    rs.append(rot(0, 300, "um ponto por dia: a resposta chegou · esquema", w=1664, tam=17, cor=MUDO, alinha="right"))
+    return slide("terceira", 330, p, rs, eyebrow="A ideia da aula", titulo="O melhor instrumento é o que muda uma decisão, e que a atleta ainda responde na terceira semana.",
+                 destaque="Precisão que ninguém usa vale menos que uma pergunta simples que chega todo dia e que alguém lê.", destaque_cor="tinta")
+
+
+def cenarios_98():
+    """9.8: quatro cenários, o instrumento principal e o complemento, com a nota da sessão em todos."""
+    p = [svg_abre(1664, 420, "Quatro linhas de decisão. Coletivo com pouco dinheiro: nota da sessão, mais quatro perguntas de bem-estar. Endurance com relógio: nota da sessão e frequência cardíaca, mais variabilidade em média se tolerar. Praticante de força: nota da sessão, mais registro de cargas. Ansioso com números: nota da sessão, mais uma conversa por semana. A coluna do principal, destacada, mostra a nota da sessão em todas as linhas"), defs(MUDO)]
+    rs = []
+    rs += [rot(96, 0, "Cenário", w=480, tam=19, cor=MUDO, peso=700), rot(620, 0, "Principal", w=440, tam=19, cor=OXID, peso=700, alinha="center"), rot(1120, 0, "Complemento", w=544, tam=19, cor=MUDO, peso=700, alinha="center")]
+    p.append(f'<rect x="608" y="30" width="464" height="390" rx="16" fill="{OXID_T}"/>')
+    linhas = [("t:users-group", "Coletivo com pouco dinheiro", "nota da sessão", "quatro perguntas de bem-estar"),
+              ("t:device-watch", "Endurance com relógio", "nota da sessão e FC", "variabilidade, se tolerar, em média"),
+              ("t:barbell", "Praticante de força", "nota da sessão", "registro de cargas"),
+              ("t:mood-nervous", "Ansioso com números", "nota da sessão", "uma conversa por semana")]
+    for j, (ic, c, pr, co) in enumerate(linhas):
+        y = 44 + j * 94
+        p.append(icone(ic, 24, y + 14, 48, TINTA))
+        rs.append(rot(96, y + 24, c, w=490, tam=22, cor=TINTA, peso=700))
+        p.append(caixa(628, y + 6, 424, 70, OXID, OXID, esp=0, rx=12))
+        rs.append(rot(628, y + 26, pr, w=424, tam=22, cor=PAPEL, peso=700, alinha="center"))
+        p.append(seta(1060, y + 41, 1104, y + 41, MUDO, "m0", esp=3))
+        p.append(caixa(1116, y + 6, 548, 70, MUDO, CARTAO, esp=2, rx=12))
+        rs.append(rot(1116, y + 26, co, w=548, tam=20, cor=TINTA, alinha="center"))
+    return slide("cenarios", 420, p, rs, eyebrow="Como escolher", titulo="Instrumento por cenário",
+                 destaque="A nota da sessão está em todas as linhas. O complemento muda com o esporte, o dinheiro e a pessoa.", destaque_cor="petr")
+
+
+def regras_98():
+    """9.8: quatro regras de uso, cada uma com um desenho mínimo."""
+    import math
+    p = [svg_abre(1664, 440, "Quatro quadros. Contra ela mesma: duas atletas, uma que dá notas altas e outra que dá baixas, cada uma com a própria linha de base. Tendência, não o dia: pontos serrilhados com uma seta de tendência por cima. Regra antes do dado: a frase escrita antes, se três sessões voltarem acima do planejado, reduzimos e conversamos. Retorno a quem responde: um ciclo entre a atleta, a nota e o retorno; quem nunca vê o uso da nota para de responder"), defs(OXID, FOSF)]
+    rs = []
+    W, H = 820, 206
+    for k, (t, x_, cor, fundo) in enumerate([("Contra ela mesma", "há quem dê notas altas e quem dê baixas", OXID, OXID_T),
+                                             ("Tendência, não o dia", "um ponto isolado é ruído", OXID, OXID_T),
+                                             ("Regra antes do dado", "", GLIC, GLIC_T),
+                                             ("Retorno a quem responde", "quem nunca vê o uso da nota para de responder", FOSF, FOSF_T)]):
+        x, y = (k % 2) * 844, (k // 2) * 234
+        p.append(caixa(x, y, W, H, cor, fundo, esp=2, rx=16))
+        rs.append(rot(x + 24, y + 16, t, w=460, tam=23, cor=cor, peso=700, serif=True))
+        if x_:
+            rs.append(rot(x + 24, y + 140, x_, w=420 if k != 1 else 440, tam=19, cor=TINTA, lh=1.25))
+    for j, (base, cor) in enumerate([(50, OXID), (120, AZUL)]):
+        yb = base + 20
+        p.append(f'<line x1="500" y1="{yb}" x2="790" y2="{yb}" stroke="{cor}" stroke-width="2"{TRACO}/>')
+        for i in range(7):
+            p.append(f'<circle cx="{512 + i * 44}" cy="{yb + 10 * math.sin(i * 2.1 + j)}" r="7" fill="{cor}"/>')
+    pts = [(1344 + i * 20, 130 - i * 3 + 26 * math.sin(i * 2.3)) for i in range(15)]
+    p.append('<polyline points="' + " ".join(f"{a:.0f},{b:.0f}" for a, b in pts) + f'" fill="none" stroke="{MUDO}" stroke-width="2"/>')
+    for a, b in pts:
+        p.append(f'<circle cx="{a:.0f}" cy="{b:.0f}" r="5" fill="{MUDO}"/>')
+    p.append(seta(1344, 128, 1632, 78, OXID, "m0", esp=5))
+    p.append(f'<rect x="24" y="300" width="772" height="116" rx="12" fill="{CARTAO}" stroke="{GLIC}" stroke-width="2"/>')
+    p.append(icone("t:writing", 40, 334, 48, GLIC))
+    rs.append(rot(104, 312, "“se três sessões voltarem acima do planejado, reduzimos e conversamos”", w=676, tam=21, cor=TINTA, peso=700, lh=1.3, serif=True))
+    cx, cy = 1560, 340
+    for a, ic in [(-90, "h:woman"), (30, "t:gauge"), (150, "t:message-circle")]:
+        r = math.radians(a)
+        p.append(icone(ic, cx + 62 * math.cos(r) - 20, cy + 62 * math.sin(r) - 20, 40, FOSF))
+    p.append(f'<circle cx="{cx}" cy="{cy}" r="62" fill="none" stroke="{FOSF}" stroke-width="2"{TRACO}/>')
+    return slide("regras", 440, p, rs, eyebrow="Para qualquer instrumento", titulo="Quatro regras de uso")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
@@ -1587,7 +1868,8 @@ LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variaca
           "09-04": [lance_94, gols_94, tres_94, agilidade_94, descansado_94, treno_94, dose_94, protege_94, resumo_94],
           "09-05": [planilha_95, tipos_95, ambos_95, elite_95, ensaio_95, paga_95, cinzenta_95, conta_95, plano_95, acompanhar_95],
           "09-06": [telas_96, roteiro_96, ancoras_96, poucas_96, ancorada_96, borg_96, escalas_96, medidas_96, tabela_96, desempate_96],
-          "09-07": [coletes_97, externa_97, amostragem_97, limiar_97, campo_97, acelerometro_97, fora_97, vale_97, pulso_97, correcoes_97]}
+          "09-07": [coletes_97, externa_97, amostragem_97, limiar_97, campo_97, acelerometro_97, fora_97, vale_97, pulso_97, correcoes_97],
+          "09-08": [propostas_98, quatro_98, conta_98, condicoes_98, fc_98, vfc_98, questionario_98, terceira_98, cenarios_98, regras_98]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
