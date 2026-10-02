@@ -85,6 +85,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Lesão óssea por estresse
                     {"t": "Quem está mais perto", "x": "Reconhece o gesto do dedo e encaminha."}],
           "quem": "Próxima aula: imagem no esporte e o achado incidental."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-11")
+
 spec = {"arquivo": "aulas/MOD07/07-11-lesao-ossea-de-estresse-e-sua-raiz-energetica.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Lesão óssea por estresse", "subtitulo": "Sítio de risco, reconhecimento e a raiz energética",
