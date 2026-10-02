@@ -101,6 +101,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "As três mensagens, respon
                     {"t": "A instituição", "x": "Sono, energia, vacina, higiene do vestiário, calendário."}],
           "quem": "A comissão não vota na miocardite. Sustenta a decisão contra o calendário."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-08")
+
 spec = {"arquivo": "aulas/MOD06/06-08-infeccao-imunologia-e-retorno-apos-doenca.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Infecção e retorno ao treino", "subtitulo": "Sintoma leve, febre e suspeita de miocardite",

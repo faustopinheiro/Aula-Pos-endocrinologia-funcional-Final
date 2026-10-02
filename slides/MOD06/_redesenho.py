@@ -1839,6 +1839,245 @@ def urina_67():
                  destaque="Sem diagnóstico objetivo, não há autorização. Registre princípio ativo, dose e horário, e nunca use a bombinha de outra pessoa.",
                  destaque_cor="tinta", fonte="WADA 2026")
 
+# ---------------------------------------------------------------- 6.8
+
+def mensagens_68():
+    """6.8: três mensagens no mesmo dia, como degraus de uma escada."""
+    p = [svg_abre(1664, 400, "Três mensagens no mesmo dia, desenhadas como degraus. A primeira, garganta arranhando, treino hoje?, se decide à beira do treino. A segunda, a febre passou ontem, posso correr?, pede um plano de dias. A terceira, falaram em miocardite, mas estou ótimo, sai das mãos da comissão")]
+    rs = []
+    itens = [("“Garganta arranhando, treino hoje?”", "decide-se à beira do treino", OXID, OXID_T),
+             ("“A febre passou ontem, posso correr?”", "pede um plano de dias", GLIC, GLIC_T),
+             ("“Falaram em miocardite, mas estou ótimo.”", "sai das mãos da comissão", FOSF, FOSF_T)]
+    for k, (q, d, cor, fundo) in enumerate(itens):
+        x, y = k * 560, 250 - k * 120
+        p.append(f'<path d="M {x + 16} {y} H {x + 504} Q {x + 520} {y} {x + 520} {y + 16} V {y + 104} Q {x + 520} {y + 120} {x + 504} {y + 120} H {x + 70} L {x + 30} {y + 150} L {x + 40} {y + 120} H {x + 16} Q {x} {y + 120} {x} {y + 104} V {y + 16} Q {x} {y} {x + 16} {y} Z" fill="{fundo}" stroke="{cor}" stroke-width="3"/>')
+        rs.append(rot(x + 22, y + 16, q, w=480, tam=25, cor=cor, peso=700, serif=True, lh=1.2))
+        rs.append(rot(x + 80, y + 126 if k == 0 else y + 126, d, w=440, tam=21, cor=TINTA, peso=600))
+    return slide("mensagens", 400, p, rs, eyebrow="Três mensagens no mesmo dia", titulo="Uma escada de três decisões")
+
+
+def leituras_68():
+    """6.8: a janela aberta riscada, e os fatores de carga que explicam quem adoece."""
+    p = [svg_abre(1664, 380, "À esquerda, a leitura antiga, riscada: o esforço intenso suprime a imunidade, o atleta fica vulnerável por horas, e a solução vira suplemento. À direita, a leitura atual: a queda de linfócitos depois do esforço é redistribuição; treino regular melhora a imunidade; a doença acompanha carga mal gerida, sono, energia e viagem; e a solução é gestão"), defs(OXID)]
+    rs = []
+    p.append(caixa(0, 0, 640, 380, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(24, 18, "A leitura antiga: a janela aberta", w=590, tam=26, cor=FOSF, peso=700, serif=True))
+    for k, t in enumerate(["esforço intenso suprime a imunidade", "o atleta fica vulnerável por horas", "a solução vira suplemento"]):
+        y = 100 + k * 76
+        rs.append(rot(24, y, t, w=590, tam=24, cor=TINTA))
+        p.append(f'<line x1="24" y1="{y + 15}" x2="{24 + len(t) * 11.5:.0f}" y2="{y + 15}" stroke="{FOSF}" stroke-width="2"/>')
+    p.append(caixa(700, 0, 964, 380, OXID, OXID_T, esp=2, rx=16))
+    rs += [rot(724, 18, "A leitura atual: gestão de carga", w=900, tam=26, cor=OXID, peso=700, serif=True),
+           rot(724, 72, "a queda de linfócitos é redistribuição; treino regular melhora a imunidade", w=900, tam=22, cor=TINTA, lh=1.3)]
+    fat = [("t:barbell", "carga mal gerida"), ("t:moon", "sono"), ("t:salad", "energia"), ("t:plane", "viagem")]
+    for k, (ic, t) in enumerate(fat):
+        x = 724 + k * 166
+        p.append(caixa(x, 160, 150, 120, OXID, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, x + 51, 174, 48, OXID))
+        rs.append(rot(x + 6, 232, t, w=138, tam=19, cor=TINTA, peso=600, alinha="center", lh=1.15))
+    p.append(caixa(1390, 150, 250, 210, TINTA, TINTA, esp=0, rx=14))
+    rs += [rot(1400, 190, "a doença acompanha", w=230, tam=20, cor=PAPEL, alinha="center"), rot(1400, 240, "a solução é gestão", w=230, tam=26, cor=PAPEL, peso=700, alinha="center", serif=True, lh=1.15)]
+    return slide("leituras", 380, p, rs, eyebrow="Antes das decisões", titulo="Janela aberta ou gestão de carga",
+                 destaque="Quem adoece três, quatro vezes por temporada quase nunca tem problema imunológico. Tem problema de planejamento.",
+                 destaque_cor="tinta", fonte="Revisão de 2018, Front Immunol · Consenso do COI, Br J Sports Med 2016")
+
+
+def pescoco_68():
+    """6.8: a silhueta com a linha no pescoço: acima, treino leve; abaixo, não treina."""
+    p = [svg_abre(1664, 400, "No centro, uma silhueta com uma linha tracejada na altura do pescoço. Acima do pescoço e sem febre, à esquerda: coriza, espirro, nariz entupido, dor de garganta leve; treino leve a moderado, com reavaliação no dia seguinte. Abaixo do pescoço, à direita: febre, calafrio, tosse produtiva, aperto no peito, falta de ar, dor muscular difusa, vômito, diarreia; não treina")]
+    rs = []
+    p.append(icone("h:person", 682, 20, 300, MUDO))
+    p.append(f'<line x1="560" y1="118" x2="1104" y2="118" stroke="{TINTA}" stroke-width="4"{TRACO}/>')
+    rs.append(rot(712, 0, "o pescoço", w=240, tam=20, cor=TINTA, peso=700, alinha="center"))
+    p.append(caixa(0, 0, 540, 236, OXID, OXID_T, esp=2, rx=16))
+    rs += [rot(24, 16, "Acima do pescoço, sem febre", w=500, tam=25, cor=OXID, peso=700, serif=True),
+           rot(24, 66, "coriza, espirro, nariz entupido; dor de garganta leve", w=490, tam=22, cor=TINTA, lh=1.3)]
+    p.append(caixa(24, 150, 492, 70, OXID, OXID, esp=0, rx=35))
+    rs.append(rot(34, 162, "treino leve a moderado; reavalia no dia seguinte", w=472, tam=20, cor=PAPEL, peso=700, alinha="center", lh=1.2))
+    p.append(caixa(1124, 140, 540, 260, FOSF, FOSF_T, esp=2, rx=16))
+    rs += [rot(1148, 156, "Abaixo do pescoço", w=500, tam=25, cor=FOSF, peso=700, serif=True),
+           rot(1148, 204, "febre, calafrio, tosse produtiva; aperto no peito, falta de ar; dor muscular difusa, vômito, diarreia", w=490, tam=21, cor=TINTA, lh=1.3)]
+    p.append(caixa(1148, 320, 492, 64, FOSF, FOSF, esp=0, rx=32))
+    rs.append(rot(1158, 338, "não treina", w=472, tam=24, cor=PAPEL, peso=700, alinha="center"))
+    return slide("pescoco", 400, p, rs, eyebrow="A mensagem da sexta", titulo="O teste do pescoço",
+                 destaque="Pragmática e útil, sem ensaio de alta qualidade por trás. Leve é leve de verdade, a decisão de sexta não vale para sábado, e um sintoma de baixo basta.",
+                 destaque_cor="ambar")
+
+
+def excecoes_68():
+    """6.8: o teste do pescoço suspenso por três exceções."""
+    p = [svg_abre(1664, 360, "À esquerda, o teste do pescoço, em cinza: não vale quando aparece uma das três exceções. À direita, as exceções que mandam parar e avaliar, onde quer que esteja o sintoma: qualquer febre, a linha vermelha da aula; sintoma cardiopulmonar, como dor no peito, palpitação, falta de ar desproporcional ou tontura no esforço; e doença transmissível na equipe, porque vestiário, ônibus e alojamento espalham, e afastar protege o grupo"), defs(FOSF)]
+    rs = []
+    p.append(caixa(0, 60, 400, 240, MUDO, PAPEL, esp=2, rx=16))
+    p.append(icone("h:person", 140, 80, 120, MUDO))
+    p.append(f'<line x1="40" y1="128" x2="360" y2="128" stroke="{MUDO}" stroke-width="3"{TRACO}/>')
+    rs += [rot(20, 216, "o teste do pescoço", w=360, tam=24, cor=TINTA, peso=700, alinha="center"),
+           rot(20, 252, "não vale quando:", w=360, tam=21, cor=FOSF, peso=700, alinha="center")]
+    p.append(seta(410, 180, 470, 180, FOSF, "m0", esp=4))
+    itens = [("t:temperature", "Qualquer febre", "é a linha vermelha da aula", FOSF, FOSF_T),
+             ("t:heartbeat", "Sintoma cardiopulmonar", "dor no peito, palpitação, falta de ar desproporcional, tontura no esforço", FOSF, FOSF_T),
+             ("t:users-group", "Doença transmissível na equipe", "vestiário, ônibus e alojamento: afastar protege o grupo", GLIC, GLIC_T)]
+    for k, (ic, t, d, cor, fundo) in enumerate(itens):
+        y = k * 122
+        p.append(caixa(490, y, 1174, 110, cor, fundo, esp=2, rx=14))
+        p.append(icone(ic, 512, y + 28, 52, cor))
+        rs += [rot(588, y + 14, t, w=1050, tam=25, cor=cor, peso=700, serif=True), rot(588, y + 58, d, w=1050, tam=21, cor=TINTA)]
+    return slide("excecoes", 360, p, rs, eyebrow="Quando o teste do pescoço não vale", titulo="Parar e avaliar, onde quer que esteja o sintoma")
+
+
+def febre_68():
+    """6.8: a febre no centro e os quatro motivos que saem dela."""
+    p = [svg_abre(1664, 380, "No centro, a febre. Saem dela quatro motivos para não treinar. O coração: a miocardite está entre as causas de morte súbita em atletas jovens. O calor: a febre já desloca o termostato, e o exercício soma calor. Água e eletrólitos: febre, suor e vômito fazem o treino começar em déficit. O rendimento: força e resistência caem, e o treino prolonga a doença")]
+    rs = []
+    p.append(f'<circle cx="832" cy="190" r="130" fill="{FOSF}"/>')
+    p.append(icone("t:temperature", 792, 90, 80, PAPEL))
+    rs.append(rot(712, 186, "com febre, não se treina", w=240, tam=24, cor=PAPEL, peso=700, alinha="center", serif=True, lh=1.15))
+    itens = [((0, 0), "t:heart", "O coração", "miocardite está entre as causas de morte súbita em atletas jovens", FOSF),
+             ((1104, 0), "t:flame", "O calor", "febre já desloca o termostato; o exercício soma calor", GLIC),
+             ((0, 200), "t:droplet", "Água e eletrólitos", "febre, suor, vômito: começa o treino em déficit", GLIC),
+             ((1104, 200), "t:trending-down", "O rendimento", "força e resistência caem; o treino prolonga a doença", OXID)]
+    for (x, y), ic, t, d, cor in itens:
+        p.append(caixa(x, y, 560, 180, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 22, y + 22, 48, cor))
+        rs += [rot(x + 86, y + 28, t, w=450, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, y + 90, d, w=510, tam=22, cor=TINTA, lh=1.3)]
+        p.append(f'<line x1="{x + 560 if x == 0 else x}" y1="{y + 90}" x2="{832 + (-120 if x == 0 else 120)}" y2="{190 + (-50 if y == 0 else 50)}" stroke="{BORDA}" stroke-width="3"/>')
+    return slide("febre", 380, p, rs, eyebrow="A linha vermelha", titulo="Com febre, não se treina",
+                 destaque="Um dia de treino perdido não muda uma temporada. Uma miocardite muda uma vida.", destaque_cor="tinta")
+
+
+def degraus_68():
+    """6.8: a porta de entrada e os quatro degraus da volta depois da doença."""
+    p = [svg_abre(1664, 400, "Uma porta de entrada e quatro degraus. Antes de começar: 24 horas sem febre e sem antitérmico, sem dor difusa, comendo, bebendo e dormindo. Degrau um: atividade leve e curta, sem estímulo intenso. Degrau dois: volume habitual, intensidade reduzida. Degrau três: volta dos estímulos de intensidade. Degrau quatro: treino completo e competição. Uma regra prática: cerca de um dia de retomada para cada dia de doença sistêmica")]
+    rs = []
+    p.append(caixa(0, 0, 420, 400, FOSF, FOSF_T, esp=2, rx=16))
+    p.append(icone("t:lock-open", 24, 22, 44, FOSF))
+    rs += [rot(80, 28, "Antes de começar", w=320, tam=25, cor=FOSF, peso=700, serif=True)]
+    for k, t in enumerate(["24 h sem febre e sem antitérmico", "sem dor difusa", "comendo, bebendo, dormindo"]):
+        y = 100 + k * 76
+        p.append(icone("t:check", 24, y, 34, FOSF))
+        rs.append(rot(70, y + 2, t, w=330, tam=22, cor=TINTA, lh=1.25))
+    rs.append(rot(24, 336, "≈ 1 dia de retomada por dia de doença sistêmica", w=380, tam=19, cor=FOSF, peso=700, lh=1.25))
+    degraus = ["atividade leve e curta, sem estímulo intenso", "volume habitual, intensidade reduzida", "volta dos estímulos de intensidade", "treino completo e competição"]
+    for k, t in enumerate(degraus):
+        x, w = 460 + k * 302, 290
+        y = 280 - k * 80
+        cor = OXID if k < 3 else TINTA
+        p.append(f'<rect x="{x}" y="{y}" width="{w}" height="{400 - y}" rx="8" fill="{CARTAO}" stroke="{cor}" stroke-width="3"/>')
+        p.append(f'<rect x="{x}" y="{y}" width="{w}" height="12" rx="4" fill="{cor}"/>')
+        rs += [rot(x + 14, y + 20, f"Degrau {k + 1}", w=w - 28, tam=24, cor=cor, peso=700, serif=True), rot(x + 14, y + 58, t, w=w - 28, tam=20, cor=TINTA, lh=1.25)]
+    return slide("degraus", 400, p, rs, eyebrow="A mensagem da corredora", titulo="Não é sim nem não: é assim",
+                 destaque="Prática, não evidência forte: cerca de um dia de retomada para cada dia de doença sistêmica.", destaque_cor="ambar")
+
+
+def sinais_68():
+    """6.8: quatro sinais cardiopulmonares e dois de carga, com a frequência alta para a mesma carga em gráfico."""
+    p = [svg_abre(1664, 380, "Seis sinais que interrompem a volta. Quatro cardiopulmonares: dor ou aperto no peito, falta de ar desproporcional, palpitação, tontura ou desmaio. Dois na mão da preparação física: frequência cardíaca alta para a mesma carga, desenhada como duas linhas, antes e depois, com a mesma carga e frequência maior; e fadiga que não cede, mesmo com dias fáceis")]
+    rs = []
+    for k, (ic, t) in enumerate([("t:heart-broken", "Dor ou aperto no peito"), ("h:lungs", "Falta de ar desproporcional"), ("t:heartbeat", "Palpitação"), ("t:spiral", "Tontura ou desmaio")]):
+        col, lin = k % 2, k // 2
+        x, y = col * 420, lin * 196
+        p.append(caixa(x, y, 400, 180, FOSF, FOSF_T, esp=2, rx=16))
+        p.append(icone(ic, x + 24, y + 24, 52, FOSF))
+        rs.append(rot(x + 24, y + 100, t, w=352, tam=24, cor=FOSF, peso=700, lh=1.2))
+    p.append(caixa(860, 0, 804, 240, GLIC, CARTAO, esp=2, rx=16))
+    rs += [rot(884, 16, "FC alta para a mesma carga", w=500, tam=24, cor=GLIC, peso=700), rot(884, 54, "dado clínico na mão da preparação física", w=500, tam=20, cor=TINTA)]
+    X0, Y0 = 900, 220
+    p.append(f'<line x1="{X0}" y1="{Y0}" x2="{X0 + 700}" y2="{Y0}" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<path d="M {X0} 200 L {X0 + 700} 120" stroke="{CINZA}" stroke-width="5" fill="none"/>')
+    p.append(f'<path d="M {X0} 170 L {X0 + 700} 92" stroke="{GLIC}" stroke-width="5" fill="none"/>')
+    rs += [rot(1440, 128, "antes", w=150, tam=18, cor=MUDO, alinha="right"), rot(1440, 66, "depois da infecção", w=210, tam=18, cor=GLIC, peso=700, alinha="right"),
+           rot(X0, Y0 + 2, "carga →", w=300, tam=16, cor=MUDO), rot(1400, Y0 + 2, "esquema", w=200, tam=16, cor=MUDO, alinha="right")]
+    p.append(caixa(860, 256, 804, 124, GLIC, CARTAO, esp=2, rx=16))
+    p.append(icone("t:battery-1", 884, 290, 52, GLIC))
+    rs += [rot(956, 278, "Fadiga que não cede", w=680, tam=24, cor=GLIC, peso=700), rot(956, 318, "mesmo com dias fáceis", w=680, tam=21, cor=TINTA)]
+    return slide("sinais", 380, p, rs, eyebrow="A lista que precisa estar decorada", titulo="Sinais que interrompem a volta",
+                 destaque="Depois de infecção, isso não é destreino. É motivo para parar e investigar o miocárdio.", destaque_cor="verm")
+
+
+def medica_68():
+    """6.8: três situações que saem da comissão, com o que cada uma exige."""
+    p = [svg_abre(1664, 380, "Três situações que saem das mãos da comissão. Miocardite: abstenção, e retorno considerado em três a seis meses, com eletrocardiograma, Holter, teste de esforço e ressonância. Mononucleose: baço aumentado; fora do contato e do esforço vigoroso por semanas. Sintoma cardiopulmonar, como dor, falta de ar, palpitação ou síncope: não volta sem avaliação")]
+    rs = []
+    p.append(caixa(0, 0, 760, 380, FOSF, FOSF_T, esp=2, rx=16))
+    p.append(icone("t:heart", 24, 22, 48, FOSF))
+    rs += [rot(88, 28, "Miocardite", w=640, tam=28, cor=FOSF, peso=700, serif=True),
+           rot(24, 96, "abstenção; retorno considerado em", w=700, tam=22, cor=TINTA),
+           rot(24, 130, "3 a 6 meses", w=700, tam=48, cor=FOSF, peso=700, serif=True),
+           rot(24, 214, "com os exames:", w=700, tam=20, cor=MUDO, peso=700)]
+    for k, t in enumerate(["ECG", "Holter", "teste de esforço", "ressonância"]):
+        x = 24 + [0, 120, 260, 480][k]
+        w = [104, 124, 204, 190][k]
+        p.append(caixa(x, 260, w, 56, FOSF, CARTAO, esp=2, rx=28))
+        rs.append(rot(x, 275, t, w=w, tam=20, cor=TINTA, peso=600, alinha="center"))
+    p.append(caixa(800, 0, 864, 180, GLIC, GLIC_T, esp=2, rx=16))
+    p.append(icone("t:shield", 824, 22, 48, GLIC))
+    rs += [rot(888, 28, "Mononucleose", w=740, tam=28, cor=GLIC, peso=700, serif=True),
+           rot(824, 96, "baço aumentado: fora do contato e do esforço vigoroso por semanas", w=800, tam=22, cor=TINTA, lh=1.3)]
+    p.append(caixa(800, 200, 864, 180, FOSF, CARTAO, esp=2, rx=16))
+    p.append(icone("t:stethoscope", 824, 222, 48, FOSF))
+    rs += [rot(888, 228, "Sintoma cardiopulmonar", w=740, tam=28, cor=FOSF, peso=700, serif=True),
+           rot(824, 296, "dor, falta de ar, palpitação, síncope: não volta sem avaliação", w=800, tam=22, cor=TINTA, lh=1.3)]
+    return slide("medica", 380, p, rs, eyebrow="A terceira mensagem", titulo="Quando o assunto sai da comissão",
+                 destaque="“Estou ótimo” não é critério. Quem tem miocardite em resolução se sente bem em repouso; o risco aparece no esforço.",
+                 destaque_cor="tinta", fonte="Diretrizes europeias de cardiologia do esporte, Eur Heart J 2021")
+
+
+def rastreio_68():
+    """6.8: cem quadrados, menos de um aceso, e o sintoma como critério."""
+    p = [svg_abre(1664, 360, "À esquerda, 3.018 atletas universitários rastreados depois da infecção. No meio, uma grade de cem quadrados com menos de um aceso: menos de um por cento teve acometimento cardíaco provável ou definido. À direita, o critério para investigar: sintoma cardiopulmonar e gravidade da doença"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 60, 380, 240, TINTA, CARTAO, esp=2, rx=16))
+    rs += [rot(0, 96, "3.018", w=380, tam=64, cor=TINTA, peso=700, alinha="center", serif=True),
+           rot(20, 196, "atletas universitários rastreados depois da infecção", w=340, tam=21, cor=TINTA, alinha="center", lh=1.3)]
+    X0 = 460
+    for k in range(100):
+        col, lin = k % 10, k // 10
+        x, y = X0 + col * 34, 10 + lin * 34
+        cor = FOSF if k == 0 else CINZA
+        if k == 0:
+            p.append(f'<rect x="{x}" y="{y}" width="14" height="28" rx="3" fill="{cor}"/>')
+            p.append(f'<rect x="{x}" y="{y}" width="28" height="28" rx="3" fill="none" stroke="{FOSF}" stroke-width="2"/>')
+        else:
+            p.append(f'<rect x="{x}" y="{y}" width="28" height="28" rx="3" fill="{cor}"/>')
+    rs.append(rot(X0 + 360, 20, "< 1%", w=300, tam=56, cor=OXID, peso=700, serif=True))
+    rs.append(rot(X0 + 360, 100, "com acometimento cardíaco provável ou definido", w=330, tam=21, cor=TINTA, lh=1.3))
+    rs.append(rot(X0, 346 - 4, "cada quadrado: 1% dos rastreados", w=400, tam=16, cor=MUDO))
+    p.append(caixa(1220, 60, 444, 240, FOSF, FOSF_T, esp=2, rx=16))
+    rs += [rot(1244, 80, "O critério para investigar", w=400, tam=24, cor=FOSF, peso=700, serif=True),
+           rot(1244, 140, "sintoma cardiopulmonar e gravidade da doença", w=400, tam=24, cor=TINTA, peso=600, lh=1.3)]
+    return slide("rastreio", 360, p, rs, eyebrow="O dado que ensina a lógica", titulo="Escalar por sintoma, não rastrear todo mundo",
+                 destaque="Rastrear todos com imagem avançada gera mais falso-positivo e afastamento desnecessário que benefício. A minoria real se acha pelo sintoma.",
+                 destaque_cor="tinta", fonte="Registro americano ORCCA, Circulation 2021")
+
+
+def prevencao_68():
+    """6.8: as seis frentes de gestão e o risco relativo da vitamina C, com a linha do efeito nulo."""
+    p = [svg_abre(1664, 380, "À esquerda, as seis frentes de prevenção em equipe: sono, energia, carga, vacina, higiene de vestiário e viagem. À direita, o risco relativo de resfriado com vitamina C numa régua de zero a um e meio, com a linha do efeito nulo em um. Na população geral, 0,97: praticamente nada. Só em estresse físico extremo, como maratona, esqui ou frio subártico, 0,48, um achado de subgrupo")]
+    rs = []
+    for k, (ic, t) in enumerate([("t:moon", "sono"), ("t:salad", "energia"), ("t:barbell", "carga"), ("t:shield-check", "vacina"), ("t:droplet", "higiene de vestiário"), ("t:plane", "viagem")]):
+        col, lin = k % 3, k // 3
+        x, y = col * 236, lin * 190
+        p.append(caixa(x, y, 220, 174, OXID, OXID_T, esp=2, rx=16))
+        p.append(icone(ic, x + 82, y + 22, 56, OXID))
+        rs.append(rot(x + 10, y + 100, t, w=200, tam=21, cor=TINTA, peso=700, alinha="center", lh=1.2))
+    X0, X1 = 1040, 1640
+    fx = lambda v: X0 + v / 1.5 * (X1 - X0)
+    p.append(f'<line x1="{X0}" y1="300" x2="{X1}" y2="300" stroke="{MUDO}" stroke-width="3"/>')
+    for v in (0, 0.5, 1, 1.5):
+        p.append(f'<line x1="{fx(v):.0f}" y1="300" x2="{fx(v):.0f}" y2="312" stroke="{MUDO}" stroke-width="2"/>')
+        rs.append(rot(fx(v) - 40, 318, f"{v}".replace(".", ","), w=80, tam=18, cor=MUDO, alinha="center"))
+    p.append(f'<line x1="{fx(1):.0f}" y1="40" x2="{fx(1):.0f}" y2="300" stroke="{TINTA}" stroke-width="2"{TRACO}/>')
+    rs.append(rot(fx(1) + 10, 30, "efeito nulo", w=200, tam=18, cor=TINTA))
+    for y, v, t, cor in [(110, 0.97, "população geral: 0,97", TINTA), (220, 0.48, "estresse físico extremo: 0,48", GLIC)]:
+        p.append(f'<circle cx="{fx(v):.0f}" cy="{y}" r="14" fill="{cor}"/>')
+        p.append(f'<line x1="{X0}" y1="{y}" x2="{X1}" y2="{y}" stroke="{BORDA}" stroke-width="1"/>')
+        rs.append(rot(740, y - 14, t, w=290, tam=21, cor=cor, peso=700))
+    rs += [rot(X0, 346, "risco relativo de resfriado com vitamina C", w=600, tam=18, cor=MUDO),
+           rot(740, 246, "maratona, esqui, frio subártico", w=290, tam=18, cor=TINTA)]
+    return slide("prevencao", 380, p, rs, eyebrow="Prevenção em equipe", titulo="Gestão, não farmácia",
+                 destaque="Achado de subgrupo não é passe livre para vender vitamina C. A base não cabe num frasco.",
+                 destaque_cor="verm", fonte="Revisão Cochrane de vitamina C e resfriado, 2013")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, sintomas_61, historia_61, perfis_61, tres_saidas_61, registro_61],
@@ -1847,7 +2086,8 @@ LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, s
           "06-04": [frases_64, desfechos_64, frequencia_64, causa_64, quem_64, rastreio_64, consequencias_64, reconhecer_64, desfibrilador_64, correcoes_64],
           "06-05": [cena_65, mapa_65, folha_65, dea_65, comprimir_65, erros_65, chocar_65, depois_65, calor_65, outras_65, ensaio_65],
           "06-06": [frase_66, decisoes_66, equivocos_66, sinais_66, retira_66, alarme_66, cultura_66, repouso_66, escola_66, escada_66, demora_66, prevencao_66],
-          "06-07": [perfis_67, numeros_67, mecanismo_67, prevalencia_67, diferenciais_67, laringe_67, camadas_67, aquecimento_67, doses_67, urina_67]}
+          "06-07": [perfis_67, numeros_67, mecanismo_67, prevalencia_67, diferenciais_67, laringe_67, camadas_67, aquecimento_67, doses_67, urina_67],
+          "06-08": [mensagens_68, leituras_68, pescoco_68, excecoes_68, febre_68, degraus_68, sinais_68, medica_68, rastreio_68, prevencao_68]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

@@ -26,277 +26,1259 @@
  "slides": [
   {
    "id": "mensagens",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três mensagens no mesmo dia, desenhadas como degraus. A primeira, garganta arranhando, treino hoje?, se decide à beira do treino. A segunda, a febre passou ontem, posso correr?, pede um plano de dias. A terceira, falaram em miocardite, mas estou ótimo, sai das mãos da comissão\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 16 250 H 504 Q 520 250 520 266 V 354 Q 520 370 504 370 H 70 L 30 400 L 40 370 H 16 Q 0 370 0 354 V 266 Q 0 250 16 250 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 576 130 H 1064 Q 1080 130 1080 146 V 234 Q 1080 250 1064 250 H 630 L 590 280 L 600 250 H 576 Q 560 250 560 234 V 146 Q 560 130 576 130 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 1136 10 H 1624 Q 1640 10 1640 26 V 114 Q 1640 130 1624 130 H 1190 L 1150 160 L 1160 130 H 1136 Q 1120 130 1120 114 V 26 Q 1120 10 1136 10 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 22,
+     "y": 266,
+     "w": 480,
+     "t": "“Garganta arranhando, treino hoje?”",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 376,
+     "w": 440,
+     "t": "decide-se à beira do treino",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 582,
+     "y": 146,
+     "w": 480,
+     "t": "“A febre passou ontem, posso correr?”",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 640,
+     "y": 256,
+     "w": 440,
+     "t": "pede um plano de dias",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1142,
+     "y": 26,
+     "w": 480,
+     "t": "“Falaram em miocardite, mas estou ótimo.”",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 136,
+     "w": 440,
+     "t": "sai das mãos da comissão",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Três mensagens no mesmo dia",
-   "frase": "“Garganta arranhando, treino hoje?” “A febre passou ontem, posso correr?” “Falaram em miocardite, mas estou ótimo.”",
-   "apoio": "Uma escada: a primeira se decide à beira do treino, a segunda pede um plano de dias, a terceira sai das mãos da comissão."
+   "titulo": "Uma escada de três decisões"
   },
   {
    "id": "leituras",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, a leitura antiga, riscada: o esforço intenso suprime a imunidade, o atleta fica vulnerável por horas, e a solução vira suplemento. À direita, a leitura atual: a queda de linfócitos depois do esforço é redistribuição; treino regular melhora a imunidade; a doença acompanha carga mal gerida, sono, energia e viagem; e a solução é gestão\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"640\" height=\"380\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"24\" y1=\"115\" x2=\"426\" y2=\"115\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"24\" y1=\"191\" x2=\"415\" y2=\"191\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"24\" y1=\"267\" x2=\"312\" y2=\"267\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"700\" y=\"0\" width=\"964\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"724\" y=\"160\" width=\"150\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(775.0 174.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"890\" y=\"160\" width=\"150\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(941.0 174.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><rect x=\"1056\" y=\"160\" width=\"150\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1107.0 174.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"1222\" y=\"160\" width=\"150\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1273.0 174.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z\"/></g><rect x=\"1390\" y=\"150\" width=\"250\" height=\"210\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 590,
+     "t": "A leitura antiga: a janela aberta",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 100,
+     "w": 590,
+     "t": "esforço intenso suprime a imunidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 176,
+     "w": 590,
+     "t": "o atleta fica vulnerável por horas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 252,
+     "w": 590,
+     "t": "a solução vira suplemento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 18,
+     "w": 900,
+     "t": "A leitura atual: gestão de carga",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 724,
+     "y": 72,
+     "w": 900,
+     "t": "a queda de linfócitos é redistribuição; treino regular melhora a imunidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 730,
+     "y": 232,
+     "w": 138,
+     "t": "carga mal gerida",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 896,
+     "y": 232,
+     "w": 138,
+     "t": "sono",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1062,
+     "y": 232,
+     "w": 138,
+     "t": "energia",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1228,
+     "y": 232,
+     "w": 138,
+     "t": "viagem",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1400,
+     "y": 190,
+     "w": 230,
+     "t": "a doença acompanha",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 240,
+     "w": 230,
+     "t": "a solução é gestão",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    }
+   ],
    "eyebrow": "Antes das decisões",
    "titulo": "Janela aberta ou gestão de carga",
-   "esq": {
-    "t": "A leitura antiga",
-    "cor": "verm",
-    "itens": [
-     "esforço intenso suprime a imunidade",
-     "o atleta fica vulnerável por horas",
-     "a solução vira suplemento"
-    ]
-   },
-   "dir": {
-    "t": "A leitura atual",
-    "cor": "petr",
-    "itens": [
-     "a queda de linfócitos é redistribuição",
-     "treino regular melhora a imunidade",
-     "doença acompanha carga mal gerida, sono, energia, viagem",
-     "a solução é gestão"
-    ]
-   },
    "destaque": "Quem adoece três, quatro vezes por temporada quase nunca tem problema imunológico. Tem problema de planejamento.",
    "destaque_cor": "tinta",
    "fonte": "Revisão de 2018, Front Immunol · Consenso do COI, Br J Sports Med 2016"
   },
   {
    "id": "pescoco",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"No centro, uma silhueta com uma linha tracejada na altura do pescoço. Acima do pescoço e sem febre, à esquerda: coriza, espirro, nariz entupido, dor de garganta leve; treino leve a moderado, com reavaliação no dia seguinte. Abaixo do pescoço, à direita: febre, calafrio, tosse produtiva, aperto no peito, falta de ar, dor muscular difusa, vômito, diarreia; não treina\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><g transform=\"translate(682.0 20.0) scale(6.2500)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"560\" y1=\"118\" x2=\"1104\" y2=\"118\" stroke=\"#12202E\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><rect x=\"0\" y=\"0\" width=\"540\" height=\"236\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"24\" y=\"150\" width=\"492\" height=\"70\" rx=\"35\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"1124\" y=\"140\" width=\"540\" height=\"260\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1148\" y=\"320\" width=\"492\" height=\"64\" rx=\"32\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 712,
+     "y": 0,
+     "w": 240,
+     "t": "o pescoço",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 16,
+     "w": 500,
+     "t": "Acima do pescoço, sem febre",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 66,
+     "w": 490,
+     "t": "coriza, espirro, nariz entupido; dor de garganta leve",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 34,
+     "y": 162,
+     "w": 472,
+     "t": "treino leve a moderado; reavalia no dia seguinte",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1148,
+     "y": 156,
+     "w": 500,
+     "t": "Abaixo do pescoço",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1148,
+     "y": 204,
+     "w": 490,
+     "t": "febre, calafrio, tosse produtiva; aperto no peito, falta de ar; dor muscular difusa, vômito, diarreia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1158,
+     "y": 338,
+     "w": 472,
+     "t": "não treina",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A mensagem da sexta",
    "titulo": "O teste do pescoço",
-   "esq": {
-    "t": "Acima do pescoço, sem febre",
-    "cor": "petr",
-    "itens": [
-     "coriza, espirro, nariz entupido",
-     "dor de garganta leve",
-     "treino leve a moderado",
-     "reavaliação no dia seguinte"
-    ]
-   },
-   "dir": {
-    "t": "Abaixo do pescoço",
-    "cor": "verm",
-    "itens": [
-     "febre, calafrio, tosse produtiva",
-     "aperto no peito, falta de ar",
-     "dor muscular difusa, vômito, diarreia",
-     "não treina"
-    ]
-   },
    "destaque": "Pragmática e útil, sem ensaio de alta qualidade por trás. Leve é leve de verdade, a decisão de sexta não vale para sábado, e um sintoma de baixo basta.",
    "destaque_cor": "ambar"
   },
   {
    "id": "excecoes",
-   "tipo": "lista",
-   "eyebrow": "Quando o teste do pescoço não vale",
-   "titulo": "Parar e avaliar, onde quer que esteja o sintoma",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, o teste do pescoço, em cinza: não vale quando aparece uma das três exceções. À direita, as exceções que mandam parar e avaliar, onde quer que esteja o sintoma: qualquer febre, a linha vermelha da aula; sintoma cardiopulmonar, como dor no peito, palpitação, falta de ar desproporcional ou tontura no esforço; e doença transmissível na equipe, porque vestiário, ônibus e alojamento espalham, e afastar protege o grupo\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"60\" width=\"400\" height=\"240\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(140.0 80.0) scale(2.5000)\"><g fill=\"#6B7A87\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><line x1=\"40\" y1=\"128\" x2=\"360\" y2=\"128\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><line x1=\"410\" y1=\"180\" x2=\"470\" y2=\"180\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"490\" y=\"0\" width=\"1174\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(512.0 28.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><rect x=\"490\" y=\"122\" width=\"1174\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(512.0 150.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><rect x=\"490\" y=\"244\" width=\"1174\" height=\"110\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(512.0 272.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1M15 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2 5h2a2 2 0 0 1 2 2v1M5 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 216,
+     "w": 360,
+     "t": "o teste do pescoço",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 252,
+     "w": 360,
+     "t": "não vale quando:",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 14,
+     "w": 1050,
      "t": "Qualquer febre",
-     "x": "é a linha vermelha da aula",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 58,
+     "w": 1050,
+     "t": "é a linha vermelha da aula",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 136,
+     "w": 1050,
      "t": "Sintoma cardiopulmonar",
-     "x": "dor no peito, palpitação, falta de ar desproporcional, tontura no esforço",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 180,
+     "w": 1050,
+     "t": "dor no peito, palpitação, falta de ar desproporcional, tontura no esforço",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 258,
+     "w": 1050,
      "t": "Doença transmissível na equipe",
-     "x": "vestiário, ônibus e alojamento: afastar protege o grupo",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 302,
+     "w": 1050,
+     "t": "vestiário, ônibus e alojamento: afastar protege o grupo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "Quando o teste do pescoço não vale",
+   "titulo": "Parar e avaliar, onde quer que esteja o sintoma"
   },
   {
    "id": "febre",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "A linha vermelha",
-   "titulo": "Com febre, não se treina",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"No centro, a febre. Saem dela quatro motivos para não treinar. O coração: a miocardite está entre as causas de morte súbita em atletas jovens. O calor: a febre já desloca o termostato, e o exercício soma calor. Água e eletrólitos: febre, suor e vômito fazem o treino começar em déficit. O rendimento: força e resistência caem, e o treino prolonga a doença\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><circle cx=\"832\" cy=\"190\" r=\"130\" fill=\"#A8322A\"/><g transform=\"translate(792.0 90.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><rect x=\"0\" y=\"0\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><line x1=\"560\" y1=\"90\" x2=\"712\" y2=\"140\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1104\" y=\"0\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1126.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><line x1=\"1104\" y1=\"90\" x2=\"952\" y2=\"140\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"0\" y=\"200\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(22.0 222.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><line x1=\"560\" y1=\"290\" x2=\"712\" y2=\"240\" stroke=\"#DDD8CC\" stroke-width=\"3\"/><rect x=\"1104\" y=\"200\" width=\"560\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1126.0 222.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><line x1=\"1104\" y1=\"290\" x2=\"952\" y2=\"240\" stroke=\"#DDD8CC\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 712,
+     "y": 186,
+     "w": 240,
+     "t": "com febre, não se treina",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 86,
+     "y": 28,
+     "w": 450,
      "t": "O coração",
-     "x": "miocardite está entre as causas de morte súbita em atletas jovens",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 90,
+     "w": 510,
+     "t": "miocardite está entre as causas de morte súbita em atletas jovens",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1190,
+     "y": 28,
+     "w": 450,
      "t": "O calor",
-     "x": "febre já desloca o termostato; o exercício soma calor",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1128,
+     "y": 90,
+     "w": 510,
+     "t": "febre já desloca o termostato; o exercício soma calor",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 86,
+     "y": 228,
+     "w": 450,
      "t": "Água e eletrólitos",
-     "x": "febre, suor, vômito: começa o treino em déficit",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 290,
+     "w": 510,
+     "t": "febre, suor, vômito: começa o treino em déficit",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1190,
+     "y": 228,
+     "w": 450,
      "t": "O rendimento",
-     "x": "força e resistência caem; o treino prolonga a doença",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1128,
+     "y": 290,
+     "w": 510,
+     "t": "força e resistência caem; o treino prolonga a doença",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "A linha vermelha",
+   "titulo": "Com febre, não se treina",
    "destaque": "Um dia de treino perdido não muda uma temporada. Uma miocardite muda uma vida.",
    "destaque_cor": "tinta"
   },
   {
    "id": "degraus",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma porta de entrada e quatro degraus. Antes de começar: 24 horas sem febre e sem antitérmico, sem dor difusa, comendo, bebendo e dormindo. Degrau um: atividade leve e curta, sem estímulo intenso. Degrau dois: volume habitual, intensidade reduzida. Degrau três: volta dos estímulos de intensidade. Degrau quatro: treino completo e competição. Uma regra prática: cerca de um dia de retomada para cada dia de doença sistêmica\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-3-5V6a4 4 0 0 1 8 0\"/></g></g><g transform=\"translate(24.0 100.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 176.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 252.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"460\" y=\"280\" width=\"290\" height=\"120\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"460\" y=\"280\" width=\"290\" height=\"12\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"762\" y=\"200\" width=\"290\" height=\"200\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"762\" y=\"200\" width=\"290\" height=\"12\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"1064\" y=\"120\" width=\"290\" height=\"280\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1064\" y=\"120\" width=\"290\" height=\"12\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"1366\" y=\"40\" width=\"290\" height=\"360\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1366\" y=\"40\" width=\"290\" height=\"12\" rx=\"4\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 28,
+     "w": 320,
+     "t": "Antes de começar",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 70,
+     "y": 102,
+     "w": 330,
+     "t": "24 h sem febre e sem antitérmico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 178,
+     "w": 330,
+     "t": "sem dor difusa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 254,
+     "w": 330,
+     "t": "comendo, bebendo, dormindo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 336,
+     "w": 380,
+     "t": "≈ 1 dia de retomada por dia de doença sistêmica",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 474,
+     "y": 300,
+     "w": 262,
+     "t": "Degrau 1",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 474,
+     "y": 338,
+     "w": 262,
+     "t": "atividade leve e curta, sem estímulo intenso",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 776,
+     "y": 220,
+     "w": 262,
+     "t": "Degrau 2",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 776,
+     "y": 258,
+     "w": 262,
+     "t": "volume habitual, intensidade reduzida",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1078,
+     "y": 140,
+     "w": 262,
+     "t": "Degrau 3",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1078,
+     "y": 178,
+     "w": 262,
+     "t": "volta dos estímulos de intensidade",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1380,
+     "y": 60,
+     "w": 262,
+     "t": "Degrau 4",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1380,
+     "y": 98,
+     "w": 262,
+     "t": "treino completo e competição",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A mensagem da corredora",
    "titulo": "Não é sim nem não: é assim",
-   "cab": [
-    "Etapa",
-    "O que se faz"
-   ],
-   "larguras": [
-    30,
-    70
-   ],
-   "linhas": [
-    [
-     "Antes de começar",
-     "24 h sem febre e sem antitérmico; sem dor difusa; comendo, bebendo, dormindo"
-    ],
-    [
-     "Degrau 1",
-     "atividade leve e curta, sem estímulo intenso"
-    ],
-    [
-     "Degrau 2",
-     "volume habitual, intensidade reduzida"
-    ],
-    [
-     "Degrau 3",
-     "volta dos estímulos de intensidade"
-    ],
-    [
-     "Degrau 4",
-     "treino completo e competição"
-    ]
-   ],
    "destaque": "Prática, não evidência forte: cerca de um dia de retomada para cada dia de doença sistêmica.",
    "destaque_cor": "ambar"
   },
   {
    "id": "sinais",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "A lista que precisa estar decorada",
-   "titulo": "Sinais que interrompem a volta",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Seis sinais que interrompem a volta. Quatro cardiopulmonares: dor ou aperto no peito, falta de ar desproporcional, palpitação, tontura ou desmaio. Dois na mão da preparação física: frequência cardíaca alta para a mesma carga, desenhada como duas linhas, antes e depois, com a mesma carga e frequência maior; e fadiga que não cede, mesmo com dias fáceis\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/><path d=\"m12 6l-2 4l4 3l-2 4v3\"/></g></g><rect x=\"420\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(444.0 24.0) scale(1.0833)\"><g fill=\"#A8322A\"><path d=\"M16.542 11.991c5.85.005 5.312 7.962 5.31 11.145c-.004 4.062.993 12.261-2.14 15.382c-3.194 3.18-9.577 4.767-12.766 2.112s2.15-28.645 9.596-28.639m14.941.012c-5.85-.005-5.325 7.953-5.328 11.136c-.003 4.063-1.014 12.26 2.115 15.386c3.188 3.186 9.569 4.782 12.762 2.133s-2.104-28.649-9.55-28.655\"/><path fill-rule=\"evenodd\" d=\"M23.018 6h2l-.012 14.494c-.002 2.101-.939 3.305-1.999 3.923a4.3 4.3 0 0 1-1.976.572h-.026v-2h-.01H21q.014 0 .051-.004a2.3 2.3 0 0 0 .95-.297c.44-.255 1.003-.799 1.005-2.196z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M25.018 6h-2l-.012 14.492c-.002 2.101.932 3.307 1.991 3.927a4.3 4.3 0 0 0 1.975.574H27l.002-1c0-1 .002-1 .002-1h.009h-.005l-.051-.003a2.3 2.3 0 0 1-.949-.298c-.44-.257-1.003-.801-1.001-2.198z\" clip-rule=\"evenodd\"/></g></g><rect x=\"0\" y=\"196\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 220.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><rect x=\"420\" y=\"196\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(444.0 220.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 12.057a1.9 1.9 0 0 0 .614.743c1.06.713 2.472.112 3.043-.919c.839-1.513-.022-3.368-1.525-4.08c-2-.95-4.371.154-5.24 2.086c-1.095 2.432.29 5.248 2.71 6.246c2.931 1.208 6.283-.418 7.438-3.255c1.36-3.343-.557-7.134-3.896-8.41c-3.855-1.474-8.2.68-9.636 4.422c-1.63 4.253.823 9.024 5.082 10.576c4.778 1.74 10.118-.941 11.833-5.59A9.4 9.4 0 0 0 21 11.063\"/></g><rect x=\"860\" y=\"0\" width=\"804\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"900\" y1=\"220\" x2=\"1600\" y2=\"220\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 900 200 L 1600 120\" stroke=\"#C9CFD4\" stroke-width=\"5\" fill=\"none\"/><path d=\"M 900 170 L 1600 92\" stroke=\"#B07A1C\" stroke-width=\"5\" fill=\"none\"/><rect x=\"860\" y=\"256\" width=\"804\" height=\"124\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(884.0 290.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 7h11a2 2 0 0 1 2 2v.5a.5.5 0 0 0 .5.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5a.5.5 0 0 0-.5.5v.5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2m1 3v4\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 100,
+     "w": 352,
      "t": "Dor ou aperto no peito",
-     "x": "",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
+     "x": 444,
+     "y": 100,
+     "w": 352,
      "t": "Falta de ar desproporcional",
-     "x": "",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
+     "x": 24,
+     "y": 296,
+     "w": 352,
      "t": "Palpitação",
-     "x": "",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
+     "x": 444,
+     "y": 296,
+     "w": 352,
      "t": "Tontura ou desmaio",
-     "x": "",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
+     "x": 884,
+     "y": 16,
+     "w": 500,
      "t": "FC alta para a mesma carga",
-     "x": "dado clínico na mão da preparação física",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 884,
+     "y": 54,
+     "w": 500,
+     "t": "dado clínico na mão da preparação física",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 128,
+     "w": 150,
+     "t": "antes",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 66,
+     "w": 210,
+     "t": "depois da infecção",
+     "tam": 18,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 222,
+     "w": 300,
+     "t": "carga →",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 222,
+     "w": 200,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 956,
+     "y": 278,
+     "w": 680,
      "t": "Fadiga que não cede",
-     "x": "mesmo com dias fáceis",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 956,
+     "y": 318,
+     "w": 680,
+     "t": "mesmo com dias fáceis",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "A lista que precisa estar decorada",
+   "titulo": "Sinais que interrompem a volta",
    "destaque": "Depois de infecção, isso não é destreino. É motivo para parar e investigar o miocárdio.",
    "destaque_cor": "verm"
   },
   {
    "id": "medica",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "A terceira mensagem",
-   "titulo": "Quando o assunto sai da comissão",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três situações que saem das mãos da comissão. Miocardite: abstenção, e retorno considerado em três a seis meses, com eletrocardiograma, Holter, teste de esforço e ressonância. Mononucleose: baço aumentado; fora do contato e do esforço vigoroso por semanas. Sintoma cardiopulmonar, como dor, falta de ar, palpitação ou síncope: não volta sem avaliação\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"380\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><rect x=\"24\" y=\"260\" width=\"104\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"144\" y=\"260\" width=\"124\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"284\" y=\"260\" width=\"204\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"504\" y=\"260\" width=\"190\" height=\"56\" rx=\"28\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"800\" y=\"0\" width=\"864\" height=\"180\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(824.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><rect x=\"800\" y=\"200\" width=\"864\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(824.0 222.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 88,
+     "y": 28,
+     "w": 640,
      "t": "Miocardite",
-     "x": "abstenção; retorno considerado em 3 a 6 meses, com ECG, Holter, teste de esforço e ressonância",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 96,
+     "w": 700,
+     "t": "abstenção; retorno considerado em",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 130,
+     "w": 700,
+     "t": "3 a 6 meses",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 214,
+     "w": 700,
+     "t": "com os exames:",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 275,
+     "w": 104,
+     "t": "ECG",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 144,
+     "y": 275,
+     "w": 124,
+     "t": "Holter",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 284,
+     "y": 275,
+     "w": 204,
+     "t": "teste de esforço",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 275,
+     "w": 190,
+     "t": "ressonância",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 28,
+     "w": 740,
      "t": "Mononucleose",
-     "x": "baço aumentado: fora do contato e do esforço vigoroso por semanas",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 824,
+     "y": 96,
+     "w": 800,
+     "t": "baço aumentado: fora do contato e do esforço vigoroso por semanas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 888,
+     "y": 228,
+     "w": 740,
      "t": "Sintoma cardiopulmonar",
-     "x": "dor, falta de ar, palpitação, síncope: não volta sem avaliação",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 824,
+     "y": 296,
+     "w": 800,
+     "t": "dor, falta de ar, palpitação, síncope: não volta sem avaliação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "A terceira mensagem",
+   "titulo": "Quando o assunto sai da comissão",
    "destaque": "“Estou ótimo” não é critério. Quem tem miocardite em resolução se sente bem em repouso; o risco aparece no esforço.",
    "destaque_cor": "tinta",
    "fonte": "Diretrizes europeias de cardiologia do esporte, Eur Heart J 2021"
   },
   {
    "id": "rastreio",
-   "tipo": "numeros",
-   "eyebrow": "O dado que ensina a lógica",
-   "titulo": "Escalar por sintoma, não rastrear todo mundo",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, 3.018 atletas universitários rastreados depois da infecção. No meio, uma grade de cem quadrados com menos de um aceso: menos de um por cento teve acometimento cardíaco provável ou definido. À direita, o critério para investigar: sintoma cardiopulmonar e gravidade da doença\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"60\" width=\"380\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"460\" y=\"10\" width=\"14\" height=\"28\" rx=\"3\" fill=\"#A8322A\"/><rect x=\"460\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"494\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"10\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"44\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"78\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"112\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"146\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"180\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"214\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"248\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"282\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"460\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"494\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"528\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"562\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"596\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"630\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"664\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"698\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"732\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"766\" y=\"316\" width=\"28\" height=\"28\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1220\" y=\"60\" width=\"444\" height=\"240\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
-     "n": "3.018",
-     "x": "atletas universitários rastreados depois da infecção",
-     "cor": "tinta"
+     "x": 0,
+     "y": 96,
+     "w": 380,
+     "t": "3.018",
+     "tam": 64,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "< 1%",
-     "x": "com acometimento cardíaco provável ou definido",
-     "cor": "petr"
+     "x": 20,
+     "y": 196,
+     "w": 340,
+     "t": "atletas universitários rastreados depois da infecção",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     },
     {
-     "n": "sintoma",
-     "x": "cardiopulmonar e gravidade: o critério para investigar",
-     "cor": "verm"
+     "x": 820,
+     "y": 20,
+     "w": 300,
+     "t": "< 1%",
+     "tam": 56,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 820,
+     "y": 100,
+     "w": 330,
+     "t": "com acometimento cardíaco provável ou definido",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 460,
+     "y": 342,
+     "w": 400,
+     "t": "cada quadrado: 1% dos rastreados",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1244,
+     "y": 80,
+     "w": 400,
+     "t": "O critério para investigar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1244,
+     "y": 140,
+     "w": 400,
+     "t": "sintoma cardiopulmonar e gravidade da doença",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "O dado que ensina a lógica",
+   "titulo": "Escalar por sintoma, não rastrear todo mundo",
    "destaque": "Rastrear todos com imagem avançada gera mais falso-positivo e afastamento desnecessário que benefício. A minoria real se acha pelo sintoma.",
    "destaque_cor": "tinta",
    "fonte": "Registro americano ORCCA, Circulation 2021"
   },
   {
    "id": "prevencao",
-   "tipo": "numeros",
-   "eyebrow": "Prevenção em equipe",
-   "titulo": "Gestão, não farmácia",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, as seis frentes de prevenção em equipe: sono, energia, carga, vacina, higiene de vestiário e viagem. À direita, o risco relativo de resfriado com vitamina C numa régua de zero a um e meio, com a linha do efeito nulo em um. Na população geral, 0,97: praticamente nada. Só em estresse físico extremo, como maratona, esqui ou frio subártico, 0,48, um achado de subgrupo\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"220\" height=\"174\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(82.0 22.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><rect x=\"236\" y=\"0\" width=\"220\" height=\"174\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(318.0 22.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"472\" y=\"0\" width=\"220\" height=\"174\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(554.0 22.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"0\" y=\"190\" width=\"220\" height=\"174\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(82.0 212.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M11.46 20.846A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3a12 12 0 0 0 8.5 3a12 12 0 0 1-.09 7.06M15 19l2 2l4-4\"/></g><rect x=\"236\" y=\"190\" width=\"220\" height=\"174\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(318.0 212.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"472\" y=\"190\" width=\"220\" height=\"174\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(554.0 212.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z\"/></g><line x1=\"1040\" y1=\"300\" x2=\"1640\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"1040\" y1=\"300\" x2=\"1040\" y2=\"312\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1240\" y1=\"300\" x2=\"1240\" y2=\"312\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1440\" y1=\"300\" x2=\"1440\" y2=\"312\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1640\" y1=\"300\" x2=\"1640\" y2=\"312\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1440\" y1=\"40\" x2=\"1440\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><circle cx=\"1428\" cy=\"110\" r=\"14\" fill=\"#12202E\"/><line x1=\"1040\" y1=\"110\" x2=\"1640\" y2=\"110\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><circle cx=\"1232\" cy=\"220\" r=\"14\" fill=\"#B07A1C\"/><line x1=\"1040\" y1=\"220\" x2=\"1640\" y2=\"220\" stroke=\"#DDD8CC\" stroke-width=\"1\"/></svg>",
+   "rotulos": [
     {
-     "n": "6 frentes",
-     "x": "sono, energia, carga, vacina, higiene de vestiário, viagem",
-     "cor": "petr"
+     "x": 10,
+     "y": 100,
+     "w": 200,
+     "t": "sono",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
-     "n": "RR 0,97",
-     "x": "vitamina C na população geral: praticamente nada",
-     "cor": "tinta"
+     "x": 246,
+     "y": 100,
+     "w": 200,
+     "t": "energia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
     },
     {
-     "n": "RR 0,48",
-     "x": "só em estresse físico extremo: maratona, esqui, frio subártico",
-     "cor": "ambar"
+     "x": 482,
+     "y": 100,
+     "w": 200,
+     "t": "carga",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 10,
+     "y": 290,
+     "w": 200,
+     "t": "vacina",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 246,
+     "y": 290,
+     "w": 200,
+     "t": "higiene de vestiário",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 482,
+     "y": 290,
+     "w": 200,
+     "t": "viagem",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1000,
+     "y": 318,
+     "w": 80,
+     "t": "0",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 318,
+     "w": 80,
+     "t": "0,5",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 318,
+     "w": 80,
+     "t": "1",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1600,
+     "y": 318,
+     "w": 80,
+     "t": "1,5",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1450,
+     "y": 30,
+     "w": 200,
+     "t": "efeito nulo",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 96,
+     "w": 290,
+     "t": "população geral: 0,97",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 206,
+     "w": 290,
+     "t": "estresse físico extremo: 0,48",
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 346,
+     "w": 600,
+     "t": "risco relativo de resfriado com vitamina C",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 246,
+     "w": 290,
+     "t": "maratona, esqui, frio subártico",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Prevenção em equipe",
+   "titulo": "Gestão, não farmácia",
    "destaque": "Achado de subgrupo não é passe livre para vender vitamina C. A base não cabe num frasco.",
    "destaque_cor": "verm",
    "fonte": "Revisão Cochrane de vitamina C e resfriado, 2013"
