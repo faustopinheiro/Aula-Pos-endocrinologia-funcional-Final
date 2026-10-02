@@ -120,6 +120,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Avaliação funcional em r
                     {"t": "Preparação e atleta", "x": "A carga de antes e as metas."}],
           "quem": "Próxima aula: as fases da reabilitação e os critérios de passagem."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-01")
+
 spec = {"arquivo": "aulas/MOD08/08-01-avaliacao-funcional-e-raciocinio-clinico.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Avaliação funcional em reabilitação", "subtitulo": "Cinco perguntas antes do primeiro exercício",
