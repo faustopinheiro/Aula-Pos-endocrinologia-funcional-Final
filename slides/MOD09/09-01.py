@@ -124,6 +124,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Princípios do treinamento
                     {"t": "Atleta", "x": "Conta a resposta do dia seguinte."}],
           "quem": "Próxima aula: modelos de periodização."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-01")
+
 spec = {"arquivo": "aulas/MOD09/09-01-principios-do-treinamento.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Princípios do treinamento", "subtitulo": "Cinco erros na aplicação do que todos sabem de cor",
