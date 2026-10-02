@@ -26,11 +26,117 @@
  "slides": [
   {
    "id": "paro",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"À esquerda, dois atletas fazem a mesma pergunta, eu paro?: uma nadadora adolescente com dor no ombro no meio da temporada, e um levantador com dor lombar desde o terra de segunda-feira. À direita, as duas respostas ruins, riscadas: para tudo até passar, que tira o atleta do esporte por semanas; e continua, é normal, que mantém a carga que produziu a dor\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"160\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"0\" y=\"180\" width=\"640\" height=\"160\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(24.0 204.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><path d=\"M 660 80 C 720 80, 720 170, 760 170 C 720 170, 720 260, 660 260\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"780\" y=\"120\" width=\"240\" height=\"100\" rx=\"50\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><rect x=\"1060\" y=\"0\" width=\"604\" height=\"160\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1084.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"1060\" y=\"180\" width=\"604\" height=\"160\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1084.0 204.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 108,
+     "y": 26,
+     "w": 510,
+     "t": "Nadadora adolescente",
+     "tam": 25,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 108,
+     "y": 70,
+     "w": 510,
+     "t": "dor no ombro no meio da temporada",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 108,
+     "y": 206,
+     "w": 510,
+     "t": "Levantador",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 108,
+     "y": 250,
+     "w": 510,
+     "t": "dor lombar desde o terra de segunda",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 148,
+     "w": 240,
+     "t": "“Eu paro?”",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1146,
+     "y": 28,
+     "w": 500,
+     "t": "“Para tudo até passar”",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1084,
+     "y": 90,
+     "w": 560,
+     "t": "tira do esporte por semanas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1146,
+     "y": 208,
+     "w": 500,
+     "t": "“Continua, é normal”",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1084,
+     "y": 270,
+     "w": 560,
+     "t": "mantém a carga que produziu a dor",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Na borda da piscina e no chão da academia",
-   "frase": "“Eu paro?” Uma decisão com três saídas, não com duas.",
-   "apoio": "Uma nadadora adolescente com dor no ombro no meio da temporada; um levantador com dor lombar desde o terra de segunda-feira. “Para tudo” e “continua, é normal” são as duas respostas ruins."
+   "titulo": "“Eu paro?” Uma decisão com três saídas, não com duas."
   },
   {
    "id": "portas",
@@ -113,238 +219,1048 @@
   },
   {
    "id": "alerta",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Dois painéis vermelhos de sinais de alerta. Ombro: perda súbita de força depois de trauma; sensação de que saiu do lugar; formigamento ou fraqueza descendo para a mão. Coluna: fraqueza ou dormência progredindo na perna; alteração urinária ou dormência na sela, que é emergência; dor noturna com febre, perda de peso ou câncer prévio. Embaixo, uma faixa: o adolescente com dor lombar que piora ao estender a coluna; lesão por estresse do arco vertebral entra na lista, avaliação médica antes do programa\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"280\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 78.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><g transform=\"translate(24.0 144.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><g transform=\"translate(24.0 210.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"844\" y=\"0\" width=\"820\" height=\"280\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(868.0 78.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6\"/><path d=\"m6 12l2-3l4-1l3 3l3 1\"/></g></g><g transform=\"translate(868.0 144.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(868.0 210.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><rect x=\"0\" y=\"304\" width=\"1664\" height=\"116\" rx=\"16\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(24.0 334.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 760,
+     "t": "Ombro",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 84,
+     "w": 720,
+     "t": "perda súbita de força depois de trauma",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 150,
+     "w": 720,
+     "t": "sensação de que saiu do lugar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 216,
+     "w": 720,
+     "t": "formigamento ou fraqueza descendo para a mão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 18,
+     "w": 760,
+     "t": "Coluna",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 84,
+     "w": 720,
+     "t": "fraqueza ou dormência progredindo na perna",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 150,
+     "w": 720,
+     "t": "alteração urinária ou dormência na sela: emergência",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 216,
+     "w": 720,
+     "t": "dor noturna com febre, perda de peso, câncer prévio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 322,
+     "w": 1540,
+     "t": "Adolescente com dor lombar que piora ao estender a coluna",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 364,
+     "w": 1540,
+     "t": "lesão por estresse do arco vertebral entra na lista: avaliação médica antes do programa",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Quando parar e avaliar",
-   "titulo": "Os sinais que tiram a decisão da piscina e da academia",
-   "esq": {
-    "t": "Ombro",
-    "cor": "verm",
-    "itens": [
-     "perda súbita de força depois de trauma",
-     "sensação de que saiu do lugar",
-     "formigamento ou fraqueza descendo para a mão"
-    ]
-   },
-   "dir": {
-    "t": "Coluna",
-    "cor": "verm",
-    "itens": [
-     "fraqueza ou dormência progredindo na perna",
-     "alteração urinária ou dormência na sela: emergência",
-     "dor noturna com febre, perda de peso, câncer prévio"
-    ]
-   },
-   "destaque": "E o adolescente com dor lombar que piora ao estender a coluna: lesão por estresse do arco vertebral entra na lista, avaliação médica antes do programa.",
-   "destaque_cor": "verm"
+   "titulo": "Os sinais que tiram a decisão da piscina e da academia"
   },
   {
    "id": "natacao",
-   "tipo": "numeros",
-   "eyebrow": "O ombro da nadadora",
-   "titulo": "Começa numa temporada, não numa braçada",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"À esquerda, 12 estudos com 1.460 nadadores de competição, das categorias de base aos masters, numa faixa de idade; os adolescentes estão marcados: mais dor no ombro, e nesse grupo o volume de treino se associou à dor. À direita, em esquema, uma temporada de quilômetros por semana com um salto grande e repentino, marcado: é ali que a dor costuma começar. Monitorar o ano inteiro\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"24\" y=\"120\" width=\"168\" height=\"90\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><g transform=\"translate(86.0 132.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"204\" y=\"120\" width=\"168\" height=\"90\" rx=\"10\" fill=\"#B07A1C\" opacity=\"1\"/><g transform=\"translate(266.0 132.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"384\" y=\"120\" width=\"168\" height=\"90\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><g transform=\"translate(446.0 132.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"564\" y=\"120\" width=\"168\" height=\"90\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><g transform=\"translate(626.0 132.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"820\" y=\"0\" width=\"844\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"860\" y=\"176\" width=\"48\" height=\"104\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"924\" y=\"171\" width=\"48\" height=\"109\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"988\" y=\"166\" width=\"48\" height=\"114\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"1052\" y=\"163\" width=\"48\" height=\"117\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"1116\" y=\"160\" width=\"48\" height=\"120\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"1180\" y=\"155\" width=\"48\" height=\"125\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"1244\" y=\"88\" width=\"48\" height=\"192\" rx=\"4\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"1308\" y=\"82\" width=\"48\" height=\"198\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"1372\" y=\"77\" width=\"48\" height=\"203\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"1436\" y=\"124\" width=\"48\" height=\"156\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"1500\" y=\"129\" width=\"48\" height=\"151\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><rect x=\"1564\" y=\"124\" width=\"48\" height=\"156\" rx=\"4\" fill=\"#B07A1C\" opacity=\"0.55\"/><line x1=\"844\" y1=\"280\" x2=\"1640\" y2=\"280\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1240.0 54.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
     {
-     "n": "12",
-     "x": "estudos reunidos em 2020",
-     "cor": "tinta"
+     "x": 24,
+     "y": 18,
+     "w": 720,
+     "t": "12 estudos · 1.460 nadadores",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "1.460",
-     "x": "nadadores de competição, da base aos masters",
-     "cor": "tinta"
+     "x": 24,
+     "y": 60,
+     "w": 720,
+     "t": "de competição, da base aos masters",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 180,
+     "w": 168,
+     "t": "base",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 204,
+     "y": 180,
+     "w": 168,
+     "t": "adolescentes",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 384,
+     "y": 180,
+     "w": 168,
+     "t": "adultos",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 564,
+     "y": 180,
+     "w": 168,
+     "t": "masters",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 236,
+     "w": 720,
+     "t": "adolescentes: mais dor no ombro",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 276,
+     "w": 720,
+     "t": "e, nesse grupo, o volume se associou à dor",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 18,
+     "w": 800,
+     "t": "km por semana numa temporada · esquema",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1288,
+     "y": 60,
+     "w": 340,
+     "t": "salto grande e repentino",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 300,
+     "w": 800,
+     "t": "monitorar o ano inteiro; evitar aumentos grandes e repentinos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     }
    ],
-   "destaque": "Os adolescentes tiveram mais dor no ombro, e nesse grupo o volume de treino se associou à dor. Monitorar o ano inteiro; evitar aumentos grandes e repentinos.",
-   "destaque_cor": "ambar",
+   "eyebrow": "O ombro da nadadora",
+   "titulo": "Começa numa temporada, não numa braçada",
    "fonte": "Revisão sistemática, J Athl Train 2020"
   },
   {
    "id": "mod_ombro",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Cinco alavancas desenhadas como controles deslizantes, com a posição de antes em cinza e a nova em cor. Volume: menos quilômetros por um período, sem zerar. Intensidade e estilo: tirar as séries mais fortes e o estilo que mais provoca. Material: o palmar grande costuma ser o primeiro a sair. Pernada: sobe, mantém o condicionamento com menos ombro. Em paralelo: fortalecimento progressivo do manguito e da escápula, subindo\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"300\" y=\"22\" width=\"320\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"588\" cy=\"27\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"476\" cy=\"27\" r=\"13\" fill=\"#3A6EA5\"/><rect x=\"300\" y=\"88\" width=\"320\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"572\" cy=\"93\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"460\" cy=\"93\" r=\"13\" fill=\"#3A6EA5\"/><rect x=\"300\" y=\"154\" width=\"320\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"588\" cy=\"159\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"332\" cy=\"159\" r=\"13\" fill=\"#3A6EA5\"/><rect x=\"300\" y=\"220\" width=\"320\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"428\" cy=\"225\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"572\" cy=\"225\" r=\"13\" fill=\"#008A7E\"/><rect x=\"300\" y=\"286\" width=\"320\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"396\" cy=\"291\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"556\" cy=\"291\" r=\"13\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 12,
+     "w": 280,
+     "t": "Volume",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 660,
+     "y": 12,
+     "w": 1004,
+     "t": "menos quilômetros por um período, sem zerar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 78,
+     "w": 280,
+     "t": "Intensidade e estilo",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 660,
+     "y": 78,
+     "w": 1004,
+     "t": "tirar as séries mais fortes e o estilo que mais provoca",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 144,
+     "w": 280,
+     "t": "Material",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 660,
+     "y": 144,
+     "w": 1004,
+     "t": "o palmar grande costuma ser o primeiro a sair",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 210,
+     "w": 280,
+     "t": "Pernada",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 660,
+     "y": 210,
+     "w": 1004,
+     "t": "mais pernas mantém o condicionamento com menos ombro",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 276,
+     "w": 280,
+     "t": "Em paralelo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 660,
+     "y": 276,
+     "w": 1004,
+     "t": "fortalecimento progressivo do manguito e da escápula",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 340,
+     "w": 320,
+     "t": "antes ○ · ● agora",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Modificar o ombro",
    "titulo": "Várias alavancas, a atleta na água",
-   "cab": [
-    "Alavanca",
-    "O que muda"
-   ],
-   "larguras": [
-    26,
-    74
-   ],
-   "linhas": [
-    [
-     "Volume",
-     "menos quilômetros por um período, sem zerar"
-    ],
-    [
-     "Intensidade e estilo",
-     "tirar as séries mais fortes e o estilo que mais provoca"
-    ],
-    [
-     "Material",
-     "o palmar grande costuma ser o primeiro a sair"
-    ],
-    [
-     "Pernada",
-     "mais pernas mantém o condicionamento com menos ombro"
-    ],
-    [
-     "Em paralelo",
-     "fortalecimento progressivo do manguito e da escápula"
-    ]
-   ],
    "destaque": "A modificação tira o pico; o fortalecimento aumenta a capacidade.",
    "destaque_cor": "tinta"
   },
   {
    "id": "cirurgia",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "E quando alguém propõe cirurgia",
-   "titulo": "Um ensaio com artroscopia sem descompressão",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Em esquema, sem valores, três barras de melhora. Descompressão e artroscopia sem retirar nada: iguais entre si, com um sinal de igual. Nenhum tratamento: um pouco atrás dos dois grupos operados, sem diferença clinicamente importante\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"40\" y=\"80\" width=\"220\" height=\"170\" rx=\"8\" fill=\"#B07A1C\"/><g transform=\"translate(126.0 100.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"600\" y=\"78\" width=\"220\" height=\"172\" rx=\"8\" fill=\"#B07A1C\"/><g transform=\"translate(686.0 98.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><rect x=\"1160\" y=\"110\" width=\"220\" height=\"140\" rx=\"8\" fill=\"#6B7A87\"/><g transform=\"translate(1246.0 130.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><line x1=\"0\" y1=\"250\" x2=\"1664\" y2=\"250\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 280,
+     "y": 80,
+     "w": 260,
      "t": "Descompressão",
-     "x": "melhorou um pouco mais que nada, sem diferença clinicamente importante",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 280,
+     "y": 150,
+     "w": 260,
+     "t": "melhorou um pouco mais que nada",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 78,
+     "w": 260,
      "t": "Artroscopia sem retirar nada",
-     "x": "o mesmo resultado da descompressão",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 840,
+     "y": 148,
+     "w": 260,
+     "t": "o mesmo resultado da descompressão",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 110,
+     "w": 260,
      "t": "Nenhum tratamento",
-     "x": "um pouco atrás dos dois grupos operados",
-     "cor": "tinta"
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1400,
+     "y": 180,
+     "w": 260,
+     "t": "um pouco atrás dos operados",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 40,
+     "w": 80,
+     "t": "=",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 266,
+     "w": 1664,
+     "t": "melhora da dor e da função · esquema, sem valores · diferença sem importância clínica",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "E quando alguém propõe cirurgia",
+   "titulo": "Um ensaio com artroscopia sem descompressão",
    "destaque": "Adultos com dor subacromial, não nadadores de competição; a decisão é do cirurgião com o paciente. Mas a carga bem conduzida segue como primeira linha.",
    "destaque_cor": "tinta",
    "fonte": "32 hospitais britânicos · Lancet 2018"
   },
   {
    "id": "meio",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Um mostrador em arco com três faixas: parar, estreita, à esquerda; modificar, a mais larga, no meio; manter, à direita. O ponteiro aponta para o meio. Modificar o suficiente para a dor baixar, e pouco o bastante para o atleta seguir treinando, condicionado e confiante\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><path d=\"M 542 370 A 290 290 0 0 1 592 218\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"56\"/><path d=\"M 603 201 A 290 290 0 0 1 1061 201\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"56\"/><path d=\"M 1072 218 A 290 290 0 0 1 1122 370\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"56\"/><line x1=\"832\" y1=\"380\" x2=\"832\" y2=\"160\" stroke=\"#12202E\" stroke-width=\"8\" stroke-linecap=\"round\"/><circle cx=\"832\" cy=\"380\" r=\"18\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 240,
+     "y": 346,
+     "w": 200,
+     "t": "parar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 682,
+     "y": 0,
+     "w": 300,
+     "t": "modificar",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1224,
+     "y": 346,
+     "w": 200,
+     "t": "manter",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 440,
+     "t": "o suficiente para a dor baixar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1224,
+     "y": 160,
+     "w": 440,
+     "t": "pouco o bastante para seguir treinando, condicionado e confiante",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "Parar tudo raramente é a resposta. Manter tudo também não.",
-   "apoio": "Modificar o suficiente para a dor baixar, e pouco o bastante para o atleta seguir treinando, condicionado e confiante."
+   "titulo": "Parar tudo raramente é a resposta. Manter tudo também não."
   },
   {
    "id": "flexao",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Duas perguntas que a revisão de 2020 fez sobre mais flexão lombar ao levantar. É fator de risco para a dor começar ou persistir? Não. Diferencia quem tem de quem não tem dor? Não. Ao lado, as ressalvas: evidência de baixa qualidade; a técnica segue importando para o desempenho\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"56\" width=\"820\" height=\"116\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(22.0 90.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><line x1=\"832\" y1=\"114\" x2=\"900\" y2=\"114\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"980\" cy=\"114\" r=\"56\" fill=\"#008A7E\"/><rect x=\"0\" y=\"196\" width=\"820\" height=\"116\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(22.0 230.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><line x1=\"832\" y1=\"254\" x2=\"900\" y2=\"254\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"980\" cy=\"254\" r=\"56\" fill=\"#008A7E\"/><rect x=\"1100\" y=\"56\" width=\"564\" height=\"256\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1124.0 84.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 4h16v2.172a2 2 0 0 1-.586 1.414L15 12v7l-6 2v-8.5L4.52 7.572A2 2 0 0 1 4 6.227z\"/></g><g transform=\"translate(1124.0 194.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1000,
+     "t": "mais flexão lombar ao levantar…",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 78,
+     "w": 700,
+     "t": "é fator de risco para a dor começar ou persistir?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 94,
+     "w": 112,
+     "t": "não",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 218,
+     "w": 700,
+     "t": "diferencia quem tem de quem não tem dor?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 234,
+     "w": 112,
+     "t": "não",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1184,
+     "y": 88,
+     "w": 460,
+     "t": "evidência de baixa qualidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 198,
+     "w": 460,
+     "t": "a técnica segue importando para o desempenho",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A coluna do levantador · o medo",
    "titulo": "“Você curvou a coluna e se machucou”",
-   "esq": {
-    "t": "O que a revisão de 2020 buscou",
-    "cor": "tinta",
-    "itens": [
-     "mais flexão lombar ao levantar",
-     "é fator de risco para a dor começar ou persistir?",
-     "diferencia quem tem de quem não tem dor?"
-    ]
-   },
-   "dir": {
-    "t": "O que encontrou",
-    "cor": "petr",
-    "itens": [
-     "não, nas duas perguntas",
-     "evidência de baixa qualidade",
-     "técnica segue importando para o desempenho"
-    ]
-   },
    "destaque": "A explicação não tem o peso que costuma ter, e alimenta um medo de mexer a coluna que atrapalha a recuperação.",
    "destaque_cor": "tinta",
    "fonte": "J Orthop Sports Phys Ther 2020"
   },
   {
    "id": "risco",
-   "tipo": "numeros",
-   "eyebrow": "O risco em perspectiva",
-   "titulo": "O medo costuma ser maior que o risco",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Mil horas de treino desenhadas como calendário: para quem levanta seis horas por semana, mais de três anos, em faixas de um ano. Nessas mil horas, entre 1 e 4,4 lesões no levantamento básico, marcadas como pontos. Embaixo, uma régua: risco parecido com outros esportes de força sem contato, e baixo perto dos de contato\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"120\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"142\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"164\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"186\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"208\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"230\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"252\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"274\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"296\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"318\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"340\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"362\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"384\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"406\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"428\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"450\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"472\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"494\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"516\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"538\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"560\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"582\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"604\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"626\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"648\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"670\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"692\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"714\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"736\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"758\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"780\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"802\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"824\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"846\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"868\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"890\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"912\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"934\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"956\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"978\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1000\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1022\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1044\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1066\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1088\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1110\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1132\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1154\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1176\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1198\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1220\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1242\" y=\"46\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"120\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"142\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"164\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"186\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"208\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"230\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"252\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"274\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"296\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"318\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"340\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"362\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"384\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"406\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"428\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"450\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"472\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"494\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"516\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"538\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"560\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"582\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"604\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"626\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"648\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"670\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"692\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"714\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"736\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"758\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"780\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"802\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"824\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"846\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"868\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"890\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"912\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"934\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"956\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"978\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1000\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1022\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1044\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1066\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1088\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1110\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1132\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1154\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1176\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1198\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1220\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1242\" y=\"96\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"120\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"142\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"164\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"186\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"208\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"230\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"252\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"274\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"296\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"318\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"340\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"362\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"384\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"406\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"428\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"450\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"472\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"494\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"516\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"538\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"560\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"582\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"604\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"626\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"648\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"670\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"692\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"714\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"736\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"758\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"780\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"802\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"824\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"846\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"868\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"890\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"912\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"934\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"956\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"978\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1000\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1022\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1044\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1066\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1088\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1110\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1132\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1154\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1176\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1198\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1220\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"1242\" y=\"146\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"120\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"142\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"164\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"186\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"208\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"230\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"252\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"274\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"296\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"318\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><rect x=\"340\" y=\"196\" width=\"18\" height=\"36\" rx=\"3\" fill=\"#008A7E\" opacity=\"0.35\"/><circle cx=\"437\" cy=\"64\" r=\"12\" fill=\"#A8322A\"/><circle cx=\"1009\" cy=\"114\" r=\"12\" fill=\"#A8322A\"/><circle cx=\"569\" cy=\"164\" r=\"12\" fill=\"#A8322A\"/><circle cx=\"305\" cy=\"214\" r=\"12\" fill=\"#A8322A\"/><rect x=\"1300\" y=\"46\" width=\"364\" height=\"186\" rx=\"16\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"120\" y=\"270\" width=\"1544\" height=\"20\" rx=\"10\" fill=\"#C9CFD4\" opacity=\"0.5\"/><rect x=\"120\" y=\"270\" width=\"540\" height=\"20\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"1220\" y=\"270\" width=\"444\" height=\"20\" rx=\"10\" fill=\"#A8322A\" opacity=\"0.7\"/></svg>",
+   "rotulos": [
     {
-     "n": "1 a 4,4",
-     "x": "lesões por mil horas de treino no levantamento básico",
-     "cor": "petr"
+     "x": 0,
+     "y": 0,
+     "w": 1100,
+     "t": "mil horas de treino, a seis horas por semana",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "> 3 anos",
-     "x": "é quanto duram mil horas para quem levanta seis horas por semana",
-     "cor": "tinta"
+     "x": 0,
+     "y": 52,
+     "w": 100,
+     "t": "1º ano",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 102,
+     "w": 100,
+     "t": "2º ano",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 152,
+     "w": 100,
+     "t": "3º ano",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 202,
+     "w": 100,
+     "t": "4º ano",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 70,
+     "w": 364,
+     "t": "1 a 4,4",
+     "tam": 46,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1316,
+     "y": 140,
+     "w": 332,
+     "t": "lesões em mil horas no levantamento básico",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 120,
+     "y": 300,
+     "w": 700,
+     "t": "força sem contato: parecido",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 300,
+     "w": 600,
+     "t": "esportes de contato: mais alto",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
-   "destaque": "Risco parecido com outros esportes de força sem contato, e baixo perto dos de contato.",
-   "destaque_cor": "tinta",
-   "fonte": "Revisão sistemática, Br J Sports Med 2017 · conta feita em aula"
+   "eyebrow": "O risco em perspectiva",
+   "titulo": "O medo costuma ser maior que o risco",
+   "fonte": "Revisão sistemática, Br J Sports Med 2017 · a conta dos três anos é nossa"
   },
   {
    "id": "mod_coluna",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Cinco alavancas desenhadas como controles deslizantes. Carga: menos carga no exercício que provoca, sem tirá-lo, subindo pela resposta do dia seguinte. Amplitude: puxar de blocos ou suportes e ir descendo. Variação: barra hexagonal no lugar do terra, agachamento com a barra na frente. Volume: menos séries pesadas na semana. O resto: membros superiores, cardio, o que não dói, mantido. Embaixo, a primeira linha da série de 2018: educação, retomar as atividades, exercício; sem imagem de rotina\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"300\" y=\"22\" width=\"260\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"534\" cy=\"27\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"443\" cy=\"27\" r=\"13\" fill=\"#B07A1C\"/><rect x=\"300\" y=\"88\" width=\"260\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"534\" cy=\"93\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"430\" cy=\"93\" r=\"13\" fill=\"#B07A1C\"/><rect x=\"300\" y=\"154\" width=\"260\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"534\" cy=\"159\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"456\" cy=\"159\" r=\"13\" fill=\"#B07A1C\"/><rect x=\"300\" y=\"220\" width=\"260\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"521\" cy=\"225\" r=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"443\" cy=\"225\" r=\"13\" fill=\"#B07A1C\"/><rect x=\"300\" y=\"286\" width=\"260\" height=\"10\" rx=\"5\" fill=\"#C9CFD4\"/><circle cx=\"508\" cy=\"291\" r=\"13\" fill=\"#008A7E\"/><rect x=\"0\" y=\"340\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 12,
+     "w": 280,
+     "t": "Carga",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 600,
+     "y": 12,
+     "w": 1064,
+     "t": "menos carga no exercício que provoca, sem tirá-lo; sobe pela resposta do dia seguinte",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 78,
+     "w": 280,
+     "t": "Amplitude",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 600,
+     "y": 78,
+     "w": 1064,
+     "t": "puxar de blocos ou suportes e ir descendo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 144,
+     "w": 280,
+     "t": "Variação",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 600,
+     "y": 144,
+     "w": 1064,
+     "t": "barra hexagonal no lugar do terra; agachamento com a barra na frente",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 210,
+     "w": 280,
+     "t": "Volume",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 600,
+     "y": 210,
+     "w": 1064,
+     "t": "menos séries pesadas na semana",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 276,
+     "w": 280,
+     "t": "O resto",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.1
+    },
+    {
+     "x": 600,
+     "y": 276,
+     "w": 1064,
+     "t": "membros superiores, cardio, o que não dói: mantido",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 364,
+     "w": 1616,
+     "t": "Primeira linha: educação · retomar as atividades · exercício · sem imagem de rotina",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Modificar a coluna",
    "titulo": "Sem sinal de alerta, ele continua sendo um levantador",
-   "cab": [
-    "Alavanca",
-    "O que muda"
-   ],
-   "larguras": [
-    22,
-    78
-   ],
-   "linhas": [
-    [
-     "Carga",
-     "menos carga no exercício que provoca, sem tirá-lo; sobe pela resposta do dia seguinte"
-    ],
-    [
-     "Amplitude",
-     "puxar de blocos ou suportes e ir descendo"
-    ],
-    [
-     "Variação",
-     "barra hexagonal no lugar do terra; agachamento com a barra na frente"
-    ],
-    [
-     "Volume",
-     "menos séries pesadas na semana"
-    ],
-    [
-     "O resto",
-     "membros superiores, cardio, o que não dói"
-    ]
-   ],
-   "destaque": "Série do Lancet de 2018: educação, retomar as atividades e exercício como primeira linha; sem imagem de rotina.",
-   "destaque_cor": "tinta",
-   "fonte": "Lancet 2018"
+   "fonte": "Série sobre dor lombar, Lancet 2018"
   },
   {
    "id": "custo",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Três linhas, cada uma com a porta escolhida e a porta certa. Parar quando dava para modificar: força, condicionamento, medo; na adolescente, a temporada. Manter quando precisava modificar: dor crônica, volume subindo, compensação. Modificar quando precisava parar: ruptura, lesão do arco vertebral, sinal neurológico\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"230\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"250\" y1=\"56\" x2=\"430\" y2=\"56\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"444\" y=\"2\" width=\"226\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"710\" y=\"0\" width=\"954\" height=\"96\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(730.0 26.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"0\" y=\"120\" width=\"230\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><line x1=\"250\" y1=\"176\" x2=\"430\" y2=\"176\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"444\" y=\"122\" width=\"226\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"710\" y=\"120\" width=\"954\" height=\"96\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(730.0 146.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"0\" y=\"240\" width=\"230\" height=\"96\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><line x1=\"250\" y1=\"296\" x2=\"430\" y2=\"296\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"444\" y=\"242\" width=\"226\" height=\"92\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"710\" y=\"240\" width=\"954\" height=\"96\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(730.0 266.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 30,
+     "w": 230,
+     "t": "parar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 244,
+     "y": 8,
+     "w": 200,
+     "t": "quando precisava",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 30,
+     "w": 226,
+     "t": "modificar",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 790,
+     "y": 32,
+     "w": 850,
+     "t": "força, condicionamento, medo; na adolescente, a temporada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 150,
+     "w": 230,
+     "t": "manter",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 244,
+     "y": 128,
+     "w": 200,
+     "t": "quando precisava",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 150,
+     "w": 226,
+     "t": "modificar",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 790,
+     "y": 152,
+     "w": 850,
+     "t": "dor crônica, volume subindo, compensação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 270,
+     "w": 230,
+     "t": "modificar",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 244,
+     "y": 248,
+     "w": 200,
+     "t": "quando precisava",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 270,
+     "w": 226,
+     "t": "parar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 790,
+     "y": 272,
+     "w": 850,
+     "t": "ruptura, lesão do arco vertebral, sinal neurológico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O custo de escolher errado",
    "titulo": "Cada erro tem o seu preço",
-   "cab": [
-    "Escolha errada",
-    "O preço"
-   ],
-   "larguras": [
-    36,
-    64
-   ],
-   "linhas": [
-    [
-     "Parar quando dava para modificar",
-     "força, condicionamento, medo; na adolescente, a temporada"
-    ],
-    [
-     "Manter quando precisava modificar",
-     "dor crônica, volume subindo, compensação"
-    ],
-    [
-     "Modificar quando precisava parar",
-     "ruptura, lesão do arco vertebral, sinal neurológico"
-    ]
-   ],
    "destaque": "Por isso a primeira pergunta é sempre a dos sinais de alerta.",
    "destaque_cor": "verm"
   },

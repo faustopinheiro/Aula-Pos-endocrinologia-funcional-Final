@@ -104,6 +104,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Ombro e coluna", "titulo":
                     {"t": "Treinador e preparador", "x": "Mexem no volume, na carga e no material."}],
           "quem": "Próxima aula: recursos terapêuticos; o que muda e o que é ritual."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-08")
+
 spec = {"arquivo": "aulas/MOD08/08-08-membro-superior-e-coluna.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Ombro e coluna", "subtitulo": "Parar, modificar ou manter",
