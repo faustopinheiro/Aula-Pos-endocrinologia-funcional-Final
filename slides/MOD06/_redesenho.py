@@ -2764,6 +2764,214 @@ def controle_611():
     return slide("controle", 360, p, rs, eyebrow="Para qualquer clube ou academia", titulo="Quatro perguntas de controle",
                  destaque="Analgésico sem data de término vira uso crônico por inércia.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 6.12
+
+def caso_612():
+    """6.12: duas linhas ao longo dos anos: o rim quase parado, a autonomia caindo (esquema)."""
+    p = [svg_abre(1664, 400, "Esquema, sem valores medidos. Um homem na casa dos sessenta, com doença renal crônica moderada, diabetes e hipertensão, ouviu que com rim doente não podia fazer esforço, e obedeceu. Ao longo dos anos, duas linhas: a função do rim quase não muda; a autonomia cai até ele não levantar da cadeira sem apoio e dormir na sala"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 0, 460, 400, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("h:old-man", 24, 24, 80, TINTA))
+    rs += [rot(120, 34, "casa dos sessenta", w=320, tam=24, cor=TINTA, peso=700),
+           rot(120, 72, "doença renal crônica moderada, diabetes, hipertensão", w=320, tam=20, cor=TINTA, lh=1.25),
+           rot(24, 190, "“Com rim doente, não pode fazer esforço.”", w=410, tam=26, cor=FOSF, peso=700, serif=True, lh=1.2),
+           rot(24, 300, "e ele obedeceu", w=410, tam=22, cor=TINTA)]
+    X0, X1 = 540, 1640
+    p.append(f'<line x1="{X0}" y1="340" x2="{X1}" y2="340" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<line x1="{X0}" y1="20" x2="{X0}" y2="340" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<path d="M {X0} 120 C 900 125, 1300 135, {X1} 145" fill="none" stroke="{AZUL}" stroke-width="5"/>')
+    p.append(f'<path d="M {X0} 70 C 900 110, 1250 220, {X1} 300" fill="none" stroke="{FOSF}" stroke-width="5"/>')
+    rs += [rot(X1 - 360, 150, "o rim: pouco mudou", w=360, tam=22, cor=AZUL, peso=700, alinha="right"),
+           rot(X0 + 30, 250, "a autonomia: não levanta da cadeira sem apoio, dorme na sala", w=520, tam=21, cor=FOSF, peso=700, lh=1.25),
+           rot(X1 - 300, 348, "anos · esquema", w=300, tam=18, cor=MUDO, alinha="right")]
+    return slide("caso", 400, p, rs, eyebrow="Caso ilustrativo", titulo="Ouviu que não podia fazer esforço. E obedeceu.")
+
+
+def inversao_612():
+    """6.12: seis condições, cada uma com o que a diretriz manda fazer, em volta da frase central."""
+    p = [svg_abre(1664, 400, "Seis condições em ladrilhos, todas com a mesma inversão: não é se pode treinar, é como. Doença renal crônica: atividade moderada, 150 minutos por semana ou o tolerado. Diabetes tipo 2: exercício é tratamento, para glicemia, insulina e risco cardiovascular. Hipertensão: reduz a pressão, entre as primeiras condutas. Asma: melhora o condicionamento, bem tolerado. Câncer: exercício durante e depois do tratamento. Cardiopatia estável: exercício supervisionado faz parte do tratamento")]
+    rs = []
+    itens = [("h:heart-organ", "Doença renal crônica", "atividade moderada, 150 min por semana ou o tolerado"), ("t:droplet", "Diabetes tipo 2", "exercício é tratamento: glicemia, insulina, risco cardiovascular"),
+             ("t:gauge", "Hipertensão", "reduz a pressão; entre as primeiras condutas"), ("h:lungs", "Asma", "melhora o condicionamento, bem tolerado"),
+             ("t:shield-check", "Câncer", "exercício durante e depois do tratamento"), ("t:heartbeat", "Cardiopatia estável", "exercício supervisionado faz parte do tratamento")]
+    for k, (ic, t, d) in enumerate(itens):
+        col, lin = k % 3, k // 3
+        x, y = col * 560, lin * 210
+        p.append(caixa(x, y, 536, 190, OXID, OXID_T, esp=2, rx=16))
+        p.append(icone(ic, x + 22, y + 22, 48, OXID))
+        rs += [rot(x + 86, y + 30, t, w=430, tam=25, cor=OXID, peso=700, serif=True), rot(x + 24, y + 96, d, w=490, tam=22, cor=TINTA, lh=1.3)]
+    return slide("inversao", 400, p, rs, eyebrow="A mesma inversão em quase toda doença crônica", titulo="Não é se pode treinar, é como",
+                 destaque="Autonomia não é desfecho secundário: levantar da cadeira, subir escada, dormir no próprio quarto.", destaque_cor="tinta")
+
+
+def perguntas_612():
+    """6.12: três perguntas em fila até a prescrição."""
+    p = [svg_abre(1664, 380, "Três perguntas em fila, da esquerda para a direita, até a prescrição. Existe instabilidade clínica agora? É onde moram as contraindicações reais, quase todas temporárias. Que medicações usa, e o que fazem no esforço? É a pergunta que mais muda a prescrição. O que consegue fazer hoje? Não o que a diretriz recomenda: o que ela consegue"), defs(MUDO)]
+    rs = []
+    qs = [("Existe instabilidade clínica agora?", "onde moram as contraindicações reais, quase todas temporárias", FOSF, FOSF_T, "t:alert-triangle"),
+          ("Que medicações usa, e o que fazem no esforço?", "a pergunta que mais muda a prescrição", GLIC, GLIC_T, "t:pill"),
+          ("O que consegue fazer hoje?", "não o que a diretriz recomenda: o que ela consegue", OXID, OXID_T, "t:stairs")]
+    for k, (t, d, cor, fundo, ic) in enumerate(qs):
+        x = k * 450
+        p.append(caixa(x, 0, 410, 380, cor, fundo, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 48}" cy="48" r="28" fill="{cor}"/>')
+        p.append(icone(ic, x + 330, 22, 52, cor))
+        rs += [rot(x + 20, 30, str(k + 1), w=56, tam=30, cor=PAPEL, peso=700, alinha="center", serif=True),
+               rot(x + 24, 104, t, w=362, tam=26, cor=cor, peso=700, serif=True, lh=1.2), rot(x + 24, 240, d, w=362, tam=22, cor=TINTA, lh=1.3)]
+        p.append(seta(x + 414, 190, x + 444, 190, MUDO, "m0", esp=3))
+    p.append(caixa(1360, 110, 304, 160, TINTA, TINTA, esp=0, rx=16))
+    rs.append(rot(1370, 160, "a prescrição", w=284, tam=30, cor=PAPEL, peso=700, alinha="center", serif=True))
+    return slide("perguntas", 380, p, rs, eyebrow="O que organiza qualquer caso", titulo="Três perguntas antes da prescrição")
+
+
+def agora_612():
+    """6.12: sete contraindicações marcadas com relógio, e a conduta que adia em vez de proibir."""
+    p = [svg_abre(1664, 400, "Sete contraindicações de verdade, cada uma marcada com um relógio, porque quase todas são agora, não para sempre: coronária instável, com síndrome aguda recente ou angina instável; coração descompensado, com insuficiência cardíaca ou arritmia não controlada; pressão muito alta e não controlada; febre e infecção aguda; problema metabólico, como cetose ou hipoglicemia grave recente; lesão em investigação; sintoma novo no esforço que ninguém avaliou. No último ladrilho, a conduta: hoje não, por isso; vamos resolver e começar")]
+    rs = []
+    itens = [("Coronária instável", "síndrome aguda recente, angina instável", FOSF), ("Coração descompensado", "insuficiência cardíaca, arritmia não controlada", FOSF),
+             ("Pressão muito alta", "e não controlada", FOSF), ("Sintoma novo no esforço", "que ninguém avaliou", FOSF),
+             ("Febre", "infecção aguda", GLIC), ("Metabólico", "cetose, hipoglicemia grave recente", GLIC), ("Lesão em investigação", "", GLIC)]
+    for k, (t, d, cor) in enumerate(itens):
+        col, lin = k % 4, k // 4
+        x, y = col * 420, lin * 206
+        p.append(caixa(x, y, 400, 190, cor, CARTAO, esp=2, rx=16))
+        p.append(icone("t:clock", x + 334, y + 18, 44, cor))
+        rs.append(rot(x + 20, y + 22, t, w=300, tam=24, cor=cor, peso=700, lh=1.15))
+        if d:
+            rs.append(rot(x + 20, y + 100, d, w=360, tam=21, cor=TINTA, lh=1.3))
+    p.append(caixa(1260, 206, 404, 190, OXID, OXID, esp=0, rx=16))
+    rs += [rot(1280, 222, "A conduta", w=360, tam=24, cor=PAPEL, peso=700), rot(1280, 268, "“hoje não, por isso; vamos resolver e começar”", w=364, tam=22, cor=PAPEL, lh=1.3)]
+    return slide("agora", 400, p, rs, eyebrow="As contraindicações de verdade", titulo="Quase tudo é “agora”, não “para sempre”",
+                 destaque="O erro simétrico ao afastamento é a prescrição impossível: fracasso, culpa e abandono.", destaque_cor="tinta")
+
+
+def remedios_612():
+    """6.12: seis classes de remédio, cada uma com o que exige no treino."""
+    p = [svg_abre(1664, 400, "Seis classes de remédio e o que cada uma exige no treino. Betabloqueador: sem alvo de frequência cardíaca por fórmula; percepção de esforço, teste da fala, teste com o remédio. Insulina e sulfonilureia: glicemia antes, carboidrato à mão, hipoglicemia tardia. Inibidor de SGLT2: hidratação e calor; cetoacidose rara com glicemia pouco alta. Diurético: volume, eletrólitos, cãibra. Anti-hipertensivos: tontura ao terminar, então desaquecer. Estatina e anticoagulante: ouvir a dor muscular; cuidado com contato e queda")]
+    rs = []
+    itens = [("t:heartbeat", "Betabloqueador", "sem alvo de FC por fórmula; percepção de esforço, fala, teste com o remédio", FOSF),
+             ("t:droplet", "Insulina, sulfonilureia", "glicemia antes, carboidrato à mão, hipoglicemia tardia", FOSF),
+             ("t:temperature", "Inibidor de SGLT2", "hidratação e calor; cetoacidose rara com glicemia pouco alta", GLIC),
+             ("t:glass-full", "Diurético", "volume, eletrólitos, cãibra", GLIC),
+             ("t:spiral", "Anti-hipertensivos", "tontura ao terminar: desaquecer", GLIC),
+             ("t:pill", "Estatina, anticoagulante", "ouvir a dor muscular; contato e queda", AZUL)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        col, lin = k % 3, k // 3
+        x, y = col * 560, lin * 210
+        p.append(caixa(x, y, 536, 190, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 22, y + 22, 48, cor))
+        rs += [rot(x + 86, y + 30, t, w=430, tam=25, cor=cor, peso=700, serif=True), rot(x + 24, y + 96, d, w=490, tam=21, cor=TINTA, lh=1.3)]
+    return slide("remedios", 400, p, rs, eyebrow="O núcleo prático", titulo="Remédios que mudam a prescrição",
+                 destaque="Quem prescreve treino precisa saber o que a pessoa toma, e quem prescreve remédio precisa saber que ela treina.", destaque_cor="verm")
+
+
+def diabetes_612():
+    """6.12: uma semana desenhada, com o efeito de cada sessão durando 24 a 72 horas e nunca mais de dois dias sem aeróbio."""
+    p = [svg_abre(1664, 360, "Uma semana de sete dias desenhada. Cada sessão aeróbica deixa uma faixa de sensibilidade à insulina aumentada de 24 a 72 horas. As sessões estão espaçadas de modo que nunca passam mais de dois dias seguidos sem atividade aeróbica. Dois dias têm também força, porque o músculo é o principal destino da glicose. Em esquema")]
+    rs = []
+    dias = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
+    W = 220
+    X0 = 60
+    aero = {0: True, 2: True, 4: True, 6: True}
+    forca = {1: True, 4: True}
+    for k, d in enumerate(dias):
+        x = X0 + k * W
+        rs.append(rot(x, 0, d, w=W, tam=22, cor=TINTA, peso=700, alinha="center"))
+        p.append(f'<line x1="{x}" y1="40" x2="{x}" y2="260" stroke="{BORDA}" stroke-width="1"/>')
+        if k in aero:
+            p.append(f'<rect x="{x + W / 2 - 40:.0f}" y="50" width="80" height="50" rx="10" fill="{OXID}"/>')
+            p.append(icone("t:run", x + W / 2 - 18, 56, 36, PAPEL))
+            p.append(f'<rect x="{x + W / 2:.0f}" y="120" width="{min(W * 2, X0 + 7 * W - x - W / 2):.0f}" height="30" rx="6" fill="{OXID}" opacity="0.25"/>')
+        if k in forca:
+            p.append(f'<rect x="{x + W / 2 - 40:.0f}" y="180" width="80" height="50" rx="10" fill="{GLIC}"/>')
+            p.append(icone("t:barbell", x + W / 2 - 18, 186, 36, PAPEL))
+    p.append(f'<line x1="{X0 + 7 * W}" y1="40" x2="{X0 + 7 * W}" y2="260" stroke="{BORDA}" stroke-width="1"/>')
+    rs += [rot(X0, 280, "faixa clara: 24 a 72 h de sensibilidade à insulina depois de cada sessão aeróbica", w=1100, tam=21, cor=OXID, peso=700),
+           rot(X0, 316, "nunca mais de 2 dias seguidos sem aeróbio · força em 2 dias: o músculo é o principal destino da glicose · esquema", w=1540, tam=19, cor=TINTA)]
+    return slide("diabetes", 360, p, rs, eyebrow="Diabetes tipo 2, o mais frequente", titulo="O benefício tem prazo de validade",
+                 destaque="Cuidados: hipoglicemia com insulina e sulfonilureia, inspeção dos pés, neuropatia autonômica, retinopatia. Glicemia alta com cetose: dia de resolver o controle.",
+                 destaque_cor="verm", fonte="Associação Americana de Diabetes, Diabetes Care 2016")
+
+
+def outras_612():
+    """6.12: quatro condições, cada uma com o ajuste que pede."""
+    p = [svg_abre(1664, 380, "Quatro condições, cada uma com o ajuste que pede, em vez de parar. Hipertensão: aeróbio com força; pressão descontrolada adia a sessão; desaquecer. Cardiopatia estável: a prescrição sai de um teste, compartilhada com a cardiologia. Câncer: cerca de 30 minutos, três vezes por semana, e força ao menos duas, para fadiga, humor e função. Doença renal: força no centro; proteína, sódio, potássio e fósforo com nutrição e nefrologia")]
+    rs = []
+    itens = [("t:gauge", "Hipertensão", "aeróbio com força; pressão descontrolada adia a sessão; desaquecer", OXID),
+             ("t:heartbeat", "Cardiopatia estável", "a prescrição sai de um teste, compartilhada com a cardiologia", OXID),
+             ("t:shield-check", "Câncer", "≈ 30 min, 3 vezes por semana, força ao menos 2; fadiga, humor, função", GLIC),
+             ("h:heart-organ", "Doença renal", "força no centro; proteína, sódio, potássio e fósforo com nutrição e nefrologia", GLIC)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        col, lin = k % 2, k // 2
+        x, y = col * 842, lin * 196
+        p.append(caixa(x, y, 822, 180, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 24, y + 24, 52, cor))
+        rs += [rot(x + 96, y + 30, t, w=700, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, y + 96, d, w=770, tam=23, cor=TINTA, lh=1.3)]
+    return slide("outras", 380, p, rs, eyebrow="As outras condições", titulo="Ajustar, não parar",
+                 destaque="Ninguém aumenta proteína por conta própria em quem tem doença renal, e isso inclui suplemento da loja.", destaque_cor="tinta",
+                 fonte="Mesa-redonda internacional de exercício no câncer, Med Sci Sports Exerc 2019")
+
+
+def plano_612():
+    """6.12: quatro etapas até a meta que não está no laudo: a escada e o próprio quarto."""
+    p = [svg_abre(1664, 380, "Quatro etapas encadeadas até a meta. Avaliar: estabilidade, os seis remédios revisados, a função, e teste de esforço com a medicação. Começar pelo possível: levantar da cadeira com apoio, caminhadas curtas em casa. Progredir: força duas vezes por semana, intensidade pela percepção, não pela frequência cardíaca. Combinar a equipe: nutrição, nefrologia, endocrinologia; tontura ao terminar volta ao médico. A meta, à direita: voltar a subir a escada e dormir no próprio quarto"), defs(MUDO)]
+    rs = []
+    etapas = [("Avaliar", "estabilidade, seis remédios revisados, função; teste de esforço com a medicação", TINTA),
+              ("Começar pelo possível", "levantar da cadeira com apoio, caminhadas curtas em casa", OXID),
+              ("Progredir", "força duas vezes por semana; intensidade pela percepção, não pela FC", OXID),
+              ("Combinar a equipe", "nutrição, nefrologia, endocrinologia; tontura ao terminar volta ao médico", GLIC)]
+    for k, (t, d, cor) in enumerate(etapas):
+        x = k * 330
+        p.append(caixa(x, 0, 300, 380, cor, CARTAO, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 44}" cy="44" r="24" fill="{cor}"/>')
+        rs += [rot(x + 20, 28, str(k + 1), w=48, tam=26, cor=PAPEL, peso=700, alinha="center", serif=True),
+               rot(x + 20, 96, t, w=260, tam=25, cor=cor, peso=700, serif=True, lh=1.15), rot(x + 20, 190, d, w=260, tam=21, cor=TINTA, lh=1.3)]
+        p.append(seta(x + 304, 190, x + 326, 190, MUDO, "m0", esp=3))
+    p.append(caixa(1330, 0, 334, 380, OXID, OXID, esp=0, rx=16))
+    p.append(icone("t:stairs", 1447, 30, 100, PAPEL))
+    rs += [rot(1350, 150, "A meta", w=294, tam=24, cor=PAPEL, peso=700, alinha="center"),
+           rot(1350, 196, "voltar a subir a escada e dormir no próprio quarto", w=294, tam=24, cor=PAPEL, peso=700, alinha="center", serif=True, lh=1.25)]
+    return slide("plano", 380, p, rs, eyebrow="O caso, conduzido pelo que a aula construiu", titulo="A meta não está no laudo")
+
+
+def regras_612():
+    """6.12: seis regras, cada uma com um ícone."""
+    p = [svg_abre(1664, 400, "Seis regras que o caso entrega. Afastar tem efeito adverso, e pede reavaliação. Como, não se: as contraindicações são específicas e temporárias. A medicação muda a prescrição. Comece pelo que consegue: a prescrição impossível também faz mal. Força não é opcional: é o que preserva autonomia. O desfecho nem sempre é o exame: às vezes é a escada")]
+    rs = []
+    itens = [("t:door-exit", "Afastar tem efeito adverso", "e pede reavaliação", FOSF), ("t:adjustments-horizontal", "Como, não se", "contraindicações específicas e temporárias", OXID),
+             ("t:pill", "A medicação muda a prescrição", "", GLIC), ("t:walk", "Comece pelo que consegue", "a prescrição impossível também faz mal", OXID),
+             ("t:barbell", "Força não é opcional", "é o que preserva autonomia", OXID), ("t:stairs", "O desfecho nem sempre é o exame", "às vezes é a escada", TINTA)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        col, lin = k % 3, k // 3
+        x, y = col * 560, lin * 210
+        p.append(caixa(x, y, 536, 190, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 22, y + 24, 52, cor))
+        rs.append(rot(x + 90, y + 28, t, w=420, tam=25, cor=cor, peso=700, serif=True, lh=1.15))
+        if d:
+            rs.append(rot(x + 24, y + 112, d, w=490, tam=22, cor=TINTA, lh=1.3))
+    return slide("regras", 400, p, rs, eyebrow="As regras que o caso entrega", titulo="Afastar é uma intervenção")
+
+
+def niveis_612():
+    """6.12: o que cada um observa, à esquerda, chegando a quem decide, à direita."""
+    p = [svg_abre(1664, 400, "À esquerda, a contribuição: o que cada um vê e entrega. O teste do pescoço na sexta; a frequência cardíaca alta para a carga depois da virose; o estridor no asmático que não melhora; a incoordenação depois do choque de cabeça; a primeira compressão, que não tem dono. Setas levam essas observações à direita, à decisão: o médico, com exames, elegibilidade, remédio e retorno; a cardiologia na zona cinzenta; a preparação, com a carga liberada; fisioterapia, nutrição e psicologia, cada uma no seu campo; e a gestão, com desfibrilador, plano e ensaio"), defs(MUDO)]
+    rs = []
+    rs += [rot(0, 0, "Contribuição", w=700, tam=27, cor=OXID, peso=700, serif=True), rot(964, 0, "Decisão", w=700, tam=27, cor=TINTA, peso=700, serif=True)]
+    contr = ["teste do pescoço na sexta", "FC alta para a carga depois da virose", "estridor no asmático que não melhora", "incoordenação depois do choque", "a primeira compressão sem dono"]
+    dec = ["médico: exames, elegibilidade, remédio, retorno", "cardiologia na zona cinzenta", "preparação: carga liberada", "fisio, nutrição, psicologia no seu campo", "gestão: desfibrilador, plano, ensaio"]
+    for k, (a, b) in enumerate(zip(contr, dec)):
+        y = 50 + k * 70
+        p.append(caixa(0, y, 700, 58, OXID, OXID_T, esp=2, rx=29))
+        rs.append(rot(24, y + 15, a, w=660, tam=22, cor=TINTA))
+        p.append(caixa(964, y, 700, 58, TINTA, CARTAO if k < 4 else TINTA, esp=2, rx=12))
+        rs.append(rot(988, y + 15, b, w=660, tam=22, cor=TINTA if k < 4 else PAPEL, peso=700 if k == 4 else 400))
+    p.append(f'<path d="M 710 220 C 800 220, 840 220, 950 220" fill="none" stroke="{MUDO}" stroke-width="5" marker-end="url(#m0)"/>')
+    for k in range(5):
+        y = 79 + k * 70
+        p.append(f'<path d="M 704 {y} C 740 {y}, 720 220, 760 220" fill="none" stroke="{BORDA}" stroke-width="2"/>')
+    return slide("niveis", 400, p, rs, eyebrow="O módulo nos três níveis", titulo="Decisão e contribuição",
+                 destaque="A decisão administrativa que mais muda desfecho no módulo é da gestão.", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, sintomas_61, historia_61, perfis_61, tres_saidas_61, registro_61],
@@ -2776,7 +2984,8 @@ LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, s
           "06-08": [mensagens_68, leituras_68, pescoco_68, excecoes_68, febre_68, degraus_68, sinais_68, medica_68, rastreio_68, prevencao_68],
           "06-09": [perfil_69, mapa_69, fadiga_69, perguntas_69, pedido_69, estagios_69, armadilhas_69, causa_69, repor_69, veia_69],
           "06-10": [perfil_610, assimetria_610, ck_610, regua_610, pergunta_610, cascata_610, campeoes_610, paineis_610, contraponto_610, fazer_610],
-          "06-11": [copa_611, decisoes_611, principio_611, lateral_611, nolugar_611, rim_611, corredor_611, eliminacao_611, escada_611, controle_611]}
+          "06-11": [copa_611, decisoes_611, principio_611, lateral_611, nolugar_611, rim_611, corredor_611, eliminacao_611, escada_611, controle_611],
+          "06-12": [caso_612, inversao_612, perguntas_612, agora_612, remedios_612, diabetes_612, outras_612, plano_612, regras_612, niveis_612]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

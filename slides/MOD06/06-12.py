@@ -127,6 +127,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Reconhecimento: de todos",
                     {"t": "Reconhecimento", "x": "Não exige a profissão certa. Exige ter aprendido o sinal."}],
           "quem": "Todas pedem uma pergunta clínica antes. Próximo módulo: lesões, mecanismos, epidemiologia e prevenção."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-12")
+
 spec = {"arquivo": "aulas/MOD06/06-12-exercicio-e-doenca-cronica.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Exercício na doença crônica", "subtitulo": "Prescrição segura e o custo do afastamento",

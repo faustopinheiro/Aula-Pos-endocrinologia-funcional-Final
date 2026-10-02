@@ -22,11 +22,91 @@
  "slides": [
   {
    "id": "caso",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Esquema, sem valores medidos. Um homem na casa dos sessenta, com doença renal crônica moderada, diabetes e hipertensão, ouviu que com rim doente não podia fazer esforço, e obedeceu. Ao longo dos anos, duas linhas: a função do rim quase não muda; a autonomia cai até ele não levantar da cadeira sem apoio e dormir na sala\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"460\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(1.6667)\"><g fill=\"#12202E\"><path d=\"M22 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m13 12a3 3 0 0 0-3 3v.343a1 1 0 1 0 2 0V28a1 1 0 1 1 2 0v14.946a1 1 0 1 0 2 0V28a3 3 0 0 0-3-3m-5.291-4.821L28 19.433l1.595.677zm1.226 1.062a5 5 0 0 0-1.226-1.062L36 22.928v-.096v.002c.095 1.1-.755 2.067-1.899 2.16c-1.134.09-2.132-.714-2.241-1.801v-.002l-.015-.086a4 4 0 0 0-.115-.434a4.5 4.5 0 0 0-.795-1.43\"/><path fill-rule=\"evenodd\" d=\"m36 22.831l-6.405-2.72A7 7 0 0 0 28 19.432V42a2 2 0 0 1-3.99.199l-1-10A2 2 0 0 1 23 32h-2q0 .1-.01.199l-1 10A2 2 0 0 1 16 42V27.919c-1.679-.223-3.09-.898-4.136-1.925A6.2 6.2 0 0 1 10 21.481A6.34 6.34 0 0 1 11.92 17c1.29-1.259 3.129-2 5.335-2h7.32c4.973 0 7.944 1.722 9.62 3.759a8.4 8.4 0 0 1 1.494 2.695c.146.44.26.893.309 1.353v.015l.002.006zm-21.169.362c.257.252.631.496 1.169.648V19.17c-.5.152-.864.389-1.123.641a2.4 2.4 0 0 0-.72 1.708c-.006.64.232 1.24.674 1.674\" clip-rule=\"evenodd\"/></g></g><line x1=\"540\" y1=\"340\" x2=\"1640\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"540\" y1=\"20\" x2=\"540\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"3\"/><path d=\"M 540 120 C 900 125, 1300 135, 1640 145\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"5\"/><path d=\"M 540 70 C 900 110, 1250 220, 1640 300\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 120,
+     "y": 34,
+     "w": 320,
+     "t": "casa dos sessenta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 72,
+     "w": 320,
+     "t": "doença renal crônica moderada, diabetes, hipertensão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 190,
+     "w": 410,
+     "t": "“Com rim doente, não pode fazer esforço.”",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 300,
+     "w": 410,
+     "t": "e ele obedeceu",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 150,
+     "w": 360,
+     "t": "o rim: pouco mudou",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 570,
+     "y": 250,
+     "w": 520,
+     "t": "a autonomia: não levanta da cadeira sem apoio, dorme na sala",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 348,
+     "w": 300,
+     "t": "anos · esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Caso ilustrativo",
-   "frase": "Ouviu que, com rim doente, não podia fazer esforço. E obedeceu.",
-   "apoio": "Um homem na casa dos sessenta, com doença renal crônica moderada, diabetes e hipertensão. Anos depois, não levanta da cadeira sem apoio e dorme na sala. O rim pouco mudou."
+   "titulo": "Ouviu que não podia fazer esforço. E obedeceu."
   },
   {
    "id": "custo",
@@ -87,318 +167,1278 @@
   },
   {
    "id": "inversao",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Seis condições em ladrilhos, todas com a mesma inversão: não é se pode treinar, é como. Doença renal crônica: atividade moderada, 150 minutos por semana ou o tolerado. Diabetes tipo 2: exercício é tratamento, para glicemia, insulina e risco cardiovascular. Hipertensão: reduz a pressão, entre as primeiras condutas. Asma: melhora o condicionamento, bem tolerado. Câncer: exercício durante e depois do tratamento. Cardiopatia estável: exercício supervisionado faz parte do tratamento\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(1.0000)\"><g fill=\"#008A7E\"><path d=\"M20 6h4v2.644c1.273-.078 2.506-.004 3.614.23c-4.7 1.85-6.863 6.605-7.217 7.383l-.022.048c-1.149-.174-2.393-.32-3.57-.309c-1.214.104-2.391.283-4.33 1.375c-.274.194-.642.51-1.143.994c-.036-.027-.075-.05-.126-.083l-.151-.096a12 12 0 0 0-1.174-.67c-1.016-.504-2.262-.933-3.483-.933v-3.879c2.111 0 4.01.717 5.305 1.36c.449.223.843.445 1.17.643a7.5 7.5 0 0 1 1.125-1.717L11.8 9.543l3.521-2.287l2.027 3.18a16 16 0 0 1 2.651-1.068zm10.757 8.691c-1.458.676-2.72 1.786-3.857 3.924c0 0-2.524-1.154-4.572-1.754c1.572-3.186 3.4-4.978 6.097-6.228c2.609-1.21 5.72-1.52 9.418-1.391L37.667 14c-3.41-.118-5.365-.025-6.91.691\"/><path d=\"M13.281 19.22c-7.263 6.478 3.112 22.673 11.413 22.673s19.73-16.181 11.413-23.599a47 47 0 0 1-.516-.468c-.688-.63-1.145-1.05-2.414-1.804c-2.552 0-4.09 2.553-4.79 4.109a1.2 1.2 0 0 1-.13.22l-1.615 4.49l-.581 2.089a1 1 0 0 0 .045.665l.68 1.57l3.517-.408l.231 1.986l-3.309.385l.215 3.151l-1.995.136l-.268-3.931l-.906-2.095a3 3 0 0 1-.137-1.996l.017-.062l-2.034.92l-1.33 3.361l-1.86-.736l1.054-2.662l-3.21-.756l.458-1.947l4.006.944L24.89 23.8l1.23-3.42c-3.168-1.489-9.674-3.985-12.84-1.162\"/></g></g><rect x=\"560\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(582.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1120\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1142.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"0\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(22.0 232.0) scale(1.0000)\"><g fill=\"#008A7E\"><path d=\"M16.542 11.991c5.85.005 5.312 7.962 5.31 11.145c-.004 4.062.993 12.261-2.14 15.382c-3.194 3.18-9.577 4.767-12.766 2.112s2.15-28.645 9.596-28.639m14.941.012c-5.85-.005-5.325 7.953-5.328 11.136c-.003 4.063-1.014 12.26 2.115 15.386c3.188 3.186 9.569 4.782 12.762 2.133s-2.104-28.649-9.55-28.655\"/><path fill-rule=\"evenodd\" d=\"M23.018 6h2l-.012 14.494c-.002 2.101-.939 3.305-1.999 3.923a4.3 4.3 0 0 1-1.976.572h-.026v-2h-.01H21q.014 0 .051-.004a2.3 2.3 0 0 0 .95-.297c.44-.255 1.003-.799 1.005-2.196z\" clip-rule=\"evenodd\"/><path fill-rule=\"evenodd\" d=\"M25.018 6h-2l-.012 14.492c-.002 2.101.932 3.307 1.991 3.927a4.3 4.3 0 0 0 1.975.574H27l.002-1c0-1 .002-1 .002-1h.009h-.005l-.051-.003a2.3 2.3 0 0 1-.949-.298c-.44-.257-1.003-.801-1.001-2.198z\" clip-rule=\"evenodd\"/></g></g><rect x=\"560\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(582.0 232.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M11.46 20.846A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3a12 12 0 0 0 8.5 3a12 12 0 0 1-.09 7.06M15 19l2 2l4-4\"/></g><rect x=\"1120\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1142.0 232.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 86,
+     "y": 30,
+     "w": 430,
+     "t": "Doença renal crônica",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 96,
+     "w": 490,
+     "t": "atividade moderada, 150 min por semana ou o tolerado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 646,
+     "y": 30,
+     "w": 430,
+     "t": "Diabetes tipo 2",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 96,
+     "w": 490,
+     "t": "exercício é tratamento: glicemia, insulina, risco cardiovascular",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1206,
+     "y": 30,
+     "w": 430,
+     "t": "Hipertensão",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 96,
+     "w": 490,
+     "t": "reduz a pressão; entre as primeiras condutas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 86,
+     "y": 240,
+     "w": 430,
+     "t": "Asma",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 306,
+     "w": 490,
+     "t": "melhora o condicionamento, bem tolerado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 646,
+     "y": 240,
+     "w": 430,
+     "t": "Câncer",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 306,
+     "w": 490,
+     "t": "exercício durante e depois do tratamento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1206,
+     "y": 240,
+     "w": 430,
+     "t": "Cardiopatia estável",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 306,
+     "w": 490,
+     "t": "exercício supervisionado faz parte do tratamento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "A mesma inversão em quase toda doença crônica",
    "titulo": "Não é se pode treinar, é como",
-   "cab": [
-    "Condição",
-    "O que as diretrizes dizem"
-   ],
-   "larguras": [
-    30,
-    70
-   ],
-   "linhas": [
-    [
-     "Doença renal crônica",
-     "atividade moderada, 150 min por semana ou o tolerado"
-    ],
-    [
-     "Diabetes tipo 2",
-     "exercício é tratamento: glicemia, insulina, risco cardiovascular"
-    ],
-    [
-     "Hipertensão",
-     "reduz a pressão; entre as primeiras condutas"
-    ],
-    [
-     "Asma",
-     "melhora o condicionamento, bem tolerado"
-    ],
-    [
-     "Câncer",
-     "exercício durante e depois do tratamento"
-    ],
-    [
-     "Cardiopatia estável",
-     "exercício supervisionado faz parte do tratamento"
-    ]
-   ],
    "destaque": "Autonomia não é desfecho secundário: levantar da cadeira, subir escada, dormir no próprio quarto.",
    "destaque_cor": "tinta"
   },
   {
    "id": "perguntas",
-   "tipo": "lista",
-   "eyebrow": "O que organiza qualquer caso",
-   "titulo": "Três perguntas antes da prescrição",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três perguntas em fila, da esquerda para a direita, até a prescrição. Existe instabilidade clínica agora? É onde moram as contraindicações reais, quase todas temporárias. Que medicações usa, e o que fazem no esforço? É a pergunta que mais muda a prescrição. O que consegue fazer hoje? Não o que a diretriz recomenda: o que ela consegue\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"410\" height=\"380\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"48\" cy=\"48\" r=\"28\" fill=\"#A8322A\"/><g transform=\"translate(330.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><line x1=\"414\" y1=\"190\" x2=\"444\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"450\" y=\"0\" width=\"410\" height=\"380\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"498\" cy=\"48\" r=\"28\" fill=\"#B07A1C\"/><g transform=\"translate(780.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><line x1=\"864\" y1=\"190\" x2=\"894\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"900\" y=\"0\" width=\"410\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"948\" cy=\"48\" r=\"28\" fill=\"#008A7E\"/><g transform=\"translate(1230.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><line x1=\"1314\" y1=\"190\" x2=\"1344\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1360\" y=\"110\" width=\"304\" height=\"160\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 30,
+     "w": 56,
+     "t": "1",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 104,
+     "w": 362,
      "t": "Existe instabilidade clínica agora?",
-     "x": "onde moram as contraindicações reais, quase todas temporárias",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 240,
+     "w": 362,
+     "t": "onde moram as contraindicações reais, quase todas temporárias",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 470,
+     "y": 30,
+     "w": 56,
+     "t": "2",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 474,
+     "y": 104,
+     "w": 362,
      "t": "Que medicações usa, e o que fazem no esforço?",
-     "x": "a pergunta que mais muda a prescrição",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 474,
+     "y": 240,
+     "w": 362,
+     "t": "a pergunta que mais muda a prescrição",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 920,
+     "y": 30,
+     "w": 56,
+     "t": "3",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 104,
+     "w": 362,
      "t": "O que consegue fazer hoje?",
-     "x": "não o que a diretriz recomenda: o que ela consegue",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 240,
+     "w": 362,
+     "t": "não o que a diretriz recomenda: o que ela consegue",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1370,
+     "y": 160,
+     "w": 284,
+     "t": "a prescrição",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "O que organiza qualquer caso",
+   "titulo": "Três perguntas antes da prescrição"
   },
   {
    "id": "agora",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "As contraindicações de verdade",
-   "titulo": "Quase tudo é “agora”, não “para sempre”",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Sete contraindicações de verdade, cada uma marcada com um relógio, porque quase todas são agora, não para sempre: coronária instável, com síndrome aguda recente ou angina instável; coração descompensado, com insuficiência cardíaca ou arritmia não controlada; pressão muito alta e não controlada; febre e infecção aguda; problema metabólico, como cetose ou hipoglicemia grave recente; lesão em investigação; sintoma novo no esforço que ninguém avaliou. No último ladrilho, a conduta: hoje não, por isso; vamos resolver e começar\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(334.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"420\" y=\"0\" width=\"400\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(754.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"840\" y=\"0\" width=\"400\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1174.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"1260\" y=\"0\" width=\"400\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1594.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"0\" y=\"206\" width=\"400\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(334.0 224.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"420\" y=\"206\" width=\"400\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(754.0 224.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"840\" y=\"206\" width=\"400\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1174.0 224.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"1260\" y=\"206\" width=\"404\" height=\"190\" rx=\"16\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 22,
+     "w": 300,
      "t": "Coronária instável",
-     "x": "síndrome aguda recente, angina instável",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 20,
+     "y": 100,
+     "w": 360,
+     "t": "síndrome aguda recente, angina instável",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 440,
+     "y": 22,
+     "w": 300,
      "t": "Coração descompensado",
-     "x": "insuficiência cardíaca, arritmia não controlada",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 440,
+     "y": 100,
+     "w": 360,
+     "t": "insuficiência cardíaca, arritmia não controlada",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 860,
+     "y": 22,
+     "w": 300,
      "t": "Pressão muito alta",
-     "x": "e não controlada",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
-     "t": "Febre",
-     "x": "infecção aguda",
-     "cor": "ambar"
+     "x": 860,
+     "y": 100,
+     "w": 360,
+     "t": "e não controlada",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     },
     {
-     "t": "Metabólico",
-     "x": "cetose, hipoglicemia grave recente",
-     "cor": "ambar"
-    },
-    {
-     "t": "Lesão em investigação",
-     "x": "",
-     "cor": "ambar"
-    },
-    {
+     "x": 1280,
+     "y": 22,
+     "w": 300,
      "t": "Sintoma novo no esforço",
-     "x": "que ninguém avaliou",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 1280,
+     "y": 100,
+     "w": 360,
+     "t": "que ninguém avaliou",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 228,
+     "w": 300,
+     "t": "Febre",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 20,
+     "y": 306,
+     "w": 360,
+     "t": "infecção aguda",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 440,
+     "y": 228,
+     "w": 300,
+     "t": "Metabólico",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 440,
+     "y": 306,
+     "w": 360,
+     "t": "cetose, hipoglicemia grave recente",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 860,
+     "y": 228,
+     "w": 300,
+     "t": "Lesão em investigação",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1280,
+     "y": 222,
+     "w": 360,
      "t": "A conduta",
-     "x": "“hoje não, por isso; vamos resolver e começar”",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 268,
+     "w": 364,
+     "t": "“hoje não, por isso; vamos resolver e começar”",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "As contraindicações de verdade",
+   "titulo": "Quase tudo é “agora”, não “para sempre”",
    "destaque": "O erro simétrico ao afastamento é a prescrição impossível: fracasso, culpa e abandono.",
    "destaque_cor": "tinta"
   },
   {
    "id": "remedios",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Seis classes de remédio e o que cada uma exige no treino. Betabloqueador: sem alvo de frequência cardíaca por fórmula; percepção de esforço, teste da fala, teste com o remédio. Insulina e sulfonilureia: glicemia antes, carboidrato à mão, hipoglicemia tardia. Inibidor de SGLT2: hidratação e calor; cetoacidose rara com glicemia pouco alta. Diurético: volume, eletrólitos, cãibra. Anti-hipertensivos: tontura ao terminar, então desaquecer. Estatina e anticoagulante: ouvir a dor muscular; cuidado com contato e queda\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><rect x=\"560\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(582.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1120\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1142.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><rect x=\"0\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(22.0 232.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 21h8m-4-6v6m5-18l1 7c0 3.012-2.686 5-6 5s-6-1.988-6-5l1-7z\"/><path d=\"M6 10a5 5 0 0 1 6 0a5 5 0 0 0 6 0\"/></g></g><rect x=\"560\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(582.0 232.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 12.057a1.9 1.9 0 0 0 .614.743c1.06.713 2.472.112 3.043-.919c.839-1.513-.022-3.368-1.525-4.08c-2-.95-4.371.154-5.24 2.086c-1.095 2.432.29 5.248 2.71 6.246c2.931 1.208 6.283-.418 7.438-3.255c1.36-3.343-.557-7.134-3.896-8.41c-3.855-1.474-8.2.68-9.636 4.422c-1.63 4.253.823 9.024 5.082 10.576c4.778 1.74 10.118-.941 11.833-5.59A9.4 9.4 0 0 0 21 11.063\"/></g><rect x=\"1120\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(1142.0 232.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 86,
+     "y": 30,
+     "w": 430,
+     "t": "Betabloqueador",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 96,
+     "w": 490,
+     "t": "sem alvo de FC por fórmula; percepção de esforço, fala, teste com o remédio",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 646,
+     "y": 30,
+     "w": 430,
+     "t": "Insulina, sulfonilureia",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 96,
+     "w": 490,
+     "t": "glicemia antes, carboidrato à mão, hipoglicemia tardia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1206,
+     "y": 30,
+     "w": 430,
+     "t": "Inibidor de SGLT2",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 96,
+     "w": 490,
+     "t": "hidratação e calor; cetoacidose rara com glicemia pouco alta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 86,
+     "y": 240,
+     "w": 430,
+     "t": "Diurético",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 306,
+     "w": 490,
+     "t": "volume, eletrólitos, cãibra",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 646,
+     "y": 240,
+     "w": 430,
+     "t": "Anti-hipertensivos",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 306,
+     "w": 490,
+     "t": "tontura ao terminar: desaquecer",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1206,
+     "y": 240,
+     "w": 430,
+     "t": "Estatina, anticoagulante",
+     "tam": 25,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 306,
+     "w": 490,
+     "t": "ouvir a dor muscular; contato e queda",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "O núcleo prático",
    "titulo": "Remédios que mudam a prescrição",
-   "cab": [
-    "Medicação",
-    "O que exige no treino"
-   ],
-   "larguras": [
-    30,
-    70
-   ],
-   "linhas": [
-    [
-     "Betabloqueador",
-     "sem alvo de FC por fórmula; percepção de esforço, fala, teste com o remédio"
-    ],
-    [
-     "Insulina, sulfonilureia",
-     "glicemia antes, carboidrato à mão, hipoglicemia tardia"
-    ],
-    [
-     "Inibidor de SGLT2",
-     "hidratação e calor; cetoacidose rara com glicemia pouco alta"
-    ],
-    [
-     "Diurético",
-     "volume, eletrólitos, cãibra"
-    ],
-    [
-     "Anti-hipertensivos",
-     "tontura ao terminar: desaquecer"
-    ],
-    [
-     "Estatina, anticoagulante",
-     "ouvir a dor muscular; contato e queda"
-    ]
-   ],
    "destaque": "Quem prescreve treino precisa saber o que a pessoa toma, e quem prescreve remédio precisa saber que ela treina.",
    "destaque_cor": "verm"
   },
   {
    "id": "diabetes",
-   "tipo": "numeros",
-   "eyebrow": "Diabetes tipo 2, o mais frequente",
-   "titulo": "O benefício tem prazo de validade",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma semana de sete dias desenhada. Cada sessão aeróbica deixa uma faixa de sensibilidade à insulina aumentada de 24 a 72 horas. As sessões estão espaçadas de modo que nunca passam mais de dois dias seguidos sem atividade aeróbica. Dois dias têm também força, porque o músculo é o principal destino da glicose. Em esquema\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"130\" y=\"50\" width=\"80\" height=\"50\" rx=\"10\" fill=\"#008A7E\"/><g transform=\"translate(152.0 56.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"170\" y=\"120\" width=\"440\" height=\"30\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.25\"/><line x1=\"280\" y1=\"40\" x2=\"280\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"350\" y=\"180\" width=\"80\" height=\"50\" rx=\"10\" fill=\"#B07A1C\"/><g transform=\"translate(372.0 186.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"500\" y1=\"40\" x2=\"500\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"570\" y=\"50\" width=\"80\" height=\"50\" rx=\"10\" fill=\"#008A7E\"/><g transform=\"translate(592.0 56.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"610\" y=\"120\" width=\"440\" height=\"30\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.25\"/><line x1=\"720\" y1=\"40\" x2=\"720\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><line x1=\"940\" y1=\"40\" x2=\"940\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"1010\" y=\"50\" width=\"80\" height=\"50\" rx=\"10\" fill=\"#008A7E\"/><g transform=\"translate(1032.0 56.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"1050\" y=\"120\" width=\"440\" height=\"30\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.25\"/><rect x=\"1010\" y=\"180\" width=\"80\" height=\"50\" rx=\"10\" fill=\"#B07A1C\"/><g transform=\"translate(1032.0 186.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"1160\" y1=\"40\" x2=\"1160\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><line x1=\"1380\" y1=\"40\" x2=\"1380\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"1\"/><rect x=\"1450\" y=\"50\" width=\"80\" height=\"50\" rx=\"10\" fill=\"#008A7E\"/><g transform=\"translate(1472.0 56.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"1490\" y=\"120\" width=\"110\" height=\"30\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.25\"/><line x1=\"1600\" y1=\"40\" x2=\"1600\" y2=\"260\" stroke=\"#DDD8CC\" stroke-width=\"1\"/></svg>",
+   "rotulos": [
     {
-     "n": "24 a 72 h",
-     "x": "de sensibilidade à insulina depois de uma sessão aeróbica",
-     "cor": "petr"
+     "x": 60,
+     "y": 0,
+     "w": 220,
+     "t": "seg",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "2 dias",
-     "x": "no máximo, seguidos, sem atividade aeróbica",
-     "cor": "ambar"
+     "x": 280,
+     "y": 0,
+     "w": 220,
+     "t": "ter",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "+ força",
-     "x": "o músculo é o principal destino da glicose",
-     "cor": "tinta"
+     "x": 500,
+     "y": 0,
+     "w": 220,
+     "t": "qua",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 0,
+     "w": 220,
+     "t": "qui",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 0,
+     "w": 220,
+     "t": "sex",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 0,
+     "w": 220,
+     "t": "sáb",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1380,
+     "y": 0,
+     "w": 220,
+     "t": "dom",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 280,
+     "w": 1100,
+     "t": "faixa clara: 24 a 72 h de sensibilidade à insulina depois de cada sessão aeróbica",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 316,
+     "w": 1540,
+     "t": "nunca mais de 2 dias seguidos sem aeróbio · força em 2 dias: o músculo é o principal destino da glicose · esquema",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Diabetes tipo 2, o mais frequente",
+   "titulo": "O benefício tem prazo de validade",
    "destaque": "Cuidados: hipoglicemia com insulina e sulfonilureia, inspeção dos pés, neuropatia autonômica, retinopatia. Glicemia alta com cetose: dia de resolver o controle.",
    "destaque_cor": "verm",
    "fonte": "Associação Americana de Diabetes, Diabetes Care 2016"
   },
   {
    "id": "outras",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "As outras condições",
-   "titulo": "Ajustar, não parar",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro condições, cada uma com o ajuste que pede, em vez de parar. Hipertensão: aeróbio com força; pressão descontrolada adia a sessão; desaquecer. Cardiopatia estável: a prescrição sai de um teste, compartilhada com a cardiologia. Câncer: cerca de 30 minutos, três vezes por semana, e força ao menos duas, para fadiga, humor e função. Doença renal: força no centro; proteína, sódio, potássio e fósforo com nutrição e nefrologia\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"822\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><rect x=\"842\" y=\"0\" width=\"822\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(866.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><rect x=\"0\" y=\"196\" width=\"822\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(24.0 220.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M11.46 20.846A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3a12 12 0 0 0 8.5 3a12 12 0 0 1-.09 7.06M15 19l2 2l4-4\"/></g><rect x=\"842\" y=\"196\" width=\"822\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(866.0 220.0) scale(1.0833)\"><g fill=\"#B07A1C\"><path d=\"M20 6h4v2.644c1.273-.078 2.506-.004 3.614.23c-4.7 1.85-6.863 6.605-7.217 7.383l-.022.048c-1.149-.174-2.393-.32-3.57-.309c-1.214.104-2.391.283-4.33 1.375c-.274.194-.642.51-1.143.994c-.036-.027-.075-.05-.126-.083l-.151-.096a12 12 0 0 0-1.174-.67c-1.016-.504-2.262-.933-3.483-.933v-3.879c2.111 0 4.01.717 5.305 1.36c.449.223.843.445 1.17.643a7.5 7.5 0 0 1 1.125-1.717L11.8 9.543l3.521-2.287l2.027 3.18a16 16 0 0 1 2.651-1.068zm10.757 8.691c-1.458.676-2.72 1.786-3.857 3.924c0 0-2.524-1.154-4.572-1.754c1.572-3.186 3.4-4.978 6.097-6.228c2.609-1.21 5.72-1.52 9.418-1.391L37.667 14c-3.41-.118-5.365-.025-6.91.691\"/><path d=\"M13.281 19.22c-7.263 6.478 3.112 22.673 11.413 22.673s19.73-16.181 11.413-23.599a47 47 0 0 1-.516-.468c-.688-.63-1.145-1.05-2.414-1.804c-2.552 0-4.09 2.553-4.79 4.109a1.2 1.2 0 0 1-.13.22l-1.615 4.49l-.581 2.089a1 1 0 0 0 .045.665l.68 1.57l3.517-.408l.231 1.986l-3.309.385l.215 3.151l-1.995.136l-.268-3.931l-.906-2.095a3 3 0 0 1-.137-1.996l.017-.062l-2.034.92l-1.33 3.361l-1.86-.736l1.054-2.662l-3.21-.756l.458-1.947l4.006.944L24.89 23.8l1.23-3.42c-3.168-1.489-9.674-3.985-12.84-1.162\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 96,
+     "y": 30,
+     "w": 700,
      "t": "Hipertensão",
-     "x": "aeróbio com força; pressão descontrolada adia a sessão; desaquecer",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 96,
+     "w": 770,
+     "t": "aeróbio com força; pressão descontrolada adia a sessão; desaquecer",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 938,
+     "y": 30,
+     "w": 700,
      "t": "Cardiopatia estável",
-     "x": "a prescrição sai de um teste, compartilhada com a cardiologia",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 866,
+     "y": 96,
+     "w": 770,
+     "t": "a prescrição sai de um teste, compartilhada com a cardiologia",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 96,
+     "y": 226,
+     "w": 700,
      "t": "Câncer",
-     "x": "cerca de 30 min, 3 vezes por semana, força ao menos 2; fadiga, humor, função",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 292,
+     "w": 770,
+     "t": "≈ 30 min, 3 vezes por semana, força ao menos 2; fadiga, humor, função",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 938,
+     "y": 226,
+     "w": 700,
      "t": "Doença renal",
-     "x": "força no centro; proteína, sódio, potássio e fósforo com nutrição e nefrologia",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 866,
+     "y": 292,
+     "w": 770,
+     "t": "força no centro; proteína, sódio, potássio e fósforo com nutrição e nefrologia",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "As outras condições",
+   "titulo": "Ajustar, não parar",
    "destaque": "Ninguém aumenta proteína por conta própria em quem tem doença renal, e isso inclui suplemento da loja.",
    "destaque_cor": "tinta",
    "fonte": "Mesa-redonda internacional de exercício no câncer, Med Sci Sports Exerc 2019"
   },
   {
    "id": "plano",
-   "tipo": "lista",
-   "eyebrow": "O caso, conduzido pelo que a aula construiu",
-   "titulo": "A meta não está no laudo",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Quatro etapas encadeadas até a meta. Avaliar: estabilidade, os seis remédios revisados, a função, e teste de esforço com a medicação. Começar pelo possível: levantar da cadeira com apoio, caminhadas curtas em casa. Progredir: força duas vezes por semana, intensidade pela percepção, não pela frequência cardíaca. Combinar a equipe: nutrição, nefrologia, endocrinologia; tontura ao terminar volta ao médico. A meta, à direita: voltar a subir a escada e dormir no próprio quarto\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"44\" cy=\"44\" r=\"24\" fill=\"#12202E\"/><line x1=\"304\" y1=\"190\" x2=\"326\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"330\" y=\"0\" width=\"300\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"374\" cy=\"44\" r=\"24\" fill=\"#008A7E\"/><line x1=\"634\" y1=\"190\" x2=\"656\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"660\" y=\"0\" width=\"300\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"704\" cy=\"44\" r=\"24\" fill=\"#008A7E\"/><line x1=\"964\" y1=\"190\" x2=\"986\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"990\" y=\"0\" width=\"300\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1034\" cy=\"44\" r=\"24\" fill=\"#B07A1C\"/><line x1=\"1294\" y1=\"190\" x2=\"1316\" y2=\"190\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1330\" y=\"0\" width=\"334\" height=\"380\" rx=\"16\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><g transform=\"translate(1447.0 30.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 28,
+     "w": 48,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 96,
+     "w": 260,
      "t": "Avaliar",
-     "x": "estabilidade, seis remédios revisados, função; teste de esforço com a medicação",
-     "cor": "tinta"
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 190,
+     "w": 260,
+     "t": "estabilidade, seis remédios revisados, função; teste de esforço com a medicação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 350,
+     "y": 28,
+     "w": 48,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 350,
+     "y": 96,
+     "w": 260,
      "t": "Começar pelo possível",
-     "x": "levantar da cadeira com apoio, caminhadas curtas em casa",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 350,
+     "y": 190,
+     "w": 260,
+     "t": "levantar da cadeira com apoio, caminhadas curtas em casa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 680,
+     "y": 28,
+     "w": 48,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 680,
+     "y": 96,
+     "w": 260,
      "t": "Progredir",
-     "x": "força duas vezes por semana; intensidade pela percepção, não pela FC",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 680,
+     "y": 190,
+     "w": 260,
+     "t": "força duas vezes por semana; intensidade pela percepção, não pela FC",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1010,
+     "y": 28,
+     "w": 48,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1010,
+     "y": 96,
+     "w": 260,
      "t": "Combinar a equipe",
-     "x": "nutrição, nefrologia, endocrinologia; tontura ao terminar volta ao médico",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1010,
+     "y": 190,
+     "w": 260,
+     "t": "nutrição, nefrologia, endocrinologia; tontura ao terminar volta ao médico",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1350,
+     "y": 150,
+     "w": 294,
+     "t": "A meta",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1350,
+     "y": 196,
+     "w": 294,
+     "t": "voltar a subir a escada e dormir no próprio quarto",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     }
    ],
-   "destaque": "A meta que importa: voltar a subir a escada e dormir no próprio quarto.",
-   "destaque_cor": "tinta"
+   "eyebrow": "O caso, conduzido pelo que a aula construiu",
+   "titulo": "A meta não está no laudo"
   },
   {
    "id": "regras",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "As regras que o caso entrega",
-   "titulo": "Afastar é uma intervenção",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Seis regras que o caso entrega. Afastar tem efeito adverso, e pede reavaliação. Como, não se: as contraindicações são específicas e temporárias. A medicação muda a prescrição. Comece pelo que consegue: a prescrição impossível também faz mal. Força não é opcional: é o que preserva autonomia. O desfecho nem sempre é o exame: às vezes é a escada\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(22.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g><rect x=\"560\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(582.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g><rect x=\"1120\" y=\"0\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1142.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><rect x=\"0\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(22.0 234.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6\"/><path d=\"m6 12l2-3l4-1l3 3l3 1\"/></g></g><rect x=\"560\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(582.0 234.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"1120\" y=\"210\" width=\"536\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1142.0 234.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 90,
+     "y": 28,
+     "w": 420,
      "t": "Afastar tem efeito adverso",
-     "x": "e pede reavaliação",
-     "cor": "verm"
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 112,
+     "w": 490,
+     "t": "e pede reavaliação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 650,
+     "y": 28,
+     "w": 420,
      "t": "Como, não se",
-     "x": "contraindicações específicas e temporárias",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 584,
+     "y": 112,
+     "w": 490,
+     "t": "contraindicações específicas e temporárias",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1210,
+     "y": 28,
+     "w": 420,
      "t": "A medicação muda a prescrição",
-     "x": "",
-     "cor": "ambar"
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 90,
+     "y": 238,
+     "w": 420,
      "t": "Comece pelo que consegue",
-     "x": "a prescrição impossível também faz mal",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 322,
+     "w": 490,
+     "t": "a prescrição impossível também faz mal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 650,
+     "y": 238,
+     "w": 420,
      "t": "Força não é opcional",
-     "x": "é o que preserva autonomia",
-     "cor": "petr"
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 584,
+     "y": 322,
+     "w": 490,
+     "t": "é o que preserva autonomia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1210,
+     "y": 238,
+     "w": 420,
      "t": "O desfecho nem sempre é o exame",
-     "x": "às vezes é a escada",
-     "cor": "tinta"
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 322,
+     "w": 490,
+     "t": "às vezes é a escada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "destaque_cor": "tinta"
+   "eyebrow": "As regras que o caso entrega",
+   "titulo": "Afastar é uma intervenção"
   },
   {
    "id": "niveis",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, a contribuição: o que cada um vê e entrega. O teste do pescoço na sexta; a frequência cardíaca alta para a carga depois da virose; o estridor no asmático que não melhora; a incoordenação depois do choque de cabeça; a primeira compressão, que não tem dono. Setas levam essas observações à direita, à decisão: o médico, com exames, elegibilidade, remédio e retorno; a cardiologia na zona cinzenta; a preparação, com a carga liberada; fisioterapia, nutrição e psicologia, cada uma no seu campo; e a gestão, com desfibrilador, plano e ensaio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"50\" width=\"700\" height=\"58\" rx=\"29\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"964\" y=\"50\" width=\"700\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"120\" width=\"700\" height=\"58\" rx=\"29\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"964\" y=\"120\" width=\"700\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"190\" width=\"700\" height=\"58\" rx=\"29\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"964\" y=\"190\" width=\"700\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"260\" width=\"700\" height=\"58\" rx=\"29\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"964\" y=\"260\" width=\"700\" height=\"58\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"330\" width=\"700\" height=\"58\" rx=\"29\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"964\" y=\"330\" width=\"700\" height=\"58\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 710 220 C 800 220, 840 220, 950 220\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><path d=\"M 704 79 C 740 79, 720 220, 760 220\" fill=\"none\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><path d=\"M 704 149 C 740 149, 720 220, 760 220\" fill=\"none\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><path d=\"M 704 219 C 740 219, 720 220, 760 220\" fill=\"none\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><path d=\"M 704 289 C 740 289, 720 220, 760 220\" fill=\"none\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><path d=\"M 704 359 C 740 359, 720 220, 760 220\" fill=\"none\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 700,
+     "t": "Contribuição",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 964,
+     "y": 0,
+     "w": 700,
+     "t": "Decisão",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 65,
+     "w": 660,
+     "t": "teste do pescoço na sexta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 988,
+     "y": 65,
+     "w": 660,
+     "t": "médico: exames, elegibilidade, remédio, retorno",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 135,
+     "w": 660,
+     "t": "FC alta para a carga depois da virose",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 988,
+     "y": 135,
+     "w": 660,
+     "t": "cardiologia na zona cinzenta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 205,
+     "w": 660,
+     "t": "estridor no asmático que não melhora",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 988,
+     "y": 205,
+     "w": 660,
+     "t": "preparação: carga liberada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 275,
+     "w": 660,
+     "t": "incoordenação depois do choque",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 988,
+     "y": 275,
+     "w": 660,
+     "t": "fisio, nutrição, psicologia no seu campo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 345,
+     "w": 660,
+     "t": "a primeira compressão sem dono",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 988,
+     "y": 345,
+     "w": 660,
+     "t": "gestão: desfibrilador, plano, ensaio",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O módulo nos três níveis",
    "titulo": "Decisão e contribuição",
-   "esq": {
-    "t": "Decisão",
-    "cor": "tinta",
-    "itens": [
-     "médico: exames, elegibilidade, remédio, retorno",
-     "cardiologia na zona cinzenta",
-     "preparação: carga liberada",
-     "fisio, nutrição, psicologia no seu campo",
-     "gestão: desfibrilador, plano, ensaio"
-    ]
-   },
-   "dir": {
-    "t": "Contribuição",
-    "cor": "petr",
-    "itens": [
-     "teste do pescoço na sexta",
-     "FC alta para a carga depois da virose",
-     "estridor no asmático que não melhora",
-     "incoordenação depois do choque",
-     "a primeira compressão sem dono"
-    ]
-   },
    "destaque": "A decisão administrativa que mais muda desfecho no módulo é da gestão.",
    "destaque_cor": "tinta"
   },
