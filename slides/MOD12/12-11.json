@@ -1,0 +1,1007 @@
+{
+ "arquivo": "aulas/MOD12/12-11-comunicacao-com-pais-treinadores-e-cuidadores.md",
+ "titulo": "Comunicação com pais, treinadores e cuidadores",
+ "subtitulo": "Três saídas para a mesma conversa",
+ "nota_capa": "Entra por uma saltadora de catorze anos e os adultos em volta. Fecha o módulo.",
+ "secoes": {
+  "pista": [
+   "A decisão.",
+   "capa"
+  ],
+  "familia": [
+   "Família e treinador.",
+   "familia"
+  ],
+  "saida_a": [
+   "As três saídas.",
+   "saida_a"
+  ],
+  "cuidador": [
+   "O cuidador e o registro.",
+   "cuidador"
+  ],
+  "fecho": [
+   "O fecho do módulo.",
+   "fecho"
+  ]
+ },
+ "slides": [
+  {
+   "id": "pista",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Saltadora de 14 anos na pista, com a tuberosidade da tíbia marcada. Em volta, o pai: ela não pode perder a temporada, tem a bolsa; o treinador: o regional é daqui a três semanas; a atleta: eu quero competir. Calendário com a prova em três semanas\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><g transform=\"translate(690.0 150.0) scale(5.8333)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><circle cx=\"812\" cy=\"390\" r=\"20\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"0\" y=\"20\" width=\"480\" height=\"120\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 40 138 l 0 26 l 30 -26 z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"38\" y=\"134\" width=\"36\" height=\"6\" fill=\"#F4EAD6\"/><rect x=\"1184\" y=\"20\" width=\"480\" height=\"120\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 1224 138 l 0 26 l 30 -26 z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"1222\" y=\"134\" width=\"36\" height=\"6\" fill=\"#DDEFEC\"/><rect x=\"560\" y=\"0\" width=\"520\" height=\"90\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 600 88 l 0 26 l 30 -26 z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"598\" y=\"84\" width=\"36\" height=\"6\" fill=\"#DEE7F1\"/><rect x=\"0\" y=\"250\" width=\"480\" height=\"190\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"24\" y=\"300\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"88\" y=\"300\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"152\" y=\"300\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"216\" y=\"300\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"280\" y=\"300\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"344\" y=\"300\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"408\" y=\"300\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"24\" y=\"344\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"88\" y=\"344\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"152\" y=\"344\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"216\" y=\"344\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"280\" y=\"344\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"344\" y=\"344\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"408\" y=\"344\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"24\" y=\"388\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"88\" y=\"388\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"152\" y=\"388\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"216\" y=\"388\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"280\" y=\"388\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"344\" y=\"388\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"408\" y=\"388\" width=\"52\" height=\"34\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1184\" y=\"250\" width=\"480\" height=\"190\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 34,
+     "w": 448,
+     "t": "Pai: “ela não pode perder a temporada, tem a bolsa”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 34,
+     "w": 448,
+     "t": "Treinador: “o regional é daqui a três semanas”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 576,
+     "y": 14,
+     "w": 488,
+     "t": "Ela: “eu quero competir”",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 262,
+     "w": 432,
+     "t": "prova em três semanas",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 270,
+     "w": 440,
+     "t": "apofisite da tuberosidade da tíbia, sem sinal de alarme",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Uma saltadora de 14 anos e os adultos em volta",
+   "titulo": "No atleta de base, quem decide não é o paciente"
+  },
+  {
+   "id": "saidas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três saídas. A: laudo de afastamento entregue ao treinador. B: conversas separadas, uma versão para cada adulto. C: conversa conjunta, com ela no centro, e plano escrito de carga. Pergunta: o que decide o caminho?\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"268\" cy=\"80\" r=\"50\" fill=\"#A8322A\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"80\" r=\"50\" fill=\"#B07A1C\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1396\" cy=\"80\" r=\"50\" fill=\"#008A7E\"/><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 218,
+     "y": 52,
+     "w": 100,
+     "t": "A",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 28,
+     "y": 160,
+     "w": 480,
+     "t": "laudo de afastamento entregue ao treinador",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 782,
+     "y": 52,
+     "w": 100,
+     "t": "B",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 160,
+     "w": 480,
+     "t": "conversas separadas: uma versão para cada adulto",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1346,
+     "y": 52,
+     "w": 100,
+     "t": "C",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 160,
+     "w": 480,
+     "t": "conversa conjunta, com ela no centro, e plano escrito",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "Antes de escolher: as duas relações que cercam a atleta, a família e o treinador",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A encruzilhada",
+   "titulo": "Três jeitos de conduzir a mesma conversa"
+  },
+  {
+   "id": "familia",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Espectro de famílias: ausente ou sobrecarregada, equilibrada, superenvolvida. Três regras: fale com ela, não sobre ela; pergunte: e você, o que você quer?; dê à família uma tarefa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"40\" width=\"1664\" height=\"20\" rx=\"10\" fill=\"#D9D4C8\"/><circle cx=\"140\" cy=\"50\" r=\"26\" fill=\"#3A6EA5\"/><circle cx=\"832\" cy=\"50\" r=\"26\" fill=\"#008A7E\"/><circle cx=\"1524\" cy=\"50\" r=\"26\" fill=\"#B07A1C\"/><rect x=\"0\" y=\"160\" width=\"536\" height=\"180\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 200.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"564\" y=\"160\" width=\"536\" height=\"180\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(588.0 200.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"1128\" y=\"160\" width=\"536\" height=\"180\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1152.0 200.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"0\" y=\"364\" width=\"1664\" height=\"76\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": -60,
+     "y": 90,
+     "w": 400,
+     "t": "ausente ou sobrecarregada",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 632,
+     "y": 90,
+     "w": 400,
+     "t": "equilibrada",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1324,
+     "y": 90,
+     "w": 400,
+     "t": "superenvolvida",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 116,
+     "y": 196,
+     "w": 396,
+     "t": "fale com ela, não sobre ela",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 680,
+     "y": 196,
+     "w": 396,
+     "t": "“e você, o que você quer?”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1244,
+     "y": 196,
+     "w": 396,
+     "t": "dê à família uma tarefa: sono, refeição, avisar a dor",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 384,
+     "w": 1624,
+     "t": "Para muitas famílias, o esporte é via real de bolsa: mostre que a recomendação serve a esse objetivo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A família",
+   "titulo": "Família sem tarefa cobra; com tarefa, ajuda"
+  },
+  {
+   "id": "treinador",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"O treinador e quatro pressões: avaliado por resultado em prazo curto; um grupo, não um indivíduo; pouca formação em crescimento; cultura de suportar. O que funciona: informação, não julgamento; a língua da disponibilidade; solução pronta; para a equipe inteira; crédito devolvido\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"440\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"700\" y=\"0\" width=\"964\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(724.0 96.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(724.0 162.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(724.0 228.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(724.0 294.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(724.0 360.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 592,
+     "t": "O que pesa sobre ele",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 96,
+     "w": 592,
+     "t": "· avaliado por resultado, em prazo curto",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 176,
+     "w": 592,
+     "t": "· um grupo, não um indivíduo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 256,
+     "w": 592,
+     "t": "· pouca formação em crescimento",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 336,
+     "w": 592,
+     "t": "· cultura de suportar a dor",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 724,
+     "y": 20,
+     "w": 916,
+     "t": "O que funciona",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 774,
+     "y": 98,
+     "w": 866,
+     "t": "informação, não julgamento",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 774,
+     "y": 164,
+     "w": 866,
+     "t": "a língua dele: atleta lesionada não compete",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 774,
+     "y": 230,
+     "w": 866,
+     "t": "a solução pronta, não a restrição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 774,
+     "y": 296,
+     "w": 866,
+     "t": "o que serve à equipe inteira",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 774,
+     "y": 362,
+     "w": 866,
+     "t": "o crédito devolvido quando dá certo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O treinador",
+   "titulo": "Tratado como adversário, ele vence todas as negociações"
+  },
+  {
+   "id": "saida_a",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Saída A: o laudo de afastamento. Protege no papel; consequências: o treinador se sente excluído, a atleta treina escondida, a família procura outra opinião. Lugar certo: risco real, último recurso\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"20\" width=\"340\" height=\"400\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"40\" y=\"90\" width=\"260\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"130\" width=\"210\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"170\" width=\"160\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"210\" width=\"260\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"250\" width=\"210\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"290\" width=\"160\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"40\" y=\"330\" width=\"260\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><line x1=\"350\" y1=\"220\" x2=\"420\" y2=\"50\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"430\" y=\"0\" width=\"760\" height=\"100\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"350\" y1=\"220\" x2=\"420\" y2=\"170\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"430\" y=\"120\" width=\"760\" height=\"100\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"350\" y1=\"220\" x2=\"420\" y2=\"290\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"430\" y=\"240\" width=\"760\" height=\"100\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1240\" y=\"0\" width=\"424\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 34,
+     "w": 300,
+     "t": "laudo: afastar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 454,
+     "y": 32,
+     "w": 712,
+     "t": "o treinador se sente excluído",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 454,
+     "y": 152,
+     "w": 712,
+     "t": "a atleta treina escondida ou esconde a dor",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 454,
+     "y": 272,
+     "w": 712,
+     "t": "a família procura outra opinião",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1264,
+     "y": 24,
+     "w": 376,
+     "t": "Lugar certo",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1264,
+     "y": 90,
+     "w": 376,
+     "t": "risco real e conversas que falharam: o registro por escrito protege a adolescente",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1264,
+     "y": 330,
+     "w": 376,
+     "t": "último recurso, não o primeiro",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Saída A, o laudo de afastamento",
+   "titulo": "O laudo protege no papel e perde a aliança"
+  },
+  {
+   "id": "saida_b",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Saída B: três conversas separadas. O pai ouve pode competir se doer pouco; o treinador ouve tirar todos os saltos; a atleta ouve quase nada. As versões se encontram no treino e se contradizem\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"536\" height=\"200\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"268\" y1=\"210\" x2=\"832\" y2=\"290\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"200\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"832\" y1=\"210\" x2=\"832\" y2=\"290\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"200\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"1396\" y1=\"210\" x2=\"832\" y2=\"290\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"432\" y=\"300\" width=\"800\" height=\"140\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 488,
+     "t": "o pai ouve",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 90,
+     "w": 488,
+     "t": "“pode competir se doer pouco”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 20,
+     "w": 488,
+     "t": "o treinador ouve",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 90,
+     "w": 488,
+     "t": "“tirar todos os saltos”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 20,
+     "w": 488,
+     "t": "ela ouve",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 90,
+     "w": 488,
+     "t": "quase nada",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 456,
+     "y": 324,
+     "w": 752,
+     "t": "no treino seguinte, as três versões se encontram e se contradizem",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Saída B, as conversas separadas",
+   "titulo": "Cada adulto cumpre um plano que não existe"
+  },
+  {
+   "id": "saida_c",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Saída C: uma mesa com a atleta no centro, pai, treinador e profissional. O plano escrito em quatro linhas: mantém técnica, corrida de aproximação, força de tronco e membros superiores; sai o volume de saltos, contado; a prova decidida por critério de dor, não por data; quem faz o quê\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><ellipse cx=\"300\" cy=\"230\" rx=\"240\" ry=\"120\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"300\" cy=\"80\" r=\"44\" fill=\"#3A6EA5\"/><circle cx=\"60\" cy=\"230\" r=\"44\" fill=\"#B07A1C\"/><circle cx=\"540\" cy=\"230\" r=\"44\" fill=\"#008A7E\"/><circle cx=\"300\" cy=\"380\" r=\"44\" fill=\"#12202E\"/><rect x=\"640\" y=\"0\" width=\"1024\" height=\"340\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"640\" y=\"370\" width=\"1024\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 220,
+     "y": 66,
+     "w": 160,
+     "t": "ela",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": -20,
+     "y": 216,
+     "w": 160,
+     "t": "pai",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 216,
+     "w": 160,
+     "t": "técnico",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 220,
+     "y": 366,
+     "w": 160,
+     "t": "saúde",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 664,
+     "y": 18,
+     "w": 976,
+     "t": "O plano escrito",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 664,
+     "y": 80,
+     "w": 210,
+     "t": "mantém",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 80,
+     "w": 760,
+     "t": "técnica, corrida de aproximação, força de tronco e braços",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 664,
+     "y": 142,
+     "w": 210,
+     "t": "sai",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 142,
+     "w": 760,
+     "t": "o volume de saltos, contado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 664,
+     "y": 204,
+     "w": 210,
+     "t": "a prova",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 204,
+     "w": 760,
+     "t": "decidida por critério de dor, não por data",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 664,
+     "y": 266,
+     "w": 210,
+     "t": "quem faz o quê",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 266,
+     "w": 760,
+     "t": "treinador conta, pai cuida do sono, reavaliação em 2 semanas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 388,
+     "w": 984,
+     "t": "Sem risco imediato: todos os adultos do mesmo lado, e ela dentro da decisão",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Saída C, a conversa conjunta",
+   "titulo": "A prova vira consequência de um critério, não de uma briga",
+   "fonte": "Consenso do COI sobre desenvolvimento do jovem atleta, Br J Sports Med 2015"
+  },
+  {
+   "id": "cuidador",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Na outra ponta da vida: a dançarina na casa dos oitenta e a filha, que quer que ela pare de dançar para não cair. As mesmas regras: fale com ela, não sobre ela; a decisão é dela; dê à cuidadora uma tarefa: a casa segura, ir junto ao baile. O risco explicado com número: exercício reduz quedas\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><g transform=\"translate(30.0 60.0) scale(5.0000)\"><path fill=\"#A8322A\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><g transform=\"translate(270.0 100.0) scale(4.1667)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><rect x=\"260\" y=\"0\" width=\"420\" height=\"90\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 300 88 l 0 26 l 30 -26 z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"298\" y=\"84\" width=\"36\" height=\"6\" fill=\"#F4EAD6\"/><rect x=\"760\" y=\"0\" width=\"904\" height=\"96\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"760\" y=\"112\" width=\"904\" height=\"96\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"760\" y=\"224\" width=\"904\" height=\"96\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"760\" y=\"336\" width=\"904\" height=\"96\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 330,
+     "w": 300,
+     "t": "a dançarina",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 250,
+     "y": 330,
+     "w": 240,
+     "t": "a filha",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 276,
+     "y": 14,
+     "w": 388,
+     "t": "“melhor parar, para não cair”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 784,
+     "y": 30,
+     "w": 856,
+     "t": "fale com ela, não sobre ela",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 784,
+     "y": 142,
+     "w": 856,
+     "t": "a decisão é dela: autonomia também é saúde",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 784,
+     "y": 254,
+     "w": 856,
+     "t": "tarefa da cuidadora: a casa segura, ir junto ao baile",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 784,
+     "y": 366,
+     "w": 856,
+     "t": "o risco com número: o exercício certo reduz quedas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Na outra ponta da vida",
+   "titulo": "A cuidadora sem tarefa proíbe; com tarefa, ajuda"
+  },
+  {
+   "id": "registro",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Ficha de registro em cinco linhas: o que foi avaliado; o que foi recomendado; o que foi combinado e com quem; o critério de reavaliação; o que não foi acatado. Com vários adultos envolvidos, o registro é a memória do que foi combinado\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"440\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"60\" cy=\"56\" r=\"22\" fill=\"#008A7E\"/><line x1=\"100\" y1=\"94\" x2=\"1060\" y2=\"94\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"136\" r=\"22\" fill=\"#008A7E\"/><line x1=\"100\" y1=\"174\" x2=\"1060\" y2=\"174\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"216\" r=\"22\" fill=\"#008A7E\"/><line x1=\"100\" y1=\"254\" x2=\"1060\" y2=\"254\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"296\" r=\"22\" fill=\"#008A7E\"/><line x1=\"100\" y1=\"334\" x2=\"1060\" y2=\"334\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"376\" r=\"22\" fill=\"#008A7E\"/><line x1=\"100\" y1=\"414\" x2=\"1060\" y2=\"414\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"1160\" y=\"0\" width=\"504\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 42,
+     "w": 40,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 40,
+     "w": 960,
+     "t": "o que foi avaliado",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 122,
+     "w": 40,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 120,
+     "w": 960,
+     "t": "o que foi recomendado",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 202,
+     "w": 40,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 200,
+     "w": 960,
+     "t": "o que foi combinado, e com quem",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 282,
+     "w": 40,
+     "t": "4",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 280,
+     "w": 960,
+     "t": "o critério de reavaliação",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 362,
+     "w": 40,
+     "t": "5",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 360,
+     "w": 960,
+     "t": "o que não foi acatado",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1184,
+     "y": 40,
+     "w": 456,
+     "t": "Com vários adultos envolvidos, o registro é a memória do que foi combinado.",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O registro, nas duas pontas",
+   "titulo": "Cinco linhas para retomar a conversa onde parou"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fecho do módulo · três níveis",
+   "titulo": "Dos três meninos na peneira à dançarina de volta ao salão",
+   "regras": [
+    "Decisão: a medicina estima maturação, diagnostica, faz triagem e investiga; quem treina e a fisioterapia decidem caminho, força e plano",
+    "Contribuição: a curva de altura da família, os saltos contados, o trimestre no clube, a cuidadora que acompanha",
+    "Reconhecimento: os 12 cm num ano, a “dor do crescimento”, o dispensado de dezembro, a força caindo, o medo de cair"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina e fisioterapia",
+     "x": "Maturação, esqueleto imaturo, triagem, quedas e investigação no máster."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Gestos contados, força do jovem ao idoso, equilíbrio, plano que envelhece."
+    },
+    {
+     "ic": "t:users",
+     "t": "Todos",
+     "x": "Próximo módulo: o atleta amador e o praticante recreacional."
+    }
+   ]
+  }
+ ],
+ "modulo": "Atleta Adolescente e Atleta Idoso",
+ "tema": "musgo"
+}

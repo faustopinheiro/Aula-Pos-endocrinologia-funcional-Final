@@ -57,6 +57,7 @@ No spec, a chave `"tema"` escolhe o conjunto (sem ela, vale tinta).
 | 7, 8 e 9 | `tinta` | `#12202E` | `#1B2E3F` | `#7FC4BE` | `#E88C7D` |
 | 10 | `anil` | `#1C2340` | `#283056` | `#E6C08A` | `#8FD3C8` |
 | 11 | `terra` | `#33231B` | `#45302A` | `#E6C08A` | `#8FD3C8` |
+| 12 | `musgo` | `#1E2A22` | `#2A3A2F` | `#E6C08A` | `#F2A58F` |
 
 Todas as combinações de texto sobre o fundo passam de 5:1 de contraste.
 
@@ -139,4 +140,4 @@ funcionava é o dos Módulos 1 e 2, e é ele que vale daqui em diante:
 Os tipos de layout prontos do gerador (`painel`, `versus`, `pergunta`, `hero`, `pictograma`,
 `icones`, `checklist`, `fluxo`, `espectro`, `ciclo`, `matriz`, `linha_tempo`, `barras`) continuam
 disponíveis para um slide ou outro, mas o padrão é o `diagrama` desenhado para a ideia. O fecho
-tem ícones e não anuncia a próxima aula na tela. O Módulo 10 usa o tema `anil` na capa e no fecho, e o Módulo 11, o tema `terra`.
+tem ícones e não anuncia a próxima aula na tela. O Módulo 10 usa o tema `anil` na capa e no fecho, o Módulo 11, o tema `terra`, e o Módulo 12, o tema `musgo`.

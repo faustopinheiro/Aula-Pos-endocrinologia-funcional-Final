@@ -428,19 +428,37 @@ atleta adolescente e no atleta idoso, que abrem o Módulo 12.
 
 ## Módulo 12 — Atleta Adolescente e Atleta Idoso · 11 aulas
 
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 12.1 | Crescimento e maturação | M12-A01 | PRONTA |
-| 12.2 | Pico de velocidade de crescimento e vulnerabilidade | M12-A01 parcial | PARCIAL |
-| 12.3 **[M]** | Especialização precoce | M12-A03 | PARCIAL |
-| 12.4 | Efeito da idade relativa | M12-A02 | PRONTA |
-| 12.5 | Lesões do esqueleto imaturo | M12-A05 + M12-A06 | FUNDIR |
-| 12.6 | Treinamento de força no jovem | M12-A04 | PRONTA |
-| 12.7 **[M]** | Sarcopenia e exercício como contramedida | M14-A02 + M14-A03 | FUNDIR |
-| 12.8 | Prescrição de força no idoso | M14-A02 parcial | PARCIAL |
-| 12.9 | O atleta máster | M14-A01 + M14-A05 | FUNDIR |
-| 12.10 | Fragilidade, risco de queda e capacidade funcional | — | NOVA |
-| 12.11 | Comunicação com pais, treinadores e cuidadores | M12-A09 | PRONTA |
+**ESCRITO NA VOZ DO CURSO, NO MODELO DO MÓDULO 10.** Slides em número definido pelo conteúdo, cada um
+com desenho próprio, títulos que afirmam e ícones só como apoio. Capa e fecho em musgo (docs/08).
+Um caso clínico no módulo, sem nome e com meses ilustrativos (12.9, a única aula CASO); os demais são
+perfis típicos, sem nome e sem desfecho. Rodízio de modalidade: futebol, basquete, tênis, handebol,
+vôlei, natação, corrida, ciclismo, triatlo, dança de salão e atletismo. Nenhum autor citado por nome
+na fala.
+
+A 12.3 e a 12.7 estavam planejadas como mestras e ficaram com duração de aula padrão: a especialização
+precoce coube numa DECISÃO com três saídas, e a sarcopenia remete à conversa sobre proteína do Módulo 4
+(dose por refeição, PROT-AGE) e à conversa sobre destreino do Módulo 3 em vez de repeti-las. A
+prescrição de força no idoso, que estava dentro da aula antiga de sarcopenia, virou um PROCEDIMENTO
+próprio (12.8), e a 12.10 é aula nova. A metade do idoso fecha com a cuidadora da dançarina da 12.10,
+retomada na 12.11.
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 12.1 | Crescimento e maturação | 11 | 8 | ERRO | [slides](https://claude.ai/artifact/EFbEhfGjyEk6cq5oU7Y3fT) |
+| 12.2 | Pico de velocidade de crescimento e vulnerabilidade | 10 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/AQbVWdguJhzMVVZirN6AeK) |
+| 12.3 | Especialização precoce | 12 | 9 | DECISÃO | [slides](https://claude.ai/artifact/QQdwk6n9JveUYxgb2suZK6) |
+| 12.4 | Efeito da idade relativa | 13 | 9 | NÚMERO | [slides](https://claude.ai/artifact/4s7ZZ5XohX1NJ7SyXHeQxi) |
+| 12.5 | Lesões do esqueleto imaturo | 13 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/UVV6WT6ZRxwtZ3KeuKCMei) |
+| 12.6 | Treinamento de força no jovem | 12 | 9 | ERRO | [slides](https://claude.ai/artifact/Gt5jZWBHtYPCsVHjDVQD1i) |
+| 12.7 | Sarcopenia e exercício como contramedida | 11 | 9 | NÚMERO | [slides](https://claude.ai/artifact/EvE6c2Y5Cd54dE5TjoMgwk) |
+| 12.8 | Prescrição de força no idoso | 11 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/9nnGjuVK9WrNyKjiYfDDcE) |
+| 12.9 | O atleta máster | 12 | 9 | CASO | [slides](https://claude.ai/artifact/QGpq5Z2VF5iYs8T7igdnPC) |
+| 12.10 | Fragilidade, risco de queda e capacidade funcional | 11 | 9 | NÚMERO | [slides](https://claude.ai/artifact/EB4GYJPkPQM2ubb6RVJPNp) |
+| 12.11 | Comunicação com pais, treinadores e cuidadores | 13 | 10 | DECISÃO | [slides](https://claude.ai/artifact/8vWwa89ZRc43trd1tpA2cS) |
+
+Total: 2 h 9 min em 11 aulas, 99 slides. A 12.11 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda no atleta amador e no
+praticante recreacional, que abrem o Módulo 13.
 
 ## Módulo 13 — O Atleta Amador e o Praticante Recreacional · 11 aulas
 
