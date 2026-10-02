@@ -1338,6 +1338,247 @@ def desempate_96():
     return slide("desempate", 340, p, rs, eyebrow="Passo quatro · quando os aparelhos discordam", titulo="Cada medida manda num tipo de treino",
                  destaque="A conferência final é o dia seguinte. “Fácil” que deixa cansaço pede âncora nova.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 9.7
+
+def coletes_97():
+    """9.7: seis coletes pendurados, uma pilha de relatórios e o espaço vazio da conclusão."""
+    p = [svg_abre(1664, 340, "Seis coletes de GPS pendurados, emprestados a um time amador para os treinos de terça e quinta. Ao lado, uma pilha de relatórios: distância, velocidade máxima, sprints, acelerações. Na ponta, a caixa da conclusão, vazia. Embaixo: todo relógio esportivo já é um GPS"), defs(MUDO)]
+    rs = []
+    p.append(f'<line x1="0" y1="30" x2="560" y2="30" stroke="{MUDO}" stroke-width="4"/>')
+    for j in range(6):
+        x = 20 + j * 90
+        p.append(f'<path d="M {x + 35} 30 L {x + 35} 50 M {x} 60 L {x + 20} 50 L {x + 50} 50 L {x + 70} 60 L {x + 62} 170 L {x + 8} 170 Z" fill="{GLIC}" stroke="{TINTA}" stroke-width="2"/>')
+    rs.append(rot(0, 190, "seis coletes emprestados · terça e quinta", w=560, tam=20, cor=TINTA, peso=700, alinha="center"))
+    for j in range(4):
+        p.append(f'<rect x="{640 + j * 10}" y="{40 + j * 10}" width="400" height="200" rx="8" fill="{CARTAO}" stroke="{BORDA}" stroke-width="2"/>')
+    for j, t in enumerate(["distância", "velocidade máxima", "sprints", "acelerações"]):
+        rs.append(rot(696, 90 + j * 40, "· " + t, w=320, tam=20, cor=TINTA))
+    p.append(seta(1080, 150, 1160, 150, MUDO, "m0", esp=3))
+    p.append(f'<rect x="1176" y="60" width="488" height="180" rx="16" fill="{CARTAO}" stroke="{FOSF}" stroke-width="3"{TRACO}/>')
+    rs += [rot(1176, 100, "conclusão", w=488, tam=26, cor=FOSF, peso=700, alinha="center", serif=True), rot(1176, 150, "?", w=488, tam=48, cor=FOSF, peso=700, alinha="center")]
+    p.append(caixa(0, 270, 1664, 70, TINTA, TINTA, esp=0, rx=14))
+    p.append(icone("t:clock", 24, 283, 44, PAPEL))
+    rs.append(rot(84, 290, "o mesmo vale para quem atende o indivíduo: todo relógio esportivo já é um GPS", w=1560, tam=22, cor=PAPEL, peso=700))
+    return slide("coletes", 340, p, rs, eyebrow="Seis coletes emprestados", titulo="Uma pilha de relatórios e nenhuma conclusão.")
+
+
+def externa_97():
+    """9.7: os mesmos dez quilômetros no GPS de duas pessoas, e custos diferentes do lado de dentro."""
+    p = [svg_abre(1664, 340, "À esquerda, carga externa: o GPS registra os mesmos 10 km para duas pessoas; é igual para qualquer um. À direita, carga interna: o custo desses 10 km muda com sono, turno, calor e cansaço; uma barra curta, outra longa; isso não está no relatório. No meio, a relação entre as duas é a informação útil")]
+    rs = []
+    p.append(caixa(0, 0, 720, 340, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 16, "Carga externa · o que foi feito", w=680, tam=24, cor=TINTA, peso=700, serif=True))
+    for k in range(2):
+        y = 90 + k * 100
+        p.append(icone("h:running", 30, y, 56, TINTA))
+        p.append(f'<rect x="110" y="{y + 10}" width="460" height="40" rx="8" fill="{TINTA}"/>')
+        rs.append(rot(590, y + 14, "10 km", w=120, tam=26, cor=TINTA, peso=700, serif=True))
+    rs.append(rot(24, 300, "distância, velocidade, acelerações: é o que o GPS mede", w=680, tam=19, cor=TINTA))
+    rs.append(rot(720, 140, "÷", w=224, tam=60, cor=OXID, peso=700, alinha="center"))
+    rs.append(rot(720, 220, "a relação é a informação útil", w=224, tam=18, cor=OXID, peso=700, alinha="center", lh=1.2))
+    p.append(caixa(944, 0, 720, 340, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(968, 16, "Carga interna · o que custou", w=680, tam=24, cor=OXID, peso=700, serif=True))
+    for k, (w, d) in enumerate([(260, "dormiu bem"), (560, "cinco horas de sono, veio do turno")]):
+        y = 100 + k * 100
+        p.append(f'<rect x="968" y="{y}" width="{w}" height="40" rx="8" fill="{OXID if k == 0 else FOSF}"/>')
+        rs.append(rot(968, y + 46, d, w=660, tam=18, cor=TINTA))
+    rs.append(rot(968, 300, "sono, turno, calor, cansaço: não está no relatório", w=680, tam=19, cor=TINTA))
+    return slide("externa", 340, p, rs, eyebrow="Erro um", titulo="Tratar o que foi feito como se fosse o que custou",
+                 destaque="Complementares. A informação útil vem da relação entre as duas.", destaque_cor="tinta",
+                 fonte="Consenso de monitoramento de carga, Int J Sports Physiol Perform 2017")
+
+
+def amostragem_97():
+    """9.7: o mesmo sprint com mudança de direção traçado com poucos e com muitos registros por segundo."""
+    p = [svg_abre(1664, 340, "O mesmo sprint com mudança de direção, traçado duas vezes sobre a trajetória real. Com poucos registros por segundo, cinco, a linha corta os cantos e subestima o que é curto e intenso. Com dez registros por segundo, a linha acompanha a curva; no estudo contra um laser, foi mais válida e confiável, sobretudo em aceleração e desaceleração")]
+    rs = []
+    import math
+    for k, (t, n, cor, fundo) in enumerate([("5 registros por segundo", 5, FOSF, FOSF_T), ("10 registros por segundo", 10, OXID, OXID_T)]):
+        x0 = k * 844
+        p.append(caixa(x0, 0, 820, 340, cor, fundo, esp=2, rx=16))
+        rs.append(rot(x0 + 24, 16, t, w=760, tam=24, cor=cor, peso=700, serif=True))
+        real = []
+        for i in range(41):
+            u = i / 40
+            real.append((x0 + 60 + u * 700, 230 - 140 * math.sin(math.pi * u) ** 2))
+        p.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in real) + f'" fill="none" stroke="{MUDO}" stroke-width="3"{TRACO}/>')
+        amos = [real[int(i * 40 / n)] for i in range(n + 1)]
+        p.append('<polyline points="' + " ".join(f"{x:.0f},{y:.0f}" for x, y in amos) + f'" fill="none" stroke="{cor}" stroke-width="5"/>')
+        for x, y in amos:
+            p.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="7" fill="{cor}"/>')
+        rs.append(rot(x0 + 24, 268, "corta os cantos; subestima o curto e intenso" if k == 0 else "acompanha a curva; mais válido e confiável", w=760, tam=21, cor=TINTA, peso=700))
+    rs.append(rot(24, 304, "tracejado: trajetória real · esquema", w=600, tam=17, cor=MUDO))
+    return slide("amostragem", 340, p, rs, eyebrow="Erro dois", titulo="Comparar números de aparelhos diferentes",
+                 destaque="Trocou de fornecedor ou de relógio: a série começa de novo.", destaque_cor="tinta", fonte="J Sports Sci 2012")
+
+
+def limiar_97():
+    """9.7: dois relatórios com o mesmo número e limiares diferentes, e o mesmo limiar fixo em dois jogadores."""
+    p = [svg_abre(1664, 340, "À esquerda, dois relatórios dizendo 800 m em alta intensidade, cada um com o limiar de velocidade escrito em letra miúda e diferente: o do fabricante A e o definido pelo usuário. À direita, o mesmo limiar fixo marcado sobre a escala de velocidade de dois jogadores: para um, é o máximo; para o outro, mais rápido, é trote")]
+    rs = []
+    for k, t in enumerate(["limiar do fabricante A", "limiar definido pelo usuário"]):
+        x = k * 380
+        p.append(caixa(x, 0, 350, 300, GLIC, CARTAO, esp=2, rx=14))
+        rs += [rot(x + 20, 30, "alta intensidade", w=310, tam=18, cor=MUDO, peso=700), rot(x + 20, 70, "800 m", w=310, tam=52, cor=GLIC, peso=700, serif=True),
+               rot(x + 20, 240, t, w=310, tam=15, cor=MUDO)]
+    rs.append(rot(0, 310, "o mesmo número, limiares diferentes", w=730, tam=19, cor=TINTA, peso=700))
+    p.append(caixa(800, 0, 864, 340, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(824, 16, "Absoluto ou relativo", w=800, tam=24, cor=GLIC, peso=700, serif=True))
+    for k, (t, w, nota) in enumerate([("jogador 1", 500, "máximo"), ("jogador 2", 720, "trote")]):
+        y = 100 + k * 100
+        rs.append(rot(824, y + 6, t, w=140, tam=19, cor=TINTA, peso=700))
+        p.append(f'<rect x="980" y="{y}" width="{w * 0.85:.0f}" height="36" rx="18" fill="{CINZA}" opacity="0.6"/>')
+        p.append(f'<rect x="980" y="{y}" width="{w * 0.85:.0f}" height="36" rx="18" fill="none" stroke="{TINTA}" stroke-width="2"/>')
+    p.append(f'<line x1="1405" y1="80" x2="1405" y2="260" stroke="{FOSF}" stroke-width="4"/>')
+    rs += [rot(1300, 270, "limiar fixo", w=210, tam=19, cor=FOSF, peso=700, alinha="center"),
+           rot(1416, 104, "= o máximo dele", w=230, tam=18, cor=FOSF, peso=700), rot(1416, 204, "= trote para ele", w=230, tam=18, cor=OXID, peso=700)]
+    return slide("limiar", 340, p, rs, eyebrow="Erro três", titulo="Comparar números sem olhar o limiar",
+                 destaque="Sem o limiar escrito, o número não se compara com nada.", destaque_cor="verm", fonte="Revisão sistemática, Sports Med 2013")
+
+
+def campo_97():
+    """9.7: o cone de visão do GPS cobrindo terça e quinta, e o que fica fora dele."""
+    p = [svg_abre(1664, 320, "Um cone de visão saindo do GPS e iluminando a terça e a quinta, os treinos com colete, medidos muito bem. Fora do cone, no escuro, o trabalho em turno e o jogo de sábado. Quem decide para onde apontar é você")]
+    rs = []
+    p.append(f'<path d="M 120 160 L 900 20 L 900 300 Z" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"/>')
+    p.append(f'<circle cx="120" cy="160" r="44" fill="{OXID}"/>')
+    p.append(icone("t:target", 96, 136, 48, PAPEL))
+    for j, t in enumerate(["terça", "quinta"]):
+        y = 90 + j * 100
+        p.append(caixa(600, y, 260, 70, OXID, OXID, esp=0, rx=12))
+        rs.append(rot(600, y + 20, t, w=260, tam=24, cor=PAPEL, peso=700, alinha="center"))
+    rs.append(rot(260, 270, "dentro do campo de visão: medido muito bem", w=600, tam=19, cor=OXID, peso=700))
+    for j, (ic, t) in enumerate([("t:building-hospital", "o trabalho em turno"), ("t:ball-football", "o jogo de sábado")]):
+        y = 60 + j * 120
+        p.append(caixa(1000, y, 664, 96, MUDO, PAPEL, esp=2, rx=14))
+        p.append(icone(ic, 1024, y + 24, 48, MUDO))
+        rs.append(rot(1094, y + 30, t, w=540, tam=24, cor=TINTA, peso=700))
+    rs.append(rot(1000, 290, "fora do campo de visão", w=664, tam=19, cor=MUDO, peso=700))
+    return slide("campo", 320, p, rs, eyebrow="A ideia da aula", titulo="O GPS mede muito bem o que está dentro do campo de visão dele. Quem decide para onde apontar é você.")
+
+
+def acelerometro_97():
+    """9.7: três eixos somados num índice de volume de movimento, e o tendão e a articulação fora do alcance."""
+    p = [svg_abre(1664, 340, "À esquerda, três setas de eixos, x, y e z, somadas num índice: volume de movimento, que capta saltos, impactos e mudanças de direção e diz mais que a distância para goleiro e futsal. À direita, um tendão e uma articulação com um ponto de interrogação: a força que os atravessa não é medida; carga mecânica e fisiológica seguem caminhos diferentes"), defs(OXID)]
+    rs = []
+    p.append(caixa(0, 0, 820, 340, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "O que ele mede", w=760, tam=24, cor=OXID, peso=700, serif=True))
+    cx, cy = 150, 180
+    for (dx, dy, t) in [(110, 0, "x"), (0, -100, "z"), (-70, 70, "y")]:
+        p.append(seta(cx, cy, cx + dx, cy + dy, OXID, "m0", esp=4))
+        rs.append(rot(cx + dx * 1.2 - 15, cy + dy * 1.2 - 14, t, w=30, tam=20, cor=OXID, peso=700, alinha="center"))
+    p.append(seta(300, 180, 380, 180, OXID, "m0", esp=4))
+    p.append(caixa(392, 120, 400, 120, OXID, OXID, esp=0, rx=14))
+    rs += [rot(392, 140, "índice somado", w=400, tam=22, cor=PAPEL, peso=700, alinha="center"), rot(392, 180, "volume de movimento", w=400, tam=19, cor=PAPEL, alinha="center"),
+           rot(24, 280, "saltos, impactos, mudanças de direção · goleiro e futsal", w=780, tam=19, cor=TINTA, peso=700)]
+    p.append(caixa(844, 0, 820, 340, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(868, 16, "O que ele não mede", w=760, tam=24, cor=FOSF, peso=700, serif=True))
+    p.append(f'<path d="M 920 100 C 980 120, 1000 200, 1060 230" fill="none" stroke="{GLIC}" stroke-width="22" stroke-linecap="round"/>')
+    p.append(f'<circle cx="1260" cy="160" r="60" fill="{CARTAO}" stroke="{MUDO}" stroke-width="4"/>')
+    p.append(f'<circle cx="1260" cy="160" r="24" fill="{CINZA}"/>')
+    rs += [rot(940, 250, "tendão", w=160, tam=19, cor=TINTA, peso=700, alinha="center"), rot(1180, 236, "articulação", w=160, tam=19, cor=TINTA, peso=700, alinha="center"),
+           rot(1360, 120, "?", w=80, tam=56, cor=FOSF, peso=700, alinha="center"),
+           rot(868, 286, "carga mecânica e fisiológica seguem caminhos diferentes", w=780, tam=19, cor=TINTA, peso=700)]
+    return slide("acelerometro", 340, p, rs, eyebrow="Erro quatro", titulo="Ler o acelerômetro como carga no tecido",
+                 destaque="É volume de movimento, não estresse de tecido.", destaque_cor="tinta", fonte="Revisão, Sports Med 2017")
+
+
+def fora_97():
+    """9.7: a semana do time, com o colete só na terça e na quinta, e a pergunta da segunda-feira."""
+    p = [svg_abre(1664, 360, "A semana do time em casas de dia. Terça e quinta, com colete, medidas muito bem. Em dias de trabalho em turno, esforço alto em treino que o grupo achava moderado, sem colete. No sábado, metade do elenco jogava outra partida, sem ninguém contar. Na segunda-feira, um balão com a pergunta que corrigiu: jogou no fim de semana? quantos minutos?")]
+    rs = []
+    dias = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
+    tipo = ["pergunta", "colete", "turno", "colete", "turno", "jogo", ""]
+    for j, (d, t) in enumerate(zip(dias, tipo)):
+        x = j * 236
+        rs.append(rot(x, 0, d, w=216, tam=20, cor=MUDO, peso=700, alinha="center"))
+        if t == "colete":
+            p.append(caixa(x, 36, 216, 160, OXID, OXID, esp=0, rx=14))
+            rs.append(rot(x, 96, "com colete", w=216, tam=21, cor=PAPEL, peso=700, alinha="center"))
+        elif t == "turno":
+            p.append(f'<rect x="{x}" y="36" width="216" height="160" rx="14" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="3"{TRACO}/>')
+            p.append(icone("t:building-hospital", x + 84, 60, 48, GLIC))
+            rs.append(rot(x, 130, "turno, sem colete", w=216, tam=18, cor=GLIC, peso=700, alinha="center"))
+        elif t == "jogo":
+            p.append(f'<rect x="{x}" y="36" width="216" height="160" rx="14" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="3"{TRACO}/>')
+            p.append(icone("t:ball-football", x + 84, 60, 48, FOSF))
+            rs.append(rot(x + 8, 120, "outro jogo, ninguém contava", w=200, tam=18, cor=FOSF, peso=700, alinha="center", lh=1.15))
+        elif t == "pergunta":
+            p.append(caixa(x, 36, 216, 160, TINTA, TINTA, esp=0, rx=14))
+            p.append(icone("t:message-circle", x + 84, 56, 48, PAPEL))
+            rs.append(rot(x + 8, 116, "a pergunta", w=200, tam=19, cor=PAPEL, peso=700, alinha="center"))
+        else:
+            p.append(f'<rect x="{x}" y="36" width="216" height="160" rx="14" fill="{PAPEL}" stroke="{BORDA}" stroke-width="2"/>')
+    rs.append(rot(1200, 204, "dias ilustrativos", w=464, tam=16, cor=MUDO, alinha="right"))
+    p.append(caixa(0, 230, 1664, 130, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:message-circle", 24, 268, 52, TINTA))
+    rs += [rot(96, 254, "A correção, na segunda-feira", w=1540, tam=22, cor=MUDO, peso=700),
+           rot(96, 292, "“Jogou no fim de semana? Quantos minutos?”", w=1540, tam=30, cor=TINTA, peso=700, serif=True)]
+    return slide("fora", 360, p, rs, eyebrow="Erro cinco", titulo="Medir só o que o colete vê")
+
+
+def vale_97():
+    """9.7: a progressão da velocidade no retorno de lesão, sessão a sessão, e a pergunta antes de comprar."""
+    p = [svg_abre(1664, 340, "À esquerda, em esquema, onde o GPS paga: o retorno de lesão muscular, com barras sessão a sessão da fração da própria velocidade máxima atingida, subindo em degraus documentados até perto de cem por cento. À direita, antes de comprar coletes: que decisão isso vai mudar? O mesmo dinheiro compra saúde em outro lugar?")]
+    rs = []
+    p.append(caixa(0, 0, 900, 340, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "Onde o GPS paga: o retorno de lesão muscular", w=860, tam=23, cor=OXID, peso=700, serif=True))
+    B = 270
+    for j, v in enumerate([0.6, 0.65, 0.72, 0.78, 0.85, 0.9, 0.95]):
+        x = 60 + j * 116
+        p.append(f'<rect x="{x}" y="{B - v * 190:.0f}" width="84" height="{v * 190:.0f}" rx="6" fill="{OXID}" opacity="{0.55 + j * 0.06:.2f}"/>')
+    p.append(f'<line x1="40" y1="{B - 190}" x2="880" y2="{B - 190}" stroke="{TINTA}" stroke-width="2"{TRACO}/>')
+    rs += [rot(600, 50, "velocidade máxima dele", w=280, tam=17, cor=TINTA, alinha="right"),
+           rot(40, 286, "sessões · fração da própria velocidade máxima · esquema", w=840, tam=18, cor=MUDO)]
+    p.append(caixa(960, 0, 704, 340, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(984, 16, "Antes de comprar coletes", w=660, tam=24, cor=GLIC, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:question-mark", "que decisão isso vai mudar?"), ("t:scale", "o mesmo dinheiro compra saúde em outro lugar?")]):
+        y = 100 + j * 100
+        p.append(icone(ic, 984, y, 48, GLIC))
+        rs.append(rot(1050, y + 6, t, w=590, tam=24, cor=TINTA, peso=700, lh=1.25))
+    return slide("vale", 340, p, rs, eyebrow="Onde vale o que custa", titulo="O retorno de lesão, e a pergunta antes de comprar",
+                 destaque="Conversa com a exposição à velocidade máxima da aula de velocidade.", destaque_cor="tinta")
+
+
+def pulso_97():
+    """9.7: o relógio que classifica a semana em fácil, moderado e forte, e os limites do sinal."""
+    p = [svg_abre(1664, 340, "À esquerda, um relógio de pulso com a semana classificada em fácil, moderado e forte, e a distribuição em barras: o uso mais valioso, o diagnóstico da zona cinzenta visto pelo relógio. À direita, o cuidado: celular erra mais; prédios altos e trilha fechada também. Serve para tendência e volume, não para comparar tiros")]
+    rs = []
+    p.append(f'<rect x="40" y="20" width="260" height="300" rx="60" fill="{TINTA}"/>')
+    p.append(f'<rect x="64" y="60" width="212" height="220" rx="40" fill="#1E3346"/>')
+    for j, (t, h, cor) in enumerate([("F", 40, OXID), ("M", 150, MUDO), ("F", 30, FOSF)]):
+        x = 90 + j * 64
+        p.append(f'<rect x="{x}" y="{250 - h}" width="44" height="{h}" rx="6" fill="{cor}"/>')
+    rs += [rot(340, 30, "O uso mais valioso", w=560, tam=24, cor=OXID, peso=700, serif=True),
+           rot(340, 80, "classificar a semana em fácil, moderado e forte, e ver a distribuição", w=560, tam=21, cor=TINTA, lh=1.3),
+           rot(340, 180, "é o diagnóstico da zona cinzenta, visto pelo relógio", w=560, tam=21, cor=OXID, peso=700, lh=1.3)]
+    p.append(caixa(960, 0, 704, 340, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(984, 16, "O cuidado", w=660, tam=24, cor=GLIC, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:id", "celular erra mais que relógio dedicado"), ("t:building-hospital", "prédios altos e trilha fechada também"), ("t:chart-line", "tendência e volume, sim; comparar tiros, não")]):
+        y = 84 + j * 76
+        p.append(icone(ic, 984, y, 44, GLIC))
+        rs.append(rot(1046, y + 8, t, w=600, tam=21, cor=TINTA, peso=700 if j == 2 else 400))
+    return slide("pulso", 340, p, rs, eyebrow="O GPS que o paciente já tem", titulo="De graça, no pulso")
+
+
+def correcoes_97():
+    """9.7: cinco erros, cada um com a sua correção ao lado."""
+    p = [svg_abre(1664, 400, "Cinco linhas, erro e correção. Carga externa tomada como carga: percepção de esforço ao lado de cada linha. Aparelhos diferentes comparados: série nova a cada troca. Limiar esquecido: limiar escrito em todo relatório. Acelerômetro lido como estresse de tecido: tratá-lo como volume de movimento. Só o que o colete vê: perguntar pelo que aconteceu fora dele"), defs(MUDO)]
+    rs = []
+    linhas = [("Carga externa tomada como carga", "percepção de esforço ao lado de cada linha"), ("Aparelhos diferentes comparados", "série nova a cada troca"),
+              ("Limiar esquecido", "limiar escrito em todo relatório"), ("Acelerômetro lido como estresse de tecido", "tratá-lo como volume de movimento"),
+              ("Só o que o colete vê", "perguntar pelo que aconteceu fora dele")]
+    for k, (e, c) in enumerate(linhas):
+        y = k * 80
+        p.append(caixa(0, y, 720, 66, FOSF, FOSF_T, esp=2, rx=12))
+        p.append(icone("t:x", 16, y + 15, 36, FOSF))
+        rs.append(rot(66, y + 20, e, w=640, tam=21, cor=TINTA, peso=700))
+        p.append(seta(732, y + 33, 792, y + 33, MUDO, "m0", esp=3))
+        p.append(caixa(806, y, 858, 66, OXID, OXID_T, esp=2, rx=12))
+        p.append(icone("t:check", 822, y + 15, 36, OXID))
+        rs.append(rot(872, y + 20, c, w=770, tam=21, cor=TINTA, peso=700))
+    return slide("correcoes", 400, p, rs, eyebrow="Os cinco erros", titulo="E a correção de cada um")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
@@ -1345,7 +1586,8 @@ LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variaca
           "09-03": [ficha_93, roteiro_93, objetivo_93, carga_93, crescer_93, frequencia_93, esforco_93, ajustes_93, servico_93, registro_93],
           "09-04": [lance_94, gols_94, tres_94, agilidade_94, descansado_94, treno_94, dose_94, protege_94, resumo_94],
           "09-05": [planilha_95, tipos_95, ambos_95, elite_95, ensaio_95, paga_95, cinzenta_95, conta_95, plano_95, acompanhar_95],
-          "09-06": [telas_96, roteiro_96, ancoras_96, poucas_96, ancorada_96, borg_96, escalas_96, medidas_96, tabela_96, desempate_96]}
+          "09-06": [telas_96, roteiro_96, ancoras_96, poucas_96, ancorada_96, borg_96, escalas_96, medidas_96, tabela_96, desempate_96],
+          "09-07": [coletes_97, externa_97, amostragem_97, limiar_97, campo_97, acelerometro_97, fora_97, vale_97, pulso_97, correcoes_97]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

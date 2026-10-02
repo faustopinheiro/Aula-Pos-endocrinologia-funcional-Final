@@ -26,35 +26,226 @@
  "slides": [
   {
    "id": "coletes",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Seis coletes de GPS pendurados, emprestados a um time amador para os treinos de terça e quinta. Ao lado, uma pilha de relatórios: distância, velocidade máxima, sprints, acelerações. Na ponta, a caixa da conclusão, vazia. Embaixo: todo relógio esportivo já é um GPS\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"0\" y1=\"30\" x2=\"560\" y2=\"30\" stroke=\"#6B7A87\" stroke-width=\"4\"/><path d=\"M 55 30 L 55 50 M 20 60 L 40 50 L 70 50 L 90 60 L 82 170 L 28 170 Z\" fill=\"#B07A1C\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 145 30 L 145 50 M 110 60 L 130 50 L 160 50 L 180 60 L 172 170 L 118 170 Z\" fill=\"#B07A1C\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 235 30 L 235 50 M 200 60 L 220 50 L 250 50 L 270 60 L 262 170 L 208 170 Z\" fill=\"#B07A1C\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 325 30 L 325 50 M 290 60 L 310 50 L 340 50 L 360 60 L 352 170 L 298 170 Z\" fill=\"#B07A1C\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 415 30 L 415 50 M 380 60 L 400 50 L 430 50 L 450 60 L 442 170 L 388 170 Z\" fill=\"#B07A1C\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 505 30 L 505 50 M 470 60 L 490 50 L 520 50 L 540 60 L 532 170 L 478 170 Z\" fill=\"#B07A1C\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"640\" y=\"40\" width=\"400\" height=\"200\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"650\" y=\"50\" width=\"400\" height=\"200\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"660\" y=\"60\" width=\"400\" height=\"200\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"670\" y=\"70\" width=\"400\" height=\"200\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"1080\" y1=\"150\" x2=\"1160\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1176\" y=\"60\" width=\"488\" height=\"180\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"0\" y=\"270\" width=\"1664\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(24.0 283.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 190,
+     "w": 560,
+     "t": "seis coletes emprestados · terça e quinta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 696,
+     "y": 90,
+     "w": 320,
+     "t": "· distância",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 696,
+     "y": 130,
+     "w": 320,
+     "t": "· velocidade máxima",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 696,
+     "y": 170,
+     "w": 320,
+     "t": "· sprints",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 696,
+     "y": 210,
+     "w": 320,
+     "t": "· acelerações",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1176,
+     "y": 100,
+     "w": 488,
+     "t": "conclusão",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1176,
+     "y": 150,
+     "w": 488,
+     "t": "?",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 290,
+     "w": 1560,
+     "t": "o mesmo vale para quem atende o indivíduo: todo relógio esportivo já é um GPS",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Seis coletes emprestados",
-   "frase": "Uma pilha de relatórios e nenhuma conclusão.",
-   "apoio": "Um time amador passa a usar GPS nos treinos de terça e quinta. Distância, velocidade máxima, sprints, acelerações. O mesmo vale para quem atende o indivíduo: todo relógio esportivo já é um GPS."
+   "titulo": "Uma pilha de relatórios e nenhuma conclusão."
   },
   {
    "id": "externa",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"À esquerda, carga externa: o GPS registra os mesmos 10 km para duas pessoas; é igual para qualquer um. À direita, carga interna: o custo desses 10 km muda com sono, turno, calor e cansaço; uma barra curta, outra longa; isso não está no relatório. No meio, a relação entre as duas é a informação útil\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"720\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(30.0 90.0) scale(1.1667)\"><g fill=\"#12202E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"110\" y=\"100\" width=\"460\" height=\"40\" rx=\"8\" fill=\"#12202E\"/><g transform=\"translate(30.0 190.0) scale(1.1667)\"><g fill=\"#12202E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"110\" y=\"200\" width=\"460\" height=\"40\" rx=\"8\" fill=\"#12202E\"/><rect x=\"944\" y=\"0\" width=\"720\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"968\" y=\"100\" width=\"260\" height=\"40\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"968\" y=\"200\" width=\"560\" height=\"40\" rx=\"8\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 680,
+     "t": "Carga externa · o que foi feito",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 104,
+     "w": 120,
+     "t": "10 km",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 204,
+     "w": 120,
+     "t": "10 km",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 300,
+     "w": 680,
+     "t": "distância, velocidade, acelerações: é o que o GPS mede",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 140,
+     "w": 224,
+     "t": "÷",
+     "tam": 60,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 720,
+     "y": 220,
+     "w": 224,
+     "t": "a relação é a informação útil",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 968,
+     "y": 16,
+     "w": 680,
+     "t": "Carga interna · o que custou",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 968,
+     "y": 146,
+     "w": 660,
+     "t": "dormiu bem",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 968,
+     "y": 246,
+     "w": 660,
+     "t": "cinco horas de sono, veio do turno",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 968,
+     "y": 300,
+     "w": 680,
+     "t": "sono, turno, calor, cansaço: não está no relatório",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Erro um",
    "titulo": "Tratar o que foi feito como se fosse o que custou",
-   "esq": {
-    "t": "Carga externa",
-    "cor": "tinta",
-    "itens": [
-     "distância, velocidade, acelerações",
-     "igual para qualquer pessoa",
-     "é o que o GPS mede"
-    ]
-   },
-   "dir": {
-    "t": "Carga interna",
-    "cor": "petr",
-    "itens": [
-     "o custo daquilo para aquela pessoa",
-     "muda com sono, turno, calor, cansaço",
-     "não está no relatório"
-    ]
-   },
    "destaque": "Complementares. A informação útil vem da relação entre as duas.",
    "destaque_cor": "tinta",
    "fonte": "Consenso de monitoramento de carga, Int J Sports Physiol Perform 2017"
@@ -151,195 +342,931 @@
   },
   {
    "id": "amostragem",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"O mesmo sprint com mudança de direção, traçado duas vezes sobre a trajetória real. Com poucos registros por segundo, cinco, a linha corta os cantos e subestima o que é curto e intenso. Com dez registros por segundo, a linha acompanha a curva; no estudo contra um laser, foi mais válida e confiável, sobretudo em aceleração e desaceleração\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"340\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><polyline points=\"60,230 78,229 95,227 112,222 130,217 148,209 165,201 182,192 200,182 218,171 235,160 253,149 270,138 288,128 305,119 322,111 340,103 358,98 375,93 392,91 410,90 428,91 445,93 462,98 480,103 498,111 515,119 532,128 550,138 568,149 585,160 602,171 620,182 638,192 655,201 672,209 690,217 708,222 725,227 742,229 760,230\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><polyline points=\"60,230 200,182 340,103 480,103 620,182 760,230\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/><circle cx=\"60\" cy=\"230\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"200\" cy=\"182\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"340\" cy=\"103\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"480\" cy=\"103\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"620\" cy=\"182\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"760\" cy=\"230\" r=\"7\" fill=\"#A8322A\"/><rect x=\"844\" y=\"0\" width=\"820\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><polyline points=\"904,230 922,229 939,227 956,222 974,217 992,209 1009,201 1026,192 1044,182 1062,171 1079,160 1096,149 1114,138 1132,128 1149,119 1166,111 1184,103 1202,98 1219,93 1236,91 1254,90 1272,91 1289,93 1306,98 1324,103 1342,111 1359,119 1376,128 1394,138 1412,149 1429,160 1446,171 1464,182 1482,192 1499,201 1516,209 1534,217 1552,222 1569,227 1586,229 1604,230\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><polyline points=\"904,230 974,217 1044,182 1114,138 1184,103 1254,90 1324,103 1394,138 1464,182 1534,217 1604,230\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><circle cx=\"904\" cy=\"230\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"974\" cy=\"217\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1044\" cy=\"182\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1114\" cy=\"138\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1184\" cy=\"103\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1254\" cy=\"90\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1324\" cy=\"103\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1394\" cy=\"138\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1464\" cy=\"182\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1534\" cy=\"217\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"1604\" cy=\"230\" r=\"7\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "5 registros por segundo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 268,
+     "w": 760,
+     "t": "corta os cantos; subestima o curto e intenso",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 16,
+     "w": 760,
+     "t": "10 registros por segundo",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 868,
+     "y": 268,
+     "w": 760,
+     "t": "acompanha a curva; mais válido e confiável",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 304,
+     "w": 600,
+     "t": "tracejado: trajetória real · esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Erro dois",
    "titulo": "Comparar números de aparelhos diferentes",
-   "esq": {
-    "t": "O motivo técnico",
-    "cor": "tinta",
-    "itens": [
-     "cada aparelho registra a posição algumas vezes por segundo",
-     "quem registra pouco corta os cantos",
-     "subestima o que é curto e intenso"
-    ]
-   },
-   "dir": {
-    "t": "O que o estudo mostrou",
-    "cor": "petr",
-    "itens": [
-     "5 contra 10 registros por segundo, contra um laser",
-     "os de 10: mais válidos e confiáveis",
-     "sobretudo em aceleração e desaceleração"
-    ]
-   },
    "destaque": "Trocou de fornecedor ou de relógio: a série começa de novo.",
    "destaque_cor": "tinta",
    "fonte": "J Sports Sci 2012"
   },
   {
    "id": "limiar",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "Erro três",
-   "titulo": "Comparar números sem olhar o limiar",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"À esquerda, dois relatórios dizendo 800 m em alta intensidade, cada um com o limiar de velocidade escrito em letra miúda e diferente: o do fabricante A e o definido pelo usuário. À direita, o mesmo limiar fixo marcado sobre a escala de velocidade de dois jogadores: para um, é o máximo; para o outro, mais rápido, é trote\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"350\" height=\"300\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"380\" y=\"0\" width=\"350\" height=\"300\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"800\" y=\"0\" width=\"864\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"980\" y=\"100\" width=\"425\" height=\"36\" rx=\"18\" fill=\"#C9CFD4\" opacity=\"0.6\"/><rect x=\"980\" y=\"100\" width=\"425\" height=\"36\" rx=\"18\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"980\" y=\"200\" width=\"612\" height=\"36\" rx=\"18\" fill=\"#C9CFD4\" opacity=\"0.6\"/><rect x=\"980\" y=\"200\" width=\"612\" height=\"36\" rx=\"18\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1405\" y1=\"80\" x2=\"1405\" y2=\"260\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
     {
-     "t": "Cada fabricante, um limiar",
-     "x": "“alta intensidade” começa onde o aparelho, ou o usuário, definiu",
-     "cor": "ambar"
+     "x": 20,
+     "y": 30,
+     "w": 310,
+     "t": "alta intensidade",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 20,
+     "y": 70,
+     "w": 310,
+     "t": "800 m",
+     "tam": 52,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 240,
+     "w": 310,
+     "t": "limiar do fabricante A",
+     "tam": 15,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 30,
+     "w": 310,
+     "t": "alta intensidade",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 70,
+     "w": 310,
+     "t": "800 m",
+     "tam": 52,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 240,
+     "w": 310,
+     "t": "limiar definido pelo usuário",
+     "tam": 15,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 310,
+     "w": 730,
+     "t": "o mesmo número, limiares diferentes",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 824,
+     "y": 16,
+     "w": 800,
      "t": "Absoluto ou relativo",
-     "x": "o mesmo limiar fixo é máximo para um e trote para outro",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 824,
+     "y": 106,
+     "w": 140,
+     "t": "jogador 1",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 824,
+     "y": 206,
+     "w": 140,
+     "t": "jogador 2",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 270,
+     "w": 210,
+     "t": "limiar fixo",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1416,
+     "y": 104,
+     "w": 230,
+     "t": "= o máximo dele",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1416,
+     "y": 204,
+     "w": 230,
+     "t": "= trote para ele",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Erro três",
+   "titulo": "Comparar números sem olhar o limiar",
    "destaque": "Sem o limiar escrito, o número não se compara com nada.",
    "destaque_cor": "verm",
    "fonte": "Revisão sistemática, Sports Med 2013"
   },
   {
    "id": "campo",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Um cone de visão saindo do GPS e iluminando a terça e a quinta, os treinos com colete, medidos muito bem. Fora do cone, no escuro, o trabalho em turno e o jogo de sábado. Quem decide para onde apontar é você\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><path d=\"M 120 160 L 900 20 L 900 300 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"160\" r=\"44\" fill=\"#008A7E\"/><g transform=\"translate(96.0 136.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><rect x=\"600\" y=\"90\" width=\"260\" height=\"70\" rx=\"12\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"600\" y=\"190\" width=\"260\" height=\"70\" rx=\"12\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"1000\" y=\"60\" width=\"664\" height=\"96\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1024.0 84.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g><rect x=\"1000\" y=\"180\" width=\"664\" height=\"96\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(1024.0 204.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"m12 7l4.76 3.45L15 16H9l-1.76-5.55zm0 0V3m3 13l2.5 3m-.74-8.55L20.5 9M9.06 16.05L6.5 19m.74-8.55L3.5 9\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 600,
+     "y": 110,
+     "w": 260,
+     "t": "terça",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 210,
+     "w": 260,
+     "t": "quinta",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 270,
+     "w": 600,
+     "t": "dentro do campo de visão: medido muito bem",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1094,
+     "y": 90,
+     "w": 540,
+     "t": "o trabalho em turno",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1094,
+     "y": 210,
+     "w": 540,
+     "t": "o jogo de sábado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 290,
+     "w": 664,
+     "t": "fora do campo de visão",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "O GPS mede muito bem o que está dentro do campo de visão dele. Quem decide para onde apontar é você.",
-   "apoio": "Os dois próximos erros são sobre o que fica fora desse campo."
+   "titulo": "O GPS mede muito bem o que está dentro do campo de visão dele. Quem decide para onde apontar é você."
   },
   {
    "id": "acelerometro",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"À esquerda, três setas de eixos, x, y e z, somadas num índice: volume de movimento, que capta saltos, impactos e mudanças de direção e diz mais que a distância para goleiro e futsal. À direita, um tendão e uma articulação com um ponto de interrogação: a força que os atravessa não é medida; carga mecânica e fisiológica seguem caminhos diferentes\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"820\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"150\" y1=\"180\" x2=\"260\" y2=\"180\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"150\" y1=\"180\" x2=\"150\" y2=\"80\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"150\" y1=\"180\" x2=\"80\" y2=\"250\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"300\" y1=\"180\" x2=\"380\" y2=\"180\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"392\" y=\"120\" width=\"400\" height=\"120\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"844\" y=\"0\" width=\"820\" height=\"340\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><path d=\"M 920 100 C 980 120, 1000 200, 1060 230\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"22\" stroke-linecap=\"round\"/><circle cx=\"1260\" cy=\"160\" r=\"60\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"4\"/><circle cx=\"1260\" cy=\"160\" r=\"24\" fill=\"#C9CFD4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "O que ele mede",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 267,
+     "y": 166,
+     "w": 30,
+     "t": "x",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 135,
+     "y": 46,
+     "w": 30,
+     "t": "z",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 51,
+     "y": 250,
+     "w": 30,
+     "t": "y",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 392,
+     "y": 140,
+     "w": 400,
+     "t": "índice somado",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 392,
+     "y": 180,
+     "w": 400,
+     "t": "volume de movimento",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 280,
+     "w": 780,
+     "t": "saltos, impactos, mudanças de direção · goleiro e futsal",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 16,
+     "w": 760,
+     "t": "O que ele não mede",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 940,
+     "y": 250,
+     "w": 160,
+     "t": "tendão",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 236,
+     "w": 160,
+     "t": "articulação",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 120,
+     "w": 80,
+     "t": "?",
+     "tam": 56,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 286,
+     "w": 780,
+     "t": "carga mecânica e fisiológica seguem caminhos diferentes",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Erro quatro",
    "titulo": "Ler o acelerômetro como carga no tecido",
-   "esq": {
-    "t": "O que ele mede",
-    "cor": "petr",
-    "itens": [
-     "soma de acelerações em três eixos",
-     "saltos, impactos, mudanças de direção",
-     "diz mais que a distância para goleiro e futsal"
-    ]
-   },
-   "dir": {
-    "t": "O que ele não mede",
-    "cor": "verm",
-    "itens": [
-     "a força que atravessa o tendão",
-     "a carga na articulação",
-     "carga mecânica e fisiológica seguem caminhos diferentes"
-    ]
-   },
    "destaque": "É volume de movimento, não estresse de tecido.",
    "destaque_cor": "tinta",
    "fonte": "Revisão, Sports Med 2017"
   },
   {
    "id": "fora",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Erro cinco",
-   "titulo": "Medir só o que o colete vê",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"A semana do time em casas de dia. Terça e quinta, com colete, medidas muito bem. Em dias de trabalho em turno, esforço alto em treino que o grupo achava moderado, sem colete. No sábado, metade do elenco jogava outra partida, sem ninguém contar. Na segunda-feira, um balão com a pergunta que corrigiu: jogou no fim de semana? quantos minutos?\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"36\" width=\"216\" height=\"160\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(84.0 56.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"236\" y=\"36\" width=\"216\" height=\"160\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"472\" y=\"36\" width=\"216\" height=\"160\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(556.0 60.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g><rect x=\"708\" y=\"36\" width=\"216\" height=\"160\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"944\" y=\"36\" width=\"216\" height=\"160\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1028.0 60.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g><rect x=\"1180\" y=\"36\" width=\"216\" height=\"160\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><g transform=\"translate(1264.0 60.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"m12 7l4.76 3.45L15 16H9l-1.76-5.55zm0 0V3m3 13l2.5 3m-.74-8.55L20.5 9M9.06 16.05L6.5 19m.74-8.55L3.5 9\"/></g></g><rect x=\"1416\" y=\"36\" width=\"216\" height=\"160\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"230\" width=\"1664\" height=\"130\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 268.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g></svg>",
+   "rotulos": [
     {
-     "t": "Terça e quinta",
-     "x": "com colete; medido muito bem",
-     "cor": "petr"
+     "x": 0,
+     "y": 0,
+     "w": 216,
+     "t": "seg",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "t": "O trabalho em turno",
-     "x": "esforço alto em treino que o grupo achava moderado",
-     "cor": "ambar"
+     "x": 8,
+     "y": 116,
+     "w": 200,
+     "t": "a pergunta",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "t": "O sábado",
-     "x": "metade do elenco jogava outra partida, sem ninguém contar",
-     "cor": "verm"
+     "x": 236,
+     "y": 0,
+     "w": 216,
+     "t": "ter",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 236,
+     "y": 96,
+     "w": 216,
+     "t": "com colete",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 472,
+     "y": 0,
+     "w": 216,
+     "t": "qua",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 472,
+     "y": 130,
+     "w": 216,
+     "t": "turno, sem colete",
+     "tam": 18,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 708,
+     "y": 0,
+     "w": 216,
+     "t": "qui",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 708,
+     "y": 96,
+     "w": 216,
+     "t": "com colete",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 0,
+     "w": 216,
+     "t": "sex",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 130,
+     "w": 216,
+     "t": "turno, sem colete",
+     "tam": 18,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 0,
+     "w": 216,
+     "t": "sáb",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1188,
+     "y": 120,
+     "w": 200,
+     "t": "outro jogo, ninguém contava",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 1416,
+     "y": 0,
+     "w": 216,
+     "t": "dom",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 204,
+     "w": 464,
+     "t": "dias ilustrativos",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 254,
+     "w": 1540,
+     "t": "A correção, na segunda-feira",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 292,
+     "w": 1540,
+     "t": "“Jogou no fim de semana? Quantos minutos?”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     }
    ],
-   "destaque": "A correção foi uma pergunta na segunda-feira: “jogou no fim de semana? quantos minutos?”",
-   "destaque_cor": "tinta"
+   "eyebrow": "Erro cinco",
+   "titulo": "Medir só o que o colete vê"
   },
   {
    "id": "vale",
-   "tipo": "duas",
-   "eyebrow": "Onde vale o que custa",
-   "titulo": "O retorno de lesão, e a pergunta antes de comprar",
-   "esq": {
-    "t": "Onde o GPS paga",
-    "cor": "petr",
-    "itens": [
-     "retorno de lesão muscular",
-     "que fração da própria velocidade máxima",
-     "em que volume, com progressão documentada"
-    ]
-   },
-   "dir": {
-    "t": "Antes de comprar coletes",
-    "cor": "ambar",
-    "itens": [
-     "que decisão isso vai mudar?",
-     "o mesmo dinheiro compra saúde em outro lugar?"
-    ]
-   },
-   "destaque_cor": "tinta",
-   "destaque": "Conversa com a exposição à velocidade máxima da aula de velocidade."
-  },
-  {
-   "id": "pulso",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "O GPS que o paciente já tem",
-   "titulo": "De graça, no pulso",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"À esquerda, em esquema, onde o GPS paga: o retorno de lesão muscular, com barras sessão a sessão da fração da própria velocidade máxima atingida, subindo em degraus documentados até perto de cem por cento. À direita, antes de comprar coletes: que decisão isso vai mudar? O mesmo dinheiro compra saúde em outro lugar?\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"340\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"60\" y=\"156\" width=\"84\" height=\"114\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.55\"/><rect x=\"176\" y=\"146\" width=\"84\" height=\"124\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.61\"/><rect x=\"292\" y=\"133\" width=\"84\" height=\"137\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.67\"/><rect x=\"408\" y=\"122\" width=\"84\" height=\"148\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.73\"/><rect x=\"524\" y=\"108\" width=\"84\" height=\"162\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.79\"/><rect x=\"640\" y=\"99\" width=\"84\" height=\"171\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.85\"/><rect x=\"756\" y=\"90\" width=\"84\" height=\"180\" rx=\"6\" fill=\"#008A7E\" opacity=\"0.91\"/><line x1=\"40\" y1=\"80\" x2=\"880\" y2=\"80\" stroke=\"#12202E\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(984.0 100.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><g transform=\"translate(984.0 200.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g></svg>",
+   "rotulos": [
     {
-     "t": "O uso mais valioso",
-     "x": "classificar a semana em fácil, moderado e forte, e ver a distribuição",
-     "cor": "petr"
+     "x": 24,
+     "y": 16,
+     "w": 860,
+     "t": "Onde o GPS paga: o retorno de lesão muscular",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "O cuidado",
-     "x": "celular erra mais; prédios e trilha fechada também. Serve para tendência, não para comparar tiros",
-     "cor": "ambar"
+     "x": 600,
+     "y": 50,
+     "w": 280,
+     "t": "velocidade máxima dele",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 286,
+     "w": 840,
+     "t": "sessões · fração da própria velocidade máxima · esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 16,
+     "w": 660,
+     "t": "Antes de comprar coletes",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1050,
+     "y": 106,
+     "w": 590,
+     "t": "que decisão isso vai mudar?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 206,
+     "w": 590,
+     "t": "o mesmo dinheiro compra saúde em outro lugar?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "É o diagnóstico da zona cinzenta, visto pelo relógio.",
+   "eyebrow": "Onde vale o que custa",
+   "titulo": "O retorno de lesão, e a pergunta antes de comprar",
+   "destaque": "Conversa com a exposição à velocidade máxima da aula de velocidade.",
    "destaque_cor": "tinta"
   },
   {
+   "id": "pulso",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"À esquerda, um relógio de pulso com a semana classificada em fácil, moderado e forte, e a distribuição em barras: o uso mais valioso, o diagnóstico da zona cinzenta visto pelo relógio. À direita, o cuidado: celular erra mais; prédios altos e trilha fechada também. Serve para tendência e volume, não para comparar tiros\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"40\" y=\"20\" width=\"260\" height=\"300\" rx=\"60\" fill=\"#12202E\"/><rect x=\"64\" y=\"60\" width=\"212\" height=\"220\" rx=\"40\" fill=\"#1E3346\"/><rect x=\"90\" y=\"210\" width=\"44\" height=\"40\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"154\" y=\"100\" width=\"44\" height=\"150\" rx=\"6\" fill=\"#6B7A87\"/><rect x=\"218\" y=\"220\" width=\"44\" height=\"30\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"340\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(984.0 84.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3z\"/><path d=\"M7 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0m8-2h2m-2 4h2M7 16h10\"/></g></g><g transform=\"translate(984.0 160.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g><g transform=\"translate(984.0 236.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 19h16M4 15l4-6l4 2l4-5l4 4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 340,
+     "y": 30,
+     "w": 560,
+     "t": "O uso mais valioso",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 340,
+     "y": 80,
+     "w": 560,
+     "t": "classificar a semana em fácil, moderado e forte, e ver a distribuição",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 340,
+     "y": 180,
+     "w": 560,
+     "t": "é o diagnóstico da zona cinzenta, visto pelo relógio",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 984,
+     "y": 16,
+     "w": 660,
+     "t": "O cuidado",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1046,
+     "y": 92,
+     "w": 600,
+     "t": "celular erra mais que relógio dedicado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1046,
+     "y": 168,
+     "w": 600,
+     "t": "prédios altos e trilha fechada também",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1046,
+     "y": 244,
+     "w": 600,
+     "t": "tendência e volume, sim; comparar tiros, não",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O GPS que o paciente já tem",
+   "titulo": "De graça, no pulso"
+  },
+  {
    "id": "correcoes",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco linhas, erro e correção. Carga externa tomada como carga: percepção de esforço ao lado de cada linha. Aparelhos diferentes comparados: série nova a cada troca. Limiar esquecido: limiar escrito em todo relatório. Acelerômetro lido como estresse de tecido: tratá-lo como volume de movimento. Só o que o colete vê: perguntar pelo que aconteceu fora dele\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"720\" height=\"66\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 15.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><line x1=\"732\" y1=\"33\" x2=\"792\" y2=\"33\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"806\" y=\"0\" width=\"858\" height=\"66\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(822.0 15.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"0\" y=\"80\" width=\"720\" height=\"66\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 95.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><line x1=\"732\" y1=\"113\" x2=\"792\" y2=\"113\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"806\" y=\"80\" width=\"858\" height=\"66\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(822.0 95.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"0\" y=\"160\" width=\"720\" height=\"66\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 175.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><line x1=\"732\" y1=\"193\" x2=\"792\" y2=\"193\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"806\" y=\"160\" width=\"858\" height=\"66\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(822.0 175.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"0\" y=\"240\" width=\"720\" height=\"66\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 255.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><line x1=\"732\" y1=\"273\" x2=\"792\" y2=\"273\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"806\" y=\"240\" width=\"858\" height=\"66\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(822.0 255.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"0\" y=\"320\" width=\"720\" height=\"66\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(16.0 335.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><line x1=\"732\" y1=\"353\" x2=\"792\" y2=\"353\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"806\" y=\"320\" width=\"858\" height=\"66\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(822.0 335.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 66,
+     "y": 20,
+     "w": 640,
+     "t": "Carga externa tomada como carga",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 20,
+     "w": 770,
+     "t": "percepção de esforço ao lado de cada linha",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 100,
+     "w": 640,
+     "t": "Aparelhos diferentes comparados",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 100,
+     "w": 770,
+     "t": "série nova a cada troca",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 180,
+     "w": 640,
+     "t": "Limiar esquecido",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 180,
+     "w": 770,
+     "t": "limiar escrito em todo relatório",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 260,
+     "w": 640,
+     "t": "Acelerômetro lido como estresse de tecido",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 260,
+     "w": 770,
+     "t": "tratá-lo como volume de movimento",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 340,
+     "w": 640,
+     "t": "Só o que o colete vê",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 340,
+     "w": 770,
+     "t": "perguntar pelo que aconteceu fora dele",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Os cinco erros",
-   "titulo": "E a correção de cada um",
-   "cab": [
-    "Erro",
-    "Correção"
-   ],
-   "larguras": [
-    44,
-    56
-   ],
-   "linhas": [
-    [
-     "Carga externa tomada como carga",
-     "percepção de esforço ao lado de cada linha"
-    ],
-    [
-     "Aparelhos diferentes comparados",
-     "série nova a cada troca"
-    ],
-    [
-     "Limiar esquecido",
-     "limiar escrito em todo relatório"
-    ],
-    [
-     "Acelerômetro lido como estresse de tecido",
-     "tratá-lo como volume de movimento"
-    ],
-    [
-     "Só o que o colete vê",
-     "perguntar pelo que aconteceu fora dele"
-    ]
-   ]
+   "titulo": "E a correção de cada um"
   },
   {
    "id": "fecho",

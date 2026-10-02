@@ -100,6 +100,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Carga externa", "titulo": 
                     {"t": "Atleta", "x": "Conta o jogo de sábado e o turno de trabalho."}],
           "quem": "Próxima aula: carga interna, percepção de esforço, frequência cardíaca e questionários."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-07")
+
 spec = {"arquivo": "aulas/MOD09/09-07-carga-externa-gps-e-metricas-de-campo.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Carga externa: GPS e métricas de campo", "subtitulo": "Cinco erros ao ler o relatório",
