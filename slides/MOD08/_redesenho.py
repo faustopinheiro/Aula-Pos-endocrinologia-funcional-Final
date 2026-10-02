@@ -1711,6 +1711,202 @@ def custo_88():
     return slide("custo", 360, p, rs, eyebrow="O custo de escolher errado", titulo="Cada erro tem o seu preço",
                  destaque="Por isso a primeira pergunta é sempre a dos sinais de alerta.", destaque_cor="verm")
 
+# ---------------------------------------------------------------- 8.9
+
+def perguntas_89():
+    """8.9: as quatro perguntas presas a uma barra de uso do recurso: entrada, efeito, checagem e saída."""
+    p = [svg_abre(1664, 340, "Uma barra que representa o uso de um recurso ao longo do tempo, com as quatro perguntas presas a ela. No começo: quando entra? Em que fase, para qual objetivo, em quem. Sobre a barra: o que muda? Dor por horas, amplitude, força, tecido. No meio, um ponto de checagem: como sei que não funciona? Qual medida, em quanto tempo. No fim: quando sai? Prazo ou critério de saída")]
+    rs = []
+    p.append(f'<rect x="180" y="150" width="1300" height="56" rx="28" fill="{OXID_T}" stroke="{OXID}" stroke-width="3"/>')
+    rs.append(rot(180, 164, "o recurso em uso", w=1300, tam=21, cor=OXID, peso=700, alinha="center"))
+    p.append(f'<line x1="180" y1="120" x2="180" y2="236" stroke="{OXID}" stroke-width="5"/>')
+    p.append(f'<line x1="1480" y1="120" x2="1480" y2="236" stroke="{GLIC}" stroke-width="5"/>')
+    p.append(f'<path d="M 200 130 Q 200 110 230 110 L 1430 110 Q 1460 110 1460 130" fill="none" stroke="{OXID}" stroke-width="2"/>')
+    p.append(f'<circle cx="980" cy="178" r="34" fill="{FOSF}"/>')
+    p.append(icone("t:gauge", 960, 158, 40, PAPEL))
+    rs += [rot(0, 250, "Quando entra?", w=360, tam=24, cor=OXID, peso=700, alinha="center", serif=True), rot(0, 290, "fase, objetivo, em quem", w=360, tam=20, cor=TINTA, alinha="center"),
+           rot(530, 20, "O que muda?", w=600, tam=24, cor=OXID, peso=700, alinha="center", serif=True), rot(430, 60, "dor por horas, amplitude, força, tecido", w=800, tam=20, cor=TINTA, alinha="center"),
+           rot(800, 250, "Como sei que não funciona?", w=360, tam=24, cor=FOSF, peso=700, alinha="center", serif=True, lh=1.1), rot(800, 316, "qual medida, em quanto tempo", w=360, tam=20, cor=TINTA, alinha="center"),
+           rot(1304, 250, "Quando sai?", w=360, tam=24, cor=GLIC, peso=700, alinha="center", serif=True), rot(1304, 290, "prazo ou critério", w=360, tam=20, cor=TINTA, alinha="center")]
+    return slide("perguntas", 340, p, rs, eyebrow="Para qualquer recurso, de qualquer profissão", titulo="Quatro perguntas",
+                 destaque="Sem resposta para as quatro, o recurso não está sendo prescrito. Está sendo repetido.", destaque_cor="tinta")
+
+
+def aparelho_89():
+    """8.9: 47 quadrados de ensaio e o veredito para cada aparelho somado a outras intervenções."""
+    p = [svg_abre(1664, 340, "À esquerda, 47 quadrados, um por ensaio, com 2.388 participantes, sobre eletroterapia na dor do ombro relacionada ao manguito. À direita, o veredito para cada aparelho somado a outras intervenções, com evidência de baixa qualidade. Ultrassom, laser de baixa intensidade e campo eletromagnético: provavelmente sem benefício. Corrente elétrica para analgesia: incerteza")]
+    rs = []
+    for i in range(47):
+        x, y = (i % 8) * 64, (i // 8) * 46
+        p.append(f'<rect x="{x}" y="{y}" width="54" height="36" rx="6" fill="{TINTA}" opacity="0.75"/>')
+    rs += [rot(0, 284, "47 ensaios · 2.388 participantes", w=520, tam=22, cor=TINTA, peso=700),
+           rot(0, 314, "evidência de baixa qualidade", w=520, tam=19, cor=MUDO)]
+    for j, (t, v, ic, cor) in enumerate([("Ultrassom terapêutico", "provavelmente sem benefício somado", "t:x", GLIC), ("Laser de baixa intensidade", "provavelmente sem benefício somado", "t:x", GLIC),
+                                         ("Campo eletromagnético pulsado", "provavelmente sem benefício somado", "t:x", GLIC), ("Corrente elétrica para analgesia", "incerteza grande demais", "t:question-mark", MUDO)]):
+        y = j * 86
+        p.append(caixa(600, y, 1064, 74, cor, CARTAO, esp=2, rx=12))
+        p.append(icone(ic, 620, y + 17, 40, cor))
+        rs += [rot(676, y + 22, t, w=480, tam=22, cor=TINTA, peso=700), rot(1160, y + 24, v, w=480, tam=20, cor=cor, peso=700, alinha="right")]
+    return slide("aparelho", 340, p, rs, eyebrow="Erro um · o aparelho como tratamento", titulo="Eletroterapia no ombro, revisão Cochrane",
+                 fonte="Cochrane 2016 · dor do ombro relacionada ao manguito")
+
+
+def fita_89():
+    """8.9: as cinco regiões examinadas e as duas comparações em que a fita não ganhou."""
+    p = [svg_abre(1664, 320, "No alto, as cinco regiões examinadas: ombro, joelho, lombar, pescoço, fáscia plantar. Embaixo, duas comparações. Fita elástica contra fita falsa: não foi melhor, com um sinal de igual. Fita elástica contra outras intervenções: não foi melhor. Efeitos pequenos, provavelmente sem importância clínica")]
+    rs = []
+    for j, t in enumerate(["ombro", "joelho", "lombar", "pescoço", "fáscia plantar"]):
+        x = j * 336
+        p.append(f'<rect x="{x}" y="0" width="316" height="56" rx="28" fill="{CARTAO}" stroke="{TINTA}" stroke-width="2"/>')
+        rs.append(rot(x, 14, t, w=316, tam=21, cor=TINTA, peso=700, alinha="center"))
+    for k, (b, t) in enumerate([("fita falsa", "não foi melhor"), ("outras intervenções", "não foi melhor")]):
+        x = k * 844
+        p.append(caixa(x, 90, 820, 150, FOSF, FOSF_T, esp=2, rx=16))
+        p.append(f'<rect x="{x + 24}" y="130" width="200" height="70" rx="10" fill="{GLIC}"/>')
+        rs += [rot(x + 24, 150, "fita elástica", w=200, tam=20, cor=PAPEL, peso=700, alinha="center"),
+               rot(x + 230, 140, "=", w=60, tam=40, cor=TINTA, peso=700, alinha="center"),
+               rot(x + 300, 132, b, w=260, tam=23, cor=TINTA, peso=700, lh=1.15), rot(x + 560, 140, t, w=240, tam=22, cor=FOSF, peso=700, alinha="right")]
+    rs.append(rot(0, 264, "efeitos pequenos, provavelmente sem importância clínica", w=1664, tam=22, cor=TINTA, peso=700, alinha="center"))
+    return slide("fita", 320, p, rs, eyebrow="Erro dois · a fita como proteção", titulo="A bandagem elástica na revisão brasileira",
+                 destaque="Se o atleta gosta e ela não substitui nada, o dano é pequeno. O problema é quando ela entra no lugar do exercício.", destaque_cor="tinta",
+                 fonte="J Physiother 2014")
+
+
+def manual_89():
+    """8.9: a mão sobre o ombro dispara uma resposta do sistema nervoso que abre uma janela curta; o que não faz, riscado."""
+    p = [svg_abre(1664, 340, "Uma mão sobre o ombro dispara um estímulo que sobe ao sistema nervoso, periférico e central, e volta como modulação da dor: melhora de dor e amplitude por um tempo, uma janela para o movimento. Ao lado, riscado, o que não faz: colocar no lugar vértebra ou articulação; mudar a estrutura de um tendão"), defs(OXID)]
+    rs = []
+    p.append(f'<circle cx="90" cy="170" r="80" fill="{OXID_T}" stroke="{OXID}" stroke-width="3"/>')
+    p.append(icone("t:hand-stop", 50, 130, 80, OXID))
+    rs.append(rot(0, 264, "estímulo mecânico", w=180, tam=19, cor=TINTA, peso=700, alinha="center"))
+    p.append(seta(180, 140, 330, 80, OXID, "m0", esp=4))
+    p.append(caixa(340, 20, 340, 120, OXID, OXID, esp=0, rx=16))
+    rs.append(rot(340, 42, "sistema nervoso periférico e central", w=340, tam=22, cor=PAPEL, peso=700, alinha="center", lh=1.2))
+    p.append(seta(510, 150, 510, 196, OXID, "m0", esp=4))
+    p.append(caixa(240, 206, 540, 120, OXID, OXID_T, esp=2, rx=16))
+    rs += [rot(260, 222, "modula a dor", w=500, tam=24, cor=OXID, peso=700, alinha="center", serif=True),
+           rot(260, 262, "dor e amplitude melhores por um tempo: uma janela para o movimento", w=500, tam=19, cor=TINTA, alinha="center", lh=1.2)]
+    p.append(caixa(860, 0, 804, 340, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(884, 20, "O que não faz", w=760, tam=27, cor=FOSF, peso=700, serif=True))
+    for j, t in enumerate(["“colocar no lugar” vértebra ou articulação", "mudar a estrutura de um tendão"]):
+        y = 100 + j * 110
+        p.append(icone("t:x", 884, y, 48, FOSF))
+        rs.append(rot(950, y + 8, t, w=690, tam=23, cor=TINTA, peso=700, lh=1.2))
+    return slide("manual", 340, p, rs, eyebrow="A terapia manual, com honestidade", titulo="Um efeito real, de curto prazo",
+                 destaque="Justificar o uso por razões neurofisiológicas, não biomecânicas.", destaque_cor="tinta", fonte="Modelo de 2009, Man Ther")
+
+
+def janela_89():
+    """8.9: duas semanas de dor com janelas de alívio; numa, o exercício passa pela janela; na outra, a janela abre e fecha vazia."""
+    p = [svg_abre(1664, 380, "Em esquema, duas faixas de dor ao longo de semanas. Na de cima, cada sessão abre uma janela de alívio de algumas horas e o exercício acontece dentro dela; a dor de base vai descendo. Na de baixo, a janela abre e fecha vazia, e a pessoa volta na semana seguinte para abrir a mesma janela; a dor de base não muda")]
+    rs = []
+    for k, (t, cor, desce) in enumerate([("exercício dentro da janela", OXID, True), ("janela vazia: volta para abrir a mesma", FOSF, False)]):
+        y0 = k * 190
+        rs.append(rot(0, y0 + 4, t, w=900, tam=22, cor=cor, peso=700))
+        pts = []
+        for s in range(4):
+            x = 120 + s * 380
+            base = y0 + 70 + (s * 22 if desce else 0)
+            pts += [f"{x},{base}", f"{x + 10},{base + 70}", f"{x + 90},{base + 70}", f"{x + 110},{base}", f"{x + 380},{base}"]
+            p.append(f'<rect x="{x + 10}" y="{y0 + 40}" width="80" height="130" fill="{cor}" opacity="0.12"/>')
+            if desce:
+                p.append(f'<rect x="{x + 22}" y="{base + 40}" width="56" height="26" rx="5" fill="{OXID}"/>')
+        p.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{cor}" stroke-width="4" stroke-linejoin="round"/>')
+        rs.append(rot(0, y0 + 60, "dor", w=100, tam=18, cor=MUDO, alinha="right"))
+    rs += [rot(1300, 4, "a base desce", w=360, tam=20, cor=OXID, peso=700, alinha="right"), rot(1300, 194, "a base não muda", w=360, tam=20, cor=FOSF, peso=700, alinha="right"),
+           rot(120, 352, "■ exercício  ·  faixa clara: a janela de alívio, algumas horas  ·  esquema", w=1400, tam=18, cor=MUDO)]
+    return slide("janela", 380, p, rs, eyebrow="A ideia da aula", titulo="O recurso passivo abre uma janela. O exercício é o que passa por ela.")
+
+
+def caros_89():
+    """8.9: a ordem dos adjuvantes caros, depois da carga, e as injeções como decisão médica à parte."""
+    p = [svg_abre(1664, 320, "À esquerda, uma sequência: primeiro, um programa de carga bem feito, pelo tempo que o tecido pede; se não bastou, ondas de choque ou agulhamento como adjuvante, com estudos em algumas condições e evidência de qualidade variável. À direita, as injeções: decisão médica, com riscos, prazos e indicações próprias, tratadas na aula de analgesia do módulo clínico"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 0, 440, 230, OXID, OXID, esp=0, rx=16))
+    p.append(icone("t:barbell", 24, 24, 48, PAPEL))
+    rs += [rot(24, 90, "1 · carga bem feita", w=400, tam=25, cor=PAPEL, peso=700, serif=True), rot(24, 136, "pelo tempo que o tecido pede", w=400, tam=21, cor=PAPEL)]
+    p.append(seta(452, 115, 520, 115, MUDO, "m0", esp=3))
+    rs.append(rot(446, 132, "não bastou?", w=80, tam=17, cor=MUDO, alinha="center", lh=1.1))
+    p.append(caixa(532, 0, 440, 230, GLIC, GLIC_T, esp=2, rx=16))
+    p.append(icone("t:bolt", 556, 24, 48, GLIC))
+    rs += [rot(556, 90, "2 · ondas de choque, agulhamento", w=400, tam=24, cor=GLIC, peso=700, serif=True, lh=1.15),
+           rot(556, 160, "adjuvante; estudos em algumas condições; qualidade variável", w=400, tam=19, cor=TINTA, lh=1.25)]
+    p.append(caixa(1060, 0, 604, 230, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:stethoscope", 1084, 24, 48, TINTA))
+    rs += [rot(1146, 30, "Injeções", w=480, tam=27, cor=TINTA, peso=700, serif=True),
+           rot(1084, 96, "decisão médica, com riscos, prazos e indicações próprias", w=560, tam=21, cor=TINTA, lh=1.25),
+           rot(1084, 166, "a aula de analgesia do módulo clínico", w=560, tam=19, cor=MUDO)]
+    rs.append(rot(0, 268, "nenhum deles dispensa a carga", w=1664, tam=24, cor=TINTA, peso=700, alinha="center", serif=True))
+    return slide("caros", 320, p, rs, eyebrow="Os recursos que custam mais", titulo="Nenhum deles dispensa a carga",
+                 destaque="Quando o recurso alivia a dor, é a janela para carregar mais, não a licença para voltar sem ter carregado.", destaque_cor="tinta")
+
+
+def contexto_89():
+    """8.9: quatro fatores de contexto em volta da intervenção, com as setas de placebo e nocebo."""
+    p = [svg_abre(1664, 380, "No centro, a intervenção: efeito específico mais efeito de contexto, somados. Em volta, quatro fatores: profissional e paciente, o que cada um traz, expectativa, crença, jeito; a relação, tempo, atenção, o mesmo profissional; o tratamento, explicação clara, sem palavras que assustam; o ambiente, privado, pontual, com seguimento. À direita, os dois sentidos: placebo, com explicação clara e atenção, ajuda; nocebo, com pressa e frases como sua coluna está desgastada, atrapalha")]
+    rs = []
+    p.append(caixa(380, 130, 420, 120, TINTA, TINTA, esp=0, rx=60))
+    rs += [rot(380, 150, "a intervenção", w=420, tam=24, cor=PAPEL, peso=700, alinha="center", serif=True), rot(380, 192, "efeito específico + contexto", w=420, tam=19, cor=PAPEL, alinha="center")]
+    fat = [(0, 0, "Profissional e paciente", "expectativa, crença, jeito", OXID, OXID_T), (720, 0, "A relação", "tempo, atenção, o mesmo profissional", OXID, OXID_T),
+           (0, 270, "O tratamento", "explicação clara, sem palavras que assustam", GLIC, GLIC_T), (720, 270, "O ambiente", "privado, pontual, com seguimento", GLIC, GLIC_T)]
+    for x, y, t, d, cor, fundo in fat:
+        p.append(caixa(x, y, 460, 110, cor, fundo, esp=2, rx=14))
+        rs += [rot(x + 20, y + 14, t, w=420, tam=22, cor=cor, peso=700, serif=True), rot(x + 20, y + 54, d, w=420, tam=19, cor=TINTA, lh=1.2)]
+        p.append(f'<line x1="{x + 230}" y1="{y + 110 if y == 0 else y}" x2="{590}" y2="{130 if y == 0 else 250}" stroke="{MUDO}" stroke-width="2"/>')
+    for k, (t, d, cor, fundo, ic) in enumerate([("Placebo", "explicação clara, tempo, atenção: ajuda", OXID, OXID_T, "t:trending-up"),
+                                                ("Nocebo", "pressa, “sua coluna está desgastada”: atrapalha", FOSF, FOSF_T, "t:trending-down")]):
+        y = k * 196
+        p.append(caixa(1260, y, 404, 184, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, 1284, y + 20, 44, cor))
+        rs += [rot(1340, y + 26, t, w=300, tam=25, cor=cor, peso=700, serif=True), rot(1284, y + 84, d, w=356, tam=20, cor=TINTA, lh=1.25)]
+    return slide("contexto", 380, p, rs, eyebrow="O ritual também tem efeito", titulo="Fatores de contexto: placebo e nocebo",
+                 destaque="Usar o contexto para potencializar o que funciona; nunca para vender como tratamento o que só funciona pelo contexto.", destaque_cor="verm",
+                 fonte="Man Ther 2016")
+
+
+def reconhecer_89():
+    """8.9: três sinais com o seu mini gráfico: medida parada, alívio que não passa do dia seguinte, programa travado."""
+    p = [svg_abre(1664, 340, "Três cartões, cada um com um pequeno gráfico em esquema. A medida combinada não mudou em duas ou três semanas: uma linha reta. O alívio não passa do dia seguinte, sessão após sessão: um serrote que sempre volta ao mesmo nível. O programa ativo está parado: degraus que pararam de subir, o recurso ocupando o lugar da carga")]
+    rs = []
+    W = 528
+    for k, (t, d, cor, fundo) in enumerate([("A medida combinada não mudou", "em duas ou três semanas; a medida, não a sensação na sessão", FOSF, FOSF_T),
+                                            ("O alívio não passa do dia seguinte", "sessão após sessão", GLIC, GLIC_T),
+                                            ("O programa ativo está parado", "o recurso ocupa o lugar da carga", GLIC, GLIC_T)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 340, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 24, 20, t, w=W - 48, tam=24, cor=cor, peso=700, serif=True, lh=1.15), rot(x + 24, 256, d, w=W - 48, tam=20, cor=TINTA, lh=1.25)]
+        p.append(f'<line x1="{x + 40}" y1="230" x2="{x + W - 40}" y2="230" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<polyline points="60,170 180,168 300,171 420,169 488,170" fill="none" stroke="{FOSF}" stroke-width="5"/>')
+    for s in range(4):
+        p.append(f'<circle cx="{60 + s * 140}" cy="170" r="8" fill="{FOSF}"/>')
+    x0 = W + 40
+    pts = []
+    for s in range(4):
+        x = x0 + 50 + s * 112
+        pts += [f"{x},120", f"{x + 10},200", f"{x + 40},200", f"{x + 80},120"]
+    p.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{GLIC}" stroke-width="4" stroke-linejoin="round"/>')
+    x0 = 2 * (W + 40)
+    p.append(f'<polyline points="{x0 + 50},210 {x0 + 140},210 {x0 + 140},180 {x0 + 230},180 {x0 + 230},150 {x0 + 488},150" fill="none" stroke="{GLIC}" stroke-width="5"/>')
+    p.append(icone("t:hand-stop", x0 + 400, 100, 40, GLIC))
+    return slide("reconhecer", 340, p, rs, eyebrow="De forma objetiva", titulo="Três sinais de que não está funcionando",
+                 destaque="Qualquer um dos três: rever o plano, não aumentar as sessões com o mesmo recurso.", destaque_cor="tinta")
+
+
+def quem_89():
+    """8.9: quatro cartões de papel, cada um com o seu pedaço da régua."""
+    p = [svg_abre(1664, 300, "Quatro cartões, cada um com uma parte da régua. Fisioterapia: escolhe o recurso e escreve as quatro respostas no plano. Médico: medicação e injeções; nada de sessões sem objetivo. Preparação física: mantém o treino que não dói. Atleta: pergunta, o que isso muda no meu problema?")]
+    rs = []
+    W = 386
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:writing", "Fisioterapia", "escolhe o recurso e escreve as quatro respostas no plano", OXID, OXID_T),
+                                                ("t:stethoscope", "Médico", "medicação e injeções; nada de sessões sem objetivo", AZUL, AZUL_T),
+                                                ("t:barbell", "Preparação física", "mantém o treino que não dói", GLIC, GLIC_T),
+                                                ("t:message-circle", "Atleta", "pergunta: “o que isso muda no meu problema?”", TINTA, PAPEL)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 300, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 24, 52, cor))
+        rs += [rot(x + 24, 100, t, w=W - 48, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, 150, d, w=W - 48, tam=21, cor=TINTA, lh=1.3)]
+    return slide("quem", 300, p, rs, eyebrow="Quem faz o quê", titulo="Cada um com uma parte da régua")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipoteses_81, laudo_81, vieses_81, quem_81],
@@ -1720,7 +1916,8 @@ LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipot
           "08-05": [caso_85, expectativa_85, antes_85, semanas_85, forca_85, corrida_85, relogios_85, ultima_85, quem_85],
           "08-06": [macas_86, roteiro_86, resolvido_86, criterios_86, sprint_86, doha_86, medir_86, holmich_86, manter_86, armadilhas_86],
           "08-07": [um3_87, ensaio_87, programa_87, ortese_87, juntar_87, oito_87, paass_87, barato_87, erros_87, quem_87],
-          "08-08": [paro_88, alerta_88, natacao_88, mod_ombro_88, cirurgia_88, meio_88, flexao_88, risco_88, mod_coluna_88, custo_88]}
+          "08-08": [paro_88, alerta_88, natacao_88, mod_ombro_88, cirurgia_88, meio_88, flexao_88, risco_88, mod_coluna_88, custo_88],
+          "08-09": [perguntas_89, aparelho_89, fita_89, manual_89, janela_89, caros_89, contexto_89, reconhecer_89, quem_89]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

@@ -114,6 +114,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Recursos terapêuticos pas
                     {"t": "O gelo", "x": "Se ela gostar, em casa."}],
           "quem": "Próxima aula: testes de retorno ao esporte, e como não ser enganado por eles."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-09")
+
 spec = {"arquivo": "aulas/MOD08/08-09-recursos-terapeuticos-evidencia-efeito-e-ritual.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Recursos terapêuticos passivos", "subtitulo": "O que cada um muda, e o que é ritual",
