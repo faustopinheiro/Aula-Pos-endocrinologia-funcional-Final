@@ -112,6 +112,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Seis passos", "titulo": "C
                     {"t": "Preparação física", "x": "Ajusta o treino e mantém a força como hábito."}],
           "quem": "Próxima aula: o joelho, dois problemas debaixo da mesma queixa."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-08")
+
 spec = {"arquivo": "aulas/MOD07/07-08-tendinopatia-manejo-de-carga-como-tratamento.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Tendinopatia do Aquiles", "subtitulo": "Manejo de carga como tratamento, em seis passos",

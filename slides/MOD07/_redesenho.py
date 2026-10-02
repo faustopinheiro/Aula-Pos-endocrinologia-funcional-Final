@@ -1604,6 +1604,233 @@ def conduta_77():
     return slide("conduta", 400, p, rs, eyebrow="Reconhecer e aliviar", titulo="Sem exame, na conversa e no movimento",
                  destaque="Mobilidade continua importando. Evita-se o alongamento sustentado, em compressão, num tendão irritado.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 7.8
+
+def caso_78():
+    """7.8: a semana antes e depois do grupo novo, com o mesmo volume e outro estímulo, e o desenho da dor no Aquiles."""
+    p = [svg_abre(1664, 380, "Caso ilustrativo. Um homem na casa dos quarenta, corredor há anos, três vezes por semana. Antes: três corridas parecidas. Depois do grupo novo: uma corrida, uma ladeira e um tiro, com o volume quase igual e o estímulo todo diferente. À direita, em esquema, a dor no Aquiles: forte nos primeiros minutos de corrida, melhora no meio, volta forte na primeira pisada da manhã seguinte")]
+    rs = []
+    p.append(caixa(0, 0, 900, 380, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("h:man", 24, 18, 56, TINTA))
+    rs.append(rot(92, 30, "casa dos quarenta, corre há anos, três vezes por semana", w=790, tam=22, cor=TINTA, peso=700))
+    semanas = [("antes", [("t:run", "corrida", OXID)] * 3), ("depois", [("t:run", "corrida", OXID), ("t:trending-up", "ladeira", FOSF), ("t:bolt", "tiro", FOSF)])]
+    for k, (t, ses) in enumerate(semanas):
+        y = 100 + k * 120
+        rs.append(rot(24, y + 34, t, w=110, tam=22, cor=MUDO, peso=700))
+        for j, (ic, n, cor) in enumerate(ses):
+            x = 140 + j * 248
+            p.append(f'<rect x="{x}" y="{y}" width="232" height="100" rx="12" fill="{cor}" opacity="{1 if cor == FOSF else 0.85}"/>')
+            p.append(icone(ic, x + 18, y + 28, 44, PAPEL))
+            rs.append(rot(x + 72, y + 36, n, w=150, tam=22, cor=PAPEL, peso=700))
+    rs.append(rot(140, 338, "volume quase igual · o estímulo mudou todo", w=740, tam=21, cor=FOSF, peso=700))
+    X = 960
+    p.append(caixa(X, 0, 704, 380, FOSF, CARTAO, esp=2, rx=16))
+    rs.append(rot(X + 24, 18, "semanas depois: dor no Aquiles", w=660, tam=23, cor=FOSF, peso=700))
+    p.append(f'<polyline points="{X + 50},110 {X + 130},130 {X + 220},230 {X + 330},240 {X + 420},210 {X + 520},120 {X + 640},90" fill="none" stroke="{FOSF}" stroke-width="5"/>')
+    p.append(f'<line x1="{X + 40}" y1="270" x2="{X + 670}" y2="270" stroke="{MUDO}" stroke-width="2"/>')
+    rs += [rot(X + 30, 284, "começo da corrida", w=200, tam=18, cor=TINTA, peso=700, lh=1.2),
+           rot(X + 220, 284, "meio", w=150, tam=18, cor=TINTA, peso=700, alinha="center"),
+           rot(X + 470, 284, "primeira pisada da manhã seguinte", w=210, tam=18, cor=TINTA, peso=700, alinha="right", lh=1.2),
+           rot(X + 24, 60, "dor · esquema", w=300, tam=17, cor=MUDO)]
+    return slide("caso", 380, p, rs, eyebrow="Caso ilustrativo", titulo="Homem na casa dos quarenta, corredor há anos. Entraram ladeira e tiro.")
+
+
+def tentativas_78():
+    """7.8: quatro tentativas, cada uma com o caminho que fez até piorar ou não mudar nada."""
+    p = [svg_abre(1664, 380, "Quatro tentativas, cada uma com o caminho que fez. Parou duas semanas: melhorou, voltou no mesmo ritmo, piorou. Anti-inflamatório: melhorou, voltou, piorou. Alongamento diário: piorou. Palmilha e dois tênis: nada mudou"), defs(MUDO)]
+    rs = []
+    linhas = [("t:bed", "Parou duas semanas", ["melhorou", "voltou no mesmo ritmo", "piorou"]), ("t:pill", "Anti-inflamatório", ["melhorou", "voltou", "piorou"]),
+              ("t:stretching", "Alongamento diário", ["piorou"]), ("t:shirt-sport", "Palmilha e dois tênis", ["nada mudou"])]
+    for k, (ic, t, passos) in enumerate(linhas):
+        y = k * 96
+        p.append(caixa(0, y, 460, 82, TINTA, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, 20, y + 19, 44, TINTA))
+        rs.append(rot(80, y + 26, t, w=370, tam=23, cor=TINTA, peso=700))
+        x = 500
+        for j, ps in enumerate(passos):
+            ult = j == len(passos) - 1
+            cor = FOSF if ps == "piorou" else (GLIC if ps == "nada mudou" else OXID if ps == "melhorou" else MUDO)
+            w = 340 if len(ps) > 12 else 220
+            p.append(seta(x - 34, y + 41, x - 6, y + 41, MUDO, "m0", esp=2))
+            p.append(caixa(x, y + 10, w, 62, cor, cor if ult else CARTAO, esp=2, rx=31))
+            rs.append(rot(x, y + 27, ps, w=w, tam=21, cor=PAPEL if ult else cor, peso=700, alinha="center"))
+            x += w + 44
+    return slide("tentativas", 380, p, rs, eyebrow="O ciclo de sempre", titulo="“Já tentei de tudo e nada funciona”",
+                 destaque="Faltou a única coisa com boa evidência: carga bem dosada, por tempo suficiente.", destaque_cor="tinta")
+
+
+def perguntas_78():
+    """7.8: três perguntas, cada uma com seu pequeno desenho."""
+    p = [svg_abre(1664, 380, "Três perguntas antes de prescrever. O que mudou: volume, ladeira, tiro, salto, pausa, piso, calçado, horário, em etiquetas. Há compressão: piora em alongamento máximo, escada, agachamento fundo. E a manhã seguinte: rigidez e primeira pisada, o termômetro do dia anterior")]
+    rs = []
+    cards = [("O que mudou?", GLIC), ("Há compressão?", FOSF), ("E a manhã seguinte?", OXID)]
+    for k, (t, cor) in enumerate(cards):
+        x = k * 564
+        p.append(caixa(x, 0, 536, 380, cor, CARTAO, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 46}" cy="44" r="24" fill="{cor}"/>')
+        rs += [rot(x + 22, 30, str(k + 1), w=48, tam=24, cor=PAPEL, peso=700, alinha="center"), rot(x + 86, 28, t, w=430, tam=27, cor=cor, peso=700, serif=True)]
+    tags = ["volume", "ladeira", "tiro", "salto", "pausa", "piso", "calçado", "horário"]
+    for j, t in enumerate(tags):
+        col, lin = j % 2, j // 2
+        x, y = 24 + col * 250, 100 + lin * 66
+        p.append(f'<rect x="{x}" y="{y}" width="236" height="52" rx="26" fill="{GLIC_T}" stroke="{GLIC if t in ("ladeira", "tiro") else GLIC_T}" stroke-width="3"/>')
+        rs.append(rot(x, y + 13, t, w=236, tam=20, cor=TINTA, peso=700, alinha="center"))
+    for j, (ic, t) in enumerate([("t:stretching", "alongamento máximo"), ("t:stairs", "escada"), ("t:barbell", "agachamento fundo")]):
+        y = 104 + j * 86
+        p.append(f'<rect x="588" y="{y}" width="488" height="72" rx="14" fill="{FOSF_T}"/>')
+        p.append(icone(ic, 604, y + 16, 40, FOSF))
+        rs.append(rot(660, y + 22, "piora em " + t, w=400, tam=21, cor=TINTA, peso=700))
+    p.append(icone("t:temperature", 1170, 100, 110, OXID))
+    p.append(icone("t:sun", 1300, 110, 70, GLIC))
+    rs += [rot(1300, 186, "primeira pisada", w=200, tam=19, cor=TINTA, peso=700),
+           rot(1152, 250, "rigidez e primeira pisada: o termômetro do dia anterior", w=490, tam=22, cor=TINTA, lh=1.3)]
+    return slide("perguntas", 380, p, rs, eyebrow="Passo um · entender a carga", titulo="Três perguntas antes de prescrever",
+                 destaque="No caso ilustrativo, a resposta era evidente: entraram os estímulos que mais pedem do tendão como mola.", destaque_cor="tinta")
+
+
+def ajuste_78():
+    """7.8: a semana com picos e a mesma semana ajustada, sem os picos, com a força."""
+    p = [svg_abre(1664, 420, "Duas semanas desenhadas em barras, em esquema. Na primeira, com os picos que saem por algumas semanas: tiro, ladeira, salto, mudança brusca de ritmo, posições de compressão e a sessão longa que é o dobro. Na segunda, ajustada: fica a corrida confortável em piso plano, o volume dentro da régua de dor e a força, que é o tratamento")]
+    rs = []
+    dias = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
+    antes = [(3, OXID, ""), (6, FOSF, "tiro"), (3, OXID, ""), (6, FOSF, "ladeira"), (0, OXID, ""), (9, FOSF, "longo dobrado"), (0, OXID, "")]
+    depois = [(3, OXID, ""), (0, OXID, ""), (3, OXID, ""), (3, OXID, ""), (0, OXID, ""), (4, OXID, ""), (0, OXID, "")]
+    forca = {1, 4}
+    for k, (t, cor, dados, itens) in enumerate([("Sai por algumas semanas", FOSF, antes, ["tiro, ladeira, salto", "mudança brusca de ritmo", "posições de compressão", "a sessão longa que é o dobro"]),
+                                                 ("Fica", OXID, depois, ["corrida confortável em piso plano", "volume dentro da régua de dor", "a força, que é o tratamento"])]):
+        x = k * 852
+        p.append(caixa(x, 0, 812, 420, cor, CARTAO, esp=2, rx=16))
+        rs.append(rot(x + 24, 16, t, w=760, tam=26, cor=cor, peso=700, serif=True))
+        B = 210
+        for d, (v, c, lab) in enumerate(dados):
+            bx = x + 40 + d * 104
+            if v:
+                p.append(f'<rect x="{bx}" y="{B - v * 13}" width="76" height="{v * 13}" rx="4" fill="{c}"/>')
+            if k == 1 and d in forca:
+                p.append(f'<rect x="{bx}" y="{B - 52}" width="76" height="52" rx="4" fill="{GLIC}"/>')
+                p.append(icone("t:barbell", bx + 20, B - 44, 36, PAPEL))
+            if lab:
+                rs.append(rot(bx - 20, B - v * 13 - 28, lab, w=116, tam=16, cor=FOSF, peso=700, alinha="center"))
+        p.append(f'<line x1="{x + 30}" y1="{B}" x2="{x + 780}" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+        rs.append(rot(x + 40, B + 6, "seg a dom", w=720, tam=16, cor=MUDO))
+        for j, it in enumerate(itens):
+            y = 262 + j * 38
+            p.append(f'<circle cx="{x + 36}" cy="{y + 12}" r="6" fill="{cor}"/>')
+            rs.append(rot(x + 54, y, it, w=740, tam=20, cor=TINTA, peso=700 if (k == 1 and j == 2) else 400))
+    rs.append(rot(852, 392, "esquema", w=790, tam=15, cor=MUDO, alinha="right"))
+    return slide("ajuste", 420, p, rs, eyebrow="Passo dois · ajustar sem zerar", titulo="Tirar os picos, manter o resto",
+                 destaque="Quem chegou esperando ouvir “pare de correr” e ouve “corra de outro jeito” adere muito mais.", destaque_cor="tinta")
+
+
+def regua_78():
+    """7.8: a régua de dor de 0 a 10 com a faixa até 5, e as três condições."""
+    p = [svg_abre(1664, 380, "Uma régua de dor de zero a dez. A faixa até cerca de cinco está liberada, com três condições: a dor volta ao basal na manhã seguinte, e a primeira pisada é o termômetro; não sobe de semana para semana, porque a tendência importa mais que o dia; e a função não piora, a pessoa continua conseguindo fazer o que fazia")]
+    rs = []
+    X0, E = 40, 150
+    p.append(f'<rect x="{X0}" y="20" width="{5 * E}" height="70" rx="8" fill="{OXID}"/>')
+    p.append(f'<rect x="{X0 + 5 * E}" y="20" width="{5 * E}" height="70" rx="8" fill="{FOSF}"/>')
+    for i in range(1, 10):
+        p.append(f'<line x1="{X0 + i * E}" y1="76" x2="{X0 + i * E}" y2="90" stroke="{PAPEL}" stroke-width="2"/>')
+    for i in range(11):
+        rs.append(rot(X0 + i * E - 30, 98, str(i), w=60, tam=20, cor=TINTA, peso=700, alinha="center"))
+    p.append(f'<line x1="{X0 + 5 * E}" y1="6" x2="{X0 + 5 * E}" y2="104" stroke="{TINTA}" stroke-width="5"/>')
+    rs += [rot(X0, 34, "pode treinar com dor até cerca de 5", w=5 * E, tam=22, cor=PAPEL, peso=700, alinha="center"),
+           rot(X0 + 5 * E, 34, "acima: ajustar", w=5 * E, tam=22, cor=PAPEL, peso=700, alinha="center")]
+    conds = [("t:sun", "Volta ao basal na manhã seguinte", "a primeira pisada é o termômetro", OXID),
+             ("t:chart-line", "Não sobe de semana para semana", "a tendência importa mais que o dia", GLIC),
+             ("t:run", "A função não piora", "continua conseguindo fazer o que fazia", TINTA)]
+    for k, (ic, t, d, cor) in enumerate(conds):
+        x = k * 564
+        p.append(caixa(x, 150, 536, 230, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 172, 44, cor))
+        rs += [rot(x + 84, 176, t, w=430, tam=23, cor=cor, peso=700, lh=1.2), rot(x + 24, 280, d, w=490, tam=22, cor=TINTA, lh=1.3)]
+    return slide("regua", 380, p, rs, eyebrow="Passo três · a régua da dor", titulo="Até cerca de 5 em 10, com três condições",
+                 destaque="Em 38 pacientes, continuar correndo e saltando com a régua deu o mesmo resultado que o repouso ativo.", destaque_cor="petr",
+                 fonte="Silbernagel e colegas, Am J Sports Med 2007")
+
+
+def pesada_78():
+    """7.8: degraus de carga ao longo de 12 semanas: as repetições máximas caem de 15 a 6 e a carga sobe."""
+    p = [svg_abre(1664, 380, "Doze semanas em degraus, cada degrau com a largura das semanas que dura. Semana 1: 15 repetições máximas, 3 séries. Semanas 2 e 3: 12, 3 séries. Semanas 4 e 5: 10, 4 séries. Semanas 6 a 8: 8, 4 séries. Semanas 9 a 12: 6, 4 séries. A carga sobe a cada degrau, porque as repetições máximas caem")]
+    rs = []
+    X0, W = 40, 118
+    fases = [(1, 15, 3, "1"), (2, 12, 3, "2 e 3"), (2, 10, 4, "4 e 5"), (3, 8, 4, "6 a 8"), (4, 6, 4, "9 a 12")]
+    x = X0
+    for k, (sem, rm, ser, lab) in enumerate(fases):
+        h = 90 + k * 50
+        w = sem * W
+        p.append(f'<rect x="{x}" y="{320 - h}" width="{w - 6}" height="{h}" rx="8" fill="{OXID}" opacity="{0.45 + k * 0.13:.2f}"/>')
+        rs += [rot(x, 320 - h + 14, f"{rm} RM", w=w - 6, tam=30 if sem > 1 else 24, cor=PAPEL, peso=700, alinha="center", serif=True),
+               rot(x, 320 - h + 58, f"{ser} séries", w=w - 6, tam=18, cor=PAPEL, alinha="center"),
+               rot(x, 330, "sem " + lab, w=w - 6, tam=18, cor=TINTA, peso=700, alinha="center")]
+        x += w
+    rs.append(rot(X0, 0, "a carga sobe a cada degrau: as repetições máximas caem", w=760, tam=21, cor=OXID, peso=700))
+    return slide("pesada", 380, p, rs, eyebrow="Passo quatro · fase dois, carga pesada e lenta", titulo="A dose do ensaio dinamarquês, no Aquiles",
+                 destaque="Três vezes por semana, 3 s para subir e 3 s para descer. Antes, se a dor estiver irritada, isometria: 5 × 45 s.", destaque_cor="tinta",
+                 fonte="Am J Sports Med 2015 · isometria: Br J Sports Med 2015")
+
+
+def comparacao_78():
+    """7.8: barras lado a lado: satisfação em 12 semanas e adesão, carga pesada e lenta contra excêntrico."""
+    p = [svg_abre(1664, 360, "Barras lado a lado, em 58 pessoas. Satisfeitos em 12 semanas: 100% com carga pesada e lenta, 80% com excêntrico. Adesão: 92% com carga pesada e lenta, 78% com excêntrico")]
+    rs = []
+    B, E = 290, 2.4
+    grupos = [("satisfeitos em 12 semanas", [(100, OXID), (80, GLIC)]), ("adesão", [(92, OXID), (78, GLIC)])]
+    for g, (t, barras) in enumerate(grupos):
+        gx = 60 + g * 620
+        for j, (v, cor) in enumerate(barras):
+            x = gx + j * 230
+            p.append(f'<rect x="{x}" y="{B - v * E:.0f}" width="200" height="{v * E:.0f}" rx="6" fill="{cor}"/>')
+            rs.append(rot(x, B - v * E - 46, f"{v}%", w=200, tam=36, cor=cor, peso=700, alinha="center", serif=True))
+        rs.append(rot(gx, B + 12, t, w=430, tam=22, cor=TINTA, peso=700, alinha="center"))
+    p.append(f'<line x1="40" y1="{B}" x2="1180" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    for k, (t, cor) in enumerate([("carga pesada e lenta", OXID), ("excêntrico", GLIC)]):
+        y = 60 + k * 70
+        p.append(f'<rect x="1280" y="{y}" width="40" height="40" rx="6" fill="{cor}"/>')
+        rs.append(rot(1336, y + 6, t, w=320, tam=23, cor=TINTA, peso=700))
+    return slide("comparacao", 360, p, rs, eyebrow="Carga pesada e lenta contra excêntrico, 58 pessoas", titulo="Os dois funcionam; um se cumpre melhor",
+                 destaque="A diferença de satisfação sumiu em um ano. Carga suficiente, consistente, por tempo suficiente, importa mais que a escola.",
+                 destaque_cor="tinta", fonte="Am J Sports Med 2015")
+
+
+def falhas_78():
+    """7.8: seis motivos de falha, cada um com um ícone."""
+    p = [svg_abre(1664, 400, "Seis motivos pelos quais o tratamento parece falhar, em ladrilhos. Dose baixa: se conversa tranquilo na série, não está pesado. Tempo curto: quatro semanas é amostra grátis. Causa intacta: a ladeira continua igual. Sem fase de mola: alta, tiro no fim de semana, dor de volta. Imagem como régua: compare função, não estrutura. Bem feito e não melhora: rever o diagnóstico com o médico")]
+    rs = []
+    itens = [("t:barbell", "Dose baixa", "se conversa tranquilo na série, não está pesado", FOSF), ("t:hourglass", "Tempo curto", "quatro semanas é amostra grátis", FOSF),
+             ("t:trending-up", "Causa intacta", "a ladeira continua igual", GLIC), ("t:bolt", "Sem fase de mola", "alta, tiro no fim de semana, dor de volta", GLIC),
+             ("t:ruler-measure", "Imagem como régua", "compare função, não estrutura", OXID), ("t:stethoscope", "Bem feito e não melhora", "rever o diagnóstico com o médico", TINTA)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        col, lin = k % 3, k // 3
+        x, y = col * 564, lin * 206
+        p.append(caixa(x, y, 536, 190, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 22, y + 22, 48, cor))
+        rs += [rot(x + 86, y + 30, t, w=430, tam=25, cor=cor, peso=700, serif=True), rot(x + 24, y + 98, d, w=490, tam=22, cor=TINTA, lh=1.3)]
+    return slide("falhas", 400, p, rs, eyebrow="Passo seis · por que falha", titulo="Quase nunca é o tratamento")
+
+
+def plano_78():
+    """7.8: quatro fases do plano do caso, com o portão que cada uma precisa passar."""
+    p = [svg_abre(1664, 420, "O plano do caso em quatro fases, cada uma com o portão para avançar. Primeiras semanas: corrida leve em plano; sem ladeira, tiro e alongamento sustentado; isometria se irritado. Portão: manhã seguinte estável. Força: carga pesada e lenta, três vezes por semana, registrada. Portão: força subindo, régua mantida. Mola: salto em volume baixo. Portão: régua mantida. Esporte: tiro uma vez por semana, depois ladeira. Portão: uma novidade de cada vez"), defs(MUDO)]
+    rs = []
+    fases = [("Primeiras semanas", "corrida leve em plano; sem ladeira, tiro e alongamento sustentado; isometria se irritado", "manhã seguinte estável", OXID),
+             ("Força", "carga pesada e lenta, 3 × por semana, registrada", "força subindo, régua mantida", OXID),
+             ("Mola", "salto em volume baixo", "régua mantida", GLIC),
+             ("Esporte", "tiro 1 × por semana, depois ladeira", "uma novidade de cada vez", FOSF)]
+    for k, (t, e, g, cor) in enumerate(fases):
+        x = k * 424
+        p.append(caixa(x, 0, 392, 300, cor, CARTAO, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 44}" cy="44" r="24" fill="{cor}"/>')
+        rs += [rot(x + 20, 30, str(k + 1), w=48, tam=24, cor=PAPEL, peso=700, alinha="center"), rot(x + 82, 28, t, w=300, tam=24, cor=cor, peso=700, serif=True, lh=1.15),
+               rot(x + 22, 100, e, w=350, tam=21, cor=TINTA, lh=1.3)]
+        p.append(caixa(x, 320, 392, 100, cor, cor, esp=0, rx=16))
+        p.append(icone("t:lock-open", x + 18, 346, 40, PAPEL))
+        rs.append(rot(x + 68, 340, g, w=310, tam=20, cor=PAPEL, peso=700, lh=1.25))
+        if k < 3:
+            p.append(seta(x + 394, 370, x + 420, 370, MUDO, "m0", esp=3))
+    return slide("plano", 420, p, rs, eyebrow="De volta ao caso ilustrativo", titulo="O plano, não o desfecho",
+                 destaque="Depois da alta, força duas vezes por semana como hábito: é o que mais protege contra a recaída.", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"07-01": [numeros_71, usos_71, familias_71, consenso_71, denominador_71, novatos_71, vocabulario_71, oslo_71, leitura_71, rastreio_71],
@@ -1612,7 +1839,8 @@ LICOES = {"07-01": [numeros_71, usos_71, familias_71, consenso_71, denominador_7
           "07-04": [palavra_74, tamanho_74, mecanismos_74, historia_74, exame_74, imagem_74, advertencias_74, munique_74, britanica_74, conduta_74],
           "07-05": [celular_75, medianas_75, variacao_75, advertencias_75, laudo_75, movem_75, andar_75, naodizer_75, dizer_75],
           "07-06": [cena_76, custo_76, graus_76, imitacoes_76, peace_76, love_76, aine_76, gelo_76, curcuma_76, reabilitacao_76],
-          "07-07": [palavra_77, nome_77, rosca_77, imagem_77, exames_77, mudou_77, compressao_77, conduta_77]}
+          "07-07": [palavra_77, nome_77, rosca_77, imagem_77, exames_77, mudou_77, compressao_77, conduta_77],
+          "07-08": [caso_78, tentativas_78, perguntas_78, ajuste_78, regua_78, pesada_78, comparacao_78, falhas_78, plano_78]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
