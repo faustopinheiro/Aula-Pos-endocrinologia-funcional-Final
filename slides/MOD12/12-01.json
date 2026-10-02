@@ -1,0 +1,1036 @@
+{
+ "arquivo": "aulas/MOD12/12-01-crescimento-e-maturacao.md",
+ "titulo": "Crescimento e maturação",
+ "subtitulo": "Idade no documento não é idade do corpo",
+ "nota_capa": "Entra por três meninos de treze anos numa peneira de futebol. Abre o módulo.",
+ "secoes": {
+  "tres": [
+   "O erro.",
+   "capa"
+  ],
+  "metodos": [
+   "Como estimar.",
+   "metodos"
+  ],
+  "curvas": [
+   "O que muda na seleção.",
+   "curvas"
+  ],
+  "ficha": [
+   "A ficha refeita.",
+   "ficha"
+  ]
+ },
+ "slides": [
+  {
+   "id": "tres",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Três meninos de treze anos numa peneira de futebol: 1,45 m, 1,72 m e um no meio. Etiqueta: sub-13, nascidos no mesmo ano. Ao lado, a prancheta do avaliador com altura, velocidade e força\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><circle cx=\"140\" cy=\"191\" r=\"21\" fill=\"#B07A1C\"/><rect x=\"112\" y=\"217\" width=\"55\" height=\"104\" rx=\"12\" fill=\"#B07A1C\"/><rect x=\"117\" y=\"313\" width=\"18\" height=\"87\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"145\" y=\"313\" width=\"18\" height=\"87\" rx=\"6\" fill=\"#B07A1C\"/><circle cx=\"340\" cy=\"86\" r=\"31\" fill=\"#008A7E\"/><rect x=\"299\" y=\"123\" width=\"83\" height=\"155\" rx=\"17\" fill=\"#008A7E\"/><rect x=\"306\" y=\"269\" width=\"28\" height=\"131\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"347\" y=\"269\" width=\"28\" height=\"131\" rx=\"6\" fill=\"#008A7E\"/><circle cx=\"560\" cy=\"136\" r=\"26\" fill=\"#3A6EA5\"/><rect x=\"525\" y=\"168\" width=\"70\" height=\"130\" rx=\"14\" fill=\"#3A6EA5\"/><rect x=\"531\" y=\"290\" width=\"23\" height=\"110\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"566\" y=\"290\" width=\"23\" height=\"110\" rx=\"6\" fill=\"#3A6EA5\"/><line x1=\"40\" y1=\"400\" x2=\"700\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"760\" y=\"0\" width=\"300\" height=\"70\" rx=\"35\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><rect x=\"1120\" y=\"0\" width=\"544\" height=\"460\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1144\" y1=\"150\" x2=\"1640\" y2=\"150\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"1144\" y1=\"230\" x2=\"1640\" y2=\"230\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"1144\" y1=\"310\" x2=\"1640\" y2=\"310\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"1144\" y1=\"390\" x2=\"1640\" y2=\"390\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 414,
+     "w": 200,
+     "t": "1,45 m",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 414,
+     "w": 200,
+     "t": "1,72 m",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 414,
+     "w": 200,
+     "t": "1,59 m",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 18,
+     "w": 300,
+     "t": "sub-13 · mesmo ano",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 20,
+     "w": 500,
+     "t": "Prancheta do avaliador",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 106,
+     "w": 300,
+     "t": "altura",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 186,
+     "w": 300,
+     "t": "velocidade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 266,
+     "w": 300,
+     "t": "força",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 346,
+     "w": 300,
+     "t": "ganha a dividida",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 420,
+     "w": 500,
+     "t": "nenhuma linha para maturação",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma peneira de futebol, categoria sub-13",
+   "titulo": "Mesma idade no documento, corpos com anos de distância"
+  },
+  {
+   "id": "faixa",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Régua de idade biológica sob os três meninos: o primeiro bem atrás, o segundo bem à frente, com uma chave de vários anos. Embaixo, duas faixas do pico de crescimento: meninas por volta dos doze, meninos por volta dos catorze, cerca de dois anos de diferença. Esquema\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"120\" y1=\"110\" x2=\"1540\" y2=\"110\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"120\" y1=\"100\" x2=\"120\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"278\" y1=\"100\" x2=\"278\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"436\" y1=\"100\" x2=\"436\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"593\" y1=\"100\" x2=\"593\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"751\" y1=\"100\" x2=\"751\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"909\" y1=\"100\" x2=\"909\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1067\" y1=\"100\" x2=\"1067\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1224\" y1=\"100\" x2=\"1224\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1382\" y1=\"100\" x2=\"1382\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1540\" y1=\"100\" x2=\"1540\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"499\" cy=\"110\" r=\"18\" fill=\"#B07A1C\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"751\" cy=\"110\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><circle cx=\"1035\" cy=\"110\" r=\"18\" fill=\"#008A7E\" stroke=\"#FDFCF9\" stroke-width=\"4\"/><path d=\"M 499 176 q 0 20 20 20 L 1015 196 q 20 0 20 -20\" stroke=\"#A8322A\" stroke-width=\"4\" fill=\"none\"/><rect x=\"436\" y=\"280\" width=\"316\" height=\"58\" rx=\"12\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"751\" y=\"354\" width=\"316\" height=\"58\" rx=\"12\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 40,
+     "w": 600,
+     "t": "idade biológica",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 128,
+     "w": 60,
+     "t": "9",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 248,
+     "y": 128,
+     "w": 60,
+     "t": "10",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 406,
+     "y": 128,
+     "w": 60,
+     "t": "11",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 563,
+     "y": 128,
+     "w": 60,
+     "t": "12",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 721,
+     "y": 128,
+     "w": 60,
+     "t": "13",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 879,
+     "y": 128,
+     "w": 60,
+     "t": "14",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1037,
+     "y": 128,
+     "w": 60,
+     "t": "15",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1194,
+     "y": 128,
+     "w": 60,
+     "t": "16",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1352,
+     "y": 128,
+     "w": 60,
+     "t": "17",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1510,
+     "y": 128,
+     "w": 60,
+     "t": "18",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 419,
+     "y": 40,
+     "w": 160,
+     "t": "1,45 m",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 671,
+     "y": 40,
+     "w": 160,
+     "t": "1,59 m",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 955,
+     "y": 40,
+     "w": 160,
+     "t": "1,72 m",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 601,
+     "y": 206,
+     "w": 300,
+     "t": "todos com 13 anos no documento",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 771,
+     "y": 294,
+     "w": 520,
+     "t": "meninas: pico por volta dos 12",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1087,
+     "y": 368,
+     "w": 520,
+     "t": "meninos: pico por volta dos 14",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 300,
+     "w": 200,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Ritmos de maturação",
+   "titulo": "Na puberdade, o calendário deixa de descrever o corpo"
+  },
+  {
+   "id": "metodos",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Quatro métodos de estimar maturação: idade óssea, referência, consultório; estágios puberais, consultório com privacidade; equação do tempo até o pico, campo, erro de cerca de meio ano; percentual da estatura adulta prevista, campo, com altura dos pais. Um quinto, mais simples: altura a cada três meses\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"396\" height=\"300\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(20.0 20.0) scale(1.0833)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><rect x=\"420\" y=\"0\" width=\"396\" height=\"300\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(440.0 20.0) scale(1.0833)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><rect x=\"840\" y=\"0\" width=\"396\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(860.0 20.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"1260\" y=\"0\" width=\"396\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1280.0 20.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"0\" y=\"340\" width=\"1664\" height=\"130\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"40\" y=\"360\" width=\"16\" height=\"90\" fill=\"#B07A1C\"/><line x1=\"56\" y1=\"368\" x2=\"70\" y2=\"368\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"56\" y1=\"383\" x2=\"80\" y2=\"383\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"56\" y1=\"398\" x2=\"70\" y2=\"398\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"56\" y1=\"413\" x2=\"80\" y2=\"413\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"56\" y1=\"428\" x2=\"70\" y2=\"428\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"56\" y1=\"443\" x2=\"80\" y2=\"443\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 84,
+     "y": 30,
+     "w": 296,
+     "t": "Idade óssea",
+     "tam": 27,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 20,
+     "y": 120,
+     "w": 356,
+     "t": "radiografia de mão e punho",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 230,
+     "w": 356,
+     "t": "referência · consultório",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 504,
+     "y": 30,
+     "w": 296,
+     "t": "Estágios puberais",
+     "tam": 27,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 440,
+     "y": 120,
+     "w": 356,
+     "t": "exame físico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 440,
+     "y": 230,
+     "w": 356,
+     "t": "consultório · privacidade",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 924,
+     "y": 30,
+     "w": 296,
+     "t": "Tempo até o pico",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 860,
+     "y": 120,
+     "w": 356,
+     "t": "estatura, altura sentada, perna, peso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 860,
+     "y": 230,
+     "w": 356,
+     "t": "campo · erro de ~meio ano",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1344,
+     "y": 30,
+     "w": 296,
+     "t": "% da estatura adulta",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1280,
+     "y": 120,
+     "w": 356,
+     "t": "medidas e altura dos pais",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1280,
+     "y": 230,
+     "w": 356,
+     "t": "campo",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 120,
+     "y": 380,
+     "w": 1500,
+     "t": "O mais simples: altura a cada três meses, sempre do mesmo jeito",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Como se estima a idade biológica",
+   "titulo": "Uma estimativa imperfeita vale mais que a data de nascimento",
+   "fonte": "Equação de tempo até o pico: Med Sci Sports Exerc 2002"
+  },
+  {
+   "id": "curvas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas curvas de desempenho dos doze aos vinte anos. A de quem amadureceu cedo começa alta e se achata; a de quem amadureceu tarde começa baixa, sobe e cruza a primeira perto dos dezessete. Faixa sobre os treze e catorze: onde acontecem as seleções. Esquema\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"258\" y=\"10\" width=\"275\" height=\"340\" fill=\"#F3E1DE\"/><line x1=\"120\" y1=\"350\" x2=\"1220\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 120 170 C 395 110 670 100 1220 96\" stroke=\"#008A7E\" stroke-width=\"7\" fill=\"none\"/><path d=\"M 120 300 C 532 290 739 120 1220 60\" stroke=\"#B07A1C\" stroke-width=\"7\" fill=\"none\"/></svg>",
+   "rotulos": [
+    {
+     "x": 258,
+     "y": 20,
+     "w": 275,
+     "t": "onde acontecem as seleções",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 80,
+     "y": 360,
+     "w": 80,
+     "t": "12 anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 355,
+     "y": 360,
+     "w": 80,
+     "t": "14 anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 360,
+     "w": 80,
+     "t": "16 anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 905,
+     "y": 360,
+     "w": 80,
+     "t": "18 anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 360,
+     "w": 80,
+     "t": "20 anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 80,
+     "w": 420,
+     "t": "amadureceu cedo",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 30,
+     "w": 420,
+     "t": "amadureceu tarde",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 40,
+     "w": 110,
+     "t": "desempenho",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 200,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Desempenho na base",
+   "titulo": "A vantagem de quem amadurece cedo é real e temporária",
+   "fonte": "Revisão sobre maturação de jovens atletas, Br J Sports Med 2015"
+  },
+  {
+   "id": "inverso",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma balança: de um lado, uma ginasta pequena e leve, favorecida por amadurecer tarde; do outro, um jogador grande, favorecido por amadurecer cedo. Embaixo: o esporte decide quem leva vantagem e quem sofre pressão\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"320\" y1=\"220\" x2=\"1340\" y2=\"220\" stroke=\"#12202E\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M 830 220 l -60 160 l 120 0 z\" fill=\"#12202E\"/><circle cx=\"420\" cy=\"74\" r=\"14\" fill=\"#B07A1C\"/><rect x=\"402\" y=\"93\" width=\"36\" height=\"68\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"405\" y=\"153\" width=\"12\" height=\"57\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"423\" y=\"153\" width=\"12\" height=\"57\" rx=\"6\" fill=\"#B07A1C\"/><circle cx=\"1240\" cy=\"28\" r=\"18\" fill=\"#3A6EA5\"/><rect x=\"1216\" y=\"52\" width=\"48\" height=\"90\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"1220\" y=\"134\" width=\"16\" height=\"76\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"1244\" y=\"134\" width=\"16\" height=\"76\" rx=\"6\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 60,
+     "w": 360,
+     "t": "ginástica, provas de fundo",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 110,
+     "w": 360,
+     "t": "favorece quem amadurece tarde",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.2
+    },
+    {
+     "x": 1300,
+     "y": 60,
+     "w": 364,
+     "t": "força, potência, tamanho",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 110,
+     "w": 364,
+     "t": "favorece quem amadurece cedo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 390,
+     "w": 1664,
+     "t": "Em cada lado, quem tem o ritmo contrário sofre a pressão",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Nem todo esporte premia o mesmo",
+   "titulo": "Ritmo de maturação não é mérito nem defeito"
+  },
+  {
+   "id": "grupos",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Dois campos. No primeiro, times montados por ano de nascimento, com tamanhos muito diferentes. No segundo, times montados por maturação, com tamanhos parecidos e idades misturadas. Faixa: complementa a categoria por idade, não a substitui\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"804\" height=\"330\" rx=\"18\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"110\" cy=\"201\" r=\"11\" fill=\"#B07A1C\"/><rect x=\"96\" y=\"218\" width=\"29\" height=\"54\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"98\" y=\"264\" width=\"10\" height=\"46\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"112\" y=\"264\" width=\"10\" height=\"46\" rx=\"6\" fill=\"#B07A1C\"/><circle cx=\"260\" cy=\"128\" r=\"18\" fill=\"#3A6EA5\"/><rect x=\"236\" y=\"152\" width=\"48\" height=\"90\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"240\" y=\"234\" width=\"16\" height=\"76\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"264\" y=\"234\" width=\"16\" height=\"76\" rx=\"6\" fill=\"#3A6EA5\"/><circle cx=\"410\" cy=\"174\" r=\"14\" fill=\"#B07A1C\"/><rect x=\"392\" y=\"193\" width=\"36\" height=\"68\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"395\" y=\"253\" width=\"12\" height=\"57\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"413\" y=\"253\" width=\"12\" height=\"57\" rx=\"6\" fill=\"#B07A1C\"/><circle cx=\"560\" cy=\"101\" r=\"21\" fill=\"#3A6EA5\"/><rect x=\"532\" y=\"127\" width=\"55\" height=\"104\" rx=\"12\" fill=\"#3A6EA5\"/><rect x=\"537\" y=\"223\" width=\"18\" height=\"87\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"565\" y=\"223\" width=\"18\" height=\"87\" rx=\"6\" fill=\"#3A6EA5\"/><circle cx=\"710\" cy=\"192\" r=\"12\" fill=\"#B07A1C\"/><rect x=\"694\" y=\"209\" width=\"31\" height=\"58\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"697\" y=\"261\" width=\"10\" height=\"49\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"713\" y=\"261\" width=\"10\" height=\"49\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"860\" y=\"0\" width=\"804\" height=\"330\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"970\" cy=\"155\" r=\"15\" fill=\"#B07A1C\"/><rect x=\"950\" y=\"177\" width=\"41\" height=\"76\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"953\" y=\"245\" width=\"14\" height=\"65\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"973\" y=\"245\" width=\"14\" height=\"65\" rx=\"6\" fill=\"#B07A1C\"/><circle cx=\"1120\" cy=\"146\" r=\"16\" fill=\"#3A6EA5\"/><rect x=\"1098\" y=\"168\" width=\"43\" height=\"81\" rx=\"9\" fill=\"#3A6EA5\"/><rect x=\"1102\" y=\"242\" width=\"14\" height=\"68\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"1124\" y=\"242\" width=\"14\" height=\"68\" rx=\"6\" fill=\"#3A6EA5\"/><circle cx=\"1270\" cy=\"151\" r=\"16\" fill=\"#B07A1C\"/><rect x=\"1249\" y=\"172\" width=\"42\" height=\"79\" rx=\"9\" fill=\"#B07A1C\"/><rect x=\"1252\" y=\"244\" width=\"14\" height=\"66\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"1274\" y=\"244\" width=\"14\" height=\"66\" rx=\"6\" fill=\"#B07A1C\"/><circle cx=\"1420\" cy=\"160\" r=\"15\" fill=\"#3A6EA5\"/><rect x=\"1400\" y=\"181\" width=\"40\" height=\"74\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"1404\" y=\"247\" width=\"13\" height=\"63\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"1423\" y=\"247\" width=\"13\" height=\"63\" rx=\"6\" fill=\"#3A6EA5\"/><circle cx=\"1570\" cy=\"142\" r=\"17\" fill=\"#B07A1C\"/><rect x=\"1548\" y=\"164\" width=\"44\" height=\"83\" rx=\"9\" fill=\"#B07A1C\"/><rect x=\"1552\" y=\"240\" width=\"15\" height=\"70\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"1574\" y=\"240\" width=\"15\" height=\"70\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 760,
+     "t": "por ano de nascimento",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 18,
+     "w": 760,
+     "t": "por maturação",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "Complementa a categoria por idade; não a substitui",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma resposta em teste",
+   "titulo": "Agrupar por maturação muda o que o avaliador enxerga"
+  },
+  {
+   "id": "ficha",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Ficha de avaliação refeita, com duas colunas novas: estimativa de maturação e desempenho ajustado. Um carimbo riscado: cortado aos 13. No lugar dele: reavaliar em 6 meses\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"1060\" height=\"460\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"20\" y1=\"156\" x2=\"1040\" y2=\"156\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"20\" y1=\"246\" x2=\"1040\" y2=\"246\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"20\" y1=\"336\" x2=\"1040\" y2=\"336\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"30\" y=\"384\" width=\"1000\" height=\"56\" rx=\"10\" fill=\"#DDEFEC\"/><rect x=\"1120\" y=\"40\" width=\"544\" height=\"140\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"1150\" y1=\"160\" x2=\"1634\" y2=\"60\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"1120\" y=\"260\" width=\"544\" height=\"140\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 24,
+     "w": 200,
+     "t": "atleta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 235,
+     "y": 24,
+     "w": 200,
+     "t": "altura",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 24,
+     "w": 200,
+     "t": "velocidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 645,
+     "y": 24,
+     "w": 200,
+     "t": "maturação",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 24,
+     "w": 200,
+     "t": "leitura",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 104,
+     "w": 200,
+     "t": "A",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 235,
+     "y": 104,
+     "w": 200,
+     "t": "1,45",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 440,
+     "y": 104,
+     "w": 200,
+     "t": "média",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 645,
+     "y": 104,
+     "w": 200,
+     "t": "tardia",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 850,
+     "y": 104,
+     "w": 200,
+     "t": "promissor",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 30,
+     "y": 194,
+     "w": 200,
+     "t": "B",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 235,
+     "y": 194,
+     "w": 200,
+     "t": "1,72",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 440,
+     "y": 194,
+     "w": 200,
+     "t": "alta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 645,
+     "y": 194,
+     "w": 200,
+     "t": "precoce",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 850,
+     "y": 194,
+     "w": 200,
+     "t": "vantagem de corpo",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 30,
+     "y": 284,
+     "w": 200,
+     "t": "C",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 235,
+     "y": 284,
+     "w": 200,
+     "t": "1,59",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 440,
+     "y": 284,
+     "w": 200,
+     "t": "média",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 645,
+     "y": 284,
+     "w": 200,
+     "t": "na média",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 850,
+     "y": 284,
+     "w": 200,
+     "t": "acompanhar",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 40,
+     "y": 396,
+     "w": 980,
+     "t": "colunas novas: maturação estimada e leitura do desempenho contra ela",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 82,
+     "w": 504,
+     "t": "cortado aos 13",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 302,
+     "w": 504,
+     "t": "reavaliar em 6 meses",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O que fazer no lugar",
+   "titulo": "A ficha ganha a maturação, e o corte vira reavaliação"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Crescimento e maturação",
+   "titulo": "Na base, o corpo não segue o calendário",
+   "regras": [
+    "Idade no documento não é idade biológica: na puberdade, anos separam atletas do mesmo ano",
+    "Desempenho na base se lê junto com a maturação",
+    "Corte definitivo nessa idade se evita: reavaliar custa pouco"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e avalia",
+     "x": "Estima a maturação em campo e lê o desempenho contra ela."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Avalia maturação no consultório quando há dúvida clínica."
+    },
+    {
+     "ic": "t:users",
+     "t": "Todos",
+     "x": "Explicam ao adolescente e à família que ritmo não é talento nem defeito."
+    }
+   ]
+  }
+ ],
+ "modulo": "Atleta Adolescente e Atleta Idoso",
+ "tema": "musgo"
+}
