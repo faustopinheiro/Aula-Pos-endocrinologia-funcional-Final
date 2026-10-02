@@ -103,6 +103,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Fases da reabilitação", 
                     {"t": "Toda a equipe", "x": "Sabe em que porta o atleta está."}],
           "quem": "Próxima aula: mecanotransdução, a biologia por trás de cada porta."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-02")
+
 spec = {"arquivo": "aulas/MOD08/08-02-fases-da-reabilitacao-e-criterios-de-passagem.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Fases da reabilitação", "subtitulo": "Avançar, segurar ou recuar em cada porta",
