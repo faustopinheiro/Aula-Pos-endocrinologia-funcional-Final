@@ -1,0 +1,1210 @@
+{
+ "arquivo": "aulas/MOD12/12-08-prescricao-de-forca-no-idoso.md",
+ "titulo": "Prescrição de força no idoso",
+ "subtitulo": "Seis passos, do primeiro dia à progressão",
+ "nota_capa": "Entra por uma ciclista na casa dos setenta que recebeu uma ficha de carga baixa demais.",
+ "secoes": {
+  "ciclista": [
+   "O caso.",
+   "capa"
+  ],
+  "triagem": [
+   "Os seis passos.",
+   "triagem"
+  ],
+  "ajustes": [
+   "Dor ou doença.",
+   "ajustes"
+  ]
+ },
+ "slides": [
+  {
+   "id": "ciclista",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Ciclista na casa dos setenta. Pedala três vezes por semana, pressão alta controlada, osteopenia. A ficha da academia: elástico leve, 3 × 15, sem carga: estímulo pequeno demais\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"108\" cy=\"329\" r=\"75\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"15\"/><circle cx=\"372\" cy=\"329\" r=\"75\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"15\"/><path d=\"M 108 329 L 205 232 L 319 232 L 372 329 M 205 232 L 240 329 L 319 232 M 108 329 L 240 329 M 196 206 L 222 206 M 319 232 L 310 188 L 337 179\" stroke=\"#12202E\" stroke-width=\"15\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"266\" cy=\"74\" r=\"31\" fill=\"#3A6EA5\"/><path d=\"M 209 197 L 258 109 L 328 179 M 209 197 L 266 250 L 240 320\" stroke=\"#3A6EA5\" stroke-width=\"31\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"560\" y=\"0\" width=\"480\" height=\"300\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1100\" y=\"0\" width=\"564\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"560\" y=\"340\" width=\"1104\" height=\"100\" rx=\"16\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 584,
+     "y": 20,
+     "w": 432,
+     "t": "Na casa dos setenta",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 90,
+     "w": 432,
+     "t": "· pedala 3 vezes por semana",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 150,
+     "w": 432,
+     "t": "· pressão alta controlada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 210,
+     "w": 432,
+     "t": "· osteopenia na densitometria",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 20,
+     "w": 516,
+     "t": "A ficha da academia",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1124,
+     "y": 90,
+     "w": 516,
+     "t": "elástico leve",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 150,
+     "w": 516,
+     "t": "3 × 15",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 210,
+     "w": 516,
+     "t": "sem carga",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 368,
+     "w": 1064,
+     "t": "A intenção é proteger; o estímulo é pequeno demais para mudar alguma coisa",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma ciclista na casa dos setenta começa força",
+   "titulo": "Proteger com carga baixa demais não protege"
+  },
+  {
+   "id": "triagem",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo 1, triagem em três perguntas: já é ativa? tem doença cardiovascular, metabólica ou renal conhecida, ou sintomas? que intensidade quer? Saídas: sintoma, para e avalia; doença conhecida, começa leve a moderado e avalia antes do vigoroso; ativa sem doença nem sintoma, segue e começa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"520\" height=\"120\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"524\" y1=\"60\" x2=\"560\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"564\" y=\"0\" width=\"520\" height=\"120\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1088\" y1=\"60\" x2=\"1124\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1128\" y=\"0\" width=\"520\" height=\"120\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"0\" y=\"160\" width=\"520\" height=\"150\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"564\" y=\"160\" width=\"520\" height=\"150\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1128\" y=\"160\" width=\"520\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1128\" y=\"318\" width=\"520\" height=\"40\" rx=\"20\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"0\" y=\"380\" width=\"1100\" height=\"60\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 24,
+     "w": 480,
+     "t": "Já é ativa?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 584,
+     "y": 14,
+     "w": 480,
+     "t": "Doença cardiovascular, metabólica ou renal conhecida, ou sintomas?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1148,
+     "y": 24,
+     "w": 480,
+     "t": "Que intensidade quer?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 186,
+     "w": 480,
+     "t": "sintoma: para e avalia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 186,
+     "w": 480,
+     "t": "doença conhecida: começa leve a moderado; avalia antes do vigoroso",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1148,
+     "y": 186,
+     "w": 480,
+     "t": "ativa, sem doença nem sintoma: segue e começa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 322,
+     "w": 520,
+     "t": "a ciclista está aqui",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 394,
+     "w": 1060,
+     "t": "A triagem acha quem precisa de avaliação; não pode virar barreira",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 1",
+   "titulo": "Três perguntas decidem quem começa já",
+   "fonte": "Med Sci Sports Exerc 2015"
+  },
+  {
+   "id": "partida",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo 2: quatro medidas com data: preensão palmar, sentar e levantar cinco vezes, velocidade de marcha e carga em dois ou três exercícios. Régua de esforço: terminar a série com 2 a 3 repetições sobrando\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(24.0 24.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"420\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(444.0 24.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"840\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(864.0 24.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"1260\" y=\"0\" width=\"400\" height=\"180\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1284.0 24.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"0\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"112\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"224\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"336\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"448\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"560\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"672\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"784\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"896\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1008\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#D9D4C8\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1120\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#D9D4C8\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1232\" y=\"270\" width=\"100\" height=\"70\" rx=\"10\" fill=\"#D9D4C8\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1360\" y=\"250\" width=\"304\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 104,
+     "y": 30,
+     "w": 280,
+     "t": "preensão palmar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 524,
+     "y": 30,
+     "w": 280,
+     "t": "sentar e levantar 5 vezes",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 944,
+     "y": 30,
+     "w": 280,
+     "t": "velocidade de marcha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1364,
+     "y": 30,
+     "w": 280,
+     "t": "carga em 2 ou 3 exercícios",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 196,
+     "w": 1664,
+     "t": "com data, para comparar depois",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 352,
+     "w": 1000,
+     "t": "repetições feitas",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1008,
+     "y": 352,
+     "w": 320,
+     "t": "2 a 3 sobrando",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1376,
+     "y": 266,
+     "w": 272,
+     "t": "sem teste de carga máxima para quem começa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 2",
+   "titulo": "Medir o começo e achar a carga pelo esforço"
+  },
+  {
+   "id": "gestos",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo 3, seis gestos da vida e o exercício de cada um: sentar e levantar, agachamento; pegar do chão, dobrar o quadril; empurrar, supino ou flexão; puxar, remada; carregar sacolas, caminhada com peso; subir degrau, subida no banco\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"250\" y1=\"100\" x2=\"290\" y2=\"100\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"296\" y=\"0\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"564\" y=\"0\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"814\" y1=\"100\" x2=\"854\" y2=\"100\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"860\" y=\"0\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1128\" y=\"0\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"1378\" y1=\"100\" x2=\"1418\" y2=\"100\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1424\" y=\"0\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"230\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"250\" y1=\"330\" x2=\"290\" y2=\"330\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"296\" y=\"230\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"564\" y=\"230\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"814\" y1=\"330\" x2=\"854\" y2=\"330\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"860\" y=\"230\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1128\" y=\"230\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"1378\" y1=\"330\" x2=\"1418\" y2=\"330\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1424\" y=\"230\" width=\"240\" height=\"200\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 70,
+     "w": 208,
+     "t": "sentar e levantar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 312,
+     "y": 70,
+     "w": 208,
+     "t": "agachamento",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 580,
+     "y": 70,
+     "w": 208,
+     "t": "pegar do chão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 876,
+     "y": 70,
+     "w": 208,
+     "t": "dobrar o quadril",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1144,
+     "y": 70,
+     "w": 208,
+     "t": "empurrar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1440,
+     "y": 70,
+     "w": 208,
+     "t": "supino ou flexão",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 16,
+     "y": 300,
+     "w": 208,
+     "t": "puxar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 312,
+     "y": 300,
+     "w": 208,
+     "t": "remada",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 580,
+     "y": 300,
+     "w": 208,
+     "t": "carregar sacolas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 876,
+     "y": 300,
+     "w": 208,
+     "t": "caminhada com peso",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1144,
+     "y": 300,
+     "w": 208,
+     "t": "subir degrau",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1440,
+     "y": 300,
+     "w": 208,
+     "t": "subida no banco",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Passo 3",
+   "titulo": "O exercício precisa parecer com o gesto da vida"
+  },
+  {
+   "id": "dose",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo 4, a dose. Semana com força em segunda, quarta e sexta e pedal em terça, quinta e sábado. Régua de intensidade com a seta em moderada a pesada. OMS 2020: força em 2 ou mais dias; idosos, equilíbrio e força em 3 ou mais dias. Ensaio de 2018: 5 × 5 acima de 85%, supervisionado\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"124\" height=\"150\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"140\" y=\"0\" width=\"124\" height=\"150\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"280\" y=\"0\" width=\"124\" height=\"150\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"420\" y=\"0\" width=\"124\" height=\"150\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"560\" y=\"0\" width=\"124\" height=\"150\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"700\" y=\"0\" width=\"124\" height=\"150\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"840\" y=\"0\" width=\"124\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"0\" y=\"220\" width=\"960\" height=\"30\" rx=\"15\" fill=\"#D9D4C8\"/><rect x=\"480\" y=\"220\" width=\"400\" height=\"30\" rx=\"15\" fill=\"#008A7E\"/><rect x=\"1040\" y=\"0\" width=\"624\" height=\"200\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1040\" y=\"230\" width=\"624\" height=\"210\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 14,
+     "w": 124,
+     "t": "seg",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 80,
+     "w": 124,
+     "t": "força",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 14,
+     "w": 124,
+     "t": "ter",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 80,
+     "w": 124,
+     "t": "pedal",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 14,
+     "w": 124,
+     "t": "qua",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 280,
+     "y": 80,
+     "w": 124,
+     "t": "força",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 14,
+     "w": 124,
+     "t": "qui",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 80,
+     "w": 124,
+     "t": "pedal",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 14,
+     "w": 124,
+     "t": "sex",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 80,
+     "w": 124,
+     "t": "força",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 14,
+     "w": 124,
+     "t": "sáb",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 80,
+     "w": 124,
+     "t": "pedal",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 840,
+     "y": 14,
+     "w": 124,
+     "t": "dom",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 262,
+     "w": 200,
+     "t": "leve",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 262,
+     "w": 200,
+     "t": "moderada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 262,
+     "w": 200,
+     "t": "pesada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 320,
+     "w": 960,
+     "t": "2 a 3 sessões · 6 a 8 exercícios · 2 a 3 séries · 2 a 3 repetições sobrando",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1064,
+     "y": 18,
+     "w": 576,
+     "t": "OMS, 2020",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 70,
+     "w": 576,
+     "t": "força em 2 ou mais dias; idosos: equilíbrio e força em 3 ou mais dias",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1064,
+     "y": 248,
+     "w": 576,
+     "t": "Sem teto por idade",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 300,
+     "w": 576,
+     "t": "ensaio de 2018: 5 × 5 acima de 85% da carga máxima, supervisionado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Passo 4",
+   "titulo": "Duas a três vezes por semana, com carga de verdade",
+   "fonte": "Br J Sports Med 2020; J Bone Miner Res 2018"
+  },
+  {
+   "id": "potencia",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo 5, potência: no agachamento, subir rápido com intenção e descer controlado. Ao lado, esquema: potência caindo mais depressa que força com a idade\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"200\" cy=\"40\" r=\"30\" fill=\"#12202E\"/><rect x=\"170\" y=\"76\" width=\"60\" height=\"120\" rx=\"20\" fill=\"#12202E\"/><path d=\"M 182 196 L 150 270 L 186 340 M 218 196 L 250 270 L 214 340\" stroke=\"#12202E\" stroke-width=\"26\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"80\" y=\"360\" width=\"240\" height=\"20\" rx=\"10\" fill=\"#D9D4C8\"/><line x1=\"370\" y1=\"100\" x2=\"370\" y2=\"300\" stroke=\"#3A6EA5\" stroke-width=\"7\" marker-end=\"url(#m1)\"/><line x1=\"470\" y1=\"300\" x2=\"470\" y2=\"100\" stroke=\"#A8322A\" stroke-width=\"7\" marker-end=\"url(#m0)\"/><line x1=\"760\" y1=\"380\" x2=\"1300\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"760\" y1=\"40\" x2=\"760\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 760 80 C 950 90 1100 140 1300 220\" stroke=\"#008A7E\" stroke-width=\"6\" fill=\"none\"/><path d=\"M 760 80 C 900 110 1050 230 1300 320\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\"/><rect x=\"1360\" y=\"0\" width=\"304\" height=\"440\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 300,
+     "y": 320,
+     "w": 150,
+     "t": "descer controlado",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 420,
+     "y": 30,
+     "w": 200,
+     "t": "subir rápido, com intenção",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1110,
+     "y": 120,
+     "w": 200,
+     "t": "força",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 270,
+     "w": 200,
+     "t": "potência",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 770,
+     "y": 390,
+     "w": 400,
+     "t": "idade · esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1376,
+     "y": 24,
+     "w": 272,
+     "t": "É a potência que segura o tropeço e levanta da cadeira sem apoio.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Passo 5",
+   "titulo": "Subir rápido treina a qualidade que cai primeiro"
+  },
+  {
+   "id": "progressao",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo 6, dupla progressão numa planilha ilustrativa: semanas 1 a 6, repetições subindo de 8 a 12 com a mesma carga; ao chegar a 12 com 2 a 3 sobrando, a carga sobe e as repetições voltam a 8. Reavaliar as medidas em 8 a 12 semanas\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"200\" y=\"50\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"200\" y=\"150\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"370\" y=\"50\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"370\" y=\"150\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"540\" y=\"50\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"540\" y=\"150\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"710\" y=\"50\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"710\" y=\"150\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"880\" y=\"50\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"880\" y=\"150\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1050\" y=\"50\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"1050\" y=\"150\" width=\"150\" height=\"70\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"290\" width=\"1220\" height=\"150\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1280\" y=\"50\" width=\"384\" height=\"390\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1420.0 80.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 70,
+     "w": 180,
+     "t": "carga (kg)",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 170,
+     "w": 180,
+     "t": "repetições",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 10,
+     "w": 150,
+     "t": "sem 1",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 172,
+     "w": 150,
+     "t": "8",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 72,
+     "w": 150,
+     "t": "10",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 10,
+     "w": 150,
+     "t": "sem 2",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 172,
+     "w": 150,
+     "t": "10",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 72,
+     "w": 150,
+     "t": "10",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 10,
+     "w": 150,
+     "t": "sem 3",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 172,
+     "w": 150,
+     "t": "12",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 72,
+     "w": 150,
+     "t": "10",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 10,
+     "w": 150,
+     "t": "sem 4",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 172,
+     "w": 150,
+     "t": "8",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 72,
+     "w": 150,
+     "t": "12 ↑",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 10,
+     "w": 150,
+     "t": "sem 5",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 172,
+     "w": 150,
+     "t": "10",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 72,
+     "w": 150,
+     "t": "12",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 10,
+     "w": 150,
+     "t": "sem 6",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 172,
+     "w": 150,
+     "t": "12",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 72,
+     "w": 150,
+     "t": "12",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 236,
+     "w": 400,
+     "t": "números ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 310,
+     "w": 1172,
+     "t": "Chegou ao topo da faixa com 2 a 3 sobrando: a carga sobe e as repetições voltam ao começo. Tudo anotado.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1300,
+     "y": 200,
+     "w": 344,
+     "t": "8 a 12 semanas",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 260,
+     "w": 344,
+     "t": "repetir as medidas do passo 2 e mostrar o resultado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Passo 6",
+   "titulo": "Sem registro não há progressão, só repetição"
+  },
+  {
+   "id": "ajustes",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro situações. Artrose de joelho: força é tratamento; ajustar amplitude e carga pela dor. Pressão alta: não prender a respiração; expirar no esforço. Osteoporose: carga supervisionada, coluna neutra. Volta de internação: começar mais baixo, progredir mais rápido\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"340\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"420\" y=\"0\" width=\"400\" height=\"340\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"840\" y=\"0\" width=\"400\" height=\"340\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1260\" y=\"0\" width=\"400\" height=\"340\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"370\" width=\"1664\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 24,
+     "w": 360,
+     "t": "Artrose de joelho",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 120,
+     "w": 360,
+     "t": "força é tratamento; amplitude e carga ajustadas pela dor do dia seguinte",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 440,
+     "y": 24,
+     "w": 360,
+     "t": "Pressão alta",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 120,
+     "w": 360,
+     "t": "não prender a respiração; expirar na fase de força",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 860,
+     "y": 24,
+     "w": 360,
+     "t": "Osteoporose",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 120,
+     "w": 360,
+     "t": "carga é o estímulo do osso: supervisão e coluna neutra",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1280,
+     "y": 24,
+     "w": 360,
+     "t": "Volta de internação",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 120,
+     "w": 360,
+     "t": "começar mais baixo e progredir mais rápido",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 388,
+     "w": 1624,
+     "t": "Sintoma novo em qualquer situação: volta ao passo 1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quando há dor ou doença",
+   "titulo": "Os mesmos seis passos, com ajustes de cada condição"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Prescrição de força no idoso",
+   "titulo": "Carga de verdade, subida rápida e progressão anotada",
+   "regras": [
+    "A triagem acha quem precisa de avaliação e não pode virar barreira",
+    "A carga certa deixa 2 a 3 repetições sobrando; não há teto por idade",
+    "Sem potência e sem registro, o treino vira exercício que não muda nada"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Faz a triagem pelas três perguntas e libera sem atrasar quem pode começar."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Escolhe gestos da vida, dosa pelo esforço, ensina a subir rápido e registra."
+    },
+    {
+     "ic": "h:doctor-female",
+     "t": "Fisioterapia",
+     "x": "Ajusta o caminho na dor, na artrose e na volta de internação."
+    }
+   ]
+  }
+ ],
+ "modulo": "Atleta Adolescente e Atleta Idoso",
+ "tema": "musgo"
+}
