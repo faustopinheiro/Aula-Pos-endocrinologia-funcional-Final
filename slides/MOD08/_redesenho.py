@@ -2337,6 +2337,191 @@ def registro_811():
     return slide("registro", 400, p, rs, eyebrow="O registro", titulo="Seis campos bastam",
                  destaque="Protege a atleta, mostra o raciocínio da equipe e organiza a próxima conversa.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 8.12
+
+def _cem(p, x0, y0, n, cor, passo=26, r=9):
+    """Grade de cem pontos, dez por dez, com os n primeiros em cor."""
+    for i in range(100):
+        cx, cy = x0 + (i % 10) * passo, y0 + (i // 10) * passo
+        p.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{cor if i < n else CINZA}" opacity="{1 if i < n else 0.5}"/>')
+
+
+def quadra_812():
+    """8.12: a mãe pergunta, e as três respostas ruins aparecem riscadas, cada uma com o seu defeito."""
+    p = [svg_abre(1664, 340, "À esquerda, a mãe de uma jogadora de basquete adolescente, depois da reconstrução do cruzado, pergunta: qual a chance de romper de novo? À direita, as três respostas ruins, riscadas: fica tranquila, que esconde o risco; o risco é bem maior, que não diz quanto; seis vezes mais, que assusta e não informa")]
+    rs = []
+    p.append(caixa(0, 0, 560, 340, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("h:woman", 30, 40, 120, TINTA))
+    p.append(icone("t:ball-basketball", 170, 110, 56, GLIC))
+    rs += [rot(250, 50, "a mãe, na consulta de liberação", w=290, tam=20, cor=MUDO, lh=1.2),
+           rot(30, 210, "“Qual a chance de romper de novo?”", w=500, tam=27, cor=TINTA, peso=700, serif=True, lh=1.2)]
+    for k, (t, d) in enumerate([("“Fica tranquila”", "esconde o risco"), ("“O risco é bem maior”", "não diz quanto"), ("“Seis vezes mais”", "assusta e não informa")]):
+        y = k * 116
+        p.append(caixa(620, y, 1044, 100, FOSF, FOSF_T, esp=2, rx=14))
+        p.append(icone("t:x", 644, y + 28, 44, FOSF))
+        rs += [rot(708, y + 30, t, w=520, tam=25, cor=FOSF, peso=700, serif=True), rot(1240, y + 34, d, w=400, tam=21, cor=TINTA, peso=700, alinha="right")]
+    return slide("quadra", 340, p, rs, eyebrow="Na consulta de liberação", titulo="“Qual a chance de romper de novo?”")
+
+
+def dois_812():
+    """8.12: o mesmo estudo dito de dois jeitos: a razão entre taxas e trinta pontos em cem."""
+    p = [svg_abre(1664, 340, "Dois painéis do mesmo estudo. À esquerda, risco relativo: duas barras, a taxa de nova lesão do cruzado em quem nunca rompeu e, quase seis vezes maior, em quem foi operado; não diz de onde se parte. À direita, risco absoluto: cem pontos, cerca de trinta destacados, os atletas operados com nova lesão do cruzado em dois anos")]
+    rs = []
+    p.append(caixa(0, 0, 800, 340, GLIC, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 18, "Risco relativo: quanto a mais", w=760, tam=24, cor=GLIC, peso=700, serif=True))
+    B = 270
+    for k, (h, t, cor) in enumerate([(30, "nunca rompeu", MUDO), (170, "operados", GLIC)]):
+        x = 80 + k * 260
+        p.append(f'<rect x="{x}" y="{B - h}" width="180" height="{h}" rx="8" fill="{cor}"/>')
+        rs.append(rot(x - 20, B + 8, t, w=220, tam=19, cor=TINTA, peso=700, alinha="center"))
+    rs += [rot(560, 110, "quase 6×", w=220, tam=40, cor=GLIC, peso=700, serif=True), rot(560, 170, "taxa por exposição · não diz de onde se parte", w=220, tam=18, cor=TINTA, lh=1.25)]
+    p.append(caixa(864, 0, 800, 340, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(888, 18, "Risco absoluto: quanto", w=760, tam=24, cor=TINTA, peso=700, serif=True))
+    _cem(p, 910, 90, 30, FOSF, passo=24, r=8)
+    rs += [rot(1180, 110, "~30 em 100", w=460, tam=40, cor=FOSF, peso=700, serif=True), rot(1180, 170, "atletas operados com nova lesão do cruzado em dois anos", w=460, tam=20, cor=TINTA, lh=1.25)]
+    return slide("dois", 340, p, rs, eyebrow="O mesmo estudo, dois números", titulo="Um diz quanto a mais; o outro, quanto",
+                 destaque="Risco relativo não diz de onde se parte. Risco absoluto é o que a mãe perguntou.", destaque_cor="tinta",
+                 fonte="Coorte de Cincinnati, 78 atletas jovens · Am J Sports Med 2014")
+
+
+def formatos_812():
+    """8.12: três formatos numa tabela de checagem: grupo de referência e tempo."""
+    p = [svg_abre(1664, 340, "Três formas de dizer o mesmo risco, com duas colunas de checagem: diz o grupo de referência? diz o tempo? Risco relativo, seis vezes mais: não e não; infla a percepção. Porcentagem, trinta por cento: não e não; melhor, mas de quem e em quanto tempo? Frequência natural, de cada cem jovens como você, cerca de trinta em dois anos: sim e sim; responde às duas perguntas numa frase")]
+    rs = []
+    rs += [rot(1150, 0, "Cem pessoas como quem?", w=250, tam=19, cor=TINTA, peso=700, alinha="center", lh=1.15),
+           rot(1410, 0, "Em quanto tempo?", w=250, tam=19, cor=TINTA, peso=700, alinha="center", lh=1.15)]
+    linhas = [("Risco relativo", "“seis vezes mais”", "infla a percepção", False, GLIC, GLIC_T),
+              ("Porcentagem", "“trinta por cento”", "de quem? em quanto tempo?", False, GLIC, GLIC_T),
+              ("Frequência natural", "“de cada cem jovens como você, cerca de trinta em dois anos”", "responde às duas numa frase", True, OXID, OXID_T)]
+    for k, (t, frase, efeito, ok, cor, fundo) in enumerate(linhas):
+        y = 60 + k * 94
+        p.append(caixa(0, y, 1664, 82, cor, fundo, esp=2, rx=14))
+        rs += [rot(20, y + 12, t, w=260, tam=22, cor=cor, peso=700, serif=True), rot(20, y + 46, efeito, w=260, tam=17, cor=TINTA),
+               rot(300, y + 24 if k < 2 else y + 14, frase, w=820, tam=22, cor=TINTA, peso=700, lh=1.2)]
+        for c in range(2):
+            p.append(icone("t:check" if ok else "t:x", 1255 + c * 260, y + 19, 44, OXID if ok else FOSF))
+    return slide("formatos", 340, p, rs, eyebrow="Três formas de dizer", titulo="Sempre o grupo de referência e o tempo", fonte="BMJ 2003")
+
+
+def lado_812():
+    """8.12: duas grades de cem, uma com vinte pontos para o outro joelho e outra com nove para o enxerto."""
+    p = [svg_abre(1664, 340, "Duas grades de cem pontos, dos mesmos atletas operados. Na primeira, cerca de vinte destacados: romperam o cruzado do joelho do outro lado. Na segunda, cerca de nove: romperam o enxerto. A maior parte das novas lesões foi no outro joelho")]
+    rs = []
+    for k, (n, t, d, cor) in enumerate([(20, "~20 em 100", "romperam o cruzado do outro joelho", FOSF), (9, "~9 em 100", "romperam o enxerto", GLIC)]):
+        x = k * 844
+        p.append(caixa(x, 0, 820, 340, cor, CARTAO, esp=2, rx=16))
+        _cem(p, x + 50, 60, n, cor, passo=26, r=9)
+        rs += [rot(x + 340, 70, t, w=460, tam=44, cor=cor, peso=700, serif=True), rot(x + 340, 140, d, w=460, tam=23, cor=TINTA, peso=700, lh=1.25)]
+        p.append(icone("t:arrows-exchange" if k == 0 else "t:target", x + 340, 230, 48, cor))
+    return slide("lado", 340, p, rs, eyebrow="O risco que ninguém menciona", titulo="A maior parte foi no outro joelho",
+                 destaque="“O enxerto aguenta?” é a pergunta pela metade. A prevenção depois da alta é para os dois joelhos.", destaque_cor="verm",
+                 fonte="Coorte de Cincinnati · Am J Sports Med 2014")
+
+
+def posterior_812():
+    """8.12: da lesão do cruzado ao posterior da coxa, e os dois destinos do número."""
+    p = [svg_abre(1664, 340, "Uma seta da lesão prévia do cruzado para a lesão do posterior da coxa, com risco relativo de 2,25 em três estudos. Dois destinos para esse número. Para a família: não, porque é relativo e não se converte em quantos em cada cem. Para a equipe: sim, como motivo para manter força de posterior da coxa e carga bem conduzida depois da alta"), defs(GLIC)]
+    rs = []
+    p.append(caixa(0, 40, 380, 120, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(20, 72, "lesão prévia do cruzado", w=340, tam=24, cor=TINTA, peso=700, alinha="center", serif=True))
+    p.append(seta(392, 100, 690, 100, GLIC, "m0", esp=5))
+    rs += [rot(400, 20, "2,25", w=280, tam=48, cor=GLIC, peso=700, alinha="center", serif=True), rot(400, 120, "risco relativo · 3 estudos", w=280, tam=19, cor=TINTA, alinha="center")]
+    p.append(caixa(700, 40, 380, 120, GLIC, GLIC_T, esp=2, rx=16))
+    rs.append(rot(720, 72, "lesão do posterior da coxa", w=340, tam=24, cor=GLIC, peso=700, alinha="center", serif=True))
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:x", "Para a família, não", "relativo, sem conversão para cada cem", FOSF, FOSF_T),
+                                                ("t:check", "Para a equipe, sim", "motivo para manter força de posterior e carga depois da alta", OXID, OXID_T)]):
+        x = k * 844
+        p.append(caixa(x, 200, 820, 140, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 224, 44, cor))
+        rs += [rot(x + 84, 226, t, w=710, tam=25, cor=cor, peso=700, serif=True), rot(x + 84, 270, d, w=710, tam=21, cor=TINTA, lh=1.25)]
+    p.append(caixa(1140, 40, 524, 120, MUDO, PAPEL, esp=2, rx=16))
+    rs.append(rot(1160, 72, "nem todo número serve para a mesma conversa", w=484, tam=21, cor=TINTA, peso=700, lh=1.25))
+    return slide("posterior", 340, p, rs, eyebrow="E não é só o mesmo ligamento", titulo="Lesão prévia do cruzado e posterior da coxa",
+                 fonte="Revisão sistemática, Br J Sports Med 2017")
+
+
+def sobra_812():
+    """8.12: dois caminhos a partir da volta: o número dito antes, ou a lesão ouvida depois como traição."""
+    p = [svg_abre(1664, 340, "Dois caminhos a partir da volta ao esporte. No de cima, o número foi dito antes: a pessoa pode decidir, informada. No de baixo, o número não foi dito: se a lesão vem depois, é ouvida como traição, vocês disseram que estava tudo bem"), defs(OXID, FOSF)]
+    rs = []
+    p.append(caixa(0, 110, 300, 120, TINTA, TINTA, esp=0, rx=16))
+    rs.append(rot(0, 148, "a volta", w=300, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True))
+    for k, (t, d, cor, fundo, ic, mk) in enumerate([("número dito antes", "a pessoa pode decidir, informada", OXID, OXID_T, "t:message-circle", "m0"),
+                                                    ("número não dito", "a lesão depois chega como traição: “vocês disseram que estava tudo bem”", FOSF, FOSF_T, "t:message-off", "m1")]):
+        y = k * 190
+        p.append(seta(306, 170, 400, y + 75, cor, mk, esp=4))
+        p.append(caixa(410, y, 1254, 150, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, 434, y + 24, 52, cor))
+        rs += [rot(504, y + 28, t, w=1130, tam=27, cor=cor, peso=700, serif=True), rot(504, y + 80, d, w=1130, tam=22, cor=TINTA, lh=1.25)]
+    return slide("sobra", 340, p, rs, eyebrow="A ideia da aula", titulo="O risco que sobra não é falha do tratamento. É o que o melhor tratamento não tira, e precisa ser dito.")
+
+
+def publicos_812():
+    """8.12: três colunas, atleta, técnico e família, e embaixo o laço do explique de volta."""
+    p = [svg_abre(1664, 400, "Três colunas, o mesmo risco em três conversas. Atleta: o número, o que ela faz para baixá-lo, os sinais que a fazem parar. Técnico: as condições práticas, tempo de jogo, restrições, prazo, quem avisa se mudar. Família: o número, o que foi decidido e por quê, e fazer parte da decisão. Embaixo, um laço nas três: pedir que a pessoa explique de volta com as palavras dela; se a mãe repete seis vezes, a conversa não terminou")]
+    rs = []
+    W = 528
+    for k, (ic, t, itens, cor, fundo) in enumerate([("h:person", "Atleta", ["o número", "o que ela faz para baixá-lo", "os sinais que a fazem parar"], GLIC, GLIC_T),
+                                                    ("t:clipboard-list", "Técnico", ["tempo de jogo e restrições", "por quanto tempo", "quem avisa se mudar"], AZUL, AZUL_T),
+                                                    ("t:users", "Família", ["o número", "o que foi decidido e por quê", "fazer parte da decisão"], OXID, OXID_T)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 260, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 22, 48, cor))
+        rs.append(rot(x + 86, 30, t, w=W - 110, tam=27, cor=cor, peso=700, serif=True))
+        for j, it in enumerate(itens):
+            rs.append(rot(x + 24, 100 + j * 50, "· " + it, w=W - 48, tam=21, cor=TINTA))
+    p.append(caixa(0, 290, 1664, 110, TINTA, TINTA, esp=0, rx=16))
+    p.append(icone("t:refresh", 24, 318, 52, PAPEL))
+    rs += [rot(96, 304, "Nas três: “explique de volta, com as suas palavras”", w=1540, tam=24, cor=PAPEL, peso=700, serif=True),
+           rot(96, 348, "se a mãe repete “seis vezes”, a conversa não terminou", w=1540, tam=21, cor=PAPEL)]
+    return slide("publicos", 400, p, rs, eyebrow="Três públicos", titulo="O mesmo risco, três conversas", fonte="Teach-back, revisão sistemática, PLoS One 2020")
+
+
+def lei_812():
+    """8.12: o prontuário fica com a equipe de saúde; ao técnico e ao clube saem só as condições."""
+    p = [svg_abre(1664, 360, "À esquerda, o que a lei diz: dado de saúde é dado pessoal sensível, com regras próprias; para criança, consentimento específico de pelo menos um dos pais. No centro, o prontuário e o registro, com o número dito, trancados com a equipe de saúde. À direita, o que sai: para técnico e clube, só as condições de participação; o que for além disso, só com autorização, e da família se a atleta for menor"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 0, 500, 360, TINTA, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 18, "O que a lei diz", w=450, tam=25, cor=TINTA, peso=700, serif=True))
+    for j, t in enumerate(["dado de saúde é dado pessoal sensível", "tratamento com regras próprias", "criança: consentimento específico de pelo menos um dos pais"]):
+        rs.append(rot(24, 80 + j * 84, "· " + t, w=450, tam=21, cor=TINTA, lh=1.25))
+    p.append(caixa(560, 60, 440, 240, OXID, OXID_T, esp=2, rx=16))
+    p.append(icone("t:lock", 584, 84, 52, OXID))
+    rs += [rot(650, 92, "Equipe de saúde", w=330, tam=24, cor=OXID, peso=700, serif=True),
+           rot(584, 160, "prontuário e registro, com o número dito", w=392, tam=21, cor=TINTA, lh=1.25)]
+    p.append(seta(1010, 130, 1094, 90, MUDO, "m0", esp=3))
+    p.append(seta(1010, 230, 1094, 270, MUDO, "m0", esp=3))
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:clipboard-check", "Técnico e clube", "recebem as condições, não o prontuário", GLIC, GLIC_T),
+                                                ("t:key", "Além disso", "só com autorização; da família, se menor", FOSF, FOSF_T)]):
+        y = k * 190
+        p.append(caixa(1104, y, 560, 170, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, 1128, y + 24, 44, cor))
+        rs += [rot(1186, y + 30, t, w=450, tam=24, cor=cor, peso=700, serif=True), rot(1128, y + 90, d, w=510, tam=21, cor=TINTA, lh=1.25)]
+    return slide("lei", 360, p, rs, eyebrow="Quem pode saber o quê", titulo="Dado de saúde é dado sensível",
+                 destaque="O sigilo profissional já pedia esse cuidado antes da lei.", destaque_cor="tinta",
+                 fonte="LGPD, Lei 13.709/2018 · art. 5º, II; art. 11; art. 14, § 1º")
+
+
+def resposta_812():
+    """8.12: quatro frases em fila, a faixa de cem com as duas partes, e o explique de volta no fim."""
+    p = [svg_abre(1664, 420, "Quatro frases em fila. O número: de cada cem jovens que voltam a um esporte como o basquete, cerca de vinte a trinta têm nova lesão em dois anos, muitas vezes no outro joelho. A outra parte: setenta a oitenta não têm. O que ela fez: passou nos critérios, mais perto do menor número, não em zero. O que baixa e o que faz parar: programa nos dois joelhos; parar se inchar ou falsear. No fim, a pergunta de volta: pode me dizer, com as suas palavras, o que vai contar em casa? A resposta vai para o registro")]
+    rs = []
+    linhas = [("O número", "de cada cem jovens que voltam a um esporte como o basquete, cerca de vinte a trinta têm nova lesão em dois anos, muitas vezes no outro joelho", FOSF, FOSF_T),
+              ("A outra parte", "setenta a oitenta não têm", OXID, OXID_T),
+              ("O que ela fez", "passou nos critérios: mais perto do menor número, não em zero", GLIC, GLIC_T),
+              ("Baixa e faz parar", "programa nos dois joelhos; parar se inchar ou falsear", TINTA, PAPEL)]
+    for k, (t, d, cor, fundo) in enumerate(linhas):
+        y = k * 78
+        p.append(caixa(0, y, 1664, 66, cor, fundo, esp=2, rx=12))
+        p.append(f'<circle cx="34" cy="{y + 33}" r="18" fill="{cor}"/>')
+        rs += [rot(16, y + 20, str(k + 1), w=36, tam=20, cor=PAPEL, peso=700, alinha="center"),
+               rot(66, y + 20, t, w=230, tam=21, cor=cor, peso=700), rot(300, y + 20, d, w=1344, tam=20, cor=TINTA, lh=1.2)]
+    p.append(caixa(0, 324, 1664, 96, TINTA, TINTA, esp=0, rx=16))
+    p.append(icone("t:refresh", 24, 348, 48, PAPEL))
+    rs += [rot(92, 340, "“Pode me dizer, com as suas palavras, o que vai contar em casa?”", w=1540, tam=23, cor=PAPEL, peso=700, serif=True),
+           rot(92, 380, "a resposta vai para o registro", w=1540, tam=19, cor=PAPEL)]
+    return slide("resposta", 420, p, rs, eyebrow="A resposta para a mãe", titulo="Quatro frases e uma pergunta de volta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipoteses_81, laudo_81, vieses_81, quem_81],
@@ -2349,7 +2534,8 @@ LICOES = {"08-01": [tatame_81, roteiro_81, bandeiras_81, sinss_81, cif_81, hipot
           "08-08": [paro_88, alerta_88, natacao_88, mod_ombro_88, cirurgia_88, meio_88, flexao_88, risco_88, mod_coluna_88, custo_88],
           "08-09": [perguntas_89, aparelho_89, fita_89, manual_89, janela_89, caros_89, contexto_89, reconhecer_89, quem_89],
           "08-10": [simetria_810, roteiro_810, medir_810, epic_810, distancia_810, esporte_810, cabeca_810, preve_810, consultorio_810, quem_810],
-          "08-11": [tatame_811, variam_811, passos_811, aceitar_811, saidas_811, quem_811, conversa_811, conflitos_811, semclube_811, registro_811]}
+          "08-11": [tatame_811, variam_811, passos_811, aceitar_811, saidas_811, quem_811, conversa_811, conflitos_811, semclube_811, registro_811],
+          "08-12": [quadra_812, dois_812, formatos_812, lado_812, posterior_812, sobra_812, publicos_812, lei_812, resposta_812]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

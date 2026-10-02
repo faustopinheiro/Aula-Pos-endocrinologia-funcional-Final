@@ -112,6 +112,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Fecho do módulo · três 
                     {"t": "Todos", "x": "O joelho que incha, a fase pelo calendário, o “fica tranquila”."}],
           "quem": "Próximo módulo: preparação física, treinamento e gestão de carga."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "08-12")
+
 spec = {"arquivo": "aulas/MOD08/08-12-risco-residual-e-comunicacao.md",
         "modulo": "Fisioterapia Esportiva e Reabilitação", "tema": "tinta",
         "titulo": "Risco residual no retorno ao esporte", "subtitulo": "Números que o atleta, o técnico e a família entendem",
