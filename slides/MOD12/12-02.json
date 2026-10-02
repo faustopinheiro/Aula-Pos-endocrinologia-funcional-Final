@@ -1,0 +1,941 @@
+{
+ "arquivo": "aulas/MOD12/12-02-pico-de-velocidade-de-crescimento-e-vulnerabilidade.md",
+ "titulo": "Pico de velocidade de crescimento e vulnerabilidade",
+ "subtitulo": "Medir, calcular, ler e alertar",
+ "nota_capa": "Entra por um jogador de basquete que cresceu doze centímetros em um ano.",
+ "secoes": {
+  "planilha": [
+   "O dado esquecido.",
+   "capa"
+  ],
+  "curva": [
+   "O que acontece no pico.",
+   "curva"
+  ],
+  "medir": [
+   "Os quatro passos.",
+   "medir"
+  ],
+  "conversa": [
+   "A conversa.",
+   "conversa"
+  ]
+ },
+ "slides": [
+  {
+   "id": "planilha",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Uma planilha de clube com a altura de um jogador medida no início de cada temporada. Ao lado, o dado em gráfico: doze centímetros em um ano, oito nos últimos seis meses. Embaixo, três queixas: dor abaixo da patela, ficou desajeitado, o rendimento caiu\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"330\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"24\" y1=\"140\" x2=\"536\" y2=\"140\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"210\" x2=\"536\" y2=\"210\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"280\" x2=\"536\" y2=\"280\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"640\" y1=\"330\" x2=\"1180\" y2=\"330\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 680 246 L 910 190 L 1140 78\" stroke=\"#B07A1C\" stroke-width=\"7\" fill=\"none\"/><circle cx=\"680\" cy=\"246\" r=\"12\" fill=\"#B07A1C\"/><circle cx=\"910\" cy=\"190\" r=\"12\" fill=\"#B07A1C\"/><circle cx=\"1140\" cy=\"78\" r=\"12\" fill=\"#B07A1C\"/><rect x=\"0\" y=\"370\" width=\"520\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"560\" y=\"370\" width=\"520\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1120\" y=\"370\" width=\"520\" height=\"80\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 520,
+     "t": "Altura · início de temporada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 98,
+     "w": 260,
+     "t": "jan · ano 1",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 98,
+     "w": 230,
+     "t": "1,56 m",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 168,
+     "w": 260,
+     "t": "jul · ano 1",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 168,
+     "w": 230,
+     "t": "1,60 m",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 238,
+     "w": 260,
+     "t": "jan · ano 2",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 238,
+     "w": 230,
+     "t": "1,68 m",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 290,
+     "w": 520,
+     "t": "guardada numa pasta",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 40,
+     "w": 464,
+     "t": "+12 cm em um ano",
+     "tam": 40,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 110,
+     "w": 464,
+     "t": "+8 cm nos últimos seis meses",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 170,
+     "w": 464,
+     "t": "três pares de tênis no ano",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 392,
+     "w": 480,
+     "t": "“dor abaixo da patela”",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 392,
+     "w": 480,
+     "t": "“ficou desajeitado”",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 392,
+     "w": 480,
+     "t": "“o rendimento caiu”",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um jogador de basquete de base, treze anos",
+   "titulo": "O dado que explicava tudo estava numa pasta do clube"
+  },
+  {
+   "id": "curva",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Duas curvas. À esquerda, a altura ao longo da idade, uma subida em S. À direita, a velocidade de crescimento, estável na infância, subindo até um pico e caindo até zero. Esquema\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><path d=\"M 40 357 L 47 354 L 54 351 L 61 349 L 68 346 L 75 343 L 82 340 L 89 337 L 96 335 L 103 332 L 110 329 L 117 326 L 124 324 L 131 321 L 138 318 L 145 315 L 152 313 L 159 310 L 166 307 L 173 304 L 180 302 L 187 299 L 194 296 L 201 294 L 208 291 L 215 288 L 222 286 L 229 283 L 236 281 L 243 278 L 250 275 L 257 273 L 264 270 L 271 267 L 278 265 L 285 262 L 292 259 L 299 257 L 306 254 L 313 251 L 320 248 L 327 245 L 334 242 L 341 238 L 348 235 L 355 231 L 362 227 L 369 223 L 376 219 L 383 214 L 390 209 L 397 204 L 404 198 L 411 193 L 418 187 L 425 181 L 432 176 L 439 170 L 446 164 L 453 159 L 460 153 L 467 148 L 474 143 L 481 139 L 488 134 L 495 130 L 502 126 L 509 123 L 516 120 L 523 116 L 530 113 L 537 111 L 544 108 L 551 105 L 558 103 L 565 100 L 572 98 L 579 96 L 586 94 L 593 92 L 600 91 L 607 89 L 614 88 L 621 86 L 628 85 L 635 84 L 642 83 L 649 82 L 656 82 L 663 81 L 670 81 L 677 80 L 684 80 L 691 80 L 698 80 L 705 80 L 712 80 L 719 80 L 726 80 L 733 80 L 740 80\" stroke=\"#3A6EA5\" stroke-width=\"7\" fill=\"none\"/><line x1=\"40\" y1=\"360\" x2=\"760\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"900\" y1=\"360\" x2=\"1640\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 900 222 L 907 223 L 914 223 L 922 224 L 929 224 L 936 224 L 943 225 L 950 225 L 958 225 L 965 226 L 972 226 L 979 227 L 986 227 L 994 227 L 1001 228 L 1008 228 L 1015 228 L 1022 229 L 1030 229 L 1037 230 L 1044 230 L 1051 230 L 1058 231 L 1066 231 L 1073 231 L 1080 232 L 1087 232 L 1094 232 L 1102 233 L 1109 233 L 1116 233 L 1123 233 L 1130 233 L 1138 233 L 1145 232 L 1152 231 L 1159 230 L 1166 228 L 1174 226 L 1181 222 L 1188 218 L 1195 213 L 1202 206 L 1210 198 L 1217 190 L 1224 180 L 1231 169 L 1238 157 L 1246 145 L 1253 132 L 1260 121 L 1267 109 L 1274 100 L 1282 92 L 1289 86 L 1296 82 L 1303 81 L 1310 83 L 1318 87 L 1325 94 L 1332 103 L 1339 113 L 1346 125 L 1354 138 L 1361 151 L 1368 164 L 1375 176 L 1382 188 L 1390 199 L 1397 208 L 1404 217 L 1411 224 L 1418 230 L 1426 235 L 1433 239 L 1440 242 L 1447 251 L 1454 258 L 1462 265 L 1469 272 L 1476 279 L 1483 285 L 1490 291 L 1498 297 L 1505 303 L 1512 309 L 1519 315 L 1526 321 L 1534 327 L 1541 333 L 1548 339 L 1555 345 L 1562 350 L 1570 356 L 1577 360 L 1584 360 L 1591 360 L 1598 360 L 1606 360 L 1613 360 L 1620 360\" stroke=\"#008A7E\" stroke-width=\"7\" fill=\"none\"/><line x1=\"1303\" y1=\"60\" x2=\"1303\" y2=\"360\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 700,
+     "t": "Altura",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 0,
+     "w": 780,
+     "t": "Velocidade de crescimento",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1343,
+     "y": 90,
+     "w": 360,
+     "t": "pico de velocidade de crescimento",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 40,
+     "y": 372,
+     "w": 200,
+     "t": "infância",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 372,
+     "w": 200,
+     "t": "infância",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 372,
+     "w": 200,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O evento que organiza a vulnerabilidade",
+   "titulo": "O que importa não é a altura, é a velocidade"
+  },
+  {
+   "id": "tres",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Três quadros. Segmentos crescem fora de sincronia: coordenação cai por um tempo. O osso cresce antes do músculo e do tendão: tração nas apófises. No pico, 90 por cento da estatura adulta e 57 por cento do mineral ósseo: o mineral chega meses depois\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"470\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"470\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"268\" cy=\"110\" r=\"24\" fill=\"#B07A1C\"/><rect x=\"243\" y=\"140\" width=\"50\" height=\"70\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"248\" y=\"210\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"272\" y=\"210\" width=\"16\" height=\"100\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"228\" y=\"306\" width=\"40\" height=\"14\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"268\" y=\"306\" width=\"40\" height=\"14\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"760\" y=\"90\" width=\"44\" height=\"220\" rx=\"20\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"5\"/><path d=\"M 860 80 C 840 140 840 220 806 290\" stroke=\"#A8322A\" stroke-width=\"10\" fill=\"none\"/><circle cx=\"806\" cy=\"290\" r=\"16\" fill=\"#A8322A\"/><rect x=\"1180\" y=\"120\" width=\"120\" height=\"180\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"1380\" y=\"186\" width=\"120\" height=\"114\" rx=\"8\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 488,
+     "t": "Fora de sincronia",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 340,
+     "w": 488,
+     "t": "pernas e pés crescem antes do tronco: a coordenação cai por um tempo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 18,
+     "w": 488,
+     "t": "Osso antes do tendão",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 340,
+     "w": 488,
+     "t": "o tendão fica curto e puxa a inserção: apofisite",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1152,
+     "y": 18,
+     "w": 488,
+     "t": "Mineral atrasado",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 340,
+     "w": 488,
+     "t": "o osso está longo e ainda pouco mineralizado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 880,
+     "y": 200,
+     "w": 160,
+     "t": "tração",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 74,
+     "w": 160,
+     "t": "90%",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 304,
+     "w": 180,
+     "t": "estatura",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 140,
+     "w": 160,
+     "t": "57%",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1350,
+     "y": 304,
+     "w": 180,
+     "t": "mineral ósseo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Em volta do pico",
+   "titulo": "O estirão é a janela de maior vulnerabilidade da base",
+   "fonte": "Estatura e mineral no pico: estudo longitudinal, J Bone Miner Res 1999"
+  },
+  {
+   "id": "medir",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo um, medir. Uma parede com marcas de altura a cada três meses, um banco para a altura sentada e uma balança. Regras: sem sapato; calcanhares juntos; olhar na horizontal; mesmo horário, de preferência de manhã; mesmo avaliador; duas ou três medidas e a média\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"40\" y=\"20\" width=\"300\" height=\"400\" fill=\"#F7F6F2\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"60\" y1=\"300\" x2=\"200\" y2=\"300\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"60\" y1=\"270\" x2=\"200\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"60\" y1=\"225\" x2=\"200\" y2=\"225\" stroke=\"#B07A1C\" stroke-width=\"5\"/><line x1=\"60\" y1=\"190\" x2=\"200\" y2=\"190\" stroke=\"#B07A1C\" stroke-width=\"5\"/><rect x=\"420\" y=\"260\" width=\"200\" height=\"160\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"680\" y=\"370\" width=\"180\" height=\"50\" rx=\"10\" fill=\"#12202E\"/><rect x=\"940\" y=\"0\" width=\"724\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 210,
+     "y": 284,
+     "w": 100,
+     "t": "jan",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 210,
+     "y": 254,
+     "w": 100,
+     "t": "abr",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 210,
+     "y": 209,
+     "w": 100,
+     "t": "jul",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 210,
+     "y": 174,
+     "w": 100,
+     "t": "out",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 220,
+     "w": 240,
+     "t": "altura sentada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 320,
+     "w": 220,
+     "t": "peso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 20,
+     "w": 680,
+     "t": "A cada três meses, sempre igual",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 964,
+     "y": 96,
+     "w": 680,
+     "t": "· sem sapato, calcanhares juntos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 162,
+     "w": 680,
+     "t": "· olhar na horizontal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 228,
+     "w": 680,
+     "t": "· mesmo horário, de preferência de manhã",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 294,
+     "w": 680,
+     "t": "· mesmo avaliador e equipamento",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 360,
+     "w": 680,
+     "t": "· duas ou três medidas, e a média",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo um",
+   "titulo": "Medir pouco, sempre do mesmo jeito"
+  },
+  {
+   "id": "calcular",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Passo dois, calcular. Estatura de hoje menos a de três meses atrás, dividida pelo intervalo em anos. Exemplo: 2 centímetros em 3 meses dão 8 centímetros por ano. Uma pequena curva de velocidade com três pontos: acelerando, no máximo, desacelerando\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"420\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"120\" y1=\"170\" x2=\"680\" y2=\"170\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><path d=\"M 880 242 L 888 243 L 895 243 L 903 244 L 910 244 L 918 244 L 926 245 L 933 245 L 941 245 L 948 246 L 956 246 L 964 247 L 971 247 L 979 247 L 986 248 L 994 248 L 1002 248 L 1009 249 L 1017 249 L 1024 250 L 1032 250 L 1040 250 L 1047 251 L 1055 251 L 1062 251 L 1070 252 L 1078 252 L 1085 252 L 1093 253 L 1100 253 L 1108 253 L 1116 253 L 1123 253 L 1131 253 L 1138 252 L 1146 251 L 1154 250 L 1161 248 L 1169 246 L 1176 242 L 1184 238 L 1192 233 L 1199 226 L 1207 218 L 1214 210 L 1222 200 L 1230 189 L 1237 177 L 1245 165 L 1252 152 L 1260 141 L 1268 129 L 1275 120 L 1283 112 L 1290 106 L 1298 102 L 1306 101 L 1313 103 L 1321 107 L 1328 114 L 1336 123 L 1344 133 L 1351 145 L 1359 158 L 1366 171 L 1374 184 L 1382 196 L 1389 208 L 1397 219 L 1404 228 L 1412 237 L 1420 244 L 1427 250 L 1435 255 L 1442 259 L 1450 262 L 1458 271 L 1465 278 L 1473 285 L 1480 292 L 1488 299 L 1496 305 L 1503 311 L 1511 317 L 1518 323 L 1526 329 L 1534 335 L 1541 341 L 1549 347 L 1556 353 L 1564 359 L 1572 365 L 1579 370 L 1587 376 L 1594 380 L 1602 380 L 1610 380 L 1617 380 L 1625 380 L 1632 380 L 1640 380\" stroke=\"#008A7E\" stroke-width=\"6\" fill=\"none\"/><circle cx=\"1230\" cy=\"189\" r=\"14\" fill=\"#B07A1C\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><circle cx=\"1306\" cy=\"101\" r=\"14\" fill=\"#A8322A\" stroke=\"#FDFCF9\" stroke-width=\"3\"/><circle cx=\"1397\" cy=\"219\" r=\"14\" fill=\"#3A6EA5\" stroke=\"#FDFCF9\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 30,
+     "w": 740,
+     "t": "estatura de hoje − de 3 meses atrás",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 90,
+     "w": 740,
+     "t": "÷ intervalo em anos",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 210,
+     "w": 740,
+     "t": "2 cm ÷ 0,25 ano",
+     "tam": 44,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 290,
+     "w": 740,
+     "t": "= 8 cm por ano",
+     "tam": 56,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1020,
+     "y": 120,
+     "w": 220,
+     "t": "acelerando",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 20,
+     "w": 220,
+     "t": "no máximo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 150,
+     "w": 240,
+     "t": "desacelerando",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo dois",
+   "titulo": "A velocidade mostra o pico acontecendo"
+  },
+  {
+   "id": "ler",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Passo três, ler. Três faixas sobre a curva de velocidade. Acelerando: rever impacto, volume de salto e progressão; conversar. No máximo: reduzir progressão, monitorar dor, qualidade antes de volume. Desacelerando: tolerância voltando; a força pode progredir mais\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"44\" y=\"0\" width=\"671\" height=\"460\" rx=\"14\" fill=\"#F4EAD6\"/><rect x=\"723\" y=\"0\" width=\"403\" height=\"460\" rx=\"14\" fill=\"#F3E1DE\"/><rect x=\"1134\" y=\"0\" width=\"482\" height=\"460\" rx=\"14\" fill=\"#DEE7F1\"/><path d=\"M 40 167 L 56 168 L 72 168 L 87 168 L 103 168 L 119 169 L 135 169 L 151 169 L 166 169 L 182 170 L 198 170 L 214 170 L 230 170 L 245 170 L 261 171 L 277 171 L 293 171 L 309 171 L 324 172 L 340 172 L 356 172 L 372 172 L 388 172 L 403 173 L 419 173 L 435 173 L 451 173 L 467 173 L 482 174 L 498 174 L 514 174 L 530 174 L 546 174 L 561 174 L 577 173 L 593 173 L 609 172 L 625 171 L 640 169 L 656 167 L 672 165 L 688 162 L 704 158 L 719 153 L 735 148 L 751 142 L 767 135 L 783 128 L 798 121 L 814 113 L 830 106 L 846 100 L 862 94 L 877 89 L 893 85 L 909 83 L 925 83 L 941 84 L 956 86 L 972 90 L 988 96 L 1004 102 L 1020 109 L 1035 117 L 1051 124 L 1067 132 L 1083 140 L 1099 147 L 1114 153 L 1130 159 L 1146 164 L 1162 168 L 1178 172 L 1193 175 L 1209 177 L 1225 179 L 1241 184 L 1257 189 L 1272 193 L 1288 197 L 1304 201 L 1320 205 L 1336 209 L 1351 212 L 1367 216 L 1383 220 L 1399 223 L 1415 227 L 1430 230 L 1446 234 L 1462 237 L 1478 241 L 1494 244 L 1509 248 L 1525 250 L 1541 250 L 1557 250 L 1573 250 L 1588 250 L 1604 250 L 1620 250\" stroke=\"#12202E\" stroke-width=\"6\" fill=\"none\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 16,
+     "w": 639,
+     "t": "Acelerando",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 280,
+     "w": 639,
+     "t": "· rever impacto e salto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 60,
+     "y": 330,
+     "w": 639,
+     "t": "· conversar antes da dor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 739,
+     "y": 16,
+     "w": 371,
+     "t": "No máximo",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 739,
+     "y": 280,
+     "w": 371,
+     "t": "· reduzir progressão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 739,
+     "y": 330,
+     "w": 371,
+     "t": "· monitorar a dor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 739,
+     "y": 380,
+     "w": 371,
+     "t": "· qualidade antes de volume",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1150,
+     "y": 16,
+     "w": 450,
+     "t": "Desacelerando",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 280,
+     "w": 450,
+     "t": "· tolerância voltando",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1150,
+     "y": 330,
+     "w": 450,
+     "t": "· a força pode progredir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Passo três",
+   "titulo": "Cada fase do estirão pede um ajuste diferente de carga",
+   "destaque": "Na mesma turma, a carga não deveria ser igual para todos.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "alerta",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Passo quatro. Uma curva de crescimento caindo de canal, atravessando as faixas de percentil para baixo. Etiqueta: desaceleração inesperada ou queda de canal, avaliação médica, não ajuste de treino. Causas possíveis: energia que falta, doença\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><path d=\"M 40 340 C 300 300 600 200 900 170\" stroke=\"#D9D4C8\" stroke-width=\"3\" fill=\"none\"/><path d=\"M 40 290 C 300 250 600 150 900 120\" stroke=\"#D9D4C8\" stroke-width=\"3\" fill=\"none\"/><path d=\"M 40 240 C 300 200 600 100 900 70\" stroke=\"#D9D4C8\" stroke-width=\"3\" fill=\"none\"/><path d=\"M 40 190 C 300 150 600 50 900 20\" stroke=\"#D9D4C8\" stroke-width=\"3\" fill=\"none\"/><path d=\"M 40 240 C 300 200 420 150 520 140 C 640 130 760 170 900 230\" stroke=\"#A8322A\" stroke-width=\"7\" fill=\"none\"/><g transform=\"translate(640.0 60.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"980\" y=\"0\" width=\"684\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"980\" y=\"260\" width=\"332\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1332\" y=\"260\" width=\"332\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 380,
+     "w": 900,
+     "t": "faixas de percentil · esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 30,
+     "w": 636,
+     "t": "desaceleração inesperada ou queda de canal",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1004,
+     "y": 140,
+     "w": 636,
+     "t": "avaliação médica, não ajuste de treino",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 996,
+     "y": 292,
+     "w": 300,
+     "t": "energia que falta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1348,
+     "y": 292,
+     "w": 300,
+     "t": "doença",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo quatro",
+   "titulo": "Quando a curva cai de canal, o problema não é do treino"
+  },
+  {
+   "id": "conversa",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três balões de conversa. Para o atleta: o seu corpo cresceu oito centímetros em seis meses; a coordenação volta. Para a família: é passageiro e esperado. Para o treinador: é a fase de maior risco de lesão da carreira dele\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"60\" width=\"536\" height=\"280\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 80 340 l 20 50 l 40 -50 z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"564\" y=\"60\" width=\"536\" height=\"280\" rx=\"40\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 644 340 l 20 50 l 40 -50 z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1128\" y=\"60\" width=\"536\" height=\"280\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 1208 340 l 20 50 l 40 -50 z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 536,
+     "t": "Para o atleta",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 130,
+     "w": 476,
+     "t": "“seu corpo cresceu oito centímetros em seis meses; a coordenação volta”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 564,
+     "y": 0,
+     "w": 536,
+     "t": "Para a família",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 594,
+     "y": 130,
+     "w": 476,
+     "t": "“é passageiro e esperado”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 1128,
+     "y": 0,
+     "w": 536,
+     "t": "Para o treinador",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1158,
+     "y": 130,
+     "w": 476,
+     "t": "“é a fase de maior risco de lesão da carreira dele”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.3,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O procedimento termina numa conversa",
+   "titulo": "Explicar o estirão muda o que cada um faz com ele",
+   "destaque": "Reduzir salto e impacto por um tempo, mantendo técnica e grupo, é proteger o investimento.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Pico de velocidade de crescimento e vulnerabilidade",
+   "titulo": "Uma fita métrica vê a janela antes da lesão",
+   "regras": [
+    "Os meses do estirão são a janela de maior vulnerabilidade da base",
+    "Altura a cada três meses, transformada em velocidade, mostra a fase",
+    "Curva que cai de canal vai para o médico, não para a planilha de treino"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e prepara",
+     "x": "Mede, calcula a velocidade e ajusta impacto e progressão."
+    },
+    {
+     "ic": "h:doctor-female",
+     "t": "Fisioterapia",
+     "x": "Acompanha a dor nas inserções e conduz o fortalecimento."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Avalia a curva que cai e o crescimento que para."
+    }
+   ]
+  }
+ ],
+ "modulo": "Atleta Adolescente e Atleta Idoso",
+ "tema": "musgo"
+}
