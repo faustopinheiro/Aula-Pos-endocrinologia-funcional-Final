@@ -93,6 +93,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Fecho do módulo · três 
                     {"t": "Todos", "x": "A fisgada, o dedo no osso, o joelho que incha, o “está tudo bem”."}],
           "quem": "Próximo módulo: fisioterapia esportiva e reabilitação."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-13")
+
 spec = {"arquivo": "aulas/MOD07/07-13-programas-de-prevencao-eficacia-e-falha-de-adesao.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Prevenção de lesões no esporte", "subtitulo": "Eficácia, adesão e as quatro decisões da equipe",

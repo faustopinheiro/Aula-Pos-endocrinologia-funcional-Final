@@ -26,278 +26,1326 @@
  "slides": [
   {
    "id": "quinze",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Um cronômetro marcando quinze minutos: de quinze a vinte minutos do treino, duas ou três vezes por semana, sem aparelho, sem sala, sem dinheiro. Ao lado, duas barras: descobrir o que funciona, resolvido; fazer, perdendo\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"340\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(40.0 40.0) scale(5.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"620\" y=\"74\" width=\"1000\" height=\"64\" rx=\"32\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"620\" y=\"74\" width=\"1000\" height=\"64\" rx=\"32\" fill=\"#008A7E\"/><rect x=\"620\" y=\"224\" width=\"1000\" height=\"64\" rx=\"32\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"620\" y=\"224\" width=\"220\" height=\"64\" rx=\"32\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 200,
+     "y": 60,
+     "w": 340,
+     "t": "15 min",
+     "tam": 64,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 200,
+     "y": 150,
+     "w": 340,
+     "t": "a 20, duas ou três vezes por semana",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 240,
+     "w": 480,
+     "t": "sem aparelho, sem sala, sem dinheiro",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 30,
+     "w": 900,
+     "t": "descobrir o que funciona",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 90,
+     "w": 300,
+     "t": "resolvido",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 180,
+     "w": 900,
+     "t": "fazer",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 856,
+     "y": 240,
+     "w": 300,
+     "t": "perdendo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 312,
+     "w": 1000,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O tamanho do problema",
-   "frase": "Quinze minutos. E a maior parte das equipes não faz.",
-   "apoio": "Não é falta de evidência, é falta de execução. A parte difícil, descobrir o que funciona, está resolvida. A parte que parecia fácil, fazer, continua perdendo."
+   "titulo": "Quinze minutos. E a maior parte das equipes não faz."
   },
   {
    "id": "mapa",
-   "tipo": "lista",
-   "eyebrow": "Prevenção não é lista de exercícios",
-   "titulo": "Quatro decisões de equipe",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Quatro decisões de equipe em fila. Vale a pena? O que a evidência mostra, e de que tamanho. Fazer o quê? Nem tudo que virou rotina previne alguma coisa. Quem conduz, e onde entra? É aqui que os programas morrem, em destaque. Funciona aqui? De volta ao registro do começo do módulo\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"392\" height=\"320\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"44\" cy=\"44\" r=\"24\" fill=\"#008A7E\"/><g transform=\"translate(322.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><line x1=\"394\" y1=\"160\" x2=\"420\" y2=\"160\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"424\" y=\"0\" width=\"392\" height=\"320\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"468\" cy=\"44\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(746.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3.5 5.5L5 7l2.5-2.5m-4 7L5 13l2.5-2.5m-4 7L5 19l2.5-2.5M11 6h9m-9 6h9m-9 6h9\"/></g><line x1=\"818\" y1=\"160\" x2=\"844\" y2=\"160\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"848\" y=\"0\" width=\"392\" height=\"320\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"892\" cy=\"44\" r=\"24\" fill=\"#A8322A\"/><g transform=\"translate(1170.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><line x1=\"1242\" y1=\"160\" x2=\"1268\" y2=\"160\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1272\" y=\"0\" width=\"392\" height=\"320\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"1316\" cy=\"44\" r=\"24\" fill=\"#12202E\"/><g transform=\"translate(1594.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 19h16M4 15l4-6l4 2l4-5l4 4\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 30,
+     "w": 48,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 22,
+     "y": 100,
+     "w": 350,
      "t": "Vale a pena?",
-     "x": "o que a evidência mostra, e de que tamanho",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 22,
+     "y": 210,
+     "w": 350,
+     "t": "o que a evidência mostra, e de que tamanho",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 444,
+     "y": 30,
+     "w": 48,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 446,
+     "y": 100,
+     "w": 350,
      "t": "Fazer o quê?",
-     "x": "nem tudo que virou rotina previne alguma coisa",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 446,
+     "y": 210,
+     "w": 350,
+     "t": "nem tudo que virou rotina previne alguma coisa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 868,
+     "y": 30,
+     "w": 48,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 100,
+     "w": 350,
      "t": "Quem conduz, e onde entra?",
-     "x": "é aqui que os programas morrem",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 870,
+     "y": 210,
+     "w": 350,
+     "t": "é aqui que os programas morrem",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1292,
+     "y": 30,
+     "w": 48,
+     "t": "4",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1294,
+     "y": 100,
+     "w": 350,
      "t": "Funciona aqui?",
-     "x": "de volta ao registro do começo do módulo",
-     "cor": "tinta"
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1294,
+     "y": 210,
+     "w": 350,
+     "t": "de volta ao registro do começo do módulo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 22
+   "eyebrow": "Prevenção não é lista de exercícios",
+   "titulo": "Quatro decisões de equipe"
   },
   {
    "id": "efeito",
-   "tipo": "numeros",
-   "eyebrow": "Decisão um · vale a pena?",
-   "titulo": "Três blocos de evidência no futebol",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três pares de barras, cada um com o grupo sem programa como referência e o grupo com programa. Ensaio norueguês com 1.892 jogadoras de 13 a 17 anos: cerca de um terço menos lesões no total. Seis ensaios do FIFA 11+, 6.344 jogadores: 30% menos risco de lesão. Exercício nórdico, 8.459 atletas: metade das lesões de posterior de coxa\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"70\" y=\"180\" width=\"170\" height=\"180\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"290\" y=\"239\" width=\"170\" height=\"121\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"634\" y=\"180\" width=\"170\" height=\"180\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"854\" y=\"234\" width=\"170\" height=\"126\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1198\" y=\"180\" width=\"170\" height=\"180\" rx=\"6\" fill=\"#C9CFD4\"/><rect x=\"1418\" y=\"270\" width=\"170\" height=\"90\" rx=\"6\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
-     "n": "~1/3",
-     "x": "menos lesões no total; 1.892 jogadoras de 13 a 17 anos",
-     "cor": "petr"
+     "x": 24,
+     "y": 18,
+     "w": 490,
+     "t": "~1/3 a menos",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "−30%",
-     "x": "risco de lesão; 6 ensaios, 6.344 jogadores",
-     "cor": "petr"
+     "x": 24,
+     "y": 78,
+     "w": 490,
+     "t": "lesões no total; 1.892 jogadoras de 13 a 17 anos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     },
     {
-     "n": "metade",
-     "x": "das lesões de posterior de coxa com o nórdico; 8.459 atletas",
-     "cor": "verm"
+     "x": 50,
+     "y": 366,
+     "w": 210,
+     "t": "sem programa",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 270,
+     "y": 366,
+     "w": 210,
+     "t": "com programa",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 18,
+     "w": 490,
+     "t": "−30%",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 78,
+     "w": 490,
+     "t": "risco de lesão; 6 ensaios, 6.344 jogadores",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 614,
+     "y": 366,
+     "w": 210,
+     "t": "sem programa",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 834,
+     "y": 366,
+     "w": 210,
+     "t": "com programa",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 18,
+     "w": 490,
+     "t": "metade",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 78,
+     "w": 490,
+     "t": "das lesões de posterior de coxa com o nórdico; 8.459 atletas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1178,
+     "y": 366,
+     "w": 210,
+     "t": "sem programa",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1398,
+     "y": 366,
+     "w": 210,
+     "t": "com programa",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Decisão um · vale a pena?",
+   "titulo": "Três blocos de evidência no futebol",
    "destaque": "No ensaio norueguês, só nas lesões de membro inferior, a diferença não foi significativa.",
    "destaque_cor": "tinta",
    "fonte": "BMJ 2008 · BMC Sports Sci Med Rehabil 2017 · Br J Sports Med 2019"
   },
   {
    "id": "forca",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Em esquema, sem valores: a proteção contra lesão sobe com a dose de treino de força, dentro das faixas estudadas; o alongamento sozinho fica numa linha reta, sem efeito preventivo. À direita, o que teve efeito: treino de força, o maior, em lesão aguda e por sobrecarga, e o treino proprioceptivo\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"940\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"80\" y1=\"310\" x2=\"900\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 80 290 C 300 220, 560 120, 880 70\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"80\" y1=\"302\" x2=\"880\" y2=\"302\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"10 8\"/><rect x=\"980\" y=\"0\" width=\"684\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1004.0 90.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><g transform=\"translate(1004.0 180.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><g transform=\"translate(1004.0 270.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 20h4l1.5-3m7.5 3l-1-5h-5l1-7\"/><path d=\"m4 10l4-1l4-1l4 1.5l4 1.5m-9.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 560,
+     "y": 50,
+     "w": 360,
+     "t": "força: mais volume, mais proteção",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 560,
+     "y": 266,
+     "w": 340,
+     "t": "alongamento sozinho: sem efeito",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 322,
+     "w": 800,
+     "t": "dose de treino de força · esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 10,
+     "y": 40,
+     "w": 66,
+     "t": "proteção",
+     "tam": 15,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 18,
+     "w": 600,
+     "t": "Com efeito",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 98,
+     "w": 580,
+     "t": "treino de força: o maior efeito",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 188,
+     "w": 580,
+     "t": "em lesão aguda e por sobrecarga",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 278,
+     "w": 580,
+     "t": "proprioceptivo também",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "O bloco mais geral",
    "titulo": "Força protege, e a dose importa",
-   "esq": {
-    "t": "Com efeito",
-    "cor": "petr",
-    "itens": [
-     "treino de força: o maior efeito",
-     "em lesão aguda e por sobrecarga",
-     "mais volume, mais proteção",
-     "proprioceptivo também"
-    ]
-   },
-   "dir": {
-    "t": "Sem efeito preventivo",
-    "cor": "verm",
-    "itens": [
-     "alongamento sozinho"
-    ]
-   },
    "destaque": "Mais de 26 mil pessoas na metanálise de 2014; a dose-resposta veio em 2018.",
    "destaque_cor": "tinta",
    "fonte": "Br J Sports Med 2014 e 2018"
   },
   {
    "id": "ingredientes",
-   "tipo": "cards",
-   "por_linha": 5,
-   "eyebrow": "Decisão dois · fazer o quê?",
-   "titulo": "Cinco ingredientes com evidência",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Os cinco ingredientes na ordem do aquecimento: força, progressiva, a temporada inteira; excêntrico, o nórdico para posterior de coxa; aterrissagem e mudança de direção, para o cruzado; equilíbrio numa perna, até o instável; velocidade e o gesto do esporte no fim. Embaixo, a dose: duas a três vezes por semana, 15 a 25 minutos, a temporada inteira; seis semanas de pré-temporada abandonadas em abril quase equivalem a não fazer\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"312\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"314\" y1=\"105\" x2=\"334\" y2=\"105\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"337\" y=\"0\" width=\"312\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(357.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g><line x1=\"651\" y1=\"105\" x2=\"671\" y2=\"105\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"674\" y=\"0\" width=\"312\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(694.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><line x1=\"988\" y1=\"105\" x2=\"1008\" y2=\"105\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"1011\" y=\"0\" width=\"312\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1031.0 20.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 20h4l1.5-3m7.5 3l-1-5h-5l1-7\"/><path d=\"m4 10l4-1l4-1l4 1.5l4 1.5m-9.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><line x1=\"1325\" y1=\"105\" x2=\"1345\" y2=\"105\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"1348\" y=\"0\" width=\"312\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1368.0 20.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><rect x=\"0\" y=\"250\" width=\"1664\" height=\"60\" rx=\"30\" fill=\"#008A7E\"/><rect x=\"0\" y=\"330\" width=\"300\" height=\"60\" rx=\"30\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
+     "x": 74,
+     "y": 28,
+     "w": 230,
      "t": "Força",
-     "x": "progressiva, a temporada inteira",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 96,
+     "w": 276,
+     "t": "progressiva, a temporada inteira",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 411,
+     "y": 28,
+     "w": 230,
      "t": "Excêntrico",
-     "x": "o nórdico para posterior de coxa",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 357,
+     "y": 96,
+     "w": 276,
+     "t": "o nórdico para posterior de coxa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 748,
+     "y": 28,
+     "w": 230,
      "t": "Aterrissagem",
-     "x": "e mudança de direção; cruzado",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 694,
+     "y": 96,
+     "w": 276,
+     "t": "e mudança de direção; cruzado",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1085,
+     "y": 28,
+     "w": 230,
      "t": "Equilíbrio",
-     "x": "numa perna, até o instável",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1031,
+     "y": 96,
+     "w": 276,
+     "t": "numa perna, até o instável",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1422,
+     "y": 28,
+     "w": 230,
      "t": "Velocidade",
-     "x": "e o gesto do esporte no fim",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1368,
+     "y": 96,
+     "w": 276,
+     "t": "e o gesto do esporte no fim",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 266,
+     "w": 1600,
+     "t": "2 a 3 × por semana, 15 a 25 min, a temporada inteira",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 347,
+     "w": 270,
+     "t": "6 semanas",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 346,
+     "w": 1320,
+     "t": "de pré-temporada, abandonadas em abril: quase equivale a não fazer",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Duas a três vezes por semana, 15 a 25 minutos, a temporada inteira. Seis semanas de pré-temporada abandonadas em abril quase equivalem a não fazer.",
-   "destaque_cor": "tinta"
+   "eyebrow": "Decisão dois · fazer o quê?",
+   "titulo": "Cinco ingredientes com evidência"
   },
   {
    "id": "treino",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"O mesmo programa por dois caminhos. Apresentado como bloco extra da fisioterapia, morre no primeiro mês apertado. Apresentado como parte do treino, com objetivo de desempenho, sobrevive\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"140\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"304\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"370\" y=\"0\" width=\"640\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1014\" y1=\"70\" x2=\"1070\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1080\" y=\"0\" width=\"584\" height=\"140\" rx=\"16\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(1104.0 46.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"170\" width=\"300\" height=\"140\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"304\" y1=\"240\" x2=\"360\" y2=\"240\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"370\" y=\"170\" width=\"640\" height=\"140\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"1014\" y1=\"240\" x2=\"1070\" y2=\"240\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"1080\" y=\"170\" width=\"584\" height=\"140\" rx=\"16\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><g transform=\"translate(1104.0 216.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 52,
+     "w": 300,
+     "t": "o programa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 394,
+     "y": 30,
+     "w": 600,
+     "t": "apresentado como bloco extra da fisioterapia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 50,
+     "w": 480,
+     "t": "morre no primeiro mês apertado",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 222,
+     "w": 300,
+     "t": "o programa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 394,
+     "y": 200,
+     "w": 600,
+     "t": "apresentado como parte do treino, com objetivo de desempenho",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1166,
+     "y": 220,
+     "w": 480,
+     "t": "sobrevive",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "A armadilha",
-   "frase": "Prevenção bem feita é treino bem feito.",
-   "apoio": "Apresentado como bloco extra da fisioterapia, o programa morre no primeiro mês apertado. Apresentado como parte do treino, com objetivo de desempenho, sobrevive."
+   "titulo": "Prevenção bem feita é treino bem feito."
   },
   {
    "id": "adocao",
-   "tipo": "numeros",
-   "eyebrow": "Decisão três · quem conduz?",
-   "titulo": "Os clubes mais ricos do planeta e o exercício nórdico",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Cinquenta escudos, um por equipe: 32 da Liga dos Campeões e 18 da liga norueguesa. Embaixo, uma barra das temporadas avaliadas: 10,7% com o programa nórdico completo; 83% sem o programa; o restante, em cinza\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><g transform=\"translate(0.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(66.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(132.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(198.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(264.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(330.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(396.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(462.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(528.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(594.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(660.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(726.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(792.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(858.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(924.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(990.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1056.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1122.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1188.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1254.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1320.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1386.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1452.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1518.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1584.0 0.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(0.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(66.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(132.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(198.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(264.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(330.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(396.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(462.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(528.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(594.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(660.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(726.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(792.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(858.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(924.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(990.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1056.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1122.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1188.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1254.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1320.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1386.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1452.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1518.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><g transform=\"translate(1584.0 70.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><rect x=\"0\" y=\"210\" width=\"178\" height=\"80\" fill=\"#008A7E\"/><rect x=\"178\" y=\"210\" width=\"105\" height=\"80\" fill=\"#C9CFD4\"/><rect x=\"283\" y=\"210\" width=\"1381\" height=\"80\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
-     "n": "50",
-     "x": "equipes: 32 da Liga dos Campeões, 18 da liga norueguesa",
-     "cor": "tinta"
+     "x": 0,
+     "y": 146,
+     "w": 700,
+     "t": "32 da Liga dos Campeões",
+     "tam": 21,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "10,7%",
-     "x": "das temporadas com o programa completo",
-     "cor": "verm"
+     "x": 800,
+     "y": 146,
+     "w": 850,
+     "t": "18 da liga norueguesa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
     },
     {
-     "n": "83%",
-     "x": "das temporadas sem o programa",
-     "cor": "verm"
+     "x": 10,
+     "y": 232,
+     "w": 170,
+     "t": "10,7%",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 307,
+     "y": 232,
+     "w": 900,
+     "t": "83%: sem o programa",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 302,
+     "w": 500,
+     "t": "com o programa completo",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 340,
+     "w": 1600,
+     "t": "das temporadas avaliadas",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Decisão três · quem conduz?",
+   "titulo": "Os clubes mais ricos do planeta e o exercício nórdico",
    "destaque": "Eficácia é o efeito no estudo; efetividade, no mundo real. Programa excelente com pouca adesão entrega menos que programa médio bem feito.",
    "destaque_cor": "tinta",
    "fonte": "Bahr e colegas, Br J Sports Med 2015"
   },
   {
    "id": "alavancas",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Duas colunas. Por que não é feito: tempo, sai quando aperta; o treinador não acredita; é da fisioterapia; ninguém responsável, some depois da pré-temporada; ninguém vê o resultado. O que aumenta a adesão: a comissão técnica conduz no aquecimento; horário escrito na planilha; responsável com nome e substituto; presença medida e progressão visível; resultado devolvido ao grupo. Em destaque, as duas alavancas que sustentam o resto: quem conduz e medir presença\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"812\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 74.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(24.0 142.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(24.0 210.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(24.0 278.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(24.0 346.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"852\" y=\"0\" width=\"812\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"866\" y=\"66\" width=\"784\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\"/><g transform=\"translate(876.0 74.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(876.0 142.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(876.0 210.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"866\" y=\"270\" width=\"784\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\"/><g transform=\"translate(876.0 278.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(876.0 346.0) scale(1.5833)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "Por que não é feito",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 76,
+     "y": 80,
+     "w": 720,
+     "t": "tempo: sai quando aperta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 148,
+     "w": 720,
+     "t": "treinador não acredita",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 216,
+     "w": 720,
+     "t": "é “da fisioterapia”",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 284,
+     "w": 720,
+     "t": "ninguém responsável; some depois da pré-temporada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 352,
+     "w": 720,
+     "t": "ninguém vê o resultado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 876,
+     "y": 16,
+     "w": 760,
+     "t": "O que aumenta a adesão",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 928,
+     "y": 80,
+     "w": 720,
+     "t": "comissão técnica conduz no aquecimento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 928,
+     "y": 148,
+     "w": 720,
+     "t": "horário escrito na planilha",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 928,
+     "y": 216,
+     "w": 720,
+     "t": "responsável com nome e substituto",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 928,
+     "y": 284,
+     "w": 720,
+     "t": "presença medida; progressão visível",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 928,
+     "y": 352,
+     "w": 720,
+     "t": "resultado devolvido ao grupo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Barreiras e alavancas",
    "titulo": "Quase nunca é sobre o exercício",
-   "esq": {
-    "t": "Por que não é feito",
-    "cor": "verm",
-    "itens": [
-     "tempo: sai quando aperta",
-     "treinador não acredita",
-     "é “da fisioterapia”",
-     "ninguém responsável; some depois da pré-temporada",
-     "ninguém vê o resultado"
-    ]
-   },
-   "dir": {
-    "t": "O que aumenta a adesão",
-    "cor": "petr",
-    "itens": [
-     "comissão técnica conduz no aquecimento",
-     "horário escrito na planilha",
-     "responsável com nome e substituto",
-     "presença medida; progressão visível",
-     "resultado devolvido ao grupo"
-    ]
-   },
    "destaque": "Se só der para dois: quem conduz e medir presença.",
    "destaque_cor": "tinta"
   },
   {
    "id": "medir",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Dois números. À esquerda, a adesão como conta: sessões feitas divididas por sessões previstas, por atleta e por período; costuma ser menor do que se imagina. À direita, a lesão, nos três indicadores do painel: proporção semanal, incidência por exposição e carga de lesão\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"180\" y1=\"132\" x2=\"620\" y2=\"132\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"380\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"888\" y=\"90\" width=\"752\" height=\"74\" rx=\"37\" fill=\"#FDFCF9\"/><g transform=\"translate(910.0 107.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"888\" y=\"182\" width=\"752\" height=\"74\" rx=\"37\" fill=\"#FDFCF9\"/><g transform=\"translate(910.0 199.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"888\" y=\"274\" width=\"752\" height=\"74\" rx=\"37\" fill=\"#FDFCF9\"/><g transform=\"translate(910.0 291.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 600,
+     "t": "Adesão",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 80,
+     "w": 752,
+     "t": "sessões feitas",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 146,
+     "w": 752,
+     "t": "sessões previstas",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 236,
+     "w": 752,
+     "t": "por atleta e por período",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 300,
+     "w": 752,
+     "t": "costuma ser menor do que se imagina",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 16,
+     "w": 600,
+     "t": "Lesão",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 966,
+     "y": 112,
+     "w": 640,
+     "t": "proporção semanal",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 966,
+     "y": 204,
+     "w": 640,
+     "t": "incidência por exposição",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 966,
+     "y": 296,
+     "w": 640,
+     "t": "carga de lesão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Decisão quatro · funciona aqui?",
    "titulo": "Dois números",
-   "esq": {
-    "t": "Adesão",
-    "cor": "ambar",
-    "itens": [
-     "sessões feitas ÷ previstas",
-     "por atleta e por período",
-     "costuma ser menor do que se imagina"
-    ]
-   },
-   "dir": {
-    "t": "Lesão",
-    "cor": "petr",
-    "itens": [
-     "proporção semanal",
-     "incidência por exposição",
-     "carga de lesão"
-    ]
-   },
    "destaque": "Compare você com você: a sua temporada anterior é o melhor comparador.",
    "destaque_cor": "tinta"
   },
   {
    "id": "cuidados",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Ao ler o próprio número",
-   "titulo": "Três cuidados",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma curva serrilhada de lesões mês a mês num grupo pequeno, em esquema, sem valores. Três cuidados. Grupo pequeno oscila: olhe a temporada, não o mês. Volta ao normal: depois de um período ruim, parte da melhora vem sozinha. Carga, não só contagem: muitas leves é melhor que três cirurgias\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><polyline points=\"20,70 168,118 316,54 464,102 612,38 760,118 908,86 1056,54 1204,118 1352,70 1500,102 1648,86\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"4\"/><line x1=\"20\" y1=\"150\" x2=\"1650\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"0\" y=\"200\" width=\"536\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"564\" y=\"200\" width=\"536\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1128\" y=\"200\" width=\"536\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 158,
+     "w": 1600,
+     "t": "lesões mês a mês num grupo pequeno · esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 218,
+     "w": 490,
      "t": "Grupo pequeno oscila",
-     "x": "olhe temporada, não mês",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 272,
+     "w": 490,
+     "t": "olhe temporada, não mês",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 218,
+     "w": 490,
      "t": "Volta ao normal",
-     "x": "depois de um período ruim, parte da melhora vem sozinha",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 272,
+     "w": 490,
+     "t": "depois de um período ruim, parte da melhora vem sozinha",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1152,
+     "y": 218,
+     "w": 490,
      "t": "Carga, não só contagem",
-     "x": "muitas leves é melhor que três cirurgias",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 272,
+     "w": 490,
+     "t": "muitas leves é melhor que três cirurgias",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Ao ler o próprio número",
+   "titulo": "Três cuidados",
    "destaque": "Prevenção não zera lesão. Prometer risco zero destrói o programa no primeiro atleta que se machuca.",
    "destaque_cor": "verm"
   },
   {
    "id": "contextos",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Quatro contextos fora do clube profissional. Escola e base: no aquecimento da aula, conduzida pelo professor. Clube pequeno: desenho de quem tem formação, condução do preparador, presença medida. Academia e corrida: prescrição de força e progressão de carga com bom senso. Consultório: a conversa sobre o que aumentou, força, sono e alimentação. Embaixo, o mínimo viável: duas vezes por semana, 20 minutos, no aquecimento: posterior de coxa, aterrissagem, equilíbrio numa perna, fecho com velocidade\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"392\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(22.0 22.0) scale(1.9167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M22 9L12 5L2 9l10 4zv6\"/><path d=\"M6 10.6V16a6 3 0 0 0 12 0v-5.4\"/></g></g><rect x=\"424\" y=\"0\" width=\"392\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(446.0 22.0) scale(1.9167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M3 9h3v6H3zm15 0h3v6h-3z\"/><path d=\"M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm9-2v14\"/></g></g><rect x=\"848\" y=\"0\" width=\"392\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(870.0 22.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"1272\" y=\"0\" width=\"392\" height=\"240\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1294.0 22.0) scale(1.9167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"0\" y=\"270\" width=\"1664\" height=\"150\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><rect x=\"24\" y=\"340\" width=\"390\" height=\"60\" rx=\"30\" fill=\"#F7F6F2\"/><g transform=\"translate(40.0 352.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g><rect x=\"434\" y=\"340\" width=\"390\" height=\"60\" rx=\"30\" fill=\"#F7F6F2\"/><g transform=\"translate(450.0 352.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><rect x=\"844\" y=\"340\" width=\"390\" height=\"60\" rx=\"30\" fill=\"#F7F6F2\"/><g transform=\"translate(860.0 352.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 20h4l1.5-3m7.5 3l-1-5h-5l1-7\"/><path d=\"m4 10l4-1l4-1l4 1.5l4 1.5m-9.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"1254\" y=\"340\" width=\"390\" height=\"60\" rx=\"30\" fill=\"#F7F6F2\"/><g transform=\"translate(1270.0 352.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 82,
+     "y": 30,
+     "w": 300,
+     "t": "Escola e base",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 22,
+     "y": 100,
+     "w": 350,
+     "t": "no aquecimento da aula, conduzida pelo professor",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 506,
+     "y": 30,
+     "w": 300,
+     "t": "Clube pequeno",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 446,
+     "y": 100,
+     "w": 350,
+     "t": "desenho de quem tem formação; condução do preparador; presença medida",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 930,
+     "y": 30,
+     "w": 300,
+     "t": "Academia e corrida",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 870,
+     "y": 100,
+     "w": 350,
+     "t": "prescrição de força e progressão de carga com bom senso",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1354,
+     "y": 30,
+     "w": 300,
+     "t": "Consultório",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1294,
+     "y": 100,
+     "w": 350,
+     "t": "a conversa: o que aumentou, força, sono, alimentação",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 286,
+     "w": 1600,
+     "t": "Mínimo viável: 2 × por semana, 20 minutos, no aquecimento",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 86,
+     "y": 356,
+     "w": 320,
+     "t": "posterior de coxa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 496,
+     "y": 356,
+     "w": 320,
+     "t": "aterrissagem",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 906,
+     "y": 356,
+     "w": 320,
+     "t": "equilíbrio numa perna",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1316,
+     "y": 356,
+     "w": 320,
+     "t": "fecho com velocidade",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Fora do clube profissional",
-   "titulo": "Onde a maioria de nós trabalha",
-   "cab": [
-    "Contexto",
-    "Como a prevenção entra"
-   ],
-   "larguras": [
-    28,
-    72
-   ],
-   "linhas": [
-    [
-     "Escola e base",
-     "no aquecimento da aula, conduzida pelo professor"
-    ],
-    [
-     "Clube pequeno",
-     "desenho de quem tem formação; condução do preparador; presença medida"
-    ],
-    [
-     "Academia e corrida",
-     "prescrição de força e progressão de carga com bom senso"
-    ],
-    [
-     "Consultório",
-     "a conversa: o que aumentou, força, sono, alimentação"
-    ]
-   ],
-   "destaque": "Mínimo viável: 2 × por semana, 20 minutos, no aquecimento: posterior de coxa, aterrissagem, equilíbrio numa perna, fecho com velocidade.",
-   "destaque_cor": "tinta"
+   "titulo": "Onde a maioria de nós trabalha"
   },
   {
    "id": "fecho",
