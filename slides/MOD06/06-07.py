@@ -119,6 +119,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Os três perfis, respondid
                     {"t": "Comissão inteira", "x": "Pergunta sobre tosse e chiado, registra o que é inalado."}],
           "quem": "Cochrane: treinar melhora o condicionamento, é bem tolerado, sem relato de piora. O afastamento nunca foi neutro."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-07")
+
 spec = {"arquivo": "aulas/MOD06/06-07-asma-e-broncoespasmo-induzido-por-exercicio.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Broncoespasmo induzido pelo exercício", "subtitulo": "Os números do diagnóstico, do tratamento e do antidoping",

@@ -1614,6 +1614,231 @@ def prevencao_66():
                  destaque="Custo zero: ensinar a comissão e limitar contato no treino.", destaque_cor="verm",
                  fonte="Revisão sistemática do consenso, Br J Sports Med 2023")
 
+# ---------------------------------------------------------------- 6.7
+
+def perfis_67():
+    """6.7: três pessoas com bombinha e a régua que decide por elas."""
+    p = [svg_abre(1664, 400, "Três pessoas com bombinha na mão. O adolescente afastado da educação física desde a infância. A nadadora que tosse depois de todo treino. O corredor que usa a bombinha de um amigo antes da prova fria. Embaixo, uma régua comum às três: o que decide é a queda do VEF1 medida, de pelo menos dez por cento, não a queixa")]
+    rs = []
+    itens = [("t:school", "O adolescente", "afastado da educação física desde a infância", OXID, OXID_T),
+             ("t:swimming", "A nadadora", "tosse depois de todo treino", AZUL, AZUL_T),
+             ("t:run", "O corredor", "usa a bombinha de um amigo antes da prova fria", GLIC, GLIC_T)]
+    for k, (ic, t, d, cor, fundo) in enumerate(itens):
+        x = k * 568
+        p.append(caixa(x, 0, 528, 230, cor, fundo, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 24, 56, cor))
+        rs += [rot(x + 96, 34, t, w=410, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, 110, d, w=480, tam=23, cor=TINTA, lh=1.3)]
+        p.append(f'<line x1="{x + 264}" y1="230" x2="{x + 264}" y2="280" stroke="{BORDA}" stroke-width="3"/>')
+    p.append(caixa(0, 280, 1664, 120, TINTA, TINTA, esp=0, rx=16))
+    rs += [rot(30, 304, "A queixa não decide.", w=600, tam=30, cor=PAPEL, peso=700, serif=True),
+           rot(30, 350, "o número decide: queda medida do VEF1", w=900, tam=22, cor=PAPEL),
+           rot(1100, 296, "≥ 10%", w=520, tam=64, cor=PAPEL, peso=700, serif=True, alinha="right")]
+    return slide("perfis", 400, p, rs, eyebrow="Três pessoas com bombinha na mão", titulo="Em nenhuma delas a queixa decide")
+
+
+def numeros_67():
+    """6.7: três números ao longo do caminho: diagnóstico, uso, limite."""
+    p = [svg_abre(1664, 360, "Um caminho em três etapas, cada uma com o seu número. Diagnóstico: queda de dez por cento do VEF1. Uso: quinze minutos entre o broncodilatador e o esforço. Limite: 1.600 microgramas por dia, o teto do salbutamol inalado"), defs(MUDO)]
+    rs = []
+    itens = [("Diagnóstico", "10%", "queda do VEF1 que define o diagnóstico", TINTA, PAPEL, "t:chart-line"),
+             ("Uso", "15 min", "entre o broncodilatador e o esforço", OXID, OXID_T, "t:clock"),
+             ("Limite", "1.600 µg", "teto diário do salbutamol inalado", FOSF, FOSF_T, "t:alert-triangle")]
+    for k, (etapa, n, d, cor, fundo, ic) in enumerate(itens):
+        x = k * 568
+        p.append(caixa(x, 0, 500, 360, cor, fundo, esp=2, rx=18))
+        p.append(icone(ic, x + 24, 24, 48, cor))
+        rs += [rot(x + 88, 32, etapa, w=380, tam=26, cor=cor, peso=700, serif=True),
+               rot(x + 24, 110, n, w=460, tam=72, cor=cor, peso=700, serif=True),
+               rot(x + 24, 230, d, w=450, tam=24, cor=TINTA, lh=1.3)]
+        if k < 2:
+            p.append(seta(x + 510, 180, x + 556, 180, MUDO, "m0", esp=4))
+    return slide("numeros", 360, p, rs, eyebrow="Os números que atravessam a aula", titulo="Diagnóstico, uso e limite",
+                 destaque="O rótulo errado afasta gente do esporte; a falta de rótulo deixa gente tossindo por anos. Os dois se resolvem com medida.", destaque_cor="tinta")
+
+
+def mecanismo_67():
+    """6.7: a cadeia do ar que passa ao músculo que contrai."""
+    p = [svg_abre(1664, 380, "Em cima, a definição: estreitamento transitório das vias aéreas, durante ou logo depois do esforço, em quem tem asma e em quem não tem. Embaixo, a cadeia do mecanismo em quatro elos: ventilação alta e prolongada; o epitélio perde água e calor; os mastócitos liberam mediadores; o músculo liso contrai. Ao lado, o ar: frio e seco piora, morno e úmido melhora"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 0, 1664, 110, OXID, OXID_T, esp=2, rx=16))
+    rs += [rot(24, 16, "Estreitamento transitório das vias aéreas", w=1000, tam=28, cor=OXID, peso=700, serif=True),
+           rot(24, 62, "durante ou logo depois do esforço · em quem tem asma e em quem não tem", w=1600, tam=22, cor=TINTA)]
+    elos = [("t:wave-sine", "ventilação alta e prolongada"), ("t:droplet", "epitélio perde água e calor"), ("t:bolt", "mastócitos liberam mediadores"), ("h:lungs", "o músculo liso contrai")]
+    for k, (ic, t) in enumerate(elos):
+        x = k * 330
+        p.append(caixa(x, 150, 290, 170, GLIC, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, x + 121, 168, 48, GLIC))
+        rs.append(rot(x + 16, 236, t, w=258, tam=22, cor=TINTA, peso=600, alinha="center", lh=1.25))
+        if k < 3:
+            p.append(seta(x + 294, 235, x + 326, 235, MUDO, "m0", esp=3))
+    p.append(caixa(1340, 150, 324, 230, TINTA, CARTAO, esp=2, rx=14))
+    rs += [rot(1360, 166, "O ar", w=290, tam=26, cor=TINTA, peso=700, serif=True),
+           rot(1360, 214, "frio e seco: piora", w=290, tam=22, cor=FOSF, peso=700),
+           rot(1360, 256, "morno e úmido: melhora", w=290, tam=22, cor=OXID, peso=700),
+           rot(1360, 300, "o risco cresce com o volume de ar", w=290, tam=20, cor=TINTA, lh=1.25)]
+    return slide("mecanismo", 380, p, rs, eyebrow="O que é", titulo="Com asma ou sem asma de base")
+
+
+def prevalencia_67():
+    """6.7: a faixa de 30 a 70% numa régua de zero a cem, e os três ambientes que concentram."""
+    p = [svg_abre(1664, 360, "Uma régua de zero a cem por cento com a faixa de 30 a 70 por cento: a prevalência de broncoespasmo induzido por exercício em atletas, que varia com a modalidade e o critério diagnóstico. Embaixo, os três ambientes que concentram casos: inverno, com ar frio e seco; endurance, com muito ar por muito tempo; piscina coberta, com subprodutos de cloro")]
+    rs = []
+    X0, W = 40, 1580
+    fx = lambda v: X0 + v / 100 * W
+    p.append(f'<line x1="{X0}" y1="80" x2="{X0 + W}" y2="80" stroke="{BORDA}" stroke-width="8" stroke-linecap="round"/>')
+    p.append(f'<line x1="{fx(30):.0f}" y1="80" x2="{fx(70):.0f}" y2="80" stroke="{FOSF}" stroke-width="30" stroke-linecap="round"/>')
+    for v in (0, 30, 70, 100):
+        rs.append(rot(fx(v) - 60, 104, f"{v}%", w=120, tam=22 if v in (30, 70) else 19, cor=FOSF if v in (30, 70) else MUDO, peso=700 if v in (30, 70) else 400, alinha="center"))
+    rs.append(rot(fx(30), 22, "atletas, conforme modalidade e critério", w=fx(70) - fx(30), tam=22, cor=FOSF, peso=700, alinha="center"))
+    itens = [("t:temperature", "inverno", "ar frio e seco", OXID), ("t:run", "endurance", "muito ar, por muito tempo", GLIC), ("t:swimming", "piscina", "coberta, com subprodutos de cloro", AZUL)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        x = k * 568
+        p.append(caixa(x, 170, 528, 190, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 194, 56, cor))
+        rs += [rot(x + 96, 202, t, w=410, tam=32, cor=cor, peso=700, serif=True), rot(x + 24, 280, d, w=480, tam=23, cor=TINTA)]
+    return slide("prevalencia", 360, p, rs, eyebrow="Quem tem mais", titulo="Em atletas, de 30 a 70%",
+                 destaque="Tosse depois do treino não é normal do esporte. E prevalência alta não autoriza tratar sem medir: o grupo sintomático tem muita gente com outra coisa.",
+                 destaque_cor="verm", fonte="Varia com modalidade e critério diagnóstico")
+
+
+def diferenciais_67():
+    """6.7: seis imitadores e o círculo que o rótulo errado fecha."""
+    p = [svg_abre(1664, 400, "À esquerda, seis diagnósticos que imitam broncoespasmo, cada um com a sua pista. Descondicionamento: falta de ar proporcional ao esforço; o tratamento é treinar. Rinite com respiração oral: o ar chega sem aquecer nem umidificar. Refluxo: tosse e aperto em posição e horário específicos. Padrão disfuncional e ansiedade: falta de ar real, pulmão normal. Deficiência de ferro e causa cardíaca: exame respiratório normal. À direita, o círculo cruel: o rótulo afasta, o afastamento descondiciona, o descondicionamento confirma o rótulo"), defs(GLIC)]
+    rs = []
+    itens = [("Descondicionamento", "falta de ar proporcional ao esforço; o tratamento é treinar"), ("Rinite com respiração oral", "ar que chega sem aquecer nem umidificar"),
+             ("Refluxo", "tosse e aperto em posição e horário específicos"), ("Padrão disfuncional, ansiedade", "falta de ar real, pulmão normal"),
+             ("Deficiência de ferro", "exame respiratório normal"), ("Causa cardíaca", "exame respiratório normal")]
+    for k, (t, d) in enumerate(itens):
+        col, lin = k % 2, k // 2
+        x, y = col * 540, lin * 136
+        p.append(caixa(x, y, 520, 124, TINTA, CARTAO, esp=2, rx=14))
+        rs += [rot(x + 20, y + 14, t, w=480, tam=23, cor=TINTA, peso=700), rot(x + 20, y + 56, d, w=480, tam=21, cor=TINTA, lh=1.25)]
+    import math as _m
+    cx, cy, r = 1400, 200, 140
+    nos = ["o rótulo afasta", "o afastamento descondiciona", "o descondicionamento confirma o rótulo"]
+    angs = [-90, 30, 150]
+    for k, a in enumerate(angs):
+        a1, a2 = _m.radians(a + 22), _m.radians(angs[(k + 1) % 3] - 22 + (360 if k == 2 else 0))
+        x1, y1 = cx + r * _m.cos(a1), cy + r * _m.sin(a1)
+        x2, y2 = cx + r * _m.cos(a2), cy + r * _m.sin(a2)
+        p.append(f'<path d="M {x1:.0f} {y1:.0f} A {r} {r} 0 0 1 {x2:.0f} {y2:.0f}" fill="none" stroke="{GLIC}" stroke-width="5" marker-end="url(#m0)"/>')
+    for k, (t, a) in enumerate(zip(nos, angs)):
+        x, y = cx + r * _m.cos(_m.radians(a)), cy + r * _m.sin(_m.radians(a))
+        rs.append(rot(min(x - 120, 1664 - 240), y - 26, t, w=240, tam=20, cor=GLIC, peso=700, alinha="center", lh=1.2))
+    rs.append(rot(cx - 90, cy - 18, "o círculo cruel", w=180, tam=22, cor=TINTA, peso=700, alinha="center", serif=True))
+    return slide("diferenciais", 400, p, rs, eyebrow="Antes de tratar", titulo="O que imita broncoespasmo")
+
+
+def laringe_67():
+    """6.7: quando cada um aparece em relação ao esforço (esquema), e as pistas de cada lado."""
+    p = [svg_abre(1664, 400, "Em cima, em esquema, a intensidade do sintoma ao longo do tempo, com o esforço sombreado. A obstrução laríngea aparece no pico do esforço e some em um a dois minutos parado. O broncoespasmo piora depois do esforço. Embaixo, as pistas. Broncoespasmo: chiado na expiração, aperto no peito, responde ao broncodilatador. Obstrução laríngea: ruído na inspiração, o estridor, garganta fechando, não responde ao broncodilatador")]
+    rs = []
+    X0, X1, Yb = 0, 1664, 170
+    p.append(f'<rect x="200" y="10" width="560" height="{Yb - 10}" fill="{AZUL_T}"/>')
+    rs += [rot(210, 14, "esforço", w=300, tam=20, cor=MUDO, peso=700), rot(1300, 14, "esquema", w=360, tam=18, cor=MUDO, alinha="right")]
+    p.append(f'<line x1="{X0}" y1="{Yb}" x2="{X1}" y2="{Yb}" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<path d="M 200 {Yb} C 500 {Yb}, 680 40, 750 40 C 790 40, 800 {Yb}, 860 {Yb}" fill="none" stroke="{FOSF}" stroke-width="5"/>')
+    p.append(f'<path d="M 600 {Yb} C 760 {Yb}, 820 70, 1000 60 C 1200 52, 1300 120, 1640 {Yb - 6}" fill="none" stroke="{OXID}" stroke-width="5"/>')
+    rs += [rot(220, 46, "obstrução laríngea: no pico", w=380, tam=20, cor=FOSF, peso=700),
+           rot(870, 138, "some em 1 a 2 min parado", w=280, tam=19, cor=FOSF),
+           rot(1040, 30, "broncoespasmo: piora depois", w=400, tam=20, cor=OXID, peso=700)]
+    for x, t, itens, cor, fundo in [(0, "Broncoespasmo", ["chiado na expiração", "aperto no peito", "responde ao broncodilatador"], OXID, OXID_T),
+                                    (848, "Obstrução laríngea", ["ruído na inspiração, o estridor", "garganta fechando", "não responde ao broncodilatador"], FOSF, FOSF_T)]:
+        p.append(caixa(x, 200, 816, 200, cor, fundo, esp=2, rx=16))
+        rs.append(rot(x + 24, 214, t, w=760, tam=26, cor=cor, peso=700, serif=True))
+        for k, it in enumerate(itens):
+            y = 262 + k * 42
+            p.append(f'<circle cx="{x + 32}" cy="{y + 14}" r="7" fill="{cor}"/>')
+            rs.append(rot(x + 50, y, it, w=740, tam=22, cor=TINTA))
+    return slide("laringe", 400, p, rs, eyebrow="O diferencial que mais engana", titulo="Obstrução laríngea induzida pelo exercício",
+                 destaque="Tratamento de fonoaudiologia e padrão respiratório. Não melhora com a bombinha: pense nela antes de subir a dose.", destaque_cor="tinta")
+
+
+def camadas_67():
+    """6.7: o tratamento como camadas empilhadas, com o aquecimento na base."""
+    p = [svg_abre(1664, 400, "Quatro camadas empilhadas. Na base, o aquecimento: de graça, e é prescrição de treino. Acima, o beta-2 de curta ação quinze minutos antes, de uso intermitente; uso diário gera tolerância e é sinal. Acima, o corticoide inalatório de manutenção: broncoespasmo frequente na asma é asma mal controlada. No topo, alternativas e comorbidades: antileucotrieno, anti-histamínico na alergia, tratar a rinite")]
+    rs = []
+    camadas = [("Alternativas e comorbidades", "antileucotrieno, anti-histamínico na alergia, tratar a rinite", GLIC, GLIC_T, 1100),
+               ("Corticoide inalatório de manutenção", "broncoespasmo frequente na asma é asma mal controlada", FOSF, FOSF_T, 1300),
+               ("Beta-2 de curta ação, 15 minutos antes", "uso intermitente; diário gera tolerância e é sinal", OXID, OXID_T, 1480),
+               ("Aquecimento", "de graça, e é prescrição de treino", OXID, OXID, 1664)]
+    for k, (t, d, cor, fundo, w) in enumerate(camadas):
+        y = k * 100
+        x = (1664 - w) / 2
+        p.append(caixa(x, y, w, 88, cor, fundo, esp=2, rx=12))
+        cort = PAPEL if fundo == OXID else cor
+        rs += [rot(x + 24, y + 12, t, w=w * 0.45, tam=24, cor=cort, peso=700, lh=1.15),
+               rot(x + w * 0.47, y + 14, d, w=w * 0.5, tam=21, cor=PAPEL if fundo == OXID else TINTA, lh=1.25)]
+    return slide("camadas", 400, p, rs, eyebrow="O tratamento, pela diretriz de 2013", titulo="Em camadas")
+
+
+def aquecimento_67():
+    """6.7: o aquecimento e as duas horas de proteção que ele deixa."""
+    p = [svg_abre(1664, 360, "Uma linha do tempo. Primeiro, dez a quinze minutos de aquecimento moderado a vigoroso, intervalado ou combinado. Depois, um período refratário de cerca de duas horas em que o broncoespasmo vem atenuado, sombreado sobre a linha. Embaixo, três ajustes de ambiente: frio, bandana ou máscara; poluição e pólen, mudar o horário; piscina coberta, ventilação e qualidade da água")]
+    rs = []
+    p.append(f'<line x1="0" y1="120" x2="1664" y2="120" stroke="{MUDO}" stroke-width="3"/>')
+    p.append(f'<rect x="0" y="70" width="300" height="100" rx="10" fill="{OXID}"/>')
+    rs += [rot(10, 82, "10 a 15 min", w=280, tam=30, cor=PAPEL, peso=700, alinha="center", serif=True),
+           rot(10, 126, "aquecimento intervalado", w=280, tam=20, cor=PAPEL, alinha="center")]
+    p.append(f'<rect x="300" y="80" width="1100" height="80" fill="{OXID_T}" stroke="{OXID}" stroke-width="2"{TRACO}/>')
+    rs += [rot(320, 100, "≈ 2 h de broncoespasmo atenuado: o período refratário", w=1060, tam=24, cor=OXID, peso=700),
+           rot(0, 18, "moderado a vigoroso, intervalado ou combinado: a recomendação para todos", w=1300, tam=21, cor=TINTA)]
+    for k, (ic, t, d) in enumerate([("t:temperature", "Frio", "bandana ou máscara"), ("t:clock", "Poluição e pólen", "mudar o horário"), ("t:swimming", "Piscina coberta", "ventilação e qualidade da água fazem parte do problema")]):
+        x = k * 568
+        p.append(caixa(x, 210, 528, 150, GLIC, CARTAO, esp=2, rx=14))
+        p.append(icone(ic, x + 20, 232, 44, GLIC))
+        rs += [rot(x + 80, 236, t, w=430, tam=24, cor=GLIC, peso=700), rot(x + 20, 290, d, w=490, tam=21, cor=TINTA, lh=1.25)]
+    return slide("aquecimento", 360, p, rs, eyebrow="A camada de graça", titulo="O período refratário",
+                 fonte="Diretriz da Sociedade Torácica Americana, 2013")
+
+
+def doses_67():
+    """6.7: quatro cartões de limite, um por inalado permitido."""
+    p = [svg_abre(1664, 360, "Quatro cartões com os limites dos inalados permitidos. Salbutamol: 1.600 microgramas em 24 horas, até 600 em 8 horas. Formoterol: 54 microgramas em 24 horas, até 36 em 12 horas. Salmeterol: 200 microgramas em 24 horas, até 100 em 8 horas, novo em 2026. Vilanterol: 25 microgramas em 24 horas")]
+    rs = []
+    itens = [("Salbutamol", "1.600 µg", "até 600 µg em 8 h", ""), ("Formoterol", "54 µg", "até 36 µg em 12 h", ""),
+             ("Salmeterol", "200 µg", "até 100 µg em 8 h", "novo em 2026"), ("Vilanterol", "25 µg", "", "")]
+    for k, (t, d24, inter, nota) in enumerate(itens):
+        x = k * 421
+        p.append(caixa(x, 0, 400, 360, FOSF, CARTAO, esp=2, rx=16))
+        p.append(f'<rect x="{x}" y="0" width="400" height="76" rx="16" fill="{FOSF_T}"/>')
+        rs += [rot(x + 24, 20, t, w=360, tam=28, cor=FOSF, peso=700, serif=True),
+               rot(x + 24, 100, "em 24 horas", w=360, tam=19, cor=MUDO, peso=700),
+               rot(x + 24, 128, d24, w=360, tam=56, cor=TINTA, peso=700, serif=True)]
+        if inter:
+            p.append(icone("t:clock", x + 24, 236, 36, FOSF))
+            rs.append(rot(x + 70, 240, inter, w=310, tam=22, cor=TINTA))
+        if nota:
+            rs.append(rot(x + 24, 300, nota, w=360, tam=20, cor=FOSF, peso=700))
+    return slide("doses", 360, p, rs, eyebrow="Onde o atleta perde carreira por desatenção", titulo="Os limites dos inalados permitidos",
+                 destaque="Oral, injetável ou acima do limite: só com autorização de uso terapêutico. Confira a lista vigente a cada temporada.",
+                 destaque_cor="verm", fonte="Lista de substâncias proibidas da WADA, 2026, seção S3")
+
+
+def urina_67():
+    """6.7: as duas camadas do antidoping, a dose e a urina, e o que a autorização exige."""
+    p = [svg_abre(1664, 360, "Duas camadas em sequência. A primeira, a dose inalada dentro do limite. A segunda, a concentração na urina: acima de 1.000 nanogramas por mililitro de salbutamol, ou 40 de formoterol, o achado é incompatível com uso terapêutico. À direita, o que a autorização de uso terapêutico exige: o teste documentado com queda de dez por cento"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 40, 400, 280, OXID, OXID_T, esp=2, rx=16))
+    rs += [rot(24, 60, "Camada 1", w=350, tam=20, cor=MUDO, peso=700), rot(24, 92, "A dose inalada", w=350, tam=28, cor=OXID, peso=700, serif=True),
+           rot(24, 150, "dentro do limite de 24 horas e do intervalo", w=350, tam=22, cor=TINTA, lh=1.3)]
+    p.append(seta(410, 180, 466, 180, MUDO, "m0", esp=4))
+    p.append(caixa(480, 0, 680, 360, FOSF, FOSF_T, esp=2, rx=16))
+    rs += [rot(504, 20, "Camada 2", w=350, tam=20, cor=MUDO, peso=700), rot(504, 52, "A urina", w=600, tam=28, cor=FOSF, peso=700, serif=True),
+           rot(504, 100, "acima disso, incompatível com uso terapêutico", w=630, tam=21, cor=TINTA)]
+    for k, (t, n) in enumerate([("salbutamol", "1.000"), ("formoterol", "40")]):
+        y = 160 + k * 96
+        rs += [rot(504, y + 18, t, w=220, tam=24, cor=TINTA, peso=700), rot(730, y, n, w=230, tam=52, cor=FOSF, peso=700, serif=True, alinha="right"),
+               rot(970, y + 24, "ng/mL", w=160, tam=22, cor=MUDO)]
+    p.append(caixa(1200, 0, 464, 360, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:clipboard-check", 1224, 24, 52, TINTA))
+    rs += [rot(1290, 34, "A autorização exige", w=360, tam=24, cor=TINTA, peso=700, serif=True),
+           rot(1224, 110, "10%", w=420, tam=64, cor=TINTA, peso=700, serif=True),
+           rot(1224, 200, "o teste documentado, com a queda do VEF1", w=420, tam=22, cor=TINTA, lh=1.3)]
+    return slide("urina", 360, p, rs, eyebrow="A segunda camada do antidoping", titulo="Dose certa não garante urina limpa",
+                 destaque="Sem diagnóstico objetivo, não há autorização. Registre princípio ativo, dose e horário, e nunca use a bombinha de outra pessoa.",
+                 destaque_cor="tinta", fonte="WADA 2026")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, sintomas_61, historia_61, perfis_61, tres_saidas_61, registro_61],
@@ -1621,7 +1846,8 @@ LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, s
           "06-03": [laudos_63, perfis_63, remodelamento_63, cavidade_63, quem_63, discriminadores_63, destreino_63, ondat_63, aritmetica_63, condutas_63],
           "06-04": [frases_64, desfechos_64, frequencia_64, causa_64, quem_64, rastreio_64, consequencias_64, reconhecer_64, desfibrilador_64, correcoes_64],
           "06-05": [cena_65, mapa_65, folha_65, dea_65, comprimir_65, erros_65, chocar_65, depois_65, calor_65, outras_65, ensaio_65],
-          "06-06": [frase_66, decisoes_66, equivocos_66, sinais_66, retira_66, alarme_66, cultura_66, repouso_66, escola_66, escada_66, demora_66, prevencao_66]}
+          "06-06": [frase_66, decisoes_66, equivocos_66, sinais_66, retira_66, alarme_66, cultura_66, repouso_66, escola_66, escada_66, demora_66, prevencao_66],
+          "06-07": [perfis_67, numeros_67, mecanismo_67, prevalencia_67, diferenciais_67, laringe_67, camadas_67, aquecimento_67, doses_67, urina_67]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
