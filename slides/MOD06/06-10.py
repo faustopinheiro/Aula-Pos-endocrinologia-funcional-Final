@@ -123,6 +123,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "As cinco correções", "ti
                     {"t": "A organização", "x": "Registra, guarda e compara com o basal."}],
           "quem": "Pedir exame é uma intervenção: indicação, benefício e dano."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "06-10")
+
 spec = {"arquivo": "aulas/MOD06/06-10-rastreio-laboratorial-o-que-pedir-e-o-que-nao-pedir.md",
         "modulo": "Medicina Esportiva Clínica", "tema": "tinta",
         "titulo": "Rastreio laboratorial no esporte", "subtitulo": "Cinco erros de pedido e interpretação",

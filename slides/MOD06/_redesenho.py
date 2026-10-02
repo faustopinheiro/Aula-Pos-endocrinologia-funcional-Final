@@ -2336,6 +2336,217 @@ def veia_69():
                  destaque="Infusão “de vitaminas e ferro” para dar energia é má medicina e risco antidoping.", destaque_cor="tinta",
                  fonte="WADA 2026, M2.2 · metanálise em atletas de endurance, BJSM 2015")
 
+# ---------------------------------------------------------------- 6.10
+
+def perfil_610():
+    """6.10: a cascata de cuidado como uma escada que desce a partir do achado."""
+    p = [svg_abre(1664, 400, "Uma cascata descendo em degraus a partir de um check-up completo pedido só para garantir: achado incidental, um nódulo pequeno; repetição do exame; punção; resultado indeterminado; meses de ansiedade; às vezes, cirurgia de uma lesão benigna"), defs(FOSF)]
+    rs = []
+    passos = ["check-up “só para garantir”", "nódulo pequeno", "repetição", "punção", "resultado indeterminado", "meses de ansiedade", "cirurgia de lesão benigna"]
+    for k, t in enumerate(passos):
+        x, y = k * 227, k * 54
+        cor = MUDO if k == 0 else FOSF
+        p.append(caixa(x, y, 300, 50, cor, FOSF_T if k else PAPEL, esp=2, rx=10))
+        rs.append(rot(x + 8, y + 12, t, w=284, tam=20, cor=TINTA, peso=600, alinha="center"))
+        if k < 6:
+            p.append(f'<path d="M {x + 250} {y + 50} C {x + 250} {y + 66}, {x + 262} {y + 70}, {x + 272} {y + 76}" fill="none" stroke="{FOSF}" stroke-width="3" marker-end="url(#m0)"/>')
+    p.append(caixa(0, 250, 700, 150, TINTA, TINTA, esp=0, rx=16))
+    rs += [rot(24, 270, "Pedir exame não é de graça.", w=650, tam=32, cor=PAPEL, peso=700, serif=True),
+           rot(24, 330, "uma cascata de cuidado a partir de um achado incidental", w=650, tam=22, cor=PAPEL)]
+    return slide("perfil", 400, p, rs, eyebrow="O check-up completo, só para garantir", titulo="Uma cascata a partir de um achado")
+
+
+def assimetria_610():
+    """6.10: o remédio cercado de perguntas e o painel de quarenta exames sem nenhuma."""
+    p = [svg_abre(1664, 360, "À esquerda, um remédio prescrito, cercado de três perguntas: a indicação, o efeito adverso, a interação. À direita, uma pilha de quarenta exames sem nenhuma pergunta em volta: quem pede pouco parece descuidado, e nada empurra de volta")]
+    rs = []
+    p.append(caixa(0, 0, 800, 360, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 18, "Quando se prescreve um remédio", w=750, tam=26, cor=OXID, peso=700, serif=True))
+    p.append(icone("t:pill", 330, 110, 140, OXID))
+    for k, (t, x, y) in enumerate([("a indicação?", 40, 100), ("o efeito adverso?", 520, 100), ("a interação?", 280, 280)]):
+        p.append(caixa(x, y, 240, 56, OXID, CARTAO, esp=2, rx=28))
+        rs.append(rot(x + 10, y + 15, t, w=220, tam=21, cor=TINTA, peso=700, alinha="center"))
+    p.append(caixa(864, 0, 800, 360, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(888, 18, "Quando se pedem quarenta exames", w=750, tam=26, cor=FOSF, peso=700, serif=True))
+    for k in range(40):
+        col, lin = k % 10, k // 10
+        p.append(f'<rect x="{900 + col * 46}" y="{90 + lin * 46}" width="36" height="36" rx="5" fill="{CARTAO}" stroke="{FOSF}" stroke-width="2"/>')
+    rs += [rot(1370, 100, "ninguém pergunta nada", w=270, tam=22, cor=FOSF, peso=700, lh=1.25),
+           rot(1370, 170, "quem pede pouco parece descuidado; nada empurra de volta", w=270, tam=20, cor=TINTA, lh=1.3),
+           rot(900, 296, "40 itens", w=460, tam=20, cor=MUDO)]
+    return slide("assimetria", 360, p, rs, eyebrow="Por que o excesso é a regra", titulo="Exame é intervenção, como remédio",
+                 destaque="Não é uma aula contra exames. É sobre indicação, benefício e dano, e o único freio é o critério de quem assina.", destaque_cor="tinta")
+
+
+def ck_610():
+    """6.10: as faixas de CK de atletas homens e mulheres numa régua, e os seis fatores."""
+    p = [svg_abre(1664, 360, "Uma régua de creatinoquinase de zero a 1.200 unidades por litro, com as faixas de referência medidas em atletas: homens, de 82 a 1.083, em 483 atletas; mulheres, de 47 a 513, em 245 atletas. Embaixo, os seis fatores que movem a CK: modalidade, tempo desde o treino, estado de treino, massa muscular, sexo e ancestralidade")]
+    rs = []
+    X0, X1 = 220, 1620
+    fx = lambda v: X0 + v / 1200 * (X1 - X0)
+    for k, (t, a, b, n, cor) in enumerate([("homens", 82, 1083, "483 atletas", OXID), ("mulheres", 47, 513, "245 atletas", GLIC)]):
+        y = 20 + k * 90
+        rs += [rot(0, y, t, w=200, tam=24, cor=cor, peso=700, alinha="right"), rot(0, y + 30, n, w=200, tam=18, cor=MUDO, alinha="right")]
+        p.append(f'<line x1="{fx(a):.0f}" y1="{y + 22}" x2="{fx(b):.0f}" y2="{y + 22}" stroke="{cor}" stroke-width="22" stroke-linecap="round"/>')
+        rs += [rot(fx(a) - 60, y + 40, f"{a}", w=120, tam=20, cor=cor, peso=700, alinha="center"),
+               rot(fx(b) - 80, y + 40, f"{b:,}".replace(",", "."), w=160, tam=20, cor=cor, peso=700, alinha="center")]
+    p.append(f'<line x1="{X0}" y1="200" x2="{X1}" y2="200" stroke="{MUDO}" stroke-width="3"/>')
+    for v in range(0, 1201, 200):
+        p.append(f'<line x1="{fx(v):.0f}" y1="200" x2="{fx(v):.0f}" y2="210" stroke="{MUDO}" stroke-width="2"/>')
+        rs.append(rot(fx(v) - 50, 214, f"{v:,}".replace(",", "."), w=100, tam=17, cor=MUDO, alinha="center"))
+    rs.append(rot(X0, 236, "CK, U/L", w=200, tam=17, cor=MUDO))
+    for k, t in enumerate(["modalidade", "tempo desde o treino", "estado de treino", "massa", "sexo", "ancestralidade"]):
+        x = k * 278
+        p.append(caixa(x, 290, 262, 64, TINTA, CARTAO, esp=2, rx=32))
+        rs.append(rot(x + 8, 308, t, w=246, tam=20, cor=TINTA, peso=600, alinha="center"))
+    return slide("ck", 360, p, rs, eyebrow="Erro dois: a faixa do laudo vale para o atleta", titulo="A creatinoquinase de quem treina",
+                 destaque="CK alta sem quadro clínico se explica pelo contexto antes de abrir investigação de miopatia.", destaque_cor="tinta",
+                 fonte="Intervalos de referência em atletas, Br J Sports Med 2007")
+
+
+def regua_610():
+    """6.10: a faixa da população larga e o basal da pessoa estreito, e três exames em que isso pesa."""
+    p = [svg_abre(1664, 380, "Em cima, em esquema, uma faixa larga da população e, dentro dela, um intervalo estreito: o basal da própria pessoa, medido em momentos comparáveis. Embaixo, três exames em que isso pesa: hemoglobina, diluída no endurance, a pseudoanemia; creatinina, que sobe com massa muscular; frequência cardíaca e eletrocardiograma, o coração de atleta")]
+    rs = []
+    p.append(f'<rect x="100" y="40" width="1464" height="50" rx="25" fill="{BORDA}"/>')
+    p.append(f'<rect x="860" y="30" width="200" height="70" rx="12" fill="{OXID}"/>')
+    for x in (900, 940, 990, 1020):
+        p.append(f'<circle cx="{x}" cy="65" r="8" fill="{PAPEL}"/>')
+    rs += [rot(100, 0, "faixa da população", w=500, tam=20, cor=MUDO, peso=700), rot(760, 110, "o basal dele, colhido sempre igual", w=400, tam=21, cor=OXID, peso=700, alinha="center"),
+           rot(1364, 0, "esquema", w=200, tam=18, cor=MUDO, alinha="right")]
+    itens = [("t:droplet", "Hemoglobina", "diluída no endurance: a pseudoanemia", OXID), ("t:barbell", "Creatinina", "sobe com massa muscular", GLIC), ("t:heartbeat", "FC e eletrocardiograma", "o coração de atleta", TINTA)]
+    for k, (ic, t, d, cor) in enumerate(itens):
+        x = k * 568
+        p.append(caixa(x, 170, 528, 210, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 24, 192, 52, cor))
+        rs += [rot(x + 96, 200, t, w=410, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, 280, d, w=480, tam=23, cor=TINTA, lh=1.3)]
+    return slide("regua", 380, p, rs, eyebrow="A mesma lógica em outros exames", titulo="A melhor régua é o basal dele",
+                 destaque="Não é “qual o valor normal?”. É “qual o valor normal desta pessoa, treinando isso, colhido quando?”", destaque_cor="petr")
+
+
+def pergunta_610():
+    """6.10: o mesmo exame com pergunta e sem pergunta, e o que cada resultado faz."""
+    p = [svg_abre(1664, 380, "Dois fluxos com o mesmo exame, a ferritina. À esquerda, com pergunta: fadiga progressiva, fluxo menstrual intenso, desempenho caindo; qualquer resultado informa, seja baixo ou normal, e leva a uma conduta. À direita, sem pergunta: homem jovem sem sintoma, item 17 de um painel; um valor baixo vira tratamento sem indicação; é loteria"), defs(OXID, FOSF)]
+    rs = []
+    for x, t, ctx, cor, fundo, mk in [(0, "Ferritina com pergunta", "fadiga progressiva, fluxo intenso, desempenho caindo", OXID, OXID_T, "m0"),
+                                       (864, "Ferritina sem pergunta", "homem jovem sem sintoma; item 17 de um painel", FOSF, FOSF_T, "m1")]:
+        p.append(caixa(x, 0, 800, 110, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 24, 14, t, w=750, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, 60, ctx, w=750, tam=21, cor=TINTA)]
+        p.append(seta(x + 400, 116, x + 400, 160, cor, mk, esp=4))
+        p.append(caixa(x + 300, 170, 200, 60, cor, CARTAO, esp=2, rx=30))
+        rs.append(rot(x + 300, 186, "ferritina", w=200, tam=22, cor=TINTA, peso=700, alinha="center"))
+    for k, (t, d) in enumerate([("baixa", "investiga a causa e repõe"), ("normal", "a fadiga tem outra explicação")]):
+        x = 40 + k * 400
+        p.append(f'<path d="M 400 232 C 400 260, {x + 160} 250, {x + 160} 280" fill="none" stroke="{OXID}" stroke-width="3" marker-end="url(#m0)"/>')
+        p.append(caixa(x, 290, 340, 90, OXID, OXID_T, esp=2, rx=14))
+        rs += [rot(x + 16, 300, t, w=310, tam=22, cor=OXID, peso=700), rot(x + 16, 334, d, w=310, tam=19, cor=TINTA)]
+    p.append(f'<path d="M 1264 232 C 1264 260, 1264 260, 1264 280" fill="none" stroke="{FOSF}" stroke-width="3" marker-end="url(#m1)"/>')
+    p.append(caixa(1004, 290, 520, 90, FOSF, FOSF, esp=0, rx=14))
+    rs += [rot(1020, 300, "valor baixo: tratamento sem indicação", w=490, tam=21, cor=PAPEL, peso=700), rot(1020, 336, "é loteria", w=490, tam=21, cor=PAPEL)]
+    return slide("pergunta", 380, p, rs, eyebrow="Erro três: pedir e ver o que aparece", titulo="Exame responde pergunta, não faz",
+                 destaque="O que eu vou fazer de diferente com cada resultado possível? Se a resposta for nada, o exame não precisa ser pedido.", destaque_cor="tinta")
+
+
+def cascata_610():
+    """6.10: a barra de 99,4% dos internistas e os quatro custos."""
+    p = [svg_abre(1664, 360, "Uma barra de cem por cento quase toda preenchida: dos 376 internistas americanos que responderam a uma pesquisa nacional, 99,4 por cento já viveram uma cascata depois de um achado incidental. Embaixo, os quatro custos: a cascata, o rótulo, o afastamento e o dano do procedimento")]
+    rs = []
+    rs.append(rot(0, 0, "376 internistas, pesquisa nacional americana", w=1000, tam=22, cor=MUDO, peso=700))
+    p.append(f'<rect x="0" y="50" width="1664" height="90" rx="10" fill="{CINZA}"/>')
+    p.append(f'<rect x="0" y="50" width="{1664 * 0.994:.0f}" height="90" rx="10" fill="{FOSF}"/>')
+    rs += [rot(24, 62, "99,4%", w=300, tam=52, cor=PAPEL, peso=700, serif=True),
+           rot(330, 80, "já viveram uma cascata depois de achado incidental", w=1000, tam=26, cor=PAPEL, peso=600)]
+    for k, (ic, t) in enumerate([("t:refresh", "cascata"), ("t:id", "rótulo"), ("t:door-exit", "afastamento"), ("t:first-aid-kit", "dano do procedimento")]):
+        x = k * 421
+        p.append(caixa(x, 190, 400, 160, GLIC, GLIC_T, esp=2, rx=16))
+        p.append(icone(ic, x + 172, 208, 56, GLIC))
+        rs.append(rot(x + 10, 284, t, w=380, tam=24, cor=TINTA, peso=700, alinha="center"))
+    return slide("cascata", 360, p, rs, eyebrow="Erro quatro: achar alguma coisa é sempre ganho", titulo="A cascata é quase universal",
+                 destaque="No esporte, achado sem clínica tira atleta de treino e de competição enquanto se investiga o que não incomodava.",
+                 destaque_cor="verm", fonte="JAMA Netw Open 2019")
+
+
+def campeoes_610():
+    """6.10: quatro portas de entrada da cascata convergindo para ela."""
+    p = [svg_abre(1664, 380, "Quatro portas de entrada de achado incidental, convergindo para a cascata à direita. Nódulo de tireoide, em ultrassom sem indicação, quase sempre benigno. Coluna de quem não tem dor, em que degeneração e hérnia viram explicação para qualquer dor futura. Abdome e rins, em ultrassom de rotina. O valor isolado do painel, que custa três consultas e volta ao normal na repetição"), defs(FOSF)]
+    rs = []
+    itens = [("h:medical-search", "Nódulo de tireoide", "ultrassom sem indicação; quase sempre benigno"), ("h:pain-managment", "Coluna de quem não tem dor", "degeneração e hérnia viram explicação para qualquer dor futura"),
+             ("h:hospital", "Abdome e rins", "ultrassom de rotina"), ("h:medical-records", "O valor isolado do painel", "três consultas, e volta ao normal na repetição")]
+    for k, (ic, t, d) in enumerate(itens):
+        col, lin = k % 2, k // 2
+        x, y = col * 560, lin * 196
+        p.append(caixa(x, y, 540, 180, GLIC, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 22, y + 22, 52, GLIC))
+        rs += [rot(x + 90, y + 30, t, w=430, tam=25, cor=GLIC, peso=700, serif=True), rot(x + 24, y + 96, d, w=496, tam=21, cor=TINTA, lh=1.3)]
+        if col == 1:
+            p.append(f'<path d="M {x + 540} {y + 90} C 1200 {y + 90}, 1180 190, 1260 190" fill="none" stroke="{FOSF}" stroke-width="3" marker-end="url(#m0)"/>')
+    p.append(caixa(1280, 90, 384, 200, FOSF, FOSF, esp=0, rx=18))
+    p.append(icone("t:refresh", 1436, 110, 72, PAPEL))
+    rs.append(rot(1290, 200, "a cascata começa aqui", w=364, tam=26, cor=PAPEL, peso=700, alinha="center", serif=True))
+    return slide("campeoes", 380, p, rs, eyebrow="Onde a cascata costuma começar", titulo="Os campeões de achado incidental",
+                 destaque="Antes de pedir, imagine a conversa em que você explica um achado que não muda nada, e o que acontece com o atleta depois.", destaque_cor="tinta")
+
+
+def paineis_610():
+    """6.10: cinco pedidos vendidos como rastreio, riscados, com o motivo ao lado."""
+    p = [svg_abre(1664, 420, "Cinco pedidos vendidos como rastreio, riscados, cada um com o motivo. IgG ou IgG4 alimentar: não recomendado; indica exposição e gera exclusões sem motivo. Estresse oxidativo e mineralograma: caro, não muda conduta, soma falso-positivo. Hormônio em saliva por assinatura mensal: sem indicação, sem pergunta. Testosterona sem sintoma: colhida à tarde, sem repetir, abre prescrição. Tireoide na restrição energética: adaptação esperada, não doença")]
+    rs = []
+    linhas = [("IgG ou IgG4 alimentar", "não recomendado; indica exposição, gera exclusões sem motivo"), ("Estresse oxidativo, mineralograma", "caro, não muda conduta, soma falso-positivo"),
+              ("Hormônio em saliva, assinatura mensal", "sem indicação, sem pergunta"), ("Testosterona sem sintoma", "colhida à tarde, sem repetir, abre prescrição"),
+              ("Tireoide na restrição energética", "adaptação esperada, não doença")]
+    for k, (a, b) in enumerate(linhas):
+        y = k * 84
+        p.append(caixa(0, y, 620, 70, FOSF, FOSF_T, esp=2, rx=35))
+        rs.append(rot(20, y + 20, a, w=580, tam=22, cor=FOSF, peso=700, alinha="center"))
+        wl = len(a) * 11
+        p.append(f'<line x1="{310 - wl / 2:.0f}" y1="{y + 35}" x2="{310 + wl / 2:.0f}" y2="{y + 35}" stroke="{FOSF}" stroke-width="3"/>')
+        rs.append(rot(660, y + 20, b, w=1000, tam=23, cor=TINTA))
+        p.append(f'<line x1="660" y1="{y + 76}" x2="1664" y2="{y + 76}" stroke="{BORDA}" stroke-width="1"/>')
+    return slide("paineis", 420, p, rs, eyebrow="Erro cinco: o painel funcional detecta antes", titulo="O que é vendido como rastreio e não é",
+                 fonte="Academia europeia de alergia, Allergy 2008, com apoio da americana, 2010")
+
+
+def contraponto_610():
+    """6.10: três pedidos com pergunta contra uma grade de itens sem pergunta."""
+    p = [svg_abre(1664, 360, "À esquerda, rastreio com pergunta: pressão, lipídios e glicemia por idade e risco; rastreios oncológicos por faixa etária; exame dirigido por sintoma ou grupo de risco. Cada um com um ponto de interrogação resolvido. À direita, o check-up completo: uma grade cheia de itens, nenhuma pergunta, e achado garantido")]
+    rs = []
+    p.append(caixa(0, 0, 800, 360, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 18, "Com pergunta", w=750, tam=27, cor=OXID, peso=700, serif=True))
+    for k, t in enumerate(["pressão, lipídios, glicemia por idade e risco", "rastreios oncológicos por faixa etária", "exame dirigido por sintoma ou grupo de risco"]):
+        y = 90 + k * 86
+        p.append(icone("t:zoom-question", 24, y, 44, OXID))
+        rs.append(rot(84, y + 8, t, w=690, tam=23, cor=TINTA))
+    p.append(caixa(864, 0, 800, 360, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(888, 18, "Check-up completo", w=750, tam=27, cor=FOSF, peso=700, serif=True))
+    for k in range(36):
+        col, lin = k % 9, k // 9
+        p.append(f'<rect x="{892 + col * 50}" y="{86 + lin * 50}" width="40" height="40" rx="5" fill="{CARTAO}" stroke="{FOSF}" stroke-width="2"/>')
+    rs += [rot(1360, 90, "muitos itens", w=280, tam=22, cor=TINTA), rot(1360, 150, "nenhuma pergunta", w=280, tam=22, cor=TINTA),
+           rot(1360, 210, "achado garantido", w=280, tam=24, cor=FOSF, peso=700)]
+    return slide("contraponto", 360, p, rs, eyebrow="Para não cair no extremo oposto", titulo="Rastreio com indicação existe",
+                 destaque="A diferença não é o número de itens. É a existência de uma pergunta antes do pedido.", destaque_cor="tinta")
+
+
+def fazer_610():
+    """6.10: cinco cenários, cada um com o seu pedido; o sintoma no esforço sai para outra trilha."""
+    p = [svg_abre(1664, 420, "Cinco cenários, cada um com o seu pedido. Fadiga e queda de desempenho: hemograma, ferritina, saturação, PCR, tireoide e glicemia, e antes disso sono, carga e energia. Irregularidade menstrual: avaliação dirigida, com a pergunta sobre energia antes. Adulto começando a treinar: pressão, lipídios, glicemia e risco cardiovascular. Adolescente: o mínimo, crescimento, alimentação e ferro. Sintoma no esforço sai do rastreio laboratorial e vai para a triagem cardiológica"), defs(MUDO, FOSF)]
+    rs = []
+    linhas = [("Fadiga e queda de desempenho", "hemograma, ferritina, saturação, PCR, tireoide, glicemia; antes, sono, carga, energia", OXID),
+              ("Irregularidade menstrual", "avaliação dirigida; a pergunta sobre energia vem antes", OXID),
+              ("Adulto começando a treinar", "pressão, lipídios, glicemia, risco cardiovascular", OXID),
+              ("Adolescente", "o mínimo: crescimento, alimentação, ferro", OXID),
+              ("Sintoma no esforço", "não é rastreio laboratorial: triagem cardiológica", FOSF)]
+    for k, (a, b, cor) in enumerate(linhas):
+        y = k * 84
+        p.append(caixa(0, y, 460, 70, cor, CARTAO, esp=2, rx=14))
+        rs.append(rot(20, y + 20, a, w=420, tam=22, cor=TINTA, peso=700))
+        p.append(seta(470, y + 35, 530, y + 35, cor if cor == FOSF else MUDO, "m1" if cor == FOSF else "m0", esp=3))
+        p.append(caixa(550, y, 1114, 70, cor, OXID_T if cor == OXID else FOSF_T, esp=2, rx=14))
+        rs.append(rot(570, y + (8 if len(b) > 80 else 20), b, w=1074, tam=21, cor=TINTA, lh=1.25))
+    return slide("fazer", 420, p, rs, eyebrow="O que fazer", titulo="Pergunta, momento, basal, decisão prévia",
+                 destaque="Escreva a pergunta numa frase, padronize a coleta, construa um basal enxuto, e decida o que fazer com cada resultado antes de vê-lo.",
+                 destaque_cor="petr")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, sintomas_61, historia_61, perfis_61, tres_saidas_61, registro_61],
@@ -2346,7 +2557,8 @@ LICOES = {"06-01": [caso_61, paradoxo_61, modelo_61, saidas_61, fechamento_61, s
           "06-06": [frase_66, decisoes_66, equivocos_66, sinais_66, retira_66, alarme_66, cultura_66, repouso_66, escola_66, escada_66, demora_66, prevencao_66],
           "06-07": [perfis_67, numeros_67, mecanismo_67, prevalencia_67, diferenciais_67, laringe_67, camadas_67, aquecimento_67, doses_67, urina_67],
           "06-08": [mensagens_68, leituras_68, pescoco_68, excecoes_68, febre_68, degraus_68, sinais_68, medica_68, rastreio_68, prevencao_68],
-          "06-09": [perfil_69, mapa_69, fadiga_69, perguntas_69, pedido_69, estagios_69, armadilhas_69, causa_69, repor_69, veia_69]}
+          "06-09": [perfil_69, mapa_69, fadiga_69, perguntas_69, pedido_69, estagios_69, armadilhas_69, causa_69, repor_69, veia_69],
+          "06-10": [perfil_610, assimetria_610, ck_610, regua_610, pergunta_610, cascata_610, campeoes_610, paineis_610, contraponto_610, fazer_610]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
