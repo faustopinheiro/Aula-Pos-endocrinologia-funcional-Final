@@ -2093,6 +2093,249 @@ def prevencao_79():
     return slide("prevencao", 360, p, rs, eyebrow="A parte que evitaria boa parte disso", titulo="Aquecimento estruturado reduz lesão do cruzado, quando é feito de verdade.",
                  destaque="Os números de efeito e o problema da adesão fecham o módulo.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 7.10
+
+def abertura_710():
+    """7.10: duas filas, tornozelo e ombro, cada uma com a alta cedo demais e a volta do problema."""
+    p = [svg_abre(1664, 360, "Duas filas com o mesmo erro. Tornozelo: torceu; anda sem dor; alta; torce de novo. Ombro: dói devagar; o repouso aliviou; alta; o volume volta e a dor volta. Nas duas, a alta está marcada cedo demais"), defs(MUDO)]
+    rs = []
+    filas = [("t:ball-football", "Tornozelo", ["torceu", "anda sem dor", "alta", "torce de novo"]), ("t:swimming", "Ombro", ["dói devagar", "o repouso aliviou", "alta", "volume volta, dor volta"])]
+    for k, (ic, t, passos) in enumerate(filas):
+        y = k * 180
+        p.append(icone(ic, 0, y + 40, 56, TINTA))
+        rs.append(rot(0, y + 104, t, w=160, tam=22, cor=TINTA, peso=700))
+        for j, ps in enumerate(passos):
+            x = 180 + j * 372
+            alta = ps == "alta"
+            fim = j == 3
+            cor = GLIC if alta else FOSF if fim else OXID
+            p.append(caixa(x, y + 20, 330, 110, cor, cor if fim else (GLIC_T if alta else CARTAO), esp=3 if alta else 2, rx=16))
+            rs.append(rot(x, y + 58, ps, w=330, tam=24, cor=PAPEL if fim else TINTA, peso=700, alinha="center"))
+            if alta:
+                rs.append(rot(x, y + 136, "cedo demais", w=330, tam=19, cor=GLIC, peso=700, alinha="center"))
+            if j < 3:
+                p.append(seta(x + 334, y + 75, x + 368, y + 75, MUDO, "m0", esp=3))
+    return slide("abertura", 360, p, rs, eyebrow="Duas regiões, um erro em comum", titulo="A conduta padrão termina cedo demais.")
+
+
+def ottawa_710():
+    """7.10: o tornozelo de lado e de dentro, com os pontos da regra de Ottawa, e os números da revisão."""
+    p = [svg_abre(1664, 400, "Dois desenhos do tornozelo, por fora e por dentro, com os pontos da regra de Ottawa marcados. Por fora: borda posterior do maléolo lateral e base do quinto metatarso. Por dentro: borda posterior do maléolo medial e navicular. Embaixo, quatro pegadas: não conseguir dar quatro passos também pede imagem. À direita, a revisão: 27 estudos, 15.581 pacientes, sensibilidade combinada de 97,6% para fratura")]
+    rs = []
+    def pe(x, t, pts):
+        p.append(caixa(x, 0, 430, 300, TINTA, CARTAO, esp=2, rx=16))
+        rs.append(rot(x + 20, 14, t, w=390, tam=20, cor=TINTA, peso=700))
+        p.append(f'<path d="M {x + 130} 50 L {x + 130} 190 C {x + 120} 230, {x + 70} 240, {x + 70} 262 L {x + 390} 262 C {x + 400} 240, {x + 340} 228, {x + 280} 214 C {x + 220} 200, {x + 200} 180, {x + 190} 160 L {x + 190} 50" fill="{PAPEL}" stroke="{MUDO}" stroke-width="3"/>')
+        p.append(f'<circle cx="{x + 160}" cy="188" r="22" fill="{CINZA}"/>')
+        for px, py, lab in pts:
+            p.append(f'<circle cx="{x + px}" cy="{py}" r="14" fill="{FOSF}" stroke="{PAPEL}" stroke-width="3"/>')
+    pe(0, "por fora", [(136, 176, ""), (300, 248, "")])
+    pe(450, "por dentro", [(136, 176, ""), (250, 214, "")])
+    rs += [rot(200, 120, "maléolo", w=200, tam=17, cor=FOSF, peso=700), rot(236, 270, "base do 5º metatarso", w=180, tam=16, cor=FOSF, peso=700, alinha="right"),
+           rot(650, 120, "maléolo", w=200, tam=17, cor=FOSF, peso=700), rot(700, 270, "navicular", w=160, tam=16, cor=FOSF, peso=700, alinha="right")]
+    for i in range(4):
+        x = 40 + i * 90 + (i % 2) * 10
+        p.append(f'<ellipse cx="{x + 20}" cy="{340 + (i % 2) * 22}" rx="14" ry="22" fill="{TINTA}" opacity="0.7"/>')
+    rs.append(rot(420, 336, "não dá quatro passos: também pede imagem", w=460, tam=20, cor=TINTA, peso=700))
+    nums = [("27", "estudos", TINTA), ("15.581", "pacientes", TINTA), ("97,6%", "sensibilidade combinada para fratura", OXID)]
+    for k, (n, t, cor) in enumerate(nums):
+        y = k * 134
+        p.append(caixa(940, y, 724, 120, cor, OXID_T if cor == OXID else CARTAO, esp=2, rx=16))
+        rs += [rot(964, y + 26, n, w=260, tam=48, cor=cor, peso=700, serif=True), rot(1230, y + 38, t, w=410, tam=22, cor=TINTA, lh=1.25)]
+    return slide("ottawa", 400, p, rs, eyebrow="Tornozelo · passo um · precisa de radiografia?", titulo="A regra de Ottawa",
+                 destaque="Pede imagem: dor óssea na borda posterior dos maléolos, na base do quinto metatarso ou no navicular, ou não conseguir dar quatro passos.",
+                 destaque_cor="tinta", fonte="Revisão sistemática, BMJ 2003")
+
+
+def alerta_710():
+    """7.10: cinco sinais de alarme em fila."""
+    p = [svg_abre(1664, 300, "Cinco sinais que pedem avaliação urgente, qualquer que seja a regra: deformidade visível; não apoia o pé no chão; dor desproporcional; formigamento ou perda de sensibilidade; pé pálido ou frio")]
+    rs = []
+    itens = [("t:alert-triangle", "Deformidade", "visível"), ("t:walk", "Não apoia", "o pé no chão"), ("t:bolt", "Dor", "desproporcional"),
+             ("t:wave-sine", "Formigamento", "ou perda de sensibilidade"), ("t:temperature", "Pé pálido", "ou frio")]
+    for k, (ic, t, d) in enumerate(itens):
+        x = k * 337
+        p.append(caixa(x, 0, 312, 300, FOSF, FOSF_T, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 156}" cy="80" r="50" fill="{FOSF}"/>')
+        p.append(icone(ic, x + 128, 52, 56, PAPEL))
+        rs += [rot(x + 14, 156, t, w=284, tam=26, cor=FOSF, peso=700, serif=True, alinha="center"), rot(x + 16, 204, d, w=284, tam=21, cor=TINTA, alinha="center", lh=1.25)]
+    return slide("alerta", 300, p, rs, eyebrow="Qualquer que seja a regra", titulo="Sinais que pedem avaliação urgente",
+                 destaque="Qualquer um desses tira a conversa da beira do campo.", destaque_cor="verm")
+
+
+def semana_710():
+    """7.10: a primeira semana numa linha de sete dias: proteção curta, movimento e apoio desde cedo."""
+    p = [svg_abre(1664, 400, "A primeira semana numa linha de sete dias. Proteção nas primeiras 48 horas. Mobilização precoce, mover e apoiar no que a dor permite, começando cedo e crescendo ao longo da semana. Anti-inflamatório nos primeiros dias, para dor e inchaço. Embaixo, riscados: imobilizar por semanas sem indicação médica; achar que o remédio substitui reabilitação")]
+    rs = []
+    X0, D = 280, 196
+    for d in range(8):
+        p.append(f'<line x1="{X0 + d * D}" y1="0" x2="{X0 + d * D}" y2="250" stroke="{BORDA}" stroke-width="2"/>')
+    for d in range(7):
+        rs.append(rot(X0 + d * D, 256, f"dia {d + 1}", w=D, tam=18, cor=MUDO, alinha="center"))
+    linhas = [("proteção", GLIC, GLIC_T), ("mover e apoiar", OXID, OXID_T), ("anti-inflamatório", AZUL, AZUL_T)]
+    for k, (t, cor, fundo) in enumerate(linhas):
+        rs.append(rot(0, 22 + k * 80, t, w=260, tam=22, cor=cor, peso=700, alinha="right"))
+    p.append(f'<rect x="{X0}" y="10" width="{2 * D}" height="60" rx="10" fill="{GLIC}"/>')
+    rs.append(rot(X0, 28, "primeiras 48 h", w=2 * D, tam=20, cor=PAPEL, peso=700, alinha="center"))
+    p.append(f'<path d="M {X0} 150 L {X0 + 7 * D} 90 L {X0 + 7 * D} 150 Z" fill="{OXID}"/>')
+    rs.append(rot(X0 + 3 * D, 120, "no que a dor permite, desde cedo", w=4 * D - 20, tam=19, cor=PAPEL, peso=700, alinha="right"))
+    p.append(f'<rect x="{X0}" y="170" width="{3 * D}" height="60" rx="10" fill="{AZUL}"/>')
+    rs.append(rot(X0, 188, "primeiros dias: dor e inchaço", w=3 * D, tam=19, cor=PAPEL, peso=700, alinha="center"))
+    for k, t in enumerate(["imobilizar por semanas sem indicação médica", "achar que o remédio substitui reabilitação"]):
+        x = k * 842
+        p.append(caixa(x, 300, 822, 90, FOSF, FOSF_T, esp=2, rx=14))
+        p.append(icone("t:x", x + 20, 325, 40, FOSF))
+        rs.append(rot(x + 76, 330, t, w=730, tam=22, cor=TINTA, peso=700))
+    return slide("semana", 400, p, rs, eyebrow="Tornozelo · passo dois · a primeira semana", titulo="Proteger pouco, mover cedo",
+                 fonte="Revisão de 46 revisões sistemáticas, Br J Sports Med 2017")
+
+
+def alta_710():
+    """7.10: duas marcas de pronto e uma barra vazia: a reabilitação que evita a próxima torção nem começou."""
+    p = [svg_abre(1664, 320, "Duas caixas marcadas: anda sem dor, e o inchaço sumiu. Ao lado, a palavra alta com um ponto de interrogação. Embaixo, uma barra vazia: a parte que evita a próxima torção nem começou")]
+    rs = []
+    for k, t in enumerate(["anda sem dor", "o inchaço sumiu"]):
+        x = k * 420
+        p.append(caixa(x, 0, 390, 110, OXID, OXID_T, esp=2, rx=16))
+        p.append(icone("t:check", x + 24, 31, 48, OXID))
+        rs.append(rot(x + 88, 38, t, w=290, tam=25, cor=TINTA, peso=700))
+    p.append(caixa(900, 0, 340, 110, GLIC, GLIC_T, esp=3, rx=55))
+    rs.append(rot(900, 24, "alta?", w=340, tam=44, cor=GLIC, peso=700, alinha="center", serif=True))
+    p.append(f'<line x1="930" y1="96" x2="1210" y2="14" stroke="{FOSF}" stroke-width="6"/>')
+    rs.append(rot(0, 160, "a parte que evita a próxima torção", w=1300, tam=24, cor=FOSF, peso=700))
+    p.append(f'<rect x="0" y="210" width="1664" height="70" rx="35" fill="{CARTAO}" stroke="{FOSF}" stroke-width="3"/>')
+    p.append(f'<rect x="6" y="216" width="40" height="58" rx="29" fill="{FOSF}"/>')
+    rs.append(rot(70, 230, "nem começou", w=1560, tam=24, cor=FOSF, peso=700))
+    return slide("alta", 320, p, rs, eyebrow="O erro clássico", titulo="Anda sem dor, o inchaço sumiu. Alta?")
+
+
+def instabilidade_710():
+    """7.10: duas fileiras de dez tornozelos: quatro marcados na estimativa baixa, sete na alta."""
+    p = [svg_abre(1664, 300, "Duas fileiras de dez pessoas depois da primeira entorse. Na estimativa mais baixa, cerca de quatro em cada dez desenvolvem instabilidade crônica. Na mais alta, até sete em cada dez, conforme o critério e a população")]
+    rs = []
+    for k, (n, t, d, cor) in enumerate([(4, "~40%", "nas estimativas mais baixas", GLIC), (7, "até 70%", "nas mais altas, conforme critério e população", FOSF)]):
+        y = k * 150
+        for i in range(10):
+            p.append(icone("h:person", 380 + i * 82, y + 10, 70, cor if i < n else CINZA))
+        rs += [rot(0, y + 10, t, w=340, tam=46, cor=cor, peso=700, serif=True), rot(0, y + 76, d, w=340, tam=20, cor=TINTA, lh=1.25)]
+    rs.append(rot(1220, 120, "cada figura: uma pessoa depois da primeira entorse", w=440, tam=19, cor=MUDO, lh=1.3))
+    return slide("instabilidade", 300, p, rs, eyebrow="Tornozelo · passo três · por que reabilitar", titulo="Instabilidade crônica depois da primeira entorse",
+                 destaque="Insegurança, torções repetidas e limitação por anos: uma lesão que parece banal e deixa sequela.", destaque_cor="verm",
+                 fonte="Consenso do International Ankle Consortium, Br J Sports Med 2016")
+
+
+def programa_710():
+    """7.10: quatro ingredientes em fila; o equilíbrio aberto nas suas quatro etapas."""
+    p = [svg_abre(1664, 400, "Quatro ingredientes do programa, por semanas. Amplitude, principalmente a flexão do tornozelo para a frente. Força de panturrilha e estabilizadores do pé. Equilíbrio progressivo, em quatro etapas: parado, superfície instável, olhos fechados, com perturbação. E o gesto: salto, mudança de direção, aterrissagem"), defs(MUDO)]
+    rs = []
+    ing = [("t:ruler-measure", "Amplitude", "principalmente a flexão do tornozelo para a frente", OXID), ("t:barbell", "Força", "panturrilha e estabilizadores do pé", OXID),
+           ("t:yoga", "Equilíbrio progressivo", "", GLIC), ("t:ball-football", "O gesto", "salto, mudança de direção, aterrissagem", TINTA)]
+    for k, (ic, t, d, cor) in enumerate(ing):
+        x = k * 424
+        p.append(caixa(x, 0, 392, 400, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, x + 22, 22, 50, cor))
+        rs.append(rot(x + 84, 30, t, w=300, tam=25, cor=cor, peso=700, serif=True, lh=1.15))
+        if d:
+            rs.append(rot(x + 22, 120, d, w=350, tam=22, cor=TINTA, lh=1.3))
+        if k < 3:
+            p.append(seta(x + 394, 200, x + 420, 200, MUDO, "m0", esp=3))
+    for j, t in enumerate(["parado", "superfície instável", "olhos fechados", "com perturbação"]):
+        y = 110 + j * 68
+        p.append(f'<rect x="{848 + 22 + j * 12}" y="{y}" width="{340 - j * 12}" height="56" rx="28" fill="{GLIC}" opacity="{0.35 + j * 0.2:.2f}"/>')
+        rs.append(rot(848 + 22 + j * 12, y + 15, t, w=340 - j * 12, tam=20, cor=TINTA if j < 2 else PAPEL, peso=700, alinha="center"))
+    return slide("programa", 400, p, rs, eyebrow="O que reduz a recidiva", titulo="Quatro ingredientes, por semanas",
+                 destaque="Em quem já torceu: órtese ou bandagem no período de risco (evidência forte) e treino neuromuscular (moderada).", destaque_cor="tinta",
+                 fonte="Br J Sports Med 2017")
+
+
+def ombro_710():
+    """7.10: a dor que acompanha o volume, desenhada em semanas, e o que sai do padrão."""
+    p = [svg_abre(1664, 400, "À esquerda, o padrão, em esquema: barras de volume semanal e uma linha de dor que sobe com o volume, cai com a redução e volta quando o volume volta. Dor lateral, acima da cabeça, que começou devagar, sem trauma, e dói ao deitar do lado. À direita, fora do padrão: trauma com perda súbita de força; não eleva o braço ou sensação de luxação; dor noturna intensa e persistente; formigamento para a mão ou dor que não muda")]
+    rs = []
+    p.append(caixa(0, 0, 860, 400, OXID, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 16, "O padrão", w=400, tam=27, cor=OXID, peso=700, serif=True))
+    vol = [3, 4, 6, 7, 3, 3, 6, 7]
+    dor = [1, 2, 4, 6, 3, 2, 4, 6]
+    B = 230
+    pts = []
+    for i, (v, d) in enumerate(zip(vol, dor)):
+        x = 40 + i * 98
+        p.append(f'<rect x="{x}" y="{B - v * 18}" width="70" height="{v * 18}" rx="4" fill="{OXID_T}"/>')
+        pts.append(f"{x + 35},{B - d * 22}")
+    p.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{FOSF}" stroke-width="5"/>')
+    p.append(f'<line x1="30" y1="{B}" x2="830" y2="{B}" stroke="{MUDO}" stroke-width="2"/>')
+    rs += [rot(560, 60, "dor", w=100, tam=19, cor=FOSF, peso=700), rot(650, 60, "volume", w=150, tam=19, cor=OXID, peso=700),
+           rot(40, B + 6, "semanas · esquema", w=760, tam=16, cor=MUDO),
+           rot(24, 280, "dor lateral, acima da cabeça", w=820, tam=21, cor=TINTA, peso=700),
+           rot(24, 318, "começou devagar, sem trauma; dói ao deitar do lado", w=820, tam=21, cor=TINTA),
+           rot(24, 356, "melhora com redução, volta com o volume", w=820, tam=21, cor=TINTA)]
+    p.append(caixa(900, 0, 764, 400, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(924, 16, "Fora do padrão", w=700, tam=27, cor=FOSF, peso=700, serif=True))
+    for k, t in enumerate(["trauma com perda súbita de força", "não eleva o braço; sensação de luxação", "dor noturna intensa e persistente", "formigamento para a mão; dor que não muda"]):
+        y = 84 + k * 76
+        p.append(icone("t:alert-triangle", 924, y + 2, 38, FOSF))
+        rs.append(rot(976, y + 6, t, w=670, tam=22, cor=TINTA, peso=700))
+    return slide("ombro", 400, p, rs, eyebrow="Ombro · passo um · reconhecer", titulo="O padrão de quem joga acima da cabeça")
+
+
+def manguito_710():
+    """7.10: o nome antigo riscado, o nome novo e as três leituras."""
+    p = [svg_abre(1664, 400, "No alto, a leitura antiga riscada: algo pinçando que precisa ser tirado. Ao lado, o nome novo: dor do ombro relacionada ao manguito rotador. Embaixo, três leituras. Primeira linha: exercício com progressão de carga, por meses, e ajuste do treino. Atleta jovem de arremesso ou natação: instabilidade é parte frequente do quadro. Acima dos quarenta: mais lesão estrutural; exercício segue primeira linha na maioria"), defs(MUDO)]
+    rs = []
+    p.append(caixa(0, 0, 640, 110, CINZA, PAPEL, esp=2, rx=16))
+    rs.append(rot(24, 22, "“algo pinçando que precisa ser tirado”", w=600, tam=24, cor=MUDO, peso=700, lh=1.2))
+    p.append(f'<line x1="20" y1="94" x2="620" y2="16" stroke="{FOSF}" stroke-width="5"/>')
+    p.append(seta(646, 55, 714, 55, MUDO, "m0", esp=4))
+    p.append(caixa(720, 0, 944, 110, OXID, OXID, esp=0, rx=16))
+    rs.append(rot(744, 32, "dor do ombro relacionada ao manguito rotador", w=900, tam=28, cor=PAPEL, peso=700, serif=True))
+    cards = [("Primeira linha", "exercício com progressão de carga, por meses, e ajuste do treino", OXID), ("Atleta jovem de arremesso ou natação", "instabilidade é parte frequente do quadro", GLIC),
+             ("Acima dos quarenta", "mais lesão estrutural; exercício segue primeira linha na maioria", GLIC)]
+    for k, (t, d, cor) in enumerate(cards):
+        x = k * 564
+        p.append(caixa(x, 140, 536, 260, cor, CARTAO, esp=2 if k else 4, rx=16))
+        rs += [rot(x + 24, 160, t, w=490, tam=25, cor=cor, peso=700, serif=True, lh=1.15), rot(x + 24, 256, d, w=490, tam=22, cor=TINTA, lh=1.3)]
+    return slide("manguito", 400, p, rs, eyebrow="O nome e a leitura que mudaram", titulo="Dor do ombro relacionada ao manguito rotador",
+                 fonte="Lewis e colegas, J Orthop Sports Phys Ther 2015")
+
+
+def frentes_710():
+    """7.10: quatro frentes; o ajuste do que produziu o quadro em destaque."""
+    p = [svg_abre(1664, 400, "Quatro frentes para o ombro. Exercício progressivo: manguito e escápula, carga que sobe. Ajuste do que produziu, em destaque: sem isso a fisioterapia trata com uma mão e o treino machuca com a outra. Mobilidade e controle: escápula e coluna torácica, quando limitadas. Expectativa combinada: leva meses e oscila")]
+    rs = []
+    p.append(caixa(0, 0, 700, 400, FOSF, FOSF, esp=0, rx=18))
+    p.append(icone("t:adjustments-horizontal", 30, 30, 70, PAPEL))
+    rs += [rot(30, 130, "Ajuste do que produziu", w=640, tam=34, cor=PAPEL, peso=700, serif=True),
+           rot(30, 200, "sem isso a fisioterapia trata com uma mão e o treino machuca com a outra", w=640, tam=24, cor=PAPEL, lh=1.35)]
+    outros = [("t:barbell", "Exercício progressivo", "manguito e escápula, carga que sobe", OXID), ("t:stretching", "Mobilidade e controle", "escápula e coluna torácica, quando limitadas", OXID),
+              ("t:calendar", "Expectativa combinada", "leva meses e oscila", TINTA)]
+    for k, (ic, t, d, cor) in enumerate(outros):
+        y = k * 136
+        p.append(caixa(740, y, 924, 122, cor, CARTAO, esp=2, rx=16))
+        p.append(icone(ic, 764, y + 36, 48, cor))
+        rs += [rot(830, y + 20, t, w=810, tam=25, cor=cor, peso=700, serif=True), rot(830, y + 66, d, w=810, tam=22, cor=TINTA)]
+    return slide("frentes", 400, p, rs, eyebrow="Ombro · o que fazer", titulo="Quatro frentes",
+                 destaque="Não fazer: repouso prolongado, infiltração como primeira linha, imagem de rotina em quadro típico.", destaque_cor="verm")
+
+
+def carga_710():
+    """7.10: três modalidades, cada uma com o que olhar na carga."""
+    p = [svg_abre(1664, 340, "Três modalidades e o que olhar na carga de cada uma. Natação: metragem semanal, uso de palmar, distribuição entre os estilos. Arremesso: contagem de arremessos e dias de descanso. Academia: volume de empurrar acima da cabeça e proporção entre empurrar e puxar")]
+    rs = []
+    mods = [("t:swimming", "Natação", ["metragem semanal", "uso de palmar", "distribuição entre os estilos"]), ("t:ball-volleyball", "Arremesso", ["contagem de arremessos", "dias de descanso"]),
+            ("t:barbell", "Academia", ["volume de empurrar acima da cabeça", "proporção empurrar e puxar"])]
+    for k, (ic, t, itens) in enumerate(mods):
+        x = k * 564
+        p.append(caixa(x, 0, 536, 340, OXID, CARTAO, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 60}" cy="60" r="38" fill="{OXID_T}"/>')
+        p.append(icone(ic, x + 36, 36, 48, OXID))
+        rs.append(rot(x + 116, 42, t, w=400, tam=28, cor=OXID, peso=700, serif=True))
+        for j, it in enumerate(itens):
+            y = 130 + j * 66
+            p.append(f'<rect x="{x + 24}" y="{y}" width="488" height="54" rx="27" fill="{OXID_T}"/>')
+            rs.append(rot(x + 24, y + 14, it, w=488, tam=21, cor=TINTA, peso=700, alinha="center"))
+    return slide("carga", 340, p, rs, eyebrow="O ajuste de carga", titulo="Esporte por esporte",
+                 destaque="Em todos: o que mudou nas semanas antes da dor?", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"07-01": [numeros_71, usos_71, familias_71, consenso_71, denominador_71, novatos_71, vocabulario_71, oslo_71, leitura_71, rastreio_71],
@@ -2103,7 +2346,8 @@ LICOES = {"07-01": [numeros_71, usos_71, familias_71, consenso_71, denominador_7
           "07-06": [cena_76, custo_76, graus_76, imitacoes_76, peace_76, love_76, aine_76, gelo_76, curcuma_76, reabilitacao_76],
           "07-07": [palavra_77, nome_77, rosca_77, imagem_77, exames_77, mudou_77, compressao_77, conduta_77],
           "07-08": [caso_78, tentativas_78, perguntas_78, ajuste_78, regua_78, pesada_78, comparacao_78, falhas_78, plano_78],
-          "07-09": [sala_79, femoropatelar_79, mensagens_79, fazer_79, naofazer_79, inchou_79, gramado_79, depois_79, grindem_79, regras_79, prevencao_79]}
+          "07-09": [sala_79, femoropatelar_79, mensagens_79, fazer_79, naofazer_79, inchou_79, gramado_79, depois_79, grindem_79, regras_79, prevencao_79],
+          "07-10": [abertura_710, ottawa_710, alerta_710, semana_710, alta_710, instabilidade_710, programa_710, ombro_710, manguito_710, frentes_710, carga_710]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""

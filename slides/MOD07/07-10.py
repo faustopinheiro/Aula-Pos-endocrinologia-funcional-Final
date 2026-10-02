@@ -89,6 +89,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Tornozelo e ombro", "titul
                     {"t": "Quem está mais perto", "x": "Reconhece o alarme e tira o atleta."}],
           "quem": "Próxima aula: lesão óssea por estresse."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-10")
+
 spec = {"arquivo": "aulas/MOD07/07-10-tornozelo-e-ombro.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Entorse de tornozelo e dor no ombro", "subtitulo": "Do primeiro dia à recidiva evitada",
