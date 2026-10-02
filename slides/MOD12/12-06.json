@@ -1,0 +1,901 @@
+{
+ "arquivo": "aulas/MOD12/12-06-treinamento-de-forca-no-jovem.md",
+ "titulo": "Treinamento de força no jovem",
+ "subtitulo": "O mito que atrasou a força na criança",
+ "nota_capa": "Entra por uma nadadora de doze anos que ficou fora da sessão de força do clube.",
+ "secoes": {
+  "mito": [
+   "O erro e suas raízes.",
+   "capa"
+  ],
+  "lesao": [
+   "O que os dados mostram.",
+   "lesao"
+  ],
+  "custo": [
+   "O custo do erro.",
+   "custo"
+  ],
+  "prescricao": [
+   "Como prescrever.",
+   "prescricao"
+  ]
+ },
+ "slides": [
+  {
+   "id": "mito",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Nadadora de 12 anos na borda da piscina. Quatro frases marcadas como erradas: musculação atrofia o crescimento; peso fecha a placa de crescimento; criança só pode fazer o peso do corpo; antes da puberdade não adianta, não tem hormônio\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><g transform=\"translate(60.0 20.0) scale(5.8333)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><path d=\"M 20 312 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0\" stroke=\"#3A6EA5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M 20 338 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0\" stroke=\"#3A6EA5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M 20 364 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0 q 30 -16 60 0 t 60 0\" stroke=\"#3A6EA5\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"640\" y=\"0\" width=\"1024\" height=\"92\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"690\" cy=\"46\" r=\"26\" fill=\"#A8322A\"/><path d=\"M 678.3 34.3 L 701.7 57.7 M 701.7 34.3 L 678.3 57.7\" stroke=\"#F7F6F2\" stroke-width=\"6\" stroke-linecap=\"round\"/><rect x=\"640\" y=\"112\" width=\"1024\" height=\"92\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"690\" cy=\"158\" r=\"26\" fill=\"#A8322A\"/><path d=\"M 678.3 146.3 L 701.7 169.7 M 701.7 146.3 L 678.3 169.7\" stroke=\"#F7F6F2\" stroke-width=\"6\" stroke-linecap=\"round\"/><rect x=\"640\" y=\"224\" width=\"1024\" height=\"92\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"690\" cy=\"270\" r=\"26\" fill=\"#A8322A\"/><path d=\"M 678.3 258.3 L 701.7 281.7 M 701.7 258.3 L 678.3 281.7\" stroke=\"#F7F6F2\" stroke-width=\"6\" stroke-linecap=\"round\"/><rect x=\"640\" y=\"336\" width=\"1024\" height=\"92\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"690\" cy=\"382\" r=\"26\" fill=\"#A8322A\"/><path d=\"M 678.3 370.3 L 701.7 393.7 M 701.7 370.3 L 678.3 393.7\" stroke=\"#F7F6F2\" stroke-width=\"6\" stroke-linecap=\"round\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 400,
+     "w": 520,
+     "t": "12 anos · seis treinos na piscina",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 26,
+     "w": 900,
+     "t": "“musculação atrofia o crescimento”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 740,
+     "y": 138,
+     "w": 900,
+     "t": "“peso fecha a placa de crescimento”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 740,
+     "y": 250,
+     "w": 900,
+     "t": "“criança só pode fazer o peso do corpo”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 740,
+     "y": 362,
+     "w": 900,
+     "t": "“antes da puberdade não adianta”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Uma nadadora de 12 anos fica fora da sessão de força",
+   "titulo": "Quatro frases sobre força na criança, e as quatro erradas"
+  },
+  {
+   "id": "raiz",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três raízes do mito. Trabalho infantil pesado, com desnutrição: não é treino supervisionado. Relatos de lesão com carga máxima sem supervisão: risco de fazer errado. Pouco hormônio, logo sem ganho: confunde força com tamanho\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"632\" y=\"0\" width=\"400\" height=\"80\" rx=\"40\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><path d=\"M 832 80 C 832 120 268 110 268 150\" stroke=\"#B07A1C\" stroke-width=\"6\" fill=\"none\"/><rect x=\"0\" y=\"150\" width=\"536\" height=\"140\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"268\" y1=\"296\" x2=\"268\" y2=\"336\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"344\" width=\"536\" height=\"96\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 832 80 C 832 120 832 110 832 150\" stroke=\"#B07A1C\" stroke-width=\"6\" fill=\"none\"/><rect x=\"564\" y=\"150\" width=\"536\" height=\"140\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"832\" y1=\"296\" x2=\"832\" y2=\"336\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"564\" y=\"344\" width=\"536\" height=\"96\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 832 80 C 832 120 1396 110 1396 150\" stroke=\"#B07A1C\" stroke-width=\"6\" fill=\"none\"/><rect x=\"1128\" y=\"150\" width=\"536\" height=\"140\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"1396\" y1=\"296\" x2=\"1396\" y2=\"336\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1128\" y=\"344\" width=\"536\" height=\"96\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 652,
+     "y": 20,
+     "w": 360,
+     "t": "o mito",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 176,
+     "w": 496,
+     "t": "trabalho infantil pesado, com desnutrição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 374,
+     "w": 496,
+     "t": "não é treino supervisionado",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 176,
+     "w": 496,
+     "t": "lesão com carga máxima, sem supervisão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 374,
+     "w": 496,
+     "t": "é o risco de fazer errado",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1148,
+     "y": 176,
+     "w": 496,
+     "t": "pouco hormônio, logo sem ganho",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1148,
+     "y": 374,
+     "w": 496,
+     "t": "confunde força com tamanho",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "De onde veio",
+   "titulo": "O mito tem três raízes, e cada uma tem resposta"
+  },
+  {
+   "id": "lesao",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Levantamento escolar britânico de 1994: 1.634 alunos, 168.551 horas de treino, 3 lesões, a menor taxa entre os esportes escolares levantados. Estudo de 2009 em prontos-socorros: nos mais jovens, a maior parte das lesões foi acidente com mãos e pés ao soltar ou manusear o peso, evitável com supervisão\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"800\" height=\"330\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"330\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"930\" y=\"150\" width=\"300\" height=\"12\" rx=\"6\" fill=\"#12202E\"/><rect x=\"930\" y=\"112\" width=\"26\" height=\"88\" rx=\"6\" fill=\"#12202E\"/><rect x=\"1204\" y=\"112\" width=\"26\" height=\"88\" rx=\"6\" fill=\"#12202E\"/><line x1=\"1080\" y1=\"210\" x2=\"1080\" y2=\"270\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"1000\" y=\"276\" width=\"160\" height=\"16\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 752,
+     "t": "Escolas britânicas, 1994",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 90,
+     "w": 240,
+     "t": "1.634",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 160,
+     "w": 240,
+     "t": "alunos",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 278,
+     "y": 90,
+     "w": 240,
+     "t": "168.551",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 278,
+     "y": 160,
+     "w": 240,
+     "t": "horas",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 532,
+     "y": 90,
+     "w": 240,
+     "t": "3",
+     "tam": 48,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 532,
+     "y": 160,
+     "w": 240,
+     "t": "lesões",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 236,
+     "w": 752,
+     "t": "taxa menor que a de todos os esportes escolares do levantamento",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 18,
+     "w": 752,
+     "t": "Prontos-socorros, 2009",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1270,
+     "y": 92,
+     "w": 370,
+     "t": "nos mais jovens: acidente com mãos e pés ao soltar ou manusear o peso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 236,
+     "w": 370,
+     "t": "evitável com supervisão",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "O risco está no ambiente sem supervisão, não no músculo nem na placa de crescimento",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que os dados de lesão mostram",
+   "titulo": "Com instrução, o treino de força lesiona pouco",
+   "fonte": "J Strength Cond Res 1994; J Strength Cond Res 2009"
+  },
+  {
+   "id": "consenso",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Documento de consenso internacional de 2014 com selos de várias entidades. Quatro afirmações: seguro e eficaz se bem desenhado e supervisionado; sem evidência de prejuízo ao crescimento; benefício além da força; o critério é a maturidade para seguir instruções, não a idade\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"40\" y=\"0\" width=\"300\" height=\"400\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"80\" y=\"110\" width=\"220\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"80\" y=\"144\" width=\"180\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"80\" y=\"178\" width=\"140\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"80\" y=\"212\" width=\"220\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"80\" y=\"246\" width=\"180\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"80\" y=\"280\" width=\"140\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><circle cx=\"110\" cy=\"350\" r=\"30\" fill=\"#008A7E\"/><circle cx=\"190\" cy=\"350\" r=\"30\" fill=\"#3A6EA5\"/><circle cx=\"270\" cy=\"350\" r=\"30\" fill=\"#B07A1C\"/><rect x=\"420\" y=\"0\" width=\"1244\" height=\"96\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(444.0 28.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"420\" y=\"112\" width=\"1244\" height=\"96\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(444.0 140.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"420\" y=\"224\" width=\"1244\" height=\"96\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(444.0 252.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"420\" y=\"336\" width=\"1244\" height=\"96\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(444.0 364.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 24,
+     "w": 260,
+     "t": "Consenso internacional, 2014",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 500,
+     "y": 30,
+     "w": 1140,
+     "t": "seguro e eficaz, se bem desenhado e supervisionado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 142,
+     "w": 1140,
+     "t": "sem evidência de prejuízo ao crescimento ou à estatura final",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 254,
+     "w": 1140,
+     "t": "benefício além da força: motor, ósseo, composição corporal, menos lesão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 366,
+     "w": 1140,
+     "t": "o critério é a maturidade para seguir instruções, não a idade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que o consenso estabelece",
+   "titulo": "Seguro, eficaz e sem prejuízo ao crescimento",
+   "fonte": "Br J Sports Med 2014; J Strength Cond Res 2009"
+  },
+  {
+   "id": "neural",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Esquema ao longo da adolescência. Força subindo desde cedo; tamanho do músculo quase parado até o pico de crescimento e subindo depois. Antes do pico: ganho neural; depois: a hipertrofia entra. Massa óssea subindo até o início da vida adulta\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"80\" y1=\"400\" x2=\"1100\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"620\" y1=\"20\" x2=\"620\" y2=\"400\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M 80 340 C 300 300 480 250 620 210 S 950 80 1100 50\" stroke=\"#008A7E\" stroke-width=\"7\" fill=\"none\"/><path d=\"M 80 370 C 300 368 480 362 620 350 S 950 200 1100 150\" stroke=\"#B07A1C\" stroke-width=\"7\" fill=\"none\"/><path d=\"M 80 380 C 400 330 700 200 900 130 S 1050 110 1100 110\" stroke=\"#3A6EA5\" stroke-width=\"5\" fill=\"none\" stroke-dasharray=\"14 8\"/><rect x=\"1260\" y=\"0\" width=\"404\" height=\"190\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1260\" y=\"220\" width=\"404\" height=\"190\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 460,
+     "y": 0,
+     "w": 320,
+     "t": "pico de crescimento",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 244,
+     "w": 200,
+     "t": "força",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 368,
+     "w": 300,
+     "t": "tamanho do músculo",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 196,
+     "w": 200,
+     "t": "massa óssea",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 410,
+     "w": 200,
+     "t": "idade",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 30,
+     "w": 200,
+     "t": "esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 20,
+     "w": 364,
+     "t": "Antes do pico: ganho neural. Mais forte sem ficar maior.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1280,
+     "y": 240,
+     "w": 364,
+     "t": "Depois do pico: a hipertrofia entra e a carga pode subir mais.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Como a criança ganha força",
+   "titulo": "Antes da puberdade, a força cresce sem o músculo crescer"
+  },
+  {
+   "id": "custo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Balança com dois pratos. Sem treino de força: mais volume na água, a mesma braçada repetida, osso sem impacto. Com treino de força: padrões básicos, carga no osso, ombro e tronco mais fortes. A balança pesa para o segundo\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><path d=\"M 832 90 L 800 400 L 864 400 Z\" fill=\"#12202E\"/><line x1=\"300\" y1=\"40\" x2=\"1364\" y2=\"140\" stroke=\"#12202E\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"90\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"1364\" y1=\"140\" x2=\"1364\" y2=\"190\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"60\" y=\"90\" width=\"480\" height=\"250\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1124\" y=\"190\" width=\"480\" height=\"250\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 106,
+     "w": 440,
+     "t": "Sem treino de força",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 80,
+     "y": 170,
+     "w": 440,
+     "t": "· mais volume na água",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 222,
+     "w": 440,
+     "t": "· a mesma braçada, milhares de vezes",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 274,
+     "w": 440,
+     "t": "· osso quase sem impacto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 206,
+     "w": 440,
+     "t": "Com treino de força",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 270,
+     "w": 440,
+     "t": "· agachar, empurrar, puxar, aterrissar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 322,
+     "w": 440,
+     "t": "· carga no osso em construção",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 374,
+     "w": 440,
+     "t": "· ombro e tronco mais fortes",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O custo do erro, na natação",
+   "titulo": "Quem fica sem força fica com mais repetição e menos osso"
+  },
+  {
+   "id": "prescricao",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Ficha de sessão infantil: 2 a 3 vezes por semana em dias não seguidos; 20 a 40 minutos; 1 a 3 séries de 6 a 15 repetições; progressão de 5% a 10% depois da técnica. Seis padrões: agachar, dobrar o quadril, empurrar, puxar, carregar, tronco. Técnica antes de carga\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"900\" height=\"68\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"0\" y=\"80\" width=\"900\" height=\"68\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"0\" y=\"160\" width=\"900\" height=\"68\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"0\" y=\"240\" width=\"900\" height=\"68\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"980\" y=\"0\" width=\"322\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"1322\" y=\"0\" width=\"322\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"980\" y=\"80\" width=\"322\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"1322\" y=\"80\" width=\"322\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"980\" y=\"160\" width=\"322\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"1322\" y=\"160\" width=\"322\" height=\"64\" rx=\"32\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"0\" y=\"350\" width=\"400\" height=\"90\" rx=\"18\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><line x1=\"410\" y1=\"395\" x2=\"500\" y2=\"395\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"510\" y=\"350\" width=\"400\" height=\"90\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"980\" y=\"270\" width=\"684\" height=\"170\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 18,
+     "w": 200,
+     "t": "frequência",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 18,
+     "w": 650,
+     "t": "2 a 3 por semana, dias não seguidos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 98,
+     "w": 200,
+     "t": "duração",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 98,
+     "w": 650,
+     "t": "20 a 40 minutos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 178,
+     "w": 200,
+     "t": "séries",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 178,
+     "w": 650,
+     "t": "1 a 3 de 6 a 15 repetições",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 258,
+     "w": 200,
+     "t": "progressão",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 258,
+     "w": 650,
+     "t": "5% a 10%, quando a técnica está estável",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 16,
+     "w": 302,
+     "t": "agachar",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1332,
+     "y": 16,
+     "w": 302,
+     "t": "dobrar o quadril",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 96,
+     "w": 302,
+     "t": "empurrar",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1332,
+     "y": 96,
+     "w": 302,
+     "t": "puxar",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 176,
+     "w": 302,
+     "t": "carregar",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1332,
+     "y": 176,
+     "w": 302,
+     "t": "tronco",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 374,
+     "w": 360,
+     "t": "técnica",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 530,
+     "y": 374,
+     "w": 360,
+     "t": "carga",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 290,
+     "w": 644,
+     "t": "Supervisão qualificada, maturação de cada um e formato de jogo: adesão é o que dá resultado.",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Como prescrever",
+   "titulo": "Poucos padrões, técnica primeiro e carga depois",
+   "fonte": "J Strength Cond Res 2009; Br J Sports Med 2014"
+  },
+  {
+   "id": "evitar",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro coisas a evitar: teste de carga máxima sem técnica; falha como rotina; programa de adulto em miniatura; força somada a um volume já excessivo. A frase para a família: a recomendação mudou\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"230\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(160.0 24.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"420\" y=\"0\" width=\"400\" height=\"230\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(580.0 24.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"840\" y=\"0\" width=\"400\" height=\"230\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1000.0 24.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"1260\" y=\"0\" width=\"400\" height=\"230\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1420.0 24.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"270\" width=\"1664\" height=\"170\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(30.0 310.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 124,
+     "w": 360,
+     "t": "teste de carga máxima sem técnica",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 124,
+     "w": 360,
+     "t": "treinar até a falha como rotina",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 124,
+     "w": 360,
+     "t": "programa de adulto em miniatura",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 124,
+     "w": 360,
+     "t": "força somada a um volume já excessivo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 150,
+     "y": 290,
+     "w": 1480,
+     "t": "Para a família",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 150,
+     "y": 336,
+     "w": 1480,
+     "t": "“Essa recomendação era comum há alguns anos. A informação mudou, e hoje pediatria e medicina do esporte endossam o treino de força supervisionado.”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O que evitar",
+   "titulo": "A força entra dentro da carga total, não por cima dela"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Treinamento de força no jovem",
+   "titulo": "Força supervisionada é parte do esporte da criança",
+   "regras": [
+    "Bem desenhado e supervisionado, é seguro e não prejudica o crescimento",
+    "Antes da puberdade, o ganho é neural: mais forte sem ficar maior",
+    "Sem treino de força, sobra mais repetição do mesmo gesto e menos osso"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Ensina técnica antes de carga, supervisiona e encaixa a força no volume total."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina e fisioterapia",
+     "x": "Desfazem o mito com a família e liberam sem exigir idade mínima."
+    },
+    {
+     "ic": "t:users",
+     "t": "A família",
+     "x": "Entende que força é parte do esporte, não um risco a mais."
+    }
+   ]
+  }
+ ],
+ "modulo": "Atleta Adolescente e Atleta Idoso",
+ "tema": "musgo"
+}
