@@ -26,40 +26,298 @@
  "slides": [
   {
    "id": "telas",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três telas do mesmo treino de uma hora de bicicleta. O relógio diz zona quatro; sua âncora é uma fórmula de idade. O aplicativo de potência diz zona dois; sua âncora é um teste de um ano atrás. A planilha diz ritmo de conversa; sua âncora é a fala dele, de hoje\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"220\" rx=\"24\" fill=\"#12202E\"/><rect x=\"16\" y=\"16\" width=\"496\" height=\"188\" rx=\"14\" fill=\"#1E3346\"/><g transform=\"translate(32.0 30.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"0\" y=\"240\" width=\"528\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"220\" rx=\"24\" fill=\"#12202E\"/><rect x=\"584\" y=\"16\" width=\"496\" height=\"188\" rx=\"14\" fill=\"#1E3346\"/><g transform=\"translate(600.0 30.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"568\" y=\"240\" width=\"528\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"220\" rx=\"24\" fill=\"#12202E\"/><rect x=\"1152\" y=\"16\" width=\"496\" height=\"188\" rx=\"14\" fill=\"#1E3346\"/><g transform=\"translate(1168.0 30.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g><rect x=\"1136\" y=\"240\" width=\"528\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 36,
+     "w": 418,
+     "t": "o relógio",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 98,
+     "w": 496,
+     "t": "zona 4",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 252,
+     "w": 488,
+     "t": "âncora",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 282,
+     "w": 488,
+     "t": "fórmula de idade",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 648,
+     "y": 36,
+     "w": 418,
+     "t": "o aplicativo",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 584,
+     "y": 98,
+     "w": 496,
+     "t": "zona 2",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 252,
+     "w": 488,
+     "t": "âncora",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 282,
+     "w": 488,
+     "t": "teste de um ano atrás",
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1216,
+     "y": 36,
+     "w": 418,
+     "t": "a planilha",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 98,
+     "w": 496,
+     "t": "“ritmo de conversa”",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 252,
+     "w": 488,
+     "t": "âncora",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1156,
+     "y": 282,
+     "w": 488,
+     "t": "a fala dele, de hoje",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Uma hora de bicicleta, três respostas",
-   "frase": "O relógio diz zona quatro. O aplicativo diz zona dois. A planilha diz “ritmo de conversa”.",
-   "apoio": "Um triatleta amador pergunta qual está certo. As três zonas usam âncoras diferentes: uma fórmula de idade, um teste de um ano atrás, e a fala dele, de hoje."
+   "titulo": "O relógio diz zona quatro. O aplicativo diz zona dois. A planilha diz “ritmo de conversa”."
   },
   {
    "id": "roteiro",
-   "tipo": "lista",
-   "eyebrow": "O roteiro",
-   "titulo": "Quatro passos",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Quatro passos em fila. Âncora: o ponto de referência a partir do qual as zonas são calculadas. Medida do dia: frequência cardíaca, ritmo, potência ou percepção de esforço. Zonas: poucas, e refeitas quando a âncora envelhece. Conferência: com a fala e com o dia seguinte\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"380\" height=\"300\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"42\" cy=\"46\" r=\"26\" fill=\"#12202E\"/><g transform=\"translate(314.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v12m-8-8a8 8 0 0 0 16 0m1 0h-2M5 13H3m6-7a3 3 0 1 0 6 0a3 3 0 1 0-6 0\"/></g><line x1=\"386\" y1=\"150\" x2=\"422\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"428\" y=\"0\" width=\"380\" height=\"300\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"470\" cy=\"46\" r=\"26\" fill=\"#B07A1C\"/><g transform=\"translate(742.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><line x1=\"814\" y1=\"150\" x2=\"850\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"856\" y=\"0\" width=\"380\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"898\" cy=\"46\" r=\"26\" fill=\"#008A7E\"/><g transform=\"translate(1170.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 13a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zm12-4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zM9 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zM4 20h14\"/></g><line x1=\"1242\" y1=\"150\" x2=\"1278\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1284\" y=\"0\" width=\"380\" height=\"300\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"1326\" cy=\"46\" r=\"26\" fill=\"#A8322A\"/><g transform=\"translate(1598.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 16,
+     "y": 30,
+     "w": 52,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 22,
+     "y": 100,
+     "w": 336,
      "t": "Âncora",
-     "x": "o ponto de referência a partir do qual as zonas são calculadas",
-     "cor": "tinta"
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 22,
+     "y": 156,
+     "w": 336,
+     "t": "o ponto de referência a partir do qual as zonas são calculadas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 444,
+     "y": 30,
+     "w": 52,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 450,
+     "y": 100,
+     "w": 336,
      "t": "Medida do dia",
-     "x": "frequência cardíaca, ritmo, potência ou percepção de esforço",
-     "cor": "ambar"
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 450,
+     "y": 156,
+     "w": 336,
+     "t": "frequência cardíaca, ritmo, potência ou percepção de esforço",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 872,
+     "y": 30,
+     "w": 52,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 878,
+     "y": 100,
+     "w": 336,
      "t": "Zonas",
-     "x": "poucas, e refeitas quando a âncora envelhece",
-     "cor": "petr"
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 878,
+     "y": 156,
+     "w": 336,
+     "t": "poucas, e refeitas quando a âncora envelhece",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1300,
+     "y": 30,
+     "w": 52,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1306,
+     "y": 100,
+     "w": 336,
      "t": "Conferência",
-     "x": "com a fala e com o dia seguinte",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1306,
+     "y": 156,
+     "w": 336,
+     "t": "com a fala e com o dia seguinte",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 16
+   "eyebrow": "O roteiro",
+   "titulo": "Quatro passos"
   },
   {
    "id": "porcentagem",
@@ -120,206 +378,1194 @@
   },
   {
    "id": "ancoras",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Em esquema, duas âncoras. À esquerda, o máximo estimado pela idade: a faixa de erro da fórmula no indivíduo e a faixa de erro da porcentagem se somam numa faixa larga, e o treino fácil do triatleta aparece como zona quatro. À direita, o limiar medido na pessoa: uma faixa estreita, obtida no laboratório quando há, pelo teste da fala para o primeiro limiar, ou por um esforço contínuo de 30 minutos para o segundo\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"250\" y=\"90\" width=\"300\" height=\"46\" rx=\"23\" fill=\"#A8322A\" opacity=\"0.5\"/><rect x=\"270\" y=\"160\" width=\"260\" height=\"46\" rx=\"23\" fill=\"#A8322A\" opacity=\"0.5\"/><rect x=\"120\" y=\"234\" width=\"560\" height=\"46\" rx=\"23\" fill=\"#A8322A\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1220\" y=\"90\" width=\"90\" height=\"46\" rx=\"23\" fill=\"#008A7E\"/><g transform=\"translate(888.0 168.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16\"/><path d=\"M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4M10 9h4m-2-2v4\"/></g></g><g transform=\"translate(888.0 228.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><g transform=\"translate(888.0 288.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 760,
+     "t": "Máximo estimado pela idade",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 100,
+     "w": 220,
+     "t": "erro da fórmula",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 170,
+     "w": 220,
+     "t": "erro da porcentagem",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 120,
+     "y": 244,
+     "w": 560,
+     "t": "dois erros somados",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 300,
+     "w": 760,
+     "t": "o treino fácil do triatleta vira zona quatro",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 16,
+     "w": 760,
+     "t": "Limiar medido na pessoa",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 888,
+     "y": 100,
+     "w": 320,
+     "t": "faixa estreita",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 176,
+     "w": 700,
+     "t": "laboratório, quando há",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 236,
+     "w": 700,
+     "t": "teste da fala: primeiro limiar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 296,
+     "w": 700,
+     "t": "esforço contínuo de 30 min: segundo limiar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "E o máximo costuma ser estimado",
    "titulo": "Dois erros somados, ou uma âncora medida",
-   "esq": {
-    "t": "Máximo estimado pela idade",
-    "cor": "verm",
-    "itens": [
-     "erro da fórmula no indivíduo",
-     "somado ao erro da porcentagem",
-     "o treino fácil do triatleta vira zona quatro"
-    ]
-   },
-   "dir": {
-    "t": "Limiar medido na pessoa",
-    "cor": "petr",
-    "itens": [
-     "laboratório, quando há",
-     "teste da fala para o primeiro limiar",
-     "esforço contínuo de 30 minutos para o segundo"
-    ]
-   },
-   "destaque_cor": "tinta",
-   "destaque": "Os métodos de campo estão na aula de limiares do módulo de fisiologia."
+   "destaque": "Os métodos de campo estão na aula de limiares do módulo de fisiologia.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "poucas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo três · as zonas",
-   "titulo": "Três faixas resolvem quase tudo",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Uma régua de intensidade com duas linhas, o primeiro e o segundo limiar, e três faixas: fácil abaixo do primeiro, moderado entre os dois, forte acima do segundo. À direita, um calendário: as zonas envelhecem, e refazer a âncora faz parte da prescrição\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><rect x=\"0\" y=\"60\" width=\"420\" height=\"150\" rx=\"12\" fill=\"#008A7E\"/><rect x=\"430\" y=\"60\" width=\"360\" height=\"150\" rx=\"12\" fill=\"#B07A1C\"/><rect x=\"800\" y=\"60\" width=\"320\" height=\"150\" rx=\"12\" fill=\"#A8322A\"/><line x1=\"425\" y1=\"40\" x2=\"425\" y2=\"232\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"795\" y1=\"40\" x2=\"795\" y2=\"232\" stroke=\"#12202E\" stroke-width=\"4\"/><path d=\"M 0 262 L 1100 262\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 1090 254 L 1110 262 L 1090 270 Z\" fill=\"#6B7A87\"/><rect x=\"1200\" y=\"30\" width=\"464\" height=\"260\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1224.0 54.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 92,
+     "w": 380,
      "t": "Fácil",
-     "x": "abaixo do primeiro limiar",
-     "cor": "petr"
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 20,
+     "y": 146,
+     "w": 380,
+     "t": "abaixo do 1º limiar",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 450,
+     "y": 92,
+     "w": 320,
      "t": "Moderado",
-     "x": "entre os dois limiares",
-     "cor": "ambar"
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 450,
+     "y": 146,
+     "w": 320,
+     "t": "entre os limiares",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 92,
+     "w": 280,
      "t": "Forte",
-     "x": "acima do segundo limiar",
-     "cor": "verm"
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 820,
+     "y": 146,
+     "w": 280,
+     "t": "acima do 2º limiar",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 345,
+     "y": 6,
+     "w": 160,
+     "t": "1º limiar",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 715,
+     "y": 6,
+     "w": 160,
+     "t": "2º limiar",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 274,
+     "w": 400,
+     "t": "intensidade",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 62,
+     "w": 360,
+     "t": "As zonas envelhecem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1224,
+     "y": 140,
+     "w": 420,
+     "t": "um teste de um ano atrás descreve outra pessoa: refazer a âncora faz parte da prescrição",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
-   "destaque": "Cinco ou sete zonas criam uma precisão que nenhum aparelho entrega. E as zonas envelhecem: refazer a âncora faz parte da prescrição.",
+   "eyebrow": "Passo três · as zonas",
+   "titulo": "Três faixas resolvem quase tudo",
+   "destaque": "Cinco ou sete zonas criam uma precisão que nenhum aparelho entrega.",
    "destaque_cor": "tinta"
   },
   {
    "id": "ancorada",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 320,
+   "svg": "<svg aria-label=\"Duas âncoras. Na idade: riscada. Na pessoa: marcada como certa, e ligada à ferramenta que confere se ela continua boa, a percepção de esforço\" width=\"1664\" height=\"320\" viewBox=\"0 0 1664 320\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"480\" height=\"220\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(40.0 100.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v12m-8-8a8 8 0 0 0 16 0m1 0h-2M5 13H3m6-7a3 3 0 1 0 6 0a3 3 0 1 0-6 0\"/></g><line x1=\"30\" y1=\"240\" x2=\"450\" y2=\"60\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"560\" y=\"40\" width=\"520\" height=\"220\" rx=\"16\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><g transform=\"translate(600.0 100.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v12m-8-8a8 8 0 0 0 16 0m1 0h-2M5 13H3m6-7a3 3 0 1 0 6 0a3 3 0 1 0-6 0\"/></g><line x1=\"1092\" y1=\"150\" x2=\"1170\" y2=\"150\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1184\" y=\"40\" width=\"480\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1208.0 70.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 150,
+     "y": 120,
+     "w": 300,
+     "t": "na idade",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 710,
+     "y": 120,
+     "w": 340,
+     "t": "na pessoa",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 78,
+     "w": 360,
+     "t": "confere",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1208,
+     "y": 150,
+     "w": 430,
+     "t": "a percepção de esforço diz se a âncora continua boa",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "Uma zona só vale se estiver ancorada na pessoa, e não na idade dela.",
-   "apoio": "O resto é conferir se a âncora continua boa, com a ferramenta que mais ajuda nisso: a percepção de esforço."
+   "titulo": "Uma zona só vale se estiver ancorada na pessoa, e não na idade dela."
   },
   {
    "id": "borg",
-   "tipo": "numeros",
-   "eyebrow": "A percepção tem respaldo",
-   "titulo": "Os limiares cabem na escala de Borg",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"A escala de Borg de 6 a 20 desenhada como régua horizontal. Em 2.560 pessoas de idades, modalidades e níveis diferentes, incluindo doença coronariana, o primeiro limiar de lactato ficou, em média, perto de 11, e o limiar anaeróbio individual perto de 13,6. Acima da régua, as faixas recomendadas: 11 a 13 para quem treina menos; 13 a 15 para esforço mais intenso, ainda aeróbio\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><line x1=\"60\" y1=\"200\" x2=\"1460\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"60\" y1=\"190\" x2=\"60\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"160\" y1=\"190\" x2=\"160\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"260\" y1=\"190\" x2=\"260\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"360\" y1=\"190\" x2=\"360\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"460\" y1=\"190\" x2=\"460\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"560\" y1=\"190\" x2=\"560\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"660\" y1=\"190\" x2=\"660\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"760\" y1=\"190\" x2=\"760\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"860\" y1=\"190\" x2=\"860\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"960\" y1=\"190\" x2=\"960\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1060\" y1=\"190\" x2=\"1060\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1160\" y1=\"190\" x2=\"1160\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1260\" y1=\"190\" x2=\"1260\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1360\" y1=\"190\" x2=\"1360\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1460\" y1=\"190\" x2=\"1460\" y2=\"210\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"560\" y=\"116\" width=\"200\" height=\"26\" rx=\"13\" fill=\"#008A7E\"/><rect x=\"760\" y=\"66\" width=\"200\" height=\"26\" rx=\"13\" fill=\"#B07A1C\"/><circle cx=\"560\" cy=\"200\" r=\"14\" fill=\"#008A7E\"/><line x1=\"560\" y1=\"214\" x2=\"560\" y2=\"280\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"820\" cy=\"200\" r=\"14\" fill=\"#A8322A\"/><line x1=\"820\" y1=\"214\" x2=\"820\" y2=\"280\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"0\" y=\"260\" width=\"380\" height=\"100\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
-     "n": "2.560",
-     "x": "pessoas; idades, modalidades e níveis diferentes, incluindo doença coronariana",
-     "cor": "tinta"
+     "x": 30,
+     "y": 218,
+     "w": 60,
+     "t": "6",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "≈ 11 e 13,6",
-     "x": "notas médias no primeiro limiar e no limiar anaeróbio individual, escala de 6 a 20",
-     "cor": "petr"
+     "x": 230,
+     "y": 218,
+     "w": 60,
+     "t": "8",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 430,
+     "y": 218,
+     "w": 60,
+     "t": "10",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 530,
+     "y": 218,
+     "w": 60,
+     "t": "11",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 218,
+     "w": 60,
+     "t": "12",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 730,
+     "y": 218,
+     "w": 60,
+     "t": "13",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 218,
+     "w": 60,
+     "t": "14",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 218,
+     "w": 60,
+     "t": "15",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 218,
+     "w": 60,
+     "t": "16",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1230,
+     "y": 218,
+     "w": 60,
+     "t": "18",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1430,
+     "y": 218,
+     "w": 60,
+     "t": "20",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 118,
+     "w": 520,
+     "t": "11 a 13: quem treina menos",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 760,
+     "y": 30,
+     "w": 520,
+     "t": "13 a 15: mais intenso, ainda aeróbio",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 550,
+     "y": 284,
+     "w": 420,
+     "t": "1º limiar ≈ 11",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 810,
+     "y": 284,
+     "w": 420,
+     "t": "limiar anaeróbio individual ≈ 13,6",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 270,
+     "w": 380,
+     "t": "2.560",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 16,
+     "y": 318,
+     "w": 348,
+     "t": "pessoas, incluindo doença coronariana",
+     "tam": 17,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Relação independente de sexo, idade e modalidade. Recomendação: 11 a 13 para quem treina menos; 13 a 15 para esforço mais intenso, ainda aeróbio.",
+   "eyebrow": "A percepção tem respaldo",
+   "titulo": "Os limiares cabem na escala de Borg",
+   "destaque": "Relação independente de sexo, idade e modalidade.",
    "destaque_cor": "tinta",
    "fonte": "Eur J Appl Physiol 2013"
   },
   {
    "id": "escalas",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 300,
+   "svg": "<svg aria-label=\"Duas réguas. De 6 a 20: a do estudo de 2013, para prescrever intensidade durante o esforço. De 0 a 10: para registrar o custo da sessão inteira, assunto da aula de carga interna\" width=\"1664\" height=\"300\" viewBox=\"0 0 1664 300\"><rect x=\"458\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"542\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"627\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"711\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"795\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"879\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"964\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"1048\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"1132\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"1217\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"1301\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"1385\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"1469\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"1554\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><rect x=\"1638\" y=\"20\" width=\"4\" height=\"50\" fill=\"#12202E\"/><line x1=\"460\" y1=\"45\" x2=\"1640\" y2=\"45\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"458\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"576\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"694\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"812\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"930\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"1048\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"1166\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"1284\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"1402\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"1520\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><rect x=\"1638\" y=\"170\" width=\"4\" height=\"50\" fill=\"#008A7E\"/><line x1=\"460\" y1=\"195\" x2=\"1640\" y2=\"195\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 20,
+     "w": 220,
+     "t": "de 6 a 20",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 70,
+     "w": 420,
+     "t": "prescrever intensidade durante o esforço",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 435,
+     "y": 78,
+     "w": 50,
+     "t": "6",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 604,
+     "y": 78,
+     "w": 50,
+     "t": "8",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 772,
+     "y": 78,
+     "w": 50,
+     "t": "10",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 941,
+     "y": 78,
+     "w": 50,
+     "t": "12",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1109,
+     "y": 78,
+     "w": 50,
+     "t": "14",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1278,
+     "y": 78,
+     "w": 50,
+     "t": "16",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1446,
+     "y": 78,
+     "w": 50,
+     "t": "18",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1615,
+     "y": 78,
+     "w": 50,
+     "t": "20",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 170,
+     "w": 220,
+     "t": "de 0 a 10",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 220,
+     "w": 420,
+     "t": "registrar o custo da sessão inteira · carga interna",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 435,
+     "y": 228,
+     "w": 50,
+     "t": "0",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 553,
+     "y": 228,
+     "w": 50,
+     "t": "1",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 671,
+     "y": 228,
+     "w": 50,
+     "t": "2",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 789,
+     "y": 228,
+     "w": 50,
+     "t": "3",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 907,
+     "y": 228,
+     "w": 50,
+     "t": "4",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1025,
+     "y": 228,
+     "w": 50,
+     "t": "5",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1143,
+     "y": 228,
+     "w": 50,
+     "t": "6",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1261,
+     "y": 228,
+     "w": 50,
+     "t": "7",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1379,
+     "y": 228,
+     "w": 50,
+     "t": "8",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1497,
+     "y": 228,
+     "w": 50,
+     "t": "9",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1615,
+     "y": 228,
+     "w": 50,
+     "t": "10",
+     "tam": 17,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Duas escalas, sem misturar",
    "titulo": "O que dá valor à nota são as âncoras",
-   "esq": {
-    "t": "De 6 a 20",
-    "cor": "tinta",
-    "itens": [
-     "a do estudo de 2013",
-     "prescrever intensidade durante o esforço"
-    ]
-   },
-   "dir": {
-    "t": "De 0 a 10",
-    "cor": "petr",
-    "itens": [
-     "registrar o custo da sessão inteira",
-     "assunto da aula de carga interna"
-    ]
-   },
    "destaque": "Mesmas palavras todas as vezes. Na primeira aplicação: “o treino mais duro que você já fez” é o máximo.",
    "destaque_cor": "tinta",
    "fonte": "Borg, Med Sci Sports Exerc 1982"
   },
   {
    "id": "medidas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo dois · a medida do dia",
-   "titulo": "Cada medida tem um ponto cego",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Três cartões, cada um com um pequeno traçado em esquema. Frequência cardíaca: nos tiros curtos, a curva ainda sobe quando o tiro acaba; no esforço longo, sobe aos poucos, mais no calor. Ritmo ou potência: responde na hora, em degraus retos; não diz quanto custou naquele dia. Percepção de esforço: integra sono, calor e cansaço, e avisa primeiro\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"568\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1136\" y=\"0\" width=\"528\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><polyline points=\"40,200 100,200 100,110 180,110 180,200 260,200 260,110 340,110 340,200 420,200\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M 40 200 L 100 200 C 140 196, 170 150, 180 140 C 200 150, 240 196, 260 190 C 300 170, 330 140, 340 132 C 360 150, 400 190, 420 188\" fill=\"none\" stroke=\"#B07A1C\" stroke-width=\"5\"/><polyline points=\"608,200 668,200 668,110 748,110 748,200 828,200 828,110 908,110 908,200 988,200\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><g transform=\"translate(1186.0 110.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><g transform=\"translate(1336.0 110.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><g transform=\"translate(1486.0 110.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 16,
+     "w": 480,
      "t": "Frequência cardíaca",
-     "x": "atrasa nos tiros curtos; sobe aos poucos no esforço longo, mais no calor",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 262,
+     "w": 480,
+     "t": "atrasa nos tiros curtos; sobe aos poucos no esforço longo, mais no calor",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 592,
+     "y": 16,
+     "w": 480,
      "t": "Ritmo ou potência",
-     "x": "responde na hora; não diz quanto custou naquele dia",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 592,
+     "y": 262,
+     "w": 480,
+     "t": "responde na hora; não diz quanto custou naquele dia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1160,
+     "y": 16,
+     "w": 480,
      "t": "Percepção de esforço",
-     "x": "integra sono, calor e cansaço; avisa primeiro",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1160,
+     "y": 262,
+     "w": 480,
+     "t": "integra sono, calor e cansaço; avisa primeiro",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 300,
+     "y": 70,
+     "w": 200,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     }
-   ]
+   ],
+   "eyebrow": "Passo dois · a medida do dia",
+   "titulo": "Cada medida tem um ponto cego"
   },
   {
    "id": "tabela",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma grade de três faixas por três jeitos de reconhecer. Fácil: frases inteiras; até perto de 11 na escala de 6 a 20; abaixo do primeiro limiar medido. Moderado: frases curtas; em torno de 11 a 14; entre os limiares. Forte: palavras soltas; acima de 14 a 15; acima do segundo limiar\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><g transform=\"translate(310.0 0.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><g transform=\"translate(766.0 0.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><g transform=\"translate(1222.0 0.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 19h16M4 15l4-6l4 2l4-5l4 4\"/></g><rect x=\"0\" y=\"56\" width=\"280\" height=\"86\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"300\" y=\"56\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"756\" y=\"56\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1212\" y=\"56\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"156\" width=\"280\" height=\"86\" rx=\"14\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><rect x=\"300\" y=\"156\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"756\" y=\"156\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1212\" y=\"156\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"0\" y=\"256\" width=\"280\" height=\"86\" rx=\"14\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><rect x=\"300\" y=\"256\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"756\" y=\"256\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1212\" y=\"256\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 356,
+     "y": 4,
+     "w": 380,
+     "t": "Fala",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 812,
+     "y": 4,
+     "w": 380,
+     "t": "Escala de 6 a 20",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1268,
+     "y": 4,
+     "w": 380,
+     "t": "Medida objetiva",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 82,
+     "w": 280,
+     "t": "Fácil",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 320,
+     "y": 84,
+     "w": 400,
+     "t": "frases inteiras",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 776,
+     "y": 84,
+     "w": 400,
+     "t": "até perto de 11",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1232,
+     "y": 84,
+     "w": 400,
+     "t": "abaixo do 1º limiar medido",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 182,
+     "w": 280,
+     "t": "Moderado",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 320,
+     "y": 184,
+     "w": 400,
+     "t": "frases curtas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 776,
+     "y": 184,
+     "w": 400,
+     "t": "em torno de 11 a 14",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1232,
+     "y": 184,
+     "w": 400,
+     "t": "entre os limiares",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 282,
+     "w": 280,
+     "t": "Forte",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 320,
+     "y": 284,
+     "w": 400,
+     "t": "palavras soltas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 776,
+     "y": 284,
+     "w": 400,
+     "t": "acima de 14 a 15",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1232,
+     "y": 284,
+     "w": 400,
+     "t": "acima do 2º limiar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Juntando tudo",
    "titulo": "Três jeitos de reconhecer cada faixa",
-   "cab": [
-    "Faixa",
-    "Fala",
-    "Escala de 6 a 20",
-    "Medida objetiva"
-   ],
-   "larguras": [
-    16,
-    24,
-    26,
-    34
-   ],
-   "linhas": [
-    [
-     "Fácil",
-     "frases inteiras",
-     "até perto de 11",
-     "abaixo do 1º limiar medido"
-    ],
-    [
-     "Moderado",
-     "frases curtas",
-     "em torno de 11 a 14",
-     "entre os limiares"
-    ],
-    [
-     "Forte",
-     "palavras soltas",
-     "acima de 14 a 15",
-     "acima do 2º limiar"
-    ]
-   ],
    "destaque": "As notas são aproximações de média para começar. Na pessoa, ajustam-se em poucas semanas.",
    "destaque_cor": "tinta"
   },
   {
    "id": "desempate",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Três linhas, cada tipo de treino com a medida que manda. Dia fácil: fala e percepção, porque se conversa em frases inteiras está fácil. Intervalado: ritmo ou potência, porque a frequência cardíaca atrasa. Longo e estável: frequência cardíaca, ancorada no limiar, com atenção à subida no fim\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"36\" width=\"370\" height=\"86\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"400\" y=\"36\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><g transform=\"translate(420.0 58.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><line x1=\"850\" y1=\"79\" x2=\"906\" y2=\"79\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"920\" y=\"36\" width=\"744\" height=\"86\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"136\" width=\"370\" height=\"86\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"400\" y=\"136\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(420.0 158.0) scale(1.7500)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><line x1=\"850\" y1=\"179\" x2=\"906\" y2=\"179\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"920\" y=\"136\" width=\"744\" height=\"86\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"0\" y=\"236\" width=\"370\" height=\"86\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"400\" y=\"236\" width=\"440\" height=\"86\" rx=\"14\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><g transform=\"translate(420.0 258.0) scale(1.7500)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M12 6L8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25m-7 3l2 2M15 13l2 2\"/></g></g><line x1=\"850\" y1=\"279\" x2=\"906\" y2=\"279\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"920\" y=\"236\" width=\"744\" height=\"86\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 400,
+     "y": 0,
+     "w": 440,
+     "t": "manda",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 920,
+     "y": 0,
+     "w": 744,
+     "t": "por quê",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 62,
+     "w": 330,
+     "t": "Dia fácil",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 476,
+     "y": 64,
+     "w": 350,
+     "t": "fala e percepção",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 64,
+     "w": 700,
+     "t": "se conversa em frases inteiras, está fácil",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 162,
+     "w": 330,
+     "t": "Intervalado",
+     "tam": 25,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 476,
+     "y": 164,
+     "w": 350,
+     "t": "ritmo ou potência",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 164,
+     "w": 700,
+     "t": "a frequência cardíaca atrasa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 262,
+     "w": 330,
+     "t": "Longo e estável",
+     "tam": 25,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 476,
+     "y": 264,
+     "w": 350,
+     "t": "frequência cardíaca",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 264,
+     "w": 700,
+     "t": "ancorada no limiar; atenção à subida no fim",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo quatro · quando os aparelhos discordam",
    "titulo": "Cada medida manda num tipo de treino",
-   "cab": [
-    "Treino",
-    "Manda",
-    "Por quê"
-   ],
-   "larguras": [
-    26,
-    30,
-    44
-   ],
-   "linhas": [
-    [
-     "Dia fácil",
-     "fala e percepção",
-     "se conversa em frases inteiras, está fácil"
-    ],
-    [
-     "Intervalado",
-     "ritmo ou potência",
-     "a frequência cardíaca atrasa"
-    ],
-    [
-     "Longo e estável",
-     "frequência cardíaca",
-     "ancorada no limiar, atenção à subida no fim"
-    ]
-   ],
    "destaque": "A conferência final é o dia seguinte. “Fácil” que deixa cansaço pede âncora nova.",
    "destaque_cor": "tinta"
   },

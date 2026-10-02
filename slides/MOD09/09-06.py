@@ -101,6 +101,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Zonas e percepção de esf
                     {"t": "Atleta", "x": "Dá a nota com as mesmas âncoras, sempre."}],
           "quem": "Próxima aula: carga externa, GPS e métricas de campo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-06")
+
 spec = {"arquivo": "aulas/MOD09/09-06-prescricao-por-zonas-e-percepcao-de-esforco.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Prescrição por zonas e percepção de esforço", "subtitulo": "Âncora, medida e conferência",

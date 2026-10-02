@@ -1124,13 +1124,228 @@ def acompanhar_95():
     return slide("acompanhar", 340, p, rs, eyebrow="Como acompanhar, sem laboratório", titulo="Três perguntas",
                  destaque="O caso não tem desfecho aqui. Fica o raciocínio: achar a zona cinzenta, separar os extremos, dosar a qualidade em número.", destaque_cor="tinta")
 
+# ---------------------------------------------------------------- 9.6
+
+def telas_96():
+    """9.6: três telas do mesmo treino, cada uma com a sua âncora escondida embaixo."""
+    p = [svg_abre(1664, 340, "Três telas do mesmo treino de uma hora de bicicleta. O relógio diz zona quatro; sua âncora é uma fórmula de idade. O aplicativo de potência diz zona dois; sua âncora é um teste de um ano atrás. A planilha diz ritmo de conversa; sua âncora é a fala dele, de hoje")]
+    rs = []
+    W = 528
+    for k, (ic, tela, valor, ancora, cor) in enumerate([("t:clock", "o relógio", "zona 4", "fórmula de idade", FOSF), ("t:bolt", "o aplicativo", "zona 2", "teste de um ano atrás", GLIC),
+                                                        ("t:notebook", "a planilha", "“ritmo de conversa”", "a fala dele, de hoje", OXID)]):
+        x = k * (W + 40)
+        p.append(f'<rect x="{x}" y="0" width="{W}" height="220" rx="24" fill="{TINTA}"/>')
+        p.append(f'<rect x="{x + 16}" y="16" width="{W - 32}" height="188" rx="14" fill="#1E3346"/>')
+        p.append(icone(ic, x + 32, 30, 36, PAPEL))
+        rs += [rot(x + 80, 36, tela, w=W - 110, tam=21, cor=PAPEL, peso=700), rot(x + 16, 98, valor, w=W - 32, tam=40 if k < 2 else 30, cor=PAPEL, peso=700, alinha="center", serif=True)]
+        p.append(caixa(x, 240, W, 100, cor, CARTAO, esp=2, rx=14))
+        rs += [rot(x + 20, 252, "âncora", w=W - 40, tam=17, cor=MUDO, peso=700), rot(x + 20, 282, ancora, w=W - 40, tam=23, cor=cor, peso=700)]
+    return slide("telas", 340, p, rs, eyebrow="Uma hora de bicicleta, três respostas", titulo="O relógio diz zona quatro. O aplicativo diz zona dois. A planilha diz “ritmo de conversa”.")
+
+
+def roteiro_96():
+    """9.6: quatro passos em fila, da âncora à conferência."""
+    p = [svg_abre(1664, 300, "Quatro passos em fila. Âncora: o ponto de referência a partir do qual as zonas são calculadas. Medida do dia: frequência cardíaca, ritmo, potência ou percepção de esforço. Zonas: poucas, e refeitas quando a âncora envelhece. Conferência: com a fala e com o dia seguinte"), defs(MUDO)]
+    rs = []
+    W = 380
+    for k, (ic, t, d, cor, fundo) in enumerate([("t:anchor", "Âncora", "o ponto de referência a partir do qual as zonas são calculadas", TINTA, PAPEL),
+                                                ("t:gauge", "Medida do dia", "frequência cardíaca, ritmo, potência ou percepção de esforço", GLIC, GLIC_T),
+                                                ("t:chart-bar", "Zonas", "poucas, e refeitas quando a âncora envelhece", OXID, OXID_T),
+                                                ("t:check", "Conferência", "com a fala e com o dia seguinte", FOSF, FOSF_T)]):
+        x = k * (W + 48)
+        p.append(caixa(x, 0, W, 300, cor, fundo, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 42}" cy="46" r="26" fill="{cor}"/>')
+        rs.append(rot(x + 16, 30, str(k + 1), w=52, tam=26, cor=PAPEL, peso=700, alinha="center", serif=True))
+        p.append(icone(ic, x + W - 66, 22, 48, cor))
+        rs += [rot(x + 22, 100, t, w=W - 44, tam=27, cor=cor, peso=700, serif=True), rot(x + 22, 156, d, w=W - 44, tam=21, cor=TINTA, lh=1.3)]
+        if k < 3:
+            p.append(seta(x + W + 6, 150, x + W + 42, 150, MUDO, "m0", esp=3))
+    return slide("roteiro", 300, p, rs, eyebrow="O roteiro", titulo="Quatro passos")
+
+
+def ancoras_96():
+    """9.6: o máximo estimado com duas faixas de erro somadas, contra o limiar medido, estreito, em esquema."""
+    p = [svg_abre(1664, 360, "Em esquema, duas âncoras. À esquerda, o máximo estimado pela idade: a faixa de erro da fórmula no indivíduo e a faixa de erro da porcentagem se somam numa faixa larga, e o treino fácil do triatleta aparece como zona quatro. À direita, o limiar medido na pessoa: uma faixa estreita, obtida no laboratório quando há, pelo teste da fala para o primeiro limiar, ou por um esforço contínuo de 30 minutos para o segundo")]
+    rs = []
+    p.append(caixa(0, 0, 800, 360, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "Máximo estimado pela idade", w=760, tam=26, cor=FOSF, peso=700, serif=True))
+    for j, (t, w) in enumerate([("erro da fórmula", 300), ("erro da porcentagem", 260)]):
+        y = 90 + j * 70
+        p.append(f'<rect x="{400 - w // 2}" y="{y}" width="{w}" height="46" rx="23" fill="{FOSF}" opacity="0.5"/>')
+        rs.append(rot(24, y + 10, t, w=220, tam=19, cor=TINTA, peso=700))
+    p.append(f'<rect x="120" y="234" width="560" height="46" rx="23" fill="{FOSF}"/>')
+    rs += [rot(120, 244, "dois erros somados", w=560, tam=20, cor=PAPEL, peso=700, alinha="center"),
+           rot(24, 300, "o treino fácil do triatleta vira zona quatro", w=760, tam=20, cor=TINTA, peso=700)]
+    p.append(caixa(864, 0, 800, 360, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(888, 16, "Limiar medido na pessoa", w=760, tam=26, cor=OXID, peso=700, serif=True))
+    p.append(f'<rect x="1220" y="90" width="90" height="46" rx="23" fill="{OXID}"/>')
+    rs.append(rot(888, 100, "faixa estreita", w=320, tam=19, cor=TINTA, peso=700))
+    for j, (ic, t) in enumerate([("t:building-hospital", "laboratório, quando há"), ("t:message-circle", "teste da fala: primeiro limiar"), ("t:stopwatch", "esforço contínuo de 30 min: segundo limiar")]):
+        y = 168 + j * 60
+        p.append(icone(ic, 888, y, 40, OXID))
+        rs.append(rot(944, y + 8, t, w=700, tam=21, cor=TINTA, peso=700))
+    return slide("ancoras", 360, p, rs, eyebrow="E o máximo costuma ser estimado", titulo="Dois erros somados, ou uma âncora medida",
+                 destaque="Os métodos de campo estão na aula de limiares do módulo de fisiologia.", destaque_cor="tinta")
+
+
+def poucas_96():
+    """9.6: uma régua de intensidade com dois limiares e três faixas, e o calendário que lembra de refazer a âncora."""
+    p = [svg_abre(1664, 320, "Uma régua de intensidade com duas linhas, o primeiro e o segundo limiar, e três faixas: fácil abaixo do primeiro, moderado entre os dois, forte acima do segundo. À direita, um calendário: as zonas envelhecem, e refazer a âncora faz parte da prescrição")]
+    rs = []
+    faixas = [(0, 420, "Fácil", "abaixo do 1º limiar", OXID), (430, 360, "Moderado", "entre os limiares", GLIC), (800, 320, "Forte", "acima do 2º limiar", FOSF)]
+    for x, w, t, d, cor in faixas:
+        p.append(f'<rect x="{x}" y="60" width="{w}" height="150" rx="12" fill="{cor}"/>')
+        rs += [rot(x + 20, 92, t, w=w - 40, tam=30, cor=PAPEL, peso=700, serif=True), rot(x + 20, 146, d, w=w - 40, tam=21, cor=PAPEL)]
+    for x, t in [(425, "1º limiar"), (795, "2º limiar")]:
+        p.append(f'<line x1="{x}" y1="40" x2="{x}" y2="232" stroke="{TINTA}" stroke-width="4"/>')
+        rs.append(rot(x - 80, 6, t, w=160, tam=19, cor=TINTA, peso=700, alinha="center"))
+    p.append(f'<path d="M 0 262 L 1100 262" stroke="{MUDO}" stroke-width="2"/>')
+    p.append(f'<path d="M 1090 254 L 1110 262 L 1090 270 Z" fill="{MUDO}"/>')
+    rs.append(rot(0, 274, "intensidade", w=400, tam=18, cor=MUDO))
+    p.append(caixa(1200, 30, 464, 260, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:refresh", 1224, 54, 52, TINTA))
+    rs += [rot(1290, 62, "As zonas envelhecem", w=360, tam=24, cor=TINTA, peso=700, serif=True),
+           rot(1224, 140, "um teste de um ano atrás descreve outra pessoa: refazer a âncora faz parte da prescrição", w=420, tam=20, cor=TINTA, lh=1.3)]
+    return slide("poucas", 320, p, rs, eyebrow="Passo três · as zonas", titulo="Três faixas resolvem quase tudo",
+                 destaque="Cinco ou sete zonas criam uma precisão que nenhum aparelho entrega.", destaque_cor="tinta")
+
+
+def ancorada_96():
+    """9.6: a âncora na idade, riscada, e a âncora na pessoa, conferida pela percepção de esforço."""
+    p = [svg_abre(1664, 320, "Duas âncoras. Na idade: riscada. Na pessoa: marcada como certa, e ligada à ferramenta que confere se ela continua boa, a percepção de esforço"), defs(OXID)]
+    rs = []
+    p.append(caixa(0, 40, 480, 220, FOSF, FOSF_T, esp=2, rx=16))
+    p.append(icone("t:anchor", 40, 100, 90, FOSF))
+    rs.append(rot(150, 120, "na idade", w=300, tam=34, cor=FOSF, peso=700, serif=True))
+    p.append(f'<line x1="30" y1="240" x2="450" y2="60" stroke="{FOSF}" stroke-width="6"/>')
+    p.append(caixa(560, 40, 520, 220, OXID, OXID, esp=0, rx=16))
+    p.append(icone("t:anchor", 600, 100, 90, PAPEL))
+    rs.append(rot(710, 120, "na pessoa", w=340, tam=34, cor=PAPEL, peso=700, serif=True))
+    p.append(seta(1092, 150, 1170, 150, OXID, "m0", esp=4))
+    p.append(caixa(1184, 40, 480, 220, OXID, OXID_T, esp=2, rx=16))
+    p.append(icone("t:gauge", 1208, 70, 60, OXID))
+    rs += [rot(1280, 78, "confere", w=360, tam=26, cor=OXID, peso=700, serif=True), rot(1208, 150, "a percepção de esforço diz se a âncora continua boa", w=430, tam=21, cor=TINTA, peso=700, lh=1.3)]
+    return slide("ancorada", 320, p, rs, eyebrow="A ideia da aula", titulo="Uma zona só vale se estiver ancorada na pessoa, e não na idade dela.")
+
+
+def borg_96():
+    """9.6: a escala de 6 a 20 com os dois limiares marcados e as duas faixas recomendadas."""
+    p = [svg_abre(1664, 360, "A escala de Borg de 6 a 20 desenhada como régua horizontal. Em 2.560 pessoas de idades, modalidades e níveis diferentes, incluindo doença coronariana, o primeiro limiar de lactato ficou, em média, perto de 11, e o limiar anaeróbio individual perto de 13,6. Acima da régua, as faixas recomendadas: 11 a 13 para quem treina menos; 13 a 15 para esforço mais intenso, ainda aeróbio")]
+    rs = []
+    X0, E, Y = 60, 100, 200
+    def px(v):
+        return X0 + (v - 6) * E
+    p.append(f'<line x1="{px(6)}" y1="{Y}" x2="{px(20)}" y2="{Y}" stroke="{TINTA}" stroke-width="4"/>')
+    for v in range(6, 21):
+        p.append(f'<line x1="{px(v)}" y1="{Y - 10}" x2="{px(v)}" y2="{Y + 10}" stroke="{TINTA}" stroke-width="2"/>')
+        if v % 2 == 0 or v in (11, 13, 15):
+            rs.append(rot(px(v) - 30, Y + 18, str(v), w=60, tam=19, cor=TINTA, peso=700, alinha="center"))
+    for a, b, t, cor, y in [(11, 13, "11 a 13: quem treina menos", OXID, 80), (13, 15, "13 a 15: mais intenso, ainda aeróbio", GLIC, 30)]:
+        p.append(f'<rect x="{px(a)}" y="{y + 36}" width="{(b - a) * E}" height="26" rx="13" fill="{cor}"/>')
+        rs.append(rot(px(a), y, t, w=520, tam=19, cor=cor, peso=700) if a == 13 else rot(px(a) - 530, y + 38, t, w=520, tam=19, cor=cor, peso=700, alinha="right"))
+    for v, t, cor in [(11, "1º limiar ≈ 11", OXID), (13.6, "limiar anaeróbio individual ≈ 13,6", FOSF)]:
+        p.append(f'<circle cx="{px(v):.0f}" cy="{Y}" r="14" fill="{cor}"/>')
+        p.append(f'<line x1="{px(v):.0f}" y1="{Y + 14}" x2="{px(v):.0f}" y2="{Y + 80}" stroke="{cor}" stroke-width="2"/>')
+        rs.append(rot(px(v) - 10, Y + 84, t, w=420, tam=20, cor=cor, peso=700))
+    p.append(caixa(0, 260, 380, 100, TINTA, TINTA, esp=0, rx=14))
+    rs += [rot(0, 270, "2.560", w=380, tam=36, cor=PAPEL, peso=700, alinha="center", serif=True), rot(16, 318, "pessoas, incluindo doença coronariana", w=348, tam=17, cor=PAPEL, alinha="center")]
+    return slide("borg", 360, p, rs, eyebrow="A percepção tem respaldo", titulo="Os limiares cabem na escala de Borg",
+                 destaque="Relação independente de sexo, idade e modalidade.", destaque_cor="tinta", fonte="Eur J Appl Physiol 2013")
+
+
+def escalas_96():
+    """9.6: as duas réguas, de 6 a 20 e de 0 a 10, cada uma com o seu uso."""
+    p = [svg_abre(1664, 300, "Duas réguas. De 6 a 20: a do estudo de 2013, para prescrever intensidade durante o esforço. De 0 a 10: para registrar o custo da sessão inteira, assunto da aula de carga interna")]
+    rs = []
+    for k, (a, b, t, uso, cor) in enumerate([(6, 20, "de 6 a 20", "prescrever intensidade durante o esforço", TINTA), (0, 10, "de 0 a 10", "registrar o custo da sessão inteira · carga interna", OXID)]):
+        y = k * 150
+        rs += [rot(0, y + 20, t, w=220, tam=28, cor=cor, peso=700, serif=True), rot(0, y + 70, uso, w=420, tam=19, cor=TINTA, lh=1.25)]
+        n = b - a
+        for i in range(n + 1):
+            x = 460 + i * (1180 / n)
+            p.append(f'<rect x="{x - 2:.0f}" y="{y + 20}" width="4" height="50" fill="{cor}"/>')
+            if n <= 10 or i % 2 == 0:
+                rs.append(rot(x - 25, y + 78, str(a + i), w=50, tam=17, cor=cor, peso=700, alinha="center"))
+        p.append(f'<line x1="460" y1="{y + 45}" x2="1640" y2="{y + 45}" stroke="{cor}" stroke-width="3"/>')
+    return slide("escalas", 300, p, rs, eyebrow="Duas escalas, sem misturar", titulo="O que dá valor à nota são as âncoras",
+                 destaque="Mesmas palavras todas as vezes. Na primeira aplicação: “o treino mais duro que você já fez” é o máximo.", destaque_cor="tinta",
+                 fonte="Borg, Med Sci Sports Exerc 1982")
+
+
+def medidas_96():
+    """9.6: três medidas do dia, cada uma com um pequeno traçado do seu ponto cego."""
+    p = [svg_abre(1664, 360, "Três cartões, cada um com um pequeno traçado em esquema. Frequência cardíaca: nos tiros curtos, a curva ainda sobe quando o tiro acaba; no esforço longo, sobe aos poucos, mais no calor. Ritmo ou potência: responde na hora, em degraus retos; não diz quanto custou naquele dia. Percepção de esforço: integra sono, calor e cansaço, e avisa primeiro")]
+    rs = []
+    W = 528
+    for k, (t, d, cor, fundo) in enumerate([("Frequência cardíaca", "atrasa nos tiros curtos; sobe aos poucos no esforço longo, mais no calor", GLIC, GLIC_T),
+                                            ("Ritmo ou potência", "responde na hora; não diz quanto custou naquele dia", OXID, OXID_T),
+                                            ("Percepção de esforço", "integra sono, calor e cansaço; avisa primeiro", FOSF, FOSF_T)]):
+        x = k * (W + 40)
+        p.append(caixa(x, 0, W, 360, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 24, 16, t, w=W - 48, tam=26, cor=cor, peso=700, serif=True), rot(x + 24, 262, d, w=W - 48, tam=20, cor=TINTA, lh=1.3)]
+    p.append(f'<polyline points="40,200 100,200 100,110 180,110 180,200 260,200 260,110 340,110 340,200 420,200" fill="none" stroke="{MUDO}" stroke-width="3"{TRACO}/>')
+    p.append(f'<path d="M 40 200 L 100 200 C 140 196, 170 150, 180 140 C 200 150, 240 196, 260 190 C 300 170, 330 140, 340 132 C 360 150, 400 190, 420 188" fill="none" stroke="{GLIC}" stroke-width="5"/>')
+    rs.append(rot(300, 70, "esquema", w=200, tam=16, cor=MUDO, alinha="right"))
+    x0 = W + 40
+    p.append(f'<polyline points="{x0 + 40},200 {x0 + 100},200 {x0 + 100},110 {x0 + 180},110 {x0 + 180},200 {x0 + 260},200 {x0 + 260},110 {x0 + 340},110 {x0 + 340},200 {x0 + 420},200" fill="none" stroke="{OXID}" stroke-width="5"/>')
+    x0 = 2 * (W + 40)
+    for j, ic in enumerate(["t:moon", "t:temperature", "t:hourglass"]):
+        p.append(icone(ic, x0 + 50 + j * 150, 110, 64, FOSF))
+    return slide("medidas", 360, p, rs, eyebrow="Passo dois · a medida do dia", titulo="Cada medida tem um ponto cego")
+
+
+def tabela_96():
+    """9.6: três faixas reconhecidas de três jeitos: fala, escala e medida objetiva."""
+    p = [svg_abre(1664, 360, "Uma grade de três faixas por três jeitos de reconhecer. Fácil: frases inteiras; até perto de 11 na escala de 6 a 20; abaixo do primeiro limiar medido. Moderado: frases curtas; em torno de 11 a 14; entre os limiares. Forte: palavras soltas; acima de 14 a 15; acima do segundo limiar")]
+    rs = []
+    cab = [("t:message-circle", "Fala"), ("t:gauge", "Escala de 6 a 20"), ("t:chart-line", "Medida objetiva")]
+    for j, (ic, t) in enumerate(cab):
+        x = 300 + j * 456
+        p.append(icone(ic, x + 10, 0, 36, TINTA))
+        rs.append(rot(x + 56, 4, t, w=380, tam=22, cor=TINTA, peso=700))
+    linhas = [("Fácil", ["frases inteiras", "até perto de 11", "abaixo do 1º limiar medido"], OXID, OXID_T),
+              ("Moderado", ["frases curtas", "em torno de 11 a 14", "entre os limiares"], GLIC, GLIC_T),
+              ("Forte", ["palavras soltas", "acima de 14 a 15", "acima do 2º limiar"], FOSF, FOSF_T)]
+    for k, (t, cel, cor, fundo) in enumerate(linhas):
+        y = 56 + k * 100
+        p.append(caixa(0, y, 280, 86, cor, cor, esp=0, rx=14))
+        rs.append(rot(0, y + 26, t, w=280, tam=27, cor=PAPEL, peso=700, alinha="center", serif=True))
+        for j, c in enumerate(cel):
+            x = 300 + j * 456
+            p.append(caixa(x, y, 440, 86, cor, fundo, esp=2, rx=14))
+            rs.append(rot(x + 20, y + 28, c, w=400, tam=22, cor=TINTA, peso=700))
+    return slide("tabela", 360, p, rs, eyebrow="Juntando tudo", titulo="Três jeitos de reconhecer cada faixa",
+                 destaque="As notas são aproximações de média para começar. Na pessoa, ajustam-se em poucas semanas.", destaque_cor="tinta")
+
+
+def desempate_96():
+    """9.6: três tipos de treino, cada um com a medida que manda e o porquê."""
+    p = [svg_abre(1664, 340, "Três linhas, cada tipo de treino com a medida que manda. Dia fácil: fala e percepção, porque se conversa em frases inteiras está fácil. Intervalado: ritmo ou potência, porque a frequência cardíaca atrasa. Longo e estável: frequência cardíaca, ancorada no limiar, com atenção à subida no fim"), defs(MUDO)]
+    rs = []
+    rs += [rot(400, 0, "manda", w=440, tam=19, cor=MUDO, peso=700, alinha="center"), rot(920, 0, "por quê", w=744, tam=19, cor=MUDO, peso=700, alinha="center")]
+    for k, (t, ic, manda, pq, cor, fundo) in enumerate([("Dia fácil", "t:message-circle", "fala e percepção", "se conversa em frases inteiras, está fácil", OXID, OXID_T),
+                                                        ("Intervalado", "t:bolt", "ritmo ou potência", "a frequência cardíaca atrasa", FOSF, FOSF_T),
+                                                        ("Longo e estável", "t:heart-handshake", "frequência cardíaca", "ancorada no limiar; atenção à subida no fim", GLIC, GLIC_T)]):
+        y = 36 + k * 100
+        p.append(caixa(0, y, 370, 86, cor, fundo, esp=2, rx=14))
+        rs.append(rot(20, y + 26, t, w=330, tam=25, cor=cor, peso=700, serif=True))
+        p.append(caixa(400, y, 440, 86, cor, cor, esp=0, rx=14))
+        p.append(icone(ic, 420, y + 22, 42, PAPEL))
+        rs.append(rot(476, y + 28, manda, w=350, tam=23, cor=PAPEL, peso=700))
+        p.append(seta(850, y + 43, 906, y + 43, MUDO, "m0", esp=3))
+        p.append(caixa(920, y, 744, 86, BORDA, CARTAO, esp=2, rx=14))
+        rs.append(rot(944, y + 28, pq, w=700, tam=22, cor=TINTA))
+    return slide("desempate", 340, p, rs, eyebrow="Passo quatro · quando os aparelhos discordam", titulo="Cada medida manda num tipo de treino",
+                 destaque="A conferência final é o dia seguinte. “Fácil” que deixa cansaço pede âncora nova.", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
           "09-02": [pedidos_92, funciona_92, igualado_92, acontece_92, picos_92, sessoes_92, objetivo_92, minima_92, aplicado_92, sinais_92],
           "09-03": [ficha_93, roteiro_93, objetivo_93, carga_93, crescer_93, frequencia_93, esforco_93, ajustes_93, servico_93, registro_93],
           "09-04": [lance_94, gols_94, tres_94, agilidade_94, descansado_94, treno_94, dose_94, protege_94, resumo_94],
-          "09-05": [planilha_95, tipos_95, ambos_95, elite_95, ensaio_95, paga_95, cinzenta_95, conta_95, plano_95, acompanhar_95]}
+          "09-05": [planilha_95, tipos_95, ambos_95, elite_95, ensaio_95, paga_95, cinzenta_95, conta_95, plano_95, acompanhar_95],
+          "09-06": [telas_96, roteiro_96, ancoras_96, poucas_96, ancorada_96, borg_96, escalas_96, medidas_96, tabela_96, desempate_96]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
