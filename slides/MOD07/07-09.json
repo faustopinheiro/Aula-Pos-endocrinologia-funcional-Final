@@ -22,266 +22,1390 @@
  "slides": [
   {
    "id": "sala",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Três perfis típicos na sala de espera, cada um com uma decisão. A corredora com dor na frente do joelho há meses, que nunca inchou, travou ou falseou. O jogador que torceu sem contato, ouviu um estalo e viu o joelho inchar em horas. O atleta com alguns meses de pós-operatório do cruzado, sem dor, com pressa de voltar\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"268\" cy=\"86\" r=\"62\" fill=\"#DDEFEC\"/><g transform=\"translate(228.0 46.0) scale(1.6667)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><rect x=\"168\" y=\"296\" width=\"200\" height=\"44\" rx=\"22\" fill=\"#008A7E\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"832\" cy=\"86\" r=\"62\" fill=\"#F3E1DE\"/><g transform=\"translate(792.0 46.0) scale(1.6667)\"><path fill=\"#A8322A\" d=\"M28 8a4 4 0 1 1-8 0a4 4 0 0 1 8 0M18 18.82c-.217.513-.41 1.19-.564 1.995C17.03 22.931 17 25.273 17 26a2 2 0 1 1-4 0c0-.773.026-3.431.508-5.94c.238-1.236.616-2.607 1.265-3.717c.651-1.115 1.822-2.343 3.671-2.343h11.112c1.849 0 3.02 1.228 3.671 2.343c.649 1.11 1.027 2.48 1.265 3.717c.482 2.509.508 5.167.508 5.94a2 2 0 1 1-4 0c0-.727-.03-3.069-.436-5.185c-.155-.805-.347-1.482-.564-1.994V42a2 2 0 0 1-3.994.153l-1-13A2 2 0 0 1 25 29h-2q0 .076-.006.153l-1 13A2 2 0 0 1 18 42z\"/></g><rect x=\"732\" y=\"296\" width=\"200\" height=\"44\" rx=\"22\" fill=\"#A8322A\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"1396\" cy=\"86\" r=\"62\" fill=\"#F4EAD6\"/><g transform=\"translate(1356.0 46.0) scale(1.6667)\"><g fill=\"#B07A1C\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"1296\" y=\"296\" width=\"200\" height=\"44\" rx=\"22\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 168,
+     "w": 490,
+     "t": "Dor na frente do joelho",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 216,
+     "w": 490,
+     "t": "há meses; nunca inchou, travou ou falseou",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 168,
+     "y": 306,
+     "w": 200,
+     "t": "decisão um",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 168,
+     "w": 490,
+     "t": "Inchou em poucas horas",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 216,
+     "w": 490,
+     "t": "torceu sem contato, estalo, o joelho saiu e voltou",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 732,
+     "y": 306,
+     "w": 200,
+     "t": "decisão dois",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 168,
+     "w": 490,
+     "t": "Pós-operatório com pressa",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 216,
+     "w": 490,
+     "t": "alguns meses de cruzado, sem dor, quer jogar agora",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1296,
+     "y": 306,
+     "w": 200,
+     "t": "decisão três",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Três perfis típicos na sala de espera",
-   "frase": "Dor na frente do joelho, joelho que inchou em horas, pós-operatório com pressa.",
-   "apoio": "Três decisões diferentes, com urgências diferentes. O que cada profissional precisa reconhecer, encaminhar e parar de fazer."
+   "titulo": "Dor na frente do joelho, joelho que inchou em horas, pós-operatório com pressa.",
+   "destaque": "Três decisões diferentes, com urgências diferentes. O que cada profissional precisa reconhecer, encaminhar e parar de fazer.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "femoropatelar",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o joelho de frente com a dor desenhada como um halo difuso em volta da patela, apontada com a mão inteira. Piora em flexão sob carga: escada, agachar, cinema; mais depois da atividade que durante. À direita, o que ela não tem: inchaço, travamento, falseio. Se tem, é a decisão dois\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"1000\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><path d=\"M 140 70 C 120 160, 120 240, 140 380 M 340 70 C 360 160, 360 240, 340 380\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\"/><ellipse cx=\"240\" cy=\"220\" rx=\"110\" ry=\"120\" fill=\"#A8322A\" opacity=\"0.18\"/><ellipse cx=\"240\" cy=\"220\" rx=\"70\" ry=\"80\" fill=\"#A8322A\" opacity=\"0.22\"/><ellipse cx=\"240\" cy=\"220\" rx=\"44\" ry=\"54\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(330.0 110.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><rect x=\"460\" y=\"80\" width=\"500\" height=\"62\" rx=\"31\" fill=\"#DDEFEC\"/><g transform=\"translate(478.0 93.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><rect x=\"460\" y=\"156\" width=\"500\" height=\"62\" rx=\"31\" fill=\"#DDEFEC\"/><g transform=\"translate(478.0 169.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"460\" y=\"232\" width=\"500\" height=\"62\" rx=\"31\" fill=\"#DDEFEC\"/><g transform=\"translate(478.0 245.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm4-2v16m8-16v16M4 8h4m-4 8h4m-4-4h16m-4-4h4m-4 8h4\"/></g><rect x=\"1040\" y=\"0\" width=\"624\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1064.0 90.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1064.0 166.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1064.0 242.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"1064\" y=\"316\" width=\"576\" height=\"64\" rx=\"32\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 400,
+     "t": "O padrão",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 296,
+     "y": 172,
+     "w": 150,
+     "t": "aponta com a mão inteira",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 528,
+     "y": 98,
+     "w": 420,
+     "t": "escada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 528,
+     "y": 174,
+     "w": 420,
+     "t": "agachar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 528,
+     "y": 250,
+     "w": 420,
+     "t": "cinema",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 50,
+     "w": 500,
+     "t": "piora em flexão sob carga",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 318,
+     "w": 520,
+     "t": "mais depois da atividade que durante",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 16,
+     "w": 560,
+     "t": "O que ela não tem",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1120,
+     "y": 94,
+     "w": 500,
+     "t": "inchaço",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 170,
+     "w": 500,
+     "t": "travamento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 246,
+     "w": 500,
+     "t": "falseio",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 334,
+     "w": 576,
+     "t": "se tem: é a decisão dois",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Decisão um · dor na frente do joelho",
    "titulo": "Reconhecer a dor femoropatelar sem exame",
-   "esq": {
-    "t": "O padrão",
-    "cor": "petr",
-    "itens": [
-     "dor difusa em volta da patela",
-     "aponta com a mão inteira",
-     "piora em flexão sob carga: escada, agachar, cinema",
-     "mais depois da atividade que durante"
-    ]
-   },
-   "dir": {
-    "t": "O que ela não tem",
-    "cor": "verm",
-    "itens": [
-     "inchaço",
-     "travamento",
-     "falseio",
-     "se tem: é a decisão dois"
-    ]
-   },
    "destaque": "É a queixa de joelho mais comum em quem corre, agacha, e no adolescente que cresce rápido.",
    "destaque_cor": "tinta"
   },
   {
    "id": "mensagens",
-   "tipo": "cards",
-   "por_linha": 2,
-   "eyebrow": "No primeiro contato",
-   "titulo": "Duas mensagens que mudam o tratamento",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Dois balões de fala para o primeiro contato. Não é desgaste: não é artrose, e o joelho não está acabando; o medo quase sempre vem de laudo mal explicado. Parar e esperar não resolve: uma parte importante continua com dor anos depois; é um dos quadros que mais cronificam\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><path d=\"M 20 0 H 792 Q 812 0 812 20 V 260 Q 812 280 792 280 H 180 L 110 336 L 120 280 H 20 Q 0 280 0 260 V 20 Q 0 0 20 0 Z\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(28.0 28.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M11.46 20.846A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3a12 12 0 0 0 8.5 3a12 12 0 0 1-.09 7.06M15 19l2 2l4-4\"/></g><path d=\"M 872 0 H 1644 Q 1664 0 1664 20 V 260 Q 1664 280 1644 280 H 1032 L 962 336 L 972 280 H 872 Q 852 280 852 260 V 20 Q 852 0 872 0 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(880.0 28.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g></svg>",
+   "rotulos": [
     {
-     "t": "Não é desgaste",
-     "x": "não é artrose, e o joelho não está acabando; o medo quase sempre vem de laudo mal explicado",
-     "cor": "petr"
+     "x": 96,
+     "y": 34,
+     "w": 690,
+     "t": "“Não é desgaste.”",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Parar e esperar não resolve",
-     "x": "uma parte importante continua com dor anos depois; é um dos quadros que mais cronificam",
-     "cor": "verm"
+     "x": 28,
+     "y": 120,
+     "w": 760,
+     "t": "não é artrose, e o joelho não está acabando; o medo quase sempre vem de laudo mal explicado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
+    },
+    {
+     "x": 948,
+     "y": 34,
+     "w": 690,
+     "t": "“Parar e esperar não resolve.”",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 120,
+     "w": 760,
+     "t": "uma parte importante continua com dor anos depois; é um dos quadros que mais cronificam",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.35
     }
    ],
-   "destaque_cor": "tinta",
+   "eyebrow": "No primeiro contato",
+   "titulo": "Duas mensagens que mudam o tratamento",
    "fonte": "Consenso de dor femoropatelar, Br J Sports Med 2016"
   },
   {
    "id": "fazer",
-   "tipo": "lista",
-   "eyebrow": "Consenso de tratamento, 2018",
-   "titulo": "O que fazer",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"O tratamento desenhado pelo tamanho da evidência. Uma caixa grande: exercício de quadril e joelho, quadríceps e glúteos, carga que progride, por meses. Duas caixas médias de complemento: ajuste de treino, porque quase sempre houve mudança de carga antes da dor; palmilha pré-fabricada, apoiada para alívio no curto prazo. Duas caixas pequenas e apagadas: bandagem patelar, com incerteza; mobilização isolada e eletroterapia, não recomendadas\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"400\" rx=\"18\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><g transform=\"translate(32.0 32.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"800\" y=\"0\" width=\"864\" height=\"124\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"800\" y=\"140\" width=\"864\" height=\"124\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"800\" y=\"290\" width=\"424\" height=\"110\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#C9CFD4\" stroke-width=\"2\"/><rect x=\"1240\" y=\"290\" width=\"424\" height=\"110\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#C9CFD4\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 32,
+     "y": 140,
+     "w": 700,
      "t": "Exercício de quadril e joelho",
-     "x": "quadríceps e glúteos, carga que progride, por meses",
-     "cor": "petr"
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 32,
+     "y": 250,
+     "w": 690,
+     "t": "quadríceps e glúteos, carga que progride, por meses",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 824,
+     "y": 16,
+     "w": 820,
      "t": "Ajuste de treino",
-     "x": "quase sempre houve mudança de carga antes da dor",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 824,
+     "y": 62,
+     "w": 820,
+     "t": "quase sempre houve mudança de carga antes da dor",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 824,
+     "y": 156,
+     "w": 820,
      "t": "Palmilha pré-fabricada",
-     "x": "apoiada para alívio no curto prazo, como complemento",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 824,
+     "y": 202,
+     "w": 820,
+     "t": "apoiada para alívio no curto prazo, como complemento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 304,
+     "w": 390,
      "t": "Bandagem patelar",
-     "x": "incerteza; mobilização isolada e eletroterapia não recomendadas",
-     "cor": "verm"
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 820,
+     "y": 362,
+     "w": 390,
+     "t": "incerteza",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 304,
+     "w": 390,
+     "t": "Mobilização isolada, eletroterapia",
+     "tam": 21,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1260,
+     "y": 362,
+     "w": 390,
+     "t": "não recomendadas",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 22,
+   "eyebrow": "Consenso de tratamento, 2018",
+   "titulo": "O que fazer",
    "fonte": "Br J Sports Med 2018"
   },
   {
    "id": "naofazer",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "E o que parar de fazer",
-   "titulo": "Quatro erros de rotina",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Quatro erros de rotina, cada um com um X. Parar e esperar: a força cai e a dor volta pior. Imagem por reflexo: raramente muda a conduta, e traz achados de quem não tem dor. Recurso passivo sozinho: ajuda a atravessar a dor, mas quem trata é o exercício. Prometer duas semanas: o quadro leva meses\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"392\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m17 8v-3H2m0-6v9m10-3h10v-2a3 3 0 0 0-3-3h-7z\"/></g><g transform=\"translate(330.0 24.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"424\" y=\"0\" width=\"392\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(448.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><g transform=\"translate(754.0 24.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"848\" y=\"0\" width=\"392\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(872.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g><g transform=\"translate(1178.0 24.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"1272\" y=\"0\" width=\"392\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1296.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><g transform=\"translate(1602.0 24.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 104,
+     "w": 350,
      "t": "Parar e esperar",
-     "x": "a força cai e a dor volta pior",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 200,
+     "w": 350,
+     "t": "a força cai e a dor volta pior",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 448,
+     "y": 104,
+     "w": 350,
      "t": "Imagem por reflexo",
-     "x": "raramente muda a conduta; achados de quem não tem dor",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 448,
+     "y": 200,
+     "w": 350,
+     "t": "raramente muda a conduta; achados de quem não tem dor",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 872,
+     "y": 104,
+     "w": 350,
      "t": "Recurso passivo sozinho",
-     "x": "ajuda a atravessar a dor; quem trata é o exercício",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 872,
+     "y": 200,
+     "w": 350,
+     "t": "ajuda a atravessar a dor; quem trata é o exercício",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1296,
+     "y": 104,
+     "w": 350,
      "t": "Prometer duas semanas",
-     "x": "o quadro leva meses",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1296,
+     "y": 200,
+     "w": 350,
+     "t": "o quadro leva meses",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "E o que parar de fazer",
+   "titulo": "Quatro erros de rotina",
    "destaque": "No adolescente, a mesma lógica, com o tendão abaixo da patela e a placa de crescimento em mente, e ainda mais paciência.",
    "destaque_cor": "tinta"
   },
   {
    "id": "inchou",
-   "tipo": "lista",
-   "eyebrow": "Decisão dois · inchou em poucas horas",
-   "titulo": "Sangue na articulação até prova em contrário",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, em esquema, duas curvas de inchaço depois do trauma. Uma sobe nas primeiras horas: sangue na articulação até prova em contrário. Outra só aparece no dia seguinte: mais comum e menos grave. À direita, os quatro sinais que somados elevam a suspeita: mecanismo sem contato, na mudança de direção, desaceleração ou aterrissagem; estalo, ou sensação de que o joelho saiu do lugar e voltou; inchaço rápido, nas primeiras horas; insegurança, a sensação de que o joelho vai falhar\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"50\" y1=\"320\" x2=\"790\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><path d=\"M 50 320 C 120 310, 160 110, 280 90 S 600 80, 780 84\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><path d=\"M 50 320 C 300 316, 420 300, 520 230 S 700 200, 780 196\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><line x1=\"200\" y1=\"320\" x2=\"200\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"560\" y1=\"320\" x2=\"560\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"860\" y=\"0\" width=\"804\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"860\" y=\"102\" width=\"804\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"860\" y=\"204\" width=\"804\" height=\"90\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"860\" y=\"306\" width=\"804\" height=\"90\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 110,
+     "y": 336,
+     "w": 180,
+     "t": "poucas horas",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 336,
+     "w": 180,
+     "t": "dia seguinte",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 20,
+     "w": 500,
+     "t": "em horas: sangue na articulação até prova em contrário",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 560,
+     "y": 132,
+     "w": 230,
+     "t": "no dia seguinte: mais comum, menos grave",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 16,
+     "w": 300,
+     "t": "inchaço · esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 12,
+     "w": 760,
      "t": "Mecanismo sem contato",
-     "x": "mudança de direção, desaceleração, aterrissagem",
-     "cor": "verm"
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 884,
+     "y": 50,
+     "w": 760,
+     "t": "mudança de direção, desaceleração, aterrissagem",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 114,
+     "w": 760,
      "t": "Estalo",
-     "x": "ou sensação de que o joelho saiu do lugar e voltou",
-     "cor": "verm"
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 884,
+     "y": 152,
+     "w": 760,
+     "t": "ou o joelho saiu do lugar e voltou",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 216,
+     "w": 760,
      "t": "Inchaço rápido",
-     "x": "nas primeiras horas, não no dia seguinte",
-     "cor": "verm"
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 884,
+     "y": 254,
+     "w": 760,
+     "t": "nas primeiras horas, não no dia seguinte",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 318,
+     "w": 760,
      "t": "Insegurança",
-     "x": "a sensação de que o joelho vai falhar",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 356,
+     "w": 760,
+     "t": "a sensação de que o joelho vai falhar",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 22,
+   "eyebrow": "Decisão dois · inchou em poucas horas",
+   "titulo": "Sangue na articulação até prova em contrário",
    "destaque": "No esporte, a causa mais comum desse sangramento é a lesão do ligamento cruzado anterior.",
    "destaque_cor": "verm"
   },
   {
    "id": "gramado",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"No gramado, quatro passos em fila: tirar do jogo, sem negociar; deixar confortável; controlar dor e inchaço; encaminhar para avaliação médica. Ao lado, riscadas: testar o joelho com adrenalina alta; deixar voltar porque a dor passou; prometer que não foi nada\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"50\" width=\"900\" height=\"70\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 65.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g><line x1=\"450\" y1=\"120\" x2=\"450\" y2=\"132\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"132\" width=\"900\" height=\"70\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 147.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M12 6L8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a3.18 3.18 0 0 1 4.5 0l2.25 2.25m-7 3l2 2M15 13l2 2\"/></g></g><line x1=\"450\" y1=\"202\" x2=\"450\" y2=\"214\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"214\" width=\"900\" height=\"70\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 229.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><line x1=\"450\" y1=\"284\" x2=\"450\" y2=\"296\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"296\" width=\"900\" height=\"70\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 311.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"960\" y=\"0\" width=\"704\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(984.0 90.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(984.0 182.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(984.0 274.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "t": "Fazer",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 76,
+     "y": 70,
+     "w": 800,
+     "t": "tirar do jogo, sem negociar",
+     "tam": 23,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 152,
+     "w": 800,
+     "t": "deixar confortável",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 234,
+     "w": 800,
+     "t": "controlar dor e inchaço",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 316,
+     "w": 800,
+     "t": "encaminhar para avaliação médica",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 18,
+     "w": 600,
+     "t": "Não fazer",
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1040,
+     "y": 96,
+     "w": 600,
+     "t": "testar o joelho com adrenalina alta",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 188,
+     "w": 600,
+     "t": "deixar voltar porque a dor passou",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 280,
+     "w": 600,
+     "t": "prometer que “não foi nada”",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "No momento",
    "titulo": "O que a comissão faz no gramado",
-   "esq": {
-    "t": "Fazer",
-    "cor": "petr",
-    "itens": [
-     "tirar do jogo, sem negociar",
-     "deixar confortável",
-     "controlar dor e inchaço",
-     "encaminhar para avaliação médica"
-    ]
-   },
-   "dir": {
-    "t": "Não fazer",
-    "cor": "verm",
-    "itens": [
-     "testar o joelho com adrenalina alta",
-     "deixar voltar porque a dor passou",
-     "prometer que “não foi nada”"
-    ]
-   },
    "destaque": "Nem todo joelho que incha assim é cruzado: menisco, cartilagem e luxação da patela também incham rápido.",
    "destaque_cor": "tinta"
   },
   {
    "id": "depois",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma balança com cirurgia num prato e reabilitação sem cirurgia no outro, e a pessoa no meio. O que pesa na decisão: esporte e nível; idade e lesões associadas; instabilidade no dia a dia; o que a pessoa quer fazer. Ao lado, o que vale para os dois caminhos: a reabilitação decide o resultado; o tempo é longo; e isso é dito no começo, não no meio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"1000\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><path d=\"M 460 250 L 500 120 L 540 250 Z\" fill=\"#B07A1C\"/><line x1=\"200\" y1=\"120\" x2=\"800\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"6\" stroke-linecap=\"round\"/><line x1=\"200\" y1=\"120\" x2=\"120\" y2=\"190\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"200\" y1=\"120\" x2=\"280\" y2=\"190\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 100 190 H 300 Q 200 250 100 190 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"800\" y1=\"120\" x2=\"720\" y2=\"190\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"800\" y1=\"120\" x2=\"880\" y2=\"190\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 700 190 H 900 Q 800 250 700 190 Z\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(470.0 40.0) scale(1.2500)\"><g fill=\"#12202E\"><path d=\"M6 36c0-4.965 11.993-8 18-8c6.008 0 18 3.035 18 8v6H6z\"/><path fill-rule=\"evenodd\" d=\"M24 26c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></g><rect x=\"24\" y=\"280\" width=\"466\" height=\"46\" rx=\"23\" fill=\"#F4EAD6\"/><rect x=\"504\" y=\"280\" width=\"466\" height=\"46\" rx=\"23\" fill=\"#F4EAD6\"/><rect x=\"24\" y=\"336\" width=\"466\" height=\"46\" rx=\"23\" fill=\"#F4EAD6\"/><rect x=\"504\" y=\"336\" width=\"466\" height=\"46\" rx=\"23\" fill=\"#F4EAD6\"/><rect x=\"1040\" y=\"0\" width=\"624\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1064.0 96.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1064.0 192.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1064.0 288.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 60,
+     "w": 280,
+     "t": "cirurgia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 660,
+     "y": 60,
+     "w": 280,
+     "t": "reabilitação sem cirurgia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 24,
+     "y": 291,
+     "w": 466,
+     "t": "esporte e nível",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 291,
+     "w": 466,
+     "t": "idade e lesões associadas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 347,
+     "w": 466,
+     "t": "instabilidade no dia a dia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 504,
+     "y": 347,
+     "w": 466,
+     "t": "o que a pessoa quer fazer",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 18,
+     "w": 580,
+     "t": "Vale para os dois caminhos",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1118,
+     "y": 102,
+     "w": 520,
+     "t": "a reabilitação decide o resultado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1118,
+     "y": 198,
+     "w": 520,
+     "t": "o tempo é longo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1118,
+     "y": 294,
+     "w": 520,
+     "t": "dito no começo, não no meio",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Depois da confirmação",
    "titulo": "Nem toda lesão do cruzado vai para cirurgia",
-   "esq": {
-    "t": "Pesa na decisão",
-    "cor": "ambar",
-    "itens": [
-     "esporte e nível",
-     "idade e lesões associadas",
-     "instabilidade no dia a dia",
-     "o que a pessoa quer fazer"
-    ]
-   },
-   "dir": {
-    "t": "Vale para os dois caminhos",
-    "cor": "petr",
-    "itens": [
-     "a reabilitação decide o resultado",
-     "o tempo é longo",
-     "dito no começo, não no meio"
-    ]
-   },
    "destaque": "A decisão é médica e compartilhada. Expectativa mal calibrada no começo vira pressa lá na frente.",
    "destaque_cor": "tinta"
   },
   {
    "id": "grindem",
-   "tipo": "numeros",
-   "eyebrow": "Decisão três · coorte de Delaware e Oslo, 106 atletas",
-   "titulo": "Tempo e critério, os dois",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, em esquema, o risco de nova lesão no joelho conforme o mês da volta: cai cerca de 51% por mês de espera até o nono mês de cirurgia e, depois disso, adiar mais não reduziu. À direita, duas barras: 38% de nova lesão entre quem não passou nos critérios de retorno, e cerca de 6% entre quem passou\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><polyline points=\"60,60 124,120 188,164 252,196 316,219 380,236 444,248 508,257 572,263 636,268 700,268 764,268 828,268\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><line x1=\"60\" y1=\"320\" x2=\"828\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"636\" y1=\"60\" x2=\"636\" y2=\"320\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1040\" y=\"102\" width=\"220\" height=\"228\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1360\" y=\"294\" width=\"220\" height=\"36\" rx=\"6\" fill=\"#008A7E\"/><line x1=\"1000\" y1=\"330\" x2=\"1624\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
-     "n": "−51%",
-     "x": "de nova lesão por mês de espera, até o nono mês",
-     "cor": "petr"
+     "x": 30,
+     "y": 328,
+     "w": 60,
+     "t": "0",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "38%",
-     "x": "nova lesão entre quem não passou nos critérios",
-     "cor": "verm"
+     "x": 222,
+     "y": 328,
+     "w": 60,
+     "t": "3",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "6%",
-     "x": "nova lesão entre quem passou",
-     "cor": "petr"
+     "x": 414,
+     "y": 328,
+     "w": 60,
+     "t": "6",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 606,
+     "y": 328,
+     "w": 60,
+     "t": "9",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 798,
+     "y": 328,
+     "w": 60,
+     "t": "12",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 360,
+     "w": 800,
+     "t": "mês da volta depois da cirurgia · esquema",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 30,
+     "w": 440,
+     "t": "−51% de nova lesão por mês de espera",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 646,
+     "y": 170,
+     "w": 230,
+     "t": "depois do nono mês: plano",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 984,
+     "y": 16,
+     "w": 660,
+     "t": "nova lesão no joelho",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 52,
+     "w": 220,
+     "t": "38%",
+     "tam": 40,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1000,
+     "y": 340,
+     "w": 300,
+     "t": "não passou nos critérios",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 244,
+     "w": 220,
+     "t": "6%",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1320,
+     "y": 340,
+     "w": 300,
+     "t": "passou",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Decisão três · coorte de Delaware e Oslo, 106 atletas",
+   "titulo": "Tempo e critério, os dois",
    "destaque": "Depois do nono mês, adiar mais não reduziu o risco. Voltar cedo e voltar sem critério são erros que se somam.",
    "destaque_cor": "tinta",
    "fonte": "Grindem e colegas, Br J Sports Med 2016"
   },
   {
    "id": "regras",
-   "tipo": "lista",
-   "eyebrow": "O que isso significa para a equipe",
-   "titulo": "Três regras do retorno",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três regras do retorno. Tempo é necessário, não suficiente: nove meses sem critério não libera. Critério decide: simetria de força do quadríceps, testes funcionais, o gesto do esporte. O prazo se combina no primeiro mês: aí a decisão do oitavo é só cumprir um plano\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"46\" cy=\"46\" r=\"24\" fill=\"#B07A1C\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"610\" cy=\"46\" r=\"24\" fill=\"#008A7E\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"1174\" cy=\"46\" r=\"24\" fill=\"#12202E\"/><g transform=\"translate(70.0 120.0) scale(4.5833)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><g transform=\"translate(330.0 140.0) scale(2.9167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"588\" y=\"120\" width=\"488\" height=\"68\" rx=\"34\" fill=\"#DDEFEC\"/><g transform=\"translate(606.0 136.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"588\" y=\"202\" width=\"488\" height=\"68\" rx=\"34\" fill=\"#DDEFEC\"/><g transform=\"translate(606.0 218.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.615 20H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8m-3 5l2 2l4-4M9 8h4m-4 4h2\"/></g><rect x=\"588\" y=\"284\" width=\"488\" height=\"68\" rx=\"34\" fill=\"#DDEFEC\"/><g transform=\"translate(606.0 300.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"m12 7l4.76 3.45L15 16H9l-1.76-5.55zm0 0V3m3 13l2.5 3m-.74-8.55L20.5 9M9.06 16.05L6.5 19m.74-8.55L3.5 9\"/></g></g><rect x=\"1160\" y=\"130\" width=\"150\" height=\"110\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><rect x=\"1400\" y=\"130\" width=\"150\" height=\"110\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1314\" y1=\"185\" x2=\"1394\" y2=\"185\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
     {
+     "x": 22,
+     "y": 32,
+     "w": 48,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 26,
+     "w": 430,
      "t": "Tempo é necessário, não suficiente",
-     "x": "nove meses sem critério não libera",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 290,
+     "w": 490,
+     "t": "nove meses sem critério não libera",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 586,
+     "y": 32,
+     "w": 48,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 650,
+     "y": 26,
+     "w": 430,
      "t": "Critério decide",
-     "x": "simetria de força do quadríceps, testes funcionais, o gesto do esporte",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
     },
     {
+     "x": 1150,
+     "y": 32,
+     "w": 48,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1214,
+     "y": 26,
+     "w": 430,
      "t": "O prazo se combina no primeiro mês",
-     "x": "aí a decisão do oitavo é só cumprir um plano",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 290,
+     "w": 490,
+     "t": "aí a decisão do oitavo é só cumprir um plano",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 220,
+     "y": 220,
+     "w": 300,
+     "t": "9 meses sozinho",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 656,
+     "y": 141,
+     "w": 410,
+     "t": "simetria de força do quadríceps",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 656,
+     "y": 223,
+     "w": 410,
+     "t": "testes funcionais",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 656,
+     "y": 305,
+     "w": 410,
+     "t": "o gesto do esporte",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 158,
+     "w": 150,
+     "t": "mês 1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 196,
+     "w": 150,
+     "t": "combina",
+     "tam": 18,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 158,
+     "w": 150,
+     "t": "mês 8",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 196,
+     "w": 150,
+     "t": "cumpre",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 26,
+   "eyebrow": "O que isso significa para a equipe",
+   "titulo": "Três regras do retorno",
    "destaque": "Os testes específicos ficam para o módulo de reabilitação.",
    "destaque_cor": "tinta"
   },
   {
    "id": "prevencao",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"O aquecimento estruturado no centro, em grupo e sem equipamento, com quatro componentes em volta: força, equilíbrio, aterrissagem e mudança de direção. Embaixo, a condição: várias vezes por semana, a temporada inteira. E uma etiqueta: atenção especial à atleta mulher\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"560\" y=\"90\" width=\"544\" height=\"150\" rx=\"20\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/><rect x=\"0\" y=\"0\" width=\"480\" height=\"130\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 37.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"480\" y1=\"65\" x2=\"560\" y2=\"165\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"200\" width=\"480\" height=\"130\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 237.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 20h4l1.5-3m7.5 3l-1-5h-5l1-7\"/><path d=\"m4 10l4-1l4-1l4 1.5l4 1.5m-9.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><line x1=\"480\" y1=\"265\" x2=\"560\" y2=\"165\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1184\" y=\"0\" width=\"480\" height=\"130\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1208.0 37.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m7 7l10 10m0-9v9H8\"/></g><line x1=\"1184\" y1=\"65\" x2=\"1104\" y2=\"165\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1184\" y=\"200\" width=\"480\" height=\"130\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1208.0 237.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><line x1=\"1184\" y1=\"265\" x2=\"1104\" y2=\"165\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"560\" y=\"270\" width=\"544\" height=\"70\" rx=\"35\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"640\" y=\"0\" width=\"384\" height=\"60\" rx=\"30\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(656.0 10.0) scale(0.8333)\"><path fill=\"#A8322A\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 570,
+     "y": 116,
+     "w": 524,
+     "t": "Aquecimento estruturado",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 570,
+     "y": 170,
+     "w": 524,
+     "t": "em grupo, sem equipamento",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 46,
+     "w": 360,
+     "t": "força",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 246,
+     "w": 360,
+     "t": "equilíbrio",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 46,
+     "w": 360,
+     "t": "aterrissagem",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 246,
+     "w": 360,
+     "t": "mudança de direção",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 290,
+     "w": 544,
+     "t": "várias vezes por semana, a temporada inteira",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 17,
+     "w": 310,
+     "t": "atenção à atleta mulher",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A parte que evitaria boa parte disso",
-   "frase": "Aquecimento estruturado reduz lesão do cruzado, quando é feito de verdade.",
-   "apoio": "Força, equilíbrio, aterrissagem e mudança de direção, em grupo e sem equipamento. Atenção especial à atleta mulher. Números e adesão fecham o módulo, na última aula."
+   "titulo": "Aquecimento estruturado reduz lesão do cruzado, quando é feito de verdade.",
+   "destaque": "Os números de efeito e o problema da adesão fecham o módulo.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "fecho",

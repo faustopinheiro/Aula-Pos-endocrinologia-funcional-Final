@@ -87,6 +87,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Três decisões", "titulo"
                     {"t": "Coordenação", "x": "Segura a pressão para a decisão ser clínica."}],
           "quem": "Próxima aula: tornozelo e ombro."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-09")
+
 spec = {"arquivo": "aulas/MOD07/07-09-lesoes-do-joelho-no-esporte.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Lesões do joelho no esporte", "subtitulo": "Três decisões, da dor anterior ao ligamento",
