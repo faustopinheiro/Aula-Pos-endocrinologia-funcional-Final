@@ -1,0 +1,1028 @@
+{
+ "arquivo": "aulas/MOD11/11-04-contracepcao-hormonal-no-esporte.md",
+ "titulo": "Contracepção hormonal no esporte",
+ "subtitulo": "Quando o sinal vital sai do painel",
+ "nota_capa": "Entra por uma lutadora que escreveu nenhuma no campo de medicações.",
+ "secoes": {
+  "ficha": [
+   "O sinal que sai.",
+   "capa"
+  ],
+  "grupos": [
+   "O que cada método faz.",
+   "grupos"
+  ],
+  "encruzilhada": [
+   "A decisão.",
+   "encruzilhada"
+  ],
+  "condutas": [
+   "As condutas.",
+   "condutas"
+  ]
+ },
+ "slides": [
+  {
+   "id": "ficha",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Uma ficha de anamnese com o campo medicações em uso preenchido com nenhuma, e ao lado o implante no braço, a cartela de pílula e o DIU. À direita, um painel de mostradores clínicos com o mostrador do sangramento apagado. Embaixo: perto de metade das atletas de elite usa contracepção hormonal\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"0\" y=\"0\" width=\"600\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"30\" y1=\"230\" x2=\"570\" y2=\"230\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"60\" y=\"260\" width=\"140\" height=\"22\" rx=\"11\" fill=\"#B07A1C\"/><rect x=\"250\" y=\"250\" width=\"120\" height=\"80\" rx=\"10\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"270\" cy=\"272\" r=\"10\" fill=\"#3A6EA5\"/><circle cx=\"310\" cy=\"272\" r=\"10\" fill=\"#3A6EA5\"/><circle cx=\"350\" cy=\"272\" r=\"10\" fill=\"#3A6EA5\"/><circle cx=\"270\" cy=\"308\" r=\"10\" fill=\"#3A6EA5\"/><circle cx=\"310\" cy=\"308\" r=\"10\" fill=\"#3A6EA5\"/><circle cx=\"350\" cy=\"308\" r=\"10\" fill=\"#3A6EA5\"/><path d=\"M 470 250 L 470 330 M 440 255 Q 470 240 500 255\" stroke=\"#008A7E\" stroke-width=\"6\" fill=\"none\"/><circle cx=\"780\" cy=\"80\" r=\"70\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"780\" y1=\"80\" x2=\"820\" y2=\"40\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"1110\" cy=\"80\" r=\"70\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"1110\" y1=\"80\" x2=\"1150\" y2=\"40\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"1440\" cy=\"80\" r=\"70\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"1440\" y1=\"80\" x2=\"1480\" y2=\"40\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"780\" cy=\"260\" r=\"70\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"780\" y1=\"260\" x2=\"820\" y2=\"220\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"1110\" cy=\"260\" r=\"70\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"6\"/><line x1=\"1110\" y1=\"260\" x2=\"1150\" y2=\"220\" stroke=\"#008A7E\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"1440\" cy=\"260\" r=\"70\" fill=\"#FDFCF9\" stroke=\"#C9CFD4\" stroke-width=\"6\"/><line x1=\"1390\" y1=\"210\" x2=\"1490\" y2=\"310\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"0\" y=\"390\" width=\"1664\" height=\"90\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 24,
+     "w": 540,
+     "t": "Ficha de anamnese",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 100,
+     "w": 540,
+     "t": "Medicações em uso:",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 150,
+     "w": 540,
+     "t": "nenhuma",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 300,
+     "w": 180,
+     "t": "implante",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 336,
+     "w": 160,
+     "t": "pílula",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 410,
+     "y": 336,
+     "w": 120,
+     "t": "DIU",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 64,
+     "w": 160,
+     "t": "energia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1190,
+     "y": 64,
+     "w": 160,
+     "t": "peso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1520,
+     "y": 64,
+     "w": 160,
+     "t": "sono",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 244,
+     "w": 160,
+     "t": "osso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1190,
+     "y": 244,
+     "w": 160,
+     "t": "humor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1520,
+     "y": 244,
+     "w": 160,
+     "t": "sangramento",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 412,
+     "w": 1624,
+     "t": "Perto de metade das atletas de elite usa; sete em cada dez já usaram · e o sangramento sai do painel",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma lutadora de jiu-jitsu, categoria de peso",
+   "titulo": "Sob contracepção hormonal, o sangramento deixa de ser sinal vital",
+   "fonte": "Levantamento com 430 atletas de elite, Int J Sports Physiol Perform 2018"
+  },
+  {
+   "id": "grupos",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Dois blocos. Substitui o eixo: pílula, anel e adesivo combinados, injetável trimestral, com o pulso do hormônio luteinizante apagado e o sangramento de retirada. Convive com o eixo: DIU hormonal, DIU de cobre, barreira, com o pulso ainda batendo. No meio, a pílula só de progestagênio: depende da molécula\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"660\" height=\"470\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 40 150 L 80 150 L 88 146 L 96 150 L 136 150 L 176 150 L 184 146 L 192 150 L 232 150 L 272 150 L 280 146 L 288 150 L 328 150 L 368 150 L 376 146 L 384 150 L 424 150 L 464 150 L 472 146 L 480 150 L 520 150 L 560 150 L 568 146 L 576 150 L 616 150\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" stroke-dasharray=\"10 8\"/><rect x=\"1004\" y=\"0\" width=\"660\" height=\"470\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 1044 150 L 1084 150 L 1092 90 L 1100 150 L 1140 150 L 1180 150 L 1188 90 L 1196 150 L 1236 150 L 1276 150 L 1284 90 L 1292 150 L 1332 150 L 1372 150 L 1380 90 L 1388 150 L 1428 150 L 1468 150 L 1476 90 L 1484 150 L 1524 150 L 1564 150 L 1572 90 L 1580 150 L 1620 150\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><rect x=\"700\" y=\"120\" width=\"264\" height=\"230\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 600,
+     "t": "Substitui o eixo",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 170,
+     "w": 580,
+     "t": "pulso de LH calado",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 240,
+     "w": 600,
+     "t": "· pílula, anel, adesivo combinados",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 310,
+     "w": 600,
+     "t": "· injetável trimestral",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 380,
+     "w": 600,
+     "t": "· sem ovulação; a pausa dá sangramento de retirada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1028,
+     "y": 20,
+     "w": 600,
+     "t": "Convive com o eixo",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1044,
+     "y": 170,
+     "w": 580,
+     "t": "pulso de LH batendo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1044,
+     "y": 240,
+     "w": 600,
+     "t": "· DIU hormonal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1044,
+     "y": 310,
+     "w": 600,
+     "t": "· DIU de cobre, barreira",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1044,
+     "y": 380,
+     "w": 600,
+     "t": "· muitas continuam ovulando",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 712,
+     "y": 140,
+     "w": 240,
+     "t": "Pílula só de progestagênio",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 712,
+     "y": 230,
+     "w": 240,
+     "t": "depende da molécula: leia a caixa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A farmacologia mínima",
+   "titulo": "Dois grupos: o que cala o eixo e o que convive com ele"
+  },
+  {
+   "id": "opostas",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Dois calendários. No primeiro, uma usuária de pílula combinada sangrando todo mês na pausa, pontual, e embaixo o eixo desligado. No segundo, uma usuária de DIU hormonal sem sangrar há meses, e embaixo o eixo funcionando. Uma faixa entre os dois: o sangramento parecido esconde situações opostas\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"804\" height=\"470\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"30\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"56\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"82\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"108\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"134\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"160\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"186\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"212\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"238\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"264\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"316\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"342\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"368\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"394\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"420\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"446\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"472\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"498\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"524\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"550\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"576\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"602\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"628\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"654\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"680\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"706\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"732\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"30\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"56\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"82\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"108\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"134\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"160\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"186\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"212\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"238\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"264\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"316\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"342\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"368\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"394\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"420\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"446\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"472\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"498\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"524\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"550\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"576\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"602\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"628\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"654\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"680\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"706\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"732\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"30\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"56\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"82\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"108\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"134\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"160\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"186\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"212\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"238\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"264\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"290\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"316\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"342\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"368\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"394\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"420\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"446\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"472\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"498\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"524\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"550\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"576\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"602\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"628\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"654\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"680\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"706\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"732\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"24\" y=\"320\" width=\"756\" height=\"120\" rx=\"14\" fill=\"#F3E1DE\"/><path d=\"M 40 400 L 80 400 L 88 396 L 96 400 L 140 400 L 180 400 L 188 396 L 196 400 L 240 400 L 280 400 L 288 396 L 296 400 L 340 400 L 380 400 L 388 396 L 396 400 L 440 400 L 480 400 L 488 396 L 496 400 L 540 400 L 580 400 L 588 396 L 596 400 L 640 400 L 680 400 L 688 396 L 696 400 L 740 400\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"860\" y=\"0\" width=\"804\" height=\"470\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"890\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"916\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"942\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"968\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"994\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1020\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1046\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1072\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1098\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1124\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1150\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1176\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1202\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1228\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1254\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1280\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1306\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1332\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1358\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1384\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1410\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1436\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1462\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1488\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1514\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1540\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1566\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1592\" y=\"90\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"890\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"916\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"942\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"968\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"994\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1020\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1046\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1072\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1098\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1124\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1150\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1176\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1202\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1228\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1254\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1280\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1306\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1332\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1358\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1384\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1410\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1436\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1462\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1488\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1514\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1540\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1566\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1592\" y=\"146\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"890\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"916\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"942\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"968\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"994\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1020\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1046\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1072\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1098\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1124\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1150\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1176\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1202\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1228\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1254\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1280\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1306\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1332\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1358\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1384\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1410\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1436\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1462\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1488\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1514\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1540\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1566\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"1592\" y=\"202\" width=\"22\" height=\"44\" rx=\"4\" fill=\"#D9D4C8\"/><rect x=\"884\" y=\"320\" width=\"756\" height=\"120\" rx=\"14\" fill=\"#DDEFEC\"/><path d=\"M 900 400 L 940 400 L 948 358 L 956 400 L 1000 400 L 1040 400 L 1048 358 L 1056 400 L 1100 400 L 1140 400 L 1148 358 L 1156 400 L 1200 400 L 1240 400 L 1248 358 L 1256 400 L 1300 400 L 1340 400 L 1348 358 L 1356 400 L 1400 400 L 1440 400 L 1448 358 L 1456 400 L 1500 400 L 1540 400 L 1548 358 L 1556 400 L 1600 400\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 740,
+     "t": "Pílula combinada",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 262,
+     "w": 740,
+     "t": "sangra todo mês, na pausa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 326,
+     "w": 250,
+     "t": "eixo desligado",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 20,
+     "w": 740,
+     "t": "DIU hormonal",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 890,
+     "y": 262,
+     "w": 740,
+     "t": "não sangra há meses",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1380,
+     "y": 326,
+     "w": 250,
+     "t": "eixo funcionando",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que o sangramento passa a esconder",
+   "titulo": "O sangramento parecido esconde situações opostas",
+   "destaque": "O sangramento de retirada vem pontual com o eixo íntegro ou desligado: é efeito do remédio, não relatório do ovário.",
+   "destaque_cor": "tinta"
+  },
+  {
+   "id": "desempenho",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"À esquerda, um gráfico de efeito em esquema com o ponto um pouco à esquerda do zero e o intervalo atravessando o zero: pílula e desempenho, trivial, evidência baixa a muito baixa, só via oral. À direita, a balança da decisão contraceptiva com os pesos que importam: gravidez não planejada, cólica, sangramento intenso, endometriose\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"420\" y1=\"20\" x2=\"420\" y2=\"240\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"160\" y1=\"130\" x2=\"570\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"6\" stroke-linecap=\"round\"/><rect x=\"350\" y=\"112\" width=\"36\" height=\"36\" fill=\"#B07A1C\"/><rect x=\"900\" y=\"0\" width=\"764\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"924\" y=\"90\" width=\"620\" height=\"62\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.95\"/><rect x=\"924\" y=\"172\" width=\"560\" height=\"62\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.80\"/><rect x=\"924\" y=\"254\" width=\"500\" height=\"62\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.65\"/><rect x=\"924\" y=\"336\" width=\"440\" height=\"62\" rx=\"10\" fill=\"#008A7E\" opacity=\"0.50\"/></svg>",
+   "rotulos": [
+    {
+     "x": 330,
+     "y": 246,
+     "w": 180,
+     "t": "zero",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 300,
+     "w": 820,
+     "t": "pílula e desempenho: trivial, evidência baixa a muito baixa",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 380,
+     "w": 820,
+     "t": "e só via oral: não vale para implante, injetável ou DIU",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 20,
+     "w": 720,
+     "t": "O que pesa na decisão dela",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 944,
+     "y": 105,
+     "w": 600,
+     "t": "evitar gravidez não planejada",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 187,
+     "w": 600,
+     "t": "cólica e sangramento intenso",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 269,
+     "w": 600,
+     "t": "endometriose, acne",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 351,
+     "w": 600,
+     "t": "efeito colateral que tira treino",
+     "tam": 25,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 404,
+     "w": 720,
+     "t": "decidida por ela, com a ginecologia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A pergunta que vai chegar",
+   "titulo": "Um efeito trivial não tira nem coloca método em ninguém",
+   "fonte": "Metanálise de 2020 sobre pílula e desempenho · intervalo em esquema"
+  },
+  {
+   "id": "encruzilhada",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Uma encruzilhada com três saídas a partir de: atleta usando método hormonal, com algo que preocupa. Saída 1, manter e trocar os mostradores, em verde. Saída 2, reavaliar o método com a ginecologia, em verde. Saída 3, pílula para trazer a menstruação de volta ou proteger o osso, em vermelho, terminando num alarme apagado\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"160\" width=\"400\" height=\"160\" rx=\"18\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"404\" y1=\"240\" x2=\"560\" y2=\"70\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"580\" y=\"0\" width=\"1084\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(604.0 40.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0m2.41-1.41L16 8m-9 4a5 5 0 0 1 5-5\"/></g></g><line x1=\"404\" y1=\"240\" x2=\"560\" y2=\"235\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"580\" y=\"165\" width=\"1084\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(604.0 205.0) scale(1.3333)\"><path fill=\"#008A7E\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><line x1=\"404\" y1=\"240\" x2=\"560\" y2=\"400\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><rect x=\"580\" y=\"330\" width=\"1084\" height=\"150\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(604.0 370.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 8a5 5 0 0 1 1.912 4.934m-1.377 2.602A5 5 0 0 1 15 16m2.7-11a9 9 0 0 1 2.362 11.086m-1.676 2.299A9 9 0 0 1 17.7 19M9.069 5.054L9.5 4.5A.8.8 0 0 1 11 5v2m0 4v8a.8.8 0 0 1-1.5.5L6 15H4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h2l1.294-1.664M3 3l18 18\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 182,
+     "w": 360,
+     "t": "Usa método hormonal, e algo preocupa",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 690,
+     "y": 20,
+     "w": 950,
+     "t": "Manter e trocar os mostradores",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 690,
+     "y": 86,
+     "w": 950,
+     "t": "energia, peso, fratura, humor, desempenho, densitometria",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 185,
+     "w": 950,
+     "t": "Reavaliar o método com a ginecologia",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 690,
+     "y": 251,
+     "w": 950,
+     "t": "efeito colateral que tira treino; osso em risco",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 350,
+     "w": 950,
+     "t": "Pílula para trazer a menstruação ou proteger o osso",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 690,
+     "y": 416,
+     "w": 950,
+     "t": "parece cuidado; apaga o alarme",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A decisão",
+   "titulo": "Três saídas aparecem na prática; uma delas só parece cuidado"
+  },
+  {
+   "id": "osso",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Três barras de mudança da densidade óssea em doze meses num ensaio com 121 atletas de 14 a 25 anos que não menstruavam ou menstruavam pouco: adesivo de estradiol subindo, pílula combinada sem ganho comparável, sem hormônio. Ao lado, o fígado como um filtro que a pílula atravessa e o adesivo não: o IGF-1 cai\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><line x1=\"0\" y1=\"300\" x2=\"820\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"40\" y=\"130\" width=\"200\" height=\"170\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"310\" y=\"260\" width=\"200\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"580\" y=\"275\" width=\"200\" height=\"25\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"900\" y=\"0\" width=\"764\" height=\"480\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 960 200 C 960 120, 1180 90, 1300 130 C 1360 150, 1360 230, 1280 250 C 1160 280, 960 280, 960 200 Z\" fill=\"#A8322A\" opacity=\"0.75\"/><path d=\"M 1400 120 L 1400 260\" stroke=\"#B07A1C\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 314,
+     "w": 240,
+     "t": "adesivo de estradiol",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 290,
+     "y": 314,
+     "w": 240,
+     "t": "pílula combinada",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 560,
+     "y": 314,
+     "w": 240,
+     "t": "sem hormônio",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 820,
+     "t": "Densidade óssea em 12 meses",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 820,
+     "t": "121 atletas de 14 a 25 anos · barras em esquema, só a direção do resultado",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 20,
+     "w": 720,
+     "t": "A via oral passa pelo fígado",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1040,
+     "y": 168,
+     "w": 200,
+     "t": "fígado",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1420,
+     "y": 160,
+     "w": 230,
+     "t": "IGF-1 cai",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 310,
+     "w": 720,
+     "t": "o adesivo não passa por ali · e nenhum dos dois substitui corrigir a energia",
+     "tam": 25,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Por que a pílula não trata",
+   "titulo": "“Ela toma pílula, então o osso está coberto” é uma frase falsa",
+   "fonte": "Ensaio randomizado, Br J Sports Med 2019 · diretriz de amenorreia hipotalâmica funcional, 2017"
+  },
+  {
+   "id": "injetavel",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Uma linha de densidade óssea ao longo dos anos de uso do injetável trimestral, descendo durante o uso e subindo em parte depois da suspensão. Um selo de advertência de bula. Ao lado, um perfil de risco aceso: esporte de peso ou corrida longa, fratura prévia, energia duvidosa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"40\" y=\"40\" width=\"547\" height=\"300\" fill=\"#F3E1DE\"/><polyline points=\"40,200 196,230 353,255 509,270 587,270 744,240 900,225\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"6\"/><line x1=\"40\" y1=\"340\" x2=\"900\" y2=\"340\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"rotate(-10 580 160)\"><rect x=\"470\" y=\"110\" width=\"220\" height=\"90\" rx=\"12\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/></g><rect x=\"980\" y=\"0\" width=\"684\" height=\"440\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1004.0 130.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><g transform=\"translate(1004.0 220.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><g transform=\"translate(1004.0 310.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 50,
+     "y": 50,
+     "w": 300,
+     "t": "durante o uso",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 603,
+     "y": 50,
+     "w": 320,
+     "t": "depois de suspender",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 350,
+     "w": 860,
+     "t": "densidade óssea ao longo dos anos · esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 136,
+     "w": 220,
+     "t": "advertência em bula",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 20,
+     "w": 640,
+     "t": "Quando a conversa precisa acontecer",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1076,
+     "y": 140,
+     "w": 570,
+     "t": "esporte de peso ou corrida longa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1076,
+     "y": 230,
+     "w": 570,
+     "t": "fratura por estresse prévia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1076,
+     "y": 320,
+     "w": 570,
+     "t": "energia duvidosa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 400,
+     "w": 640,
+     "t": "levar o caso a quem prescreve; não trocar por conta própria",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O injetável trimestral",
+   "titulo": "Um método que pesa sobre o osso de quem já tem o osso em risco",
+   "fonte": "Coorte de adolescentes, Fertil Steril 2008"
+  },
+  {
+   "id": "condutas",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Uma ficha de prontuário com o método registrado como medicação: nome, via, início, e uma linha destacada: como eram os ciclos antes? Ao lado, dois exames com setas: proteína carreadora subindo e testosterona caindo, efeito do remédio, não hipogonadismo\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"0\" y=\"0\" width=\"860\" height=\"480\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"20\" y=\"320\" width=\"820\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"920\" y=\"0\" width=\"744\" height=\"300\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(944.0 100.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 17l6-6l4 4l8-8\"/><path d=\"M14 7h7v7\"/></g></g><g transform=\"translate(944.0 180.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g><rect x=\"920\" y=\"330\" width=\"744\" height=\"150\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 24,
+     "w": 800,
+     "t": "Medicações em uso",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 100,
+     "w": 200,
+     "t": "método",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 100,
+     "w": 600,
+     "t": "implante de progestagênio",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 170,
+     "w": 200,
+     "t": "via",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 170,
+     "w": 600,
+     "t": "subdérmica",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 240,
+     "w": 200,
+     "t": "desde",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 240,
+     "w": 600,
+     "t": "três anos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 336,
+     "w": 780,
+     "t": "Como eram os ciclos antes do método?",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 44,
+     "y": 396,
+     "w": 780,
+     "t": "a pergunta mais rentável desta aula",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 20,
+     "w": 700,
+     "t": "Sob pílula combinada",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1012,
+     "y": 110,
+     "w": 620,
+     "t": "proteína carreadora",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1012,
+     "y": 190,
+     "w": 620,
+     "t": "testosterona total e livre",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 250,
+     "w": 700,
+     "t": "efeito do remédio, não hipogonadismo",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 352,
+     "w": 700,
+     "t": "Platô? Antes de culpar o método: carga, energia, sono e ferro",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O que cabe em qualquer profissão",
+   "titulo": "Registrar como remédio, e perguntar pelo que veio antes"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Contracepção hormonal no esporte",
+   "titulo": "O método não causou; apagou o sinal que teria avisado antes",
+   "regras": [
+    "Registrar o método como medicação, e perguntar pelos ciclos de antes",
+    "Sob método hormonal, trocar o sangramento por outros mostradores",
+    "Pílula não trata deficiência energética nem protege o osso"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e prepara",
+     "x": "Pergunta pelo método e não comemora a falta de sangramento."
+    },
+    {
+     "ic": "t:salad",
+     "t": "Nutrição",
+     "x": "Faz a conta da energia que o sangramento não mostra mais."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Ginecologia e medicina",
+     "x": "Decidem sobre o método e investigam o eixo e o osso."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
