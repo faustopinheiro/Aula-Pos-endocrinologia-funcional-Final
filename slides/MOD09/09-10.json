@@ -26,138 +26,714 @@
  "slides": [
   {
    "id": "planilha",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, uma planilha de doze linhas por onze colunas, cento e trinta e dois números, apagada: três meses depois, ninguém tinha aberto de novo e nenhum treino mudou. À direita, o que faltou, um procedimento em cinco passos encadeados: perguntar, escolher, aplicar, interpretar e repetir\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"640\" height=\"300\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"24\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"18\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"40\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"62\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"84\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"106\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"128\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"150\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"172\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"194\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"216\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"238\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"24\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"78\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"132\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"186\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"240\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"294\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"348\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"402\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"456\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"510\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"564\" y=\"260\" width=\"46\" height=\"16\" rx=\"3\" fill=\"#C9CFD4\" opacity=\"0.7\"/><rect x=\"700\" y=\"70\" width=\"170\" height=\"220\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(755.0 100.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><line x1=\"872\" y1=\"180\" x2=\"894\" y2=\"180\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"896\" y=\"70\" width=\"170\" height=\"220\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(951.0 100.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 4h16v2.172a2 2 0 0 1-.586 1.414L15 12v7l-6 2v-8.5L4.52 7.572A2 2 0 0 1 4 6.227z\"/></g><line x1=\"1068\" y1=\"180\" x2=\"1090\" y2=\"180\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1092\" y=\"70\" width=\"170\" height=\"220\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1147.0 100.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><line x1=\"1264\" y1=\"180\" x2=\"1286\" y2=\"180\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1288\" y=\"70\" width=\"170\" height=\"220\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1343.0 100.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 19h16M4 15l4-6l4 2l4-5l4 4\"/></g><line x1=\"1460\" y1=\"180\" x2=\"1482\" y2=\"180\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1484\" y=\"70\" width=\"170\" height=\"220\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1539.0 100.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12V9a3 3 0 0 1 3-3h13m-3-3l3 3l-3 3m3 3v3a3 3 0 0 1-3 3H4m3 3l-3-3l3-3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 314,
+     "w": 640,
+     "t": "12 atletas × 11 testes = 132 números",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 348,
+     "w": 640,
+     "t": "três meses depois: ninguém abriu; nenhum treino mudou",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 0,
+     "w": 964,
+     "t": "O que faltou: um procedimento",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 700,
+     "y": 190,
+     "w": 170,
+     "t": "1",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 700,
+     "y": 240,
+     "w": 170,
+     "t": "perguntar",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 896,
+     "y": 190,
+     "w": 170,
+     "t": "2",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 896,
+     "y": 240,
+     "w": 170,
+     "t": "escolher",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1092,
+     "y": 190,
+     "w": 170,
+     "t": "3",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1092,
+     "y": 240,
+     "w": 170,
+     "t": "aplicar",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1288,
+     "y": 190,
+     "w": 170,
+     "t": "4",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1288,
+     "y": 240,
+     "w": 170,
+     "t": "interpretar",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1484,
+     "y": 190,
+     "w": 170,
+     "t": "5",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1484,
+     "y": 240,
+     "w": 170,
+     "t": "repetir",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Pré-temporada no tênis",
-   "frase": "Onze testes, cento e trinta e dois números, nenhum treino mudou.",
-   "apoio": "Doze atletas, uma manhã de sábado. Três meses depois, ninguém tinha aberto a planilha de novo. Faltou um procedimento: perguntar, escolher, aplicar, interpretar e repetir."
+   "titulo": "Onze testes, cento e trinta e dois números, nenhum treino mudou."
   },
   {
    "id": "pergunta",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo um",
-   "titulo": "A pergunta vem antes do teste",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, os testes da bateria do tênis em fichas: vaivém, saltos, sprint de 20 metros, preensão, agilidade, flexões, sentar e alcançar. Flexões e sentar e alcançar estão riscados. No meio, um funil com a pergunta: que decisão este número vai mudar? À direita, os três usos do que passa: prescrever, a referência de zonas e séries; medir mudança, refazendo do mesmo jeito; diagnosticar o método, quando quatro meses de treino deixam o teste parado\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"42\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"52\" width=\"300\" height=\"42\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"104\" width=\"300\" height=\"42\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"156\" width=\"300\" height=\"42\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"208\" width=\"300\" height=\"42\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"0\" y=\"260\" width=\"300\" height=\"42\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"20\" y1=\"281\" x2=\"280\" y2=\"281\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"0\" y=\"312\" width=\"300\" height=\"42\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"20\" y1=\"333\" x2=\"280\" y2=\"333\" stroke=\"#A8322A\" stroke-width=\"4\"/><path d=\"M 340 90 L 760 90 L 600 230 L 600 300 L 500 300 L 500 230 Z\" fill=\"#12202E\"/><line x1=\"770\" y1=\"180\" x2=\"830\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"844\" y=\"0\" width=\"820\" height=\"112\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"844\" y=\"128\" width=\"820\" height=\"112\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"844\" y=\"256\" width=\"820\" height=\"112\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 9,
+     "w": 300,
+     "t": "vaivém",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 61,
+     "w": 300,
+     "t": "saltos",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 113,
+     "w": 300,
+     "t": "sprint de 20 m",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 165,
+     "w": 300,
+     "t": "preensão",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 217,
+     "w": 300,
+     "t": "agilidade",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 269,
+     "w": 300,
+     "t": "flexões",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 321,
+     "w": 300,
+     "t": "sentar e alcançar",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 0,
+     "w": 420,
+     "t": "que decisão este número vai mudar?",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 340,
+     "y": 316,
+     "w": 420,
+     "t": "não muda nada: sai da lista",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 14,
+     "w": 770,
      "t": "Prescrever",
-     "x": "a referência de onde saem zonas e séries",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 868,
+     "y": 56,
+     "w": 770,
+     "t": "a referência de onde saem zonas e séries",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 142,
+     "w": 770,
      "t": "Medir mudança",
-     "x": "refazer do mesmo jeito e ver se o programa funciona",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 868,
+     "y": 184,
+     "w": 770,
+     "t": "refazer do mesmo jeito e ver se o programa funciona",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 270,
+     "w": 770,
      "t": "Diagnosticar o método",
-     "x": "quatro meses de treino e o teste parado é informação",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 868,
+     "y": 312,
+     "w": 770,
+     "t": "quatro meses de treino e o teste parado é informação",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo um",
+   "titulo": "A pergunta vem antes do teste",
    "destaque": "Que decisão este número vai mudar? Teste que não muda nenhuma decisão sai da lista.",
    "destaque_cor": "tinta"
   },
   {
    "id": "propriedades",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo dois: escolher",
-   "titulo": "Três propriedades de um bom teste",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Três quadros. Validade: um alvo com a seta no centro; mede o que interessa para aquele esporte? Confiabilidade: duas medidas no mesmo dia, sem mudança real, caindo no mesmo ponto; o resultado se repete? Sensibilidade: uma régua com marcas finas que enxerga uma mudança pequena; enxerga uma mudança do tamanho das que importam?\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"330\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"330\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"330\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"268\" cy=\"150\" r=\"80\" fill=\"#C9CFD4\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"268\" cy=\"150\" r=\"54\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"268\" cy=\"150\" r=\"28\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"268\" y1=\"150\" x2=\"380\" y2=\"80\" stroke=\"#A8322A\" stroke-width=\"5\"/><circle cx=\"268\" cy=\"150\" r=\"8\" fill=\"#A8322A\"/><line x1=\"610\" y1=\"200\" x2=\"1050\" y2=\"200\" stroke=\"#6B7A87\" stroke-width=\"2\"/><circle cx=\"820\" cy=\"150\" r=\"14\" fill=\"#008A7E\" opacity=\"0.85\"/><circle cx=\"836\" cy=\"120\" r=\"14\" fill=\"#008A7E\" opacity=\"0.85\"/><line x1=\"1170\" y1=\"170\" x2=\"1610\" y2=\"170\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1170\" y1=\"170\" x2=\"1170\" y2=\"140\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1180\" y1=\"170\" x2=\"1180\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1190\" y1=\"170\" x2=\"1190\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1200\" y1=\"170\" x2=\"1200\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1210\" y1=\"170\" x2=\"1210\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1220\" y1=\"170\" x2=\"1220\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1230\" y1=\"170\" x2=\"1230\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1240\" y1=\"170\" x2=\"1240\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1250\" y1=\"170\" x2=\"1250\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1260\" y1=\"170\" x2=\"1260\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1270\" y1=\"170\" x2=\"1270\" y2=\"140\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1280\" y1=\"170\" x2=\"1280\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1290\" y1=\"170\" x2=\"1290\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1300\" y1=\"170\" x2=\"1300\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1310\" y1=\"170\" x2=\"1310\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1320\" y1=\"170\" x2=\"1320\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1330\" y1=\"170\" x2=\"1330\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1340\" y1=\"170\" x2=\"1340\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1350\" y1=\"170\" x2=\"1350\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1360\" y1=\"170\" x2=\"1360\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1370\" y1=\"170\" x2=\"1370\" y2=\"140\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1380\" y1=\"170\" x2=\"1380\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1390\" y1=\"170\" x2=\"1390\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1400\" y1=\"170\" x2=\"1400\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1410\" y1=\"170\" x2=\"1410\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1420\" y1=\"170\" x2=\"1420\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1430\" y1=\"170\" x2=\"1430\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1440\" y1=\"170\" x2=\"1440\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1450\" y1=\"170\" x2=\"1450\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1460\" y1=\"170\" x2=\"1460\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1470\" y1=\"170\" x2=\"1470\" y2=\"140\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1480\" y1=\"170\" x2=\"1480\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1490\" y1=\"170\" x2=\"1490\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1500\" y1=\"170\" x2=\"1500\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1510\" y1=\"170\" x2=\"1510\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1520\" y1=\"170\" x2=\"1520\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1530\" y1=\"170\" x2=\"1530\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1540\" y1=\"170\" x2=\"1540\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1550\" y1=\"170\" x2=\"1550\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1560\" y1=\"170\" x2=\"1560\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1570\" y1=\"170\" x2=\"1570\" y2=\"140\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1580\" y1=\"170\" x2=\"1580\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1590\" y1=\"170\" x2=\"1590\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1600\" y1=\"170\" x2=\"1600\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"1610\" y1=\"170\" x2=\"1610\" y2=\"158\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 1360 190 l -10 20 l 20 0 Z\" fill=\"#6B7A87\"/><path d=\"M 1390 190 l -10 20 l 20 0 Z\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 16,
+     "w": 490,
      "t": "Validade",
-     "x": "mede o que interessa para aquele esporte?",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 246,
+     "w": 490,
+     "t": "mede o que interessa para aquele esporte?",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 16,
+     "w": 490,
      "t": "Confiabilidade",
-     "x": "feito duas vezes, sem mudança real, o resultado se repete?",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 246,
+     "w": 490,
+     "t": "feito duas vezes, sem mudança real, o resultado se repete?",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1152,
+     "y": 16,
+     "w": 490,
      "t": "Sensibilidade",
-     "x": "enxerga uma mudança do tamanho das que importam?",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 246,
+     "w": 490,
+     "t": "enxerga uma mudança do tamanho das que importam?",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 696,
+     "y": 136,
+     "w": 100,
+     "t": "dia 1",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 106,
+     "w": 100,
+     "t": "dia 2",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 214,
+     "w": 150,
+     "t": "antes · depois",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo dois: escolher",
+   "titulo": "Três propriedades de um bom teste",
    "destaque": "Contrarrelógios costumam variar menos de um dia para outro do que testes até a exaustão.",
    "destaque_cor": "tinta",
    "fonte": "Revisão, Sports Med 2008"
   },
   {
    "id": "parecido",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Quatro linhas, perfil e teste. Corredor de rua: contrarrelógio na distância que já corre. Quadra, tênis, futsal e basquete: vaivém de 20 metros, em grupo. Praticante de força: repetições até a falha técnica em carga conhecida. Saúde, depois dos cinquenta: sentar e levantar em 30 segundos, e preensão\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"620\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 16.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"632\" y1=\"42\" x2=\"700\" y2=\"42\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"714\" y=\"0\" width=\"950\" height=\"84\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(734.0 16.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"0\" y=\"100\" width=\"620\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 116.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M6 5.3a9 9 0 0 1 0 13.4M18 5.3a9 9 0 0 0 0 13.4\"/></g></g><line x1=\"632\" y1=\"142\" x2=\"700\" y2=\"142\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"714\" y=\"100\" width=\"950\" height=\"84\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(734.0 116.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><rect x=\"0\" y=\"200\" width=\"620\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 216.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"632\" y1=\"242\" x2=\"700\" y2=\"242\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"714\" y=\"200\" width=\"950\" height=\"84\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(734.0 216.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12V9a3 3 0 0 1 3-3h13m-3-3l3 3l-3 3m3 3v3a3 3 0 0 1-3 3H4m3 3l-3-3l3-3\"/></g><rect x=\"0\" y=\"300\" width=\"620\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 316.0) scale(1.0833)\"><g fill=\"#12202E\"><path d=\"M18 15a4 4 0 1 0 0-8a4 4 0 0 0 0 8m-5.484 5.935A9 9 0 0 1 13 20.4V38a2 2 0 0 0 3.988.22L17.79 31h.42l.802 7.22A2 2 0 0 0 23 38V24.36c.15-.796.711-1.949 1.596-3.032c.793.975 1.326 2.006 1.532 2.784c-.021 1.651-1.35 7.83-1.896 10.309a.986.986 0 0 0 .825 1.194c3.693.507 6.884.506 10.546.04c.683-.087 1.082-.844.834-1.487c-.737-1.913-1.937-5.886-1.937-11.49v-2.926c.39.3.8.694 1.208 1.183c1.057 1.267 1.713 2.718 1.799 3.62a1.5 1.5 0 0 0 2.986-.285c-.163-1.716-1.2-3.721-2.481-5.256C36.768 17.522 34.893 16 32.79 16h-4.628c-1.283 0-2.501.515-3.562 1.248C23.543 16.515 22.328 16 21.048 16h-5.614c-2.103 0-3.977 1.522-5.222 3.014c-1.28 1.535-2.318 3.54-2.481 5.256a1.5 1.5 0 0 0 2.986.285c.086-.902.742-2.353 1.8-3.62\"/><path d=\"M6 28.5a2.5 2.5 0 0 1 5 0V39a1 1 0 1 1-2 0V28.5a.5.5 0 0 0-1 0v1.013a1 1 0 1 1-2 0zM30.5 15a4 4 0 1 0 0-8a4 4 0 0 0 0 8m9 11a2.5 2.5 0 0 0-2.5 2.5v1.013a1 1 0 1 0 2 0V28.5a.5.5 0 0 1 1 0V39a1 1 0 1 0 2 0V28.5a2.5 2.5 0 0 0-2.5-2.5m-14 13.388v-2.236a36 36 0 0 0 3.588.282l-.64 2.348a1.5 1.5 0 0 1-2.948-.394m7.053.394l-.654-2.397A42 42 0 0 0 35.5 37v2.388a1.5 1.5 0 0 1-2.947.394\"/></g></g><line x1=\"632\" y1=\"342\" x2=\"700\" y2=\"342\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"714\" y=\"300\" width=\"950\" height=\"84\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(734.0 316.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 90,
+     "y": 28,
+     "w": 520,
+     "t": "Corredor de rua",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 28,
+     "w": 840,
+     "t": "contrarrelógio na distância que já corre",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 128,
+     "w": 520,
+     "t": "Quadra: tênis, futsal, basquete",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 128,
+     "w": 840,
+     "t": "vaivém de 20 metros, em grupo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 228,
+     "w": 520,
+     "t": "Praticante de força",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 228,
+     "w": 840,
+     "t": "repetições até a falha técnica em carga conhecida",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 90,
+     "y": 328,
+     "w": 520,
+     "t": "Saúde, depois dos cinquenta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 328,
+     "w": 840,
+     "t": "sentar e levantar em 30 segundos, preensão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Escolher",
    "titulo": "O teste mais parecido com o que a pessoa faz",
-   "cab": [
-    "Perfil",
-    "Teste"
-   ],
-   "larguras": [
-    40,
-    60
-   ],
-   "linhas": [
-    [
-     "Corredor de rua",
-     "contrarrelógio na distância que já corre"
-    ],
-    [
-     "Quadra: tênis, futsal, basquete",
-     "vaivém de 20 metros, em grupo"
-    ],
-    [
-     "Praticante de força",
-     "repetições até a falha técnica em carga conhecida"
-    ],
-    [
-     "Saúde, depois dos cinquenta",
-     "sentar e levantar em 30 segundos, preensão"
-    ]
-   ],
    "destaque": "Limiares de campo estão na aula de limiares do módulo de fisiologia. Especificidade também é aderência.",
    "destaque_cor": "tinta",
    "fonte": "Vaivém: Eur J Appl Physiol 1982"
   },
   {
    "id": "padronizar",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo três: aplicar",
-   "titulo": "Padronizar, e por escrito",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma ficha de protocolo escrita, com seis itens marcados: mesmo horário e local, mesma superfície e percurso; mesmo aquecimento, escrito; mesmo calçado e a mesma cafeína, ou nenhuma, das duas vezes; 48 horas sem sessão pesada, prática corrente; ambiente anotado, porque calor, umidade e vento mudam o resultado. Embaixo, em vermelho: pista hoje, parque amanhã compara dois lugares, não o atleta\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"290\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(24.0 18.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 9l2 2l4-4\"/></g></g><g transform=\"translate(24.0 88.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><g transform=\"translate(572.0 88.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 10.941c2.333-3.308.167-7.823-1-8.941c0 3.395-2.235 5.299-3.667 6.706C5.903 10.114 5 12 5 14.294C5 17.998 8.134 21 12 21s7-3.002 7-6.706c0-1.712-1.232-4.403-2.333-5.588c-2.084 3.353-3.257 3.353-4.667 2.235\"/></g><g transform=\"translate(1120.0 88.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 14c.83.642 2.077 1.017 3.5 1c1.423.017 2.67-.358 3.5-1s2.077-1.017 3.5-1c1.423-.017 2.67.358 3.5 1M8 3a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2m4-4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2\"/><path d=\"M3 10h14v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6z\"/><path d=\"M16.746 16.726a3 3 0 1 0 .252-5.555\"/></g></g><g transform=\"translate(24.0 188.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m17 8v-3H2m0-6v9m10-3h10v-2a3 3 0 0 0-3-3h-7z\"/></g><g transform=\"translate(572.0 188.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><rect x=\"0\" y=\"320\" width=\"1664\" height=\"100\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(24.0 344.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 7l6-3l6 3l6-3v13l-6 3l-6-3l-6 3zm6-3v13m6-10v13\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 80,
+     "y": 24,
+     "w": 900,
+     "t": "Ficha de protocolo, por escrito",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 82,
+     "y": 84,
+     "w": 470,
      "t": "Mesmo horário e local",
-     "x": "mesma superfície, mesmo percurso",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 82,
+     "y": 118,
+     "w": 470,
+     "t": "mesma superfície, mesmo percurso",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 84,
+     "w": 470,
      "t": "Mesmo aquecimento",
-     "x": "escrito, não improvisado",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 630,
+     "y": 118,
+     "w": 470,
+     "t": "escrito, não improvisado",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1178,
+     "y": 84,
+     "w": 470,
      "t": "Mesmo calçado e cafeína",
-     "x": "ou nenhuma, das duas vezes",
-     "cor": "petr"
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 1178,
+     "y": 118,
+     "w": 470,
+     "t": "ou nenhuma, das duas vezes",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 82,
+     "y": 184,
+     "w": 470,
      "t": "48 horas sem sessão pesada",
-     "x": "prática corrente",
-     "cor": "ambar"
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 82,
+     "y": 218,
+     "w": 470,
+     "t": "prática corrente",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 184,
+     "w": 470,
      "t": "Ambiente anotado",
-     "x": "calor, umidade e vento mudam o resultado",
-     "cor": "ambar"
+     "tam": 21,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 630,
+     "y": 218,
+     "w": 470,
+     "t": "calor, umidade e vento mudam o resultado",
+     "tam": 18,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 336,
+     "w": 700,
      "t": "Pista hoje, parque amanhã",
-     "x": "compara dois lugares, não o atleta",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 374,
+     "w": 1540,
+     "t": "compara dois lugares, não o atleta",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
-   ]
+   ],
+   "eyebrow": "Passo três: aplicar",
+   "titulo": "Padronizar, e por escrito"
   },
   {
    "id": "ordem",
@@ -352,11 +928,103 @@
   },
   {
    "id": "linha",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 330,
+   "svg": "<svg aria-label=\"Dois quadros em esquema. À esquerda, teste sofisticado feito uma vez: um único ponto, sem direção. À direita, teste simples feito sempre do mesmo jeito: primeira, segunda e terceira aplicação ligadas por uma linha e uma seta que mostra para onde ela vai. O valor está na terceira, quando existe uma linha\" width=\"1664\" height=\"330\" viewBox=\"0 0 1664 330\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"640\" height=\"330\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"170\" r=\"18\" fill=\"#6B7A87\"/><rect x=\"680\" y=\"0\" width=\"984\" height=\"330\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><polyline points=\"820,200 1080,170 1340,130\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"5\"/><line x1=\"1340\" y1=\"130\" x2=\"1500\" y2=\"96\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><circle cx=\"820\" cy=\"200\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"1080\" cy=\"170\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"1340\" cy=\"130\" r=\"16\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 600,
+     "t": "Sofisticado, feito uma vez",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 250,
+     "w": 600,
+     "t": "um ponto não tem direção",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 16,
+     "w": 940,
+     "t": "Simples, feito sempre do mesmo jeito",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 740,
+     "y": 226,
+     "w": 160,
+     "t": "1ª aplicação",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 196,
+     "w": 160,
+     "t": "2ª aplicação",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1260,
+     "y": 156,
+     "w": 160,
+     "t": "3ª aplicação",
+     "tam": 17,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 120,
+     "w": 200,
+     "t": "para onde vai",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 280,
+     "w": 940,
+     "t": "o valor está na terceira, quando existe uma linha · esquema",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "A ideia da aula",
-   "frase": "Um teste simples, feito sempre do mesmo jeito, vale mais que um teste sofisticado feito uma vez.",
-   "apoio": "O valor de uma bateria não está na primeira aplicação. Está na terceira, quando existe uma linha."
+   "titulo": "Um teste simples, feito sempre do mesmo jeito, vale mais que um teste sofisticado feito uma vez."
   },
   {
    "id": "ruido",
@@ -417,54 +1085,261 @@
   },
   {
    "id": "bruto",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"No alto, uma cadeia: 2.600 metros medidos entram numa equação e saem como consumo máximo estimado; a segunda seta está riscada, porque o erro do teste se soma ao erro da equação. Embaixo à esquerda, o dado bruto: 2.600 metros em março e 2.750 em julho, duas barras; melhorou, a informação está completa. Embaixo à direita: fórmulas de frequência máxima por idade também são estimativas\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"504\" height=\"80\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"580\" y=\"0\" width=\"504\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1160\" y=\"0\" width=\"504\" height=\"80\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"508\" y1=\"40\" x2=\"574\" y2=\"40\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"1088\" y1=\"40\" x2=\"1154\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><path d=\"M 1108 22 l 26 36 M 1134 22 l -26 36\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"0\" y=\"150\" width=\"1000\" height=\"210\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"130\" y=\"214\" width=\"360\" height=\"40\" rx=\"8\" fill=\"#008A7E\" opacity=\"0.6\"/><rect x=\"130\" y=\"274\" width=\"450\" height=\"40\" rx=\"8\" fill=\"#008A7E\" opacity=\"1.0\"/><rect x=\"1040\" y=\"150\" width=\"624\" height=\"210\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1064.0 176.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 24,
+     "w": 504,
+     "t": "2.600 m medidos",
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 24,
+     "w": 504,
+     "t": "equação",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 24,
+     "w": 504,
+     "t": "consumo máximo estimado",
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 92,
+     "w": 1084,
+     "t": "erro do teste + erro da equação",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 164,
+     "w": 300,
+     "t": "Medido",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 222,
+     "w": 100,
+     "t": "março",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 222,
+     "w": 140,
+     "t": "2.600 m",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 282,
+     "w": 100,
+     "t": "julho",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 282,
+     "w": 140,
+     "t": "2.750 m",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 240,
+     "w": 200,
+     "t": "melhorou: a informação está completa",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 176,
+     "w": 520,
+     "t": "Calculado também",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 250,
+     "w": 576,
+     "t": "fórmulas de frequência máxima por idade são estimativas, não medida",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "Interpretar",
    "titulo": "Acompanhe o dado bruto, não a estimativa",
-   "esq": {
-    "t": "Medido",
-    "cor": "petr",
-    "itens": [
-     "2.600 m em março",
-     "2.750 m em julho",
-     "melhorou: a informação está completa"
-    ]
-   },
-   "dir": {
-    "t": "Calculado",
-    "cor": "verm",
-    "itens": [
-     "consumo máximo estimado por equação",
-     "soma o erro do teste ao da equação",
-     "fórmulas de frequência máxima por idade"
-    ]
-   },
    "destaque": "As zonas saem da velocidade ou da potência medida, não de um número calculado.",
    "destaque_cor": "tinta",
    "fonte": "Exemplo ilustrativo"
   },
   {
    "id": "repetir",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, uma linha do tempo de um ano em semanas, ilustrativa: marcas grandes de teste de desempenho a cada oito a doze semanas e marcas pequenas mensais do teste submáximo, cinco minutos na mesma velocidade com a frequência cardíaca no fim. Embaixo, o teste máximo pede triagem prévia. À direita, três sinais de que a bateria não funciona: nenhum treino mudou por causa dela; números sobem e descem sem padrão; o atleta falta no dia do teste\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"940\" height=\"400\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"40\" y1=\"170\" x2=\"900\" y2=\"170\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"106\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"172\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"238\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"305\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"371\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"437\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"503\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"569\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"635\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"702\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"768\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"834\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"900\" cy=\"170\" r=\"8\" fill=\"#B07A1C\"/><rect x=\"26\" y=\"110\" width=\"28\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"208\" y=\"110\" width=\"28\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"390\" y=\"110\" width=\"28\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"572\" y=\"110\" width=\"28\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"754\" y=\"110\" width=\"28\" height=\"60\" rx=\"6\" fill=\"#008A7E\"/><line x1=\"24\" y1=\"270\" x2=\"916\" y2=\"270\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(24.0 296.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"980\" y=\"0\" width=\"684\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1004.0 90.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1004.0 186.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 12h-2c-.894 0-1.662-.857-1.761-2c-.296-3.45-.749-6-2.749-6s-2.5 3.582-2.5 8s-.5 8-2.5 8s-2.452-2.547-2.749-6c-.1-1.147-.867-2-1.763-2h-2\"/></g><g transform=\"translate(1004.0 282.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 880,
+     "t": "O calendário",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 80,
+     "w": 600,
+     "t": "desempenho: a cada 8 a 12 semanas",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 190,
+     "w": 860,
+     "t": "submáximo mensal: 5 minutos na mesma velocidade, FC no fim",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 226,
+     "w": 860,
+     "t": "semanas de um ano · calendário ilustrativo",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 88,
+     "y": 304,
+     "w": 820,
+     "t": "teste máximo com triagem prévia",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 16,
+     "w": 640,
+     "t": "Sinais de que não funciona",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1070,
+     "y": 100,
+     "w": 570,
+     "t": "nenhum treino mudou por causa dela",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 196,
+     "w": 570,
+     "t": "números sobem e descem sem padrão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 292,
+     "w": 570,
+     "t": "o atleta falta no dia do teste",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo cinco: repetir",
    "titulo": "Um calendário enxuto, e como saber que não funciona",
-   "esq": {
-    "t": "O calendário",
-    "cor": "petr",
-    "itens": [
-     "desempenho a cada 8 a 12 semanas",
-     "submáximo mensal: 5 minutos na mesma velocidade, FC no fim",
-     "teste máximo com triagem prévia"
-    ]
-   },
-   "dir": {
-    "t": "Sinais de que não funciona",
-    "cor": "verm",
-    "itens": [
-     "nenhum treino mudou por causa dela",
-     "números sobem e descem sem padrão",
-     "o atleta falta no dia do teste"
-    ]
-   },
    "destaque": "Mesma velocidade custando menos batimentos é adaptação; custando mais, fadiga, calor ou doença chegando.",
    "destaque_cor": "tinta",
    "fonte": "Revisão, Front Physiol 2014 · frequência como prática corrente"

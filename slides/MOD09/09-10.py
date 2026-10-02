@@ -130,6 +130,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Testes físicos", "titulo"
                     {"t": "Atleta", "x": "Chega descansado e vê a própria série."}],
           "quem": "Próxima aula: reintegração ao treinamento coletivo."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "09-10")
+
 spec = {"arquivo": "aulas/MOD09/09-10-testes-fisicos-escolher-aplicar-e-interpretar.md",
         "modulo": "Preparação Física, Treinamento e Gestão de Carga", "tema": "tinta",
         "titulo": "Testes físicos", "subtitulo": "Escolher, aplicar e interpretar, em cinco passos",

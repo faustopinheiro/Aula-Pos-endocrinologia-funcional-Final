@@ -2096,6 +2096,209 @@ def fica_99():
     return slide("fica", 360, p, rs, eyebrow="O que fica", titulo="Descrever sem colorir, decidir com contexto",
                  fonte="Exemplo ilustrativo, sem dados reais")
 
+# ---------------------------------------------------------------- 9.10
+
+def planilha_910():
+    """9.10: a planilha de doze atletas por onze testes, fechada há três meses, e os cinco passos que faltaram."""
+    p = [svg_abre(1664, 380, "À esquerda, uma planilha de doze linhas por onze colunas, cento e trinta e dois números, apagada: três meses depois, ninguém tinha aberto de novo e nenhum treino mudou. À direita, o que faltou, um procedimento em cinco passos encadeados: perguntar, escolher, aplicar, interpretar e repetir"), defs(OXID)]
+    rs = []
+    p.append(caixa(0, 0, 640, 300, MUDO, CARTAO, esp=2, rx=14))
+    for i in range(12):
+        for j in range(11):
+            p.append(f'<rect x="{24 + j * 54}" y="{18 + i * 22}" width="46" height="16" rx="3" fill="{CINZA}" opacity="0.7"/>')
+    rs += [rot(0, 314, "12 atletas × 11 testes = 132 números", w=640, tam=21, cor=TINTA, peso=700, alinha="center"),
+           rot(0, 348, "três meses depois: ninguém abriu; nenhum treino mudou", w=640, tam=18, cor=FOSF, peso=700, alinha="center")]
+    rs.append(rot(700, 0, "O que faltou: um procedimento", w=964, tam=24, cor=OXID, peso=700, serif=True))
+    for k, (ic, t) in enumerate([("t:question-mark", "perguntar"), ("t:filter", "escolher"), ("t:clipboard-list", "aplicar"), ("t:chart-line", "interpretar"), ("t:repeat", "repetir")]):
+        x = 700 + k * 196
+        p.append(caixa(x, 70, 170, 220, OXID, OXID_T if k else OXID, esp=2, rx=14))
+        p.append(icone(ic, x + 55, 100, 60, PAPEL if k == 0 else OXID))
+        rs += [rot(x, 190, str(k + 1), w=170, tam=30, cor=PAPEL if k == 0 else OXID, peso=700, alinha="center", serif=True),
+               rot(x, 240, t, w=170, tam=19, cor=PAPEL if k == 0 else TINTA, peso=700, alinha="center")]
+        if k < 4:
+            p.append(seta(x + 172, 180, x + 194, 180, OXID, "m0", esp=3))
+    return slide("planilha", 380, p, rs, eyebrow="Pré-temporada no tênis", titulo="Onze testes, cento e trinta e dois números, nenhum treino mudou.")
+
+
+def pergunta_910():
+    """9.10: os testes da bateria passando pelo filtro da pergunta, e os três usos do que sobra."""
+    p = [svg_abre(1664, 380, "À esquerda, os testes da bateria do tênis em fichas: vaivém, saltos, sprint de 20 metros, preensão, agilidade, flexões, sentar e alcançar. Flexões e sentar e alcançar estão riscados. No meio, um funil com a pergunta: que decisão este número vai mudar? À direita, os três usos do que passa: prescrever, a referência de zonas e séries; medir mudança, refazendo do mesmo jeito; diagnosticar o método, quando quatro meses de treino deixam o teste parado"), defs(MUDO)]
+    rs = []
+    testes = ["vaivém", "saltos", "sprint de 20 m", "preensão", "agilidade", "flexões", "sentar e alcançar"]
+    for j, t in enumerate(testes):
+        y = j * 52
+        fora = j >= 5
+        p.append(caixa(0, y, 300, 42, MUDO if fora else TINTA, PAPEL if fora else CARTAO, esp=2, rx=10))
+        rs.append(rot(0, y + 9, t, w=300, tam=19, cor=MUDO if fora else TINTA, peso=700, alinha="center"))
+        if fora:
+            p.append(f'<line x1="20" y1="{y + 21}" x2="280" y2="{y + 21}" stroke="{FOSF}" stroke-width="4"/>')
+    p.append(f'<path d="M 340 90 L 760 90 L 600 230 L 600 300 L 500 300 L 500 230 Z" fill="{TINTA}"/>')
+    rs.append(rot(340, 0, "que decisão este número vai mudar?", w=420, tam=24, cor=TINTA, peso=700, alinha="center", serif=True, lh=1.2))
+    rs.append(rot(340, 316, "não muda nada: sai da lista", w=420, tam=18, cor=FOSF, peso=700, alinha="center"))
+    p.append(seta(770, 180, 830, 180, MUDO, "m0", esp=3))
+    usos = [("Prescrever", "a referência de onde saem zonas e séries", OXID, OXID_T), ("Medir mudança", "refazer do mesmo jeito e ver se o programa funciona", OXID, OXID_T),
+            ("Diagnosticar o método", "quatro meses de treino e o teste parado é informação", GLIC, GLIC_T)]
+    for j, (t, x_, cor, fundo) in enumerate(usos):
+        y = j * 128
+        p.append(caixa(844, y, 820, 112, cor, fundo, esp=2, rx=14))
+        rs += [rot(868, y + 14, t, w=770, tam=23, cor=cor, peso=700, serif=True), rot(868, y + 56, x_, w=770, tam=20, cor=TINTA)]
+    return slide("pergunta", 380, p, rs, eyebrow="Passo um", titulo="A pergunta vem antes do teste",
+                 destaque="Que decisão este número vai mudar? Teste que não muda nenhuma decisão sai da lista.", destaque_cor="tinta")
+
+
+def propriedades_910():
+    """9.10: validade como alvo, confiabilidade como repetição e sensibilidade como régua fina."""
+    p = [svg_abre(1664, 330, "Três quadros. Validade: um alvo com a seta no centro; mede o que interessa para aquele esporte? Confiabilidade: duas medidas no mesmo dia, sem mudança real, caindo no mesmo ponto; o resultado se repete? Sensibilidade: uma régua com marcas finas que enxerga uma mudança pequena; enxerga uma mudança do tamanho das que importam?")]
+    rs = []
+    import math
+    for k, (t, x_, cor, fundo) in enumerate([("Validade", "mede o que interessa para aquele esporte?", TINTA, CARTAO),
+                                              ("Confiabilidade", "feito duas vezes, sem mudança real, o resultado se repete?", OXID, OXID_T),
+                                              ("Sensibilidade", "enxerga uma mudança do tamanho das que importam?", GLIC, GLIC_T)]):
+        x = k * 564
+        p.append(caixa(x, 0, 536, 330, cor, fundo, esp=2, rx=16))
+        rs += [rot(x + 24, 16, t, w=490, tam=24, cor=cor, peso=700, serif=True), rot(x + 24, 246, x_, w=490, tam=20, cor=TINTA, peso=700, lh=1.3)]
+    for r, c in [(80, CINZA), (54, CARTAO), (28, TINTA)]:
+        p.append(f'<circle cx="268" cy="150" r="{r}" fill="{c}" stroke="{TINTA}" stroke-width="2"/>')
+    p.append(f'<line x1="268" y1="150" x2="380" y2="80" stroke="{FOSF}" stroke-width="5"/>')
+    p.append(f'<circle cx="268" cy="150" r="8" fill="{FOSF}"/>')
+    p.append(f'<line x1="610" y1="200" x2="1050" y2="200" stroke="{MUDO}" stroke-width="2"/>')
+    for j, (cx, lab) in enumerate([(820, "dia 1"), (836, "dia 2")]):
+        p.append(f'<circle cx="{cx}" cy="{150 - j * 30}" r="14" fill="{OXID}" opacity="0.85"/>')
+        rs.append(rot(cx + (24 if j else -124), 136 - j * 30, lab, w=100, tam=17, cor=TINTA, peso=700, alinha="left" if j else "right"))
+    p.append(f'<line x1="1170" y1="170" x2="1610" y2="170" stroke="{TINTA}" stroke-width="3"/>')
+    for i in range(45):
+        h = 30 if i % 10 == 0 else (20 if i % 5 == 0 else 12)
+        p.append(f'<line x1="{1170 + i * 10}" y1="170" x2="{1170 + i * 10}" y2="{170 - h}" stroke="{TINTA}" stroke-width="2"/>')
+    for xx, c in [(1360, MUDO), (1390, GLIC)]:
+        p.append(f'<path d="M {xx} 190 l -10 20 l 20 0 Z" fill="{c}"/>')
+    rs.append(rot(1300, 214, "antes · depois", w=150, tam=16, cor=MUDO, alinha="center"))
+    return slide("propriedades", 330, p, rs, eyebrow="Passo dois: escolher", titulo="Três propriedades de um bom teste",
+                 destaque="Contrarrelógios costumam variar menos de um dia para outro do que testes até a exaustão.", destaque_cor="tinta",
+                 fonte="Revisão, Sports Med 2008")
+
+
+def parecido_910():
+    """9.10: quatro perfis, cada um ligado ao teste mais parecido com o que já faz."""
+    p = [svg_abre(1664, 400, "Quatro linhas, perfil e teste. Corredor de rua: contrarrelógio na distância que já corre. Quadra, tênis, futsal e basquete: vaivém de 20 metros, em grupo. Praticante de força: repetições até a falha técnica em carga conhecida. Saúde, depois dos cinquenta: sentar e levantar em 30 segundos, e preensão"), defs(OXID)]
+    rs = []
+    linhas = [("t:run", "Corredor de rua", "t:stopwatch", "contrarrelógio na distância que já corre"),
+              ("t:ball-tennis", "Quadra: tênis, futsal, basquete", "t:arrows-exchange", "vaivém de 20 metros, em grupo"),
+              ("t:barbell", "Praticante de força", "t:repeat", "repetições até a falha técnica em carga conhecida"),
+              ("h:elderly", "Saúde, depois dos cinquenta", "t:stairs", "sentar e levantar em 30 segundos, preensão")]
+    for j, (i1, pf, i2, te) in enumerate(linhas):
+        y = j * 100
+        p.append(caixa(0, y, 620, 84, TINTA, CARTAO, esp=2, rx=14))
+        p.append(icone(i1, 20, y + 16, 52, TINTA))
+        rs.append(rot(90, y + 28, pf, w=520, tam=22, cor=TINTA, peso=700))
+        p.append(seta(632, y + 42, 700, y + 42, OXID, "m0", esp=4))
+        p.append(caixa(714, y, 950, 84, OXID, OXID_T, esp=2, rx=14))
+        p.append(icone(i2, 734, y + 16, 52, OXID))
+        rs.append(rot(804, y + 28, te, w=840, tam=22, cor=TINTA, peso=700))
+    return slide("parecido", 400, p, rs, eyebrow="Escolher", titulo="O teste mais parecido com o que a pessoa faz",
+                 destaque="Limiares de campo estão na aula de limiares do módulo de fisiologia. Especificidade também é aderência.", destaque_cor="tinta",
+                 fonte="Vaivém: Eur J Appl Physiol 1982")
+
+
+def padronizar_910():
+    """9.10: a ficha de protocolo escrita, item por item, e a armadilha de testar em lugares diferentes."""
+    p = [svg_abre(1664, 420, "Uma ficha de protocolo escrita, com seis itens marcados: mesmo horário e local, mesma superfície e percurso; mesmo aquecimento, escrito; mesmo calçado e a mesma cafeína, ou nenhuma, das duas vezes; 48 horas sem sessão pesada, prática corrente; ambiente anotado, porque calor, umidade e vento mudam o resultado. Embaixo, em vermelho: pista hoje, parque amanhã compara dois lugares, não o atleta")]
+    rs = []
+    p.append(caixa(0, 0, 1664, 290, TINTA, CARTAO, esp=2, rx=16))
+    p.append(icone("t:clipboard-check", 24, 18, 44, TINTA))
+    rs.append(rot(80, 24, "Ficha de protocolo, por escrito", w=900, tam=23, cor=TINTA, peso=700, serif=True))
+    itens = [("t:clock", "Mesmo horário e local", "mesma superfície, mesmo percurso", OXID), ("t:flame", "Mesmo aquecimento", "escrito, não improvisado", OXID),
+             ("t:coffee", "Mesmo calçado e cafeína", "ou nenhuma, das duas vezes", OXID), ("t:bed", "48 horas sem sessão pesada", "prática corrente", GLIC),
+             ("t:temperature", "Ambiente anotado", "calor, umidade e vento mudam o resultado", GLIC)]
+    for j, (ic, t, x_, cor) in enumerate(itens):
+        x, y = (j % 3) * 548 + 24, 84 + (j // 3) * 100
+        p.append(icone(ic, x, y + 4, 44, cor))
+        rs += [rot(x + 58, y, t, w=470, tam=21, cor=cor, peso=700), rot(x + 58, y + 34, x_, w=470, tam=18, cor=TINTA)]
+    p.append(caixa(0, 320, 1664, 100, FOSF, FOSF_T, esp=2, rx=14))
+    p.append(icone("t:map", 24, 344, 52, FOSF))
+    rs += [rot(100, 336, "Pista hoje, parque amanhã", w=700, tam=24, cor=FOSF, peso=700, serif=True),
+           rot(100, 374, "compara dois lugares, não o atleta", w=1540, tam=21, cor=TINTA, peso=700)]
+    return slide("padronizar", 420, p, rs, eyebrow="Passo três: aplicar", titulo="Padronizar, e por escrito")
+
+
+def linha_910():
+    """9.10: um ponto isolado de um teste sofisticado e uma linha de três pontos de um teste simples."""
+    p = [svg_abre(1664, 330, "Dois quadros em esquema. À esquerda, teste sofisticado feito uma vez: um único ponto, sem direção. À direita, teste simples feito sempre do mesmo jeito: primeira, segunda e terceira aplicação ligadas por uma linha e uma seta que mostra para onde ela vai. O valor está na terceira, quando existe uma linha"), defs(OXID)]
+    rs = []
+    p.append(caixa(0, 0, 640, 330, MUDO, CARTAO, esp=2, rx=16))
+    rs.append(rot(24, 16, "Sofisticado, feito uma vez", w=600, tam=24, cor=MUDO, peso=700, serif=True))
+    p.append(f'<circle cx="320" cy="170" r="18" fill="{MUDO}"/>')
+    rs.append(rot(24, 250, "um ponto não tem direção", w=600, tam=21, cor=TINTA, peso=700, alinha="center"))
+    p.append(caixa(680, 0, 984, 330, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(704, 16, "Simples, feito sempre do mesmo jeito", w=940, tam=24, cor=OXID, peso=700, serif=True))
+    pts = [(820, 200), (1080, 170), (1340, 130)]
+    p.append(f'<polyline points="{" ".join(f"{a},{b}" for a, b in pts)}" fill="none" stroke="{OXID}" stroke-width="5"/>')
+    p.append(seta(1340, 130, 1500, 96, OXID, "m0", esp=5))
+    for j, (a, b) in enumerate(pts):
+        p.append(f'<circle cx="{a}" cy="{b}" r="16" fill="{OXID}"/>')
+        rs.append(rot(a - 80, b + 26, f"{j + 1}ª aplicação", w=160, tam=17, cor=TINTA, peso=700, alinha="center"))
+    rs += [rot(1440, 120, "para onde vai", w=200, tam=18, cor=OXID, peso=700, alinha="center"),
+           rot(704, 280, "o valor está na terceira, quando existe uma linha · esquema", w=940, tam=19, cor=TINTA, peso=700)]
+    return slide("linha", 330, p, rs, eyebrow="A ideia da aula", titulo="Um teste simples, feito sempre do mesmo jeito, vale mais que um teste sofisticado feito uma vez.")
+
+
+def bruto_910():
+    """9.10: o metro medido contra o consumo estimado por equação, com os dois erros somados."""
+    p = [svg_abre(1664, 360, "No alto, uma cadeia: 2.600 metros medidos entram numa equação e saem como consumo máximo estimado; a segunda seta está riscada, porque o erro do teste se soma ao erro da equação. Embaixo à esquerda, o dado bruto: 2.600 metros em março e 2.750 em julho, duas barras; melhorou, a informação está completa. Embaixo à direita: fórmulas de frequência máxima por idade também são estimativas"), defs(OXID, FOSF)]
+    rs = []
+    for j, (t, cor, fundo) in enumerate([("2.600 m medidos", OXID, OXID_T), ("equação", MUDO, CARTAO), ("consumo máximo estimado", FOSF, FOSF_T)]):
+        x = j * 580
+        p.append(caixa(x, 0, 504, 80, cor, fundo, esp=2, rx=14))
+        rs.append(rot(x, 24, t, w=504, tam=23, cor=TINTA if j == 1 else cor, peso=700, alinha="center"))
+    p.append(seta(508, 40, 574, 40, OXID, "m0", esp=4))
+    p.append(seta(1088, 40, 1154, 40, FOSF, "m1", esp=4))
+    p.append(f'<path d="M 1108 22 l 26 36 M 1134 22 l -26 36" stroke="{FOSF}" stroke-width="5"/>')
+    rs.append(rot(580, 92, "erro do teste + erro da equação", w=1084, tam=19, cor=FOSF, peso=700, alinha="center"))
+    p.append(caixa(0, 150, 1000, 210, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 164, "Medido", w=300, tam=24, cor=OXID, peso=700, serif=True))
+    for j, (m, v) in enumerate([("março", 2600), ("julho", 2750)]):
+        y = 214 + j * 60
+        w = (v - 2000) * 0.6
+        rs.append(rot(24, y + 8, m, w=100, tam=19, cor=TINTA, peso=700))
+        p.append(f'<rect x="130" y="{y}" width="{w:.0f}" height="40" rx="8" fill="{OXID}" opacity="{0.6 + j * 0.4}"/>')
+        rs.append(rot(140 + w, y + 8, f"{v:,} m".replace(",", "."), w=140, tam=20, cor=TINTA, peso=700))
+    rs.append(rot(780, 240, "melhorou: a informação está completa", w=200, tam=19, cor=OXID, peso=700, lh=1.25))
+    p.append(caixa(1040, 150, 624, 210, FOSF, FOSF_T, esp=2, rx=16))
+    p.append(icone("t:heartbeat", 1064, 176, 48, FOSF))
+    rs += [rot(1124, 176, "Calculado também", w=520, tam=24, cor=FOSF, peso=700, serif=True),
+           rot(1064, 250, "fórmulas de frequência máxima por idade são estimativas, não medida", w=576, tam=20, cor=TINTA, peso=700, lh=1.3)]
+    return slide("bruto", 360, p, rs, eyebrow="Interpretar", titulo="Acompanhe o dado bruto, não a estimativa",
+                 destaque="As zonas saem da velocidade ou da potência medida, não de um número calculado.", destaque_cor="tinta", fonte="Exemplo ilustrativo")
+
+
+def repetir_910():
+    """9.10: o ano com testes de desempenho espaçados e submáximos mensais, e os sinais de que a bateria não funciona."""
+    p = [svg_abre(1664, 400, "À esquerda, uma linha do tempo de um ano em semanas, ilustrativa: marcas grandes de teste de desempenho a cada oito a doze semanas e marcas pequenas mensais do teste submáximo, cinco minutos na mesma velocidade com a frequência cardíaca no fim. Embaixo, o teste máximo pede triagem prévia. À direita, três sinais de que a bateria não funciona: nenhum treino mudou por causa dela; números sobem e descem sem padrão; o atleta falta no dia do teste")]
+    rs = []
+    p.append(caixa(0, 0, 940, 400, OXID, OXID_T, esp=2, rx=16))
+    rs.append(rot(24, 16, "O calendário", w=880, tam=24, cor=OXID, peso=700, serif=True))
+    x0, x1 = 40, 900
+    X = lambda s: x0 + s / 52 * (x1 - x0)
+    p.append(f'<line x1="{x0}" y1="170" x2="{x1}" y2="170" stroke="{TINTA}" stroke-width="3"/>')
+    for s in range(0, 53, 4):
+        p.append(f'<circle cx="{X(s):.0f}" cy="170" r="8" fill="{GLIC}"/>')
+    for s in (0, 11, 22, 33, 44):
+        p.append(f'<rect x="{X(s) - 14:.0f}" y="110" width="28" height="60" rx="6" fill="{OXID}"/>')
+    rs += [rot(40, 80, "desempenho: a cada 8 a 12 semanas", w=600, tam=19, cor=OXID, peso=700),
+           rot(40, 190, "submáximo mensal: 5 minutos na mesma velocidade, FC no fim", w=860, tam=19, cor=GLIC, peso=700),
+           rot(40, 226, "semanas de um ano · calendário ilustrativo", w=860, tam=16, cor=MUDO)]
+    p.append(f'<line x1="24" y1="270" x2="916" y2="270" stroke="{BORDA}" stroke-width="2"/>')
+    p.append(icone("t:stethoscope", 24, 296, 48, TINTA))
+    rs.append(rot(88, 304, "teste máximo com triagem prévia", w=820, tam=21, cor=TINTA, peso=700))
+    p.append(caixa(980, 0, 684, 400, FOSF, FOSF_T, esp=2, rx=16))
+    rs.append(rot(1004, 16, "Sinais de que não funciona", w=640, tam=24, cor=FOSF, peso=700, serif=True))
+    for j, (ic, t) in enumerate([("t:x", "nenhum treino mudou por causa dela"), ("t:wave-sine", "números sobem e descem sem padrão"), ("t:door-exit", "o atleta falta no dia do teste")]):
+        y = 90 + j * 96
+        p.append(icone(ic, 1004, y, 48, FOSF))
+        rs.append(rot(1070, y + 10, t, w=570, tam=22, cor=TINTA, peso=700, lh=1.25))
+    return slide("repetir", 400, p, rs, eyebrow="Passo cinco: repetir", titulo="Um calendário enxuto, e como saber que não funciona",
+                 destaque="Mesma velocidade custando menos batimentos é adaptação; custando mais, fadiga, calor ou doença chegando.", destaque_cor="tinta",
+                 fonte="Revisão, Front Physiol 2014 · frequência como prática corrente")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variacao_91, reversibilidade_91, teoria_91, perguntas_91, ciclista_91],
@@ -2106,7 +2309,8 @@ LICOES = {"09-01": [percurso_91, roteiro_91, especificidade_91, dose_91, variaca
           "09-06": [telas_96, roteiro_96, ancoras_96, poucas_96, ancorada_96, borg_96, escalas_96, medidas_96, tabela_96, desempate_96],
           "09-07": [coletes_97, externa_97, amostragem_97, limiar_97, campo_97, acelerometro_97, fora_97, vale_97, pulso_97, correcoes_97],
           "09-08": [propostas_98, quatro_98, conta_98, condicoes_98, fc_98, vfc_98, questionario_98, terceira_98, cenarios_98, regras_98],
-          "09-09": [reuniao_99, origem_99, convenceu_99, causa_99, janelas_99, aleatorio_99, fragil_99, transplante_99, fica_99]}
+          "09-09": [reuniao_99, origem_99, convenceu_99, causa_99, janelas_99, aleatorio_99, fragil_99, transplante_99, fica_99],
+          "09-10": [planilha_910, pergunta_910, propriedades_910, parecido_910, padronizar_910, linha_910, bruto_910, repetir_910]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
