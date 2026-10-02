@@ -116,7 +116,7 @@ A entorse de tornozelo é evento: tem data, hora, mecanismo, testemunha. A tendi
 
 O modelo binário, lesionado ou não, não representa nada disso. A epidemiologia tradicional registra quase só o agudo e enxerga pouco do crônico, que é justamente o que mais aparece no consultório e na academia.
 
-Roald Bahr descreveu esse ponto em 2009 num artigo com um título que resume a situação: nenhuma lesão, mas muita dor?
+Um artigo de 2009 descreveu esse ponto com um título que resume a situação: nenhuma lesão, mas muita dor?
 
 ---
 
@@ -164,7 +164,7 @@ O que dá para implantar na segunda-feira, em assessoria, academia, consultório
 
 Quem faz o quê. Diagnosticar a lesão é do médico e do fisioterapeuta, cada um no seu campo. Organizar o formulário, mandar toda semana e acompanhar o número é da comissão inteira, e na prática costuma ficar com o preparador ou o coordenador. Ajustar a carga a partir do dado é do profissional de educação física e do preparador, com o médico quando há lesão instalada. E ler o artigo antes de mudar a prática é de todo mundo que vai decidir com aquele número.
 
-Na próxima aula, da crítica para a construção: como montar um sistema de registro que funcione no mundo real, com a equipe e o tempo que você tem.
+Na próxima conversa, da crítica para a construção: como montar um sistema de registro que funcione no mundo real, com a equipe e o tempo que você tem.
 
 ---
 
@@ -186,12 +186,14 @@ Na próxima aula, da crítica para a construção: como montar um sistema de reg
 **O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de sete blocos longos.
 Arquitetura NÚMERO mantida (a próxima é PROCEDIMENTO). Sem caso clínico.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (os dois números, os usos, as três lentes, a definição brasileira, os denominadores, os novatos, o vocabulário, as perguntas de Oslo, as sete perguntas e os degraus), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** van Gent 2007: incidência de lesão de membro inferior em corredores de
 longa distância entre 19,4% e 79,3% nos estudos revisados. Videbæk 2015: 17,8 lesões por mil horas
 em novatos e 7,7 em recreativos. Yamato 2015: definição de consenso por Delphi modificado, 112
 pesquisadores convidados, limiar de consenso de 75%; texto da definição conferido.
 
-**Correções.**
+**Correções.** 
 - A abertura apresentava 79% e 19% como "dois artigos" com populações, definições e denominadores
   descritos em detalhe. Isso não tem fonte: os dois números são os extremos da revisão de 2007. A
   abertura e o fecho passaram a dizer isso.
@@ -202,12 +204,12 @@ pesquisadores convidados, limiar de consenso de 75%; texto da definição confer
 - "O pico de sintoma chega três a quatro semanas depois de um aumento de volume" saiu, sem fonte
   conferida.
 - Entrou a revisão de 2007 nas referências.
+- Roald Bahr saiu da fala e do destaque do slide da sobrecarga no artigo de 2009, que entra pelo ano; o autor fica na fonte. Bahr fica no marco de 2016, o rastreio, e Yamato, Saragiotto e Lopes ficam como âncora brasileira.
 
 **Saíram.** "7.2", "7.3", "7.13", "6.10", "Módulo 9", "1.8", "o Roald Bahr, que é um dos caras",
 o bloco "Roteiro Gamma". Duração de 24 para 15 minutos.
 
-**Citações faladas.** Yamato, Saragiotto e Lopes (consenso brasileiro); Roald Bahr (2009 e 2016).
-As demais referências sustentam a aula sem nome na fala.
+**Citações faladas.** Yamato, Saragiotto e Lopes, pelo consenso brasileiro de 2015, âncora do módulo; Roald Bahr, pela revisão de 2016 sobre testes de rastreio. O artigo de 2009 sobre lesão por sobrecarga entra pelo ano.
 
 **Ligações internas.** registro no dia a dia = próxima aula · aritmética do rastreio = aula de
 rastreio laboratorial, no módulo de medicina esportiva clínica · gestão de carga = módulo de

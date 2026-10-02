@@ -172,7 +172,7 @@ Os cinco erros: achar que a imagem diagnostica, achar que o joelho é exceção,
 
 Quem faz o quê. Decidir se há indicação de imagem e interpretar o laudo no contexto clínico é do médico. Traduzir o laudo em linguagem que não assusta é de todo profissional que o paciente mostra o papel, e nenhum deveria reforçar o medo. Tratar a função é da fisioterapia e da preparação física.
 
-Na próxima aula, a última do módulo, o outro lado: o que funciona para a lesão não acontecer, e por que a maior parte das equipes não faz.
+Na próxima conversa, a última do módulo, o outro lado: o que funciona para a lesão não acontecer, e por que a maior parte das equipes não faz.
 
 ---
 
@@ -193,6 +193,8 @@ Na próxima aula, a última do módulo, o outro lado: o que funciona para a les�
 Arquitetura ERRO mantida (a anterior é NÚMERO; a próxima é DECISÃO), em cinco erros. Segundo e
 último caso do módulo, dito como caso ilustrativo, com idade em década e sem nome.
 
+Nesta revisão, os 11 slides que ainda eram texto viraram desenho (o caso, a mesa, os joelhos, as dez pessoas, o corpo inteiro, as perguntas, as palavras, o laudo de coluna, como dizer, a imagem de controle e quando pedir), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Joelho (2020): 230 joelhos de 115 adultos sedentários sem lesão, mediana de
 44 anos; 97% com alguma alteração; 30% com lesão de menisco (23% horizontal); 57% com alteração de
 cartilagem e 48% de medula óssea na articulação femoropatelar. Quadril (2012): 45 voluntários, 73%
@@ -200,7 +202,7 @@ com alguma alteração, lesão de lábio em 69%. Ensaio de laudos de coluna (202
 clínicas de atenção primária. Ombro (1995), coluna (2015) e artrose de joelho (2019) mantidos como na
 versão anterior, com as fontes originais.
 
-**Correções.**
+**Correções.** 
 - A corredora de "quarenta e um anos" virou "na casa dos quarenta", como caso ilustrativo.
 - O desfecho inventado saiu ("descobre que ela aumentou o ritmo e trocou de tênis no mesmo mês",
   "encontra um déficit claro"). No lugar ficou o plano: o que perguntar, testar e explicar.
@@ -211,6 +213,7 @@ versão anterior, com as fontes originais.
 - "Abaulamento de disco em trinta por cento aos vinte anos" saiu da fala para enxugar; o dado de
   degeneração ficou.
 - A referência da regra de Ottawa saiu desta aula; está na aula de tornozelo.
+- Nenhuma mudança de conteúdo na fala além da troca de "próxima aula" por "próxima conversa".
 
 **Saíram.** "essa conversa", "nossa próxima conversa", "as conversas sobre músculo", "bonito" (em
 "exame está bonito"), "mais de quinze anos", o bloco "Roteiro Gamma". Duração de 19 para 13 minutos.

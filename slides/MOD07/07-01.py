@@ -68,8 +68,8 @@ rs = [rot(60, 10, "o evento: entorse", w=600, tam=28, cor=AZUL, peso=700),
       rot(900, 268, "sobe e desce, sem data, sem parar de treinar", w=740, tam=24, cor=MUDO)]
 S.append({"id": "sobrecarga", "tipo": "diagrama", "h": 300, "svg": "".join(p), "rotulos": rs,
           "eyebrow": "O problema do nosso público", "titulo": "A sobrecarga não se comporta como evento",
-          "destaque": "O modelo binário registra quase só o agudo. “Nenhuma lesão, mas muita dor?”, perguntou Roald Bahr em 2009.",
-          "destaque_cor": "verm", "fonte": "Esquema, sem valores medidos · Br J Sports Med 2009"})
+          "destaque": "O modelo binário registra quase só o agudo. “Nenhuma lesão, mas muita dor?”, perguntava um artigo de 2009.",
+          "destaque_cor": "verm", "fonte": "Esquema, sem valores medidos · Bahr, Br J Sports Med 2009"})
 
 S.append({"id": "oslo", "tipo": "lista", "eyebrow": "A solução: medir todo mundo, toda semana", "titulo": "As quatro perguntas de Oslo",
           "itens": [{"t": "Participação", "x": "teve dificuldade de participar do treino?", "cor": "petr"},

@@ -66,7 +66,7 @@ A divisão que mais muda a conduta: sítios de alto e de baixo risco.
 
 Não é o mesmo osso em todo lugar. Alguns sítios ficam do lado da tensão ou têm irrigação pobre, consolidam pior e podem evoluir para fratura completa ou falta de consolidação quando a pessoa continua treinando.
 
-A revisão de Stuart Warden e colegas, de 2014, lista como alto risco, entre outros, o colo do fêmur do lado da tensão, a borda anterior da tíbia, o maléolo medial, o navicular e a base do quinto metatarso.
+Uma revisão de 2014 lista como alto risco, entre outros, o colo do fêmur do lado da tensão, a borda anterior da tíbia, o maléolo medial, o navicular e a base do quinto metatarso.
 
 Baixo risco: a face posteromedial da tíbia, a fíbula e a maior parte dos metatarsos. Identificada cedo, uma lesão de baixo risco costuma ter caminho tranquilo.
 
@@ -152,7 +152,7 @@ Para levar: dor apontada com a ponta do dedo é lesão óssea até prova em cont
 
 Quem faz o quê. Diagnosticar, classificar o risco do sítio, pedir imagem e definir o afastamento do impacto é do médico. Conduzir a reabilitação e o retorno é da fisioterapia. Manter o condicionamento por outras vias e reconstruir o impacto na volta é da preparação física. Investigar e corrigir a alimentação é da nutrição, com o médico. Perguntar sobre ciclo menstrual e levar a resposta a sério é de todo mundo que atende atleta mulher. E reconhecer o gesto do dedo e encaminhar, em vez de tratar como dor muscular por semanas, é de quem estiver mais perto.
 
-Na próxima aula, um assunto que atravessou o módulo inteiro: o que a imagem mostra, o que não mostra, e por que o laudo às vezes atrapalha mais do que ajuda.
+Na próxima conversa, um assunto que atravessou o módulo inteiro: o que a imagem mostra, o que não mostra, e por que o laudo às vezes atrapalha mais do que ajuda.
 
 ---
 
@@ -170,12 +170,14 @@ Na próxima aula, um assunto que atravessou o módulo inteiro: o que a imagem mo
 Arquitetura NÚMERO mantida (a anterior é PROCEDIMENTO; a próxima é ERRO). Sem caso clínico: a
 corredora que aponta com o dedo é um gesto típico, sem idade.
 
+Nesta revisão, os 11 slides que ainda eram texto viraram desenho (o dedo, a balança, o padrão, o diferencial, os sítios de risco, o encaminhamento, a energia, os dois detalhes, as perguntas, a volta e a recidiva), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Estudo de 2018 com atletas de elite de fundo e meio-fundo: amenorreia em 37%
 das mulheres, testosterona baixa em 40% dos homens, e taxas de lesão cerca de 4,5 vezes maiores
 nesses dois grupos em comparação com os de função normal. Sítios de alto risco conforme a revisão de
 2014.
 
-**Correções.**
+**Correções.** 
 - "Baixa disponibilidade energética clínica em trinta e um por cento das mulheres e vinte e cinco por
   cento dos homens" saiu: esses números não foram confirmados na conferência. Entraram os números
   conferidos do mesmo estudo (37%, 40% e 4,5 vezes).
@@ -185,12 +187,11 @@ nesses dois grupos em comparação com os de função normal. Sítios de alto ri
 - "Seis semanas" e a abertura "esta conversa é de números: um dedo, seis semanas, trinta e um por
   cento..." saíram.
 - A referência de carga de lesão, sem uso nesta aula, saiu.
+- Warden saiu da fala; a revisão dos sítios de risco entra pelo ano, e o autor fica na fonte.
 
-**Saíram.** "esta conversa", "próxima conversa", "neste módulo" como muleta, o bloco "Roteiro Gamma".
-Duração de 14 para 11 minutos.
+**Saíram.** "esta conversa", "próxima conversa", "neste módulo" como muleta, o bloco "Roteiro Gamma". Duração de 14 para 11 minutos.
 
-**Citações faladas.** Warden (sítios de risco, 2014). O estudo de 2018 entra pelo título; o consenso
-de 2023 entra pela instituição.
+**Citações faladas.** Nenhum autor por nome. A revisão de 2014 dos sítios de risco entra pelo ano; o estudo de 2018, pelo título; o consenso de 2023, pela instituição.
 
 **Ligações internas.** Remete a deficiência relativa de energia ao módulo de nutrição. Prepara a aula
 de imagem.

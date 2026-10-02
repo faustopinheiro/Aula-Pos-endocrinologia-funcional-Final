@@ -42,7 +42,7 @@ Passo um: escrever a definição antes de coletar qualquer coisa.
 
 Parece burocracia e é a diferença entre um dado que serve e um monte de linha inútil. Se a definição muda no meio do caminho, ou se cada pessoa entende uma coisa por lesão, o número do segundo semestre não se compara com o do primeiro. E comparar com você mesmo ao longo do tempo é a maior utilidade de registrar.
 
-O que precisa estar escrito. O que conta como lesão: para grupo recreativo, a definição de consenso da aula anterior, que aceita restrição sem exigir parada; para clube com treino diário, perda de tempo, desde que se registre também o problema que não afasta. O que conta como problema de saúde, mais amplo que lesão e incluindo doença, porque infecção respiratória e problema gastrointestinal também tiram atleta de treino. O que conta como recorrência: a mesma lesão, no mesmo lugar, depois de um retorno completo. E quem tem acesso ao dado.
+O que precisa estar escrito. O que conta como lesão: para grupo recreativo, a definição de consenso brasileira, que aceita restrição sem exigir parada; para clube com treino diário, perda de tempo, desde que se registre também o problema que não afasta. O que conta como problema de saúde, mais amplo que lesão e incluindo doença, porque infecção respiratória e problema gastrointestinal também tiram atleta de treino. O que conta como recorrência: a mesma lesão, no mesmo lugar, depois de um retorno completo. E quem tem acesso ao dado.
 
 Uma folha, assinada por quem coordena, e que não muda sem avisar.
 
@@ -68,7 +68,7 @@ E a regra que evita o erro mais comum: quem está lesionado e não treinou naque
 
 Passo três: as ferramentas. São duas, e mais que isso ninguém sustenta.
 
-A primeira é o questionário semanal de Oslo, da aula anterior: quatro perguntas, por mensagem, no mesmo dia, para todo mundo, esteja bem ou não. Trinta segundos.
+A primeira é o questionário semanal de Oslo: quatro perguntas, por mensagem, no mesmo dia, para todo mundo, esteja bem ou não. Trinta segundos.
 
 A segunda é a ficha de lesão, preenchida quando há um caso. Oito campos. Data de início. Região e lado. Tipo, quando houver diagnóstico, marcando quando for só suspeita. Se foi súbito ou gradual, que informa mais que o nome da lesão. O que a pessoa fazia quando começou. Se já teve antes, e há quanto tempo. Quantos dias ou sessões ficou restrita ou afastada. E a data do retorno completo.
 
@@ -88,7 +88,7 @@ A proporção de gente com problema na semana, que sai direto do questionário e
 
 A incidência por exposição: lesões novas por mil horas ou por mil sessões. Serve para comparar períodos, categorias e a literatura.
 
-E o terceiro, que mudou como o esporte de alto nível enxerga o problema e quase nunca chega ao amador: a carga de lesão. Roald Bahr, Benjamin Clarsen e Jan Ekstrand defenderam em 2018 olhar a carga, e não só a incidência. Carga é frequência vezes gravidade; na prática, dias perdidos por mil horas de exposição.
+E o terceiro, que mudou como o esporte de alto nível enxerga o problema e quase nunca chega ao amador: a carga de lesão. Um artigo de 2018 defendeu olhar a carga, e não só a incidência. Carga é frequência vezes gravidade; na prática, dias perdidos por mil horas de exposição.
 
 ---
 
@@ -158,7 +158,7 @@ E os quatro erros que mais estragam registro. Registrar só quem procurou atendi
 
 Quem faz o quê. Definir a pergunta e a definição é de quem coordena, com o médico e o fisioterapeuta. Mandar o questionário e manter a adesão é da preparação física ou de quem cuida da operação do dia a dia. Preencher a ficha de lesão é de quem atendeu, médico ou fisioterapeuta. Ler o painel e mudar o planejamento é da comissão inteira, reunida uma vez por mês. E guardar o dado com o cuidado que dado de saúde exige é da instituição.
 
-Na próxima aula, do como medir para o porquê: por que a lesão acontece, por que caçar uma causa única não funciona, e o que a evidência sustenta sobre carga, progressão e fatores de risco.
+Na próxima conversa, do como medir para o porquê: por que a lesão acontece, por que caçar uma causa única não funciona, e o que a evidência sustenta sobre carga, progressão e fatores de risco.
 
 ---
 
@@ -179,10 +179,12 @@ Na próxima aula, do como medir para o porquê: por que a lesão acontece, por q
 Arquitetura PROCEDIMENTO mantida (a anterior é NÚMERO; a próxima é ERRO), em seis passos. Sem caso
 clínico.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a planilha vazia, as três perguntas, a folha da definição, a exposição, as duas ferramentas, os indicadores, a carga das duas equipes, a devolutiva, o dado sensível e o painel e os erros), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Nenhum número de estudo é falado além das referências de método. A conta
 das duas equipes é exemplo didático e está marcada como tal no slide.
 
-**Correções.**
+**Correções.** 
 - A abertura retomava uma frase atribuída a um coordenador de assessoria ("eu tinha cento e vinte
   alunos e zero dados"), que saiu da aula anterior por ser citação sem fonte; saiu daqui também.
 - "Quem só registra lesão perde metade do que tira atleta de treino" saiu, sem número conferido;
@@ -192,12 +194,12 @@ das duas equipes é exemplo didático e está marcada como tal no slide.
 - A regra de recorrência foi simplificada para a do consenso ("a mesma lesão, no mesmo lugar, depois
   de retorno completo").
 - A referência da LGPD ganhou o artigo.
+- Bahr, Clarsen e Ekstrand saíram da fala e do destaque do slide dos indicadores; o artigo de 2018 entra pelo ano, e os autores ficam na fonte. "A definição de consenso da aula anterior" virou "a definição de consenso brasileira", e "o questionário de Oslo, da aula anterior" ficou "o questionário semanal de Oslo".
 
 **Saíram.** "a nossa última conversa", "não adianta ser bonito", "penúltimo slide", "próximo
 slide", o bloco "Roteiro Gamma". Duração de 17 para 13 minutos.
 
-**Citações faladas.** Bahr, Clarsen e Ekstrand (carga de lesão, 2018); LGPD. As demais referências
-sustentam a aula sem nome na fala.
+**Citações faladas.** Nenhum autor por nome. O artigo de 2018 sobre carga de lesão entra pelo ano; a LGPD, pelo nome.
 
 **Ligações internas.** definição de consenso e questionário de Oslo = aula anterior · retorno ao
 esporte e recorrência = módulo de reabilitação · por que a lesão acontece = próxima aula.

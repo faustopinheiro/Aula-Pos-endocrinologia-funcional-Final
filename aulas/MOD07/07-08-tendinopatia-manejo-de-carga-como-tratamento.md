@@ -40,7 +40,7 @@ Passo um: entender a carga que produziu a dor, antes de prescrever qualquer cois
 
 O que mudou nas semanas antes da dor? O paciente quase sempre diz que nada. Aí se pergunta de forma específica: volume, ladeira, escada, areia, tiro, salto, pausa, superfície, calçado, horário. No nosso caso ilustrativo a resposta era evidente: entraram ladeira e tiro, justamente os estímulos que mais pedem do tendão como mola.
 
-Existe compressão? A dor piora em alongamento máximo, subindo escada, agachando fundo? A aula anterior mostrou por que isso muda o que sai nas primeiras semanas.
+Existe compressão? A dor piora em alongamento máximo, subindo escada, agachando fundo? A conversa sobre tendinopatia mostrou por que isso muda o que sai nas primeiras semanas.
 
 E como está a manhã seguinte? A rigidez e a dor na primeira pisada são o termômetro do que aconteceu no dia anterior. Essa é a melhor régua que existe para tendão, e volta no passo três.
 
@@ -66,7 +66,7 @@ Essa distinção libera o paciente, que chegou esperando ouvir "pare de correr".
 
 Passo três: a régua da dor. Sem ela, ninguém sabe se pode ou não pode, e o tratamento vira adivinhação.
 
-O modelo foi testado por Karin Silbernagel e colegas, num ensaio com trinta e oito pessoas com tendinopatia do Aquiles. A pessoa pode sentir dor durante e depois da atividade até cerca de cinco, numa escala de zero a dez, com três condições: a dor volta ao nível de base até a manhã seguinte; não vai aumentando de semana para semana; e a função não piora.
+O modelo foi testado num ensaio sueco de 2007, com trinta e oito pessoas com tendinopatia do Aquiles. A pessoa pode sentir dor durante e depois da atividade até cerca de cinco, numa escala de zero a dez, com três condições: a dor volta ao nível de base até a manhã seguinte; não vai aumentando de semana para semana; e a função não piora.
 
 O ensaio comparou quem continuou correndo e saltando com essa régua contra quem ficou em repouso ativo nas primeiras seis semanas. O resultado foi o mesmo. Continuar carregando com critério não piorou nada, e a pessoa seguiu fazendo o que gosta.
 
@@ -170,7 +170,7 @@ Seis passos: entender a carga que causou, ajustar sem zerar, usar a régua da ma
 
 Quem faz o quê. Diagnosticar, descartar o que imita tendinopatia e decidir sobre medicação é do médico. Prescrever e progredir o exercício terapêutico, ajustar a régua e reavaliar é da fisioterapia. Ajustar o treino, o que sai, o que volta e em que semana, e manter a força como hábito depois da alta é da preparação física. E combinar o prazo com o paciente, no primeiro dia, é de quem atender primeiro, porque é isso que evita o abandono na quarta semana.
 
-Na próxima aula, o joelho: a articulação que mais aparece no consultório de esporte, com dois problemas bem diferentes debaixo da mesma queixa.
+Na próxima conversa, o joelho: a articulação que mais aparece no consultório de esporte, com dois problemas bem diferentes debaixo da mesma queixa.
 
 ---
 
@@ -189,6 +189,8 @@ Na próxima aula, o joelho: a articulação que mais aparece no consultório de 
 Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é DECISÃO). Primeiro dos dois casos do
 módulo, dito como caso ilustrativo, com idade em década e sem nome.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (o caso, as tentativas, as três perguntas, o ajuste, a régua, a carga pesada, a comparação, as falhas e o plano), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Régua de dor: 38 pacientes, dor até cerca de 5 em 10, volta ao basal na
 manhã seguinte, sem aumento semanal; sem diferença contra repouso ativo nas primeiras seis semanas.
 Isometria: 5 séries de 45 segundos a cerca de 70% da contração máxima, em 6 jogadores de vôlei com
@@ -196,7 +198,7 @@ tendinopatia patelar. Carga pesada e lenta: 58 pacientes, 12 semanas, 3 vezes po
 cada fase, de 15RM na semana 1 a 6RM nas semanas 9 a 12, satisfação de 100% contra 80% em 12 semanas
 (sem diferença em 52), adesão de 92% contra 78%.
 
-**Correções.**
+**Correções.** 
 - O caso tinha "42 anos", "seis anos de corrida", "trinta quilômetros" e "cinco meses": virou homem
   na casa dos quarenta, sem números que o identifiquem como pessoa real.
 - O desfecho inventado saiu inteiro (semana quatro quase desistindo, "de oito para vinte e duas
@@ -208,12 +210,12 @@ cada fase, de 15RM na semana 1 a 6RM nas semanas 9 a 12, satisfação de 100% co
   diferença de adesão.
 - As referências do contínuo, de terminologia e da infiltração, sem uso nesta aula, saíram; entrou a
   de compressão, que o passo um usa.
+- Silbernagel saiu da fala; a régua de dor entra como "um ensaio sueco de 2007", e a autora fica na fonte. "A aula anterior mostrou" virou "a conversa sobre tendinopatia mostrou".
 
 **Saíram.** "vou te apresentar", "nosso corredor de quarenta e dois anos", "no próximo slide", "no
 slide da dor", "próxima conversa", o bloco "Roteiro Gamma". Duração de 17 para 14 minutos.
 
-**Citações faladas.** Silbernagel (régua de dor). O estudo da isometria e o ensaio dinamarquês entram
-sem nome de autor na fala.
+**Citações faladas.** Nenhum autor por nome. O ensaio sueco de 2007 da régua de dor entra pelo ano; o estudo da isometria e o ensaio dinamarquês entram sem nome.
 
 **Ligações internas.** Aplica o contínuo, a compressão e a pergunta "o que mudou" da aula anterior.
 Prepara as lesões do joelho da próxima aula.

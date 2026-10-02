@@ -156,7 +156,7 @@ A lesão do cruzado anterior é um dos poucos problemas do esporte em que há ev
 
 A atleta mulher merece atenção especial nessa conversa, porque a incidência dessa lesão é maior nas mulheres em vários esportes de mudança de direção, e os programas funcionam bem nessa população.
 
-A condição é incômoda: funcionam quando feitos de verdade, várias vezes por semana, a temporada inteira. Os números de efeito e o problema da adesão fecham este módulo, na última aula.
+A condição é incômoda: funcionam quando feitos de verdade, várias vezes por semana, a temporada inteira. Os números de efeito e o problema da adesão fecham o módulo.
 
 ---
 
@@ -168,7 +168,7 @@ As três decisões. Dor na frente do joelho: exercício de quadril e joelho, com
 
 Quem faz o quê. Diagnosticar, indicar imagem, decidir sobre cirurgia e assinar a liberação é do médico. Conduzir a progressão e aplicar os testes de retorno é da fisioterapia. Construir força, potência e controle de aterrissagem, e entregar o programa de prevenção no aquecimento, é da preparação física. Reconhecer o mecanismo perigoso e tirar o atleta na hora é do treinador e de quem estiver mais perto. E segurar a pressão do calendário, do empresário e da família para que a decisão do nono mês seja clínica é de quem coordena.
 
-Na próxima aula, as duas regiões que completam o mapa: o tornozelo, lesão mais comum do esporte coletivo, e o ombro, do esporte que joga acima da cabeça.
+Na próxima conversa, as duas regiões que completam o mapa: o tornozelo, lesão mais comum do esporte coletivo, e o ombro, do esporte que joga acima da cabeça.
 
 ---
 
@@ -186,11 +186,13 @@ Na próxima aula, as duas regiões que completam o mapa: o tornozelo, lesão mai
 Arquitetura DECISÃO mantida (a anterior é PROCEDIMENTO; a próxima é PROCEDIMENTO), em três decisões.
 Sem caso clínico: as três pessoas viraram perfis típicos, sem idade.
 
+Nesta revisão, os 11 slides que ainda eram texto viraram desenho (a sala de espera, a dor femoropatelar, as mensagens, o que fazer, o que parar de fazer, o joelho que incha, o gramado, a balança da cirurgia, tempo e critério, as regras do retorno e a prevenção), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Coorte de Delaware e Oslo: 106 atletas de esportes com giro, redução de 51%
 na taxa de nova lesão no joelho por mês de adiamento até o nono mês, sem ganho depois; 38,2% de nova
 lesão entre os que não passaram nos critérios contra 5,6% entre os que passaram.
 
-**Correções.**
+**Correções.** 
 - As idades ("vinte e oito", "dezenove", "vinte e três anos") saíram: são perfis típicos, e o módulo
   só tem dois casos ilustrativos.
 - A bandagem, apresentada como complemento com lugar, foi corrigida: o consenso de 2018 registrou
@@ -201,6 +203,7 @@ lesão entre os que não passaram nos critérios contra 5,6% entre os que passar
 - "Oito meses" virou "alguns meses", porque o número não era da coorte, e o nono mês ficou com a
   fonte.
 - A referência de mecanismos de lesão, sem uso nesta aula, saiu.
+- "Fecham este módulo, na última aula" virou "fecham o módulo", na fala e no destaque do slide da prevenção.
 
 **Saíram.** "nossa última conversa aqui", "próxima conversa", "é o do próximo slide", "é justamente o
 assunto do próximo slide", o bloco "Roteiro Gamma". Duração de 16 para 13 minutos.

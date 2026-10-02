@@ -283,6 +283,15 @@ vindo da UFMG (Bittencourt, 2016), revisão brasileira do FIFA 11+ (Sadigursky, 
 coorte de isquiotibiais em clube brasileiro (Oliveira-Júnior, 2024), crioterapia
 em músculo de rato (Vieira Ramos, 2016) e o enquadramento do registro de lesão como dado pessoal sensível sob a LGPD.
 
+**Acabamento.** Os 128 slides que ainda eram texto (cartões, colunas, listas, tabelas, números e frases)
+viraram desenho, sem mudar a quantidade nem a ordem dos slides; agora todo slide do módulo, fora o fecho,
+é um desenho próprio (os novos estão em `slides/MOD07/_redesenho.py`). Na fala e no topo dos slides, saíram os
+nomes de autores que não são marco (ficam Yamato, Saragiotto e Lopes, pelo consenso brasileiro, Meeuwisse,
+pelo modelo de 1994, Bahr, pela revisão de 2016 sobre rastreio, Bittencourt, pelos sistemas complexos, Cook e
+Purdam, pelo contínuo de 2009, e Grindem, pela coorte de Delaware e Oslo); os demais estudos entram pelo ano,
+e o autor fica na fonte do slide. As menções a "aula anterior" viraram referência ao conteúdo, e "na próxima
+aula" virou "na próxima conversa". As notas de produção foram refeitas no formato completo. Os links são os mesmos.
+
 ## Módulo 8 — Fisioterapia Esportiva e Reabilitação · 12 aulas
 
 **ESCRITO NA VOZ DO CURSO, COM SLIDES VISUAIS.** Mesmo padrão dos módulos 2 a 7: decks enxutos, gráficos

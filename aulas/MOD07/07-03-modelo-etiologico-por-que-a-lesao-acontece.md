@@ -90,7 +90,7 @@ O modelo dos três blocos parece uma linha reta. O próprio Meeuwisse, com coleg
 
 Quando o treino dá certo, ele se adapta, o copo aumenta, e o mesmo estímulo fica fácil. Quando não dá certo, ele se desadapta, o copo diminui, e o mesmo estímulo passa a ser demais. Quando se machuca e reabilita direito, volta parecido com o que era. Quando reabilita pela metade, volta com um copo menor, o que ajuda a explicar por que a segunda lesão costuma vir mais fácil.
 
-O risco, então, não é um número fixo que a pessoa carrega. É uma condição que muda toda semana. Uma avaliação feita uma vez por ano é uma foto de um filme. O que descreve o filme é a medida repetida: a pergunta semanal, a carga acompanhada, o sintoma que apareceu e ninguém contou. É o registro da aula anterior.
+O risco, então, não é um número fixo que a pessoa carrega. É uma condição que muda toda semana. Uma avaliação feita uma vez por ano é uma foto de um filme. O que descreve o filme é a medida repetida: a pergunta semanal, a carga acompanhada, o sintoma que apareceu e ninguém contou. É o registro semanal.
 
 ---
 
@@ -100,7 +100,7 @@ O risco, então, não é um número fixo que a pessoa carrega. É uma condição
 
 Erro quatro: continuar caçando o preditor.
 
-Mesmo aceitando que são muitos fatores, a gente ainda tenta enfileirá-los e descobrir qual pesa mais. E aí vem a decepção que a primeira aula do módulo anunciou: em 2016, Roald Bahr revisou os testes de rastreio e mostrou por que nenhum deles prevê lesão com precisão útil.
+Mesmo aceitando que são muitos fatores, a gente ainda tenta enfileirá-los e descobrir qual pesa mais. E aí vem a decepção anunciada no começo do módulo: em 2016, Roald Bahr revisou os testes de rastreio e mostrou por que nenhum deles prevê lesão com precisão útil.
 
 A explicação para esse fracasso veio no mesmo ano, de um trabalho com autoria brasileira: Natália Bittencourt e o grupo da Universidade Federal de Minas Gerais, com pesquisadores canadenses. Lesão não é soma de fatores. É o que emerge de uma rede de determinantes que interagem, e essa rede se comporta como sistema complexo. O que dá para fazer é reconhecer padrões.
 
@@ -176,7 +176,7 @@ Mecanismo não é causa: a causa está nas semanas anteriores, na carga, no sono
 
 Quem faz o quê. Diagnosticar a lesão e conduzir o tratamento é do médico e do fisioterapeuta. Dosar e progredir a carga é do profissional de educação física e da preparação. Reconhecer o padrão no grupo e levá-lo para a reunião é de quem acompanha o registro. E sono, alimentação e energia disponível envolvem nutrição e, muitas vezes, psicologia, porque o calendário aperta a vida inteira do atleta.
 
-Na próxima aula, a gente desce para o tecido: lesão muscular, a mais frequente no esporte que corre, e o que acontece dentro do músculo quando ele falha.
+Na próxima conversa, a gente desce para o tecido: lesão muscular, a mais frequente no esporte que corre, e o que acontece dentro do músculo quando ele falha.
 
 ---
 
@@ -200,12 +200,14 @@ Na próxima aula, a gente desce para o tecido: lesão muscular, a mais frequente
 Arquitetura ERRO mantida (a anterior é PROCEDIMENTO; a próxima é PROCEDIMENTO), em quatro erros. Sem
 caso clínico: o lateral e a corredora viraram perfis típicos, sem idade e sem desfecho.
 
+Nesta revisão, os 7 slides que ainda eram texto viraram desenho (os sprints, mecanismo e causa, o modelo de 1994, o copo, a rede, a razão aguda e crônica e as três colunas), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Nenhum número de estudo é falado. Os anos dos modelos (1994 e 2007), da
 revisão de mecanismo (2005), da revisão de rastreio e do modelo de sistemas complexos (2016), da
 crítica à razão aguda e crônica (2020), da coorte de pronação e da metanálise de prevenção (2014) e
 da coorte sueca de lesão prévia (2006) foram conferidos.
 
-**Correções.**
+**Correções.** 
 - A história do lateral trazia detalhes inventados apresentados como investigados ("quando alguém foi
   olhar, estava tudo lá": virose dez dias antes, volume em dobro, lesão catorze meses antes). Virou o
   perfil típico do que se encontra ao olhar para trás, sem números.
@@ -216,6 +218,7 @@ da coorte sueca de lesão prévia (2006) foram conferidos.
 - O modelo original de 1994 não estava nas referências, embora fosse descrito na fala; entrou.
 - As afirmações sobre pronação e alongamento ganharam fonte (coorte de 2014 e metanálise de 2014).
 - A lesão prévia como fator de risco ganhou a coorte sueca.
+- "O registro da aula anterior" virou "o registro semanal", e "a decepção que a primeira aula do módulo anunciou" virou "a decepção anunciada no começo do módulo". O título do slide de abertura ganhou aspas, por ser fala.
 
 **Saíram.** "o argumento é elegante na sua simplicidade", "nossa conversa anterior", "nossa primeira
 conversa", "próxima conversa", "slide anterior" (no slide que abre o erro dois), o bloco "Roteiro

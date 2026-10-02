@@ -110,7 +110,7 @@ O que sai do padrão e pede avaliação médica mais atenta: trauma com perda s�
 
 O quadro típico hoje se chama dor do ombro relacionada ao manguito rotador, e é a queixa mais comum da região no esporte de braço acima da cabeça.
 
-Os nomes antigos, que continuam em laudo e receita, sugerem uma estrutura sendo pinçada e a solução de tirar o que pinça. Essa leitura mecânica simples perdeu força, como mostra a revisão de Jeremy Lewis e colegas, de 2015. A primeira linha hoje é exercício com progressão de carga, por meses, junto com o ajuste do treino que produziu o quadro.
+Os nomes antigos, que continuam em laudo e receita, sugerem uma estrutura sendo pinçada e a solução de tirar o que pinça. Essa leitura mecânica simples perdeu força, como mostra uma revisão de 2015. A primeira linha hoje é exercício com progressão de carga, por meses, junto com o ajuste do treino que produziu o quadro.
 
 Duas nuances. No atleta jovem de arremesso e de natação, instabilidade é parte frequente do quadro. No adulto acima dos quarenta, a chance de lesão estrutural no manguito aumenta, o que não muda o fato de que exercício segue sendo a primeira linha na maioria dos casos.
 
@@ -160,7 +160,7 @@ A frase que vale para as duas: alta por ausência de dor é o que produz a recid
 
 Quem faz o quê. Aplicar a regra de imagem, encaminhar e conduzir o caso do ponto de vista médico é do médico. Reabilitar e decidir quando o atleta está pronto para cada etapa é da fisioterapia. Ajustar volume, metragem, arremessos e proporção de exercícios, e colocar equilíbrio e aterrissagem dentro do treino, é da preparação física. Reconhecer o sinal de alarme na beira da quadra e tirar o atleta é de quem estiver mais perto.
 
-Na próxima aula, uma lesão que começa como uma dorzinha e termina com o atleta meses fora: a lesão óssea por estresse, e por que ela quase nunca é só um problema de osso.
+Na próxima conversa, uma lesão que começa como uma dorzinha e termina com o atleta meses fora: a lesão óssea por estresse, e por que ela quase nunca é só um problema de osso.
 
 ---
 
@@ -179,13 +179,15 @@ Na próxima aula, uma lesão que começa como uma dorzinha e termina com o atlet
 **O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de sete blocos longos.
 Arquitetura PROCEDIMENTO mantida (a anterior é DECISÃO; a próxima é NÚMERO). Sem caso clínico.
 
+Nesta revisão, os 11 slides que ainda eram texto viraram desenho (as duas filas, Ottawa, os alarmes, a primeira semana, a alta, a instabilidade, o programa, o ombro, o manguito, as quatro frentes e a carga por esporte), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Regra de Ottawa: revisão sistemática de 27 estudos, 15.581 pacientes,
 sensibilidade combinada de 97,6%. Revisão de revisões de 2017: 46 revisões; evidência forte para
 anti-inflamatório e mobilização precoce (dor, inchaço e função) e para órtese ou bandagem na prevenção
 da recidiva; evidência moderada para treino neuromuscular. Instabilidade crônica depois da primeira
 entorse: estimativas de cerca de 40% a até 70%, conforme critério e população.
 
-**Correções.**
+**Correções.** 
 - "Sensibilidade altíssima" ganhou o número e a fonte (revisão do BMJ de 2003).
 - A frase "exercício com evidência consistente e órtese com evidência forte" foi ajustada para o que a
   revisão de 2017 classificou: órtese e bandagem com evidência forte, treino neuromuscular moderada.
@@ -194,13 +196,13 @@ entorse: estimativas de cerca de 40% a até 70%, conforme critério e populaçã
 - A referência do consenso de 2016 foi corrigida: o número PubMed antes citado era o da revisão de
   evidências que o acompanha.
 - A referência do contínuo do tendão, sem uso nesta aula, saiu.
+- Lewis saiu da fala; a revisão do ombro entra pelo ano, e o autor fica na fonte.
 
 **Saíram.** "hoje eu vou te dar", "que a gente já discutiu quando falamos de analgesia", "pelos
 motivos que a gente já discutiu", "assunto da nossa próxima conversa", "próxima conversa", o bloco
 "Roteiro Gamma". Duração de 13 para 11 minutos.
 
-**Citações faladas.** Lewis (ombro, 2015). A regra de Ottawa entra pelo nome da regra; a revisão do
-BMJ, a revisão de 2017 e o consenso de 2016 entram sem nome de autor na fala.
+**Citações faladas.** Nenhum autor por nome. A regra de Ottawa entra pelo nome da regra; a revisão de 2015 do ombro, a revisão do BMJ, a revisão de 2017 e o consenso de 2016 entram sem nome de autor.
 
 **Ligações internas.** Remete o anti-inflamatório ao módulo de medicina esportiva clínica, retoma a
 pergunta "o que mudou" da aula de tendinopatia e antecipa a aula de imagem. Prepara a lesão óssea por

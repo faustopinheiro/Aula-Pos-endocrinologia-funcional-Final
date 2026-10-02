@@ -16,7 +16,7 @@ A palavra está em receita, atestado, laudo e na boca de quase todo mundo. E car
 
 O sufixo "ite" quer dizer inflamação. Se o problema é inflamação, o tratamento parece óbvio: anti-inflamatório, gelo e repouso. Quem tem dor no tendão de Aquiles há oito meses já fez essas três coisas, muitas vezes, e continua com dor.
 
-Esta aula é sobre cinco erros que vêm dessa palavra. E o desfecho já vai adiantado: o tendão não é um tecido inflamado que precisa descansar. É um tecido que responde à carga e que, quando a carga foi mal administrada, melhora com carga bem administrada. O como, dose por dose, é a próxima aula. Hoje é o porquê.
+Esta aula é sobre cinco erros que vêm dessa palavra. E o desfecho já vai adiantado: o tendão não é um tecido inflamado que precisa descansar. É um tecido que responde à carga e que, quando a carga foi mal administrada, melhora com carga bem administrada. O como, dose por dose, é a próxima conversa. Hoje é o porquê.
 
 ---
 
@@ -122,7 +122,7 @@ Erro quatro: mandar alongar.
 
 Esse é especialmente cruel, porque o paciente faz o que mandaram, com disciplina, e piora.
 
-A explicação é mecânica, e foi discutida por Cook e Purdam em 2012. Alguns tendões, levados ao alongamento máximo, são comprimidos contra o osso. É o que acontece com o Aquiles na inserção no calcanhar, com os isquiotibiais lá em cima, perto do ísquio, e com os tendões dos glúteos na lateral do quadril.
+A explicação é mecânica, e foi discutida pelos mesmos autores do contínuo, em 2012. Alguns tendões, levados ao alongamento máximo, são comprimidos contra o osso. É o que acontece com o Aquiles na inserção no calcanhar, com os isquiotibiais lá em cima, perto do ísquio, e com os tendões dos glúteos na lateral do quadril.
 
 Nesses lugares, tração somada a compressão é justamente o que irrita o tecido. E o alongamento sustentado faz exatamente isso, várias vezes por dia.
 
@@ -164,7 +164,7 @@ Os cinco erros e o que fica no lugar. Tendinite vira tendinopatia. Uma coisa só
 
 Quem faz o quê. Diagnosticar, descartar o que não é tendinopatia e decidir sobre medicação ou infiltração é do médico. Dosar o exercício terapêutico e conduzir a progressão é da fisioterapia. Ajustar volume, superfície, terreno e tipo de estímulo é da preparação física, e sem essa parte o tratamento não se sustenta. E explicar que dor de tendão não significa destruição é de todo mundo, porque o medo de se mover é parte do problema.
 
-Na próxima aula, a parte prática: como se dosa carga num tendão que dói, quanta dor é aceitável durante o exercício, e por quanto tempo isso precisa ser feito para valer.
+Na próxima conversa, a parte prática: como se dosa carga num tendão que dói, quanta dor é aceitável durante o exercício, e por quanto tempo isso precisa ser feito para valer.
 
 ---
 
@@ -185,11 +185,13 @@ Na próxima aula, a parte prática: como se dosa carga num tendão que dói, qua
 Arquitetura ERRO mantida (a anterior é PROCEDIMENTO; a próxima é PROCEDIMENTO), em cinco erros. Sem
 caso clínico.
 
+Nesta revisão, os 8 slides que ainda eram texto viraram desenho (a palavra, o nome, a rosca, imagem e dor, os exames, o que mudou, a compressão e a conduta), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Nenhum número de estudo é falado além dos anos. A metanálise de ultrassom de
 2016 encontrou risco relativo de tendinopatia futura de cerca de 7 no Aquiles e 4 no patelar quando
 havia alteração sem dor; na fala ficou "algumas vezes", sem número.
 
-**Correções.**
+**Correções.** 
 - "Alteração estrutural é comum em gente sem dor" ganhou a nuance que faltava: essa alteração aumenta
   o risco de dor futura (metanálise de 2016), embora não meça a dor de hoje.
 - "Trate a rosca, não o buraco" ganhou a fonte (revisão do modelo, 2016).
@@ -199,13 +201,12 @@ havia alteração sem dor; na fala ficou "algumas vezes", sem número.
   dado conferido nesta revisão.
 - "Quase quarenta anos" virou "décadas".
 - O ensaio de monitoramento de dor no Aquiles saiu das referências desta aula; ele é da próxima.
+- "Discutida por Cook e Purdam em 2012" virou "discutida pelos mesmos autores do contínuo, em 2012"; o contínuo de 2009 mantém os nomes, por ser o marco.
 
 **Saíram.** "esta conversa", "a nossa próxima conversa", "a gente já conversou sobre isso", "próxima
 conversa", o bloco "Roteiro Gamma". Duração de 14 para 12 minutos.
 
-**Citações faladas.** Cook e Purdam (modelo do contínuo, 2009, e compressão, 2012). O consenso de
-terminologia, a revisão do modelo, a metanálise de ultrassom e a revisão do Lancet entram sem nome de
-autor na fala.
+**Citações faladas.** Cook e Purdam, pelo modelo do contínuo de 2009. O trabalho de 2012 sobre compressão entra como dos mesmos autores; o consenso de terminologia, a revisão do modelo, a metanálise de ultrassom e a revisão do Lancet entram sem nome de autor.
 
 **Ligações internas.** Remete a analgesia e o corticoide ao módulo de medicina esportiva clínica.
 Prepara o manejo de carga da próxima aula.

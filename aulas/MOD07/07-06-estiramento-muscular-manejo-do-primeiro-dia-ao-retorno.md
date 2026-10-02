@@ -170,7 +170,7 @@ Passo cinco: a reabilitação e a travessia até o jogo. O retorno não é um di
 
 Duas pesquisas mudaram a forma de subir essa escada.
 
-A primeira é o exercício em alongamento. O grupo de Carl Askling testou, em setenta e cinco jogadores da elite sueca, um protocolo focado em exercícios com o posterior de coxa trabalhando alongado contra a reabilitação convencional. O retorno médio foi de vinte e oito dias contra cinquenta e um.
+A primeira é o exercício em alongamento. Um grupo sueco testou, em setenta e cinco jogadores da elite sueca, um protocolo focado em exercícios com o posterior de coxa trabalhando alongado contra a reabilitação convencional. O retorno médio foi de vinte e oito dias contra cinquenta e um.
 
 A segunda é sobre dor durante a reabilitação. Um ensaio australiano comparou reabilitação totalmente sem dor com desconforto tolerável. O tempo até a liberação foi parecido, cerca de duas semanas e meia. Mas quem aceitou algum desconforto recuperou mais força e preservou melhor o comprimento das fibras. Um pouco de incômodo durante o exercício não é sinal de que está dando errado.
 
@@ -186,7 +186,7 @@ Volta para o atleta que parou no terceiro passo. Nos primeiros minutos, alguém 
 
 Quem faz o quê. Diagnosticar, graduar, reconhecer o arrancamento cirúrgico, decidir imagem e medicação e dar alta médica é do médico. Conduzir a reabilitação e decidir a passagem de cada degrau é da fisioterapia. Manter o condicionamento e conduzir a volta à corrida e ao grupo é da preparação física, em conversa diária com a fisioterapia. Energia, proteína e uso criterioso de suplemento são da nutrição. O medo de voltar e a pressão por prazo pedem psicologia. E o treinador tem uma função que ninguém substitui: aceitar o critério e proteger o atleta da pressão de voltar antes da hora.
 
-Na próxima aula, outro tecido: o tendão, que dói por meses, quase nunca afasta e foi mal explicado por décadas.
+Na próxima conversa, outro tecido: o tendão, que dói por meses, quase nunca afasta e foi mal explicado por décadas.
 
 ---
 
@@ -210,13 +210,15 @@ Na próxima aula, outro tecido: o tendão, que dói por meses, quase nunca afast
 Arquitetura PROCEDIMENTO mantida (a anterior é NÚMERO; a próxima é ERRO), em cinco passos. Sem caso
 clínico.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a sequência automática, o custo, os graus, as imitações, PEACE, LOVE, o anti-inflamatório, o gelo, a cúrcuma e a reabilitação), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Clube brasileiro: 34 jogadores, uma temporada, perda potencial estimada de
 US$ 43,2 milhões (98,7% pela queda de desempenho da equipe), fatores associados: lesão prévia e
 déficit e fadiga dos flexores do joelho no isocinético. Metanálise da curcumina: 14 ensaios, 349
 pessoas. Protocolo de alongamento: 75 jogadores, 28 contra 51 dias em média. Ensaio de dor
 tolerável: mediana de 15 dias sem dor contra 17 dias com desconforto, sem diferença significativa. PEACE and LOVE saiu online em 2019, na edição impressa de 2020.
 
-**Correções.**
+**Correções.** 
 - "Dezenas de milhões de dólares" ganhou o valor conferido, a origem da conta (queda de desempenho)
   e a ressalva de estudo piloto com um clube.
 - A faixa de dose da curcumina ("150 a 1.500 mg por dia") saiu: não foi conferida na metanálise.
@@ -227,13 +229,12 @@ tolerável: mediana de 15 dias sem dor contra 17 dias com desconforto, sem difer
 - "Em jovens, o uso crônico foi associado a ganho menor de massa e de força" virou "doses altas por
   semanas de treino de força foram associadas a ganho menor de massa muscular", mais fiel à revisão.
 - A referência de Munique, sem uso nesta aula, saiu.
+- Askling saiu da fala; o ensaio do protocolo em alongamento entra como "um grupo sueco".
 
 **Saíram.** "trigésimo minuto do segundo tempo", "essa conversa", "que a gente já discutiu",
 "próxima conversa", "quarenta anos", o bloco "Roteiro Gamma". Duração de 23 para 15 minutos.
 
-**Citações faladas.** Askling (protocolo de alongamento). As siglas entram pela história (editorial de
-2012, fisioterapeutas canadenses de 2019), sem nome de autor; o estudo brasileiro do clube, a
-metanálise da curcumina, o trabalho brasileiro em ratos e o ensaio australiano entram sem nome.
+**Citações faladas.** Nenhum autor por nome. O ensaio sueco do protocolo em alongamento entra como "um grupo sueco"; as siglas entram pela história (editorial de 2012, fisioterapeutas canadenses de 2019); o estudo brasileiro do clube, a metanálise da curcumina, o trabalho brasileiro em ratos e o ensaio australiano entram sem nome.
 
 **Ligações internas.** Retoma a classificação e o prognóstico das duas aulas anteriores. Remete os
 critérios de retorno ao módulo de reabilitação. Prepara a tendinopatia da próxima aula.

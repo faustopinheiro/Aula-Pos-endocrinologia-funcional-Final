@@ -14,7 +14,7 @@ Quando alguém diz que teve uma lesão muscular, essa frase cobre desde uma dor 
 
 Esta aula não é para você diagnosticar, que é ato médico e tem dono. É para você entender o que aconteceu lá dentro, porque isso decide o que vem depois: quanto tempo, que carga, quando voltar ao sprint e qual o risco de repetir.
 
-São quatro passos: entender o que falha, avaliar nas primeiras horas, decidir sobre imagem e classificar. O prazo, e por que a gente erra tanto essa conta, é a próxima aula. A reabilitação em si é do módulo de reabilitação.
+São quatro passos: entender o que falha, avaliar nas primeiras horas, decidir sobre imagem e classificar. O prazo, e por que a gente erra tanto essa conta, é a próxima conversa. A reabilitação em si é do módulo de reabilitação.
 
 ---
 
@@ -36,7 +36,7 @@ Quase uma em cada quatro lesões, num único grupo muscular, e crescendo. Enquan
 
 Primeiro passo: entender o que falha.
 
-O músculo raramente se rompe quando encurta. Rompe quando alonga sob tensão alta, a contração excêntrica. E há dois cenários típicos, descritos pelo grupo sueco de Carl Askling.
+O músculo raramente se rompe quando encurta. Rompe quando alonga sob tensão alta, a contração excêntrica. E há dois cenários típicos, descritos por um grupo sueco em 2007.
 
 O primeiro é a corrida em alta velocidade, no fim do balanço da perna: o pé vai para a frente, o joelho estende, e os isquiotibiais freiam esse movimento enquanto se alongam. É a lesão mais comum do jogador e do velocista, e costuma pegar a cabeça longa do bíceps femoral.
 
@@ -64,7 +64,7 @@ Passo dois: a avaliação das primeiras horas, que é clínica e vale mais do qu
 
 O que a pessoa estava fazendo, exatamente: sprint, chute, abertura, desaceleração. O que sentiu: um estalo, uma pontada, ou algo que apertou aos poucos ao longo do treino, que sugere outra coisa. Se conseguiu continuar e se conseguiu andar. E se já teve isso antes, no mesmo lugar, e quando.
 
-A última pergunta é a que mais se esquece. Lesão prévia no mesmo músculo muda o risco e o plano, como a aula anterior mostrou.
+A última pergunta é a que mais se esquece. Lesão prévia no mesmo músculo muda o risco e o plano, como a conversa sobre etiologia mostrou.
 
 ---
 
@@ -102,7 +102,7 @@ Três advertências práticas sobre imagem de músculo.
 
 Feita cedo demais, pode subestimar a lesão. Feita tarde demais, pode mostrar cicatriz de uma coisa antiga e confundir. O momento importa.
 
-E a terceira vale para a vida inteira de quem trabalha com atleta: alteração de imagem em músculo é comum, e o edema costuma persistir em quem já está clinicamente recuperado e voltou a treinar bem. A imagem, sozinha, não decide quando a pessoa volta. Esse é um dos erros mais caros da área, e a próxima aula volta a ele.
+E a terceira vale para a vida inteira de quem trabalha com atleta: alteração de imagem em músculo é comum, e o edema costuma persistir em quem já está clinicamente recuperado e voltou a treinar bem. A imagem, sozinha, não decide quando a pessoa volta. Esse é um dos erros mais caros da área, e a próxima conversa volta a ele.
 
 ---
 
@@ -154,7 +154,7 @@ Os quatro erros que mais aparecem. Chamar tudo de estiramento, o que põe na mes
 
 Quem faz o quê. Diagnosticar, classificar, pedir e interpretar imagem é do médico. Avaliar, tratar e conduzir a progressão do tecido é da fisioterapia. Reconstruir força, potência e exposição ao gesto, na dose do dia a dia, é da preparação física junto com a fisioterapia. Reconhecer o que aconteceu e avisar rápido é de quem está mais perto, quase sempre o treinador. E comunicar prazo para direção, imprensa e família é de quem coordena, com o médico, nunca de improviso.
 
-Na próxima aula, o prazo: quanto tempo essas lesões levam, por que a previsão erra tanto e por que prometer uma data é a forma mais rápida de se meter em encrenca.
+Na próxima conversa, o prazo: quanto tempo essas lesões levam, por que a previsão erra tanto e por que prometer uma data é a forma mais rápida de se meter em encrenca.
 
 ---
 
@@ -176,11 +176,13 @@ Na próxima aula, o prazo: quanto tempo essas lesões levam, por que a previsão
 Arquitetura PROCEDIMENTO mantida (a anterior é ERRO; a próxima é NÚMERO), em quatro passos. Sem
 caso clínico.
 
+Nesta revisão, os 10 slides que ainda eram texto viraram desenho (a faixa da palavra, o posterior de coxa, os dois cenários, a história, o exame, a pergunta da imagem, as advertências, Munique, a classificação britânica e a conduta), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Estudo da UEFA: 21 temporadas, isquiotibiais em 19% de todas as lesões,
 proporção de 12% na primeira temporada para 24% na mais recente. Coorte norueguesa: 180 atletas
 homens. Anos dos consensos de Munique (2013) e britânico (2014), e do estudo da letra c (2016).
 
-**Correções.**
+**Correções.** 
 - "Essa frase pode significar seis coisas bem diferentes, com prognósticos de três dias a quatro
   meses" saiu: o consenso de Munique tem mais subtipos que seis, e a faixa de prazo não tinha fonte.
   Ficou a ideia de dias a meses.
@@ -189,12 +191,12 @@ homens. Anos dos consensos de Munique (2013) e britânico (2014), e do estudo da
 - "Costuma doer menos do que se espera no começo", sobre o tendão interno, saiu; sem fonte conferida.
 - A letra b foi corrigida para "no músculo ou na junção com o tendão", como no sistema original.
 - A referência de carga de lesão, citada sem uso nesta aula, saiu.
+- Askling saiu da fala; os dois mecanismos entram como "um grupo sueco em 2007". "Como a aula anterior mostrou" virou "como a conversa sobre etiologia mostrou".
 
 **Saíram.** "esta conversa", "nossa próxima conversa", "do segundo slide", "no Brasil, por razão de
 calendário", o bloco "Roteiro Gamma". Duração de 15 para 12 minutos.
 
-**Citações faladas.** Askling (os dois mecanismos). O estudo da UEFA, a coorte norueguesa, os dois
-consensos e o estudo britânico da letra c entram sem nome de autor na fala.
+**Citações faladas.** Nenhum autor por nome. Os dois estudos suecos de 2007 entram pelo ano; o estudo da UEFA, a coorte norueguesa, os dois consensos e o estudo britânico da letra c entram sem nome de autor.
 
 **Ligações internas.** Retoma a lesão prévia da aula anterior. Prepara o prognóstico da próxima aula e
 o manejo da aula de estiramento, e aponta os critérios de retorno para o módulo de reabilitação.

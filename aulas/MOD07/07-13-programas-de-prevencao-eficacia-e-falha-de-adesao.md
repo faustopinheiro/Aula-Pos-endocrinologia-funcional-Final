@@ -108,7 +108,7 @@ Apresentado como bloco extra, obrigação da fisioterapia, algo que rouba tempo 
 
 Decisão três: quem conduz, e onde entra na semana? Antes, o dado mais incômodo.
 
-Roald Bahr e colegas perguntaram a cinquenta clubes profissionais, trinta e dois da Liga dos Campeões e dezoito da primeira divisão norueguesa, o que faziam para prevenir lesão de posterior de coxa. Os clubes com mais recurso do planeta, diante da lesão que mais lhes custa.
+Um estudo de 2015 perguntou a cinquenta clubes profissionais, trinta e dois da Liga dos Campeões e dezoito da primeira divisão norueguesa, o que faziam para prevenir lesão de posterior de coxa. Os clubes com mais recurso do planeta, diante da lesão que mais lhes custa.
 
 O programa nórdico completo foi feito em cerca de onze por cento das temporadas avaliadas. Em mais de oitenta por cento, não foi feito. A conclusão dos autores: a adoção é baixa demais para se esperar qualquer efeito sobre as taxas de lesão.
 
@@ -176,7 +176,7 @@ O mínimo viável cabe numa linha: duas vezes por semana, vinte minutos, dentro 
 *Visual: fecho do módulo em tinta: a matriz dos três níveis, Decisão, Contribuição e Reconhecimento, aplicada ao módulo inteiro.*
 *Teleprompter: (fecha a aula e o módulo nos três níveis)*
 
-Como esta aula fecha o módulo, juntamos as treze aulas do jeito que a equipe trabalha, em três níveis.
+Como esta aula fecha o módulo, juntamos todas as conversas do módulo do jeito que a equipe trabalha, em três níveis.
 
 Decisão. Diagnosticar, classificar, decidir sobre imagem, afastamento e alta médica, e encaminhar rápido a lesão óssea de alto risco e o joelho que incha em horas: médico. Conduzir a reabilitação, os critérios de passagem e os testes de retorno: fisioterapia. Prescrever e progredir carga, conduzir o programa preventivo no campo e organizar a semana: profissional de educação física e preparação. Garantir energia para reparo e desempenho: nutrição, com o médico. Medo de voltar, pressão por prazo, humor e sono: psicologia, com todos. E a gestão decide três coisas que parecem administrativas e mudam desfecho: qual definição de lesão o grupo usa, como o registro é feito e protegido, e se o programa preventivo tem horário garantido no treino.
 
@@ -209,6 +209,8 @@ anterior é ERRO), em quatro decisões. Fecha o módulo nos três níveis (Decis
 Reconhecimento) e faz a ponte para o módulo de fisioterapia esportiva e reabilitação. Sem caso
 clínico.
 
+Nesta revisão, os 11 slides que ainda eram texto viraram desenho (os quinze minutos, as quatro decisões, o efeito, a força, os ingredientes, a armadilha, a adoção, as alavancas, os dois números, os cuidados e os contextos), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Ensaio norueguês de 2008: 1.892 jogadoras de 13 a 17 anos, 125 clubes, uma
 temporada; menos lesões no total, nas graves e nas por sobrecarga; sem diferença significativa nas
 lesões de membro inferior. Revisão do FIFA 11+ (2017): 6 ensaios, 6.344 jogadores, risco relativo de
@@ -216,7 +218,9 @@ lesões de membro inferior. Revisão do FIFA 11+ (2017): 6 ensaios, 6.344 jogado
 nórdico (2015): 50 equipes, 32 da Liga dos Campeões e 18 da liga norueguesa; programa completo em
 10,7% das temporadas e não realizado em 83,4%.
 
-**Correções.**
+Conta do desenho da adoção: 100% menos 10,7% e 83% deixa 6,3% das temporadas, desenhados em cinza e sem número.
+
+**Correções.** 
 - O efeito do ensaio norueguês ganhou a ressalva que faltava: nas lesões de membro inferior, a
   diferença não foi significativa.
 - "Cerca de trinta por cento menos lesões no total" do ensaio norueguês virou "cerca de um terço",
@@ -227,13 +231,13 @@ nórdico (2015): 50 equipes, 32 da Liga dos Campeões e 18 da liga norueguesa; p
 - "Adesão individual acima de oitenta por cento" como alvo saiu, sem fonte conferida; ficou "adesão
   individual alta".
 - A referência de Finch (2006), não usada na fala, saiu.
+- Bahr saiu da fala na pesquisa do exercício nórdico, que entra pelo ano; o autor fica na fonte. "As treze aulas" virou "todas as conversas do módulo".
 
 **Saíram.** "esta conversa", "a última conversa deste bloco", "na última conversa", "no próximo
 bloco", "que a gente conversou no tornozelo", "a solução está no slide anterior", o bloco
 "Roteiro Gamma". Duração de 28 para 17 minutos.
 
-**Citações faladas.** Bahr (pesquisa do exercício nórdico). O ensaio norueguês, a revisão brasileira,
-a revisão do exercício nórdico e as metanálises dinamarquesas entram sem nome de autor.
+**Citações faladas.** Nenhum autor por nome. A pesquisa de 2015 sobre o exercício nórdico entra pelo ano; o ensaio norueguês, a revisão brasileira, a revisão do exercício nórdico e as metanálises dinamarquesas entram sem nome de autor.
 
 **Ligações internas.** Retoma a definição e a vigilância das duas primeiras aulas, a metanálise da
 aula de etiologia, o exercício em alongamento da aula de estiramento, o cruzado da aula de joelho e o

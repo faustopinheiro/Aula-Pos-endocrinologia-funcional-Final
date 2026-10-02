@@ -44,7 +44,7 @@ Ruptura parcial moderada: trinta e dois dias.
 
 Ruptura subtotal, completa ou arrancamento do tendão: sessenta dias.
 
-A progressão é clara: quanto mais estrutura rompida, mais tempo. E, pela classificação britânica, quando a lesão chega ao tendão interno, a letra c da aula anterior, o retorno ao treino completo também demora mais.
+A progressão é clara: quanto mais estrutura rompida, mais tempo. E, pela classificação britânica, quando a lesão chega ao tendão interno, a letra c, o retorno ao treino completo também demora mais.
 
 ---
 
@@ -80,7 +80,7 @@ Terceira, a que incomoda: o prazo depende menos do tamanho da lesão e mais do q
 *Visual: um laudo com a frase "lesão grau 2 com edema extenso" e duas setas: "fica parado além do necessário" e "volta cedo porque o laudo tranquilizou".*
 *Teleprompter: (quando o laudo vira calendário)*
 
-A aula anterior mostrou que, numa coorte de cento e oitenta atletas, a ressonância não acrescentou valor à história e ao exame para prever o retorno. Aqui vale olhar o efeito colateral.
+Já vimos que, numa coorte de cento e oitenta atletas, a ressonância não acrescentou valor à história e ao exame para prever o retorno. Aqui vale olhar o efeito colateral.
 
 O laudo chega com uma frase grande, tipo lesão grau dois com edema extenso, e o prazo da comissão passa a ser definido por aquela frase, e não pelo que o atleta consegue fazer.
 
@@ -164,7 +164,7 @@ Para levar: faixa, nunca ponto. Funcional, poucos dias; estrutural, semanas; rup
 
 Quem faz o quê. Estimar prazo, comunicar prognóstico e decidir alta é do médico, com a fisioterapia. Medir o que falta em força, amplitude e velocidade, e mostrar isso em número, é da fisioterapia com a preparação física. Proteger a decisão clínica da pressão externa é de quem coordena. E falar uma versão só, com faixa, critério e data de reavaliação, é da comissão inteira: três versões da mesma lesão destroem a confiança do atleta mais rápido que qualquer erro técnico.
 
-Na próxima aula, o que todo mundo pergunta no primeiro dia: gelo ou não, anti-inflamatório ou não, repouso ou movimento, e o caminho da maca até o jogo.
+Na próxima conversa, o que todo mundo pergunta no primeiro dia: gelo ou não, anti-inflamatório ou não, repouso ou movimento, e o caminho da maca até o jogo.
 
 ---
 
@@ -184,13 +184,17 @@ Na próxima aula, o que todo mundo pergunta no primeiro dia: gelo ou não, anti-
 **O que mudou nesta versão.** Voz do curso e deck de doze slides no lugar de sete blocos longos.
 Arquitetura NÚMERO mantida (a anterior é PROCEDIMENTO; a próxima é PROCEDIMENTO). Sem caso clínico.
 
+Nesta revisão, os 9 slides que ainda eram texto viraram desenho (o celular, as medianas, a variação, as advertências, os dois laudos, o que move o prazo, a pergunta barata, a data seca e as três partes), sem mudar a quantidade nem a ordem dos slides; os desenhos estão em slides/MOD07/_redesenho.py. A fala passou pela revisão de voz (nomes de autores que não são marco, idades por década), e "na próxima aula" virou "na próxima conversa".
+
 **Números conferidos.** Validação de Munique no futebol de elite: medianas de 5 a 8 dias
 (funcionais), 13 dias (parcial pequena), 32 dias (parcial moderada), 60 dias (subtotal, completa ou
 arrancamento). Correlação com ressonância no futebol profissional: grau 3 com 73 ± 60 dias. Coorte
 norueguesa de 180 atletas. Futebol australiano: mais de um dia para andar sem dor, razão de chances
 ajustada de 4,0 para mais de três semanas fora.
 
-**Correções.**
+Conta do desenho da variação: 73 dias de média com desvio padrão de 60 dão a faixa de um desvio de 13 a 133 dias.
+
+**Correções.** 
 - As faixas da versão anterior ("três a sete dias", "duas a três semanas", "quatro a seis semanas",
   "dois, três meses") não tinham fonte. Foram trocadas pelas medianas da validação de Munique, que
   estão conferidas.
@@ -202,6 +206,7 @@ ajustada de 4,0 para mais de três semanas fora.
 - "A realidade da maior parte do país" saiu, sem dado.
 - As referências de incidência, de classificação e do modelo etiológico, sem uso nesta aula, saíram;
   a classificação britânica ficou representada pelo estudo da letra c.
+- "A letra c da aula anterior" ficou "a letra c", e "a aula anterior mostrou" virou "já vimos".
 
 **Saíram.** "esta conversa", "conversa anterior", "próxima conversa", "o único adulto na sala", o
 bloco "Roteiro Gamma". Duração de 13 para 10 minutos.

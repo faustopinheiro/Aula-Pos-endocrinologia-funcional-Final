@@ -434,7 +434,7 @@ def indicadores_72():
         rs += [rot(x + 24, 180, den, w=490, tam=24, cor=TINTA, peso=700, alinha="center"),
                rot(x + 24, 280, d, w=490, tam=22, cor=cor if k == 2 else TINTA, peso=700 if k == 2 else 400, alinha="center", lh=1.3)]
     return slide("indicadores", 380, p, rs, eyebrow="Passo quatro · indicadores", titulo="Não são dez. São três",
-                 destaque="Bahr e colegas, 2018: olhar a carga, e não só a incidência.", destaque_cor="tinta", fonte="Bahr, Clarsen e Ekstrand, Br J Sports Med 2018")
+                 destaque="Um artigo de 2018: olhar a carga, e não só a incidência.", destaque_cor="tinta", fonte="Bahr, Clarsen e Ekstrand, Br J Sports Med 2018")
 
 
 def carga_72():
