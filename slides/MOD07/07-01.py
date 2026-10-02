@@ -105,6 +105,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "A pergunta que o artigo n�
                     {"t": "Todos", "x": "Leem o artigo antes de mudar a prática."}],
           "quem": "Próxima aula: montar o registro no mundo real."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-01")
+
 spec = {"arquivo": "aulas/MOD07/07-01-definir-lesao-por-que-a-definicao-muda-o-numero.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Epidemiologia da lesão esportiva", "subtitulo": "Como a definição e o denominador mudam o número",

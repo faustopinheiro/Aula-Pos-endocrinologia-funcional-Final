@@ -101,6 +101,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Seis passos", "titulo": "U
                     {"t": "Comissão e instituição", "x": "Leem o painel todo mês; guardam o dado."}],
           "quem": "Próxima aula: por que a lesão acontece, e por que caçar uma causa única não funciona."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-02")
+
 spec = {"arquivo": "aulas/MOD07/07-02-vigilancia-e-registro-padronizado.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Vigilância de lesão no mundo real", "subtitulo": "Seis passos para um registro que dura",

@@ -127,6 +127,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Quatro erros", "titulo": "
                     {"t": "Nutrição e psicologia", "x": "Sono, alimentação e energia disponível."}],
           "quem": "Próxima aula: lesão muscular, o que acontece dentro do músculo quando ele falha."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-03")
+
 spec = {"arquivo": "aulas/MOD07/07-03-modelo-etiologico-por-que-a-lesao-acontece.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Etiologia da lesão esportiva", "subtitulo": "Quatro erros ao explicar por que alguém se machucou",

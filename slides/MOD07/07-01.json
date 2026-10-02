@@ -22,195 +22,1117 @@
  "slides": [
   {
    "id": "numeros",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas barras na mesma escala de zero a cem por cento, da mesma revisão de 2007 sobre corredores de longa distância. No estudo que achou menos lesão, 19,4%. No que achou mais, 79,3%. As duas barras se chamam lesão. Quatro vezes de diferença, no mesmo esporte\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"300\" y=\"20\" width=\"233\" height=\"96\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"300\" y=\"150\" width=\"952\" height=\"96\" rx=\"8\" fill=\"#A8322A\"/><line x1=\"300\" y1=\"260\" x2=\"300\" y2=\"272\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"600\" y1=\"260\" x2=\"600\" y2=\"272\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"900\" y1=\"260\" x2=\"900\" y2=\"272\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1200\" y1=\"260\" x2=\"1200\" y2=\"272\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1500\" y1=\"260\" x2=\"1500\" y2=\"272\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"300\" y1=\"260\" x2=\"1500\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 52,
+     "w": 280,
+     "t": "o estudo que achou menos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 50,
+     "w": 160,
+     "t": "lesão",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 553,
+     "y": 38,
+     "w": 260,
+     "t": "19,4%",
+     "tam": 48,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 182,
+     "w": 280,
+     "t": "o estudo que achou mais",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 180,
+     "w": 160,
+     "t": "lesão",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1272,
+     "y": 168,
+     "w": 260,
+     "t": "79,3%",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 260,
+     "y": 280,
+     "w": 80,
+     "t": "0%",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 280,
+     "w": 80,
+     "t": "25%",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 280,
+     "w": 80,
+     "t": "50%",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1160,
+     "y": 280,
+     "w": 80,
+     "t": "75%",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1460,
+     "y": 280,
+     "w": 80,
+     "t": "100%",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 318,
+     "w": 1200,
+     "t": "mesma revisão (2007), mesmo esporte: corredores de longa distância",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Mesma revisão, mesmo esporte",
-   "frase": "Lesão em corredores: de 19,4% a 79,3%.",
-   "apoio": "Os estudos mediram coisas diferentes e chamaram todas de lesão. O número não descreve só a realidade: descreve a definição."
+   "titulo": "Lesão em corredores: de 19,4% a 79,3%",
+   "destaque": "Os estudos mediram coisas diferentes e chamaram todas de lesão. O número não descreve só a realidade: descreve a definição.",
+   "destaque_cor": "tinta"
   },
   {
    "id": "usos",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Por que começar por aqui",
-   "titulo": "Você vai usar esses números a vida inteira",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"O número de lesão, à esquerda, abre em quatro usos práticos: implantar prevenção, vale a pena no meu clube ou assessoria; responder ao aluno que pergunta se corrida destrói o joelho; comparar modalidades, em que esporte colocar o filho; saber se funcionou, o que eu mudei reduziu lesão\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"120\" width=\"340\" height=\"160\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"344\" y1=\"200\" x2=\"472\" y2=\"44\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"480\" y=\"0\" width=\"1184\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(500.0 20.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M11.46 20.846A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3a12 12 0 0 0 8.5 3a12 12 0 0 1-.09 7.06M15 19l2 2l4-4\"/></g><line x1=\"344\" y1=\"200\" x2=\"472\" y2=\"146\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"480\" y=\"102\" width=\"1184\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(500.0 122.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><line x1=\"344\" y1=\"200\" x2=\"472\" y2=\"248\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"480\" y=\"204\" width=\"1184\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(500.0 224.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><line x1=\"344\" y1=\"200\" x2=\"472\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"480\" y=\"306\" width=\"1184\" height=\"88\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(500.0 326.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 19h16M4 15l4-6l4 2l4-5l4 4\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 150,
+     "w": 300,
+     "t": "o número",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 200,
+     "w": 300,
+     "t": "de lesão",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 570,
+     "y": 28,
+     "w": 420,
      "t": "Implantar prevenção",
-     "x": "vale a pena no meu clube ou assessoria?",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1000,
+     "y": 30,
+     "w": 640,
+     "t": "vale a pena no meu clube ou assessoria?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 570,
+     "y": 130,
+     "w": 420,
      "t": "Responder ao aluno",
-     "x": "“corrida destrói o joelho?”",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1000,
+     "y": 132,
+     "w": 640,
+     "t": "“corrida destrói o joelho?”",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 570,
+     "y": 232,
+     "w": 420,
      "t": "Comparar modalidades",
-     "x": "em que esporte colocar o filho?",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1000,
+     "y": 234,
+     "w": 640,
+     "t": "em que esporte colocar o filho?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 570,
+     "y": 334,
+     "w": 420,
      "t": "Saber se funcionou",
-     "x": "o que eu mudei reduziu lesão?",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1000,
+     "y": 336,
+     "w": 640,
+     "t": "o que eu mudei reduziu lesão?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Por que começar por aqui",
+   "titulo": "Você vai usar esses números a vida inteira",
    "destaque": "As ferramentas nasceram no esporte profissional. Em quem treina sozinho, erram sempre para o mesmo lado: não enxergam a sobrecarga.",
    "destaque_cor": "tinta",
    "fonte": "Revisão sistemática, Br J Sports Med 2007"
   },
   {
    "id": "familias",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três famílias de definição, como três lentes. Perda de tempo: enxerga o agudo e permite comparar clubes; deixa passar a sobrecarga de quem segue treinando. Atenção médica: enxerga o que chega ao serviço; deixa passar quem não tem acesso, e acaba medindo a fila. Autorrelato: enxerga o que as outras perdem; separa mal o desconforto passageiro\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"0\" width=\"536\" height=\"96\" rx=\"16\" fill=\"#DDEFEC\"/><g transform=\"translate(24.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><g transform=\"translate(24.0 124.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><line x1=\"24\" y1=\"244\" x2=\"512\" y2=\"244\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(24.0 264.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g><rect x=\"564\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"96\" rx=\"16\" fill=\"#DEE7F1\"/><g transform=\"translate(588.0 24.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><g transform=\"translate(588.0 124.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><line x1=\"588\" y1=\"244\" x2=\"1076\" y2=\"244\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(588.0 264.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g><rect x=\"1128\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"96\" rx=\"16\" fill=\"#F4EAD6\"/><g transform=\"translate(1152.0 24.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><g transform=\"translate(1152.0 124.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><line x1=\"1152\" y1=\"244\" x2=\"1640\" y2=\"244\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(1152.0 264.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10.585 10.587a2 2 0 0 0 2.829 2.828\"/><path d=\"M16.681 16.673A8.7 8.7 0 0 1 12 18q-5.4 0-9-6q1.908-3.18 4.32-4.674m2.86-1.146A9 9 0 0 1 12 6q5.4 0 9 6q-1 1.665-2.138 2.87M3 3l18 18\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 90,
+     "y": 30,
+     "w": 420,
+     "t": "Perda de tempo",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 126,
+     "w": 400,
+     "t": "enxerga",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 172,
+     "w": 490,
+     "t": "o agudo; compara clubes",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 72,
+     "y": 266,
+     "w": 400,
+     "t": "deixa passar",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 312,
+     "w": 490,
+     "t": "a sobrecarga de quem segue treinando",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 654,
+     "y": 30,
+     "w": 420,
+     "t": "Atenção médica",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 636,
+     "y": 126,
+     "w": 400,
+     "t": "enxerga",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 172,
+     "w": 490,
+     "t": "o que chega ao serviço",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 636,
+     "y": 266,
+     "w": 400,
+     "t": "deixa passar",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 312,
+     "w": 490,
+     "t": "quem não tem acesso: mede a fila",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1218,
+     "y": 30,
+     "w": 420,
+     "t": "Autorrelato",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1200,
+     "y": 126,
+     "w": 400,
+     "t": "enxerga",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 172,
+     "w": 490,
+     "t": "o que as outras perdem",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1200,
+     "y": 266,
+     "w": 400,
+     "t": "deixa passar",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 312,
+     "w": 490,
+     "t": "separa mal o desconforto passageiro",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
    "eyebrow": "As três famílias de definição",
    "titulo": "Cada uma enxerga uma coisa",
-   "cab": [
-    "Definição",
-    "Captura",
-    "Deixa passar"
-   ],
-   "larguras": [
-    24,
-    36,
-    40
-   ],
-   "linhas": [
-    [
-     "Perda de tempo",
-     "o agudo; compara clubes",
-     "a sobrecarga de quem segue treinando"
-    ],
-    [
-     "Atenção médica",
-     "o que chega ao serviço",
-     "quem não tem acesso: mede a fila"
-    ],
-    [
-     "Autorrelato",
-     "o que as outras perdem",
-     "separa mal o desconforto passageiro"
-    ]
-   ],
    "destaque": "A tendinopatia que dói há oito meses não afasta ninguém do treino. Só estraga a qualidade dele.",
    "destaque_cor": "verm",
    "fonte": "Consenso do futebol, Br J Sports Med 2006"
   },
   {
    "id": "consenso",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "A definição brasileira para corredor recreativo",
-   "titulo": "Yamato, Saragiotto e Lopes, 2015",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"A definição brasileira como fluxo. Dor musculoesquelética em membros inferiores, relacionada à corrida. Ela vira lesão por um de dois caminhos: restringe ou interrompe a corrida, em distância, velocidade, duração ou treino, sem precisar parar, por pelo menos sete dias ou três sessões seguidas, o que separa o desconforto passageiro do problema; ou leva o corredor a consultar um profissional de saúde\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"100\" width=\"400\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 120.0) scale(1.2500)\"><g fill=\"#12202E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><line x1=\"404\" y1=\"170\" x2=\"486\" y2=\"90\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"404\" y1=\"230\" x2=\"486\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"494\" y=\"0\" width=\"680\" height=\"220\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"518\" y=\"138\" width=\"330\" height=\"60\" rx=\"30\" fill=\"#B07A1C\" stroke=\"#B07A1C\" stroke-width=\"0\"/><g transform=\"translate(536.0 150.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"494\" y=\"280\" width=\"680\" height=\"120\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(518.0 314.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><line x1=\"1178\" y1=\"110\" x2=\"1256\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"1178\" y1=\"340\" x2=\"1256\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1264\" y=\"120\" width=\"400\" height=\"160\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
-     "t": "Restrição, não só parada",
-     "x": "distância, velocidade, duração ou treino",
-     "cor": "petr"
+     "x": 94,
+     "y": 126,
+     "w": 290,
+     "t": "Dor musculoesquelética",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
     },
     {
-     "t": "7 dias ou 3 sessões",
-     "x": "separa o desconforto passageiro do problema",
-     "cor": "ambar"
+     "x": 20,
+     "y": 200,
+     "w": 360,
+     "t": "em membros inferiores, relacionada à corrida",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     },
     {
-     "t": "Ou consulta",
-     "x": "a um profissional de saúde",
-     "cor": "tinta"
+     "x": 518,
+     "y": 18,
+     "w": 630,
+     "t": "Restringe ou interrompe a corrida",
+     "tam": 25,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 518,
+     "y": 62,
+     "w": 630,
+     "t": "distância, velocidade, duração ou treino: não precisa parar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 580,
+     "y": 154,
+     "w": 260,
+     "t": "≥ 7 dias ou 3 sessões",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 866,
+     "y": 144,
+     "w": 290,
+     "t": "separa o desconforto passageiro do problema",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 236,
+     "w": 80,
+     "t": "ou",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 304,
+     "w": 560,
+     "t": "Leva a consultar",
+     "tam": 25,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 346,
+     "w": 560,
+     "t": "um profissional de saúde",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 150,
+     "w": 368,
+     "t": "lesão",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 204,
+     "w": 368,
+     "t": "relacionada à corrida",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
     }
    ],
-   "destaque": "Dor musculoesquelética em membros inferiores, relacionada à corrida, que restringe ou interrompe o treino, ou leva a consultar.",
-   "destaque_cor": "petr",
+   "eyebrow": "A definição brasileira para corredor recreativo",
+   "titulo": "Yamato, Saragiotto e Lopes, 2015",
    "fonte": "Delphi modificado, limiar de consenso de 75%, J Orthop Sports Phys Ther 2015"
   },
   {
    "id": "denominador",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"As mesmas lesões no numerador, quatro denominadores possíveis. Por mil horas: o melhor, porque corrige pela exposição; exige medir o volume. Por mil sessões: onde a sessão é a unidade; sessões têm durações diferentes. Por cem atletas por ano, o percentual anual: fácil de comunicar e o mais enganoso, porque ignora quanto cada um treinou. Por mil exposições: esporte coletivo; separar treino de jogo\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"40\" width=\"1664\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"70\" y1=\"78\" x2=\"250\" y2=\"78\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(350.0 64.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1010.0 64.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"136\" width=\"1664\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"70\" y1=\"174\" x2=\"250\" y2=\"174\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(350.0 160.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1010.0 160.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"232\" width=\"1664\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"70\" y1=\"270\" x2=\"250\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(350.0 256.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1010.0 256.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"328\" width=\"1664\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"70\" y1=\"366\" x2=\"250\" y2=\"366\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(350.0 352.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1010.0 352.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 320,
+     "t": "lesões divididas por",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 0,
+     "w": 400,
+     "t": "quando usar",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 0,
+     "w": 400,
+     "t": "cuidado",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 48,
+     "w": 320,
+     "t": "lesões",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 86,
+     "w": 320,
+     "t": "mil horas",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 68,
+     "w": 560,
+     "t": "o melhor: corrige pela exposição",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 68,
+     "w": 420,
+     "t": "exige medir o volume",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1480,
+     "y": 70,
+     "w": 170,
+     "t": "o melhor",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 144,
+     "w": 320,
+     "t": "lesões",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 182,
+     "w": 320,
+     "t": "mil sessões",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 164,
+     "w": 560,
+     "t": "onde a sessão é a unidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 164,
+     "w": 420,
+     "t": "sessões de durações diferentes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 240,
+     "w": 320,
+     "t": "lesões",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 278,
+     "w": 320,
+     "t": "cem atletas por ano",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 260,
+     "w": 560,
+     "t": "comunicação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 260,
+     "w": 420,
+     "t": "ignora quanto cada um treinou",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1480,
+     "y": 262,
+     "w": 170,
+     "t": "o mais enganoso",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 336,
+     "w": 320,
+     "t": "lesões",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 374,
+     "w": 320,
+     "t": "mil exposições",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 356,
+     "w": 560,
+     "t": "esporte coletivo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 356,
+     "w": 420,
+     "t": "separar treino de jogo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Setenta e nove por cento de quê?",
-   "titulo": "O denominador muda tudo",
-   "cab": [
-    "Denominador",
-    "Quando usar",
-    "Cuidado"
-   ],
-   "larguras": [
-    30,
-    36,
-    34
-   ],
-   "linhas": [
-    [
-     "Por mil horas",
-     "o melhor: corrige pela exposição",
-     "exige medir o volume"
-    ],
-    [
-     "Por mil sessões",
-     "onde a sessão é a unidade",
-     "sessões de durações diferentes"
-    ],
-    [
-     "Por cem atletas por ano",
-     "comunicação",
-     "ignora quanto cada um treinou"
-    ],
-    [
-     "Por mil exposições",
-     "esporte coletivo",
-     "separar treino de jogo"
-    ]
-   ],
-   "destaque_cor": "tinta"
+   "titulo": "O denominador muda tudo"
   },
   {
    "id": "novatos",
-   "tipo": "numeros",
-   "eyebrow": "A demonstração mais clara",
-   "titulo": "Mesmo esporte, mesma unidade, mais que o dobro",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Duas barras na mesma unidade, lesões por mil horas de corrida. Corredores novatos: 17,8. Recreativos experientes: 7,7. Mais que o dobro, 2,3 vezes, no mesmo esporte: a diferença está em quem é a pessoa\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><g transform=\"translate(0.0 20.0) scale(1.3333)\"><g fill=\"#A8322A\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"340\" y=\"10\" width=\"1068\" height=\"88\" rx=\"8\" fill=\"#A8322A\"/><g transform=\"translate(0.0 130.0) scale(1.3333)\"><g fill=\"#008A7E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><rect x=\"340\" y=\"120\" width=\"462\" height=\"88\" rx=\"8\" fill=\"#008A7E\"/><line x1=\"340\" y1=\"226\" x2=\"1420\" y2=\"226\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"340\" y1=\"226\" x2=\"340\" y2=\"238\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"640\" y1=\"226\" x2=\"640\" y2=\"238\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"940\" y1=\"226\" x2=\"940\" y2=\"238\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1240\" y1=\"226\" x2=\"1240\" y2=\"238\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1200\" y=\"270\" width=\"464\" height=\"84\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
-     "n": "17,8",
-     "x": "lesões por mil horas em corredores novatos",
-     "cor": "verm"
+     "x": 76,
+     "y": 38,
+     "w": 250,
+     "t": "novatos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "7,7",
-     "x": "lesões por mil horas em recreativos experientes",
-     "cor": "petr"
+     "x": 1426,
+     "y": 24,
+     "w": 200,
+     "t": "17,8",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "× 2,3",
-     "x": "a diferença está em quem é a pessoa",
-     "cor": "tinta"
+     "x": 76,
+     "y": 148,
+     "w": 250,
+     "t": "recreativos experientes",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 134,
+     "w": 200,
+     "t": "7,7",
+     "tam": 48,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 310,
+     "y": 244,
+     "w": 60,
+     "t": "0",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 610,
+     "y": 244,
+     "w": 60,
+     "t": "5",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 244,
+     "w": 60,
+     "t": "10",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1210,
+     "y": 244,
+     "w": 60,
+     "t": "15",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 274,
+     "w": 600,
+     "t": "lesões por mil horas de corrida",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1216,
+     "y": 280,
+     "w": 150,
+     "t": "× 2,3",
+     "tam": 38,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1360,
+     "y": 284,
+     "w": 290,
+     "t": "a diferença está em quem é a pessoa",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "A demonstração mais clara",
+   "titulo": "Mesmo esporte, mesma unidade, mais que o dobro",
    "destaque": "Percentual anual não compara grupos que treinam volumes diferentes. Para risco por hora, divida pela exposição.",
    "destaque_cor": "tinta",
    "fonte": "Metanálise, Sports Med 2015"
   },
   {
    "id": "vocabulario",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O vocabulário usado errado",
-   "titulo": "Três perguntas diferentes",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três perguntas, três desenhos. Prevalência: uma foto do grupo agora, quantos têm o problema neste momento. Incidência: uma linha do tempo, quantos passaram a ter ao longo de um período. Taxa de incidência: casos novos divididos por horas, sessões ou jogos de exposição\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"100\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"150\" cy=\"100\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"230\" cy=\"100\" r=\"20\" fill=\"#A8322A\"/><circle cx=\"310\" cy=\"100\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"390\" cy=\"100\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"470\" cy=\"100\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"70\" cy=\"156\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"150\" cy=\"156\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"230\" cy=\"156\" r=\"20\" fill=\"#A8322A\"/><circle cx=\"310\" cy=\"156\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"390\" cy=\"156\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"470\" cy=\"156\" r=\"20\" fill=\"#A8322A\"/><circle cx=\"70\" cy=\"212\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"150\" cy=\"212\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"230\" cy=\"212\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"310\" cy=\"212\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"390\" cy=\"212\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"470\" cy=\"212\" r=\"20\" fill=\"#C9CFD4\"/><line x1=\"604\" y1=\"230\" x2=\"1064\" y2=\"230\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><circle cx=\"644\" cy=\"150\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"714\" cy=\"150\" r=\"20\" fill=\"#A8322A\"/><line x1=\"714\" y1=\"176\" x2=\"714\" y2=\"222\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><circle cx=\"784\" cy=\"150\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"854\" cy=\"150\" r=\"20\" fill=\"#A8322A\"/><line x1=\"854\" y1=\"176\" x2=\"854\" y2=\"222\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><circle cx=\"924\" cy=\"150\" r=\"20\" fill=\"#C9CFD4\"/><circle cx=\"994\" cy=\"150\" r=\"20\" fill=\"#A8322A\"/><line x1=\"994\" y1=\"176\" x2=\"994\" y2=\"222\" stroke=\"#A8322A\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><line x1=\"1208\" y1=\"148\" x2=\"1584\" y2=\"148\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(1238.0 170.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 22,
+     "w": 490,
      "t": "Prevalência",
-     "x": "quantos têm o problema agora",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 318,
+     "w": 490,
+     "t": "quantos têm o problema agora",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 22,
+     "w": 490,
      "t": "Incidência",
-     "x": "quantos passaram a ter, num período",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 318,
+     "w": 490,
+     "t": "quantos passaram a ter, num período",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1152,
+     "y": 22,
+     "w": 490,
      "t": "Taxa de incidência",
-     "x": "por hora, sessão ou jogo de exposição",
-     "cor": "tinta"
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 318,
+     "w": 490,
+     "t": "por hora, sessão ou jogo de exposição",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 262,
+     "w": 490,
+     "t": "uma foto, um instante",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 594,
+     "y": 244,
+     "w": 120,
+     "t": "início",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 244,
+     "w": 100,
+     "t": "fim",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 92,
+     "w": 490,
+     "t": "casos novos no período",
+     "tam": 19,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 100,
+     "w": 490,
+     "t": "casos novos",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1292,
+     "y": 176,
+     "w": 300,
+     "t": "horas · sessões · jogos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O vocabulário usado errado",
+   "titulo": "Três perguntas diferentes",
    "destaque": "Trocar uma pela outra é o erro de leitura mais comum da área.",
    "destaque_cor": "verm"
   },
@@ -273,101 +1195,501 @@
   },
   {
    "id": "oslo",
-   "tipo": "lista",
-   "eyebrow": "A solução: medir todo mundo, toda semana",
-   "titulo": "As quatro perguntas de Oslo",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, um celular com as quatro perguntas de Oslo: participação, teve dificuldade de participar do treino; volume, reduziu volume ou duração; desempenho, o desempenho foi afetado; sintoma, em que grau sentiu. Uma seta diz toda semana, para todo mundo. À direita, o que sai: a proporção do grupo com algum problema em cada semana, em esquema, e não uma contagem de eventos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"620\" height=\"420\" rx=\"40\" fill=\"#12202E\"/><rect x=\"20\" y=\"40\" width=\"580\" height=\"360\" rx=\"20\" fill=\"#FDFCF9\"/><rect x=\"250\" y=\"16\" width=\"120\" height=\"10\" rx=\"5\" fill=\"#6B7A87\"/><rect x=\"36\" y=\"56\" width=\"548\" height=\"76\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"68\" cy=\"94\" r=\"18\" fill=\"#008A7E\"/><rect x=\"36\" y=\"142\" width=\"548\" height=\"76\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"68\" cy=\"180\" r=\"18\" fill=\"#008A7E\"/><rect x=\"36\" y=\"228\" width=\"548\" height=\"76\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"68\" cy=\"266\" r=\"18\" fill=\"#B07A1C\"/><rect x=\"36\" y=\"314\" width=\"548\" height=\"76\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><circle cx=\"68\" cy=\"352\" r=\"18\" fill=\"#A8322A\"/><line x1=\"640\" y1=\"210\" x2=\"790\" y2=\"210\" stroke=\"#6B7A87\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><g transform=\"translate(680.0 130.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"850\" y=\"209\" width=\"72\" height=\"121\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"950\" y=\"165\" width=\"72\" height=\"165\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1050\" y=\"187\" width=\"72\" height=\"143\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1150\" y=\"121\" width=\"72\" height=\"209\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1250\" y=\"143\" width=\"72\" height=\"187\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1350\" y=\"176\" width=\"72\" height=\"154\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1450\" y=\"110\" width=\"72\" height=\"220\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"1550\" y=\"154\" width=\"72\" height=\"176\" rx=\"4\" fill=\"#B07A1C\"/><line x1=\"830\" y1=\"330\" x2=\"1664\" y2=\"330\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
+     "x": 50,
+     "y": 80,
+     "w": 36,
+     "t": "1",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 66,
+     "w": 470,
      "t": "Participação",
-     "x": "teve dificuldade de participar do treino?",
-     "cor": "petr"
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 100,
+     "y": 98,
+     "w": 470,
+     "t": "teve dificuldade de participar do treino?",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 50,
+     "y": 166,
+     "w": 36,
+     "t": "2",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 152,
+     "w": 470,
      "t": "Volume",
-     "x": "reduziu volume ou duração?",
-     "cor": "petr"
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 100,
+     "y": 184,
+     "w": 470,
+     "t": "reduziu volume ou duração?",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 50,
+     "y": 252,
+     "w": 36,
+     "t": "3",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 238,
+     "w": 470,
      "t": "Desempenho",
-     "x": "o desempenho foi afetado?",
-     "cor": "ambar"
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 100,
+     "y": 270,
+     "w": 470,
+     "t": "o desempenho foi afetado?",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 50,
+     "y": 338,
+     "w": 36,
+     "t": "4",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 324,
+     "w": 470,
      "t": "Sintoma",
-     "x": "em que grau sentiu?",
-     "cor": "verm"
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 356,
+     "w": 470,
+     "t": "em que grau sentiu?",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 236,
+     "w": 170,
+     "t": "toda semana, todo mundo",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 0,
+     "w": 834,
+     "t": "% do grupo com algum problema na semana",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 36,
+     "w": 834,
+     "t": "proporção, não contagem de eventos · esquema",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 830,
+     "y": 344,
+     "w": 834,
+     "t": "semana a semana",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 22
+   "eyebrow": "A solução: medir todo mundo, toda semana",
+   "titulo": "As quatro perguntas de Oslo"
   },
   {
    "id": "leitura",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Sete perguntas para qualquer estudo, em ladrilhos, e só no oitavo o número. Qual a definição? Resolve o 19 contra o 79. Qual o denominador? Percentual anual esconde o volume. Coleta semanal ou lembrança de um ano? A memória de dor é seletiva. Quem é a população? Novato e experiente não se comparam. Exposição medida ou estimada? As pessoas superestimam o treino. Quem abandonou? Quem some muitas vezes se lesionou. A conclusão cabe no desenho? Estar junto não é causar. Depois disso, o número\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"824\" height=\"94\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 23.0) scale(1.9167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 7a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3z\"/><path d=\"M7 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0m8-2h2m-2 4h2M7 16h10\"/></g></g><rect x=\"840\" y=\"0\" width=\"824\" height=\"94\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(860.0 23.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"0\" y=\"106\" width=\"824\" height=\"94\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(20.0 129.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"840\" y=\"106\" width=\"824\" height=\"94\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(860.0 129.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"0\" y=\"212\" width=\"824\" height=\"94\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(20.0 235.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><rect x=\"840\" y=\"212\" width=\"824\" height=\"94\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(860.0 235.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 12v.01M3 21h18M5 21V5a2 2 0 0 1 2-2h7.5M17 13.5V21M14 7h7m-3-3l3 3l-3 3\"/></g><rect x=\"0\" y=\"318\" width=\"824\" height=\"94\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(20.0 341.0) scale(1.9167)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"840\" y=\"318\" width=\"824\" height=\"94\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(860.0 341.0) scale(1.9167)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 86,
+     "y": 14,
+     "w": 720,
+     "t": "Qual a definição?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 52,
+     "w": 720,
+     "t": "resolve o 19 contra o 79",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 14,
+     "w": 720,
+     "t": "Qual o denominador?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 52,
+     "w": 720,
+     "t": "percentual anual esconde o volume",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 120,
+     "w": 720,
+     "t": "Coleta semanal ou lembrança de um ano?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 158,
+     "w": 720,
+     "t": "a memória de dor é seletiva",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 120,
+     "w": 720,
+     "t": "Quem é a população?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 158,
+     "w": 720,
+     "t": "novato e experiente não se comparam",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 226,
+     "w": 720,
+     "t": "Exposição medida ou estimada?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 264,
+     "w": 720,
+     "t": "as pessoas superestimam o treino",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 226,
+     "w": 720,
+     "t": "Quem abandonou?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 264,
+     "w": 720,
+     "t": "quem some muitas vezes se lesionou",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 332,
+     "w": 720,
+     "t": "A conclusão cabe no desenho?",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 86,
+     "y": 370,
+     "w": 720,
+     "t": "estar junto não é causar",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 926,
+     "y": 344,
+     "w": 720,
+     "t": "Depois disso, o número",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
    "eyebrow": "Antes de acreditar no número",
-   "titulo": "Sete perguntas para qualquer estudo",
-   "cab": [
-    "Pergunta",
-    "Por que importa"
-   ],
-   "larguras": [
-    40,
-    60
-   ],
-   "linhas": [
-    [
-     "Qual a definição?",
-     "resolve o 19 contra o 79"
-    ],
-    [
-     "Qual o denominador?",
-     "percentual anual esconde o volume"
-    ],
-    [
-     "Coleta semanal ou lembrança de um ano?",
-     "a memória de dor é seletiva"
-    ],
-    [
-     "Quem é a população?",
-     "novato e experiente não se comparam"
-    ],
-    [
-     "Exposição medida ou estimada?",
-     "as pessoas superestimam o treino"
-    ],
-    [
-     "Quem abandonou?",
-     "quem some muitas vezes se lesionou"
-    ],
-    [
-     "A conclusão cabe no desenho?",
-     "estar junto não é causar"
-    ]
-   ],
-   "destaque_cor": "tinta"
+   "titulo": "Sete perguntas para qualquer estudo"
   },
   {
    "id": "rastreio",
-   "tipo": "lista",
-   "eyebrow": "Fator de risco não é teste de rastreio",
-   "titulo": "Os três degraus que nenhum teste subiu",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três degraus subindo. Primeiro: associação no tempo, o achado prevê lesão futura em coorte. Segundo: separação real, ponto de corte que funciona em mais de uma população. Terceiro, vazio, com um ponto de interrogação: benefício de intervir só nos marcados, melhor que intervir em todos, ninguém mostrou. Nenhum teste de rastreio de lesão esportiva subiu os três\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"230\" width=\"450\" height=\"170\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"42\" cy=\"270\" r=\"24\" fill=\"#008A7E\"/><rect x=\"470\" y=\"120\" width=\"450\" height=\"280\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"512\" cy=\"160\" r=\"24\" fill=\"#B07A1C\"/><rect x=\"940\" y=\"10\" width=\"450\" height=\"390\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"982\" cy=\"50\" r=\"24\" fill=\"#A8322A\"/><rect x=\"1420\" y=\"10\" width=\"244\" height=\"390\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(1512.0 40.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 18,
+     "y": 256,
+     "w": 48,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 250,
+     "w": 350,
      "t": "Associação no tempo",
-     "x": "o achado prevê lesão futura em coorte",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 312,
+     "w": 400,
+     "t": "o achado prevê lesão futura em coorte",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 488,
+     "y": 146,
+     "w": 48,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 550,
+     "y": 140,
+     "w": 350,
      "t": "Separação real",
-     "x": "ponto de corte que funciona em mais de uma população",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 494,
+     "y": 202,
+     "w": 400,
+     "t": "ponto de corte que funciona em mais de uma população",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 940,
+     "y": 230,
+     "w": 450,
+     "t": "?",
+     "tam": 110,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 958,
+     "y": 36,
+     "w": 48,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1020,
+     "y": 30,
+     "w": 350,
      "t": "Benefício de intervir só nos marcados",
-     "x": "melhor que intervir em todos: ninguém mostrou",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 964,
+     "y": 110,
+     "w": 400,
+     "t": "melhor que intervir em todos: ninguém mostrou",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1436,
+     "y": 130,
+     "w": 212,
+     "t": "nenhum teste de rastreio de lesão esportiva subiu os três",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 26
+   "eyebrow": "Fator de risco não é teste de rastreio",
+   "titulo": "Os três degraus que nenhum teste subiu",
+   "fonte": "Revisão, Br J Sports Med 2016"
   },
   {
    "id": "fecho",

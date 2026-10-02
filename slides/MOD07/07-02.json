@@ -22,183 +22,938 @@
  "slides": [
   {
    "id": "cena",
-   "tipo": "frase",
-   "fundo": "tinta",
-   "eyebrow": "A situação mais comum",
-   "frase": "Não é que os dados de lesão sejam ruins. É que eles não existem.",
-   "apoio": "A literatura de vigilância nasceu no clube profissional. Esta aula entrega um sistema que funciona com a equipe e o tempo que você tem."
-  },
-  {
-   "id": "perguntas",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "O que o registro precisa responder",
-   "titulo": "Três perguntas, e só três",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"À esquerda, uma planilha de lesões com as colunas prontas e todas as linhas vazias. À direita, o que ocupa o lugar do dado: impressões soltas. Está aparecendo muita canelite. O problema é o piso da quadra. Teve um ano pior. Ninguém sabe dizer se melhorou ou piorou\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"760\" height=\"380\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"2\" y=\"2\" width=\"186\" height=\"54\" fill=\"#DEE7F1\"/><rect x=\"192\" y=\"2\" width=\"186\" height=\"54\" fill=\"#DEE7F1\"/><line x1=\"190\" y1=\"2\" x2=\"190\" y2=\"378\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"382\" y=\"2\" width=\"186\" height=\"54\" fill=\"#DEE7F1\"/><line x1=\"380\" y1=\"2\" x2=\"380\" y2=\"378\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"572\" y=\"2\" width=\"186\" height=\"54\" fill=\"#DEE7F1\"/><line x1=\"570\" y1=\"2\" x2=\"570\" y2=\"378\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"2\" y1=\"108\" x2=\"758\" y2=\"108\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"2\" y1=\"160\" x2=\"758\" y2=\"160\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"2\" y1=\"212\" x2=\"758\" y2=\"212\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"2\" y1=\"264\" x2=\"758\" y2=\"264\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"2\" y1=\"316\" x2=\"758\" y2=\"316\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"2\" y1=\"368\" x2=\"758\" y2=\"368\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"840\" y=\"0\" width=\"620\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 18.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"840\" y=\"100\" width=\"620\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 118.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"840\" y=\"200\" width=\"620\" height=\"80\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(864.0 218.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><g transform=\"translate(840.0 312.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g></svg>",
+   "rotulos": [
     {
-     "t": "Quantos agora?",
-     "x": "quantas pessoas do grupo estão com problema nesta semana",
-     "cor": "petr"
+     "x": 16,
+     "y": 16,
+     "w": 160,
+     "t": "semana",
+     "tam": 21,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "O quê, onde, quando?",
-     "x": "tipo, região do corpo e momento da temporada",
-     "cor": "ambar"
+     "x": 206,
+     "y": 16,
+     "w": 160,
+     "t": "nome",
+     "tam": 21,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "t": "Funcionou?",
-     "x": "o que eu mudei reduziu o problema",
-     "cor": "tinta"
+     "x": 396,
+     "y": 16,
+     "w": 160,
+     "t": "região",
+     "tam": 21,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 586,
+     "y": 16,
+     "w": 160,
+     "t": "dias",
+     "tam": 21,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 210,
+     "w": 760,
+     "t": "vazia",
+     "tam": 40,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 24,
+     "w": 520,
+     "t": "“Está aparecendo muita canelite.”",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 124,
+     "w": 520,
+     "t": "“O problema é o piso da quadra.”",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 224,
+     "w": 520,
+     "t": "“Teve um ano pior.”",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 908,
+     "y": 318,
+     "w": 740,
+     "t": "melhorou ou piorou? ninguém sabe",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "destaque": "Se o registro responde as três, está bom. Se não responde, não adianta ter vinte colunas.",
+   "eyebrow": "A situação mais comum",
+   "titulo": "Não é que os dados de lesão sejam ruins. É que eles não existem.",
+   "destaque": "A literatura de vigilância nasceu no clube profissional. Esta aula entrega um sistema que funciona com a equipe e o tempo que você tem.",
    "destaque_cor": "tinta"
   },
   {
-   "id": "definicao",
-   "tipo": "lista",
-   "eyebrow": "Passo um · antes de coletar",
-   "titulo": "A definição escrita numa folha",
-   "itens": [
+   "id": "perguntas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três perguntas que o registro precisa responder. Quantos agora: quantas pessoas do grupo estão com problema nesta semana. O quê, onde, quando: tipo, região do corpo e momento da temporada. Funcionou: o que eu mudei reduziu o problema. Embaixo, dois registros: um que responde as três, e está bom; outro com vinte colunas que não respondem nenhuma, e não adianta\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"220\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"564\" y=\"0\" width=\"536\" height=\"220\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(588.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 7l6-3l6 3l6-3v13l-6 3l-6-3l-6 3zm6-3v13m6-10v13\"/></g><rect x=\"1128\" y=\"0\" width=\"536\" height=\"220\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(1152.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 19h16M4 15l4-6l4 2l4-5l4 4\"/></g><rect x=\"0\" y=\"250\" width=\"816\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"30\" y=\"290\" width=\"76\" height=\"70\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(50.0 307.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"120\" y=\"290\" width=\"76\" height=\"70\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(140.0 307.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"210\" y=\"290\" width=\"76\" height=\"70\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(230.0 307.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"848\" y=\"250\" width=\"816\" height=\"150\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"876\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"902\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"928\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"954\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"980\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1006\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1032\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1058\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1084\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1110\" y=\"276\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"876\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"902\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"928\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"954\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"980\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1006\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1032\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1058\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1084\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1110\" y=\"302\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"876\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"902\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"928\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"954\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"980\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1006\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1032\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1058\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1084\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1110\" y=\"328\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"876\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"902\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"928\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"954\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"980\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1006\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1032\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1058\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1084\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><rect x=\"1110\" y=\"354\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#C9CFD4\"/><line x1=\"870\" y1=\"270\" x2=\"1136\" y2=\"380\" stroke=\"#A8322A\" stroke-width=\"5\"/></svg>",
+   "rotulos": [
     {
-     "t": "Lesão",
-     "x": "consenso com restrição para o recreativo; perda de tempo mais sobrecarga no clube",
-     "cor": "petr"
+     "x": 92,
+     "y": 34,
+     "w": 420,
+     "t": "Quantos agora?",
+     "tam": 27,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Problema de saúde",
-     "x": "inclui doença: infecção respiratória também tira do treino",
-     "cor": "ambar"
+     "x": 24,
+     "y": 110,
+     "w": 490,
+     "t": "quantas pessoas do grupo estão com problema nesta semana",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     },
     {
-     "t": "Recorrência",
-     "x": "a mesma lesão, no mesmo lugar, depois de retorno completo",
-     "cor": "verm"
+     "x": 656,
+     "y": 34,
+     "w": 420,
+     "t": "O quê, onde, quando?",
+     "tam": 27,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "t": "Acesso",
-     "x": "quem vê o quê",
-     "cor": "tinta"
+     "x": 588,
+     "y": 110,
+     "w": 490,
+     "t": "tipo, região do corpo e momento da temporada",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1220,
+     "y": 34,
+     "w": 420,
+     "t": "Funcionou?",
+     "tam": 27,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 110,
+     "w": 490,
+     "t": "o que eu mudei reduziu o problema",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 320,
+     "y": 286,
+     "w": 470,
+     "t": "responde as três",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 320,
+     "y": 330,
+     "w": 470,
+     "t": "está bom",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1168,
+     "y": 286,
+     "w": 480,
+     "t": "vinte colunas que não respondem",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1168,
+     "y": 356,
+     "w": 480,
+     "t": "não adianta",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 22,
-   "destaque": "Assinada por quem coordena, e não muda sem avisar.",
-   "destaque_cor": "tinta",
+   "eyebrow": "O que o registro precisa responder",
+   "titulo": "Três perguntas, e só três"
+  },
+  {
+   "id": "definicao",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma folha de papel com quatro definições escritas. Lesão: o consenso com restrição para o recreativo; perda de tempo mais sobrecarga no clube. Problema de saúde: inclui doença, porque infecção respiratória também tira do treino. Recorrência: a mesma lesão, no mesmo lugar, depois de retorno completo. Acesso: quem vê o quê. No pé da folha, a assinatura de quem coordena: não muda sem avisar\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><path d=\"M 200 0 H 1414 L 1464 50 V 420 H 200 Z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><path d=\"M 1414 0 V 50 H 1464\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(236.0 40.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><line x1=\"236\" y1=\"98\" x2=\"1428\" y2=\"98\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(236.0 116.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><line x1=\"236\" y1=\"174\" x2=\"1428\" y2=\"174\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(236.0 192.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g><line x1=\"236\" y1=\"250\" x2=\"1428\" y2=\"250\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><g transform=\"translate(236.0 268.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><path d=\"M 960 384 c 30 -40 50 10 80 -20 s 50 20 90 -10 s 40 10 70 -5\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"940\" y1=\"392\" x2=\"1404\" y2=\"392\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(236.0 350.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 300,
+     "y": 44,
+     "w": 280,
+     "t": "Lesão",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 46,
+     "w": 820,
+     "t": "consenso com restrição para o recreativo; perda de tempo mais sobrecarga no clube",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 120,
+     "w": 280,
+     "t": "Problema de saúde",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 122,
+     "w": 820,
+     "t": "inclui doença: infecção respiratória também tira do treino",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 196,
+     "w": 280,
+     "t": "Recorrência",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 198,
+     "w": 820,
+     "t": "a mesma lesão, no mesmo lugar, depois de retorno completo",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 272,
+     "w": 280,
+     "t": "Acesso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 274,
+     "w": 820,
+     "t": "quem vê o quê",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 356,
+     "w": 620,
+     "t": "assinada por quem coordena, e não muda sem avisar",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo um · antes de coletar",
+   "titulo": "A definição escrita numa folha",
    "fonte": "Consenso do COI, Br J Sports Med 2020"
   },
   {
    "id": "exposicao",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Quatro contextos, cada um com a unidade de exposição e o lugar onde o dado já existe. Assessoria de corrida: quilômetros ou minutos por semana, na planilha do aluno. Academia: sessões feitas, na catraca. Clube: horas de treino e minutos de jogo, separados, na lista de presença. Escola ou projeto: sessões oferecidas vezes presença, na chamada\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"420\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 60.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"424\" y1=\"82\" x2=\"462\" y2=\"82\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"470\" y=\"40\" width=\"680\" height=\"84\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1190\" y=\"40\" width=\"474\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1210.0 60.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"0\" y=\"136\" width=\"420\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 156.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><line x1=\"424\" y1=\"178\" x2=\"462\" y2=\"178\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"470\" y=\"136\" width=\"680\" height=\"84\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1190\" y=\"136\" width=\"474\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1210.0 156.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><rect x=\"0\" y=\"232\" width=\"420\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 252.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M3 9h3v6H3zm15 0h3v6h-3z\"/><path d=\"M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm9-2v14\"/></g></g><line x1=\"424\" y1=\"274\" x2=\"462\" y2=\"274\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"470\" y=\"232\" width=\"680\" height=\"84\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1190\" y=\"232\" width=\"474\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1210.0 252.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.615 20H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8m-3 5l2 2l4-4M9 8h4m-4 4h2\"/></g><rect x=\"0\" y=\"328\" width=\"420\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(20.0 348.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M22 9L12 5L2 9l10 4zv6\"/><path d=\"M6 10.6V16a6 3 0 0 0 12 0v-5.4\"/></g></g><line x1=\"424\" y1=\"370\" x2=\"462\" y2=\"370\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"470\" y=\"328\" width=\"680\" height=\"84\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1190\" y=\"328\" width=\"474\" height=\"84\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(1210.0 348.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m3 0v18m4-14h2m-2 4h2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "t": "contexto",
+     "tam": 19,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 0,
+     "w": 600,
+     "t": "unidade de exposição",
+     "tam": 19,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1190,
+     "y": 0,
+     "w": 400,
+     "t": "onde já está",
+     "tam": 19,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 68,
+     "w": 330,
+     "t": "Assessoria de corrida",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 492,
+     "y": 68,
+     "w": 640,
+     "t": "km ou minutos por semana",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1270,
+     "y": 68,
+     "w": 380,
+     "t": "a planilha do aluno",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 164,
+     "w": 330,
+     "t": "Academia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 492,
+     "y": 164,
+     "w": 640,
+     "t": "sessões feitas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1270,
+     "y": 164,
+     "w": 380,
+     "t": "a catraca",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 260,
+     "w": 330,
+     "t": "Clube",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 492,
+     "y": 248,
+     "w": 640,
+     "t": "horas de treino e minutos de jogo, separados",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1270,
+     "y": 260,
+     "w": 380,
+     "t": "a lista de presença",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 356,
+     "w": 330,
+     "t": "Escola ou projeto",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 492,
+     "y": 356,
+     "w": 640,
+     "t": "sessões oferecidas × presença",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1270,
+     "y": 356,
+     "w": 380,
+     "t": "a chamada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo dois · a metade que todo mundo esquece",
    "titulo": "Exposição: consistente, não sofisticada",
-   "cab": [
-    "Contexto",
-    "Unidade de exposição",
-    "Onde já está"
-   ],
-   "larguras": [
-    26,
-    40,
-    34
-   ],
-   "linhas": [
-    [
-     "Assessoria de corrida",
-     "quilômetros ou minutos por semana",
-     "a planilha do aluno"
-    ],
-    [
-     "Academia",
-     "sessões feitas",
-     "a catraca"
-    ],
-    [
-     "Clube",
-     "horas de treino e minutos de jogo, separados",
-     "a lista de presença"
-    ],
-    [
-     "Escola ou projeto",
-     "sessões oferecidas vezes presença",
-     "a chamada"
-    ]
-   ],
    "destaque": "Quem estava lesionado e não treinou não entra na exposição daquela semana.",
    "destaque_cor": "verm"
   },
   {
    "id": "ferramentas",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Duas ferramentas. À esquerda, um celular com a mensagem semanal de Oslo: quatro perguntas, no mesmo dia, para todo mundo, esteja bem ou não, em trinta segundos. À direita, a ficha de lesão com oito campos: início; região e lado; tipo; súbito ou gradual; o que fazia; se já teve antes; dias restrito; data do retorno, destacada porque sem ela não há gravidade\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"420\" rx=\"40\" fill=\"#12202E\"/><rect x=\"20\" y=\"40\" width=\"520\" height=\"360\" rx=\"20\" fill=\"#FDFCF9\"/><rect x=\"220\" y=\"16\" width=\"120\" height=\"10\" rx=\"5\" fill=\"#6B7A87\"/><rect x=\"40\" y=\"104\" width=\"430\" height=\"56\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"40\" y=\"174\" width=\"430\" height=\"56\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"40\" y=\"244\" width=\"430\" height=\"56\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(330.0 330.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"620\" y=\"0\" width=\"1044\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"644\" y=\"106\" width=\"470\" height=\"40\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1150\" y=\"106\" width=\"470\" height=\"40\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"644\" y=\"190\" width=\"470\" height=\"40\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1150\" y=\"190\" width=\"470\" height=\"40\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"644\" y=\"274\" width=\"470\" height=\"40\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1150\" y=\"274\" width=\"470\" height=\"40\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"644\" y=\"358\" width=\"470\" height=\"40\" rx=\"6\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"1150\" y=\"358\" width=\"470\" height=\"40\" rx=\"6\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 56,
+     "w": 480,
+     "t": "Questionário semanal de Oslo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 119,
+     "w": 400,
+     "t": "quatro perguntas, por mensagem",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 189,
+     "w": 400,
+     "t": "mesmo dia, para todo mundo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 259,
+     "w": 400,
+     "t": "esteja bem ou não",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 384,
+     "y": 338,
+     "w": 140,
+     "t": "30 s",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 18,
+     "w": 900,
+     "t": "Ficha de lesão, oito campos",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 644,
+     "y": 74,
+     "w": 460,
+     "t": "início",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 74,
+     "w": 460,
+     "t": "região e lado",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 158,
+     "w": 460,
+     "t": "tipo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 158,
+     "w": 460,
+     "t": "súbito ou gradual",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 242,
+     "w": 460,
+     "t": "o que fazia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 242,
+     "w": 460,
+     "t": "se já teve antes",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 644,
+     "y": 326,
+     "w": 460,
+     "t": "dias restrito",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 326,
+     "w": 460,
+     "t": "data do retorno",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo três · duas ferramentas",
    "titulo": "Mais que isso ninguém sustenta",
-   "esq": {
-    "t": "Questionário semanal de Oslo",
-    "cor": "petr",
-    "itens": [
-     "quatro perguntas, por mensagem",
-     "mesmo dia, para todo mundo",
-     "esteja bem ou não",
-     "trinta segundos"
-    ]
-   },
-   "dir": {
-    "t": "Ficha de lesão, oito campos",
-    "cor": "ambar",
-    "itens": [
-     "início, região e lado, tipo",
-     "súbito ou gradual; o que fazia",
-     "se já teve antes",
-     "dias restrito e data do retorno"
-    ]
-   },
    "destaque": "Sem data de retorno não há gravidade. E se a ficha exigir computador, não vai ser preenchida.",
    "destaque_cor": "tinta",
    "fonte": "Questionários do OSTRC, Br J Sports Med 2020"
   },
   {
    "id": "indicadores",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Passo quatro · indicadores",
-   "titulo": "Não são dez. São três",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três indicadores, cada um escrito como conta. Proporção semanal: gente com algum problema na semana, dividida pelo grupo; o número de toda segunda-feira. Incidência: lesões novas divididas por mil horas ou mil sessões. Carga de lesão: frequência vezes gravidade, na prática dias perdidos por mil horas\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"0\" width=\"536\" height=\"84\" rx=\"16\" fill=\"#DDEFEC\"/><line x1=\"80\" y1=\"168\" x2=\"456\" y2=\"168\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"84\" rx=\"16\" fill=\"#F4EAD6\"/><line x1=\"644\" y1=\"168\" x2=\"1020\" y2=\"168\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"380\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"84\" rx=\"16\" fill=\"#F3E1DE\"/><line x1=\"1208\" y1=\"168\" x2=\"1584\" y2=\"168\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 24,
+     "w": 490,
      "t": "Proporção semanal",
-     "x": "gente com problema na semana; o número de toda segunda-feira",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 120,
+     "w": 490,
+     "t": "com algum problema",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 180,
+     "w": 490,
+     "t": "o grupo na semana",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 280,
+     "w": 490,
+     "t": "o número de toda segunda-feira",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 24,
+     "w": 490,
      "t": "Incidência",
-     "x": "lesões novas por mil horas ou mil sessões",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 588,
+     "y": 120,
+     "w": 490,
+     "t": "lesões novas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 180,
+     "w": 490,
+     "t": "mil horas ou mil sessões",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 280,
+     "w": 490,
+     "t": "compara períodos, categorias e a literatura",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1152,
+     "y": 24,
+     "w": 490,
      "t": "Carga de lesão",
-     "x": "frequência vezes gravidade: dias perdidos por mil horas",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 120,
+     "w": 490,
+     "t": "dias perdidos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 180,
+     "w": 490,
+     "t": "mil horas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 280,
+     "w": 490,
+     "t": "frequência × gravidade",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
-   "destaque": "Bahr, Clarsen e Ekstrand, 2018: olhar a carga, e não só a incidência.",
+   "eyebrow": "Passo quatro · indicadores",
+   "titulo": "Não são dez. São três",
+   "destaque": "Bahr e colegas, 2018: olhar a carga, e não só a incidência.",
    "destaque_cor": "tinta",
-   "fonte": "Br J Sports Med 2018"
+   "fonte": "Bahr, Clarsen e Ekstrand, Br J Sports Med 2018"
   },
   {
    "id": "carga",
-   "tipo": "numeros",
-   "eyebrow": "Mesma incidência, outra realidade",
-   "titulo": "Duas equipes, dez lesões cada",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Duas equipes, dez lesões cada, desenhadas como dez blocos de dias perdidos na mesma escala. Equipe A: dez entorses leves de tornozelo, três dias cada, somam 30 dias. Equipe B: dez lesões de posterior de coxa, vinte e cinco dias cada, somam 250 dias. Mesma incidência, outra realidade. Exemplo de conta\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><rect x=\"0\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"14\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"28\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"41\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"55\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"69\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"83\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"97\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"110\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"124\" y=\"40\" width=\"12\" height=\"70\" rx=\"4\" fill=\"#008A7E\"/><rect x=\"0\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"115\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"230\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"345\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"460\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"575\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"690\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"805\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"920\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"1035\" y=\"190\" width=\"113\" height=\"70\" rx=\"4\" fill=\"#A8322A\"/><line x1=\"0\" y1=\"300\" x2=\"1150\" y2=\"300\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"0\" y1=\"300\" x2=\"0\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"230\" y1=\"300\" x2=\"230\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"460\" y1=\"300\" x2=\"460\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"690\" y1=\"300\" x2=\"690\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"920\" y1=\"300\" x2=\"920\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"1150\" y1=\"300\" x2=\"1150\" y2=\"310\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1424\" y=\"40\" width=\"240\" height=\"220\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
     {
-     "n": "30 dias",
-     "x": "dez entorses leves de tornozelo, três dias cada",
-     "cor": "petr"
+     "x": 0,
+     "y": 0,
+     "w": 1100,
+     "t": "dez entorses leves de tornozelo, 3 dias cada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
-     "n": "250 dias",
-     "x": "dez lesões de posterior de coxa, vinte e cinco dias cada",
-     "cor": "verm"
+     "x": 162,
+     "y": 46,
+     "w": 300,
+     "t": "30 dias",
+     "tam": 44,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 150,
+     "w": 1100,
+     "t": "dez lesões de posterior de coxa, 25 dias cada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1174,
+     "y": 196,
+     "w": 300,
+     "t": "250 dias",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 314,
+     "w": 1200,
+     "t": "dias perdidos · cada bloco é uma lesão · exemplo de conta",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1434,
+     "y": 70,
+     "w": 220,
+     "t": "10 = 10",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1434,
+     "y": 140,
+     "w": 220,
+     "t": "mesma incidência, outra realidade",
+     "tam": 21,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Mesma incidência, outra realidade",
+   "titulo": "Duas equipes, dez lesões cada",
    "destaque": "Quem olha incidência cuida do que é frequente. Quem olha carga cuida do que custa caro, e é isso que decide temporada.",
    "destaque_cor": "tinta",
    "fonte": "Exemplo de conta"
@@ -262,96 +1017,424 @@
   },
   {
    "id": "devolutiva",
-   "tipo": "lista",
-   "eyebrow": "A parte mais ignorada",
-   "titulo": "Devolutiva: uma página por mês",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma página por mês, com quatro blocos: a proporção do mês, quantos tiveram algum problema; as três regiões mais frequentes no período; os dias perdidos, o que custou caro; e uma frase sobre o que muda no planejamento. Uma seta leva a página de volta ao grupo que respondeu toda semana\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"1060\" height=\"400\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"24\" y=\"64\" width=\"492\" height=\"150\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(42.0 82.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"536\" y=\"64\" width=\"492\" height=\"150\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(554.0 82.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><rect x=\"24\" y=\"230\" width=\"492\" height=\"150\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(42.0 248.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6.5 7h11m-11 10h11M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1\"/><path d=\"M6 4v2a6 6 0 1 0 12 0V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1\"/></g></g><rect x=\"536\" y=\"230\" width=\"492\" height=\"150\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(554.0 248.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g><path d=\"M 1070 200 C 1180 200, 1200 200, 1290 200\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1310\" y=\"60\" width=\"354\" height=\"280\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1447.0 90.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1M15 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2 5h2a2 2 0 0 1 2 2v1M5 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h2\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 16,
+     "w": 600,
+     "t": "Devolutiva do mês",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 88,
+     "w": 400,
      "t": "Proporção do mês",
-     "x": "quantos tiveram algum problema",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 42,
+     "y": 150,
+     "w": 456,
+     "t": "quantos tiveram algum problema",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 612,
+     "y": 88,
+     "w": 400,
      "t": "Três regiões",
-     "x": "as mais frequentes no período",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 554,
+     "y": 150,
+     "w": 456,
+     "t": "as mais frequentes no período",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 100,
+     "y": 254,
+     "w": 400,
      "t": "Dias perdidos",
-     "x": "o que custou caro",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     },
     {
+     "x": 42,
+     "y": 316,
+     "w": 456,
+     "t": "o que custou caro",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 612,
+     "y": 254,
+     "w": 400,
      "t": "O que muda",
-     "x": "uma frase sobre o planejamento",
-     "cor": "tinta"
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 554,
+     "y": 316,
+     "w": 456,
+     "t": "uma frase sobre o planejamento",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1326,
+     "y": 200,
+     "w": 322,
+     "t": "volta para quem respondeu toda semana",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
     }
    ],
-   "gap_itens": 22,
+   "eyebrow": "A parte mais ignorada",
+   "titulo": "Devolutiva: uma página por mês",
    "destaque": "Quem responde toda semana e nunca vê nada voltar, para de responder.",
    "destaque_cor": "verm"
   },
   {
    "id": "lgpd",
-   "tipo": "lista",
-   "eyebrow": "Passo seis · dado de saúde é dado sensível",
-   "titulo": "O cuidado que protege todo mundo",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"O dado de saúde no centro, com um cadeado: dado pessoal sensível. Em volta, cinco cuidados. Consentimento: o que se coleta, para quê, quem vê; menor assina o responsável. Acesso por função: o treinador vê a condição de treino, não o diagnóstico. Nada em grupo de mensagem: o que circula é liberado, com restrição ou fora. Relatório agregado, sem nome. Prazo e dono: onde fica, por quanto tempo, e o que acontece quando o atleta sai\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"612\" y=\"0\" width=\"440\" height=\"190\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(798.0 20.0) scale(2.8333)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"0\" y=\"0\" width=\"560\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g><rect x=\"0\" y=\"220\" width=\"560\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(20.0 240.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m16.555 3.843l3.602 3.602a2.877 2.877 0 0 1 0 4.069l-2.643 2.643a2.877 2.877 0 0 1-4.069 0l-.301-.301l-6.558 6.558a2 2 0 0 1-1.239.578L5.172 21H4a1 1 0 0 1-.993-.883L3 20v-1.172a2 2 0 0 1 .467-1.284l.119-.13L4 17h2v-2h2v-2l2.144-2.144l-.301-.301a2.877 2.877 0 0 1 0-4.069l2.643-2.643a2.877 2.877 0 0 1 4.069 0M15 9h.01\"/></g><rect x=\"1104\" y=\"0\" width=\"560\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(1124.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 9h1m4 0h3m-8 4h5M8 4h10a3 3 0 0 1 3 3v8c0 .577-.163 1.116-.445 1.573M18 18h-5l-5 3v-3H6a3 3 0 0 1-3-3V7c0-1.085.576-2.036 1.439-2.562M3 3l18 18\"/></g><rect x=\"1104\" y=\"220\" width=\"560\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(1124.0 240.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1M15 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m2 5h2a2 2 0 0 1 2 2v1M5 5a2 2 0 1 0 4 0a2 2 0 0 0-4 0m-2 8v-1a2 2 0 0 1 2-2h2\"/></g><rect x=\"612\" y=\"220\" width=\"440\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><g transform=\"translate(632.0 240.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><rect x=\"1124\" y=\"110\" width=\"164\" height=\"50\" rx=\"25\" fill=\"#008A7E\"/><rect x=\"1300\" y=\"110\" width=\"164\" height=\"50\" rx=\"25\" fill=\"#B07A1C\"/><rect x=\"1476\" y=\"110\" width=\"164\" height=\"50\" rx=\"25\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
     {
+     "x": 628,
+     "y": 104,
+     "w": 408,
+     "t": "dado de saúde é dado pessoal sensível",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 78,
+     "y": 26,
+     "w": 464,
      "t": "Consentimento",
-     "x": "o que se coleta, para quê, quem vê; menor assina o responsável",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 20,
+     "y": 96,
+     "w": 520,
+     "t": "o que se coleta, para quê, quem vê; menor assina o responsável",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 78,
+     "y": 246,
+     "w": 464,
      "t": "Acesso por função",
-     "x": "treinador vê a condição de treino, não o diagnóstico",
-     "cor": "ambar"
+     "tam": 23,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 20,
+     "y": 316,
+     "w": 520,
+     "t": "treinador vê a condição de treino, não o diagnóstico",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1182,
+     "y": 26,
+     "w": 464,
      "t": "Nada em grupo de mensagem",
-     "x": "circula liberado, com restrição ou fora",
-     "cor": "verm"
+     "tam": 23,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 1182,
+     "y": 246,
+     "w": 464,
      "t": "Relatório agregado",
-     "x": "sem nome",
-     "cor": "petr"
+     "tam": 23,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
     },
     {
+     "x": 1124,
+     "y": 316,
+     "w": 520,
+     "t": "sem nome",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 690,
+     "y": 246,
+     "w": 344,
      "t": "Prazo e dono",
-     "x": "onde fica, por quanto tempo, e quando o atleta sai",
-     "cor": "tinta"
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 632,
+     "y": 316,
+     "w": 400,
+     "t": "onde fica, por quanto tempo, e quando o atleta sai",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1124,
+     "y": 122,
+     "w": 164,
+     "t": "liberado",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 122,
+     "w": 164,
+     "t": "com restrição",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1476,
+     "y": 122,
+     "w": 164,
+     "t": "fora",
+     "tam": 19,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 168,
+     "w": 520,
+     "t": "o que circula",
+     "tam": 17,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 18,
+   "eyebrow": "Passo seis · dado de saúde é dado sensível",
+   "titulo": "O cuidado que protege todo mundo",
    "fonte": "Lei 13.709/2018, art. 5º, II"
   },
   {
    "id": "painel",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"À esquerda, o painel de uma página com quatro blocos: a proporção semanal, uma linha que é o pulso do grupo; as regiões mais atingidas, em ordem; os dias perdidos por mil horas; as recorrências, espelho do retorno. À direita, os quatro erros que estragam o registro, riscados: registrar só quem procurou atendimento; lesão sem exposição; mudar a definição no meio; coletar sem devolver\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"24\" y=\"64\" width=\"414\" height=\"164\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"462\" y=\"64\" width=\"414\" height=\"164\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"24\" y=\"244\" width=\"414\" height=\"164\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"462\" y=\"244\" width=\"414\" height=\"164\" rx=\"10\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><polyline points=\"44,190 100,170 156,180 212,140 268,160 324,130 400,150\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"482\" y=\"110\" width=\"300\" height=\"24\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"482\" y=\"144\" width=\"220\" height=\"24\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"482\" y=\"178\" width=\"150\" height=\"24\" rx=\"4\" fill=\"#B07A1C\"/><rect x=\"60\" y=\"342\" width=\"44\" height=\"50\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"130\" y=\"312\" width=\"44\" height=\"80\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"200\" y=\"352\" width=\"44\" height=\"40\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"270\" y=\"292\" width=\"44\" height=\"100\" rx=\"4\" fill=\"#A8322A\"/><rect x=\"340\" y=\"332\" width=\"44\" height=\"60\" rx=\"4\" fill=\"#A8322A\"/><g transform=\"translate(640.0 300.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g><rect x=\"960\" y=\"0\" width=\"704\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(984.0 76.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(984.0 160.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(984.0 244.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(984.0 328.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 600,
+     "t": "Painel de uma página",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 76,
+     "w": 390,
+     "t": "proporção semanal: o pulso",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 478,
+     "y": 76,
+     "w": 390,
+     "t": "regiões mais atingidas",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 256,
+     "w": 390,
+     "t": "dias perdidos por mil horas",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 478,
+     "y": 256,
+     "w": 390,
+     "t": "recorrências: o espelho do retorno",
+     "tam": 19,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 384,
+     "w": 850,
+     "t": "esquema",
+     "tam": 16,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 16,
+     "w": 660,
+     "t": "Erros que estragam o registro",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1040,
+     "y": 82,
+     "w": 600,
+     "t": "registrar só quem procurou atendimento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 166,
+     "w": 600,
+     "t": "lesão sem exposição",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 250,
+     "w": 600,
+     "t": "mudar a definição no meio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 334,
+     "w": 600,
+     "t": "coletar sem devolver",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Para montar nesta semana",
-   "titulo": "O painel mínimo e os quatro erros",
-   "esq": {
-    "t": "Painel de uma página",
-    "cor": "petr",
-    "itens": [
-     "proporção semanal: o pulso",
-     "regiões mais atingidas",
-     "dias perdidos por mil horas",
-     "recorrências: o espelho do retorno"
-    ]
-   },
-   "dir": {
-    "t": "Erros que estragam o registro",
-    "cor": "verm",
-    "itens": [
-     "registrar só quem procurou atendimento",
-     "lesão sem exposição",
-     "mudar a definição no meio",
-     "coletar sem devolver"
-    ]
-   },
-   "destaque_cor": "tinta"
+   "titulo": "O painel mínimo e os quatro erros"
   },
   {
    "id": "fecho",
