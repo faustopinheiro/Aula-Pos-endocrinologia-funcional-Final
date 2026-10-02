@@ -22,63 +22,360 @@
  "slides": [
   {
    "id": "palavra",
-   "tipo": "frase",
-   "fundo": "tinta",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma faixa contínua sob a frase teve uma lesão muscular. Numa ponta, a sobrecarga que passa em poucos dias; na outra, a ruptura que envolve o tendão e leva meses. Embaixo, os quatro passos: o que falha, a avaliação, a imagem e a classificação\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><defs><linearGradient id=\"g74\" x1=\"0\" x2=\"1\"><stop offset=\"0\" stop-color=\"#008A7E\"/><stop offset=\"0.5\" stop-color=\"#B07A1C\"/><stop offset=\"1\" stop-color=\"#A8322A\"/></linearGradient></defs><rect x=\"0\" y=\"60\" width=\"1664\" height=\"44\" rx=\"22\" fill=\"url(#g74)\"/><rect x=\"0\" y=\"200\" width=\"392\" height=\"120\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"46\" cy=\"260\" r=\"26\" fill=\"#12202E\"/><g transform=\"translate(300.0 236.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><line x1=\"394\" y1=\"260\" x2=\"420\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"424\" y=\"200\" width=\"392\" height=\"120\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"470\" cy=\"260\" r=\"26\" fill=\"#12202E\"/><g transform=\"translate(724.0 236.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><line x1=\"818\" y1=\"260\" x2=\"844\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"848\" y=\"200\" width=\"392\" height=\"120\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"894\" cy=\"260\" r=\"26\" fill=\"#12202E\"/><g transform=\"translate(1148.0 236.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g><line x1=\"1242\" y1=\"260\" x2=\"1268\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1272\" y=\"200\" width=\"392\" height=\"120\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><circle cx=\"1318\" cy=\"260\" r=\"26\" fill=\"#12202E\"/><g transform=\"translate(1572.0 236.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3.5 5.5L5 7l2.5-2.5m-4 7L5 13l2.5-2.5m-4 7L5 19l2.5-2.5M11 6h9m-9 6h9m-9 6h9\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 700,
+     "t": "sobrecarga que passa em poucos dias",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 964,
+     "y": 0,
+     "w": 700,
+     "t": "ruptura que envolve o tendão e leva meses",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 120,
+     "w": 1664,
+     "t": "tudo isso cabe na mesma frase",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 246,
+     "w": 52,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 88,
+     "y": 244,
+     "w": 210,
+     "t": "o que falha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 444,
+     "y": 246,
+     "w": 52,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 512,
+     "y": 244,
+     "w": 210,
+     "t": "a avaliação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 246,
+     "w": 52,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 936,
+     "y": 244,
+     "w": 210,
+     "t": "a imagem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1292,
+     "y": 246,
+     "w": 52,
+     "t": "4",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 244,
+     "w": 210,
+     "t": "a classificação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Uma palavra que esconde tudo",
-   "frase": "“Teve uma lesão muscular.”",
-   "apoio": "Cabe ali desde uma sobrecarga que passa em poucos dias até uma ruptura do tendão que leva meses. Quatro passos: o que falha, a avaliação, a imagem e a classificação."
+   "titulo": "“Teve uma lesão muscular.”"
   },
   {
    "id": "tamanho",
-   "tipo": "numeros",
-   "eyebrow": "O tamanho do problema",
-   "titulo": "Posterior de coxa no futebol de elite europeu",
-   "numeros": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Proporção de lesões de posterior de coxa no futebol de elite europeu. Uma barra de 12% na primeira temporada e outra de 24% na mais recente, o dobro. Uma linha tracejada marca 19%, a proporção no conjunto das vinte e uma temporadas\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"200\" y=\"188\" width=\"260\" height=\"132\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"900\" y=\"56\" width=\"260\" height=\"264\" rx=\"6\" fill=\"#A8322A\"/><line x1=\"120\" y1=\"111\" x2=\"1280\" y2=\"111\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><path d=\"M 470 168 C 650 128, 760 96, 880 76\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"120\" y1=\"320\" x2=\"1280\" y2=\"320\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
     {
-     "n": "19%",
-     "x": "de todas as lesões em vinte e uma temporadas",
-     "cor": "tinta"
+     "x": 200,
+     "y": 128,
+     "w": 260,
+     "t": "12%",
+     "tam": 48,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
     },
     {
-     "n": "12%",
-     "x": "a proporção na primeira temporada",
-     "cor": "petr"
+     "x": 160,
+     "y": 330,
+     "w": 340,
+     "t": "primeira temporada",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
     },
     {
-     "n": "24%",
-     "x": "a proporção na temporada mais recente",
-     "cor": "verm"
+     "x": 900,
+     "y": -4,
+     "w": 260,
+     "t": "24%",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 330,
+     "w": 340,
+     "t": "temporada mais recente",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 77,
+     "w": 360,
+     "t": "19%",
+     "tam": 40,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 129,
+     "w": 360,
+     "t": "no conjunto das 21 temporadas",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "O tamanho do problema",
+   "titulo": "Posterior de coxa no futebol de elite europeu",
    "destaque": "Quase uma em cada quatro lesões, num único grupo muscular, e crescendo.",
    "destaque_cor": "verm",
    "fonte": "Estudo de lesões dos clubes de elite da UEFA, Br J Sports Med 2023"
   },
   {
    "id": "mecanismos",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Dois cenários de alongamento sob tensão, cada um com um músculo desenhado sendo puxado nas duas pontas enquanto contrai. Corrida em alta velocidade: no fim do balanço da perna, os isquiotibiais freiam enquanto alongam; pega a cabeça longa do bíceps femoral; a mais comum no jogador e no velocista. Alongamento extremo: chute alto, abertura, carrinho, dança; dor mais alta, perto do quadril; pouca perda de função no primeiro dia; recuperação mais longa\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"822\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 20.0) scale(1.2500)\"><g fill=\"#008A7E\"><path d=\"M30.5 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-9.04 4.282c-1.247.31-2.098.776-2.785 1.354c-1.03.868-1.862 2.12-2.986 4.088a2 2 0 1 1-3.473-1.985c1.119-1.957 2.25-3.788 3.883-5.162c1.704-1.436 3.79-2.248 6.603-2.561c1.176-.13 2.47-.104 3.683.437c1.273.569 2.203 1.588 2.837 2.95c.854 1.833 1.489 2.924 1.997 3.557c.245.303.416.444.513.507c.077.05.11.054.122.056h.001c.087.01.369 0 1.197-.367c.361-.16.755-.352 1.237-.587l.115-.056a54 54 0 0 1 1.784-.84a2 2 0 0 1 1.625 3.655a49 49 0 0 0-1.653.779l-.131.064c-.461.225-.925.452-1.36.644c-.9.398-2.05.83-3.297.679c-1.316-.16-2.33-.903-3.165-1.9l-2.733 5.273l3.78 4.918a2 2 0 0 1 .403 1.012l.832 7.996a2 2 0 1 1-3.978.414l-.774-7.433l-2.296-2.988l-.02.037l-.084-.172l-4.242-5.52a2 2 0 0 1-.282-1.934z\"/><path d=\"m18.432 29.007l-1.472 3.96l-5.8-.46a2 2 0 1 0-.318 3.987l7.308.58a2 2 0 0 0 2.033-1.296l1.125-3.028z\"/></g></g><ellipse cx=\"411\" cy=\"130\" rx=\"150\" ry=\"26\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"251\" y1=\"130\" x2=\"131\" y2=\"130\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"571\" y1=\"130\" x2=\"691\" y2=\"130\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"36\" cy=\"204\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"36\" cy=\"260\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"36\" cy=\"316\" r=\"7\" fill=\"#008A7E\"/><circle cx=\"36\" cy=\"372\" r=\"7\" fill=\"#008A7E\"/><rect x=\"842\" y=\"0\" width=\"822\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(866.0 20.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 5a1 1 0 1 0 2 0a1 1 0 1 0-2 0M5 20l5-.5l1-2m7 2.5v-5h-5.5L15 8.5l-5.5 1l1.5 2\"/></g><ellipse cx=\"1253\" cy=\"130\" rx=\"150\" ry=\"26\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1093\" y1=\"130\" x2=\"973\" y2=\"130\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><line x1=\"1413\" y1=\"130\" x2=\"1533\" y2=\"130\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><circle cx=\"878\" cy=\"204\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"878\" cy=\"260\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"878\" cy=\"316\" r=\"7\" fill=\"#A8322A\"/><circle cx=\"878\" cy=\"372\" r=\"7\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 34,
+     "w": 700,
+     "t": "Corrida em alta velocidade",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 261,
+     "y": 118,
+     "w": 300,
+     "t": "alonga sob tensão",
+     "tam": 18,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 190,
+     "w": 740,
+     "t": "fim do balanço da perna",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 246,
+     "w": 740,
+     "t": "isquiotibiais freiam enquanto alongam",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 302,
+     "w": 740,
+     "t": "cabeça longa do bíceps femoral",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 56,
+     "y": 358,
+     "w": 740,
+     "t": "a mais comum no jogador e no velocista",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 942,
+     "y": 34,
+     "w": 700,
+     "t": "Alongamento extremo",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1103,
+     "y": 118,
+     "w": 300,
+     "t": "alonga sob tensão",
+     "tam": 18,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 898,
+     "y": 190,
+     "w": 740,
+     "t": "chute alto, abertura, carrinho, dança",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 898,
+     "y": 246,
+     "w": 740,
+     "t": "dor mais alta, perto do quadril",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 898,
+     "y": 302,
+     "w": 740,
+     "t": "pouca perda de função no primeiro dia",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 898,
+     "y": 358,
+     "w": 740,
+     "t": "recuperação mais longa",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo um · o que falha",
    "titulo": "Dois cenários de alongamento sob tensão",
-   "esq": {
-    "t": "Corrida em alta velocidade",
-    "cor": "petr",
-    "itens": [
-     "fim do balanço da perna",
-     "isquiotibiais freiam enquanto alongam",
-     "cabeça longa do bíceps femoral",
-     "a mais comum no jogador e no velocista"
-    ]
-   },
-   "dir": {
-    "t": "Alongamento extremo",
-    "cor": "verm",
-    "itens": [
-     "chute alto, abertura, carrinho, dança",
-     "dor mais alta, perto do quadril",
-     "pouca perda de função no primeiro dia",
-     "recuperação mais longa"
-    ]
-   },
    "destaque": "A segunda engana: o susto é pequeno e o prazo é grande.",
    "destaque_cor": "verm",
    "fonte": "Dois estudos suecos, Am J Sports Med 2007"
@@ -131,206 +428,999 @@
   },
   {
    "id": "historia",
-   "tipo": "cards",
-   "por_linha": 4,
-   "eyebrow": "Passo dois · as primeiras horas",
-   "titulo": "A história vale mais do que parece",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 340,
+   "svg": "<svg aria-label=\"Quatro perguntas da história, em fila. O que fazia: sprint, chute, abertura, desaceleração. O que sentiu: estalo, pontada, ou algo que apertou aos poucos. Continuou: conseguiu seguir no treino, conseguiu andar. Já teve antes: no mesmo lugar, e quando; esta última está em destaque, porque é a que mais se esquece\" width=\"1664\" height=\"340\" viewBox=\"0 0 1664 340\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"392\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><circle cx=\"44\" cy=\"44\" r=\"24\" fill=\"#008A7E\"/><g transform=\"translate(320.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><line x1=\"394\" y1=\"170\" x2=\"420\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"424\" y=\"0\" width=\"392\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"468\" cy=\"44\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(744.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><line x1=\"818\" y1=\"170\" x2=\"844\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"848\" y=\"0\" width=\"392\" height=\"340\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"892\" cy=\"44\" r=\"24\" fill=\"#B07A1C\"/><g transform=\"translate(1168.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6\"/><path d=\"m6 12l2-3l4-1l3 3l3 1\"/></g></g><line x1=\"1242\" y1=\"170\" x2=\"1268\" y2=\"170\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1272\" y=\"0\" width=\"392\" height=\"340\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"1316\" cy=\"44\" r=\"24\" fill=\"#A8322A\"/><g transform=\"translate(1592.0 22.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4\"/></g></svg>",
+   "rotulos": [
     {
+     "x": 20,
+     "y": 30,
+     "w": 48,
+     "t": "1",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 100,
+     "w": 350,
      "t": "O que fazia",
-     "x": "sprint, chute, abertura, desaceleração",
-     "cor": "petr"
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 160,
+     "w": 350,
+     "t": "sprint, chute, abertura, desaceleração",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 444,
+     "y": 30,
+     "w": 48,
+     "t": "2",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 448,
+     "y": 100,
+     "w": 350,
      "t": "O que sentiu",
-     "x": "estalo, pontada, ou algo que apertou aos poucos",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 448,
+     "y": 160,
+     "w": 350,
+     "t": "estalo, pontada, ou algo que apertou aos poucos",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 868,
+     "y": 30,
+     "w": 48,
+     "t": "3",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 872,
+     "y": 100,
+     "w": 350,
      "t": "Continuou?",
-     "x": "conseguiu seguir no treino, conseguiu andar",
-     "cor": "ambar"
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 872,
+     "y": 160,
+     "w": 350,
+     "t": "conseguiu seguir no treino, conseguiu andar",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1292,
+     "y": 30,
+     "w": 48,
+     "t": "4",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1296,
+     "y": 100,
+     "w": 350,
      "t": "Já teve antes?",
-     "x": "no mesmo lugar, e quando",
-     "cor": "verm"
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1296,
+     "y": 160,
+     "w": 350,
+     "t": "no mesmo lugar, e quando",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1296,
+     "y": 290,
+     "w": 360,
+     "t": "a que mais se esquece",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Passo dois · as primeiras horas",
+   "titulo": "A história vale mais do que parece",
    "destaque": "A última pergunta é a que mais se esquece, e é a que mais muda o plano.",
    "destaque_cor": "tinta"
   },
   {
    "id": "exame",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o exame em quatro itens: onde dói e em que extensão; amplitude perdida, lado a lado; dor ao contrair, com e sem resistência; falha palpável. À direita, em vermelho, os sinais que mudam a urgência: não consegue andar; hematoma extenso em poucas horas; dor muito alta, perto do osso da bacia; no adolescente, pensar em arrancamento\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"400\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 20.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M6 4H5a2 2 0 0 0-2 2v3.5a5.5 5.5 0 0 0 11 0V6a2 2 0 0 0-2-2h-1\"/><path d=\"M8 15a6 6 0 1 0 12 0v-3m-9-9v2M6 3v2\"/><path d=\"M18 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"24\" y=\"96\" width=\"752\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\"/><g transform=\"translate(40.0 110.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11 12a1 1 0 1 0 2 0a1 1 0 1 0-2 0\"/><path d=\"M7 12a5 5 0 1 0 10 0a5 5 0 1 0-10 0\"/><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/></g></g><rect x=\"24\" y=\"172\" width=\"752\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\"/><g transform=\"translate(40.0 186.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.875 12c.621 0 1.125.512 1.125 1.143v5.714c0 .631-.504 1.143-1.125 1.143H4a1 1 0 0 1-1-1v-5.857C3 12.512 3.504 12 4.125 12zM9 12v2m-3-2v3m6-3v3m6-3v3m-3-3v2M3 3v4m0-2h18m0-2v4\"/></g><rect x=\"24\" y=\"248\" width=\"752\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\"/><g transform=\"translate(40.0 262.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"24\" y=\"324\" width=\"752\" height=\"64\" rx=\"12\" fill=\"#DDEFEC\"/><g transform=\"translate(40.0 338.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M8 13V5.5a1.5 1.5 0 0 1 3 0V12m0-6.5v-2a1.5 1.5 0 1 1 3 0V12m0-6.5a1.5 1.5 0 0 1 3 0V12\"/><path d=\"M17 7.5a1.5 1.5 0 0 1 3 0V16a6 6 0 0 1-6 6h-2h.208a6 6 0 0 1-5.012-2.7L7 19q-.468-.718-3.286-5.728a1.5 1.5 0 0 1 .536-2.022a1.87 1.87 0 0 1 2.28.28L8 13\"/></g></g><rect x=\"864\" y=\"0\" width=\"800\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(888.0 20.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"888\" y=\"96\" width=\"752\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\"/><g transform=\"translate(904.0 110.0) scale(1.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6\"/><path d=\"m6 12l2-3l4-1l3 3l3 1\"/></g></g><rect x=\"888\" y=\"172\" width=\"752\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\"/><g transform=\"translate(904.0 186.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"888\" y=\"248\" width=\"752\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\"/><g transform=\"translate(904.0 262.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"888\" y=\"324\" width=\"752\" height=\"64\" rx=\"12\" fill=\"#FDFCF9\"/><g transform=\"translate(904.0 338.0) scale(0.7500)\"><g fill=\"#A8322A\"><path fill-rule=\"evenodd\" d=\"M18 18.5a1.5 1.5 0 0 1 1.5-1.5h9a1.5 1.5 0 0 1 1.415 2H30v.034c2.25.304 4 2.635 4 5.466s-1.75 5.162-4 5.466V40a2 2 0 0 1-3.988.22L25.21 33h-2.32l-.905 7.248A2 2 0 0 1 18 40V29.966c-2.25-.304-4-2.635-4-5.466s1.75-5.162 4-5.466V19h.085a1.5 1.5 0 0 1-.085-.5m2.331 5.18c.478-.987.662-2.53.662-4.68h2c0 2.158-.166 4.115-.862 5.551c-.361.746-.877 1.379-1.6 1.817c-.72.435-1.571.632-2.531.632v-2c.686 0 1.158-.14 1.495-.344c.334-.201.61-.51.836-.976M27.007 19c0 2.15.184 3.693.662 4.68c.226.465.502.775.836.976c.337.204.809.344 1.495.344v2c-.96 0-1.81-.197-2.53-.632c-.724-.438-1.24-1.071-1.601-1.817c-.696-1.436-.862-3.393-.862-5.551z\" clip-rule=\"evenodd\"/><path d=\"M28.5 10.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 88,
+     "y": 28,
+     "w": 600,
+     "t": "O exame",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 92,
+     "y": 114,
+     "w": 670,
+     "t": "onde dói e em que extensão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 92,
+     "y": 190,
+     "w": 670,
+     "t": "amplitude perdida, lado a lado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 92,
+     "y": 266,
+     "w": 670,
+     "t": "dor ao contrair, com e sem resistência",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 92,
+     "y": 342,
+     "w": 670,
+     "t": "falha palpável",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 952,
+     "y": 28,
+     "w": 680,
+     "t": "Sinais que mudam a urgência",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 956,
+     "y": 114,
+     "w": 670,
+     "t": "não consegue andar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 956,
+     "y": 190,
+     "w": 670,
+     "t": "hematoma extenso em poucas horas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 956,
+     "y": 266,
+     "w": 670,
+     "t": "dor muito alta, perto do osso da bacia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 956,
+     "y": 342,
+     "w": 670,
+     "t": "no adolescente: pensar em arrancamento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo dois · o exame",
    "titulo": "O que a maca mostra e o que muda a urgência",
-   "esq": {
-    "t": "O exame",
-    "cor": "petr",
-    "itens": [
-     "onde dói e em que extensão",
-     "amplitude perdida, lado a lado",
-     "dor ao contrair, com e sem resistência",
-     "falha palpável"
-    ]
-   },
-   "dir": {
-    "t": "Sinais que mudam a urgência",
-    "cor": "verm",
-    "itens": [
-     "não consegue andar",
-     "hematoma extenso em poucas horas",
-     "dor muito alta, perto do osso da bacia",
-     "no adolescente: pensar em arrancamento"
-    ]
-   },
    "destaque": "Com história e exame, quem examina já separa o leve do sério e decide se precisa de imagem.",
    "destaque_cor": "tinta"
   },
   {
    "id": "imagem",
-   "tipo": "duas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"No alto, a pergunta que vem antes da ressonância: o laudo muda a decisão? Se sim, ela ajuda: dúvida de gravidade ou de arrancamento; prazo apertado e tendão interno em jogo; evolução que não bate com o esperado. Se não, não ajuda: pedida por reflexo, no dia seguinte; desconforto leve, já melhorando; plano que não muda com o laudo\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"532\" y=\"0\" width=\"600\" height=\"90\" rx=\"45\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(560.0 21.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><line x1=\"600\" y1=\"92\" x2=\"420\" y2=\"140\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"1064\" y1=\"92\" x2=\"1244\" y2=\"140\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m1)\"/><rect x=\"0\" y=\"150\" width=\"800\" height=\"250\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(24.0 218.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 276.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 334.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"864\" y=\"150\" width=\"800\" height=\"250\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(888.0 218.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(888.0 276.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(888.0 334.0) scale(1.4167)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 620,
+     "y": 28,
+     "w": 490,
+     "t": "o laudo muda a decisão?",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 166,
+     "w": 740,
+     "t": "sim: ajuda",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 222,
+     "w": 700,
+     "t": "dúvida de gravidade ou de arrancamento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 280,
+     "w": 700,
+     "t": "prazo apertado e tendão interno em jogo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 72,
+     "y": 338,
+     "w": 700,
+     "t": "evolução que não bate com o esperado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 166,
+     "w": 740,
+     "t": "não: não ajuda",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 936,
+     "y": 222,
+     "w": 700,
+     "t": "pedida por reflexo, no dia seguinte",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 936,
+     "y": 280,
+     "w": 700,
+     "t": "desconforto leve, já melhorando",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 936,
+     "y": 338,
+     "w": 700,
+     "t": "plano que não muda com o laudo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo três · imagem com pergunta",
    "titulo": "Quando a ressonância muda a decisão",
-   "esq": {
-    "t": "Ajuda",
-    "cor": "petr",
-    "itens": [
-     "dúvida de gravidade ou de arrancamento",
-     "prazo apertado e tendão interno em jogo",
-     "evolução que não bate com o esperado"
-    ]
-   },
-   "dir": {
-    "t": "Não ajuda",
-    "cor": "verm",
-    "itens": [
-     "pedida por reflexo, no dia seguinte",
-     "desconforto leve, já melhorando",
-     "plano que não muda com o laudo"
-    ]
-   },
    "destaque": "Em 180 atletas, a ressonância não acrescentou valor à história e ao exame para prever o retorno.",
    "destaque_cor": "tinta",
    "fonte": "Coorte norueguesa, Br J Sports Med 2015"
   },
   {
    "id": "advertencias",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Imagem de músculo",
-   "titulo": "Três advertências que evitam erro caro",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Uma linha do tempo desde a lesão, em esquema. No começo, cedo demais: a imagem pode subestimar a lesão. No fim, tarde demais: pode mostrar cicatriz antiga e confundir. O momento importa. Ao lado, o terceiro alerta: o achado sem sintoma, o edema que persiste em quem já voltou a treinar bem\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"0\" y1=\"250\" x2=\"1000\" y2=\"250\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"0\" width=\"360\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(24.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><line x1=\"180.0\" y1=\"220\" x2=\"180.0\" y2=\"244\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"620\" y=\"0\" width=\"360\" height=\"220\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(644.0 22.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><line x1=\"800.0\" y1=\"220\" x2=\"800.0\" y2=\"244\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1064\" y=\"0\" width=\"600\" height=\"360\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(1088.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 17l5 1l.75-1.5M15 21v-4l-4-3l1-6\"/><path d=\"M7 12V9l5-1l3 3l3 1\"/></g></g><g transform=\"translate(1150.0 22.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0\"/><path d=\"M21 12q-3.6 6-9 6t-9-6q3.6-6 9-6t9 6\"/></g></g></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 266,
+     "w": 990,
+     "t": "tempo desde a lesão · esquema",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 82,
+     "y": 28,
+     "w": 260,
      "t": "Cedo demais",
-     "x": "pode subestimar a lesão",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 96,
+     "w": 312,
+     "t": "pode subestimar a lesão",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 702,
+     "y": 28,
+     "w": 260,
      "t": "Tarde demais",
-     "x": "pode mostrar cicatriz antiga e confundir",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 644,
+     "y": 96,
+     "w": 312,
+     "t": "pode mostrar cicatriz antiga e confundir",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 370,
+     "y": 96,
+     "w": 240,
+     "t": "o momento importa",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1088,
+     "y": 96,
+     "w": 550,
      "t": "Achado sem sintoma",
-     "x": "o edema persiste em quem já voltou a treinar bem",
-     "cor": "verm"
+     "tam": 27,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1088,
+     "y": 150,
+     "w": 550,
+     "t": "o edema persiste em quem já voltou a treinar bem",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
     }
    ],
+   "eyebrow": "Imagem de músculo",
+   "titulo": "Três advertências que evitam erro caro",
    "destaque": "A imagem, sozinha, não decide quando a pessoa volta.",
    "destaque_cor": "verm"
   },
   {
    "id": "munique",
-   "tipo": "tabela",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Dois mundos, separados pela ruptura de fibra. Funcional, sem ruptura: a sobrecarga por fadiga e a dor muscular tardia, que costumam resolver rápido; e o neuromuscular, que inclui a dor que vem da coluna lombar e é tratado como ruptura por engano. Estrutural, com ruptura: a parcial, ruptura de fibra pequena a moderada, com prazo pelo exame; e a completa, ruptura total e arrancamento do tendão, que pede avaliação cirúrgica\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"812\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"0\" width=\"812\" height=\"80\" rx=\"16\" fill=\"#DDEFEC\"/><rect x=\"24\" y=\"100\" width=\"764\" height=\"144\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"24\" y=\"260\" width=\"764\" height=\"144\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"852\" y=\"0\" width=\"812\" height=\"420\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"852\" y=\"0\" width=\"812\" height=\"80\" rx=\"16\" fill=\"#F3E1DE\"/><rect x=\"876\" y=\"100\" width=\"764\" height=\"144\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><rect x=\"876\" y=\"260\" width=\"764\" height=\"144\" rx=\"12\" fill=\"#F7F6F2\" stroke=\"#DDD8CC\" stroke-width=\"2\"/><line x1=\"832\" y1=\"0\" x2=\"832\" y2=\"420\" stroke=\"#12202E\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 300,
+     "t": "Funcional",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 260,
+     "y": 28,
+     "w": 520,
+     "t": "sem ruptura de fibra",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 116,
+     "w": 400,
+     "t": "sem ruptura",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 154,
+     "w": 720,
+     "t": "sobrecarga por fadiga, dor muscular tardia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 198,
+     "w": 720,
+     "t": "→ costuma resolver rápido",
+     "tam": 21,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 276,
+     "w": 400,
+     "t": "neuromuscular",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 314,
+     "w": 720,
+     "t": "inclui a dor que vem da coluna lombar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 44,
+     "y": 358,
+     "w": 720,
+     "t": "→ tratada como ruptura por engano",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 876,
+     "y": 20,
+     "w": 300,
+     "t": "Estrutural",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1112,
+     "y": 28,
+     "w": 520,
+     "t": "com ruptura de fibra",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 896,
+     "y": 116,
+     "w": 400,
+     "t": "parcial",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 896,
+     "y": 154,
+     "w": 720,
+     "t": "ruptura de fibra, pequena a moderada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 896,
+     "y": 198,
+     "w": 720,
+     "t": "→ prazo pelo exame",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 896,
+     "y": 276,
+     "w": 400,
+     "t": "completa",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 896,
+     "y": 314,
+     "w": 720,
+     "t": "ruptura total e arrancamento do tendão",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 896,
+     "y": 358,
+     "w": 720,
+     "t": "→ avaliação cirúrgica",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
    "eyebrow": "Passo quatro · classificar",
    "titulo": "Consenso de Munique, 2013",
-   "cab": [
-    "Mundo",
-    "O que entra",
-    "Cuidado"
-   ],
-   "larguras": [
-    24,
-    46,
-    30
-   ],
-   "linhas": [
-    [
-     "Funcional, sem ruptura",
-     "sobrecarga por fadiga, dor muscular tardia",
-     "costuma resolver rápido"
-    ],
-    [
-     "Funcional, neuromuscular",
-     "inclui a dor que vem da coluna lombar",
-     "tratada como ruptura por engano"
-    ],
-    [
-     "Estrutural, parcial",
-     "ruptura de fibra, pequena a moderada",
-     "prazo pelo exame"
-    ],
-    [
-     "Estrutural, completa",
-     "ruptura total e arrancamento do tendão",
-     "avaliação cirúrgica"
-    ]
-   ],
-   "destaque_cor": "tinta",
    "fonte": "Br J Sports Med 2013"
   },
   {
    "id": "britanica",
-   "tipo": "cards",
-   "por_linha": 3,
-   "eyebrow": "Classificação britânica, 2014",
-   "titulo": "Grau de 0 a 4 pelo tamanho, letra pelo lugar",
-   "cards": [
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"À esquerda, o grau pelo tamanho, numa escada de zero a quatro. À direita, um músculo desenhado com o tendão correndo por dentro, como espinha de peixe, e as três letras pelo lugar. Letra a: periferia, perto da fáscia. Letra b: no músculo ou na junção com o tendão. Letra c: estende-se para dentro do tendão, em destaque\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"290\" width=\"76\" height=\"50\" rx=\"6\" fill=\"#12202E\" opacity=\"0.35\"/><rect x=\"92\" y=\"235\" width=\"76\" height=\"105\" rx=\"6\" fill=\"#12202E\" opacity=\"0.51\"/><rect x=\"184\" y=\"180\" width=\"76\" height=\"160\" rx=\"6\" fill=\"#12202E\" opacity=\"0.67\"/><rect x=\"276\" y=\"125\" width=\"76\" height=\"215\" rx=\"6\" fill=\"#12202E\" opacity=\"0.83\"/><rect x=\"368\" y=\"70\" width=\"76\" height=\"270\" rx=\"6\" fill=\"#12202E\" opacity=\"0.99\"/><ellipse cx=\"860\" cy=\"200\" rx=\"290\" ry=\"110\" fill=\"#F4EAD6\" stroke=\"#008A7E\" stroke-width=\"5\"/><line x1=\"600\" y1=\"200\" x2=\"1120\" y2=\"200\" stroke=\"#A8322A\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"650\" y1=\"200\" x2=\"610\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"650\" y1=\"200\" x2=\"610\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"700\" y1=\"200\" x2=\"660\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"700\" y1=\"200\" x2=\"660\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"750\" y1=\"200\" x2=\"710\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"750\" y1=\"200\" x2=\"710\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"800\" y1=\"200\" x2=\"760\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"800\" y1=\"200\" x2=\"760\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"850\" y1=\"200\" x2=\"810\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"850\" y1=\"200\" x2=\"810\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"900\" y1=\"200\" x2=\"860\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"900\" y1=\"200\" x2=\"860\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"950\" y1=\"200\" x2=\"910\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"950\" y1=\"200\" x2=\"910\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1000\" y1=\"200\" x2=\"960\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1000\" y1=\"200\" x2=\"960\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1050\" y1=\"200\" x2=\"1010\" y2=\"130\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1050\" y1=\"200\" x2=\"1010\" y2=\"270\" stroke=\"#B07A1C\" stroke-width=\"2\"/><circle cx=\"860\" cy=\"92\" r=\"24\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"740\" cy=\"152\" r=\"24\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"980\" cy=\"200\" r=\"24\" fill=\"#A8322A\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"1220\" y=\"30\" width=\"444\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1220\" y=\"154\" width=\"444\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1220\" y=\"278\" width=\"444\" height=\"110\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
     {
+     "x": 0,
+     "y": 0,
+     "w": 480,
+     "t": "o grau: tamanho",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 352,
+     "w": 76,
+     "t": "0",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 92,
+     "y": 352,
+     "w": 76,
+     "t": "1",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 184,
+     "y": 352,
+     "w": 76,
+     "t": "2",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 276,
+     "y": 352,
+     "w": 76,
+     "t": "3",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 368,
+     "y": 352,
+     "w": 76,
+     "t": "4",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 0,
+     "w": 500,
+     "t": "a letra: lugar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 836,
+     "y": 77,
+     "w": 48,
+     "t": "a",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 716,
+     "y": 137,
+     "w": 48,
+     "t": "b",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 956,
+     "y": 185,
+     "w": 48,
+     "t": "c",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 44,
+     "w": 400,
      "t": "Letra a",
-     "x": "periferia, perto da fáscia",
-     "cor": "petr"
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1240,
+     "y": 84,
+     "w": 410,
+     "t": "periferia, perto da fáscia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 168,
+     "w": 400,
      "t": "Letra b",
-     "x": "no músculo ou na junção com o tendão",
-     "cor": "ambar"
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
     },
     {
+     "x": 1240,
+     "y": 208,
+     "w": 410,
+     "t": "no músculo ou na junção com o tendão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 292,
+     "w": 400,
      "t": "Letra c",
-     "x": "estende-se para dentro do tendão",
-     "cor": "verm"
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1240,
+     "y": 332,
+     "w": 410,
+     "t": "estende-se para dentro do tendão",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
     }
    ],
+   "eyebrow": "Classificação britânica, 2014",
+   "titulo": "Grau de 0 a 4 pelo tamanho, letra pelo lugar",
    "destaque": "No atletismo de elite, a letra c demorou mais para voltar ao treino completo e repetiu mais.",
    "destaque_cor": "verm",
    "fonte": "Br J Sports Med 2014 e 2016"
   },
   {
    "id": "conduta",
-   "tipo": "lista",
-   "eyebrow": "O que a classificação muda",
-   "titulo": "Ritmo por critério, não por calendário",
-   "itens": [
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Três etapas do primeiro dia à volta ao esporte. Proteger sem imobilizar: repouso relativo, dor controlada, movimento no que não dói. Carga cedo, progressão por critério: a lesão periférica avança rápido, a do tendão interno devagar. O gesto volta antes da alta: sprint na reabilitação, não no jogo\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m2\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"460\" height=\"300\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><line x1=\"464\" y1=\"150\" x2=\"494\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"500\" y=\"0\" width=\"660\" height=\"300\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1164\" y1=\"150\" x2=\"1194\" y2=\"150\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1200\" y=\"0\" width=\"464\" height=\"300\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"524\" y1=\"150\" x2=\"1120\" y2=\"150\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m1)\"/><line x1=\"524\" y1=\"240\" x2=\"800\" y2=\"240\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m2)\"/><line x1=\"0\" y1=\"350\" x2=\"1650\" y2=\"350\" stroke=\"#6B7A87\" stroke-width=\"2\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
     {
+     "x": 24,
+     "y": 20,
+     "w": 412,
      "t": "Proteger sem imobilizar",
-     "x": "repouso relativo, dor controlada, movimento no que não dói",
-     "cor": "petr"
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 24,
+     "y": 130,
+     "w": 412,
+     "t": "repouso relativo, dor controlada, movimento no que não dói",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 524,
+     "y": 20,
+     "w": 612,
      "t": "Carga cedo, progressão por critério",
-     "x": "periférica avança rápido; tendão interno, devagar",
-     "cor": "ambar"
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
     },
     {
+     "x": 1224,
+     "y": 20,
+     "w": 416,
      "t": "O gesto volta antes da alta",
-     "x": "sprint na reabilitação, não no jogo",
-     "cor": "verm"
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1224,
+     "y": 130,
+     "w": 416,
+     "t": "sprint na reabilitação, não no jogo",
+     "tam": 23,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 524,
+     "y": 106,
+     "w": 600,
+     "t": "periférica: avança rápido",
+     "tam": 21,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 524,
+     "y": 196,
+     "w": 600,
+     "t": "tendão interno: devagar",
+     "tam": 21,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 316,
+     "w": 300,
+     "t": "primeiro dia",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1364,
+     "y": 316,
+     "w": 286,
+     "t": "volta ao esporte",
+     "tam": 18,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
     }
    ],
-   "gap_itens": 26,
+   "eyebrow": "O que a classificação muda",
+   "titulo": "Ritmo por critério, não por calendário",
    "destaque": "Quando o calendário pula a última etapa, o jogo faz a exposição, em velocidade máxima e com adversário.",
    "destaque_cor": "verm"
   },

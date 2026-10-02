@@ -104,6 +104,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Quatro erros", "titulo": "
                     {"t": "Coordenação", "x": "Comunica prazo com o médico, nunca de improviso."}],
           "quem": "Próxima aula: o prazo, e por que a previsão erra tanto."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-04")
+
 spec = {"arquivo": "aulas/MOD07/07-04-lesao-muscular-fisiopatologia-e-classificacao.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Lesão muscular no esporte", "subtitulo": "O que falha, como avaliar e como classificar",
