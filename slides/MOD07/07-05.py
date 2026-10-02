@@ -101,6 +101,10 @@ S.append({"id": "fecho", "tipo": "fecho", "eyebrow": "Prognóstico", "titulo": "
                     {"t": "Coordenação e comissão", "x": "Protegem a decisão e falam uma versão só."}],
           "quem": "Próxima aula: do primeiro dia ao retorno, o manejo da lesão muscular."})
 
+# os slides de texto viraram desenho (_redesenho.py)
+import _redesenho
+S = _redesenho.aplicar(S, "07-05")
+
 spec = {"arquivo": "aulas/MOD07/07-05-lesao-muscular-prognostico-e-erro-de-estimativa.md",
         "modulo": "Lesões: Mecanismos, Epidemiologia e Prevenção", "tema": "tinta",
         "titulo": "Prognóstico da lesão muscular", "subtitulo": "Faixas de retorno e o erro de estimativa",

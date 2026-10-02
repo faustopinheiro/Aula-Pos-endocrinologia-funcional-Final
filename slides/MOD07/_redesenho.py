@@ -968,12 +968,218 @@ def conduta_74():
     return slide("conduta", 380, p, rs, eyebrow="O que a classificação muda", titulo="Ritmo por critério, não por calendário",
                  destaque="Quando o calendário pula a última etapa, o jogo faz a exposição, em velocidade máxima e com adversário.", destaque_cor="verm")
 
+# ---------------------------------------------------------------- 7.5
+
+def celular_75():
+    """7.5: o celular com quatro mensagens perguntando o prazo, e o destino do número que você der."""
+    p = [svg_abre(1664, 400, "Um celular com quatro mensagens chegando dez minutos depois da lesão. O diretor: quanto tempo ele fica fora? O empresário: pega a convocação? A imprensa: pega o clássico? O atleta: perco o campeonato? Ao lado, o destino do número que você der: repetido, publicado e cobrado"), defs(MUDO)]
+    rs = []
+    p.append(f'<rect x="0" y="0" width="700" height="400" rx="40" fill="{TINTA}"/>')
+    p.append(f'<rect x="20" y="40" width="660" height="340" rx="20" fill="{CARTAO}"/>')
+    p.append(f'<rect x="290" y="16" width="120" height="10" rx="5" fill="{MUDO}"/>')
+    msgs = [("t:briefcase", "diretor", "Quanto tempo ele fica fora?"), ("t:id", "empresário", "Pega a convocação?"),
+            ("t:speakerphone", "imprensa", "Pega o clássico?"), ("h:running", "atleta", "Perco o campeonato?")]
+    for k, (ic, q, t) in enumerate(msgs):
+        y = 56 + k * 80
+        p.append(f'<rect x="40" y="{y}" width="620" height="66" rx="22" fill="{AZUL_T if k < 3 else GLIC_T}"/>')
+        p.append(icone(ic, 56, y + 15, 36, AZUL if k < 3 else GLIC))
+        rs += [rot(104, y + 8, q, w=200, tam=17, cor=MUDO, peso=700), rot(104, y + 32, t, w=540, tam=22, cor=TINTA, peso=700)]
+    p.append(seta(720, 200, 830, 200, MUDO, "m0", esp=4))
+    p.append(caixa(850, 120, 300, 160, TINTA, TINTA, esp=0, rx=16))
+    rs.append(rot(860, 160, "o número que você der", w=280, tam=24, cor=PAPEL, peso=700, alinha="center", serif=True, lh=1.2))
+    for k, t in enumerate(["repetido", "publicado", "cobrado"]):
+        y = 50 + k * 110
+        p.append(seta(1154, 200, 1240, y + 40, MUDO, "m0", esp=3))
+        p.append(caixa(1250, y, 414, 80, FOSF, FOSF_T, esp=2, rx=40))
+        rs.append(rot(1250, y + 22, t, w=414, tam=26, cor=FOSF, peso=700, alinha="center"))
+    return slide("celular", 400, p, rs, eyebrow="Dez minutos depois da lesão", titulo="“Quanto tempo ele fica fora?”")
+
+
+def medianas_75():
+    """7.5: barras de mediana de afastamento por categoria da classificação de Munique."""
+    p = [svg_abre(1664, 400, "Barras horizontais com a mediana de dias de afastamento, futebol de elite, lesões da coxa. Desordem funcional, sem ruptura: de 5 a 8 dias. Ruptura parcial pequena: 13 dias. Ruptura parcial moderada: 32 dias. Subtotal, completa ou arrancamento: 60 dias")]
+    rs = []
+    X0, E = 470, 17
+    itens = [("desordem funcional, sem ruptura", 5, 8, "5 a 8 d", OXID), ("ruptura parcial pequena", 0, 13, "13 d", GLIC),
+             ("ruptura parcial moderada", 0, 32, "32 d", GLIC), ("subtotal, completa ou arrancamento", 0, 60, "60 d", FOSF)]
+    for k, (t, a, b, n, cor) in enumerate(itens):
+        y = k * 86
+        rs.append(rot(0, y + 22, t, w=440, tam=22, cor=TINTA, peso=700, alinha="right"))
+        if a:
+            p.append(f'<rect x="{X0}" y="{y + 10}" width="{b * E}" height="60" rx="6" fill="{cor}" opacity="0.35"/>')
+            p.append(f'<rect x="{X0 + a * E}" y="{y + 10}" width="{(b - a) * E}" height="60" rx="6" fill="{cor}"/>')
+        else:
+            p.append(f'<rect x="{X0}" y="{y + 10}" width="{b * E}" height="60" rx="6" fill="{cor}"/>')
+        rs.append(rot(X0 + b * E + 16, y + 14, n, w=200, tam=36, cor=cor, peso=700, serif=True))
+    p.append(f'<line x1="{X0}" y1="350" x2="{X0 + 60 * E}" y2="350" stroke="{MUDO}" stroke-width="2"/>')
+    for t in range(0, 61, 10):
+        p.append(f'<line x1="{X0 + t * E}" y1="350" x2="{X0 + t * E}" y2="360" stroke="{MUDO}" stroke-width="2"/>')
+        rs.append(rot(X0 + t * E - 30, 366, str(t), w=60, tam=17, cor=MUDO, alinha="center"))
+    rs.append(rot(0, 366, "mediana, dias de afastamento", w=440, tam=17, cor=MUDO, alinha="right"))
+    return slide("medianas", 400, p, rs, eyebrow="Validação de Munique, futebol de elite", titulo="Medianas de afastamento na lesão da coxa",
+                 destaque="Quanto mais estrutura rompida, mais tempo. Tendão interno envolvido também alonga o retorno.", destaque_cor="tinta",
+                 fonte="Br J Sports Med 2013 · letra c: Br J Sports Med 2016")
+
+
+def variacao_75():
+    """7.5: uma régua de dias com a média de 73 e a faixa de um desvio padrão, de 13 a 133 dias."""
+    p = [svg_abre(1664, 340, "Uma régua de dias. A média de afastamento da lesão de grau 3 do posterior de coxa, 73 dias, marcada no meio. Em volta, a faixa de um desvio padrão, mais ou menos 60 dias, que vai de 13 a 133 dias: de poucas semanas a meses, dentro da mesma nota no laudo")]
+    rs = []
+    X0, E = 80, 10.4
+    p.append(f'<rect x="{X0 + 13 * E:.0f}" y="80" width="{120 * E:.0f}" height="90" rx="12" fill="{FOSF_T}" stroke="{FOSF}" stroke-width="3"/>')
+    p.append(f'<line x1="{X0 + 73 * E:.0f}" y1="50" x2="{X0 + 73 * E:.0f}" y2="200" stroke="{TINTA}" stroke-width="6"/>')
+    rs += [rot(X0 + 73 * E - 200, 0, "73 dias: média", w=400, tam=34, cor=TINTA, peso=700, alinha="center", serif=True),
+           rot(X0 + 13 * E + 16, 108, "poucas semanas", w=300, tam=21, cor=FOSF, peso=700),
+           rot(X0 + 133 * E - 316, 108, "meses", w=300, tam=21, cor=FOSF, peso=700, alinha="right")]
+    p.append(f'<line x1="{X0}" y1="240" x2="{X0 + 140 * E:.0f}" y2="240" stroke="{MUDO}" stroke-width="2"/>')
+    for t in range(0, 141, 20):
+        p.append(f'<line x1="{X0 + t * E:.0f}" y1="240" x2="{X0 + t * E:.0f}" y2="252" stroke="{MUDO}" stroke-width="2"/>')
+        rs.append(rot(X0 + t * E - 30, 258, str(t), w=60, tam=18, cor=MUDO, alinha="center"))
+    rs += [rot(X0, 292, "dias de afastamento", w=600, tam=18, cor=MUDO),
+           rot(X0 + 13 * E, 292, "± 60 dias: desvio padrão, quase do tamanho da média", w=120 * E, tam=21, cor=FOSF, peso=700, alinha="center")]
+    return slide("variacao", 340, p, rs, eyebrow="Por que se trabalha com faixa", titulo="Grau 3 na ressonância, posterior de coxa",
+                 destaque="Mesma nota no laudo, pessoas e reabilitações diferentes: desfechos diferentes.", destaque_cor="verm",
+                 fonte="Equipes profissionais europeias, Br J Sports Med 2012")
+
+
+def advertencias_75():
+    """7.5: três cartões, cada um com um pequeno desenho: o profissional e o amador, a faixa larga, duas semanas boas contra seis ruins."""
+    p = [svg_abre(1664, 400, "Três advertências. Os números vêm do profissional, com fisioterapia todo dia; para o amador sem estrutura, some tempo. A variação é grande: dentro de cada faixa, desfechos muito diferentes. A reabilitação decide: duas semanas boas, desenhadas como dois blocos cheios, valem mais que seis semanas ruins, desenhadas como seis blocos vazios")]
+    rs = []
+    cards = [("Vêm do profissional", "fisioterapia todo dia; no amador sem estrutura, some tempo", GLIC),
+             ("Variação grande", "dentro de cada faixa, desfechos muito diferentes", GLIC),
+             ("A reabilitação decide", "duas semanas boas valem mais que seis ruins", FOSF)]
+    for k, (t, d, cor) in enumerate(cards):
+        x = k * 564
+        p.append(caixa(x, 0, 536, 400, cor, CARTAO, esp=2 if k < 2 else 4, rx=16))
+        rs += [rot(x + 24, 22, t, w=490, tam=27, cor=cor, peso=700, serif=True), rot(x + 24, 290, d, w=490, tam=22, cor=TINTA, lh=1.3)]
+    p.append(icone("t:building-hospital", 40, 100, 80, OXID))
+    p.append(icone("h:person", 300, 100, 80, MUDO))
+    rs += [rot(20, 196, "profissional", w=160, tam=19, cor=OXID, peso=700, alinha="center"), rot(260, 196, "amador sozinho", w=200, tam=19, cor=MUDO, peso=700, alinha="center"),
+           rot(400, 120, "+", w=100, tam=48, cor=GLIC, peso=700, alinha="center")]
+    x = 564
+    p.append(f'<rect x="{x + 40}" y="140" width="456" height="50" rx="25" fill="{GLIC_T}" stroke="{GLIC}" stroke-width="2"/>')
+    for px in (70, 130, 220, 300, 390, 450):
+        p.append(f'<circle cx="{x + px}" cy="165" r="10" fill="{GLIC}"/>')
+    rs.append(rot(x + 40, 206, "mesma categoria, retornos espalhados", w=456, tam=18, cor=MUDO, alinha="center"))
+    x = 1128
+    for i in range(2):
+        p.append(f'<rect x="{x + 40 + i * 64}" y="110" width="54" height="54" rx="6" fill="{OXID}"/>')
+    for i in range(6):
+        p.append(f'<rect x="{x + 40 + i * 64}" y="190" width="54" height="54" rx="6" fill="{CARTAO}" stroke="{CINZA}" stroke-width="3"/>')
+    rs += [rot(x + 180, 122, "boas", w=200, tam=20, cor=OXID, peso=700), rot(x + 40, 252, "ruins", w=200, tam=18, cor=MUDO, peso=700)]
+    return slide("advertencias", 400, p, rs, eyebrow="Valem mais que os números", titulo="Três advertências")
+
+
+def laudo_75():
+    """7.5: dois laudos, cada um levando a um erro: parado demais ou de volta cedo demais."""
+    p = [svg_abre(1664, 400, "Dois laudos e os dois lados do erro. O laudo que assustou, grau 2 com edema extenso: a pessoa fica parada além do necessário e perde capacidade à toa. O laudo que tranquilizou, lesão pequena: volta com o exame ainda ruim, e vem a recidiva"), defs(GLIC, FOSF)]
+    rs = []
+    for k, (t, q, a, b, cor, fundo, mk) in enumerate([("O laudo assustou", "“grau 2 com edema extenso”", "fica parado além do necessário", "perde capacidade à toa", GLIC, GLIC_T, "m0"),
+                                                       ("O laudo tranquilizou", "“lesão pequena”", "volta com o exame ainda ruim", "recidiva", FOSF, FOSF_T, "m1")]):
+        x = k * 852
+        rs.append(rot(x, 0, t, w=800, tam=28, cor=cor, peso=700, serif=True))
+        p.append(f'<path d="M {x} 56 H {x + 760} L {x + 812} 100 V 170 H {x} Z" fill="{CARTAO}" stroke="{cor}" stroke-width="2"/>')
+        p.append(icone("t:clipboard-list", x + 20, 86, 48, cor))
+        rs.append(rot(x + 84, 96, q, w=700, tam=25, cor=TINTA, peso=700))
+        p.append(seta(x + 200, 174, x + 200, 220, cor, mk, esp=3))
+        p.append(caixa(x, 226, 380, 120, cor, fundo, esp=2, rx=14))
+        rs.append(rot(x + 20, 258, a, w=340, tam=23, cor=TINTA, peso=700, lh=1.25))
+        p.append(seta(x + 384, 286, x + 424, 286, cor, mk, esp=3))
+        p.append(caixa(x + 432, 226, 380, 120, cor, cor, esp=0, rx=14))
+        rs.append(rot(x + 452, 258, b, w=340, tam=24, cor=PAPEL, peso=700, lh=1.25))
+    p.append(f'<line x1="832" y1="0" x2="832" y2="360" stroke="{BORDA}" stroke-width="2"{TRACO}/>')
+    return slide("laudo", 400, p, rs, eyebrow="Quando o laudo vira calendário", titulo="O erro vai para os dois lados",
+                 destaque="Critério é o que a pessoa consegue fazer, com qualidade, sem dor e sem apreensão. O laudo entra na conversa, não a resolve.",
+                 destaque_cor="tinta", fonte="Ressonância sem valor adicional para prever retorno, Br J Sports Med 2015")
+
+
+def movem_75():
+    """7.5: o prazo no centro, empurrado para um lado pelo que alonga e para o outro pelo que encurta."""
+    p = [svg_abre(1664, 420, "O prazo no centro, com duas setas. Para a direita, o que alonga: tendão interno envolvido; lesão prévia no mesmo músculo; lesão alta, por alongamento extremo; calendário apertado, sem estrutura. Para a esquerda, o que encurta: carga cedo, dentro do tolerado; progressão por critério, registrada; reexposição planejada ao gesto; atleta que não precisa esconder dor"), defs(OXID, FOSF)]
+    rs = []
+    p.append(caixa(632, 0, 400, 70, TINTA, TINTA, esp=0, rx=35))
+    rs.append(rot(632, 18, "o prazo", w=400, tam=28, cor=PAPEL, peso=700, alinha="center", serif=True))
+    p.append(seta(626, 35, 420, 35, OXID, "m0", esp=5))
+    p.append(seta(1038, 35, 1244, 35, FOSF, "m1", esp=5))
+    cols = [("Encurta", ["carga cedo, dentro do tolerado", "progressão por critério, registrada", "reexposição planejada ao gesto", "atleta que não precisa esconder dor"], OXID, OXID_T, 0),
+            ("Alonga", ["tendão interno envolvido", "lesão prévia no mesmo músculo", "lesão alta, por alongamento extremo", "calendário apertado, sem estrutura"], FOSF, FOSF_T, 864)]
+    for t, itens, cor, fundo, x in cols:
+        rs.append(rot(x if x == 0 else x + 400, 14, t, w=400, tam=28, cor=cor, peso=700, serif=True, alinha="left" if x == 0 else "right"))
+        for j, it in enumerate(itens):
+            y = 100 + j * 80
+            p.append(caixa(x, y, 800, 68, cor, fundo, esp=2, rx=12))
+            rs.append(rot(x + 24, y + 20, it, w=750, tam=23, cor=TINTA, peso=700 if j == 3 else 400))
+    return slide("movem", 420, p, rs, eyebrow="O que move o prazo", titulo="Para cima e para baixo",
+                 destaque="Quem tem medo de perder a vaga esconde dor, e dor escondida vira recidiva.", destaque_cor="verm")
+
+
+def andar_75():
+    """7.5: dois grupos pelo tempo até andar sem dor; quem levou mais de um dia teve cerca de quatro vezes a chance de ficar mais de três semanas fora."""
+    p = [svg_abre(1664, 340, "Dois grupos pela resposta a uma pergunta: quanto tempo levou para andar sem dor? Até um dia: a chance de ficar mais de três semanas fora serve de referência, uma barra curta. Mais de um dia: chance cerca de quatro vezes maior, uma barra quatro vezes mais longa")]
+    rs = []
+    X0, E = 560, 250
+    for k, (t, v, n, cor) in enumerate([("andou sem dor em até 1 dia", 1, "referência", OXID), ("levou mais de 1 dia", 4, "≈ × 4", FOSF)]):
+        y = 20 + k * 130
+        p.append(icone("t:walk", 0, y + 14, 60, cor))
+        rs.append(rot(80, y + 28, t, w=460, tam=24, cor=TINTA, peso=700))
+        p.append(f'<rect x="{X0}" y="{y}" width="{v * E}" height="90" rx="8" fill="{cor}"/>')
+        rs.append(rot(X0 + v * E + 20 if v == 1 else X0 + 20, y + (28 if v == 1 else 18), n, w=300, tam=26 if v == 1 else 44, cor=cor if v == 1 else PAPEL, peso=700, serif=v != 1))
+    rs.append(rot(X0, 290, "chance de ficar mais de três semanas fora de competição", w=1000, tam=21, cor=MUDO, peso=700))
+    return slide("andar", 340, p, rs, eyebrow="Uma pergunta barata", titulo="Quanto tempo levou para andar sem dor?",
+                 destaque="A história, bem perguntada, carrega boa parte do prognóstico.", destaque_cor="tinta", fonte="Futebol australiano de elite, Br J Sports Med 2010")
+
+
+def naodizer_75():
+    """7.5: um balão com uma data riscada, e o que ela vira depois de dita."""
+    p = [svg_abre(1664, 360, "Um balão de fala com uma data no calendário, riscada: uma data seca, no primeiro dia. Ela vira manchete, expectativa e cobrança. E, a partir dela, todo mundo trabalha para cumprir a data, não os critérios"), defs(MUDO)]
+    rs = []
+    p.append(f'<path d="M 20 20 H 520 Q 540 20 540 40 V 220 Q 540 240 520 240 H 160 L 90 300 L 110 240 H 40 Q 20 240 20 220 V 40 Q 20 20 40 20 Z" fill="{CARTAO}" stroke="{TINTA}" stroke-width="3"/>')
+    p.append(icone("t:calendar", 200, 50, 140, TINTA))
+    p.append(f'<line x1="140" y1="40" x2="420" y2="220" stroke="{FOSF}" stroke-width="10" stroke-linecap="round"/>')
+    for k, t in enumerate(["manchete", "expectativa", "cobrança"]):
+        x = 640 + k * 290
+        p.append(caixa(x, 40, 260, 76, GLIC, GLIC_T, esp=2, rx=38))
+        rs.append(rot(x, 60, t, w=260, tam=24, cor=GLIC, peso=700, alinha="center"))
+        p.append(seta(x + 130, 120, 1150, 196, MUDO, "m0", esp=2))
+    p.append(caixa(640, 210, 1024, 130, FOSF, FOSF_T, esp=2, rx=16))
+    rs += [rot(664, 228, "todo mundo trabalha para cumprir a data,", w=980, tam=26, cor=TINTA, peso=700, serif=True),
+           rot(664, 278, "não os critérios", w=980, tam=26, cor=FOSF, peso=700, serif=True)]
+    return slide("naodizer", 360, p, rs, eyebrow="O que não dizer", titulo="Uma data seca, no primeiro dia.")
+
+
+def dizer_75():
+    """7.5: três partes da resposta, cada uma com um pequeno desenho: a faixa, os critérios, a data de reavaliação."""
+    p = [svg_abre(1664, 380, "Três partes da resposta, numeradas. A faixa: lesões deste tipo costumam levar de tanto a tanto, desenhada como uma faixa larga. Os critérios: resposta à carga, força em amplitude, tolerância à velocidade. Quando volta a falar: reavalio na sexta e atualizo a previsão"), defs(MUDO)]
+    rs = []
+    partes = [("A faixa", "“lesões deste tipo costumam levar de tanto a tanto”", OXID, OXID_T), ("Os critérios", "", GLIC, GLIC_T), ("Quando volta a falar", "“reavalio na sexta e atualizo a previsão”", TINTA, AZUL_T)]
+    for k, (t, d, cor, fundo) in enumerate(partes):
+        x = k * 564
+        p.append(caixa(x, 0, 536, 380, cor, CARTAO, esp=2, rx=16))
+        p.append(f'<circle cx="{x + 46}" cy="46" r="24" fill="{cor}"/>')
+        rs += [rot(x + 22, 32, str(k + 1), w=48, tam=24, cor=PAPEL, peso=700, alinha="center"), rot(x + 86, 30, t, w=430, tam=27, cor=cor, peso=700, serif=True)]
+        if d:
+            rs.append(rot(x + 24, 260, d, w=490, tam=22, cor=TINTA, lh=1.3))
+        if k < 2:
+            p.append(seta(x + 538, 190, x + 560, 190, MUDO, "m0", esp=3))
+    p.append(f'<rect x="40" y="130" width="456" height="70" rx="35" fill="{OXID_T}" stroke="{OXID}" stroke-width="3"/>')
+    rs += [rot(56, 152, "de", w=80, tam=20, cor=OXID, peso=700), rot(400, 152, "a", w=80, tam=20, cor=OXID, peso=700, alinha="right")]
+    for j, (ic, c) in enumerate([("t:barbell", "resposta à carga"), ("t:ruler-measure", "força em amplitude"), ("t:run", "tolerância à velocidade")]):
+        y = 100 + j * 86
+        p.append(f'<rect x="588" y="{y}" width="488" height="70" rx="35" fill="{GLIC_T}"/>')
+        p.append(icone(c and ic, 606, y + 17, 36, GLIC))
+        rs.append(rot(656, y + 22, c, w=400, tam=22, cor=TINTA, peso=700))
+    p.append(icone("t:calendar", 1340, 110, 96, TINTA))
+    return slide("dizer", 380, p, rs, eyebrow="O que dizer", titulo="Três partes, sempre",
+                 destaque="“Não vou te liberar pelo calendário. Vou te liberar pelo que você conseguir fazer, e te mostrar o que falta.”", destaque_cor="tinta")
+
 # ---------------------------------------------------------------- aplicação
 
 LICOES = {"07-01": [numeros_71, usos_71, familias_71, consenso_71, denominador_71, novatos_71, vocabulario_71, oslo_71, leitura_71, rastreio_71],
           "07-02": [cena_72, perguntas_72, definicao_72, exposicao_72, ferramentas_72, indicadores_72, carga_72, devolutiva_72, lgpd_72, painel_72],
           "07-03": [cena_73, mecanismo_73, modelo_73, copo_73, padrao_73, razao_73, colunas_73],
-          "07-04": [palavra_74, tamanho_74, mecanismos_74, historia_74, exame_74, imagem_74, advertencias_74, munique_74, britanica_74, conduta_74]}
+          "07-04": [palavra_74, tamanho_74, mecanismos_74, historia_74, exame_74, imagem_74, advertencias_74, munique_74, britanica_74, conduta_74],
+          "07-05": [celular_75, medianas_75, variacao_75, advertencias_75, laudo_75, movem_75, andar_75, naodizer_75, dizer_75]}
 
 def aplicar(S, licao):
     """Troca, em S, cada slide de texto da aula pelo desenho de mesmo id."""
