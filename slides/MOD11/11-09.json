@@ -1,0 +1,1013 @@
+{
+ "arquivo": "aulas/MOD11/11-09-exercicio-na-gestacao-e-no-pos-parto.md",
+ "titulo": "Exercício na gestação e no pós-parto",
+ "subtitulo": "Um roteiro em seis passos",
+ "nota_capa": "Entra por uma praticante parada na porta do box por excesso de frases.",
+ "secoes": {
+  "ruido": [
+   "O ruído.",
+   "capa"
+  ],
+  "pergunta": [
+   "A gestação.",
+   "pergunta"
+  ],
+  "posparto": [
+   "O pós-parto.",
+   "posparto"
+  ]
+ },
+ "slides": [
+  {
+   "id": "ruido",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Uma praticante de treinamento funcional, grávida, na porta do box. Em volta, quatro balões que se contradizem: pode caminhar; só com liberação por escrito; é perigoso levantar peso; não levante o braço acima da cabeça. Embaixo, quatro semanas riscadas: sem treino\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><g transform=\"translate(712.0 60.0) scale(5.0000)\"><path fill=\"#B07A1C\" fill-rule=\"evenodd\" d=\"M28.5 8.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M18.5 21c0 2.53-2.336 11.045-3.191 14.078a.997.997 0 0 0 .81 1.258c5.986.9 9.78.871 15.767-.005a.996.996 0 0 0 .816-1.25c-.845-3.091-3.2-11.893-3.202-14.078v-1.508c.398.5.769 1.245.997 2.05l.022.077c.139.492.191.676.24.862c.03.111.058.223.104.403c.129.505.393 1.546 1.203 4.622a2 2 0 1 0 3.868-1.018c-.77-2.926-1.044-4-1.184-4.551a41 41 0 0 0-.405-1.485c-.344-1.217-.931-2.469-1.724-3.462C31.873 16.056 30.648 15 29 15H19c-1.648 0-2.873 1.056-3.621 1.993c-.793.993-1.38 2.245-1.724 3.462c-.256.903-.26.92-.405 1.485c-.14.551-.414 1.625-1.184 4.551a2 2 0 1 0 3.868 1.018c.81-3.076 1.074-4.117 1.203-4.622c.046-.18.074-.292.104-.403c.049-.186.101-.37.24-.861l.022-.078c.228-.805.6-1.55.997-2.05zm0 21.388V38.57c1.41.21 2.714.341 3.988.398l-1.04 3.814a1.5 1.5 0 0 1-2.948-.394m8.053.394l-1.042-3.82a41 41 0 0 0 3.989-.405v3.83a1.5 1.5 0 0 1-2.947.395\" clip-rule=\"evenodd\"/></g><rect x=\"0\" y=\"0\" width=\"540\" height=\"140\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1124\" y=\"0\" width=\"540\" height=\"140\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"0\" y=\"180\" width=\"540\" height=\"140\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1124\" y=\"180\" width=\"540\" height=\"140\" rx=\"40\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"560\" y=\"356\" width=\"110\" height=\"56\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"570\" y1=\"402\" x2=\"660\" y2=\"366\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"700\" y=\"356\" width=\"110\" height=\"56\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"710\" y1=\"402\" x2=\"800\" y2=\"366\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"840\" y=\"356\" width=\"110\" height=\"56\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"850\" y1=\"402\" x2=\"940\" y2=\"366\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"980\" y=\"356\" width=\"110\" height=\"56\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"990\" y1=\"402\" x2=\"1080\" y2=\"366\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 480,
+     "t": "“pode caminhar”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1154,
+     "y": 40,
+     "w": 480,
+     "t": "“só com liberação por escrito”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 30,
+     "y": 220,
+     "w": 480,
+     "t": "“é perigoso levantar peso”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1154,
+     "y": 220,
+     "w": 480,
+     "t": "“não levante o braço acima da cabeça”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 368,
+     "w": 520,
+     "t": "quatro semanas sem treino",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Catorze semanas de gestação",
+   "titulo": "Na gestação sem complicação, ficar parada não é a opção segura",
+   "destaque": "Seguir a recomendação: cerca de 40% menos diabetes gestacional, hipertensão e pré-eclâmpsia; ao menos 25% menos depressão.",
+   "destaque_cor": "tinta",
+   "fonte": "Diretriz canadense, Br J Sports Med 2018"
+  },
+  {
+   "id": "pergunta",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Passo um. Dois balões: vago, pode treinar?; específico, agachamento com carga moderada e corrida em ritmo de conversa, três vezes por semana, trinta minutos, está liberado? Embaixo, não liberado diferente de contraindicado. Ao lado, contraindicações decididas pela obstetrícia\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"130\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"400\" y=\"0\" width=\"600\" height=\"200\" rx=\"40\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"280\" width=\"440\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><rect x=\"560\" y=\"280\" width=\"440\" height=\"110\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"2\"/><line x1=\"470\" y1=\"322\" x2=\"530\" y2=\"322\" stroke=\"#A8322A\" stroke-width=\"6\"/><line x1=\"470\" y1=\"346\" x2=\"530\" y2=\"346\" stroke=\"#A8322A\" stroke-width=\"6\"/><line x1=\"490\" y1=\"370\" x2=\"512\" y2=\"300\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"1060\" y=\"0\" width=\"604\" height=\"470\" rx=\"16\" fill=\"#F7F6F2\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 40,
+     "w": 320,
+     "t": "“pode treinar?”",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 430,
+     "y": 26,
+     "w": 540,
+     "t": "“agachamento moderado e corrida em ritmo de conversa, 3 vezes por semana, 30 minutos: liberado?”",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 312,
+     "w": 400,
+     "t": "não liberado",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 580,
+     "y": 312,
+     "w": 400,
+     "t": "contraindicado",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 410,
+     "w": 1000,
+     "t": "a maioria das “não liberadas” nunca teve a pergunta feita",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 18,
+     "w": 560,
+     "t": "Contraindicações: decide a obstetrícia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1084,
+     "y": 100,
+     "w": 560,
+     "t": "· membranas rotas, trabalho de parto prematuro",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 160,
+     "w": 560,
+     "t": "· sangramento persistente sem explicação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 220,
+     "w": 560,
+     "t": "· placenta prévia após 28 semanas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 280,
+     "w": 560,
+     "t": "· pré-eclâmpsia, colo incompetente",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 340,
+     "w": 560,
+     "t": "· restrição de crescimento fetal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 400,
+     "w": 560,
+     "t": "· doenças descontroladas",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo um",
+   "titulo": "Pergunte à obstetrícia de forma específica"
+  },
+  {
+   "id": "dose",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo dois, a dose em quatro blocos: 150 minutos por semana; 3 dias ou mais; aeróbico e força; assoalho pélvico todo dia. Já treinava: continua, com ajustes. Sedentária: pode começar, com progressão\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"390\" height=\"260\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"420\" y=\"0\" width=\"390\" height=\"260\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"840\" y=\"0\" width=\"390\" height=\"260\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1260\" y=\"0\" width=\"390\" height=\"260\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"300\" width=\"824\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"840\" y=\"300\" width=\"824\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 30,
+     "w": 350,
+     "t": "150",
+     "tam": 80,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 160,
+     "w": 350,
+     "t": "minutos por semana, moderado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 30,
+     "w": 350,
+     "t": "3+",
+     "tam": 80,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 160,
+     "w": 350,
+     "t": "dias por semana",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 30,
+     "w": 350,
+     "t": "2",
+     "tam": 80,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 160,
+     "w": 350,
+     "t": "aeróbico e força, juntos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 30,
+     "w": 350,
+     "t": "1×",
+     "tam": 80,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 160,
+     "w": 350,
+     "t": "assoalho pélvico, todo dia",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 326,
+     "w": 784,
+     "t": "já treinava: continua, com ajustes",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 326,
+     "w": 784,
+     "t": "sedentária: pode começar, com progressão",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 404,
+     "w": 1664,
+     "t": "elite com volume e intensidade muito altos: menos dados, conversa obrigatória com a obstetrícia",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo dois",
+   "titulo": "A dose: 150 minutos, força incluída, assoalho pélvico todo dia",
+   "fonte": "Diretriz canadense, Br J Sports Med 2018"
+  },
+  {
+   "id": "ajustes",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Passo três. Quatro pares, mudança e ajuste. Frequência de repouso sobe: teste da fala. Centro de massa muda: cuidado com queda, não com força. Tontura deitada de costas: mudar de posição. Calor e glicemia: ambiente ventilado, comer antes. Fica a força; saem contato, queda, mergulho autônomo e Valsalva sustentada\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"360\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"370\" y1=\"65\" x2=\"430\" y2=\"65\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"0\" width=\"380\" height=\"130\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"840\" y=\"0\" width=\"360\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1210\" y1=\"65\" x2=\"1270\" y2=\"65\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1280\" y=\"0\" width=\"380\" height=\"130\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"160\" width=\"360\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"370\" y1=\"225\" x2=\"430\" y2=\"225\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"440\" y=\"160\" width=\"380\" height=\"130\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"840\" y=\"160\" width=\"360\" height=\"130\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/><line x1=\"1210\" y1=\"225\" x2=\"1270\" y2=\"225\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1280\" y=\"160\" width=\"380\" height=\"130\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"340\" width=\"800\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"864\" y=\"340\" width=\"800\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 30,
+     "w": 328,
+     "t": "frequência de repouso sobe",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 456,
+     "y": 30,
+     "w": 348,
+     "t": "guiar pelo teste da fala",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 856,
+     "y": 30,
+     "w": 328,
+     "t": "centro de massa muda",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1296,
+     "y": 30,
+     "w": 348,
+     "t": "evitar queda, não força",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 16,
+     "y": 190,
+     "w": 328,
+     "t": "tontura deitada de costas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 456,
+     "y": 190,
+     "w": 348,
+     "t": "mudar de posição",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 856,
+     "y": 190,
+     "w": 328,
+     "t": "calor e glicemia oscilam",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1296,
+     "y": 190,
+     "w": 348,
+     "t": "ventilação e comer antes",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 24,
+     "y": 356,
+     "w": 760,
+     "t": "Fica",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 404,
+     "w": 760,
+     "t": "treino de força, carga adequada, progressão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 356,
+     "w": 760,
+     "t": "Sai",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 888,
+     "y": 404,
+     "w": 760,
+     "t": "contato, queda, mergulho autônomo, Valsalva sustentada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo três",
+   "titulo": "O corpo mudou: muda o guia, não a força"
+  },
+  {
+   "id": "parar",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Passo quatro. Painel de sinais para parar: sangramento vaginal; perda de líquido; dor abdominal persistente; contrações regulares e dolorosas; falta de ar antes do esforço; tontura ou desmaio; dor de cabeça; dor no peito; fraqueza com perda de equilíbrio; dor ou inchaço na panturrilha. Parar e procurar a obstetrícia\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(12.0 8.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"840\" y=\"0\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(852.0 8.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"68\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(12.0 76.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"840\" y=\"68\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(852.0 76.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"136\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(12.0 144.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"840\" y=\"136\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(852.0 144.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"204\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(12.0 212.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"840\" y=\"204\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(852.0 212.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"272\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(12.0 280.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"840\" y=\"272\" width=\"820\" height=\"56\" rx=\"10\" fill=\"#F3E1DE\"/><g transform=\"translate(852.0 280.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 66,
+     "y": 13,
+     "w": 740,
+     "t": "sangramento vaginal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 906,
+     "y": 13,
+     "w": 740,
+     "t": "perda de líquido",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 81,
+     "w": 740,
+     "t": "dor abdominal persistente",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 906,
+     "y": 81,
+     "w": 740,
+     "t": "contrações regulares e dolorosas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 149,
+     "w": 740,
+     "t": "falta de ar antes do esforço",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 906,
+     "y": 149,
+     "w": 740,
+     "t": "tontura ou desmaio",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 217,
+     "w": 740,
+     "t": "dor de cabeça",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 906,
+     "y": 217,
+     "w": 740,
+     "t": "dor no peito",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 285,
+     "w": 740,
+     "t": "fraqueza com perda de equilíbrio",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 906,
+     "y": 285,
+     "w": 740,
+     "t": "dor ou inchaço na panturrilha",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "Qualquer um: parar e procurar a obstetrícia, sem esperar a próxima consulta",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo quatro",
+   "titulo": "Dez sinais que qualquer um na sala precisa saber de cor"
+  },
+  {
+   "id": "posparto",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Passo cinco. Linha do tempo do pós-parto. Semana zero: respiração, assoalho pélvico, caminhada curta. Semanas duas a seis: caminhada progressiva, carga leve. Semana seis: revisão, começa a progressão, bandeira de largada. Semana doze: impacto e corrida, por critério. Critérios: sem perda urinária, sem peso ou pressão vaginal, sem dor, testes de impacto tolerados. Cesárea: mais tempo para carga no abdome. Esquema\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><line x1=\"40\" y1=\"200\" x2=\"1100\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"44\" y=\"230\" width=\"282\" height=\"120\" rx=\"12\" fill=\"#F4EAD6\"/><rect x=\"334\" y=\"230\" width=\"302\" height=\"120\" rx=\"12\" fill=\"#F4EAD6\"/><rect x=\"644\" y=\"230\" width=\"362\" height=\"120\" rx=\"12\" fill=\"#DDEFEC\"/><circle cx=\"40\" cy=\"200\" r=\"14\" fill=\"#12202E\"/><circle cx=\"640\" cy=\"200\" r=\"14\" fill=\"#008A7E\"/><circle cx=\"1010\" cy=\"200\" r=\"14\" fill=\"#A8322A\"/><rect x=\"1180\" y=\"0\" width=\"484\" height=\"400\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 52,
+     "y": 248,
+     "w": 266,
+     "t": "respiração, assoalho, caminhada curta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 342,
+     "y": 248,
+     "w": 286,
+     "t": "caminhada progressiva, carga leve",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 652,
+     "y": 248,
+     "w": 346,
+     "t": "força progressiva, assoalho avaliado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 130,
+     "w": 280,
+     "t": "parto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": -20,
+     "y": 360,
+     "w": 120,
+     "t": "semana 0",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 130,
+     "w": 280,
+     "t": "revisão: largada",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 360,
+     "w": 120,
+     "t": "semana 6",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 130,
+     "w": 280,
+     "t": "impacto, por critério",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 360,
+     "w": 120,
+     "t": "semana 12",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 20,
+     "w": 440,
+     "t": "Critérios para o impacto",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1204,
+     "y": 90,
+     "w": 440,
+     "t": "· sem perda urinária no esforço",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1204,
+     "y": 160,
+     "w": 440,
+     "t": "· sem peso ou pressão vaginal",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1204,
+     "y": 230,
+     "w": 440,
+     "t": "· sem dor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1204,
+     "y": 300,
+     "w": 440,
+     "t": "· testes de impacto e força tolerados",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 420,
+     "w": 1100,
+     "t": "cesárea: mais tempo antes de carga no abdome · esquema",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1180,
+     "y": 420,
+     "w": 484,
+     "t": "não antes de três meses",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo cinco",
+   "titulo": "Seis semanas é largada; o impacto vem por critério",
+   "fonte": "Orientação britânica de retorno à corrida no pós-parto, 2019"
+  },
+  {
+   "id": "assoalho",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Passo seis. Três perguntas: perde urina quando tosse, espirra, salta ou corre? Sente peso, pressão ou uma bola na vagina? Sente dor na relação? Seta para fisioterapia pélvica. Duas armadilhas: faça Kegel não é prescrição; assoalho tenso, contrair mais piora\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"1000\" height=\"84\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"100\" width=\"1000\" height=\"84\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"200\" width=\"1000\" height=\"84\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"1010\" y1=\"140\" x2=\"1110\" y2=\"140\" stroke=\"#008A7E\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"1120\" y=\"60\" width=\"544\" height=\"160\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/><rect x=\"0\" y=\"330\" width=\"824\" height=\"130\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(20.0 362.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"840\" y=\"330\" width=\"824\" height=\"130\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"2\"/><g transform=\"translate(860.0 362.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 22,
+     "w": 952,
+     "t": "Perde urina quando tosse, espirra, salta ou corre?",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 122,
+     "w": 952,
+     "t": "Sente peso, pressão ou uma bola na vagina?",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 222,
+     "w": 952,
+     "t": "Sente dor na relação?",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 84,
+     "w": 504,
+     "t": "qualquer sim",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 132,
+     "w": 504,
+     "t": "fisioterapia pélvica",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 90,
+     "y": 352,
+     "w": 710,
+     "t": "“faça Kegel” não é prescrição: muitas contraem o músculo errado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 930,
+     "y": 352,
+     "w": 710,
+     "t": "assoalho tenso, com dor: contrair mais piora",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Passo seis",
+   "titulo": "Três perguntas, a toda mulher que treina"
+  },
+  {
+   "id": "lactacao",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Balança de energia da puérpera. De um lado, o prato. Do outro, treino, amamentação e sono fragmentado. Ao lado, um calendário sem menstruação: esperado durante a amamentação. Faixa: o vértice do ciclo não serve aqui; os outros dois servem\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><line x1=\"100\" y1=\"120\" x2=\"900\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"8\" stroke-linecap=\"round\"/><path d=\"M 500 160 l -50 200 l 100 0 z\" fill=\"#12202E\"/><ellipse cx=\"180\" cy=\"110\" rx=\"110\" ry=\"26\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><rect x=\"660\" y=\"150\" width=\"70\" height=\"50\" rx=\"8\" fill=\"#A8322A\" transform=\"translate(0,0)\"/><rect x=\"740\" y=\"150\" width=\"70\" height=\"60\" rx=\"8\" fill=\"#A8322A\" transform=\"translate(0,8)\"/><rect x=\"820\" y=\"150\" width=\"70\" height=\"70\" rx=\"8\" fill=\"#A8322A\" transform=\"translate(0,16)\"/><rect x=\"1100\" y=\"0\" width=\"564\" height=\"300\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1130\" y=\"40\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1202\" y=\"40\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1274\" y=\"40\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1346\" y=\"40\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1418\" y=\"40\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1490\" y=\"40\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1562\" y=\"40\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1130\" y=\"100\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1202\" y=\"100\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1274\" y=\"100\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1346\" y=\"100\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1418\" y=\"100\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1490\" y=\"100\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1562\" y=\"100\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1130\" y=\"160\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1202\" y=\"160\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1274\" y=\"160\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1346\" y=\"160\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1418\" y=\"160\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1490\" y=\"160\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1562\" y=\"160\" width=\"60\" height=\"48\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"0\" y=\"340\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 30,
+     "w": 200,
+     "t": "o prato",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 240,
+     "w": 420,
+     "t": "treino · amamentação · sono fragmentado",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1124,
+     "y": 232,
+     "w": 516,
+     "t": "sem menstruar: esperado durante a amamentação",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 370,
+     "w": 1624,
+     "t": "O vértice do ciclo fica apagado por um motivo normal: osso, lesões e rendimento pesam mais",
+     "tam": 27,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Amamentação, energia e sono",
+   "titulo": "No pós-parto, a deficiência energética perde o alarme habitual"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Exercício na gestação e no pós-parto",
+   "titulo": "Parar não é neutro; voltar tem critério",
+   "regras": [
+    "Gestação sem complicação: pergunta específica à obstetrícia e a dose prescrita",
+    "Seis semanas é largada: impacto não antes de três meses, e só por critério",
+    "Assoalho pélvico: três perguntas a toda mulher que treina; qualquer sim encaminha"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina e prepara",
+     "x": "Ajusta o treino, sabe os sinais para parar e leva a pergunta específica."
+    },
+    {
+     "ic": "h:doctor-female",
+     "t": "Fisioterapia pélvica",
+     "x": "Avalia e trata o assoalho e define o critério para o impacto."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Obstetrícia",
+     "x": "Decide as contraindicações e acompanha a gestação."
+    }
+   ]
+  }
+ ],
+ "modulo": "A Atleta Mulher",
+ "tema": "terra"
+}
