@@ -1,0 +1,1089 @@
+{
+ "arquivo": "aulas/MOD14/14-06-documentacao-de-decisao-e-rastreabilidade.md",
+ "titulo": "Documentação de decisão e rastreabilidade",
+ "subtitulo": "Seis linhas contra o viés de resultado",
+ "nota_capa": "Entra por uma armadora de handebol liberada com uma linha no prontuário.",
+ "secoes": {
+  "linha": [
+   "O erro.",
+   "capa"
+  ],
+  "vies": [
+   "Por que acontece.",
+   "vies"
+  ],
+  "ficha": [
+   "A correção.",
+   "ficha"
+  ],
+  "reescrito": [
+   "O registro reescrito.",
+   "reescrito"
+  ]
+ },
+ "slides": [
+  {
+   "id": "linha",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Ficha de prontuário com uma única linha: liberada, sem queixas. Linha do tempo: mês 0, liberada; mês 6, nova entorse no mesmo tornozelo. A diretoria pergunta: quem liberou, e por quê? Perfil típico\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"300\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"560\" height=\"40\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"0\" y=\"30\" width=\"560\" height=\"10\" fill=\"#6B7A87\"/><line x1=\"660\" y1=\"150\" x2=\"1000\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"660\" cy=\"150\" r=\"22\" fill=\"#008A7E\"/><circle cx=\"1000\" cy=\"150\" r=\"22\" fill=\"#A8322A\"/><rect x=\"1180\" y=\"20\" width=\"484\" height=\"280\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 6,
+     "w": 520,
+     "t": "prontuário",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 120,
+     "w": 500,
+     "t": "“Liberada. Sem queixas.”",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 330,
+     "w": 560,
+     "t": "perfil típico",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 550,
+     "y": 184,
+     "w": 220,
+     "t": "mês 0: liberada",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 890,
+     "y": 184,
+     "w": 220,
+     "t": "mês 6: nova entorse, mesmo tornozelo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1204,
+     "y": 44,
+     "w": 436,
+     "t": "a diretoria do clube",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 100,
+     "w": 436,
+     "t": "“Quem liberou, e por quê?”",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 640,
+     "y": 330,
+     "w": 1024,
+     "t": "O que não está escrito, seis meses depois, não aconteceu.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Handebol, uma armadora depois de uma entorse",
+   "titulo": "Uma linha no prontuário, e seis meses depois ninguém sabe por quê"
+  },
+  {
+   "id": "decisao",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Duas fichas lado a lado. O resultado: liberada. A decisão: a pergunta, o que se sabia, as opções, quem decidiu, o que foi combinado, quando reavaliar. O erro: registrar o resultado e não a decisão\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"420\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"560\" height=\"40\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"0\" y=\"30\" width=\"560\" height=\"10\" fill=\"#6B7A87\"/><rect x=\"640\" y=\"0\" width=\"1024\" height=\"420\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"640\" y=\"0\" width=\"1024\" height=\"40\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"640\" y=\"30\" width=\"1024\" height=\"10\" fill=\"#008A7E\"/><circle cx=\"684\" cy=\"82\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"684\" cy=\"140\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"684\" cy=\"198\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"684\" cy=\"256\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"684\" cy=\"314\" r=\"16\" fill=\"#008A7E\"/><circle cx=\"684\" cy=\"372\" r=\"16\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 6,
+     "w": 520,
+     "t": "o resultado",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 30,
+     "y": 190,
+     "w": 500,
+     "t": "liberada",
+     "tam": 44,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 660,
+     "y": 6,
+     "w": 984,
+     "t": "a decisão",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 68,
+     "w": 28,
+     "t": "1",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 716,
+     "y": 66,
+     "w": 920,
+     "t": "a pergunta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 126,
+     "w": 28,
+     "t": "2",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 716,
+     "y": 124,
+     "w": 920,
+     "t": "o que se sabia, com números",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 184,
+     "w": 28,
+     "t": "3",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 716,
+     "y": 182,
+     "w": 920,
+     "t": "as opções consideradas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 242,
+     "w": 28,
+     "t": "4",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 716,
+     "y": 240,
+     "w": 920,
+     "t": "o que foi decidido, e por quem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 300,
+     "w": 28,
+     "t": "5",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 716,
+     "y": 298,
+     "w": 920,
+     "t": "o que foi dito e combinado com a atleta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 670,
+     "y": 358,
+     "w": 28,
+     "t": "6",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 716,
+     "y": 356,
+     "w": 920,
+     "t": "quando e como reavaliar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O erro",
+   "titulo": "O erro é registrar o resultado e não a decisão"
+  },
+  {
+   "id": "vies",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A mesma decisão desenhada duas vezes, com dois desfechos, bom e ruim, e a nota dada à qualidade da decisão: alta e baixa. Estudo de 1988: a mesma decisão julgada pelo desfecho, mesmo por quem dizia que o desfecho não deveria importar\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"300\" height=\"180\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"310\" y1=\"90\" x2=\"400\" y2=\"90\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"470\" cy=\"90\" r=\"56\" fill=\"#008A7E\"/><line x1=\"540\" y1=\"90\" x2=\"620\" y2=\"90\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"640\" y=\"60\" width=\"520\" height=\"60\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"0\" y=\"210\" width=\"300\" height=\"180\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"310\" y1=\"300\" x2=\"400\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><circle cx=\"470\" cy=\"300\" r=\"56\" fill=\"#A8322A\"/><line x1=\"540\" y1=\"300\" x2=\"620\" y2=\"300\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"640\" y=\"270\" width=\"220\" height=\"60\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"1240\" y=\"0\" width=\"424\" height=\"420\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 60,
+     "w": 260,
+     "t": "a mesma decisão",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 410,
+     "y": 160,
+     "w": 120,
+     "t": "desfecho bom",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 76,
+     "w": 480,
+     "t": "decisão julgada boa",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 270,
+     "w": 260,
+     "t": "a mesma decisão",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 410,
+     "y": 370,
+     "w": 120,
+     "t": "desfecho ruim",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 286,
+     "w": 400,
+     "t": "decisão julgada ruim",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1264,
+     "y": 24,
+     "w": 376,
+     "t": "Viés de resultado",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1264,
+     "y": 100,
+     "w": 376,
+     "t": "estudo de 1988, com decisões médicas entre os exemplos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1264,
+     "y": 220,
+     "w": 376,
+     "t": "acontece mesmo com quem diz que o desfecho não deveria importar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que isso pesa",
+   "titulo": "Sem registro da decisão, só resta julgá-la pelo desfecho",
+   "fonte": "J Pers Soc Psychol 1988"
+  },
+  {
+   "id": "motivos",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"Quatro motivos do erro: falta de tempo; registro visto como burocracia de defesa; cada profissão no seu sistema; o que não deu problema não precisa ser escrito\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><rect x=\"0\" y=\"0\" width=\"396\" height=\"360\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(24.0 24.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g><rect x=\"420\" y=\"0\" width=\"396\" height=\"360\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(444.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3a12 12 0 0 0 8.5 3A12 12 0 0 1 12 21A12 12 0 0 1 3.5 6A12 12 0 0 0 12 3\"/></g><rect x=\"840\" y=\"0\" width=\"396\" height=\"360\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(864.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"1260\" y=\"0\" width=\"396\" height=\"360\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1284.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 110,
+     "w": 348,
+     "t": "falta de tempo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 220,
+     "w": 348,
+     "t": "o registro é o último passo e o primeiro cortado",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 444,
+     "y": 110,
+     "w": 348,
+     "t": "burocracia de defesa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 444,
+     "y": 220,
+     "w": 348,
+     "t": "feito para se proteger, e por isso mínimo",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 864,
+     "y": 110,
+     "w": 348,
+     "t": "cada profissão no seu sistema",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 864,
+     "y": 220,
+     "w": 348,
+     "t": "prontuário, outro prontuário, planilha",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1284,
+     "y": 110,
+     "w": 348,
+     "t": "“não deu problema”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1284,
+     "y": 220,
+     "w": 348,
+     "t": "ninguém sabe, na hora, o que vai dar",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Por que o erro acontece",
+   "titulo": "Quatro motivos fazem o registro encolher até virar carimbo"
+  },
+  {
+   "id": "ficha",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A ficha de decisão em seis linhas: a pergunta; o que se sabia, com números; as opções consideradas; o que foi decidido e por quem; o que foi dito e combinado com a atleta; quando e como reavaliar. Seis linhas, dois minutos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"440\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"1100\" height=\"40\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"0\" y=\"30\" width=\"1100\" height=\"10\" fill=\"#008A7E\"/><line x1=\"24\" y1=\"114\" x2=\"1076\" y2=\"114\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"176\" x2=\"1076\" y2=\"176\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"238\" x2=\"1076\" y2=\"238\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"300\" x2=\"1076\" y2=\"300\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"362\" x2=\"1076\" y2=\"362\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"424\" x2=\"1076\" y2=\"424\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"1160\" y=\"0\" width=\"504\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1184.0 24.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 6,
+     "w": 1060,
+     "t": "ficha de decisão",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 70,
+     "w": 40,
+     "t": "1.",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 72,
+     "w": 1000,
+     "t": "a pergunta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 132,
+     "w": 40,
+     "t": "2.",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 134,
+     "w": 1000,
+     "t": "o que se sabia, com números",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 194,
+     "w": 40,
+     "t": "3.",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 196,
+     "w": 1000,
+     "t": "as opções consideradas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 256,
+     "w": 40,
+     "t": "4.",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 258,
+     "w": 1000,
+     "t": "o que foi decidido, e por quem",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 318,
+     "w": 40,
+     "t": "5.",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 320,
+     "w": 1000,
+     "t": "o que foi dito e combinado com a atleta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 380,
+     "w": 40,
+     "t": "6.",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 382,
+     "w": 1000,
+     "t": "quando e como reavaliar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1256,
+     "y": 34,
+     "w": 384,
+     "t": "dois minutos",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1184,
+     "y": 130,
+     "w": 456,
+     "t": "já apareceu no curso",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 180,
+     "w": 456,
+     "t": "a ficha de seis campos da decisão de retorno",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 270,
+     "w": 456,
+     "t": "o registro de cinco linhas da comunicação com pais e treinadores",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A correção",
+   "titulo": "Seis linhas guardam a decisão, e não só o carimbo"
+  },
+  {
+   "id": "rastreio",
+   "tipo": "diagrama",
+   "h": 360,
+   "svg": "<svg aria-label=\"A cadeia da rastreabilidade em quatro elos: data e autor de cada registro; a versão do protocolo usada; o que mudou, e quando; um lugar só, que a equipe acessa. Rastreável: outra pessoa refaz o caminho\" width=\"1664\" height=\"360\" viewBox=\"0 0 1664 360\"><ellipse cx=\"190\" cy=\"130\" rx=\"180\" ry=\"110\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><g transform=\"translate(162.0 50.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><ellipse cx=\"610\" cy=\"130\" rx=\"180\" ry=\"110\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><g transform=\"translate(582.0 50.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g><ellipse cx=\"1030\" cy=\"130\" rx=\"180\" ry=\"110\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><g transform=\"translate(1002.0 50.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><ellipse cx=\"1450\" cy=\"130\" rx=\"180\" ry=\"110\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"6\"/><g transform=\"translate(1422.0 50.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 120,
+     "w": 300,
+     "t": "data e autor de cada registro",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 460,
+     "y": 120,
+     "w": 300,
+     "t": "a versão do protocolo usada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 880,
+     "y": 120,
+     "w": 300,
+     "t": "o que mudou, e quando",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1300,
+     "y": 120,
+     "w": 300,
+     "t": "um lugar só, que a equipe acessa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 290,
+     "w": 1664,
+     "t": "Rastreável: outra pessoa, meses depois, refaz o caminho da decisão em cinco minutos.",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O que torna o registro rastreável",
+   "titulo": "Quatro elos permitem refazer o caminho de uma decisão"
+  },
+  {
+   "id": "lei",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Prontuário com cadeado e calendário: guarda mínima de 20 anos a partir do último registro, papel ou digital, lei de 2018. Três notas: o prontuário é do paciente; cada conselho profissional tem regras próprias; planilha do clube não substitui prontuário\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"520\" height=\"400\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"520\" height=\"40\" rx=\"10\" fill=\"#12202E\"/><rect x=\"0\" y=\"30\" width=\"520\" height=\"10\" fill=\"#12202E\"/><g transform=\"translate(210.0 70.0) scale(4.1667)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"600\" y=\"0\" width=\"1064\" height=\"116\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"600\" y=\"136\" width=\"1064\" height=\"116\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"600\" y=\"272\" width=\"1064\" height=\"116\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 6,
+     "w": 480,
+     "t": "prontuário",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 190,
+     "w": 480,
+     "t": "20 anos",
+     "tam": 56,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 280,
+     "w": 480,
+     "t": "de guarda mínima, a partir do último registro, papel ou digital",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 360,
+     "w": 480,
+     "t": "lei brasileira de 2018",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 34,
+     "w": 1016,
+     "t": "o prontuário é do paciente, que tem direito de acesso",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 170,
+     "w": 1016,
+     "t": "cada conselho profissional tem regras próprias de registro",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 306,
+     "w": 1016,
+     "t": "a planilha do clube não substitui o prontuário de quem atendeu",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que a lei pede",
+   "titulo": "O prontuário fica pelo menos vinte anos, e é do paciente",
+   "fonte": "Lei nº 13.787/2018"
+  },
+  {
+   "id": "reescrito",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"O registro da armadora reescrito. Antes: liberada, sem queixas. Depois, seis linhas: pergunta, volta ao jogo; salto unipodal 92% do outro lado, equilíbrio sem falha, sem dor; opções, liberar, liberar com restrição, esperar duas semanas; liberada com tornozeleira nos primeiros jogos, decisão da médica com a fisioterapeuta; dito, o risco de nova entorse existe e cai com o programa mantido; reavaliar em quatro semanas. Valores ilustrativos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"60\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"0\" y=\"60\" width=\"360\" height=\"40\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"0\" y=\"90\" width=\"360\" height=\"10\" fill=\"#6B7A87\"/><line x1=\"380\" y1=\"170\" x2=\"440\" y2=\"170\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"460\" y=\"0\" width=\"1204\" height=\"440\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"460\" y=\"0\" width=\"1204\" height=\"40\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"460\" y=\"30\" width=\"1204\" height=\"10\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 66,
+     "w": 320,
+     "t": "antes",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 160,
+     "w": 320,
+     "t": "“Liberada. Sem queixas.”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 480,
+     "y": 6,
+     "w": 1164,
+     "t": "depois · valores ilustrativos",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 66,
+     "w": 36,
+     "t": "1.",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 528,
+     "y": 68,
+     "w": 1116,
+     "t": "pergunta: volta ao jogo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 128,
+     "w": 36,
+     "t": "2.",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 528,
+     "y": 130,
+     "w": 1116,
+     "t": "salto numa perna só: 92% do outro lado; equilíbrio sem falha; sem dor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 190,
+     "w": 36,
+     "t": "3.",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 528,
+     "y": 192,
+     "w": 1116,
+     "t": "opções: liberar, liberar com restrição, esperar duas semanas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 252,
+     "w": 36,
+     "t": "4.",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 528,
+     "y": 254,
+     "w": 1116,
+     "t": "liberada com tornozeleira nos primeiros jogos: médica, com a fisioterapeuta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 314,
+     "w": 36,
+     "t": "5.",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 528,
+     "y": 316,
+     "w": 1116,
+     "t": "dito: o risco de nova entorse existe, e cai com o programa mantido",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 376,
+     "w": 36,
+     "t": "6.",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 528,
+     "y": 378,
+     "w": 1116,
+     "t": "reavaliar em quatro semanas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O mesmo registro, reescrito",
+   "titulo": "Com seis linhas, a recidiva vira um risco medido, dito e aceito"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Documentação e rastreabilidade",
+   "titulo": "Guardar a decisão, e não só o carimbo",
+   "regras": [
+    "Registre a decisão: pergunta, dados, opções, quem, o que foi dito, quando rever",
+    "Sem registro, a decisão é julgada pelo desfecho",
+    "Data, autor, versão e o que mudou, num lugar comum"
+   ],
+   "cards": [
+    {
+     "ic": "t:writing",
+     "t": "Quem decide",
+     "x": "Escreve as seis linhas no mesmo dia."
+    },
+    {
+     "ic": "t:users",
+     "t": "Cada profissão",
+     "x": "Registra no seu prontuário e alimenta o lugar comum da equipe."
+    },
+    {
+     "ic": "t:clipboard-list",
+     "t": "Quem coordena",
+     "x": "Garante que o lugar comum exista e seja usado."
+    }
+   ]
+  }
+ ],
+ "modulo": "Integração, Gestão e Projeto Aplicado",
+ "tema": "oliva"
+}
