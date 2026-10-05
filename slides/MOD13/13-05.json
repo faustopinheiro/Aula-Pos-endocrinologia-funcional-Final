@@ -1,0 +1,1195 @@
+{
+ "arquivo": "aulas/MOD13/13-05-rastreio-versus-medicalizacao.md",
+ "titulo": "Rastreio versus medicalização",
+ "subtitulo": "Quando o número feito em casa vira problema",
+ "nota_capa": "Entra por uma mulher na casa dos sessenta que caminha, faz pilates e trouxe três números.",
+ "secoes": {
+  "mesa": [
+   "O erro.",
+   "capa"
+  ],
+  "rotulo": [
+   "Os três números.",
+   "rotulo"
+  ],
+  "filtro": [
+   "O filtro e a conduta.",
+   "filtro"
+  ]
+ },
+ "slides": [
+  {
+   "id": "mesa",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Uma mulher na casa dos sessenta com um tapete de pilates. Na mesa: relógio com recuperação 38, sensor de glicose com picos depois da banana, laudo genético com perfil desfavorável para força. Riscados: banana antes da caminhada; pilates nos dias de nota baixa\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><g transform=\"translate(0.0 20.0) scale(5.0000)\"><g fill=\"#3A6EA5\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"><path d=\"M32 28a3 3 0 1 1 6 0v15a1 1 0 1 1-2 0V28a1 1 0 1 0-2 0v.343a1 1 0 1 1-2 0z\"/><path d=\"M22 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m-10.081 4.001C13.21 15.741 15.049 15 17.255 15h7.32c4.973 0 7.944 1.722 9.62 3.759a8.4 8.4 0 0 1 1.494 2.695c.146.44.26.893.309 1.353v.015l.002.006v.006c.095 1.1-.755 2.067-1.899 2.16c-1.134.09-2.132-.714-2.241-1.801v-.002l-.015-.086a4 4 0 0 0-.115-.434a4.5 4.5 0 0 0-.795-1.43c-.614-.746-1.777-1.682-4.066-2.065q.013.091.013.187c0 2.43 2.883 13.139 3.824 16.573a.994.994 0 0 1-.802 1.246c-6.004.963-9.8.995-15.806.006a.993.993 0 0 1-.795-1.251c.457-1.62 1.357-4.862 2.168-8.105c-1.447-.284-2.673-.92-3.607-1.838A6.2 6.2 0 0 1 10 21.481A6.34 6.34 0 0 1 11.92 17m2.958 2.81c.427-.416 1.137-.79 2.28-.81q-.04.173-.04.362c0 .906-.294 2.588-.725 4.567c-.754-.13-1.246-.428-1.56-.737a2.3 2.3 0 0 1-.675-1.674a2.4 2.4 0 0 1 .72-1.708M16.5 39.015v3.482a1.5 1.5 0 0 0 2.95.383l.915-3.46a38 38 0 0 1-3.865-.405m7.134.398l.916 3.467a1.5 1.5 0 0 0 2.95-.383v-3.496c-1.365.207-2.63.346-3.866.412\"/></g></g><rect x=\"20\" y=\"290\" width=\"200\" height=\"44\" rx=\"22\" fill=\"#008A7E\"/><rect x=\"300\" y=\"0\" width=\"440\" height=\"250\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(324.0 24.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 9a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3zm3 9v3h6v-3M9 6V3h6v3\"/></g><rect x=\"760\" y=\"0\" width=\"440\" height=\"250\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(784.0 24.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1220\" y=\"0\" width=\"440\" height=\"250\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1244.0 24.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"300\" y=\"300\" width=\"660\" height=\"100\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"340\" y1=\"350\" x2=\"920\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"990\" y=\"300\" width=\"660\" height=\"100\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"1030\" y1=\"350\" x2=\"1610\" y2=\"350\" stroke=\"#A8322A\" stroke-width=\"6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 350,
+     "w": 260,
+     "t": "caminha 5× e faz pilates 2× por semana",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 410,
+     "y": 30,
+     "w": 310,
+     "t": "relógio",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 324,
+     "y": 130,
+     "w": 392,
+     "t": "“recuperação: 38”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 30,
+     "w": 310,
+     "t": "sensor de glicose",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 784,
+     "y": 130,
+     "w": 392,
+     "t": "“picos depois da banana”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1330,
+     "y": 30,
+     "w": 310,
+     "t": "laudo genético",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1244,
+     "y": 130,
+     "w": 392,
+     "t": "“desfavorável para força”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 320,
+     "y": 330,
+     "w": 620,
+     "t": "banana antes da caminhada",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1010,
+     "y": 330,
+     "w": 620,
+     "t": "pilates nos dias de nota baixa",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 414,
+     "w": 1364,
+     "t": "o que os três números tiraram dela",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Caminhada e pilates",
+   "titulo": "Três números sem doença tiraram duas coisas que faziam bem"
+  },
+  {
+   "id": "diferenca",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas colunas. Rastreio: pergunta definida, teste validado, ação conhecida, benefício demonstrado em desfecho. Medicalização: número sem pergunta, referência que ninguém conhece, correção inventada, pessoa saudável que se vê como paciente\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"812\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"46\" cy=\"126\" r=\"18\" fill=\"#008A7E\"/><circle cx=\"46\" cy=\"206\" r=\"18\" fill=\"#008A7E\"/><circle cx=\"46\" cy=\"286\" r=\"18\" fill=\"#008A7E\"/><circle cx=\"46\" cy=\"366\" r=\"18\" fill=\"#008A7E\"/><rect x=\"852\" y=\"0\" width=\"812\" height=\"440\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"898\" cy=\"126\" r=\"18\" fill=\"#A8322A\"/><circle cx=\"898\" cy=\"206\" r=\"18\" fill=\"#A8322A\"/><circle cx=\"898\" cy=\"286\" r=\"18\" fill=\"#A8322A\"/><circle cx=\"898\" cy=\"366\" r=\"18\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 28,
+     "y": 22,
+     "w": 756,
+     "t": "Rastreio",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 28,
+     "y": 112,
+     "w": 36,
+     "t": "1",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 110,
+     "w": 700,
+     "t": "uma pergunta definida",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 28,
+     "y": 192,
+     "w": 36,
+     "t": "2",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 190,
+     "w": 700,
+     "t": "um teste validado para ela",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 28,
+     "y": 272,
+     "w": 36,
+     "t": "3",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 270,
+     "w": 700,
+     "t": "uma ação conhecida",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 28,
+     "y": 352,
+     "w": 36,
+     "t": "4",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 350,
+     "w": 700,
+     "t": "benefício demonstrado em desfecho",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 22,
+     "w": 756,
+     "t": "Medicalização",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 112,
+     "w": 36,
+     "t": "1",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 936,
+     "y": 110,
+     "w": 700,
+     "t": "um número sem pergunta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 192,
+     "w": 36,
+     "t": "2",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 936,
+     "y": 190,
+     "w": 700,
+     "t": "uma referência que ninguém conhece",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 272,
+     "w": 36,
+     "t": "3",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 936,
+     "y": 270,
+     "w": 700,
+     "t": "uma correção inventada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 352,
+     "w": 36,
+     "t": "4",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 936,
+     "y": 350,
+     "w": 700,
+     "t": "uma pessoa saudável que se vê como paciente",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A diferença",
+   "titulo": "Rastreio responde a uma pergunta; medicalização cria uma"
+  },
+  {
+   "id": "rotulo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Faltas ao trabalho depois do rastreio de pressão numa indústria. Trabalhadores que receberam o rótulo de hipertensos: aumento de 80%, cerca de 5 dias por ano. Média da empresa: aumento de 9%. Um crachá com a etiqueta hipertenso. O aumento se associou a ficar sabendo, com ou sem tratamento\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"0\" y1=\"400\" x2=\"760\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"60\" y=\"80\" width=\"240\" height=\"320\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"420\" y=\"364\" width=\"240\" height=\"36\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"900\" y=\"20\" width=\"300\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1020\" y=\"0\" width=\"60\" height=\"30\" rx=\"8\" fill=\"#12202E\"/><g transform=\"translate(930.0 60.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"1040\" y=\"90\" width=\"140\" height=\"48\" rx=\"10\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 30,
+     "w": 240,
+     "t": "+80%",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 410,
+     "w": 280,
+     "t": "rotulados como hipertensos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 420,
+     "y": 314,
+     "w": 240,
+     "t": "+9%",
+     "tam": 36,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 410,
+     "w": 280,
+     "t": "média da empresa",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 140,
+     "w": 240,
+     "t": "≈ 5 dias a mais por ano",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 100,
+     "w": 140,
+     "t": "hipertenso",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 260,
+     "w": 764,
+     "t": "associado a ficar sabendo, com ou sem tratamento",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 360,
+     "w": 764,
+     "t": "O rótulo muda o comportamento antes de a doença mudar.",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O rótulo pesa por si, estudo de 1978",
+   "titulo": "Saber-se doente aumentou as faltas em 80%",
+   "fonte": "N Engl J Med 1978"
+  },
+  {
+   "id": "glicose",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Curva ilustrativa de glicose de um dia numa pessoa sem diabetes, com picos depois das refeições e a faixa de 70 a 140 mg/dL. 96% do tempo na faixa; cerca de 30 minutos por dia acima de 140; média perto de 99, e de 104 acima dos 60 anos. 153 pessoas sem diabetes, sensor cego, até 10 dias\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><rect x=\"60\" y=\"124\" width=\"960\" height=\"224\" fill=\"#DDEFEC\"/><line x1=\"60\" y1=\"124\" x2=\"1020\" y2=\"124\" stroke=\"#008A7E\" stroke-width=\"2\" stroke-dasharray=\"8 6\"/><path d=\"M 60 278 L 300 284 L 340 265 L 360 150 L 380 105 L 420 214 L 460 258 L 540 271 L 560 162 L 580 130 L 620 220 L 660 265 L 820 271 L 840 175 L 860 143 L 900 233 L 940 265 L 1020 278\" stroke=\"#3A6EA5\" stroke-width=\"5\" fill=\"none\" stroke-linejoin=\"round\"/><line x1=\"60\" y1=\"390\" x2=\"1020\" y2=\"390\" stroke=\"#12202E\" stroke-width=\"3\"/><g transform=\"translate(324.0 20.0) scale(1.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><g transform=\"translate(544.0 20.0) scale(1.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><g transform=\"translate(824.0 20.0) scale(1.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><rect x=\"1080\" y=\"0\" width=\"584\" height=\"450\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 400,
+     "w": 80,
+     "t": "0h",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 400,
+     "w": 80,
+     "t": "6h",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 500,
+     "y": 400,
+     "w": 80,
+     "t": "12h",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 400,
+     "w": 80,
+     "t": "18h",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 980,
+     "y": 400,
+     "w": 80,
+     "t": "24h",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 110,
+     "w": 52,
+     "t": "140",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 334,
+     "w": 52,
+     "t": "70",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 322,
+     "w": 300,
+     "t": "faixa de 70 a 140 mg/dL",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 60,
+     "w": 300,
+     "t": "curva ilustrativa",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 20,
+     "w": 536,
+     "t": "96% do tempo na faixa",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1104,
+     "y": 90,
+     "w": 536,
+     "t": "cerca de 30 minutos por dia acima de 140",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 180,
+     "w": 536,
+     "t": "média perto de 99, e de 104 acima dos 60 anos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 290,
+     "w": 536,
+     "t": "153 pessoas sem diabetes · sensor cego · até 10 dias",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1104,
+     "y": 380,
+     "w": 536,
+     "t": "subir e voltar é fisiologia",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O pico da banana, estudo de 2019",
+   "titulo": "Na pessoa sem diabetes, o pico depois de comer é fisiologia",
+   "fonte": "J Clin Endocrinol Metab 2019"
+  },
+  {
+   "id": "genes",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Um laudo genético com três genes e selos coloridos, riscado em diagonal. Ao lado, o consenso de 2015: os testes genéticos não têm papel na identificação de talento nem na prescrição individual de treino. Embaixo: força é o treino que mais protege acima dos sessenta\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"380\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"300\" y=\"90\" width=\"220\" height=\"50\" rx=\"25\" fill=\"#008A7E\"/><rect x=\"300\" y=\"170\" width=\"220\" height=\"50\" rx=\"25\" fill=\"#B07A1C\"/><rect x=\"300\" y=\"250\" width=\"220\" height=\"50\" rx=\"25\" fill=\"#A8322A\"/><line x1=\"10\" y1=\"370\" x2=\"550\" y2=\"10\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect x=\"620\" y=\"0\" width=\"1044\" height=\"250\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"620\" y=\"280\" width=\"1044\" height=\"100\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(644.0 302.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 512,
+     "t": "Laudo genético esportivo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 100,
+     "w": 200,
+     "t": "gene A",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 180,
+     "w": 200,
+     "t": "gene B",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 260,
+     "w": 200,
+     "t": "gene C",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 648,
+     "y": 20,
+     "w": 988,
+     "t": "Consenso de 2015",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 648,
+     "y": 70,
+     "w": 988,
+     "t": "“Os testes genéticos não têm papel na identificação de talento nem na prescrição individual de treino.”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 720,
+     "y": 304,
+     "w": 920,
+     "t": "acima dos sessenta, força protege osso, músculo e queda",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 1664,
+     "t": "mesmo problema de um gene específico na conversa sobre cafeína",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O laudo genético de farmácia",
+   "titulo": "Para prescrever treino, o teste de balcão não tem papel",
+   "fonte": "Br J Sports Med 2015"
+  },
+  {
+   "id": "aviso",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Relógio com aviso de pulso irregular. 419.297 participantes; 0,52% receberam o aviso; dos que usaram o adesivo de eletro depois, 34% tinham fibrilação atrial; quando o aviso coincidia com o adesivo, 84% eram fibrilação. Ao lado, a nota de recuperação, sem caminho validado: ortossonia\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><g transform=\"translate(0.0 40.0) scale(7.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 9a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3zm3 9v3h6v-3M9 6V3h6v3\"/></g><rect x=\"240\" y=\"30\" width=\"190\" height=\"210\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"450\" y=\"30\" width=\"190\" height=\"210\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"432\" y1=\"135\" x2=\"446\" y2=\"135\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"660\" y=\"30\" width=\"190\" height=\"210\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"642\" y1=\"135\" x2=\"656\" y2=\"135\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"870\" y=\"30\" width=\"190\" height=\"210\" rx=\"16\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"852\" y1=\"135\" x2=\"866\" y2=\"135\" stroke=\"#008A7E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1140\" y=\"0\" width=\"524\" height=\"440\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 240,
+     "w": 200,
+     "t": "“pulso irregular”",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 248,
+     "y": 50,
+     "w": 174,
+     "t": "419.297",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 248,
+     "y": 110,
+     "w": 174,
+     "t": "usuários de relógio",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 458,
+     "y": 50,
+     "w": 174,
+     "t": "0,52%",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 458,
+     "y": 110,
+     "w": 174,
+     "t": "receberam o aviso",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 668,
+     "y": 50,
+     "w": 174,
+     "t": "34%",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 668,
+     "y": 110,
+     "w": 174,
+     "t": "fibrilação no adesivo depois",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 878,
+     "y": 50,
+     "w": 174,
+     "t": "84%",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 878,
+     "y": 110,
+     "w": 174,
+     "t": "quando aviso e adesivo coincidiam",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 270,
+     "w": 820,
+     "t": "um sinal com caminho: eletro e avaliação do risco de AVC",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 24,
+     "w": 476,
+     "t": "“recuperação: 38”",
+     "tam": 30,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 110,
+     "w": 476,
+     "t": "?",
+     "tam": 80,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 240,
+     "w": 476,
+     "t": "sem referência validada para faltar ao pilates",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 340,
+     "w": 476,
+     "t": "o padrão tem nome: ortossonia",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Nem todo número de relógio é ruído, estudo de 2019",
+   "titulo": "O aviso de pulso irregular tem caminho; a nota da manhã não",
+   "fonte": "N Engl J Med 2019"
+  },
+  {
+   "id": "filtro",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Um filtro de quatro camadas por onde passam os números trazidos de casa: tem referência na pessoa saudável; existe uma ação validada; a ação melhora um desfecho que importa; o que essa medida está tirando da pessoa. Poucos números passam\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"120\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"180\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"240\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"300\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"360\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"420\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"480\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"540\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"600\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"660\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"720\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"780\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"840\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><circle cx=\"900\" cy=\"20\" r=\"10\" fill=\"#6B7A87\"/><path d=\"M 0 50 L 1000 50 L 955 120 L 45 120 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 45 130 L 955 130 L 910 200 L 90 200 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 90 210 L 910 210 L 865 280 L 135 280 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 135 290 L 865 290 L 820 360 L 180 360 Z\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"470\" cy=\"400\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"530\" cy=\"400\" r=\"10\" fill=\"#008A7E\"/><rect x=\"1080\" y=\"40\" width=\"584\" height=\"360\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 50,
+     "y": 72,
+     "w": 900,
+     "t": "1 · tem referência medida na pessoa saudável?",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 95,
+     "y": 152,
+     "w": 810,
+     "t": "2 · existe uma ação validada para ele?",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 232,
+     "w": 720,
+     "t": "3 · a ação melhora um desfecho que importa?",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 185,
+     "y": 312,
+     "w": 630,
+     "t": "4 · o que essa medida está tirando da pessoa?",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 64,
+     "w": 536,
+     "t": "A quarta pergunta",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1104,
+     "y": 130,
+     "w": 536,
+     "t": "comida · treino · sono · tranquilidade",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1104,
+     "y": 260,
+     "w": 536,
+     "t": "nela: a banana e o pilates",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Para qualquer número que chega de casa",
+   "titulo": "Quatro perguntas antes de corrigir um número"
+  },
+  {
+   "id": "conduta",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"A semana dela de volta: cinco caminhadas, dois pilates e duas sessões curtas de força. Banana antes da caminhada. Laudo genético na gaveta. Relógio mantido para passos e para o aviso de pulso. Rastreio por diretriz: pressão, colesterol, glicose, densitometria na idade indicada, rastreios de câncer recomendados\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"1000\" height=\"84\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><g transform=\"translate(20.0 14.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 4a1 1 0 1 0 2 0a1 1 0 1 0-2 0M7 21l3-4m6 4l-2-4l-3-3l1-6\"/><path d=\"m6 12l2-3l4-1l3 3l3 1\"/></g></g><rect x=\"0\" y=\"100\" width=\"1000\" height=\"84\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#008A7E\" stroke-width=\"2\"/><g transform=\"translate(20.0 114.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 20h4l1.5-3m7.5 3l-1-5h-5l1-7\"/><path d=\"m4 10l4-1l4-1l4 1.5l4 1.5m-9.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g></g><rect x=\"0\" y=\"200\" width=\"1000\" height=\"84\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"2\"/><g transform=\"translate(20.0 214.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"0\" y=\"320\" width=\"320\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(20.0 344.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><rect x=\"340\" y=\"320\" width=\"320\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(360.0 344.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"680\" y=\"320\" width=\"320\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(700.0 344.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 9a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3zm3 9v3h6v-3M9 6V3h6v3\"/></g><rect x=\"1060\" y=\"0\" width=\"604\" height=\"450\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1084.0 92.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1084.0 158.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1084.0 224.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1084.0 290.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(1084.0 356.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 96,
+     "y": 18,
+     "w": 100,
+     "t": "5×",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 200,
+     "y": 24,
+     "w": 780,
+     "t": "caminhada",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 118,
+     "w": 100,
+     "t": "2×",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 200,
+     "y": 124,
+     "w": 780,
+     "t": "pilates, com qualquer nota",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 218,
+     "w": 100,
+     "t": "2×",
+     "tam": 34,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 200,
+     "y": 224,
+     "w": 780,
+     "t": "força, curta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 340,
+     "w": 232,
+     "t": "banana antes da caminhada",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 410,
+     "y": 340,
+     "w": 232,
+     "t": "laudo na gaveta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 750,
+     "y": 340,
+     "w": 232,
+     "t": "relógio: passos e aviso de pulso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1084,
+     "y": 20,
+     "w": 556,
+     "t": "O rastreio que a idade pede",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1128,
+     "y": 92,
+     "w": 512,
+     "t": "pressão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 158,
+     "w": 512,
+     "t": "colesterol",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 224,
+     "w": 512,
+     "t": "glicose",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 290,
+     "w": 512,
+     "t": "densitometria na idade indicada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 356,
+     "w": 512,
+     "t": "rastreios de câncer recomendados",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que foi feito",
+   "titulo": "A banana e o pilates de volta, e o rastreio onde ele tem pergunta"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Rastreio versus medicalização",
+   "titulo": "Cuidado onde há pergunta, e só lá",
+   "regras": [
+    "Sem pergunta, teste, ação e benefício, o número é medicalização",
+    "O rótulo muda o comportamento antes de a doença mudar",
+    "Pergunte o que cada número está tirando da pessoa"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Mantém o rastreio da idade e passa os números de casa pelo filtro."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Não troca o plano por nota de aplicativo nem por laudo genético."
+    },
+    {
+     "ic": "t:user",
+     "t": "A praticante",
+     "x": "Usa o aparelho no que ele tem de útil e treina sem pedir licença ao número."
+    }
+   ]
+  }
+ ],
+ "modulo": "O Atleta Amador e o Praticante Recreacional",
+ "tema": "grafite"
+}
