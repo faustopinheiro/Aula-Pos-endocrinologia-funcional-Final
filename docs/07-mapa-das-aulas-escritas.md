@@ -462,19 +462,40 @@ praticante recreacional, que abrem o Módulo 13.
 
 ## Módulo 13 — O Atleta Amador e o Praticante Recreacional · 11 aulas
 
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 13.1 | Quem é o praticante amador: perfis e motivações | M1-A01 adaptada | PARCIAL |
-| 13.2 | O que muda quando o esporte não paga as contas | M16-A03 → **U7-A03 já editada** | PRONTA |
-| 13.3 **[M]** | Atividade concentrada em poucos dias | M16-A03 parcial | PARCIAL |
-| 13.4 | Avaliação pré-participação no amador: até onde ir | M14-A08 parcial | PARCIAL |
-| 13.5 | Rastreio versus medicalização | M5-A09 | PRONTA |
-| 13.6 | Eventos de massa: risco cardiovascular em corrida de rua | — | NOVA |
-| 13.7 | Organização da resposta de emergência em prova | — | NOVA |
-| 13.8 **[M]** | Epidemiologia de lesão no corredor recreacional | M16-A01 + A02 → **U7-A01/A02** | FUNDIR |
-| 13.9 | Lesões em academia, funcional e coletivo amador | M16-A02 + M17-A06 | FUNDIR |
-| 13.10 | Progressão para quem treina 4h por semana | M16-A04 → **U7-A04 já editada** | PRONTA |
-| 13.11 | Dependência de exercício e automedicação | M11-A06 + M4-A06 | FUNDIR |
+**ESCRITO NA VOZ DO CURSO, NO MODELO DO MÓDULO 10.** Slides em número definido pelo conteúdo, cada um
+com desenho próprio, títulos que afirmam e ícones só como apoio. Capa e fecho em grafite (docs/08).
+Um caso clínico no módulo, sem nome e com meses ilustrativos (13.2, a única aula CASO); os demais são
+perfis típicos, sem nome e sem desfecho. Rodízio de modalidade: corrida, futebol society, ciclismo,
+padel, caminhada e pilates, maratona, triatlo, corrida em grupo, musculação, trilha e treino funcional.
+Nenhum autor citado por nome na fala.
+
+A 13.3 e a 13.8 estavam planejadas como mestras e ficaram com duração de aula padrão: a atividade
+concentrada coube num NÚMERO com três estudos, e a epidemiologia do corredor
+remete às conversas sobre definição de lesão, causa e vigilância em vez de repeti-las. A 13.5 trata a medicalização pelos
+números trazidos de casa, e não pela cascata de exames do Módulo 6. A 13.6 e a 13.7 são aulas novas. A
+13.11 funde a aula antiga de dependência de exercício e a de substâncias e suplementos numa DECISÃO, e
+remete à alimentação desordenada (Módulo 4), à analgesia (Módulo 6) e à contaminação de suplementos
+(Módulo 5).
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 13.1 | Quem é o praticante amador | 10 | 9 | ERRO | [slides](https://claude.ai/artifact/9L7RPPYR8bKnf9quhhPkYR) |
+| 13.2 | O que muda quando o esporte não paga as contas | 12 | 10 | CASO | [slides](https://claude.ai/artifact/L9i63h8cwfRpBuuXvMUq6M) |
+| 13.3 **[M]** | Atividade concentrada em poucos dias | 9 | 9 | NÚMERO | [slides](https://claude.ai/artifact/9Zg67y44kdH36t7ob1JwK1) |
+| 13.4 | Avaliação pré-participação no amador | 10 | 9 | DECISÃO | [slides](https://claude.ai/artifact/XQjVzUfHMygXw1xmwqwQEb) |
+| 13.5 | Rastreio versus medicalização | 10 | 9 | ERRO | [slides](https://claude.ai/artifact/CWZja5cqGbfxrRtZNnCiA9) |
+| 13.6 | Eventos de massa: risco cardiovascular em corrida de rua | 8 | 9 | NÚMERO | [slides](https://claude.ai/artifact/3wQLsjM4gafFARg6cLLrXQ) |
+| 13.7 | Organização da resposta de emergência em prova | 9 | 9 | PROCEDIMENTO | [slides](https://claude.ai/artifact/CjwiG7FNu9oA1tvizLnTM3) |
+| 13.8 **[M]** | Epidemiologia de lesão no corredor recreacional | 10 | 10 | NÚMERO | [slides](https://claude.ai/artifact/2a8U2yYuUby2kyXy2M6KQj) |
+| 13.9 | Lesões em academia, funcional e coletivo amador | 9 | 9 | ERRO | [slides](https://claude.ai/artifact/YSJawgcMY8WxupGXet8fud) |
+| 13.10 | Progressão para quem treina quatro horas por semana | 10 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/1AqCz92kpsgPMQxFDjiV8D) |
+| 13.11 | Dependência de exercício e automedicação | 13 | 10 | DECISÃO | [slides](https://claude.ai/artifact/VAC6ivaKD7pTnGSWLtPrQP) |
+
+Total: 1 h 50 min em 11 aulas, 103 slides. A 13.11 fecha o módulo com a camada de
+integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na integração, gestão e
+projeto aplicado, que abrem o Módulo 14.
+
+---
 
 ## Módulo 14 — Integração, Gestão e Projeto Aplicado · 10 aulas
 

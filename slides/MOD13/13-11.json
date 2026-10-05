@@ -1,0 +1,1364 @@
+{
+ "arquivo": "aulas/MOD13/13-11-dependencia-de-exercicio-e-automedicacao.md",
+ "titulo": "Dependência de exercício e automedicação",
+ "subtitulo": "Três saídas para quem não consegue parar",
+ "nota_capa": "Entra por um praticante de treino funcional que treina todo dia, com dor. Fecha o módulo.",
+ "secoes": {
+  "box": [
+   "A decisão.",
+   "capa"
+  ],
+  "funcao": [
+   "Dedicação e dependência.",
+   "funcao"
+  ],
+  "ab": [
+   "As saídas e o que ele toma.",
+   "ab"
+  ],
+  "saida_c": [
+   "A saída C.",
+   "saida_c"
+  ],
+  "fecho": [
+   "O fecho do módulo.",
+   "fecho"
+  ]
+ },
+ "slides": [
+  {
+   "id": "box",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Praticante de treino funcional na casa dos trinta. A semana em sete dias, todos com treino, e dois treinos em três deles. Ombro com dor há dois meses. Caixa de comprimidos: anti-inflamatório todo dia, para treinar, e pré-treino da internet. A companheira: não faltou nem no aniversário do filho. Perfil típico\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"40\" width=\"118\" height=\"110\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"12\" y=\"70\" width=\"94\" height=\"64\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"132\" y=\"40\" width=\"118\" height=\"110\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"144\" y=\"90\" width=\"94\" height=\"24\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"144\" y=\"120\" width=\"94\" height=\"24\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"264\" y=\"40\" width=\"118\" height=\"110\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"276\" y=\"70\" width=\"94\" height=\"64\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"396\" y=\"40\" width=\"118\" height=\"110\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"408\" y=\"90\" width=\"94\" height=\"24\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"408\" y=\"120\" width=\"94\" height=\"24\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"528\" y=\"40\" width=\"118\" height=\"110\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"540\" y=\"70\" width=\"94\" height=\"64\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"660\" y=\"40\" width=\"118\" height=\"110\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"672\" y=\"90\" width=\"94\" height=\"24\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"672\" y=\"120\" width=\"94\" height=\"24\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"792\" y=\"40\" width=\"118\" height=\"110\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"804\" y=\"70\" width=\"94\" height=\"64\" rx=\"6\" fill=\"#A8322A\"/><circle cx=\"110\" cy=\"230\" r=\"20\" fill=\"#12202E\"/><rect x=\"84\" y=\"256\" width=\"53\" height=\"99\" rx=\"11\" fill=\"#12202E\"/><rect x=\"88\" y=\"346\" width=\"18\" height=\"84\" rx=\"6\" fill=\"#12202E\"/><rect x=\"114\" y=\"346\" width=\"18\" height=\"84\" rx=\"6\" fill=\"#12202E\"/><circle cx=\"137\" cy=\"268\" r=\"26\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><g transform=\"translate(30.0 196.0) scale(2.2500)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"400\" y=\"210\" width=\"510\" height=\"230\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(424.0 236.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(424.0 336.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"990\" y=\"40\" width=\"674\" height=\"260\" rx=\"24\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 1060 300 L 1040 350 L 1110 300 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1058\" y=\"294\" width=\"56\" height=\"10\" fill=\"#DEE7F1\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 4,
+     "w": 118,
+     "t": "seg",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 132,
+     "y": 4,
+     "w": 118,
+     "t": "ter",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 264,
+     "y": 4,
+     "w": 118,
+     "t": "qua",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 4,
+     "w": 118,
+     "t": "qui",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 528,
+     "y": 4,
+     "w": 118,
+     "t": "sex",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 4,
+     "w": 118,
+     "t": "sáb",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 792,
+     "y": 4,
+     "w": 118,
+     "t": "dom",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 158,
+     "w": 910,
+     "t": "todo dia; dois treinos em três dias",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 190,
+     "y": 236,
+     "w": 180,
+     "t": "ombro: dor há dois meses",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 500,
+     "y": 236,
+     "w": 390,
+     "t": "anti-inflamatório, todo dia, para treinar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 500,
+     "y": 346,
+     "w": 390,
+     "t": "pré-treino comprado na internet",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1020,
+     "y": 76,
+     "w": 614,
+     "t": "“Não faltou ao treino nem no aniversário do filho.”",
+     "tam": 32,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1020,
+     "y": 224,
+     "w": 614,
+     "t": "a companheira",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1130,
+     "y": 360,
+     "w": 534,
+     "t": "Ele ri: “é disciplina”.",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1130,
+     "y": 410,
+     "w": 534,
+     "t": "perfil típico",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Treino funcional, sete dias por semana",
+   "titulo": "Ele veio pelo ombro, e a consulta mostrou o resto"
+  },
+  {
+   "id": "saidas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três saídas. A: elogiar a disciplina e tratar o ombro. B: dizer que é vício e mandar parar. C: separar duas perguntas, para que serve o treino e o que ele toma. Pergunta: o que decide o caminho?\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"268\" cy=\"80\" r=\"50\" fill=\"#B07A1C\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"80\" r=\"50\" fill=\"#A8322A\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1396\" cy=\"80\" r=\"50\" fill=\"#008A7E\"/><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 218,
+     "y": 52,
+     "w": 100,
+     "t": "A",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 28,
+     "y": 160,
+     "w": 480,
+     "t": "elogiar a disciplina e tratar o ombro",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 782,
+     "y": 52,
+     "w": 100,
+     "t": "B",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 160,
+     "w": 480,
+     "t": "dizer que é vício e mandar parar",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1346,
+     "y": 52,
+     "w": 100,
+     "t": "C",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 160,
+     "w": 480,
+     "t": "separar duas perguntas: para que serve o treino e o que ele toma",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "Antes de escolher: o que separa dedicação de dependência",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A encruzilhada",
+   "titulo": "Três jeitos de responder à mesma consulta"
+  },
+  {
+   "id": "funcao",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"O mesmo calendário cheio vale para as duas colunas. Cinco perguntas. Quando não dá para treinar: dedicação frustra e reorganiza; dependência, ansiedade e culpa tomam o dia. Conflito com o resto da vida: negocia; o treino vence sempre. Treina com lesão: ajusta; mantém apesar do dano. Motivação: vai em direção a algo; foge de algo. Flexibilidade: troca a sessão; não consegue trocar\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><rect x=\"520\" y=\"0\" width=\"548\" height=\"450\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1100\" y=\"0\" width=\"564\" height=\"450\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(0.0 0.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><line x1=\"0\" y1=\"70\" x2=\"1664\" y2=\"70\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"0\" y1=\"144\" x2=\"1664\" y2=\"144\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"0\" y1=\"218\" x2=\"1664\" y2=\"218\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"0\" y1=\"292\" x2=\"1664\" y2=\"292\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"0\" y1=\"366\" x2=\"1664\" y2=\"366\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 56,
+     "y": 8,
+     "w": 440,
+     "t": "o mesmo calendário cheio",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 520,
+     "y": 14,
+     "w": 548,
+     "t": "Dedicação",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1100,
+     "y": 14,
+     "w": 564,
+     "t": "Dependência",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 86,
+     "w": 500,
+     "t": "quando não dá para treinar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 86,
+     "w": 508,
+     "t": "frustra e reorganiza",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 86,
+     "w": 524,
+     "t": "ansiedade e culpa tomam o dia",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 500,
+     "t": "conflito com o resto da vida",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 160,
+     "w": 508,
+     "t": "negocia",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 160,
+     "w": 524,
+     "t": "o treino vence sempre",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 234,
+     "w": 500,
+     "t": "treina com lesão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 234,
+     "w": 508,
+     "t": "ajusta",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 234,
+     "w": 524,
+     "t": "mantém apesar do dano",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 308,
+     "w": 500,
+     "t": "para onde aponta a motivação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 308,
+     "w": 508,
+     "t": "vai em direção a algo",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 308,
+     "w": 524,
+     "t": "foge de algo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 382,
+     "w": 500,
+     "t": "flexibilidade",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 382,
+     "w": 508,
+     "t": "troca a sessão",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1120,
+     "y": 382,
+     "w": 524,
+     "t": "não consegue trocar",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Dedicação e dependência",
+   "titulo": "O volume não separa os dois: a função do treino separa"
+  },
+  {
+   "id": "questionario",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Questionário de seis frases, cada uma com nota de 1 a 5: o treino é o mais importante da vida; brigas por causa do treino; treino para mudar o humor; a quantidade aumentou com o tempo; perder um treino irrita; tento reduzir e volto ao mesmo. Soma de 6 a 30; de 24 a 30, em risco. Rastreia, não diagnostica. Não é diagnóstico formal\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><circle cx=\"570\" cy=\"32\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"622\" cy=\"32\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"674\" cy=\"32\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"726\" cy=\"32\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"778\" cy=\"32\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"570\" cy=\"104\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"622\" cy=\"104\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"674\" cy=\"104\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"726\" cy=\"104\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"778\" cy=\"104\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"570\" cy=\"176\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"622\" cy=\"176\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"674\" cy=\"176\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"726\" cy=\"176\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"778\" cy=\"176\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"570\" cy=\"248\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"622\" cy=\"248\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"674\" cy=\"248\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"726\" cy=\"248\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"778\" cy=\"248\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"570\" cy=\"320\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"622\" cy=\"320\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"674\" cy=\"320\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"726\" cy=\"320\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"778\" cy=\"320\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"570\" cy=\"392\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"622\" cy=\"392\" r=\"18\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"674\" cy=\"392\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"726\" cy=\"392\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"778\" cy=\"392\" r=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"900\" y=\"120\" width=\"555\" height=\"44\" rx=\"8\" fill=\"#D9D4C8\"/><rect x=\"1455\" y=\"120\" width=\"185\" height=\"44\" rx=\"8\" fill=\"#A8322A\"/><rect x=\"900\" y=\"250\" width=\"764\" height=\"190\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 16,
+     "w": 520,
+     "t": "o treino é o mais importante da vida",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 88,
+     "w": 520,
+     "t": "brigas por causa do treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 520,
+     "t": "treino para mudar o humor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 232,
+     "w": 520,
+     "t": "a quantidade aumentou com o tempo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 304,
+     "w": 520,
+     "t": "perder um treino irrita",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 376,
+     "w": 520,
+     "t": "tento reduzir e volto ao mesmo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 546,
+     "y": 426,
+     "w": 300,
+     "t": "notas de 1 a 5, ilustrativas",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 174,
+     "w": 60,
+     "t": "6",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1425,
+     "y": 174,
+     "w": 60,
+     "t": "24",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1610,
+     "y": 174,
+     "w": 60,
+     "t": "30",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1415,
+     "y": 80,
+     "w": 200,
+     "t": "em risco",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 20,
+     "w": 600,
+     "t": "a soma",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 272,
+     "w": 700,
+     "t": "Rastreia, não diagnostica.",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 336,
+     "w": 700,
+     "t": "Não é diagnóstico formal. O número abre a conversa; a entrevista decide.",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O questionário de seis frases",
+   "titulo": "Seis frases rastreiam o risco, e quem decide é a entrevista",
+   "fonte": "Addict Res Theory 2004"
+  },
+  {
+   "id": "iceberg",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Iceberg. Na ponta: treina demais. Debaixo da água: come pouco, peso e balança, imagem corporal, humor. Razão de chances 3,71, intervalo de 2,00 a 6,89, para dependência de exercício com e sem sinais de transtorno alimentar. Nove estudos, 2.140 participantes. Pergunte pela comida, pela balança e pelo corpo\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"120\" width=\"700\" height=\"320\" fill=\"#DEE7F1\"/><line x1=\"0\" y1=\"120\" x2=\"700\" y2=\"120\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><polygon points=\"290,30 360,10 420,120 250,120\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"4\" stroke-linejoin=\"round\"/><polygon points=\"250,120 420,120 600,300 520,430 160,430 70,280\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"4\" stroke-linejoin=\"round\" opacity=\"0.9\"/><line x1=\"800\" y1=\"220\" x2=\"1620\" y2=\"220\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"902\" y1=\"120\" x2=\"902\" y2=\"220\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><line x1=\"1005\" y1=\"170\" x2=\"1506\" y2=\"170\" stroke=\"#A8322A\" stroke-width=\"6\"/><circle cx=\"1180\" cy=\"170\" r=\"18\" fill=\"#A8322A\"/><rect x=\"800\" y=\"340\" width=\"864\" height=\"100\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 430,
+     "y": 40,
+     "w": 270,
+     "t": "treina demais",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 160,
+     "y": 160,
+     "w": 380,
+     "t": "come pouco",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 224,
+     "w": 380,
+     "t": "peso e balança",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 288,
+     "w": 380,
+     "t": "imagem corporal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 352,
+     "w": 380,
+     "t": "humor",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 10,
+     "w": 820,
+     "t": "razão de chances de dependência de exercício, com e sem sinais de transtorno alimentar",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 100,
+     "w": 160,
+     "t": "3,71",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 945,
+     "y": 230,
+     "w": 120,
+     "t": "2,00",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1446,
+     "y": 230,
+     "w": 120,
+     "t": "6,89",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 882,
+     "y": 110,
+     "w": 220,
+     "t": "1 = sem diferença",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 280,
+     "w": 820,
+     "t": "metanálise · 9 estudos · 2.140 participantes",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 824,
+     "y": 368,
+     "w": 816,
+     "t": "Pergunte pela comida, pela balança e pelo corpo.",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Dependência primária e secundária",
+   "titulo": "Quando há dependência, o transtorno alimentar costuma estar embaixo",
+   "fonte": "Eat Weight Disord 2020"
+  },
+  {
+   "id": "ab",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Saída A, elogiar e tratar o ombro: o ombro volta, o comprimido continua, o padrão ganha um aval. Saída B, é vício, pare: rótulo para um hobby sério, ele treina escondido, não volta à consulta. As duas respondem a uma pergunta que ninguém fez\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"818\" height=\"330\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"64\" cy=\"64\" r=\"40\" fill=\"#B07A1C\"/><g transform=\"translate(28.0 140.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(28.0 202.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(28.0 264.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"846\" y=\"0\" width=\"818\" height=\"330\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"910\" cy=\"64\" r=\"40\" fill=\"#A8322A\"/><g transform=\"translate(874.0 140.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(874.0 202.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(874.0 264.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 40,
+     "w": 80,
+     "t": "A",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 124,
+     "y": 42,
+     "w": 670,
+     "t": "elogiar e tratar o ombro",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 84,
+     "y": 144,
+     "w": 710,
+     "t": "o ombro volta quando o treino volta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 206,
+     "w": 710,
+     "t": "o comprimido continua",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 268,
+     "w": 710,
+     "t": "o padrão sai com um aval: disciplina",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 40,
+     "w": 80,
+     "t": "B",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 970,
+     "y": 42,
+     "w": 670,
+     "t": "“é vício, pare”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 930,
+     "y": 144,
+     "w": 710,
+     "t": "rótulo para um hobby sério",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 206,
+     "w": 710,
+     "t": "a ordem que ele não consegue cumprir",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 930,
+     "y": 268,
+     "w": 710,
+     "t": "treina escondido e não volta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "As duas respondem antes de perguntar.",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "As saídas A e B",
+   "titulo": "Elogiar e proibir erram pelo mesmo motivo"
+  },
+  {
+   "id": "largada",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Maratona e meia maratona de Bonn, 2010. 3.913 corredores responderam. 49% tomaram analgésico antes da largada, a maioria para prevenir dor. Eventos adversos cerca de cinco vezes mais frequentes em quem tomou, e mais com a dose. Rim, sódio e estômago: a conversa sobre analgesia\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"52\" cy=\"71\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 50 82 L 40 110 M 40 110 L 56 128 L 50 148 M 40 110 L 27 125 L 13 123 M 47 89 L 63 100 L 72 91 M 47 89 L 32 98 L 27 110\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"76\" cy=\"78\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"136\" cy=\"71\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 134 82 L 124 110 M 124 110 L 140 128 L 134 148 M 124 110 L 111 125 L 97 123 M 131 89 L 147 100 L 156 91 M 131 89 L 116 98 L 111 110\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"220\" cy=\"71\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 218 82 L 208 110 M 208 110 L 224 128 L 218 148 M 208 110 L 195 125 L 181 123 M 215 89 L 231 100 L 240 91 M 215 89 L 200 98 L 195 110\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"244\" cy=\"78\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"304\" cy=\"71\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 302 82 L 292 110 M 292 110 L 308 128 L 302 148 M 292 110 L 279 125 L 265 123 M 299 89 L 315 100 L 324 91 M 299 89 L 284 98 L 279 110\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"388\" cy=\"71\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 386 82 L 376 110 M 376 110 L 392 128 L 386 148 M 376 110 L 363 125 L 349 123 M 383 89 L 399 100 L 408 91 M 383 89 L 368 98 L 363 110\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"412\" cy=\"78\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"472\" cy=\"71\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 470 82 L 460 110 M 460 110 L 476 128 L 470 148 M 460 110 L 447 125 L 433 123 M 467 89 L 483 100 L 492 91 M 467 89 L 452 98 L 447 110\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"556\" cy=\"71\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 554 82 L 544 110 M 544 110 L 560 128 L 554 148 M 544 110 L 531 125 L 517 123 M 551 89 L 567 100 L 576 91 M 551 89 L 536 98 L 531 110\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"580\" cy=\"78\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"640\" cy=\"71\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 638 82 L 628 110 M 628 110 L 644 128 L 638 148 M 628 110 L 615 125 L 601 123 M 635 89 L 651 100 L 660 91 M 635 89 L 620 98 L 615 110\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"724\" cy=\"71\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 722 82 L 712 110 M 712 110 L 728 128 L 722 148 M 712 110 L 699 125 L 685 123 M 719 89 L 735 100 L 744 91 M 719 89 L 704 98 L 699 110\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"748\" cy=\"78\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"808\" cy=\"71\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 806 82 L 796 110 M 796 110 L 812 128 L 806 148 M 796 110 L 783 125 L 769 123 M 803 89 L 819 100 L 828 91 M 803 89 L 788 98 L 783 110\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"52\" cy=\"201\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 50 212 L 40 240 M 40 240 L 56 258 L 50 278 M 40 240 L 27 255 L 13 253 M 47 219 L 63 230 L 72 221 M 47 219 L 32 228 L 27 240\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"76\" cy=\"208\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"136\" cy=\"201\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 134 212 L 124 240 M 124 240 L 140 258 L 134 278 M 124 240 L 111 255 L 97 253 M 131 219 L 147 230 L 156 221 M 131 219 L 116 228 L 111 240\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"220\" cy=\"201\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 218 212 L 208 240 M 208 240 L 224 258 L 218 278 M 208 240 L 195 255 L 181 253 M 215 219 L 231 230 L 240 221 M 215 219 L 200 228 L 195 240\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"244\" cy=\"208\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"304\" cy=\"201\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 302 212 L 292 240 M 292 240 L 308 258 L 302 278 M 292 240 L 279 255 L 265 253 M 299 219 L 315 230 L 324 221 M 299 219 L 284 228 L 279 240\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"388\" cy=\"201\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 386 212 L 376 240 M 376 240 L 392 258 L 386 278 M 376 240 L 363 255 L 349 253 M 383 219 L 399 230 L 408 221 M 383 219 L 368 228 L 363 240\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"412\" cy=\"208\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"472\" cy=\"201\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 470 212 L 460 240 M 460 240 L 476 258 L 470 278 M 460 240 L 447 255 L 433 253 M 467 219 L 483 230 L 492 221 M 467 219 L 452 228 L 447 240\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"556\" cy=\"201\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 554 212 L 544 240 M 544 240 L 560 258 L 554 278 M 544 240 L 531 255 L 517 253 M 551 219 L 567 230 L 576 221 M 551 219 L 536 228 L 531 240\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"580\" cy=\"208\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"640\" cy=\"201\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 638 212 L 628 240 M 628 240 L 644 258 L 638 278 M 628 240 L 615 255 L 601 253 M 635 219 L 651 230 L 660 221 M 635 219 L 620 228 L 615 240\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"724\" cy=\"201\" r=\"9\" fill=\"#A8322A\"/><path d=\"M 722 212 L 712 240 M 712 240 L 728 258 L 722 278 M 712 240 L 699 255 L 685 253 M 719 219 L 735 230 L 744 221 M 719 219 L 704 228 L 699 240\" stroke=\"#A8322A\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"748\" cy=\"208\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"808\" cy=\"201\" r=\"9\" fill=\"#6B7A87\"/><path d=\"M 806 212 L 796 240 M 796 240 L 812 258 L 806 278 M 796 240 L 783 255 L 769 253 M 803 219 L 819 230 L 828 221 M 803 219 L 788 228 L 783 240\" stroke=\"#6B7A87\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"900\" y=\"0\" width=\"764\" height=\"200\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"900\" y=\"220\" width=\"764\" height=\"120\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(900.0 370.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 12h14m-6 6l6-6m-6-6l6 6\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 4,
+     "w": 840,
+     "t": "a cada dois corredores, um tomou",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 340,
+     "w": 840,
+     "t": "3.913 corredores responderam depois da prova",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 386,
+     "w": 840,
+     "t": "ponto amarelo: comprimido · esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 20,
+     "w": 220,
+     "t": "49%",
+     "tam": 72,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 30,
+     "w": 490,
+     "t": "tomaram analgésico antes da largada, a maioria para prevenir dor",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 924,
+     "y": 244,
+     "w": 716,
+     "t": "eventos adversos cerca de 5× mais frequentes, e mais com a dose",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 956,
+     "y": 376,
+     "w": 708,
+     "t": "rim, sódio, estômago: a conversa sobre analgesia",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O comprimido antes do treino",
+   "titulo": "Metade dos corredores tomou analgésico antes de sentir dor",
+   "fonte": "BMJ Open 2013"
+  },
+  {
+   "id": "dia",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Linha do dia: ao acordar, antes do treino, durante, depois, à noite, cada ponto com um espaço vazio. Três portas: de vez em quando, já usou e parou, alguém do treino te deu. Três cuidados: diga por que pergunta, peça a foto do rótulo, rosto neutro e nada corrigido no meio da lista\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"40\" y1=\"80\" x2=\"1040\" y2=\"80\" stroke=\"#12202E\" stroke-width=\"4\"/><circle cx=\"80\" cy=\"80\" r=\"40\" fill=\"#3A6EA5\"/><g transform=\"translate(58.0 58.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a7 7 0 1 0 14 0a7 7 0 1 0-14 0\"/><path d=\"M12 10v3h2M7 4L4.25 6M17 4l2.75 2\"/></g></g><rect x=\"0\" y=\"170\" width=\"160\" height=\"56\" rx=\"10\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"316\" cy=\"80\" r=\"40\" fill=\"#3A6EA5\"/><g transform=\"translate(294.0 58.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><rect x=\"236\" y=\"170\" width=\"160\" height=\"56\" rx=\"10\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"552\" cy=\"80\" r=\"40\" fill=\"#3A6EA5\"/><g transform=\"translate(530.0 58.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"472\" y=\"170\" width=\"160\" height=\"56\" rx=\"10\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"788\" cy=\"80\" r=\"40\" fill=\"#3A6EA5\"/><g transform=\"translate(766.0 58.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 14c.83.642 2.077 1.017 3.5 1c1.423.017 2.67-.358 3.5-1s2.077-1.017 3.5-1c1.423-.017 2.67.358 3.5 1M8 3a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2m4-4a2.4 2.4 0 0 0-1 2a2.4 2.4 0 0 0 1 2\"/><path d=\"M3 10h14v5a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6z\"/><path d=\"M16.746 16.726a3 3 0 1 0 .252-5.555\"/></g></g><rect x=\"708\" y=\"170\" width=\"160\" height=\"56\" rx=\"10\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><circle cx=\"1024\" cy=\"80\" r=\"40\" fill=\"#3A6EA5\"/><g transform=\"translate(1002.0 58.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 3h.393a7.5 7.5 0 0 0 7.92 12.446A9 9 0 1 1 12 2.992z\"/></g><rect x=\"944\" y=\"170\" width=\"160\" height=\"56\" rx=\"10\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-dasharray=\"10 8\"/><rect x=\"1160\" y=\"0\" width=\"504\" height=\"240\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1184.0 72.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><g transform=\"translate(1184.0 126.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><g transform=\"translate(1184.0 180.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><rect x=\"0\" y=\"290\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(24.0 330.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m3 20l1.3-3.9C1.976 12.663 2.874 8.228 6.4 5.726c3.526-2.501 8.59-2.296 11.845.48c3.255 2.777 3.695 7.266 1.029 10.501S11.659 20.922 7.7 19z\"/></g><rect x=\"564\" y=\"290\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(588.0 330.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 7h1a2 2 0 0 0 2-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1a2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2\"/><path d=\"M9.5 15a3.5 3.5 0 0 0 5 0m.5-4h.01M9 11h.01\"/></g></g><rect x=\"1128\" y=\"290\" width=\"536\" height=\"150\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1152.0 330.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0m6-2h.01M15 10h.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": -30,
+     "y": 128,
+     "w": 220,
+     "t": "ao acordar",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 206,
+     "y": 128,
+     "w": 220,
+     "t": "antes do treino",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 442,
+     "y": 128,
+     "w": 220,
+     "t": "durante",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 678,
+     "y": 128,
+     "w": 220,
+     "t": "depois",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 914,
+     "y": 128,
+     "w": 220,
+     "t": "à noite",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 16,
+     "w": 456,
+     "t": "Depois, três portas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1236,
+     "y": 78,
+     "w": 410,
+     "t": "o que toma de vez em quando",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1236,
+     "y": 132,
+     "w": 410,
+     "t": "o que já usou e parou",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1236,
+     "y": 186,
+     "w": 410,
+     "t": "o que alguém do treino te deu",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 326,
+     "w": 420,
+     "t": "diga por que está perguntando",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 326,
+     "w": 420,
+     "t": "peça a foto do rótulo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1224,
+     "y": 326,
+     "w": 420,
+     "t": "rosto neutro: nada corrigido no meio",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que ele toma",
+   "titulo": "Pergunte pelo dia, não pela lista"
+  },
+  {
+   "id": "saida_c",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Saída C: duas perguntas levam a três ramos. Seguir com ajuste: dedicação sem prejuízo; carga do ombro, analgésico fora da rotina, um dia livre combinado. Investigar a secundária: comida, balança, corpo, humor; roteiro da alimentação desordenada. Encaminhar: sofrimento sem treino, prejuízo que não para, hormônio na lista; fluxo de encaminhamento. O treino fica no plano; muda a função\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"100\" width=\"360\" height=\"200\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"360\" y1=\"200\" x2=\"444\" y2=\"56\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"460\" y=\"0\" width=\"1204\" height=\"112\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"360\" y1=\"200\" x2=\"444\" y2=\"184\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"460\" y=\"128\" width=\"1204\" height=\"112\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"360\" y1=\"200\" x2=\"444\" y2=\"312\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"460\" y=\"256\" width=\"1204\" height=\"112\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 126,
+     "w": 312,
+     "t": "Para que serve o treino?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 210,
+     "w": 312,
+     "t": "O que ele toma?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 484,
+     "y": 16,
+     "w": 360,
+     "t": "Seguir com ajuste",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 484,
+     "y": 60,
+     "w": 360,
+     "t": "dedicação, sem prejuízo",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 870,
+     "y": 24,
+     "w": 770,
+     "t": "carga do ombro, analgésico fora da rotina, dia livre combinado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 144,
+     "w": 360,
+     "t": "Investigar a secundária",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 484,
+     "y": 188,
+     "w": 360,
+     "t": "comida, balança, corpo, humor",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 870,
+     "y": 152,
+     "w": 770,
+     "t": "o roteiro da alimentação desordenada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 484,
+     "y": 272,
+     "w": 360,
+     "t": "Encaminhar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 484,
+     "y": 316,
+     "w": 360,
+     "t": "sofrimento, prejuízo que não para, hormônio",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 870,
+     "y": 280,
+     "w": 770,
+     "t": "o fluxo de encaminhamento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 1664,
+     "t": "Nos três ramos, o treino fica no plano; muda a função.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "A saída C",
+   "titulo": "As duas perguntas levam a três caminhos, e nenhum tira o treino"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fecho do módulo · três níveis",
+   "titulo": "Da planilha da elite ao treino que não pode faltar",
+   "regras": [
+    "Decisão: a medicina sobe a escada com pergunta, filtra o rastreio, dá o risco verdadeiro e separa dedicação de dependência; quem treina adapta o plano à semana real",
+    "Contribuição: o praticante que registra, o grupo do fim de semana, a organização da prova, o corredor que reanima, a família que percebe",
+    "Reconhecimento: a planilha da elite, quem só joga, o exame para tranquilizar, a semana com três mudanças, o comprimido para treinar"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Exame com pergunta, risco em prova, socorro, dor que persiste e dependência."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Plano que cabe na semana, força em volta do jogo, rampa e progressão pela sessão."
+    },
+    {
+     "ic": "t:users",
+     "t": "Todos",
+     "x": "Próximo módulo: integração, gestão e projeto aplicado."
+    }
+   ]
+  }
+ ],
+ "modulo": "O Atleta Amador e o Praticante Recreacional",
+ "tema": "grafite"
+}
