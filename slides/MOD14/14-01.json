@@ -1,0 +1,1199 @@
+{
+ "arquivo": "aulas/MOD14/14-01-caso-integrado-atleta-profissional-com-lesao-recorrente.md",
+ "titulo": "Caso integrado 1: atleta profissional com lesão recorrente",
+ "subtitulo": "A dor que volta nas passagens",
+ "nota_capa": "Entra por uma oposta de vôlei profissional com o tendão patelar doendo há doze meses.",
+ "secoes": {
+  "linha": [
+   "O caso.",
+   "capa"
+  ],
+  "mesa": [
+   "A leitura de cada área.",
+   "mesa"
+  ],
+  "ordem": [
+   "A conduta integrada.",
+   "ordem"
+  ],
+  "resto": [
+   "O resto da linha do tempo.",
+   "resto"
+  ]
+ },
+ "slides": [
+  {
+   "id": "linha",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Linha do tempo de doze meses, meses ilustrativos. Mês 1: dor abaixo da patela na pré-temporada. Mês 3: jogos duas vezes por semana, anti-inflamatório e gelo. Mês 5: afastada três semanas. Mês 6: volta. Mês 7: convocada para a seleção. Mês 8: volta pior, afastada de novo. Seis profissões, cada uma com um visto: cada área fez a sua parte\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><g transform=\"translate(0.0 0.0) scale(1.1667)\"><path fill=\"#12202E\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><circle cx=\"56\" cy=\"56\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 49 56 L 54 62 L 64 50\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><g transform=\"translate(96.0 0.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><circle cx=\"152\" cy=\"56\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 145 56 L 150 62 L 160 50\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><g transform=\"translate(192.0 0.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 12h1m3-4H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2m0-9v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1m3 5h6m0-5v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1m3 1h2a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-2m4-4h-1\"/></g><circle cx=\"248\" cy=\"56\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 241 56 L 246 62 L 256 50\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><g transform=\"translate(288.0 0.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><circle cx=\"344\" cy=\"56\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 337 56 L 342 62 L 352 50\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><g transform=\"translate(384.0 0.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g><circle cx=\"440\" cy=\"56\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 433 56 L 438 62 L 448 50\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><g transform=\"translate(480.0 0.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><circle cx=\"536\" cy=\"56\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 529 56 L 534 62 L 544 50\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><g transform=\"translate(1580.0 0.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g><line x1=\"60\" y1=\"260\" x2=\"1600\" y2=\"260\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"60\" y1=\"250\" x2=\"60\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"200\" y1=\"250\" x2=\"200\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"340\" y1=\"250\" x2=\"340\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"480\" y1=\"250\" x2=\"480\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"620\" y1=\"250\" x2=\"620\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"760\" y1=\"250\" x2=\"760\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"900\" y1=\"250\" x2=\"900\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1040\" y1=\"250\" x2=\"1040\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1180\" y1=\"250\" x2=\"1180\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1320\" y1=\"250\" x2=\"1320\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1460\" y1=\"250\" x2=\"1460\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1600\" y1=\"250\" x2=\"1600\" y2=\"270\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1040\" y1=\"260\" x2=\"1600\" y2=\"260\" stroke=\"#F7F6F2\" stroke-width=\"6\"/><line x1=\"1040\" y1=\"260\" x2=\"1600\" y2=\"260\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><circle cx=\"60\" cy=\"260\" r=\"16\" fill=\"#3A6EA5\"/><circle cx=\"340\" cy=\"260\" r=\"16\" fill=\"#3A6EA5\"/><circle cx=\"620\" cy=\"260\" r=\"16\" fill=\"#A8322A\"/><circle cx=\"760\" cy=\"260\" r=\"16\" fill=\"#3A6EA5\"/><circle cx=\"900\" cy=\"260\" r=\"16\" fill=\"#3A6EA5\"/><circle cx=\"1040\" cy=\"260\" r=\"16\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 600,
+     "y": 14,
+     "w": 600,
+     "t": "cada área fez a sua parte",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 150,
+     "w": 250,
+     "t": "dor abaixo da patela",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 215,
+     "y": 294,
+     "w": 250,
+     "t": "jogos 2× por semana: anti-inflamatório e gelo",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 495,
+     "y": 150,
+     "w": 250,
+     "t": "afastada três semanas",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 680,
+     "y": 294,
+     "w": 160,
+     "t": "volta",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 775,
+     "y": 150,
+     "w": 250,
+     "t": "convocada para a seleção",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 915,
+     "y": 294,
+     "w": 250,
+     "t": "volta pior: afastada de novo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 410,
+     "w": 120,
+     "t": "mês 1",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1500,
+     "y": 294,
+     "w": 120,
+     "t": "mês 12",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 190,
+     "w": 300,
+     "t": "o resto, no fim da conversa",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 410,
+     "w": 500,
+     "t": "meses ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Vôlei profissional, uma oposta na casa dos vinte",
+   "titulo": "Cada área fez a sua parte, e a dor voltou duas vezes"
+  },
+  {
+   "id": "tamanho",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Dor atual no tendão patelar em atletas de elite, estudo norueguês de 2005 com 613 atletas de nove modalidades: vôlei 44,6%; basquete 31,9%; média geral 14,2%; ciclismo e orientação, nenhum caso. A meta realista: a dor não decide quem joga\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"330\" y=\"20\" width=\"714\" height=\"70\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"330\" y=\"116\" width=\"510\" height=\"70\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"330\" y=\"212\" width=\"227\" height=\"70\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"1180\" y=\"20\" width=\"484\" height=\"360\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 38,
+     "w": 310,
+     "t": "vôlei",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 32,
+     "w": 220,
+     "t": "44,6%",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 134,
+     "w": 310,
+     "t": "basquete",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 856,
+     "y": 128,
+     "w": 220,
+     "t": "31,9%",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 310,
+     "t": "média das nove",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 573,
+     "y": 224,
+     "w": 220,
+     "t": "14,2%",
+     "tam": 32,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 326,
+     "w": 310,
+     "t": "ciclismo e orientação",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 346,
+     "y": 320,
+     "w": 220,
+     "t": "nenhum caso",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 390,
+     "w": 1000,
+     "t": "613 atletas de elite, nove modalidades, 2005",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 44,
+     "w": 436,
+     "t": "A meta realista",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1204,
+     "y": 110,
+     "w": 436,
+     "t": "não é uma temporada sem dor",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 220,
+     "w": 436,
+     "t": "é uma temporada em que a dor não decide quem joga",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O tamanho do problema",
+   "titulo": "No vôlei de elite, quase metade tem o tendão patelar doendo agora",
+   "fonte": "Am J Sports Med 2005"
+  },
+  {
+   "id": "mesa",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Mesa com seis cadeiras. Medicina: tendinopatia, sem ruptura. Fisioterapia: melhora na clínica com carga pesada e lenta. Preparação física: saltos no treino de força. Técnico: saltos no treino de quadra, sem contagem. Seleção: outra equipe, outro plano. A atleta: não conta a dor para não perder a vaga. No centro, um joelho em seis pedaços\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><path d=\"M 832 230 L 838 110 A 120 120 0 0 1 933 165 Z\" fill=\"#3A6EA5\" opacity=\"0.85\"/><path d=\"M 832 230 L 939 176 A 120 120 0 0 1 939 284 Z\" fill=\"#008A7E\" opacity=\"0.85\"/><path d=\"M 832 230 L 933 295 A 120 120 0 0 1 838 350 Z\" fill=\"#B07A1C\" opacity=\"0.85\"/><path d=\"M 832 230 L 826 350 A 120 120 0 0 1 731 295 Z\" fill=\"#A8322A\" opacity=\"0.85\"/><path d=\"M 832 230 L 725 284 A 120 120 0 0 1 725 176 Z\" fill=\"#6B7A87\" opacity=\"0.85\"/><path d=\"M 832 230 L 731 165 A 120 120 0 0 1 826 110 Z\" fill=\"#12202E\" opacity=\"0.85\"/><rect x=\"0\" y=\"0\" width=\"560\" height=\"136\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"156\" width=\"560\" height=\"136\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"312\" width=\"560\" height=\"136\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1104\" y=\"0\" width=\"560\" height=\"136\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1104\" y=\"156\" width=\"560\" height=\"136\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"1104\" y=\"312\" width=\"560\" height=\"136\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 672,
+     "y": 370,
+     "w": 320,
+     "t": "o mesmo joelho",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 14,
+     "w": 512,
+     "t": "Medicina",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 60,
+     "w": 512,
+     "t": "tendinopatia, sem ruptura",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 170,
+     "w": 512,
+     "t": "Fisioterapia",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 216,
+     "w": 512,
+     "t": "melhora na clínica com carga pesada e lenta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 326,
+     "w": 512,
+     "t": "Preparação física",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 372,
+     "w": 512,
+     "t": "saltos no treino de força",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 14,
+     "w": 512,
+     "t": "Técnico",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1128,
+     "y": 60,
+     "w": 512,
+     "t": "saltos de quadra: ninguém contava",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 170,
+     "w": 512,
+     "t": "Seleção",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1128,
+     "y": 216,
+     "w": 512,
+     "t": "outra equipe, outro plano",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 326,
+     "w": 512,
+     "t": "A atleta",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1128,
+     "y": 372,
+     "w": 512,
+     "t": "não conta a dor, para não perder a vaga",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A reunião que não aconteceu",
+   "titulo": "Seis pessoas viam pedaços diferentes do mesmo joelho"
+  },
+  {
+   "id": "passagens",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três passagens como pontes quebradas. Da clínica para a quadra: a carga controlada na clínica, solta no treino. Do clube para a seleção: o plano não viajou. Da atleta para a equipe: a dor escondida. Nos momentos em que a dor voltou, havia uma passagem sem dono\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"20\" y=\"80\" width=\"90\" height=\"170\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"426\" y=\"80\" width=\"90\" height=\"170\" rx=\"8\" fill=\"#6B7A87\"/><path d=\"M 20 80 L 230 80 L 246 110 L 20 110 Z\" fill=\"#12202E\"/><path d=\"M 290 80 L 516 80 L 516 110 L 306 110 Z\" fill=\"#12202E\"/><path d=\"M 252 120 L 262 160 M 280 124 L 272 170\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"584\" y=\"80\" width=\"90\" height=\"170\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"990\" y=\"80\" width=\"90\" height=\"170\" rx=\"8\" fill=\"#6B7A87\"/><path d=\"M 584 80 L 794 80 L 810 110 L 584 110 Z\" fill=\"#12202E\"/><path d=\"M 854 80 L 1080 80 L 1080 110 L 870 110 Z\" fill=\"#12202E\"/><path d=\"M 816 120 L 826 160 M 844 124 L 836 170\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"1148\" y=\"80\" width=\"90\" height=\"170\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"1554\" y=\"80\" width=\"90\" height=\"170\" rx=\"8\" fill=\"#6B7A87\"/><path d=\"M 1148 80 L 1358 80 L 1374 110 L 1148 110 Z\" fill=\"#12202E\"/><path d=\"M 1418 80 L 1644 80 L 1644 110 L 1434 110 Z\" fill=\"#12202E\"/><path d=\"M 1380 120 L 1390 160 M 1408 124 L 1400 170\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 10,
+     "w": 536,
+     "t": "da clínica para a quadra",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 270,
+     "w": 496,
+     "t": "carga controlada na clínica, solta no treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 564,
+     "y": 10,
+     "w": 536,
+     "t": "do clube para a seleção",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 270,
+     "w": 496,
+     "t": "o plano ficou no clube",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1128,
+     "y": 10,
+     "w": 536,
+     "t": "da atleta para a equipe",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1148,
+     "y": 270,
+     "w": 496,
+     "t": "a dor existia e não era dita",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "Nos momentos em que a dor voltou, havia uma passagem sem dono.",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Onde o caso quebrou",
+   "titulo": "A dor voltou nas passagens entre as áreas"
+  },
+  {
+   "id": "saltos",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Carga semanal de saltos no eixo horizontal e probabilidade de queixa no joelho no vertical: curva quase plana, faixa larga de incerteza. 65 jogadores, 102 temporadas de jogador, vôlei masculino de elite, coorte de 2024. Contar saltos é útil para conversar e não basta como regra sozinho\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><line x1=\"60\" y1=\"380\" x2=\"960\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"60\" y1=\"380\" x2=\"60\" y2=\"40\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 60 150 C 300 120 600 110 960 140 L 960 320 C 600 300 300 290 60 330 Z\" fill=\"#DEE7F1\"/><path d=\"M 60 240 C 300 215 600 205 960 230\" stroke=\"#3A6EA5\" stroke-width=\"6\" fill=\"none\"/><rect x=\"1040\" y=\"0\" width=\"624\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1040\" y=\"130\" width=\"624\" height=\"130\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1040\" y=\"290\" width=\"624\" height=\"150\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 390,
+     "w": 900,
+     "t": "saltos por semana",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 10,
+     "w": 500,
+     "t": "chance de queixa no joelho",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 360,
+     "y": 160,
+     "w": 360,
+     "t": "faixa de incerteza larga",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 60,
+     "y": 436,
+     "w": 900,
+     "t": "esquema da forma do resultado, sem os valores",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 16,
+     "w": 576,
+     "t": "65 jogadores · 102 temporadas · vôlei masculino de elite",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 152,
+     "w": 576,
+     "t": "Contar saltos: útil para a conversa entre as áreas",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 312,
+     "w": 576,
+     "t": "Teto de saltos sozinho: não é a regra do dia; a régua é o próprio tendão",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A tentação de resolver com um número",
+   "titulo": "O estudo não achou relação clara entre saltos por semana e dor no joelho",
+   "fonte": "Scand J Med Sci Sports 2024"
+  },
+  {
+   "id": "ordem",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três degraus em sequência. Um, como está o tecido: medicina e fisioterapia. Dois, o que a semana vai pedir: preparação física e técnico. Três, quanto risco aceitar: atleta, técnico e clube. A ordem das perguntas define quem fala primeiro; quando o calendário fala primeiro, a avaliação vira justificativa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"160\" width=\"500\" height=\"180\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"210\" r=\"30\" fill=\"#3A6EA5\"/><line x1=\"504\" y1=\"210\" x2=\"552\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"560\" y=\"80\" width=\"500\" height=\"260\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"610\" cy=\"130\" r=\"30\" fill=\"#B07A1C\"/><line x1=\"1064\" y1=\"130\" x2=\"1112\" y2=\"50\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1120\" y=\"0\" width=\"500\" height=\"340\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1170\" cy=\"50\" r=\"30\" fill=\"#A8322A\"/><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 190,
+     "w": 40,
+     "t": "1",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 96,
+     "y": 190,
+     "w": 380,
+     "t": "Como está o tecido?",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 280,
+     "w": 452,
+     "t": "medicina e fisioterapia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 590,
+     "y": 110,
+     "w": 40,
+     "t": "2",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 656,
+     "y": 110,
+     "w": 380,
+     "t": "O que a semana vai pedir?",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 200,
+     "w": 452,
+     "t": "preparação física e técnico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 30,
+     "w": 40,
+     "t": "3",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1216,
+     "y": 30,
+     "w": 380,
+     "t": "Quanto risco aceitar?",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 120,
+     "w": 452,
+     "t": "atleta, técnico e clube",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "Quando o calendário fala primeiro, a avaliação vira justificativa.",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quem decide o quê, e em que ordem",
+   "titulo": "A ordem das perguntas define quem fala primeiro"
+  },
+  {
+   "id": "plano",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Plano da oposta em seis linhas: régua diária de dor no agachamento numa perna só, de 0 a 10, toda manhã; carga do tendão três vezes por semana com a fisioterapia; saltos de quadra por fase da semana, técnico e preparação física; regra de ajuste, se a régua sobe dois pontos o treino seguinte perde os saltos; o plano viaja para a seleção; uma coordenadora responde pelo plano. Valores ilustrativos\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"460\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"32\" y1=\"70\" x2=\"1632\" y2=\"70\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 80.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><line x1=\"32\" y1=\"132\" x2=\"1632\" y2=\"132\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 142.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><line x1=\"32\" y1=\"194\" x2=\"1632\" y2=\"194\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 204.0) scale(1.6667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><line x1=\"32\" y1=\"256\" x2=\"1632\" y2=\"256\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 266.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g><line x1=\"32\" y1=\"318\" x2=\"1632\" y2=\"318\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 328.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M16 10h4a2 2 0 0 1 0 4h-4l-4 7H9l2-7H7l-2 2H2l2-4l-2-4h3l2 2h4L9 3h3z\"/></g><line x1=\"32\" y1=\"380\" x2=\"1632\" y2=\"380\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 390.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 32,
+     "y": 18,
+     "w": 600,
+     "t": "Plano da oposta",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1100,
+     "y": 26,
+     "w": 532,
+     "t": "valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 88,
+     "y": 84,
+     "w": 1060,
+     "t": "régua diária: dor no agachamento numa perna só, 0 a 10, toda manhã",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 84,
+     "w": 460,
+     "t": "a atleta",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 88,
+     "y": 146,
+     "w": 1060,
+     "t": "carga do tendão: três vezes por semana",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 146,
+     "w": 460,
+     "t": "fisioterapia",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 88,
+     "y": 208,
+     "w": 1060,
+     "t": "saltos de quadra distribuídos pela semana",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 208,
+     "w": 460,
+     "t": "técnico e preparação física",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 88,
+     "y": 270,
+     "w": 1060,
+     "t": "regra de ajuste: régua sobe 2 pontos, o treino seguinte perde os saltos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 270,
+     "w": 460,
+     "t": "quem estiver no treino",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 88,
+     "y": 332,
+     "w": 1060,
+     "t": "o plano viaja junto para a seleção",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 332,
+     "w": 460,
+     "t": "coordenadora",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 88,
+     "y": 394,
+     "w": 1060,
+     "t": "uma pessoa responde pelo plano e convoca a próxima conversa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 394,
+     "w": 460,
+     "t": "coordenadora",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O plano em uma folha",
+   "titulo": "Cada linha do plano tem um dono, e a dor vira dado"
+  },
+  {
+   "id": "sete",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Sete setas apontando para o mesmo joelho: avaliação biomecânica, neurodinâmica, estabilidade do tronco, excêntrico, corrida progressiva, injeção, alongamento e relaxamento. Embaixo: qual delas funcionou? Relato de caso de 2014, futebol profissional, cinco lesões do posterior da coxa\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><circle cx=\"470\" cy=\"220\" r=\"70\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(434.0 184.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8a3.5 3 0 0 1 3.5-3h1A3.5 3 0 0 1 16 8a3 3 0 0 1-2 3a3 4 0 0 0-2 4m0 4v.01\"/></g><line x1=\"470\" y1=\"90\" x2=\"470\" y2=\"136\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"650\" y1=\"139\" x2=\"536\" y2=\"168\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"694\" y1=\"249\" x2=\"552\" y2=\"239\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"570\" y1=\"337\" x2=\"506\" y2=\"296\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"370\" y1=\"337\" x2=\"434\" y2=\"296\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"246\" y1=\"249\" x2=\"388\" y2=\"239\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"290\" y1=\"139\" x2=\"404\" y2=\"168\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1000\" y=\"0\" width=\"664\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 340,
+     "y": 14,
+     "w": 260,
+     "t": "avaliação biomecânica",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 606,
+     "y": 86,
+     "w": 260,
+     "t": "neurodinâmica",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 671,
+     "y": 246,
+     "w": 260,
+     "t": "estabilidade do tronco",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 488,
+     "y": 375,
+     "w": 260,
+     "t": "excêntrico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 192,
+     "y": 375,
+     "w": 260,
+     "t": "corrida progressiva",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 9,
+     "y": 246,
+     "w": 260,
+     "t": "injeção",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 74,
+     "y": 86,
+     "w": 260,
+     "t": "alongamento e relaxamento",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 24,
+     "w": 616,
+     "t": "Cinco lesões do posterior da coxa, sete frentes ao mesmo tempo",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1024,
+     "y": 150,
+     "w": 616,
+     "t": "ele voltou e não se lesionou de novo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 220,
+     "w": 616,
+     "t": "os autores: impossível dizer qual frente funcionou",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 330,
+     "w": 616,
+     "t": "Integrar é mudar poucas coisas, com dono e data.",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O risco de mudar tudo de uma vez",
+   "titulo": "Sete frentes ao mesmo tempo funcionaram, e ninguém soube qual",
+   "fonte": "Br J Sports Med 2014"
+  },
+  {
+   "id": "resto",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Linha do tempo do mês 1 ao 12, meses ilustrativos. A partir do mês 8, a régua diária oscila entre 2 e 5. Mês 10: a régua subiu, dois treinos sem saltos. Mês 11: a seleção recebeu o plano. Do mês 9 ao 12, nenhum afastamento. Mês 12: jogou a fase final. Um caso não prova o método; mostra a integração\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"60\" y1=\"340\" x2=\"1600\" y2=\"340\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"60\" y1=\"330\" x2=\"60\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"200\" y1=\"330\" x2=\"200\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"340\" y1=\"330\" x2=\"340\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"480\" y1=\"330\" x2=\"480\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"620\" y1=\"330\" x2=\"620\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"760\" y1=\"330\" x2=\"760\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"900\" y1=\"330\" x2=\"900\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1040\" y1=\"330\" x2=\"1040\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1180\" y1=\"330\" x2=\"1180\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1320\" y1=\"330\" x2=\"1320\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1460\" y1=\"330\" x2=\"1460\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1600\" y1=\"330\" x2=\"1600\" y2=\"350\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"620\" cy=\"340\" r=\"14\" fill=\"#6B7A87\"/><circle cx=\"1040\" cy=\"340\" r=\"14\" fill=\"#6B7A87\"/><path d=\"M 1040 140 L 1110 180 L 1180 100 L 1250 180 L 1320 100 L 1362 140 L 1418 200 L 1460 180 L 1530 140 L 1600 200\" stroke=\"#3A6EA5\" stroke-width=\"5\" fill=\"none\" stroke-linejoin=\"round\"/><rect x=\"1180\" y=\"370\" width=\"420\" height=\"40\" rx=\"10\" fill=\"#008A7E\"/><g transform=\"translate(1574.0 20.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 1 0-18 0\"/><path d=\"M12 12a8 8 0 0 0 8 4M7.5 13.5A12 12 0 0 0 16 20\"/><path d=\"M12 12a8 8 0 0 0-7.464 4.928m8.415-9.575a12 12 0 0 0-9.88 4.111\"/><path d=\"M12 12a8 8 0 0 0-.536-8.928m4.085 12.075a12 12 0 0 0 1.38-10.611\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 1180,
+     "y": 376,
+     "w": 420,
+     "t": "nenhum afastamento",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 710,
+     "y": 60,
+     "w": 320,
+     "t": "régua diária: oscila entre 2 e 5",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1170,
+     "y": 30,
+     "w": 300,
+     "t": "mês 10: régua subiu; dois treinos sem saltos",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1340,
+     "y": 84,
+     "w": 230,
+     "t": "jogou a fase final",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1320,
+     "y": 236,
+     "w": 280,
+     "t": "mês 11: o plano foi junto para a seleção",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 520,
+     "y": 364,
+     "w": 200,
+     "t": "afastamentos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 160,
+     "w": 700,
+     "t": "um caso não prova o método; mostra a integração",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 210,
+     "w": 700,
+     "t": "meses e valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O resto da linha do tempo",
+   "titulo": "A dor continuou oscilando, e ela não parou mais"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Caso integrado: lesão recorrente",
+   "titulo": "Dar dono às passagens, não só ao tecido",
+   "regras": [
+    "Na lesão que volta, procure a passagem sem dono antes do tecido",
+    "Tecido, depois a semana, depois o risco aceito, nessa ordem",
+    "Integrar é mudar poucas coisas, com dono e data"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina e fisioterapia",
+     "x": "Respondem pelo estado do tecido e pela régua diária."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Distribui os saltos e aplica a regra de ajuste combinada."
+    },
+    {
+     "ic": "t:user",
+     "t": "A atleta",
+     "x": "Anota a dor toda manhã: é a régua que faz o plano funcionar."
+    }
+   ]
+  }
+ ],
+ "modulo": "Integração, Gestão e Projeto Aplicado",
+ "tema": "oliva"
+}
