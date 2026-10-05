@@ -59,6 +59,7 @@ No spec, a chave `"tema"` escolhe o conjunto (sem ela, vale tinta).
 | 11 | `terra` | `#33231B` | `#45302A` | `#E6C08A` | `#8FD3C8` |
 | 12 | `musgo` | `#1E2A22` | `#2A3A2F` | `#E6C08A` | `#F2A58F` |
 | 13 | `grafite` | `#24262B` | `#33363D` | `#E6C08A` | `#8FD3C8` |
+| 14 | `oliva` | `#2A2A1C` | `#3A3A28` | `#E6C08A` | `#8FD3C8` |
 
 Todas as combinações de texto sobre o fundo passam de 5:1 de contraste.
 
@@ -141,4 +142,4 @@ funcionava é o dos Módulos 1 e 2, e é ele que vale daqui em diante:
 Os tipos de layout prontos do gerador (`painel`, `versus`, `pergunta`, `hero`, `pictograma`,
 `icones`, `checklist`, `fluxo`, `espectro`, `ciclo`, `matriz`, `linha_tempo`, `barras`) continuam
 disponíveis para um slide ou outro, mas o padrão é o `diagrama` desenhado para a ideia. O fecho
-tem ícones e não anuncia a próxima aula na tela. O Módulo 10 usa o tema `anil` na capa e no fecho, o Módulo 11, o tema `terra`, o Módulo 12, o tema `musgo`, e o Módulo 13, o tema `grafite`.
+tem ícones e não anuncia a próxima aula na tela. O Módulo 10 usa o tema `anil` na capa e no fecho, o Módulo 11, o tema `terra`, o Módulo 12, o tema `musgo`, o Módulo 13, o tema `grafite`, e o Módulo 14, o tema `oliva`.

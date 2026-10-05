@@ -126,7 +126,7 @@ ditos como caso ilustrativo). As aulas 3.8 a 3.12 ficam sem caso.
 | 3.11 | Exercício e sensibilidade à insulina | 15 | 9 | NÚMERO | [slides](https://claude.ai/artifact/V6pg5KWi8jaabJnWoYxKgW) |
 | 3.12 | Saúde óssea no praticante de exercício | 14 | 11 | DECISÃO | [slides](https://claude.ai/artifact/TCq25sZe21dQUuFcxxXFic) |
 
-Total: 3 h 32 min em 12 aulas, 120 slides. A 3.12 fecha o módulo com a camada de
+Total: 3 h 12 min em 12 aulas, 120 slides. A 3.12 fecha o módulo com a camada de
 integração nos três níveis (decisão, contribuição, reconhecimento) e emenda na
 disponibilidade energética, que abre o Módulo 4.
 
@@ -499,43 +499,66 @@ projeto aplicado, que abrem o Módulo 14.
 
 ## Módulo 14 — Integração, Gestão e Projeto Aplicado · 10 aulas
 
-| Slot | Aula | Origem | Estado |
-|---|---|---|---|
-| 14.1 **[M]** | Caso integrado 1: atleta profissional com lesão recorrente | — | NOVA |
-| 14.2 **[M]** | Caso integrado 2: amador com fadiga e queda de rendimento | M1-A09 + M9-A06 | FUNDIR |
-| 14.3 | Caso integrado 3: adolescente em especialização precoce | — | NOVA |
-| 14.4 | Caso integrado 4: atleta mulher com fratura por estresse | — | NOVA |
-| 14.5 | Como escrever um protocolo de departamento | — | NOVA |
-| 14.6 | Documentação de decisão e rastreabilidade | — | NOVA |
-| 14.7 | Ética, sigilo e proteção de dados | M3-A07 parcial | PARCIAL |
-| 14.8 | Projeto aplicado: como definir o problema | M24 (não escrito) | NOVA |
-| 14.9 | Projeto aplicado: método e indicadores | M24 (não escrito) | NOVA |
-| 14.10 | Projeto aplicado: estrutura da defesa | M24 (não escrito) | NOVA |
+**ESCRITO NA VOZ DO CURSO, NO MODELO DO MÓDULO 10.** Slides em número definido pelo conteúdo, cada um
+com desenho próprio, títulos que afirmam e ícones só como apoio. Capa e fecho em oliva (docs/08). Um
+caso clínico no módulo (14.1, a única aula CASO, com meses ilustrativos); os outros três casos
+integrados viraram PROCEDIMENTO, ERRO e DECISÃO, para não repetir arquitetura. Perfis típicos, sem nome
+e sem desfecho. Rodízio de modalidade: vôlei, águas abertas, judô, remo, rúgbi amador, handebol,
+futebol profissional e futebol feminino de base. Nenhum autor citado por nome na fala.
+
+A 14.1 e a 14.2 estavam planejadas como mestras e ficaram com duração de aula padrão. Os casos
+integrados mudaram de ângulo para não repetir módulos anteriores: tendinopatia patelar no vôlei em vez
+de isquiotibiais (13.2), corte de peso no judô em vez de especialização no tênis (12.3) e fratura de
+costela numa remadora peso-leve como DECISÃO, porque a 11.7 já é o caso da corredora. A 14.5 a 14.7
+cobrem gestão (protocolo, registro de decisão, sigilo e dados). A 14.8 a 14.10 são o projeto aplicado
+da grade de 400 horas, que substituiu o plano de cuidado como trabalho final: o problema numa frase, os
+três indicadores com o gráfico de sequência e a defesa diante de uma banca de várias profissões. A
+14.10 fecha o módulo e o curso, com o kit de oito instrumentos e o caminho dos catorze módulos.
+
+| Slot | Aula | Min | Slides | Arquitetura | Deck |
+|---|---|---|---|---|---|
+| 14.1 **[M]** | Caso integrado 1: atleta profissional com lesão recorrente | 11 | 10 | CASO | [slides](https://claude.ai/artifact/12gVRaVCPDvGDdx24xseRv) |
+| 14.2 **[M]** | Caso integrado 2: amador com fadiga e queda de rendimento | 11 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/R4LryzUbaZVq9EcW4KVnX4) |
+| 14.3 | Caso integrado 3: adolescente em especialização precoce | 8 | 9 | ERRO | [slides](https://claude.ai/artifact/BsxwwQ9Rbk5gBnd7MGAtLT) |
+| 14.4 | Caso integrado 4: atleta mulher com fratura por estresse | 9 | 10 | DECISÃO | [slides](https://claude.ai/artifact/AmkwJzcRiRc5oS5csyAifn) |
+| 14.5 | Como escrever um protocolo de departamento | 8 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/DhAMqdV6LVrZ6WA2oYj67Y) |
+| 14.6 | Documentação de decisão e rastreabilidade | 8 | 9 | ERRO | [slides](https://claude.ai/artifact/9jtXFTomkybUTrZvv3bxxy) |
+| 14.7 | Ética, sigilo e proteção de dados | 9 | 10 | DECISÃO | [slides](https://claude.ai/artifact/4rZtkR76nDpojowHTiiGQB) |
+| 14.8 | Projeto aplicado: como definir o problema | 7 | 9 | ERRO | [slides](https://claude.ai/artifact/FiGzP1z652GNmVz2g8deZh) |
+| 14.9 | Projeto aplicado: método e indicadores | 9 | 10 | NÚMERO | [slides](https://claude.ai/artifact/4QvZo1MNuKYuNwxUiVq8DN) |
+| 14.10 | Projeto aplicado: estrutura da defesa | 10 | 10 | PROCEDIMENTO | [slides](https://claude.ai/artifact/NXKVuP9ZB14A1uCfNchFB5) |
+
+Total: 1 h 30 min em 10 aulas, 97 slides. A 14.10 fecha o módulo com a camada de integração nos três
+níveis (decisão, contribuição, reconhecimento) e fecha o curso.
 
 ---
 
 ## Balanço
 
-| Estado | Slots | % |
-|---|---|---|
-| **PRONTA** — roteiro existe, só edição de formato | 42 | 27% |
-| **FUNDIR** — dois ou mais roteiros escritos alimentam o slot | 38 | 24% |
-| **PARCIAL** — há material, falta conteúdo | 26 | 17% |
-| **NOVA** — nada escrito | 51 | 32% |
-| | **157** | |
+**O curso está escrito: 157 aulas em 14 módulos, 36 h 52 min de fala gravável e 1.624 slides**, todas
+na voz do curso, com deck publicado e notas de produção. A soma vem do cabeçalho de cada roteiro.
 
-**Traduzindo: 80 dos 157 slots (51%) têm roteiro aproveitável.** As 352 mil
-palavras escritas não se perdem — elas se redistribuem.
+| Módulo | Aulas | Min | Slides |
+|---|---|---|---|
+| 1 · Fundamentos e trabalho multiprofissional | 8 | 107 | 69 |
+| 2 · Fisiologia do exercício aplicada | 12 | 220 | 114 |
+| 3 · Fisiologia hormonal e endocrinologia do exercício | 12 | 192 | 120 |
+| 4 · Nutrição esportiva | 12 | 198 | 121 |
+| 5 · Suplementação, ergogênicos e antidoping | 11 | 188 | 127 |
+| 6 · Medicina esportiva clínica | 12 | 204 | 143 |
+| 7 · Lesões: mecanismos, epidemiologia e prevenção | 13 | 171 | 156 |
+| 8 · Fisioterapia esportiva e reabilitação | 12 | 159 | 144 |
+| 9 · Preparação física, treinamento e gestão de carga | 12 | 130 | 144 |
+| 10 · Psicologia do esporte e saúde mental | 11 | 176 | 99 |
+| 11 · A atleta mulher | 10 | 138 | 88 |
+| 12 · Atleta adolescente e atleta idoso | 11 | 129 | 99 |
+| 13 · O atleta amador e o praticante recreacional | 11 | 110 | 103 |
+| 14 · Integração, gestão e projeto aplicado | 10 | 90 | 97 |
+| **Total** | **157** | **2.212** | **1.624** |
 
-### Onde está o trabalho pesado
+Arquiteturas no curso: PROCEDIMENTO 42, ERRO 36, DECISÃO 34, NÚMERO 34 e CASO 11.
 
-1. **Módulo 5 inteiro** (suplementação, ergogênicos, antidoping) — 11 aulas
-   novas, 2 delas mestras. M20 e M21 nunca saíram do ementário.
-2. **As 27 aulas-mestras.** A 75 min e 118 palavras por minuto, cada uma pede
-   **cerca de 8.800 palavras faladas** — quase três vezes o roteiro mais longo
-   já escrito. São ~237 mil palavras só nelas. **É a maior decisão de produção
-   da grade e precisa ser confirmada antes de qualquer redação.**
-3. **Os blocos clínicos que não existem:** coração de atleta × cardiopatia,
-   concussão, emergência em campo, analgesia e corticoide, mecanotransdução,
-   miocinas.
-4. **Módulo 14** — 8 de 10 aulas novas.
+**As aulas-mestras.** A grade previa 27 aulas-mestras de 75 minutos. Nenhuma foi escrita nesse tamanho:
+cada uma coube em duração de aula padrão, com o conteúdo distribuído por arquitetura e ligado por
+remissões internas. Se a coordenação mantiver a exigência de 75 minutos para esses slots, a carga
+síncrona (encontros ao vivo, discussão de caso, defesa do projeto) é o lugar natural para completá-la.
