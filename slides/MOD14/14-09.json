@@ -1,0 +1,1024 @@
+{
+ "arquivo": "aulas/MOD14/14-09-projeto-aplicado-metodo-e-indicadores.md",
+ "titulo": "Projeto aplicado: método e indicadores",
+ "subtitulo": "Como saber se a mudança foi uma melhora",
+ "nota_capa": "Entra por dois números, antes e depois, que não respondem à pergunta.",
+ "secoes": {
+  "numeros": [
+   "Os dois números.",
+   "capa"
+  ],
+  "indicadores": [
+   "Os indicadores.",
+   "indicadores"
+  ],
+  "linhabase": [
+   "Linha de base e método.",
+   "linhabase"
+  ],
+  "grafico": [
+   "O gráfico e as regras.",
+   "grafico"
+  ]
+ },
+ "slides": [
+  {
+   "id": "numeros",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Duas barras: antes, 25% das sessões com aquecimento completo; um mês depois, 50%. Entre elas, uma seta e a pergunta: melhorou? Valores ilustrativos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"260\" y=\"190\" width=\"320\" height=\"150\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"1080\" y=\"40\" width=\"320\" height=\"300\" rx=\"10\" fill=\"#008A7E\"/><line x1=\"200\" y1=\"340\" x2=\"1460\" y2=\"340\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"640\" y1=\"250\" x2=\"1040\" y2=\"180\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><circle cx=\"840\" cy=\"110\" r=\"54\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 260,
+     "y": 120,
+     "w": 320,
+     "t": "25%",
+     "tam": 48,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 260,
+     "y": 356,
+     "w": 320,
+     "t": "antes",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": -30,
+     "w": 320,
+     "t": "50%",
+     "tam": 48,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1080,
+     "y": 356,
+     "w": 320,
+     "t": "um mês depois",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 76,
+     "w": 80,
+     "t": "?",
+     "tam": 56,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 640,
+     "y": 270,
+     "w": 400,
+     "t": "melhorou?",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1460,
+     "y": 300,
+     "w": 204,
+     "t": "sessões com aquecimento completo · valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Futebol feminino sub-15, a mudança foi feita",
+   "titulo": "Dois números não dizem se a mudança foi uma melhora"
+  },
+  {
+   "id": "indicadores",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três indicadores. Processo: a mudança está acontecendo? Sessões com aquecimento completo. Resultado: o atleta está melhor? Lesões por mil horas de exposição. Equilíbrio: piorou alguma outra coisa? Minutos de treino com bola; queixa do técnico e das atletas\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"400\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"536\" height=\"96\" rx=\"18\" fill=\"#008A7E\"/><g transform=\"translate(30.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"564\" y=\"0\" width=\"536\" height=\"400\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"96\" rx=\"18\" fill=\"#3A6EA5\"/><g transform=\"translate(594.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"1128\" y=\"0\" width=\"536\" height=\"400\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"96\" rx=\"18\" fill=\"#B07A1C\"/><g transform=\"translate(1158.0 22.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 28,
+     "w": 420,
+     "t": "processo",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 28,
+     "y": 130,
+     "w": 480,
+     "t": "a mudança está acontecendo?",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 28,
+     "y": 250,
+     "w": 480,
+     "t": "sessões com aquecimento completo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 664,
+     "y": 28,
+     "w": 420,
+     "t": "resultado",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 130,
+     "w": 480,
+     "t": "o atleta está melhor?",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 250,
+     "w": 480,
+     "t": "lesões por mil horas de exposição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1228,
+     "y": 28,
+     "w": 420,
+     "t": "equilíbrio",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 130,
+     "w": 480,
+     "t": "piorou alguma outra coisa?",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 250,
+     "w": 480,
+     "t": "minutos de treino com bola; queixa do técnico e das atletas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Três indicadores, três perguntas",
+   "titulo": "O projeto mede o processo, o resultado e o que pode piorar"
+  },
+  {
+   "id": "exposicao",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Dois semestres: três lesões no primeiro, duas no segundo, uma queda de 33%. Cerca de 1.400 horas de exposição por semestre: 22 atletas, 4 horas por semana, 16 semanas. Uma lesão a mais ou a menos muda o número inteiro. Esquema, valores ilustrativos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"60\" y=\"0\" width=\"560\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(180.0 90.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><g transform=\"translate(290.0 90.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><g transform=\"translate(400.0 90.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"820\" y=\"0\" width=\"560\" height=\"230\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><g transform=\"translate(995.0 90.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><g transform=\"translate(1105.0 90.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><line x1=\"640\" y1=\"115\" x2=\"800\" y2=\"115\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"270\" width=\"1664\" height=\"100\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 20,
+     "w": 560,
+     "t": "semestre passado",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 20,
+     "w": 560,
+     "t": "este semestre",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 40,
+     "w": 240,
+     "t": "−33%",
+     "tam": 36,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1400,
+     "y": 40,
+     "w": 264,
+     "t": "22 atletas × 4 h × 16 semanas ≈ 1.400 h",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 296,
+     "w": 1616,
+     "t": "Evento raro, grupo pequeno, pouco tempo: uma lesão a mais ou a menos muda o número inteiro.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 390,
+     "w": 1664,
+     "t": "esquema · valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que o resultado não decide sozinho",
+   "titulo": "Em meses, numa categoria, a lesão é rara demais para mostrar efeito"
+  },
+  {
+   "id": "definicao",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Ficha da definição operacional. Aquecimento completo: os cinco blocos do programa, na ordem, com pelo menos quinze minutos. Quem conta: a auxiliar técnica, numa ficha. Quando: em toda sessão. Denominador: sessões realizadas, e não as previstas. Mude a definição, e o 1 de cada 4 vira outro número. Esquema\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"1060\" height=\"420\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(24.0 20.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><line x1=\"24\" y1=\"170\" x2=\"1036\" y2=\"170\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"246\" x2=\"1036\" y2=\"246\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"322\" x2=\"1036\" y2=\"322\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"398\" x2=\"1036\" y2=\"398\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"1120\" y=\"0\" width=\"544\" height=\"420\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 96,
+     "y": 30,
+     "w": 900,
+     "t": "definição operacional",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 122,
+     "w": 260,
+     "t": "o que conta",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 122,
+     "w": 740,
+     "t": "os cinco blocos, na ordem, com 15 minutos ou mais",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 198,
+     "w": 260,
+     "t": "quem conta",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 198,
+     "w": 740,
+     "t": "a auxiliar técnica, numa ficha",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 274,
+     "w": 260,
+     "t": "quando",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 274,
+     "w": 740,
+     "t": "em toda sessão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 350,
+     "w": 260,
+     "t": "denominador",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 350,
+     "w": 740,
+     "t": "sessões realizadas, e não as previstas",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 40,
+     "w": 484,
+     "t": "mude a definição, e o “1 de cada 4” vira outro número",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 230,
+     "w": 484,
+     "t": "escrita antes da primeira contagem; não muda no meio do projeto",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1150,
+     "y": 370,
+     "w": 484,
+     "t": "esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Antes de contar",
+   "titulo": "A definição operacional diz o que conta, quem conta e sobre o quê"
+  },
+  {
+   "id": "linhabase",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Linha de base: seis pontos semanais antes da mudança, 25, 25, 0, 50, 25 e 25 por cento, com a mediana em 25%. Valores ilustrativos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><line x1=\"140\" y1=\"370\" x2=\"1600\" y2=\"370\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"140\" y1=\"30\" x2=\"140\" y2=\"370\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"140\" y1=\"285\" x2=\"1600\" y2=\"285\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-dasharray=\"12 8\"/><path d=\"M 160 285 L 244 285 L 327 370 L 411 200 L 494 285 L 578 285\" stroke=\"#12202E\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"160\" cy=\"285\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"244\" cy=\"285\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"327\" cy=\"370\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"411\" cy=\"200\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"494\" cy=\"285\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"578\" cy=\"285\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 18,
+     "w": 120,
+     "t": "100%",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 186,
+     "w": 120,
+     "t": "50%",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 356,
+     "w": 120,
+     "t": "0%",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 386,
+     "w": 600,
+     "t": "seis semanas, quatro sessões por semana",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 912,
+     "y": 296,
+     "w": 300,
+     "t": "mediana: 25%",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 828,
+     "y": 60,
+     "w": 700,
+     "t": "zero numa semana, cinquenta em outra, e nada mudou no clube: o processo variando sozinho",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 828,
+     "y": 180,
+     "w": 700,
+     "t": "valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A linha de base",
+   "titulo": "Medir antes de mudar mostra quanto o processo varia sozinho"
+  },
+  {
+   "id": "ciclos",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Dois ciclos de planejar, fazer, estudar e agir em sequência, subindo. Ciclo 1: a capitã conduz o aquecimento numa sessão por semana, por duas semanas. Ciclo 2: o aquecimento entra no treino, com bola, em todas as sessões. Teste pequeno antes de mudar tudo\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 150 270 L 20 270 A 130 130 0 0 1 150 140 Z\" fill=\"#B07A1C\" opacity=\"0.55\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 150 270 L 150 140 A 130 130 0 0 1 280 270 Z\" fill=\"#B07A1C\" opacity=\"0.7000000000000001\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 150 270 L 280 270 A 130 130 0 0 1 150 400 Z\" fill=\"#B07A1C\" opacity=\"0.8500000000000001\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 150 270 L 150 400 A 130 130 0 0 1 20 270 Z\" fill=\"#B07A1C\" opacity=\"1.0\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 790 170 L 660 170 A 130 130 0 0 1 790 40 Z\" fill=\"#008A7E\" opacity=\"0.55\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 790 170 L 790 40 A 130 130 0 0 1 920 170 Z\" fill=\"#008A7E\" opacity=\"0.7000000000000001\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 790 170 L 920 170 A 130 130 0 0 1 790 300 Z\" fill=\"#008A7E\" opacity=\"0.8500000000000001\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><path d=\"M 790 170 L 790 300 A 130 130 0 0 1 660 170 Z\" fill=\"#008A7E\" opacity=\"1.0\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><line x1=\"290\" y1=\"170\" x2=\"640\" y2=\"170\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1300\" y=\"160\" width=\"364\" height=\"240\" rx=\"18\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 28,
+     "y": 224,
+     "w": 120,
+     "t": "planejar",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 152,
+     "y": 224,
+     "w": 120,
+     "t": "fazer",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 152,
+     "y": 296,
+     "w": 120,
+     "t": "estudar",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 28,
+     "y": 296,
+     "w": 120,
+     "t": "agir",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 230,
+     "w": 330,
+     "t": "ciclo 1: a capitã conduz numa sessão por semana, por duas semanas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 668,
+     "y": 124,
+     "w": 120,
+     "t": "planejar",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 792,
+     "y": 124,
+     "w": 120,
+     "t": "fazer",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 792,
+     "y": 196,
+     "w": 120,
+     "t": "estudar",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 668,
+     "y": 196,
+     "w": 120,
+     "t": "agir",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 110,
+     "w": 330,
+     "t": "ciclo 2: o aquecimento entra no treino, com bola, em todas as sessões",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1324,
+     "y": 190,
+     "w": 316,
+     "t": "teste pequeno primeiro: errar numa sessão custa pouco",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O método",
+   "titulo": "O método é o teste pequeno, em ciclos de quatro passos"
+  },
+  {
+   "id": "grafico",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Gráfico de sequência com dezoito semanas: seis pontos de linha de base e doze depois da mudança, 25, 50, 50, 75, 50, 75, 75, 100, 75, 75, 100 e 75 por cento. Mediana da linha de base, 25%, estendida. Ciclo 1 na semana 7, ciclo 2 na semana 9. Valores ilustrativos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"140\" y1=\"370\" x2=\"1600\" y2=\"370\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"140\" y1=\"30\" x2=\"140\" y2=\"370\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"140\" y1=\"285\" x2=\"1600\" y2=\"285\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-dasharray=\"12 8\"/><path d=\"M 160 285 L 244 285 L 327 370 L 411 200 L 494 285 L 578 285 L 661 285 L 745 200 L 828 200 L 912 115 L 995 200 L 1079 115 L 1162 115 L 1246 30 L 1329 115 L 1413 115 L 1496 30 L 1580 115\" stroke=\"#12202E\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"160\" cy=\"285\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"244\" cy=\"285\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"327\" cy=\"370\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"411\" cy=\"200\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"494\" cy=\"285\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"578\" cy=\"285\" r=\"11\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"661\" cy=\"285\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"745\" cy=\"200\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"828\" cy=\"200\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"912\" cy=\"115\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"995\" cy=\"200\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1079\" cy=\"115\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1162\" cy=\"115\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1246\" cy=\"30\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1329\" cy=\"115\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1413\" cy=\"115\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1496\" cy=\"30\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1580\" cy=\"115\" r=\"11\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"619\" y1=\"20\" x2=\"619\" y2=\"370\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"6 6\"/><line x1=\"786\" y1=\"20\" x2=\"786\" y2=\"370\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"6 6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 18,
+     "w": 120,
+     "t": "100%",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 186,
+     "w": 120,
+     "t": "50%",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 356,
+     "w": 120,
+     "t": "0%",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 503,
+     "y": 380,
+     "w": 110,
+     "t": "ciclo 1",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 794,
+     "y": 380,
+     "w": 110,
+     "t": "ciclo 2",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 140,
+     "y": 40,
+     "w": 300,
+     "t": "linha de base",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1246,
+     "y": 296,
+     "w": 300,
+     "t": "mediana: 25%",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 912,
+     "y": 380,
+     "w": 620,
+     "t": "depois da mudança · valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 410,
+     "w": 1664,
+     "t": "semanas, na ordem do tempo",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O gráfico de sequência",
+   "titulo": "Um ponto por semana, na ordem, contra a mediana da linha de base"
+  },
+  {
+   "id": "regras",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro regras do gráfico de sequência. Deslocamento: seis ou mais pontos seguidos do mesmo lado da mediana; ponto sobre a mediana não conta. Tendência: cinco ou mais pontos seguidos, todos subindo ou todos descendo. Sequências: poucas ou muitas demais para o número de pontos. Ponto astronômico: um valor claramente diferente dos outros. Menos de 5% de chance de acontecer por acaso\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"392\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"24\" y1=\"110\" x2=\"368\" y2=\"110\" stroke=\"#D9D4C8\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><path d=\"M 40 122 L 84 116 L 128 86 L 172 84 L 216 88 L 260 80 L 304 85 L 348 81\" stroke=\"#12202E\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"122\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"84\" cy=\"116\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"128\" cy=\"86\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"172\" cy=\"84\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"216\" cy=\"88\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"260\" cy=\"80\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"304\" cy=\"85\" r=\"8\" fill=\"#008A7E\"/><circle cx=\"348\" cy=\"81\" r=\"8\" fill=\"#008A7E\"/><rect x=\"424\" y=\"0\" width=\"392\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"448\" y1=\"110\" x2=\"792\" y2=\"110\" stroke=\"#D9D4C8\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><path d=\"M 464 116 L 508 122 L 552 134 L 596 120 L 640 108 L 684 97 L 728 86 L 772 74\" stroke=\"#12202E\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"464\" cy=\"116\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"508\" cy=\"122\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"552\" cy=\"134\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"596\" cy=\"120\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"640\" cy=\"108\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"684\" cy=\"97\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"728\" cy=\"86\" r=\"8\" fill=\"#B07A1C\"/><circle cx=\"772\" cy=\"74\" r=\"8\" fill=\"#B07A1C\"/><rect x=\"848\" y=\"0\" width=\"392\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"872\" y1=\"110\" x2=\"1216\" y2=\"110\" stroke=\"#D9D4C8\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><path d=\"M 888 134 L 932 86 L 976 136 L 1020 84 L 1064 134 L 1108 88 L 1152 132 L 1196 86\" stroke=\"#12202E\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"888\" cy=\"134\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"932\" cy=\"86\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"976\" cy=\"136\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1020\" cy=\"84\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1064\" cy=\"134\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1108\" cy=\"88\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1152\" cy=\"132\" r=\"8\" fill=\"#3A6EA5\"/><circle cx=\"1196\" cy=\"86\" r=\"8\" fill=\"#3A6EA5\"/><rect x=\"1272\" y=\"0\" width=\"392\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1296\" y1=\"110\" x2=\"1640\" y2=\"110\" stroke=\"#D9D4C8\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><path d=\"M 1312 110 L 1356 116 L 1400 104 L 1444 112 L 1488 56 L 1532 108 L 1576 114 L 1620 110\" stroke=\"#12202E\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"1312\" cy=\"110\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1356\" cy=\"116\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1400\" cy=\"104\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1444\" cy=\"112\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1488\" cy=\"56\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1532\" cy=\"108\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1576\" cy=\"114\" r=\"8\" fill=\"#A8322A\"/><circle cx=\"1620\" cy=\"110\" r=\"8\" fill=\"#A8322A\"/><rect x=\"0\" y=\"380\" width=\"1664\" height=\"60\" rx=\"12\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 186,
+     "w": 352,
+     "t": "deslocamento",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 236,
+     "w": 352,
+     "t": "6+ pontos seguidos de um lado da mediana",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 444,
+     "y": 186,
+     "w": 352,
+     "t": "tendência",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 444,
+     "y": 236,
+     "w": 352,
+     "t": "5+ pontos seguidos subindo ou descendo",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 868,
+     "y": 186,
+     "w": 352,
+     "t": "sequências",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 868,
+     "y": 236,
+     "w": 352,
+     "t": "cruza a mediana poucas ou muitas vezes",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1292,
+     "y": 186,
+     "w": 352,
+     "t": "ponto astronômico",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1292,
+     "y": 236,
+     "w": 352,
+     "t": "um valor muito diferente dos outros",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 394,
+     "w": 1624,
+     "t": "cada regra: menos de 5% de chance de aparecer só por acaso",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Ler com regra, e não com vontade",
+   "titulo": "Quatro regras dizem quando o gráfico mostra uma mudança de verdade",
+   "fonte": "Perla, Provost e Murray, BMJ Qual Saf, 2011"
+  },
+  {
+   "id": "painel",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Painel com três linhas. Processo: deslocamento acima da mediana, a mudança aconteceu. Resultado: duas lesões no semestre, relatado, sem conclusão. Equilíbrio: minutos com bola mantidos, técnico a favor. A frase do projeto: o programa passou a ser feito, sem custo para o treino. Valores ilustrativos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"260\" height=\"80\" rx=\"14\" fill=\"#008A7E\"/><g transform=\"translate(20.0 16.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"0\" y=\"96\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"96\" width=\"260\" height=\"80\" rx=\"14\" fill=\"#3A6EA5\"/><g transform=\"translate(20.0 112.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"0\" y=\"192\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"192\" width=\"260\" height=\"80\" rx=\"14\" fill=\"#B07A1C\"/><g transform=\"translate(20.0 208.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><rect x=\"0\" y=\"310\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 22,
+     "w": 170,
+     "t": "processo",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 22,
+     "w": 1350,
+     "t": "deslocamento acima da mediana: a mudança aconteceu",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 118,
+     "w": 170,
+     "t": "resultado",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 118,
+     "w": 1350,
+     "t": "duas lesões no semestre: relatado, sem conclusão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 214,
+     "w": 170,
+     "t": "equilíbrio",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 290,
+     "y": 214,
+     "w": 1350,
+     "t": "minutos com bola mantidos; técnico a favor",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 330,
+     "w": 1624,
+     "t": "“o programa passou a ser feito, sem custo para o treino”, e não “reduzimos lesões”",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 398,
+     "w": 1664,
+     "t": "valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "No fim do semestre",
+   "titulo": "Os três indicadores juntos dizem o que o projeto pode afirmar"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Projeto aplicado: método e indicadores",
+   "titulo": "Medir o processo, com regra, antes de afirmar o resultado",
+   "regras": [
+    "Três indicadores: processo, resultado e equilíbrio",
+    "Definição escrita e linha de base antes de mudar",
+    "Gráfico de sequência lido com as quatro regras"
+   ],
+   "cards": [
+    {
+     "ic": "t:user",
+     "t": "O aluno",
+     "x": "Define, conta e desenha o gráfico toda semana."
+    },
+    {
+     "ic": "t:clipboard-list",
+     "t": "Quem conta no lugar",
+     "x": "Usa a mesma ficha do começo ao fim."
+    },
+    {
+     "ic": "t:book",
+     "t": "O orientador",
+     "x": "Confere a definição antes da contagem e as regras antes da conclusão."
+    }
+   ]
+  }
+ ],
+ "modulo": "Integração, Gestão e Projeto Aplicado",
+ "tema": "oliva"
+}
