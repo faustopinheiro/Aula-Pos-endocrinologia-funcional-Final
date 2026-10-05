@@ -1,0 +1,1194 @@
+{
+ "arquivo": "aulas/MOD14/14-10-projeto-aplicado-estrutura-da-defesa.md",
+ "titulo": "Projeto aplicado: estrutura da defesa",
+ "subtitulo": "Seis passos para a banca, e o que o curso deixa",
+ "nota_capa": "Entra por um cronômetro de dez minutos. Fecha o módulo e o curso.",
+ "secoes": {
+  "relogio": [
+   "A defesa em seis passos.",
+   "capa"
+  ],
+  "limites": [
+   "Limites e continuidade.",
+   "limites"
+  ],
+  "kit": [
+   "O que o curso deixa.",
+   "kit"
+  ],
+  "fecho": [
+   "O fecho do módulo e do curso.",
+   "fecho"
+  ]
+ },
+ "slides": [
+  {
+   "id": "relogio",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Um cronômetro marcando 10:00. Uma mesa com quatro pessoas de profissões diferentes: medicina, fisioterapia, educação física e nutrição. Do outro lado, a fisioterapeuta da escolinha, com uma folha na mão. Dez minutos, quatro olhares\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"200\" cy=\"210\" r=\"160\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"8\"/><rect x=\"180\" y=\"26\" width=\"40\" height=\"30\" rx=\"6\" fill=\"#A8322A\"/><circle cx=\"560\" cy=\"97\" r=\"17\" fill=\"#3A6EA5\"/><rect x=\"537\" y=\"120\" width=\"46\" height=\"86\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"541\" y=\"198\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"564\" y=\"198\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#3A6EA5\"/><circle cx=\"750\" cy=\"97\" r=\"17\" fill=\"#008A7E\"/><rect x=\"727\" y=\"120\" width=\"46\" height=\"86\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"731\" y=\"198\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"754\" y=\"198\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#008A7E\"/><circle cx=\"940\" cy=\"97\" r=\"17\" fill=\"#B07A1C\"/><rect x=\"917\" y=\"120\" width=\"46\" height=\"86\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"921\" y=\"198\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#B07A1C\"/><rect x=\"944\" y=\"198\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#B07A1C\"/><circle cx=\"1130\" cy=\"97\" r=\"17\" fill=\"#A8322A\"/><rect x=\"1107\" y=\"120\" width=\"46\" height=\"86\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"1111\" y=\"198\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"1134\" y=\"198\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"460\" y=\"262\" width=\"760\" height=\"34\" rx=\"8\" fill=\"#12202E\"/><circle cx=\"1460\" cy=\"163\" r=\"23\" fill=\"#12202E\"/><rect x=\"1429\" y=\"193\" width=\"62\" height=\"117\" rx=\"13\" fill=\"#12202E\"/><rect x=\"1434\" y=\"301\" width=\"21\" height=\"99\" rx=\"6\" fill=\"#12202E\"/><rect x=\"1465\" y=\"301\" width=\"21\" height=\"99\" rx=\"6\" fill=\"#12202E\"/><rect x=\"1490\" y=\"250\" width=\"60\" height=\"78\" rx=\"4\" fill=\"#F7F6F2\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 60,
+     "y": 170,
+     "w": 280,
+     "t": "10:00",
+     "tam": 64,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 470,
+     "y": 320,
+     "w": 180,
+     "t": "medicina",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 320,
+     "w": 180,
+     "t": "fisioterapia",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 850,
+     "y": 320,
+     "w": 180,
+     "t": "educação física",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 320,
+     "w": 180,
+     "t": "nutrição",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1330,
+     "y": 20,
+     "w": 334,
+     "t": "a fisioterapeuta da escolinha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 390,
+     "w": 760,
+     "t": "dez minutos, quatro olhares",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O projeto aplicado diante da banca",
+   "titulo": "Dez minutos para uma banca de quatro profissões"
+  },
+  {
+   "id": "roteiro",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Barra de tempo de dez minutos em sete blocos: o problema numa frase, 1 min; a linha de base e a definição, 1,5 min; a mudança e os ciclos, 2 min; o gráfico e as regras, 2 min; os três indicadores e os limites, 1,5 min; o que fica no lugar, 1 min; folga, 1 min. Sugestão de tempo; siga a regra da sua banca\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"3\" y=\"40\" width=\"160\" height=\"110\" rx=\"12\" fill=\"#3A6EA5\" opacity=\"1\"/><rect x=\"169\" y=\"40\" width=\"244\" height=\"110\" rx=\"12\" fill=\"#008A7E\" opacity=\"1\"/><rect x=\"419\" y=\"40\" width=\"327\" height=\"110\" rx=\"12\" fill=\"#B07A1C\" opacity=\"1\"/><rect x=\"752\" y=\"40\" width=\"327\" height=\"110\" rx=\"12\" fill=\"#A8322A\" opacity=\"1\"/><rect x=\"1085\" y=\"40\" width=\"244\" height=\"110\" rx=\"12\" fill=\"#3A6EA5\" opacity=\"1\"/><rect x=\"1334\" y=\"40\" width=\"160\" height=\"110\" rx=\"12\" fill=\"#008A7E\" opacity=\"1\"/><rect x=\"1501\" y=\"40\" width=\"160\" height=\"110\" rx=\"12\" fill=\"#6B7A87\" opacity=\"0.45\"/></svg>",
+   "rotulos": [
+    {
+     "x": 6,
+     "y": 76,
+     "w": 154,
+     "t": "1 min",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 6,
+     "y": 176,
+     "w": 154,
+     "t": "o problema, numa frase",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 172,
+     "y": 76,
+     "w": 238,
+     "t": "1,5 min",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 172,
+     "y": 176,
+     "w": 238,
+     "t": "a linha de base e a definição",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 422,
+     "y": 76,
+     "w": 321,
+     "t": "2 min",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 422,
+     "y": 176,
+     "w": 321,
+     "t": "a mudança e os ciclos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 755,
+     "y": 76,
+     "w": 321,
+     "t": "2 min",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 755,
+     "y": 176,
+     "w": 321,
+     "t": "o gráfico e as regras",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1088,
+     "y": 76,
+     "w": 238,
+     "t": "1,5 min",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1088,
+     "y": 176,
+     "w": 238,
+     "t": "os três indicadores e os limites",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1337,
+     "y": 76,
+     "w": 154,
+     "t": "1 min",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1337,
+     "y": 176,
+     "w": 154,
+     "t": "o que fica no lugar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1504,
+     "y": 76,
+     "w": 154,
+     "t": "1 min",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1504,
+     "y": 176,
+     "w": 154,
+     "t": "folga",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 300,
+     "w": 1664,
+     "t": "a ordem segue as três perguntas do modelo de melhoria: meta, medida, mudança",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 370,
+     "w": 1664,
+     "t": "sugestão de tempo · siga a regra da sua banca",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 1",
+   "titulo": "O roteiro dá a cada bloco um tempo e uma ordem"
+  },
+  {
+   "id": "banca",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Os quatro membros da banca, cada um com uma pergunta. Medicina: é seguro, e para quem não é? Fisioterapia: a dose e a execução estão certas? Educação física: isso cabe no treino? Nutrição: o que mais muda na rotina dessas atletas? Cada profissão escuta uma coisa\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"392\" height=\"200\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 60 200 L 90 236 L 120 200\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"62\" y=\"194\" width=\"56\" height=\"8\" fill=\"#FDFCF9\"/><g transform=\"translate(60.0 260.0) scale(1.2500)\"><path fill=\"#3A6EA5\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g><rect x=\"424\" y=\"0\" width=\"392\" height=\"200\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 484 200 L 514 236 L 544 200\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"486\" y=\"194\" width=\"56\" height=\"8\" fill=\"#FDFCF9\"/><g transform=\"translate(484.0 260.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"848\" y=\"0\" width=\"392\" height=\"200\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 908 200 L 938 236 L 968 200\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"910\" y=\"194\" width=\"56\" height=\"8\" fill=\"#FDFCF9\"/><g transform=\"translate(908.0 260.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"1272\" y=\"0\" width=\"392\" height=\"200\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 1332 200 L 1362 236 L 1392 200\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1334\" y=\"194\" width=\"56\" height=\"8\" fill=\"#FDFCF9\"/><g transform=\"translate(1332.0 260.0) scale(2.5000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><rect x=\"0\" y=\"350\" width=\"1664\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 22,
+     "y": 40,
+     "w": 348,
+     "t": "é seguro, e para quem não é?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 136,
+     "y": 274,
+     "w": 250,
+     "t": "medicina",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 446,
+     "y": 40,
+     "w": 348,
+     "t": "a dose e a execução estão certas?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 274,
+     "w": 250,
+     "t": "fisioterapia",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 870,
+     "y": 40,
+     "w": 348,
+     "t": "isso cabe no treino, ou rouba tempo da bola?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 274,
+     "w": 250,
+     "t": "educação física",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1294,
+     "y": 40,
+     "w": 348,
+     "t": "o que mais muda na rotina dessas atletas?",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3,
+     "serif": true
+    },
+    {
+     "x": 1408,
+     "y": 274,
+     "w": 250,
+     "t": "nutrição",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 368,
+     "w": 1624,
+     "t": "uma frase de resposta para cada pergunta, escrita antes da defesa",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 2",
+   "titulo": "Cada profissão da banca escuta o projeto com uma pergunta"
+  },
+  {
+   "id": "falhou",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"O gráfico de sequência da escolinha, com as semanas do primeiro ciclo marcadas: a capitã conduzia, mas não se espalhou. Ao lado, um cartão: o que não funcionou e o que aprendemos. O ciclo que falhou entra na defesa. Valores ilustrativos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"404\" y=\"30\" width=\"111\" height=\"330\" fill=\"#F4EAD6\"/><line x1=\"80\" y1=\"360\" x2=\"1060\" y2=\"360\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><line x1=\"80\" y1=\"278\" x2=\"1060\" y2=\"278\" stroke=\"#3A6EA5\" stroke-width=\"3\" stroke-dasharray=\"12 8\"/><path d=\"M 100 278 L 155 278 L 211 360 L 266 195 L 321 278 L 376 278 L 432 278 L 487 195 L 542 195 L 598 112 L 653 195 L 708 112 L 764 112 L 819 30 L 874 112 L 929 112 L 985 30 L 1040 112\" stroke=\"#12202E\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"100\" cy=\"278\" r=\"9\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"155\" cy=\"278\" r=\"9\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"211\" cy=\"360\" r=\"9\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"266\" cy=\"195\" r=\"9\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"321\" cy=\"278\" r=\"9\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"376\" cy=\"278\" r=\"9\" fill=\"#6B7A87\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"432\" cy=\"278\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"487\" cy=\"195\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"542\" cy=\"195\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"598\" cy=\"112\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"653\" cy=\"195\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"708\" cy=\"112\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"764\" cy=\"112\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"819\" cy=\"30\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"874\" cy=\"112\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"929\" cy=\"112\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"985\" cy=\"30\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><circle cx=\"1040\" cy=\"112\" r=\"9\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"1120\" y=\"0\" width=\"544\" height=\"420\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 392,
+     "y": 372,
+     "w": 200,
+     "t": "ciclo 1",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 380,
+     "w": 300,
+     "t": "valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1150,
+     "y": 30,
+     "w": 484,
+     "t": "o que não funcionou",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 90,
+     "w": 484,
+     "t": "a capitã conduzia na sessão dela, e a prática não se espalhou",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1150,
+     "y": 210,
+     "w": 484,
+     "t": "o que aprendemos",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 270,
+     "w": 484,
+     "t": "o aquecimento precisava estar dentro do treino, com bola, em todas as sessões",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Passo 3",
+   "titulo": "O ciclo que falhou explica o que deu certo, e entra na defesa"
+  },
+  {
+   "id": "limites",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três frases numa ficha. O que mostramos: o aquecimento completo passou a ser feito, com deslocamento acima da mediana. O que não podemos dizer: se houve menos lesões; o grupo e o tempo não permitem. O que faríamos a seguir: manter a contagem por um ano e comparar com outra categoria\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"0\" width=\"380\" height=\"100\" rx=\"14\" fill=\"#008A7E\"/><rect x=\"0\" y=\"116\" width=\"1664\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"116\" width=\"380\" height=\"100\" rx=\"14\" fill=\"#A8322A\"/><rect x=\"0\" y=\"232\" width=\"1664\" height=\"100\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"232\" width=\"380\" height=\"100\" rx=\"14\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 32,
+     "w": 340,
+     "t": "o que mostramos",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 410,
+     "y": 32,
+     "w": 1230,
+     "t": "o aquecimento completo passou a ser feito, com deslocamento acima da mediana",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 148,
+     "w": 340,
+     "t": "o que não podemos dizer",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 410,
+     "y": 148,
+     "w": 1230,
+     "t": "se houve menos lesões: o grupo e o tempo não permitem",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 264,
+     "w": 340,
+     "t": "o que faríamos a seguir",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 410,
+     "y": 264,
+     "w": 1230,
+     "t": "manter a contagem por um ano e comparar com outra categoria do clube",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 366,
+     "w": 1664,
+     "t": "quem diz o limite primeiro controla a conversa · valores do exemplo, ilustrativos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 4",
+   "titulo": "Os limites cabem em três frases, ditas antes da banca perguntar"
+  },
+  {
+   "id": "fica",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A escolinha um ano depois. Uma cadeira vazia: a aluna já saiu. Três coisas ficaram: o dono da medida, a auxiliar técnica; a ficha, na pasta da categoria; a mudança, escrita no protocolo do clube, com responsável e data de revisão. O projeto fica quando tem dono, ficha e papel\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><path d=\"M 130 110 L 130 330 M 130 230 L 300 230 L 300 330\" stroke=\"#6B7A87\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"110\" y=\"214\" width=\"200\" height=\"22\" rx=\"6\" fill=\"#6B7A87\"/><rect x=\"440\" y=\"0\" width=\"388\" height=\"320\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(464.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"852\" y=\"0\" width=\"388\" height=\"320\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(876.0 24.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"1264\" y=\"0\" width=\"388\" height=\"320\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1288.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 360,
+     "w": 340,
+     "t": "a aluna já saiu",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 536,
+     "y": 36,
+     "w": 270,
+     "t": "dono",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 464,
+     "y": 120,
+     "w": 340,
+     "t": "a auxiliar técnica, que já contava",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 948,
+     "y": 36,
+     "w": 270,
+     "t": "ficha",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 876,
+     "y": 120,
+     "w": 340,
+     "t": "na pasta da categoria, e não no computador da aluna",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1360,
+     "y": 36,
+     "w": 270,
+     "t": "papel",
+     "tam": 32,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1288,
+     "y": 120,
+     "w": 340,
+     "t": "no protocolo do clube, com responsável e data de revisão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 440,
+     "y": 360,
+     "w": 1224,
+     "t": "o projeto fica quando tem dono, ficha e papel",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 5",
+   "titulo": "A banca quer saber o que acontece depois que você sai"
+  },
+  {
+   "id": "ensaio",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A fisioterapeuta falando em pé, um cronômetro na mesa e duas pessoas assistindo: uma técnica do clube e um colega de outra profissão. Três cartões com perguntas difíceis na parede. Ensaiar em voz alta, cronometrado, para quem não é da sua área\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><circle cx=\"160\" cy=\"145\" r=\"25\" fill=\"#008A7E\"/><rect x=\"126\" y=\"176\" width=\"67\" height=\"126\" rx=\"14\" fill=\"#008A7E\"/><rect x=\"132\" y=\"294\" width=\"22\" height=\"106\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"166\" y=\"294\" width=\"22\" height=\"106\" rx=\"6\" fill=\"#008A7E\"/><rect x=\"300\" y=\"300\" width=\"300\" height=\"20\" rx=\"6\" fill=\"#12202E\"/><g transform=\"translate(410.0 236.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><circle cx=\"720\" cy=\"227\" r=\"17\" fill=\"#6B7A87\"/><rect x=\"697\" y=\"250\" width=\"46\" height=\"86\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"701\" y=\"328\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#6B7A87\"/><rect x=\"724\" y=\"328\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#6B7A87\"/><circle cx=\"880\" cy=\"227\" r=\"17\" fill=\"#3A6EA5\"/><rect x=\"857\" y=\"250\" width=\"46\" height=\"86\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"861\" y=\"328\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"884\" y=\"328\" width=\"15\" height=\"72\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"1040\" y=\"20\" width=\"180\" height=\"120\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\" transform=\"rotate(-3 1130 80)\"/><rect x=\"1250\" y=\"20\" width=\"180\" height=\"120\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\" transform=\"rotate(2 1340 80)\"/><rect x=\"1460\" y=\"20\" width=\"180\" height=\"120\" rx=\"10\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\" transform=\"rotate(-2 1550 80)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 640,
+     "y": 150,
+     "w": 160,
+     "t": "técnica",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 150,
+     "w": 160,
+     "t": "outra profissão",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1040,
+     "y": 50,
+     "w": 180,
+     "t": "?",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1250,
+     "y": 50,
+     "w": 180,
+     "t": "?",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1460,
+     "y": 50,
+     "w": 180,
+     "t": "?",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1040,
+     "y": 170,
+     "w": 600,
+     "t": "três perguntas difíceis, três respostas curtas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 250,
+     "w": 600,
+     "t": "em voz alta, com cronômetro, pelo menos duas vezes",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1040,
+     "y": 330,
+     "w": 600,
+     "t": "slide que precisa ser lido: carregado demais",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 6",
+   "titulo": "O ensaio é o lugar barato para descobrir o que não se entende"
+  },
+  {
+   "id": "kit",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Uma caixa de ferramentas aberta com oito instrumentos: ficha de anamnese; painel de carga; critérios de passagem e de retorno; plano de emergência do local; auditoria de suplemento; fluxo de encaminhamento; registro de decisão; acordo de informação. Na tampa: o projeto aplicado, a frase do problema e o gráfico de sequência\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><rect x=\"0\" y=\"96\" width=\"392\" height=\"156\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(20.0 116.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><rect x=\"424\" y=\"96\" width=\"392\" height=\"156\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(444.0 116.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g><rect x=\"848\" y=\"96\" width=\"392\" height=\"156\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(868.0 116.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 19a2 2 0 1 0 4 0a2 2 0 0 0-4 0M19 7a2 2 0 1 0 0-4a2 2 0 0 0 0 4m-8 12h5.5a3.5 3.5 0 0 0 0-7h-8a3.5 3.5 0 0 1 0-7H13\"/></g><rect x=\"1272\" y=\"96\" width=\"392\" height=\"156\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1292.0 116.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 8V6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M4 10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm6 4h4m-2-2v4\"/></g><rect x=\"0\" y=\"272\" width=\"392\" height=\"156\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(20.0 292.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><rect x=\"424\" y=\"272\" width=\"392\" height=\"156\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(444.0 292.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 10h14l-4-4m0 8H3l4 4\"/></g><rect x=\"848\" y=\"272\" width=\"392\" height=\"156\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(868.0 292.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M20 17V5c0-1.121-.879-2-2-2s-2 .879-2 2v12l2 2zM16 7h4m-2 12H5a2 2 0 1 1 0-4h4a2 2 0 1 0 0-4H6\"/></g><rect x=\"1272\" y=\"272\" width=\"392\" height=\"156\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1292.0 292.0) scale(2.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 18,
+     "w": 1624,
+     "t": "na tampa: o projeto aplicado, a frase do problema e o gráfico de sequência",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 84,
+     "y": 118,
+     "w": 290,
+     "t": "ficha de anamnese",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 84,
+     "y": 204,
+     "w": 290,
+     "t": "avaliação pré-participação",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 508,
+     "y": 118,
+     "w": 290,
+     "t": "painel de carga",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 508,
+     "y": 204,
+     "w": 290,
+     "t": "carga interna e externa",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 932,
+     "y": 118,
+     "w": 290,
+     "t": "critérios de passagem e de retorno",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 932,
+     "y": 204,
+     "w": 290,
+     "t": "reabilitação",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1356,
+     "y": 118,
+     "w": 290,
+     "t": "plano de emergência do local",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1356,
+     "y": 204,
+     "w": 290,
+     "t": "cadeia de sobrevivência",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 84,
+     "y": 294,
+     "w": 290,
+     "t": "auditoria de suplemento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 84,
+     "y": 380,
+     "w": 290,
+     "t": "evidência e lote",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 508,
+     "y": 294,
+     "w": 290,
+     "t": "fluxo de encaminhamento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 508,
+     "y": 380,
+     "w": 290,
+     "t": "saúde mental",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 932,
+     "y": 294,
+     "w": 290,
+     "t": "registro de decisão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 932,
+     "y": 380,
+     "w": 290,
+     "t": "seis linhas",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1356,
+     "y": 294,
+     "w": 290,
+     "t": "acordo de informação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1356,
+     "y": 380,
+     "w": 290,
+     "t": "ética e sigilo",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que o curso deixa",
+   "titulo": "O curso deixa oito instrumentos e um método para melhorá-los"
+  },
+  {
+   "id": "curso",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Um caminho com catorze marcos, um por módulo: fundamentos e trabalho multiprofissional; fisiologia; hormônios; nutrição; suplementos; clínica; lesões; reabilitação; treino e carga; saúde mental; a atleta mulher; adolescente e idoso; o amador; integração. O caminho termina numa porta: segunda-feira, no seu lugar\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><path d=\"M 300 120 L 1560 120 A 90 90 0 0 1 1560 300 L 170 300\" stroke=\"#D9D4C8\" stroke-width=\"14\" fill=\"none\" stroke-linecap=\"round\"/><circle cx=\"300\" cy=\"120\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"510\" cy=\"120\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"720\" cy=\"120\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"930\" cy=\"120\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"1140\" cy=\"120\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"1350\" cy=\"120\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"1560\" cy=\"120\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"1560\" cy=\"300\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"1350\" cy=\"300\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"1140\" cy=\"300\" r=\"16\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"930\" cy=\"300\" r=\"16\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"720\" cy=\"300\" r=\"16\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"510\" cy=\"300\" r=\"16\" fill=\"#B07A1C\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><circle cx=\"300\" cy=\"300\" r=\"16\" fill=\"#008A7E\" stroke=\"#F7F6F2\" stroke-width=\"4\"/><rect x=\"40\" y=\"220\" width=\"110\" height=\"170\" rx=\"8\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><circle cx=\"130\" cy=\"310\" r=\"8\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 200,
+     "y": 40,
+     "w": 200,
+     "t": "1 · fundamentos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 410,
+     "y": 40,
+     "w": 200,
+     "t": "2 · fisiologia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 620,
+     "y": 40,
+     "w": 200,
+     "t": "3 · hormônios",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 830,
+     "y": 40,
+     "w": 200,
+     "t": "4 · nutrição",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1040,
+     "y": 40,
+     "w": 200,
+     "t": "5 · suplementos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1250,
+     "y": 40,
+     "w": 200,
+     "t": "6 · clínica",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1460,
+     "y": 40,
+     "w": 200,
+     "t": "7 · lesões",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1460,
+     "y": 330,
+     "w": 200,
+     "t": "8 · reabilitação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1250,
+     "y": 330,
+     "w": 200,
+     "t": "9 · treino e carga",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1040,
+     "y": 330,
+     "w": 200,
+     "t": "10 · saúde mental",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 830,
+     "y": 330,
+     "w": 200,
+     "t": "11 · a atleta mulher",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 620,
+     "y": 330,
+     "w": 200,
+     "t": "12 · adolescente e idoso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 410,
+     "y": 330,
+     "w": 200,
+     "t": "13 · o amador",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 200,
+     "y": 330,
+     "w": 200,
+     "t": "14 · integração",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 140,
+     "w": 200,
+     "t": "segunda-feira, no seu lugar",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O caminho do curso",
+   "titulo": "Ninguém cuida de um atleta sozinho, do primeiro módulo ao último"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Fecho do módulo e do curso · três níveis",
+   "titulo": "Da parte que cada um sabe ao cuidado que a equipe sustenta",
+   "regras": [
+    "Decisão: um dono por passagem, protocolo fora da gaveta, registro com o que se sabia, sigilo em duas camadas, problema antes da solução",
+    "Contribuição: o atleta que assina o acordo, quem conta no treino, a família, a capitã, a diretoria que guarda o protocolo",
+    "Reconhecimento: a passagem sem dono, o corte de peso, a menstruação que parou, o “liberada, sem queixas”, dois números como prova"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Quem decide",
+     "x": "Explica, registra e repete a decisão, com a equipe."
+    },
+    {
+     "ic": "t:users",
+     "t": "Quem contribui",
+     "x": "Atleta, técnico, auxiliar, família e diretoria."
+    },
+    {
+     "ic": "t:flag",
+     "t": "Próximo passo",
+     "x": "A banca, e depois a segunda-feira no seu lugar."
+    }
+   ]
+  }
+ ],
+ "modulo": "Integração, Gestão e Projeto Aplicado",
+ "tema": "oliva"
+}
