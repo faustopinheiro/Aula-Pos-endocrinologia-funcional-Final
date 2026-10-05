@@ -1,0 +1,1200 @@
+{
+ "arquivo": "aulas/MOD13/13-04-avaliacao-pre-participacao-no-amador.md",
+ "titulo": "Avaliação pré-participação no amador",
+ "subtitulo": "Até onde ir com exames antes de começar",
+ "nota_capa": "Entra por um homem na casa dos cinquenta que quer todos os exames antes do padel.",
+ "secoes": {
+  "padel": [
+   "O pedido.",
+   "capa"
+  ],
+  "escada": [
+   "A escada.",
+   "escada"
+  ],
+  "quadra": [
+   "O que protege de fato.",
+   "quadra"
+  ]
+ },
+ "slides": [
+  {
+   "id": "padel",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Raquete de padel e bola sobre um pedido de exames com cinco linhas marcadas: eletrocardiograma, teste ergométrico, ecocardiograma, escore de cálcio, exames de sangue completos. Perfil: casa dos cinquenta, parado há dez anos, pressão tratada, ex-fumante, sem sintomas. Três saídas: libera com rampa, investiga antes do vigoroso, não libera até avaliar\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><rect x=\"10\" y=\"20\" width=\"170\" height=\"187\" rx=\"82\" fill=\"#3A6EA5\"/><circle cx=\"64\" cy=\"71\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"95\" cy=\"71\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"126\" cy=\"71\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"64\" cy=\"102\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"95\" cy=\"102\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"126\" cy=\"102\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"64\" cy=\"132\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"95\" cy=\"132\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"126\" cy=\"132\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"64\" cy=\"163\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"95\" cy=\"163\" r=\"7\" fill=\"#F7F6F2\"/><circle cx=\"126\" cy=\"163\" r=\"7\" fill=\"#F7F6F2\"/><rect x=\"78\" y=\"197\" width=\"34\" height=\"95\" rx=\"14\" fill=\"#3A6EA5\"/><circle cx=\"200\" cy=\"250\" r=\"26\" fill=\"#B07A1C\"/><rect x=\"260\" y=\"0\" width=\"520\" height=\"300\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"284\" y=\"74\" width=\"24\" height=\"24\" rx=\"4\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 288 86 L 295 93 L 306 78\" stroke=\"#A8322A\" stroke-width=\"4\" fill=\"none\"/><rect x=\"284\" y=\"118\" width=\"24\" height=\"24\" rx=\"4\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 288 130 L 295 137 L 306 122\" stroke=\"#A8322A\" stroke-width=\"4\" fill=\"none\"/><rect x=\"284\" y=\"162\" width=\"24\" height=\"24\" rx=\"4\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 288 174 L 295 181 L 306 166\" stroke=\"#A8322A\" stroke-width=\"4\" fill=\"none\"/><rect x=\"284\" y=\"206\" width=\"24\" height=\"24\" rx=\"4\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 288 218 L 295 225 L 306 210\" stroke=\"#A8322A\" stroke-width=\"4\" fill=\"none\"/><rect x=\"284\" y=\"250\" width=\"24\" height=\"24\" rx=\"4\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 288 262 L 295 269 L 306 254\" stroke=\"#A8322A\" stroke-width=\"4\" fill=\"none\"/><rect x=\"820\" y=\"0\" width=\"844\" height=\"300\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"340\" width=\"536\" height=\"110\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"564\" y=\"340\" width=\"536\" height=\"110\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1128\" y=\"340\" width=\"536\" height=\"110\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 284,
+     "y": 16,
+     "w": 472,
+     "t": "Pedido de exames",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 322,
+     "y": 70,
+     "w": 440,
+     "t": "eletrocardiograma",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 322,
+     "y": 114,
+     "w": 440,
+     "t": "teste ergométrico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 322,
+     "y": 158,
+     "w": 440,
+     "t": "ecocardiograma",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 322,
+     "y": 202,
+     "w": 440,
+     "t": "escore de cálcio",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 322,
+     "y": 246,
+     "w": 440,
+     "t": "exames de sangue completos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 18,
+     "w": 796,
+     "t": "O perfil",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 844,
+     "y": 80,
+     "w": 796,
+     "t": "casa dos cinquenta, parado há dez anos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 132,
+     "w": 796,
+     "t": "pressão tratada com um remédio",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 184,
+     "w": 796,
+     "t": "parou de fumar há cinco anos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 236,
+     "w": 796,
+     "t": "nenhum sintoma",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 372,
+     "w": 496,
+     "t": "libera com rampa",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 584,
+     "y": 372,
+     "w": 496,
+     "t": "investiga antes do vigoroso",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1148,
+     "y": 372,
+     "w": 496,
+     "t": "não libera até avaliar",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Padel, um homem na casa dos cinquenta",
+   "titulo": "Antes de começar, ele pediu todos os exames"
+  },
+  {
+   "id": "risco",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Esquema fora de escala do risco ao longo de um dia: baixo no repouso, um pico durante o esforço vigoroso e nos 30 minutos seguintes. Risco relativo de 16,9 vezes. Risco absoluto de uma morte súbita a cada 1,51 milhão de episódios de esforço. 21.481 médicos homens, 12 anos de seguimento. Menor em quem se exercitava com frequência, sem desaparecer\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><line x1=\"0\" y1=\"360\" x2=\"860\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"360\" y=\"40\" width=\"200\" height=\"320\" fill=\"#F3E1DE\"/><path d=\"M 0 330 L 360 330 L 380 70 L 460 70 L 560 300 L 600 330 L 860 330\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\" stroke-linejoin=\"round\"/><rect x=\"920\" y=\"0\" width=\"360\" height=\"220\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1304\" y=\"0\" width=\"360\" height=\"220\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"920\" y=\"250\" width=\"744\" height=\"200\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(944.0 280.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"m3 7l6 6l4-4l8 8\"/><path d=\"M21 10v7h-7\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 372,
+     "w": 300,
+     "t": "repouso",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 372,
+     "w": 220,
+     "t": "esforço e 30 minutos",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 372,
+     "w": 260,
+     "t": "repouso",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 400,
+     "t": "esquema fora de escala",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 20,
+     "w": 320,
+     "t": "16,9×",
+     "tam": 64,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 940,
+     "y": 120,
+     "w": 320,
+     "t": "risco relativo no esforço vigoroso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1324,
+     "y": 20,
+     "w": 320,
+     "t": "1 em 1,51 milhão",
+     "tam": 36,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1324,
+     "y": 120,
+     "w": 320,
+     "t": "episódios de esforço: o risco absoluto",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1016,
+     "y": 276,
+     "w": 624,
+     "t": "menor em quem se exercitava com frequência, sem desaparecer",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 944,
+     "y": 380,
+     "w": 696,
+     "t": "21.481 médicos homens · 12 anos",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O tamanho do risco que ele quer descartar",
+   "titulo": "Na hora, o risco sobe dezessete vezes, e continua raríssimo",
+   "fonte": "N Engl J Med 2000"
+  },
+  {
+   "id": "escada",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"Escada de quatro degraus. Degrau 1, perguntas: sintoma no esforço, doença conhecida, intensidade pretendida. Degrau 2, exame e risco calculado. Degrau 3, teste ergométrico. Degrau 4, além: escore de cálcio, ecocardiograma. Só se sobe com uma pergunta que o degrau de baixo não respondeu. O pedido dele começa no degrau 4\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"320\" width=\"400\" height=\"150\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"416\" y=\"230\" width=\"400\" height=\"240\" rx=\"14\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"356\" y1=\"350\" x2=\"406\" y2=\"270\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"832\" y=\"140\" width=\"400\" height=\"330\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"772\" y1=\"260\" x2=\"822\" y2=\"180\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1248\" y=\"50\" width=\"400\" height=\"420\" rx=\"14\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1188\" y1=\"170\" x2=\"1238\" y2=\"90\" stroke=\"#6B7A87\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><line x1=\"1460\" y1=\"16\" x2=\"1460\" y2=\"40\" stroke=\"#A8322A\" stroke-width=\"3\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 334,
+     "w": 368,
+     "t": "1 · perguntas",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 16,
+     "y": 380,
+     "w": 368,
+     "t": "sintoma no esforço · doença conhecida · intensidade pretendida",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 432,
+     "y": 244,
+     "w": 368,
+     "t": "2 · exame e risco",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 432,
+     "y": 290,
+     "w": 368,
+     "t": "pressão · colesterol · glicose · risco em dez anos",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 848,
+     "y": 154,
+     "w": 368,
+     "t": "3 · teste ergométrico",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1264,
+     "y": 64,
+     "w": 368,
+     "t": "4 · além",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1264,
+     "y": 110,
+     "w": 368,
+     "t": "escore de cálcio · ecocardiograma",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 40,
+     "w": 1100,
+     "t": "Só se sobe com uma pergunta que o degrau de baixo não respondeu.",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1180,
+     "y": 0,
+     "w": 260,
+     "t": "o pedido dele começa aqui",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A avaliação do amador é uma escada",
+   "titulo": "Cada exame precisa de uma pergunta nova"
+  },
+  {
+   "id": "eletro",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Recomendação de 2018 da força-tarefa de prevenção dos Estados Unidos. Sem sintoma e risco baixo: não rastrear com eletro de repouso nem de esforço, grau D. Sem sintoma e risco intermediário ou alto: evidência insuficiente, I. 16 estudos, 77.140 participantes. Cascata: achado inespecífico, novo exame, procedimento, complicação\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"1080\" height=\"120\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"20\" y=\"20\" width=\"80\" height=\"80\" rx=\"12\" fill=\"#A8322A\"/><rect x=\"0\" y=\"140\" width=\"1080\" height=\"120\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"20\" y=\"160\" width=\"80\" height=\"80\" rx=\"12\" fill=\"#B07A1C\"/><rect x=\"1120\" y=\"0\" width=\"544\" height=\"260\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"0\" y=\"320\" width=\"360\" height=\"100\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"424\" y=\"320\" width=\"360\" height=\"100\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"364\" y1=\"370\" x2=\"416\" y2=\"370\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"848\" y=\"320\" width=\"360\" height=\"100\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"788\" y1=\"370\" x2=\"840\" y2=\"370\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"1272\" y=\"320\" width=\"360\" height=\"100\" rx=\"14\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><line x1=\"1212\" y1=\"370\" x2=\"1264\" y2=\"370\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 36,
+     "w": 80,
+     "t": "D",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 124,
+     "y": 20,
+     "w": 936,
+     "t": "sem sintoma e risco baixo",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 124,
+     "y": 64,
+     "w": 936,
+     "t": "não rastrear com eletro de repouso nem de esforço",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 176,
+     "w": 80,
+     "t": "I",
+     "tam": 40,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 124,
+     "y": 160,
+     "w": 936,
+     "t": "sem sintoma, risco intermediário ou alto",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 124,
+     "y": 204,
+     "w": 936,
+     "t": "evidência insuficiente para pesar benefício e dano",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 24,
+     "w": 496,
+     "t": "16 estudos",
+     "tam": 36,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1144,
+     "y": 80,
+     "w": 496,
+     "t": "77.140 participantes",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1144,
+     "y": 140,
+     "w": 496,
+     "t": "o resultado quase nunca muda a categoria de risco",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 12,
+     "y": 352,
+     "w": 336,
+     "t": "achado inespecífico",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 436,
+     "y": 352,
+     "w": 336,
+     "t": "novo exame",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 352,
+     "w": 336,
+     "t": "procedimento",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1284,
+     "y": 352,
+     "w": 336,
+     "t": "complicação",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 428,
+     "w": 1664,
+     "t": "a cascata da conversa sobre rastreio laboratorial",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O eletro como rastreio, força-tarefa de 2018",
+   "titulo": "Sem sintoma e com risco baixo, o eletro de rastreio não muda o desfecho",
+   "fonte": "JAMA 2018"
+  },
+  {
+   "id": "decisao",
+   "tipo": "diagrama",
+   "h": 470,
+   "svg": "<svg aria-label=\"A escada com as respostas dele. Degrau 1: sem sintoma, sem doença cardiovascular conhecida, quer jogar em intensidade vigorosa. Degrau 2: pressão controlada, colesterol e glicose, risco calculado. Bifurcação: risco baixo, libera com rampa; risco alto ou sintoma, teste ergométrico antes do jogo competitivo. Ecocardiograma e escore de cálcio sem pergunta não entram\" width=\"1664\" height=\"470\" viewBox=\"0 0 1664 470\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"410\" height=\"300\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"440\" y=\"0\" width=\"410\" height=\"300\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"880\" y1=\"110\" x2=\"960\" y2=\"60\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"880\" y1=\"190\" x2=\"960\" y2=\"240\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><rect x=\"980\" y=\"0\" width=\"684\" height=\"130\" rx=\"18\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"980\" y=\"170\" width=\"684\" height=\"130\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"340\" width=\"1664\" height=\"110\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 18,
+     "w": 370,
+     "t": "Degrau 1",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 80,
+     "w": 370,
+     "t": "sem sintoma",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 144,
+     "w": 370,
+     "t": "sem doença cardiovascular conhecida",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 208,
+     "w": 370,
+     "t": "quer jogar em intensidade vigorosa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 460,
+     "y": 18,
+     "w": 370,
+     "t": "Degrau 2",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 80,
+     "w": 370,
+     "t": "pressão controlada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 460,
+     "y": 144,
+     "w": 370,
+     "t": "colesterol e glicose",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 460,
+     "y": 208,
+     "w": 370,
+     "t": "risco calculado em dez anos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1004,
+     "y": 16,
+     "w": 636,
+     "t": "risco baixo",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 56,
+     "w": 636,
+     "t": "libera com rampa",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1004,
+     "y": 186,
+     "w": 636,
+     "t": "risco alto ou sintoma",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 226,
+     "w": 636,
+     "t": "teste ergométrico antes do competitivo",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 376,
+     "w": 1616,
+     "t": "Ecocardiograma e escore de cálcio sem uma pergunta específica não entram.",
+     "tam": 26,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A escada com as respostas dele",
+   "titulo": "Para ele, a decisão para no segundo degrau"
+  },
+  {
+   "id": "quadra",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Silhueta de jogador com quatro regiões numeradas em ordem de frequência: cotovelo, joelho, ombro, lombar. Tendão e músculo são os tipos mais relatados. Revisão de 2023: 8 estudos, 2.022 participantes, idade média de 31 a 57 anos; 3 lesões por mil horas de treino e 8 por mil jogos\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><circle cx=\"200\" cy=\"58\" r=\"38\" fill=\"#DEE7F1\"/><rect x=\"150\" y=\"102\" width=\"101\" height=\"189\" rx=\"21\" fill=\"#DEE7F1\"/><rect x=\"158\" y=\"280\" width=\"34\" height=\"160\" rx=\"6\" fill=\"#DEE7F1\"/><rect x=\"208\" y=\"280\" width=\"34\" height=\"160\" rx=\"6\" fill=\"#DEE7F1\"/><rect x=\"250\" y=\"160\" width=\"26\" height=\"150\" rx=\"10\" fill=\"#DEE7F1\" transform=\"rotate(-30 263 160)\"/><circle cx=\"300\" cy=\"260\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"225\" cy=\"340\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"240\" cy=\"150\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"200\" cy=\"250\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"500\" cy=\"48\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"500\" cy=\"118\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"500\" cy=\"188\" r=\"22\" fill=\"#A8322A\"/><circle cx=\"500\" cy=\"258\" r=\"22\" fill=\"#A8322A\"/><rect x=\"1040\" y=\"0\" width=\"624\" height=\"450\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 278,
+     "y": 246,
+     "w": 44,
+     "t": "1",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 203,
+     "y": 326,
+     "w": 44,
+     "t": "2",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 218,
+     "y": 136,
+     "w": 44,
+     "t": "3",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 178,
+     "y": 236,
+     "w": 44,
+     "t": "4",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 478,
+     "y": 34,
+     "w": 44,
+     "t": "1",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 30,
+     "w": 360,
+     "t": "cotovelo",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 478,
+     "y": 104,
+     "w": 44,
+     "t": "2",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 100,
+     "w": 360,
+     "t": "joelho",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 478,
+     "y": 174,
+     "w": 44,
+     "t": "3",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 170,
+     "w": 360,
+     "t": "ombro",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 478,
+     "y": 244,
+     "w": 44,
+     "t": "4",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 240,
+     "w": 360,
+     "t": "lombar",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 478,
+     "y": 320,
+     "w": 500,
+     "t": "tendão e músculo: os tipos mais relatados",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 24,
+     "w": 576,
+     "t": "Revisão de 2023",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 84,
+     "w": 576,
+     "t": "8 estudos · 2.022 jogadores · idade média de 31 a 57 anos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1064,
+     "y": 200,
+     "w": 576,
+     "t": "3 lesões por mil horas de treino",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 250,
+     "w": 576,
+     "t": "8 por mil jogos",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 330,
+     "w": 576,
+     "t": "estudos pequenos e diferentes entre si, sem metanálise",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O que de fato tira o amador da quadra",
+   "titulo": "No padel amador, o problema mais comum é tendão e músculo",
+   "fonte": "BMJ Open Sport Exerc Med 2023"
+  },
+  {
+   "id": "rampa",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Esquema da rampa em doze semanas. Semanas 1 a 4: duas vezes por semana, aula e jogos curtos. Semanas 5 a 8: duas a três vezes, jogos inteiros. Semanas 9 a 12: três vezes, competitivo. Contínuos: força duas vezes por semana com antebraço, ombro e panturrilha; aquecimento de dez minutos antes de cada jogo\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"150\" width=\"540\" height=\"120\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"560\" y=\"80\" width=\"540\" height=\"190\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"1120\" y=\"10\" width=\"540\" height=\"260\" rx=\"14\" fill=\"#3A6EA5\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"0\" y=\"300\" width=\"1664\" height=\"56\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"0\" y=\"370\" width=\"1664\" height=\"56\" rx=\"12\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 164,
+     "w": 500,
+     "t": "semanas 1 a 4",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 202,
+     "w": 500,
+     "t": "2× por semana · aula e jogos curtos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 580,
+     "y": 94,
+     "w": 500,
+     "t": "semanas 5 a 8",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 580,
+     "y": 132,
+     "w": 500,
+     "t": "2 a 3× · jogos inteiros",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1140,
+     "y": 24,
+     "w": 500,
+     "t": "semanas 9 a 12",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1140,
+     "y": 62,
+     "w": 500,
+     "t": "3× · competitivo",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 312,
+     "w": 1624,
+     "t": "força 2× por semana: antebraço, ombro, panturrilha",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "aquecimento de dez minutos antes de cada jogo",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "t": "esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que protege no primeiro ano",
+   "titulo": "A rampa protege mais que o exame que ele queria"
+  },
+  {
+   "id": "sinais",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Quatro sinais: desconforto no peito no esforço, falta de ar desproporcional, batedeira ou palpitação diferente, desmaio ou quase desmaio. Parar e procurar avaliação antes do próximo jogo. Ao lado, um desfibrilador na parede de um clube: o clube tem um, e alguém sabe usar?\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><rect x=\"0\" y=\"0\" width=\"510\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(20.0 37.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"530\" y=\"0\" width=\"510\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(550.0 37.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"150\" width=\"510\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(20.0 187.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"530\" y=\"150\" width=\"510\" height=\"130\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(550.0 187.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"330\" width=\"1040\" height=\"110\" rx=\"16\" fill=\"#A8322A\"/><rect x=\"1100\" y=\"0\" width=\"564\" height=\"440\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"1270\" y=\"40\" width=\"220\" height=\"200\" rx=\"18\" fill=\"#008A7E\"/><g transform=\"translate(1330.0 70.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><g transform=\"translate(1358.0 98.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 92,
+     "y": 30,
+     "w": 398,
+     "t": "desconforto no peito no esforço",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 622,
+     "y": 30,
+     "w": 398,
+     "t": "falta de ar desproporcional",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 92,
+     "y": 180,
+     "w": 398,
+     "t": "batedeira ou palpitação diferente",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 622,
+     "y": 180,
+     "w": 398,
+     "t": "desmaio ou quase desmaio",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 366,
+     "w": 1000,
+     "t": "Parar e procurar avaliação antes do próximo jogo.",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1124,
+     "y": 270,
+     "w": 516,
+     "t": "o clube tem um, e alguém sabe usar?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1124,
+     "y": 370,
+     "w": 516,
+     "t": "a resposta de emergência tem conversa própria",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que ele leva para casa",
+   "titulo": "Os quatro sinais valem mais que o laudo"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Avaliação pré-participação no amador",
+   "titulo": "Subir a escada só com pergunta",
+   "regras": [
+    "Cada exame precisa de uma pergunta nova",
+    "Sem sintoma e com risco baixo, o eletro de rastreio não muda o desfecho",
+    "A rampa e os sinais protegem mais que o exame para tranquilizar"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Sobe a escada só com pergunta, calcula o risco e ensina os sinais."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Monta a rampa de doze semanas e a força de antebraço, ombro e panturrilha."
+    },
+    {
+     "ic": "t:user",
+     "t": "O praticante",
+     "x": "Respeita a rampa e para diante de qualquer sinal."
+    }
+   ]
+  }
+ ],
+ "modulo": "O Atleta Amador e o Praticante Recreacional",
+ "tema": "grafite"
+}
