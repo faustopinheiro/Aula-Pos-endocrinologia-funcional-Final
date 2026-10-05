@@ -1,0 +1,970 @@
+{
+ "arquivo": "aulas/MOD13/13-06-eventos-de-massa-risco-cardiovascular-em-corrida-de-rua.md",
+ "titulo": "Eventos de massa: risco cardiovascular em corrida de rua",
+ "subtitulo": "O que os registros de provas mostram",
+ "nota_capa": "Entra por um homem na casa dos quarenta inscrito na primeira maratona.",
+ "secoes": {
+  "largada": [
+   "A pergunta.",
+   "capa"
+  ],
+  "registro": [
+   "Os registros.",
+   "registro"
+  ],
+  "triatlo": [
+   "O triatlo e a conduta.",
+   "triatlo"
+  ]
+ },
+ "slides": [
+  {
+   "id": "largada",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Largada de corrida de rua vista de cima, uma multidão de pontos. Um ponto destacado: um homem na casa dos quarenta com o número da primeira maratona. Recorte de notícia: corredor morre na maratona da cidade. A conta: cerca de 1 parada a cada 100 mil maratonistas\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"440\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><circle cx=\"295\" cy=\"178\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"731\" cy=\"380\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"851\" cy=\"125\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"697\" cy=\"148\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"712\" cy=\"105\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"358\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"781\" cy=\"125\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"163\" cy=\"66\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"574\" cy=\"139\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"792\" cy=\"180\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"60\" cy=\"250\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"159\" cy=\"380\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"653\" cy=\"37\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"312\" cy=\"105\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"116\" cy=\"164\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"491\" cy=\"253\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"172\" cy=\"161\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"394\" cy=\"149\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"528\" cy=\"311\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"607\" cy=\"249\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"716\" cy=\"216\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"470\" cy=\"356\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"351\" cy=\"365\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"150\" cy=\"207\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"869\" cy=\"334\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"847\" cy=\"354\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"299\" cy=\"383\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"489\" cy=\"313\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"655\" cy=\"99\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"480\" cy=\"376\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"776\" cy=\"257\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"578\" cy=\"120\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"330\" cy=\"133\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"213\" cy=\"297\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"394\" cy=\"159\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"410\" cy=\"265\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"298\" cy=\"340\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"316\" cy=\"232\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"163\" cy=\"325\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"532\" cy=\"311\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"271\" cy=\"319\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"271\" cy=\"129\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"748\" cy=\"217\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"164\" cy=\"67\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"470\" cy=\"363\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"674\" cy=\"267\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"429\" cy=\"31\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"766\" cy=\"247\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"74\" cy=\"145\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"175\" cy=\"284\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"855\" cy=\"387\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"485\" cy=\"357\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"289\" cy=\"111\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"780\" cy=\"241\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"783\" cy=\"158\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"808\" cy=\"209\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"237\" cy=\"391\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"675\" cy=\"221\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"562\" cy=\"396\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"702\" cy=\"100\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"750\" cy=\"338\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"273\" cy=\"400\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"538\" cy=\"138\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"662\" cy=\"51\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"624\" cy=\"389\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"635\" cy=\"49\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"397\" cy=\"328\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"775\" cy=\"321\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"379\" cy=\"123\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"332\" cy=\"128\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"198\" cy=\"380\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"598\" cy=\"87\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"260\" cy=\"115\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"100\" cy=\"249\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"688\" cy=\"334\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"599\" cy=\"308\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"741\" cy=\"49\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"480\" cy=\"205\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"690\" cy=\"77\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"569\" cy=\"31\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"159\" cy=\"189\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"154\" cy=\"238\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"338\" cy=\"167\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"608\" cy=\"335\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"745\" cy=\"69\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"511\" cy=\"297\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"405\" cy=\"48\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"35\" cy=\"193\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"372\" cy=\"109\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"538\" cy=\"316\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"575\" cy=\"294\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"515\" cy=\"144\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"715\" cy=\"136\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"333\" cy=\"46\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"415\" cy=\"286\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"761\" cy=\"110\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"786\" cy=\"104\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"294\" cy=\"247\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"730\" cy=\"140\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"294\" cy=\"247\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"632\" cy=\"150\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"394\" cy=\"155\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"636\" cy=\"177\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"468\" cy=\"134\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"686\" cy=\"209\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"465\" cy=\"49\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"354\" cy=\"233\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"501\" cy=\"74\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"100\" cy=\"53\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"644\" cy=\"32\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"699\" cy=\"186\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"224\" cy=\"260\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"522\" cy=\"313\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"429\" cy=\"200\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"92\" cy=\"178\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"570\" cy=\"252\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"170\" cy=\"105\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"83\" cy=\"87\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"407\" cy=\"110\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"253\" cy=\"187\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"340\" cy=\"338\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"427\" cy=\"178\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"64\" cy=\"207\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"161\" cy=\"81\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"399\" cy=\"281\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"482\" cy=\"329\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"627\" cy=\"252\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"74\" cy=\"209\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"577\" cy=\"181\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"162\" cy=\"55\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"360\" cy=\"115\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"588\" cy=\"408\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"158\" cy=\"32\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"284\" cy=\"378\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"183\" cy=\"75\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"520\" cy=\"220\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"102\" cy=\"206\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"300\" cy=\"139\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"78\" cy=\"397\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"273\" cy=\"371\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"274\" cy=\"296\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"835\" cy=\"255\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"229\" cy=\"323\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"432\" cy=\"347\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"85\" cy=\"310\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"83\" cy=\"89\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"658\" cy=\"100\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"576\" cy=\"219\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"576\" cy=\"233\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"336\" cy=\"106\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"588\" cy=\"182\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"297\" cy=\"74\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"411\" cy=\"56\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"61\" cy=\"115\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"774\" cy=\"37\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"139\" cy=\"298\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"763\" cy=\"168\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"123\" cy=\"200\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"858\" cy=\"351\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"464\" cy=\"112\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"667\" cy=\"375\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"763\" cy=\"388\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"327\" cy=\"50\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"142\" cy=\"78\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"345\" cy=\"237\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"426\" cy=\"271\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"429\" cy=\"167\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"184\" cy=\"106\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"490\" cy=\"184\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"33\" cy=\"299\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"59\" cy=\"302\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"295\" cy=\"171\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"369\" cy=\"145\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"283\" cy=\"221\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"456\" cy=\"110\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"810\" cy=\"277\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"449\" cy=\"163\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"188\" cy=\"266\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"622\" cy=\"304\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"504\" cy=\"129\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"814\" cy=\"222\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"761\" cy=\"273\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"225\" cy=\"44\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"616\" cy=\"47\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"523\" cy=\"286\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"213\" cy=\"94\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"135\" cy=\"32\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"633\" cy=\"98\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"344\" cy=\"71\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"538\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"563\" cy=\"401\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"86\" cy=\"139\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"752\" cy=\"362\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"737\" cy=\"249\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"57\" cy=\"302\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"52\" cy=\"378\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"176\" cy=\"182\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"664\" cy=\"108\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"695\" cy=\"57\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"779\" cy=\"286\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"468\" cy=\"161\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"261\" cy=\"279\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"52\" cy=\"341\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"126\" cy=\"154\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"353\" cy=\"301\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"546\" cy=\"34\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"615\" cy=\"260\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"808\" cy=\"204\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"698\" cy=\"142\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"652\" cy=\"56\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"567\" cy=\"388\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"467\" cy=\"150\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"552\" cy=\"409\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"43\" cy=\"81\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"407\" cy=\"105\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"507\" cy=\"210\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"166\" cy=\"378\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"383\" cy=\"399\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"262\" cy=\"371\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"320\" cy=\"332\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"125\" cy=\"161\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"759\" cy=\"98\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"158\" cy=\"401\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"212\" cy=\"335\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"136\" cy=\"58\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"589\" cy=\"358\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"175\" cy=\"342\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"782\" cy=\"291\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"56\" cy=\"266\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"394\" cy=\"225\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"621\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"541\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"555\" cy=\"241\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"99\" cy=\"257\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"569\" cy=\"173\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"376\" cy=\"224\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"718\" cy=\"93\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"240\" cy=\"380\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"365\" cy=\"222\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"623\" cy=\"69\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"814\" cy=\"274\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"454\" cy=\"183\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"863\" cy=\"43\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"760\" cy=\"259\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"428\" cy=\"240\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"523\" cy=\"318\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"797\" cy=\"61\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"111\" cy=\"158\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"250\" cy=\"31\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"179\" cy=\"302\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"362\" cy=\"183\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"573\" cy=\"136\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"471\" cy=\"317\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"331\" cy=\"35\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"238\" cy=\"352\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"121\" cy=\"87\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"701\" cy=\"95\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"98\" cy=\"313\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"425\" cy=\"351\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"247\" cy=\"190\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"192\" cy=\"38\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"193\" cy=\"387\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"219\" cy=\"55\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"86\" cy=\"148\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"477\" cy=\"319\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"212\" cy=\"367\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"818\" cy=\"392\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"449\" cy=\"388\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"112\" cy=\"279\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"555\" cy=\"109\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"144\" cy=\"57\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"387\" cy=\"347\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"83\" cy=\"295\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"869\" cy=\"296\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"827\" cy=\"119\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"123\" cy=\"391\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"824\" cy=\"248\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"342\" cy=\"245\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"334\" cy=\"155\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"298\" cy=\"174\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"855\" cy=\"326\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"762\" cy=\"313\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"457\" cy=\"174\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"316\" cy=\"410\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"762\" cy=\"138\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"129\" cy=\"363\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"116\" cy=\"112\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"78\" cy=\"91\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"800\" cy=\"160\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"183\" cy=\"142\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"669\" cy=\"186\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"132\" cy=\"82\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"534\" cy=\"256\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"643\" cy=\"83\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"77\" cy=\"390\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"619\" cy=\"309\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"100\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"756\" cy=\"274\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"268\" cy=\"274\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"369\" cy=\"216\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"157\" cy=\"31\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"759\" cy=\"280\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"120\" cy=\"386\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"133\" cy=\"167\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"488\" cy=\"37\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"461\" cy=\"101\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"753\" cy=\"30\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"677\" cy=\"296\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"173\" cy=\"154\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"386\" cy=\"107\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"468\" cy=\"253\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"49\" cy=\"212\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"400\" cy=\"198\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"799\" cy=\"208\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"794\" cy=\"128\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"139\" cy=\"105\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"789\" cy=\"111\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"606\" cy=\"116\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"675\" cy=\"248\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"88\" cy=\"336\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"472\" cy=\"93\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"533\" cy=\"240\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"594\" cy=\"136\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"867\" cy=\"108\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"664\" cy=\"222\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"848\" cy=\"40\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"437\" cy=\"231\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"378\" cy=\"249\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"439\" cy=\"177\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"112\" cy=\"314\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"278\" cy=\"235\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"202\" cy=\"334\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"799\" cy=\"315\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"80\" cy=\"266\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"481\" cy=\"82\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"579\" cy=\"292\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"769\" cy=\"261\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"791\" cy=\"103\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"827\" cy=\"315\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"74\" cy=\"314\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"770\" cy=\"126\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"57\" cy=\"153\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"474\" cy=\"52\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"540\" cy=\"169\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"464\" cy=\"51\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"823\" cy=\"209\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"225\" cy=\"408\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"499\" cy=\"234\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"660\" cy=\"111\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"480\" cy=\"135\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"471\" cy=\"320\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"432\" cy=\"59\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"430\" cy=\"236\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"257\" cy=\"369\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"782\" cy=\"127\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"607\" cy=\"246\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"239\" cy=\"49\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"67\" cy=\"387\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"47\" cy=\"258\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"567\" cy=\"400\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"731\" cy=\"343\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"432\" cy=\"235\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"546\" cy=\"97\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"494\" cy=\"74\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"534\" cy=\"280\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"630\" cy=\"351\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"488\" cy=\"71\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"577\" cy=\"292\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"736\" cy=\"290\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"43\" cy=\"60\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"757\" cy=\"280\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"684\" cy=\"120\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"275\" cy=\"400\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"146\" cy=\"44\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"460\" cy=\"389\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"603\" cy=\"134\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"506\" cy=\"275\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"66\" cy=\"242\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"72\" cy=\"133\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"313\" cy=\"404\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"850\" cy=\"285\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"568\" cy=\"106\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"181\" cy=\"109\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"842\" cy=\"398\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"47\" cy=\"120\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"608\" cy=\"64\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"331\" cy=\"116\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"742\" cy=\"273\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"228\" cy=\"371\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"535\" cy=\"30\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"648\" cy=\"397\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"284\" cy=\"64\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"508\" cy=\"89\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"96\" cy=\"398\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"639\" cy=\"63\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"426\" cy=\"299\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"743\" cy=\"121\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"226\" cy=\"318\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"87\" cy=\"404\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"58\" cy=\"225\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"669\" cy=\"135\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"766\" cy=\"260\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"723\" cy=\"198\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"176\" cy=\"259\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"673\" cy=\"337\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"681\" cy=\"119\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"173\" cy=\"153\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"623\" cy=\"297\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"836\" cy=\"389\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"758\" cy=\"322\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"744\" cy=\"69\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"545\" cy=\"399\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"469\" cy=\"292\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"861\" cy=\"116\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"439\" cy=\"346\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"453\" cy=\"155\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"826\" cy=\"188\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"323\" cy=\"261\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"819\" cy=\"33\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"139\" cy=\"256\" r=\"7\" fill=\"#D9D4C8\"/><circle cx=\"450\" cy=\"220\" r=\"20\" fill=\"#3A6EA5\" stroke=\"#F7F6F2\" stroke-width=\"5\"/><rect x=\"490\" y=\"196\" width=\"230\" height=\"52\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"150\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"960\" y=\"190\" width=\"704\" height=\"250\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 490,
+     "y": 206,
+     "w": 230,
+     "t": "a primeira maratona",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 16,
+     "w": 656,
+     "t": "notícia do ano passado",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 56,
+     "w": 656,
+     "t": "“Corredor morre na maratona da cidade”",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 210,
+     "w": 656,
+     "t": "cerca de 1 em 100 mil",
+     "tam": 48,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 300,
+     "w": 656,
+     "t": "maratonistas tem uma parada cardíaca na prova",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Corrida de rua, a primeira maratona",
+   "titulo": "Na maratona, cerca de uma parada a cada cem mil corredores",
+   "fonte": "JAMA 2025"
+  },
+  {
+   "id": "registro",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Primeiro registro norte-americano, 2000 a 2010: 10,9 milhões de corredores, 59 paradas cardíacas, 0,54 por 100 mil, 71% fatais. Idade média de 42 anos; 51 dos 59 eram homens\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"200\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"420\" y=\"0\" width=\"400\" height=\"200\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"840\" y=\"0\" width=\"400\" height=\"200\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1260\" y=\"0\" width=\"400\" height=\"200\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(20.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(70.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(120.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(170.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(220.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(270.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(320.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(370.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(420.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(470.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(520.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(570.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(620.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(670.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(720.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(770.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(820.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(870.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(920.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(970.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1020.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1070.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1120.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1170.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1220.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1270.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1320.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1370.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1420.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1470.0 260.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(20.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(70.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(120.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(170.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(220.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(270.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(320.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(370.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(420.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(470.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(520.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(570.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(620.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(670.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(720.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(770.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(820.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(870.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(920.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(970.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1020.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1070.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1120.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1170.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1220.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1270.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1320.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1370.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1420.0 320.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 24,
+     "w": 368,
+     "t": "10,9 milhões",
+     "tam": 52,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 16,
+     "y": 120,
+     "w": 368,
+     "t": "corredores, 2000 a 2010",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 436,
+     "y": 24,
+     "w": 368,
+     "t": "59",
+     "tam": 52,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 436,
+     "y": 120,
+     "w": 368,
+     "t": "paradas cardíacas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 856,
+     "y": 24,
+     "w": 368,
+     "t": "0,54",
+     "tam": 52,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 856,
+     "y": 120,
+     "w": 368,
+     "t": "por 100 mil corredores",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1276,
+     "y": 24,
+     "w": 368,
+     "t": "71%",
+     "tam": 52,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1276,
+     "y": 120,
+     "w": 368,
+     "t": "das paradas foram fatais",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 392,
+     "w": 500,
+     "t": "51 homens",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 392,
+     "w": 300,
+     "t": "8 mulheres",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 392,
+     "w": 604,
+     "t": "idade média: 42 anos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "A primeira década medida, registro de 2012",
+   "titulo": "Sete em cada dez paradas foram fatais",
+   "fonte": "N Engl J Med 2012"
+  },
+  {
+   "id": "distancia",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Paradas por 100 mil corredores. 2000 a 2010: maratona 1,01, meia maratona 0,27. 2010 a 2023: maratona 1,04, meia 0,47. Nos homens da maratona da primeira década, de 0,71 para 2,03 entre a primeira e a segunda metade\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><line x1=\"0\" y1=\"380\" x2=\"1000\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"40\" y=\"117\" width=\"160\" height=\"263\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"240\" y=\"310\" width=\"160\" height=\"70\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"540\" y=\"110\" width=\"160\" height=\"270\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"740\" y=\"258\" width=\"160\" height=\"122\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"1080\" y=\"40\" width=\"584\" height=\"340\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"1240\" y1=\"136\" x2=\"1380\" y2=\"136\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 73,
+     "w": 160,
+     "t": "1,01",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 388,
+     "w": 160,
+     "t": "maratona",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 240,
+     "y": 266,
+     "w": 160,
+     "t": "0,27",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 240,
+     "y": 388,
+     "w": 160,
+     "t": "meia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 0,
+     "w": 360,
+     "t": "2000 a 2010",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 66,
+     "w": 160,
+     "t": "1,04",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 540,
+     "y": 388,
+     "w": 160,
+     "t": "maratona",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 740,
+     "y": 214,
+     "w": 160,
+     "t": "0,47",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 740,
+     "y": 388,
+     "w": 160,
+     "t": "meia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 540,
+     "y": 0,
+     "w": 360,
+     "t": "2010 a 2023",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 60,
+     "w": 536,
+     "t": "homens na maratona, 2000 a 2010",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 110,
+     "w": 200,
+     "t": "0,71",
+     "tam": 44,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1400,
+     "y": 110,
+     "w": 240,
+     "t": "2,03",
+     "tam": 44,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1104,
+     "y": 180,
+     "w": 536,
+     "t": "primeira metade → segunda metade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 260,
+     "w": 536,
+     "t": "o registro descreveu o aumento, sem testar a causa",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Paradas por 100 mil corredores",
+   "titulo": "A maratona tem de duas a quatro vezes o risco da meia",
+   "fonte": "N Engl J Med 2012 · JAMA 2025"
+  },
+  {
+   "id": "causa",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas causas. Miocardiopatia hipertrófica: estrutural, mais no jovem. Doença coronariana: placa, no adulto de meia-idade. Eixo de idade com o cruzamento perto dos 35 anos. No registro mais recente, entre os casos com causa definida, a coronária foi a mais comum\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"780\" height=\"220\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(24.0 30.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><rect x=\"884\" y=\"0\" width=\"780\" height=\"220\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(908.0 30.0) scale(3.7500)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><line x1=\"0\" y1=\"330\" x2=\"1664\" y2=\"330\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 0 260 C 500 270 700 320 1664 325\" stroke=\"#3A6EA5\" stroke-width=\"5\" fill=\"none\"/><path d=\"M 0 325 C 600 320 800 280 1664 250\" stroke=\"#A8322A\" stroke-width=\"5\" fill=\"none\"/><line x1=\"760\" y1=\"250\" x2=\"760\" y2=\"340\" stroke=\"#6B7A87\" stroke-width=\"3\" stroke-dasharray=\"6 6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 140,
+     "y": 30,
+     "w": 620,
+     "t": "Miocardiopatia hipertrófica",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 140,
+     "y": 90,
+     "w": 620,
+     "t": "doença do músculo do coração, estrutural; pesa mais abaixo dos 35",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 30,
+     "w": 620,
+     "t": "Doença coronariana",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1024,
+     "y": 90,
+     "w": 620,
+     "t": "placa silenciosa; domina acima dos 35, e foi a mais comum no registro recente",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 346,
+     "w": 120,
+     "t": "≈ 35 anos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 380,
+     "w": 1664,
+     "t": "A prova não cria a doença: é o dia em que a placa encontra o esforço mais longo do ano.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 346,
+     "w": 364,
+     "t": "idade",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 230,
+     "w": 200,
+     "t": "esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quem para, e por quê",
+   "titulo": "A prova revela a doença que estava escondida"
+  },
+  {
+   "id": "sobrevida",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas décadas. 2000 a 2009: 29% sobreviveram, 0,39 morte por 100 mil. 2010 a 2023: 29,3 milhões de concluintes, 176 paradas, 0,60 por 100 mil, 66% sobreviveram, 0,20 morte por 100 mil. A incidência não mudou; a morte caiu pela metade\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"804\" height=\"330\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(24.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(100.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(176.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(252.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(328.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(404.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(480.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(556.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(632.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(708.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"860\" y=\"0\" width=\"804\" height=\"330\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(884.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(960.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1036.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1112.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1188.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1264.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1340.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1416.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1492.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><g transform=\"translate(1568.0 80.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#D9D4C8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><line x1=\"810\" y1=\"160\" x2=\"852\" y2=\"160\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 756,
+     "t": "2000 a 2009",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 164,
+     "w": 756,
+     "t": "29% sobreviveram",
+     "tam": 36,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 240,
+     "w": 756,
+     "t": "morte: 0,39 por 100 mil corredores",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 884,
+     "y": 18,
+     "w": 756,
+     "t": "2010 a 2023",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 164,
+     "w": 756,
+     "t": "66% sobreviveram",
+     "tam": 36,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 884,
+     "y": 240,
+     "w": 756,
+     "t": "morte: 0,20 por 100 mil corredores",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 350,
+     "w": 1664,
+     "t": "incidência: 0,54 → 0,60 por 100 mil · 176 paradas em 29,3 milhões de concluintes",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 392,
+     "w": 1664,
+     "t": "A incidência não mudou. A morte caiu pela metade.",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O registro atualizado em 2025",
+   "titulo": "A chance de sobreviver mais que dobrou",
+   "fonte": "N Engl J Med 2012 · JAMA 2025"
+  },
+  {
+   "id": "resposta",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Os dois fatores ligados à sobrevida no primeiro registro: ressuscitação começada por quem estava perto, e causa diferente de miocardiopatia hipertrófica. No registro recente: reanimação em praticamente todos e desfibrilador usado em quase todos. O que mudou foi a resposta, não o rastreio\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"780\" height=\"280\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(24.0 80.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><g transform=\"translate(24.0 170.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19.5 12.572L12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572\"/></g><rect x=\"884\" y=\"0\" width=\"780\" height=\"280\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(908.0 80.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><g transform=\"translate(908.0 170.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"0\" y=\"310\" width=\"1664\" height=\"100\" rx=\"16\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 732,
+     "t": "Registro de 2012: o que se associou à sobrevida",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 84,
+     "w": 656,
+     "t": "reanimação começada por quem estava perto",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 100,
+     "y": 174,
+     "w": 656,
+     "t": "causa diferente de miocardiopatia hipertrófica",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 908,
+     "y": 18,
+     "w": 732,
+     "t": "Registro de 2025: a resposta nas provas",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 84,
+     "w": 656,
+     "t": "reanimação em praticamente todos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 984,
+     "y": 174,
+     "w": 656,
+     "t": "desfibrilador usado em quase todos",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 336,
+     "w": 1664,
+     "t": "O que mudou foi a resposta, não o rastreio.",
+     "tam": 34,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Por que a morte caiu",
+   "titulo": "Reanimação e desfibrilador, não exame em todos os inscritos"
+  },
+  {
+   "id": "triatlo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas faixas: natação com 13 mortes, outras etapas com uma. Cerca de 959 mil participantes de 2006 a 2008, 14 mortes, 1,5 por 100 mil, 80% homens, 28 a 65 anos. Registro com outra metodologia; comparação com a corrida é aproximada\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"980\" height=\"90\" rx=\"14\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"296\" y1=\"20\" x2=\"296\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"342\" y1=\"20\" x2=\"342\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"388\" y1=\"20\" x2=\"388\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"434\" y1=\"20\" x2=\"434\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"480\" y1=\"20\" x2=\"480\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"20\" x2=\"526\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"572\" y1=\"20\" x2=\"572\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"618\" y1=\"20\" x2=\"618\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"664\" y1=\"20\" x2=\"664\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"710\" y1=\"20\" x2=\"710\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"756\" y1=\"20\" x2=\"756\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><line x1=\"802\" y1=\"20\" x2=\"802\" y2=\"70\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect x=\"0\" y=\"110\" width=\"980\" height=\"90\" rx=\"14\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"250\" y1=\"130\" x2=\"250\" y2=\"180\" stroke=\"#A8322A\" stroke-width=\"10\" stroke-linecap=\"round\"/><rect x=\"1040\" y=\"0\" width=\"624\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 28,
+     "w": 220,
+     "t": "natação",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 852,
+     "y": 28,
+     "w": 80,
+     "t": "13",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 138,
+     "w": 220,
+     "t": "outras etapas",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 300,
+     "y": 138,
+     "w": 80,
+     "t": "1",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 240,
+     "w": 980,
+     "t": "registro com outra metodologia: a comparação com a corrida é aproximada",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 20,
+     "w": 576,
+     "t": "1,5 por 100 mil",
+     "tam": 48,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1064,
+     "y": 110,
+     "w": 576,
+     "t": "14 mortes em cerca de 959 mil participantes, 2006 a 2008",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 220,
+     "w": 576,
+     "t": "80% homens · 28 a 65 anos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 300,
+     "w": 576,
+     "t": "na água, quem perde a consciência afunda e não é visto a tempo",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O triatlo, levantamento de 2010",
+   "titulo": "No triatlo, quase todas as mortes foram na natação",
+   "fonte": "JAMA 2010"
+  },
+  {
+   "id": "corredor",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas colunas. Para o corredor: risco absoluto pequeno; sintoma no treino não vai para a prova; febre ou infecção recente, não larga; aprender reanimação. Para quem organiza: o tempo até a reanimação e até o desfibrilador\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"900\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"76\" cy=\"31\" r=\"9\" fill=\"#3A6EA5\"/><path d=\"M 74 42 L 64 70 M 64 70 L 80 88 L 74 108 M 64 70 L 51 85 L 37 83 M 71 49 L 87 60 L 96 51 M 71 49 L 56 58 L 51 70\" stroke=\"#3A6EA5\" stroke-width=\"8\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g transform=\"translate(24.0 130.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 190.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 250.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 310.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(24.0 370.0) scale(1.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><rect x=\"960\" y=\"0\" width=\"704\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(984.0 24.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 130,
+     "y": 40,
+     "w": 740,
+     "t": "Para o corredor",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 70,
+     "y": 130,
+     "w": 810,
+     "t": "risco pequeno: largar, não desistir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 190,
+     "w": 810,
+     "t": "treinar para a distância",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 250,
+     "w": 810,
+     "t": "sintoma no treino vai para a consulta, não para a prova",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 310,
+     "w": 810,
+     "t": "febre ou infecção recente: não larga",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 70,
+     "y": 370,
+     "w": 810,
+     "t": "aprender reanimação",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1070,
+     "y": 40,
+     "w": 570,
+     "t": "Para quem organiza",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 140,
+     "w": 656,
+     "t": "o número que importa",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 200,
+     "w": 656,
+     "t": "tempo até a reanimação e até o desfibrilador",
+     "tam": 34,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 984,
+     "y": 350,
+     "w": 656,
+     "t": "não quantos inscritos fizeram exame",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que dizer ao homem da primeira maratona",
+   "titulo": "Pode largar; e quem organiza mede o tempo até o socorro"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Eventos de massa: corrida de rua",
+   "titulo": "O risco é pequeno, e o que o reduz é a resposta",
+   "regras": [
+    "Cerca de uma parada a cada cem mil maratonistas, mais em homens de meia-idade",
+    "A incidência não mudou; a morte caiu pela metade com reanimação e desfibrilador",
+    "No triatlo, o ponto crítico é a natação"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Dá o número verdadeiro e investiga o sintoma do treino antes da largada."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Prepara para a distância e não deixa largar quem está doente."
+    },
+    {
+     "ic": "t:user",
+     "t": "O corredor",
+     "x": "Aprende reanimação: na prova, quem salva é quem está ao lado."
+    }
+   ]
+  }
+ ],
+ "modulo": "O Atleta Amador e o Praticante Recreacional",
+ "tema": "grafite"
+}
