@@ -1,0 +1,799 @@
+{
+ "arquivo": "aulas/MOD14/14-08-projeto-aplicado-como-definir-o-problema.md",
+ "titulo": "Projeto aplicado: como definir o problema",
+ "subtitulo": "Do tema ao problema que cabe",
+ "nota_capa": "Entra por três rascunhos de uma fisioterapeuta numa escolinha de futebol feminino.",
+ "secoes": {
+  "rascunhos": [
+   "O erro.",
+   "capa"
+  ],
+  "portas": [
+   "Por que acontece.",
+   "portas"
+  ],
+  "frase": [
+   "A correção.",
+   "frase"
+  ],
+  "reescrito": [
+   "O rascunho reescrito.",
+   "reescrito"
+  ]
+ },
+ "slides": [
+  {
+   "id": "rascunhos",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três rascunhos de projeto riscados, de uma fisioterapeuta numa escolinha de futebol feminino sub-15: melhorar a saúde das atletas do clube; implantar um programa de prevenção de lesão; reduzir as lesões do time. Carimbos do orientador: grande demais; isso é solução; reduzir de quanto para quanto?\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"1060\" height=\"116\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"24\" y1=\"58\" x2=\"1036\" y2=\"58\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"1120\" y=\"18\" width=\"440\" height=\"80\" rx=\"12\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" transform=\"rotate(-3 1340 58)\"/><rect x=\"0\" y=\"140\" width=\"1060\" height=\"116\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"24\" y1=\"198\" x2=\"1036\" y2=\"198\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"1120\" y=\"158\" width=\"440\" height=\"80\" rx=\"12\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" transform=\"rotate(-3 1340 198)\"/><rect x=\"0\" y=\"280\" width=\"1060\" height=\"116\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"24\" y1=\"338\" x2=\"1036\" y2=\"338\" stroke=\"#A8322A\" stroke-width=\"5\"/><rect x=\"1120\" y=\"298\" width=\"440\" height=\"80\" rx=\"12\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"5\" transform=\"rotate(-3 1340 338)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 34,
+     "w": 1012,
+     "t": "“Melhorar a saúde das atletas do clube.”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1130,
+     "y": 40,
+     "w": 420,
+     "t": "grande demais",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 174,
+     "w": 1012,
+     "t": "“Implantar um programa de prevenção de lesão.”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1130,
+     "y": 180,
+     "w": 420,
+     "t": "isso é solução",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 314,
+     "w": 1012,
+     "t": "“Reduzir as lesões do time.”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1130,
+     "y": 320,
+     "w": 420,
+     "t": "de quanto para quanto?",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Futebol feminino sub-15, uma fisioterapeuta começa o projeto",
+   "titulo": "Três rascunhos, três devoluções, o mesmo erro"
+  },
+  {
+   "id": "armadilhas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Três armadilhas. Grande demais: não cabe em meses, nem num lugar. Solução disfarçada de problema: começa pelo que eu quero fazer. Sem medida de hoje: não dá para saber se melhorou. O erro: começar pelo tema, e não pelo problema\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"60\" cy=\"60\" r=\"30\" fill=\"#B07A1C\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"624\" cy=\"60\" r=\"30\" fill=\"#A8322A\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"1188\" cy=\"60\" r=\"30\" fill=\"#3A6EA5\"/><rect x=\"0\" y=\"330\" width=\"1664\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 40,
+     "w": 40,
+     "t": "1",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 38,
+     "w": 400,
+     "t": "grande demais",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 160,
+     "w": 488,
+     "t": "não cabe nos meses do curso, nem num lugar só",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 604,
+     "y": 40,
+     "w": 40,
+     "t": "2",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 674,
+     "y": 38,
+     "w": 400,
+     "t": "solução disfarçada de problema",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 160,
+     "w": 488,
+     "t": "começa pelo que eu quero fazer, e não pelo que acontece",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1168,
+     "y": 40,
+     "w": 40,
+     "t": "3",
+     "tam": 32,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1238,
+     "y": 38,
+     "w": 400,
+     "t": "sem medida de hoje",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 160,
+     "w": 488,
+     "t": "não dá para saber, no fim, se alguma coisa mudou",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 348,
+     "w": 1624,
+     "t": "O erro: começar pelo tema, e não pelo problema.",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O erro",
+   "titulo": "O erro aparece em três formas"
+  },
+  {
+   "id": "portas",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Uma pessoa diante de duas portas. Uma porta larga e iluminada: o que eu sei fazer e quero fazer. Uma porta estreita: o que acontece aqui, hoje, e com que frequência. Por que o erro acontece\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"80\" y=\"40\" width=\"460\" height=\"320\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"5\"/><circle cx=\"500\" cy=\"210\" r=\"12\" fill=\"#B07A1C\"/><rect x=\"1120\" y=\"40\" width=\"200\" height=\"320\" rx=\"12\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"5\"/><circle cx=\"1290\" cy=\"210\" r=\"10\" fill=\"#008A7E\"/><circle cx=\"830\" cy=\"162\" r=\"22\" fill=\"#12202E\"/><rect x=\"801\" y=\"189\" width=\"58\" height=\"108\" rx=\"12\" fill=\"#12202E\"/><rect x=\"806\" y=\"289\" width=\"19\" height=\"91\" rx=\"6\" fill=\"#12202E\"/><rect x=\"835\" y=\"289\" width=\"19\" height=\"91\" rx=\"6\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 120,
+     "w": 420,
+     "t": "o que eu sei fazer e quero fazer",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1340,
+     "y": 120,
+     "w": 324,
+     "t": "o que acontece aqui, hoje, e com que frequência",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 560,
+     "y": 30,
+     "w": 540,
+     "t": "a solução que eu trouxe pode não ser a resposta do meu lugar",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que o erro acontece",
+   "titulo": "A gente chega ao projeto com a solução na cabeça"
+  },
+  {
+   "id": "frase",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A frase do problema em cinco peças: onde; com quem; o que acontece hoje, com número; o que deveria acontecer; por que importa. Exemplo: escolinha de futebol feminino sub-15; vinte e poucas atletas; aquecimento completo em 1 de cada 4 sessões nas últimas 4 semanas; em todas as sessões; o programa só protege quem faz. Valores ilustrativos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"318\" height=\"90\" rx=\"12\" fill=\"#3A6EA5\"/><rect x=\"0\" y=\"110\" width=\"318\" height=\"200\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"334\" y=\"0\" width=\"318\" height=\"90\" rx=\"12\" fill=\"#008A7E\"/><rect x=\"334\" y=\"110\" width=\"318\" height=\"200\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"668\" y=\"0\" width=\"318\" height=\"90\" rx=\"12\" fill=\"#A8322A\"/><rect x=\"668\" y=\"110\" width=\"318\" height=\"200\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1002\" y=\"0\" width=\"318\" height=\"90\" rx=\"12\" fill=\"#B07A1C\"/><rect x=\"1002\" y=\"110\" width=\"318\" height=\"200\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1336\" y=\"0\" width=\"318\" height=\"90\" rx=\"12\" fill=\"#12202E\"/><rect x=\"1336\" y=\"110\" width=\"318\" height=\"200\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 26,
+     "w": 298,
+     "t": "onde",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 140,
+     "w": 286,
+     "t": "escolinha de futebol feminino sub-15",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 344,
+     "y": 26,
+     "w": 298,
+     "t": "com quem",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 350,
+     "y": 140,
+     "w": 286,
+     "t": "as vinte e poucas atletas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 678,
+     "y": 26,
+     "w": 298,
+     "t": "hoje, com número",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 684,
+     "y": 140,
+     "w": 286,
+     "t": "aquecimento completo em 1 de cada 4 sessões, 4 semanas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1012,
+     "y": 26,
+     "w": 298,
+     "t": "o que deveria acontecer",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1018,
+     "y": 140,
+     "w": 286,
+     "t": "em todas as sessões",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1346,
+     "y": 26,
+     "w": 298,
+     "t": "por que importa",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1352,
+     "y": 140,
+     "w": 286,
+     "t": "o programa só protege quem faz",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 340,
+     "w": 1664,
+     "t": "lugar · pessoas · situação de hoje com número · situação desejada · motivo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 400,
+     "w": 1664,
+     "t": "valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A correção",
+   "titulo": "O problema cabe numa frase com cinco peças"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Modelo de melhoria, três perguntas: o que estamos tentando alcançar, a meta; como saberemos que uma mudança é uma melhora, o indicador; que mudança podemos fazer que leve a uma melhora, a ideia a testar. Primeiro o problema e a meta, depois a ideia\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"760\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"770\" y1=\"60\" x2=\"830\" y2=\"60\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"850\" y=\"0\" width=\"220\" height=\"120\" rx=\"14\" fill=\"#3A6EA5\"/><rect x=\"0\" y=\"140\" width=\"760\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"770\" y1=\"200\" x2=\"830\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"850\" y=\"140\" width=\"220\" height=\"120\" rx=\"14\" fill=\"#008A7E\"/><rect x=\"0\" y=\"280\" width=\"760\" height=\"120\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"770\" y1=\"340\" x2=\"830\" y2=\"340\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"850\" y=\"280\" width=\"220\" height=\"120\" rx=\"14\" fill=\"#B07A1C\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 28,
+     "w": 712,
+     "t": "O que estamos tentando alcançar?",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 42,
+     "w": 200,
+     "t": "a meta",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 22,
+     "w": 564,
+     "t": "aquecimento completo em todas as sessões até o fim do semestre",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 168,
+     "w": 712,
+     "t": "Como saberemos que uma mudança é uma melhora?",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 182,
+     "w": 200,
+     "t": "o indicador",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 162,
+     "w": 564,
+     "t": "proporção de sessões com aquecimento completo, por semana",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 308,
+     "w": 712,
+     "t": "Que mudança podemos fazer que leve a uma melhora?",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 322,
+     "w": 200,
+     "t": "a ideia a testar",
+     "tam": 24,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1100,
+     "y": 302,
+     "w": 564,
+     "t": "a capitã conduz; o aquecimento vira parte do treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Modelo de melhoria",
+   "titulo": "Três perguntas transformam a frase em projeto, nessa ordem",
+   "fonte": "The Improvement Guide, 2009"
+  },
+  {
+   "id": "funil",
+   "tipo": "diagrama",
+   "h": 480,
+   "svg": "<svg aria-label=\"Funil do tema ao problema: saúde das atletas; lesão no futebol feminino de base; prevenção de lesão na escolinha; aquecimento completo em 1 de cada 4 sessões, na sub-15, nas últimas 4 semanas. Do tema ao problema que cabe\" width=\"1664\" height=\"480\" viewBox=\"0 0 1664 480\"><rect x=\"82\" y=\"0\" width=\"1500\" height=\"92\" rx=\"14\" fill=\"#6B7A87\" opacity=\"0.25\"/><rect x=\"242\" y=\"108\" width=\"1180\" height=\"92\" rx=\"14\" fill=\"#3A6EA5\" opacity=\"0.25\"/><rect x=\"402\" y=\"216\" width=\"860\" height=\"92\" rx=\"14\" fill=\"#008A7E\" opacity=\"0.25\"/><rect x=\"382\" y=\"324\" width=\"900\" height=\"110\" rx=\"14\" fill=\"#A8322A\" opacity=\"1\"/></svg>",
+   "rotulos": [
+    {
+     "x": 102,
+     "y": 26,
+     "w": 1460,
+     "t": "saúde das atletas",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 262,
+     "y": 134,
+     "w": 1140,
+     "t": "lesão no futebol feminino de base",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 422,
+     "y": 242,
+     "w": 820,
+     "t": "prevenção de lesão na escolinha",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 402,
+     "y": 340,
+     "w": 860,
+     "t": "aquecimento completo em 1 de cada 4 sessões, na sub-15, em 4 semanas",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 446,
+     "w": 1664,
+     "t": "nada se perdeu: o tema continua sendo a saúde das atletas",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Do tema ao problema que cabe",
+   "titulo": "O funil leva do tema a um problema com lugar, número e tamanho"
+  },
+  {
+   "id": "teste",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Cinco perguntas de teste, cada uma com uma caixa de marcar: acontece no meu lugar de trabalho? Acontece com frequência? Consigo medir como está hoje em quatro semanas? Cabe nos meses do curso? Alguém além de mim se importa com isso? Cinco sim, e o problema serve\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"56\" height=\"56\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 12 28 L 24 42 L 46 14\" stroke=\"#008A7E\" stroke-width=\"6\" fill=\"none\"/><rect x=\"0\" y=\"80\" width=\"56\" height=\"56\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 12 108 L 24 122 L 46 94\" stroke=\"#008A7E\" stroke-width=\"6\" fill=\"none\"/><rect x=\"0\" y=\"160\" width=\"56\" height=\"56\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 12 188 L 24 202 L 46 174\" stroke=\"#008A7E\" stroke-width=\"6\" fill=\"none\"/><rect x=\"0\" y=\"240\" width=\"56\" height=\"56\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 12 268 L 24 282 L 46 254\" stroke=\"#008A7E\" stroke-width=\"6\" fill=\"none\"/><rect x=\"0\" y=\"320\" width=\"56\" height=\"56\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><path d=\"M 12 348 L 24 362 L 46 334\" stroke=\"#008A7E\" stroke-width=\"6\" fill=\"none\"/><rect x=\"1160\" y=\"0\" width=\"504\" height=\"400\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 80,
+     "y": 10,
+     "w": 1000,
+     "t": "acontece no meu lugar de trabalho?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 90,
+     "w": 1000,
+     "t": "acontece com frequência, ou foi um caso marcante?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 170,
+     "w": 1000,
+     "t": "consigo medir como está hoje em quatro semanas?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 250,
+     "w": 1000,
+     "t": "cabe nos meses do curso?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 330,
+     "w": 1000,
+     "t": "alguém além de mim se importa com isso?",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 30,
+     "w": 456,
+     "t": "cinco sim: o problema serve",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1184,
+     "y": 140,
+     "w": 456,
+     "t": "um não: de volta ao funil",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 230,
+     "w": 456,
+     "t": "a última pergunta decide se o projeto sobrevive ao fim do curso",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "O teste do problema",
+   "titulo": "Cinco perguntas dizem se o problema serve"
+  },
+  {
+   "id": "reescrito",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Os três rascunhos riscados à esquerda. À direita, a frase final: na escolinha de futebol feminino sub-15, o aquecimento neuromuscular completo aconteceu em 1 de cada 4 sessões nas últimas 4 semanas; a meta é todas as sessões até o fim do semestre, porque o programa só protege quem faz. Valores ilustrativos\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"40\" width=\"460\" height=\"86\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"16\" y1=\"83\" x2=\"444\" y2=\"83\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"0\" y=\"150\" width=\"460\" height=\"86\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"16\" y1=\"193\" x2=\"444\" y2=\"193\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"0\" y=\"260\" width=\"460\" height=\"86\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><line x1=\"16\" y1=\"303\" x2=\"444\" y2=\"303\" stroke=\"#A8322A\" stroke-width=\"4\"/><line x1=\"480\" y1=\"200\" x2=\"560\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><rect x=\"580\" y=\"0\" width=\"1084\" height=\"420\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 58,
+     "w": 428,
+     "t": "“Melhorar a saúde das atletas do clube.”",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 16,
+     "y": 168,
+     "w": 428,
+     "t": "“Implantar um programa de prevenção de lesão.”",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 16,
+     "y": 278,
+     "w": 428,
+     "t": "“Reduzir as lesões do time.”",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 610,
+     "y": 30,
+     "w": 1024,
+     "t": "“Na escolinha de futebol feminino sub-15, o aquecimento neuromuscular completo aconteceu em 1 de cada 4 sessões nas últimas 4 semanas; a meta é todas as sessões até o fim do semestre, porque o programa só protege quem faz.”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.35,
+     "serif": true
+    },
+    {
+     "x": 610,
+     "y": 380,
+     "w": 1024,
+     "t": "valores ilustrativos · a solução fica em aberto, para ser testada",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O rascunho reescrito",
+   "titulo": "Os três rascunhos viram uma frase pequena de propósito"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Projeto aplicado: o problema",
+   "titulo": "Começar pelo que acontece, e não pelo que eu quero fazer",
+   "regras": [
+    "Comece pelo problema do seu lugar, não pela solução que trouxe",
+    "Uma frase: onde, com quem, hoje com número, meta, motivo",
+    "Cinco perguntas de teste, inclusive quem mais se importa"
+   ],
+   "cards": [
+    {
+     "ic": "t:user",
+     "t": "O aluno",
+     "x": "Observa o lugar e mede a situação de hoje antes de escolher a ideia."
+    },
+    {
+     "ic": "t:book",
+     "t": "O orientador",
+     "x": "Devolve o rascunho até a frase ter as cinco peças."
+    },
+    {
+     "ic": "t:users",
+     "t": "As pessoas do lugar",
+     "x": "Dizem se o problema é delas também."
+    }
+   ]
+  }
+ ],
+ "modulo": "Integração, Gestão e Projeto Aplicado",
+ "tema": "oliva"
+}
