@@ -1,0 +1,1381 @@
+{
+ "arquivo": "aulas/MOD14/14-02-caso-integrado-amador-com-fadiga-e-queda-de-rendimento.md",
+ "titulo": "Caso integrado 2: amador com fadiga e queda de rendimento",
+ "subtitulo": "Cinco passos para qualquer porta",
+ "nota_capa": "Entra por um nadador amador que ouviu quatro respostas em quatro portas.",
+ "secoes": {
+  "portas": [
+   "O problema.",
+   "capa"
+  ],
+  "roteiro": [
+   "O procedimento.",
+   "roteiro"
+  ],
+  "paralelo": [
+   "As quatro perguntas.",
+   "paralelo"
+  ],
+  "ficha": [
+   "O roteiro aplicado.",
+   "ficha"
+  ]
+ },
+ "slides": [
+  {
+   "id": "portas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Nadador amador na casa dos quarenta, tempos piores há três meses. Quatro portas, quatro respostas: treinador, descansa uma semana; nutricionista, falta carboidrato; médico, exames normais, é do treino; psicóloga, é estresse. Perfil típico\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"300\" width=\"460\" height=\"140\" rx=\"12\" fill=\"#DEE7F1\"/><path d=\"M 0 330 Q 60 310 115 330 T 230 330 T 345 330 T 460 330\" stroke=\"#3A6EA5\" stroke-width=\"4\" fill=\"none\"/><g transform=\"translate(150.0 120.0) scale(6.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><g transform=\"translate(20.0 20.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"520\" y=\"40\" width=\"260\" height=\"380\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"746\" cy=\"230\" r=\"10\" fill=\"#B07A1C\"/><rect x=\"810\" y=\"40\" width=\"260\" height=\"380\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"4\"/><circle cx=\"1036\" cy=\"230\" r=\"10\" fill=\"#008A7E\"/><rect x=\"1100\" y=\"40\" width=\"260\" height=\"380\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><circle cx=\"1326\" cy=\"230\" r=\"10\" fill=\"#3A6EA5\"/><rect x=\"1390\" y=\"40\" width=\"260\" height=\"380\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"4\"/><circle cx=\"1616\" cy=\"230\" r=\"10\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 30,
+     "w": 360,
+     "t": "tempos piores há três meses",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 20,
+     "y": 360,
+     "w": 420,
+     "t": "cansado o dia inteiro, irritado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 400,
+     "w": 420,
+     "t": "perfil típico",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 536,
+     "y": 64,
+     "w": 228,
+     "t": "treinador",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 536,
+     "y": 140,
+     "w": 228,
+     "t": "“descansa uma semana”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 826,
+     "y": 64,
+     "w": 228,
+     "t": "nutricionista",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 826,
+     "y": 140,
+     "w": 228,
+     "t": "“falta carboidrato”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1116,
+     "y": 64,
+     "w": 228,
+     "t": "médico",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1116,
+     "y": 140,
+     "w": 228,
+     "t": "“exames normais, é do treino”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1406,
+     "y": 64,
+     "w": 228,
+     "t": "psicóloga",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1406,
+     "y": 140,
+     "w": 228,
+     "t": "“é estresse”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Natação em águas abertas, um amador na casa dos quarenta",
+   "titulo": "Quatro portas deram quatro respostas, e nenhuma investigou tudo"
+  },
+  {
+   "id": "roteiro",
+   "tipo": "diagrama",
+   "h": 380,
+   "svg": "<svg aria-label=\"Cinco passos numa linha, a partir da porta de entrada: a conta inteira; os sinais que pulam a fila; quatro perguntas na mesma semana; exame com pergunta; descarga com data. Qualquer porta, o mesmo roteiro\" width=\"1664\" height=\"380\" viewBox=\"0 0 1664 380\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><g transform=\"translate(0.0 120.0) scale(4.0000)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><rect x=\"150\" y=\"60\" width=\"280\" height=\"220\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"290\" cy=\"60\" r=\"34\" fill=\"#B07A1C\"/><line x1=\"432\" y1=\"170\" x2=\"450\" y2=\"170\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"454\" y=\"60\" width=\"280\" height=\"220\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"594\" cy=\"60\" r=\"34\" fill=\"#A8322A\"/><line x1=\"736\" y1=\"170\" x2=\"754\" y2=\"170\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"758\" y=\"60\" width=\"280\" height=\"220\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"898\" cy=\"60\" r=\"34\" fill=\"#3A6EA5\"/><line x1=\"1040\" y1=\"170\" x2=\"1058\" y2=\"170\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1062\" y=\"60\" width=\"280\" height=\"220\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1202\" cy=\"60\" r=\"34\" fill=\"#008A7E\"/><line x1=\"1344\" y1=\"170\" x2=\"1362\" y2=\"170\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1366\" y=\"60\" width=\"280\" height=\"220\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"1506\" cy=\"60\" r=\"34\" fill=\"#12202E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 230,
+     "w": 120,
+     "t": "qualquer porta",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 260,
+     "y": 38,
+     "w": 60,
+     "t": "1",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 170,
+     "y": 130,
+     "w": 240,
+     "t": "a conta inteira",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 564,
+     "y": 38,
+     "w": 60,
+     "t": "2",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 474,
+     "y": 130,
+     "w": 240,
+     "t": "os sinais que pulam a fila",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 868,
+     "y": 38,
+     "w": 60,
+     "t": "3",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 778,
+     "y": 130,
+     "w": 240,
+     "t": "quatro perguntas na mesma semana",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1172,
+     "y": 38,
+     "w": 60,
+     "t": "4",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1082,
+     "y": 130,
+     "w": 240,
+     "t": "exame com pergunta",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1476,
+     "y": 38,
+     "w": 60,
+     "t": "5",
+     "tam": 36,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1386,
+     "y": 130,
+     "w": 240,
+     "t": "descarga com data",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 150,
+     "y": 320,
+     "w": 1514,
+     "t": "Quem recebe não precisa fazer os cinco. Precisa garantir que os cinco aconteçam.",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O procedimento",
+   "titulo": "Cinco passos fazem qualquer porta levar à mesma investigação"
+  },
+  {
+   "id": "conta",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A conta dos últimos três meses do nadador. Débitos: treino, o volume subiu para a travessia; trabalho, mudou de cargo; sono, cerca de seis horas; doença recente, virose há dois meses. Entrada quase vazia: descanso. A pergunta: o que mudou, e quando. Perfil típico, valores ilustrativos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"0\" y1=\"380\" x2=\"1100\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"0\" y=\"120\" width=\"190\" height=\"260\" rx=\"10\" fill=\"#3A6EA5\"/><g transform=\"translate(67.0 136.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M15 9a1 1 0 1 0 2 0a1 1 0 1 0-2 0m-9 2l4-2l3.5 3l-1.5 2m-9 2.75A2.4 2.4 0 0 0 4 17a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2-1a2.4 2.4 0 0 1 2-1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1-.25\"/></g><rect x=\"230\" y=\"160\" width=\"190\" height=\"220\" rx=\"10\" fill=\"#B07A1C\"/><g transform=\"translate(297.0 176.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm5-2V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m-4 5v.01\"/><path d=\"M3 13a20 20 0 0 0 18 0\"/></g></g><rect x=\"460\" y=\"200\" width=\"190\" height=\"180\" rx=\"10\" fill=\"#A8322A\"/><g transform=\"translate(527.0 216.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g><rect x=\"690\" y=\"240\" width=\"190\" height=\"140\" rx=\"10\" fill=\"#6B7A87\"/><g transform=\"translate(757.0 256.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 21a9 9 0 1 1 0-18a9 9 0 0 1 0 18M9 10h-.01M15 10h-.01\"/><path d=\"m8 16l1-1l1.5 1l1.5-1l1.5 1l1.5-1l1 1\"/></g></g><rect x=\"940\" y=\"350\" width=\"160\" height=\"30\" rx=\"8\" fill=\"#008A7E\"/><rect x=\"1180\" y=\"0\" width=\"484\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 28,
+     "w": 190,
+     "t": "treino",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 62,
+     "w": 190,
+     "t": "volume subiu para a travessia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 230,
+     "y": 68,
+     "w": 190,
+     "t": "trabalho",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 102,
+     "w": 190,
+     "t": "mudou de cargo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 460,
+     "y": 108,
+     "w": 190,
+     "t": "sono",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 142,
+     "w": 190,
+     "t": "cerca de seis horas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 690,
+     "y": 148,
+     "w": 190,
+     "t": "doença recente",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 182,
+     "w": 190,
+     "t": "virose há dois meses",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15
+    },
+    {
+     "x": 900,
+     "y": 300,
+     "w": 240,
+     "t": "descanso",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 396,
+     "w": 1100,
+     "t": "débitos dos últimos três meses · perfil típico, valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 24,
+     "w": 436,
+     "t": "O que mudou, e quando?",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1204,
+     "y": 130,
+     "w": 436,
+     "t": "queda que começa junto com uma mudança tem um suspeito",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 260,
+     "w": 436,
+     "t": "quem treina traz a carga das últimas semanas e um teste padronizado repetido",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 1 · a conta inteira",
+   "titulo": "Antes de qualquer exame, a conta dos últimos três meses"
+  },
+  {
+   "id": "fila",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Seis sinais com atalho direto para a medicina, na mesma semana: perda de peso sem intenção; febre ou suor noturno; gânglios aumentados; falta de ar desproporcional; dor no peito ou palpitação com desmaio; ideia de se matar\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(20.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"380\" y=\"0\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(400.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"760\" y=\"0\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(780.0 20.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"0\" y=\"170\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(20.0 190.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"380\" y=\"170\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(400.0 190.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><rect x=\"760\" y=\"170\" width=\"350\" height=\"140\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(780.0 190.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 9v4m-1.637-9.409L2.257 17.125a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87L13.637 3.59a1.914 1.914 0 0 0-3.274 0M12 16h.01\"/></g><line x1=\"1150\" y1=\"160\" x2=\"1250\" y2=\"160\" stroke=\"#A8322A\" stroke-width=\"6\" marker-end=\"url(#m0)\"/><rect x=\"1270\" y=\"40\" width=\"394\" height=\"240\" rx=\"18\" fill=\"#A8322A\" stroke=\"#A8322A\" stroke-width=\"0\"/><g transform=\"translate(1420.0 60.0) scale(1.8750)\"><path fill=\"#F7F6F2\" fill-rule=\"evenodd\" d=\"M14.433 33.442a3 3 0 1 0 1.96-.416a9 9 0 0 1-.103-.405a20 20 0 0 1-.32-1.87a17 17 0 0 1-.14-1.914a7 7 0 0 1 .015-.527q.577-.166 1.155-.297c.441-.1.703.42.914.842l.086.169h11.749c.229-.434.748-1.126 1.251-1.011q.806.184 1.609.433l-.003.001q-.003-.003 0 .002c.004.014.026.08.048.22q.038.244.05.625c.014.504-.015 1.117-.074 1.735c-.06.617-.149 1.214-.249 1.685q-.033.157-.066.286H31a1 1 0 0 0-.894.553l-1 2A1 1 0 0 0 29 36v2a1 1 0 0 0 1 1h2v-2h-1v-.764L31.618 35h2.764L35 36.236V37h-1v2h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-.106-.447l-1-2A1 1 0 0 0 35 33h-.636c.107-.533.196-1.155.256-1.779c.066-.674.1-1.373.083-1.983l-.001-.028C38.69 30.895 42 33.666 42 36.57V42H6v-5.43c0-3.032 3.61-5.92 7.831-7.577c.011.622.07 1.325.155 2.006c.092.735.217 1.466.355 2.068q.045.193.092.375M16 37.015c.538 0 1-.44 1-1.015c0-.574-.462-1.015-1-1.015s-1 .44-1 1.015c0 .574.462 1.015 1 1.015M24 24a8 8 0 1 0 0-16a8 8 0 0 0 0 16m0 2c5.523 0 10-4.477 10-10S29.523 6 24 6s-10 4.477-10 10s4.477 10 10 10\" clip-rule=\"evenodd\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 76,
+     "y": 24,
+     "w": 254,
+     "t": "perda de peso sem intenção",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 456,
+     "y": 24,
+     "w": 254,
+     "t": "febre ou suor noturno",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 836,
+     "y": 24,
+     "w": 254,
+     "t": "gânglios aumentados",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 76,
+     "y": 194,
+     "w": 254,
+     "t": "falta de ar desproporcional",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 456,
+     "y": 194,
+     "w": 254,
+     "t": "dor no peito ou palpitação com desmaio",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 836,
+     "y": 194,
+     "w": 254,
+     "t": "ideia de se matar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1290,
+     "y": 170,
+     "w": 354,
+     "t": "medicina, na mesma semana",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 360,
+     "w": 1664,
+     "t": "ideia de se matar: a rampa de risco da conversa sobre encaminhamento",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1270,
+     "y": 300,
+     "w": 394,
+     "t": "sem nenhum: o roteiro segue com calma",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Passo 2 · os sinais que pulam a fila",
+   "titulo": "Seis sinais tiram o caso da fila e levam à medicina já"
+  },
+  {
+   "id": "paralelo",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas linhas do tempo. Em fila: medicina, depois nutrição, depois psicologia, depois sono, com semanas de espera entre elas; total, meses. Em paralelo: sono pela medicina, energia pela nutrição, humor pela psicologia, remédios e infecção recente pela medicina, todas na mesma semana; total, uma a duas semanas. Esquema, tempos ilustrativos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"50\" width=\"200\" height=\"60\" rx=\"10\" fill=\"#D9D4C8\"/><line x1=\"210\" y1=\"80\" x2=\"320\" y2=\"80\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><rect x=\"330\" y=\"50\" width=\"200\" height=\"60\" rx=\"10\" fill=\"#D9D4C8\"/><line x1=\"540\" y1=\"80\" x2=\"650\" y2=\"80\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><rect x=\"660\" y=\"50\" width=\"200\" height=\"60\" rx=\"10\" fill=\"#D9D4C8\"/><line x1=\"870\" y1=\"80\" x2=\"980\" y2=\"80\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><rect x=\"990\" y=\"50\" width=\"200\" height=\"60\" rx=\"10\" fill=\"#D9D4C8\"/><rect x=\"0\" y=\"270\" width=\"300\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(16.0 290.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g><rect x=\"330\" y=\"270\" width=\"300\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(346.0 290.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><rect x=\"660\" y=\"270\" width=\"300\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(676.0 290.0) scale(1.8333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><rect x=\"990\" y=\"270\" width=\"300\" height=\"130\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1006.0 290.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 300,
+     "t": "Em fila",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 220,
+     "w": 300,
+     "t": "Em paralelo",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 66,
+     "w": 200,
+     "t": "medicina",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 330,
+     "y": 66,
+     "w": 200,
+     "t": "nutrição",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 66,
+     "w": 200,
+     "t": "psicologia",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 990,
+     "y": 66,
+     "w": 200,
+     "t": "sono",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 66,
+     "w": 300,
+     "t": "meses",
+     "tam": 30,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 70,
+     "y": 290,
+     "w": 220,
+     "t": "sono",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 70,
+     "y": 350,
+     "w": 220,
+     "t": "medicina",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 290,
+     "w": 220,
+     "t": "energia",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 400,
+     "y": 350,
+     "w": 220,
+     "t": "nutrição",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 730,
+     "y": 290,
+     "w": 220,
+     "t": "humor",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 730,
+     "y": 350,
+     "w": 220,
+     "t": "psicologia",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1060,
+     "y": 290,
+     "w": 220,
+     "t": "remédios e infecção",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 1060,
+     "y": 350,
+     "w": 220,
+     "t": "medicina",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 300,
+     "w": 324,
+     "t": "uma a duas semanas",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1340,
+     "y": 410,
+     "w": 324,
+     "t": "esquema, tempos ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 3 · quatro perguntas na mesma semana",
+   "titulo": "As quatro perguntas vêm juntas, e não uma área depois da outra"
+  },
+  {
+   "id": "apneia",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Apneia do sono moderada ou grave por grupo, coorte populacional, estimativa de 2013: homens de 30 a 49 anos, 10%; homens de 50 a 70, 17%; mulheres de 30 a 49, 3%; mulheres de 50 a 70, 9%. A pergunta: alguém já viu você parar de respirar dormindo?\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"30\" y=\"200\" width=\"150\" height=\"140\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"260\" y=\"102\" width=\"150\" height=\"238\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"490\" y=\"298\" width=\"150\" height=\"42\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"720\" y=\"214\" width=\"150\" height=\"126\" rx=\"10\" fill=\"#3A6EA5\"/><line x1=\"0\" y1=\"340\" x2=\"920\" y2=\"340\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"1000\" y=\"0\" width=\"664\" height=\"420\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1024.0 24.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 150,
+     "w": 210,
+     "t": "10%",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 352,
+     "w": 210,
+     "t": "homens, 30 a 49",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 230,
+     "y": 52,
+     "w": 210,
+     "t": "17%",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 230,
+     "y": 352,
+     "w": 210,
+     "t": "homens, 50 a 70",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 248,
+     "w": 210,
+     "t": "3%",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 352,
+     "w": 210,
+     "t": "mulheres, 30 a 49",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 690,
+     "y": 164,
+     "w": 210,
+     "t": "9%",
+     "tam": 34,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 690,
+     "y": 352,
+     "w": 210,
+     "t": "mulheres, 50 a 70",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 390,
+     "w": 920,
+     "t": "apneia moderada ou grave · coorte populacional, 2013",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 110,
+     "w": 616,
+     "t": "“Alguém já viu você parar de respirar dormindo?”",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1024,
+     "y": 270,
+     "w": 616,
+     "t": "dez segundos de pergunta; ser atleta não protege",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 350,
+     "w": 616,
+     "t": "sim → exame do sono, não mais descanso",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que a pergunta do sono não é detalhe",
+   "titulo": "Um em cada dez homens dos trinta aos quarenta e poucos tem apneia relevante",
+   "fonte": "Am J Epidemiol 2013"
+  },
+  {
+   "id": "exame",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Cada pergunta ligada ao exame que ela justifica. Sono: exame do sono, se há ronco ou pausas. Energia: hemograma e ferritina, e a conta da disponibilidade de energia. Humor: instrumento de rastreio, não exame de sangue. Remédios e infecção: revisão da lista, exame dirigido pelo achado. Riscado: o painel completo, sem pergunta\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"280\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"290\" y1=\"45\" x2=\"350\" y2=\"45\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"110\" width=\"280\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><line x1=\"290\" y1=\"155\" x2=\"350\" y2=\"155\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"220\" width=\"280\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><line x1=\"290\" y1=\"265\" x2=\"350\" y2=\"265\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"330\" width=\"280\" height=\"90\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"290\" y1=\"375\" x2=\"350\" y2=\"375\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1100\" y=\"20\" width=\"564\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><rect x=\"1140\" y=\"70\" width=\"300\" height=\"20\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1140\" y=\"114\" width=\"360\" height=\"20\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1140\" y=\"158\" width=\"420\" height=\"20\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1140\" y=\"202\" width=\"300\" height=\"20\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1140\" y=\"246\" width=\"360\" height=\"20\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"1140\" y=\"290\" width=\"420\" height=\"20\" rx=\"6\" fill=\"#D9D4C8\"/><line x1=\"1120\" y1=\"40\" x2=\"1644\" y2=\"300\" stroke=\"#A8322A\" stroke-width=\"8\"/></svg>",
+   "rotulos": [
+    {
+     "x": 16,
+     "y": 26,
+     "w": 248,
+     "t": "sono",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 16,
+     "w": 640,
+     "t": "exame do sono, se há ronco ou pausas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 136,
+     "w": 248,
+     "t": "energia",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 126,
+     "w": 640,
+     "t": "hemograma, ferritina e a conta da disponibilidade de energia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 246,
+     "w": 248,
+     "t": "humor",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 236,
+     "w": 640,
+     "t": "instrumento de rastreio e conversa, não exame de sangue",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 16,
+     "y": 356,
+     "w": 248,
+     "t": "remédios e infecção",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 346,
+     "w": 640,
+     "t": "revisão da lista; exame só se houver suspeito",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 340,
+     "w": 516,
+     "t": "o painel completo, sem pergunta",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 380,
+     "w": 516,
+     "t": "foi ele que permitiu “é do treino”",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 4 · exame com pergunta",
+   "titulo": "Cada exame responde a uma das quatro perguntas, ou não entra"
+  },
+  {
+   "id": "descarga",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Curva de carga semanal que desce em degrau e fica baixa por quatro a seis semanas, com uma bandeira na data de reavaliação. Quatro réguas na data: teste padronizado, esforço percebido para a mesma carga, questionário de humor e recuperação, sono. Quem treina conduz; todos reavaliam. Esquema\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><line x1=\"40\" y1=\"380\" x2=\"1000\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 40 140 L 300 140 L 300 260 L 760 260 L 760 200 L 860 200 L 860 150 L 1000 150\" stroke=\"#3A6EA5\" stroke-width=\"6\" fill=\"none\"/><rect x=\"300\" y=\"262\" width=\"460\" height=\"118\" fill=\"#DEE7F1\"/><line x1=\"760\" y1=\"60\" x2=\"760\" y2=\"380\" stroke=\"#A8322A\" stroke-width=\"4\"/><g transform=\"translate(760.0 40.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g><rect x=\"1080\" y=\"0\" width=\"584\" height=\"440\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 310,
+     "y": 290,
+     "w": 430,
+     "t": "quatro a seis semanas, sem sair do esporte",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 560,
+     "y": 4,
+     "w": 190,
+     "t": "data escrita",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 100,
+     "w": 200,
+     "t": "carga",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 100,
+     "w": 200,
+     "t": "volta em degraus se melhorar",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 40,
+     "y": 394,
+     "w": 300,
+     "t": "esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 20,
+     "w": 536,
+     "t": "Na data, as mesmas quatro réguas",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1104,
+     "y": 110,
+     "w": 536,
+     "t": "· teste padronizado",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 162,
+     "w": 536,
+     "t": "· esforço percebido para a mesma carga",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 214,
+     "w": 536,
+     "t": "· questionário de humor e recuperação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 266,
+     "w": 536,
+     "t": "· sono",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1104,
+     "y": 336,
+     "w": 536,
+     "t": "não melhorou: o caso sobe de camada e segue o fluxo de encaminhamento",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 5 · descarga com data",
+   "titulo": "A descarga é conduta, com data marcada para reavaliar"
+  },
+  {
+   "id": "ficha",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A ficha do nadador depois da semana das quatro perguntas. Sono: ronco e pausas vistas pela esposa, exame do sono, medicina. Energia: cortou carboidrato à noite, nutrição. Humor: interesse preservado fora do treino, psicologia acompanha. Remédios: betabloqueador para pressão há quatro meses, medicina revisa. Nenhum achado explica tudo sozinho. Perfil típico\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"390\" height=\"340\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(24.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12h6l-6 8h6m4-16h6l-6 8h6\"/></g><rect x=\"418\" y=\"0\" width=\"390\" height=\"340\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(442.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11.319c0 3.102.444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08.988c.426-.268.97-.268 1.397 0c1.923 1.26 3.728.809 5.079-.988C19.556 16.637 20 14.421 20 11.32C20 8.659 18.01 6 15.556 6c-1.267 0-2.41.693-3.22 1.44a.5.5 0 0 1-.672 0C10.855 6.694 9.711 6 8.444 6C5.99 6 4 8.66 4 11.319\"/><path d=\"M7 12c0-1.47.454-2.34 1.5-3M12 7c0-1.2.867-4 3-4\"/></g></g><rect x=\"836\" y=\"0\" width=\"390\" height=\"340\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(860.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M15.5 13a3.5 3.5 0 0 0-3.5 3.5v1a3.5 3.5 0 0 0 7 0v-1.8M8.5 13a3.5 3.5 0 0 1 3.5 3.5v1a3.5 3.5 0 0 1-7 0v-1.8\"/><path d=\"M17.5 16a3.5 3.5 0 0 0 0-7H17\"/><path d=\"M19 9.3V6.5a3.5 3.5 0 0 0-7 0M6.5 16a3.5 3.5 0 0 1 0-7H7\"/><path d=\"M5 9.3V6.5a3.5 3.5 0 0 1 7 0v10\"/></g></g><rect x=\"1254\" y=\"0\" width=\"390\" height=\"340\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1278.0 24.0) scale(2.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><rect x=\"0\" y=\"370\" width=\"1664\" height=\"70\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 92,
+     "y": 34,
+     "w": 280,
+     "t": "Sono",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 110,
+     "w": 342,
+     "t": "ronco e pausas vistas pela esposa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 250,
+     "w": 342,
+     "t": "exame do sono · medicina",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 510,
+     "y": 34,
+     "w": 280,
+     "t": "Energia",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 442,
+     "y": 110,
+     "w": 342,
+     "t": "cortou o carboidrato da noite",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 442,
+     "y": 250,
+     "w": 342,
+     "t": "ajuste · nutrição",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 928,
+     "y": 34,
+     "w": 280,
+     "t": "Humor",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 110,
+     "w": 342,
+     "t": "interesse preservado fora do treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 250,
+     "w": 342,
+     "t": "acompanha o cargo novo · psicologia",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1346,
+     "y": 34,
+     "w": 280,
+     "t": "Remédios",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1278,
+     "y": 110,
+     "w": 342,
+     "t": "betabloqueador para pressão há quatro meses",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1278,
+     "y": 250,
+     "w": 342,
+     "t": "revisa a escolha · medicina",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 388,
+     "w": 1300,
+     "t": "Nenhum achado explica tudo sozinho, e cada um tem dono.",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 392,
+     "w": 300,
+     "t": "perfil típico",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O roteiro aplicado ao nadador",
+   "titulo": "A semana das quatro perguntas achou o que as quatro portas não viram"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Caso integrado: fadiga no amador",
+   "titulo": "A porta recebe; o roteiro investiga",
+   "regras": [
+    "Quem recebe garante os cinco passos, mesmo sem fazer todos",
+    "Seis sinais pulam a fila; sem eles, quatro perguntas em paralelo",
+    "O exame responde a uma pergunta, e a descarga tem data"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Triagem dos seis sinais, pergunta do sono, revisão dos remédios e o exame que responde."
+    },
+    {
+     "ic": "t:users",
+     "t": "Nutrição, psicologia e quem treina",
+     "x": "Fazem as suas perguntas na mesma semana; quem treina conduz a descarga."
+    },
+    {
+     "ic": "t:user",
+     "t": "O praticante",
+     "x": "Conta tudo, inclusive o remédio novo e o ronco."
+    }
+   ]
+  }
+ ],
+ "modulo": "Integração, Gestão e Projeto Aplicado",
+ "tema": "oliva"
+}
