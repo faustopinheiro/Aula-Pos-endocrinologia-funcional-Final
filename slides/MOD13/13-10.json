@@ -1,0 +1,1277 @@
+{
+ "arquivo": "aulas/MOD13/13-10-progressao-para-quem-treina-quatro-horas-por-semana.md",
+ "titulo": "Progressão para quem treina quatro horas por semana",
+ "subtitulo": "Quatro passos para reescrever qualquer plano",
+ "nota_capa": "Entra por uma corredora de trilha que seguiu o plano e se machucou numa sessão.",
+ "secoes": {
+  "trilha": [
+   "O erro.",
+   "capa"
+  ],
+  "dez": [
+   "O que os dados mostram.",
+   "dez"
+  ],
+  "contar": [
+   "O procedimento.",
+   "contar"
+  ]
+ },
+ "slides": [
+  {
+   "id": "trilha",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Perfil de trilha com subidas e uma descida longa. Em cima, o plano de doze semanas com a semana sete circulada: volume sobe, primeiro treino de tiros, sessão mais longa de 9 para 14 km. Na descida, dor na tíbia no dia seguinte. Perfil típico, números ilustrativos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"40\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"126\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"212\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"298\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"384\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"470\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"556\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/><rect x=\"642\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"728\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"814\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"900\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"986\" y=\"10\" width=\"70\" height=\"56\" rx=\"8\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><path d=\"M 0 400 L 140 300 L 260 330 L 400 200 L 520 250 L 640 150 L 1000 400\" stroke=\"#12202E\" stroke-width=\"5\" fill=\"none\" stroke-linejoin=\"round\"/><path d=\"M 640 150 L 1000 400 L 640 400 Z\" fill=\"#F3E1DE\"/><g transform=\"translate(790.0 220.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"1100\" y=\"0\" width=\"564\" height=\"440\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"1140\" cy=\"148\" r=\"14\" fill=\"#A8322A\"/><circle cx=\"1140\" cy=\"218\" r=\"14\" fill=\"#A8322A\"/><circle cx=\"1140\" cy=\"288\" r=\"14\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 24,
+     "w": 70,
+     "t": "1",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 126,
+     "y": 24,
+     "w": 70,
+     "t": "2",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 212,
+     "y": 24,
+     "w": 70,
+     "t": "3",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 298,
+     "y": 24,
+     "w": 70,
+     "t": "4",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 384,
+     "y": 24,
+     "w": 70,
+     "t": "5",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 470,
+     "y": 24,
+     "w": 70,
+     "t": "6",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 556,
+     "y": 24,
+     "w": 70,
+     "t": "7",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 642,
+     "y": 24,
+     "w": 70,
+     "t": "8",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 728,
+     "y": 24,
+     "w": 70,
+     "t": "9",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 814,
+     "y": 24,
+     "w": 70,
+     "t": "10",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 24,
+     "w": 70,
+     "t": "11",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 986,
+     "y": 24,
+     "w": 70,
+     "t": "12",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 120,
+     "w": 360,
+     "t": "descida longa, terreno novo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 76,
+     "w": 600,
+     "t": "perfil típico; números ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 20,
+     "w": 516,
+     "t": "Semana 7, três mudanças juntas",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1168,
+     "y": 134,
+     "w": 480,
+     "t": "volume sobe",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1168,
+     "y": 204,
+     "w": 480,
+     "t": "primeiro treino de tiros",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1168,
+     "y": 274,
+     "w": 480,
+     "t": "sessão mais longa: 9 → 14 km",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 360,
+     "w": 516,
+     "t": "“Mas eu segui o plano.”",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Corrida de trilha, quatro horas por semana",
+   "titulo": "Ela seguiu o plano, e a dor começou numa sessão"
+  },
+  {
+   "id": "dez",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A regra não aumente mais de 10% por semana, riscada. Ensaio de 2008: 532 novatos; programa gradual de 13 semanas, 20,8% de lesão; programa padrão de 8 semanas, 20,3%. Três motivos: percentual depende da base; a semana esconde a distribuição; olha uma variável só\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"600\" height=\"120\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><line x1=\"20\" y1=\"60\" x2=\"580\" y2=\"60\" stroke=\"#A8322A\" stroke-width=\"8\"/><line x1=\"0\" y1=\"400\" x2=\"600\" y2=\"400\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"60\" y=\"213\" width=\"200\" height=\"187\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"340\" y=\"217\" width=\"200\" height=\"183\" rx=\"10\" fill=\"#6B7A87\"/><rect x=\"680\" y=\"0\" width=\"984\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 36,
+     "w": 552,
+     "t": "“não aumente mais de 10% por semana”",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 60,
+     "y": 169,
+     "w": 200,
+     "t": "20,8%",
+     "tam": 32,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 408,
+     "w": 240,
+     "t": "gradual, 13 semanas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 340,
+     "y": 173,
+     "w": 200,
+     "t": "20,3%",
+     "tam": 32,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 320,
+     "y": 408,
+     "w": 240,
+     "t": "padrão, 8 semanas",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 128,
+     "w": 600,
+     "t": "532 novatos sorteados · lesão em cada grupo",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 20,
+     "w": 936,
+     "t": "Derruba o número, não o princípio",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 704,
+     "y": 100,
+     "w": 936,
+     "t": "percentual depende da base",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 140,
+     "w": 936,
+     "t": "10% de 10 km é 1 km; de 60 km, são 6",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 210,
+     "w": 936,
+     "t": "a semana esconde a distribuição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 250,
+     "w": 936,
+     "t": "30 km em seis sessões não é 30 km em duas",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 320,
+     "w": 936,
+     "t": "olha uma variável só",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 704,
+     "y": 360,
+     "w": 936,
+     "t": "e a progressão tem cinco",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A regra que todo mundo ensina, ensaio de 2008",
+   "titulo": "A regra dos dez por cento foi testada, e não protegeu",
+   "fonte": "Am J Sports Med 2008"
+  },
+  {
+   "id": "sessao",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"1.666 lesões em barra empilhada: sobrecarga aguda 28%, sobrecarga de início súbito 64%, sobrecarga gradual 8%. Curva de risco conforme a sessão passa da mais longa dos últimos 30 dias: até 10%, referência; de 10 a 30% a mais, risco 64% maior; acima, maior ainda. Coorte com relógio GPS, corredores de 87 países\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"60\" width=\"209\" height=\"120\" rx=\"10\" fill=\"#B07A1C\"/><rect x=\"213\" y=\"60\" width=\"482\" height=\"120\" rx=\"10\" fill=\"#A8322A\"/><rect x=\"699\" y=\"60\" width=\"57\" height=\"120\" rx=\"10\" fill=\"#3A6EA5\"/><line x1=\"880\" y1=\"380\" x2=\"1640\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"880\" y1=\"60\" x2=\"880\" y2=\"380\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 880 330 L 1100 330 L 1300 230 C 1420 170 1520 110 1630 70\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\"/><line x1=\"1100\" y1=\"380\" x2=\"1100\" y2=\"90\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"8 6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 96,
+     "w": 209,
+     "t": "28%",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 213,
+     "y": 96,
+     "w": 482,
+     "t": "64%",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 699,
+     "y": 96,
+     "w": 57,
+     "t": "8%",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 190,
+     "w": 210,
+     "t": "aguda",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 213,
+     "y": 190,
+     "w": 486,
+     "t": "de início súbito: começou numa sessão",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 640,
+     "y": 220,
+     "w": 120,
+     "t": "gradual",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 760,
+     "t": "1.666 lesões, coorte de 2024",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 290,
+     "w": 760,
+     "t": "o que a gente achava que era a regra é a exceção",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 390,
+     "w": 260,
+     "t": "até 10% acima da mais longa dos últimos 30 dias",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1300,
+     "y": 290,
+     "w": 300,
+     "t": "10 a 30% acima: +64% de risco",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1130,
+     "y": 110,
+     "w": 260,
+     "t": "saltos maiores, risco maior",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 900,
+     "y": 60,
+     "w": 700,
+     "t": "risco de lesão por sobrecarga · coorte de 2025",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A lesão que começa numa sessão",
+   "titulo": "A maior parte da lesão de sobrecarga começa num dia",
+   "fonte": "JOSPT Open 2024 · Br J Sports Med 2025"
+  },
+  {
+   "id": "mostradores",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Cinco mostradores: volume semanal; sessão mais longa, em destaque; intensidade; contexto mecânico (superfície, descida, tênis); densidade (dias seguidos). Ao lado, duas curvas no tempo: fôlego sobe rápido, tecido sobe devagar. Esquema\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><path d=\"M 40 150 A 110 110 0 0 1 260 150\" stroke=\"#3A6EA5\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"150\" x2=\"180\" y2=\"70\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M 370 150 A 110 110 0 0 1 590 150\" stroke=\"#A8322A\" stroke-width=\"18\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"480\" y1=\"150\" x2=\"540\" y2=\"70\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M 700 150 A 110 110 0 0 1 920 150\" stroke=\"#B07A1C\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"810\" y1=\"150\" x2=\"840\" y2=\"70\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M 40 370 A 110 110 0 0 1 260 370\" stroke=\"#008A7E\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"370\" x2=\"180\" y2=\"290\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M 370 370 A 110 110 0 0 1 590 370\" stroke=\"#6B7A87\" stroke-width=\"10\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"480\" y1=\"370\" x2=\"510\" y2=\"290\" stroke=\"#12202E\" stroke-width=\"5\" stroke-linecap=\"round\"/><rect x=\"1040\" y=\"0\" width=\"624\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"1080\" y1=\"360\" x2=\"1620\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"3\"/><path d=\"M 1080 350 C 1180 180 1300 130 1620 110\" stroke=\"#3A6EA5\" stroke-width=\"6\" fill=\"none\"/><path d=\"M 1080 352 C 1300 340 1450 300 1620 220\" stroke=\"#A8322A\" stroke-width=\"6\" fill=\"none\"/><line x1=\"1300\" y1=\"130\" x2=\"1300\" y2=\"360\" stroke=\"#6B7A87\" stroke-width=\"2\" stroke-dasharray=\"6 6\"/></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 166,
+     "w": 280,
+     "t": "volume semanal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 340,
+     "y": 166,
+     "w": 280,
+     "t": "sessão mais longa",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 670,
+     "y": 166,
+     "w": 280,
+     "t": "intensidade",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 10,
+     "y": 386,
+     "w": 280,
+     "t": "contexto: superfície, descida, tênis",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 340,
+     "y": 386,
+     "w": 280,
+     "t": "densidade: dias seguidos",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1064,
+     "y": 20,
+     "w": 576,
+     "t": "O fôlego chega antes do tecido",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1420,
+     "y": 80,
+     "w": 200,
+     "t": "fôlego",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1420,
+     "y": 250,
+     "w": 200,
+     "t": "osso e tendão",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1240,
+     "y": 372,
+     "w": 120,
+     "t": "semana 7",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1080,
+     "y": 400,
+     "w": 200,
+     "t": "esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Os cinco mostradores",
+   "titulo": "A progressão tem cinco mostradores, e o plano olha um"
+  },
+  {
+   "id": "contar",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"A semana dela em duas camadas. Em cima, o que ela chama de treino: quatro horas de corrida. Embaixo, o que ela não conta: caminhada de 50 minutos com o cachorro todos os dias, futevôlei no sábado, oito horas em pé no trabalho. Uma lupa sobre a camada de baixo\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"200\" y=\"140\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"200\" y=\"196\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"400\" y=\"34\" width=\"180\" height=\"70\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"400\" y=\"140\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"400\" y=\"196\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"600\" y=\"140\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"600\" y=\"196\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"800\" y=\"34\" width=\"180\" height=\"70\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"800\" y=\"140\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"800\" y=\"196\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"1000\" y=\"140\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1000\" y=\"196\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"1200\" y=\"34\" width=\"180\" height=\"70\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"1200\" y=\"140\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1400\" y=\"34\" width=\"180\" height=\"70\" rx=\"10\" fill=\"#3A6EA5\"/><rect x=\"1400\" y=\"140\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#B07A1C\"/><rect x=\"1200\" y=\"196\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#008A7E\"/><g transform=\"translate(1500.0 120.0) scale(5.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 10a7 7 0 1 0 14 0a7 7 0 1 0-14 0m18 11l-6-6m-5-2v.01\"/><path d=\"M10 10a1.5 1.5 0 1 0-1.14-2.474\"/></g></g><rect x=\"0\" y=\"280\" width=\"1664\" height=\"120\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 200,
+     "y": 0,
+     "w": 180,
+     "t": "seg",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 0,
+     "w": 180,
+     "t": "ter",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 0,
+     "w": 180,
+     "t": "qua",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 0,
+     "w": 180,
+     "t": "qui",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 0,
+     "w": 180,
+     "t": "sex",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 0,
+     "w": 180,
+     "t": "sáb",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1400,
+     "y": 0,
+     "w": 180,
+     "t": "dom",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 50,
+     "w": 190,
+     "t": "o que ela chama de treino: 4 h",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 142,
+     "w": 190,
+     "t": "cachorro, 50 min",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 198,
+     "w": 190,
+     "t": "em pé, 8 h",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 204,
+     "w": 180,
+     "t": "futevôlei",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 316,
+     "w": 1616,
+     "t": "Pergunte pelo que a pessoa faz, e não pelo que ela treina.",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Passo 1",
+   "titulo": "Contar tudo o que a pessoa faz, não só o treino"
+  },
+  {
+   "id": "regras",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro regras numeradas: a sessão mais longa sobe um degrau, até 10% acima da mais longa dos últimos 30 dias; uma semana de consolidação a cada três; intensidade só depois de volume estável; uma mudança por vez: volume, tiros, tênis, terreno\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"822\" height=\"200\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"50\" r=\"28\" fill=\"#008A7E\"/><g transform=\"translate(730.0 24.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M22 5h-5v5h-5v5H7v5H2\"/></g><rect x=\"842\" y=\"0\" width=\"822\" height=\"200\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"892\" cy=\"50\" r=\"28\" fill=\"#008A7E\"/><g transform=\"translate(1572.0 24.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 12V9a3 3 0 0 1 3-3h13m-3-3l3 3l-3 3m3 3v3a3 3 0 0 1-3 3H4m3 3l-3-3l3-3\"/></g><rect x=\"0\" y=\"220\" width=\"822\" height=\"200\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"270\" r=\"28\" fill=\"#008A7E\"/><g transform=\"translate(730.0 244.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 3v7h6l-8 11v-7H5z\"/></g><rect x=\"842\" y=\"220\" width=\"822\" height=\"200\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"892\" cy=\"270\" r=\"28\" fill=\"#008A7E\"/><g transform=\"translate(1572.0 244.0) scale(2.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 6h8m4 0h4M6 12a2 2 0 1 0 4 0a2 2 0 1 0-4 0m-2 0h2m4 0h10m-5 6a2 2 0 1 0 4 0a2 2 0 1 0-4 0M4 18h11m4 0h1\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 22,
+     "y": 34,
+     "w": 56,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 30,
+     "w": 620,
+     "t": "a sessão mais longa sobe um degrau",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 120,
+     "w": 770,
+     "t": "até 10% acima da mais longa dos últimos 30 dias",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 864,
+     "y": 34,
+     "w": 56,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 942,
+     "y": 30,
+     "w": 620,
+     "t": "uma semana de consolidação a cada três",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 866,
+     "y": 120,
+     "w": 770,
+     "t": "mesma carga: o tecido precisa de tempo com ela",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 22,
+     "y": 254,
+     "w": 56,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 100,
+     "y": 250,
+     "w": 620,
+     "t": "intensidade só com volume estável",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 340,
+     "w": 770,
+     "t": "os tiros entram quando o volume parou de subir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 864,
+     "y": 254,
+     "w": 56,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 942,
+     "y": 250,
+     "w": 620,
+     "t": "uma mudança por vez",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 866,
+     "y": 340,
+     "w": 770,
+     "t": "volume, tiros, tênis ou terreno: um por semana",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 2",
+   "titulo": "Quatro regras para reescrever qualquer plano"
+  },
+  {
+   "id": "pausa",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Uma escada de sessões mais longas que sofre uma pausa de duas semanas por gripe. Depois da pausa, duas setas: a errada, voltando ao degrau de onde parou; a certa, voltando um degrau abaixo. Aviso: descida e terreno novo contam como degrau\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"360\" width=\"110\" height=\"40\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"120\" y=\"310\" width=\"110\" height=\"90\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"240\" y=\"260\" width=\"110\" height=\"140\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"360\" y=\"210\" width=\"110\" height=\"190\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"480\" y=\"160\" width=\"110\" height=\"240\" rx=\"8\" fill=\"#3A6EA5\"/><rect x=\"620\" y=\"200\" width=\"200\" height=\"200\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><g transform=\"translate(680.0 230.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><rect x=\"860\" y=\"160\" width=\"110\" height=\"240\" rx=\"8\" fill=\"#A8322A\" fill-opacity=\"0.35\" stroke=\"#A8322A\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><rect x=\"1000\" y=\"210\" width=\"110\" height=\"190\" rx=\"8\" fill=\"#008A7E\"/><line x1=\"840\" y1=\"120\" x2=\"900\" y2=\"150\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><line x1=\"1080\" y1=\"120\" x2=\"1060\" y2=\"200\" stroke=\"#008A7E\" stroke-width=\"4\" marker-end=\"url(#m1)\"/><rect x=\"1180\" y=\"0\" width=\"484\" height=\"440\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 1210 380 L 1330 220 L 1630 380\" stroke=\"#B07A1C\" stroke-width=\"6\" fill=\"none\"/></svg>",
+   "rotulos": [
+    {
+     "x": 620,
+     "y": 340,
+     "w": 200,
+     "t": "duas semanas paradas",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 700,
+     "y": 70,
+     "w": 260,
+     "t": "de onde parou: o salto",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 960,
+     "y": 70,
+     "w": 200,
+     "t": "um degrau abaixo",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1204,
+     "y": 24,
+     "w": 436,
+     "t": "Terreno também é degrau",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1204,
+     "y": 110,
+     "w": 436,
+     "t": "descida longa ou superfície nova: a distância desce na primeira vez",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 3: o que o aplicativo não prevê",
+   "titulo": "Depois de uma pausa, um degrau abaixo"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três perguntas em balões: o que você fazia de quatro a seis semanas antes de doer; na sessão em que começou, o que foi diferente; o que mais você faz que não chama de treino. Respostas comuns da segunda: mais longa, mais rápida, descida, superfície nova, tênis novo, depois de uma pausa, acompanhando alguém mais rápido\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"200\" rx=\"40\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><path d=\"M 100 200 L 90 240 L 150 200\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"560\" y=\"0\" width=\"536\" height=\"200\" rx=\"40\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 660 200 L 650 240 L 710 200\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1120\" y=\"0\" width=\"536\" height=\"200\" rx=\"40\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 1220 200 L 1210 240 L 1270 200\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"0\" y=\"320\" width=\"396\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"416\" y=\"320\" width=\"396\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"832\" y=\"320\" width=\"396\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1248\" y=\"320\" width=\"396\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"0\" y=\"380\" width=\"396\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"416\" y=\"380\" width=\"396\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"832\" y=\"380\" width=\"396\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 30,
+     "y": 50,
+     "w": 476,
+     "t": "1. o que você fazia de quatro a seis semanas antes de doer?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 590,
+     "y": 50,
+     "w": 476,
+     "t": "2. na sessão em que começou, o que foi diferente?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1150,
+     "y": 50,
+     "w": 476,
+     "t": "3. o que mais você faz que não chama de treino?",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 270,
+     "w": 1664,
+     "t": "respostas comuns da segunda pergunta",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 332,
+     "w": 396,
+     "t": "mais longa",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 416,
+     "y": 332,
+     "w": 396,
+     "t": "mais rápida",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 332,
+     "w": 396,
+     "t": "descida",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1248,
+     "y": 332,
+     "w": 396,
+     "t": "superfície nova",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 392,
+     "w": 396,
+     "t": "tênis novo",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 416,
+     "y": 392,
+     "w": 396,
+     "t": "depois de uma pausa",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 832,
+     "y": 392,
+     "w": 396,
+     "t": "alguém mais rápido",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 4: quando a dor aparece",
+   "titulo": "Três perguntas antes de qualquer exame"
+  },
+  {
+   "id": "plano",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Plano reescrito em barras da sessão mais longa por semana, subindo em degraus pequenos com uma semana plana a cada três; tiros só depois de quatro semanas de volume estável; força curta em todas as semanas. A prova marcada adiante: a prova pode esperar, a tíbia não. Esquema\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"228\" width=\"60\" height=\"132\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"10\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"72\" y=\"217\" width=\"60\" height=\"143\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"82\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"144\" y=\"206\" width=\"60\" height=\"154\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"154\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"216\" y=\"206\" width=\"60\" height=\"154\" rx=\"6\" fill=\"#DEE7F1\"/><rect x=\"226\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"288\" y=\"195\" width=\"60\" height=\"165\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"298\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"360\" y=\"184\" width=\"60\" height=\"176\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"370\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"432\" y=\"184\" width=\"60\" height=\"176\" rx=\"6\" fill=\"#DEE7F1\"/><rect x=\"442\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"504\" y=\"173\" width=\"60\" height=\"187\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"514\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"576\" y=\"162\" width=\"60\" height=\"198\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"586\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"648\" y=\"162\" width=\"60\" height=\"198\" rx=\"6\" fill=\"#DEE7F1\"/><rect x=\"658\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"720\" y=\"140\" width=\"60\" height=\"220\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"730\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"792\" y=\"118\" width=\"60\" height=\"242\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"802\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"864\" y=\"118\" width=\"60\" height=\"242\" rx=\"6\" fill=\"#DEE7F1\"/><rect x=\"874\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"936\" y=\"96\" width=\"60\" height=\"264\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"946\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"1008\" y=\"74\" width=\"60\" height=\"286\" rx=\"6\" fill=\"#3A6EA5\"/><rect x=\"1018\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><rect x=\"1080\" y=\"74\" width=\"60\" height=\"286\" rx=\"6\" fill=\"#DEE7F1\"/><rect x=\"1090\" y=\"370\" width=\"40\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/><line x1=\"0\" y1=\"360\" x2=\"1150\" y2=\"360\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"282\" y1=\"40\" x2=\"282\" y2=\"360\" stroke=\"#B07A1C\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><rect x=\"1200\" y=\"0\" width=\"464\" height=\"440\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1224.0 24.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 5a5 5 0 0 1 7 0a5 5 0 0 0 7 0v9a5 5 0 0 1-7 0a5 5 0 0 0-7 0zm0 16v-7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 288,
+     "y": 40,
+     "w": 200,
+     "t": "tiros entram aqui",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 40,
+     "w": 260,
+     "t": "sessão mais longa, por semana",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 390,
+     "w": 600,
+     "t": "força curta em todas as semanas",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 620,
+     "y": 390,
+     "w": 530,
+     "t": "barras claras: semanas de consolidação · esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 36,
+     "w": 340,
+     "t": "a prova",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1224,
+     "y": 130,
+     "w": 416,
+     "t": "doze semanas viram dezesseis, ou a prova do ano seguinte",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1224,
+     "y": 300,
+     "w": 416,
+     "t": "A prova pode esperar; a tíbia não.",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O plano reescrito",
+   "titulo": "Mais lento no papel, para chegar à prova correndo"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Progressão para quem treina quatro horas por semana",
+   "titulo": "Proteger a sessão, não só a semana",
+   "regras": [
+    "A sessão não passa de 10% da mais longa do último mês",
+    "Cinco mostradores, e o fôlego chega antes do tecido",
+    "Uma mudança por vez; depois de pausa, um degrau abaixo"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Faz as três perguntas antes de pedir exame."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Conta tudo o que a pessoa faz e reescreve o plano com as quatro regras."
+    },
+    {
+     "ic": "t:user",
+     "t": "O praticante",
+     "x": "Registra a sessão mais longa e não muda duas coisas na mesma semana."
+    }
+   ]
+  }
+ ],
+ "modulo": "O Atleta Amador e o Praticante Recreacional",
+ "tema": "grafite"
+}
