@@ -1,0 +1,1119 @@
+{
+ "arquivo": "aulas/MOD13/13-01-quem-e-o-praticante-amador.md",
+ "titulo": "Quem é o praticante amador",
+ "subtitulo": "Perfis, motivos e a semana real",
+ "nota_capa": "Entra por um corredor na casa dos quarenta que segue a planilha da elite em escala menor.",
+ "secoes": {
+  "corredor": [
+   "O erro.",
+   "capa"
+  ],
+  "funil": [
+   "Por que o erro acontece.",
+   "funil"
+  ],
+  "perfis": [
+   "Perfis e motivos.",
+   "perfis"
+  ],
+  "semana": [
+   "A semana real.",
+   "semana"
+  ]
+ },
+ "slides": [
+  {
+   "id": "corredor",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Corredor na casa dos quarenta com a planilha impressa: a mesma metodologia da elite. Seis horas por semana, três meses sem melhorar, dor na canela. Exames todos normais\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"191\" cy=\"70\" r=\"33\" fill=\"#3A6EA5\"/><path d=\"M 182 109 L 148 212 M 148 212 L 205 278 L 182 353 M 148 212 L 99 268 L 46 261 M 172 136 L 231 175 L 264 142 M 172 136 L 119 169 L 99 215\" stroke=\"#3A6EA5\" stroke-width=\"30\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"182\" cy=\"320\" r=\"26\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"380\" y=\"0\" width=\"520\" height=\"240\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"410\" y=\"90\" width=\"440\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"118\" width=\"370\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"146\" width=\"300\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"174\" width=\"440\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"410\" y=\"202\" width=\"370\" height=\"12\" rx=\"6\" fill=\"#D9D4C8\"/><rect x=\"380\" y=\"270\" width=\"520\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"380\" y=\"328\" width=\"520\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"380\" y=\"386\" width=\"520\" height=\"48\" rx=\"24\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"960\" y=\"0\" width=\"704\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(984.0 96.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(984.0 166.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(984.0 236.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g><g transform=\"translate(984.0 306.0) scale(1.5000)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m5 12l5 5L20 7\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 400,
+     "y": 20,
+     "w": 480,
+     "t": "“a mesma metodologia da elite”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 280,
+     "w": 480,
+     "t": "seis horas por semana",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 338,
+     "w": 480,
+     "t": "três meses sem melhorar",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 400,
+     "y": 396,
+     "w": 480,
+     "t": "dor na canela",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 20,
+     "w": 656,
+     "t": "Os exames que ele trouxe",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1034,
+     "y": 96,
+     "w": 600,
+     "t": "hemograma: normal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1034,
+     "y": 166,
+     "w": 600,
+     "t": "tireoide: normal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1034,
+     "y": 236,
+     "w": 600,
+     "t": "vitamina D: normal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1034,
+     "y": 306,
+     "w": 600,
+     "t": "testosterona: normal",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 984,
+     "y": 380,
+     "w": 656,
+     "t": "o que faltava não estava no exame",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Um corredor na casa dos quarenta",
+   "titulo": "A planilha da elite em escala menor não funcionou"
+  },
+  {
+   "id": "transpor",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Duas setas saindo do plano da elite. Transpor: o mesmo plano, encolhido. Adaptar: um plano redesenhado em volta de outra vida, com sono, trabalho e família no desenho\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker><marker id=\"m1\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#008A7E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"120\" width=\"380\" height=\"200\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"30\" y=\"180\" width=\"320\" height=\"14\" rx=\"7\" fill=\"#D9D4C8\"/><rect x=\"30\" y=\"210\" width=\"290\" height=\"14\" rx=\"7\" fill=\"#D9D4C8\"/><rect x=\"30\" y=\"240\" width=\"260\" height=\"14\" rx=\"7\" fill=\"#D9D4C8\"/><rect x=\"30\" y=\"270\" width=\"230\" height=\"14\" rx=\"7\" fill=\"#D9D4C8\"/><line x1=\"400\" y1=\"170\" x2=\"620\" y2=\"90\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/><line x1=\"400\" y1=\"270\" x2=\"620\" y2=\"350\" stroke=\"#008A7E\" stroke-width=\"5\" marker-end=\"url(#m1)\"/><rect x=\"640\" y=\"20\" width=\"340\" height=\"150\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"665\" y=\"70\" width=\"200\" height=\"10\" rx=\"5\" fill=\"#A8322A\"/><rect x=\"665\" y=\"92\" width=\"180\" height=\"10\" rx=\"5\" fill=\"#A8322A\"/><rect x=\"665\" y=\"114\" width=\"160\" height=\"10\" rx=\"5\" fill=\"#A8322A\"/><rect x=\"665\" y=\"136\" width=\"140\" height=\"10\" rx=\"5\" fill=\"#A8322A\"/><rect x=\"640\" y=\"260\" width=\"340\" height=\"170\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"660\" y=\"300\" width=\"96\" height=\"40\" rx=\"20\" fill=\"#3A6EA5\"/><rect x=\"764\" y=\"300\" width=\"96\" height=\"40\" rx=\"20\" fill=\"#B07A1C\"/><rect x=\"868\" y=\"300\" width=\"96\" height=\"40\" rx=\"20\" fill=\"#A8322A\"/><rect x=\"665\" y=\"370\" width=\"290\" height=\"14\" rx=\"7\" fill=\"#008A7E\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 136,
+     "w": 340,
+     "t": "plano da elite",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1000,
+     "y": 40,
+     "w": 300,
+     "t": "Transpor",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1000,
+     "y": 90,
+     "w": 664,
+     "t": "o mesmo plano, encolhido: menos quilômetro, mesma lógica",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 660,
+     "y": 308,
+     "w": 96,
+     "t": "sono",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 764,
+     "y": 308,
+     "w": 96,
+     "t": "trabalho",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 868,
+     "y": 308,
+     "w": 96,
+     "t": "família",
+     "tam": 20,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1000,
+     "y": 280,
+     "w": 300,
+     "t": "Adaptar",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1000,
+     "y": 330,
+     "w": 664,
+     "t": "o plano redesenhado em volta da vida real: o que falta é margem, não quilômetro",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Transpor não é adaptar",
+   "titulo": "O amador é outro organismo, não a elite encolhida"
+  },
+  {
+   "id": "funil",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Funil. Na boca larga, quem é estudado: atletas, jovens, homens, disponíveis às seis da manhã por doze semanas. Na ponta estreita, quem é atendido: quarenta, cinquenta, sessenta anos, com trabalho, filhos e remédios\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><path d=\"M 0 20 L 1000 20 L 640 300 L 640 420 L 360 420 L 360 300 Z\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"4\"/><rect x=\"1080\" y=\"120\" width=\"584\" height=\"300\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1104.0 140.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><line x1=\"1010\" y1=\"260\" x2=\"1070\" y2=\"260\" stroke=\"#A8322A\" stroke-width=\"5\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 32,
+     "w": 920,
+     "t": "Quem é estudado",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 150,
+     "y": 84,
+     "w": 700,
+     "t": "atletas · jovens · homens · disponíveis às seis da manhã por doze semanas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 370,
+     "y": 330,
+     "w": 260,
+     "t": "coletável",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1200,
+     "y": 150,
+     "w": 440,
+     "t": "Quem é atendido",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1104,
+     "y": 240,
+     "w": 536,
+     "t": "quarenta, cinquenta, sessenta anos · trabalho · filhos · remédios",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1104,
+     "y": 350,
+     "w": 536,
+     "t": "a faixa que mais procura é a menos estudada",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "De onde vem o descompasso",
+   "titulo": "A elite é estudada porque é coletável"
+  },
+  {
+   "id": "tres",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A mesma sessão para três pessoas. Iniciante: overdose. Praticante regular: a dose depende da semana. Atleta: subdose. Lesão é carga sobre capacidade, não carga sozinha\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"632\" y=\"0\" width=\"400\" height=\"90\" rx=\"45\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><line x1=\"832\" y1=\"96\" x2=\"268\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"0\" y=\"160\" width=\"536\" height=\"200\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"30\" y=\"270\" width=\"476\" height=\"30\" rx=\"15\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"30\" y=\"270\" width=\"476\" height=\"30\" rx=\"15\" fill=\"#A8322A\"/><line x1=\"832\" y1=\"96\" x2=\"832\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"564\" y=\"160\" width=\"536\" height=\"200\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"594\" y=\"270\" width=\"476\" height=\"30\" rx=\"15\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"594\" y=\"270\" width=\"357\" height=\"30\" rx=\"15\" fill=\"#B07A1C\"/><line x1=\"832\" y1=\"96\" x2=\"1396\" y2=\"150\" stroke=\"#12202E\" stroke-width=\"3\" marker-end=\"url(#m0)\"/><rect x=\"1128\" y=\"160\" width=\"536\" height=\"200\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"1158\" y=\"270\" width=\"476\" height=\"30\" rx=\"15\" fill=\"#F7F6F2\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"1158\" y=\"270\" width=\"167\" height=\"30\" rx=\"15\" fill=\"#008A7E\"/><rect x=\"0\" y=\"380\" width=\"1664\" height=\"60\" rx=\"14\" fill=\"#008A7E\" stroke=\"#008A7E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 652,
+     "y": 26,
+     "w": 360,
+     "t": "a mesma sessão",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 180,
+     "w": 488,
+     "t": "iniciante",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 222,
+     "w": 488,
+     "t": "overdose",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 180,
+     "w": 488,
+     "t": "praticante regular",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 222,
+     "w": 488,
+     "t": "depende da semana",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1152,
+     "y": 180,
+     "w": 488,
+     "t": "atleta",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 222,
+     "w": 488,
+     "t": "subdose",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 312,
+     "w": 488,
+     "t": "barra: fração da capacidade · esquema",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 394,
+     "w": 1624,
+     "t": "Lesão é carga sobre capacidade, não carga sozinha",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Uma sessão, três corpos",
+   "titulo": "A mesma sessão é excesso num corpo e pouco em outro"
+  },
+  {
+   "id": "perfis",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Quatro perfis de praticante amador: o iniciante ou quem recomeça, risco progressão rápida, alavanca rampa; o praticante de saúde, risco desistência, alavanca adesão; o amador competitivo, risco treino alto com vida cheia, alavanca recuperação; o de fim de semana, risco salto de carga, alavanca distribuir\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(150.0 20.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><rect x=\"420\" y=\"0\" width=\"400\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(570.0 20.0) scale(4.1667)\"><g fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M4 11h16a1 1 0 0 1 1 1v.5c0 1.5-2.517 5.573-4 6.5v1a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-1c-1.687-1.054-4-5-4-6.5V12a1 1 0 0 1 1-1m14.5 0c.351-1.017.426-2.236.5-3.714V6h-2.256c-2.83 0-4.616.804-5.64 2.076\"/><path d=\"M5.255 11.008A12 12 0 0 1 5 9V8h1.755c.98 0 1.801.124 2.479.35M8 8l1-4l4 2.5\"/><path d=\"M13 11v-.5a2.5 2.5 0 1 0-5 0v.5\"/></g></g><rect x=\"840\" y=\"0\" width=\"400\" height=\"440\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(990.0 20.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g><rect x=\"1260\" y=\"0\" width=\"400\" height=\"440\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1410.0 20.0) scale(4.1667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 136,
+     "w": 360,
+     "t": "Iniciante ou quem recomeça",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 214,
+     "w": 360,
+     "t": "risco: progressão rápida sobre tecido sem histórico",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 340,
+     "w": 360,
+     "t": "alavanca: a rampa",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 136,
+     "w": 360,
+     "t": "Praticante de saúde",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 440,
+     "y": 214,
+     "w": 360,
+     "t": "risco: desistir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 340,
+     "w": 360,
+     "t": "alavanca: a adesão",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 136,
+     "w": 360,
+     "t": "Amador competitivo",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 860,
+     "y": 214,
+     "w": 360,
+     "t": "risco: treino alto somado à vida cheia",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 340,
+     "w": 360,
+     "t": "alavanca: a recuperação",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 136,
+     "w": 360,
+     "t": "O de fim de semana",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1280,
+     "y": 214,
+     "w": 360,
+     "t": "risco: o salto de carga do sábado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 340,
+     "w": 360,
+     "t": "alavanca: distribuir parte da carga",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quatro perfis dentro do amador",
+   "titulo": "Cada perfil tem um risco e uma alavanca"
+  },
+  {
+   "id": "motivos",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Escala de motivação de maratonistas de 1993: nove motivos em quatro grupos. Saúde física: saúde geral, peso. Social: pertencimento, reconhecimento. Conquista: competição, meta pessoal. Psicológico: enfrentar o estresse, autoestima, sentido de vida\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"300\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"30\" y=\"90\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"30\" y=\"156\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"420\" y=\"0\" width=\"400\" height=\"300\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"450\" y=\"90\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"450\" y=\"156\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#3A6EA5\" stroke-width=\"2\"/><rect x=\"840\" y=\"0\" width=\"400\" height=\"300\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"870\" y=\"90\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"870\" y=\"156\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#B07A1C\" stroke-width=\"2\"/><rect x=\"1260\" y=\"0\" width=\"400\" height=\"300\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"1290\" y=\"90\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1290\" y=\"156\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"1290\" y=\"222\" width=\"340\" height=\"52\" rx=\"26\" fill=\"#F7F6F2\" stroke=\"#A8322A\" stroke-width=\"2\"/><rect x=\"0\" y=\"330\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 20,
+     "w": 360,
+     "t": "Saúde física",
+     "tam": 30,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 40,
+     "y": 102,
+     "w": 320,
+     "t": "saúde geral",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 168,
+     "w": 320,
+     "t": "peso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 440,
+     "y": 20,
+     "w": 360,
+     "t": "Social",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 460,
+     "y": 102,
+     "w": 320,
+     "t": "pertencimento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 460,
+     "y": 168,
+     "w": 320,
+     "t": "reconhecimento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 20,
+     "w": 360,
+     "t": "Conquista",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 102,
+     "w": 320,
+     "t": "competição",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 880,
+     "y": 168,
+     "w": 320,
+     "t": "meta pessoal",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1280,
+     "y": 20,
+     "w": 360,
+     "t": "Psicológico",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 102,
+     "w": 320,
+     "t": "enfrentar o estresse",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 168,
+     "w": 320,
+     "t": "autoestima",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 234,
+     "w": 320,
+     "t": "sentido de vida",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 352,
+     "w": 1616,
+     "t": "O plano precisa servir ao motivo: para quem corre pelo grupo, tirar o treino do sábado é tirar o motivo",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Escala de motivação de maratonistas, 1993",
+   "titulo": "Nove motivos para correr, em quatro famílias",
+   "fonte": "Res Q Exerc Sport 1993"
+  },
+  {
+   "id": "semana",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A semana do corredor em duas camadas: em cima, o treino prescrito, seis horas; embaixo, acordar às cinco para correr, deitar à meia-noite, duas horas de deslocamento, a filha pequena. Régua de sono: cinco horas por noite há dois anos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"160\" y=\"40\" width=\"196\" height=\"60\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"160\" y=\"140\" width=\"196\" height=\"50\" rx=\"8\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"160\" y=\"200\" width=\"196\" height=\"40\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"160\" y=\"260\" width=\"196\" height=\"30\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"374\" y=\"140\" width=\"196\" height=\"50\" rx=\"8\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"374\" y=\"200\" width=\"196\" height=\"40\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"374\" y=\"260\" width=\"196\" height=\"30\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"588\" y=\"40\" width=\"196\" height=\"60\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"588\" y=\"140\" width=\"196\" height=\"50\" rx=\"8\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"588\" y=\"200\" width=\"196\" height=\"40\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"588\" y=\"260\" width=\"196\" height=\"30\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"802\" y=\"140\" width=\"196\" height=\"50\" rx=\"8\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"802\" y=\"200\" width=\"196\" height=\"40\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"802\" y=\"260\" width=\"196\" height=\"30\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"1016\" y=\"40\" width=\"196\" height=\"60\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"1016\" y=\"140\" width=\"196\" height=\"50\" rx=\"8\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"1016\" y=\"200\" width=\"196\" height=\"40\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"1016\" y=\"260\" width=\"196\" height=\"30\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"1230\" y=\"40\" width=\"196\" height=\"60\" rx=\"10\" fill=\"#008A7E\"/><rect x=\"1230\" y=\"140\" width=\"196\" height=\"50\" rx=\"8\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"1230\" y=\"200\" width=\"196\" height=\"40\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"1230\" y=\"260\" width=\"196\" height=\"30\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"1444\" y=\"140\" width=\"196\" height=\"50\" rx=\"8\" fill=\"#3A6EA5\" opacity=\"0.85\"/><rect x=\"1444\" y=\"200\" width=\"196\" height=\"40\" rx=\"8\" fill=\"#B07A1C\" opacity=\"0.85\"/><rect x=\"1444\" y=\"260\" width=\"196\" height=\"30\" rx=\"8\" fill=\"#A8322A\" opacity=\"0.85\"/><rect x=\"160\" y=\"350\" width=\"1494\" height=\"30\" rx=\"15\" fill=\"#D9D4C8\"/><rect x=\"160\" y=\"350\" width=\"934\" height=\"30\" rx=\"15\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 160,
+     "y": 0,
+     "w": 196,
+     "t": "seg",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 374,
+     "y": 0,
+     "w": 196,
+     "t": "ter",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 588,
+     "y": 0,
+     "w": 196,
+     "t": "qua",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 802,
+     "y": 0,
+     "w": 196,
+     "t": "qui",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1016,
+     "y": 0,
+     "w": 196,
+     "t": "sex",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1230,
+     "y": 0,
+     "w": 196,
+     "t": "sáb",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1444,
+     "y": 0,
+     "w": 196,
+     "t": "dom",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 54,
+     "w": 150,
+     "t": "treino",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 150,
+     "w": 150,
+     "t": "acordar às 5",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 206,
+     "w": 150,
+     "t": "trânsito",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 262,
+     "w": 150,
+     "t": "a filha",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 352,
+     "w": 150,
+     "t": "sono",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 392,
+     "w": 1494,
+     "t": "≈ 5 horas por noite, há dois anos",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que o plano não via",
+   "titulo": "No amador, o resto da semana compete com a recuperação"
+  },
+  {
+   "id": "perguntas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Cinco perguntas, custo zero: que horas deita e levanta; turno, escala e deslocamento; refeições em dia de treino; já fez dieta restritiva, perdeu muito peso ou parou de menstruar; quantas infecções nos últimos doze meses. Registro diário: hora de deitar, nota ao acordar, esforço percebido\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"32\" cy=\"32\" r=\"28\" fill=\"#008A7E\"/><circle cx=\"32\" cy=\"118\" r=\"28\" fill=\"#008A7E\"/><circle cx=\"32\" cy=\"204\" r=\"28\" fill=\"#008A7E\"/><circle cx=\"32\" cy=\"290\" r=\"28\" fill=\"#008A7E\"/><circle cx=\"32\" cy=\"376\" r=\"28\" fill=\"#008A7E\"/><rect x=\"1140\" y=\"0\" width=\"524\" height=\"440\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 12,
+     "y": 14,
+     "w": 40,
+     "t": "1",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 14,
+     "w": 980,
+     "t": "que horas deita e que horas levanta",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 12,
+     "y": 100,
+     "w": 40,
+     "t": "2",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 100,
+     "w": 980,
+     "t": "turno, escala, plantão e deslocamento",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 12,
+     "y": 186,
+     "w": 40,
+     "t": "3",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 186,
+     "w": 980,
+     "t": "refeições em dia de treino, antes e depois",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 12,
+     "y": 272,
+     "w": 40,
+     "t": "4",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 272,
+     "w": 980,
+     "t": "dieta restritiva, perda grande de peso ou menstruação que parou",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 12,
+     "y": 358,
+     "w": 40,
+     "t": "5",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 80,
+     "y": 358,
+     "w": 980,
+     "t": "infecções nos últimos doze meses",
+     "tam": 28,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 20,
+     "w": 476,
+     "t": "Registro diário",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1164,
+     "y": 96,
+     "w": 476,
+     "t": "· hora de deitar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 160,
+     "w": 476,
+     "t": "· nota de 0 a 10 ao acordar",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 224,
+     "w": 476,
+     "t": "· esforço percebido no fim do treino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1164,
+     "y": 330,
+     "w": 476,
+     "t": "custo zero; o padrão aparece em poucas semanas",
+     "tam": 24,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Antes de olhar exame",
+   "titulo": "Cinco perguntas mudam mais conduta que um painel caro"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Quem é o praticante amador",
+   "titulo": "Adaptar o plano à vida, e não encolher o da elite",
+   "regras": [
+    "O amador não é a elite em escala menor: transpor não é adaptar",
+    "Lesão é carga sobre capacidade: a mesma sessão é excesso num corpo e pouco em outro",
+    "O plano serve ao motivo e cabe na semana real, não na ideal"
+   ],
+   "cards": [
+    {
+     "ic": "t:stopwatch",
+     "t": "Quem treina",
+     "x": "Pergunta pelo motivo e pela semana antes de montar a planilha."
+    },
+    {
+     "ic": "h:doctor",
+     "t": "Medicina e nutrição",
+     "x": "Fazem as cinco perguntas e olham a vida antes do exame."
+    },
+    {
+     "ic": "t:user",
+     "t": "O praticante",
+     "x": "Registra sono, como acordou e o esforço, para o padrão aparecer."
+    }
+   ]
+  }
+ ],
+ "modulo": "O Atleta Amador e o Praticante Recreacional",
+ "tema": "grafite"
+}

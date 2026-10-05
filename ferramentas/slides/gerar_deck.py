@@ -27,6 +27,7 @@ TEMAS = {
     "anil":     {"fundo": "#1C2340", "card": "#283056", "linha": "#3A426C", "eyebrow": "#E6C08A", "sub": "#8FD3C8", "apoio": "#D2D6EA"},
     "terra":    {"fundo": "#33231B", "card": "#45302A", "linha": "#5C4336", "eyebrow": "#E6C08A", "sub": "#8FD3C8", "apoio": "#E8D9CC"},
     "musgo":    {"fundo": "#1E2A22", "card": "#2A3A2F", "linha": "#3E5245", "eyebrow": "#E6C08A", "sub": "#F2A58F", "apoio": "#D7E2D5"},
+    "grafite":  {"fundo": "#24262B", "card": "#33363D", "linha": "#474B53", "eyebrow": "#E6C08A", "sub": "#8FD3C8", "apoio": "#DADDE2"},
 }
 SANS = "'IBM Plex Sans', Arial, sans-serif"
 
