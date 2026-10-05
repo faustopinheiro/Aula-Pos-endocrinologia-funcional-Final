@@ -1,0 +1,1196 @@
+{
+ "arquivo": "aulas/MOD14/14-03-caso-integrado-adolescente-em-especializacao-precoce.md",
+ "titulo": "Caso integrado 3: adolescente em especialização precoce",
+ "subtitulo": "Cinco condutas certas não somam um plano",
+ "nota_capa": "Entra por um judoca de treze anos que passou por cinco atendimentos em quatro meses.",
+ "secoes": {
+  "tatame": [
+   "O erro.",
+   "capa"
+  ],
+  "padrao": [
+   "Por que acontece.",
+   "padrao"
+  ],
+  "correcao": [
+   "A correção.",
+   "correcao"
+  ]
+ },
+ "slides": [
+  {
+   "id": "tatame",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Judoca de treze anos na balança da pesagem. Cinco atendimentos em quatro meses, todos com visto: pronto-socorro, tontura na pesagem, hidratação na veia e alta; nutricionista, plano para manter a categoria; fisioterapeuta, dor lombar; psicóloga, ansiedade antes das lutas; escola, notas caindo. A pergunta que ninguém escreveu: por que um menino de treze anos corta peso quatro vezes por ano? Perfil típico\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"150\" cy=\"100\" r=\"20\" fill=\"#12202E\"/><rect x=\"124\" y=\"126\" width=\"53\" height=\"99\" rx=\"11\" fill=\"#12202E\"/><rect x=\"128\" y=\"216\" width=\"18\" height=\"84\" rx=\"6\" fill=\"#12202E\"/><rect x=\"154\" y=\"216\" width=\"18\" height=\"84\" rx=\"6\" fill=\"#12202E\"/><rect x=\"60\" y=\"300\" width=\"180\" height=\"40\" rx=\"8\" fill=\"#6B7A87\"/><rect x=\"120\" y=\"310\" width=\"60\" height=\"20\" rx=\"4\" fill=\"#F7F6F2\"/><rect x=\"340\" y=\"0\" width=\"640\" height=\"60\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"368\" cy=\"30\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 361 30 L 366 36 L 376 24\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><rect x=\"340\" y=\"72\" width=\"640\" height=\"60\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"368\" cy=\"102\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 361 102 L 366 108 L 376 96\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><rect x=\"340\" y=\"144\" width=\"640\" height=\"60\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"368\" cy=\"174\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 361 174 L 366 180 L 376 168\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><rect x=\"340\" y=\"216\" width=\"640\" height=\"60\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"368\" cy=\"246\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 361 246 L 366 252 L 376 240\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><rect x=\"340\" y=\"288\" width=\"640\" height=\"60\" rx=\"12\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"368\" cy=\"318\" r=\"14\" fill=\"#008A7E\"/><path d=\"M 361 318 L 366 324 L 376 312\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><rect x=\"1040\" y=\"40\" width=\"624\" height=\"300\" rx=\"20\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"4\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 350,
+     "w": 300,
+     "t": "13 anos · perfil típico",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 16,
+     "w": 200,
+     "t": "pronto-socorro",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 16,
+     "w": 370,
+     "t": "tontura na pesagem: soro e alta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 88,
+     "w": 200,
+     "t": "nutricionista",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 88,
+     "w": 370,
+     "t": "plano para manter a categoria",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 160,
+     "w": 200,
+     "t": "fisioterapeuta",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 160,
+     "w": 370,
+     "t": "dor lombar: exercícios",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 232,
+     "w": 200,
+     "t": "psicóloga",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 232,
+     "w": 370,
+     "t": "ansiedade antes das lutas: respiração",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 396,
+     "y": 304,
+     "w": 200,
+     "t": "escola",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 600,
+     "y": 304,
+     "w": 370,
+     "t": "notas caindo: reforço",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 60,
+     "w": 576,
+     "t": "A pergunta que ninguém escreveu",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1064,
+     "y": 110,
+     "w": 576,
+     "t": "“Por que um menino de treze anos corta peso quatro vezes por ano?”",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1040,
+     "y": 380,
+     "w": 624,
+     "t": "cinco atendimentos em quatro meses",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Judô competitivo, um menino de treze anos",
+   "titulo": "Cinco atendimentos certos, e ninguém perguntou pelo peso"
+  },
+  {
+   "id": "erro",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Cinco caixas com visto e a conduta de cada atendimento; embaixo, a soma das cinco: um ponto de interrogação. Cinco condutas certas não somam um plano\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"0\" width=\"312\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"36\" cy=\"36\" r=\"18\" fill=\"#008A7E\"/><path d=\"M 27 36 L 34 44 L 46 28\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><line x1=\"156\" y1=\"150\" x2=\"832\" y2=\"230\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"336\" y=\"0\" width=\"312\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"372\" cy=\"36\" r=\"18\" fill=\"#008A7E\"/><path d=\"M 363 36 L 370 44 L 382 28\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><line x1=\"492\" y1=\"150\" x2=\"832\" y2=\"230\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"672\" y=\"0\" width=\"312\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"708\" cy=\"36\" r=\"18\" fill=\"#008A7E\"/><path d=\"M 699 36 L 706 44 L 718 28\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><line x1=\"828\" y1=\"150\" x2=\"832\" y2=\"230\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"1008\" y=\"0\" width=\"312\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"1044\" cy=\"36\" r=\"18\" fill=\"#008A7E\"/><path d=\"M 1035 36 L 1042 44 L 1054 28\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><line x1=\"1164\" y1=\"150\" x2=\"832\" y2=\"230\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><rect x=\"1344\" y=\"0\" width=\"312\" height=\"150\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><circle cx=\"1380\" cy=\"36\" r=\"18\" fill=\"#008A7E\"/><path d=\"M 1371 36 L 1378 44 L 1390 28\" stroke=\"#F7F6F2\" stroke-width=\"4\" fill=\"none\"/><line x1=\"1500\" y1=\"150\" x2=\"832\" y2=\"230\" stroke=\"#D9D4C8\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"290\" r=\"60\" fill=\"#A8322A\"/></svg>",
+   "rotulos": [
+    {
+     "x": 64,
+     "y": 22,
+     "w": 236,
+     "t": "pronto-socorro",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 20,
+     "y": 70,
+     "w": 272,
+     "t": "tontura na pesagem: soro e alta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 400,
+     "y": 22,
+     "w": 236,
+     "t": "nutricionista",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 356,
+     "y": 70,
+     "w": 272,
+     "t": "plano para manter a categoria",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 736,
+     "y": 22,
+     "w": 236,
+     "t": "fisioterapeuta",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 692,
+     "y": 70,
+     "w": 272,
+     "t": "dor lombar: exercícios",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1072,
+     "y": 22,
+     "w": 236,
+     "t": "psicóloga",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1028,
+     "y": 70,
+     "w": 272,
+     "t": "ansiedade antes das lutas: respiração",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1408,
+     "y": 22,
+     "w": 236,
+     "t": "escola",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1364,
+     "y": 70,
+     "w": 272,
+     "t": "notas caindo: reforço",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 782,
+     "y": 252,
+     "w": 100,
+     "t": "?",
+     "tam": 64,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 362,
+     "w": 1664,
+     "t": "Cinco condutas certas não somam um plano.",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O erro",
+   "titulo": "Cada profissional teve razão sozinho"
+  },
+  {
+   "id": "padrao",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"822 judocas brasileiros: 86% já perderam peso rápido para competir. Idade média em que começaram: 12,6 anos. Métodos relatados: pular refeições, restringir líquido, treinar com roupa plástica. Levantamento de 2010\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><circle cx=\"20\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"54\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"88\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"122\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"156\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"190\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"224\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"258\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"292\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"326\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"360\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"394\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"428\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"462\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"496\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"530\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"564\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"598\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"632\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"666\" cy=\"30\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"20\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"54\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"88\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"122\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"156\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"190\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"224\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"258\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"292\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"326\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"360\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"394\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"428\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"462\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"496\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"530\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"564\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"598\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"632\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"666\" cy=\"64\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"20\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"54\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"88\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"122\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"156\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"190\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"224\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"258\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"292\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"326\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"360\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"394\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"428\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"462\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"496\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"530\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"564\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"598\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"632\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"666\" cy=\"98\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"20\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"54\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"88\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"122\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"156\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"190\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"224\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"258\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"292\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"326\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"360\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"394\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"428\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"462\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"496\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"530\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"564\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"598\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"632\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"666\" cy=\"132\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"20\" cy=\"166\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"54\" cy=\"166\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"88\" cy=\"166\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"122\" cy=\"166\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"156\" cy=\"166\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"190\" cy=\"166\" r=\"13\" fill=\"#A8322A\"/><circle cx=\"224\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"258\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"292\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"326\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"360\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"394\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"428\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"462\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"496\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"530\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"564\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"598\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"632\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><circle cx=\"666\" cy=\"166\" r=\"13\" fill=\"#D9D4C8\"/><line x1=\"800\" y1=\"120\" x2=\"1640\" y2=\"120\" stroke=\"#12202E\" stroke-width=\"4\"/><line x1=\"800\" y1=\"110\" x2=\"800\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"940\" y1=\"110\" x2=\"940\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1080\" y1=\"110\" x2=\"1080\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1220\" y1=\"110\" x2=\"1220\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1360\" y1=\"110\" x2=\"1360\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1500\" y1=\"110\" x2=\"1500\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"1640\" y1=\"110\" x2=\"1640\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"3\"/><circle cx=\"1122\" cy=\"120\" r=\"18\" fill=\"#A8322A\"/><rect x=\"800\" y=\"230\" width=\"864\" height=\"210\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 200,
+     "w": 200,
+     "t": "86%",
+     "tam": 64,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 200,
+     "y": 216,
+     "w": 480,
+     "t": "já perderam peso rápido para competir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 0,
+     "y": 300,
+     "w": 700,
+     "t": "822 judocas competitivos · cada ponto, 1% · levantamento brasileiro de 2010",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 770,
+     "y": 138,
+     "w": 60,
+     "t": "8",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 910,
+     "y": 138,
+     "w": 60,
+     "t": "10",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1050,
+     "y": 138,
+     "w": 60,
+     "t": "12",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1190,
+     "y": 138,
+     "w": 60,
+     "t": "14",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1330,
+     "y": 138,
+     "w": 60,
+     "t": "16",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1470,
+     "y": 138,
+     "w": 60,
+     "t": "18",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1610,
+     "y": 138,
+     "w": 60,
+     "t": "20",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 972,
+     "y": 24,
+     "w": 300,
+     "t": "12,6 anos: início médio do corte",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1440,
+     "y": 170,
+     "w": 200,
+     "t": "idade em anos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 824,
+     "y": 250,
+     "w": 780,
+     "t": "Métodos relatados",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 824,
+     "y": 320,
+     "w": 260,
+     "t": "pular refeições",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1104,
+     "y": 320,
+     "w": 260,
+     "t": "restringir líquido",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1384,
+     "y": 320,
+     "w": 260,
+     "t": "treinar com roupa plástica",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "O tamanho do padrão",
+   "titulo": "No judô brasileiro, o corte de peso começa por volta dos doze anos",
+   "fonte": "Med Sci Sports Exerc 2010"
+  },
+  {
+   "id": "arvore",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Árvore. Nos galhos, cinco sintomas: tontura, peso, dor lombar, ansiedade, notas, cada um com o profissional que o tratou. No tronco, a raiz comum: competir o ano inteiro; categoria abaixo do peso de crescimento; ninguém responde pelo conjunto\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><path d=\"M 790 460 L 790 230 M 874 460 L 874 230\" stroke=\"#12202E\" stroke-width=\"10\"/><rect x=\"790\" y=\"230\" width=\"84\" height=\"230\" fill=\"#6B7A87\"/><line x1=\"832\" y1=\"230\" x2=\"170\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"6\"/><circle cx=\"170\" cy=\"100\" r=\"32\" fill=\"#A8322A\"/><line x1=\"832\" y1=\"230\" x2=\"500\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"6\"/><circle cx=\"500\" cy=\"100\" r=\"32\" fill=\"#008A7E\"/><line x1=\"832\" y1=\"230\" x2=\"830\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"6\"/><circle cx=\"830\" cy=\"100\" r=\"32\" fill=\"#3A6EA5\"/><line x1=\"832\" y1=\"230\" x2=\"1160\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"6\"/><circle cx=\"1160\" cy=\"100\" r=\"32\" fill=\"#B07A1C\"/><line x1=\"832\" y1=\"230\" x2=\"1490\" y2=\"130\" stroke=\"#12202E\" stroke-width=\"6\"/><circle cx=\"1490\" cy=\"100\" r=\"32\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 40,
+     "y": 0,
+     "w": 260,
+     "t": "tontura",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 40,
+     "y": 30,
+     "w": 260,
+     "t": "pronto-socorro",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 0,
+     "w": 260,
+     "t": "peso",
+     "tam": 22,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 370,
+     "y": 30,
+     "w": 260,
+     "t": "nutricionista",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 0,
+     "w": 260,
+     "t": "dor lombar",
+     "tam": 22,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 30,
+     "w": 260,
+     "t": "fisioterapeuta",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 0,
+     "w": 260,
+     "t": "ansiedade",
+     "tam": 22,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1030,
+     "y": 30,
+     "w": 260,
+     "t": "psicóloga",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 0,
+     "w": 260,
+     "t": "notas",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1360,
+     "y": 30,
+     "w": 260,
+     "t": "escola",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 900,
+     "y": 270,
+     "w": 700,
+     "t": "competir o ano inteiro",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 332,
+     "w": 700,
+     "t": "categoria abaixo do peso de crescimento",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 900,
+     "y": 394,
+     "w": 700,
+     "t": "ninguém responde pelo conjunto",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 300,
+     "w": 360,
+     "t": "a raiz",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 400,
+     "y": 344,
+     "w": 360,
+     "t": "não é queixa de ninguém",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Por que o erro acontece",
+   "titulo": "Cada um tratou o galho que viu, e a raiz não era queixa de ninguém"
+  },
+  {
+   "id": "alimenta",
+   "tipo": "diagrama",
+   "h": 450,
+   "svg": "<svg aria-label=\"Três condutas certas que viraram parte do problema. Hidratação na veia e alta: a pesagem seguinte é igual. Plano para manter a categoria: um adolescente em crescimento segurando o peso. Técnicas de respiração: a ansiedade tem data marcada, a pesagem. Cada uma volta para a raiz\" width=\"1664\" height=\"450\" viewBox=\"0 0 1664 450\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#A8322A\" stroke-width=\"3\"/><path d=\"M 268 300 Q 268 370 832 390\" stroke=\"#A8322A\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"10 8\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/><path d=\"M 832 300 Q 832 370 832 390\" stroke=\"#008A7E\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"10 8\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"300\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><path d=\"M 1396 300 Q 1396 370 832 390\" stroke=\"#B07A1C\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"10 8\"/><circle cx=\"832\" cy=\"392\" r=\"20\" fill=\"#6B7A87\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 24,
+     "w": 488,
+     "t": "hidratação na veia e alta",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 120,
+     "w": 488,
+     "t": "a alta devolveu o menino à mesma pesagem, sem aviso a ninguém",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 588,
+     "y": 24,
+     "w": 488,
+     "t": "plano para manter a categoria",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 120,
+     "w": 488,
+     "t": "manter a categoria no pico de crescimento é brigar com o crescimento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1152,
+     "y": 24,
+     "w": 488,
+     "t": "técnicas de respiração",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 120,
+     "w": 488,
+     "t": "a ansiedade tem data marcada: a véspera da pesagem",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 632,
+     "y": 418,
+     "w": 400,
+     "t": "de volta à raiz",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quando a conduta certa alimenta a raiz",
+   "titulo": "Sem a raiz, a conduta certa passa a sustentar o problema"
+  },
+  {
+   "id": "correcao",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Um plano em cinco linhas: uma pessoa coordena; a categoria é decidida em conjunto com a família, olhando o crescimento; calendário com meses fora da competição; linhas que não se cruzam no adolescente: restringir líquido, roupa plástica, sauna, laxante, diurético; a escola entra na conversa\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"1664\" height=\"460\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><line x1=\"32\" y1=\"76\" x2=\"1632\" y2=\"76\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 88.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><line x1=\"32\" y1=\"148\" x2=\"1632\" y2=\"148\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 160.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7 20h10M6 6l6-1l6 1m-6-3v17m-3-8L6 6l-3 6a3 3 0 0 0 6 0m12 0l-3-6l-3 6a3 3 0 0 0 6 0\"/></g><line x1=\"32\" y1=\"220\" x2=\"1632\" y2=\"220\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 232.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm12-4v4M8 3v4m-4 4h16m-9 4h1m0 0v3\"/></g><line x1=\"32\" y1=\"292\" x2=\"1632\" y2=\"292\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 304.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><line x1=\"32\" y1=\"364\" x2=\"1632\" y2=\"364\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><g transform=\"translate(32.0 376.0) scale(1.8333)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0M3 6v13m9-13v13m9-13v13\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 32,
+     "y": 18,
+     "w": 800,
+     "t": "Um plano, não cinco",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 96,
+     "y": 94,
+     "w": 1520,
+     "t": "uma pessoa coordena, de qualquer profissão",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 166,
+     "w": 1520,
+     "t": "a categoria é decidida em conjunto, com a família, olhando o crescimento",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 238,
+     "w": 1520,
+     "t": "calendário com meses fora da competição",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 310,
+     "w": 1520,
+     "t": "não entram no plano: restringir líquido, roupa plástica, sauna, laxante, diurético",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 96,
+     "y": 382,
+     "w": 1520,
+     "t": "a escola entra na conversa: as notas são o sinal mais precoce",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A correção",
+   "titulo": "Os cinco atendimentos viram um plano com cinco linhas"
+  },
+  {
+   "id": "reuniao",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Reunião de trinta minutos com o atleta no centro; em volta, pais, técnico, nutricionista, psicóloga e quem coordena. Na mesa, o resumo combinado e a assinatura: o que pode ser compartilhado, com consentimento dos pais e do atleta. Quem percebe o padrão convoca\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><ellipse cx=\"480\" cy=\"220\" rx=\"260\" ry=\"120\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"4\"/><circle cx=\"480\" cy=\"151\" r=\"11\" fill=\"#A8322A\"/><rect x=\"466\" y=\"168\" width=\"29\" height=\"54\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"468\" y=\"214\" width=\"10\" height=\"46\" rx=\"6\" fill=\"#A8322A\"/><rect x=\"482\" y=\"214\" width=\"10\" height=\"46\" rx=\"6\" fill=\"#A8322A\"/><circle cx=\"142\" cy=\"155\" r=\"24\" fill=\"#12202E\"/><circle cx=\"480\" cy=\"30\" r=\"24\" fill=\"#12202E\"/><circle cx=\"818\" cy=\"155\" r=\"24\" fill=\"#12202E\"/><circle cx=\"711\" cy=\"366\" r=\"24\" fill=\"#12202E\"/><circle cx=\"300\" cy=\"385\" r=\"24\" fill=\"#12202E\"/><rect x=\"1000\" y=\"0\" width=\"664\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(1024.0 24.0) scale(2.1667)\"><g fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0\"/><path d=\"M12 7v5l3 3\"/></g></g></svg>",
+   "rotulos": [
+    {
+     "x": 380,
+     "y": 270,
+     "w": 200,
+     "t": "o atleta",
+     "tam": 22,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 42,
+     "y": 183,
+     "w": 200,
+     "t": "pais",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 380,
+     "y": 58,
+     "w": 200,
+     "t": "técnico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 718,
+     "y": 183,
+     "w": 200,
+     "t": "nutricionista",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 611,
+     "y": 394,
+     "w": 200,
+     "t": "psicóloga",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 200,
+     "y": 413,
+     "w": 200,
+     "t": "coordenação",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1092,
+     "y": 34,
+     "w": 548,
+     "t": "trinta minutos",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1024,
+     "y": 110,
+     "w": 616,
+     "t": "quem percebe o padrão convoca",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 200,
+     "w": 616,
+     "t": "o que pode ser compartilhado, e com quem, fica escrito",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1024,
+     "y": 300,
+     "w": 616,
+     "t": "menor de idade: consentimento dos pais, com o adolescente participando",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Quem convoca",
+   "titulo": "Quem percebe o padrão primeiro convoca a reunião"
+  },
+  {
+   "id": "nome",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Antes: cinco fichas separadas, cada uma com uma queixa resolvida. Depois: uma ficha com o problema no topo, corte de peso repetido em adolescente no pico de crescimento, e cinco contribuições embaixo. A pergunta muda de como bater o peso para se ele deve bater esse peso\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#12202E\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"60\" width=\"180\" height=\"150\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"200\" y=\"60\" width=\"180\" height=\"150\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"400\" y=\"60\" width=\"180\" height=\"150\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"0\" y=\"230\" width=\"180\" height=\"150\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"200\" y=\"230\" width=\"180\" height=\"150\" rx=\"10\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"640\" y1=\"200\" x2=\"740\" y2=\"200\" stroke=\"#12202E\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><rect x=\"780\" y=\"60\" width=\"884\" height=\"360\" rx=\"16\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"780\" y=\"60\" width=\"884\" height=\"110\" rx=\"16\" fill=\"#DEE7F1\"/></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 600,
+     "t": "Antes",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 12,
+     "y": 76,
+     "w": 156,
+     "t": "pronto-socorro",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 12,
+     "y": 160,
+     "w": 156,
+     "t": "resolvido",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 212,
+     "y": 76,
+     "w": 156,
+     "t": "nutricionista",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 212,
+     "y": 160,
+     "w": 156,
+     "t": "resolvido",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 412,
+     "y": 76,
+     "w": 156,
+     "t": "fisioterapeuta",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 412,
+     "y": 160,
+     "w": 156,
+     "t": "resolvido",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 12,
+     "y": 246,
+     "w": 156,
+     "t": "psicóloga",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 12,
+     "y": 330,
+     "w": 156,
+     "t": "resolvido",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 212,
+     "y": 246,
+     "w": 156,
+     "t": "escola",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15
+    },
+    {
+     "x": 212,
+     "y": 330,
+     "w": 156,
+     "t": "resolvido",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 780,
+     "y": 0,
+     "w": 600,
+     "t": "Depois",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 804,
+     "y": 80,
+     "w": 836,
+     "t": "problema: corte de peso repetido em adolescente no pico de crescimento",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 804,
+     "y": 200,
+     "w": 836,
+     "t": "pronto-socorro · nutrição · fisioterapia · psicologia · escola",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 804,
+     "y": 280,
+     "w": 836,
+     "t": "não mais “como bater o peso”, e sim “ele deve bater esse peso?”",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O nome certo do problema",
+   "titulo": "Com o nome certo, a pergunta deixa de ser como bater o peso"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Caso integrado: especialização precoce",
+   "titulo": "Procurar a raiz que não é queixa de ninguém",
+   "regras": [
+    "Vários atendimentos em poucos meses: procure a raiz comum",
+    "No pico de crescimento, segurar a categoria é brigar com o crescimento",
+    "Quem percebe o padrão convoca, com o atleta no centro"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina e nutrição",
+     "x": "Escrevem o problema com o nome certo e discutem a categoria com o crescimento."
+    },
+    {
+     "ic": "t:users",
+     "t": "Técnico e família",
+     "x": "Decidem calendário e categoria junto com a equipe, e não depois dela."
+    },
+    {
+     "ic": "t:user",
+     "t": "O atleta",
+     "x": "Participa da decisão, porque a balança é dele."
+    }
+   ]
+  }
+ ],
+ "modulo": "Integração, Gestão e Projeto Aplicado",
+ "tema": "oliva"
+}
