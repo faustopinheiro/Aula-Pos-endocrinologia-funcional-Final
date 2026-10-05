@@ -1,0 +1,968 @@
+{
+ "arquivo": "aulas/MOD14/14-07-etica-sigilo-e-protecao-de-dados.md",
+ "titulo": "Ética, sigilo e proteção de dados",
+ "subtitulo": "Três saídas para o diretor que bate à porta",
+ "nota_capa": "Entra por um jogador em tratamento para depressão e um diretor que quer saber o que ele tem.",
+ "secoes": {
+  "sala": [
+   "A decisão.",
+   "capa"
+  ],
+  "lealdade": [
+   "O conflito e as regras.",
+   "lealdade"
+  ],
+  "saida_a": [
+   "As três saídas.",
+   "saida_a"
+  ],
+  "acordo": [
+   "Combinar antes.",
+   "acordo"
+  ]
+ },
+ "slides": [
+  {
+   "id": "sala",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Departamento médico de um clube de futebol. Jogador na casa dos vinte em tratamento para depressão há dois meses, com remédio. Na porta, o diretor de futebol: o que ele tem? Por que está rendendo menos? No celular de alguém, um grupo de mensagens com a planilha de sono e frequência cardíaca do elenco. Perfil típico\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"640\" height=\"420\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"123\" r=\"23\" fill=\"#12202E\"/><rect x=\"129\" y=\"153\" width=\"62\" height=\"117\" rx=\"13\" fill=\"#12202E\"/><rect x=\"134\" y=\"261\" width=\"21\" height=\"99\" rx=\"6\" fill=\"#12202E\"/><rect x=\"165\" y=\"261\" width=\"21\" height=\"99\" rx=\"6\" fill=\"#12202E\"/><g transform=\"translate(260.0 200.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m4.5 12.5l8-8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1-7-7m4-4l7 7\"/></g><g transform=\"translate(700.0 40.0) scale(3.7500)\"><path fill=\"none\" stroke=\"#6B7A87\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M14 12v.01M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16\"/></g><rect x=\"820\" y=\"0\" width=\"844\" height=\"190\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"820\" y=\"230\" width=\"844\" height=\"190\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(844.0 260.0) scale(2.6667)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M6 5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2zm5-1h2m-1 13v.01\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 340,
+     "y": 200,
+     "w": 280,
+     "t": "tratamento para depressão, há dois meses",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 24,
+     "w": 592,
+     "t": "departamento médico",
+     "tam": 24,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 340,
+     "y": 330,
+     "w": 280,
+     "t": "perfil típico",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 20,
+     "w": 796,
+     "t": "o diretor de futebol",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 844,
+     "y": 64,
+     "w": 796,
+     "t": "“O que ele tem? Por que está rendendo menos?”",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 924,
+     "y": 262,
+     "w": 716,
+     "t": "a planilha de sono e frequência cardíaca do elenco, num grupo de mensagens da comissão",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Futebol profissional, um jogador na casa dos vinte",
+   "titulo": "Quem paga é o clube; quem é paciente é o jogador"
+  },
+  {
+   "id": "saidas",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Três saídas. A: contar ao clube o diagnóstico, quem paga tem direito de saber. B: não contar nada a ninguém, é sigilo. C: separar o que a equipe precisa para trabalhar do diagnóstico, e só contar o diagnóstico com consentimento escrito. Pergunta: o que decide o caminho?\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"268\" cy=\"80\" r=\"50\" fill=\"#A8322A\"/><rect x=\"564\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><circle cx=\"832\" cy=\"80\" r=\"50\" fill=\"#B07A1C\"/><rect x=\"1128\" y=\"0\" width=\"536\" height=\"320\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><circle cx=\"1396\" cy=\"80\" r=\"50\" fill=\"#008A7E\"/><rect x=\"0\" y=\"360\" width=\"1664\" height=\"80\" rx=\"14\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/></svg>",
+   "rotulos": [
+    {
+     "x": 218,
+     "y": 52,
+     "w": 100,
+     "t": "A",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 28,
+     "y": 160,
+     "w": 480,
+     "t": "contar ao clube o diagnóstico: quem paga tem direito de saber",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 782,
+     "y": 52,
+     "w": 100,
+     "t": "B",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 592,
+     "y": 160,
+     "w": 480,
+     "t": "não contar nada a ninguém: é sigilo",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 1346,
+     "y": 52,
+     "w": 100,
+     "t": "C",
+     "tam": 48,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1156,
+     "y": 160,
+     "w": 480,
+     "t": "separar o que a equipe precisa do diagnóstico; o diagnóstico, só com consentimento escrito",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.3
+    },
+    {
+     "x": 20,
+     "y": 382,
+     "w": 1624,
+     "t": "Antes de escolher: o que torna a decisão difícil, e o que as regras dizem",
+     "tam": 26,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A encruzilhada",
+   "titulo": "Três jeitos de responder ao diretor que bate à porta"
+  },
+  {
+   "id": "lealdade",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"O profissional de saúde no centro, puxado por duas cordas. De um lado, o clube: contrata, paga, quer resultado. Do outro, o atleta: é o paciente, confia, tem direito ao sigilo. Dupla lealdade. Outros exemplos do mesmo conflito: o patrocinador do suplemento, a federação, a família do atleta menor\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><path d=\"M 340 170 Q 580 140 760 170\" stroke=\"#B07A1C\" stroke-width=\"10\" fill=\"none\"/><path d=\"M 900 170 Q 1080 140 1320 170\" stroke=\"#3A6EA5\" stroke-width=\"10\" fill=\"none\"/><circle cx=\"830\" cy=\"100\" r=\"20\" fill=\"#12202E\"/><rect x=\"804\" y=\"126\" width=\"53\" height=\"99\" rx=\"11\" fill=\"#12202E\"/><rect x=\"808\" y=\"216\" width=\"18\" height=\"84\" rx=\"6\" fill=\"#12202E\"/><rect x=\"834\" y=\"216\" width=\"18\" height=\"84\" rx=\"6\" fill=\"#12202E\"/><rect x=\"0\" y=\"60\" width=\"340\" height=\"220\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1324\" y=\"60\" width=\"340\" height=\"220\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 80,
+     "w": 300,
+     "t": "o clube",
+     "tam": 30,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 20,
+     "y": 140,
+     "w": 300,
+     "t": "contrata, paga, quer resultado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1344,
+     "y": 80,
+     "w": 300,
+     "t": "o atleta",
+     "tam": 30,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1344,
+     "y": 140,
+     "w": 300,
+     "t": "é o paciente, confia, tem direito ao sigilo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 630,
+     "y": 310,
+     "w": 400,
+     "t": "dupla lealdade",
+     "tam": 32,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 370,
+     "w": 1664,
+     "t": "o mesmo conflito: o patrocinador do suplemento · a federação · a família do atleta menor",
+     "tam": 24,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "O que torna a decisão difícil",
+   "titulo": "O profissional contratado pelo clube atende o atleta"
+  },
+  {
+   "id": "regras",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Duas regras. Código de Ética Médica, artigo 73: vedado revelar fato conhecido no exercício da profissão, salvo por motivo justo, dever legal ou consentimento por escrito do paciente. Lei de proteção de dados, artigo 11: dado de saúde é sensível; consentimento específico e destacado, para finalidades específicas. Cada profissão tem o seu código, com regras de sigilo\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"800\" height=\"330\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"44\" cy=\"178\" r=\"10\" fill=\"#3A6EA5\"/><circle cx=\"44\" cy=\"228\" r=\"10\" fill=\"#3A6EA5\"/><circle cx=\"44\" cy=\"278\" r=\"10\" fill=\"#3A6EA5\"/><rect x=\"864\" y=\"0\" width=\"800\" height=\"330\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 20,
+     "w": 752,
+     "t": "Código de Ética Médica · art. 73",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 80,
+     "w": 752,
+     "t": "vedado revelar o que soube no exercício da profissão, salvo:",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 164,
+     "w": 700,
+     "t": "motivo justo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 214,
+     "w": 700,
+     "t": "dever legal",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 66,
+     "y": 264,
+     "w": 700,
+     "t": "consentimento por escrito do paciente",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 20,
+     "w": 752,
+     "t": "Lei de proteção de dados · art. 11",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 888,
+     "y": 80,
+     "w": 752,
+     "t": "dado de saúde é dado sensível",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 140,
+     "w": 752,
+     "t": "consentimento específico e destacado, para finalidades específicas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 888,
+     "y": 240,
+     "w": 752,
+     "t": "consentimento genérico no contrato não cobre tudo",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 370,
+     "w": 1664,
+     "t": "“O clube paga” não está entre as exceções. E cada profissão tem o seu código, com regras de sigilo.",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "O que as regras dizem",
+   "titulo": "Quem paga não está entre as exceções do sigilo",
+   "fonte": "Res. CFM 2.217/2018 · Lei 13.709/2018"
+  },
+  {
+   "id": "saida_a",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Saída A: o diagnóstico sai da sala e se espalha: diretor, técnico, grupo de mensagens, imprensa. Consequências: quebra de sigilo; o jogador para de contar; o próximo atleta não procura o departamento. O sigilo protege o próximo atendimento\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"120\" width=\"220\" height=\"160\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><line x1=\"230\" y1=\"200\" x2=\"290\" y2=\"200\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><g transform=\"translate(340.0 150.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2\"/></g><line x1=\"440\" y1=\"200\" x2=\"500\" y2=\"200\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><g transform=\"translate(550.0 150.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2\"/><path d=\"M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2m0 7h.01M13 12h2m-6 4h.01M13 16h2\"/></g></g><line x1=\"650\" y1=\"200\" x2=\"710\" y2=\"200\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><g transform=\"translate(760.0 150.0) scale(3.0000)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m21 14l-3-3h-7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1zm-7 1v2a1 1 0 0 1-1 1H6l-3 3V11a1 1 0 0 1 1-1h2\"/></g><line x1=\"860\" y1=\"200\" x2=\"920\" y2=\"200\" stroke=\"#A8322A\" stroke-width=\"4\" marker-end=\"url(#m0)\"/><g transform=\"translate(970.0 150.0) scale(3.0000)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3a3 3 0 0 1-3-3z\"/><path d=\"M5 10a7 7 0 0 0 14 0M8 21h8m-4-4v4\"/></g></g><rect x=\"1180\" y=\"0\" width=\"484\" height=\"400\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1204.0 30.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1204.0 140.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1204.0 250.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 176,
+     "w": 200,
+     "t": "diagnóstico",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 290,
+     "y": 240,
+     "w": 180,
+     "t": "diretor",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 500,
+     "y": 240,
+     "w": 180,
+     "t": "técnico",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 710,
+     "y": 240,
+     "w": 180,
+     "t": "grupo de mensagens",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 920,
+     "y": 240,
+     "w": 180,
+     "t": "imprensa",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1256,
+     "y": 30,
+     "w": 388,
+     "t": "quebra de sigilo, sem exceção que a justifique",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1256,
+     "y": 140,
+     "w": 388,
+     "t": "o jogador para de contar ao departamento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1256,
+     "y": 250,
+     "w": 388,
+     "t": "o próximo atleta não procura o departamento",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 340,
+     "w": 1140,
+     "t": "O sigilo protege o próximo atendimento.",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Saída A · contar ao clube",
+   "titulo": "Contar ao clube ensina o atleta a não contar mais"
+  },
+  {
+   "id": "saida_b",
+   "tipo": "diagrama",
+   "h": 400,
+   "svg": "<svg aria-label=\"Saída B: uma parede entre o departamento médico e a comissão técnica. Do lado da comissão, o técnico planeja carga cheia e jogo no sábado. Consequências: a equipe trabalha às cegas; o atleta pode ser sobrecarregado; o departamento vira ilha. Sigilo não é silêncio\" width=\"1664\" height=\"400\" viewBox=\"0 0 1664 400\"><rect x=\"0\" y=\"40\" width=\"440\" height=\"280\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"470\" y=\"0\" width=\"60\" height=\"320\" fill=\"#6B7A87\"/><line x1=\"470\" y1=\"0\" x2=\"530\" y2=\"0\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"470\" y1=\"60\" x2=\"530\" y2=\"60\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"470\" y1=\"120\" x2=\"530\" y2=\"120\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"470\" y1=\"180\" x2=\"530\" y2=\"180\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"470\" y1=\"240\" x2=\"530\" y2=\"240\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><line x1=\"470\" y1=\"300\" x2=\"530\" y2=\"300\" stroke=\"#F7F6F2\" stroke-width=\"3\"/><rect x=\"560\" y=\"40\" width=\"440\" height=\"280\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><rect x=\"1060\" y=\"0\" width=\"604\" height=\"400\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"3\"/><g transform=\"translate(1084.0 30.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1084.0 140.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g><g transform=\"translate(1084.0 250.0) scale(1.6667)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M18 6L6 18M6 6l12 12\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 60,
+     "w": 400,
+     "t": "departamento médico",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 580,
+     "y": 60,
+     "w": 400,
+     "t": "comissão técnica",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 580,
+     "y": 150,
+     "w": 400,
+     "t": "“carga cheia, jogo no sábado”",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1136,
+     "y": 30,
+     "w": 508,
+     "t": "a equipe trabalha às cegas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1136,
+     "y": 140,
+     "w": 508,
+     "t": "o atleta pode ser sobrecarregado quando precisa de ajuste",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1136,
+     "y": 250,
+     "w": 508,
+     "t": "o departamento vira ilha",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 0,
+     "y": 346,
+     "w": 1000,
+     "t": "Sigilo não é silêncio.",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Saída B · não contar nada",
+   "titulo": "Não contar nada deixa a equipe trabalhando às cegas"
+  },
+  {
+   "id": "camadas",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"Saída C, duas camadas. Em cima, o que a equipe precisa: disponível para treino com ajuste de carga; pode jogar no sábado até 60 minutos; reavaliação em duas semanas. Embaixo, trancado: o diagnóstico e o tratamento, só com consentimento escrito, específico, para uma finalidade. Antes de falar com a equipe, combine com o atleta o que vai ser dito. Valores ilustrativos\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"200\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"0\" y=\"230\" width=\"1100\" height=\"200\" rx=\"18\" fill=\"#12202E\" stroke=\"#12202E\" stroke-width=\"0\"/><g transform=\"translate(24.0 260.0) scale(2.6667)\"><g fill=\"none\" stroke=\"#F7F6F2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M5 13a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z\"/><path d=\"M11 16a1 1 0 1 0 2 0a1 1 0 0 0-2 0m-3-5V7a4 4 0 1 1 8 0v4\"/></g></g><rect x=\"1160\" y=\"0\" width=\"504\" height=\"430\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1184.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m21 14l-3-3h-7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1zm-7 1v2a1 1 0 0 1-1 1H6l-3 3V11a1 1 0 0 1 1-1h2\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 16,
+     "w": 1052,
+     "t": "o que a equipe precisa para trabalhar",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 90,
+     "w": 340,
+     "t": "disponível para treino, com ajuste de carga",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 384,
+     "y": 90,
+     "w": 340,
+     "t": "pode jogar no sábado, até 60 minutos",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 744,
+     "y": 90,
+     "w": 340,
+     "t": "reavaliação em duas semanas",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 110,
+     "y": 256,
+     "w": 966,
+     "t": "o diagnóstico e o tratamento",
+     "tam": 28,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 110,
+     "y": 320,
+     "w": 966,
+     "t": "só com consentimento escrito, específico, para uma finalidade: por exemplo, o psicólogo do clube no cuidado",
+     "tam": 22,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 0,
+     "y": 438,
+     "w": 400,
+     "t": "valores ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 100,
+     "w": 456,
+     "t": "Regra de ordem",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1184,
+     "y": 160,
+     "w": 456,
+     "t": "antes de falar com a equipe, combine com o atleta o que vai ser dito, e com que palavras",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Saída C · duas camadas",
+   "titulo": "A equipe recebe disponibilidade e prazo; o diagnóstico fica trancado"
+  },
+  {
+   "id": "acordo",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Acordo de informação assinado no início do vínculo, com quatro linhas: o que a equipe recebe, disponibilidade, restrições, prazo; o que só sai com autorização específica, diagnóstico, tratamento, saúde mental; quem vê os dados de monitoramento e para quê; atleta menor, os pais assinam e o atleta participa. Combinar antes do problema\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"420\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><line x1=\"24\" y1=\"80\" x2=\"1076\" y2=\"80\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"156\" x2=\"1076\" y2=\"156\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"232\" x2=\"1076\" y2=\"232\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><line x1=\"24\" y1=\"308\" x2=\"1076\" y2=\"308\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><path d=\"M 760 400 q 30 -40 60 0 t 60 0 t 60 0\" stroke=\"#3A6EA5\" stroke-width=\"4\" fill=\"none\"/><rect x=\"1160\" y=\"0\" width=\"504\" height=\"420\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 24,
+     "y": 18,
+     "w": 1052,
+     "t": "Acordo de informação · assinado no início do vínculo",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 90,
+     "w": 40,
+     "t": "1.",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 92,
+     "w": 1004,
+     "t": "o que a equipe recebe sempre: disponibilidade, restrições, prazo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 166,
+     "w": 40,
+     "t": "2.",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 168,
+     "w": 1004,
+     "t": "o que só sai com autorização específica: diagnóstico, tratamento, saúde mental",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 242,
+     "w": 40,
+     "t": "3.",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 244,
+     "w": 1004,
+     "t": "quem vê os dados de monitoramento, e para quê",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 318,
+     "w": 40,
+     "t": "4.",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 72,
+     "y": 320,
+     "w": 1004,
+     "t": "atleta menor de idade: os pais assinam, e o atleta participa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 24,
+     "w": 456,
+     "t": "Combinar antes do problema",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1184,
+     "y": 150,
+     "w": 456,
+     "t": "o diretor recebe a camada de cima e sabe de antemão que a de baixo não é dele",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Combinar antes do problema",
+   "titulo": "Um acordo assinado no início evita a discussão na porta"
+  },
+  {
+   "id": "vazamento",
+   "tipo": "diagrama",
+   "h": 420,
+   "svg": "<svg aria-label=\"Três vazamentos e o que fazer. Grupo de mensagens com a planilha do elenco: acesso por função, em lugar controlado. Imprensa e redes sociais: nada de diagnóstico sem autorização; o clube fala de disponibilidade. Conversa de corredor: o caso se discute na sala, com quem cuida. Motivo justo existe: risco grave para o atleta ou para outros, como na rampa de risco de suicídio\" width=\"1664\" height=\"420\" viewBox=\"0 0 1664 420\"><rect x=\"0\" y=\"0\" width=\"536\" height=\"280\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(24.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"m21 14l-3-3h-7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1zm-7 1v2a1 1 0 0 1-1 1H6l-3 3V11a1 1 0 0 1 1-1h2\"/></g><rect x=\"564\" y=\"0\" width=\"536\" height=\"280\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(588.0 24.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3a3 3 0 0 1-3-3z\"/><path d=\"M5 10a7 7 0 0 0 14 0M8 21h8m-4-4v4\"/></g></g><rect x=\"1128\" y=\"0\" width=\"536\" height=\"280\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1152.0 24.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g><rect x=\"0\" y=\"310\" width=\"1664\" height=\"110\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 96,
+     "y": 34,
+     "w": 416,
+     "t": "grupo de mensagens",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 120,
+     "w": 488,
+     "t": "acesso por função, em lugar controlado",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 660,
+     "y": 34,
+     "w": 416,
+     "t": "imprensa e redes",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 588,
+     "y": 120,
+     "w": 488,
+     "t": "o clube fala de disponibilidade; diagnóstico, só com autorização",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1224,
+     "y": 34,
+     "w": 416,
+     "t": "conversa de corredor",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1152,
+     "y": 120,
+     "w": 488,
+     "t": "o caso se discute na sala, com quem cuida",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 24,
+     "y": 330,
+     "w": 1616,
+     "t": "Motivo justo existe: risco grave para o atleta ou para outros, como na rampa de risco de suicídio. Exceção pensada e registrada, não atalho.",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    }
+   ],
+   "eyebrow": "Onde o dado vaza",
+   "titulo": "O dado de saúde vaza por três caminhos conhecidos"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Ética, sigilo e proteção de dados",
+   "titulo": "Sigilo não é silêncio, e quem paga não é exceção",
+   "regras": [
+    "Exceções: motivo justo, dever legal ou consentimento escrito específico",
+    "Equipe recebe disponibilidade, restrições e prazo; o diagnóstico fica",
+    "Acordo de informação no início, e acesso aos dados por função"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Profissionais de saúde",
+     "x": "Guardam o diagnóstico pelo seu código e passam à equipe a camada de cima."
+    },
+    {
+     "ic": "t:clipboard-list",
+     "t": "Quem treina e quem dirige",
+     "x": "Trabalham com disponibilidade e restrições, sem pedir o resto."
+    },
+    {
+     "ic": "t:user",
+     "t": "O atleta",
+     "x": "Decide, por escrito, o que mais sai da sala."
+    }
+   ]
+  }
+ ],
+ "modulo": "Integração, Gestão e Projeto Aplicado",
+ "tema": "oliva"
+}
