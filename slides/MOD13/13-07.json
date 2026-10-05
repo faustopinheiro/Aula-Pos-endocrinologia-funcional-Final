@@ -1,0 +1,970 @@
+{
+ "arquivo": "aulas/MOD13/13-07-organizacao-da-resposta-de-emergencia-em-prova.md",
+ "titulo": "Organização da resposta de emergência em prova",
+ "subtitulo": "Seis passos, da represa à linha de chegada",
+ "nota_capa": "Entra pelo organizador de um triatlo curto que pergunta quantas ambulâncias precisa.",
+ "secoes": {
+  "lago": [
+   "A pergunta.",
+   "capa"
+  ],
+  "mapa": [
+   "Antes e durante.",
+   "mapa"
+  ],
+  "colapso": [
+   "A chegada e a tenda.",
+   "colapso"
+  ]
+ },
+ "slides": [
+  {
+   "id": "lago",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Mapa de um triatlo curto numa represa: boias da natação, transição, circuito de bicicleta, corrida e chegada. Prancheta com a pergunta do organizador: quantas ambulâncias eu preciso? Ao lado, a pergunta reescrita: quanto tempo do colapso ao socorro, em cada ponto?\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><ellipse cx=\"209\" cy=\"200\" rx=\"190\" ry=\"162\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"114\" cy=\"124\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"304\" cy=\"124\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"304\" cy=\"276\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"114\" cy=\"276\" r=\"10\" fill=\"#B07A1C\"/><path d=\"M 399 200 L 494 200\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"494\" y=\"172\" width=\"57\" height=\"57\" rx=\"8\" fill=\"#6B7A87\"/><path d=\"M 551 200 C 665 48 855 48 893 200 C 855 352 665 352 570 228\" stroke=\"#12202E\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"14 8\"/><path d=\"M 551 210 L 950 371\" stroke=\"#008A7E\" stroke-width=\"4\" fill=\"none\"/><rect x=\"940\" y=\"352\" width=\"11\" height=\"48\" fill=\"#A8322A\"/><rect x=\"952\" y=\"352\" width=\"38\" height=\"25\" fill=\"#A8322A\"/><rect x=\"1100\" y=\"0\" width=\"564\" height=\"180\" rx=\"14\" fill=\"#FDFCF9\" stroke=\"#6B7A87\" stroke-width=\"2\"/><rect x=\"1100\" y=\"220\" width=\"564\" height=\"220\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 100,
+     "y": 6,
+     "w": 220,
+     "t": "natação",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 700,
+     "y": 0,
+     "w": 200,
+     "t": "bicicleta",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 820,
+     "y": 400,
+     "w": 200,
+     "t": "chegada",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 16,
+     "w": 516,
+     "t": "a pergunta do organizador",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 60,
+     "w": 516,
+     "t": "“Quantas ambulâncias eu preciso?”",
+     "tam": 28,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1124,
+     "y": 236,
+     "w": 516,
+     "t": "a pergunta que decide",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 280,
+     "w": 516,
+     "t": "“Quanto tempo do colapso ao socorro, em cada ponto?”",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Triatlo curto numa represa, mil inscritos",
+   "titulo": "A pergunta certa não é quantas ambulâncias"
+  },
+  {
+   "id": "mapa",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Mapa da prova com três zonas. Natação: a largada e os primeiros minutos. Percurso: longe de tudo. Chegada: onde a maioria dos atendimentos acontece. Três camadas de risco: calor e horário, distância, perfil dos inscritos\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><ellipse cx=\"209\" cy=\"200\" rx=\"190\" ry=\"162\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"114\" cy=\"124\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"304\" cy=\"124\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"304\" cy=\"276\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"114\" cy=\"276\" r=\"10\" fill=\"#B07A1C\"/><path d=\"M 399 200 L 494 200\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"494\" y=\"172\" width=\"57\" height=\"57\" rx=\"8\" fill=\"#6B7A87\"/><path d=\"M 551 200 C 665 48 855 48 893 200 C 855 352 665 352 570 228\" stroke=\"#12202E\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"14 8\"/><path d=\"M 551 210 L 950 371\" stroke=\"#008A7E\" stroke-width=\"4\" fill=\"none\"/><rect x=\"940\" y=\"352\" width=\"11\" height=\"48\" fill=\"#A8322A\"/><rect x=\"952\" y=\"352\" width=\"38\" height=\"25\" fill=\"#A8322A\"/><circle cx=\"209\" cy=\"200\" r=\"195\" fill=\"none\" stroke=\"#3A6EA5\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><circle cx=\"760\" cy=\"190\" r=\"170\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><circle cx=\"990\" cy=\"350\" r=\"52\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"4\" stroke-dasharray=\"10 8\"/><rect x=\"1100\" y=\"0\" width=\"564\" height=\"440\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(1124.0 100.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M8 12a4 4 0 1 0 8 0a4 4 0 1 0-8 0m-5 0h1m8-9v1m8 8h1m-9 8v1M5.6 5.6l.7.7m12.1-.7l-.7.7m0 11.4l.7.7m-12.1-.7l-.7.7\"/></g><g transform=\"translate(1124.0 200.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M3 19a2 2 0 1 0 4 0a2 2 0 0 0-4 0M19 7a2 2 0 1 0 0-4a2 2 0 0 0 0 4m-8 12h5.5a3.5 3.5 0 0 0 0-7h-8a3.5 3.5 0 0 1 0-7H13\"/></g><g transform=\"translate(1124.0 300.0) scale(2.0000)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 7a4 4 0 1 0 8 0a4 4 0 1 0-8 0M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2m1-17.87a4 4 0 0 1 0 7.75M21 21v-2a4 4 0 0 0-3-3.85\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 10,
+     "y": 412,
+     "w": 420,
+     "t": "natação: largada e primeiros minutos",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 940,
+     "y": 40,
+     "w": 150,
+     "t": "percurso: longe de tudo",
+     "tam": 20,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 560,
+     "y": 412,
+     "w": 500,
+     "t": "chegada: a maior parte dos atendimentos",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "right",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 20,
+     "w": 516,
+     "t": "Três camadas sobre o mapa",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1190,
+     "y": 104,
+     "w": 450,
+     "t": "calor e horário da largada",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1190,
+     "y": 204,
+     "w": 450,
+     "t": "distância de cada etapa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 1190,
+     "y": 304,
+     "w": 450,
+     "t": "perfil: amadores de 40 e 50, primeira prova",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    }
+   ],
+   "eyebrow": "Passo 1",
+   "titulo": "Desenhar o risco no mapa antes de montar a equipe"
+  },
+  {
+   "id": "agua",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"A natação vista de cima. Largada em ondas. Caiaques e pranchas ao longo do percurso, cada um com um observador. Sinal combinado: braço levantado, preciso de ajuda. Na saída da água, contagem de quem entrou e de quem saiu\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"0\" y=\"0\" width=\"1100\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"60\" cy=\"90\" r=\"10\" fill=\"#12202E\"/><circle cx=\"90\" cy=\"150\" r=\"10\" fill=\"#12202E\"/><circle cx=\"60\" cy=\"210\" r=\"10\" fill=\"#12202E\"/><circle cx=\"90\" cy=\"270\" r=\"10\" fill=\"#12202E\"/><circle cx=\"60\" cy=\"330\" r=\"10\" fill=\"#12202E\"/><circle cx=\"200\" cy=\"90\" r=\"10\" fill=\"#12202E\"/><circle cx=\"230\" cy=\"150\" r=\"10\" fill=\"#12202E\"/><circle cx=\"200\" cy=\"210\" r=\"10\" fill=\"#12202E\"/><circle cx=\"230\" cy=\"270\" r=\"10\" fill=\"#12202E\"/><circle cx=\"200\" cy=\"330\" r=\"10\" fill=\"#12202E\"/><circle cx=\"340\" cy=\"90\" r=\"10\" fill=\"#12202E\"/><circle cx=\"370\" cy=\"150\" r=\"10\" fill=\"#12202E\"/><circle cx=\"340\" cy=\"210\" r=\"10\" fill=\"#12202E\"/><circle cx=\"370\" cy=\"270\" r=\"10\" fill=\"#12202E\"/><circle cx=\"340\" cy=\"330\" r=\"10\" fill=\"#12202E\"/><ellipse cx=\"560\" cy=\"80\" rx=\"60\" ry=\"16\" fill=\"#B07A1C\"/><circle cx=\"560\" cy=\"62\" r=\"12\" fill=\"#B07A1C\"/><ellipse cx=\"800\" cy=\"200\" rx=\"60\" ry=\"16\" fill=\"#B07A1C\"/><circle cx=\"800\" cy=\"182\" r=\"12\" fill=\"#B07A1C\"/><ellipse cx=\"560\" cy=\"330\" rx=\"60\" ry=\"16\" fill=\"#B07A1C\"/><circle cx=\"560\" cy=\"312\" r=\"12\" fill=\"#B07A1C\"/><ellipse cx=\"960\" cy=\"360\" rx=\"60\" ry=\"16\" fill=\"#B07A1C\"/><circle cx=\"960\" cy=\"342\" r=\"12\" fill=\"#B07A1C\"/><circle cx=\"760\" cy=\"80\" r=\"12\" fill=\"#12202E\"/><line x1=\"760\" y1=\"70\" x2=\"760\" y2=\"20\" stroke=\"#A8322A\" stroke-width=\"8\" stroke-linecap=\"round\"/><rect x=\"1160\" y=\"0\" width=\"504\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/></svg>",
+   "rotulos": [
+    {
+     "x": 20,
+     "y": 400,
+     "w": 110,
+     "t": "onda 1",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 160,
+     "y": 400,
+     "w": 110,
+     "t": "onda 2",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 300,
+     "y": 400,
+     "w": 110,
+     "t": "onda 3",
+     "tam": 20,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 800,
+     "y": 20,
+     "w": 280,
+     "t": "braço levantado: “preciso de ajuda”",
+     "tam": 20,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2
+    },
+    {
+     "x": 480,
+     "y": 120,
+     "w": 200,
+     "t": "caiaque com observador",
+     "tam": 20,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.2
+    },
+    {
+     "x": 1184,
+     "y": 20,
+     "w": 456,
+     "t": "Na saída da água",
+     "tam": 28,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1184,
+     "y": 90,
+     "w": 456,
+     "t": "entraram: 1.000",
+     "tam": 30,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 150,
+     "w": 456,
+     "t": "saíram: 999",
+     "tam": 30,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1184,
+     "y": 240,
+     "w": 456,
+     "t": "a única forma de saber que alguém não saiu é saber quantos entraram",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.3
+    },
+    {
+     "x": 1184,
+     "y": 390,
+     "w": 456,
+     "t": "números ilustrativos",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 2",
+   "titulo": "Na água, ver quem afunda e contar quem sai"
+  },
+  {
+   "id": "dea",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"O percurso com círculos de alcance em volta de cada desfibrilador, cobrindo todo o trajeto; dois na chegada; equipes móveis de bicicleta com desfibrilador. Cronômetro: 3 a 5 minutos do colapso ao primeiro choque\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><ellipse cx=\"209\" cy=\"200\" rx=\"190\" ry=\"162\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><circle cx=\"114\" cy=\"124\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"304\" cy=\"124\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"304\" cy=\"276\" r=\"10\" fill=\"#B07A1C\"/><circle cx=\"114\" cy=\"276\" r=\"10\" fill=\"#B07A1C\"/><path d=\"M 399 200 L 494 200\" stroke=\"#12202E\" stroke-width=\"4\"/><rect x=\"494\" y=\"172\" width=\"57\" height=\"57\" rx=\"8\" fill=\"#6B7A87\"/><path d=\"M 551 200 C 665 48 855 48 893 200 C 855 352 665 352 570 228\" stroke=\"#12202E\" stroke-width=\"4\" fill=\"none\" stroke-dasharray=\"14 8\"/><path d=\"M 551 210 L 950 371\" stroke=\"#008A7E\" stroke-width=\"4\" fill=\"none\"/><rect x=\"940\" y=\"352\" width=\"11\" height=\"48\" fill=\"#A8322A\"/><rect x=\"952\" y=\"352\" width=\"38\" height=\"25\" fill=\"#A8322A\"/><circle cx=\"209\" cy=\"200\" r=\"88\" fill=\"#008A7E\" fill-opacity=\"0.12\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"193\" y=\"184\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#008A7E\"/><circle cx=\"560\" cy=\"200\" r=\"88\" fill=\"#008A7E\" fill-opacity=\"0.12\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"544\" y=\"184\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#008A7E\"/><circle cx=\"850\" cy=\"100\" r=\"88\" fill=\"#008A7E\" fill-opacity=\"0.12\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"834\" y=\"84\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#008A7E\"/><circle cx=\"850\" cy=\"300\" r=\"88\" fill=\"#008A7E\" fill-opacity=\"0.12\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"834\" y=\"284\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#008A7E\"/><circle cx=\"980\" cy=\"350\" r=\"88\" fill=\"#008A7E\" fill-opacity=\"0.12\" stroke=\"#008A7E\" stroke-width=\"2\"/><rect x=\"964\" y=\"334\" width=\"32\" height=\"32\" rx=\"6\" fill=\"#008A7E\"/><g transform=\"translate(680.0 210.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M2 18a3 3 0 1 0 6 0a3 3 0 0 0-6 0m14 0a3 3 0 1 0 6 0a3 3 0 0 0-6 0m-4 1v-4l-3-3l5-4l2 3h3m-5.993-6a2 2 0 1 0 4 0a2 2 0 1 0-4 0\"/></g><rect x=\"1100\" y=\"0\" width=\"564\" height=\"440\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1124.0 24.0) scale(3.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 13a7 7 0 1 0 14 0a7 7 0 0 0-14 0m9.5-2.5L12 13m5-5l1-1m-4-4h-4\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 600,
+     "y": 270,
+     "w": 200,
+     "t": "equipe móvel",
+     "tam": 20,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 1220,
+     "y": 40,
+     "w": 420,
+     "t": "3 a 5 minutos",
+     "tam": 40,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1124,
+     "y": 130,
+     "w": 516,
+     "t": "do colapso ao primeiro choque",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 210,
+     "w": 516,
+     "t": "onde o círculo não cobre, falta um aparelho",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1124,
+     "y": 320,
+     "w": 516,
+     "t": "e todos da equipe, até o posto de água, sabem comprimir",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 3",
+   "titulo": "Desfibrilador a poucos minutos de qualquer ponto"
+  },
+  {
+   "id": "colapso",
+   "tipo": "diagrama",
+   "h": 460,
+   "svg": "<svg aria-label=\"A linha de chegada como divisor. Depois da linha: corredor consciente que não consegue ficar de pé, hipotensão postural: deitar, pernas para cima, líquido pela boca. Antes da linha, ou com alteração do estado mental: parada, golpe de calor, hiponatremia\" width=\"1664\" height=\"460\" viewBox=\"0 0 1664 460\"><rect x=\"800\" y=\"0\" width=\"64\" height=\"460\" fill=\"#12202E\"/><rect x=\"800\" y=\"0\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"832\" y=\"46\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"800\" y=\"92\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"832\" y=\"138\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"800\" y=\"184\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"832\" y=\"230\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"800\" y=\"276\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"832\" y=\"322\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"800\" y=\"368\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"832\" y=\"414\" width=\"32\" height=\"46\" fill=\"#F7F6F2\"/><rect x=\"0\" y=\"60\" width=\"760\" height=\"116\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"192\" width=\"760\" height=\"116\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"0\" y=\"324\" width=\"760\" height=\"116\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><rect x=\"904\" y=\"60\" width=\"760\" height=\"380\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(1180.0 190.0) scale(6.2500)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m17 8v-3H2m0-6v9m10-3h10v-2a3 3 0 0 0-3-3h-7z\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 760,
+     "t": "ANTES da linha, ou com alteração mental",
+     "tam": 24,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 904,
+     "y": 0,
+     "w": 760,
+     "t": "DEPOIS da linha, consciente",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 74,
+     "w": 712,
+     "t": "parada cardíaca",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 120,
+     "w": 712,
+     "t": "reanimação e choque",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 206,
+     "w": 712,
+     "t": "golpe de calor",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 252,
+     "w": 712,
+     "t": "temperatura retal e imersão: resfriar primeiro",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 338,
+     "w": 712,
+     "t": "hiponatremia",
+     "tam": 28,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 384,
+     "w": 712,
+     "t": "medir o sódio: o próximo passo",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 928,
+     "y": 80,
+     "w": 712,
+     "t": "hipotensão postural",
+     "tam": 32,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 928,
+     "y": 136,
+     "w": 712,
+     "t": "a causa mais comum de colapso, e benigna",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 928,
+     "y": 360,
+     "w": 712,
+     "t": "deitar · pernas para cima · líquido pela boca",
+     "tam": 24,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 4: a triagem de quem cai",
+   "titulo": "Quem cai antes da linha é grave até prova em contrário",
+   "fonte": "Br J Sports Med 2011"
+  },
+  {
+   "id": "sodio",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Um aparelho portátil de sódio. Proibido: soro na veia antes de medir. Sinais: confusão, dor de cabeça, vômito, ganho de peso durante a prova. Conduta: sódio baixo com sintoma neurológico, 100 mL de salina a 3%, repetível. Prevenção: beber pela sede\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><rect x=\"40\" y=\"20\" width=\"220\" height=\"320\" rx=\"24\" fill=\"#3A6EA5\"/><rect x=\"70\" y=\"60\" width=\"160\" height=\"110\" rx=\"10\" fill=\"#F7F6F2\"/><circle cx=\"100\" cy=\"240\" r=\"16\" fill=\"#DEE7F1\"/><circle cx=\"150\" cy=\"240\" r=\"16\" fill=\"#DEE7F1\"/><circle cx=\"200\" cy=\"240\" r=\"16\" fill=\"#DEE7F1\"/><rect x=\"320\" y=\"0\" width=\"600\" height=\"200\" rx=\"18\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><circle cx=\"370\" cy=\"54\" r=\"26\" fill=\"none\" stroke=\"#A8322A\" stroke-width=\"6\"/><line x1=\"352\" y1=\"36\" x2=\"388\" y2=\"72\" stroke=\"#A8322A\" stroke-width=\"6\"/><rect x=\"320\" y=\"230\" width=\"600\" height=\"210\" rx=\"18\" fill=\"#FDFCF9\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"980\" y=\"0\" width=\"684\" height=\"300\" rx=\"18\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><rect x=\"980\" y=\"330\" width=\"684\" height=\"110\" rx=\"18\" fill=\"#3A6EA5\"/></svg>",
+   "rotulos": [
+    {
+     "x": 70,
+     "y": 86,
+     "w": 160,
+     "t": "Na 128",
+     "tam": 34,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 0,
+     "y": 360,
+     "w": 300,
+     "t": "valor ilustrativo",
+     "tam": 20,
+     "cor": "#6B7A87",
+     "peso": 400,
+     "alinha": "center",
+     "lh": 1.25
+    },
+    {
+     "x": 410,
+     "y": 36,
+     "w": 490,
+     "t": "soro na veia antes de medir",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 344,
+     "y": 100,
+     "w": 556,
+     "t": "parece desidratação; o soro piora",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 248,
+     "w": 556,
+     "t": "Sinais",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 344,
+     "y": 300,
+     "w": 556,
+     "t": "confusão, dor de cabeça",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 344,
+     "w": 556,
+     "t": "náusea, vômito",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 344,
+     "y": 388,
+     "w": 556,
+     "t": "ganho de peso na prova",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 600,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 20,
+     "w": 636,
+     "t": "Sódio baixo com sintoma neurológico",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.2,
+     "serif": true
+    },
+    {
+     "x": 1004,
+     "y": 110,
+     "w": 636,
+     "t": "salina a 3%, bolus de 100 mL",
+     "tam": 34,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1004,
+     "y": 180,
+     "w": 636,
+     "t": "repetido até os sintomas melhorarem, e transferência",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1004,
+     "y": 364,
+     "w": 636,
+     "t": "Prevenção: beber pela sede.",
+     "tam": 30,
+     "cor": "#F7F6F2",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    }
+   ],
+   "eyebrow": "Passo 5",
+   "titulo": "Medir o sódio antes de dar soro",
+   "fonte": "Clin J Sport Med 2015"
+  },
+  {
+   "id": "tenda",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Planta da tenda médica com quatro estações: maca com pernas elevadas; imersão com banheira, água e gelo e termômetro retal; sódio com aparelho portátil e salina a 3%; parada com desfibrilador e via de saída livre. Um rádio no centro, ligado aos pontos do percurso\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><path d=\"M 40 60 L 832 0 L 1624 60 L 1624 440 L 40 440 Z\" fill=\"#FDFCF9\" stroke=\"#12202E\" stroke-width=\"3\"/><rect x=\"80\" y=\"90\" width=\"360\" height=\"250\" rx=\"16\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><g transform=\"translate(100.0 110.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#3A6EA5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 9a2 2 0 1 0 4 0a2 2 0 1 0-4 0m17 8v-3H2m0-6v9m10-3h10v-2a3 3 0 0 0-3-3h-7z\"/></g><rect x=\"470\" y=\"90\" width=\"360\" height=\"250\" rx=\"16\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(490.0 110.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M10 13.5a4 4 0 1 0 4 0V5a2 2 0 0 0-4 0zM10 9h4\"/></g><rect x=\"860\" y=\"90\" width=\"360\" height=\"250\" rx=\"16\" fill=\"#DDEFEC\" stroke=\"#008A7E\" stroke-width=\"3\"/><g transform=\"translate(880.0 110.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#008A7E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0s3.262-5.708 1.566-8.546l-4.89-7.26c-.42-.625-1.287-.803-1.936-.397a1.4 1.4 0 0 0-.41.397l-4.893 7.26C4.24 13.715 4.9 17.318 7.502 19.423\"/></g><rect x=\"1250\" y=\"90\" width=\"360\" height=\"250\" rx=\"16\" fill=\"#F3E1DE\" stroke=\"#A8322A\" stroke-width=\"3\"/><g transform=\"translate(1270.0 110.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#A8322A\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M19.5 13.572L12 21l-2.896-2.868m-6.117-8.104A5 5 0 0 1 12 7.006a5 5 0 1 1 7.5 6.572\"/><path d=\"M3 13h2l2 3l2-6l1 3h3\"/></g></g><g transform=\"translate(790.0 360.0) scale(2.3333)\"><path fill=\"none\" stroke=\"#12202E\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2m10 3a2 2 0 0 1 2 2m-2-6a6 6 0 0 1 6 6\"/></g></svg>",
+   "rotulos": [
+    {
+     "x": 170,
+     "y": 118,
+     "w": 250,
+     "t": "macas com pernas elevadas",
+     "tam": 26,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 100,
+     "y": 200,
+     "w": 320,
+     "t": "a maioria: hipotensão postural",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 560,
+     "y": 118,
+     "w": 250,
+     "t": "imersão",
+     "tam": 26,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 490,
+     "y": 200,
+     "w": 320,
+     "t": "banheira, água e gelo, termômetro retal",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 950,
+     "y": 118,
+     "w": 250,
+     "t": "sódio",
+     "tam": 26,
+     "cor": "#008A7E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 880,
+     "y": 200,
+     "w": 320,
+     "t": "aparelho portátil e salina a 3%",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1340,
+     "y": 118,
+     "w": 250,
+     "t": "parada",
+     "tam": 26,
+     "cor": "#A8322A",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.15,
+     "serif": true
+    },
+    {
+     "x": 1270,
+     "y": 200,
+     "w": 320,
+     "t": "desfibrilador e via de saída livre",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 860,
+     "y": 372,
+     "w": 700,
+     "t": "rádio ligado a todos os pontos do percurso",
+     "tam": 22,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "A tenda médica",
+   "titulo": "A tenda tem quatro estações, não só macas"
+  },
+  {
+   "id": "ficha",
+   "tipo": "diagrama",
+   "h": 440,
+   "svg": "<svg aria-label=\"Ficha de atendimento com cinco campos: hora, ponto do percurso, queixa, conduta, destino. Briefing da véspera em três itens: calor previsto, beber pela sede, sinais para parar. Seta circular: a ficha desta edição desenha o mapa da próxima\" width=\"1664\" height=\"440\" viewBox=\"0 0 1664 440\"><defs><marker id=\"m0\" orient=\"auto\" markerWidth=\"5\" markerHeight=\"5\" refX=\"0.8\" refY=\"2\" overflow=\"visible\"><path d=\"M-3.2 -1.7 L0.8 0 L-3.2 1.7\" transform=\"translate(0 2)\" fill=\"none\" stroke=\"#6B7A87\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"520\" height=\"440\" rx=\"18\" fill=\"#F4EAD6\" stroke=\"#B07A1C\" stroke-width=\"3\"/><g transform=\"translate(24.0 24.0) scale(2.3333)\"><g fill=\"none\" stroke=\"#B07A1C\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M9 5a3 3 0 0 1 3-3a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3a3 3 0 0 1-3-3z\"/><path d=\"M5 10a7 7 0 0 0 14 0M8 21h8m-4-4v4\"/></g></g><rect x=\"580\" y=\"0\" width=\"680\" height=\"440\" rx=\"18\" fill=\"#DEE7F1\" stroke=\"#3A6EA5\" stroke-width=\"3\"/><rect x=\"604\" y=\"90\" width=\"632\" height=\"52\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"604\" y=\"156\" width=\"632\" height=\"52\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"604\" y=\"222\" width=\"632\" height=\"52\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"604\" y=\"288\" width=\"632\" height=\"52\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><rect x=\"604\" y=\"354\" width=\"632\" height=\"52\" rx=\"8\" fill=\"#F7F6F2\" stroke=\"#D9D4C8\" stroke-width=\"2\"/><path d=\"M 1482 150 A 90 90 0 1 1 1392 240\" stroke=\"#6B7A87\" stroke-width=\"6\" fill=\"none\" marker-end=\"url(#m0)\"/></svg>",
+   "rotulos": [
+    {
+     "x": 96,
+     "y": 34,
+     "w": 400,
+     "t": "Antes: o briefing",
+     "tam": 28,
+     "cor": "#B07A1C",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 24,
+     "y": 120,
+     "w": 472,
+     "t": "· calor previsto",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 190,
+     "w": 472,
+     "t": "· beber pela sede",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 260,
+     "w": 472,
+     "t": "· sinais que fazem parar",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 24,
+     "y": 330,
+     "w": 472,
+     "t": "· o braço levantado na água",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 604,
+     "y": 20,
+     "w": 632,
+     "t": "Depois: a ficha de cada atendimento",
+     "tam": 28,
+     "cor": "#3A6EA5",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 624,
+     "y": 102,
+     "w": 600,
+     "t": "hora",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 168,
+     "w": 600,
+     "t": "ponto do percurso",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 234,
+     "w": 600,
+     "t": "queixa",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 300,
+     "w": 600,
+     "t": "conduta",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 624,
+     "y": 366,
+     "w": 600,
+     "t": "destino",
+     "tam": 24,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "left",
+     "lh": 1.25
+    },
+    {
+     "x": 1300,
+     "y": 0,
+     "w": 364,
+     "t": "a ficha desta edição desenha o mapa da próxima",
+     "tam": 26,
+     "cor": "#12202E",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25,
+     "serif": true
+    },
+    {
+     "x": 1300,
+     "y": 400,
+     "w": 364,
+     "t": "revisão no mesmo dia",
+     "tam": 22,
+     "cor": "#6B7A87",
+     "peso": 700,
+     "alinha": "center",
+     "lh": 1.25
+    }
+   ],
+   "eyebrow": "Passo 6: antes da largada e depois da chegada",
+   "titulo": "Cada atendimento vira uma linha para a próxima edição"
+  },
+  {
+   "id": "fecho",
+   "tipo": "fecho",
+   "eyebrow": "Organização da resposta de emergência em prova",
+   "titulo": "Medir o tempo até o socorro em cada ponto",
+   "regras": [
+    "Não é quantas ambulâncias: é quanto tempo até o socorro",
+    "Antes da linha, ou confuso, é grave até prova em contrário",
+    "Na prova longa, sódio medido antes de soro"
+   ],
+   "cards": [
+    {
+     "ic": "h:doctor",
+     "t": "Medicina",
+     "x": "Desenha o mapa, monta a tenda em quatro estações e conduz a revisão."
+    },
+    {
+     "ic": "t:stopwatch",
+     "t": "Organização e treino",
+     "x": "Garantem observadores na água, largada em ondas e briefing."
+    },
+    {
+     "ic": "t:user",
+     "t": "O atleta",
+     "x": "Bebe pela sede, conhece o sinal na água e para diante de sintoma."
+    }
+   ]
+  }
+ ],
+ "modulo": "O Atleta Amador e o Praticante Recreacional",
+ "tema": "grafite"
+}
