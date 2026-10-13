@@ -44,6 +44,7 @@ de teleprompter, notas de produção e deck publicado. Os links de cada deck est
 
 | Arquivo | Conteúdo |
 |---|---|
+| [`docs/projeto-pedagogico-ciencias-do-esporte-400h.pdf`](docs/projeto-pedagogico-ciencias-do-esporte-400h.pdf) | **Projeto pedagógico atualizado (PDF):** matriz de 400 horas com a grade real das 157 aulas |
 | [`docs/07-mapa-das-aulas-escritas.md`](docs/07-mapa-das-aulas-escritas.md) | **Referência principal:** cada aula com duração, slides, arquitetura e link do deck, e o balanço do curso |
 | [`docs/08-padrao-visual-dos-slides.md`](docs/08-padrao-visual-dos-slides.md) | Padrão visual dos decks e tema de cor de cada módulo |
 | [`docs/05-padrao-de-fala.md`](docs/05-padrao-de-fala.md) | Cadência, formatos de aula e checklist de auditoria de roteiro |
