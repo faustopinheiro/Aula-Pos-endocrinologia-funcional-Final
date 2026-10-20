@@ -8,7 +8,12 @@ Guia completo de recursos e prompts: [Chip Editor · Recursos e prompts para as 
 
 ## Como usar
 
-Numa conversa nova do Claude Code, com o Chip instalado, peça pelo nome da peça e aponte esta pasta:
+O jeito mais simples: mande o vídeo (e o PowerPoint, se tiver) e diga "edita". A skill
+[`diretor-de-edicao-pos`](../../.claude/skills/diretor-de-edicao-pos/SKILL.md) analisa o material, escolhe a
+receita do manual, conta a decisão em poucas linhas e manda o Chip fazer.
+
+Para pedir uma peça específica, numa conversa nova do Claude Code com o Chip instalado, peça pelo nome e aponte
+esta pasta:
 
 > Edita a aula da pasta [PASTA] em 16:9 no formato janela lateral. Usa as cenas da biblioteca da pós
 > (`ferramentas/video/cenas` do repositório do curso): etiqueta de nome no começo e janela lateral nos
