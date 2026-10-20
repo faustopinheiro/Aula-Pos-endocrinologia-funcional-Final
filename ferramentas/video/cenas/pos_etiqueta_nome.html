@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"/><title>etiqueta de nome</title></head>
+<body>
+<!--
+  Etiqueta de nome no canto de baixo à esquerda: barra vertical na cor da pós, nome grande, @ em letra de máquina
+  e a especialidade numa pílula. A barra cresce, o nome desliza, o @ e a pílula vêm em seguida; tudo sai junto.
+-->
+<template id="pos_etiqueta_nome-template">
+<style>
+@font-face{font-family:Montserrat;src:url("assets/fontes/Montserrat.ttf") format("truetype");font-weight:100 900;font-display:block}
+@font-face{font-family:JetBrainsMono;src:url("assets/fontes/JetBrainsMono.ttf") format("truetype");font-weight:100 900;font-display:block}
+#root{position:absolute;inset:0;font-family:Montserrat}
+#pen-barra{position:absolute;left:96px;top:800px;width:6px;height:178px;border-radius:3px;background:#4fc3ff;
+  box-shadow:0 0 18px rgba(79,195,255,.6);opacity:0}
+#pen-nome{position:absolute;left:126px;top:796px;font-weight:800;font-size:58px;line-height:70px;color:#ffffff;
+  white-space:nowrap;text-shadow:0 2px 14px rgba(0,0,0,.55);opacity:0}
+#pen-arroba{position:absolute;left:128px;top:874px;font-family:JetBrainsMono;font-weight:500;font-size:22px;
+  letter-spacing:.14em;color:#c4ecff;white-space:nowrap;text-shadow:0 1px 8px rgba(0,0,0,.85);opacity:0}
+#pen-pilula{position:absolute;left:126px;top:918px;height:52px;padding:0 22px;border-radius:12px;display:flex;align-items:center;
+  background:rgba(6,14,29,.82);border:1px solid rgba(169,199,242,.28);font-weight:700;font-size:24px;color:#ffffff;
+  white-space:nowrap;opacity:0}
+</style>
+<div id="root" data-composition-id="pos_etiqueta_nome" data-width="1920" data-height="1080" data-duration="4.3">
+  <div id="pen-barra"></div>
+  <div id="pen-nome">Dr. Fausto Farias</div>
+  <div id="pen-arroba">MEDICINA DO ESPORTE · @FAUSTOFARIAS_MED</div>
+  <div id="pen-pilula">Pós em Ciências do Esporte Aplicadas à Saúde</div>
+</div>
+<script>
+(function () {
+  const C = (window.__cenas || {})["pos_etiqueta_nome"] || { duracao: 4.3 };
+  const DUR = C.duracao, sai = Math.max(1.6, DUR - 0.45);
+  const tl = gsap.timeline({ paused: true });
+  // a barra cresce de cima para baixo (clip-path, nunca escala)
+  tl.fromTo("#pen-barra", { opacity: 1, clipPath: "inset(0% 0% 100% 0%)" }, { opacity: 1, clipPath: "inset(0% 0% 0% 0%)", duration: 0.35, ease: "power2.out" }, 0.05);
+  tl.fromTo("#pen-nome", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.45, ease: "power3.out" }, 0.2);
+  tl.fromTo("#pen-arroba", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }, 0.38);
+  tl.fromTo("#pen-pilula", { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.6)" }, 0.55);
+  tl.to(["#pen-nome", "#pen-arroba", "#pen-pilula"], { opacity: 0, x: -24, duration: 0.3, ease: "power2.in", stagger: 0.04, immediateRender: false }, sai);
+  tl.to("#pen-barra", { opacity: 0, duration: 0.25, ease: "power1.in", immediateRender: false }, sai + 0.12);
+  window.__timelines["pos_etiqueta_nome"] = tl;
+})();
+</script>
+</template>
+</body>
+</html>

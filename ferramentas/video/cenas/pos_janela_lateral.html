@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"/><title>janela lateral com o conteúdo da aula</title></head>
+<body>
+<!--
+  Formato estúdio (estilo OBS): a pessoa fica na moldura à direita; à esquerda, a barra de etapas no alto, uma linha
+  pequena em caixa alta, o título do slide com a parte principal em destaque e os tópicos em cartões, cada um entrando
+  na palavra dita e ganhando o check. Textos tirados do slide 1 e da fala; nada inventado.
+-->
+<template id="pos_janela_lateral-template">
+<style>
+@font-face{font-family:Montserrat;src:url("assets/fontes/Montserrat.ttf") format("truetype");font-weight:100 900;font-display:block}
+@font-face{font-family:JetBrainsMono;src:url("assets/fontes/JetBrainsMono.ttf") format("truetype");font-weight:100 900;font-display:block}
+#root{position:absolute;inset:0;font-family:Montserrat}
+.pjl-pil{position:absolute;top:44px;height:46px;padding:0 20px;border-radius:23px;display:flex;align-items:center;
+  font-weight:700;font-size:20px;white-space:nowrap;opacity:0;border:1px solid rgba(169,199,242,.25);color:#c9d8f2;background:rgba(6,14,29,.55)}
+#pjl-p1{left:100px}
+#pjl-p2{left:372px;color:#ffffff;border-color:rgba(79,195,255,.85);background:rgba(26,94,225,.28);box-shadow:0 0 18px rgba(79,195,255,.25)}
+#pjl-p3{left:764px;color:#7f93b8}
+.pjl-ponto{display:inline-block;width:9px;height:9px;border-radius:50%;background:#4fc3ff;margin-right:10px}
+#pjl-sobre{position:absolute;left:100px;top:150px;font-family:JetBrainsMono;font-weight:500;font-size:22px;letter-spacing:.16em;
+  color:#8fd8ff;white-space:nowrap;opacity:0}
+#pjl-tit{position:absolute;left:96px;top:186px;font-weight:800;font-size:64px;line-height:74px;color:#ffffff;white-space:nowrap;opacity:0}
+#pjl-tit b{color:#4fc3ff;font-weight:800}
+.pjl-card{position:absolute;left:100px;width:860px;height:74px;border-radius:16px;box-sizing:border-box;display:flex;align-items:center;
+  padding:0 22px;background:rgba(255,255,255,.045);border:1px solid rgba(169,199,242,.18);opacity:0}
+.pjl-n{font-family:JetBrainsMono;font-weight:600;font-size:22px;color:#a9c2ea;width:56px}
+.pjl-txt{font-weight:700;font-size:31px;color:#ffffff;white-space:nowrap}
+.pjl-ok{position:absolute;right:20px;top:17px;width:40px;height:40px;border-radius:50%;background:#22c55e;opacity:0;
+  display:flex;align-items:center;justify-content:center}
+.pjl-ok svg{width:24px;height:24px}
+.pjl-ok path{fill:none;stroke:#06210f;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1}
+</style>
+<div id="root" data-composition-id="pos_janela_lateral" data-width="1920" data-height="1080" data-duration="12.17">
+  <div class="pjl-pil" id="pjl-p1">✓ Módulo · Lesões</div>
+  <div class="pjl-pil" id="pjl-p2"><i class="pjl-ponto"></i>Prognóstico da lesão muscular</div>
+  <div class="pjl-pil" id="pjl-p3">Próxima · Manejo</div>
+  <div id="pjl-sobre">● NESTA AULA</div>
+  <div id="pjl-tit">Prognóstico da<br/><b>lesão muscular</b></div>
+  <div class="pjl-card" id="pjl-c1" style="top:372px"><span class="pjl-n">01</span><span class="pjl-txt">Faixas de retorno</span><span class="pjl-ok" id="pjl-k1"><svg viewBox="0 0 24 24"><path pathLength="1" d="M5 12.5 L10 17 L19 7"/></svg></span></div>
+  <div class="pjl-card" id="pjl-c2" style="top:458px"><span class="pjl-n">02</span><span class="pjl-txt">Erro das estimativas</span><span class="pjl-ok" id="pjl-k2"><svg viewBox="0 0 24 24"><path pathLength="1" d="M5 12.5 L10 17 L19 7"/></svg></span></div>
+  <div class="pjl-card" id="pjl-c3" style="top:544px"><span class="pjl-n">03</span><span class="pjl-txt">Mecanismos</span><span class="pjl-ok" id="pjl-k3"><svg viewBox="0 0 24 24"><path pathLength="1" d="M5 12.5 L10 17 L19 7"/></svg></span></div>
+  <div class="pjl-card" id="pjl-c4" style="top:630px"><span class="pjl-n">04</span><span class="pjl-txt">Epidemiologia</span><span class="pjl-ok" id="pjl-k4"><svg viewBox="0 0 24 24"><path pathLength="1" d="M5 12.5 L10 17 L19 7"/></svg></span></div>
+  <div class="pjl-card" id="pjl-c5" style="top:716px"><span class="pjl-n">05</span><span class="pjl-txt">Como prever o retorno</span><span class="pjl-ok" id="pjl-k5"><svg viewBox="0 0 24 24"><path pathLength="1" d="M5 12.5 L10 17 L19 7"/></svg></span></div>
+  <div class="pjl-card" id="pjl-c6" style="top:802px"><span class="pjl-n">06</span><span class="pjl-txt">Comunicação com o departamento</span><span class="pjl-ok" id="pjl-k6"><svg viewBox="0 0 24 24"><path pathLength="1" d="M5 12.5 L10 17 L19 7"/></svg></span></div>
+</div>
+<script>
+(function () {
+  const C = (window.__cenas || {})["pos_janela_lateral"] || { palavras: [], duracao: 12.17, moldura: { fechada_em: 0.7 } };
+  const DUR = C.duracao, fechada = C.moldura ? C.moldura.fechada_em || 0 : 0;
+  const sem = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const em = (texto, depois, padrao) => {
+    const p = (C.palavras || []).find((w) => w.t >= depois - 1e-3 && sem(w.texto).startsWith(sem(texto)));
+    return p ? p.t : padrao;
+  };
+  const t0 = fechada + 0.05, sai = Math.max(t0 + 1, DUR - 0.4);
+  const tl = gsap.timeline({ paused: true });
+  // o cabeçalho entra junto com o quadro fechado: barra de etapas, linha pequena e título
+  tl.fromTo("#pjl-p1", { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, t0);
+  tl.fromTo("#pjl-p2", { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, t0 + 0.08);
+  tl.fromTo("#pjl-p3", { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.35, ease: "power2.out" }, t0 + 0.16);
+  tl.fromTo("#pjl-sobre", { opacity: 0, x: -24 }, { opacity: 1, x: 0, duration: 0.35, ease: "power2.out" }, t0 + 0.1);
+  tl.fromTo("#pjl-tit", { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }, t0 + 0.2);
+  // cada tópico na palavra dita; o check bate 0,3 s depois
+  const itens = [["faixas", 1.42], ["erro", 3.11], ["mecanismos", 6.57], ["epidemiologia", 7.86], ["preve", 9.15], ["comunica", 10.48]];
+  let livre = t0 + 0.55, depois = 0;
+  itens.forEach(([palavra, padrao], k) => {
+    const dita = em(palavra, depois, padrao);
+    depois = dita + 0.05;
+    const t = Math.max(dita - 0.08, livre);
+    livre = t + 0.3;
+    const c = "#pjl-c" + (k + 1), ok = "#pjl-k" + (k + 1);
+    tl.fromTo(c, { opacity: 0, x: -36 }, { opacity: 1, x: 0, duration: 0.32, ease: "back.out(1.6)" }, t);
+    tl.fromTo(ok, { opacity: 0, y: -14, clipPath: "circle(20% at 50% 50%)" }, { opacity: 1, y: 0, clipPath: "circle(71% at 50% 50%)", duration: 0.18, ease: "power4.in" }, t + 0.3);
+    tl.fromTo(ok + " path", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.22, ease: "power2.out" }, t + 0.36);
+  });
+  // tudo sai antes do quadro abrir
+  tl.to("#root > *", { opacity: 0, duration: 0.3, ease: "power2.in", immediateRender: false }, sai);
+  window.__timelines["pos_janela_lateral"] = tl;
+})();
+</script>
+</template>
+</body>
+</html>
