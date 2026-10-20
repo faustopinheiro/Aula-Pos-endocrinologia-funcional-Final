@@ -36,6 +36,7 @@ de teleprompter, notas de produção e deck publicado. Os links de cada deck est
 | [`aulas/MOD01` a `aulas/MOD14`](aulas) | Roteiros finais: fala para teleprompter, descrição de cada slide, referências e notas de produção |
 | [`slides/MOD01` a `slides/MOD14`](slides) | Especificação de cada deck (um `.py` por aula, que gera o `.json`) |
 | [`ferramentas/slides`](ferramentas/slides) | Gerador dos decks, desenhos e ícones |
+| [`ebooks`](ebooks) | Linha de e-books: motor de diagramação com auditoria de layout e o capítulo piloto *Fisiologia da obesidade* em PDF |
 | [`marca`](marca) | Símbolo e estudos de marca |
 | [`docs`](docs) | Documentos do programa (abaixo) |
 | [`arquivo/roteiros-versao-anterior`](arquivo/roteiros-versao-anterior) | Roteiros da versão de 360 horas (M1 a M19 e U7). Serviram de fonte para as aulas finais e ficam guardados só como consulta |

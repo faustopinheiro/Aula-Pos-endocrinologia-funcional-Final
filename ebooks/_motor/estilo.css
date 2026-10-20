@@ -1,0 +1,179 @@
+/* Motor de e-books · padrão editorial Fausto Farias
+   Uma página A4 por <section class="pagina">. Cabeçalho, rodapé, numeração de figuras,
+   citações e bibliografia são preenchidos por motor.js. */
+
+@font-face { font-family: "Inter"; font-weight: 400; src: url(fontes/Inter-400-normal.ttf); }
+@font-face { font-family: "Inter"; font-weight: 400; font-style: italic; src: url(fontes/Inter-400-italic.ttf); }
+@font-face { font-family: "Inter"; font-weight: 500; src: url(fontes/Inter-500-normal.ttf); }
+@font-face { font-family: "Inter"; font-weight: 600; src: url(fontes/Inter-600-normal.ttf); }
+@font-face { font-family: "Inter"; font-weight: 700; src: url(fontes/Inter-700-normal.ttf); }
+@font-face { font-family: "Source Serif 4"; font-weight: 600; src: url(fontes/SourceSerif4-600-normal.ttf); }
+@font-face { font-family: "Source Serif 4"; font-weight: 700; src: url(fontes/SourceSerif4-700-normal.ttf); }
+@font-face { font-family: "Source Serif 4"; font-weight: 400; font-style: italic; src: url(fontes/SourceSerif4-400-italic.ttf); }
+
+:root {
+  /* paleta do piloto; --destaque e --destaque-claro mudam por área (ver README) */
+  --tinta: #1d2b33;
+  --titulo: #163a45;
+  --destaque: #17757b;
+  --destaque-claro: #e8f2f2;
+  --pratica: #c4553b;
+  --pratica-claro: #fbefe9;
+  --ouro: #c08a22;
+  --ouro-claro: #f7efdc;
+  --cinza: #5d6971;
+  --cinza-claro: #f2f4f4;
+  --linha: #d9dfe1;
+  --serifa: "Source Serif 4", Georgia, serif;
+  --sans: "Inter", system-ui, sans-serif;
+}
+
+@page { size: A4; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #8a9499; }
+body {
+  font-family: var(--sans); color: var(--tinta);
+  font-size: 9.6pt; line-height: 1.55;
+  font-feature-settings: "cv11", "ss01";
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+@media print { html, body { background: #fff; } }
+
+/* ---------- página ---------- */
+.pagina {
+  width: 210mm; height: 297mm; margin: 0 auto 8mm; background: #fff;
+  padding: 26mm 18mm 22mm; position: relative; overflow: hidden;
+  break-after: page; display: flex; flex-direction: column;
+}
+@media print { .pagina { margin: 0; } }
+.pagina > .corpo { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.pagina > .corpo > * { flex-shrink: 0; }
+.pagina > .corpo > .empurra { flex: 1; }
+
+.cabeca {
+  position: absolute; top: 11mm; left: 18mm; right: 18mm;
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: 6.8pt; letter-spacing: .06em; text-transform: uppercase;
+}
+.cabeca .rotulo { color: var(--destaque); font-weight: 700; display: flex; align-items: center; gap: 3.2mm; }
+.cabeca .rotulo::before { content: ""; width: 7mm; height: 1.1mm; background: var(--destaque); border-radius: .5mm; }
+.cabeca .area { color: var(--cinza); }
+.pe {
+  position: absolute; bottom: 9mm; left: 18mm; right: 18mm; border-top: .3mm solid var(--linha);
+  padding-top: 2.6mm; display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 6.6pt; letter-spacing: .05em; text-transform: uppercase; color: var(--cinza);
+}
+.pe .num { font-size: 10pt; font-weight: 700; color: var(--destaque); letter-spacing: 0; }
+
+/* ---------- títulos ---------- */
+h1 {
+  font-family: var(--serifa); font-weight: 700; color: var(--titulo);
+  font-size: 27pt; line-height: 1.08; letter-spacing: -.01em; margin: 0 0 1.6mm;
+}
+.abertura h1 { font-size: 34pt; }
+.linha-fina { color: var(--cinza); font-size: 10.4pt; margin: 0 0 5mm; line-height: 1.4; }
+h2 {
+  font-family: var(--sans); font-weight: 700; color: var(--destaque);
+  font-size: 11.2pt; line-height: 1.3; margin: 4.2mm 0 1.6mm;
+}
+h2:first-child { margin-top: 0; }
+p { margin: 0 0 2.6mm; }
+strong { font-weight: 700; color: var(--titulo); }
+em { font-style: italic; }
+.lead { font-size: 10.6pt; line-height: 1.55; }
+.nota {
+  font-size: 7.4pt; line-height: 1.45; color: var(--cinza); margin: 1.6mm 0 2.4mm;
+}
+.duas-colunas { column-count: 2; column-gap: 8mm; column-rule: .3mm solid var(--linha); }
+.duas-colunas > * { break-inside: avoid; }
+.grade-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+.grade-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3.4mm; }
+
+/* ---------- citações ---------- */
+cite { font-style: normal; color: var(--destaque); font-size: .92em; white-space: nowrap; }
+cite a { color: inherit; text-decoration: none; }
+a { color: var(--destaque); text-decoration: none; }
+
+/* ---------- caixas ---------- */
+.caixa {
+  background: var(--destaque-claro); border-left: 1.4mm solid var(--destaque);
+  border-radius: 0 2.4mm 2.4mm 0; padding: 3.6mm 5mm 3.4mm; margin: 2.4mm 0 3.6mm;
+  font-size: 8.9pt; line-height: 1.5;
+}
+.caixa > :last-child { margin-bottom: 0; }
+.caixa .tit {
+  display: block; font-size: 7.6pt; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--destaque); margin-bottom: 1.4mm;
+}
+.caixa.pratica { background: var(--pratica-claro); border-left-color: var(--pratica); }
+.caixa.pratica .tit { color: var(--pratica); }
+.caixa.numero { background: var(--ouro-claro); border-left-color: var(--ouro); }
+.caixa.numero .tit { color: #9a6c12; }
+.caixa ul, .caixa ol { margin: 0; padding-left: 4.6mm; }
+.caixa li { margin-bottom: .8mm; }
+
+/* ---------- objetivos e listas ---------- */
+.objetivos { list-style: none; padding: 0; margin: 0; counter-reset: obj; }
+.objetivos li { counter-increment: obj; position: relative; padding-left: 7mm; margin-bottom: 1.6mm; }
+.objetivos li::before {
+  content: counter(obj); position: absolute; left: 0; top: .2mm; width: 4.6mm; height: 4.6mm;
+  border-radius: 50%; background: var(--destaque); color: #fff; font-size: 6.8pt; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+}
+.relacoes { list-style: none; padding: 0; margin: 0 0 2mm; counter-reset: rel; }
+.relacoes li {
+  counter-increment: rel; position: relative; padding: 2.2mm 0 2.2mm 11mm;
+  border-bottom: .3mm solid var(--linha);
+}
+.relacoes li:last-child { border-bottom: 0; }
+.relacoes li::before {
+  content: counter(rel); position: absolute; left: 0; top: 1.6mm;
+  font-family: var(--serifa); font-weight: 700; font-size: 18pt; line-height: 1; color: var(--destaque);
+}
+
+/* ---------- tabelas ---------- */
+table { width: 100%; border-collapse: collapse; margin: 1.6mm 0 3.6mm; font-size: 8.5pt; line-height: 1.45; }
+th {
+  background: var(--titulo); color: #fff; text-align: left; font-size: 7pt; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase; padding: 2.6mm 3.4mm;
+}
+td { padding: 2.3mm 3.4mm; vertical-align: top; border-bottom: .3mm solid var(--linha); }
+tbody tr:nth-child(odd) td { background: var(--destaque-claro); }
+td.forte { font-weight: 600; color: var(--titulo); }
+table.compacta th { padding: 2mm 3.4mm; }
+table.compacta td { padding: 1.4mm 3.4mm; }
+
+/* ---------- figuras ---------- */
+figure.fig {
+  margin: 1.6mm 0 1.4mm; background: var(--cinza-claro); border-radius: 2.4mm; padding: 3.4mm 4.4mm 3mm;
+}
+figure.fig.clara { background: #fff; border: .3mm solid var(--linha); }
+.fig-cab { display: flex; gap: 4mm; align-items: baseline; margin-bottom: 1.6mm; }
+.fig-num { font-size: 6.8pt; font-weight: 700; letter-spacing: .08em; color: var(--destaque); text-transform: uppercase; white-space: nowrap; }
+.fig-tit { font-size: 8.6pt; font-weight: 700; color: var(--titulo); }
+figure.fig svg { display: block; width: 100%; height: auto; overflow: visible; }
+figure.fig svg text { font-family: var(--sans); }
+.leia { font-size: 7.4pt; line-height: 1.45; color: var(--cinza); margin: 0 0 3.4mm; }
+.leia b { color: var(--tinta); font-weight: 700; }
+
+/* ---------- abertura ---------- */
+.abertura .arte {
+  height: 108mm; margin: 1mm 0 5mm; border-radius: 2.4mm; overflow: hidden;
+  background: center / cover no-repeat;
+}
+
+/* ---------- questões ---------- */
+.questao { margin-bottom: 3mm; font-size: 8.5pt; line-height: 1.45; }
+.questao h3 { font-size: 9pt; color: var(--destaque); margin: 0 0 1.2mm; font-weight: 700; }
+.questao p { margin: 0 0 1mm; }
+.questao ol { list-style: none; margin: 0; padding: 0; }
+.questao li { padding-left: 4.6mm; text-indent: -4.6mm; margin-bottom: .5mm; }
+.questao li b { color: var(--titulo); }
+.gabarito-item { margin-bottom: 3mm; font-size: 8.6pt; line-height: 1.45; }
+.gabarito-item h3 { font-size: 8.9pt; color: var(--destaque); margin: 0 0 1mm; font-weight: 700; }
+
+/* ---------- bibliografia ---------- */
+ol.refs { list-style: none; padding: 0; margin: 0; font-size: 8.1pt; line-height: 1.42; }
+ol.refs li { margin-bottom: 2.6mm; padding-left: 7.4mm; position: relative; }
+ol.refs li .n { position: absolute; left: 0; font-weight: 700; color: var(--titulo); }
+ol.refs li a { display: inline-block; font-size: 7.6pt; }
