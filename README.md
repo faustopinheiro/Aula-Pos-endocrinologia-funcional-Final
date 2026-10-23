@@ -34,6 +34,7 @@ de teleprompter, notas de produção e deck publicado. Os links de cada deck est
 | Pasta | Conteúdo |
 |---|---|
 | [`aulas/MOD01` a `aulas/MOD14`](aulas) | Roteiros finais: fala para teleprompter, descrição de cada slide, referências e notas de produção |
+| [`apresentacoes`](apresentacoes) | **Slides de todas as aulas em PDF**, uma pasta por módulo |
 | [`slides/MOD01` a `slides/MOD14`](slides) | Especificação de cada deck (um `.py` por aula, que gera o `.json`) |
 | [`ferramentas/slides`](ferramentas/slides) | Gerador dos decks, desenhos e ícones |
 | [`marca`](marca) | Símbolo e estudos de marca |
