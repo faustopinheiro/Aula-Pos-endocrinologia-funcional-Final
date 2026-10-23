@@ -53,9 +53,11 @@ Siga a primeira linha da tabela que bate com o material. O pedido dele vence a t
 
 Em toda aula, junte o bloco **Padrão da pós** (`receitas.md`) e a **etiqueta de nome** na primeira aparição.
 Em todo Reels/Shorts, o **padrão aprovado** (`receitas.md` › Reels › 2): tela cheia sem moldura, estilo `dourado`,
-zoom 1,15/1,25 com aproximações no rosto, gancho em duas batidas, itens citados ao lado do rosto e o **medidor no
-fim** com o veredito dele (a marca do canal). Se ele mandar uma foto de cenário, troque o fundo com as proporções
-do padrão, qualquer que seja o cenário.
+zoom 1,15/1,25 com aproximações no rosto, gancho em duas batidas, itens citados ao lado do rosto. O **medidor no
+fim** com o veredito dele é a marca dos vídeos de **produto e review** (tom leve). No **Reels da profissão** em tom
+sério ("classudo", aula, procedimento, evidência), sem medidor: a receita **Reels classudo** (`receitas.md` ›
+Reels › 7). Se ele mandar uma foto de cenário, troque o fundo com as proporções do padrão, qualquer que seja o
+cenário.
 
 Depois da receita, percorra a transcrição e marque os momentos que pedem peça, pela tabela "Fala → peça" de
 `receitas.md` (número → contador; lista → lista com check ou X; escala → medidor; pergunta → cartão que digita;

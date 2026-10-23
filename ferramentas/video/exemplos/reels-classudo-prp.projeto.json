@@ -1,0 +1,556 @@
+{
+  "titulo": "Reels · PRP funciona? (auditório, classudo)",
+  "skill": "<pasta da skill editor-video no seu computador>",
+  "edit": "<pasta edit com o cut.mp4 já com a cor de cinema>",
+  "formato": "9:16",
+  "estilo": "dourado",
+  "correcoes": {
+    "atrosa": "artrose",
+    "centrifuga": "centrifuga"
+  },
+  "blocos": [
+    {
+      "cena": "tela_cheia",
+      "de": 0.0,
+      "ate": 2.98,
+      "zoom": 1.08,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 2.98,
+      "ate": 8.3,
+      "zoom": 1.16,
+      "acompanhar": true,
+      "zooms": [
+        {
+          "em": 3.03,
+          "escala": 1.3,
+          "ate": 4.3
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 8.3,
+      "ate": 16.37,
+      "zoom": 1.08,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 16.37,
+      "ate": 21.55,
+      "zoom": 1.16,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 21.55,
+      "ate": 26.3,
+      "zoom": 1.08,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 26.3,
+      "ate": 31.22,
+      "zoom": 1.16,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 31.22,
+      "ate": 35.62,
+      "zoom": 1.08,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 35.62,
+      "ate": 44.533,
+      "zoom": 1.08,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 44.533,
+      "ate": 48.163,
+      "zoom": 1.04,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 48.163,
+      "ate": 54.753,
+      "zoom": 1.04,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 54.753,
+      "ate": 59.733,
+      "zoom": 1.16,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 59.733,
+      "ate": 66.283,
+      "zoom": 1.08,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 66.283,
+      "ate": 70.933,
+      "zoom": 1.16,
+      "acompanhar": true
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 70.933,
+      "zoom": 1.04,
+      "acompanhar": true
+    }
+  ],
+  "legenda": {
+    "ligada": true,
+    "estilo": "discreta",
+    "max_palavras": 4,
+    "na_moldura": false
+  },
+  "animacoes": [
+    {
+      "id": "prp",
+      "tipo": "atras_da_pessoa",
+      "texto": "*PRP*",
+      "em": 0.0,
+      "sai": 2.95,
+      "altura": "topo"
+    }
+  ],
+  "sons": [
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 0.08,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0316,
+      "dur": 0.3631,
+      "volume": 0.3052,
+      "db": -18.4,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "prp",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 2.3,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1373,
+      "db": -19.4,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "Funciona?",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 3.13,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "volume": 0.3052,
+      "db": -18.4,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "zoom",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 11.14,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.2805,
+      "db": -21.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "passo 1: coleta",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 12.34,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.2805,
+      "db": -21.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "passo 2: centrifuga",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 14.39,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.2805,
+      "db": -21.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "passo 4: devolve",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 28.68,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3532,
+      "db": -19.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "melhora da dor",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 29.5,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3532,
+      "db": -19.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "melhora dos movimentos",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 30.5,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1223,
+      "db": -20.4,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "resultados variam",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/error.wav",
+      "em": 32.92,
+      "pico_no_arquivo": 0.188,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.66,
+      "volume": 0.2939,
+      "db": -19.4,
+      "fade": 0.0,
+      "tipo": "erro",
+      "nota": "cartilagem nova",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/error.wav",
+      "em": 34.94,
+      "pico_no_arquivo": 0.188,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.66,
+      "volume": 0.2939,
+      "db": -19.4,
+      "fade": 0.0,
+      "tipo": "erro",
+      "nota": "resultado garantido",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 40.163,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.2805,
+      "db": -21.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "artrose de joelho",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 41.133,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.2805,
+      "db": -21.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "discopatia lombar",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 42.043,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.2805,
+      "db": -21.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "cotovelo de tenista",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 43.443,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.2805,
+      "db": -21.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "reparo de menisco",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 47.373,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1728,
+      "db": -17.4,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "complementar",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/error.wav",
+      "em": 50.463,
+      "pico_no_arquivo": 0.188,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.66,
+      "volume": 0.2939,
+      "db": -19.4,
+      "fade": 0.0,
+      "tipo": "erro",
+      "nota": "fortalecimento",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/error.wav",
+      "em": 52.703,
+      "pico_no_arquivo": 0.188,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.66,
+      "volume": 0.2939,
+      "db": -19.4,
+      "fade": 0.0,
+      "tipo": "erro",
+      "nota": "reabilitação",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/error.wav",
+      "em": 54.513,
+      "pico_no_arquivo": 0.188,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.66,
+      "volume": 0.2939,
+      "db": -19.4,
+      "fade": 0.0,
+      "tipo": "erro",
+      "nota": "acompanhamento",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 62.753,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3532,
+      "db": -19.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "origem da dor",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 63.533,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3532,
+      "db": -19.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "o que já foi tentado",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 64.783,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3532,
+      "db": -19.4,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "qual benefício",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 76.633,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.154,
+      "db": -18.4,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "adequado pra você",
+      "plano": true
+    }
+  ],
+  "segura_fim": 1.5,
+  "cartao_final": {
+    "ligado": false,
+    "segundos": 1.8,
+    "titulo": "",
+    "sub": "",
+    "botao": "Toque em Saiba Mais",
+    "logo": ""
+  },
+  "cenas_proprias": [
+    {
+      "arquivo": "compositions/cenas/c_gancho.html",
+      "de": 0.0,
+      "ate": 2.98,
+      "nome": "c_gancho",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_sim.html",
+      "de": 3.0,
+      "ate": 4.36,
+      "nome": "c_sim",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_indicacao.html",
+      "de": 4.39,
+      "ate": 8.28,
+      "nome": "c_indicacao",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_nome.html",
+      "de": 3.0,
+      "ate": 7.9,
+      "nome": "c_nome"
+    },
+    {
+      "arquivo": "compositions/cenas/c_oque.html",
+      "de": 8.3,
+      "ate": 16.37,
+      "nome": "c_oque",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_acao.html",
+      "de": 16.4,
+      "ate": 21.55,
+      "nome": "c_acao",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_joelho.html",
+      "de": 21.58,
+      "ate": 26.3,
+      "nome": "c_joelho",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_estudos.html",
+      "de": 26.32,
+      "ate": 31.22,
+      "nome": "c_estudos",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_promessa.html",
+      "de": 31.24,
+      "ate": 35.62,
+      "nome": "c_promessa",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_cfm.html",
+      "de": 35.66,
+      "ate": 44.533,
+      "nome": "c_cfm",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_atencao.html",
+      "de": 44.553,
+      "ate": 48.173,
+      "nome": "c_atencao",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_naosubst.html",
+      "de": 48.193,
+      "ate": 54.753,
+      "nome": "c_naosubst",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_competir.html",
+      "de": 54.783,
+      "ate": 59.733,
+      "nome": "c_competir",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_antes.html",
+      "de": 59.753,
+      "ate": 66.283,
+      "nome": "c_antes",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_avaliacao.html",
+      "de": 66.303,
+      "ate": 70.933,
+      "nome": "c_avaliacao",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/c_fim.html",
+      "de": 70.953,
+      "ate": 77.503,
+      "nome": "c_fim",
+      "esconde_legenda": true
+    }
+  ]
+}

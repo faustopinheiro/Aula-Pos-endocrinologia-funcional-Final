@@ -18,7 +18,8 @@ Instalar
 - Etiqueta de nome (`pos_etiqueta_nome`) na primeira aparição: "Dr. Fausto Farias · Medicina do Esporte ·
   @faustofarias_med · Pós em Ciências do Esporte Aplicadas à Saúde". Esconde a legenda nesse trecho.
 
-Reels/Shorts: 9:16, estilo `dourado`, legenda `padrao`, efeitos do plano do Chip, medidor no fim (Reels › 2).
+Reels/Shorts: 9:16, estilo `dourado`, legenda `padrao`, efeitos do plano do Chip; medidor no fim só nos de
+produto e review (Reels › 2); Reels da profissão em tom sério, receita classuda (Reels › 7).
 
 ## Aula
 
@@ -82,9 +83,11 @@ Reels/Shorts"; exemplo inteiro em `ferramentas/video/exemplos/shorts-produto-leg
   citado, com o selo do veredito dele (✓ ✕ ? ≈) e uma frase curta dele, e some (`itens_ao_lado_do_rosto.py`).
   Título da seção numa pílula no alto.
 - Lettering nas frases que pesam, rótulo nas falas de apoio, carimbo verde no elogio e vermelho no "não é...".
-- **Medidor no fim, sempre (a marca):** a pergunta do vídeo no rótulo e a agulha indo para o veredito dele na
-  palavra em que ele diz ("É CHEIROSO?" → "MUITO CHEIROSO"). Cartão deitado no peito, rosto livre, legenda
-  escondida. Só com as palavras dele: sem veredito na fala, pergunte qual é.
+- **Medidor no fim nos vídeos de produto e review (a marca):** a pergunta do vídeo no rótulo e a agulha indo para
+  o veredito dele na palavra em que ele diz ("É CHEIROSO?" → "MUITO CHEIROSO"). Cartão deitado no peito, rosto
+  livre, legenda escondida. Só com as palavras dele: sem veredito na fala, pergunte qual é. **No Reels da
+  profissão em tom sério, o medidor não entra** (ele disse "o medidor aí não cabe nesse estilo de vídeo"): use a
+  receita 7.
 - **Fecho:** a frase final em lettering, zoom no produto (ou no rosto) e o nome do produto em dourado embaixo;
   `segura_fim` 1,5.
 
@@ -96,6 +99,25 @@ Reels/Shorts"; exemplo inteiro em `ferramentas/video/exemplos/shorts-produto-leg
 
 **6. Copiar estilo:** medir o Reels de referência (`references/referencia-medir.md` do Chip) e mostrar um resumo
 de 5 linhas antes de aplicar.
+
+**7. Reels classudo da profissão ("aula magna")** (o do PRP no auditório, 23/10/2026). Para vídeo de medicina em
+tom sério, quando ele pede "classudo" ou o tema é procedimento, evidência, regra do CFM. Cenas em
+`ferramentas/video/scripts/cenas_reels_classudo.py` (troque a lista de cenas no `main`).
+- Fundo real quando já passa autoridade (auditório, consultório, estúdio); cor de cinema no `cut.mp4`: vermelho e
+  amarelo menos saturados, pretos mais fundos, luz quente e vinheta (`huesaturation=colors=r+y:saturation=-0.35:
+  strength=1.4,eq=contrast=1.07:saturation=0.92:gamma=0.97:brightness=-0.02,colorbalance=rs=0.015:bs=-0.025:
+  rm=0.02:bm=-0.02:rh=0.015:bh=-0.03,vignette=angle=PI/4.6`, também no recorte da pessoa).
+- Selfie andando: `"acompanhar": true` em todos os blocos (a câmera segue o rosto e tira o balanço), zoom 1,08 e
+  1,16 alternando; 1,04 onde ele chega o celular perto (o build avisa "a cabeça sai do quadro"). Rosto grande
+  na selfie: o conteúdo vai no peito, abaixo do queixo, nunca ao lado do rosto.
+- Tipografia de revista: Playfair Display (e o itálico) com a palavra principal em dourado itálico, rótulo em
+  caixa alta espaçada com fios dourados; faixa escura suave no peito para ler; legenda escondida enquanto há texto.
+- Peças: o que é (passo a passo com ícones de traço dourado que se desenham), listas com selo ✓ ✕ ≈ num painel
+  escuro com fio dourado, documento oficial (cabeçalho, título, indicações em grade com ícone), placa de nome
+  "Dr. Fausto Farias · Medicina do Esporte" no alto nos primeiros segundos.
+- Gancho: a palavra do tema atrás da cabeça (`atras_da_pessoa`, topo) e a pergunta em Playfair no peito.
+- Fecho em tipografia, **sem medidor**: a frase final dele em duas batidas, com a palavra que fica em dourado, e a
+  assinatura em caixa alta dourada embaixo; `segura_fim` 1,5.
 
 ## Fala → peça
 
@@ -112,7 +134,8 @@ de 5 linhas antes de aplicar.
 | Um estudo ("Br J Sports Med 2013") | rótulo com a fonte |
 | Caso clínico, exame | prova em tela cheia com zoom e borrão |
 | Fechamento, próxima aula | slide final e cartão |
-| O veredito do Reels ("é muito cheiroso", "vale a pena") | medidor no fim, a agulha no veredito (a marca) |
+| O veredito do Reels de produto ("é muito cheiroso", "vale a pena") | medidor no fim, a agulha no veredito (a marca) |
+| A frase final do Reels da profissão ("a decisão mais importante...") | fecho em tipografia e assinatura, sem medidor |
 
 ## Efeitos de estúdio (referência: vídeo do Rafa Voss)
 

@@ -35,7 +35,8 @@ O Claude copia a cena para `compositions/cenas/` do projeto do vídeo e liga no 
 | [`scripts/fundo_azul.py`](scripts/fundo_azul.py) | Gera o fundo azul-marinho de novo (troque as cores no topo) | — |
 | [`scripts/trocar_fundo_shorts.py`](scripts/trocar_fundo_shorts.py) | Troca o fundo do vídeo em pé por uma foto de cenário, em escala natural, com a mesa na frente como balcão | Shorts do Legacy (padrão aprovado) |
 | [`scripts/itens_ao_lado_do_rosto.py`](scripts/itens_ao_lado_do_rosto.py) | Gera as cenas dos itens que aparecem ao lado do rosto quando a fala cita cada um (cartão escuro, fio dourado, selo ✓ ✕ ? ≈) e o nome do produto no fim | Shorts do Legacy, notas de topo, coração e fundo |
-| [`exemplos/*.projeto.json`](exemplos) | O `projeto.json` de cada vídeo aprovado: blocos, peças, cenas e sons | Janela lateral, fundo trocado com slides, Reels, Shorts do Legacy |
+| [`scripts/cenas_reels_classudo.py`](scripts/cenas_reels_classudo.py) | Gera as cenas do Reels classudo da profissão: frases em Playfair com dourado, passo a passo com ícones de traço, listas com selo, documento oficial, placa de nome e fecho com assinatura | Reels "PRP funciona?" no auditório |
+| [`exemplos/*.projeto.json`](exemplos) | O `projeto.json` de cada vídeo aprovado: blocos, peças, cenas e sons | Janela lateral, fundo trocado com slides, Reels, Shorts do Legacy, Reels classudo do PRP |
 
 As cenas usam os textos que estão no topo de cada arquivo (nomes dos tópicos, palavras, etapas). Para outra
 aula, troque esses textos pelos do slide e as palavras de tempo (`em("faixas", ...)`) pelas da fala.
@@ -50,7 +51,7 @@ aula, troque esses textos pelos do slide e as palavras de tempo (`em("faixas", .
 | Som | clique ou tique discreto; whoosh em -19 dB; sem trilha | efeitos do plano do Chip |
 | Fundo | real do estúdio, ou a foto do estúdio com a pessoa recortada | foto de cenário com a pessoa recortada em escala natural, ou o real |
 | Enquadramento | — | tela cheia o vídeo todo, sem moldura nem quadriculado; zoom 1,15 e 1,25 alternando |
-| Fim | slide final em tela cheia | medidor com a agulha no veredito (a marca), zoom no produto e o nome dele |
+| Fim | slide final em tela cheia | produto/review: medidor com a agulha no veredito (a marca), zoom no produto e o nome dele; Reels da profissão: frase final em tipografia e assinatura, sem medidor |
 
 ## Padrão do Reels/Shorts (aprovado em 23/10/2026, Shorts do Legacy)
 
@@ -72,9 +73,11 @@ Ele aprovou com "ficou perfeito" e pediu para valer em todo vídeo, mesmo com ou
    selo e a frase dele, e some. Sem zoom no rosto enquanto os cartões estão na tela.
 4. **Peças do Chip** (lettering, rótulo, carimbo) no estilo `dourado`: gancho com a palavra atrás da pessoa
    (`atras_da_pessoa`, topo) e o lettering no peito; carimbo verde para elogio, vermelho para "não é jabá".
-5. **Medidor no fim, sempre: é a marca.** O `k2d_medidor` do kit 2D com a pergunta do vídeo no rótulo e a agulha
-   indo para o veredito dele na palavra em que ele diz (parâmetros abaixo). Rótulo e veredito só com as palavras
-   dele; se a fala não tiver veredito, pergunte qual é antes de pôr o medidor.
+5. **Medidor no fim dos vídeos de produto e review: é a marca.** O `k2d_medidor` do kit 2D com a pergunta do
+   vídeo no rótulo e a agulha indo para o veredito dele na palavra em que ele diz (parâmetros abaixo). Rótulo e
+   veredito só com as palavras dele; se a fala não tiver veredito, pergunte qual é antes de pôr o medidor. No
+   Reels da profissão em tom sério ele não entra ("o medidor aí não cabe nesse estilo de vídeo"): veja "Reels
+   classudo da profissão", abaixo.
 6. **Fecho:** "Vale a pena" (ou a frase final dele) em lettering, depois zoom no produto com o nome em Playfair
    dourado embaixo (cena `fim_legacy` do mesmo script) e `segura_fim` 1,5.
 
@@ -96,6 +99,20 @@ está):
 
 Fontes: Montserrat nas peças do Chip; Playfair Display (Google Fonts, OFL) nos nomes dos cartões e no nome do
 produto, em `assets/fontes/PlayfairDisplay.ttf`.
+
+## Reels classudo da profissão (23/10/2026, Reels "PRP funciona?" no auditório)
+
+Para vídeo de medicina em tom sério. Receita completa na skill (`receitas.md` › Reels › 7); exemplo em
+[`exemplos/reels-classudo-prp.projeto.json`](exemplos/reels-classudo-prp.projeto.json) e cenas com
+[`scripts/cenas_reels_classudo.py`](scripts/cenas_reels_classudo.py).
+
+- Fundo real com autoridade (o auditório) e cor de cinema no `cut.mp4` e no recorte da pessoa:
+  `huesaturation=colors=r+y:saturation=-0.35:strength=1.4,eq=contrast=1.07:saturation=0.92:gamma=0.97:brightness=-0.02,colorbalance=rs=0.015:bs=-0.025:rm=0.02:bm=-0.02:rh=0.015:bh=-0.03,vignette=angle=PI/4.6`
+- Selfie andando: `"acompanhar": true` nos blocos, zoom 1,08/1,16 (1,04 onde ele chega o celular perto).
+- Texto no peito em Playfair (dourado itálico na palavra principal), faixa escura suave atrás, legenda
+  `discreta` escondida enquanto há texto.
+- Fecho em tipografia e assinatura "Dr. Fausto Farias · Medicina do Esporte". Sem medidor: "o medidor aí não cabe
+  nesse estilo de vídeo".
 
 ## Receitas que resolveram problemas nos testes
 
