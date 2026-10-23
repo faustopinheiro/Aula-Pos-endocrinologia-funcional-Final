@@ -1,0 +1,895 @@
+{
+  "titulo": "Shorts · Legacy (Maison Viegas) · padrão aprovado (fundo da loja, notas ao lado, medidor no fim)",
+  "skill": "<pasta da skill editor-video no seu computador>",
+  "edit": "<pasta edit_v2 que o trocar_fundo_shorts.py gravou>",
+  "formato": "9:16",
+  "estilo": "dourado",
+  "correcoes": {
+    "Enísio": "Elysium",
+    "galbano": "gálbano",
+    "lândano": "ládano",
+    "beijoim": "benjoim",
+    "beijuin": "benjoim",
+    "mexer": "merchan",
+    "mexan": "merchan",
+    "apimentar rosa": "a pimenta rosa",
+    "pimentada": "apimentada"
+  },
+  "blocos": [
+    {
+      "cena": "tela_cheia",
+      "de": 0.0,
+      "ate": 3.033,
+      "zoom": 1.15
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 3.033,
+      "ate": 4.367,
+      "zoom": 1.25,
+      "zooms": [
+        {
+          "em": 3.9,
+          "escala": 1.42,
+          "ate": 4.35
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 4.367,
+      "ate": 6.567,
+      "zoom": 1.15
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 6.567,
+      "ate": 8.0,
+      "zoom": 1.25
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 8.0,
+      "ate": 9.867,
+      "zoom": 1.15,
+      "zooms": [
+        {
+          "em": 8.06,
+          "caixa": [
+            0.19,
+            0.5,
+            0.33,
+            0.37
+          ],
+          "escala": 1.6,
+          "ate": 9.2
+        }
+      ],
+      "legenda": false
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 9.867,
+      "ate": 13.267,
+      "zoom": 1.25
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 13.267,
+      "ate": 14.833,
+      "zoom": 1.15,
+      "zooms": [
+        {
+          "em": 13.55,
+          "caixa": [
+            0.27,
+            0.62,
+            0.22,
+            0.28
+          ],
+          "escala": 1.45,
+          "ate": 14.6
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 14.833,
+      "ate": 17.233,
+      "zoom": 1.25,
+      "zooms": [
+        {
+          "em": 15.08,
+          "escala": 1.42,
+          "ate": 16.45
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 17.233,
+      "ate": 27.233,
+      "zoom": 1.15,
+      "zooms": [
+        {
+          "em": 26.45,
+          "escala": 1.42,
+          "ate": 27.2
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 27.233,
+      "ate": 28.467,
+      "zoom": 1.25
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 28.467,
+      "ate": 39.233,
+      "zoom": 1.15
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 39.233,
+      "ate": 42.4,
+      "zoom": 1.25,
+      "zooms": [
+        {
+          "em": 41.55,
+          "escala": 1.42,
+          "ate": 42.36
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 42.4,
+      "ate": 45.233,
+      "zoom": 1.15
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 45.233,
+      "ate": 46.267,
+      "zoom": 1.25
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 46.267,
+      "ate": 57.367,
+      "zoom": 1.15
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 57.367,
+      "ate": 60.033,
+      "zoom": 1.25,
+      "zooms": [
+        {
+          "em": 59.5,
+          "escala": 1.42,
+          "ate": 60.0
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 60.033,
+      "ate": 62.767,
+      "zoom": 1.15,
+      "zooms": [
+        {
+          "em": 60.66,
+          "escala": 1.36,
+          "ate": 61.5
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 62.767,
+      "ate": 65.667,
+      "zoom": 1.25
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 65.667,
+      "ate": 70.333,
+      "zoom": 1.15
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 70.333,
+      "zoom": 1.25,
+      "zooms": [
+        {
+          "em": 71.32,
+          "caixa": [
+            0.17,
+            0.5,
+            0.34,
+            0.31
+          ],
+          "escala": 1.6
+        }
+      ]
+    }
+  ],
+  "legenda": {
+    "ligada": true,
+    "estilo": "padrao",
+    "max_palavras": 3,
+    "na_moldura": false
+  },
+  "animacoes": [
+    {
+      "id": "elysium",
+      "tipo": "atras_da_pessoa",
+      "texto": "*ELYSIUM*",
+      "em": 0.0,
+      "sai": 3.0,
+      "altura": "topo"
+    },
+    {
+      "id": "contratipo",
+      "tipo": "lettering",
+      "principal": "*Contratipo*",
+      "apoio": "da Roja",
+      "em": 1.55,
+      "sai": 3.55,
+      "posicao": "base",
+      "estilo": "bloco"
+    },
+    {
+      "id": "cheiroso",
+      "tipo": "lettering",
+      "principal": "É *cheiroso?*",
+      "em": 3.6,
+      "sai": 5.0,
+      "posicao": "base",
+      "estilo": "bloco"
+    },
+    {
+      "id": "perfumista",
+      "tipo": "rotulo",
+      "texto": "Não sou *perfumista*",
+      "em": 5.06,
+      "sai": 7.9
+    },
+    {
+      "id": "legacy",
+      "tipo": "lettering",
+      "principal": "*Legacy*",
+      "apoio": "da Maison Viegas",
+      "em": 9.2,
+      "sai": 11.75,
+      "posicao": "base",
+      "estilo": "bloco"
+    },
+    {
+      "id": "luxo",
+      "tipo": "rotulo",
+      "texto": "Luxo *importado*",
+      "em": 11.8,
+      "sai": 12.65
+    },
+    {
+      "id": "linda",
+      "tipo": "carimbo",
+      "texto": "COISA LINDA",
+      "cor": "verde",
+      "em": 14.09,
+      "sai": 14.8,
+      "esconde_legenda": true
+    },
+    {
+      "id": "sensacional",
+      "tipo": "lettering",
+      "principal": "*Sensacional*",
+      "em": 15.05,
+      "sai": 17.15,
+      "posicao": "base",
+      "estilo": "bloco",
+      "apoio": "muito gostoso"
+    },
+    {
+      "id": "coracao",
+      "tipo": "rotulo",
+      "texto": "Fase do *coração*",
+      "em": 39.5,
+      "sai": 41.45
+    },
+    {
+      "id": "queperfume",
+      "tipo": "lettering",
+      "principal": "Que *perfume*",
+      "em": 41.5,
+      "sai": 42.95,
+      "posicao": "base",
+      "estilo": "bloco",
+      "apoio": "é esse?"
+    },
+    {
+      "id": "daqui",
+      "tipo": "rotulo",
+      "texto": "Daqui a *pouco*...",
+      "em": 43.0,
+      "sai": 45.15
+    },
+    {
+      "id": "vovo",
+      "tipo": "lettering",
+      "principal": "Couro de *vovó*",
+      "apoio": "do sofá, bem leve",
+      "em": 56.5,
+      "sai": 60.0,
+      "posicao": "base",
+      "estilo": "bloco"
+    },
+    {
+      "id": "jaba",
+      "tipo": "carimbo",
+      "texto": "NÃO É JABÁ",
+      "em": 60.6,
+      "sai": 62.7,
+      "esconde_legenda": true
+    },
+    {
+      "id": "comprei",
+      "tipo": "rotulo",
+      "texto": "Simplesmente *comprei*",
+      "em": 63.7,
+      "sai": 65.6
+    },
+    {
+      "id": "pena",
+      "tipo": "lettering",
+      "principal": "Vale a *pena*",
+      "em": 70.39,
+      "sai": 71.55,
+      "posicao": "base",
+      "estilo": "bloco"
+    }
+  ],
+  "sons": [
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 0.08,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0316,
+      "dur": 0.3631,
+      "volume": 0.3021,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "elysium",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 2.07,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "contratipo-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 2.75,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1211,
+      "db": -20.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "contratipo-apoio",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 4.0,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "volume": 0.3021,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "zoom",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 5.11,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "perfumista",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 8.285,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "volume": 0.3021,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "zoom",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 9.64,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "legacy-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 10.83,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1211,
+      "db": -20.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "legacy-apoio",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 11.85,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "luxo",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/bass-impact.wav",
+      "em": 14.36,
+      "pico_no_arquivo": 0.0685,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.8685,
+      "volume": 0.2361,
+      "db": -12.5,
+      "fade": 0.35,
+      "tipo": "impacto",
+      "nota": "linda",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 15.18,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "volume": 0.3021,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "zoom",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 16.87,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1211,
+      "db": -20.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "sensacional-apoio",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 18.24,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1079,
+      "db": -21.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "tomilho aparece",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 19.37,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.0962,
+      "db": -22.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "artemísia aparece",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/error.wav",
+      "em": 20.8,
+      "pico_no_arquivo": 0.188,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.66,
+      "volume": 0.3263,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "erro",
+      "nota": "tomilho: não senti",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/error.wav",
+      "em": 22.7,
+      "pico_no_arquivo": 0.188,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.66,
+      "volume": 0.3263,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "erro",
+      "nota": "gálbano e artemísia: não",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 25.83,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.4937,
+      "db": -16.5,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "bergamota e limão: dá pra sentir",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 26.55,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "volume": 0.3021,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "zoom",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 30.12,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.4937,
+      "db": -16.5,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "vetiver: madeira gostosa",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 32.14,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "groselha: não sei o cheiro",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 35.5,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.4937,
+      "db": -16.5,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "pimenta rosa",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 37.45,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.4937,
+      "db": -16.5,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "rosa",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 38.77,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.4937,
+      "db": -16.5,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "cedro: muito bom",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 39.55,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "coracao",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 41.65,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "volume": 0.3021,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "zoom",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 42.396,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1211,
+      "db": -20.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "queperfume-apoio",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 43.05,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "daqui",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 49.71,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.4937,
+      "db": -16.5,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "âmbar: dá pra sentir bem",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 50.97,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.4937,
+      "db": -16.5,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "couro também",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 55.53,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "benjoim misturado com couro",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 57.19,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "vovo-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 58.875,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1211,
+      "db": -20.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "vovo-apoio",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 59.6,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "volume": 0.3021,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "zoom",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/bass-impact.wav",
+      "em": 60.87,
+      "pico_no_arquivo": 0.0685,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.8685,
+      "volume": 0.2361,
+      "db": -12.5,
+      "fade": 0.35,
+      "tipo": "impacto",
+      "nota": "jaba",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 63.75,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "comprei",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 65.75,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1524,
+      "db": -18.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "medidor entra",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/success.wav",
+      "em": 67.85,
+      "pico_no_arquivo": 0.023,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.923,
+      "volume": 0.4805,
+      "db": -15.5,
+      "fade": 0.0,
+      "tipo": "sucesso",
+      "nota": "agulha no verde: muito cheiroso",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 70.98,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.2153,
+      "db": -15.5,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "pena-0",
+      "plano": true
+    }
+  ],
+  "segura_fim": 1.5,
+  "cartao_final": {
+    "ligado": false,
+    "segundos": 1.8,
+    "titulo": "",
+    "sub": "",
+    "botao": "Toque em Saiba Mais",
+    "logo": ""
+  },
+  "cenas_proprias": [
+    {
+      "arquivo": "compositions/cenas/n_topo.html",
+      "de": 17.3,
+      "ate": 26.45,
+      "nome": "Notas de topo (aparecem na fala)"
+    },
+    {
+      "arquivo": "compositions/cenas/n_coracao.html",
+      "de": 28.45,
+      "ate": 39.22,
+      "nome": "Notas de coração (aparecem na fala)"
+    },
+    {
+      "arquivo": "compositions/cenas/n_fundo.html",
+      "de": 46.3,
+      "ate": 56.15,
+      "nome": "Notas de fundo (aparecem na fala)"
+    },
+    {
+      "arquivo": "compositions/cenas/s14_cheiroso.html",
+      "de": 65.667,
+      "ate": 70.333,
+      "nome": "Medidor · é cheiroso? (agulha vai para muito cheiroso)",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/fim_legacy.html",
+      "de": 71.5,
+      "ate": 72.067,
+      "nome": "Nome do perfume no fim",
+      "esconde_legenda": true
+    }
+  ]
+}

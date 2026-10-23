@@ -1,0 +1,201 @@
+{
+  "titulo": "Reels · PRP não substitui",
+  "skill": "<pasta da skill editor-video no seu computador>",
+  "edit": "../edit",
+  "formato": "9:16",
+  "estilo": "laranja",
+  "correcoes": {},
+  "blocos": [
+    {
+      "cena": "tela_cheia",
+      "de": 0.0,
+      "ate": 1.55,
+      "zoom": 1.0,
+      "auto": "camera_viva"
+    },
+    {
+      "cena": "moldura",
+      "de": 1.55,
+      "ate": 9.067
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 9.067,
+      "zoom": 1.12,
+      "auto": "camera_viva"
+    }
+  ],
+  "legenda": {
+    "ligada": true,
+    "estilo": "padrao",
+    "max_palavras": 3,
+    "na_moldura": false
+  },
+  "animacoes": [
+    {
+      "id": "prp",
+      "tipo": "atras_da_pessoa",
+      "texto": "*PRP*",
+      "em": 0.0,
+      "sai": 1.55,
+      "altura": "topo"
+    },
+    {
+      "id": "gancho2",
+      "tipo": "lettering",
+      "principal": "Não *substitui*",
+      "em": 0.8,
+      "antecipa": 0.15,
+      "sai": 1.55,
+      "posicao": "base",
+      "estilo": "bloco"
+    },
+    {
+      "id": "lista",
+      "tipo": "lista_check",
+      "titulo": "O PRP *não substitui*",
+      "marca": "x",
+      "em": 1.62,
+      "sai": 6.25,
+      "itens": [
+        {
+          "texto": "Fortalecimento",
+          "em": 1.64
+        },
+        {
+          "texto": "Reabilitação",
+          "em": 2.91
+        },
+        {
+          "texto": "Acompanhamento",
+          "em": 5.73
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "tipo": "lettering",
+      "principal": "Origem *da dor*",
+      "em": 11.2,
+      "sai": 12.1,
+      "estilo": "bloco"
+    }
+  ],
+  "sons": [
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 0.08,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0316,
+      "dur": 0.3631,
+      "volume": 0.3141,
+      "db": -18.2,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "prp",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 1.9,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "volume": 0.6267,
+      "db": -12.2,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "moldura",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/record-needle-scratch.wav",
+      "em": 2.8,
+      "pico_no_arquivo": 0.237,
+      "inicio_no_arquivo": 0.0,
+      "dur": 1.037,
+      "volume": 0.1236,
+      "db": -18.2,
+      "fade": 0.35,
+      "tipo": "risco",
+      "nota": "lista-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/record-needle-scratch.wav",
+      "em": 6.16,
+      "pico_no_arquivo": 0.237,
+      "inicio_no_arquivo": 0.0,
+      "dur": 1.037,
+      "volume": 0.1236,
+      "db": -18.2,
+      "fade": 0.35,
+      "tipo": "risco",
+      "nota": "lista-2",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 7.6,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.5134,
+      "db": -16.2,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "agulha do medidor cai no vermelho",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 11.94,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.2239,
+      "db": -15.2,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "origem-0",
+      "plano": true
+    }
+  ],
+  "segura_fim": 1.2,
+  "cartao_final": {
+    "ligado": false,
+    "segundos": 1.8,
+    "titulo": "",
+    "sub": "",
+    "botao": "Toque em Saiba Mais",
+    "logo": ""
+  },
+  "moldura": {
+    "caixa": [
+      240,
+      960,
+      600,
+      780
+    ]
+  },
+  "cenas_proprias": [
+    {
+      "arquivo": "compositions/cenas/pos_palavras_fundo.html",
+      "de": 1.55,
+      "ate": 9.067,
+      "nome": "Cena · palavras soltas"
+    },
+    {
+      "arquivo": "compositions/cenas/pos_medidor_pronto.html",
+      "de": 6.27,
+      "ate": 9.067,
+      "nome": "Cena · medidor pronto?"
+    },
+    {
+      "arquivo": "compositions/cenas/pos_palavras_laterais.html",
+      "de": 9.067,
+      "ate": 11.2,
+      "nome": "Cena · palavras no fim"
+    }
+  ]
+}

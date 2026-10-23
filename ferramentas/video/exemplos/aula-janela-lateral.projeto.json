@@ -1,0 +1,204 @@
+{
+  "titulo": "Aula · Prognóstico · janela lateral (demo)",
+  "skill": "<pasta da skill editor-video no seu computador>",
+  "edit": "../edit",
+  "formato": "16:9",
+  "estilo": "noite",
+  "correcoes": {
+    "mais O importante": "mais importante"
+  },
+  "blocos": [
+    {
+      "cena": "tela_cheia",
+      "de": 0.0,
+      "ate": 2.48,
+      "zoom": 1.0,
+      "auto": "camera_viva",
+      "zooms": [
+        {
+          "em": 0.66,
+          "ate": 1.42,
+          "escala": 1.25,
+          "som": false,
+          "auto": "camera_viva"
+        }
+      ]
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 2.48,
+      "ate": 6.27,
+      "zoom": 1.12,
+      "auto": "camera_viva"
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 6.27,
+      "ate": 7.367,
+      "zoom": 1.0,
+      "auto": "camera_viva"
+    },
+    {
+      "cena": "moldura",
+      "de": 7.367,
+      "ate": 19.533
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 19.533,
+      "ate": 21.5,
+      "zoom": 1.12,
+      "auto": "camera_viva"
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 21.5,
+      "ate": 23.167,
+      "zoom": 1.0,
+      "auto": "camera_viva"
+    },
+    {
+      "cena": "moldura",
+      "de": 23.167,
+      "ate": 28.85
+    },
+    {
+      "cena": "tela_cheia",
+      "de": 28.85,
+      "zoom": 1.12,
+      "auto": "camera_viva"
+    }
+  ],
+  "legenda": {
+    "ligada": true,
+    "estilo": "discreta",
+    "max_palavras": 3,
+    "na_moldura": false
+  },
+  "animacoes": [
+    {
+      "id": "tema",
+      "tipo": "lettering",
+      "principal": "*Prognóstico*",
+      "apoio": "da lesão muscular",
+      "em": 4.08,
+      "sai": 6.9,
+      "estilo": "bloco"
+    },
+    {
+      "id": "momento",
+      "tipo": "lettering",
+      "principal": "Momento *mais importante*",
+      "em": 20.24,
+      "sai": 23.1,
+      "estilo": "bloco"
+    }
+  ],
+  "sons": [
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 4.57,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1517,
+      "db": -18.6,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "tema-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 5.43,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1205,
+      "db": -20.6,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "tema-apoio",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 7.717,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "db": -19,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "moldura",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 21.444,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.2143,
+      "db": -15.6,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "momento-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 23.517,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "db": -19,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "moldura",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 29.1,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "db": -19,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "moldura",
+      "plano": true
+    }
+  ],
+  "segura_fim": 1.0,
+  "cartao_final": {
+    "ligado": false,
+    "segundos": 1.8,
+    "titulo": "",
+    "sub": "",
+    "botao": "Toque em Saiba Mais",
+    "logo": ""
+  },
+  "cenas_proprias": [
+    {
+      "arquivo": "compositions/cenas/pos_etiqueta_nome.html",
+      "de": 0.2,
+      "ate": 3.9,
+      "nome": "Cena · etiqueta de nome",
+      "esconde_legenda": true
+    },
+    {
+      "arquivo": "compositions/cenas/pos_janela_lateral.html",
+      "de": 7.367,
+      "ate": 19.533,
+      "nome": "Cena · janela lateral"
+    },
+    {
+      "arquivo": "compositions/cenas/pos_pergunta_digitando.html",
+      "de": 23.167,
+      "ate": 28.85,
+      "nome": "Cena · pergunta do atleta"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "titulo": "Aula · Prognóstico da lesão muscular · fundo estúdio",
+  "skill": "<pasta da skill editor-video no seu computador>",
+  "edit": "../edit",
+  "formato": "16:9",
+  "estilo": "noite",
+  "correcoes": {
+    "mais O importante": "mais importante"
+  },
+  "blocos": [
+    {
+      "cena": "tela_verde",
+      "de": 0,
+      "fundo": "assets/fundo_estudio_fausto_desfocado.png",
+      "posicao": "centro",
+      "contorno": false,
+      "altura": 1.0,
+      "ate": 2.45
+    },
+    {
+      "cena": "tela_verde",
+      "de": 2.45,
+      "fundo": "assets/slide01_titulo.png",
+      "posicao": "direita",
+      "contorno": false,
+      "altura": 0.55,
+      "ate": 12.9,
+      "legenda": false
+    },
+    {
+      "cena": "tela_verde",
+      "de": 12.9,
+      "fundo": "assets/fundo_estudio_fausto_desfocado.png",
+      "posicao": "direita",
+      "contorno": false,
+      "altura": 0.8,
+      "ate": 19.533,
+      "legenda": false
+    },
+    {
+      "cena": "tela_verde",
+      "de": 19.533,
+      "fundo": "assets/fundo_estudio_fausto_desfocado.png",
+      "posicao": "centro",
+      "contorno": false,
+      "altura": 1.0,
+      "ate": 23.167
+    },
+    {
+      "cena": "prova",
+      "de": 23.167,
+      "ate": 28.85,
+      "arquivo": "assets/slide02_quanto_tempo.png"
+    },
+    {
+      "cena": "tela_verde",
+      "de": 28.85,
+      "fundo": "assets/fundo_estudio_fausto_desfocado.png",
+      "posicao": "centro",
+      "contorno": false,
+      "altura": 1.0
+    }
+  ],
+  "legenda": {
+    "ligada": true,
+    "estilo": "discreta",
+    "max_palavras": 3,
+    "na_moldura": false
+  },
+  "animacoes": [
+    {
+      "id": "aula",
+      "tipo": "lista_check",
+      "titulo": "Nesta *aula*",
+      "marca": "check",
+      "depois_de": 12.95,
+      "sai": 19.5,
+      "itens": [
+        {
+          "texto": "Mecanismos",
+          "em": 13.94
+        },
+        {
+          "texto": "Epidemiologia",
+          "em": 15.23
+        },
+        {
+          "texto": "Como prever",
+          "em": 16.52
+        },
+        {
+          "texto": "Comunicação",
+          "em": 17.85
+        }
+      ],
+      "onde": [
+        90,
+        180
+      ]
+    },
+    {
+      "id": "momento",
+      "tipo": "lettering",
+      "principal": "Momento *mais importante*",
+      "em": 20.24,
+      "sai": 23.1,
+      "estilo": "bloco"
+    }
+  ],
+  "sons": [
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 4.57,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1517,
+      "db": -18.6,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "tema-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 5.43,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1205,
+      "db": -20.6,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "tema-apoio",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 7.717,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "db": -19,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "moldura",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 8.49,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.1517,
+      "db": -18.6,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "aula",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 9.22,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "aula-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 10.91,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "aula-1",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 14.37,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "aula-2",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 15.66,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "aula-3",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 16.95,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "aula-4",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 18.28,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "aula-5",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/pop-hand.wav",
+      "em": 21.444,
+      "pico_no_arquivo": 0.0257,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3483,
+      "volume": 0.2143,
+      "db": -15.6,
+      "fade": 0.0,
+      "tipo": "pop",
+      "nota": "momento-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/fast-whoosh.wav",
+      "em": 23.517,
+      "pico_no_arquivo": 0.1116,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.3947,
+      "db": -19,
+      "fade": 0.0,
+      "tipo": "whoosh",
+      "nota": "moldura",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 24.417,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "quem-0",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 27.38,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "quem-1",
+      "plano": true
+    },
+    {
+      "arquivo": "assets/sfx/tick-sound.wav",
+      "em": 28.51,
+      "pico_no_arquivo": 0.0277,
+      "inicio_no_arquivo": 0.0,
+      "dur": 0.4277,
+      "volume": 0.3904,
+      "db": -18.6,
+      "fade": 0.2,
+      "tipo": "tique",
+      "nota": "quem-2",
+      "plano": true
+    }
+  ],
+  "segura_fim": 0,
+  "cartao_final": {
+    "ligado": false,
+    "segundos": 1.8,
+    "titulo": "",
+    "sub": "",
+    "botao": "Toque em Saiba Mais",
+    "logo": ""
+  }
+}

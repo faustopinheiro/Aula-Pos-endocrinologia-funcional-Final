@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="UTF-8"/><title>palavras soltas no fim</title></head>
+<body>
+<!--
+  Palavras da fala soltas nas laterais do vídeo em tela cheia: contorno branco, preenchimento quase transparente, cada uma entra
+  na palavra dita e fica derivando devagar até a moldura acabar. Só nas faixas livres (lados e base do quadro),
+  nunca em cima da lista, do medidor ou do rosto.
+-->
+<template id="pos_palavras_laterais-template">
+<style>
+@font-face{font-family:Montserrat;src:url("assets/fontes/Montserrat.ttf") format("truetype");font-weight:100 900;font-display:block}
+#root{position:absolute;inset:0;overflow:hidden;font-family:Montserrat}
+.ppl-eixo{position:absolute;width:0;height:0}
+.ppl-anda{position:absolute;left:0;top:0;opacity:0}
+.ppl-txt{position:absolute;left:0;top:0;transform:translate(-50%,-50%);white-space:nowrap;font-weight:900;
+  letter-spacing:.04em;color:rgba(255,255,255,.08);-webkit-text-stroke:2px rgba(255,255,255,.95)}
+#ppl-e1{left:78px;top:720px;transform:rotate(-90deg)}
+#ppl-e2{left:1002px;top:720px;transform:rotate(90deg)}
+#ppl-t1,#ppl-t2{font-size:104px}
+</style>
+<div id="root" data-composition-id="pos_palavras_laterais" data-width="1080" data-height="1920" data-duration="4.23">
+  <div class="ppl-eixo" id="ppl-e1"><div class="ppl-anda" id="ppl-a1"><span class="ppl-txt" id="ppl-t1">INDICAR</span></div></div>
+  <div class="ppl-eixo" id="ppl-e2"><div class="ppl-anda" id="ppl-a2"><span class="ppl-txt" id="ppl-t2">ENTENDER</span></div></div>
+</div>
+<script>
+(function () {
+  // palavras do trecho em segundos da cena; aberta sozinha no estúdio a cena usa os valores padrão
+  const C = (window.__cenas || {})["pos_palavras_laterais"] || { palavras: [], duracao: 4.23, moldura: null };
+  const DUR = C.duracao;
+  const fechada = C.moldura ? C.moldura.fechada_em || 0 : 0;
+  const sem = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const em = (texto, depois, padrao) => {
+    const p = (C.palavras || []).find((w) => w.t >= depois - 1e-3 && sem(w.texto).startsWith(sem(texto)));
+    return p ? p.t : padrao;
+  };
+  // cada palavra: quando entra, o quanto deriva ao longo do eixo dela e a opacidade final (as de lado mais fortes)
+  const itens = [
+    { id: 1, t: em("indicar", 0, 0.66), anda: 50, alpha: 0.4 },
+    { id: 2, t: em("entender", 0, 1.61), anda: -50, alpha: 0.4 },
+  ];
+  const sai = Math.max(0.5, DUR - 0.35);
+  const tl = gsap.timeline({ paused: true });
+  itens.forEach((it) => {
+    const t0 = Math.min(Math.max(it.t - 0.05, fechada + 0.05), sai - 0.6);
+    const sel = "#ppl-a" + it.id;
+    // entra subindo e clareando; depois deriva devagar no próprio eixo até a moldura acabar
+    tl.fromTo(sel, { opacity: 0, y: 34 }, { opacity: it.alpha, y: 0, duration: 0.7, ease: "power2.out" }, t0);
+    tl.fromTo(sel, { x: 0 }, { x: it.anda, duration: Math.max(0.1, sai - t0), ease: "none", immediateRender: false }, t0);
+    tl.to(sel, { opacity: 0, duration: 0.3, ease: "power2.in", immediateRender: false }, sai);
+  });
+  window.__timelines["pos_palavras_laterais"] = tl;
+})();
+</script>
+</template>
+</body>
+</html>
