@@ -18,7 +18,7 @@ Instalar
 - Etiqueta de nome (`pos_etiqueta_nome`) na primeira aparição: "Dr. Fausto Farias · Medicina do Esporte ·
   @faustofarias_med · Pós em Ciências do Esporte Aplicadas à Saúde". Esconde a legenda nesse trecho.
 
-Reels: 9:16, estilo `laranja`, legenda `padrao`, efeitos do plano do Chip.
+Reels/Shorts: 9:16, estilo `dourado`, legenda `padrao`, efeitos do plano do Chip, medidor no fim (Reels › 2).
 
 ## Aula
 
@@ -64,17 +64,29 @@ palavras da fala (ajustes no LEIA da biblioteca).
 ideia completa: tempo, frase de abertura e por que prende. Não edite antes de ele escolher, a não ser que ele
 tenha dito "decide você".
 
-**2. Reels padrão** (o do PRP, aprovado):
+**2. Reels/Shorts padrão** (o do Legacy, aprovado em 23/10/2026 com "ficou perfeito"; vale para todo Reels e
+Shorts, com qualquer cenário). Números, estilo e comandos em `ferramentas/video/LEIA.md` › "Padrão do
+Reels/Shorts"; exemplo inteiro em `ferramentas/video/exemplos/shorts-produto-legacy.projeto.json`.
 - Corte sem pausas, sem "tá"/"né", sem o vocativo que atrasa o gancho.
-- Gancho em duas batidas no primeiro segundo: a palavra principal gigante atrás dele (`atras_da_pessoa`,
-  `altura` "topo") e a frase de impacto no peito (`lettering` `posicao` "base"). Separe em duas peças: o
-  lettering segura a palavra antes de um "não" até o "não" ser dito.
-- Moldura para lista com X ou check (`lista_check`) e medidor (`k2d_medidor`) quando a fala põe algo numa
-  escala ("não significa estar pronto").
-- Palavras translúcidas da fala em volta da moldura (`pos_palavras_fundo`) e nas laterais em tela cheia
-  (`pos_palavras_laterais`), saindo antes do fechamento.
-- Fechamento com a frase final grande (`lettering`) e a tela limpa, `segura_fim` 1.2.
-- Moldura maior no 9:16: `"moldura": {"caixa": [240, 960, 600, 780]}`.
+- **Tela cheia o vídeo todo**, sem moldura e sem papel quadriculado. Estilo `dourado` (dourado champanhe, preto e
+  branco; nada de laranja).
+- **Cenário:** com foto de cenário, `trocar_fundo_shorts.py` (foto cobrindo 71% da altura, a parte com menos
+  coisa atrás da cabeça, a mesa da gravação na frente como balcão). Sem foto, o fundo real.
+- **Câmera:** zoom 1,15 nos trechos abertos e 1,25 nos outros, alternando nas trocas de tomada; aproximação no
+  rosto (`escala` 1,42) nas frases fortes; zoom no produto (`caixa`, 1,45 a 1,6) quando ele mostra o rótulo, sem
+  legenda nesse bloco.
+- **Gancho em duas batidas** no primeiro segundo: a palavra principal atrás dele (`atras_da_pessoa`, `altura`
+  "topo") e a frase de impacto no peito (`lettering` `posicao` "base"). O lettering segura a palavra antes de um
+  "não" até o "não" ser dito: separe em duas peças.
+- **Lista falada** (notas, exercícios, suplementos, sintomas): cada item aparece ao lado do rosto quando é
+  citado, com o selo do veredito dele (✓ ✕ ? ≈) e uma frase curta dele, e some (`itens_ao_lado_do_rosto.py`).
+  Título da seção numa pílula no alto.
+- Lettering nas frases que pesam, rótulo nas falas de apoio, carimbo verde no elogio e vermelho no "não é...".
+- **Medidor no fim, sempre (a marca):** a pergunta do vídeo no rótulo e a agulha indo para o veredito dele na
+  palavra em que ele diz ("É CHEIROSO?" → "MUITO CHEIROSO"). Cartão deitado no peito, rosto livre, legenda
+  escondida. Só com as palavras dele: sem veredito na fala, pergunte qual é.
+- **Fecho:** a frase final em lettering, zoom no produto (ou no rosto) e o nome do produto em dourado embaixo;
+  `segura_fim` 1,5.
 
 **3. Lote de ganchos:** 3 versões com aberturas diferentes (pergunta, número, frase polêmica), corpo igual.
 
@@ -91,7 +103,7 @@ de 5 linhas antes de aplicar.
 |---|---|
 | Um número que importa ("73 dias", "4 vezes") | contador |
 | Uma faixa ou variação ("mais ou menos 60 dias") | medidor ou régua |
-| Uma lista ("fortalecimento, reabilitação, acompanhamento") | lista com check (o que tem) ou X (o que não substitui) |
+| Uma lista ("fortalecimento, reabilitação, acompanhamento") | aula: lista com check (o que tem) ou X (o que não substitui); Reels/Shorts: cada item ao lado do rosto com o selo |
 | Etapas, fases, classificação, graus | passo a passo ou esquema que cresce |
 | Comparação ("duas semanas boas, seis ruins") | antes e depois |
 | Uma pergunta de alguém ("quanto tempo ele volta?") | cartão que digita, ou conversa no celular |
@@ -100,6 +112,7 @@ de 5 linhas antes de aplicar.
 | Um estudo ("Br J Sports Med 2013") | rótulo com a fonte |
 | Caso clínico, exame | prova em tela cheia com zoom e borrão |
 | Fechamento, próxima aula | slide final e cartão |
+| O veredito do Reels ("é muito cheiroso", "vale a pena") | medidor no fim, a agulha no veredito (a marca) |
 
 ## Efeitos de estúdio (referência: vídeo do Rafa Voss)
 
